@@ -19,17 +19,9 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Build and push
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: true
-          platforms: linux/amd64
-          tags: bunker.mantracare.com/therapy:1.0
-          provenance: false
-          sbom: false
-          build-args: |
-            DATABASE_URL=${{ secrets.DATABASE_URL }}
+      - name: Build and Push Image (Manual)
+        run: |
+          docker build \
+            --build-arg DATABASE_URL="${{ secrets.DATABASE_URL }}" \
+            -t bunker.mantracare.com/lovable/therapy:1.0 .
+          docker push bunker.mantracare.com/lovable/therapy:1.0
