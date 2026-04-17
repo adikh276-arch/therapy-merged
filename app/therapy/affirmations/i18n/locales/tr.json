@@ -1,0 +1,173 @@
+{
+  "affirmations.common": {
+    "title": "Olumlamalar — Nazik Bir Yoldaş",
+    "beforeYouBegin": "Başlamadan Önce",
+    "introText1": "Kendinizi rahat hissediyorsanız, bu olumlama cümlelerini okurken bir aynanın karşısında durmayı tercih edebilirsiniz.",
+    "introText2": "Kendinize hafifçe bakıp her satırı yavaşça ve net bir şekilde yüksek sesle söyleyebilirsiniz. Kendi sesinizi duymak, kelimelerin daha kişisel ve size daha çok şey anlattığını hissettirebilir.",
+    "noRightWay": "Bunu yapmanın doğru bir yolu yok.",
+    "takeTime": "Acele etmeyin.",
+    "breatheNaturally": "Doğal bir şekilde nefes alın.",
+    "noRush": "Acele etmeye veya herhangi bir duyguyu zorlamaya gerek yok.",
+    "meaningfulMoment": "Sözler şu an tam olarak doğru gelmese bile, bu niyet anına izin vermek yine de anlamlı olabilir.",
+    "readyToBegin": "Kendinizi hazır hissettiğiniz zaman başlayabilirsiniz ✨",
+    "begin": "Başlamak",
+    "howFeeling": "Şu an nasıl hissediyorsunuz?",
+    "noExplanation": "Hiçbir şeyi açıklamanıza veya analiz etmenize gerek yok.",
+    "justNotice": "Şu anda deneyiminize en yakın gelen şeye odaklanın.",
+    "chooseOne": "Başlamak için bir duygu seçin; her zaman geri dönebilirsiniz.",
+    "readAgain": "Tekrar Oku",
+    "chooseAnother": "Başka Bir Duygu Seçin"
+  },
+  "affirmations.feelings": {
+    "lonely": {
+      "label": "Kendinizi yalnız ve üzgün hissettiğinizde",
+      "affirmations": [
+        "Kendimi yalnız hissetsem bile yalnız değilim.",
+        "Duygularım özen ve şefkati hak ediyor.",
+        "Bu an sonsuza dek sürmeyecek.",
+        "Bağlantıya ihtiyaç duyma hakkım var.",
+        "Şu anda kendime sıcaklık sunabilirim."
+      ]
+    },
+    "terrified": {
+      "label": "Korkuya kapıldığınızda",
+      "affirmations": [
+        "Şu an güvendeyim.",
+        "Korku bir duygudur, bir tahmin değil.",
+        "Bunu adım adım, nefes nefese atlatabilirim.",
+        "Şu anda her şeyi çözmek zorunda değilim.",
+        "Ben bu anın üstesinden gelebilecek güçteyim."
+      ]
+    },
+    "insignificant": {
+      "label": "Kendinizi önemsiz hissettiğinizde",
+      "affirmations": [
+        "Küçük anlar bile önemlidir.",
+        "Değerimi kanıtlamama gerek yok.",
+        "Yer kaplamama izin veriliyor.",
+        "Varoluşumun bir önemi var.",
+        "Ben olduğum gibi yeterliyim."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Kendinizi bunalmış hissettiğinizde",
+      "affirmations": [
+        "Her şeyi aynı anda yapmak zorunda değilim.",
+        "Küçük bir adım bile yeterli.",
+        "Duraklamak sorun değil.",
+        "Dinlenmeme izin verildi.",
+        "Bu durum tekrar kontrol altına alınabilir hale gelecek."
+      ]
+    },
+    "hopeless": {
+      "label": "Umutsuz hissettiğinizde",
+      "affirmations": [
+        "Bugün cevaplara ihtiyacım yok.",
+        "Değişim hâlâ mümkün.",
+        "Daha önce de zor günleri atlattım.",
+        "Şimdilik burada kalabilirim.",
+        "Hâlâ nazik bir şeyler ortaya çıkabilir."
+      ]
+    },
+    "conflicted": {
+      "label": "Çelişkili hissettiğinizde",
+      "affirmations": [
+        "Aynı anda birden fazla şey hissetmekte bir sakınca yok.",
+        "Hemen açıklığa ihtiyacım yok.",
+        "Kafa karışıklığı başarısızlık anlamına gelmez.",
+        "Kendime zaman tanıyabilirim.",
+        "Bunu çözebileceğime güveniyorum."
+      ]
+    },
+    "self-critical": {
+      "label": "Kendinizi çok eleştirdiğinizde",
+      "affirmations": [
+        "Kendime nazikçe konuşabiliyorum.",
+        "Gelişmek için kendimi cezalandırmama gerek yok.",
+        "Hatalarım kim olduğumu belirlemez.",
+        "Öğreniyorum, başarısız olmuyorum.",
+        "Gelişim, zulüm gerektirmez."
+      ]
+    },
+    "out-of-place": {
+      "label": "Kendinizi sosyal olarak yabancı hissettiğinizde",
+      "affirmations": [
+        "Sessiz kalmaya veya farklı olmaya hakkım var.",
+        "Başka kimsenin enerjisine ayak uydurmak zorunda değilim.",
+        "Ben olduğum gibi ait olduğum yere aitim.",
+        "Yer kaplamayı nazikçe sağlayabilirim.",
+        "Bunu yanlış yapmıyorum."
+      ]
+    },
+    "unsafe": {
+      "label": "Yabancıların yanında kendinizi güvende hissetmediğinizde",
+      "affirmations": [
+        "Kendi tempomda ilerleyebilirim.",
+        "Sınırlarımı koruma hakkım var.",
+        "Bedenimle bağlantımı koruyabiliyorum.",
+        "Durumlardan uzaklaşmama izin veriliyor.",
+        "Kendimi güvende tutabilirim."
+      ]
+    },
+    "pressured": {
+      "label": "İş yerinde baskı altında hissettiğinizde",
+      "affirmations": [
+        "Değerim üretkenliğimle ölçülmez.",
+        "Kendimi sürekli kanıtlamak zorunda değilim.",
+        "Bugün elimden gelenin en iyisini yapmak yeterli.",
+        "Aynı anda sadece bir işe odaklanmak sorun değil.",
+        "Ben rolümden çok daha fazlasıyım."
+      ]
+    },
+    "face-the-day": {
+      "label": "Güne başlamak istemediğinizde",
+      "affirmations": [
+        "Bugünü küçük parçalar halinde ele alabilirim.",
+        "Atlatmak yeterli.",
+        "Başlamak için motivasyona ihtiyacım yok.",
+        "Nazikçe ortaya çıkmak da hâlâ önemlidir.",
+        "Bu gün beni tanımlamaz."
+      ]
+    },
+    "future": {
+      "label": "Geleceğiniz hakkında endişelendiğinizde",
+      "affirmations": [
+        "Şimdiki zamana dönebilirim.",
+        "Olaylar geliştikçe onlarla ilgileneceğim.",
+        "Bugün kesinliğe ihtiyacım yok.",
+        "Uyarlanma yeteneğine sahibim.",
+        "Kendime biraz daha güvenebiliyorum artık."
+      ]
+    },
+    "stuck": {
+      "label": "Bir sorun karşısında çıkmazda kaldığınızı hissettiğinizde",
+      "affirmations": [
+        "Sıkışıp kalmış olmak, bozuk olduğum anlamına gelmez.",
+        "Vazgeçmeden duraklayabilirim.",
+        "Acil çözümlere ihtiyacım yok.",
+        "Kendimi güvensiz hissetme hakkım var.",
+        "Hâlâ hareket ediyorum, yavaş da olsa."
+      ]
+    },
+    "compare": {
+      "label": "Kendinizi başkalarıyla karşılaştırdığınızda",
+      "affirmations": [
+        "Benim yolculuğum bana özel.",
+        "Değerli olmak için rekabet etmeme gerek yok.",
+        "Kendi tempomda gelişmeme izin veriliyor.",
+        "Başkasının başarısı benimkini silmez.",
+        "Ben geride değilim."
+      ]
+    },
+    "give-up": {
+      "label": "Vazgeçmek istediğinizde",
+      "affirmations": [
+        "Şu an hiçbir şeye karar vermek zorunda değilim.",
+        "Bu his geçecek.",
+        "Tahmin ettiğimden çok daha fazlasını atlattım.",
+        "Bir an daha kalabilirim.",
+        "Hâlâ buradayım ve bu önemli."
+      ]
+    }
+  }
+}

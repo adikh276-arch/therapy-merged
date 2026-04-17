@@ -1,0 +1,56 @@
+{
+  "what_are_your_habits.title": "Thói quen của bạn là gì?",
+  "what_are_your_habits.intro_description": "Những thói quen nhỏ nhặt hàng ngày ảnh hưởng đến mức độ căng thẳng. Hãy cùng khám phá những thói quen của bạn một cách nhẹ nhàng.",
+  "what_are_your_habits.start_activity": "Bắt đầu hoạt động",
+  "what_are_your_habits.body_title": "🧍‍♀️ Quy trình chăm sóc cơ thể hàng ngày của bạn",
+  "what_are_your_habits.body_subtitle": "Gần đây bạn cảm thấy điều nào trong số này có vẻ không ổn? (Chọn tất cả các đáp án phù hợp)",
+  "what_are_your_habits.continue": "Tiếp tục",
+  "what_are_your_habits.body_options": [
+    "Tôi ngủ không ngon giấc.",
+    "Tôi ngủ không đều giờ giấc.",
+    "Thỉnh thoảng tôi bỏ bữa.",
+    "Tôi ăn nhiều hơn bình thường khi bị căng thẳng.",
+    "Tôi hầu như không vận động hay tập thể dục gì cả.",
+    "Tôi ít khi ra ngoài dạo gần đây.",
+    "Quy trình chăm sóc cá nhân của tôi đã thay đổi.",
+    "Lịch trình hàng ngày của tôi diễn ra đều đặn."
+  ],
+  "what_are_your_habits.mind_title": "🧠 Các kiểu suy nghĩ của bạn",
+  "what_are_your_habits.mind_options": [
+    "Tôi cứ suy nghĩ quá nhiều về mọi chuyện.",
+    "Tôi thường tưởng tượng ra những tình huống xấu nhất có thể xảy ra.",
+    "Tôi quá khắt khe với bản thân mình.",
+    "Tôi cảm thấy tội lỗi về những việc mình đã làm hoặc không làm.",
+    "Tôi luôn lo lắng",
+    "Tôi thấy khó mà thư giãn được.",
+    "Tôi cảm thấy những suy nghĩ của mình có thể kiểm soát được."
+  ],
+  "what_are_your_habits.coping_title": "🌊 Cách bạn phản ứng với căng thẳng",
+  "what_are_your_habits.coping_options": [
+    "Tôi thường tránh làm việc khi bị căng thẳng.",
+    "Tôi hay lướt điện thoại để phân tâm bản thân.",
+    "Tôi dành thời gian ở một mình để đối phó với khó khăn.",
+    "Tôi dồn hết tâm sức vào công việc khi bị căng thẳng.",
+    "Tôi tâm sự với ai đó về cảm xúc của mình.",
+    "Tôi tập các bài tập thở để bình tĩnh lại.",
+    "Tôi xem TV hoặc chơi game để giải trí.",
+    "Tôi không chắc mình phản ứng thế nào với căng thẳng."
+  ],
+  "what_are_your_habits.reflection_title": "✍️ Suy ngẫm",
+  "what_are_your_habits.question_stress": "Thói quen nào sẽ làm tăng căng thẳng của bạn sau này?",
+  "what_are_your_habits.question_calm": "Thói quen nào có thể giúp bạn cảm thấy bình tĩnh hơn?",
+  "what_are_your_habits.see_insight": "Xem nhận định của tôi",
+  "what_are_your_habits.insight_title": "Các hành động được đề xuất",
+  "what_are_your_habits.insight_description": "Nhấn vào bên dưới để xem những thói quen đơn giản có thể giúp giảm căng thẳng.",
+  "what_are_your_habits.show_suggestions": "Hiển thị gợi ý",
+  "what_are_your_habits.commit": "Làm",
+  "what_are_your_habits.suggestions": [
+    "Tối nay hãy thử đi ngủ sớm hơn một chút.",
+    "Hãy ra ngoài hít thở không khí trong lành hôm nay!",
+    "Hãy tạm ngừng lướt mạng một lúc.",
+    "Hãy đối xử tử tế với chính mình.",
+    "Hoàn thành một việc mà bạn đã trì hoãn."
+  ],
+  "what_are_your_habits.final_text": "Những thay đổi nhỏ cũng rất quan trọng. Sự nhất quán tạo nên sự bình tĩnh.",
+  "what_are_your_habits.finish": "Hoàn thành"
+}

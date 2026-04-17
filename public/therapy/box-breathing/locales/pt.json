@@ -1,0 +1,21 @@
+{
+  "box_breathing.relax": "Relaxar",
+  "box_breathing.about_technique": "Sobre esta técnica",
+  "box_breathing.technique_description": "A respiração quadrada utiliza um padrão simples de 4-4-4-4 — inspire, segure, expire, segure — cada repetição por quatro segundos. Ela ativa o sistema nervoso parassimpático, reduzindo o estresse e trazendo você de volta a um estado de calma e concentração.",
+  "box_breathing.how_to_practice": "Como praticar",
+  "box_breathing.inhale_4s": "Inspire durante 4 segundos.",
+  "box_breathing.hold_4s": "Mantenha pressionado por 4 segundos.",
+  "box_breathing.exhale_4s": "Expire durante 4 segundos.",
+  "box_breathing.repeat_cycle": "Repita o ciclo",
+  "box_breathing.start_breathing": "Comece a respirar",
+  "box_breathing.breathe_in": "Inspire",
+  "box_breathing.hold": "Segurar",
+  "box_breathing.breathe_out": "Expire",
+  "box_breathing.feeling_calmer": "Você está se sentindo mais calmo(a)",
+  "box_breathing.session_complete_msg": "Ótimo trabalho ao concluir sua sessão de respiração. Reserve um momento para perceber como seu corpo se sente — mais leve, mais estável, mais relaxado.",
+  "box_breathing.start_again": "Começar de novo",
+  "box_breathing.back": "Voltar",
+  "box_breathing.not_found_404": "404",
+  "box_breathing.page_not_found": "Ops! Página não encontrada",
+  "box_breathing.return_home": "Voltar para a página inicial"
+}

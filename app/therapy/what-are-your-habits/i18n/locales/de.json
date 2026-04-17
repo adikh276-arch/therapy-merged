@@ -1,0 +1,56 @@
+{
+  "what_are_your_habits.title": "Was sind Ihre Gewohnheiten?",
+  "what_are_your_habits.intro_description": "Kleine, alltägliche Gewohnheiten beeinflussen Stress. Lass uns deine in Ruhe erkunden.",
+  "what_are_your_habits.start_activity": "Aktivität starten",
+  "what_are_your_habits.body_title": "🧍‍♀️ Deine tägliche Körperroutine",
+  "what_are_your_habits.body_subtitle": "Welches davon fühlt sich in letzter Zeit etwas seltsam an? (Mehrere Antworten möglich)",
+  "what_are_your_habits.continue": "Weitermachen",
+  "what_are_your_habits.body_options": [
+    "Ich habe nicht gut geschlafen.",
+    "Mein Schlafrhythmus ist unregelmäßig.",
+    "Ich lasse manchmal Mahlzeiten aus.",
+    "Ich esse mehr als sonst, wenn ich gestresst bin.",
+    "Ich habe mich in letzter Zeit nicht viel bewegt oder Sport getrieben.",
+    "Ich war in letzter Zeit nicht oft draußen.",
+    "Meine persönliche Pflegeroutine hat sich verändert",
+    "Mein Tagesablauf fühlt sich stabil an."
+  ],
+  "what_are_your_habits.mind_title": "🧠 Deine Denkmuster",
+  "what_are_your_habits.mind_options": [
+    "Ich zerdenke die Dinge ständig.",
+    "Ich male mir oft das schlimmstmögliche Szenario aus.",
+    "Ich bin sehr streng mit mir selbst.",
+    "Ich fühle mich schuldig wegen Dingen, die ich getan oder nicht getan habe.",
+    "Ich mache mir ständig Sorgen.",
+    "Mir fällt es schwer, mich zu entspannen.",
+    "Meine Gedanken fühlen sich beherrschbar an"
+  ],
+  "what_are_your_habits.coping_title": "🌊 Wie du auf Stress reagierst",
+  "what_are_your_habits.coping_options": [
+    "Ich vermeide Aufgaben, wenn ich gestresst bin.",
+    "Ich scrolle viel auf meinem Handy, um mich abzulenken.",
+    "Ich verbringe Zeit allein, um damit umzugehen",
+    "Ich stürze mich in die Arbeit, wenn ich gestresst bin.",
+    "Ich spreche mit jemandem darüber, wie ich mich fühle.",
+    "Ich mache Atemübungen, um mich zu beruhigen.",
+    "Ich schaue fern oder spiele Videospiele, um mich abzulenken.",
+    "Ich bin mir nicht sicher, wie ich auf Stress reagiere."
+  ],
+  "what_are_your_habits.reflection_title": "✍️ Reflexion",
+  "what_are_your_habits.question_stress": "Welche Gewohnheit erhöht später Ihren Stresspegel?",
+  "what_are_your_habits.question_calm": "Welche Gewohnheit könnte Ihnen helfen, sich ruhiger zu fühlen?",
+  "what_are_your_habits.see_insight": "Siehe meine Einsicht",
+  "what_are_your_habits.insight_title": "Empfohlene Maßnahmen",
+  "what_are_your_habits.insight_description": "Tippe unten, um einfache Gewohnheiten zu sehen, die helfen können, Stress abzubauen.",
+  "what_are_your_habits.show_suggestions": "Vorschläge anzeigen",
+  "what_are_your_habits.commit": "Begehen",
+  "what_are_your_habits.suggestions": [
+    "Versuche heute Abend etwas früher ins Bett zu gehen.",
+    "Gehen Sie heute nach draußen und schnappen Sie sich frische Luft.",
+    "Machen Sie eine Weile Pause vom Scrollen.",
+    "Sprich freundlich mit dir selbst.",
+    "Erledige eine Aufgabe, die du schon lange aufgeschoben hast."
+  ],
+  "what_are_your_habits.final_text": "Kleine Veränderungen sind wichtig. Beständigkeit schafft Ruhe.",
+  "what_are_your_habits.finish": "Beenden"
+}

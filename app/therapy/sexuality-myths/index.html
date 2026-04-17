@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sexuality Myths</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+    :root {
+    --bg: #F0E7FF;
+    --primary: #A78BFA;
+    --ink: #1a1a1a;
+    --light: #F0E7FF;
+    --mid: #A78BFA;
+    --subtext: #4a4a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+  header {
+    padding: 3rem 2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--primary);
+  }
+  .header-content h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 0.5rem;
+    color: var(--ink);
+  }
+  .header-content p {
+    font-size: 1.1rem;
+    color: var(--subtext);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .myths-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem 3rem;
+  }
+
+  .myth-item {
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-left: 5px solid var(--primary);
+  }
+
+  .myth-item:hover {
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+
+  .myth-header {
+    padding: 1.8rem 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background: linear-gradient(135deg, var(--light) 0%, white 100%);
+    transition: background 0.3s ease;
+  }
+
+  .myth-item.active .myth-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary) 100%);
+    color: white;
+  }
+
+  .myth-icon { display: none !important; 
+    font-size: 2rem;
+    flex-shrink: 0;
+    min-width: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .myth-title-section {
+    flex: 1;
+    text-align: left;
+  }
+
+  .myth-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--primary);
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+
+  .myth-item.active .myth-label {
+    color: rgba(255,255,255,0.8);
+  }
+
+  .myth-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .myth-item.active .myth-title {
+    color: white;
+  }
+
+  .toggle-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    color: var(--primary);
+  }
+
+  .myth-item.active .toggle-icon {
+    transform: rotate(180deg);
+    color: white;
+  }
+
+  .myth-content {
+    display: none;
+    padding: 0 2rem 2rem 2rem;
+    border-top: 2px solid var(--light);
+  }
+
+  .myth-item.active .myth-content {
+    display: block;
+    animation: slideDown 0.3s ease;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .myth-fact {
+    background: linear-gradient(135deg, #f0e8ff 0%, #ede0ff 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary);
+  }
+
+  .myth-fact h3 {
+    color: var(--primary);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.8rem;
+  }
+
+  .myth-fact p {
+    color: var(--subtext);
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .myth-fact p + p {
+    margin-top: 1rem;
+  }
+
+  .myth-explanation {
+    color: var(--subtext);
+    line-height: 1.85;
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .myth-sources {
+    background: white;
+    border: 1px solid var(--light);
+    padding: 1rem 1.3rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: var(--subtext);
+    margin-top: 1.5rem;
+  }
+
+  .myth-sources strong {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  .counter {
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    background: var(--light);
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .myth-item.active .counter {
+    background: rgba(255,255,255,0.2);
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--subtext);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .myth-header {
+      padding: 1.3rem 1.5rem;
+    }
+    .myth-content {
+      padding: 0 1.5rem 1.5rem;
+    }
+    .myth-title {
+      font-size: 1.05rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Sexuality Myths Debunked</h1>
+    <p>Separate fact from fiction. These are the myths keeping people from getting help — and the truth that sets them free.</p>
+  </div>
+</header>
+
+<div class="myths-container" id="mythsContainer"></div>
+
+<footer>
+  <p>Mental health information should be evidence-based. These myths are debunked using research from mental health organizations, clinical psychology, and peer-reviewed studies.</p>
+</footer>
+
+<script>
+const myths = [
+
+{
+  number: 1,
+  myth: "Sexuality is a choice",
+  icon: "",
+  fact: "Sexuality is influenced by biological, psychological, and developmental factors",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Sexuality is not something individuals simply decide — it develops through complex influences.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Sexual orientation and identity are shaped by a combination of biological, developmental, and environmental factors. They are not the result of a single conscious decision.
+      </p>
+
+      <p class="myth-explanation">
+        While individuals may choose how to express their identity, the underlying experience of attraction or orientation is not something that can be changed at will.
+      </p>
+
+      <p class="myth-explanation">
+        Understanding this reduces stigma and supports a more accurate view of human diversity.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Psychological and biological research — sexuality is not a voluntary choice.
+      </div>
+  `
+},
+
+{
+  number: 2,
+  myth: "It’s just a phase",
+  icon: "",
+  fact: "Sexual identity may evolve, but it is not inherently temporary",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Exploration does not mean invalidity — identity development can be gradual and meaningful.</p>
+      </div>
+
+      <p class="myth-explanation">
+        For some individuals, understanding sexuality involves a process of exploration. This does not mean that their experiences are temporary or insignificant.
+      </p>
+
+      <p class="myth-explanation">
+        Dismissing identity as a phase can invalidate experiences and discourage open discussion.
+      </p>
+
+      <p class="myth-explanation">
+        Identity may evolve over time, but this is part of development — not evidence that it is unreal.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Identity development studies — exploration is a normal part of self-understanding.
+      </div>
+  `
+},
+
+{
+  number: 3,
+  myth: "You need a label to understand your sexuality",
+  icon: "",
+  fact: "Labels can help some people, but they are not required",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Understanding your sexuality does not require fitting into a fixed category.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Labels can provide clarity, community, and language for some individuals. However, others may feel restricted by them.
+      </p>
+
+      <p class="myth-explanation">
+        The expectation to define identity quickly can create pressure and confusion.
+      </p>
+
+      <p class="myth-explanation">
+        It is valid to explore without committing to a label or to change how identity is described over time.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Identity research — flexibility supports psychological wellbeing.
+      </div>
+  `
+},
+
+{
+  number: 4,
+  myth: "Talking about sexuality is inappropriate or unnecessary",
+  icon: "",
+  fact: "Open discussion supports understanding and reduces stigma",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Communication allows for accurate information, support, and reduced misunderstanding.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Avoiding conversations about sexuality can lead to misinformation, confusion, and increased stigma.
+      </p>
+
+      <p class="myth-explanation">
+        Open and respectful discussion helps individuals understand themselves and others more clearly.
+      </p>
+
+      <p class="myth-explanation">
+        It also creates environments where people feel safer expressing identity.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Education studies — open discussion improves knowledge and reduces stigma.
+      </div>
+  `
+},
+
+{
+  number: 5,
+  myth: "Sexuality has nothing to do with mental health",
+  icon: "",
+  fact: "Sexuality and mental health are closely connected",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Experiences related to identity, acceptance, and relationships can influence mental wellbeing.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Factors such as stigma, lack of acceptance, or internal conflict can contribute to stress, anxiety, or reduced self-esteem.
+      </p>
+
+      <p class="myth-explanation">
+        Supportive environments and acceptance are associated with better mental health outcomes.
+      </p>
+
+      <p class="myth-explanation">
+        Recognising this connection helps guide more effective support and understanding.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Mental health studies — acceptance and support improve outcomes.
+      </div>
+  `
+},
+
+{
+  number: 6,
+  myth: "You should have your sexuality fully figured out early in life",
+  icon: "",
+  fact: "Understanding sexuality can take time and evolve",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>There is no fixed timeline for understanding identity.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Social expectations often suggest that identity should be clear at a certain age. However, experiences, preferences, and understanding can change over time.
+      </p>
+
+      <p class="myth-explanation">
+        Pressure to define identity early can create anxiety and limit exploration.
+      </p>
+
+      <p class="myth-explanation">
+        Allowing flexibility supports more authentic and stable self-understanding.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Developmental psychology — identity formation is an ongoing process.
+      </div>
+  `
+}
+
+];
+
+const mythsContainer = document.getElementById('mythsContainer');
+
+myths.forEach((myth, index) => {
+  const mythEl = document.createElement('div');
+  mythEl.className = 'myth-item';
+  mythEl.innerHTML = `
+    <div class="myth-header" onclick="toggleMythItem(${index})">
+      <div class="myth-icon">${myth.icon}</div>
+      <div class="myth-title-section">
+        <span class="myth-label">Myth ${myth.number}</span>
+        <h2 class="myth-title">${myth.myth}</h2>
+      </div>
+      <div class="toggle-icon">▼</div>
+    </div>
+    <div class="myth-content">
+      <div style="margin-top: 1rem;">
+        <div style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary) 100%); color: white; padding: 1rem 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+          <strong style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; opacity: 0.9; margin-bottom: 0.3rem;">Fact</strong>
+          <p style="font-size: 1.05rem; margin: 0;">${myth.fact}</p>
+        </div>
+        ${myth.content}
+        <span class="counter">Myth ${myth.number} of ${myths.length}</span>
+      </div>
+    </div>
+  `;
+  mythsContainer.appendChild(mythEl);
+});
+
+function toggleMythItem(index) {
+  const items = document.querySelectorAll('.myth-item');
+  items.forEach((item, i) => {
+    if (i === index) {
+      item.classList.toggle('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+}
+</script>
+
+</body>
+</html>

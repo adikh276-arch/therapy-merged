@@ -1,0 +1,21 @@
+{
+  "box_breathing.relax": "放松",
+  "box_breathing.about_technique": "关于这项技术",
+  "box_breathing.technique_description": "方框呼吸法采用简单的4-4-4-4模式——吸气、屏息、呼气、屏息——每个动作持续四秒。它能激活副交感神经系统，降低压力，使你恢复平静专注的状态。",
+  "box_breathing.how_to_practice": "如何练习",
+  "box_breathing.inhale_4s": "吸气 4 秒",
+  "box_breathing.hold_4s": "保持4秒",
+  "box_breathing.exhale_4s": "呼气 4 秒",
+  "box_breathing.repeat_cycle": "重复此过程",
+  "box_breathing.start_breathing": "开始呼吸",
+  "box_breathing.breathe_in": "吸入",
+  "box_breathing.hold": "抓住",
+  "box_breathing.breathe_out": "呼",
+  "box_breathing.feeling_calmer": "你感觉更平静了",
+  "box_breathing.session_complete_msg": "呼吸练习完成得很好。花点时间感受一下你的身体感觉——更轻盈、更稳定、更放松。",
+  "box_breathing.start_again": "重新开始",
+  "box_breathing.back": "后退",
+  "box_breathing.not_found_404": "404",
+  "box_breathing.page_not_found": "糟糕！页面未找到",
+  "box_breathing.return_home": "返回首页"
+}

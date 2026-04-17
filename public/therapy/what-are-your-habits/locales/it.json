@@ -1,0 +1,56 @@
+{
+  "what_are_your_habits.title": "Quali sono le tue abitudini?",
+  "what_are_your_habits.intro_description": "Anche le piccole abitudini quotidiane influenzano lo stress. Esploriamo con delicatezza le tue.",
+  "what_are_your_habits.start_activity": "Inizia l'attività",
+  "what_are_your_habits.body_title": "🧍‍♀️ La tua routine quotidiana per il corpo",
+  "what_are_your_habits.body_subtitle": "Quale di queste opzioni ti ha dato un po' fastidio ultimamente? (Seleziona le opzioni che ritieni appropriate)",
+  "what_are_your_habits.continue": "Continuare",
+  "what_are_your_habits.body_options": [
+    "Non ho dormito bene",
+    "Il mio ritmo del sonno è irregolare",
+    "A volte salto i pasti",
+    "Mangio più del solito quando sono stressato",
+    "Non mi sono mosso o allenato molto",
+    "Non sono uscito molto",
+    "La mia routine di cura personale è cambiata",
+    "La mia routine quotidiana sembra stabile"
+  ],
+  "what_are_your_habits.mind_title": "🧠 I tuoi schemi di pensiero",
+  "what_are_your_habits.mind_options": [
+    "Continuo a pensare troppo alle cose",
+    "Spesso immagino lo scenario peggiore",
+    "Sono duro con me stesso",
+    "Mi sento in colpa per cose che ho fatto o non ho fatto",
+    "Sono costantemente preoccupato",
+    "Trovo difficile rilassarmi",
+    "I miei pensieri sembrano gestibili"
+  ],
+  "what_are_your_habits.coping_title": "🌊 Come reagisci allo stress",
+  "what_are_your_habits.coping_options": [
+    "Evito i compiti quando sono stressato",
+    "Scorro molto il telefono per distrarmi",
+    "Passo del tempo da solo per far fronte",
+    "Mi butto a capofitto nel lavoro quando sono stressato",
+    "Parlo con qualcuno di come mi sento",
+    "Faccio esercizi di respirazione per calmarmi",
+    "Guardo la TV o gioco per distrarmi",
+    "Non sono sicuro di come reagisco allo stress"
+  ],
+  "what_are_your_habits.reflection_title": "✍️ Riflessione",
+  "what_are_your_habits.question_stress": "Quale abitudine aumenta lo stress in seguito?",
+  "what_are_your_habits.question_calm": "Quale abitudine potrebbe aiutarti a sentirti più calmo?",
+  "what_are_your_habits.see_insight": "Vedi la mia intuizione",
+  "what_are_your_habits.insight_title": "Azioni suggerite",
+  "what_are_your_habits.insight_description": "Tocca qui sotto per scoprire semplici abitudini che possono aiutarti a ridurre lo stress.",
+  "what_are_your_habits.show_suggestions": "Mostra suggerimenti",
+  "what_are_your_habits.commit": "Impegnarsi",
+  "what_are_your_habits.suggestions": [
+    "Prova ad andare a letto un po' prima stasera",
+    "Esci per prendere una boccata d'aria fresca oggi",
+    "Prenditi una pausa dallo scorrimento per un po'",
+    "Parla gentilmente con te stesso",
+    "Completa un compito che hai rimandato"
+  ],
+  "what_are_your_habits.final_text": "I piccoli cambiamenti sono importanti. La coerenza crea calma.",
+  "what_are_your_habits.finish": "Fine"
+}

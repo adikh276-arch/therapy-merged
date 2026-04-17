@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&family=Poppins:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 93%;
+    --foreground: 260 30% 25%;
+
+    --card: 240 30% 90%;
+    --card-foreground: 260 30% 25%;
+
+    --popover: 240 30% 90%;
+    --popover-foreground: 260 30% 25%;
+
+    --primary: 260 45% 65%;
+    --primary-foreground: 210 40% 96%;
+
+    --secondary: 280 30% 78%;
+    --secondary-foreground: 260 30% 25%;
+
+    --muted: 230 30% 90%;
+    --muted-foreground: 260 30% 25%;
+
+    --accent: 230 30% 90%;
+    --accent-foreground: 260 30% 25%;
+
+    --destructive: 0 60% 55%;
+    --destructive-foreground: 210 40% 96%;
+
+    --border: 220 25% 82%;
+    --input: 240 30% 90%;
+    --ring: 260 45% 65%;
+
+    --radius: 1.75rem;
+
+    --sidebar-background: 210 40% 93%;
+    --sidebar-foreground: 260 30% 25%;
+    --sidebar-primary: 260 45% 65%;
+    --sidebar-primary-foreground: 210 40% 96%;
+    --sidebar-accent: 230 30% 90%;
+    --sidebar-accent-foreground: 260 30% 25%;
+    --sidebar-border: 220 25% 82%;
+    --sidebar-ring: 260 45% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+
+  h2, h3, .font-subtitle {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-circle {
+    background: linear-gradient(135deg, hsl(260 45% 65%), hsl(280 30% 78%));
+  }
+
+  .gradient-bg-screen {
+    background: linear-gradient(to bottom, hsl(210 40% 93%), hsl(230 30% 90%));
+  }
+
+  .glow-circle {
+    box-shadow: 0 0 60px 20px hsl(260 45% 65% / 0.3), 0 0 120px 40px hsl(280 30% 78% / 0.15);
+  }
+
+  .glow-soft {
+    box-shadow: 0 8px 32px hsl(260 45% 65% / 0.15);
+  }
+
+  .text-justified {
+    text-align: justify;
+  }
+}

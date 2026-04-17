@@ -1,0 +1,18 @@
+{
+  "a_letter_to_self.title": "💌 Ein Brief an mich selbst",
+  "a_letter_to_self.subtitle": "Ein Moment der Freundlichkeit, nur für dich",
+  "a_letter_to_self.intro_text": "Stress kann uns vergessen lassen, wie stark wir sind. Diese Übung hilft dir, innezuhalten, nachzudenken und freundlich mit dir selbst zu sprechen.",
+  "a_letter_to_self.start_writing": "Jetzt schreiben →",
+  "a_letter_to_self.view_past_letters": "Frühere Briefe ansehen",
+  "a_letter_to_self.no_judgments": "Keine Wertungen. Kein Druck. Nur du.",
+  "a_letter_to_self.write_title": "Schreibe dir selbst",
+  "a_letter_to_self.write_placeholder": "Ach du lieber Himmel,\n\nich weiß, es war nicht immer einfach...",
+  "a_letter_to_self.save_letter": "Brief speichern",
+  "a_letter_to_self.cancel": "Stornieren",
+  "a_letter_to_self.check_in_title": "Wie fühlen Sie sich?",
+  "a_letter_to_self.complete_title": "Brief gespeichert",
+  "a_letter_to_self.complete_msg": "Ihr Brief wurde sicher gespeichert.",
+  "a_letter_to_self.home": "Heim",
+  "a_letter_to_self.past_letters_title": "Frühere Briefe",
+  "a_letter_to_self.empty_letters": "Es wurden keine früheren Briefe gefunden."
+}

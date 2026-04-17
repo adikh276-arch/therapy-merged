@@ -1,0 +1,21 @@
+{
+  "box_breathing.relax": "आराम करना",
+  "box_breathing.about_technique": "इस तकनीक के बारे में",
+  "box_breathing.technique_description": "बॉक्स ब्रीदिंग में एक सरल 4-4-4-4 पैटर्न का उपयोग किया जाता है — सांस अंदर लेना, रोकना, सांस बाहर छोड़ना, रोकना — प्रत्येक चरण चार सेकंड के लिए होता है। यह आपके पैरासिम्पेथेटिक तंत्रिका तंत्र को सक्रिय करता है, तनाव को कम करता है और आपको शांत, एकाग्र अवस्था में वापस लाता है।",
+  "box_breathing.how_to_practice": "अभ्यास कैसे करें",
+  "box_breathing.inhale_4s": "4 सेकंड तक सांस अंदर लें",
+  "box_breathing.hold_4s": "4 सेकंड तक दबाए रखें",
+  "box_breathing.exhale_4s": "4 सेकंड के लिए सांस बाहर छोड़ें",
+  "box_breathing.repeat_cycle": "इस चक्र को दोहराएं",
+  "box_breathing.start_breathing": "सांस लेना शुरू करें",
+  "box_breathing.breathe_in": "में साँस",
+  "box_breathing.hold": "पकड़ना",
+  "box_breathing.breathe_out": "सांस बाहर छोड़ें",
+  "box_breathing.feeling_calmer": "आप अधिक शांत महसूस कर रहे हैं",
+  "box_breathing.session_complete_msg": "आपने अपनी श्वास-प्रक्रिया सफलतापूर्वक पूरी कर ली। कुछ पल रुककर ध्यान दें कि आपका शरीर कैसा महसूस कर रहा है — हल्का, स्थिर और अधिक सहज।",
+  "box_breathing.start_again": "फिर से शुरू करें",
+  "box_breathing.back": "पीछे",
+  "box_breathing.not_found_404": "404",
+  "box_breathing.page_not_found": "ओह! पेज नहीं मिला",
+  "box_breathing.return_home": "घर पर वापस"
+}

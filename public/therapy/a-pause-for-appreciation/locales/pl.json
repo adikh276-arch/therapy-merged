@@ -1,0 +1,84 @@
+{
+  "a_pause_for_appreciation.title": "Przerwa na docenienie",
+  "a_pause_for_appreciation.subtitle": "5–7-minutowa refleksja z przewodnikiem",
+  "a_pause_for_appreciation.nav": {
+    "history": "Historia",
+    "home": "Dom"
+  },
+  "a_pause_for_appreciation.intro": {
+    "text1": "Kiedy związek jest napięty, łatwo skupić się tylko na tym, co nie działa. Ta refleksja oferuje krótką przerwę – nie po to, by zignorować obawy, ale by delikatnie poszerzyć perspektywę.",
+    "text2": "Nie ma potrzeby odczuwania wdzięczności. Po prostu obserwuj, co się pojawia.",
+    "begin": "Zaczynać",
+    "viewHistory": "Wyświetl historię"
+  },
+  "a_pause_for_appreciation.breathing": {
+    "title": "Przybyć i osiedlić się",
+    "description": "Zanim przejdziemy dalej, pozwól sobie na krótką pauzę. W tej chwili nie chodzi o rozwiązanie czegokolwiek. Chodzi o stworzenie przestrzeni.",
+    "instruction": "Postępuj zgodnie z poniższym rytmem oddechu.",
+    "inhale": "Wdech… {{counter}}…",
+    "hold": "Trzymać…",
+    "exhale": "Wydech… {{counter}}…",
+    "affirmation": "„Potrafię przyznać się do tego, co wydaje się trudne, i jednocześnie pozostać otwartym na zauważanie tego”.",
+    "continue": "Kontynuować"
+  },
+  "a_pause_for_appreciation.reflection": {
+    "step": "Krok {{step}} z {{total}}",
+    "prompts": {
+      "p1": "Jedna krótka chwila z twoim partnerem, która nie była ostatnio napięta, to…",
+      "p1_ex": "„Wieczorem odbyliśmy krótką, spokojną rozmowę”.",
+      "p2": "Jednym z wysiłków Twojego partnera — nawet jeśli niedoskonałym — jest…",
+      "p2_ex": "„Próbowali wyjaśnić swoje uczucia zamiast się wycofać”.",
+      "p3": "Jedną z cech Twojego partnera, która pozostaje niezmienna na przestrzeni lat, jest…",
+      "p3_ex": "„Wciąż wykazują zaangażowanie w wypełnianiu naszych obowiązków”."
+    },
+    "placeholder": "Napisz tutaj swoją refleksję…",
+    "next": "Następny",
+    "finish": "Skończyć"
+  },
+  "a_pause_for_appreciation.intention": {
+    "step": "Krok 4 z 4",
+    "title": "Jak chciałbyś zachować tę refleksję?",
+    "options": {
+      "private": "Wolałbym zachować tę refleksję w tajemnicy.",
+      "share_part": "Mogę zdecydować się na podzielenie się częścią tych informacji z moim partnerem.",
+      "share_full": "Chciałbym podzielić się tą refleksją w całości.",
+      "save_later": "O tym opowiem później."
+    },
+    "continue": "Kontynuować"
+  },
+  "a_pause_for_appreciation.checkin": {
+    "title": "Gdy podsumowałeś tę refleksję, które stwierdzenie wydaje Ci się najbardziej trafne?",
+    "statements": {
+      "s1": "Teraz czuję, że jestem trochę bardziej otwarta na mojego partnera.",
+      "s2": "Nie zauważam wielkich zmian, ale chcę zachować czujność.",
+      "s3": "Ukończenie tego zadania wydało mi się dość trudne.",
+      "s4": "Podczas refleksji poczułem lekkie ciepło.",
+      "s5": "Zauważyłem opór i ważne jest, żeby to zauważyć.",
+      "s6": "Czuję subtelne zmiękczenie w porównaniu do tego, co było przed rozpoczęciem."
+    },
+    "finish": "Zakończ i zapisz"
+  },
+  "a_pause_for_appreciation.closing": {
+    "title": "Refleksja ukończona",
+    "text1": "Ta przerwa nie usuwa wyzwań. Po prostu przywraca równowagę w postrzeganiu związku.",
+    "text2": "Nawet krótkie chwile zwrócenia uwagi mogą stopniowo złagodzić sztywność emocjonalną i stworzyć przestrzeń do zdrowszych rozmów.",
+    "save": "Zapisz w Refleksjach",
+    "viewHistory": "Wyświetl historię",
+    "exit": "Wyjście"
+  },
+  "a_pause_for_appreciation.history": {
+    "title": "Twoja historia refleksji",
+    "noReflections": "Brak zapisanych refleksji. Ukończone sesje pojawią się tutaj.",
+    "back": "Powrót do początku",
+    "confirmDelete": "Potwierdź usunięcie",
+    "cancel": "Anulować",
+    "delete": "Usuń wpis",
+    "prompts": [
+      "Jedna krótka chwila, która nie była napięta…",
+      "Jedno z działań Twojego partnera…",
+      "Jedna cecha, która pozostała niezmienna…",
+      "Zamiar",
+      "Emocjonalne zameldowanie"
+    ]
+  }
+}

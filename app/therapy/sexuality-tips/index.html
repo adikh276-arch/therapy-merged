@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sexual Identity Tips For Your Authentic Self — Practical Advice</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F0E7FF;
+    --primary: #A78BFA;
+    --ink: #3F0F5C;
+    --light: #E9D5FF;
+    --mid: #D8B4FE;
+    --subtext: #6B21A8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--mid); }
+  .nav-logo { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: var(--primary); cursor: pointer; }
+  .nav-tag { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: var(--primary); color: white; padding: 4px 12px; border-radius: 100px; }
+
+  #hero { min-height: 50vh; padding: 7rem 2rem 3rem; text-align: center; position: relative; overflow: hidden; }
+  .orb { position: absolute; border-radius: 50%; filter: blur(70px); opacity: 0.15; animation: drift 9s ease-in-out infinite alternate; }
+  .orb1 { width: 500px; height: 500px; background: var(--primary); top: -15%; left: -18%; }
+  .orb2 { width: 380px; height: 380px; background: #6EE7B7; top: 15%; right: -12%; animation-delay: -2.5s; }
+  @keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(35px,22px) scale(1.06); } }
+
+  .hero-badge { display: inline-flex; align-items: center; gap: 10px; background: white; border: 2px solid var(--ink); border-radius: 100px; padding: 8px 20px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; box-shadow: 3px 3px 0 var(--primary); animation: fadeUp 0.8s ease both; }
+  .badge-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); }
+
+  h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2rem,5vw,3.5rem); line-height: 1.1; max-width: 700px; margin: 0 auto 1rem; animation: fadeUp 0.8s 0.1s ease both; }
+  h1 em { font-style: italic; background: linear-gradient(135deg, var(--primary), #6EE7B7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .hero-sub { font-size: 1rem; color: var(--subtext); max-width: 500px; margin: 0 auto; line-height: 1.6; animation: fadeUp 0.8s 0.2s ease both; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+  #tips-container { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+  .tips-intro { text-align: center; margin-bottom: 3rem; }
+  .tips-intro h2 { font-family: 'DM Serif Display', serif; font-size: 2rem; margin-bottom: 0.5rem; }
+  .tips-intro p { color: var(--subtext); font-size: 0.95rem; }
+
+  .tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+  .tip-card { background: white; border-radius: 16px; padding: 2rem; border: 2px solid var(--light); transition: all 0.3s ease; }
+  .tip-card:hover { transform: translateY(-6px); box-shadow: 0 12px 32px rgba(52,211,153,0.15); border-color: var(--primary); }
+
+  .tip-number { font-family: 'DM Serif Display', serif; font-size: 2.5rem; color: var(--primary); font-weight: bold; }
+  .tip-title { font-size: 1.15rem; font-weight: 600; color: var(--ink); margin: 0.8rem 0; line-height: 1.3; }
+  .tip-text { font-size: 0.95rem; color: var(--subtext); line-height: 1.6; margin-bottom: 1rem; }
+  .tip-icon { font-size: 2rem; margin-top: 0.5rem; }
+
+  .footer { padding: 3rem 2rem; text-align: center; color: var(--subtext); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Sexual Identity Tips For Your Authentic Self</div>
+  <div class="nav-tag">Mental Health</div>
+</nav>
+
+<section id="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="hero-badge"><span class="badge-dot"></span> Practical Guidance</div>
+  <h1>Sexual Identity Tips <em>For Your Authentic Self</em></h1>
+  <p class="hero-sub">Support for coming out, exploring identity, and living authentically</p>
+</section>
+
+<section id="tips-container">
+  <div class="tips-intro">
+    <h2>12 Tips for Navigating Sexual Identity</h2>
+    <p>Your identity is valid. These tips support your journey.</p>
+  </div>
+
+  <div class="tips-grid" id="tipsGrid"></div>
+</section>
+
+<section class="footer">
+  <p>These tips are meant to support, not replace, professional mental health care. If you're struggling significantly, please reach out to a mental health professional.</p>
+</section>
+
+<script>
+const tips = [
+  {
+    "number": "01",
+    "title": "Take Your Time Figuring It Out",
+    "text": "You don't need to have it all figured out right now. Identity evolves. You can be questioning indefinitely. That's okay.",
+    "icon": "🤔"
+  },
+  {
+    "number": "02",
+    "title": "Find Community",
+    "text": "LGBTQ+ groups, online spaces, Pride events. Being with people like you normalizes your experience and reduces isolation.",
+    "icon": "👥"
+  },
+  {
+    "number": "03",
+    "title": "Know You're Not Broken",
+    "text": "If you're LGBTQ+, you're not confused, going through a phase, or broken. You're just human with a different orientation.",
+    "icon": "💙"
+  },
+  {
+    "number": "04",
+    "title": "Choose Who You Come Out To",
+    "text": "Coming out is YOUR choice, on YOUR timeline, to people YOU select. You don't owe it to anyone. Safety comes first.",
+    "icon": "🗣️"
+  },
+  {
+    "number": "05",
+    "title": "Prepare For Coming Out",
+    "text": "If you decide to come out, prepare: choose safe person, have support ready, plan self-care after. You're brave—be safe too.",
+    "icon": "🛡️"
+  },
+  {
+    "number": "06",
+    "title": "Handle Rejection With Support",
+    "text": "Not everyone will be supportive. That's their issue, not yours. Have people around you who ARE supportive.",
+    "icon": "💪"
+  },
+  {
+    "number": "07",
+    "title": "Set Boundaries About Your Identity",
+    "text": "You don't have to explain, debate, or educate others about your identity. Your existence doesn't need justification.",
+    "icon": "🚧"
+  },
+  {
+    "number": "08",
+    "title": "Connect With Your Culture",
+    "text": "If you're also from a marginalized culture, navigating both identities is complex. Seek people who understand that intersection.",
+    "icon": "🌍"
+  },
+  {
+    "number": "09",
+    "title": "Educate Yourself Gently",
+    "text": "Learning about identity, orientation, terminology—do it at your pace. You don't have to know everything immediately.",
+    "icon": "📚"
+  },
+  {
+    "number": "10",
+    "title": "Find Affirmative Mental Health Support",
+    "text": "If you need therapy, find LGBTQ+-affirming therapists. Not all therapists get it. You deserve someone who does.",
+    "icon": "🏥"
+  },
+  {
+    "number": "11",
+    "title": "Celebrate Your Authenticity",
+    "text": "Living as your true self is radical. Celebrate it. You're brave for being honest about who you are.",
+    "icon": "🎉"
+  },
+  {
+    "number": "12",
+    "title": "Know It Gets Better",
+    "text": "If you're struggling now, it does get better. Connection, self-acceptance, time—these heal. You have a future. Hold on.",
+    "icon": "🌈"
+  }
+];
+
+function initializeTips() {
+  const grid = document.getElementById('tipsGrid');
+  
+  tips.forEach((tip) => {
+    const card = document.createElement('div');
+    card.className = 'tip-card';
+    card.innerHTML = `
+      <div class="tip-number">${tip.number}</div>
+      <div class="tip-title">${tip.title}</div>
+      <div class="tip-text">${tip.text}</div>
+      <div class="tip-icon">${tip.icon}</div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+initializeTips();
+</script>
+
+</body>
+</html>

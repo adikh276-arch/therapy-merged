@@ -1,0 +1,84 @@
+{
+  "a_pause_for_appreciation.title": "Sejenak untuk Mengapresiasi",
+  "a_pause_for_appreciation.subtitle": "Refleksi Terbimbing Selama 5–7 Menit",
+  "a_pause_for_appreciation.nav": {
+    "history": "Sejarah",
+    "home": "Rumah"
+  },
+  "a_pause_for_appreciation.intro": {
+    "text1": "Ketika suatu hubungan terasa tegang, mudah untuk hanya fokus pada apa yang tidak berjalan dengan baik. Refleksi ini menawarkan jeda singkat — bukan untuk mengabaikan kekhawatiran, tetapi untuk memperluas perspektif secara perlahan.",
+    "text2": "Tidak ada harapan untuk merasa bersyukur. Cukup perhatikan apa yang muncul.",
+    "begin": "Mulai",
+    "viewHistory": "Lihat Riwayat"
+  },
+  "a_pause_for_appreciation.breathing": {
+    "title": "Tiba dan Beristirahat",
+    "description": "Sebelum melanjutkan, beri diri Anda jeda sejenak. Momen ini bukan tentang menyelesaikan apa pun. Ini tentang menciptakan ruang.",
+    "instruction": "Ikuti ritme pernapasan di bawah ini.",
+    "inhale": "Hirup napas… {{counter}}…",
+    "hold": "Memegang…",
+    "exhale": "Hembuskan napas… {{counter}}…",
+    "affirmation": "\"Saya bisa mengakui apa yang terasa sulit dan tetap terbuka untuk memperhatikan.\"",
+    "continue": "Melanjutkan"
+  },
+  "a_pause_for_appreciation.reflection": {
+    "step": "Langkah {{step}} dari {{total}}",
+    "prompts": {
+      "p1": "Salah satu momen kecil baru-baru ini bersama pasangan Anda yang tidak terasa tegang adalah…",
+      "p1_ex": "\"Kami sempat berbincang singkat dan tenang di malam hari.\"",
+      "p2": "Salah satu upaya yang telah dilakukan pasangan Anda — meskipun tidak sempurna — adalah…",
+      "p2_ex": "\"Mereka mencoba menjelaskan perasaan mereka alih-alih menarik diri.\"",
+      "p3": "Salah satu kualitas pada pasangan Anda yang tetap konsisten dari waktu ke waktu adalah…",
+      "p3_ex": "\"Mereka terus menunjukkan dedikasi terhadap tanggung jawab kita.\""
+    },
+    "placeholder": "Tuliskan refleksi Anda di sini…",
+    "next": "Berikutnya",
+    "finish": "Menyelesaikan"
+  },
+  "a_pause_for_appreciation.intention": {
+    "step": "Langkah 4 dari 4",
+    "title": "Bagaimana Anda ingin menyimpan refleksi ini?",
+    "options": {
+      "private": "Saya lebih memilih untuk merahasiakan refleksi ini.",
+      "share_part": "Saya mungkin memilih untuk membagikan sebagian dari ini dengan pasangan saya.",
+      "share_full": "Saya ingin membagikan refleksi ini secara lengkap.",
+      "save_later": "Saya akan menyimpan hal ini untuk percakapan selanjutnya."
+    },
+    "continue": "Melanjutkan"
+  },
+  "a_pause_for_appreciation.checkin": {
+    "title": "Setelah Anda menyelesaikan refleksi ini, pernyataan mana yang terasa paling akurat?",
+    "statements": {
+      "s1": "Saat ini aku merasa sedikit lebih terbuka terhadap pasanganku.",
+      "s2": "Saya tidak melihat banyak perubahan, tetapi saya bersedia untuk tetap waspada.",
+      "s3": "Saya merasa agak kesulitan untuk menyelesaikan ini.",
+      "s4": "Saya merasakan sedikit kehangatan saat merenung.",
+      "s5": "Saya melihat adanya penolakan, dan hal itu penting untuk diakui.",
+      "s6": "Saya merasakan pelunakan yang halus dibandingkan sebelum saya memulai."
+    },
+    "finish": "Selesaikan & Simpan"
+  },
+  "a_pause_for_appreciation.closing": {
+    "title": "Refleksi Selesai",
+    "text1": "Jeda ini tidak menghilangkan tantangan. Jeda ini hanya mengembalikan keseimbangan dalam cara pandang terhadap hubungan tersebut.",
+    "text2": "Bahkan momen-momen singkat untuk memperhatikan dapat secara bertahap melunakkan kekakuan emosional dan menciptakan ruang untuk percakapan yang lebih sehat.",
+    "save": "Simpan ke Refleksi",
+    "viewHistory": "Lihat Riwayat",
+    "exit": "KELUAR"
+  },
+  "a_pause_for_appreciation.history": {
+    "title": "Riwayat Refleksi Anda",
+    "noReflections": "Belum ada refleksi yang tersimpan. Sesi Anda yang telah selesai akan muncul di sini.",
+    "back": "Kembali ke Awal",
+    "confirmDelete": "Konfirmasi Penghapusan",
+    "cancel": "Membatalkan",
+    "delete": "Hapus entri",
+    "prompts": [
+      "Satu momen kecil yang tidak terasa tegang…",
+      "Salah satu upaya yang telah dilakukan pasangan Anda…",
+      "Salah satu kualitas yang tetap konsisten…",
+      "Maksud",
+      "Pemeriksaan Emosional"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "a_letter_to_self.title": "💌 自分への手紙",
+  "a_letter_to_self.subtitle": "あなただけの優しさのひととき",
+  "a_letter_to_self.intro_text": "ストレスは、私たちがどれほど強いのかを忘れさせてしまうことがあります。このアクティビティは、立ち止まり、自分を振り返り、優しく語りかけるのに役立ちます。",
+  "a_letter_to_self.start_writing": "書き始める→",
+  "a_letter_to_self.view_past_letters": "過去の手紙を見る",
+  "a_letter_to_self.no_judgments": "判断もプレッシャーもありません。ただあなただけ。",
+  "a_letter_to_self.write_title": "自分自身に手紙を書く",
+  "a_letter_to_self.write_placeholder": "あらまあ、\n\n大変な状況だったのは承知していますが…",
+  "a_letter_to_self.save_letter": "手紙を保存",
+  "a_letter_to_self.cancel": "キャンセル",
+  "a_letter_to_self.check_in_title": "ご気分はいかがですか？",
+  "a_letter_to_self.complete_title": "手紙を保存しました",
+  "a_letter_to_self.complete_msg": "あなたの手紙は安全に保存されました。",
+  "a_letter_to_self.home": "家",
+  "a_letter_to_self.past_letters_title": "過去の手紙",
+  "a_letter_to_self.empty_letters": "過去の手紙は見つかりませんでした。"
+}

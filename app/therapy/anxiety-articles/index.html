@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anxiety — Articles & Guides</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:      #F3EEFF;
+    --primary: #9D6CFF;
+    --primary2:#855bd8;
+    --light:   #fff9ff;
+    --mid:     #eba2ff;
+    --ink:     #2f204c;
+    --muted:   #4e367f;
+    --white:   #ffffff;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family:'DM Sans',sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+
+  /* ── TOP NAV ── */
+  .top-nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    padding:1rem 2rem;
+    display:flex; align-items:center; justify-content:space-between;
+    background:rgba(243,238,255,0.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--mid);
+  }
+  .nav-logo {
+    font-family:'DM Serif Display',serif;
+    font-size:1.05rem; color:var(--primary2);
+    cursor:pointer; opacity:0; transition:opacity .3s;
+    pointer-events:none;
+  }
+  .nav-logo.visible { opacity:1; pointer-events:all; }
+  .nav-pill {
+    font-size:.7rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; background:var(--primary);
+    color:white; padding:5px 14px; border-radius:100px;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    text-align:center; padding:2rem;
+    position:relative; overflow:hidden;
+  }
+  .hero-orbs { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+  .orb {
+    position:absolute; border-radius:50%;
+    filter:blur(72px); opacity:.16;
+    animation:drift 10s ease-in-out infinite alternate;
+  }
+  .o1{width:560px;height:560px;background:var(--primary);top:-18%;left:-16%;animation-delay:0s;}
+  .o2{width:420px;height:420px;background:var(--primary);top:22%;right:-14%;animation-delay:-3s;}
+  .o3{width:360px;height:360px;background:var(--mid);bottom:-10%;left:20%;animation-delay:-6s;}
+  @keyframes drift{from{transform:translate(0,0)scale(1);}to{transform:translate(32px,20px)scale(1.07);}}
+
+  .hero-badge {
+    display:inline-flex; align-items:center; gap:9px;
+    background:white; border:2px solid var(--ink);
+    border-radius:100px; padding:7px 20px;
+    font-size:.72rem; font-weight:700; letter-spacing:.1em;
+    text-transform:uppercase; margin-bottom:2rem;
+    box-shadow:3px 3px 0 var(--primary);
+    animation:fadeUp .8s ease both;
+  }
+  .bdot { width:9px;height:9px;border-radius:50%;background:var(--primary);display:inline-block; }
+
+  h1.hero-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(2.4rem,5.5vw,4.6rem);
+    line-height:1.1; max-width:700px; margin-bottom:1.2rem;
+    animation:fadeUp .8s .1s ease both;
+  }
+  h1.hero-title em {
+    font-style:italic;
+    background:linear-gradient(135deg,var(--primary),var(--primary2));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+  }
+  .hero-sub {
+    font-size:1.08rem; color:var(--muted);
+    max-width:480px; line-height:1.75; margin-bottom:.9rem;
+    animation:fadeUp .8s .2s ease both;
+  }
+  .hero-quote {
+    font-style:italic; font-size:.88rem; color:var(--muted);
+    opacity:.75; margin-bottom:2.6rem;
+    animation:fadeUp .8s .3s ease both;
+  }
+  .cta-btn {
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:1rem;
+    padding:1rem 2.6rem; border-radius:100px; border:none; cursor:pointer;
+    box-shadow:4px 4px 0 var(--primary);
+    transition:transform .15s,box-shadow .15s;
+    animation:fadeUp .8s .4s ease both;
+  }
+  .cta-btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--primary);}
+
+  .hero-stats {
+    display:flex; gap:3rem; margin-top:3.5rem;
+    animation:fadeUp .8s .55s ease both;
+  }
+  .stat { text-align:center; }
+  .stat-n { font-family:'DM Serif Display',serif; font-size:2.1rem; color:var(--primary); }
+  .stat-l { font-size:.74rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:2px; }
+
+  @keyframes fadeUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:translateY(0);}}
+
+  /* ── ARTICLE LIST ── */
+  #article-list {
+    display:none; padding:5rem 2rem 4rem;
+    max-width:700px; margin:0 auto;
+  }
+  .al-header { margin-bottom:2.6rem; }
+  .al-header h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:2.3rem; margin-bottom:.4rem;
+  }
+  .al-header p { color:var(--muted); font-size:.95rem; }
+
+  .article-cards { display:flex; flex-direction:column; gap:1rem; }
+
+  .article-card {
+    background:white; border-radius:20px;
+    border:2px solid transparent;
+    cursor:pointer; overflow:hidden;
+    display:flex; align-items:stretch;
+    transition:all .22s ease;
+  }
+  .article-card:hover {
+    transform:translateX(6px);
+    box-shadow:-5px 5px 0 var(--ink);
+    border-color:var(--ink);
+  }
+  .ac-stripe { width:6px; flex-shrink:0; background:var(--primary); }
+  .ac-body { padding:1.4rem 1.6rem; flex:1; }
+  .ac-tag {
+    font-size:.63rem; font-weight:700; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:3px 10px; border-radius:100px;
+    display:inline-block; margin-bottom:.6rem;
+  }
+  .ac-title {
+    font-family:'DM Serif Display',serif;
+    font-size:1.18rem; margin-bottom:.4rem; line-height:1.3;
+  }
+  .ac-desc { font-size:.86rem; color:var(--muted); line-height:1.55; }
+  .ac-meta { font-size:.75rem; color:var(--muted); margin-top:.6rem; }
+
+  /* ── ARTICLE DETAIL ── */
+  #article-detail {
+    display:none; max-width:660px;
+    margin:0 auto; padding:5rem 2rem 6rem;
+  }
+
+  .back-btn {
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:.85rem; font-weight:600; color:var(--muted);
+    cursor:pointer; background:none; border:none;
+    margin-bottom:2rem; transition:color .15s;
+  }
+  .back-btn:hover { color:var(--ink); }
+
+  .ad-band {
+    height:7px; border-radius:100px; margin-bottom:2rem;
+    background:linear-gradient(90deg,var(--primary),var(--primary2),var(--mid));
+  }
+  .ad-tag {
+    font-size:.68rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:4px 13px; border-radius:100px;
+    display:inline-block; margin-bottom:1rem;
+  }
+  .ad-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(1.8rem,4vw,2.6rem);
+    line-height:1.1; margin-bottom:.9rem;
+  }
+  .ad-deck {
+    font-size:1.05rem; color:var(--muted); line-height:1.75;
+    border-bottom:2px solid var(--light);
+    padding-bottom:1.8rem; margin-bottom:2rem;
+  }
+  .ad-meta { font-size:.78rem; color:var(--muted); margin-bottom:1.5rem; }
+
+  /* body prose */
+  .ad-body h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:1.55rem; margin:2.2rem 0 .6rem; color:var(--ink);
+  }
+  .ad-body h3 {
+    font-size:1.02rem; font-weight:600;
+    margin:1.6rem 0 .45rem; color:var(--ink);
+  }
+  .ad-body p {
+    font-size:1rem; line-height:1.88; color:#334155; margin-bottom:1.2rem;
+  }
+  .ad-body ul, .ad-body ol {
+    padding-left:1.4rem; margin-bottom:1.2rem;
+  }
+  .ad-body li {
+    font-size:.97rem; line-height:1.75; color:#334155; margin-bottom:.4rem;
+  }
+
+  /* pull-quote */
+  .pullquote {
+    border-left:5px solid var(--primary);
+    background:var(--light);
+    padding:1.2rem 1.6rem; border-radius:0 16px 16px 0;
+    margin:2rem 0;
+    font-family:'DM Serif Display',serif;
+    font-style:italic; font-size:1.1rem; line-height:1.65; color:var(--ink);
+  }
+
+  /* key-box */
+  .keybox {
+    background:var(--light); border-radius:16px;
+    padding:1.4rem 1.7rem; margin:2rem 0;
+  }
+  .keybox-title {
+    font-weight:700; font-size:.75rem; text-transform:uppercase;
+    letter-spacing:.09em; color:var(--primary);
+    display:block; margin-bottom:.75rem;
+  }
+  .keybox ul { padding-left:1.2rem; }
+  .keybox li {
+    font-size:.93rem; color:var(--ink); line-height:1.7; margin-bottom:.35rem;
+  }
+
+  /* takeaway */
+  .ad-takeaway {
+    margin-top:2.4rem; padding:1.5rem 1.7rem;
+    border-radius:18px; border:2px solid var(--primary);
+    background:var(--light);
+  }
+  .takeaway-label {
+    font-weight:700; font-size:.7rem; text-transform:uppercase;
+    letter-spacing:.1em; color:var(--primary);
+    display:block; margin-bottom:.55rem;
+  }
+  .ad-takeaway p { font-size:.93rem; color:var(--ink); line-height:1.7; margin:0; }
+
+  .back-to-list-btn {
+    display:block; text-align:center;
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:.95rem;
+    padding:.95rem 2rem; border-radius:100px; border:none; cursor:pointer;
+    margin-top:2.8rem; box-shadow:3px 3px 0 var(--primary);
+    transition:opacity .15s, transform .15s;
+  }
+  .back-to-list-btn:hover { opacity:.88; transform:translateY(-1px); }
+
+  /* responsive */
+  @media(max-width:520px){
+    .hero-stats{gap:1.8rem;}
+    .stat-n{font-size:1.6rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <div class="nav-logo" id="navLogo" onclick="showHero()">Anxiety Guide</div>
+  <div class="nav-pill">Mental Health</div>
+</nav>
+
+<!-- ════════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-orbs">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+
+  <div class="hero-badge"><span class="bdot"></span>Evidence-Based · Compassionate · Clear</div>
+
+  <h1 class="hero-title">The Anxious Mind<br>Is Not<br><em>Broken</em></h1>
+
+  <p class="hero-sub">These articles explore anxiety. 284M people affected 5 articles Calm is learnable. Discover what it really is and how to work with it.</p>
+
+  <p class="hero-quote">"You don't have to control your thoughts. You just have to stop letting them control you." — Dan Millman</p>
+
+  <button class="cta-btn" onclick="showList()">Read the Articles →</button>
+
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">284M</div><div class="stat-l">people affected</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">articles</div></div>
+    <div class="stat"><div class="stat-n">Calm</div><div class="stat-l">is learnable</div></div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE LIST
+════════════════════════════════════════ -->
+<section id="article-list">
+  <div class="al-header">
+    <h2>Anxiety Articles</h2>
+    <p>Five deep reads — choose wherever you are right now.</p>
+  </div>
+  <div class="article-cards" id="articleCards"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE DETAIL
+════════════════════════════════════════ -->
+<section id="article-detail">
+  <div id="articleDetailContent"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     DATA + LOGIC
+════════════════════════════════════════ -->
+<script>
+const articles = [
+{
+  tag: "Understanding",
+  title: "Why Your Brain Keeps Sounding the Alarm — And Why That Isn’t Your Fault",
+  desc: "Anxiety feels irrational. It isn’t. It’s a survival system working overtime.",
+  readTime: "10 min read",
+  deck: "Anxiety is not overthinking or weakness. It is your brain’s threat system becoming overactive. Understanding it changes everything about how you respond to it.",
+  takeaway: "Anxiety is not something you caused. It is something your brain learned — and what is learned can be reshaped.",
+  body: `
+
+<h2>The System That Was Built to Keep You Alive</h2>
+<p>To understand anxiety, you have to start with a simple truth: your brain is not designed to make you feel calm. It is designed to keep you alive.</p>
+
+<p>For most of human history, survival depended on detecting danger quickly and reacting immediately. A delay in response could be fatal. The brain evolved accordingly — tuned toward threat, biased toward caution, and always scanning for what might go wrong.</p>
+
+<p>This system was extraordinarily effective in environments where threats were physical and immediate. A predator, a hostile group, a sudden environmental shift — these required fast action. The body activated, the threat passed, and the system reset.</p>
+
+<p>Modern life is different. The threats most people face are rarely physical. They are abstract, delayed, and often imagined: deadlines, social judgment, uncertainty about the future, financial pressure, identity, relationships.</p>
+
+<p>The system, however, has not adapted to this shift. It responds to these psychological threats as if they were immediate physical dangers. And so it activates — repeatedly, intensely, and often unnecessarily.</p>
+
+<div class="pullquote">
+"Anxiety is not a malfunction. It is a survival system responding to the wrong kinds of threats, too often."
+</div>
+
+<h2>Why Anxiety Feels Like It Takes Over Your Body</h2>
+<p>Anxiety does not begin as a thought. It begins as a physiological state.</p>
+
+<p>When the brain detects threat, the amygdala activates and signals the body to prepare for action. Adrenaline is released. Heart rate increases. Breathing becomes shallow. Muscles tighten. Blood flow shifts away from digestion and toward movement.</p>
+
+<p>This is the fight-or-flight response. It is not subtle. It is designed for speed and intensity.</p>
+
+<p>But in modern contexts, there is often no action to take. You cannot fight a future outcome. You cannot run from uncertainty. The energy remains in the body, creating a sense of pressure, agitation, or overwhelm.</p>
+
+<p>This is why anxiety feels so consuming. It is not just a thought you can dismiss. It is a full-body state that demands attention.</p>
+
+<h2>The Loop That Keeps Anxiety Alive</h2>
+<p>Once the body is activated, the mind begins to interpret what is happening. And this is where anxiety becomes self-reinforcing.</p>
+
+<p>You notice your heart racing. You think, “Something is wrong.” That thought increases fear. The increased fear intensifies the physical sensation. The stronger sensation reinforces the belief. The loop continues.</p>
+
+<div class="pullquote">
+"Anxiety doesn’t just create thoughts — it creates physical evidence that makes those thoughts feel true."
+</div>
+
+<p>This loop is not irrational in the way people assume. It is internally consistent. The body feels like something is wrong, so the mind concludes that something must be wrong. The error lies in the initial signal — a false alarm being treated as real danger.</p>
+
+<h2>Why Avoidance Feels Right — And Makes Things Worse</h2>
+<p>Avoidance is the most natural response to anxiety. If something makes you uncomfortable, you stay away from it. And in the short term, this works. Anxiety decreases. Relief follows.</p>
+
+<p>But the brain is learning from that relief. It learns that the situation was dangerous, and that avoidance kept you safe. This strengthens the anxiety response.</p>
+
+<p>Over time, avoidance spreads. Situations expand. The world becomes smaller. Anxiety becomes larger.</p>
+
+<div class="keybox">
+  <span class="keybox-title">What maintains anxiety over time:</span>
+  <ul>
+    <li>Avoidance of discomfort</li>
+    <li>Constant reassurance seeking</li>
+    <li>Monitoring bodily sensations for danger</li>
+    <li>Catastrophic thinking about uncertainty</li>
+    <li>Trying to eliminate risk completely</li>
+  </ul>
+</div>
+
+<h2>What Change Actually Requires</h2>
+<p>Anxiety cannot be eliminated, but it can be recalibrated. The goal is not to remove the system, but to teach it what is actually safe.</p>
+
+<p>This requires working with both body and mind. Regulating physiological arousal. Challenging unhelpful thought patterns. Gradually facing situations that have been avoided.</p>
+
+<p>The brain changes through repetition. Each experience of safety weakens the fear response. Over time, the alarm becomes quieter — not because it was silenced, but because it was retrained.</p>
+
+`
+},
+{
+  tag: "Science",
+  title: "The Neuroscience of Anxiety: What the Fear Circuit Is Actually Doing",
+  desc: "Understanding anxiety at the brain level makes it easier to work with it.",
+  readTime: "9 min read",
+  deck: "Anxiety is not random. It is driven by specific brain systems that prioritise survival over comfort.",
+  takeaway: "Your brain can learn safety the same way it learned fear — through repeated experience.",
+  body: `
+
+<h2>The Brain’s Alarm Centre</h2>
+<p>At the centre of anxiety is the amygdala — a small, almond-shaped structure deep in the brain responsible for detecting threat. It operates rapidly and automatically, scanning for danger before conscious awareness.</p>
+
+<p>When it detects something uncertain or potentially harmful, it activates the stress response. This happens in milliseconds — long before you have time to think.</p>
+
+<h2>Why Anxiety Feels Instant</h2>
+<p>The amygdala is faster than the prefrontal cortex — the part of the brain responsible for reasoning. This means anxiety often arrives before logic.</p>
+
+<div class="pullquote">
+"By the time you try to reason with anxiety, your brain has already decided there is danger."
+</div>
+
+<h2>The Stress System</h2>
+<p>The HPA axis releases cortisol, preparing the body for sustained alertness. In chronic anxiety, this system becomes overactive, making the body more sensitive to stress.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Key systems in anxiety:</span>
+  <ul>
+    <li>Amygdala — threat detection</li>
+    <li>Prefrontal cortex — reasoning</li>
+    <li>HPA axis — stress response</li>
+  </ul>
+</div>
+
+<h2>Learning and Memory</h2>
+<p>Anxiety is shaped by learning. The brain forms associations between situations and danger. These associations can generalise, expanding anxiety over time.</p>
+
+<p>This is why repetition matters. The brain needs repeated experiences of safety to update its predictions.</p>
+
+`
+},
+{
+  tag: "Treatment",
+  title: "Exposure Therapy: The Counterintuitive Path Through Fear",
+  desc: "Avoidance keeps anxiety alive. Exposure is what retrains the brain.",
+  readTime: "10 min read",
+  deck: "Exposure therapy is one of the most effective treatments for anxiety — and also one of the most misunderstood. It works by helping the brain relearn what is actually safe.",
+  takeaway: "Avoidance feels protective, but it strengthens fear. Gradual, repeated exposure is what teaches your brain that you can handle what you fear.",
+  body: `
+
+<h2>Why Avoidance Feels Like the Right Choice</h2>
+<p>When something makes you anxious, avoiding it feels like relief. The discomfort drops. The tension eases. The body settles. It feels like you made the correct decision.</p>
+
+<p>And in the short term, you did. Avoidance reduces anxiety quickly. But what it teaches the brain is more important than how it feels in the moment.</p>
+
+<p>The brain learns that the situation was dangerous — and that avoidance prevented harm. This strengthens the fear response. The next time the situation appears, anxiety will be stronger, not weaker.</p>
+
+<div class="pullquote">
+"Relief from avoidance is immediate — but it quietly teaches your brain to be more afraid next time."
+</div>
+
+<h2>What Exposure Therapy Actually Does</h2>
+<p>Exposure therapy works by reversing this learning process. Instead of avoiding feared situations, you approach them — gradually, deliberately, and repeatedly.</p>
+
+<p>The goal is not to feel comfortable immediately. It is to stay in the situation long enough for the anxiety to rise, peak, and then fall on its own. This teaches the brain something new: that the situation is survivable.</p>
+
+<p>This process is called habituation. The nervous system cannot stay at peak anxiety indefinitely. Given enough time, it settles. And when it settles without avoidance, the brain updates its prediction.</p>
+
+<h2>Why Gradual Matters</h2>
+<p>Effective exposure is not about forcing yourself into the most difficult situation. It is about building confidence step by step.</p>
+
+<p>You start with situations that are uncomfortable but manageable. Once those become easier, you move to more challenging ones. This creates a ladder of exposure — each step preparing you for the next.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Core principles of exposure therapy:</span>
+  <ul>
+    <li>Start with manageable levels of fear</li>
+    <li>Repeat exposure consistently</li>
+    <li>Stay in the situation until anxiety decreases</li>
+    <li>Avoid using safety behaviours as a crutch</li>
+    <li>Allow discomfort without trying to eliminate it immediately</li>
+  </ul>
+</div>
+
+<h2>The Role of Safety Behaviours</h2>
+<p>Safety behaviours are subtle forms of avoidance — things you do to reduce anxiety without fully facing the situation. Checking your phone, rehearsing conversations, staying near exits, seeking reassurance.</p>
+
+<p>They reduce anxiety in the moment, but prevent full learning. The brain attributes safety to the behaviour, not to the situation itself.</p>
+
+<p>For exposure to work fully, these behaviours need to be reduced gradually.</p>
+
+<h2>What Progress Actually Looks Like</h2>
+<p>Progress in exposure therapy is not the absence of fear. It is the ability to tolerate fear and act anyway.</p>
+
+<p>At first, anxiety may feel just as strong. But over time, it becomes shorter, less intense, and less convincing. The situations that once felt impossible become manageable.</p>
+
+<p>The goal is not to eliminate anxiety completely. It is to restore your ability to live without being controlled by it.</p>
+
+`
+},
+{
+  tag: "Tools",
+  title: "Evidence-Based Anxiety Techniques That Actually Work",
+  desc: "Not all coping strategies are equal. These are backed by real research.",
+  readTime: "9 min read",
+  deck: "Managing anxiety requires tools that target both the body and the mind. The most effective techniques are simple — but they work because they are grounded in how the nervous system actually functions.",
+  takeaway: "The most effective tools are the ones you use consistently. Small, repeated practices change the system more than occasional intense effort.",
+  body: `
+
+<h2>Start With the Body, Not the Mind</h2>
+<p>When anxiety is high, trying to think your way out of it rarely works. The thinking part of the brain is already overridden by the survival system.</p>
+
+<p>The first step is to regulate the body. Once the body settles, the mind becomes more flexible.</p>
+
+<div class="pullquote">
+"You cannot reason with anxiety while your body still believes you are in danger."
+</div>
+
+<h2>Breathing as a Reset Mechanism</h2>
+<p>Breathing is one of the most direct ways to influence the nervous system. Slow, controlled breathing activates the parasympathetic system — the part responsible for calming the body.</p>
+
+<p>A simple approach is to breathe in for four seconds and out for six. The longer exhale signals safety to the body.</p>
+
+<h2>Grounding and Attention</h2>
+<p>Anxiety pulls attention into the future — into what might happen. Grounding brings it back to the present.</p>
+
+<p>The 5-4-3-2-1 technique is widely used: identify five things you can see, four you can feel, three you can hear, two you can smell, one you can taste. It anchors attention in immediate experience.</p>
+
+<h2>Working With Thoughts — Not Fighting Them</h2>
+<p>Trying to eliminate anxious thoughts often makes them stronger. A more effective approach is to examine them.</p>
+
+<p>Ask: What evidence supports this thought? What evidence contradicts it? What is a more balanced interpretation?</p>
+
+<p>This is not about forced positivity. It is about accuracy.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Evidence-based anxiety tools:</span>
+  <ul>
+    <li>Slow breathing (4–6 breaths per minute)</li>
+    <li>Grounding techniques</li>
+    <li>Cognitive restructuring</li>
+    <li>Behavioural activation</li>
+    <li>Gradual exposure</li>
+  </ul>
+</div>
+
+<h2>The Power of Consistency</h2>
+<p>The effectiveness of these tools does not come from using them once. It comes from repetition. The brain changes through repeated experience.</p>
+
+<p>Practicing these techniques when anxiety is low makes them more accessible when anxiety is high. Over time, they become automatic responses rather than deliberate efforts.</p>
+
+<p>This is how anxiety shifts — not through sudden breakthroughs, but through consistent, repeated practice.</p>
+
+`
+}
+];
+
+/* ─────────────────────────────────────────────
+   NAVIGATION STATE
+───────────────────────────────────────────── */
+let currentArticleIndex = null;
+let navState = 'hero'; // hero | list | detail
+
+function showHero() {
+  navState = 'hero';
+  document.getElementById('hero').style.display = 'flex';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.remove('visible');
+  window.scrollTo({ top: 0 });
+}
+
+function showList() {
+  navState = 'list';
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'block';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.add('visible');
+  renderCards();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showArticle(i) {
+  navState = 'detail';
+  currentArticleIndex = i;
+  const a = articles[i];
+
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'block';
+  document.getElementById('navLogo').classList.add('visible');
+
+  document.getElementById('articleDetailContent').innerHTML = `
+    <button class="back-btn" onclick="showList()">← All Articles</button>
+    <div class="ad-band"></div>
+    <span class="ad-tag">${a.tag}</span>
+    <h1 class="ad-title">${a.title}</h1>
+    <p class="ad-meta">${a.readTime} &nbsp;·&nbsp; Anxiety Guide</p>
+    <p class="ad-deck">${a.deck}</p>
+    <div class="ad-body">${a.body}</div>
+    <div class="ad-takeaway">
+      <span class="takeaway-label">💙 Key takeaway</span>
+      <p>${a.takeaway}</p>
+    </div>
+    <button class="back-to-list-btn" onclick="showList()">← Back to All Articles</button>
+  `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderCards() {
+  const container = document.getElementById('articleCards');
+  container.innerHTML = '';
+  articles.forEach((a, i) => {
+    const card = document.createElement('div');
+    card.className = 'article-card';
+    card.innerHTML = `
+      <div class="ac-stripe"></div>
+      <div class="ac-body">
+        <span class="ac-tag">${a.tag}</span>
+        <div class="ac-title">${a.title}</div>
+        <div class="ac-desc">${a.desc}</div>
+        <div class="ac-meta">${a.readTime}</div>
+      </div>
+    `;
+    card.onclick = () => showArticle(i);
+    container.appendChild(card);
+  });
+}
+
+// boot
+showHero();
+</script>
+</body>
+</html>

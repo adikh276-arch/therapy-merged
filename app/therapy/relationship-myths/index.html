@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relationship Myths</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+    :root {
+    --bg: #FFEBF0;
+    --primary: #FF6B9D;
+    --ink: #1a1a1a;
+    --light: #FFEBF0;
+    --mid: #FF6B9D;
+    --subtext: #4a4a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+  header {
+    padding: 3rem 2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--primary);
+  }
+  .header-content h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 0.5rem;
+    color: var(--ink);
+  }
+  .header-content p {
+    font-size: 1.1rem;
+    color: var(--subtext);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .myths-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem 3rem;
+  }
+
+  .myth-item {
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-left: 5px solid var(--primary);
+  }
+
+  .myth-item:hover {
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+
+  .myth-header {
+    padding: 1.8rem 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background: linear-gradient(135deg, var(--light) 0%, white 100%);
+    transition: background 0.3s ease;
+  }
+
+  .myth-item.active .myth-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary) 100%);
+    color: white;
+  }
+
+  .myth-icon { display: none !important; 
+    font-size: 2rem;
+    flex-shrink: 0;
+    min-width: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .myth-title-section {
+    flex: 1;
+    text-align: left;
+  }
+
+  .myth-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--primary);
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+
+  .myth-item.active .myth-label {
+    color: rgba(255,255,255,0.8);
+  }
+
+  .myth-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .myth-item.active .myth-title {
+    color: white;
+  }
+
+  .toggle-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    color: var(--primary);
+  }
+
+  .myth-item.active .toggle-icon {
+    transform: rotate(180deg);
+    color: white;
+  }
+
+  .myth-content {
+    display: none;
+    padding: 0 2rem 2rem 2rem;
+    border-top: 2px solid var(--light);
+  }
+
+  .myth-item.active .myth-content {
+    display: block;
+    animation: slideDown 0.3s ease;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .myth-fact {
+    background: linear-gradient(135deg, #f0e8ff 0%, #ede0ff 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary);
+  }
+
+  .myth-fact h3 {
+    color: var(--primary);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.8rem;
+  }
+
+  .myth-fact p {
+    color: var(--subtext);
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .myth-fact p + p {
+    margin-top: 1rem;
+  }
+
+  .myth-explanation {
+    color: var(--subtext);
+    line-height: 1.85;
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .myth-sources {
+    background: white;
+    border: 1px solid var(--light);
+    padding: 1rem 1.3rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: var(--subtext);
+    margin-top: 1.5rem;
+  }
+
+  .myth-sources strong {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  .counter {
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    background: var(--light);
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .myth-item.active .counter {
+    background: rgba(255,255,255,0.2);
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--subtext);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .myth-header {
+      padding: 1.3rem 1.5rem;
+    }
+    .myth-content {
+      padding: 0 1.5rem 1.5rem;
+    }
+    .myth-title {
+      font-size: 1.05rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Relationship Myths Debunked</h1>
+    <p>Separate fact from fiction. These are the myths keeping people from getting help — and the truth that sets them free.</p>
+  </div>
+</header>
+
+<div class="myths-container" id="mythsContainer"></div>
+
+<footer>
+  <p>Mental health information should be evidence-based. These myths are debunked using research from mental health organizations, clinical psychology, and peer-reviewed studies.</p>
+</footer>
+
+<script>
+const myths = [
+
+{
+  number: 1,
+  myth: "Love should be effortless if it’s real",
+  icon: "",
+  fact: "Healthy relationships require ongoing effort and adjustment",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Even strong relationships involve effort, communication, and adaptation over time.</p>
+      </div>
+
+      <p class="myth-explanation">
+        The idea that love should feel effortless comes from idealised portrayals of relationships. In reality, two individuals bring different expectations, experiences, and communication styles.
+      </p>
+
+      <p class="myth-explanation">
+        Navigating these differences requires effort — not because the relationship is weak, but because it is real. Misunderstandings, disagreements, and adjustments are part of maintaining connection.
+      </p>
+
+      <p class="myth-explanation">
+        Effort in a relationship is not a sign of failure. It is a sign of engagement and willingness to build something sustainable.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Relationship psychology shows communication and effort predict long-term satisfaction.
+      </div>
+  `
+},
+
+{
+  number: 2,
+  myth: "Jealousy means you truly care",
+  icon: "",
+  fact: "Jealousy often reflects insecurity, not love",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>While mild jealousy can occur, intense or controlling jealousy is linked to insecurity and fear.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Jealousy is often interpreted as a sign of emotional investment. However, strong or persistent jealousy typically stems from fear of loss, low self-confidence, or past experiences.
+      </p>
+
+      <p class="myth-explanation">
+        When expressed through control, suspicion, or restriction, it can damage trust and create tension in the relationship.
+      </p>
+
+      <p class="myth-explanation">
+        Healthy relationships are built on trust and security, not monitoring or control.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Studies link excessive jealousy with insecurity and relationship dissatisfaction.
+      </div>
+  `
+},
+
+{
+  number: 3,
+  myth: "Arguments mean the relationship is failing",
+  icon: "",
+  fact: "Conflict is a normal part of healthy relationships",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Disagreements are inevitable — what matters is how they are handled.</p>
+      </div>
+
+      <p class="myth-explanation">
+        No two individuals think, feel, or behave exactly the same. Differences in opinion naturally lead to conflict.
+      </p>
+
+      <p class="myth-explanation">
+        Avoiding conflict entirely can actually create distance, as important issues remain unaddressed.
+      </p>
+
+      <p class="myth-explanation">
+        Healthy conflict involves communication, respect, and willingness to understand — not winning or avoiding.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Gottman Institute — conflict management predicts relationship success.
+      </div>
+  `
+},
+
+{
+  number: 4,
+  myth: "Your partner should complete you",
+  icon: "",
+  fact: "Healthy relationships involve two whole individuals, not dependence",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>A relationship should add to your life, not define your entire sense of self.</p>
+      </div>
+
+      <p class="myth-explanation">
+        The idea of being “completed” by another person creates unrealistic expectations and emotional dependence.
+      </p>
+
+      <p class="myth-explanation">
+        When one partner becomes the sole source of validation, identity, or stability, it can create pressure and imbalance.
+      </p>
+
+      <p class="myth-explanation">
+        Strong relationships are built between individuals who maintain their own identity while sharing connection.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Relationship studies show autonomy and individuality support long-term satisfaction.
+      </div>
+  `
+},
+
+{
+  number: 5,
+  myth: "If it’s the right person, it won’t be hard",
+  icon: "",
+  fact: "All relationships involve challenges, regardless of compatibility",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Compatibility reduces friction, but does not eliminate challenges.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Life circumstances, stress, communication differences, and personal growth all introduce challenges into relationships.
+      </p>
+
+      <p class="myth-explanation">
+        Even highly compatible partners need to navigate disagreements, transitions, and external pressures.
+      </p>
+
+      <p class="myth-explanation">
+        Expecting a relationship to be effortless can lead to disappointment and unrealistic standards.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Long-term relationship studies show adaptation and effort are ongoing processes.
+      </div>
+  `
+},
+
+{
+  number: 6,
+  myth: "Staying in a relationship is always better than leaving",
+  icon: "",
+  fact: "Not all relationships are healthy or sustainable",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Continuing a relationship is not always the best option if it causes ongoing harm.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Cultural and social beliefs often emphasise staying in relationships at all costs. However, this can overlook situations involving conflict, imbalance, or emotional harm.
+      </p>
+
+      <p class="myth-explanation">
+        Remaining in an unhealthy relationship can negatively impact mental health, self-esteem, and overall wellbeing.
+      </p>
+
+      <p class="myth-explanation">
+        Ending a relationship can sometimes be a necessary step toward stability and growth.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Relationship wellbeing studies — unhealthy relationships are linked to increased stress and mental health issues.
+      </div>
+  `
+}
+
+];
+
+const mythsContainer = document.getElementById('mythsContainer');
+
+myths.forEach((myth, index) => {
+  const mythEl = document.createElement('div');
+  mythEl.className = 'myth-item';
+  mythEl.innerHTML = `
+    <div class="myth-header" onclick="toggleMythItem(${index})">
+      <div class="myth-icon">${myth.icon}</div>
+      <div class="myth-title-section">
+        <span class="myth-label">Myth ${myth.number}</span>
+        <h2 class="myth-title">${myth.myth}</h2>
+      </div>
+      <div class="toggle-icon">▼</div>
+    </div>
+    <div class="myth-content">
+      <div style="margin-top: 1rem;">
+        <div style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary) 100%); color: white; padding: 1rem 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+          <strong style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; opacity: 0.9; margin-bottom: 0.3rem;">Fact</strong>
+          <p style="font-size: 1.05rem; margin: 0;">${myth.fact}</p>
+        </div>
+        ${myth.content}
+        <span class="counter">Myth ${myth.number} of ${myths.length}</span>
+      </div>
+    </div>
+  `;
+  mythsContainer.appendChild(mythEl);
+});
+
+function toggleMythItem(index) {
+  const items = document.querySelectorAll('.myth-item');
+  items.forEach((item, i) => {
+    if (i === index) {
+      item.classList.toggle('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+}
+</script>
+
+</body>
+</html>

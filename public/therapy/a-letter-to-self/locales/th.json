@@ -1,0 +1,18 @@
+{
+  "a_letter_to_self.title": "💌 จดหมายถึงตัวเอง",
+  "a_letter_to_self.subtitle": "ช่วงเวลาแห่งความเมตตา มอบให้คุณโดยเฉพาะ",
+  "a_letter_to_self.intro_text": "ความเครียดอาจทำให้เราลืมไปว่าเราแข็งแกร่งแค่ไหน กิจกรรมนี้ช่วยให้คุณหยุดพัก ไตร่ตรอง และพูดกับตัวเองอย่างอ่อนโยน",
+  "a_letter_to_self.start_writing": "เริ่มเขียน →",
+  "a_letter_to_self.view_past_letters": "ดูจดหมายฉบับก่อนหน้า",
+  "a_letter_to_self.no_judgments": "ไม่มีการตัดสิน ไม่มีแรงกดดัน มีแค่คุณคนเดียว",
+  "a_letter_to_self.write_title": "เขียนถึงตัวคุณเอง",
+  "a_letter_to_self.write_placeholder": "ที่รัก\n\nฉันรู้ว่าทุกอย่างยากลำบาก...",
+  "a_letter_to_self.save_letter": "บันทึกจดหมาย",
+  "a_letter_to_self.cancel": "ยกเลิก",
+  "a_letter_to_self.check_in_title": "คุณรู้สึกอย่างไรบ้าง?",
+  "a_letter_to_self.complete_title": "บันทึกจดหมาย",
+  "a_letter_to_self.complete_msg": "จดหมายของคุณได้รับการบันทึกไว้อย่างปลอดภัยแล้ว",
+  "a_letter_to_self.home": "บ้าน",
+  "a_letter_to_self.past_letters_title": "จดหมายฉบับก่อนหน้า",
+  "a_letter_to_self.empty_letters": "ไม่พบจดหมายฉบับก่อนหน้า"
+}

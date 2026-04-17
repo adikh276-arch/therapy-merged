@@ -1,0 +1,84 @@
+{
+  "a_pause_for_appreciation.title": "Isang Paghinto para sa Pagpapahalaga",
+  "a_pause_for_appreciation.subtitle": "Isang 5–7 Minutong Gabay na Repleksyon",
+  "a_pause_for_appreciation.nav": {
+    "history": "Kasaysayan",
+    "home": "Tahanan"
+  },
+  "a_pause_for_appreciation.intro": {
+    "text1": "Kapag ang isang relasyon ay tila nahihirapan, maaaring maging madali na lamang ang magpokus sa mga bagay na hindi epektibo. Ang pagninilay na ito ay nagbibigay ng maikling paghinto — hindi para balewalain ang mga alalahanin, kundi para dahan-dahang palawakin ang pananaw.",
+    "text2": "Walang inaasahang makaramdam ng pasasalamat. Pansinin lamang ang mga bagay na darating.",
+    "begin": "Simulan",
+    "viewHistory": "Tingnan ang Kasaysayan"
+  },
+  "a_pause_for_appreciation.breathing": {
+    "title": "Dumating at Manatili",
+    "description": "Bago magpatuloy, sandali munang huminto. Ang sandaling ito ay hindi tungkol sa paglutas ng kahit ano. Ito ay tungkol sa paglikha ng espasyo.",
+    "instruction": "Sundin ang ritmo ng paghinga sa ibaba.",
+    "inhale": "Huminga nang malalim… {{counter}}…",
+    "hold": "Pindutin…",
+    "exhale": "Huminga nang palabas… {{counter}}…",
+    "affirmation": "\"Kaya kong tanggapin kung ano ang mahirap sa pakiramdam at nananatiling bukas pa rin sa pagpansin.\"",
+    "continue": "Magpatuloy"
+  },
+  "a_pause_for_appreciation.reflection": {
+    "step": "Hakbang {{step}} ng {{total}}",
+    "prompts": {
+      "p1": "May isang maikling sandali kamakailan kasama ang iyong kapareha na hindi nakakaramdam ng tensiyon ay...",
+      "p1_ex": "\"Nagkaroon kami ng maikli at mahinahong pag-uusap noong gabing iyon.\"",
+      "p2": "Isang pagsisikap na ginawa ng iyong kapareha — kahit na hindi perpekto — ay…",
+      "p2_ex": "\"Sinubukan nilang ipaliwanag ang kanilang nararamdaman sa halip na umatras.\"",
+      "p3": "Isang katangian sa iyong kapareha na nanatiling pare-pareho sa paglipas ng panahon ay...",
+      "p3_ex": "\"Patuloy silang nagpapakita ng dedikasyon sa aming mga responsibilidad.\""
+    },
+    "placeholder": "Isulat ang iyong repleksyon dito...",
+    "next": "Susunod",
+    "finish": "Tapusin"
+  },
+  "a_pause_for_appreciation.intention": {
+    "step": "Hakbang 4 ng 4",
+    "title": "Paano mo gustong gawin ang repleksyong ito?",
+    "options": {
+      "private": "Mas gusto kong panatilihing pribado ang repleksyong ito.",
+      "share_part": "Maaari kong piliing ibahagi ang bahagi nito sa aking kapareha.",
+      "share_full": "Gusto kong ibahagi nang buo ang repleksyong ito.",
+      "save_later": "Itatago ko ito para sa susunod na pag-uusap."
+    },
+    "continue": "Magpatuloy"
+  },
+  "a_pause_for_appreciation.checkin": {
+    "title": "Habang tinatapos mo ang pagninilay na ito, aling pahayag ang sa tingin mo ay pinakatumpak?",
+    "statements": {
+      "s1": "Medyo mas bukas ang loob ko sa partner ko ngayon.",
+      "s2": "Hindi ko masyadong napapansin ang pagbabago, pero handa akong manatiling alerto.",
+      "s3": "Medyo nahirapan akong tapusin ito.",
+      "s4": "Nakaramdam ako ng kaunting init habang nagmumuni-muni.",
+      "s5": "Napansin ko ang pagtutol, at parang mahalagang kilalanin iyon.",
+      "s6": "Nakakaramdam ako ng bahagyang paglambot kumpara noong una akong nagsimula."
+    },
+    "finish": "Tapusin at I-save"
+  },
+  "a_pause_for_appreciation.closing": {
+    "title": "Nakumpleto na ang Repleksyon",
+    "text1": "Hindi binubura ng paghintong ito ang mga hamon. Ibinabalik lamang nito ang balanse sa kung paano tinitingnan ang relasyon.",
+    "text2": "Kahit ang maiikling sandali ng pagpansin ay maaaring unti-unting magpapalambot ng emosyonal na katigasan at lumikha ng espasyo para sa mas malusog na mga pag-uusap.",
+    "save": "I-save sa Mga Repleksyon",
+    "viewHistory": "Tingnan ang Kasaysayan",
+    "exit": "Lumabas"
+  },
+  "a_pause_for_appreciation.history": {
+    "title": "Ang Iyong Kasaysayan ng Repleksyon",
+    "noReflections": "Wala pang na-save na mga repleksyon. Lalabas dito ang iyong mga natapos na sesyon.",
+    "back": "Balik sa Simula",
+    "confirmDelete": "Kumpirmahin ang Pagtanggal",
+    "cancel": "Kanselahin",
+    "delete": "Burahin ang entry",
+    "prompts": [
+      "Isang maikling sandali na hindi nakakaramdam ng tensyon...",
+      "Isang pagsisikap na ginawa ng iyong partner...",
+      "Isang katangiang nanatiling pare-pareho...",
+      "Intensyon",
+      "Pagsusuri sa Emosyon"
+    ]
+  }
+}

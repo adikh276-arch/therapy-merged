@@ -1,0 +1,18 @@
+{
+  "a_letter_to_self.title": "💌 Lettre à moi-même",
+  "a_letter_to_self.subtitle": "Un moment de bienveillance, rien que pour vous",
+  "a_letter_to_self.intro_text": "Le stress peut nous faire oublier notre force. Cette activité vous aide à faire une pause, à réfléchir et à vous parler avec bienveillance.",
+  "a_letter_to_self.start_writing": "Commencer à écrire →",
+  "a_letter_to_self.view_past_letters": "Consulter les lettres précédentes",
+  "a_letter_to_self.no_judgments": "Pas de jugement. Pas de pression. Juste vous.",
+  "a_letter_to_self.write_title": "Écris-toi à toi-même",
+  "a_letter_to_self.write_placeholder": "Mon Dieu,\n\nJe sais que les choses ont été difficiles...",
+  "a_letter_to_self.save_letter": "Sauvegarder la lettre",
+  "a_letter_to_self.cancel": "Annuler",
+  "a_letter_to_self.check_in_title": "Comment te sens-tu?",
+  "a_letter_to_self.complete_title": "Lettre enregistrée",
+  "a_letter_to_self.complete_msg": "Votre lettre a été enregistrée en toute sécurité.",
+  "a_letter_to_self.home": "Maison",
+  "a_letter_to_self.past_letters_title": "Lettres du passé",
+  "a_letter_to_self.empty_letters": "Aucune lettre antérieure trouvée."
+}

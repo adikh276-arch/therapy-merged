@@ -1,0 +1,84 @@
+{
+  "a_pause_for_appreciation.title": "Una pausa para apreciar",
+  "a_pause_for_appreciation.subtitle": "Una reflexión guiada de 5 a 7 minutos",
+  "a_pause_for_appreciation.nav": {
+    "history": "Historia",
+    "home": "Hogar"
+  },
+  "a_pause_for_appreciation.intro": {
+    "text1": "Cuando una relación se siente tensa, es fácil centrarse solo en lo que no funciona. Esta reflexión ofrece una breve pausa, no para desestimar las preocupaciones, sino para ampliar la perspectiva.",
+    "text2": "No hay que esperar sentirse agradecido. Simplemente observa lo que surge.",
+    "begin": "Comenzar",
+    "viewHistory": "Ver historial"
+  },
+  "a_pause_for_appreciation.breathing": {
+    "title": "Llegar y establecerse",
+    "description": "Antes de continuar, haz una breve pausa. Este momento no se trata de resolver nada. Se trata de crear espacio.",
+    "instruction": "Siga el ritmo de respiración a continuación.",
+    "inhale": "Inhala… {{counter}}…",
+    "hold": "Sostener…",
+    "exhale": "Exhala… {{counter}}…",
+    "affirmation": "\"Puedo reconocer lo que parece difícil y aún así permanecer abierto a notarlo\".",
+    "continue": "Continuar"
+  },
+  "a_pause_for_appreciation.reflection": {
+    "step": "Paso {{step}} de {{total}}",
+    "prompts": {
+      "p1": "Un pequeño momento reciente con tu pareja que no te hizo sentir tenso fue…",
+      "p1_ex": "\"Tuvimos una conversación breve y tranquila por la noche\".",
+      "p2": "Un esfuerzo que ha hecho tu pareja, aunque sea imperfecto, es…",
+      "p2_ex": "Intentaron explicar sus sentimientos en lugar de retirarse.",
+      "p3": "Una cualidad de tu pareja que se ha mantenido constante a lo largo del tiempo es…",
+      "p3_ex": "\"Siguen demostrando dedicación hacia nuestras responsabilidades\"."
+    },
+    "placeholder": "Escribe tu reflexión aquí…",
+    "next": "Próximo",
+    "finish": "Finalizar"
+  },
+  "a_pause_for_appreciation.intention": {
+    "step": "Paso 4 de 4",
+    "title": "¿Cómo te gustaría realizar esta reflexión?",
+    "options": {
+      "private": "Preferiría mantener esta reflexión privada.",
+      "share_part": "Puedo optar por compartir parte de esto con mi pareja.",
+      "share_full": "Me gustaría compartir esta reflexión plenamente.",
+      "save_later": "Guardaré esto para una conversación posterior."
+    },
+    "continue": "Continuar"
+  },
+  "a_pause_for_appreciation.checkin": {
+    "title": "Al completar esta reflexión, ¿qué afirmación le parece más precisa?",
+    "statements": {
+      "s1": "Me siento un poco más abierto hacia mi pareja en este momento.",
+      "s2": "No noto mucho cambio, pero estoy dispuesto a permanecer atento.",
+      "s3": "Me resultó un poco difícil completarlo.",
+      "s4": "Experimenté una pequeña sensación de calidez durante la reflexión.",
+      "s5": "He notado resistencia y creo que es importante reconocerlo.",
+      "s6": "Siento una ligera suavización en comparación con antes de empezar."
+    },
+    "finish": "Terminar y guardar"
+  },
+  "a_pause_for_appreciation.closing": {
+    "title": "Reflexión completa",
+    "text1": "Esta pausa no elimina los desafíos. Simplemente restablece el equilibrio en la perspectiva de la relación.",
+    "text2": "Incluso breves momentos de observación pueden suavizar gradualmente la rigidez emocional y crear espacio para conversaciones más saludables.",
+    "save": "Guardar en Reflexiones",
+    "viewHistory": "Ver historial",
+    "exit": "Salida"
+  },
+  "a_pause_for_appreciation.history": {
+    "title": "Tu historia de reflexión",
+    "noReflections": "Aún no hay reflexiones guardadas. Tus sesiones completadas aparecerán aquí.",
+    "back": "Volver al inicio",
+    "confirmDelete": "Confirmar eliminación",
+    "cancel": "Cancelar",
+    "delete": "Eliminar entrada",
+    "prompts": [
+      "Un pequeño momento que no se sintió tenso…",
+      "Un esfuerzo que ha hecho tu pareja…",
+      "Una cualidad que se ha mantenido constante…",
+      "Intención",
+      "Registro emocional"
+    ]
+  }
+}

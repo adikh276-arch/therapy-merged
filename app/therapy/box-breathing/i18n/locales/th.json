@@ -1,0 +1,21 @@
+{
+  "box_breathing.relax": "ผ่อนคลาย",
+  "box_breathing.about_technique": "เกี่ยวกับเทคนิคนี้",
+  "box_breathing.technique_description": "การหายใจแบบกล่อง (Box breathing) ใช้รูปแบบง่ายๆ 4-4-4-4 คือ หายใจเข้า กลั้นหายใจ หายใจออก กลั้นหายใจ โดยแต่ละขั้นตอนใช้เวลาสี่วินาที การหายใจแบบนี้จะกระตุ้นระบบประสาทพาราซิมพาเทติก ช่วยลดความเครียดและนำคุณกลับสู่สภาวะสงบและมีสมาธิ",
+  "box_breathing.how_to_practice": "วิธีการฝึกฝน",
+  "box_breathing.inhale_4s": "หายใจเข้าเป็นเวลา 4 วินาที",
+  "box_breathing.hold_4s": "กดค้างไว้ 4 วินาที",
+  "box_breathing.exhale_4s": "หายใจออกเป็นเวลา 4 วินาที",
+  "box_breathing.repeat_cycle": "ทำซ้ำวงจร",
+  "box_breathing.start_breathing": "เริ่มหายใจ",
+  "box_breathing.breathe_in": "หายใจเข้า",
+  "box_breathing.hold": "ถือ",
+  "box_breathing.breathe_out": "หายใจออก",
+  "box_breathing.feeling_calmer": "คุณรู้สึกสงบขึ้นแล้ว",
+  "box_breathing.session_complete_msg": "เยี่ยมมากที่ทำแบบฝึกหัดการหายใจเสร็จแล้ว ลองสังเกตความรู้สึกของร่างกายสักครู่ รู้สึกเบาขึ้น มั่นคงขึ้น และผ่อนคลายมากขึ้นใช่ไหม",
+  "box_breathing.start_again": "เริ่มใหม่อีกครั้ง",
+  "box_breathing.back": "กลับ",
+  "box_breathing.not_found_404": "404",
+  "box_breathing.page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "box_breathing.return_home": "กลับสู่หน้าแรก"
+}
