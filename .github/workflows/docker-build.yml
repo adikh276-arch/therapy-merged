@@ -28,5 +28,7 @@ jobs:
           context: .
           push: true
           tags: bunker.mantracare.com/therapy:1.0
+          provenance: false
+          sbom: false
           build-args: |
             DATABASE_URL=${{ secrets.DATABASE_URL }}
