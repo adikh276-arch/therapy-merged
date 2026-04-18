@@ -100,6 +100,9 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (typeof window === 'undefined') return;
     
+    // Allow the root hub (/) to be public so users can see the buttons
+    if (pathname === "/") return;
+
     const localId = localStorage.getItem(USER_ID_KEY);
     if (!localId && !token) {
        redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
@@ -108,8 +111,8 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     }
   }, [userId, token, pathname, searchParams]);
 
-  // Don't render until we are either authed or have a token to exchange
-  if (!userId && !token) return null;
+  // Don't render until we are either authed, have a token to exchange, or are on a public path
+  if (!userId && !token && pathname !== "/") return null;
   
   return <>{children}</>;
 }
