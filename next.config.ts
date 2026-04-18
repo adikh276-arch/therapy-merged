@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "standalone", // required for single Docker image
+  basePath: "/therapy",
   typescript: {
     ignoreBuildErrors: true, // We have 80 apps, some might have minor type issues
   },
