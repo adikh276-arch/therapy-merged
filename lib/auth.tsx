@@ -1,89 +1,115 @@
-// lib/auth.ts
+
+// lib/auth.tsx
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
-const REDIRECT_KEY = "THERAPY_REDIRECT_PATH";
-const AUTH_PORTAL  = process.env.NEXT_PUBLIC_AUTH_PORTAL_URL ?? "https://web.mantracare.com";
-const APP_ROOT     = process.env.NEXT_PUBLIC_BASE_URL         ?? "https://platform.mantracare.com";
+// Use distinct keys as per the ideal pattern
+const REDIRECT_KEY = "APP_REDIRECT_PATH"; 
+const USER_ID_KEY  = "userId";
 
-// Save destination, go to auth portal
+// Portal and App URLs from env
+const AUTH_PORTAL  = process.env.NEXT_PUBLIC_AUTH_PORTAL_URL ?? "https://web.mantracare.com";
+const APP_ROOT     = process.env.NEXT_PUBLIC_BASE_URL         ?? "https://platform.mantracare.com/therapy";
+
+/**
+ * 1. Intercept Unauthenticated Deep Links
+ */
 export function redirectToAuth(intendedPath: string) {
   if (typeof window === "undefined") return;
-  // localStorage (not sessionStorage) — survives cross-domain hops in Safari/mobile
+  
+  // Save precise path (including search params) to localStorage 
   localStorage.setItem(REDIRECT_KEY, intendedPath);
+  
+  // Redirect to Auth Portal with the app's root URL for return
   window.location.href = `${AUTH_PORTAL}/login?redirect_url=${encodeURIComponent(APP_ROOT)}`;
 }
 
-// After auth: navigate to saved destination and strip token from URL
+/**
+ * 3. The "Smart" Restore & Navigate
+ */
 export function restoreAndNavigate(
   navigate: (path: string, opts?: { replace?: boolean }) => void,
   currentPathname: string
 ) {
   const saved = localStorage.getItem(REDIRECT_KEY);
   localStorage.removeItem(REDIRECT_KEY);
-  // Fallback chain: saved path → current path → /therapy
-  const target = saved && saved !== "/" ? saved : currentPathname || "/therapy";
-  navigate(target, { replace: true }); // { replace: true } keeps token out of back-button history
+  
+  // The Fallback Logic: Saved path -> Current Path -> Home (/)
+  // Note: Since we use basePath: "/therapy", "/" refers to the hub at /therapy
+  const target = (saved && saved !== "/") ? saved : (currentPathname || "/");
+  
+  navigate(target, { replace: true });
 }
 
 export function AuthGuard({ children }: { children: React.ReactNode }) {
   const router       = useRouter();
   const pathname     = usePathname();
   const searchParams = useSearchParams();
-  const token  = searchParams.get("token");
+  const token        = searchParams.get("token");
   
-  // Use a state-like approach to track userId in client-side
-  const [userId, setUserId] = React.useState<string | null>(null);
+  const [userId, setUserId] = useState<string | null>(null);
 
+  // Load userId on mount
   useEffect(() => {
     if (typeof window !== "undefined") {
-      setUserId(localStorage.getItem("userId"));
+      setUserId(localStorage.getItem(USER_ID_KEY));
     }
   }, []);
 
-  // Effect 1 — exchange token from auth portal return
+  /**
+   * 2. Handle Auth Portal Return & Magic Links
+   */
   useEffect(() => {
     if (!token) return;
+    
     (async () => {
       try {
         const res  = await fetch(`/api/auth/exchange?token=${token}`);
         const data = await res.json();
+        
         if (data.userId) {
-          localStorage.setItem("userId", data.userId);
+          localStorage.setItem(USER_ID_KEY, data.userId);
           setUserId(data.userId);
+          // Hand off to smart navigator
           restoreAndNavigate(router.push.bind(router), pathname);
         } else {
-          redirectToAuth(pathname);
+          redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
         }
-      } catch {
-        redirectToAuth(pathname);
+      } catch (err) {
+        console.error("Token exchange failed", err);
+        redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
       }
     })();
-  }, [token, pathname, router]); // Added dependencies
+  }, [token, pathname, router]);
 
-  // Effect 2 — stale token cleanup (already authed, token still in URL)
+  /**
+   * 4. Stale Token Cleanup (Failsafe)
+   */
   useEffect(() => {
-    if (!token || !userId) return;
-    const params = new URLSearchParams(searchParams.toString());
-    params.delete("token");
-    const cleaned = params.toString() ? `${pathname}?${params}` : pathname;
-    router.replace(cleaned);
-  }, [searchParams, token, userId, pathname, router]); // Added dependencies
-
-  // Effect 3 — not authed, no token → send to auth portal
-  useEffect(() => {
-    if (!userId && !token && typeof window !== 'undefined') {
-       // Check localStorage directly because state might not be updated yet
-       const localId = localStorage.getItem("userId");
-       if (!localId) {
-         redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
-       } else {
-         setUserId(localId);
-       }
+    // If authed but token still in URL (refresh/stale link)
+    if (userId && token) {
+      const params = new URLSearchParams(searchParams.toString());
+      params.delete("token");
+      const cleaned = params.toString() ? `${pathname}?${params}` : pathname;
+      router.replace(cleaned);
     }
-  }, [userId, token, pathname, searchParams]); // Added dependencies
+  }, [userId, token, pathname, router, searchParams]);
 
+  // Handle initial redirect if not authed
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
+    const localId = localStorage.getItem(USER_ID_KEY);
+    if (!localId && !token) {
+       redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
+    } else if (localId && !userId) {
+       setUserId(localId);
+    }
+  }, [userId, token, pathname, searchParams]);
+
+  // Don't render until we are either authed or have a token to exchange
   if (!userId && !token) return null;
+  
   return <>{children}</>;
 }
