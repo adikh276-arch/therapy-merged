@@ -4,115 +4,88 @@
 import React, { useEffect, useState } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
-// Use distinct keys as per the ideal pattern
-const REDIRECT_KEY = "APP_REDIRECT_PATH"; 
-const USER_ID_KEY  = "userId";
-
-// Portal and App URLs from env
-const AUTH_PORTAL  = process.env.NEXT_PUBLIC_AUTH_PORTAL_URL ?? "https://web.mantracare.com";
-const APP_ROOT     = process.env.NEXT_PUBLIC_BASE_URL         ?? "https://platform.mantracare.com/therapy";
-
-/**
- * 1. Intercept Unauthenticated Deep Links
- */
-export function redirectToAuth(intendedPath: string) {
-  if (typeof window === "undefined") return;
-  
-  // Save precise path (including search params) to localStorage 
-  localStorage.setItem(REDIRECT_KEY, intendedPath);
-  
-  // Redirect to Auth Portal with the app's root URL for return
-  window.location.href = `${AUTH_PORTAL}/login?redirect_url=${encodeURIComponent(APP_ROOT)}`;
-}
-
-/**
- * 3. The "Smart" Restore & Navigate
- */
-export function restoreAndNavigate(
-  navigate: (path: string, opts?: { replace?: boolean }) => void,
-  currentPathname: string
-) {
-  const saved = localStorage.getItem(REDIRECT_KEY);
-  localStorage.removeItem(REDIRECT_KEY);
-  
-  // The Fallback Logic: Saved path -> Current Path -> Home (/)
-  // Note: Since we use basePath: "/therapy", "/" refers to the hub at /therapy
-  const target = (saved && saved !== "/") ? saved : (currentPathname || "/");
-  
-  navigate(target, { replace: true });
-}
+const USER_ID_KEY = "user_id"; // Pattern says sessionStorage.setItem("user_id", ...)
 
 export function AuthGuard({ children }: { children: React.ReactNode }) {
-  const router       = useRouter();
-  const pathname     = usePathname();
+  const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
-  const token        = searchParams.get("token");
+  const token = searchParams.get("token");
   
   const [userId, setUserId] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  // Load userId on mount
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      setUserId(localStorage.getItem(USER_ID_KEY));
-    }
-  }, []);
+    const initAuth = async () => {
+      // 1. Check Query Token
+      if (token) {
+        try {
+          // 2. Perform Handshake (Validation)
+          const response = await fetch("https://api.mantracare.com/user/user-info", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ token }),
+          });
 
-  /**
-   * 2. Handle Auth Portal Return & Magic Links
-   */
-  useEffect(() => {
-    if (!token) return;
-    
-    (async () => {
-      try {
-        const res  = await fetch(`/api/auth/exchange?token=${token}`);
-        const data = await res.json();
-        
-        if (data.userId) {
-          localStorage.setItem(USER_ID_KEY, data.userId);
-          setUserId(data.userId);
-          // Hand off to smart navigator
-          restoreAndNavigate(router.push.bind(router), pathname);
-        } else {
-          redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
+          if (response.ok) {
+            const data = await response.json();
+            const id = data.user_id;
+
+            // 3. Resolution - Success
+            sessionStorage.setItem(USER_ID_KEY, id);
+            setUserId(id);
+
+            // Clean URL (remove token)
+            const params = new URLSearchParams(searchParams.toString());
+            params.delete("token");
+            const cleaned = params.toString() ? `${pathname}?${params}` : pathname;
+            window.history.replaceState({}, "", cleaned);
+            
+            setLoading(false);
+          } else {
+            // Failure
+            window.location.href = "/therapy/token";
+          }
+        } catch (error) {
+          console.error("Handshake failed", error);
+          window.location.href = "/therapy/token";
         }
-      } catch (err) {
-        console.error("Token exchange failed", err);
-        redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
+        return;
       }
-    })();
-  }, [token, pathname, router]);
 
-  /**
-   * 4. Stale Token Cleanup (Failsafe)
-   */
-  useEffect(() => {
-    // If authed but token still in URL (refresh/stale link)
-    if (userId && token) {
-      const params = new URLSearchParams(searchParams.toString());
-      params.delete("token");
-      const cleaned = params.toString() ? `${pathname}?${params}` : pathname;
-      router.replace(cleaned);
-    }
-  }, [userId, token, pathname, router, searchParams]);
+      // Check existing session
+      const existingId = sessionStorage.getItem(USER_ID_KEY);
+      if (existingId) {
+        setUserId(existingId);
+        setLoading(false);
+      } else {
+        // Missing token and no session
+        // Allow the root hub path (/) to be public as per previous request
+        if (pathname === "/") {
+          setLoading(false);
+        } else {
+          window.location.href = "/therapy/token";
+        }
+      }
+    };
 
-  // Handle initial redirect if not authed
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-    
-    // Allow the root hub (/) to be public so users can see the buttons
-    if (pathname === "/") return;
+    initAuth();
+  }, [token, pathname, searchParams]);
 
-    const localId = localStorage.getItem(USER_ID_KEY);
-    if (!localId && !token) {
-       redirectToAuth(pathname + (searchParams.toString() ? `?${searchParams}` : ""));
-    } else if (localId && !userId) {
-       setUserId(localId);
-    }
-  }, [userId, token, pathname, searchParams]);
+  // Blocking Navigation: Do not render any application UI until handshake complete
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-white dark:bg-black">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
+          <p className="text-gray-500 font-medium">Validating session...</p>
+        </div>
+      </div>
+    );
+  }
 
-  // Don't render until we are either authed, have a token to exchange, or are on a public path
-  if (!userId && !token && pathname !== "/") return null;
-  
+  // If on a protected path and not authed, return null while redirect is happening
+  if (!userId && pathname !== "/") return null;
+
   return <>{children}</>;
 }
