@@ -1,5 +1,9 @@
 import StaticRenderer from '@/components/StaticRenderer';
+import fs from 'fs';
+import path from 'path';
 
 export default function Page() {
-  return <StaticRenderer slug="eating-disorder-myths" />;
+  const filePath = path.join(process.cwd(), 'app/therapy/eating-disorder-myths/index.html');
+  const html = fs.readFileSync(filePath, 'utf8');
+  return <StaticRenderer html={html} />;
 }

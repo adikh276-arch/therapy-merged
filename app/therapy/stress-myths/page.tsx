@@ -1,5 +1,9 @@
 import StaticRenderer from '@/components/StaticRenderer';
+import fs from 'fs';
+import path from 'path';
 
 export default function Page() {
-  return <StaticRenderer slug="stress-myths" />;
+  const filePath = path.join(process.cwd(), 'app/therapy/stress-myths/index.html');
+  const html = fs.readFileSync(filePath, 'utf8');
+  return <StaticRenderer html={html} />;
 }

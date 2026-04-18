@@ -1,5 +1,9 @@
 import StaticRenderer from '@/components/StaticRenderer';
+import fs from 'fs';
+import path from 'path';
 
 export default function Page() {
-  return <StaticRenderer slug="relationship-myths" />;
+  const filePath = path.join(process.cwd(), 'app/therapy/relationship-myths/index.html');
+  const html = fs.readFileSync(filePath, 'utf8');
+  return <StaticRenderer html={html} />;
 }
