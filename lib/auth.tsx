@@ -16,6 +16,12 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // If we already have a userId and no new token to exchange, skip
+    if (userId && !token) {
+        setLoading(false);
+        return;
+    }
+
     const initAuth = async () => {
       // 1. Check Query Token
       if (token) {
@@ -60,8 +66,8 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
         setLoading(false);
       } else {
         // Missing token and no session
-        // Allow the root hub path (/) to be public as per previous request
-        if (pathname === "/") {
+        // Allow the Hub (/) and Error page (/token) to be public
+        if (pathname === "/" || pathname === "/token") {
           setLoading(false);
         } else {
           window.location.href = "/therapy/token";
@@ -70,7 +76,7 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     };
 
     initAuth();
-  }, [token, pathname, searchParams]);
+  }, [token, pathname, searchParams, userId]);
 
   // Blocking Navigation: Do not render any application UI until handshake complete
   if (loading) {
@@ -84,8 +90,8 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     );
   }
 
-  // If on a protected path and not authed, return null while redirect is happening
-  if (!userId && pathname !== "/") return null;
-
+  // Don't render until we are either authed, have a token to exchange, or are on a public path
+  if (!userId && !token && pathname !== "/" && pathname !== "/token") return null;
+  
   return <>{children}</>;
 }
