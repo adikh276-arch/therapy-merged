@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default function Page() {
-  const filePath = path.join(process.cwd(), 'app/therapy/relationship-articles/index.html');
+  const filePath = path.join(process.cwd(), 'app/relationship-articles/index.html');
   const html = fs.readFileSync(filePath, 'utf8');
   return <StaticRenderer html={html} />;
 }
