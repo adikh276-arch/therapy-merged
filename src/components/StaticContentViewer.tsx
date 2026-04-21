@@ -2,8 +2,9 @@ import { useParams } from 'react-router-dom';
 
 export function StaticContentViewer() {
   const { concern, type } = useParams<{ concern: string; type: string }>();
-  // We use _ to join concern and type just as they are in the folder names
-  const src = `/therapy/static/content/${concern}_${type}/index.html`;
+  // Normalize concern: replace hyphens with underscores to match folder names (e.g. eating-disorder → eating_disorder)
+  const normalizedConcern = (concern || '').replace(/-/g, '_');
+  const src = `/therapy/static/content/${normalizedConcern}_${type}/index.html`;
 
   return (
     <iframe

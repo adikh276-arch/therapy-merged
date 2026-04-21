@@ -12,7 +12,16 @@ const OverviewScreen = ({ onStart }: Props) => {
     <div className="min-h-screen gradient-calm flex flex-col">
       {/* Header */}
       <header className="flex items-center justify-between px-6 pt-6 pb-4">
-        <button className="w-10 h-10 rounded-full bg-card shadow-soft flex items-center justify-center">
+        <button
+          className="w-10 h-10 rounded-full bg-card shadow-soft flex items-center justify-center"
+          onClick={() => {
+            if (window.parent !== window) {
+              window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+            } else {
+              window.history.back();
+            }
+          }}
+        >
           <ArrowLeft className="w-5 h-5 text-foreground" />
         </button>
         <h1 className="text-lg font-semibold text-foreground">

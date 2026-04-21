@@ -53,7 +53,9 @@ const getLanguage = () => {
     return localStorage.getItem("language") || "en";
 };
 
-i18n.use(initReactI18next).init({
+const instance = i18n.createInstance();
+
+instance.use(initReactI18next).init({
     resources,
     lng: getLanguage(),
     fallbackLng: "en",
@@ -62,7 +64,7 @@ i18n.use(initReactI18next).init({
     },
 });
 
-export default i18n;
+export default instance;
 
 export const SUPPORTED_LANGUAGES = [
   { code: 'en', name: 'English', nativeLabel: 'English' },

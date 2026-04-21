@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Mail, Leaf } from "lucide-react";
+import { Mail, Leaf, ArrowLeft } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { useTranslation } from "react-i18next";
 
@@ -7,8 +7,26 @@ const IntroScreen = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
+  const handleBack = () => {
+    if (window.parent !== window) {
+      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+    } else {
+      window.history.back();
+    }
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-12 fade-enter">
+    <div className="min-h-screen flex flex-col px-4 py-6 fade-enter">
+      {/* Back button */}
+      <button
+        onClick={handleBack}
+        className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground text-sm transition-colors mb-6 self-start"
+      >
+        <ArrowLeft className="w-4 h-4" />
+        Back
+      </button>
+
+      <div className="flex-1 flex items-center justify-center">
       <div className="max-w-md w-full text-center space-y-8">
         <div className="flex justify-center">
           <div className="w-20 h-20 rounded-full bg-accent flex items-center justify-center gentle-pulse">
@@ -46,6 +64,7 @@ const IntroScreen = () => {
         <p className="text-muted-foreground text-sm pt-4 flex items-center justify-center gap-1.5">
           {t("no_judgments")} <Leaf className="w-4 h-4 text-accent-foreground" />
         </p>
+      </div>
       </div>
     </div>
   );
