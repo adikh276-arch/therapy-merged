@@ -1,0 +1,173 @@
+{
+  "common": {
+    "title": "Afirmações — Uma Companheira Gentil",
+    "beforeYouBegin": "Antes de começar",
+    "introText1": "Se você se sentir à vontade, pode optar por ficar em frente a um espelho enquanto lê essas afirmações.",
+    "introText2": "Você pode se olhar com carinho e dizer cada frase em voz alta, devagar e claramente. Ouvir a própria voz pode tornar as palavras mais pessoais e concretas.",
+    "noRightWay": "Não existe uma maneira certa de fazer isso.",
+    "takeTime": "Sem pressa.",
+    "breatheNaturally": "Respire naturalmente.",
+    "noRush": "Não há necessidade de pressa ou de forçar qualquer sentimento.",
+    "meaningfulMoment": "Mesmo que as palavras não pareçam totalmente verdadeiras agora, permitir-se este momento de intenção ainda pode ser significativo.",
+    "readyToBegin": "Quando você se sentir pronto, pode começar ✨",
+    "begin": "Começar",
+    "howFeeling": "Como você está se sentindo agora?",
+    "noExplanation": "Você não precisa explicar nem analisar nada.",
+    "justNotice": "Simplesmente observe o que lhe parece mais próximo da sua experiência neste momento.",
+    "chooseOne": "Escolha um sentimento para começar — você sempre pode voltar a ele.",
+    "readAgain": "Leia novamente",
+    "chooseAnother": "Escolha outro sentimento"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Quando você se sente sozinho e triste",
+      "affirmations": [
+        "Não estou sozinho, mesmo quando parece que sim.",
+        "Meus sentimentos merecem cuidado e delicadeza.",
+        "Este momento não durará para sempre.",
+        "Tenho o direito de precisar de conexão.",
+        "Posso me oferecer calor neste momento."
+      ]
+    },
+    "terrified": {
+      "label": "Quando você se sente apavorado",
+      "affirmations": [
+        "Neste momento, estou em segurança.",
+        "O medo é um sentimento, não uma previsão.",
+        "Consigo lidar com isso uma respiração de cada vez.",
+        "Não preciso resolver tudo agora.",
+        "Sou mais forte do que este momento."
+      ]
+    },
+    "insignificant": {
+      "label": "Quando você se sente insignificante",
+      "affirmations": [
+        "Pequenos momentos ainda contam.",
+        "Não preciso provar meu valor.",
+        "Tenho permissão para ocupar espaço.",
+        "Minha existência importa.",
+        "Eu sou suficiente como sou."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Quando você se sente sobrecarregado",
+      "affirmations": [
+        "Não preciso fazer tudo de uma vez.",
+        "Um pequeno passo já basta.",
+        "Não tem problema fazer uma pausa.",
+        "Tenho permissão para descansar.",
+        "Isso voltará a ser administrável."
+      ]
+    },
+    "hopeless": {
+      "label": "Quando você se sente sem esperança",
+      "affirmations": [
+        "Não preciso de respostas hoje.",
+        "A mudança ainda é possível.",
+        "Já sobrevivi a dias difíceis antes.",
+        "Posso ficar aqui por enquanto.",
+        "Algo suave ainda pode acontecer."
+      ]
+    },
+    "conflicted": {
+      "label": "Quando você se sente em conflito",
+      "affirmations": [
+        "Não tem problema sentir mais de uma coisa ao mesmo tempo.",
+        "Não preciso de esclarecimentos imediatos.",
+        "Confusão não significa fracasso.",
+        "Posso me dar esse tempo.",
+        "Confio em mim mesma para descobrir isso."
+      ]
+    },
+    "self-critical": {
+      "label": "Quando você é muito autocrítico",
+      "affirmations": [
+        "Consigo falar comigo mesma com gentileza.",
+        "Não preciso me punir para crescer.",
+        "Os erros não definem quem eu sou.",
+        "Estou aprendendo, não fracassando.",
+        "O crescimento não exige crueldade."
+      ]
+    },
+    "out-of-place": {
+      "label": "Quando você se sente socialmente deslocado",
+      "affirmations": [
+        "Tenho permissão para ficar em silêncio ou ser diferente.",
+        "Não preciso igualar a energia de ninguém.",
+        "Eu pertenço a este lugar como sou.",
+        "Posso ocupar espaço delicadamente.",
+        "Não estou fazendo nada errado."
+      ]
+    },
+    "unsafe": {
+      "label": "Quando você se sente inseguro(a) perto de estranhos",
+      "affirmations": [
+        "Posso avançar no meu próprio ritmo.",
+        "Tenho o direito de proteger meus limites.",
+        "Consigo manter-me ancorado no meu corpo.",
+        "Tenho permissão para me afastar de certas situações.",
+        "Eu consigo me manter em segurança."
+      ]
+    },
+    "pressured": {
+      "label": "Quando você se sente pressionado no trabalho",
+      "affirmations": [
+        "Meu valor não está na minha produtividade.",
+        "Não preciso provar meu valor constantemente.",
+        "Fazer o meu melhor já é suficiente por hoje.",
+        "Fazer uma tarefa de cada vez está bom.",
+        "Sou mais do que o meu papel."
+      ]
+    },
+    "face-the-day": {
+      "label": "Quando você não quer encarar o dia.",
+      "affirmations": [
+        "Posso encarar o dia de hoje em pequenas partes.",
+        "O simples fato de conseguir superar isso já é suficiente.",
+        "Não preciso de motivação para começar.",
+        "A presença gentil ainda conta.",
+        "Este dia não me define."
+      ]
+    },
+    "future": {
+      "label": "Quando você se preocupa com o seu futuro",
+      "affirmations": [
+        "Posso voltar ao presente.",
+        "Lidarei com as coisas conforme forem surgindo.",
+        "Hoje não preciso de certezas.",
+        "Sou capaz de me adaptar.",
+        "Consigo confiar um pouco mais em mim mesma."
+      ]
+    },
+    "stuck": {
+      "label": "Quando você se sente preso em um problema",
+      "affirmations": [
+        "Estar preso não significa que eu esteja quebrado.",
+        "Posso fazer uma pausa sem desistir.",
+        "Não preciso de soluções imediatas.",
+        "Tenho o direito de me sentir inseguro(a).",
+        "Ainda estou me movimentando, mesmo que lentamente."
+      ]
+    },
+    "compare": {
+      "label": "Quando você se compara a si mesmo",
+      "affirmations": [
+        "Minha jornada é minha.",
+        "Não preciso competir para ser digno.",
+        "Tenho permissão para crescer no meu próprio ritmo.",
+        "O sucesso de outra pessoa não apaga o meu.",
+        "Não estou atrasado."
+      ]
+    },
+    "give-up": {
+      "label": "Quando você quer desistir",
+      "affirmations": [
+        "Não preciso decidir nada agora.",
+        "Essa sensação vai passar.",
+        "Sobrevivi a mais coisas do que imagino.",
+        "Posso ficar mais um instante.",
+        "Eu ainda estou aqui — e isso importa."
+      ]
+    }
+  }
+}

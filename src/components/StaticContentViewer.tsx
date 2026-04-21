@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 export function StaticContentViewer() {
   const { concern, type } = useParams<{ concern: string; type: string }>();
   // We use _ to join concern and type just as they are in the folder names
-  const src = `/static/content/${concern}_${type}/index.html`;
+  const src = `/therapy/static/content/${concern}_${type}/index.html`;
 
   return (
     <iframe

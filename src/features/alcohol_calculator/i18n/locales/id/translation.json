@@ -1,0 +1,143 @@
+{
+  "common": {
+    "title": "Kalkulator Alkohol",
+    "description": "Jawaban cepat untuk momen nyata. Tanpa pelacakan, tanpa penilaian, tanpa data yang disimpan.",
+    "private_notice": "Pribadi & instan — tidak ada yang tersimpan",
+    "start_over": "Mulai lagi",
+    "disclaimer": "Hanya untuk informasi — bukan nasihat medis atau hukum. Semua perhitungan dilakukan di perangkat Anda. Tidak ada data yang disimpan."
+  },
+  "cards": {
+    "bac": {
+      "title": "Apakah saya bisa mengemudi?",
+      "subtitle": "Perkiraan kadar alkohol dalam darah (BAC) + waktu hingga aman"
+    },
+    "cost": {
+      "title": "Berapa Biaya yang Harus Saya Keluarkan untuk Itu?",
+      "subtitle": "Pengeluaran mingguan, bulanan & tahunan"
+    },
+    "session": {
+      "title": "Apakah Itu Terlalu Berlebihan?",
+      "subtitle": "Evaluasi sesi terakhir Anda"
+    },
+    "reduction": {
+      "title": "Potong dengan Mudah",
+      "subtitle": "Satu perubahan kecil, dampak nyata."
+    }
+  },
+  "bac": {
+    "drink_types": {
+      "beer": "Bir",
+      "wine": "Anggur",
+      "spirits": "Tembakan"
+    },
+    "presets": {
+      "beer_1": "1 bir",
+      "beer_2": "2 bir",
+      "wine_3": "3 anggur",
+      "spirits_2": "2 tembakan"
+    },
+    "drinks_label": "Minuman",
+    "weight_label": "Berat (kg)",
+    "gender_label": "Jenis kelamin",
+    "male": "Pria",
+    "female": "Perempuan",
+    "time_since_label": "Waktu sejak minum pertama kali",
+    "hours_unit": "H",
+    "results": {
+      "est_bac": "Est. BAC",
+      "safe_to_drive": "Aman untuk berkendara di",
+      "now": "Sekarang",
+      "warning": "Meskipun Anda merasa baik-baik saja, waktu reaksi Anda mungkin tetap terganggu. Ini hanyalah perkiraan — bukan nasihat hukum."
+    },
+    "status": {
+      "safe": {
+        "verdict": "Kemungkinan aman",
+        "message": "Kadar alkohol dalam darah (BAC) Anda yang diperkirakan masih dalam batas aman. Tetap waspada — gangguan fungsi tubuh dapat dimulai bahkan sebelum mencapai batas legal."
+      },
+      "borderline": {
+        "verdict": "Perbatasan",
+        "message": "Anda mungkin merasa baik-baik saja, tetapi waktu reaksi dan penilaian Anda sudah terpengaruh. Lebih baik menunggu."
+      },
+      "danger": {
+        "verdict": "Jangan mengemudi",
+        "message": "Kadar alkohol dalam darah Anda jauh di atas batas aman. Mengemudi sekarang berbahaya dan kemungkinan ilegal."
+      }
+    }
+  },
+  "cost": {
+    "pattern_label": "Pola Anda",
+    "presets": {
+      "casual": "Kasual",
+      "weekend": "Akhir pekan",
+      "regular": "Biasa",
+      "heavy": "Berat"
+    },
+    "drinks_per_session": "Minuman per sesi",
+    "sessions_per_week": "Sesi per minggu",
+    "cost_per_drink": "Harga per minuman",
+    "currency": "Rp",
+    "labels": {
+      "weekly": "Mingguan",
+      "monthly": "Bulanan",
+      "yearly": "Tahunan"
+    },
+    "equivalents": {
+      "phone": "ponsel baru setiap tahun",
+      "savings": "dana darurat yang memadai",
+      "vacation": "liburan ke luar negeri",
+      "rent": "sewa beberapa bulan"
+    },
+    "impact_message": "Itu <1></1>/tahun — cukup untuk <3></3>"
+  },
+  "session": {
+    "last_session_label": "Sesi terakhir",
+    "presets": {
+      "casual": "Malam santai",
+      "friday": "Jumat keluar",
+      "big": "Malam yang besar",
+      "party": "Berpesta"
+    },
+    "drinks_consumed": "Minuman yang dikonsumsi",
+    "duration": "Durasi (jam)",
+    "questions": {
+      "blackout": "Apakah ada jeda ingatan atau hilang kesadaran?",
+      "poor_sleep": "Sulit tidur setelahnya?",
+      "yes": "Ya",
+      "no": "TIDAK"
+    },
+    "stats": "{{minuman}} minuman selama {{jam}}h = ~{{laju}} minuman/jam",
+    "verdicts": {
+      "low_risk": "Dalam kisaran risiko rendah",
+      "heavy": "Sesi berat",
+      "high_risk": "Sesi berisiko tinggi"
+    },
+    "effects": {
+      "dehydration": "Kemungkinan dehidrasi",
+      "fatigue": "Kelelahan keesokan harinya",
+      "pace": "Kecepatan tinggi meningkatkan risiko",
+      "sleep": "Kualitas tidur menurun",
+      "blackout": "Kekosongan ingatan adalah tanda peringatan.",
+      "liver": "Hati berada di bawah beban yang signifikan.",
+      "minimal": "Dampak minimal diperkirakan"
+    }
+  },
+  "reduction": {
+    "current_intake": "Jumlah minuman per minggu saat ini",
+    "pick_change": "Pilih satu perubahan kecil.",
+    "changes": {
+      "remove2": "Kurangi 2 minuman per minggu",
+      "skip1day": "Lewati 1 hari minum alkohol",
+      "halve": "Bagi satu sesi menjadi dua",
+      "lowabv": "Beralihlah ke ABV yang lebih rendah."
+    },
+    "impact": {
+      "by_change": "Cukup dengan: {{change}}",
+      "unit": "minuman per minggu",
+      "fewer": "Lebih sedikit/minggu",
+      "saved": "Disimpan/bulan",
+      "risk_reduced": "Risiko berkurang",
+      "compounding": "Perubahan kecil akan berdampak besar. Anda tidak membutuhkan sistem — hanya satu alasan lagi untuk tidak khawatir.",
+      "adjust_hint": "Sesuaikan asupan Anda saat ini untuk melihat dampaknya."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "common": {
+    "title": "Kalkulador ng Alkohol",
+    "description": "Mabilis na mga sagot para sa totoong mga sandali. Walang pagsubaybay, walang paghuhusga, walang nakaimbak na data.",
+    "private_notice": "Pribado at instant — walang naka-save",
+    "start_over": "Magsimula muli",
+    "disclaimer": "Para lamang sa kaalaman — hindi medikal o legal na payo. Nangyayari ang lahat ng kalkulasyon sa iyong device. Walang iniimbak."
+  },
+  "cards": {
+    "bac": {
+      "title": "Kaya ko bang magmaneho?",
+      "subtitle": "Tantiya ng BAC + oras hanggang sa ligtas"
+    },
+    "cost": {
+      "title": "Magkano ang Ginugol Ko Nito?",
+      "subtitle": "Lingguhan, buwanan at taunang gastos"
+    },
+    "session": {
+      "title": "Sobra na ba iyon?",
+      "subtitle": "Suriin ang iyong huling sesyon"
+    },
+    "reduction": {
+      "title": "Magbawas nang Madali",
+      "subtitle": "Isang maliit na pagbabago, tunay na epekto"
+    }
+  },
+  "bac": {
+    "drink_types": {
+      "beer": "Serbesa",
+      "wine": "Alak",
+      "spirits": "Binaril"
+    },
+    "presets": {
+      "beer_1": "1 serbesa",
+      "beer_2": "2 beer",
+      "wine_3": "3 alak",
+      "spirits_2": "2 putok"
+    },
+    "drinks_label": "Mga Inumin",
+    "weight_label": "Timbang (kg)",
+    "gender_label": "Kasarian",
+    "male": "Lalaki",
+    "female": "Babae",
+    "time_since_label": "Oras mula noong unang inumin",
+    "hours_unit": "h",
+    "results": {
+      "est_bac": "Tinatayang BAC",
+      "safe_to_drive": "Ligtas na magmaneho papasok",
+      "now": "Ngayon",
+      "warning": "Kahit na maayos ang pakiramdam mo, maaaring may kapansanan pa rin ang oras ng iyong reaksyon. Ito ay isang pagtatantya lamang — hindi legal na payo."
+    },
+    "status": {
+      "safe": {
+        "verdict": "Malamang ligtas",
+        "message": "Ang iyong tinantyang BAC ay nasa loob ng ligtas na limitasyon. Manatiling alerto — ang pagbaba ng presyon ng dugo ay maaaring magsimula sa ibaba ng legal na limitasyon."
+      },
+      "borderline": {
+        "verdict": "Hangganan",
+        "message": "Maaaring maayos ang pakiramdam mo, ngunit apektado na ang oras ng reaksyon at pagpapasya. Mas mabuting maghintay."
+      },
+      "danger": {
+        "verdict": "Huwag magmaneho",
+        "message": "Ang iyong BAC ay higit pa sa ligtas na limitasyon. Mapanganib at malamang na ilegal ang pagmamaneho ngayon."
+      }
+    }
+  },
+  "cost": {
+    "pattern_label": "Ang iyong huwaran",
+    "presets": {
+      "casual": "Kaswal",
+      "weekend": "Sabado at Linggo",
+      "regular": "Regular",
+      "heavy": "Mabigat"
+    },
+    "drinks_per_session": "Mga inumin bawat sesyon",
+    "sessions_per_week": "Mga sesyon kada linggo",
+    "cost_per_drink": "Gastos bawat inumin",
+    "currency": "₹",
+    "labels": {
+      "weekly": "Lingguhan",
+      "monthly": "Buwan-buwan",
+      "yearly": "Taunan"
+    },
+    "equivalents": {
+      "phone": "isang bagong telepono bawat taon",
+      "savings": "isang matibay na pondo para sa emerhensya",
+      "vacation": "bakasyon sa ibang bansa",
+      "rent": "ilang buwang upa"
+    },
+    "impact_message": "Iyan ay <1></1>/taon — sapat na para sa <3></3>"
+  },
+  "session": {
+    "last_session_label": "Huling sesyon",
+    "presets": {
+      "casual": "Kaswal na gabi",
+      "friday": "Biyernes palabas",
+      "big": "Malaking gabi",
+      "party": "Party"
+    },
+    "drinks_consumed": "Mga inuming nainom",
+    "duration": "Tagal (oras)",
+    "questions": {
+      "blackout": "May mga kakulangan sa memorya o blackout?",
+      "poor_sleep": "Hindi magandang tulog pagkatapos?",
+      "yes": "Oo",
+      "no": "Hindi"
+    },
+    "stats": "{{drinks}} na inumin sa loob ng {{oras}}h = ~{{rate}} na inumin/oras",
+    "verdicts": {
+      "low_risk": "Sa loob ng mababang saklaw ng panganib",
+      "heavy": "Mabigat na sesyon",
+      "high_risk": "Sesyon na may mataas na panganib"
+    },
+    "effects": {
+      "dehydration": "Malamang na ma-dehydrate",
+      "fatigue": "Pagkapagod sa susunod na araw",
+      "pace": "Ang mabilis na bilis ay nagpapataas ng panganib",
+      "sleep": "Nabawasan ang kalidad ng pagtulog",
+      "blackout": "Ang mga puwang sa memorya ay isang babala",
+      "liver": "Atay sa ilalim ng malaking pasanin",
+      "minimal": "Inaasahang minimal na epekto"
+    }
+  },
+  "reduction": {
+    "current_intake": "Kasalukuyang inumin/linggo",
+    "pick_change": "Pumili ng isang maliit na sukli",
+    "changes": {
+      "remove2": "Itigil ang 2 inumin kada linggo",
+      "skip1day": "Laktawan ang 1 araw ng pag-inom",
+      "halve": "Hatiin ang isang sesyon",
+      "lowabv": "Lumipat sa mas mababang ABV"
+    },
+    "impact": {
+      "by_change": "Sa pamamagitan lamang ni: {{change}}",
+      "unit": "mga inumin kada linggo",
+      "fewer": "Mas kaunti/linggo",
+      "saved": "Na-save/buwan",
+      "risk_reduced": "Nabawasan ang panganib",
+      "compounding": "Mahirap paniwalaan ang maliliit na pagbabago. Hindi mo kailangan ng sistema — isa lang itong dahilan para mag-alala.",
+      "adjust_hint": "Ayusin ang iyong kasalukuyang pagkonsumo upang makita ang epekto."
+    }
+  }
+}

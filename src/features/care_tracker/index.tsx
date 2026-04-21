@@ -14,7 +14,11 @@ const queryClient = new QueryClient();
 
 // Trigger build after environment variable setup
 const App = () => (
-  <>
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <>
     <>
       <Toaster />
       <Sonner />
@@ -32,6 +36,7 @@ const App = () => (
       </AuthProvider>
     </>
   </>
-);
+    </TooltipProvider>
+  </QueryClientProvider>);
 
 export default App;

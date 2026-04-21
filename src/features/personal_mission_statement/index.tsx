@@ -12,7 +12,11 @@ import LanguageSelector from "./components/LanguageSelector";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <>
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <>
     <>
       <Toaster />
       <Sonner />
@@ -26,6 +30,7 @@ const App = () => (
       </>
     </>
   </>
-);
+    </TooltipProvider>
+  </QueryClientProvider>);
 
 export default App;

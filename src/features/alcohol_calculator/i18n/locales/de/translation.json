@@ -1,0 +1,143 @@
+{
+  "common": {
+    "title": "Alkoholrechner",
+    "description": "Schnelle Antworten für echte Momente. Keine Überwachung, keine Wertung, keine Datenspeicherung.",
+    "private_notice": "Privat und sofort – nichts wird gespeichert",
+    "start_over": "Von vorn beginnen",
+    "disclaimer": "Nur zur Information – keine medizinische oder rechtliche Beratung. Alle Berechnungen erfolgen auf Ihrem Gerät. Es werden keine Daten gespeichert."
+  },
+  "cards": {
+    "bac": {
+      "title": "Darf ich fahren?",
+      "subtitle": "Blutalkoholkonzentrationsschätzung + Zeit bis zum sicheren Stand"
+    },
+    "cost": {
+      "title": "Was hat mich das gekostet?",
+      "subtitle": "Wöchentliche, monatliche und jährliche Ausgaben"
+    },
+    "session": {
+      "title": "War das zu viel?",
+      "subtitle": "Bewerten Sie Ihre letzte Sitzung"
+    },
+    "reduction": {
+      "title": "Einfach zuschneiden",
+      "subtitle": "Eine kleine Veränderung, große Wirkung"
+    }
+  },
+  "bac": {
+    "drink_types": {
+      "beer": "Bier",
+      "wine": "Wein",
+      "spirits": "Schuss"
+    },
+    "presets": {
+      "beer_1": "1 Bier",
+      "beer_2": "2 Biere",
+      "wine_3": "3 Weine",
+      "spirits_2": "2 Schüsse"
+    },
+    "drinks_label": "Getränke",
+    "weight_label": "Gewicht (kg)",
+    "gender_label": "Geschlecht",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "time_since_label": "Zeit seit dem ersten Getränk",
+    "hours_unit": "H",
+    "results": {
+      "est_bac": "Geschätzter BAC",
+      "safe_to_drive": "Sicher zu fahren in",
+      "now": "Jetzt",
+      "warning": "Auch wenn Sie sich gut fühlen, kann Ihre Reaktionszeit beeinträchtigt sein. Dies ist eine Schätzung – keine Rechtsberatung."
+    },
+    "status": {
+      "safe": {
+        "verdict": "Wahrscheinlich sicher",
+        "message": "Ihr geschätzter Blutalkoholgehalt liegt im sicheren Bereich. Seien Sie dennoch wachsam – Beeinträchtigungen können bereits unterhalb des gesetzlichen Grenzwerts auftreten."
+      },
+      "borderline": {
+        "verdict": "Grenze",
+        "message": "Sie fühlen sich vielleicht gut, aber Reaktionszeit und Urteilsvermögen sind bereits beeinträchtigt. Warten Sie lieber ab."
+      },
+      "danger": {
+        "verdict": "Fahren Sie nicht",
+        "message": "Ihr Blutalkoholgehalt liegt weit über dem zulässigen Grenzwert. Autofahren ist jetzt gefährlich und höchstwahrscheinlich illegal."
+      }
+    }
+  },
+  "cost": {
+    "pattern_label": "Ihr Muster",
+    "presets": {
+      "casual": "Lässig",
+      "weekend": "Wochenende",
+      "regular": "Regulär",
+      "heavy": "Schwer"
+    },
+    "drinks_per_session": "Getränke pro Sitzung",
+    "sessions_per_week": "Sitzungen pro Woche",
+    "cost_per_drink": "Kosten pro Getränk",
+    "currency": "₹",
+    "labels": {
+      "weekly": "Wöchentlich",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich"
+    },
+    "equivalents": {
+      "phone": "jedes Jahr ein neues Handy",
+      "savings": "einen soliden Notfallfonds",
+      "vacation": "Urlaub im Ausland",
+      "rent": "mehrere Monatsmieten"
+    },
+    "impact_message": "Das sind <1></1>/Jahr – genug für <3></3>"
+  },
+  "session": {
+    "last_session_label": "Letzte Sitzung",
+    "presets": {
+      "casual": "Gemütlicher Abend",
+      "friday": "Freitag raus",
+      "big": "Große Nacht",
+      "party": "Party"
+    },
+    "drinks_consumed": "konsumierte Getränke",
+    "duration": "Dauer (Stunden)",
+    "questions": {
+      "blackout": "Gibt es Speicherlücken oder Blackouts?",
+      "poor_sleep": "Danach schlecht geschlafen?",
+      "yes": "Ja",
+      "no": "NEIN"
+    },
+    "stats": "{{drinks}} Getränke über {{hours}}h = ~{{rate}} Getränke/Stunde",
+    "verdicts": {
+      "low_risk": "Im Bereich mit niedrigem Risiko",
+      "heavy": "Intensive Session",
+      "high_risk": "Hochrisikositzung"
+    },
+    "effects": {
+      "dehydration": "Dehydrierung wahrscheinlich",
+      "fatigue": "Müdigkeit am nächsten Tag",
+      "pace": "Schnelles Tempo erhöht das Risiko",
+      "sleep": "Schlafqualität reduziert",
+      "blackout": "Speicherlücken sind ein Warnsignal",
+      "liver": "Leber unter erheblicher Belastung",
+      "minimal": "Minimale Auswirkungen erwartet"
+    }
+  },
+  "reduction": {
+    "current_intake": "Aktuelle Getränke/Woche",
+    "pick_change": "Wähle eine kleine Änderung",
+    "changes": {
+      "remove2": "Reduzieren Sie den Alkoholkonsum um 2 Getränke pro Woche.",
+      "skip1day": "1 Trinktag auslassen",
+      "halve": "Halbiere eine Sitzung",
+      "lowabv": "Wechseln Sie zu einem Produkt mit niedrigerem Alkoholgehalt"
+    },
+    "impact": {
+      "by_change": "Einfach durch: {{change}}",
+      "unit": "Getränke pro Woche",
+      "fewer": "Weniger/Woche",
+      "saved": "Ersparnisse pro Monat",
+      "risk_reduced": "Risiko reduziert",
+      "compounding": "Kleine Veränderungen summieren sich. Man braucht kein System – nur einen Grund weniger zur Sorge.",
+      "adjust_hint": "Passen Sie Ihre aktuelle Zufuhr an, um die Auswirkungen zu sehen."
+    }
+  }
+}

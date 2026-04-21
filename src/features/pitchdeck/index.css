@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    /* Core brand colors - Healthcare teal */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Primary - Deep Teal */
+    --primary: 187 72% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Warm Coral */
+    --secondary: 16 85% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 15% 92%;
+    --muted-foreground: 215 15% 45%;
+
+    /* Accent - Gold */
+    --accent: 43 90% 55%;
+    --accent-foreground: 215 25% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 187 72% 32%;
+
+    --radius: 0.75rem;
+
+    /* Presentation-specific tokens */
+    --slide-bg: 210 25% 97%;
+    --slide-title: 215 30% 12%;
+    --slide-text: 215 20% 30%;
+    --slide-accent: 187 72% 32%;
+    
+    /* Market colors */
+    --us-color: 210 80% 50%;
+    --india-color: 25 90% 55%;
+    
+    /* Gradient tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(187 72% 32%), hsl(187 65% 42%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 30% 12%) 0%, hsl(187 72% 32%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(16 85% 60%), hsl(25 90% 55%));
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 215 30% 8%;
+    --foreground: 210 20% 95%;
+
+    --card: 215 28% 12%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 215 28% 12%;
+    --popover-foreground: 210 20% 95%;
+
+    --primary: 187 65% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 16 75% 55%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 215 25% 18%;
+    --muted-foreground: 215 15% 60%;
+
+    --accent: 43 85% 50%;
+    --accent-foreground: 215 30% 8%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 25% 20%;
+    --input: 215 25% 20%;
+    --ring: 187 65% 45%;
+
+    --slide-bg: 215 30% 10%;
+    --slide-title: 210 20% 95%;
+    --slide-text: 210 15% 75%;
+    --slide-accent: 187 65% 45%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+@layer components {
+  .slide-container {
+    @apply min-h-screen w-full flex flex-col justify-center p-8 md:p-16 lg:p-20;
+    background: hsl(var(--slide-bg));
+  }
+
+  .slide-title {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-8;
+    color: hsl(var(--slide-title));
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .slide-subtitle {
+    @apply text-xl md:text-2xl lg:text-3xl font-medium mb-4;
+    color: hsl(var(--slide-text));
+  }
+
+  .slide-bullet {
+    @apply text-lg md:text-xl leading-relaxed;
+    color: hsl(var(--slide-text));
+  }
+
+  .slide-highlight {
+    @apply font-semibold;
+    color: hsl(var(--primary));
+  }
+
+  .slide-card {
+    @apply rounded-xl p-6 md:p-8;
+    background: hsl(var(--card));
+    box-shadow: 0 4px 20px -4px hsl(var(--primary) / 0.1);
+  }
+
+  .market-us {
+    @apply border-l-4;
+    border-color: hsl(var(--us-color));
+  }
+
+  .market-india {
+    @apply border-l-4;
+    border-color: hsl(var(--india-color));
+  }
+
+  .metric-badge {
+    @apply inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold;
+    background: hsl(var(--primary) / 0.1);
+    color: hsl(var(--primary));
+  }
+
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@layer utilities {
+  .animate-slide-in {
+    animation: slideIn 0.6s ease-out forwards;
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.5s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

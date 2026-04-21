@@ -1,0 +1,21 @@
+{
+  "relax": "放松",
+  "about_technique": "关于这项技术",
+  "technique_description": "方框呼吸法采用简单的4-4-4-4模式——吸气、屏息、呼气、屏息——每个动作持续四秒。它能激活副交感神经系统，降低压力，使你恢复平静专注的状态。",
+  "how_to_practice": "如何练习",
+  "inhale_4s": "吸气 4 秒",
+  "hold_4s": "保持4秒",
+  "exhale_4s": "呼气 4 秒",
+  "repeat_cycle": "重复此过程",
+  "start_breathing": "开始呼吸",
+  "breathe_in": "吸入",
+  "hold": "抓住",
+  "breathe_out": "呼",
+  "feeling_calmer": "你感觉更平静了",
+  "session_complete_msg": "呼吸练习完成得很好。花点时间感受一下你的身体感觉——更轻盈、更稳定、更放松。",
+  "start_again": "重新开始",
+  "back": "后退",
+  "not_found_404": "404",
+  "page_not_found": "糟糕！页面未找到",
+  "return_home": "返回首页"
+}

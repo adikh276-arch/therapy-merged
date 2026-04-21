@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Aktivitäten, die Ihnen Spaß machen",
+    "subtitle": "Freudenmomente wiederentdecken",
+    "p1": "Wenn man sich niedergeschlagen, ängstlich oder überfordert fühlt, kann es schwerfallen, sich daran zu erinnern, was einem Freude bereitet.",
+    "p2": "Bei dieser Aktivität geht es nicht darum, mehr zu tun. Es geht darum, kleine Momente wahrzunehmen, die sich leicht, ruhig oder bedeutungsvoll anfühlen.",
+    "p3": "Es besteht kein Druck, glücklich zu sein. Wir erkunden einfach, was sich auch nur ein bisschen gut anfühlt.",
+    "button": "Beginnen"
+  },
+  "recall": {
+    "title": "Denken Sie an einen Moment",
+    "p1": "Erinnern Sie sich einen Moment lang an einen Moment – ob kürzlich oder schon länger her –, in dem Sie auch nur ein kleines Gefühl von Freude, Frieden oder Geborgenheit empfunden haben. Es muss nichts Großes sein.",
+    "input1_label": "Eine Aktivität, die mir Spaß macht (oder früher Spaß gemacht hat), ist...",
+    "input1_placeholder": "z.B. ein Spaziergang im Park",
+    "input2_label": "Wenn ich das tue, fühle ich mich normalerweise...",
+    "input2_placeholder": "z.B. ruhig und präsent.",
+    "button": "Weitermachen"
+  },
+  "meaning": {
+    "title": "Was macht es bedeutungsvoll?",
+    "p1": "Manchmal ist die Aktivität selbst nicht die einzige Quelle der Freude. Es kann das Gefühl, die Umgebung oder die damit verbundenen Beziehungen sein.",
+    "input1_label": "Ich genieße das, weil...",
+    "input1_placeholder": "z.B. vermittelt es mir ein Gefühl der Freiheit",
+    "input2_label": "Diese Aktivität hilft mir, mich besser zu fühlen...",
+    "input2_placeholder": "z.B. verbunden und geerdet",
+    "input3_label": "Es erinnert mich an...",
+    "input3_placeholder": "z.B. Sommerferien als Kind",
+    "button": "Rette mein Spiegelbild"
+  },
+  "smallStep": {
+    "title": "Ein kleiner Schritt vorwärts",
+    "p1": "Sie müssen nicht alles auf einmal ändern.",
+    "p2": "Wäre es möglich, in kleinem Rahmen wieder an diese Aktivität anzuknüpfen?",
+    "input1_label": "Ein kleiner Schritt, den ich diese Woche unternehmen könnte, wäre...",
+    "input1_placeholder": "z. B. einen 10-minütigen Spaziergang machen.",
+    "button_save": "Speichern",
+    "button_home": "Zur Startseite"
+  },
+  "affirmation": {
+    "title": "Du hast einen wunderbaren Schritt getan.",
+    "p1": "Sich wieder mit dem zu verbinden, was einem Freude bereitet – und sei es auch nur im Kleinsten – ist ein Akt der Freundlichkeit sich selbst gegenüber.",
+    "p2": "Du verdienst Momente der Leichtigkeit und des Friedens. Pflege weiterhin das, was dein Herz erfüllt. 💛",
+    "button": "Zurück zur Startseite"
+  }
+}

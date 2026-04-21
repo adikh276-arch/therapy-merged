@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "続く",
+    "back": "戻る",
+    "home": "ホームに戻る",
+    "yes": "はい",
+    "no": "いいえ",
+    "date": "日付"
+  },
+  "screens": {
+    "checkin": {
+      "title": "セルフケアチェックイン🌿",
+      "subtitle": "今日はどのように自分をケアしましたか？",
+      "question": "今日はセルフケアを実践しましたか？ *",
+      "description": "セルフケアとは、精神的、感情的、身体的な健康を維持するために意図的に行う活動のことです。"
+    },
+    "activities": {
+      "title": "あなたのアクティビティ 🎯",
+      "subtitle": "今日はどんなセルフケア活動をしましたか?"
+    },
+    "duration": {
+      "title": "費やした時間 ⏱️",
+      "subtitle": "セルフケアにどれくらいの時間を費やしましたか？（任意）"
+    },
+    "noSelfCare": {
+      "title": "大丈夫だよ💛",
+      "subtitle": "今日何が起こったのかを理解しましょう。",
+      "question1": "今日、セルフケアを妨げたものは何ですか? (オプション)",
+      "question2": "どのようなセルフケアが役立つと思いますか？（任意）"
+    },
+    "mood": {
+      "title": "気分はどうですか？🫧",
+      "subtitle": "現在の気分を選択してください（オプション）"
+    },
+    "review": {
+      "title": "あなたのエントリー 📋",
+      "subtitle": "本日のチェックインの概要は次のとおりです",
+      "didSelfCare": "セルフケアはしましたか？",
+      "activities": "活動",
+      "duration": "間隔",
+      "mood": "気分",
+      "challenges": "防止策",
+      "whatHelps": "助けになっただろう",
+      "viewHistory": "週次履歴",
+      "editToday": "エントリーを編集",
+      "summary": "まとめ"
+    },
+    "history": {
+      "title": "週刊履歴 📅",
+      "subtitle": "過去7日間のエントリーはありません"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "おっと！ページが見つかりません",
+      "returnHome": "ホームに戻る"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "エクササイズ",
+      "Meditation": "瞑想",
+      "Journaling": "ジャーナリング",
+      "Reading": "読む",
+      "Rest / Nap": "休憩/昼寝",
+      "Skincare": "スキンケア",
+      "Healthy Meal": "健康的な食事",
+      "Nature / Walk": "自然 / 散歩",
+      "Social Time": "ソーシャルタイム",
+      "Hobby": "趣味",
+      "Therapy": "治療",
+      "Digital Detox": "デジタルデトックス"
+    },
+    "durations": {
+      "< 10 minutes": "10分未満",
+      "10–30 minutes": "10～30分",
+      "30–60 minutes": "30～60分",
+      "1+ hour": "1時間以上"
+    },
+    "reasons": {
+      "Busy schedule": "忙しいスケジュール",
+      "Low energy": "低エネルギー",
+      "Stress": "ストレス",
+      "Forgot": "忘れた",
+      "No motivation": "やる気がない",
+      "Not feeling well": "気分が悪い",
+      "Lack of time": "時間の不足",
+      "Emotional overwhelm": "感情の圧倒"
+    },
+    "helpfulTypes": {
+      "Rest": "休む",
+      "Relaxation": "リラクゼーション",
+      "Physical activity": "身体活動",
+      "Talking to someone": "誰かと話す",
+      "Quiet time": "静かな時間",
+      "Creative activity": "創造的な活動"
+    },
+    "moods": {
+      "Happy": "ハッピー",
+      "Calm": "落ち着いた",
+      "Neutral": "中性",
+      "Low": "低い",
+      "Stressed": "ストレス",
+      "Tired": "疲れた"
+    },
+    "positiveStatements": {
+      "0": "今日は自分のために出かけましたね。それは力強いですね。🌿",
+      "1": "セルフケアは利己的なことではなく、必要不可欠なこと。よくやったね。💚",
+      "2": "小さな思いやりの行為はすべて、あなたをより強くします。🌱",
+      "3": "今日は自分に投資しました。それは大切なことです。✨",
+      "4": "自分を大切にすることが、今日あなたがした最高のことだった。🍃"
+    },
+    "supportiveStatements": {
+      "0": "大丈夫。明日は新たなスタート。自分に優しくしてね。🤍",
+      "1": "毎日が完璧とは限りません。それで全く問題ありません。🕊️",
+      "2": "一生懸命頑張ってる。それだけで十分だよ。💛",
+      "3": "休息もセルフケアの一種です。自分に優しくしてあげましょう。🌸",
+      "4": "今日を認めるには勇気が必要です。あなたはすでに成長しています。🌷"
+    }
+  }
+}

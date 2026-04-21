@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Hít một hơi thật sâu 🌿",
+    "title": "Quản lý căng thẳng của bạn",
+    "description": "Những thói quen đơn giản hàng ngày giúp bạn cảm thấy bình tĩnh hơn và kiểm soát tốt hơn.",
+    "sectionTitle": "Mẹo giảm căng thẳng hàng ngày"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Ngủ ngon giấc",
+      "description": "Hãy cố gắng ngủ từ 7-9 tiếng mỗi đêm. Cố gắng đi ngủ và thức dậy vào cùng một thời điểm mỗi ngày.",
+      "why": "Giấc ngủ giúp não bộ và cơ thể phục hồi, đồng thời làm giảm hormone gây căng thẳng.",
+      "do": [
+        "Hãy duy trì một lịch ngủ cố định.",
+        "Tránh sử dụng màn hình 1 giờ trước khi ngủ.",
+        "Giữ phòng mát mẻ và tối.",
+        "Nên tránh dùng caffeine sau 4 giờ chiều."
+      ],
+      "button": "Đặt lời nhắc ngủ"
+    },
+    "breathing": {
+      "title": "Thực hành hít thở sâu",
+      "description": "Hãy dành vài phút tập trung vào hơi thở của bạn. Hít thở chậm giúp giảm lo âu.",
+      "why": "Hít thở chậm rãi kích hoạt phản ứng thư giãn của cơ thể.",
+      "do": [
+        "Hít vào trong 4 giây",
+        "Giữ trong 4 giây",
+        "Thở ra trong 4 giây",
+        "Lặp lại trong 1 phút."
+      ]
+    },
+    "exercise": {
+      "title": "Hãy vận động cơ thể của bạn",
+      "description": "Đi bộ nhẹ nhàng hoặc các bài tập giãn cơ giúp giải tỏa căng thẳng và cải thiện tâm trạng.",
+      "why": "Tập thể dục giúp giải phóng endorphin và cải thiện tâm trạng.",
+      "do": [
+        "Đi bộ 15 phút",
+        "Giãn cơ nhẹ",
+        "Buổi tập yoga ngắn",
+        "Bài tập nhanh tại nhà"
+      ]
+    },
+    "caffeine": {
+      "title": "Hạn chế caffeine và đường",
+      "description": "Quá nhiều caffeine và đường có thể làm tăng lo lắng và gây rối loạn giấc ngủ.",
+      "why": "Quá nhiều caffeine và đường làm tăng lo âu và các vấn đề về giấc ngủ.",
+      "do": [
+        "Thay một tách cà phê bằng trà thảo mộc.",
+        "Uống nhiều nước hơn",
+        "Giảm lượng đồ ăn vặt có đường.",
+        "Tránh dùng caffeine vào cuối ngày."
+      ]
+    },
+    "planning": {
+      "title": "Lên kế hoạch cho ngày của bạn",
+      "description": "Chia nhỏ các nhiệm vụ lớn thành các bước nhỏ hơn để tránh cảm giác quá tải.",
+      "why": "Lập kế hoạch giúp giảm bớt sự lộn xộn và cảm giác quá tải trong suy nghĩ.",
+      "do": [
+        "Viết ra 3 nhiệm vụ chính",
+        "Chia nhỏ nhiệm vụ thành các bước nhỏ.",
+        "Hãy tập trung vào từng nhiệm vụ một.",
+        "Hãy nghỉ giải lao ngắn."
+      ]
+    }
+  },
+  "detail": {
+    "back": "Mặt sau",
+    "notFound": "Không tìm thấy mẹo.",
+    "whyTitle": "Vì sao nó hữu ích",
+    "doTitle": "Những điều bạn có thể làm",
+    "reminderSet": "Đã đặt lời nhắc! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ôi! Không tìm thấy trang!",
+    "return": "Trở về Trang chủ"
+  },
+  "mood": {
+    "title": "Hôm nay bạn cảm thấy thế nào?",
+    "great": "Tuyệt",
+    "okay": "Đồng ý",
+    "stressed": "Căng thẳng",
+    "overwhelmed": "Quá tải"
+  },
+  "breathing": {
+    "inhale": "Hít vào…",
+    "hold": "Giữ…",
+    "exhale": "Thở ra…",
+    "pause": "Tạm dừng",
+    "resume": "Bản tóm tắt"
+  }
+}

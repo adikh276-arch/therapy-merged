@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sora:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sora: 'Sora', sans-serif;
+    --font-dm: 'DM Sans', sans-serif;
+
+    --background: 210 20% 98%;
+    --foreground: 210 40% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 8%;
+
+    --primary: 202 93% 59%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 25% 95%;
+    --secondary-foreground: 210 40% 8%;
+
+    --muted: 210 18% 95%;
+    --muted-foreground: 211 18% 56%;
+
+    --accent: 155 87% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 354 70% 54%;
+    --destructive-foreground: 0 0% 100%;
+
+    --warning: 36 91% 44%;
+    --warning-foreground: 0 0% 100%;
+
+    --success: 155 87% 48%;
+    --success-foreground: 0 0% 100%;
+
+    --border: 214 20% 92%;
+    --input: 214 20% 92%;
+    --ring: 202 93% 59%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* App-specific tokens */
+    --sleep-bg: 210 25% 96%;
+    --sleep-card-shadow: 0 2px 12px 0 hsla(210, 20%, 70%, 0.12);
+    --sleep-score-red: 354 70% 54%;
+    --sleep-score-orange: 36 91% 44%;
+    --sleep-score-blue: 202 93% 59%;
+    --sleep-score-green: 155 87% 48%;
+    --sleep-dark: 210 44% 10%;
+    --sleep-muted-text: 211 18% 56%;
+    --sleep-input-bg: 210 25% 95%;
+  }
+
+  .dark {
+    --background: 210 44% 6%;
+    --foreground: 210 20% 95%;
+    --card: 210 40% 10%;
+    --card-foreground: 210 20% 95%;
+    --popover: 210 40% 10%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 202 93% 59%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 30% 15%;
+    --secondary-foreground: 210 20% 95%;
+    --muted: 210 25% 15%;
+    --muted-foreground: 211 18% 60%;
+    --accent: 155 87% 48%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 354 70% 54%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 25% 18%;
+    --input: 210 25% 18%;
+    --ring: 202 93% 59%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-dm);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sora);
+  }
+}

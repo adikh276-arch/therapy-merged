@@ -1,0 +1,56 @@
+{
+  "title": "Jakie są Twoje nawyki?",
+  "intro_description": "Drobne, codzienne nawyki wpływają na stres. Przyjrzyjmy się delikatnie Twoim.",
+  "start_activity": "Rozpocznij aktywność",
+  "body_title": "🧍‍♀️ Twoja codzienna rutyna dla ciała",
+  "body_subtitle": "Która z poniższych odpowiedzi wydała Ci się ostatnio nieco nietypowa? (Zaznacz właściwą odpowiedź)",
+  "continue": "Kontynuować",
+  "body_options": [
+    "Nie spałem dobrze",
+    "Mój czas snu jest nieregularny",
+    "Czasami pomijam posiłki",
+    "Jem więcej niż zwykle, gdy jestem zestresowany",
+    "Nie ruszałem się i nie ćwiczyłem zbyt wiele",
+    "Nie wychodziłem zbyt często na zewnątrz",
+    "Moja codzienna pielęgnacja uległa zmianie",
+    "Moja codzienna rutyna wydaje się stabilna"
+  ],
+  "mind_title": "🧠 Twoje wzorce myślowe",
+  "mind_options": [
+    "Ciągle za dużo myślę o różnych rzeczach",
+    "Często wyobrażam sobie najgorszy scenariusz",
+    "Jestem dla siebie surowy",
+    "Czuję się winny z powodu rzeczy, które zrobiłem lub których nie zrobiłem",
+    "Ciągle się martwię",
+    "Trudno mi się zrelaksować",
+    "Moje myśli wydają się łatwe do opanowania"
+  ],
+  "coping_title": "🌊 Jak reagujesz na stres",
+  "coping_options": [
+    "Unikam zadań, gdy jestem zestresowany",
+    "Dużo przewijam na telefonie, żeby się rozproszyć",
+    "Spędzam czas sam, żeby sobie poradzić",
+    "Kiedy jestem zestresowany, rzucam się w wir pracy",
+    "Rozmawiam z kimś o tym, co czuję",
+    "Robię ćwiczenia oddechowe, żeby się uspokoić",
+    "Oglądam telewizję lub gram w gry, żeby się rozproszyć",
+    "Nie jestem pewien, jak reaguję na stres"
+  ],
+  "reflection_title": "✍️ Refleksja",
+  "question_stress": "Który nawyk zwiększa u Ciebie późniejszy stres?",
+  "question_calm": "Który nawyk może pomóc Ci poczuć się spokojniej?",
+  "see_insight": "Zobacz moje spostrzeżenia",
+  "insight_title": "Sugerowane działania",
+  "insight_description": "Kliknij poniżej, aby zobaczyć proste nawyki, które mogą pomóc w redukcji stresu.",
+  "show_suggestions": "Pokaż sugestie",
+  "commit": "Popełniać",
+  "suggestions": [
+    "Spróbuj pójść spać trochę wcześniej dziś wieczorem",
+    "Wyjdź dziś na świeże powietrze",
+    "Zrób sobie przerwę od przewijania",
+    "Mów do siebie życzliwie",
+    "Zakończ jedno zadanie, które odkładałeś"
+  ],
+  "final_text": "Małe zmiany mają znaczenie. Konsekwencja daje spokój.",
+  "finish": "Skończyć"
+}

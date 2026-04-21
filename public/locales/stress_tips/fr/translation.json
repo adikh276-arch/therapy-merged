@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Respirez profondément 🌿",
+    "title": "Gérez votre stress",
+    "description": "Des habitudes quotidiennes simples pour vous aider à vous sentir plus calme et plus maître de vous-même.",
+    "sectionTitle": "Conseils quotidiens pour soulager le stress"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Profitez d'un sommeil réparateur",
+      "description": "Visez 7 à 9 heures de sommeil par nuit. Essayez de vous coucher et de vous lever à la même heure chaque jour.",
+      "why": "Le sommeil aide le cerveau et le corps à récupérer et réduit les hormones du stress.",
+      "do": [
+        "Respectez un horaire de sommeil régulier.",
+        "Évitez les écrans une heure avant le coucher.",
+        "Maintenez la pièce fraîche et sombre.",
+        "Évitez la caféine après 16h"
+      ],
+      "button": "Programmer un rappel de sommeil"
+    },
+    "breathing": {
+      "title": "Pratiquez la respiration profonde",
+      "description": "Prenez quelques minutes pour vous concentrer sur votre respiration. Une respiration lente réduit l'anxiété.",
+      "why": "La respiration lente active la réponse de relaxation de votre corps.",
+      "do": [
+        "Inspirez pendant 4 secondes",
+        "Maintenir la pression pendant 4 secondes",
+        "Expirez pendant 4 secondes",
+        "Répétez pendant 1 minute"
+      ]
+    },
+    "exercise": {
+      "title": "Bougez votre corps",
+      "description": "Marcher légèrement ou faire des étirements aide à réduire le stress et à améliorer l'humeur.",
+      "why": "L'exercice physique libère des endorphines et améliore l'humeur.",
+      "do": [
+        "15 minutes de marche",
+        "Étirements légers",
+        "courte séance de yoga",
+        "Entraînement rapide à domicile"
+      ]
+    },
+    "caffeine": {
+      "title": "Limitez la caféine et le sucre",
+      "description": "Une consommation excessive de caféine et de sucre peut accroître l'anxiété et perturber le sommeil.",
+      "why": "Une consommation excessive de caféine et de sucre augmente l'anxiété et les troubles du sommeil.",
+      "do": [
+        "Remplacez un café par une tisane",
+        "Buvez plus d'eau",
+        "Réduisez votre consommation de sucreries.",
+        "Évitez la caféine en fin de journée."
+      ]
+    },
+    "planning": {
+      "title": "Planifiez votre journée",
+      "description": "Décomposez les tâches importantes en étapes plus petites pour éviter de vous sentir submergé.",
+      "why": "La planification permet de réduire l'encombrement mental et le sentiment d'être submergé.",
+      "do": [
+        "Écrivez 3 tâches principales",
+        "Décomposez les tâches en petites étapes",
+        "Concentrez-vous sur une tâche à la fois.",
+        "Faites de courtes pauses"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Dos",
+    "notFound": "Pourboire introuvable.",
+    "whyTitle": "Pourquoi cela aide",
+    "doTitle": "Ce que vous pouvez faire",
+    "reminderSet": "N'oubliez pas ! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oups ! Page introuvable",
+    "return": "Retour à l'accueil"
+  },
+  "mood": {
+    "title": "Comment te sens-tu aujourd'hui ?",
+    "great": "Super",
+    "okay": "D'accord",
+    "stressed": "Stressé",
+    "overwhelmed": "Accablé"
+  },
+  "breathing": {
+    "inhale": "Inhaler…",
+    "hold": "Prise…",
+    "exhale": "Exhaler…",
+    "pause": "Pause",
+    "resume": "CV"
+  }
+}

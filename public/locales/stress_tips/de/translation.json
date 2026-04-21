@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Tief durchatmen 🌿",
+    "title": "Stressmanagement",
+    "description": "Einfache, alltägliche Gewohnheiten, die Ihnen helfen, sich ruhiger und selbstbestimmter zu fühlen.",
+    "sectionTitle": "Tipps zur täglichen Stressbewältigung"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Gönnen Sie sich einen erholsamen Schlaf.",
+      "description": "Streben Sie 7–9 Stunden Schlaf pro Nacht an. Versuchen Sie, jeden Tag zur gleichen Zeit ins Bett zu gehen und aufzustehen.",
+      "why": "Schlaf hilft Gehirn und Körper, sich zu erholen und senkt den Spiegel der Stresshormone.",
+      "do": [
+        "Halten Sie einen festen Schlafrhythmus ein",
+        "Vermeiden Sie Bildschirme 1 Stunde vor dem Schlafengehen.",
+        "Das Zimmer sollte kühl und dunkel sein.",
+        "Vermeiden Sie Koffein nach 16 Uhr."
+      ],
+      "button": "Schlafenserinnerung einstellen"
+    },
+    "breathing": {
+      "title": "Tiefes Atmen üben",
+      "description": "Konzentriere dich ein paar Minuten lang auf deine Atmung. Langsames Atmen reduziert Angstzustände.",
+      "why": "Langsames Atmen aktiviert die Entspannungsreaktion des Körpers.",
+      "do": [
+        "4 Sekunden lang einatmen.",
+        "4 Sekunden lang gedrückt halten",
+        "Atmen Sie 4 Sekunden lang aus.",
+        "Wiederholen Sie dies 1 Minute lang."
+      ]
+    },
+    "exercise": {
+      "title": "Beweg deinen Körper",
+      "description": "Leichte Spaziergänge oder Dehnübungen helfen, Stress abzubauen und die Stimmung zu verbessern.",
+      "why": "Sport setzt Endorphine frei und verbessert die Stimmung.",
+      "do": [
+        "15 Minuten Fußweg",
+        "Leichte Dehnung",
+        "Kurze Yoga-Einheit",
+        "Kurzes Heimtraining"
+      ]
+    },
+    "caffeine": {
+      "title": "Koffein und Zucker einschränken",
+      "description": "Zu viel Koffein und Zucker können Angstzustände verstärken und den Schlaf stören.",
+      "why": "Zu viel Koffein und Zucker verstärken Angstzustände und Schlafstörungen.",
+      "do": [
+        "Ersetzen Sie eine Tasse Kaffee durch Kräutertee",
+        "Trink mehr Wasser",
+        "Zuckerhaltige Snacks reduzieren",
+        "Vermeiden Sie Koffein am späten Nachmittag oder Abend."
+      ]
+    },
+    "planning": {
+      "title": "Plane deinen Tag",
+      "description": "Um ein Gefühl der Überforderung zu vermeiden, zerlegen Sie große Aufgaben in kleinere Schritte.",
+      "why": "Planung reduziert mentale Unordnung und Überforderung.",
+      "do": [
+        "Nennen Sie 3 Hauptaufgaben",
+        "Aufgaben in kleine Schritte unterteilen",
+        "Konzentriere dich jeweils auf eine Aufgabe.",
+        "Machen Sie kurze Pausen."
+      ]
+    }
+  },
+  "detail": {
+    "back": "Zurück",
+    "notFound": "Tipp nicht gefunden.",
+    "whyTitle": "Warum es hilft",
+    "doTitle": "Was Sie tun können",
+    "reminderSet": "Erinnerung eingestellt! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hoppla! Seite nicht gefunden",
+    "return": "Zurück zur Startseite"
+  },
+  "mood": {
+    "title": "Wie fühlen Sie sich heute?",
+    "great": "Großartig",
+    "okay": "Okay",
+    "stressed": "Betont",
+    "overwhelmed": "Überwältigt"
+  },
+  "breathing": {
+    "inhale": "Einatmen…",
+    "hold": "Halten…",
+    "exhale": "Ausatmen…",
+    "pause": "Pause",
+    "resume": "Wieder aufnehmen"
+  }
+}

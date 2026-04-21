@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Calming medical blue palette */
+    --background: 210 33% 98%;
+    --foreground: 215 30% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 30% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 30% 14%;
+
+    /* Primary: calming medical blue */
+    --primary: 211 60% 48%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 30% 95%;
+    --secondary-foreground: 215 30% 25%;
+
+    --muted: 210 25% 93%;
+    --muted-foreground: 215 15% 50%;
+
+    --accent: 210 35% 90%;
+    --accent-foreground: 211 60% 40%;
+
+    --destructive: 0 55% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 25% 90%;
+    --input: 210 25% 90%;
+    --ring: 211 60% 48%;
+
+    --radius: 0.75rem;
+
+    /* Mood colors */
+    --mood-great: 145 55% 48%;
+    --mood-good: 211 60% 55%;
+    --mood-okay: 215 10% 72%;
+    --mood-low: 38 70% 58%;
+    --mood-difficult: 0 50% 62%;
+    --mood-empty: 210 20% 95%;
+
+    /* Functional */
+    --success: 145 55% 48%;
+    --success-foreground: 145 60% 98%;
+    --warning: 38 70% 58%;
+    --warning-foreground: 38 80% 15%;
+    --warning-surface: 38 60% 95%;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 215 30% 8%;
+    --foreground: 210 25% 92%;
+    --card: 215 28% 12%;
+    --card-foreground: 210 25% 92%;
+    --popover: 215 28% 12%;
+    --popover-foreground: 210 25% 92%;
+    --primary: 211 65% 55%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 215 25% 16%;
+    --secondary-foreground: 210 25% 85%;
+    --muted: 215 20% 18%;
+    --muted-foreground: 215 15% 55%;
+    --accent: 215 25% 20%;
+    --accent-foreground: 211 60% 65%;
+    --destructive: 0 50% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 20% 18%;
+    --input: 215 20% 18%;
+    --ring: 211 65% 55%;
+    --mood-great: 145 50% 42%;
+    --mood-good: 211 55% 50%;
+    --mood-okay: 215 10% 45%;
+    --mood-low: 38 60% 50%;
+    --mood-difficult: 0 45% 50%;
+    --mood-empty: 215 20% 15%;
+    --success: 145 50% 42%;
+    --success-foreground: 145 60% 98%;
+    --warning: 38 60% 50%;
+    --warning-foreground: 38 80% 90%;
+    --warning-surface: 38 40% 18%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  .mood-great { background-color: hsl(var(--mood-great)); }
+  .mood-good { background-color: hsl(var(--mood-good)); }
+  .mood-okay { background-color: hsl(var(--mood-okay)); }
+  .mood-low { background-color: hsl(var(--mood-low)); }
+  .mood-difficult { background-color: hsl(var(--mood-difficult)); }
+  .mood-empty { background-color: hsl(var(--mood-empty)); }
+
+  .text-mood-great { color: hsl(var(--mood-great)); }
+  .text-mood-good { color: hsl(var(--mood-good)); }
+  .text-mood-okay { color: hsl(var(--mood-okay)); }
+  .text-mood-low { color: hsl(var(--mood-low)); }
+  .text-mood-difficult { color: hsl(var(--mood-difficult)); }
+}

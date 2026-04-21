@@ -1,0 +1,173 @@
+{
+  "common": {
+    "title": "Affirmations — Un doux compagnon",
+    "beforeYouBegin": "Avant de commencer",
+    "introText1": "Si vous le souhaitez, vous pouvez choisir de vous tenir devant un miroir pour lire ces affirmations.",
+    "introText2": "Vous pourriez vous regarder doucement et prononcer chaque phrase à voix haute, lentement et distinctement. Entendre votre propre voix peut rendre les mots plus personnels et plus ancrés dans la réalité.",
+    "noRightWay": "Il n'y a pas de bonne façon de faire cela.",
+    "takeTime": "Prenez votre temps.",
+    "breatheNaturally": "Respirez naturellement.",
+    "noRush": "Il n'est pas nécessaire de précipiter ou de forcer les sentiments.",
+    "meaningfulMoment": "Même si ces mots ne semblent pas tout à fait vrais en ce moment, s'accorder ce moment d'intention peut tout de même être significatif.",
+    "readyToBegin": "Vous pouvez commencer dès que vous vous sentirez prêt(e) ✨",
+    "begin": "Commencer",
+    "howFeeling": "Comment vous sentez-vous en ce moment ?",
+    "noExplanation": "Vous n'avez rien à expliquer ni à analyser.",
+    "justNotice": "Observez simplement ce qui correspond le mieux à ce que vous ressentez en ce moment.",
+    "chooseOne": "Choisissez une sensation pour commencer — vous pourrez toujours y revenir.",
+    "readAgain": "Relisez-le",
+    "chooseAnother": "Choisissez un autre sentiment"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Quand on se sent seul et triste",
+      "affirmations": [
+        "Je ne suis pas seul, même quand j'ai cette impression.",
+        "Mes sentiments méritent attention et douceur.",
+        "Ce moment ne durera pas éternellement.",
+        "J'ai le droit d'avoir besoin de connexion.",
+        "Je peux me réchauffer moi-même dès maintenant."
+      ]
+    },
+    "terrified": {
+      "label": "Quand vous vous sentez terrifié",
+      "affirmations": [
+        "Je suis en sécurité en ce moment.",
+        "La peur est un sentiment, pas une prédiction.",
+        "Je peux y aller une respiration à la fois.",
+        "Je n'ai pas besoin de tout résoudre tout de suite.",
+        "Je suis plus forte que ce moment."
+      ]
+    },
+    "insignificant": {
+      "label": "Quand on se sent insignifiant",
+      "affirmations": [
+        "Les petits moments comptent toujours.",
+        "Je n'ai pas besoin de prouver ma valeur.",
+        "J'ai le droit d'occuper de l'espace.",
+        "Mon existence compte.",
+        "Je suis assez comme je suis."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Lorsque vous vous sentez submergé",
+      "affirmations": [
+        "Je n'ai pas besoin de tout faire en même temps.",
+        "Un petit pas suffit.",
+        "Il est normal de faire une pause.",
+        "J'ai le droit de me reposer.",
+        "Cela redeviendra gérable."
+      ]
+    },
+    "hopeless": {
+      "label": "Quand on se sent désespéré",
+      "affirmations": [
+        "Je n'ai pas besoin de réponses aujourd'hui.",
+        "Le changement est encore possible.",
+        "J'ai déjà surmonté des périodes difficiles.",
+        "Je peux rester ici pour le moment.",
+        "Quelque chose de doux peut encore se produire."
+      ]
+    },
+    "conflicted": {
+      "label": "Lorsque vous vous sentez en conflit",
+      "affirmations": [
+        "Il est normal de ressentir plusieurs choses à la fois.",
+        "Je n'ai pas besoin de réponses immédiates.",
+        "La confusion n'est pas synonyme d'échec.",
+        "Je peux me donner du temps.",
+        "Je suis sûre de pouvoir trouver la solution."
+      ]
+    },
+    "self-critical": {
+      "label": "Quand on est très autocritique",
+      "affirmations": [
+        "Je peux me parler avec bienveillance.",
+        "Je n'ai pas besoin de me punir pour progresser.",
+        "Les erreurs ne définissent pas qui je suis.",
+        "J'apprends, je n'échoue pas.",
+        "La croissance ne nécessite pas de cruauté."
+      ]
+    },
+    "out-of-place": {
+      "label": "Quand on se sent socialement à l'écart",
+      "affirmations": [
+        "J'ai le droit d'être silencieux ou différent.",
+        "Je n'ai pas à égaler l'énergie de qui que ce soit.",
+        "Je suis à ma place telle que je suis.",
+        "Je peux prendre de la place en douceur.",
+        "Je ne fais pas cela mal."
+      ]
+    },
+    "unsafe": {
+      "label": "Quand vous vous sentez en danger en présence d'inconnus",
+      "affirmations": [
+        "Je peux avancer à mon propre rythme.",
+        "J'ai le droit de protéger mes limites.",
+        "Je peux rester ancrée dans mon corps.",
+        "J'ai le droit de quitter certaines situations.",
+        "Je peux assurer ma propre sécurité."
+      ]
+    },
+    "pressured": {
+      "label": "Lorsque vous vous sentez sous pression au travail",
+      "affirmations": [
+        "Ma valeur ne se mesure pas à ma productivité.",
+        "Je n'ai pas besoin de faire mes preuves constamment.",
+        "Faire de mon mieux me suffit aujourd'hui.",
+        "Une tâche à la fois, c'est bien.",
+        "Je suis bien plus que mon rôle."
+      ]
+    },
+    "face-the-day": {
+      "label": "Quand tu ne veux pas affronter la journée",
+      "affirmations": [
+        "Je peux aborder cette journée par petits morceaux.",
+        "Le simple fait de réussir est déjà suffisant.",
+        "Je n'ai pas besoin de motivation pour commencer.",
+        "Se présenter en douceur compte aussi.",
+        "Cette journée ne me définit pas."
+      ]
+    },
+    "future": {
+      "label": "Quand tu t'inquiètes pour ton avenir",
+      "affirmations": [
+        "Je peux revenir au présent.",
+        "Je réglerai les choses au fur et à mesure.",
+        "Je n'ai pas besoin de certitudes aujourd'hui.",
+        "Je suis capable de m'adapter.",
+        "Je peux me faire un peu plus confiance."
+      ]
+    },
+    "stuck": {
+      "label": "Quand vous vous sentez bloqué dans un problème",
+      "affirmations": [
+        "Être bloqué ne signifie pas que je suis brisé.",
+        "Je peux faire une pause sans abandonner.",
+        "Je n'ai pas besoin de solutions immédiates.",
+        "J'ai le droit d'avoir des doutes.",
+        "Je continue d'avancer, même lentement."
+      ]
+    },
+    "compare": {
+      "label": "Quand tu te compares à toi-même",
+      "affirmations": [
+        "Mon parcours m'appartient.",
+        "Je n'ai pas besoin de rivaliser pour être digne.",
+        "J'ai le droit d'évoluer à mon rythme.",
+        "Le succès d'autrui n'efface pas le mien.",
+        "Je ne suis pas en retard."
+      ]
+    },
+    "give-up": {
+      "label": "Quand tu as envie d'abandonner",
+      "affirmations": [
+        "Je n'ai rien à décider pour le moment.",
+        "Ce sentiment va passer.",
+        "J'ai survécu à plus de choses que je ne le pense.",
+        "Je peux rester encore un instant.",
+        "Je suis toujours là — et ça compte."
+      ]
+    }
+  }
+}

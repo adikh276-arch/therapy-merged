@@ -1,0 +1,143 @@
+{
+  "common": {
+    "title": "アルコール計算機",
+    "description": "リアルタイムで迅速な回答を提供。追跡なし、判断なし、データ保存なし。",
+    "private_notice": "プライベートかつ即時 — 何も保存されません",
+    "start_over": "最初からやり直す",
+    "disclaimer": "これはあくまで参考情報であり、医学的または法的助言ではありません。すべての計算はデバイス上で行われ、データは保存されません。"
+  },
+  "cards": {
+    "bac": {
+      "title": "運転できますか？",
+      "subtitle": "血中アルコール濃度推定値＋安全になるまでの時間"
+    },
+    "cost": {
+      "title": "それにはいくらかかったの？",
+      "subtitle": "週次、月次、年次支出"
+    },
+    "session": {
+      "title": "それはやりすぎだったでしょうか？",
+      "subtitle": "前回のセッションを評価してください"
+    },
+    "reduction": {
+      "title": "簡単にカットできます",
+      "subtitle": "小さな変化が、大きな影響を与える"
+    }
+  },
+  "bac": {
+    "drink_types": {
+      "beer": "ビール",
+      "wine": "ワイン",
+      "spirits": "ショット"
+    },
+    "presets": {
+      "beer_1": "ビール1杯",
+      "beer_2": "ビール2杯",
+      "wine_3": "ワイン3種",
+      "spirits_2": "2発"
+    },
+    "drinks_label": "ドリンク",
+    "weight_label": "体重（kg）",
+    "gender_label": "性別",
+    "male": "男",
+    "female": "女性",
+    "time_since_label": "初めてお酒を飲んでからの時間",
+    "hours_unit": "h",
+    "results": {
+      "est_bac": "推定BAC",
+      "safe_to_drive": "安全に運転できます",
+      "now": "今",
+      "warning": "たとえ体調が良くても、反応速度は低下している可能性があります。これはあくまでも推定値であり、法的助言ではありません。"
+    },
+    "status": {
+      "safe": {
+        "verdict": "おそらく安全",
+        "message": "あなたの推定血中アルコール濃度は安全基準値内です。ただし、注意が必要です。飲酒による障害は、法定基準値以下から始まる可能性があります。"
+      },
+      "borderline": {
+        "verdict": "境界線",
+        "message": "気分は良くても、反応速度や判断力は既に低下している可能性があります。しばらく様子を見た方が良いでしょう。"
+      },
+      "danger": {
+        "verdict": "運転しないでください",
+        "message": "あなたの血中アルコール濃度は安全基準値を大幅に超えています。今運転するのは危険であり、おそらく違法です。"
+      }
+    }
+  },
+  "cost": {
+    "pattern_label": "あなたのパターン",
+    "presets": {
+      "casual": "カジュアル",
+      "weekend": "週末",
+      "regular": "通常",
+      "heavy": "重い"
+    },
+    "drinks_per_session": "1セッションあたりのドリンク数",
+    "sessions_per_week": "週あたりのセッション数",
+    "cost_per_drink": "ドリンク1杯あたりの価格",
+    "currency": "₹",
+    "labels": {
+      "weekly": "毎週",
+      "monthly": "月刊",
+      "yearly": "年間"
+    },
+    "equivalents": {
+      "phone": "毎年新しい携帯電話",
+      "savings": "しっかりとした緊急資金",
+      "vacation": "海外旅行",
+      "rent": "数ヶ月分の家賃"
+    },
+    "impact_message": "それは年間<1></1>で、<3></3>に十分です。"
+  },
+  "session": {
+    "last_session_label": "最終セッション",
+    "presets": {
+      "casual": "カジュアルな夜",
+      "friday": "金曜日の外出",
+      "big": "ビッグナイト",
+      "party": "パーティー"
+    },
+    "drinks_consumed": "飲んだ飲み物",
+    "duration": "所要時間（時間）",
+    "questions": {
+      "blackout": "記憶の欠落や意識の途絶はありますか？",
+      "poor_sleep": "その後、睡眠不足になる？",
+      "yes": "はい",
+      "no": "いいえ"
+    },
+    "stats": "{{drinks}}杯を{{hours}}時間で飲むと、約{{rate}}杯/時間になります。",
+    "verdicts": {
+      "low_risk": "低リスクの範囲内",
+      "heavy": "ヘビーセッション",
+      "high_risk": "高リスクセッション"
+    },
+    "effects": {
+      "dehydration": "脱水症状の可能性が高い",
+      "fatigue": "翌日の疲労感",
+      "pace": "ペースが速いほどリスクが高まる",
+      "sleep": "睡眠の質が低下した",
+      "blackout": "記憶の欠落は警告サインである",
+      "liver": "肝臓に大きな負荷がかかる",
+      "minimal": "影響は最小限にとどまる見込み"
+    }
+  },
+  "reduction": {
+    "current_intake": "現在の飲酒量/週",
+    "pick_change": "小さな変化を一つ選んでください",
+    "changes": {
+      "remove2": "週に2杯減らす",
+      "skip1day": "飲酒を1日控える",
+      "halve": "1セッションを半分にする",
+      "lowabv": "アルコール度数の低いものに切り替える"
+    },
+    "impact": {
+      "by_change": "単純に：{{change}}",
+      "unit": "1週間あたりのドリンク数",
+      "fewer": "週あたりの減少",
+      "saved": "月間節約額",
+      "risk_reduced": "リスクが軽減",
+      "compounding": "小さな変化が積み重なって大きな成果を生む。特別なシステムなんて必要ない。ただ、心配事が一つ減るだけでいいんだ。",
+      "adjust_hint": "現在の摂取量を調整して、その効果を実感してください。"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "继续",
+    "back": "后退",
+    "home": "返回首页",
+    "yes": "是的",
+    "no": "不",
+    "date": "日期"
+  },
+  "screens": {
+    "checkin": {
+      "title": "自我关爱签到🌿",
+      "subtitle": "你今天是如何照顾自己的？",
+      "question": "你今天有好好照顾自己吗？*",
+      "description": "自我关爱是指我们为了照顾自己的心理、情感和身体健康而有意识地进行的任何活动。"
+    },
+    "activities": {
+      "title": "您的活动🎯",
+      "subtitle": "你今天做了哪些自我护理活动？"
+    },
+    "duration": {
+      "title": "花费时间⏱️",
+      "subtitle": "你花了多长时间进行自我护理？（可选）"
+    },
+    "noSelfCare": {
+      "title": "没关系💛",
+      "subtitle": "让我们来了解一下今天发生了什么。",
+      "question1": "今天是什么阻碍了自我关爱？（可选）",
+      "question2": "哪些类型的自我护理会有所帮助？（可选）"
+    },
+    "mood": {
+      "title": "你感觉怎么样？🫧",
+      "subtitle": "选择您当前的心情（可选）"
+    },
+    "review": {
+      "title": "您的参赛作品📋",
+      "subtitle": "以下是今天签到情况的概要",
+      "didSelfCare": "你做过自我关爱吗？",
+      "activities": "活动",
+      "duration": "期间",
+      "mood": "情绪",
+      "challenges": "阻止",
+      "whatHelps": "本来会有帮助的。",
+      "viewHistory": "每周历史",
+      "editToday": "编辑条目",
+      "summary": "概括"
+    },
+    "history": {
+      "title": "每周历史回顾📅",
+      "subtitle": "过去7天内无任何条目"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "糟糕！页面未找到",
+      "returnHome": "返回首页"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "锻炼",
+      "Meditation": "冥想",
+      "Journaling": "写日记",
+      "Reading": "阅读",
+      "Rest / Nap": "休息/小睡",
+      "Skincare": "护肤",
+      "Healthy Meal": "健康餐",
+      "Nature / Walk": "自然/漫步",
+      "Social Time": "社交时间",
+      "Hobby": "爱好",
+      "Therapy": "治疗",
+      "Digital Detox": "数字戒断"
+    },
+    "durations": {
+      "< 10 minutes": "不到 10 分钟",
+      "10–30 minutes": "10-30分钟",
+      "30–60 minutes": "30-60分钟",
+      "1+ hour": "1小时以上"
+    },
+    "reasons": {
+      "Busy schedule": "繁忙的日程",
+      "Low energy": "低能耗",
+      "Stress": "压力",
+      "Forgot": "忘记了",
+      "No motivation": "没有动力",
+      "Not feeling well": "感觉不舒服",
+      "Lack of time": "时间不足",
+      "Emotional overwhelm": "情绪崩溃"
+    },
+    "helpfulTypes": {
+      "Rest": "休息",
+      "Relaxation": "松弛",
+      "Physical activity": "体育活动",
+      "Talking to someone": "和某人交谈",
+      "Quiet time": "安静时光",
+      "Creative activity": "创意活动"
+    },
+    "moods": {
+      "Happy": "快乐的",
+      "Calm": "冷静的",
+      "Neutral": "中性的",
+      "Low": "低的",
+      "Stressed": "压力",
+      "Tired": "疲劳的"
+    },
+    "positiveStatements": {
+      "0": "你今天为自己挺身而出。这很了不起。🌿",
+      "1": "自我关爱并非自私——它至关重要。做得好！💚",
+      "2": "每一个小小的关爱之举，都会让你变得更强大。🌱",
+      "3": "你今天投资了自己。这很重要。✨",
+      "4": "照顾好自己是你今天做的最棒的事。🍃"
+    },
+    "supportiveStatements": {
+      "0": "没关系。明天又是新的开始。善待自己。🤍",
+      "1": "并非每天都会完美，但这完全没关系。🕊️",
+      "2": "你已经尽力了，这就足够了。💛",
+      "3": "休息也是一种自我关爱。善待自己。🌸",
+      "4": "承认今天需要勇气。你已经在成长了。🌷"
+    }
+  }
+}

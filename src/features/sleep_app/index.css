@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 230 25% 7%;
+    --foreground: 220 20% 93%;
+    --card: 230 20% 11%;
+    --card-foreground: 220 20% 93%;
+    --popover: 230 20% 11%;
+    --popover-foreground: 220 20% 93%;
+    --primary: 220 70% 55%;
+    --primary-foreground: 220 20% 98%;
+    --secondary: 230 15% 18%;
+    --secondary-foreground: 220 20% 90%;
+    --muted: 230 15% 15%;
+    --muted-foreground: 220 10% 55%;
+    --accent: 230 25% 22%;
+    --accent-foreground: 220 20% 95%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 230 15% 20%;
+    --input: 230 15% 22%;
+    --ring: 220 70% 55%;
+    --radius: 0.875rem;
+
+    /* Score tier colors */
+    --score-poor: 35 90% 55%;
+    --score-fair: 200 70% 60%;
+    --score-good: 220 70% 55%;
+    --score-excellent: 150 60% 45%;
+
+    /* Glow effects */
+    --glow-primary: 220 70% 55%;
+    --glow-score: 220 70% 55%;
+
+    --sidebar-background: 230 25% 7%;
+    --sidebar-foreground: 220 20% 93%;
+    --sidebar-primary: 220 70% 55%;
+    --sidebar-primary-foreground: 220 20% 98%;
+    --sidebar-accent: 230 25% 22%;
+    --sidebar-accent-foreground: 220 20% 95%;
+    --sidebar-border: 230 15% 20%;
+    --sidebar-ring: 220 70% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .score-ring-glow {
+    filter: drop-shadow(0 0 20px hsl(var(--glow-score) / 0.3));
+  }
+  .score-ring-glow-poor {
+    --glow-score: var(--score-poor);
+  }
+  .score-ring-glow-fair {
+    --glow-score: var(--score-fair);
+  }
+  .score-ring-glow-good {
+    --glow-score: var(--score-good);
+  }
+  .score-ring-glow-excellent {
+    --glow-score: var(--score-excellent);
+  }
+
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-xl border border-border/50 rounded-2xl;
+  }
+
+  .time-input {
+    @apply bg-secondary border border-border rounded-xl px-4 py-3 text-foreground text-lg font-medium w-full appearance-none;
+    color-scheme: dark;
+  }
+  .time-input::-webkit-calendar-picker-indicator {
+    filter: invert(0.7);
+  }
+
+  .emoji-btn {
+    @apply flex flex-col items-center gap-1 p-3 rounded-xl border-2 border-transparent transition-all duration-200 cursor-pointer;
+  }
+  .emoji-btn:hover {
+    @apply bg-secondary;
+  }
+  .emoji-btn.selected {
+    @apply border-primary bg-primary/10;
+  }
+
+  .bar-chart-bar {
+    @apply rounded-t-md transition-all duration-500 ease-out;
+  }
+}
+
+/* Animations */
+@keyframes score-fill {
+  from { stroke-dashoffset: var(--circumference); }
+  to { stroke-dashoffset: var(--target-offset); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { filter: drop-shadow(0 0 15px hsl(var(--glow-score) / 0.3)); }
+  50% { filter: drop-shadow(0 0 30px hsl(var(--glow-score) / 0.5)); }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.6s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

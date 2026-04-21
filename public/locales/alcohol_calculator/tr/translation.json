@@ -1,0 +1,143 @@
+{
+  "common": {
+    "title": "Alkol Hesaplayıcı",
+    "description": "Gerçek anlar için hızlı yanıtlar. İzleme yok, yargılama yok, veri depolama yok.",
+    "private_notice": "Özel ve anlık — hiçbir şey kaydedilmez",
+    "start_over": "Baştan başla",
+    "disclaimer": "Bu sadece bilgilendirme amaçlıdır; tıbbi veya hukuki tavsiye niteliği taşımaz. Tüm hesaplamalar cihazınızda gerçekleşir. Hiçbir şey saklanmaz."
+  },
+  "cards": {
+    "bac": {
+      "title": "Araba kullanabilir miyim?",
+      "subtitle": "Tahmini kan alkol seviyesi + güvenli hale gelene kadar geçen süre"
+    },
+    "cost": {
+      "title": "Bunun bana maliyeti ne oldu?",
+      "subtitle": "Haftalık, aylık ve yıllık harcamalar"
+    },
+    "session": {
+      "title": "Bu fazla mıydı?",
+      "subtitle": "Son oturumunuzu değerlendirin."
+    },
+    "reduction": {
+      "title": "Kolayca Kesilebilir",
+      "subtitle": "Küçük bir değişiklik, gerçek etki"
+    }
+  },
+  "bac": {
+    "drink_types": {
+      "beer": "Bira",
+      "wine": "Şarap",
+      "spirits": "Atış"
+    },
+    "presets": {
+      "beer_1": "1 bira",
+      "beer_2": "2 bira",
+      "wine_3": "3 şarap",
+      "spirits_2": "2 atış"
+    },
+    "drinks_label": "İçecekler",
+    "weight_label": "Ağırlık (kg)",
+    "gender_label": "Cinsiyet",
+    "male": "Erkek",
+    "female": "Dişi",
+    "time_since_label": "İlk içkiden bu yana geçen süre",
+    "hours_unit": "H",
+    "results": {
+      "est_bac": "Tahmini kan alkol seviyesi",
+      "safe_to_drive": "Araç kullanmak güvenlidir.",
+      "now": "Şimdi",
+      "warning": "Kendinizi iyi hissetseniz bile, tepki süreniz yine de bozulmuş olabilir. Bu bir tahmindir, yasal tavsiye değildir."
+    },
+    "status": {
+      "safe": {
+        "verdict": "Muhtemelen güvenli",
+        "message": "Tahmini kan alkol seviyeniz güvenli sınırlar içinde. Dikkatli olun; alkolün etkisi yasal sınırın altında da başlayabilir."
+      },
+      "borderline": {
+        "verdict": "Sınırda",
+        "message": "Kendinizi iyi hissedebilirsiniz, ancak tepki süreniz ve muhakeme yeteneğiniz zaten etkilenmiş olabilir. Beklemek daha iyi."
+      },
+      "danger": {
+        "verdict": "Araç kullanmayın.",
+        "message": "Kanınızdaki alkol seviyesi güvenli sınırların çok üzerinde. Şu anda araç kullanmak tehlikeli ve muhtemelen yasa dışı."
+      }
+    }
+  },
+  "cost": {
+    "pattern_label": "Deseniniz",
+    "presets": {
+      "casual": "Gündelik",
+      "weekend": "Hafta sonu",
+      "regular": "Düzenli",
+      "heavy": "Ağır"
+    },
+    "drinks_per_session": "Seans başına içecek sayısı",
+    "sessions_per_week": "Haftalık seans sayısı",
+    "cost_per_drink": "İçecek başına maliyet",
+    "currency": "₹",
+    "labels": {
+      "weekly": "Haftalık",
+      "monthly": "Aylık",
+      "yearly": "Yıllık"
+    },
+    "equivalents": {
+      "phone": "her yıl yeni bir telefon",
+      "savings": "sağlam bir acil durum fonu",
+      "vacation": "yurtdışı tatili",
+      "rent": "birkaç aylık kira"
+    },
+    "impact_message": "Bu da yılda <1></1> ediyor — <3></3> için yeterli."
+  },
+  "session": {
+    "last_session_label": "Son oturum",
+    "presets": {
+      "casual": "Rahat bir gece",
+      "friday": "Cuma günü dışarıda",
+      "big": "Büyük gece",
+      "party": "Parti"
+    },
+    "drinks_consumed": "Tüketilen içecekler",
+    "duration": "Süre (saat)",
+    "questions": {
+      "blackout": "Hafıza kaybı veya bilinç kaybı yaşadınız mı?",
+      "poor_sleep": "Sonrasında uyku sorunu mu yaşadınız?",
+      "yes": "Evet",
+      "no": "HAYIR"
+    },
+    "stats": "{{drinks}} drinks over {{hours}}h = ~{{rate}} drinks/hour",
+    "verdicts": {
+      "low_risk": "Düşük risk aralığında",
+      "heavy": "Yoğun oturum",
+      "high_risk": "Yüksek riskli oturum"
+    },
+    "effects": {
+      "dehydration": "Dehidratasyon olasılığı",
+      "fatigue": "Ertesi günkü yorgunluk",
+      "pace": "Hızlı tempo riski artırır",
+      "sleep": "Uyku kalitesi düştü",
+      "blackout": "Hafıza boşlukları bir uyarı işaretidir.",
+      "liver": "Karaciğer önemli bir yük altında.",
+      "minimal": "Beklenen etki minimum düzeydedir."
+    }
+  },
+  "reduction": {
+    "current_intake": "Haftalık mevcut içecek tüketimi",
+    "pick_change": "Küçük bir değişiklik seçin.",
+    "changes": {
+      "remove2": "Haftada 2 içki azaltın",
+      "skip1day": "1 gün içki içmeyi bırakın.",
+      "halve": "Bir seansı yarıya indirin",
+      "lowabv": "Daha düşük alkol oranına sahip bir ürüne geçin."
+    },
+    "impact": {
+      "by_change": "Sadece şu şekilde: {{change}}",
+      "unit": "haftalık içecek sayısı",
+      "fewer": "Haftada daha az",
+      "saved": "Aylık tasarruf",
+      "risk_reduced": "Risk azaltıldı",
+      "compounding": "Küçük değişiklikler birikerek büyür. Bir sisteme ihtiyacınız yok; sadece endişelenmeniz için bir neden daha az.",
+      "adjust_hint": "Mevcut alım miktarınızı ayarlayarak etkisini görün."
+    }
+  }
+}

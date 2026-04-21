@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 28 100% 97%;
+    --foreground: 210 33% 24%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 33% 24%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 33% 24%;
+
+    --primary: 16 100% 66%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 40% 75%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 28 100% 92%;
+    --muted-foreground: 210 20% 46%;
+
+    --accent: 28 100% 86%;
+    --accent-foreground: 210 33% 24%;
+
+    --accent-secondary: 270 40% 92%;
+    --accent-secondary-foreground: 210 33% 24%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 28 40% 88%;
+    --input: 28 40% 88%;
+    --ring: 16 100% 66%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .text-justified {
+    text-align: justify;
+  }
+}

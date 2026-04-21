@@ -1,0 +1,143 @@
+{
+  "common": {
+    "title": "알코올 계산기",
+    "description": "즉각적인 답변을 신속하게 제공합니다. 추적, 판단, 데이터 저장은 일절 없습니다.",
+    "private_notice": "개인 정보 보호 및 즉각적인 처리 - 아무것도 저장되지 않습니다",
+    "start_over": "처음부터 다시 시작",
+    "disclaimer": "참고용으로만 제공되며, 의학적 또는 법적 조언으로 간주해서는 안 됩니다. 모든 계산은 사용자의 기기에서 이루어지며, 어떠한 정보도 저장되지 않습니다."
+  },
+  "cards": {
+    "bac": {
+      "title": "제가 운전할 수 있나요?",
+      "subtitle": "혈중알코올농도 추정치 + 안전 확보까지 남은 시간"
+    },
+    "cost": {
+      "title": "그 대가는 무엇이었을까요?",
+      "subtitle": "주간, 월간 및 연간 지출"
+    },
+    "session": {
+      "title": "너무 과했나요?",
+      "subtitle": "지난 세션을 평가해 보세요"
+    },
+    "reduction": {
+      "title": "쉽게 자르기",
+      "subtitle": "작은 변화 하나가 큰 영향을 미칩니다"
+    }
+  },
+  "bac": {
+    "drink_types": {
+      "beer": "맥주",
+      "wine": "와인",
+      "spirits": "발사"
+    },
+    "presets": {
+      "beer_1": "맥주 1병",
+      "beer_2": "맥주 2병",
+      "wine_3": "와인 3종",
+      "spirits_2": "2발"
+    },
+    "drinks_label": "음료수",
+    "weight_label": "무게(kg)",
+    "gender_label": "성별",
+    "male": "남성",
+    "female": "여성",
+    "time_since_label": "첫 음주 이후 경과 시간",
+    "hours_unit": "시간",
+    "results": {
+      "est_bac": "추정 BAC",
+      "safe_to_drive": "운전하기에 안전합니다",
+      "now": "지금",
+      "warning": "몸 상태가 괜찮다고 느껴지더라도 반응 속도가 저하될 수 있습니다. 이는 추정치일 뿐이며 법률 자문이 아닙니다."
+    },
+    "status": {
+      "safe": {
+        "verdict": "아마 안전할 겁니다",
+        "message": "귀하의 혈중알코올농도 추정치는 안전 범위 내에 있습니다. 하지만 항상 주의하십시오. 법적 허용치보다 낮은 농도에서도 음주운전으로 인한 영향이 나타날 수 있습니다."
+      },
+      "borderline": {
+        "verdict": "경계선",
+        "message": "괜찮다고 느낄지 몰라도 반응 속도와 판단력은 이미 저하되었을 수 있습니다. 기다리는 것이 좋습니다."
+      },
+      "danger": {
+        "verdict": "운전하지 마세요",
+        "message": "혈중 알코올 농도가 안전 기준치를 훨씬 초과했습니다. 지금 운전하는 것은 위험하며 불법일 가능성이 높습니다."
+      }
+    }
+  },
+  "cost": {
+    "pattern_label": "당신의 패턴",
+    "presets": {
+      "casual": "평상복",
+      "weekend": "주말",
+      "regular": "정기적인",
+      "heavy": "무거운"
+    },
+    "drinks_per_session": "세션당 음료",
+    "sessions_per_week": "주당 세션 수",
+    "cost_per_drink": "음료 한 잔당 가격",
+    "currency": "₹",
+    "labels": {
+      "weekly": "주간",
+      "monthly": "월간 간행물",
+      "yearly": "매년"
+    },
+    "equivalents": {
+      "phone": "매년 새 휴대폰",
+      "savings": "탄탄한 비상자금",
+      "vacation": "해외 휴가",
+      "rent": "몇 달치 월세"
+    },
+    "impact_message": "이는 <1></1>/년으로 <3></3>에 충분합니다."
+  },
+  "session": {
+    "last_session_label": "지난 세션",
+    "presets": {
+      "casual": "편안한 밤",
+      "friday": "금요일 외출",
+      "big": "큰 밤",
+      "party": "파티"
+    },
+    "drinks_consumed": "섭취한 음료",
+    "duration": "소요 시간(시간)",
+    "questions": {
+      "blackout": "기억이 끊기거나 아예 나지 않는 부분이 있었나요?",
+      "poor_sleep": "수면 부족인가요?",
+      "yes": "예",
+      "no": "아니요"
+    },
+    "stats": "{{음료}}잔을 {{시간}}시간 동안 마시면 시간당 약 {{비율}}잔이 됩니다.",
+    "verdicts": {
+      "low_risk": "저위험 범위 내에 있음",
+      "heavy": "고강도 세션",
+      "high_risk": "고위험 세션"
+    },
+    "effects": {
+      "dehydration": "탈수일 가능성이 높음",
+      "fatigue": "다음날 피로감",
+      "pace": "빠른 속도는 위험을 증가시킵니다.",
+      "sleep": "수면의 질 저하",
+      "blackout": "기억의 공백은 경고 신호입니다.",
+      "liver": "간에 상당한 부하가 걸렸습니다.",
+      "minimal": "최소한의 영향만 예상됩니다."
+    }
+  },
+  "reduction": {
+    "current_intake": "현재 주간 음료량",
+    "pick_change": "작은 변화 하나를 선택하세요",
+    "changes": {
+      "remove2": "일주일에 2잔씩 줄이세요",
+      "skip1day": "하루는 술 마시는 것을 건너뛰세요",
+      "halve": "한 세션을 절반으로 줄이세요",
+      "lowabv": "알코올 도수가 낮은 것으로 바꾸세요"
+    },
+    "impact": {
+      "by_change": "단지: {{change}}",
+      "unit": "일주일에 마시는 음료수",
+      "fewer": "주당 더 적음",
+      "saved": "월 저축액",
+      "risk_reduced": "위험 감소",
+      "compounding": "작은 변화들이 모여 큰 효과를 냅니다. 특별한 시스템이 필요한 건 아니에요. 그저 걱정거리가 하나 줄어드는 것만으로도 충분합니다.",
+      "adjust_hint": "섭취량을 조절하여 그 효과를 확인해 보세요."
+    }
+  }
+}

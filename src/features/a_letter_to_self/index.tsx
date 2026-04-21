@@ -15,7 +15,11 @@ import { AuthGuard } from "./components/AuthGuard";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <>
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <>
     <>
       <LanguageSelector />
       <Toaster />
@@ -34,6 +38,7 @@ const App = () => (
       </>
     </>
   </>
-);
+    </TooltipProvider>
+  </QueryClientProvider>);
 
 export default App;
