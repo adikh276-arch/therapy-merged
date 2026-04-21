@@ -83,7 +83,7 @@ const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
       <div
         className={`rounded-full px-2.5 py-1 text-xs font-semibold ${entry.didSelfCare
           ? "bg-primary/15 text-primary"
-          : "bg-secondary text-secondary-foreground"
+          : "bg-secondary text-slate-600"
           }`}
       >
         {entry.didSelfCare ? t('common.yes') : t('common.no')}

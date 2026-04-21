@@ -38,7 +38,7 @@ const OverviewScreen = ({ onStart }: Props) => {
           <p className="text-xs font-semibold tracking-widest text-muted-foreground uppercase mb-3">
             {t("about_technique")}
           </p>
-          <p className="text-secondary-foreground leading-relaxed text-[15px]">
+          <p className="text-slate-600 leading-relaxed text-[15px]">
             {t("technique_description")}
           </p>
         </section>
@@ -60,7 +60,7 @@ const OverviewScreen = ({ onStart }: Props) => {
                 <span className="w-7 h-7 rounded-full bg-primary/10 flex items-center justify-center text-xs font-semibold text-primary">
                   {i + 1}
                 </span>
-                <span className="text-secondary-foreground text-[15px]">{step}</span>
+                <span className="text-slate-600 text-[15px]">{step}</span>
               </li>
             ))}
           </ul>

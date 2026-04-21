@@ -108,7 +108,7 @@ const mindfulnessCards: MindfulnessCard[] = [
 const toolCards: TopicCard[] = [
   { id: "box-breathing", icon: Wind, label: "Box Breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
   { id: "gratitude-tracker", icon: Star, label: "Gratitude Tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
-  { id: "loving-kindness-meditation", icon: Heart, label: "Loving-Kindness", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/box-breathing" },
+  { id: "deep-breathing", icon: Activity, label: "Deep Breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/box-breathing" },
   { id: "affirmations", icon: Smile, label: "Affirmations", bgColor: "linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)", iconColor: "#AB47BC", url: "/tools/affirmations" },
   { id: "mindful-space", icon: Compass, label: "Mindful Space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/exercises/joyful-activities" },
   { id: "letter-to-self", icon: Mail, label: "A Letter To Self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
@@ -588,7 +588,13 @@ export function SelfCareResources() {
                             transition={{ delay: 0.15 + i * 0.05 }}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.95 }}
-                            onClick={() => ex.url && (ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url))}
+                            onClick={() => {
+                              if (ex.title.toLowerCase() === "guided imagery" && window.parent !== window) {
+                                window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
+                                return;
+                              }
+                              ex.url && (ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url))
+                            }}
                             className="w-full rounded-2xl p-4 border-2 transition-all hover:shadow-md"
                             style={{
                               backgroundColor: color.bg,
@@ -796,6 +802,10 @@ export function SelfCareResources() {
                       whileHover={{ y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
+                        if (tool.id === "mindful-space" && window.parent !== window) {
+                          window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+                          return;
+                        }
                         if (tool.url) {
                           tool.url.startsWith('http') ? window.location.href = tool.url : navigate(tool.url);
                         }
@@ -834,7 +844,11 @@ export function SelfCareResources() {
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
                         if (topic.id === 'ocd') {
-                          window.location.href = '/concerns/ocd/articles';
+                          if (window.parent !== window) {
+                            window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
+                          } else {
+                            window.location.href = '/concerns/ocd/articles';
+                          }
                         } else {
                           setSelectedTopic(topic.id);
                         }

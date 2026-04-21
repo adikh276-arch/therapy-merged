@@ -1,3 +1,4 @@
+import { UniversalBackButton } from '../../components/UniversalBackButton';
 import './index.css';
 import i18n from './i18n';
 import React from 'react';
@@ -17,7 +18,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <I18nextProvider i18n={i18n}>
       <TooltipProvider>
-        <Toaster />
+        <UniversalBackButton /><Toaster />
         <Sonner />
         <React.Fragment>
           <Routes>

@@ -1,3 +1,4 @@
+import { UniversalBackButton } from '../../components/UniversalBackButton';
 import './index.css';
 import './i18n';
 import React from 'react';
@@ -16,7 +17,7 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
+      <UniversalBackButton /><Toaster />
       <Sonner />
       <React.Fragment>
         <AuthGuard>

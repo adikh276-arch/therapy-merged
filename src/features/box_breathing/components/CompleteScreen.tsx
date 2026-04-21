@@ -35,7 +35,7 @@ const CompleteScreen = ({ onRestart, onBack }: Props) => {
         </button>
         <button
           onClick={onBack}
-          className="w-full max-w-xs py-4 rounded-lg bg-card text-secondary-foreground font-medium text-base shadow-soft hover:bg-muted active:scale-[0.98] transition-all duration-200"
+          className="w-full max-w-xs py-4 rounded-lg bg-card text-slate-600 font-medium text-base shadow-soft hover:bg-muted active:scale-[0.98] transition-all duration-200"
         >
           {t("back")}
         </button>
