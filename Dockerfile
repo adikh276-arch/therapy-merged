@@ -11,6 +11,9 @@ COPY . .
 ARG VITE_AUTH_PORTAL_URL
 ENV VITE_AUTH_PORTAL_URL=$VITE_AUTH_PORTAL_URL
 
+ARG VITE_DATABASE_URL
+ENV VITE_DATABASE_URL=$VITE_DATABASE_URL
+
 RUN pnpm build
 
 # ─────────────────────────────────────────

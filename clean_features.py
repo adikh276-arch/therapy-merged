@@ -72,6 +72,10 @@ for feature in os.listdir(features_dir):
                 new_content = new_content.replace('from "@/lib', f'from "{prefix}lib')
                 new_content = new_content.replace('from "@/types', f'from "{prefix}types')
                 new_content = new_content.replace('from "@/utils', f'from "{prefix}utils')
+                new_content = new_content.replace('from "@/data', f'from "{prefix}data')
+                new_content = new_content.replace('from "@/pages', f'from "{prefix}pages')
+                new_content = new_content.replace('from "@/i18n', f'from "{prefix}i18n')
+
                 
                 if new_content != content:
                     with open(file_path, 'w', encoding='utf-8') as f:
