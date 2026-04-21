@@ -53,5 +53,4 @@ jobs:
             bunker.mantracare.com/lovable/therapy:latest
           build-args: |
             VITE_AUTH_PORTAL_URL=${{ secrets.AUTH_PORTAL_URL }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+            BUILD_ID=${{ github.run_id }}
