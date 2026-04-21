@@ -20,7 +20,7 @@ const App = () => (
           <Route path="/technique/:id" element={<TechniqueDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      <>
+      </>
     </>
   </>
 );

@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ArrowLeft, CheckCircle2 } from "lucide-react";
-import { tips } from "@/data/tips";
+import { tips } from "../data/tips";
 
 const bgMap: Record<string, string> = {
   "pastel-pink": "bg-pastel-pink",

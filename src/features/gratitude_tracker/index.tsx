@@ -29,7 +29,7 @@ const App = () => (
           <Route path="/history" element={<History />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      <>
+      </>
     </>
   </>
 );

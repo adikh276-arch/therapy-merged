@@ -24,7 +24,7 @@ const App = () => (
           <Route path="/complete" element={<CompletionScreen />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      <>
+      </>
     </>
   </>
 );

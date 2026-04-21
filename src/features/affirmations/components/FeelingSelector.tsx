@@ -1,5 +1,5 @@
 import React from "react";
-import { feelings } from "@/data/affirmations";
+import { feelings } from "../data/affirmations";
 import { useTranslation } from "react-i18next";
 
 interface FeelingSelectorProps {

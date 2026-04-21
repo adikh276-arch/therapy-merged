@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { feelings } from "@/data/affirmations";
+import { feelings } from "../data/affirmations";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

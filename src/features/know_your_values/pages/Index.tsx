@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import ProgressIndicator from "../components/ProgressIndicator";
 import ValueCard from "../components/ValueCard";
 import ActivityButton from "../components/ActivityButton";
-import { allValues } from "@/data/values";
+import { allValues } from "../data/values";
 import { Reflection, ValueItem } from "../types/reflection";
 import { format } from "date-fns";
 

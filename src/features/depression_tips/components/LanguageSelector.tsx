@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { SUPPORTED_LANGUAGES } from "@/i18n";
+import { SUPPORTED_LANGUAGES } from "../i18n";
 import { ChevronDown, Globe } from "lucide-react";
 
 export default function LanguageSelector() {

@@ -5,7 +5,7 @@ import MeaningScreen from "../components/activity/MeaningScreen";
 import SmallStepScreen from "../components/activity/SmallStepScreen";
 import AffirmationScreen from "../components/activity/AffirmationScreen";
 import LanguageSelector from "../components/LanguageSelector";
-import floralBg from "@/assets/floral-bg.png";
+import floralBg from "../assets/floral-bg.png";
 
 export interface ActivityData {
   activity: string;

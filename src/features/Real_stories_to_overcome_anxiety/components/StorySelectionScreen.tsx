@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { stories } from "@/data/stories";
+import { stories } from "../data/stories";
 import { useTranslation } from "react-i18next";
 
 interface StorySelectionScreenProps {

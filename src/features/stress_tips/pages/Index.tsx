@@ -1,6 +1,6 @@
 import MoodSelector from "../components/MoodSelector";
 import TipCard from "../components/TipCard";
-import { tips } from "@/data/tips";
+import { tips } from "../data/tips";
 
 import { useTranslation } from "react-i18next";
 

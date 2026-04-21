@@ -23,7 +23,7 @@ const App = () => (
           <Route path="/tip/:slug" element={<TipDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      <>
+      </>
     </>
   </>
 );

@@ -31,7 +31,7 @@ const App = () => (
           <Route path="/tip/positive-self-talk" element={<PositiveSelfTalk />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      <>
+      </>
     </>
   </>
 );

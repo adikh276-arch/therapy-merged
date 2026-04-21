@@ -36,15 +36,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                         if (data.user_id) {
                             const uid = data.user_id.toString();
                             sessionStorage.setItem("user_id", uid);
-
-                            // Initialize user in DB
-                            try {
-                                const { sql } = await import("@/lib/db");
-                                await sql("INSERT INTO users (id) VALUES ($1) ON CONFLICT (id) DO NOTHING", [uid]);
-                            } catch (dbErr) {
-                                console.error("Failed to init user in DB:", dbErr);
-                            }
-
                             console.log("Auth: Token validated, user_id:", uid);
                             setUserId(uid);
                             // Remove token from URL

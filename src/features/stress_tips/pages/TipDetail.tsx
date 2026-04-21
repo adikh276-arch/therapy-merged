@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft, Check } from "lucide-react";
-import { tips } from "@/data/tips";
+import { tips } from "../data/tips";
 import BreathingExercise from "../components/BreathingExercise";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";

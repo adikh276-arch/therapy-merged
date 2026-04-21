@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ChevronRight } from "lucide-react";
-import { Tip } from "@/data/tips";
+import { Tip } from "../data/tips";
 
 const bgMap: Record<string, string> = {
   "pastel-pink": "bg-pastel-pink",

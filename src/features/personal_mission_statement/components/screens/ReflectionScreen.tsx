@@ -1,7 +1,7 @@
 import ScreenWrapper from "../../components/ScreenWrapper";
 import MissionButton from "../../components/MissionButton";
 import ReflectionInput from "../../components/ReflectionInput";
-import { MissionData } from "@/pages/Index";
+import { MissionData } from "../../pages/Index";
 import { useTranslation } from "react-i18next";
 
 interface ReflectionScreenProps {

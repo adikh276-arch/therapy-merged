@@ -1,4 +1,4 @@
-import { Technique } from "@/data/techniques";
+import { Technique } from "../data/techniques";
 
 interface GroundingCardProps {
   technique: Technique;

@@ -22,7 +22,7 @@ const App = () => (
             <Route path="/tip/:id" element={<TipDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        <>
+        </>
       </>
     </>
   </Suspense>

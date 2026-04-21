@@ -1,5 +1,5 @@
 import { neon } from '@neondatabase/serverless';
-import i18n from "@/i18n";
+import i18n from "../i18n";
 
 const DATABASE_URL = import.meta.env.VITE_NEON_DATABASE_URL;
 
