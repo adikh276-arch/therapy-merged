@@ -589,8 +589,12 @@ export function SelfCareResources() {
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => {
-                              if (ex.title.toLowerCase() === "guided imagery" && window.parent !== window) {
-                                window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
+                              if (ex.title.toLowerCase() === "guided imagery") {
+                                if (window.parent !== window) {
+                                  window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
+                                } else {
+                                  window.location.href = 'https://web.mantracare.com';
+                                }
                                 return;
                               }
                               ex.url && (ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url))
@@ -802,8 +806,12 @@ export function SelfCareResources() {
                       whileHover={{ y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
-                        if (tool.id === "mindful-space" && window.parent !== window) {
-                          window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+                        if (tool.id === "mindful-space") {
+                          if (window.parent !== window) {
+                            window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+                          } else {
+                            window.location.href = 'https://web.mantracare.com';
+                          }
                           return;
                         }
                         if (tool.url) {
@@ -847,7 +855,7 @@ export function SelfCareResources() {
                           if (window.parent !== window) {
                             window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
                           } else {
-                            window.location.href = '/concerns/ocd/articles';
+                            window.location.href = 'https://web.mantracare.com';
                           }
                         } else {
                           setSelectedTopic(topic.id);

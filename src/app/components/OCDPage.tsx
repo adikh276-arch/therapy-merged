@@ -114,7 +114,7 @@ export function OCDPage() {
                     if (window.parent !== window) {
                       window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
                     } else {
-                      navigate("/");
+                      window.location.href = 'https://web.mantracare.com';
                     }
                   }}
                   className="w-9 h-9 rounded-xl flex items-center justify-center transition-colors flex-shrink-0 text-[#64748B] hover:bg-[#f3faff]"
