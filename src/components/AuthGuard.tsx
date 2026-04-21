@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-const AUTH_PORTAL_URL = import.meta.env.VITE_AUTH_PORTAL_URL;
+const AUTH_PORTAL_URL = import.meta.env.VITE_AUTH_PORTAL_URL || 'https://auth.mantracare.com';
 // APP_ROOT_URL is intentionally NOT hardcoded — window.location.origin is used
 // at runtime so this works across web.mantracare.com, therapy.mantracare.com,
 // or any other domain without changing config.
@@ -22,26 +22,10 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     const token  = params.get('token');
 
     if (token) {
-      // Auth portal has returned with a token — exchange it
-      fetch(`${AUTH_PORTAL_URL}/api/verify-token`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token }),
-      })
-        .then(res => res.json())
-        .then(({ userId: resolvedId }) => {
-          if (resolvedId) {
-            localStorage.setItem('userId', resolvedId);
-            restoreAndNavigate(location.pathname);
-          } else {
-            localStorage.removeItem('userId');
-            redirectToAuthPortal();
-          }
-        })
-        .catch(() => {
-          redirectToAuthPortal();
-        });
-
+      // The auth portal returns the token/userId directly in the URL query.
+      // We save it immediately and restore navigation.
+      localStorage.setItem('userId', token);
+      restoreAndNavigate(location.pathname);
     } else if (!userId) {
       redirectToAuthPortal();
     }
@@ -74,7 +58,7 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     // window.location.origin gives the correct domain automatically —
     // works on web.mantracare.com, therapy.mantracare.com, or any other
     // domain this app is ever deployed to, with zero config changes.
-    const returnUrl = window.location.origin;
+    const returnUrl = window.location.origin + (import.meta.env.BASE_URL || "/");
     window.location.href = `${AUTH_PORTAL_URL}?redirect_url=${encodeURIComponent(returnUrl)}`;
   }
 
@@ -88,7 +72,16 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     navigate(target, { replace: true });
   }
 
-  if (!userId) return null;
+  if (!userId) {
+    return (
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', backgroundColor: '#f8fafc' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ animation: 'spin 1s linear infinite', borderRadius: '9999px', height: '2.5rem', width: '2.5rem', borderBottom: '4px solid #2563eb', borderTop: '4px solid #DBEAFE', borderLeft: '4px solid #DBEAFE', borderRight: '4px solid #DBEAFE' }}></div>
+          <p style={{ color: '#64748b', fontWeight: 500 }}>Authenticating...</p>
+        </div>
+      </div>
+    );
+  }
 
   return <>{children}</>;
 }
