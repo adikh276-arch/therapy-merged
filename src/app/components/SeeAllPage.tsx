@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router";
 import { ChevronLeft, Sparkles, Star, Target, Layers } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 export function SeeAllPage() {
   const navigate = useNavigate();

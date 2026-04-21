@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import { ChevronLeft, ChevronRight, Headphones, BookOpen, Clock, Award } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 interface ProgramItem {
   id: number;

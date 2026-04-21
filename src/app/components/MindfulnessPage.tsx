@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import { ArrowLeft, Calendar, CheckCircle, ChevronRight, ChevronLeft, Headphones, BookOpen, Play, Target, Moon, Briefcase, Music, Circle, Sunrise, Waves, Coffee, Clock, Award, Sparkles, Heart, Wind, BarChart3, MessageCircle, ArrowRight, Star, Check, FileText, Activity } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { MobileAppModal } from "./MobileAppModal";
 import { MobileNav } from "./MobileNav";

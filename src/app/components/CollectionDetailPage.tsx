@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router";
 import { ChevronLeft, ChevronRight, Play, Sparkles } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import Slider from "react-slick";
 import meditationThumb from "figma:asset/df7c6ecf7eaa8aeb924cfeda9cfbe2e7536f022e.png";

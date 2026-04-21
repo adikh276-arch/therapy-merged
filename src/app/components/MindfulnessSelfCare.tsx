@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router";
 import { ChevronLeft, Search, Circle, Moon, Music, Target, Waves, Clock, ArrowRight, Volume2, GraduationCap, Heart } from "lucide-react";
 import { WiHorizonAlt } from "react-icons/wi";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function MindfulnessSelfCare() {

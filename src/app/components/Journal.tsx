@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ArrowLeft, Plus, Search, Calendar, Clock, Smile, Meh, Frown, Heart, Star, Zap, Coffee, Sun, Moon, Cloud, Edit2, Trash2, Filter, ChevronDown, ChevronLeft } from "lucide-react";
 import { useNavigate } from "react-router";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface JournalEntry {
   id: string;

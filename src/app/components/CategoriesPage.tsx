@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 import { ChevronLeft, Circle, Moon, Waves, Coffee, Heart, Music, Sparkles, Mic, Sun, TreePine, Droplets, Volume2, Fish, Compass, Wind, BookOpen, Headphones, Target, Brain, Activity } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 
 export function CategoriesPage() {

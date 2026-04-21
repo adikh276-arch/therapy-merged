@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import Slider from "react-slick";
 

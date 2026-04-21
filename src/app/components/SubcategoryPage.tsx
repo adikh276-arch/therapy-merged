@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { ChevronLeft, Play, Sparkles } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 export function SubcategoryPage() {
   const navigate = useNavigate();

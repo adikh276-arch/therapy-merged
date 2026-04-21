@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router";
 import { Home, MessageSquare, Calendar, CheckSquare, BarChart3, Receipt, Gift, Lightbulb, HelpCircle, X, Menu, ChevronRight, UserCircle } from "lucide-react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export function MobileNav() {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { ChevronLeft, Play, Lock, Heart, Share2, RotateCcw, RotateCw, Square, Globe } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 export function MeditationDetailPage() {
   const navigate = useNavigate();
