@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { ImageWithFallback } from "./figma/ImageWithFallback";

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { Calendar, MessageCircle, CheckCircle, ChevronRight, ChevronLeft, Sparkles, Heart, Wind, BookOpen, BarChart3, ArrowRight, Play, Headphones, FileText, Activity, Moon, Music, Star, ArrowUpRight, Clock, Award, Check, Zap, Battery } from "lucide-react";
 import { motion } from "framer-motion";
 import { MobileAppModal } from "./MobileAppModal";

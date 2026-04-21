@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate, useLocation } from "react-router";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Home, MessageSquare, Calendar, CheckSquare, BarChart3, Receipt, Gift, Lightbulb, HelpCircle, X, Menu, ChevronRight, UserCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 

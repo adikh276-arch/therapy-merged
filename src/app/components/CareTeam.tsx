@@ -1,7 +1,7 @@
 import { MessageCircle, Search, Send, Paperclip, MoreVertical, Phone, Video, ArrowLeft, X, ChevronRight, Calendar, UserCog, AlertCircle, Clock, RefreshCw, ChevronLeft, Info, Filter, Stethoscope, Users, Activity, Heart, Dumbbell, Brain, Radio, Plus, ShoppingCart } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
-import { useNavigate, useSearchParams } from "react-router";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";

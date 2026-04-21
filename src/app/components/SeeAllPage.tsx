@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate, useParams } from "react-router";
+import { useNavigate, useParams } from "react-router-dom";
 import { ChevronLeft, Sparkles, Star, Target, Layers } from "lucide-react";
 import { motion } from "framer-motion";
 

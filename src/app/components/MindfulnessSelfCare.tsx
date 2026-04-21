@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { ChevronLeft, Search, Circle, Moon, Music, Target, Waves, Clock, ArrowRight, Volume2, GraduationCap, Heart } from "lucide-react";
 import { WiHorizonAlt } from "react-icons/wi";
 import { motion } from "framer-motion";
