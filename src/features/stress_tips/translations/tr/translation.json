@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Derin bir nefes alın 🌿",
+    "title": "Stresinizi Yönetin",
+    "description": "Daha sakin ve kontrol altında hissetmenize yardımcı olacak basit günlük alışkanlıklar.",
+    "sectionTitle": "Günlük Stres Giderici İpuçları"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Rahat bir uyku çekin.",
+      "description": "Her gece 7-9 saat uyumayı hedefleyin. Her gün aynı saatte yatıp kalkmaya çalışın.",
+      "why": "Uyku, beyninizin ve vücudunuzun iyileşmesine yardımcı olur ve stres hormonlarını düşürür.",
+      "do": [
+        "Düzenli bir uyku programı uygulayın.",
+        "Yatmadan 1 saat önce ekranlardan uzak durun.",
+        "Odayı serin ve karanlık tutun.",
+        "Saat 16:00'dan sonra kafeinli içeceklerden uzak durun."
+      ],
+      "button": "Uyku Hatırlatıcısı Ayarla"
+    },
+    "breathing": {
+      "title": "Derin Nefes Alma Egzersizi Yapın",
+      "description": "Birkaç dakika nefesinize odaklanın. Yavaş nefes almak kaygıyı azaltır.",
+      "why": "Yavaş nefes alma, vücudunuzun gevşeme tepkisini harekete geçirir.",
+      "do": [
+        "4 saniye boyunca nefes alın.",
+        "4 saniye boyunca bekleyin",
+        "4 saniye boyunca nefes verin.",
+        "1 dakika boyunca tekrarlayın"
+      ]
+    },
+    "exercise": {
+      "title": "Vücudunuzu Hareket Ettirin",
+      "description": "Hafif yürüyüş veya esneme hareketleri stresi azaltmaya ve ruh halini iyileştirmeye yardımcı olur.",
+      "why": "Egzersiz endorfin salgılanmasını sağlar ve ruh halini iyileştirir.",
+      "do": [
+        "15 dakikalık yürüme mesafesinde",
+        "Hafif germe",
+        "Kısa yoga seansı",
+        "Hızlı ev egzersizi"
+      ]
+    },
+    "caffeine": {
+      "title": "Kafein ve şeker tüketimini sınırlayın",
+      "description": "Aşırı kafein ve şeker tüketimi kaygıyı artırabilir ve uyku düzenini bozabilir.",
+      "why": "Aşırı kafein ve şeker tüketimi kaygı ve uyku sorunlarını artırır.",
+      "do": [
+        "Bir kahve yerine bitki çayı içebilirsiniz.",
+        "Daha fazla su iç",
+        "Şekerli atıştırmalıkları azaltın",
+        "Günün ilerleyen saatlerinde kafeinden kaçının."
+      ]
+    },
+    "planning": {
+      "title": "Gününüzü Planlayın",
+      "description": "Büyük görevleri daha küçük adımlara bölerek bunalmış hissetmekten kaçının.",
+      "why": "Planlama zihinsel karmaşayı ve bunalımı azaltır.",
+      "do": [
+        "3 ana görevi yazın.",
+        "Görevleri küçük adımlara bölün",
+        "Tek seferde yalnızca bir göreve odaklanın.",
+        "Kısa molalar verin."
+      ]
+    }
+  },
+  "detail": {
+    "back": "Geri",
+    "notFound": "İpucu bulunamadı.",
+    "whyTitle": "Neden Faydalı?",
+    "doTitle": "Yapabilecekleriniz",
+    "reminderSet": "Hatırlatıcı ayarlandı! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Sayfa bulunamadı.",
+    "return": "Ana sayfaya dön"
+  },
+  "mood": {
+    "title": "Bugün nasıl hissediyorsunuz?",
+    "great": "Harika",
+    "okay": "Tamam",
+    "stressed": "Stresli",
+    "overwhelmed": "Ezilmiş"
+  },
+  "breathing": {
+    "inhale": "Derin bir nefes alın…",
+    "hold": "Tutmak…",
+    "exhale": "Nefes ver…",
+    "pause": "Duraklat",
+    "resume": "Sürdürmek"
+  }
+}

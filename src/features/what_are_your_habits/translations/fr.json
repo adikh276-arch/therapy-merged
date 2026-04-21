@@ -1,0 +1,56 @@
+{
+  "title": "Quelles sont vos habitudes ?",
+  "intro_description": "Les petites habitudes quotidiennes ont une influence sur le stress. Explorons les vôtres en douceur.",
+  "start_activity": "Début de l'activité",
+  "body_title": "🧍‍♀️ Votre routine corporelle quotidienne",
+  "body_subtitle": "Lequel de ces éléments vous a semblé un peu étrange ces derniers temps ? (Sélectionnez toutes les réponses qui s’appliquent)",
+  "continue": "Continuer",
+  "body_options": [
+    "Je n'ai pas bien dormi.",
+    "Mon rythme de sommeil est irrégulier.",
+    "Il m'arrive de sauter des repas",
+    "Je mange plus que d'habitude quand je suis stressée.",
+    "Je n'ai pas beaucoup bougé ni fait d'exercice.",
+    "Je ne suis pas beaucoup sorti ces derniers temps.",
+    "Ma routine de soins personnels a changé",
+    "Ma routine quotidienne me semble stable"
+  ],
+  "mind_title": "🧠 Vos schémas de pensée",
+  "mind_options": [
+    "Je n'arrête pas de trop réfléchir.",
+    "J'imagine souvent le pire scénario",
+    "Je suis dure envers moi-même.",
+    "Je me sens coupable de choses que j'ai faites ou que je n'ai pas faites.",
+    "Je m'inquiète constamment",
+    "J'ai du mal à me détendre",
+    "Mes pensées me semblent gérables"
+  ],
+  "coping_title": "🌊 Comment réagissez-vous au stress ?",
+  "coping_options": [
+    "J'évite les tâches lorsque je suis stressé.",
+    "Je passe beaucoup de temps sur mon téléphone à faire défiler les images pour me distraire.",
+    "Je passe du temps seule pour faire face à la situation.",
+    "Je me plonge dans le travail quand je suis stressé(e).",
+    "Je parle à quelqu'un de ce que je ressens",
+    "Je fais des exercices de respiration pour me calmer.",
+    "Je regarde la télévision ou je joue à des jeux pour me distraire.",
+    "Je ne sais pas trop comment je réagis au stress."
+  ],
+  "reflection_title": "✍️ Réflexion",
+  "question_stress": "Quelle habitude augmente votre stress par la suite ?",
+  "question_calm": "Quelle habitude pourrait vous aider à vous sentir plus calme ?",
+  "see_insight": "Voir mon point de vue",
+  "insight_title": "Actions suggérées",
+  "insight_description": "Appuyez ci-dessous pour découvrir des habitudes simples qui peuvent contribuer à réduire le stress.",
+  "show_suggestions": "Afficher les suggestions",
+  "commit": "Commettre",
+  "suggestions": [
+    "Essaie de te coucher un peu plus tôt ce soir",
+    "Sortez prendre l'air aujourd'hui",
+    "Faites une pause dans le défilement pendant un moment.",
+    "Parlez-vous avec bienveillance",
+    "Terminez une tâche que vous avez remise à plus tard."
+  ],
+  "final_text": "Les petits changements comptent. La constance apporte la sérénité.",
+  "finish": "Finition"
+}

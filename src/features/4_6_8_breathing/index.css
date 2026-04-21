@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 210 40% 93%;
+    --background: oklch(96.8% 0.007 247.896);
     --foreground: 260 30% 25%;
 
     --card: 240 30% 90%;
@@ -36,7 +36,7 @@
 
     --radius: 1.75rem;
 
-    --sidebar-background: 210 40% 93%;
+    --sidebar-background: oklch(96.8% 0.007 247.896);
     --sidebar-foreground: 260 30% 25%;
     --sidebar-primary: 260 45% 65%;
     --sidebar-primary-foreground: 210 40% 96%;
@@ -72,7 +72,7 @@
   }
 
   .gradient-bg-screen {
-    background: linear-gradient(to bottom, hsl(210 40% 93%), hsl(230 30% 90%));
+    background: linear-gradient(to bottom, var(--background), hsl(230 30% 90%));
   }
 
   .glow-circle {

@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Weź głęboki oddech 🌿",
+    "title": "Radź sobie ze stresem",
+    "description": "Proste codzienne nawyki, które pomogą Ci poczuć się spokojniej i mieć większą kontrolę.",
+    "sectionTitle": "Codzienne wskazówki dotyczące łagodzenia stresu"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Zapewnij sobie spokojny sen",
+      "description": "Staraj się spać 7–9 godzin każdej nocy. Staraj się kłaść spać i budzić się codziennie o tej samej porze.",
+      "why": "Sen pomaga mózgowi i ciału się zregenerować oraz obniża poziom hormonów stresu.",
+      "do": [
+        "Utrzymuj stały harmonogram snu",
+        "Unikaj ekranów na 1 godzinę przed snem",
+        "Utrzymuj pokój chłodny i ciemny",
+        "Unikaj kofeiny po godzinie 16:00"
+      ],
+      "button": "Ustaw przypomnienie o śnie"
+    },
+    "breathing": {
+      "title": "Ćwicz głębokie oddychanie",
+      "description": "Poświęć kilka minut na skupienie się na oddechu. Powolne oddychanie zmniejsza niepokój.",
+      "why": "Powolne oddychanie aktywuje reakcję relaksacyjną organizmu.",
+      "do": [
+        "Wdychaj przez 4 sekundy",
+        "Przytrzymaj przez 4 sekundy",
+        "Wydychaj przez 4 sekundy",
+        "Powtarzaj przez 1 minutę"
+      ]
+    },
+    "exercise": {
+      "title": "Ruszaj ciałem",
+      "description": "Lekki spacer lub ćwiczenia rozciągające pomagają uwolnić się od stresu i poprawić nastrój.",
+      "why": "Ćwiczenia uwalniają endorfiny i poprawiają nastrój.",
+      "do": [
+        "15 minut spacerem",
+        "Lekkie rozciąganie",
+        "Krótka sesja jogi",
+        "Szybki trening w domu"
+      ]
+    },
+    "caffeine": {
+      "title": "Ogranicz kofeinę i cukier",
+      "description": "Zbyt duża ilość kofeiny i cukru może nasilać lęk i zaburzać sen.",
+      "why": "Zbyt duża ilość kofeiny i cukru zwiększa niepokój i problemy ze snem.",
+      "do": [
+        "Zastąp jedną kawę herbatą ziołową",
+        "Pij więcej wody",
+        "Ogranicz słodkie przekąski",
+        "Unikaj kofeiny późnym popołudniem"
+      ]
+    },
+    "planning": {
+      "title": "Zaplanuj swój dzień",
+      "description": "Podziel duże zadania na mniejsze kroki, aby uniknąć uczucia przytłoczenia.",
+      "why": "Planowanie redukuje bałagan w głowie i przytłoczenie.",
+      "do": [
+        "Napisz 3 główne zadania",
+        "Podziel zadania na małe kroki",
+        "Skup się na jednym zadaniu na raz",
+        "Rób krótkie przerwy"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Z powrotem",
+    "notFound": "Wskazówka nie została znaleziona.",
+    "whyTitle": "Dlaczego to pomaga",
+    "doTitle": "Co możesz zrobić",
+    "reminderSet": "Przypomnienie ustawione! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Strona nie została znaleziona",
+    "return": "Powrót do strony głównej"
+  },
+  "mood": {
+    "title": "Jak się dzisiaj czujesz?",
+    "great": "Świetnie",
+    "okay": "Dobra",
+    "stressed": "Akcentowany",
+    "overwhelmed": "Przytłoczony"
+  },
+  "breathing": {
+    "inhale": "Wdychać…",
+    "hold": "Trzymać…",
+    "exhale": "Wydychać…",
+    "pause": "Pauza",
+    "resume": "Wznawiać"
+  }
+}

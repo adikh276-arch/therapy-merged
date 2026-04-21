@@ -18,12 +18,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <>
-    <>
-      <Toaster />
-      <Sonner />
       <AuthProvider>
-        <>
+        <React.Fragment>
           <LanguageSelector />
           <Suspense fallback={<div className="flex items-center justify-center h-screen">Loading translations...</div>}>
             <Routes>
@@ -32,11 +28,10 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
-        </>
+        </React.Fragment>
       </AuthProvider>
-    </>
-  </>
     </TooltipProvider>
-  </QueryClientProvider>);
+  </QueryClientProvider>
+);
 
 export default App;

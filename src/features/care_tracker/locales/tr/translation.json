@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "Devam etmek",
+    "back": "Geri",
+    "home": "Ana sayfaya geri dön",
+    "yes": "Evet",
+    "no": "HAYIR",
+    "date": "Tarih"
+  },
+  "screens": {
+    "checkin": {
+      "title": "Öz Bakım Kontrolü 🌿",
+      "subtitle": "Bugün kendinize nasıl baktınız?",
+      "question": "Bugün kendinize özen gösterdiniz mi?",
+      "description": "Öz bakım, zihinsel, duygusal ve fiziksel sağlığımıza özen göstermek amacıyla bilinçli olarak yaptığımız her türlü faaliyettir."
+    },
+    "activities": {
+      "title": "Etkinlikleriniz 🎯",
+      "subtitle": "Bugün hangi kişisel bakım aktivitelerini yaptınız?"
+    },
+    "duration": {
+      "title": "Harcanan Zaman ⏱️",
+      "subtitle": "Kendinize ne kadar zaman ayırdınız? (isteğe bağlı)"
+    },
+    "noSelfCare": {
+      "title": "Sorun değil 💛",
+      "subtitle": "Bugün neler olduğunu anlayalım.",
+      "question1": "Bugün öz bakımı engellemenin sebebi neydi? (isteğe bağlı)",
+      "question2": "Hangi tür öz bakım yardımcı olurdu? (isteğe bağlı)"
+    },
+    "mood": {
+      "title": "Nasılsın? 🫧",
+      "subtitle": "Mevcut ruh halinizi seçin (isteğe bağlı)."
+    },
+    "review": {
+      "title": "Katılımınız 📋",
+      "subtitle": "İşte bugünkü görüşmenin özeti.",
+      "didSelfCare": "Öz bakım yaptın mı?",
+      "activities": "Etkinlikler",
+      "duration": "Süre",
+      "mood": "Mod",
+      "challenges": "Engellendi",
+      "whatHelps": "Yardımcı olabilirdi.",
+      "viewHistory": "Haftalık Tarih",
+      "editToday": "Girişi Düzenle",
+      "summary": "Özet"
+    },
+    "history": {
+      "title": "Haftalık Tarihçe 📅",
+      "subtitle": "Son 7 günde hiçbir giriş yok."
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Ups! Sayfa bulunamadı.",
+      "returnHome": "Ana sayfaya dön"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Egzersiz yapmak",
+      "Meditation": "Meditasyon",
+      "Journaling": "Günlük Tutmak",
+      "Reading": "Okuma",
+      "Rest / Nap": "Dinlenme / Uyku",
+      "Skincare": "Cilt bakımı",
+      "Healthy Meal": "Sağlıklı Yemek",
+      "Nature / Walk": "Doğa / Yürüyüş",
+      "Social Time": "Sosyal Zaman",
+      "Hobby": "Hobi",
+      "Therapy": "Terapi",
+      "Digital Detox": "Dijital Detoks"
+    },
+    "durations": {
+      "< 10 minutes": "&lt; 10 dakika",
+      "10–30 minutes": "10-30 dakika",
+      "30–60 minutes": "30-60 dakika",
+      "1+ hour": "1+ saat"
+    },
+    "reasons": {
+      "Busy schedule": "Yoğun program",
+      "Low energy": "Düşük enerji",
+      "Stress": "Stres",
+      "Forgot": "Unutmuş olmak",
+      "No motivation": "Motivasyon yok",
+      "Not feeling well": "Kendimi iyi hissetmiyorum.",
+      "Lack of time": "Zaman yetersizliği",
+      "Emotional overwhelm": "Duygusal bunalım"
+    },
+    "helpfulTypes": {
+      "Rest": "Dinlenmek",
+      "Relaxation": "Rahatlama",
+      "Physical activity": "Fiziksel aktivite",
+      "Talking to someone": "Birisiyle konuşmak",
+      "Quiet time": "Sessiz zaman",
+      "Creative activity": "Yaratıcı etkinlik"
+    },
+    "moods": {
+      "Happy": "Mutlu",
+      "Calm": "Sakinlik",
+      "Neutral": "Doğal",
+      "Low": "Düşük",
+      "Stressed": "Stresli",
+      "Tired": "Yorgun"
+    },
+    "positiveStatements": {
+      "0": "Bugün kendin için ortaya çıktın. Bu çok güçlü bir şey. 🌿",
+      "1": "Kendine bakmak bencilce değil, aksine çok önemli. Aferin. 💚",
+      "2": "Gösterilen her küçük özen, sizi daha güçlü kılar. 🌱",
+      "3": "Bugün kendinize yatırım yaptınız. Bu önemli. ✨",
+      "4": "Bugün yaptığın en iyi şey kendine bakmak oldu. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Sorun yok. Yarın yeni bir başlangıç. Kendine karşı nazik ol. 🤍",
+      "1": "Her gün mükemmel olmayacak ve bu tamamen normal. 🕊️",
+      "2": "Elinden gelenin en iyisini yapıyorsun. Bu her zaman yeterlidir. 💛",
+      "3": "Dinlenmek de bir tür öz bakımdır. Kendinize karşı nazik olun. 🌸",
+      "4": "Bugünü kabullenmek cesaret ister. Zaten büyüyorsunuz. 🌷"
+    }
+  }
+}

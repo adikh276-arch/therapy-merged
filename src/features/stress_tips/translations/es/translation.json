@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Respira profundamente 🌿",
+    "title": "Maneja tu estrés",
+    "description": "Hábitos diarios sencillos que te ayudarán a sentirte más tranquilo y en control.",
+    "sectionTitle": "Consejos diarios para aliviar el estrés"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Obtenga un sueño reparador",
+      "description": "Intenta dormir de 7 a 9 horas cada noche. Intenta dormir y despertarte a la misma hora todos los días.",
+      "why": "Dormir ayuda al cerebro y al cuerpo a recuperarse y reduce las hormonas del estrés.",
+      "do": [
+        "Mantenga un horario de sueño fijo",
+        "Evite las pantallas 1 hora antes de acostarse",
+        "Mantenga la habitación fresca y oscura",
+        "Evite la cafeína después de las 4 p.m."
+      ],
+      "button": "Establecer recordatorio para dormir"
+    },
+    "breathing": {
+      "title": "Practica la respiración profunda",
+      "description": "Dedica unos minutos a concentrarte en tu respiración. Respirar despacio reduce la ansiedad.",
+      "why": "La respiración lenta activa la respuesta de relajación del cuerpo.",
+      "do": [
+        "Inhala durante 4 segundos",
+        "Mantener pulsado durante 4 segundos",
+        "Exhala durante 4 segundos",
+        "Repetir durante 1 minuto"
+      ]
+    },
+    "exercise": {
+      "title": "Mueve tu cuerpo",
+      "description": "Caminar suavemente o estirarse ayuda a liberar el estrés y mejorar el estado de ánimo.",
+      "why": "El ejercicio libera endorfinas y mejora el estado de ánimo.",
+      "do": [
+        "15 minutos a pie",
+        "Estiramiento ligero",
+        "Sesión corta de yoga",
+        "Entrenamiento rápido en casa"
+      ]
+    },
+    "caffeine": {
+      "title": "Limite la cafeína y el azúcar",
+      "description": "Demasiada cafeína y azúcar pueden aumentar la ansiedad y perturbar el sueño.",
+      "why": "Demasiada cafeína y azúcar aumentan la ansiedad y los problemas de sueño.",
+      "do": [
+        "Reemplace un café con té de hierbas",
+        "Beber más agua",
+        "Reducir los snacks azucarados",
+        "Evite la cafeína a última hora del día."
+      ]
+    },
+    "planning": {
+      "title": "Planifica tu día",
+      "description": "Divida las tareas grandes en pasos más pequeños para evitar sentirse abrumado.",
+      "why": "La planificación reduce el desorden mental y la sobrecarga.",
+      "do": [
+        "Escribe 3 tareas principales",
+        "Divida las tareas en pequeños pasos",
+        "Concéntrese en una tarea a la vez",
+        "Tomar descansos cortos"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Atrás",
+    "notFound": "Consejo no encontrado.",
+    "whyTitle": "Por qué ayuda",
+    "doTitle": "Qué puedes hacer",
+    "reminderSet": "¡Recordatorio configurado! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "¡Ups! Página no encontrada",
+    "return": "Regresar a Inicio"
+  },
+  "mood": {
+    "title": "¿Cómo te sientes hoy?",
+    "great": "Excelente",
+    "okay": "Bueno",
+    "stressed": "Estresado",
+    "overwhelmed": "Abrumado"
+  },
+  "breathing": {
+    "inhale": "Inhalar…",
+    "hold": "Sostener…",
+    "exhale": "Exhalar…",
+    "pause": "Pausa",
+    "resume": "Reanudar"
+  }
+}

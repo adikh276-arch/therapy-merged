@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Fai un respiro profondo 🌿",
+    "title": "Gestisci il tuo stress",
+    "description": "Semplici abitudini quotidiane per aiutarti a sentirti più calmo e in controllo.",
+    "sectionTitle": "Consigli quotidiani per alleviare lo stress"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Ottieni un sonno ristoratore",
+      "description": "Cerca di dormire dalle 7 alle 9 ore ogni notte. Cerca di andare a dormire e svegliarti alla stessa ora ogni giorno.",
+      "why": "Il sonno aiuta il cervello e il corpo a recuperare e riduce gli ormoni dello stress.",
+      "do": [
+        "Mantenere un programma di sonno fisso",
+        "Evitare gli schermi 1 ora prima di andare a letto",
+        "Mantenere la stanza fresca e buia",
+        "Evitare la caffeina dopo le 16:00"
+      ],
+      "button": "Imposta promemoria per dormire"
+    },
+    "breathing": {
+      "title": "Pratica la respirazione profonda",
+      "description": "Concentrati sul tuo respiro per qualche minuto. Respirare lentamente riduce l'ansia.",
+      "why": "Respirare lentamente attiva la risposta di rilassamento del corpo.",
+      "do": [
+        "Inspira per 4 secondi",
+        "Tenere premuto per 4 secondi",
+        "Espira per 4 secondi",
+        "Ripetere per 1 minuto"
+      ]
+    },
+    "exercise": {
+      "title": "Muovi il tuo corpo",
+      "description": "Una camminata leggera o uno stretching aiutano a liberarsi dallo stress e a migliorare l'umore.",
+      "why": "L'esercizio fisico rilascia endorfine e migliora l'umore.",
+      "do": [
+        "15 minuti a piedi",
+        "Allungamento leggero",
+        "Breve sessione di yoga",
+        "Allenamento veloce a casa"
+      ]
+    },
+    "caffeine": {
+      "title": "Limitare la caffeina e lo zucchero",
+      "description": "Un consumo eccessivo di caffeina e zucchero può aumentare l'ansia e disturbare il sonno.",
+      "why": "Troppa caffeina e zucchero aumentano l'ansia e i problemi di sonno.",
+      "do": [
+        "Sostituisci un caffè con una tisana",
+        "Bevi più acqua",
+        "Ridurre gli snack zuccherati",
+        "Evitare la caffeina a tarda giornata"
+      ]
+    },
+    "planning": {
+      "title": "Pianifica la tua giornata",
+      "description": "Suddividere i compiti più grandi in passaggi più piccoli per evitare di sentirsi sopraffatti.",
+      "why": "La pianificazione riduce il disordine mentale e lo stress.",
+      "do": [
+        "Scrivi 3 compiti principali",
+        "Suddividere i compiti in piccoli passaggi",
+        "Concentrati su un compito alla volta",
+        "Fai brevi pause"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Indietro",
+    "notFound": "Suggerimento non trovato.",
+    "whyTitle": "Perché aiuta",
+    "doTitle": "Cosa puoi fare",
+    "reminderSet": "Promemoria impostato! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Pagina non trovata",
+    "return": "Torna alla Home"
+  },
+  "mood": {
+    "title": "Come ti senti oggi?",
+    "great": "Grande",
+    "okay": "Va bene",
+    "stressed": "Stressato",
+    "overwhelmed": "Sopraffatto"
+  },
+  "breathing": {
+    "inhale": "Inalare…",
+    "hold": "Presa…",
+    "exhale": "Espira…",
+    "pause": "Pausa",
+    "resume": "Riprendere"
+  }
+}

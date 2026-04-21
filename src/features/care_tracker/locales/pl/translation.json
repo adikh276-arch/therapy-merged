@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "Kontynuować",
+    "back": "Z powrotem",
+    "home": "Powrót do strony głównej",
+    "yes": "Tak",
+    "no": "NIE",
+    "date": "Data"
+  },
+  "screens": {
+    "checkin": {
+      "title": "Kontrola samoopieki 🌿",
+      "subtitle": "Jak dbałeś o siebie dzisiaj?",
+      "question": "Czy dziś dbałeś o siebie? *",
+      "description": "Dbanie o siebie to każda czynność, którą wykonujemy świadomie, aby zadbać o nasze zdrowie psychiczne, emocjonalne i fizyczne."
+    },
+    "activities": {
+      "title": "Twoje aktywności 🎯",
+      "subtitle": "Jakie czynności związane z dbaniem o siebie wykonałeś dzisiaj?"
+    },
+    "duration": {
+      "title": "Czas spędzony ⏱️",
+      "subtitle": "Ile czasu poświęciłeś na dbanie o siebie? (opcjonalnie)"
+    },
+    "noSelfCare": {
+      "title": "To w porządku 💛",
+      "subtitle": "Zobaczmy, co wydarzyło się dzisiaj.",
+      "question1": "Co dziś uniemożliwiało Ci dbanie o siebie? (opcjonalnie)",
+      "question2": "Jaki rodzaj samoopieki mógłby pomóc? (opcjonalnie)"
+    },
+    "mood": {
+      "title": "Jak się czujesz? 🫧",
+      "subtitle": "Wybierz swój aktualny nastrój (opcjonalnie)"
+    },
+    "review": {
+      "title": "Twój wpis 📋",
+      "subtitle": "Oto podsumowanie dzisiejszego zameldowania",
+      "didSelfCare": "Czy dbałeś o siebie?",
+      "activities": "Działania",
+      "duration": "Czas trwania",
+      "mood": "Nastrój",
+      "challenges": "Zapobiegnięte przez",
+      "whatHelps": "Pomogłoby",
+      "viewHistory": "Historia tygodnia",
+      "editToday": "Edytuj wpis",
+      "summary": "Streszczenie"
+    },
+    "history": {
+      "title": "Historia tygodnia 📅",
+      "subtitle": "Brak wpisów w ciągu ostatnich 7 dni"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Ups! Strona nie została znaleziona",
+      "returnHome": "Powrót do strony głównej"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Ćwiczenia",
+      "Meditation": "Medytacja",
+      "Journaling": "Prowadzenie dziennika",
+      "Reading": "Czytanie",
+      "Rest / Nap": "Odpoczynek / Drzemka",
+      "Skincare": "Pielęgnacja skóry",
+      "Healthy Meal": "Zdrowy posiłek",
+      "Nature / Walk": "Przyroda / Spacer",
+      "Social Time": "Czas towarzyski",
+      "Hobby": "Hobby",
+      "Therapy": "Terapia",
+      "Digital Detox": "Cyfrowy detoks"
+    },
+    "durations": {
+      "< 10 minutes": "&lt; 10 minut",
+      "10–30 minutes": "10–30 minut",
+      "30–60 minutes": "30–60 minut",
+      "1+ hour": "1+ godzina"
+    },
+    "reasons": {
+      "Busy schedule": "Napięty harmonogram",
+      "Low energy": "Niska energia",
+      "Stress": "Stres",
+      "Forgot": "Zapomniałem",
+      "No motivation": "Brak motywacji",
+      "Not feeling well": "Nie czuję się dobrze",
+      "Lack of time": "Brak czasu",
+      "Emotional overwhelm": "Przytłoczenie emocjonalne"
+    },
+    "helpfulTypes": {
+      "Rest": "Odpoczynek",
+      "Relaxation": "Relaks",
+      "Physical activity": "Aktywność fizyczna",
+      "Talking to someone": "Rozmawianie z kimś",
+      "Quiet time": "Czas ciszy",
+      "Creative activity": "Działalność twórcza"
+    },
+    "moods": {
+      "Happy": "Szczęśliwy",
+      "Calm": "Spokój",
+      "Neutral": "Neutralny",
+      "Low": "Niski",
+      "Stressed": "Akcentowany",
+      "Tired": "Zmęczony"
+    },
+    "positiveStatements": {
+      "0": "Dziś dałeś z siebie wszystko. To potężne. 🌿",
+      "1": "Dbanie o siebie nie jest egoizmem — jest niezbędne. Dobra robota. 💚",
+      "2": "Każdy, nawet mały akt troski, wzmacnia Cię. 🌱",
+      "3": "Zainwestowałeś dziś w siebie. To się liczy. ✨",
+      "4": "Dbanie o siebie to najlepsza rzecz, jaką dziś zrobiłeś. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Wszystko w porządku. Jutro nowy początek. Bądź dla siebie łagodny. 🤍",
+      "1": "Nie każdy dzień będzie idealny i to jest całkowicie w porządku. 🕊️",
+      "2": "Robisz, co możesz. To zawsze wystarczy. 💛",
+      "3": "Odpoczynek to również forma dbania o siebie. Bądź dla siebie wyrozumiały. 🌸",
+      "4": "Przyznanie się do tego dzisiaj wymaga odwagi. Już się rozwijasz. 🌷"
+    }
+  }
+}

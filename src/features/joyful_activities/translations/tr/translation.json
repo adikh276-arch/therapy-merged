@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Hoşlandığınız Aktiviteler",
+    "subtitle": "Neşeli Anları Yeniden Keşfetmek",
+    "p1": "Kendinizi moralsiz, endişeli veya bunalmış hissettiğinizde, size neyin mutluluk getirdiğini hatırlamak zor olabilir.",
+    "p2": "Bu aktivitenin amacı daha çok şey yapmak değil. Amacı, hafif, sakin veya anlamlı hissettiren küçük anları fark etmektir.",
+    "p3": "Mutlu olma baskısı yok. Sadece az da olsa iyi hissettiren şeyleri keşfediyoruz.",
+    "button": "Başlamak"
+  },
+  "recall": {
+    "title": "Bir An Düşünün",
+    "p1": "Yakın ya da uzak bir zamanda, küçük de olsa bir keyif, huzur veya rahatlık hissettiğiniz bir anı hatırlamak için bir an ayırın. Büyük bir şey olmasına gerek yok.",
+    "input1_label": "Sevdiğim (ya da eskiden sevdiğim) bir aktivite şuydu...",
+    "input1_placeholder": "Örneğin parkta yürüyüş yapmak",
+    "input2_label": "Bunu yaptığımda genellikle şöyle hissediyorum...",
+    "input2_placeholder": "örneğin sakin ve mevcut",
+    "button": "Devam etmek"
+  },
+  "meaning": {
+    "title": "Onu anlamlı kılan nedir?",
+    "p1": "Bazen mutluluğun tek kaynağı aktivitenin kendisi değildir. Duygu, ortam veya etrafındaki bağlantı da mutluluk kaynağı olabilir.",
+    "input1_label": "Bunu şu yüzden seviyorum...",
+    "input1_placeholder": "Örneğin, bana özgürlük hissi veriyor.",
+    "input2_label": "Bu aktivite kendimi daha iyi hissetmeme yardımcı oluyor...",
+    "input2_placeholder": "örneğin bağlı ve topraklanmış",
+    "input3_label": "Bana şunu hatırlatıyor...",
+    "input3_placeholder": "örneğin çocukluktaki yaz tatilleri",
+    "button": "Yansımamı Kaydet"
+  },
+  "smallStep": {
+    "title": "Küçük Bir Adım İleri",
+    "p1": "Her şeyi birden değiştirmenize gerek yok.",
+    "p2": "Bu aktiviteyle küçük de olsa yeniden bağlantı kurmak mümkün olur muydu?",
+    "input1_label": "Bu hafta atabileceğim küçük bir adım şu olabilir...",
+    "input1_placeholder": "Örneğin, 10 dakikalık bir yürüyüşe çıkın.",
+    "button_save": "Kaydetmek",
+    "button_home": "Ana sayfaya git"
+  },
+  "affirmation": {
+    "title": "Çok güzel bir adım attınız.",
+    "p1": "En ufak bir şekilde bile olsa, size neşe veren şeylerle yeniden bağlantı kurmak, kendinize karşı bir iyilik eylemidir.",
+    "p2": "Hafiflik ve huzur dolu anları hak ediyorsunuz. Kalbinizi mutlu eden şeyleri beslemeye devam edin. 💛",
+    "button": "Ana sayfaya geri dön"
+  }
+}

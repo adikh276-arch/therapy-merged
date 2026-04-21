@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Các hoạt động bạn yêu thích",
+    "subtitle": "Khám phá lại những khoảnh khắc vui vẻ",
+    "p1": "Khi bạn cảm thấy buồn bã, lo lắng hoặc quá tải, thật khó để nhớ lại những điều mang lại niềm vui cho mình.",
+    "p2": "Hoạt động này không phải là làm nhiều hơn. Mà là để chú ý đến những khoảnh khắc nhỏ bé, nhẹ nhàng, bình yên hoặc đầy ý nghĩa.",
+    "p3": "Không có áp lực nào buộc bạn phải cảm thấy hạnh phúc. Chúng ta chỉ đơn giản là đang khám phá những gì mang lại cảm giác dễ chịu, dù chỉ là một chút.",
+    "button": "Bắt đầu"
+  },
+  "recall": {
+    "title": "Hãy suy nghĩ về điều đó một chút.",
+    "p1": "Hãy dành chút thời gian để nhớ lại một khoảnh khắc nào đó — gần đây hoặc xa xưa — khi bạn cảm thấy dù chỉ là một chút niềm vui, sự bình yên hay thoải mái. Không cần phải là điều gì lớn lao cả.",
+    "input1_label": "Một hoạt động mà tôi thích (hoặc từng thích) là...",
+    "input1_placeholder": "ví dụ: đi dạo trong công viên",
+    "input2_label": "Khi làm điều này, tôi thường cảm thấy...",
+    "input2_placeholder": "ví dụ: bình tĩnh và hiện diện",
+    "button": "Tiếp tục"
+  },
+  "meaning": {
+    "title": "Điều gì làm cho nó có ý nghĩa?",
+    "p1": "Đôi khi chính hoạt động đó không phải là nguồn gốc duy nhất của niềm vui. Niềm vui có thể đến từ cảm xúc, từ môi trường xung quanh, hoặc từ những mối liên hệ.",
+    "input1_label": "Tôi thích điều này vì...",
+    "input1_placeholder": "Ví dụ: nó mang lại cho tôi cảm giác tự do.",
+    "input2_label": "Hoạt động này giúp tôi cảm thấy...",
+    "input2_placeholder": "ví dụ: được kết nối và nối đất",
+    "input3_label": "Nó làm tôi nhớ đến...",
+    "input3_placeholder": "ví dụ: những mùa hè thời thơ ấu",
+    "button": "Lưu lại hình ảnh phản chiếu của tôi"
+  },
+  "smallStep": {
+    "title": "Một bước tiến nhỏ",
+    "p1": "Bạn không cần phải thay đổi mọi thứ cùng một lúc.",
+    "p2": "Liệu có thể kết nối lại với hoạt động này theo một cách nhỏ nào đó không?",
+    "input1_label": "Một bước nhỏ tôi có thể thực hiện trong tuần này là...",
+    "input1_placeholder": "Ví dụ: đi bộ 10 phút",
+    "button_save": "Cứu",
+    "button_home": "Quay về trang chủ"
+  },
+  "affirmation": {
+    "title": "Bạn đã có một bước đi tuyệt vời.",
+    "p1": "Việc kết nối lại với những điều mang lại niềm vui cho bạn — dù chỉ là nhỏ nhất — cũng là một hành động tử tế với chính mình.",
+    "p2": "Bạn xứng đáng có những khoảnh khắc nhẹ nhàng và bình yên. Hãy tiếp tục nuôi dưỡng những điều khiến trái tim bạn tràn đầy hạnh phúc. 💛",
+    "button": "Trở về Trang chủ"
+  }
+}

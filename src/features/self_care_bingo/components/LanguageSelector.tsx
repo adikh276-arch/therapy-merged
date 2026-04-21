@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { Globe } from 'lucide-react';
 import { useSearchParams } from 'react-router-dom';
 

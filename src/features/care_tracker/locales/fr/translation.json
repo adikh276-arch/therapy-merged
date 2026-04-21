@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "Continuer",
+    "back": "Dos",
+    "home": "Retour à l&#39;accueil",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date"
+  },
+  "screens": {
+    "checkin": {
+      "title": "Bilan de bien-être 🌿",
+      "subtitle": "Comment avez-vous pris soin de vous aujourd&#39;hui ?",
+      "question": "Avez-vous pris soin de vous aujourd&#39;hui ?",
+      "description": "Les soins personnels désignent toute activité que nous entreprenons délibérément afin de prendre soin de notre santé mentale, émotionnelle et physique."
+    },
+    "activities": {
+      "title": "Vos activités 🎯",
+      "subtitle": "Quelles activités de bien-être avez-vous pratiquées aujourd&#39;hui ?"
+    },
+    "duration": {
+      "title": "Temps passé ⏱️",
+      "subtitle": "Combien de temps avez-vous consacré aux soins personnels ? (facultatif)"
+    },
+    "noSelfCare": {
+      "title": "C&#39;est parfait 💛",
+      "subtitle": "Essayons de comprendre ce qui s&#39;est passé aujourd&#39;hui.",
+      "question1": "Qu’est-ce qui vous a empêché de prendre soin de vous aujourd’hui ? (facultatif)",
+      "question2": "Quel type de soins personnels aurait été utile ? (facultatif)"
+    },
+    "mood": {
+      "title": "Comment te sens-tu ? 🫧",
+      "subtitle": "Sélectionnez votre humeur actuelle (facultatif)"
+    },
+    "review": {
+      "title": "Votre participation 📋",
+      "subtitle": "Voici un résumé de l&#39;enregistrement d&#39;aujourd&#39;hui",
+      "didSelfCare": "Avez-vous pris soin de vous ?",
+      "activities": "Activités",
+      "duration": "Durée",
+      "mood": "Humeur",
+      "challenges": "Empêcher par",
+      "whatHelps": "Cela aurait été utile",
+      "viewHistory": "Histoire hebdomadaire",
+      "editToday": "Modifier l&#39;entrée",
+      "summary": "Résumé"
+    },
+    "history": {
+      "title": "Histoire de la semaine 📅",
+      "subtitle": "Aucune inscription ces 7 derniers jours"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Oups ! Page introuvable",
+      "returnHome": "Retour à l&#39;accueil"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Exercice",
+      "Meditation": "Méditation",
+      "Journaling": "Journal intime",
+      "Reading": "En lisant",
+      "Rest / Nap": "Repos / Sieste",
+      "Skincare": "Soins de la peau",
+      "Healthy Meal": "Repas sain",
+      "Nature / Walk": "Nature / Promenade",
+      "Social Time": "Temps social",
+      "Hobby": "Passe-temps",
+      "Therapy": "Thérapie",
+      "Digital Detox": "Détox numérique"
+    },
+    "durations": {
+      "< 10 minutes": "&lt; 10 minutes",
+      "10–30 minutes": "10 à 30 minutes",
+      "30–60 minutes": "30 à 60 minutes",
+      "1+ hour": "Plus d&#39;une heure"
+    },
+    "reasons": {
+      "Busy schedule": "Emploi du temps chargé",
+      "Low energy": "Faible énergie",
+      "Stress": "Stresser",
+      "Forgot": "Oublié",
+      "No motivation": "Aucune motivation",
+      "Not feeling well": "Je ne me sens pas bien",
+      "Lack of time": "Manque de temps",
+      "Emotional overwhelm": "Submersion émotionnelle"
+    },
+    "helpfulTypes": {
+      "Rest": "Repos",
+      "Relaxation": "Relaxation",
+      "Physical activity": "activité physique",
+      "Talking to someone": "Parler à quelqu&#39;un",
+      "Quiet time": "Temps calme",
+      "Creative activity": "activité créative"
+    },
+    "moods": {
+      "Happy": "Heureux",
+      "Calm": "Calme",
+      "Neutral": "Neutre",
+      "Low": "Faible",
+      "Stressed": "Stressé",
+      "Tired": "Fatigué"
+    },
+    "positiveStatements": {
+      "0": "Tu as pris soin de toi aujourd&#39;hui. C&#39;est formidable. 🌿",
+      "1": "Prendre soin de soi n&#39;est pas égoïste, c&#39;est essentiel. Bravo ! 💚",
+      "2": "Chaque petit geste d&#39;attention vous rend plus fort. 🌱",
+      "3": "Tu as investi en toi aujourd&#39;hui. C&#39;est important. ✨",
+      "4": "Prendre soin de toi, c&#39;est la meilleure chose que tu aies faite aujourd&#39;hui. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Tout va bien. Demain est un nouveau départ. Sois doux avec toi-même. 🤍",
+      "1": "Tous les jours ne seront pas parfaits, et c&#39;est très bien comme ça. 🕊️",
+      "2": "Tu fais de ton mieux. C&#39;est toujours suffisant. 💛",
+      "3": "Le repos est aussi une forme de bienveillance envers soi-même. Soyez indulgent envers vous-même. 🌸",
+      "4": "Reconnaître le présent demande du courage. Tu es déjà en pleine évolution. 🌷"
+    }
+  }
+}

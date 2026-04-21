@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Aktywności, które lubisz",
+    "subtitle": "Odkrywanie na nowo radosnych chwil",
+    "p1": "Kiedy czujesz się przygnębiony, niespokojny lub przytłoczony, trudno ci przypomnieć sobie, co przynosi ci radość.",
+    "p2": "W tej aktywności nie chodzi o robienie więcej. Chodzi o zauważanie małych chwil, które wydają się lekkie, spokojne lub znaczące.",
+    "p3": "Nie ma presji, by czuć się szczęśliwym. Po prostu badamy, co jest choć trochę przyjemne.",
+    "button": "Zaczynać"
+  },
+  "recall": {
+    "title": "Pomyśl o chwili",
+    "p1": "Poświęć chwilę, aby przypomnieć sobie moment – niedawny lub odległy – kiedy poczułeś choć odrobinę radości, spokoju lub komfortu. Nie musi to być coś wielkiego.",
+    "input1_label": "Jedną z czynności, którą lubię (lub lubiłam) jest...",
+    "input1_placeholder": "np. spacer po parku",
+    "input2_label": "Kiedy to robię, zazwyczaj czuję...",
+    "input2_placeholder": "np. spokojny i obecny",
+    "button": "Kontynuować"
+  },
+  "meaning": {
+    "title": "Co sprawia, że ma to znaczenie?",
+    "p1": "Czasami sama aktywność nie jest jedynym źródłem radości. Może to być uczucie, otoczenie lub relacja wokół niej.",
+    "input1_label": "Podoba mi się to, ponieważ...",
+    "input1_placeholder": "np. daje mi poczucie wolności",
+    "input2_label": "Ta aktywność pomaga mi czuć się bardziej...",
+    "input2_placeholder": "np. połączone i uziemione",
+    "input3_label": "Przypomina mi...",
+    "input3_placeholder": "np. lata spędzone w dzieciństwie",
+    "button": "Zapisz moje odbicie"
+  },
+  "smallStep": {
+    "title": "Mały krok naprzód",
+    "p1": "Nie musisz zmieniać wszystkiego na raz.",
+    "p2": "Czy dałoby się nawiązać na nowo, choć w niewielkim stopniu, kontakt z tą działalnością?",
+    "input1_label": "Jednym małym krokiem, jaki mogę podjąć w tym tygodniu jest...",
+    "input1_placeholder": "np. idź na 10-minutowy spacer",
+    "button_save": "Ratować",
+    "button_home": "Przejdź do strony głównej"
+  },
+  "affirmation": {
+    "title": "Podjąłeś piękny krok",
+    "p1": "Odnowienie kontaktu z tym, co przynosi ci radość — nawet w najmniejszym stopniu — jest aktem dobroci wobec samego siebie.",
+    "p2": "Zasługujesz na chwile lekkości i spokoju. Pielęgnuj to, co napełnia twoje serce. 💛",
+    "button": "Powrót do strony głównej"
+  }
+}

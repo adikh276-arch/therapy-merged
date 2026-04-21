@@ -1,0 +1,21 @@
+{
+  "relax": "Se détendre",
+  "about_technique": "À propos de cette technique",
+  "technique_description": "La respiration carrée utilise un schéma simple en 4-4-4-4 : inspirez, retenez votre souffle, expirez, retenez votre souffle, chaque phase durant quatre secondes. Elle active le système nerveux parasympathique, réduisant le stress et vous ramenant à un état calme et concentré.",
+  "how_to_practice": "Comment s&#39;entraîner",
+  "inhale_4s": "Inspirez pendant 4 secondes",
+  "hold_4s": "Maintenir la pression pendant 4 secondes",
+  "exhale_4s": "Expirez pendant 4 secondes",
+  "repeat_cycle": "Répétez le cycle",
+  "start_breathing": "Commencez à respirer",
+  "breathe_in": "Inspirer",
+  "hold": "Prise",
+  "breathe_out": "Expirer",
+  "feeling_calmer": "Vous vous sentez plus calme",
+  "session_complete_msg": "Bravo pour votre séance de respiration ! Prenez un instant pour ressentir votre corps : plus léger, plus stable, plus détendu.",
+  "start_again": "Recommencer",
+  "back": "Dos",
+  "not_found_404": "404",
+  "page_not_found": "Oups ! Page introuvable",
+  "return_home": "Retour à l&#39;accueil"
+}

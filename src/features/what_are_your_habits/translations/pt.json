@@ -1,0 +1,56 @@
+{
+  "title": "Quais são os seus hábitos?",
+  "intro_description": "Pequenos hábitos diários influenciam o estresse. Vamos explorar os seus com delicadeza.",
+  "start_activity": "Iniciar atividade",
+  "body_title": "🧍‍♀️ Sua rotina diária para o corpo",
+  "body_subtitle": "Qual destas opções parece um pouco estranha ultimamente? (Selecione todas as que se aplicam)",
+  "continue": "Continuar",
+  "body_options": [
+    "Não tenho dormido bem.",
+    "Meus horários de sono são irregulares.",
+    "Às vezes, eu pulo refeições.",
+    "Quando estou estressada, como mais do que o normal.",
+    "Não tenho me movimentado nem feito muito exercício ultimamente.",
+    "Não tenho saído muito de casa.",
+    "Minha rotina de cuidados pessoais mudou.",
+    "Minha rotina diária parece estável."
+  ],
+  "mind_title": "🧠 Seus padrões de pensamento",
+  "mind_options": [
+    "Eu fico pensando demais nas coisas.",
+    "Costumo imaginar o pior cenário possível.",
+    "Sou muito exigente comigo mesma.",
+    "Sinto-me culpado por coisas que fiz ou deixei de fazer.",
+    "Estou constantemente preocupado(a).",
+    "Tenho dificuldade em relaxar.",
+    "Meus pensamentos parecem administráveis."
+  ],
+  "coping_title": "🌊 Como você reage ao estresse",
+  "coping_options": [
+    "Evito tarefas quando estou estressado.",
+    "Eu uso muito o celular para me distrair.",
+    "Eu passo um tempo sozinha para lidar com isso.",
+    "Quando estou estressado, me dedico totalmente ao trabalho. Quando estou estressado, eu me entrego de corpo e alma ao trabalho.",
+    "Eu converso com alguém sobre como me sinto.",
+    "Faço exercícios de respiração para me acalmar.",
+    "Eu assisto TV ou jogo videogame para me distrair.",
+    "Não sei bem como reajo ao estresse."
+  ],
+  "reflection_title": "✍️ Reflexão",
+  "question_stress": "Que hábito aumenta seu estresse mais tarde?",
+  "question_calm": "Que hábito poderia te ajudar a se sentir mais calmo?",
+  "see_insight": "Veja minha análise",
+  "insight_title": "Ações sugeridas",
+  "insight_description": "Toque abaixo para ver hábitos simples que podem ajudar a reduzir o estresse.",
+  "show_suggestions": "Mostrar sugestões",
+  "commit": "Comprometer-se",
+  "suggestions": [
+    "Tente ir para a cama um pouco mais cedo hoje à noite.",
+    "Saia para tomar um ar fresco hoje.",
+    "Dê um tempo para parar de rolar a tela.",
+    "Fale consigo mesmo com gentileza.",
+    "Termine aquela tarefa que você vem adiando."
+  ],
+  "final_text": "Pequenas mudanças importam. A consistência gera calma.",
+  "finish": "Terminar"
+}

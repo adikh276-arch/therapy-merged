@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Respire fundo 🌿",
+    "title": "Controle seu estresse",
+    "description": "Hábitos diários simples para ajudar você a se sentir mais calmo e no controle.",
+    "sectionTitle": "Dicas diárias para aliviar o estresse"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Tenha um sono reparador.",
+      "description": "Procure dormir de 7 a 9 horas por noite. Tente dormir e acordar sempre no mesmo horário.",
+      "why": "Dormir bem ajuda o cérebro e o corpo a se recuperarem e reduz os hormônios do estresse.",
+      "do": [
+        "Mantenha um horário de sono regular.",
+        "Evite telas 1 hora antes de dormir.",
+        "Mantenha o quarto fresco e escuro.",
+        "Evite cafeína após as 16h."
+      ],
+      "button": "Configurar lembrete para dormir"
+    },
+    "breathing": {
+      "title": "Pratique a respiração profunda.",
+      "description": "Dedique alguns minutos a concentrar-se na sua respiração. A respiração lenta reduz a ansiedade.",
+      "why": "A respiração lenta ativa a resposta de relaxamento do seu corpo.",
+      "do": [
+        "Inspire durante 4 segundos.",
+        "Mantenha pressionado por 4 segundos.",
+        "Expire durante 4 segundos.",
+        "Repita por 1 minuto"
+      ]
+    },
+    "exercise": {
+      "title": "Mexa o seu corpo",
+      "description": "Caminhadas leves ou alongamentos ajudam a aliviar o estresse e a melhorar o humor.",
+      "why": "O exercício físico libera endorfinas e melhora o humor.",
+      "do": [
+        "Caminhada de 15 minutos",
+        "Alongamento leve",
+        "Sessão curta de ioga",
+        "Treino rápido em casa"
+      ]
+    },
+    "caffeine": {
+      "title": "Limite o consumo de cafeína e açúcar.",
+      "description": "O consumo excessivo de cafeína e açúcar pode aumentar a ansiedade e perturbar o sono.",
+      "why": "O consumo excessivo de cafeína e açúcar aumenta a ansiedade e os problemas de sono.",
+      "do": [
+        "Substitua um café por chá de ervas.",
+        "Beba mais água.",
+        "Reduza o consumo de doces",
+        "Evite cafeína no final do dia."
+      ]
+    },
+    "planning": {
+      "title": "Planeje o seu dia",
+      "description": "Divida tarefas grandes em etapas menores para evitar se sentir sobrecarregado.",
+      "why": "O planejamento reduz a confusão mental e a sobrecarga.",
+      "do": [
+        "Escreva 3 tarefas principais",
+        "Divida as tarefas em pequenas etapas.",
+        "Concentre-se em uma tarefa de cada vez.",
+        "Faça pausas curtas"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Voltar",
+    "notFound": "Dica não encontrada.",
+    "whyTitle": "Por que isso ajuda",
+    "doTitle": "O que você pode fazer",
+    "reminderSet": "Lembrete configurado! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ops! Página não encontrada",
+    "return": "Voltar para a página inicial"
+  },
+  "mood": {
+    "title": "Como você está se sentindo hoje?",
+    "great": "Ótimo",
+    "okay": "OK",
+    "stressed": "Estressado",
+    "overwhelmed": "Sobrecarregado"
+  },
+  "breathing": {
+    "inhale": "Inalar…",
+    "hold": "Segurar…",
+    "exhale": "Expire…",
+    "pause": "Pausa",
+    "resume": "Retomar"
+  }
+}

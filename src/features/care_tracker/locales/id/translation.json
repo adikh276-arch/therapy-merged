@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "Melanjutkan",
+    "back": "Kembali",
+    "home": "Kembali ke Beranda",
+    "yes": "Ya",
+    "no": "TIDAK",
+    "date": "Tanggal"
+  },
+  "screens": {
+    "checkin": {
+      "title": "Sesi Pengecekan Diri untuk Perawatan Diri 🌿",
+      "subtitle": "Bagaimana kamu merawat dirimu sendiri hari ini?",
+      "question": "Apakah kamu sudah melakukan perawatan diri hari ini? *",
+      "description": "Perawatan diri adalah setiap aktivitas yang kita lakukan secara sengaja untuk menjaga kesehatan mental, emosional, dan fisik kita."
+    },
+    "activities": {
+      "title": "Aktivitas Anda 🎯",
+      "subtitle": "Aktivitas perawatan diri apa yang kamu lakukan hari ini?"
+    },
+    "duration": {
+      "title": "Waktu yang Dihabiskan ⏱️",
+      "subtitle": "Berapa lama waktu yang Anda habiskan untuk perawatan diri? (opsional)"
+    },
+    "noSelfCare": {
+      "title": "Tidak apa-apa 💛",
+      "subtitle": "Mari kita pahami apa yang terjadi hari ini.",
+      "question1": "Apa yang menghalangi Anda untuk melakukan perawatan diri hari ini? (opsional)",
+      "question2": "Jenis perawatan diri apa yang akan membantu? (opsional)"
+    },
+    "mood": {
+      "title": "Apa kabar? 🫧",
+      "subtitle": "Pilih suasana hati Anda saat ini (opsional)"
+    },
+    "review": {
+      "title": "Entri Anda 📋",
+      "subtitle": "Berikut ringkasan dari sesi check-in hari ini.",
+      "didSelfCare": "Apakah Anda sudah melakukan perawatan diri?",
+      "activities": "Aktivitas",
+      "duration": "Lamanya",
+      "mood": "Suasana hati",
+      "challenges": "Dicegah oleh",
+      "whatHelps": "Akan sangat membantu",
+      "viewHistory": "Sejarah Mingguan",
+      "editToday": "Edit Entri",
+      "summary": "Ringkasan"
+    },
+    "history": {
+      "title": "Sejarah Mingguan 📅",
+      "subtitle": "Tidak ada entri dalam 7 hari terakhir"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Ups! Halaman tidak ditemukan",
+      "returnHome": "Kembali ke Halaman Utama"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Latihan",
+      "Meditation": "Meditasi",
+      "Journaling": "Menulis jurnal",
+      "Reading": "Membaca",
+      "Rest / Nap": "Istirahat / Tidur Siang",
+      "Skincare": "Perawatan kulit",
+      "Healthy Meal": "Makanan Sehat",
+      "Nature / Walk": "Alam / Jalan-jalan",
+      "Social Time": "Waktu Bersosialisasi",
+      "Hobby": "Hobi",
+      "Therapy": "Terapi",
+      "Digital Detox": "Detoks Digital"
+    },
+    "durations": {
+      "< 10 minutes": "&lt; 10 menit",
+      "10–30 minutes": "10–30 menit",
+      "30–60 minutes": "30–60 menit",
+      "1+ hour": "1+ jam"
+    },
+    "reasons": {
+      "Busy schedule": "Jadwal padat",
+      "Low energy": "Energi rendah",
+      "Stress": "Menekankan",
+      "Forgot": "Lupa",
+      "No motivation": "Tidak ada motivasi",
+      "Not feeling well": "Merasa tidak enak badan",
+      "Lack of time": "Kurangnya waktu",
+      "Emotional overwhelm": "Luapan emosi"
+    },
+    "helpfulTypes": {
+      "Rest": "Istirahat",
+      "Relaxation": "Relaksasi",
+      "Physical activity": "Aktivitas fisik",
+      "Talking to someone": "Berbicara dengan seseorang",
+      "Quiet time": "Saat teduh",
+      "Creative activity": "Aktivitas kreatif"
+    },
+    "moods": {
+      "Happy": "Senang",
+      "Calm": "Tenang",
+      "Neutral": "Netral",
+      "Low": "Rendah",
+      "Stressed": "Stres",
+      "Tired": "Lelah"
+    },
+    "positiveStatements": {
+      "0": "Kamu telah hadir untuk dirimu sendiri hari ini. Itu sangat luar biasa. 🌿",
+      "1": "Merawat diri sendiri bukanlah tindakan egois — melainkan suatu kebutuhan. Bagus sekali. 💚",
+      "2": "Setiap tindakan kecil kepedulian akan membangun dirimu yang lebih kuat. 🌱",
+      "3": "Kamu telah berinvestasi pada dirimu sendiri hari ini. Itu penting. ✨",
+      "4": "Merawat diri sendiri adalah hal terbaik yang kamu lakukan hari ini. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Tidak apa-apa. Besok adalah awal yang baru. Bersikaplah lembut pada diri sendiri. 🤍",
+      "1": "Tidak setiap hari akan sempurna, dan itu tidak apa-apa. 🕊️",
+      "2": "Kamu sudah melakukan yang terbaik. Itu selalu cukup. 💛",
+      "3": "Istirahat juga merupakan bentuk perawatan diri. Beri diri Anda kelonggaran. 🌸",
+      "4": "Menyadari apa yang terjadi hari ini membutuhkan keberanian. Kamu sudah tumbuh. 🌷"
+    }
+  }
+}

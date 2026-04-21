@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "Continuar",
+    "back": "Voltar",
+    "home": "Voltar para a página inicial",
+    "yes": "Sim",
+    "no": "Não",
+    "date": "Data"
+  },
+  "screens": {
+    "checkin": {
+      "title": "Check-in de autocuidado 🌿",
+      "subtitle": "Como você cuidou de si mesmo(a) hoje?",
+      "question": "Você praticou autocuidado hoje?",
+      "description": "O autocuidado é qualquer atividade que realizamos deliberadamente para cuidar da nossa saúde mental, emocional e física."
+    },
+    "activities": {
+      "title": "Suas atividades 🎯",
+      "subtitle": "Quais atividades de autocuidado você realizou hoje?"
+    },
+    "duration": {
+      "title": "Tempo gasto ⏱️",
+      "subtitle": "Quanto tempo você dedicou ao autocuidado? (opcional)"
+    },
+    "noSelfCare": {
+      "title": "Tudo bem 💛",
+      "subtitle": "Vamos entender o que aconteceu hoje.",
+      "question1": "O que impediu o autocuidado hoje? (opcional)",
+      "question2": "Que tipo de autocuidado teria ajudado? (opcional)"
+    },
+    "mood": {
+      "title": "Como você está se sentindo? 🫧",
+      "subtitle": "Selecione seu humor atual (opcional)"
+    },
+    "review": {
+      "title": "Sua inscrição 📋",
+      "subtitle": "Aqui está um resumo do check-in de hoje.",
+      "didSelfCare": "Praticou autocuidado?",
+      "activities": "Atividades",
+      "duration": "Duração",
+      "mood": "Humor",
+      "challenges": "Impedido por",
+      "whatHelps": "Teria ajudado",
+      "viewHistory": "História Semanal",
+      "editToday": "Editar entrada",
+      "summary": "Resumo"
+    },
+    "history": {
+      "title": "História da Semana 📅",
+      "subtitle": "Nenhuma entrada nos últimos 7 dias."
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "Ops! Página não encontrada",
+      "returnHome": "Voltar para a página inicial"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Exercício",
+      "Meditation": "Meditação",
+      "Journaling": "Diário",
+      "Reading": "Leitura",
+      "Rest / Nap": "Descanso/Soneca",
+      "Skincare": "Cuidados com a pele",
+      "Healthy Meal": "Refeição saudável",
+      "Nature / Walk": "Natureza / Caminhada",
+      "Social Time": "Hora social",
+      "Hobby": "Passatempo",
+      "Therapy": "Terapia",
+      "Digital Detox": "Desintoxicação Digital"
+    },
+    "durations": {
+      "< 10 minutes": "&lt; 10 minutos",
+      "10–30 minutes": "10 a 30 minutos",
+      "30–60 minutes": "30 a 60 minutos",
+      "1+ hour": "1 hora ou mais"
+    },
+    "reasons": {
+      "Busy schedule": "Agenda lotada",
+      "Low energy": "Baixa energia",
+      "Stress": "Estresse",
+      "Forgot": "Esquecido",
+      "No motivation": "Sem motivação",
+      "Not feeling well": "Não me sinto bem",
+      "Lack of time": "Falta de tempo",
+      "Emotional overwhelm": "Sobrecarga emocional"
+    },
+    "helpfulTypes": {
+      "Rest": "Descansar",
+      "Relaxation": "Relaxamento",
+      "Physical activity": "Atividade física",
+      "Talking to someone": "Conversar com alguém",
+      "Quiet time": "Momento de tranquilidade",
+      "Creative activity": "Atividade criativa"
+    },
+    "moods": {
+      "Happy": "Feliz",
+      "Calm": "Calma",
+      "Neutral": "Neutro",
+      "Low": "Baixo",
+      "Stressed": "Estressado",
+      "Tired": "Cansado"
+    },
+    "positiveStatements": {
+      "0": "Você priorizou a si mesma hoje. Isso é poderoso. 🌿",
+      "1": "Cuidar de si não é egoísmo — é essencial. Parabéns! 💚",
+      "2": "Cada pequeno gesto de carinho te fortalece. 🌱",
+      "3": "Você investiu em si mesmo(a) hoje. Isso importa. ✨",
+      "4": "Cuidar de você foi a melhor coisa que você fez hoje. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Está tudo bem. Amanhã é um novo começo. Seja gentil consigo mesmo(a). 🤍",
+      "1": "Nem todos os dias serão perfeitos, e isso é perfeitamente normal. 🕊️",
+      "2": "Você está fazendo o seu melhor. Isso sempre basta. 💛",
+      "3": "Descansar também é uma forma de autocuidado. Seja gentil consigo mesmo(a). 🌸",
+      "4": "Reconhecer o presente exige coragem. Você já está crescendo. 🌷"
+    }
+  }
+}

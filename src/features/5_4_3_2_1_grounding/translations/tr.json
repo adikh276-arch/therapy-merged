@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "body": "Birlikte kısa bir ara verelim.\n\nÖnümüzdeki bir dakika boyunca çözmeniz, düzeltmeniz veya yanıt vermeniz gereken hiçbir şey yok. Sadece yavaşlamanıza izin verin.\n\nRahatça oturun, mümkünse ayaklarınızı yere koyun ve yavaşça nefes alın… ve yavaşça nefes verin.\n\nBu, kendinizi sıfırlamak ve şimdiki anla yeniden bağlantı kurmak için bir fırsat.",
+      "button": "Başlamak"
+    },
+    {
+      "heading": "Görebileceğiniz 5 Şey",
+      "body": "Yavaşça etrafınıza bakın. Gözlerinizin mekân üzerinde nazikçe gezinmesine izin verin. Daha önce dikkat etmemiş olabileceğiniz renkleri, şekilleri, ışığı, gölgeleri veya küçük ayrıntıları fark edin.",
+      "button": "Sonraki"
+    },
+    {
+      "heading": "Hissedebileceğiniz 4 Şey",
+      "body": "Dikkatinizi bedeninize yönlendirin. Ayaklarınızın yere değdiğini, sırtınızın sandalyeye yaslandığını, kıyafetlerinizin teninize değdiğini veya etrafınızdaki havayı hissedin. Dört fiziksel duyumu fark edin.",
+      "button": "Sonraki"
+    },
+    {
+      "heading": "Duyabileceğiniz 3 Şey",
+      "body": "Dikkatlice dinleyin. Uzaktan gelen sesler, vantilatör sesi, klavye sesi, nefes alma sesi veya hatta sessizlik duyabilirsiniz. Bu seslerden üçünü yargılamadan tanımlayın.",
+      "button": "Sonraki"
+    },
+    {
+      "heading": "Koklayabileceğiniz 2 Şey",
+      "body": "Odanın içinde herhangi bir koku olup olmadığını kontrol edin. Eğer belirgin bir koku yoksa, çevrenizdeki havanın nötr kokusuna dikkat edin.",
+      "button": "Sonraki"
+    },
+    {
+      "heading": "Tadabileceğiniz 1 Şey",
+      "body": "Ağzınızdaki tada dikkat edin. Hafif veya nötr olabilir; sadece gözlemleyin.",
+      "button": "Sonraki"
+    },
+    {
+      "heading": "Refleks",
+      "body": "Yavaşça bir nefes alın… ve yavaşça nefes verin.",
+      "button": "Göndermek"
+    }
+  ],
+  "common": {
+    "thank_you": "Teşekkür ederim",
+    "you_feel": "Şöyle hissediyorsunuz:",
+    "completion_message": "Topraklama egzersizini tamamladınız. Gününüze devam ederken bu farkındalık duygusunu yanınızda taşıyın.",
+    "start_again": "Yeniden Başla",
+    "reflection_question": "Tek kelimeyle, şu anda nasıl hissediyorsunuz?",
+    "reflection_placeholder": "Örneğin, sakin, rahatlamış, dengeli…"
+  }
+}

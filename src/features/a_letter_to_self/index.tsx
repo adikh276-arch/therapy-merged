@@ -1,3 +1,4 @@
+import React from 'react';
 import { Toaster } from "./components/ui/toaster";
 import { Toaster as Sonner } from "./components/ui/sonner";
 import { TooltipProvider } from "./components/ui/tooltip";
@@ -17,15 +18,11 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <>
-    <>
       <LanguageSelector />
       <Toaster />
       <Sonner />
-      <>
-        
+      <React.Fragment>
+        <AuthGuard>
           <Routes>
             <Route path="/" element={<IntroScreen />} />
             <Route path="/write" element={<WritingScreen />} />
@@ -34,11 +31,10 @@ const App = () => (
             <Route path="/letters" element={<PastLetters />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        
-      </>
-    </>
-  </>
+        </AuthGuard>
+      </React.Fragment>
     </TooltipProvider>
-  </QueryClientProvider>);
+  </QueryClientProvider>
+);
 
 export default App;

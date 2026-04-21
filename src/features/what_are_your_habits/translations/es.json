@@ -1,0 +1,56 @@
+{
+  "title": "¿Cuales son tus hábitos?",
+  "intro_description": "Los pequeños hábitos diarios influyen en el estrés. Exploremos los tuyos con delicadeza.",
+  "start_activity": "Iniciar actividad",
+  "body_title": "🧍‍♀️ Tu rutina corporal diaria",
+  "body_subtitle": "¿Cuál de estas situaciones te ha parecido un poco extraña últimamente? (Selecciona las que correspondan)",
+  "continue": "Continuar",
+  "body_options": [
+    "No he estado durmiendo bien",
+    "Mi horario de sueño es irregular",
+    "A veces me salto las comidas",
+    "Como más de lo habitual cuando estoy estresado",
+    "No me he estado moviendo ni haciendo mucho ejercicio.",
+    "No he salido mucho",
+    "Mi rutina de cuidado personal ha cambiado",
+    "Mi rutina diaria se siente estable"
+  ],
+  "mind_title": "🧠 Tus patrones de pensamiento",
+  "mind_options": [
+    "Sigo pensando demasiado en las cosas",
+    "A menudo imagino el peor escenario posible.",
+    "Soy duro conmigo mismo",
+    "Me siento culpable por cosas que he hecho o no he hecho.",
+    "Estoy constantemente preocupado",
+    "Me resulta difícil relajarme",
+    "Mis pensamientos se sienten manejables"
+  ],
+  "coping_title": "🌊 Cómo respondes al estrés",
+  "coping_options": [
+    "Evito tareas cuando estoy estresado",
+    "Me desplazo mucho en mi teléfono para distraerme.",
+    "Paso tiempo solo para sobrellevarlo",
+    "Me lanzo al trabajo cuando estoy estresado",
+    "Hablo con alguien sobre cómo me siento.",
+    "Hago ejercicios de respiración para calmarme.",
+    "Miro televisión o juego para distraerme.",
+    "No estoy seguro de cómo respondo al estrés."
+  ],
+  "reflection_title": "✍️ Reflexión",
+  "question_stress": "¿Qué hábito aumenta tu estrés más adelante?",
+  "question_calm": "¿Qué hábito podría ayudarte a sentirte más tranquilo?",
+  "see_insight": "Vea mi visión",
+  "insight_title": "Acciones sugeridas",
+  "insight_description": "Haga clic a continuación para ver hábitos simples que pueden ayudar a reducir el estrés.",
+  "show_suggestions": "Mostrar sugerencias",
+  "commit": "Comprometerse",
+  "suggestions": [
+    "Intenta acostarte un poco más temprano esta noche.",
+    "Salga hoy a tomar aire fresco.",
+    "Tómate un descanso de desplazarte por un rato",
+    "Háblate amablemente a ti mismo",
+    "Termina una tarea que has estado posponiendo"
+  ],
+  "final_text": "Los pequeños cambios importan. La constancia crea calma.",
+  "finish": "Finalizar"
+}

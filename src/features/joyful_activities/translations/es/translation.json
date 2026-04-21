@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Actividades que disfrutas",
+    "subtitle": "Redescubriendo momentos alegres",
+    "p1": "Cuando te sientes deprimido, ansioso o abrumado, puede ser difícil recordar qué te brinda alegría.",
+    "p2": "Esta actividad no se trata de hacer más. Se trata de percibir pequeños momentos que se sienten ligeros, tranquilos o significativos.",
+    "p3": "No hay presión para ser feliz. Simplemente exploramos lo que nos hace sentir, aunque sea un poco, bien.",
+    "button": "Comenzar"
+  },
+  "recall": {
+    "title": "Piensa en un momento",
+    "p1": "Tómate un momento para recordar un momento, reciente o lejano, en el que sentiste, aunque sea un poco, de alegría, paz o consuelo. No tiene que ser algo grande.",
+    "input1_label": "Una actividad que disfruto (o solía disfrutar) es...",
+    "input1_placeholder": "p. ej. caminar en el parque",
+    "input2_label": "Cuando hago esto, normalmente siento...",
+    "input2_placeholder": "p. ej. tranquilo y presente",
+    "button": "Continuar"
+  },
+  "meaning": {
+    "title": "¿Qué lo hace significativo?",
+    "p1": "A veces, la actividad en sí no es la única fuente de alegría. Puede ser la sensación, el entorno o la conexión que la rodea.",
+    "input1_label": "Disfruto esto porque...",
+    "input1_placeholder": "Por ejemplo, me da una sensación de libertad.",
+    "input2_label": "Esta actividad me ayuda a sentirme más...",
+    "input2_placeholder": "p. ej. conectado y puesto a tierra",
+    "input3_label": "Me recuerda a...",
+    "input3_placeholder": "Por ejemplo, los veranos cuando era niño.",
+    "button": "Guarda mi reflejo"
+  },
+  "smallStep": {
+    "title": "Un pequeño paso adelante",
+    "p1": "No es necesario cambiar todo a la vez.",
+    "p2": "¿Sería posible reconectarse con esta actividad de alguna manera?",
+    "input1_label": "Un pequeño paso que podría dar esta semana es...",
+    "input1_placeholder": "p. ej. dar un paseo de 10 minutos",
+    "button_save": "Ahorrar",
+    "button_home": "Ir a Inicio"
+  },
+  "affirmation": {
+    "title": "Diste un hermoso paso",
+    "p1": "Reconectarte con lo que te trae alegría, incluso en la forma más pequeña, es un acto de bondad hacia ti mismo.",
+    "p2": "Mereces momentos de ligereza y paz. Sigue alimentando lo que te llena el corazón. 💛",
+    "button": "Volver a Inicio"
+  }
+}

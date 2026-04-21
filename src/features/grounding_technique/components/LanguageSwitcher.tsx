@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Globe } from "lucide-react";
-import { languages } from "@/data/languages";
+import { languages } from "../data/languages";
 
 interface LanguageSwitcherProps {
   currentLang: string;

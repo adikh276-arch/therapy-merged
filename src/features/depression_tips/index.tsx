@@ -1,3 +1,4 @@
+import React from 'react';
 import { Suspense } from "react";
 import { Toaster } from "./components/ui/toaster";
 import { Toaster as Sonner } from "./components/ui/sonner";
@@ -11,26 +12,21 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <Suspense fallback={<div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", fontSize: "14px", color: "#888" }}>Loading…</div>}>
-    <>
-      <>
+  <Suspense fallback={<div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", fontSize: "14px", color: "#888" }}>Loading…</div>}>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
         <Toaster />
         <Sonner />
-        <>
+        <React.Fragment>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/tip/:id" element={<TipDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </>
-      </>
-    </>
+        </React.Fragment>
+      </TooltipProvider>
+    </QueryClientProvider>
   </Suspense>
-    </TooltipProvider>
-  </QueryClientProvider>);
+);
 
 export default App;

@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Aktivitas yang Anda Nikmati",
+    "subtitle": "Menemukan Kembali Momen-Momen Penuh Kebahagiaan",
+    "p1": "Saat Anda merasa sedih, cemas, atau kewalahan, mungkin sulit untuk mengingat apa yang memberi Anda kegembiraan.",
+    "p2": "Aktivitas ini bukan tentang melakukan lebih banyak hal. Ini tentang memperhatikan momen-momen kecil yang terasa ringan, tenang, atau bermakna.",
+    "p3": "Tidak ada tekanan untuk merasa bahagia. Kita hanya mengeksplorasi apa yang terasa sedikit menyenangkan.",
+    "button": "Mulai"
+  },
+  "recall": {
+    "title": "Renungkan Sejenak",
+    "p1": "Luangkan waktu sejenak untuk mengingat suatu waktu — baru-baru ini atau sudah lama — ketika Anda merasakan sedikit saja rasa senang, kedamaian, atau kenyamanan. Tidak harus sesuatu yang besar.",
+    "input1_label": "Salah satu aktivitas yang saya sukai (atau pernah saya sukai) adalah...",
+    "input1_placeholder": "misalnya berjalan-jalan di taman",
+    "input2_label": "Saat saya melakukan ini, saya biasanya merasa...",
+    "input2_placeholder": "misalnya tenang dan hadir",
+    "button": "Melanjutkan"
+  },
+  "meaning": {
+    "title": "Apa yang Membuatnya Bermakna?",
+    "p1": "Terkadang, aktivitas itu sendiri bukanlah satu-satunya sumber kegembiraan. Bisa jadi perasaan, lingkungan, atau hubungan di sekitarnya.",
+    "input1_label": "Saya menyukai ini karena...",
+    "input1_placeholder": "misalnya, hal itu memberi saya rasa kebebasan",
+    "input2_label": "Aktivitas ini membantu saya merasa lebih...",
+    "input2_placeholder": "misalnya terhubung dan diarde",
+    "input3_label": "Ini mengingatkan saya pada...",
+    "input3_placeholder": "misalnya, liburan musim panas saat masih kecil",
+    "button": "Simpan Refleksi Saya"
+  },
+  "smallStep": {
+    "title": "Sebuah Langkah Kecil ke Depan",
+    "p1": "Anda tidak perlu mengubah semuanya sekaligus.",
+    "p2": "Apakah mungkin untuk kembali terlibat dalam aktivitas ini meskipun dalam skala kecil?",
+    "input1_label": "Satu langkah kecil yang bisa saya ambil minggu ini adalah...",
+    "input1_placeholder": "Contoh: berjalan kaki selama 10 menit",
+    "button_save": "Menyimpan",
+    "button_home": "Kembali ke Beranda"
+  },
+  "affirmation": {
+    "title": "Kamu telah mengambil langkah yang indah.",
+    "p1": "Menghubungkan kembali diri dengan hal-hal yang memberi Anda kegembiraan — bahkan dalam cara terkecil sekalipun — adalah tindakan kebaikan terhadap diri sendiri.",
+    "p2": "Kamu pantas mendapatkan momen-momen ringan dan damai. Teruslah memelihara apa yang membuat hatimu merasa bahagia. 💛",
+    "button": "Kembali ke Beranda"
+  }
+}

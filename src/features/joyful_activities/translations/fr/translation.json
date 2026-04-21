@@ -1,0 +1,45 @@
+{
+  "intro": {
+    "title": "Activités que vous appréciez",
+    "subtitle": "Redécouvrir les moments de joie",
+    "p1": "Lorsque vous vous sentez déprimé, anxieux ou submergé, il peut être difficile de se rappeler ce qui vous apporte de la joie.",
+    "p2": "Cette activité ne consiste pas à en faire plus. Il s'agit de remarquer les petits moments qui procurent une sensation de légèreté, de calme ou de sens.",
+    "p3": "Il n'y a aucune obligation d'être heureux. Nous explorons simplement ce qui nous procure même un léger bien-être.",
+    "button": "Commencer"
+  },
+  "recall": {
+    "title": "Pensez à un moment",
+    "p1": "Prenez un instant pour vous remémorer un moment – récent ou lointain – où vous avez ressenti, même légèrement, un sentiment de plaisir, de paix ou de réconfort. Il n'est pas nécessaire que ce soit un moment important.",
+    "input1_label": "Une activité que j'apprécie (ou que j'appréciais) est...",
+    "input1_placeholder": "par exemple, se promener dans le parc",
+    "input2_label": "Quand je fais ça, j'ai généralement l'impression que...",
+    "input2_placeholder": "par exemple, calme et présent",
+    "button": "Continuer"
+  },
+  "meaning": {
+    "title": "Qu'est-ce qui lui donne du sens ?",
+    "p1": "Parfois, l'activité elle-même n'est pas la seule source de joie. Il peut s'agir du sentiment qu'elle procure, de l'environnement ou des liens qu'elle crée.",
+    "input1_label": "J'apprécie cela parce que...",
+    "input1_placeholder": "Par exemple, cela me donne un sentiment de liberté.",
+    "input2_label": "Cette activité m'aide à me sentir plus...",
+    "input2_placeholder": "par exemple, connecté et mis à la terre",
+    "input3_label": "Cela me rappelle...",
+    "input3_placeholder": "par exemple, les étés de l'enfance",
+    "button": "Sauvegarder mon reflet"
+  },
+  "smallStep": {
+    "title": "Un petit pas en avant",
+    "p1": "Vous n'avez pas besoin de tout changer d'un coup.",
+    "p2": "Serait-il possible de renouer avec cette activité, même modestement ?",
+    "input1_label": "Un petit pas que je pourrais faire cette semaine, c'est...",
+    "input1_placeholder": "par exemple, faire une promenade de 10 minutes",
+    "button_save": "Sauvegarder",
+    "button_home": "Retour à l'accueil"
+  },
+  "affirmation": {
+    "title": "Tu as fait un beau pas",
+    "p1": "Se reconnecter à ce qui vous apporte de la joie — même de la plus petite des manières — est un acte de bienveillance envers soi-même.",
+    "p2": "Tu mérites des moments de légèreté et de paix. Continue de nourrir ce qui te remplit le cœur. 💛",
+    "button": "Retour à l'accueil"
+  }
+}

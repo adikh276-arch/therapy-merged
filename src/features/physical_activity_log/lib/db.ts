@@ -9,10 +9,9 @@ if (!connectionString) {
     console.error('✘ DATABASE_URL ERROR: The connection string is missing! Since this is a production build, you MUST add DATABASE_URL as a secret in your GitHub repository before building the Docker image.');
 }
 
-export const pool = connectionString ? new Pool({
+export const pool = new Pool({
     connectionString: connectionString,
-}) : null;
-
+});
 
 neonConfig.wsProxy = (host) => {
     // Correctly extract the host if we have a valid Neon connection string, avoid localhost defaults
@@ -58,7 +57,6 @@ export async function initDatabase() {
   `;
 
     try {
-        if (!pool) return;
         await pool.query(schema);
         console.log('✔ Database schema initialized successfully');
 

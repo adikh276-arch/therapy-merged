@@ -1,3 +1,4 @@
+import React from 'react';
 import { Toaster } from "./components/ui/toaster";
 import { Toaster as Sonner } from "./components/ui/sonner";
 import { TooltipProvider } from "./components/ui/tooltip";
@@ -16,22 +17,17 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <>
-    <>
-      <Toaster />
-      <Sonner />
       <LanguageSwitcher />
-      <>
+      <React.Fragment>
         <Routes>
           <Route path="/" element={<IntroScreen />} />
           <Route path="/breathe" element={<ActiveBreathing />} />
           <Route path="/complete" element={<CompletionScreen />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
-  </>
+      </React.Fragment>
     </TooltipProvider>
-  </QueryClientProvider>);
+  </QueryClientProvider>
+);
 
 export default App;

@@ -1,0 +1,92 @@
+{
+  "index": {
+    "tagline": "Tarik napas dalam-dalam 🌿",
+    "title": "Kelola Stres Anda",
+    "description": "Kebiasaan sederhana sehari-hari untuk membantu Anda merasa lebih tenang dan lebih terkendali.",
+    "sectionTitle": "Tips Meredakan Stres Sehari-hari"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Dapatkan Tidur Nyenyak",
+      "description": "Usahakan tidur 7-9 jam setiap malam. Usahakan untuk tidur dan bangun pada waktu yang sama setiap hari.",
+      "why": "Tidur membantu otak dan tubuh Anda pulih serta menurunkan hormon stres.",
+      "do": [
+        "Tetapkan jadwal tidur yang tetap.",
+        "Hindari penggunaan layar 1 jam sebelum tidur.",
+        "Jaga agar ruangan tetap sejuk dan gelap.",
+        "Hindari kafein setelah pukul 4 sore."
+      ],
+      "button": "Atur Pengingat Tidur"
+    },
+    "breathing": {
+      "title": "Latihan Pernapasan Dalam",
+      "description": "Luangkan beberapa menit untuk fokus pada pernapasan Anda. Pernapasan yang lambat mengurangi kecemasan.",
+      "why": "Bernapas perlahan mengaktifkan respons relaksasi tubuh Anda.",
+      "do": [
+        "Tarik napas selama 4 detik",
+        "Tahan selama 4 detik",
+        "Hembuskan napas selama 4 detik",
+        "Ulangi selama 1 menit"
+      ]
+    },
+    "exercise": {
+      "title": "Gerakkan Tubuhmu",
+      "description": "Jalan kaki ringan atau peregangan membantu mengurangi stres dan memperbaiki suasana hati.",
+      "why": "Olahraga melepaskan endorfin dan memperbaiki suasana hati.",
+      "do": [
+        "Berjalan kaki 15 menit",
+        "Peregangan ringan",
+        "Sesi yoga singkat",
+        "Latihan rumahan singkat"
+      ]
+    },
+    "caffeine": {
+      "title": "Batasi Kafein & Gula",
+      "description": "Terlalu banyak kafein dan gula dapat meningkatkan kecemasan dan mengganggu tidur.",
+      "why": "Terlalu banyak kafein dan gula meningkatkan kecemasan dan masalah tidur.",
+      "do": [
+        "Gantikan satu cangkir kopi dengan teh herbal.",
+        "Minumlah lebih banyak air.",
+        "Kurangi camilan manis.",
+        "Hindari kafein di sore hari."
+      ]
+    },
+    "planning": {
+      "title": "Rencanakan Hari Anda",
+      "description": "Bagilah tugas-tugas besar menjadi langkah-langkah yang lebih kecil untuk menghindari rasa kewalahan.",
+      "why": "Perencanaan mengurangi kekacauan dan rasa kewalahan dalam pikiran.",
+      "do": [
+        "Tuliskan 3 tugas utama",
+        "Bagi tugas menjadi langkah-langkah kecil.",
+        "Fokus pada satu tugas dalam satu waktu.",
+        "Istirahatlah sejenak"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Kembali",
+    "notFound": "Tip tidak ditemukan.",
+    "whyTitle": "Mengapa Ini Membantu",
+    "doTitle": "Apa yang Dapat Anda Lakukan",
+    "reminderSet": "Pengingat sudah diatur! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Halaman tidak ditemukan",
+    "return": "Kembali ke Halaman Utama"
+  },
+  "mood": {
+    "title": "Bagaimana perasaanmu hari ini?",
+    "great": "Besar",
+    "okay": "Oke",
+    "stressed": "Stres",
+    "overwhelmed": "Kewalahan"
+  },
+  "breathing": {
+    "inhale": "Menghirup…",
+    "hold": "Memegang…",
+    "exhale": "Menghembuskan…",
+    "pause": "Berhenti sebentar",
+    "resume": "Melanjutkan"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "common": {
+    "continue": "Continuar",
+    "back": "Atrás",
+    "home": "Volver a Inicio",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha"
+  },
+  "screens": {
+    "checkin": {
+      "title": "Registro de autocuidado 🌿",
+      "subtitle": "¿Cómo te cuidaste hoy?",
+      "question": "¿Practicaste el autocuidado hoy? *",
+      "description": "El autocuidado es cualquier actividad que realizamos deliberadamente para cuidar nuestra salud mental, emocional y física."
+    },
+    "activities": {
+      "title": "Tus actividades 🎯",
+      "subtitle": "¿Qué actividades de autocuidado realizaste hoy?"
+    },
+    "duration": {
+      "title": "Tiempo dedicado ⏱️",
+      "subtitle": "¿Cuánto tiempo dedicaste al autocuidado? (opcional)"
+    },
+    "noSelfCare": {
+      "title": "Está bien 💛",
+      "subtitle": "Entendamos lo que pasó hoy.",
+      "question1": "¿Qué impidió el autocuidado hoy en día? (opcional)",
+      "question2": "¿Qué tipo de autocuidado te hubiera ayudado? (opcional)"
+    },
+    "mood": {
+      "title": "¿Cómo te sientes? 🫧",
+      "subtitle": "Selecciona tu estado de ánimo actual (opcional)"
+    },
+    "review": {
+      "title": "Tu entrada 📋",
+      "subtitle": "Aquí tenéis un resumen del check-in de hoy.",
+      "didSelfCare": "¿Se hizo autocuidado?",
+      "activities": "Actividades",
+      "duration": "Duración",
+      "mood": "Ánimo",
+      "challenges": "Prevenido por",
+      "whatHelps": "Habría ayudado",
+      "viewHistory": "Historia semanal",
+      "editToday": "Editar entrada",
+      "summary": "Resumen"
+    },
+    "history": {
+      "title": "Historial semanal 📅",
+      "subtitle": "No hay entradas en los últimos 7 días"
+    },
+    "notfound": {
+      "title": "404",
+      "subtitle": "¡Ups! Página no encontrada",
+      "returnHome": "Regresar a Inicio"
+    }
+  },
+  "data": {
+    "activities": {
+      "Exercise": "Ejercicio",
+      "Meditation": "Meditación",
+      "Journaling": "Diario",
+      "Reading": "Lectura",
+      "Rest / Nap": "Descanso / Siesta",
+      "Skincare": "Protección de la piel",
+      "Healthy Meal": "Comida saludable",
+      "Nature / Walk": "Naturaleza / Paseo",
+      "Social Time": "Tiempo social",
+      "Hobby": "Pasatiempo",
+      "Therapy": "Terapia",
+      "Digital Detox": "Desintoxicación digital"
+    },
+    "durations": {
+      "< 10 minutes": "&lt; 10 minutos",
+      "10–30 minutes": "10–30 minutos",
+      "30–60 minutes": "30–60 minutos",
+      "1+ hour": "1+ hora"
+    },
+    "reasons": {
+      "Busy schedule": "agenda ocupada",
+      "Low energy": "Energía baja",
+      "Stress": "Estrés",
+      "Forgot": "Olvidó",
+      "No motivation": "Sin motivación",
+      "Not feeling well": "No me siento bien",
+      "Lack of time": "Falta de tiempo",
+      "Emotional overwhelm": "Abrumamiento emocional"
+    },
+    "helpfulTypes": {
+      "Rest": "Descansar",
+      "Relaxation": "Relajación",
+      "Physical activity": "Actividad física",
+      "Talking to someone": "Hablando con alguien",
+      "Quiet time": "Tiempo de silencio",
+      "Creative activity": "Actividad creativa"
+    },
+    "moods": {
+      "Happy": "Feliz",
+      "Calm": "Calma",
+      "Neutral": "Neutral",
+      "Low": "Bajo",
+      "Stressed": "Estresado",
+      "Tired": "Cansado"
+    },
+    "positiveStatements": {
+      "0": "Hoy te presentaste por ti mismo. Eso es poderoso. 🌿",
+      "1": "Cuidarse no es egoísta, es esencial. ¡Bien hecho! 💚",
+      "2": "Cada pequeño acto de cuidado te hace más fuerte. 🌱",
+      "3": "Hoy invertiste en ti. Eso importa. ✨",
+      "4": "Cuidarte es lo mejor que hiciste hoy. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "No pasa nada. Mañana es un nuevo comienzo. Sé amable contigo mismo. 🤍",
+      "1": "No todos los días serán perfectos, y eso está perfectamente bien. 🕊️",
+      "2": "Estás haciendo lo mejor que puedes. Eso siempre es suficiente. 💛",
+      "3": "El descanso también es una forma de autocuidado. Date un capricho. 🌸",
+      "4": "Reconocer el hoy requiere valentía. Ya estás creciendo. 🌷"
+    }
+  }
+}
