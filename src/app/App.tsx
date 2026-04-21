@@ -52,6 +52,16 @@ function App() {
         if (DATABASE_URL) {
           try {
             const sql = neon(DATABASE_URL, { disableWarningInBrowsers: true });
+            
+            // First, ensure the users table exists. This prevents "relation users does not exist" errors.
+            await sql`
+              CREATE TABLE IF NOT EXISTS users (
+                id BIGINT PRIMARY KEY,
+                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+                updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+              );
+            `;
+
             await sql`
               INSERT INTO users (id) 
               VALUES (${user_id.toString()}) 

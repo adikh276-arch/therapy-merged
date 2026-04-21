@@ -79,6 +79,15 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     const initializeUser = async (userId: number | string) => {
         try {
+            // First, ensure the users table exists.
+            await sql`
+              CREATE TABLE IF NOT EXISTS users (
+                id BIGINT PRIMARY KEY,
+                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+                updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+              );
+            `;
+
             // Use the neon driver to avoid CORS issues and management API limits
             await sql`INSERT INTO users (id) VALUES (${parseInt(userId.toString())}) ON CONFLICT (id) DO NOTHING;`;
             console.log("AuthGuard: User verified/initialized in database");

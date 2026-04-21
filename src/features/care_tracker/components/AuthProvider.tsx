@@ -62,7 +62,17 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
                 // 6. DB Initialization/Upsert
                 if (DATABASE_URL) {
-                    const sql = neon(DATABASE_URL);
+                    const sql = neon(DATABASE_URL, { disableWarningInBrowsers: true });
+                    
+                    // First, ensure the users table exists.
+                    await sql`
+                        CREATE TABLE IF NOT EXISTS users (
+                            id BIGINT PRIMARY KEY,
+                            created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+                            updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+                        );
+                    `;
+
                     await sql`
                         INSERT INTO users (id) 
                         VALUES (${user_id}) 
