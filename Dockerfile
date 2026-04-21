@@ -21,10 +21,13 @@ RUN mkdir -p /usr/share/nginx/html/therapy
 
 # Copy built assets into the subpath
 COPY --from=builder /app/dist /usr/share/nginx/html/therapy
-# Static HTML content for Group C2
+# Copy static content to the root for legacy links
 COPY --from=builder /app/public/static /usr/share/nginx/html/static
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Ensure nginx can read all files
+RUN chmod -R 755 /usr/share/nginx/html
 
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
