@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import MobileShell from "@/components/MobileShell";
-import OptionChip from "@/components/OptionChip";
-import ContinueButton from "@/components/ContinueButton";
-import { Input } from "@/components/ui/input";
-import { ACTIVITIES } from "@/lib/selfcare-data";
+import MobileShell from "../../components/MobileShell";
+import OptionChip from "../../components/OptionChip";
+import ContinueButton from "../../components/ContinueButton";
+import { Input } from "../../components/ui/input";
+import { ACTIVITIES } from "../../lib/selfcare-data";
 import { Plus } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

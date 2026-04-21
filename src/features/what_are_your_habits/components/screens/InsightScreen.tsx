@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import PillOption from "@/components/PillOption";
-import ActivityButton from "@/components/ActivityButton";
+import PillOption from "../../components/PillOption";
+import ActivityButton from "../../components/ActivityButton";
 import { useTranslation } from "react-i18next";
 
 const InsightScreen = ({ onNext }: { onNext: () => void }) => {

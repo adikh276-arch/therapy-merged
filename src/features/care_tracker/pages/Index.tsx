@@ -1,14 +1,14 @@
 import React, { useState, useCallback } from "react";
-import { SelfCareEntry, saveEntryToDb, toLocalIsoDate } from "@/lib/selfcare-data";
-import Screen1CheckIn from "@/components/screens/Screen1CheckIn";
-import Screen2Activities from "@/components/screens/Screen2Activities";
-import Screen2bDuration from "@/components/screens/Screen2bDuration";
-import Screen3NoSelfCare from "@/components/screens/Screen3NoSelfCare";
-import Screen4Mood from "@/components/screens/Screen4Mood";
-import Screen5Statement from "@/components/screens/Screen5Statement";
-import Screen6Review from "@/components/screens/Screen6Review";
-import Screen7History from "@/components/screens/Screen7History";
-import { useAuth } from "@/components/AuthProvider";
+import { SelfCareEntry, saveEntryToDb, toLocalIsoDate } from "../lib/selfcare-data";
+import Screen1CheckIn from "../components/screens/Screen1CheckIn";
+import Screen2Activities from "../components/screens/Screen2Activities";
+import Screen2bDuration from "../components/screens/Screen2bDuration";
+import Screen3NoSelfCare from "../components/screens/Screen3NoSelfCare";
+import Screen4Mood from "../components/screens/Screen4Mood";
+import Screen5Statement from "../components/screens/Screen5Statement";
+import Screen6Review from "../components/screens/Screen6Review";
+import Screen7History from "../components/screens/Screen7History";
+import { useAuth } from "../components/AuthProvider";
 
 type Screen = "checkin" | "activities" | "duration" | "noSelfCare" | "mood" | "statement" | "review" | "history";
 

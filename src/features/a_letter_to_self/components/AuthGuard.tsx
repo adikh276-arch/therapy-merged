@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { validateToken, setSessionUserId, getSessionUserId } from "@/lib/auth";
-import { query } from "@/lib/db";
+import { validateToken, setSessionUserId, getSessionUserId } from "../lib/auth";
+import { query } from "../lib/db";
 import { Loader2 } from "lucide-react";
 
 export const AuthGuard = ({ children }: { children: React.ReactNode }) => {

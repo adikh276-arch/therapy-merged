@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ChooseAreaScreen from "@/components/ChooseAreaScreen";
-import TimerScreen from "@/components/TimerScreen";
-import EnergyCheckScreen from "@/components/EnergyCheckScreen";
-import { LanguageSelector } from "@/components/LanguageSelector";
+import ChooseAreaScreen from "../components/ChooseAreaScreen";
+import TimerScreen from "../components/TimerScreen";
+import EnergyCheckScreen from "../components/EnergyCheckScreen";
+import { LanguageSelector } from "../components/LanguageSelector";
 
 type Screen = "choose" | "timer" | "energy";
 

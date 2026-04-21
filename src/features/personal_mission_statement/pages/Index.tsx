@@ -1,9 +1,9 @@
 import { useState } from "react";
-import IntroScreen from "@/components/screens/IntroScreen";
-import ValuesScreen from "@/components/screens/ValuesScreen";
-import ReflectionScreen from "@/components/screens/ReflectionScreen";
-import MissionScreen from "@/components/screens/MissionScreen";
-import HistoryScreen from "@/components/screens/HistoryScreen";
+import IntroScreen from "../components/screens/IntroScreen";
+import ValuesScreen from "../components/screens/ValuesScreen";
+import ReflectionScreen from "../components/screens/ReflectionScreen";
+import MissionScreen from "../components/screens/MissionScreen";
+import HistoryScreen from "../components/screens/HistoryScreen";
 
 export interface MissionData {
   values: string[];

@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import ScreenWrapper from "@/components/ScreenWrapper";
-import MissionButton from "@/components/MissionButton";
+import ScreenWrapper from "../../components/ScreenWrapper";
+import MissionButton from "../../components/MissionButton";
 import { MissionData } from "@/pages/Index";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
-import type { SavedMission } from "@/components/screens/HistoryScreen";
-import { query } from "@/lib/db";
+import type { SavedMission } from "../../components/screens/HistoryScreen";
+import { query } from "../../lib/db";
 
 interface MissionScreenProps {
   data: MissionData;

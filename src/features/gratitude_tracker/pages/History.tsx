@@ -2,11 +2,11 @@ import { useState, useMemo, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import PageTransition from "@/components/PageTransition";
+import PageTransition from "../components/PageTransition";
 import {
   getEntriesForMonth,
   GratitudeEntry,
-} from "@/lib/gratitudeStore";
+} from "../lib/gratitudeStore";
 import {
   format,
   startOfMonth,

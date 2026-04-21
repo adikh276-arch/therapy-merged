@@ -1,6 +1,6 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "./components/ui/toaster";
+import { Toaster as Sonner } from "./components/ui/sonner";
+import { TooltipProvider } from "./components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import IntroScreen from "./pages/IntroScreen";
@@ -15,8 +15,8 @@ import { AuthGuard } from "./components/AuthGuard";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
+  <>
+    <>
       <LanguageSelector />
       <Toaster />
       <Sonner />
@@ -32,8 +32,8 @@ const App = () => (
           </Routes>
         
       <>
-    </TooltipProvider>
-  </QueryClientProvider>
+    </>
+  </>
 );
 
 export default App;

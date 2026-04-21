@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { tips } from "@/data/tips";
-import TipCard from "@/components/TipCard";
-import LanguageSelector from "@/components/LanguageSelector";
+import TipCard from "../components/TipCard";
+import LanguageSelector from "../components/LanguageSelector";
 
 export default function Index() {
   const { t } = useTranslation();

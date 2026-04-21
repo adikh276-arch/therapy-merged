@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import IntroScreen from "@/components/screens/IntroScreen";
-import BodyHabitsScreen from "@/components/screens/BodyHabitsScreen";
-import MindHabitsScreen from "@/components/screens/MindHabitsScreen";
-import CopingHabitsScreen from "@/components/screens/CopingHabitsScreen";
-import ReflectionScreen from "@/components/screens/ReflectionScreen";
-import InsightScreen from "@/components/screens/InsightScreen";
-import FinalScreen from "@/components/screens/FinalScreen";
-import LanguageSelector from "@/components/LanguageSelector";
+import IntroScreen from "../components/screens/IntroScreen";
+import BodyHabitsScreen from "../components/screens/BodyHabitsScreen";
+import MindHabitsScreen from "../components/screens/MindHabitsScreen";
+import CopingHabitsScreen from "../components/screens/CopingHabitsScreen";
+import ReflectionScreen from "../components/screens/ReflectionScreen";
+import InsightScreen from "../components/screens/InsightScreen";
+import FinalScreen from "../components/screens/FinalScreen";
+import LanguageSelector from "../components/LanguageSelector";
 
 const pageVariants = {
   initial: { opacity: 0, x: 60 },

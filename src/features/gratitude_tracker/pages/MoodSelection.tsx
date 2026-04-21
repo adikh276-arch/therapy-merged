@@ -2,9 +2,9 @@ import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import PageTransition from "@/components/PageTransition";
-import { MOODS, MoodOption, saveEntry, todayISO } from "@/lib/gratitudeStore";
-import { v4 } from "@/lib/uid";
+import PageTransition from "../components/PageTransition";
+import { MOODS, MoodOption, saveEntry, todayISO } from "../lib/gratitudeStore";
+import { v4 } from "../lib/uid";
 
 const moodBgs = [
   "bg-[hsl(155,52%,90%)]",      // Happy - sage tint

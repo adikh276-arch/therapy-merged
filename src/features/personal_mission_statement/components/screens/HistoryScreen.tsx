@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import ScreenWrapper from "@/components/ScreenWrapper";
-import MissionButton from "@/components/MissionButton";
+import ScreenWrapper from "../../components/ScreenWrapper";
+import MissionButton from "../../components/MissionButton";
 import { Trash2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-import { query } from "@/lib/db";
+import { query } from "../../lib/db";
 
 export interface SavedMission {
     id: string;

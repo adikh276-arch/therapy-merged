@@ -1,9 +1,9 @@
 import { useState } from "react";
-import IntroScreen from "@/components/IntroScreen";
-import StorySelectionScreen from "@/components/StorySelectionScreen";
-import StoryScreen from "@/components/StoryScreen";
+import IntroScreen from "../components/IntroScreen";
+import StorySelectionScreen from "../components/StorySelectionScreen";
+import StoryScreen from "../components/StoryScreen";
 import { stories } from "@/data/stories";
-import { LanguageSelector } from "@/components/LanguageSelector";
+import { LanguageSelector } from "../components/LanguageSelector";
 
 type Screen = "intro" | "selection" | "story";
 

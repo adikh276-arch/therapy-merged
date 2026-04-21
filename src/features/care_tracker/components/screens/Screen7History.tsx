@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import MobileShell from "@/components/MobileShell";
-import { Button } from "@/components/ui/button";
-import { fetchLast7Days, formatDateShort, SelfCareEntry } from "@/lib/selfcare-data";
+import MobileShell from "../../components/MobileShell";
+import { Button } from "../../components/ui/button";
+import { fetchLast7Days, formatDateShort, SelfCareEntry } from "../../lib/selfcare-data";
 import { ArrowLeft, Loader2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { useAuth } from "@/components/AuthProvider";
+import { useAuth } from "../../components/AuthProvider";
 
 interface Screen7Props {
   onBack: () => void;

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { Heart } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

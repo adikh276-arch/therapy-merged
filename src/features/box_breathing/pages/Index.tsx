@@ -1,7 +1,7 @@
 import { useState } from "react";
-import OverviewScreen from "@/components/OverviewScreen";
-import SessionScreen from "@/components/SessionScreen";
-import CompleteScreen from "@/components/CompleteScreen";
+import OverviewScreen from "../components/OverviewScreen";
+import SessionScreen from "../components/SessionScreen";
+import CompleteScreen from "../components/CompleteScreen";
 
 type Screen = "overview" | "session" | "complete";
 

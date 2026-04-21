@@ -1,7 +1,7 @@
 import { useState } from "react";
-import SelectableTile from "@/components/SelectableTile";
-import ActivityButton from "@/components/ActivityButton";
-import StepProgress from "@/components/StepProgress";
+import SelectableTile from "../../components/SelectableTile";
+import ActivityButton from "../../components/ActivityButton";
+import StepProgress from "../../components/StepProgress";
 import { useTranslation } from "react-i18next";
 
 const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {

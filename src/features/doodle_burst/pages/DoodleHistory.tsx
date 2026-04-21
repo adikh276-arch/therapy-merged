@@ -1,12 +1,12 @@
 import { useState, useMemo, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { getDoodleHistory, deleteDoodle, groupByDate, type DoodleEntry } from "@/lib/doodleHistory";
+import { getDoodleHistory, deleteDoodle, groupByDate, type DoodleEntry } from "../lib/doodleHistory";
 import { ArrowLeft, Trash2, X, Calendar, Share2 } from "lucide-react";
-import ShareModal from "@/components/ShareModal";
-import { shareDoodle } from "@/lib/share";
+import ShareModal from "../components/ShareModal";
+import { shareDoodle } from "../lib/share";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "@/components/LanguageSelector";
+import LanguageSelector from "../components/LanguageSelector";
 
 const DoodleHistory = () => {
   const navigate = useNavigate();

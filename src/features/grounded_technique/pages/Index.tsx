@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { techniques } from "@/data/techniques";
-import { useTranslation } from "@/hooks/useTranslation";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
-import GroundingCard from "@/components/GroundingCard";
+import { useTranslation } from "../hooks/useTranslation";
+import LanguageSwitcher from "../components/LanguageSwitcher";
+import GroundingCard from "../components/GroundingCard";
 
 const Index = () => {
   const navigate = useNavigate();

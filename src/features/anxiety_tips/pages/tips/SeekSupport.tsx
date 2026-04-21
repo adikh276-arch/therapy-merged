@@ -1,4 +1,4 @@
-import TipDetailLayout from "@/components/TipDetailLayout";
+import TipDetailLayout from "../../components/TipDetailLayout";
 import { useTranslation } from "react-i18next";
 
 const SeekSupport = () => {

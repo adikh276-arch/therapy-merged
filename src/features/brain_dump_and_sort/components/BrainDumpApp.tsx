@@ -6,7 +6,7 @@ import { OneSmallStep } from "./OneSmallStep";
 import { Reflection } from "./Reflection";
 import { SavedThoughts, type SavedSession } from "./SavedThoughts";
 import { History, Loader2 } from "lucide-react";
-import { initializeUser, fetchUserSessions, saveSession, deleteSession } from "@/lib/db-service";
+import { initializeUser, fetchUserSessions, saveSession, deleteSession } from "../lib/db-service";
 import { LanguageSelector } from "./LanguageSelector";
 
 export interface ThoughtItem {

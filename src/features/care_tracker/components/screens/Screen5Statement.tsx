@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
-import MobileShell from "@/components/MobileShell";
-import ContinueButton from "@/components/ContinueButton";
-import { POSITIVE_STATEMENTS, SUPPORTIVE_STATEMENTS } from "@/lib/selfcare-data";
+import MobileShell from "../../components/MobileShell";
+import ContinueButton from "../../components/ContinueButton";
+import { POSITIVE_STATEMENTS, SUPPORTIVE_STATEMENTS } from "../../lib/selfcare-data";
 import { useTranslation } from "react-i18next";
 
 interface Screen5Props {

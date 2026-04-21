@@ -1,5 +1,5 @@
-import TrackActivitySection from "@/components/TrackActivitySection";
-import LanguageSelector from "@/components/LanguageSelector";
+import TrackActivitySection from "../components/TrackActivitySection";
+import LanguageSelector from "../components/LanguageSelector";
 
 const Index = () => {
   return (

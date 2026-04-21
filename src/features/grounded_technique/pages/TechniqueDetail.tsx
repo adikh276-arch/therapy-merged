@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft, ChevronRight, ChevronLeft } from "lucide-react";
 import { techniques } from "@/data/techniques";
-import { useTranslation } from "@/hooks/useTranslation";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useTranslation } from "../hooks/useTranslation";
+import LanguageSwitcher from "../components/LanguageSwitcher";
 
 export default function TechniqueDetail() {
   const { id } = useParams();

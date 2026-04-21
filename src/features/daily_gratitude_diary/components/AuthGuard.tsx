@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { dbRequest, initSchema } from "@/lib/db";
+import { dbRequest, initSchema } from "../lib/db";
 
 interface AuthGuardProps {
     children: React.ReactNode;

@@ -1,4 +1,4 @@
-import GroundingExercise from "@/components/GroundingExercise";
+import GroundingExercise from "../components/GroundingExercise";
 
 const Index = () => {
   return <GroundingExercise />;

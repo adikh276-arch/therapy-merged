@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import ProgressIndicator from "@/components/ProgressIndicator";
-import ValueCard from "@/components/ValueCard";
-import ActivityButton from "@/components/ActivityButton";
+import ProgressIndicator from "../components/ProgressIndicator";
+import ValueCard from "../components/ValueCard";
+import ActivityButton from "../components/ActivityButton";
 import { allValues } from "@/data/values";
-import { Reflection, ValueItem } from "@/types/reflection";
+import { Reflection, ValueItem } from "../types/reflection";
 import { format } from "date-fns";
 
 import { toast } from "sonner";
 
-import { useAuth } from "@/components/AuthContext";
-import { sql } from "@/lib/db";
+import { useAuth } from "../components/AuthContext";
+import { sql } from "../lib/db";
 
 const Index = () => {
   const { t } = useTranslation();

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { getEntries, saveEntry } from "@/lib/letters";
+import { Button } from "../components/ui/button";
+import { getEntries, saveEntry } from "../lib/letters";
 
 const EMOTIONS = [
   "I feel lighter than before.",

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { query } from "@/lib/db";
+import { query } from "../lib/db";
 
 const DEV_FALLBACK_USER_ID = "999999999"; // Temporary dev user when API is not yet available
 

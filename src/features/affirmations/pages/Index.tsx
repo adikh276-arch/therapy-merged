@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import BeforeYouBegin from "@/components/BeforeYouBegin";
-import FeelingSelector from "@/components/FeelingSelector";
-import AffirmationScreen from "@/components/AffirmationScreen";
-import { LanguageSelector } from "@/components/LanguageSelector";
+import BeforeYouBegin from "../components/BeforeYouBegin";
+import FeelingSelector from "../components/FeelingSelector";
+import AffirmationScreen from "../components/AffirmationScreen";
+import { LanguageSelector } from "../components/LanguageSelector";
 
 type Screen = "intro" | "feelings" | "affirmation";
 

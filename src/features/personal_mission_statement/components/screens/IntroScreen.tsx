@@ -1,5 +1,5 @@
-import ScreenWrapper from "@/components/ScreenWrapper";
-import MissionButton from "@/components/MissionButton";
+import ScreenWrapper from "../../components/ScreenWrapper";
+import MissionButton from "../../components/MissionButton";
 import { useTranslation } from "react-i18next";
 
 interface IntroScreenProps {

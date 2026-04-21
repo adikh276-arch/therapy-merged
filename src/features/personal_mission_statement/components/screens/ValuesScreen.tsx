@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ScreenWrapper from "@/components/ScreenWrapper";
-import MissionButton from "@/components/MissionButton";
-import ValueChip from "@/components/ValueChip";
+import ScreenWrapper from "../../components/ScreenWrapper";
+import MissionButton from "../../components/MissionButton";
+import ValueChip from "../../components/ValueChip";
 import { useTranslation } from "react-i18next";
 
 const VALUES = [

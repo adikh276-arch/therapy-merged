@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { getReflections, deleteReflection, ReflectionEntry } from "@/lib/reflections";
+import { Button } from "../../components/ui/button";
+import { getReflections, deleteReflection, ReflectionEntry } from "../../lib/reflections";
 import { format } from "date-fns";
 import { ChevronDown, Trash2 } from "lucide-react";
 import { useTranslation } from "react-i18next";

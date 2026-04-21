@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Heart } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 
 const CompletionScreen = () => {
   const navigate = useNavigate();

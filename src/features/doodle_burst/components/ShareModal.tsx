@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Copy, Download, Share2, Check } from "lucide-react";
-import { createPoster } from "@/lib/share";
+import { createPoster } from "../lib/share";
 import { useTranslation } from "react-i18next";
 
 interface ShareModalProps {

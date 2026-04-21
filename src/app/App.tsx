@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { RouterProvider } from "react-router";
 import { router } from "./routes";
 import { AppBetterPopup } from "./components/AppBetterPopup";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { TooltipProvider } from "@radix-ui/react-tooltip";
+
+const queryClient = new QueryClient();
 
 function App() {
   const [showAppPopup, setShowAppPopup] = useState(false);
@@ -26,10 +30,12 @@ function App() {
   };
 
   return (
-    <>
-      {showAppPopup && <AppBetterPopup onClose={handleClosePopup} />}
-      <RouterProvider router={router} />
-    </>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        {showAppPopup && <AppBetterPopup onClose={handleClosePopup} />}
+        <RouterProvider router={router} />
+      </TooltipProvider>
+    </QueryClientProvider>
   );
 }
 

@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import PageTransition from "@/components/PageTransition";
-import { getAllEntries, GratitudeEntry as GEntry } from "@/lib/gratitudeStore";
+import PageTransition from "../components/PageTransition";
+import { getAllEntries, GratitudeEntry as GEntry } from "../lib/gratitudeStore";
 import { format } from "date-fns";
 
 const ReviewEntry = () => {

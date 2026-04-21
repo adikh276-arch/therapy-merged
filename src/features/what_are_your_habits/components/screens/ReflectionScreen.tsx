@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ActivityButton from "@/components/ActivityButton";
-import StepProgress from "@/components/StepProgress";
+import ActivityButton from "../../components/ActivityButton";
+import StepProgress from "../../components/StepProgress";
 import { useTranslation } from "react-i18next";
 
 const ReflectionScreen = ({ onNext }: { onNext: () => void }) => {

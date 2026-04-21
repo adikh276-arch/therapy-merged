@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Mail, Leaf } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { useTranslation } from "react-i18next";
 
 const IntroScreen = () => {

@@ -1,7 +1,7 @@
 import React from "react";
-import MobileShell from "@/components/MobileShell";
-import { Button } from "@/components/ui/button";
-import { SelfCareEntry, formatDateShort } from "@/lib/selfcare-data";
+import MobileShell from "../../components/MobileShell";
+import { Button } from "../../components/ui/button";
+import { SelfCareEntry, formatDateShort } from "../../lib/selfcare-data";
 import { Pencil, CalendarDays, Home } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

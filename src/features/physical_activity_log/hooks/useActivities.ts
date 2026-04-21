@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { format, startOfWeek, endOfWeek, startOfMonth, endOfMonth, isWithinInterval, parseISO, subDays } from "date-fns";
-import { pool } from "@/lib/db";
+import { pool } from "../lib/db";
 
 export interface Activity {
   id: string;

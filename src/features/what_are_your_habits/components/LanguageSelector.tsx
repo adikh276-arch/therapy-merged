@@ -5,7 +5,7 @@ import {
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
+} from "../components/ui/select";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const languages = [

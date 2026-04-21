@@ -1,4 +1,4 @@
-import BrainDumpApp from "@/components/BrainDumpApp";
+import BrainDumpApp from "../components/BrainDumpApp";
 
 const Index = () => <BrainDumpApp />;
 

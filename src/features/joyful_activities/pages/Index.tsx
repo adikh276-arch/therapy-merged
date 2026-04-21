@@ -1,10 +1,10 @@
 import { useState } from "react";
-import IntroScreen from "@/components/activity/IntroScreen";
-import RecallScreen from "@/components/activity/RecallScreen";
-import MeaningScreen from "@/components/activity/MeaningScreen";
-import SmallStepScreen from "@/components/activity/SmallStepScreen";
-import AffirmationScreen from "@/components/activity/AffirmationScreen";
-import LanguageSelector from "@/components/LanguageSelector";
+import IntroScreen from "../components/activity/IntroScreen";
+import RecallScreen from "../components/activity/RecallScreen";
+import MeaningScreen from "../components/activity/MeaningScreen";
+import SmallStepScreen from "../components/activity/SmallStepScreen";
+import AffirmationScreen from "../components/activity/AffirmationScreen";
+import LanguageSelector from "../components/LanguageSelector";
 import floralBg from "@/assets/floral-bg.png";
 
 export interface ActivityData {

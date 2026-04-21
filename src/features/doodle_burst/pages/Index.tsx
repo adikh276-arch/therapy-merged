@@ -1,14 +1,14 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import FloatingShapes from "@/components/FloatingShapes";
-import DrawingCanvas, { type DrawingCanvasRef } from "@/components/DrawingCanvas";
-import ShareModal from "@/components/ShareModal";
-import { saveDoodle } from "@/lib/doodleHistory";
+import FloatingShapes from "../components/FloatingShapes";
+import DrawingCanvas, { type DrawingCanvasRef } from "../components/DrawingCanvas";
+import ShareModal from "../components/ShareModal";
+import { saveDoodle } from "../lib/doodleHistory";
 import { Sparkles, ArrowRight, Rocket, History, Share2 } from "lucide-react";
-import { shareDoodle } from "@/lib/share";
+import { shareDoodle } from "../lib/share";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "@/components/LanguageSelector";
+import LanguageSelector from "../components/LanguageSelector";
 
 type Screen = "intro" | "activity" | "end";
 

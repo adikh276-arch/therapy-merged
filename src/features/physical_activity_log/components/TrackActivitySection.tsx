@@ -2,11 +2,11 @@ import { useState } from "react";
 import { format, parseISO } from "date-fns";
 import { CalendarIcon, Pencil, Trash2, ChevronDown, ChevronUp } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { Calendar } from "@/components/ui/calendar";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { useActivities, type ViewMode } from "@/hooks/useActivities";
+import { cn } from "../lib/utils";
+import { Button } from "../components/ui/button";
+import { Calendar } from "../components/ui/calendar";
+import { Popover, PopoverContent, PopoverTrigger } from "../components/ui/popover";
+import { useActivities, type ViewMode } from "../hooks/useActivities";
 import {
   BarChart, Bar, LineChart, Line, XAxis, YAxis, Tooltip,
   ResponsiveContainer, CartesianGrid,

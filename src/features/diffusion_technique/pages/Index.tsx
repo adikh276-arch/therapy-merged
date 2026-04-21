@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence } from "framer-motion";
-import { ScreenWrapper } from "@/components/ScreenWrapper";
-import { ActivityCard } from "@/components/ActivityCard";
-import { PrimaryButton } from "@/components/PrimaryButton";
-import { ProgressBar } from "@/components/ProgressBar";
-import { FullScreenSky } from "@/components/FullScreenSky";
-import { MoneySlider } from "@/components/MoneySlider";
-import { StoryNamingScreen } from "@/components/StoryNamingScreen";
+import { ScreenWrapper } from "../components/ScreenWrapper";
+import { ActivityCard } from "../components/ActivityCard";
+import { PrimaryButton } from "../components/PrimaryButton";
+import { ProgressBar } from "../components/ProgressBar";
+import { FullScreenSky } from "../components/FullScreenSky";
+import { MoneySlider } from "../components/MoneySlider";
+import { StoryNamingScreen } from "../components/StoryNamingScreen";
 
 type View = "intro" | "choose" | "sky" | "sell" | "name";
 

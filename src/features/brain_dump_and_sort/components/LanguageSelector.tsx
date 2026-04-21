@@ -4,8 +4,8 @@ import {
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Button } from "@/components/ui/button";
+} from "../components/ui/dropdown-menu";
+import { Button } from "../components/ui/button";
 import { Languages, History } from "lucide-react";
 
 interface LanguageSelectorProps {

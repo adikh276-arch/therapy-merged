@@ -1,7 +1,7 @@
-import HowToPlay from "@/components/HowToPlay";
-import TipsForSuccess from "@/components/TipsForSuccess";
-import BingoGrid from "@/components/BingoGrid";
-import LanguageSelector from "@/components/LanguageSelector";
+import HowToPlay from "../components/HowToPlay";
+import TipsForSuccess from "../components/TipsForSuccess";
+import BingoGrid from "../components/BingoGrid";
+import LanguageSelector from "../components/LanguageSelector";
 import { useTranslation } from "react-i18next";
 
 const Index = () => {

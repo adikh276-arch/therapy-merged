@@ -1,10 +1,10 @@
 import { useState, useRef } from "react";
-import VibeCheckIn from "@/components/VibeCheckIn";
-import Reflection from "@/components/Reflection";
-import Confirmation from "@/components/Confirmation";
-import LanguageSelector from "@/components/LanguageSelector";
-import VibeHistory from "@/components/VibeHistory";
-import { saveVibeEntry } from "@/types/vibe";
+import VibeCheckIn from "../components/VibeCheckIn";
+import Reflection from "../components/Reflection";
+import Confirmation from "../components/Confirmation";
+import LanguageSelector from "../components/LanguageSelector";
+import VibeHistory from "../components/VibeHistory";
+import { saveVibeEntry } from "../types/vibe";
 
 type Screen = "checkin" | "reflection" | "confirmation" | "history";
 

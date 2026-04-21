@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";
 import ActivityInput from "./ActivityInput";
 import type { ActivityData } from "@/pages/Index";
 import { useTranslation } from "react-i18next";

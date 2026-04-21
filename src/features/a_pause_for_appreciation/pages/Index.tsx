@@ -1,13 +1,13 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import IntroScreen from "@/components/reflection/IntroScreen";
-import BreathingScreen from "@/components/reflection/BreathingScreen";
-import ReflectionPrompt from "@/components/reflection/ReflectionPrompt";
-import IntentionScreen from "@/components/reflection/IntentionScreen";
-import CheckInScreen from "@/components/reflection/CheckInScreen";
-import ClosingScreen from "@/components/reflection/ClosingScreen";
-import HistoryScreen from "@/components/reflection/HistoryScreen";
-import { ReflectionEntry, saveReflection } from "@/lib/reflections";
+import IntroScreen from "../components/reflection/IntroScreen";
+import BreathingScreen from "../components/reflection/BreathingScreen";
+import ReflectionPrompt from "../components/reflection/ReflectionPrompt";
+import IntentionScreen from "../components/reflection/IntentionScreen";
+import CheckInScreen from "../components/reflection/CheckInScreen";
+import ClosingScreen from "../components/reflection/ClosingScreen";
+import HistoryScreen from "../components/reflection/HistoryScreen";
+import { ReflectionEntry, saveReflection } from "../lib/reflections";
 import { useTranslation } from "react-i18next";
 
 const pageVariants = {

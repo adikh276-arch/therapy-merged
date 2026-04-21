@@ -6,7 +6,7 @@ import {
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
+} from "../components/ui/select";
 import { Globe } from "lucide-react";
 
 const languages = [

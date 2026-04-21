@@ -1,15 +1,15 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { ChevronDown, Calendar, Check, Loader2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
+import { Button } from "../components/ui/button";
+import { Textarea } from "../components/ui/textarea";
 import {
   generateId,
   getCurrentDate,
   getCurrentTime,
   saveEntry,
   type LetterEntry,
-} from "@/lib/letters";
+} from "../lib/letters";
 
 const PROMPTS = [
   "What have I been handling well lately?",

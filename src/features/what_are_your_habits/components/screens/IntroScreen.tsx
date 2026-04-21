@@ -1,4 +1,4 @@
-import ActivityButton from "@/components/ActivityButton";
+import ActivityButton from "../../components/ActivityButton";
 import { useTranslation } from "react-i18next";
 
 const IntroScreen = ({ onNext }: { onNext: () => void }) => {

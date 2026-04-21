@@ -1,4 +1,4 @@
-import MindfulActivity from "@/components/MindfulActivity";
+import MindfulActivity from "../components/MindfulActivity";
 
 const Index = () => {
   return <MindfulActivity />;

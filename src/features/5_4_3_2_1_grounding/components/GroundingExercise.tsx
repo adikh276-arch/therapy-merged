@@ -1,8 +1,8 @@
 import { useState, useCallback, useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import ProgressDots from "@/components/ProgressDots";
-import GroundingButton from "@/components/GroundingButton";
-import StepInput from "@/components/StepInput";
+import ProgressDots from "../components/ProgressDots";
+import GroundingButton from "../components/GroundingButton";
+import StepInput from "../components/StepInput";
 
 const GroundingExercise = () => {
   const { t } = useTranslation();

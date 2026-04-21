@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import PageTransition from "@/components/PageTransition";
-import { todayISO } from "@/lib/gratitudeStore";
+import PageTransition from "../components/PageTransition";
+import { todayISO } from "../lib/gratitudeStore";
 
 const GratitudeEntry = () => {
   const { t } = useTranslation();

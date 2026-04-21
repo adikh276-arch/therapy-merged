@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Calendar, ChevronLeft, Trash2, Loader2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { getEntries, deleteEntry, formatDate, type LetterEntry } from "@/lib/letters";
+import { Button } from "../components/ui/button";
+import { getEntries, deleteEntry, formatDate, type LetterEntry } from "../lib/letters";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -12,7 +12,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
+} from "../components/ui/alert-dialog";
 
 const PastLetters = () => {
   const navigate = useNavigate();

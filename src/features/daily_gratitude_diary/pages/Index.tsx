@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import ScreenIntro from "@/components/ScreenIntro";
-import ScreenGratitude from "@/components/ScreenGratitude";
-import ScreenReflection from "@/components/ScreenReflection";
-import ScreenClosing from "@/components/ScreenClosing";
-import ScreenPastEntries from "@/components/ScreenPastEntries";
-import { dbRequest } from "@/lib/db";
+import ScreenIntro from "../components/ScreenIntro";
+import ScreenGratitude from "../components/ScreenGratitude";
+import ScreenReflection from "../components/ScreenReflection";
+import ScreenClosing from "../components/ScreenClosing";
+import ScreenPastEntries from "../components/ScreenPastEntries";
+import { dbRequest } from "../lib/db";
 
 interface GratitudeEntry {
   grateful: string;

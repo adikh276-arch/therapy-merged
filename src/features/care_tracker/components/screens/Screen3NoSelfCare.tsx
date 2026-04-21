@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import MobileShell from "@/components/MobileShell";
-import OptionChip from "@/components/OptionChip";
-import ContinueButton from "@/components/ContinueButton";
-import { PREVENTION_REASONS, HELPFUL_TYPES } from "@/lib/selfcare-data";
+import MobileShell from "../../components/MobileShell";
+import OptionChip from "../../components/OptionChip";
+import ContinueButton from "../../components/ContinueButton";
+import { PREVENTION_REASONS, HELPFUL_TYPES } from "../../lib/selfcare-data";
 import { useTranslation } from "react-i18next";
 
 interface Screen3Props {

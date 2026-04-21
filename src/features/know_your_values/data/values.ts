@@ -1,4 +1,4 @@
-import { ValueItem } from "@/types/reflection";
+import { ValueItem } from "../types/reflection";
 
 export const allValues: ValueItem[] = [
   { emoji: "❤️", name: "Family" },

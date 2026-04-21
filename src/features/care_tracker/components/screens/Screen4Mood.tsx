@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import MobileShell from "@/components/MobileShell";
-import ContinueButton from "@/components/ContinueButton";
-import { MOODS } from "@/lib/selfcare-data";
+import MobileShell from "../../components/MobileShell";
+import ContinueButton from "../../components/ContinueButton";
+import { MOODS } from "../../lib/selfcare-data";
 import { useTranslation } from "react-i18next";
 
 interface Screen4Props {
