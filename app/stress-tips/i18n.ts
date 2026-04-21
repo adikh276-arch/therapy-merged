@@ -15,7 +15,7 @@ i18n
             caches: ['localStorage'],
         },
         backend: {
-            loadPath: "/therapy/stress-tips/locales/{{lng}}/translation.json",
+            loadPath: "/therapy/stress-tips/locales/{{lng}}.json",
         },
         interpolation: {
             escapeValue: false,

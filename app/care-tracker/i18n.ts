@@ -15,7 +15,7 @@ i18n
         },
         backend: {
             // Using absolute path with subpath for predictability in subpath hosting
-            loadPath: "/therapy/care-tracker/locales/{{lng}}/translation.json",
+            loadPath: "/therapy/care-tracker/locales/{{lng}}.json",
         },
         detection: {
             order: ['querystring', 'cookie', 'localStorage', 'navigator', 'path', 'subdomain'],

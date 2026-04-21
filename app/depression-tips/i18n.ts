@@ -52,7 +52,7 @@ i18n
         ns: ["translation"],
         defaultNS: "translation",
         backend: {
-            loadPath: "/therapy/depression-tips/locales/{{lng}}/translation.json",
+            loadPath: "/therapy/depression-tips/locales/{{lng}}.json",
         },
         detection: {
             order: ["querystring", "localStorage", "navigator"],
