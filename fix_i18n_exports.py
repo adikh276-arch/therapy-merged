@@ -1,33 +1,8 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import HttpBackend from 'i18next-http-backend';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import os
+import re
 
-const instance = i18n.createInstance();
-
-instance
-  .use(HttpBackend)
-  .use(LanguageDetector)
-  .use(initReactI18next)
-  .init({
-    fallbackLng: 'en',
-    ns: ['translation'],
-    defaultNS: 'translation',
-    backend: {
-      loadPath: '/therapy/locales/4_6_8_breathing/{{lng}}.json',
-    },
-    interpolation: {
-      escapeValue: false,
-    },
-    detection: {
-      order: ['querystring', 'localStorage', 'navigator'],
-      lookupQuerystring: 'lang',
-      caches: ['localStorage'],
-    }
-  });
-
-export default instance;
-
+# The standard SUPPORTED_LANGUAGES export that all features expect
+LANGUAGES_EXPORT = """
 export const SUPPORTED_LANGUAGES = [
   { code: 'en', name: 'English', nativeLabel: 'English' },
   { code: 'es', name: 'Spanish', nativeLabel: 'Español' },
@@ -49,3 +24,33 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'th', name: 'Thai', nativeLabel: 'ไทย' },
   { code: 'tl', name: 'Filipino', nativeLabel: 'Filipino' },
 ];
+"""
+
+def fix_i18n_exports():
+    features_dir = r"D:\Downloads\Therapy Merged\src\features"
+    features = [f for f in os.listdir(features_dir) if os.path.isdir(os.path.join(features_dir, f))]
+    
+    fixed = 0
+    for feature in features:
+        feature_path = os.path.join(features_dir, feature)
+        i18n_ts = os.path.join(feature_path, "i18n.ts")
+        
+        if not os.path.exists(i18n_ts):
+            continue
+        
+        with open(i18n_ts, "r", encoding="utf-8") as f:
+            content = f.read()
+        
+        if "SUPPORTED_LANGUAGES" not in content:
+            content += LANGUAGES_EXPORT
+            with open(i18n_ts, "w", encoding="utf-8") as f:
+                f.write(content)
+            print(f"  Added SUPPORTED_LANGUAGES to {feature}/i18n.ts")
+            fixed += 1
+        else:
+            print(f"  Already has SUPPORTED_LANGUAGES: {feature}/i18n.ts")
+    
+    print(f"\nTotal fixed: {fixed}")
+
+if __name__ == "__main__":
+    fix_i18n_exports()
