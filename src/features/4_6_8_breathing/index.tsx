@@ -13,19 +13,14 @@ import { LanguageSwitcher } from "./components/LanguageSwitcher";
 
 const App = () => (
   <>
-    <>
-      <>
-      <>
-      <LanguageSwitcher />
-      <>
+    <LanguageSwitcher />
+      
         <Routes>
           <Route path="/" element={<IntroScreen />} />
           <Route path="/breathe" element={<ActiveBreathing />} />
           <Route path="/complete" element={<CompletionScreen />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
   </>
 );
 

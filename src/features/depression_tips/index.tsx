@@ -11,21 +11,19 @@ import NotFound from "./pages/NotFound";
 
 
 const App = () => (
-  <Suspense fallback={<div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", fontSize: "14px", color: "#888" }}>Loading…</div>}>
-    <>
-      <>
-        <>
-        <>
-        <>
+  <>
+    Loading…</div>}>
+    
+      
+        
+        
+        
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/tip/:id" element={<TipDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </>
-      </>
-    </>
-  </Suspense>
+  </>
 );
 
 export default App;

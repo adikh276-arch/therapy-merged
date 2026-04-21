@@ -13,11 +13,7 @@ import Token from "./pages/Token";
 
 const App = () => (
   <>
-    <>
-      <>
-      <>
-      <>
-        <Routes>
+    <Routes>
           <Route path="/token" element={<Token />} />
           <Route
             path="/"
@@ -37,8 +33,6 @@ const App = () => (
           />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
   </>
 );
 

@@ -16,13 +16,8 @@ import { AuthGuard } from "./components/AuthGuard";
 
 const App = () => (
   <>
-    <>
-      <LanguageSelector />
-      <>
-      <>
-      <>
-        
-          <Routes>
+    <LanguageSelector />
+    <Routes>
             <Route path="/" element={<IntroScreen />} />
             <Route path="/write" element={<WritingScreen />} />
             <Route path="/check-in" element={<EmotionalCheckIn />} />
@@ -30,9 +25,6 @@ const App = () => (
             <Route path="/letters" element={<PastLetters />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        
-      </>
-    </>
   </>
 );
 

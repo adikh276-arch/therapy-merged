@@ -13,18 +13,12 @@ import "./i18n";
 
 const App = () => (
   <>
-    <>
-      <>
-      <>
-      <LanguageSelector />
-      <>
-        <Routes>
+    <LanguageSelector />
+    <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tip/:slug" element={<TipDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
   </>
 );
 

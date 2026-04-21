@@ -11,17 +11,11 @@ import NotFound from "./pages/NotFound";
 
 const App = () => (
   <>
-    <>
-      <>
-      <>
-      <>
-        <Routes>
+    <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/technique/:id" element={<TechniqueDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
   </>
 );
 

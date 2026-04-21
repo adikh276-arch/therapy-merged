@@ -28,18 +28,13 @@ const LanguageHandler = () => {
 
 const App = () => (
   <>
-    <>
-      <>
-      <>
-      <>
-        <LanguageHandler />
-        <LanguageSelector />
+    <LanguageSelector />
+    <LanguageHandler />
+        
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
   </>
 );
 

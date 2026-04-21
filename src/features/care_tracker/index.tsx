@@ -15,22 +15,13 @@ import NotFound from "./pages/NotFound";
 // Trigger build after environment variable setup
 const App = () => (
   <>
-    <>
-      <>
-      <>
-      <>
-        <>
-          <LanguageSelector />
-          <Suspense fallback={<div className="flex items-center justify-center h-screen">Loading translations...</div>}>
+    <LanguageSelector />
+    Loading translations...</div>}>
             <Routes>
               <Route path="/" element={<Index />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
-          </Suspense>
-        </>
-      </>
-    </>
   </>
 );
 

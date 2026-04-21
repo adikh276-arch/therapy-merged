@@ -17,12 +17,8 @@ import LanguageSelector from "./components/LanguageSelector";
 
 const App = () => (
   <>
-    <>
-      <LanguageSelector />
-      <>
-      <>
-      <>
-        <Routes>
+    <LanguageSelector />
+    <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tip/seek-support" element={<SeekSupport />} />
           <Route path="/tip/deep-breathing" element={<DeepBreathing />} />
@@ -31,8 +27,6 @@ const App = () => (
           <Route path="/tip/positive-self-talk" element={<PositiveSelfTalk />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
   </>
 );
 

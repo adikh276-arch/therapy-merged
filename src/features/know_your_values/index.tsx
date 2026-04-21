@@ -15,20 +15,12 @@ import { AuthGuard } from "./components/AuthGuard";
 
 const App = () => (
   <>
-    <>
-      <>
-      <>
-      <>
-        <>
-          <LanguageSelector />
-          <Routes>
+    <LanguageSelector />
+    <Routes>
             <Route path="/" element={<Index />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </>
-      </>
-    </>
   </>
 );
 

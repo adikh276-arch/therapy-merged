@@ -16,12 +16,8 @@ import Token from "./pages/Token";
 
 const App = () => (
   <>
-    <>
-      <LanguageSelector />
-      <>
-      <>
-      <>
-        <Routes>
+    <LanguageSelector />
+    <Routes>
           <Route path="/token" element={<Token />} />
           <Route path="/" element={<GratitudeEntry />} />
           <Route path="/mood" element={<MoodSelection />} />
@@ -29,8 +25,6 @@ const App = () => (
           <Route path="/history" element={<History />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </>
   </>
 );
 
