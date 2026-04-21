@@ -9,13 +9,13 @@ import CompletionScreen from "./pages/CompletionScreen";
 import NotFound from "./pages/NotFound";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <LanguageSwitcher />
       <>
         <Routes>

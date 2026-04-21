@@ -9,13 +9,13 @@ import NotFound from "./pages/NotFound";
 import Token from "./pages/Token";
 
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <>
         <Routes>
           <Route path="/token" element={<Token />} />

@@ -7,14 +7,14 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { LanguageSelector } from "./components/LanguageSelector";
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
       <LanguageSelector />
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <>
         <Routes>
           <Route path="/" element={<Index />} />

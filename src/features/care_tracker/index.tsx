@@ -10,15 +10,15 @@ import { AuthProvider } from "./components/AuthProvider";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
-const queryClient = new QueryClient();
+
 
 // Trigger build after environment variable setup
 const App = () => (
   <>
     <>
-      <Toaster />
-      <Sonner />
-      <AuthProvider>
+      <>
+      <>
+      <>
         <>
           <LanguageSelector />
           <Suspense fallback={<div className="flex items-center justify-center h-screen">Loading translations...</div>}>
@@ -29,7 +29,7 @@ const App = () => (
             </Routes>
           </Suspense>
         </>
-      </AuthProvider>
+      </>
     </>
   </>
 );

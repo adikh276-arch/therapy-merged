@@ -8,13 +8,13 @@ import NotFound from "./pages/NotFound";
 
 import { AuthGuard } from "./components/AuthGuard";
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <>
         
           <Routes>

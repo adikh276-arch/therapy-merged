@@ -10,7 +10,7 @@ import { AuthGuard } from "./components/AuthGuard";
 import { initDatabase } from "./lib/db";
 import { useEffect } from "react";
 
-const queryClient = new QueryClient();
+
 
 const App = () => {
   useEffect(() => {
@@ -20,8 +20,8 @@ const App = () => {
   return (
     <>
       <>
-        <Toaster />
-        <Sonner />
+        <>
+        <>
         <>
           
             <Routes>

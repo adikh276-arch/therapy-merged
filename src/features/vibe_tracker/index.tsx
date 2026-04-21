@@ -7,13 +7,13 @@ import { AuthGuard } from "./components/AuthGuard";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <>
         
           <Routes>

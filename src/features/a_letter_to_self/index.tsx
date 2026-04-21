@@ -12,14 +12,14 @@ import NotFound from "./pages/NotFound";
 import { LanguageSelector } from "./components/LanguageSelector";
 import { AuthGuard } from "./components/AuthGuard";
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
       <LanguageSelector />
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <>
         
           <Routes>

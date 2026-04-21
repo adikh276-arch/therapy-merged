@@ -7,13 +7,13 @@ import Index from "./pages/Index";
 import TechniqueDetail from "./pages/TechniqueDetail";
 import NotFound from "./pages/NotFound";
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <>
         <Routes>
           <Route path="/" element={<Index />} />

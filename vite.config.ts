@@ -27,13 +27,12 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      // Alias @ to the src directory
       '@': path.resolve(__dirname, './src'),
       'react': path.resolve(__dirname, 'node_modules/react'),
       'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
       'react-router-dom': path.resolve(__dirname, 'node_modules/react-router-dom'),
-
     },
+    dedupe: ['react', 'react-dom', 'react-router-dom'],
   },
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.

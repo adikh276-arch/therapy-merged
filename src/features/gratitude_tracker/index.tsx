@@ -12,14 +12,14 @@ import History from "./pages/History";
 import NotFound from "./pages/NotFound";
 import Token from "./pages/Token";
 
-const queryClient = new QueryClient();
+
 
 const App = () => (
   <>
     <>
       <LanguageSelector />
-      <Toaster />
-      <Sonner />
+      <>
+      <>
       <>
         <Routes>
           <Route path="/token" element={<Token />} />
