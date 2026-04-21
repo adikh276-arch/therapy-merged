@@ -54,8 +54,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.REGISTRY_URL }}/therapy:1.0
-            ${{ secrets.REGISTRY_URL }}/therapy:latest
+            ${{ secrets.REGISTRY_URL }}/lovable/therapy:1.0
+            ${{ secrets.REGISTRY_URL }}/lovable/therapy:latest
           build-args: |
             VITE_AUTH_PORTAL_URL=${{ secrets.AUTH_PORTAL_URL }}
           cache-from: type=gha
