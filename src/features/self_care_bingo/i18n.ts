@@ -14,7 +14,7 @@ i18n
             escapeValue: false,
         },
         backend: {
-            loadPath: '/therapy/self_care_bingo/locales/{{lng}}/translation.json',
+            loadPath: '/therapy/locales/self_care_bingo/{{lng}}/translation.json',
         },
         detection: {
             order: ['querystring', 'localStorage', 'navigator', 'htmlTag'],
