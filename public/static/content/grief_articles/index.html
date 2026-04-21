@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grief & Loss — Articles & Guides</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:      #F1F5F9;
+    --primary: #475569;
+    --primary2:#3c4859;
+    --light:   #fdffff;
+    --mid:     #6a7f9d;
+    --ink:     #15191f;
+    --muted:   #232a34;
+    --white:   #ffffff;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family:'DM Sans',sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+
+  /* ── TOP NAV ── */
+  .top-nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    padding:1rem 2rem;
+    display:flex; align-items:center; justify-content:space-between;
+    background:rgba(241,245,249,0.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--mid);
+  }
+  .nav-logo {
+    font-family:'DM Serif Display',serif;
+    font-size:1.05rem; color:var(--primary2);
+    cursor:pointer; opacity:0; transition:opacity .3s;
+    pointer-events:none;
+  }
+  .nav-logo.visible { opacity:1; pointer-events:all; }
+  .nav-pill {
+    font-size:.7rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; background:var(--primary);
+    color:white; padding:5px 14px; border-radius:100px;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    text-align:center; padding:2rem;
+    position:relative; overflow:hidden;
+  }
+  .hero-orbs { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+  .orb {
+    position:absolute; border-radius:50%;
+    filter:blur(72px); opacity:.16;
+    animation:drift 10s ease-in-out infinite alternate;
+  }
+  .o1{width:560px;height:560px;background:var(--primary);top:-18%;left:-16%;animation-delay:0s;}
+  .o2{width:420px;height:420px;background:var(--primary);top:22%;right:-14%;animation-delay:-3s;}
+  .o3{width:360px;height:360px;background:var(--mid);bottom:-10%;left:20%;animation-delay:-6s;}
+  @keyframes drift{from{transform:translate(0,0)scale(1);}to{transform:translate(32px,20px)scale(1.07);}}
+
+  .hero-badge {
+    display:inline-flex; align-items:center; gap:9px;
+    background:white; border:2px solid var(--ink);
+    border-radius:100px; padding:7px 20px;
+    font-size:.72rem; font-weight:700; letter-spacing:.1em;
+    text-transform:uppercase; margin-bottom:2rem;
+    box-shadow:3px 3px 0 var(--primary);
+    animation:fadeUp .8s ease both;
+  }
+  .bdot { width:9px;height:9px;border-radius:50%;background:var(--primary);display:inline-block; }
+
+  h1.hero-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(2.4rem,5.5vw,4.6rem);
+    line-height:1.1; max-width:700px; margin-bottom:1.2rem;
+    animation:fadeUp .8s .1s ease both;
+  }
+  h1.hero-title em {
+    font-style:italic;
+    background:linear-gradient(135deg,var(--primary),var(--primary2));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+  }
+  .hero-sub {
+    font-size:1.08rem; color:var(--muted);
+    max-width:480px; line-height:1.75; margin-bottom:.9rem;
+    animation:fadeUp .8s .2s ease both;
+  }
+  .hero-quote {
+    font-style:italic; font-size:.88rem; color:var(--muted);
+    opacity:.75; margin-bottom:2.6rem;
+    animation:fadeUp .8s .3s ease both;
+  }
+  .cta-btn {
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:1rem;
+    padding:1rem 2.6rem; border-radius:100px; border:none; cursor:pointer;
+    box-shadow:4px 4px 0 var(--primary);
+    transition:transform .15s,box-shadow .15s;
+    animation:fadeUp .8s .4s ease both;
+  }
+  .cta-btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--primary);}
+
+  .hero-stats {
+    display:flex; gap:3rem; margin-top:3.5rem;
+    animation:fadeUp .8s .55s ease both;
+  }
+  .stat { text-align:center; }
+  .stat-n { font-family:'DM Serif Display',serif; font-size:2.1rem; color:var(--primary); }
+  .stat-l { font-size:.74rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:2px; }
+
+  @keyframes fadeUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:translateY(0);}}
+
+  /* ── ARTICLE LIST ── */
+  #article-list {
+    display:none; padding:5rem 2rem 4rem;
+    max-width:700px; margin:0 auto;
+  }
+  .al-header { margin-bottom:2.6rem; }
+  .al-header h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:2.3rem; margin-bottom:.4rem;
+  }
+  .al-header p { color:var(--muted); font-size:.95rem; }
+
+  .article-cards { display:flex; flex-direction:column; gap:1rem; }
+
+  .article-card {
+    background:white; border-radius:20px;
+    border:2px solid transparent;
+    cursor:pointer; overflow:hidden;
+    display:flex; align-items:stretch;
+    transition:all .22s ease;
+  }
+  .article-card:hover {
+    transform:translateX(6px);
+    box-shadow:-5px 5px 0 var(--ink);
+    border-color:var(--ink);
+  }
+  .ac-stripe { width:6px; flex-shrink:0; background:var(--primary); }
+  .ac-body { padding:1.4rem 1.6rem; flex:1; }
+  .ac-tag {
+    font-size:.63rem; font-weight:700; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:3px 10px; border-radius:100px;
+    display:inline-block; margin-bottom:.6rem;
+  }
+  .ac-title {
+    font-family:'DM Serif Display',serif;
+    font-size:1.18rem; margin-bottom:.4rem; line-height:1.3;
+  }
+  .ac-desc { font-size:.86rem; color:var(--muted); line-height:1.55; }
+  .ac-meta { font-size:.75rem; color:var(--muted); margin-top:.6rem; }
+
+  /* ── ARTICLE DETAIL ── */
+  #article-detail {
+    display:none; max-width:660px;
+    margin:0 auto; padding:5rem 2rem 6rem;
+  }
+
+  .back-btn {
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:.85rem; font-weight:600; color:var(--muted);
+    cursor:pointer; background:none; border:none;
+    margin-bottom:2rem; transition:color .15s;
+  }
+  .back-btn:hover { color:var(--ink); }
+
+  .ad-band {
+    height:7px; border-radius:100px; margin-bottom:2rem;
+    background:linear-gradient(90deg,var(--primary),var(--primary2),var(--mid));
+  }
+  .ad-tag {
+    font-size:.68rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:4px 13px; border-radius:100px;
+    display:inline-block; margin-bottom:1rem;
+  }
+  .ad-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(1.8rem,4vw,2.6rem);
+    line-height:1.1; margin-bottom:.9rem;
+  }
+  .ad-deck {
+    font-size:1.05rem; color:var(--muted); line-height:1.75;
+    border-bottom:2px solid var(--light);
+    padding-bottom:1.8rem; margin-bottom:2rem;
+  }
+  .ad-meta { font-size:.78rem; color:var(--muted); margin-bottom:1.5rem; }
+
+  /* body prose */
+  .ad-body h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:1.55rem; margin:2.2rem 0 .6rem; color:var(--ink);
+  }
+  .ad-body h3 {
+    font-size:1.02rem; font-weight:600;
+    margin:1.6rem 0 .45rem; color:var(--ink);
+  }
+  .ad-body p {
+    font-size:1rem; line-height:1.88; color:#334155; margin-bottom:1.2rem;
+  }
+  .ad-body ul, .ad-body ol {
+    padding-left:1.4rem; margin-bottom:1.2rem;
+  }
+  .ad-body li {
+    font-size:.97rem; line-height:1.75; color:#334155; margin-bottom:.4rem;
+  }
+
+  /* pull-quote */
+  .pullquote {
+    border-left:5px solid var(--primary);
+    background:var(--light);
+    padding:1.2rem 1.6rem; border-radius:0 16px 16px 0;
+    margin:2rem 0;
+    font-family:'DM Serif Display',serif;
+    font-style:italic; font-size:1.1rem; line-height:1.65; color:var(--ink);
+  }
+
+  /* key-box */
+  .keybox {
+    background:var(--light); border-radius:16px;
+    padding:1.4rem 1.7rem; margin:2rem 0;
+  }
+  .keybox-title {
+    font-weight:700; font-size:.75rem; text-transform:uppercase;
+    letter-spacing:.09em; color:var(--primary);
+    display:block; margin-bottom:.75rem;
+  }
+  .keybox ul { padding-left:1.2rem; }
+  .keybox li {
+    font-size:.93rem; color:var(--ink); line-height:1.7; margin-bottom:.35rem;
+  }
+
+  /* takeaway */
+  .ad-takeaway {
+    margin-top:2.4rem; padding:1.5rem 1.7rem;
+    border-radius:18px; border:2px solid var(--primary);
+    background:var(--light);
+  }
+  .takeaway-label {
+    font-weight:700; font-size:.7rem; text-transform:uppercase;
+    letter-spacing:.1em; color:var(--primary);
+    display:block; margin-bottom:.55rem;
+  }
+  .ad-takeaway p { font-size:.93rem; color:var(--ink); line-height:1.7; margin:0; }
+
+  .back-to-list-btn {
+    display:block; text-align:center;
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:.95rem;
+    padding:.95rem 2rem; border-radius:100px; border:none; cursor:pointer;
+    margin-top:2.8rem; box-shadow:3px 3px 0 var(--primary);
+    transition:opacity .15s, transform .15s;
+  }
+  .back-to-list-btn:hover { opacity:.88; transform:translateY(-1px); }
+
+  /* responsive */
+  @media(max-width:520px){
+    .hero-stats{gap:1.8rem;}
+    .stat-n{font-size:1.6rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <div class="nav-logo" id="navLogo" onclick="showHero()">Grief & Loss Guide</div>
+  <div class="nav-pill">Mental Health</div>
+</nav>
+
+<!-- ════════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-orbs">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+
+  <div class="hero-badge"><span class="bdot"></span>Evidence-Based · Compassionate · Clear</div>
+
+  <h1 class="hero-title">Grief Is Love<br>With Nowhere <em>Left to Go</em></h1>
+
+  <p class="hero-sub">These articles explore grief & loss. 1 in 4 bereaved each year 5 articles You are not alone. Discover what it really is and how to work with it.</p>
+
+  <p class="hero-quote">"Grief is the price we pay for love." — Queen Elizabeth II</p>
+
+  <button class="cta-btn" onclick="showList()">Read the Articles →</button>
+
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">1</div><div class="stat-l">in 4 bereaved each year</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">articles</div></div>
+    <div class="stat"><div class="stat-n">You</div><div class="stat-l">are not alone</div></div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE LIST
+════════════════════════════════════════ -->
+<section id="article-list">
+  <div class="al-header">
+    <h2>Grief & Loss Articles</h2>
+    <p>Five deep reads — choose wherever you are right now.</p>
+  </div>
+  <div class="article-cards" id="articleCards"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE DETAIL
+════════════════════════════════════════ -->
+<section id="article-detail">
+  <div id="articleDetailContent"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     DATA + LOGIC
+════════════════════════════════════════ -->
+<script>
+const articles = [
+{
+  tag: "Understanding",
+  title: "What Grief Really Feels Like — And Why There Is No ‘Normal’ Way to Grieve",
+  desc: "Grief is often expected to follow a pattern — but in reality, it rarely does.",
+  readTime: "12 min read",
+  deck: "Grief is not a linear process. It is a complex emotional response that can shift over time, often in unexpected ways.",
+  takeaway: "There is no correct way to grieve. What you are experiencing is not wrong — it is your mind and body adjusting to loss.",
+  body: `
+
+<h2>Grief Is Not a Straight Line</h2>
+<p>Grief is often described in stages — denial, anger, bargaining, depression, acceptance. While this framework can be helpful, it does not reflect how most people actually experience grief.</p>
+
+<p>In reality, grief is not linear. It moves in waves. Some days feel manageable, others feel overwhelming, and these can shift unexpectedly.</p>
+
+<p>This unpredictability is part of the process.</p>
+
+<div class="pullquote">
+"Grief does not move forward in steps — it moves in waves that come and go."
+</div>
+
+<h2>More Than Sadness</h2>
+<p>Grief is not just sadness. It can include a wide range of emotions — anger, guilt, confusion, numbness, even moments of relief.</p>
+
+<p>These emotions can coexist or shift rapidly.</p>
+
+<p>This complexity often makes grief difficult to understand.</p>
+
+<h2>The Absence That Remains</h2>
+<p>Grief is a response to loss — not just of a person, but of a relationship, a future, a sense of normal.</p>
+
+<p>It involves adjusting to an absence that cannot be replaced.</p>
+
+<p>This adjustment takes time.</p>
+
+<div class="pullquote">
+"Grief is not about forgetting — it is about learning how to live with what is no longer there."
+</div>
+
+<h2>Why It Feels So Physical</h2>
+<p>Grief is not only emotional. It can affect sleep, appetite, energy, and concentration.</p>
+
+<p>The body responds to loss as well as the mind.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Common experiences in grief:</span>
+  <ul>
+    <li>Emotional waves (sadness, anger, numbness)</li>
+    <li>Fatigue or low energy</li>
+    <li>Difficulty concentrating</li>
+    <li>Changes in sleep or appetite</li>
+  </ul>
+</div>
+
+<h2>Why Comparison Doesn’t Help</h2>
+<p>People often compare their grief to others — how long it lasts, how it looks, how it is expressed.</p>
+
+<p>This can create pressure to grieve “correctly.”</p>
+
+<p>But grief is individual. It reflects the relationship, the loss, and the person experiencing it.</p>
+
+<h2>What Matters Most</h2>
+<p>Allowing grief to be experienced — without forcing it into a specific pattern — supports adjustment.</p>
+
+<p>Over time, the intensity may change, but the significance of the loss remains.</p>
+
+`
+},
+{
+  tag: "Process",
+  title: "The Grieving Process: What Changes Over Time — And What Doesn’t",
+  desc: "Grief evolves over time, but it does not simply disappear.",
+  readTime: "11 min read",
+  deck: "Grief is often expected to ‘end,’ but it usually changes form rather than disappearing entirely.",
+  takeaway: "Grief does not go away — it becomes something you learn to carry differently.",
+  body: `
+
+<h2>The Early Phase</h2>
+<p>In the early stages of grief, emotions are often intense. The loss feels immediate and overwhelming.</p>
+
+<p>There may be disbelief, confusion, or a sense that the situation is not fully real.</p>
+
+<div class="pullquote">
+"In early grief, the mind struggles to catch up with what has happened."
+</div>
+
+<h2>Adjustment Over Time</h2>
+<p>As time passes, the intensity of grief often changes. It may become less constant, but still present.</p>
+
+<p>Moments of grief can be triggered by reminders — dates, places, or memories.</p>
+
+<h2>Continuing Bonds</h2>
+<p>Grief does not mean letting go completely. Many people maintain a sense of connection with what has been lost.</p>
+
+<p>This can take different forms — memories, rituals, or ongoing meaning.</p>
+
+<h2>What Doesn’t Change</h2>
+<p>The significance of the loss does not disappear. It remains part of the person’s experience.</p>
+
+<p>What changes is how it is integrated into life.</p>
+
+<div class="keybox">
+  <span class="keybox-title">How grief changes over time:</span>
+  <ul>
+    <li>Intensity may reduce</li>
+    <li>Frequency of emotional waves may decrease</li>
+    <li>Ability to function improves</li>
+    <li>Meaning begins to shift</li>
+  </ul>
+</div>
+
+<h2>Why Time Alone Isn’t Enough</h2>
+<p>Time supports change, but it does not automatically resolve grief. How the loss is processed matters.</p>
+
+<p>Support, reflection, and expression can influence this process.</p>
+
+<h2>Moving Forward</h2>
+<p>Moving forward does not mean leaving grief behind. It means integrating it into life in a way that allows for continued living.</p>
+
+`
+},
+{
+  tag: "Complicated",
+  title: "When Grief Feels Stuck: Understanding Complicated Grief",
+  desc: "Sometimes grief does not shift over time — and feels as intense as ever.",
+  readTime: "11 min read",
+  deck: "While grief is always difficult, in some cases it becomes prolonged and unchanging. This is sometimes referred to as complicated or prolonged grief.",
+  takeaway: "If grief feels unchanging and overwhelming over time, additional support can help the process move forward.",
+  body: `
+
+<h2>When Time Doesn’t Shift the Experience</h2>
+<p>For many people, grief changes over time. It may remain present, but its intensity gradually shifts.</p>
+
+<p>In complicated grief, this shift does not occur. The experience remains intense, persistent, and difficult to integrate.</p>
+
+<div class="pullquote">
+"Complicated grief is not about grieving too much — it is about grief that has not been able to move."
+</div>
+
+<h2>What It Feels Like</h2>
+<p>Complicated grief can involve persistent longing, difficulty accepting the loss, and a sense of being stuck.</p>
+
+<p>Daily functioning may be affected, and life may feel paused.</p>
+
+<h2>Why It Happens</h2>
+<p>There is no single cause. Factors may include the nature of the loss, the relationship, prior mental health, and available support.</p>
+
+<p>Some losses are harder to process than others.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Signs of complicated grief:</span>
+  <ul>
+    <li>Persistent intense longing</li>
+    <li>Difficulty accepting the loss</li>
+    <li>Feeling that life cannot move forward</li>
+    <li>Ongoing emotional pain without change</li>
+  </ul>
+</div>
+
+<h2>Why Support Matters</h2>
+<p>When grief remains stuck, additional support can help. Therapy can provide space to process the loss and move toward integration.</p>
+
+<h2>Moving Through It</h2>
+<p>Change may feel slow, but it is possible. With support, grief can begin to shift and become more manageable.</p>
+
+`
+},
+{
+  tag: "Support",
+  title: "How to Support Someone Who Is Grieving (Without Saying the Wrong Thing)",
+  desc: "Supporting someone in grief is often difficult — and well-meaning responses can sometimes miss the mark.",
+  readTime: "10 min read",
+  deck: "Many people want to help but are unsure what to say or do. Understanding what is helpful — and what isn’t — can make a difference.",
+  takeaway: "Support is less about having the right words — and more about being present and consistent.",
+  body: `
+
+<h2>The Difficulty of Knowing What to Say</h2>
+<p>When someone is grieving, it can be hard to know how to respond. There may be a fear of saying the wrong thing or making the situation worse.</p>
+
+<p>This uncertainty can lead to avoidance or overcompensation.</p>
+
+<div class="pullquote">
+"In grief, presence matters more than perfect words."
+</div>
+
+<h2>What Helps</h2>
+<p>Simple, honest communication is often most effective. Acknowledging the loss and offering support can be enough.</p>
+
+<p>Listening without trying to fix the situation allows the person to express their experience.</p>
+
+<h2>What to Avoid</h2>
+<p>Statements that minimise or try to reframe the loss — such as “everything happens for a reason” — may not be helpful.</p>
+
+<p>Grief does not need to be explained away.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Helpful ways to support:</span>
+  <ul>
+    <li>Listen without interrupting</li>
+    <li>Acknowledge the loss directly</li>
+    <li>Offer practical support</li>
+    <li>Stay consistent over time</li>
+  </ul>
+</div>
+
+<h2>The Importance of Consistency</h2>
+<p>Support is often strongest in the early period after a loss, but grief continues beyond that.</p>
+
+<p>Ongoing presence can be valuable.</p>
+
+<h2>Understanding Individual Needs</h2>
+<p>People grieve differently. Some may want to talk, others may prefer space.</p>
+
+<p>Respecting these differences is important.</p>
+
+`
+},
+{
+  tag: "Moving Forward",
+  title: "Moving Forward After Loss: What That Actually Means",
+  desc: "Moving forward does not mean leaving the past behind — it means integrating it.",
+  readTime: "10 min read",
+  deck: "The idea of ‘moving on’ can feel uncomfortable in grief. A more accurate concept is moving forward with the loss.",
+  takeaway: "Moving forward is not about forgetting — it is about building a life that includes the loss.",
+  body: `
+
+<h2>Why “Moving On” Feels Wrong</h2>
+<p>The phrase “moving on” can suggest leaving the past behind. In grief, this often does not feel possible or desirable.</p>
+
+<p>The relationship and the loss remain meaningful.</p>
+
+<div class="pullquote">
+"You don’t move on from loss — you move forward with it."
+</div>
+
+<h2>Integration Rather Than Erasure</h2>
+<p>Moving forward involves integrating the loss into life. This includes maintaining memories and meaning while continuing to engage with the present.</p>
+
+<h2>Rebuilding Life</h2>
+<p>Over time, individuals begin to rebuild routines, relationships, and activities.</p>
+
+<p>This does not replace what was lost, but it allows for continued living.</p>
+
+<h2>Finding Meaning</h2>
+<p>Some people find meaning through reflection, connection, or creating something new from their experience.</p>
+
+<p>This is not required, but can be part of the process.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Moving forward may involve:</span>
+  <ul>
+    <li>Re-engaging with daily life</li>
+    <li>Maintaining meaningful memories</li>
+    <li>Building new routines</li>
+    <li>Allowing both grief and growth</li>
+  </ul>
+</div>
+
+<h2>A Continuing Process</h2>
+<p>Grief does not have a fixed endpoint. It becomes part of the broader experience of life.</p>
+
+<p>Moving forward means continuing to live while carrying that experience.</p>
+
+`
+}
+];
+
+/* ─────────────────────────────────────────────
+   NAVIGATION STATE
+───────────────────────────────────────────── */
+let currentArticleIndex = null;
+let navState = 'hero'; // hero | list | detail
+
+function showHero() {
+  navState = 'hero';
+  document.getElementById('hero').style.display = 'flex';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.remove('visible');
+  window.scrollTo({ top: 0 });
+}
+
+function showList() {
+  navState = 'list';
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'block';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.add('visible');
+  renderCards();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showArticle(i) {
+  navState = 'detail';
+  currentArticleIndex = i;
+  const a = articles[i];
+
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'block';
+  document.getElementById('navLogo').classList.add('visible');
+
+  document.getElementById('articleDetailContent').innerHTML = `
+    <button class="back-btn" onclick="showList()">← All Articles</button>
+    <div class="ad-band"></div>
+    <span class="ad-tag">${a.tag}</span>
+    <h1 class="ad-title">${a.title}</h1>
+    <p class="ad-meta">${a.readTime} &nbsp;·&nbsp; Grief & Loss Guide</p>
+    <p class="ad-deck">${a.deck}</p>
+    <div class="ad-body">${a.body}</div>
+    <div class="ad-takeaway">
+      <span class="takeaway-label">💙 Key takeaway</span>
+      <p>${a.takeaway}</p>
+    </div>
+    <button class="back-to-list-btn" onclick="showList()">← Back to All Articles</button>
+  `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderCards() {
+  const container = document.getElementById('articleCards');
+  container.innerHTML = '';
+  articles.forEach((a, i) => {
+    const card = document.createElement('div');
+    card.className = 'article-card';
+    card.innerHTML = `
+      <div class="ac-stripe"></div>
+      <div class="ac-body">
+        <span class="ac-tag">${a.tag}</span>
+        <div class="ac-title">${a.title}</div>
+        <div class="ac-desc">${a.desc}</div>
+        <div class="ac-meta">${a.readTime}</div>
+      </div>
+    `;
+    card.onclick = () => showArticle(i);
+    container.appendChild(card);
+  });
+}
+
+// boot
+showHero();
+</script>
+</body>
+</html>

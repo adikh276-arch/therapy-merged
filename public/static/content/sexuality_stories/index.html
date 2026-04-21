@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sexual Identity & Orientation — Real Stories</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #F0E7FF; --primary: #A78BFA; --ink: #3F0F5C; --primary-light: #EDE7FE; --primary-mid: #D7CAFC; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; overflow-x: hidden; }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; background: rgba(167,139,250,0.88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--primary-mid); }
+  .nav-logo { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: white; display: none; cursor: pointer; }
+  .nav-logo.visible { display: block; }
+  .nav-tag { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: var(--primary); color: white; padding: 4px 12px; border-radius: 100px; }
+  #hero { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 6rem 2rem 4rem; position: relative; overflow: hidden; }
+  .hero-orbs { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+  .orb { position: absolute; border-radius: 50%; filter: blur(70px); opacity: 0.18; animation: drift 9s ease-in-out infinite alternate; }
+  .orb1 { width: 500px; height: 500px; background: var(--primary); top: -15%; left: -18%; }
+  .orb2 { width: 380px; height: 380px; background: #CAB9FC; top: 25%; right: -12%; animation-delay: -2.5s; }
+  .orb3 { width: 320px; height: 320px; background: var(--primary); bottom: -8%; left: 25%; animation-delay: -5s; }
+  @keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(35px,22px) scale(1.06); } }
+  .hero-badge { display: inline-flex; align-items: center; gap: 10px; background: white; border: 2px solid var(--ink); border-radius: 100px; padding: 8px 20px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 2rem; box-shadow: 3px 3px 0 var(--primary); animation: fadeUp 0.8s ease both; }
+  .badge-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); }
+  h1.hero-title { font-family: 'DM Serif Display', serif; font-size: clamp(2.6rem,5.5vw,4.6rem); line-height: 1.1; max-width: 720px; margin-bottom: 1.3rem; animation: fadeUp 0.8s 0.1s ease both; }
+  h1.hero-title em { font-style: italic; background: linear-gradient(135deg, var(--primary), #CAB9FC); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .hero-sub { font-size: 1.1rem; color: #6B21A8; max-width: 480px; line-height: 1.75; margin-bottom: 0.9rem; animation: fadeUp 0.8s 0.2s ease both; }
+  .hero-quote { font-style: italic; font-size: 0.9rem; color: #6B21A8; opacity: 0.7; margin-bottom: 2.6rem; animation: fadeUp 0.8s 0.3s ease both; }
+  .cta-btn { display: inline-block; background: var(--primary); color: white; font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 1rem; padding: 1rem 2.6rem; border-radius: 100px; border: none; cursor: pointer; transition: all 0.2s; box-shadow: 0 4px 20px rgba(167,139,250,0.4); animation: fadeUp 0.8s 0.4s ease both; }
+  .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(167,139,250,0.5); }
+  .hero-stats { display: flex; gap: 2.5rem; margin-top: 3.5rem; animation: fadeUp 0.8s 0.5s ease both; }
+  .stat { text-align: center; }
+  .stat-num { font-family: 'DM Serif Display', serif; font-size: 2rem; color: var(--primary); }
+  .stat-label { font-size: 0.78rem; color: #6B21A8; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  #stories-list { display: none; padding: 7rem 2rem 4rem; max-width: 900px; margin: 0 auto; }
+  .list-header { margin-bottom: 2.5rem; }
+  .list-header h2 { font-family: 'DM Serif Display', serif; font-size: 2.2rem; margin-bottom: 0.5rem; }
+  .list-header p { color: #6B21A8; font-size: 1rem; }
+  .cards-grid { display: grid; gap: 1.2rem; }
+  .story-card { background: white; border-radius: 20px; overflow: hidden; cursor: pointer; transition: all 0.25s; box-shadow: 0 2px 12px rgba(167,139,250,0.08); display: flex; border: 1.5px solid var(--primary-light); }
+  .story-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(167,139,250,0.18); }
+  .card-stripe { width: 5px; flex-shrink: 0; background: var(--primary); }
+  .card-body { padding: 1.4rem 1.6rem; flex: 1; }
+  .card-top { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.8rem; }
+  .card-avatar { width: 52px; height: 52px; border-radius: 50%; overflow: hidden; border: 2.5px solid var(--primary); flex-shrink: 0; }
+  .card-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+  .card-name { font-weight: 600; font-size: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+  .card-tag { font-size: 0.7rem; font-weight: 600; padding: 3px 10px; border-radius: 100px; background: var(--primary-light); color: var(--primary); }
+  .card-quote { font-size: 0.92rem; color: #6B21A8; font-style: italic; line-height: 1.6; }
+  #story-detail { display: none; padding: 7rem 2rem 4rem; max-width: 680px; margin: 0 auto; }
+  .story-hero-band { height: 5px; background: linear-gradient(90deg, var(--primary), #CAB9FC); border-radius: 100px; margin-bottom: 2rem; }
+  .story-name-large { font-family: 'DM Serif Display', serif; font-size: 2.4rem; margin-bottom: 0.5rem; }
+  .story-identity-badge { display: inline-block; font-size: 0.78rem; font-weight: 600; padding: 5px 14px; border-radius: 100px; border: 1.5px solid; margin-bottom: 2rem; }
+  .portrait-wrap { width: 100%; height: 340px; border-radius: 20px; overflow: hidden; margin-bottom: 2rem; background: var(--primary-light); }
+  .portrait-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+  .story-body p { font-size: 1.05rem; line-height: 1.85; color: #6B21A8; margin-bottom: 1.4rem; }
+  .story-highlight { border-left: 4px solid; padding: 1.2rem 1.5rem; border-radius: 0 12px 12px 0; font-size: 1.05rem; font-style: italic; font-weight: 500; line-height: 1.7; margin: 2rem 0; }
+  .story-takeaway { border: 1.5px solid; border-radius: 16px; padding: 1.4rem 1.6rem; margin: 1.5rem 0; font-size: 0.95rem; line-height: 1.75; color: #6B21A8; }
+  .takeaway-label { display: block; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.6rem; }
+  .back-to-stories-btn { margin-top: 2.5rem; display: inline-block; padding: 0.85rem 2rem; background: var(--primary); color: white; border: none; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 0.95rem; cursor: pointer; transition: all 0.2s; }
+  .back-to-stories-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-logo" id="navLogo" onclick="showHero()">Sexual Identity & Orientation</div>
+  <div class="nav-tag">Mental Health</div>
+
+</nav>
+
+<section id="hero">
+  <div class="hero-orbs">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+  </div>
+  <div class="hero-badge"><span class="badge-dot"></span> Real Stories · Real Emotions</div>
+  <h1 class="hero-title"><em>Authentic</em> Love Is Worth It</h1>
+  <p class="hero-sub">Coming out is brave. Accepting yourself is braver. These are stories of people living authentically.</p>
+  <p class="hero-quote">"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment." — Ralph Waldo Emerson</p>
+  <button class="cta-btn" onclick="showStories()">Read Their Stories →</button>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">1.6B+</div><div class="stat-label">LGBTQ+ People</div></div>
+    <div class="stat"><div class="stat-num">6</div><div class="stat-label">Stories Shared</div></div>
+    <div class="stat"><div class="stat-num">Pride</div><div class="stat-label">Matters</div></div>
+  </div>
+</section>
+
+<section id="stories-list">
+  <div class="list-header">
+    <h2>Stories of Sexual Identity & Orientation</h2>
+    <p>Coming out is brave. Accepting yourself is braver. These are stories of people living authentically.</p>
+  </div>
+  <div class="cards-grid" id="cardsContainer"></div>
+</section>
+
+<section id="story-detail">
+  <div id="detailContent"></div>
+</section>
+
+<script>
+const stories = [{"name": "Marcus", "age": 34, "identity": "Gay Man Living Authentically", "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face", "portrait_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=500&fit=crop", "quote": "I spent twenty years pretending to be someone I wasn't.", "story": ["I knew I was different by adolescence. But in my community, being gay was not an option. So I didn't acknowledge it. I dated women. I tried to be the man I was supposed to be. And it was killing me slowly.", "The internal conflict was relentless. Having to hide who you are is exhausting. Dating women I didn't love. Listening to homophobic jokes and laughing along. Never being able to actually show up as myself.", "I wasn't diagnosed with depression or anxiety until my thirties, but looking back, it was the internal closedness that was suffocating me. I was depressed because I was living a lie.", "Coming out was terrifying. I lost some family relationships. Some people were shocked. But I also felt myself relax for the first time in two decades. The weight of hiding was gone.", "I'm in a relationship with a man now. It's publicly visible and normal and that ordinariness is revolutionary. I get to just live my life without apology."], "highlight": "Your authentic self is worth the risk. Hiding kills you slowly. Honesty sets you free.", "takeaway": "Coming out is a personal decision and a process. If you're closeted and struggling with mental health, therapy with an LGBTQ-affirming therapist can help you explore your options and build resilience."}, {"name": "Sarah", "age": 28, "identity": "Bisexual Woman", "avatar_url": "https://images.unsplash.com/photo-1488716820095-cbe80883c496?w=200&h=200&fit=crop&crop=face", "portrait_url": "https://images.unsplash.com/photo-1488716820095-cbe80883c496?w=800&h=500&fit=crop", "quote": "People said I was confused. I was the only one who was clear.", "story": ["I came out as bisexual in my twenties and immediately faced skepticism. From straight people who said bisexuality wasn't real, and from gay people who said I was just confused or going through a phase.", "The delegitimization of bisexuality was painful. I wasn't confused. I was attracted to multiple genders. That was clear to me. But the world kept telling me I had to choose, or that I wasn't really queer.", "I faced discrimination from multiple directions. Straight people saw me as overly sexual or unreliable. Gay communities sometimes saw me as not-really-queer. I was caught between categories.", "Finding other bisexual people who were secure in their identity was transformative. They helped me understand that bisexuality is valid and doesn't require explanation or defence.", "I'm married to a man now and some queer people question whether I'm still bisexual. Yes. Bisexuality is about attraction, not about who I'm currently dating. I'm secure in my identity in ways I wasn't when I was trying to prove my queerness to others."], "highlight": "Your identity is valid even if others don't understand it. You don't have to choose or prove yourself.", "takeaway": "Bisexual+ individuals face unique discrimination from both straight and gay communities. If you're struggling with identity validation, finding affirming spaces is important."}, {"name": "Alex", "age": 25, "identity": "Transgender Man", "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&crop=face", "portrait_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&h=500&fit=crop", "quote": "Transition wasn't about becoming someone new. It was about becoming myself.", "story": ["I was assigned female at birth but I knew from childhood that I wasn't a girl. I spent my adolescence in dysphoria and denial. I couldn't acknowledge the truth because acknowledging it would require massive change.", "I went through the motions. Dating men because that's what girls do. Performing femininity. But every moment felt like I was wearing a costume that didn't fit.", "Transition was necessary for my mental health. Not optional, not frivolous. Necessary. The dysphoria was unbearable and transition reduced it dramatically.", "Medical transition (hormone therapy, surgery) was part of that. But equally important was social transition \u2014 being addressed correctly, wearing clothes that fit my identity, being seen as male by the world.", "I'm on the other side now. I have depression sometimes, I have dysphoria occasionally, but I'm not in the constant crisis of living in the wrong body. My mental health is exponentially better."], "highlight": "Transition is medical care that saves lives. It's not a luxury or a phase \u2014 it's essential treatment.", "takeaway": "Transgender individuals have high rates of depression, anxiety, and suicidality, largely driven by dysphoria and discrimination. Affirming medical and mental healthcare is lifesaving."}, {"name": "Priya", "age": 31, "identity": "Asexual & Aromantic Spectrum", "avatar_url": "https://images.unsplash.com/photo-1488716820095-cbe80883c496?w=200&h=200&fit=crop&crop=face", "portrait_url": "https://images.unsplash.com/photo-1488716820095-cbe80883c496?w=800&h=500&fit=crop", "quote": "I thought something was wrong with me until I learned I wasn't broken \u2014 I was just asexual.", "story": ["I grew up thinking there was something wrong with me because I didn't experience sexual attraction. Everyone around me seemed to want sex and I just... didn't. I felt broken.", "I tried. I dated men because that's what I was supposed to want. I performed sexual interest I didn't feel. The gap between what I was supposed to want and what I actually wanted was distressing.", "I was ashamed. If I was truly woman enough, I would want sex. If I was really attracted to men, I would feel something. But I felt nothing. And I thought that meant I was defective.", "Learning about asexuality was transformative. I'm not broken. I'm not defective. I'm just asexual. And there are whole communities of asexual people living fulfilling lives.", "I'm now in an open relationship with a partner who has a sexual partner and I have close intimate bonds with people who are also asexual or aromantic spectrum. It's not the traditional relationship model but it's real and it works."], "highlight": "Asexuality is a valid orientation. You don't have to want sex to be a full person.", "takeaway": "Asexual, aromantic, and other orientations on these spectrums are often invisible and invalidated. If you identify this way, finding community and affirming therapy can help."}, {"name": "David", "age": 42, "identity": "Gay Man Who Came Out at 35", "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face", "portrait_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=500&fit=crop", "quote": "It's never too late to come out. It's never too late to be yourself.", "story": ["I got married at twenty-five. Had kids. Built a career. And at thirty-five, I could no longer ignore that I was gay. I had lived a whole life trying to be straight and it was suffocating me.", "Coming out felt like destruction. I was destroying my marriage, my family structure, my identity as I had constructed it. But staying closeted was destroying me.", "My marriage ended, though we remain connected as co-parents. My kids had to adjust. My family had complicated reactions. But I also finally became real.", "Coming out later in life is different from coming out young. I had more to lose. But I also had more clarity about what I was losing it for \u2014 my own life.", "I'm now in a relationship with a man and I'm open about it with my kids, my family, my community. Am I happy? Yes. Do I regret the lost time? Sometimes. But I'm grateful I had the courage to change."], "highlight": "Coming out is never the wrong time if it's the right time for you. Age doesn't diminish your right to authenticity.", "takeaway": "Coming out later in life is common and valid. If you're navigating this, therapy can help you process both the losses and the liberation."}, {"name": "Sam", "age": 23, "identity": "Still Figuring It Out", "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face", "portrait_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=500&fit=crop", "quote": "I don't know exactly what my sexuality is and I'm learning that's okay.", "story": ["I'm in my early twenties and I'm attracted to multiple people of multiple genders. I'm not sure what label fits. Queer feels right sometimes. Fluid feels right sometimes. I don't have a fixed identity and that's given me so much anxiety.", "There's pressure to know. To have a clean label. To be settled in your identity. But I'm not settled. And every time I try to commit to a label, it doesn't feel quite right.", "I was in therapy thinking something was wrong with me for not knowing. My therapist helped me see that not being settled is okay. Identity can evolve. You don't have to know everything about yourself at twenty-three.", "I'm learning to sit with ambiguity. To let my identity be fluid and exploratory. To not force myself into categories before they feel true.", "I'm meeting other queer people who are also figuring things out. We're learning together that sexuality and gender are spectrums and you don't have to have all the answers right now."], "highlight": "You don't have to know your identity perfectly. It's okay to be questioning, exploring, changing.", "takeaway": "Sexual and gender identity can evolve over time. You don't need to have all the answers immediately. Therapy can help you navigate uncertainty without pressure."}];
+
+function showHero() { document.getElementById('hero').style.display = 'flex'; document.getElementById('stories-list').style.display = 'none'; document.getElementById('story-detail').style.display = 'none'; document.getElementById('navLogo').classList.remove('visible'); window.scrollTo({ top: 0 }); }
+function showStories() { document.getElementById('hero').style.display = 'none'; document.getElementById('stories-list').style.display = 'block'; document.getElementById('story-detail').style.display = 'none'; document.getElementById('navLogo').classList.add('visible'); renderCards(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+function renderCards() { const container = document.getElementById('cardsContainer'); container.innerHTML = ''; stories.forEach((s, i) => { const card = document.createElement('div'); card.className = 'story-card'; card.innerHTML = `<div class="card-stripe"></div><div class="card-body"><div class="card-top"><div class="card-name-wrap"><div class="card-name">${s.name}, ${s.age} <span class="card-tag">${s.identity}</span></div></div></div><div class="card-quote">"${s.quote}"</div></div>`; card.onclick = () => showStory(i); container.appendChild(card); }); }
+function showStory(index) { const s = stories[index]; document.getElementById('hero').style.display = 'none'; document.getElementById('stories-list').style.display = 'none'; document.getElementById('story-detail').style.display = 'block'; document.getElementById('navLogo').classList.add('visible'); const storyParas = s.story.map(p => `<p>${p}</p>`).join(''); document.getElementById('detailContent').innerHTML = `<div class="story-hero-band"></div><h1 class="story-name-large">${s.name}, ${s.age}</h1><span class="story-identity-badge" style="background:#EDE7FE;color:#A78BFA;border-color:#A78BFA">${s.identity}</span><div class="story-body">${storyParas}</div><div class="story-highlight" style="border-color:#A78BFA;background:#EDE7FE;color:#A78BFA">"${s.highlight}"</div><div class="story-takeaway" style="border-color:#A78BFA;background:rgba(167,139,250,0.8)"><span class="takeaway-label" style="color:#A78BFA">🌈 Something to sit with</span>${s.takeaway}</div><button class="back-to-stories-btn" onclick="showStories()">← Back to All Stories</button>`; window.scrollTo({ top: 0, behavior: 'smooth' }); }
+showHero();
+</script>
+<script src="./i18n/loader.js"></script>
+
+
+
+</body>
+</html>

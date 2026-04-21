@@ -1,0 +1,173 @@
+{
+  "common": {
+    "title": "Affermazioni — Un gentile compagno",
+    "beforeYouBegin": "Prima di iniziare",
+    "introText1": "Se ti senti a tuo agio, puoi scegliere di metterti davanti a uno specchio mentre leggi queste affermazioni.",
+    "introText2": "Potresti guardarti delicatamente e pronunciare ogni frase ad alta voce, lentamente e chiaramente. Ascoltare la tua voce può rendere le parole più personali e concrete.",
+    "noRightWay": "Non esiste un modo giusto per farlo.",
+    "takeTime": "Prenditi il tuo tempo.",
+    "breatheNaturally": "Respira in modo naturale.",
+    "noRush": "Non c'è bisogno di affrettare o forzare alcun sentimento.",
+    "meaningfulMoment": "Anche se in questo momento le parole non sembrano del tutto vere, concedersi questo momento di intenzione può comunque avere un significato.",
+    "readyToBegin": "Quando ti senti pronto, puoi iniziare ✨",
+    "begin": "Inizio",
+    "howFeeling": "Come ti senti adesso?",
+    "noExplanation": "Non devi spiegare o analizzare nulla.",
+    "justNotice": "Nota semplicemente cosa ti sembra più vicino alla tua esperienza in questo momento.",
+    "chooseOne": "Scegli un sentimento da cui iniziare: puoi sempre tornare indietro.",
+    "readAgain": "Leggi di nuovo",
+    "chooseAnother": "Scegli un altro sentimento"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Quando ti senti solo e triste",
+      "affirmations": [
+        "Non sono solo, anche quando mi sembra così.",
+        "I miei sentimenti meritano cura e delicatezza.",
+        "Questo momento non durerà per sempre.",
+        "Mi è consentito aver bisogno di una connessione.",
+        "Posso offrirmi calore in questo momento."
+      ]
+    },
+    "terrified": {
+      "label": "Quando ti senti terrorizzato",
+      "affirmations": [
+        "In questo momento sono al sicuro.",
+        "La paura è un sentimento, non una previsione.",
+        "Posso respirare un respiro alla volta.",
+        "Non devo risolvere tutto adesso.",
+        "Sono più forte di questo momento."
+      ]
+    },
+    "insignificant": {
+      "label": "Quando ti senti insignificante",
+      "affirmations": [
+        "Anche i piccoli momenti contano.",
+        "Non ho bisogno di dimostrare il mio valore.",
+        "Mi è permesso occupare spazio.",
+        "La mia esistenza è importante.",
+        "Io sono abbastanza così come sono."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Quando ti senti sopraffatto",
+      "affirmations": [
+        "Non devo fare tutto in una volta.",
+        "Basta un piccolo passo.",
+        "Va bene fare una pausa.",
+        "Mi è permesso riposare.",
+        "La situazione tornerà gestibile."
+      ]
+    },
+    "hopeless": {
+      "label": "Quando ti senti senza speranza",
+      "affirmations": [
+        "Oggi non ho bisogno di risposte.",
+        "Il cambiamento è ancora possibile.",
+        "Ho già superato giornate difficili.",
+        "Per ora posso restare qui.",
+        "Qualcosa di gentile può ancora accadere."
+      ]
+    },
+    "conflicted": {
+      "label": "Quando ti senti in conflitto",
+      "affirmations": [
+        "Va bene provare più di una cosa contemporaneamente.",
+        "Non ho bisogno di chiarezza immediata.",
+        "La confusione non significa fallimento.",
+        "Posso prendermi del tempo.",
+        "Confido in me stesso per capirlo."
+      ]
+    },
+    "self-critical": {
+      "label": "Quando sei molto autocritico",
+      "affirmations": [
+        "Posso parlare a me stesso con gentilezza.",
+        "Non ho bisogno di punirmi per crescere.",
+        "Gli errori non definiscono chi sono.",
+        "Sto imparando, non fallendo.",
+        "La crescita non richiede crudeltà."
+      ]
+    },
+    "out-of-place": {
+      "label": "Quando ti senti socialmente fuori posto",
+      "affirmations": [
+        "Mi è permesso stare in silenzio o essere diverso.",
+        "Non devo eguagliare l'energia di nessun altro.",
+        "Io appartengo a questo posto così come sono.",
+        "Posso occupare spazio delicatamente.",
+        "Non sto sbagliando."
+      ]
+    },
+    "unsafe": {
+      "label": "Quando ti senti insicuro con gli sconosciuti",
+      "affirmations": [
+        "Posso muovermi al mio ritmo.",
+        "Mi è consentito proteggere i miei confini.",
+        "Posso rimanere ancorato al mio corpo.",
+        "Mi è consentito abbandonare le situazioni.",
+        "Posso proteggermi."
+      ]
+    },
+    "pressured": {
+      "label": "Quando ti senti sotto pressione al lavoro",
+      "affirmations": [
+        "Il mio valore non è la mia produttività.",
+        "Non ho bisogno di dimostrare costantemente il mio valore.",
+        "Oggi mi basta fare del mio meglio.",
+        "Va bene svolgere un compito alla volta.",
+        "Io sono più del mio ruolo."
+      ]
+    },
+    "face-the-day": {
+      "label": "Quando non vuoi affrontare la giornata",
+      "affirmations": [
+        "Posso vivere la giornata di oggi a piccoli pezzi.",
+        "Basta passare.",
+        "Non ho bisogno di motivazione per iniziare.",
+        "Presentarsi con delicatezza conta ancora.",
+        "Questa giornata non mi definisce."
+      ]
+    },
+    "future": {
+      "label": "Quando ti preoccupi del tuo futuro",
+      "affirmations": [
+        "Posso tornare al presente.",
+        "Gestirò le cose come verranno.",
+        "Oggi non ho bisogno di certezze.",
+        "Sono capace di adattarmi.",
+        "Posso fidarmi un po' di più di me stesso."
+      ]
+    },
+    "stuck": {
+      "label": "Quando ti senti bloccato in un problema",
+      "affirmations": [
+        "Essere bloccato non significa che sono rotto.",
+        "Posso fermarmi senza arrendermi.",
+        "Non ho bisogno di soluzioni immediate.",
+        "Mi è concesso sentirmi insicuro.",
+        "Mi muovo ancora, anche se lentamente."
+      ]
+    },
+    "compare": {
+      "label": "Quando ti paragoni",
+      "affirmations": [
+        "Il mio viaggio è personale.",
+        "Non ho bisogno di competere per essere degno.",
+        "Mi è permesso crescere al mio ritmo.",
+        "Il successo di qualcun altro non cancella il mio.",
+        "Non sono indietro."
+      ]
+    },
+    "give-up": {
+      "label": "Quando vuoi rinunciare",
+      "affirmations": [
+        "Non devo decidere nulla adesso.",
+        "Questa sensazione passerà.",
+        "Sono sopravvissuto a più di quanto pensassi.",
+        "Posso restare ancora un attimo.",
+        "Sono ancora qui, e questo è importante."
+      ]
+    }
+  }
+}

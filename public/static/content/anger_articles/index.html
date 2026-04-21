@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anger & Emotional Regulation — Articles & Guides</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:      #FFF0EB;
+    --primary: #F97316;
+    --primary2:#d36112;
+    --light:   #fffcf6;
+    --mid:     #ffac21;
+    --ink:     #4a2206;
+    --muted:   #7c390b;
+    --white:   #ffffff;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family:'DM Sans',sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+
+  /* ── TOP NAV ── */
+  .top-nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    padding:1rem 2rem;
+    display:flex; align-items:center; justify-content:space-between;
+    background:rgba(255,240,235,0.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--mid);
+  }
+  .nav-logo {
+    font-family:'DM Serif Display',serif;
+    font-size:1.05rem; color:var(--primary2);
+    cursor:pointer; opacity:0; transition:opacity .3s;
+    pointer-events:none;
+  }
+  .nav-logo.visible { opacity:1; pointer-events:all; }
+  .nav-pill {
+    font-size:.7rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; background:var(--primary);
+    color:white; padding:5px 14px; border-radius:100px;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    text-align:center; padding:2rem;
+    position:relative; overflow:hidden;
+  }
+  .hero-orbs { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+  .orb {
+    position:absolute; border-radius:50%;
+    filter:blur(72px); opacity:.16;
+    animation:drift 10s ease-in-out infinite alternate;
+  }
+  .o1{width:560px;height:560px;background:var(--primary);top:-18%;left:-16%;animation-delay:0s;}
+  .o2{width:420px;height:420px;background:var(--primary);top:22%;right:-14%;animation-delay:-3s;}
+  .o3{width:360px;height:360px;background:var(--mid);bottom:-10%;left:20%;animation-delay:-6s;}
+  @keyframes drift{from{transform:translate(0,0)scale(1);}to{transform:translate(32px,20px)scale(1.07);}}
+
+  .hero-badge {
+    display:inline-flex; align-items:center; gap:9px;
+    background:white; border:2px solid var(--ink);
+    border-radius:100px; padding:7px 20px;
+    font-size:.72rem; font-weight:700; letter-spacing:.1em;
+    text-transform:uppercase; margin-bottom:2rem;
+    box-shadow:3px 3px 0 var(--primary);
+    animation:fadeUp .8s ease both;
+  }
+  .bdot { width:9px;height:9px;border-radius:50%;background:var(--primary);display:inline-block; }
+
+  h1.hero-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(2.4rem,5.5vw,4.6rem);
+    line-height:1.1; max-width:700px; margin-bottom:1.2rem;
+    animation:fadeUp .8s .1s ease both;
+  }
+  h1.hero-title em {
+    font-style:italic;
+    background:linear-gradient(135deg,var(--primary),var(--primary2));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+  }
+  .hero-sub {
+    font-size:1.08rem; color:var(--muted);
+    max-width:480px; line-height:1.75; margin-bottom:.9rem;
+    animation:fadeUp .8s .2s ease both;
+  }
+  .hero-quote {
+    font-style:italic; font-size:.88rem; color:var(--muted);
+    opacity:.75; margin-bottom:2.6rem;
+    animation:fadeUp .8s .3s ease both;
+  }
+  .cta-btn {
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:1rem;
+    padding:1rem 2.6rem; border-radius:100px; border:none; cursor:pointer;
+    box-shadow:4px 4px 0 var(--primary);
+    transition:transform .15s,box-shadow .15s;
+    animation:fadeUp .8s .4s ease both;
+  }
+  .cta-btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--primary);}
+
+  .hero-stats {
+    display:flex; gap:3rem; margin-top:3.5rem;
+    animation:fadeUp .8s .55s ease both;
+  }
+  .stat { text-align:center; }
+  .stat-n { font-family:'DM Serif Display',serif; font-size:2.1rem; color:var(--primary); }
+  .stat-l { font-size:.74rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:2px; }
+
+  @keyframes fadeUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:translateY(0);}}
+
+  /* ── ARTICLE LIST ── */
+  #article-list {
+    display:none; padding:5rem 2rem 4rem;
+    max-width:700px; margin:0 auto;
+  }
+  .al-header { margin-bottom:2.6rem; }
+  .al-header h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:2.3rem; margin-bottom:.4rem;
+  }
+  .al-header p { color:var(--muted); font-size:.95rem; }
+
+  .article-cards { display:flex; flex-direction:column; gap:1rem; }
+
+  .article-card {
+    background:white; border-radius:20px;
+    border:2px solid transparent;
+    cursor:pointer; overflow:hidden;
+    display:flex; align-items:stretch;
+    transition:all .22s ease;
+  }
+  .article-card:hover {
+    transform:translateX(6px);
+    box-shadow:-5px 5px 0 var(--ink);
+    border-color:var(--ink);
+  }
+  .ac-stripe { width:6px; flex-shrink:0; background:var(--primary); }
+  .ac-body { padding:1.4rem 1.6rem; flex:1; }
+  .ac-tag {
+    font-size:.63rem; font-weight:700; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:3px 10px; border-radius:100px;
+    display:inline-block; margin-bottom:.6rem;
+  }
+  .ac-title {
+    font-family:'DM Serif Display',serif;
+    font-size:1.18rem; margin-bottom:.4rem; line-height:1.3;
+  }
+  .ac-desc { font-size:.86rem; color:var(--muted); line-height:1.55; }
+  .ac-meta { font-size:.75rem; color:var(--muted); margin-top:.6rem; }
+
+  /* ── ARTICLE DETAIL ── */
+  #article-detail {
+    display:none; max-width:660px;
+    margin:0 auto; padding:5rem 2rem 6rem;
+  }
+
+  .back-btn {
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:.85rem; font-weight:600; color:var(--muted);
+    cursor:pointer; background:none; border:none;
+    margin-bottom:2rem; transition:color .15s;
+  }
+  .back-btn:hover { color:var(--ink); }
+
+  .ad-band {
+    height:7px; border-radius:100px; margin-bottom:2rem;
+    background:linear-gradient(90deg,var(--primary),var(--primary2),var(--mid));
+  }
+  .ad-tag {
+    font-size:.68rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:4px 13px; border-radius:100px;
+    display:inline-block; margin-bottom:1rem;
+  }
+  .ad-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(1.8rem,4vw,2.6rem);
+    line-height:1.1; margin-bottom:.9rem;
+  }
+  .ad-deck {
+    font-size:1.05rem; color:var(--muted); line-height:1.75;
+    border-bottom:2px solid var(--light);
+    padding-bottom:1.8rem; margin-bottom:2rem;
+  }
+  .ad-meta { font-size:.78rem; color:var(--muted); margin-bottom:1.5rem; }
+
+  /* body prose */
+  .ad-body h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:1.55rem; margin:2.2rem 0 .6rem; color:var(--ink);
+  }
+  .ad-body h3 {
+    font-size:1.02rem; font-weight:600;
+    margin:1.6rem 0 .45rem; color:var(--ink);
+  }
+  .ad-body p {
+    font-size:1rem; line-height:1.88; color:#334155; margin-bottom:1.2rem;
+  }
+  .ad-body ul, .ad-body ol {
+    padding-left:1.4rem; margin-bottom:1.2rem;
+  }
+  .ad-body li {
+    font-size:.97rem; line-height:1.75; color:#334155; margin-bottom:.4rem;
+  }
+
+  /* pull-quote */
+  .pullquote {
+    border-left:5px solid var(--primary);
+    background:var(--light);
+    padding:1.2rem 1.6rem; border-radius:0 16px 16px 0;
+    margin:2rem 0;
+    font-family:'DM Serif Display',serif;
+    font-style:italic; font-size:1.1rem; line-height:1.65; color:var(--ink);
+  }
+
+  /* key-box */
+  .keybox {
+    background:var(--light); border-radius:16px;
+    padding:1.4rem 1.7rem; margin:2rem 0;
+  }
+  .keybox-title {
+    font-weight:700; font-size:.75rem; text-transform:uppercase;
+    letter-spacing:.09em; color:var(--primary);
+    display:block; margin-bottom:.75rem;
+  }
+  .keybox ul { padding-left:1.2rem; }
+  .keybox li {
+    font-size:.93rem; color:var(--ink); line-height:1.7; margin-bottom:.35rem;
+  }
+
+  /* takeaway */
+  .ad-takeaway {
+    margin-top:2.4rem; padding:1.5rem 1.7rem;
+    border-radius:18px; border:2px solid var(--primary);
+    background:var(--light);
+  }
+  .takeaway-label {
+    font-weight:700; font-size:.7rem; text-transform:uppercase;
+    letter-spacing:.1em; color:var(--primary);
+    display:block; margin-bottom:.55rem;
+  }
+  .ad-takeaway p { font-size:.93rem; color:var(--ink); line-height:1.7; margin:0; }
+
+  .back-to-list-btn {
+    display:block; text-align:center;
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:.95rem;
+    padding:.95rem 2rem; border-radius:100px; border:none; cursor:pointer;
+    margin-top:2.8rem; box-shadow:3px 3px 0 var(--primary);
+    transition:opacity .15s, transform .15s;
+  }
+  .back-to-list-btn:hover { opacity:.88; transform:translateY(-1px); }
+
+  /* responsive */
+  @media(max-width:520px){
+    .hero-stats{gap:1.8rem;}
+    .stat-n{font-size:1.6rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <div class="nav-logo" id="navLogo" onclick="showHero()">Anger & Emotional Regulation Guide</div>
+  <div class="nav-pill">Mental Health</div>
+</nav>
+
+<!-- ════════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-orbs">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+
+  <div class="hero-badge"><span class="bdot"></span>Evidence-Based · Compassionate · Clear</div>
+
+  <h1 class="hero-title">Anger Is Information.<br>Learn to <em>Listen</em><br>Without Burning.</h1>
+
+  <p class="hero-sub">These articles explore anger & emotional regulation. 1 in 5 struggle with anger 5 articles Change is possible. Discover what it really is and how to work with it.</p>
+
+  <p class="hero-quote">"To be angry with the right person, at the right time, for the right purpose — that is not easy." — Aristotle</p>
+
+  <button class="cta-btn" onclick="showList()">Read the Articles →</button>
+
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">1</div><div class="stat-l">in 5 struggle with anger</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">articles</div></div>
+    <div class="stat"><div class="stat-n">Change</div><div class="stat-l">is possible</div></div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE LIST
+════════════════════════════════════════ -->
+<section id="article-list">
+  <div class="al-header">
+    <h2>Anger & Emotional Regulation Articles</h2>
+    <p>Five deep reads — choose wherever you are right now.</p>
+  </div>
+  <div class="article-cards" id="articleCards"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE DETAIL
+════════════════════════════════════════ -->
+<section id="article-detail">
+  <div id="articleDetailContent"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     DATA + LOGIC
+════════════════════════════════════════ -->
+<script>
+const articles = [
+{
+  tag: "Understanding",
+  title: "Anger Is Not the Problem — It’s the Signal",
+  desc: "Anger is often misunderstood as something to suppress rather than understand.",
+  readTime: "11 min read",
+  deck: "Anger is a natural emotional response that signals something important. The issue is not anger itself, but how it is processed and expressed.",
+  takeaway: "Anger is not something to eliminate — it is something to understand and channel.",
+  body: `
+
+<h2>Why Anger Exists</h2>
+<p>Anger is one of the most misunderstood emotions. It is often treated as something negative, something to suppress or control. But anger has a function.</p>
+
+<p>It signals that something is wrong — a boundary has been crossed, an expectation has not been met, or something feels unfair.</p>
+
+<p>Without anger, it would be harder to recognise these situations.</p>
+
+<div class="pullquote">
+"Anger is not the problem — it is the signal that something needs attention."
+</div>
+
+<h2>The Body’s Response</h2>
+<p>Anger activates the body. Heart rate increases, muscles tense, energy rises. This prepares the body for action.</p>
+
+<p>This activation can feel intense, which is why anger is often difficult to manage in the moment.</p>
+
+<h2>Why It Feels Immediate</h2>
+<p>Like anxiety, anger is fast. It is driven by the brain’s threat system.</p>
+
+<p>By the time you are aware of it, the body is already reacting.</p>
+
+<h2>When Anger Becomes a Problem</h2>
+<p>Anger itself is not harmful. The issue arises when it is expressed in ways that cause harm — to oneself or others — or when it is suppressed entirely.</p>
+
+<p>Both extremes can create difficulties.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Unhelpful anger patterns:</span>
+  <ul>
+    <li>Explosive reactions</li>
+    <li>Chronic irritability</li>
+    <li>Passive-aggressive behaviour</li>
+    <li>Complete suppression of anger</li>
+  </ul>
+</div>
+
+<h2>What Anger Is Pointing To</h2>
+<p>Anger often sits on top of other emotions — frustration, hurt, fear, or disappointment.</p>
+
+<p>Understanding these underlying emotions helps clarify what the anger is about.</p>
+
+<h2>What Helps</h2>
+<p>Managing anger involves recognising it early, understanding its cause, and choosing how to respond.</p>
+
+<p>It is not about removing anger — but responding to it more effectively.</p>
+
+`
+},
+{
+  tag: "Triggers",
+  title: "Why You Get Angry So Quickly — And What Your Triggers Are Telling You",
+  desc: "Anger often feels sudden — but it usually follows identifiable patterns.",
+  readTime: "10 min read",
+  deck: "Anger triggers are not random. They reflect underlying sensitivities, expectations, and past experiences.",
+  takeaway: "Understanding your triggers gives you more control over your response.",
+  body: `
+
+<h2>The Illusion of Sudden Anger</h2>
+<p>Anger often feels like it appears instantly. But it usually builds from underlying factors — stress, fatigue, past experiences, or unmet needs.</p>
+
+<p>Triggers bring these factors to the surface.</p>
+
+<div class="pullquote">
+"Anger may feel sudden — but it is often the result of patterns that have been building over time."
+</div>
+
+<h2>Common Triggers</h2>
+<p>Triggers vary between individuals, but certain themes are common — feeling disrespected, ignored, treated unfairly, or losing control.</p>
+
+<p>These triggers often relate to personal values or past experiences.</p>
+
+<h2>The Role of Stress</h2>
+<p>When stress is high, tolerance is lower. Smaller issues can trigger stronger reactions.</p>
+
+<p>This is because the system is already activated.</p>
+
+<h2>Patterns From the Past</h2>
+<p>Past experiences can shape current reactions. Situations that resemble earlier experiences may trigger stronger responses.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Common anger triggers:</span>
+  <ul>
+    <li>Feeling disrespected</li>
+    <li>Perceived unfairness</li>
+    <li>Loss of control</li>
+    <li>Unmet expectations</li>
+  </ul>
+</div>
+
+<h2>Recognising Early Signs</h2>
+<p>Anger builds before it peaks. Recognising early signs — tension, frustration, irritation — creates an opportunity to respond differently.</p>
+
+<h2>What Awareness Changes</h2>
+<p>Understanding triggers does not remove anger, but it creates space between trigger and response.</p>
+
+<p>This space allows for choice.</p>
+
+`
+},
+{
+  tag: "Expression",
+  title: "Healthy vs Unhealthy Anger: The Difference Most People Miss",
+  desc: "Anger is not defined by whether you feel it — but by how you express it.",
+  readTime: "11 min read",
+  deck: "The problem is rarely anger itself, but how it is expressed. Learning the difference between healthy and unhealthy expression changes how anger affects your life.",
+  takeaway: "You don’t need to suppress anger — you need to express it in a way that is clear, controlled, and constructive.",
+  body: `
+
+<h2>Anger Is Inevitable — Harm Is Not</h2>
+<p>Everyone experiences anger. It is a natural emotional response. But not all expressions of anger are the same.</p>
+
+<p>The impact of anger depends on how it is expressed.</p>
+
+<div class="pullquote">
+"Anger itself is not harmful — but how it is expressed can be."
+</div>
+
+<h2>Unhealthy Expression</h2>
+<p>Unhealthy anger often involves either escalation or suppression.</p>
+
+<p>Escalation includes shouting, aggression, or impulsive reactions. Suppression involves holding anger in, avoiding expression, or internalising it.</p>
+
+<p>Both can lead to negative outcomes.</p>
+
+<h2>Healthy Expression</h2>
+<p>Healthy anger involves recognising the emotion, understanding its cause, and expressing it clearly without causing harm.</p>
+
+<p>This often includes using direct communication, setting boundaries, and choosing appropriate timing.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Healthy anger expression involves:</span>
+  <ul>
+    <li>Clear communication</li>
+    <li>Respect for self and others</li>
+    <li>Awareness of timing and context</li>
+    <li>Focus on the issue, not the person</li>
+  </ul>
+</div>
+
+<h2>Why Suppression Doesn’t Work</h2>
+<p>Suppressing anger does not remove it. It often builds over time, leading to eventual release or ongoing tension.</p>
+
+<p>This can affect both mental and physical health.</p>
+
+<h2>Learning to Express Anger</h2>
+<p>Expressing anger effectively is a skill. It involves practice, awareness, and adjustment.</p>
+
+<p>It is not about eliminating emotion — but communicating it constructively.</p>
+
+`
+},
+{
+  tag: "Relationships",
+  title: "Anger in Relationships: Why It Escalates and How to De-escalate",
+  desc: "Anger can quickly escalate in relationships — often following predictable patterns.",
+  readTime: "10 min read",
+  deck: "Relationship conflicts often involve cycles of escalation. Understanding these patterns helps reduce conflict and improve communication.",
+  takeaway: "De-escalation is not about avoiding conflict — it is about managing it effectively.",
+  body: `
+
+<h2>Why Anger Escalates Quickly</h2>
+<p>In relationships, anger can escalate rapidly. This is often because interactions are emotionally charged and personally significant.</p>
+
+<p>Small issues can become larger conflicts if patterns of communication are unhelpful.</p>
+
+<div class="pullquote">
+"Conflict escalates not because of the issue — but because of how it is handled."
+</div>
+
+<h2>Common Escalation Patterns</h2>
+<p>Many conflicts follow predictable patterns — criticism leading to defensiveness, which leads to further criticism or withdrawal.</p>
+
+<p>These patterns reinforce themselves.</p>
+
+<h2>The Role of Interpretation</h2>
+<p>How behaviour is interpreted affects response. Assuming negative intent can increase anger.</p>
+
+<p>Clarifying intent can reduce escalation.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Common escalation patterns:</span>
+  <ul>
+    <li>Criticism → defensiveness</li>
+    <li>Anger → withdrawal</li>
+    <li>Blame → counter-blame</li>
+  </ul>
+</div>
+
+<h2>De-escalation Strategies</h2>
+<p>De-escalation involves slowing the interaction, reducing intensity, and focusing on understanding rather than winning.</p>
+
+<p>This may include taking breaks, using calmer language, and focusing on specific issues.</p>
+
+<h2>What Improves Conflict</h2>
+<p>Effective conflict involves communication, respect, and willingness to understand the other perspective.</p>
+
+<p>Conflict does not need to damage relationships — it can strengthen them when managed well.</p>
+
+`
+},
+{
+  tag: "Control",
+  title: "How to Manage Anger in the Moment Without Losing Control",
+  desc: "Managing anger requires both immediate and long-term strategies.",
+  readTime: "10 min read",
+  deck: "In-the-moment strategies can help reduce intensity and prevent escalation. These techniques focus on regulating the body and creating space before reacting.",
+  takeaway: "You don’t have to react immediately. Creating a pause changes how anger unfolds.",
+  body: `
+
+<h2>The Importance of the Pause</h2>
+<p>Anger creates a sense of urgency — a need to act immediately. But reacting instantly often leads to escalation.</p>
+
+<p>Creating a pause allows for a different response.</p>
+
+<div class="pullquote">
+"The space between feeling anger and acting on it is where control exists."
+</div>
+
+<h2>Regulating the Body</h2>
+<p>Because anger is physical, calming the body helps reduce intensity. This includes slowing breathing and reducing tension.</p>
+
+<h2>Stepping Away</h2>
+<p>Taking a break from the situation can prevent escalation. This allows time for the intensity to decrease.</p>
+
+<h2>Shifting Attention</h2>
+<p>Focusing on something neutral can interrupt the escalation process.</p>
+
+<div class="keybox">
+  <span class="keybox-title">In-the-moment strategies:</span>
+  <ul>
+    <li>Slow, controlled breathing</li>
+    <li>Taking a brief break</li>
+    <li>Delaying response</li>
+    <li>Reducing physical tension</li>
+  </ul>
+</div>
+
+<h2>Long-Term Change</h2>
+<p>Managing anger over time involves understanding triggers, improving communication, and developing regulation skills.</p>
+
+<p>In-the-moment strategies are part of a broader process.</p>
+
+<h2>What Progress Looks Like</h2>
+<p>Progress is not the absence of anger, but the ability to respond differently.</p>
+
+<p>Over time, reactions become more measured and intentional.</p>
+
+`
+}
+];
+
+/* ─────────────────────────────────────────────
+   NAVIGATION STATE
+───────────────────────────────────────────── */
+let currentArticleIndex = null;
+let navState = 'hero'; // hero | list | detail
+
+function showHero() {
+  navState = 'hero';
+  document.getElementById('hero').style.display = 'flex';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.remove('visible');
+  window.scrollTo({ top: 0 });
+}
+
+function showList() {
+  navState = 'list';
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'block';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.add('visible');
+  renderCards();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showArticle(i) {
+  navState = 'detail';
+  currentArticleIndex = i;
+  const a = articles[i];
+
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'block';
+  document.getElementById('navLogo').classList.add('visible');
+
+  document.getElementById('articleDetailContent').innerHTML = `
+    <button class="back-btn" onclick="showList()">← All Articles</button>
+    <div class="ad-band"></div>
+    <span class="ad-tag">${a.tag}</span>
+    <h1 class="ad-title">${a.title}</h1>
+    <p class="ad-meta">${a.readTime} &nbsp;·&nbsp; Anger & Emotional Regulation Guide</p>
+    <p class="ad-deck">${a.deck}</p>
+    <div class="ad-body">${a.body}</div>
+    <div class="ad-takeaway">
+      <span class="takeaway-label">💙 Key takeaway</span>
+      <p>${a.takeaway}</p>
+    </div>
+    <button class="back-to-list-btn" onclick="showList()">← Back to All Articles</button>
+  `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderCards() {
+  const container = document.getElementById('articleCards');
+  container.innerHTML = '';
+  articles.forEach((a, i) => {
+    const card = document.createElement('div');
+    card.className = 'article-card';
+    card.innerHTML = `
+      <div class="ac-stripe"></div>
+      <div class="ac-body">
+        <span class="ac-tag">${a.tag}</span>
+        <div class="ac-title">${a.title}</div>
+        <div class="ac-desc">${a.desc}</div>
+        <div class="ac-meta">${a.readTime}</div>
+      </div>
+    `;
+    card.onclick = () => showArticle(i);
+    container.appendChild(card);
+  });
+}
+
+// boot
+showHero();
+</script>
+</body>
+</html>

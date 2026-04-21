@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anxiety Myths Debunked — Real Facts</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F3EEFF;
+    --primary: #9D6CFF;
+    --ink: #2d1a5a;
+    --light: #ede0ff;
+    --mid: #d4b8ff;
+    --subtext: #6a4a90;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+  header {
+    padding: 3rem 2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--primary);
+  }
+  .header-content h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 0.5rem;
+    color: var(--ink);
+  }
+  .header-content p {
+    font-size: 1.1rem;
+    color: var(--subtext);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .myths-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem 3rem;
+  }
+
+  .myth-item {
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(157,108,255,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-left: 5px solid var(--primary);
+  }
+
+  .myth-item:hover {
+    box-shadow: 0 8px 28px rgba(157,108,255,0.2);
+    transform: translateY(-2px);
+  }
+
+  .myth-header {
+    padding: 1.8rem 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background: linear-gradient(135deg, var(--light) 0%, white 100%);
+    transition: background 0.3s ease;
+  }
+
+  .myth-item.active .myth-header {
+    background: linear-gradient(135deg, var(--primary) 0%, #b393ff 100%);
+    color: white;
+  }
+
+  .myth-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    min-width: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .myth-title-section {
+    flex: 1;
+    text-align: left;
+  }
+
+  .myth-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--primary);
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+
+  .myth-item.active .myth-label {
+    color: rgba(255,255,255,0.8);
+  }
+
+  .myth-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .myth-item.active .myth-title {
+    color: white;
+  }
+
+  .toggle-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    color: var(--primary);
+  }
+
+  .myth-item.active .toggle-icon {
+    transform: rotate(180deg);
+    color: white;
+  }
+
+  .myth-content {
+    display: none;
+    padding: 0 2rem 2rem 2rem;
+    border-top: 2px solid var(--light);
+  }
+
+  .myth-item.active .myth-content {
+    display: block;
+    animation: slideDown 0.3s ease;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .myth-fact {
+    background: linear-gradient(135deg, #f0e8ff 0%, #ede0ff 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary);
+  }
+
+  .myth-fact h3 {
+    color: var(--primary);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.8rem;
+  }
+
+  .myth-fact p {
+    color: var(--subtext);
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .myth-fact p + p {
+    margin-top: 1rem;
+  }
+
+  .myth-explanation {
+    color: var(--subtext);
+    line-height: 1.85;
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .myth-sources {
+    background: white;
+    border: 1px solid var(--light);
+    padding: 1rem 1.3rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: var(--subtext);
+    margin-top: 1.5rem;
+  }
+
+  .myth-sources strong {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  .counter {
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    background: var(--light);
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .myth-item.active .counter {
+    background: rgba(255,255,255,0.2);
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--subtext);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .myth-header {
+      padding: 1.3rem 1.5rem;
+    }
+    .myth-content {
+      padding: 0 1.5rem 1.5rem;
+    }
+    .myth-title {
+      font-size: 1.05rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Anxiety Myths Debunked</h1>
+    <p>Separate fact from fiction. These are the myths keeping people from getting help — and the truth that sets them free.</p>
+  </div>
+</header>
+
+<div class="myths-container" id="mythsContainer"></div>
+
+<footer>
+  <p>Mental health information should be evidence-based. These myths are debunked using research from mental health organizations, clinical psychology, and peer-reviewed studies.</p>
+</footer>
+
+<script>
+const myths = [
+  {
+    number: 1,
+    myth: "Anxiety is just nervousness. Everyone gets nervous.",
+    icon: "😰",
+    fact: "Anxiety disorder is different from normal nervousness",
+    content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Everyone experiences nervousness. Anxiety disorder is a medical condition where the anxiety is persistent, intense, and interferes with daily life.</p>
+      </div>
+      <p class="myth-explanation">
+        Normal nervousness happens in response to specific stressors and goes away when the situation is resolved. Anxiety disorder involves:
+      </p>
+      <p class="myth-explanation">
+        • Persistent worry that lasts weeks or months<br>
+        • Anxiety that occurs without clear triggers<br>
+        • Physical symptoms (racing heart, difficulty breathing, panic)<br>
+        • Avoidance of situations to prevent anxiety<br>
+        • Significant interference with work, relationships, and daily functioning
+      </p>
+      <p class="myth-explanation">
+        Someone with anxiety disorder can't "just calm down" any more than someone with diabetes can "just control their blood sugar" through willpower alone. Both require treatment.
+      </p>
+      <div class="myth-sources">
+        <strong>Research:</strong> American Psychiatric Association (DSM-5), NIH — Anxiety is recognised as a medical condition requiring professional treatment.
+      </div>
+    `
+  },
+  {
+    number: 2,
+    myth: "Anxiety medication is addictive. You'll be on it forever.",
+    icon: "💊",
+    fact: "Most anxiety medications are not addictive and many people taper off successfully",
+    content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>SSRIs (the most commonly prescribed class) are not addictive. Benzodiazepines require careful management but many people use them short-term. Most people do eventually come off medication.</p>
+      </div>
+      <p class="myth-explanation">
+        The confusion exists because benzodiazepines (like Xanax) can cause dependence if used long-term. However, modern treatment typically uses SSRIs as first-line therapy, which are:
+      </p>
+      <p class="myth-explanation">
+        • Not addictive (no euphoric high that creates cravings)<br>
+        • Can be tapered gradually without withdrawal<br>
+        • Effective at treating the underlying condition rather than just masking symptoms<br>
+        • Often discontinued after 1-2 years of stability
+      </p>
+      <p class="myth-explanation">
+        Some people choose to stay on medication long-term because they've learned their brain responds well to it — similar to someone staying on blood pressure medication because it works. That's a choice, not addiction.
+      </p>
+      <div class="myth-sources">
+        <strong>Research:</strong> FDA, NAMI — SSRIs are not addictive. Benzodiazepines are typically used short-term in conjunction with therapy.
+      </div>
+    `
+  },
+  {
+    number: 3,
+    myth: "If you have anxiety, there's something seriously wrong with you.",
+    icon: "🧠",
+    fact: "Anxiety disorders are common and treatable. One in five adults has an anxiety disorder.",
+    content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Anxiety disorders are among the most common mental health conditions. They're not a sign of weakness or broken brain — they're a medical condition like any other.</p>
+      </div>
+      <p class="myth-explanation">
+        Statistics show that:
+      </p>
+      <p class="myth-explanation">
+        • 1 in 5 adults experiences an anxiety disorder in any given year<br>
+        • Anxiety disorders are highly treatable (success rates 70-80% with proper treatment)<br>
+        • Many high-functioning people have anxiety (doctors, teachers, executives)<br>
+        • Having anxiety doesn't mean you're weak, broken, or incapable
+      </p>
+      <p class="myth-explanation">
+        Anxiety exists on a spectrum. Some people have mild anxiety that they manage well. Others have severe anxiety that significantly impacts their life. Both deserve treatment and both can improve.
+      </p>
+      <div class="myth-sources">
+        <strong>Research:</strong> NIMH, WHO — Anxiety disorders are the most common type of mental health disorder, affecting millions globally.
+      </div>
+    `
+  },
+  {
+    number: 4,
+    myth: "You can think your way out of anxiety. Just change your thoughts.",
+    icon: "💭",
+    fact: "Anxiety is biological. Positive thinking alone rarely works without professional treatment.",
+    content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Anxiety involves changes to brain chemistry and nervous system activation. Willpower and positive thinking have a role in treatment but aren't sufficient alone.</p>
+      </div>
+      <p class="myth-explanation">
+        When you're anxious, your amygdala (the fear center of your brain) is activated and your prefrontal cortex (the rational thinking center) is suppressed. This is why "just think positive" doesn't work — your brain isn't in a state where rational thinking is accessible.
+      </p>
+      <p class="myth-explanation">
+        Effective treatment combines:
+      </p>
+      <p class="myth-explanation">
+        • Therapy (to address thought patterns AND teach nervous system regulation)<br>
+        • Medication (to stabilise brain chemistry so therapy can be effective)<br>
+        • Lifestyle changes (sleep, exercise, stress management)<br>
+        • Gradual exposure (to help your nervous system learn that feared situations are safe)
+      </p>
+      <p class="myth-explanation">
+        Thought challenging (a therapy technique) can help, but only as part of comprehensive treatment.
+      </p>
+      <div class="myth-sources">
+        <strong>Research:</strong> Neuroscience shows anxiety involves amygdala activation. CBT and medication are most effective treatments.
+      </div>
+    `
+  },
+  {
+    number: 5,
+    myth: "Anxiety will just go away on its own if you ignore it.",
+    icon: "⏰",
+    fact: "Untreated anxiety typically gets worse over time.",
+    content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Anxiety tends to worsen without treatment. Avoidance (ignoring or avoiding anxiety-triggering situations) reinforces the anxiety cycle and makes the problem larger.</p>
+      </div>
+      <p class="myth-explanation">
+        What happens when anxiety is ignored:
+      </p>
+      <p class="myth-explanation">
+        • Avoidance increases → More situations feel unsafe → Anxiety expands<br>
+        • Each avoided situation reinforces the belief that it's dangerous<br>
+        • The anxiety circle gets tighter (more avoidance = more anxiety = more avoidance)<br>
+        • Untreated anxiety can lead to depression, more severe panic, or other complications
+      </p>
+      <p class="myth-explanation">
+        With treatment, anxiety improves:
+      </p>
+      <p class="myth-explanation">
+        • 70-80% of people with anxiety disorders respond well to treatment<br>
+        • Symptoms typically improve within weeks to months<br>
+        • People regain their lives and activities
+      </p>
+      <div class="myth-sources">
+        <strong>Research:</strong> Studies show untreated anxiety worsens over time. Early intervention leads to better outcomes.
+      </div>
+    `
+  },
+  {
+    number: 6,
+    myth: "Real anxiety means you're dying or having a heart attack.",
+    icon: "❤️",
+    fact: "Panic attacks feel like emergencies but they're not medically dangerous.",
+    content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Panic attacks produce real physical symptoms (racing heart, difficulty breathing, chest tightness) but they're not dangerous. Your heart won't stop and you won't suffocate.</p>
+      </div>
+      <p class="myth-explanation">
+        Panic attack symptoms include:
+      </p>
+      <p class="myth-explanation">
+        • Rapid heartbeat (your heart is actually fine and working hard)<br>
+        • Difficulty breathing (you're getting oxygen; your breathing just feels wrong)<br>
+        • Chest tightness (muscle tension, not cardiac)<br>
+        • Dizziness (from hyperventilation and adrenaline)<br>
+        • Feeling like you're dying or losing control
+      </p>
+      <p class="myth-explanation">
+        The panic attack itself is not dangerous. What makes it worse is the fear about the symptoms, which creates more panic. Breaking the fear cycle through proper treatment is essential.
+      </p>
+      <p class="myth-explanation">
+        If you're experiencing chest pain for the first time, get it checked by a doctor to rule out medical causes. Once cardiac issues are ruled out, you're dealing with anxiety — which is very treatable.
+      </p>
+      <div class="myth-sources">
+        <strong>Research:</strong> Panic attacks are not medically dangerous. Fear of panic symptoms perpetuates the cycle.
+      </div>
+    `
+  }
+];
+
+const mythsContainer = document.getElementById('mythsContainer');
+
+myths.forEach((myth, index) => {
+  const mythEl = document.createElement('div');
+  mythEl.className = 'myth-item';
+  mythEl.innerHTML = `
+    <div class="myth-header" onclick="toggleMythItem(${index})">
+      <div class="myth-icon">${myth.icon}</div>
+      <div class="myth-title-section">
+        <span class="myth-label">Myth ${myth.number}</span>
+        <h2 class="myth-title">${myth.myth}</h2>
+      </div>
+      <div class="toggle-icon">▼</div>
+    </div>
+    <div class="myth-content">
+      <div style="margin-top: 1rem;">
+        <div style="background: linear-gradient(135deg, var(--primary) 0%, #b393ff 100%); color: white; padding: 1rem 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+          <strong style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; opacity: 0.9; margin-bottom: 0.3rem;">Fact</strong>
+          <p style="font-size: 1.05rem; margin: 0;">${myth.fact}</p>
+        </div>
+        ${myth.content}
+        <span class="counter">Myth ${myth.number} of ${myths.length}</span>
+      </div>
+    </div>
+  `;
+  mythsContainer.appendChild(mythEl);
+});
+
+function toggleMythItem(index) {
+  const items = document.querySelectorAll('.myth-item');
+  items.forEach((item, i) => {
+    if (i === index) {
+      item.classList.toggle('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+}
+</script>
+
+</body>
+</html>

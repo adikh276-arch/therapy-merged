@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grief Myths</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+    :root {
+    --bg: #F1F5F9;
+    --primary: #475569;
+    --ink: #1a1a1a;
+    --light: #F1F5F9;
+    --mid: #475569;
+    --subtext: #4a4a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+  header {
+    padding: 3rem 2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--primary);
+  }
+  .header-content h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 0.5rem;
+    color: var(--ink);
+  }
+  .header-content p {
+    font-size: 1.1rem;
+    color: var(--subtext);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .myths-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem 3rem;
+  }
+
+  .myth-item {
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-left: 5px solid var(--primary);
+  }
+
+  .myth-item:hover {
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+
+  .myth-header {
+    padding: 1.8rem 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background: linear-gradient(135deg, var(--light) 0%, white 100%);
+    transition: background 0.3s ease;
+  }
+
+  .myth-item.active .myth-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary) 100%);
+    color: white;
+  }
+
+  .myth-icon { display: none !important; 
+    font-size: 2rem;
+    flex-shrink: 0;
+    min-width: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .myth-title-section {
+    flex: 1;
+    text-align: left;
+  }
+
+  .myth-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--primary);
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+
+  .myth-item.active .myth-label {
+    color: rgba(255,255,255,0.8);
+  }
+
+  .myth-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .myth-item.active .myth-title {
+    color: white;
+  }
+
+  .toggle-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    color: var(--primary);
+  }
+
+  .myth-item.active .toggle-icon {
+    transform: rotate(180deg);
+    color: white;
+  }
+
+  .myth-content {
+    display: none;
+    padding: 0 2rem 2rem 2rem;
+    border-top: 2px solid var(--light);
+  }
+
+  .myth-item.active .myth-content {
+    display: block;
+    animation: slideDown 0.3s ease;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .myth-fact {
+    background: linear-gradient(135deg, #f0e8ff 0%, #ede0ff 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary);
+  }
+
+  .myth-fact h3 {
+    color: var(--primary);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.8rem;
+  }
+
+  .myth-fact p {
+    color: var(--subtext);
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .myth-fact p + p {
+    margin-top: 1rem;
+  }
+
+  .myth-explanation {
+    color: var(--subtext);
+    line-height: 1.85;
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .myth-sources {
+    background: white;
+    border: 1px solid var(--light);
+    padding: 1rem 1.3rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: var(--subtext);
+    margin-top: 1.5rem;
+  }
+
+  .myth-sources strong {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  .counter {
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    background: var(--light);
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .myth-item.active .counter {
+    background: rgba(255,255,255,0.2);
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--subtext);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .myth-header {
+      padding: 1.3rem 1.5rem;
+    }
+    .myth-content {
+      padding: 0 1.5rem 1.5rem;
+    }
+    .myth-title {
+      font-size: 1.05rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Grief Myths Debunked</h1>
+    <p>Separate fact from fiction. These are the myths keeping people from getting help — and the truth that sets them free.</p>
+  </div>
+</header>
+
+<div class="myths-container" id="mythsContainer"></div>
+
+<footer>
+  <p>Mental health information should be evidence-based. These myths are debunked using research from mental health organizations, clinical psychology, and peer-reviewed studies.</p>
+</footer>
+
+<script>
+const myths = [
+
+{
+  number: 1,
+  myth: "Grief follows clear stages that everyone goes through",
+  icon: "",
+  fact: "Grief is non-linear and varies widely between individuals",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Grief does not follow a fixed sequence — it is experienced differently by each person.</p>
+      </div>
+
+      <p class="myth-explanation">
+        The idea of stages of grief is often misunderstood as a step-by-step process. In reality, emotions do not occur in a predictable order or timeline.
+      </p>
+
+      <p class="myth-explanation">
+        People may experience sadness, anger, confusion, or even moments of relief — sometimes all within the same day.
+      </p>
+
+      <p class="myth-explanation">
+        Expecting grief to follow a structured path can create pressure and confusion when experiences do not match that expectation.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Grief research shows emotional responses are dynamic and non-linear.
+      </div>
+  `
+},
+
+{
+  number: 2,
+  myth: "You should move on quickly",
+  icon: "",
+  fact: "Grief does not have a fixed timeline",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Grief takes time and changes gradually — it cannot be rushed.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Social expectations often imply that grief should resolve within a certain period. However, emotional adjustment to loss is a complex and ongoing process.
+      </p>
+
+      <p class="myth-explanation">
+        Trying to force closure or “move on” too quickly can lead to suppressed emotions and unresolved grief.
+      </p>
+
+      <p class="myth-explanation">
+        Instead of ending, grief often becomes integrated into life over time.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Bereavement studies — grief duration varies significantly across individuals.
+      </div>
+  `
+},
+
+{
+  number: 3,
+  myth: "Time heals all grief",
+  icon: "",
+  fact: "Time alone does not resolve grief — processing does",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Healing involves engagement with the loss, not just the passage of time.</p>
+      </div>
+
+      <p class="myth-explanation">
+        While time can reduce the intensity of grief, it does not automatically resolve it. Without processing the experience, emotions can remain unresolved.
+      </p>
+
+      <p class="myth-explanation">
+        Avoidance or suppression may delay adjustment, even over long periods.
+      </p>
+
+      <p class="myth-explanation">
+        Healing involves reflecting, expressing, and gradually integrating the loss into one’s life.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Complicated grief studies show unresolved grief persists without processing.
+      </div>
+  `
+},
+
+{
+  number: 4,
+  myth: "Crying means you're weak",
+  icon: "",
+  fact: "Crying is a natural emotional response to loss",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Expressing emotion is part of processing grief, not a sign of weakness.</p>
+      </div>
+
+      <p class="myth-explanation">
+        Crying is a physiological and emotional response that helps regulate distress. It can provide relief and release built-up emotional tension.
+      </p>
+
+      <p class="myth-explanation">
+        Cultural beliefs may discourage visible emotion, but suppressing grief can make it more difficult to process.
+      </p>
+
+      <p class="myth-explanation">
+        Emotional expression is a normal and important part of adjustment after loss.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Emotional processing studies show expression supports regulation and recovery.
+      </div>
+  `
+},
+
+{
+  number: 5,
+  myth: "Strong people don’t grieve deeply",
+  icon: "",
+  fact: "Grief intensity is not related to strength or resilience",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Experiencing deep grief reflects the significance of the loss, not weakness.</p>
+      </div>
+
+      <p class="myth-explanation">
+        People who appear strong externally may still experience intense grief internally. Strength does not eliminate emotional response.
+      </p>
+
+      <p class="myth-explanation">
+        The depth of grief is often related to the importance of the relationship or loss.
+      </p>
+
+      <p class="myth-explanation">
+        Resilience involves adapting over time, not avoiding emotional experience.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Grief psychology — emotional intensity reflects attachment, not weakness.
+      </div>
+  `
+},
+
+{
+  number: 6,
+  myth: "You need closure to heal",
+  icon: "",
+  fact: "Healing can occur without a clear sense of closure",
+  content: `
+      <div class="myth-fact">
+        <h3>The Truth</h3>
+        <p>Closure is not always possible — adjustment often involves acceptance without complete resolution.</p>
+      </div>
+
+      <p class="myth-explanation">
+        The idea of closure suggests a clear endpoint or resolution. However, many losses do not provide this.
+      </p>
+
+      <p class="myth-explanation">
+        Waiting for closure can create frustration or prevent forward movement.
+      </p>
+
+      <p class="myth-explanation">
+        Healing often involves learning to live with unanswered questions and continuing life alongside the loss.
+      </p>
+
+      <div class="myth-sources">
+        <strong>Research:</strong> Bereavement research — meaning-making is more important than closure.
+      </div>
+  `
+}
+
+];
+
+const mythsContainer = document.getElementById('mythsContainer');
+
+myths.forEach((myth, index) => {
+  const mythEl = document.createElement('div');
+  mythEl.className = 'myth-item';
+  mythEl.innerHTML = `
+    <div class="myth-header" onclick="toggleMythItem(${index})">
+      <div class="myth-icon">${myth.icon}</div>
+      <div class="myth-title-section">
+        <span class="myth-label">Myth ${myth.number}</span>
+        <h2 class="myth-title">${myth.myth}</h2>
+      </div>
+      <div class="toggle-icon">▼</div>
+    </div>
+    <div class="myth-content">
+      <div style="margin-top: 1rem;">
+        <div style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary) 100%); color: white; padding: 1rem 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+          <strong style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; opacity: 0.9; margin-bottom: 0.3rem;">Fact</strong>
+          <p style="font-size: 1.05rem; margin: 0;">${myth.fact}</p>
+        </div>
+        ${myth.content}
+        <span class="counter">Myth ${myth.number} of ${myths.length}</span>
+      </div>
+    </div>
+  `;
+  mythsContainer.appendChild(mythEl);
+});
+
+function toggleMythItem(index) {
+  const items = document.querySelectorAll('.myth-item');
+  items.forEach((item, i) => {
+    if (i === index) {
+      item.classList.toggle('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+}
+</script>
+
+</body>
+</html>

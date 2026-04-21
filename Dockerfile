@@ -1,22 +1,26 @@
-FROM node:20-alpine  AS builder
+FROM node:20-alpine AS builder
 WORKDIR /app
-COPY package*.json ./
-RUN npm i
+
+RUN npm install -g pnpm
+
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm install --frozen-lockfile
+
 COPY . .
-RUN npm run build
 
+ARG VITE_AUTH_PORTAL_URL
+ENV VITE_AUTH_PORTAL_URL=$VITE_AUTH_PORTAL_URL
 
-FROM nginx:alpine
-WORKDIR /usr/share/nginx/html
+RUN pnpm build
 
-# Copy the static files from the builder stage
-COPY --from=builder /app/dist /usr/share/nginx/html/therapy
-# Remove default nginx config
-RUN rm /etc/nginx/conf.d/default.conf
-COPY vite-nginx.conf /etc/nginx/conf.d/nginx.conf
+# ─────────────────────────────────────────
+FROM nginx:alpine AS runner
 
-# Expose the port that Nginx will listen on
+COPY --from=builder /app/dist /usr/share/nginx/html
+# Static HTML content for Group C2
+COPY --from=builder /app/public/static /usr/share/nginx/html/static
+
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 80
-
-# Command to start Nginx
 CMD ["nginx", "-g", "daemon off;"]

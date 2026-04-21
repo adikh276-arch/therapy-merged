@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "body": "Faisons une petite pause ensemble.\n\nPendant une minute, vous n'avez rien à résoudre, à réparer, ni à quoi répondre. Accordez-vous simplement le droit de ralentir.\n\nAsseyez-vous confortablement, posez vos pieds à plat sur le sol si possible, et inspirez lentement… puis expirez lentement.\n\nC'est le moment de vous recentrer et de vous reconnecter au présent.",
+      "button": "Commencer"
+    },
+    {
+      "heading": "5 choses que vous pouvez voir",
+      "body": "Regardez lentement autour de vous. Laissez votre regard parcourir doucement l'espace. Remarquez les couleurs, les formes, la lumière, les ombres, ou les petits détails auxquels vous n'aviez peut-être pas prêté attention auparavant.",
+      "button": "Suivant"
+    },
+    {
+      "heading": "4 choses que vous pouvez ressentir",
+      "body": "Portez votre attention sur votre corps. Sentez vos pieds toucher le sol, votre dos contre la chaise, vos vêtements sur votre peau, ou l'air qui vous entoure. Prenez conscience de quatre sensations physiques.",
+      "button": "Suivant"
+    },
+    {
+      "heading": "3 choses que vous pouvez entendre",
+      "body": "Écoutez attentivement. Vous pourriez entendre des bruits lointains, un ventilateur, un clavier, une respiration, ou même le silence. Identifiez trois sons sans les juger.",
+      "button": "Suivant"
+    },
+    {
+      "heading": "2 choses que vous pouvez sentir",
+      "body": "Essayez de déceler une odeur particulière dans la pièce. Si rien ne vous frappe, contentez-vous de percevoir l'odeur neutre de l'air ambiant.",
+      "button": "Suivant"
+    },
+    {
+      "heading": "1 chose que vous pouvez goûter",
+      "body": "Concentrez-vous sur le goût dans votre bouche. Il peut être subtil ou neutre ; observez-le simplement.",
+      "button": "Suivant"
+    },
+    {
+      "heading": "Réflexion",
+      "body": "Inspirez lentement… et expirez doucement.",
+      "button": "Soumettre"
+    }
+  ],
+  "common": {
+    "thank_you": "Merci",
+    "you_feel": "Vous ressentez :",
+    "completion_message": "Vous avez terminé l'exercice d'ancrage. Gardez ce sentiment de présence avec vous tout au long de votre journée.",
+    "start_again": "Recommencer",
+    "reflection_question": "En un mot, comment vous sentez-vous en ce moment ?",
+    "reflection_placeholder": "par exemple, calme, soulagé, ancré…"
+  }
+}

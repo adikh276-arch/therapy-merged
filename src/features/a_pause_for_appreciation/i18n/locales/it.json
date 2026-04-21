@@ -1,0 +1,84 @@
+{
+  "title": "Una pausa di apprezzamento",
+  "subtitle": "Una riflessione guidata di 5-7 minuti",
+  "nav": {
+    "history": "Storia",
+    "home": "Casa"
+  },
+  "intro": {
+    "text1": "Quando una relazione sembra tesa, può diventare facile concentrarsi solo su ciò che non funziona. Questa riflessione offre una breve pausa, non per liquidare le preoccupazioni, ma per ampliare delicatamente la prospettiva.",
+    "text2": "Non c'è bisogno di aspettarsi di provare gratitudine. Basta notare ciò che emerge.",
+    "begin": "Inizio",
+    "viewHistory": "Visualizza cronologia"
+  },
+  "breathing": {
+    "title": "Arrivare e stabilirsi",
+    "description": "Prima di continuare, concediti una breve pausa. Questo momento non riguarda la risoluzione di nulla. Si tratta di creare spazio.",
+    "instruction": "Segui il ritmo respiratorio qui sotto.",
+    "inhale": "Inspira… {{counter}}…",
+    "hold": "Presa…",
+    "exhale": "Espira… {{counter}}…",
+    "affirmation": "\"Riesco a riconoscere ciò che mi sembra difficile e a rimanere comunque aperto a notarlo.\"",
+    "continue": "Continuare"
+  },
+  "reflection": {
+    "step": "Fase {{step}} di {{total}}",
+    "prompts": {
+      "p1": "Un breve momento trascorso di recente con il tuo partner che non ti è sembrato teso è stato...",
+      "p1_ex": "\"Abbiamo avuto una breve e tranquilla conversazione la sera.\"",
+      "p2": "Uno sforzo compiuto dal tuo partner, anche se imperfetto, è...",
+      "p2_ex": "\"Hanno cercato di spiegare i loro sentimenti invece di chiudersi in se stessi.\"",
+      "p3": "Una qualità del tuo partner che è rimasta costante nel tempo è...",
+      "p3_ex": "\"Continuano a dimostrare dedizione verso le nostre responsabilità.\""
+    },
+    "placeholder": "Scrivi qui la tua riflessione…",
+    "next": "Prossimo",
+    "finish": "Fine"
+  },
+  "intention": {
+    "step": "Fase 4 di 4",
+    "title": "Come vorresti che fosse realizzata questa riflessione?",
+    "options": {
+      "private": "Preferirei mantenere questa riflessione privata.",
+      "share_part": "Potrei scegliere di condividere una parte di questo con il mio partner.",
+      "share_full": "Vorrei condividere questa riflessione nella sua interezza.",
+      "save_later": "Ne parlerò più avanti."
+    },
+    "continue": "Continuare"
+  },
+  "checkin": {
+    "title": "Dopo aver completato questa riflessione, quale affermazione ti sembra più corretta?",
+    "statements": {
+      "s1": "In questo momento mi sento un po' più aperto nei confronti del mio partner.",
+      "s2": "Non noto grandi cambiamenti, ma sono disposto a rimanere cosciente.",
+      "s3": "Ho trovato questo compito un po' difficile da completare.",
+      "s4": "Durante la riflessione ho avvertito una leggera sensazione di calore.",
+      "s5": "Ho notato una certa resistenza e ritengo importante riconoscerla.",
+      "s6": "Sento un leggero ammorbidimento rispetto a prima di iniziare."
+    },
+    "finish": "Completa e salva"
+  },
+  "closing": {
+    "title": "Riflessione completa",
+    "text1": "Questa pausa non cancella le difficoltà. Semplicemente ripristina l'equilibrio nel modo in cui viene percepita la relazione.",
+    "text2": "Anche brevi momenti di attenzione possono gradualmente attenuare la rigidità emotiva e creare spazio per conversazioni più sane.",
+    "save": "Salva in Riflessioni",
+    "viewHistory": "Visualizza cronologia",
+    "exit": "Uscita"
+  },
+  "history": {
+    "title": "La tua cronologia di riflessione",
+    "noReflections": "Nessuna riflessione salvata. Le sessioni completate appariranno qui.",
+    "back": "Torna all'inizio",
+    "confirmDelete": "Conferma Elimina",
+    "cancel": "Cancellare",
+    "delete": "Elimina voce",
+    "prompts": [
+      "Un piccolo momento che non sembrava teso...",
+      "Uno sforzo che il tuo partner ha fatto...",
+      "Una qualità che è rimasta costante…",
+      "Intenzione",
+      "Check-in emotivo"
+    ]
+  }
+}

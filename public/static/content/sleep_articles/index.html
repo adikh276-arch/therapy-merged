@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sleep & Mental Health — Articles & Guides</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:      #EDE9FE;
+    --primary: #8B5CF6;
+    --primary2:#764ed1;
+    --light:   #f8f4ff;
+    --mid:     #d08aff;
+    --ink:     #291b49;
+    --muted:   #452e7b;
+    --white:   #ffffff;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family:'DM Sans',sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+
+  /* ── TOP NAV ── */
+  .top-nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    padding:1rem 2rem;
+    display:flex; align-items:center; justify-content:space-between;
+    background:rgba(237,233,254,0.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--mid);
+  }
+  .nav-logo {
+    font-family:'DM Serif Display',serif;
+    font-size:1.05rem; color:var(--primary2);
+    cursor:pointer; opacity:0; transition:opacity .3s;
+    pointer-events:none;
+  }
+  .nav-logo.visible { opacity:1; pointer-events:all; }
+  .nav-pill {
+    font-size:.7rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; background:var(--primary);
+    color:white; padding:5px 14px; border-radius:100px;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    text-align:center; padding:2rem;
+    position:relative; overflow:hidden;
+  }
+  .hero-orbs { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+  .orb {
+    position:absolute; border-radius:50%;
+    filter:blur(72px); opacity:.16;
+    animation:drift 10s ease-in-out infinite alternate;
+  }
+  .o1{width:560px;height:560px;background:var(--primary);top:-18%;left:-16%;animation-delay:0s;}
+  .o2{width:420px;height:420px;background:var(--primary);top:22%;right:-14%;animation-delay:-3s;}
+  .o3{width:360px;height:360px;background:var(--mid);bottom:-10%;left:20%;animation-delay:-6s;}
+  @keyframes drift{from{transform:translate(0,0)scale(1);}to{transform:translate(32px,20px)scale(1.07);}}
+
+  .hero-badge {
+    display:inline-flex; align-items:center; gap:9px;
+    background:white; border:2px solid var(--ink);
+    border-radius:100px; padding:7px 20px;
+    font-size:.72rem; font-weight:700; letter-spacing:.1em;
+    text-transform:uppercase; margin-bottom:2rem;
+    box-shadow:3px 3px 0 var(--primary);
+    animation:fadeUp .8s ease both;
+  }
+  .bdot { width:9px;height:9px;border-radius:50%;background:var(--primary);display:inline-block; }
+
+  h1.hero-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(2.4rem,5.5vw,4.6rem);
+    line-height:1.1; max-width:700px; margin-bottom:1.2rem;
+    animation:fadeUp .8s .1s ease both;
+  }
+  h1.hero-title em {
+    font-style:italic;
+    background:linear-gradient(135deg,var(--primary),var(--primary2));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+  }
+  .hero-sub {
+    font-size:1.08rem; color:var(--muted);
+    max-width:480px; line-height:1.75; margin-bottom:.9rem;
+    animation:fadeUp .8s .2s ease both;
+  }
+  .hero-quote {
+    font-style:italic; font-size:.88rem; color:var(--muted);
+    opacity:.75; margin-bottom:2.6rem;
+    animation:fadeUp .8s .3s ease both;
+  }
+  .cta-btn {
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:1rem;
+    padding:1rem 2.6rem; border-radius:100px; border:none; cursor:pointer;
+    box-shadow:4px 4px 0 var(--primary);
+    transition:transform .15s,box-shadow .15s;
+    animation:fadeUp .8s .4s ease both;
+  }
+  .cta-btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--primary);}
+
+  .hero-stats {
+    display:flex; gap:3rem; margin-top:3.5rem;
+    animation:fadeUp .8s .55s ease both;
+  }
+  .stat { text-align:center; }
+  .stat-n { font-family:'DM Serif Display',serif; font-size:2.1rem; color:var(--primary); }
+  .stat-l { font-size:.74rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:2px; }
+
+  @keyframes fadeUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:translateY(0);}}
+
+  /* ── ARTICLE LIST ── */
+  #article-list {
+    display:none; padding:5rem 2rem 4rem;
+    max-width:700px; margin:0 auto;
+  }
+  .al-header { margin-bottom:2.6rem; }
+  .al-header h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:2.3rem; margin-bottom:.4rem;
+  }
+  .al-header p { color:var(--muted); font-size:.95rem; }
+
+  .article-cards { display:flex; flex-direction:column; gap:1rem; }
+
+  .article-card {
+    background:white; border-radius:20px;
+    border:2px solid transparent;
+    cursor:pointer; overflow:hidden;
+    display:flex; align-items:stretch;
+    transition:all .22s ease;
+  }
+  .article-card:hover {
+    transform:translateX(6px);
+    box-shadow:-5px 5px 0 var(--ink);
+    border-color:var(--ink);
+  }
+  .ac-stripe { width:6px; flex-shrink:0; background:var(--primary); }
+  .ac-body { padding:1.4rem 1.6rem; flex:1; }
+  .ac-tag {
+    font-size:.63rem; font-weight:700; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:3px 10px; border-radius:100px;
+    display:inline-block; margin-bottom:.6rem;
+  }
+  .ac-title {
+    font-family:'DM Serif Display',serif;
+    font-size:1.18rem; margin-bottom:.4rem; line-height:1.3;
+  }
+  .ac-desc { font-size:.86rem; color:var(--muted); line-height:1.55; }
+  .ac-meta { font-size:.75rem; color:var(--muted); margin-top:.6rem; }
+
+  /* ── ARTICLE DETAIL ── */
+  #article-detail {
+    display:none; max-width:660px;
+    margin:0 auto; padding:5rem 2rem 6rem;
+  }
+
+  .back-btn {
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:.85rem; font-weight:600; color:var(--muted);
+    cursor:pointer; background:none; border:none;
+    margin-bottom:2rem; transition:color .15s;
+  }
+  .back-btn:hover { color:var(--ink); }
+
+  .ad-band {
+    height:7px; border-radius:100px; margin-bottom:2rem;
+    background:linear-gradient(90deg,var(--primary),var(--primary2),var(--mid));
+  }
+  .ad-tag {
+    font-size:.68rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:4px 13px; border-radius:100px;
+    display:inline-block; margin-bottom:1rem;
+  }
+  .ad-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(1.8rem,4vw,2.6rem);
+    line-height:1.1; margin-bottom:.9rem;
+  }
+  .ad-deck {
+    font-size:1.05rem; color:var(--muted); line-height:1.75;
+    border-bottom:2px solid var(--light);
+    padding-bottom:1.8rem; margin-bottom:2rem;
+  }
+  .ad-meta { font-size:.78rem; color:var(--muted); margin-bottom:1.5rem; }
+
+  /* body prose */
+  .ad-body h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:1.55rem; margin:2.2rem 0 .6rem; color:var(--ink);
+  }
+  .ad-body h3 {
+    font-size:1.02rem; font-weight:600;
+    margin:1.6rem 0 .45rem; color:var(--ink);
+  }
+  .ad-body p {
+    font-size:1rem; line-height:1.88; color:#334155; margin-bottom:1.2rem;
+  }
+  .ad-body ul, .ad-body ol {
+    padding-left:1.4rem; margin-bottom:1.2rem;
+  }
+  .ad-body li {
+    font-size:.97rem; line-height:1.75; color:#334155; margin-bottom:.4rem;
+  }
+
+  /* pull-quote */
+  .pullquote {
+    border-left:5px solid var(--primary);
+    background:var(--light);
+    padding:1.2rem 1.6rem; border-radius:0 16px 16px 0;
+    margin:2rem 0;
+    font-family:'DM Serif Display',serif;
+    font-style:italic; font-size:1.1rem; line-height:1.65; color:var(--ink);
+  }
+
+  /* key-box */
+  .keybox {
+    background:var(--light); border-radius:16px;
+    padding:1.4rem 1.7rem; margin:2rem 0;
+  }
+  .keybox-title {
+    font-weight:700; font-size:.75rem; text-transform:uppercase;
+    letter-spacing:.09em; color:var(--primary);
+    display:block; margin-bottom:.75rem;
+  }
+  .keybox ul { padding-left:1.2rem; }
+  .keybox li {
+    font-size:.93rem; color:var(--ink); line-height:1.7; margin-bottom:.35rem;
+  }
+
+  /* takeaway */
+  .ad-takeaway {
+    margin-top:2.4rem; padding:1.5rem 1.7rem;
+    border-radius:18px; border:2px solid var(--primary);
+    background:var(--light);
+  }
+  .takeaway-label {
+    font-weight:700; font-size:.7rem; text-transform:uppercase;
+    letter-spacing:.1em; color:var(--primary);
+    display:block; margin-bottom:.55rem;
+  }
+  .ad-takeaway p { font-size:.93rem; color:var(--ink); line-height:1.7; margin:0; }
+
+  .back-to-list-btn {
+    display:block; text-align:center;
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:.95rem;
+    padding:.95rem 2rem; border-radius:100px; border:none; cursor:pointer;
+    margin-top:2.8rem; box-shadow:3px 3px 0 var(--primary);
+    transition:opacity .15s, transform .15s;
+  }
+  .back-to-list-btn:hover { opacity:.88; transform:translateY(-1px); }
+
+  /* responsive */
+  @media(max-width:520px){
+    .hero-stats{gap:1.8rem;}
+    .stat-n{font-size:1.6rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <div class="nav-logo" id="navLogo" onclick="showHero()">Sleep & Mental Health Guide</div>
+  <div class="nav-pill">Mental Health</div>
+</nav>
+
+<!-- ════════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-orbs">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+
+  <div class="hero-badge"><span class="bdot"></span>Evidence-Based · Compassionate · Clear</div>
+
+  <h1 class="hero-title">Rest Is Not a Luxury.<br><em>It Is Medicine.</em></h1>
+
+  <p class="hero-sub">These articles explore sleep & mental health. 35% of adults sleep deprived 5 articles Rest is learnable. Discover what it really is and how to work with it.</p>
+
+  <p class="hero-quote">"Sleep is the best meditation." — Dalai Lama</p>
+
+  <button class="cta-btn" onclick="showList()">Read the Articles →</button>
+
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">35%</div><div class="stat-l">of adults sleep deprived</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">articles</div></div>
+    <div class="stat"><div class="stat-n">Rest</div><div class="stat-l">is learnable</div></div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE LIST
+════════════════════════════════════════ -->
+<section id="article-list">
+  <div class="al-header">
+    <h2>Sleep & Mental Health Articles</h2>
+    <p>Five deep reads — choose wherever you are right now.</p>
+  </div>
+  <div class="article-cards" id="articleCards"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE DETAIL
+════════════════════════════════════════ -->
+<section id="article-detail">
+  <div id="articleDetailContent"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     DATA + LOGIC
+════════════════════════════════════════ -->
+<script>
+const articles = [
+{
+  tag: "Understanding",
+  title: "Why Sleep Is Foundational to Mental Health — Not Optional",
+  desc: "Sleep is not just rest — it is a core biological process that shapes how your brain functions.",
+  readTime: "11 min read",
+  deck: "Sleep affects mood, cognition, and emotional regulation. Without it, mental health becomes harder to maintain — regardless of other efforts.",
+  takeaway: "Sleep is not a luxury. It is one of the most powerful tools for mental health.",
+  body: `
+
+<h2>Sleep Is Not Passive Rest</h2>
+<p>Sleep is often treated as downtime — a break from activity. But it is not passive. It is an active biological process that supports brain function and emotional stability.</p>
+
+<p>During sleep, the brain processes information, consolidates memory, and regulates emotional responses. These processes are essential for daily functioning.</p>
+
+<p>Without adequate sleep, these systems are disrupted.</p>
+
+<div class="pullquote">
+"Sleep is not the absence of activity — it is one of the most important forms of it."
+</div>
+
+<h2>The Link Between Sleep and Mood</h2>
+<p>Sleep and mood are closely connected. Poor sleep can increase irritability, reduce patience, and make emotional responses more intense.</p>
+
+<p>Over time, insufficient sleep can contribute to anxiety and depression.</p>
+
+<p>At the same time, mental health difficulties can disrupt sleep — creating a cycle.</p>
+
+<h2>What Happens in the Brain</h2>
+<p>Sleep supports regulation between different brain systems. The prefrontal cortex helps manage emotional responses from the amygdala.</p>
+
+<p>When sleep is reduced, this regulation weakens. Emotional reactions become stronger and harder to control.</p>
+
+<div class="pullquote">
+"When you are sleep-deprived, your brain becomes more reactive and less regulated."
+</div>
+
+<h2>The Impact on Thinking</h2>
+<p>Sleep affects attention, memory, and decision-making. Lack of sleep can lead to slower thinking, reduced focus, and increased mistakes.</p>
+
+<p>These changes can affect both work and daily life.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Effects of poor sleep:</span>
+  <ul>
+    <li>Reduced concentration</li>
+    <li>Increased irritability</li>
+    <li>Lower emotional regulation</li>
+    <li>Impaired memory</li>
+    <li>Higher stress levels</li>
+  </ul>
+</div>
+
+<h2>Why It’s Often Overlooked</h2>
+<p>Sleep is often sacrificed for productivity or convenience. Late nights, early mornings, and irregular schedules become normal.</p>
+
+<p>Because the effects are gradual, they are often underestimated.</p>
+
+<h2>What Needs to Change</h2>
+<p>Improving mental health requires attention to sleep. This includes both duration and quality.</p>
+
+<p>Consistent sleep patterns, reduced stimulation before bed, and supportive environments all contribute to better sleep.</p>
+
+<p>Sleep is not separate from mental health — it is part of it.</p>
+
+`
+},
+{
+  tag: "Insomnia",
+  title: "Chronic Insomnia: What It Is, What Causes It, and What Actually Treats It",
+  desc: "Insomnia is not just difficulty sleeping — it is often maintained by patterns that can be changed.",
+  readTime: "11 min read",
+  deck: "Chronic insomnia affects both sleep and mental health. Understanding what maintains it is key to treating it effectively.",
+  takeaway: "Insomnia is not just about sleep — it is about patterns that can be adjusted.",
+  body: `
+
+<h2>What Insomnia Actually Means</h2>
+<p>Insomnia is not simply getting less sleep. It involves difficulty falling asleep, staying asleep, or waking too early — combined with daytime impact.</p>
+
+<p>It becomes chronic when it persists over time.</p>
+
+<div class="pullquote">
+"Insomnia is not just a night problem — it is a 24-hour pattern."
+</div>
+
+<h2>How It Develops</h2>
+<p>Insomnia often begins with a trigger — stress, illness, or change in routine. Sleep becomes disrupted.</p>
+
+<p>Over time, behaviours and thoughts develop around sleep — trying harder to sleep, worrying about sleep, changing routines.</p>
+
+<p>These responses can unintentionally maintain insomnia.</p>
+
+<h2>The Role of Hyperarousal</h2>
+<p>Insomnia is associated with increased arousal — both physical and mental. The body remains alert, even when tired.</p>
+
+<p>This makes sleep more difficult.</p>
+
+<h2>Common Maintaining Factors</h2>
+<p>Certain patterns reinforce insomnia, even when the original cause is no longer present.</p>
+
+<div class="keybox">
+  <span class="keybox-title">What maintains insomnia:</span>
+  <ul>
+    <li>Irregular sleep schedules</li>
+    <li>Spending excessive time in bed</li>
+    <li>Worrying about sleep</li>
+    <li>Napping during the day</li>
+  </ul>
+</div>
+
+<h2>What Actually Helps</h2>
+<p>CBT for insomnia (CBT-I) is one of the most effective treatments. It focuses on changing behaviours and thoughts that maintain insomnia.</p>
+
+<p>This includes establishing consistent routines, reducing time in bed, and addressing sleep-related worry.</p>
+
+<h2>Why It Works</h2>
+<p>CBT-I works by retraining the brain to associate bed with sleep, rather than wakefulness or stress.</p>
+
+<p>Over time, this reduces arousal and improves sleep quality.</p>
+
+`
+},
+{
+  tag: "CBT-I",
+  title: "CBT for Insomnia: The Treatment That Outperforms Sleeping Pills",
+  desc: "CBT-I is the most effective long-term treatment for insomnia — and many people don’t know it exists.",
+  readTime: "11 min read",
+  deck: "Cognitive Behavioural Therapy for Insomnia (CBT-I) addresses the patterns that maintain poor sleep, offering long-term improvement without reliance on medication.",
+  takeaway: "Better sleep comes from retraining patterns — not forcing sleep.",
+  body: `
+
+<h2>Why Sleeping Pills Aren’t a Long-Term Solution</h2>
+<p>Medication can be helpful in the short term, especially during acute periods of sleep disruption. But it does not address the underlying patterns that maintain insomnia.</p>
+
+<p>When medication is stopped, sleep difficulties often return if those patterns remain unchanged.</p>
+
+<div class="pullquote">
+"Medication can induce sleep — but it doesn’t teach the brain how to sleep."
+</div>
+
+<h2>What CBT-I Focuses On</h2>
+<p>CBT-I is structured around identifying and changing the behaviours and thoughts that interfere with sleep.</p>
+
+<p>It works across several areas: sleep scheduling, stimulus control, cognitive restructuring, and relaxation.</p>
+
+<h2>Stimulus Control</h2>
+<p>One of the key principles is strengthening the association between bed and sleep. This involves using the bed only for sleep, and getting out of bed if unable to sleep.</p>
+
+<p>Over time, this helps the brain reconnect the bed with sleep rather than wakefulness.</p>
+
+<h2>Sleep Restriction</h2>
+<p>Sleep restriction reduces time spent in bed to match actual sleep time. This increases sleep pressure, making it easier to fall asleep and stay asleep.</p>
+
+<p>As sleep improves, time in bed is gradually increased.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Core components of CBT-I:</span>
+  <ul>
+    <li>Consistent sleep and wake times</li>
+    <li>Limiting time in bed</li>
+    <li>Reducing sleep-related anxiety</li>
+    <li>Building strong sleep associations</li>
+  </ul>
+</div>
+
+<h2>Changing Thoughts About Sleep</h2>
+<p>Many people with insomnia develop unhelpful beliefs about sleep — such as needing a perfect amount each night or fearing the consequences of poor sleep.</p>
+
+<p>CBT-I addresses these thoughts, helping create a more balanced perspective.</p>
+
+<h2>Why It Works Long-Term</h2>
+<p>CBT-I creates lasting change because it addresses the underlying mechanisms of insomnia.</p>
+
+<p>It teaches the brain how to sleep again, rather than relying on external support.</p>
+
+`
+},
+{
+  tag: "Anxiety",
+  title: "The Anxiety-Sleep Loop: How to Break the Cycle",
+  desc: "Anxiety and sleep are closely linked — each can make the other worse.",
+  readTime: "10 min read",
+  deck: "Anxiety can disrupt sleep, and poor sleep can increase anxiety. Breaking this cycle requires addressing both sides.",
+  takeaway: "Improving sleep helps anxiety — and reducing anxiety helps sleep. Both need to be addressed together.",
+  body: `
+
+<h2>How Anxiety Disrupts Sleep</h2>
+<p>Anxiety increases arousal — both mental and physical. Racing thoughts, heightened awareness, and physical tension make it harder to fall asleep.</p>
+
+<p>The mind becomes active when the body needs to settle.</p>
+
+<div class="pullquote">
+"An anxious mind tries to solve tomorrow’s problems at night — when solutions are least available."
+</div>
+
+<h2>How Poor Sleep Increases Anxiety</h2>
+<p>Lack of sleep reduces emotional regulation. The brain becomes more reactive, making anxiety more likely and more intense.</p>
+
+<p>This creates a cycle — anxiety disrupts sleep, and poor sleep increases anxiety.</p>
+
+<h2>The Role of Anticipation</h2>
+<p>Worrying about not sleeping can itself prevent sleep. Anticipation creates tension, making it harder to relax.</p>
+
+<h2>Breaking the Cycle</h2>
+<p>Breaking the anxiety-sleep loop requires addressing both sleep habits and anxiety patterns.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Ways to break the cycle:</span>
+  <ul>
+    <li>Establish consistent sleep routines</li>
+    <li>Limit stimulating activities before bed</li>
+    <li>Practice relaxation techniques</li>
+    <li>Address anxious thoughts during the day</li>
+  </ul>
+</div>
+
+<h2>Timing Matters</h2>
+<p>Managing anxiety during the day reduces its impact at night. Trying to resolve everything at bedtime often increases arousal.</p>
+
+<h2>What Progress Looks Like</h2>
+<p>Improvement is gradual. Sleep becomes more consistent, and anxiety becomes less disruptive.</p>
+
+<p>The cycle weakens over time.</p>
+
+`
+},
+{
+  tag: "Disorders",
+  title: "Sleep Disorders and Mental Health: When Sleep Itself Is the Diagnosis",
+  desc: "Some sleep problems are not just symptoms — they are conditions in their own right.",
+  readTime: "10 min read",
+  deck: "Sleep disorders can directly affect mental health. Recognising them is key to getting appropriate treatment.",
+  takeaway: "If sleep problems persist despite changes, a specific sleep disorder may need to be addressed.",
+  body: `
+
+<h2>When Sleep Is More Than a Symptom</h2>
+<p>While sleep issues often accompany mental health conditions, they can also exist independently as sleep disorders.</p>
+
+<p>These conditions require specific approaches.</p>
+
+<div class="pullquote">
+"Sometimes improving mental health requires treating sleep directly — not just indirectly."
+</div>
+
+<h2>Common Sleep Disorders</h2>
+<p>There are several types of sleep disorders, including insomnia, sleep apnea, restless legs syndrome, and circadian rhythm disorders.</p>
+
+<p>Each has different causes and treatments.</p>
+
+<h2>The Impact on Mental Health</h2>
+<p>Sleep disorders can increase risk for anxiety, depression, and reduced cognitive functioning.</p>
+
+<p>Poor sleep affects how the brain regulates emotion and stress.</p>
+
+<div class="keybox">
+  <span class="keybox-title">When to consider a sleep disorder:</span>
+  <ul>
+    <li>Persistent sleep difficulties despite routine changes</li>
+    <li>Daytime fatigue affecting functioning</li>
+    <li>Irregular sleep-wake patterns</li>
+    <li>Physical symptoms during sleep</li>
+  </ul>
+</div>
+
+<h2>Getting the Right Support</h2>
+<p>Diagnosis may involve sleep assessments or specialist consultation.</p>
+
+<p>Treatment depends on the specific condition.</p>
+
+<h2>Moving Forward</h2>
+<p>Addressing sleep disorders can significantly improve overall wellbeing.</p>
+
+<p>Sleep is not separate from mental health — it is part of it.</p>
+
+`
+}
+];
+
+/* ─────────────────────────────────────────────
+   NAVIGATION STATE
+───────────────────────────────────────────── */
+let currentArticleIndex = null;
+let navState = 'hero'; // hero | list | detail
+
+function showHero() {
+  navState = 'hero';
+  document.getElementById('hero').style.display = 'flex';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.remove('visible');
+  window.scrollTo({ top: 0 });
+}
+
+function showList() {
+  navState = 'list';
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'block';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.add('visible');
+  renderCards();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showArticle(i) {
+  navState = 'detail';
+  currentArticleIndex = i;
+  const a = articles[i];
+
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'block';
+  document.getElementById('navLogo').classList.add('visible');
+
+  document.getElementById('articleDetailContent').innerHTML = `
+    <button class="back-btn" onclick="showList()">← All Articles</button>
+    <div class="ad-band"></div>
+    <span class="ad-tag">${a.tag}</span>
+    <h1 class="ad-title">${a.title}</h1>
+    <p class="ad-meta">${a.readTime} &nbsp;·&nbsp; Sleep & Mental Health Guide</p>
+    <p class="ad-deck">${a.deck}</p>
+    <div class="ad-body">${a.body}</div>
+    <div class="ad-takeaway">
+      <span class="takeaway-label">💙 Key takeaway</span>
+      <p>${a.takeaway}</p>
+    </div>
+    <button class="back-to-list-btn" onclick="showList()">← Back to All Articles</button>
+  `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderCards() {
+  const container = document.getElementById('articleCards');
+  container.innerHTML = '';
+  articles.forEach((a, i) => {
+    const card = document.createElement('div');
+    card.className = 'article-card';
+    card.innerHTML = `
+      <div class="ac-stripe"></div>
+      <div class="ac-body">
+        <span class="ac-tag">${a.tag}</span>
+        <div class="ac-title">${a.title}</div>
+        <div class="ac-desc">${a.desc}</div>
+        <div class="ac-meta">${a.readTime}</div>
+      </div>
+    `;
+    card.onclick = () => showArticle(i);
+    container.appendChild(card);
+  });
+}
+
+// boot
+showHero();
+</script>
+</body>
+</html>

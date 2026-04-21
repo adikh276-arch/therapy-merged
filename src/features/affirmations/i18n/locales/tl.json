@@ -1,0 +1,173 @@
+{
+  "common": {
+    "title": "Mga Pagpapatibay — Isang Magiliw na Kasama",
+    "beforeYouBegin": "Bago Ka Magsimula",
+    "introText1": "Kung komportable ka, maaari kang tumayo sa harap ng salamin habang binabasa ang mga pagpapatibay na ito.",
+    "introText2": "Maaari mong dahan-dahang tingnan ang iyong sarili at bigkasin ang bawat linya nang malakas, dahan-dahan at malinaw. Ang pakikinig sa sarili mong boses ay maaaring magparamdam sa mga salita na mas personal at matibay.",
+    "noRightWay": "Walang tamang paraan para gawin ito.",
+    "takeTime": "Maghintay ka lang.",
+    "breatheNaturally": "Huminga nang natural.",
+    "noRush": "Hindi kailangang magmadali o pilitin ang anumang nararamdaman.",
+    "meaningfulMoment": "Kahit na ang mga salita ay hindi lubos na totoo sa ngayon, ang pagbibigay-daan sa sandaling ito ng intensyon ay maaari pa ring maging makabuluhan.",
+    "readyToBegin": "Kapag handa ka na, maaari ka nang magsimula ✨",
+    "begin": "Simulan",
+    "howFeeling": "Kumusta ang Pakiramdam Mo Ngayon?",
+    "noExplanation": "Hindi mo kailangang magpaliwanag o mag-analisa ng kahit ano.",
+    "justNotice": "Pansinin mo lang kung ano ang pinakamalapit sa iyong karanasan sa sandaling ito.",
+    "chooseOne": "Pumili ng isang pakiramdam para simulan — maaari kang bumalik anumang oras.",
+    "readAgain": "Basahin Muli",
+    "chooseAnother": "Pumili ng Ibang Pakiramdam"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Kapag nalulungkot at nag-iisa ka",
+      "affirmations": [
+        "Hindi ako nag-iisa, kahit na ganoon ang pakiramdam.",
+        "Ang aking damdamin ay nararapat sa pag-aalaga at kahinahunan.",
+        "Hindi magtatagal ang sandaling ito magpakailanman.",
+        "Pinapayagan akong mangailangan ng koneksyon.",
+        "Kaya kong ibigay ang init sa sarili ko ngayon."
+      ]
+    },
+    "terrified": {
+      "label": "Kapag nakaramdam ka ng takot",
+      "affirmations": [
+        "Ligtas ako sa sandaling ito.",
+        "Ang takot ay isang pakiramdam, hindi isang hula.",
+        "Kaya kong huminga nang paisa-isa.",
+        "Hindi ko kailangang lutasin ang lahat ngayon.",
+        "Mas malakas ako kaysa sa sandaling ito."
+      ]
+    },
+    "insignificant": {
+      "label": "Kapag pakiramdam mo'y wala kang kwenta",
+      "affirmations": [
+        "Mahalaga pa rin ang maliliit na sandali.",
+        "Hindi ko kailangang patunayan ang halaga ko.",
+        "Pinapayagan akong kumuha ng espasyo.",
+        "Mahalaga ang aking pag-iral.",
+        "Sapat na ako kung sino ako."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Kapag pakiramdam mo ay nabibigatan ka",
+      "affirmations": [
+        "Hindi ko kailangang gawin ang lahat nang sabay-sabay.",
+        "Sapat na ang isang maliit na hakbang.",
+        "Ayos lang na huminto muna.",
+        "Pinapayagan akong magpahinga.",
+        "Magiging mapapamahalaan na naman ito."
+      ]
+    },
+    "hopeless": {
+      "label": "Kapag pakiramdam mo ay wala kang pag-asa",
+      "affirmations": [
+        "Hindi ko kailangan ng mga sagot ngayon.",
+        "Posible pa rin ang pagbabago.",
+        "Nakayanan ko na ang mga mahihirap na araw noon.",
+        "Pwede akong mag-stay dito muna sa ngayon.",
+        "May isang bagay na banayad pa rin na maaaring mabuo."
+      ]
+    },
+    "conflicted": {
+      "label": "Kapag nakakaramdam ka ng salungatan",
+      "affirmations": [
+        "Ayos lang na makaramdam ng higit sa isang bagay nang sabay-sabay.",
+        "Hindi ko kailangan ng kalinawan agad-agad.",
+        "Ang pagkalito ay hindi nangangahulugang kabiguan.",
+        "Kaya kong bigyan ng oras ang sarili ko.",
+        "Nagtitiwala ako sa sarili ko na malalampasan ko ito."
+      ]
+    },
+    "self-critical": {
+      "label": "Kapag ikaw ay napaka-kritiko sa sarili",
+      "affirmations": [
+        "Kaya kong kausapin ang sarili ko nang may kabaitan.",
+        "Hindi ko kailangang parusahan ang sarili ko para lumago.",
+        "Hindi tinutukoy ng mga pagkakamali kung sino ako.",
+        "Natututo ako, hindi nabibigo.",
+        "Ang paglago ay hindi nangangailangan ng kalupitan."
+      ]
+    },
+    "out-of-place": {
+      "label": "Kapag pakiramdam mo ay wala ka sa lugar sa lipunan",
+      "affirmations": [
+        "Pinapayagan akong manahimik o maging iba.",
+        "Hindi ko kailangang pantayan ang enerhiya ng iba.",
+        "Nabibilang ako kung sino ako.",
+        "Kaya kong dahan-dahang kumuha ng espasyo.",
+        "Hindi ko ito ginagawa nang mali."
+      ]
+    },
+    "unsafe": {
+      "label": "Kapag nakakaramdam ka ng kawalan ng seguridad sa piling ng mga estranghero",
+      "affirmations": [
+        "Kaya kong gumalaw sa sarili kong bilis.",
+        "Pinapayagan akong protektahan ang aking mga hangganan.",
+        "Kaya kong manatiling nakatitig sa katawan ko.",
+        "Pinapayagan akong umalis sa mga sitwasyon.",
+        "Kaya kong panatilihing ligtas ang sarili ko."
+      ]
+    },
+    "pressured": {
+      "label": "Kapag nakakaramdam ka ng pressure sa trabaho",
+      "affirmations": [
+        "Ang halaga ko ay hindi ang aking produktibidad.",
+        "Hindi ko kailangang patunayan ang sarili ko palagi.",
+        "Sapat na ang paggawa ng aking makakaya ngayon.",
+        "Ayos lang ang isang gawain sa isang pagkakataon.",
+        "Higit pa ako sa aking papel."
+      ]
+    },
+    "face-the-day": {
+      "label": "Kapag ayaw mong harapin ang araw",
+      "affirmations": [
+        "Kaya kong kunin ngayon nang maliliit na piraso.",
+        "Sapat na ang paglampas.",
+        "Hindi ko kailangan ng motibasyon para magsimula.",
+        "Mahalaga pa rin ang pagpapakita nang marahan.",
+        "Hindi ako ang tinutukoy ng araw na ito."
+      ]
+    },
+    "future": {
+      "label": "Kapag nag-aalala ka tungkol sa iyong kinabukasan",
+      "affirmations": [
+        "Makakabalik na ako sa kasalukuyan.",
+        "Haharapin ko ang mga bagay-bagay kung kailan ito darating.",
+        "Hindi ko kailangan ng katiyakan ngayon.",
+        "Kaya ko namang mag-adapt.",
+        "Mas mapagkakatiwalaan ko ang sarili ko nang kaunti."
+      ]
+    },
+    "stuck": {
+      "label": "Kapag pakiramdam mo ay natigil ka sa isang problema",
+      "affirmations": [
+        "Ang pagiging stuck ay hindi nangangahulugang sira na ako.",
+        "Kaya kong huminto nang hindi sumusuko.",
+        "Hindi ko kailangan ng agarang solusyon.",
+        "Hinayaan akong makaramdam ng kawalan ng katiyakan.",
+        "Gumagalaw pa rin ako, kahit mabagal."
+      ]
+    },
+    "compare": {
+      "label": "Kapag ikinukumpara mo ang iyong sarili",
+      "affirmations": [
+        "Ang aking paglalakbay ay akin.",
+        "Hindi ko kailangang makipagkumpitensya para maging karapat-dapat.",
+        "Pinapayagan akong lumago sa aking bilis.",
+        "Hindi nabubura ng tagumpay ng iba ang akin.",
+        "Hindi ako nasa likod."
+      ]
+    },
+    "give-up": {
+      "label": "Kapag gusto mo nang sumuko",
+      "affirmations": [
+        "Wala akong kailangang magdesisyon ngayon.",
+        "Lilipas din ang pakiramdam na ito.",
+        "Nakaligtas ako nang higit pa sa inaakala ko.",
+        "Maaari akong magtagal pa nang isang sandali.",
+        "Nandito pa rin ako — at mahalaga iyon."
+      ]
+    }
+  }
+}

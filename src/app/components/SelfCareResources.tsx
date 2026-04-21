@@ -106,12 +106,12 @@ const mindfulnessCards: MindfulnessCard[] = [
 ];
 
 const toolCards: TopicCard[] = [
-  { id: "box-breathing", icon: Wind, label: "Box Breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "https://platform.mantracare.com/box_breathing/?lang=en" },
-  { id: "gratitude-tracker", icon: Star, label: "Gratitude Tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "https://web.mantracare.com/app/gratitude_tracker" },
+  { id: "box-breathing", icon: Wind, label: "Box Breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
+  { id: "gratitude-tracker", icon: Star, label: "Gratitude Tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude" },
   { id: "loving-kindness-meditation", icon: Heart, label: "Loving-Kindness", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "https://web.mantracare.com/mindfulness/media/203/1" },
-  { id: "affirmations", icon: Smile, label: "Affirmations", bgColor: "linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)", iconColor: "#AB47BC", url: "https://platform.mantracare.com/affirmations/?lang=en" },
-  { id: "mindful-space", icon: Compass, label: "Mindful Space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "https://platform.mantracare.com/joyful_activities/?lang=en" },
-  { id: "letter-to-self", icon: Mail, label: "A Letter To Self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "https://web.mantracare.com/app/letter_to_self" },
+  { id: "affirmations", icon: Smile, label: "Affirmations", bgColor: "linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)", iconColor: "#AB47BC", url: "/tools/affirmations" },
+  { id: "mindful-space", icon: Compass, label: "Mindful Space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/exercises/joyful-activities" },
+  { id: "letter-to-self", icon: Mail, label: "A Letter To Self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/letter-to-self" },
 ];
 
 const topicDetails: Record<string, {
@@ -125,88 +125,88 @@ const topicDetails: Record<string, {
     description: "Evidence-based exercises and resources to help you manage depression symptoms and build resilience.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/depression/depr-guided-series/",
     exercises: [
-      { title: "5-4-3-2-1 Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
+      { title: "5-4-3-2-1 Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
-      { title: "Joyful Activities", icon: Sparkles, url: "https://platform.mantracare.com/joyful_activities/?lang=en" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
+      { title: "Joyful Activities", icon: Sparkles, url: "/exercises/joyful-activities" },
     ],
     todos: [
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Letter to Self", icon: Mail, url: "https://web.mantracare.com/app/letter_to_self" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Letter to Self", icon: Mail, url: "/tools/letter-to-self" },
     ],
     resources: [
-      { title: "Articles", count: 35, icon: Newspaper, url: "https://platform.mantracare.com/depression_articles/?lang=en" },
-      { title: "Tips", count: 25, icon: Lightbulb, url: "https://platform.mantracare.com/depression_tips/?lang=en" },
-      { title: "Stories", count: 18, icon: BookMarked, url: "https://platform.mantracare.com/depression_stories/?lang=en" },
-      { title: "Myths", count: 12, icon: HelpCircle, url: "https://platform.mantracare.com/depression_myths/?lang=en" },
+      { title: "Articles", count: 35, icon: Newspaper, url: "/concerns/depression/articles" },
+      { title: "Tips", count: 25, icon: Lightbulb, url: "/concerns/depression/tips" },
+      { title: "Stories", count: 18, icon: BookMarked, url: "/concerns/depression/stories" },
+      { title: "Myths", count: 12, icon: HelpCircle, url: "/concerns/depression/myths" },
     ],
   },
   anxiety: {
     description: "Calming techniques and strategies to manage anxiety, reduce worry, and regain a sense of control.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/anxiety/anx-guided-series/",
     exercises: [
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
-      { title: "4-6-8 Breathing", icon: Play, url: "https://platform.mantracare.com/4_6_8_breathing/" },
-      { title: "Grounded Technique", icon: Compass, url: "http://platform.mantracare.com/grounded_technique" },
-      { title: "Diffusion Techniques", icon: Brain, url: "https://platform.mantracare.com/diffusion_techniques/" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { title: "4-6-8 Breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
+      { title: "Grounded Technique", icon: Compass, url: "/exercises/grounded-technique" },
+      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-techniques" },
     ],
     todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "https://web.mantracare.com/app/vibe_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
+      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/mood" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
     ],
     resources: [
-      { title: "Articles", count: 30, icon: Newspaper, url: "https://platform.mantracare.com/anxiety_articles/?lang=en" },
-      { title: "Tips", count: 22, icon: Lightbulb, url: "https://platform.mantracare.com/anxiety_tips/?lang=en" },
-      { title: "Stories", count: 15, icon: BookMarked, url: "https://platform.mantracare.com/anxiety_stories/?lang=en" },
-      { title: "Myths", count: 10, icon: HelpCircle, url: "https://platform.mantracare.com/anxiety_myths/?lang=en" },
+      { title: "Articles", count: 30, icon: Newspaper, url: "/concerns/anxiety/articles" },
+      { title: "Tips", count: 22, icon: Lightbulb, url: "/concerns/anxiety/tips" },
+      { title: "Stories", count: 15, icon: BookMarked, url: "/concerns/anxiety/stories" },
+      { title: "Myths", count: 10, icon: HelpCircle, url: "/concerns/anxiety/myths" },
     ],
   },
   stress: {
     description: "Practical tools and exercises to manage stress, build coping skills, and restore balance in your life.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/stress-home/strs-guided-series/",
     exercises: [
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Doodle Burst", icon: Pen, url: "https://web.mantracare.com/app/doodle_burst" },
-      { title: "Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
+      { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
+      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { title: "Energy Tracker", icon: Zap, url: "https://web.mantracare.com/app/energy_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Environment Optimization", icon: Compass, url: "https://platform.mantracare.com/environment_optimization/?lang=en" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Environment Optimization", icon: Compass, url: "/tools/environment" },
     ],
     resources: [
-      { title: "Articles", count: 28, icon: Newspaper, url: "https://platform.mantracare.com/stress_articles/?lang=en" },
-      { title: "Tips", count: 20, icon: Lightbulb, url: "https://platform.mantracare.com/stress_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/stress_stories/?lang=en" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "https://platform.mantracare.com/stress_myths/?lang=en" },
+      { title: "Articles", count: 28, icon: Newspaper, url: "/concerns/stress/articles" },
+      { title: "Tips", count: 20, icon: Lightbulb, url: "/concerns/stress/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/stress/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/stress/myths" },
     ],
   },
   sleep: {
     description: "Techniques and trackers to improve your sleep quality, build healthy bedtime habits, and wake up refreshed.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/sleep/slp-guided-series/",
     exercises: [
-      { title: "4-6-8 Breathing", icon: Play, url: "https://platform.mantracare.com/4_6_8_breathing/" },
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
+      { title: "4-6-8 Breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
+      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { title: "Sleep Tracker", icon: Moon, url: "https://web.mantracare.com/app/sleep_tracker" },
-      { title: "Energy Tracker", icon: Zap, url: "https://web.mantracare.com/app/energy_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
+      { title: "Sleep Tracker", icon: Moon, url: "/trackers/sleep" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "https://platform.mantracare.com/sleep_articles/?lang=en" },
-      { title: "Tips", count: 15, icon: Lightbulb, url: "https://platform.mantracare.com/sleep_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/sleep_stories/?lang=en" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "https://platform.mantracare.com/sleep_myths/?lang=en" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/sleep/articles" },
+      { title: "Tips", count: 15, icon: Lightbulb, url: "/concerns/sleep/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/sleep/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/sleep/myths" },
     ],
   },
   adolescent: {
@@ -214,174 +214,174 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://app.mantracare.com/therapy/adolescent/adlscnt-guided-series/",
     exercises: [
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
-      { title: "Doodle Burst", icon: Pen, url: "https://web.mantracare.com/app/doodle_burst" },
-      { title: "Memory Recall", icon: Brain, url: "https://platform.mantracare.com/memory-recall/" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
+      { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
+      { title: "Memory Recall", icon: Brain, url: "/exercises/memory-recall" },
     ],
     todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "https://web.mantracare.com/app/vibe_tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
+      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/mood" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "https://platform.mantracare.com/adolescent_articles/?lang=en" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "https://platform.mantracare.com/adolescent_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/adolescent_stories/?lang=en" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "https://platform.mantracare.com/adolescent_myths/?lang=en" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/adolescent/articles" },
+      { title: "Tips", count: 14, icon: Lightbulb, url: "/concerns/adolescent/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/adolescent/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/adolescent/myths" },
     ],
   },
   relationship: {
     description: "Tools and insights to strengthen connections, improve communication, and build healthier relationships.",
     exercises: [
-      { title: "Letter to Self", icon: Mail, url: "https://web.mantracare.com/app/letter_to_self" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
+      { title: "Letter to Self", icon: Mail, url: "/tools/letter-to-self" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
     ],
     todos: [
-      { title: "Know Your Values", icon: Target, url: "http://web.mantracare.com/app/know_your_values/" },
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Personal Mission Statement", icon: Compass, url: "https://web.mantracare.com/app/personal_mission_statement" },
+      { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Personal Mission Statement", icon: Compass, url: "/tools/personal-mission" },
     ],
     resources: [
-      { title: "Articles", count: 22, icon: Newspaper, url: "https://platform.mantracare.com/relationship_articles/?lang=en" },
-      { title: "Tips", count: 16, icon: Lightbulb, url: "https://platform.mantracare.com/relationship_tips/?lang=en" },
-      { title: "Stories", count: 12, icon: BookMarked, url: "https://platform.mantracare.com/relationship_stories/?lang=en" },
-      { title: "Myths", count: 8, icon: HelpCircle, url: "https://platform.mantracare.com/relationship_myths/?lang=en" },
+      { title: "Articles", count: 22, icon: Newspaper, url: "/concerns/relationship/articles" },
+      { title: "Tips", count: 16, icon: Lightbulb, url: "/concerns/relationship/tips" },
+      { title: "Stories", count: 12, icon: BookMarked, url: "/concerns/relationship/stories" },
+      { title: "Myths", count: 8, icon: HelpCircle, url: "/concerns/relationship/myths" },
     ],
   },
   workplace: {
     description: "Strategies to manage workplace stress, improve focus, and maintain work-life balance.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/workplace/wrkplc-guided-series/",
     exercises: [
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
-      { title: "Environment Optimization", icon: Compass, url: "https://platform.mantracare.com/environment_optimization/?lang=en" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Environment Optimization", icon: Compass, url: "/tools/environment" },
     ],
     todos: [
-      { title: "Physical Activity Log", icon: Activity, url: "https://web.mantracare.com/app/physical_activity_log" },
-      { title: "Energy Tracker", icon: Zap, url: "https://web.mantracare.com/app/energy_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
+      { title: "Physical Activity Log", icon: Activity, url: "/trackers/activity" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
     ],
     resources: [
-      { title: "Articles", count: 25, icon: Newspaper, url: "https://platform.mantracare.com/workplace_articles/?lang=en" },
-      { title: "Tips", count: 18, icon: Lightbulb, url: "https://platform.mantracare.com/workplace_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/workplace_stories/?lang=en" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "https://platform.mantracare.com/workplace_myths/?lang=en" },
+      { title: "Articles", count: 25, icon: Newspaper, url: "/concerns/workplace/articles" },
+      { title: "Tips", count: 18, icon: Lightbulb, url: "/concerns/workplace/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/workplace/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/workplace/myths" },
     ],
   },
   parenting: {
     description: "Resources to support mindful parenting, reduce burnout, and nurture your family's wellbeing.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/parenting/prntng-guided-series/",
     exercises: [
-      { title: "Pause for Appreciation", icon: Pause, url: "https://platform.mantracare.com/pause_for_appreciation?lang=en" },
+      { title: "Pause for Appreciation", icon: Pause, url: "/exercises/pause-for-appreciation" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
-      { title: "Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
+      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Letter to Self", icon: Mail, url: "https://web.mantracare.com/app/letter_to_self" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Letter to Self", icon: Mail, url: "/tools/letter-to-self" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "https://platform.mantracare.com/parenting_articles/?lang=en" },
-      { title: "Tips", count: 15, icon: Lightbulb, url: "https://platform.mantracare.com/parenting_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/parenting_stories/?lang=en" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "https://platform.mantracare.com/parenting_myths/?lang=en" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/parenting/articles" },
+      { title: "Tips", count: 15, icon: Lightbulb, url: "/concerns/parenting/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/parenting/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/parenting/myths" },
     ],
   },
   anger: {
     description: "Techniques to understand, manage, and channel anger in healthy and constructive ways.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/anger/angr-guided-series/",
     exercises: [
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
-      { title: "Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
-      { title: "Diffusion Techniques", icon: Brain, url: "https://platform.mantracare.com/diffusion_techniques/" },
-      { title: "Doodle Burst", icon: Pen, url: "https://web.mantracare.com/app/doodle_burst" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-techniques" },
+      { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
     ],
     todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "https://web.mantracare.com/app/vibe_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
-      { title: "Energy Tracker", icon: Zap, url: "https://web.mantracare.com/app/energy_tracker" },
+      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/mood" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "https://platform.mantracare.com/anger_articles/?lang=en" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "https://platform.mantracare.com/anger_tips/?lang=en" },
-      { title: "Stories", count: 8, icon: BookMarked, url: "https://platform.mantracare.com/anger_stories/?lang=en" },
-      { title: "Myths", count: 5, icon: HelpCircle, url: "https://platform.mantracare.com/anger_myths/?lang=en" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/anger/articles" },
+      { title: "Tips", count: 14, icon: Lightbulb, url: "/concerns/anger/tips" },
+      { title: "Stories", count: 8, icon: BookMarked, url: "/concerns/anger/stories" },
+      { title: "Myths", count: 5, icon: HelpCircle, url: "/concerns/anger/myths" },
     ],
   },
   grief: {
     description: "Compassionate tools and exercises to help you process loss and find healing at your own pace.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/grief/grf-guided-series/",
     exercises: [
-      { title: "Letter to Self", icon: Mail, url: "https://web.mantracare.com/app/letter_to_self" },
+      { title: "Letter to Self", icon: Mail, url: "/tools/letter-to-self" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
+      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
     ],
     todos: [
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Vibe Tracker", icon: TrendingUp, url: "https://web.mantracare.com/app/vibe_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/mood" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
     ],
     resources: [
-      { title: "Articles", count: 16, icon: Newspaper, url: "https://platform.mantracare.com/grief_articles/?lang=en" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "https://platform.mantracare.com/grief_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/grief_stories/?lang=en" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "https://platform.mantracare.com/grief_myths/?lang=en" },
+      { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/grief/articles" },
+      { title: "Tips", count: 12, icon: Lightbulb, url: "/concerns/grief/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/grief/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/grief/myths" },
     ],
   },
   ptsd: {
     description: "Grounding and stabilization techniques to help manage trauma responses and build safety.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/ptsd/ptsd-guided-series/",
     exercises: [
-      { title: "Grounded Technique", icon: Compass, url: "http://platform.mantracare.com/grounded_technique" },
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
-      { title: "Diffusion Techniques", icon: Brain, url: "https://platform.mantracare.com/diffusion_techniques/" },
+      { title: "Grounded Technique", icon: Compass, url: "/exercises/grounded-technique" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-techniques" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
     ],
     todos: [
-      { title: "Vibe Tracker", icon: TrendingUp, url: "https://web.mantracare.com/app/vibe_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Energy Tracker", icon: Zap, url: "https://web.mantracare.com/app/energy_tracker" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
+      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/mood" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "https://platform.mantracare.com/ptsd_articles/?lang=en" },
-      { title: "Tips", count: 15, icon: Lightbulb, url: "https://platform.mantracare.com/ptsd_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/ptsd_stories/?lang=en" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "https://platform.mantracare.com/ptsd_myths/?lang=en" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/ptsd/articles" },
+      { title: "Tips", count: 15, icon: Lightbulb, url: "/concerns/ptsd/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/ptsd/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/ptsd/myths" },
     ],
   },
   acceptance: {
     description: "Exercises to cultivate acceptance, let go of resistance, and embrace life as it is.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/acceptance/accpt-guided-series/",
     exercises: [
-      { title: "Diffusion Techniques", icon: Brain, url: "https://platform.mantracare.com/diffusion_techniques/" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
+      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-techniques" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
     ],
     todos: [
-      { title: "Letter to Self", icon: Mail, url: "https://web.mantracare.com/app/letter_to_self" },
-      { title: "Know Your Values", icon: Target, url: "http://web.mantracare.com/app/know_your_values/" },
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
+      { title: "Letter to Self", icon: Mail, url: "/tools/letter-to-self" },
+      { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
     ],
     resources: [
-      { title: "Articles", count: 16, icon: Newspaper, url: "https://platform.mantracare.com/acceptance_articles/?lang=en" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "https://platform.mantracare.com/acceptance_tips/?lang=en" },
-      { title: "Stories", count: 8, icon: BookMarked, url: "https://platform.mantracare.com/acceptance_stories/?lang=en" },
-      { title: "Myths", count: 5, icon: HelpCircle, url: "https://platform.mantracare.com/acceptance_myths/?lang=en" },
+      { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/acceptance/articles" },
+      { title: "Tips", count: 12, icon: Lightbulb, url: "/concerns/acceptance/tips" },
+      { title: "Stories", count: 8, icon: BookMarked, url: "/concerns/acceptance/stories" },
+      { title: "Myths", count: 5, icon: HelpCircle, url: "/concerns/acceptance/myths" },
     ],
   },
   postpartum: {
@@ -389,87 +389,87 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://app.mantracare.com/therapy/postpartum/pstprtm-guided-series/",
     exercises: [
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
-      { title: "Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { title: "Energy Tracker", icon: Zap, url: "https://web.mantracare.com/app/energy_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "https://platform.mantracare.com/postpartum_articles/?lang=en" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "https://platform.mantracare.com/postpartum_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/postpartum_stories/?lang=en" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "https://platform.mantracare.com/postpartum_myths/?lang=en" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/postpartum/articles" },
+      { title: "Tips", count: 14, icon: Lightbulb, url: "/concerns/postpartum/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/postpartum/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/postpartum/myths" },
     ],
   },
   sexuality: {
     description: "Safe and supportive resources to explore identity, build self-acceptance, and find community.",
     guidedSeriesUrl: "https://therapy.mantracare.com/en/therapyapp/sexuality-guided-series/",
     exercises: [
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
-      { title: "Letter to Self", icon: Mail, url: "https://web.mantracare.com/app/letter_to_self" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Letter to Self", icon: Mail, url: "/tools/letter-to-self" },
     ],
     todos: [
-      { title: "Know Your Values", icon: Target, url: "http://web.mantracare.com/app/know_your_values/" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Vibe Tracker", icon: TrendingUp, url: "https://web.mantracare.com/app/vibe_tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
+      { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/mood" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
     ],
     resources: [
-      { title: "Articles", count: 16, icon: Newspaper, url: "https://platform.mantracare.com/sexuality_articles/?lang=en" },
-      { title: "Tips", count: 12, icon: Lightbulb, url: "https://platform.mantracare.com/sexuality_tips/?lang=en" },
-      { title: "Stories", count: 8, icon: BookMarked, url: "https://platform.mantracare.com/sexuality_stories/?lang=en" },
-      { title: "Myths", count: 5, icon: HelpCircle, url: "https://platform.mantracare.com/sexuality_myths/?lang=en" },
+      { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/sexuality/articles" },
+      { title: "Tips", count: 12, icon: Lightbulb, url: "/concerns/sexuality/tips" },
+      { title: "Stories", count: 8, icon: BookMarked, url: "/concerns/sexuality/stories" },
+      { title: "Myths", count: 5, icon: HelpCircle, url: "/concerns/sexuality/myths" },
     ],
   },
   "eating-disorder": {
     description: "Supportive exercises and resources to build a healthier relationship with food and body image.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/eating-disorder/etn-guided-series/",
     exercises: [
-      { title: "Grounding", icon: Compass, url: "http://platform.mantracare.com/5-4-3-2-1-grounding" },
-      { title: "Diffusion Techniques", icon: Brain, url: "https://platform.mantracare.com/diffusion_techniques/" },
-      { title: "Affirmations", icon: Smile, url: "https://platform.mantracare.com/affirmations/?lang=en" },
+      { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
+      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-techniques" },
+      { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
     ],
     todos: [
-      { title: "Energy Tracker", icon: Zap, url: "https://web.mantracare.com/app/energy_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "http://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
     ],
     resources: [
-      { title: "Articles", count: 18, icon: Newspaper, url: "https://platform.mantracare.com/eating_disorder_articles/?lang=en" },
-      { title: "Tips", count: 14, icon: Lightbulb, url: "https://platform.mantracare.com/eating_disorder_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/eating_disorder_stories/?lang=en" },
-      { title: "Myths", count: 6, icon: HelpCircle, url: "https://platform.mantracare.com/eating_disorder_myths/?lang=en" },
+      { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/eating-disorder/articles" },
+      { title: "Tips", count: 14, icon: Lightbulb, url: "/concerns/eating-disorder/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/eating-disorder/stories" },
+      { title: "Myths", count: 6, icon: HelpCircle, url: "/concerns/eating-disorder/myths" },
     ],
   },
   ocd: {
     description: "Evidence-based techniques to manage obsessive thoughts and compulsive behaviors.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/ocd/ocd-guided-series/",
     exercises: [
-      { title: "Diffusion Techniques", icon: Brain, url: "https://platform.mantracare.com/diffusion_techniques/" },
-      { title: "Grounded Technique", icon: Compass, url: "http://platform.mantracare.com/grounded_technique" },
-      { title: "Box Breathing", icon: Wind, url: "https://platform.mantracare.com/box_breathing/?lang=en" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "https://platform.mantracare.com/thought_shifts" },
+      { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-techniques" },
+      { title: "Grounded Technique", icon: Compass, url: "/exercises/grounded-technique" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
     ],
     todos: [
-      { title: "Brain Dump & Sort", icon: Brain, url: "https://web.mantracare.com/app/brain_dump_and_sort" },
-      { title: "Vibe Tracker", icon: TrendingUp, url: "https://web.mantracare.com/app/vibe_tracker" },
-      { title: "Daily Self Care Tracker", icon: Heart, url: "https://web.mantracare.com/app/daily_self_care_tracker" },
-      { title: "Gratitude Tracker", icon: Star, url: "https://web.mantracare.com/app/gratitude_tracker" },
+      { title: "Brain Dump & Sort", icon: Brain, url: "/trackers/brain-dump" },
+      { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/mood" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/self-care" },
+      { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude" },
     ],
     resources: [
-      { title: "Articles", count: 20, icon: Newspaper, url: "https://platform.mantracare.com/ocd_articles/?lang=en" },
-      { title: "Tips", count: 15, icon: Lightbulb, url: "https://platform.mantracare.com/ocd_tips/?lang=en" },
-      { title: "Stories", count: 10, icon: BookMarked, url: "https://platform.mantracare.com/ocd_stories/?lang=en" },
-      { title: "Myths", count: 7, icon: HelpCircle, url: "https://platform.mantracare.com/ocd_myths/?lang=en" },
+      { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/ocd/articles" },
+      { title: "Tips", count: 15, icon: Lightbulb, url: "/concerns/ocd/tips" },
+      { title: "Stories", count: 10, icon: BookMarked, url: "/concerns/ocd/stories" },
+      { title: "Myths", count: 7, icon: HelpCircle, url: "/concerns/ocd/myths" },
     ],
   },
 };
@@ -588,7 +588,7 @@ export function SelfCareResources() {
                             transition={{ delay: 0.15 + i * 0.05 }}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.95 }}
-                            onClick={() => ex.url && (window.location.href = ex.url)}
+                            onClick={() => ex.url && (ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url))}
                             className="w-full rounded-2xl p-4 border-2 transition-all hover:shadow-md"
                             style={{
                               backgroundColor: color.bg,
@@ -635,7 +635,7 @@ export function SelfCareResources() {
                             transition={{ delay: 0.2 + i * 0.05 }}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.98 }}
-                            onClick={() => todo.url && (window.location.href = todo.url)}
+                            onClick={() => todo.url && (todo.url.startsWith('http') ? window.location.href = todo.url : navigate(todo.url))}
                             className="border-2 rounded-2xl p-4 flex items-center gap-3 hover:shadow-md transition-all group"
                             style={{
                               backgroundColor: color.bg,
@@ -683,7 +683,7 @@ export function SelfCareResources() {
                             transition={{ delay: 0.25 + i * 0.06, type: "spring", damping: 20 }}
                             whileHover={{ x: 8, scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
-                            onClick={() => res.url && (window.location.href = res.url)}
+                            onClick={() => res.url && (res.url.startsWith('http') ? window.location.href = res.url : navigate(res.url))}
                             className="w-full rounded-2xl p-4 flex items-center gap-4 transition-all group relative overflow-hidden"
                             style={{ backgroundColor: color.bg }}
                           >
@@ -754,9 +754,9 @@ export function SelfCareResources() {
               <button
                 onClick={() => {
                   if (window.parent !== window) {
-                    window.parent.postMessage({ action: 'exit' }, 'http://192.168.1.60:3000');
+                    window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
                   } else {
-                    window.location.href = 'http://192.168.1.60:3000';
+                    window.location.href = 'https://web.mantracare.com';
                   }
                 }}
                 className="flex items-center justify-center text-[#64748B] hover:text-[#043570] transition-colors"
@@ -797,7 +797,7 @@ export function SelfCareResources() {
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
                         if (tool.url) {
-                          window.location.href = tool.url;
+                          tool.url.startsWith('http') ? window.location.href = tool.url : navigate(tool.url);
                         }
                       }}
                       className="rounded-2xl p-5 shadow-sm flex flex-col items-start justify-between h-28"
@@ -834,7 +834,7 @@ export function SelfCareResources() {
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
                         if (topic.id === 'ocd') {
-                          window.location.href = 'https://web.mantracare.com/wp/selfcare-ocd';
+                          window.location.href = '/concerns/ocd/articles';
                         } else {
                           setSelectedTopic(topic.id);
                         }

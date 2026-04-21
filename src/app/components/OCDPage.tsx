@@ -334,10 +334,7 @@ export function OCDPage() {
               <div className="grid grid-cols-3 md:grid-cols-6 gap-4 md:gap-6">
                 {[
                   { label: "Journal", Icon: BookOpen, grad: "#F39C12", link: "/journal", external: false },
-                  { label: "Daily Life", Icon: Calendar, grad: "#3498DB", link: "https://web.mantracare.com/app/daily_life/", external: true },
-                  { label: "Mood Tracker", Icon: Heart, grad: "#FF9F43", link: "https://web.mantracare.com/app/mood_tracker", external: true },
-                  { label: "Energy Check", Icon: Battery, grad: "#E74C3C", link: "https://web.mantracare.com/app/energy_tracker", external: true },
-                  { label: "Focus Sprint", Icon: Zap, grad: "#9B59B6", link: "https://web.mantracare.com/app/focus-sprint/", external: true },
+                  { label: "Energy Check", Icon: Battery, grad: "#E74C3C", link: "/trackers/energy", external: true },
                   { label: "Meditation", Icon: Wind, grad: "#27AE60", link: "/service/meditation", external: false },
                 ].map((tool, i) => (
                   <motion.button

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adolescent Mental Health — Articles & Guides</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:      #E8F8F5;
+    --primary: #34D399;
+    --primary2:#2cb382;
+    --light:   #f3ffff;
+    --mid:     #4effe5;
+    --ink:     #0f3f2d;
+    --muted:   #1a694c;
+    --white:   #ffffff;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family:'DM Sans',sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+
+  /* ── TOP NAV ── */
+  .top-nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    padding:1rem 2rem;
+    display:flex; align-items:center; justify-content:space-between;
+    background:rgba(232,248,245,0.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--mid);
+  }
+  .nav-logo {
+    font-family:'DM Serif Display',serif;
+    font-size:1.05rem; color:var(--primary2);
+    cursor:pointer; opacity:0; transition:opacity .3s;
+    pointer-events:none;
+  }
+  .nav-logo.visible { opacity:1; pointer-events:all; }
+  .nav-pill {
+    font-size:.7rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; background:var(--primary);
+    color:white; padding:5px 14px; border-radius:100px;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height:100vh;
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+    text-align:center; padding:2rem;
+    position:relative; overflow:hidden;
+  }
+  .hero-orbs { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+  .orb {
+    position:absolute; border-radius:50%;
+    filter:blur(72px); opacity:.16;
+    animation:drift 10s ease-in-out infinite alternate;
+  }
+  .o1{width:560px;height:560px;background:var(--primary);top:-18%;left:-16%;animation-delay:0s;}
+  .o2{width:420px;height:420px;background:var(--primary);top:22%;right:-14%;animation-delay:-3s;}
+  .o3{width:360px;height:360px;background:var(--mid);bottom:-10%;left:20%;animation-delay:-6s;}
+  @keyframes drift{from{transform:translate(0,0)scale(1);}to{transform:translate(32px,20px)scale(1.07);}}
+
+  .hero-badge {
+    display:inline-flex; align-items:center; gap:9px;
+    background:white; border:2px solid var(--ink);
+    border-radius:100px; padding:7px 20px;
+    font-size:.72rem; font-weight:700; letter-spacing:.1em;
+    text-transform:uppercase; margin-bottom:2rem;
+    box-shadow:3px 3px 0 var(--primary);
+    animation:fadeUp .8s ease both;
+  }
+  .bdot { width:9px;height:9px;border-radius:50%;background:var(--primary);display:inline-block; }
+
+  h1.hero-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(2.4rem,5.5vw,4.6rem);
+    line-height:1.1; max-width:700px; margin-bottom:1.2rem;
+    animation:fadeUp .8s .1s ease both;
+  }
+  h1.hero-title em {
+    font-style:italic;
+    background:linear-gradient(135deg,var(--primary),var(--primary2));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+  }
+  .hero-sub {
+    font-size:1.08rem; color:var(--muted);
+    max-width:480px; line-height:1.75; margin-bottom:.9rem;
+    animation:fadeUp .8s .2s ease both;
+  }
+  .hero-quote {
+    font-style:italic; font-size:.88rem; color:var(--muted);
+    opacity:.75; margin-bottom:2.6rem;
+    animation:fadeUp .8s .3s ease both;
+  }
+  .cta-btn {
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:1rem;
+    padding:1rem 2.6rem; border-radius:100px; border:none; cursor:pointer;
+    box-shadow:4px 4px 0 var(--primary);
+    transition:transform .15s,box-shadow .15s;
+    animation:fadeUp .8s .4s ease both;
+  }
+  .cta-btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--primary);}
+
+  .hero-stats {
+    display:flex; gap:3rem; margin-top:3.5rem;
+    animation:fadeUp .8s .55s ease both;
+  }
+  .stat { text-align:center; }
+  .stat-n { font-family:'DM Serif Display',serif; font-size:2.1rem; color:var(--primary); }
+  .stat-l { font-size:.74rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:2px; }
+
+  @keyframes fadeUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:translateY(0);}}
+
+  /* ── ARTICLE LIST ── */
+  #article-list {
+    display:none; padding:5rem 2rem 4rem;
+    max-width:700px; margin:0 auto;
+  }
+  .al-header { margin-bottom:2.6rem; }
+  .al-header h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:2.3rem; margin-bottom:.4rem;
+  }
+  .al-header p { color:var(--muted); font-size:.95rem; }
+
+  .article-cards { display:flex; flex-direction:column; gap:1rem; }
+
+  .article-card {
+    background:white; border-radius:20px;
+    border:2px solid transparent;
+    cursor:pointer; overflow:hidden;
+    display:flex; align-items:stretch;
+    transition:all .22s ease;
+  }
+  .article-card:hover {
+    transform:translateX(6px);
+    box-shadow:-5px 5px 0 var(--ink);
+    border-color:var(--ink);
+  }
+  .ac-stripe { width:6px; flex-shrink:0; background:var(--primary); }
+  .ac-body { padding:1.4rem 1.6rem; flex:1; }
+  .ac-tag {
+    font-size:.63rem; font-weight:700; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:3px 10px; border-radius:100px;
+    display:inline-block; margin-bottom:.6rem;
+  }
+  .ac-title {
+    font-family:'DM Serif Display',serif;
+    font-size:1.18rem; margin-bottom:.4rem; line-height:1.3;
+  }
+  .ac-desc { font-size:.86rem; color:var(--muted); line-height:1.55; }
+  .ac-meta { font-size:.75rem; color:var(--muted); margin-top:.6rem; }
+
+  /* ── ARTICLE DETAIL ── */
+  #article-detail {
+    display:none; max-width:660px;
+    margin:0 auto; padding:5rem 2rem 6rem;
+  }
+
+  .back-btn {
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:.85rem; font-weight:600; color:var(--muted);
+    cursor:pointer; background:none; border:none;
+    margin-bottom:2rem; transition:color .15s;
+  }
+  .back-btn:hover { color:var(--ink); }
+
+  .ad-band {
+    height:7px; border-radius:100px; margin-bottom:2rem;
+    background:linear-gradient(90deg,var(--primary),var(--primary2),var(--mid));
+  }
+  .ad-tag {
+    font-size:.68rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--primary);
+    background:var(--light); padding:4px 13px; border-radius:100px;
+    display:inline-block; margin-bottom:1rem;
+  }
+  .ad-title {
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(1.8rem,4vw,2.6rem);
+    line-height:1.1; margin-bottom:.9rem;
+  }
+  .ad-deck {
+    font-size:1.05rem; color:var(--muted); line-height:1.75;
+    border-bottom:2px solid var(--light);
+    padding-bottom:1.8rem; margin-bottom:2rem;
+  }
+  .ad-meta { font-size:.78rem; color:var(--muted); margin-bottom:1.5rem; }
+
+  /* body prose */
+  .ad-body h2 {
+    font-family:'DM Serif Display',serif;
+    font-size:1.55rem; margin:2.2rem 0 .6rem; color:var(--ink);
+  }
+  .ad-body h3 {
+    font-size:1.02rem; font-weight:600;
+    margin:1.6rem 0 .45rem; color:var(--ink);
+  }
+  .ad-body p {
+    font-size:1rem; line-height:1.88; color:#334155; margin-bottom:1.2rem;
+  }
+  .ad-body ul, .ad-body ol {
+    padding-left:1.4rem; margin-bottom:1.2rem;
+  }
+  .ad-body li {
+    font-size:.97rem; line-height:1.75; color:#334155; margin-bottom:.4rem;
+  }
+
+  /* pull-quote */
+  .pullquote {
+    border-left:5px solid var(--primary);
+    background:var(--light);
+    padding:1.2rem 1.6rem; border-radius:0 16px 16px 0;
+    margin:2rem 0;
+    font-family:'DM Serif Display',serif;
+    font-style:italic; font-size:1.1rem; line-height:1.65; color:var(--ink);
+  }
+
+  /* key-box */
+  .keybox {
+    background:var(--light); border-radius:16px;
+    padding:1.4rem 1.7rem; margin:2rem 0;
+  }
+  .keybox-title {
+    font-weight:700; font-size:.75rem; text-transform:uppercase;
+    letter-spacing:.09em; color:var(--primary);
+    display:block; margin-bottom:.75rem;
+  }
+  .keybox ul { padding-left:1.2rem; }
+  .keybox li {
+    font-size:.93rem; color:var(--ink); line-height:1.7; margin-bottom:.35rem;
+  }
+
+  /* takeaway */
+  .ad-takeaway {
+    margin-top:2.4rem; padding:1.5rem 1.7rem;
+    border-radius:18px; border:2px solid var(--primary);
+    background:var(--light);
+  }
+  .takeaway-label {
+    font-weight:700; font-size:.7rem; text-transform:uppercase;
+    letter-spacing:.1em; color:var(--primary);
+    display:block; margin-bottom:.55rem;
+  }
+  .ad-takeaway p { font-size:.93rem; color:var(--ink); line-height:1.7; margin:0; }
+
+  .back-to-list-btn {
+    display:block; text-align:center;
+    background:var(--ink); color:white;
+    font-family:'DM Sans',sans-serif; font-weight:600; font-size:.95rem;
+    padding:.95rem 2rem; border-radius:100px; border:none; cursor:pointer;
+    margin-top:2.8rem; box-shadow:3px 3px 0 var(--primary);
+    transition:opacity .15s, transform .15s;
+  }
+  .back-to-list-btn:hover { opacity:.88; transform:translateY(-1px); }
+
+  /* responsive */
+  @media(max-width:520px){
+    .hero-stats{gap:1.8rem;}
+    .stat-n{font-size:1.6rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <div class="nav-logo" id="navLogo" onclick="showHero()">Adolescent Mental Health Guide</div>
+  <div class="nav-pill">Mental Health</div>
+</nav>
+
+<!-- ════════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-orbs">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+
+  <div class="hero-badge"><span class="bdot"></span>Evidence-Based · Compassionate · Clear</div>
+
+  <h1 class="hero-title">Growing Up Is Hard.<br><em>You Are Not Alone.</em></h1>
+
+  <p class="hero-sub">These articles explore adolescent mental health. 50% of mental illness starts by age 14 5 articles Help works. Discover what it really is and how to work with it.</p>
+
+  <p class="hero-quote">"You are braver than you believe, stronger than you seem." — A.A. Milne</p>
+
+  <button class="cta-btn" onclick="showList()">Read the Articles →</button>
+
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">50%</div><div class="stat-l">of mental illness starts by age 14</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">articles</div></div>
+    <div class="stat"><div class="stat-n">Help</div><div class="stat-l">works</div></div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE LIST
+════════════════════════════════════════ -->
+<section id="article-list">
+  <div class="al-header">
+    <h2>Adolescent Mental Health Articles</h2>
+    <p>Five deep reads — choose wherever you are right now.</p>
+  </div>
+  <div class="article-cards" id="articleCards"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     ARTICLE DETAIL
+════════════════════════════════════════ -->
+<section id="article-detail">
+  <div id="articleDetailContent"></div>
+</section>
+
+<!-- ════════════════════════════════════════
+     DATA + LOGIC
+════════════════════════════════════════ -->
+<script>
+const articles = [
+{
+  tag: "Understanding",
+  title: "Why Adolescence Is One of the Most Vulnerable Periods for Mental Health",
+  desc: "Adolescence is not just a phase — it is a period of intense neurological and emotional change.",
+  readTime: "11 min read",
+  deck: "Half of all mental health conditions begin before the age of 14. Understanding why adolescence is such a sensitive period helps parents, educators, and young people respond more effectively.",
+  takeaway: "Adolescence is not instability — it is development under pressure. Support during this period changes long-term outcomes.",
+  body: `
+
+<h2>A Brain Under Construction</h2>
+<p>Adolescence is often described as a time of emotional volatility, identity exploration, and behavioural change. But beneath these outward shifts is something more fundamental: the brain itself is being rewired.</p>
+
+<p>The adolescent brain is not incomplete — but it is in transition. The limbic system, which processes emotions and reward, becomes highly active early in adolescence. At the same time, the prefrontal cortex — responsible for planning, impulse control, and long-term decision-making — develops more slowly.</p>
+
+<p>This creates a temporary imbalance: strong emotional responses combined with still-developing regulation.</p>
+
+<div class="pullquote">
+"Adolescence is not a problem to fix — it is a developmental phase where emotion grows faster than control."
+</div>
+
+<h2>The Role of Sensitivity</h2>
+<p>During adolescence, sensitivity to social evaluation increases significantly. Peer relationships become more central. Approval and rejection carry greater emotional weight.</p>
+
+<p>This is not superficial. It reflects the brain’s adaptation to a critical developmental task: learning how to belong.</p>
+
+<p>But increased sensitivity also means increased vulnerability. Social stressors — exclusion, comparison, criticism — can have amplified impact.</p>
+
+<h2>Identity and Uncertainty</h2>
+<p>Adolescence is also the period where identity begins to take shape. Questions about who you are, where you belong, and what matters become more prominent.</p>
+
+<p>This process is inherently uncertain. And uncertainty can be uncomfortable.</p>
+
+<p>For some, this leads to exploration and growth. For others, it creates anxiety, self-doubt, or confusion.</p>
+
+<div class="pullquote">
+"Adolescence is the first time many people ask, ‘Who am I?’ — without having an answer yet."
+</div>
+
+<h2>The Pressure of Modern Environments</h2>
+<p>While adolescence has always been a period of change, modern environments add additional layers of pressure. Academic expectations, social media comparison, constant connectivity, and reduced downtime all contribute to increased stress.</p>
+
+<p>Social media, in particular, introduces continuous exposure to curated versions of others’ lives. Comparison becomes constant, and the standard for “normal” shifts upward.</p>
+
+<p>This can affect self-esteem, body image, and sense of adequacy.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Key vulnerability factors in adolescence:</span>
+  <ul>
+    <li>Heightened emotional sensitivity</li>
+    <li>Developing impulse control</li>
+    <li>Increased importance of peer relationships</li>
+    <li>Identity formation and uncertainty</li>
+    <li>Environmental pressures (academic, social, digital)</li>
+  </ul>
+</div>
+
+<h2>Why Early Support Matters</h2>
+<p>Because the brain is still developing, adolescence is also a period of high plasticity. Patterns formed during this time can have long-term effects — both positive and negative.</p>
+
+<p>Early support does not just address current difficulties. It shapes future resilience.</p>
+
+<p>Understanding this period as developmental rather than problematic changes how it is approached. It becomes less about control, and more about guidance.</p>
+
+`
+},
+{
+  tag: "Signs",
+  title: "What Teen Anxiety and Depression Actually Look Like — For Parents and Young People",
+  desc: "Mental health difficulties in adolescents often look different from adult presentations.",
+  readTime: "10 min read",
+  deck: "Teen anxiety and depression are often misunderstood because they do not always match adult symptoms. Recognising the signs early can make a significant difference.",
+  takeaway: "Changes in behaviour, mood, or functioning that persist are signals worth paying attention to — not dismissing.",
+  body: `
+
+<h2>Why It’s Hard to Recognise</h2>
+<p>Adolescence already involves change — mood shifts, identity exploration, behavioural variation. This makes it harder to distinguish between typical development and emerging mental health difficulties.</p>
+
+<p>What might be dismissed as “just a phase” can sometimes be something more persistent.</p>
+
+<p>The difference often lies in duration, intensity, and impact on functioning.</p>
+
+<div class="pullquote">
+"When changes last longer, feel stronger, and affect daily life — they are worth paying attention to."
+</div>
+
+<h2>How Anxiety Shows Up</h2>
+<p>Teen anxiety does not always look like worry. It can appear as avoidance — avoiding school, social situations, or new experiences. It can appear as irritability, restlessness, or physical complaints like headaches or stomach aches.</p>
+
+<p>Perfectionism is another common form. A constant pressure to perform, combined with fear of failure.</p>
+
+<h2>How Depression Shows Up</h2>
+<p>Depression in adolescents often presents differently than in adults. Instead of sadness, it may appear as irritability, anger, or withdrawal.</p>
+
+<p>Loss of interest in activities, changes in sleep, reduced energy, and difficulty concentrating are common.</p>
+
+<p>Some young people continue functioning externally while experiencing significant internal distress.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Common warning signs:</span>
+  <ul>
+    <li>Withdrawal from friends or activities</li>
+    <li>Changes in sleep or appetite</li>
+    <li>Decline in academic performance</li>
+    <li>Increased irritability or anger</li>
+    <li>Physical complaints without clear cause</li>
+  </ul>
+</div>
+
+<h2>The Role of Communication</h2>
+<p>Many adolescents do not express distress directly. They may not have the language for it, or may feel unsure how to talk about it.</p>
+
+<p>This makes observation important — noticing patterns rather than isolated behaviours.</p>
+
+<h2>Responding Effectively</h2>
+<p>Support begins with listening. Not fixing immediately, not minimising, but understanding.</p>
+
+<p>Creating an environment where young people feel safe to express themselves increases the likelihood that they will.</p>
+
+<p>When needed, professional support can provide additional structure and guidance.</p>
+
+`
+},
+{
+  tag: "Schools",
+  title: "The School Environment and Mental Health: What Helps and What Harms",
+  desc: "Schools are one of the most influential environments for adolescent mental health.",
+  readTime: "10 min read",
+  deck: "Young people spend a large portion of their time in school environments. The structure, expectations, and culture of these environments can either support mental health — or strain it.",
+  takeaway: "School environments don’t just educate — they shape emotional wellbeing. Small structural changes can make a significant difference.",
+  body: `
+
+<h2>More Than an Academic Space</h2>
+<p>Schools are often viewed primarily as places of learning. But for adolescents, they are also social environments, developmental spaces, and sources of identity.</p>
+
+<p>Daily experiences within school — interactions with peers, relationships with teachers, expectations around performance — all contribute to mental health.</p>
+
+<p>This means that school is not neutral. It either supports wellbeing or places strain on it.</p>
+
+<div class="pullquote">
+"For adolescents, school is not just where they learn — it is where they experience themselves in relation to others."
+</div>
+
+<h2>The Impact of Academic Pressure</h2>
+<p>Academic expectations can motivate growth, but when pressure becomes excessive, it shifts from challenge to stress.</p>
+
+<p>Constant evaluation, high-stakes exams, and comparison with peers can create a sense that worth is tied to performance.</p>
+
+<p>For some students, this leads to anxiety, perfectionism, and fear of failure. For others, it leads to disengagement — a withdrawal from effort as a way to manage pressure.</p>
+
+<h2>Peer Dynamics and Social Stress</h2>
+<p>Peer relationships are central during adolescence. Acceptance, belonging, and social standing become highly significant.</p>
+
+<p>Positive peer environments can provide support, connection, and resilience. Negative environments — including exclusion, bullying, or social comparison — can increase vulnerability.</p>
+
+<p>Digital spaces extend these dynamics beyond school hours, making social experiences continuous rather than contained.</p>
+
+<h2>The Role of Teachers and Structure</h2>
+<p>Teachers play a critical role in shaping the emotional climate of a classroom. Predictability, fairness, and support create a sense of safety.</p>
+
+<p>Clear expectations and consistent boundaries reduce uncertainty, which can lower stress.</p>
+
+<p>When students feel seen and understood, engagement improves — not just academically, but emotionally.</p>
+
+<div class="keybox">
+  <span class="keybox-title">What supports mental health in schools:</span>
+  <ul>
+    <li>Balanced academic expectations</li>
+    <li>Positive peer environments</li>
+    <li>Supportive teacher-student relationships</li>
+    <li>Clear and consistent structure</li>
+    <li>Access to mental health resources</li>
+  </ul>
+</div>
+
+<h2>What Needs to Shift</h2>
+<p>Improving adolescent mental health in schools does not require removing challenge. It requires balancing challenge with support.</p>
+
+<p>This includes recognising that performance and wellbeing are not separate — they influence each other.</p>
+
+<p>When environments support mental health, learning becomes more effective, not less.</p>
+
+`
+},
+{
+  tag: "Identity",
+  title: "Identity, Belonging, and Mental Health in the Teenage Years",
+  desc: "Adolescence is the period where identity begins to take shape — often with uncertainty.",
+  readTime: "10 min read",
+  deck: "Questions about identity and belonging become central during adolescence. This process can be both developmental and emotionally challenging.",
+  takeaway: "Identity is not something you find all at once — it is something you build over time, through experience and reflection.",
+  body: `
+
+<h2>The Beginning of Self-Definition</h2>
+<p>Adolescence is often the first time individuals begin to ask deeper questions about who they are. Not just in terms of roles or interests, but in terms of values, beliefs, and identity.</p>
+
+<p>This process is not linear. It involves exploration, uncertainty, and change.</p>
+
+<div class="pullquote">
+"Identity is not discovered in a single moment — it is shaped gradually, through experience."
+</div>
+
+<h2>The Need to Belong</h2>
+<p>Belonging is a fundamental human need. During adolescence, it becomes especially important.</p>
+
+<p>Being accepted by peers, feeling part of a group, and having a sense of connection all contribute to wellbeing.</p>
+
+<p>When belonging is uncertain, it can lead to self-doubt, anxiety, or attempts to conform in ways that do not feel authentic.</p>
+
+<h2>The Role of Comparison</h2>
+<p>Adolescents often compare themselves to others — in appearance, ability, social standing, and success.</p>
+
+<p>With the influence of social media, these comparisons are more frequent and often based on curated representations of reality.</p>
+
+<p>This can distort perception and create unrealistic standards.</p>
+
+<h2>Navigating Change and Uncertainty</h2>
+<p>Identity development involves change. Interests shift. Beliefs evolve. Relationships change.</p>
+
+<p>This can feel unstable, but it is part of the process.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Healthy identity development involves:</span>
+  <ul>
+    <li>Exploration of interests and values</li>
+    <li>Exposure to different perspectives</li>
+    <li>Supportive relationships</li>
+    <li>Space for uncertainty and change</li>
+  </ul>
+</div>
+
+<h2>Supporting Identity Formation</h2>
+<p>Support during this period involves allowing exploration without forcing certainty. Encouraging expression without imposing expectations.</p>
+
+<p>Identity develops best in environments that provide both safety and flexibility.</p>
+
+`
+},
+{
+  tag: "Seeking Help",
+  title: "How to Ask for Help When You're Young and Don’t Know Where to Start",
+  desc: "Seeking help can feel difficult — especially without knowing how to begin.",
+  readTime: "9 min read",
+  deck: "Many young people experience distress but do not seek help. Understanding how to start that process can make it more accessible.",
+  takeaway: "You don’t need the perfect words to ask for help. Starting the conversation is enough.",
+  body: `
+
+<h2>Why Asking for Help Feels Difficult</h2>
+<p>Many adolescents hesitate to seek help, even when struggling. There are several reasons: uncertainty about what they are feeling, fear of being judged, concern about being misunderstood, or not knowing who to approach.</p>
+
+<p>Sometimes, the difficulty is simply not having the language to describe internal experiences.</p>
+
+<div class="pullquote">
+"You don’t need to have everything figured out before asking for help."
+</div>
+
+<h2>Where to Start</h2>
+<p>Help does not have to begin with a formal setting. It can start with a trusted person — a parent, teacher, friend, or mentor.</p>
+
+<p>The first step is often just expressing that something does not feel right.</p>
+
+<h2>What to Say</h2>
+<p>There is no correct script. It can be as simple as: “I’ve been feeling off lately,” or “I’m finding things harder than usual.”</p>
+
+<p>The goal is not to explain everything perfectly, but to open the conversation.</p>
+
+<h2>When Professional Help Is Needed</h2>
+<p>If difficulties persist or significantly affect daily functioning, professional support can be helpful.</p>
+
+<p>This might include speaking to a school counsellor, therapist, or doctor.</p>
+
+<div class="keybox">
+  <span class="keybox-title">Ways to seek help:</span>
+  <ul>
+    <li>Talking to a trusted adult</li>
+    <li>Reaching out to school support services</li>
+    <li>Accessing online or community resources</li>
+    <li>Seeking professional guidance</li>
+  </ul>
+</div>
+
+<h2>What Happens Next</h2>
+<p>After asking for help, the process may involve conversation, assessment, and identifying ways to support wellbeing.</p>
+
+<p>It is not about being fixed — it is about being supported.</p>
+
+<p>Taking the first step often makes the next steps easier.</p>
+
+`
+}
+];
+
+/* ─────────────────────────────────────────────
+   NAVIGATION STATE
+───────────────────────────────────────────── */
+let currentArticleIndex = null;
+let navState = 'hero'; // hero | list | detail
+
+function showHero() {
+  navState = 'hero';
+  document.getElementById('hero').style.display = 'flex';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.remove('visible');
+  window.scrollTo({ top: 0 });
+}
+
+function showList() {
+  navState = 'list';
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'block';
+  document.getElementById('article-detail').style.display = 'none';
+  document.getElementById('navLogo').classList.add('visible');
+  renderCards();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showArticle(i) {
+  navState = 'detail';
+  currentArticleIndex = i;
+  const a = articles[i];
+
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('article-list').style.display = 'none';
+  document.getElementById('article-detail').style.display = 'block';
+  document.getElementById('navLogo').classList.add('visible');
+
+  document.getElementById('articleDetailContent').innerHTML = `
+    <button class="back-btn" onclick="showList()">← All Articles</button>
+    <div class="ad-band"></div>
+    <span class="ad-tag">${a.tag}</span>
+    <h1 class="ad-title">${a.title}</h1>
+    <p class="ad-meta">${a.readTime} &nbsp;·&nbsp; Adolescent Mental Health Guide</p>
+    <p class="ad-deck">${a.deck}</p>
+    <div class="ad-body">${a.body}</div>
+    <div class="ad-takeaway">
+      <span class="takeaway-label">💙 Key takeaway</span>
+      <p>${a.takeaway}</p>
+    </div>
+    <button class="back-to-list-btn" onclick="showList()">← Back to All Articles</button>
+  `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderCards() {
+  const container = document.getElementById('articleCards');
+  container.innerHTML = '';
+  articles.forEach((a, i) => {
+    const card = document.createElement('div');
+    card.className = 'article-card';
+    card.innerHTML = `
+      <div class="ac-stripe"></div>
+      <div class="ac-body">
+        <span class="ac-tag">${a.tag}</span>
+        <div class="ac-title">${a.title}</div>
+        <div class="ac-desc">${a.desc}</div>
+        <div class="ac-meta">${a.readTime}</div>
+      </div>
+    `;
+    card.onclick = () => showArticle(i);
+    container.appendChild(card);
+  });
+}
+
+// boot
+showHero();
+</script>
+</body>
+</html>

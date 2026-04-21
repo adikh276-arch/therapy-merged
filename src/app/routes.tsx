@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, Navigate } from "react-router";
+import { createBrowserRouter, Navigate, Outlet } from "react-router-dom";
 import { SelfCareResources } from "./components/SelfCareResources";
 import { MindfulnessPage } from "./components/MindfulnessPage";
 import { OCDPage } from "./components/OCDPage";
@@ -16,25 +16,52 @@ import { SeeAllPage } from "./components/SeeAllPage";
 import { CollectionDetailPage } from "./components/CollectionDetailPage";
 import { DailyProgramPage } from "./components/DailyProgramPage";
 import { CareTeam } from "./components/CareTeam";
+import { AuthGuard } from "../components/AuthGuard";
+import { StaticContentViewer } from "../components/StaticContentViewer";
+
+// Wraps auth guard around nested elements
+function ProtectedLayout() {
+  return (
+    <AuthGuard>
+      <Outlet />
+    </AuthGuard>
+  );
+}
 
 export const router = createBrowserRouter([
-  { path: "/", element: <SelfCareResources /> },
-  { path: "/self-care", element: <Navigate to="/" replace /> },
-  { path: "/service/meditation", element: <MindfulnessPage /> },
-  { path: "/ocd", element: <OCDPage /> },
-  { path: "/mindfulness-self-care", element: <MindfulnessSelfCare /> },
-  { path: "/ocd-self-care", element: <OCDSelfCare /> },
-  { path: "/journal", element: <Journal /> },
-  { path: "/journal-new", element: <JournalNew /> },
-  { path: "/journal/:id", element: <JournalNew /> },
-  { path: "/categories", element: <CategoriesPage /> },
-  { path: "/subcategory/:subcategoryId", element: <SubcategoryPage /> },
-  { path: "/time/:timeId", element: <TimePage /> },
-  { path: "/meditation-detail/:meditationId", element: <MeditationDetailPage /> },
-  { path: "/browse-by-goal-detail/:goalId", element: <BrowseByGoalDetail /> },
-  { path: "/see-all/:section", element: <SeeAllPage /> },
-  { path: "/collection-detail/:collectionId", element: <CollectionDetailPage /> },
-  { path: "/daily-program/:programId", element: <DailyProgramPage /> },
-  { path: "/care-team", element: <CareTeam /> },
-  { path: "*", element: <Navigate to="/" replace /> },
+  {
+    path: "/",
+    children: [
+      // Public Route
+      { index: true, element: <SelfCareResources /> },
+      { path: "self-care", element: <Navigate to="/" replace /> },
+      
+      // Dynamic single HTML routes (Group C2)
+      { path: "concerns/:concern/:type", element: <StaticContentViewer /> },
+
+      // Protected Routes
+      {
+        element: <ProtectedLayout />,
+        children: [
+          { path: "service/meditation", element: <MindfulnessPage /> },
+          { path: "ocd", element: <OCDPage /> },
+          { path: "mindfulness-self-care", element: <MindfulnessSelfCare /> },
+          { path: "ocd-self-care", element: <OCDSelfCare /> },
+          { path: "journal", element: <Journal /> },
+          { path: "journal-new", element: <JournalNew /> },
+          { path: "journal/:id", element: <JournalNew /> },
+          { path: "categories", element: <CategoriesPage /> },
+          { path: "subcategory/:subcategoryId", element: <SubcategoryPage /> },
+          { path: "time/:timeId", element: <TimePage /> },
+          { path: "meditation-detail/:meditationId", element: <MeditationDetailPage /> },
+          { path: "browse-by-goal-detail/:goalId", element: <BrowseByGoalDetail /> },
+          { path: "see-all/:section", element: <SeeAllPage /> },
+          { path: "collection-detail/:collectionId", element: <CollectionDetailPage /> },
+          { path: "daily-program/:programId", element: <DailyProgramPage /> },
+          { path: "care-team", element: <CareTeam /> },
+        ]
+      },
+      { path: "*", element: <Navigate to="/" replace /> },
+    ]
+  }
 ], { basename: "/therapy" });
