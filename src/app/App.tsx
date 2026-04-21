@@ -48,18 +48,19 @@ function App() {
         // 4. Persistence in sessionStorage
         sessionStorage.setItem("user_id", user_id.toString());
 
-        // 5. Database Initialization (Neon/Supabase)
+        // 5. Database Initialization (Neon/Supabase) — non-fatal, auth proceeds regardless
         if (DATABASE_URL) {
           try {
-            const sql = neon(DATABASE_URL);
+            const sql = neon(DATABASE_URL, { disableWarningInBrowsers: true });
             await sql`
               INSERT INTO users (id) 
-              VALUES (${user_id}) 
+              VALUES (${user_id.toString()}) 
               ON CONFLICT (id) DO NOTHING
             `;
             console.log("Identity initialized in database.");
           } catch (dbErr) {
-            console.error("DB User Upsert Failed:", dbErr);
+            // Table may not exist yet — auth continues regardless
+            console.warn("DB User Upsert skipped (table may not exist):", (dbErr as Error).message);
           }
         }
 
