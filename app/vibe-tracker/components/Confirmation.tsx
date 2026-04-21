@@ -14,16 +14,16 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
       <div className="text-6xl mb-6">🌷</div>
 
       <h1 className="font-display text-3xl font-bold text-foreground tracking-tight mb-4">
-        {t("vibe_tracker.vibeLogged")}
+        {t("vibeLogged")}
       </h1>
 
       <p className="text-muted-foreground text-base leading-relaxed max-w-xs mb-12">
-        {t("vibe_tracker.thankYou")}
+        {t("thankYou")}
       </p>
 
       <div className="max-w-sm w-full space-y-3">
         <button className="vibe-button w-full" onClick={onDone}>
-          {t("vibe_tracker.done")}
+          {t("done")}
         </button>
 
         <button
@@ -36,7 +36,7 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
           }}
         >
           <Clock className="w-4 h-4" />
-          {t("vibe_tracker.viewHistory")}
+          {t("viewHistory")}
         </button>
       </div>
     </div>

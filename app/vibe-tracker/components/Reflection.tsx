@@ -1,4 +1,3 @@
-"use client";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -49,7 +48,7 @@ const Reflection = ({ onComplete }: Props) => {
   return (
     <div className="flex flex-col min-h-screen px-6 pt-12 pb-28">
       <h1 className="font-display text-3xl font-bold text-center text-foreground tracking-tight">
-        {t("vibe_tracker.pauseAndReflect")}
+        {t("pauseAndReflect")}
       </h1>
 
       <div
@@ -78,7 +77,7 @@ const Reflection = ({ onComplete }: Props) => {
 
           <textarea
             className="vibe-input min-h-[140px] resize-none"
-            placeholder={t("vibe_tracker.typeThoughts")}
+            placeholder={t("typeThoughts")}
             value={answer}
             onChange={(e) => setAnswer(e.target.value)}
             style={{ borderRadius: "1.5rem" }}
@@ -93,7 +92,7 @@ const Reflection = ({ onComplete }: Props) => {
           disabled={!answer.trim()}
           onClick={handleNext}
         >
-          {isLast ? t("vibe_tracker.submitReflection") : t("vibe_tracker.next")}
+          {isLast ? t("submitReflection") : t("next")}
         </button>
       </div>
     </div>

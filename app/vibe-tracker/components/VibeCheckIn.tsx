@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Clock } from "lucide-react";
@@ -42,16 +41,16 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
           }}
         >
           <Clock className="w-4 h-4" />
-          {t("vibe_tracker.history")}
+          {t("history")}
         </button>
       </div>
 
       <h1 className="font-display text-3xl font-bold text-center text-foreground tracking-tight">
-        {t("vibe_tracker.vibeTracker")}
+        {t("vibeTracker")}
       </h1>
 
       <p className="font-heading text-lg text-center text-muted-foreground mt-6 mb-8">
-        {t("vibe_tracker.howAreYouFeeling")}
+        {t("howAreYouFeeling")}
       </p>
 
       {/* Vibe Grid */}
@@ -76,12 +75,12 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
       {/* Custom Vibe */}
       <div className="mt-10 max-w-sm mx-auto w-full">
         <p className="font-heading text-sm font-semibold text-muted-foreground mb-3">
-          {t("vibe_tracker.describeOwnVibe")}
+          {t("describeOwnVibe")}
         </p>
         <input
           type="text"
           className="vibe-input"
-          placeholder={t("vibe_tracker.rightNowIFeel")}
+          placeholder={t("rightNowIFeel")}
           value={customVibe}
           onChange={(e) => {
             setCustomVibe(e.target.value);
@@ -97,7 +96,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
           disabled={!currentVibe}
           onClick={() => onNext(currentVibe)}
         >
-          {t("vibe_tracker.saveVibe")}
+          {t("saveVibe")}
         </button>
       </div>
     </div>

@@ -1,6 +1,1 @@
-"use client";
-import App from "./App";
-
-export default function Page() {
-  return <App />;
-}
+"use client";`nimport App from "./App";`n`nexport default function Page() {`n  return <App />;`n}

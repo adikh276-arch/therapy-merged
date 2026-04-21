@@ -1,4 +1,3 @@
-"use client";
 import { useState, useRef } from "react";
 import VibeCheckIn from "@/app/vibe-tracker/components/VibeCheckIn";
 import Reflection from "@/app/vibe-tracker/components/Reflection";

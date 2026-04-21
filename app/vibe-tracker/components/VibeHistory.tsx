@@ -1,4 +1,3 @@
-"use client";
 import { useMemo, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { getVibeEntries, VibeEntry } from "@/app/vibe-tracker/types/vibe";
@@ -39,8 +38,8 @@ const VibeHistory = ({ onBack }: Props) => {
     const yesterday = new Date();
     yesterday.setDate(today.getDate() - 1);
 
-    if (date.toDateString() === today.toDateString()) return t("vibe_tracker.today", "Today");
-    if (date.toDateString() === yesterday.toDateString()) return t("vibe_tracker.yesterday", "Yesterday");
+    if (date.toDateString() === today.toDateString()) return t("today", "Today");
+    if (date.toDateString() === yesterday.toDateString()) return t("yesterday", "Yesterday");
 
     return date.toLocaleDateString(i18n.language, {
       weekday: "long",
@@ -92,7 +91,7 @@ const VibeHistory = ({ onBack }: Props) => {
           <ChevronLeft className="w-5 h-5 text-foreground" />
         </button>
         <h1 className="font-display text-2xl font-bold text-foreground tracking-tight">
-          {t("vibe_tracker.yourJourney")}
+          {t("yourJourney")}
         </h1>
       </div>
 
@@ -100,10 +99,10 @@ const VibeHistory = ({ onBack }: Props) => {
         <div className="flex-1 flex flex-col items-center justify-center text-center">
           <div className="text-5xl mb-4">🌿</div>
           <p className="font-heading text-lg text-foreground mb-2">
-            {t("vibe_tracker.noVibes")}
+            {t("noVibes")}
           </p>
           <p className="text-muted-foreground text-sm max-w-xs">
-            {t("vibe_tracker.startFirstCheckIn")}
+            {t("startFirstCheckIn")}
           </p>
         </div>
       ) : (

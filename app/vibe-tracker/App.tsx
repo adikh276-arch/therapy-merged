@@ -1,4 +1,3 @@
-"use client";
 import { Toaster } from "@/app/vibe-tracker/components/ui/toaster";
 import { Toaster as Sonner } from "@/app/vibe-tracker/components/ui/sonner";
 import { TooltipProvider } from "@/app/vibe-tracker/components/ui/tooltip";
@@ -15,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/therapy/vibe-tracker">
+      <BrowserRouter basename="/vibe_tracker">
         <AuthGuard>
           <Routes>
             <Route path="/" element={<Index />} />
