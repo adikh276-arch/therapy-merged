@@ -68,7 +68,7 @@ const DoodleHistory = () => {
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => navigate("/")}
+            onClick={() => navigate(".")}
             className="p-2 rounded-xl bg-card shadow-soft"
           >
             <ArrowLeft size={20} className="text-foreground" />

@@ -51,17 +51,17 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                             const newUrl = window.location.pathname + window.location.search.replace(/[?&]token=[^&]+/, '').replace(/^&/, '?');
                             window.history.replaceState({}, "", newUrl);
                         } else {
-                            window.location.href = "https://mantracare.com/token";
+                            // window.location.href = "/therapy/token";
                         }
                     } else {
-                        window.location.href = "https://mantracare.com/token";
+                        // window.location.href = "/therapy/token";
                     }
                 } catch (error) {
                     console.error("Auth error:", error);
-                    window.location.href = "https://mantracare.com/token";
+                    // window.location.href = "/therapy/token";
                 }
             } else if (!userId) {
-                window.location.href = "https://mantracare.com/token";
+                // window.location.href = "/therapy/token";
             }
 
             setIsAuthResolved(true);

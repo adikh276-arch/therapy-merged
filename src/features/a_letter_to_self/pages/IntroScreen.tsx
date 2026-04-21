@@ -29,14 +29,14 @@ const IntroScreen = () => {
 
         <div className="space-y-3 pt-2">
           <Button
-            onClick={() => navigate("/write")}
+            onClick={() => navigate("./write")}
             className="w-full rounded-2xl h-12 text-base font-medium"
           >
             {t("start_writing")}
           </Button>
           <Button
             variant="outline"
-            onClick={() => navigate("/letters")}
+            onClick={() => navigate("./letters")}
             className="w-full rounded-2xl h-12 text-base font-medium"
           >
             {t("view_past_letters")}

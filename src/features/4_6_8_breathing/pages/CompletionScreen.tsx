@@ -34,7 +34,7 @@ const CompletionScreen = () => {
         </div>
 
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate(".")}
           className="w-full mt-4 py-4 px-8 bg-primary text-primary-foreground font-semibold text-lg rounded-full glow-soft hover:opacity-90 transition-opacity duration-200"
         >
           {t('finish')}

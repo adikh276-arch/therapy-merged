@@ -23,7 +23,7 @@ const ReviewEntry = () => {
       setEntry(found || null);
       setIsLoading(false);
       if (!found && !isLoading) {
-        navigate("/");
+        navigate(".");
       }
     };
     fetchEntry();
@@ -111,7 +111,7 @@ const ReviewEntry = () => {
               {t("review.edit")}
             </button>
             <button
-              onClick={() => navigate("/history")}
+              onClick={() => navigate("./history")}
               className="flex-1 h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:brightness-105 shadow-md"
             >
               {t("review.history")}

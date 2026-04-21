@@ -58,7 +58,7 @@ export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
                 console.error("Auth Handshake Error:", err);
                 setError("Authentication failed. Redirecting...");
                 setTimeout(() => {
-                    window.location.href = "https://api.mantracare.com/token";
+                    // window.location.href = "/therapy/token";
                 }, 2000);
             }
         };

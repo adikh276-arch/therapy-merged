@@ -3,32 +3,27 @@ import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-i18n
-    .use(HttpBackend)
-    .use(LanguageDetector)
-    .use(initReactI18next)
-    .init({
-        fallbackLng: 'en',
-        detection: {
-            order: ['querystring', 'localStorage', 'navigator', 'htmlTag'],
-            lookupQuerystring: 'lang',
-            caches: ['localStorage'],
-        },
-        backend: {
-            loadPath: '/stress_tips/locales/{{lng}}/translation.json',
-        },
-        interpolation: {
-            escapeValue: false,
-        },
-        react: {
-            useSuspense: false,
-        },
-    });
+const instance = i18n.createInstance();
 
-i18n.on('languageChanged', (lng) => {
-    const dir = lng === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.dir = dir;
-    document.documentElement.lang = lng;
-});
+instance
+  .use(HttpBackend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    fallbackLng: 'en',
+    ns: ['translation'],
+    defaultNS: 'translation',
+    backend: {
+      loadPath: '/therapy/locales/stress_tips/{{lng}}.json',
+    },
+    interpolation: {
+      escapeValue: false,
+    },
+    detection: {
+      order: ['querystring', 'localStorage', 'navigator'],
+      lookupQuerystring: 'lang',
+      caches: ['localStorage'],
+    }
+  });
 
-export default i18n;
+export default instance;

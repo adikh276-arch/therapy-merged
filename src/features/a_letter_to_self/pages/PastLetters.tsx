@@ -117,7 +117,7 @@ const PastLetters = () => {
           <Button
             variant="outline"
             size="sm"
-            onClick={() => navigate("/")}
+            onClick={() => navigate(".")}
             className="rounded-2xl"
           >
             Home
@@ -128,7 +128,7 @@ const PastLetters = () => {
           <div className="text-center py-16 space-y-4">
             <p className="text-muted-foreground">No letters yet.</p>
             <Button
-              onClick={() => navigate("/write")}
+              onClick={() => navigate("./write")}
               className="rounded-2xl"
             >
               Write Your First Letter

@@ -26,7 +26,7 @@ const EmotionalCheckIn = () => {
       entry.updatedAt = new Date().toISOString();
       await saveEntry(entry);
     }
-    navigate("/complete");
+    navigate("./complete");
   };
 
   return (

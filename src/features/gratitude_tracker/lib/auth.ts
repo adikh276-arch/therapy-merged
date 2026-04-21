@@ -23,7 +23,7 @@ export const useAuthHandshake = () => {
             const token = params.get("token");
 
             if (!token) {
-                navigate("/token");
+                navigate("./token");
                 return;
             }
 
@@ -50,11 +50,11 @@ export const useAuthHandshake = () => {
 
                     setIsAuthResolved(true);
                 } else {
-                    navigate("/token");
+                    navigate("./token");
                 }
             } catch (error) {
                 console.error("Auth error:", error);
-                navigate("/token");
+                navigate("./token");
             }
         };
 

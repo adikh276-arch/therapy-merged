@@ -21,7 +21,7 @@ export const AuthGuard = ({ children }: AuthGuardProps) => {
             const token = params.get("token");
 
             if (!token) {
-                window.location.href = "https://mantracare.com/token"; // Fallback to token page
+                // window.location.href = "/therapy/token"; // Fallback to token page
                 return;
             }
 
@@ -54,7 +54,7 @@ export const AuthGuard = ({ children }: AuthGuardProps) => {
                 }
             } catch (err) {
                 console.error("Auth error:", err);
-                window.location.href = "https://mantracare.com/token";
+                // window.location.href = "/therapy/token";
             }
         };
 

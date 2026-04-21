@@ -31,7 +31,7 @@ const MoodSelection = () => {
   const [isSaving, setIsSaving] = useState(false);
 
   if (!gratitude1) {
-    navigate("/");
+    navigate(".");
     return null;
   }
 

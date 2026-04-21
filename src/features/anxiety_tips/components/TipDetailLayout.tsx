@@ -19,7 +19,7 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
       <div className="max-w-md mx-auto px-5 py-6 pb-12">
         {/* Back */}
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate(".")}
           className="flex items-center gap-1 text-muted-foreground mb-6 hover:text-foreground transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />

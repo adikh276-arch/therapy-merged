@@ -23,7 +23,7 @@ const IntroScreen = () => {
         </div>
 
         <button
-          onClick={() => navigate("/breathe")}
+          onClick={() => navigate("./breathe")}
           className="w-full mt-4 py-4 px-8 bg-primary text-primary-foreground font-semibold text-lg rounded-full glow-soft hover:opacity-90 transition-opacity duration-200"
         >
           {t('begin_button')}

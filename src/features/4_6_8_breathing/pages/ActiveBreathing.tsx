@@ -56,7 +56,7 @@ const ActiveBreathing = () => {
                 if (r >= totalRounds) {
                   clearTimer();
                   setStatus("idle");
-                  navigate("/complete");
+                  navigate("./complete");
                   return r;
                 }
                 return r + 1;

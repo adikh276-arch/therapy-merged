@@ -52,7 +52,7 @@ export default function TipDetail() {
       <div className="mx-auto max-w-md px-5 py-8 pb-16">
         {/* Back button */}
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate(".")}
           className="flex items-center gap-1 text-sm text-muted-foreground mb-6 hover:text-foreground transition-colors"
         >
           <ArrowLeft className="h-4 w-4" />

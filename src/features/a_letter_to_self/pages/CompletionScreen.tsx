@@ -26,14 +26,14 @@ const CompletionScreen = () => {
 
         <div className="space-y-3 pt-2">
           <Button
-            onClick={() => navigate("/letters")}
+            onClick={() => navigate("./letters")}
             className="w-full rounded-2xl h-12 text-base"
           >
             View My Letters
           </Button>
           <Button
             variant="outline"
-            onClick={() => navigate("/")}
+            onClick={() => navigate(".")}
             className="w-full rounded-2xl h-12 text-base"
           >
             Close

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Postpartum Mental Health Tips For Recovery — Practical Advice</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F5E6FF;
+    --primary: #B794F4;
+    --ink: #3B0764;
+    --light: #E9D5FF;
+    --mid: #D8B4FE;
+    --subtext: #6B21A8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--mid); }
+  .nav-logo { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: var(--primary); cursor: pointer; }
+  .nav-tag { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: var(--primary); color: white; padding: 4px 12px; border-radius: 100px; }
+
+  #hero { min-height: 50vh; padding: 7rem 2rem 3rem; text-align: center; position: relative; overflow: hidden; }
+  .orb { position: absolute; border-radius: 50%; filter: blur(70px); opacity: 0.15; animation: drift 9s ease-in-out infinite alternate; }
+  .orb1 { width: 500px; height: 500px; background: var(--primary); top: -15%; left: -18%; }
+  .orb2 { width: 380px; height: 380px; background: #6EE7B7; top: 15%; right: -12%; animation-delay: -2.5s; }
+  @keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(35px,22px) scale(1.06); } }
+
+  .hero-badge { display: inline-flex; align-items: center; gap: 10px; background: white; border: 2px solid var(--ink); border-radius: 100px; padding: 8px 20px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; box-shadow: 3px 3px 0 var(--primary); animation: fadeUp 0.8s ease both; }
+  .badge-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); }
+
+  h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2rem,5vw,3.5rem); line-height: 1.1; max-width: 700px; margin: 0 auto 1rem; animation: fadeUp 0.8s 0.1s ease both; }
+  h1 em { font-style: italic; background: linear-gradient(135deg, var(--primary), #6EE7B7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .hero-sub { font-size: 1rem; color: var(--subtext); max-width: 500px; margin: 0 auto; line-height: 1.6; animation: fadeUp 0.8s 0.2s ease both; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+  #tips-container { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+  .tips-intro { text-align: center; margin-bottom: 3rem; }
+  .tips-intro h2 { font-family: 'DM Serif Display', serif; font-size: 2rem; margin-bottom: 0.5rem; }
+  .tips-intro p { color: var(--subtext); font-size: 0.95rem; }
+
+  .tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+  .tip-card { background: white; border-radius: 16px; padding: 2rem; border: 2px solid var(--light); transition: all 0.3s ease; }
+  .tip-card:hover { transform: translateY(-6px); box-shadow: 0 12px 32px rgba(52,211,153,0.15); border-color: var(--primary); }
+
+  .tip-number { font-family: 'DM Serif Display', serif; font-size: 2.5rem; color: var(--primary); font-weight: bold; }
+  .tip-title { font-size: 1.15rem; font-weight: 600; color: var(--ink); margin: 0.8rem 0; line-height: 1.3; }
+  .tip-text { font-size: 0.95rem; color: var(--subtext); line-height: 1.6; margin-bottom: 1rem; }
+  .tip-icon { font-size: 2rem; margin-top: 0.5rem; }
+
+  .footer { padding: 3rem 2rem; text-align: center; color: var(--subtext); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Postpartum Mental Health Tips For Recovery</div>
+  <div class="nav-tag">Mental Health</div>
+</nav>
+
+<section id="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="hero-badge"><span class="badge-dot"></span> Practical Guidance</div>
+  <h1>Postpartum Mental Health Tips <em>For Recovery</em></h1>
+  <p class="hero-sub">Support for the fourth trimester—your mental health matters</p>
+</section>
+
+<section id="tips-container">
+  <div class="tips-intro">
+    <h2>12 Tips for Postpartum Wellbeing</h2>
+    <p>Your mental health is as important as baby's. Care for yourself too.</p>
+  </div>
+
+  <div class="tips-grid" id="tipsGrid"></div>
+</section>
+
+<section class="footer">
+  <p>These tips are meant to support, not replace, professional mental health care. If you're struggling significantly, please reach out to a mental health professional.</p>
+</section>
+
+<script>
+const tips = [
+  {
+    "number": "01",
+    "title": "Reach Out If You're Struggling",
+    "text": "Tell someone: partner, doctor, therapist. Don't suffer alone. Postpartum depression/anxiety is medical, not moral failure.",
+    "icon": "🆘"
+  },
+  {
+    "number": "02",
+    "title": "Ask For Help",
+    "text": "Let people bring food, clean, hold baby. You need rest more than independence. Accept all help offered.",
+    "icon": "🤝"
+  },
+  {
+    "number": "03",
+    "title": "Get Sleep When Baby Sleeps",
+    "text": "Forget the dishes. Sleep is medicine. Your mental health depends on it. Accept help so you can actually rest.",
+    "icon": "😴"
+  },
+  {
+    "number": "04",
+    "title": "Take Breaks From Baby",
+    "text": "An hour alone helps you recharge. This isn't selfish. You're a better parent when you've had a break.",
+    "icon": "⏰"
+  },
+  {
+    "number": "05",
+    "title": "Connect With Other Parents",
+    "text": "Mom groups, friends with babies, online communities. Knowing others feel this way normalizes what you're experiencing.",
+    "icon": "👥"
+  },
+  {
+    "number": "06",
+    "title": "Manage Expectations",
+    "text": "Your house won't be perfect. You won't be perfect. Baby won't always cooperate. This is normal, not failure.",
+    "icon": "🎯"
+  },
+  {
+    "number": "07",
+    "title": "Watch For Intrusive Thoughts",
+    "text": "Scary thoughts about baby are common (not reality). If they're persistent/compulsive, tell your doctor. This is treatable.",
+    "icon": "🧠"
+  },
+  {
+    "number": "08",
+    "title": "Take Care of Your Body",
+    "text": "Eat real meals. Drink water. Move gently. Nutrition and basic self-care stabilize mood significantly.",
+    "icon": "🥗"
+  },
+  {
+    "number": "09",
+    "title": "Consider Your Partner's Involvement",
+    "text": "Help with feedings, diaper changes, night shift. Equal partnership means equal responsibility, not just you doing it all.",
+    "icon": "👨👩👧"
+  },
+  {
+    "number": "10",
+    "title": "Be Honest About Bonding",
+    "text": "Immediate overwhelming love isn't required. It's okay if bonding takes time. These feelings develop; you're not broken.",
+    "icon": "💕"
+  },
+  {
+    "number": "11",
+    "title": "Remember This Phase Ends",
+    "text": "The fourth trimester is intense but temporary. One day baby will sleep through. One day will feel easier. Hold on.",
+    "icon": "🌅"
+  },
+  {
+    "number": "12",
+    "title": "Seek Professional Support",
+    "text": "Therapy and/or medication save lives. If you're struggling, professional help isn't optional—it's essential. You deserve support.",
+    "icon": "🏥"
+  }
+];
+
+function initializeTips() {
+  const grid = document.getElementById('tipsGrid');
+  
+  tips.forEach((tip) => {
+    const card = document.createElement('div');
+    card.className = 'tip-card';
+    card.innerHTML = `
+      <div class="tip-number">${tip.number}</div>
+      <div class="tip-title">${tip.title}</div>
+      <div class="tip-text">${tip.text}</div>
+      <div class="tip-icon">${tip.icon}</div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+initializeTips();
+</script>
+
+</body>
+</html>

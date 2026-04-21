@@ -195,7 +195,7 @@ const History = () => {
               {t("history.back")}
             </button>
             <button
-              onClick={() => navigate("/")}
+              onClick={() => navigate(".")}
               className="flex-1 h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:brightness-105 shadow-md"
             >
               {t("history.home")}
