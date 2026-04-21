@@ -72,3 +72,25 @@ i18n
     });
 
 export default i18n;
+
+export const SUPPORTED_LANGUAGES = [
+  { code: 'en', name: 'English', nativeLabel: 'English' },
+  { code: 'es', name: 'Spanish', nativeLabel: 'Español' },
+  { code: 'fr', name: 'French', nativeLabel: 'Français' },
+  { code: 'pt', name: 'Portuguese', nativeLabel: 'Português' },
+  { code: 'de', name: 'German', nativeLabel: 'Deutsch' },
+  { code: 'ar', name: 'Arabic', nativeLabel: 'العربية' },
+  { code: 'hi', name: 'Hindi', nativeLabel: 'हिन्दी' },
+  { code: 'bn', name: 'Bengali', nativeLabel: 'বাংলা' },
+  { code: 'zh', name: 'Chinese', nativeLabel: '简体中文' },
+  { code: 'ja', name: 'Japanese', nativeLabel: '日本語' },
+  { code: 'id', name: 'Indonesian', nativeLabel: 'Bahasa Indonesia' },
+  { code: 'tr', name: 'Turkish', nativeLabel: 'Türkçe' },
+  { code: 'vi', name: 'Vietnamese', nativeLabel: 'Tiếng Việt' },
+  { code: 'ko', name: 'Korean', nativeLabel: '한국어' },
+  { code: 'ru', name: 'Russian', nativeLabel: 'Русский' },
+  { code: 'it', name: 'Italian', nativeLabel: 'Italiano' },
+  { code: 'pl', name: 'Polish', nativeLabel: 'Polski' },
+  { code: 'th', name: 'Thai', nativeLabel: 'ไทย' },
+  { code: 'tl', name: 'Filipino', nativeLabel: 'Filipino' },
+];
