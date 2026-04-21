@@ -1,0 +1,339 @@
+```json
+[
+  {"name":"Depression","slug":"depression",
+    "exercises":[
+      {"title":"5-4-3-2-1 Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Joyful Activities","url":"https://platform.mantracare.com/joyful_activities/?lang=en"}
+    ],
+    "todos":[
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Letter to Self","url":"https://web.mantracare.com/app/letter_to_self"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/depression_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/depression_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/depression_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/depression_posters/?lang=en"
+    }
+  },
+
+  {"name":"Anxiety","slug":"anxiety",
+    "exercises":[
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"4-6-8 Breathing","url":"https://platform.mantracare.com/4_6_8_breathing/"},
+      {"title":"Grounded Technique","url":"http://platform.mantracare.com/grounded_technique"},
+      {"title":"Diffusion Techniques","url":"https://platform.mantracare.com/diffusion_techniques/"}
+    ],
+    "todos":[
+      {"title":"Vibe Tracker","url":"https://web.mantracare.com/app/vibe_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/anxiety_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/anxiety_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/anxiety_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/anxiety_posters/?lang=en"
+    }
+  },
+
+  {"name":"Stress","slug":"stress",
+    "exercises":[
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Doodle Burst","url":"https://web.mantracare.com/app/doodle_burst"},
+      {"title":"Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"}
+    ],
+    "todos":[
+      {"title":"Energy Tracker","url":"https://web.mantracare.com/app/energy_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Environment Optimization","url":"https://platform.mantracare.com/environment_optimization/?lang=en"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/stress_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/stress_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/stress_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/stress_posters/?lang=en"
+    }
+  },
+
+  {"name":"Adolescent","slug":"adolescent",
+    "exercises":[
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Doodle Burst","url":"https://web.mantracare.com/app/doodle_burst"},
+      {"title":"Memory Recall","url":"https://platform.mantracare.com/memory-recall/"}
+    ],
+    "todos":[
+      {"title":"Vibe Tracker","url":"https://web.mantracare.com/app/vibe_tracker"},
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/adolescent_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/adolescent_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/adolescent_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/adolescent_posters/?lang=en"
+    }
+  },
+
+  {"name":"Relationship","slug":"relationship",
+    "exercises":[
+      {"title":"Letter to Self","url":"https://web.mantracare.com/app/letter_to_self"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"}
+    ],
+    "todos":[
+      {"title":"Know Your Values","url":"http://web.mantracare.com/app/know_your_values/"},
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Personal Mission Statement","url":"https://web.mantracare.com/app/personal_mission_statement"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/relationship_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/relationship_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/relationship_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/relationship_posters/?lang=en"
+    }
+  },
+
+  {"name":"Workplace","slug":"workplace",
+    "exercises":[
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"},
+      {"title":"Environment Optimization","url":"https://platform.mantracare.com/environment_optimization/?lang=en"}
+    ],
+    "todos":[
+      {"title":"Physical Activity Log","url":"https://web.mantracare.com/app/physical_activity_log"},
+      {"title":"Energy Tracker","url":"https://web.mantracare.com/app/energy_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/workplace_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/workplace_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/workplace_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/workplace_posters/?lang=en"
+    }
+  },
+
+  {"name":"Sleep","slug":"sleep",
+    "exercises":[
+      {"title":"4-6-8 Breathing","url":"https://platform.mantracare.com/4_6_8_breathing/"},
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"}
+    ],
+    "todos":[
+      {"title":"Sleep Tracker","url":"https://web.mantracare.com/app/sleep_tracker"},
+      {"title":"Energy Tracker","url":"https://web.mantracare.com/app/energy_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/sleep_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/sleep_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/sleep_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/sleep_posters/?lang=en"
+    }
+  },
+
+  {"name":"Parenting","slug":"parenting",
+    "exercises":[
+      {"title":"Pause for Appreciation","url":"https://platform.mantracare.com/pause_for_appreciation?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"}
+    ],
+    "todos":[
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Letter to Self","url":"https://web.mantracare.com/app/letter_to_self"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/parenting_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/parenting_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/parenting_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/parenting_posters/?lang=en"
+    }
+  },
+
+  {"name":"Anger","slug":"anger",
+    "exercises":[
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"},
+      {"title":"Diffusion Techniques","url":"https://platform.mantracare.com/diffusion_techniques/"},
+      {"title":"Doodle Burst","url":"https://web.mantracare.com/app/doodle_burst"}
+    ],
+    "todos":[
+      {"title":"Vibe Tracker","url":"https://web.mantracare.com/app/vibe_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"},
+      {"title":"Energy Tracker","url":"https://web.mantracare.com/app/energy_tracker"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/anger_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/anger_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/anger_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/anger_posters/?lang=en"
+    }
+  },
+
+  {"name":"Grief","slug":"grief",
+    "exercises":[
+      {"title":"Letter to Self","url":"https://web.mantracare.com/app/letter_to_self"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"}
+    ],
+    "todos":[
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Vibe Tracker","url":"https://web.mantracare.com/app/vibe_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/grief_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/grief_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/grief_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/grief_posters/?lang=en"
+    }
+  },
+
+  {"name":"PTSD","slug":"ptsd",
+    "exercises":[
+      {"title":"Grounded Technique","url":"http://platform.mantracare.com/grounded_technique"},
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"Diffusion Techniques","url":"https://platform.mantracare.com/diffusion_techniques/"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"}
+    ],
+    "todos":[
+      {"title":"Vibe Tracker","url":"https://web.mantracare.com/app/vibe_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Energy Tracker","url":"https://web.mantracare.com/app/energy_tracker"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/ptsd_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/ptsd_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/ptsd_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/ptsd_posters/?lang=en"
+    }
+  },
+
+  {"name":"Acceptance","slug":"acceptance",
+    "exercises":[
+      {"title":"Diffusion Techniques","url":"https://platform.mantracare.com/diffusion_techniques/"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"}
+    ],
+    "todos":[
+      {"title":"Letter to Self","url":"https://web.mantracare.com/app/letter_to_self"},
+      {"title":"Know Your Values","url":"http://web.mantracare.com/app/know_your_values/"},
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/acceptance_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/acceptance_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/acceptance_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/acceptance_posters/?lang=en"
+    }
+  },
+
+  {"name":"Postpartum","slug":"postpartum",
+    "exercises":[
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"}
+    ],
+    "todos":[
+      {"title":"Energy Tracker","url":"https://web.mantracare.com/app/energy_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/postpartum_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/postpartum_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/postpartum_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/postpartum_posters/?lang=en"
+    }
+  },
+
+  {"name":"Sexuality","slug":"sexuality",
+    "exercises":[
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"},
+      {"title":"Letter to Self","url":"https://web.mantracare.com/app/letter_to_self"}
+    ],
+    "todos":[
+      {"title":"Know Your Values","url":"http://web.mantracare.com/app/know_your_values/"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Vibe Tracker","url":"https://web.mantracare.com/app/vibe_tracker"},
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/sexuality_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/sexuality_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/sexuality_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/sexuality_posters/?lang=en"
+    }
+  },
+
+  {"name":"Eating Disorder","slug":"eating_disorder",
+    "exercises":[
+      {"title":"Grounding","url":"http://platform.mantracare.com/5-4-3-2-1-grounding"},
+      {"title":"Diffusion Techniques","url":"https://platform.mantracare.com/diffusion_techniques/"},
+      {"title":"Affirmations","url":"https://platform.mantracare.com/affirmations/?lang=en"},
+      {"title":"Guided Imagery","url":"https://platform.mantracare.com/guided_imagery/?lang=en"}
+    ],
+    "todos":[
+      {"title":"Energy Tracker","url":"https://web.mantracare.com/app/energy_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/eating_disorder_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/eating_disorder_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/eating_disorder_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/eating_disorder_posters/?lang=en"
+    }
+  },
+
+  {"name":"OCD","slug":"ocd",
+    "exercises":[
+      {"title":"Diffusion Techniques","url":"https://platform.mantracare.com/diffusion_techniques/"},
+      {"title":"Grounded Technique","url":"http://platform.mantracare.com/grounded_technique"},
+      {"title":"Box Breathing","url":"https://platform.mantracare.com/box_breathing/?lang=en"},
+      {"title":"Thought Shifts","url":"https://platform.mantracare.com/thought_shifts"}
+    ],
+    "todos":[
+      {"title":"Brain Dump & Sort","url":"https://web.mantracare.com/app/brain_dump_and_sort"},
+      {"title":"Vibe Tracker","url":"https://web.mantracare.com/app/vibe_tracker"},
+      {"title":"Daily Self Care Tracker","url":"https://web.mantracare.com/app/daily_self_care_tracker"},
+      {"title":"Gratitude Tracker","url":"https://web.mantracare.com/app/gratitude_tracker"}
+    ],
+    "resources":{
+      "articles":"https://platform.mantracare.com/ocd_articles/?lang=en",
+      "tips":"https://platform.mantracare.com/ocd_tips/?lang=en",
+      "stories":"https://platform.mantracare.com/ocd_stories/?lang=en",
+      "posters":"https://platform.mantracare.com/ocd_posters/?lang=en"
+    }
+  }
+]
+```

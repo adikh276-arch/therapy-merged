@@ -1,48 +1,22 @@
-# Use Node.js 20 base image
-FROM node:20-alpine AS base
-
-# 1. Install dependencies only when needed
-FROM base AS deps
-RUN apk add --no-cache libc6-compat
+FROM node:20-alpine  AS builder
 WORKDIR /app
-
-# Install dependencies based on the preferred package manager
-COPY package.json package-lock.json* ./
-RUN npm ci
-
-# 2. Rebuild the source code only when needed
-FROM base AS builder
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+COPY package*.json ./
+RUN npm i
 COPY . .
-
-# Environment variables for build time
-ARG DATABASE_URL
-ENV DATABASE_URL=$DATABASE_URL
-
 RUN npm run build
 
-# 3. Production image, copy all the files and run next
-FROM base AS runner
-WORKDIR /app
 
-ENV NODE_ENV production
+FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+# Copy the static files from the builder stage
+COPY --from=builder /app/dist /usr/share/nginx/html/therapy
+# Remove default nginx config
+RUN rm /etc/nginx/conf.d/default.conf
+COPY vite-nginx.conf /etc/nginx/conf.d/nginx.conf
 
-COPY --from=builder /app/public ./public
+# Expose the port that Nginx will listen on
+EXPOSE 80
 
-# Automatically leverage output traces to reduce image size
-# https://nextjs.org/docs/advanced-features/output-file-tracing
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-USER nextjs
-
-EXPOSE 3000
-
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
-
-CMD ["node", "server.js"]
+# Command to start Nginx
+CMD ["nginx", "-g", "daemon off;"]
