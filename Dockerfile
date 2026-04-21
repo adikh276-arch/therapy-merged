@@ -16,7 +16,11 @@ RUN pnpm build
 # ─────────────────────────────────────────
 FROM nginx:alpine AS runner
 
-COPY --from=builder /app/dist /usr/share/nginx/html
+# Create the directory structure matching the /therapy subpath
+RUN mkdir -p /usr/share/nginx/html/therapy
+
+# Copy built assets into the subpath
+COPY --from=builder /app/dist /usr/share/nginx/html/therapy
 # Static HTML content for Group C2
 COPY --from=builder /app/public/static /usr/share/nginx/html/static
 
