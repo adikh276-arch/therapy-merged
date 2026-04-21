@@ -9,7 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { LanguageSelector } from "./components/LanguageSelector";
 
-
+const queryClient = new QueryClient();
 
 const LanguageHandler = () => {
   const [searchParams] = useSearchParams();
@@ -28,13 +28,18 @@ const LanguageHandler = () => {
 
 const App = () => (
   <>
-    <LanguageSelector />
-    <LanguageHandler />
-        
+    <>
+      <Toaster />
+      <Sonner />
+      <>
+        <LanguageHandler />
+        <LanguageSelector />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+      </>
+    </>
   </>
 );
 

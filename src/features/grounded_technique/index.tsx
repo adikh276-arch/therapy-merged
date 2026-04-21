@@ -7,15 +7,21 @@ import Index from "./pages/Index";
 import TechniqueDetail from "./pages/TechniqueDetail";
 import NotFound from "./pages/NotFound";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <Routes>
+    <>
+      <Toaster />
+      <Sonner />
+      <>
+        <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/technique/:id" element={<TechniqueDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+      </>
+    </>
   </>
 );
 

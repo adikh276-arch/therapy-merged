@@ -13,12 +13,16 @@ import PositiveSelfTalk from "./pages/tips/PositiveSelfTalk";
 
 import LanguageSelector from "./components/LanguageSelector";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <LanguageSelector />
-    <Routes>
+    <>
+      <LanguageSelector />
+      <Toaster />
+      <Sonner />
+      <>
+        <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tip/seek-support" element={<SeekSupport />} />
           <Route path="/tip/deep-breathing" element={<DeepBreathing />} />
@@ -27,6 +31,8 @@ const App = () => (
           <Route path="/tip/positive-self-talk" element={<PositiveSelfTalk />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+      </>
+    </>
   </>
 );
 

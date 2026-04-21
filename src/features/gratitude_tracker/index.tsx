@@ -12,12 +12,16 @@ import History from "./pages/History";
 import NotFound from "./pages/NotFound";
 import Token from "./pages/Token";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <LanguageSelector />
-    <Routes>
+    <>
+      <LanguageSelector />
+      <Toaster />
+      <Sonner />
+      <>
+        <Routes>
           <Route path="/token" element={<Token />} />
           <Route path="/" element={<GratitudeEntry />} />
           <Route path="/mood" element={<MoodSelection />} />
@@ -25,6 +29,8 @@ const App = () => (
           <Route path="/history" element={<History />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+      </>
+    </>
   </>
 );
 

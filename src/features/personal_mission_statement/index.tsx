@@ -9,16 +9,22 @@ import NotFound from "./pages/NotFound";
 import LanguageSelector from "./components/LanguageSelector";
 
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <LanguageSelector />
-    <Routes>
+    <>
+      <Toaster />
+      <Sonner />
+      <>
+        <LanguageSelector />
+        <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+      </>
+    </>
   </>
 );
 

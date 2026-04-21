@@ -8,22 +8,24 @@ import Index from "./pages/Index";
 import TipDetail from "./pages/TipDetail";
 import NotFound from "./pages/NotFound";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
-  <>
-    Loading…</div>}>
-    
-      
-        
-        
-        
+  <Suspense fallback={<div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", fontSize: "14px", color: "#888" }}>Loading…</div>}>
+    <>
+      <>
+        <Toaster />
+        <Sonner />
+        <>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/tip/:id" element={<TipDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-  </>
+        </>
+      </>
+    </>
+  </Suspense>
 );
 
 export default App;

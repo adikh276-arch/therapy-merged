@@ -9,16 +9,22 @@ import NotFound from "./pages/NotFound";
 import { LanguageSelector } from "./components/LanguageSelector";
 import "./i18n";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <LanguageSelector />
-    <Routes>
+    <>
+      <Toaster />
+      <Sonner />
+      <LanguageSelector />
+      <>
+        <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tip/:slug" element={<TipDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+      </>
+    </>
   </>
 );
 

@@ -9,18 +9,23 @@ import CompletionScreen from "./pages/CompletionScreen";
 import NotFound from "./pages/NotFound";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <LanguageSwitcher />
-      
+    <>
+      <Toaster />
+      <Sonner />
+      <LanguageSwitcher />
+      <>
         <Routes>
           <Route path="/" element={<IntroScreen />} />
           <Route path="/breathe" element={<ActiveBreathing />} />
           <Route path="/complete" element={<CompletionScreen />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+      </>
+    </>
   </>
 );
 

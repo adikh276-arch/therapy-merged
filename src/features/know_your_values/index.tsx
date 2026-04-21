@@ -11,16 +11,24 @@ import LanguageSelector from "./components/LanguageSelector";
 import { AuthProvider } from "./components/AuthContext";
 import { AuthGuard } from "./components/AuthGuard";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <LanguageSelector />
-    <Routes>
+    <>
+      <Toaster />
+      <Sonner />
+      <AuthProvider>
+        <>
+          <LanguageSelector />
+          <Routes>
             <Route path="/" element={<Index />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+        </>
+      </AuthProvider>
+    </>
   </>
 );
 

@@ -12,12 +12,17 @@ import NotFound from "./pages/NotFound";
 import { LanguageSelector } from "./components/LanguageSelector";
 import { AuthGuard } from "./components/AuthGuard";
 
-
+const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <LanguageSelector />
-    <Routes>
+    <>
+      <LanguageSelector />
+      <Toaster />
+      <Sonner />
+      <>
+        
+          <Routes>
             <Route path="/" element={<IntroScreen />} />
             <Route path="/write" element={<WritingScreen />} />
             <Route path="/check-in" element={<EmotionalCheckIn />} />
@@ -25,6 +30,9 @@ const App = () => (
             <Route path="/letters" element={<PastLetters />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+        
+      </>
+    </>
   </>
 );
 
