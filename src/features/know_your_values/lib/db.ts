@@ -1,12 +1,13 @@
-import { Pool, neonConfig } from "@neondatabase/serverless";
+import { sql } from '../../../lib/db';
+
 
 // Version check log
 console.log("DB Module Loaded: v1.0.2 - Using Pool with HTTP Cache");
 
 // Allow connection from browser
-neonConfig.fetchConnectionCache = true;
 
-const connectionString = (import.meta.env?.VITE_DATABASE_URL) || "";
+
+
 
 if (connectionString) {
     console.log("DB Endpoint:", connectionString.split('@')[1]?.split('/')[0]);
@@ -14,9 +15,7 @@ if (connectionString) {
     console.warn("VITE_DATABASE_URL is MISSING! Queries will fail.");
 }
 
-export const pool = new Pool({
-    connectionString: connectionString,
-});
+export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
 
 export const sql = async (text: string, params?: any[]) => {
     console.log("SQL Exec:", text, params);

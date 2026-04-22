@@ -1,10 +1,9 @@
-import { neon } from '@neondatabase/serverless';
+import { sql } from '../../../lib/db';
 
-const connectionString =
-    import.meta.env.VITE_DATABASE_URL ||
-    import.meta.env.VITE_DATABASE_URL;
 
-const sql = neon(connectionString);
+
+
+
 
 /**
  * Executes a parameterized query against Neon.

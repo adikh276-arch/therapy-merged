@@ -1,11 +1,7 @@
+import { sql } from '../../../lib/db';
 import { Pool } from "pg";
 
-export const pool = new Pool({
-    connectionString: process.env.DATABASE_URL,
-    ssl: {
-        rejectUnauthorized: false
-    }
-});
+export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
 
 export const query = async (text: string, params?: any[]) => {
     const start = Date.now();

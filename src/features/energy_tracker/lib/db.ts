@@ -1,3 +1,4 @@
+import { sql } from '../../../lib/db';
 import pkg from 'pg';
 const { Pool } = pkg;
 import * as fs from 'fs';
@@ -10,12 +11,7 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export const pool = new Pool({
-    connectionString: process.env.DATABASE_URL,
-    ssl: {
-        rejectUnauthorized: false
-    }
-});
+export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
 
 export const initSchema = async () => {
     try {

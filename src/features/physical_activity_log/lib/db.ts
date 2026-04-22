@@ -1,23 +1,18 @@
-import { Pool, neonConfig } from '@neondatabase/serverless';
+import { sql } from '../../../lib/db';
+
 
 // Essential for browser environments
-neonConfig.fetchConnectionCache = true;
 
-const connectionString = import.meta.env.VITE_DATABASE_URL;
+
+
 
 if (!connectionString) {
     console.error('✘ DATABASE_URL ERROR: The connection string is missing! Since this is a production build, you MUST add DATABASE_URL as a secret in your GitHub repository before building the Docker image.');
 }
 
-export const pool = new Pool({
-    connectionString: connectionString,
-});
+export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
 
-neonConfig.wsProxy = (host) => {
-    // Correctly extract the host if we have a valid Neon connection string, avoid localhost defaults
-    if (connectionString && (host === 'localhost' || !host)) {
-        try {
-            const url = new URL(connectionString);
+
             return `${url.hostname}/v2`;
         } catch (e) {
             // Last-resort fallback if URL parser fails on certain protocols

@@ -1,9 +1,10 @@
-import { neon, neonConfig } from '@neondatabase/serverless';
+import { sql } from '../../../lib/db';
+
 
 // Suppress browser security warning
-neonConfig.disableWarningInBrowsers = true;
 
-const connectionString = import.meta.env.VITE_DATABASE_URL;
+
+
 
 const isUrlValid = (url: string | undefined): url is string =>
   !!(url && url.startsWith('postgres'));

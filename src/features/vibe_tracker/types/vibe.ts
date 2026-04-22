@@ -1,7 +1,8 @@
-import { neon, neonConfig } from '@neondatabase/serverless';
+import { sql } from '../../../lib/db';
+
 
 // Disable the browser warning as requested
-neonConfig.disableWarningInBrowsers = true;
+
 
 export interface VibeEntry {
   id: string;
@@ -10,9 +11,9 @@ export interface VibeEntry {
   timestamp: string; // ISO string
 }
 
-const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
-const sql = neon(DATABASE_URL);
+
+
 
 const getUserId = () => sessionStorage.getItem("user_id");
 

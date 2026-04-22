@@ -1,18 +1,17 @@
-import { Pool } from "@neondatabase/serverless";
+import { sql } from '../../../lib/db';
+
 
 const getEnv = (key: string) => {
     return import.meta.env[key] || (window as any).ENV?.[key] || "";
 };
 
-const connectionString = getEnv("VITE_DATABASE_URL");
+
 
 if (!connectionString) {
     console.error("CRITICAL: VITE_DATABASE_URL is missing! Ensure it is set in GitHub Secrets (build-time) or Environment Variables (runtime).");
 }
 
-export const pool = new Pool({
-    connectionString: connectionString || "",
-});
+export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
 
 export const query = async (text: string, params: any[] = []) => {
     if (!connectionString) {
