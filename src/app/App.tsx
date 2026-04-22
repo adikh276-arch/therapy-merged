@@ -35,7 +35,7 @@ function App() {
       if (!token) {
         console.warn("Auth Handshake: No token found. Redirecting to external authentication...");
         const redirectUrl = window.location.href;
-        window.location.href = `https://api.mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
+        window.location.href = `https://mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
         return;
       }
 
@@ -84,7 +84,7 @@ function App() {
         console.error("Handshake Verification Failed:", err);
         // If verification fails, retry redirect to auth
         const redirectUrl = window.location.href.split('?')[0];
-        window.location.href = `https://api.mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
+        window.location.href = `https://mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
       }
     };
 

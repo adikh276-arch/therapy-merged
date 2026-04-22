@@ -30,5 +30,5 @@ export function setSessionUserId(userId: number) {
 
 export function logout() {
     sessionStorage.removeItem("user_id");
-    window.location.href = "/token";
+    window.location.href = "https://mantracare.com/token";
 }

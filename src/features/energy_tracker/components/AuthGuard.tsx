@@ -10,26 +10,11 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     useEffect(() => {
         const checkAuth = () => {
-            const existingUserId = sessionStorage.getItem("user_id");
-            if (existingUserId) {
+            if (sessionStorage.getItem("user_id")) {
                 setIsAuthorized(true);
             } else {
-                // If not found, wait up to 2 seconds for root App to finish handshake
-                let attempts = 0;
-                const interval = setInterval(() => {
-                    const uid = sessionStorage.getItem("user_id");
-                    if (uid) {
-                        setIsAuthorized(true);
-                        clearInterval(interval);
-                    } else if (attempts > 20) { // 2 seconds
-                        console.warn("AuthGuard: timeout waiting for root session");
-                        setIsAuthorized(false);
-                        clearInterval(interval);
-                        window.location.href = "/token";
-                    }
-                    attempts++;
-                }, 100);
-                return () => clearInterval(interval);
+                const timer = setTimeout(checkAuth, 100);
+                return () => clearTimeout(timer);
             }
         };
         checkAuth();

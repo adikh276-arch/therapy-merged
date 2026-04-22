@@ -9,56 +9,16 @@ const Handshake: React.FC<HandshakeProps> = ({ onSuccess }) => {
     const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        const handleHandshake = async () => {
-            // Step 1: Extract Token from query parameter ?token=UUID
-            const params = new URLSearchParams(window.location.search);
-            const token = params.get("token");
-
-            const existingUserId = sessionStorage.getItem("user_id");
-
-            if (existingUserId) {
-                // Success case if user_id is already in session
+        const checkAuth = () => {
+            if (sessionStorage.getItem("user_id")) {
                 onSuccess();
-                return;
-            }
-
-            if (!token) {
-                // Step 4: Token missing - Redirect
-                console.warn("Handshake failed: token missing");
-                window.location.href = "/token";
-                return;
-            }
-
-            try {
-                // Step 2: Validate Token against MantraCare API
-                const response = await axios.post("https://api.mantracare.com/user/user-info", { token });
-
-                if (response.status === 200 && response.data.user_id) {
-                    // Step 3: Success handling
-                    const { user_id } = response.data;
-                    sessionStorage.setItem("user_id", user_id.toString());
-
-                    // Step 3: Remove token from URL
-                    const url = new URL(window.location.href);
-                    url.searchParams.delete("token");
-                    window.history.replaceState({}, "", url.toString());
-
-                    onSuccess();
-                } else {
-                    // Token invalid according to API
-                    console.error("Handshake failed: invalid token response");
-                    window.location.href = "/token";
-                }
-            } catch (err) {
-                console.error("Authentication handshake failed:", err);
-                setError("Auth validation failed. Redirecting...");
-                setTimeout(() => {
-                    window.location.href = "/token";
-                }, 1500);
+            } else {
+                const timer = setTimeout(checkAuth, 100);
+                return () => clearTimeout(timer);
             }
         };
 
-        handleHandshake();
+        checkAuth();
     }, [onSuccess]);
 
     // Phase 8: Full screen loader to block UI during handshake

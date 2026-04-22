@@ -10,43 +10,17 @@ export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const resolveAuth = async () => {
-            const params = new URLSearchParams(window.location.search);
-            const token = params.get("token");
-
-            if (token) {
-                const userId = await validateToken(token);
-                if (userId) {
-                    setSessionUserId(userId);
-                    // Remove token from URL
-                    window.history.replaceState({}, "", window.location.pathname);
-
-                    // Initialize user in DB
-                    try {
-                        const userCheck = await query("SELECT id FROM users WHERE id = $1", [userId]);
-                        if (userCheck.rowCount === 0) {
-                            await query("INSERT INTO users (id) VALUES ($1)", [userId]);
-                        }
-                    } catch (error) {
-                        console.error("User initialization failed:", error);
-                    }
-
-                    setIsAuthResolved(true);
-                } else {
-                    window.location.href = "/token";
-                }
+        const checkAuth = () => {
+            if (sessionStorage.getItem("user_id")) {
+                setIsAuthResolved(true);
             } else {
-                const userId = getSessionUserId();
-                if (!userId) {
-                    window.location.href = "/token";
-                } else {
-                    setIsAuthResolved(true);
-                }
+                const timer = setTimeout(checkAuth, 100);
+                return () => clearTimeout(timer);
             }
         };
 
-        resolveAuth();
-    }, [location]);
+        checkAuth();
+    }, []);
 
     if (!isAuthResolved) {
         return (
