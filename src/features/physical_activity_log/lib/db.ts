@@ -6,22 +6,7 @@ import { sql } from '../../../lib/db';
 
 
 
-if (!connectionString) {
-    console.error('✘ DATABASE_URL ERROR: The connection string is missing! Since this is a production build, you MUST add DATABASE_URL as a secret in your GitHub repository before building the Docker image.');
-}
-
-export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
-
-
-            return `${url.hostname}/v2`;
-        } catch (e) {
-            // Last-resort fallback if URL parser fails on certain protocols
-            const match = connectionString.match(/@([^/]+)\//);
-            if (match) return `${match[1]}/v2`;
-        }
-    }
-    return `${host}/v2`;
-};
+export const pool = { query: (t: string, p?: any[]) => (sql as any).query(t, p || []) };
 
 
 

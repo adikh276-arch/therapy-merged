@@ -3,11 +3,13 @@ import { sql } from '../../../lib/db';
 
 // For browser environments, @neondatabase/serverless handles the connection
 // without Node-only dependencies like 'net' or 'tls'.
-export const pool = { query: (t, p) => (sql as any).query(t, p || []) };.VITE_DATABASE_URL || import.meta.env.VITE_DATABASE_URL || process.env.DATABASE_URL,
-});
+export const pool = { 
+    query: (t: string, p?: any[]) => (sql as any).query(t, p || []),
+    connect: () => { throw new Error("Pool.connect not supported in serverless HTTP mode"); }
+};
 
 export const query = (text: string, params?: any[]) => {
-    return pool.query(text, params);
+    return (sql as any).query(text, params || []);
 };
 
 export const initDb = async () => {
@@ -35,20 +37,4 @@ CREATE INDEX IF NOT EXISTS idx_letters_user_id ON letters(user_id);
     } catch (error) {
         console.error("Database initialization failed:", error);
     }
-};
-
-export const getTransaction = async () => {
-    const client = await pool.connect();
-    const start = async () => {
-        await client.query("BEGIN");
-    };
-    const commit = async () => {
-        await client.query("COMMIT");
-        client.release();
-    };
-    const rollback = async () => {
-        await client.query("ROLLBACK");
-        client.release();
-    };
-    return { client, start, commit, rollback };
 };

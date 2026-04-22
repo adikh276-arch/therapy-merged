@@ -6,15 +6,8 @@ import { sql } from '../../../lib/db';
 
 
 
-const isUrlValid = (url: string | undefined): url is string =>
-  !!(url && url.startsWith('postgres'));
 
-if (!isUrlValid(connectionString)) {
-  console.warn('VITE_DATABASE_URL is not defined. Database features disabled.');
-}
-
-// neon() uses HTTP — works in browsers.
-const sql = isUrlValid(connectionString) ? neon(connectionString) : null;
+// Generic query helper — returns rows as array
 
 // Generic query helper — returns rows as array
 export const dbRequest = async <T = any>(query: string, params: any[] = []): Promise<T[]> => {

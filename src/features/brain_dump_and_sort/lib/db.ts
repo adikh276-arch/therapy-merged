@@ -7,7 +7,8 @@ import { sql } from '../../../lib/db';
 
 
 // 'neon' returns a function that can be used as a tagged template or has a .query method
-export 
+export const query = (t: string, p?: any[]) => (sql as any).query(t, p || []);
+export { sql };
 
 /**
  * Executes a SQL query with parameters.

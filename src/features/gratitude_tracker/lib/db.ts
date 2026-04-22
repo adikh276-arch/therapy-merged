@@ -7,16 +7,9 @@ const getEnv = (key: string) => {
 
 
 
-if (!connectionString) {
-    console.error("CRITICAL: VITE_DATABASE_URL is missing! Ensure it is set in GitHub Secrets (build-time) or Environment Variables (runtime).");
-}
-
-export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
+export const pool = { query: (t: string, p?: any[]) => (sql as any).query(t, p || []) };
 
 export const query = async (text: string, params: any[] = []) => {
-    if (!connectionString) {
-        throw new Error("Database connection string is not configured.");
-    }
     return pool.query(text, params);
 };
 

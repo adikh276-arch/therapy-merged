@@ -1,5 +1,5 @@
 import { sql } from '../../../lib/db';
-import { Pool } from "pg";
+
 
 export const pool = { query: (t, p) => (sql as any).query(t, p || []) };
 
