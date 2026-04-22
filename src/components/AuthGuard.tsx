@@ -7,6 +7,7 @@ const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthorized, setIsAuthorized] = useState(false);
+  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
@@ -14,15 +15,23 @@ export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children })
       const storedUserId = sessionStorage.getItem('user_id');
       if (storedUserId) {
         setIsAuthorized(true);
+        
+        // Stale Token Cleanup Logic
+        const urlParams = new URLSearchParams(location.search);
+        if (urlParams.has('token')) {
+          urlParams.delete('token');
+          const cleanSearch = urlParams.toString() ? `?${urlParams.toString()}` : "";
+          navigate(location.pathname + cleanSearch, { replace: true });
+        }
       } else {
-        // Wait for root App to finish handshake
+        // If session is lost during active usage, wait for root App to handle or reload
         const timer = setTimeout(checkAuth, 100);
         return () => clearTimeout(timer);
       }
     };
 
     checkAuth();
-  }, []);
+  }, [location, navigate]);
 
   // Full-screen blocking UI until handshake state is resolved
   if (!isAuthorized) {
