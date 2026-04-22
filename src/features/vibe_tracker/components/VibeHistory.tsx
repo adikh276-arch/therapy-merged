@@ -59,11 +59,13 @@ const VibeHistory = ({ onBack }: Props) => {
   // Group entries by date
   const grouped = useMemo(() => {
     const groups: Record<string, VibeEntry[]> = {};
-    entries.forEach((entry) => {
-      const key = new Date(entry.timestamp).toDateString();
-      if (!groups[key]) groups[key] = [];
-      groups[key].push(entry);
-    });
+    if (entries && Array.isArray(entries)) {
+      entries.forEach((entry) => {
+        const key = new Date(entry.timestamp).toDateString();
+        if (!groups[key]) groups[key] = [];
+        groups[key].push(entry);
+      });
+    }
     return Object.entries(groups).sort((a, b) => new Date(b[0]).getTime() - new Date(a[0]).getTime());
   }, [entries]);
 
