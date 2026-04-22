@@ -1,7 +1,5 @@
-import { neon } from '@neondatabase/serverless';
+import { sql } from '../../../lib/db';
 import i18n from "../i18n";
-
-const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 export interface SelfCareEntry {
   date: string; // ISO date string YYYY-MM-DD
@@ -69,18 +67,8 @@ export function toLocalIsoDate(date: Date): string {
   const day = String(date.getDate()).padStart(2, '0');
   return `${year}-${month}-${day}`;
 }
-
-// Helper to get Neon client
-function getSql() {
-  if (!DATABASE_URL) {
-    throw new Error('DATABASE_URL is not set');
-  }
-  return neon(DATABASE_URL);
-}
-
 export async function fetchEntries(userId: string): Promise<SelfCareEntry[]> {
   try {
-    const sql = getSql();
     const rows = await sql`
       SELECT * FROM selfcare_entries 
       WHERE user_id = ${userId} 
@@ -110,7 +98,6 @@ export async function fetchEntries(userId: string): Promise<SelfCareEntry[]> {
 
 export async function saveEntryToDb(userId: string, entry: SelfCareEntry) {
   try {
-    const sql = getSql();
     await sql`
       INSERT INTO selfcare_entries (
         user_id, date, did_self_care, activities, duration, 
