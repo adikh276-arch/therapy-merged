@@ -33,9 +33,8 @@ function App() {
 
       // 2. Token Extraction from URL - If no token and no session, redirect to MantraCare Auth
       if (!token) {
-        console.warn("Auth Handshake: No token found. Redirecting to external authentication...");
-        const redirectUrl = window.location.href;
-        window.location.href = `https://mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
+        console.warn("Auth Handshake: No token found. Redirecting to token entry portal...");
+        window.location.href = "/token";
         return;
       }
 
@@ -83,8 +82,7 @@ function App() {
       } catch (err) {
         console.error("Handshake Verification Failed:", err);
         // If verification fails, retry redirect to auth
-        const redirectUrl = window.location.href.split('?')[0];
-        window.location.href = `https://mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
+        window.location.href = "/token";
       }
     };
 
