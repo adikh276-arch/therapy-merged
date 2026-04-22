@@ -64,7 +64,7 @@ const EnergyCheckIn = () => {
       <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl px-6 pb-8 pt-4 bg-white/70 backdrop-blur-md">
         <button
           disabled={!currentLevel}
-          onClick={() => navigate("/factors")}
+          onClick={() => navigate("factors")}
           className="w-full rounded-pill bg-[#1e88e5] py-4 text-base font-bold text-white transition-all disabled:opacity-40"
         >
           {t("continue")}

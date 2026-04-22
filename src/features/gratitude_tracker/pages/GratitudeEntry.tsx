@@ -16,7 +16,7 @@ const GratitudeEntry = () => {
 
   const handleContinue = () => {
     if (!canContinue) return;
-    navigate("/mood", {
+    navigate("mood", {
       state: {
         gratitude1: gratitude1.trim(),
         gratitude2: gratitude2.trim() || undefined,

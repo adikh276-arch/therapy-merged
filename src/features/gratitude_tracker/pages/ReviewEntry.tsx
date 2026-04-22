@@ -44,7 +44,7 @@ const ReviewEntry = () => {
   const formattedDate = format(new Date(entry.date + "T00:00:00"), "MMMM d, yyyy");
 
   const handleEdit = () => {
-    navigate("/", {
+    navigate("..", {
       state: {
         editId: entry.id,
         gratitude1: entry.gratitude1,

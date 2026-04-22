@@ -68,7 +68,7 @@ const WritingScreen = () => {
 
   const handleFinish = async () => {
     await doSave(content);
-    navigate("/check-in", { state: { entryId: entryRef.current.id } });
+    navigate("../check-in", { state: { entryId: entryRef.current.id } });
   };
 
   const currentDate = new Date().toLocaleDateString("en-US", {

@@ -157,7 +157,7 @@ const WeeklyOverview = () => {
 
       <div className="sticky bottom-0 px-6 pb-8 pt-4">
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("..")}
           className="flex w-full items-center justify-center gap-2 rounded-pill bg-primary py-4 text-base font-bold text-primary-foreground transition-all"
         >
           <Home className="h-5 w-5" />

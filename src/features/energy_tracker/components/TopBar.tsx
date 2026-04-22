@@ -60,7 +60,7 @@ const TopBar = ({ title, showBack = false, showCalendar = false }: TopBarProps) 
       <div className="flex w-24 items-center justify-end gap-2">
         {showCalendar && (
           <button
-            onClick={() => navigate("/weekly")}
+            onClick={() => navigate("weekly")}
             className="flex h-10 w-10 items-center justify-center rounded-full bg-transparent text-foreground transition-colors hover:bg-secondary"
           >
             <Calendar className="h-5 w-5" />

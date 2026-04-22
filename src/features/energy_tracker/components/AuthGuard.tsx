@@ -58,11 +58,11 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
         handleHandshake();
         return () => clearTimeout(timeout);
-    }, [isAuthorized]);
+    }, []); // Run only once on mount
 
     if (isAuthorized === null) {
         return (
-            <div className="flex h-[100dvh] w-screen items-center justify-center bg-transparent">
+            <div className="flex h-[100dvh] w-screen items-center justify-center bg-background">
                 <div className="flex flex-col items-center gap-6">
                     <div className="h-16 w-16 animate-spin rounded-full border-4 border-primary border-t-transparent"></div>
                     <p className="text-sm font-semibold text-foreground/70 tracking-widest animate-pulse">

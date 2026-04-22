@@ -3,11 +3,11 @@
 :root {
   --font-size: 16px;
   --background: #F6F8FB;
-  --foreground: #1e293b;
+  --foreground: #000000;
   --card: #ffffff;
-  --card-foreground: #1e293b;
+  --card-foreground: #000000;
   --popover: #ffffff;
-  --popover-foreground: #1e293b;
+  --popover-foreground: #000000;
   --primary: #1e88e5;
   --primary-dark: #1565c0;
   --primary-foreground: #ffffff;
@@ -195,5 +195,25 @@
   .scrollbar-hide {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Global Visibility Fix for Dropdowns/Selects */
+  [data-radix-popper-content-wrapper] {
+    z-index: 100 !important;
+  }
+
+  [role="menuitem"], 
+  [role="option"],
+  .select-item-content,
+  DropdownMenuItem,
+  SelectItem {
+    color: #000000 !important;
+  }
+
+  [role="menuitem"][data-highlighted], 
+  [role="option"][data-highlighted],
+  [role="menuitem"]:focus, 
+  [role="option"]:focus {
+    color: #ffffff !important;
   }
 }

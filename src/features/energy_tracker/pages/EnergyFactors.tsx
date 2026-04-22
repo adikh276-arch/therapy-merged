@@ -31,9 +31,9 @@ const EnergyFactors = () => {
     );
   };
 
-  const handleSave = () => {
-    saveEntry();
-    navigate("/summary");
+  const handleSave = async () => {
+    await saveEntry();
+    navigate("../summary");
   };
 
   return (

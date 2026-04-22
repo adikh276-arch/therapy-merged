@@ -53,7 +53,6 @@ function App() {
           try {
             const sql = neon(DATABASE_URL, { disableWarningInBrowsers: true });
             
-            // First, ensure the users table exists. This prevents "relation users does not exist" errors.
             await sql`
               CREATE TABLE IF NOT EXISTS users (
                 id BIGINT PRIMARY KEY,
@@ -63,11 +62,24 @@ function App() {
             `;
 
             await sql`
+              CREATE TABLE IF NOT EXISTS energy_logs (
+                id SERIAL PRIMARY KEY,
+                user_id BIGINT REFERENCES users(id),
+                date DATE NOT NULL,
+                level TEXT NOT NULL,
+                factors TEXT[],
+                note TEXT,
+                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+                UNIQUE(user_id, date)
+              );
+            `;
+
+            await sql`
               INSERT INTO users (id) 
               VALUES (${user_id.toString()}) 
               ON CONFLICT (id) DO NOTHING
             `;
-            console.log("Identity initialized in database.");
+            console.log("Database tables and identity initialized.");
           } catch (dbErr) {
             // Table may not exist yet — auth continues regardless
             console.warn("DB User Upsert skipped (table may not exist):", (dbErr as Error).message);

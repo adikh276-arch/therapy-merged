@@ -47,7 +47,7 @@ const MoodSelection = () => {
         mood: selected,
       };
       await saveEntry(entry);
-      navigate("/review", { state: { entryId: entry.id, entryDate: entry.date } });
+      navigate("../review", { state: { entryId: entry.id, entryDate: entry.date } });
     } catch (error) {
       console.error("Save error:", error);
     } finally {

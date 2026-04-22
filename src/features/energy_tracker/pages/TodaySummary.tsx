@@ -81,7 +81,7 @@ const TodaySummary = () => {
 
       <div className="sticky bottom-0 px-6 pb-8 pt-4">
         <button
-          onClick={() => navigate("/weekly")}
+          onClick={() => navigate("../weekly")}
           className="w-full rounded-pill bg-primary py-4 text-base font-bold text-primary-foreground transition-all"
         >
           {t("view_weekly")}
