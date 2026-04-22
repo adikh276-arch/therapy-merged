@@ -73,9 +73,11 @@ export const getVibeEntries = async (): Promise<VibeEntry[]> => {
         ORDER BY timestamp DESC
     `;
 
+    if (!rows || !Array.isArray(rows)) return [];
+
     return rows.map((row: any) => ({
       ...row,
-      reflections: typeof row.reflections === 'string' ? JSON.parse(row.reflections) : row.reflections
+      reflections: typeof row.reflections === 'string' ? JSON.parse(row.reflections) : (row.reflections || [])
     }));
   } catch (error) {
     console.warn("getVibeEntries: Fetch error, looking in local storage:", error);

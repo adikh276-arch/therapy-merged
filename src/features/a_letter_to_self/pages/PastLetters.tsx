@@ -124,7 +124,7 @@ const PastLetters = () => {
           </Button>
         </div>
 
-        {entries.length === 0 ? (
+        {(!entries || entries.length === 0) ? (
           <div className="text-center py-16 space-y-4">
             <p className="text-muted-foreground">No letters yet.</p>
             <Button

@@ -30,7 +30,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
         {t('past_entries_title')}
       </h1>
 
-      {entries.length === 0 ? (
+      {(!entries || entries.length === 0) ? (
         <p className="text-muted-foreground leading-[1.7]">
           {t('no_entries')}
         </p>

@@ -11,6 +11,8 @@ interface AuthGuardProps {
 const AUTH_API_URL = "https://api.mantracare.com/user/user-info";
 
 // Create client with warning suppressed
+const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
+const sql = neon(DATABASE_URL);
 
 export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
     const [isAuthorized, setIsAuthorized] = useState(false);

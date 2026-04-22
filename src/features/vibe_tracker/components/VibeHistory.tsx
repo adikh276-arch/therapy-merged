@@ -95,7 +95,7 @@ const VibeHistory = ({ onBack }: Props) => {
         </h1>
       </div>
 
-      {entries.length === 0 ? (
+      {(entries && entries.length) === 0 ? (
         <div className="flex-1 flex flex-col items-center justify-center text-center">
           <div className="text-5xl mb-4">🌿</div>
           <p className="font-heading text-lg text-foreground mb-2">
@@ -113,7 +113,7 @@ const VibeHistory = ({ onBack }: Props) => {
               <p className="font-heading text-sm font-semibold text-muted-foreground mb-3 uppercase tracking-wider">
                 {formatDate(dayEntries[0].timestamp)}
               </p>
-
+ 
               <div className="space-y-3">
                 {dayEntries.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()).map((entry) => (
                   <div
@@ -139,9 +139,9 @@ const VibeHistory = ({ onBack }: Props) => {
                         {formatTime(entry.timestamp)}
                       </span>
                     </div>
-
+ 
                     {/* Reflections */}
-                    {entry.reflections.length > 0 && entry.reflections.some(r => r.trim()) && (
+                    {entry.reflections && entry.reflections.length > 0 && entry.reflections.some(r => r && r.trim()) && (
                       <div className="space-y-2 mt-2">
                         {entry.reflections
                           .filter((r) => r.trim())

@@ -42,7 +42,7 @@ const Screen7History = ({ onBack }: Screen7Props) => {
         <div className="flex justify-center py-12">
           <Loader2 className="h-8 w-8 animate-spin text-primary" />
         </div>
-      ) : entries.length === 0 ? (
+      ) : (entries && entries.length) === 0 ? (
         <div className="mt-12 text-center">
           <p className="text-4xl mb-3">🫧</p>
           <p className="text-muted-foreground text-sm">{t('screens.history.subtitle') || "No entries in the last 7 days"}</p>
@@ -54,7 +54,7 @@ const Screen7History = ({ onBack }: Screen7Props) => {
           ))}
         </div>
       )}
-
+ 
       <div className="mt-8 pb-4">
         <Button onClick={onBack} className="w-full rounded-2xl py-5" variant="outline">
           {t('common.back')}
@@ -63,13 +63,13 @@ const Screen7History = ({ onBack }: Screen7Props) => {
     </MobileShell>
   );
 };
-
+ 
 const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
   const { t } = useTranslation();
-
+ 
   const keyInfo = entry.didSelfCare
-    ? (entry.activities[0] ? t(`data.activities.${entry.activities[0]}`) : t('common.yes'))
-    : (entry.preventionReasons[0] ? t(`data.reasons.${entry.preventionReasons[0]}`) : t('common.no'));
+    ? (entry.activities && entry.activities[0] ? t(`data.activities.${entry.activities[0]}`) : t('common.yes'))
+    : (entry.preventionReasons && entry.preventionReasons[0] ? t(`data.reasons.${entry.preventionReasons[0]}`) : t('common.no'));
 
   return (
     <div className="flex items-center gap-4 rounded-xl border border-border bg-transparent p-4">

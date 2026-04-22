@@ -75,6 +75,8 @@ export async function fetchEntries(userId: string): Promise<SelfCareEntry[]> {
       ORDER BY date DESC
     `;
 
+    if (!rows || !Array.isArray(rows)) return [];
+
     return rows.map(r => {
       // Postgres DATE objects might be interpreted at midnight UTC by the driver.
       // We force it to local interpretation to avoid day-shifting.

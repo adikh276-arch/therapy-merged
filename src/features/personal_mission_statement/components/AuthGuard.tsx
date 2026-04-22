@@ -7,7 +7,7 @@ const DEV_FALLBACK_USER_ID = "999999999"; // Temporary dev user when API is not 
 const initUser = async (userId: string) => {
     // Upsert user — do nothing if already exists
     const existingUser = await query("SELECT id FROM users WHERE id = $1", [userId]);
-    if (existingUser.length === 0) {
+    if (!existingUser || existingUser.length === 0) {
         await query("INSERT INTO users (id) VALUES ($1)", [userId]);
     }
 };
