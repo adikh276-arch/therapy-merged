@@ -216,7 +216,7 @@ const topicDetails: Record<string, {
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
-      { title: "Memory Recall", icon: Brain, url: "/exercises/box-breathing" },
+      { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
     ],
     todos: [
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
