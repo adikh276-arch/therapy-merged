@@ -70,7 +70,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
                     className="overflow-hidden"
                   >
                     <div className="px-4 pb-4 space-y-3 text-sm">
-                      {entry.responses.map((r, i) => (
+                      {entry.responses && Array.isArray(entry.responses) && entry.responses.map((r, i) => (
                         <div key={i}>
                           <p className="text-xs text-muted-foreground font-medium">{prompts[i]}</p>
                           <p className="mt-1 text-foreground/85">{r}</p>

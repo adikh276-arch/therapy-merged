@@ -58,12 +58,16 @@ export async function getAllEntries(): Promise<GratitudeEntry[]> {
   if (!userId) return [];
 
   const result = await query("SELECT * FROM gratitude_entries WHERE user_id = $1 ORDER BY date DESC, created_at DESC", [userId]);
-  return result.rows.map(row => ({
+  const rows = result?.rows || [];
+  return rows.map(row => ({
     id: row.id,
     date: formatDate(row.date),
-    gratitude1: row.gratitude1,
-    gratitude2: row.gratitude2,
-    mood: { emoji: row.mood_emoji, label: row.mood_label }
+    gratitude1: row.gratitude1 || "",
+    gratitude2: row.gratitude2 || "",
+    mood: { 
+      emoji: row.mood_emoji || MOODS[2].emoji, 
+      label: row.mood_label || MOODS[2].label 
+    }
   }));
 }
 
@@ -72,15 +76,18 @@ export async function getEntryById(id: string): Promise<GratitudeEntry | undefin
   if (!userId) return undefined;
 
   const result = await query("SELECT * FROM gratitude_entries WHERE id = $1 AND user_id = $2", [id, userId]);
-  if (result.rows.length === 0) return undefined;
+  if (!result?.rows || result.rows.length === 0) return undefined;
 
   const row = result.rows[0];
   return {
     id: row.id,
     date: formatDate(row.date),
-    gratitude1: row.gratitude1,
-    gratitude2: row.gratitude2,
-    mood: { emoji: row.mood_emoji, label: row.mood_label }
+    gratitude1: row.gratitude1 || "",
+    gratitude2: row.gratitude2 || "",
+    mood: { 
+      emoji: row.mood_emoji || MOODS[2].emoji, 
+      label: row.mood_label || MOODS[2].label 
+    }
   };
 }
 
@@ -89,15 +96,18 @@ export async function getEntryByDate(date: string): Promise<GratitudeEntry | und
   if (!userId) return undefined;
 
   const result = await query("SELECT * FROM gratitude_entries WHERE date = $1 AND user_id = $2 ORDER BY created_at DESC", [date, userId]);
-  if (result.rows.length === 0) return undefined;
+  if (!result?.rows || result.rows.length === 0) return undefined;
 
   const row = result.rows[0];
   return {
     id: row.id,
     date: formatDate(row.date),
-    gratitude1: row.gratitude1,
-    gratitude2: row.gratitude2,
-    mood: { emoji: row.mood_emoji, label: row.mood_label }
+    gratitude1: row.gratitude1 || "",
+    gratitude2: row.gratitude2 || "",
+    mood: { 
+      emoji: row.mood_emoji || MOODS[2].emoji, 
+      label: row.mood_label || MOODS[2].label 
+    }
   };
 }
 
@@ -113,12 +123,16 @@ export async function getEntriesForMonth(year: number, month: number): Promise<G
     [userId, startDate, endDate]
   );
 
-  return result.rows.map(row => ({
+  const rows = result?.rows || [];
+  return rows.map(row => ({
     id: row.id,
     date: formatDate(row.date),
-    gratitude1: row.gratitude1,
-    gratitude2: row.gratitude2,
-    mood: { emoji: row.mood_emoji, label: row.mood_label }
+    gratitude1: row.gratitude1 || "",
+    gratitude2: row.gratitude2 || "",
+    mood: { 
+      emoji: row.mood_emoji || MOODS[2].emoji, 
+      label: row.mood_label || MOODS[2].label 
+    }
   }));
 }
 

@@ -45,7 +45,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
               className="bg-transparent rounded-2xl p-5 text-left space-y-2"
             >
               <p className="text-muted-foreground text-sm text-center">{entry.date}</p>
-              {entry.gratitudes.map((g, j) => (
+              {entry.gratitudes && Array.isArray(entry.gratitudes) && entry.gratitudes.map((g, j) => (
                 <div key={j}>
                   <p className="text-foreground text-[15px]">
                     🌿 {g.grateful}
