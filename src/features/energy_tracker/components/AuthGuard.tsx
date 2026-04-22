@@ -1,32 +1,70 @@
 import React, { useEffect, useState } from 'react';
-import { Navigate, useLocation } from 'react-router-dom';
+import axios from 'axios';
 
 export interface AuthGuardProps {
     children: React.ReactNode;
 }
 
 const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
-    const [isAuth, setIsAuth] = useState<boolean | null>(null);
-    const location = useLocation();
+    const [isAuthorized, setIsAuthorized] = useState<boolean | null>(null);
 
     useEffect(() => {
-        const userId = sessionStorage.getItem('user_id');
-        setIsAuth(!!userId);
+        const handleHandshake = async () => {
+            const params = new URLSearchParams(window.location.search);
+            const token = params.get("token");
+            const existingUserId = sessionStorage.getItem("user_id");
+
+            if (existingUserId) {
+                setIsAuthorized(true);
+                return;
+            }
+
+            if (!token) {
+                console.warn("AuthGuard: token missing, redirecting to /token");
+                window.location.href = "/token";
+                return;
+            }
+
+            try {
+                const response = await axios.post("https://api.mantracare.com/user/user-info", { token });
+
+                if (response.status === 200 && response.data.user_id) {
+                    const { user_id } = response.data;
+                    sessionStorage.setItem("user_id", user_id.toString());
+
+                    // Clean token from URL
+                    const url = new URL(window.location.href);
+                    url.searchParams.delete("token");
+                    window.history.replaceState({}, "", url.toString());
+
+                    setIsAuthorized(true);
+                } else {
+                    window.location.href = "/token";
+                }
+            } catch (err) {
+                console.error("AuthGuard authentication failed:", err);
+                window.location.href = "/token";
+            }
+        };
+
+        handleHandshake();
     }, []);
 
-    if (isAuth === null) {
+    if (isAuthorized === null) {
         return (
-            <div className="flex h-screen w-screen items-center justify-center bg-transparent">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+            <div className="flex h-[100dvh] w-screen items-center justify-center bg-transparent">
+                <div className="flex flex-col items-center gap-6">
+                    <div className="h-16 w-16 animate-spin rounded-full border-4 border-primary border-t-transparent"></div>
+                    <p className="text-sm font-semibold text-foreground/70 tracking-widest animate-pulse">
+                        SECURE AUTHENTICATION...
+                    </p>
+                </div>
             </div>
         );
     }
 
-    if (!isAuth) {
-        // Phase 14: Redirect to /token as required
-        console.warn("Unauthorized access, redirecting to /token");
-        window.location.href = "/token";
-        return null;
+    if (!isAuthorized) {
+        return null; // Redirect is handled in useEffect
     }
 
     return <>{children}</>;
