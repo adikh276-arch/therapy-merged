@@ -15,6 +15,7 @@ const BoxBreathing = React.lazy(() => import("../features/box_breathing"));
 const BrainDumpAndSort = React.lazy(() => import("../features/brain_dump_and_sort"));
 const CareTracker = React.lazy(() => import("../features/care_tracker"));
 const DailyGratitudeDiary = React.lazy(() => import("../features/daily_gratitude_diary"));
+const EnergyTracker = React.lazy(() => import("../features/energy_tracker"));
 const DepressionTips = React.lazy(() => import("../features/depression_tips"));
 const DiffusionTechnique = React.lazy(() => import("../features/diffusion_technique"));
 const DoodleBurst = React.lazy(() => import("../features/doodle_burst"));
@@ -59,6 +60,7 @@ export const router = createBrowserRouter([
           { path: "tools/brain-dump-and-sort/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><BrainDumpAndSort /></Suspense> },
           { path: "trackers/care-tracker/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><CareTracker /></Suspense> },
           { path: "trackers/daily-gratitude-diary/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DailyGratitudeDiary /></Suspense> },
+          { path: "trackers/energy-tracker/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><EnergyTracker /></Suspense> },
           { path: "tips/depression-tips/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DepressionTips /></Suspense> },
           { path: "exercises/diffusion-technique/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DiffusionTechnique /></Suspense> },
           { path: "tools/doodle-burst/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DoodleBurst /></Suspense> },

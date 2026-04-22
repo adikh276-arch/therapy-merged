@@ -133,7 +133,7 @@ const topicDetails: Record<string, {
     todos: [
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     resources: [
@@ -154,7 +154,7 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
@@ -175,9 +175,9 @@ const topicDetails: Record<string, {
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Environment Optimization", icon: Compass, url: "/tools/environment-optimization" },
     ],
     resources: [
@@ -198,9 +198,9 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Sleep Tracker", icon: Moon, url: "/trackers/sleep" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
       { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/sleep/articles" },
@@ -222,7 +222,7 @@ const topicDetails: Record<string, {
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
       { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/adolescent/articles" },
@@ -242,7 +242,7 @@ const topicDetails: Record<string, {
     todos: [
       { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Personal Mission Statement", icon: Compass, url: "/tools/personal-mission-statement" },
     ],
     resources: [
@@ -263,8 +263,8 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Physical Activity Log", icon: Activity, url: "/trackers/physical-activity-log" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
@@ -286,7 +286,7 @@ const topicDetails: Record<string, {
     todos: [
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     resources: [
@@ -307,9 +307,9 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
     ],
     resources: [
       { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/anger/articles" },
@@ -329,7 +329,7 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
@@ -351,8 +351,8 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     resources: [
@@ -375,7 +375,7 @@ const topicDetails: Record<string, {
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
       { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
       { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/acceptance/articles" },
@@ -394,10 +394,10 @@ const topicDetails: Record<string, {
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
     ],
     resources: [
       { title: "Articles", count: 18, icon: Newspaper, url: "/concerns/postpartum/articles" },
@@ -417,7 +417,7 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
     ],
@@ -438,9 +438,9 @@ const topicDetails: Record<string, {
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
     ],
     todos: [
-      { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
+      { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
     ],
     resources: [
@@ -460,7 +460,7 @@ const topicDetails: Record<string, {
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     todos: [
-      { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
+      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },

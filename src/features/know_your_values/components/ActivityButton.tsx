@@ -1,4 +1,3 @@
-import React from 'react';
 interface ActivityButtonProps {
   children: React.ReactNode;
   onClick: () => void;

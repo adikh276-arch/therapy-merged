@@ -1,3 +1,6 @@
+import './i18n';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 import { UniversalBackButton } from '../../components/UniversalBackButton';
 import './index.css';
 import { I18nextProvider } from 'react-i18next';
