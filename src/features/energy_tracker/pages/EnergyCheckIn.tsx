@@ -25,7 +25,7 @@ const EnergyCheckIn = () => {
         <motion.h2
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-10 text-center text-2xl font-bold text-foreground"
+          className="mb-10 text-center text-2xl font-bold text-slate-900"
         >
           {t("how_is_energy")}
         </motion.h2>
@@ -61,7 +61,7 @@ const EnergyCheckIn = () => {
         </div>
       </main>
 
-      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl px-6 pb-8 pt-4 bg-white/70 backdrop-blur-md">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl px-6 pb-8 pt-4 bg-white shadow-[0_-4px_12px_rgba(0,0,0,0.05)]">
         <button
           disabled={!currentLevel}
           onClick={() => navigate("factors")}

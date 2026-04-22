@@ -1,5 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode, useEffect, useCallback } from "react";
-import axios from "axios";
+import { sql } from "@/lib/db";
 
 export type EnergyLevel = "very-low" | "low" | "okay" | "good" | "high";
 
@@ -31,14 +30,6 @@ export const useEnergy = () => {
   return ctx;
 };
 
-// Subpath hosting API URL helper
-const getApiUrl = (path: string) => {
-  // In local development, the server might be on 3001
-  // In production, it's proxied through /consumption_tracker/api/
-  const baseUrl = import.meta.env.DEV ? 'http://localhost:3001/api' : '/energy_tracker/api';
-  return `${baseUrl}${path}`;
-};
-
 export const EnergyProvider = ({ children }: { children: ReactNode }) => {
   const [currentLevel, setCurrentLevel] = useState<EnergyLevel | null>(null);
   const [currentFactors, setCurrentFactors] = useState<string[]>([]);
@@ -46,44 +37,58 @@ export const EnergyProvider = ({ children }: { children: ReactNode }) => {
   const [entries, setEntries] = useState<EnergyEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const userId = sessionStorage.getItem("user_id");
-
   const refreshHistory = useCallback(async () => {
-    if (!userId) return;
+    const userId = sessionStorage.getItem("user_id");
+    if (!userId || !sql) {
+      console.warn("refreshHistory: No user_id or sql client found");
+      return;
+    }
     setIsLoading(true);
     try {
-      const resp = await axios.get(getApiUrl('/history'), {
-        params: { user_id: userId }
-      });
-      setEntries(Array.isArray(resp.data) ? resp.data : []);
+      console.log("Refreshing energy history for user:", userId);
+      const rows = await (sql as any).query(
+        "SELECT date, level, factors, note FROM energy_logs WHERE user_id = $1 ORDER BY date DESC",
+        [userId]
+      );
+      
+      const formattedEntries = (Array.isArray(rows) ? rows : (rows.rows || [])).map((row: any) => ({
+        date: row.date instanceof Date ? row.date.toISOString().split('T')[0] : row.date,
+        level: row.level as EnergyLevel,
+        factors: Array.isArray(row.factors) ? row.factors : [],
+        note: row.note || ""
+      }));
+
+      setEntries(formattedEntries);
     } catch (err) {
       console.error("Error refreshing energy history:", err);
-      setEntries([]); // Fallback to empty array
+      setEntries([]); 
     } finally {
       setIsLoading(false);
     }
-  }, [userId]);
+  }, []);
 
-  // Phase 11: Initialize user in DB on startup
   useEffect(() => {
+    const userId = sessionStorage.getItem("user_id");
     if (!userId) return;
 
-    const initUser = async () => {
-      try {
-        await axios.post(getApiUrl('/init-user'), { user_id: userId });
-        await refreshHistory();
-      } catch (err) {
-        console.error("User initialization failed:", err);
-      }
+    const init = async () => {
+      await refreshHistory();
     };
-
-    initUser();
-  }, [userId, refreshHistory]);
+    init();
+  }, [refreshHistory]);
 
   const saveEntry = async () => {
-    if (!currentLevel || !userId) return;
+    const userId = sessionStorage.getItem("user_id");
+    console.log("Attempting to save energy entry. Level:", currentLevel, "User:", userId);
+    
+    if (!currentLevel || !userId || !sql) {
+      console.error("Cannot save entry: missing level, user_id or sql client");
+      return;
+    }
+
+    const dateStr = new Date().toISOString().split("T")[0];
     const entry: EnergyEntry = {
-      date: new Date().toISOString().split("T")[0],
+      date: dateStr,
       level: currentLevel,
       factors: currentFactors,
       note: currentNote,
@@ -91,21 +96,24 @@ export const EnergyProvider = ({ children }: { children: ReactNode }) => {
 
     setIsLoading(true);
     try {
-      await axios.post(getApiUrl('/save-checkin'), {
-        user_id: userId,
-        entry
-      });
+      await (sql as any).query(
+        `INSERT INTO energy_logs (user_id, date, level, factors, note) 
+         VALUES ($1, $2, $3, $4, $5) 
+         ON CONFLICT (user_id, date) 
+         DO UPDATE SET level = EXCLUDED.level, factors = EXCLUDED.factors, note = EXCLUDED.note`,
+        [userId, dateStr, currentLevel, currentFactors, currentNote]
+      );
 
-      // Update local state by adding the new entry and filtering duplicates of same date
+      console.log("Energy entry saved successfully to Neon");
+
       const updated = [entry, ...entries.filter((e) => e.date !== entry.date)];
       setEntries(updated);
 
-      // Clear current form state
       setCurrentLevel(null);
       setCurrentFactors([]);
       setCurrentNote("");
     } catch (err) {
-      console.error("Saving entry failed:", err);
+      console.error("Saving entry to Neon failed:", err);
     } finally {
       setIsLoading(false);
     }

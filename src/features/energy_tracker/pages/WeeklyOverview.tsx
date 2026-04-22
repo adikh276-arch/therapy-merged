@@ -63,7 +63,7 @@ const WeeklyOverview = () => {
         <motion.h2
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="mb-6 text-xl font-bold text-foreground"
+          className="mb-6 text-xl font-bold text-slate-900"
         >
           {t("your_weekly")}
         </motion.h2>
@@ -125,10 +125,10 @@ const WeeklyOverview = () => {
             transition={{ delay: 0.2 }}
             className="card-soft rounded-2xl bg-surface-warm p-5"
           >
-            <h3 className="mb-2 text-sm font-bold text-accent-foreground">
+            <h3 className="mb-2 text-sm font-bold text-slate-800">
               {t("insight")}
             </h3>
-            <p className="text-sm leading-relaxed text-accent-foreground/80">
+            <p className="text-sm leading-relaxed text-slate-700">
               {avgValue >= 4
                 ? t("insight_high")
                 : avgValue >= 3
@@ -145,10 +145,10 @@ const WeeklyOverview = () => {
             transition={{ delay: 0.2 }}
             className="card-soft rounded-2xl bg-surface-warm p-5"
           >
-            <h3 className="mb-2 text-sm font-bold text-accent-foreground">
+            <h3 className="mb-2 text-sm font-bold text-slate-800">
               {t("insight")}
             </h3>
-            <p className="text-sm leading-relaxed text-accent-foreground/80">
+            <p className="text-sm leading-relaxed text-slate-700">
               {t("insight_more_data")}
             </p>
           </motion.div>

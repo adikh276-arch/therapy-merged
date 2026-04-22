@@ -73,7 +73,7 @@ const TodaySummary = () => {
               className="flex items-center gap-4 rounded-xl bg-surface-warm px-5 py-4"
             >
               <s.icon className="h-5 w-5 text-accent-foreground" />
-              <span className="text-sm font-semibold text-accent-foreground">{s.text}</span>
+              <span className="text-sm font-semibold text-slate-600">{s.text}</span>
             </motion.div>
           ))}
         </div>

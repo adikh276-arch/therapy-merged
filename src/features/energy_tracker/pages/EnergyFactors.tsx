@@ -41,7 +41,7 @@ const EnergyFactors = () => {
       <TopBar title={t("factors_title")} showBack />
 
       <main className="flex flex-1 flex-col px-6 pt-4">
-        <h2 className="mb-1 text-xl font-bold text-foreground">
+        <h2 className="mb-1 text-xl font-bold text-slate-900">
           {t("what_affected")}
         </h2>
         <p className="mb-6 text-sm text-muted-foreground">{t("optional")}</p>
@@ -57,8 +57,8 @@ const EnergyFactors = () => {
                 transition={{ delay: i * 0.03 }}
                 onClick={() => toggleFactor(f.id)}
                 className={`flex items-center gap-2 rounded-pill px-4 py-3 text-sm font-semibold transition-all ${selected
-                    ? "border border-chip-border-selected bg-chip-selected text-primary"
-                    : "border border-transparent bg-chip text-secondary-foreground"
+                    ? "border border-chip-border-selected bg-chip-selected text-slate-900"
+                    : "border border-transparent bg-chip text-slate-700"
                   }`}
               >
                 {selected && <Check className="h-4 w-4" />}
@@ -69,7 +69,7 @@ const EnergyFactors = () => {
         </div>
 
         <div>
-          <label className="mb-2 block text-sm font-semibold text-foreground">
+          <label className="mb-2 block text-sm font-semibold text-slate-900">
             {t("add_note")} <span className="font-normal text-muted-foreground">({t("optional").toLowerCase()})</span>
           </label>
           <textarea
@@ -78,7 +78,7 @@ const EnergyFactors = () => {
             placeholder={t("note_placeholder")}
             maxLength={120}
             rows={3}
-            className="w-full resize-none rounded-lg border border-border bg-transparent px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+            className="w-full resize-none rounded-lg border border-border bg-transparent px-4 py-3 text-sm text-slate-900 placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
           />
           <p className="mt-1 text-right text-xs text-muted-foreground">{(currentNote || "").length}/120</p>
         </div>
