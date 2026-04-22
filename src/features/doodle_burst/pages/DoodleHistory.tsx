@@ -60,7 +60,7 @@ const DoodleHistory = () => {
   };
 
   return (
-    <div className="min-h-screen bg-playful p-4">
+    <div className=" bg-playful p-4">
       <LanguageSelector />
       <div className="w-full mx-auto py-8">
         {/* Header */}
@@ -69,7 +69,7 @@ const DoodleHistory = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => navigate(".")}
-            className="p-2 rounded-xl bg-card shadow-soft"
+            className="p-2 rounded-xl bg-transparent "
           >
             <ArrowLeft size={20} className="text-foreground" />
           </motion.button>
@@ -86,7 +86,7 @@ const DoodleHistory = () => {
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="bg-card/80 backdrop-blur-sm rounded-3xl p-8 text-center shadow-soft"
+            className="bg-transparent/80 backdrop-blur-sm rounded-3xl p-8 text-center "
           >
             <Calendar size={48} className="text-muted-foreground mx-auto mb-4 opacity-50" />
             <p className="text-lg font-bold text-foreground mb-2">{t("no_doodles")}</p>
@@ -119,7 +119,7 @@ const DoodleHistory = () => {
                     key={entry.doodle_id}
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.98 }}
-                    className="relative bg-card rounded-2xl overflow-hidden shadow-soft border border-border cursor-pointer group"
+                    className="relative bg-card rounded-2xl overflow-hidden  border border-border cursor-pointer group"
                     onClick={() => setViewEntry(entry)}
                   >
                     <img
@@ -163,7 +163,7 @@ const DoodleHistory = () => {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="bg-card rounded-3xl shadow-soft w-full w-full overflow-hidden"
+              className="bg-card rounded-3xl  w-full w-full overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between p-4">

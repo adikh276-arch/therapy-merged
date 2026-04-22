@@ -37,7 +37,7 @@ const EnergyFactors = () => {
   };
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-background">
+    <div className="flex min-h-[100dvh] flex-col bg-transparent">
       <TopBar title={t("factors_title")} showBack />
 
       <main className="flex flex-1 flex-col px-6 pt-4">
@@ -78,7 +78,7 @@ const EnergyFactors = () => {
             placeholder={t("note_placeholder")}
             maxLength={120}
             rows={3}
-            className="w-full resize-none rounded-lg border border-border bg-card px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+            className="w-full resize-none rounded-lg border border-border bg-transparent px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
           />
           <p className="mt-1 text-right text-xs text-muted-foreground">{currentNote.length}/120</p>
         </div>

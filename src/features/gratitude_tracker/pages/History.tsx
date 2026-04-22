@@ -76,7 +76,7 @@ const History = () => {
 
   return (
     <PageTransition>
-      <div className="flex flex-col min-h-screen bg-background px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
+      <div className="flex flex-col  bg-transparent px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
         <header className="mb-6">
           <h1 className="text-2xl font-heading font-semibold text-foreground text-left">
             {t("history.heading")}
@@ -103,7 +103,7 @@ const History = () => {
         </div>
 
         {/* Calendar grid */}
-        <div className="bg-card rounded-lg shadow-card p-4 mb-5 min-h-[300px] flex flex-col">
+        <div className="bg-transparent rounded-lg  p-4 mb-5 min-h-[300px] flex flex-col">
           {isLoading ? (
             <div className="flex-1 flex items-center justify-center">
               <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
@@ -160,7 +160,7 @@ const History = () => {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -8, scale: 0.97 }}
               transition={{ duration: 0.35 }}
-              className="bg-card rounded-lg shadow-card p-5 space-y-4"
+              className="bg-card rounded-lg  p-5 space-y-4"
             >
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-muted-foreground">
@@ -190,13 +190,13 @@ const History = () => {
           <div className="flex gap-3">
             <button
               onClick={() => navigate(-1)}
-              className="flex-1 h-[52px] rounded-pill border-2 border-secondary text-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:bg-secondary/30 shadow-sm"
+              className="flex-1 h-[52px] rounded-pill border-2 border-secondary text-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:bg-secondary/30 "
             >
               {t("history.back")}
             </button>
             <button
               onClick={() => navigate(".")}
-              className="flex-1 h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:brightness-105 shadow-md"
+              className="flex-1 h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:brightness-105 "
             >
               {t("history.home")}
             </button>

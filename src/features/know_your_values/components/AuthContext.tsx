@@ -40,7 +40,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                             // Initialize user in DB
                             try {
                                 const { sql } = await import("../lib/db");
-                                await sql("INSERT INTO users (id) VALUES ($1) ON CONFLICT (id) DO NOTHING", [uid]);
+                                await (sql as any).query("INSERT INTO users (id) VALUES ($1) ON CONFLICT (id) DO NOTHING", [uid]);
                             } catch (dbErr) {
                                 console.error("Failed to init user in DB:", dbErr);
                             }
@@ -73,7 +73,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return (
         <AuthContext.Provider value={{ userId, isAuthResolved }}>
             {isAuthResolved ? children : (
-                <div className="min-h-screen flex items-center justify-center bg-background">
+                <div className=" flex items-center justify-center bg-transparent">
                     <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
                 </div>
             )}

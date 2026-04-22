@@ -8,7 +8,7 @@ const CompletionScreen = () => {
   const [reflection, setReflection] = useState("");
 
   return (
-    <div className="min-h-screen bg-muted flex flex-col items-center justify-center px-6 py-12 animate-fade-in">
+    <div className=" bg-muted flex flex-col items-center justify-center px-6 py-12 animate-fade-in">
       <div className="w-full w-full flex flex-col items-center text-center gap-6 px-2">
         <h1 className="font-display text-4xl font-bold text-foreground">
           {t('you_did_it')}
@@ -29,7 +29,7 @@ const CompletionScreen = () => {
             onChange={(e) => setReflection(e.target.value)}
             placeholder={t('reflection_placeholder')}
             rows={3}
-            className="w-full bg-card text-foreground rounded-lg p-4 text-base resize-none border-none outline-none focus:ring-2 focus:ring-ring placeholder:text-foreground/40"
+            className="w-full bg-transparent text-foreground rounded-lg p-4 text-base resize-none border-none outline-none focus:ring-2 focus:ring-ring placeholder:text-foreground/40"
           />
         </div>
 

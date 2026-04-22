@@ -47,7 +47,7 @@ const BreathingExercise = () => {
 
       <button
         onClick={() => setPaused((p) => !p)}
-        className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-medium text-sm shadow-soft transition-all duration-200 active:scale-95"
+        className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-medium text-sm  transition-all duration-200 active:scale-95"
       >
         {paused ? "Resume" : "Pause"}
       </button>

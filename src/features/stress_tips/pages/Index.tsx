@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const Index = () => {
   const { t } = useTranslation();
   return (
-    <div className="min-h-screen gradient-main">
+    <div className=" gradient-main">
       <div className="w-full mx-auto px-5 py-10 pb-16">
         {/* Header */}
         <div className="mb-8">

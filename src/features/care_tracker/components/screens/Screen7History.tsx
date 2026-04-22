@@ -72,7 +72,7 @@ const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
     : (entry.preventionReasons[0] ? t(`data.reasons.${entry.preventionReasons[0]}`) : t('common.no'));
 
   return (
-    <div className="flex items-center gap-4 rounded-xl border border-border bg-card p-4">
+    <div className="flex items-center gap-4 rounded-xl border border-border bg-transparent p-4">
       <div className="text-2xl">{entry.moodEmoji || "—"}</div>
       <div className="flex-1 min-w-0">
         <p className="text-sm font-semibold text-card-foreground">

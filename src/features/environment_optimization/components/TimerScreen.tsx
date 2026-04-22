@@ -69,12 +69,12 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-6 py-12 animate-fade-in">
+    <div className="flex flex-col items-center justify-center  px-6 py-12 animate-fade-in">
       <div className="w-full w-full text-center space-y-6">
         {/* Step indicator */}
         <div className="flex items-center justify-center gap-2">
           <div className="w-2 h-2 rounded-full bg-primary/40" />
-          <div className="w-3 h-3 rounded-full bg-primary shadow-md" />
+          <div className="w-3 h-3 rounded-full bg-primary " />
           <div className="w-2 h-2 rounded-full bg-primary/40" />
         </div>
 
@@ -85,7 +85,7 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
           </h1>
         </div>
 
-        <div className="bg-card rounded-2xl p-5 shadow-sm border border-border space-y-3">
+        <div className="bg-transparent rounded-2xl p-5  border border-border space-y-3">
           <p className="text-muted-foreground text-left leading-relaxed text-sm">
             {t("next_5_minutes")}
           </p>
@@ -148,7 +148,7 @@ const TimerScreen = ({ onComplete }: TimerScreenProps) => {
 
           <Button
             size="icon"
-            className="rounded-full w-16 h-16 shadow-lg"
+            className="rounded-full w-16 h-16 "
             onClick={() => setIsRunning(!isRunning)}
           >
             {isRunning ? <Pause className="w-6 h-6" /> : <Play className="w-6 h-6 ml-0.5" />}

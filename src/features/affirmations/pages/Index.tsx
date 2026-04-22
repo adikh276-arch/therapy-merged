@@ -22,7 +22,7 @@ const Index = () => {
   const handleChooseAnother = () => setScreen("feelings");
 
   return (
-    <div className="min-h-screen bg-background relative">
+    <div className=" bg-transparent relative">
       <LanguageSelector />
       {screen === "intro" && <BeforeYouBegin onBegin={handleBegin} />}
       {screen === "feelings" && (

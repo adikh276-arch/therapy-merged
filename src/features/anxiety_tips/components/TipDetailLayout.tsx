@@ -15,7 +15,7 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen gradient-calm">
+    <div className=" gradient-calm">
       <div className="w-full mx-auto px-5 py-6 pb-12">
         {/* Back */}
         <button

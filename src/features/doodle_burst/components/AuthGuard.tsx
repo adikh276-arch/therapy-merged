@@ -69,7 +69,7 @@ export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children })
 
     if (!isAuthResolved) {
         return (
-            <div className="min-h-screen bg-playful flex items-center justify-center">
+            <div className=" bg-playful flex items-center justify-center">
                 <Loader2 className="animate-spin text-primary" size={48} />
             </div>
         );

@@ -51,7 +51,7 @@ export function LanguageSelector() {
     return (
         <div className="fixed top-4 right-4 z-50">
             <Select value={i18n.language.split('-')[0]} onValueChange={handleLanguageChange}>
-                <SelectTrigger className="w-[180px] bg-background/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all shadow-sm">
+                <SelectTrigger className="w-[180px] bg-transparent/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all ">
                     <Globe className="w-4 h-4 mr-2 text-primary" />
                     <SelectValue placeholder="Language" />
                 </SelectTrigger>

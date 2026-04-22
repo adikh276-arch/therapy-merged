@@ -7,7 +7,7 @@ export default function Index() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen gradient-bg">
+    <div className=" gradient-bg">
       <div className="mx-auto w-full px-5 py-10 pb-16">
         {/* Header row */}
         <div className="flex items-start justify-between mb-8 gap-3">

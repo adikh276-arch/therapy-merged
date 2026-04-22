@@ -47,7 +47,7 @@ export const LanguageSelector = () => {
         <div className="fixed top-4 right-4 z-50">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" className="bg-background/80 backdrop-blur-sm border-muted shadow-sm gap-2 px-3">
+                    <Button variant="outline" size="sm" className="bg-transparent/80 backdrop-blur-sm border-muted  gap-2 px-3">
                         <Globe className="w-4 h-4 text-muted-foreground" />
                         <span className="hidden sm:inline font-medium text-xs">{currentLanguage.name}</span>
                     </Button>

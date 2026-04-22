@@ -5,7 +5,7 @@ const HowToPlay = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-card rounded-2xl p-6 shadow-sm border border-border">
+    <div className="bg-transparent rounded-2xl p-6  border border-border">
       <h2 className="text-xl font-bold text-foreground flex items-center gap-2 mb-4">
         <span className="text-2xl">📋</span> {t('how_to_play')}
       </h2>

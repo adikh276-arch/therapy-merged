@@ -17,7 +17,7 @@ const ActivityInput = ({ label, value, onChange, placeholder, multiline }: Props
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
         rows={3}
-        className="w-full rounded-lg bg-card px-4 py-3.5 text-foreground placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/40 resize-none font-body text-center"
+        className="w-full rounded-lg bg-transparent px-4 py-3.5 text-foreground placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/40 resize-none font-body text-center"
       />
     ) : (
       <input
@@ -25,7 +25,7 @@ const ActivityInput = ({ label, value, onChange, placeholder, multiline }: Props
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className="w-full rounded-lg bg-card px-4 py-3.5 text-foreground placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/40 font-body text-center"
+        className="w-full rounded-lg bg-transparent px-4 py-3.5 text-foreground placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/40 font-body text-center"
       />
     )}
   </div>

@@ -130,7 +130,7 @@ const BingoGrid = () => {
       </div>
 
       {/* Progress */}
-      <div className="bg-card rounded-2xl p-4 shadow-sm border border-border">
+      <div className="bg-transparent rounded-2xl p-4  border border-border">
         <div className="flex items-center justify-between mb-2">
           <span className="text-sm font-semibold text-foreground">{t('progress_title')}</span>
           <span className="text-sm text-muted-foreground">{t('progress_count', { count: progress })}</span>
@@ -148,7 +148,7 @@ const BingoGrid = () => {
         {BINGO_LETTERS.map(({ letter, colorClass }) => (
           <div
             key={letter}
-            className={`${colorClass} text-primary-foreground font-extrabold text-xl py-2 rounded-xl text-center shadow-sm`}
+            className={`${colorClass} text-primary-foreground font-extrabold text-xl py-2 rounded-xl text-center `}
           >
             {letter}
           </div>
@@ -170,9 +170,9 @@ const BingoGrid = () => {
                 transition-all duration-200 text-xs font-medium leading-tight
                 ${isCompleted
                   ? isFreeSpace
-                    ? "bg-primary/20 border-primary text-primary shadow-md"
-                    : "bg-success/15 border-success text-success shadow-md scale-[0.97]"
-                  : "bg-card border-border text-foreground hover:border-primary/40 hover:shadow-sm"
+                    ? "bg-primary/20 border-primary text-primary "
+                    : "bg-success/15 border-success text-success  scale-[0.97]"
+                  : "bg-transparent border-border text-foreground hover:border-primary/40 hover:"
                 }
               `}
             >
@@ -192,7 +192,7 @@ const BingoGrid = () => {
       <div className="flex justify-center pt-2">
         <button
           onClick={resetBoard}
-          className="bg-primary text-primary-foreground px-6 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 hover:opacity-90 transition-opacity shadow-sm"
+          className="bg-primary text-primary-foreground px-6 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 hover:opacity-90 transition-opacity "
         >
           <RefreshCw className="w-4 h-4" />
           {t('new_board')}

@@ -6,7 +6,7 @@ const CompletionScreen = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-12 fade-enter">
+    <div className=" flex items-center justify-center px-4 py-12 fade-enter">
       <div className="w-full w-full text-center space-y-8">
         <div className="flex justify-center">
           <div className="w-20 h-20 rounded-full bg-accent flex items-center justify-center gentle-pulse">

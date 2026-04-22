@@ -51,7 +51,7 @@ export const LanguageSelector = ({ onHistoryClick, showHistory }: LanguageSelect
                 <Button
                     variant="outline"
                     size="icon"
-                    className="bg-card/80 backdrop-blur-sm"
+                    className="bg-transparent/80 backdrop-blur-sm"
                     onClick={onHistoryClick}
                 >
                     <History className="h-4 w-4" />
@@ -59,7 +59,7 @@ export const LanguageSelector = ({ onHistoryClick, showHistory }: LanguageSelect
             )}
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="icon" className="bg-card/80 backdrop-blur-sm">
+                    <Button variant="outline" size="icon" className="bg-transparent/80 backdrop-blur-sm">
                         <Languages className="h-4 w-4" />
                     </Button>
                 </DropdownMenuTrigger>

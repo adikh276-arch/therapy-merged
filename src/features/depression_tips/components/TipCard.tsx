@@ -37,7 +37,7 @@ export default function TipCard({ tip, index }: { tip: Tip; index: number }) {
   return (
     <button
       onClick={() => navigate(`/tip/${tip.id}`)}
-      className="flex w-full items-center gap-4 rounded-lg bg-card p-4 shadow-card transition-all duration-200 hover:shadow-card-hover hover:-translate-y-0.5 text-left animate-fade-in-up"
+      className="flex w-full items-center gap-4 rounded-lg bg-transparent p-4  transition-all duration-200 hover:-hover hover:-translate-y-0.5 text-left animate-fade-in-up"
       style={{ animationDelay: `${index * 80}ms`, opacity: 0 }}
     >
       <div

@@ -42,7 +42,7 @@ export function LanguageSelector() {
     return (
         <div className="absolute top-4 right-4 z-50">
             <Select onValueChange={handleLanguageChange} defaultValue={i18n.language}>
-                <SelectTrigger className="w-[180px] bg-background/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-colors">
+                <SelectTrigger className="w-[180px] bg-transparent/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-colors">
                     <Globe className="w-4 h-4 mr-2 text-primary" />
                     <SelectValue placeholder="Language" />
                 </SelectTrigger>

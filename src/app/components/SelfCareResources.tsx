@@ -369,13 +369,13 @@ const topicDetails: Record<string, {
       { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { title: "A Pause for Appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
     ],
     todos: [
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
       { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
       { title: "Articles", count: 16, icon: Newspaper, url: "/concerns/acceptance/articles" },
@@ -417,7 +417,7 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
     ],
@@ -457,7 +457,7 @@ const topicDetails: Record<string, {
       { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
       { title: "Grounded Technique", icon: Compass, url: "/exercises/grounding-technique" },
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { title: "A Letter To Self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     todos: [
       { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
@@ -495,10 +495,10 @@ export function SelfCareResources() {
   };
 
   return (
-    <div className="flex min-h-screen bg-[#F9FAFB]">
+    <div className="flex min-h-screen bg-[#F6F8FB]">
       <MobileNav />
-      <div className="flex-1 flex flex-col min-w-0">
-        <main className="max-w-[1000px] w-full mx-auto px-4 md:px-6 py-4 md:py-8 pt-[72px] md:pt-8">
+      <div className="flex-1 flex flex-col min-w-0 bg-[#F6F8FB]">
+        <main className="max-w-4xl w-full mx-auto px-4 md:px-6 py-4 md:py-8 pt-[24px] md:pt-8">
           <AnimatePresence mode="wait">
             {selectedTopic ? (() => {
               const topic = topicCards.find(t => t.id === selectedTopic)!;

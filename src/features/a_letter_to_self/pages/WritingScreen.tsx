@@ -79,7 +79,7 @@ const WritingScreen = () => {
   });
 
   return (
-    <div className="min-h-screen px-4 py-8 fade-enter">
+    <div className=" px-4 py-8 fade-enter">
       <div className="w-full mx-auto space-y-6">
         {/* Header */}
         <div className="flex items-center justify-between">
@@ -117,7 +117,7 @@ const WritingScreen = () => {
         />
 
         {/* Inspiration Section */}
-        <div className="bg-card rounded-2xl border border-border/60 overflow-hidden">
+        <div className="bg-transparent rounded-2xl border border-border/60 overflow-hidden">
           <button
             onClick={() => setInspirationOpen(!inspirationOpen)}
             className="w-full flex items-center justify-between px-5 py-4 text-left letter-transition"

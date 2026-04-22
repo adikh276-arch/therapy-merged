@@ -15,7 +15,7 @@ const BodyHabitsScreen = ({ onNext }: { onNext: () => void }) => {
     );
 
   return (
-    <div className="bg-card rounded-2xl p-6 shadow-sm border border-border flex flex-col gap-5">
+    <div className="bg-transparent rounded-2xl p-6  border border-border flex flex-col gap-5">
       <StepProgress current={1} total={4} />
       <h2 className="text-xl font-semibold text-foreground">{t('body_title')}</h2>
       <p className="text-sm text-muted-foreground text-justified">{t('body_subtitle')}</p>

@@ -33,7 +33,7 @@ export default function LanguageSelector() {
             <select
                 value={i18n.resolvedLanguage || i18n.language}
                 onChange={(e) => changeLanguage(e.target.value)}
-                className="bg-card text-foreground border border-primary/20 rounded-md px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/40 cursor-pointer max-w-[200px]"
+                className="bg-transparent text-foreground border border-primary/20 rounded-md px-3 py-2 text-sm  focus:outline-none focus:ring-2 focus:ring-primary/40 cursor-pointer max-w-[200px]"
             >
                 {SUPPORTED_LANGUAGES.map((lang) => (
                     <option key={lang.code} value={lang.code}>

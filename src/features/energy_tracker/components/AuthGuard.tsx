@@ -16,7 +16,7 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     if (isAuth === null) {
         return (
-            <div className="flex h-screen w-screen items-center justify-center bg-background">
+            <div className="flex h-screen w-screen items-center justify-center bg-transparent">
                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
             </div>
         );

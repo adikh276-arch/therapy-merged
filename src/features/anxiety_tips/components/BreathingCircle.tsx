@@ -42,7 +42,7 @@ const BreathingCircle = () => {
       </div>
       <button
         onClick={() => { setRunning(!running); setPhaseIndex(0); }}
-        className="px-6 py-2.5 rounded-lg bg-primary text-primary-foreground font-semibold text-sm shadow-soft transition-all hover:opacity-90 active:scale-95"
+        className="px-6 py-2.5 rounded-lg bg-primary text-primary-foreground font-semibold text-sm  transition-all hover:opacity-90 active:scale-95"
       >
         {running ? "Stop" : "Begin Breathing"}
       </button>

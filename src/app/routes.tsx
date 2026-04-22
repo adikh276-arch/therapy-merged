@@ -35,7 +35,11 @@ const WhatAreYourHabits = React.lazy(() => import("../features/what_are_your_hab
 function ProtectedLayout() {
   return (
     <AuthGuard>
-      <Outlet />
+      <div className="min-h-screen bg-[#F6F8FB] flex flex-col items-center">
+        <div className="w-full max-w-3xl flex-1 flex flex-col px-4 py-8">
+          <Outlet />
+        </div>
+      </div>
     </AuthGuard>
   );
 }

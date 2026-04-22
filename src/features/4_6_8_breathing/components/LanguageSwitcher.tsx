@@ -46,13 +46,13 @@ export const LanguageSwitcher = () => {
         <div className="fixed top-4 right-4 z-50">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" className="gap-2 bg-background/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300 shadow-sm">
+                    <Button variant="outline" size="sm" className="gap-2 bg-transparent/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300 ">
                         <Globe className="h-4 w-4 text-primary" />
                         <span className="hidden sm:inline">{currentLanguage.name}</span>
                         <span className="sm:hidden font-mono uppercase">{currentLanguage.code}</span>
                     </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto bg-background/95 backdrop-blur-md border border-primary/10 shadow-xl animate-in fade-in zoom-in duration-200">
+                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto bg-transparent/95 backdrop-blur-md border border-primary/10  animate-in fade-in zoom-in duration-200">
                     {languages.map((lang) => (
                         <DropdownMenuItem
                             key={lang.code}

@@ -48,7 +48,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
 
   if (focusMode) {
     return (
-      <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col items-center justify-center">
+      <div className="w-full mx-auto px-6 py-8  flex flex-col items-center justify-center">
         {/* Timer ring */}
         <div className="relative mb-10">
           <svg width="140" height="140" className="-rotate-90">
@@ -86,13 +86,13 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
         <div className="flex gap-4 w-full max-w-xs">
           <button
             onClick={() => setPaused((p) => !p)}
-            className="flex-1 py-3 rounded-lg bg-muted text-foreground font-medium transition-all duration-300 hover:shadow-soft"
+            className="flex-1 py-3 rounded-lg bg-muted text-foreground font-medium transition-all duration-300 hover:"
           >
             {paused ? "Resume" : "Pause"}
           </button>
           <button
             onClick={onComplete}
-            className="flex-1 py-3 rounded-lg bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-soft"
+            className="flex-1 py-3 rounded-lg bg-primary text-primary-foreground font-medium transition-all duration-300 hover:"
           >
             Go to Reflection →
           </button>
@@ -102,7 +102,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
   }
 
   return (
-    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8  flex flex-col">
       {/* Header */}
       <div className="flex items-center gap-3 mb-2">
         <button onClick={onBack} className="p-2 rounded-lg hover:bg-muted transition-colors">
@@ -128,8 +128,8 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
                 key={t.id}
                 onClick={() => setSelected(t.id)}
                 className={`text-left p-4 rounded-lg border-2 transition-all duration-300 ${selected === t.id
-                    ? "border-primary bg-accent shadow-soft"
-                    : "border-border bg-card hover:border-primary/30"
+                    ? "border-primary bg-accent "
+                    : "border-border bg-transparent hover:border-primary/30"
                   }`}
               >
                 <span className="text-sm text-foreground">{t.text}</span>
@@ -148,7 +148,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
             value={nextStep}
             onChange={(e) => setNextStep(e.target.value)}
             placeholder={placeholders[Math.floor(Math.random() * placeholders.length)]}
-            className="w-full p-4 rounded-lg bg-card border border-border text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:glow-border transition-shadow duration-500 text-sm"
+            className="w-full p-4 rounded-lg bg-transparent border border-border text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:glow-border transition-shadow duration-500 text-sm"
           />
         </div>
       )}
@@ -158,7 +158,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
         {selectedItem && (
           <button
             onClick={() => setFocusMode(true)}
-            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover:shadow-soft active:scale-[0.98]"
+            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover: active:scale-[0.98]"
           >
             Start 3-Minute Focus
           </button>
@@ -166,7 +166,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
         {thoughts.length === 0 && (
           <button
             onClick={onComplete}
-            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover:shadow-soft active:scale-[0.98]"
+            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover: active:scale-[0.98]"
           >
             Go to Reflection →
           </button>

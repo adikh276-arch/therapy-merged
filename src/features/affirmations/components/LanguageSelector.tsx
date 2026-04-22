@@ -46,7 +46,7 @@ export const LanguageSelector = () => {
     return (
         <div className="absolute right-4 top-4 z-50">
             <Select value={i18n.language} onValueChange={handleLanguageChange}>
-                <SelectTrigger className="w-[140px] bg-background/50 backdrop-blur-sm border-none shadow-none focus:ring-0">
+                <SelectTrigger className="w-[140px] bg-transparent/50 backdrop-blur-sm border-none  focus:ring-0">
                     <SelectValue placeholder="Language" />
                 </SelectTrigger>
                 <SelectContent>

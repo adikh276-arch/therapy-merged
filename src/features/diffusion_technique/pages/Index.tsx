@@ -49,7 +49,7 @@ const Index = () => {
   if (view === "sky") {
     const totalSteps = 5;
     return (
-      <div className="min-h-screen py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
+      <div className=" py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
         {renderNav()}
         <AnimatePresence mode="wait">
           {step === 1 && (
@@ -78,7 +78,7 @@ const Index = () => {
                   value={thought}
                   onChange={(e) => setThought(e.target.value)}
                   placeholder={t('sky_placeholder')}
-                  className="w-full border border-input rounded-lg px-4 py-3 text-base text-foreground bg-background focus:outline-none focus:ring-2 focus:ring-primary/50 mb-6"
+                  className="w-full border border-input rounded-lg px-4 py-3 text-base text-foreground bg-transparent focus:outline-none focus:ring-2 focus:ring-primary/50 mb-6"
                 />
                 <PrimaryButton onClick={() => setStep(3)} disabled={!thought.trim()}>{t('btn_place_on_cloud')}</PrimaryButton>
               </ActivityCard>
@@ -98,7 +98,7 @@ const Index = () => {
                   onChange={(e) => setReflection(e.target.value)}
                   placeholder={t('placeholder_reflection')}
                   rows={3}
-                  className="w-full border border-input rounded-lg px-4 py-3 text-base text-foreground bg-background focus:outline-none focus:ring-2 focus:ring-primary/50 mb-6 resize-none"
+                  className="w-full border border-input rounded-lg px-4 py-3 text-base text-foreground bg-transparent focus:outline-none focus:ring-2 focus:ring-primary/50 mb-6 resize-none"
                 />
                 <PrimaryButton onClick={() => { finishExercise("Sky and Cloud"); setStep(5); }}>{t('btn_finish_exercise')}</PrimaryButton>
               </ActivityCard>
@@ -118,7 +118,7 @@ const Index = () => {
   if (view === "sell") {
     const totalSteps = 5;
     return (
-      <div className="min-h-screen py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
+      <div className=" py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
         {renderNav()}
         <AnimatePresence mode="wait">
           {step === 1 && (
@@ -205,7 +205,7 @@ const Index = () => {
   if (view === "name") {
     const totalSteps = 5;
     return (
-      <div className="min-h-screen py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
+      <div className=" py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
         {renderNav()}
         <AnimatePresence mode="wait">
           {step === 1 && (
@@ -271,7 +271,7 @@ const Index = () => {
 
   // INTRO & CHOOSE SCREENS
   return (
-    <div className="min-h-screen py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
+    <div className=" py-8" style={{ background: "linear-gradient(180deg, #EEF2FF, #E6F4FF)" }}>
       {renderNav()}
       <AnimatePresence mode="wait">
         {view === "intro" && (

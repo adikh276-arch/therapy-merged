@@ -18,7 +18,7 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col items-center min-h-screen px-5 py-10 text-center"
+      className="flex flex-col items-center  px-5 py-10 text-center"
     >
       <img src={cherryBlossom} alt="Cherry blossom" className="w-28 h-28 rounded-full object-cover mb-6" />
 
@@ -38,7 +38,7 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
           placeholder={t('placeholder_feeling')}
           value={feeling}
           onChange={(e) => setFeeling(e.target.value)}
-          className="w-full h-[54px] bg-card rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-200"
+          className="w-full h-[54px] bg-transparent rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-200"
         />
       </div>
 

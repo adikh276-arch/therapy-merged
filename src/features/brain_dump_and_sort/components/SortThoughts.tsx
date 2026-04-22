@@ -40,7 +40,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
   };
 
   return (
-    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8  flex flex-col">
       {/* Header */}
       <div className="flex items-center gap-3 mb-2">
         <button onClick={onBack} className="p-2 rounded-lg hover:bg-muted transition-colors">
@@ -69,7 +69,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
               key={item.id}
               draggable
               onDragStart={() => handleDragStart(item.id)}
-              className="px-3 py-2 rounded-lg bg-card shadow-card text-sm text-foreground cursor-grab active:cursor-grabbing hover:shadow-soft transition-all duration-300 select-none"
+              className="px-3 py-2 rounded-lg bg-transparent  text-sm text-foreground cursor-grab active:cursor-grabbing hover: transition-all duration-300 select-none"
             >
               {item.text}
             </div>
@@ -101,7 +101,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
                     <button
                       key={item.id}
                       onClick={() => assignBucket(item.id, b.key)}
-                      className="text-xs px-2 py-1 rounded-md bg-card/60 text-muted-foreground hover:bg-card transition-colors"
+                      className="text-xs px-2 py-1 rounded-md bg-transparent/60 text-muted-foreground hover:bg-card transition-colors"
                     >
                       + {item.text.slice(0, 20)}{item.text.length > 20 ? "…" : ""}
                     </button>
@@ -111,7 +111,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
 
               <div className="flex flex-wrap gap-2">
                 {bucketItems.map((item) => (
-                  <span key={item.id} className="px-3 py-1.5 rounded-lg bg-card/80 text-sm text-foreground shadow-sm animate-fade-in">
+                  <span key={item.id} className="px-3 py-1.5 rounded-lg bg-card/80 text-sm text-foreground  animate-fade-in">
                     {item.text}
                   </span>
                 ))}
@@ -129,7 +129,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
           </p>
           <button
             onClick={() => onComplete(items)}
-            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover:shadow-soft active:scale-[0.98]"
+            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover: active:scale-[0.98]"
           >
             {t("continue")}
           </button>

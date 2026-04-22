@@ -42,7 +42,7 @@ export const BrainDump = ({ onComplete }: Props) => {
   const filledThoughts = thoughts.map((t) => t.trim()).filter(Boolean);
 
   return (
-    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8  flex flex-col">
       <div className="mb-8 animate-fade-in">
         <h1 className="text-2xl font-bold text-foreground mb-1">Brain Dump</h1>
         <p className="text-muted-foreground text-sm">{t("dump_hint")}</p>
@@ -59,7 +59,7 @@ export const BrainDump = ({ onComplete }: Props) => {
                 onChange={(e) => updateThought(index, e.target.value)}
                 onKeyDown={(e) => handleEnter(e, index)}
                 placeholder={index === 0 ? t("dump_placeholder") : "..."}
-                className="w-full p-4 rounded-2xl bg-card/80 backdrop-blur-sm border border-border text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:glow-border transition-shadow duration-500 text-sm shadow-card"
+                className="w-full p-4 rounded-2xl bg-transparent/80 backdrop-blur-sm border border-border text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:glow-border transition-shadow duration-500 text-sm "
               />
               <button
                 type="button"
@@ -87,7 +87,7 @@ export const BrainDump = ({ onComplete }: Props) => {
       <button
         onClick={() => filledThoughts.length > 0 && onComplete(filledThoughts.join("\n"))}
         disabled={filledThoughts.length === 0}
-        className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base disabled:opacity-40 transition-all duration-300 hover:shadow-soft active:scale-[0.98] animate-fade-in"
+        className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base disabled:opacity-40 transition-all duration-300 hover: active:scale-[0.98] animate-fade-in"
         style={{ animationDelay: "0.2s" }}
       >
         {t("finished")}

@@ -56,7 +56,7 @@ const WeeklyOverview = () => {
   const hasEnoughData = filledDays.length >= 3;
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-background">
+    <div className="flex min-h-[100dvh] flex-col bg-transparent">
       <TopBar title={t("weekly_title")} showBack />
 
       <main className="flex flex-1 flex-col px-6 pt-4">
@@ -71,7 +71,7 @@ const WeeklyOverview = () => {
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="card-soft mb-6 rounded-2xl bg-card p-5"
+          className="card-soft mb-6 rounded-2xl bg-transparent p-5"
         >
           {filledDays.length === 0 ? (
             <p className="py-10 text-center text-sm text-muted-foreground">

@@ -31,7 +31,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+    <div className=" bg-transparent flex items-center justify-center p-4">
       <LanguageSelector />
       <div className="w-full w-full">
         <AnimatePresence mode="wait">

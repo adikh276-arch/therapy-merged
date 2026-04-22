@@ -8,7 +8,7 @@ interface Props {
 export const Welcome = ({ onStart }: Props) => {
   const { t } = useTranslation();
   return (
-    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col justify-center">
+    <div className="w-full mx-auto px-6 py-8  flex flex-col justify-center">
       <div className="animate-fade-in">
         {/* Headline */}
         <h1 className="text-3xl font-bold text-foreground mb-3 text-center">
@@ -21,7 +21,7 @@ export const Welcome = ({ onStart }: Props) => {
         </p>
 
         {/* Body copy */}
-        <div className="bg-card/60 backdrop-blur-sm rounded-2xl p-6 mb-8 shadow-soft">
+        <div className="bg-transparent/60 backdrop-blur-sm rounded-2xl p-6 mb-8 ">
           <p className="text-foreground/80 text-sm leading-relaxed mb-4">
             {t("welcome_desc")}
           </p>
@@ -57,7 +57,7 @@ export const Welcome = ({ onStart }: Props) => {
         {/* Primary Button */}
         <button
           onClick={onStart}
-          className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base transition-all duration-300 hover:shadow-soft active:scale-[0.98]"
+          className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base transition-all duration-300 hover: active:scale-[0.98]"
         >
           {t("start_dump")}
         </button>

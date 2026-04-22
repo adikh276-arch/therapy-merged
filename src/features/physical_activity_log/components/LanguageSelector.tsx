@@ -49,12 +49,12 @@ const LanguageSelector = () => {
         <div className="fixed top-4 right-4 z-[100]">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" className="gap-2 bg-background/80 backdrop-blur-sm border-wellness-blue-light/30 shadow-sm hover:shadow-md transition-all rounded-full px-4">
+                    <Button variant="outline" size="sm" className="gap-2 bg-transparent/80 backdrop-blur-sm border-wellness-blue-light/30  hover: transition-all rounded-full px-4">
                         <Globe className="h-4 w-4 text-primary" />
                         <span className="font-medium">{currentLanguage.name}</span>
                     </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto rounded-xl border-wellness-blue-light/20 shadow-xl p-1 bg-background/95 backdrop-blur-md">
+                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto rounded-xl border-wellness-blue-light/20  p-1 bg-transparent/95 backdrop-blur-md">
                     {languages.map((lang) => (
                         <DropdownMenuItem
                             key={lang.code}

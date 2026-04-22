@@ -25,8 +25,8 @@ const Screen4Mood = ({ onContinue }: Screen4Props) => {
             key={m.label}
             onClick={() => setSelected(selected === i ? null : i)}
             className={`flex flex-col items-center gap-2 rounded-2xl border-2 p-4 transition-all duration-200 active:scale-95 ${selected === i
-                ? "border-primary bg-primary/10 shadow-sm"
-                : "border-border bg-card hover:border-primary/30"
+                ? "border-primary bg-primary/10 "
+                : "border-border bg-transparent hover:border-primary/30"
               }`}
           >
             <span className="text-3xl">{m.emoji}</span>

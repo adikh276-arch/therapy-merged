@@ -30,7 +30,7 @@ const EmotionalCheckIn = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-12 fade-enter">
+    <div className=" flex items-center justify-center px-4 py-12 fade-enter">
       <div className="w-full w-full space-y-8">
         <h1 className="text-2xl font-heading text-center leading-snug">
           After writing this letter, how do you feel?
@@ -42,8 +42,8 @@ const EmotionalCheckIn = () => {
               key={emotion}
               onClick={() => setSelected(emotion)}
               className={`w-full text-left rounded-2xl px-5 py-4 text-sm leading-relaxed border letter-transition ${selected === emotion
-                  ? "border-primary bg-accent shadow-sm"
-                  : "border-border/60 bg-card hover:border-primary/30"
+                  ? "border-primary bg-accent "
+                  : "border-border/60 bg-transparent hover:border-primary/30"
                 }`}
             >
               {emotion}

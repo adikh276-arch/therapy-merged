@@ -15,7 +15,7 @@ const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
     );
 
   return (
-    <div className="bg-card rounded-2xl p-6 shadow-sm border border-border flex flex-col gap-5">
+    <div className="bg-transparent rounded-2xl p-6  border border-border flex flex-col gap-5">
       <StepProgress current={3} total={4} />
       <h2 className="text-xl font-semibold text-foreground">{t('coping_title')}</h2>
       <div className="flex flex-col gap-3">

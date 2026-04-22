@@ -12,8 +12,8 @@ const OptionChip = ({ label, selected, onToggle, emoji }: OptionChipProps) => {
     <button
       onClick={onToggle}
       className={`rounded-xl border-2 px-4 py-3 text-sm font-medium transition-all duration-200 active:scale-95 ${selected
-          ? "border-primary bg-primary text-primary-foreground shadow-sm"
-          : "border-border bg-card text-card-foreground hover:border-primary/40"
+          ? "border-primary bg-primary text-primary-foreground "
+          : "border-border bg-transparent text-card-foreground hover:border-primary/40"
         }`}
     >
       {emoji && <span className="mr-1.5">{emoji}</span>}

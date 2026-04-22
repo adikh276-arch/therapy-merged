@@ -45,7 +45,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen gradient-calm">
+    <div className=" gradient-calm">
       <div className="w-full mx-auto px-5 py-8 pb-12">
         {/* Header */}
         <div className="mb-8 animate-fade-in">

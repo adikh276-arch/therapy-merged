@@ -15,7 +15,7 @@ const ContinueButton = ({ onClick, disabled, label }: ContinueButtonProps) => {
       <Button
         onClick={onClick}
         disabled={disabled}
-        className="w-full rounded-2xl py-6 text-base font-semibold font-display tracking-wide shadow-md transition-all active:scale-[0.98]"
+        className="w-full rounded-2xl py-6 text-base font-semibold font-display tracking-wide  transition-all active:scale-[0.98]"
         size="lg"
       >
         {label || t('common.continue')}

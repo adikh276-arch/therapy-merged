@@ -35,7 +35,7 @@ export default function TipDetail() {
 
   if (!tip) {
     return (
-      <div className="min-h-screen gradient-bg flex items-center justify-center">
+      <div className=" gradient-bg flex items-center justify-center">
         <p className="text-muted-foreground">{t("tipNotFound")}</p>
       </div>
     );
@@ -48,7 +48,7 @@ export default function TipDetail() {
   const doKeys = tip.whatYouCanDo.map((_, i) => `${k}_do${i + 1}`);
 
   return (
-    <div className="min-h-screen gradient-bg">
+    <div className=" gradient-bg">
       <div className="mx-auto w-full px-5 py-8 pb-16">
         {/* Back button */}
         <button
@@ -88,7 +88,7 @@ export default function TipDetail() {
             {doKeys.map((key, i) => (
               <div
                 key={i}
-                className="flex items-start gap-2.5 rounded-lg bg-card p-3 shadow-card"
+                className="flex items-start gap-2.5 rounded-lg bg-transparent p-3 "
               >
                 <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0 text-primary" />
                 <span className="text-sm text-foreground">{t(key)}</span>
@@ -103,7 +103,7 @@ export default function TipDetail() {
             <h2 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">
               {t("example")}
             </h2>
-            <div className="rounded-lg bg-card p-4 shadow-card space-y-2">
+            <div className="rounded-lg bg-transparent p-4  space-y-2">
               <p className="text-sm text-muted-foreground">
                 <span className="font-semibold">{t("insteadOf")}</span>{" "}
                 {k ? t(`${k}_ex_instead`) : tip.example.instead}

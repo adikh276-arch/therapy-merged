@@ -47,11 +47,11 @@ const LanguageSelector = () => {
         <div className="fixed top-4 right-4 z-[100]">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="icon" className="w-10 h-10 rounded-full bg-card/80 backdrop-blur-sm shadow-soft">
+                    <Button variant="outline" size="icon" className="w-10 h-10 rounded-full bg-transparent/80 backdrop-blur-sm ">
                         <Globe className="h-5 w-5" />
                     </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto bg-card/95 backdrop-blur-sm border-border">
+                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto bg-transparent/95 backdrop-blur-sm border-border">
                     {languages.map((lang) => (
                         <DropdownMenuItem
                             key={lang.code}

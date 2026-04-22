@@ -102,7 +102,7 @@ const BrainDumpApp = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center gradient-calm">
+      <div className=" flex items-center justify-center gradient-calm">
         <Loader2 className="w-8 h-8 animate-spin text-primary" />
       </div>
     );
@@ -110,7 +110,7 @@ const BrainDumpApp = () => {
 
   if (showSaved) {
     return (
-      <div className="min-h-screen gradient-calm relative overflow-hidden">
+      <div className=" gradient-calm relative overflow-hidden">
         <div className="fixed inset-0 pointer-events-none">
           <div className="absolute top-[-20%] left-[-20%] w-[140%] h-[140%] rounded-full bg-primary/5 animate-breathe" />
         </div>
@@ -134,7 +134,7 @@ const BrainDumpApp = () => {
   ];
 
   return (
-    <div className="min-h-screen gradient-calm relative overflow-hidden">
+    <div className=" gradient-calm relative overflow-hidden">
       <LanguageSelector
         showHistory={screen === 0 && savedSessions.length > 0}
         onHistoryClick={() => setShowSaved(true)}

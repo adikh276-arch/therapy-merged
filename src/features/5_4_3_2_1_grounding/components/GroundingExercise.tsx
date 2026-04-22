@@ -54,7 +54,7 @@ const GroundingExercise = () => {
 
   if (submitted) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-background px-6">
+      <div className=" flex items-center justify-center bg-transparent px-6">
         <div className="text-center w-full fade-in">
           <div className="w-20 h-20 rounded-full bg-accent mx-auto mb-8 flex items-center justify-center">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-accent-foreground">
@@ -90,7 +90,7 @@ const GroundingExercise = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className=" flex flex-col bg-transparent">
       {/* Breathing circle background decoration */}
       <div className="fixed inset-0 flex items-center justify-center pointer-events-none">
         <div className="w-[500px] h-[500px] rounded-full bg-accent/50 breathing-circle" />

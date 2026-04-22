@@ -28,7 +28,7 @@ const GratitudeEntry = () => {
 
   return (
     <PageTransition>
-      <div className="flex flex-col min-h-screen bg-background px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
+      <div className="flex flex-col  bg-transparent px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
         <header className="mb-8">
           <h1 className="text-2xl font-heading font-semibold text-foreground text-left">
             {t("gratitude.heading")}
@@ -48,7 +48,7 @@ const GratitudeEntry = () => {
               onChange={(e) => setGratitude1(e.target.value)}
               placeholder={t("gratitude.item1.placeholder")}
               rows={4}
-              className="w-full bg-card text-foreground rounded-lg border border-border px-4 py-3 text-sm font-body placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all duration-200 resize-none shadow-soft"
+              className="w-full bg-transparent text-foreground rounded-lg border border-border px-4 py-3 text-sm font-body placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all duration-200 resize-none "
             />
           </div>
 
@@ -61,7 +61,7 @@ const GratitudeEntry = () => {
               onChange={(e) => setGratitude2(e.target.value)}
               placeholder={t("gratitude.item2.placeholder")}
               rows={4}
-              className="w-full bg-card text-foreground rounded-lg border border-border px-4 py-3 text-sm font-body placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all duration-200 resize-none shadow-soft"
+              className="w-full bg-card text-foreground rounded-lg border border-border px-4 py-3 text-sm font-body placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all duration-200 resize-none "
             />
           </div>
         </div>
@@ -71,7 +71,7 @@ const GratitudeEntry = () => {
           <button
             onClick={handleContinue}
             disabled={!canContinue}
-            className="w-full h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed active:scale-[0.98] hover:brightness-105 shadow-md"
+            className="w-full h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed active:scale-[0.98] hover:brightness-105 "
           >
             {t("common.continue")}
           </button>

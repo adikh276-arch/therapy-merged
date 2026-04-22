@@ -14,7 +14,7 @@ const SelectableTile = ({ label, selected, onToggle }: SelectableTileProps) => {
       className={`w-full text-left px-4 py-3 rounded-xl border-2 text-sm font-medium transition-colors duration-200 ${
         selected
           ? "bg-primary/10 border-primary text-foreground"
-          : "bg-card border-border text-foreground"
+          : "bg-transparent border-border text-foreground"
       }`}
     >
       {label}

@@ -15,7 +15,7 @@ export default function TechniqueDetail() {
 
   if (!technique) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-background">
+      <div className="flex  items-center justify-center bg-transparent">
         <p className="text-muted-foreground">{t("Technique not found")}</p>
       </div>
     );
@@ -28,7 +28,7 @@ export default function TechniqueDetail() {
 
   return (
     <div
-      className="min-h-screen relative overflow-hidden"
+      className=" relative overflow-hidden"
       style={{
         background: `linear-gradient(180deg, hsl(var(${technique.colorVar}) / 0.35) 0%, hsl(140 25% 94%) 50%, hsl(var(--background)) 100%)`,
       }}
@@ -51,7 +51,7 @@ export default function TechniqueDetail() {
       </div>
 
       {/* Mobile container */}
-      <div className="relative z-10 w-full mx-auto min-h-screen flex flex-col">
+      <div className="relative z-10 w-full mx-auto  flex flex-col">
         {/* Header */}
         <header className="flex items-center justify-between px-5 pt-6 pb-4">
           <button

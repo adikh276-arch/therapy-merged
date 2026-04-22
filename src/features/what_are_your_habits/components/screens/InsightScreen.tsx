@@ -16,7 +16,7 @@ const InsightScreen = ({ onNext }: { onNext: () => void }) => {
     );
 
   return (
-    <div className="bg-card rounded-2xl p-6 shadow-sm border border-border flex flex-col gap-6">
+    <div className="bg-transparent rounded-2xl p-6  border border-border flex flex-col gap-6">
       <span className="text-4xl text-center">🌟</span>
       <h2 className="text-xl font-semibold text-foreground text-center">{t('insight_title')}</h2>
       <p className="text-sm text-foreground text-justified leading-relaxed">

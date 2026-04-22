@@ -44,7 +44,7 @@ export function LanguageSelector() {
         <div className="fixed top-4 right-4 z-50">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" className="bg-white/80 backdrop-blur-sm">
+                    <Button variant="outline" size="sm" className="bg-transparent/80 backdrop-blur-sm">
                         <Globe className="mr-2 h-4 w-4" />
                         {currentLanguage.name}
                     </Button>

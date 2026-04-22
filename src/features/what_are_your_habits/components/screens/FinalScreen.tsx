@@ -5,7 +5,7 @@ const FinalScreen = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-card rounded-2xl p-8 shadow-sm border border-border text-center flex flex-col items-center gap-6">
+    <div className="bg-transparent rounded-2xl p-8  border border-border text-center flex flex-col items-center gap-6">
       <motion.span
         className="text-5xl"
         initial={{ scale: 0 }}

@@ -19,7 +19,7 @@ const FeelingSelector: React.FC<FeelingSelectorProps> = ({ onSelect }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex min-h-screen flex-col px-6 py-12">
+    <div className="flex  flex-col px-6 py-12">
       <div className="mx-auto w-full w-full space-y-6">
         <div className="text-center">
           <span className="mb-4 inline-block text-3xl">🌿</span>
@@ -39,7 +39,7 @@ const FeelingSelector: React.FC<FeelingSelectorProps> = ({ onSelect }) => {
             <button
               key={feeling.id}
               onClick={() => onSelect(feeling.id, index % pastelColors.length)}
-              className={`w-full rounded-2xl border border-border/50 px-5 py-4 text-left text-[15px] font-medium text-foreground shadow-sm transition-all duration-200 hover:scale-[1.02] hover:shadow-md active:scale-[0.98] ${pastelColors[index % pastelColors.length]}`}
+              className={`w-full rounded-2xl border border-border/50 px-5 py-4 text-left text-[15px] font-medium text-foreground  transition-all duration-200 hover:scale-[1.02] hover: active:scale-[0.98] ${pastelColors[index % pastelColors.length]}`}
             >
               {t(`feelings.${feeling.id}.label`)}
             </button>

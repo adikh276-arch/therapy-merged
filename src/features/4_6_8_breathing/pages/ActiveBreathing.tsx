@@ -121,7 +121,7 @@ const ActiveBreathing = () => {
   };
 
   return (
-    <div className="min-h-screen gradient-bg-screen flex flex-col items-center justify-center px-6 py-8 animate-fade-in">
+    <div className=" gradient-bg-screen flex flex-col items-center justify-center px-6 py-8 animate-fade-in">
       <div className="w-full w-full flex flex-col items-center gap-5 px-2">
         {/* Breathing Circle */}
         <div className="relative flex items-center justify-center" style={{ width: 220, height: 220 }}>
@@ -163,7 +163,7 @@ const ActiveBreathing = () => {
               }}
               className={`px-5 py-2 rounded-full font-semibold text-sm transition-colors duration-200 ${totalRounds === r
                   ? "bg-primary text-primary-foreground glow-soft"
-                  : "bg-card text-foreground hover:opacity-80"
+                  : "bg-transparent text-foreground hover:opacity-80"
                 }`}
             >
               {t('rounds_selector', { count: r })}
@@ -188,7 +188,7 @@ const ActiveBreathing = () => {
           </button>
           <button
             onClick={reset}
-            className="p-3 bg-card text-foreground rounded-full hover:opacity-80 transition-opacity"
+            className="p-3 bg-transparent text-foreground rounded-full hover:opacity-80 transition-opacity"
             aria-label={t('reset')}
           >
             <RotateCcw size={20} />

@@ -1,17 +1,35 @@
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import { ChevronLeft } from 'lucide-react';
 
 export function StaticContentViewer() {
   const { concern, type } = useParams<{ concern: string; type: string }>();
+  const navigate = useNavigate();
+  
   // Normalize concern: replace hyphens with underscores to match folder names (e.g. eating-disorder → eating_disorder)
   const normalizedConcern = (concern || '').replace(/-/g, '_');
   const src = `/therapy/static/content/${normalizedConcern}_${type}/index.html`;
 
   return (
-    <iframe
-      src={src}
-      title={`${concern} ${type}`}
-      style={{ width: '100%', height: '100%', border: 'none', minHeight: '80vh' }}
-      sandbox="allow-scripts allow-same-origin"
-    />
+    <div className="flex flex-col h-screen bg-[#F6F8FB]">
+      <header className="flex items-center px-4 h-14 bg-white border-b gap-3">
+        <button 
+          onClick={() => navigate(-1)}
+          className="p-2 hover:bg-slate-100 rounded-full transition-colors"
+        >
+          <ChevronLeft size={20} />
+        </button>
+        <h1 className="text-sm font-semibold capitalize">
+          {concern?.replace(/-/g, ' ')} - {type}
+        </h1>
+      </header>
+      <div className="flex-1 overflow-hidden">
+        <iframe
+          src={src}
+          title={`${concern} ${type}`}
+          className="w-full h-full border-none"
+          sandbox="allow-scripts allow-same-origin"
+        />
+      </div>
+    </div>
   );
 }

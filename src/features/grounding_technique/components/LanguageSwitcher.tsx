@@ -39,7 +39,7 @@ export default function LanguageSwitcher({ currentLang, onChangeLang }: Language
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 w-64 max-h-[70vh] overflow-hidden rounded-2xl bg-white shadow-2xl border border-border/80 z-[100] flex flex-col animate-fade-in-up">
+        <div className="absolute right-0 top-full mt-2 w-64 max-h-[70vh] overflow-hidden rounded-2xl bg-transparent  border border-border/80 z-[100] flex flex-col animate-fade-in-up">
           <div className="p-3 border-b border-border/50 bg-secondary/30">
             <input
               type="text"
@@ -61,7 +61,7 @@ export default function LanguageSwitcher({ currentLang, onChangeLang }: Language
                 }}
                 className={`w-full text-left px-4 py-3 text-sm transition-colors flex items-center justify-between border-b border-border/10 last:border-0 ${lang.code === currentLang
                     ? "bg-primary/10 text-primary font-bold"
-                    : "text-foreground bg-white hover:bg-secondary/50"
+                    : "text-foreground bg-transparent hover:bg-secondary/50"
                   }`}
               >
                 <span>{lang.nativeName || lang.name}</span>

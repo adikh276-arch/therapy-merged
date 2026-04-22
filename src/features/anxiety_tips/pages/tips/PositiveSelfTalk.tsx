@@ -15,7 +15,7 @@ const PositiveSelfTalk = () => {
         t("selftalk_step4"),
       ]}
       extra={
-        <div className="bg-card rounded-lg p-4 shadow-card animate-fade-in" style={{ animationDelay: "240ms", animationFillMode: "both" }}>
+        <div className="bg-transparent rounded-lg p-4  animate-fade-in" style={{ animationDelay: "240ms", animationFillMode: "both" }}>
           <p className="text-sm text-muted-foreground mb-1 font-semibold">{t("example")}</p>
           <p className="text-foreground text-[15px] leading-relaxed">
             {t("instead_of")}: <span className="italic text-destructive/70">"{t("selftalk_instead")}"</span>

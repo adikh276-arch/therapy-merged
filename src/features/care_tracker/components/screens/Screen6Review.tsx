@@ -64,7 +64,7 @@ const Screen6Review = ({ entry, onEdit, onHistory, onHome }: Screen6Props) => {
 
       <div className="mt-6 space-y-3">
         {rows.map((r) => (
-          <div key={r.label} className="rounded-xl bg-card p-4 border border-border">
+          <div key={r.label} className="rounded-xl bg-transparent p-4 border border-border">
             <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
               {r.label}
             </span>

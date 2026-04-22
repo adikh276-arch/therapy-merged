@@ -10,7 +10,7 @@ interface Props {
 const CompleteScreen = ({ onRestart, onBack }: Props) => {
   const { t } = useTranslation();
   return (
-    <div className="min-h-screen gradient-calm flex flex-col items-center justify-center px-6 relative">
+    <div className=" gradient-calm flex flex-col items-center justify-center px-6 relative">
       <div className="absolute top-6 right-6">
         <LanguageSelector />
       </div>
@@ -29,13 +29,13 @@ const CompleteScreen = ({ onRestart, onBack }: Props) => {
 
         <button
           onClick={onRestart}
-          className="w-full max-w-xs py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base shadow-button hover:brightness-105 active:scale-[0.98] transition-all duration-200 mb-3"
+          className="w-full max-w-xs py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base  hover:brightness-105 active:scale-[0.98] transition-all duration-200 mb-3"
         >
           {t("start_again")}
         </button>
         <button
           onClick={onBack}
-          className="w-full max-w-xs py-4 rounded-lg bg-card text-slate-600 font-medium text-base shadow-soft hover:bg-muted active:scale-[0.98] transition-all duration-200"
+          className="w-full max-w-xs py-4 rounded-lg bg-transparent text-slate-600 font-medium text-base  hover:bg-muted active:scale-[0.98] transition-all duration-200"
         >
           {t("back")}
         </button>

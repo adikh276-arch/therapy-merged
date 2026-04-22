@@ -16,7 +16,7 @@ const ScreenClosing = ({ onViewPast, onDone }: ScreenClosingProps) => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col items-center justify-center min-h-screen px-5 py-10 text-center"
+      className="flex flex-col items-center justify-center  px-5 py-10 text-center"
     >
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}

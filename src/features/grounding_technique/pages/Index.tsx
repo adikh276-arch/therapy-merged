@@ -13,7 +13,7 @@ const Index = () => {
   const langParam = currentLang !== "en" ? `?lang=${currentLang}` : "";
 
   return (
-    <div className="min-h-screen relative overflow-hidden" style={{
+    <div className=" relative overflow-hidden" style={{
       background: `linear-gradient(180deg, hsl(140 25% 92%) 0%, hsl(140 20% 96%) 40%, hsl(var(--background)) 100%)`
     }}>
       {/* Breathing Concentric Circles */}
@@ -33,7 +33,7 @@ const Index = () => {
       </div>
 
       {/* Mobile container */}
-      <div className="relative z-10 w-full mx-auto min-h-screen flex flex-col">
+      <div className="relative z-10 w-full mx-auto  flex flex-col">
         {/* Header */}
         <header className="flex items-center justify-between px-5 pt-6 pb-2 safe-area-top">
           <button

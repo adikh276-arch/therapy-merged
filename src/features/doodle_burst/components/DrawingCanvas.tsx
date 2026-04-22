@@ -157,7 +157,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
       </div>
 
       {/* Canvas */}
-      <div className="relative w-full rounded-2xl overflow-hidden shadow-soft border border-border bg-card">
+      <div className="relative w-full rounded-2xl overflow-hidden  border border-border bg-transparent">
         <div
           className="absolute inset-0 opacity-[0.08] pointer-events-none"
           style={{
@@ -210,7 +210,7 @@ const ToolButton: React.FC<{
     onClick={onClick}
     className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-semibold transition-all
       ${active
-        ? "bg-primary text-primary-foreground shadow-soft"
+        ? "bg-primary text-primary-foreground "
         : "bg-muted text-muted-foreground hover:bg-secondary"
       }`}
   >

@@ -13,14 +13,14 @@ const TipDetail = () => {
 
   if (!tip) {
     return (
-      <div className="min-h-screen gradient-main flex items-center justify-center">
+      <div className=" gradient-main flex items-center justify-center">
         <p className="text-muted-foreground">{t('detail.notFound')}</p>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen gradient-main">
+    <div className=" gradient-main">
       <div className="w-full mx-auto px-5 py-6 pb-16">
         {/* Back */}
         <button
@@ -75,7 +75,7 @@ const TipDetail = () => {
         {t(`tip.${tip.slug}.button`) && (
           <button
             onClick={() => toast.success(t('detail.reminderSet'))}
-            className="w-full py-3.5 rounded-full bg-primary text-primary-foreground font-semibold text-sm shadow-soft transition-all duration-200 active:scale-[0.97]"
+            className="w-full py-3.5 rounded-full bg-primary text-primary-foreground font-semibold text-sm  transition-all duration-200 active:scale-[0.97]"
           >
             {t(`tip.${tip.slug}.button`)}
           </button>

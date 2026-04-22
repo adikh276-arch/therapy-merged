@@ -10,7 +10,7 @@ const Index = () => {
   const [screen, setScreen] = useState<Screen>("choose");
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative ">
       <LanguageSelector />
       {screen === "timer" && (
         <TimerScreen onComplete={() => setScreen("energy")} />

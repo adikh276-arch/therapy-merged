@@ -43,7 +43,7 @@ const PastLetters = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className=" flex items-center justify-center">
         <Loader2 className="w-10 h-10 animate-spin text-primary" />
       </div>
     );
@@ -52,7 +52,7 @@ const PastLetters = () => {
   // Full letter view
   if (selectedEntry) {
     return (
-      <div className="min-h-screen px-4 py-8 fade-enter">
+      <div className=" px-4 py-8 fade-enter">
         <div className="w-full mx-auto space-y-6">
           <button
             onClick={() => setSelectedEntry(null)}
@@ -61,7 +61,7 @@ const PastLetters = () => {
             <ChevronLeft className="w-4 h-4" /> Back to Letters
           </button>
 
-          <div className="bg-card rounded-2xl border border-border/60 p-6 space-y-4">
+          <div className="bg-transparent rounded-2xl border border-border/60 p-6 space-y-4">
             <div className="flex items-center justify-between">
               <div className="text-sm text-muted-foreground flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
@@ -110,7 +110,7 @@ const PastLetters = () => {
   }
 
   return (
-    <div className="min-h-screen px-4 py-8 fade-enter">
+    <div className=" px-4 py-8 fade-enter">
       <div className="w-full mx-auto space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-heading">My Letters</h1>
@@ -140,7 +140,7 @@ const PastLetters = () => {
               <button
                 key={entry.id}
                 onClick={() => setSelectedEntry(entry)}
-                className="w-full text-left bg-card rounded-2xl border border-border/60 p-5 space-y-2 prompt-card-hover"
+                className="w-full text-left bg-transparent rounded-2xl border border-border/60 p-5 space-y-2 prompt-card-hover"
               >
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Calendar className="w-3.5 h-3.5" />

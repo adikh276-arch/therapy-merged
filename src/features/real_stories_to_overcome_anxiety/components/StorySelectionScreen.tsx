@@ -10,7 +10,7 @@ const StorySelectionScreen: FC<StorySelectionScreenProps> = ({ onSelect }) => {
   const { t } = useTranslation();
 
   return (
-    <main className="min-h-screen px-6 py-10 text-left">
+    <main className=" px-6 py-10 text-left">
       <h2 className="font-heading text-2xl text-foreground mb-8 opacity-0 animate-fade-in-up">
         {t('chooseStory')}
       </h2>
@@ -21,8 +21,8 @@ const StorySelectionScreen: FC<StorySelectionScreenProps> = ({ onSelect }) => {
             key={story.name}
             onClick={() => onSelect(index)}
             className={`
-              bg-card text-left rounded-lg p-6 shadow-sm
-              hover:shadow-md active:animate-card-press
+              bg-transparent text-left rounded-lg p-6 
+              hover: active:animate-card-press
               transition-shadow duration-200
               opacity-0
               ${index === 0 ? "animate-fade-in-up" : ""}

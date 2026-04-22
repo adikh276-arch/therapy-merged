@@ -43,7 +43,7 @@ const ReflectionPrompt = ({ step, total, prompt, example, value, onChange, onNex
         placeholder={t("reflection.placeholder")}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="min-h-[120px] resize-none bg-background/60 text-sm"
+        className="min-h-[120px] resize-none bg-transparent/60 text-sm"
       />
 
       <Button onClick={onNext} className="w-full" disabled={!value.trim()}>

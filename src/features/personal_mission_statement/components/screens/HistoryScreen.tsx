@@ -72,7 +72,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
                         {missions.map((mission) => (
                             <div
                                 key={mission.id}
-                                className="bg-card rounded-2xl border border-border p-5 space-y-3"
+                                className="bg-transparent rounded-2xl border border-border p-5 space-y-3"
                             >
                                 <div className="flex items-start justify-between gap-3">
                                     <p className="text-[13px] font-body text-muted-foreground">

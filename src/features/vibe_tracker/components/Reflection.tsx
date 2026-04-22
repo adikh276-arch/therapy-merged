@@ -46,7 +46,7 @@ const Reflection = ({ onComplete }: Props) => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen px-6 pt-12 pb-28">
+    <div className="flex flex-col  px-6 pt-12 pb-28">
       <h1 className="font-display text-3xl font-bold text-center text-foreground tracking-tight">
         {t("pauseAndReflect")}
       </h1>
@@ -86,7 +86,7 @@ const Reflection = ({ onComplete }: Props) => {
       </div>
 
       {/* Fixed Bottom Button */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-background/80 backdrop-blur-md">
+      <div className="fixed bottom-0 left-0 right-0 p-6 bg-transparent/80 backdrop-blur-md">
         <button
           className="vibe-button"
           disabled={!answer.trim()}

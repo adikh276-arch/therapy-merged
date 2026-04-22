@@ -28,8 +28,8 @@ const Index = () => {
     if (!userId) return;
     setIsLoading(true);
     try {
-      const res = await sql("SELECT id, user_id, date, value_emoji as \"valueEmoji\", value_name as \"valueName\", reflection, action FROM reflections WHERE user_id = $1 ORDER BY date DESC", [userId]);
-      setHistory(res.rows);
+      const res = await sql`SELECT id, user_id, date, value_emoji as "valueEmoji", value_name as "valueName", reflection, action FROM reflections WHERE user_id = ${userId} ORDER BY date DESC`;
+      setHistory(res);
     } catch (err) {
       console.error("Failed to fetch history:", err);
       toast.error("Failed to load history from database");
@@ -66,12 +66,13 @@ const Index = () => {
     };
 
     try {
-      const res = await sql(
-        "INSERT INTO reflections (user_id, date, value_emoji, value_name, reflection, action) VALUES ($1, $2, $3, $4, $5, $6) RETURNING id",
-        [userId, r.date, r.valueEmoji, r.valueName, r.reflection, r.action]
-      );
+      const res = await sql`
+        INSERT INTO reflections (user_id, date, value_emoji, value_name, reflection, action) 
+        VALUES (${userId}, ${r.date}, ${r.valueEmoji}, ${r.valueName}, ${r.reflection}, ${r.action}) 
+        RETURNING id
+      `;
 
-      const fullReflection: Reflection = { ...r, id: res.rows[0].id.toString() };
+      const fullReflection: Reflection = { ...r, id: res[0].id.toString() };
       setSavedReflection(fullReflection);
       setScreen("summary");
       toast.success("Reflection saved to database");
@@ -100,11 +101,11 @@ const Index = () => {
   const stepMap: Record<string, number> = { intro: 1, choose: 2, reflect: 3, action: 4 };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="w-full w-full mx-auto pt-16">
+    <div className="w-full max-w-xl mx-auto py-8">
+      <div className="w-full mx-auto">
         {/* INTRO */}
         {screen === "intro" && (
-          <div className="bg-card rounded-[var(--radius)] shadow-card p-8 animate-in fade-in duration-500">
+          <div className="bg-transparent rounded-[var(--radius)]  p-8 animate-in fade-in duration-500">
             <div className="text-center mb-6">
               <span className="text-5xl">🌱</span>
             </div>
@@ -131,7 +132,7 @@ const Index = () => {
 
         {/* CHOOSE VALUES */}
         {screen === "choose" && (
-          <div className="bg-card rounded-[var(--radius)] shadow-card p-8 animate-in fade-in duration-500">
+          <div className="bg-transparent rounded-[var(--radius)]  p-8 animate-in fade-in duration-500">
             <ProgressIndicator currentStep={2} totalSteps={4} />
             <h2 className="text-xl font-semibold text-foreground text-center mb-2">
               {t('app.chooseTitle')}
@@ -170,7 +171,7 @@ const Index = () => {
 
         {/* REFLECT */}
         {screen === "reflect" && (
-          <div className="bg-card rounded-[var(--radius)] shadow-card p-8 animate-in fade-in duration-500">
+          <div className="bg-card rounded-[var(--radius)]  p-8 animate-in fade-in duration-500">
             <ProgressIndicator currentStep={3} totalSteps={4} />
             <h2 className="text-xl font-semibold text-foreground text-center mb-4">
               {t('app.reflectTitle')}
@@ -213,7 +214,7 @@ const Index = () => {
 
         {/* ACTION */}
         {screen === "action" && chosenValue && (
-          <div className="bg-card rounded-[var(--radius)] shadow-card p-8 animate-in fade-in duration-500">
+          <div className="bg-card rounded-[var(--radius)]  p-8 animate-in fade-in duration-500">
             <ProgressIndicator currentStep={4} totalSteps={4} />
             <h2 className="text-xl font-semibold text-foreground text-center mb-4">
               {t('app.liveTitle')}
@@ -243,7 +244,7 @@ const Index = () => {
 
         {/* SUMMARY */}
         {screen === "summary" && savedReflection && (
-          <div className="bg-card rounded-[var(--radius)] shadow-card p-8 animate-in fade-in duration-500">
+          <div className="bg-card rounded-[var(--radius)]  p-8 animate-in fade-in duration-500">
             <h2 className="text-xl font-semibold text-foreground text-center mb-6">
               {t('app.summaryTitle')}
             </h2>
@@ -278,7 +279,7 @@ const Index = () => {
         {/* HISTORY */}
         {screen === "history" && (
           <div className="animate-in fade-in duration-500">
-            <div className="bg-card rounded-[var(--radius)] shadow-card p-8 mb-5">
+            <div className="bg-card rounded-[var(--radius)]  p-8 mb-5">
               <h2 className="text-xl font-semibold text-foreground text-center mb-2">
                 {t('app.historyTitle')}
               </h2>
@@ -287,7 +288,7 @@ const Index = () => {
               </p>
             </div>
             {history.length === 0 ? (
-              <div className="bg-card rounded-[var(--radius)] shadow-card p-8 text-center">
+              <div className="bg-card rounded-[var(--radius)]  p-8 text-center">
                 <p className="text-sm text-muted-foreground mb-6">
                   {t('app.noHistory')}
                 </p>
@@ -297,7 +298,7 @@ const Index = () => {
               <>
                 <div className="space-y-5">
                   {history.map((r) => (
-                    <div key={r.id} className="bg-card rounded-[var(--radius)] shadow-card p-6">
+                    <div key={r.id} className="bg-card rounded-[var(--radius)]  p-6">
                       <p className="text-xs text-muted-foreground mb-2">
                         {format(new Date(r.date), "MMMM d")}
                       </p>

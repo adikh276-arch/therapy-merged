@@ -9,7 +9,7 @@ interface MobileShellProps {
 
 const MobileShell = ({ children, step, totalSteps }: MobileShellProps) => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4 py-6">
+    <div className="flex  items-center justify-center bg-transparent px-4 py-6">
       <div className="w-full max-w-[430px]">
         {step && totalSteps && (
           <div className="mb-6 flex gap-1.5">

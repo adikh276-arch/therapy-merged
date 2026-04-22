@@ -97,7 +97,7 @@ const TrackActivitySection = () => {
         </p>
 
         {/* Entry + Summary Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-4xl mx-auto mb-8 md:mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto mb-8 md:mb-12">
           {/* Activity Entry Card */}
           <div className="wellness-card space-y-3 md:space-y-4">
             <h3 className="font-serif text-lg md:text-xl font-semibold text-foreground">{t("activity_log")}</h3>
@@ -132,14 +132,14 @@ const TrackActivitySection = () => {
                 placeholder={t("activity_placeholder")}
                 value={activity}
                 onChange={(e) => setActivity(e.target.value)}
-                className="w-full rounded-xl border border-input bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                className="w-full rounded-xl border border-input bg-transparent px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
               />
               <input
                 type="number"
                 placeholder={t("duration_placeholder")}
                 value={duration}
                 onChange={(e) => setDuration(e.target.value)}
-                className="w-full rounded-xl border border-input bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                className="w-full rounded-xl border border-input bg-transparent px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
               />
               <textarea
                 placeholder={t("notes_placeholder")}
@@ -173,7 +173,7 @@ const TrackActivitySection = () => {
         </div>
 
         {/* Charts */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-4xl mx-auto mb-8 md:mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto mb-8 md:mb-12">
           <div className="wellness-card">
             <h4 className="font-serif text-base md:text-lg font-semibold text-foreground mb-4">{t("last_7_days")}</h4>
             <ResponsiveContainer width="100%" height={180}>
@@ -215,7 +215,7 @@ const TrackActivitySection = () => {
         </div>
 
         {/* Activity History */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-2xl mx-auto">
           <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-4">📅 {t("activity_history")}</h3>
 
           {/* Filters */}
@@ -227,7 +227,7 @@ const TrackActivitySection = () => {
                   onClick={() => setViewMode(mode)}
                   className={cn(
                     "px-3 py-1.5 rounded-lg text-xs md:text-sm font-medium transition-colors capitalize",
-                    viewMode === mode ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+                    viewMode === mode ? "bg-primary text-primary-foreground " : "text-muted-foreground hover:text-foreground"
                   )}
                 >
                   {t(mode)}

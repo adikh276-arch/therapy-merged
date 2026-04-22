@@ -65,7 +65,7 @@ const MissionScreen = ({ data, onEdit, onHome, onChange }: MissionScreenProps) =
         <textarea
           value={statement}
           onChange={(e) => setStatement(e.target.value)}
-          className="w-full bg-card text-foreground text-[16px] font-body rounded-2xl border border-border px-5 py-5 resize-none placeholder:text-placeholder focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all duration-200 leading-[1.7] text-center overflow-hidden"
+          className="w-full bg-transparent text-foreground text-[16px] font-body rounded-2xl border border-border px-5 py-5 resize-none placeholder:text-placeholder focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all duration-200 leading-[1.7] text-center overflow-hidden"
           style={{ height: 'auto', minHeight: '120px' }}
           onInput={(e) => {
             const target = e.target as HTMLTextAreaElement;

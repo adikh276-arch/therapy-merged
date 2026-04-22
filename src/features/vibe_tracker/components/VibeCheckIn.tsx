@@ -28,7 +28,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
   const currentVibe = selected || customVibe.trim();
 
   return (
-    <div className="animate-fade-slide-in flex flex-col min-h-screen px-6 pt-12 pb-28">
+    <div className="animate-fade-slide-in flex flex-col  px-6 pt-12 pb-28">
       {/* History button */}
       <div className="flex justify-end mb-2">
         <button
@@ -90,7 +90,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
       </div>
 
       {/* Fixed Bottom Button */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-background/80 backdrop-blur-md">
+      <div className="fixed bottom-0 left-0 right-0 p-6 bg-transparent/80 backdrop-blur-md">
         <button
           className="vibe-button"
           disabled={!currentVibe}

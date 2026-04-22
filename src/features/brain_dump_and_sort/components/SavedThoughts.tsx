@@ -36,7 +36,7 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
   };
 
   return (
-    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8  flex flex-col">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
         <button onClick={onBack} className="p-2 rounded-lg hover:bg-muted transition-colors">
@@ -59,7 +59,7 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
           {sessions.map((session) => (
             <div
               key={session.id}
-              className="bg-card rounded-xl p-4 shadow-card animate-fade-in"
+              className="bg-transparent rounded-xl p-4  animate-fade-in"
             >
               <div className="flex items-center justify-between mb-3">
                 <span className="text-xs text-muted-foreground">

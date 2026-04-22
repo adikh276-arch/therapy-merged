@@ -86,7 +86,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
           initial={{ scale: 0.9, opacity: 0, y: 20 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.9, opacity: 0, y: 20 }}
-          className="bg-card rounded-3xl shadow-glow w-full w-full overflow-hidden flex flex-col max-h-[90vh]"
+          className="bg-transparent rounded-3xl  w-full w-full overflow-hidden flex flex-col max-h-[90vh]"
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
@@ -124,7 +124,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
               </p>
               <button
                 onClick={handleCopy}
-                className="absolute top-4 right-4 p-2 bg-card rounded-xl shadow-soft hover:scale-105 active:scale-95 transition-all text-foreground"
+                className="absolute top-4 right-4 p-2 bg-transparent rounded-xl  hover:scale-105 active:scale-95 transition-all text-foreground"
                 title="Copy Text"
               >
                 {copied ? <Check size={18} className="text-green-500" /> : <Copy size={18} />}

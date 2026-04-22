@@ -6,7 +6,7 @@ const IntroScreen = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center justify-center px-6 py-12 animate-fade-in">
+    <div className=" bg-transparent flex flex-col items-center justify-center px-6 py-12 animate-fade-in">
       <div className="w-full w-full flex flex-col items-center text-center gap-6 px-2">
         <h1 className="font-display text-4xl font-bold text-foreground leading-tight">
           {t('app_title')}
@@ -16,7 +16,7 @@ const IntroScreen = () => {
           {t('app_subtitle')}
         </p>
 
-        <div className="w-full bg-card rounded-lg p-6 glow-soft">
+        <div className="w-full bg-transparent rounded-lg p-6 glow-soft">
           <p className="text-justified text-foreground/90 text-base leading-relaxed">
             {t('intro_description')}
           </p>

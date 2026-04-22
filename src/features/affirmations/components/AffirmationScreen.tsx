@@ -55,7 +55,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
   };
 
   return (
-    <div className="flex min-h-screen flex-col px-6 py-12">
+    <div className="flex  flex-col px-6 py-12">
       <div className="mx-auto flex w-full w-full flex-1 flex-col">
         {/* Header */}
         <div className="text-center">
@@ -69,7 +69,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
         <div className="flex flex-1 flex-col items-center justify-center py-10">
           <div
             key={animKey}
-            className={`affirmation-fade-in w-full rounded-2xl ${pastelColor} p-8 shadow-md`}
+            className={`affirmation-fade-in w-full rounded-2xl ${pastelColor} p-8 `}
           >
             <p className="text-center font-serif text-xl leading-relaxed text-foreground">
               {t(`feelings.${feelingId}.affirmations.${currentIndex}`)}
@@ -95,7 +95,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
           <button
             onClick={goPrev}
             disabled={isFirst}
-            className="flex h-12 w-12 items-center justify-center rounded-full bg-card text-foreground shadow-sm transition-all duration-200 hover:shadow-md disabled:opacity-30 disabled:hover:shadow-sm"
+            className="flex h-12 w-12 items-center justify-center rounded-full bg-transparent text-foreground  transition-all duration-200 hover: disabled:opacity-30 disabled:hover:"
           >
             <ChevronLeft className="h-5 w-5" />
           </button>
@@ -107,7 +107,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
           <button
             onClick={goNext}
             disabled={isLast}
-            className="flex h-12 w-12 items-center justify-center rounded-full bg-card text-foreground shadow-sm transition-all duration-200 hover:shadow-md disabled:opacity-30 disabled:hover:shadow-sm"
+            className="flex h-12 w-12 items-center justify-center rounded-full bg-transparent text-foreground  transition-all duration-200 hover: disabled:opacity-30 disabled:hover:"
           >
             <ChevronRight className="h-5 w-5" />
           </button>
@@ -121,7 +121,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
                 setCurrentIndex(0);
                 setAnimKey((k) => k + 1);
               }}
-              className="w-full rounded-lg bg-primary py-4 text-base font-medium text-primary-foreground shadow-sm transition-all duration-300 hover:shadow-md active:scale-[0.98]"
+              className="w-full rounded-lg bg-primary py-4 text-base font-medium text-primary-foreground  transition-all duration-300 hover: active:scale-[0.98]"
             >
               {t("common.readAgain")}
             </button>

@@ -9,7 +9,7 @@ const BeforeYouBegin: React.FC<BeforeYouBeginProps> = ({ onBegin }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center px-6 py-12">
+    <div className="flex  flex-col items-center justify-center px-6 py-12">
       <div className="w-full w-full space-y-8">
         <div className="text-center">
           <span className="mb-6 inline-block text-3xl">🌿</span>
@@ -37,7 +37,7 @@ const BeforeYouBegin: React.FC<BeforeYouBeginProps> = ({ onBegin }) => {
 
         <button
           onClick={onBegin}
-          className="mt-4 w-full rounded-lg bg-primary py-4 text-base font-medium text-primary-foreground shadow-sm transition-all duration-300 hover:shadow-md active:scale-[0.98]"
+          className="mt-4 w-full rounded-lg bg-primary py-4 text-base font-medium text-primary-foreground  transition-all duration-300 hover: active:scale-[0.98]"
         >
           {t("common.begin")}
         </button>

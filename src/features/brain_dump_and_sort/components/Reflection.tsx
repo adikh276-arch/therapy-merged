@@ -18,7 +18,7 @@ export const Reflection = ({ onComplete, onBack }: Props) => {
   const [selected, setSelected] = useState<string | null>(null);
 
   return (
-    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col items-center justify-center">
+    <div className="w-full mx-auto px-6 py-8  flex flex-col items-center justify-center">
       <div className="text-center animate-fade-in">
         <h1 className="text-3xl font-bold text-foreground mb-2">{t("reflection_title")}</h1>
         <p className="text-muted-foreground text-sm mb-10">{t("reflection_desc")}</p>
@@ -30,8 +30,8 @@ export const Reflection = ({ onComplete, onBack }: Props) => {
             key={f.label}
             onClick={() => setSelected(f.label)}
             className={`flex items-center gap-3 p-4 rounded-lg border-2 transition-all duration-300 animate-fade-in ${selected === f.label
-                ? "border-primary bg-accent shadow-soft"
-                : "border-border bg-card/80 hover:border-primary/30"
+                ? "border-primary bg-accent "
+                : "border-border bg-transparent/80 hover:border-primary/30"
               }`}
             style={{ animationDelay: `${feelings.indexOf(f) * 0.1}s` }}
           >
@@ -52,7 +52,7 @@ export const Reflection = ({ onComplete, onBack }: Props) => {
       {selected && (
         <button
           onClick={() => onComplete(selected)}
-          className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover:shadow-soft active:scale-[0.98] animate-fade-in mb-8"
+          className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover: active:scale-[0.98] animate-fade-in mb-8"
         >
           {t("finish_session")}
         </button>

@@ -55,7 +55,7 @@ const ReviewEntry = () => {
 
   return (
     <PageTransition>
-      <div className="flex flex-col min-h-screen bg-background px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
+      <div className="flex flex-col  bg-transparent px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
         <header className="mb-6">
           <h1 className="text-2xl font-heading font-semibold text-foreground text-left">
             {t("review.heading")}
@@ -66,7 +66,7 @@ const ReviewEntry = () => {
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, delay: 0.1 }}
-          className="bg-card rounded-lg p-5 shadow-card space-y-5"
+          className="bg-transparent rounded-lg p-5  space-y-5"
         >
           <div>
             <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide mb-1">
@@ -106,13 +106,13 @@ const ReviewEntry = () => {
           <div className="flex gap-3">
             <button
               onClick={handleEdit}
-              className="flex-1 h-[52px] rounded-pill border-2 border-secondary text-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:bg-secondary/30 shadow-sm"
+              className="flex-1 h-[52px] rounded-pill border-2 border-secondary text-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:bg-secondary/30 "
             >
               {t("review.edit")}
             </button>
             <button
               onClick={() => navigate("./history")}
-              className="flex-1 h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:brightness-105 shadow-md"
+              className="flex-1 h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 active:scale-[0.98] hover:brightness-105 "
             >
               {t("review.history")}
             </button>

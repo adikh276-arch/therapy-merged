@@ -10,8 +10,8 @@ export default function GroundingCard({ technique, onClick, label }: GroundingCa
   return (
     <button
       onClick={onClick}
-      className={`${technique.color} w-full rounded-xl p-4 text-left shadow-card 
-        transition-all duration-200 hover:shadow-elevated hover:scale-[1.02] active:scale-[0.98]
+      className={`${technique.color} w-full rounded-xl p-4 text-left  
+        transition-all duration-200 hover: hover:scale-[1.02] active:scale-[0.98]
         text-foreground font-medium text-sm leading-snug`}
     >
       {label}

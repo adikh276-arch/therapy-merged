@@ -8,7 +8,7 @@ const Index = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-background relative">
+    <div className=" bg-transparent relative">
       <div className="absolute top-4 right-4 z-50">
         <LanguageSelector />
       </div>

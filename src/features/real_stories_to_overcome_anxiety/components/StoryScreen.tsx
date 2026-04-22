@@ -14,7 +14,7 @@ const StoryScreen: FC<StoryScreenProps> = ({ story, storyIndex, isLast, onNext, 
   const { t } = useTranslation();
 
   return (
-    <main className="min-h-screen px-6 py-10 animate-fade-in text-left" key={story.name}>
+    <main className=" px-6 py-10 animate-fade-in text-left" key={story.name}>
       {/* Back link */}
       <button
         onClick={onBack}

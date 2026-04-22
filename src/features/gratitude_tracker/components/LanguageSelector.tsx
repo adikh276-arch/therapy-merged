@@ -47,12 +47,12 @@ export default function LanguageSelector() {
         <div className="fixed top-4 right-4 z-50">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" className="gap-2 bg-background/80 backdrop-blur-sm border-border/50 shadow-soft">
+                    <Button variant="outline" size="sm" className="gap-2 bg-transparent/80 backdrop-blur-sm border-border/50 ">
                         <Globe className="h-4 w-4" />
                         <span className="hidden sm:inline">{currentLanguage.name}</span>
                     </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto bg-background/95 backdrop-blur-md">
+                <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto bg-transparent/95 backdrop-blur-md">
                     {languages.map((lang) => (
                         <DropdownMenuItem
                             key={lang.code}

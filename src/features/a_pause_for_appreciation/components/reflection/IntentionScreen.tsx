@@ -39,7 +39,7 @@ const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) 
             onClick={() => onChange(opt.label)}
             className={`w-full text-left p-4 rounded-lg text-sm font-body transition-all duration-300 ${value === opt.label
                 ? "bg-primary/15 ring-1 ring-primary/40"
-                : "bg-background/60 hover:bg-background/80"
+                : "bg-transparent/60 hover:bg-transparent/80"
               }`}
           >
             <span className="mr-2">{opt.icon}</span>

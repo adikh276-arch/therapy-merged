@@ -22,7 +22,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col items-center min-h-screen px-5 py-10 text-center"
+      className="flex flex-col items-center  px-5 py-10 text-center"
     >
       <img src={cherryBlossom} alt="Cherry blossom" className="w-28 h-28 rounded-full object-cover mb-6" />
 
@@ -42,7 +42,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.08 }}
-              className="bg-card rounded-2xl p-5 text-left space-y-2"
+              className="bg-transparent rounded-2xl p-5 text-left space-y-2"
             >
               <p className="text-muted-foreground text-sm text-center">{entry.date}</p>
               {entry.gratitudes.map((g, j) => (

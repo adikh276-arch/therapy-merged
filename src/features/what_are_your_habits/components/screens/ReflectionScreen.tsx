@@ -9,7 +9,7 @@ const ReflectionScreen = ({ onNext }: { onNext: () => void }) => {
   const [calm, setCalm] = useState("");
 
   return (
-    <div className="bg-card rounded-2xl p-6 shadow-sm border border-border flex flex-col gap-5">
+    <div className="bg-transparent rounded-2xl p-6  border border-border flex flex-col gap-5">
       <StepProgress current={4} total={4} />
       <h2 className="text-xl font-semibold text-foreground">{t('reflection_title')}</h2>
       <div className="flex flex-col gap-4">
@@ -20,7 +20,7 @@ const ReflectionScreen = ({ onNext }: { onNext: () => void }) => {
           <textarea
             value={stress}
             onChange={(e) => setStress(e.target.value)}
-            className="w-full rounded-xl border-2 border-border bg-background p-3 text-sm text-foreground resize-none focus:outline-none focus:border-primary transition-colors"
+            className="w-full rounded-xl border-2 border-border bg-transparent p-3 text-sm text-foreground resize-none focus:outline-none focus:border-primary transition-colors"
             rows={3}
           />
         </div>

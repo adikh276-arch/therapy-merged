@@ -1,7 +1,6 @@
 import { neon, neonConfig } from '@neondatabase/serverless';
 
 // Version: 1.0.1 - Unified Monorepo DB Client
-neonConfig.fetchConnectionCache = true;
 
 const connectionString = import.meta.env.VITE_DATABASE_URL || "";
 
@@ -10,7 +9,7 @@ if (!connectionString) {
 }
 
 // Singleton SQL client
-export const sql = connectionString ? neon(connectionString) : null;
+export const sql = connectionString ? neon(connectionString, { disableWarningInBrowsers: true }) : null;
 
 /**
  * Global DB Query Helper
@@ -23,8 +22,8 @@ export async function dbRequest<T = any>(query: string, params: any[] = []): Pro
   }
 
   try {
-    const result = await sql(query, params);
-    return Array.isArray(result) ? result : [];
+    const result = await (sql as any).query(query, params);
+    return Array.isArray(result) ? result : (result.rows || []);
   } catch (error) {
     console.error('Unified DB Error:', error);
     throw error;

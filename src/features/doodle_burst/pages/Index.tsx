@@ -66,7 +66,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-playful relative flex items-center justify-center p-4">
+    <div className=" bg-playful relative flex items-center justify-center p-4">
       <LanguageSelector />
       <AnimatePresence mode="wait">
         {screen === "intro" && (
@@ -96,7 +96,7 @@ const Index = () => {
                 {t("intro_subtitle")}
               </p>
 
-              <div className="bg-card/80 backdrop-blur-sm rounded-3xl p-6 shadow-soft text-center">
+              <div className="bg-transparent/80 backdrop-blur-sm rounded-3xl p-6  text-center">
                 <p className="text-foreground leading-relaxed text-justify">
                   {t("intro_reason")}
                   <br />
@@ -108,7 +108,7 @@ const Index = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={startActivity}
-                className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-bold text-lg shadow-soft animate-pulse-glow transition-all"
+                className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-bold text-lg  animate-pulse-glow transition-all"
               >
                 {t("start_doodling")}
                 <ArrowRight size={20} />
@@ -118,7 +118,7 @@ const Index = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => navigate("./history")}
-                className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-base shadow-soft border border-border transition-all"
+                className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-transparent text-foreground font-semibold text-base  border border-border transition-all"
               >
                 <History size={18} />
                 {t("view_past_doodles")}
@@ -195,7 +195,7 @@ const Index = () => {
 
             <p className="text-sm text-muted-foreground">{t("end_saved")}</p>
 
-            <div className="bg-card/80 backdrop-blur-sm rounded-3xl p-6 shadow-soft">
+            <div className="bg-card/80 backdrop-blur-sm rounded-3xl p-6 ">
               <p className="text-foreground mb-4 text-justify">
                 {t("end_reset")}
               </p>
@@ -211,7 +211,7 @@ const Index = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => setScreen("intro")}
-                className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-bold text-lg shadow-soft animate-pulse-glow transition-all"
+                className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-bold text-lg  animate-pulse-glow transition-all"
               >
                 {t("back_to_focus")}
                 <Rocket size={20} />
@@ -222,7 +222,7 @@ const Index = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => setIsShareModalOpen(true)}
-                  className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-sm shadow-soft border border-border transition-all"
+                  className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-sm  border border-border transition-all"
                 >
                   <Share2 size={16} />
                   {t("share_doodle")}
@@ -231,7 +231,7 @@ const Index = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => navigate("./history")}
-                  className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-sm shadow-soft border border-border transition-all"
+                  className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-sm  border border-border transition-all"
                 >
                   <History size={16} />
                   {t("view_history")}

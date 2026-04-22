@@ -48,7 +48,7 @@ const TopBar = ({ title, showBack = false, showCalendar = false }: TopBarProps) 
         {showBack && (
           <button
             onClick={() => navigate(-1)}
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-card text-foreground transition-colors hover:bg-secondary"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-transparent text-foreground transition-colors hover:bg-secondary"
           >
             <ArrowLeft className="h-5 w-5" />
           </button>
@@ -61,7 +61,7 @@ const TopBar = ({ title, showBack = false, showCalendar = false }: TopBarProps) 
         {showCalendar && (
           <button
             onClick={() => navigate("/weekly")}
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-card text-foreground transition-colors hover:bg-secondary"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-transparent text-foreground transition-colors hover:bg-secondary"
           >
             <Calendar className="h-5 w-5" />
           </button>

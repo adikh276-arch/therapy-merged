@@ -9,11 +9,11 @@ interface Props {
 const OverviewScreen = ({ onStart }: Props) => {
   const { t } = useTranslation();
   return (
-    <div className="min-h-screen gradient-calm flex flex-col">
+    <div className=" gradient-calm flex flex-col">
       {/* Header */}
       <header className="flex items-center justify-between px-6 pt-6 pb-4">
         <button
-          className="w-10 h-10 rounded-full bg-card shadow-soft flex items-center justify-center"
+          className="w-10 h-10 rounded-full bg-transparent  flex items-center justify-center"
           onClick={() => {
             if (window.parent !== window) {
               window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
@@ -34,7 +34,7 @@ const OverviewScreen = ({ onStart }: Props) => {
       {/* Content */}
       <div className="flex-1 px-6 pb-8 flex flex-col">
         {/* About Section */}
-        <section className="bg-card rounded-lg p-6 shadow-soft mb-5 animate-fade-in">
+        <section className="bg-transparent rounded-lg p-6  mb-5 animate-fade-in">
           <p className="text-xs font-semibold tracking-widest text-muted-foreground uppercase mb-3">
             {t("about_technique")}
           </p>
@@ -44,7 +44,7 @@ const OverviewScreen = ({ onStart }: Props) => {
         </section>
 
         {/* Steps Section */}
-        <section className="bg-card rounded-lg p-6 shadow-soft animate-fade-in" style={{ animationDelay: "0.1s" }}>
+        <section className="bg-card rounded-lg p-6  animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <p className="text-xs font-semibold tracking-widest text-muted-foreground uppercase mb-4">
             {t("how_to_practice")}
           </p>
@@ -72,7 +72,7 @@ const OverviewScreen = ({ onStart }: Props) => {
         {/* CTA */}
         <button
           onClick={onStart}
-          className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base shadow-button hover:brightness-105 active:scale-[0.98] transition-all duration-200"
+          className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base  hover:brightness-105 active:scale-[0.98] transition-all duration-200"
         >
           {t("start_breathing")}
         </button>

@@ -13,7 +13,7 @@ const ReflectionInput = forwardRef<
       <textarea
         ref={ref}
         className={cn(
-          "w-full bg-card text-foreground text-[16px] font-body rounded-2xl border border-border",
+          "w-full bg-transparent text-foreground text-[16px] font-body rounded-2xl border border-border",
           "px-5 py-4 min-h-[56px] resize-none placeholder:text-placeholder",
           "focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary",
           "transition-all duration-200",

@@ -10,13 +10,13 @@ const EnergyCheckScreen = ({ onFinish }: EnergyCheckScreenProps) => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-6 py-12 animate-fade-in">
+    <div className="flex flex-col items-center justify-center  px-6 py-12 animate-fade-in">
       <div className="w-full w-full text-center space-y-8">
         {/* Step indicator */}
         <div className="flex items-center justify-center gap-2">
           <div className="w-2 h-2 rounded-full bg-primary/40" />
           <div className="w-2 h-2 rounded-full bg-primary/40" />
-          <div className="w-3 h-3 rounded-full bg-primary shadow-md" />
+          <div className="w-3 h-3 rounded-full bg-primary " />
         </div>
 
         <div>
@@ -53,7 +53,7 @@ const EnergyCheckScreen = ({ onFinish }: EnergyCheckScreenProps) => {
 
         <Button
           onClick={onFinish}
-          className="w-full py-6 text-lg font-heading font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all gap-2"
+          className="w-full py-6 text-lg font-heading font-semibold rounded-xl  hover: transition-all gap-2"
           size="lg"
         >
           <Heart className="w-5 h-5" />

@@ -12,7 +12,7 @@ const ValueCard = ({ emoji, name, selected, onClick }: ValueCardProps) => {
       className={`relative flex flex-col items-center justify-center gap-2 p-5 rounded-[var(--radius)] transition-all duration-200 cursor-pointer border ${
         selected
           ? 'bg-accent border-primary/30 scale-[1.03]'
-          : 'bg-card border-transparent shadow-card hover:shadow-lg'
+          : 'bg-transparent border-transparent  hover:'
       }`}
     >
       {selected && (

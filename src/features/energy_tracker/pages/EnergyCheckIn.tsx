@@ -18,7 +18,7 @@ const EnergyCheckIn = () => {
   ];
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-background">
+    <div className="flex min-h-[100dvh] flex-col bg-transparent">
       <TopBar title={t("app_title")} showCalendar />
 
       <main className="flex flex-1 flex-col items-center px-6 pt-6">
@@ -41,7 +41,7 @@ const EnergyCheckIn = () => {
                 transition={{ delay: i * 0.06 }}
                 onClick={() => setCurrentLevel(opt.level)}
                 className={`flex flex-col items-center gap-2 rounded-2xl border p-3 transition-all ${isSelected
-                    ? "energy-glow scale-110 border-primary/30 bg-surface-glow"
+                    ? "energy-glow scale-110 border-primary/30 bg-transparent"
                     : "border-border bg-card hover:border-primary/20 hover:bg-secondary"
                   }`}
               >

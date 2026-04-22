@@ -45,14 +45,14 @@ const TodaySummary = () => {
   ];
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-background">
+    <div className="flex min-h-[100dvh] flex-col bg-transparent">
       <TopBar title={t("summary_title")} />
 
       <main className="flex flex-1 flex-col items-center px-6 pt-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="card-soft mb-8 w-full w-full rounded-2xl bg-card p-8 text-center"
+          className="card-soft mb-8 w-full w-full rounded-2xl bg-transparent p-8 text-center"
         >
           <span className="mb-2 block text-5xl">{emojiMap[level]}</span>
           <h2 className="mb-1 text-lg font-bold text-foreground">

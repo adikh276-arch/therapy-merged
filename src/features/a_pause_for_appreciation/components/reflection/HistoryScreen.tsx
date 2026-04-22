@@ -41,7 +41,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
       ) : (
         <div className="space-y-3 max-h-[60vh] overflow-y-auto pr-1">
           {entries.map((entry) => (
-            <div key={entry.id} className="bg-background/60 rounded-lg overflow-hidden">
+            <div key={entry.id} className="bg-transparent/60 rounded-lg overflow-hidden">
               <button
                 onClick={() => setExpanded(expanded === entry.id ? null : entry.id)}
                 className="w-full text-left p-4 flex items-center justify-between"

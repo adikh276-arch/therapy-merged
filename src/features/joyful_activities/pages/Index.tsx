@@ -30,7 +30,7 @@ const Index = () => {
 
   return (
     <div
-      className="min-h-screen bg-background flex items-center justify-center px-4 py-8 relative"
+      className=" bg-transparent flex items-center justify-center px-4 py-8 relative"
       style={{
         backgroundImage: `url(${floralBg})`,
         backgroundSize: "cover",

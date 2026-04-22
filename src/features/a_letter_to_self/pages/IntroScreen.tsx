@@ -16,7 +16,7 @@ const IntroScreen = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col px-4 py-6 fade-enter">
+    <div className=" flex flex-col px-4 py-6 fade-enter">
       {/* Back button */}
       <button
         onClick={handleBack}

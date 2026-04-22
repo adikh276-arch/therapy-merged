@@ -23,7 +23,7 @@ const StepInput = ({ count, placeholder, values, onChange }: StepInputProps) => 
             value={values[i] || ""}
             onChange={(e) => handleChange(i, e.target.value)}
             placeholder={placeholder || `${i + 1}.`}
-            className="w-full bg-card border border-border rounded-lg px-4 py-3 font-body text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-300"
+            className="w-full bg-transparent border border-border rounded-lg px-4 py-3 font-body text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-300"
           />
         </div>
       ))}

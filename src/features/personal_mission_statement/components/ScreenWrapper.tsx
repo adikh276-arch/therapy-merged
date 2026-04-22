@@ -15,7 +15,7 @@ const ScreenWrapper = ({ children, screenKey }: ScreenWrapperProps) => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -12 }}
         transition={{ duration: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
-        className="min-h-screen flex flex-col px-5 py-10 w-full mx-auto"
+        className=" flex flex-col px-5 py-10 w-full mx-auto"
       >
         {children}
       </motion.div>

@@ -34,7 +34,7 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -30 }}
       transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-      className="min-h-screen w-full relative overflow-hidden"
+      className=" w-full relative overflow-hidden"
       style={{ background: "linear-gradient(180deg, #F3EDFF 0%, #E9E4FF 100%)" }}
     >
       {/* Floating decorative elements */}
@@ -103,8 +103,8 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
                 onClick={() => onStoryNameChange(chip)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 border ${
                   storyName === chip
-                    ? "bg-primary text-primary-foreground border-primary shadow-md"
-                    : "bg-background/70 text-foreground border-border hover:border-primary/40 hover:bg-primary/5"
+                    ? "bg-primary text-primary-foreground border-primary "
+                    : "bg-transparent/70 text-foreground border-border hover:border-primary/40 hover:bg-primary/5"
                 }`}
               >
                 {chip}
@@ -123,7 +123,7 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
             value={storyName}
             onChange={(e) => onStoryNameChange(e.target.value)}
             placeholder='Or type your own story name...'
-            className="w-full border-2 border-primary/20 rounded-xl px-5 py-4 text-lg text-foreground bg-background/80 backdrop-blur-sm focus:outline-none focus:border-primary/50 focus:shadow-[0_0_20px_rgba(124,108,242,0.15)] transition-all duration-300 mb-4"
+            className="w-full border-2 border-primary/20 rounded-xl px-5 py-4 text-lg text-foreground bg-transparent/80 backdrop-blur-sm focus:outline-none focus:border-primary/50 focus:shadow-[0_0_20px_rgba(124,108,242,0.15)] transition-all duration-300 mb-4"
           />
         </motion.div>
 

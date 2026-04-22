@@ -18,7 +18,7 @@ const Index = () => {
   const goTo = (s: number) => setScreen(s);
 
   return (
-    <div className="bg-background min-h-screen">
+    <div className="bg-transparent ">
       {screen === 0 && <IntroScreen onNext={() => goTo(1)} onHistory={() => goTo(4)} />}
       {screen === 1 && (
         <ValuesScreen
