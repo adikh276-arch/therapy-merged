@@ -10,7 +10,7 @@ import { format } from "date-fns";
 import { toast } from "sonner";
 
 import { useAuth } from "../components/AuthContext";
-import { sql } from "../lib/db";
+import { sql } from '@/lib/db';
 
 const Index = () => {
   const { t } = useTranslation();

@@ -11,8 +11,8 @@ instance
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    ns: ['translation'],
-    defaultNS: 'translation',
+    
+    
     backend: {
       loadPath: '/therapy/locales/real_stories_to_overcome_anxiety/{{lng}}.json',
     },

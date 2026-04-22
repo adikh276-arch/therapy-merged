@@ -1,4 +1,4 @@
-import { sql } from '../../../lib/db';
+import { sql } from '@/lib/db';
 
 
 // This allows the driver to work in the browser via HTTP/WebSockets

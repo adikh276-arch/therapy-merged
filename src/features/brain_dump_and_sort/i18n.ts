@@ -11,8 +11,8 @@ instance
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    ns: ['translation'],
-    defaultNS: 'translation',
+    
+    
     backend: {
       loadPath: '/therapy/locales/brain_dump_and_sort/{{lng}}.json',
     },

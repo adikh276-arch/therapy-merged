@@ -1,8 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import axios from 'axios';
-import { neon } from '@neondatabase/serverless';
-
-const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
+import { sql } from '@/lib/db';
 
 interface AuthContextType {
     userId: string | null;
@@ -61,9 +59,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 cleanUrl();
 
                 // 6. DB Initialization/Upsert
-                if (DATABASE_URL) {
-                    const sql = neon(DATABASE_URL, { disableWarningInBrowsers: true });
-                    
+                if (true) {
+
                     // First, ensure the users table exists.
                     await sql`
                         CREATE TABLE IF NOT EXISTS users (

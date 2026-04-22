@@ -1,5 +1,4 @@
-import { sql } from '../../../lib/db';
-
+import { sql } from '@/lib/db';
 
 // For browser environments, @neondatabase/serverless handles the connection
 // without Node-only dependencies like 'net' or 'tls'.

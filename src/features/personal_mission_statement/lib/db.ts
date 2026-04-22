@@ -1,9 +1,4 @@
-import { sql } from '../../../lib/db';
-
-
-
-
-
+import { sql } from '@/lib/db';
 
 /**
  * Executes a parameterized query against Neon.

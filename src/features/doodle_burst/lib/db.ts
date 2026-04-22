@@ -1,4 +1,4 @@
-import { sql } from '../../../lib/db';
+import { sql } from '@/lib/db';
 
 
 export const pool = { query: (t, p) => (sql as any).query(t, p || []) };

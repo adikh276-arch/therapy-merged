@@ -1,4 +1,4 @@
-import { sql } from '../../../lib/db';
+import { sql } from '@/lib/db';
 import i18n from "../i18n";
 
 export interface SelfCareEntry {

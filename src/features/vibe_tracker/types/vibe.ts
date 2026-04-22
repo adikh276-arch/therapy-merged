@@ -1,4 +1,4 @@
-import { sql } from '../../../lib/db';
+import { sql } from '@/lib/db';
 
 
 // Disable the browser warning as requested

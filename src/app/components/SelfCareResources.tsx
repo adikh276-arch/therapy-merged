@@ -242,7 +242,7 @@ const topicDetails: Record<string, {
     todos: [
       { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
-      { title: "Know Your Values", icon: Brain, url: "/tools/know-your-values" },
+      { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
       { title: "Personal Mission Statement", icon: Compass, url: "/tools/personal-mission-statement" },
     ],
     resources: [

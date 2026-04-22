@@ -1,6 +1,7 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-@import "tailwindcss";
+
 
 @layer base {
   :root {
@@ -10,9 +11,8 @@
     --gradient-primary: linear-gradient(135deg, hsl(248, 82%, 68%), hsl(248, 82%, 62%));
     --shadow-card: 0px 8px 20px rgba(0, 0, 0, 0.06);
 
-    --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
+    
     --sidebar-primary-foreground: 0 0% 98%;
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
@@ -28,7 +28,7 @@
     
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
-    background: linear-gradient(180deg, hsl(var(--background)), hsl(var(--background-end)));
+    
   }
 }
 
@@ -42,6 +42,6 @@
   }
 
   .gradient-button {
-    background: var(--gradient-primary);
+    
   }
 }

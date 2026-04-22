@@ -2,6 +2,7 @@
 
 
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -15,7 +16,6 @@
   --color-ring: var(--ring);
   --color-card: var(--card);
   --color-popover: var(--popover);
-  --color-sidebar-background: var(--sidebar-background);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
   --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
@@ -41,9 +41,8 @@
 @layer base {
   :root {
 
-    --sidebar-background: 10 30% 95%;
     --sidebar-foreground: 0 0% 23%;
-    --sidebar-primary: 0 45% 70%;
+    
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 350 35% 75%;
     --sidebar-accent-foreground: 0 0% 23%;

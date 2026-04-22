@@ -1,6 +1,7 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Quicksand:wght@400;500;600&display=swap');
 
-@import "tailwindcss";
+
 
 @layer base {
   :root {
@@ -9,9 +10,8 @@
 
     --primary-pressed: 163 24% 46%;
 
-    --sidebar-background: 33 33% 93%;
     --sidebar-foreground: 0 0% 24%;
-    --sidebar-primary: 163 24% 53%;
+    
     --sidebar-primary-foreground: 33 33% 93%;
     --sidebar-accent: 150 18% 92%;
     --sidebar-accent-foreground: 0 0% 24%;
