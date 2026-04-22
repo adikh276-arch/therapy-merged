@@ -43,7 +43,6 @@ const resources = {
     tl: { translation: tl },
 };
 
-// Priority: URL param > localStorage > en
 const urlParams = new URLSearchParams(window.location.search);
 const langParam = urlParams.get('lang');
 const savedLang = localStorage.getItem('language');
@@ -53,7 +52,9 @@ const initialLang = (langParam && resources[langParam as keyof typeof resources]
         ? savedLang
         : 'en';
 
-i18n
+const instance = i18n.createInstance();
+
+instance
     .use(initReactI18next)
     .init({
         resources,
@@ -66,10 +67,10 @@ i18n
 
 // Apply URL param if present
 if (langParam && resources[langParam as keyof typeof resources]) {
-    i18n.changeLanguage(langParam);
+    instance.changeLanguage(langParam);
 }
 
-export default i18n;
+export default instance;
 
 export const SUPPORTED_LANGUAGES = [
   { code: 'en', name: 'English', nativeLabel: 'English' },

@@ -17,17 +17,19 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <UniversalBackButton /><Toaster />
-      <Sonner />
-      <React.Fragment>
-        <AuthGuard>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </AuthGuard>
-      </React.Fragment>
+      <I18nextProvider i18n={i18n}>
+        <UniversalBackButton /><Toaster />
+        <Sonner />
+        <React.Fragment>
+          <AuthGuard>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </AuthGuard>
+        </React.Fragment>
+      </I18nextProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );

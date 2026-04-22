@@ -108,9 +108,9 @@ const mindfulnessCards: MindfulnessCard[] = [
 const toolCards: TopicCard[] = [
   { id: "box-breathing", icon: Wind, label: "Box Breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
   { id: "gratitude-tracker", icon: Star, label: "Gratitude Tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
-  { id: "deep-breathing", icon: Activity, label: "Deep Breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/box-breathing" },
+  { id: "deep-breathing", icon: Activity, label: "Deep Breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
   { id: "affirmations", icon: Smile, label: "Affirmations", bgColor: "linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)", iconColor: "#AB47BC", url: "/tools/affirmations" },
-  { id: "mindful-space", icon: Compass, label: "Mindful Space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/exercises/joyful-activities" },
+  { id: "mindful-space", icon: Compass, label: "Mindful Space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
   { id: "letter-to-self", icon: Mail, label: "A Letter To Self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
 ];
 
@@ -155,7 +155,7 @@ const topicDetails: Record<string, {
     todos: [
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
     ],
     resources: [
@@ -178,7 +178,7 @@ const topicDetails: Record<string, {
       { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
       { title: "Daily Self Care Tracker", icon: Heart, url: "/trackers/care-tracker" },
       { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
-      { title: "Environment Optimization", icon: Compass, url: "/tools/environment" },
+      { title: "Environment Optimization", icon: Compass, url: "/tools/environment-optimization" },
     ],
     resources: [
       { title: "Articles", count: 28, icon: Newspaper, url: "/concerns/stress/articles" },
@@ -237,7 +237,7 @@ const topicDetails: Record<string, {
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     todos: [
       { title: "Know Your Values", icon: Target, url: "/tools/know-your-values" },
@@ -258,8 +258,8 @@ const topicDetails: Record<string, {
     exercises: [
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
-      { title: "Environment Optimization", icon: Compass, url: "/tools/environment" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { title: "Environment Optimization", icon: Compass, url: "/tools/environment-optimization" },
     ],
     todos: [
       { title: "Physical Activity Log", icon: Activity, url: "/trackers/physical-activity-log" },
@@ -308,7 +308,7 @@ const topicDetails: Record<string, {
     todos: [
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
       { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
     ],
     resources: [
@@ -353,7 +353,7 @@ const topicDetails: Record<string, {
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
       { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },
       { title: "Energy Tracker", icon: Zap, url: "/trackers/vibe-tracker" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     resources: [
       { title: "Articles", count: 20, icon: Newspaper, url: "/concerns/ptsd/articles" },
@@ -369,7 +369,7 @@ const topicDetails: Record<string, {
       { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     todos: [
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
@@ -412,7 +412,7 @@ const topicDetails: Record<string, {
     exercises: [
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
     todos: [
@@ -457,7 +457,7 @@ const topicDetails: Record<string, {
       { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
       { title: "Grounded Technique", icon: Compass, url: "/exercises/grounding-technique" },
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Thought Shifts", icon: RefreshCw, url: "/tools/thought-shifts" },
+      { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     todos: [
       { title: "Brain Dump & Sort", icon: Brain, url: "/tools/brain-dump-and-sort" },

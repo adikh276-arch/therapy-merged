@@ -44,7 +44,6 @@ const resources = {
     tl: { translation: tl },
 };
 
-// Get language from URL or localStorage or default to 'en'
 const getInitialLanguage = () => {
     const urlParams = new URLSearchParams(window.location.search);
     const langParam = urlParams.get('lang');
@@ -55,7 +54,9 @@ const getInitialLanguage = () => {
     return localStorage.getItem('language') || 'en';
 };
 
-i18n
+const instance = i18n.createInstance();
+
+instance
     .use(initReactI18next)
     .init({
         resources,
@@ -66,7 +67,7 @@ i18n
         },
     });
 
-export default i18n;
+export default instance;
 
 export const SUPPORTED_LANGUAGES = [
   { code: 'en', name: 'English', nativeLabel: 'English' },
