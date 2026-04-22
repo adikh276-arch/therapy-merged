@@ -7,14 +7,7 @@ import AffirmationScreen from "../components/activity/AffirmationScreen";
 import LanguageSelector from "../components/LanguageSelector";
 import floralBg from "../assets/floral-bg.png";
 
-export interface ActivityData {
-  activity: string;
-  feeling: string;
-  enjoyBecause: string;
-  feelsMore: string;
-  remindsOf: string;
-  smallStep: string;
-}
+import { ActivityData } from "../types/activity";
 
 const Index = () => {
   const [screen, setScreen] = useState(1);

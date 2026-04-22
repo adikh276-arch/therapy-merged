@@ -1,6 +1,6 @@
 import { ArrowLeft, Trash2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import type { ThoughtItem } from "./BrainDumpApp";
+import { ThoughtItem } from "./types";
 
 interface SavedSession {
   id: string;

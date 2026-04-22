@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ArrowLeft } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import type { ThoughtItem } from "./BrainDumpApp";
+import { ThoughtItem } from "./types";
 
 interface Props {
   thoughts: ThoughtItem[];

@@ -9,11 +9,7 @@ import { History, Loader2 } from "lucide-react";
 import { initializeUser, fetchUserSessions, saveSession, deleteSession } from "../lib/db-service";
 import { LanguageSelector } from "./LanguageSelector";
 
-export interface ThoughtItem {
-  id: string;
-  text: string;
-  bucket?: "action" | "later" | "letgo";
-}
+import { ThoughtItem } from "./types";
 
 const BrainDumpApp = () => {
   const [screen, setScreen] = useState(0);

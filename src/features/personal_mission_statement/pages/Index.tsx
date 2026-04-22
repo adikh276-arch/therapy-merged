@@ -5,11 +5,7 @@ import ReflectionScreen from "../components/screens/ReflectionScreen";
 import MissionScreen from "../components/screens/MissionScreen";
 import HistoryScreen from "../components/screens/HistoryScreen";
 
-export interface MissionData {
-  values: string[];
-  beingSomeoneWho: string;
-  lifeFeelMore: string;
-}
+import { MissionData } from "../types/mission";
 
 const Index = () => {
   const [screen, setScreen] = useState(0);

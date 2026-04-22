@@ -1,6 +1,6 @@
 import { Button } from "../../components/ui/button";
 import ActivityInput from "./ActivityInput";
-import type { ActivityData } from "../../pages/Index";
+import { ActivityData } from "../../types/activity";
 import { useTranslation } from "react-i18next";
 
 interface Props {

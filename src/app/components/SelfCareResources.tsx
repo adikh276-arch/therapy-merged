@@ -128,7 +128,7 @@ const topicDetails: Record<string, {
       { title: "5-4-3-2-1 Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
       { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Joyful Activities", icon: Sparkles, url: "/exercises/joyful-activities" },
+      { title: "Joyful Activities", icon: Sparkles, url: "/tools/joyful-activities" },
     ],
     todos: [
       { title: "Gratitude Tracker", icon: Star, url: "/trackers/gratitude-tracker" },
