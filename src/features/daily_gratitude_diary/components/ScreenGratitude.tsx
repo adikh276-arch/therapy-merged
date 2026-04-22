@@ -65,14 +65,14 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
               placeholder={t('placeholder_grateful')}
               value={entry.grateful}
               onChange={(e) => updateEntry(i, "grateful", e.target.value)}
-              className="w-full h-[54px] bg-transparent rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-200"
+              className="w-full h-[54px] bg-white/60 rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border border-primary/20 outline-none focus:ring-2 focus:ring-primary/40 transition-all duration-200 shadow-sm"
             />
             <input
               type="text"
               placeholder={t('placeholder_reason')}
               value={entry.reason}
               onChange={(e) => updateEntry(i, "reason", e.target.value)}
-              className="w-full h-[54px] bg-transparent rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-200"
+              className="w-full h-[54px] bg-white/60 rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border border-primary/20 outline-none focus:ring-2 focus:ring-primary/40 transition-all duration-200 shadow-sm"
             />
           </motion.div>
         ))}

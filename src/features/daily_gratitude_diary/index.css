@@ -51,7 +51,7 @@
 
     --input-text: 0 0% 0%; /* black for typed text */
 
-    --placeholder: 270 10% 66%; /* #A79FB3 */
+    --placeholder: 270 10% 50%; /* Darker for accessibility */
 
     --primary-pressed: 312 22% 56%; /* #B07AA1 */
   }

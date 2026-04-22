@@ -33,11 +33,11 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
       <div className="flex justify-end mb-2">
         <button
           onClick={onHistory}
-          className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105"
+          className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 hover:scale-105"
           style={{
-            background: "hsl(var(--muted))",
-            color: "hsl(var(--muted-foreground))",
-            border: "1.5px solid hsl(var(--primary) / 0.2)",
+            background: "hsl(var(--primary) / 0.1)",
+            color: "hsl(var(--primary))",
+            border: "1.5px solid hsl(var(--primary) / 0.3)",
           }}
         >
           <Clock className="w-4 h-4" />
@@ -49,7 +49,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
         {t("vibeTracker")}
       </h1>
 
-      <p className="font-heading text-lg text-center text-muted-foreground mt-6 mb-8">
+      <p className="font-heading text-lg text-center text-slate-600 mt-6 mb-8">
         {t("howAreYouFeeling")}
       </p>
 
@@ -74,7 +74,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
 
       {/* Custom Vibe */}
       <div className="mt-10 w-full mx-auto w-full">
-        <p className="font-heading text-sm font-semibold text-muted-foreground mb-3">
+        <p className="font-heading text-sm font-semibold text-slate-600 mb-3">
           {t("describeOwnVibe")}
         </p>
         <input

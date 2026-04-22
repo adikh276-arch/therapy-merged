@@ -73,7 +73,7 @@ const VibeHistory = ({ onBack }: Props) => {
     return (
       <div className="flex-1 flex flex-col items-center justify-center p-6 text-center">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mb-4"></div>
-        <p className="text-muted-foreground text-sm">Rewinding your journey...</p>
+        <p className="text-slate-600 text-sm font-medium">Rewinding your journey...</p>
       </div>
     );
   }
@@ -86,7 +86,7 @@ const VibeHistory = ({ onBack }: Props) => {
           onClick={onBack}
           className="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105"
           style={{
-            background: "hsl(var(--muted))",
+            background: "hsl(var(--primary) / 0.1)",
             border: "1.5px solid hsl(var(--primary) / 0.3)",
           }}
         >
@@ -103,7 +103,7 @@ const VibeHistory = ({ onBack }: Props) => {
           <p className="font-heading text-lg text-foreground mb-2">
             {t("noVibes")}
           </p>
-          <p className="text-muted-foreground text-sm max-w-xs">
+          <p className="text-slate-500 text-sm max-w-xs">
             {t("startFirstCheckIn")}
           </p>
         </div>
@@ -112,7 +112,7 @@ const VibeHistory = ({ onBack }: Props) => {
           {grouped.map(([dateKey, dayEntries]) => (
             <div key={dateKey}>
               {/* Date Header */}
-              <p className="font-heading text-sm font-semibold text-muted-foreground mb-3 uppercase tracking-wider">
+              <p className="font-heading text-sm font-bold text-slate-700 mb-3 uppercase tracking-wider">
                 {formatDate(dayEntries[0].timestamp)}
               </p>
  
@@ -122,9 +122,9 @@ const VibeHistory = ({ onBack }: Props) => {
                     key={entry.id}
                     className="rounded-3xl p-5 transition-all duration-200"
                     style={{
-                      background: "hsl(var(--muted))",
-                      border: "1.5px solid hsl(var(--primary) / 0.15)",
-                      boxShadow: "0 2px 8px hsl(var(--primary) / 0.06)",
+                      background: "white",
+                      border: "1.5px solid hsl(var(--primary) / 0.25)",
+                      boxShadow: "0 4px 12px hsl(var(--primary) / 0.08)",
                     }}
                   >
                     {/* Vibe + Time */}
@@ -137,7 +137,7 @@ const VibeHistory = ({ onBack }: Props) => {
                           {i18n.exists(`vibes.${entry.vibe}`) ? t(`vibes.${entry.vibe}`) : entry.vibe}
                         </span>
                       </div>
-                      <span className="text-xs text-muted-foreground">
+                      <span className="text-xs font-medium text-slate-500">
                         {formatTime(entry.timestamp)}
                       </span>
                     </div>
@@ -150,9 +150,9 @@ const VibeHistory = ({ onBack }: Props) => {
                           .map((reflection, i) => (
                             <p
                               key={i}
-                              className="text-sm text-muted-foreground leading-relaxed pl-3"
+                              className="text-sm text-slate-600 leading-relaxed pl-3 font-medium"
                               style={{
-                                borderLeft: "2px solid hsl(var(--primary) / 0.3)",
+                                borderLeft: "2.5px solid hsl(var(--primary) / 0.4)",
                               }}
                             >
                               {reflection}

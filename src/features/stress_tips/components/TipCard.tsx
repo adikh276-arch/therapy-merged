@@ -23,11 +23,11 @@ const TipCard = ({ icon, iconClass, title, description, slug, delay = 0 }: TipCa
       <div className={`pastel-icon ${iconClass}`}>{icon}</div>
       <div className="flex-1 min-w-0">
         <h4 className="font-semibold text-sm text-foreground">{title}</h4>
-        <p className="text-xs text-muted-foreground mt-0.5 line-clamp-2">
+        <p className="text-xs text-slate-600 font-medium mt-0.5 line-clamp-2">
           {description}
         </p>
       </div>
-      <ChevronRight className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+      <ChevronRight className="w-5 h-5 text-primary/60 flex-shrink-0" />
     </button>
   );
 };

@@ -33,8 +33,8 @@ const CheckInScreen = ({ value, onChange, onFinish }: CheckInScreenProps) => {
             key={s}
             onClick={() => onChange(s)}
             className={`w-full text-left p-3.5 rounded-lg text-sm font-body transition-all duration-300 ${value === s
-                ? "bg-primary/15 ring-1 ring-primary/40"
-                : "bg-transparent/60 hover:bg-transparent/80"
+                ? "bg-primary/15 ring-1 ring-primary/40 border border-primary/20"
+                : "bg-white/50 hover:bg-white/70 border border-white/60 shadow-sm"
               }`}
           >
             {s}

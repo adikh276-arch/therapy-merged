@@ -11,11 +11,11 @@ const Index = () => {
       <div className="w-full mx-auto px-5 py-10 pb-16">
         {/* Header */}
         <div className="mb-8">
-          <p className="text-sm text-muted-foreground mb-2">{t('index.tagline')}</p>
+          <p className="text-sm text-slate-500 font-bold mb-2 uppercase tracking-wide">{t('index.tagline')}</p>
           <h1 className="text-2xl font-bold text-foreground leading-tight">
             {t('index.title')}
           </h1>
-          <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+          <p className="text-sm text-slate-600 font-medium mt-2 leading-relaxed">
             {t('index.description')}
           </p>
         </div>

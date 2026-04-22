@@ -20,7 +20,7 @@ const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) 
   return (
     <div className="reflection-card space-y-6">
       <div className="flex items-center justify-between">
-        <p className="text-xs text-muted-foreground font-body">{t("intention.step")}</p>
+        <p className="text-xs text-slate-500 font-bold font-body uppercase tracking-wider">{t("intention.step")}</p>
         <div className="flex gap-1.5">
           {Array.from({ length: 4 }).map((_, i) => (
             <div key={i} className="h-1.5 w-6 rounded-full bg-primary" />
@@ -38,8 +38,8 @@ const IntentionScreen = ({ value, onChange, onContinue }: IntentionScreenProps) 
             key={opt.key}
             onClick={() => onChange(opt.label)}
             className={`w-full text-left p-4 rounded-lg text-sm font-body transition-all duration-300 ${value === opt.label
-                ? "bg-primary/15 ring-1 ring-primary/40"
-                : "bg-transparent/60 hover:bg-transparent/80"
+                ? "bg-primary/15 ring-1 ring-primary/40 border border-primary/20"
+                : "bg-white/50 hover:bg-white/70 border border-white/60 shadow-sm"
               }`}
           >
             <span className="mr-2">{opt.icon}</span>

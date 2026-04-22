@@ -123,7 +123,7 @@ const BingoGrid = () => {
         <h2 className="text-2xl font-extrabold text-foreground">
           {t('lets_play')}
         </h2>
-        <p className="text-muted-foreground text-sm">
+        <p className="text-slate-600 text-sm font-medium">
           {t('instructions').split('BINGO!')[0]}
           <span className="font-bold text-primary"> BINGO!</span>
         </p>
@@ -133,7 +133,7 @@ const BingoGrid = () => {
       <div className="bg-transparent rounded-2xl p-4  border border-border">
         <div className="flex items-center justify-between mb-2">
           <span className="text-sm font-semibold text-foreground">{t('progress_title')}</span>
-          <span className="text-sm text-muted-foreground">{t('progress_count', { count: progress })}</span>
+          <span className="text-sm text-slate-500 font-medium">{t('progress_count', { count: progress })}</span>
         </div>
         <div className="w-full h-3 bg-muted rounded-full overflow-hidden">
           <div
@@ -180,7 +180,7 @@ const BingoGrid = () => {
               {isCompleted && !isFreeSpace && (
                 <span className="text-[10px] mb-0.5">✅</span>
               )}
-              <span className={`text-[10px] leading-tight ${isCompleted && !isFreeSpace ? "line-through opacity-70" : ""}`}>
+              <span className={`text-[10px] leading-tight ${isCompleted && !isFreeSpace ? "line-through opacity-90 font-bold" : "font-semibold"}`}>
                 {tile.text}
               </span>
             </button>

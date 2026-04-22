@@ -16,7 +16,7 @@ const Index = () => {
         {/* Header */}
         <div className="text-center space-y-2">
           <h1 className="text-4xl font-extrabold text-foreground">{t('title')}</h1>
-          <p className="text-muted-foreground whitespace-pre-line">
+          <p className="text-slate-600 font-medium whitespace-pre-line">
             {t('description')}
           </p>
         </div>
