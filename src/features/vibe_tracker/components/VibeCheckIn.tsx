@@ -65,7 +65,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
             className={`vibe-circle ${selected === vibe.label ? "selected animate-gentle-pulse" : ""}`}
           >
             <span className="text-2xl leading-none">{vibe.emoji}</span>
-            <span className="text-xs mt-1 font-medium text-foreground/80">
+            <span className="text-xs mt-1 font-medium text-slate-900">
               {t(`vibes.${vibe.label}`)}
             </span>
           </button>

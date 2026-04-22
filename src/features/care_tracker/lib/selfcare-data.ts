@@ -104,8 +104,8 @@ export async function saveEntryToDb(userId: string, entry: SelfCareEntry) {
         prevention_reasons, helpful_type, mood, mood_emoji
       )
       VALUES (
-        ${userId}, ${entry.date}, ${entry.didSelfCare}, ${entry.activities}, ${entry.duration},
-        ${entry.preventionReasons}, ${entry.helpfulType}, ${entry.mood}, ${entry.moodEmoji}
+        ${userId}, ${entry.date}, ${entry.didSelfCare}, ${JSON.stringify(entry.activities)}, ${entry.duration},
+        ${JSON.stringify(entry.preventionReasons)}, ${entry.helpfulType}, ${entry.mood}, ${entry.moodEmoji}
       )
       ON CONFLICT (user_id, date) DO UPDATE SET
         did_self_care = EXCLUDED.did_self_care,

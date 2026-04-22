@@ -14,6 +14,10 @@ import PageTransition from "./components/PageTransition";
 import AuthGuard from "./components/AuthGuard";
 import Handshake from "./components/Handshake";
 import React from 'react';
+import { TooltipProvider } from "./components/ui/tooltip";
+import { UniversalBackButton } from "../../components/UniversalBackButton";
+import { Toaster } from "./components/ui/toaster";
+import { Toaster as Sonner } from "./components/ui/sonner";
 
 const queryClient = new QueryClient();
 
