@@ -27,3 +27,25 @@ instance
   });
 
 export default instance;
+
+export const SUPPORTED_LANGUAGES = [
+  { code: 'en', name: 'English', label: 'English', nativeLabel: 'English' },
+  { code: 'es', name: 'Spanish', label: 'Spanish', nativeLabel: 'Español' },
+  { code: 'fr', name: 'French', label: 'French', nativeLabel: 'Français' },
+  { code: 'de', name: 'German', label: 'German', nativeLabel: 'Deutsch' },
+  { code: 'pt', name: 'Portuguese', label: 'Portuguese', nativeLabel: 'Português' },
+  { code: 'hi', name: 'Hindi', label: 'Hindi', nativeLabel: 'हिन्दी' },
+  { code: 'bn', name: 'Bengali', label: 'Bengali', nativeLabel: 'বাংলা' },
+  { code: 'zh', name: 'Chinese', label: 'Chinese', nativeLabel: '中文' },
+  { code: 'ja', name: 'Japanese', label: 'Japanese', nativeLabel: '日本語' },
+  { code: 'ko', name: 'Korean', label: 'Korean', nativeLabel: '한국어' },
+  { code: 'ru', name: 'Russian', label: 'Russian', nativeLabel: 'Русский' },
+  { code: 'it', name: 'Italiano', label: 'Italiano', nativeLabel: 'Italiano' },
+  { code: 'ar', name: 'Arabic', label: 'Arabic', nativeLabel: 'العربية' },
+  { code: 'id', name: 'Indonesian', label: 'Indonesian', nativeLabel: 'Bahasa Indonesia' },
+  { code: 'tr', name: 'Turkish', label: 'Turkish', nativeLabel: 'Türkçe' },
+  { code: 'vi', name: 'Vietnamese', label: 'Vietnamese', nativeLabel: 'Tiếng Việt' },
+  { code: 'pl', name: 'Polish', label: 'Polish', nativeLabel: 'Polski' },
+  { code: 'th', name: 'Thai', label: 'Thai', nativeLabel: 'ไทย' },
+  { code: 'tl', name: 'Tagalog', label: 'Tagalog', nativeLabel: 'Filipino' },
+];
