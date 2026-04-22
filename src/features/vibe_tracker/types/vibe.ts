@@ -10,7 +10,7 @@ export interface VibeEntry {
   timestamp: string; // ISO string
 }
 
-const DATABASE_URL = "postgresql://neondb_owner:npg_QO0gWNunLw2t@ep-lingering-breeze-a195t3dz.ap-southeast-1.aws.neon.tech/neondb?sslmode=require";
+const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 const sql = neon(DATABASE_URL);
 

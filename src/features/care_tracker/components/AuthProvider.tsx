@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 import { neon } from '@neondatabase/serverless';
 
-const DATABASE_URL = import.meta.env.VITE_NEON_DATABASE_URL;
+const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
 
 interface AuthContextType {
     userId: string | null;
