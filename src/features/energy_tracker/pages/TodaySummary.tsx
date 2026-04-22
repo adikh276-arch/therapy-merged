@@ -52,7 +52,7 @@ const TodaySummary = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="card-soft mb-8 w-full max-w-sm rounded-2xl bg-card p-8 text-center"
+          className="card-soft mb-8 w-full w-full rounded-2xl bg-card p-8 text-center"
         >
           <span className="mb-2 block text-5xl">{emojiMap[level]}</span>
           <h2 className="mb-1 text-lg font-bold text-foreground">
@@ -63,7 +63,7 @@ const TodaySummary = () => {
           </p>
         </motion.div>
 
-        <div className="w-full max-w-sm space-y-3">
+        <div className="w-full w-full space-y-3">
           {suggestions.map((s, i) => (
             <motion.div
               key={s.text}

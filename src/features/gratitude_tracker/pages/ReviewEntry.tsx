@@ -55,7 +55,7 @@ const ReviewEntry = () => {
 
   return (
     <PageTransition>
-      <div className="flex flex-col min-h-screen bg-background px-5 pt-12 pb-28 max-w-md mx-auto w-full text-justify">
+      <div className="flex flex-col min-h-screen bg-background px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
         <header className="mb-6">
           <h1 className="text-2xl font-heading font-semibold text-foreground text-left">
             {t("review.heading")}
@@ -102,7 +102,7 @@ const ReviewEntry = () => {
           </div>
         </motion.div>
 
-        <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md bg-background/80 backdrop-blur-md px-5 py-4 safe-bottom border-t border-border/50 z-10">
+        <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full w-full bg-background/80 backdrop-blur-md px-5 py-4 safe-bottom border-t border-border/50 z-10">
           <div className="flex gap-3">
             <button
               onClick={handleEdit}

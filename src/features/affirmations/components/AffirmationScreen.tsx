@@ -56,7 +56,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
 
   return (
     <div className="flex min-h-screen flex-col px-6 py-12">
-      <div className="mx-auto flex w-full max-w-md flex-1 flex-col">
+      <div className="mx-auto flex w-full w-full flex-1 flex-col">
         {/* Header */}
         <div className="text-center">
           <span className="mb-4 inline-block text-3xl">🌿</span>

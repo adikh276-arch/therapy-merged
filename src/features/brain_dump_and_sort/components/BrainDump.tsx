@@ -42,7 +42,7 @@ export const BrainDump = ({ onComplete }: Props) => {
   const filledThoughts = thoughts.map((t) => t.trim()).filter(Boolean);
 
   return (
-    <div className="max-w-md mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
       <div className="mb-8 animate-fade-in">
         <h1 className="text-2xl font-bold text-foreground mb-1">Brain Dump</h1>
         <p className="text-muted-foreground text-sm">{t("dump_hint")}</p>

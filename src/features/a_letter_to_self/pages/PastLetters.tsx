@@ -53,7 +53,7 @@ const PastLetters = () => {
   if (selectedEntry) {
     return (
       <div className="min-h-screen px-4 py-8 fade-enter">
-        <div className="max-w-lg mx-auto space-y-6">
+        <div className="w-full mx-auto space-y-6">
           <button
             onClick={() => setSelectedEntry(null)}
             className="flex items-center gap-1.5 text-muted-foreground text-sm hover:text-foreground letter-transition"
@@ -111,7 +111,7 @@ const PastLetters = () => {
 
   return (
     <div className="min-h-screen px-4 py-8 fade-enter">
-      <div className="max-w-lg mx-auto space-y-6">
+      <div className="w-full mx-auto space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-heading">My Letters</h1>
           <Button

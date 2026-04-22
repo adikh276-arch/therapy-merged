@@ -20,7 +20,7 @@ const FeelingSelector: React.FC<FeelingSelectorProps> = ({ onSelect }) => {
 
   return (
     <div className="flex min-h-screen flex-col px-6 py-12">
-      <div className="mx-auto w-full max-w-md space-y-6">
+      <div className="mx-auto w-full w-full space-y-6">
         <div className="text-center">
           <span className="mb-4 inline-block text-3xl">🌿</span>
           <h1 className="font-serif text-2xl font-medium tracking-tight text-foreground">

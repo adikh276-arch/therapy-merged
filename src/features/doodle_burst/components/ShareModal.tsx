@@ -86,7 +86,7 @@ export default function ShareModal({ isOpen, onClose, originalDataUrl }: ShareMo
           initial={{ scale: 0.9, opacity: 0, y: 20 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.9, opacity: 0, y: 20 }}
-          className="bg-card rounded-3xl shadow-glow max-w-md w-full overflow-hidden flex flex-col max-h-[90vh]"
+          className="bg-card rounded-3xl shadow-glow w-full w-full overflow-hidden flex flex-col max-h-[90vh]"
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}

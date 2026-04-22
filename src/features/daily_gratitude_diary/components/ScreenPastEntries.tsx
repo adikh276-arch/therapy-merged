@@ -35,7 +35,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
           {t('no_entries')}
         </p>
       ) : (
-        <div className="w-full max-w-sm space-y-4 mb-10">
+        <div className="w-full w-full space-y-4 mb-10">
           {entries.map((entry, i) => (
             <motion.div
               key={i}
@@ -71,7 +71,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
         whileTap={{ scale: 0.98 }}
         transition={{ duration: 0.15 }}
         onClick={onBack}
-        className="w-full max-w-sm h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
+        className="w-full w-full h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
       >
         {t('back')}
       </motion.button>

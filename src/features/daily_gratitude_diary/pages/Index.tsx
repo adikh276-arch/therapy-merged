@@ -79,7 +79,7 @@ const Index = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto">
+    <div className="w-full mx-auto">
       <AnimatePresence mode="wait">
         {screen === "intro" && (
           <ScreenIntro key="intro" onStart={() => setScreen("gratitude")} />

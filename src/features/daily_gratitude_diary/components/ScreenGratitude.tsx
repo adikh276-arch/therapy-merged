@@ -43,7 +43,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
         {t('grateful_title')}
       </h1>
 
-      <div className="space-y-3 mb-8 max-w-sm">
+      <div className="space-y-3 mb-8 w-full">
         <p className="text-foreground leading-[1.7]">{t('grateful_step_1')}</p>
         <p className="text-foreground leading-[1.7]">
           {t('grateful_step_2')}
@@ -51,7 +51,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
         <p className="text-muted-foreground leading-[1.7]">{t('grateful_step_3')}</p>
       </div>
 
-      <div className="w-full max-w-sm space-y-6 mb-10">
+      <div className="w-full w-full space-y-6 mb-10">
         {entries.map((entry, i) => (
           <motion.div
             key={i}
@@ -78,7 +78,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
         ))}
       </div>
 
-      <div className="w-full max-w-sm space-y-3">
+      <div className="w-full w-full space-y-3">
         <motion.button
           whileTap={{ scale: 0.98 }}
           transition={{ duration: 0.15 }}

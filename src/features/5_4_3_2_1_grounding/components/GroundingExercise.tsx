@@ -55,7 +55,7 @@ const GroundingExercise = () => {
   if (submitted) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background px-6">
-        <div className="text-center max-w-md fade-in">
+        <div className="text-center w-full fade-in">
           <div className="w-20 h-20 rounded-full bg-accent mx-auto mb-8 flex items-center justify-center">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-accent-foreground">
               <path d="M20 6 9 17l-5-5" />
@@ -103,7 +103,7 @@ const GroundingExercise = () => {
 
       {/* Content */}
       <div className="relative z-10 flex-1 flex items-center justify-center px-6 pb-12" key={animKey}>
-        <div className="max-w-lg w-full text-center">
+        <div className="w-full w-full text-center">
           {/* Step number badge for sense steps */}
           {(step.inputCount ?? 0) > 0 && (
             <div className="fade-in mb-6">
@@ -146,7 +146,7 @@ const GroundingExercise = () => {
 
           {/* Reflection input */}
           {step.reflectionPrompt && (
-            <div className="mb-8 fade-in-delayed max-w-sm mx-auto">
+            <div className="mb-8 fade-in-delayed w-full mx-auto">
               <p className="font-body text-xs text-muted-foreground mb-3 tracking-wide uppercase">
                 {t("common.reflection_question")}
               </p>

@@ -10,7 +10,7 @@ const BeforeYouBegin: React.FC<BeforeYouBeginProps> = ({ onBegin }) => {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center px-6 py-12">
-      <div className="w-full max-w-md space-y-8">
+      <div className="w-full w-full space-y-8">
         <div className="text-center">
           <span className="mb-6 inline-block text-3xl">🌿</span>
           <h1 className="font-serif text-3xl font-medium tracking-tight text-foreground">

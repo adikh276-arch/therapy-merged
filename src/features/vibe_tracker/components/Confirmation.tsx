@@ -21,7 +21,7 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
         {t("thankYou")}
       </p>
 
-      <div className="max-w-sm w-full space-y-3">
+      <div className="w-full w-full space-y-3">
         <button className="vibe-button w-full" onClick={onDone}>
           {t("done")}
         </button>

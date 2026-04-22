@@ -40,35 +40,6 @@
 
 @layer base {
   :root {
-    --background: 240 30% 97%;
-    --foreground: 230 25% 25%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 230 25% 25%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 230 25% 25%;
-
-    --primary: 252 60% 65%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 200 60% 75%;
-    --secondary-foreground: 230 25% 20%;
-
-    --muted: 240 20% 92%;
-    --muted-foreground: 230 15% 50%;
-
-    --accent: 252 40% 90%;
-    --accent-foreground: 252 60% 40%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 240 20% 90%;
-    --input: 240 20% 92%;
-    --ring: 252 60% 65%;
-
-    --radius: 1.25rem;
 
     /* Wellness-specific tokens */
     --calm-green: 145 45% 72%;

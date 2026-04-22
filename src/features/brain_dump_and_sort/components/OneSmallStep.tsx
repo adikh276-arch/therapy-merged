@@ -48,7 +48,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
 
   if (focusMode) {
     return (
-      <div className="max-w-md mx-auto px-6 py-8 min-h-screen flex flex-col items-center justify-center">
+      <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col items-center justify-center">
         {/* Timer ring */}
         <div className="relative mb-10">
           <svg width="140" height="140" className="-rotate-90">
@@ -102,7 +102,7 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
   }
 
   return (
-    <div className="max-w-md mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
       {/* Header */}
       <div className="flex items-center gap-3 mb-2">
         <button onClick={onBack} className="p-2 rounded-lg hover:bg-muted transition-colors">

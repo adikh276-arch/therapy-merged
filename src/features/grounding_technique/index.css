@@ -40,35 +40,6 @@
 
 @layer base {
   :root {
-    --background: 80 10% 96%;
-    --foreground: 220 15% 20%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 220 15% 20%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 20%;
-
-    --primary: 168 30% 55%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 80 10% 92%;
-    --secondary-foreground: 220 15% 25%;
-
-    --muted: 80 8% 90%;
-    --muted-foreground: 220 10% 50%;
-
-    --accent: 168 25% 90%;
-    --accent-foreground: 168 30% 30%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 80 10% 88%;
-    --input: 80 10% 88%;
-    --ring: 168 30% 55%;
-
-    --radius: 1.25rem;
 
     /* Pastel palette for grounding cards */
     --pastel-teal: 168 35% 82%;
@@ -100,23 +71,7 @@
   }
 
   .dark {
-    --background: 220 15% 12%;
-    --foreground: 80 10% 92%;
-    --card: 220 15% 16%;
-    --card-foreground: 80 10% 92%;
-    --popover: 220 15% 16%;
-    --popover-foreground: 80 10% 92%;
-    --primary: 168 30% 55%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 220 15% 20%;
-    --secondary-foreground: 80 10% 90%;
-    --muted: 220 15% 20%;
-    --muted-foreground: 220 10% 60%;
-    --accent: 168 25% 20%;
-    --accent-foreground: 168 30% 80%;
-    --border: 220 15% 22%;
-    --input: 220 15% 22%;
-    --ring: 168 30% 55%;
+
   }
 }
 

@@ -36,7 +36,7 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
   };
 
   return (
-    <div className="max-w-md mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
         <button onClick={onBack} className="p-2 rounded-lg hover:bg-muted transition-colors">

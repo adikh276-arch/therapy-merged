@@ -28,7 +28,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background relative">
       <LanguageSelector />
-      <div className="mx-auto max-w-md min-h-screen">
+      <div className="mx-auto w-full min-h-screen">
         {screen === "intro" && <IntroScreen onStart={handleReadStories} />}
         {screen === "selection" && <StorySelectionScreen onSelect={handleSelectStory} />}
         {screen === "story" && (

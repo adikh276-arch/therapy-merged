@@ -101,7 +101,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="w-full max-w-md mx-auto pt-16">
+      <div className="w-full w-full mx-auto pt-16">
         {/* INTRO */}
         {screen === "intro" && (
           <div className="bg-card rounded-[var(--radius)] shadow-card p-8 animate-in fade-in duration-500">

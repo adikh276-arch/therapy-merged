@@ -21,7 +21,7 @@ const TipDetail = () => {
 
   return (
     <div className="min-h-screen gradient-main">
-      <div className="max-w-md mx-auto px-5 py-6 pb-16">
+      <div className="w-full mx-auto px-5 py-6 pb-16">
         {/* Back */}
         <button
           onClick={() => navigate(-1)}

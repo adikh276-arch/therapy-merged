@@ -42,36 +42,6 @@
   :root {
     --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
 
-    --background: 240 40% 97%;
-    --foreground: 240 20% 20%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 240 20% 20%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 20% 20%;
-
-    --primary: 250 60% 65%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 200 50% 92%;
-    --secondary-foreground: 240 20% 25%;
-
-    --muted: 240 20% 93%;
-    --muted-foreground: 240 10% 50%;
-
-    --accent: 250 40% 93%;
-    --accent-foreground: 250 40% 30%;
-
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 240 20% 90%;
-    --input: 240 20% 90%;
-    --ring: 250 60% 65%;
-
-    --radius: 1.25rem;
-
     /* Pastel palette */
     --pastel-purple: 260 60% 92%;
     --pastel-teal: 175 45% 88%;

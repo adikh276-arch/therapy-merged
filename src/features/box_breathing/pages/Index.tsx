@@ -9,7 +9,7 @@ const Index = () => {
   const [screen, setScreen] = useState<Screen>("overview");
 
   return (
-    <div className="max-w-md mx-auto">
+    <div className="w-full mx-auto">
       {screen === "overview" && (
         <OverviewScreen onStart={() => setScreen("session")} />
       )}

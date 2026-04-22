@@ -36,7 +36,7 @@ const SmallStepScreen = ({ data, onChange, onGoHome, onSave }: Props) => {
       </div>
 
       <div className="space-y-3 w-full flex flex-col items-center">
-        <Button variant="calmOutline" size="lg" onClick={onGoHome} className="w-full max-w-sm">
+        <Button variant="calmOutline" size="lg" onClick={onGoHome} className="w-full w-full">
           {t('smallStep.button_home')}
         </Button>
       </div>

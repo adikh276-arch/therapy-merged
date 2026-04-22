@@ -58,7 +58,7 @@ const App = () => {
         <Sonner />
         <BrowserRouter basename="/energy_tracker">
           <EnergyProvider>
-            <div className="mx-auto min-h-[100dvh] max-w-md">
+            <div className="mx-auto min-h-[100dvh] w-full">
               <AnimatedRoutes />
             </div>
           </EnergyProvider>

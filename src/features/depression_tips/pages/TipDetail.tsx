@@ -49,7 +49,7 @@ export default function TipDetail() {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="mx-auto max-w-md px-5 py-8 pb-16">
+      <div className="mx-auto w-full px-5 py-8 pb-16">
         {/* Back button */}
         <button
           onClick={() => navigate(".")}

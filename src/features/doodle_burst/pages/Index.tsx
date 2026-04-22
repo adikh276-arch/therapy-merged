@@ -76,7 +76,7 @@ const Index = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="relative z-10 w-full max-w-md mx-auto text-center flex flex-col items-center"
+            className="relative z-10 w-full w-full mx-auto text-center flex flex-col items-center"
           >
             <FloatingShapes />
             <div className="relative z-10 flex flex-col items-center gap-6 py-12">
@@ -134,7 +134,7 @@ const Index = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="relative z-10 w-full max-w-lg mx-auto flex flex-col items-center gap-4"
+            className="relative z-10 w-full w-full mx-auto flex flex-col items-center gap-4"
           >
             {/* Timer */}
             <div className="flex items-center gap-3">
@@ -164,7 +164,7 @@ const Index = () => {
             </div>
 
             {/* Instructions */}
-            <p className="text-sm text-muted-foreground text-center leading-relaxed max-w-sm">
+            <p className="text-sm text-muted-foreground text-center leading-relaxed w-full">
               {t("activity_instructions")}
             </p>
 
@@ -179,7 +179,7 @@ const Index = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="relative z-10 w-full max-w-md mx-auto text-center flex flex-col items-center gap-6 py-12"
+            className="relative z-10 w-full w-full mx-auto text-center flex flex-col items-center gap-6 py-12"
           >
             <motion.div
               initial={{ scale: 0 }}

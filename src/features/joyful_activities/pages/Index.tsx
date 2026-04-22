@@ -39,7 +39,7 @@ const Index = () => {
       }}
     >
       <LanguageSelector />
-      <div className="w-full max-w-md relative z-10">
+      <div className="w-full w-full relative z-10">
         {screen === 1 && <IntroScreen onNext={() => setScreen(2)} />}
         {screen === 2 && (
           <RecallScreen data={data} onChange={update} onNext={() => setScreen(3)} />

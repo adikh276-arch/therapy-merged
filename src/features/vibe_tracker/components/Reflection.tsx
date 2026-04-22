@@ -55,7 +55,7 @@ const Reflection = ({ onComplete }: Props) => {
         className={`mt-10 flex-1 transition-all duration-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"
           }`}
       >
-        <div className="max-w-sm mx-auto w-full">
+        <div className="w-full mx-auto w-full">
           {/* Progress dots */}
           <div className="flex gap-2 justify-center mb-8">
             {shuffledKeys.map((_, i) => (

@@ -30,7 +30,7 @@ const IntroScreen = ({ onNext }: Props) => {
         </p>
       </div>
 
-      <Button variant="calm" size="lg" onClick={onNext} className="w-full max-w-sm">
+      <Button variant="calm" size="lg" onClick={onNext} className="w-full w-full">
         {t('intro.button')}
       </Button>
     </div>

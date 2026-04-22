@@ -40,7 +40,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
   };
 
   return (
-    <div className="max-w-md mx-auto px-6 py-8 min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col">
       {/* Header */}
       <div className="flex items-center gap-3 mb-2">
         <button onClick={onBack} className="p-2 rounded-lg hover:bg-muted transition-colors">

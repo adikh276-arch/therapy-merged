@@ -44,7 +44,7 @@ const MeaningScreen = ({ data, onChange, onNext }: Props) => {
         />
       </div>
 
-      <Button variant="calm" size="lg" onClick={onNext} className="w-full max-w-sm">
+      <Button variant="calm" size="lg" onClick={onNext} className="w-full w-full">
         {t('meaning.button')}
       </Button>
     </div>

@@ -26,13 +26,13 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
         {t('reflection_title')}
       </h1>
 
-      <div className="space-y-3 mb-8 max-w-sm">
+      <div className="space-y-3 mb-8 w-full">
         <p className="text-foreground leading-[1.7]">
           {t('reflection_text')}
         </p>
       </div>
 
-      <div className="w-full max-w-sm mb-10">
+      <div className="w-full w-full mb-10">
         <input
           type="text"
           placeholder={t('placeholder_feeling')}
@@ -46,7 +46,7 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
         whileTap={{ scale: 0.98 }}
         transition={{ duration: 0.15 }}
         onClick={() => onSave(feeling)}
-        className="w-full max-w-sm h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
+        className="w-full w-full h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
       >
         {t('save_entry')}
       </motion.button>

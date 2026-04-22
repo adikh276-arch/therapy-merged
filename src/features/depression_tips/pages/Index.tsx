@@ -8,7 +8,7 @@ export default function Index() {
 
   return (
     <div className="min-h-screen gradient-bg">
-      <div className="mx-auto max-w-md px-5 py-10 pb-16">
+      <div className="mx-auto w-full px-5 py-10 pb-16">
         {/* Header row */}
         <div className="flex items-start justify-between mb-8 gap-3">
           <div className="flex-1 min-w-0">

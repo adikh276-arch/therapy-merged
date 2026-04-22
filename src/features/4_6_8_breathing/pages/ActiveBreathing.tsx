@@ -122,7 +122,7 @@ const ActiveBreathing = () => {
 
   return (
     <div className="min-h-screen gradient-bg-screen flex flex-col items-center justify-center px-6 py-8 animate-fade-in">
-      <div className="max-w-sm w-full flex flex-col items-center gap-5 px-2">
+      <div className="w-full w-full flex flex-col items-center gap-5 px-2">
         {/* Breathing Circle */}
         <div className="relative flex items-center justify-center" style={{ width: 220, height: 220 }}>
           <div

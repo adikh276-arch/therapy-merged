@@ -31,7 +31,7 @@ const ScreenClosing = ({ onViewPast, onDone }: ScreenClosingProps) => {
         {t('closing_title')}
       </h1>
 
-      <div className="space-y-5 mb-12 max-w-sm">
+      <div className="space-y-5 mb-12 w-full">
         <p className="text-foreground leading-[1.7]">
           {t('closing_text_1')}
         </p>
@@ -43,7 +43,7 @@ const ScreenClosing = ({ onViewPast, onDone }: ScreenClosingProps) => {
         </p>
       </div>
 
-      <div className="w-full max-w-sm space-y-3">
+      <div className="w-full w-full space-y-3">
         <motion.button
           whileTap={{ scale: 0.98 }}
           transition={{ duration: 0.15 }}

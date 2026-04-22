@@ -18,7 +18,7 @@ export const Reflection = ({ onComplete, onBack }: Props) => {
   const [selected, setSelected] = useState<string | null>(null);
 
   return (
-    <div className="max-w-md mx-auto px-6 py-8 min-h-screen flex flex-col items-center justify-center">
+    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col items-center justify-center">
       <div className="text-center animate-fade-in">
         <h1 className="text-3xl font-bold text-foreground mb-2">{t("reflection_title")}</h1>
         <p className="text-muted-foreground text-sm mb-10">{t("reflection_desc")}</p>

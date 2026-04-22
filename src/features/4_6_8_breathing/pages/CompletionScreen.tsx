@@ -9,7 +9,7 @@ const CompletionScreen = () => {
 
   return (
     <div className="min-h-screen bg-muted flex flex-col items-center justify-center px-6 py-12 animate-fade-in">
-      <div className="max-w-sm w-full flex flex-col items-center text-center gap-6 px-2">
+      <div className="w-full w-full flex flex-col items-center text-center gap-6 px-2">
         <h1 className="font-display text-4xl font-bold text-foreground">
           {t('you_did_it')}
         </h1>

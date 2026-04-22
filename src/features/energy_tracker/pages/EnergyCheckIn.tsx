@@ -30,7 +30,7 @@ const EnergyCheckIn = () => {
           {t("how_is_energy")}
         </motion.h2>
 
-        <div className="flex w-full max-w-sm justify-between gap-2">
+        <div className="flex w-full w-full justify-between gap-2">
           {energyOptions.map((opt, i) => {
             const isSelected = currentLevel === opt.level;
             return (

@@ -25,7 +25,7 @@ const AffirmationScreen = ({ onGoHome }: Props) => {
         </p>
       </div>
 
-      <Button variant="calm" size="lg" onClick={onGoHome} className="w-full max-w-sm">
+      <Button variant="calm" size="lg" onClick={onGoHome} className="w-full w-full">
         {t('affirmation.button')}
       </Button>
     </div>

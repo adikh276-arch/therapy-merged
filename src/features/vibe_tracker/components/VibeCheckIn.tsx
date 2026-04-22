@@ -73,7 +73,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
       </div>
 
       {/* Custom Vibe */}
-      <div className="mt-10 max-w-sm mx-auto w-full">
+      <div className="mt-10 w-full mx-auto w-full">
         <p className="font-heading text-sm font-semibold text-muted-foreground mb-3">
           {t("describeOwnVibe")}
         </p>

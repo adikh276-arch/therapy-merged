@@ -4,36 +4,7 @@
 
 @layer base {
   :root {
-    --background: 80 25% 97%;
-    --foreground: 200 15% 15%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 200 15% 15%;
-
-    --popover: 80 20% 95%;
-    --popover-foreground: 200 15% 15%;
-
-    --primary: 145 35% 48%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 80 18% 90%;
-    --secondary-foreground: 200 15% 25%;
-
-    --muted: 80 12% 92%;
-    --muted-foreground: 200 10% 50%;
-
-    --accent: 35 60% 92%;
-    --accent-foreground: 30 40% 30%;
-
-    --destructive: 0 65% 55%;
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 80 15% 88%;
-    --input: 80 15% 88%;
-    --ring: 145 35% 48%;
-
-    --radius: 1rem;
-
+    /* Standard variables inherited from global theme.css */
     /* Custom tokens */
     --energy-high: 145 50% 45%;
     --energy-good: 145 35% 48%;
@@ -59,49 +30,7 @@
   }
 
   .dark {
-    --background: 200 15% 10%;
-    --foreground: 80 15% 92%;
-
-    --card: 200 12% 14%;
-    --card-foreground: 80 15% 92%;
-
-    --popover: 200 12% 14%;
-    --popover-foreground: 80 15% 92%;
-
-    --primary: 145 35% 50%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 200 10% 18%;
-    --secondary-foreground: 80 15% 85%;
-
-    --muted: 200 10% 20%;
-    --muted-foreground: 80 10% 60%;
-
-    --accent: 35 30% 20%;
-    --accent-foreground: 35 40% 80%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 200 10% 20%;
-    --input: 200 10% 20%;
-    --ring: 145 35% 50%;
-
-    --chip-bg: 200 10% 18%;
-    --chip-bg-selected: 145 30% 18%;
-    --chip-border-selected: 145 35% 50%;
-
-    --surface-glow: 145 30% 15%;
-    --surface-warm: 35 20% 15%;
-
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Inherited from global theme.css */
   }
 }
 

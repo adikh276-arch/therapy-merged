@@ -62,7 +62,7 @@ const DoodleHistory = () => {
   return (
     <div className="min-h-screen bg-playful p-4">
       <LanguageSelector />
-      <div className="max-w-lg mx-auto py-8">
+      <div className="w-full mx-auto py-8">
         {/* Header */}
         <div className="flex items-center gap-3 mb-6">
           <motion.button
@@ -163,7 +163,7 @@ const DoodleHistory = () => {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="bg-card rounded-3xl shadow-soft max-w-md w-full overflow-hidden"
+              className="bg-card rounded-3xl shadow-soft w-full w-full overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between p-4">

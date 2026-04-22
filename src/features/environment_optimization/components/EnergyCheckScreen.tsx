@@ -11,7 +11,7 @@ const EnergyCheckScreen = ({ onFinish }: EnergyCheckScreenProps) => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 py-12 animate-fade-in">
-      <div className="max-w-md w-full text-center space-y-8">
+      <div className="w-full w-full text-center space-y-8">
         {/* Step indicator */}
         <div className="flex items-center justify-center gap-2">
           <div className="w-2 h-2 rounded-full bg-primary/40" />

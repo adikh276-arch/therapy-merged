@@ -15,7 +15,7 @@ const StepInput = ({ count, placeholder, values, onChange }: StepInputProps) => 
   };
 
   return (
-    <div className="space-y-3 w-full max-w-md mx-auto">
+    <div className="space-y-3 w-full w-full mx-auto">
       {Array.from({ length: count }).map((_, i) => (
         <div key={i} className="fade-in-up" style={{ animationDelay: `${0.3 + i * 0.1}s`, opacity: 0 }}>
           <input

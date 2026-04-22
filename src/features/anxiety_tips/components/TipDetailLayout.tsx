@@ -16,7 +16,7 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
 
   return (
     <div className="min-h-screen gradient-calm">
-      <div className="max-w-md mx-auto px-5 py-6 pb-12">
+      <div className="w-full mx-auto px-5 py-6 pb-12">
         {/* Back */}
         <button
           onClick={() => navigate(".")}

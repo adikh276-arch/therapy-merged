@@ -65,7 +65,7 @@ export function FullScreenSky({ thought, onNext }: FullScreenSkyProps) {
       </motion.div>
 
       {/* Bottom section */}
-      <div className="z-10 flex flex-col items-center gap-6 max-w-md">
+      <div className="z-10 flex flex-col items-center gap-6 w-full">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

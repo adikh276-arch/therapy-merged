@@ -64,7 +64,7 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
       ))}
 
       {/* Content */}
-      <div className="relative z-10 max-w-lg mx-auto px-4 pt-8 pb-12">
+      <div className="relative z-10 w-full mx-auto px-4 pt-8 pb-12">
         <ProgressBar current={currentStep} total={totalSteps} />
 
         <motion.h2

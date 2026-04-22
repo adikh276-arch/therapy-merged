@@ -34,7 +34,7 @@ const ScreenIntro = ({ onStart }: ScreenIntroProps) => {
         {t('app_subtitle')}
       </p>
 
-      <div className="space-y-5 mb-12 max-w-sm">
+      <div className="space-y-5 mb-12 w-full">
         <p className="text-foreground leading-[1.7]">
           {t('intro_text_1')}
         </p>
@@ -53,7 +53,7 @@ const ScreenIntro = ({ onStart }: ScreenIntroProps) => {
         whileTap={{ scale: 0.98 }}
         transition={{ duration: 0.15 }}
         onClick={onStart}
-        className="w-full max-w-sm h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
+        className="w-full w-full h-[54px] bg-primary text-primary-foreground rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] active:bg-primary-pressed transition-colors duration-150"
       >
         {t('start_button')}
       </motion.button>

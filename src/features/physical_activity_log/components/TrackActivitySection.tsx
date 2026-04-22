@@ -92,7 +92,7 @@ const TrackActivitySection = () => {
         <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground text-center mb-2">
           📊 {t("track_title")}
         </h2>
-        <p className="text-muted-foreground text-center text-base md:text-lg mb-8 md:mb-12 max-w-md mx-auto">
+        <p className="text-muted-foreground text-center text-base md:text-lg mb-8 md:mb-12 w-full mx-auto">
           {t("track_subtitle")}
         </p>
 

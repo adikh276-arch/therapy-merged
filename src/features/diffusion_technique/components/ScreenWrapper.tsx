@@ -12,7 +12,7 @@ export function ScreenWrapper({ children }: ScreenWrapperProps) {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -30 }}
       transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-      className="w-full max-w-lg mx-auto px-4"
+      className="w-full w-full mx-auto px-4"
     >
       {children}
     </motion.div>

@@ -31,7 +31,7 @@ const EmotionalCheckIn = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 py-12 fade-enter">
-      <div className="max-w-md w-full space-y-8">
+      <div className="w-full w-full space-y-8">
         <h1 className="text-2xl font-heading text-center leading-snug">
           After writing this letter, how do you feel?
         </h1>

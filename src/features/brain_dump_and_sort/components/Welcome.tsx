@@ -8,7 +8,7 @@ interface Props {
 export const Welcome = ({ onStart }: Props) => {
   const { t } = useTranslation();
   return (
-    <div className="max-w-md mx-auto px-6 py-8 min-h-screen flex flex-col justify-center">
+    <div className="w-full mx-auto px-6 py-8 min-h-screen flex flex-col justify-center">
       <div className="animate-fade-in">
         {/* Headline */}
         <h1 className="text-3xl font-bold text-foreground mb-3 text-center">
