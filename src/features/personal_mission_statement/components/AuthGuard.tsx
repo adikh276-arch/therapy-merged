@@ -16,62 +16,16 @@ const AuthGuard = ({ children }: { children: React.ReactNode }) => {
     const [isAuthResolved, setIsAuthResolved] = useState(false);
 
     useEffect(() => {
-        const resolveAuth = async () => {
-            try {
-                const params = new URLSearchParams(window.location.search);
-                const token = params.get("token");
-
-                // --- Step 1: Token handshake ---
-                if (token) {
-                    try {
-                        const response = await fetch("https://api.mantracare.com/user/user-info", {
-                            method: "POST",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify({ token }),
-                        });
-
-                        if (response.ok) {
-                            const data = await response.json();
-                            if (data.user_id) {
-                                sessionStorage.setItem("user_id", data.user_id.toString());
-                                // Remove token from URL cleanly
-                                window.history.replaceState({}, "", window.location.pathname);
-                            }
-                        } else {
-                            console.warn("MantraCare API returned:", response.status, "— skipping token auth.");
-                        }
-                    } catch (fetchError) {
-                        // API not reachable (e.g., during local development)
-                        console.warn("MantraCare API not reachable:", fetchError);
-                    }
-                }
-
-                // --- Step 2: Check if we have a valid session ---
-                let storedUserId = sessionStorage.getItem("user_id");
-
-                // Graceful dev fallback: assign a dev user so the UI works locally
-                // even when the backend API is not yet available.
-                if (!storedUserId) {
-                    console.warn(
-                        "No authenticated user_id found. Using dev fallback user for local testing."
-                    );
-                    storedUserId = DEV_FALLBACK_USER_ID;
-                    sessionStorage.setItem("user_id", storedUserId);
-                }
-
-                // --- Step 3: Initialize user in Neon DB ---
-                await initUser(storedUserId);
+        const checkAuth = () => {
+            if (sessionStorage.getItem("user_id")) {
                 setIsAuthResolved(true);
-
-            } catch (error) {
-                console.error("Auth/DB error:", error);
-                // Even if DB init fails (e.g., connection issue), show the UI
-                // so the user isn't stuck on a blank/404 screen.
-                setIsAuthResolved(true);
+            } else {
+                const timer = setTimeout(checkAuth, 100);
+                return () => clearTimeout(timer);
             }
         };
 
-        resolveAuth();
+        checkAuth();
     }, []);
 
     if (!isAuthResolved) {

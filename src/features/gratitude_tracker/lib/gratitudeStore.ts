@@ -42,12 +42,12 @@ export async function saveEntry(entry: GratitudeEntry): Promise<void> {
 
   if (existing) {
     await query(
-      "UPDATE gratitude_entries SET gratitude1 = $1, gratitude2 = $2, mood_emoji = $3, mood_label = $4 WHERE id = $5 AND user_id = $6",
+      "UPDATE gratitude_tracker_entries SET gratitude1 = $1, gratitude2 = $2, mood_emoji = $3, mood_label = $4 WHERE id = $5 AND user_id = $6",
       [entry.gratitude1, entry.gratitude2 || null, entry.mood.emoji, entry.mood.label, entry.id, userId]
     );
   } else {
     await query(
-      "INSERT INTO gratitude_entries (id, user_id, date, gratitude1, gratitude2, mood_emoji, mood_label) VALUES ($1, $2, $3, $4, $5, $6, $7)",
+      "INSERT INTO gratitude_tracker_entries (id, user_id, date, gratitude1, gratitude2, mood_emoji, mood_label) VALUES ($1, $2, $3, $4, $5, $6, $7)",
       [entry.id, userId, entry.date, entry.gratitude1, entry.gratitude2 || null, entry.mood.emoji, entry.mood.label]
     );
   }
@@ -57,7 +57,7 @@ export async function getAllEntries(): Promise<GratitudeEntry[]> {
   const userId = getUserId();
   if (!userId) return [];
 
-  const result = await query("SELECT * FROM gratitude_entries WHERE user_id = $1 ORDER BY date DESC, created_at DESC", [userId]);
+  const result = await query("SELECT * FROM gratitude_tracker_entries WHERE user_id = $1 ORDER BY date DESC, created_at DESC", [userId]);
   if (!result || !result.rows) return [];
   const rows = result.rows;
   return rows.map(row => ({
@@ -76,7 +76,7 @@ export async function getEntryById(id: string): Promise<GratitudeEntry | undefin
   const userId = getUserId();
   if (!userId) return undefined;
 
-  const result = await query("SELECT * FROM gratitude_entries WHERE id = $1 AND user_id = $2", [id, userId]);
+  const result = await query("SELECT * FROM gratitude_tracker_entries WHERE id = $1 AND user_id = $2", [id, userId]);
   if (!result?.rows || result.rows.length === 0) return undefined;
 
   const row = result.rows[0];
@@ -96,7 +96,7 @@ export async function getEntryByDate(date: string): Promise<GratitudeEntry | und
   const userId = getUserId();
   if (!userId) return undefined;
 
-  const result = await query("SELECT * FROM gratitude_entries WHERE date = $1 AND user_id = $2 ORDER BY created_at DESC", [date, userId]);
+  const result = await query("SELECT * FROM gratitude_tracker_entries WHERE date = $1 AND user_id = $2 ORDER BY created_at DESC", [date, userId]);
   if (!result?.rows || result.rows.length === 0) return undefined;
 
   const row = result.rows[0];
@@ -120,7 +120,7 @@ export async function getEntriesForMonth(year: number, month: number): Promise<G
   const endDate = `${year}-${String(month + 1).padStart(2, "0")}-31`;
 
   const result = await query(
-    "SELECT * FROM gratitude_entries WHERE user_id = $1 AND date >= $2 AND date <= $3 ORDER BY date ASC, created_at DESC",
+    "SELECT * FROM gratitude_tracker_entries WHERE user_id = $1 AND date >= $2 AND date <= $3 ORDER BY date ASC, created_at DESC",
     [userId, startDate, endDate]
   );
 

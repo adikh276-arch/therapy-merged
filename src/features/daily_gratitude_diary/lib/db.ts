@@ -55,7 +55,7 @@ export const initSchema = async () => {
     `);
 
     await dbRequest(`
-      CREATE TABLE IF NOT EXISTS gratitude_entries (
+      CREATE TABLE IF NOT EXISTS gratitude_diary_entries (
         id SERIAL PRIMARY KEY,
         user_id BIGINT REFERENCES users(id) ON DELETE CASCADE,
         date TEXT NOT NULL,
@@ -66,7 +66,7 @@ export const initSchema = async () => {
     `);
 
     await dbRequest(`
-      CREATE INDEX IF NOT EXISTS idx_entries_user_id ON gratitude_entries(user_id)
+      CREATE INDEX IF NOT EXISTS idx_entries_user_id ON gratitude_diary_entries(user_id)
     `);
     console.log('Schema ready.');
   } catch (error: any) {

@@ -9,56 +9,16 @@ export const AuthGuard = ({ children }: AuthGuardProps) => {
     const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        const resolveAuth = async () => {
-            const storedUserId = sessionStorage.getItem("user_id");
-
-            if (storedUserId) {
+        const checkAuth = () => {
+            if (sessionStorage.getItem("user_id")) {
                 setIsAuthResolved(true);
-                return;
-            }
-
-            const params = new URLSearchParams(window.location.search);
-            const token = params.get("token");
-
-            if (!token) {
-                // window.location.href = "/therapy/token"; // Fallback to token page
-                return;
-            }
-
-            try {
-                const response = await fetch("https://api.mantracare.com/user/user-info", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({ token }),
-                });
-
-                if (!response.ok) {
-                    throw new Error("Authentication failed");
-                }
-
-                const data = await response.json();
-
-                if (data.user_id) {
-                    sessionStorage.setItem("user_id", data.user_id.toString());
-
-                    // Clean URL
-                    const url = new URL(window.location.href);
-                    url.searchParams.delete("token");
-                    window.history.replaceState({}, "", url.pathname + url.search);
-
-                    setIsAuthResolved(true);
-                } else {
-                    throw new Error("Invalid user info returned");
-                }
-            } catch (err) {
-                console.error("Auth error:", err);
-                // window.location.href = "/therapy/token";
+            } else {
+                const timer = setTimeout(checkAuth, 100);
+                return () => clearTimeout(timer);
             }
         };
 
-        resolveAuth();
+        checkAuth();
     }, []);
 
     if (!isAuthResolved) {

@@ -31,7 +31,7 @@ const Index = () => {
       if (!userId) return;
       try {
         const rows = await dbRequest<any>(
-          "SELECT date, gratitudes, feeling FROM gratitude_entries WHERE user_id = $1 ORDER BY created_at DESC",
+          "SELECT date, gratitudes, feeling FROM gratitude_diary_entries WHERE user_id = $1 ORDER BY created_at DESC",
           [userId]
         );
         if (rows && Array.isArray(rows)) {
@@ -66,7 +66,7 @@ const Index = () => {
     if (userId) {
       try {
         await dbRequest(
-          "INSERT INTO gratitude_entries (user_id, date, feeling, gratitudes) VALUES ($1, $2, $3, $4)",
+          "INSERT INTO gratitude_diary_entries (user_id, date, feeling, gratitudes) VALUES ($1, $2, $3, $4)",
           [userId, dateStr, feeling, JSON.stringify(validGratitudes)]
         );
       } catch (err) {

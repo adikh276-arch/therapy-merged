@@ -31,10 +31,11 @@ function App() {
         return;
       }
 
-      // 2. Token Extraction from URL
+      // 2. Token Extraction from URL - If no token and no session, redirect to MantraCare Auth
       if (!token) {
-        console.error("Auth Handshake: No token in URL and no active session.");
-        window.location.href = "/token"; // Hard redirect
+        console.warn("Auth Handshake: No token found. Redirecting to external authentication...");
+        const redirectUrl = window.location.href;
+        window.location.href = `https://api.mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
         return;
       }
 
@@ -48,41 +49,28 @@ function App() {
         // 4. Persistence in sessionStorage
         sessionStorage.setItem("user_id", user_id.toString());
 
-        // 5. Database Initialization (Neon/Supabase) — non-fatal, auth proceeds regardless
+        // 5. Database Initialization (Neon/Supabase)
         if (DATABASE_URL) {
           try {
             const sql = neon(DATABASE_URL, { disableWarningInBrowsers: true });
             
-            await sql`
-              CREATE TABLE IF NOT EXISTS users (
-                id BIGINT PRIMARY KEY,
-                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-                updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-              );
-            `;
-
-            await sql`
-              CREATE TABLE IF NOT EXISTS energy_logs (
-                id SERIAL PRIMARY KEY,
-                user_id BIGINT REFERENCES users(id),
-                date DATE NOT NULL,
-                level TEXT NOT NULL,
-                factors TEXT[],
-                note TEXT,
-                created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-                UNIQUE(user_id, date)
-              );
-            `;
+            // All tables initialization logic remains here...
+            await sql`CREATE TABLE IF NOT EXISTS users (id BIGINT PRIMARY KEY, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
+            await sql`CREATE TABLE IF NOT EXISTS energy_logs (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id), date DATE NOT NULL, level TEXT NOT NULL, factors TEXT[], note TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), UNIQUE(user_id, date));`;
+            await sql`CREATE TABLE IF NOT EXISTS doodle_logs (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id), image_url TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
+            await sql`CREATE TABLE IF NOT EXISTS activities (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, emoji TEXT, name TEXT NOT NULL, duration INTEGER NOT NULL, notes TEXT, created_at TIMESTAMP DEFAULT NOW());`;
+            await sql`CREATE TABLE IF NOT EXISTS letters (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT NOT NULL, emotional_state TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
+            await sql`CREATE TABLE IF NOT EXISTS gratitude_diary_entries (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date TEXT NOT NULL, feeling TEXT, gratitudes JSONB NOT NULL, created_at TIMESTAMP DEFAULT NOW());`;
+            await sql`CREATE TABLE IF NOT EXISTS gratitude_tracker_entries (id UUID PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, gratitude1 TEXT NOT NULL, gratitude2 TEXT, mood_emoji TEXT, mood_label TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
 
             await sql`
               INSERT INTO users (id) 
               VALUES (${user_id.toString()}) 
               ON CONFLICT (id) DO NOTHING
             `;
-            console.log("Database tables and identity initialized.");
+            console.log("All database tables and identity initialized.");
           } catch (dbErr) {
-            // Table may not exist yet — auth continues regardless
-            console.warn("DB User Upsert skipped (table may not exist):", (dbErr as Error).message);
+            console.warn("DB User Upsert skipped:", (dbErr as Error).message);
           }
         }
 
@@ -94,7 +82,9 @@ function App() {
         setIsAuthorized(true);
       } catch (err) {
         console.error("Handshake Verification Failed:", err);
-        window.location.href = "/token";
+        // If verification fails, retry redirect to auth
+        const redirectUrl = window.location.href.split('?')[0];
+        window.location.href = `https://api.mantracare.com/token?redirect=${encodeURIComponent(redirectUrl)}`;
       }
     };
 
