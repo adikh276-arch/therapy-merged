@@ -58,7 +58,8 @@ export async function getAllEntries(): Promise<GratitudeEntry[]> {
   if (!userId) return [];
 
   const result = await query("SELECT * FROM gratitude_entries WHERE user_id = $1 ORDER BY date DESC, created_at DESC", [userId]);
-  const rows = result?.rows || [];
+  if (!result || !result.rows) return [];
+  const rows = result.rows;
   return rows.map(row => ({
     id: row.id,
     date: formatDate(row.date),
@@ -123,7 +124,8 @@ export async function getEntriesForMonth(year: number, month: number): Promise<G
     [userId, startDate, endDate]
   );
 
-  const rows = result?.rows || [];
+  if (!result || !result.rows) return [];
+  const rows = result.rows;
   return rows.map(row => ({
     id: row.id,
     date: formatDate(row.date),

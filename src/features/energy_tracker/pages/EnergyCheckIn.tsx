@@ -21,7 +21,7 @@ const EnergyCheckIn = () => {
     <div className="flex min-h-[100dvh] flex-col bg-transparent">
       <TopBar title={t("app_title")} showCalendar />
 
-      <main className="flex flex-1 flex-col items-center px-6 pt-6">
+      <main className="flex flex-1 flex-col items-center px-6 pt-6 max-w-xl mx-auto w-full">
         <motion.h2
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ const EnergyCheckIn = () => {
           {t("how_is_energy")}
         </motion.h2>
 
-        <div className="flex w-full w-full justify-between gap-2">
+        <div className="flex w-full justify-between gap-2">
           {energyOptions.map((opt, i) => {
             const isSelected = currentLevel === opt.level;
             return (
@@ -61,11 +61,11 @@ const EnergyCheckIn = () => {
         </div>
       </main>
 
-      <div className="sticky bottom-0 px-6 pb-8 pt-4">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl px-6 pb-8 pt-4 bg-white/70 backdrop-blur-md">
         <button
           disabled={!currentLevel}
           onClick={() => navigate("/factors")}
-          className="w-full rounded-pill bg-primary py-4 text-base font-bold text-primary-foreground transition-all disabled:opacity-40"
+          className="w-full rounded-pill bg-[#1e88e5] py-4 text-base font-bold text-white transition-all disabled:opacity-40"
         >
           {t("continue")}
         </button>

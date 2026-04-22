@@ -22,7 +22,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col items-center  px-5 py-10 text-center"
+      className="flex flex-col items-center px-5 py-10 text-center max-w-xl mx-auto"
     >
       <img src={cherryBlossom} alt="Cherry blossom" className="w-28 h-28 rounded-full object-cover mb-6" />
 
@@ -35,7 +35,7 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
           {t('no_entries')}
         </p>
       ) : (
-        <div className="w-full w-full space-y-4 mb-10">
+        <div className="w-full space-y-4 mb-10">
           {entries.map((entry, i) => (
             <motion.div
               key={i}

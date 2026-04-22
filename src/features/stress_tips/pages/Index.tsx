@@ -8,7 +8,7 @@ const Index = () => {
   const { t } = useTranslation();
   return (
     <div className=" gradient-main">
-      <div className="w-full mx-auto px-5 py-10 pb-16">
+      <div className="w-full max-w-xl mx-auto px-5 py-10 pb-16">
         {/* Header */}
         <div className="mb-8">
           <p className="text-sm text-slate-500 font-bold mb-2 uppercase tracking-wide">{t('index.tagline')}</p>

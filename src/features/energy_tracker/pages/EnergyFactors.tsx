@@ -80,7 +80,7 @@ const EnergyFactors = () => {
             rows={3}
             className="w-full resize-none rounded-lg border border-border bg-transparent px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
           />
-          <p className="mt-1 text-right text-xs text-muted-foreground">{currentNote.length}/120</p>
+          <p className="mt-1 text-right text-xs text-muted-foreground">{(currentNote || "").length}/120</p>
         </div>
       </main>
 

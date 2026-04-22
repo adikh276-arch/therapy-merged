@@ -9,6 +9,7 @@ import EnergyCheckIn from "./pages/EnergyCheckIn";
 import EnergyFactors from "./pages/EnergyFactors";
 import TodaySummary from "./pages/TodaySummary";
 import WeeklyOverview from "./pages/WeeklyOverview";
+import Token from "./pages/Token";
 import NotFound from "./pages/NotFound";
 import PageTransition from "./components/PageTransition";
 import AuthGuard from "./components/AuthGuard";
@@ -31,6 +32,7 @@ const AnimatedRoutes = () => {
           <Route path="/factors" element={<AuthGuard><EnergyFactors /></AuthGuard>} />
           <Route path="/summary" element={<AuthGuard><TodaySummary /></AuthGuard>} />
           <Route path="/weekly" element={<AuthGuard><WeeklyOverview /></AuthGuard>} />
+          <Route path="/token" element={<Token />} />
           <Route path="*" element={<AuthGuard><NotFound /></AuthGuard>} />
         </Routes>
       </PageTransition>

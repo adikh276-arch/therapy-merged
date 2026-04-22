@@ -12,7 +12,7 @@ const Index = () => {
       <div className="absolute top-4 right-4 z-50">
         <LanguageSelector />
       </div>
-      <div className="max-w-2xl mx-auto px-4 py-8 space-y-8">
+      <div className="max-w-xl mx-auto px-4 py-8 space-y-8">
         {/* Header */}
         <div className="text-center space-y-2">
           <h1 className="text-4xl font-extrabold text-foreground">{t('title')}</h1>

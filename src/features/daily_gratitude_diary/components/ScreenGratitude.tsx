@@ -78,12 +78,12 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
         ))}
       </div>
 
-      <div className="w-full w-full space-y-3">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl p-5 bg-gradient-to-t from-background via-background to-transparent pt-10">
         <motion.button
           whileTap={{ scale: 0.98 }}
           transition={{ duration: 0.15 }}
           onClick={addAnother}
-          className="w-full h-[54px] bg-transparent border-2 border-primary text-primary rounded-[30px] font-heading font-medium text-base transition-colors duration-150"
+          className="w-full h-[54px] bg-transparent border-2 border-primary text-primary rounded-[30px] font-heading font-medium text-base transition-colors duration-150 mb-3"
         >
           {t('add_another')}
         </motion.button>
@@ -92,8 +92,8 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
           whileTap={{ scale: 0.98 }}
           transition={{ duration: 0.15 }}
           onClick={() => canContinue && onContinue(entries)}
-          className={`w-full h-[54px] rounded-[30px] font-heading font-medium text-base shadow-[0_4px_20px_rgba(195,142,180,0.25)] transition-all duration-150 ${canContinue
-              ? "bg-primary text-primary-foreground active:bg-primary-pressed"
+          className={`w-full h-[56px] rounded-[28px] font-heading font-medium text-lg shadow-[0_8px_24px_rgba(30,136,229,0.25)] transition-all duration-200 ${canContinue
+              ? "bg-[#1e88e5] text-white"
               : "bg-primary/40 text-primary-foreground/60 cursor-not-allowed"
             }`}
         >

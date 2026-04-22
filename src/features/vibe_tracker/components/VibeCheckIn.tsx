@@ -28,7 +28,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
   const currentVibe = selected || customVibe.trim();
 
   return (
-    <div className="animate-fade-slide-in flex flex-col  px-6 pt-12 pb-28">
+    <div className="animate-fade-slide-in flex flex-col px-6 pt-12 pb-28 max-w-xl mx-auto">
       {/* History button */}
       <div className="flex justify-end mb-2">
         <button
@@ -36,8 +36,8 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
           className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 hover:scale-105"
           style={{
             background: "hsl(var(--primary) / 0.1)",
-            color: "hsl(var(--primary))",
-            border: "1.5px solid hsl(var(--primary) / 0.3)",
+            color: "#1e88e5",
+            border: "1.5px solid #1e88e533",
           }}
         >
           <Clock className="w-4 h-4" />
@@ -73,7 +73,7 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
       </div>
 
       {/* Custom Vibe */}
-      <div className="mt-10 w-full mx-auto w-full">
+      <div className="mt-10 w-full mx-auto">
         <p className="font-heading text-sm font-semibold text-slate-600 mb-3">
           {t("describeOwnVibe")}
         </p>
@@ -90,9 +90,9 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
       </div>
 
       {/* Fixed Bottom Button */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-transparent/80 backdrop-blur-md">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl p-6 bg-white/70 backdrop-blur-md">
         <button
-          className="vibe-button"
+          className="vibe-button bg-[#1e88e5] text-white"
           disabled={!currentVibe}
           onClick={() => onNext(currentVibe)}
         >

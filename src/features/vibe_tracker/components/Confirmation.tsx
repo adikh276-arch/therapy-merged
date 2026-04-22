@@ -10,7 +10,7 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
   const { t } = useTranslation();
 
   return (
-    <div className="animate-fade-slide-in flex flex-col items-center justify-center  px-6 text-center">
+    <div className="animate-fade-slide-in flex flex-col items-center justify-center px-6 text-center max-w-xl mx-auto">
       <div className="text-6xl mb-6">🌷</div>
 
       <h1 className="font-display text-3xl font-bold text-foreground tracking-tight mb-4">
@@ -21,7 +21,7 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
         {t("thankYou")}
       </p>
 
-      <div className="w-full w-full space-y-3">
+      <div className="w-full space-y-3">
         <button className="vibe-button w-full" onClick={onDone}>
           {t("done")}
         </button>

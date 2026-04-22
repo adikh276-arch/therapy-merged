@@ -42,6 +42,7 @@
   }
 
   .gradient-button {
-    
+    background: linear-gradient(135deg, #2D9CDB 0%, #2185C5 100%);
+    box-shadow: 0 4px 15px rgba(45, 156, 219, 0.2);
   }
 }

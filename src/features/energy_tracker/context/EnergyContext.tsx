@@ -55,9 +55,10 @@ export const EnergyProvider = ({ children }: { children: ReactNode }) => {
       const resp = await axios.get(getApiUrl('/history'), {
         params: { user_id: userId }
       });
-      setEntries(resp.data);
+      setEntries(Array.isArray(resp.data) ? resp.data : []);
     } catch (err) {
       console.error("Error refreshing energy history:", err);
+      setEntries([]); // Fallback to empty array
     } finally {
       setIsLoading(false);
     }

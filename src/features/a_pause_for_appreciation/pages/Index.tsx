@@ -74,8 +74,8 @@ const Index = () => {
   };
 
   return (
-    <div className="flex  items-center justify-center px-4 py-8">
-      <div className="w-full w-full">
+    <div className="flex items-center justify-center px-4 py-8 max-w-xl mx-auto w-full">
+      <div className="w-full">
         <AnimatePresence mode="wait">
           <motion.div
             key={screen}

@@ -26,7 +26,7 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
             }
 
             try {
-                const response = await axios.post("https://api.mantracare.com/user/user-info", { token });
+                const response = await axios.post("https://api.mantracare.com/user/user-info", { token }, { timeout: 5000 });
 
                 if (response.status === 200 && response.data.user_id) {
                     const { user_id } = response.data;
@@ -35,20 +35,30 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
                     // Clean token from URL
                     const url = new URL(window.location.href);
                     url.searchParams.delete("token");
-                    window.history.replaceState({}, "", url.toString());
+                    window.history.replaceState({}, "", url.pathname + url.search);
 
                     setIsAuthorized(true);
                 } else {
-                    window.location.href = "/token";
+                    console.error("AuthGuard: invalid token response");
+                    window.location.href = "./token";
                 }
             } catch (err) {
                 console.error("AuthGuard authentication failed:", err);
-                window.location.href = "/token";
+                // Fallback to anonymous or redirect
+                window.location.href = "./token";
             }
         };
 
+        const timeout = setTimeout(() => {
+            if (isAuthorized === null) {
+                console.warn("AuthGuard: handshake timed out, redirecting");
+                window.location.href = "./token";
+            }
+        }, 10000);
+
         handleHandshake();
-    }, []);
+        return () => clearTimeout(timeout);
+    }, [isAuthorized]);
 
     if (isAuthorized === null) {
         return (

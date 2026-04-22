@@ -79,7 +79,7 @@ const VibeHistory = ({ onBack }: Props) => {
   }
 
   return (
-    <div className="animate-fade-slide-in flex flex-col  px-6 pt-8 pb-12">
+    <div className="animate-fade-slide-in flex flex-col px-6 pt-8 pb-12 max-w-xl mx-auto">
       {/* Header */}
       <div className="flex items-center gap-3 mb-8">
         <button
