@@ -117,7 +117,7 @@ const Index = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.97 }}
-                onClick={() => navigate("./history")}
+                onClick={() => navigate("history")}
                 className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-transparent text-foreground font-semibold text-base  border border-border transition-all"
               >
                 <History size={18} />
@@ -230,7 +230,7 @@ const Index = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.97 }}
-                  onClick={() => navigate("./history")}
+                  onClick={() => navigate("history")}
                   className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-sm  border border-border transition-all"
                 >
                   <History size={16} />
