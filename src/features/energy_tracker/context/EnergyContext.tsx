@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from "react";
+import React, { useContext, useState, useEffect, useCallback, ReactNode } from "react";
 import { sql } from "@/lib/db";
 
 export type EnergyLevel = "very-low" | "low" | "okay" | "good" | "high";
@@ -23,7 +23,7 @@ interface EnergyContextType {
   isLoading: boolean;
 }
 
-const EnergyContext = createContext<EnergyContextType | undefined>(undefined);
+const EnergyContext = React.createContext<EnergyContextType | undefined>(undefined);
 
 export const useEnergy = () => {
   const ctx = useContext(EnergyContext);
