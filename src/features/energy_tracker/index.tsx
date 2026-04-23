@@ -25,18 +25,22 @@ const AnimatedRoutes = () => {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait">
-      <PageTransition key={location.pathname}>
-        <Routes location={location}>
-          <Route path="/" element={<AuthGuard><EnergyCheckIn /></AuthGuard>} />
-          <Route path="/factors" element={<AuthGuard><EnergyFactors /></AuthGuard>} />
-          <Route path="/summary" element={<AuthGuard><TodaySummary /></AuthGuard>} />
-          <Route path="/weekly" element={<AuthGuard><WeeklyOverview /></AuthGuard>} />
-          <Route path="/token" element={<Token />} />
-          <Route path="*" element={<AuthGuard><NotFound /></AuthGuard>} />
-        </Routes>
-      </PageTransition>
-    </AnimatePresence>
+    <AuthGuard>
+      <EnergyProvider>
+        <AnimatePresence mode="wait">
+          <PageTransition key={location.pathname}>
+            <Routes>
+              <Route path="/" element={<EnergyCheckIn />} />
+              <Route path="/factors" element={<EnergyFactors />} />
+              <Route path="/summary" element={<TodaySummary />} />
+              <Route path="/weekly" element={<WeeklyOverview />} />
+              <Route path="/token" element={<Token />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </PageTransition>
+        </AnimatePresence>
+      </EnergyProvider>
+    </AuthGuard>
   );
 };
 
@@ -49,9 +53,7 @@ const App = () => {
             <UniversalBackButton action="energy" />
             <Toaster />
             <Sonner />
-            <EnergyProvider>
-              <AnimatedRoutes />
-            </EnergyProvider>
+            <AnimatedRoutes />
           </div>
         </I18nextProvider>
       </TooltipProvider>

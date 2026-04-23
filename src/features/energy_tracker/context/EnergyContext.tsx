@@ -69,13 +69,7 @@ export const EnergyProvider = ({ children }: { children: ReactNode }) => {
   }, []);
 
   useEffect(() => {
-    const userId = sessionStorage.getItem("user_id");
-    if (!userId) return;
-
-    const init = async () => {
-      await refreshHistory();
-    };
-    init();
+    refreshHistory();
   }, [refreshHistory]);
 
   const saveEntry = async () => {

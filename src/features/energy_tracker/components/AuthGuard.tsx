@@ -6,27 +6,38 @@ export interface AuthGuardProps {
 }
 
 const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
-    const [isAuthorized, setIsAuthorized] = useState<boolean | null>(null);
+    const [isAuthorized, setIsAuthorized] = useState<boolean>(false);
+    const [isLoading, setIsLoading] = useState<boolean>(true);
 
     useEffect(() => {
-        const checkAuth = () => {
-            if (sessionStorage.getItem("user_id")) {
+        const check = () => {
+            const userId = sessionStorage.getItem("user_id");
+            if (userId) {
                 setIsAuthorized(true);
-            } else {
-                const timer = setTimeout(checkAuth, 100);
-                return () => clearTimeout(timer);
+                setIsLoading(false);
+                return true;
             }
+            return false;
         };
-        checkAuth();
+
+        if (check()) return;
+
+        const interval = setInterval(() => {
+            if (check()) {
+                clearInterval(interval);
+            }
+        }, 100);
+
+        return () => clearInterval(interval);
     }, []);
 
-    if (isAuthorized === null) {
+    if (isLoading) {
         return (
-            <div className="flex h-[100dvh] w-screen items-center justify-center bg-white">
+            <div className="flex h-[100dvh] w-full items-center justify-center bg-white">
                 <div className="flex flex-col items-center gap-6">
                     <div className="h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-                    <p className="text-sm font-semibold text-black tracking-widest animate-pulse">
-                        INITIALIZING...
+                    <p className="text-sm font-semibold text-black tracking-widest animate-pulse uppercase">
+                        Initializing session...
                     </p>
                 </div>
             </div>
