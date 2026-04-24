@@ -407,9 +407,8 @@ const TrackActivitySection = () => {
               );
             })}
           </div>
-        </div>
       </div>
-    </section>
+    </div>
   );
 };
 
