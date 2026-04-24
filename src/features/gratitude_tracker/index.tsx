@@ -25,11 +25,11 @@ const App = () => {
       <I18nextProvider i18n={i18n}>
         <TooltipProvider>
           <Routes>
-            <Route path="/token" element={<Token />} />
-            <Route path="/" element={<AuthGuard><GratitudeEntry /></AuthGuard>} />
-            <Route path="/mood" element={<AuthGuard><MoodSelection /></AuthGuard>} />
-            <Route path="/review" element={<AuthGuard><ReviewEntry /></AuthGuard>} />
-            <Route path="/history" element={<AuthGuard><History /></AuthGuard>} />
+            <Route path="token" element={<Token />} />
+            <Route path="" element={<AuthGuard><GratitudeEntry /></AuthGuard>} />
+            <Route path="mood" element={<AuthGuard><MoodSelection /></AuthGuard>} />
+            <Route path="review" element={<AuthGuard><ReviewEntry /></AuthGuard>} />
+            <Route path="history" element={<AuthGuard><History /></AuthGuard>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </TooltipProvider>

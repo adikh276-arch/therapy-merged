@@ -25,7 +25,7 @@ const IntroScreen = ({ onStart }: { onStart: () => void }) => {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => navigate("/history")}
+          onClick={() => navigate("history")}
           className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-sm transition-colors"
         >
           <History size={18} />
