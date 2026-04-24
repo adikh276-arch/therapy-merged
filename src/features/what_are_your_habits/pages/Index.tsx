@@ -7,11 +7,12 @@ import CopingHabitsScreen from "../components/screens/CopingHabitsScreen";
 import ReflectionScreen from "../components/screens/ReflectionScreen";
 import InsightScreen from "../components/screens/InsightScreen";
 import FinalScreen from "../components/screens/FinalScreen";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const pageVariants = {
-  initial: { opacity: 0, x: 60 },
-  animate: { opacity: 1, x: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
-  exit: { opacity: 0, x: -60, transition: { duration: 0.4, ease: "easeIn" as const } },
+  initial: { opacity: 0, y: 12 },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
+  exit: { opacity: 0, y: -12, transition: { duration: 0.4, ease: "easeIn" as const } },
 };
 
 const Index = () => {
@@ -30,7 +31,10 @@ const Index = () => {
   ];
 
   return (
-    <div className="bg-transparent flex items-center justify-center p-4">
+    <PremiumLayout 
+      title="Habit Reflection" 
+      onReset={step !== 0 ? () => setStep(0) : undefined}
+    >
       <div className="w-full">
         <AnimatePresence mode="wait">
           <motion.div
@@ -39,15 +43,14 @@ const Index = () => {
             initial="initial"
             animate="animate"
             exit="exit"
+            className="w-full"
           >
             {screens[step]}
           </motion.div>
         </AnimatePresence>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
 
 export default Index;
-
-

@@ -19,18 +19,15 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <I18nextProvider i18n={i18n}>
       <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <PremiumLayout title="Grounding Techniques">
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/technique/:id" element={<TechniqueDetail />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </PremiumLayout>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/technique/:id" element={<TechniqueDetail />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </TooltipProvider>
     </I18nextProvider>
   </QueryClientProvider>
 );
+
 
 export default App;

@@ -105,15 +105,15 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
       </div>
 
       {/* CTA Button — fixed at bottom */}
-      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
+      <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/80 backdrop-blur-sm z-20 flex justify-center">
         <motion.button
-          initial={{ y: 30, opacity: 0 }}
+          initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.55 }}
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
+          whileHover={{ scale: 1.01 }}
+          whileTap={{ scale: 0.99 }}
           onClick={onStart}
-          className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/25 hover:shadow-2xl hover:shadow-primary/35 transition-all flex items-center justify-center gap-3"
+          className="w-full max-w-lg py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all flex items-center justify-center gap-3"
         >
           Get Started
           <ArrowRight size={20} />
@@ -122,4 +122,3 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
     </div>
   );
 };
-

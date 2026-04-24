@@ -18,25 +18,21 @@ import { LanguageSwitcher } from "./components/LanguageSwitcher";
 const queryClient = new QueryClient();
 
 const App = () => {
-  const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <I18nextProvider i18n={i18n}>
-          <Toaster />
-          <Sonner />
-          <PremiumLayout title={i18n.t('app_title')}>
-            <Routes>
-              <Route path="/" element={<IntroScreen />} />
-              <Route path="/breathe" element={<ActiveBreathing />} />
-              <Route path="/complete" element={<CompletionScreen />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </PremiumLayout>
+          <Routes>
+            <Route path="/" element={<IntroScreen />} />
+            <Route path="/breathe" element={<ActiveBreathing />} />
+            <Route path="/complete" element={<CompletionScreen />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </I18nextProvider>
       </TooltipProvider>
     </QueryClientProvider>
   );
 };
+
 
 export default App;

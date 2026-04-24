@@ -22,34 +22,31 @@ const App = () => {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <I18nextProvider i18n={i18n}>
-          <Toaster />
-          <Sonner />
-          <PremiumLayout title="Doodle Burst">
-            <Routes>
-              <Route path="/token" element={<Token />} />
-              <Route
-                path="/"
-                element={
-                  <AuthGuard>
-                    <Index />
-                  </AuthGuard>
-                }
-              />
-              <Route
-                path="/history"
-                element={
-                  <AuthGuard>
-                    <DoodleHistory />
-                  </AuthGuard>
-                }
-              />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </PremiumLayout>
+          <Routes>
+            <Route path="/token" element={<Token />} />
+            <Route
+              path="/"
+              element={
+                <AuthGuard>
+                  <Index />
+                </AuthGuard>
+              }
+            />
+            <Route
+              path="/history"
+              element={
+                <AuthGuard>
+                  <DoodleHistory />
+                </AuthGuard>
+              }
+            />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </I18nextProvider>
       </TooltipProvider>
     </QueryClientProvider>
   );
 };
+
 
 export default App;

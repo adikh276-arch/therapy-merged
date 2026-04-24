@@ -28,16 +28,8 @@ const AffirmationScreen = ({ onGoHome }: Props) => {
                 {t('affirmation.p2')}
             </p>
         </motion.div>
-
-        <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            onClick={onGoHome}
-            className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all"
-        >
-            {t('affirmation.button')}
-        </motion.button>
     </PremiumComplete>
+
   );
 };
 

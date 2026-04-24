@@ -1,7 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { RotateCcw } from "lucide-react";
+import { RotateCcw, Wind, Play, Pause, RefreshCw } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { motion, AnimatePresence } from "framer-motion";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 type Phase = "inhale" | "hold" | "exhale";
 type Status = "idle" | "running" | "paused";
@@ -56,7 +58,7 @@ const ActiveBreathing = () => {
                 if (r >= totalRounds) {
                   clearTimer();
                   setStatus("idle");
-                  navigate("./complete");
+                  navigate("../complete");
                   return r;
                 }
                 return r + 1;
@@ -95,11 +97,11 @@ const ActiveBreathing = () => {
 
   // Circle scale based on phase
   const getCircleScale = (): number => {
-    if (status === "idle") return 0.6;
-    if (phase === "inhale") return 1;
-    if (phase === "hold") return 1;
-    if (phase === "exhale") return 0.6;
-    return 0.6;
+    if (status === "idle") return 0.7;
+    if (phase === "inhale") return 1.1;
+    if (phase === "hold") return 1.1;
+    if (phase === "exhale") return 0.7;
+    return 0.7;
   };
 
   // Build countdown text
@@ -121,106 +123,105 @@ const ActiveBreathing = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center px-6 py-8 animate-fade-in">
-      <div className="w-full flex flex-col items-center gap-8 px-2">
+    <PremiumLayout 
+      title="Mindful Breathing" 
+      onReset={() => { reset(); navigate(".."); }}
+    >
+      <div className="flex flex-col items-center gap-10 py-6">
+        {/* Progress Header */}
+        <div className="text-center space-y-3">
+          <div className="flex items-center justify-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
+            <Wind size={16} />
+            Phase: {t(phase)}
+          </div>
+          <h2 className="text-3xl font-black text-slate-900 tracking-tight">
+            Round {currentRound} of {totalRounds}
+          </h2>
+        </div>
+
         {/* Breathing Circle */}
-        <div className="relative flex items-center justify-center" style={{ width: 280, height: 280 }}>
-          {/* Outer glow/ring */}
+        <div className="relative flex items-center justify-center w-80 h-80">
           <motion.div
             animate={{
               scale: getCircleScale() * 1.1,
-              opacity: status === "running" ? [0.2, 0.4, 0.2] : 0.2
+              opacity: status === "running" ? [0.1, 0.3, 0.1] : 0.1
             }}
             transition={{
               scale: { duration: getTransitionMs() / 1000, ease: "easeInOut" },
-              opacity: { duration: 2, repeat: Infinity }
+              opacity: { duration: 3, repeat: Infinity }
             }}
-            className="absolute inset-0 rounded-full bg-primary/20 blur-2xl"
+            className="absolute inset-0 rounded-full bg-primary/20 blur-3xl"
           />
           
           <motion.div
             animate={{ scale: getCircleScale() }}
             transition={{ duration: getTransitionMs() / 1000, ease: "easeInOut" }}
-            className="w-full h-full rounded-full bg-primary flex items-center justify-center shadow-2xl shadow-primary/40 relative z-10"
+            className="w-64 h-64 rounded-full bg-primary flex items-center justify-center shadow-[0_20px_50px_rgba(var(--primary),0.3)] relative z-10 border-8 border-white/20"
           >
-            <motion.p
-              key={`${phase}-${countdown}`}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="text-primary-foreground font-bold text-2xl text-center px-6"
-            >
-              {getCountdownText()}
-            </motion.p>
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={`${phase}-${countdown}`}
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 1.2 }}
+                className="text-primary-foreground font-black text-2xl text-center px-8 leading-tight tracking-tight"
+              >
+                {getCountdownText()}
+              </motion.div>
+            </AnimatePresence>
           </motion.div>
         </div>
 
-        {/* Info text */}
-        <div className="text-center space-y-2">
-          <p className="text-slate-500 font-medium text-sm">
-            {t('rounds_to_feel_shift', { count: totalRounds })}
-          </p>
-          <p className="text-slate-900 font-bold text-xl">
-            {t('round_x_of_y', { current: currentRound, total: totalRounds })}
-          </p>
-        </div>
-
         {/* Round Selector */}
-        <div className="bg-slate-100 p-1.5 rounded-2xl flex gap-1">
-          {[4, 6, 8].map((r) => (
-            <button
-              key={r}
-              onClick={() => {
-                if (status === "idle") {
-                  setTotalRounds(r);
-                  reset();
-                }
-              }}
-              className={`px-6 py-2.5 rounded-xl font-bold text-sm transition-all ${totalRounds === r
-                  ? "bg-white text-primary shadow-sm"
-                  : "text-slate-500 hover:text-slate-700"
-                }`}
-            >
-              {t('rounds_selector', { count: r })}
-            </button>
-          ))}
-        </div>
+        {status === "idle" && (
+          <div className="bg-slate-50 p-2 rounded-[2rem] border-2 border-slate-100 flex gap-2">
+            {[4, 6, 8].map((r) => (
+              <button
+                key={r}
+                onClick={() => setTotalRounds(r)}
+                className={`px-8 py-3 rounded-[1.5rem] font-black text-xs uppercase tracking-widest transition-all ${totalRounds === r
+                    ? "bg-primary text-white shadow-lg shadow-primary/20"
+                    : "text-slate-400 hover:text-slate-600 hover:bg-slate-100"
+                  }`}
+              >
+                {r} Rounds
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Controls */}
-        <div className="flex items-center gap-4 mt-2">
+        <div className="flex items-center gap-6">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            onClick={handleStart}
-            className="px-10 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all"
+            onClick={status === "running" ? handlePause : handleStart}
+            className={`w-20 h-20 rounded-full flex items-center justify-center shadow-xl transition-all ${
+              status === "running" 
+              ? "bg-white text-slate-900 border-2 border-slate-100 hover:bg-slate-50 shadow-slate-200" 
+              : "bg-primary text-white shadow-primary/20 hover:shadow-primary/30"
+            }`}
           >
-            {status === "paused" ? t('resume') : t('start')}
+            {status === "running" ? <Pause size={32} strokeWidth={3} /> : <Play size={32} strokeWidth={3} className="ml-1" />}
           </motion.button>
           
-          {status === "running" && (
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={handlePause}
-              className="px-10 py-4 bg-white border-2 border-slate-200 text-slate-700 font-bold rounded-2xl hover:bg-slate-50 transition-all"
-            >
-              {t('pause')}
-            </motion.button>
-          )}
-
           <motion.button
-            whileHover={{ rotate: -90 }}
+            whileHover={{ rotate: -90, scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={reset}
-            className="p-4 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-all"
+            className="w-16 h-16 bg-slate-50 text-slate-400 rounded-full flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all border-2 border-slate-100"
             aria-label={t('reset')}
           >
-            <RotateCcw size={24} />
+            <RefreshCw size={24} strokeWidth={3} />
           </motion.button>
         </div>
+
+        <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] max-w-[200px] text-center leading-relaxed">
+          {status === "idle" ? "Set your rounds and tap play to begin" : "Follow the circle to regulate your breath"}
+        </p>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
-
 
 export default ActiveBreathing;

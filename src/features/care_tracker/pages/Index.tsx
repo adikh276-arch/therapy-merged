@@ -10,6 +10,8 @@ import Screen6Review from "../components/screens/Screen6Review";
 import Screen7History from "../components/screens/Screen7History";
 import IntroScreen from "../components/screens/IntroScreen";
 import { useAuth } from "../components/AuthProvider";
+import { AnimatePresence, motion } from "framer-motion";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 type Screen = "intro" | "checkin" | "activities" | "duration" | "noSelfCare" | "mood" | "statement" | "review" | "history";
 
@@ -82,27 +84,50 @@ const Index = () => {
     setScreen("review");
   };
 
-  switch (screen) {
-    case "intro":
-      return <IntroScreen onStart={() => setScreen("checkin")} />;
-    case "checkin":
-      return <Screen1CheckIn date={date} onDateChange={handleDateChange} onContinue={handleCheckIn} />;
+  const getTitle = () => {
+    switch(screen) {
+      case 'history': return "Self-Care Journey";
+      case 'review': return "Session Review";
+      default: return "Self-Care Tracker";
+    }
+  };
 
-    case "activities":
-      return <Screen2Activities onContinue={handleActivities} />;
-    case "duration":
-      return <Screen2bDuration onContinue={handleDuration} />;
-    case "noSelfCare":
-      return <Screen3NoSelfCare onContinue={handleNoSelfCare} />;
-    case "mood":
-      return <Screen4Mood onContinue={handleMood} />;
-    case "statement":
-      return <Screen5Statement didSelfCare={entry.didSelfCare!} onContinue={handleStatementContinue} />;
-    case "review":
-      return <Screen6Review entry={entry} onEdit={resetFlow} onHistory={() => setScreen("history")} onHome={resetFlow} />;
-    case "history":
-      return <Screen7History onBack={() => setScreen("review")} />;
-  }
+  return (
+    <PremiumLayout 
+      title={getTitle()} 
+      onReset={screen !== 'intro' ? resetFlow : undefined}
+      onSecondaryBack={screen === 'history' ? () => setScreen('review') : undefined}
+      secondaryBackLabel={screen === 'history' ? "Back to Review" : undefined}
+    >
+      <div className="w-full">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={screen}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+          >
+            {screen === "intro" && <IntroScreen onStart={() => setScreen("checkin")} />}
+            {screen === "checkin" && (
+              <Screen1CheckIn date={date} onDateChange={handleDateChange} onContinue={handleCheckIn} />
+            )}
+            {screen === "activities" && <Screen2Activities onContinue={handleActivities} />}
+            {screen === "duration" && <Screen2bDuration onContinue={handleDuration} />}
+            {screen === "noSelfCare" && <Screen3NoSelfCare onContinue={handleNoSelfCare} />}
+            {screen === "mood" && <Screen4Mood onContinue={handleMood} />}
+            {screen === "statement" && (
+              <Screen5Statement didSelfCare={entry.didSelfCare!} onContinue={handleStatementContinue} />
+            )}
+            {screen === "review" && (
+              <Screen6Review entry={entry} onEdit={resetFlow} onHistory={() => setScreen("history")} onHome={resetFlow} />
+            )}
+            {screen === "history" && <Screen7History onBack={() => setScreen("review")} />}
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    </PremiumLayout>
+  );
 };
 
 export default Index;

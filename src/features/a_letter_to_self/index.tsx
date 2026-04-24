@@ -25,24 +25,21 @@ const App = () => {
     <QueryClientProvider client={queryClient}>
       <I18nextProvider i18n={i18n}>
         <TooltipProvider>
-          <Toaster />
-          <Sonner />
-          <PremiumLayout title="A Letter to Self">
-            <AuthGuard>
-              <Routes>
-                <Route path="/" element={<IntroScreen />} />
-                <Route path="/write" element={<WritingScreen />} />
-                <Route path="/check-in" element={<EmotionalCheckIn />} />
-                <Route path="/complete" element={<CompletionScreen />} />
-                <Route path="/letters" element={<PastLetters />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </AuthGuard>
-          </PremiumLayout>
+          <AuthGuard>
+            <Routes>
+              <Route path="/" element={<IntroScreen />} />
+              <Route path="/write" element={<WritingScreen />} />
+              <Route path="/check-in" element={<EmotionalCheckIn />} />
+              <Route path="/complete" element={<CompletionScreen />} />
+              <Route path="/letters" element={<PastLetters />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </AuthGuard>
         </TooltipProvider>
       </I18nextProvider>
     </QueryClientProvider>
   );
 };
+
 
 export default App;

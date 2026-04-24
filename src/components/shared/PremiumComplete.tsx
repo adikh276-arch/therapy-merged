@@ -35,7 +35,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   };
 
   return (
-    <div className="flex flex-col items-center py-8 pb-28 min-h-[80vh]">
+    <div className="flex flex-col items-center py-8 pb-28">
       <div className="w-full max-w-lg space-y-8">
         {/* Success Icon */}
         <motion.div
@@ -99,36 +99,37 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
       </div>
 
       {/* Action Buttons — fixed at bottom */}
-      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
-        <div className="flex flex-col gap-3">
+      <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/80 backdrop-blur-sm z-20 flex justify-center">
+        <div className="w-full max-w-lg flex flex-col gap-3">
           {onRestart && (
             <motion.button
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
+              whileHover={{ scale: 1.01 }}
+              whileTap={{ scale: 0.99 }}
               onClick={onRestart}
-              className="w-full py-4 rounded-[2rem] bg-white border-2 border-slate-200 text-slate-700 font-bold flex items-center justify-center gap-2 hover:bg-slate-50 hover:border-primary/30 transition-all shadow-sm"
+              className="w-full py-4 rounded-2xl bg-white border-2 border-slate-100 text-slate-500 font-bold flex items-center justify-center gap-2 hover:bg-slate-50 hover:text-slate-800 hover:border-slate-200 transition-all shadow-sm"
             >
               <RotateCcw size={18} />
-              Try Again
+              Start Over
             </motion.button>
           )}
           <motion.button
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             onClick={handleHome}
-            className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/25 hover:shadow-2xl hover:shadow-primary/35 transition-all flex items-center justify-center gap-2"
+            className="w-full py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all flex items-center justify-center gap-2"
           >
             <Home size={20} />
-            Go Home
+            Finish & Exit
           </motion.button>
         </div>
       </div>
+
     </div>
   );
 };

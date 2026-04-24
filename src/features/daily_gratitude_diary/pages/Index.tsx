@@ -6,8 +6,9 @@ import ScreenGratitude from "../components/ScreenGratitude";
 import ScreenReflection from "../components/ScreenReflection";
 import ScreenPastEntries from "../components/ScreenPastEntries";
 import { dbRequest } from "../lib/db";
-import { Heart, Sparkles } from "lucide-react";
+import { Heart, Sparkles, Book } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 interface GratitudeEntry {
   grateful: string;
@@ -82,81 +83,121 @@ const Index = () => {
   };
 
   return (
-    <div className="w-full mx-auto">
-      <AnimatePresence mode="wait">
-        {screen === "intro" && (
-          <motion.div
-            key="intro"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-          >
-            <PremiumIntro
-              title={t('app_title')}
-              description={t('app_subtitle')}
-              onStart={() => setScreen("gratitude")}
-              icon={<Heart size={32} />}
-              benefits={[
-                t('intro_text_1'),
-                t('intro_text_2'),
-                t('intro_text_3')
-              ]}
-              duration="3-5 minutes"
-            />
-          </motion.div>
-        )}
-        {screen === "gratitude" && (
-          <ScreenGratitude
-            key="gratitude"
-            onContinue={(entries) => {
-              setCurrentGratitudes(entries);
-              setScreen("reflection");
-            }}
-            onBack={() => setScreen("intro")}
-          />
-        )}
-        {screen === "reflection" && (
-          <ScreenReflection
-            key="reflection"
-            onSave={saveEntry}
-            onBack={() => setScreen("gratitude")}
-          />
-        )}
-        {screen === "closing" && (
-          <motion.div
-            key="closing"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-          >
-            <PremiumComplete
-              title="Gratitude Saved"
-              message="Reflecting on what you're thankful for is a powerful way to shift your focus to the positive."
-              onRestart={() => setScreen("intro")}
-              icon={<Sparkles size={48} />}
+    <PremiumLayout 
+      title="Gratitude Diary" 
+      onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
+    >
+      <div className="w-full">
+        <AnimatePresence mode="wait">
+          {screen === "intro" && (
+            <motion.div
+              key="intro"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              className="w-full"
             >
-                <div className="flex justify-center mt-8">
+              <PremiumIntro
+                title={t('app_title')}
+                description={t('app_subtitle')}
+                onStart={() => setScreen("gratitude")}
+                icon={<Heart size={32} />}
+                benefits={[
+                  t('intro_text_1'),
+                  t('intro_text_2'),
+                  t('intro_text_3')
+                ]}
+                duration="3-5 minutes"
+              >
+                <div className="mt-8 flex justify-center">
                     <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setScreen("past")}
-                        className="px-8 py-4 bg-white border-2 border-slate-100 text-slate-600 font-bold rounded-[2rem] shadow-sm"
+                        className="flex items-center gap-2 text-slate-400 hover:text-primary font-black text-[10px] uppercase tracking-[0.2em] transition-all"
                     >
+                        <Book size={16} />
                         View Past Entries
                     </motion.button>
                 </div>
-            </PremiumComplete>
-          </motion.div>
-        )}
-        {screen === "past" && (
-          <ScreenPastEntries
-            key="past"
-            entries={pastEntries}
-            onBack={() => setScreen("closing")}
-          />
-        )}
-      </AnimatePresence>
-    </div>
+              </PremiumIntro>
+            </motion.div>
+          )}
+          {screen === "gratitude" && (
+            <motion.div
+              key="gratitude"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              className="w-full"
+            >
+              <ScreenGratitude
+                onContinue={(entries) => {
+                  setCurrentGratitudes(entries);
+                  setScreen("reflection");
+                }}
+                onBack={() => setScreen("intro")}
+              />
+            </motion.div>
+          )}
+          {screen === "reflection" && (
+            <motion.div
+              key="reflection"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              className="w-full"
+            >
+              <ScreenReflection
+                onSave={saveEntry}
+                onBack={() => setScreen("gratitude")}
+              />
+            </motion.div>
+          )}
+          {screen === "closing" && (
+            <motion.div
+              key="closing"
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 1.05 }}
+              className="w-full"
+            >
+              <PremiumComplete
+                title="Gratitude Saved"
+                message="Reflecting on what you're thankful for is a powerful way to shift your focus to the positive."
+                onRestart={() => setScreen("intro")}
+                icon={<Sparkles size={48} />}
+              >
+                  <div className="flex justify-center mt-8">
+                      <motion.button
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          onClick={() => setScreen("past")}
+                          className="px-10 py-5 bg-white border-2 border-slate-100 text-slate-400 font-black text-sm uppercase tracking-widest rounded-[2rem] shadow-xl shadow-slate-200/50 hover:text-slate-900 hover:border-slate-200 transition-all"
+                      >
+                          View Past Entries
+                      </motion.button>
+                  </div>
+              </PremiumComplete>
+            </motion.div>
+          )}
+          {screen === "past" && (
+            <motion.div
+              key="past"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              className="w-full"
+            >
+              <ScreenPastEntries
+                entries={pastEntries}
+                onBack={() => setScreen(currentGratitudes.length > 0 ? "closing" : "intro")}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    </PremiumLayout>
   );
 };
 

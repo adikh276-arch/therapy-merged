@@ -10,7 +10,7 @@ interface Screen7Props {
   onBack: () => void;
 }
 
-const Screen7History = ({ onBack }: Screen7Props) => {
+const Screen7History = () => {
   const { t } = useTranslation();
   const { userId } = useAuth();
   const [entries, setEntries] = useState<SelfCareEntry[]>([]);
@@ -28,56 +28,33 @@ const Screen7History = ({ onBack }: Screen7Props) => {
   }, [userId]);
 
   return (
-    <MobileShell>
-      <header className="flex items-center justify-between mb-8">
-          <motion.button 
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            onClick={onBack} 
-            className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-colors shadow-sm"
-          >
-            <ArrowLeft size={20} />
-          </motion.button>
-          <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />
-            Self-Care History
-          </div>
-      </header>
-
-      <div className="text-left mb-8">
-        <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t('screens.history.title')}</h1>
+    <div className="space-y-6">
+      <div className="text-left">
+        <h2 className="text-2xl font-extrabold text-slate-900 mb-1">{t('screens.history.title')}</h2>
         <p className="text-slate-500 text-sm font-medium">Your progress over the last 7 days</p>
       </div>
 
       {loading ? (
         <div className="flex flex-col items-center justify-center py-20 gap-4">
-          <Loader2 className="h-10 w-10 animate-spin text-primary" />
-          <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">Fetching your data...</p>
+          <Loader2 className="h-10 w-10 animate-spin text-primary opacity-20" />
+          <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">Fetching data...</p>
         </div>
       ) : (entries && entries.length) === 0 ? (
-        <div className="text-center py-20 bg-slate-50 rounded-[2.5rem] border-2 border-dashed border-slate-200">
-          <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
+        <div className="text-center py-16 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-100">
+          <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
               <History size={32} />
           </div>
-          <p className="text-slate-400 font-bold mb-6">{t('screens.history.subtitle') || "No entries yet"}</p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={onBack}
-            className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20"
-          >
-            Start Check-in
-          </motion.button>
+          <p className="text-slate-400 font-bold text-sm px-8">{t('screens.history.subtitle') || "No entries yet. Start your self-care journey today."}</p>
         </div>
       ) : (
-        <div className="space-y-4">
+        <div className="space-y-3">
           <AnimatePresence initial={false}>
             {entries.map((entry, i) => (
                 <motion.div
                     key={entry.date}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: i * 0.05 }}
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: i * 0.04 }}
                 >
                     <DayCard entry={entry} />
                 </motion.div>
@@ -85,9 +62,10 @@ const Screen7History = ({ onBack }: Screen7Props) => {
           </AnimatePresence>
         </div>
       )}
-    </MobileShell>
+    </div>
   );
 };
+
  
 const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
   const { t } = useTranslation();

@@ -20,19 +20,16 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <I18nextProvider i18n={i18n}>
-        <Toaster />
-        <Sonner />
         <AuthProvider>
-          <PremiumLayout title="Know Your Values">
-            <Routes>
-              <Route path="/" element={<AuthGuard><Index /></AuthGuard>} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </PremiumLayout>
+          <Routes>
+            <Route path="/" element={<AuthGuard><Index /></AuthGuard>} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </AuthProvider>
       </I18nextProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
+
 
 export default App;

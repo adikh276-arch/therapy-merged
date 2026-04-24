@@ -23,22 +23,19 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <I18nextProvider i18n={i18n}>
-        <Toaster />
-        <Sonner />
-        <PremiumLayout title="Anxiety Tips">
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/tip/seek-support" element={<SeekSupport />} />
-            <Route path="/tip/deep-breathing" element={<DeepBreathing />} />
-            <Route path="/tip/mindfulness" element={<Mindfulness />} />
-            <Route path="/tip/muscle-relaxation" element={<MuscleRelaxation />} />
-            <Route path="/tip/positive-self-talk" element={<PositiveSelfTalk />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </PremiumLayout>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/tip/seek-support" element={<SeekSupport />} />
+          <Route path="/tip/deep-breathing" element={<DeepBreathing />} />
+          <Route path="/tip/mindfulness" element={<Mindfulness />} />
+          <Route path="/tip/muscle-relaxation" element={<MuscleRelaxation />} />
+          <Route path="/tip/positive-self-talk" element={<PositiveSelfTalk />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </I18nextProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
+
 
 export default App;

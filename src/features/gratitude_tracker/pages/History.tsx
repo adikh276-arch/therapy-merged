@@ -16,7 +16,8 @@ import {
   subMonths,
   isSameDay,
 } from "date-fns";
-import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Heart, ArrowLeft, Home } from "lucide-react";
+import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Loader2, Sparkles } from "lucide-react";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
@@ -75,56 +76,59 @@ const History = () => {
   };
 
   return (
-    <div className="flex flex-col items-center py-6 pb-24">
-      <div className="w-full max-w-lg space-y-8">
-        <header className="text-center">
-          <h1 className="text-3xl font-extrabold text-slate-900 mb-2">
-            {t("history.heading")}
-          </h1>
-          <p className="text-slate-500 text-sm">
-            Relive your moments of gratitude
-          </p>
+    <PremiumLayout 
+      title="Gratitude History" 
+      onSecondaryBack={() => navigate("..")}
+      secondaryBackLabel="Back to Journal"
+    >
+      <div className="w-full space-y-8">
+        <header className="flex items-center justify-between">
+          <div className="space-y-1">
+            <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t("history.heading")}</h2>
+            <div className="flex items-center gap-2 text-primary">
+              <Sparkles size={12} />
+              <p className="text-[10px] font-black uppercase tracking-widest">Relive your moments</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-3 bg-slate-50 p-1.5 rounded-2xl border border-slate-100 shadow-sm">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => setCurrentMonth(subMonths(currentMonth, 1))}
+              className="p-2 bg-white text-slate-400 rounded-xl hover:text-slate-800 transition-all border border-slate-100"
+            >
+              <ChevronLeft size={16} strokeWidth={3} />
+            </motion.button>
+            <span className="text-sm font-black text-slate-700 min-w-[120px] text-center">
+              {format(currentMonth, "MMM yyyy")}
+            </span>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => setCurrentMonth(addMonths(currentMonth, 1))}
+              className="p-2 bg-white text-slate-400 rounded-xl hover:text-slate-800 transition-all border border-slate-100"
+            >
+              <ChevronRight size={16} strokeWidth={3} />
+            </motion.button>
+          </div>
         </header>
 
-        {/* Month navigation */}
-        <div className="bg-white rounded-3xl border-2 border-slate-100 p-2 flex items-center justify-between shadow-sm">
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            onClick={() => setCurrentMonth(subMonths(currentMonth, 1))}
-            className="p-3 bg-slate-50 text-slate-600 rounded-2xl hover:bg-slate-100 transition-all"
-          >
-            <ChevronLeft size={20} />
-          </motion.button>
-          <h2 className="text-lg font-bold text-slate-800">
-            {format(currentMonth, "MMMM yyyy")}
-          </h2>
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            onClick={() => setCurrentMonth(addMonths(currentMonth, 1))}
-            className="p-3 bg-slate-50 text-slate-600 rounded-2xl hover:bg-slate-100 transition-all"
-          >
-            <ChevronRight size={20} />
-          </motion.button>
-        </div>
-
         {/* Calendar grid */}
-        <div className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-6 shadow-sm min-h-[360px] flex flex-col">
+        <div className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-8 shadow-sm min-h-[380px] flex flex-col relative overflow-hidden group hover:border-primary/20 transition-all">
           {isLoading ? (
             <div className="flex-1 flex items-center justify-center">
-              <div className="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+              <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
             </div>
           ) : (
             <>
-              <div className="grid grid-cols-7 gap-2 mb-4">
+              <div className="grid grid-cols-7 gap-3 mb-6">
                 {WEEKDAYS.map((d) => (
-                  <div key={d} className="text-center text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+                  <div key={d} className="text-center text-[10px] font-black text-slate-300 uppercase tracking-widest">
                     {t(`history.${d.toLowerCase()}`).substring(0, 3)}
                   </div>
                 ))}
               </div>
-              <div className="grid grid-cols-7 gap-2">
+              <div className="grid grid-cols-7 gap-3">
                 {Array.from({ length: startDayOfWeek }).map((_, i) => (
                   <div key={`empty-${i}`} />
                 ))}
@@ -137,22 +141,22 @@ const History = () => {
                   return (
                     <motion.button
                       key={iso}
-                      whileHover={hasEntry ? { scale: 1.1 } : {}}
-                      whileTap={hasEntry ? { scale: 0.9 } : {}}
+                      whileHover={hasEntry ? { scale: 1.1, y: -2 } : {}}
+                      whileTap={hasEntry ? { scale: 0.95 } : {}}
                       onClick={() => handleDateTap(day)}
-                      className={`relative aspect-square flex flex-col items-center justify-center rounded-2xl text-sm font-bold transition-all ${
+                      className={`relative aspect-square flex flex-col items-center justify-center rounded-2xl text-sm font-black transition-all ${
                         isSelected
-                          ? "bg-primary text-primary-foreground shadow-lg shadow-primary/20"
+                          ? "bg-primary text-primary-foreground shadow-lg shadow-primary/30"
                           : isToday
                             ? "bg-primary/10 text-primary"
                             : hasEntry
-                              ? "bg-slate-50 text-slate-700 hover:bg-slate-100"
-                              : "text-slate-300 pointer-events-none"
+                              ? "bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-100"
+                              : "text-slate-200 pointer-events-none"
                       }`}
                     >
                       {day.getDate()}
                       {hasEntry && !isSelected && (
-                        <div className="absolute bottom-2 w-1 h-1 rounded-full bg-primary" />
+                        <div className="absolute bottom-2.5 w-1.5 h-1.5 rounded-full bg-primary shadow-sm" />
                       )}
                     </motion.button>
                   );
@@ -167,72 +171,62 @@ const History = () => {
           {selectedEntry ? (
             <motion.div
               key={selectedEntry.id}
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
+              exit={{ opacity: 0, y: -12 }}
               className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-8 shadow-sm space-y-6 text-left"
             >
-              <div className="flex items-center justify-between border-b border-slate-50 pb-4">
-                <div className="flex items-center gap-2 text-slate-500">
-                   <CalendarIcon size={16} />
-                   <span className="text-xs font-bold uppercase tracking-wider">
+              <div className="flex items-center justify-between border-b border-slate-50 pb-6">
+                <div className="flex items-center gap-3 text-slate-400">
+                   <div className="p-2 bg-slate-50 rounded-xl">
+                    <CalendarIcon size={18} />
+                   </div>
+                   <span className="text-xs font-black uppercase tracking-widest">
                      {format(new Date(selectedEntry.date + "T00:00:00"), "MMMM d, yyyy")}
                    </span>
                 </div>
-                <div className="flex items-center gap-2 bg-primary/10 text-primary px-3 py-1 rounded-full">
-                   <span className="text-lg">{selectedEntry.mood.emoji}</span>
-                   <span className="text-xs font-bold">{t(`mood.${selectedEntry.mood.label.toLowerCase()}`)}</span>
+                <div className="flex items-center gap-3 bg-primary/10 text-primary px-4 py-2 rounded-2xl">
+                   <span className="text-2xl filter drop-shadow-sm">{selectedEntry.mood.emoji}</span>
+                   <span className="text-xs font-black uppercase tracking-widest">{t(`mood.${selectedEntry.mood.label.toLowerCase()}`)}</span>
                 </div>
               </div>
               
-              <div className="space-y-4">
+              <div className="space-y-6">
                  <div>
-                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">{t("review.gratitude1")}</p>
-                    <p className="text-slate-700 font-medium leading-relaxed">{selectedEntry.gratitude1}</p>
+                    <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{t("review.gratitude1")}</p>
+                    <p className="text-slate-700 font-bold text-lg leading-relaxed">{selectedEntry.gratitude1}</p>
                  </div>
                  {selectedEntry.gratitude2 && (
                    <div>
-                      <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">{t("review.gratitude2")}</p>
-                      <p className="text-slate-700 font-medium leading-relaxed">{selectedEntry.gratitude2}</p>
+                      <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-2">{t("review.gratitude2")}</p>
+                      <p className="text-slate-700 font-bold text-lg leading-relaxed">{selectedEntry.gratitude2}</p>
                    </div>
                  )}
               </div>
             </motion.div>
           ) : (
-             <div className="py-12 text-center">
-                <div className="w-16 h-16 bg-slate-50 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200">
-                   <CalendarIcon size={32} />
+             <div className="py-16 text-center bg-slate-50 rounded-[2.5rem] border-2 border-dashed border-slate-100">
+                <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mx-auto mb-6 text-slate-100 shadow-sm">
+                   <CalendarIcon size={36} />
                 </div>
-                <p className="text-slate-400 font-medium">Select a marked date to view entry</p>
+                <p className="text-slate-400 font-black text-xs uppercase tracking-widest">Select a date to relive gratitude</p>
              </div>
           )}
         </AnimatePresence>
 
-        {/* Bottom Actions */}
-        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
-          <div className="flex gap-4">
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={() => navigate(-1)}
-              className="flex-1 py-4 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-600 font-bold shadow-sm flex items-center justify-center gap-2"
-            >
-              <ArrowLeft size={20} />
-              {t("history.back")}
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={() => navigate("..")}
-              className="flex-1 py-4 rounded-[2rem] bg-primary text-primary-foreground font-bold shadow-lg shadow-primary/20 flex items-center justify-center gap-2"
-            >
-              <Home size={20} />
-              {t("history.home")}
-            </motion.button>
-          </div>
+        <div className="pt-8 pb-12">
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={() => navigate("..")}
+            className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+          >
+            Create New Entry
+            <Sparkles size={20} />
+          </motion.button>
         </div>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
 

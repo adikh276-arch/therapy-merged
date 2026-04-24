@@ -9,14 +9,15 @@ import ClosingScreen from "../components/reflection/ClosingScreen";
 import HistoryScreen from "../components/reflection/HistoryScreen";
 import { ReflectionEntry, saveReflection } from "../lib/reflections";
 import { useTranslation } from "react-i18next";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const pageVariants = {
-  enter: { opacity: 0, y: 16 },
+  enter: { opacity: 0, y: 12 },
   center: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -16 },
+  exit: { opacity: 0, y: -12 },
 };
 
-const pageTransition = { duration: 0.5, ease: "easeInOut" };
+const pageTransition = { duration: 0.4, ease: "easeInOut" };
 
 type Screen = "intro" | "breathing" | "r1" | "r2" | "r3" | "intention" | "checkin" | "closing" | "history";
 
@@ -74,7 +75,10 @@ const Index = () => {
   };
 
   return (
-    <div className="flex items-center justify-center px-4 py-8 max-w-xl mx-auto w-full">
+    <PremiumLayout 
+      title="Pause for Appreciation" 
+      onReset={screen !== 'intro' ? resetFlow : undefined}
+    >
       <div className="w-full">
         <AnimatePresence mode="wait">
           <motion.div
@@ -84,6 +88,7 @@ const Index = () => {
             animate="center"
             exit="exit"
             transition={pageTransition}
+            className="w-full"
           >
             {screen === "intro" && (
               <IntroScreen onBegin={() => setScreen("breathing")} onHistory={() => setScreen("history")} />
@@ -133,7 +138,7 @@ const Index = () => {
           </motion.div>
         </AnimatePresence>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
 

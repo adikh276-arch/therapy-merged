@@ -20,17 +20,13 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <I18nextProvider i18n={i18n}>
-        <Toaster />
-        <Sonner />
-        <PremiumLayout title="Depression Tips">
-          <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/tip/:id" element={<TipDetail />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </Suspense>
-        </PremiumLayout>
+        <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/tip/:id" element={<TipDetail />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
       </I18nextProvider>
     </TooltipProvider>
   </QueryClientProvider>

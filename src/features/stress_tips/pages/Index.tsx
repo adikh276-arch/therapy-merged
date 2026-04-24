@@ -1,31 +1,33 @@
 import MoodSelector from "../components/MoodSelector";
 import TipCard from "../components/TipCard";
 import { tips } from "../data/tips";
-
 import { useTranslation } from "react-i18next";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
+import { Sparkles } from "lucide-react";
 
 const Index = () => {
   const { t } = useTranslation();
   return (
-    <div className=" gradient-main">
-      <div className="w-full max-w-xl mx-auto px-5 py-10 pb-16">
-        {/* Header */}
-        <div className="mb-8">
-          <p className="text-sm text-slate-500 font-bold mb-2 uppercase tracking-wide">{t('index.tagline')}</p>
-          <h1 className="text-2xl font-bold text-foreground leading-tight">
+    <PremiumLayout title="Stress Tips">
+      <div className="w-full space-y-10">
+        <header className="space-y-4">
+          <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
+            <Sparkles size={14} />
+            {t('index.tagline')}
+          </div>
+          <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
             {t('index.title')}
           </h1>
-          <p className="text-sm text-slate-600 font-medium mt-2 leading-relaxed">
+          <p className="text-slate-500 text-base font-bold leading-relaxed max-w-md">
             {t('index.description')}
           </p>
-        </div>
+        </header>
 
-        {/* Tips */}
-        <div>
-          <h2 className="text-base font-semibold text-foreground mb-4">
+        <div className="space-y-6">
+          <h2 className="text-xs font-black text-slate-400 uppercase tracking-[0.2em] px-2">
             {t('index.sectionTitle')}
           </h2>
-          <div className="flex flex-col gap-3">
+          <div className="grid gap-4">
             {tips.map((tip, i) => (
               <TipCard
                 key={tip.slug}
@@ -40,7 +42,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
 

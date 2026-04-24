@@ -3,7 +3,8 @@ import IntroScreen from "../components/IntroScreen";
 import StorySelectionScreen from "../components/StorySelectionScreen";
 import StoryScreen from "../components/StoryScreen";
 import { stories } from "../data/stories";
-import { LanguageSelector } from "../components/LanguageSelector";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
+import { AnimatePresence, motion } from "framer-motion";
 
 type Screen = "intro" | "selection" | "story";
 
@@ -26,21 +27,36 @@ const Index = () => {
   const handleBackToStories = () => setScreen("selection");
 
   return (
-    <div className="bg-transparent relative">
-      <div className="mx-auto w-full">
-        {screen === "intro" && <IntroScreen onStart={handleReadStories} />}
-        {screen === "selection" && <StorySelectionScreen onSelect={handleSelectStory} />}
-        {screen === "story" && (
-          <StoryScreen
-            story={stories[storyIndex]}
-            storyIndex={storyIndex}
-            isLast={storyIndex === stories.length - 1}
-            onNext={handleNextStory}
-            onBack={handleBackToStories}
-          />
-        )}
+    <PremiumLayout 
+      title="Real Stories" 
+      onSecondaryBack={screen === "story" ? handleBackToStories : (screen === "selection" ? () => setScreen("intro") : undefined)}
+      secondaryBackLabel={screen === "story" ? "Back to list" : "Back to start"}
+      onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
+    >
+      <div className="w-full">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={screen}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -12 }}
+            className="w-full"
+          >
+            {screen === "intro" && <IntroScreen onStart={handleReadStories} />}
+            {screen === "selection" && <StorySelectionScreen onSelect={handleSelectStory} />}
+            {screen === "story" && (
+              <StoryScreen
+                story={stories[storyIndex]}
+                storyIndex={storyIndex}
+                isLast={storyIndex === stories.length - 1}
+                onNext={handleNextStory}
+                onBack={handleBackToStories}
+              />
+            )}
+          </motion.div>
+        </AnimatePresence>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
 
