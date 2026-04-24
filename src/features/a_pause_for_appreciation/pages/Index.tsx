@@ -6,7 +6,6 @@ import ReflectionPrompt from "../components/reflection/ReflectionPrompt";
 import IntentionScreen from "../components/reflection/IntentionScreen";
 import CheckInScreen from "../components/reflection/CheckInScreen";
 import ClosingScreen from "../components/reflection/ClosingScreen";
-import HistoryScreen from "../components/reflection/HistoryScreen";
 import { ReflectionEntry, saveReflection } from "../lib/reflections";
 import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
@@ -19,7 +18,7 @@ const pageVariants = {
 
 const pageTransition = { duration: 0.4, ease: "easeInOut" };
 
-type Screen = "intro" | "breathing" | "r1" | "r2" | "r3" | "intention" | "checkin" | "closing" | "history";
+type Screen = "intro" | "breathing" | "r1" | "r2" | "r3" | "intention" | "checkin" | "closing";
 
 const Index = () => {
   const { t } = useTranslation();
@@ -91,7 +90,7 @@ const Index = () => {
             className="w-full"
           >
             {screen === "intro" && (
-              <IntroScreen onBegin={() => setScreen("breathing")} onHistory={() => setScreen("history")} />
+              <IntroScreen onBegin={() => setScreen("breathing")} />
             )}
             {screen === "breathing" && <BreathingScreen onContinue={() => setScreen("r1")} />}
             {screen === "r1" && (
@@ -129,12 +128,9 @@ const Index = () => {
             )}
             {screen === "closing" && (
               <ClosingScreen
-                onSave={() => setScreen("history")}
-                onHistory={() => setScreen("history")}
                 onExit={resetFlow}
               />
             )}
-            {screen === "history" && <HistoryScreen onBack={resetFlow} />}
           </motion.div>
         </AnimatePresence>
       </div>

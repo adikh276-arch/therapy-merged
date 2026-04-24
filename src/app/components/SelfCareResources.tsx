@@ -127,7 +127,7 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://app.mantracare.com/therapy/depression/depr-guided-series/",
     exercises: [
       { title: "5-4-3-2-1 Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Joyful Activities", icon: Sparkles, url: "/tools/joyful-activities" },
     ],
@@ -171,7 +171,7 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://app.mantracare.com/therapy/stress-home/strs-guided-series/",
     exercises: [
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
@@ -194,7 +194,7 @@ const topicDetails: Record<string, {
     exercises: [
       { title: "4-6-8 Breathing", icon: Play, url: "/exercises/4-6-8-breathing" },
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
     todos: [
@@ -214,7 +214,7 @@ const topicDetails: Record<string, {
     description: "Guidance and activities designed for teens navigating growth, identity, and emotional challenges.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/adolescent/adlscnt-guided-series/",
     exercises: [
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Doodle Burst", icon: Pen, url: "/tools/doodle-burst" },
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
@@ -237,7 +237,7 @@ const topicDetails: Record<string, {
     exercises: [
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     todos: [
@@ -258,7 +258,7 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://app.mantracare.com/therapy/workplace/wrkplc-guided-series/",
     exercises: [
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
       { title: "Environment Optimization", icon: Compass, url: "/tools/environment-optimization" },
     ],
@@ -280,7 +280,7 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://app.mantracare.com/therapy/parenting/prntng-guided-series/",
     exercises: [
       { title: "Pause for Appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
     ],
@@ -324,7 +324,7 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://app.mantracare.com/therapy/grief/grf-guided-series/",
     exercises: [
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
     ],
@@ -348,7 +348,7 @@ const topicDetails: Record<string, {
       { title: "Grounded Technique", icon: Compass, url: "/exercises/grounding-technique" },
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
       { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
     ],
     todos: [
       { title: "Vibe Tracker", icon: TrendingUp, url: "/trackers/vibe-tracker" },
@@ -369,7 +369,7 @@ const topicDetails: Record<string, {
     exercises: [
       { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "A Pause for Appreciation", icon: Pause, url: "/trackers/a-pause-for-appreciation" },
     ],
     todos: [
@@ -389,7 +389,7 @@ const topicDetails: Record<string, {
     description: "Supportive resources for new mothers managing postpartum challenges and emotional changes.",
     guidedSeriesUrl: "https://app.mantracare.com/therapy/postpartum/pstprtm-guided-series/",
     exercises: [
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
       { title: "Box Breathing", icon: Wind, url: "/exercises/box-breathing" },
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
@@ -412,7 +412,7 @@ const topicDetails: Record<string, {
     guidedSeriesUrl: "https://therapy.mantracare.com/en/therapyapp/sexuality-guided-series/",
     exercises: [
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { title: "Thought Shifts", icon: RefreshCw, url: "/exercises/diffusion-technique" },
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
     ],
@@ -436,7 +436,7 @@ const topicDetails: Record<string, {
       { title: "Grounding", icon: Compass, url: "/exercises/5-4-3-2-1-grounding" },
       { title: "Diffusion Techniques", icon: Brain, url: "/exercises/diffusion-technique" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
-      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1" },
+      { title: "Guided Imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
     ],
     todos: [
       { title: "Energy Tracker", icon: Zap, url: "/trackers/energy-tracker" },
@@ -557,7 +557,13 @@ export function SelfCareResources() {
                       <motion.button
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.98 }}
-                        onClick={() => { if(detail.guidedSeriesUrl) window.location.href = detail.guidedSeriesUrl; }}
+                        onClick={() => { 
+                          if (window.parent !== window) {
+                            window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
+                          } else if(detail.guidedSeriesUrl) {
+                            window.location.href = detail.guidedSeriesUrl;
+                          }
+                        }}
                         className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-5 flex items-center justify-between hover:border-[#2D9CDB] hover:shadow-lg transition-all group"
                       >
                         <div className="flex items-center gap-4">
@@ -600,15 +606,18 @@ export function SelfCareResources() {
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => {
-                              if (ex.title.toLowerCase() === "guided imagery") {
+                              if (ex.action) {
                                 if (window.parent !== window) {
-                                  window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
-                                } else {
-                                  window.location.href = 'https://web.mantracare.com';
+                                  window.parent.postMessage({ action: ex.action }, 'https://web.mantracare.com');
+                                } else if (ex.url) {
+                                  window.location.href = ex.url;
                                 }
                                 return;
                               }
-                              ex.url && (ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url))
+                              
+                              if (ex.url) {
+                                ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url);
+                              }
                             }}
                             className="w-full rounded-2xl p-4 border-2 transition-all hover:shadow-md"
                             style={{
