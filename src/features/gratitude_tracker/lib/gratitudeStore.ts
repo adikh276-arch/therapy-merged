@@ -122,7 +122,8 @@ export async function getEntriesForMonth(year: number, month: number): Promise<G
   if (!userId) return [];
 
   const startDate = `${year}-${String(month + 1).padStart(2, "0")}-01`;
-  const endDate = `${year}-${String(month + 1).padStart(2, "0")}-31`;
+  const lastDay = new Date(year, month + 1, 0).getDate();
+  const endDate = `${year}-${String(month + 1).padStart(2, "0")}-${String(lastDay).padStart(2, "0")}`;
 
   const result = await query(
     "SELECT * FROM gratitude_tracker_entries WHERE user_id = $1 AND date >= $2 AND date <= $3 ORDER BY date ASC, created_at DESC",
