@@ -30,11 +30,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
     if (onBack) {
       onBack();
     } else {
-      if (window.parent !== window) {
-        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-      } else {
-        navigate('/');
-      }
+      navigate('/');
     }
   };
 
