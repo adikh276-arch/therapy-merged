@@ -1,8 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { ChevronDown, Calendar, Check, Loader2 } from "lucide-react";
-import { Button } from "../components/ui/button";
-import { Textarea } from "../components/ui/textarea";
+import { ChevronDown, Calendar, Check, Loader2, Sparkles, Send, Save } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   generateId,
   getCurrentDate,
@@ -48,7 +47,6 @@ const WritingScreen = () => {
     []
   );
 
-  // Auto-save every 5 seconds
   useEffect(() => {
     if (!content) return;
     const timer = setInterval(() => {
@@ -60,10 +58,6 @@ const WritingScreen = () => {
   const handlePromptClick = (prompt: string) => {
     setContent((prev) => (prev ? prev + "\n\n" + prompt + "\n" : prompt + "\n"));
     textareaRef.current?.focus();
-  };
-
-  const handleSave = async () => {
-    await doSave(content);
   };
 
   const handleFinish = async () => {
@@ -79,92 +73,122 @@ const WritingScreen = () => {
   });
 
   return (
-    <div className=" px-4 py-8 fade-enter">
-      <div className="w-full mx-auto space-y-6">
-        {/* Header */}
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-heading">Your Letter</h1>
-          <div className="text-sm text-muted-foreground flex items-center gap-1.5">
-            {saveStatus === "saving" && (
-              <>
-                <Loader2 className="w-3.5 h-3.5 animate-spin" /> Saving…
-              </>
-            )}
-            {saveStatus === "saved" && (
-              <>
-                <Check className="w-3.5 h-3.5 text-accent-foreground" /> Saved ✓
-              </>
-            )}
-          </div>
-        </div>
-
-        {/* Date */}
-        <div className="flex items-center gap-2 text-muted-foreground text-sm">
-          <Calendar className="w-4 h-4" />
-          {currentDate}
-        </div>
-
-        {/* Text Area */}
-        <Textarea
-          ref={textareaRef}
-          value={content}
-          onChange={(e) => {
-            setContent(e.target.value);
-            setSaveStatus("idle");
-          }}
-          placeholder="Right now, I want you to remember…"
-          className="min-h-[240px] rounded-2xl p-5 text-base leading-relaxed resize-none border-border/60 focus:ring-2 focus:ring-primary/20 letter-transition"
-        />
-
-        {/* Inspiration Section */}
-        <div className="bg-transparent rounded-2xl border border-border/60 overflow-hidden">
-          <button
-            onClick={() => setInspirationOpen(!inspirationOpen)}
-            className="w-full flex items-center justify-between px-5 py-4 text-left letter-transition"
-          >
-            <span className="font-medium text-sm">
-              ✨ Need Some Inspiration?
-            </span>
-            <ChevronDown
-              className={`w-5 h-5 text-muted-foreground transition-transform duration-300 ${inspirationOpen ? "rotate-180" : ""
-                }`}
-            />
-          </button>
-
-          <div
-            className={`overflow-hidden transition-all duration-300 ease-in-out ${inspirationOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
-              }`}
-          >
-            <div className="px-5 pb-5 grid gap-3">
-              {PROMPTS.map((prompt) => (
-                <button
-                  key={prompt}
-                  onClick={() => handlePromptClick(prompt)}
-                  className="text-left bg-prompt text-prompt-foreground rounded-xl px-4 py-3 text-sm leading-relaxed prompt-card-hover"
-                >
-                  "{prompt}"
-                </button>
-              ))}
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="flex items-center justify-between">
+          <div className="text-left">
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">Your Letter</h1>
+            <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest">
+              <Calendar size={14} />
+              {currentDate}
             </div>
           </div>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={saveStatus}
+              initial={{ opacity: 0, x: 10 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -10 }}
+              className="text-xs font-bold flex items-center gap-1.5"
+            >
+              {saveStatus === "saving" && (
+                <span className="text-primary flex items-center gap-1">
+                  <Loader2 size={14} className="animate-spin" /> Saving...
+                </span>
+              )}
+              {saveStatus === "saved" && (
+                <span className="text-emerald-500 flex items-center gap-1">
+                  <Check size={14} /> Saved
+                </span>
+              )}
+            </motion.div>
+          </AnimatePresence>
+        </header>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="relative"
+        >
+          <textarea
+            ref={textareaRef}
+            value={content}
+            onChange={(e) => {
+              setContent(e.target.value);
+              setSaveStatus("idle");
+            }}
+            placeholder="Right now, I want you to remember..."
+            className="w-full min-h-[300px] bg-white border-2 border-slate-100 rounded-[2.5rem] px-8 py-8 text-lg leading-relaxed focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all resize-none shadow-sm placeholder:text-slate-300"
+          />
+        </motion.div>
+
+        {/* Inspiration Section */}
+        <div className="bg-white rounded-3xl border-2 border-slate-100 overflow-hidden shadow-sm">
+          <button
+            onClick={() => setInspirationOpen(!inspirationOpen)}
+            className="w-full flex items-center justify-between px-6 py-5 text-left hover:bg-slate-50 transition-colors"
+          >
+            <div className="flex items-center gap-2 font-bold text-slate-700">
+              <Sparkles className="text-primary" size={18} />
+              Need some inspiration?
+            </div>
+            <motion.div
+              animate={{ rotate: inspirationOpen ? 180 : 0 }}
+              className="text-slate-400"
+            >
+              <ChevronDown size={20} />
+            </motion.div>
+          </button>
+
+          <AnimatePresence>
+            {inspirationOpen && (
+              <motion.div
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: "auto", opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                className="overflow-hidden"
+              >
+                <div className="px-6 pb-6 grid gap-3">
+                  {PROMPTS.map((prompt) => (
+                    <motion.button
+                      key={prompt}
+                      whileHover={{ scale: 1.01, x: 4 }}
+                      whileTap={{ scale: 0.99 }}
+                      onClick={() => handlePromptClick(prompt)}
+                      className="text-left bg-slate-50 text-slate-600 rounded-2xl px-5 py-4 text-sm font-medium hover:bg-primary/5 hover:text-primary transition-all border border-transparent hover:border-primary/20"
+                    >
+                      "{prompt}"
+                    </motion.button>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
 
-        {/* Buttons */}
-        <div className="flex gap-3 pt-2">
-          <Button
-            variant="outline"
-            onClick={handleSave}
-            className="flex-1 rounded-2xl h-12 text-base"
-          >
-            Save Letter
-          </Button>
-          <Button
-            onClick={handleFinish}
-            className="flex-1 rounded-2xl h-12 text-base"
-            disabled={!content.trim()}
-          >
-            Finish
-          </Button>
+        {/* Action Buttons */}
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
+          <div className="flex gap-4">
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => doSave(content)}
+              className="flex-1 py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-600 font-bold shadow-sm flex items-center justify-center gap-2"
+            >
+              <Save size={20} />
+              Save
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={handleFinish}
+              disabled={!content.trim()}
+              className="flex-1 py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold shadow-lg shadow-primary/20 flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+            >
+              Finish
+              <Send size={20} />
+            </motion.button>
+          </div>
         </div>
       </div>
     </div>

@@ -53,7 +53,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
       ctx.lineCap = "round";
       ctx.lineJoin = "round";
       ctx.lineWidth = 3;
-      ctx.strokeStyle = "hsl(260, 60%, 55%)";
+      ctx.strokeStyle = "hsl(190, 70%, 45%)";
     }
   }, []);
 
@@ -162,10 +162,11 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
           className="absolute inset-0 opacity-[0.08] pointer-events-none"
           style={{
             backgroundImage:
-              "radial-gradient(circle, hsl(260, 40%, 60%) 1px, transparent 1px)",
+              "radial-gradient(circle, hsl(190, 40%, 60%) 1px, transparent 1px)",
             backgroundSize: "24px 24px",
           }}
         />
+
         <canvas
           ref={canvasRef}
           className="w-full touch-none cursor-crosshair"

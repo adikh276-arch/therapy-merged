@@ -20,7 +20,7 @@ export const tips: Tip[] = [
     title: "Engage in Enjoyable Activities",
     preview: "Do small activities that bring even a tiny bit of comfort or interest.",
     icon: Heart,
-    iconBg: "pastel-pink",
+    iconBg: "pastel-slate",
     whyItHelps:
       "Depression reduces motivation and pleasure. Small enjoyable actions can slowly rebuild positive feelings and energy.",
     whatYouCanDo: [
@@ -39,7 +39,8 @@ export const tips: Tip[] = [
     title: "Challenge Negative Thoughts",
     preview: "Notice harsh thoughts and gently replace them with balanced ones.",
     icon: Brain,
-    iconBg: "pastel-purple",
+    iconBg: "pastel-cyan",
+
     whyItHelps:
       "Depression often creates automatic negative thoughts that feel true but may not be fully accurate.",
     whatYouCanDo: [

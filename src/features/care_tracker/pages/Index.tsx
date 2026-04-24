@@ -8,13 +8,15 @@ import Screen4Mood from "../components/screens/Screen4Mood";
 import Screen5Statement from "../components/screens/Screen5Statement";
 import Screen6Review from "../components/screens/Screen6Review";
 import Screen7History from "../components/screens/Screen7History";
+import IntroScreen from "../components/screens/IntroScreen";
 import { useAuth } from "../components/AuthProvider";
 
-type Screen = "checkin" | "activities" | "duration" | "noSelfCare" | "mood" | "statement" | "review" | "history";
+type Screen = "intro" | "checkin" | "activities" | "duration" | "noSelfCare" | "mood" | "statement" | "review" | "history";
 
 const Index = () => {
   const { userId } = useAuth();
-  const [screen, setScreen] = useState<Screen>("checkin");
+  const [screen, setScreen] = useState<Screen>("intro");
+
   const [date, setDate] = useState(new Date());
   const [entry, setEntry] = useState<SelfCareEntry>({
     date: toLocalIsoDate(new Date()),
@@ -81,8 +83,11 @@ const Index = () => {
   };
 
   switch (screen) {
+    case "intro":
+      return <IntroScreen onStart={() => setScreen("checkin")} />;
     case "checkin":
       return <Screen1CheckIn date={date} onDateChange={handleDateChange} onContinue={handleCheckIn} />;
+
     case "activities":
       return <Screen2Activities onContinue={handleActivities} />;
     case "duration":

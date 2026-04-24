@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
-import LanguageSelector from "./components/LanguageSelector";
 
 import { AuthProvider } from "./components/AuthContext";
 import { AuthGuard } from "./components/AuthGuard";
@@ -20,7 +19,6 @@ const App = () => (
       <Sonner />
       <AuthProvider>
         <BrowserRouter basename="/know_your_values">
-          <LanguageSelector />
           <Routes>
             <Route path="/" element={<AuthGuard><Index /></AuthGuard>} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

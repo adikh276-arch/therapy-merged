@@ -1,25 +1,17 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import PageTransition from "../components/PageTransition";
 import { MOODS, MoodOption, saveEntry, todayISO } from "../lib/gratitudeStore";
 import { v4 } from "../lib/uid";
+import { Check, Loader2 } from "lucide-react";
 
-const moodBgs = [
-  "bg-[hsl(155,52%,90%)]",      // Happy - sage tint
-  "bg-[hsl(200,50%,90%)]",      // Calm - soft blue
-  "bg-[hsl(45,60%,90%)]",       // Neutral - warm yellow
-  "bg-[hsl(255,60%,92%)]",      // Low - lavender
-  "bg-[hsl(340,50%,92%)]",      // Stressed - soft pink
-];
-
-const moodBgsSelected = [
-  "bg-[hsl(155,52%,80%)] ring-2 ring-primary",
-  "bg-[hsl(200,50%,80%)] ring-2 ring-primary",
-  "bg-[hsl(45,60%,82%)] ring-2 ring-primary",
-  "bg-[hsl(255,60%,84%)] ring-2 ring-primary",
-  "bg-[hsl(340,50%,84%)] ring-2 ring-primary",
+const premiumTints = [
+  "bg-emerald-50 border-emerald-100 text-emerald-700",
+  "bg-cyan-50 border-cyan-100 text-cyan-700",
+  "bg-slate-50 border-slate-100 text-slate-700",
+  "bg-blue-50 border-blue-100 text-blue-700",
+  "bg-rose-50 border-rose-100 text-rose-700",
 ];
 
 const MoodSelection = () => {
@@ -31,7 +23,7 @@ const MoodSelection = () => {
   const [isSaving, setIsSaving] = useState(false);
 
   if (!gratitude1) {
-    navigate(".");
+    navigate("..");
     return null;
   }
 
@@ -56,56 +48,82 @@ const MoodSelection = () => {
   };
 
   return (
-    <PageTransition>
-      <div className="flex flex-col  bg-transparent px-5 pt-12 pb-28 w-full mx-auto w-full text-justify">
-        <header className="mb-8">
-          <h1 className="text-2xl font-heading font-semibold text-foreground text-left">
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="text-center">
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-2">
             {t("mood.heading")}
           </h1>
-          <p className="text-sm text-muted-foreground mt-2">
+          <p className="text-slate-500 text-sm">
             {t("mood.subheading")}
           </p>
         </header>
 
-        <div className="flex-1 space-y-3">
+        <div className="grid grid-cols-1 gap-4">
           {MOODS.map((mood, i) => {
             const isSelected = selected?.label === mood.label;
             return (
               <motion.button
                 key={mood.label}
                 onClick={() => setSelected(mood)}
-                whileTap={{ scale: 0.97 }}
+                whileHover={{ scale: 1.02, x: 5 }}
+                whileTap={{ scale: 0.98 }}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.07, duration: 0.35 }}
-                className={`w-full flex items-center gap-4 px-5 py-4 rounded-lg transition-all duration-300 ${isSelected ? moodBgsSelected[i] : moodBgs[i]
-                  }`}
+                transition={{ delay: i * 0.05 }}
+                className={`w-full flex items-center justify-between px-6 py-5 rounded-[2rem] border-2 transition-all duration-300 group ${
+                  isSelected 
+                    ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20" 
+                    : `${premiumTints[i]} border-transparent`
+                }`}
               >
-                <span className="text-3xl">{mood.emoji}</span>
-                <span className="text-base font-medium text-foreground">{t(`mood.${mood.label.toLowerCase()}`)}</span>
+                <div className="flex items-center gap-4">
+                  <span className="text-3xl filter drop-shadow-sm group-hover:scale-110 transition-transform">{mood.emoji}</span>
+                  <span className={`text-lg font-bold ${isSelected ? "text-primary-foreground" : "text-slate-800"}`}>
+                    {t(`mood.${mood.label.toLowerCase()}`)}
+                  </span>
+                </div>
+                <AnimatePresence>
+                  {isSelected && (
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.5 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.5 }}
+                      className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center"
+                    >
+                      <Check size={20} />
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </motion.button>
             );
           })}
         </div>
 
-        <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full w-full bg-transparent/80 backdrop-blur-md px-5 py-4 safe-bottom border-t border-border/50 z-10">
-          <button
+        {/* Action Button */}
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
             onClick={handleSave}
             disabled={!selected || isSaving}
-            className="w-full h-[52px] rounded-pill bg-primary text-primary-foreground font-heading font-medium text-base transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed active:scale-[0.98] hover:brightness-105  flex items-center justify-center gap-2"
+            className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
           >
             {isSaving ? (
               <>
-                <div className="w-4 h-4 border-2 border-primary-foreground border-t-transparent rounded-full animate-spin" />
+                <Loader2 size={24} className="animate-spin" />
                 {t("mood.saving", "Saving...")}
               </>
             ) : (
-              t("mood.save")
+              <>
+                {t("mood.save")}
+                <Check size={20} />
+              </>
             )}
-          </button>
+          </motion.button>
         </div>
       </div>
-    </PageTransition>
+    </div>
   );
 };
 

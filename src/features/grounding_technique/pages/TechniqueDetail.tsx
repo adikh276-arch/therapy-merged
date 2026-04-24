@@ -1,22 +1,22 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { ArrowLeft, ChevronRight, ChevronLeft } from "lucide-react";
+import { ArrowLeft, ChevronRight, ChevronLeft, Sparkles, Wind } from "lucide-react";
 import { techniques } from "../data/techniques";
 import { useTranslation } from "../hooks/useTranslation";
-import LanguageSwitcher from "../components/LanguageSwitcher";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function TechniqueDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { t, currentLang, changeLang } = useTranslation();
+  const { t, currentLang } = useTranslation();
   const [currentStep, setCurrentStep] = useState(0);
 
   const technique = techniques.find((tech) => tech.id === id);
 
   if (!technique) {
     return (
-      <div className="flex  items-center justify-center bg-transparent">
-        <p className="text-muted-foreground">{t("Technique not found")}</p>
+      <div className="flex items-center justify-center h-full">
+        <p className="text-slate-400 font-bold">{t("Technique not found")}</p>
       </div>
     );
   }
@@ -27,129 +27,104 @@ export default function TechniqueDetail() {
   const isFirstStep = currentStep === 0;
 
   return (
-    <div
-      className=" relative overflow-hidden"
-      style={{
-        background: `linear-gradient(180deg, hsl(var(${technique.colorVar}) / 0.35) 0%, hsl(140 25% 94%) 50%, hsl(var(--background)) 100%)`,
-      }}
-    >
-      {/* Breathing Concentric Circles */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {[160, 260, 380, 520].map((size, i) => (
-          <div
-            key={i}
-            className="breathing-circle"
-            style={{
-              width: `${size}px`,
-              height: `${size}px`,
-              top: '40%',
-              borderColor: `hsl(var(${technique.colorVar}-deep) / 0.2)`,
-              animationDelay: `${i * 0.9}s`,
-            }}
-          />
-        ))}
-      </div>
-
-      {/* Mobile container */}
-      <div className="relative z-10 w-full mx-auto  flex flex-col">
-        {/* Header */}
-        <header className="flex items-center justify-between px-5 pt-6 pb-4">
-          <button
-            onClick={() => navigate(`/${langParam}`)}
-            className="p-2 -ml-2 rounded-lg hover:bg-secondary/60 transition-colors"
-            aria-label="Go back"
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="flex items-center justify-between">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={() => navigate("/")}
+            className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-colors shadow-sm"
           >
-            <ArrowLeft className="w-5 h-5 text-foreground" />
-          </button>
-          <LanguageSwitcher currentLang={currentLang} onChangeLang={changeLang} />
+            <ArrowLeft size={20} />
+          </motion.button>
+          <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+            <Sparkles size={12} />
+            Grounding Technique
+          </div>
         </header>
 
-        {/* Title */}
-        <div className="px-6 pb-4">
-          <h1 className="text-2xl font-bold text-foreground leading-tight">
+        <div className="space-y-4">
+          <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
             {t(technique.title)}
           </h1>
-        </div>
-
-        {/* Step Progress */}
-        <div className="px-6 pb-6">
-          <div className="flex gap-1.5">
-            {technique.steps.map((_, i) => (
-              <div
-                key={i}
-                className="h-1 rounded-full flex-1 transition-all duration-500"
-                style={{
-                  backgroundColor: i <= currentStep
-                    ? `hsl(var(${technique.colorVar}-deep))`
-                    : `hsl(var(${technique.colorVar}) / 0.4)`,
-                }}
-              />
-            ))}
-          </div>
-          <p className="text-xs text-muted-foreground mt-2">
-            {t("Step")} {currentStep + 1} / {totalSteps}
-          </p>
-        </div>
-
-        {/* Step Content - single step at a time */}
-        <div className="flex-1 px-6 flex items-center">
-          <div key={currentStep} className="step-enter w-full">
-            <div className="rounded-2xl p-8 backdrop-blur-sm" style={{
-              backgroundColor: `hsl(var(${technique.colorVar}) / 0.15)`,
-            }}>
-              <div
-                className="w-3 h-3 rounded-full mb-5"
-                style={{ backgroundColor: `hsl(var(${technique.colorVar}-deep))` }}
-              />
-              <p className="text-foreground text-lg leading-relaxed font-medium">
-                {t(technique.steps[currentStep])}
-              </p>
+          
+          <div className="flex items-center gap-2">
+            <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
+                <motion.div 
+                    initial={{ width: 0 }}
+                    animate={{ width: `${((currentStep + 1) / totalSteps) * 100}%` }}
+                    className="h-full bg-primary"
+                />
             </div>
+            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                Step {currentStep + 1} of {totalSteps}
+            </span>
           </div>
         </div>
 
-        {/* Navigation Buttons */}
-        <div className="px-6 pb-6 pt-4 space-y-3">
-          {/* Prev / Next row */}
-          <div className="flex gap-3">
-            {!isFirstStep && (
-              <button
-                onClick={() => setCurrentStep((s) => s - 1)}
-                className="flex items-center justify-center gap-1 rounded-xl py-3.5 px-5 font-semibold text-sm transition-all active:scale-[0.98] border"
-                style={{
-                  borderColor: `hsl(var(${technique.colorVar}-deep) / 0.3)`,
-                  color: `hsl(var(${technique.colorVar}-deep))`,
-                }}
-              >
-                <ChevronLeft className="w-4 h-4" />
-                {t("Back")}
-              </button>
-            )}
-            <button
-              onClick={() => {
-                if (isLastStep) {
-                  navigate(`/${langParam}`);
-                } else {
-                  setCurrentStep((s) => s + 1);
-                }
-              }}
-              className="flex-1 flex items-center justify-center gap-1 rounded-xl py-3.5 font-semibold text-sm transition-all active:scale-[0.98]"
-              style={{
-                backgroundColor: `hsl(var(${technique.colorVar}-deep))`,
-                color: "white",
-              }}
-            >
-              {isLastStep ? t("I Feel More Grounded") : t("Next")}
-              {!isLastStep && <ChevronRight className="w-4 h-4" />}
-            </button>
-          </div>
+        <div className="relative min-h-[300px] flex items-center justify-center">
+            <AnimatePresence mode="wait">
+                <motion.div
+                    key={currentStep}
+                    initial={{ opacity: 0, scale: 0.95, y: 20 }}
+                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 1.05, y: -20 }}
+                    className="w-full p-10 bg-white rounded-[3rem] border-2 border-slate-100 shadow-xl shadow-slate-200/50 flex flex-col items-center text-center gap-8"
+                >
+                    <div className="w-20 h-20 rounded-3xl bg-primary/10 flex items-center justify-center text-primary">
+                        <Wind size={40} />
+                    </div>
+                    <p className="text-slate-700 text-xl font-bold leading-relaxed">
+                        {t(technique.steps[currentStep])}
+                    </p>
+                </motion.div>
+            </AnimatePresence>
+        </div>
 
-          <button
-            onClick={() => navigate(`/${langParam}`)}
-            className="w-full py-3 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-          >
-            {t("Choose Another Technique")}
-          </button>
+        <div className="flex flex-col gap-4">
+            <div className="flex gap-4">
+                <AnimatePresence initial={false}>
+                    {!isFirstStep && (
+                        <motion.button
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            exit={{ opacity: 0, x: -20 }}
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            onClick={() => setCurrentStep((s) => s - 1)}
+                            className="p-5 bg-white border-2 border-slate-100 text-slate-400 rounded-[2rem] shadow-sm flex items-center justify-center"
+                        >
+                            <ChevronLeft size={24} />
+                        </motion.button>
+                    )}
+                </AnimatePresence>
+
+                <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={() => {
+                        if (isLastStep) {
+                            navigate(`/${langParam}`);
+                        } else {
+                            setCurrentStep((s) => s + 1);
+                        }
+                    }}
+                    className="flex-1 py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+                >
+                    {isLastStep ? t("I Feel More Grounded") : t("Next")}
+                    {!isLastStep && <ChevronRight size={20} />}
+                </motion.button>
+            </div>
+
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={() => navigate(`/${langParam}`)}
+                className="w-full py-4 rounded-[2rem] bg-slate-50 text-slate-400 font-bold flex items-center justify-center gap-2"
+            >
+                {t("Choose Another Technique")}
+            </motion.button>
         </div>
       </div>
     </div>

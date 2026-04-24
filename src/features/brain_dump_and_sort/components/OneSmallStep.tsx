@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Play, Pause, ArrowRight, Sparkles, Target, Clock, Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { motion, AnimatePresence } from "framer-motion";
 import { ThoughtItem } from "./types";
 
 interface Props {
@@ -9,7 +10,7 @@ interface Props {
   onBack: () => void;
 }
 
-const rotatingTexts = ["Just this step.", "Stay present.", "One thing at a time."];
+const rotatingTexts = ["Just this step.", "Stay present.", "One thing at a time.", "Breathe into the focus."];
 
 export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
   const { t } = useTranslation();
@@ -23,16 +24,14 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
 
   const selectedItem = thoughts.find((t) => t.id === selected);
 
-  // Timer
   useEffect(() => {
     if (focusMode && !paused && timeLeft > 0) {
       intervalRef.current = setInterval(() => setTimeLeft((t) => t - 1), 1000);
       return () => clearInterval(intervalRef.current!);
     }
     if (timeLeft === 0) onComplete();
-  }, [focusMode, paused, timeLeft]);
+  }, [focusMode, paused, timeLeft, onComplete]);
 
-  // Rotating text
   useEffect(() => {
     if (!focusMode) return;
     const t = setInterval(() => setTextIndex((i) => (i + 1) % rotatingTexts.length), 4000);
@@ -42,135 +41,231 @@ export const OneSmallStep = ({ thoughts, onComplete, onBack }: Props) => {
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
   const progress = 1 - timeLeft / 180;
-  const circumference = 2 * Math.PI * 54;
-
-  const placeholders = ["Open the document", "Put clothes in washer", "Send 'Hey'", "Tidy one corner"];
 
   if (focusMode) {
     return (
-      <div className="w-full mx-auto px-6 py-8  flex flex-col items-center justify-center">
-        {/* Timer ring */}
-        <div className="relative mb-10">
-          <svg width="140" height="140" className="-rotate-90">
-            <circle cx="70" cy="70" r="54" fill="none" stroke="hsl(var(--muted))" strokeWidth="6" />
-            <circle
-              cx="70"
-              cy="70"
-              r="54"
-              fill="none"
-              stroke="hsl(var(--primary))"
-              strokeWidth="6"
-              strokeDasharray={circumference}
-              strokeDashoffset={circumference - progress * circumference}
-              strokeLinecap="round"
-              className="transition-all duration-1000 ease-linear"
-            />
-          </svg>
-          {/* Breathing center */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-16 h-16 rounded-full bg-primary/10 animate-breathe" />
-          </div>
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span className="text-2xl font-semibold text-foreground tabular-nums">
-              {minutes}:{seconds.toString().padStart(2, "0")}
-            </span>
-          </div>
-        </div>
+      <div className="flex flex-col items-center py-6 pb-24">
+        <div className="w-full max-w-lg flex flex-col items-center gap-12">
+            <header className="text-center">
+                <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">
+                    Focused Work
+                </h1>
+                <p className="text-slate-500 text-sm font-medium">
+                    {nextStep || selectedItem?.text}
+                </p>
+            </header>
 
-        {/* Rotating text */}
-        <p key={textIndex} className="text-muted-foreground text-center text-sm animate-rotate-text mb-12">
-          {rotatingTexts[textIndex]}
-        </p>
+            {/* Premium Timer Ring */}
+            <div className="relative w-64 h-64 flex items-center justify-center">
+                <svg className="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100">
+                    <circle 
+                        cx="50" cy="50" r="45" 
+                        fill="none" 
+                        stroke="#F1F5F9" 
+                        strokeWidth="4" 
+                    />
+                    <motion.circle 
+                        cx="50" cy="50" r="45" 
+                        fill="none" 
+                        stroke="#61DAFB" 
+                        strokeWidth="4" 
+                        strokeLinecap="round"
+                        strokeDasharray="282.7"
+                        animate={{ strokeDashoffset: 282.7 * (1 - progress) }}
+                        transition={{ duration: 1, ease: "linear" }}
+                        className="shadow-[0_0_12px_rgba(97,218,251,0.5)]"
+                    />
+                </svg>
+                
+                {/* Central Pulse */}
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                    <motion.div 
+                        animate={{ 
+                            scale: [1, 1.2, 1],
+                            opacity: [0.1, 0.2, 0.1]
+                        }}
+                        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                        className="w-48 h-48 rounded-full bg-primary"
+                    />
+                </div>
 
-        {/* Controls */}
-        <div className="flex gap-4 w-full max-w-xs">
-          <button
-            onClick={() => setPaused((p) => !p)}
-            className="flex-1 py-3 rounded-lg bg-muted text-foreground font-medium transition-all duration-300 hover:"
-          >
-            {paused ? "Resume" : "Pause"}
-          </button>
-          <button
-            onClick={onComplete}
-            className="flex-1 py-3 rounded-lg bg-primary text-primary-foreground font-medium transition-all duration-300 hover:"
-          >
-            Go to Reflection →
-          </button>
+                <div className="relative flex flex-col items-center">
+                    <span className="text-5xl font-black text-slate-800 tabular-nums leading-none">
+                        {minutes}:{seconds.toString().padStart(2, "0")}
+                    </span>
+                    <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-2">Time Left</span>
+                </div>
+            </div>
+
+            {/* Rotating Messages */}
+            <div className="h-8 overflow-hidden text-center">
+                <AnimatePresence mode="wait">
+                    <motion.p 
+                        key={textIndex}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        className="text-slate-500 font-bold italic"
+                    >
+                        {rotatingTexts[textIndex]}
+                    </motion.p>
+                </AnimatePresence>
+            </div>
+
+            {/* Controls */}
+            <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
+                <div className="flex gap-4">
+                    <motion.button
+                        whileHover={{ scale: 1.02 }}
+                        whileTap={{ scale: 0.98 }}
+                        onClick={() => setPaused((p) => !p)}
+                        className="flex-1 py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-600 font-bold shadow-sm flex items-center justify-center gap-3"
+                    >
+                        {paused ? <Play size={20} className="fill-current" /> : <Pause size={20} className="fill-current" />}
+                        {paused ? "Resume" : "Pause"}
+                    </motion.button>
+                    
+                    <motion.button
+                        whileHover={{ scale: 1.02 }}
+                        whileTap={{ scale: 0.98 }}
+                        onClick={onComplete}
+                        className="flex-1 py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold shadow-xl shadow-primary/20 flex items-center justify-center gap-3"
+                    >
+                        I'm Done
+                        <Check size={20} />
+                    </motion.button>
+                </div>
+            </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="w-full mx-auto px-6 py-8  flex flex-col">
-      {/* Header */}
-      <div className="flex items-center gap-3 mb-2">
-        <button onClick={onBack} className="p-2 rounded-lg hover:bg-muted transition-colors">
-          <ArrowLeft size={20} className="text-foreground" />
-        </button>
-        <h1 className="text-2xl font-bold text-foreground">{t("small_step_title")}</h1>
-      </div>
-      <p className="text-muted-foreground text-sm mb-6 ml-11">
-        {t("small_step_desc")}
-      </p>
-
-      {/* Action items */}
-      {thoughts.length === 0 ? (
-        <p className="text-muted-foreground text-sm text-center py-8">
-          No action items were sorted. You can go back to add some, or move to reflection.
-        </p>
-      ) : (
-        <>
-          <p className="text-foreground/80 text-sm mb-4">Choose ONE thing to focus on right now.</p>
-          <div className="flex flex-col gap-3 mb-6">
-            {thoughts.map((t) => (
-              <button
-                key={t.id}
-                onClick={() => setSelected(t.id)}
-                className={`text-left p-4 rounded-lg border-2 transition-all duration-300 ${selected === t.id
-                    ? "border-primary bg-accent "
-                    : "border-border bg-transparent hover:border-primary/30"
-                  }`}
-              >
-                <span className="text-sm text-foreground">{t.text}</span>
-              </button>
-            ))}
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="flex items-center gap-4">
+          <motion.button 
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={onBack} 
+            className="p-3 bg-slate-50 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
+          >
+            <ArrowLeft size={20} />
+          </motion.button>
+          <div className="text-left">
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t("small_step_title")}</h1>
+            <p className="text-slate-500 text-sm leading-tight">{t("small_step_desc")}</p>
           </div>
-        </>
-      )}
+        </header>
 
-      {/* Selected expansion */}
-      {selectedItem && (
-        <div className="animate-fade-in mb-6">
-          <p className="text-foreground/80 text-sm mb-3">{t("first_step_placeholder")}</p>
-          <input
-            type="text"
-            value={nextStep}
-            onChange={(e) => setNextStep(e.target.value)}
-            placeholder={placeholders[Math.floor(Math.random() * placeholders.length)]}
-            className="w-full p-4 rounded-lg bg-transparent border border-border text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:glow-border transition-shadow duration-500 text-sm"
-          />
+        {thoughts.length === 0 ? (
+          <div className="text-center py-20 bg-slate-50 rounded-[2.5rem] border-2 border-dashed border-slate-200">
+            <p className="text-slate-400 font-bold mb-6">No action items found.</p>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={onBack}
+              className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20"
+            >
+              Go Back & Sort
+            </motion.button>
+          </div>
+        ) : (
+          <div className="space-y-6">
+            <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest px-2">
+                <Target size={14} className="text-primary" />
+                Pick ONE thing to focus on
+            </div>
+            
+            <div className="grid gap-3">
+              {thoughts.map((t, i) => {
+                const isSelected = selected === t.id;
+                return (
+                  <motion.button
+                    key={t.id}
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: i * 0.05 }}
+                    whileHover={{ scale: 1.02, x: 5 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={() => setSelected(t.id)}
+                    className={`w-full text-left p-6 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
+                        isSelected 
+                        ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20" 
+                        : "bg-white border-slate-100 text-slate-700 hover:bg-slate-50"
+                    }`}
+                  >
+                    <span className="text-base font-bold">{t.text}</span>
+                    <AnimatePresence>
+                        {isSelected && (
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.5 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0, scale: 0.5 }}
+                                className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center"
+                            >
+                                <Check size={16} />
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
+                  </motion.button>
+                );
+              })}
+            </div>
+
+            <AnimatePresence>
+              {selectedItem && (
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="space-y-3 pt-4 border-t border-slate-50"
+                >
+                    <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest px-2">
+                        <Sparkles size={14} className="text-primary" />
+                        {t("first_step_placeholder")}
+                    </div>
+                    <input
+                        type="text"
+                        value={nextStep}
+                        onChange={(e) => setNextStep(e.target.value)}
+                        placeholder="e.g., Open the document, tidy one corner..."
+                        className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-300 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                    />
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        )}
+
+        {/* Buttons */}
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
+          <div className="flex flex-col gap-3">
+            {selectedItem ? (
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={() => setFocusMode(true)}
+                className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+              >
+                <Clock size={20} />
+                Start 3-Minute Focus
+              </motion.button>
+            ) : (
+                thoughts.length === 0 && (
+                  <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={onComplete}
+                    className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+                  >
+                    {t("continue")}
+                    <ArrowRight size={20} />
+                  </motion.button>
+                )
+            )}
+          </div>
         </div>
-      )}
-
-      {/* Buttons */}
-      <div className="mt-auto flex flex-col gap-3">
-        {selectedItem && (
-          <button
-            onClick={() => setFocusMode(true)}
-            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover: active:scale-[0.98]"
-          >
-            Start 3-Minute Focus
-          </button>
-        )}
-        {thoughts.length === 0 && (
-          <button
-            onClick={onComplete}
-            className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold transition-all duration-300 hover: active:scale-[0.98]"
-          >
-            Go to Reflection →
-          </button>
-        )}
       </div>
     </div>
   );

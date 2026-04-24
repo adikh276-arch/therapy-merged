@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
-import cherryBlossom from "../assets/cherry-blossom.png";
+import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Plus, ArrowRight, Heart, Sparkles, ArrowLeft } from "lucide-react";
 
 interface GratitudeEntry {
   grateful: string;
@@ -30,77 +30,98 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
   const canContinue = entries.some((e) => e.grateful.trim().length > 0);
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.5 }}
-      className="flex flex-col items-center  px-5 py-10 text-center"
-    >
-      <img src={cherryBlossom} alt="Cherry blossom" className="w-28 h-28 rounded-full object-cover mb-6" />
-
-      <h1 className="font-heading text-[22px] font-medium text-foreground mb-3">
-        {t('grateful_title')}
-      </h1>
-
-      <div className="space-y-3 mb-8 w-full">
-        <p className="text-foreground leading-[1.7]">{t('grateful_step_1')}</p>
-        <p className="text-foreground leading-[1.7]">
-          {t('grateful_step_2')}
-        </p>
-        <p className="text-muted-foreground leading-[1.7]">{t('grateful_step_3')}</p>
-      </div>
-
-      <div className="w-full w-full space-y-6 mb-10">
-        {entries.map((entry, i) => (
-          <motion.div
-            key={i}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: i * 0.1 }}
-            className="space-y-3"
+    <div className="flex flex-col items-center py-6 pb-40">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="flex items-center justify-between">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={onBack}
+            className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-colors shadow-sm"
           >
-            <input
-              type="text"
-              placeholder={t('placeholder_grateful')}
-              value={entry.grateful}
-              onChange={(e) => updateEntry(i, "grateful", e.target.value)}
-              className="w-full h-[54px] bg-white/60 rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border border-primary/20 outline-none focus:ring-2 focus:ring-primary/40 transition-all duration-200 shadow-sm"
-            />
-            <input
-              type="text"
-              placeholder={t('placeholder_reason')}
-              value={entry.reason}
-              onChange={(e) => updateEntry(i, "reason", e.target.value)}
-              className="w-full h-[54px] bg-white/60 rounded-[30px] px-6 text-center text-base font-body text-input-text placeholder:text-placeholder border border-primary/20 outline-none focus:ring-2 focus:ring-primary/40 transition-all duration-200 shadow-sm"
-            />
-          </motion.div>
-        ))}
+            <ArrowLeft size={20} />
+          </motion.button>
+          <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+            <Sparkles size={12} />
+            Daily Gratitude
+          </div>
+        </header>
+
+        <div className="space-y-4">
+          <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
+            {t('grateful_title')}
+          </h1>
+          <p className="text-slate-500 text-base font-medium leading-relaxed">
+            {t('grateful_step_1')}
+          </p>
+        </div>
+
+        <div className="space-y-6">
+          <AnimatePresence initial={false}>
+            {entries.map((entry, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.1 }}
+                className="p-8 bg-white rounded-[2.5rem] border-2 border-slate-100 shadow-sm space-y-4 hover:border-primary/20 transition-all"
+              >
+                <div className="flex items-center gap-3 text-primary font-black text-[10px] uppercase tracking-[0.2em] mb-2">
+                    <Heart size={14} fill="currentColor" />
+                    Entry #{i + 1}
+                </div>
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">I am grateful for...</label>
+                    <input
+                      type="text"
+                      placeholder={t('placeholder_grateful')}
+                      value={entry.grateful}
+                      onChange={(e) => updateEntry(i, "grateful", e.target.value)}
+                      className="w-full py-5 rounded-2xl bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-6 font-bold text-slate-700 placeholder:text-slate-300"
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">Because...</label>
+                    <input
+                      type="text"
+                      placeholder={t('placeholder_reason')}
+                      value={entry.reason}
+                      onChange={(e) => updateEntry(i, "reason", e.target.value)}
+                      className="w-full py-5 rounded-2xl bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-6 font-bold text-slate-700 placeholder:text-slate-300"
+                    />
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={addAnother}
+            className="w-full py-5 rounded-[2rem] bg-slate-50 text-slate-400 font-bold border-2 border-dashed border-slate-200 hover:border-primary/30 hover:text-primary transition-all flex items-center justify-center gap-2"
+          >
+            <Plus size={20} />
+            {t('add_another')}
+          </motion.button>
+        </div>
       </div>
 
-      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl p-5 bg-gradient-to-t from-background via-background to-transparent pt-10">
+      {/* Fixed Footer */}
+      <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white via-white to-transparent pt-12 flex justify-center z-50">
         <motion.button
-          whileTap={{ scale: 0.98 }}
-          transition={{ duration: 0.15 }}
-          onClick={addAnother}
-          className="w-full h-[54px] bg-transparent border-2 border-primary text-primary rounded-[30px] font-heading font-medium text-base transition-colors duration-150 mb-3"
-        >
-          {t('add_another')}
-        </motion.button>
-
-        <motion.button
-          whileTap={{ scale: 0.98 }}
-          transition={{ duration: 0.15 }}
+          whileHover={canContinue ? { scale: 1.02 } : {}}
+          whileTap={canContinue ? { scale: 0.98 } : {}}
           onClick={() => canContinue && onContinue(entries)}
-          className={`w-full h-[56px] rounded-[28px] font-heading font-medium text-lg shadow-[0_8px_24px_rgba(30,136,229,0.25)] transition-all duration-200 ${canContinue
-              ? "bg-[#1e88e5] text-white"
-              : "bg-primary/40 text-primary-foreground/60 cursor-not-allowed"
-            }`}
+          disabled={!canContinue}
+          className="w-full max-w-lg py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
         >
           {t('continue')}
+          <ArrowRight size={20} />
         </motion.button>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 interface Props {
   label: string;
   value: string;
@@ -9,15 +7,17 @@ interface Props {
 }
 
 const ActivityInput = ({ label, value, onChange, placeholder, multiline }: Props) => (
-  <div className="space-y-2 text-center w-full">
-    <label className="text-sm font-medium text-foreground font-heading block">{label}</label>
+  <div className="space-y-3 w-full text-left">
+    <label className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] px-4 block">
+      {label}
+    </label>
     {multiline ? (
       <textarea
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        rows={3}
-        className="w-full rounded-lg bg-transparent px-4 py-3.5 text-foreground placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/40 resize-none font-body text-center"
+        rows={4}
+        className="w-full py-6 rounded-[2.5rem] bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner resize-none leading-relaxed"
       />
     ) : (
       <input
@@ -25,7 +25,7 @@ const ActivityInput = ({ label, value, onChange, placeholder, multiline }: Props
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className="w-full rounded-lg bg-transparent px-4 py-3.5 text-foreground placeholder:text-placeholder border-none outline-none focus:ring-2 focus:ring-primary/40 font-body text-center"
+        className="w-full py-6 rounded-[2.5rem] bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner"
       />
     )}
   </div>

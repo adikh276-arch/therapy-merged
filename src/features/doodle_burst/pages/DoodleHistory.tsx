@@ -1,12 +1,10 @@
 import { useState, useMemo, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getDoodleHistory, deleteDoodle, groupByDate, type DoodleEntry } from "../lib/doodleHistory";
-import { ArrowLeft, Trash2, X, Calendar, Share2 } from "lucide-react";
+import { ArrowLeft, Trash2, X, Calendar, Share2, Image as ImageIcon, Home } from "lucide-react";
 import ShareModal from "../components/ShareModal";
-import { shareDoodle } from "../lib/share";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "../components/LanguageSelector";
 
 const DoodleHistory = () => {
   const navigate = useNavigate();
@@ -60,91 +58,81 @@ const DoodleHistory = () => {
   };
 
   return (
-    <div className=" bg-playful p-4">
-      <LanguageSelector />
-      <div className="w-full mx-auto py-8">
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
         {/* Header */}
-        <div className="flex items-center gap-3 mb-6">
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => navigate(".")}
-            className="p-2 rounded-xl bg-transparent "
-          >
-            <ArrowLeft size={20} className="text-foreground" />
-          </motion.button>
-          <div>
-            <h1 className="text-2xl font-black text-foreground">{t("history_title")} 📒</h1>
-            <p className="text-sm text-muted-foreground">
+        <header className="flex items-center justify-between">
+          <div className="text-left">
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t("history_title")}</h1>
+            <p className="text-slate-500 text-sm">
               {entries.length} {entries.length === 1 ? t("doodle") : t("doodles")} {t("saved")}
             </p>
           </div>
-        </div>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => navigate("..")}
+            className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-all shadow-sm"
+          >
+            <Home size={20} />
+          </motion.button>
+        </header>
 
         {/* Empty state */}
         {entries.length === 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="bg-transparent/80 backdrop-blur-sm rounded-3xl p-8 text-center "
-          >
-            <Calendar size={48} className="text-muted-foreground mx-auto mb-4 opacity-50" />
-            <p className="text-lg font-bold text-foreground mb-2">{t("no_doodles")}</p>
-            <p className="text-muted-foreground text-center">
-              {t("history_empty_desc")}
-            </p>
-          </motion.div>
+          <div className="text-center py-20 bg-slate-50 rounded-[2.5rem] border-2 border-dashed border-slate-200">
+            <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
+                <ImageIcon size={32} />
+            </div>
+            <p className="text-slate-400 font-bold mb-6">{t("no_doodles")}</p>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => navigate("..")}
+              className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20"
+            >
+              Start Doodling
+            </motion.button>
+          </div>
         )}
 
         {/* Grouped entries */}
-        <div className="flex flex-col gap-6">
+        <div className="space-y-10">
           {sortedDates.map((date) => (
-            <motion.div
-              key={date}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <Calendar size={16} className="text-primary" />
-                <h2 className="text-base font-bold text-foreground">
+            <div key={date} className="space-y-4">
+              <div className="flex items-center gap-2">
+                <div className="h-px flex-1 bg-slate-100" />
+                <h2 className="text-xs font-bold text-slate-400 uppercase tracking-widest px-2">
                   {formatDate(date)}
                 </h2>
-                <span className="text-xs text-muted-foreground font-semibold">
-                  ({grouped[date].length})
-                </span>
+                <div className="h-px flex-1 bg-slate-100" />
               </div>
-              <div className="grid grid-cols-2 gap-3">
-                {grouped[date].map((entry) => (
+              <div className="grid grid-cols-2 gap-4">
+                {grouped[date].map((entry, i) => (
                   <motion.div
                     key={entry.doodle_id}
-                    whileHover={{ scale: 1.03 }}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: i * 0.05 }}
+                    whileHover={{ y: -4, scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="relative bg-card rounded-2xl overflow-hidden  border border-border cursor-pointer group"
+                    className="group relative aspect-square bg-white rounded-[2rem] border-2 border-slate-100 p-2 shadow-sm cursor-pointer overflow-hidden"
                     onClick={() => setViewEntry(entry)}
                   >
                     <img
                       src={entry.dataUrl}
                       alt="Doodle"
-                      className="w-full aspect-square object-contain bg-card"
+                      className="w-full h-full object-contain rounded-[1.5rem]"
                     />
-                    <div className="p-2 text-center">
-                      <span className="text-xs font-semibold text-muted-foreground">
-                        {formatTime(entry.timestamp)}
-                      </span>
+                    <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span className="text-[10px] font-bold text-white uppercase tracking-widest">
+                            {formatTime(entry.timestamp)}
+                        </span>
                     </div>
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        handleDelete(entry.doodle_id);
-                      }}
-                      className="absolute top-2 right-2 p-1.5 rounded-xl bg-destructive/80 text-destructive-foreground opacity-0 group-hover:opacity-100 transition-opacity"
-                    >
-                      <Trash2 size={14} />
-                    </button>
                   </motion.div>
                 ))}
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
@@ -156,57 +144,66 @@ const DoodleHistory = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-foreground/40 backdrop-blur-sm flex items-center justify-center p-4"
+            className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-6"
             onClick={() => setViewEntry(null)}
           >
             <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              className="bg-card rounded-3xl  w-full w-full overflow-hidden"
+              initial={{ scale: 0.9, y: 20 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.9, y: 20 }}
+              className="bg-white rounded-[3rem] w-full max-w-lg overflow-hidden shadow-2xl"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="flex items-center justify-between p-4">
-                <div>
-                  <p className="font-bold text-foreground text-sm">
+              <div className="flex items-center justify-between p-6 border-b border-slate-50">
+                <div className="text-left">
+                  <p className="text-sm font-bold text-slate-900">
                     {new Date(viewEntry.timestamp).toLocaleDateString(i18n.language, {
                       weekday: "long",
                       month: "short",
                       day: "numeric",
-                      year: "numeric",
                     })}
                   </p>
-                  <p className="text-xs text-muted-foreground">
+                  <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
                     {formatTime(viewEntry.timestamp)}
                   </p>
                 </div>
-                <button
+                <motion.button
+                  whileHover={{ scale: 1.1, rotate: 90 }}
+                  whileTap={{ scale: 0.9 }}
                   onClick={() => setViewEntry(null)}
-                  className="p-2 rounded-xl bg-muted"
+                  className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:text-slate-600 transition-colors"
                 >
-                  <X size={18} className="text-foreground" />
-                </button>
+                  <X size={20} />
+                </motion.button>
               </div>
-              <img
-                src={viewEntry.dataUrl}
-                alt="Doodle"
-                className="w-full bg-card"
-              />
-              <div className="p-4 flex justify-center gap-3">
-                <button
+
+              <div className="p-4 bg-slate-50">
+                <img
+                    src={viewEntry.dataUrl}
+                    alt="Doodle"
+                    className="w-full aspect-square object-contain bg-white rounded-[2rem] shadow-inner"
+                />
+              </div>
+
+              <div className="p-6 flex gap-4">
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
                   onClick={() => setIsShareModalOpen(true)}
-                  className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground font-semibold text-sm"
+                  className="flex-1 py-4 bg-primary text-primary-foreground font-bold rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-primary/20"
                 >
-                  <Share2 size={16} />
+                  <Share2 size={18} />
                   {t("share_doodle")}
-                </button>
-                <button
+                </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
                   onClick={() => handleDelete(viewEntry.doodle_id)}
-                  className="flex items-center gap-2 px-4 py-2 rounded-xl bg-destructive text-destructive-foreground font-semibold text-sm"
+                  className="flex-1 py-4 bg-rose-50 text-rose-500 font-bold rounded-2xl flex items-center justify-center gap-2 hover:bg-rose-100 transition-all"
                 >
-                  <Trash2 size={16} />
+                  <Trash2 size={18} />
                   {t("delete_doodle")}
-                </button>
+                </motion.button>
               </div>
             </motion.div>
           </motion.div>

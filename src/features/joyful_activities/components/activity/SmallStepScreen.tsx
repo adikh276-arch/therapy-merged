@@ -1,7 +1,8 @@
-import { Button } from "../../components/ui/button";
+import { motion } from "framer-motion";
 import ActivityInput from "./ActivityInput";
 import { ActivityData } from "../../types/activity";
 import { useTranslation } from "react-i18next";
+import { Check, Sparkles } from "lucide-react";
 
 interface Props {
   data: ActivityData;
@@ -14,17 +15,16 @@ const SmallStepScreen = ({ data, onChange, onGoHome, onSave }: Props) => {
   const { t } = useTranslation();
 
   return (
-    <div className="animate-fade-in-up space-y-8 flex flex-col items-center text-center w-full">
-      <div className="space-y-2 w-full">
-        <h1 className="text-[22px] font-heading font-semibold text-foreground">
+    <div className="space-y-10">
+      <header className="space-y-4 text-center">
+        <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">
           {t('smallStep.title')}
         </h1>
-      </div>
-
-      <div className="space-y-5 text-foreground font-body leading-relaxed w-full">
-        <p>{t('smallStep.p1')}</p>
-        <p>{t('smallStep.p2')}</p>
-      </div>
+        <div className="space-y-2 text-slate-500 text-base font-medium leading-relaxed">
+            <p>{t('smallStep.p1')}</p>
+            <p>{t('smallStep.p2')}</p>
+        </div>
+      </header>
 
       <div className="w-full">
         <ActivityInput
@@ -35,10 +35,25 @@ const SmallStepScreen = ({ data, onChange, onGoHome, onSave }: Props) => {
         />
       </div>
 
-      <div className="space-y-3 w-full flex flex-col items-center">
-        <Button variant="calmOutline" size="lg" onClick={onGoHome} className="w-full w-full">
-          {t('smallStep.button_home')}
-        </Button>
+      <div className="flex flex-col gap-4">
+        <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={onSave}
+            className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+        >
+            Complete Activity
+            <Check size={20} />
+        </motion.button>
+        
+        <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={onGoHome}
+            className="w-full py-4 rounded-[2rem] bg-slate-50 text-slate-400 font-bold flex items-center justify-center gap-2"
+        >
+            {t('smallStep.button_home')}
+        </motion.button>
       </div>
     </div>
   );

@@ -1,48 +1,54 @@
 import React from "react";
 import { feelings } from "../data/affirmations";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import { Heart } from "lucide-react";
 
 interface FeelingSelectorProps {
   onSelect: (feelingId: string, colorIndex: number) => void;
 }
 
-const pastelColors = [
-  "bg-pastel-peach",
-  "bg-pastel-lavender",
-  "bg-pastel-mint",
-  "bg-pastel-sky",
-  "bg-pastel-rose",
-  "bg-pastel-butter",
+const premiumTints = [
+  "bg-primary/5 border-primary/10 text-primary",
+  "bg-cyan-50 border-cyan-100 text-cyan-700",
+  "bg-blue-50 border-blue-100 text-blue-700",
+  "bg-emerald-50 border-emerald-100 text-emerald-700",
+  "bg-sky-50 border-sky-100 text-sky-700",
+  "bg-teal-50 border-teal-100 text-teal-700",
 ];
 
 const FeelingSelector: React.FC<FeelingSelectorProps> = ({ onSelect }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex  flex-col px-6 py-12">
-      <div className="mx-auto w-full w-full space-y-6">
+    <div className="flex flex-col items-center">
+      <div className="w-full max-w-md space-y-8">
         <div className="text-center">
-          <span className="mb-4 inline-block text-3xl">🌿</span>
-          <h1 className="font-serif text-2xl font-medium tracking-tight text-foreground">
+          <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-primary">
+            <Heart size={32} />
+          </div>
+          <h1 className="text-2xl font-extrabold text-slate-900 mb-4">
             {t("common.howFeeling")}
           </h1>
+          <p className="text-slate-500 max-w-sm mx-auto">
+            {t("common.chooseOne")}
+          </p>
         </div>
 
-        <div className="space-y-3 text-center text-sm leading-relaxed text-muted-foreground">
-          <p>{t("common.noExplanation")}</p>
-          <p>{t("common.justNotice")}</p>
-          <p>{t("common.chooseOne")}</p>
-        </div>
-
-        <div className="space-y-3 pt-2">
+        <div className="grid grid-cols-1 gap-4">
           {feelings.map((feeling, index) => (
-            <button
+            <motion.button
               key={feeling.id}
-              onClick={() => onSelect(feeling.id, index % pastelColors.length)}
-              className={`w-full rounded-2xl border border-border/50 px-5 py-4 text-left text-[15px] font-medium text-foreground  transition-all duration-200 hover:scale-[1.02] hover: active:scale-[0.98] ${pastelColors[index % pastelColors.length]}`}
+              whileHover={{ scale: 1.02, x: 5 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => onSelect(feeling.id, index % premiumTints.length)}
+              className={`w-full rounded-2xl border-2 px-6 py-5 text-left font-bold transition-all flex items-center justify-between group ${premiumTints[index % premiumTints.length]}`}
             >
-              {t(`feelings.${feeling.id}.label`)}
-            </button>
+              <span>{t(`feelings.${feeling.id}.label`)}</span>
+              <div className="w-8 h-8 rounded-full bg-white/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                 <Heart size={16} fill="currentColor" />
+              </div>
+            </motion.button>
           ))}
         </div>
       </div>

@@ -121,37 +121,51 @@ const ActiveBreathing = () => {
   };
 
   return (
-    <div className=" gradient-bg-screen flex flex-col items-center justify-center px-6 py-8 animate-fade-in">
-      <div className="w-full w-full flex flex-col items-center gap-5 px-2">
+    <div className="flex flex-col items-center justify-center px-6 py-8 animate-fade-in">
+      <div className="w-full flex flex-col items-center gap-8 px-2">
         {/* Breathing Circle */}
-        <div className="relative flex items-center justify-center" style={{ width: 220, height: 220 }}>
-          <div
-            className="w-full h-full rounded-full gradient-circle glow-circle flex items-center justify-center ease-in-out"
-            style={{
-              transform: `scale(${getCircleScale()})`,
-              transition: `transform ${getTransitionMs()}ms ease-in-out`,
+        <div className="relative flex items-center justify-center" style={{ width: 280, height: 280 }}>
+          {/* Outer glow/ring */}
+          <motion.div
+            animate={{
+              scale: getCircleScale() * 1.1,
+              opacity: status === "running" ? [0.2, 0.4, 0.2] : 0.2
             }}
+            transition={{
+              scale: { duration: getTransitionMs() / 1000, ease: "easeInOut" },
+              opacity: { duration: 2, repeat: Infinity }
+            }}
+            className="absolute inset-0 rounded-full bg-primary/20 blur-2xl"
+          />
+          
+          <motion.div
+            animate={{ scale: getCircleScale() }}
+            transition={{ duration: getTransitionMs() / 1000, ease: "easeInOut" }}
+            className="w-full h-full rounded-full bg-primary flex items-center justify-center shadow-2xl shadow-primary/40 relative z-10"
           >
-            <p
+            <motion.p
               key={`${phase}-${countdown}`}
-              className="text-primary-foreground font-semibold text-xl text-center px-4 animate-fade-in"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="text-primary-foreground font-bold text-2xl text-center px-6"
             >
               {getCountdownText()}
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
 
         {/* Info text */}
-        <p className="text-foreground/80 font-subtitle text-sm text-center">
-          {t('rounds_to_feel_shift', { count: totalRounds })}
-        </p>
-
-        <p className="text-foreground font-semibold text-lg">
-          {t('round_x_of_y', { current: currentRound, total: totalRounds })}
-        </p>
+        <div className="text-center space-y-2">
+          <p className="text-slate-500 font-medium text-sm">
+            {t('rounds_to_feel_shift', { count: totalRounds })}
+          </p>
+          <p className="text-slate-900 font-bold text-xl">
+            {t('round_x_of_y', { current: currentRound, total: totalRounds })}
+          </p>
+        </div>
 
         {/* Round Selector */}
-        <div className="flex gap-3">
+        <div className="bg-slate-100 p-1.5 rounded-2xl flex gap-1">
           {[4, 6, 8].map((r) => (
             <button
               key={r}
@@ -161,9 +175,9 @@ const ActiveBreathing = () => {
                   reset();
                 }
               }}
-              className={`px-5 py-2 rounded-full font-semibold text-sm transition-colors duration-200 ${totalRounds === r
-                  ? "bg-primary text-primary-foreground glow-soft"
-                  : "bg-transparent text-foreground hover:opacity-80"
+              className={`px-6 py-2.5 rounded-xl font-bold text-sm transition-all ${totalRounds === r
+                  ? "bg-white text-primary shadow-sm"
+                  : "text-slate-500 hover:text-slate-700"
                 }`}
             >
               {t('rounds_selector', { count: r })}
@@ -172,31 +186,41 @@ const ActiveBreathing = () => {
         </div>
 
         {/* Controls */}
-        <div className="flex items-center gap-4 mt-4">
-          <button
+        <div className="flex items-center gap-4 mt-2">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             onClick={handleStart}
-            className="px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-full glow-soft hover:opacity-90 transition-opacity"
+            className="px-10 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all"
           >
             {status === "paused" ? t('resume') : t('start')}
-          </button>
-          <button
-            onClick={handlePause}
-            disabled={status !== "running"}
-            className="px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-full glow-soft hover:opacity-90 transition-opacity disabled:opacity-40"
-          >
-            {t('pause')}
-          </button>
-          <button
+          </motion.button>
+          
+          {status === "running" && (
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={handlePause}
+              className="px-10 py-4 bg-white border-2 border-slate-200 text-slate-700 font-bold rounded-2xl hover:bg-slate-50 transition-all"
+            >
+              {t('pause')}
+            </motion.button>
+          )}
+
+          <motion.button
+            whileHover={{ rotate: -90 }}
+            whileTap={{ scale: 0.9 }}
             onClick={reset}
-            className="p-3 bg-transparent text-foreground rounded-full hover:opacity-80 transition-opacity"
+            className="p-4 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-all"
             aria-label={t('reset')}
           >
-            <RotateCcw size={20} />
-          </button>
+            <RotateCcw size={24} />
+          </motion.button>
         </div>
       </div>
     </div>
   );
 };
+
 
 export default ActiveBreathing;

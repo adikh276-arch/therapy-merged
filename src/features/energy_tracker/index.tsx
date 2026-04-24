@@ -4,7 +4,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { EnergyProvider } from "./context/EnergyContext";
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
 import EnergyCheckIn from "./pages/EnergyCheckIn";
 import EnergyFactors from "./pages/EnergyFactors";
 import TodaySummary from "./pages/TodaySummary";
@@ -15,7 +14,7 @@ import PageTransition from "./components/PageTransition";
 import AuthGuard from "./components/AuthGuard";
 import React from 'react';
 import { TooltipProvider } from "./components/ui/tooltip";
-import { UniversalBackButton } from "../../components/UniversalBackButton";
+import { PremiumLayout } from "../../components/shared/PremiumLayout";
 import { Toaster } from "./components/ui/toaster";
 import { Toaster as Sonner } from "./components/ui/sonner";
 
@@ -49,12 +48,11 @@ const App = () => {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <I18nextProvider i18n={i18n}>
-          <div className="min-h-[100dvh] w-full">
-            <UniversalBackButton action="energy" />
-            <Toaster />
-            <Sonner />
+          <Toaster />
+          <Sonner />
+          <PremiumLayout title="Energy Tracker">
             <AnimatedRoutes />
-          </div>
+          </PremiumLayout>
         </I18nextProvider>
       </TooltipProvider>
     </QueryClientProvider>

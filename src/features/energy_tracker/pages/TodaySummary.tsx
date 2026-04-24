@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useEnergy, EnergyLevel } from "../context/EnergyContext";
-import { Droplets, Footprints, Coffee } from "lucide-react";
+import { Droplets, Footprints, Coffee, History } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import TopBar from "../components/TopBar";
+import { PremiumComplete } from "../../../components/shared/PremiumComplete";
 
 const emojiMap: Record<EnergyLevel, string> = {
   "very-low": "😴",
@@ -45,49 +45,41 @@ const TodaySummary = () => {
   ];
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-transparent">
-      <TopBar title={t("summary_title")} />
-
-      <main className="flex flex-1 flex-col items-center px-6 pt-8">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="card-soft mb-8 w-full w-full rounded-2xl bg-transparent p-8 text-center"
-        >
-          <span className="mb-2 block text-5xl">{emojiMap[level]}</span>
-          <h2 className="mb-1 text-lg font-bold text-foreground">
-            {t("today_energy", { label: labelMap[level] })}
-          </h2>
-          <p className="text-sm leading-relaxed text-muted-foreground">
-            {messages[level]}
-          </p>
-        </motion.div>
-
-        <div className="w-full w-full space-y-3">
+    <PremiumComplete
+      title={t("today_energy", { label: labelMap[level] })}
+      message={messages[level]}
+      onRestart={() => navigate("..")}
+      icon={<span className="text-6xl">{emojiMap[level]}</span>}
+    >
+      <div className="space-y-6 w-full max-w-md mx-auto mt-8">
+        <div className="grid gap-3">
           {suggestions.map((s, i) => (
             <motion.div
               key={s.text}
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 + i * 0.08 }}
-              className="flex items-center gap-4 rounded-xl bg-surface-warm px-5 py-4"
+              className="flex items-center gap-4 rounded-2xl bg-white border-2 border-slate-100 px-5 py-4 shadow-sm"
             >
-              <s.icon className="h-5 w-5 text-accent-foreground" />
-              <span className="text-sm font-semibold text-slate-600">{s.text}</span>
+              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                <s.icon className="h-5 w-5" />
+              </div>
+              <span className="text-sm font-bold text-slate-700">{s.text}</span>
             </motion.div>
           ))}
         </div>
-      </main>
 
-      <div className="sticky bottom-0 px-6 pb-8 pt-4">
-        <button
+        <motion.button
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
           onClick={() => navigate("../weekly")}
-          className="w-full rounded-pill bg-primary py-4 text-base font-bold text-primary-foreground transition-all"
+          className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
         >
           {t("view_weekly")}
-        </button>
+          <History size={20} />
+        </motion.button>
       </div>
-    </div>
+    </PremiumComplete>
   );
 };
 

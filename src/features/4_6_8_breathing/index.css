@@ -40,14 +40,12 @@
 
 @layer base {
   :root {
-
-    --sidebar-foreground: 260 30% 25%;
-    
-    --sidebar-primary-foreground: 210 40% 96%;
-    --sidebar-accent: 230 30% 90%;
-    --sidebar-accent-foreground: 260 30% 25%;
-    --sidebar-border: 220 25% 82%;
-    --sidebar-ring: 260 45% 65%;
+    --sidebar-foreground: 215 15% 30%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 215 15% 96%;
+    --sidebar-accent-foreground: 215 15% 10%;
+    --sidebar-border: 215 15% 92%;
+    --sidebar-ring: 190 60% 65%;
   }
 }
 
@@ -80,14 +78,15 @@
   }
 
   .glow-circle {
-    box-shadow: 0 0 60px 20px hsl(260 45% 65% / 0.3), 0 0 120px 40px hsl(280 30% 78% / 0.15);
+    box-shadow: 0 0 60px 20px hsl(190 45% 65% / 0.2), 0 0 120px 40px hsl(190 30% 78% / 0.1);
   }
 
   .glow-soft {
-    box-shadow: 0 8px 32px hsl(260 45% 65% / 0.15);
+    box-shadow: 0 8px 32px hsl(190 45% 65% / 0.1);
   }
 
   .text-justified {
     text-align: justify;
   }
 }
+

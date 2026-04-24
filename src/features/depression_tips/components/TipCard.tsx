@@ -2,22 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ChevronRight } from "lucide-react";
 import { Tip } from "../data/tips";
-
-const bgMap: Record<string, string> = {
-  "pastel-pink": "bg-pastel-pink",
-  "pastel-purple": "bg-pastel-purple",
-  "pastel-blue": "bg-pastel-blue",
-  "pastel-green": "bg-pastel-green",
-  "pastel-beige": "bg-pastel-beige",
-};
-
-const iconColorMap: Record<string, string> = {
-  "pastel-pink": "text-pink-500",
-  "pastel-purple": "text-purple-500",
-  "pastel-blue": "text-blue-500",
-  "pastel-green": "text-emerald-500",
-  "pastel-beige": "text-amber-500",
-};
+import { motion } from "framer-motion";
 
 // Map tip id -> translation key prefix
 const TIP_KEY_MAP: Record<string, string> = {
@@ -35,25 +20,27 @@ export default function TipCard({ tip, index }: { tip: Tip; index: number }) {
   const k = TIP_KEY_MAP[tip.id] ?? "";
 
   return (
-    <button
+    <motion.button
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.1 }}
+      whileHover={{ scale: 1.02, x: 5 }}
+      whileTap={{ scale: 0.98 }}
       onClick={() => navigate(`/tip/${tip.id}`)}
-      className="flex w-full items-center gap-4 rounded-lg bg-transparent p-4  transition-all duration-200 hover:-hover hover:-translate-y-0.5 text-left animate-fade-in-up"
-      style={{ animationDelay: `${index * 80}ms`, opacity: 0 }}
+      className="w-full text-left p-6 rounded-[2.5rem] bg-white border-2 border-slate-100 shadow-sm hover:shadow-md hover:border-primary/20 transition-all flex items-center gap-5 group"
     >
-      <div
-        className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full ${bgMap[tip.iconBg]}`}
-      >
-        <Icon className={`h-5 w-5 ${iconColorMap[tip.iconBg]}`} />
+      <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center shrink-0 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+        <Icon className="w-6 h-6 text-slate-400 group-hover:text-primary" />
       </div>
       <div className="flex-1 min-w-0">
-        <h3 className="font-bold text-sm text-foreground">
+        <h3 className="font-bold text-slate-800 text-base group-hover:text-primary transition-colors">
           {k ? t(`${k}_title`) : tip.title}
         </h3>
-        <p className="text-xs text-muted-foreground mt-0.5 line-clamp-2">
+        <p className="text-slate-400 text-xs font-medium leading-relaxed mt-1 line-clamp-2">
           {k ? t(`${k}_preview`) : tip.preview}
         </p>
       </div>
-      <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground" />
-    </button>
+      <ChevronRight className="w-5 h-5 text-slate-300 group-hover:translate-x-1 transition-transform" />
+    </motion.button>
   );
 }

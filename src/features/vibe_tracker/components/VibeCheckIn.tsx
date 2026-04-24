@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Clock } from "lucide-react";
+import { Clock, Sparkles, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 const vibes = [
   { emoji: "🌷", label: "Calm" },
@@ -28,58 +29,43 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
   const currentVibe = selected || customVibe.trim();
 
   return (
-    <div className="animate-fade-slide-in flex flex-col px-6 pt-12 pb-28 max-w-xl mx-auto">
-      {/* History button */}
-      <div className="flex justify-end mb-2">
-        <button
-          onClick={onHistory}
-          className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 hover:scale-105"
-          style={{
-            background: "hsl(var(--primary) / 0.1)",
-            color: "#1e88e5",
-            border: "1.5px solid #1e88e533",
-          }}
-        >
-          <Clock className="w-4 h-4" />
-          {t("history")}
-        </button>
-      </div>
+    <div className="space-y-10">
 
-      <h1 className="font-display text-3xl font-bold text-center text-foreground tracking-tight">
-        {t("vibeTracker")}
-      </h1>
 
-      <p className="font-heading text-lg text-center text-slate-600 mt-6 mb-8">
-        {t("howAreYouFeeling")}
-      </p>
-
-      {/* Vibe Grid */}
-      <div className="grid grid-cols-2 gap-5 justify-items-center max-w-xs mx-auto w-full">
-        {vibes.map((vibe) => (
-          <button
+      <div className="grid grid-cols-2 gap-4">
+        {vibes.map((vibe, i) => (
+          <motion.button
             key={vibe.label}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: i * 0.05 }}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
             onClick={() => {
               setSelected(vibe.label);
               setCustomVibe("");
             }}
-            className={`vibe-circle ${selected === vibe.label ? "selected animate-gentle-pulse" : ""}`}
+            className={`flex flex-col items-center justify-center p-6 rounded-[2.5rem] border-2 transition-all shadow-sm ${
+                selected === vibe.label 
+                ? "bg-primary text-white border-primary shadow-xl shadow-primary/20" 
+                : "bg-white border-slate-50 text-slate-800 hover:border-primary/20"
+            }`}
           >
-            <span className="text-2xl leading-none">{vibe.emoji}</span>
-            <span className="text-xs mt-1 font-medium text-slate-900">
+            <span className="text-3xl mb-2">{vibe.emoji}</span>
+            <span className="text-xs font-black uppercase tracking-widest opacity-80">
               {t(`vibes.${vibe.label}`)}
             </span>
-          </button>
+          </motion.button>
         ))}
       </div>
 
-      {/* Custom Vibe */}
-      <div className="mt-10 w-full mx-auto">
-        <p className="font-heading text-sm font-semibold text-slate-600 mb-3">
-          {t("describeOwnVibe")}
-        </p>
+      <div className="space-y-4">
+        <label className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] px-4 block">
+            {t("describeOwnVibe")}
+        </label>
         <input
           type="text"
-          className="vibe-input"
+          className="w-full py-6 rounded-[2.5rem] bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner"
           placeholder={t("rightNowIFeel")}
           value={customVibe}
           onChange={(e) => {
@@ -89,16 +75,16 @@ const VibeCheckIn = ({ onNext, onHistory }: Props) => {
         />
       </div>
 
-      {/* Fixed Bottom Button */}
-      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-xl p-6 bg-white/70 backdrop-blur-md">
-        <button
-          className="vibe-button bg-[#1e88e5] text-white"
-          disabled={!currentVibe}
-          onClick={() => onNext(currentVibe)}
-        >
-          {t("saveVibe")}
-        </button>
-      </div>
+      <motion.button
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
+        disabled={!currentVibe}
+        onClick={() => onNext(currentVibe)}
+        className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
+      >
+        {t("saveVibe")}
+        <ArrowRight size={20} />
+      </motion.button>
     </div>
   );
 };

@@ -43,22 +43,22 @@
     --font-body: 'Nunito', sans-serif;
 
     /* Custom wellness tokens */
-    --gradient-calm: linear-gradient(160deg, hsl(210 70% 94%) 0%, hsl(260 50% 92%) 100%);
-    --shadow-soft: 0 4px 20px -4px hsl(260 40% 70% / 0.18);
-    --shadow-card: 0 2px 12px -2px hsl(260 40% 70% / 0.12);
-    --icon-bg-1: 200 70% 90%;
+    --gradient-calm: linear-gradient(160deg, hsl(190 70% 94%) 0%, hsl(210 50% 92%) 100%);
+    --shadow-soft: 0 4px 20px -4px hsl(215 40% 70% / 0.1);
+    --shadow-card: 0 2px 12px -2px hsl(215 40% 70% / 0.08);
+    --icon-bg-1: 190 70% 90%;
     --icon-bg-2: 170 60% 88%;
-    --icon-bg-3: 260 50% 90%;
-    --icon-bg-4: 30 70% 90%;
-    --icon-bg-5: 320 50% 90%;
+    --icon-bg-3: 190 50% 90%;
+    --icon-bg-4: 42 70% 90%;
+    --icon-bg-5: 215 50% 90%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
-    
+    --sidebar-foreground: 215 15% 30%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 215 15% 96%;
+    --sidebar-accent-foreground: 215 15% 10%;
+    --sidebar-border: 215 15% 92%;
+    --sidebar-ring: 190 60% 65%;
+
   }
 }
 

@@ -1,71 +1,42 @@
-import { useNavigate } from "react-router-dom";
-import { Mail, Leaf, ArrowLeft } from "lucide-react";
-import { Button } from "../components/ui/button";
+import { useNavigate, Link } from "react-router-dom";
+import { Mail, History } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { PremiumIntro } from "../../../components/shared/PremiumIntro";
+import { motion } from "framer-motion";
 
 const IntroScreen = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
-  const handleBack = () => {
-    if (window.parent !== window) {
-      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-    } else {
-      window.history.back();
-    }
-  };
-
   return (
-    <div className=" flex flex-col px-4 py-6 fade-enter">
-      {/* Back button */}
-      <button
-        onClick={handleBack}
-        className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground text-sm transition-colors mb-6 self-start"
+    <div className="w-full h-full">
+      <PremiumIntro
+        title={t("title")}
+        description={t("intro_text")}
+        onStart={() => navigate("./write")}
+        icon={<Mail size={32} />}
+        benefits={[
+          t("no_judgments"),
+          "A space for reflection",
+          "Connect with your future self"
+        ]}
+        duration="10-15 minutes"
       >
-        <ArrowLeft className="w-4 h-4" />
-        Back
-      </button>
-
-      <div className="flex-1 flex items-center justify-center">
-      <div className="w-full w-full text-center space-y-8">
-        <div className="flex justify-center">
-          <div className="w-20 h-20 rounded-full bg-accent flex items-center justify-center gentle-pulse">
-            <Mail className="w-10 h-10 text-accent-foreground" />
-          </div>
-        </div>
-
-        <div className="space-y-3">
-          <h1 className="text-3xl font-heading">{t("title")}</h1>
-          <p className="text-muted-foreground text-lg">
-            {t("subtitle")}
-          </p>
-        </div>
-
-        <p className="text-justified text-foreground/80 leading-relaxed px-2">
-          {t("intro_text")}
-        </p>
-
-        <div className="space-y-3 pt-2">
-          <Button
-            onClick={() => navigate("./write")}
-            className="w-full rounded-2xl h-12 text-base font-medium"
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          className="mt-6 text-center"
+        >
+          <Link
+            to="./letters"
+            className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-sm transition-colors"
           >
-            {t("start_writing")}
-          </Button>
-          <Button
-            variant="outline"
-            onClick={() => navigate("./letters")}
-            className="w-full rounded-2xl h-12 text-base font-medium"
-          >
+            <History size={18} />
             {t("view_past_letters")}
-          </Button>
-        </div>
-
-        <p className="text-muted-foreground text-sm pt-4 flex items-center justify-center gap-1.5">
-          {t("no_judgments")} <Leaf className="w-4 h-4 text-accent-foreground" />
-        </p>
-      </div>
-      </div>
+          </Link>
+        </motion.div>
+      </PremiumIntro>
     </div>
   );
 };

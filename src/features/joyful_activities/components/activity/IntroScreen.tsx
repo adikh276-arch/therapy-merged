@@ -1,5 +1,6 @@
-import { Button } from "../../components/ui/button";
 import { useTranslation } from "react-i18next";
+import { Heart } from "lucide-react";
+import { PremiumIntro } from "../../../../components/shared/PremiumIntro";
 
 interface Props {
   onNext: () => void;
@@ -7,33 +8,20 @@ interface Props {
 
 const IntroScreen = ({ onNext }: Props) => {
   const { t } = useTranslation();
+  
   return (
-    <div className="animate-fade-in-up space-y-8 flex flex-col items-center text-center w-full">
-      <div className="space-y-2 w-full">
-        <h1 className="text-[22px] font-heading font-semibold text-foreground">
-          {t('intro.title')}
-        </h1>
-        <p className="text-muted-foreground font-heading text-lg">
-          {t('intro.subtitle')}
-        </p>
-      </div>
-
-      <div className="space-y-5 text-foreground font-body leading-relaxed w-full">
-        <p>
-          {t('intro.p1')}
-        </p>
-        <p>
-          {t('intro.p2')}
-        </p>
-        <p>
-          {t('intro.p3')}
-        </p>
-      </div>
-
-      <Button variant="calm" size="lg" onClick={onNext} className="w-full w-full">
-        {t('intro.button')}
-      </Button>
-    </div>
+    <PremiumIntro
+      title={t('intro.title')}
+      description={t('intro.subtitle')}
+      onStart={onNext}
+      icon={<Heart size={32} />}
+      benefits={[
+        t('intro.p1'),
+        t('intro.p2'),
+        t('intro.p3')
+      ]}
+      duration="5 minutes"
+    />
   );
 };
 

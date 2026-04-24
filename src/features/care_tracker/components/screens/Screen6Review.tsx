@@ -1,9 +1,10 @@
 import React from "react";
-import MobileShell from "../../components/MobileShell";
-import { Button } from "../../components/ui/button";
+import { PremiumComplete } from "../../../../components/shared/PremiumComplete";
+
 import { SelfCareEntry, formatDateShort } from "../../lib/selfcare-data";
 import { Pencil, CalendarDays, Home } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 interface Screen6Props {
   entry: SelfCareEntry;
@@ -56,35 +57,58 @@ const Screen6Review = ({ entry, onEdit, onHistory, onHome }: Screen6Props) => {
   }
 
   return (
-    <MobileShell step={5} totalSteps={5}>
-      <h1 className="font-display text-2xl font-bold tracking-tight">
-        {t('screens.review.title')}
-      </h1>
-      <p className="mt-1 text-sm text-muted-foreground">{t('screens.review.subtitle')}</p>
-
-      <div className="mt-6 space-y-3">
-        {rows.map((r) => (
-          <div key={r.label} className="rounded-xl bg-transparent p-4 border border-border">
-            <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-              {r.label}
-            </span>
-            <p className="mt-1 text-sm font-medium text-card-foreground">{r.value}</p>
-          </div>
+    <PremiumComplete
+      title={t('screens.review.title')}
+      message={t('screens.review.subtitle')}
+      onRestart={onHome}
+    >
+      <div className="grid gap-3 w-full max-w-md mx-auto mt-8">
+        {rows.map((r, i) => (
+          <motion.div 
+            key={r.label} 
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: i * 0.05 }}
+            className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-100"
+          >
+            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{r.label}</span>
+            <span className="text-sm font-bold text-slate-700">{r.value}</span>
+          </motion.div>
         ))}
-      </div>
 
-      <div className="mt-8 flex flex-col gap-3 pb-4">
-        <Button onClick={onEdit} variant="outline" className="w-full rounded-2xl py-5 gap-2">
-          <Pencil className="h-4 w-4" /> {t('screens.review.editToday')}
-        </Button>
-        <Button onClick={onHistory} variant="outline" className="w-full rounded-2xl py-5 gap-2">
-          <CalendarDays className="h-4 w-4" /> {t('screens.review.viewHistory')}
-        </Button>
-        <Button onClick={onHome} className="w-full rounded-2xl py-5 gap-2">
-          <Home className="h-4 w-4" /> {t('common.home')}
-        </Button>
+        <div className="flex flex-col gap-3 mt-4">
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onEdit}
+                className="w-full py-4 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-600 font-bold shadow-sm flex items-center justify-center gap-2"
+            >
+                <Pencil size={18} />
+                {t('screens.review.editToday')}
+            </motion.button>
+            
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onHistory}
+                className="w-full py-4 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-600 font-bold shadow-sm flex items-center justify-center gap-2"
+            >
+                <CalendarDays size={18} />
+                {t('screens.review.viewHistory')}
+            </motion.button>
+
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onHome}
+                className="w-full py-4 rounded-[2rem] bg-slate-50 text-slate-400 font-bold flex items-center justify-center gap-2"
+            >
+                <Home size={18} />
+                {t('common.home')}
+            </motion.button>
+        </div>
       </div>
-    </MobileShell>
+    </PremiumComplete>
   );
 };
 

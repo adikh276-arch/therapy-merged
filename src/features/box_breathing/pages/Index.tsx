@@ -1,17 +1,31 @@
 import { useState } from "react";
-import OverviewScreen from "../components/OverviewScreen";
+import { useTranslation } from "react-i18next";
+import { PremiumIntro } from "../../../components/shared/PremiumIntro";
+import { PremiumComplete } from "../../../components/shared/PremiumComplete";
 import SessionScreen from "../components/SessionScreen";
-import CompleteScreen from "../components/CompleteScreen";
+import { Wind } from "lucide-react";
 
 type Screen = "overview" | "session" | "complete";
 
 const Index = () => {
+  const { t } = useTranslation();
   const [screen, setScreen] = useState<Screen>("overview");
 
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full h-full">
       {screen === "overview" && (
-        <OverviewScreen onStart={() => setScreen("session")} />
+        <PremiumIntro
+          title="Box Breathing"
+          description={t("technique_description")}
+          onStart={() => setScreen("session")}
+          icon={<Wind size={32} />}
+          benefits={[
+            t("inhale_4s"),
+            t("hold_4s"),
+            t("exhale_4s")
+          ]}
+          duration="5 minutes"
+        />
       )}
       {screen === "session" && (
         <SessionScreen
@@ -20,9 +34,10 @@ const Index = () => {
         />
       )}
       {screen === "complete" && (
-        <CompleteScreen
+        <PremiumComplete
+          title="Great Job!"
+          message="You've completed the Box Breathing session. You should feel more balanced and calm."
           onRestart={() => setScreen("session")}
-          onBack={() => setScreen("overview")}
         />
       )}
     </div>

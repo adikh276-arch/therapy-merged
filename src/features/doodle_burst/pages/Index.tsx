@@ -1,15 +1,14 @@
 import React from 'react';
 import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useNavigate } from "react-router-dom";
-import FloatingShapes from "../components/FloatingShapes";
+import { useNavigate, Link } from "react-router-dom";
 import DrawingCanvas, { type DrawingCanvasRef } from "../components/DrawingCanvas";
 import ShareModal from "../components/ShareModal";
 import { saveDoodle } from "../lib/doodleHistory";
-import { Sparkles, ArrowRight, Rocket, History, Share2 } from "lucide-react";
-import { shareDoodle } from "../lib/share";
+import { Sparkles, ArrowRight, Rocket, History, Share2, Palette, Clock, Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "../components/LanguageSelector";
+import { PremiumIntro } from "../../../components/shared/PremiumIntro";
+import { PremiumComplete } from "../../../components/shared/PremiumComplete";
 
 type Screen = "intro" | "activity" | "end";
 
@@ -51,7 +50,7 @@ const Index = () => {
     if (screen !== "activity") return;
     const prompt = PROMPTS.find((p) => timer <= p.time);
     if (prompt) setCurrentPrompt(prompt.text);
-  }, [timer, screen, PROMPTS]);
+  }, [timer, screen]);
 
   const startActivity = useCallback(() => {
     setTimer(60);
@@ -59,185 +58,133 @@ const Index = () => {
     setScreen("activity");
   }, [t]);
 
-  const pageVariants = {
-    initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
-    exit: { opacity: 0, y: -20, transition: { duration: 0.3 } },
-  };
-
   return (
-    <div className=" bg-playful relative flex items-center justify-center p-4">
-      <LanguageSelector />
+    <div className="w-full h-full">
       <AnimatePresence mode="wait">
         {screen === "intro" && (
           <motion.div
             key="intro"
-            variants={pageVariants}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            className="relative z-10 w-full w-full mx-auto text-center flex flex-col items-center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
           >
-            <FloatingShapes />
-            <div className="relative z-10 flex flex-col items-center gap-6 py-12">
-              <motion.div
-                animate={{ rotate: [0, 5, -5, 0] }}
-                transition={{ duration: 2, repeat: Infinity }}
-                className="text-6xl"
-              >
-                ⚡
-              </motion.div>
-
-              <h1 className="text-4xl font-black text-foreground tracking-tight text-center">
-                {t("app_title")} ⚡
-              </h1>
-
-              <p className="text-lg font-semibold text-muted-foreground text-center">
-                {t("intro_subtitle")}
-              </p>
-
-              <div className="bg-transparent/80 backdrop-blur-sm rounded-3xl p-6  text-center">
-                <p className="text-foreground leading-relaxed text-justify">
-                  {t("intro_reason")}
-                  <br />
-                  {t("intro_benefit")}
-                </p>
+            <PremiumIntro
+              title={t("app_title")}
+              description={t("intro_reason") + " " + t("intro_benefit")}
+              onStart={startActivity}
+              icon={<Palette size={32} />}
+              benefits={[
+                "Unleash your creativity",
+                "Release pent-up energy",
+                "Instant brain reset"
+              ]}
+              duration="60 seconds"
+            >
+              <div className="mt-8 text-center">
+                <Link
+                  to="./history"
+                  className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-sm transition-colors"
+                >
+                  <History size={18} />
+                  {t("view_past_doodles")}
+                </Link>
               </div>
-
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.97 }}
-                onClick={startActivity}
-                className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-bold text-lg  animate-pulse-glow transition-all"
-              >
-                {t("start_doodling")}
-                <ArrowRight size={20} />
-              </motion.button>
-
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.97 }}
-                onClick={() => navigate("history")}
-                className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-transparent text-foreground font-semibold text-base  border border-border transition-all"
-              >
-                <History size={18} />
-                {t("view_past_doodles")}
-              </motion.button>
-            </div>
+            </PremiumIntro>
           </motion.div>
         )}
 
         {screen === "activity" && (
           <motion.div
             key="activity"
-            variants={pageVariants}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            className="relative z-10 w-full w-full mx-auto flex flex-col items-center gap-4"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 1.05 }}
+            className="flex flex-col items-center gap-6 py-6"
           >
-            {/* Timer */}
-            <div className="flex items-center gap-3">
-              <div className="relative w-14 h-14 flex items-center justify-center">
-                <svg className="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 56 56">
-                  <circle cx="28" cy="28" r="24" fill="none" stroke="hsl(var(--muted))" strokeWidth="4" />
-                  <circle
-                    cx="28" cy="28" r="24" fill="none"
-                    stroke="hsl(var(--primary))"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeDasharray={2 * Math.PI * 24}
-                    strokeDashoffset={2 * Math.PI * 24 * (1 - timer / 60)}
-                    className="transition-all duration-1000 ease-linear"
-                  />
-                </svg>
-                <span className="text-lg font-black text-foreground">{timer}</span>
+            <div className="w-full max-w-lg flex flex-col items-center gap-6">
+              {/* Header with Timer and Prompt */}
+              <div className="w-full bg-white rounded-[2.5rem] border-2 border-slate-100 p-6 shadow-sm flex items-center justify-between">
+                <div className="flex items-center gap-4">
+                  <div className="w-16 h-16 rounded-2xl bg-primary/10 flex flex-col items-center justify-center text-primary border-2 border-primary/20">
+                    <span className="text-2xl font-black tabular-nums leading-none">{timer}</span>
+                    <span className="text-[10px] font-bold uppercase tracking-widest mt-1">Sec</span>
+                  </div>
+                  <div className="text-left">
+                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Current Focus</p>
+                    <AnimatePresence mode="wait">
+                      <motion.h2
+                        key={currentPrompt}
+                        initial={{ opacity: 0, y: 5 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -5 }}
+                        className="text-lg font-bold text-slate-800"
+                      >
+                        {currentPrompt}
+                      </motion.h2>
+                    </AnimatePresence>
+                  </div>
+                </div>
+                <div className="w-12 h-12 rounded-full bg-slate-50 flex items-center justify-center text-slate-300">
+                  <Clock size={24} />
+                </div>
               </div>
-              <motion.p
-                key={currentPrompt}
-                initial={{ opacity: 0, x: 10 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="text-base font-bold text-foreground text-center"
-              >
-                {currentPrompt}
-              </motion.p>
+
+              {/* Instructions */}
+              <div className="flex items-center gap-2 text-slate-500 text-sm font-medium">
+                <Sparkles size={16} className="text-primary" />
+                {t("activity_instructions")}
+              </div>
+
+              <DrawingCanvas ref={canvasRef} />
             </div>
-
-            {/* Instructions */}
-            <p className="text-sm text-muted-foreground text-center leading-relaxed w-full">
-              {t("activity_instructions")}
-            </p>
-
-            <DrawingCanvas ref={canvasRef} />
           </motion.div>
         )}
 
         {screen === "end" && (
           <motion.div
             key="end"
-            variants={pageVariants}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            className="relative z-10 w-full w-full mx-auto text-center flex flex-col items-center gap-6 py-12"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
           >
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ type: "spring", bounce: 0.5 }}
+            <PremiumComplete
+              title={t("end_title")}
+              message={t("end_saved")}
+              onRestart={startActivity}
             >
-              <Sparkles size={56} className="text-accent" />
-            </motion.div>
+              <div className="space-y-6 w-full max-w-md mx-auto mt-8">
+                <div className="bg-white rounded-[2rem] border-2 border-slate-100 p-6 shadow-sm text-left space-y-4">
+                   <p className="text-slate-600 font-medium">{t("end_reset")}</p>
+                   <div className="grid gap-3">
+                     <CheckInItem icon={<Rocket className="text-primary" size={18} />} text={t("checkin_brain")} />
+                     <CheckInItem icon={<Sparkles className="text-primary" size={18} />} text={t("checkin_calmer")} />
+                     <CheckInItem icon={<Check className="text-primary" size={18} />} text={t("checkin_task")} />
+                   </div>
+                </div>
 
-            <h1 className="text-3xl font-black text-foreground text-center">
-              {t("end_title")}
-            </h1>
-
-            <p className="text-sm text-muted-foreground">{t("end_saved")}</p>
-
-            <div className="bg-card/80 backdrop-blur-sm rounded-3xl p-6 ">
-              <p className="text-foreground mb-4 text-justify">
-                {t("end_reset")}
-              </p>
-              <div className="flex flex-col gap-3 text-left">
-                <CheckInItem emoji="🧠" text={t("checkin_brain")} />
-                <CheckInItem emoji="😌" text={t("checkin_calmer")} />
-                <CheckInItem emoji="🎯" text={t("checkin_task")} />
+                <div className="flex gap-4">
+                  <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={() => setIsShareModalOpen(true)}
+                    className="flex-1 py-4 bg-white border-2 border-slate-100 text-slate-600 font-bold rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 transition-all shadow-sm"
+                  >
+                    <Share2 size={18} />
+                    {t("share_doodle")}
+                  </motion.button>
+                  
+                  <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={() => navigate("./history")}
+                    className="flex-1 py-4 bg-slate-100 text-slate-600 font-bold rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-200 transition-all"
+                  >
+                    <History size={18} />
+                    {t("view_history")}
+                  </motion.button>
+                </div>
               </div>
-            </div>
-
-            <div className="flex flex-col gap-3 items-center">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.97 }}
-                onClick={() => setScreen("intro")}
-                className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-bold text-lg  animate-pulse-glow transition-all"
-              >
-                {t("back_to_focus")}
-                <Rocket size={20} />
-              </motion.button>
-
-              <div className="flex gap-3">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.97 }}
-                  onClick={() => setIsShareModalOpen(true)}
-                  className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-sm  border border-border transition-all"
-                >
-                  <Share2 size={16} />
-                  {t("share_doodle")}
-                </motion.button>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.97 }}
-                  onClick={() => navigate("history")}
-                  className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-card text-foreground font-semibold text-sm  border border-border transition-all"
-                >
-                  <History size={16} />
-                  {t("view_history")}
-                </motion.button>
-              </div>
-            </div>
+            </PremiumComplete>
           </motion.div>
         )}
       </AnimatePresence>
@@ -250,16 +197,13 @@ const Index = () => {
   );
 };
 
-const CheckInItem: React.FC<{ emoji: string; text: string }> = ({ emoji, text }) => (
-  <motion.div
-    initial={{ opacity: 0, x: -10 }}
-    animate={{ opacity: 1, x: 0 }}
-    transition={{ delay: 0.3 }}
-    className="flex items-center gap-3 text-foreground"
-  >
-    <span className="text-xl">{emoji}</span>
-    <span className="font-semibold text-justify">{text}</span>
-  </motion.div>
+const CheckInItem: React.FC<{ icon: React.ReactNode; text: string }> = ({ icon, text }) => (
+  <div className="flex items-center gap-3 p-3 bg-slate-50 rounded-2xl border border-slate-100">
+    <div className="w-8 h-8 rounded-xl bg-white flex items-center justify-center shadow-sm">
+      {icon}
+    </div>
+    <span className="text-sm font-bold text-slate-700">{text}</span>
+  </div>
 );
 
 export default Index;

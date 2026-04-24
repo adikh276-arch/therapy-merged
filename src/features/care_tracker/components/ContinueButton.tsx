@@ -1,6 +1,7 @@
 import React from "react";
-import { Button } from "../components/ui/button";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 interface ContinueButtonProps {
   onClick: () => void;
@@ -11,15 +12,17 @@ interface ContinueButtonProps {
 const ContinueButton = ({ onClick, disabled, label }: ContinueButtonProps) => {
   const { t } = useTranslation();
   return (
-    <div className="mt-8 pb-4">
-      <Button
+    <div className="mt-12 pb-4">
+      <motion.button
+        whileHover={!disabled ? { scale: 1.02 } : {}}
+        whileTap={!disabled ? { scale: 0.98 } : {}}
         onClick={onClick}
         disabled={disabled}
-        className="w-full rounded-2xl py-6 text-base font-semibold font-display tracking-wide  transition-all active:scale-[0.98]"
-        size="lg"
+        className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
       >
         {label || t('common.continue')}
-      </Button>
+        <ArrowRight size={20} />
+      </motion.button>
     </div>
   );
 };

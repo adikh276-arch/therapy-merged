@@ -1,44 +1,41 @@
 import { useTranslation } from "react-i18next";
 import { tips } from "../data/tips";
 import TipCard from "../components/TipCard";
-import LanguageSelector from "../components/LanguageSelector";
+import { motion } from "framer-motion";
+import { Sparkles } from "lucide-react";
 
 export default function Index() {
   const { t } = useTranslation();
 
   return (
-    <div className=" gradient-bg">
-      <div className="mx-auto w-full px-5 py-10 pb-16">
-        {/* Header row */}
-        <div className="flex items-start justify-between mb-8 gap-3">
-          <div className="flex-1 min-w-0">
-            <p className="text-sm text-muted-foreground mb-1">{t("notAlone")}</p>
-            <h1 className="text-2xl font-extrabold text-foreground leading-tight">
-              {t("supportForLowMood")}
-            </h1>
-            <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
-              {t("gentleSteps")}
-            </p>
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="space-y-4">
+          <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
+            <Sparkles size={14} />
+            {t("notAlone")}
           </div>
-          <div className="shrink-0 pt-1">
-            <LanguageSelector />
+          <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
+            {t("supportForLowMood")}
+          </h1>
+          <p className="text-slate-500 text-base font-medium leading-relaxed">
+            {t("gentleSteps")}
+          </p>
+        </header>
+
+        <div className="space-y-4">
+          <h2 className="text-lg font-black text-slate-800 uppercase tracking-wider px-2">
+            {t("dailySupportTips")}
+          </h2>
+          
+          <div className="grid gap-3">
+            {tips.map((tip, i) => (
+              <TipCard key={tip.id} tip={tip} index={i} />
+            ))}
           </div>
         </div>
 
-        {/* Section title */}
-        <h2 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-4">
-          {t("dailySupportTips")}
-        </h2>
-
-        {/* Tip cards */}
-        <div className="flex flex-col gap-3">
-          {tips.map((tip, i) => (
-            <TipCard key={tip.id} tip={tip} index={i} />
-          ))}
-        </div>
-
-        {/* Bottom support message */}
-        <p className="mt-10 text-center text-xs text-muted-foreground leading-relaxed px-2">
+        <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest mt-12 px-8 leading-relaxed opacity-60">
           {t("strugglingMessage")}
         </p>
       </div>

@@ -1,75 +1,47 @@
-import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
 import { techniques } from "../data/techniques";
 import { useTranslation } from "../hooks/useTranslation";
-import LanguageSwitcher from "../components/LanguageSwitcher";
 import GroundingCard from "../components/GroundingCard";
+import { motion } from "framer-motion";
+import { Sparkles } from "lucide-react";
 
 const Index = () => {
   const navigate = useNavigate();
-  const { t, currentLang, changeLang } = useTranslation();
+  const { t, currentLang } = useTranslation();
 
   const langParam = currentLang !== "en" ? `?lang=${currentLang}` : "";
 
   return (
-    <div className=" relative overflow-hidden" style={{
-      background: `linear-gradient(180deg, hsl(140 25% 92%) 0%, hsl(140 20% 96%) 40%, hsl(var(--background)) 100%)`
-    }}>
-      {/* Breathing Concentric Circles */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {[180, 280, 400, 540, 700].map((size, i) => (
-          <div
-            key={i}
-            className="breathing-circle"
-            style={{
-              width: `${size}px`,
-              height: `${size}px`,
-              top: '35%',
-              animationDelay: `${i * 0.8}s`,
-            }}
-          />
-        ))}
-      </div>
-
-      {/* Mobile container */}
-      <div className="relative z-10 w-full mx-auto  flex flex-col">
-        {/* Header */}
-        <header className="flex items-center justify-between px-5 pt-6 pb-2 safe-area-top">
-          <button
-            className="p-2 -ml-2 rounded-lg hover:bg-secondary/60 transition-colors"
-            aria-label="Go back"
-          >
-            <ArrowLeft className="w-5 h-5 text-foreground" />
-          </button>
-          <h1 className="text-lg font-bold text-foreground">{t("Grounding")}</h1>
-          <LanguageSwitcher currentLang={currentLang} onChangeLang={changeLang} />
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="space-y-4">
+          <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
+            <Sparkles size={14} />
+            {t("Grounding")}
+          </div>
+          <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
+            Stay Present
+          </h1>
+          <p className="text-slate-500 text-base font-medium leading-relaxed">
+            {t("Grounding techniques help bring your attention back to the present moment.")}
+            {" "}{t("Choose one activity that feels supportive right now.")}
+          </p>
         </header>
 
-        {/* Support text */}
-        <div className="px-6 pt-4 pb-6">
-          <p className="text-muted-foreground text-sm leading-relaxed">
-            {t("Grounding techniques help bring your attention back to the present moment.")}
-          </p>
-          <p className="text-muted-foreground text-sm leading-relaxed mt-1">
-            {t("Choose one activity that feels supportive right now.")}
-          </p>
-        </div>
-
-        {/* Technique Grid */}
-        <div className="px-5 pb-10 grid grid-cols-2 gap-3 flex-1">
+        <div className="grid grid-cols-2 gap-4">
           {techniques.map((tech, i) => (
-            <div
+            <motion.div
               key={tech.id}
-              className="animate-fade-in-up"
-              style={{ animationDelay: `${i * 60}ms`, opacity: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.05 }}
             >
               <GroundingCard
                 technique={tech}
                 label={t(tech.title)}
                 onClick={() => navigate(`/technique/${tech.id}${langParam}`)}
               />
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

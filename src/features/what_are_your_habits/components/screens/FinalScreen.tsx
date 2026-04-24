@@ -1,29 +1,17 @@
-import { motion } from "framer-motion";
+import { PremiumComplete } from "../../../../components/shared/PremiumComplete";
 import { useTranslation } from "react-i18next";
+import { CheckCircle2 } from "lucide-react";
 
 const FinalScreen = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-transparent rounded-2xl p-8  border border-border text-center flex flex-col items-center gap-6">
-      <motion.span
-        className="text-5xl"
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ type: "spring", stiffness: 200, damping: 12 }}
-      >
-        🌱
-      </motion.span>
-      <p className="text-base font-semibold text-foreground leading-relaxed">
-        {t('final_text')}
-      </p>
-      <button
-        onClick={() => window.location.reload()}
-        className="w-full h-[50px] rounded-2xl bg-primary text-primary-foreground font-semibold text-base"
-      >
-        {t('finish')}
-      </button>
-    </div>
+    <PremiumComplete
+      title="Habit Reflection Complete"
+      message={t('final_text')}
+      onRestart={() => window.location.reload()}
+      icon={<CheckCircle2 size={48} />}
+    />
   );
 };
 

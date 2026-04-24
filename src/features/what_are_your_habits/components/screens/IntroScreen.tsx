@@ -1,18 +1,23 @@
-import ActivityButton from "../../components/ActivityButton";
+import { PremiumIntro } from "../../../../components/shared/PremiumIntro";
 import { useTranslation } from "react-i18next";
+import { ListChecks } from "lucide-react";
 
 const IntroScreen = ({ onNext }: { onNext: () => void }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-transparent rounded-2xl p-8  border border-border text-center flex flex-col items-center gap-6">
-      <span className="text-5xl">🌿</span>
-      <h1 className="text-xl font-semibold text-foreground">{t('title')}</h1>
-      <p className="text-sm text-muted-foreground text-justified leading-relaxed">
-        {t('intro_description')}
-      </p>
-      <ActivityButton label={t('start_activity')} onClick={onNext} />
-    </div>
+    <PremiumIntro
+      title={t('title')}
+      description={t('intro_description')}
+      onStart={onNext}
+      icon={<ListChecks size={32} />}
+      benefits={[
+        "Understand your daily patterns",
+        "Identify supportive habits",
+        "Create positive change"
+      ]}
+      duration="5 minutes"
+    />
   );
 };
 

@@ -41,13 +41,12 @@
 @layer base {
   :root {
 
-    --sidebar-foreground: 0 0% 23%;
-    
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 350 35% 75%;
-    --sidebar-accent-foreground: 0 0% 23%;
-    --sidebar-border: 8 18% 84%;
-    --sidebar-ring: 0 45% 70%;
+    --sidebar-foreground: 215 15% 30%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 215 15% 96%;
+    --sidebar-accent-foreground: 215 15% 10%;
+    --sidebar-border: 215 15% 92%;
+    --sidebar-ring: 190 60% 65%;
   }
 
   .dark {
@@ -71,9 +70,10 @@
 
 @layer components {
   .breathing-glow {
-    box-shadow: 0 0 40px 10px hsl(0 45% 70% / 0.3),
-                0 0 80px 20px hsl(350 35% 75% / 0.15);
+    box-shadow: 0 0 40px 10px hsl(190 45% 65% / 0.2),
+                0 0 80px 20px hsl(190 30% 78% / 0.1);
   }
+
 
   .reflection-card {
     @apply bg-card rounded-[var(--radius)] p-6 md:p-8;

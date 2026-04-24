@@ -19,8 +19,9 @@ export const tips: TipData[] = [
     title: "Get Restful Sleep",
     description: "Aim for 7–9 hours of sleep each night. Try to sleep and wake up at the same time daily.",
     icon: <Moon className="w-5 h-5" />,
-    iconClass: "pastel-icon-purple",
+    iconClass: "pastel-icon-cyan",
     whyItHelps: "Sleep helps your brain and body recover and lowers stress hormones.",
+
     whatYouCanDo: [
       "Keep a fixed sleep schedule",
       "Avoid screens 1 hour before bed",
@@ -63,8 +64,9 @@ export const tips: TipData[] = [
     title: "Limit Caffeine & Sugar",
     description: "Too much caffeine and sugar can increase anxiety and disturb sleep.",
     icon: <Coffee className="w-5 h-5" />,
-    iconClass: "pastel-icon-pink",
+    iconClass: "pastel-icon-slate",
     whyItHelps: "Too much caffeine and sugar increases anxiety and sleep problems.",
+
     whatYouCanDo: [
       "Replace one coffee with herbal tea",
       "Drink more water",

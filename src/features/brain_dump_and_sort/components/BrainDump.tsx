@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { motion, AnimatePresence } from "framer-motion";
+import { Plus, X, ArrowRight, Sparkles } from "lucide-react";
 
 interface Props {
   onComplete: (text: string) => void;
@@ -32,66 +34,94 @@ export const BrainDump = ({ onComplete }: Props) => {
     const isLast = index === thoughts.length - 1;
     if (isLast) {
       addThought();
-      requestAnimationFrame(() => {
+      setTimeout(() => {
         const nextInput = document.getElementById(`thought-input-${index + 1}`);
         nextInput?.focus();
-      });
+      }, 50);
     }
   };
 
   const filledThoughts = thoughts.map((t) => t.trim()).filter(Boolean);
 
   return (
-    <div className="w-full mx-auto px-6 py-8  flex flex-col">
-      <div className="mb-8 animate-fade-in">
-        <h1 className="text-2xl font-bold text-foreground mb-1">Brain Dump</h1>
-        <p className="text-muted-foreground text-sm">{t("dump_hint")}</p>
-      </div>
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        <header className="text-center">
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">
+            Brain Dump
+          </h1>
+          <p className="text-slate-500 text-sm">
+            {t("dump_hint")}
+          </p>
+        </header>
 
-      <div className="flex-1 mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-        <div className="flex flex-col gap-3 mb-4">
-          {thoughts.map((thought, index) => (
-            <div key={index} className="flex items-center gap-2">
-              <input
-                id={`thought-input-${index}`}
-                type="text"
-                value={thought}
-                onChange={(e) => updateThought(index, e.target.value)}
-                onKeyDown={(e) => handleEnter(e, index)}
-                placeholder={index === 0 ? t("dump_placeholder") : "..."}
-                className="w-full p-4 rounded-2xl bg-transparent/80 backdrop-blur-sm border border-border text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:glow-border transition-shadow duration-500 text-sm "
-              />
-              <button
-                type="button"
-                onClick={() => removeThought(index)}
-                className="h-9 w-9 shrink-0 rounded-full bg-muted text-muted-foreground hover:bg-accent hover:text-foreground transition-colors"
-                aria-label="Delete thought"
+        <div className="space-y-4">
+          <AnimatePresence initial={false}>
+            {thoughts.map((thought, index) => (
+              <motion.div 
+                key={index}
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 10 }}
+                className="flex items-center gap-3 group"
               >
-                ×
-              </button>
-            </div>
-          ))}
+                <div className="flex-1 relative">
+                    <input
+                        id={`thought-input-${index}`}
+                        type="text"
+                        value={thought}
+                        onChange={(e) => updateThought(index, e.target.value)}
+                        onKeyDown={(e) => handleEnter(e, index)}
+                        placeholder={index === 0 ? t("dump_placeholder") : "Type another thought..."}
+                        className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-300 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                    />
+                    {index === 0 && (
+                        <div className="absolute right-6 top-1/2 -translate-y-1/2 text-primary/30">
+                            <Sparkles size={18} />
+                        </div>
+                    )}
+                </div>
+                <motion.button
+                  whileHover={{ scale: 1.1, color: "#EF4444" }}
+                  whileTap={{ scale: 0.9 }}
+                  type="button"
+                  onClick={() => removeThought(index)}
+                  className="w-12 h-12 shrink-0 rounded-full bg-slate-50 text-slate-300 flex items-center justify-center hover:bg-rose-50 transition-colors"
+                >
+                  <X size={18} />
+                </motion.button>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+
+          <motion.button
+            whileHover={{ scale: 1.02, x: 4 }}
+            whileTap={{ scale: 0.98 }}
+            type="button"
+            onClick={addThought}
+            className="flex items-center gap-2 text-primary font-bold text-sm px-6 py-2"
+          >
+            <Plus size={18} />
+            {t("keep_going")}
+          </motion.button>
         </div>
 
-        <button
-          type="button"
-          onClick={addThought}
-          className="text-sm text-primary hover:text-primary/80 transition-colors mb-3"
-        >
-          + {t("keep_going")}
-        </button>
-
-        <p className="text-xs text-muted-foreground/80">{t("breathe")}</p>
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={() => filledThoughts.length > 0 && onComplete(filledThoughts.join("\n"))}
+            disabled={filledThoughts.length === 0}
+            className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
+          >
+            {t("finished")}
+            <ArrowRight size={20} />
+          </motion.button>
+          <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest mt-4">
+             {t("breathe")}
+          </p>
+        </div>
       </div>
-
-      <button
-        onClick={() => filledThoughts.length > 0 && onComplete(filledThoughts.join("\n"))}
-        disabled={filledThoughts.length === 0}
-        className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base disabled:opacity-40 transition-all duration-300 hover: active:scale-[0.98] animate-fade-in"
-        style={{ animationDelay: "0.2s" }}
-      >
-        {t("finished")}
-      </button>
     </div>
   );
 };

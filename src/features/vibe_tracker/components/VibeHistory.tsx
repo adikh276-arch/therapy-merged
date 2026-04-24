@@ -1,7 +1,8 @@
 import { useMemo, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { getVibeEntries, VibeEntry } from "../types/vibe";
-import { ChevronLeft } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, Heart, Sparkles } from "lucide-react";
+import { motion } from "framer-motion";
 
 interface Props {
   onBack: () => void;
@@ -71,96 +72,101 @@ const VibeHistory = ({ onBack }: Props) => {
 
   if (loading) {
     return (
-      <div className="flex-1 flex flex-col items-center justify-center p-6 text-center">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mb-4"></div>
-        <p className="text-slate-600 text-sm font-medium">Rewinding your journey...</p>
+      <div className="flex flex-col items-center justify-center py-20 space-y-4">
+        <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+        <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">Rewinding your journey...</p>
       </div>
     );
   }
 
   return (
-    <div className="animate-fade-slide-in flex flex-col px-6 pt-8 pb-12 max-w-xl mx-auto">
-      {/* Header */}
-      <div className="flex items-center gap-3 mb-8">
-        <button
-          onClick={onBack}
-          className="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105"
-          style={{
-            background: "hsl(var(--primary) / 0.1)",
-            border: "1.5px solid hsl(var(--primary) / 0.3)",
-          }}
+    <div className="space-y-8">
+      <header className="flex items-center justify-between">
+        <motion.button 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={onBack} 
+          className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-colors shadow-sm"
         >
-          <ChevronLeft className="w-5 h-5 text-foreground" />
-        </button>
-        <h1 className="font-display text-2xl font-bold text-foreground tracking-tight">
+          <ArrowLeft size={20} />
+        </motion.button>
+        <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+          <Sparkles size={12} />
+          Your Journey
+        </div>
+      </header>
+
+      <div className="space-y-4">
+        <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">
           {t("yourJourney")}
         </h1>
       </div>
 
       {(entries && entries.length) === 0 ? (
-        <div className="flex-1 flex flex-col items-center justify-center text-center">
-          <div className="text-5xl mb-4">🌿</div>
-          <p className="font-heading text-lg text-foreground mb-2">
-            {t("noVibes")}
-          </p>
-          <p className="text-slate-500 text-sm max-w-xs">
-            {t("startFirstCheckIn")}
-          </p>
+        <div className="p-12 bg-white rounded-[3rem] border-2 border-slate-50 text-center space-y-6">
+            <div className="w-20 h-20 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
+                <Calendar size={40} />
+            </div>
+            <p className="text-slate-400 font-bold">{t("noVibes")}</p>
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onBack}
+                className="w-full py-4 rounded-[2rem] bg-primary text-primary-foreground font-black shadow-lg"
+            >
+                {t("startFirstCheckIn")}
+            </motion.button>
         </div>
       ) : (
-        <div className="space-y-6">
-          {grouped.map(([dateKey, dayEntries]) => (
-            <div key={dateKey}>
-              {/* Date Header */}
-              <p className="font-heading text-sm font-bold text-slate-700 mb-3 uppercase tracking-wider">
+        <div className="space-y-10">
+          {grouped.map(([dateKey, dayEntries], groupIdx) => (
+            <div key={dateKey} className="space-y-4">
+              <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] px-4">
                 {formatDate(dayEntries[0].timestamp)}
               </p>
  
-              <div className="space-y-3">
-                {dayEntries.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()).map((entry) => (
-                  <div
+              <div className="space-y-4">
+                {dayEntries.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()).map((entry, i) => (
+                  <motion.div
                     key={entry.id}
-                    className="rounded-3xl p-5 transition-all duration-200"
-                    style={{
-                      background: "white",
-                      border: "1.5px solid hsl(var(--primary) / 0.25)",
-                      boxShadow: "0 4px 12px hsl(var(--primary) / 0.08)",
-                    }}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: (groupIdx * 2 + i) * 0.05 }}
+                    className="p-8 bg-white rounded-[2.5rem] border-2 border-slate-100 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/20 transition-all"
                   >
-                    {/* Vibe + Time */}
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="flex items-center gap-3">
-                        <span className="text-2xl">
-                          {vibeEmojiMap[entry.vibe] || "✨"}
-                        </span>
-                        <span className="font-heading text-base font-semibold text-foreground">
-                          {i18n.exists(`vibes.${entry.vibe}`) ? t(`vibes.${entry.vibe}`) : entry.vibe}
-                        </span>
-                      </div>
-                      <span className="text-xs font-medium text-slate-500">
-                        {formatTime(entry.timestamp)}
-                      </span>
+                    <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                            <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center text-2xl group-hover:bg-primary group-hover:text-white transition-colors">
+                                {vibeEmojiMap[entry.vibe] || "✨"}
+                            </div>
+                            <div>
+                                <h4 className="font-black text-slate-800 text-sm uppercase tracking-wider">
+                                    {i18n.exists(`vibes.${entry.vibe}`) ? t(`vibes.${entry.vibe}`) : entry.vibe}
+                                </h4>
+                                <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-bold uppercase tracking-widest">
+                                    <Clock size={10} />
+                                    {formatTime(entry.timestamp)}
+                                </div>
+                            </div>
+                        </div>
+                        <Heart size={16} className="text-slate-100 group-hover:text-primary transition-colors" fill="currentColor" />
                     </div>
  
-                    {/* Reflections */}
                     {entry.reflections && entry.reflections.length > 0 && entry.reflections.some(r => r && r.trim()) && (
-                      <div className="space-y-2 mt-2">
+                      <div className="space-y-3 pt-2">
                         {entry.reflections
                           .filter((r) => r.trim())
-                          .map((reflection, i) => (
+                          .map((reflection, idx) => (
                             <p
-                              key={i}
-                              className="text-sm text-slate-600 leading-relaxed pl-3 font-medium"
-                              style={{
-                                borderLeft: "2.5px solid hsl(var(--primary) / 0.4)",
-                              }}
+                              key={idx}
+                              className="text-slate-600 text-sm font-bold leading-relaxed line-clamp-3 italic"
                             >
-                              {reflection}
+                              "{reflection}"
                             </p>
                           ))}
                       </div>
                     )}
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </div>

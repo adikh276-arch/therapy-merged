@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { PremiumComplete } from "../../../components/shared/PremiumComplete";
 
 const CompletionScreen = () => {
   const navigate = useNavigate();
@@ -8,39 +9,31 @@ const CompletionScreen = () => {
   const [reflection, setReflection] = useState("");
 
   return (
-    <div className=" bg-muted flex flex-col items-center justify-center px-6 py-12 animate-fade-in">
-      <div className="w-full w-full flex flex-col items-center text-center gap-6 px-2">
-        <h1 className="font-display text-4xl font-bold text-foreground">
-          {t('you_did_it')}
-        </h1>
-
-        <div className="flex flex-col gap-2 text-foreground/85 text-lg leading-relaxed">
-          <p>{t('notice_body')}</p>
-          <p>{t('breath_slower')}</p>
-          <p>{t('chest_softer')}</p>
-        </div>
-
-        <div className="w-full mt-4 flex flex-col gap-3">
-          <p className="font-subtitle text-foreground font-semibold">
-            {t('what_feels_different')}
-          </p>
-          <textarea
-            value={reflection}
-            onChange={(e) => setReflection(e.target.value)}
-            placeholder={t('reflection_placeholder')}
-            rows={3}
-            className="w-full bg-transparent text-foreground rounded-lg p-4 text-base resize-none border-none outline-none focus:ring-2 focus:ring-ring placeholder:text-foreground/40"
-          />
-        </div>
-
-        <button
-          onClick={() => navigate(".")}
-          className="w-full mt-4 py-4 px-8 bg-primary text-primary-foreground font-semibold text-lg rounded-full glow-soft hover:opacity-90 transition-opacity duration-200"
-        >
-          {t('finish')}
-        </button>
+    <PremiumComplete
+      title={t('you_did_it')}
+      message={`${t('notice_body')} ${t('breath_slower')} ${t('chest_softer')}`}
+      onRestart={() => navigate("/breathe")}
+      onHome={() => {
+        if (window.parent !== window) {
+          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+        } else {
+          navigate("/");
+        }
+      }}
+    >
+      <div className="w-full flex flex-col gap-3 text-left">
+        <p className="font-semibold text-slate-700">
+          {t('what_feels_different')}
+        </p>
+        <textarea
+          value={reflection}
+          onChange={(e) => setReflection(e.target.value)}
+          placeholder={t('reflection_placeholder')}
+          rows={3}
+          className="w-full bg-white border border-slate-200 rounded-2xl p-4 text-base resize-none outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all placeholder:text-slate-400"
+        />
       </div>
-    </div>
+    </PremiumComplete>
   );
 };
 

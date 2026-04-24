@@ -19,7 +19,14 @@ function App() {
       const token = urlParams.get("token");
       const storedUserId = sessionStorage.getItem("user_id");
 
-      // 1. If already authenticated
+      // 0. DEV ONLY: Mock user bypass via VITE_DEV_USER_ID env var
+      const devUserId = import.meta.env.VITE_DEV_USER_ID;
+      if (devUserId && !storedUserId) {
+        console.info(`[DEV] Seeding mock user_id: ${devUserId}`);
+        sessionStorage.setItem("user_id", devUserId);
+        setIsAuthorized(true);
+        return;
+      }
       if (storedUserId) {
         setIsAuthorized(true);
         // Clean URL if token is present (stale token cleanup)

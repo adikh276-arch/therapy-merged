@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import MobileShell from "../../components/MobileShell";
-import { Button } from "../../components/ui/button";
 import { fetchLast7Days, formatDateShort, SelfCareEntry } from "../../lib/selfcare-data";
-import { ArrowLeft, Loader2 } from "lucide-react";
+import { ArrowLeft, Loader2, Calendar, History, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useAuth } from "../../components/AuthProvider";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface Screen7Props {
   onBack: () => void;
@@ -29,37 +29,62 @@ const Screen7History = ({ onBack }: Screen7Props) => {
 
   return (
     <MobileShell>
-      <div className="flex items-center gap-3 mb-6">
-        <button onClick={onBack} className="rounded-xl p-2 hover:bg-muted transition-colors">
-          <ArrowLeft className="h-5 w-5" />
-        </button>
-        <h1 className="font-display text-2xl font-bold tracking-tight">
-          {t('screens.history.title')}
-        </h1>
+      <header className="flex items-center justify-between mb-8">
+          <motion.button 
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={onBack} 
+            className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-colors shadow-sm"
+          >
+            <ArrowLeft size={20} />
+          </motion.button>
+          <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+            <Sparkles size={12} />
+            Self-Care History
+          </div>
+      </header>
+
+      <div className="text-left mb-8">
+        <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t('screens.history.title')}</h1>
+        <p className="text-slate-500 text-sm font-medium">Your progress over the last 7 days</p>
       </div>
 
       {loading ? (
-        <div className="flex justify-center py-12">
-          <Loader2 className="h-8 w-8 animate-spin text-primary" />
+        <div className="flex flex-col items-center justify-center py-20 gap-4">
+          <Loader2 className="h-10 w-10 animate-spin text-primary" />
+          <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">Fetching your data...</p>
         </div>
       ) : (entries && entries.length) === 0 ? (
-        <div className="mt-12 text-center">
-          <p className="text-4xl mb-3">🫧</p>
-          <p className="text-muted-foreground text-sm">{t('screens.history.subtitle') || "No entries in the last 7 days"}</p>
+        <div className="text-center py-20 bg-slate-50 rounded-[2.5rem] border-2 border-dashed border-slate-200">
+          <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
+              <History size={32} />
+          </div>
+          <p className="text-slate-400 font-bold mb-6">{t('screens.history.subtitle') || "No entries yet"}</p>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={onBack}
+            className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20"
+          >
+            Start Check-in
+          </motion.button>
         </div>
       ) : (
-        <div className="space-y-3">
-          {entries.map((entry) => (
-            <DayCard key={entry.date} entry={entry} />
-          ))}
+        <div className="space-y-4">
+          <AnimatePresence initial={false}>
+            {entries.map((entry, i) => (
+                <motion.div
+                    key={entry.date}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: i * 0.05 }}
+                >
+                    <DayCard entry={entry} />
+                </motion.div>
+            ))}
+          </AnimatePresence>
         </div>
       )}
- 
-      <div className="mt-8 pb-4">
-        <Button onClick={onBack} className="w-full rounded-2xl py-5" variant="outline">
-          {t('common.back')}
-        </Button>
-      </div>
     </MobileShell>
   );
 };
@@ -72,18 +97,24 @@ const DayCard = ({ entry }: { entry: SelfCareEntry }) => {
     : (entry.preventionReasons && entry.preventionReasons[0] ? t(`data.reasons.${entry.preventionReasons[0]}`) : t('common.no'));
 
   return (
-    <div className="flex items-center gap-4 rounded-xl border border-border bg-transparent p-4">
-      <div className="text-2xl">{entry.moodEmoji || "—"}</div>
-      <div className="flex-1 min-w-0">
-        <p className="text-sm font-semibold text-card-foreground">
-          {formatDateShort(entry.date)}
-        </p>
-        <p className="text-xs text-muted-foreground truncate">{keyInfo}</p>
+    <div className="group bg-white rounded-[2rem] border-2 border-slate-100 p-6 flex items-center justify-between transition-all hover:border-primary/20 hover:shadow-md">
+      <div className="flex items-center gap-5">
+        <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center text-2xl group-hover:bg-primary/10 transition-colors">
+            {entry.moodEmoji || <Calendar size={24} className="text-slate-300" />}
+        </div>
+        <div>
+          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+            {formatDateShort(entry.date)}
+          </p>
+          <p className="text-base font-bold text-slate-800 mt-0.5 line-clamp-1">
+            {keyInfo}
+          </p>
+        </div>
       </div>
       <div
-        className={`rounded-full px-2.5 py-1 text-xs font-semibold ${entry.didSelfCare
-          ? "bg-primary/15 text-primary"
-          : "bg-secondary text-slate-600"
+        className={`px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest ${entry.didSelfCare
+          ? "bg-primary/10 text-primary"
+          : "bg-slate-100 text-slate-400"
           }`}
       >
         {entry.didSelfCare ? t('common.yes') : t('common.no')}

@@ -5,20 +5,19 @@
 
 @layer base {
   :root {
+    --background-end: 190 100% 95%;
 
-    --background-end: 214 100% 95%;
+    --gradient-primary: linear-gradient(135deg, hsl(190, 82%, 68%), hsl(190, 82%, 62%));
+    --shadow-card: 0px 8px 20px rgba(0, 0, 0, 0.04);
 
-    --gradient-primary: linear-gradient(135deg, hsl(248, 82%, 68%), hsl(248, 82%, 62%));
-    --shadow-card: 0px 8px 20px rgba(0, 0, 0, 0.06);
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-    
+    --sidebar-foreground: 215 15% 30%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 215 15% 96%;
+    --sidebar-accent-foreground: 215 15% 10%;
+    --sidebar-border: 215 15% 92%;
+    --sidebar-ring: 190 60% 65%;
   }
+
 }
 
 @layer base {

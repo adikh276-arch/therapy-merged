@@ -2,7 +2,6 @@ import { useState } from "react";
 import ChooseAreaScreen from "../components/ChooseAreaScreen";
 import TimerScreen from "../components/TimerScreen";
 import EnergyCheckScreen from "../components/EnergyCheckScreen";
-import { LanguageSelector } from "../components/LanguageSelector";
 
 type Screen = "choose" | "timer" | "energy";
 
@@ -10,8 +9,7 @@ const Index = () => {
   const [screen, setScreen] = useState<Screen>("choose");
 
   return (
-    <div className="relative ">
-      <LanguageSelector />
+    <div className="relative">
       {screen === "timer" && (
         <TimerScreen onComplete={() => setScreen("energy")} />
       )}
@@ -28,4 +26,5 @@ const Index = () => {
 };
 
 export default Index;
+
 

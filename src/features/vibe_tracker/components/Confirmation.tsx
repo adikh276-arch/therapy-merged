@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { Clock } from "lucide-react";
+import { Clock, Heart, Home } from "lucide-react";
+import { PremiumComplete } from "../../../components/shared/PremiumComplete";
+import { motion } from "framer-motion";
 
 interface Props {
   onDone: () => void;
@@ -10,36 +12,34 @@ const Confirmation = ({ onDone, onHistory }: Props) => {
   const { t } = useTranslation();
 
   return (
-    <div className="animate-fade-slide-in flex flex-col items-center justify-center px-6 text-center max-w-xl mx-auto">
-      <div className="text-6xl mb-6">🌷</div>
+    <PremiumComplete
+        title={t("vibeLogged")}
+        message={t("thankYou")}
+        onRestart={onDone}
+        icon={<Heart size={48} fill="currentColor" className="text-primary" />}
+    >
+        <div className="flex flex-col gap-4 mt-8">
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onDone}
+                className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+            >
+                <Home size={20} />
+                {t("done")}
+            </motion.button>
 
-      <h1 className="font-display text-3xl font-bold text-foreground tracking-tight mb-4">
-        {t("vibeLogged")}
-      </h1>
-
-      <p className="text-muted-foreground text-base leading-relaxed max-w-xs mb-12">
-        {t("thankYou")}
-      </p>
-
-      <div className="w-full space-y-3">
-        <button className="vibe-button w-full" onClick={onDone}>
-          {t("done")}
-        </button>
-
-        <button
-          onClick={onHistory}
-          className="w-full flex items-center justify-center gap-2 py-4 rounded-[28px] text-base font-medium transition-all duration-200 hover:scale-[1.01]"
-          style={{
-            background: "hsl(var(--muted))",
-            color: "hsl(var(--muted-foreground))",
-            border: "1.5px solid hsl(var(--primary) / 0.25)",
-          }}
-        >
-          <Clock className="w-4 h-4" />
-          {t("viewHistory")}
-        </button>
-      </div>
-    </div>
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onHistory}
+                className="w-full py-4 rounded-[2rem] bg-slate-50 text-slate-400 font-bold flex items-center justify-center gap-2"
+            >
+                <Clock size={18} />
+                {t("viewHistory")}
+            </motion.button>
+        </div>
+    </PremiumComplete>
   );
 };
 

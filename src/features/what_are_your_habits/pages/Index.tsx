@@ -7,7 +7,6 @@ import CopingHabitsScreen from "../components/screens/CopingHabitsScreen";
 import ReflectionScreen from "../components/screens/ReflectionScreen";
 import InsightScreen from "../components/screens/InsightScreen";
 import FinalScreen from "../components/screens/FinalScreen";
-import LanguageSelector from "../components/LanguageSelector";
 
 const pageVariants = {
   initial: { opacity: 0, x: 60 },
@@ -31,9 +30,8 @@ const Index = () => {
   ];
 
   return (
-    <div className=" bg-transparent flex items-center justify-center p-4">
-      <LanguageSelector />
-      <div className="w-full w-full">
+    <div className="bg-transparent flex items-center justify-center p-4">
+      <div className="w-full">
         <AnimatePresence mode="wait">
           <motion.div
             key={step}
@@ -51,3 +49,5 @@ const Index = () => {
 };
 
 export default Index;
+
+

@@ -1,6 +1,7 @@
-import ScreenWrapper from "../../components/ScreenWrapper";
-import MissionButton from "../../components/MissionButton";
+import { PremiumIntro } from "../../../../components/shared/PremiumIntro";
 import { useTranslation } from "react-i18next";
+import { Target, History } from "lucide-react";
+import { motion } from "framer-motion";
 
 interface IntroScreenProps {
   onNext: () => void;
@@ -11,31 +12,30 @@ const IntroScreen = ({ onNext, onHistory }: IntroScreenProps) => {
   const { t } = useTranslation();
 
   return (
-    <ScreenWrapper screenKey="intro">
-      <div className="flex-1 flex flex-col justify-center space-y-8">
-        <h1 className="text-[22px] font-heading text-foreground text-center">
-          {t('intro_title')}
-        </h1>
-
-        <div className="space-y-5 text-[15px] font-body text-muted-foreground leading-[1.65] text-center">
-          <p>
-            {t('intro_p1')}
-          </p>
-          <p>
-            {t('intro_p2')}
-          </p>
-          <p className="text-foreground/80 italic">{t('intro_breath')}</p>
-          <p>{t('intro_no_wrong')}</p>
-        </div>
-      </div>
-
-      <div className="pt-8 pb-4 space-y-3">
-        <MissionButton onClick={onNext}>{t('intro_begin')}</MissionButton>
-        <MissionButton variant="outline" onClick={onHistory}>
+    <PremiumIntro
+      title={t('intro_title')}
+      description={t('intro_p1') + " " + t('intro_p2')}
+      onStart={onNext}
+      icon={<Target size={32} />}
+      benefits={[
+        t('intro_breath'),
+        t('intro_no_wrong'),
+        "Gain clarity on your path"
+      ]}
+      duration="5-10 minutes"
+    >
+      <div className="mt-8 text-center">
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          onClick={onHistory}
+          className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-sm transition-colors"
+        >
+          <History size={18} />
           {t('intro_past_reflections')}
-        </MissionButton>
+        </motion.button>
       </div>
-    </ScreenWrapper>
+    </PremiumIntro>
   );
 };
 

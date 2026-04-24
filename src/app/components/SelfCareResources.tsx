@@ -80,20 +80,20 @@ const moodOptions: MoodOption[] = [
 ];
 
 const topicCards: TopicCard[] = [
-  { id: "depression", icon: CloudRain, label: "Depression", bgColor: "#EBF4FF", iconColor: "#4F95FF" },
-  { id: "anxiety", icon: Brain, label: "Anxiety", bgColor: "#F3EEFF", iconColor: "#9D6CFF" },
+  { id: "depression", icon: CloudRain, label: "Depression", bgColor: "#E0F2FE", iconColor: "#0EA5E9" },
+  { id: "anxiety", icon: Brain, label: "Anxiety", bgColor: "#E0F7FA", iconColor: "#00BCD4" },
   { id: "stress", icon: Zap, label: "Stress", bgColor: "#FFF4E5", iconColor: "#FFB347" },
   { id: "adolescent", icon: Users, label: "Adolescent", bgColor: "#E8F8F5", iconColor: "#34D399" },
   { id: "relationship", icon: Heart, label: "Relationship", bgColor: "#FFEBF0", iconColor: "#FF6B9D" },
   { id: "workplace", icon: Briefcase, label: "Workplace", bgColor: "#F1F5F9", iconColor: "#64748B" },
-  { id: "sleep", icon: Moon, label: "Sleep", bgColor: "#EDE9FE", iconColor: "#8B5CF6" },
+  { id: "sleep", icon: Moon, label: "Sleep", bgColor: "#F0F9FF", iconColor: "#0EA5E9" },
   { id: "parenting", icon: Baby, label: "Parenting", bgColor: "#FCE7F3", iconColor: "#EC4899" },
   { id: "anger", icon: Flame, label: "Anger", bgColor: "#FFF0EB", iconColor: "#F97316" },
   { id: "grief", icon: Frown, label: "Grief", bgColor: "#F1F5F9", iconColor: "#475569" },
   { id: "ptsd", icon: Shield, label: "PTSD", bgColor: "#E6FAF5", iconColor: "#14B8A6" },
   { id: "acceptance", icon: TrendingUp, label: "Acceptance", bgColor: "#E0F7FA", iconColor: "#00BCD4" },
-  { id: "postpartum", icon: HeartPulse, label: "Postpartum", bgColor: "#F5E6FF", iconColor: "#B794F4" },
-  { id: "sexuality", icon: Sparkles, label: "Sexuality", bgColor: "#F0E7FF", iconColor: "#A78BFA" },
+  { id: "postpartum", icon: HeartPulse, label: "Postpartum", bgColor: "#F0F9FF", iconColor: "#0EA5E9" },
+  { id: "sexuality", icon: Sparkles, label: "Sexuality", bgColor: "#E0F2FE", iconColor: "#0EA5E9" },
   { id: "eating-disorder", icon: UtensilsCrossed, label: "Eating Disorder", bgColor: "#F7FEE7", iconColor: "#84CC16" },
   { id: "ocd", icon: RefreshCw, label: "OCD", bgColor: "#DBEAFE", iconColor: "#3B82F6" },
 ];
@@ -109,10 +109,11 @@ const toolCards: TopicCard[] = [
   { id: "box-breathing", icon: Wind, label: "Box Breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/exercises/box-breathing" },
   { id: "gratitude-tracker", icon: Star, label: "Gratitude Tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/trackers/gratitude-tracker" },
   { id: "deep-breathing", icon: Activity, label: "Deep Breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/exercises/4-6-8-breathing" },
-  { id: "affirmations", icon: Smile, label: "Affirmations", bgColor: "linear-gradient(135deg, #a855f7 0%, #7c3aed 100%)", iconColor: "#AB47BC", url: "/tools/affirmations" },
+  { id: "affirmations", icon: Smile, label: "Affirmations", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#0EA5E9", url: "/tools/affirmations" },
   { id: "mindful-space", icon: Compass, label: "Mindful Space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/tools/joyful-activities" },
   { id: "letter-to-self", icon: Mail, label: "A Letter To Self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/tools/a-letter-to-self" },
 ];
+
 
 const topicDetails: Record<string, {
   description: string;

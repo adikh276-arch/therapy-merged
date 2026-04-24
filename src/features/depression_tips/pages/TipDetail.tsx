@@ -1,22 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowLeft, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Sparkles, Lightbulb, MessageCircle } from "lucide-react";
 import { tips } from "../data/tips";
-
-const bgMap: Record<string, string> = {
-  "pastel-pink": "bg-pastel-pink",
-  "pastel-purple": "bg-pastel-purple",
-  "pastel-blue": "bg-pastel-blue",
-  "pastel-green": "bg-pastel-green",
-  "pastel-beige": "bg-pastel-beige",
-};
-const iconColorMap: Record<string, string> = {
-  "pastel-pink": "text-pink-500",
-  "pastel-purple": "text-purple-500",
-  "pastel-blue": "text-blue-500",
-  "pastel-green": "text-emerald-500",
-  "pastel-beige": "text-amber-500",
-};
+import { motion } from "framer-motion";
 
 // Map tip id to translation key prefix
 const TIP_KEY_MAP: Record<string, string> = {
@@ -35,8 +21,8 @@ export default function TipDetail() {
 
   if (!tip) {
     return (
-      <div className=" gradient-bg flex items-center justify-center">
-        <p className="text-muted-foreground">{t("tipNotFound")}</p>
+      <div className="flex items-center justify-center h-full">
+        <p className="text-slate-400 font-bold">{t("tipNotFound")}</p>
       </div>
     );
   }
@@ -48,83 +34,121 @@ export default function TipDetail() {
   const doKeys = tip.whatYouCanDo.map((_, i) => `${k}_do${i + 1}`);
 
   return (
-    <div className=" gradient-bg">
-      <div className="mx-auto w-full px-5 py-8 pb-16">
-        {/* Back button */}
-        <button
-          onClick={() => navigate(".")}
-          className="flex items-center gap-1 text-sm text-muted-foreground mb-6 hover:text-foreground transition-colors"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          {t("back")}
-        </button>
-
-        {/* Icon + Title */}
-        <div className="flex items-center gap-3 mb-6 animate-fade-in-up" style={{ opacity: 0, animationDelay: "0ms" }}>
-          <div className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-full ${bgMap[tip.iconBg]}`}>
-            <Icon className={`h-6 w-6 ${iconColorMap[tip.iconBg]}`} />
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
+        {/* Back */}
+        <header className="flex items-center justify-between">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={() => navigate("/")}
+            className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-colors shadow-sm"
+          >
+            <ArrowLeft size={20} />
+          </motion.button>
+          <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+            <Sparkles size={12} />
+            Tip Detail
           </div>
-          <h1 className="text-xl font-extrabold text-foreground leading-tight">
+        </header>
+
+        <div className="flex items-center gap-5">
+          <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary shrink-0 shadow-inner">
+            <Icon className="w-8 h-8" />
+          </div>
+          <motion.h1 
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            className="text-3xl font-extrabold text-slate-900 leading-tight"
+          >
             {k ? t(`${k}_title`) : tip.title}
-          </h1>
+          </motion.h1>
         </div>
 
         {/* Why It Helps */}
-        <section className="mb-6 animate-fade-in-up" style={{ opacity: 0, animationDelay: "80ms" }}>
-          <h2 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">
-            {t("whyItHelps")}
-          </h2>
-          <p className="text-sm text-foreground leading-relaxed">
+        <motion.section 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="bg-white rounded-[2.5rem] border-2 border-slate-100 p-8 shadow-sm"
+        >
+          <h2 className="text-xs font-black text-primary uppercase tracking-[0.2em] mb-4">{t("whyItHelps")}</h2>
+          <p className="text-slate-600 text-base font-medium leading-relaxed">
             {k ? t(`${k}_why`) : tip.whyItHelps}
           </p>
-        </section>
+        </motion.section>
 
         {/* What You Can Do */}
-        <section className="mb-6 animate-fade-in-up" style={{ opacity: 0, animationDelay: "160ms" }}>
-          <h2 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
-            {t("whatYouCanDo")}
-          </h2>
-          <div className="flex flex-col gap-2.5">
+        <motion.section 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="space-y-6"
+        >
+          <h2 className="text-lg font-black text-slate-800 uppercase tracking-wider px-2">{t("whatYouCanDo")}</h2>
+          <div className="grid gap-3">
             {doKeys.map((key, i) => (
-              <div
-                key={i}
-                className="flex items-start gap-2.5 rounded-lg bg-transparent p-3 "
+              <motion.div 
+                key={i} 
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3 + (i * 0.1) }}
+                className="flex items-start gap-4 p-6 bg-slate-50 rounded-[2rem] border-2 border-transparent hover:border-primary/20 transition-all"
               >
-                <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0 text-primary" />
-                <span className="text-sm text-foreground">{t(key)}</span>
-              </div>
+                <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                    <CheckCircle2 size={16} />
+                </div>
+                <span className="text-slate-700 text-sm font-bold leading-relaxed">{t(key)}</span>
+              </motion.div>
             ))}
           </div>
-        </section>
+        </motion.section>
 
         {/* Example */}
         {tip.example && (
-          <section className="mb-6 animate-fade-in-up" style={{ opacity: 0, animationDelay: "240ms" }}>
-            <h2 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">
-              {t("example")}
-            </h2>
-            <div className="rounded-lg bg-transparent p-4  space-y-2">
-              <p className="text-sm text-muted-foreground">
-                <span className="font-semibold">{t("insteadOf")}</span>{" "}
-                {k ? t(`${k}_ex_instead`) : tip.example.instead}
-              </p>
-              <p className="text-sm text-foreground">
-                <span className="font-semibold">{t("try")}</span>{" "}
-                {k ? t(`${k}_ex_try`) : tip.example.tryThis}
-              </p>
+          <motion.section 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="p-8 bg-emerald-50 rounded-[2.5rem] border-2 border-emerald-100 shadow-sm space-y-6"
+          >
+            <div className="flex items-center gap-3 text-emerald-600 font-black text-[10px] uppercase tracking-[0.2em] mb-2">
+                <Lightbulb size={14} fill="currentColor" />
+                {t("example")}
             </div>
-          </section>
+            <div className="space-y-4">
+              <div className="space-y-1">
+                <p className="text-[10px] font-black text-emerald-400 uppercase tracking-widest">{t("insteadOf")}</p>
+                <p className="text-emerald-900/60 text-sm font-medium leading-relaxed">
+                  {k ? t(`${k}_ex_instead`) : tip.example.instead}
+                </p>
+              </div>
+              <div className="space-y-1">
+                <p className="text-[10px] font-black text-emerald-500 uppercase tracking-widest">{t("try")}</p>
+                <p className="text-emerald-900 text-base font-bold leading-relaxed">
+                  {k ? t(`${k}_ex_try`) : tip.example.tryThis}
+                </p>
+              </div>
+            </div>
+          </motion.section>
         )}
 
         {/* Gentle Reminder */}
         {tip.gentleReminder && (
-          <section className="mb-8 animate-fade-in-up" style={{ opacity: 0, animationDelay: "240ms" }}>
-            <div className="rounded-lg bg-accent/60 p-4 border border-border">
-              <p className="text-sm text-accent-foreground italic text-center leading-relaxed">
-                "{k ? t(`${k}_rem`) : tip.gentleReminder}"
-              </p>
+          <motion.section 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            className="p-8 bg-slate-900 rounded-[2.5rem] text-white space-y-4"
+          >
+            <div className="flex items-center gap-2 text-slate-400 font-bold text-[10px] uppercase tracking-widest">
+                <MessageCircle size={14} />
+                Gentle Reminder
             </div>
-          </section>
+            <p className="text-slate-300 text-base font-medium italic leading-relaxed">
+              "{k ? t(`${k}_rem`) : tip.gentleReminder}"
+            </p>
+          </motion.section>
         )}
       </div>
     </div>

@@ -26,9 +26,8 @@ const Index = () => {
   const handleBackToStories = () => setScreen("selection");
 
   return (
-    <div className=" bg-transparent relative">
-      <LanguageSelector />
-      <div className="mx-auto w-full ">
+    <div className="bg-transparent relative">
+      <div className="mx-auto w-full">
         {screen === "intro" && <IntroScreen onStart={handleReadStories} />}
         {screen === "selection" && <StorySelectionScreen onSelect={handleSelectStory} />}
         {screen === "story" && (

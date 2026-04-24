@@ -43,26 +43,26 @@
     --font-display: 'Nunito', sans-serif;
 
     /* Doodle-specific tokens */
-    --pastel-mint: 160 50% 88%;
-    --pastel-peach: 20 80% 88%;
-    --pastel-lavender: 260 50% 90%;
-    --pastel-sky: 200 60% 88%;
+    --pastel-mint: 172 50% 88%;
+    --pastel-peach: 190 40% 92%;
+    --pastel-cyan: 190 50% 90%;
+    --pastel-sky: 195 60% 88%;
     --pastel-lemon: 50 70% 88%;
-    --pastel-pink: 340 60% 90%;
+    --pastel-slate: 215 20% 92%;
 
-    --gradient-playful: linear-gradient(135deg, hsl(var(--pastel-lavender)), hsl(var(--pastel-peach)), hsl(var(--pastel-mint)));
-    --gradient-warm: linear-gradient(135deg, hsl(var(--pastel-peach)), hsl(var(--pastel-pink)));
+    --gradient-playful: linear-gradient(135deg, hsl(var(--pastel-cyan)), hsl(var(--pastel-mint)));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--pastel-cyan)), hsl(var(--pastel-sky)));
 
-    --shadow-soft: 0 4px 20px -4px hsl(260 40% 70% / 0.2);
-    --shadow-glow: 0 0 30px hsl(260 60% 65% / 0.15);
+    --shadow-soft: 0 4px 20px -4px hsl(215 40% 70% / 0.1);
+    --shadow-glow: 0 0 30px hsl(190 60% 65% / 0.1);
 
-    --sidebar-foreground: 240 5.3% 26.1%;
-    
+    --sidebar-foreground: 215 15% 30%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 215 15% 96%;
+    --sidebar-accent-foreground: 215 15% 10%;
+    --sidebar-border: 215 15% 92%;
+    --sidebar-ring: 190 60% 65%;
+
   }
 
   .dark {

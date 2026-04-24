@@ -1,29 +1,22 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
+import IntroScreen from "../components/IntroScreen";
 import VibeCheckIn from "../components/VibeCheckIn";
 import Reflection from "../components/Reflection";
 import Confirmation from "../components/Confirmation";
-import LanguageSelector from "../components/LanguageSelector";
 import VibeHistory from "../components/VibeHistory";
 import { saveVibeEntry } from "../types/vibe";
+import { AnimatePresence, motion } from "framer-motion";
+import { ArrowLeft } from "lucide-react";
 
-type Screen = "checkin" | "reflection" | "confirmation" | "history";
+type Screen = "intro" | "checkin" | "reflection" | "confirmation" | "history";
 
 const Index = () => {
-  const [screen, setScreen] = useState<Screen>("checkin");
+  const [screen, setScreen] = useState<Screen>("intro");
   const [selectedVibe, setSelectedVibe] = useState("");
-  const [transitioning, setTransitioning] = useState(false);
-
-  const transition = (next: Screen) => {
-    setTransitioning(true);
-    setTimeout(() => {
-      setScreen(next);
-      setTransitioning(false);
-    }, 500);
-  };
 
   const handleVibeSelected = (vibe: string) => {
     setSelectedVibe(vibe);
-    transition("reflection");
+    setScreen("reflection");
   };
 
   const handleReflectionComplete = async (reflections: string[]) => {
@@ -33,37 +26,78 @@ const Index = () => {
       reflections,
       timestamp: new Date().toISOString(),
     });
-    transition("confirmation");
+    setScreen("confirmation");
   };
 
   const handleDone = () => {
     setSelectedVibe("");
-    transition("checkin");
+    setScreen("intro");
   };
 
   const handleHistory = () => {
-    transition("history");
+    setScreen("history");
   };
 
-  const handleBackFromHistory = () => {
-    transition("checkin");
+  const handleBackToStart = () => {
+    setScreen("intro");
   };
+
+  const renderInternalBack = (target: Screen) => (
+    <motion.button
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      onClick={() => setScreen(target)}
+      className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-6"
+    >
+      <ArrowLeft size={14} />
+      Back to start
+    </motion.button>
+  );
 
   return (
-    <div className="bg-transparent w-full max-w-xl mx-auto relative pt-16">
-      <LanguageSelector />
-      <div
-        className={`transition-all duration-500 ease-in-out ${transitioning ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
-          }`}
-      >
-        {screen === "checkin" && <VibeCheckIn onNext={handleVibeSelected} onHistory={handleHistory} />}
-        {screen === "reflection" && <Reflection onComplete={handleReflectionComplete} />}
-        {screen === "confirmation" && <Confirmation onDone={handleDone} onHistory={handleHistory} />}
-        {screen === "history" && <VibeHistory onBack={handleBackFromHistory} />}
-      </div>
+    <div className="w-full">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={screen}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -12 }}
+          transition={{ duration: 0.25 }}
+        >
+          {screen === "intro" && (
+            <IntroScreen onStart={() => setScreen("checkin")} onHistory={handleHistory} />
+          )}
+          
+          {screen === "checkin" && (
+            <div className="py-6 pb-24">
+              {renderInternalBack("intro")}
+              <VibeCheckIn onNext={handleVibeSelected} onHistory={handleHistory} />
+            </div>
+          )}
+          
+          {screen === "reflection" && (
+            <div className="py-6 pb-24">
+              {renderInternalBack("checkin")}
+              <Reflection onComplete={handleReflectionComplete} />
+            </div>
+          )}
+          
+          {screen === "confirmation" && (
+            <Confirmation onDone={handleDone} onHistory={handleHistory} />
+          )}
+          
+          {screen === "history" && (
+            <div className="py-6 pb-24">
+              {renderInternalBack("intro")}
+              <VibeHistory onBack={handleBackToStart} />
+            </div>
+          )}
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 };
 
 export default Index;
+
 

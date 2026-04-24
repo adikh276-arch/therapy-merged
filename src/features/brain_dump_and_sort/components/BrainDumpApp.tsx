@@ -102,7 +102,7 @@ const BrainDumpApp = () => {
 
   if (isLoading) {
     return (
-      <div className=" flex items-center justify-center gradient-calm">
+      <div className="flex items-center justify-center min-h-[60vh]">
         <Loader2 className="w-8 h-8 animate-spin text-primary" />
       </div>
     );
@@ -110,17 +110,12 @@ const BrainDumpApp = () => {
 
   if (showSaved) {
     return (
-      <div className=" gradient-calm relative overflow-hidden">
-        <div className="fixed inset-0 pointer-events-none">
-          <div className="absolute top-[-20%] left-[-20%] w-[140%] h-[140%] rounded-full bg-primary/5 animate-breathe" />
-        </div>
-        <div className="relative z-10">
-          <SavedThoughts
-            sessions={savedSessions}
-            onBack={() => setShowSaved(false)}
-            onDelete={handleDeleteSession}
-          />
-        </div>
+      <div className="relative">
+        <SavedThoughts
+          sessions={savedSessions}
+          onBack={() => setShowSaved(false)}
+          onDelete={handleDeleteSession}
+        />
       </div>
     );
   }
@@ -134,22 +129,25 @@ const BrainDumpApp = () => {
   ];
 
   return (
-    <div className=" gradient-calm relative overflow-hidden">
-      <LanguageSelector
-        showHistory={screen === 0 && savedSessions.length > 0}
-        onHistoryClick={() => setShowSaved(true)}
-      />
-      {/* Breathing background */}
-      <div className="fixed inset-0 pointer-events-none">
-        <div className="absolute top-[-20%] left-[-20%] w-[140%] h-[140%] rounded-full bg-primary/5 animate-breathe" />
-        <div className="absolute bottom-[-30%] right-[-30%] w-[120%] h-[120%] rounded-full bg-secondary/5 animate-breathe" style={{ animationDelay: "3s" }} />
-      </div>
-
-
+    <div className="relative w-full">
+      {screen === 0 && savedSessions.length > 0 && (
+        <div className="flex justify-center mb-6">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => setShowSaved(true)}
+            className="flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-colors"
+          >
+            <History size={16} />
+            View Past Sessions
+          </motion.button>
+        </div>
+      )}
 
       <div
-        className={`relative z-10 transition-all duration-500 ease-in-out ${transitioning ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
-          }`}
+        className={`transition-all duration-500 ease-in-out ${
+          transitioning ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
+        }`}
       >
         {screens[screen]}
       </div>
@@ -158,3 +156,4 @@ const BrainDumpApp = () => {
 };
 
 export default BrainDumpApp;
+

@@ -1,8 +1,22 @@
 import { useState, useCallback, useMemo } from "react";
 import { useTranslation } from "react-i18next";
+import { motion, AnimatePresence } from "framer-motion";
+import { PremiumIntro } from "../../../components/shared/PremiumIntro";
+import { PremiumComplete } from "../../../components/shared/PremiumComplete";
+import { Compass, Eye, Hand, Volume2, Wind, Utensils } from "lucide-react";
 import ProgressDots from "../components/ProgressDots";
 import GroundingButton from "../components/GroundingButton";
 import StepInput from "../components/StepInput";
+
+const stepIcons = [
+  <Wind size={32} />,
+  <Eye size={32} />,
+  <Hand size={32} />,
+  <Volume2 size={32} />,
+  <Compass size={32} />,
+  <Utensils size={32} />,
+  <Wind size={32} />
+];
 
 const GroundingExercise = () => {
   const { t } = useTranslation();
@@ -10,16 +24,9 @@ const GroundingExercise = () => {
   const [responses, setResponses] = useState<Record<number, string[]>>({});
   const [reflectionWord, setReflectionWord] = useState("");
   const [submitted, setSubmitted] = useState(false);
-  const [animKey, setAnimKey] = useState(0);
 
-  // Memoize STEPS to avoid recreation and use translations
   const steps = useMemo(() => {
-    // We expect the JSON to have an array "steps" with heading, body, button
-    // The English version is the source of truth for the length and structure
     const stepsData = t("steps", { returnObjects: true }) as any[];
-
-    // The original logic had inputCount and reflectionPrompt in the static STEPS array.
-    // We'll overlay those onto the translated data.
     const config = [
       { inputCount: 0 },
       { inputCount: 5 },
@@ -29,7 +36,6 @@ const GroundingExercise = () => {
       { inputCount: 1 },
       { inputCount: 0, reflectionPrompt: true },
     ];
-
     return stepsData.map((s, i) => ({
       ...s,
       ...config[i]
@@ -45,7 +51,6 @@ const GroundingExercise = () => {
       return;
     }
     setCurrentStep((s) => s + 1);
-    setAnimKey((k) => k + 1);
   }, [currentStep, totalSteps]);
 
   const handleInputChange = (values: string[]) => {
@@ -54,80 +59,71 @@ const GroundingExercise = () => {
 
   if (submitted) {
     return (
-      <div className=" flex items-center justify-center bg-transparent px-6">
-        <div className="text-center w-full fade-in">
-          <div className="w-20 h-20 rounded-full bg-accent mx-auto mb-8 flex items-center justify-center">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-accent-foreground">
-              <path d="M20 6 9 17l-5-5" />
-            </svg>
+      <PremiumComplete
+        title={t("common.thank_you")}
+        message={t("common.completion_message")}
+        onRestart={() => {
+          setCurrentStep(0);
+          setResponses({});
+          setReflectionWord("");
+          setSubmitted(false);
+        }}
+      >
+        {reflectionWord && (
+          <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+             <p className="text-slate-500 text-sm mb-1">{t("common.you_feel")}</p>
+             <p className="text-2xl font-bold text-primary italic">"{reflectionWord}"</p>
           </div>
-          <h2 className="font-display text-3xl font-light text-foreground mb-4">
-            {t("common.thank_you")}
-          </h2>
-          {reflectionWord && (
-            <p className="font-body text-muted-foreground text-sm mb-6">
-              {t("common.you_feel")} <span className="text-foreground font-medium italic">{reflectionWord}</span>
-            </p>
-          )}
-          <p className="font-body text-muted-foreground text-sm leading-relaxed mb-10">
-            {t("common.completion_message")}
-          </p>
-          <GroundingButton
-            variant="secondary"
-            onClick={() => {
-              setCurrentStep(0);
-              setResponses({});
-              setReflectionWord("");
-              setSubmitted(false);
-              setAnimKey((k) => k + 1);
-            }}
-          >
-            {t("common.start_again")}
-          </GroundingButton>
-        </div>
-      </div>
+        )}
+      </PremiumComplete>
+    );
+  }
+
+  if (currentStep === 0) {
+    return (
+      <PremiumIntro
+        title="Grounding Exercise"
+        description={step.body}
+        onStart={handleNext}
+        icon={stepIcons[0]}
+        benefits={[
+            "Reduces anxiety quickly",
+            "Brings you back to the present",
+            "Calms the racing mind"
+        ]}
+      />
     );
   }
 
   return (
-    <div className=" flex flex-col bg-transparent">
-      {/* Breathing circle background decoration */}
-      <div className="fixed inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-[500px] h-[500px] rounded-full bg-accent/50 breathing-circle" />
-      </div>
-
+    <div className="flex flex-col min-h-[60vh]">
       {/* Progress */}
-      <div className="relative z-10 pt-8 px-6 flex justify-center">
+      <div className="mb-8 flex justify-center">
         <ProgressDots total={totalSteps} current={currentStep} />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 flex-1 flex items-center justify-center px-6 pb-12" key={animKey}>
-        <div className="w-full w-full text-center">
-          {/* Step number badge for sense steps */}
-          {(step.inputCount ?? 0) > 0 && (
-            <div className="fade-in mb-6">
-              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-accent text-accent-foreground font-display text-lg">
-                {step.inputCount}
-              </span>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={currentStep}
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -20 }}
+          className="flex-1 flex flex-col items-center text-center"
+        >
+          {/* Step icon/number */}
+          <div className="mb-6">
+            <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
+                {stepIcons[currentStep] || <Compass size={32} />}
             </div>
-          )}
+          </div>
 
-          {/* Heading */}
-          {step.heading && (
-            <h1 className="font-display text-3xl md:text-4xl font-light text-foreground mb-6 fade-in">
-              {step.heading}
-            </h1>
-          )}
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-6">
+            {step.heading}
+          </h1>
 
-          {/* Body text */}
-          <div className="fade-in-delayed">
+          <div className="max-w-md mb-8">
             {step.body.split("\n\n").map((paragraph: string, i: number) => (
-              <p
-                key={i}
-                className={`font-body text-sm md:text-base leading-relaxed text-muted-foreground ${i < step.body.split("\n\n").length - 1 ? "mb-4" : "mb-8"
-                  } ${currentStep === 0 ? "text-base md:text-lg" : ""}`}
-              >
+              <p key={i} className="text-slate-600 leading-relaxed mb-4">
                 {paragraph}
               </p>
             ))}
@@ -135,7 +131,7 @@ const GroundingExercise = () => {
 
           {/* Inputs for sense steps */}
           {step.inputCount > 0 && (
-            <div className="mb-8 fade-in-delayed">
+            <div className="mb-8 w-full max-w-sm">
               <StepInput
                 count={step.inputCount}
                 values={responses[currentStep] || []}
@@ -146,28 +142,32 @@ const GroundingExercise = () => {
 
           {/* Reflection input */}
           {step.reflectionPrompt && (
-            <div className="mb-8 fade-in-delayed w-full mx-auto">
-              <p className="font-body text-xs text-muted-foreground mb-3 tracking-wide uppercase">
+            <div className="mb-8 w-full max-w-sm text-left">
+              <label className="block text-sm font-bold text-slate-700 mb-3 ml-1">
                 {t("common.reflection_question")}
-              </p>
+              </label>
               <input
                 type="text"
                 value={reflectionWord}
                 onChange={(e) => setReflectionWord(e.target.value)}
                 placeholder={t("common.reflection_placeholder")}
-                className="w-full bg-card border border-border rounded-lg px-4 py-3 font-body text-sm text-foreground text-center placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-300"
+                className="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-base focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all"
               />
             </div>
           )}
 
-          {/* Action button */}
-          <div className="fade-in-delayed" style={{ animationDelay: "0.5s" }}>
-            <GroundingButton onClick={handleNext}>
+          <div className="mt-auto w-full max-w-xs">
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={handleNext}
+              className="w-full bg-primary text-primary-foreground font-bold py-4 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all"
+            >
               {step.button}
-            </GroundingButton>
+            </motion.button>
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 };

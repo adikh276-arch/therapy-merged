@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { Pause, Play, X } from "lucide-react";
+import { Pause, Play, X, RotateCcw } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import LanguageSelector from "./LanguageSelector";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface Props {
   onComplete: () => void;
@@ -14,7 +14,6 @@ const PHASES = [
   { label: "breathe_out", duration: 4 },
   { label: "hold", duration: 4 },
 ];
-
 
 const TOTAL_CYCLES = 4;
 
@@ -31,7 +30,6 @@ const SessionScreen = ({ onComplete, onEnd }: Props) => {
   const tick = useCallback(() => {
     setCountdown((prev) => {
       if (prev <= 1) {
-        // Move to next phase
         setPhaseIndex((pi) => {
           const next = (pi + 1) % PHASES.length;
           if (next === 0) {
@@ -59,80 +57,84 @@ const SessionScreen = ({ onComplete, onEnd }: Props) => {
     };
   }, [tick, paused]);
 
-  // Determine circle animation
-  const isInhale = phaseIndex === 0;
-  const isExhale = phaseIndex === 2;
-
-  const circleScale = isInhale
-    ? 1
-    : isExhale
-      ? 0.6
-      : phaseIndex === 1
-        ? 1
-        : 0.6;
+  const circleScale = phaseIndex === 0 || phaseIndex === 1 ? 1 : 0.6;
 
   return (
-    <div className=" gradient-session flex flex-col items-center justify-center relative">
-      {/* Language Selector */}
-      <div className="absolute top-6 right-6 z-10">
-        <LanguageSelector />
-      </div>
-
+    <div className="flex flex-col items-center justify-center min-h-[60vh] relative">
       {/* Cycle indicator */}
-      <div className="absolute top-8 left-0 right-0 flex justify-center gap-2">
+      <div className="absolute top-0 left-0 right-0 flex justify-center gap-3">
         {Array.from({ length: TOTAL_CYCLES }).map((_, i) => (
-          <div
+          <motion.div
             key={i}
-            className={`w-2 h-2 rounded-full transition-colors duration-300 ${i < cycle
-              ? "bg-primary"
-              : "bg-primary/20"
-              }`}
+            animate={{ 
+              scale: i + 1 === cycle ? 1.2 : 1,
+              backgroundColor: i + 1 <= cycle ? "var(--color-primary)" : "#E2E8F0"
+            }}
+            className="w-2.5 h-2.5 rounded-full"
           />
         ))}
       </div>
 
       {/* Breathing circle */}
-      <div className="flex flex-col items-center">
-        <div
-          className="w-56 h-56 rounded-full bg-primary/15 flex items-center justify-center transition-transform ease-in-out"
-          style={{
-            transform: `scale(${circleScale})`,
-            transitionDuration: `${phase.duration}s`,
-          }}
-        >
-          <div className="w-40 h-40 rounded-full bg-primary/25 flex items-center justify-center">
-            <div className="w-28 h-28 rounded-full bg-primary/40 flex flex-col items-center justify-center">
-              <span className="text-primary-foreground font-semibold text-lg drop-">
-                {t(phase.label)}
+      <div className="flex flex-col items-center mt-12">
+        <div className="relative flex items-center justify-center w-64 h-64">
+           {/* Outer Ring */}
+          <motion.div
+            animate={{
+              scale: circleScale * 1.1,
+              opacity: paused ? 0.1 : [0.1, 0.3, 0.1]
+            }}
+            transition={{
+              scale: { duration: 4, ease: "easeInOut" },
+              opacity: { duration: 2, repeat: Infinity }
+            }}
+            className="absolute inset-0 rounded-full bg-primary/20 blur-2xl"
+          />
+
+          <motion.div
+            animate={{ scale: circleScale }}
+            transition={{ duration: 4, ease: "easeInOut" }}
+            className="w-full h-full rounded-full bg-primary flex items-center justify-center shadow-2xl shadow-primary/30 z-10"
+          >
+            <div className="text-center">
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={phase.label}
+                  initial={{ opacity: 0, y: 5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -5 }}
+                  className="text-primary-foreground font-bold text-xl uppercase tracking-widest block"
+                >
+                  {t(phase.label)}
+                </motion.span>
+              </AnimatePresence>
+              <span className="text-primary-foreground/70 text-4xl font-light tabular-nums mt-2 block">
+                {countdown}
               </span>
             </div>
-          </div>
+          </motion.div>
         </div>
-
-        {/* Countdown */}
-        <span className="mt-8 text-5xl font-light text-foreground/70 tabular-nums">
-          {countdown}
-        </span>
       </div>
 
       {/* Controls */}
-      <div className="absolute bottom-12 flex items-center gap-6">
-        <button
+      <div className="flex items-center gap-8 mt-16">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
           onClick={() => setPaused((p) => !p)}
-          className="w-14 h-14 rounded-full bg-transparent  flex items-center justify-center active:scale-95 transition-transform"
+          className="w-16 h-16 rounded-2xl bg-white border-2 border-slate-100 flex items-center justify-center shadow-sm text-slate-700 transition-all"
         >
-          {paused ? (
-            <Play className="w-6 h-6 text-foreground" />
-          ) : (
-            <Pause className="w-6 h-6 text-foreground" />
-          )}
-        </button>
-        <button
+          {paused ? <Play size={28} fill="currentColor" /> : <Pause size={28} fill="currentColor" />}
+        </motion.button>
+        
+        <motion.button
+          whileHover={{ scale: 1.1, rotate: 90 }}
+          whileTap={{ scale: 0.9 }}
           onClick={onEnd}
-          className="w-14 h-14 rounded-full bg-transparent  flex items-center justify-center active:scale-95 transition-transform"
+          className="w-16 h-16 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-500 transition-all"
         >
-          <X className="w-6 h-6 text-muted-foreground" />
-        </button>
+          <RotateCcw size={28} />
+        </motion.button>
       </div>
     </div>
   );

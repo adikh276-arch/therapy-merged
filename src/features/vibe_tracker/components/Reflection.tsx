@@ -1,5 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { motion, AnimatePresence } from "framer-motion";
+import { ArrowRight, Check } from "lucide-react";
 
 const promptKeys = [
   "needing",
@@ -21,7 +23,6 @@ const Reflection = ({ onComplete }: Props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [answers, setAnswers] = useState<string[]>([]);
-  const [visible, setVisible] = useState(true);
   const [shuffledKeys] = useState(() =>
     [...promptKeys].sort(() => Math.random() - 0.5).slice(0, 3)
   );
@@ -37,64 +38,67 @@ const Reflection = ({ onComplete }: Props) => {
       return;
     }
 
-    setVisible(false);
-    setTimeout(() => {
-      setAnswer("");
-      setCurrentIndex((i) => i + 1);
-      setVisible(true);
-    }, 300);
+    setAnswer("");
+    setCurrentIndex((i) => i + 1);
   };
 
   return (
-    <div className="flex flex-col  px-6 pt-12 pb-28">
-      <h1 className="font-display text-3xl font-bold text-center text-foreground tracking-tight">
-        {t("pauseAndReflect")}
-      </h1>
-
-      <div
-        className={`mt-10 flex-1 transition-all duration-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"
-          }`}
-      >
-        <div className="w-full mx-auto w-full">
-          {/* Progress dots */}
-          <div className="flex gap-2 justify-center mb-8">
-            {shuffledKeys.map((_, i) => (
-              <div
-                key={i}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${i === currentIndex
-                    ? "bg-primary w-6"
-                    : i < currentIndex
-                      ? "bg-primary/50"
-                      : "bg-muted"
-                  }`}
-              />
-            ))}
-          </div>
-
-          <p className="font-heading text-lg text-foreground text-center leading-relaxed mb-8">
-            {t(`prompts.${shuffledKeys[currentIndex]}`)}
-          </p>
-
-          <textarea
-            className="vibe-input min-h-[140px] resize-none"
-            placeholder={t("typeThoughts")}
-            value={answer}
-            onChange={(e) => setAnswer(e.target.value)}
-            style={{ borderRadius: "1.5rem" }}
-          />
+    <div className="space-y-10">
+      <header className="space-y-4 text-center">
+        <h1 className="text-3xl font-extrabold text-slate-900 leading-tight">
+          {t("pauseAndReflect")}
+        </h1>
+        <div className="flex gap-2 justify-center">
+          {shuffledKeys.map((_, i) => (
+            <motion.div
+              key={i}
+              initial={false}
+              animate={{ 
+                width: i === currentIndex ? 32 : 8,
+                backgroundColor: i <= currentIndex ? "var(--color-primary)" : "#E2E8F0"
+              }}
+              className="h-2 rounded-full transition-all duration-300"
+            />
+          ))}
         </div>
-      </div>
+      </header>
 
-      {/* Fixed Bottom Button */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-transparent/80 backdrop-blur-md">
-        <button
-          className="vibe-button"
-          disabled={!answer.trim()}
-          onClick={handleNext}
+      <AnimatePresence mode="wait">
+        <motion.div
+            key={currentIndex}
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            className="space-y-8"
         >
-          {isLast ? t("submitReflection") : t("next")}
-        </button>
-      </div>
+            <p className="text-xl font-bold text-slate-700 text-center leading-relaxed px-4">
+                {t(`prompts.${shuffledKeys[currentIndex]}`)}
+            </p>
+
+            <div className="space-y-4">
+                <label className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] px-4 block">
+                    {t("typeThoughts")}
+                </label>
+                <textarea
+                    className="w-full py-8 rounded-[2.5rem] bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner min-h-[200px] resize-none leading-relaxed"
+                    placeholder="Type your reflection here..."
+                    value={answer}
+                    onChange={(e) => setAnswer(e.target.value)}
+                />
+            </div>
+        </motion.div>
+      </AnimatePresence>
+
+      <motion.button
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
+        disabled={!answer.trim()}
+        onClick={handleNext}
+        className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
+      >
+        {isLast ? t("submitReflection") : t("next")}
+        {isLast ? <Check size={20} /> : <ArrowRight size={20} />}
+      </motion.button>
     </div>
   );
 };
