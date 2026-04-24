@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronLeft } from 'lucide-react';
+import { ChevronLeft, RotateCcw } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 interface PremiumLayoutProps {
@@ -32,65 +32,65 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
     if (onBack) {
       onBack();
     } else {
-      navigate('/');
+      if (window.parent !== window) {
+        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+      } else {
+        window.location.href = 'https://web.mantracare.com';
+      }
     }
   };
 
   return (
     <div className="min-h-screen bg-[#F6F8FB] flex flex-col font-sans overflow-x-hidden">
-      <header className="w-full max-w-2xl mx-auto px-4 pt-8 pb-4 flex items-start justify-between">
-        <div className="flex items-start gap-3">
-          {showBack && (
-            <motion.button
-              whileHover={{ x: -2 }}
-              whileTap={{ scale: 0.92 }}
-              onClick={handleBack}
-              className="flex items-center justify-center text-[#64748B] hover:text-[#043570] transition-colors mt-1.5"
-              aria-label="Go back"
-            >
-              <ChevronLeft size={20} strokeWidth={2.5} />
-            </motion.button>
-          )}
-          {icon && (
-            <div className="w-10 h-10 bg-[#F1F5F9] rounded-md flex items-center justify-center flex-shrink-0 mt-0.5 shadow-sm border border-slate-100">
-              {icon}
+      {/* Header */}
+      <header className="w-full bg-[#F6F8FB] z-50">
+        <div className="max-w-2xl mx-auto px-6 py-8 flex items-center justify-between">
+          <div className="flex items-center gap-5">
+            {showBack && (
+              <button
+                onClick={handleBack}
+                className="w-11 h-11 rounded-2xl bg-white border-2 border-slate-100 flex items-center justify-center text-slate-500 hover:text-primary hover:border-primary/20 hover:shadow-lg transition-all"
+              >
+                <ChevronLeft size={22} strokeWidth={2.5} />
+              </button>
+            )}
+            <div className="flex items-center gap-4">
+              {icon && (
+                <div className="w-12 h-12 rounded-2xl bg-[#F1F5F9] flex items-center justify-center text-slate-600 shadow-sm">
+                  {icon}
+                </div>
+              )}
+              <div className="flex flex-col">
+                <h1 className="text-2xl font-bold text-[#0f172b] tracking-tight">{title}</h1>
+                {subtitle && <p className="text-slate-400 text-sm font-medium">{subtitle}</p>}
+              </div>
             </div>
-          )}
-          <div>
-            <h1 className="text-2xl text-[#0f172b] font-medium leading-tight">{title}</h1>
-            {subtitle && <p className="text-sm text-[#62748e] font-normal mt-1">{subtitle}</p>}
           </div>
-        </div>
-
-        <div className="flex items-center gap-2 mt-1">
-          {onReset && (
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={onReset}
-              className="text-xs font-semibold text-slate-500 hover:text-primary px-3 py-1.5 rounded-lg bg-white border border-slate-200 shadow-sm transition-colors"
-            >
-              Start Over
-            </motion.button>
-          )}
+          
+          <div className="flex items-center gap-3">
+            {onReset && (
+              <button
+                onClick={onReset}
+                className="w-11 h-11 rounded-2xl bg-white border-2 border-slate-100 flex items-center justify-center text-slate-400 hover:text-primary hover:border-primary/20 hover:shadow-lg transition-all"
+                title="Reset"
+              >
+                <RotateCcw size={18} strokeWidth={2.5} />
+              </button>
+            )}
+            {secondaryBackLabel && onSecondaryBack && (
+              <button
+                onClick={onSecondaryBack}
+                className="px-5 py-2.5 rounded-2xl bg-white border-2 border-slate-100 text-slate-500 text-xs font-black uppercase tracking-widest hover:text-primary hover:border-primary/20 hover:shadow-lg transition-all"
+              >
+                {secondaryBackLabel}
+              </button>
+            )}
+          </div>
         </div>
       </header>
 
-      <main className="flex-1 w-full max-w-2xl mx-auto px-4 py-6">
-        {onSecondaryBack && secondaryBackLabel && (
-          <motion.button
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            onClick={onSecondaryBack}
-            className="flex items-center gap-2 text-slate-400 hover:text-slate-800 transition-colors mb-6 group"
-          >
-            <div className="p-1.5 rounded-lg bg-slate-50 group-hover:bg-slate-100 transition-colors">
-              <ChevronLeft size={16} strokeWidth={3} />
-            </div>
-            <span className="text-xs font-black uppercase tracking-widest">{secondaryBackLabel}</span>
-          </motion.button>
-        )}
-
+      {/* Main Content */}
+      <main className="flex-1 w-full max-w-2xl mx-auto px-6 pb-24">
         <div className="w-full">
           {children}
         </div>

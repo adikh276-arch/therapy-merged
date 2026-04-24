@@ -9,8 +9,9 @@ export const pool = {
 
 export const query = async (text: string, params?: any[]) => {
     try {
-        const res = await (sql as any).query(text, params || []);
-        return { rows: Array.isArray(res) ? res : (res.rows || []) };
+        const res = await pool.query(text, params);
+        const rows = res ? (Array.isArray(res) ? res : (res.rows || [])) : [];
+        return { rows };
     } catch (err) {
         console.error("Query failed:", text, err);
         return { rows: [] };

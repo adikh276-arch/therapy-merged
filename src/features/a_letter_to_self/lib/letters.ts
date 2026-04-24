@@ -20,7 +20,7 @@ export async function getEntries(): Promise<LetterEntry[]> {
       "SELECT * FROM letters WHERE user_id = $1 ORDER BY created_at DESC",
       [userId]
     );
-    if (!res || !res.rows) return [];
+    if (!res || !res.rows || !Array.isArray(res.rows)) return [];
     return res.rows.map(row => {
       try {
         const createdAt = new Date(row.created_at);

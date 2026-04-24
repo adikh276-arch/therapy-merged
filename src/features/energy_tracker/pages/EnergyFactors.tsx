@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useEnergy } from "../context/EnergyContext";
 import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import TopBar from "../components/TopBar";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const EnergyFactors = () => {
   const { currentFactors, setCurrentFactors, currentNote, setCurrentNote, saveEntry } = useEnergy();
@@ -37,18 +37,19 @@ const EnergyFactors = () => {
   };
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-transparent">
-      <TopBar title={t("factors_title")} showBack />
-
-      <main className="flex flex-1 flex-col px-6 pt-4">
+    <PremiumLayout 
+      title={t("factors_title")}
+      icon={<Sparkles className="h-6 w-6" />}
+    >
+      <div className="w-full">
         <h2 className="mb-1 text-xl font-bold text-slate-900">
           {t("what_affected")}
         </h2>
-        <p className="mb-6 text-sm text-muted-foreground">{t("optional")}</p>
+        <p className="mb-6 text-sm text-slate-400 font-medium">{t("optional")}</p>
 
-        <div className="mb-6 grid grid-cols-2 gap-3">
+        <div className="mb-10 grid grid-cols-2 gap-4">
           {factors.map((f, i) => {
-            const selected = currentFactors.includes(f.id);
+            const selected = currentFactors?.includes(f.id);
             return (
               <motion.button
                 key={f.id}
@@ -56,43 +57,47 @@ const EnergyFactors = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.03 }}
                 onClick={() => toggleFactor(f.id)}
-                className={`flex items-center gap-2 rounded-pill px-4 py-3 text-sm font-semibold transition-all ${selected
-                    ? "border border-chip-border-selected bg-chip-selected text-slate-900"
-                    : "border border-transparent bg-chip text-slate-700"
+                className={`flex items-center gap-3 rounded-2xl px-5 py-4 text-sm font-bold transition-all border-2 ${selected
+                    ? "border-primary bg-primary/5 text-primary shadow-sm"
+                    : "border-slate-100 bg-white text-slate-600 hover:border-slate-200"
                   }`}
               >
-                {selected && <Check className="h-4 w-4" />}
+                <div className={`w-5 h-5 rounded-md flex items-center justify-center transition-colors ${selected ? "bg-primary text-white" : "bg-slate-100 text-transparent"}`}>
+                    <Check size={14} strokeWidth={4} />
+                </div>
                 {f.label}
               </motion.button>
             );
           })}
         </div>
 
-        <div>
-          <label className="mb-2 block text-sm font-semibold text-slate-900">
-            {t("add_note")} <span className="font-normal text-muted-foreground">({t("optional").toLowerCase()})</span>
+        <div className="space-y-4">
+          <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest block">
+            {t("add_note")} <span className="font-normal">({t("optional")})</span>
           </label>
           <textarea
             value={currentNote}
             onChange={(e) => setCurrentNote(e.target.value.slice(0, 120))}
             placeholder={t("note_placeholder")}
             maxLength={120}
-            rows={3}
-            className="w-full resize-none rounded-lg border border-border bg-transparent px-4 py-3 text-sm text-slate-900 placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+            rows={4}
+            className="w-full resize-none rounded-3xl border-2 border-slate-100 bg-white px-6 py-5 text-base text-slate-900 placeholder:text-slate-300 focus:outline-none focus:border-primary transition-all font-medium shadow-sm"
           />
-          <p className="mt-1 text-right text-xs text-muted-foreground">{(currentNote || "").length}/120</p>
+          <p className="text-right text-[10px] font-black text-slate-300 uppercase tracking-widest">{(currentNote || "").length}/120</p>
         </div>
-      </main>
 
-      <div className="sticky bottom-0 px-6 pb-8 pt-4">
-        <button
-          onClick={handleSave}
-          className="w-full rounded-pill bg-primary py-4 text-base font-bold text-primary-foreground transition-all"
-        >
-          {t("save_checkin")}
-        </button>
+        <div className="pt-12 pb-12">
+            <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={handleSave}
+                className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all"
+            >
+                {t("save_checkin")}
+            </motion.button>
+        </div>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
 

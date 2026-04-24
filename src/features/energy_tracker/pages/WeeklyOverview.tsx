@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useEnergy, EnergyLevel } from "../context/EnergyContext";
 import { Home } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import TopBar from "../components/TopBar";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import {
   ResponsiveContainer,
   LineChart,
@@ -56,10 +56,11 @@ const WeeklyOverview = () => {
   const hasEnoughData = filledDays.length >= 3;
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-transparent">
-      <TopBar title={t("weekly_title")} showBack />
-
-      <main className="flex flex-1 flex-col px-6 pt-4">
+    <PremiumLayout 
+      title={t("weekly_title")}
+      icon={<History className="h-6 w-6" />}
+    >
+      <div className="w-full">
         <motion.h2
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -71,64 +72,65 @@ const WeeklyOverview = () => {
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="card-soft mb-6 rounded-2xl bg-transparent p-5"
+          className="bg-white rounded-3xl border-2 border-slate-100 mb-6 p-6 shadow-sm"
         >
           {filledDays.length === 0 ? (
-            <p className="py-10 text-center text-sm text-muted-foreground">
+            <p className="py-10 text-center text-sm text-slate-400 font-medium">
               {t("no_entries")}
             </p>
           ) : (
-            <ResponsiveContainer width="100%" height={200}>
-              <LineChart data={days}>
-                <CartesianGrid strokeDasharray="3 3" stroke="hsl(80, 15%, 88%)" />
-                <XAxis
-                  dataKey="day"
-                  tick={{ fontSize: 12, fill: "hsl(200, 10%, 50%)" }}
-                  axisLine={false}
-                  tickLine={false}
-                />
-                <YAxis
-                  domain={[1, 5]}
-                  ticks={[1, 2, 3, 4, 5]}
-                  tickFormatter={(v) => numToLabel[v] || ""}
-                  tick={{ fontSize: 10, fill: "hsl(200, 10%, 50%)" }}
-                  axisLine={false}
-                  tickLine={false}
-                  width={60}
-                />
-                <Tooltip
-                  formatter={(value: number) => [numToLabel[value], t("energy")]}
-                  contentStyle={{
-                    borderRadius: "12px",
-                    border: "none",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-                    fontSize: "13px",
-                  }}
-                />
-                <Line
-                  type="monotone"
-                  dataKey="value"
-                  stroke="hsl(145, 35%, 48%)"
-                  strokeWidth={3}
-                  dot={{ r: 5, fill: "hsl(145, 35%, 48%)", stroke: "white", strokeWidth: 2 }}
-                  connectNulls
-                />
-              </LineChart>
-            </ResponsiveContainer>
+            <div className="h-[200px] w-full">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={days}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#F1F5F9" vertical={false} />
+                  <XAxis
+                    dataKey="day"
+                    tick={{ fontSize: 11, fill: "#94A3B8", fontWeight: 600 }}
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <YAxis
+                    domain={[1, 5]}
+                    ticks={[1, 2, 3, 4, 5]}
+                    tickFormatter={(v) => numToLabel[v] || ""}
+                    tick={{ fontSize: 10, fill: "#94A3B8", fontWeight: 600 }}
+                    axisLine={false}
+                    tickLine={false}
+                    width={60}
+                  />
+                  <Tooltip
+                    contentStyle={{
+                      borderRadius: "20px",
+                      border: "none",
+                      boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+                      padding: "12px 16px"
+                    }}
+                  />
+                  <Line
+                    type="monotone"
+                    dataKey="value"
+                    stroke="#10B981"
+                    strokeWidth={4}
+                    dot={{ r: 6, fill: "#10B981", stroke: "white", strokeWidth: 3 }}
+                    connectNulls
+                  />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
           )}
         </motion.div>
 
-        {hasEnoughData && avgValue && (
+        {(hasEnoughData && avgValue) ? (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="card-soft rounded-2xl bg-surface-warm p-5"
+            className="bg-primary/5 rounded-3xl p-6 border-2 border-primary/10"
           >
-            <h3 className="mb-2 text-sm font-bold text-slate-800">
+            <h3 className="text-sm font-black text-primary uppercase tracking-widest mb-2">
               {t("insight")}
             </h3>
-            <p className="text-sm leading-relaxed text-slate-700">
+            <p className="text-slate-600 font-bold leading-relaxed">
               {avgValue >= 4
                 ? t("insight_high")
                 : avgValue >= 3
@@ -136,35 +138,23 @@ const WeeklyOverview = () => {
                   : t("insight_low")}
             </p>
           </motion.div>
-        )}
-
-        {!hasEnoughData && filledDays.length > 0 && (
+        ) : filledDays.length > 0 && (
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="card-soft rounded-2xl bg-surface-warm p-5"
+            className="bg-slate-50 rounded-3xl p-6 border-2 border-slate-100"
           >
-            <h3 className="mb-2 text-sm font-bold text-slate-800">
+            <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest mb-2">
               {t("insight")}
             </h3>
-            <p className="text-sm leading-relaxed text-slate-700">
+            <p className="text-slate-500 font-bold leading-relaxed">
               {t("insight_more_data")}
             </p>
           </motion.div>
         )}
-      </main>
-
-      <div className="sticky bottom-0 px-6 pb-8 pt-4">
-        <button
-          onClick={() => navigate("..")}
-          className="flex w-full items-center justify-center gap-2 rounded-pill bg-primary py-4 text-base font-bold text-primary-foreground transition-all"
-        >
-          <Home className="h-5 w-5" />
-          {t("go_home")}
-        </button>
       </div>
-    </div>
+    </PremiumLayout>
   );
 };
 

@@ -39,7 +39,7 @@ const Index = () => {
           [userId]
         );
         if (rows && Array.isArray(rows)) {
-          const formatted = rows.map(row => ({
+          const formatted = rows.map((row: any) => ({
             ...row,
             gratitudes: typeof row.gratitudes === 'string' ? JSON.parse(row.gratitudes) : row.gratitudes
           }));

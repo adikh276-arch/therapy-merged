@@ -26,18 +26,14 @@ const AnimatedRoutes = () => {
   return (
     <AuthGuard>
       <EnergyProvider>
-        <AnimatePresence mode="wait">
-          <PageTransition key={location.pathname}>
-            <Routes>
-              <Route path="/" element={<EnergyCheckIn />} />
-              <Route path="/factors" element={<EnergyFactors />} />
-              <Route path="/summary" element={<TodaySummary />} />
-              <Route path="/weekly" element={<WeeklyOverview />} />
-              <Route path="/token" element={<Token />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </PageTransition>
-        </AnimatePresence>
+        <Routes>
+          <Route path="/" element={<EnergyCheckIn />} />
+          <Route path="/factors" element={<EnergyFactors />} />
+          <Route path="/summary" element={<TodaySummary />} />
+          <Route path="/weekly" element={<WeeklyOverview />} />
+          <Route path="/token" element={<Token />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </EnergyProvider>
     </AuthGuard>
   );

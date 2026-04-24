@@ -87,129 +87,203 @@ const TrackActivitySection = () => {
   });
 
   return (
-    <section className="py-12 md:py-24">
-      <div className="section-container">
-        <h2 className="text-3xl font-extrabold text-slate-900 leading-tight text-center mb-2">
-          {t("track_title")}
-        </h2>
-        <p className="text-muted-foreground text-center text-base md:text-lg mb-8 md:mb-12 w-full mx-auto">
-          {t("track_subtitle")}
-        </p>
+    <div className="w-full space-y-10 pb-12">
+        <header className="space-y-4">
+          <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
+            <Sparkles size={16} />
+            {t("progress_summary")}
+          </div>
+          <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">{t("track_title")}</h1>
+          <p className="text-slate-500 text-lg font-bold leading-relaxed max-w-sm">
+            {t("track_subtitle")}
+          </p>
+        </header>
 
         {/* Entry + Summary Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto mb-8 md:mb-12">
+        <div className="grid grid-cols-1 gap-8">
           {/* Activity Entry Card */}
-          <div className="p-6 bg-white rounded-[2rem] border-2 border-slate-50 shadow-sm space-y-3 md:space-y-4">
-            <h3 className="text-xl font-bold text-slate-800">{t("activity_log")}</h3>
-            <div className="space-y-3">
-              {/* Date Picker */}
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button
-                    variant="outline"
-                    className={cn(
-                      "w-full justify-start text-left font-normal h-10 md:h-11",
-                      !date && "text-muted-foreground"
-                    )}
-                  >
-                    {date ? format(date, "PPP") : <span>{t("pick_date")}</span>}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-auto p-0" align="start">
-                  <Calendar
-                    mode="single"
-                    selected={date}
-                    onSelect={setDate}
-                    initialFocus
-                    className="p-3 pointer-events-auto"
-                  />
-                </PopoverContent>
-              </Popover>
-
-              <input
-                type="text"
-                placeholder={t("activity_placeholder")}
-                value={activity}
-                onChange={(e) => setActivity(e.target.value)}
-                className="w-full rounded-xl border border-input bg-transparent px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-              />
-              <input
-                type="number"
-                placeholder={t("duration_placeholder")}
-                value={duration}
-                onChange={(e) => setDuration(e.target.value)}
-                className="w-full rounded-xl border border-input bg-transparent px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-              />
-              <textarea
-                placeholder={t("notes_placeholder")}
-                value={notes}
-                onChange={(e) => setNotes(e.target.value)}
-                rows={2}
-                className="w-full rounded-xl border border-input bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"
-              />
+          <div className="p-10 bg-white rounded-[3rem] border-2 border-slate-100 shadow-xl shadow-slate-200/40 space-y-8">
+            <div className="flex items-center gap-4 border-b border-slate-50 pb-6">
+                <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
+                    <Pencil size={24} />
+                </div>
+                <h3 className="text-2xl font-black text-slate-800">{t("activity_log")}</h3>
             </div>
-            <Button onClick={handleAdd} className="w-full rounded-xl h-10 md:h-11 font-semibold">
-              {t("save_activity")}
-            </Button>
+            
+            <div className="space-y-6">
+              {/* Date Picker */}
+              <div className="space-y-3">
+                <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("pick_date")}</label>
+                <Popover>
+                    <PopoverTrigger asChild>
+                    <Button
+                        variant="outline"
+                        className={cn(
+                        "w-full justify-start text-left font-bold h-14 rounded-2xl border-2 border-slate-50 bg-slate-50 hover:bg-white hover:border-primary/20 transition-all px-6",
+                        !date && "text-slate-300"
+                        )}
+                    >
+                        <CalendarIcon className="mr-3 h-5 w-5 text-primary" />
+                        {date ? format(date, "PPP") : <span>{t("pick_date")}</span>}
+                    </Button>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-auto p-0 rounded-[2rem] border-2 border-slate-100 shadow-2xl" align="start">
+                    <Calendar
+                        mode="single"
+                        selected={date}
+                        onSelect={setDate}
+                        initialFocus
+                        className="p-6 pointer-events-auto"
+                    />
+                    </PopoverContent>
+                </Popover>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-3">
+                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">What did you do?</label>
+                    <input
+                        type="text"
+                        placeholder={t("activity_placeholder")}
+                        value={activity}
+                        onChange={(e) => setActivity(e.target.value)}
+                        className="w-full rounded-2xl border-2 border-slate-50 bg-slate-50 px-6 py-4 text-base font-bold text-slate-900 placeholder:text-slate-300 focus:outline-none focus:border-primary/20 focus:bg-white transition-all"
+                    />
+                </div>
+                <div className="space-y-3">
+                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">For how long? (min)</label>
+                    <input
+                        type="number"
+                        placeholder={t("duration_placeholder")}
+                        value={duration}
+                        onChange={(e) => setDuration(e.target.value)}
+                        className="w-full rounded-2xl border-2 border-slate-50 bg-slate-50 px-6 py-4 text-base font-bold text-slate-900 placeholder:text-slate-300 focus:outline-none focus:border-primary/20 focus:bg-white transition-all"
+                    />
+                </div>
+              </div>
+
+              <div className="space-y-3">
+                <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("notes_placeholder")}</label>
+                <textarea
+                    placeholder="Add a thought or feeling..."
+                    value={notes}
+                    onChange={(e) => setNotes(e.target.value)}
+                    rows={3}
+                    className="w-full rounded-2xl border-2 border-slate-50 bg-slate-50 px-6 py-4 text-base font-bold text-slate-900 placeholder:text-slate-300 focus:outline-none focus:border-primary/20 focus:bg-white transition-all resize-none"
+                />
+              </div>
+            </div>
+
+            <motion.button
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
+                onClick={handleAdd}
+                className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all"
+            >
+                {t("save_activity")}
+            </motion.button>
           </div>
 
           {/* Progress Summary Card */}
-          <div className="p-6 bg-slate-50 rounded-[2rem] border-2 border-slate-100 shadow-sm space-y-3 md:space-y-4">
-            <h3 className="text-xl font-bold text-slate-800">
-              {t("progress_summary")}
-            </h3>
-            <div className="grid grid-cols-2 gap-3">
+          <div className="p-10 bg-slate-900 rounded-[3rem] shadow-2xl space-y-10 relative overflow-hidden">
+            <div className="absolute top-0 right-0 p-12 text-white/5 pointer-events-none">
+                <History size={160} strokeWidth={1} />
+            </div>
+            
+            <div className="relative z-10 space-y-2">
+                <h3 className="text-2xl font-black text-white">{t("progress_summary")}</h3>
+                <p className="text-slate-400 font-bold text-sm">You're doing great!</p>
+            </div>
+
+            <div className="relative z-10 grid grid-cols-2 gap-4">
               <StatBox label={t("this_week")} value={`${stats.weekMinutes} min`} />
               <StatBox label={t("this_month")} value={`${stats.monthMinutes} min`} />
-              <StatBox label={t("most_frequent")} value={stats.mostFrequent} />
+              <StatBox label={t("most_frequent")} value={stats.mostFrequent || "—"} />
               <StatBox label={t("longest_session")} value={stats.longestSession > 0 ? `${stats.longestSession} min` : "—"} />
             </div>
-            <div className="pt-3 border-t border-slate-200 flex justify-between items-center">
-              <span className="text-sm font-bold text-slate-600">{t("current_streak")}</span>
-              <span className="text-xl md:text-2xl font-black text-primary">{stats.streak} {stats.streak === 1 ? t("day") : t("days")}</span>
+
+            <div className="relative z-10 pt-10 border-t border-white/10 flex justify-between items-center">
+              <div className="space-y-1">
+                <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">{t("current_streak")}</span>
+                <p className="text-white font-bold text-sm">Consistency is key</p>
+              </div>
+              <div className="flex items-center gap-4 bg-white/10 px-6 py-4 rounded-3xl border border-white/10">
+                <Sparkles size={20} className="text-yellow-400" />
+                <span className="text-3xl font-black text-white leading-none">{stats.streak}</span>
+                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{stats.streak === 1 ? t("day") : t("days")}</span>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Charts */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto mb-8 md:mb-12">
-          <div className="p-6 bg-white rounded-[2rem] border-2 border-slate-50 shadow-sm">
-            <h4 className="text-lg font-bold text-slate-800 mb-4">{t("last_7_days")}</h4>
-            <ResponsiveContainer width="100%" height={180}>
-              <BarChart data={chartData}>
-                <CartesianGrid strokeDasharray="3 3" stroke="hsl(210 25% 90%)" />
-                <XAxis dataKey="day" tick={{ fontSize: 12 }} stroke="hsl(215 15% 50%)" />
-                <YAxis tick={{ fontSize: 12 }} stroke="hsl(215 15% 50%)" />
-                <Tooltip
-                  contentStyle={{
-                    background: "hsl(0 0% 100%)",
-                    border: "1px solid hsl(210 25% 90%)",
-                    borderRadius: "12px",
-                    fontSize: 13,
-                  }}
-                />
-                <Bar dataKey="minutes" fill="hsl(215 85% 55%)" radius={[6, 6, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <div className="p-10 bg-white rounded-[3rem] border-2 border-slate-100 shadow-xl shadow-slate-200/40">
+            <h4 className="text-xl font-black text-slate-800 mb-8">{t("last_7_days")}</h4>
+            <div className="h-[220px] w-full">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={chartData}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#F1F5F9" vertical={false} />
+                  <XAxis 
+                    dataKey="day" 
+                    tick={{ fontSize: 11, fill: "#94A3B8", fontWeight: 600 }} 
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <YAxis 
+                    tick={{ fontSize: 11, fill: "#94A3B8", fontWeight: 600 }}
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <Tooltip
+                    cursor={{ fill: '#F8FAFC' }}
+                    contentStyle={{
+                      borderRadius: "20px",
+                      border: "none",
+                      boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+                      padding: "12px 16px"
+                    }}
+                  />
+                  <Bar dataKey="minutes" fill="#10B981" radius={[8, 8, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </div>
-          <div className="p-6 bg-white rounded-[2rem] border-2 border-slate-50 shadow-sm">
-            <h4 className="text-lg font-bold text-slate-800 mb-4">{t("weekly_trend")}</h4>
-            <ResponsiveContainer width="100%" height={180}>
-              <LineChart data={weeklyTrend}>
-                <CartesianGrid strokeDasharray="3 3" stroke="hsl(210 25% 90%)" />
-                <XAxis dataKey="week" tick={{ fontSize: 12 }} stroke="hsl(215 15% 50%)" />
-                <YAxis tick={{ fontSize: 12 }} stroke="hsl(215 15% 50%)" />
-                <Tooltip
-                  contentStyle={{
-                    background: "hsl(0 0% 100%)",
-                    border: "1px solid hsl(210 25% 90%)",
-                    borderRadius: "12px",
-                    fontSize: 13,
-                  }}
-                />
-                <Line type="monotone" dataKey="minutes" stroke="hsl(215 85% 55%)" strokeWidth={2} dot={{ r: 4, fill: "hsl(215 85% 55%)" }} />
-              </LineChart>
-            </ResponsiveContainer>
+          <div className="p-10 bg-white rounded-[3rem] border-2 border-slate-100 shadow-xl shadow-slate-200/40">
+            <h4 className="text-xl font-black text-slate-800 mb-8">{t("weekly_trend")}</h4>
+            <div className="h-[220px] w-full">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={weeklyTrend}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#F1F5F9" vertical={false} />
+                  <XAxis 
+                    dataKey="week" 
+                    tick={{ fontSize: 11, fill: "#94A3B8", fontWeight: 600 }}
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <YAxis 
+                    tick={{ fontSize: 11, fill: "#94A3B8", fontWeight: 600 }}
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <Tooltip
+                    contentStyle={{
+                      borderRadius: "20px",
+                      border: "none",
+                      boxShadow: "0 10px 25px -5px rgba(0,0,0,0.1)",
+                      padding: "12px 16px"
+                    }}
+                  />
+                  <Line 
+                    type="monotone" 
+                    dataKey="minutes" 
+                    stroke="#10B981" 
+                    strokeWidth={4} 
+                    dot={{ r: 6, fill: "#10B981", stroke: "white", strokeWidth: 3 }} 
+                  />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
           </div>
         </div>
 
@@ -340,9 +414,9 @@ const TrackActivitySection = () => {
 };
 
 const StatBox = ({ label, value }: { label: string; value: string }) => (
-  <div className="rounded-[1rem] bg-white p-3 text-center shadow-sm border border-slate-100">
-    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">{label}</p>
-    <p className="text-lg font-black text-slate-800 truncate">{value}</p>
+  <div className="rounded-[1.5rem] bg-white/5 p-4 text-center border border-white/5 backdrop-blur-sm">
+    <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.15em] mb-1">{label}</p>
+    <p className="text-lg font-black text-white truncate">{value}</p>
   </div>
 );
 

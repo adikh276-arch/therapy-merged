@@ -52,19 +52,19 @@ const TodaySummary = () => {
       icon={<span className="text-6xl">{emojiMap[level]}</span>}
     >
       <div className="space-y-6 w-full max-w-md mx-auto mt-8">
-        <div className="grid gap-3">
+        <div className="grid gap-4">
           {suggestions.map((s, i) => (
             <motion.div
               key={s.text}
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 + i * 0.08 }}
-              className="flex items-center gap-4 rounded-2xl bg-white border-2 border-slate-100 px-5 py-4 shadow-sm"
+              className="flex items-center gap-5 rounded-3xl bg-white border-2 border-slate-100 px-6 py-5 shadow-sm hover:border-primary/20 transition-all"
             >
-              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
-                <s.icon className="h-5 w-5" />
+              <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
+                <s.icon className="h-6 w-6" />
               </div>
-              <span className="text-sm font-bold text-slate-700">{s.text}</span>
+              <span className="text-base font-bold text-slate-700">{s.text}</span>
             </motion.div>
           ))}
         </div>
@@ -73,10 +73,10 @@ const TodaySummary = () => {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           onClick={() => navigate("../weekly")}
-          className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+          className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
         >
-          {t("view_weekly")}
           <History size={20} />
+          {t("view_weekly")}
         </motion.button>
       </div>
     </PremiumComplete>

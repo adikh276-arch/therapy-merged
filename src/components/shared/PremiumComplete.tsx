@@ -26,11 +26,13 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
     if (onHome) {
       onHome();
     } else {
+      // Always try to notify parent first
       if (window.parent !== window) {
-        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-      } else {
-        navigate('/');
+        window.parent.postMessage({ action: 'exit' }, '*');
+        window.parent.postMessage({ action: 'close' }, '*');
       }
+      // Then navigate to dashboard root
+      window.location.href = '/therapy/';
     }
   };
 

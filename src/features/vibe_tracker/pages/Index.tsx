@@ -31,7 +31,7 @@ const Index = () => {
 
   const handleDone = () => {
     setSelectedVibe("");
-    setScreen("intro");
+    navigate("/");
   };
 
   const handleHistory = () => {
