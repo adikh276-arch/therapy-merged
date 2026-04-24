@@ -7,8 +7,14 @@ export const pool = {
     connect: () => { throw new Error("Pool.connect not supported in serverless HTTP mode"); }
 };
 
-export const query = (text: string, params?: any[]) => {
-    return (sql as any).query(text, params || []);
+export const query = async (text: string, params?: any[]) => {
+    try {
+        const res = await (sql as any).query(text, params || []);
+        return { rows: Array.isArray(res) ? res : (res.rows || []) };
+    } catch (err) {
+        console.error("Query failed:", text, err);
+        return { rows: [] };
+    }
 };
 
 export const initDb = async () => {

@@ -19,17 +19,25 @@ const PastLetters = () => {
   const navigate = useNavigate();
   const [entries, setEntries] = useState<LetterEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selectedEntry, setSelectedEntry] = useState<LetterEntry | null>(null);
   const [deleteId, setDeleteId] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchEntries = async () => {
       setLoading(true);
-      const data = await getEntries();
-      setEntries(data.sort(
-        (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-      ));
-      setLoading(false);
+      setError(null);
+      try {
+        const data = await getEntries();
+        setEntries(data.sort(
+          (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+        ));
+      } catch (error) {
+        console.error("Failed to fetch entries:", error);
+        setError("Failed to load letters. Please try again.");
+      } finally {
+        setLoading(false);
+      }
     };
     fetchEntries();
   }, []);
@@ -48,6 +56,24 @@ const PastLetters = () => {
         <div className="flex flex-col items-center justify-center py-24 gap-4">
           <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
           <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">Loading Journey...</p>
+        </div>
+      </PremiumLayout>
+    );
+  }
+
+  if (error) {
+    return (
+      <PremiumLayout title="My Letters">
+        <div className="text-center py-20">
+          <p className="text-red-500 font-medium">{error}</p>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => window.location.reload()}
+            className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
+          >
+            Retry
+          </motion.button>
         </div>
       </PremiumLayout>
     );

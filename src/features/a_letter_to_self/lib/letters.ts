@@ -20,19 +20,28 @@ export async function getEntries(): Promise<LetterEntry[]> {
       "SELECT * FROM letters WHERE user_id = $1 ORDER BY created_at DESC",
       [userId]
     );
-    return res.rows.map(row => ({
-      id: row.id,
-      date: new Date(row.created_at).toISOString().split('T')[0],
-      time: new Date(row.created_at).toLocaleTimeString("en-US", {
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: true
-      }),
-      content: row.content,
-      emotionalState: row.emotional_state,
-      createdAt: row.created_at,
-      updatedAt: row.updated_at
-    }));
+    if (!res || !res.rows) return [];
+    return res.rows.map(row => {
+      try {
+        const createdAt = new Date(row.created_at);
+        return {
+          id: row.id,
+          date: createdAt.toISOString().split('T')[0],
+          time: createdAt.toLocaleTimeString("en-US", {
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: true
+          }),
+          content: row.content,
+          emotionalState: row.emotional_state,
+          createdAt: row.created_at,
+          updatedAt: row.updated_at
+        };
+      } catch (error) {
+        console.error("Error formatting letter entry:", row, error);
+        return null;
+      }
+    }).filter(Boolean);
   } catch (error) {
     console.error("Failed to fetch entries:", error);
     return [];
