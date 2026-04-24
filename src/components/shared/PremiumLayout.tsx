@@ -14,15 +14,15 @@ interface PremiumLayoutProps {
   showBack?: boolean;
 }
 
-export const PremiumLayout: React.FC<PremiumLayoutProps> = ({ 
-  children, 
-  title, 
-  subtitle, 
+export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
+  children,
+  title,
+  subtitle,
   onBack,
   onReset,
   onSecondaryBack,
   secondaryBackLabel,
-  showBack = true 
+  showBack = true
 }) => {
   const navigate = useNavigate();
 

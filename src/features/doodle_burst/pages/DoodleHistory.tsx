@@ -66,8 +66,8 @@ const DoodleHistory = () => {
   };
 
   return (
-    <PremiumLayout 
-      title="Doodle Gallery" 
+    <PremiumLayout
+      title="Doodle Gallery"
       onSecondaryBack={() => navigate("..")}
       secondaryBackLabel="Back to Burst"
     >
@@ -76,7 +76,7 @@ const DoodleHistory = () => {
         {!isLoading && entries.length === 0 && (
           <div className="text-center py-20 bg-slate-50 rounded-[2.5rem] border-2 border-dashed border-slate-100">
             <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mx-auto mb-6 text-slate-100 shadow-sm">
-                <ImageIcon size={36} />
+              <ImageIcon size={36} />
             </div>
             <p className="text-slate-400 font-black text-xs uppercase tracking-widest mb-8 px-10 leading-relaxed">{t("no_doodles")}</p>
             <motion.button
@@ -142,9 +142,9 @@ const DoodleHistory = () => {
                       className="w-full h-full object-contain rounded-[2rem]"
                     />
                     <div className="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                        <span className="text-[10px] font-black text-white uppercase tracking-widest bg-black/20 px-3 py-1.5 rounded-full backdrop-blur-sm">
-                            {formatTime(entry.timestamp)}
-                        </span>
+                      <span className="text-[10px] font-black text-white uppercase tracking-widest bg-black/20 px-3 py-1.5 rounded-full backdrop-blur-sm">
+                        {formatTime(entry.timestamp)}
+                      </span>
                     </div>
                   </motion.div>
                 ))}
@@ -197,9 +197,9 @@ const DoodleHistory = () => {
               <div className="p-6 bg-slate-50">
                 <div className="bg-white rounded-[2.5rem] p-4 shadow-inner border-2 border-white">
                   <img
-                      src={viewEntry.dataUrl}
-                      alt="Doodle"
-                      className="w-full aspect-square object-contain"
+                    src={viewEntry.dataUrl}
+                    alt="Doodle"
+                    className="w-full aspect-square object-contain"
                   />
                 </div>
               </div>

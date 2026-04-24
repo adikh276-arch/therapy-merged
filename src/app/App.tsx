@@ -33,7 +33,7 @@ function App() {
         if (token) {
           urlParams.delete("token");
           const cleanSearch = urlParams.toString() ? `?${urlParams.toString()}` : "";
-          window.history.replaceState({}, "", window.location.pathname + cleanSearch + window.location.hash);
+          window.location.href = window.location.pathname + cleanSearch + window.location.hash;
         }
         return;
       }
@@ -77,7 +77,7 @@ function App() {
           
           // If we have a saved path, go there. Otherwise stay on current path (without token).
           const targetPath = savedRedirectPath || (window.location.pathname + cleanSearch + window.location.hash);
-          window.history.replaceState({}, "", targetPath);
+          window.location.href = targetPath;
 
           setIsAuthorized(true);
         } catch (err) {
