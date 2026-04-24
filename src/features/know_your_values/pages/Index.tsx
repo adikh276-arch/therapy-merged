@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import { PremiumIntro } from "../../../components/shared/PremiumIntro";
 import { PremiumComplete } from "../../../components/shared/PremiumComplete";
+import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import ValueCard from "../components/ValueCard";
 import { allValues } from "../data/values";
 import { Reflection, ValueItem } from "../types/reflection";

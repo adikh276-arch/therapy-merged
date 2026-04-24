@@ -53,13 +53,13 @@ function App() {
           if (DATABASE_URL) {
             try {
               const sql = neon(DATABASE_URL, { disableWarningInBrowsers: true });
-              await sql`CREATE TABLE IF NOT EXISTS users (id BIGINT PRIMARY KEY, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
-              await sql`CREATE TABLE IF NOT EXISTS energy_logs (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id), date DATE NOT NULL, level TEXT NOT NULL, factors TEXT[], note TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), UNIQUE(user_id, date));`;
-              await sql`CREATE TABLE IF NOT EXISTS doodle_logs (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id), image_url TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
-              await sql`CREATE TABLE IF NOT EXISTS activities (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, emoji TEXT, name TEXT NOT NULL, duration INTEGER NOT NULL, notes TEXT, created_at TIMESTAMP DEFAULT NOW());`;
-              await sql`CREATE TABLE IF NOT EXISTS letters (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT NOT NULL, emotional_state TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
-              await sql`CREATE TABLE IF NOT EXISTS gratitude_diary_entries (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date TEXT NOT NULL, feeling TEXT, gratitudes JSONB NOT NULL, created_at TIMESTAMP DEFAULT NOW());`;
-              await sql`CREATE TABLE IF NOT EXISTS gratitude_tracker_entries (id UUID PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, gratitude1 TEXT NOT NULL, gratitude2 TEXT, mood_emoji TEXT, mood_label TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());`;
+              await sql`CREATE TABLE IF NOT EXISTS users (id BIGINT PRIMARY KEY, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS energy_logs (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id), date DATE NOT NULL, level TEXT NOT NULL, factors TEXT[], note TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), UNIQUE(user_id, date))`;
+              await sql`CREATE TABLE IF NOT EXISTS doodle_logs (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id), image_url TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS activities (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, emoji TEXT, name TEXT NOT NULL, duration INTEGER NOT NULL, notes TEXT, created_at TIMESTAMP DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS letters (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, content TEXT NOT NULL, emotional_state TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS gratitude_diary_entries (id SERIAL PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date TEXT NOT NULL, feeling TEXT, gratitudes JSONB NOT NULL, created_at TIMESTAMP DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS gratitude_tracker_entries (id UUID PRIMARY KEY, user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, date DATE NOT NULL, gratitude1 TEXT NOT NULL, gratitude2 TEXT, mood_emoji TEXT, mood_label TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
 
               await sql`INSERT INTO users (id) VALUES (${user_id.toString()}) ON CONFLICT (id) DO NOTHING`;
             } catch (dbErr) {
