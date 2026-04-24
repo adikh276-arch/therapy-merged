@@ -519,7 +519,17 @@ export function SelfCareResources() {
                     animate={{ opacity: 1, y: 0 }}
                   >
                     <button
-                      onClick={() => setSelectedTopic(null)}
+                      onClick={() => {
+                        if (selectedTopic === 'ocd') {
+                          if (window.parent !== window) {
+                            window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
+                          } else {
+                            window.location.href = 'https://web.mantracare.com';
+                          }
+                        } else {
+                          setSelectedTopic(null);
+                        }
+                      }}
                       className="flex items-center gap-2 mb-6 text-[#64748B] hover:text-[#020817] transition-colors group"
                     >
                       <ChevronLeft size={20} strokeWidth={2} className="group-hover:-translate-x-1 transition-transform" />
@@ -807,14 +817,6 @@ export function SelfCareResources() {
                       whileHover={{ y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
-                        if (tool.id === "mindful-space") {
-                          if (window.parent !== window) {
-                            window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
-                          } else {
-                            window.location.href = 'https://web.mantracare.com';
-                          }
-                          return;
-                        }
                         if (tool.url) {
                           tool.url.startsWith('http') ? window.location.href = tool.url : navigate(tool.url);
                         }
@@ -852,15 +854,7 @@ export function SelfCareResources() {
                       whileHover={{ y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
-                        if (topic.id === 'ocd') {
-                          if (window.parent !== window) {
-                            window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
-                          } else {
-                            window.location.href = 'https://web.mantracare.com';
-                          }
-                        } else {
-                          setSelectedTopic(topic.id);
-                        }
+                        setSelectedTopic(topic.id);
                       }}
                       className="bg-white border border-[#E2E8F0] rounded-2xl p-6 hover:shadow-md transition-all text-center"
                     >

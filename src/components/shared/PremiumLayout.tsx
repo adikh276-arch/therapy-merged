@@ -12,6 +12,7 @@ interface PremiumLayoutProps {
   onSecondaryBack?: () => void;
   secondaryBackLabel?: string;
   showBack?: boolean;
+  icon?: React.ReactNode;
 }
 
 export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
@@ -22,7 +23,8 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   onReset,
   onSecondaryBack,
   secondaryBackLabel,
-  showBack = true
+  showBack = true,
+  icon
 }) => {
   const navigate = useNavigate();
 
@@ -35,45 +37,44 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   };
 
   return (
-    <div className="min-h-screen bg-white flex flex-col font-sans overflow-x-hidden">
-      {/* Sticky Header */}
-      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 px-4 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+    <div className="min-h-screen bg-[#F6F8FB] flex flex-col font-sans overflow-x-hidden">
+      <header className="w-full max-w-2xl mx-auto px-4 pt-8 pb-4 flex items-start justify-between">
+        <div className="flex items-start gap-3">
           {showBack && (
             <motion.button
               whileHover={{ x: -2 }}
               whileTap={{ scale: 0.92 }}
               onClick={handleBack}
-              className="p-2 hover:bg-slate-50 rounded-xl transition-colors text-slate-400 hover:text-slate-800"
+              className="flex items-center justify-center text-[#64748B] hover:text-[#043570] transition-colors mt-1.5"
               aria-label="Go back"
             >
-              <ChevronLeft size={22} strokeWidth={2.5} />
+              <ChevronLeft size={20} strokeWidth={2.5} />
             </motion.button>
           )}
+          {icon && (
+            <div className="w-10 h-10 bg-[#F1F5F9] rounded-md flex items-center justify-center flex-shrink-0 mt-0.5 shadow-sm border border-slate-100">
+              {icon}
+            </div>
+          )}
           <div>
-            <h1 className="text-sm font-bold text-slate-900 leading-none tracking-tight">{title}</h1>
-            {subtitle && <p className="text-[10px] text-slate-400 mt-1 font-medium">{subtitle}</p>}
+            <h1 className="text-2xl text-[#0f172b] font-medium leading-tight">{title}</h1>
+            {subtitle && <p className="text-sm text-[#62748e] font-normal mt-1">{subtitle}</p>}
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 mt-1">
           {onReset && (
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={onReset}
-              className="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-primary px-3 py-1.5 rounded-lg border border-slate-100 transition-colors"
+              className="text-xs font-semibold text-slate-500 hover:text-primary px-3 py-1.5 rounded-lg bg-white border border-slate-200 shadow-sm transition-colors"
             >
               Start Over
             </motion.button>
           )}
-          {/* Cyan accent dot */}
-          <div className="w-2 h-2 rounded-full bg-primary opacity-60" />
         </div>
       </header>
-
-      {/* Cyan accent line */}
-      <div className="h-0.5 w-full bg-gradient-to-r from-primary/30 via-primary to-primary/30 opacity-40" />
 
       <main className="flex-1 w-full max-w-2xl mx-auto px-4 py-6">
         {onSecondaryBack && secondaryBackLabel && (

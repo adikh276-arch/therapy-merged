@@ -32,6 +32,13 @@ const Index = () => {
   return (
     <PremiumLayout 
       title="Joyful Activities" 
+      onBack={() => {
+        if (window.parent !== window) {
+          window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+        } else {
+          window.location.href = 'https://web.mantracare.com';
+        }
+      }}
       onReset={screen > 1 ? goHome : undefined}
     >
       <div className="flex justify-center mb-8">
