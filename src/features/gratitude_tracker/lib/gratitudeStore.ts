@@ -25,13 +25,18 @@ const getUserId = () => sessionStorage.getItem("user_id");
 
 const formatDate = (dateValue: any): string => {
   if (!dateValue) return "";
-  // If it's a string from PG, it might be YYYY-MM-DD. 
-  // Appending T00:00:00 ensures new Date() parses it as local midnight, not UTC.
-  const d = dateValue instanceof Date 
-    ? dateValue 
-    : new Date(dateValue.toString().includes("T") ? dateValue : `${dateValue}T00:00:00`);
-  
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  try {
+    const d = dateValue instanceof Date 
+      ? dateValue 
+      : new Date(dateValue.toString().includes("T") ? dateValue : `${dateValue}T00:00:00`);
+    
+    if (isNaN(d.getTime())) return "";
+    
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  } catch (error) {
+    console.error("Error formatting date:", dateValue, error);
+    return "";
+  }
 };
 
 export async function saveEntry(entry: GratitudeEntry): Promise<void> {

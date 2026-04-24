@@ -28,6 +28,7 @@ const History = () => {
   const [selectedEntry, setSelectedEntry] = useState<GratitudeEntry | null>(null);
   const [entries, setEntries] = useState<GratitudeEntry[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   const year = currentMonth.getFullYear();
   const month = currentMonth.getMonth();
@@ -35,11 +36,13 @@ const History = () => {
   useEffect(() => {
     const fetchEntries = async () => {
       setIsLoading(true);
+      setError(null);
       try {
         const data = await getEntriesForMonth(year, month);
         setEntries(data);
       } catch (error) {
         console.error("Fetch history error:", error);
+        setError("Failed to load history. Please try again.");
       } finally {
         setIsLoading(false);
       }
@@ -82,6 +85,22 @@ const History = () => {
       secondaryBackLabel="Back to Journal"
     >
       <div className="w-full space-y-8">
+        {error && (
+          <div className="text-center py-20">
+            <p className="text-red-500 font-medium">{error}</p>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => window.location.reload()}
+              className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
+            >
+              Retry
+            </motion.button>
+          </div>
+        )}
+
+        {!error && (
+          <>
         <header className="flex items-center justify-between">
           <div className="space-y-1">
             <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t("history.heading")}</h2>
@@ -225,6 +244,8 @@ const History = () => {
             <Sparkles size={20} />
           </motion.button>
         </div>
+          </>
+        )}
       </div>
     </PremiumLayout>
   );

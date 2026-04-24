@@ -74,7 +74,7 @@ function App() {
           // Remove token from URL bar instantly
           urlParams.delete("token");
           const cleanSearch = urlParams.toString() ? `?${urlParams.toString()}` : "";
-          
+
           // If we have a saved path, go there. Otherwise stay on current path (without token).
           const targetPath = savedRedirectPath || (window.location.pathname + cleanSearch + window.location.hash);
           window.location.href = targetPath;
@@ -96,7 +96,7 @@ function App() {
       if (!currentPath.includes("token=")) {
         localStorage.setItem("APP_REDIRECT_PATH", currentPath);
       }
-      
+
       // Hard redirect to Auth Portal
       const appRoot = window.location.origin + "/therapy/";
       window.location.href = `https://web.mantracare.com/app/therapy?redirect_url=${encodeURIComponent(appRoot)}`;
