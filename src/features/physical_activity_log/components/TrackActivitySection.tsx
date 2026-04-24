@@ -89,8 +89,8 @@ const TrackActivitySection = () => {
   return (
     <section className="py-12 md:py-24">
       <div className="section-container">
-        <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground text-center mb-2">
-          📊 {t("track_title")}
+        <h2 className="text-3xl font-extrabold text-slate-900 leading-tight text-center mb-2">
+          {t("track_title")}
         </h2>
         <p className="text-muted-foreground text-center text-base md:text-lg mb-8 md:mb-12 w-full mx-auto">
           {t("track_subtitle")}
@@ -99,8 +99,8 @@ const TrackActivitySection = () => {
         {/* Entry + Summary Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto mb-8 md:mb-12">
           {/* Activity Entry Card */}
-          <div className="wellness-card space-y-3 md:space-y-4">
-            <h3 className="font-serif text-lg md:text-xl font-semibold text-foreground">{t("activity_log")}</h3>
+          <div className="p-6 bg-white rounded-[2rem] border-2 border-slate-50 shadow-sm space-y-3 md:space-y-4">
+            <h3 className="text-xl font-bold text-slate-800">{t("activity_log")}</h3>
             <div className="space-y-3">
               {/* Date Picker */}
               <Popover>
@@ -112,8 +112,7 @@ const TrackActivitySection = () => {
                       !date && "text-muted-foreground"
                     )}
                   >
-                    <CalendarIcon className="mr-2 h-4 w-4" />
-                    {date ? format(date, "PPP") : <span>📅 {t("pick_date")}</span>}
+                    {date ? format(date, "PPP") : <span>{t("pick_date")}</span>}
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent className="w-auto p-0" align="start">
@@ -155,9 +154,9 @@ const TrackActivitySection = () => {
           </div>
 
           {/* Progress Summary Card */}
-          <div className="wellness-card-blue space-y-3 md:space-y-4">
-            <h3 className="font-serif text-lg md:text-xl font-semibold text-accent-foreground">
-              📈 {t("progress_summary")}
+          <div className="p-6 bg-slate-50 rounded-[2rem] border-2 border-slate-100 shadow-sm space-y-3 md:space-y-4">
+            <h3 className="text-xl font-bold text-slate-800">
+              {t("progress_summary")}
             </h3>
             <div className="grid grid-cols-2 gap-3">
               <StatBox label={t("this_week")} value={`${stats.weekMinutes} min`} />
@@ -165,17 +164,17 @@ const TrackActivitySection = () => {
               <StatBox label={t("most_frequent")} value={stats.mostFrequent} />
               <StatBox label={t("longest_session")} value={stats.longestSession > 0 ? `${stats.longestSession} min` : "—"} />
             </div>
-            <div className="pt-3 border-t border-border/50 flex justify-between items-center">
-              <span className="text-sm font-medium text-foreground">🔥 {t("current_streak")}</span>
-              <span className="text-xl md:text-2xl font-bold text-primary">{stats.streak} {stats.streak === 1 ? t("day") : t("days")}</span>
+            <div className="pt-3 border-t border-slate-200 flex justify-between items-center">
+              <span className="text-sm font-bold text-slate-600">{t("current_streak")}</span>
+              <span className="text-xl md:text-2xl font-black text-primary">{stats.streak} {stats.streak === 1 ? t("day") : t("days")}</span>
             </div>
           </div>
         </div>
 
         {/* Charts */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto mb-8 md:mb-12">
-          <div className="wellness-card">
-            <h4 className="font-serif text-base md:text-lg font-semibold text-foreground mb-4">{t("last_7_days")}</h4>
+          <div className="p-6 bg-white rounded-[2rem] border-2 border-slate-50 shadow-sm">
+            <h4 className="text-lg font-bold text-slate-800 mb-4">{t("last_7_days")}</h4>
             <ResponsiveContainer width="100%" height={180}>
               <BarChart data={chartData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="hsl(210 25% 90%)" />
@@ -193,8 +192,8 @@ const TrackActivitySection = () => {
               </BarChart>
             </ResponsiveContainer>
           </div>
-          <div className="wellness-card">
-            <h4 className="font-serif text-base md:text-lg font-semibold text-foreground mb-4">{t("weekly_trend")}</h4>
+          <div className="p-6 bg-white rounded-[2rem] border-2 border-slate-50 shadow-sm">
+            <h4 className="text-lg font-bold text-slate-800 mb-4">{t("weekly_trend")}</h4>
             <ResponsiveContainer width="100%" height={180}>
               <LineChart data={weeklyTrend}>
                 <CartesianGrid strokeDasharray="3 3" stroke="hsl(210 25% 90%)" />
@@ -215,8 +214,8 @@ const TrackActivitySection = () => {
         </div>
 
         {/* Activity History */}
-        <div className="max-w-2xl mx-auto">
-          <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-4">📅 {t("activity_history")}</h3>
+        <div className="max-w-2xl mx-auto mt-12">
+          <h3 className="text-2xl font-extrabold text-slate-900 mb-4">{t("activity_history")}</h3>
 
           {/* Filters */}
           <div className="flex flex-col sm:flex-row gap-3 mb-4">
@@ -261,8 +260,8 @@ const TrackActivitySection = () => {
           {/* History cards */}
           <div className="space-y-3">
             {filteredDates.length === 0 && (
-              <div className="wellness-card-blue text-center py-8">
-                <p className="text-muted-foreground">{t("no_activities")}</p>
+              <div className="p-8 bg-slate-50 rounded-[2rem] border-2 border-slate-100 text-center py-8">
+                <p className="text-slate-400 font-bold">{t("no_activities")}</p>
               </div>
             )}
             {filteredDates.map(dateStr => {
@@ -271,12 +270,12 @@ const TrackActivitySection = () => {
               const isExpanded = expandedDates.has(dateStr);
 
               return (
-                <div key={dateStr} className="wellness-card-blue overflow-hidden">
+                <div key={dateStr} className="p-4 bg-white rounded-[1.5rem] border-2 border-slate-50 shadow-sm overflow-hidden mb-3">
                   <button
                     onClick={() => toggleDate(dateStr)}
-                    className="w-full flex items-center justify-between py-1"
+                    className="w-full flex items-center justify-between py-2"
                   >
-                    <span className="font-serif text-sm md:text-base font-semibold text-foreground">
+                    <span className="text-base font-bold text-slate-800">
                       {format(parseISO(dateStr), "EEEE, MMMM d, yyyy")}
                     </span>
                     <div className="flex items-center gap-2">
@@ -307,9 +306,9 @@ const TrackActivitySection = () => {
                             </div>
                           ) : (
                             <>
-                              <span className="text-sm text-foreground">
-                                {a.emoji} {a.name}
-                                {a.notes && <span className="text-muted-foreground ml-1">— {a.notes}</span>}
+                              <span className="text-sm font-bold text-slate-700">
+                                {a.name}
+                                {a.notes && <span className="text-slate-400 font-medium ml-1">— {a.notes}</span>}
                               </span>
                               <div className="flex items-center gap-1">
                                 <span className="text-xs md:text-sm text-muted-foreground mr-1">{a.duration} min</span>
@@ -341,9 +340,9 @@ const TrackActivitySection = () => {
 };
 
 const StatBox = ({ label, value }: { label: string; value: string }) => (
-  <div className="rounded-xl bg-card/60 p-3 text-center">
-    <p className="text-xs text-muted-foreground mb-1">{label}</p>
-    <p className="text-base md:text-lg font-bold text-foreground truncate">{value}</p>
+  <div className="rounded-[1rem] bg-white p-3 text-center shadow-sm border border-slate-100">
+    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">{label}</p>
+    <p className="text-lg font-black text-slate-800 truncate">{value}</p>
   </div>
 );
 

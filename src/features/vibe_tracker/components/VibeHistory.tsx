@@ -81,15 +81,7 @@ const VibeHistory = ({ onBack }: Props) => {
 
   return (
     <div className="space-y-8">
-      <header className="flex items-center justify-between">
-        <motion.button 
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={onBack} 
-          className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 transition-colors shadow-sm"
-        >
-          <ArrowLeft size={20} />
-        </motion.button>
+      <header className="flex items-center justify-end">
         <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
           <Sparkles size={12} />
           Your Journey
