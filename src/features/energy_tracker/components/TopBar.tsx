@@ -47,7 +47,13 @@ const TopBar = ({ title, showBack = false, showCalendar = false }: TopBarProps) 
       <div className="flex w-24 items-center gap-2">
         {showBack && (
           <button
-            onClick={() => navigate(-1)}
+            onClick={() => {
+              if (window.parent !== window) {
+                window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+              } else {
+                window.location.href = 'https://web.mantracare.com';
+              }
+            }}
             className="flex h-10 w-10 items-center justify-center rounded-full bg-transparent text-slate-900 transition-colors hover:bg-secondary"
           >
             <ArrowLeft className="h-5 w-5" />

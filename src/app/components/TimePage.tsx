@@ -153,7 +153,13 @@ export function TimePage() {
             <div className="flex items-center gap-3 mb-1.5">
               {/* Back Arrow */}
               <button
-                onClick={() => navigate(-1)}
+                onClick={() => {
+                  if (window.parent !== window) {
+                    window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+                  } else {
+                    window.location.href = 'https://web.mantracare.com';
+                  }
+                }}
                 className="w-9 h-9 rounded-xl flex items-center justify-center transition-colors flex-shrink-0 text-white hover:bg-[#1a2744]"
               >
                 <ChevronLeft size={24} />

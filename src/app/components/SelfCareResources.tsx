@@ -234,6 +234,7 @@ const topicDetails: Record<string, {
   },
   relationship: {
     description: "Tools and insights to strengthen connections, improve communication, and build healthier relationships.",
+    guidedSeriesUrl: "https://app.mantracare.com/therapy/relationship/rln-guided-series/",
     exercises: [
       { title: "Letter to Self", icon: Mail, url: "/tools/a-letter-to-self" },
       { title: "Affirmations", icon: Smile, url: "/tools/affirmations" },
@@ -550,9 +551,7 @@ export function SelfCareResources() {
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => { 
-                          if (window.parent !== window) {
-                            window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
-                          } else if(detail.guidedSeriesUrl) {
+                          if (detail.guidedSeriesUrl) {
                             window.location.href = detail.guidedSeriesUrl;
                           }
                         }}
@@ -598,12 +597,8 @@ export function SelfCareResources() {
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => {
-                              if (ex.action === 'guided') {
-                                if (window.parent !== window) {
-                                  window.parent.postMessage({ action: 'guided' }, 'https://web.mantracare.com');
-                                } else {
-                                  window.location.href = 'https://web.mantracare.com';
-                                }
+                              if (ex.action === 'guided' && ex.url) {
+                                window.location.href = ex.url;
                                 return;
                               }
 

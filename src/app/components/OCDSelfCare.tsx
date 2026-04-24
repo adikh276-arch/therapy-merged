@@ -119,7 +119,7 @@ export function OCDSelfCare() {
   };
 
   return (
-    <div className="flex min-h-screen bg-[#F9FAFB]">
+    <div className="flex min-h-screen bg-[#F6F8FB]">
       <div className="flex-1 flex flex-col min-w-0">
         <main className="max-w-[1000px] w-full mx-auto px-4 md:px-6 py-4 md:py-8 pt-8">
           {/* Header */}
@@ -130,7 +130,13 @@ export function OCDSelfCare() {
           >
             <div className="flex items-center gap-4 mb-2">
               <button
-                onClick={() => navigate(-1)}
+                onClick={() => {
+                  if (window.parent !== window) {
+                    window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+                  } else {
+                    window.location.href = 'https://web.mantracare.com';
+                  }
+                }}
                 className="flex items-center justify-center w-9 h-9 rounded-lg text-[#64748B] hover:text-[#043570] hover:bg-white/80 transition-all"
               >
                 <ChevronLeft size={20} strokeWidth={2.5} />

@@ -109,7 +109,7 @@ export function Journal() {
   };
 
   return (
-    <div className="flex h-screen bg-[#FAFBFC] overflow-hidden">
+    <div className="flex h-screen bg-[#F6F8FB] overflow-hidden">
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Main Content */}
         <div className="flex-1 overflow-y-auto">
@@ -119,7 +119,13 @@ export function Journal() {
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-3">
                   <button
-                    onClick={() => navigate(-1)}
+                    onClick={() => {
+                      if (window.parent !== window) {
+                        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+                      } else {
+                        window.location.href = 'https://web.mantracare.com';
+                      }
+                    }}
                     className="flex items-center justify-center text-[#64748B] hover:text-[#043570] transition-colors"
                   >
                     <ChevronLeft size={20} />

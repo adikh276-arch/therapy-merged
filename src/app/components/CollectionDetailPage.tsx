@@ -173,7 +173,13 @@ export function CollectionDetailPage() {
             
             {/* Back button */}
             <button
-              onClick={() => navigate(-1)}
+              onClick={() => {
+                if (window.parent !== window) {
+                  window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+                } else {
+                  window.location.href = 'https://web.mantracare.com';
+                }
+              }}
               className="absolute top-4 left-4 w-10 h-10 rounded-full bg-black/40 backdrop-blur-sm flex items-center justify-center text-white hover:bg-black/60 transition-colors"
             >
               <ChevronLeft size={24} />

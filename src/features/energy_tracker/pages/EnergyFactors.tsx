@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useEnergy } from "../context/EnergyContext";
-import { Check } from "lucide-react";
+import { Check, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 

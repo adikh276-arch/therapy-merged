@@ -28,11 +28,10 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
     } else {
       // Always try to notify parent first
       if (window.parent !== window) {
-        window.parent.postMessage({ action: 'exit' }, '*');
-        window.parent.postMessage({ action: 'close' }, '*');
+        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
       }
-      // Then navigate to dashboard root
-      window.location.href = '/therapy/';
+      // Then navigate to external dashboard root
+      window.location.href = 'https://web.mantracare.com';
     }
   };
 
@@ -101,7 +100,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
       </div>
 
       {/* Action Buttons — fixed at bottom */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/80 backdrop-blur-sm z-20 flex justify-center">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[1000px] p-6 bg-white/80 backdrop-blur-sm z-20 flex justify-center">
         <div className="w-full max-w-lg flex flex-col gap-3">
           {onRestart && (
             <motion.button

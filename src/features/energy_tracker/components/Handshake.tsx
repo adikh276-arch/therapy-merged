@@ -23,7 +23,7 @@ const Handshake: React.FC<HandshakeProps> = ({ onSuccess }) => {
 
     // Phase 8: Full screen loader to block UI during handshake
     return (
-        <div className="flex h-[100dvh] w-screen items-center justify-center bg-transparent">
+        <div className="flex h-[100dvh] w-screen items-center justify-center bg-[#F6F8FB]">
             <div className="flex flex-col items-center gap-6">
                 <div className="h-16 w-16 animate-spin rounded-full border-4 border-primary border-t-transparent -primary"></div>
                 <p className="text-sm font-semibold text-foreground/70 tracking-widest animate-pulse">

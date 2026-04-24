@@ -29,14 +29,11 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   const navigate = useNavigate();
 
   const handleBack = () => {
-    if (onBack) {
-      onBack();
+    // Strict enforcement: Top-left chevron always exits to parent dashboard
+    if (window.parent !== window) {
+      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
     } else {
-      if (window.parent !== window) {
-        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-      } else {
-        window.location.href = 'https://web.mantracare.com';
-      }
+      window.location.href = 'https://web.mantracare.com';
     }
   };
 
@@ -44,7 +41,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
     <div className="min-h-screen bg-[#F6F8FB] flex flex-col font-sans overflow-x-hidden">
       {/* Header */}
       <header className="w-full bg-[#F6F8FB] z-50">
-        <div className="max-w-2xl mx-auto px-6 py-8 flex items-center justify-between">
+        <div className="max-w-[1000px] mx-auto px-6 py-8 flex items-center justify-between">
           <div className="flex items-center gap-5">
             {showBack && (
               <button
@@ -90,7 +87,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 w-full max-w-2xl mx-auto px-6 pb-24">
+      <main className="flex-1 w-full max-w-[1000px] mx-auto px-6 pb-24">
         <div className="w-full">
           {children}
         </div>

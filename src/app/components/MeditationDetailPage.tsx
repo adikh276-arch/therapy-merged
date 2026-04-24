@@ -58,7 +58,13 @@ export function MeditationDetailPage() {
         <main className="max-w-[500px] w-full mx-auto px-4 md:px-6 py-4 md:py-10 pt-10">
           {/* Back Button */}
           <motion.button
-            onClick={() => navigate(-1)}
+            onClick={() => {
+              if (window.parent !== window) {
+                window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+              } else {
+                window.location.href = 'https://web.mantracare.com';
+              }
+            }}
             className="w-10 h-10 rounded-xl flex items-center justify-center transition-colors text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm mb-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

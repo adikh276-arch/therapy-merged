@@ -703,6 +703,18 @@ export function CareTeam() {
             <div className="p-4 flex-shrink-0">
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => {
+                      if (window.parent !== window) {
+                        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+                      } else {
+                        window.location.href = 'https://web.mantracare.com';
+                      }
+                    }}
+                    className="w-9 h-9 rounded-xl flex items-center justify-center transition-colors flex-shrink-0 text-[#64748B] hover:text-[#020817] hover:bg-[#f3faff]"
+                  >
+                    <ChevronLeft size={24} />
+                  </button>
                   <div className="w-10 h-10 bg-[#F1F5F9] rounded-md flex items-center justify-center flex-shrink-0">
                     <MessageCircle size={20} className="text-[#1E293B]" strokeWidth={2} />
                   </div>

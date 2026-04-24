@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useEnergy, EnergyLevel } from "../context/EnergyContext";
-import { Home } from "lucide-react";
+import { Home, History } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 import {
