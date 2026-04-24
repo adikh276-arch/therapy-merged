@@ -40,6 +40,14 @@ function ProtectedLayout() {
   );
 }
 
+const loadingFallback = (
+  <div className="flex min-h-screen items-center justify-center">
+    <div className="h-10 w-10 animate-spin rounded-full border-4 border-primary/20 border-t-primary" aria-hidden="true"></div>
+    <span className="sr-only">Loading</span>
+  </div>
+);
+
+const withLoading = (element: React.ReactNode) => <Suspense fallback={loadingFallback}>{element}</Suspense>;
 
 export const router = createBrowserRouter([
   {
@@ -47,36 +55,36 @@ export const router = createBrowserRouter([
     children: [
       { index: true, element: <SelfCareResources /> },
       { path: "concerns/:concern/:type", element: <StaticContentViewer /> },
-      
+
       {
         element: <ProtectedLayout />,
         children: [
-          { path: "exercises/4-6-8-breathing/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><App468Breathing /></Suspense> },
-          { path: "exercises/5-4-3-2-1-grounding/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><App54321Grounding /></Suspense> },
-          { path: "tools/affirmations/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><Affirmations /></Suspense> },
-          { path: "tips/anxiety-tips/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><AnxietyTips /></Suspense> },
-          { path: "tools/a-letter-to-self/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><ALetterToSelf /></Suspense> },
-          { path: "trackers/a-pause-for-appreciation/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><APauseForAppreciation /></Suspense> },
-          { path: "exercises/box-breathing/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><BoxBreathing /></Suspense> },
-          { path: "tools/brain-dump-and-sort/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><BrainDumpAndSort /></Suspense> },
-          { path: "trackers/care-tracker/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><CareTracker /></Suspense> },
-          { path: "trackers/daily-gratitude-diary/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DailyGratitudeDiary /></Suspense> },
-          { path: "trackers/energy-tracker/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><EnergyTracker /></Suspense> },
-          { path: "tips/depression-tips/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DepressionTips /></Suspense> },
-          { path: "exercises/diffusion-technique/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DiffusionTechnique /></Suspense> },
-          { path: "tools/doodle-burst/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><DoodleBurst /></Suspense> },
-          { path: "tools/environment-optimization/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><EnvironmentOptimization /></Suspense> },
-          { path: "trackers/gratitude-tracker/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><GratitudeTracker /></Suspense> },
-          { path: "exercises/grounding-technique/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><GroundingTechnique /></Suspense> },
-          { path: "tools/joyful-activities/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><JoyfulActivities /></Suspense> },
-          { path: "tools/know-your-values/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><KnowYourValues /></Suspense> },
-          { path: "tools/personal-mission-statement/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><PersonalMissionStatement /></Suspense> },
-          { path: "trackers/physical-activity-log/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><PhysicalActivityLog /></Suspense> },
-          { path: "tools/real-stories-to-overcome-anxiety/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><RealStoriesToOvercomeAnxiety /></Suspense> },
-          { path: "tools/self-care-bingo/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><SelfCareBingo /></Suspense> },
-          { path: "tips/stress-tips/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><StressTips /></Suspense> },
-          { path: "trackers/vibe-tracker/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><VibeTracker /></Suspense> },
-          { path: "tools/what-are-your-habits/*", element: <Suspense fallback={<div className="p-8 text-center text-slate-500 font-sans">Loading...</div>}><WhatAreYourHabits /></Suspense> }
+          { path: "exercises/4-6-8-breathing/*", element: withLoading(<App468Breathing />) },
+          { path: "exercises/5-4-3-2-1-grounding/*", element: withLoading(<App54321Grounding />) },
+          { path: "tools/affirmations/*", element: withLoading(<Affirmations />) },
+          { path: "tips/anxiety-tips/*", element: withLoading(<AnxietyTips />) },
+          { path: "tools/a-letter-to-self/*", element: withLoading(<ALetterToSelf />) },
+          { path: "trackers/a-pause-for-appreciation/*", element: withLoading(<APauseForAppreciation />) },
+          { path: "exercises/box-breathing/*", element: withLoading(<BoxBreathing />) },
+          { path: "tools/brain-dump-and-sort/*", element: withLoading(<BrainDumpAndSort />) },
+          { path: "trackers/care-tracker/*", element: withLoading(<CareTracker />) },
+          { path: "trackers/daily-gratitude-diary/*", element: withLoading(<DailyGratitudeDiary />) },
+          { path: "trackers/energy-tracker/*", element: withLoading(<EnergyTracker />) },
+          { path: "tips/depression-tips/*", element: withLoading(<DepressionTips />) },
+          { path: "exercises/diffusion-technique/*", element: withLoading(<DiffusionTechnique />) },
+          { path: "tools/doodle-burst/*", element: withLoading(<DoodleBurst />) },
+          { path: "tools/environment-optimization/*", element: withLoading(<EnvironmentOptimization />) },
+          { path: "trackers/gratitude-tracker/*", element: withLoading(<GratitudeTracker />) },
+          { path: "exercises/grounding-technique/*", element: withLoading(<GroundingTechnique />) },
+          { path: "tools/joyful-activities/*", element: withLoading(<JoyfulActivities />) },
+          { path: "tools/know-your-values/*", element: withLoading(<KnowYourValues />) },
+          { path: "tools/personal-mission-statement/*", element: withLoading(<PersonalMissionStatement />) },
+          { path: "trackers/physical-activity-log/*", element: withLoading(<PhysicalActivityLog />) },
+          { path: "tools/real-stories-to-overcome-anxiety/*", element: withLoading(<RealStoriesToOvercomeAnxiety />) },
+          { path: "tools/self-care-bingo/*", element: withLoading(<SelfCareBingo />) },
+          { path: "tips/stress-tips/*", element: withLoading(<StressTips />) },
+          { path: "trackers/vibe-tracker/*", element: withLoading(<VibeTracker />) },
+          { path: "tools/what-are-your-habits/*", element: withLoading(<WhatAreYourHabits />) }
         ]
       },
       { path: "*", element: <Navigate to="/" replace /> },

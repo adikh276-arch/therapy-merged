@@ -36,7 +36,7 @@ export function useActivities() {
         "SELECT id, to_char(date, 'YYYY-MM-DD') as date, emoji, name, duration, notes FROM activities WHERE user_id = $1 ORDER BY date DESC",
         [userId]
       );
-      setActivities(res.rows);
+      setActivities(res);
     } catch (err) {
       console.error("Failed to fetch activities:", err);
     } finally {
@@ -56,7 +56,7 @@ export function useActivities() {
         "INSERT INTO activities (user_id, date, emoji, name, duration, notes) VALUES ($1, $2, $3, $4, $5, $6) RETURNING id, to_char(date, 'YYYY-MM-DD') as date, emoji, name, duration, notes",
         [userId, date, emoji, name, duration, notes]
       );
-      setActivities(prev => [res.rows[0], ...prev]);
+      setActivities(prev => [res[0], ...prev]);
     } catch (err) {
       console.error("Failed to add activity:", err);
     }
@@ -90,7 +90,7 @@ export function useActivities() {
 
       const res = await pool.query(query, values);
       setActivities(prev =>
-        prev.map(a => a.id === id ? res.rows[0] : a)
+        prev.map(a => a.id === id ? res[0] : a)
       );
     } catch (err) {
       console.error("Failed to edit activity:", err);

@@ -1,12 +1,6 @@
-import { sql } from '@/lib/db';
+import { dbRequest } from '@/lib/db';
 
-
-// Essential for browser environments
-
-
-
-
-export const pool = { query: (t: string, p?: any[]) => (sql as any).query(t, p || []) };
+export const pool = { query: dbRequest };
 
 
 

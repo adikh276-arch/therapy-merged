@@ -26,12 +26,12 @@ const getUserId = () => sessionStorage.getItem("user_id");
 const formatDate = (dateValue: any): string => {
   if (!dateValue) return "";
   try {
-    const d = dateValue instanceof Date 
-      ? dateValue 
+    const d = dateValue instanceof Date
+      ? dateValue
       : new Date(dateValue.toString().includes("T") ? dateValue : `${dateValue}T00:00:00`);
-    
+
     if (isNaN(d.getTime())) return "";
-    
+
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   } catch (error) {
     console.error("Error formatting date:", dateValue, error);
@@ -70,9 +70,9 @@ export async function getAllEntries(): Promise<GratitudeEntry[]> {
     date: formatDate(row.date),
     gratitude1: row.gratitude1 || "",
     gratitude2: row.gratitude2 || "",
-    mood: { 
-      emoji: row.mood_emoji || MOODS[2].emoji, 
-      label: row.mood_label || MOODS[2].label 
+    mood: {
+      emoji: row.mood_emoji || MOODS[2].emoji,
+      label: row.mood_label || MOODS[2].label
     }
   }));
 }
@@ -90,9 +90,9 @@ export async function getEntryById(id: string): Promise<GratitudeEntry | undefin
     date: formatDate(row.date),
     gratitude1: row.gratitude1 || "",
     gratitude2: row.gratitude2 || "",
-    mood: { 
-      emoji: row.mood_emoji || MOODS[2].emoji, 
-      label: row.mood_label || MOODS[2].label 
+    mood: {
+      emoji: row.mood_emoji || MOODS[2].emoji,
+      label: row.mood_label || MOODS[2].label
     }
   };
 }
@@ -110,9 +110,9 @@ export async function getEntryByDate(date: string): Promise<GratitudeEntry | und
     date: formatDate(row.date),
     gratitude1: row.gratitude1 || "",
     gratitude2: row.gratitude2 || "",
-    mood: { 
-      emoji: row.mood_emoji || MOODS[2].emoji, 
-      label: row.mood_label || MOODS[2].label 
+    mood: {
+      emoji: row.mood_emoji || MOODS[2].emoji,
+      label: row.mood_label || MOODS[2].label
     }
   };
 }
@@ -136,9 +136,9 @@ export async function getEntriesForMonth(year: number, month: number): Promise<G
     date: formatDate(row.date),
     gratitude1: row.gratitude1 || "",
     gratitude2: row.gratitude2 || "",
-    mood: { 
-      emoji: row.mood_emoji || MOODS[2].emoji, 
-      label: row.mood_label || MOODS[2].label 
+    mood: {
+      emoji: row.mood_emoji || MOODS[2].emoji,
+      label: row.mood_label || MOODS[2].label
     }
   }));
 }

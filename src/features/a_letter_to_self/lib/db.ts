@@ -2,7 +2,7 @@ import { sql } from '@/lib/db';
 
 // For browser environments, @neondatabase/serverless handles the connection
 // without Node-only dependencies like 'net' or 'tls'.
-export const pool = { 
+export const pool = {
     query: (t: string, p?: any[]) => (sql as any).query(t, p || []),
     connect: () => { throw new Error("Pool.connect not supported in serverless HTTP mode"); }
 };

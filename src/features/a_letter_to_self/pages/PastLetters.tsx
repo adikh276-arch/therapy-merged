@@ -82,8 +82,8 @@ const PastLetters = () => {
   // Full letter view
   if (selectedEntry) {
     return (
-      <PremiumLayout 
-        title="Letter Detail" 
+      <PremiumLayout
+        title="Letter Detail"
         onSecondaryBack={() => setSelectedEntry(null)}
         secondaryBackLabel="Back to list"
       >
@@ -94,7 +94,7 @@ const PastLetters = () => {
             className="bg-white rounded-[3rem] border-2 border-slate-100 p-12 shadow-xl shadow-slate-200/40 space-y-10 text-left relative overflow-hidden"
           >
             <div className="absolute top-0 right-0 p-10 text-slate-100 pointer-events-none opacity-40">
-                <Mail size={120} strokeWidth={1} />
+              <Mail size={120} strokeWidth={1} />
             </div>
 
             <div className="flex items-center justify-between border-b border-slate-50 pb-8 relative z-10">
@@ -152,10 +152,10 @@ const PastLetters = () => {
   }
 
   return (
-    <PremiumLayout 
-        title="My Letters" 
-        onSecondaryBack={() => navigate("..")}
-        secondaryBackLabel="Back to start"
+    <PremiumLayout
+      title="My Letters"
+      onSecondaryBack={() => navigate("..")}
+      secondaryBackLabel="Back to start"
     >
       <div className="w-full space-y-10 pb-12">
         <header className="space-y-4">
@@ -172,11 +172,11 @@ const PastLetters = () => {
         {(!entries || entries.length === 0) ? (
           <div className="text-center py-24 bg-slate-50 rounded-[3rem] border-2 border-dashed border-slate-200 space-y-8 group hover:border-primary/20 transition-all">
             <div className="w-24 h-24 bg-white rounded-[2.5rem] flex items-center justify-center mx-auto text-slate-100 shadow-sm group-hover:scale-110 transition-transform">
-                <Mail size={48} strokeWidth={1} />
+              <Mail size={48} strokeWidth={1} />
             </div>
             <div className="space-y-2">
-                <p className="text-slate-400 font-black text-xs uppercase tracking-widest">No letters found yet</p>
-                <p className="text-slate-300 text-sm font-bold">Your future self is waiting to hear from you.</p>
+              <p className="text-slate-400 font-black text-xs uppercase tracking-widest">No letters found yet</p>
+              <p className="text-slate-300 text-sm font-bold">Your future self is waiting to hear from you.</p>
             </div>
             <motion.button
               whileHover={{ scale: 1.02 }}
@@ -201,22 +201,22 @@ const PastLetters = () => {
                 className="w-full text-left bg-white rounded-[2.5rem] border-2 border-slate-100 p-10 shadow-sm hover:shadow-xl hover:shadow-primary/5 hover:border-primary/20 transition-all group flex flex-col gap-6"
               >
                 <div className="flex items-center justify-between w-full">
-                    <div className="flex items-center gap-3 text-[10px] font-black text-slate-300 uppercase tracking-widest group-hover:text-primary transition-colors">
-                      <Calendar size={14} />
-                      {formatDate(entry.date)}
+                  <div className="flex items-center gap-3 text-[10px] font-black text-slate-300 uppercase tracking-widest group-hover:text-primary transition-colors">
+                    <Calendar size={14} />
+                    {formatDate(entry.date)}
+                  </div>
+                  {entry.emotionalState && (
+                    <div className="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-[9px] font-black uppercase tracking-[0.2em] shadow-sm">
+                      {entry.emotionalState}
                     </div>
-                    {entry.emotionalState && (
-                      <div className="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-[9px] font-black uppercase tracking-[0.2em] shadow-sm">
-                        {entry.emotionalState}
-                      </div>
-                    )}
+                  )}
                 </div>
                 <p className="text-slate-600 font-bold text-lg leading-relaxed line-clamp-3">
                   {entry.content}
                 </p>
                 <div className="pt-6 border-t border-slate-50 flex items-center justify-between">
-                    <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest group-hover:text-slate-500 transition-colors">Read Full Letter</span>
-                    <Mail size={16} className="text-slate-200 group-hover:text-primary transition-all" />
+                  <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest group-hover:text-slate-500 transition-colors">Read Full Letter</span>
+                  <Mail size={16} className="text-slate-200 group-hover:text-primary transition-all" />
                 </div>
               </motion.button>
             ))}

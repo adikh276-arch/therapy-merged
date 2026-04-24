@@ -33,7 +33,7 @@ function App() {
         if (token) {
           urlParams.delete("token");
           const cleanSearch = urlParams.toString() ? `?${urlParams.toString()}` : "";
-          window.location.href = window.location.pathname + cleanSearch + window.location.hash;
+          window.history.replaceState(null, "", window.location.pathname + cleanSearch + window.location.hash);
         }
         return;
       }
@@ -74,10 +74,17 @@ function App() {
           // Remove token from URL bar instantly
           urlParams.delete("token");
           const cleanSearch = urlParams.toString() ? `?${urlParams.toString()}` : "";
+          const cleanPath = window.location.pathname + cleanSearch + window.location.hash;
 
           // If we have a saved path, go there. Otherwise stay on current path (without token).
-          const targetPath = savedRedirectPath || (window.location.pathname + cleanSearch + window.location.hash);
-          window.location.href = targetPath;
+          const targetPath = savedRedirectPath || cleanPath;
+          if (targetPath === window.location.pathname + window.location.search + window.location.hash) {
+            window.history.replaceState(null, "", targetPath);
+          } else if (targetPath === cleanPath) {
+            window.history.replaceState(null, "", cleanPath);
+          } else {
+            window.location.replace(targetPath);
+          }
 
           setIsAuthorized(true);
         } catch (err) {
@@ -99,7 +106,7 @@ function App() {
 
       // Hard redirect to Auth Portal
       const appRoot = window.location.origin + "/therapy/";
-      window.location.href = `https://web.mantracare.com/app/therapy?redirect_url=${encodeURIComponent(appRoot)}`;
+      window.location.replace(`https://web.mantracare.com/app/therapy?redirect_url=${encodeURIComponent(appRoot)}`);
     };
 
     performHandshake();
@@ -108,11 +115,8 @@ function App() {
   if (!isAuthorized) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-white font-sans">
-        <div className="flex flex-col items-center gap-6">
-          <div className="h-12 w-12 animate-spin rounded-full border-4 border-blue-600 border-t-transparent shadow-sm"></div>
-          <p className="text-lg font-semibold text-slate-800 tracking-tight">Initializing Secure Session...</p>
-          <p className="text-sm text-slate-500">Wait while we verify your credentials.</p>
-        </div>
+        <div className="h-12 w-12 animate-spin rounded-full border-4 border-blue-600 border-t-transparent shadow-sm" aria-hidden="true"></div>
+        <span className="sr-only">Loading</span>
       </div>
     );
   }
