@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { format, parseISO } from "date-fns";
-import { CalendarIcon, Pencil, Trash2, ChevronDown, ChevronUp } from "lucide-react";
+import { CalendarIcon, Pencil, Trash2, ChevronDown, ChevronUp, Sparkles, History } from "lucide-react";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { cn } from "../lib/utils";
 import { Button } from "../components/ui/button";

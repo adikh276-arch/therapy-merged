@@ -8,30 +8,30 @@ export const pool = { query: dbRequest };
  * Executes the schema SQL if tables don't exist.
  */
 export async function initDatabase() {
-    const schema = `
-    CREATE TABLE IF NOT EXISTS users (
-        id BIGINT PRIMARY KEY,
-        created_at TIMESTAMP DEFAULT NOW(),
-        updated_at TIMESTAMP DEFAULT NOW()
-    );
-
-    CREATE TABLE IF NOT EXISTS activities (
-        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-        user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-        date DATE NOT NULL,
-        emoji TEXT,
-        name TEXT NOT NULL,
-        duration INTEGER NOT NULL,
-        notes TEXT,
-        created_at TIMESTAMP DEFAULT NOW()
-    );
-
-    CREATE INDEX IF NOT EXISTS idx_activities_user_id ON activities(user_id);
-    CREATE INDEX IF NOT EXISTS idx_activities_date ON activities(date);
-  `;
+    const statements = [
+        `CREATE TABLE IF NOT EXISTS users (
+            id BIGINT PRIMARY KEY,
+            created_at TIMESTAMP DEFAULT NOW(),
+            updated_at TIMESTAMP DEFAULT NOW()
+        );`,
+        `CREATE TABLE IF NOT EXISTS activities (
+            id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+            user_id BIGINT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+            date DATE NOT NULL,
+            emoji TEXT,
+            name TEXT NOT NULL,
+            duration INTEGER NOT NULL,
+            notes TEXT,
+            created_at TIMESTAMP DEFAULT NOW()
+        );`,
+        `CREATE INDEX IF NOT EXISTS idx_activities_user_id ON activities(user_id);`,
+        `CREATE INDEX IF NOT EXISTS idx_activities_date ON activities(date);`
+    ];
 
     try {
-        await pool.query(schema);
+        for (const statement of statements) {
+            await pool.query(statement);
+        }
         console.log('✔ Database schema initialized successfully');
 
         // Ensure the current user exists in the users table
@@ -43,4 +43,5 @@ export async function initDatabase() {
         console.error('✘ Database initialization failed:', err);
     }
 }
+
 
