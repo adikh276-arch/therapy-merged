@@ -29,9 +29,9 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
       // Always try to notify parent first
       if (window.parent !== window) {
         window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-      } else {
-        window.location.href = 'https://web.mantracare.com';
       }
+      // Then navigate to external dashboard root
+      window.location.href = 'https://web.mantracare.com';
     }
   };
 

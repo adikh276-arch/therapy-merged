@@ -4,7 +4,7 @@ import React from "react";
 export function UniversalBackButton({ action = "exit" }: { action?: string }) {
   const handleBack = () => {
     if (window.parent !== window) {
-      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+      window.parent.postMessage({ action }, 'https://web.mantracare.com');
     } else {
       window.location.href = 'https://web.mantracare.com';
     }
