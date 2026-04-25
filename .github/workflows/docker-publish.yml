@@ -1,4 +1,4 @@
-name: Build & Push therapy:1.0
+name: Build & Push therapy:1.1
 
 on:
   push:
@@ -50,7 +50,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            bunker.mantracare.com/lovable/therapy:1.0
+            bunker.mantracare.com/lovable/therapy:1.1
             bunker.mantracare.com/lovable/therapy:latest
           build-args: |
             VITE_AUTH_PORTAL_URL=${{ secrets.AUTH_PORTAL_URL }}
