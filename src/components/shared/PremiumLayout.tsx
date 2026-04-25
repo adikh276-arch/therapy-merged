@@ -29,6 +29,10 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   const navigate = useNavigate();
 
   const handleBack = () => {
+    if (onBack) {
+      onBack();
+      return;
+    }
     // Strict enforcement: Top-left chevron always exits to parent dashboard
     if (window.parent !== window) {
       window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');

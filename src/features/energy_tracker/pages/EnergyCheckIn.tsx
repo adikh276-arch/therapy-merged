@@ -24,6 +24,13 @@ const EnergyCheckIn = () => {
   return (
     <PremiumLayout 
       title="Energy Check-in" 
+      onBack={() => {
+        if (window.parent !== window) {
+          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+        } else {
+          window.location.href = 'https://web.mantracare.com';
+        }
+      }}
       onReset={!showIntro ? () => setShowIntro(true) : undefined}
     >
       <AnimatePresence mode="wait">

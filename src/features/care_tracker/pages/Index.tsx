@@ -95,6 +95,13 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={getTitle()} 
+      onBack={() => {
+        if (window.parent !== window) {
+          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+        } else {
+          window.location.href = 'https://web.mantracare.com';
+        }
+      }}
       onReset={screen !== 'intro' ? resetFlow : undefined}
       onSecondaryBack={screen === 'history' ? () => setScreen('review') : undefined}
       secondaryBackLabel={screen === 'history' ? "Back to Review" : undefined}

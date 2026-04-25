@@ -47,6 +47,13 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={getTitle()} 
+      onBack={() => {
+        if (window.parent !== window) {
+          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+        } else {
+          window.location.href = 'https://web.mantracare.com';
+        }
+      }}
       onReset={view !== 'intro' ? () => { reset(); setView('intro'); } : undefined}
       onSecondaryBack={secBack?.action}
       secondaryBackLabel={secBack?.label}
