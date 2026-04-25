@@ -815,7 +815,7 @@ export function SelfCareResources() {
                       onClick={() => {
                         if (tool.id === 'mindful-space') {
                           if (window.parent !== window) {
-                            window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+                            window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
                           } else {
                             window.location.href = 'https://web.mantracare.com';
                           }
@@ -858,7 +858,7 @@ export function SelfCareResources() {
                       onClick={() => {
                         if (topic.id === 'ocd') {
                           if (window.parent !== window) {
-                            window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
+                            window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
                           } else {
                             window.location.href = 'https://web.mantracare.com';
                           }

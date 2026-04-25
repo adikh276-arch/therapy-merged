@@ -18,7 +18,7 @@ const OverviewScreen = ({ onStart }: Props) => {
             if (window.parent !== window) {
               window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
             } else {
-              window.history.back();
+              window.location.href = 'https://web.mantracare.com';
             }
           }}
         >

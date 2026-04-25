@@ -34,7 +34,7 @@ const Index = () => {
       title="Joyful Activities" 
       onBack={() => {
         if (window.parent !== window) {
-          window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
         } else {
           window.location.href = 'https://web.mantracare.com';
         }
