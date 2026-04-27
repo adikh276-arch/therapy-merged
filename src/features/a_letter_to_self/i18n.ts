@@ -6,15 +6,31 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const instance = i18n.createInstance();
 
 instance
-  .use(HttpBackend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    
-    
-    backend: {
-      loadPath: '/locales/a_letter_to_self/{{lng}}.json',
+    resources: {
+      en: {
+        translation: {
+          "title": "💌 A Letter to Self",
+          "subtitle": "A moment of kindness, just for you",
+          "intro_text": "Stress can make us forget how strong we are. This activity helps you pause, reflect, and speak kindly to yourself.",
+          "start_writing": "Start Writing →",
+          "view_past_letters": "View Past Letters",
+          "no_judgments": "No judgments. No pressure. Just you.",
+          "write_title": "Write to Yourself",
+          "write_placeholder": "Dear me,\n\nI know things have been difficult...",
+          "save_letter": "Save Letter",
+          "cancel": "Cancel",
+          "check_in_title": "How are you feeling?",
+          "complete_title": "Letter Saved",
+          "complete_msg": "Your letter has been saved safely.",
+          "home": "Home",
+          "past_letters_title": "Past Letters",
+          "empty_letters": "No past letters found."
+        }
+      }
     },
     interpolation: {
       escapeValue: false,

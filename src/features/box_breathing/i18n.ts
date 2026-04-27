@@ -6,15 +6,34 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const instance = i18n.createInstance();
 
 instance
-  .use(HttpBackend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    
-    
-    backend: {
-      loadPath: '/locales/box_breathing/{{lng}}.json',
+    resources: {
+      en: {
+        translation: {
+          "relax": "Relax",
+          "about_technique": "About This Technique",
+          "technique_description": "Box breathing uses a simple 4-4-4-4 pattern — inhale, hold, exhale, hold — each for four seconds. It activates your parasympathetic nervous system, lowering stress and bringing you back to a calm, focused state.",
+          "how_to_practice": "How to Practice",
+          "inhale_4s": "Inhale for 4 seconds",
+          "hold_4s": "Hold for 4 seconds",
+          "exhale_4s": "Exhale for 4 seconds",
+          "repeat_cycle": "Repeat the cycle",
+          "start_breathing": "Start Breathing",
+          "breathe_in": "Breathe In",
+          "hold": "Hold",
+          "breathe_out": "Breathe Out",
+          "feeling_calmer": "You're Feeling Calmer",
+          "session_complete_msg": "Great job completing your breathing session. Take a moment to notice how your body feels — lighter, steadier, more at ease.",
+          "start_again": "Start Again",
+          "back": "Back",
+          "not_found_404": "404",
+          "page_not_found": "Oops! Page not found",
+          "return_home": "Return to Home"
+        }
+      }
     },
     interpolation: {
       escapeValue: false,

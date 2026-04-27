@@ -6,15 +6,40 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const instance = i18n.createInstance();
 
 instance
-  .use(HttpBackend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    
-    
-    backend: {
-      loadPath: '/locales/4_6_8_breathing/{{lng}}.json',
+    resources: {
+      en: {
+        translation: {
+          "app_title": "4-6-8 Breathing Exercise",
+          "app_subtitle": "\"Slow your body. Settle your mind.\"",
+          "intro_description": "This breathing technique helps calm your nervous system. Breathe in for 4 seconds, hold for 6 seconds, and exhale slowly for 8 seconds. Longer exhales signal safety to your body.",
+          "begin_button": "Begin Exercise",
+          "ready": "Ready",
+          "inhale": "Inhale",
+          "hold": "Hold",
+          "exhale": "Exhale",
+          "rounds_to_feel_shift": "Complete {{count}} rounds to feel the shift.",
+          "round_x_of_y": "Round {{current}} of {{total}}",
+          "rounds_selector": "{{count}} rounds",
+          "resume": "Resume",
+          "start": "Start",
+          "pause": "Pause",
+          "reset": "Reset",
+          "you_did_it": "You did it.",
+          "notice_body": "Notice your body.",
+          "breath_slower": "Is your breath slower?",
+          "chest_softer": "Is your chest softer?",
+          "what_feels_different": "What feels different right now?",
+          "reflection_placeholder": "Take a moment to reflect…",
+          "finish": "Finish",
+          "not_found_title": "404",
+          "not_found_text": "Oops! Page not found",
+          "return_home": "Return to Home"
+        }
+      }
     },
     interpolation: {
       escapeValue: false,
