@@ -71,6 +71,7 @@ const Index = () => {
                         t('intro_desc2'),
                         t('intro_desc3'),
                     ]}
+                    duration="5-10 mins"
                 />
             </motion.div>
           )}
