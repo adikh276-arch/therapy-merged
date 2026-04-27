@@ -15,17 +15,17 @@ const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
     );
 
   return (
-    <div className="flex flex-col items-center py-6 pb-40">
-      <div className="w-full max-w-lg space-y-10">
+    <div className="flex flex-col items-center py-6 pb-24">
+      <div className="w-full max-w-lg space-y-8">
         <header className="space-y-4">
-          <div className="flex items-center gap-2 text-[#3B82F6] font-black text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />
-            Resilience & Coping
+          <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
+            <Sparkles size={14} />
+            Coping Mechanisms
           </div>
-          <h2 className="text-4xl font-black text-[#0F172A] tracking-tight leading-tight">{t('coping_title')}</h2>
+          <h2 className="text-4xl font-extrabold text-slate-900 leading-tight">{t('coping_title')}</h2>
         </header>
 
-        <div className="grid gap-4">
+        <div className="grid gap-3">
           {options.map((opt) => (
             <SelectableTile
               key={opt}
@@ -35,18 +35,18 @@ const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
             />
           ))}
         </div>
-      </div>
 
-      <div className="fixed bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-[#F6F8FB] via-[#F6F8FB] to-transparent pt-12 flex justify-center z-50">
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={onNext}
-          className="w-full max-w-lg py-5 rounded-[2rem] bg-gradient-to-br from-[#3B82F6] to-[#2563EB] text-white font-black text-lg shadow-xl shadow-blue-200/50 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
-        >
-          {t('continue')}
-          <ArrowRight size={20} />
-        </motion.button>
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-lg px-6 z-20">
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={onNext}
+            className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
+          >
+            {t('continue')}
+            <ArrowRight size={20} />
+          </motion.button>
+        </div>
       </div>
     </div>
   );
