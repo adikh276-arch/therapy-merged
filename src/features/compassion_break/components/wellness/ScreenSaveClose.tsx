@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Heart, Save } from "lucide-react";
 
 interface CheckInData {
   beforeIntensity: number;
