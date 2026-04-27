@@ -10,25 +10,25 @@ interface SelectableTileProps {
 const SelectableTile = ({ label, selected, onToggle }: SelectableTileProps) => {
   return (
     <motion.button
-      whileHover={{ scale: 1.01, x: 4 }}
+      whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
       onClick={onToggle}
-      className={`w-full text-left p-5 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
+      className={`w-full text-left p-6 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
         selected
-          ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-          : "bg-white border-slate-100 text-slate-700 hover:bg-slate-50 shadow-sm"
+          ? "bg-[#0F172A] border-[#0F172A] text-white shadow-xl shadow-slate-200"
+          : "bg-white border-slate-100 text-[#334155] hover:border-[#3B82F6]/20 shadow-sm"
       }`}
     >
-      <span className="text-sm font-bold">{label}</span>
+      <span className="text-sm font-black uppercase tracking-tight">{label}</span>
       <AnimatePresence>
         {selected && (
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.5 }}
-            className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center"
+            className="w-6 h-6 rounded-full bg-[#3B82F6] flex items-center justify-center text-white"
           >
-            <Check size={16} />
+            <Check size={14} strokeWidth={4} />
           </motion.div>
         )}
       </AnimatePresence>
