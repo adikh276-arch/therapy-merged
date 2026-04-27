@@ -14,7 +14,7 @@ instance
     
     
     backend: {
-      loadPath: '/therapy/locales/doodle_burst/{{lng}}.json',
+      loadPath: '/locales/doodle_burst/{{lng}}.json',
     },
     interpolation: {
       escapeValue: false,

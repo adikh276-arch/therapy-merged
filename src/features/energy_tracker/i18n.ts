@@ -14,7 +14,7 @@ instance
     
     
     backend: {
-      loadPath: '/therapy/locales/energy_tracker/{{lng}}.json',
+      loadPath: '/locales/energy_tracker/{{lng}}.json',
     },
     interpolation: {
       escapeValue: false,

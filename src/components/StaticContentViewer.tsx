@@ -7,7 +7,7 @@ export function StaticContentViewer() {
   
   // Normalize concern: replace hyphens with underscores to match folder names (e.g. eating-disorder → eating_disorder)
   const normalizedConcern = (concern || '').replace(/-/g, '_');
-  const src = `/therapy/static/content/${normalizedConcern}_${type}/index.html`;
+  const src = `/static/content/${normalizedConcern}_${type}/index.html`;
 
   return (
     <div className="flex flex-col h-screen bg-[#F6F8FB]">

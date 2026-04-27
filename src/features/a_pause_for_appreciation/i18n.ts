@@ -14,7 +14,7 @@ instance
     
     
     backend: {
-      loadPath: '/therapy/locales/a_pause_for_appreciation/{{lng}}.json',
+      loadPath: '/locales/a_pause_for_appreciation/{{lng}}.json',
     },
     interpolation: {
       escapeValue: false,

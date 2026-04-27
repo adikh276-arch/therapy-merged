@@ -14,7 +14,7 @@ instance
     
     
     backend: {
-      loadPath: '/therapy/locales/vibe_tracker/{{lng}}.json',
+      loadPath: '/locales/vibe_tracker/{{lng}}.json',
     },
     interpolation: {
       escapeValue: false,

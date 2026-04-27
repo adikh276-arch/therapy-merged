@@ -14,7 +14,7 @@ instance
     
     
     backend: {
-      loadPath: '/therapy/locales/brain_dump_and_sort/{{lng}}.json',
+      loadPath: '/locales/brain_dump_and_sort/{{lng}}.json',
     },
     interpolation: {
       escapeValue: false,

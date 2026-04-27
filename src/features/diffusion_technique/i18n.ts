@@ -14,7 +14,7 @@ instance
     
     
     backend: {
-      loadPath: '/therapy/locales/diffusion_technique/{{lng}}.json',
+      loadPath: '/locales/diffusion_technique/{{lng}}.json',
     },
     interpolation: {
       escapeValue: false,
