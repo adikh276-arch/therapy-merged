@@ -105,7 +105,7 @@ function App() {
       }
 
       // Hard redirect to Auth Portal
-      const appRoot = window.location.origin + "/";
+      const appRoot = window.location.origin + "/therapy/";
       window.location.replace(`https://web.mantracare.com/app/therapy?redirect_url=${encodeURIComponent(appRoot)}`);
     };
 

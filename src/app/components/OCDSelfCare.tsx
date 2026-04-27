@@ -77,7 +77,7 @@ const topicCards: TopicCard[] = [
   { id: "ocd-cycle", icon: RefreshCw, label: "OCD Cycle", bgColor: "#E0F7FA", iconColor: "#00BCD4", url: "/concerns/ocd/myths" },
   { id: "reframing-thoughts", icon: Brain, label: "Reframing Thoughts", bgColor: "#E8F8F5", iconColor: "#34D399", url: "/tools/thought-shifts" },
   { id: "success-stories", icon: Award, label: "Success Stories", bgColor: "#F7FEE7", iconColor: "#84CC16", url: "/concerns/ocd/stories" },
-  { id: "meditation", icon: BookOpen, label: "Meditation", bgColor: "#EDE9FE", iconColor: "#8B5CF6", url: "/service/meditation" },
+  { id: "meditation", icon: BookOpen, label: "Meditation", bgColor: "#EDE9FE", iconColor: "#8B5CF6", url: "https://web.mantracare.com/mindfulness/meditation" },
 ];
 
 const mindfulnessCards: MindfulnessCard[] = [
@@ -88,7 +88,7 @@ const mindfulnessCards: MindfulnessCard[] = [
 ];
 
 const selfCareToolCards: TopicCard[] = [
-  { id: "vibe-tracker", icon: Sparkles, label: "Vibe Tracker", bgColor: "linear-gradient(135deg, #ec4899 0%, #db2777 100%)", iconColor: "#EC4899", url: "/trackers/mood" },
+  { id: "vibe-tracker", icon: Sparkles, label: "Vibe Tracker", bgColor: "linear-gradient(135deg, #ec4899 0%, #db2777 100%)", iconColor: "#EC4899", url: "/trackers/vibe-tracker" },
 ];
 
 const wellnessGuideCards: TopicCard[] = [
