@@ -28,17 +28,17 @@ const Index = () => {
 
   const getTitle = () => {
     switch(view) {
-      case 'sky': return "Sky and Clouds";
-      case 'sell': return "Sell the Thought";
-      case 'name': return "Name the Story";
-      case 'choose': return "Diffusion Techniques";
-      default: return "Diffusion";
+      case 'sky': return t('title_sky_clouds');
+      case 'sell': return t('title_sell_thought');
+      case 'name': return t('title_name_story');
+      case 'choose': return t('title_choose');
+      default: return t('title_diffusion');
     }
   };
 
   const getSecondaryBack = () => {
-    if (view === "choose") return { label: "Back to Start", action: () => setView("intro") };
-    if (view !== "intro" && step !== 3) return { label: "Back to Techniques", action: () => { reset(); setView("choose"); } };
+    if (view === "choose") return { label: t('label_back_to_start'), action: () => setView("intro") };
+    if (view !== "intro" && step !== 3) return { label: t('label_back_to_techniques'), action: () => { reset(); setView("choose"); } };
     return null;
   };
 
@@ -71,7 +71,6 @@ const Index = () => {
                         t('intro_desc2'),
                         t('intro_desc3'),
                     ]}
-                    duration="5-10 mins"
                 />
             </motion.div>
           )}
@@ -81,7 +80,7 @@ const Index = () => {
                 <header className="space-y-4">
                     <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
                         <Sparkles size={14} />
-                        Choose Technique
+                        {t('label_choose_technique')}
                     </div>
                     <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">{t('choose_title')}</h1>
                     <p className="text-slate-500 text-base font-bold leading-relaxed max-w-md">{t('choose_desc')}</p>
@@ -89,9 +88,9 @@ const Index = () => {
 
                 <div className="grid gap-4">
                     {[
-                        { icon: <Cloud />, title: "Sky and Cloud", desc: t('card_sky_desc'), view: "sky" as View, color: "bg-cyan-50 text-cyan-600" },
-                        { icon: <Banknote />, title: "Sell the Thought", desc: t('card_sell_desc'), view: "sell" as View, color: "bg-teal-50 text-teal-600" },
-                        { icon: <BookOpen />, title: "Name the Story", desc: t('card_name_desc'), view: "name" as View, color: "bg-sky-50 text-sky-600" },
+                        { icon: <Cloud />, title: t('title_sky_clouds'), desc: t('card_sky_desc'), view: "sky" as View, color: "bg-cyan-50 text-cyan-600" },
+                        { icon: <Banknote />, title: t('title_sell_thought'), desc: t('card_sell_desc'), view: "sell" as View, color: "bg-teal-50 text-teal-600" },
+                        { icon: <BookOpen />, title: t('title_name_story'), desc: t('card_name_desc'), view: "name" as View, color: "bg-sky-50 text-sky-600" },
                     ].map((card, i) => (
                         <motion.button
                             key={card.title}
@@ -147,7 +146,7 @@ const Index = () => {
                             <p className="text-slate-500 text-base font-bold leading-relaxed">{t('sky_hint')}</p>
                         </div>
                         <div className="space-y-3">
-                            <label className="text-[10px] font-black text-slate-300 uppercase tracking-widest px-4">Your current thought</label>
+                            <label className="text-[10px] font-black text-slate-300 uppercase tracking-widest px-4">{t('label_current_thought')}</label>
                             <textarea
                                 value={thought}
                                 onChange={(e) => setThought(e.target.value)}
@@ -225,7 +224,7 @@ const Index = () => {
                             <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">{t('sell_question')}</h1>
                         </div>
                         <div className="space-y-3">
-                            <label className="text-[10px] font-black text-slate-300 uppercase tracking-widest px-4">Your current thought</label>
+                            <label className="text-[10px] font-black text-slate-300 uppercase tracking-widest px-4">{t('label_current_thought')}</label>
                             <input
                                 type="text"
                                 value={thought}
@@ -321,7 +320,7 @@ const Index = () => {
                             <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">{t('name_question')}</h1>
                         </div>
                         <div className="space-y-3">
-                            <label className="text-[10px] font-black text-slate-300 uppercase tracking-widest px-4">The recurrent thought</label>
+                            <label className="text-[10px] font-black text-slate-300 uppercase tracking-widest px-4">{t('label_recurrent_thought')}</label>
                             <input
                                 type="text"
                                 value={thought}
@@ -364,7 +363,7 @@ const Index = () => {
                                 <div className="absolute top-0 right-0 p-8 text-white/5 pointer-events-none">
                                     <BookOpen size={120} strokeWidth={1} />
                                 </div>
-                                <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4 relative z-10">Remember to say:</p>
+                                <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4 relative z-10">{t('label_remember_to_say')}</p>
                                 <p className="text-2xl font-bold italic leading-tight relative z-10">
                                     "{t('conclusion_name_phrase_prefix')} {storyName} {t('conclusion_name_phrase_suffix')}"
                                 </p>

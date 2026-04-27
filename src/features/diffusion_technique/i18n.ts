@@ -91,12 +91,20 @@ instance
           "btn_start_exercise": "Start Exercise →",
           "btn_back_to_home": "Back to Home",
           "label_thought": "Thought:",
-          "label_reflection": "Reflection:"
+          "label_reflection": "Reflection:",
+          "title_sky_clouds": "Sky and Clouds",
+          "title_sell_thought": "Sell the Thought",
+          "title_name_story": "Name the Story",
+          "title_choose": "Diffusion Techniques",
+          "title_diffusion": "Diffusion",
+          "label_back_to_start": "Back to Start",
+          "label_back_to_techniques": "Back to Techniques",
+          "label_choose_technique": "Choose Technique",
+          "label_current_thought": "Your current thought",
+          "label_recurrent_thought": "The recurrent thought",
+          "label_remember_to_say": "Remember to say:"
         }
       }
-    },
-    backend: {
-      loadPath: '/therapy/locales/diffusion_technique/{{lng}}.json',
     },
     interpolation: {
       escapeValue: false,
