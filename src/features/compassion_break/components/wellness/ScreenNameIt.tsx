@@ -29,9 +29,9 @@ const ScreenNameIt = ({ onContinue }: Props) => {
   const hasSelection = selected.length > 0 || custom.trim().length > 0;
 
   return (
-    <div className="flex flex-col items-center text-center px-6 py-8 min-h-screen justify-center">
+    <div className="flex flex-col items-center text-center px-4 py-6">
       <motion.h1
-        className="font-heading text-2xl text-foreground mb-3"
+        className="font-heading text-3xl text-slate-800 mb-2"
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -40,7 +40,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
       </motion.h1>
 
       <motion.p
-        className="text-muted-foreground text-base mb-2"
+        className="text-slate-500 text-base mb-8"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.15, duration: 0.6 }}
@@ -49,7 +49,7 @@ const ScreenNameIt = ({ onContinue }: Props) => {
       </motion.p>
 
       <motion.div
-        className="flex flex-wrap justify-center gap-2.5 mb-6 max-w-[320px]"
+        className="flex flex-wrap justify-center gap-3 mb-8 w-full"
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.6 }}
@@ -57,7 +57,11 @@ const ScreenNameIt = ({ onContinue }: Props) => {
         {EMOTIONS.map((e) => (
           <button
             key={e}
-            className={`emotion-chip ${selected.includes(e) ? "selected" : ""}`}
+            className={`px-6 py-3 rounded-2xl text-sm font-bold transition-all duration-300 ${
+              selected.includes(e)
+                ? "bg-primary text-white shadow-lg shadow-primary/20 scale-[1.05]"
+                : "bg-white text-slate-600 border border-slate-100 hover:bg-slate-50 shadow-sm"
+            }`}
             onClick={() => toggleEmotion(e)}
           >
             {e}
@@ -66,38 +70,31 @@ const ScreenNameIt = ({ onContinue }: Props) => {
       </motion.div>
 
       <motion.div
-        className="w-full max-w-[320px] mb-2"
+        className="w-full bg-white rounded-3xl border border-slate-100 p-8 shadow-xl shadow-slate-200/50 mb-8"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.45, duration: 0.6 }}
       >
-        <p className="text-xs text-muted-foreground mb-2">or type your own</p>
+        <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">or type your own</p>
         <input
           type="text"
-          className="wellness-input text-center"
+          className="w-full bg-slate-50 border-none rounded-2xl p-4 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner"
           placeholder="1–2 words"
           maxLength={30}
           value={custom}
           onChange={(e) => setCustom(e.target.value)}
         />
+        <p className="text-xs text-slate-400 mt-4 italic">
+          Simple is enough.
+        </p>
       </motion.div>
 
-      <motion.p
-        className="text-xs text-muted-foreground mb-8 italic"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.55, duration: 0.6 }}
-      >
-        Simple is enough.
-      </motion.p>
-
       <motion.button
-        className="wellness-btn max-w-[320px]"
+        className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 disabled:opacity-30 transition-all flex items-center justify-center gap-3"
         onClick={handleContinue}
         disabled={!hasSelection}
-        style={{ opacity: hasSelection ? 1 : 0.5 }}
         initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: hasSelection ? 1 : 0.5, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.6 }}
       >
         Continue

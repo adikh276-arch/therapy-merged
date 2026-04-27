@@ -79,7 +79,12 @@ function App() {
               await sql`CREATE TABLE IF NOT EXISTS narrative_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, title TEXT, content TEXT NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
               await sql`CREATE TABLE IF NOT EXISTS food_emotion_logs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, food TEXT, emotion TEXT, situation TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
               await sql`CREATE TABLE IF NOT EXISTS food_rules_challenges (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, rule TEXT, challenge TEXT, outcome TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
-              await sql`CREATE TABLE IF NOT EXISTS compassion_break_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, suffering TEXT, common_humanity TEXT, self_kindness TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+              await sql`CREATE TABLE IF NOT EXISTS compassion_break_entries (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), user_id BIGINT REFERENCES users(id) ON DELETE CASCADE, break_data JSONB NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW())`;
+
+              // Ensure columns exist if tables were created with old schema
+              try { await sql`ALTER TABLE memory_box_entries ADD COLUMN IF NOT EXISTS memory_data JSONB`; } catch(e) {}
+              try { await sql`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS bond_data JSONB`; } catch(e) {}
+              try { await sql`ALTER TABLE compassion_break_entries ADD COLUMN IF NOT EXISTS break_data JSONB`; } catch(e) {}
 
               await sql`INSERT INTO users (id) VALUES (${user_id.toString()}) ON CONFLICT (id) DO NOTHING`;
             } catch (dbErr) {

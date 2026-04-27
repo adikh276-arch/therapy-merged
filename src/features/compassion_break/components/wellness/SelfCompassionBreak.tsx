@@ -115,12 +115,12 @@ const SelfCompassionBreak = () => {
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen > 0 ? () => setScreen(prev => prev - 1) : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
-        <div className="flex justify-center gap-2 mb-8">
+      <div className="w-full max-w-md mx-auto flex flex-col px-4 py-2 min-h-[60vh]">
+        <div className="flex justify-center gap-2 mb-10">
           {Array.from({ length: 6 }).map((_, i) => (
             <div
               key={i}
-              className={`h-2 rounded-full transition-all duration-300 ${i === screen ? "w-8 bg-primary" : "w-2 bg-slate-200"}`}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-100"}`}
             />
           ))}
         </div>

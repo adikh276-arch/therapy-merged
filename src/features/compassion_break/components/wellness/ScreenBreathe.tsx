@@ -57,9 +57,9 @@ const ScreenBreathe = ({ onContinue }: Props) => {
   const phase = PHASES[phaseIndex];
 
   return (
-    <div className="flex flex-col items-center text-center px-6 py-8 min-h-screen justify-center">
+    <div className="flex flex-col items-center text-center px-4 py-6">
       <motion.h1
-        className="font-heading text-2xl text-foreground mb-2"
+        className="font-heading text-3xl text-slate-800 mb-2"
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -68,7 +68,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
       </motion.h1>
 
       <motion.p
-        className="text-muted-foreground text-base mb-10"
+        className="text-slate-500 text-base mb-10"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
@@ -77,23 +77,23 @@ const ScreenBreathe = ({ onContinue }: Props) => {
       </motion.p>
 
       {/* Breathing circle */}
-      <div className="relative flex items-center justify-center mb-8" style={{ width: 200, height: 200 }}>
+      <div className="relative flex items-center justify-center mb-10" style={{ width: 240, height: 240 }}>
         <motion.div
-          className="absolute rounded-full"
+          className="absolute rounded-full border-2 border-primary/10"
           style={{
-            width: 180,
-            height: 180,
-            background: "linear-gradient(135deg, hsl(204 35% 63% / 0.3), hsl(337 45% 81% / 0.3))",
+            width: 220,
+            height: 220,
+            background: "radial-gradient(circle, rgba(79,149,255,0.05) 0%, rgba(79,149,255,0) 70%)",
           }}
-          animate={{ scale: scale * 1.15 }}
+          animate={{ scale: scale * 1.3 }}
           transition={{ duration: phase.duration / 1000, ease: "easeInOut" }}
         />
         <motion.div
-          className="absolute rounded-full flex items-center justify-center"
+          className="absolute rounded-full flex items-center justify-center shadow-2xl shadow-primary/20"
           style={{
-            width: 160,
-            height: 160,
-            background: "linear-gradient(135deg, hsl(204 35% 63%), hsl(337 45% 81%))",
+            width: 180,
+            height: 180,
+            background: "linear-gradient(135deg, #4F95FF, #8db9ff)",
           }}
           animate={{ scale }}
           transition={{ duration: phase.duration / 1000, ease: "easeInOut" }}
@@ -101,8 +101,7 @@ const ScreenBreathe = ({ onContinue }: Props) => {
           <AnimatePresence mode="wait">
             <motion.span
               key={phase.label}
-              className="text-sm font-medium"
-              style={{ color: "white" }}
+              className="text-lg font-black text-white"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -115,31 +114,31 @@ const ScreenBreathe = ({ onContinue }: Props) => {
       </div>
 
       {/* Overlay text */}
-      <div className="h-12 mb-4">
-        <AnimatePresence>
+      <div className="h-16 mb-6 flex items-center justify-center">
+        <AnimatePresence mode="wait">
           {overlayIndex >= 0 && (
             <motion.p
               key={OVERLAYS[overlayIndex]}
-              className="text-sm text-foreground font-medium italic"
+              className="text-base text-slate-700 font-bold italic"
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -8 }}
               transition={{ duration: 1 }}
             >
-              {OVERLAYS[overlayIndex]}
+              "{OVERLAYS[overlayIndex]}"
             </motion.p>
           )}
         </AnimatePresence>
       </div>
 
-      <p className="text-xs text-muted-foreground mb-8 italic">
-        Just follow the circle—no need to think.
+      <p className="text-xs font-black text-slate-300 uppercase tracking-widest mb-10">
+        Just follow the circle
       </p>
 
       <AnimatePresence>
         {done && (
           <motion.button
-            className="wellness-btn max-w-[320px]"
+            className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all"
             onClick={onContinue}
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
