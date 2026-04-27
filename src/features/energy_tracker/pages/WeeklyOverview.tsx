@@ -59,6 +59,13 @@ const WeeklyOverview = () => {
     <PremiumLayout 
       title={t("weekly_title")}
       icon={<History className="h-6 w-6" />}
+      onBack={() => {
+        if (window.parent !== window) {
+          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+        } else {
+          window.location.href = 'https://web.mantracare.com';
+        }
+      }}
     >
       <div className="w-full">
         <motion.h2
