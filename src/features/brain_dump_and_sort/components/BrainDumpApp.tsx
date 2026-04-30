@@ -191,7 +191,3 @@ const BrainDumpApp = () => {
 };
 
 export default BrainDumpApp;
-
-
-export default BrainDumpApp;
-

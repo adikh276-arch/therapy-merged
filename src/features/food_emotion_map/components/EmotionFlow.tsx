@@ -351,9 +351,6 @@ const EmotionFlow = () => {
   );
 };
 
-export default EmotionFlow;
-
-
 // Progressive insight reveal component
 const InsightMessage = ({
   messages,

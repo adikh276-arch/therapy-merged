@@ -212,6 +212,3 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
 };
 
 export default BingoGrid;
-
-
-export default BingoGrid;

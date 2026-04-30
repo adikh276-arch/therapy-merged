@@ -141,6 +141,3 @@ const PsychoeducationActivity = () => {
 };
 
 export default PsychoeducationActivity;
-
-
-export default PsychoeducationActivity;

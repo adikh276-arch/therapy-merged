@@ -279,6 +279,3 @@ const AngerQuiz = () => {
 };
 
 export default AngerQuiz;
-
-
-export default AngerQuiz;

@@ -8,6 +8,7 @@ import MemoryBoxScreen from "@/features/memory_box/components/memory-box/MemoryB
 import ClosingScreen from "@/features/memory_box/components/memory-box/ClosingScreen";
 import HistorySheet from "@/features/memory_box/components/memory-box/HistorySheet";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { neon } from "@neondatabase/serverless";
 import { toast } from "sonner";
 
@@ -204,8 +205,5 @@ const Index = () => {
     </PremiumLayout>
   );
 };
-
-export default Index;
-
 
 export default Index;

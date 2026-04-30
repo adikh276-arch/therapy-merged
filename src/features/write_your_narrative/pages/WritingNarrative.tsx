@@ -164,6 +164,3 @@ const WritingNarrative = () => {
 };
 
 export default WritingNarrative;
-
-
-export default WritingNarrative;
