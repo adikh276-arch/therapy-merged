@@ -108,7 +108,7 @@ function renderCards() { const container = document.getElementById('cardsContain
 function showStory(index) { const s = stories[index]; document.getElementById('hero').style.display = 'none'; document.getElementById('stories-list').style.display = 'none'; document.getElementById('story-detail').style.display = 'block'; document.getElementById('navLogo').classList.add('visible'); const storyParas = s.story.map(p => `<p>${p}</p>`).join(''); document.getElementById('detailContent').innerHTML = `<div class="story-hero-band"></div><h1 class="story-name-large">${s.name}, ${s.age}</h1><span class="story-identity-badge" style="background:#CCF1F6;color:#00BCD4;border-color:#00BCD4">${s.identity}</span><div class="story-body">${storyParas}</div><div class="story-highlight" style="border-color:#00BCD4;background:#CCF1F6;color:#00BCD4">"${s.highlight}"</div><div class="story-takeaway" style="border-color:#00BCD4;background:rgba(0,188,212,0.8)"><span class="takeaway-label" style="color:#00BCD4">✨ Something to sit with</span>${s.takeaway}</div><button class="back-to-stories-btn" onclick="showStories()">← Back to All Stories</button>`; window.scrollTo({ top: 0, behavior: 'smooth' }); }
 showHero();
 </script>
-<script src="./i18n/loader.js"></script>
+<!-- loader.js removed -->
 
 
 
