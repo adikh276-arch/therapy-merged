@@ -1,31 +1,44 @@
 .prose {
-  @apply text-slate-700 leading-relaxed;
+  color: #334155; /* slate-700 */
+  line-height: 1.625; /* leading-relaxed */
 }
 
 .prose p {
-  @apply mb-6;
+  margin-bottom: 1.5rem; /* mb-6 */
 }
 
 .prose h1, .prose h2, .prose h3 {
-  @apply font-black text-slate-900 tracking-tight mt-10 mb-4;
+  font-weight: 900; /* font-black */
+  color: #0f172a; /* slate-900 */
+  letter-spacing: -0.025em; /* tracking-tight */
+  margin-top: 2.5rem; /* mt-10 */
+  margin-bottom: 1rem; /* mb-4 */
 }
 
 .prose h2 {
-  @apply text-2xl;
+  font-size: 1.5rem; /* text-2xl */
 }
 
 .prose ul, .prose ol {
-  @apply mb-6 pl-6;
+  margin-bottom: 1.5rem; /* mb-6 */
+  padding-left: 1.5rem; /* pl-6 */
 }
 
 .prose li {
-  @apply mb-2;
+  margin-bottom: 0.5rem; /* mb-2 */
 }
 
 .prose strong {
-  @apply font-black text-slate-900;
+  font-weight: 900; /* font-black */
+  color: #0f172a; /* slate-900 */
 }
 
 .prose blockquote {
-  @apply border-l-4 border-primary/20 pl-6 italic text-slate-500 my-8;
+  border-left-width: 4px;
+  border-left-color: rgba(97, 218, 251, 0.2); /* primary/20 - primary is #61DAFB */
+  padding-left: 1.5rem; /* pl-6 */
+  font-style: italic;
+  color: #64748b; /* slate-500 */
+  margin-top: 2rem;
+  margin-bottom: 2rem; /* my-8 */
 }
