@@ -160,7 +160,7 @@ const ResourceDetail = () => {
             "{story.quote}"
           </p>
         </div>
-      </header>
+
 
       <div className="space-y-10 text-slate-700 text-xl leading-relaxed font-bold max-w-2xl">
         {story.story.map((para, i) => (
