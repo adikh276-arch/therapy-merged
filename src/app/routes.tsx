@@ -59,6 +59,10 @@ const ChallengingFoodRules = React.lazy(() => import("../features/challenging_fo
 const UnderstandingControl = React.lazy(() => import("../features/understanding_control"));
 const CompassionBreak = React.lazy(() => import("../features/compassion_break"));
 const Resources = React.lazy(() => import("../features/resources"));
+const NameYourMind = React.lazy(() => import("../features/name_your_mind"));
+const PredictionVsReality = React.lazy(() => import("../features/prediction_vs_reality"));
+const MindReadingCheck = React.lazy(() => import("../features/mind_reading_check"));
+const MySafeSpaceCanvas = React.lazy(() => import("../features/my_safe_space_canvas"));
 
 
 function ProtectedLayout() {
@@ -140,7 +144,11 @@ export const router = createBrowserRouter([
           { path: "tools/challenging-food-rules/*", element: withLoading(<ChallengingFoodRules />) },
           { path: "tools/understanding-control/*", element: withLoading(<UnderstandingControl />) },
           { path: "exercises/compassion-break/*", element: withLoading(<CompassionBreak />) },
-          { path: "resources/:concern/:type/*", element: withLoading(<Resources />) }
+          { path: "resources/:concern/:type/*", element: withLoading(<Resources />) },
+          { path: "exercises/name-your-mind/*", element: withLoading(<NameYourMind />) },
+          { path: "exercises/prediction-vs-reality/*", element: withLoading(<PredictionVsReality />) },
+          { path: "exercises/mind-reading-check/*", element: withLoading(<MindReadingCheck />) },
+          { path: "exercises/my-safe-space-canvas/*", element: withLoading(<MySafeSpaceCanvas />) }
 
         ]
       },

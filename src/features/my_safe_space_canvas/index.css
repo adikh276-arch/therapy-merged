@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 60 4% 16%;
+    --card: 33 47% 97%;
+    --card-foreground: 60 4% 16%;
+    --popover: 33 47% 97%;
+    --popover-foreground: 60 4% 16%;
+    --primary: 160 46% 57%;
+    --primary-foreground: 165 82% 11%;
+    --secondary: 0 0% 100%;
+    --secondary-foreground: 97 72% 25%;
+    --muted: 40 18% 90%;
+    --muted-foreground: 40 4% 53%;
+    --accent: 90 42% 86%;
+    --accent-foreground: 97 72% 25%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 10% 82%;
+    --input: 40 10% 82%;
+    --ring: 160 46% 57%;
+    --radius: 14px;
+
+    /* Custom tokens */
+    --web-bg: 30 15% 92%;
+    --card-bg: 33 47% 97%;
+    --card-shadow: 0 8px 40px rgba(0,0,0,0.08);
+    --prompt-bg: 90 42% 90%;
+    --prompt-text: 97 72% 25%;
+    --dot-active: 160 46% 57%;
+    --dot-inactive: 40 18% 90%;
+    --toolbar-bg: 30 23% 95%;
+    --canvas-bg: 33 60% 98%;
+    --chip-border: 40 10% 82%;
+    --hint-color: 40 8% 68%;
+    --teal: 160 56% 75%;
+    --grounding-bg: 100 28% 95%;
+    --breathe-color: 160 46% 57%;
+    --breathe-text: 160 71% 37%;
+    --duration-selected-bg: 160 46% 92%;
+    --duration-selected-border: 160 46% 57%;
+    --duration-selected-text: 160 74% 25%;
+
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-color: hsl(var(--web-bg));
+  }
+}
+
+/* Breathing animation */
+@keyframes breathe-in {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
+}
+@keyframes breathe-hold {
+  0%, 100% { transform: scale(1.15); }
+}
+@keyframes breathe-out {
+  0% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.breathe-cycle {
+  animation: breathe-full 14s ease-in-out infinite;
+}
+
+@keyframes breathe-full {
+  0% { transform: scale(1); }
+  28.57% { transform: scale(1.15); } /* 4s in */
+  57.14% { transform: scale(1.15); } /* hold 4s */
+  100% { transform: scale(1); } /* exhale 6s */
+}
+
+/* Canvas wrapper */
+.canvas-wrapper canvas {
+  border-radius: 0 0 14px 14px !important;
+}
+
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
