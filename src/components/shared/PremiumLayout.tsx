@@ -33,12 +33,8 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
       onBack();
       return;
     }
-    // Strict enforcement: Top-left chevron always exits to parent dashboard
-    if (window.parent !== window) {
-      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-    } else {
-      window.location.href = 'https://web.mantracare.com';
-    }
+    // SPA navigation: Top-left chevron exits to parent dashboard without reload
+    navigate("/");
   };
 
   return (

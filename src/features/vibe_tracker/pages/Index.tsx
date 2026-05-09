@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import IntroScreen from "../components/IntroScreen";
 import VibeCheckIn from "../components/VibeCheckIn";
 import Reflection from "../components/Reflection";
@@ -11,6 +12,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type Screen = "intro" | "checkin" | "reflection" | "confirmation" | "history";
 
 const Index = () => {
+  const navigate = useNavigate();
   const [screen, setScreen] = useState<Screen>("intro");
   const [selectedVibe, setSelectedVibe] = useState("");
 
@@ -31,11 +33,7 @@ const Index = () => {
 
   const handleDone = () => {
     setSelectedVibe("");
-    if (window.parent !== window) {
-      window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-    } else {
-      window.location.href = 'https://web.mantracare.com';
-    }
+    navigate("/");
   };
 
   const handleHistory = () => {

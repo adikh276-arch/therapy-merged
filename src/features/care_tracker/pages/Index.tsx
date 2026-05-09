@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import { SelfCareEntry, saveEntryToDb, toLocalIsoDate } from "../lib/selfcare-data";
 import Screen1CheckIn from "../components/screens/Screen1CheckIn";
 import Screen2Activities from "../components/screens/Screen2Activities";
@@ -16,6 +17,7 @@ import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 type Screen = "intro" | "checkin" | "activities" | "duration" | "noSelfCare" | "mood" | "statement" | "review" | "history";
 
 const Index = () => {
+  const navigate = useNavigate();
   const { userId } = useAuth();
   const [screen, setScreen] = useState<Screen>("intro");
 
@@ -95,13 +97,7 @@ const Index = () => {
   return (
     <PremiumLayout 
       title={getTitle()} 
-      onBack={() => {
-        if (window.parent !== window) {
-          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-        } else {
-          window.location.href = 'https://web.mantracare.com';
-        }
-      }}
+      onBack={() => navigate("/")}
       onReset={screen !== 'intro' ? resetFlow : undefined}
       onSecondaryBack={screen === 'history' ? () => setScreen('review') : undefined}
       secondaryBackLabel={screen === 'history' ? "Back to Review" : undefined}
