@@ -1,0 +1,982 @@
+{
+  "Depression": {
+    "categories": [
+      {
+        "name": "Know about depression",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood"
+          },
+          {
+            "name": "Observe the changes in your mood",
+            "description": "Noticing impacts"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Measuring my mood",
+            "description": "Measuring the highs and lows"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?"
+          }
+        ]
+      },
+      {
+        "name": "Managing depression",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities"
+          },
+          {
+            "name": "Let\u2019s start your day with something you love doing",
+            "description": "Reframing Thoughts"
+          },
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": "Thought Record"
+          },
+          {
+            "name": "Record the thoughts in your mind",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Sleep": {
+    "categories": [
+      {
+        "name": "Know about sleep",
+        "activities": [
+          {
+            "name": "Try this for a peaceful, undisturbed sleep!",
+            "description": ""
+          },
+          {
+            "name": "Meditation",
+            "description": "Start your day with the peace of mind!"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Affirmations",
+            "description": "Think positive & embrace positivity"
+          },
+          {
+            "name": "4-7-8 Breathing",
+            "description": "Calm your nerves with long deep breaths"
+          }
+        ]
+      },
+      {
+        "name": "Managing sleep",
+        "activities": [
+          {
+            "name": "Grounding",
+            "description": "Bring your attention to the present"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": []
+      },
+      {
+        "name": "Focusing on Physical Health",
+        "activities": [
+          {
+            "name": "Physical Activity Log",
+            "description": "Exercise is equally important for a peaceful mind"
+          }
+        ]
+      }
+    ]
+  },
+  "Anxiety": {
+    "categories": [
+      {
+        "name": "Know about anxiety",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood"
+          },
+          {
+            "name": "Observe the changes in your mood",
+            "description": "Noticing impacts"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?"
+          },
+          {
+            "name": "Anxiety Check",
+            "description": "How does your everyday look like?"
+          }
+        ]
+      },
+      {
+        "name": "Managing anxiety",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose People to Talk"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Exploring my anxiety"
+          },
+          {
+            "name": "Low mood can stop you from enjoying your company",
+            "description": "Reframing Thoughts"
+          },
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": ""
+          },
+          {
+            "name": "Self Care",
+            "description": "Taking care of yourself should be the first priority"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Stress": {
+    "categories": [
+      {
+        "name": "Know about stress",
+        "activities": [
+          {
+            "name": "Assess your stress",
+            "description": "Measuring my stress"
+          },
+          {
+            "name": "Measuring the highs and lows",
+            "description": "Stress Checklist"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Know the main cause of your stress",
+            "description": "Noticing what impacts my PTSD"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?"
+          }
+        ]
+      },
+      {
+        "name": "Managing stress",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities"
+          },
+          {
+            "name": "Divert your mind by doing what you enjoy",
+            "description": "Write Your Story"
+          },
+          {
+            "name": "Transform your thoughts into stories",
+            "description": "You are Not Alone"
+          },
+          {
+            "name": "You are not the only one facing it",
+            "description": "Reframing Thoughts"
+          },
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Adolescent": {
+    "categories": [
+      {
+        "name": "Know about adolescent",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood"
+          },
+          {
+            "name": "Observe the changes in your mood",
+            "description": "Enjoyable Activities"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Choose people to talk",
+            "description": "Talking to your friends is sometimes all the Boost you need"
+          },
+          {
+            "name": "Laugh",
+            "description": "You need yourself to be happy"
+          }
+        ]
+      },
+      {
+        "name": "Managing adolescent",
+        "activities": [
+          {
+            "name": "Complete the sentences",
+            "description": "Know your kid\u2019s thinking process"
+          },
+          {
+            "name": "Reframing Thoughts",
+            "description": "Transforming your negative emotions to positivity"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Self Care",
+            "description": "Taking care of yourself should be the first priority"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Relationship": {
+    "categories": [
+      {
+        "name": "Know about relationship",
+        "activities": [
+          {
+            "name": "Knowing Your Relationship",
+            "description": "Measuring your Satisfaction"
+          },
+          {
+            "name": "Are you satisfied with your relationship?",
+            "description": "Testing Your Bond"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Know what kind of bond you share",
+            "description": "Managing Relationship"
+          },
+          {
+            "name": "Attachment Style",
+            "description": "What style of attachment you have?"
+          }
+        ]
+      },
+      {
+        "name": "Managing relationship",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "How Well Do You Know Your Partner?"
+          },
+          {
+            "name": "Know your partner well",
+            "description": "My Mood Journal"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Note the changes and your moods",
+            "description": "Reframing Thoughts"
+          },
+          {
+            "name": "Transform your negative emotions to positivity",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Workplace": {
+    "categories": [
+      {
+        "name": "Know about workplace",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood"
+          },
+          {
+            "name": "Observe the changes in your mood",
+            "description": "Noticing the impacts"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Issues at work",
+            "description": "Knowing your triggers"
+          },
+          {
+            "name": "Resistance to change",
+            "description": "Knowing your triggers"
+          }
+        ]
+      },
+      {
+        "name": "Managing workplace",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": ""
+          },
+          {
+            "name": "Laugh!!!",
+            "description": "You need yourself to be happy"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Diary",
+            "description": "A diary is the best tool to vent your emotions"
+          },
+          {
+            "name": "Count",
+            "description": "A simple way to ease your anger"
+          },
+          {
+            "name": "Self Care",
+            "description": "Taking care of yourself should be the first priority"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Parenting": {
+    "categories": [
+      {
+        "name": "Know about parenting",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood"
+          },
+          {
+            "name": "Observe the changes in your mood",
+            "description": "Enjoyable Activities"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Parenting Skills",
+            "description": "Think of ways you can appreciate your kids"
+          },
+          {
+            "name": "Complete the sentences",
+            "description": "Know your kids thinking process"
+          }
+        ]
+      },
+      {
+        "name": "Managing parenting",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Let\u2019s start your day with something you love doing"
+          },
+          {
+            "name": "Self Care",
+            "description": "You should love yourself as you are"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Parenting JOJO",
+            "description": "Takes a lot of patience to raise a kid"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Anger": {
+    "categories": [
+      {
+        "name": "Know about anger",
+        "activities": [
+          {
+            "name": "Noticing what impacts my anger",
+            "description": "Assess your mood"
+          },
+          {
+            "name": "Observe the changes in your mood",
+            "description": "Assess your mood"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Anger Check",
+            "description": "Knowing your triggers"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Managing anger",
+        "activities": [
+          {
+            "name": "Laugh!!!",
+            "description": "You need yourself to be happy"
+          },
+          {
+            "name": "Anger Diary",
+            "description": "A diary is the best tool to vent your anger"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Count",
+            "description": "A simple way to ease your anger"
+          },
+          {
+            "name": "Self Care",
+            "description": "Taking care of yourself should be the first priority"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Grief": {
+    "categories": [
+      {
+        "name": "Know about grief",
+        "activities": [
+          {
+            "name": "Knowing Grief",
+            "description": "Measuring my grief"
+          },
+          {
+            "name": "How does your everyday look like?",
+            "description": "What are your habits?"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "How does your everyday look like?",
+            "description": "Managing Grief"
+          },
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood"
+          }
+        ]
+      },
+      {
+        "name": "Managing grief",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose People to Talk"
+          },
+          {
+            "name": "Talking to your loved ones can help you heal",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Grief Deck",
+            "description": "Helping you in your tough times"
+          },
+          {
+            "name": "Journal",
+            "description": "A diary is a man\u2019s best friend"
+          },
+          {
+            "name": "You are Not Alone",
+            "description": "You are not alone in this tough time"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "PTSD": {
+    "categories": [
+      {
+        "name": "Know about ptsd",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Measuring my mood"
+          },
+          {
+            "name": "Measuring the highs and lows",
+            "description": "Noticing what impacts my PTSD"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?"
+          },
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood"
+          }
+        ]
+      },
+      {
+        "name": "Managing ptsd",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities"
+          },
+          {
+            "name": "Divert your mind by doing what you enjoy",
+            "description": "Write Your Story"
+          },
+          {
+            "name": "Transform your thoughts into stories",
+            "description": "You are Not Alone"
+          },
+          {
+            "name": "You are not the only one facing it",
+            "description": "Reframing Thoughts"
+          },
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Acceptance": {
+    "categories": [
+      {
+        "name": "Know about acceptance",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Assess your mood"
+          },
+          {
+            "name": "Observe the changes in your mood",
+            "description": "Noticing impacts"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Today I will"
+          }
+        ]
+      },
+      {
+        "name": "Managing acceptance",
+        "activities": [
+          {
+            "name": "How do you wanna spend your day?",
+            "description": ""
+          },
+          {
+            "name": "Love Me",
+            "description": "Start loving yourself, before anyone else"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Enjoyable Activities",
+            "description": "Let\u2019s start your day with something you love doing"
+          },
+          {
+            "name": "Strengths & Weakness",
+            "description": "Overcome your weaknesses and grow stronger"
+          },
+          {
+            "name": "Self Care",
+            "description": "Taking care of yourself should be the first priority"
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Postpartum": {
+    "categories": [
+      {
+        "name": "Know about postpartum",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Measuring my mood"
+          },
+          {
+            "name": "Measuring the highs and lows",
+            "description": "Noticing what impacts my depression"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?"
+          },
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood"
+          }
+        ]
+      },
+      {
+        "name": "Managing postpartum",
+        "activities": [
+          {
+            "name": "Managing Depression",
+            "description": ""
+          },
+          {
+            "name": "BMI Check",
+            "description": "Body Mass Index check"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "Weight",
+            "description": "Start loving yourself, before anyone else"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Choose people to talk"
+          },
+          {
+            "name": "Your friends can help you through this phase",
+            "description": "Thinking time"
+          },
+          {
+            "name": "Your thoughts can create a positive change",
+            "description": "Enjoyable Activities"
+          },
+          {
+            "name": "Divert your mind by doing what you enjoy",
+            "description": "Write Your Story"
+          },
+          {
+            "name": "Transform your thoughts into stories",
+            "description": "You are Not Alone"
+          },
+          {
+            "name": "You are not the only one facing it",
+            "description": "Reframing Thoughts"
+          },
+          {
+            "name": "Transforming your negative emotions to positive",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Sexuality": {
+    "categories": [
+      {
+        "name": "Know about sexuality",
+        "activities": [
+          {
+            "name": "Understanding Sexuality",
+            "description": "Testing Your Bond with your Partner"
+          },
+          {
+            "name": "1 min",
+            "description": "Enjoyable Activities"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Positive Body Image",
+            "description": ""
+          },
+          {
+            "name": "2 min",
+            "description": "Ask Yourself"
+          }
+        ]
+      },
+      {
+        "name": "Managing sexuality",
+        "activities": [
+          {
+            "name": "2 min",
+            "description": "My Mood Journal"
+          },
+          {
+            "name": "2 min",
+            "description": "Reframing Thoughts"
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "4 min",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  },
+  "Eating Disorder": {
+    "categories": [
+      {
+        "name": "Know about eating disorder",
+        "activities": [
+          {
+            "name": "Know about eating disorder",
+            "description": "Signs of Eating Disorder"
+          },
+          {
+            "name": "Do you know if you have an eating disorder?",
+            "description": "Do I have a disorder?"
+          }
+        ]
+      },
+      {
+        "name": "Noticing impacts",
+        "activities": [
+          {
+            "name": "Check if you have an eating disorder?",
+            "description": "Noticing impacts"
+          },
+          {
+            "name": "What are your habits?",
+            "description": "How does your everyday look like?"
+          }
+        ]
+      },
+      {
+        "name": "Managing eating disorder",
+        "activities": [
+          {
+            "name": "Assess your mood",
+            "description": "Observe the changes in your mood"
+          },
+          {
+            "name": "Managing Disorder",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Enjoyable Activities",
+        "activities": [
+          {
+            "name": "BMI Check",
+            "description": "Body Mass Index check"
+          },
+          {
+            "name": "Weight",
+            "description": "Start loving yourself, before anyone else"
+          },
+          {
+            "name": "Enjoyable Activities",
+            "description": "Write Your Story"
+          },
+          {
+            "name": "Transform your thoughts into stories",
+            "description": "Add your goals"
+          },
+          {
+            "name": "First step to achieve your goals is by writing them down",
+            "description": "Enjoyable Activities"
+          },
+          {
+            "name": "Divert your mind by doing what you enjoy",
+            "description": "You are Not Alone"
+          },
+          {
+            "name": "You are not the only one facing it",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Practicing Mindfulness",
+        "activities": []
+      }
+    ]
+  }
+}

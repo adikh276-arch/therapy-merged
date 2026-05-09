@@ -53,7 +53,8 @@ export default function GuidedSeries() {
     const name = activity.name.toLowerCase();
     
     // Existing route mapping
-    if (name.includes('sleep')) return navigate('/trackers/sleep-audit');
+    if (name.includes('sleep record') || name.includes('sleep audit')) return navigate('/trackers/sleep-audit');
+    if (name.includes('sleep window')) return navigate('/tools/sleep-window-planner');
     if (name.includes('affirmation')) return navigate('/tools/affirmations');
     if (name.includes('breathing')) return navigate('/exercises/4-6-8-breathing');
     if (name.includes('grounding')) return navigate('/exercises/5-4-3-2-1-grounding');
@@ -61,8 +62,12 @@ export default function GuidedSeries() {
     if (name.includes('values')) return navigate('/tools/know-your-values');
     if (name.includes('letter')) return navigate('/tools/a-letter-to-self');
     if (name.includes('gratitude')) return navigate('/trackers/gratitude-tracker');
+    if (name.includes('mood') || name.includes('assess your mood')) return navigate('/trackers/vibe-tracker');
+    if (name.includes('energy')) return navigate('/trackers/energy-tracker');
+    if (name.includes('doodle')) return navigate('/tools/doodle-burst');
+    if (name.includes('joyful')) return navigate('/tools/joyful-activities');
     
-    // Fallback to generic guided activity page
+    // Fallback to generic guided activity page (with specialized UI)
     navigate(`/guided-series/${concern}/${encodeURIComponent(activity.name)}`);
   };
 
