@@ -112,6 +112,14 @@ directories.forEach(dirName => {
           target.takeaway = newItem.takeaway || target.takeaway;
           target.avatarUrl = newItem.avatar_url || newItem.avatarUrl || target.avatarUrl;
           target.portraitUrl = newItem.portrait_url || newItem.portraitUrl || target.portraitUrl;
+          
+          // Improved Title and Preview for stories
+          if (target.name) {
+            target.title = `${target.name}'s Story`;
+          }
+          if (target.quote) {
+            target.preview = target.quote.length > 100 ? target.quote.substring(0, 97) + '...' : target.quote;
+          }
         } else if (resourceType === 'articles') {
           target.title = newItem.title || target.title;
           target.tag = newItem.tag || target.tag;
@@ -125,8 +133,12 @@ directories.forEach(dirName => {
           target.truth = newItem.fact || newItem.truth || target.truth;
           target.explanation = newItem.content || newItem.explanation || target.explanation;
           target.takeaway = newItem.takeaway || target.takeaway;
-          target.title = `Myth: ${target.myth}`;
-          target.preview = target.truth;
+          if (target.myth) {
+            target.title = `Myth: ${target.myth}`;
+          }
+          if (target.truth) {
+            target.preview = target.truth.length > 100 ? target.truth.substring(0, 97) + '...' : target.truth;
+          }
         }
       } else {
         // Option to add new items if placeholder not found
