@@ -604,7 +604,7 @@ export function SelfCareResources() {
                               }
 
                               if (ex.url) {
-                                ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url);
+                                ex.url.startsWith('http') ? window.location.href = ex.url : navigate(ex.url, { replace: true });
                               }
                             }}
                             className="w-full rounded-2xl p-4 border-2 transition-all hover:shadow-md"
@@ -653,7 +653,7 @@ export function SelfCareResources() {
                             transition={{ delay: 0.2 + i * 0.05 }}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.98 }}
-                            onClick={() => todo.url && (todo.url.startsWith('http') ? window.location.href = todo.url : navigate(todo.url))}
+                            onClick={() => todo.url && (todo.url.startsWith('http') ? window.location.href = todo.url : navigate(todo.url, { replace: true }))}
                             className="border-2 rounded-2xl p-4 flex items-center gap-3 hover:shadow-md transition-all group"
                             style={{
                               backgroundColor: color.bg,
@@ -701,7 +701,7 @@ export function SelfCareResources() {
                             transition={{ delay: 0.25 + i * 0.06, type: "spring", damping: 20 }}
                             whileHover={{ x: 8, scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
-                            onClick={() => res.url && (res.url.startsWith('http') ? window.location.href = res.url : navigate(res.url))}
+                            onClick={() => res.url && (res.url.startsWith('http') ? window.location.href = res.url : navigate(res.url, { replace: true }))}
                             className="w-full rounded-2xl p-4 flex items-center gap-4 transition-all group relative overflow-hidden"
                             style={{ backgroundColor: color.bg }}
                           >

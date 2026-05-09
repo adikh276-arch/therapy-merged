@@ -55,7 +55,7 @@ const TodaySummary = () => {
       <PremiumComplete
         title={t("today_energy", { label: labelMap[level] })}
         message={messages[level]}
-        onRestart={() => navigate("/")}
+        onRestart={() => navigate("/", { replace: true })}
         onHome={() => {
           if (window.parent !== window) {
             window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');

@@ -24,13 +24,13 @@ export function MobileNav() {
   const isActive = (path: string) => location.pathname === path;
 
   const handleNav = (path: string) => {
-    navigate(path);
+    navigate(path, { replace: true });
     setMobileMenuOpen(false);
   };
 
   const handleLogout = () => {
     localStorage.removeItem("mantraUser");
-    navigate("/");
+    navigate("/", { replace: true });
     setMobileMenuOpen(false);
   };
 

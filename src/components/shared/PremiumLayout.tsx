@@ -44,7 +44,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
     if (exitOnBack || isHub) {
       handleExit();
     } else {
-      navigate("/");
+      navigate("/", { replace: true });
     }
   };
 

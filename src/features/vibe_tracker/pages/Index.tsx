@@ -33,7 +33,7 @@ const Index = () => {
 
   const handleDone = () => {
     setSelectedVibe("");
-    navigate("/");
+    navigate("/", { replace: true });
   };
 
   const handleHistory = () => {
