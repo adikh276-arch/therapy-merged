@@ -33,7 +33,7 @@ export default function TechniqueDetail() {
   return (
     <PremiumLayout 
       title="Grounding Activity" 
-      onSecondaryBack={() => navigate(`/${langParam}`)}
+      onSecondaryBack={() => navigate(`../${langParam}`)}
       secondaryBackLabel="Back to list"
     >
       <div className="w-full space-y-10 pb-12">
@@ -102,7 +102,7 @@ export default function TechniqueDetail() {
                     whileTap={{ scale: 0.98 }}
                     onClick={() => {
                         if (isLastStep) {
-                            navigate(`/${langParam}`);
+                            navigate(`../${langParam}`);
                         } else {
                             setCurrentStep((s) => s + 1);
                         }

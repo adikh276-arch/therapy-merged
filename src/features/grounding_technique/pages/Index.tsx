@@ -40,7 +40,7 @@ const Index = () => {
               <GroundingCard
                 technique={tech}
                 label={t(tech.title)}
-                onClick={() => navigate(`/technique/${tech.id}${langParam}`)}
+                onClick={() => navigate(`technique/${tech.id}${langParam}`)}
               />
             </motion.div>
           ))}

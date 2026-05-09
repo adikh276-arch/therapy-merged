@@ -40,7 +40,7 @@ export default function TipDetail() {
   return (
     <PremiumLayout 
       title="Tip Detail" 
-      onSecondaryBack={() => navigate("/")}
+      onSecondaryBack={() => navigate("..")}
       secondaryBackLabel="Back to tips"
     >
       <div className="w-full space-y-10 pb-12">
