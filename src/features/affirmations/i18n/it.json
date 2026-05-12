@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Sentiti Empowerato",
   "app_complete_message": "Le affermazioni quotidiane aiutano a rimodellare il tuo modo di pensare. Portate con voi questi pensieri positivi oggi.",
-  "app_title": "Mentalità",
   "app_duration": "2-3 minuti",
-  "intro_p1": "comune.prenditi il tempo",
-  "intro_p2": "common.bretheNaturally",
-  "intro_p3": "common.noRush",
-  "app_description": "Mentalità"
+  "app_title": "Mentalità",
+  "app_description": "Trasforma la tua mentalità attraverso affermazioni quotidiane.",
+  "intro": {
+    "description": "Le affermazioni quotidiane aiutano a rimodellare la tua mentalità e a costruire la resilienza emotiva. Prenditi qualche istante per concentrarti su pensieri positivi e parla a te stesso con gentilezza.",
+    "benefits": [
+      "Trova la pace nei momenti difficili",
+      "Sfida gli schemi di pensiero negativi",
+      "Sviluppare l'autocompassione e la forza"
+    ]
+  }
 }

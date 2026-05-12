@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Érezd magad megerősítettnek",
   "app_complete_message": "A napi megerősítések segítenek átalakítani a gondolkodásmódodat. Vigyél magaddal ezeket a pozitív gondolatokat ma magaddal.",
-  "app_title": "Gondolkodásmód",
   "app_duration": "2-3 perc",
-  "intro_p1": "common.takeTime",
-  "intro_p2": "common.breatheNaturally",
-  "intro_p3": "common.noRush",
-  "app_description": "Gondolkodásmód"
+  "app_title": "Gondolkodásmód",
+  "app_description": "Alakítsd át a gondolkodásmódodat napi megerősítésekkel.",
+  "intro": {
+    "description": "A napi megerősítések segítenek átalakítani a gondolkodásmódodat és érzelmi ellenálló képességet fejleszteni. Szánj néhány percet arra, hogy a pozitív gondolatokra koncentrálj, és beszélj kedvesen magaddal.",
+    "benefits": [
+      "Találj békét a nehéz pillanatokban",
+      "A negatív gondolkodási minták kihívása",
+      "Fejlessz önmagaddal való együttérzést és erőt"
+    ]
+  }
 }

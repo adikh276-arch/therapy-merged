@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Siéntete empoderado",
   "app_complete_message": "Las afirmaciones diarias ayudan a remodelar tu mentalidad. Lleva contigo estos pensamientos positivos hoy.",
-  "app_title": "Mentalidad",
   "app_duration": "2-3 minutos",
-  "intro_p1": "común.tómeseuntiempo",
-  "intro_p2": "común.respira naturalmente",
-  "intro_p3": "común.noRush",
-  "app_description": "Mentalidad"
+  "app_title": "Mentalidad",
+  "app_description": "Transforma tu mentalidad mediante afirmaciones diarias.",
+  "intro": {
+    "description": "Las afirmaciones diarias ayudan a transformar tu mentalidad y a fortalecer tu resiliencia emocional. Dedica unos instantes a concentrarte en pensamientos positivos y háblate con amabilidad.",
+    "benefits": [
+      "Encuentra la paz en los momentos difíciles",
+      "Desafía los patrones de pensamiento negativos",
+      "Desarrolla la autocompasión y la fuerza."
+    ]
+  }
 }

@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Kendini Güçlendirilmiş Hisset",
   "app_complete_message": "Günlük onaylamalar zihniyetinizi yeniden şekillendirmeye yardımcı olur. Bu olumlu düşünceleri bugün yanınızda taşıyın.",
-  "app_title": "Zihniyet",
   "app_duration": "2-3 dakika",
-  "intro_p1": "ortak.zaman",
-  "intro_p2": "ortak.doğal olarak nefes al",
-  "intro_p3": "ortak.acele yok",
-  "app_description": "Zihniyet"
+  "app_title": "Zihniyet",
+  "app_description": "Günlük olumlamalarla zihniyetinizi yeniden şekillendirin.",
+  "intro": {
+    "description": "Günlük olumlamalar, zihniyetinizi yeniden şekillendirmenize ve duygusal dayanıklılığınızı geliştirmenize yardımcı olur. Olumlu düşüncelere odaklanmak için birkaç dakika ayırın ve kendinize nazikçe konuşun.",
+    "benefits": [
+      "Zor anlarda huzuru bulun.",
+      "Olumsuz düşünce kalıplarına meydan okuyun.",
+      "Öz şefkat ve öz güç geliştirin."
+    ]
+  }
 }

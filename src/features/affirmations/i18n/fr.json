@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Sentez-vous puissant",
   "app_complete_message": "Les affirmations quotidiennes aident à remodeler votre état d’esprit. Emportez ces pensées positives avec vous aujourd’hui.",
-  "app_title": "Mentalité",
   "app_duration": "2-3 minutes",
-  "intro_p1": "courant.prendre du temps",
-  "intro_p2": "respirer naturellement",
-  "intro_p3": "commun.noRush",
-  "app_description": "État d'esprit"
+  "app_title": "État d'esprit",
+  "app_description": "Remodelez votre état d'esprit grâce à des affirmations quotidiennes.",
+  "intro": {
+    "description": "Les affirmations quotidiennes contribuent à transformer votre état d'esprit et à renforcer votre résilience émotionnelle. Prenez quelques instants pour vous concentrer sur des pensées positives et parlez-vous avec bienveillance.",
+    "benefits": [
+      "Trouver la paix dans les moments difficiles",
+      "Remettez en question les schémas de pensée négatifs.",
+      "Cultivez la compassion envers vous-même et votre force."
+    ]
+  }
 }

@@ -167,8 +167,13 @@
   "app_complete_message": "Daily affirmations help reshape your mindset. Carry these positive thoughts with you today.",
   "app_title": "Mindset",
   "app_duration": "2-3 minutes",
-  "intro_p1": "common.takeTime",
-  "intro_p2": "common.breatheNaturally",
-  "intro_p3": "common.noRush",
-  "app_description": "Mindset"
+  "app_description": "Reshape your mindset through daily affirmations.",
+  "intro": {
+    "description": "Daily affirmations help reshape your mindset and build emotional resilience. Take a few moments to focus on positive thoughts and Speak kindly to yourself.",
+    "benefits": [
+      "Find peace in difficult moments",
+      "Challenge negative thought patterns",
+      "Build self-compassion and strength"
+    ]
+  }
 }

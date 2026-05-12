@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Fühle dich ermächtigt",
   "app_complete_message": "Tägliche Affirmationen helfen dabei, deine Denkweise neu zu gestalten. Nimm diese positiven Gedanken heute mit dir.",
-  "app_title": "Denkweise",
   "app_duration": "2-3 Minuten",
-  "intro_p1": "common.takeTime",
-  "intro_p2": "common.breathNaturally",
-  "intro_p3": "common.noRush",
-  "app_description": "Denkweise"
+  "app_title": "Denkweise",
+  "app_description": "Verändern Sie Ihre Denkweise durch tägliche Affirmationen.",
+  "intro": {
+    "description": "Tägliche Affirmationen helfen dir, deine Denkweise zu verändern und emotionale Widerstandsfähigkeit aufzubauen. Nimm dir ein paar Minuten Zeit, um dich auf positive Gedanken zu konzentrieren und sprich freundlich mit dir selbst.",
+    "benefits": [
+      "Finde Frieden in schwierigen Momenten",
+      "Negative Denkmuster hinterfragen",
+      "Entwickle Selbstmitgefühl und Stärke"
+    ]
+  }
 }

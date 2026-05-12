@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Rasa Diperkasakan",
   "app_complete_message": "Pengesahan harian membantu membentuk semula pemikiran anda. Bawa pemikiran positif ini bersama anda hari ini.",
-  "app_title": "Pemikiran",
   "app_duration": "2-3 minit",
-  "intro_p1": "common.takeTime",
-  "intro_p2": "biasa.bernafasSecara semula jadi",
-  "intro_p3": "common.noRush",
-  "app_description": "Pemikiran"
+  "app_title": "Pemikiran",
+  "app_description": "Bentuk semula pemikiran anda melalui penegasan harian.",
+  "intro": {
+    "description": "Penegasan harian membantu membentuk semula pemikiran anda dan membina daya tahan emosi. Luangkan sedikit masa untuk fokus pada pemikiran positif dan Bercakaplah dengan baik kepada diri sendiri.",
+    "benefits": [
+      "Carilah ketenangan di saat-saat sukar",
+      "Cabar corak pemikiran negatif",
+      "Bina rasa belas kasihan dan kekuatan diri"
+    ]
+  }
 }

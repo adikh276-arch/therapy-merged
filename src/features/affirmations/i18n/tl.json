@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Pakiramdam na may kapangyarihan",
   "app_complete_message": "Ang pang-araw-araw na pagpapatibay ay tumutulong na baguhin ang iyong pag-iisip. Dalhin ang mga positibong saloobin na ito sa iyo ngayon.",
-  "app_title": "Pag-iisip",
   "app_duration": "2-3 minuto",
-  "intro_p1": "common.takeTime",
-  "intro_p2": "common.breatheNatural",
-  "intro_p3": "common.noRush",
-  "app_description": "Pag-iisip"
+  "app_title": "Pag-iisip",
+  "app_description": "Baguhin ang iyong pag-iisip sa pamamagitan ng pang-araw-araw na mga pagpapatibay.",
+  "intro": {
+    "description": "Ang mga pang-araw-araw na pagpapatibay ay nakakatulong na baguhin ang iyong pag-iisip at bumuo ng emosyonal na katatagan. Maglaan ng ilang sandali upang tumuon sa mga positibong kaisipan at magsalita nang mabait sa iyong sarili.",
+    "benefits": [
+      "Maghanap ng kapayapaan sa mga mahihirap na sandali",
+      "Hamunin ang mga negatibong pattern ng pag-iisip",
+      "Bumuo ng habag at lakas sa sarili"
+    ]
+  }
 }

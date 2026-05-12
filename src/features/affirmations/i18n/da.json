@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Føl dig styrket",
   "app_complete_message": "Daglige bekræftelser hjælper med at omforme din tankegang. Tag disse positive tanker med dig i dag.",
-  "app_title": "Tankegang",
   "app_duration": "2-3 minutter",
-  "intro_p1": "fælles.takeTime",
-  "intro_p2": "almindelig.åndeNaturligt",
-  "intro_p3": "common.noRush",
-  "app_description": "Mindset"
+  "app_title": "Mindset",
+  "app_description": "Omform din tankegang gennem daglige affirmationer.",
+  "intro": {
+    "description": "Daglige affirmationer hjælper med at omforme din tankegang og opbygge følelsesmæssig modstandsdygtighed. Tag et par øjeblikke til at fokusere på positive tanker og tal venligt til dig selv.",
+    "benefits": [
+      "Find fred i svære øjeblikke",
+      "Udfordre negative tankemønstre",
+      "Opbyg selvmedfølelse og styrke"
+    ]
+  }
 }

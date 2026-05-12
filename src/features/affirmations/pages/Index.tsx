@@ -62,10 +62,10 @@ const Index = () => {
               >
                 <PremiumIntro
                   title={t("app_title")}
-                  description={t("common.introText1") + " " + t("common.introText2")}
+                  description={t("intro.description")}
                   onStart={handleBegin}
                   icon={<Sparkles size={32} />}
-                  benefits={[t('intro_p1'), t('intro_p2'), t('intro_p3')]}
+                  benefits={t('intro.benefits', { returnObjects: true }) as string[]}
                   duration={t('app_duration', "2-3 minutes")}
                 />
               </motion.div>

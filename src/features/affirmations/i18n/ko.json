@@ -165,10 +165,15 @@
   },
   "app_complete_title": "힘을 느끼세요",
   "app_complete_message": "매일 확언은 당신의 사고방식을 바꾸는 데 도움을 줍니다. 오늘 이 긍정적인 생각들을 가지고 다니세요.",
-  "app_title": "사고방식",
   "app_duration": "2-3분",
-  "intro_p1": "공통.takeTime",
-  "intro_p2": "일반적인.자연스럽게 숨쉬기",
-  "intro_p3": "common.noRush",
-  "app_description": "사고방식"
+  "app_title": "사고방식",
+  "app_description": "매일 긍정적인 확언을 통해 사고방식을 바꿔보세요.",
+  "intro": {
+    "description": "매일 긍정적인 확언을 하면 사고방식을 바꾸고 정서적 회복력을 키울 수 있습니다. 잠시 시간을 내어 긍정적인 생각에 집중하고 자신에게 친절하게 말해보세요.",
+    "benefits": [
+      "힘든 순간에도 평화를 찾으세요",
+      "부정적인 사고방식에 도전하세요",
+      "자기 연민과 강인함을 키우세요"
+    ]
+  }
 }

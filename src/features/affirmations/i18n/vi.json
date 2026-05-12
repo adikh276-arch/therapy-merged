@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Cảm thấy được trao quyền",
   "app_complete_message": "Những lời khẳng định hàng ngày giúp định hình lại tư duy của bạn. Hãy mang theo những suy nghĩ tích cực này với bạn ngay hôm nay.",
-  "app_title": "Tư duy",
   "app_duration": "2-3 phút",
-  "intro_p1": "common.takeTime",
-  "intro_p2": "common.breatheNaturally",
-  "intro_p3": "common.noRush",
-  "app_description": "Tư duy"
+  "app_title": "Tư duy",
+  "app_description": "Thay đổi tư duy của bạn thông qua những lời khẳng định tích cực mỗi ngày.",
+  "intro": {
+    "description": "Những lời khẳng định tích cực mỗi ngày giúp định hình lại tư duy và xây dựng khả năng phục hồi cảm xúc. Hãy dành vài phút để tập trung vào những suy nghĩ tích cực và nói chuyện tử tế với chính mình.",
+    "benefits": [
+      "Hãy tìm kiếm sự bình yên trong những khoảnh khắc khó khăn.",
+      "Thách thức những mô hình suy nghĩ tiêu cực",
+      "Xây dựng lòng tự thương và sức mạnh."
+    ]
+  }
 }

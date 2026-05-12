@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Simte-te împuternicit",
   "app_complete_message": "Afirmațiile zilnice îți ajută la remodelarea mentalității. Poartă cu tine aceste gânduri pozitive astăzi.",
-  "app_title": "Mentalitate",
   "app_duration": "2-3 minute",
-  "intro_p1": "common.takeTime",
-  "intro_p2": "common.breatheNatural",
-  "intro_p3": "common.noRush",
-  "app_description": "Mentalitate"
+  "app_title": "Mentalitate",
+  "app_description": "Remodelează-ți mentalitatea prin afirmații zilnice.",
+  "intro": {
+    "description": "Afirmațiile zilnice te ajută să-ți remodelezi mentalitatea și să-ți construiești rezistența emoțională. Acordă-ți câteva momente pentru a te concentra asupra gândurilor pozitive și vorbește-ți cu blândețe.",
+    "benefits": [
+      "Găsește pacea în momentele dificile",
+      "Contestați tiparele de gândire negative",
+      "Dezvoltă compasiune față de sine și putere"
+    ]
+  }
 }

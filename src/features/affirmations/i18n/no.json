@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Føl deg styrket",
   "app_complete_message": "Daglige affirmasjoner hjelper deg med å omforme tankesettet ditt. Bær disse positive tankene med deg i dag.",
-  "app_title": "Tankesett",
   "app_duration": "2–3 minutter",
-  "intro_p1": "felles.takeTime",
-  "intro_p2": "vanlig.pustNaturlig",
-  "intro_p3": "common.noRush",
-  "app_description": "Tankegang"
+  "app_title": "Tankegang",
+  "app_description": "Endre tankesettet ditt gjennom daglige affirmasjoner.",
+  "intro": {
+    "description": "Daglige affirmasjoner hjelper deg med å omforme tankesettet ditt og bygge emosjonell motstandskraft. Ta deg noen minutter til å fokusere på positive tanker og snakk vennlig til deg selv.",
+    "benefits": [
+      "Finn fred i vanskelige stunder",
+      "Utfordre negative tankemønstre",
+      "Bygg opp selvmedfølelse og styrke"
+    ]
+  }
 }

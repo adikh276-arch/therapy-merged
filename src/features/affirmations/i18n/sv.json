@@ -165,10 +165,15 @@
   },
   "app_complete_title": "Känn dig stärkt",
   "app_complete_message": "Dagliga affirmationer hjälper till att omforma ditt tankesätt. Bär med dig dessa positiva tankar idag.",
-  "app_title": "Tankesätt",
   "app_duration": "2–3 minuter",
-  "intro_p1": "gemensam.takeTime",
-  "intro_p2": "common.breatheNaturally",
-  "intro_p3": "common.noRush",
-  "app_description": "Tankesätt"
+  "app_title": "Tankesätt",
+  "app_description": "Förändra ditt tankesätt genom dagliga affirmationer.",
+  "intro": {
+    "description": "Dagliga affirmationer hjälper till att omforma ditt tankesätt och bygga emotionell motståndskraft. Ta några ögonblick för att fokusera på positiva tankar och tala vänligt till dig själv.",
+    "benefits": [
+      "Hitta frid i svåra stunder",
+      "Utmana negativa tankemönster",
+      "Bygg självmedkänsla och styrka"
+    ]
+  }
 }
