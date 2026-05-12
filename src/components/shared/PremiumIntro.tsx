@@ -53,7 +53,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
           transition={{ delay: 0.15 }}
           className="text-center space-y-4"
         >
-          <p className="text-xl text-slate-900 font-black leading-tight tracking-tight max-w-md mx-auto">{description}</p>
+          <p className="text-xl text-slate-900 font-semibold leading-relaxed tracking-tight max-w-md mx-auto">{description}</p>
         </motion.div>
 
         {/* Benefits */}
@@ -73,9 +73,9 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
                 className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-primary/10 transition-all duration-300"
               >
                 <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
-                  <CheckCircle2 size={16} strokeWidth={3} />
+                  <CheckCircle2 size={16} strokeWidth={2.5} />
                 </div>
-                <span className="text-sm font-bold text-slate-700">{benefit}</span>
+                <span className="text-sm font-semibold text-slate-700">{benefit}</span>
               </motion.div>
             ))}
           </motion.div>
@@ -102,7 +102,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
           whileHover={{ scale: 1.02, y: -2 }}
           whileTap={{ scale: 0.98 }}
           onClick={onStart}
-          className="w-full max-w-lg py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full max-w-lg py-5 rounded-2xl bg-slate-900 text-white font-bold text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
         >
           {t("common.get_started", "Get Started")}
           <ArrowRight size={20} strokeWidth={3} />

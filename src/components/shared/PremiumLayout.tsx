@@ -77,7 +77,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
                 </div>
               )}
               <div className="flex flex-col">
-                <h1 className="text-xl font-extrabold text-slate-900 tracking-tight leading-none mb-1">{title}</h1>
+                <h1 className="text-xl font-bold text-slate-900 tracking-tight leading-none mb-1">{title}</h1>
                 {subtitle && <p className="text-slate-500 text-xs font-bold uppercase tracking-widest opacity-70">{subtitle}</p>}
               </div>
             </div>
