@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { neon, neonConfig } from "@neondatabase/serverless";
 import Loader from '@/components/Loader';
 import { COLORS } from '@/misc/Colors';
+import { useTranslation } from "react-i18next";
 
 // Disable the browser warning
 neonConfig.disableWarningInBrowsers = true;
@@ -22,6 +23,7 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     useEffect(() => {
         const checkAuth = () => {
+  const { t } = useTranslation();
             if (sessionStorage.getItem("user_id")) {
                 setIsAuthorized(true);
                 setIsLoading(false);
@@ -57,9 +59,7 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
         return (
             <div className="flex min-h-screen flex-col items-center justify-center bg-[#F8FAFC]">
                 <Loader size={45} color={COLORS.blueDark} />
-                <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">
-                    Securing session
-                </p>
+                <p className="mt-4 text-xs font-semibold text-[#2954a1]/70 tracking-widest animate-pulse uppercase">{t("securing_session")}</p>
             </div>
         );
     }

@@ -1,7 +1,9 @@
 import { useToast } from "@/features/mind_reading_check/hooks/use-toast";
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/features/mind_reading_check/components/ui/toast";
+import { useTranslation } from "react-i18next";
 
 export function Toaster() {
+  const { t } = useTranslation();
   const { toasts } = useToast();
 
   return (

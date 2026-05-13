@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface Heart {
   id: number;
@@ -11,6 +12,7 @@ interface Heart {
 }
 
 const FloatingHearts = () => {
+  const { t } = useTranslation();
   const [hearts, setHearts] = useState<Heart[]>([]);
 
   useEffect(() => {

@@ -5,6 +5,7 @@ import { Controller, ControllerProps, FieldPath, FieldValues, FormProvider, useF
 
 import { cn } from "@/features/the_anger_shame_cycle/lib/utils";
 import { Label } from "@/features/the_anger_shame_cycle/components/ui/label";
+import { useTranslation } from "react-i18next";
 
 const Form = FormProvider;
 
@@ -31,6 +32,7 @@ const FormField = <
 };
 
 const useFormField = () => {
+  const { t } = useTranslation();
   const fieldContext = React.useContext(FormFieldContext);
   const itemContext = React.useContext(FormItemContext);
   const { getFieldState, formState } = useFormContext();

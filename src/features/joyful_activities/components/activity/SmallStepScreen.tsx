@@ -41,9 +41,7 @@ const SmallStepScreen = ({ data, onChange, onGoHome, onSave }: Props) => {
             whileTap={{ scale: 0.98 }}
             onClick={onSave}
             className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
-        >
-            Complete Activity
-            <Check size={20} />
+        >{t("complete_activity")}<Check size={20} />
         </motion.button>
         
         <motion.button

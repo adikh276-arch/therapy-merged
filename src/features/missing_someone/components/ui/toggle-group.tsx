@@ -4,6 +4,7 @@ import { type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/features/missing_someone/lib/utils";
 import { toggleVariants } from "@/features/missing_someone/components/ui/toggle";
+import { useTranslation } from "react-i18next";
 
 const ToggleGroupContext = React.createContext<VariantProps<typeof toggleVariants>>({
   size: "default",

@@ -10,12 +10,12 @@ interface Props {
 export default function WelcomeScreen({ onBegin, onHistory, onBack }: Props) {
   const { t } = useTranslation();
   return (
-    <section className="space-y-6" aria-label="Welcome">
+    <section className="space-y-6" aria-label={t("welcome")}>
       <div className="flex items-center justify-between">
-        <button onClick={onBack} className="p-2 -ml-2 rounded-full hover:bg-muted transition-colors" aria-label="Back">
+        <button onClick={onBack} className="p-2 -ml-2 rounded-full hover:bg-muted transition-colors" aria-label={t("common.back")}>
           <ArrowLeft size={22} />
         </button>
-        <button onClick={onHistory} className="p-2 -mr-2 rounded-full hover:bg-muted transition-colors" aria-label="View history">
+        <button onClick={onHistory} className="p-2 -mr-2 rounded-full hover:bg-muted transition-colors" aria-label={t("view_history")}>
           <ClipboardList size={22} />
         </button>
       </div>

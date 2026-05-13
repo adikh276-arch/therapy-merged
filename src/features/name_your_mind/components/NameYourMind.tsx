@@ -151,8 +151,7 @@ export default function NameYourMind() {
                 <div className="absolute top-0 left-0 w-1 h-full bg-slate-200" />
               </div>
               <p className="text-lg text-slate-500 font-medium leading-relaxed">
-                <Trans i18nKey="screens.concept.desc">
-                  When a thought shows up, it often feels like it's <span className="text-slate-900 font-bold">you</span>. But what if you could step back and <span className="text-primary font-bold">notice</span> it instead?
+                <Trans i18nKey="screens.concept.desc">{t("when_a_thought_shows_up_it_often_feels_like_it_s")}<span className="text-slate-900 font-bold">you</span>. But what if you could step back and <span className="text-primary font-bold">notice</span> it instead?
                 </Trans>
               </p>
               <button

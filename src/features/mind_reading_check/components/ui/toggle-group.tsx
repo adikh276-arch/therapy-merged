@@ -4,6 +4,7 @@ import { type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/features/mind_reading_check/lib/utils";
 import { toggleVariants } from "@/features/mind_reading_check/components/ui/toggle";
+import { useTranslation } from "react-i18next";
 
 const ToggleGroupContext = React.createContext<VariantProps<typeof toggleVariants>>({
   size: "default",

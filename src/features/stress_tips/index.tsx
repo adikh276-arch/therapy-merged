@@ -12,6 +12,7 @@ import { Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import TipDetail from "./pages/TipDetail";
 import NotFound from "./pages/NotFound";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <I18nextProvider i18n={i18n}>
-        <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
+        <Suspense fallback={<div className="flex items-center justify-center h-full">{t("common.loading")}</div>}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/tip/:id" element={<TipDetail />} />

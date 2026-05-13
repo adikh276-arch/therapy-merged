@@ -15,6 +15,7 @@ import {
 
 import { cn } from "./utils";
 import { Label } from "./label";
+import { useTranslation } from "react-i18next";
 
 const Form = FormProvider;
 
@@ -43,6 +44,7 @@ const FormField = <
 };
 
 const useFormField = () => {
+  const { t } = useTranslation();
   const fieldContext = React.useContext(FormFieldContext);
   const itemContext = React.useContext(FormItemContext);
   const { getFieldState } = useFormContext();

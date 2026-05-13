@@ -32,6 +32,7 @@ const languages = [
 ];
 
 export const LanguageSelector = () => {
+  const { t } = useTranslation();
     const { i18n } = useTranslation();
 
     const changeLanguage = (code: string) => {
@@ -53,7 +54,7 @@ export const LanguageSelector = () => {
                 <DropdownMenuTrigger asChild>
                     <Button variant="outline" size="icon" className="rounded-full bg-transparent/80 backdrop-blur-sm  border-primary/20 hover:border-primary/50 transition-all">
                         <Globe className="h-[1.2rem] w-[1.2rem] text-primary" />
-                        <span className="sr-only">Toggle language</span>
+                        <span className="sr-only">{t("toggle_language")}</span>
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="max-h-[300px] overflow-y-auto bg-transparent/95 backdrop-blur-md border-primary/10">

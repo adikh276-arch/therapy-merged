@@ -60,9 +60,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
       <div className="w-full max-w-lg flex flex-col flex-1">
         {/* Header */}
         <div className="text-center mb-10">
-          <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-2">
-            Affirmation for
-          </h2>
+          <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-2">{t("affirmation_for")}</h2>
           <h1 className="text-3xl font-extrabold text-slate-900">
             {t(`feelings.${feelingId}.label`)}
           </h1>
@@ -117,7 +115,7 @@ const AffirmationScreen: React.FC<AffirmationScreenProps> = ({
           </motion.button>
 
           <div className="text-center">
-            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Affirmation</p>
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">{t("affirmation")}</p>
             <p className="text-lg font-extrabold text-slate-900">
               {currentIndex + 1} <span className="text-slate-300 mx-1">/</span> {total}
             </p>

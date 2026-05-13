@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from "react";
 import { query } from "../lib/db";
+import { useTranslation } from "react-i18next";
 
 const DEV_FALLBACK_USER_ID = "999999999"; // Temporary dev user when API is not yet available
 
@@ -13,6 +14,7 @@ const initUser = async (userId: string) => {
 };
 
 const AuthGuard = ({ children }: { children: React.ReactNode }) => {
+  const { t } = useTranslation();
     const [isAuthResolved, setIsAuthResolved] = useState(false);
 
     useEffect(() => {

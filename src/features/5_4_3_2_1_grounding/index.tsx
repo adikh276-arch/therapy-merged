@@ -12,10 +12,12 @@ import { Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import LanguageSelector from "./components/LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>

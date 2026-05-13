@@ -5,6 +5,7 @@ import * as ContextMenuPrimitive from "@radix-ui/react-context-menu";
 import { CheckIcon, ChevronRightIcon, CircleIcon } from "lucide-react";
 
 import { cn } from "./utils";
+import { useTranslation } from "react-i18next";
 
 function ContextMenu({
   ...props

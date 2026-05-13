@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ChevronLeft, Play, Clock } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function TimePage() {
   const navigate = useNavigate();
@@ -131,6 +132,7 @@ export function TimePage() {
   const filters = ["All", "Guided", "Yoga", "Beginners", "Sleep", "Focus"];
 
   const getTimeTitle = () => {
+  const { t } = useTranslation();
     if (!timeId) return "Content";
     return timeId
       .split("-")
@@ -170,7 +172,7 @@ export function TimePage() {
                 <Clock size={20} className="text-white" />
               </div>
               
-              <h1 className="text-xl md:text-2xl text-white">Time</h1>
+              <h1 className="text-xl md:text-2xl text-white">{t("time")}</h1>
             </div>
             
             {/* Description */}

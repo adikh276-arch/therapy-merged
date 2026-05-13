@@ -23,6 +23,7 @@ const COLOR_MAP: Record<string, string> = {
 };
 
 const ResourceList = () => {
+  const { t } = useTranslation();
   const { t, i18n } = useTranslation();
   const { concern, type } = useParams<{ concern: string; type: string }>();
   const navigate = useNavigate();

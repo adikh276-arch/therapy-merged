@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { X, Smartphone, Download, Zap, Heart, Brain, Calendar, Star, Sparkles, Check, TrendingUp } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface AppBetterPopupProps {
   onClose: () => void;
@@ -14,6 +15,7 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
   }, []);
 
   const handleDontShowAgain = () => {
+  const { t } = useTranslation();
     const userString = localStorage.getItem("mantraUser");
     if (userString) {
       const user = JSON.parse(userString);
@@ -86,17 +88,13 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-              >
-                App is Better! 🎉
-              </motion.h2>
+              >{t("app_is_better")}</motion.h2>
               <motion.p 
                 className="text-[#64748B] text-sm"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-              >
-                Get exclusive features & better experience
-              </motion.p>
+              >{t("get_exclusive_features_better_experience")}</motion.p>
             </div>
 
             {/* Content */}
@@ -125,7 +123,7 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
                     </svg>
                   </div>
                   <div className="text-center">
-                    <div className="text-white font-semibold text-sm">Android</div>
+                    <div className="text-white font-semibold text-sm">{t("android")}</div>
                   </div>
                 </motion.a>
 
@@ -160,15 +158,11 @@ export function AppBetterPopup({ onClose }: AppBetterPopupProps) {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="w-full text-[#64748B] hover:text-[#020817] font-medium transition-colors px-4 py-2 rounded-xl hover:bg-[#E8F4FD] text-sm"
-                >
-                  Maybe Later
-                </motion.button>
+                >{t("maybe_later")}</motion.button>
                 <button
                   onClick={handleDontShowAgain}
                   className="block w-full text-xs text-[#64748B]/50 hover:text-[#64748B] transition-colors py-1"
-                >
-                  Don't show this again
-                </button>
+                >{t("don_t_show_this_again")}</button>
               </motion.div>
             </div>
           </motion.div>

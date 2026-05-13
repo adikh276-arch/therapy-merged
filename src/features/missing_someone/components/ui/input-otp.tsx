@@ -3,6 +3,7 @@ import { OTPInput, OTPInputContext } from "input-otp";
 import { Dot } from "lucide-react";
 
 import { cn } from "@/features/missing_someone/lib/utils";
+import { useTranslation } from "react-i18next";
 
 const InputOTP = React.forwardRef<React.ElementRef<typeof OTPInput>, React.ComponentPropsWithoutRef<typeof OTPInput>>(
   ({ className, containerClassName, ...props }, ref) => (

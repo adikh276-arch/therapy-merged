@@ -44,6 +44,7 @@ export function LanguageSelector() {
     }, [searchParams, i18n]);
 
     const handleLanguageChange = (value: string) => {
+  const { t } = useTranslation();
         i18n.changeLanguage(value);
         setSearchParams({ lang: value });
     };
@@ -53,7 +54,7 @@ export function LanguageSelector() {
             <Select value={i18n.language.split('-')[0]} onValueChange={handleLanguageChange}>
                 <SelectTrigger className="w-[180px] bg-transparent/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all ">
                     <Globe className="w-4 h-4 mr-2 text-primary" />
-                    <SelectValue placeholder="Language" />
+                    <SelectValue placeholder={t("language")} />
                 </SelectTrigger>
                 <SelectContent className="max-h-[300px]">
                     {languages.map((lang) => (

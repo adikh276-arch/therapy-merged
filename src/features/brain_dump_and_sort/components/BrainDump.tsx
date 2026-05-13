@@ -47,9 +47,7 @@ export const BrainDump = ({ onComplete }: Props) => {
     <div className="flex flex-col items-center py-6 pb-24">
       <div className="w-full max-w-lg space-y-8">
         <header className="text-center">
-          <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">
-            Brain Dump
-          </h1>
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">{t("app_description")}</h1>
           <p className="text-slate-500 text-sm">
             {t("dump_hint")}
           </p>

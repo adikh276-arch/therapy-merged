@@ -1,7 +1,9 @@
 import { useToast } from "@/features/challenging_food_rules/hooks/use-toast";
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/features/challenging_food_rules/components/ui/toast";
+import { useTranslation } from "react-i18next";
 
 export function Toaster() {
+  const { t } = useTranslation();
   const { toasts } = useToast();
 
   return (

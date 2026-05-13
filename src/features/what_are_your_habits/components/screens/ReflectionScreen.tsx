@@ -13,9 +13,7 @@ const ReflectionScreen = ({ onNext }: { onNext: () => void }) => {
       <div className="w-full max-w-lg space-y-8">
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
-            <Sparkles size={14} />
-            Deeper Reflection
-          </div>
+            <Sparkles size={14} />{t("deeper_reflection")}</div>
           <h2 className="text-4xl font-extrabold text-slate-900 leading-tight">{t('reflection_title')}</h2>
         </header>
 
@@ -33,7 +31,7 @@ const ReflectionScreen = ({ onNext }: { onNext: () => void }) => {
               onChange={(e) => setStress(e.target.value)}
               className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-300 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
               rows={3}
-              placeholder="Type your thoughts here..."
+              placeholder={t("type_your_thoughts_here")}
             />
           </motion.div>
 
@@ -51,7 +49,7 @@ const ReflectionScreen = ({ onNext }: { onNext: () => void }) => {
               onChange={(e) => setCalm(e.target.value)}
               className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-300 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
               rows={3}
-              placeholder="Type your thoughts here..."
+              placeholder={t("type_your_thoughts_here")}
             />
           </motion.div>
         </div>

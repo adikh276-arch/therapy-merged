@@ -11,6 +11,7 @@ import { Separator } from "@/features/grief_journey_map/components/ui/separator"
 import { Sheet, SheetContent } from "@/features/grief_journey_map/components/ui/sheet";
 import { Skeleton } from "@/features/grief_journey_map/components/ui/skeleton";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/features/grief_journey_map/components/ui/tooltip";
+import { useTranslation } from "react-i18next";
 
 const SIDEBAR_COOKIE_NAME = "sidebar:state";
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
@@ -78,6 +79,7 @@ const SidebarProvider = React.forwardRef<
   // Adds a keyboard shortcut to toggle the sidebar.
   React.useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
+  const { t } = useTranslation();
       if (event.key === SIDEBAR_KEYBOARD_SHORTCUT && (event.metaKey || event.ctrlKey)) {
         event.preventDefault();
         toggleSidebar();
@@ -234,7 +236,7 @@ const SidebarTrigger = React.forwardRef<React.ElementRef<typeof Button>, React.C
         {...props}
       >
         <PanelLeft />
-        <span className="sr-only">Toggle Sidebar</span>
+        <span className="sr-only">{t("toggle_sidebar")}</span>
       </Button>
     );
   },
@@ -249,10 +251,10 @@ const SidebarRail = React.forwardRef<HTMLButtonElement, React.ComponentProps<"bu
       <button
         ref={ref}
         data-sidebar="rail"
-        aria-label="Toggle Sidebar"
+        aria-label={t("toggle_sidebar")}
         tabIndex={-1}
         onClick={toggleSidebar}
-        title="Toggle Sidebar"
+        title={t("toggle_sidebar")}
         className={cn(
           "absolute inset-y-0 z-20 hidden w-4 -translate-x-1/2 transition-all ease-linear after:absolute after:inset-y-0 after:left-1/2 after:w-[2px] group-data-[side=left]:-right-4 group-data-[side=right]:left-0 hover:after:bg-sidebar-border sm:flex",
           "[[data-side=left]_&]:cursor-w-resize [[data-side=right]_&]:cursor-e-resize",

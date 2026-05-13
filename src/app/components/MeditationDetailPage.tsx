@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ChevronLeft, Play, Lock, Heart, Share2, RotateCcw, RotateCw, Square, Globe } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function MeditationDetailPage() {
   const navigate = useNavigate();
@@ -30,6 +31,7 @@ export function MeditationDetailPage() {
   };
 
   const toggleFavorite = (sessionId: number) => {
+  const { t } = useTranslation();
     setFavorites(prev => {
       const newFavorites = new Set(prev);
       if (newFavorites.has(sessionId)) {
@@ -129,7 +131,7 @@ export function MeditationDetailPage() {
                 </div>
                 <button className="px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm flex items-center gap-1.5 hover:bg-white/20 transition-colors">
                   <Globe size={16} className="text-white" />
-                  <span className="text-white text-sm font-medium">EN</span>
+                  <span className="text-white text-sm font-medium">{t("en")}</span>
                 </button>
               </div>
 

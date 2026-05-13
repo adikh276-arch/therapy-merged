@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ChevronLeft, Play, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function SubcategoryPage() {
   const navigate = useNavigate();
@@ -63,6 +64,7 @@ export function SubcategoryPage() {
   const filters = ["All", "Guided", "Yoga", "Beginners", "Sleep", "Focus"];
 
   const getSubcategoryTitle = () => {
+  const { t } = useTranslation();
     if (!subcategoryId) return "Content";
     return subcategoryId
       .split("-")
@@ -106,9 +108,7 @@ export function SubcategoryPage() {
             </div>
             
             {/* Description */}
-            <p className="text-slate-400 text-sm mb-5 ml-[54px]">
-              Explore guided meditations and mindfulness content
-            </p>
+            <p className="text-slate-400 text-sm mb-5 ml-[54px]">{t("explore_guided_meditations_and_mindfulness_content")}</p>
 
             {/* Filter Tabs */}
             <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">

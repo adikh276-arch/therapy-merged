@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface TypingTextProps {
   text: string;
@@ -9,6 +10,7 @@ interface TypingTextProps {
 }
 
 const TypingText = ({ text, speed = 30, onComplete, className = "" }: TypingTextProps) => {
+  const { t } = useTranslation();
   const [displayed, setDisplayed] = useState("");
   const [done, setDone] = useState(false);
 

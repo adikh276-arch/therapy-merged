@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
 interface Props {
   onConfirm: () => void;
   onCancel: () => void;
 }
 
 export default function ExitDialog({ onConfirm, onCancel }: Props) {
+  const { t } = useTranslation();
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onCancel}>
       <div className="absolute inset-0 bg-foreground/30 backdrop-blur-sm" />
@@ -12,23 +14,19 @@ export default function ExitDialog({ onConfirm, onCancel }: Props) {
         style={{ boxShadow: "var(--shadow-lift)" }}
         onClick={(e) => e.stopPropagation()}
         role="alertdialog"
-        aria-label="Exit confirmation"
+        aria-label={t("exit_confirmation")}
       >
-        <h2 className="font-display text-lg font-semibold text-foreground mb-2">Are you sure you want to exit?</h2>
-        <p className="text-sm text-muted-foreground mb-6">Your unsaved data will be lost.</p>
+        <h2 className="font-display text-lg font-semibold text-foreground mb-2">{t("are_you_sure_you_want_to_exit")}</h2>
+        <p className="text-sm text-muted-foreground mb-6">{t("your_unsaved_data_will_be_lost")}</p>
         <div className="flex gap-3">
           <button
             onClick={onCancel}
             className="flex-1 py-3 rounded-xl border border-border text-foreground font-medium hover:bg-muted transition-all duration-300"
-          >
-            Stay
-          </button>
+          >{t("stay")}</button>
           <button
             onClick={onConfirm}
             className="flex-1 py-3 rounded-xl bg-destructive text-destructive-foreground font-medium hover:opacity-90 transition-all duration-300"
-          >
-            Exit
-          </button>
+          >{t("exit")}</button>
         </div>
       </div>
     </div>

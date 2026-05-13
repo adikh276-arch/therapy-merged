@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import { useTranslation } from "react-i18next";
 
 interface TopBarProps {
   onBack: () => void;
@@ -11,7 +12,7 @@ const TopBar = ({ onBack, pillLabel, screen }: TopBarProps) => (
     <div className="flex items-center justify-between px-4 pt-4 pb-2">
       <button
         onClick={onBack}
-        aria-label="Back"
+        aria-label={t("common.back")}
         style={{
           width: 30, height: 30, borderRadius: '50%',
           background: 'var(--sleep-back-bg)',

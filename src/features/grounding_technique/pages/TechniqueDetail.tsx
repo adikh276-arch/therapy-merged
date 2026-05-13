@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 export default function TechniqueDetail() {
+  const { t } = useTranslation();
   const { id } = useParams();
   const navigate = useNavigate();
   const { t, currentLang } = useTranslation();
@@ -38,9 +39,7 @@ export default function TechniqueDetail() {
       <div className="w-full space-y-10 pb-12">
         <div className="space-y-6">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
-            <Sparkles size={14} />
-            Grounding Technique
-          </div>
+            <Sparkles size={14} />{t("grounding_technique")}</div>
           <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
             {t(technique.title)}
           </h1>

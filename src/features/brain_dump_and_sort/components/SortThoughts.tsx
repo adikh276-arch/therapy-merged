@@ -53,9 +53,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
         <div className="bg-white rounded-[2rem] border-2 border-slate-100 p-6 shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2 font-bold text-slate-700 text-sm">
-              <ListFilter size={18} className="text-primary" />
-              Clarity Progress
-            </div>
+              <ListFilter size={18} className="text-primary" />{t("clarity_progress")}</div>
             <span className="text-primary font-black text-sm">{Math.round(progress * 100)}%</span>
           </div>
           <div className="h-3 rounded-full bg-slate-50 overflow-hidden">
@@ -80,7 +78,7 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
               <div className="absolute top-0 right-0 p-4 text-primary/10">
                 <Sparkles size={48} />
               </div>
-              <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest mb-4">Sorting Thought</p>
+              <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest mb-4">{t("sorting_thought")}</p>
               <h2 className="text-2xl font-bold text-slate-800 leading-relaxed">
                 {unsorted[0].text}
               </h2>
@@ -94,8 +92,8 @@ export const SortThoughts = ({ thoughts: initial, onComplete, onBack }: Props) =
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-emerald-500 shadow-sm">
                 <CheckCircle2 size={32} />
               </div>
-              <h2 className="text-xl font-bold text-emerald-900 mb-2">All Sorted!</h2>
-              <p className="text-emerald-600 font-medium">Your mind is clear and ready for the next step.</p>
+              <h2 className="text-xl font-bold text-emerald-900 mb-2">{t("all_sorted")}</h2>
+              <p className="text-emerald-600 font-medium">{t("your_mind_is_clear_and_ready_for_the_next_step")}</p>
             </motion.div>
           )}
         </AnimatePresence>

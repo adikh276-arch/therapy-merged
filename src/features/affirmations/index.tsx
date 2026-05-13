@@ -18,6 +18,7 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import { Loader2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [isAuthResolved, setIsAuthResolved] = useState(false);
@@ -8,6 +9,7 @@ export const AuthGuard: React.FC<{ children: React.ReactNode }> = ({ children })
 
     useEffect(() => {
         const checkAuth = () => {
+  const { t } = useTranslation();
             const userId = sessionStorage.getItem("user_id");
             if (userId) {
                 setIsAuthResolved(true);

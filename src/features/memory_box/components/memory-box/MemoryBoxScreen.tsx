@@ -2,6 +2,7 @@ import { ChevronLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import ScreenWrapper from "./ScreenWrapper";
 import type { Memory } from "@/features/memory_box/pages/Index";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   lastSaved: Memory | null;
@@ -28,7 +29,7 @@ const MemoryBoxScreen = ({ lastSaved, onAddAnother, onFinish, onBack }: Props) =
         📦
       </motion.div>
 
-      <h2 className="text-2xl font-heading font-semibold text-foreground">Your Memory Box</h2>
+      <h2 className="text-2xl font-heading font-semibold text-foreground">{t("welcome.title")}</h2>
 
       {lastSaved && (
         <motion.div
@@ -52,25 +53,19 @@ const MemoryBoxScreen = ({ lastSaved, onAddAnother, onFinish, onBack }: Props) =
         </motion.div>
       )}
 
-      <p className="text-muted-foreground font-body text-sm">
-        This memory is held here, for you. 🌿
-      </p>
+      <p className="text-muted-foreground font-body text-sm">{t("this_memory_is_held_here_for_you")}</p>
 
       <div className="space-y-3 w-full">
         <motion.button
           whileTap={{ scale: 0.97 }}
           onClick={onAddAnother}
           className="w-full py-3.5 rounded-xl bg-primary text-primary-foreground font-body font-semibold text-base shadow-sm hover:shadow-md transition-all duration-300"
-        >
-          Add another memory ✨
-        </motion.button>
+        >{t("add_another_memory")}</motion.button>
         <motion.button
           whileTap={{ scale: 0.97 }}
           onClick={onFinish}
           className="w-full py-3 rounded-xl border border-border text-foreground font-body text-sm hover:bg-card transition-all duration-300"
-        >
-          Finish for now
-        </motion.button>
+        >{t("finish_for_now")}</motion.button>
       </div>
     </div>
   </ScreenWrapper>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { PrimaryButton } from "./PrimaryButton";
 import { ProgressBar } from "./ProgressBar";
+import { useTranslation } from "react-i18next";
 
 interface StoryNamingScreenProps {
   storyName: string;
@@ -21,6 +22,7 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
   const [isFlipping, setIsFlipping] = useState(false);
 
   const handleSave = () => {
+  const { t } = useTranslation();
     if (!storyName.trim()) return;
     setIsFlipping(true);
     setTimeout(() => {
@@ -72,18 +74,14 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-        >
-          Give this thought a story name 📖
-        </motion.h2>
+        >{t("give_this_thought_a_story_name")}</motion.h2>
 
         <motion.p
           className="text-base text-muted-foreground text-justify mb-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.35, duration: 0.6 }}
-        >
-          What would you call this story?
-        </motion.p>
+        >{t("what_would_you_call_this_story")}</motion.p>
 
         <motion.div
           className="mb-5"
@@ -91,9 +89,7 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
           animate={{ opacity: 1 }}
           transition={{ delay: 0.45, duration: 0.6 }}
         >
-          <p className="text-sm text-muted-foreground text-justify mb-3">
-            Pick a suggestion or write your own:
-          </p>
+          <p className="text-sm text-muted-foreground text-justify mb-3">{t("pick_a_suggestion_or_write_your_own")}</p>
           <div className="flex flex-wrap gap-2">
             {CHIP_SUGGESTIONS.map((chip) => (
               <motion.button
@@ -138,7 +134,7 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
               className="rounded-xl p-4 mb-6 border border-primary/10"
               style={{ background: "rgba(124, 108, 242, 0.06)" }}
             >
-              <p className="text-sm text-muted-foreground mb-1">Your mindful phrase:</p>
+              <p className="text-sm text-muted-foreground mb-1">{t("your_mindful_phrase")}</p>
               <p className="text-base font-medium text-foreground italic text-justify">
                 "I'm noticing my mind telling the '{storyName}' story again."
               </p>
@@ -168,9 +164,7 @@ export function StoryNamingScreen({ storyName, onStoryNameChange, onContinue, cu
             )}
           </AnimatePresence>
           <motion.div animate={isFlipping ? { opacity: 0, scale: 0.95 } : { opacity: 1, scale: 1 }} transition={{ duration: 0.3 }}>
-            <PrimaryButton onClick={handleSave} disabled={!storyName.trim()}>
-              Save Story
-            </PrimaryButton>
+            <PrimaryButton onClick={handleSave} disabled={!storyName.trim()}>{t("save_story")}</PrimaryButton>
           </motion.div>
         </div>
       </div>

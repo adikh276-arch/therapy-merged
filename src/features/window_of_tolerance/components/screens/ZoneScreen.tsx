@@ -39,7 +39,7 @@ export default function ZoneScreen({ zone, onContinue, onBack }: Props) {
       <button
         onClick={onBack}
         className="p-2 -ml-2 rounded-full hover:bg-muted transition-colors"
-        aria-label="Back"
+        aria-label={t("common.back")}
       >
         ← Back
       </button>

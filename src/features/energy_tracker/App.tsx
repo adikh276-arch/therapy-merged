@@ -14,10 +14,12 @@ import NotFound from "./pages/NotFound";
 import PageTransition from "./components/PageTransition";
 import AuthGuard from "./components/AuthGuard";
 import Handshake from "./components/Handshake";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 const AnimatedRoutes = () => {
+  const { t } = useTranslation();
   const location = useLocation();
 
   return (

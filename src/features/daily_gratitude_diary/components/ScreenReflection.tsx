@@ -25,9 +25,7 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
             <ArrowLeft size={20} />
           </motion.button>
           <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />
-            Reflection
-          </div>
+            <Sparkles size={12} />{t("reflection")}</div>
         </header>
 
         <div className="space-y-4">
@@ -45,11 +43,9 @@ const ScreenReflection = ({ onSave, onBack }: ScreenReflectionProps) => {
             className="p-8 bg-white rounded-[2.5rem] border-2 border-slate-100 shadow-sm space-y-6 hover:border-primary/20 transition-all"
         >
           <div className="flex items-center gap-3 text-primary font-black text-[10px] uppercase tracking-[0.2em] mb-2">
-                <Smile size={14} fill="currentColor" />
-                Mood Check
-          </div>
+                <Smile size={14} fill="currentColor" />{t("mood_check")}</div>
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">How do you feel after this?</label>
+            <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{t("how_do_you_feel_after_this")}</label>
             <input
               type="text"
               placeholder={t('placeholder_feeling')}

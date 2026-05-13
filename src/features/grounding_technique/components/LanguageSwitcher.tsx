@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Globe } from "lucide-react";
 import { languages } from "../data/languages";
+import { useTranslation } from "react-i18next";
 
 interface LanguageSwitcherProps {
   currentLang: string;
@@ -8,6 +9,7 @@ interface LanguageSwitcherProps {
 }
 
 export default function LanguageSwitcher({ currentLang, onChangeLang }: LanguageSwitcherProps) {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
   const ref = useRef<HTMLDivElement>(null);
@@ -32,7 +34,7 @@ export default function LanguageSwitcher({ currentLang, onChangeLang }: Language
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
-        aria-label="Change language"
+        aria-label={t("change_language")}
       >
         <Globe className="w-4 h-4" />
         <span className="uppercase text-xs tracking-wide">{current?.code || "EN"}</span>
@@ -43,7 +45,7 @@ export default function LanguageSwitcher({ currentLang, onChangeLang }: Language
           <div className="p-3 border-b border-border/50 bg-secondary/30">
             <input
               type="text"
-              placeholder="Search language..."
+              placeholder={t("search_language")}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="w-full rounded-lg bg-secondary px-3 py-1.5 text-sm outline-none placeholder:text-muted-foreground"

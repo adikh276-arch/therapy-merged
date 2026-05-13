@@ -30,7 +30,7 @@ const CheckInScreen = ({ value, onChange, onFinish }: CheckInScreenProps) => {
             <h2 className="text-3xl font-extrabold text-slate-900 leading-tight">
                 {t("checkin.title")}
             </h2>
-            <p className="text-slate-500 text-sm font-medium">How do you feel after this reflection?</p>
+            <p className="text-slate-500 text-sm font-medium">{t("how_do_you_feel_after_this_reflection")}</p>
         </header>
 
         <div className="grid gap-3">

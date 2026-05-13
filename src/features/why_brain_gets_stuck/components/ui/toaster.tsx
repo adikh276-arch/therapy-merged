@@ -1,7 +1,9 @@
 import { useToast } from "@/features/why_brain_gets_stuck/hooks/use-toast";
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/features/why_brain_gets_stuck/components/ui/toast";
+import { useTranslation } from "react-i18next";
 
 export function Toaster() {
+  const { t } = useTranslation();
   const { toasts } = useToast();
 
   return (

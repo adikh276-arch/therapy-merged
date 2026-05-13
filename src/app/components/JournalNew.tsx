@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { ArrowLeft, Share2, RefreshCw, Smile, Sun, Coffee, Moon, Cloud, Meh, Frown, Save, Sparkles, Check, MoreHorizontal, X, CheckCircle2, ChevronLeft, Edit2, Filter } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const serviceOptions = [
   { id: "all", label: "All Services" },
@@ -199,6 +200,7 @@ export function JournalNew() {
   }, [entryId]);
 
   const handleRefreshSuggestion = () => {
+  const { t } = useTranslation();
     const currentIndex = suggestionPrompts.indexOf(currentSuggestion);
     const nextIndex = (currentIndex + 1) % suggestionPrompts.length;
     setCurrentSuggestion(suggestionPrompts[nextIndex]);
@@ -301,9 +303,7 @@ export function JournalNew() {
                     <Sparkles size={20} className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-base font-semibold text-[#043570] mb-1">
-                      Suggested topic for today
-                    </h3>
+                    <h3 className="text-base font-semibold text-[#043570] mb-1">{t("suggested_topic_for_today")}</h3>
                     <p className="text-base text-[#64748B] leading-relaxed">
                       {currentSuggestion}
                     </p>
@@ -313,28 +313,28 @@ export function JournalNew() {
                     <button
                       onClick={handleCheckSuggestion}
                       className="text-[#10B981] hover:text-[#059669] transition-colors p-1"
-                      title="Mark as done"
+                      title={t("mark_as_done")}
                     >
                       <Check size={24} />
                     </button>
                     <button
                       onClick={handleRefreshSuggestion}
                       className="text-[#00c0ff] hover:text-[#043570] transition-colors p-1"
-                      title="Get new suggestion"
+                      title={t("get_new_suggestion")}
                     >
                       <RefreshCw size={24} />
                     </button>
                     <button
                       onClick={() => setShowSuggestionsModal(true)}
                       className="text-[#94A3B8] hover:text-[#043570] transition-colors p-1"
-                      title="More options"
+                      title={t("more_options")}
                     >
                       <MoreHorizontal size={24} />
                     </button>
                     <button
                       onClick={() => setShowSuggestion(false)}
                       className="text-[#EF4444] hover:text-[#DC2626] transition-colors p-1"
-                      title="Close"
+                      title={t("close")}
                     >
                       <X size={24} />
                     </button>
@@ -347,13 +347,11 @@ export function JournalNew() {
             <div className="space-y-5">
               {/* Title */}
               <div>
-                <label className="block text-sm font-semibold text-[#020817] mb-3">
-                  Title
-                </label>
+                <label className="block text-sm font-semibold text-[#020817] mb-3">{t("title_85")}</label>
                 <div className="relative">
                   <input
                     type="text"
-                    placeholder="Give your entry a title..."
+                    placeholder={t("give_your_entry_a_title")}
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     className="w-full px-4 py-3 pr-20 bg-white border border-[#E2ECF5] rounded-xl text-[#020817] placeholder:text-[#94A3B8] focus:outline-none focus:ring-2 focus:ring-[#00c0ff] focus:border-transparent"
@@ -367,12 +365,10 @@ export function JournalNew() {
 
               {/* Content */}
               <div>
-                <label className="block text-sm font-semibold text-[#020817] mb-3">
-                  What's on your mind?
-                </label>
+                <label className="block text-sm font-semibold text-[#020817] mb-3">{t("what_s_on_your_mind")}</label>
                 <div className="relative">
                   <textarea
-                    placeholder="Write your thoughts, feelings, and reflections here..."
+                    placeholder={t("write_your_thoughts_feelings_and_reflections_here")}
                     value={content}
                     onChange={(e) => setContent(e.target.value)}
                     rows={12}
@@ -395,8 +391,8 @@ export function JournalNew() {
                 }`}
               >
                 <Share2 size={16} />
-                <span className="hidden sm:inline">Share with Provider</span>
-                <span className="sm:hidden">Share</span>
+                <span className="hidden sm:inline">{t("share_with_provider")}</span>
+                <span className="sm:hidden">{t("common.share")}</span>
               </button>
 
               {/* Save Button */}
@@ -434,7 +430,7 @@ export function JournalNew() {
           >
             {/* Header */}
             <div className="flex items-center justify-between px-6 py-4 border-b border-[#E2ECF5]">
-              <h2 className="text-xl font-bold text-[#020817]">Suggested Topics</h2>
+              <h2 className="text-xl font-bold text-[#020817]">{t("suggested_topics")}</h2>
               <button
                 onClick={() => setShowSuggestionsModal(false)}
                 className="text-[#94A3B8] hover:text-[#043570] transition-colors p-1"

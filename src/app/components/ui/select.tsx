@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 
 import { cn } from "./utils";
+import { useTranslation } from "react-i18next";
 
 // Wrapper to filter Figma inspector props
 const SafeIcon = React.forwardRef<

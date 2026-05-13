@@ -35,7 +35,7 @@ const TrackActivitySection = () => {
     return (
       <div className="py-24 text-center">
         <div className="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-        <p className="text-muted-foreground animate-pulse">Loading activities...</p>
+        <p className="text-muted-foreground animate-pulse">{t("loading_activities")}</p>
       </div>
     );
   }
@@ -142,7 +142,7 @@ const TrackActivitySection = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-3">
-                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">What did you do?</label>
+                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("what_did_you_do")}</label>
                     <input
                         type="text"
                         placeholder={t("activity_placeholder")}
@@ -152,7 +152,7 @@ const TrackActivitySection = () => {
                     />
                 </div>
                 <div className="space-y-3">
-                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">For how long? (min)</label>
+                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("for_how_long_min")}</label>
                     <input
                         type="number"
                         placeholder={t("duration_placeholder")}
@@ -166,7 +166,7 @@ const TrackActivitySection = () => {
               <div className="space-y-3">
                 <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("notes_placeholder")}</label>
                 <textarea
-                    placeholder="Add a thought or feeling..."
+                    placeholder={t("add_a_thought_or_feeling")}
                     value={notes}
                     onChange={(e) => setNotes(e.target.value)}
                     rows={3}
@@ -193,7 +193,7 @@ const TrackActivitySection = () => {
             
             <div className="relative z-10 space-y-2">
                 <h3 className="text-2xl font-black text-white">{t("progress_summary")}</h3>
-                <p className="text-slate-400 font-bold text-sm">You're doing great!</p>
+                <p className="text-slate-400 font-bold text-sm">{t("you_re_doing_great")}</p>
             </div>
 
             <div className="relative z-10 grid grid-cols-2 gap-4">
@@ -206,7 +206,7 @@ const TrackActivitySection = () => {
             <div className="relative z-10 pt-10 border-t border-white/10 flex justify-between items-center">
               <div className="space-y-1">
                 <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">{t("current_streak")}</span>
-                <p className="text-white font-bold text-sm">Consistency is key</p>
+                <p className="text-white font-bold text-sm">{t("consistency_is_key")}</p>
               </div>
               <div className="flex items-center gap-4 bg-white/10 px-6 py-4 rounded-3xl border border-white/10">
                 <Sparkles size={20} className="text-yellow-400" />

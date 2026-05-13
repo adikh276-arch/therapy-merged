@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 const stars = [
   { top: '5%', left: '10%', delay: '0s', size: 3 },
   { top: '8%', left: '75%', delay: '0.8s', size: 2 },

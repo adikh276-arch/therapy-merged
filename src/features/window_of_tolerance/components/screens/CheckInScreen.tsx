@@ -33,7 +33,7 @@ export default function CheckInScreen({ selected, onSelect, onBack, onNext }: Pr
   ];
 
   return (
-    <section className="space-y-6" aria-label="Check-in">
+    <section className="space-y-6" aria-label={t("check_in")}>
       <div className="text-center space-y-2">
         <h2 className="font-display text-2xl font-bold text-foreground">{t("screens.checkin.title")}</h2>
         <p className="text-sm text-muted-foreground">{t("screens.checkin.subtitle")}</p>

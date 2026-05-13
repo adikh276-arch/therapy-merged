@@ -119,7 +119,7 @@ const BrainDumpApp = () => {
     return (
       <PremiumLayout
         title={t("app_title")}
-        subtitle="Your mental clarity journey"
+        subtitle={t("your_mental_clarity_journey")}
         icon={<History className="w-6 h-6 text-primary" />}
         onBack={() => setShowSaved(false)}
       >

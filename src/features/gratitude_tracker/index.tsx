@@ -16,10 +16,12 @@ import ReviewEntry from "./pages/ReviewEntry";
 import GratitudeHistory from "./pages/History";
 import NotFound from "./pages/NotFound";
 import Token from "./pages/Token";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>
       <I18nextProvider i18n={i18n}>

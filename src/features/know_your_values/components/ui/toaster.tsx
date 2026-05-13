@@ -1,7 +1,9 @@
 import { useToast } from "../../hooks/use-toast";
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "../../components/ui/toast";
+import { useTranslation } from "react-i18next";
 
 export function Toaster() {
+  const { t } = useTranslation();
   const { toasts } = useToast();
 
   return (

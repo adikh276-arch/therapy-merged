@@ -34,11 +34,11 @@ export default function HistoryModal({ entries, onClose }: Props) {
         style={{ boxShadow: "var(--shadow-lift)" }}
         onClick={(e) => e.stopPropagation()}
         role="dialog"
-        aria-label="Check-in history"
+        aria-label={t("check_in_history")}
       >
         <div className="flex items-center justify-between mb-5">
           <h2 className="font-display text-xl font-semibold text-foreground">📋 {t("history.title")}</h2>
-          <button onClick={onClose} className="p-2 rounded-full hover:bg-muted transition-colors" aria-label="Close">
+          <button onClick={onClose} className="p-2 rounded-full hover:bg-muted transition-colors" aria-label={t("close")}>
             <X size={20} />
           </button>
         </div>

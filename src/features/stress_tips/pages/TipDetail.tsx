@@ -50,9 +50,7 @@ const TipDetail = () => {
             className="p-10 bg-primary/5 rounded-[3rem] border-2 border-primary/10 shadow-sm space-y-6"
           >
             <div className="flex items-center gap-3 text-primary font-black text-[10px] uppercase tracking-[0.3em] mb-2">
-                <Wind size={16} />
-                Breathing Guide
-            </div>
+                <Wind size={16} />{t("breathing_guide")}</div>
             <BreathingExercise />
           </motion.section>
         )}

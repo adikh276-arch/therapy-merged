@@ -4,6 +4,7 @@ import { SUPPORTED_LANGUAGES } from "../i18n";
 import { ChevronDown, Globe } from "lucide-react";
 
 export default function LanguageSelector() {
+  const { t } = useTranslation();
     const { i18n } = useTranslation();
     const [open, setOpen] = useState(false);
     const ref = useRef<HTMLDivElement>(null);

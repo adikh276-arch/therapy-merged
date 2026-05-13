@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ChevronLeft, ChevronRight, Headphones, BookOpen, Clock, Award } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface ProgramItem {
   id: number;
@@ -65,6 +66,7 @@ export function DailyProgramPage() {
   ]);
 
   const toggleCompletion = (id: number) => {
+  const { t } = useTranslation();
     setProgramItems(items =>
       items.map(item =>
         item.id === id ? { ...item, completed: !item.completed } : item
@@ -101,12 +103,10 @@ export function DailyProgramPage() {
                 </button>
 
                 <div className="flex-1">
-                  <h1 className="text-xl md:text-2xl text-white">Daily Program</h1>
+                  <h1 className="text-xl md:text-2xl text-white">{t("daily_program_80")}</h1>
                 </div>
               </div>
-              <p className="text-xs md:text-sm leading-relaxed text-slate-300 pl-[46px]">
-                Complete your daily mindfulness activities and earn points
-              </p>
+              <p className="text-xs md:text-sm leading-relaxed text-slate-300 pl-[46px]">{t("complete_your_daily_mindfulness_activities_and_ear")}</p>
             </motion.div>
 
             {/* Summary */}
@@ -118,9 +118,7 @@ export function DailyProgramPage() {
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <h3 className="text-white font-semibold text-base mb-1">
-                    Today's Progress
-                  </h3>
+                  <h3 className="text-white font-semibold text-base mb-1">{t("today_s_progress")}</h3>
                   <p className="text-slate-400 text-sm">
                     {programItems.filter(item => item.completed).length} of {programItems.length} activities completed
                   </p>
@@ -131,7 +129,7 @@ export function DailyProgramPage() {
                       .filter(item => item.completed)
                       .reduce((sum, item) => sum + item.points, 0)}
                   </div>
-                  <div className="text-slate-400 text-xs">Points Earned</div>
+                  <div className="text-slate-400 text-xs">{t("points_earned")}</div>
                 </div>
               </div>
             </motion.div>

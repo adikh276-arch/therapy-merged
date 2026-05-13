@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 
 import { AuthProvider } from "./components/AuthContext";
 import { AuthGuard } from "./components/AuthGuard";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 

@@ -106,10 +106,10 @@ const Index = () => {
                 <div className="flex items-center gap-5">
                   <div className="w-20 h-20 rounded-3xl bg-primary/10 flex flex-col items-center justify-center text-primary border-2 border-primary/20 shadow-sm">
                     <span className="text-3xl font-black tabular-nums leading-none">{timer}</span>
-                    <span className="text-[10px] font-black uppercase tracking-widest mt-1 opacity-60">Sec</span>
+                    <span className="text-[10px] font-black uppercase tracking-widest mt-1 opacity-60">{t("sec")}</span>
                   </div>
                   <div className="text-left">
-                    <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-1.5">Current Focus</p>
+                    <p className="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-1.5">{t("current_focus")}</p>
                     <AnimatePresence mode="wait">
                       <motion.h2
                         key={currentPrompt}

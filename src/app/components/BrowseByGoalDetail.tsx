@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
 
 export function BrowseByGoalDetail() {
   const navigate = useNavigate();
@@ -126,6 +127,7 @@ export function BrowseByGoalDetail() {
 
   // Carousel custom arrows
   const NextArrow = (props: any) => {
+  const { t } = useTranslation();
     const { onClick } = props;
     return (
       <button
@@ -202,8 +204,8 @@ export function BrowseByGoalDetail() {
 
             {/* Hero Text */}
             <div className="absolute bottom-6 left-6">
-              <h1 className="text-3xl md:text-4xl text-white font-semibold mb-2">Fall Asleep</h1>
-              <p className="text-sm md:text-base text-white/90">Establish a relaxing routine in 5 days steps</p>
+              <h1 className="text-3xl md:text-4xl text-white font-semibold mb-2">{t("fall_asleep")}</h1>
+              <p className="text-sm md:text-base text-white/90">{t("establish_a_relaxing_routine_in_5_days_steps")}</p>
             </div>
           </motion.div>
 
@@ -216,8 +218,8 @@ export function BrowseByGoalDetail() {
           >
             <div className="flex items-center justify-between mb-4">
               <div>
-                <h2 className="text-base md:text-lg text-white mb-1">Your First 5 Nights With Mantra</h2>
-                <p className="text-xs text-slate-400">Plan and begin from tomorrow</p>
+                <h2 className="text-base md:text-lg text-white mb-1">{t("your_first_5_nights_with_mantra")}</h2>
+                <p className="text-xs text-slate-400">{t("plan_and_begin_from_tomorrow")}</p>
               </div>
               <div className="flex items-center gap-0">
                 <button
@@ -298,9 +300,9 @@ export function BrowseByGoalDetail() {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
                 
                 <div className="absolute inset-0 flex flex-col justify-center px-6">
-                  <h2 className="text-xl md:text-2xl text-white font-semibold italic mb-1">Easy Tips</h2>
+                  <h2 className="text-xl md:text-2xl text-white font-semibold italic mb-1">{t("easy_tips")}</h2>
                   <h2 className="text-xl md:text-2xl text-white font-semibold italic mb-2">for Better Sleep</h2>
-                  <p className="text-xs text-white/90">From expert Dr. Matthew Walker</p>
+                  <p className="text-xs text-white/90">{t("from_expert_dr_matthew_walker")}</p>
                 </div>
               </div>
             </motion.button>
@@ -314,8 +316,8 @@ export function BrowseByGoalDetail() {
             transition={{ duration: 0.5, delay: 0.15 }}
           >
             <div className="flex items-center justify-between mb-4">
-              <h2 className="text-base md:text-lg text-white">Fall Asleep</h2>
-              <button className="text-xs text-[#00c0ff] hover:underline">See All</button>
+              <h2 className="text-base md:text-lg text-white">{t("fall_asleep")}</h2>
+              <button className="text-xs text-[#00c0ff] hover:underline">{t("common.see_all")}</button>
             </div>
 
             <div className="grid grid-cols-4 gap-3 md:gap-4">
@@ -352,8 +354,8 @@ export function BrowseByGoalDetail() {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <div className="flex items-center justify-between mb-4">
-              <h2 className="text-base md:text-lg text-white">Popular Sleep Stories</h2>
-              <button className="text-xs text-[#00c0ff] hover:underline">See All</button>
+              <h2 className="text-base md:text-lg text-white">{t("popular_sleep_stories")}</h2>
+              <button className="text-xs text-[#00c0ff] hover:underline">{t("common.see_all")}</button>
             </div>
 
             <div className="grid grid-cols-4 gap-3 md:gap-4">
@@ -390,8 +392,8 @@ export function BrowseByGoalDetail() {
             transition={{ duration: 0.5, delay: 0.35 }}
           >
             <div className="flex items-center justify-between mb-4">
-              <h2 className="text-base md:text-lg text-white">Sleep Meditations</h2>
-              <button className="text-xs text-[#00c0ff] hover:underline">See All</button>
+              <h2 className="text-base md:text-lg text-white">{t("sleep_meditations")}</h2>
+              <button className="text-xs text-[#00c0ff] hover:underline">{t("common.see_all")}</button>
             </div>
 
             <div className="grid grid-cols-4 gap-3 md:gap-4">
@@ -442,9 +444,9 @@ export function BrowseByGoalDetail() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
                 
                 <div className="absolute inset-0 flex flex-col items-center justify-center px-6">
-                  <h2 className="text-2xl md:text-3xl text-white font-semibold text-center italic mb-1">How did you</h2>
+                  <h2 className="text-2xl md:text-3xl text-white font-semibold text-center italic mb-1">{t("how_did_you")}</h2>
                   <h2 className="text-2xl md:text-3xl text-white font-semibold text-center italic mb-4">sleep?</h2>
-                  <p className="text-sm text-white/90">Check-in</p>
+                  <p className="text-sm text-white/90">{t("check_in")}</p>
                 </div>
               </div>
             </motion.button>

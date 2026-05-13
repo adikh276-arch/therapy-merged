@@ -15,11 +15,7 @@ const SleepApp = () => {
   const { t } = useTranslation();
   const [currentScreen, setCurrentScreen] = useState(0);
 
-  const goNext = () => setCurrentScreen(prev => Math.min(prev + 1, TOTAL_SCREENS - 1));
-  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));
-
-  const screens = [
-    <Screen1Hook key={0} onNext={goNext} />,
+  const goNext = () => setCurrentScreen(prev =>{t("math_min_prev_1_total_screens_1_const_goback_setcu")}<Screen1Hook key={0} onNext={goNext} />,
     <Screen2Stages key={1} onNext={goNext} />,
     <Screen3Groggy key={2} onNext={goNext} />,
     <Screen4Reflection key={3} />,

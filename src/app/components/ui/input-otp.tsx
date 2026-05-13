@@ -5,6 +5,7 @@ import { OTPInput, OTPInputContext } from "input-otp";
 import { MinusIcon } from "lucide-react";
 
 import { cn } from "./utils";
+import { useTranslation } from "react-i18next";
 
 function InputOTP({
   className,
@@ -27,6 +28,7 @@ function InputOTP({
 }
 
 function InputOTPGroup({ className, ...props }: React.ComponentProps<"div">) {
+  const { t } = useTranslation();
   return (
     <div
       data-slot="input-otp-group"

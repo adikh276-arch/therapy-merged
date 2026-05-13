@@ -5,6 +5,7 @@ import { Search } from "lucide-react";
 
 import { cn } from "@/features/sleep_window_planner/lib/utils";
 import { Dialog, DialogContent } from "@/features/sleep_window_planner/components/ui/dialog";
+import { useTranslation } from "react-i18next";
 
 const Command = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive>,
@@ -24,6 +25,7 @@ Command.displayName = CommandPrimitive.displayName;
 interface CommandDialogProps extends DialogProps {}
 
 const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
+  const { t } = useTranslation();
   return (
     <Dialog {...props}>
       <DialogContent className="overflow-hidden p-0 shadow-lg">

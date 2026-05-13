@@ -51,8 +51,7 @@ const Screen3Groggy = ({ onNext }: Props) => {
         {t("s3.title")}
       </h1>
       <p className="text-xs leading-relaxed mb-3" style={{ color: "#3a5070" }}>
-        <Trans i18nKey="s3.p1">
-          Dragged out of deep sleep by an alarm? Your brain literally hasn't finished what it was doing. That foggy heavy feeling? That's <span className="font-bold" style={{ color: "#4a7ee8" }}>sleep inertia</span>.
+        <Trans i18nKey="s3.p1">{t("dragged_out_of_deep_sleep_by_an_alarm_your_brain_l")}<span className="font-bold" style={{ color: "#4a7ee8" }}>sleep inertia</span>.
         </Trans>
       </p>
 

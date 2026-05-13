@@ -19,9 +19,7 @@ const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
       <div className="w-full max-w-lg space-y-8">
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
-            <Sparkles size={14} />
-            Coping Mechanisms
-          </div>
+            <Sparkles size={14} />{t("coping_mechanisms")}</div>
           <h2 className="text-4xl font-extrabold text-slate-900 leading-tight">{t('coping_title')}</h2>
         </header>
 

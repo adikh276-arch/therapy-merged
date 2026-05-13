@@ -7,6 +7,7 @@ import { Sparkles } from "lucide-react";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const Index = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const { t, currentLang } = useTranslation();
 
@@ -20,9 +21,7 @@ const Index = () => {
             <Sparkles size={14} />
             {t("Grounding")}
           </div>
-          <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
-            Stay Present
-          </h1>
+          <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">{t("stay_present")}</h1>
           <p className="text-slate-500 text-base font-bold leading-relaxed max-w-md">
             {t("Grounding techniques help bring your attention back to the present moment.")}
             {" "}{t("Choose one activity that feels supportive right now.")}

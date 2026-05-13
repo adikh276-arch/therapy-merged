@@ -28,7 +28,14 @@
     "back": "Back",
     "next": "Next",
     "save": "Save",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message"
   },
   "app_title": "Box Breathing",
   "app_complete_title": "Great Job!",
@@ -37,5 +44,17 @@
   "intro_p1": "Inhale for 4 seconds",
   "intro_p2": "Hold for 4 seconds",
   "intro_p3": "Exhale for 4 seconds",
-  "app_description": "Box breathing uses a simple 4-4-4-4 pattern — inhale, hold, exhale, hold — each for four seconds. It activates your parasympathetic nervous system, lowering stress and bringing you back to a calm, focused state."
+  "app_description": "Box breathing uses a simple 4-4-4-4 pattern — inhale, hold, exhale, hold — each for four seconds. It activates your parasympathetic nervous system, lowering stress and bringing you back to a calm, focused state.",
+  "language": "Language",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar"
 }

@@ -5,6 +5,7 @@ import { Controller, ControllerProps, FieldPath, FieldValues, FormProvider, useF
 
 import { cn } from "@/features/what_do_i_need/lib/utils";
 import { Label } from "@/features/what_do_i_need/components/ui/label";
+import { useTranslation } from "react-i18next";
 
 const Form = FormProvider;
 
@@ -31,6 +32,7 @@ const FormField = <
 };
 
 const useFormField = () => {
+  const { t } = useTranslation();
   const fieldContext = React.useContext(FormFieldContext);
   const itemContext = React.useContext(FormItemContext);
   const { getFieldState, formState } = useFormContext();

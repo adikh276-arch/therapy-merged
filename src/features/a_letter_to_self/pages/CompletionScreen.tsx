@@ -25,9 +25,7 @@ const CompletionScreen = () => {
                 onClick={() => navigate("../letters")}
                 className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
               >
-                <History size={20} />
-                View Past Letters
-              </motion.button>
+                <History size={20} />{t("view_past_letters")}</motion.button>
           </div>
         </PremiumComplete>
       </div>

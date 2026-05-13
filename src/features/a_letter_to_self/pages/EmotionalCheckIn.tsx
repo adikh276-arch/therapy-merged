@@ -43,13 +43,13 @@ const EmotionalCheckIn = () => {
         <header className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
             <Heart size={16} />
-            Post-Writing Reflection
+            {t('post_writing_reflection', 'Post-Writing Reflection')}
           </div>
           <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
-            How do you feel?
+            {t('check_in_title')}
           </h1>
           <p className="text-slate-500 text-lg font-bold leading-relaxed max-w-sm">
-            Acknowledging your feelings is a powerful step in your journey.
+            {t('reflection_desc', 'Acknowledging your feelings is a powerful step in your journey.')}
           </p>
         </header>
 
@@ -98,7 +98,7 @@ const EmotionalCheckIn = () => {
             disabled={!selected}
             className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:shadow-none"
           >
-            Finish & Save Reflection
+            {t('finish_save_reflection', 'Finish & Save Reflection')}
             <Send size={22} />
           </motion.button>
         </div>

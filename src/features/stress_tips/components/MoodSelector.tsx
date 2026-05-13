@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const moods = [
   { emoji: "😊", label: "Great" },
@@ -8,13 +9,12 @@ const moods = [
 ];
 
 const MoodSelector = () => {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState<number | null>(null);
 
   return (
     <div className="wellness-card">
-      <h3 className="text-base font-semibold mb-4 text-foreground">
-        How are you feeling today?
-      </h3>
+      <h3 className="text-base font-semibold mb-4 text-foreground">{t("mood.title")}</h3>
       <div className="flex justify-around">
         {moods.map((mood, i) => (
           <button

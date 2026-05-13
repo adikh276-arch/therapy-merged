@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Loader from '@/components/Loader';
 import { COLORS } from '@/misc/Colors';
+import { useTranslation } from "react-i18next";
 
 interface AuthContextType {
     userId: string | null;
@@ -20,6 +21,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     useEffect(() => {
         const checkAuth = () => {
+  const { t } = useTranslation();
             const storedId = sessionStorage.getItem("user_id");
             if (storedId) {
                 setUserId(storedId);

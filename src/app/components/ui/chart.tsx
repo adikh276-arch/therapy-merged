@@ -4,6 +4,7 @@ import * as React from "react";
 import * as RechartsPrimitive from "recharts";
 
 import { cn } from "./utils";
+import { useTranslation } from "react-i18next";
 
 // Format: { THEME_NAME: CSS_SELECTOR }
 const THEMES = { light: "", dark: ".dark" } as const;
@@ -70,6 +71,7 @@ function ChartContainer({
 }
 
 const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
+  const { t } = useTranslation();
   const colorConfig = Object.entries(config).filter(
     ([, config]) => config.theme || config.color,
   );

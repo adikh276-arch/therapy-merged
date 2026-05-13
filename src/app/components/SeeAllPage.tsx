@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ChevronLeft, Sparkles, Star, Target, Layers } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export function SeeAllPage() {
   const navigate = useNavigate();
@@ -9,6 +10,7 @@ export function SeeAllPage() {
 
   // Get the section title
   const getSectionTitle = () => {
+  const { t } = useTranslation();
     if (!section) return "All Content";
     return section
       .split("-")

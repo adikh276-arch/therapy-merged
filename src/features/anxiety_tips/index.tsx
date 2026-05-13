@@ -16,6 +16,7 @@ import DeepBreathing from "./pages/tips/DeepBreathing";
 import Mindfulness from "./pages/tips/Mindfulness";
 import MuscleRelaxation from "./pages/tips/MuscleRelaxation";
 import PositiveSelfTalk from "./pages/tips/PositiveSelfTalk";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 

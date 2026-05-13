@@ -31,6 +31,7 @@ const languages = [
 ];
 
 export const LanguageSwitcher = () => {
+  const { t } = useTranslation();
     const { i18n } = useTranslation();
 
     const changeLanguage = (lng: string) => {

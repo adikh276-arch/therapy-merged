@@ -9,12 +9,13 @@ import { Toaster } from "@/features/a_gentle_wish/components/ui/toaster";
 import { TooltipProvider } from "@/features/a_gentle_wish/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <I18nextProvider i18n={i18n}>
-    <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
+    <Suspense fallback={<div className="flex items-center justify-center h-full">{t("common.loading")}</div>}>
       <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />

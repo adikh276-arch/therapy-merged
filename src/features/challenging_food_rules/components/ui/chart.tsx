@@ -2,6 +2,7 @@ import * as React from "react";
 import * as RechartsPrimitive from "recharts";
 
 import { cn } from "@/features/challenging_food_rules/lib/utils";
+import { useTranslation } from "react-i18next";
 
 // Format: { THEME_NAME: CSS_SELECTOR }
 const THEMES = { light: "", dark: ".dark" } as const;
@@ -59,6 +60,7 @@ const ChartContainer = React.forwardRef<
 ChartContainer.displayName = "Chart";
 
 const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
+  const { t } = useTranslation();
   const colorConfig = Object.entries(config).filter(([_, config]) => config.theme || config.color);
 
   if (!colorConfig.length) {

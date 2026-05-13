@@ -55,8 +55,7 @@ const SleepAnxietyActivity = () => {
                     </div>
 
                     <p className="text-[#85B7EB] leading-relaxed text-sm">
-                      <Trans i18nKey="screen1.p2">
-                        This isn't a weakness. It's a phenomenon called <span className="text-[#B5D4F4] font-bold">sleep anxiety</span> — and it affects millions of people.
+                      <Trans i18nKey="screen1.p2">{t("this_isn_t_a_weakness_it_s_a_phenomenon_called")}<span className="text-[#B5D4F4] font-bold">sleep anxiety</span> — and it affects millions of people.
                       </Trans>
                     </p>
                   </div>
@@ -108,8 +107,7 @@ const SleepAnxietyActivity = () => {
                     </div>
 
                     <p className="text-[#85B7EB] leading-relaxed text-sm">
-                      <Trans i18nKey="screen2.p2">
-                        This is called <span className="text-[#B5D4F4] font-bold">conditioned arousal</span> — it explains why you feel exhausted all day, yet wide awake at bedtime.
+                      <Trans i18nKey="screen2.p2">{t("this_is_called")}<span className="text-[#B5D4F4] font-bold">conditioned arousal</span> — it explains why you feel exhausted all day, yet wide awake at bedtime.
                       </Trans>
                     </p>
                   </div>

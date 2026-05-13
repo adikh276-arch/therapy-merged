@@ -22,6 +22,7 @@ const vibeEmojiMap: Record<string, string> = {
 };
 
 const VibeHistory = ({ onBack }: Props) => {
+  const { t } = useTranslation();
   const { t, i18n } = useTranslation();
   const [entries, setEntries] = useState<VibeEntry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -74,7 +75,7 @@ const VibeHistory = ({ onBack }: Props) => {
     return (
       <div className="flex flex-col items-center justify-center py-20 space-y-4">
         <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-        <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">Rewinding your journey...</p>
+        <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">{t("rewinding_your_journey")}</p>
       </div>
     );
   }
@@ -83,9 +84,7 @@ const VibeHistory = ({ onBack }: Props) => {
     <div className="space-y-8">
       <header className="flex items-center justify-end">
         <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-          <Sparkles size={12} />
-          Your Journey
-        </div>
+          <Sparkles size={12} />{t("yourJourney")}</div>
       </header>
 
       <div className="space-y-4">

@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
+import { useTranslation } from "react-i18next";
 
 interface ConfettiProps {
   trigger: number; // increment to trigger
@@ -8,6 +9,7 @@ interface ConfettiProps {
 const COLORS = ['#ff6b6b', '#ffd93d', '#6bcb77', '#4d96ff', '#c77dff', '#ff9a3c'];
 
 const Confetti = ({ trigger, containerRef }: ConfettiProps) => {
+  const { t } = useTranslation();
   const [pieces, setPieces] = useState<{ id: number; x: number; y: number; color: string; round: boolean; delay: number }[]>([]);
 
   useEffect(() => {

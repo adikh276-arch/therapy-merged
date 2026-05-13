@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import { PremiumLayout } from "../../../components/shared/PremiumLayout";
 
 const DoodleHistory = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const [entries, setEntries] = useState<DoodleEntry[]>([]);
@@ -83,16 +84,14 @@ const DoodleHistory = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => navigate("..")}
               className="px-10 py-5 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
-            >
-              Start Doodling
-            </motion.button>
+            >{t("start_doodling")}</motion.button>
           </div>
         )}
 
         {isLoading && (
           <div className="flex flex-col items-center justify-center py-20 gap-4">
             <Loader2 className="w-10 h-10 animate-spin text-primary opacity-20" />
-            <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">Loading gallery...</p>
+            <p className="text-slate-400 font-black text-[10px] uppercase tracking-widest">{t("loading_gallery")}</p>
           </div>
         )}
 
@@ -104,9 +103,7 @@ const DoodleHistory = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.reload()}
               className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
-            >
-              Retry
-            </motion.button>
+            >{t("retry")}</motion.button>
           </div>
         )}
 

@@ -4,6 +4,7 @@ import * as React from "react";
 import { Drawer as DrawerPrimitive } from "vaul";
 
 import { cn } from "./utils";
+import { useTranslation } from "react-i18next";
 
 function Drawer({
   ...props
@@ -73,6 +74,7 @@ function DrawerContent({
 }
 
 function DrawerHeader({ className, ...props }: React.ComponentProps<"div">) {
+  const { t } = useTranslation();
   return (
     <div
       data-slot="drawer-header"

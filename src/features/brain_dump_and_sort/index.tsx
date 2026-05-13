@@ -13,10 +13,12 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 import { AuthGuard } from "./components/AuthGuard";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>

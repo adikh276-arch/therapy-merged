@@ -29,18 +29,14 @@ const ScreenPastEntries = ({ entries, onBack }: ScreenPastEntriesProps) => {
             <ArrowLeft size={20} />
           </motion.button>
           <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />
-            History
-          </div>
+            <Sparkles size={12} />{t("history")}</div>
         </header>
 
         <div className="space-y-4">
           <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
             {t('past_entries_title')}
           </h1>
-          <p className="text-slate-500 text-base font-medium leading-relaxed">
-            Relive your moments of gratitude.
-          </p>
+          <p className="text-slate-500 text-base font-medium leading-relaxed">{t("relive_your_moments_of_gratitude")}</p>
         </div>
 
         {(!entries || entries.length === 0) ? (

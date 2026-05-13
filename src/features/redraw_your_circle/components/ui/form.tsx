@@ -5,6 +5,7 @@ import { Controller, ControllerProps, FieldPath, FieldValues, FormProvider, useF
 
 import { cn } from "@/features/redraw_your_circle/lib/utils";
 import { Label } from "@/features/redraw_your_circle/components/ui/label";
+import { useTranslation } from "react-i18next";
 
 const Form = FormProvider;
 
@@ -31,6 +32,7 @@ const FormField = <
 };
 
 const useFormField = () => {
+  const { t } = useTranslation();
   const fieldContext = React.useContext(FormFieldContext);
   const itemContext = React.useContext(FormItemContext);
   const { getFieldState, formState } = useFormContext();

@@ -81,7 +81,7 @@ const Reflection = ({ onComplete }: Props) => {
                 </label>
                 <textarea
                     className="w-full py-8 rounded-[2.5rem] bg-slate-50 border-2 border-transparent focus:border-primary/50 focus:bg-white transition-all outline-none px-8 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner min-h-[200px] resize-none leading-relaxed"
-                    placeholder="Type your reflection here..."
+                    placeholder={t("type_your_reflection_here")}
                     value={answer}
                     onChange={(e) => setAnswer(e.target.value)}
                 />

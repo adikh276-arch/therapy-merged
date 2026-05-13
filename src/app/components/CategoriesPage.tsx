@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ChevronLeft, Circle, Moon, Waves, Coffee, Heart, Music, Sparkles, Mic, Sun, TreePine, Droplets, Volume2, Fish, Compass, Wind, BookOpen, Headphones, Target, Brain, Activity } from "lucide-react";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export function CategoriesPage() {
   const navigate = useNavigate();
@@ -71,6 +72,7 @@ export function CategoriesPage() {
   ];
 
   const toggleCategory = (categoryId: string) => {
+  const { t } = useTranslation();
     setExpandedCategory(expandedCategory === categoryId ? null : categoryId);
   };
 
@@ -118,11 +120,9 @@ export function CategoriesPage() {
               <div className="w-9 h-9 rounded-xl flex items-center justify-center shadow-md text-lg flex-shrink-0 bg-[#F59E0B]">
                 🧘
               </div>
-              <h1 className="text-xl md:text-2xl text-white">Categories</h1>
+              <h1 className="text-xl md:text-2xl text-white">{t("categories")}</h1>
             </div>
-            <p className="text-xs md:text-sm leading-relaxed max-w-xl text-slate-300 pl-[54px]">
-              Explore all mindfulness categories and subcategories
-            </p>
+            <p className="text-xs md:text-sm leading-relaxed max-w-xl text-slate-300 pl-[54px]">{t("explore_all_mindfulness_categories_and_subcategori")}</p>
           </motion.div>
 
           {/* Browse by Category */}

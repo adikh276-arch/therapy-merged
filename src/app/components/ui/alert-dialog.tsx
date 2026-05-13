@@ -5,6 +5,7 @@ import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog";
 
 import { cn } from "./utils";
 import { buttonVariants } from "./button";
+import { useTranslation } from "react-i18next";
 
 function AlertDialog({
   ...props

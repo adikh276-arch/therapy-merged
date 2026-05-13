@@ -4,8 +4,10 @@ import { validateToken, setSessionUserId, getSessionUserId } from "../lib/auth";
 import { query } from "../lib/db";
 import Loader from '@/components/Loader';
 import { COLORS } from '@/misc/Colors';
+import { useTranslation } from "react-i18next";
 
 export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
+  const { t } = useTranslation();
     const [isAuthResolved, setIsAuthResolved] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();

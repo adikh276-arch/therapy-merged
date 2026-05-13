@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect, useCallback, ReactNode } from "react";
 import { sql } from "@/lib/db";
+import { useTranslation } from "react-i18next";
 
 export type EnergyLevel = "very-low" | "low" | "okay" | "good" | "high";
 
@@ -19,13 +20,14 @@ interface EnergyContextType {
   setCurrentNote: (note: string) => void;
   entries: EnergyEntry[];
   saveEntry: () => void;
-  refreshHistory: () => Promise<void>;
+  refreshHistory: () =>{t("promise")}<void>;
   isLoading: boolean;
 }
 
 const EnergyContext = React.createContext<EnergyContextType | undefined>(undefined);
 
 export const useEnergy = () => {
+  const { t } = useTranslation();
   const ctx = useContext(EnergyContext);
   if (!ctx) throw new Error("useEnergy must be used within EnergyProvider");
   return ctx;

@@ -10,6 +10,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Badge } from "./ui/badge";
 import { ScrollArea } from "./ui/scroll-area";
 import { Separator } from "./ui/separator";
+import { useTranslation } from "react-i18next";
 
 interface Expert {
   id: string;
@@ -643,6 +644,7 @@ export function CareTeam() {
   }, [searchParams]);
 
   const handleExpertClick = (expert: Expert) => {
+  const { t } = useTranslation();
     setSelectedExpert(expert);
     setSelectedMessage(null);
     setShowExpertsList(false);
@@ -717,7 +719,7 @@ export function CareTeam() {
                     <MessageCircle size={20} className="text-[#1E293B]" strokeWidth={2} />
                   </div>
                   <div>
-                    <h1 className="text-2xl text-[#0f172b] font-medium">Care Team</h1>
+                    <h1 className="text-2xl text-[#0f172b] font-medium">{t("nav.care_team")}</h1>
                   </div>
                 </div>
               </div>
@@ -727,7 +729,7 @@ export function CareTeam() {
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-[#64748B]" size={16} />
                 <input
                   type="text"
-                  placeholder="Search conversations..."
+                  placeholder={t("search_conversations")}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="w-full pl-9 pr-3 py-2 bg-[#f3faff] border border-[#E2ECF5] rounded-lg text-sm text-[#020817] placeholder-[#64748B] focus:outline-none focus:ring-2 focus:ring-[#00c0ff] focus:border-transparent"
@@ -812,11 +814,11 @@ export function CareTeam() {
                             {expert.id === "7" ? (
                               <div className="flex items-center gap-1 px-2 py-1 bg-[#ECFDF5] border border-[#6EE7B7] rounded-full flex-shrink-0">
                                 <Info size={10} className="text-[#10B981]" />
-                                <span className="text-[10px] text-[#10B981] font-medium">Finding the Right Provider</span>
+                                <span className="text-[10px] text-[#10B981] font-medium">{t("finding_the_right_provider")}</span>
                               </div>
                             ) : expert.id === "8" ? (
                               <div className="flex items-center gap-1 px-2 py-1 bg-[#f3faff] border border-[#8FD9F6] rounded-full flex-shrink-0">
-                                <span className="text-[10px] text-[#00c0ff] font-medium">Get Started &gt;</span>
+                                <span className="text-[10px] text-[#00c0ff] font-medium">{t("get_started_gt")}</span>
                               </div>
                             ) : hasMessage && expertMessage ? (
                               <span className="text-[10px] text-[#64748B] font-normal flex-shrink-0">{expertMessage.timestamp}</span>
@@ -834,7 +836,7 @@ export function CareTeam() {
                                 </p>
                                 <div className="flex items-center gap-1">
                                   <AlertCircle size={12} className="text-[#EF4444] flex-shrink-0" />
-                                  <span className="text-[10px] text-[#EF4444] font-medium">Inactive Order</span>
+                                  <span className="text-[10px] text-[#EF4444] font-medium">{t("inactive_order")}</span>
                                 </div>
                               </div>
                             ) : (
@@ -845,10 +847,10 @@ export function CareTeam() {
                           ) : (
                             <div className="flex items-center justify-between">
                               {expert.id === "10" ? (
-                                <p className="text-xs truncate text-[#64748B]">Your Trusted 24×7 Support Companion</p>
+                                <p className="text-xs truncate text-[#64748B]">{t("your_trusted_24_7_support_companion")}</p>
                               ) : (
                                 <>
-                                  <p className="text-xs text-[#64748B]">Get started</p>
+                                  <p className="text-xs text-[#64748B]">{t("get_started_20")}</p>
                                   <ChevronRight size={14} className="text-[#64748B] flex-shrink-0" />
                                 </>
                               )}
@@ -914,9 +916,7 @@ export function CareTeam() {
                   <div className="max-w-4xl mx-auto">
                     {/* Date Divider */}
                     <div className="flex items-center justify-center mb-6">
-                      <span className="text-xs text-[#64748B] bg-white px-3 py-1 rounded-full border border-[#E2ECF5]">
-                        Today
-                      </span>
+                      <span className="text-xs text-[#64748B] bg-white px-3 py-1 rounded-full border border-[#E2ECF5]">{t("common.today")}</span>
                     </div>
 
                     {/* Sample Messages */}
@@ -930,9 +930,7 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817]">
-                              How can I help?
-                            </p>
+                            <p className="text-sm text-[#020817]">{t("how_can_i_help")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">9:45 AM</span>
                         </div>
@@ -945,9 +943,7 @@ export function CareTeam() {
                         </div>
                         <div className="flex-1 flex flex-col items-end">
                           <div className="bg-[#043570] rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-md">
-                            <p className="text-sm text-white">
-                              Hi, I've just finished my session. I'd like to share some things I'm feeling today. Lately, I've been feeling anxious & stressed a lot CONSTANTLY.
-                            </p>
+                            <p className="text-sm text-white">{t("hi_i_ve_just_finished_my_session_i_d_like_to_share")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 mr-1 block">9:47 AM</span>
                         </div>
@@ -962,9 +958,7 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817]">
-                              I'm sorry to hear that you're feeling this way. It's completely understandable to feel like this when so much is going on. Let's talk this through together.
-                            </p>
+                            <p className="text-sm text-[#020817]">{t("i_m_sorry_to_hear_that_you_re_feeling_this_way_it_")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">9:48 AM</span>
                         </div>
@@ -977,9 +971,7 @@ export function CareTeam() {
                         </div>
                         <div className="flex-1 flex flex-col items-end">
                           <div className="bg-[#043570] rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-md">
-                            <p className="text-sm text-white">
-                              At my job, my manager put me through a lot last year. I know that it's the nature of the job, maybe I wasn't cut out for it or maybe I just couldn't cope. I feel trapped here now.
-                            </p>
+                            <p className="text-sm text-white">{t("at_my_job_my_manager_put_me_through_a_lot_last_yea")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 mr-1 block">9:50 AM</span>
                         </div>
@@ -994,12 +986,8 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              I'm here to help navigate those feelings - you're not alone in this. It's really hard when you care so much about what you do but feel trapped at the same time.
-                            </p>
-                            <p className="text-sm text-[#020817]">
-                              Let's explore this together and see if we can find some ways to cope with the stress and anxiety you're experiencing.
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("i_m_here_to_help_navigate_those_feelings_you_re_no")}</p>
+                            <p className="text-sm text-[#020817]">{t("let_s_explore_this_together_and_see_if_we_can_find")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">9:52 AM</span>
                         </div>
@@ -1014,16 +1002,10 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              I'm sensing that you're not feeling like your "GentleSelfish" self. Can you tell me more about what you're going through? What's been triggering these anxious thoughts lately?
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("i_m_sensing_that_you_re_not_feeling_like_your_gent")}</p>
                             <div className="flex gap-2 mt-3">
-                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">
-                                Work stress
-                              </button>
-                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">
-                                Feeling trapped
-                              </button>
+                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">{t("work_stress")}</button>
+                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">{t("feeling_trapped")}</button>
                             </div>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">9:53 AM</span>
@@ -1037,9 +1019,7 @@ export function CareTeam() {
                         </div>
                         <div className="flex-1 flex flex-col items-end">
                           <div className="bg-[#043570] rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-md">
-                            <p className="text-sm text-white">
-                              I'm feeling that anxiety in a lot of different areas of my life. It's not just the work, it's relationships too. I feel like I'm not enough for a lot of people.
-                            </p>
+                            <p className="text-sm text-white">{t("i_m_feeling_that_anxiety_in_a_lot_of_different_are")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 mr-1 block">9:55 AM</span>
                         </div>
@@ -1054,9 +1034,7 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817]">
-                              I'm so sorry. I can imagine experiencing some major and minor stressors across different areas. Anxiety can be so exhausting. Can you tell me a little bit more about the areas you're feeling this way in?
-                            </p>
+                            <p className="text-sm text-[#020817]">{t("i_m_so_sorry_i_can_imagine_experiencing_some_major")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">9:56 AM</span>
                         </div>
@@ -1071,22 +1049,16 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              Here are some common areas & themes in daily living when it comes to how to balance everyone's needs:
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("here_are_some_common_areas_themes_in_daily_living_")}</p>
                             <ul className="text-sm text-[#020817] space-y-2 ml-4 list-disc">
                               <li>
-                                <strong>Work & Career:</strong> Perhaps you find it difficult to say no to extra projects or overtime, even when you're already stretched thin.
-                              </li>
+                                <strong>{t("work_career")}</strong>{t("perhaps_you_find_it_difficult_to_say_no_to_extra_p")}</li>
                               <li>
-                                <strong>Relationships:</strong> You might struggle to express your own needs or desires in relationships, fearing conflict or the loss of connection.
-                              </li>
+                                <strong>{t("relationships")}</strong>{t("you_might_struggle_to_express_your_own_needs_or_de")}</li>
                               <li>
-                                <strong>Family responsibilities:</strong> Whether it's taking care of aging parents or raising children, you feel you must put their needs above your own well-being.
-                              </li>
+                                <strong>{t("family_responsibilities")}</strong>{t("whether_it_s_taking_care_of_aging_parents_or_raisi")}</li>
                               <li>
-                                <strong>Social Pressure:</strong> Maybe you avoid saying "no" to social invitations out of guilt, even when you're exhausted or would prefer solitude.
-                              </li>
+                                <strong>{t("social_pressure")}</strong>{t("maybe_you_avoid_saying_no_to_social_invitations_ou")}</li>
                             </ul>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">9:58 AM</span>
@@ -1100,9 +1072,7 @@ export function CareTeam() {
                         </div>
                         <div className="flex-1 flex flex-col items-end">
                           <div className="bg-[#043570] rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-md">
-                            <p className="text-sm text-white">
-                              Yes, a lot of those felt really true for me. Especially the "GentleSelfish" part. How do we work on saying "no" without guilt and feeling guilt-free about doing things that you enjoy? I tend to feel guilt easily.
-                            </p>
+                            <p className="text-sm text-white">{t("yes_a_lot_of_those_felt_really_true_for_me_especia")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 mr-1 block">10:00 AM</span>
                         </div>
@@ -1117,12 +1087,8 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              That's a beautiful goal you've identified - and an absolutely valuable one! While it may seem counterintuitive, prioritizing your own needs & well-being actually makes you MORE effective in caring for others, not less.
-                            </p>
-                            <p className="text-sm text-[#020817]">
-                              Would you like to explore strategies to help with this?
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("that_s_a_beautiful_goal_you_ve_identified_and_an_a")}</p>
+                            <p className="text-sm text-[#020817]">{t("would_you_like_to_explore_strategies_to_help_with_")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">10:01 AM</span>
                         </div>
@@ -1135,9 +1101,7 @@ export function CareTeam() {
                         </div>
                         <div className="flex-1 flex flex-col items-end">
                           <div className="bg-[#043570] rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-md">
-                            <p className="text-sm text-white">
-                              I think what I've realized - aside from the fact that I don't know who I'm becoming. I don't know who I am anymore. I only know what I was or I guess what everyone wanted me to be. Do you understand what I'm trying to say?
-                            </p>
+                            <p className="text-sm text-white">{t("i_think_what_i_ve_realized_aside_from_the_fact_tha")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 mr-1 block">10:03 AM</span>
                         </div>
@@ -1152,12 +1116,8 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              I think I can now fully hear what you're saying. You want to feel like you're creating a sense of self that aligns with YOUR needs. Not a needs of other people towards you but your real needs, and maybe slowly discover who you are.
-                            </p>
-                            <p className="text-sm text-[#020817]">
-                              Very very strongly: this journey to me is less about finding a "perfect" self, but rather being more AUTHENTIC & GENTLE with who you are becoming. You're very strong for identifying this.
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("i_think_i_can_now_fully_hear_what_you_re_saying_yo")}</p>
+                            <p className="text-sm text-[#020817]">{t("very_very_strongly_this_journey_to_me_is_less_abou")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">10:05 AM</span>
                         </div>
@@ -1172,16 +1132,10 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              I've noticed a really great tool that you haven't yet tried on Mantra - it's called "GentleSelfish" and I really think you'd like what it has to offer. You're working on saying "no", managing guilt and creating space for self care. So the tool is designed to help with EXACTLY some issues you've just mentioned.
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("i_ve_noticed_a_really_great_tool_that_you_haven_t_")}</p>
                             <div className="flex gap-2 mt-3">
-                              <button className="px-4 py-2 bg-[#043570] text-white text-sm rounded-lg hover:bg-[#032656] transition-colors">
-                                Try it
-                              </button>
-                              <button className="px-4 py-2 bg-[#f3faff] text-[#043570] text-sm rounded-lg border border-[#E2ECF5] hover:bg-white transition-colors">
-                                Maybe later
-                              </button>
+                              <button className="px-4 py-2 bg-[#043570] text-white text-sm rounded-lg hover:bg-[#032656] transition-colors">{t("try_it")}</button>
+                              <button className="px-4 py-2 bg-[#f3faff] text-[#043570] text-sm rounded-lg border border-[#E2ECF5] hover:bg-white transition-colors">{t("maybe_later_49")}</button>
                             </div>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">10:07 AM</span>
@@ -1195,9 +1149,7 @@ export function CareTeam() {
                         </div>
                         <div className="flex-1 flex flex-col items-end">
                           <div className="bg-[#043570] rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-md">
-                            <p className="text-sm text-white">
-                              Let's do this. I'm excited about your plan. I'll work through these tools and update you after a couple of weeks. Is that okay?
-                            </p>
+                            <p className="text-sm text-white">{t("let_s_do_this_i_m_excited_about_your_plan_i_ll_wor")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 mr-1 block">10:09 AM</span>
                         </div>
@@ -1212,9 +1164,7 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817]">
-                              I'm so glad you're excited about your plan. I know that you haven't met yourself yet but when you do, you're going to ABSOLUTELY LOVE this person. Very very strongly: this journey to me is less about finding a "perfect" self, but rather just being more AUTHENTIC & GENTLE with who you are becoming.
-                            </p>
+                            <p className="text-sm text-[#020817]">{t("i_m_so_glad_you_re_excited_about_your_plan_i_know_")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">10:10 AM</span>
                         </div>
@@ -1227,9 +1177,7 @@ export function CareTeam() {
                         </div>
                         <div className="flex-1 flex flex-col items-end">
                           <div className="bg-[#043570] rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm max-w-md">
-                            <p className="text-sm text-white">
-                              It's also nice to just share today's feeling. I think I've never really had space to explore these thoughts or ideas before. All I ever get is judgement, and I just need to release some of that, and I guess that's what I just did.
-                            </p>
+                            <p className="text-sm text-white">{t("it_s_also_nice_to_just_share_today_s_feeling_i_thi")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 mr-1 block">10:12 AM</span>
                         </div>
@@ -1244,12 +1192,8 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              I'm so glad you feel like you've found your space to talk about your feelings without fear of judgment. Your space is sacred, and I really really appreciate you using this space in this special way.
-                            </p>
-                            <p className="text-sm text-[#020817]">
-                              If you again feel like sharing your space, you know where to find me - right here on our very special pages.
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("i_m_so_glad_you_feel_like_you_ve_found_your_space_")}</p>
+                            <p className="text-sm text-[#020817]">{t("if_you_again_feel_like_sharing_your_space_you_know")}</p>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">10:13 AM</span>
                         </div>
@@ -1264,16 +1208,10 @@ export function CareTeam() {
                         />
                         <div className="flex-1">
                           <div className="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-[#E2ECF5] max-w-md">
-                            <p className="text-sm text-[#020817] mb-3">
-                              Is there anything else I can help you with today?
-                            </p>
+                            <p className="text-sm text-[#020817] mb-3">{t("is_there_anything_else_i_can_help_you_with_today")}</p>
                             <div className="flex flex-wrap gap-2 mt-3">
-                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">
-                                Managing depression & suicidal thoughts
-                              </button>
-                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">
-                                Something else
-                              </button>
+                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">{t("managing_depression_suicidal_thoughts")}</button>
+                              <button className="px-3 py-1.5 bg-[#f3faff] text-[#043570] text-xs rounded-full border border-[#E2ECF5] hover:bg-[#043570] hover:text-white transition-colors">{t("something_else")}</button>
                             </div>
                           </div>
                           <span className="text-xs text-[#64748B] mt-1 ml-1 block">10:14 AM</span>
@@ -1298,7 +1236,7 @@ export function CareTeam() {
                         <textarea
                           value={messageInput}
                           onChange={(e) => setMessageInput(e.target.value)}
-                          placeholder="Type your message..."
+                          placeholder={t("type_your_message")}
                           rows={1}
                           className="w-full px-4 py-3 bg-[#f3faff] border border-[#E2ECF5] rounded-xl text-sm text-[#020817] placeholder-[#64748B] focus:outline-none focus:ring-2 focus:ring-[#00c0ff] focus:border-transparent resize-none"
                           style={{ minHeight: "44px", maxHeight: "120px" }}
@@ -1338,18 +1276,14 @@ export function CareTeam() {
                   >
                     <MessageCircle className="text-[#00c0ff]" size={32} />
                   </motion.div>
-                  <h3 className="text-lg font-semibold text-[#020817] mb-2">Welcome to Care Team</h3>
-                  <p className="text-sm text-[#64748B] mb-6">
-                    Select a conversation from the sidebar to start chatting, or wait for new messages to appear
-                  </p>
+                  <h3 className="text-lg font-semibold text-[#020817] mb-2">{t("welcome_to_care_team")}</h3>
+                  <p className="text-sm text-[#64748B] mb-6">{t("select_a_conversation_from_the_sidebar_to_start_ch")}</p>
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setShowExpertsList(true)}
                     className="md:hidden bg-[#043570] text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-[#032656] transition-colors"
-                  >
-                    View Experts
-                  </motion.button>
+                  >{t("view_experts")}</motion.button>
                 </div>
               </div>
             )}
@@ -1380,7 +1314,7 @@ export function CareTeam() {
             >
               {/* Header */}
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold text-[#020817]">Filter by Professional Type</h3>
+                <h3 className="text-lg font-semibold text-[#020817]">{t("filter_by_professional_type")}</h3>
                 <button
                   onClick={() => setShowFilterModal(false)}
                   className="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-[#f3faff] text-[#64748B] hover:text-[#043570] transition-colors"
@@ -1483,10 +1417,8 @@ export function CareTeam() {
 
               {/* Content */}
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-[#020817] mb-2">Voice Input</h3>
-                <p className="text-sm text-[#64748B] mb-6">
-                  This feature is available in the mobile app. Download the Mantra app to use voice messaging and speech-to-text capabilities.
-                </p>
+                <h3 className="text-xl font-semibold text-[#020817] mb-2">{t("voice_input")}</h3>
+                <p className="text-sm text-[#64748B] mb-6">{t("this_feature_is_available_in_the_mobile_app_downlo")}</p>
                 
                 {/* App Store Buttons */}
                 <div className="flex flex-row gap-3 w-full">
@@ -1502,8 +1434,8 @@ export function CareTeam() {
                       <path d="M3 20.5V3.5C3 2.83 3.35 2.3 4 2L13 12L4 22C3.35 21.7 3 21.17 3 20.5ZM16.81 15.12L6.05 21.34L14.54 13.95L16.81 15.12ZM20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81ZM6.05 2.66L16.81 8.88L14.54 10.05L6.05 2.66Z" fill="white"/>
                     </svg>
                     <div className="text-left">
-                      <div className="text-[10px] leading-tight">GET IT ON</div>
-                      <div className="text-sm font-semibold leading-tight">Google Play</div>
+                      <div className="text-[10px] leading-tight">{t("get_it_on")}</div>
+                      <div className="text-sm font-semibold leading-tight">{t("google_play")}</div>
                     </div>
                   </motion.a>
                   
@@ -1519,8 +1451,8 @@ export function CareTeam() {
                       <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" fill="white"/>
                     </svg>
                     <div className="text-left">
-                      <div className="text-[10px] leading-tight">Download on the</div>
-                      <div className="text-sm font-semibold leading-tight">App Store</div>
+                      <div className="text-[10px] leading-tight">{t("download_on_the")}</div>
+                      <div className="text-sm font-semibold leading-tight">{t("app_store")}</div>
                     </div>
                   </motion.a>
                 </div>
@@ -1541,63 +1473,49 @@ export function CareTeam() {
           >
             <div className="px-4 py-3 max-w-[90vw] overflow-x-auto">
               <div className="flex items-center gap-2 min-w-max">
-                <span className="text-white text-xs font-medium whitespace-nowrap mr-2">DEV: Modal Type</span>
+                <span className="text-white text-xs font-medium whitespace-nowrap mr-2">{t("dev_modal_type")}</span>
                 <button
                   onClick={() => setBuyPlanType("corporate")}
                   className={`px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
                     buyPlanType === "corporate" ? "bg-[#00BCD4] text-white" : "bg-[#334155] text-[#94A3B8] hover:bg-[#475569]"
                   }`}
-                >
-                  Corporate User
-                </button>
+                >{t("corporate_user")}</button>
                 <button
                   onClick={() => setBuyPlanType("normal")}
                   className={`px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
                     buyPlanType === "normal" ? "bg-[#00BCD4] text-white" : "bg-[#334155] text-[#94A3B8] hover:bg-[#475569]"
                   }`}
-                >
-                  Normal User
-                </button>
+                >{t("normal_user")}</button>
                 <button
                   onClick={() => setBuyPlanType("noPlan")}
                   className={`px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
                     buyPlanType === "noPlan" ? "bg-[#00BCD4] text-white" : "bg-[#334155] text-[#94A3B8] hover:bg-[#475569]"
                   }`}
-                >
-                  No Plan
-                </button>
+                >{t("no_plan")}</button>
                 <button
                   onClick={() => setBuyPlanType("providerPlan")}
                   className={`px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
                     buyPlanType === "providerPlan" ? "bg-[#00BCD4] text-white" : "bg-[#334155] text-[#94A3B8] hover:bg-[#475569]"
                   }`}
-                >
-                  Provider Plan
-                </button>
+                >{t("provider_plan")}</button>
                 <button
                   onClick={() => setBuyPlanType("providerActive")}
                   className={`px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
                     buyPlanType === "providerActive" ? "bg-[#00BCD4] text-white" : "bg-[#334155] text-[#94A3B8] hover:bg-[#475569]"
                   }`}
-                >
-                  Provider Active
-                </button>
+                >{t("provider_active")}</button>
                 <button
                   onClick={() => setBuyPlanType("externalProvider")}
                   className={`px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
                     buyPlanType === "externalProvider" ? "bg-[#00BCD4] text-white" : "bg-[#334155] text-[#94A3B8] hover:bg-[#475569]"
                   }`}
-                >
-                  External Provider
-                </button>
+                >{t("external_provider")}</button>
                 <button
                   onClick={() => setBuyPlanType("switchToMantra")}
                   className={`px-3 py-1.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
                     buyPlanType === "switchToMantra" ? "bg-[#00BCD4] text-white" : "bg-[#334155] text-[#94A3B8] hover:bg-[#475569]"
                   }`}
-                >
-                  Switch to Mantra
-                </button>
+                >{t("switch_to_mantra")}</button>
               </div>
             </div>
           </motion.div>

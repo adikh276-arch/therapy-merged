@@ -18,10 +18,12 @@ import { TooltipProvider } from "./components/ui/tooltip";
 import { PremiumLayout } from "../../components/shared/PremiumLayout";
 import { Toaster } from "./components/ui/toaster";
 import { Toaster as Sonner } from "./components/ui/sonner";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 const AnimatedRoutes = () => {
+  const { t } = useTranslation();
   const location = useLocation();
 
   return (

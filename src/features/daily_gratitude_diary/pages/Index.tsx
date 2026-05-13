@@ -139,9 +139,7 @@ const Index = () => {
                           onClick={() => setScreen("past")}
                           className="flex items-center gap-3 text-slate-400 hover:text-primary font-black text-xs uppercase tracking-[0.2em] transition-all bg-slate-50 px-6 py-3 rounded-2xl border border-slate-100 shadow-sm"
                       >
-                          <Book size={18} />
-                          View Past Entries
-                      </motion.button>
+                          <Book size={18} />{t("view_past")}</motion.button>
                   </div>
                 </PremiumIntro>
               </motion.div>
@@ -201,9 +199,7 @@ const Index = () => {
                             onClick={() => setScreen("past")}
                             className="px-10 py-5 bg-white border-2 border-slate-100 text-slate-400 font-black text-sm uppercase tracking-widest rounded-[2rem] shadow-xl shadow-slate-200/50 hover:text-slate-900 hover:border-slate-200 transition-all flex items-center gap-3"
                         >
-                            <Book size={18} />
-                            View History
-                        </motion.button>
+                            <Book size={18} />{t("view_history")}</motion.button>
                     </div>
                 </PremiumComplete>
               </motion.div>

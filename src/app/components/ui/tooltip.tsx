@@ -4,6 +4,7 @@ import * as React from "react";
 import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 
 import { cn } from "./utils";
+import { useTranslation } from "react-i18next";
 
 function TooltipProvider({
   delayDuration = 0,

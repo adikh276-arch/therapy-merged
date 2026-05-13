@@ -200,7 +200,7 @@ const WhatDoINeedActivity = () => {
         {/* History Button */}
         {screen === 1 && (
           <div className="absolute top-0 right-0 z-20">
-            <button className="w-10 h-10 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center hover:bg-slate-50 transition-all" title="Past reflections" onClick={() => setShowHistory(true)}>
+            <button className="w-10 h-10 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center hover:bg-slate-50 transition-all" title={t("past_reflections")} onClick={() => setShowHistory(true)}>
               <Clock className="w-5 h-5 text-slate-500" />
             </button>
           </div>

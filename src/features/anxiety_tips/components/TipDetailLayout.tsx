@@ -24,9 +24,7 @@ const TipDetailLayout = ({ title, whyItHelps, whatYouCanDo, extra }: TipDetailLa
       <div className="w-full space-y-10 pb-12">
         <div className="space-y-4">
           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
-            <Sparkles size={14} />
-            Daily Guide
-          </div>
+            <Sparkles size={14} />{t("daily_guide")}</div>
           <motion.h1
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface ChipSelectProps {
   options: string[];
@@ -10,6 +11,7 @@ interface ChipSelectProps {
 }
 
 const ChipSelect = ({ options, selected, onSelect, multi, selectedMulti = [], onSelectMulti }: ChipSelectProps) => {
+  const { t } = useTranslation();
   const handleClick = (opt: string) => {
     if (multi && onSelectMulti) {
       const next = selectedMulti.includes(opt)

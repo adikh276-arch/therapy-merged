@@ -4,6 +4,7 @@ import * as React from "react";
 import * as PopoverPrimitive from "@radix-ui/react-popover";
 
 import { cn } from "./utils";
+import { useTranslation } from "react-i18next";
 
 function Popover({
   ...props

@@ -31,6 +31,7 @@ const languages = [
 ];
 
 const LanguageSelector = () => {
+  const { t } = useTranslation();
     const { i18n } = useTranslation();
     const navigate = useNavigate();
     const location = useLocation();
@@ -49,7 +50,7 @@ const LanguageSelector = () => {
         <div className="fixed top-4 right-4 z-50">
             <Select value={i18n.language} onValueChange={changeLanguage}>
                 <SelectTrigger className="w-[140px] bg-transparent/80 backdrop-blur-sm border-border">
-                    <SelectValue placeholder="Language" />
+                    <SelectValue placeholder={t("language")} />
                 </SelectTrigger>
                 <SelectContent>
                     {languages.map((lang) => (

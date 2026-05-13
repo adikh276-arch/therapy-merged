@@ -8,7 +8,7 @@ interface Props {
 export default function ExplainScreen({ onBack, onNext }: Props) {
   const { t } = useTranslation();
   return (
-    <section className="space-y-6" aria-label="What is the Window of Tolerance">
+    <section className="space-y-6" aria-label={t("what_is_the_window_of_tolerance")}>
       <h2 className="font-display text-2xl font-bold text-foreground text-center">{t("screens.explain.title")}</h2>
 
       {/* Window Diagram */}

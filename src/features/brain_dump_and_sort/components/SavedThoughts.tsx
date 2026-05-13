@@ -42,9 +42,7 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
         <header className="flex items-center justify-between">
           <div className="text-left">
             <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t("history")}</h1>
-            <p className="text-slate-500 text-sm">
-                Your past mental clarity sessions
-            </p>
+            <p className="text-slate-500 text-sm">{t("your_past_mental_clarity_sessions")}</p>
           </div>
           <motion.button 
             whileHover={{ scale: 1.1 }}
@@ -67,9 +65,7 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
               whileTap={{ scale: 0.95 }}
               onClick={onBack}
               className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20"
-            >
-              Start New Session
-            </motion.button>
+            >{t("start_new_session")}</motion.button>
           </div>
         ) : (
           <div className="space-y-6">
@@ -129,9 +125,7 @@ export const SavedThoughts = ({ sessions, onBack, onDelete }: Props) => {
                   {session.reflection && (
                     <div className="mt-6 pt-6 border-t border-slate-50">
                         <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
-                            <Check size={14} className="text-emerald-500" />
-                            Feelings
-                        </p>
+                            <Check size={14} className="text-emerald-500" />{t("feelings")}</p>
                         <p className="text-sm font-bold text-slate-700">{session.reflection}</p>
                     </div>
                   )}

@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 interface Star {
   x: number;
@@ -9,6 +10,7 @@ interface Star {
 }
 
 const StarsCanvas = () => {
+  const { t } = useTranslation();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const starsRef = useRef<Star[]>([]);
 

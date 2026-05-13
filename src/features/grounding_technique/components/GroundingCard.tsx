@@ -1,5 +1,6 @@
 import { Technique } from "../data/techniques";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface GroundingCardProps {
   technique: Technique;
@@ -8,6 +9,7 @@ interface GroundingCardProps {
 }
 
 export default function GroundingCard({ technique, onClick, label }: GroundingCardProps) {
+  const { t } = useTranslation();
   return (
     <motion.button
       whileHover={{ scale: 1.02, y: -4 }}

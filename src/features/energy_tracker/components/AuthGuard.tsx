@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useTranslation } from "react-i18next";
 
 export interface AuthGuardProps {
     children: React.ReactNode;
@@ -11,6 +12,7 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
 
     useEffect(() => {
         const check = () => {
+  const { t } = useTranslation();
             const userId = sessionStorage.getItem("user_id");
             if (userId) {
                 setIsAuthorized(true);
@@ -36,9 +38,7 @@ const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
             <div className="flex h-[100dvh] w-full items-center justify-center bg-white">
                 <div className="flex flex-col items-center gap-6">
                     <div className="h-16 w-16 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
-                    <p className="text-sm font-semibold text-black tracking-widest animate-pulse uppercase">
-                        Initializing session...
-                    </p>
+                    <p className="text-sm font-semibold text-black tracking-widest animate-pulse uppercase">{t("initializing_session")}</p>
                 </div>
             </div>
         );

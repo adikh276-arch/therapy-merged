@@ -17,8 +17,8 @@ export default function ToolkitScreen({ journal, onJournalChange, weekTracker, o
   const tools_list = t("screens.toolkit.tools_list", { returnObjects: true }) as string[];
 
   return (
-    <section className="space-y-6" aria-label="Your Personal Toolkit">
-      <button onClick={onBack} className="p-2 -ml-2 rounded-full hover:bg-muted transition-colors" aria-label="Back">
+    <section className="space-y-6" aria-label={t("your_personal_toolkit")}>
+      <button onClick={onBack} className="p-2 -ml-2 rounded-full hover:bg-muted transition-colors" aria-label={t("common.back")}>
         ← Back
       </button>
 

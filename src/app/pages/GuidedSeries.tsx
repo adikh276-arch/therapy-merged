@@ -23,12 +23,14 @@ import {
   User
 } from 'lucide-react';
 import guidedData from '../data/guidedSeries.json';
+import { useTranslation } from "react-i18next";
 
 const iconMap: Record<string, any> = {
   Smile, Clock, Activity, Book, Target, Moon, Cloud, Wind, Heart, Zap, Users, Sparkles, Star, Brain, Scale, User
 };
 
 export default function GuidedSeries() {
+  const { t } = useTranslation();
   const { concern } = useParams<{ concern: string }>();
   const navigate = useNavigate();
 
@@ -81,7 +83,7 @@ export default function GuidedSeries() {
         >
           <ChevronLeft size={20} className="text-slate-600" />
         </button>
-        <h1 className="text-lg font-semibold text-slate-800">Guided Series</h1>
+        <h1 className="text-lg font-semibold text-slate-800">{t("hub.guided_series")}</h1>
       </div>
 
       <motion.div 

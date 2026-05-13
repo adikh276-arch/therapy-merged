@@ -25,6 +25,7 @@ const languages = [
 ];
 
 const LanguageSelector = () => {
+  const { t } = useTranslation();
     const { i18n } = useTranslation();
 
     useEffect(() => {
@@ -50,7 +51,7 @@ const LanguageSelector = () => {
         <div className="absolute top-4 right-4 z-50">
             <Select value={i18n.language} onValueChange={handleLanguageChange}>
                 <SelectTrigger className="w-[130px] bg-transparent/50 backdrop-blur-sm border-border">
-                    <SelectValue placeholder="Language" />
+                    <SelectValue placeholder={t("language")} />
                 </SelectTrigger>
                 <SelectContent>
                     {languages.map((lang) => (

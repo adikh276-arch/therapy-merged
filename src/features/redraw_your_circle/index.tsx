@@ -14,16 +14,18 @@ import CircleScreen from "./pages/CircleScreen";
 import ReflectionScreen from "./pages/ReflectionScreen";
 import HistoryScreen from "./pages/HistoryScreen";
 import NotFound from "./pages/NotFound";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   const [names, setNames] = useState<Record<string, string>>({});
   const reset = useCallback(() => setNames({}), []);
 
   return (
     <I18nextProvider i18n={i18n}>
-      <Suspense fallback={<div className="flex items-center justify-center h-full">Loading...</div>}>
+      <Suspense fallback={<div className="flex items-center justify-center h-full">{t("common.loading")}</div>}>
         <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />

@@ -31,6 +31,7 @@ const languages = [
 ];
 
 const LanguageSelector = () => {
+  const { t } = useTranslation();
     const { i18n } = useTranslation();
 
     const changeLanguage = (lng: string) => {
@@ -42,7 +43,7 @@ const LanguageSelector = () => {
         <div className="fixed top-4 right-4 z-50">
             <Select value={i18n.language} onValueChange={changeLanguage}>
                 <SelectTrigger className="w-[140px] bg-transparent/80 backdrop-blur-sm border-primary/20 rounded-full h-9  hover:border-primary/40 transition-all">
-                    <SelectValue placeholder="Language" />
+                    <SelectValue placeholder={t("language")} />
                 </SelectTrigger>
                 <SelectContent className="rounded-2xl border-primary/10 overflow-hidden">
                     {languages.map((lang) => (

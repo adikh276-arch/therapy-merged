@@ -54,7 +54,7 @@ const HistoryScreen = () => {
   return (
     <PremiumLayout
       title={t("app_title")}
-      subtitle="Your past circles"
+      subtitle={t("your_past_circles")}
       icon={<Users className="w-6 h-6 text-primary" />}
       onBack={() => navigate("../intro", { replace: true })}
     >
@@ -64,7 +64,7 @@ const HistoryScreen = () => {
         {isLoading ? (
           <div className="flex flex-col items-center justify-center py-20">
             <div className="w-8 h-8 border-4 border-primary/20 border-t-primary rounded-full animate-spin" />
-            <p className="text-sm text-slate-500 mt-4">Loading your history...</p>
+            <p className="text-sm text-slate-500 mt-4">{t("loading_your_history")}</p>
           </div>
         ) : entries.length === 0 ? (
           <motion.div
@@ -73,12 +73,8 @@ const HistoryScreen = () => {
             className="text-center mt-12 py-12 px-6 bg-white/50 backdrop-blur-sm rounded-3xl border border-slate-100"
           >
             <span className="text-4xl block mb-4">📭</span>
-            <p className="text-base font-medium text-slate-600">
-              No entries yet.
-            </p>
-            <p className="text-sm text-slate-500 mt-1">
-              Your saved circles will appear here.
-            </p>
+            <p className="text-base font-medium text-slate-600">{t("no_entries_yet")}</p>
+            <p className="text-sm text-slate-500 mt-1">{t("your_saved_circles_will_appear_here")}</p>
           </motion.div>
         ) : (
           <div className="space-y-4 max-w-sm mx-auto">

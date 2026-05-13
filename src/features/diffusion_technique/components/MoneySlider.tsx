@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Slider } from "../components/ui/slider";
+import { useTranslation } from "react-i18next";
 
 interface MoneySliderProps {
   value: number;
@@ -11,6 +12,7 @@ export function MoneySlider({ value, onChange }: MoneySliderProps) {
   const [coins, setCoins] = useState<number[]>([]);
 
   const handleChange = (val: number[]) => {
+  const { t } = useTranslation();
     const newVal = val[0];
     if (Math.abs(newVal - value) >= 5) {
       setCoins((prev) => [...prev, Date.now()].slice(-8));
@@ -22,7 +24,7 @@ export function MoneySlider({ value, onChange }: MoneySliderProps) {
     <div className="w-full">
       {/* Current value display */}
       <div className="text-center mb-6 relative">
-        <p className="text-sm text-muted-foreground mb-1">Current Thought Value</p>
+        <p className="text-sm text-muted-foreground mb-1">{t("current_thought_value")}</p>
         <motion.p
           key={value}
           initial={{ scale: 1.3 }}
@@ -71,9 +73,9 @@ export function MoneySlider({ value, onChange }: MoneySliderProps) {
 
       {/* Labels */}
       <div className="flex justify-between text-xs text-muted-foreground/70 mt-1">
-        <span>Worthless</span>
-        <span>Somewhat</span>
-        <span>Fully believe</span>
+        <span>{t("worthless")}</span>
+        <span>{t("somewhat")}</span>
+        <span>{t("fully_believe")}</span>
       </div>
     </div>
   );

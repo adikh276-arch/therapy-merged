@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 interface TimePickerProps {
   hour: number;
   minute: number;
@@ -8,6 +9,7 @@ interface TimePickerProps {
 }
 
 const TimePicker = ({ hour, minute, amPm, onHourChange, onMinuteChange, onAmPmChange }: TimePickerProps) => {
+  const { t } = useTranslation();
   const cycleHour = (dir: 1 | -1) => {
     let next = hour + dir;
     if (next > 12) next = 1;

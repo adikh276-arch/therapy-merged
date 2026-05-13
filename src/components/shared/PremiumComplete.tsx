@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { CheckCircle2, Home, RotateCcw, Sparkles } from 'lucide-react';
+import { CheckCircle2, Home, RotateCcw, Sparkles, Share2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import ShareModal from './ShareModal';
 
 interface PremiumCompleteProps {
   title?: string;
@@ -23,6 +24,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
 }) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const [isShareOpen, setIsShareOpen] = useState(false);
 
   const displayTitle = title || t("common.well_done", "Well Done!");
   const displayMessage = message || t("common.completion_message", "You've successfully completed this activity. Take a moment to appreciate your progress.");
@@ -107,20 +109,34 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
       {/* Action Buttons — fixed at bottom */}
       <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/60 backdrop-blur-md z-20 flex justify-center border-t border-slate-100/50">
         <div className="w-full max-w-lg flex flex-col gap-4">
-          {onRestart && (
+          <div className="flex gap-4">
+            {onRestart && (
+              <motion.button
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6 }}
+                whileHover={{ scale: 1.02, y: -1 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={onRestart}
+                className="flex-1 py-4.5 rounded-2xl bg-white border border-slate-200 text-slate-600 font-bold flex items-center justify-center gap-3 hover:bg-slate-50 hover:text-slate-900 transition-all shadow-sm"
+              >
+                <RotateCcw size={18} strokeWidth={2.5} />
+                {t("common.start_over", "Start Over")}
+              </motion.button>
+            )}
             <motion.button
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6 }}
+              transition={{ delay: 0.65 }}
               whileHover={{ scale: 1.02, y: -1 }}
               whileTap={{ scale: 0.98 }}
-              onClick={onRestart}
-              className="w-full py-4.5 rounded-2xl bg-white border border-slate-200 text-slate-600 font-bold flex items-center justify-center gap-3 hover:bg-slate-50 hover:text-slate-900 transition-all shadow-sm"
+              onClick={() => setIsShareOpen(true)}
+              className="flex-1 py-4.5 rounded-2xl bg-primary/10 border border-primary/20 text-primary font-bold flex items-center justify-center gap-3 hover:bg-primary/20 transition-all shadow-sm"
             >
-              <RotateCcw size={18} strokeWidth={2.5} />
-              {t("common.start_over", "Start Over")}
+              <Share2 size={18} strokeWidth={2.5} />
+              {t("common.share", "Share")}
             </motion.button>
-          )}
+          </div>
           <motion.button
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -135,6 +151,12 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
           </motion.button>
         </div>
       </div>
+
+      <ShareModal 
+        isOpen={isShareOpen} 
+        onClose={() => setIsShareOpen(false)} 
+        activityName={displayTitle} 
+      />
     </div>
   );
 };

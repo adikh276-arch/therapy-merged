@@ -15,13 +15,11 @@ const Screen1Hook = ({ onNext }: Props) => {
 
       <div className="text-sm leading-relaxed mb-5" style={{ color: "#3a5070" }}>
         <p className="mb-2">
-          <Trans i18nKey="s1.p1">
-            It's not about <span className="font-bold" style={{ color: "#4a7ee8" }}>how long</span> you sleep.
+          <Trans i18nKey="s1.p1">{t("it_s_not_about")}<span className="font-bold" style={{ color: "#4a7ee8" }}>how long</span> you sleep.
           </Trans>
         </p>
         <p className="mb-2">
-          <Trans i18nKey="s1.p2">
-            It's about <span className="font-bold" style={{ color: "#7050d0" }}>where</span> in your sleep cycle you wake up.
+          <Trans i18nKey="s1.p2">{t("it_s_about")}<span className="font-bold" style={{ color: "#7050d0" }}>where</span> in your sleep cycle you wake up.
           </Trans>
         </p>
         <p>{t("s1.p3")}</p>

@@ -26,6 +26,7 @@ const LANGUAGES = [
 ];
 
 const LanguageSelector = () => {
+  const { t } = useTranslation();
     const { i18n } = useTranslation();
     const [searchParams, setSearchParams] = useSearchParams();
 
@@ -39,7 +40,7 @@ const LanguageSelector = () => {
             <Globe className="w-4 h-4 text-muted-foreground" />
             <Select value={i18n.language} onValueChange={handleLanguageChange}>
                 <SelectTrigger className="w-[140px] bg-transparent border-none  focus:ring-0">
-                    <SelectValue placeholder="Language" />
+                    <SelectValue placeholder={t("language")} />
                 </SelectTrigger>
                 <SelectContent align="end">
                     {LANGUAGES.map((lang) => (

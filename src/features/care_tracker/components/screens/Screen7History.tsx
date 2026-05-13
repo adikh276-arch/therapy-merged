@@ -31,13 +31,13 @@ const Screen7History = () => {
     <div className="space-y-6">
       <div className="text-left">
         <h2 className="text-2xl font-extrabold text-slate-900 mb-1">{t('screens.history.title')}</h2>
-        <p className="text-slate-500 text-sm font-medium">Your progress over the last 7 days</p>
+        <p className="text-slate-500 text-sm font-medium">{t("your_progress_over_the_last_7_days")}</p>
       </div>
 
       {loading ? (
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <Loader2 className="h-10 w-10 animate-spin text-primary opacity-20" />
-          <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">Fetching data...</p>
+          <p className="text-slate-400 font-bold text-[10px] uppercase tracking-widest">{t("fetching_data")}</p>
         </div>
       ) : (entries && entries.length) === 0 ? (
         <div className="text-center py-16 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-100">

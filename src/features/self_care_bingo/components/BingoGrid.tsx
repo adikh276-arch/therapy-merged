@@ -113,19 +113,15 @@ const BingoGrid = ({ onWin }: BingoGridProps) => {
   return (
     <div className="flex flex-col items-center gap-8 py-4" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       <header className="text-center space-y-2">
-        <h2 className="text-3xl font-black text-slate-800 leading-tight">Self-Care Bingo</h2>
-        <p className="text-slate-500 font-medium text-base italic">
-            Complete a line of self-care to win!
-        </p>
+        <h2 className="text-3xl font-black text-slate-800 leading-tight">{t("app_title")}</h2>
+        <p className="text-slate-500 font-medium text-base italic">{t("complete_a_line_of_self_care_to_win")}</p>
       </header>
 
       {/* Progress Section */}
       <div className="w-full bg-white rounded-[2.5rem] border border-slate-100 p-8 shadow-2xl shadow-slate-200/50">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3 font-black text-slate-700 text-sm uppercase tracking-widest">
-            <Trophy size={18} className="text-primary" />
-            Activities Logged
-          </div>
+            <Trophy size={18} className="text-primary" />{t("activities_logged")}</div>
           <span className="text-primary font-black text-lg">{progress}<span className="text-slate-300 text-sm">/25</span></span>
         </div>
         <div className="h-2 rounded-full bg-slate-50 overflow-hidden">

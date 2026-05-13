@@ -35,6 +35,7 @@ export function LanguageSelector() {
     const { i18n } = useTranslation();
 
     const handleLanguageChange = (value: string) => {
+  const { t } = useTranslation();
         i18n.changeLanguage(value);
         localStorage.setItem("language", value);
     };
@@ -44,7 +45,7 @@ export function LanguageSelector() {
             <Select onValueChange={handleLanguageChange} defaultValue={i18n.language}>
                 <SelectTrigger className="w-[180px] bg-transparent/80 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-colors">
                     <Globe className="w-4 h-4 mr-2 text-primary" />
-                    <SelectValue placeholder="Language" />
+                    <SelectValue placeholder={t("language")} />
                 </SelectTrigger>
                 <SelectContent>
                     {languages.map((lang) => (

@@ -1,12 +1,14 @@
 import React from 'react';
 import { useEffect, useState } from "react";
 import { dbRequest, initSchema } from "../lib/db";
+import { useTranslation } from "react-i18next";
 
 interface AuthGuardProps {
     children: React.ReactNode;
 }
 
 const AuthGuard = ({ children }: AuthGuardProps) => {
+  const { t } = useTranslation();
     const [isAuthResolved, setIsAuthResolved] = useState(false);
     const [status, setStatus] = useState<string>("Authenticating...");
 

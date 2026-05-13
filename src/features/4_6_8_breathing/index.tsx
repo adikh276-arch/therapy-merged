@@ -21,6 +21,7 @@ import { LanguageSwitcher } from "./components/LanguageSwitcher";
 const queryClient = new QueryClient();
 
 const App = () => {
+  const { t } = useTranslation();
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>

@@ -42,9 +42,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
             <ArrowLeft size={20} />
           </motion.button>
           <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-            <Sparkles size={12} />
-            Daily Gratitude
-          </div>
+            <Sparkles size={12} />{t("daily_gratitude")}</div>
         </header>
 
         <div className="space-y-4">
@@ -72,7 +70,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
                 </div>
                 <div className="space-y-4">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">I am grateful for...</label>
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{t("i_am_grateful_for")}</label>
                     <input
                       type="text"
                       placeholder={t('placeholder_grateful')}
@@ -82,7 +80,7 @@ const ScreenGratitude = ({ onContinue, onBack }: ScreenGratitudeProps) => {
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">Because...</label>
+                    <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2">{t("because")}</label>
                     <input
                       type="text"
                       placeholder={t('placeholder_reason')}

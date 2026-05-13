@@ -1,6 +1,7 @@
 "use client";
 
 import * as CollapsiblePrimitive from "@radix-ui/react-collapsible";
+import { useTranslation } from "react-i18next";
 
 function Collapsible({
   ...props

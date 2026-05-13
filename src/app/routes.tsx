@@ -3,6 +3,7 @@ import { createBrowserRouter, Navigate, Outlet } from "react-router-dom";
 import { SelfCareResources } from "./components/SelfCareResources";
 import { StaticContentViewer } from "../components/StaticContentViewer";
 import { AuthGuard } from "../components/AuthGuard";
+import { useTranslation } from "react-i18next";
 
 // Dynamic Imports
 const App468Breathing = React.lazy(() => import("../features/4_6_8_breathing"));
@@ -67,6 +68,7 @@ const GuidedSeries = React.lazy(() => import("./pages/GuidedSeries"));
 const GuidedActivity = React.lazy(() => import("./pages/GuidedActivity"));
 
 function ProtectedLayout() {
+  const { t } = useTranslation();
   return (
     <AuthGuard>
       <Outlet />
@@ -77,7 +79,7 @@ function ProtectedLayout() {
 const loadingFallback = (
   <div className="flex min-h-screen items-center justify-center">
     <div className="h-10 w-10 animate-spin rounded-full border-4 border-primary/20 border-t-primary" aria-hidden="true"></div>
-    <span className="sr-only">Loading</span>
+    <span className="sr-only">{t("loading_0")}</span>
   </div>
 );
 

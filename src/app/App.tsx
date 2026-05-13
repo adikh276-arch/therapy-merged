@@ -9,6 +9,7 @@ import Loader from "../components/Loader";
 import { COLORS } from "../misc/Colors";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 const DATABASE_URL = import.meta.env.VITE_DATABASE_URL;
@@ -121,6 +122,7 @@ function App() {
     };
 
     const redirectToAuth = () => {
+  const { t } = useTranslation();
       const currentPath = window.location.pathname + window.location.search + window.location.hash;
       if (!currentPath.includes("token=")) {
         localStorage.setItem("APP_REDIRECT_PATH", currentPath);

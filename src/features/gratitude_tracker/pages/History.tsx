@@ -92,9 +92,7 @@ const GratitudeHistory = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.reload()}
               className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-black rounded-2xl shadow-xl shadow-primary/20"
-            >
-              Retry
-            </motion.button>
+            >{t("retry")}</motion.button>
           </div>
         )}
 
@@ -105,7 +103,7 @@ const GratitudeHistory = () => {
                 <h2 className="text-2xl font-black text-slate-900 tracking-tight">{t("history.heading")}</h2>
                 <div className="flex items-center gap-2 text-primary">
                   <Sparkles size={12} />
-                  <p className="text-[10px] font-black uppercase tracking-widest">Relive your moments</p>
+                  <p className="text-[10px] font-black uppercase tracking-widest">{t("relive_your_moments")}</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 bg-slate-50 p-1.5 rounded-2xl border border-slate-100 shadow-sm">
@@ -226,7 +224,7 @@ const GratitudeHistory = () => {
                   <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center mx-auto mb-6 text-slate-100 shadow-sm">
                     <CalendarIcon size={36} />
                   </div>
-                  <p className="text-slate-400 font-black text-xs uppercase tracking-widest">Select a date to relive gratitude</p>
+                  <p className="text-slate-400 font-black text-xs uppercase tracking-widest">{t("select_a_date_to_relive_gratitude")}</p>
                 </div>
               )}
             </AnimatePresence>
@@ -237,9 +235,7 @@ const GratitudeHistory = () => {
                 whileTap={{ scale: 0.98 }}
                 onClick={() => navigate("..", { replace: true })}
                 className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3"
-              >
-                Create New Entry
-                <Sparkles size={20} />
+              >{t("create_new_entry")}<Sparkles size={20} />
               </motion.button>
             </div>
           </>

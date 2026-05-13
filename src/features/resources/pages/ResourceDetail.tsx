@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
 const ResourceDetail = () => {
+  const { t } = useTranslation();
   const { t, i18n } = useTranslation();
   const { type, id } = useParams<{ concern: string; type: string; id: string }>();
   const navigate = useNavigate();

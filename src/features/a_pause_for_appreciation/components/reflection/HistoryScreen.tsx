@@ -33,9 +33,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
         <header className="flex items-center justify-between">
           <div className="text-left">
             <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t("history.title")}</h1>
-            <p className="text-slate-500 text-sm">
-                Your past reflections & appreciations
-            </p>
+            <p className="text-slate-500 text-sm">{t("your_past_reflections_appreciations")}</p>
           </div>
           <motion.button 
             whileHover={{ scale: 1.1 }}
@@ -58,9 +56,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
               whileTap={{ scale: 0.95 }}
               onClick={onBack}
               className="px-8 py-4 bg-primary text-primary-foreground font-bold rounded-2xl shadow-lg shadow-primary/20"
-            >
-              Start New Session
-            </motion.button>
+            >{t("start_new_session")}</motion.button>
           </div>
         ) : (
           <div className="space-y-4">
@@ -119,9 +115,7 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
                             <div className="space-y-1">
                                 <p className="text-[10px] font-bold text-primary uppercase tracking-widest">
                                     <span className="flex items-center gap-1">
-                                        <Check size={12} />
-                                        Feeling
-                                    </span>
+                                        <Check size={12} />{t("feeling")}</span>
                                 </p>
                                 <p className="text-sm text-slate-600 font-bold">{entry.checkIn}</p>
                             </div>
@@ -130,9 +124,9 @@ const HistoryScreen = ({ onBack }: HistoryScreenProps) => {
                           <div className="pt-4 border-t border-slate-50">
                             {confirmDelete === entry.id ? (
                                 <div className="flex items-center gap-3 bg-rose-50 p-3 rounded-2xl">
-                                    <p className="text-xs font-bold text-rose-600 flex-1 ml-2">Delete this entry?</p>
-                                    <button onClick={() => setConfirmDelete(null)} className="px-4 py-2 bg-white text-slate-400 text-[10px] font-bold rounded-xl border border-slate-100">Cancel</button>
-                                    <button onClick={() => handleDelete(entry.id)} className="px-4 py-2 bg-rose-500 text-white text-[10px] font-bold rounded-xl">Delete</button>
+                                    <p className="text-xs font-bold text-rose-600 flex-1 ml-2">{t("delete_this_entry")}</p>
+                                    <button onClick={() => setConfirmDelete(null)} className="px-4 py-2 bg-white text-slate-400 text-[10px] font-bold rounded-xl border border-slate-100">{t("history.cancel")}</button>
+                                    <button onClick={() => handleDelete(entry.id)} className="px-4 py-2 bg-rose-500 text-white text-[10px] font-bold rounded-xl">{t("delete_5")}</button>
                                 </div>
                             ) : (
                               <button
