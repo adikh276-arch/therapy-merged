@@ -20,7 +20,7 @@ interface EnergyContextType {
   setCurrentNote: (note: string) => void;
   entries: EnergyEntry[];
   saveEntry: () => void;
-  refreshHistory: () =>{t("promise")}<void>;
+  refreshHistory: () => Promise<void>;
   isLoading: boolean;
 }
 
