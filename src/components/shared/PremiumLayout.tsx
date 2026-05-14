@@ -112,7 +112,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
       </main>
 
       {/* Subtle bottom gradient for mobile */}
-      <div className="fixed bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#F8FAFC] to-transparent pointer-events-none z-10" />
+      <div className="fixed bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#F8FAFC] to-transparent pointer-events-none z-10 opacity-50" />
     </div>
   );
 };

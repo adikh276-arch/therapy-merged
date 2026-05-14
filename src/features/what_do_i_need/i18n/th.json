@@ -38,15 +38,6 @@
         "save_button": "บันทึกและเสร็จสิ้น",
         "finish_button": "จบโดยไม่ต้องบันทึก"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

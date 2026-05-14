@@ -38,15 +38,6 @@
         "save_button": "Opslaan en Afmaken",
         "finish_button": "Afmaken zonder op te slaan"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

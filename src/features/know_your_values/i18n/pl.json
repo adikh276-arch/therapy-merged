@@ -76,13 +76,5 @@
   "go_to_next_page": "Przejdź do następnej strony",
   "toggle_sidebar": "Przełącz pasek boczny",
   "oops_page_not_found": "Ups! Strona nie została znaleziona",
-  "return_to_home": "Powrót do strony głównej",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Powrót do strony głównej"
 }

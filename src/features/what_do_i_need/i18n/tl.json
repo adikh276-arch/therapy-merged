@@ -38,15 +38,6 @@
         "save_button": "I-save at Tapusin",
         "finish_button": "Tapusin nang hindi nagse-save"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

@@ -15,15 +15,6 @@
   "home": "Home",
   "past_letters_title": "Past Letters",
   "empty_letters": "No past letters found.",
-  "need_inspiration": "Need some inspiration?",
-  "prompts": [
-    "What have I been handling well lately?",
-    "What would I tell myself on a difficult day?",
-    "What strengths helped me get through recent stress?",
-    "What hope or encouragement do I need right now?",
-    "What would a kind friend say to me today?",
-    "What am I proud of, even quietly?"
-  ],
   "common": {
     "get_started": "Get Started",
     "start_over": "Start Over",
@@ -34,8 +25,6 @@
     "back": "Back",
     "next": "Next",
     "save": "Save",
-    "saving": "Saving...",
-    "saved": "Saved",
     "loading": "Loading...",
     "share": "Share",
     "share_progress": "Share Progress",

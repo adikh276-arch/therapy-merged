@@ -76,13 +76,5 @@
   "go_to_next_page": "Chuyển sang trang tiếp theo",
   "toggle_sidebar": "Ẩn/Hiện thanh bên",
   "oops_page_not_found": "Ôi! Không tìm thấy trang!",
-  "return_to_home": "Trở về Trang chủ",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Trở về Trang chủ"
 }

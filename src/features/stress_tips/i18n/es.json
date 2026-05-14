@@ -1,93 +1,93 @@
 {
   "index": {
-    "tagline": "Respira profundamente 🌿",
-    "title": "Maneja tu estrés",
-    "description": "Hábitos diarios sencillos que te ayudarán a sentirte más tranquilo y en control.",
+    "tagline": "Respira 🌿 hondo",
+    "title": "Gestiona tu estrés",
+    "description": "Hábitos diarios sencillos para ayudarte a sentirte más tranquilo y con más control.",
     "sectionTitle": "Consejos diarios para aliviar el estrés"
   },
   "tip": {
     "sleep": {
-      "title": "Obtenga un sueño reparador",
-      "description": "Intenta dormir de 7 a 9 horas cada noche. Intenta dormir y despertarte a la misma hora todos los días.",
-      "why": "Dormir ayuda al cerebro y al cuerpo a recuperarse y reduce las hormonas del estrés.",
+      "title": "Duerme bien",
+      "description": "Procura dormir entre 7 y 9 horas cada noche. Intenta dormir y despertarte a la misma hora cada día.",
+      "why": "El sueño ayuda a que tu cerebro y cuerpo se recuperen y reduce las hormonas del estrés.",
       "do": [
-        "Mantenga un horario de sueño fijo",
-        "Evite las pantallas 1 hora antes de acostarse",
-        "Mantenga la habitación fresca y oscura",
-        "Evite la cafeína después de las 4 p.m."
+        "Mantén un horario de sueño fijo",
+        "Evita las pantallas una hora antes de acostarte",
+        "Mantén la habitación fresca y oscura",
+        "Evita la cafeína después de las 16:00"
       ],
-      "button": "Establecer recordatorio para dormir"
+      "button": "Recordatorio de sueño establecido"
     },
     "breathing": {
       "title": "Practica la respiración profunda",
-      "description": "Dedica unos minutos a concentrarte en tu respiración. Respirar despacio reduce la ansiedad.",
-      "why": "La respiración lenta activa la respuesta de relajación del cuerpo.",
+      "description": "Dedica unos minutos a centrarte en tu respiración. La respiración lenta reduce la ansiedad.",
+      "why": "La respiración lenta activa la respuesta de relajación de tu cuerpo.",
       "do": [
         "Inhala durante 4 segundos",
-        "Mantener pulsado durante 4 segundos",
+        "Aguanta durante 4 segundos",
         "Exhala durante 4 segundos",
-        "Repetir durante 1 minuto"
+        "Repite durante 1 minuto"
       ]
     },
     "exercise": {
       "title": "Mueve tu cuerpo",
-      "description": "Caminar suavemente o estirarse ayuda a liberar el estrés y mejorar el estado de ánimo.",
+      "description": "Caminar ligero o estirarse ayuda a liberar el estrés y a mejorar el estado de ánimo.",
       "why": "El ejercicio libera endorfinas y mejora el estado de ánimo.",
       "do": [
-        "15 minutos a pie",
+        "15 minutos andando",
         "Estiramiento ligero",
-        "Sesión corta de yoga",
+        "Breve sesión de yoga",
         "Entrenamiento rápido en casa"
       ]
     },
     "caffeine": {
-      "title": "Limite la cafeína y el azúcar",
-      "description": "Demasiada cafeína y azúcar pueden aumentar la ansiedad y perturbar el sueño.",
-      "why": "Demasiada cafeína y azúcar aumentan la ansiedad y los problemas de sueño.",
+      "title": "Limita la cafeína y el azúcar",
+      "description": "Demasiada cafeína y azúcar puede aumentar la ansiedad y alterar el sueño.",
+      "why": "Demasiada cafeína y azúcar aumenta la ansiedad y los problemas de sueño.",
       "do": [
-        "Reemplace un café con té de hierbas",
-        "Beber más agua",
-        "Reducir los snacks azucarados",
-        "Evite la cafeína a última hora del día."
+        "Sustituye un café por té de hierbas",
+        "Bebe más agua",
+        "Reduce los aperitivos azucarados",
+        "Evita la cafeína a última hora del día"
       ]
     },
     "planning": {
       "title": "Planifica tu día",
-      "description": "Divida las tareas grandes en pasos más pequeños para evitar sentirse abrumado.",
-      "why": "La planificación reduce el desorden mental y la sobrecarga.",
+      "description": "Divide las tareas grandes en pasos más pequeños para evitar sentirte abrumado.",
+      "why": "Planificar reduce el desorden mental y el sobrecarga.",
       "do": [
         "Escribe 3 tareas principales",
-        "Divida las tareas en pequeños pasos",
-        "Concéntrese en una tarea a la vez",
-        "Tomar descansos cortos"
+        "Divide las tareas en pequeños pasos",
+        "Concéntrate en una tarea a la vez",
+        "Haz pausas cortas"
       ]
     }
   },
   "detail": {
     "back": "Atrás",
-    "notFound": "Consejo no encontrado.",
+    "notFound": "Pista no encontrada.",
     "whyTitle": "Por qué ayuda",
-    "doTitle": "Qué puedes hacer",
-    "reminderSet": "¡Recordatorio configurado! 🌙"
+    "doTitle": "Lo que puedes hacer",
+    "reminderSet": "¡Recordatorio listo! 🌙"
   },
   "notFound": {
     "title": "404",
     "message": "¡Ups! Página no encontrada",
-    "return": "Regresar a Inicio"
+    "return": "Regreso a casa"
   },
   "mood": {
     "title": "¿Cómo te sientes hoy?",
-    "great": "Excelente",
-    "okay": "Bueno",
+    "great": "Genial",
+    "okay": "Vale",
     "stressed": "Estresado",
     "overwhelmed": "Abrumado"
   },
   "breathing": {
-    "inhale": "Inhalar…",
-    "hold": "Sostener…",
-    "exhale": "Exhalar…",
+    "inhale": "Inhala...",
+    "hold": "Espera...",
+    "exhale": "Exhala...",
     "pause": "Pausa",
-    "resume": "Reanudar"
+    "resume": "Currículum"
   },
   "common": {
     "get_started": "Comience",

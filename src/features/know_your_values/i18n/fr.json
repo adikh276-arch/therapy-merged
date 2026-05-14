@@ -76,13 +76,5 @@
   "go_to_next_page": "Passer à la page suivante",
   "toggle_sidebar": "Afficher/masquer la barre latérale",
   "oops_page_not_found": "Oups ! Page introuvable",
-  "return_to_home": "Retour à l'accueil",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Retour à l'accueil"
 }

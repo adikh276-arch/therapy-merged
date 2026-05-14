@@ -76,13 +76,5 @@
   "go_to_next_page": "Gå till nästa sida",
   "toggle_sidebar": "Växla sidofält",
   "oops_page_not_found": "Hoppsan! Sidan hittades inte",
-  "return_to_home": "Återvänd till hemmet",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Återvänd till hemmet"
 }

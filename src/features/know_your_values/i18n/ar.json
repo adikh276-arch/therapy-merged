@@ -76,13 +76,5 @@
   "go_to_next_page": "انتقل إلى الصفحة التالية",
   "toggle_sidebar": "تبديل الشريط الجانبي",
   "oops_page_not_found": "عذراً! الصفحة غير موجودة",
-  "return_to_home": "العودة إلى الصفحة الرئيسية",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "العودة إلى الصفحة الرئيسية"
 }

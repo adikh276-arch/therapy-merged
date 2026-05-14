@@ -1,93 +1,93 @@
 {
   "index": {
     "tagline": "Weź głęboki oddech 🌿",
-    "title": "Radź sobie ze stresem",
-    "description": "Proste codzienne nawyki, które pomogą Ci poczuć się spokojniej i mieć większą kontrolę.",
-    "sectionTitle": "Codzienne wskazówki dotyczące łagodzenia stresu"
+    "title": "Zarządzaj swoim stresem",
+    "description": "Proste codzienne nawyki, które pomogą Ci poczuć się spokojniejszym i bardziej kontrolującym.",
+    "sectionTitle": "Codzienne wskazówki dotyczące redukcji stresu"
   },
   "tip": {
     "sleep": {
-      "title": "Zapewnij sobie spokojny sen",
-      "description": "Staraj się spać 7–9 godzin każdej nocy. Staraj się kłaść spać i budzić się codziennie o tej samej porze.",
-      "why": "Sen pomaga mózgowi i ciału się zregenerować oraz obniża poziom hormonów stresu.",
+      "title": "Śpij spokojnie",
+      "description": "Staraj się o 7–9 godzin snu każdej nocy. Staraj się codziennie spać i budzić o tej samej porze.",
+      "why": "Sen pomaga mózgowi i ciału się regenerować oraz obniża poziom hormonów stresu.",
       "do": [
         "Utrzymuj stały harmonogram snu",
-        "Unikaj ekranów na 1 godzinę przed snem",
+        "Unikaj ekranów godzinę przed snem",
         "Utrzymuj pokój chłodny i ciemny",
-        "Unikaj kofeiny po godzinie 16:00"
+        "Unikaj kofeiny po 16:00"
       ],
-      "button": "Ustaw przypomnienie o śnie"
+      "button": "Ustaw przypomnienie o usypianiu"
     },
     "breathing": {
       "title": "Ćwicz głębokie oddychanie",
-      "description": "Poświęć kilka minut na skupienie się na oddechu. Powolne oddychanie zmniejsza niepokój.",
+      "description": "Poświęć kilka minut na skupienie się na oddechu. Powolne oddychanie zmniejsza lęk.",
       "why": "Powolne oddychanie aktywuje reakcję relaksacyjną organizmu.",
       "do": [
-        "Wdychaj przez 4 sekundy",
-        "Przytrzymaj przez 4 sekundy",
-        "Wydychaj przez 4 sekundy",
-        "Powtarzaj przez 1 minutę"
+        "Wdech przez 4 sekundy",
+        "Trzymaj przez 4 sekundy",
+        "Wydech przez 4 sekundy",
+        "Powtarzam przez 1 minutę"
       ]
     },
     "exercise": {
       "title": "Ruszaj ciałem",
-      "description": "Lekki spacer lub ćwiczenia rozciągające pomagają uwolnić się od stresu i poprawić nastrój.",
+      "description": "Lekkie chodzenie lub rozciąganie pomagają rozładować stres i poprawić nastrój.",
       "why": "Ćwiczenia uwalniają endorfiny i poprawiają nastrój.",
       "do": [
-        "15 minut spacerem",
+        "15 minut spaceru",
         "Lekkie rozciąganie",
         "Krótka sesja jogi",
-        "Szybki trening w domu"
+        "Szybki trening domowy"
       ]
     },
     "caffeine": {
       "title": "Ogranicz kofeinę i cukier",
-      "description": "Zbyt duża ilość kofeiny i cukru może nasilać lęk i zaburzać sen.",
-      "why": "Zbyt duża ilość kofeiny i cukru zwiększa niepokój i problemy ze snem.",
+      "description": "Zbyt duża ilość kofeiny i cukru może zwiększać lęk i zaburzać sen.",
+      "why": "Zbyt duża ilość kofeiny i cukru zwiększa lęk i problemy ze snem.",
       "do": [
-        "Zastąp jedną kawę herbatą ziołową",
+        "Zamień jedną kawę na herbatę ziołową",
         "Pij więcej wody",
-        "Ogranicz słodkie przekąski",
-        "Unikaj kofeiny późnym popołudniem"
+        "Ogranicz jedzenie słodkich przekąsek",
+        "Unikaj kofeiny późno w ciągu dnia"
       ]
     },
     "planning": {
       "title": "Zaplanuj swój dzień",
-      "description": "Podziel duże zadania na mniejsze kroki, aby uniknąć uczucia przytłoczenia.",
-      "why": "Planowanie redukuje bałagan w głowie i przytłoczenie.",
+      "description": "Podziel duże zadania na mniejsze kroki, aby uniknąć przytłoczenia.",
+      "why": "Planowanie redukuje bałagan umysłowy i przytłoczenie.",
       "do": [
         "Napisz 3 główne zadania",
         "Podziel zadania na małe kroki",
-        "Skup się na jednym zadaniu na raz",
+        "Skup się na jednym zadaniu naraz",
         "Rób krótkie przerwy"
       ]
     }
   },
   "detail": {
     "back": "Z powrotem",
-    "notFound": "Wskazówka nie została znaleziona.",
+    "notFound": "Wskazówka nie znaleziona.",
     "whyTitle": "Dlaczego to pomaga",
     "doTitle": "Co możesz zrobić",
-    "reminderSet": "Przypomnienie ustawione! 🌙"
+    "reminderSet": "Zestaw przypomnień! 🌙"
   },
   "notFound": {
     "title": "404",
-    "message": "Ups! Strona nie została znaleziona",
-    "return": "Powrót do strony głównej"
+    "message": "Ups! Strona nie znaleziona",
+    "return": "Powrót do domu"
   },
   "mood": {
-    "title": "Jak się dzisiaj czujesz?",
+    "title": "Jak się dziś czujesz?",
     "great": "Świetnie",
-    "okay": "Dobra",
-    "stressed": "Akcentowany",
+    "okay": "Dobrze",
+    "stressed": "Stresowany",
     "overwhelmed": "Przytłoczony"
   },
   "breathing": {
-    "inhale": "Wdychać…",
-    "hold": "Trzymać…",
-    "exhale": "Wydychać…",
+    "inhale": "Wdech...",
+    "hold": "Stój...",
+    "exhale": "Wydech...",
     "pause": "Pauza",
-    "resume": "Wznawiać"
+    "resume": "CV"
   },
   "common": {
     "get_started": "Zacznij",

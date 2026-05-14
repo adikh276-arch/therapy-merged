@@ -76,13 +76,5 @@
   "go_to_next_page": "다음 페이지로 이동",
   "toggle_sidebar": "사이드바 토글",
   "oops_page_not_found": "앗! 페이지를 찾을 수 없습니다.",
-  "return_to_home": "홈으로 돌아가기",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "홈으로 돌아가기"
 }

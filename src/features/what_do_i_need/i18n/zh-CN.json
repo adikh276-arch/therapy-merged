@@ -38,15 +38,6 @@
         "save_button": "保存并完成",
         "finish_button": "完成但不保存"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

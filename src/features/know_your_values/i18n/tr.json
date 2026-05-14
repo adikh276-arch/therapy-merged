@@ -76,13 +76,5 @@
   "go_to_next_page": "Sonraki sayfaya git",
   "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
   "oops_page_not_found": "Ups! Sayfa bulunamadı.",
-  "return_to_home": "Ana sayfaya dön",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Ana sayfaya dön"
 }

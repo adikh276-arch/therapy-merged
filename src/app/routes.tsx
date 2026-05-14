@@ -76,14 +76,17 @@ function ProtectedLayout() {
   );
 }
 
-const loadingFallback = (
-  <div className="flex min-h-screen items-center justify-center">
-    <div className="h-10 w-10 animate-spin rounded-full border-4 border-primary/20 border-t-primary" aria-hidden="true"></div>
-    <span className="sr-only">{(typeof t !== "undefined" ? t : (k) => k)("loading_0")}</span>
-  </div>
-);
+const LoadingFallback = () => {
+  const { t } = useTranslation();
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="h-10 w-10 animate-spin rounded-full border-4 border-primary/20 border-t-primary" aria-hidden="true"></div>
+      <span className="sr-only">{(typeof t !== "undefined" ? t : (k) => k)("loading_0")}</span>
+    </div>
+  );
+};
 
-const withLoading = (element: React.ReactNode) => <Suspense fallback={loadingFallback}>{element}</Suspense>;
+const withLoading = (element: React.ReactNode) => <Suspense fallback={<LoadingFallback />}>{element}</Suspense>;
 
 export const router = createBrowserRouter([
   {

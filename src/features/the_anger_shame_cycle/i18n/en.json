@@ -63,12 +63,6 @@
       ],
       "notice": "Noticing the cycle is already the first step. You're doing the work.",
       "button": "Complete Activity"
-    },
-    "s3.anger": {
-      "title": "S3.anger"
-    },
-    "s3.shame": {
-      "title": "S3.shame"
     }
   },
   "complete": {

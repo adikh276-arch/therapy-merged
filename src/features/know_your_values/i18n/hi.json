@@ -76,13 +76,5 @@
   "go_to_next_page": "अगले पृष्ठ पर जाएं",
   "toggle_sidebar": "साइडबार टॉगल करें",
   "oops_page_not_found": "ओह! पेज नहीं मिला",
-  "return_to_home": "घर पर वापस",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "घर पर वापस"
 }

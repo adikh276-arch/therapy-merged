@@ -76,13 +76,5 @@
   "go_to_next_page": "அடுத்த பக்கத்திற்குச் செல்லவும்",
   "toggle_sidebar": "பக்கப் பட்டியை மாற்று",
   "oops_page_not_found": "அச்சச்சோ! பக்கம் காணப்படவில்லை",
-  "return_to_home": "முகப்புக்குத் திரும்பு",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "முகப்புக்குத் திரும்பு"
 }

@@ -16,12 +16,7 @@
     "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
     "this_activity": "esta atividade",
     "copied": "Copiado!",
-    "copy_message": "Copiar mensagem",
-    "continue": "Continuar",
-    "home": "Voltar para a página inicial",
-    "yes": "Sim",
-    "no": "Não",
-    "date": "Data"
+    "copy_message": "Copiar mensagem"
   },
   "screens": {
     "intro": {
@@ -36,17 +31,17 @@
       "duration": "2-3 minutos"
     },
     "checkin": {
-      "title": "Check-in de autocuidado 🌿",
-      "subtitle": "Como você cuidou de si mesmo(a) hoje?",
-      "question": "Você praticou autocuidado hoje?",
-      "description": "O autocuidado é qualquer atividade que realizamos deliberadamente para cuidar da nossa saúde mental, emocional e física."
+      "title": "Check-in 🌿 de Autocuidado",
+      "subtitle": "Como você cuidou de si mesma hoje?",
+      "question": "Você praticou autocuidado hoje? *",
+      "description": "Autocuidado é qualquer atividade que realizamos deliberadamente para cuidar da nossa saúde mental, emocional e física."
     },
     "activities": {
-      "title": "Suas atividades 🎯",
-      "subtitle": "Quais atividades de autocuidado você realizou hoje?"
+      "title": "Suas Atividades 🎯",
+      "subtitle": "Quais atividades de autocuidado você fez hoje?"
     },
     "duration": {
-      "title": "Tempo gasto ⏱️",
+      "title": "Tempo Gasto ⏱️",
       "subtitle": "Quanto tempo você dedicou ao autocuidado? (opcional)"
     },
     "noSelfCare": {
@@ -60,12 +55,12 @@
       "subtitle": "Selecione seu humor atual (opcional)"
     },
     "review": {
-      "title": "Sua inscrição 📋",
-      "subtitle": "Aqui está um resumo do check-in de hoje.",
-      "didSelfCare": "Praticou autocuidado?",
+      "title": "Sua Entrada 📋",
+      "subtitle": "Aqui está um resumo do check-in de hoje",
+      "didSelfCare": "Cuidava de si mesmo?",
       "activities": "Atividades",
       "duration": "Duração",
-      "mood": "Humor",
+      "mood": "Clima",
       "challenges": "Impedido por",
       "whatHelps": "Teria ajudado",
       "viewHistory": "História Semanal",
@@ -73,13 +68,13 @@
       "summary": "Resumo"
     },
     "history": {
-      "title": "História da Semana 📅",
-      "subtitle": "Nenhuma entrada nos últimos 7 dias."
+      "title": "História 📅 Semanal",
+      "subtitle": "Nenhuma inscrição nos últimos 7 dias"
     },
     "notfound": {
       "title": "404",
       "subtitle": "Ops! Página não encontrada",
-      "returnHome": "Voltar para a página inicial"
+      "returnHome": "Retorno ao Lar"
     }
   },
   "data": {
@@ -88,37 +83,37 @@
       "Meditation": "Meditação",
       "Journaling": "Diário",
       "Reading": "Leitura",
-      "Rest / Nap": "Descanso/Soneca",
+      "Rest / Nap": "Descanso / Soneca",
       "Skincare": "Cuidados com a pele",
-      "Healthy Meal": "Refeição saudável",
+      "Healthy Meal": "Refeição Saudável",
       "Nature / Walk": "Natureza / Caminhada",
-      "Social Time": "Hora social",
+      "Social Time": "Tempo Social",
       "Therapy": "Terapia",
       "Digital Detox": "Desintoxicação Digital",
       "Hobby": "Passatempo"
     },
     "durations": {
-      "< 10 minutes": "&lt; 10 minutos",
-      "10–30 minutes": "10 a 30 minutos",
-      "30–60 minutes": "30 a 60 minutos",
-      "1+ hour": "1 hora ou mais"
+      "< 10 minutes": "< 10 minutos",
+      "10–30 minutes": "10–30 minutos",
+      "30–60 minutes": "30–60 minutos",
+      "1+ hour": "1+ hora"
     },
     "reasons": {
-      "Busy schedule": "Agenda lotada",
+      "Busy schedule": "Agenda cheia",
       "Low energy": "Baixa energia",
       "Stress": "Estresse",
-      "Forgot": "Esquecido",
+      "Forgot": "Esqueci",
       "No motivation": "Sem motivação",
-      "Not feeling well": "Não me sinto bem",
+      "Not feeling well": "Não me sentindo bem",
       "Lack of time": "Falta de tempo",
       "Emotional overwhelm": "Sobrecarga emocional"
     },
     "helpfulTypes": {
-      "Rest": "Descansar",
+      "Rest": "Descanse",
       "Relaxation": "Relaxamento",
       "Physical activity": "Atividade física",
-      "Talking to someone": "Conversar com alguém",
-      "Quiet time": "Momento de tranquilidade",
+      "Talking to someone": "Conversando com alguém",
+      "Quiet time": "Tempo de silêncio",
       "Creative activity": "Atividade criativa"
     },
     "moods": {
@@ -130,18 +125,18 @@
       "Tired": "Cansado"
     },
     "positiveStatements": [
-      "Você priorizou a si mesma hoje. Isso é poderoso. 🌿",
-      "Cuidar de si não é egoísmo — é essencial. Parabéns! 💚",
-      "Cada pequeno gesto de carinho te fortalece. 🌱",
-      "Você investiu em si mesmo(a) hoje. Isso importa. ✨",
+      "Você apareceu por si mesmo hoje. Isso é poderoso. 🌿",
+      "Cuidar de si mesmo não é egoísmo — é essencial. Muito bem. 💚",
+      "Cada pequeno ato de cuidado constrói um você mais forte. 🌱",
+      "Você investiu em si mesmo hoje. Isso importa. ✨",
       "Cuidar de você foi a melhor coisa que você fez hoje. 🍃"
     ],
     "supportiveStatements": [
-      "Está tudo bem. Amanhã é um novo começo. Seja gentil consigo mesmo(a). 🤍",
-      "Nem todos os dias serão perfeitos, e isso é perfeitamente normal. 🕊️",
-      "Você está fazendo o seu melhor. Isso sempre basta. 💛",
-      "Descansar também é uma forma de autocuidado. Seja gentil consigo mesmo(a). 🌸",
-      "Reconhecer o presente exige coragem. Você já está crescendo. 🌷"
+      "Tudo bem. Amanhã é um recomeço. Seja gentil consigo mesmo. 🤍",
+      "Nem todo dia será perfeito, e isso é perfeitamente normal. 🕊️",
+      "Você está fazendo o seu melhor. Isso sempre é suficiente. 💛",
+      "Descansar também é uma forma de autocuidado. Seja indulgente consigo mesmo. 🌸",
+      "Reconhecer o dia de hoje exige coragem. Você já está crescendo. 🌷"
     ]
   },
   "app_title": "Rastreador de autocuidado",

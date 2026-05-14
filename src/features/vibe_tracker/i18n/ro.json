@@ -81,16 +81,5 @@
   "go_to_next_page": "Mergi la pagina următoare",
   "toggle_sidebar": "Comutare bară laterală",
   "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
-  "return_to_home": "Întoarcerea acasă",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "confirmation": {
-      "title": "Confirmation"
-    },
-    "reflection": {
-      "title": "Reflection"
-    }
-  }
+  "return_to_home": "Întoarcerea acasă"
 }

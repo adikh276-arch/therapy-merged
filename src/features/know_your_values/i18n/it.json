@@ -76,13 +76,5 @@
   "go_to_next_page": "Vai alla pagina successiva",
   "toggle_sidebar": "Attiva/disattiva la barra laterale",
   "oops_page_not_found": "Ops! Pagina non trovata",
-  "return_to_home": "Torna alla home",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Torna alla home"
 }

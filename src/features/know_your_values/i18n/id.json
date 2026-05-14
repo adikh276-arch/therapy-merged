@@ -76,13 +76,5 @@
   "go_to_next_page": "Lanjut ke halaman berikutnya",
   "toggle_sidebar": "Alihkan Sidebar",
   "oops_page_not_found": "Ups! Halaman tidak ditemukan",
-  "return_to_home": "Kembali ke Halaman Utama",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Kembali ke Halaman Utama"
 }

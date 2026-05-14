@@ -76,13 +76,5 @@
   "go_to_next_page": "Go to next page",
   "toggle_sidebar": "Toggle Sidebar",
   "oops_page_not_found": "Oops! Page not found",
-  "return_to_home": "Return to Home",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Return to Home"
 }

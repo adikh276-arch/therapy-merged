@@ -16,12 +16,7 @@
     "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
     "this_activity": "aktibidad na ito",
     "copied": "Kinopya!",
-    "copy_message": "Kopyahin ang Mensahe",
-    "continue": "Magpatuloy",
-    "home": "Balik sa Bahay",
-    "yes": "Oo",
-    "no": "Hindi",
-    "date": "Petsa"
+    "copy_message": "Kopyahin ang Mensahe"
   },
   "screens": {
     "intro": {
@@ -36,38 +31,38 @@
       "duration": "2-3 minuto"
     },
     "checkin": {
-      "title": "Pag-check-in sa Pangangalaga sa Sarili 🌿",
-      "subtitle": "Paano mo inalagaan ang iyong sarili ngayon?",
-      "question": "Nagsanay ka ba ng pangangalaga sa sarili ngayon? *",
-      "description": "Ang pangangalaga sa sarili ay anumang aktibidad na sinasadya nating ginagawa upang mapangalagaan ang ating mental, emosyonal, at pisikal na kalusugan."
+      "title": "Pag-check-in 🌿 sa Pangangalaga sa Sarili",
+      "subtitle": "Kumusta naman ang pag-aalaga mo sa sarili mo ngayon?",
+      "question": "Nag-aral ka ba ng pag-aalaga sa sarili ngayon? *",
+      "description": "Ang pag-aalaga sa sarili ay anumang aktibidad na sadyang ginagawa natin upang mapangalagaan ang ating kalusugang pangkaisipan, emosyonal, at pisikal."
     },
     "activities": {
-      "title": "Ang Iyong mga Aktibidad 🎯",
-      "subtitle": "Anong mga aktibidad sa pangangalaga sa sarili ang ginawa mo ngayon?"
+      "title": "Ang Iyong Mga Aktibidad 🎯",
+      "subtitle": "Anong mga aktibidad sa pag-aalaga sa sarili ang ginawa mo ngayon?"
     },
     "duration": {
-      "title": "Oras na Ginugol ⏱️",
-      "subtitle": "Gaano katagal mo ginugol sa pangangalaga sa sarili? (opsyonal)"
+      "title": "Oras na ginugol ⏱️",
+      "subtitle": "Gaano katagal ang ginugol mo sa pag-aalaga sa sarili? (opsyonal)"
     },
     "noSelfCare": {
-      "title": "Ayos lang &#39;yan 💛",
-      "subtitle": "Unawain natin ang nangyari ngayon.",
-      "question1": "Ano ang pumigil sa pangangalaga sa sarili ngayon? (opsyonal)",
-      "question2": "Anong uri ng pangangalaga sa sarili ang makakatulong sana? (opsyonal)"
+      "title": "Okay 💛 lang iyan",
+      "subtitle": "Unawain natin kung ano ang nangyari ngayon.",
+      "question1": "Ano ang pumipigil sa pag-aalaga sa sarili ngayon? (opsyonal)",
+      "question2": "Anong uri ng pag-aalaga sa sarili ang makakatulong? (opsyonal)"
     },
     "mood": {
-      "title": "Kumusta ang pakiramdam mo? 🫧",
-      "subtitle": "Piliin ang kasalukuyan mong mood (opsyonal)"
+      "title": "Ano ang nararamdaman mo? 🫧",
+      "subtitle": "Piliin ang Iyong Kasalukuyang Mood (Opsyonal)"
     },
     "review": {
-      "title": "Ang Iyong Lahok 📋",
-      "subtitle": "Narito ang buod ng check-in ngayon",
-      "didSelfCare": "Nag-alaga ba sa sarili?",
+      "title": "📋 Email Address *",
+      "subtitle": "Narito ang isang buod ng check-in ngayon",
+      "didSelfCare": "Nag-aalaga ba sa sarili?",
       "activities": "Mga Aktibidad",
       "duration": "Tagal",
       "mood": "Mood",
-      "challenges": "Pinigilan ni",
-      "whatHelps": "Nakatulong sana",
+      "challenges": "Pinigilan ng",
+      "whatHelps": "Makakatulong sana ako",
       "viewHistory": "Lingguhang Kasaysayan",
       "editToday": "I-edit ang Entry",
       "summary": "Buod"
@@ -78,17 +73,17 @@
     },
     "notfound": {
       "title": "404",
-      "subtitle": "Naku! Hindi natagpuan ang pahina",
-      "returnHome": "Bumalik sa Bahay"
+      "subtitle": "Oops! Hindi natagpuan ang pahina",
+      "returnHome": "Bumalik sa Tahanan"
     }
   },
   "data": {
     "activities": {
-      "Exercise": "Pag-eehersisyo",
-      "Meditation": "Meditasyon",
-      "Journaling": "Pagsusulat sa Journal",
+      "Exercise": "Ehersisyo",
+      "Meditation": "Pagmumuni-muni",
+      "Journaling": "Paglalarawan ng Journal",
       "Reading": "Pagbasa",
-      "Rest / Nap": "Pahinga / Pag-idlip",
+      "Rest / Nap": "Pahinga / Pagtulog",
       "Skincare": "Pangangalaga sa balat",
       "Healthy Meal": "Malusog na Pagkain",
       "Nature / Walk": "Kalikasan / Paglalakad",
@@ -98,31 +93,31 @@
       "Digital Detox": "Digital na Pag-detox"
     },
     "durations": {
-      "< 10 minutes": "&lt; 10 minuto",
-      "10–30 minutes": "10–30 minuto",
-      "30–60 minutes": "30–60 minuto",
+      "< 10 minutes": "< 10 minuto",
+      "10–30 minutes": "10-30 minuto",
+      "30–60 minutes": "30-60 minuto",
       "1+ hour": "1+ oras"
     },
     "reasons": {
       "Low energy": "Mababang enerhiya",
       "Forgot": "Nakalimutan",
-      "No motivation": "Walang motibasyon",
+      "No motivation": "Walang pagganyak",
       "Not feeling well": "Hindi maganda ang pakiramdam",
       "Lack of time": "Kakulangan ng oras",
-      "Emotional overwhelm": "Emosyonal na labis na pagkalugmok",
+      "Emotional overwhelm": "Emosyonal na labis na pagkabigo",
       "Busy schedule": "Abalang iskedyul",
       "Stress": "Stress"
     },
     "helpfulTypes": {
       "Rest": "Pahinga",
-      "Relaxation": "Pagrerelaks",
+      "Relaxation": "Email Address *",
       "Physical activity": "Pisikal na aktibidad",
-      "Talking to someone": "Nakikipag-usap sa isang tao",
+      "Talking to someone": "Pakikipag-usap sa isang tao",
       "Quiet time": "Tahimik na oras",
-      "Creative activity": "Malikhaing aktibidad"
+      "Creative activity": "Aktibidad ng malikhaing"
     },
     "moods": {
-      "Happy": "Masaya",
+      "Happy": "Maligayang pagdating",
       "Calm": "Kalmado",
       "Low": "Mababa",
       "Tired": "Pagod",
@@ -130,18 +125,18 @@
       "Neutral": "Neutral"
     },
     "positiveStatements": [
-      "Nagpakita ka para sa iyong sarili ngayon. Napakalakas niyan. 🌿",
-      "Ang pag-aalaga sa sarili ay hindi makasarili — mahalaga ito. Magaling. 💚",
-      "Bawat maliit na pag-aalaga ay nagpapatibay sa iyo. 🌱",
-      "Nag-invest ka sa sarili mo ngayon. Mahalaga &#39;yan. ✨",
-      "Ang pag-aalaga sa iyo ang pinakamagandang bagay na ginawa mo ngayon. 🍃"
+      "Ipinakita mo ang iyong sarili sa araw na ito. Makapangyarihan iyan. 🌿",
+      "Ang pag-aalaga sa sarili ay hindi makasarili - mahalaga ito. Mahusay na ginawa. 💚",
+      "Ang bawat maliit na kilos ng pag-aalaga ay bumubuo ng isang mas malakas na katangian. 🌱",
+      "Nag-invest ka sa sarili mo ngayon. Mahalaga iyan. ✨",
+      "Ang pag-aalaga sa iyo ay ang pinakamagandang bagay na ginawa mo ngayon. 🍃"
     ],
     "supportiveStatements": [
-      "Ayos lang. Bukas ay isang panibagong simula. Maging mahinahon sa iyong sarili. 🤍",
-      "Hindi magiging perpekto ang lahat ng araw, at ayos lang iyon. 🕊️",
-      "Ginagawa mo ang lahat ng iyong makakaya. Sapat na &#39;yan palagi. 💛",
-      "Ang pahinga ay isa ring uri ng pangangalaga sa sarili. Bigyan ang iyong sarili ng biyaya. 🌸",
-      "Ang pagkilala ngayon ay nangangailangan ng lakas ng loob. Lumalago ka na. 🌷"
+      "Okay lang. Bukas ay isang bagong simula. Maging mabait sa iyong sarili. 🤍",
+      "Hindi araw-araw ay magiging perpekto, at iyon ay ganap na maayos. 🕊️",
+      "Ginagawa mo ang lahat ng makakaya mo. Iyon ay palaging sapat. 💛",
+      "Ang pahinga ay isa ring uri ng pag-aalaga sa sarili. Bigyan mo ang iyong sarili ng biyaya. 🌸",
+      "Ang pagkilala sa araw na ito ay nangangailangan ng lakas ng loob. Lumaki ka na. 🌷"
     ]
   },
   "app_title": "Tagasubaybay sa Pangangalaga sa Sarili",

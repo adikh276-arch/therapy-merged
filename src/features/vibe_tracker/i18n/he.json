@@ -81,16 +81,5 @@
   "go_to_next_page": "עבור לעמוד הבא",
   "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
   "oops_page_not_found": "אופס! הדף לא נמצא",
-  "return_to_home": "חזרה לבית",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "confirmation": {
-      "title": "Confirmation"
-    },
-    "reflection": {
-      "title": "Reflection"
-    }
-  }
+  "return_to_home": "חזרה לבית"
 }

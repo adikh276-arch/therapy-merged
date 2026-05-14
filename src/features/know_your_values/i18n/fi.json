@@ -76,13 +76,5 @@
   "go_to_next_page": "Siirry seuraavalle sivulle",
   "toggle_sidebar": "Näytä/piilota sivupalkki",
   "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
-  "return_to_home": "Palaa kotiin",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Palaa kotiin"
 }

@@ -38,15 +38,6 @@
         "save_button": "세이브 앤 피니시",
         "finish_button": "저장하지 않고 끝내기"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

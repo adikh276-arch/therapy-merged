@@ -81,16 +81,5 @@
   "go_to_next_page": "Перейти на наступну сторінку",
   "toggle_sidebar": "Перемикання бічної панелі",
   "oops_page_not_found": "Ой! Сторінку не знайдено",
-  "return_to_home": "Повернення додому",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "confirmation": {
-      "title": "Confirmation"
-    },
-    "reflection": {
-      "title": "Reflection"
-    }
-  }
+  "return_to_home": "Повернення додому"
 }

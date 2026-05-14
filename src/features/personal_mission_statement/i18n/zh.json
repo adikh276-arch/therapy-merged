@@ -48,6 +48,5 @@
   "history_empty": "您尚未保存任何任务声明。",
   "history_empty_hint": "准备就绪后，创建一个，它就会显示在这里。",
   "history_back": "回去",
-  "history_delete_aria": "删除此反射",
-  "app_title": "Personal Mission Statement"
+  "history_delete_aria": "删除此反射"
 }

@@ -76,13 +76,5 @@
   "go_to_next_page": "Gå til neste side",
   "toggle_sidebar": "Slå sidefeltet av/på",
   "oops_page_not_found": "Ups! Siden ble ikke funnet",
-  "return_to_home": "Gå tilbake til hjemmet",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Gå tilbake til hjemmet"
 }

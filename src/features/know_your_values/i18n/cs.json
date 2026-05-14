@@ -76,13 +76,5 @@
   "go_to_next_page": "Přejít na další stránku",
   "toggle_sidebar": "Přepnout postranní panel",
   "oops_page_not_found": "Jejda! Stránka nenalezena.",
-  "return_to_home": "Návrat domů",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Návrat domů"
 }

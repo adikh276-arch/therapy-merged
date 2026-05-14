@@ -81,16 +81,5 @@
   "go_to_next_page": "Pergi ke halaman seterusnya",
   "toggle_sidebar": "Togol Bar Sisi",
   "oops_page_not_found": "Alamak! Halaman tidak ditemui",
-  "return_to_home": "Kembali ke Rumah",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "confirmation": {
-      "title": "Confirmation"
-    },
-    "reflection": {
-      "title": "Reflection"
-    }
-  }
+  "return_to_home": "Kembali ke Rumah"
 }

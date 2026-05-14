@@ -38,15 +38,6 @@
         "save_button": "سیو اینڈ فنش",
         "finish_button": "بغیر محفوظ کیے مکمل کریں"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

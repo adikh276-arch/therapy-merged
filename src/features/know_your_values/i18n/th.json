@@ -76,13 +76,5 @@
   "go_to_next_page": "ไปยังหน้าถัดไป",
   "toggle_sidebar": "สลับแถบด้านข้าง",
   "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
-  "return_to_home": "กลับสู่หน้าแรก",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "กลับสู่หน้าแรก"
 }

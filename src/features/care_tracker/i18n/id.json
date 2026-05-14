@@ -16,12 +16,7 @@
     "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
     "this_activity": "aktivitas ini",
     "copied": "Disalin!",
-    "copy_message": "Salin Pesan",
-    "continue": "Melanjutkan",
-    "home": "Kembali ke Beranda",
-    "yes": "Ya",
-    "no": "TIDAK",
-    "date": "Tanggal"
+    "copy_message": "Salin Pesan"
   },
   "screens": {
     "intro": {
@@ -36,93 +31,93 @@
       "duration": "2-3 menit"
     },
     "checkin": {
-      "title": "Sesi Pengecekan Diri untuk Perawatan Diri 🌿",
-      "subtitle": "Bagaimana kamu merawat dirimu sendiri hari ini?",
-      "question": "Apakah kamu sudah melakukan perawatan diri hari ini? *",
-      "description": "Perawatan diri adalah setiap aktivitas yang kita lakukan secara sengaja untuk menjaga kesehatan mental, emosional, dan fisik kita."
+      "title": "Check-In 🌿 Perawatan Diri",
+      "subtitle": "Bagaimana Anda merawat diri sendiri hari ini?",
+      "question": "Apakah Anda berlatih perawatan diri hari ini? *",
+      "description": "Perawatan diri adalah aktivitas apa pun yang kita lakukan dengan sengaja untuk menjaga kesehatan mental, emosional, dan fisik kita."
     },
     "activities": {
       "title": "Aktivitas Anda 🎯",
-      "subtitle": "Aktivitas perawatan diri apa yang kamu lakukan hari ini?"
+      "subtitle": "Kegiatan perawatan diri apa yang Anda lakukan hari ini?"
     },
     "duration": {
       "title": "Waktu yang Dihabiskan ⏱️",
-      "subtitle": "Berapa lama waktu yang Anda habiskan untuk perawatan diri? (opsional)"
+      "subtitle": "Berapa lama Anda menghabiskan waktu untuk perawatan diri? (opsional)"
     },
     "noSelfCare": {
       "title": "Tidak apa-apa 💛",
       "subtitle": "Mari kita pahami apa yang terjadi hari ini.",
-      "question1": "Apa yang menghalangi Anda untuk melakukan perawatan diri hari ini? (opsional)",
+      "question1": "Apa yang mencegah perawatan diri hari ini? (opsional)",
       "question2": "Jenis perawatan diri apa yang akan membantu? (opsional)"
     },
     "mood": {
-      "title": "Apa kabar? 🫧",
+      "title": "Bagaimana perasaanmu? 🫧",
       "subtitle": "Pilih suasana hati Anda saat ini (opsional)"
     },
     "review": {
       "title": "Entri Anda 📋",
-      "subtitle": "Berikut ringkasan dari sesi check-in hari ini.",
-      "didSelfCare": "Apakah Anda sudah melakukan perawatan diri?",
-      "activities": "Aktivitas",
-      "duration": "Lamanya",
+      "subtitle": "Berikut rangkuman check-in hari ini",
+      "didSelfCare": "Apakah merawat diri?",
+      "activities": "Kegiatan",
+      "duration": "Durasi",
       "mood": "Suasana hati",
       "challenges": "Dicegah oleh",
-      "whatHelps": "Akan sangat membantu",
+      "whatHelps": "Akan membantu",
       "viewHistory": "Sejarah Mingguan",
       "editToday": "Edit Entri",
       "summary": "Ringkasan"
     },
     "history": {
-      "title": "Sejarah Mingguan 📅",
+      "title": "Sejarah 📅 Mingguan",
       "subtitle": "Tidak ada entri dalam 7 hari terakhir"
     },
     "notfound": {
       "title": "404",
       "subtitle": "Ups! Halaman tidak ditemukan",
-      "returnHome": "Kembali ke Halaman Utama"
+      "returnHome": "Kembali ke Rumah"
     }
   },
   "data": {
     "activities": {
       "Exercise": "Latihan",
       "Meditation": "Meditasi",
-      "Journaling": "Menulis jurnal",
+      "Journaling": "Jurnal",
       "Reading": "Membaca",
-      "Rest / Nap": "Istirahat / Tidur Siang",
+      "Rest / Nap": "Istirahat / Tidur siang",
       "Skincare": "Perawatan kulit",
       "Healthy Meal": "Makanan Sehat",
-      "Nature / Walk": "Alam / Jalan-jalan",
-      "Social Time": "Waktu Bersosialisasi",
+      "Nature / Walk": "Alam / Jalan Kaki",
+      "Social Time": "Waktu Sosial",
       "Hobby": "Hobi",
       "Therapy": "Terapi",
-      "Digital Detox": "Detoks Digital"
+      "Digital Detox": "Detoksifikasi Digital"
     },
     "durations": {
-      "< 10 minutes": "&lt; 10 menit",
+      "< 10 minutes": "< 10 menit",
       "10–30 minutes": "10–30 menit",
       "30–60 minutes": "30–60 menit",
       "1+ hour": "1+ jam"
     },
     "reasons": {
-      "Busy schedule": "Jadwal padat",
+      "Busy schedule": "Jadwal sibuk",
       "Low energy": "Energi rendah",
-      "Stress": "Menekankan",
+      "Stress": "Stres",
       "Forgot": "Lupa",
       "No motivation": "Tidak ada motivasi",
       "Not feeling well": "Merasa tidak enak badan",
       "Lack of time": "Kurangnya waktu",
-      "Emotional overwhelm": "Luapan emosi"
+      "Emotional overwhelm": "Kewalahan emosional"
     },
     "helpfulTypes": {
       "Rest": "Istirahat",
       "Relaxation": "Relaksasi",
       "Physical activity": "Aktivitas fisik",
       "Talking to someone": "Berbicara dengan seseorang",
-      "Quiet time": "Saat teduh",
+      "Quiet time": "Waktu tenang",
       "Creative activity": "Aktivitas kreatif"
     },
     "moods": {
-      "Happy": "Senang",
+      "Happy": "Bahagia",
       "Calm": "Tenang",
       "Neutral": "Netral",
       "Low": "Rendah",
@@ -130,18 +125,18 @@
       "Tired": "Lelah"
     },
     "positiveStatements": [
-      "Kamu telah hadir untuk dirimu sendiri hari ini. Itu sangat luar biasa. 🌿",
-      "Merawat diri sendiri bukanlah tindakan egois — melainkan suatu kebutuhan. Bagus sekali. 💚",
-      "Setiap tindakan kecil kepedulian akan membangun dirimu yang lebih kuat. 🌱",
-      "Kamu telah berinvestasi pada dirimu sendiri hari ini. Itu penting. ✨",
-      "Merawat diri sendiri adalah hal terbaik yang kamu lakukan hari ini. 🍃"
+      "Anda muncul untuk diri sendiri hari ini. Itu kuat. 🌿",
+      "Perawatan diri tidak egois - itu penting. Bagus. 💚",
+      "Setiap tindakan kecil kepedulian membangun Anda yang lebih kuat. 🌱",
+      "Anda berinvestasi pada diri sendiri hari ini. Itu penting. ✨",
+      "Merawat Anda adalah hal terbaik yang Anda lakukan hari ini. 🍃"
     ],
     "supportiveStatements": [
       "Tidak apa-apa. Besok adalah awal yang baru. Bersikaplah lembut pada diri sendiri. 🤍",
-      "Tidak setiap hari akan sempurna, dan itu tidak apa-apa. 🕊️",
-      "Kamu sudah melakukan yang terbaik. Itu selalu cukup. 💛",
-      "Istirahat juga merupakan bentuk perawatan diri. Beri diri Anda kelonggaran. 🌸",
-      "Menyadari apa yang terjadi hari ini membutuhkan keberanian. Kamu sudah tumbuh. 🌷"
+      "Tidak setiap hari akan sempurna, dan itu baik-baik saja. 🕊️",
+      "Anda melakukan yang terbaik. Itu selalu cukup. 💛",
+      "Istirahat juga merupakan bentuk perawatan diri. Berikan diri Anda rahmat. 🌸",
+      "Mengakui hari ini membutuhkan keberanian. Anda sudah tumbuh. 🌷"
     ]
   },
   "app_title": "Pelacak Perawatan Diri",

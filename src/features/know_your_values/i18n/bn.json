@@ -76,13 +76,5 @@
   "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
   "toggle_sidebar": "সাইডবার টগল করুন",
   "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
-  "return_to_home": "হোমপেজে ফিরে যান",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "হোমপেজে ফিরে যান"
 }

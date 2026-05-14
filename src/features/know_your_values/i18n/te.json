@@ -76,13 +76,5 @@
   "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
   "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
   "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
-  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి"
 }

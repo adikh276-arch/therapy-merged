@@ -16,12 +16,7 @@
     "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
     "this_activity": "bu aktivite",
     "copied": "Kopyalandı!",
-    "copy_message": "Mesajı Kopyala",
-    "continue": "Devam etmek",
-    "home": "Ana sayfaya geri dön",
-    "yes": "Evet",
-    "no": "HAYIR",
-    "date": "Tarih"
+    "copy_message": "Mesajı Kopyala"
   },
   "screens": {
     "intro": {
@@ -36,57 +31,57 @@
       "duration": "2-3 dakika"
     },
     "checkin": {
-      "title": "Öz Bakım Kontrolü 🌿",
-      "subtitle": "Bugün kendinize nasıl baktınız?",
-      "question": "Bugün kendinize özen gösterdiniz mi?",
-      "description": "Öz bakım, zihinsel, duygusal ve fiziksel sağlığımıza özen göstermek amacıyla bilinçli olarak yaptığımız her türlü faaliyettir."
+      "title": "Kendi Bakım Kontrolü 🌿",
+      "subtitle": "Bugün kendine nasıl baktın?",
+      "question": "Bugün kendine bakım yaptın mı? *",
+      "description": "Kendine bakım, zihinsel, duygusal ve fiziksel sağlığımızı korumak için kasıtlı olarak yaptığımız her türlü aktivitedir."
     },
     "activities": {
-      "title": "Etkinlikleriniz 🎯",
-      "subtitle": "Bugün hangi kişisel bakım aktivitelerini yaptınız?"
+      "title": "Faaliyetleriniz 🎯",
+      "subtitle": "Bugün hangi öz-bakım aktivitelerini yaptınız?"
     },
     "duration": {
-      "title": "Harcanan Zaman ⏱️",
-      "subtitle": "Kendinize ne kadar zaman ayırdınız? (isteğe bağlı)"
+      "title": "Geçirilen ⏱️ Zaman",
+      "subtitle": "Kendine bakım için ne kadar süre harcadınız? (isteğe bağlı)"
     },
     "noSelfCare": {
-      "title": "Sorun değil 💛",
-      "subtitle": "Bugün neler olduğunu anlayalım.",
-      "question1": "Bugün öz bakımı engellemenin sebebi neydi? (isteğe bağlı)",
-      "question2": "Hangi tür öz bakım yardımcı olurdu? (isteğe bağlı)"
+      "title": "Sorun 💛 değil",
+      "subtitle": "Bugün ne olduğunu anlayalım.",
+      "question1": "Bugün öz-bakımı ne engelledi? (isteğe bağlı)",
+      "question2": "Ne tür bir özbakım yardımcı olurdu? (isteğe bağlı)"
     },
     "mood": {
-      "title": "Nasılsın? 🫧",
-      "subtitle": "Mevcut ruh halinizi seçin (isteğe bağlı)."
+      "title": "Nasıl hissediyorsun? 🫧",
+      "subtitle": "Mevcut ruh halinizi seçin (isteğe bağlı)"
     },
     "review": {
-      "title": "Katılımınız 📋",
-      "subtitle": "İşte bugünkü görüşmenin özeti.",
-      "didSelfCare": "Öz bakım yaptın mı?",
-      "activities": "Etkinlikler",
+      "title": "Girişin 📋",
+      "subtitle": "İşte bugünkü check-in'in özeti",
+      "didSelfCare": "Kendine bakmak mı?",
+      "activities": "Faaliyetler",
       "duration": "Süre",
-      "mood": "Mod",
-      "challenges": "Engellendi",
-      "whatHelps": "Yardımcı olabilirdi.",
-      "viewHistory": "Haftalık Tarih",
-      "editToday": "Girişi Düzenle",
+      "mood": "Ruh hali",
+      "challenges": "Engellenenler",
+      "whatHelps": "Yardımcı olurdu",
+      "viewHistory": "Haftalık Tarihçe",
+      "editToday": "Edit Entry",
       "summary": "Özet"
     },
     "history": {
       "title": "Haftalık Tarihçe 📅",
-      "subtitle": "Son 7 günde hiçbir giriş yok."
+      "subtitle": "Son 7 günde hiç başvuru yok"
     },
     "notfound": {
       "title": "404",
-      "subtitle": "Ups! Sayfa bulunamadı.",
-      "returnHome": "Ana sayfaya dön"
+      "subtitle": "Hop! Sayfa bulunmadı",
+      "returnHome": "Eve Dönüş"
     }
   },
   "data": {
     "activities": {
-      "Exercise": "Egzersiz yapmak",
+      "Exercise": "Tatbikat",
       "Meditation": "Meditasyon",
-      "Journaling": "Günlük Tutmak",
+      "Journaling": "Günlük tutma",
       "Reading": "Okuma",
       "Rest / Nap": "Dinlenme / Uyku",
       "Skincare": "Cilt bakımı",
@@ -98,50 +93,50 @@
       "Digital Detox": "Dijital Detoks"
     },
     "durations": {
-      "< 10 minutes": "&lt; 10 dakika",
-      "10–30 minutes": "10-30 dakika",
-      "30–60 minutes": "30-60 dakika",
+      "< 10 minutes": "< 10 dakika",
+      "10–30 minutes": "10–30 dakika",
+      "30–60 minutes": "30–60 dakika",
       "1+ hour": "1+ saat"
     },
     "reasons": {
       "Busy schedule": "Yoğun program",
       "Low energy": "Düşük enerji",
       "Stress": "Stres",
-      "Forgot": "Unutmuş olmak",
+      "Forgot": "Unuttum",
       "No motivation": "Motivasyon yok",
-      "Not feeling well": "Kendimi iyi hissetmiyorum.",
-      "Lack of time": "Zaman yetersizliği",
-      "Emotional overwhelm": "Duygusal bunalım"
+      "Not feeling well": "Kendimi iyi hissetmiyorum",
+      "Lack of time": "Zaman eksikliği",
+      "Emotional overwhelm": "Duygusal bunalma"
     },
     "helpfulTypes": {
-      "Rest": "Dinlenmek",
-      "Relaxation": "Rahatlama",
+      "Rest": "Dinlenme",
+      "Relaxation": "Gevşeme",
       "Physical activity": "Fiziksel aktivite",
-      "Talking to someone": "Birisiyle konuşmak",
+      "Talking to someone": "Biriyle konuşmak",
       "Quiet time": "Sessiz zaman",
-      "Creative activity": "Yaratıcı etkinlik"
+      "Creative activity": "Yaratıcı faaliyetler"
     },
     "moods": {
       "Happy": "Mutlu",
-      "Calm": "Sakinlik",
-      "Neutral": "Doğal",
+      "Calm": "Sakin",
+      "Neutral": "Nötr",
       "Low": "Düşük",
       "Stressed": "Stresli",
       "Tired": "Yorgun"
     },
     "positiveStatements": [
-      "Bugün kendin için ortaya çıktın. Bu çok güçlü bir şey. 🌿",
-      "Kendine bakmak bencilce değil, aksine çok önemli. Aferin. 💚",
-      "Gösterilen her küçük özen, sizi daha güçlü kılar. 🌱",
-      "Bugün kendinize yatırım yaptınız. Bu önemli. ✨",
-      "Bugün yaptığın en iyi şey kendine bakmak oldu. 🍃"
+      "Bugün kendin için geldin. Bu çok güçlü. 🌿",
+      "Kendine bakım bencilce değildir — bu şarttır. Aferin. 💚",
+      "Her küçük özen eylemi sizi daha güçlü bir şekilde inşa eder. 🌱",
+      "Bugün kendine yatırım yaptın. Bu önemli. ✨",
+      "Bugün yaptığın en iyi şey sana bakmak. 🍃"
     ],
     "supportiveStatements": [
-      "Sorun yok. Yarın yeni bir başlangıç. Kendine karşı nazik ol. 🤍",
+      "Sorun değil. Yarın yeni bir başlangıç. Kendine karşı nazik ol. 🤍",
       "Her gün mükemmel olmayacak ve bu tamamen normal. 🕊️",
       "Elinden gelenin en iyisini yapıyorsun. Bu her zaman yeterlidir. 💛",
-      "Dinlenmek de bir tür öz bakımdır. Kendinize karşı nazik olun. 🌸",
-      "Bugünü kabullenmek cesaret ister. Zaten büyüyorsunuz. 🌷"
+      "Dinlenme aynı zamanda bir tür özbakım biçimidir. Kendine lütuf et. 🌸",
+      "Bugün bunu kabul etmek cesaret gerektirir. Zaten büyüyorsun. 🌷"
     ]
   },
   "app_title": "Öz Bakım Takipçisi",

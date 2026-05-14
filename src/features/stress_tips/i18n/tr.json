@@ -1,93 +1,93 @@
 {
   "index": {
-    "tagline": "Derin bir nefes alın 🌿",
+    "tagline": "Derin bir nefes 🌿 al",
     "title": "Stresinizi Yönetin",
-    "description": "Daha sakin ve kontrol altında hissetmenize yardımcı olacak basit günlük alışkanlıklar.",
-    "sectionTitle": "Günlük Stres Giderici İpuçları"
+    "description": "Daha sakin ve kontrolde hissetmenize yardımcı olacak basit günlük alışkanlıklar.",
+    "sectionTitle": "Günlük Stres Azaltma İpuçları"
   },
   "tip": {
     "sleep": {
-      "title": "Rahat bir uyku çekin.",
-      "description": "Her gece 7-9 saat uyumayı hedefleyin. Her gün aynı saatte yatıp kalkmaya çalışın.",
-      "why": "Uyku, beyninizin ve vücudunuzun iyileşmesine yardımcı olur ve stres hormonlarını düşürür.",
+      "title": "Rahat Uyu",
+      "description": "Her gece 7–9 saat uyumayı hedefleyin. Her gün aynı saatte uyumaya ve uyanmaya çalışın.",
+      "why": "Uyku, beyninizin ve vücudunuzun iyileşmesine yardımcı olur ve stres hormonlarını azaltır.",
       "do": [
-        "Düzenli bir uyku programı uygulayın.",
-        "Yatmadan 1 saat önce ekranlardan uzak durun.",
-        "Odayı serin ve karanlık tutun.",
-        "Saat 16:00'dan sonra kafeinli içeceklerden uzak durun."
+        "Sabit bir uyku programı tutun",
+        "Yatmadan 1 saat önce ekrandan kaçının",
+        "Odayı serin ve karanlık tutun",
+        "Saat 16:00'ten sonra kafeinden kaçının"
       ],
-      "button": "Uyku Hatırlatıcısı Ayarla"
+      "button": "Uyku Hatırlatıcısını Ayarla"
     },
     "breathing": {
-      "title": "Derin Nefes Alma Egzersizi Yapın",
-      "description": "Birkaç dakika nefesinize odaklanın. Yavaş nefes almak kaygıyı azaltır.",
-      "why": "Yavaş nefes alma, vücudunuzun gevşeme tepkisini harekete geçirir.",
+      "title": "Derin Nefes Alışığı Yapın",
+      "description": "Birkaç dakika nefesine odaklan. Yavaş nefes almak kaygıyı azaltır.",
+      "why": "Yavaş nefes almak, vücudunuzun rahatlama tepkisini aktive eder.",
       "do": [
-        "4 saniye boyunca nefes alın.",
-        "4 saniye boyunca bekleyin",
-        "4 saniye boyunca nefes verin.",
-        "1 dakika boyunca tekrarlayın"
+        "4 saniye nefes al",
+        "4 saniye bekleyin",
+        "4 saniye nefes ver",
+        "1 dakika tekrarlayın"
       ]
     },
     "exercise": {
-      "title": "Vücudunuzu Hareket Ettirin",
-      "description": "Hafif yürüyüş veya esneme hareketleri stresi azaltmaya ve ruh halini iyileştirmeye yardımcı olur.",
-      "why": "Egzersiz endorfin salgılanmasını sağlar ve ruh halini iyileştirir.",
+      "title": "Vücudunu Hareket Ettir",
+      "description": "Hafif yürüyüş veya esneme stresi azaltmaya ve ruh halini iyileştirmeye yardımcı olur.",
+      "why": "Egzersiz endorfinleri serbest bırakır ve ruh halini iyileştirir.",
       "do": [
-        "15 dakikalık yürüme mesafesinde",
-        "Hafif germe",
+        "15 dakikalık yürüyüş",
+        "Hafif esneme",
         "Kısa yoga seansı",
-        "Hızlı ev egzersizi"
+        "Hızlı ev antrenmanı"
       ]
     },
     "caffeine": {
-      "title": "Kafein ve şeker tüketimini sınırlayın",
-      "description": "Aşırı kafein ve şeker tüketimi kaygıyı artırabilir ve uyku düzenini bozabilir.",
-      "why": "Aşırı kafein ve şeker tüketimi kaygı ve uyku sorunlarını artırır.",
+      "title": "Kafein ve Şekeri Sınırlayın",
+      "description": "Çok fazla kafein ve şeker anksiyeteyi artırabilir ve uykuyu bozabilir.",
+      "why": "Çok fazla kafein ve şeker anksiyete ve uyku sorunlarını artırır.",
       "do": [
-        "Bir kahve yerine bitki çayı içebilirsiniz.",
+        "Bir kahveyi bitkisel çayla değiştirin",
         "Daha fazla su iç",
         "Şekerli atıştırmalıkları azaltın",
-        "Günün ilerleyen saatlerinde kafeinden kaçının."
+        "Günün geç saatlerinde kafeinden kaçının"
       ]
     },
     "planning": {
       "title": "Gününüzü Planlayın",
-      "description": "Büyük görevleri daha küçük adımlara bölerek bunalmış hissetmekten kaçının.",
-      "why": "Planlama zihinsel karmaşayı ve bunalımı azaltır.",
+      "description": "Büyük görevleri daha küçük adımlara ayırarak kendinizi bunalmış hissetmeyin.",
+      "why": "Planlama, zihinsel karmaşayı ve bunalmayı azaltır.",
       "do": [
-        "3 ana görevi yazın.",
-        "Görevleri küçük adımlara bölün",
-        "Tek seferde yalnızca bir göreve odaklanın.",
-        "Kısa molalar verin."
+        "3 ana görev yaz",
+        "Görevleri küçük adımlara böl",
+        "Aynı anda tek bir göreve odaklanın",
+        "Kısa molalar verin"
       ]
     }
   },
   "detail": {
     "back": "Geri",
     "notFound": "İpucu bulunamadı.",
-    "whyTitle": "Neden Faydalı?",
-    "doTitle": "Yapabilecekleriniz",
-    "reminderSet": "Hatırlatıcı ayarlandı! 🌙"
+    "whyTitle": "Neden Yardımcı Oluyor",
+    "doTitle": "Ne Yapabilirsiniz",
+    "reminderSet": "Hatırlatma hazır! 🌙"
   },
   "notFound": {
     "title": "404",
-    "message": "Ups! Sayfa bulunamadı.",
-    "return": "Ana sayfaya dön"
+    "message": "Hop! Sayfa bulunmadı",
+    "return": "Eve Dönüş"
   },
   "mood": {
-    "title": "Bugün nasıl hissediyorsunuz?",
+    "title": "Bugün nasıl hissediyorsun?",
     "great": "Harika",
     "okay": "Tamam",
     "stressed": "Stresli",
-    "overwhelmed": "Ezilmiş"
+    "overwhelmed": "Bunalmış"
   },
   "breathing": {
-    "inhale": "Derin bir nefes alın…",
-    "hold": "Tutmak…",
-    "exhale": "Nefes ver…",
-    "pause": "Duraklat",
-    "resume": "Sürdürmek"
+    "inhale": "Nefes al...",
+    "hold": "Bekle...",
+    "exhale": "Nefes ver...",
+    "pause": "Duraklama",
+    "resume": "Özgeçmiş"
   },
   "common": {
     "get_started": "Başlayın",

@@ -15,16 +15,6 @@
   "home": "집",
   "past_letters_title": "이전 편지들",
   "empty_letters": "이전에 보낸 편지가 없습니다.",
-  "finish": "마치다",
-  "need_inspiration": "영감이 필요하신가요?",
-  "prompts": [
-    "요즘 내가 잘 해내고 있는 것은 무엇인가요?",
-    "힘든 날에 나 자신에게 어떤 말을 해주고 싶나요?",
-    "최근의 스트레스를 이겨내는 데 도움이 된 나의 강점은 무엇인가요?",
-    "지금 나에게 필요한 희망이나 격려는 무엇인가요?",
-    "친절한 친구라면 오늘 나에게 어떤 말을 해줄까요?",
-    "작게나마 내가 자랑스럽게 느끼는 것은 무엇인가요?"
-  ],
   "common": {
     "get_started": "시작하기",
     "start_over": "처음부터 다시 시작",
@@ -35,8 +25,6 @@
     "back": "뒤쪽에",
     "next": "다음",
     "save": "구하다",
-    "saving": "저장 중...",
-    "saved": "저장됨",
     "loading": "로딩 중...",
     "share": "공유하다",
     "share_progress": "진행 상황 공유",
@@ -79,5 +67,6 @@
   "no_letters_found_yet": "아직 글자를 찾지 못했습니다.",
   "your_future_self_is_waiting_to_hear_from_you": "미래의 당신이 당신의 연락을 기다리고 있습니다.",
   "write_first_letter": "첫 글자를 쓰세요",
-  "read_full_letter": "편지 전문을 읽어보세요"
+  "read_full_letter": "편지 전문을 읽어보세요",
+  "finish": "마치다"
 }

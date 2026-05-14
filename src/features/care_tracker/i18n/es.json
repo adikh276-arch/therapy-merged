@@ -16,12 +16,7 @@
     "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
     "this_activity": "esta actividad",
     "copied": "¡Copiado!",
-    "copy_message": "Copiar mensaje",
-    "continue": "Continuar",
-    "home": "Volver a Inicio",
-    "yes": "Sí",
-    "no": "No",
-    "date": "Fecha"
+    "copy_message": "Copiar mensaje"
   },
   "screens": {
     "intro": {
@@ -36,36 +31,36 @@
       "duration": "2-3 minutos"
     },
     "checkin": {
-      "title": "Registro de autocuidado 🌿",
-      "subtitle": "¿Cómo te cuidaste hoy?",
-      "question": "¿Practicaste el autocuidado hoy? *",
+      "title": "Revisión 🌿 de autocuidado",
+      "subtitle": "¿Cómo te has cuidado hoy?",
+      "question": "¿Has practicado el autocuidado hoy? *",
       "description": "El autocuidado es cualquier actividad que realizamos deliberadamente para cuidar nuestra salud mental, emocional y física."
     },
     "activities": {
       "title": "Tus actividades 🎯",
-      "subtitle": "¿Qué actividades de autocuidado realizaste hoy?"
+      "subtitle": "¿Qué actividades de autocuidado hiciste hoy?"
     },
     "duration": {
-      "title": "Tiempo dedicado ⏱️",
+      "title": "Tiempo invertido ⏱️",
       "subtitle": "¿Cuánto tiempo dedicaste al autocuidado? (opcional)"
     },
     "noSelfCare": {
-      "title": "Está bien 💛",
-      "subtitle": "Entendamos lo que pasó hoy.",
-      "question1": "¿Qué impidió el autocuidado hoy en día? (opcional)",
-      "question2": "¿Qué tipo de autocuidado te hubiera ayudado? (opcional)"
+      "title": "No pasa 💛 nada",
+      "subtitle": "Vamos a entender qué ha pasado hoy.",
+      "question1": "¿Qué ha impedido el autocuidado hoy en día? (opcional)",
+      "question2": "¿Qué tipo de autocuidado habría ayudado? (opcional)"
     },
     "mood": {
-      "title": "¿Cómo te sientes? 🫧",
+      "title": "¿Cómo te encuentras? 🫧",
       "subtitle": "Selecciona tu estado de ánimo actual (opcional)"
     },
     "review": {
       "title": "Tu entrada 📋",
-      "subtitle": "Aquí tenéis un resumen del check-in de hoy.",
-      "didSelfCare": "¿Se hizo autocuidado?",
+      "subtitle": "Aquí tienes un resumen de la reunión de hoy",
+      "didSelfCare": "¿Te cuidas a ti mismo?",
       "activities": "Actividades",
       "duration": "Duración",
-      "mood": "Ánimo",
+      "mood": "Ambiente",
       "challenges": "Prevenido por",
       "whatHelps": "Habría ayudado",
       "viewHistory": "Historia semanal",
@@ -73,48 +68,48 @@
       "summary": "Resumen"
     },
     "history": {
-      "title": "Historial semanal 📅",
-      "subtitle": "No hay entradas en los últimos 7 días"
+      "title": "Historia 📅 semanal",
+      "subtitle": "No ha habido inscripciones en los últimos 7 días"
     },
     "notfound": {
       "title": "404",
       "subtitle": "¡Ups! Página no encontrada",
-      "returnHome": "Regresar a Inicio"
+      "returnHome": "Regreso a casa"
     }
   },
   "data": {
     "activities": {
       "Exercise": "Ejercicio",
       "Meditation": "Meditación",
-      "Journaling": "Diario",
+      "Journaling": "Escritura de diario",
       "Reading": "Lectura",
-      "Rest / Nap": "Descanso / Siesta",
-      "Skincare": "Protección de la piel",
+      "Rest / Nap": "Descanso / Descanso",
+      "Skincare": "Cuidado de la piel",
       "Healthy Meal": "Comida saludable",
       "Nature / Walk": "Naturaleza / Paseo",
       "Social Time": "Tiempo social",
-      "Hobby": "Pasatiempo",
+      "Hobby": "Afición",
       "Therapy": "Terapia",
-      "Digital Detox": "Desintoxicación digital"
+      "Digital Detox": "Desintoxicación Digital"
     },
     "durations": {
-      "< 10 minutes": "&lt; 10 minutos",
+      "< 10 minutes": "< 10 minutos",
       "10–30 minutes": "10–30 minutos",
       "30–60 minutes": "30–60 minutos",
       "1+ hour": "1+ hora"
     },
     "reasons": {
-      "Busy schedule": "agenda ocupada",
-      "Low energy": "Energía baja",
+      "Busy schedule": "Agenda ajetreada",
+      "Low energy": "Baja energía",
       "Stress": "Estrés",
-      "Forgot": "Olvidó",
+      "Forgot": "Se me olvidó",
       "No motivation": "Sin motivación",
-      "Not feeling well": "No me siento bien",
+      "Not feeling well": "No me encuentro bien",
       "Lack of time": "Falta de tiempo",
-      "Emotional overwhelm": "Abrumamiento emocional"
+      "Emotional overwhelm": "Sobrecarga emocional"
     },
     "helpfulTypes": {
-      "Rest": "Descansar",
+      "Rest": "Descanso",
       "Relaxation": "Relajación",
       "Physical activity": "Actividad física",
       "Talking to someone": "Hablando con alguien",
@@ -124,24 +119,24 @@
     "moods": {
       "Happy": "Feliz",
       "Calm": "Calma",
-      "Neutral": "Neutral",
+      "Neutral": "Neutro",
       "Low": "Bajo",
       "Stressed": "Estresado",
       "Tired": "Cansado"
     },
     "positiveStatements": [
-      "Hoy te presentaste por ti mismo. Eso es poderoso. 🌿",
-      "Cuidarse no es egoísta, es esencial. ¡Bien hecho! 💚",
-      "Cada pequeño acto de cuidado te hace más fuerte. 🌱",
-      "Hoy invertiste en ti. Eso importa. ✨",
-      "Cuidarte es lo mejor que hiciste hoy. 🍃"
+      "Hoy has estado presente por ti mismo. Eso es poderoso. 🌿",
+      "El autocuidado no es egoísta, es esencial. Bien hecho. 💚",
+      "Cada pequeño acto de cuidado construye un tú más fuerte. 🌱",
+      "Hoy has invertido en ti mismo. Eso importa. ✨",
+      "Cuidarte es lo mejor que has hecho hoy. 🍃"
     ],
     "supportiveStatements": [
-      "No pasa nada. Mañana es un nuevo comienzo. Sé amable contigo mismo. 🤍",
+      "Está bien. Mañana es un nuevo comienzo. Sé amable contigo mismo. 🤍",
       "No todos los días serán perfectos, y eso está perfectamente bien. 🕊️",
       "Estás haciendo lo mejor que puedes. Eso siempre es suficiente. 💛",
-      "El descanso también es una forma de autocuidado. Date un capricho. 🌸",
-      "Reconocer el hoy requiere valentía. Ya estás creciendo. 🌷"
+      "El descanso también es una forma de autocuidado. Sé comprensivo contigo mismo. 🌸",
+      "Reconocer hoy requiere valor. Ya estás creciendo. 🌷"
     ]
   },
   "app_title": "Rastreador de autocuidado",

@@ -38,15 +38,6 @@
         "save_button": "সেভ অ্যান্ড ফিনিশ",
         "finish_button": "সংরক্ষণ না করেই শেষ করুন"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

@@ -76,13 +76,5 @@
   "go_to_next_page": "Gå til næste side",
   "toggle_sidebar": "Slå sidebjælken til/fra",
   "oops_page_not_found": "Ups! Siden blev ikke fundet",
-  "return_to_home": "Tilbage til hjemmet",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "Tilbage til hjemmet"
 }

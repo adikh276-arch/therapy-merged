@@ -76,13 +76,5 @@
   "go_to_next_page": "前往下一页",
   "toggle_sidebar": "切换侧边栏",
   "oops_page_not_found": "糟糕！页面未找到",
-  "return_to_home": "返回首页",
-  "screens": {
-    "history": {
-      "title": "History"
-    },
-    "summary": {
-      "title": "Summary"
-    }
-  }
+  "return_to_home": "返回首页"
 }

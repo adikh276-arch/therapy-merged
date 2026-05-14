@@ -16,12 +16,7 @@
     "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
     "this_activity": "this activity",
     "copied": "Copied!",
-    "copy_message": "Copy Message",
-    "continue": "Continue",
-    "home": "Back to Home",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date"
+    "copy_message": "Copy Message"
   },
   "screens": {
     "intro": {
@@ -60,7 +55,7 @@
       "subtitle": "Select your current mood (optional)"
     },
     "review": {
-      "title": "Session Review",
+      "title": "Your Entry 📋",
       "subtitle": "Here's a summary of today's check-in",
       "didSelfCare": "Did self-care?",
       "activities": "Activities",
@@ -73,7 +68,7 @@
       "summary": "Summary"
     },
     "history": {
-      "title": "Self-Care Journey",
+      "title": "Weekly History 📅",
       "subtitle": "No entries in the last 7 days"
     },
     "notfound": {

@@ -38,15 +38,6 @@
         "save_button": "Lưu & Kết thúc",
         "finish_button": "Kết thúc mà không cần lưu"
       }
-    },
-    "s2.select": {
-      "title": "S2.select"
-    },
-    "s2.prioritize": {
-      "title": "S2.prioritize"
-    },
-    "s3.action": {
-      "title": "S3.action"
     }
   },
   "needs": {

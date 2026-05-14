@@ -63,12 +63,6 @@
       ],
       "notice": "Zauważenie cyklu to już pierwszy krok. To ty wykonujesz pracę.",
       "button": "Pełna aktywność"
-    },
-    "s3.anger": {
-      "title": "S3.anger"
-    },
-    "s3.shame": {
-      "title": "S3.shame"
     }
   },
   "complete": {

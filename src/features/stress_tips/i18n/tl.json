@@ -1,40 +1,40 @@
 {
   "index": {
-    "tagline": "Huminga nang malalim 🌿",
+    "tagline": "Huminga 🌿 ng malalim",
     "title": "Pamahalaan ang Iyong Stress",
-    "description": "Mga simpleng pang-araw-araw na gawi na makakatulong sa iyong maging mas kalmado at mas may kontrol.",
-    "sectionTitle": "Mga Tip sa Pang-araw-araw na Pag-alis ng Stress"
+    "description": "Mga simpleng pang-araw-araw na gawi upang matulungan kang makaramdam ng mas kalmado at mas kontrolado.",
+    "sectionTitle": "Pang-araw-araw na Mga Tip sa Pag-alis ng Stress"
   },
   "tip": {
     "sleep": {
-      "title": "Matulog nang mahimbing",
-      "description": "Maghangad ng 7-9 na oras na tulog gabi-gabi. Subukang matulog at gumising nang sabay-sabay araw-araw.",
-      "why": "Ang pagtulog ay nakakatulong sa iyong utak at katawan na makabawi at nagpapababa ng mga stress hormones.",
+      "title": "Kumuha ng Mahimbing na Pagtulog",
+      "description": "Maghangad ng 7-9 na oras ng pagtulog bawat gabi. Subukang matulog at gumising nang sabay-sabay araw-araw.",
+      "why": "Ang pagtulog ay tumutulong sa iyong utak at katawan na makabawi at nagpapababa ng stress hormones.",
       "do": [
         "Panatilihin ang isang nakapirming iskedyul ng pagtulog",
         "Iwasan ang mga screen 1 oras bago matulog",
         "Panatilihing malamig at madilim ang silid",
-        "Iwasan ang caffeine pagkatapos ng alas-4 ng hapon"
+        "Iwasan ang caffeine pagkatapos ng 4 PM"
       ],
       "button": "Itakda ang Paalala sa Pagtulog"
     },
     "breathing": {
       "title": "Magsanay ng Malalim na Paghinga",
-      "description": "Gumugol ng ilang minuto na magtuon sa iyong paghinga. Ang mabagal na paghinga ay nakakabawas ng pagkabalisa.",
-      "why": "Ang mabagal na paghinga ay nagpapagana ng tugon ng iyong katawan sa pagrerelaks.",
+      "description": "Gumugol ng ilang minuto sa pagtuon sa iyong hininga. Ang mabagal na paghinga ay nakakabawas ng pagkabalisa.",
+      "why": "Ang mabagal na paghinga ay nagpapagana ng tugon sa pagpapahinga ng iyong katawan.",
       "do": [
-        "Huminga nang 4 na segundo",
-        "Pindutin nang 4 na segundo",
-        "Huminga nang palabas nang 4 na segundo",
-        "Ulitin nang 1 minuto"
+        "Huminga sa loob ng 4 segundo",
+        "Hawakan nang 4 segundo",
+        "Huminga nang 4 segundo",
+        "Ulitin sa loob ng 1 minuto"
       ]
     },
     "exercise": {
-      "title": "Igalaw ang Iyong Katawan",
-      "description": "Ang magaan na paglalakad o pag-unat ay nakakatulong na maibsan ang stress at mapabuti ang mood.",
-      "why": "Ang ehersisyo ay naglalabas ng mga endorphin at nagpapabuti ng mood.",
+      "title": "Ilipat ang Iyong Katawan",
+      "description": "Ang magaan na paglalakad o pag-unat ay tumutulong na mawala ang stress at mapabuti ang mood.",
+      "why": "Ang ehersisyo ay naglalabas ng endorphins at nagpapabuti ng mood.",
       "do": [
-        "15 minutong lakad",
+        "15 minutong paglalakad",
         "Banayad na pag-unat",
         "Maikling sesyon ng yoga",
         "Mabilis na pag-eehersisyo sa bahay"
@@ -42,52 +42,52 @@
     },
     "caffeine": {
       "title": "Limitahan ang Caffeine at Asukal",
-      "description": "Ang sobrang caffeine at asukal ay maaaring magpataas ng pagkabalisa at makagambala sa pagtulog.",
-      "why": "Ang sobrang caffeine at asukal ay nagpapataas ng pagkabalisa at mga problema sa pagtulog.",
+      "description": "Ang labis na caffeine at asukal ay maaaring dagdagan ang pagkabalisa at makagambala sa pagtulog.",
+      "why": "Ang labis na caffeine at asukal ay nagdaragdag ng pagkabalisa at mga problema sa pagtulog.",
       "do": [
         "Palitan ang isang kape ng herbal tea",
         "Uminom ng mas maraming tubig",
-        "Bawasan ang mga matatamis na meryenda",
-        "Iwasan ang caffeine sa bandang huli ng araw"
+        "Bawasan ang matamis na meryenda",
+        "Iwasan ang pag-inom ng kape sa huling bahagi ng araw"
       ]
     },
     "planning": {
       "title": "Planuhin ang Iyong Araw",
-      "description": "Hatiin ang malalaking gawain sa mas maliliit na hakbang upang maiwasan ang pakiramdam na nabibigatan.",
-      "why": "Binabawasan ng pagpaplano ang kalat at labis na pagkahumaling sa pag-iisip.",
+      "description": "Hatiin ang mga malalaking gawain sa mas maliliit na hakbang upang maiwasan ang pakiramdam na nababagabag.",
+      "why": "Ang pagpaplano ay binabawasan ang kalat-kalat at labis na kaisipan.",
       "do": [
         "Sumulat ng 3 pangunahing gawain",
         "Hatiin ang mga gawain sa maliliit na hakbang",
-        "Tumutok sa isang gawain sa isang pagkakataon",
-        "Magpahinga nang maikli"
+        "Magpokus sa isang gawain nang paisa-isa",
+        "Kumuha ng maikling pahinga"
       ]
     }
   },
   "detail": {
-    "back": "Balik",
+    "back": "Bumalik",
     "notFound": "Hindi natagpuan ang tip.",
-    "whyTitle": "Bakit Ito Nakakatulong",
-    "doTitle": "Ang Kaya Mong Gawin",
-    "reminderSet": "Nakatakda na ang paalala! 🌙"
+    "whyTitle": "Bakit Nakakatulong Ito",
+    "doTitle": "Ano ang Magagawa Mo",
+    "reminderSet": "Itakda ang paalala! 🌙"
   },
   "notFound": {
     "title": "404",
-    "message": "Naku! Hindi natagpuan ang pahina",
-    "return": "Bumalik sa Bahay"
+    "message": "Oops! Hindi natagpuan ang pahina",
+    "return": "Bumalik sa Tahanan"
   },
   "mood": {
     "title": "Kumusta ang pakiramdam mo ngayon?",
     "great": "Mahusay",
-    "okay": "Sige",
-    "stressed": "Na-stress",
-    "overwhelmed": "Nalulula"
+    "okay": "Okay",
+    "stressed": "Stressed",
+    "overwhelmed": "Labis na Pagkabigo"
   },
   "breathing": {
-    "inhale": "Huminga…",
-    "hold": "Pindutin…",
-    "exhale": "Huminga nang palabas…",
-    "pause": "Ihinto",
-    "resume": "Resume"
+    "inhale": "Huminga...",
+    "hold": "Hawakan ...",
+    "exhale": "Huminga ...",
+    "pause": "I-pause",
+    "resume": "Ipagpatuloy"
   },
   "common": {
     "get_started": "Magsimula",
