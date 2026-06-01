@@ -25,7 +25,7 @@ import {
   Search
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import '../../lib/i18n/i18n';
+import '@/lib/i18n/i18n';
 
 const iconMap: Record<string, any> = {
   Smile, Clock, Activity, Book, Target, Moon, Cloud, Wind,
