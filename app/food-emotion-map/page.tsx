@@ -157,7 +157,7 @@ function FoodEmotionMapInner() {
     e.stopPropagation();
     if (!window.confirm(t("common.confirm_delete", "Are you sure you want to delete this mapping?"))) return;
     try {
-      const res = await fetch(`/api/food-emotion-map?id=${id}`, { method: "DELETE" });
+      const res = await fetch(apiPath(`/api/food-emotion-map?id=${id}`), { method: "DELETE" });
       if (res.ok) {
         setHistoryLogs(prev => prev.filter(h => h.id !== id));
       }

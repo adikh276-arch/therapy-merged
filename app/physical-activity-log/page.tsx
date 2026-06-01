@@ -165,7 +165,7 @@ function PhysicalActivityLogInner() {
   // Delete activity
   const handleDeleteActivity = async (id: number) => {
     try {
-      const res = await fetch(`/api/physical-activity?id=${id}`, {
+      const res = await fetch(apiPath(`/api/physical-activity?id=${id}`), {
         method: 'DELETE',
       });
 

@@ -121,7 +121,7 @@ function ContinuingBondsInner() {
   const deleteReflection = async (id: string) => {
     if (!window.confirm(t("common.confirm_delete", "Are you sure you want to delete this reflection?"))) return;
     try {
-      const res = await fetch(`/api/continuing-bonds?id=${id}`, { method: "DELETE" });
+      const res = await fetch(apiPath(`/api/continuing-bonds?id=${id}`), { method: "DELETE" });
       if (res.ok) {
         setReflections(prev => prev.filter(r => r.id !== id));
       }

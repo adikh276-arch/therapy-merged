@@ -138,7 +138,7 @@ function RedrawCircleInner() {
     e.stopPropagation();
     if (!window.confirm(t("common.confirm_delete", "Are you sure you want to delete this circle log?"))) return;
     try {
-      const res = await fetch(`/api/redraw-your-circle?id=${id}`, { method: "DELETE" });
+      const res = await fetch(apiPath(`/api/redraw-your-circle?id=${id}`), { method: "DELETE" });
       if (res.ok) {
         setEntries(prev => prev.filter(c => c.id !== id));
       }

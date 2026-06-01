@@ -101,7 +101,7 @@ function TheUnsentLetterInner() {
   const deleteLetter = async (id: string) => {
     if (!window.confirm(t("common.confirm_delete", "Are you sure you want to delete this unsent letter?"))) return;
     try {
-      const res = await fetch(`/api/the-unsent-letter?id=${id}`, { method: "DELETE" });
+      const res = await fetch(apiPath(`/api/the-unsent-letter?id=${id}`), { method: "DELETE" });
       if (res.ok) {
         setSavedLetters(prev => prev.filter(l => l.id !== id));
       }

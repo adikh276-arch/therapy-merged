@@ -131,7 +131,7 @@ function DailyGratitudeInner() {
 
   const deleteEntry = async (id: string) => {
     try {
-      const res = await fetch(`/api/daily-gratitude-diary?id=${id}`, {
+      const res = await fetch(apiPath(`/api/daily-gratitude-diary?id=${id}`), {
         method: 'DELETE',
       });
       if (res.ok) {

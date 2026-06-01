@@ -650,7 +650,7 @@ function ALetterToSelfInner() {
 
   const handleDeleteLetter = async (id: string) => {
     try {
-      const res = await fetch(`/api/letters?id=${id}`, {
+      const res = await fetch(apiPath(`/api/letters?id=${id}`), {
         method: 'DELETE',
       });
       if (res.ok) {

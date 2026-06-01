@@ -424,7 +424,7 @@ function DoodleBurstInner() {
 
   const deleteDoodleItem = async (id: string) => {
     try {
-      const res = await fetch(`/api/doodle-burst?id=${id}`, {
+      const res = await fetch(apiPath(`/api/doodle-burst?id=${id}`), {
         method: 'DELETE',
       });
       if (res.ok) {

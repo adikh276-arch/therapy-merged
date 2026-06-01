@@ -142,7 +142,7 @@ function PersonalMissionStatementInner() {
 
   const handleDeleteStatement = async (id: string) => {
     try {
-      const res = await fetch(`/api/personal-mission-statement?id=${id}`, {
+      const res = await fetch(apiPath(`/api/personal-mission-statement?id=${id}`), {
         method: 'DELETE',
       });
 

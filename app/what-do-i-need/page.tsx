@@ -140,7 +140,7 @@ function WhatDoINeedInner() {
   const deleteReflection = async (id: string) => {
     if (!window.confirm("Are you sure you want to delete this reflection?")) return;
     try {
-      const res = await fetch(`/api/what-do-i-need?id=${id}`, { method: "DELETE" });
+      const res = await fetch(apiPath(`/api/what-do-i-need?id=${id}`), { method: "DELETE" });
       if (res.ok) {
         setHistory(prev => prev.filter(item => item.id !== id));
         toast.success("Reflection deleted");

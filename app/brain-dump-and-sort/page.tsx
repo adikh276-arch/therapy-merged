@@ -901,7 +901,7 @@ function BrainDumpAppInner() {
 
   const handleDeleteSession = async (id: string) => {
     try {
-      const res = await fetch(`/api/brain-dump?id=${id}`, {
+      const res = await fetch(apiPath(`/api/brain-dump?id=${id}`), {
         method: 'DELETE',
       });
       if (res.ok) {

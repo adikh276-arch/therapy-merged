@@ -102,7 +102,7 @@ function PredictionVsRealityInner() {
   const handleDelete = async (id: string) => {
     if (!window.confirm(t("common.confirm_delete", "Are you sure you want to delete this prediction log?"))) return;
     try {
-      const res = await fetch(`/api/prediction-vs-reality?id=${id}`, { method: "DELETE" });
+      const res = await fetch(apiPath(`/api/prediction-vs-reality?id=${id}`), { method: "DELETE" });
       if (res.ok) {
         setEntries(prev => prev.filter(e => e.id !== id));
       }

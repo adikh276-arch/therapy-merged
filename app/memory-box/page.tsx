@@ -196,7 +196,7 @@ function MemoryBoxInner() {
   const deleteMemory = async (id: string) => {
     if (!window.confirm(t("common.confirm_delete", "Are you sure you want to delete this memory?"))) return;
     try {
-      const res = await fetch(`/api/memory-box?id=${id}`, { method: "DELETE" });
+      const res = await fetch(apiPath(`/api/memory-box?id=${id}`), { method: "DELETE" });
       if (res.ok) {
         setMemories(prev => prev.filter(m => m.id !== id));
       }
