@@ -147,7 +147,8 @@ function ContinuingBondsInner() {
     );
   }
 
-  const titles: Record<string, string> = ((_t => (typeof _t === 'object' && _t !== null && !Array.isArray(_t)) ? _t : null)(t("screen_titles", { returnObjects: true }))) || {
+  const tTitles = t("screen_titles", { returnObjects: true });
+  const titles: Record<string, string> = (typeof tTitles === 'object' && tTitles !== null && !Array.isArray(tTitles) ? tTitles as any : null) || {
     welcome: "Welcome",
     choose: "Connection",
     bond: "Action",

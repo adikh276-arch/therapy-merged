@@ -81,8 +81,10 @@ function ChallengingFoodRulesInner() {
   const selectedRule = rule === "__custom" ? customRule : rule;
   const selectedFeeling = feeling === "__custom" ? customFeeling : feeling;
 
-  const reflections = t("reflections", { returnObjects: true }) as Record<string, string>;
-  const titles = t("screen_titles", { returnObjects: true }) as Record<string, string>;
+  const tReflections = t("reflections", { returnObjects: true });
+  const reflections = (typeof tReflections === 'object' && tReflections !== null && !Array.isArray(tReflections) ? tReflections as any : {}) as Record<string, string>;
+  const tTitles = t("screen_titles", { returnObjects: true });
+  const titles = (typeof tTitles === 'object' && tTitles !== null && !Array.isArray(tTitles) ? tTitles as any : {}) as Record<string, string>;
 
   const currentIdx = SCREENS.indexOf(screen);
 

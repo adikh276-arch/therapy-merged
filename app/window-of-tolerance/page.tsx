@@ -240,7 +240,7 @@ function ZoneScreen({ zone, onContinue, onBack }: ZoneProps) {
   const { t } = useTranslation(undefined, { i18n });
   if (!zone) return null;
 
-  const data = ((_t => Array.isArray(_t) ? _t : null)(t(`screens.zone.${zone}`, { returnObjects: true }))) || {
+  const data = (t(`screens.zone.${zone}`, { returnObjects: true }) as any) || {
     title: zone === "hyper" ? "Hyper-arousal" : zone === "safe" ? "Optimal Zone" : "Hypo-arousal",
     subtitle: "Understanding your current nervous system activation state.",
     feelings: ["Overwhelmed", "Anxious"],

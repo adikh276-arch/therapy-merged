@@ -188,7 +188,8 @@ function FoodEmotionMapInner() {
   const SUPPORT_OPTIONS = ((_t => Array.isArray(_t) ? _t : null)(t("support_options", { returnObjects: true }))) || [
     "🗣️ Talk to someone", "☕ Take a break", "📝 Journal", "🌬️ Breathe", "🎧 Distract myself"
   ];
-  const SUPPORT_RESPONSES: Record<string, { title: string; body: string }> = ((_t => (typeof _t === 'object' && _t !== null && !Array.isArray(_t)) ? _t : null)(t("support_responses", { returnObjects: true }))) || {
+  const tSupport = t("support_responses", { returnObjects: true });
+  const SUPPORT_RESPONSES: Record<string, { title: string; body: string }> = (typeof tSupport === 'object' && tSupport !== null && !Array.isArray(tSupport) ? tSupport as any : null) || {
     "🗣️ Talk to someone": { title: "Reach out 💛", body: "Sometimes sharing lightens things a bit. Maybe a simple 'hey, can we talk?'" },
     "☕ Take a break": { title: "Pause 💛", body: "A small pause can help reset things. Maybe step away and take a few slow breaths." },
     "📝 Journal": { title: "Write it out 💛", body: "You could start with 'right now I feel…' and just let it flow." },

@@ -397,7 +397,8 @@ function WritingNarrativeInner() {
     );
   }
 
-  const titles: Record<string, string> = t("nav", { returnObjects: true }) as Record<string, string>;
+  const tTitles = t("nav", { returnObjects: true });
+  const titles: Record<string, string> = (typeof tTitles === 'object' && tTitles !== null && !Array.isArray(tTitles) ? tTitles as any : {}) as Record<string, string>;
 
   return (
     <PremiumLayout

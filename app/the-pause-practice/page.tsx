@@ -250,7 +250,8 @@ function ScenarioScreen({ onNext }: { onNext: (scenario: string) => void }) {
 
 function ResultScreen({ scenario, onTryAgain, onDone }: { scenario: string; onTryAgain: () => void; onDone: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
-  const scenarioMessages = t("result.scenario_messages", { returnObjects: true }) as Record<string, string>;
+  const tScenarios = t("result.scenario_messages", { returnObjects: true });
+  const scenarioMessages = (typeof tScenarios === 'object' && tScenarios !== null && !Array.isArray(tScenarios) ? tScenarios as any : {}) as Record<string, string>;
   const message = scenarioMessages[scenario] || scenarioMessages.other || "Take a step back and breathe before you proceed.";
 
   return (

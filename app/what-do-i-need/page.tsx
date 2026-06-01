@@ -152,7 +152,8 @@ function WhatDoINeedInner() {
     }
   };
 
-  const needs_obj = ((_t => Array.isArray(_t) ? _t : null)(t("needs", { returnObjects: true }))) || {
+  const tNeeds = t("needs", { returnObjects: true });
+  const needs_obj = (typeof tNeeds === 'object' && tNeeds !== null && !Array.isArray(tNeeds) ? tNeeds as any : null) || {
     "Emotional support": { label: "Emotional support", prompt: "What kind of support would actually help you right now?", hints: ["I just need someone to...", "It would help if...", "What I really want is..."] },
     "Space / time for myself": { label: "Space / time for myself", prompt: "What would having that space look like for you?", hints: ["I'd use that time to...", "Space would let me...", "I need room to..."] },
     "default": { prompt: "What would this look like in a real situation?", hints: ["What comes to mind is...", "Right now I feel...", "If I'm honest with myself..."] }
