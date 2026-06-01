@@ -152,7 +152,7 @@ function WhatDoINeedInner() {
     }
   };
 
-  const needs_obj = (t("needs", { returnObjects: true }) as Record<string, any>) || {
+  const needs_obj = ((_t => Array.isArray(_t) ? _t : null)(t("needs", { returnObjects: true }))) || {
     "Emotional support": { label: "Emotional support", prompt: "What kind of support would actually help you right now?", hints: ["I just need someone to...", "It would help if...", "What I really want is..."] },
     "Space / time for myself": { label: "Space / time for myself", prompt: "What would having that space look like for you?", hints: ["I'd use that time to...", "Space would let me...", "I need room to..."] },
     "default": { prompt: "What would this look like in a real situation?", hints: ["What comes to mind is...", "Right now I feel...", "If I'm honest with myself..."] }
@@ -259,7 +259,7 @@ function WhatDoINeedInner() {
 
   const dynamicPrompt = current_need_data.prompt || t("needs.default.prompt", "What would this look like in a real situation?");
   const PrimaryIcon = NEED_ICON_MAP[primaryNeed] || Sparkles;
-  const actions_data = (t("actions", { returnObjects: true }) as any[]) || [
+  const actions_data = ((_t => Array.isArray(_t) ? _t : null)(t("actions", { returnObjects: true }))) || [
     { label: "Say something honestly" },
     { label: "Take time for myself" },
     { label: "Reach out to someone" },

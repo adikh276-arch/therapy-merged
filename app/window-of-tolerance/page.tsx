@@ -240,7 +240,7 @@ function ZoneScreen({ zone, onContinue, onBack }: ZoneProps) {
   const { t } = useTranslation(undefined, { i18n });
   if (!zone) return null;
 
-  const data = (t(`screens.zone.${zone}`, { returnObjects: true }) as any) || {
+  const data = ((_t => Array.isArray(_t) ? _t : null)(t(`screens.zone.${zone}`, { returnObjects: true }))) || {
     title: zone === "hyper" ? "Hyper-arousal" : zone === "safe" ? "Optimal Zone" : "Hypo-arousal",
     subtitle: "Understanding your current nervous system activation state.",
     feelings: ["Overwhelmed", "Anxious"],
@@ -332,8 +332,8 @@ interface ToolkitProps {
 
 function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack, isSaving }: ToolkitProps) {
   const { t } = useTranslation(undefined, { i18n });
-  const DAYS = (t("days", { returnObjects: true }) as string[]) || ["M", "T", "W", "T", "F", "S", "S"];
-  const tools_list = (t("screens.toolkit.tools_list", { returnObjects: true }) as string[]) || [
+  const DAYS = ((_t => Array.isArray(_t) ? _t : null)(t("days", { returnObjects: true }))) || ["M", "T", "W", "T", "F", "S", "S"];
+  const tools_list = ((_t => Array.isArray(_t) ? _t : null)(t("screens.toolkit.tools_list", { returnObjects: true }))) || [
     "Breathing Exercise",
     "Sensory Mindfulness",
     "Self-Compassion Writing"
@@ -578,7 +578,7 @@ function WindowInner() {
     );
   }
 
-  const titles = (t("nav", { returnObjects: true }) as string[]) || [
+  const titles = ((_t => Array.isArray(_t) ? _t : null)(t("nav", { returnObjects: true }))) || [
     "Welcome",
     "Understanding Zones",
     "Check-in State",

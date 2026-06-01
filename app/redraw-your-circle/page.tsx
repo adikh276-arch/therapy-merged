@@ -171,7 +171,7 @@ function RedrawCircleInner() {
     setScreen("intro");
   };
 
-  const PROMPTS = (t("circle.prompts", { returnObjects: true }) as string[]) || [
+  const PROMPTS = ((_t => Array.isArray(_t) ? _t : null)(t("circle.prompts", { returnObjects: true }))) || [
     "Who is your practical support?",
     "Who makes you feel secure?",
     "Who encourages your goals?",
@@ -179,7 +179,7 @@ function RedrawCircleInner() {
     "Who provides wise counsel?"
   ];
 
-  const reflectionList = (t("reflection.list", { returnObjects: true }) as string[]) || [
+  const reflectionList = ((_t => Array.isArray(_t) ? _t : null)(t("reflection.list", { returnObjects: true }))) || [
     "Recognize the balance in your relationships",
     "Identify any gaps you would like to address",
     "Appreciate those who make you feel grounded",

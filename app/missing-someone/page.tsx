@@ -92,7 +92,7 @@ function MissingSomeoneInner() {
     );
   }
 
-  const subtitles = (t("subtitles", { returnObjects: true }) as string[]) || [
+  const subtitles = ((_t => Array.isArray(_t) ? _t : null)(t("subtitles", { returnObjects: true }))) || [
     "Understanding the longing",
     "Embracing the connection"
   ];

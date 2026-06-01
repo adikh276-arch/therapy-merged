@@ -218,7 +218,7 @@ function MemoryBoxInner() {
     setScreen(0);
   };
 
-  const CATEGORIES = (t("who.categories", { returnObjects: true }) as any[]) || [
+  const CATEGORIES = ((_t => Array.isArray(_t) ? _t : null)(t("who.categories", { returnObjects: true }))) || [
     { label: "A happy moment", emoji: "😊" },
     { label: "Something they used to say", emoji: "💬" },
     { label: "A small everyday memory", emoji: "☕" },

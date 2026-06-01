@@ -149,7 +149,7 @@ function PredictionVsRealityInner() {
           description={t("app_description", "Anxiety often tricks us into predicting the worst possible outcomes. Use this cognitive tool to test your predictions against real-life outcomes.")}
           onStart={() => setScreen(1)}
           icon={<Activity size={32} />}
-          benefits={(t("intro.benefits", { returnObjects: true }) as string[]) || [
+          benefits={((_t => Array.isArray(_t) ? _t : null)(t("intro.benefits", { returnObjects: true }))) || [
             "Challenge automatic negative predictions",
             "Build realistic expectations over time",
             "Collect objective proof of your resilience"

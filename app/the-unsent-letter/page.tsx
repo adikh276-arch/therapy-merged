@@ -130,17 +130,17 @@ function TheUnsentLetterInner() {
     setScreen("intro");
   };
 
-  const prompts = (t("writing.prompts", { returnObjects: true }) as string[]) || [
+  const prompts = ((_t => Array.isArray(_t) ? _t : null)(t("writing.prompts", { returnObjects: true }))) || [
     "I feel…", "I wish…", "I never said…", "What hurt me…", "What I needed…"
   ];
 
-  const introDesc = (t("intro.description", { returnObjects: true }) as string[]) || [
+  const introDesc = ((_t => Array.isArray(_t) ? _t : null)(t("intro.description", { returnObjects: true }))) || [
     "Sometimes, there are things we wish we could say — but never got the chance to.",
     "This activity gives you a private space to put those thoughts into words.",
     "You don't have to send this letter. This is just for you — to release and heal."
   ];
 
-  const reflectDesc = (t("reflection.description", { returnObjects: true }) as string[]) || [
+  const reflectDesc = ((_t => Array.isArray(_t) ? _t : null)(t("reflection.description", { returnObjects: true }))) || [
     "You've just put your thoughts and feelings into words — that takes courage.",
     "Before you move on, take a breath and gently check in with yourself."
   ];

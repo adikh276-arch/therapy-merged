@@ -41,7 +41,7 @@ const Screen2 = () => {
   const { t } = useTranslation(undefined, { i18n });
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const truths_data = (t("s2.truths", { returnObjects: true }) as any[]) || [
+  const truths_data = ((_t => Array.isArray(_t) ? _t : null)(t("s2.truths", { returnObjects: true }))) || [
     {
       header: "The alarm stayed on",
       body: "Hypervigilance and startling easily aren't overreactions — your brain's alarm system is doing its job too well."

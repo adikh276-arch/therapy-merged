@@ -31,7 +31,7 @@ function AngerShameCycleInner() {
     }
   }, []);
 
-  const nodesData = (t("screens.s2.nodes", { returnObjects: true }) as any[]) || [
+  const nodesData = ((_t => Array.isArray(_t) ? _t : null)(t("screens.s2.nodes", { returnObjects: true }))) || [
     { emoji: "🔥", label: "Anger surfaces" },
     { emoji: "😔", label: "Shame: \"I'm bad\"" },
     { emoji: "🤐", label: "Shame gets buried" },
@@ -45,7 +45,7 @@ function AngerShameCycleInner() {
     "text-red-500 bg-red-50/50 border-red-100"
   ];
 
-  const stepsData = (t("screens.s4.steps", { returnObjects: true }) as any[]) || [
+  const stepsData = ((_t => Array.isArray(_t) ? _t : null)(t("screens.s4.steps", { returnObjects: true }))) || [
     { title: "Name the source", desc: "Ask: 'What am I actually feeling?' Hurt? Scared? Unseen? Naming it weakens it." },
     { title: "Compassion pause", desc: "Hand on chest. Say: 'This is hard. I'm human. I can get through this.'" },
     { title: "Repair with grace", desc: "Make amends if needed — but don't spiral. You're not your worst moment." }

@@ -22,14 +22,14 @@ interface Reflection {
 
 function ContinuingBondsInner() {
   const { t } = useTranslation(undefined, { i18n });
-  const CONNECTION_OPTIONS = (t("connection_options", { returnObjects: true }) as any[]) || [
+  const CONNECTION_OPTIONS = ((_t => Array.isArray(_t) ? _t : null)(t("connection_options", { returnObjects: true }))) || [
     { label: "Through memories", prompt: "Can you share a memory where you feel their presence?" },
     { label: "In the things I say or do", prompt: "What part of them do you carry in your daily life?" },
     { label: "In moments of my daily life", prompt: "When do you feel them close during your day?" },
     { label: "In what I still want to tell them", prompt: "Is there something you still want to say to them?" },
     { label: "In a feeling or presence", prompt: "How does their presence still show up for you?" }
   ];
-  const BOND_PROMPTS = (t("bond_prompts", { returnObjects: true }) as string[]) || [
+  const BOND_PROMPTS = ((_t => Array.isArray(_t) ? _t : null)(t("bond_prompts", { returnObjects: true }))) || [
     "What is one small way you feel connected to them today?",
     "What's something you do that carries a part of them?"
   ];
@@ -147,7 +147,7 @@ function ContinuingBondsInner() {
     );
   }
 
-  const titles: Record<string, string> = (t("screen_titles", { returnObjects: true }) as any) || {
+  const titles: Record<string, string> = ((_t => (typeof _t === 'object' && _t !== null && !Array.isArray(_t)) ? _t : null)(t("screen_titles", { returnObjects: true }))) || {
     welcome: "Welcome",
     choose: "Connection",
     bond: "Action",

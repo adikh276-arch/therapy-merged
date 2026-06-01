@@ -57,7 +57,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
         </motion.div>
 
         {/* Benefits */}
-        {benefits && benefits.length > 0 && (
+        {Array.isArray(benefits) && benefits.length > 0 && (
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}

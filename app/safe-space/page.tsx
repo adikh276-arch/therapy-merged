@@ -43,7 +43,7 @@ const breathe = {
 function Screen1({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
   const [feeling, setFeeling] = useState("");
-  const description = (t("s1.description", { returnObjects: true }) as string[]) || [
+  const description = ((_t => Array.isArray(_t) ? _t : null)(t("s1.description", { returnObjects: true }))) || [
     "To begin, take a moment to notice where you are carrying tension or stress.",
     "Acknowledge whatever you are feeling right now — anxiety, restlessness, fatigue, or numbness. There is no wrong way to be."
   ];
@@ -88,7 +88,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 
 function Screen2({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
-  const description = (t("s2.description", { returnObjects: true }) as string[]) || [
+  const description = ((_t => Array.isArray(_t) ? _t : null)(t("s2.description", { returnObjects: true }))) || [
     "Close your eyes if you feel safe to do so, or soften your gaze.",
     "Imagine a place where you feel completely secure, calm, and protected.",
     "This could be a beach, a quiet forest room, a warm blanket, or a childhood memory."
@@ -127,7 +127,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
 
 function Screen3({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
-  const description = (t("s3.description", { returnObjects: true }) as string[]) || [
+  const description = ((_t => Array.isArray(_t) ? _t : null)(t("s3.description", { returnObjects: true }))) || [
     "Now look around this safe space. Notice the details.",
     "What colors do you see? What objects are present? Let your mind explore the layout.",
     "Take a slow breath as you anchor yourself in these details."
@@ -166,7 +166,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
 
 function Screen4({ onContinue }: { onContinue: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
-  const description = (t("s4.description", { returnObjects: true }) as string[]) || [
+  const description = ((_t => Array.isArray(_t) ? _t : null)(t("s4.description", { returnObjects: true }))) || [
     "What sounds are in your space? Is there soft wind, crackling fire, or silence?",
     "Notice the physical sensations. The warm sun on your skin, or the soft ground beneath you.",
     "Follow the breathing circle. Breathe in as it expands, out as it shrinks."
@@ -219,7 +219,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
 function Screen5({ onDone }: { onDone: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
   const [reflection, setReflection] = useState("");
-  const description = (t("s5.description", { returnObjects: true }) as string[]) || [
+  const description = ((_t => Array.isArray(_t) ? _t : null)(t("s5.description", { returnObjects: true }))) || [
     "As we finish, check in with your body one more time.",
     "Notice if any tension has softened, or if your breathing feels a bit steadier."
   ];
@@ -290,7 +290,7 @@ function SafePlaceVisualizationInner() {
     );
   }
 
-  const titles = (t("nav", { returnObjects: true }) as string[]) || [
+  const titles = ((_t => Array.isArray(_t) ? _t : null)(t("nav", { returnObjects: true }))) || [
     "Notice Feeling",
     "Find Your Space",
     "What You See",

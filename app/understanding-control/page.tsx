@@ -21,7 +21,7 @@ function UnderstandingControlInner() {
     }
   }, []);
 
-  const screens_data = (t("screens", { returnObjects: true }) as any[]) || [
+  const screens_data = ((_t => Array.isArray(_t) ? _t : null)(t("screens", { returnObjects: true }))) || [
     {
       headline: "Why Control Can Feel So Powerful",
       paragraphs: [

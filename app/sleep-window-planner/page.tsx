@@ -344,12 +344,12 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
     setConfettiTrigger(t => t + 1);
   };
 
-  const tips = (t("screen3.accordion1.tips", { returnObjects: true }) as any[]) || [
+  const tips = ((_t => Array.isArray(_t) ? _t : null)(t("screen3.accordion1.tips", { returnObjects: true }))) || [
     { emoji: "📵", text: "Wind down 30 mins before your bedtime" },
     { emoji: "⏰", text: "Same wake time every day — yes, weekends too" },
     { emoji: "🚫", text: "Avoid naps longer than 20 mins after 3pm" }
   ];
-  const commitments = (t("screen3.accordion2.commitments", { returnObjects: true }) as any[]) || [
+  const commitments = ((_t => Array.isArray(_t) ? _t : null)(t("screen3.accordion2.commitments", { returnObjects: true }))) || [
     { emoji: "📵", text: "Put my phone away before bed" },
     { emoji: "🛁", text: "Start a wind-down routine" },
     { emoji: "💡", text: "Dim the lights an hour before bed" },
@@ -532,7 +532,7 @@ function SleepWindowInner() {
   const bedStr = formatTime(bed.hour, bed.minute, bed.amPm);
   const wakeStr = formatTime(wakeHour, wakeMinute, wakeAmPm);
 
-  const pillLabels = (t("pill_labels", { returnObjects: true }) as string[]) || [
+  const pillLabels = ((_t => Array.isArray(_t) ? _t : null)(t("pill_labels", { returnObjects: true }))) || [
     "Build your window",
     "Set your times",
     "Your sleep window"

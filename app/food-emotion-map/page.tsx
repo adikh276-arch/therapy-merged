@@ -176,19 +176,19 @@ function FoodEmotionMapInner() {
     setTextReady(false);
   };
 
-  const EMOTIONS = (t("emotions_list", { returnObjects: true }) as string[]) || [
+  const EMOTIONS = ((_t => Array.isArray(_t) ? _t : null)(t("emotions_list", { returnObjects: true }))) || [
     "😰 Stress", "😢 Sadness", "😶 Boredom", "😟 Anxiety", "🥺 Loneliness", "💭 Something else…"
   ];
-  const FOOD_RESPONSES = (t("food_responses", { returnObjects: true }) as string[]) || [
+  const FOOD_RESPONSES = ((_t => Array.isArray(_t) ? _t : null)(t("food_responses", { returnObjects: true }))) || [
     "🍽️ I eat more", "🚫 I eat less", "🍫 I crave specific foods", "😣 I avoid food", "😐 No real change"
   ];
-  const BODY_SENSATIONS = (t("body_sensations", { returnObjects: true }) as string[]) || [
+  const BODY_SENSATIONS = ((_t => Array.isArray(_t) ? _t : null)(t("body_sensations", { returnObjects: true }))) || [
     "💔 Tight chest", "🪨 Heavy feeling", "🦵 Restless / fidgety", "🔋 Low energy", "🌀 Knots in stomach", "❓ Something else…"
   ];
-  const SUPPORT_OPTIONS = (t("support_options", { returnObjects: true }) as string[]) || [
+  const SUPPORT_OPTIONS = ((_t => Array.isArray(_t) ? _t : null)(t("support_options", { returnObjects: true }))) || [
     "🗣️ Talk to someone", "☕ Take a break", "📝 Journal", "🌬️ Breathe", "🎧 Distract myself"
   ];
-  const SUPPORT_RESPONSES: Record<string, { title: string; body: string }> = (t("support_responses", { returnObjects: true }) as any) || {
+  const SUPPORT_RESPONSES: Record<string, { title: string; body: string }> = ((_t => (typeof _t === 'object' && _t !== null && !Array.isArray(_t)) ? _t : null)(t("support_responses", { returnObjects: true }))) || {
     "🗣️ Talk to someone": { title: "Reach out 💛", body: "Sometimes sharing lightens things a bit. Maybe a simple 'hey, can we talk?'" },
     "☕ Take a break": { title: "Pause 💛", body: "A small pause can help reset things. Maybe step away and take a few slow breaths." },
     "📝 Journal": { title: "Write it out 💛", body: "You could start with 'right now I feel…' and just let it flow." },
@@ -196,7 +196,7 @@ function FoodEmotionMapInner() {
     "🎧 Distract myself": { title: "Gentle shift 💛", body: "A gentle distraction can shift the moment… maybe something light or easy." }
   };
 
-  const screenTitles = (t("screen_titles", { returnObjects: true }) as string[]) || [
+  const screenTitles = ((_t => Array.isArray(_t) ? _t : null)(t("screen_titles", { returnObjects: true }))) || [
     "Welcome", "Food Patterns", "Internal Dialogue", "Physical Sensing", "The Map", "Gentle Support", "Final Look", "Complete"
   ];
 
