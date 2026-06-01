@@ -15,18 +15,44 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Disable Next.js telemetry during build
+# Declare build-time secrets needed by Next.js build
+ARG DATABASE_URL
+ARG AZURE_TRANSLATOR_KEY
+ARG AZURE_TRANSLATOR_REGION
+ARG GOOGLE_TRANSLATOR_KEY
+ARG AUTH_PORTAL_URL
+
+# Make them available as env vars during `npm run build`
+ENV DATABASE_URL=$DATABASE_URL
+ENV AZURE_TRANSLATOR_KEY=$AZURE_TRANSLATOR_KEY
+ENV AZURE_TRANSLATOR_REGION=$AZURE_TRANSLATOR_REGION
+ENV GOOGLE_TRANSLATOR_KEY=$GOOGLE_TRANSLATOR_KEY
+ENV VITE_AUTH_PORTAL_URL=$AUTH_PORTAL_URL
 ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN npm run build
 
-# Production image, copy all the files and run next
+# Production image — copy build output and run
 FROM base AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
-# Disable Next.js telemetry during runtime
 ENV NEXT_TELEMETRY_DISABLED=1
+
+# Re-declare ARGs so they are accessible in this stage
+ARG DATABASE_URL
+ARG AZURE_TRANSLATOR_KEY
+ARG AZURE_TRANSLATOR_REGION
+ARG GOOGLE_TRANSLATOR_KEY
+ARG AUTH_PORTAL_URL
+
+# Bake secrets into the runtime image as ENV variables
+# This is what actually makes them available when `node server.js` runs
+ENV DATABASE_URL=$DATABASE_URL
+ENV AZURE_TRANSLATOR_KEY=$AZURE_TRANSLATOR_KEY
+ENV AZURE_TRANSLATOR_REGION=$AZURE_TRANSLATOR_REGION
+ENV GOOGLE_TRANSLATOR_KEY=$GOOGLE_TRANSLATOR_KEY
+ENV VITE_AUTH_PORTAL_URL=$AUTH_PORTAL_URL
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
