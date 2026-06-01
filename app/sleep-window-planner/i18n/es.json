@@ -1,0 +1,147 @@
+{
+  "app_title": "Planificador de Ventana de Sueño",
+  "pill_labels": [
+    "Construye tu ventana",
+    "Marca tus tiempos",
+    "Tu ventana de sueño"
+  ],
+  "screen1": {
+    "title": "Tu ventana de sueño importa más de lo que crees",
+    "p1": "Una ventana de sueño es el tiempo fijo entre que te acuestas y te despiertas. Mantener la regularidad —incluso los fines de semana— es una de las cosas más poderosas que puedes hacer para dormir.",
+    "p2": "Esta herramienta te ayuda a construir el tuyo en menos de 2 minutos.",
+    "insight": "Incluso una diferencia de una hora en el horario de sueño los fines de semana puede alterar cómo te sientes durante toda la semana.",
+    "meta": "Sencillo. Personal. Efectivo.",
+    "button": "Vamos a construir el mío →"
+  },
+  "screen2": {
+    "title": "Vamos a poner tu ventana de sueño",
+    "step1": {
+      "title": "PASO 1 — HORA DE DESPERTARSE",
+      "desc": "¿A qué hora necesitas despertarte la mayoría de los días?"
+    },
+    "step2": {
+      "title": "PASO 2 — DURACIÓN DEL SUEÑO",
+      "desc": "¿Cuántas horas de sueño quieres?"
+    },
+    "live_window": {
+      "bedtime": "Hora de dormir",
+      "waketime": "Hora de vigilia",
+      "duration": "{{hours}} horas de sueño"
+    },
+    "italic": "La mayoría de los adultos necesitan entre 7 y 9 horas. Elige lo que te parezca correcto.",
+    "button": "¿Mira mi ventana de sueño →"
+  },
+  "screen3": {
+    "title": "Tu ventana 🌙 de sueño",
+    "result": {
+      "bedtime": "Hora de dormir",
+      "waketime": "Hora de vigilia",
+      "duration": "Duración",
+      "hours": "{{hours}} horas"
+    },
+    "accordion1": {
+      "title": "3 formas de protegerlo",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Relájate 30 minutos antes de la hora de dormir"
+        },
+        {
+          "emoji": "⏰",
+          "text": "La misma hora de vigilia todos los días — sí, también los fines de semana"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Evita las siestas de más de 20 minutos después de las 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Comprométete a una cosa esta noche",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Guardo el móvil antes de dormir"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Empieza una rutina de desconectar"
+        },
+        {
+          "emoji": "💡",
+          "text": "Baja las luces una hora antes de acostarte"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Terminar mi lista de tareas antes"
+        }
+      ]
+    },
+    "quote": "La constancia es más poderosa que la perfección. Una buena noche se construye a la siguiente.",
+    "button": "Guarda mi ventana de sueño ✓",
+    "saved_button": "✓ ¡Ventana de sueño salvada!",
+    "adjust_times": "Ajustar los tiempos"
+  },
+  "complete": {
+    "title": "Ventana creada",
+    "message": "Tu ventana ideal para dormir ya está planificada. La constancia es la clave para un descanso profundo y reparador."
+  },
+  "toasts": {
+    "save_success": "Ventana de sueño guardada",
+    "save_error": "No se pudo guardar la ventana de sueño",
+    "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
+    "saving": "Guardando..."
+  },
+  "common": {
+    "get_started": "Comenzar",
+    "start_over": "Volver a empezar",
+    "finish_exit": "Finalizar y salir",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Tiempo para completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar",
+    "step_of": "Paso {{current}} de {{total}}",
+    "round_of": "Ronda {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondas",
+    "instruction_ready": "Configura tus rondas y toca play para comenzar",
+    "instruction_running": "Sigue el círculo para regular tu respiración"
+  },
+  "app_description": "Planificador de ventanas de sueño",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "¡Ups! Página no encontrada",
+  "return_to_home": "Regresar a la página principal",
+  "phase_label": "Fase",
+  "instruction_ready": "Configura tus rondas y toca play para comenzar",
+  "instruction_running": "Sigue el círculo para regular tu respiración",
+  "round_x_of_y": "Ronda {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rondas",
+  "yes": "Sí",
+  "no": "No",
+  "date": "Fecha",
+  "continue": "Continuar"
+}

@@ -1,0 +1,81 @@
+{
+  "app_title": "Proč se mozek zasekne",
+  "app_subtitle": "Logika přežití • {{step}}/{{total}}",
+  "s1": {
+    "title": "Tvůj mozek se nezlomil. Přizpůsobila se.",
+    "description": "Po traumatu se mozek přeprogramuje, aby tě chránil. Naučil se, že svět může být nebezpečný, a tak zůstal připravený. To není chyba. To je přežití.",
+    "quote": "\"PTSD není znamením, že je s tebou něco špatně. Je to znamení, že se ti něco stalo.\"",
+    "button": "Řekni mi víc"
+  },
+  "s2": {
+    "tag": "jemné pravdy",
+    "title": "Logika přežití mozku",
+    "truths": [
+      {
+        "header": "Budík zůstal zapnutý",
+        "body": "Hypervigilance a vyděšení nejsou snadno přehnané reakce — poplašný systém mozku plní svou práci příliš dobře."
+      },
+      {
+        "header": "Flashbacky jsou vzpomínky",
+        "body": "Spouštěče vám vrátí mozek, protože nikdy nedostal signál, že hrozba skončila. Snaží se tě chránit."
+      },
+      {
+        "header": "Bojovat za tebe",
+        "body": "Každý příznak byl kdysi aktem přežití. Tvůj mozek dělal, co musel, aby tě udržel naživu."
+      }
+    ],
+    "healing": "Uzdravování není o zapomínání. Jde o to pomoci mozku naučit se, že jste teď v bezpečí."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Logika přežití • {{step}}/{{total}}",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

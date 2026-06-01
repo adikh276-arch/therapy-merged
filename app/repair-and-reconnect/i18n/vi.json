@@ -1,0 +1,292 @@
+{
+  "app_title": "Sửa chữa & Kết nối lại",
+  "steps": {
+    "welcome": "Chào mừng",
+    "choose_person": "Chọn người",
+    "choose_approach": "Chọn cách tiếp cận",
+    "guided_action": "Hành động có hướng dẫn",
+    "complete": "Hoàn thành"
+  },
+  "intro": {
+    "title": "Sửa chữa & Kết nối lại",
+    "description": "Sự tức giận có thể tạo ra khoảng cách giữa chúng ta và những người chúng ta quan tâm. Nhưng những bước nhỏ, nhẹ nhàng có thể giúp xây dựng lại kết nối đó.",
+    "quote": "\"Sửa chữa không có nghĩa là bạn đã sai - nó có nghĩa là bạn đủ quan tâm để thử.\"",
+    "small_efforts": "Ngay cả những nỗ lực nhỏ cũng có thể tạo ra sự khác biệt.",
+    "button": "Bắt đầu →"
+  },
+  "choose_person": {
+    "title": "Bạn muốn kết nối lại với ai?",
+    "desc": "Suy nghĩ về một mối quan hệ cụ thể giúp làm cho các bước cảm thấy thật.",
+    "options": {
+      "friend": "Một người bạn",
+      "family": "Một thành viên trong gia đình",
+      "colleague": "Một đồng nghiệp",
+      "other": "Người khác"
+    },
+    "button": "Tiếp tục →"
+  },
+  "choose_approach": {
+    "title": "Điều gì cảm thấy phù hợp với bạn?",
+    "desc": "Chọn một bước nhỏ cảm thấy có thể thực hiện được.",
+    "safety": "Bạn không cần phải sửa mọi thứ—chỉ cần chọn một bước nhỏ.",
+    "button": "Hãy thử điều này →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Gửi check-in thông thường",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Thừa nhận sự căng thẳng",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Cho nhau một số không gian",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Hãy để nó đi và tiếp tục",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Chỉ cần suy ngẫm về nó",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Gửi một thông điệp ấm áp",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Kể tên những gì đã xảy ra một cách trung thực",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Cam kết tạm dừng vào lần sau",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Chọn hòa bình thay vì đúng",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Suy ngẫm về những gì bạn thực sự cần",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Gửi ghi chú chuyên nghiệp",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Giải quyết nó một cách tôn trọng",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Lên kế hoạch phản hồi bình tĩnh hơn vào lần sau",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Giữ cho nó chuyên nghiệp và tiếp tục",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Suy nghĩ về ranh giới",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Liên hệ với một tin nhắn đơn giản",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Thừa nhận những gì đã xảy ra",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Hãy tạm dừng vào lần sau",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Hãy để nó đi ngay bây giờ",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Chỉ cần suy ngẫm (chưa có hành động)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Nhấn để xem cách thực hiện ✨",
+    "copy_button": "📋 Sao chép tin nhắn",
+    "done_button": "Tôi đã hoàn thành →",
+    "safety_line_default": "Bạn không cần phải gửi bất cứ thứ gì ngay bây giờ. 💛",
+    "safety_line_pause": "Hãy dành thời gian của bạn—không cần vội vàng. 💛",
+    "safety_line_reflect": "Điều này chỉ dành cho bạn - không ai khác cần phải nhìn thấy điều này. 💛",
+    "actions": {
+      "message": {
+        "title": "Gửi một tin nhắn đơn giản",
+        "why": "Một tin nhắn đơn giản có thể phá vỡ sự im lặng và cho người khác thấy bạn vẫn quan tâm.",
+        "insight": "Việc tìm đến—ngay cả một cách không hoàn hảo—hầu như luôn luôn được đón nhận tốt hơn chúng ta mong đợi.",
+        "howTitle": "Bắt đầu nhỏ",
+        "howBody": "Bạn không cần phải viết một bài luận. Một vài lời trung thực có thể mở ra cánh cửa để kết nối lại.",
+        "prompts": [
+          "Này, tôi đã nghĩ về bạn. Hy vọng bạn vẫn ổn.",
+          "Tôi biết mọi thứ rất căng thẳng - chỉ muốn nói rằng tôi quan tâm.",
+          "Tôi xin lỗi về trước đó. Chúng ta có thể nói chuyện khi bạn đã sẵn sàng không?"
+        ],
+        "promptLabel": "Chọn điểm bắt đầu:",
+        "editLabel": "Biến nó thành của bạn:"
+      },
+      "acknowledge": {
+        "title": "Thừa nhận những gì đã xảy ra",
+        "why": "Thừa nhận những gì đã xảy ra cho thấy sự trưởng thành và giúp người khác cảm thấy được nhìn thấy.",
+        "insight": "Mọi người không cần bạn trở nên hoàn hảo – họ cần biết bạn đã nhận thấy.",
+        "howTitle": "Đặt tên nhẹ nhàng",
+        "howBody": "Bạn có thể thừa nhận mà không nhận tất cả trách nhiệm. Chỉ cần kể tên những gì đã xảy ra một cách trung thực.",
+        "prompts": [
+          "Tôi biết mọi thứ trở nên nóng bỏng giữa chúng tôi. Tôi muốn bạn biết tôi đã nhận thấy.",
+          "Tôi nhận ra rằng tôi có thể đã gặp phải một cách khắc nghiệt. Đó không phải là ý định của tôi.",
+          "Tôi đã suy ngẫm về những gì đã xảy ra, và tôi ước mình đã xử lý nó theo cách khác."
+        ],
+        "promptLabel": "Chọn điểm bắt đầu:",
+        "editLabel": "Biến nó thành của bạn:"
+      },
+      "pause": {
+        "title": "Hãy tạm dừng vào lần sau",
+        "why": "Cam kết tạm dừng cho bạn không gian để phản hồi thay vì phản ứng.",
+        "insight": "Khoảng dừng 6 giây thường đủ để chuyển từ phản ứng sang phản ánh.",
+        "howTitle": "🧘 Lập kế hoạch tạm dừng",
+        "howBody": "Hãy nghĩ về một tín hiệu đơn giản - như hít thở hoặc bước ra xa một thời gian ngắn - trước khi trả lời.",
+        "prompts": [
+          "Lần tới khi tôi cảm thấy khó chịu, tôi sẽ hít một hơi thật sâu trước khi trả lời.",
+          "Tôi sẽ cố gắng nói 'Hãy cho tôi một chút thời gian' thay vì phản ứng ngay lập tức.",
+          "Tôi sẽ bước ra ngoài vài phút để thu thập suy nghĩ của mình."
+        ],
+        "promptLabel": "Chọn một cam kết phù hợp:",
+        "editLabel": "Viết ý định của riêng bạn:"
+      },
+      "letgo": {
+        "title": "Hãy để nó đi ngay bây giờ",
+        "why": "Đôi khi điều tử tế nhất bạn có thể làm là giải tỏa sức nặng của tình huống.",
+        "insight": "Buông bỏ không phải là bỏ cuộc - đó là chọn hòa bình thay vì đúng.",
+        "howTitle": "🕊️ Thả nhẹ nhàng",
+        "howBody": "Bạn không cần phải quên. Chỉ cần quyết định rằng điều này không cần phải kiểm soát cảm giác của bạn nữa.",
+        "prompts": [
+          "Tôi chọn để điều này qua đi - không phải vì nó không quan trọng, mà vì sự bình an của tôi quan trọng hơn.",
+          "Tôi giải phóng nhu cầu phải đúng về điều này. Tôi chọn kết nối.",
+          "Tình huống này không xác định mối quan hệ của chúng ta. Tôi đang tiến về phía trước."
+        ],
+        "promptLabel": "Chọn những gì gây được tiếng vang:",
+        "editLabel": "Viết điều cảm thấy đúng đối với em:"
+      },
+      "reflect": {
+        "title": "Chỉ cần suy ngẫm",
+        "why": "Suy ngẫm xây dựng nhận thức về bản thân, đó là nền tảng của mọi mối quan hệ lành mạnh.",
+        "insight": "Viết nhật ký hoặc thậm chí suy nghĩ về những gì đã xảy ra giúp bạn xử lý cảm xúc mà không bị áp lực.",
+        "howTitle": "🔍 Nhìn vào bên trong",
+        "howBody": "Hãy tự hỏi bản thân: Tôi thực sự cảm thấy gì bên dưới sự tức giận? Thường thì đó là tổn thương, sợ hãi hoặc thất vọng.",
+        "prompts": [
+          "Bên dưới sự tức giận của mình, tôi nghĩ rằng tôi đang cảm thấy bị tổn thương.",
+          "Tôi nhận ra rằng tôi đã phản ứng vì sợ không được lắng nghe.",
+          "Điều tôi thực sự cần là cảm thấy được tôn trọng và có giá trị."
+        ],
+        "promptLabel": "Chọn những gì gây được tiếng vang:",
+        "editLabel": "Viết suy ngẫm của riêng bạn:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Kết nối được sửa chữa",
+    "message": "Bạn đã thực hiện một bước dũng cảm để sửa chữa kết nối của mình với {{person}}. Những hành động nhỏ, có chủ đích xây dựng những cây cầu lâu dài.",
+    "default_person": "một người quan trọng"
+  },
+  "toasts": {
+    "save_success": "Tiến độ sửa chữa được bảo toàn",
+    "save_error": "Không giữ được phản xạ",
+    "copy_success": "Tin nhắn đã được sao chép!",
+    "preserving": "Bảo quản...",
+    "complete_button": "Hoàn thành & Lưu"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sửa chữa và kết nối lại",
+  "that_s_a_step_forward": "Đó là một bước tiến",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Bạn đã thực hiện một bước nhỏ hướng tới việc sửa chữa—và điều đó rất quan trọng.",
+  "try_with_someone_else": "Hãy thử với người khác xem sao.",
+  "done": "Hoàn tất ✔",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

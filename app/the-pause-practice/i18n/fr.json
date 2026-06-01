@@ -1,0 +1,125 @@
+{
+  "app_title": "Pratique de pause",
+  "app_subtitle": "Maîtriser l’espace entre",
+  "intro": {
+    "title": "La pause de 5 secondes",
+    "description": "Un petit silence entre le ressenti et la réaction peut tout changer.",
+    "duration": "Ça prend moins de 15 secondes. Vraiment.",
+    "button": "Essaie-le →"
+  },
+  "scenario": {
+    "title": "Qu’est-ce qui te déclenche ?",
+    "desc": "Choisissez une situation à laquelle vous vous identifiez",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Quelqu’un m’interrompt",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Les choses ne se passent pas comme prévu",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Je me sens ignoré",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Je me sens dépassé",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Tape ta propre image...",
+    "button": "Pause de →"
+  },
+  "hold": {
+    "title": "Tenir en pause ⏸️",
+    "instructions": "Maintenez le cercle pendant 5 secondes",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Appuie et tiens bon..."
+      },
+      {
+        "at": "0.15",
+        "text": "Tiens bon..."
+      },
+      {
+        "at": "0.5",
+        "text": "Tu le fais..."
+      },
+      {
+        "at": "0.8",
+        "text": "Presque arrivé..."
+      }
+    ]
+  },
+  "result": {
+    "title": "C’est la pause",
+    "message": "Tu as juste créé un espace entre ce que tu ressentais et ta façon de réagir. Même une petite pause vous aide à retrouver votre centre.",
+    "tip_label": "Conseil de pro",
+    "scenario_messages": {
+      "interrupts": "La prochaine fois que quelqu’un vous interrompt, essayez ceci avant de répondre.",
+      "plans": "La prochaine fois que les choses ne se passent pas comme prévu, essayez cela avant de réagir.",
+      "ignored": "La prochaine fois que vous vous sentez ignoré, essayez ceci avant de répondre.",
+      "overwhelmed": "La prochaine fois que vous vous sentez dépassé, essayez cela avant de faire quoi que ce soit.",
+      "other": "La prochaine fois que vous vous sentirez déclenché, essayez ceci avant de réagir."
+    },
+    "italic": "Ce ne sera pas toujours facile — mais la régularité est essentielle."
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Maîtriser l'espace entre",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

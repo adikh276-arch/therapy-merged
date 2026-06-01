@@ -1,0 +1,145 @@
+{
+  "app_title": "Hula kumpara sa Katotohanan",
+  "step_label": "Hakbang {{current}} ng 8",
+  "intro": {
+    "title": "Hula kumpara sa Katotohanan",
+    "description": "Ihambing ang iyong mga hula sa kung ano ang aktwal na mangyayari upang makabuo ng isang mas balanseng pananaw.",
+    "benefits": [
+      "Tukuyin ang mga pattern ng pagkabalisa",
+      "Kolektahin ang ebidensya laban sa takot",
+      "Bawasan ang labis na pag-iisip sa hinaharap"
+    ],
+    "duration": "4-5 minuto",
+    "view_past": "Tingnan ang Mga Nakaraang Pagninilay"
+  },
+  "history": {
+    "title": "Mga Nakaraang Pagninilay",
+    "no_reflections": "Wala pang mga pagmumuni-muni na nai-save.",
+    "prediction_label": "Hula",
+    "reality_label": "Katotohanan",
+    "reflection_label": "Pagmumuni-muni:"
+  },
+  "complete": {
+    "title": "Kumpleto ang Aktibidad",
+    "saved_title": "Nai-save ang Pagmumuni-muni",
+    "message": "Sa pamamagitan ng pagtingin sa mga katotohanan, tinutulungan mo ang iyong isip na malaman na ang mga bagay ay madalas na mas madaling pamahalaan kaysa sa tila."
+  },
+  "emotions": [
+    "Pagkabalisa",
+    "Kinakabahan",
+    "Natatakot",
+    "Labis na Pagkabigo",
+    "Hindi mapakali"
+  ],
+  "intensity_labels": {
+    "not_intense": "Hindi Matindi",
+    "very_intense": "Napakatindi"
+  },
+  "comparison_options": [
+    "Ito ay naging halos eksakto tulad ng inaasahan ko",
+    "Ang ilang mga bahagi ay tama, ngunit hindi lahat",
+    "Ibang-iba ito sa inaasahan ko",
+    "Ito ay mas madali/mas mahusay kaysa sa naisip ko"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Isipin ang isang kamakailang sitwasyon",
+      "desc": "Alalahanin ang isang sandali kamakailan kung saan nakaramdam ka ng pagkabalisa o hindi sigurado.",
+      "placeholder": "Ilarawan ang sitwasyon ..."
+    },
+    "s2": {
+      "title": "Ano sa palagay mo ang mangyayari?",
+      "desc": "Ano ang inaasahan o kinatatakutan mo sa sandaling iyon?",
+      "placeholder": "Nag-aalala ako na..."
+    },
+    "s3": {
+      "title": "Ano ang naramdaman mo?",
+      "desc": "Piliin ang mga damdamin na naramdaman mo at ang tindi nito."
+    },
+    "s4": {
+      "title": "Ano ang tunay na nangyari?",
+      "desc": "Pagtuunan ng pansin ang mga katotohanan ng tunay na nangyari.",
+      "placeholder": "Sa katotohanan ..."
+    },
+    "s5": {
+      "title": "Tingnan natin ang dalawa",
+      "expectation": "Inaasahan",
+      "reality": "Katotohanan",
+      "question": "Gaano kalapit ang iyong inaasahan?"
+    },
+    "s6": {
+      "title": "Ano ang napansin mo?",
+      "desc": "Ito ba ay kasing sama ng naisip mo?",
+      "placeholder": "Napapansin ko na..."
+    },
+    "s7": {
+      "title": "Sa susunod na pagkakataon",
+      "desc": "Ano ang maaari mong ipaalala sa iyong sarili kung mangyari ito muli?",
+      "placeholder": "E.G., \"Siguro hindi ito magiging masama tulad ng inaakala ko.\""
+    },
+    "s8": {
+      "title": "Isang maliit na paalala",
+      "desc": "Sinusubukan ng iyong isip na ihanda ka—ngunit hindi ito palaging mahuhulaan nang tumpak. Sa tuwing tumitigil ka upang tingnan ang mga katotohanan, bumubuo ka ng katatagan.",
+      "button": "I-save ang Pagmumuni-muni",
+      "discard": "Itapon ang Entry"
+    }
+  },
+  "buttons": {
+    "continue": "Magpatuloy"
+  },
+  "toasts": {
+    "saved": "Nailigtas ang pagmumuni-muni!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Prediksyon vs Realidad",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

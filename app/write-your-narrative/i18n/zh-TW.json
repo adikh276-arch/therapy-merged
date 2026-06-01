@@ -1,0 +1,125 @@
+{
+  "app_title": "你的敘述",
+  "nav": {
+    "entry": "歡迎",
+    "writing": "表達",
+    "landing": "反思",
+    "history": "你的旅程"
+  },
+  "entry": {
+    "title": "讓我們一步一步來。 💛",
+    "description": {
+      "0": "今天你不必把你的故事全部講出來，只要說一小部分就夠了。",
+      "1": "你現在很安全。你可以掌控自己寫什麼，不寫什麼。"
+    },
+    "breath": "開始之前，請先深呼吸。",
+    "button_ready": "我準備好了",
+    "button_history": "過去的敘事",
+    "footer": "你的文字 • 你的節奏 • 你的故事"
+  },
+  "writing": {
+    "title": "寫下你覺得舒服的事✨",
+    "subtitle": "你的言辭，你的節奏",
+    "prompt_label": "需要一個切入點嗎？",
+    "prompts": {
+      "0": {
+        "text": "我印象最深刻的是…",
+        "emoji": "💭"
+      },
+      "1": {
+        "text": "那時，我感覺…",
+        "emoji": "🌊"
+      },
+      "2": {
+        "text": "從那時起，我注意到…",
+        "emoji": "🌱"
+      }
+    },
+    "placeholder": "從這裡開始寫作…",
+    "notice": "沒有固定的方法。就算只寫幾行也行。",
+    "button": "完成寫作"
+  },
+  "landing": {
+    "title": "你做了一件重要的事。",
+    "subtitle": "感謝你為自己挺身而出。",
+    "settle_title": "我們先冷靜一下。",
+    "steps": {
+      "0": "環顧四周，說出你看到的3樣東西。",
+      "1": "慢慢吸氣……再慢慢吐氣。"
+    },
+    "feeling_label": "此刻，我的感受是：",
+    "feeling_placeholder": "一兩句話…",
+    "quote": "“你不必一次性承擔所有事情。等你準備好了，隨時都可以回來。”",
+    "button_save": "保留敘事",
+    "button_preserving": "保存…"
+  },
+  "history": {
+    "title": "你的旅程📝",
+    "subtitle": "過往的敘述與反思",
+    "empty": "您尚未儲存任何條目。請慢慢來，不用急。",
+    "no_writing": "沒有文字保存下來。",
+    "button_back": "返回活動"
+  },
+  "complete": {
+    "title": "敘事得以保存",
+    "message": "你已經踏出了講述自己故事的重要一步。你的視角很重要，你的經驗也是獨一無二的。"
+  },
+  "toasts": {
+    "save_success": "敘事得以保存",
+    "save_error": "未能保留敘事",
+    "auth_error": "身份驗證會話缺失或資料庫未配置"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Your Narrative",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "remove_this": "REMOVE_THIS",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

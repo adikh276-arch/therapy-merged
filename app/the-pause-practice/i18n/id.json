@@ -1,0 +1,125 @@
+{
+  "app_title": "Jeda Latihan",
+  "app_subtitle": "Kuasai spasi antara",
+  "intro": {
+    "title": "Jeda 5 Detik",
+    "description": "Jeda kecil antara perasaan dan bereaksi dapat mengubah segalanya.",
+    "duration": "Membutuhkan waktu kurang dari 15 detik. Sungguh.",
+    "button": "Cobalah →"
+  },
+  "scenario": {
+    "title": "Apa yang memicu Anda?",
+    "desc": "Pilih situasi yang Anda kaitkan",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Seseorang menyela saya",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Hal-hal tidak berjalan sesuai rencana",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Saya merasa diabaikan",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Saya merasa kewalahan",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Ketik Anda sendiri...",
+    "button": "Latihan Jeda →"
+  },
+  "hold": {
+    "title": "Tahan untuk Jeda ⏸️",
+    "instructions": "Tahan lingkaran selama 5 detik",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Tekan dan tahan..."
+      },
+      {
+        "at": "0.15",
+        "text": "Tetap dengan itu..."
+      },
+      {
+        "at": "0.5",
+        "text": "Anda melakukannya..."
+      },
+      {
+        "at": "0.8",
+        "text": "Hampir sampai..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Itulah jeda",
+    "message": "Anda hanya menciptakan ruang antara apa yang Anda rasakan dan bagaimana Anda merespons. Bahkan jeda kecil membantu Anda merebut kembali pusat Anda.",
+    "tip_label": "Pro Tip",
+    "scenario_messages": {
+      "interrupts": "Lain kali seseorang menyela Anda, cobalah ini sebelum menanggapi.",
+      "plans": "Lain kali hal-hal tidak berjalan sesuai rencana, cobalah ini sebelum bereaksi.",
+      "ignored": "Lain kali Anda merasa diabaikan, cobalah ini sebelum menanggapi.",
+      "overwhelmed": "Lain kali Anda merasa kewalahan, cobalah ini sebelum melakukan apa pun.",
+      "other": "Lain kali Anda merasa terpicu, cobalah ini sebelum bereaksi."
+    },
+    "italic": "Tidak akan selalu terasa mudah—tetapi konsistensi adalah kuncinya."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Kuasai ruang di antara",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

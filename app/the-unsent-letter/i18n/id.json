@@ -1,0 +1,102 @@
+{
+  "app_title": "Surat yang Tidak Terkirim",
+  "app_subtitle": "Lepaskan pikiran Anda dengan aman dan pribadi",
+  "intro": {
+    "title": "Surat yang Tidak Terkirim",
+    "description": [
+      "Terkadang, ada hal-hal yang ingin kita katakan – tetapi tidak pernah mendapat kesempatan untuk melakukannya.",
+      "Ini bisa jadi karena terasa tidak aman, waktunya tidak tepat, atau kata-katanya terlalu sulit untuk diungkapkan dengan keras.",
+      "Kegiatan ini memberi Anda ruang pribadi untuk mengungkapkan pemikiran itu ke dalam kata-kata.",
+      "Anda tidak perlu mengirim surat ini. Ini hanya untuk Anda – untuk mengekspresikan, melepaskan, dan memahami perasaan Anda dengan lebih baik."
+    ],
+    "notice": "Tulis dengan bebas. Tidak ada orang lain yang akan melihat ini.",
+    "button": "Mulai Menulis →"
+  },
+  "writing": {
+    "title": "Tuliskan Apa yang Anda Pegang",
+    "desc": "Anda dapat menulis surat kepada pasangan, mantan pasangan, atau bahkan ke hubungan itu sendiri. Tidak ada cara yang benar atau salah untuk melakukan ini.",
+    "prompts": [
+      "Saya merasa ...",
+      "Saya berharap...",
+      "Saya tidak pernah mengatakan ...",
+      "Apa yang menyakitiku ...",
+      "Apa yang saya butuhkan..."
+    ],
+    "placeholder": "Terhormat ____,\nSaya sudah ingin mengatakan...",
+    "notice": "Anda dapat berhenti sejenak dan kembali kapan saja.",
+    "button": "Lanjutkan →"
+  },
+  "reflection": {
+    "title": "Luangkan waktu sejenak dengan ini",
+    "description": [
+      "Anda baru saja mengungkapkan pikiran dan perasaan Anda ke dalam kata-kata - itu membutuhkan keberanian.",
+      "Anda mungkin melihat campuran emosi saat ini, dan itu tidak apa-apa.",
+      "Sebelum Anda melanjutkan, tarik napas dan periksa diri Anda dengan lembut."
+    ],
+    "notice": "Ini untuk penyembuhanmu, bukan untuk dikirim.",
+    "save_button": "Simpan Surat",
+    "finish_button": "Selesai"
+  },
+  "history": {
+    "title": "Surat Sebelumnya",
+    "empty_title": "Anda belum menulis surat apa pun.",
+    "empty_desc": "Huruf Anda akan muncul di sini setelah Anda menyimpannya."
+  },
+  "toasts": {
+    "save_success": "Surat disimpan ke jurnal pribadi Anda",
+    "save_error": "Gagal menyimpan surat",
+    "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ungkapkan pikiran Anda dengan aman dan pribadi.",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,177 @@
+{
+  "app_title": "Guia do Ciclo do Sono",
+  "pill_labels": [
+    "Introdução",
+    "As 4 fases",
+    "A verdade sonolenta",
+    "What about you?"
+  ],
+  "s1": {
+    "title": "Já dormiu 8 horas e ainda assim se sentiu péssimo?",
+    "p1": "Não é sobre <1>quanto tempo< a 1> você dorme.",
+    "p2": "É cerca de <1>onde< 1> no seu ciclo de sono você acorda.",
+    "p3": "Uma coisa muda quando você entende isso — tudo.",
+    "insight": "💡 Seu cérebro fica na verdade mais ativo durante o sono REM do que quando você está totalmente acordado!",
+    "duration": "Leva 3 minutos · dura a vida toda",
+    "button": "Sério? Me conte mais →"
+  },
+  "s2": {
+    "title": "Seu cérebro faz ISSO toda noite 🌀",
+    "desc": "A cada 90 minutos, seu cérebro passa por 4 fases — como uma playlist repetida. Toque em cada um para explorar 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Sono leve",
+        "tag": "1–5 minutos · Facilmente acordado",
+        "body": "Você está cochilando. O corpo começa a relaxar, os músculos podem se contrair. É muito fácil acordar daqui."
+      },
+      {
+        "emoji": "💤",
+        "title": "Estabelecendo-se",
+        "tag": "10–25 minutos · realmente dormindo",
+        "body": "A frequência cardíaca desacelera, a temperatura corporal diminui. Você está dormindo de verdade — a atividade cerebral começa a desacelerar."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Sono ⭐ profundo",
+        "tag": "20–40 minutos · O ouro",
+        "body": "O corpo repara tecido, constrói imunidade. A fase mais restauradora fisicamente — difícil de acordar."
+      },
+      {
+        "emoji": "🌙",
+        "title": "Sono REM",
+        "tag": "10–60 minutos · Modo sonho",
+        "body": "O cérebro vibra com a atividade. As emoções são processadas, as memórias se bloqueiam. Pular isso deixa você confuso."
+      }
+    ],
+    "italic": "O sono profundo conserta seu corpo. O REM conserta sua mente.",
+    "button": "Então por que ainda me sinto sonolento? →"
+  },
+  "s3": {
+    "title": "Acordar no meio do ciclo = modo 🧟 zumbi",
+    "p1": "Arrastado para fora do sono profundo por um alarme? Seu cérebro literalmente não terminou o que estava fazendo. Aquela sensação pesada e enevoada? Isso é <1>inércia do sono</1>.",
+    "wave": {
+      "light": "luz",
+      "deep": "profundo",
+      "groggy": "😫 grogue",
+      "fresh": "😊 fresco",
+      "cycles": [
+        "Ciclo 1",
+        "Ciclo 2",
+        "Ciclo 3"
+      ]
+    },
+    "disruptors_title": "O que atrapalha seus ciclos 👇",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Monitores antes de dormir",
+        "sub": "atrasa o sono profundo"
+      },
+      {
+        "emoji": "☕",
+        "text": "Cafeína tardia",
+        "sub": "reduz o sono profundo em até 20%"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Períodos irregulares de sono",
+        "sub": "quebra seu ritmo natural"
+      },
+      {
+        "emoji": "😰",
+        "text": "Estresse e ansiedade",
+        "sub": "te mantém preso em um sono leve"
+      }
+    ],
+    "italic": "Seus hábitos moldam diretamente quais estágios você alcança.",
+    "button": "O que isso significa para mim? →"
+  },
+  "s4": {
+    "title": "Qual deles parece com você? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Acordo fisicamente exausta",
+        "sub": "Provavelmente faltando sono profundo",
+        "tip": "Foque em um horário consistente de sono e vigília — seu corpo precisa de um ritmo regular para alcançar o sono profundo."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Me sinto emocionalmente confuso ou para baixo",
+        "sub": "provavelmente sem dormir REM",
+        "tip": "Tente relaxar 30 minutos antes de dormir — uma rotina calma antes de dormir protege seu sono REM."
+      },
+      {
+        "emoji": "😤",
+        "text": "Acordo muito à noite",
+        "sub": "Os ciclos continuam sendo interrompidos",
+        "tip": "Um ambiente fresco, escuro e silencioso ajuda seu cérebro a permanecer em estágios mais profundos sem interrupções."
+      },
+      {
+        "emoji": "😐",
+        "text": "Me sinto bem, mas não muito bem",
+        "sub": "Ciclos são parciais, mas não completos",
+        "tip": "Tente ir para a cama 20 minutos mais cedo — talvez você precise apenas de mais um ciclo completo de sono."
+      }
+    ],
+    "quote": "Dormir não é apenas descanso — é recuperação ativa. Proteja seus ciclos e as mudanças do seu dia inteiro.",
+    "button": "Feito ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Guia do Ciclo do Sono",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Não se trata de",
+  "it_s_about": "É sobre",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Acordado bruscamente por um alarme? Seu cérebro literalmente não terminou o que estava fazendo. Essa sensação de peso e confusão mental? É isso mesmo.",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

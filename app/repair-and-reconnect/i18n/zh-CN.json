@@ -1,0 +1,292 @@
+{
+  "app_title": "维修与重新连接",
+  "steps": {
+    "welcome": "欢迎",
+    "choose_person": "选择人",
+    "choose_approach": "选择方法",
+    "guided_action": "引导行动",
+    "complete": "完全的"
+  },
+  "intro": {
+    "title": "维修与重新连接",
+    "description": "愤怒会让我们与所爱之人之间产生隔阂。但循序渐进、温和的方式可以帮助重建这种联系。",
+    "quote": "“修复并不意味着你错了——而是意味着你足够在意，愿意尝试。”",
+    "small_efforts": "即使是微小的努力也能产生影响。",
+    "button": "开始 →"
+  },
+  "choose_person": {
+    "title": "你想和谁重新建立联系？",
+    "desc": "思考具体的人际关系有助于让这些步骤感觉更真实。",
+    "options": {
+      "friend": "朋友",
+      "family": "家庭成员",
+      "colleague": "一位同事",
+      "other": "他人"
+    },
+    "button": "继续 →"
+  },
+  "choose_approach": {
+    "title": "你觉得什么才是合适的？",
+    "desc": "选择一个你觉得可行的小步骤。",
+    "safety": "你不必解决所有问题——只需迈出一小步。",
+    "button": "试试这个 →",
+    "approaches": {
+      "friend": {
+        "0": {
+          "id": "信息",
+          "label": "发送一条随意的问候信息",
+          "emoji": "💬"
+        },
+        "1": {
+          "id": "承认",
+          "label": "承认这种紧张关系",
+          "emoji": "🫶"
+        },
+        "2": {
+          "id": "暂停",
+          "label": "给彼此一些空间",
+          "emoji": "⏸️"
+        },
+        "3": {
+          "id": "松手",
+          "label": "放下它，继续前进吧。",
+          "emoji": "🍃"
+        },
+        "4": {
+          "id": "反映",
+          "label": "好好想想吧。",
+          "emoji": "🪞"
+        }
+      },
+      "family": {
+        "0": {
+          "id": "信息",
+          "label": "发送一条温暖的信息",
+          "emoji": "💬"
+        },
+        "1": {
+          "id": "承认",
+          "label": "如实陈述事情经过",
+          "emoji": "🫶"
+        },
+        "2": {
+          "id": "暂停",
+          "label": "下次一定要记得暂停。",
+          "emoji": "⏸️"
+        },
+        "3": {
+          "id": "松手",
+          "label": "选择和平而非坚持己见。",
+          "emoji": "🍃"
+        },
+        "4": {
+          "id": "反映",
+          "label": "认真思考你真正需要什么",
+          "emoji": "🪞"
+        }
+      },
+      "colleague": {
+        "0": {
+          "id": "信息",
+          "label": "发送一份专业便条",
+          "emoji": "💬"
+        },
+        "1": {
+          "id": "承认",
+          "label": "请礼貌地称呼它",
+          "emoji": "🫶"
+        },
+        "2": {
+          "id": "暂停",
+          "label": "下次尽量冷静应对。",
+          "emoji": "⏸️"
+        },
+        "3": {
+          "id": "松手",
+          "label": "保持专业态度，继续前进。",
+          "emoji": "🍃"
+        },
+        "4": {
+          "id": "反映",
+          "label": "思考界限",
+          "emoji": "🪞"
+        }
+      },
+      "other": {
+        "0": {
+          "id": "信息",
+          "label": "用一条简单的信息联系对方",
+          "emoji": "💬"
+        },
+        "1": {
+          "id": "承认",
+          "label": "承认已经发生的事情",
+          "emoji": "🫶"
+        },
+        "2": {
+          "id": "暂停",
+          "label": "下次不妨停下来思考一下。",
+          "emoji": "⏸️"
+        },
+        "3": {
+          "id": "松手",
+          "label": "暂时放下这件事吧",
+          "emoji": "🍃"
+        },
+        "4": {
+          "id": "反映",
+          "label": "只需思考（暂不采取行动）",
+          "emoji": "🪞"
+        }
+      }
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "点击查看详情✨",
+    "copy_button": "📋 复制消息",
+    "done_button": "我完成了 →",
+    "safety_line_default": "你现在不必发送任何东西。💛",
+    "safety_line_pause": "慢慢来，不用着急。💛",
+    "safety_line_reflect": "这是专门给你看的——其他人不需要看到。💛",
+    "actions": {
+      "message": {
+        "title": "发送一条简单消息",
+        "why": "一条简单的信息就能打破沉默，让对方感受到你依然关心他们。",
+        "insight": "即使沟通方式不尽完美，通常也能得到比预期更好的回应。",
+        "howTitle": "从小处着手",
+        "howBody": "你不需要写一篇长篇大论。几句真诚的话语就能打开重新建立联系的大门。",
+        "prompts": {
+          "0": "嘿，我一直在想你。希望你一切都好。",
+          "1": "我知道当时气氛很紧张——只是想说我很关心你。",
+          "2": "很抱歉之前的事。等你准备好了我们再谈好吗？"
+        },
+        "promptLabel": "选择一个起点：",
+        "editLabel": "把它变成你自己的："
+      },
+      "acknowledge": {
+        "title": "承认已经发生的事情",
+        "why": "承认所发生的事情表明了成熟，也能让对方感到被理解。",
+        "insight": "人们不需要你完美——他们需要知道你注意到了他们。",
+        "howTitle": "轻轻地称呼它",
+        "howBody": "你可以承认错误，但不必承担全部责任。只需如实陈述事情经过即可。",
+        "prompts": {
+          "0": "我知道我们之间气氛变得紧张起来。我想让你知道我注意到了。",
+          "1": "我意识到我的语气可能有些生硬，但这并非我的本意。",
+          "2": "我一直在反思发生的事情，我希望当初能以不同的方式处理。"
+        },
+        "promptLabel": "选择一个起点：",
+        "editLabel": "把它变成你自己的："
+      },
+      "pause": {
+        "title": "下次停下来想想",
+        "why": "暂停片刻能让你有空间去回应，而不是做出反应。",
+        "insight": "6秒钟的停顿通常足以使人从反应转变为思考。",
+        "howTitle": "🧘 计划你的暂停",
+        "howBody": "在回应之前，可以考虑一个简单的提示——比如深呼吸或短暂地离开一下。",
+        "prompts": {
+          "0": "下次我感到难过时，我会先深呼吸再回应。",
+          "1": "我会试着说“请稍等片刻”，而不是立即做出反应。",
+          "2": "我离开几分钟，整理一下思绪。"
+        },
+        "promptLabel": "选择一项让你感觉合适的承诺：",
+        "editLabel": "写下你的意愿："
+      },
+      "letgo": {
+        "title": "暂时放下吧",
+        "why": "有时候，最仁慈的做法就是放下这件事带来的压力。",
+        "insight": "放手不是放弃，而是选择和平而不是坚持正确。",
+        "howTitle": "🕊️ 轻轻放开",
+        "howBody": "你不必忘记。你只需要下定决心，不再让这件事左右你的感受。",
+        "prompts": {
+          "0": "我选择放下这件事——不是因为它不重要，而是因为我的内心平静更重要。",
+          "1": "我不再执着于证明自己是对的。我选择与他人联结。",
+          "2": "这件事并不能定义我们的关系。我会继续前进。"
+        },
+        "promptLabel": "选择能引起共鸣的内容：",
+        "editLabel": "写下你内心真实的想法："
+      },
+      "reflect": {
+        "title": "只需反思",
+        "why": "反思能够培养自我意识，而自我意识是所有健康关系的基础。",
+        "insight": "写日记或者仅仅是思考发生的事情都能帮助你无压力地处理情绪。",
+        "howTitle": "🔍 向内看",
+        "howBody": "问问自己：愤怒之下，我真正的感受是什么？通常是受伤、恐惧或失望。",
+        "prompts": {
+          "0": "在我的愤怒之下，我想我感到很受伤。",
+          "1": "我意识到我的反应是出于害怕不被倾听。",
+          "2": "我真正需要的是感受到尊重和重视。"
+        },
+        "promptLabel": "选择能引起共鸣的内容：",
+        "editLabel": "请写下你的感想："
+      }
+    }
+  },
+  "complete": {
+    "title": "连接已修复",
+    "message": "你勇敢地迈出了修复与{{person}}关系的第一步。小小的、用心的行动才能建立持久的桥梁。",
+    "default_person": "重要人物"
+  },
+  "toasts": {
+    "save_success": "修复进度得以保留",
+    "save_error": "未能保留反射",
+    "copy_success": "邮件已抄送！",
+    "preserving": "保存……",
+    "complete_button": "完成并保存"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Repair & Reconnect",
+  "that_s_a_step_forward": "That's a step forward",
+  "you_took_a_small_step_toward_repair_and_that_matte": "You took a small step toward repair—and that matters.",
+  "try_with_someone_else": "Try with someone else",
+  "done": "Done ✔",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

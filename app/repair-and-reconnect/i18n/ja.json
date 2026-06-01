@@ -1,0 +1,292 @@
+{
+  "app_title": "修理と再接続",
+  "steps": {
+    "welcome": "ようこそ",
+    "choose_person": "人を選べ",
+    "choose_approach": "アプローチを選ぶ",
+    "guided_action": "誘導作戦",
+    "complete": "完了"
+  },
+  "intro": {
+    "title": "修理と再接続",
+    "description": "怒りは私たちと大切な人たちの間に距離を生むことがあります。しかし、小さく穏やかな一歩がそのつながりを再構築する助けになります。",
+    "quote": "「修復は君が間違っていたという意味じゃない――努力する気持ちがあるってことだ。」",
+    "small_efforts": "小さな努力でも違いを生み出します。",
+    "button": "始め→"
+  },
+  "choose_person": {
+    "title": "誰と再び繋がりたいですか?",
+    "desc": "特定の関係について考えることで、そのステップが現実味に感じられます。",
+    "options": {
+      "friend": "友人",
+      "family": "家族の一員",
+      "colleague": "同僚",
+      "other": "他の誰か"
+    },
+    "button": "続けて→"
+  },
+  "choose_approach": {
+    "title": "あなたにとって何がしっくりくると思いますか?",
+    "desc": "実行可能だと感じる小さな一歩を一つ選びましょう。",
+    "safety": "すべてを直す必要はありません—ただ一歩だけ選べばいいのです。",
+    "button": "これを試してみてください→",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "気軽にチェックインする",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "緊張感を認めましょう",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "お互いに距離を置きましょう",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "手放して前に進みましょう",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "ただ振り返ってみて",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "温かいメッセージを送ってください",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "正直に何があったのか教えてください",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "次回は必ず一時停止することを約束してください",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "正しいことよりも平和を選ぶ",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "本当に必要なものを振り返ってください",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "専門的な連絡を送ってください",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "丁寧に対応してください",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "次回はもっと落ち着いた対応を計画しましょう",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "プロフェッショナルに振る舞い、前に進みましょう",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "境界線について考えてみてください",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "シンプルなメッセージで連絡を取ってください",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "起こったことを認めろ",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "次は少し立ち止まってください",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "今はやめておこう",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "ただ振り返るだけです(まだ行動なし)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "どうやってか✨はタップしてください",
+    "copy_button": "📋 メッセージをコピー",
+    "done_button": "もう終わり→",
+    "safety_line_default": "今すぐ何も送る必要はありません。💛",
+    "safety_line_pause": "焦らずゆっくり進めてください。急ぐ必要はありません。💛",
+    "safety_line_reflect": "これはあなただけのもので、他の誰にも見せる必要はありません。💛",
+    "actions": {
+      "message": {
+        "title": "シンプルなメッセージを送る",
+        "why": "シンプルなメッセージで沈黙を破り、相手にまだ気にかけていることを示すことができます。",
+        "insight": "たとえ完璧でなくても、手を差し伸べることは、ほとんどの場合、私たちが予想するよりも良く受け入れられます。",
+        "howTitle": "小さく始めましょう",
+        "howBody": "エッセイを書く必要はありません。正直な言葉を少しだけ交わすだけで、再びつながりを深める扉が開けます。",
+        "prompts": [
+          "ねえ、君のことを考えてたんだ。お元気でいることを願っています。",
+          "緊張していたのは分かっていますが、ただ気にかけていると伝えたかっただけです。",
+          "さっきはごめん。準備ができたら話せる?"
+        ],
+        "promptLabel": "出発点を選びましょう:",
+        "editLabel": "あなたのものにしてください:"
+      },
+      "acknowledge": {
+        "title": "起こったことを認めること",
+        "why": "起こったことを認めることは成熟を示し、相手が見られていると感じさせる助けになります。",
+        "insight": "人はあなたが完璧であることを必要としているわけではありません。あなたが気づいたことを知ってほしいのです。",
+        "howTitle": "優しく名前をつけて",
+        "howBody": "すべての責任を負わずに認めることができます。正直に何があったのか教えてください。",
+        "prompts": [
+          "僕たちの間、感情が熱くなったのは分かってる。気づいてたって知ってほしいんだ。",
+          "きつい印象を与えたかもしれません。それは私の意図ではありませんでした。",
+          "起こったことを振り返っていて、違う対応をすればよかったと後悔しています。"
+        ],
+        "promptLabel": "出発点を選びましょう:",
+        "editLabel": "あなたのものにしてください:"
+      },
+      "pause": {
+        "title": "次は一時停止してください",
+        "why": "一時停止を決めることで、反応するのではなく反応する余裕が生まれます。",
+        "insight": "6秒の間を置くだけで、反応から反省へと移ることが多いです。",
+        "howTitle": "🧘 休憩の計画を立てましょう",
+        "howBody": "返事をする前に、息を吸う、あるいは一歩離れるなどの簡単な合図を考えましょう。",
+        "prompts": [
+          "次に落ち込んだときは、返事をする前に深呼吸します。",
+          "すぐに反応するのではなく、『ちょっと待って』と言ってみます。",
+          "少し離れて考えをまとめます。"
+        ],
+        "promptLabel": "自分に合ったコミットメントを選びましょう:",
+        "editLabel": "自分の意図を書きましょう:"
+      },
+      "letgo": {
+        "title": "今はもうやめておこう",
+        "why": "時には、状況の重みを手放すことが一番優しいことです。",
+        "insight": "手放すことは諦めることではなく、正しいことよりも平和を選ぶことです。",
+        "howTitle": "🕊️ ゆっくりと離して",
+        "howBody": "忘れる必要はない。もうこれで自分の気持ちをコントロールする必要はないと決めてください。",
+        "prompts": [
+          "私はこれを手放すことを選びます――重要でなかったからではなく、私の平穏の方が大切だからです。",
+          "私はこの件について正しいと信じる必要を手放します。私はつながりを選ぶ。",
+          "この状況が私たちの関係を定義するわけではありません。前に進むよ。"
+        ],
+        "promptLabel": "共感を呼ぶものを選ぶ:",
+        "editLabel": "自分にとって真実だと感じることを書きましょう:"
+      },
+      "reflect": {
+        "title": "ただ振り返ってみて",
+        "why": "振り返りは自己認識を育み、それがすべての健全な関係の基盤です。",
+        "insight": "日記を書いたり、起こったことを考えたりすることで、プレッシャーを感じずに感情を処理できます。",
+        "howTitle": "🔍 内面を見つめよう",
+        "howBody": "自分に問いかけてみてください:怒りの奥で本当は何を感じていたのか?多くの場合、それは傷つきや恐怖、失望です。",
+        "prompts": [
+          "怒りの奥底で、私は傷ついていたのだと思います。",
+          "自分が反応していたのは、聞いてもらえないことへの恐怖からだったと気づきました。",
+          "本当に必要だったのは、尊重され、価値を感じることでした。"
+        ],
+        "promptLabel": "共感を呼ぶものを選ぶ:",
+        "editLabel": "自分自身の振り返りを書いてください:"
+      }
+    }
+  },
+  "complete": {
+    "title": "関係の修復",
+    "message": "あなたは{{person}}とのつながりを修復するために勇敢な一歩を踏み出しました。小さく意図的な行動が持続的な架け橋を築きます。",
+    "default_person": "重要な人"
+  },
+  "toasts": {
+    "save_success": "修理進捗は維持されています",
+    "save_error": "反射を保存できなかった",
+    "copy_success": "メッセージをコピーしました!",
+    "preserving": "保存...",
+    "complete_button": "コンプリート&セーブ"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "修理と再接続",
+  "that_s_a_step_forward": "それは前進だ",
+  "you_took_a_small_step_toward_repair_and_that_matte": "あなたは修復に向けて小さな一歩を踏み出した。そして、それは重要なことだ。",
+  "try_with_someone_else": "他の人に頼んでみて",
+  "done": "完了✔",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

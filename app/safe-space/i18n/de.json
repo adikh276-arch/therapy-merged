@@ -1,0 +1,114 @@
+{
+  "app_title": "Sicherer Raum",
+  "nav": [
+    "Check-in",
+    "Sanfte Erinnerung",
+    "Beobachtung",
+    "Im Moment bleiben",
+    "Vorwärts"
+  ],
+  "s1": {
+    "title": "Lass uns einen Ort finden, der sich okay anfühlt",
+    "description": [
+      "Bevor wir anfangen, nehmen Sie sich einen Moment Zeit, um nachzufragen...",
+      "Wie fühlst du dich gerade?",
+      "Wir suchen nicht nach einem perfekten \"sicheren Ort\". Einfach etwas, das sich auch nur ein bisschen ruhig oder okay anfühlt."
+    ],
+    "placeholder": "Wie fühlst du dich gerade?",
+    "button": "Beginnen Sie mit der Visualisierung"
+  },
+  "s2": {
+    "title": "Erinnere dich vorsichtig daran",
+    "description": [
+      "Denk an einen Ort, an dem du dich auch nur ein wenig wohl gefühlt hast... Oder einen Ort, von dem du dir wünschst, er gäbe es.",
+      "Jetzt stell dich dort hin...",
+      "Sitzen Sie, stehen oder liegen Sie?"
+    ],
+    "button": "Weitermachen"
+  },
+  "s3": {
+    "title": "Schau dich langsam um",
+    "description": [
+      "Schau dich vorsichtig um...",
+      "Was ist eine Sache, die du sehen kannst?",
+      "Jetzt bemerke ein Geräusch... Was hörst du?"
+    ],
+    "button": "Weitermachen"
+  },
+  "s4": {
+    "title": "Bleib dabei.",
+    "description": [
+      "Was ist es an diesem Ort, das ihn auch nur ein bisschen sicher oder okay fühlen lässt?",
+      "Wie du bemerkst, dass...",
+      "Lenken Sie außerdem Ihre Aufmerksamkeit auf Ihren Atem."
+    ],
+    "breathe": "Atme",
+    "notice": "Wenn sich das Vorstellen schwerfällt, denk einfach an die Idee dieses Ortes.",
+    "button": "Weitermachen"
+  },
+  "s5": {
+    "title": "Nimm das mit dir",
+    "description": [
+      "Achte darauf, wie du dich gerade fühlst. Schon eine kleine Veränderung ist wichtig.",
+      "Schau, ob du auch nur 5 % dieses Gefühls mitnehmen kannst."
+    ],
+    "placeholder": "Wie fühlst du dich jetzt?",
+    "button": "Vollständige Sitzung"
+  },
+  "complete": {
+    "title": "Sitzung abgeschlossen",
+    "message": "Dieser sichere Ort steht Ihnen jederzeit zur Verfügung. Du kannst hierher zurückkehren, wann immer du einen Moment der Ruhe brauchst."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sicherer Raum",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

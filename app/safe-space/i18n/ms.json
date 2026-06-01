@@ -1,0 +1,114 @@
+{
+  "app_title": "Ruang Selamat",
+  "nav": [
+    "Daftar masuk",
+    "Ingat Perlahan-lahan",
+    "Memerhati",
+    "Kekal Hadir",
+    "Mengambil Ke Hadapan"
+  ],
+  "s1": {
+    "title": "Mari cari tempat yang terasa baik-baik saja",
+    "description": [
+      "Sebelum kita mulakan, luangkan sedikit masa untuk mendaftar masuk...",
+      "Bagaimana perasaan anda sekarang?",
+      "Kami tidak mencari \"tempat selamat\" yang sempurna. Hanya sesuatu yang terasa walaupun sedikit tenang atau baik-baik saja."
+    ],
+    "placeholder": "Bagaimana perasaan anda sekarang?",
+    "button": "Mulakan Visualisasi"
+  },
+  "s2": {
+    "title": "Ingatkan dengan lembut",
+    "description": [
+      "Fikirkan tempat di mana anda berasa sedikit selesa... atau tempat yang anda mahu wujud.",
+      "Sekarang letakkan diri anda di sana...",
+      "Adakah anda duduk, berdiri, atau berbaring?"
+    ],
+    "button": "Teruskan"
+  },
+  "s3": {
+    "title": "Lihat sekeliling perlahan-lahan",
+    "description": [
+      "Lihatlah sekeliling dengan lembut...",
+      "Apakah satu perkara yang anda boleh lihat?",
+      "Sekarang perhatikan bunyi... Apa yang anda dengar?"
+    ],
+    "button": "Teruskan"
+  },
+  "s4": {
+    "title": "Kekal dengan ini",
+    "description": [
+      "Apa yang berlaku tentang tempat ini yang membuatkan ia berasa sedikit selamat atau baik-baik saja?",
+      "Seperti yang anda perhatikan bahawa...",
+      "Juga bawa perhatian anda kepada nafas anda."
+    ],
+    "breathe": "bernafas",
+    "notice": "Jika membayangkan terasa sukar, fikirkan sahaja idea tempat ini.",
+    "button": "Teruskan"
+  },
+  "s5": {
+    "title": "Bawa ini bersama anda",
+    "description": [
+      "Perhatikan bagaimana perasaan anda sekarang. Malah peralihan kecil penting.",
+      "Lihat sama ada anda boleh membawa walaupun 5% daripada perasaan ini bersama anda."
+    ],
+    "placeholder": "Bagaimana perasaan anda sekarang?",
+    "button": "Sesi Lengkap"
+  },
+  "complete": {
+    "title": "Sesi Selesai",
+    "message": "Tempat selamat ini sentiasa tersedia untuk anda. Anda boleh kembali ke sini bila-bila masa anda memerlukan seketika tenang."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ruang Selamat",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "app_title": "Tseke sa Pagbabasa ng Isip",
+  "intro": {
+    "title": "Tseke sa Pagbabasa ng Isip",
+    "description": "Tanungin ang mga palagay na ginagawa mo tungkol sa kung ano ang iniisip ng iba.",
+    "benefits": [
+      "Itigil ang pag-aakalang ang pinakamasama",
+      "Tukuyin ang mga may kinikilingan na interpretasyon",
+      "Bumuo ng mas malinaw na komunikasyon"
+    ],
+    "duration": "3-4 minuto",
+    "view_past": "Tingnan ang Mga Nakaraang Pagninilay"
+  },
+  "history": {
+    "title": "Mga Nakaraang Pagninilay",
+    "no_entries": "Wala pang entry",
+    "belief_label": "Paniniwala: {{level}}%",
+    "balanced_thought_label": "Balanseng Pag-iisip"
+  },
+  "complete": {
+    "title": "Kumpleto ang Aktibidad",
+    "great_insights": "Mahusay na Mga Pananaw!",
+    "message": "Sa pamamagitan ng pagtatanong sa iyong mga palagay, bumubuo ka ng isang mas layunin at mahabagin na pag-iisip."
+  },
+  "steps": {
+    "label": "Hakbang {{current}} ng 10",
+    "step1": {
+      "title": "Anong nangyari?",
+      "desc": "Ilarawan ang isang kamakailang sandali kung saan nadama mong hinuhusgahan o hindi ka sigurado.",
+      "placeholder": "Paglalarawan ng sitwasyon ..."
+    },
+    "step2": {
+      "title": "Ano ang tumatakbo sa iyong isipan?",
+      "desc": "Ano ang inakala mong iniisip nila tungkol sa iyo?",
+      "placeholder": "Akala ko nag-iisip sila..."
+    },
+    "step3": {
+      "title": "Pabagalin natin ito",
+      "desc": "Sa ngayon, ang kaisipang ito ay maaaring maging totoo. Ngunit bago natin tanggapin ito bilang isang katotohanan, gumawa tayo ng isang hakbang pabalik at tingnan ito nang mas malapit.",
+      "button": "I-pause at Magpatuloy"
+    },
+    "step4": {
+      "title": "Totoo ba ito?",
+      "desc": "Mayroon bang malinaw na ebidensya (mga katotohanan, hindi mga pagpapalagay) na sumusuporta sa kaisipang ito?",
+      "placeholder": "Ang ebidensya na nakikita ko ay..."
+    },
+    "step5": {
+      "title": "Ano pa ang maaaring mangyari?",
+      "desc": "Ano ang 2-3 iba pang mga posibleng paliwanag?",
+      "placeholder": "Posibilidad {{num}} ..."
+    },
+    "step6": {
+      "title": "Suriin ang iyong paniniwala",
+      "desc": "Gaano kalakas ang paniniwala mo sa orihinal mong kaisipan ngayon?",
+      "labels": [
+        "Hindi sa lahat",
+        "Ganap na"
+      ]
+    },
+    "step7": {
+      "title": "Isang mas balanseng pananaw",
+      "desc": "Sumulat ng isang kaisipan na pakiramdam mas patas at hindi gaanong sigurado.",
+      "placeholder": "Isang mas balanseng pag-iisip ..."
+    },
+    "step8": {
+      "title": "Sa susunod na pagkakataon",
+      "desc": "Ano ang maaari mong gawin sa halip na ipalagay?",
+      "examples": [
+        "Humingi ng paglilinaw",
+        "Bigyan mo siya ng kaunting oras",
+        "Pansinin nang walang reaksyon"
+      ],
+      "placeholder": "Sa susunod, pwede na ako..."
+    },
+    "step9": {
+      "title": "Pansinin ang paglipat",
+      "desc": "Ginalugad mo ang iba't ibang mga posibilidad at lumikha ng puwang para sa isang mas balanseng pananaw.",
+      "original_label": "Orihinal na Pag-iisip",
+      "balanced_label": "Balanseng Pananaw",
+      "button": "Tapusin ang Pagmumuni-muni"
+    },
+    "step10": {
+      "title": "Isang maliit na paglipat",
+      "desc": "Sinusubukan ng iyong isip na punan ang mga kakulangan. Ngunit hindi lahat ng pag-iisip ay isang katotohanan. Ang pag-urong ay tumutulong sa iyo na makita nang malinaw ang mga bagay-bagay.",
+      "button": "Kumpletuhin ang Aktibidad"
+    }
+  },
+  "buttons": {
+    "continue": "Magpatuloy",
+    "restart": "I-restart"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Pagsusuri sa Pagbasa ng Isip",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

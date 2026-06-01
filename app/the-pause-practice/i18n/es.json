@@ -1,0 +1,125 @@
+{
+  "app_title": "Práctica de pausa",
+  "app_subtitle": "Domina el espacio entre",
+  "intro": {
+    "title": "La pausa de 5 segundos",
+    "description": "Una pequeña pausa entre sentir y reaccionar puede cambiarlo todo.",
+    "duration": "Tarda menos de 15 segundos. De verdad.",
+    "button": "Pruébalo →"
+  },
+  "scenario": {
+    "title": "¿Qué te desencadena?",
+    "desc": "Elige una situación con la que te identifiques",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Alguien me interrumpe",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Las cosas no salen como planeaban",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Me siento ignorado",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Me siento abrumado",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Escribe tu propia cosa...",
+    "button": "Pausa de práctica →"
+  },
+  "hold": {
+    "title": "Mantener en pausa ⏸️",
+    "instructions": "Mantén el círculo durante 5 segundos",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Pulsa y mantien..."
+      },
+      {
+        "at": "0.15",
+        "text": "Sigue adelante..."
+      },
+      {
+        "at": "0.5",
+        "text": "Lo estás haciendo..."
+      },
+      {
+        "at": "0.8",
+        "text": "Casi llegamos..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Esa es la pausa",
+    "message": "Simplemente creaste un espacio entre lo que sentías y cómo respondías. Incluso una pequeña pausa te ayuda a recuperar tu centro.",
+    "tip_label": "Consejo profesional",
+    "scenario_messages": {
+      "interrupts": "La próxima vez que alguien te interrumpa, prueba esto antes de responder.",
+      "plans": "La próxima vez que las cosas no salgan como planeas, prueba esto antes de reaccionar.",
+      "ignored": "La próxima vez que te sientas ignorado, prueba esto antes de responder.",
+      "overwhelmed": "La próxima vez que te sientas abrumado, prueba esto antes de hacer nada.",
+      "other": "La próxima vez que te sientas desencadenado, prueba esto antes de reaccionar."
+    },
+    "italic": "No siempre será fácil, pero la constancia es clave."
+  },
+  "common": {
+    "get_started": "Comenzar",
+    "start_over": "Volver a empezar",
+    "finish_exit": "Finalizar y salir",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Tiempo para completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar",
+    "step_of": "Paso {{current}} de {{total}}",
+    "round_of": "Ronda {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondas",
+    "instruction_ready": "Configura tus rondas y toca play para comenzar",
+    "instruction_running": "Sigue el círculo para regular tu respiración"
+  },
+  "app_description": "Domina el espacio entre",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "¡Ups! Página no encontrada",
+  "return_to_home": "Regresar a la página principal",
+  "phase_label": "Fase",
+  "instruction_ready": "Configura tus rondas y toca play para comenzar",
+  "instruction_running": "Sigue el círculo para regular tu respiración",
+  "round_x_of_y": "Ronda {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rondas",
+  "yes": "Sí",
+  "no": "No",
+  "date": "Fecha",
+  "continue": "Continuar"
+}

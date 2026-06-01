@@ -1,0 +1,147 @@
+{
+  "app_title": "วางแผนหน้าต่างการนอนหลับ",
+  "pill_labels": [
+    "สร้างหน้าต่างของคุณ",
+    "ตั้งเวลาของคุณ",
+    "หน้าต่างการนอนหลับของคุณ"
+  ],
+  "screen1": {
+    "title": "กรอบเวลาการนอนหลับของคุณมีความสําคัญมากกว่าที่คุณคิด",
+    "p1": "หน้าต่างการนอนหลับคือเวลาคงที่ระหว่างเวลาที่คุณเข้านอนและเมื่อคุณตื่นนอน การรักษาความสม่ําเสมอ — แม้ในวันหยุดสุดสัปดาห์ — เป็นหนึ่งในสิ่งที่ทรงพลังที่สุดที่คุณสามารถทําได้เพื่อการนอนหลับของคุณ",
+    "p2": "เครื่องมือนี้ช่วยให้คุณสร้างเครื่องมือของคุณได้ภายใน 2 นาที",
+    "insight": "แม้แต่เวลานอนที่แตกต่างกัน 1 ชั่วโมงในวันหยุดสุดสัปดาห์ก็สามารถรบกวนความรู้สึกของคุณได้ตลอดทั้งสัปดาห์",
+    "meta": "ง่าย. ส่วนตัว. มีประสิทธิภาพ",
+    "button": "มาสร้าง→เหมืองกันเถอะ"
+  },
+  "screen2": {
+    "title": "มาตั้งค่าหน้าต่างการนอนหลับของคุณกันเถอะ",
+    "step1": {
+      "title": "ขั้นตอนที่ 1 — เวลาปลุก",
+      "desc": "คุณต้องตื่นกี่โมงเกือบทุกวัน?"
+    },
+    "step2": {
+      "title": "ขั้นตอนที่ 2 — ระยะเวลาการนอนหลับ",
+      "desc": "คุณต้องการนอนหลับกี่ชั่วโมง?"
+    },
+    "live_window": {
+      "bedtime": "เวลานอน",
+      "waketime": "เวลาตื่นนอน",
+      "duration": "{{hours}} ชั่วโมงการนอนหลับ"
+    },
+    "italic": "ผู้ใหญ่ส่วนใหญ่ต้องการ 7-9 ชั่วโมง เลือกสิ่งที่รู้สึกว่าถูกต้อง",
+    "button": "ดูหน้าต่างการนอนหลับของฉัน→"
+  },
+  "screen3": {
+    "title": "หน้าต่าง🌙การนอนหลับของคุณ",
+    "result": {
+      "bedtime": "เวลานอน",
+      "waketime": "เวลาตื่นนอน",
+      "duration": "ระยะเวลา",
+      "hours": "{{hours}} ชั่วโมง"
+    },
+    "accordion1": {
+      "title": "3 วิธีในการปกป้อง",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "ผ่อนคลาย 30 นาทีก่อนนอน"
+        },
+        {
+          "emoji": "⏰",
+          "text": "เวลาตื่นนอนเท่ากันทุกวัน — ใช่ วันหยุดสุดสัปดาห์ด้วย"
+        },
+        {
+          "emoji": "🚫",
+          "text": "หลีกเลี่ยงการงีบหลับนานกว่า 20 นาทีหลัง 15.00 น."
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "มุ่งมั่น 1 สิ่งในคืนนี้",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "วางโทรศัพท์ก่อนนอน"
+        },
+        {
+          "emoji": "🛁",
+          "text": "เริ่มกิจวัตรผ่อนคลาย"
+        },
+        {
+          "emoji": "💡",
+          "text": "หรี่ไฟหนึ่งชั่วโมงก่อนนอน"
+        },
+        {
+          "emoji": "✍️",
+          "text": "ทํารายการสิ่งที่ต้องทําให้เสร็จก่อนกําหนด"
+        }
+      ]
+    },
+    "quote": "ความสม่ําเสมอมีพลังมากกว่าความสมบูรณ์แบบ ราตรีสวัสดิ์หนึ่งสร้างคืนต่อไป",
+    "button": "บันทึกหน้าต่างการนอนหลับของฉัน ✓",
+    "saved_button": "✓ บันทึกหน้าต่างการนอนหลับ!",
+    "adjust_times": "ปรับเวลา"
+  },
+  "complete": {
+    "title": "สร้างหน้าต่าง",
+    "message": "หน้าต่างการนอนหลับในอุดมคติของคุณได้รับการแมปแล้ว ความสม่ําเสมอเป็นกุญแจสําคัญในการพักผ่อนอย่างลึกซึ้งและฟื้นฟู"
+  },
+  "toasts": {
+    "save_success": "บันทึกหน้าต่างการนอนหลับ",
+    "save_error": "ไม่สามารถบันทึกหน้าต่างสลีป",
+    "auth_error": "เซสชันการตรวจสอบสิทธิ์หายไปหรือไม่ได้กําหนดค่า DB",
+    "saving": "กําลังประหยัด..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "โปรแกรมวางแผนช่วงเวลาการนอนหลับ",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

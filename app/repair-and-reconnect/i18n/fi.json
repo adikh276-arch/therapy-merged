@@ -1,0 +1,292 @@
+{
+  "app_title": "Korjaus ja uudelleenyhdistäminen",
+  "steps": {
+    "welcome": "Tervetuloa",
+    "choose_person": "Valitse henkilö",
+    "choose_approach": "Valitse lähestymistapa",
+    "guided_action": "Ohjattu toiminta",
+    "complete": "Täydellinen"
+  },
+  "intro": {
+    "title": "Korjaus ja uudelleenyhdistäminen",
+    "description": "Viha voi luoda etäisyyttä välillemme ja läheisistämme ihmisistä. Mutta pienet, lempeät askeleet voivat auttaa rakentamaan tuon yhteyden uudelleen.",
+    "quote": "\"Korjaaminen ei tarkoita, että olisit ollut väärässä—se tarkoittaa, että välität tarpeeksi yrittääksesi.\"",
+    "small_efforts": "Pienetkin ponnistelut voivat vaikuttaa.",
+    "button": "Aloita →"
+  },
+  "choose_person": {
+    "title": "Kenen kanssa haluaisit ottaa yhteyttä uudelleen?",
+    "desc": "Tietyn suhteen pohtiminen auttaa tekemään vaiheista todellisia.",
+    "options": {
+      "friend": "Ystävä",
+      "family": "Perheenjäsen",
+      "colleague": "Kollega",
+      "other": "Joku muu"
+    },
+    "button": "Jatka →"
+  },
+  "choose_approach": {
+    "title": "Mikä tuntuu sinusta oikealta?",
+    "desc": "Valitse yksi pieni askel, joka tuntuu mahdolliselta.",
+    "safety": "Sinun ei tarvitse korjata kaikkea – valitse vain yksi pieni askel.",
+    "button": "Kokeile tätä →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Lähetä rento tarkistus",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Tunnusta jännite",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Antakaa toisillenne tilaa",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Päästä irti ja jatka eteenpäin",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Pohdi asiaa",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Lähetä lämmin viesti",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Sano rehellisesti mitä tapahtui",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Sitoudu seuraavalla kerralla pysäyttämään",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Valitse rauha oikean olemisen sijaan",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Pohdi, mitä todella tarvitset",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Lähetä ammattilaisviesti",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Käsittele asia kunnioittavasti",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Suunnittele rauhallisempi vastaus ensi kerralla",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Pidä ammattimainen ja jatka eteenpäin",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Ajattele rajoja",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Ota yhteyttä yksinkertaisella viestillä",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Tunnusta, mitä tapahtui",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Pidä tauko ensi kerralla",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Anna asian olla nyt",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Vain pohdi (ei vielä toimia)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Napauta nähdäksesi miten ✨",
+    "copy_button": "📋 Kopioi viesti",
+    "done_button": "Olen valmis →",
+    "safety_line_default": "Sinun ei tarvitse lähettää mitään heti. 💛",
+    "safety_line_pause": "Ota rauhassa – ei ole kiirettä. 💛",
+    "safety_line_reflect": "Tämä on vain sinua varten—kukaan muu ei tarvitse nähdä tätä. 💛",
+    "actions": {
+      "message": {
+        "title": "Lähetä yksinkertainen viesti",
+        "why": "Yksinkertainen viesti voi rikkoa hiljaisuuden ja osoittaa toiselle, että välität yhä.",
+        "insight": "Yhteydenotto – vaikka epätäydellisesti – otetaan lähes aina vastaan paremmin kuin odotamme.",
+        "howTitle": "Aloita pienestä",
+        "howBody": "Sinun ei tarvitse kirjoittaa esseetä. Muutama rehellinen sana voi avata oven uudelleenyhteyteen.",
+        "prompts": [
+          "Hei, olen ajatellut sinua. Toivottavasti sinulla menee hyvin.",
+          "Tiedän, että tunnelma oli jännittynyt—halusin vain sanoa, että välitän.",
+          "Olen pahoillani aiemmasta. Voimmeko puhua, kun olet valmis?"
+        ],
+        "promptLabel": "Valitse lähtökohta:",
+        "editLabel": "Tee siitä omasi:"
+      },
+      "acknowledge": {
+        "title": "Tunnusta, mitä tapahtui",
+        "why": "Tapahtuneen tunnustaminen osoittaa kypsyyttä ja auttaa toista tuntemaan itsensä nähdyksi.",
+        "insight": "Ihmiset eivät tarvitse sinua täydelliseksi – heidän täytyy tietää, että huomasit sen.",
+        "howTitle": "Nimeä se varovasti",
+        "howBody": "Voit myöntää sen ilman, että otat kaiken syyn niskoillesi. Kerro rehellisesti, mitä tapahtui.",
+        "prompts": [
+          "Tiedän, että meidän välillämme tuli kuumaa. Haluan, että tiedät, että huomasin sen.",
+          "Tajuan, että saatoin vaikuttaa ankaralta. Se ei ollut tarkoitukseni.",
+          "Olen pohtinut, mitä tapahtui, ja toivon, että olisin käsitellyt sen toisin."
+        ],
+        "promptLabel": "Valitse lähtökohta:",
+        "editLabel": "Tee siitä omasi:"
+      },
+      "pause": {
+        "title": "Pidä tauko ensi kerralla",
+        "why": "Taukoon sitoutuminen antaa tilaa vastata reagoimisen sijaan.",
+        "insight": "Kuuden sekunnin tauko riittää usein siirtymään reaktiosta pohdintaan.",
+        "howTitle": "🧘 Suunnittele taukosi",
+        "howBody": "Ajattele yksinkertaista vihjettä – kuten hengittämistä tai hetkeksi astumista pois – ennen kuin vastaat.",
+        "prompts": [
+          "Seuraavan kerran kun tunnen oloni surulliseksi, hengitän syvään ennen kuin vastaan.",
+          "Yritän sanoa 'Anna hetki' sen sijaan, että reagoisin heti.",
+          "Astun hetkeksi pois kerätkääkseni ajatukseni."
+        ],
+        "promptLabel": "Valitse sitoumus, joka tuntuu oikealta:",
+        "editLabel": "Kirjoita oma aikomuksesi:"
+      },
+      "letgo": {
+        "title": "Päästä irti toistaiseksi",
+        "why": "Joskus ystävällisin asia, jonka voit tehdä, on päästää tilanteen paino irti.",
+        "insight": "Irti päästäminen ei ole luovuttamista – se on rauhan valitsemista oikean olemisen sijaan.",
+        "howTitle": "🕊️ Vapauta varovasti",
+        "howBody": "Sinun ei tarvitse unohtaa. Päätä vain, ettei tämän tarvitse enää hallita tunteitasi.",
+        "prompts": [
+          "Valitsen päästää tämän irti – en siksi, etteikö sillä olisi ollut väliä, vaan koska rauhani merkitsee enemmän.",
+          "Päästän irti tarpeesta olla oikeassa tässä asiassa. Valitsen yhteyden.",
+          "Tämä tilanne ei määritä suhdettamme. Olen menossa eteenpäin."
+        ],
+        "promptLabel": "Valitse se, mikä resonoi:",
+        "editLabel": "Kirjoita se, mikä tuntuu sinusta oikealta:"
+      },
+      "reflect": {
+        "title": "Vain pohdi",
+        "why": "Reflektio rakentaa itsetuntemusta, joka on jokaisen terveen suhteen perusta.",
+        "insight": "Päiväkirjan pitäminen tai jopa tapahtuneen läpikäyminen auttaa käsittelemään tunteita ilman painetta.",
+        "howTitle": "🔍 Katso sisäänpäin",
+        "howBody": "Kysy itseltäsi: Mitä todella tunsin vihan alla? Usein kyse on kivusta, pelosta tai pettymyksestä.",
+        "prompts": [
+          "Vihani alla luulen, että minua satutettiin.",
+          "Tajusin, että reagoin pelosta, ettei minua kuultaisi.",
+          "Mitä todella tarvitsin, oli tuntea itseni kunnioitetuksi ja arvostetuksi."
+        ],
+        "promptLabel": "Valitse se, mikä resonoi:",
+        "editLabel": "Kirjoita oma pohdintasi:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Yhteys korjattu",
+    "message": "Olet ottanut rohkean askeleen kohti yhteytesi korjaamista {{person}}. Pienet, tarkoitukselliset teot rakentavat kestäviä siltoja.",
+    "default_person": "joku tärkeä"
+  },
+  "toasts": {
+    "save_success": "Korjausetkennykset säilytetty",
+    "save_error": "Heijastuksen säilyttäminen epäonnistui",
+    "copy_success": "Viesti kopioitu!",
+    "preserving": "Säilyttäen...",
+    "complete_button": "Täydellinen ja tallenna"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Korjaa ja kytke uudelleen",
+  "that_s_a_step_forward": "Se on askel eteenpäin",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Otit pienen askeleen kohti korjausta – ja sillä on merkitystä.",
+  "try_with_someone_else": "Kokeile jonkun toisen kanssa",
+  "done": "Valmis ✔",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

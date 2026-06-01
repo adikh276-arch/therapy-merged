@@ -1,0 +1,147 @@
+{
+  "title": "En pause for å sette pris på",
+  "subtitle": "En 5–7 minutters guidet refleksjon",
+  "nav": {
+    "history": "Historie",
+    "home": "Hjem"
+  },
+  "intro": {
+    "text1": "Når et forhold føles anstrengt, kan det bli lett å fokusere kun på det som ikke fungerer. Denne refleksjonen gir en kort pause — ikke for å avfeie bekymringer, men for å forsiktig utvide perspektivet.",
+    "text2": "Det er ingen forventning om å føle takknemlighet. Legg bare merke til hva som dukker opp.",
+    "begin": "Begynn",
+    "viewHistory": "Se historikk"
+  },
+  "breathing": {
+    "title": "Ankom og slå deg til ro",
+    "description": "Før du fortsetter, gi deg selv en kort pause. Dette øyeblikket handler ikke om å løse noe. Det handler om å skape rom.",
+    "instruction": "Følg pusterytmen nedenfor.",
+    "inhale": "Pust inn... {{counter}}…",
+    "hold": "Hold...",
+    "exhale": "Pust ut... {{counter}}…",
+    "affirmation": "\"Jeg kan erkjenne det som føles vanskelig og likevel være åpen for å legge merke til det.\"",
+    "continue": "Fortsett"
+  },
+  "reflection": {
+    "step": "Trinn {{step}} av {{total}}",
+    "prompts": {
+      "p1": "Et lite øyeblikk nylig med partneren din som ikke føltes anspent var...",
+      "p1_ex": "\"Vi hadde en kort, rolig samtale i kveld.\"",
+      "p2": "En innsats partneren din har gjort — selv om den ikke er perfekt — er...",
+      "p2_ex": "\"De forsøkte å forklare følelsene sine i stedet for å trekke seg unna.\"",
+      "p3": "En egenskap hos partneren din som har holdt seg stabil over tid, er...",
+      "p3_ex": "\"De fortsetter å vise dedikasjon til våre ansvar.\""
+    },
+    "placeholder": "Skriv refleksjonen din her...",
+    "next": "Neste",
+    "finish": "Avslutning"
+  },
+  "intention": {
+    "step": "Trinn 4 av 4",
+    "title": "Hvordan vil du holde denne refleksjonen?",
+    "options": {
+      "private": "Jeg foretrekker å holde denne refleksjonen privat.",
+      "share_part": "Jeg kan velge å dele deler av dette med partneren min.",
+      "share_full": "Jeg vil gjerne dele denne refleksjonen fullt ut.",
+      "save_later": "Jeg sparer dette til en senere samtale."
+    },
+    "continue": "Fortsett"
+  },
+  "checkin": {
+    "title": "Da du fullførte denne refleksjonen, hvilken uttalelse føles mest presis?",
+    "statements": {
+      "s1": "Jeg føler meg litt mer åpen overfor partneren min akkurat nå.",
+      "s2": "Jeg merker ikke så mye endring, men jeg er villig til å være oppmerksom.",
+      "s3": "Jeg syntes dette var litt vanskelig å fullføre.",
+      "s4": "Jeg opplevde en liten følelse av varme under refleksjon.",
+      "s5": "Jeg merket motstand, og det føles viktig å anerkjenne.",
+      "s6": "Jeg kjenner en subtil mykhet sammenlignet med før jeg begynte."
+    },
+    "finish": "Ferdig & Redd"
+  },
+  "closing": {
+    "title": "Refleksjon fullført",
+    "text1": "Denne pausen fjerner ikke utfordringer. Det gjenoppretter bare balansen i hvordan forholdet oppfattes.",
+    "text2": "Selv korte øyeblikk med å legge merke til kan gradvis myke opp emosjonell stivhet og skape rom for sunnere samtaler.",
+    "save": "Lagre til refleksjoner",
+    "viewHistory": "Se historikk",
+    "exit": "Utgang"
+  },
+  "history": {
+    "title": "Din refleksjonshistorikk",
+    "noReflections": "Ingen refleksjoner lagret ennå. Dine fullførte økter vil vises her.",
+    "back": "Tilbake til start",
+    "confirmDelete": "Bekreft Slett",
+    "cancel": "Avbryt",
+    "delete": "Slett oppføring",
+    "prompts": [
+      "Et lite øyeblikk som ikke føltes anspent...",
+      "En innsats partneren din har gjort...",
+      "En egenskap som har holdt seg konstant...",
+      "Intensjon",
+      "Følelsesmessig innsjekk"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3–5 minutter",
+  "app_title": "Reflekterende",
+  "intro_p1": "Dyrk takknemlighet",
+  "intro_p2": "Reduser stress",
+  "intro_p3": "Forbedre velvære",
+  "app_description": "En 5–7 minutters guidet refleksjon",
+  "how_do_you_feel_after_this_reflection": "Hvordan føler du deg etter denne refleksjonen?",
+  "your_past_reflections_appreciations": "Dine tidligere refleksjoner og verdsettelser",
+  "start_new_session": "Start ny økt",
+  "feeling": "Følelse",
+  "delete_this_entry": "Slette denne oppføringen?",
+  "delete_5": "Slett",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

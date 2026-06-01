@@ -1,0 +1,177 @@
+{
+  "app_title": "Søvnsyklusguide",
+  "pill_labels": [
+    "Introduksjon",
+    "De 4 fasene",
+    "Den søvnige sannheten",
+    "Hva med deg?"
+  ],
+  "s1": {
+    "title": "Har du noen gang sovet 8 timer og fortsatt følt deg forferdelig?",
+    "p1": "Det handler ikke om <1>hvor lenge</1> du sover.",
+    "p2": "Det er omtrent <1>hvor</1> i søvnsyklusen din du våkner.",
+    "p3": "Én ting endrer seg når du forstår dette — alt.",
+    "insight": "💡 Hjernen din er faktisk mer aktiv under REM-søvn enn når du er helt våken!",
+    "duration": "Tar 3 minutter · varer livet ut",
+    "button": "Vent, virkelig? Fortell meg mer →"
+  },
+  "s2": {
+    "title": "Hjernen din gjør DETTE hver kveld 🌀",
+    "desc": "Hvert 90. minutt går hjernen din gjennom 4 nivåer – som en spilleliste på repeat. Trykk på hver for å utforske 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Lett søvn",
+        "tag": "1–5 min · lett vekket",
+        "body": "Du driver av gårde. Kroppen begynner å slippe taket, musklene kan rykke. Veldig lett å våkne herfra."
+      },
+      {
+        "emoji": "💤",
+        "title": "Å slå seg til ro",
+        "tag": "10–25 minutter · virkelig sovende",
+        "body": "Hjerterytmen går ned, kroppstemperaturen synker. Du sover ordentlig — hjerneaktiviteten begynner å avta."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Dyp søvn ⭐",
+        "tag": "20–40 minutter · Gullet",
+        "body": "Kroppen reparerer vev, bygger immunitet. Den mest fysisk gjenopprettende fasen — vanskelig å våkne fra."
+      },
+      {
+        "emoji": "🌙",
+        "title": "REM-søvn",
+        "tag": "10–60 minutter · Drømmemodus",
+        "body": "Hjernen summer av aktivitet. Følelser blir bearbeidet, minner låser seg. Å hoppe over dette gjør deg uklar."
+      }
+    ],
+    "italic": "Dyp søvn fikser kroppen din. REM fikser sinnet ditt.",
+    "button": "Så hvorfor føler jeg meg fortsatt groggy? →"
+  },
+  "s3": {
+    "title": "Våken midt i syklusen = zombiemodus 🧟",
+    "p1": "Dratt ut av dyp søvn av en alarm? Hjernen din har bokstavelig talt ikke fullført det den holdt på med. Den tåkete, tunge følelsen? Det er <1>søvninerti</1>.",
+    "wave": {
+      "light": "Lys",
+      "deep": "Dyp",
+      "groggy": "😫 groggy",
+      "fresh": "😊 Frisk",
+      "cycles": [
+        "Syklus 1",
+        "Syklus 2",
+        "Syklus 3"
+      ]
+    },
+    "disruptors_title": "Hva forstyrrer syklusene 👇 dine",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Skjermer før leggetid",
+        "sub": "Utsetter dyp søvn"
+      },
+      {
+        "emoji": "☕",
+        "text": "Sen koffein",
+        "sub": "reduserer dyp søvn med opptil 20 %"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Uregelmessige søvntider",
+        "sub": "Bryter din naturlige rytme"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stress og angst",
+        "sub": "holder deg fast i lett søvn"
+      }
+    ],
+    "italic": "Vanene dine former direkte hvilke stadier du kommer til.",
+    "button": "Hva betyr dette for meg? →"
+  },
+  "s4": {
+    "title": "Hvilken høres ut som deg? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Jeg våkner fysisk utmattet",
+        "sub": "Savner sannsynligvis dyp søvn",
+        "tip": "Fokuser på jevn søvn og oppvåkningstid — kroppen din trenger en jevn rytme for å oppnå dyp søvn."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Jeg føler meg følelsesmessig tåkete eller nedfor",
+        "sub": "Sannsynligvis savner jeg REM-søvn",
+        "tip": "Prøv å roe ned 30 minutter før du legger deg – en rolig rutine før søvn beskytter REM-søvnen din."
+      },
+      {
+        "emoji": "😤",
+        "text": "Jeg våkner ofte om natten",
+        "sub": "Sykluser blir stadig avbrutt",
+        "tip": "Et kjølig, mørkt og stille rom hjelper hjernen din å holde seg i dypere stadier uten avbrudd."
+      },
+      {
+        "emoji": "😐",
+        "text": "Jeg føler meg ok, men ikke fantastisk",
+        "sub": "Sykluser er delvise, men ikke komplette",
+        "tip": "Prøv å legge deg 20 minutter tidligere — du trenger kanskje bare én hel søvnsyklus til."
+      }
+    ],
+    "quote": "Søvn er ikke bare hvile — det er aktiv restitusjon. Beskytt syklusene dine, og hele dagen din endrer seg.",
+    "button": "Ferdig ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Søvnsyklusguide",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(forrige + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setGjeldendeSkjerm(forrige => Math.max(forrige - 1, 0));\n\nconst screens = [\n]",
+  "it_s_not_about": "Det handler ikke om",
+  "it_s_about": "Det handler om",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Dreget ut av dyp søvn av en alarm? Hjernen din har bokstavelig talt ikke fullført det den holdt på med. Den tåkete, tunge følelsen? Det er...",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,147 @@
+{
+  "app_title": "수면 창 플래너",
+  "pill_labels": [
+    "창문을 만들어 보세요",
+    "시간 정하세요",
+    "당신의 잠자리"
+  ],
+  "screen1": {
+    "title": "수면 시간은 생각보다 훨씬 중요합니다",
+    "p1": "수면 창은 잠자리에 들고 일어나는 시간 사이의 고정된 시간입니다. 주말에도 꾸준히 수면을 유지하는 것은 수면을 위해 할 수 있는 가장 강력한 일 중 하나입니다.",
+    "p2": "이 도구는 2분 이내에 직접 조립할 수 있도록 도와줍니다.",
+    "insight": "주말에 수면 시간이 1시간 차이만 있어도 일주일 내내 기분이 흐트러질 수 있습니다.",
+    "meta": "간단합니다. 개인적인 일이야. 효과적이야.",
+    "button": "내 집을 만들어보자→"
+  },
+  "screen2": {
+    "title": "잠자리 시간을 맞춰봅시다",
+    "step1": {
+      "title": "1단계 — 기상 시간",
+      "desc": "대부분의 날에 몇 시에 일어나야 하나요?"
+    },
+    "step2": {
+      "title": "2단계 — 수면 시간",
+      "desc": "몇 시간 더 자고 싶어?"
+    },
+    "live_window": {
+      "bedtime": "취침 시간",
+      "waketime": "기상 시간",
+      "duration": "{{hours}} 수면 시간"
+    },
+    "italic": "대부분의 성인은 7–9시간이 필요합니다. 옳다고 느끼는 것을 선택하세요.",
+    "button": "내 잠자리 →"
+  },
+  "screen3": {
+    "title": "당신의 잠자리 🌙",
+    "result": {
+      "bedtime": "취침 시간",
+      "waketime": "기상 시간",
+      "duration": "지속 기간",
+      "hours": "{{hours}} 시간"
+    },
+    "accordion1": {
+      "title": "보호하는 3가지 방법",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "잠자리에 들기 30분 전에 휴식을 취하세요"
+        },
+        {
+          "emoji": "⏰",
+          "text": "매일 같은 기상 시간 — 네, 주말도 마찬가지입니다"
+        },
+        {
+          "emoji": "🚫",
+          "text": "오후 3시 이후 20분 이상 낮잠을 자지 마세요"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "오늘 밤 한 가지에 전념하세요",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "자기 전에 핸드폰 치워"
+        },
+        {
+          "emoji": "🛁",
+          "text": "휴식 루틴을 시작하세요"
+        },
+        {
+          "emoji": "💡",
+          "text": "잠자기 한 시간 전에 불을 어둡게 하세요"
+        },
+        {
+          "emoji": "✍️",
+          "text": "내 할 일 목록 일찍 끝내."
+        }
+      ]
+    },
+    "quote": "일관성은 완벽함보다 더 강력합니다. 한 번의 좋은 밤이 다음 밤을 쌓아갑니다.",
+    "button": "내 수면 창을 저장해 주세요 ✓",
+    "saved_button": "✓ 수면 창 저장!",
+    "adjust_times": "시간 조정"
+  },
+  "complete": {
+    "title": "창 생성",
+    "message": "이상적인 수면 창은 이미 지도화되었습니다. 일관성은 깊고 회복적인 휴식의 열쇠입니다."
+  },
+  "toasts": {
+    "save_success": "수면 창 저장",
+    "save_error": "슬립 창 저장에 실패했습니다",
+    "auth_error": "인증 세션이 누락되거나 데이터베이스가 설정되지 않음",
+    "saving": "절약..."
+  },
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시 시작",
+    "finish_exit": "완료 및 종료",
+    "well_done": "잘하셨어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 지금까지의 성과를 되돌아보세요.",
+    "time_to_complete": "완료 시간",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중...",
+    "share": "공유하다",
+    "share_progress": "진행 상황 공유",
+    "inspire_others": "오늘 다른 사람들에게 영감을 주세요",
+    "share_text": "저는 TherapyMantra에서 {{activityName}} 활동을 해봤는데 정말 좋았어요. 여러분도 해보세요. 안드로이드 앱 {{androidUrl}} 또는 iOS 앱 {{iosUrl}} 링크를 따라가시면 됩니다.",
+    "this_activity": "이 활동",
+    "copied": "복사했어요!",
+    "copy_message": "메시지 복사",
+    "yes": "네",
+    "no": "아니요",
+    "date": "날짜",
+    "continue": "계속하기",
+    "step_of": "{{total}}단계 중 {{current}}단계",
+    "round_of": "{{total}}라운드 중 {{current}}라운드",
+    "phase_label": "단계",
+    "rounds_selector": "{{count}} 라운드",
+    "instruction_ready": "라운드를 설정하고 재생을 눌러 시작하세요",
+    "instruction_running": "원을 따라 호흡을 조절하세요"
+  },
+  "app_description": "수면 시간 계획표",
+  "more": "더",
+  "breadcrumb": "빵가루",
+  "previous_slide": "이전 슬라이드",
+  "next_slide": "다음 슬라이드",
+  "close": "닫다",
+  "previous": "이전의",
+  "more_pages": "더 많은 페이지",
+  "pagination": "쪽수 매기기",
+  "go_to_previous_page": "이전 페이지로 이동",
+  "go_to_next_page": "다음 페이지로 이동",
+  "toggle_sidebar": "사이드바 토글",
+  "oops_page_not_found": "앗! 페이지를 찾을 수 없습니다.",
+  "return_to_home": "홈으로 돌아가기",
+  "phase_label": "단계",
+  "instruction_ready": "라운드를 설정하고 재생을 눌러 시작하세요",
+  "instruction_running": "원을 따라 호흡을 조절하세요",
+  "round_x_of_y": "{{total}}라운드 중 {{current}}라운드",
+  "rounds_selector": "{{count}} 라운드",
+  "yes": "네",
+  "no": "아니요",
+  "date": "날짜",
+  "continue": "계속하기"
+}

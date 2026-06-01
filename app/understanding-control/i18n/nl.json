@@ -1,0 +1,113 @@
+{
+  "app_title": "Inzicht in Controle",
+  "app_subtitle": "Overlevingsstrategie • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Waarom controle zo krachtig kan voelen",
+      "paragraphs": [
+        "Voor veel mensen met eetproblemen kan controle voelen als een manier om veiligheid te creëren.",
+        "Wanneer het leven onvoorspelbaar of emotioneel intens aanvoelt, kan focussen op eten, gewicht of routines een gevoel van structuur en zekerheid geven.",
+        "Dit gaat niet over wilskracht of discipline. Het gaat erom jezelf te proberen te stabiliseren als dingen onzeker aanvoelen.",
+        "Op deze manier wordt controle een copingstrategie — iets dat je helpt je gegrond te voelen, al is het maar tijdelijk."
+      ],
+      "microcopy": "Je bent niet de enige die zich zo voelt.",
+      "cta": "Ga verder"
+    },
+    {
+      "headline": "Verschillende manieren waarop controle verschijnt",
+      "intro": "De behoefte aan controle ziet er niet voor iedereen hetzelfde uit, maar het uit zich vaak in patronen als:",
+      "bullets": [
+        {
+          "text": "Strikte of inflexibele voedselregels"
+        },
+        {
+          "text": "Moet routines precies volgen"
+        },
+        {
+          "text": "Angst wanneer plannen veranderen"
+        },
+        {
+          "text": "Eigenwaarde koppelen aan vorm/gewicht"
+        }
+      ],
+      "outro": "Na verloop van tijd kunnen deze starre worden, waardoor mentale ruimte wordt en het moeilijker wordt om je aan te passen.",
+      "microcopy": "Wat begint als controle, kan langzaam controlerend gaan aanvoelen.",
+      "cta": "Ga verder"
+    },
+    {
+      "headline": "Onder de Controle",
+      "intro": "De drang om te controleren heeft vaak diepere wortels. Het kan worden gekoppeld aan:",
+      "bullets": [
+        {
+          "text": "Emotioneel overspoeld voelen"
+        },
+        {
+          "text": "Voorspelbaarheid willen"
+        },
+        {
+          "text": "Een behoefte aan stabiliteit en veiligheid"
+        }
+      ],
+      "insight": "Controle is niet het probleem — het is de strategie die je geest heeft gevonden om ermee om te gaan. Met tijd en steun zijn er andere manieren om je veilig te voelen mogelijk.",
+      "microcopy": "Begrip is een krachtige eerste stap.",
+      "cta": "Lees af"
+    }
+  ],
+  "complete": {
+    "title": "Bewustwording",
+    "message": "Het begrijpen van de wortels van controle is een moedige eerste stap naar het vinden van nieuwe manieren om je veilig en stabiel te voelen.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Overlevingsstrategie • {{stap}}/3",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

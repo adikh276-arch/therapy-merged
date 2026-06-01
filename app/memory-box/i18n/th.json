@@ -1,0 +1,146 @@
+{
+  "app_title": "กล่องหน่วยความจํา",
+  "screen_titles": [
+    "กล่องของคุณ",
+    "ให้เกียรติ",
+    "การแสดงออก",
+    "เก็บรักษาไว้",
+    "การดูแลอย่างอ่อนโยน"
+  ],
+  "complete_title": "เก็บรักษาความทรงจําไว้",
+  "complete_message": "คุณได้วางหน่วยความจําของ {{name}} ไว้ในกล่องของคุณอย่างปลอดภัย ช่วงเวลาแห่งการเชื่อมต่อเหล่านี้เป็นของคุณที่จะเก็บไว้เสมอ",
+  "auth_error": "เซสชันการตรวจสอบสิทธิ์หายไปหรือไม่ได้กําหนดค่า DB",
+  "save_success": "เก็บรักษาหน่วยความจําไว้",
+  "save_error": "ไม่สามารถรักษาหน่วยความจําได้",
+  "preserving": "การถนอมอาหาร...",
+  "preserve_memory": "รักษาหน่วยความจํา",
+  "welcome": {
+    "title": "กล่องหน่วยความจําของคุณ",
+    "subtitle1": "พื้นที่เงียบสงบเพื่อระลึกถึงคนที่คุณรัก 🤍",
+    "subtitle2": "หายใจเข้าช้าๆ...",
+    "subtitle3": "… และหายใจออกเบา ๆ",
+    "subtitle4": "ไม่มีวิธีถูกหรือผิดในการทําเช่นนี้",
+    "subtitle5": "ไปตามจังหวะของคุณเอง 🌿",
+    "begin": "เริ่มต้น ✨",
+    "later": "บางทีในภายหลัง"
+  },
+  "who": {
+    "placeholder_name": "พิมพ์ชื่อของพวกเขา...",
+    "placeholder_relation": "คุณรู้จักพวกเขาได้อย่างไร? (ไม่บังคับ)",
+    "categories": [
+      {
+        "label": "ช่วงเวลาแห่งความสุข",
+        "emoji": "😊"
+      },
+      {
+        "label": "สิ่งที่พวกเขาเคยพูด",
+        "emoji": "💬"
+      },
+      {
+        "label": "ความทรงจําเล็กๆ ในชีวิตประจําวัน",
+        "emoji": "☕"
+      },
+      {
+        "label": "สถานที่ที่ทําให้คุณนึกถึงพวกเขา",
+        "emoji": "🏡"
+      },
+      {
+        "label": "สิ่งที่ฉันอยากจะพูด",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "ดําเนินการต่อ→"
+  },
+  "expression": {
+    "title": "แสดงความทรงจําของคุณ",
+    "memory_label": "ตัวความทรงจําเอง",
+    "memory_placeholder": "เขียนเกี่ยวกับช่วงเวลา ความรู้สึก หรือรายละเอียดที่คุณต้องการเก็บไว้...",
+    "message_label": "ข้อความถึงพวกเขา (ไม่บังคับ)",
+    "message_placeholder": "คุณจะพูดอะไรถ้าคุณสามารถพูดคุยกับพวกเขาได้ในตอนนี้",
+    "save": "รักษาหน่วยความจํา",
+    "skip": "ข้ามไปตอนนี้",
+    "back": "ย้อนกลับ"
+  },
+  "box": {
+    "title": "ซ่อนตัวไว้อย่างปลอดภัย",
+    "subtitle": "ความทรงจําของ {{name}} นี้เป็นส่วนหนึ่งของคอลเลกชันของคุณแล้ว",
+    "add_another": "เพิ่มความทรงจําอื่น",
+    "finish": "เสร็จสิ้นการสะท้อนแสง"
+  },
+  "closing": {
+    "title": "การดูแล",
+    "subtitle": "ปิดกล่องของคุณตอนนี้ คุณสามารถกลับมาที่นี่ได้ทุกเมื่อที่คุณต้องการรู้สึกใกล้ชิดกับความทรงจําเหล่านี้",
+    "exit": "ปิดกล่อง"
+  },
+  "history": {
+    "title": "เนื้อหาในกล่อง",
+    "no_memories": "กล่องของคุณว่างเปล่า เพิ่มความทรงจําแรกของคุณเพื่อเริ่มคอลเลกชันของคุณ",
+    "search_placeholder": "ค้นหาความทรงจํา..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "กล่องเก็บความทรงจำ",
+  "before_you_go": "ก่อนที่คุณจะไป",
+  "grief_comes_in_waves": "ความโศกเศร้ามาเป็นระลอก 🌊",
+  "what_you_re_feeling_matters": "ความรู้สึกของคุณสำคัญนะคะ 🤍",
+  "be_gentle_with_yourself_today": "จงใจดีกับตัวเองในวันนี้ 🌿",
+  "save_exit": "บันทึกและออก 🕊️",
+  "take_your_time": "ค่อยๆ เป็นค่อยๆ ไปนะ 🕯️",
+  "save_to_memory_box": "บันทึกไปยังกล่องเก็บความทรงจำ 📦",
+  "write_as_much_or_as_little_as_you_want": "เขียนมากหรือน้อยเท่าที่คุณต้องการ… ✍️",
+  "if_there_s_something_you_d_like_to_say": "หากคุณมีอะไรอยากจะพูด...",
+  "past_entries": "รายการที่ผ่านมา",
+  "no_memories_saved_yet": "ยังไม่มีการบันทึกความทรงจำใดๆ",
+  "this_memory_is_held_here_for_you": "ความทรงจำนี้ถูกเก็บไว้ที่นี่เพื่อคุณ 🌿",
+  "add_another_memory": "เพิ่มความทรงจำอีกหนึ่งเรื่อง ✨",
+  "finish_for_now": "จบแค่นี้ก่อนนะคะ",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

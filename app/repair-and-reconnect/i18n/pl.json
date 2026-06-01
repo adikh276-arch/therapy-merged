@@ -1,0 +1,292 @@
+{
+  "app_title": "Naprawa i ponowne połączenie",
+  "steps": {
+    "welcome": "Witamy",
+    "choose_person": "Wybierz osobę",
+    "choose_approach": "Wybierz podejście",
+    "guided_action": "Działanie kierowane",
+    "complete": "Ukończone"
+  },
+  "intro": {
+    "title": "Naprawa i ponowne połączenie",
+    "description": "Złość może tworzyć dystans między nami a bliskimi ludźmi. Ale małe, delikatne kroki mogą pomóc odbudować tę więź.",
+    "quote": "\"Naprawa nie znaczy, że się myliłaś — to znaczy, że zależy ci na tym, by spróbować.\"",
+    "small_efforts": "Nawet drobne wysiłki mogą zrobić różnicę.",
+    "button": "Zacznij →"
+  },
+  "choose_person": {
+    "title": "Z kim chciałbyś się ponownie połączyć?",
+    "desc": "Myślenie o konkretnym związku sprawia, że kroki wydają się realne.",
+    "options": {
+      "friend": "Przyjaciel",
+      "family": "Członek rodziny",
+      "colleague": "Kolega",
+      "other": "Ktoś inny"
+    },
+    "button": "Kontynuuj →"
+  },
+  "choose_approach": {
+    "title": "Co wydaje się dla Ciebie właściwe?",
+    "desc": "Wybierz jeden mały krok, który wydaje się wykonalny.",
+    "safety": "Nie musisz wszystkiego naprawiać — wystarczy wybrać jeden mały krok.",
+    "button": "Spróbuj tego →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Wyślij luźne zgłoszenie",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Uznaj napięcie",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Dajcie sobie trochę przestrzeni",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Odpuść i idź dalej",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Po prostu się nad tym zastanów",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Wyślij ciepłą wiadomość",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Powiedz szczerze, co się stało",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Następnym razem zdecyduj się na pauzę",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Wybierz pokój zamiast mieć rację",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Zastanów się, czego naprawdę potrzebujesz",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Wyślij profesjonalną notatkę",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Zwróć się do tego z szacunkiem",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Zaplanuj spokojniejszą reakcję następnym razem",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Zachowaj profesjonalizm i idź dalej",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Pomyśl o granicach",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Skontaktuj się z prostą wiadomością",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Przyznaj, co się stało",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Następnym razem zrób przerwę",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Na razie odpuść",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Po prostu odbuj (jeszcze brak akcji)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Stuknij, aby zobaczyć, jak ✨",
+    "copy_button": "📋 Kopiuj wiadomość",
+    "done_button": "Mam dość →",
+    "safety_line_default": "Nie musisz nic wysyłać teraz. 💛",
+    "safety_line_pause": "Nie spiesz się — nie ma pośpiechu. 💛",
+    "safety_line_reflect": "To jest tylko dla ciebie — nikt inny nie musi tego widzieć. 💛",
+    "actions": {
+      "message": {
+        "title": "Wyślij prostą wiadomość",
+        "why": "Prosta wiadomość może przerwać ciszę i pokazać drugiej osobie, że nadal ci zależy.",
+        "insight": "Sięganie do siebie — nawet niedoskonale — prawie zawsze jest odbierane lepiej, niż się spodziewamy.",
+        "howTitle": "Zacznij od małych kroków",
+        "howBody": "Nie musisz pisać eseju. Kilka szczerych słów może otworzyć drzwi do ponownego nawiązania kontaktu.",
+        "prompts": [
+          "Hej, myślałem o tobie. Mam nadzieję, że u ciebie wszystko w porządku.",
+          "Wiem, że było napięcie — chciałem tylko powiedzieć, że mi zależy.",
+          "Przepraszam za wcześniej. Możemy porozmawiać, kiedy będziesz gotowy?"
+        ],
+        "promptLabel": "Wybierz punkt wyjścia:",
+        "editLabel": "Zrób to swoim:"
+      },
+      "acknowledge": {
+        "title": "Uznaj to, co się stało",
+        "why": "Uznanie tego, co się stało, pokazuje dojrzałość i pomaga drugiej osobie poczuć się zauważoną.",
+        "insight": "Ludzie nie potrzebują, żebyś był perfekcyjny—muszą wiedzieć, że to zauważyłeś.",
+        "howTitle": "Nazwij to łagodnie",
+        "howBody": "Możesz przyznać się bez brania całej winy. Po prostu powiedz szczerze, co się stało.",
+        "prompts": [
+          "Wiem, że między nami zrobiło się gorąco. Chcę, żebyś wiedział, że zauważyłem.",
+          "Zdaję sobie sprawę, że mogłem zabrzmieć zbyt surowo. To nie było moim zamiarem.",
+          "Zastanawiałem się nad tym, co się wydarzyło, i żałuję, że nie postąpiłem inaczej."
+        ],
+        "promptLabel": "Wybierz punkt wyjścia:",
+        "editLabel": "Zrób to swoim:"
+      },
+      "pause": {
+        "title": "Następnym razem zrób pauzę",
+        "why": "Zdecydowanie na pauzę daje ci przestrzeń do odpowiedzi, a nie reakcji.",
+        "insight": "6-sekundowa pauza często wystarcza, by przejść od reakcji do refleksji.",
+        "howTitle": "🧘 Zaplanuj swoją pauzę",
+        "howBody": "Pomyśl o prostym sygnałie — na przykład o oddechu lub krótkim odejściu — zanim odpowiesz.",
+        "prompts": [
+          "Następnym razem, gdy poczuję się zdenerwowany, biorę głęboki oddech zanim odpowiem.",
+          "Spróbuję powiedzieć \"Daj mi chwilę\" zamiast reagować od razu.",
+          "Odchodzę na kilka minut, żeby zebrać myśli."
+        ],
+        "promptLabel": "Wybierz zobowiązanie, które wydaje się właściwe:",
+        "editLabel": "Napisz własne zamiary:"
+      },
+      "letgo": {
+        "title": "Odpuść na razie",
+        "why": "Czasem najładniejszą decyzją jest odpuścić ciężar sytuacji.",
+        "insight": "Odpuszczenie to nie poddanie się—to wybór pokoju zamiast bycia słuszne.",
+        "howTitle": "🕊️ Delikatnie wypuszczaj",
+        "howBody": "Nie musisz zapominać. Po prostu zdecyduj, że to nie musi już kontrolować twoich uczuć.",
+        "prompts": [
+          "Wybieram odpuścić — nie dlatego, że to nie miało znaczenia, ale dlatego, że mój spokój jest ważniejszy.",
+          "Pozwalam sobie na potrzebę bycia w tej kwestii racji. Wybieram połączenie.",
+          "Ta sytuacja nie definiuje naszego związku. Idę naprzód."
+        ],
+        "promptLabel": "Wybierz to, co do ciebie przemawia:",
+        "editLabel": "Napisz to, co wydaje się dla ciebie prawdziwe:"
+      },
+      "reflect": {
+        "title": "Po prostu się zastanowić",
+        "why": "Refleksja buduje samoświadomość, która jest fundamentem każdego zdrowego związku.",
+        "insight": "Prowadzenie dziennika lub nawet przemyślenie tego, co się stało, pomaga przetwarzać emocje bez presji.",
+        "howTitle": "🔍 Spójrz w głąb",
+        "howBody": "Zadaj sobie pytanie: Co tak naprawdę czułem pod tą złością? Często jest to ból, strach lub rozczarowanie.",
+        "prompts": [
+          "Pod powierzchnią mojej złości czułem się zraniony.",
+          "Zdaję sobie sprawę, że reagowałem ze strachu, że mnie nie wysłuchają.",
+          "Naprawdę potrzebowałem poczucia szacunku i docenienia."
+        ],
+        "promptLabel": "Wybierz to, co do ciebie przemawia:",
+        "editLabel": "Napisz własną refleksję:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Naprawa połączenia",
+    "message": "Zrobiłeś odważny krok w kierunku naprawy więzi z {{person}}. Małe, celowe działania budują trwałe mosty.",
+    "default_person": "Ktoś ważny"
+  },
+  "toasts": {
+    "save_success": "Postęp napraw zachowany",
+    "save_error": "Nie udało się zachować odbicia",
+    "copy_success": "Wiadomość skopiowana!",
+    "preserving": "Konserwowanie...",
+    "complete_button": "Ukończ i zapisz"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Naprawa i ponowne podłączenie",
+  "that_s_a_step_forward": "To krok naprzód",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Zrobiłeś mały krok w stronę naprawy — i to się liczy.",
+  "try_with_someone_else": "Spróbuj z kimś innym",
+  "done": "Gotowe ✔",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

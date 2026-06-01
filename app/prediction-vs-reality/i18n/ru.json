@@ -1,0 +1,145 @@
+{
+  "app_title": "Прогноз против реальности",
+  "step_label": "Шаг {{current}} из 8",
+  "intro": {
+    "title": "Прогноз против реальности",
+    "description": "Сравните свои тревожные прогнозы с тем, что происходит на самом деле, чтобы построить более сбалансированную перспективу.",
+    "benefits": [
+      "Выявляйте тревожные паттерны",
+      "Собирайте доказательства против страхов",
+      "Сократите дальнейшее переосмысление"
+    ],
+    "duration": "4-5 минут",
+    "view_past": "Просмотр прошлых размышлений"
+  },
+  "history": {
+    "title": "Прошлые размышления",
+    "no_reflections": "Отражения пока не сохранены.",
+    "prediction_label": "Прогноз",
+    "reality_label": "Реальность",
+    "reflection_label": "Рефлексия:"
+  },
+  "complete": {
+    "title": "Деятельность завершена",
+    "saved_title": "Отражение сохранено",
+    "message": "Глядя на факты, вы помогаете своему разуму понять, что вещи часто более управляемы, чем кажутся."
+  },
+  "emotions": [
+    "Тревожный",
+    "Нервничаю",
+    "Испуганно",
+    "Перегружен",
+    "Беспокойство"
+  ],
+  "intensity_labels": {
+    "not_intense": "Не интенсивно",
+    "very_intense": "Очень интенсивно"
+  },
+  "comparison_options": [
+    "Всё получилось почти точно так, как я и ожидал",
+    "Некоторые моменты были верны, но не всё",
+    "Это было совсем не то, что я ожидал",
+    "Это оказалось гораздо проще и лучше, чем я представлял"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Вспомните недавнюю ситуацию",
+      "desc": "Вспомните недавний момент, когда вы чувствовали тревогу или неуверенность.",
+      "placeholder": "Опиши ситуацию..."
+    },
+    "s2": {
+      "title": "Что вы думали, что произойдёт?",
+      "desc": "Чего вы ожидали или боялись в тот момент?",
+      "placeholder": "Я волновался, что..."
+    },
+    "s3": {
+      "title": "Как ты себя чувствовал?",
+      "desc": "Выберите эмоции, которые вы испытывали, и их интенсивность."
+    },
+    "s4": {
+      "title": "Что же на самом деле произошло?",
+      "desc": "Сосредоточьтесь на фактах того, что действительно произошло.",
+      "placeholder": "На самом деле..."
+    },
+    "s5": {
+      "title": "Давайте рассмотрим оба варианта",
+      "expectation": "Ожидания",
+      "reality": "Реальность",
+      "question": "Насколько близки были ваши ожидания?"
+    },
+    "s6": {
+      "title": "Что ты замечаешь?",
+      "desc": "Всё было так плохо, как вы думали?",
+      "placeholder": "Я замечаю, что..."
+    },
+    "s7": {
+      "title": "В следующий раз",
+      "desc": "Что вы можете напомнить себе, если это повторится?",
+      "placeholder": "например, «Может, всё будет не так плохо, как я себе представляю.»"
+    },
+    "s8": {
+      "title": "Небольшое напоминание",
+      "desc": "Твой разум пытается подготовить тебя — но не всегда предсказывает правильно. Каждый раз, когда вы останавливаетесь, чтобы взглянуть на факты, вы развиваете устойчивость.",
+      "button": "Сохранить отражение",
+      "discard": "Запись о сбросе"
+    }
+  },
+  "buttons": {
+    "continue": "Продолжайте"
+  },
+  "toasts": {
+    "saved": "Отражение сохранено!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Время выполнения",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Делиться",
+    "share_progress": "Поделиться прогрессом",
+    "inspire_others": "Вдохновите других сегодня!",
+    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
+    "this_activity": "эта деятельность",
+    "copied": "Скопировано!",
+    "copy_message": "Скопировать сообщение",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Предсказание против реальности",
+  "more": "Более",
+  "breadcrumb": "хлебные крошки",
+  "previous_slide": "Предыдущий слайд",
+  "next_slide": "Следующий слайд",
+  "close": "Закрывать",
+  "previous": "Предыдущий",
+  "more_pages": "Больше страниц",
+  "pagination": "нумерация страниц",
+  "go_to_previous_page": "Перейти на предыдущую страницу",
+  "go_to_next_page": "Перейти на следующую страницу",
+  "toggle_sidebar": "Переключить боковую панель",
+  "oops_page_not_found": "Ой! Страница не найдена.",
+  "return_to_home": "Вернуться на главную",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

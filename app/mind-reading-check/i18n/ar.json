@@ -1,0 +1,144 @@
+{
+  "app_title": "فحص قراءة الأفكار",
+  "intro": {
+    "title": "فحص قراءة الأفكار",
+    "description": "شكك في الافتراضات التي تضعها حول ما يفكر فيه الآخرون.",
+    "benefits": [
+      "توقف عن افتراض الأسوأ",
+      "تحديد التفسيرات المتحيزة",
+      "ابن تواصلا أوضح"
+    ],
+    "duration": "3-4 دقائق",
+    "view_past": "اطلع على تأملات الماضي"
+  },
+  "history": {
+    "title": "تأملات سابقة",
+    "no_entries": "لا توجد مشاركات حتى الآن",
+    "belief_label": "الإيمان: {{level}}٪",
+    "balanced_thought_label": "فكر متوازن"
+  },
+  "complete": {
+    "title": "اكتمال النشاط",
+    "great_insights": "رؤى رائعة!",
+    "message": "من خلال التشكيك في افتراضاتك، تبني عقلا أكثر موضوعية وتعاطفا."
+  },
+  "steps": {
+    "label": "الخطوة {{current}} من 10",
+    "step1": {
+      "title": "ماذا حدث؟",
+      "desc": "صف لحظة حديثة شعرت فيها بأنك محكوم عليك أو بعدم اليقين.",
+      "placeholder": "وصف الوضع..."
+    },
+    "step2": {
+      "title": "ماذا كان يدور في ذهنك؟",
+      "desc": "ماذا كنت تفترض أنهم يفكرون فيك؟",
+      "placeholder": "افترضت أنهم يفكرون..."
+    },
+    "step3": {
+      "title": "دعونا نبطئ هذا",
+      "desc": "الآن، يمكن أن تبدو هذه الفكرة حقيقية. ولكن قبل أن نقبل ذلك كحقيقة، دعونا نأخذ خطوة للوراء وننظر إليها عن كثب.",
+      "button": "توقف واستمر"
+    },
+    "step4": {
+      "title": "هل هذا صحيح؟",
+      "desc": "هل هناك أي دليل واضح (حقائق وليس افتراضات) يدعم هذا التفكير؟",
+      "placeholder": "الدليل الذي أراه هو..."
+    },
+    "step5": {
+      "title": "ما الذي يمكن أن يحدث أيضا؟",
+      "desc": "ما هي 2-3 تفسيرات أخرى ممكنة؟",
+      "placeholder": "الاحتمال {{num}}..."
+    },
+    "step6": {
+      "title": "تحقق من معتقدك",
+      "desc": "ما مدى ثقتك القوية بفكرتك الأصلية الآن؟",
+      "labels": [
+        "على الإطلاق",
+        "تماما"
+      ]
+    },
+    "step7": {
+      "title": "رؤية أكثر توازنا",
+      "desc": "اكتب فكرة تبدو أكثر عدلا وأقل يقينا.",
+      "placeholder": "فكرة أكثر توازنا..."
+    },
+    "step8": {
+      "title": "في المرة القادمة",
+      "desc": "ماذا يمكنك أن تفعل بدلا من الافتراض؟",
+      "examples": [
+        "اطلب توضيحا",
+        "أعطه بعض الوقت",
+        "إشعار دون رد فعل"
+      ],
+      "placeholder": "في المرة القادمة، يمكنني..."
+    },
+    "step9": {
+      "title": "لاحظ التحول",
+      "desc": "استكشفت إمكانيات مختلفة وخلقت مساحة لرؤية أكثر توازنا.",
+      "original_label": "الفكرة الأصلية",
+      "balanced_label": "منظور متوازن",
+      "button": "انعكاس النهاية"
+    },
+    "step10": {
+      "title": "تحول صغير",
+      "desc": "عقلك يحاول ملء الفجوات. لكن ليس كل فكرة هي حقيقة. أخذ خطوة للوراء يساعدك على رؤية الأمور بوضوح.",
+      "button": "النشاط الكامل"
+    }
+  },
+  "buttons": {
+    "continue": "تابع",
+    "restart": "إعادة التشغيل"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "اختبار قراءة الأفكار",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

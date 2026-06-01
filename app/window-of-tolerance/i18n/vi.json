@@ -1,0 +1,252 @@
+{
+  "app_title": "Cửa sổ dung sai",
+  "screens": {
+    "welcome": {
+      "title": "Cửa sổ dung sai",
+      "subtitle": "Hiểu hệ thần kinh của bạn.\nTìm đường trở lại bình tĩnh.",
+      "description": "Hoạt động nhẹ nhàng này sẽ giúp bạn hiểu hệ thần kinh của mình đang ở đâu ngay bây giờ - và cung cấp cho bạn các công cụ để tìm kiếm sự cân bằng. Đi theo tốc độ của riêng bạn. Bạn an toàn ở đây.",
+      "callout": "✨ Hít thở. Bạn đang ở đúng nơi.",
+      "button": "Hãy bắt đầu →",
+      "disclaimer": "Hoạt động này là một công cụ hỗ trợ, không thay thế cho liệu pháp chuyên nghiệp."
+    },
+    "explain": {
+      "title": "Hệ thần kinh của bạn có một cửa sổ",
+      "zones": {
+        "hyper": {
+          "label": "Tăng kích thích",
+          "desc": "Choáng ngợp, hoảng loạn, mất kiểm soát.",
+          "tag": "🔴 Đỏ"
+        },
+        "safe": {
+          "label": "Vùng an toàn",
+          "desc": "Bình tĩnh, hiện tại, có thể suy nghĩ rõ ràng.",
+          "tag": "🟢 màu xanh lá"
+        },
+        "hypo": {
+          "label": "Giảm kích thích",
+          "desc": "Tê, ngắt kết nối, sương mù.",
+          "tag": "🔵 Màu xanh lam"
+        }
+      },
+      "footer": "Chấn thương có thể đẩy bạn ra khỏi cửa sổ. Điều này giúp bạn nhận ra mình đang ở đâu và quay trở lại bên trong.",
+      "back": "← Quay lại",
+      "next": "→ tiếp theo"
+    },
+    "checkin": {
+      "title": "Bạn đang ở đâu ngay bây giờ?",
+      "subtitle": "Hít thở. Sau đó, thành thật chọn nơi bạn đang ở ngay bây giờ.",
+      "footer": "Không có câu trả lời sai. Đây chỉ đơn giản là điểm khởi đầu của bạn.",
+      "back": "← Quay lại",
+      "next": "→ tiếp theo",
+      "zones": {
+        "hyper": {
+          "label": "Phía trên cửa sổ của tôi",
+          "desc": "Tôi cảm thấy lo lắng, hoảng sợ, tức giận hoặc choáng ngợp."
+        },
+        "safe": {
+          "label": "Bên trong cửa sổ của tôi",
+          "desc": "Tôi cảm thấy bình tĩnh, hiện tại và có cơ sở."
+        },
+        "hypo": {
+          "label": "Bên dưới cửa sổ của tôi",
+          "desc": "Tôi cảm thấy tê liệt, mờ mịt hoặc bị ngắt kết nối."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Phía trên cửa sổ của bạn",
+        "subtitle": "Hệ thống thần kinh của bạn đang hoạt động quá tải. Không sao cả. Hãy đưa bạn trở lại một cách nhẹ nhàng.",
+        "feelings": [
+          "Trái tim đập nhanh",
+          "Thở nông",
+          "Hoảng loạn hoặc tức giận",
+          "Suy nghĩ đua xe",
+          "Bồn chồn"
+        ],
+        "tools": [
+          {
+            "name": "Thở hộp",
+            "desc": "Hít vào 4, trăng 4, thở ra 4, trăng 4. Lặp lại 4 lần."
+          },
+          {
+            "name": "5-4-3-2-1 Nối đất",
+            "desc": "5 điều thấy, 4 chạm, 3 nghe, 2 ngửi, 1 nếm."
+          },
+          {
+            "name": "Bàn chân trên sàn",
+            "desc": "Ấn chân xuống, nói: 'Tôi ở đây. Tôi an toàn. Điều này sẽ qua đi.'"
+          }
+        ],
+        "button": "Tôi cảm thấy bình tĩnh hơn một chút →",
+        "footer": "Bạn an toàn. Hãy dành thời gian của bạn."
+      },
+      "hypo": {
+        "title": "Bên dưới cửa sổ của bạn",
+        "subtitle": "Hệ thống thần kinh của bạn đã trở nên yên tĩnh. Nó đang bảo vệ bạn. Hãy nhẹ nhàng đánh thức nó trở lại.",
+        "feelings": [
+          "Tê",
+          "Ngắt kết nối",
+          "Mệt mỏi tột độ",
+          "Cảm thấy không thực tế",
+          "Độ phẳng"
+        ],
+        "tools": [
+          {
+            "name": "Chuyển động nhẹ nhàng",
+            "desc": "Đứng, đi chậm, vung tay. Hãy để cơ thể bạn thức dậy."
+          },
+          {
+            "name": "Âm thanh nhịp nhàng",
+            "desc": "Phát nhạc với nhịp điệu ổn định, gõ chân theo."
+          },
+          {
+            "name": "Nói to",
+            "desc": "Nói to tên, địa điểm, ngày hôm nay của bạn. Thu hút lại bộ não tư duy."
+          }
+        ],
+        "button": "Tôi cảm thấy hiện diện hơn một chút →",
+        "footer": "Bạn đang làm rất tốt. Thực hiện nó từng bước."
+      },
+      "safe": {
+        "title": "Bên trong cửa sổ của bạn",
+        "subtitle": "Bạn đang ở trong vùng an toàn của mình. Đây là nơi chữa lành, kết nối và phát triển xảy ra. Làm tốt lắm.",
+        "feelings": [
+          "Hiện tại và nhận thức",
+          "Thở đều đặn",
+          "Tư duy rõ ràng",
+          "Kết nối"
+        ],
+        "tools": [
+          {
+            "name": "Tiếp tục thở chậm",
+            "desc": "Vào qua mũi, ra bằng miệng."
+          },
+          {
+            "name": "Suy ngẫm",
+            "desc": "Điều gì đã giúp bạn ở lại đây? Viết nó ra."
+          },
+          {
+            "name": "Lòng trắc ẩn",
+            "desc": "\"Hệ thống thần kinh của tôi đang làm công việc của nó. Tôi không bị phá vỡ. Tôi đang chữa lành.'"
+          }
+        ],
+        "button": "Tiếp tục đến Bộ công cụ của tôi →",
+        "footer": "Bạn xứng đáng được chăm sóc và chữa lành."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Bộ công cụ cá nhân của bạn",
+      "subtitle": "Các công cụ cần thiết của bạn — được lưu và sẵn sàng bất cứ khi nào bạn cần.",
+      "tools_list": [
+        "🌬️ Thở hộp",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Bàn chân trên sàn",
+        "🚶 Chuyển động nhẹ nhàng",
+        "🎵 Âm nhạc",
+        "💬 Nói to"
+      ],
+      "journal_label": "📝 Suy ngẫm hôm nay",
+      "journal_desc": "Một khoảnh khắc hôm nay khi bạn nhận thấy hệ thống thần kinh của mình thay đổi là gì - và bạn đã làm gì với nó?",
+      "journal_placeholder": "Viết ở đây...",
+      "history_label": "📊 Sơ lược về tuần của bạn",
+      "save_button": "Lưu & Kết thúc ✓",
+      "footer": "Hành trình của bạn rất quan trọng. Quay lại bất cứ khi nào bạn cần hỗ trợ.",
+      "preserving": "Bảo quản...",
+      "preserve_button": "Duy trì sự phản chiếu"
+    }
+  },
+  "nav": [
+    "Nhận phòng",
+    "Giải thích",
+    "Giám sát",
+    "Khu vực",
+    "Bộ công cụ"
+  ],
+  "history": {
+    "title": "Lịch sử làm thủ tục chuyến bay",
+    "empty": "Chưa có đăng ký."
+  },
+  "toasts": {
+    "save_success": "Nhận phòng được bảo quản",
+    "save_error": "Không giữ được việc làm thủ tục chuyến bay",
+    "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình"
+  },
+  "complete": {
+    "title": "Làm thủ tục chuyến bay hoàn tất",
+    "message": "Bạn đã lập bản đồ thành công trạng thái hiện tại của mình. Xây dựng nhận thức là bước đầu tiên để tìm lại sự cân bằng của bạn."
+  },
+  "days": [
+    "Của tôi",
+    "Thứ Ba",
+    "Thứ Tư",
+    "Thu",
+    "Thứ Sáu",
+    "Thứ Bảy",
+    "Mặt trời"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Khoảng dung sai",
+  "are_you_sure_you_want_to_exit": "Bạn có chắc chắn muốn thoát ra không?",
+  "your_unsaved_data_will_be_lost": "Dữ liệu chưa được lưu của bạn sẽ bị mất.",
+  "stay": "Ở lại",
+  "exit": "Ra",
+  "exit_confirmation": "Xác nhận thoát",
+  "check_in_history": "Lịch sử đăng ký",
+  "close": "Đóng",
+  "screen_navigation": "Điều hướng màn hình",
+  "check_in": "Đăng ký vào",
+  "what_is_the_window_of_tolerance": "Khoảng dung sai là gì?",
+  "your_personal_toolkit": "Bộ công cụ cá nhân của bạn",
+  "welcome": "Chào mừng",
+  "view_history": "Xem lịch sử",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

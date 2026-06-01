@@ -1,0 +1,124 @@
+{
+  "app_title": "Woede-schaamte cyclus",
+  "app_subtitle": "De lus begrijpen • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Waarom blijft woede terugkomen?",
+      "description": "Het ligt misschien niet aan je temperament. Er is een verborgen cirkel tussen woede en schaamte — en zodra je die ziet, verandert alles.",
+      "quote": "\"De meeste mensen proberen de woede te verhelpen. Maar schaamte is wat het stilletjes voortzet.\"",
+      "button": "Laten we het verkennen"
+    },
+    "s2": {
+      "tag": "De cyclus",
+      "title": "De lus legde uit",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Woede komt naar boven"
+        },
+        {
+          "emoji": "😔",
+          "label": "Schaamte: \"Ik ben slecht\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Schaamte wordt begraven"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Woede barst opnieuw los"
+        }
+      ],
+      "button": "Ik zie het"
+    },
+    "s3": {
+      "tag": "Wat gebeurt er",
+      "title": "Twee emoties, één val",
+      "anger": {
+        "title": "🔥 Woede",
+        "desc": "Een secundaire emotie — onder het leven is pijn, angst of afwijzing. Het is het alarm, niet de brand."
+      },
+      "shame": {
+        "title": "😔 Schande",
+        "desc": "\"Ik ben slecht\" — niet alleen \"ik heb iets slechts gedaan.\" Het verbergt zich, zwijgt en houdt de cyclus draaiende."
+      },
+      "button": "Ontsnappen"
+    },
+    "s4": {
+      "tag": "Onderbreking",
+      "title": "Onderbreek de cyclus",
+      "steps": [
+        {
+          "title": "Noem de bron",
+          "desc": "Vraag: 'Wat voel ik eigenlijk?' Pijn? Bang? Onzichtbaar? Het benoemen ervan verzwakt het."
+        },
+        {
+          "title": "Compassiepauze",
+          "desc": "Hand op de borst. Zeg: 'Dit is moeilijk. Ik ben mens. Ik kan hier doorheen komen.'"
+        },
+        {
+          "title": "Herstel met gratie",
+          "desc": "Maak het goed als dat nodig is — maar raak niet in een negatieve spiraal. Je bent niet je slechtste moment."
+        }
+      ],
+      "notice": "Het opmerken van de cyclus is al de eerste stap. Jij doet het werk.",
+      "button": "Volledige activiteit"
+    }
+  },
+  "complete": {
+    "title": "Cyclus onderbroken",
+    "message": "Je hebt het besef gekregen om het verband tussen woede en schaamte te zien. Dit is de basis voor blijvende emotionele vrijheid."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "De lus begrijpen • {{stap}}/{{totaal}}",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

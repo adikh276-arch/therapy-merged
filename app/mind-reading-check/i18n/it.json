@@ -1,0 +1,144 @@
+{
+  "app_title": "Controllo di lettura della mente",
+  "intro": {
+    "title": "Controllo di lettura della mente",
+    "description": "Metti in discussione le supposizioni che fai su ciò che pensano gli altri.",
+    "benefits": [
+      "Smettila di presumere il peggio",
+      "Identificare interpretazioni di parte",
+      "Costruire una comunicazione più chiara"
+    ],
+    "duration": "3-4 minuti",
+    "view_past": "Visualizza riflessioni passate"
+  },
+  "history": {
+    "title": "Riflessioni passate",
+    "no_entries": "Nessuna partecipazione ancora",
+    "belief_label": "Credenza: {{level}}%",
+    "balanced_thought_label": "Pensiero bilanciato"
+  },
+  "complete": {
+    "title": "Attività completata",
+    "great_insights": "Ottimi spunti!",
+    "message": "Mettendo in discussione le tue supposizioni, stai costruendo una mente più oggettiva e compassionevole."
+  },
+  "steps": {
+    "label": "Passo {{current}} di 10",
+    "step1": {
+      "title": "Cosa è successo?",
+      "desc": "Descrivi un momento recente in cui ti sei sentito giudicato o incerto.",
+      "placeholder": "Descrizione della situazione..."
+    },
+    "step2": {
+      "title": "Cosa ti è passato per la testa?",
+      "desc": "Cosa pensavi che pensassero di te?",
+      "placeholder": "Pensavo stessero pensando..."
+    },
+    "step3": {
+      "title": "Rallentiamo un po'",
+      "desc": "In questo momento, questo pensiero può sembrare vero. Ma prima di accettarlo come un fatto, facciamo un passo indietro e guardiamolo più da vicino.",
+      "button": "Pausa e continua"
+    },
+    "step4": {
+      "title": "È vero?",
+      "desc": "Esistono prove chiare (fatti, non supposizioni) che supportino questa idea?",
+      "placeholder": "Le prove che vedo sono..."
+    },
+    "step5": {
+      "title": "Cos'altro potrebbe succedere?",
+      "desc": "Quali sono altre 2-3 possibili spiegazioni?",
+      "placeholder": "Possibilità {{num}}..."
+    },
+    "step6": {
+      "title": "Controlla la tua convinzione",
+      "desc": "Quanto credi con forza al pensiero originale ora?",
+      "labels": [
+        "Per niente",
+        "Completamente"
+      ]
+    },
+    "step7": {
+      "title": "Una visione più equilibrata",
+      "desc": "Scrivi un pensiero che ti sembri più giusto e meno certo.",
+      "placeholder": "Un pensiero più equilibrato..."
+    },
+    "step8": {
+      "title": "La prossima volta",
+      "desc": "Cosa potresti fare invece di presumere?",
+      "examples": [
+        "Chiedi chiarimenti",
+        "Dagli un po' di tempo",
+        "Avvisa senza reagire"
+      ],
+      "placeholder": "La prossima volta, potrei..."
+    },
+    "step9": {
+      "title": "Nota il cambiamento",
+      "desc": "Hai esplorato diverse possibilità e creato spazio per una visione più equilibrata.",
+      "original_label": "Pensiero originale",
+      "balanced_label": "Prospettiva bilanciata",
+      "button": "Riflessione finale"
+    },
+    "step10": {
+      "title": "Un piccolo cambiamento",
+      "desc": "La tua mente cerca di colmare le lacune. Ma non ogni pensiero è un dato di fatto. Fare un passo indietro ti aiuta a vedere le cose chiaramente.",
+      "button": "Attività completa"
+    }
+  },
+  "buttons": {
+    "continue": "Continua",
+    "restart": "Riavvio"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Controllo della lettura del pensiero",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

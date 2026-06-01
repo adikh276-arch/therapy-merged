@@ -1,0 +1,81 @@
+{
+  "app_title": "Γιατί ο εγκέφαλος κολλάει",
+  "app_subtitle": "Η λογική της επιβίωσης • {{step}}/{{total}}",
+  "s1": {
+    "title": "Ο εγκέφαλός σου δεν έσπασε. Προσαρμόστηκε.",
+    "description": "Μετά το τραύμα, ο εγκέφαλός σας επανασυνδέεται για να σας κρατήσει ασφαλείς. Έμαθε ότι ο κόσμος θα μπορούσε να είναι επικίνδυνος, οπότε έμεινε έτοιμος. Αυτό δεν είναι ελάττωμα. Αυτό είναι επιβίωση.",
+    "quote": "«Το PTSD δεν είναι σημάδι ότι κάτι δεν πάει καλά με εσάς. Είναι σημάδι ότι κάτι σου συνέβη».",
+    "button": "Θέλω να μάθω περισσότερα"
+  },
+  "s2": {
+    "tag": "Ευγενικές αλήθειες",
+    "title": "Λογική επιβίωσης του εγκεφάλου",
+    "truths": [
+      {
+        "header": "Ο συναγερμός παρέμεινε αναμμένος",
+        "body": "Η υπερεπαγρύπνηση και το ξάφνιασμα εύκολα δεν είναι υπερβολικές αντιδράσεις - το σύστημα συναγερμού του εγκεφάλου σας κάνει τη δουλειά του πολύ καλά."
+      },
+      {
+        "header": "Οι αναδρομές στο παρελθόν είναι μνήμη",
+        "body": "Τα ερεθίσματα τραβούν τον εγκέφαλό σας πίσω επειδή δεν έλαβε ποτέ το σήμα ότι η απειλή είχε τελειώσει. Προσπαθεί να σε προστατεύσει."
+      },
+      {
+        "header": "Παλεύοντας για σένα",
+        "body": "Κάθε σύμπτωμα ήταν κάποτε μια πράξη επιβίωσης. Ο εγκέφαλός σας έκανε ό,τι έπρεπε να κάνει για να σας κρατήσει ζωντανούς."
+      }
+    ],
+    "healing": "Η θεραπεία δεν είναι να ξεχνάς. Έχει να κάνει με το να βοηθήσετε τον εγκέφαλό σας να μάθει ότι είστε ασφαλείς τώρα."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ξεκινήστε από την αρχή",
+    "finish_exit": "Τέλος & Έξοδος",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Ώρα για ολοκλήρωση",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Μερίδιο",
+    "share_progress": "Κοινοποίηση προόδου",
+    "inspire_others": "Εμπνεύστε τους άλλους σήμερα",
+    "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
+    "this_activity": "αυτή η δραστηριότητα",
+    "copied": "Αντιγράφηκε!",
+    "copy_message": "Αντιγραφή μηνύματος",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Η λογική της επιβίωσης • {{step}}/{{total}}",
+  "more": "Περισσότερο",
+  "breadcrumb": "ψίχουλα ψωμιού",
+  "previous_slide": "Προηγούμενη διαφάνεια",
+  "next_slide": "Επόμενη διαφάνεια",
+  "close": "Κοντά",
+  "previous": "Προηγούμενος",
+  "more_pages": "Περισσότερες σελίδες",
+  "pagination": "σελιδοποίηση",
+  "go_to_previous_page": "Μετάβαση στην προηγούμενη σελίδα",
+  "go_to_next_page": "Μετάβαση στην επόμενη σελίδα",
+  "toggle_sidebar": "Εναλλαγή πλευρικής γραμμής",
+  "oops_page_not_found": "Ωχ! Η σελίδα δεν βρέθηκε.",
+  "return_to_home": "Επιστροφή στην Αρχική",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "app_title": "ตรวจสอบการอ่านใจ",
+  "intro": {
+    "title": "ตรวจสอบการอ่านใจ",
+    "description": "ตั้งคําถามกับสมมติฐานที่คุณทําเกี่ยวกับสิ่งที่คนอื่นกําลังคิด",
+    "benefits": [
+      "หยุดสมมติว่าแย่ที่สุด",
+      "ระบุการตีความที่มีอคติ",
+      "สร้างการสื่อสารที่ชัดเจนยิ่งขึ้น"
+    ],
+    "duration": "3-4 นาที",
+    "view_past": "ดูภาพสะท้อนในอดีต"
+  },
+  "history": {
+    "title": "ภาพสะท้อนในอดีต",
+    "no_entries": "ยังไม่มีผลงาน",
+    "belief_label": "ความเชื่อ: {{level}}%",
+    "balanced_thought_label": "ความคิดที่สมดุล"
+  },
+  "complete": {
+    "title": "กิจกรรมเสร็จสมบูรณ์",
+    "great_insights": "ข้อมูลเชิงลึกที่ยอดเยี่ยม!",
+    "message": "การตั้งคําถามกับสมมติฐานของคุณแสดงว่าคุณกําลังสร้างจิตใจที่มีวัตถุประสงค์และเห็นอกเห็นใจมากขึ้น"
+  },
+  "steps": {
+    "label": "ขั้นตอน {{current}} จาก 10",
+    "step1": {
+      "title": "เกิดอะไรขึ้น?",
+      "desc": "อธิบายช่วงเวลาล่าสุดที่ท่านรู้สึกถูกตัดสินหรือไม่แน่ใจ",
+      "placeholder": "คําอธิบายของสถานการณ์..."
+    },
+    "step2": {
+      "title": "คุณคิดอะไร?",
+      "desc": "คุณคิดว่าพวกเขากําลังคิดอะไรเกี่ยวกับคุณ?",
+      "placeholder": "ฉันคิดว่าพวกเขากําลังคิด..."
+    },
+    "step3": {
+      "title": "มาชะลอสิ่งนี้ลง",
+      "desc": "ตอนนี้ความคิดนี้รู้สึกเป็นจริง แต่ก่อนที่จะยอมรับว่าเป็นข้อเท็จจริง เรามาถอยหลังและพิจารณาอย่างใกล้ชิดกันดีกว่า",
+      "button": "หยุดชั่วคราวและดําเนินการต่อ"
+    },
+    "step4": {
+      "title": "นี่เป็นเรื่องจริงหรือไม่?",
+      "desc": "มีหลักฐานที่ชัดเจน (ข้อเท็จจริง ไม่ใช่สมมติฐาน) ที่สนับสนุนความคิดนี้หรือไม่?",
+      "placeholder": "หลักฐานที่ฉันเห็นคือ..."
+    },
+    "step5": {
+      "title": "มีอะไรเกิดขึ้นอีกบ้าง?",
+      "desc": "คําอธิบายที่เป็นไปได้อีก 2-3 ข้อมีอะไรบ้าง?",
+      "placeholder": "ความเป็นไปได้ {{num}}..."
+    },
+    "step6": {
+      "title": "ตรวจสอบความเชื่อของคุณ",
+      "desc": "ตอนนี้คุณเชื่อความคิดเดิมของคุณมากแค่ไหน?",
+      "labels": [
+        "ไม่เลย",
+        "อย่างสมบูรณ์"
+      ]
+    },
+    "step7": {
+      "title": "มุมมองที่สมดุลยิ่งขึ้น",
+      "desc": "เขียนความคิดที่รู้สึกยุติธรรมมากขึ้นและไม่แน่นอน",
+      "placeholder": "ความคิดที่สมดุลมากขึ้น..."
+    },
+    "step8": {
+      "title": "ครั้งต่อไป",
+      "desc": "คุณจะทําอะไรแทนการสันนิษฐานได้บ้าง?",
+      "examples": [
+        "ขอคําชี้แจง",
+        "ให้เวลาสักครู่",
+        "แจ้งโดยไม่ตอบสนอง"
+      ],
+      "placeholder": "คราวหน้าฉันสามารถ..."
+    },
+    "step9": {
+      "title": "สังเกตการเปลี่ยนแปลง",
+      "desc": "คุณสํารวจความเป็นไปได้ต่างๆ และสร้างพื้นที่สําหรับมุมมองที่สมดุลยิ่งขึ้น",
+      "original_label": "ความคิดดั้งเดิม",
+      "balanced_label": "มุมมองที่สมดุล",
+      "button": "เสร็จสิ้นการสะท้อนแสง"
+    },
+    "step10": {
+      "title": "การเปลี่ยนแปลงเล็กน้อย",
+      "desc": "จิตใจของคุณพยายามเติมเต็มช่องว่าง แต่ไม่ใช่ทุกความคิดที่เป็นความจริง การถอยหลังช่วยให้คุณมองเห็นสิ่งต่าง ๆ ได้อย่างชัดเจน",
+      "button": "ทํากิจกรรมให้เสร็จสมบูรณ์"
+    }
+  },
+  "buttons": {
+    "continue": "ดําเนินการต่อ",
+    "restart": "รีสตาร์ท"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "การตรวจสอบความสามารถในการอ่านใจ",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

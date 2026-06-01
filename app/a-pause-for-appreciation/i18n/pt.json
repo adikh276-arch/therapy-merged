@@ -1,0 +1,147 @@
+{
+  "title": "Uma pausa para apreciação",
+  "subtitle": "Uma reflexão guiada de 5 a 7 minutos",
+  "nav": {
+    "history": "História",
+    "home": "Lar"
+  },
+  "intro": {
+    "text1": "Quando um relacionamento está tenso, pode ser fácil focar apenas no que não está funcionando. Esta reflexão oferece uma breve pausa — não para descartar as preocupações, mas para ampliar gentilmente a perspectiva.",
+    "text2": "Não há expectativa de que você se sinta grato. Simplesmente observe o que surgir.",
+    "begin": "Começar",
+    "viewHistory": "Ver histórico"
+  },
+  "breathing": {
+    "title": "Chegue e se instale.",
+    "description": "Antes de prosseguir, permita-se uma breve pausa. Este momento não se trata de resolver nada. Trata-se de criar espaço.",
+    "instruction": "Siga o ritmo respiratório abaixo.",
+    "inhale": "Inspire… {{counter}}…",
+    "hold": "Segurar…",
+    "exhale": "Expire… {{counter}}…",
+    "affirmation": "\"Consigo reconhecer o que parece difícil e ainda assim permanecer aberto à observação.\"",
+    "continue": "Continuar"
+  },
+  "reflection": {
+    "step": "Etapa {{step}} de {{total}}",
+    "prompts": {
+      "p1": "Um pequeno momento recente com seu parceiro que não gerou tensão foi…",
+      "p1_ex": "\"Tivemos uma breve e tranquila conversa à noite.\"",
+      "p2": "Um esforço que seu parceiro fez — mesmo que imperfeito — é…",
+      "p2_ex": "\"Eles tentaram explicar seus sentimentos em vez de se retraírem.\"",
+      "p3": "Uma qualidade do seu parceiro que se manteve constante ao longo do tempo é…",
+      "p3_ex": "\"Eles continuam demonstrando dedicação às nossas responsabilidades.\""
+    },
+    "placeholder": "Escreva aqui sua reflexão…",
+    "next": "Próximo",
+    "finish": "Terminar"
+  },
+  "intention": {
+    "step": "Passo 4 de 4",
+    "title": "Como você gostaria de realizar esta reflexão?",
+    "options": {
+      "private": "Prefiro manter essa reflexão em privado.",
+      "share_part": "Posso optar por compartilhar parte disso com meu parceiro(a).",
+      "share_full": "Gostaria de compartilhar essa reflexão na íntegra.",
+      "save_later": "Vou deixar isso para uma conversa posterior."
+    },
+    "continue": "Continuar"
+  },
+  "checkin": {
+    "title": "Ao concluir esta reflexão, qual afirmação lhe parece mais precisa?",
+    "statements": {
+      "s1": "Sinto-me um pouco mais aberto(a) com meu(minha) parceiro(a) neste momento.",
+      "s2": "Não noto muitas mudanças, mas estou disposto a permanecer atento.",
+      "s3": "Achei isso um tanto difícil de concluir.",
+      "s4": "Durante a reflexão, senti uma leve sensação de calor.",
+      "s5": "Percebi resistência, e acho importante reconhecer isso.",
+      "s6": "Sinto um leve amolecimento em comparação com antes de começar."
+    },
+    "finish": "Finalizar e Salvar"
+  },
+  "closing": {
+    "title": "Reflexão Concluída",
+    "text1": "Essa pausa não elimina os desafios. Ela simplesmente restaura o equilíbrio na forma como o relacionamento é visto.",
+    "text2": "Mesmo breves momentos de atenção podem gradualmente suavizar a rigidez emocional e criar espaço para conversas mais saudáveis.",
+    "save": "Salvar em Reflexões",
+    "viewHistory": "Ver histórico",
+    "exit": "Saída"
+  },
+  "history": {
+    "title": "Seu histórico de reflexões",
+    "noReflections": "Nenhuma reflexão foi salva ainda. Suas sessões concluídas aparecerão aqui.",
+    "back": "Voltar ao início",
+    "confirmDelete": "Confirmar exclusão",
+    "cancel": "Cancelar",
+    "delete": "Excluir entrada",
+    "prompts": [
+      "Um pequeno momento que não transmitiu tensão…",
+      "Um esforço que seu parceiro fez…",
+      "Uma qualidade que se manteve constante…",
+      "Intenção",
+      "Avaliação Emocional"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5 minutos",
+  "app_title": "Refletindo",
+  "intro_p1": "Cultive a gratidão",
+  "intro_p2": "Reduzir o estresse",
+  "intro_p3": "Melhorar o bem-estar",
+  "app_description": "Uma reflexão guiada de 5 a 7 minutos",
+  "how_do_you_feel_after_this_reflection": "Como você se sente após essa reflexão?",
+  "your_past_reflections_appreciations": "Suas reflexões e agradecimentos passados",
+  "start_new_session": "Iniciar nova sessão",
+  "feeling": "Sentimento",
+  "delete_this_entry": "Excluir esta entrada?",
+  "delete_5": "Excluir",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

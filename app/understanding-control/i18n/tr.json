@@ -1,0 +1,113 @@
+{
+  "app_title": "Kontrolü Anlamak",
+  "app_subtitle": "Hayatta Kalma Stratejisi • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Neden Kontrol Bu Kadar Güçlü Hissettirebilir",
+      "paragraphs": [
+        "Yeme zorlukları yaşayan birçok kişi için, kontrol güvenliği yaratmanın bir yolu gibi hissedilebilir.",
+        "Hayat öngörülemez veya duygusal olarak yoğun geldiğinde, yiyecek, kilo veya rutinlere odaklanmak bir yapı ve kesinlik duygusu getirebilir.",
+        "Bu irade gücü ya da disiplinle ilgili değil. İşler belirsiz geldiğinde kendini dengelemeye çalışmakla ilgili.",
+        "Bu şekilde kontrol, geçici olsa bile olsa, kendinizi yere bastıran bir başa çıkma stratejisi haline gelir."
+      ],
+      "microcopy": "Bu şekilde hisseden yalnız değilsin.",
+      "cta": "Devam et"
+    },
+    {
+      "headline": "Kontrolün Farklı Şekilleri",
+      "intro": "Kontrol ihtiyacı herkes için aynı görünmese de, genellikle aşağıdaki kalıplarda ortaya çıkar:",
+      "bullets": [
+        {
+          "text": "Sıkı veya esnek olmayan gıda kuralları"
+        },
+        {
+          "text": "Rutinleri tam olarak takip etmek gerekiyor"
+        },
+        {
+          "text": "Planlar değiştiğinde kaygı"
+        },
+        {
+          "text": "Öz değeri şekil/kilo ile ilişkilendirmek"
+        }
+      ],
+      "outro": "Zamanla, bunlar sertleşebilir, zihinsel alan kaplayabilir ve uyum sağlamayı zorlaştırabilir.",
+      "microcopy": "Kontrol olarak başlayan şey yavaş yavaş kontrolleyici gibi hissettirmeye başlayabilir.",
+      "cta": "Devam et"
+    },
+    {
+      "headline": "Kontrolün Altında",
+      "intro": "Kontrol etme isteği genellikle daha derin köklere sahiptir. Bağlantılı olabilir:",
+      "bullets": [
+        {
+          "text": "Duygusal olarak su basmış hissetmek"
+        },
+        {
+          "text": "Öngörülebilirlik istemek"
+        },
+        {
+          "text": "İstikrar ve güvenlik ihtiyacı"
+        }
+      ],
+      "insight": "Sorun kontrol değil — zihninizin başa çıkmak için bulduğu stratejidir. Zaman ve destekle, güvende hissetmenin başka yolları da mümkün.",
+      "microcopy": "Anlama güçlü bir ilk adımdır.",
+      "cta": "Okumayı Bitir"
+    }
+  ],
+  "complete": {
+    "title": "Farkındalık Kazanıldı",
+    "message": "Kontrolün köklerini anlamak, güvende ve istikrarlı hissetmenin yeni yollarını bulmak için cesur bir ilk adımdır.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Hayatta Kalma Stratejisi • {{adım}}/3",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,252 @@
+{
+  "app_title": "容差視窗",
+  "screens": {
+    "welcome": {
+      "title": "容差視窗",
+      "subtitle": "了解你的神經系統。\n\n找到重獲平靜的方法。",
+      "description": "這項舒緩的活動將幫助您了解您目前的神經系統狀態，並為您提供找到平衡的方法。請按照自己的步調進行。在這裡，您很安全。",
+      "callout": "✨深呼吸。你來對地方了。",
+      "button": "讓我們開始吧 →",
+      "disclaimer": "這項活動是一種輔助工具，不能取代專業治療。"
+    },
+    "explain": {
+      "title": "你的神經系統有一個窗口",
+      "zones": {
+        "hyper": {
+          "label": "過度興奮",
+          "desc": "不知所措，驚慌失措，失控。",
+          "tag": "🔴 紅色"
+        },
+        "safe": {
+          "label": "安全區",
+          "desc": "冷靜、專注、思維清晰。",
+          "tag": "🟢 綠色"
+        },
+        "hypo": {
+          "label": "低喚醒",
+          "desc": "麻木、脫節、迷惘。",
+          "tag": "🔵 藍色"
+        }
+      },
+      "footer": "創傷會把你推出窗外。這能幫助你認清自己身處何處，並重新回到室內。",
+      "back": "← 返回",
+      "next": "下一頁 →"
+    },
+    "checkin": {
+      "title": "你現在在哪裡？",
+      "subtitle": "深呼吸。然後誠實地選擇你現在所處的位置。",
+      "footer": "沒有錯誤答案。這只是你的起點。",
+      "back": "← 返回",
+      "next": "下一頁 →",
+      "zones": {
+        "hyper": {
+          "label": "我的窗戶上方",
+          "desc": "我感到焦慮、恐慌、憤怒或不知所措。"
+        },
+        "safe": {
+          "label": "我的窗內",
+          "desc": "我感到平靜、專注、踏實。"
+        },
+        "hypo": {
+          "label": "我的窗戶下面",
+          "desc": "我感覺麻木、迷惘或與世隔絕。"
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "你的窗戶上方",
+        "subtitle": "你的神經系統過度活躍了。沒關係。我們慢慢地幫你恢復過來。",
+        "feelings": [
+          "心跳加速",
+          "淺呼吸",
+          "恐慌或憤怒",
+          "思緒紛亂",
+          "躁動不安"
+        ],
+        "tools": [
+          {
+            "name": "箱式呼吸法",
+            "desc": "吸氣 4 秒，屏住呼吸 4 秒，吐氣 4 秒，屏住呼吸 4 秒。重複 4 次。"
+          },
+          {
+            "name": "5-4-3-2-1 接地",
+            "desc": "5種視覺感官，4種觸覺感官，3種聽覺感官，2種嗅覺感官，1種味覺感官。"
+          },
+          {
+            "name": "雙腳著地",
+            "desc": "雙腳落地，默念：“我在這裡。我很安全。一切都會過去的。”"
+          }
+        ],
+        "button": "我覺得平靜了一些 →",
+        "footer": "您很安全，請慢慢來。"
+      },
+      "hypo": {
+        "title": "你的窗戶下面",
+        "subtitle": "你的神經系統暫時安靜了下來，這是它在保護你。讓我們輕輕地喚醒它。",
+        "feelings": [
+          "麻木",
+          "斷開",
+          "極度疲勞",
+          "感覺很不真實",
+          "平坦"
+        ],
+        "tools": [
+          {
+            "name": "輕柔的動作",
+            "desc": "站起來，慢慢走，擺動雙臂。讓你的身體甦醒過來。"
+          },
+          {
+            "name": "節奏聲",
+            "desc": "播放節奏穩定的音樂，跟著節奏打拍子。"
+          },
+          {
+            "name": "大聲說出來",
+            "desc": "大聲說出你的姓名、所在地和今天的日期。重新啟動你的思考能力。"
+          }
+        ],
+        "button": "我覺得自己更能活在當下了 →",
+        "footer": "你做得很好。一步一步來。"
+      },
+      "safe": {
+        "title": "窗外",
+        "subtitle": "你身處安全區。這裡是療癒、連結和成長發生的地方。做得好。",
+        "feelings": [
+          "專注且清醒",
+          "平穩呼吸",
+          "清晰的思維",
+          "已連接"
+        ],
+        "tools": [
+          {
+            "name": "保持緩慢呼吸",
+            "desc": "從鼻子吸入，從嘴巴呼出。"
+          },
+          {
+            "name": "反映",
+            "desc": "是什麼讓你留了下來？寫下來。"
+          },
+          {
+            "name": "自我關懷",
+            "desc": "“我的神經系統運作正常。我沒有出問題。我正在康復。”"
+          }
+        ],
+        "button": "繼續前往我的工具包 →",
+        "footer": "你值得被關愛和療癒。"
+      }
+    },
+    "toolkit": {
+      "title": "🧰您的個人工具包",
+      "subtitle": "您常用的工具－已儲存，隨時可用。",
+      "tools_list": [
+        "🌬️ 箱式呼吸法",
+        "🖐️ 5-4-3-2-1",
+        "🦶 雙腳著地",
+        "🚶 輕柔運動",
+        "🎵 音樂",
+        "💬 大聲說出來"
+      ],
+      "journal_label": "📝 今日反思",
+      "journal_desc": "今天你有沒有註意到自己的神經系統發生了變化？當時是怎麼應付的？",
+      "journal_placeholder": "請在此處填寫…",
+      "history_label": "📊 本週概覽",
+      "save_button": "儲存並完成 ✓",
+      "footer": "你的旅程很重要。需要幫助時，隨時回來。",
+      "preserving": "保存…",
+      "preserve_button": "保留倒影"
+    }
+  },
+  "nav": [
+    "報到",
+    "解釋",
+    "監測",
+    "區域",
+    "工具包"
+  ],
+  "history": {
+    "title": "入住歷史記錄",
+    "empty": "目前還沒有人入住。"
+  },
+  "toasts": {
+    "save_success": "辦理入住手續已保留",
+    "save_error": "未能保存簽到訊息",
+    "auth_error": "身份驗證會話缺失或資料庫未配置"
+  },
+  "complete": {
+    "title": "辦理入住手續",
+    "message": "你已經成功繪製了自己目前的狀況圖。提升自我認知是找到平衡的第一步。"
+  },
+  "days": [
+    "我的",
+    "星期二",
+    "星期三",
+    "收集",
+    "星期五",
+    "星期六",
+    "太陽"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天激勵他人",
+    "share_text": "我在 TherapyMantra 上完成了這個 {{activityName}} 活動，非常喜歡，你也試試看吧，只需點擊連結即可下載安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}}",
+    "this_activity": "這項活動",
+    "copied": "已複製！",
+    "copy_message": "複製訊息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "容差視窗",
+  "are_you_sure_you_want_to_exit": "您確定要退出嗎？",
+  "your_unsaved_data_will_be_lost": "您未儲存的資料將會遺失。",
+  "stay": "停留",
+  "exit": "出口",
+  "exit_confirmation": "退出確認",
+  "check_in_history": "入住歷史記錄",
+  "close": "關閉",
+  "screen_navigation": "螢幕導航",
+  "check_in": "報到",
+  "what_is_the_window_of_tolerance": "什麼是容忍視窗？",
+  "your_personal_toolkit": "你的個人工具包",
+  "welcome": "歡迎",
+  "view_history": "查看歷史記錄",
+  "more": "更多的",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "previous": "以前的",
+  "more_pages": "更多頁面",
+  "pagination": "分頁",
+  "go_to_previous_page": "回上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "oops_page_not_found": "糟糕！頁面未找到",
+  "return_to_home": "回首頁",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,114 @@
+{
+  "app_title": "Безпечний простір",
+  "nav": [
+    "Реєстрація",
+    "Делікатно згадуй",
+    "Спостереження",
+    "Залишатися в теперішньому часі",
+    "Вперед"
+  ],
+  "s1": {
+    "title": "Давай знайдемо місце, де буде нормально",
+    "description": [
+      "Перш ніж почати, приділіть хвилинку, щоб перевірити, як справи...",
+      "Як ти зараз почуваєшся?",
+      "Ми не шукаємо ідеального «безпечного місця». Просто щось, що хоча б трохи спокійно чи нормально."
+    ],
+    "placeholder": "Як ти зараз себе почуваєш?",
+    "button": "Початок візуалізації"
+  },
+  "s2": {
+    "title": "Обережно згадай це",
+    "description": [
+      "Уяви місце, де ти почувався хоча б трохи спокійно... або місце, яке ти бажаєш, щоб існувало.",
+      "Тепер став туди...",
+      "Ви сидите, стоїте чи лежите?"
+    ],
+    "button": "Продовжуй"
+  },
+  "s3": {
+    "title": "Озирнись повільно",
+    "description": [
+      "Озирнись навколо...",
+      "Що ти можеш побачити?",
+      "Тепер зверни увагу на звук... Що ти чуєш?"
+    ],
+    "button": "Продовжуй"
+  },
+  "s4": {
+    "title": "Тримайся цього",
+    "description": [
+      "Що такого в цьому місці, що воно хоча б трохи почувається безпечно чи нормально?",
+      "Як ви помітили, що...",
+      "Також звертайте увагу на дихання."
+    ],
+    "breathe": "Дихай",
+    "notice": "Якщо уявити важко, просто подумай про це місце.",
+    "button": "Продовжуй"
+  },
+  "s5": {
+    "title": "Візьми це з собою",
+    "description": [
+      "Зверни увагу, як ти зараз себе почуваєш. Навіть невелика зміна має значення.",
+      "Спробуйте взяти з собою хоча б 5% цього відчуття."
+    ],
+    "placeholder": "Як ти почуваєшся зараз?",
+    "button": "Повна сесія"
+  },
+  "complete": {
+    "title": "Сесія завершена",
+    "message": "Це безпечне місце завжди доступне для вас. Ти можеш повернутися сюди, коли тобі знадобиться хвилина спокою."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Безпечний простір",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

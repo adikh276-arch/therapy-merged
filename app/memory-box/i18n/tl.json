@@ -1,0 +1,146 @@
+{
+  "app_title": "Kahon ng Memorya",
+  "screen_titles": [
+    "Ang Iyong Kahon",
+    "Paggalang",
+    "Pagpapahayag",
+    "Napanatili",
+    "Magiliw na Pangangalaga"
+  ],
+  "complete_title": "Napanatili ang Memorya",
+  "complete_message": "Inilagay mo na ang isang alaala ng {{name}} sa iyong kahon. Ang mga sandaling ito ng koneksyon ay sa iyo upang panatilihin, palagi.",
+  "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
+  "save_success": "Napanatili ang memorya",
+  "save_error": "Nabigo na mapanatili ang memorya",
+  "preserving": "Pagpapanatili ...",
+  "preserve_memory": "Panatilihin ang Memorya",
+  "welcome": {
+    "title": "Ang Iyong Memory Box",
+    "subtitle1": "Isang tahimik na lugar upang alalahanin ang taong mahal mo. 🤍",
+    "subtitle2": "Huminga nang mabagal sa...",
+    "subtitle3": "… at malumanay na huminga.",
+    "subtitle4": "Walang tama o maling paraan upang gawin ito.",
+    "subtitle5": "Pumunta sa iyong sariling bilis. 🌿",
+    "begin": "Magsimula ✨",
+    "later": "Siguro mamaya"
+  },
+  "who": {
+    "placeholder_name": "I-type ang iyong pangalan ...",
+    "placeholder_relation": "Paano mo sila kilala? (opsyonal)",
+    "categories": [
+      {
+        "label": "Isang masayang sandali",
+        "emoji": "😊"
+      },
+      {
+        "label": "Isang bagay na dati nilang sinasabi",
+        "emoji": "💬"
+      },
+      {
+        "label": "Isang maliit na pang-araw-araw na alaala",
+        "emoji": "☕"
+      },
+      {
+        "label": "Isang lugar na nagpapaalala sa iyo ng mga ito",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Isang bagay na nais kong sabihin",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Magpatuloy →"
+  },
+  "expression": {
+    "title": "Ipahayag ang Iyong Memorya",
+    "memory_label": "Ang memorya mismo",
+    "memory_placeholder": "Isulat ang tungkol sa sandali, damdamin, o detalye na nais mong panatilihin ...",
+    "message_label": "Mensahe sa kanila (opsyonal)",
+    "message_placeholder": "Ano ang sasabihin mo kung makikipag-usap ka sa kanila ngayon?",
+    "save": "Panatilihin ang Memorya",
+    "skip": "Laktawan para sa ngayon",
+    "back": "Bumalik"
+  },
+  "box": {
+    "title": "Ligtas na nakatago",
+    "subtitle": "Bahagi na ngayon ng iyong koleksyon ang alaala na ito ng {{name}}.",
+    "add_another": "Magdagdag ng Isa pang Memorya",
+    "finish": "Tapusin ang Pagmumuni-muni"
+  },
+  "closing": {
+    "title": "Pag-aalaga",
+    "subtitle": "Isara ang iyong kahon sa ngayon. Maaari kang bumalik dito anumang oras na kailangan mong makaramdam ng malapit sa mga alaala na ito.",
+    "exit": "Isara ang Kahon"
+  },
+  "history": {
+    "title": "Mga Nilalaman ng Kahon",
+    "no_memories": "Walang laman ang kahon mo. Idagdag ang iyong unang memorya upang simulan ang iyong koleksyon.",
+    "search_placeholder": "Hanapin ang mga alaala ..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Kahon ng Memorya",
+  "before_you_go": "Bago ka pumunta",
+  "grief_comes_in_waves": "Ang kalungkutan ay dumarating nang sunod-sunod. 🌊",
+  "what_you_re_feeling_matters": "Mahalaga ang nararamdaman mo. 🤍",
+  "be_gentle_with_yourself_today": "Maging mahinahon sa iyong sarili ngayon. 🌿",
+  "save_exit": "I-save at lumabas 🕊️",
+  "take_your_time": "Magpahinga ka na lang 🕯️",
+  "save_to_memory_box": "I-save sa Memory Box 📦",
+  "write_as_much_or_as_little_as_you_want": "Sumulat ng kahit gaano karami o kakaunti ayon sa gusto mo… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Kung may gusto kang sabihin…",
+  "past_entries": "Mga Nakaraang Entry",
+  "no_memories_saved_yet": "Wala pang mga alaalang naka-save.",
+  "this_memory_is_held_here_for_you": "Ang alaalang ito ay nakaimbak dito, para sa iyo. 🌿",
+  "add_another_memory": "Magdagdag ng isa pang alaala ✨",
+  "finish_for_now": "Tapusin muna sa ngayon",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

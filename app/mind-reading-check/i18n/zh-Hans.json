@@ -1,0 +1,144 @@
+{
+  "app_title": "读心术检查",
+  "intro": {
+    "title": "读心术检查",
+    "description": "质疑你对他人想法的假设。",
+    "benefits": [
+      "不要总是往最坏的方面想。",
+      "识别带有偏见的解读",
+      "建立更清晰的沟通"
+    ],
+    "duration": "3-4分钟",
+    "view_past": "回顾过往的思考"
+  },
+  "history": {
+    "title": "过往的反思",
+    "no_entries": "暂无条目",
+    "belief_label": "信念：{{level}}%",
+    "balanced_thought_label": "平衡思维"
+  },
+  "complete": {
+    "title": "活动完成",
+    "great_insights": "很有见地！",
+    "message": "通过质疑你的假设，你正在培养一种更加客观和富有同情心的思维方式。"
+  },
+  "steps": {
+    "label": "步骤 {{current}} 共 10 步",
+    "step1": {
+      "title": "发生了什么？",
+      "desc": "请描述一下你最近一次感到被评判或感到不安的时刻。",
+      "placeholder": "情况描述……"
+    },
+    "step2": {
+      "title": "你当时在想什么？",
+      "desc": "你觉得他们会怎么看待你？",
+      "placeholder": "我猜他们当时在想……"
+    },
+    "step3": {
+      "title": "让我们放慢速度",
+      "desc": "现在，这种想法似乎很有道理。但在接受它为事实之前，让我们退后一步，仔细审视一下。",
+      "button": "暂停并继续"
+    },
+    "step4": {
+      "title": "这是真的吗？",
+      "desc": "是否有明确的证据（事实，而非假设）支持这种观点？",
+      "placeholder": "我看到的证据表明……"
+    },
+    "step5": {
+      "title": "还有什么其他可能的原因吗？",
+      "desc": "还有哪些其他两三种可能的解释？",
+      "placeholder": "可能性 {{num}}..."
+    },
+    "step6": {
+      "title": "审视你的信念",
+      "desc": "你现在对最初的想法有多坚定？",
+      "labels": [
+        "一点也不",
+        "完全地"
+      ]
+    },
+    "step7": {
+      "title": "更平衡的观点",
+      "desc": "写下一个你觉得更公平但又不太确定的想法。",
+      "placeholder": "更平衡的思考……"
+    },
+    "step8": {
+      "title": "下次",
+      "desc": "与其妄下断言，你还能做些什么？",
+      "examples": [
+        "请求澄清",
+        "给它一些时间",
+        "注意到而不做出反应"
+      ],
+      "placeholder": "下次，我就可以……"
+    },
+    "step9": {
+      "title": "注意这种变化",
+      "desc": "你探索了不同的可能性，并为更平衡的观点创造了空间。",
+      "original_label": "原创思想",
+      "balanced_label": "平衡的视角",
+      "button": "完成反思"
+    },
+    "step10": {
+      "title": "一个小小的转变",
+      "desc": "你的大脑会试图填补空白。但并非每个想法都是事实。退后一步，才能让你看得更清楚。",
+      "button": "完成活动"
+    }
+  },
+  "buttons": {
+    "continue": "继续",
+    "restart": "重启"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享进度",
+    "inspire_others": "今天激励他人",
+    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "this_activity": "这项活动",
+    "copied": "已复制！",
+    "copy_message": "复制消息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "读心术检查",
+  "more": "更多的",
+  "breadcrumb": "面包屑",
+  "previous_slide": "上一张幻灯片",
+  "next_slide": "下一张幻灯片",
+  "close": "关闭",
+  "previous": "以前的",
+  "more_pages": "更多页面",
+  "pagination": "分页",
+  "go_to_previous_page": "返回上一页",
+  "go_to_next_page": "前往下一页",
+  "toggle_sidebar": "切换侧边栏",
+  "oops_page_not_found": "糟糕！页面未找到",
+  "return_to_home": "返回首页",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,124 @@
+{
+  "app_title": "Siklo ng Galit at Kahihiyan",
+  "app_subtitle": "Pag-unawa sa loop • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Bakit patuloy na bumabalik ang galit?",
+      "description": "Baka hindi ito ang galit mo. Mayroong isang nakatagong loop sa pagitan ng galit at kahihiyan - at sa sandaling makita mo ito, ang lahat ay nagbabago.",
+      "quote": "\"Karamihan sa mga tao ay nagsisikap na ayusin ang galit. Ngunit ang kahihiyan ay kung ano ang tahimik na nagpapanatili nito. \"",
+      "button": "Galugarin natin"
+    },
+    "s2": {
+      "tag": "Ang siklo",
+      "title": "Ipinaliwanag ang loop",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Lumilitaw ang galit"
+        },
+        {
+          "emoji": "😔",
+          "label": "ang napili ng mga taga-hanga: \"I'm bad\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Ang kahihiyan ay inilibing"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Muling sumiklab ang galit"
+        }
+      ],
+      "button": "Nakikita ko ito"
+    },
+    "s3": {
+      "tag": "Ano ang nangyayari",
+      "title": "Dalawang damdamin, isang bitag",
+      "anger": {
+        "title": "🔥 Galit",
+        "desc": "Isang pangalawang emosyon - sa ilalim ng buhay nasaktan, takot, o pagtanggi. Ito ang alarma, hindi ang sunog."
+      },
+      "shame": {
+        "title": "😔 Kahihiyan",
+        "desc": "\"Masama ako\" - hindi lamang \"May ginawa akong masama.\" Nagtatago ito, nagpapatahimik, at pinapanatili ang pag-ikot ng pag-ikot."
+      },
+      "button": "Paglabag sa Kalayaan"
+    },
+    "s4": {
+      "tag": "Pagkagambala",
+      "title": "Interrupt ang cycle",
+      "steps": [
+        {
+          "title": "Pangalanan ang pinagmulan",
+          "desc": "Itanong: 'Ano ba talaga ang nararamdaman ko?' Nasaktan? Natatakot? Hindi nakikita? Ang pagbibigay ng pangalan nito ay nagpapahina nito."
+        },
+        {
+          "title": "Pag-pause ng pakikiramay",
+          "desc": "Kamay sa dibdib. Sabihin mo: \"Ito ay mahirap. Tao ako. Makakayanan ko ito.'"
+        },
+        {
+          "title": "Ayusin nang may biyaya",
+          "desc": "Gumawa ng mga pagbabago kung kinakailangan - ngunit huwag mag-spiral. Hindi ikaw ang pinakamasamang sandali mo."
+        }
+      ],
+      "notice": "Ang pag-unawa sa siklo ay ang unang hakbang na. Ginagawa mo ang trabaho.",
+      "button": "Kumpletuhin ang Aktibidad"
+    }
+  },
+  "complete": {
+    "title": "Naputol ang Cycle",
+    "message": "Nakita mo na ang kaugnayan ng galit at kahihiyan. Ito ang pundasyon para sa pangmatagalang emosyonal na kalayaan."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Pag-unawa sa loop • {{step}}/{{total}}",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

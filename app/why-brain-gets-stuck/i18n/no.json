@@ -1,0 +1,81 @@
+{
+  "app_title": "Hvorfor hjernen setter seg fast",
+  "app_subtitle": "Overlevelseslogikken • {{step}}/{{total}}",
+  "s1": {
+    "title": "Hjernen din brøt ikke sammen. Den tilpasset seg.",
+    "description": "Etter traumet omkobler hjernen seg for å holde deg trygg. Den lærte at verden kunne være farlig, så den holdt seg klar. Det er ikke en feil. Det er overlevelse.",
+    "quote": "\"PTSD er ikke et tegn på at det er noe galt med deg. Det er et tegn på at noe har skjedd med deg.\"",
+    "button": "Fortell meg mer"
+  },
+  "s2": {
+    "tag": "Milde sannheter",
+    "title": "Hjernens overlevelseslogikk",
+    "truths": [
+      {
+        "header": "Alarmen forble på",
+        "body": "Hypervigilans og lett å bli skremt er ikke overreaksjoner — hjernens alarmsystem gjør jobben sin altfor godt."
+      },
+      {
+        "header": "Tilbakeblikk er minner",
+        "body": "Triggere trekker hjernen din tilbake fordi den aldri fikk signalet om at trusselen var over. Den prøver å beskytte deg."
+      },
+      {
+        "header": "Kjemper for deg",
+        "body": "Hvert symptom var en gang en overlevelseshandling. Hjernen din gjorde det den måtte for å holde deg i live."
+      }
+    ],
+    "healing": "Helbredelse handler ikke om å glemme. Det handler om å hjelpe hjernen din med å lære at du er trygg nå."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Logikken bak overlevelse • {{step}}/{{total}}",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

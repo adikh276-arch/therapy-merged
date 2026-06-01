@@ -1,0 +1,113 @@
+{
+  "app_title": "Pochopení řízení",
+  "app_subtitle": "Strategie přežití • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Proč může být kontrola tak silná",
+      "paragraphs": [
+        "Pro mnoho lidí, kteří mají potíže s jídlem, může kontrola působit jako způsob, jak vytvořit bezpečí.",
+        "Když se život zdá nepředvídatelný nebo emocionálně náročný, zaměření na jídlo, váhu nebo rutiny může přinést pocit struktury a jistoty.",
+        "Nejde o vůli nebo disciplínu. Jde o to snažit se uklidnit, když je něco nejisté.",
+        "Tímto způsobem se kontrola stává strategií zvládání — něčím, co vám pomůže cítit se ukotveni, i když jen dočasně."
+      ],
+      "microcopy": "Nejsi v tom sama, kdo to tak cítí.",
+      "cta": "Pokračovat"
+    },
+    {
+      "headline": "Různé způsoby, jak se ovládání objevuje",
+      "intro": "Potřeba kontroly nevypadá u každého stejně, ale často se projevuje ve vzorcích jako:",
+      "bullets": [
+        {
+          "text": "Přísná nebo nepružná pravidla pro jídlo"
+        },
+        {
+          "text": "Je potřeba přesně dodržovat rutiny"
+        },
+        {
+          "text": "Úzkost, když se plány mění"
+        },
+        {
+          "text": "Propojení sebehodnoty s tvarem/váhou"
+        }
+      ],
+      "outro": "Postupem času se tyto systémy mohou stát rigidními, zabírají mentální prostor a ztěžují přizpůsobení.",
+      "microcopy": "To, co začíná jako kontrola, se pomalu může začít působit jako kontrolující.",
+      "cta": "Pokračovat"
+    },
+    {
+      "headline": "Pod kontrolou",
+      "intro": "Touha kontrolovat má často hlubší kořeny. Může být propojen k:",
+      "bullets": [
+        {
+          "text": "Pocit emocionálního zaplavení"
+        },
+        {
+          "text": "Touha po předvídatelnosti"
+        },
+        {
+          "text": "Potřeba stability a bezpečí"
+        }
+      ],
+      "insight": "Kontrola není problém — je to strategie, kterou vaše mysl našla, jak se s tím vyrovnat. S časem a podporou jsou možné najít i jiné způsoby, jak se cítit v bezpečí.",
+      "microcopy": "Porozumění je silný první krok.",
+      "cta": "Dokončit čtení"
+    }
+  ],
+  "complete": {
+    "title": "Získané povědomí",
+    "message": "Pochopení kořenů kontroly je odvážný první krok k nalezení nových způsobů, jak se cítit bezpečně a stabilně.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Strategie přežití • {{step}}/3",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,113 @@
+{
+  "app_title": "Förståelse för kontroll",
+  "app_subtitle": "Överlevnadsstrategi • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Varför kontroll kan kännas så kraftfull",
+      "paragraphs": [
+        "För många som har ätsvårigheter kan kontroll kännas som ett sätt att skapa trygghet.",
+        "När livet känns oförutsägbart eller känslomässigt intensivt kan fokus på mat, vikt eller rutiner ge en känsla av struktur och säkerhet.",
+        "Det här handlar inte om viljestyrka eller disciplin. Det handlar om att försöka stabilisera sig när saker känns osäkra.",
+        "På så sätt blir kontroll en copingstrategi – något som hjälper dig att känna dig jordad, även om det bara är tillfälligt."
+      ],
+      "microcopy": "Du är inte ensam om att känna så här.",
+      "cta": "Fortsätt"
+    },
+    {
+      "headline": "Olika sätt som kontroll dyker upp på",
+      "intro": "Behovet av kontroll ser inte likadant ut för alla, men det visar sig ofta i mönster som:",
+      "bullets": [
+        {
+          "text": "Strikta eller oflexibla matregler"
+        },
+        {
+          "text": "Behöver följa rutiner exakt"
+        },
+        {
+          "text": "Ångest när planer ändras"
+        },
+        {
+          "text": "Att koppla självvärde till form/vikt"
+        }
+      ],
+      "outro": "Med tiden kan dessa bli stela, ta upp mental plats och göra det svårare att anpassa sig.",
+      "microcopy": "Det som börjar som kontroll kan långsamt börja kännas kontrollerande.",
+      "cta": "Fortsätt"
+    },
+    {
+      "headline": "Under kontrollen",
+      "intro": "Kontrollbehovet har ofta djupare rötter. Den kan kopplas till:",
+      "bullets": [
+        {
+          "text": "Känner sig känslomässigt överväldigad"
+        },
+        {
+          "text": "Att vilja ha förutsägbarhet"
+        },
+        {
+          "text": "Ett behov av stabilitet och säkerhet"
+        }
+      ],
+      "insight": "Kontroll är inte problemet – det är strategin ditt sinne hittade för att hantera det. Med tid och stöd finns andra sätt att känna sig trygg möjliga.",
+      "microcopy": "Förståelse är ett kraftfullt första steg.",
+      "cta": "Läs klart"
+    }
+  ],
+  "complete": {
+    "title": "Medvetenhet som uppnåtts",
+    "message": "Att förstå kontrollens rötter är ett modigt första steg mot att hitta nya sätt att känna sig trygg och stadig.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Överlevnadsstrategi • {{steg}}/3",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

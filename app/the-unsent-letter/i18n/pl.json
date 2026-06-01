@@ -1,0 +1,102 @@
+{
+  "app_title": "Niewysłany List",
+  "app_subtitle": "Wypuść swoje myśli bezpiecznie i prywatnie",
+  "intro": {
+    "title": "Niewysłany List",
+    "description": [
+      "Czasem są rzeczy, które chcielibyśmy powiedzieć — ale nigdy nie mieliśmy okazji.",
+      "Może dlatego, że nie czuł się bezpiecznie, nie był odpowiedni moment albo słowa były zbyt trudne do wypowiedzenia na głos.",
+      "Ta aktywność daje Ci prywatną przestrzeń, by ubrać te myśli w słowa.",
+      "Nie musisz wysyłać tego listu. To jest tylko dla ciebie — by lepiej wyrazić, uwolnić i zrozumieć swoje uczucia."
+    ],
+    "notice": "Pisz swobodnie. Nikt inny tego nie zobaczy.",
+    "button": "Zacznij pisać →"
+  },
+  "writing": {
+    "title": "Napisz to, co trzymałeś w sobie",
+    "desc": "Możesz pisać do swojego partnera, byłego partnera, a nawet do samego związku. Nie ma na to właściwego ani złego sposobu.",
+    "prompts": [
+      "Czuję się...",
+      "Chciałbym...",
+      "Nigdy nie mówiłem...",
+      "Co mnie zraniło...",
+      "Czego potrzebowałem..."
+    ],
+    "placeholder": "Drogi ____,\nChciałem powiedzieć...",
+    "notice": "Możesz zatrzymać i wrócić w każdej chwili.",
+    "button": "Kontynuuj →"
+  },
+  "reflection": {
+    "title": "Poświęć chwilę temu",
+    "description": [
+      "Po prostu ułożyłeś swoje myśli i uczucia w słowa — to wymaga odwagi.",
+      "Możesz teraz zauważyć mieszankę emocji i to jest całkowicie w porządku.",
+      "Zanim przejdziesz dalej, weź głęboki oddech i delikatnie sprawdź siebie."
+    ],
+    "notice": "To było dla twojego uzdrowienia, nie do wysłania.",
+    "save_button": "List zapisujący",
+    "finish_button": "Zakończenie"
+  },
+  "history": {
+    "title": "Listy z przeszłości",
+    "empty_title": "Jeszcze nie napisałaś żadnych listów.",
+    "empty_desc": "Twoje listy pojawią się tutaj, gdy je zapiszesz."
+  },
+  "toasts": {
+    "save_success": "List zapisany w twoim prywatnym dzienniku",
+    "save_error": "Nie udało się zapisać listu",
+    "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Uwolnij swoje myśli bezpiecznie i prywatnie",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

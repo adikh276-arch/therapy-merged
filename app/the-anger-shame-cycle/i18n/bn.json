@@ -1,0 +1,124 @@
+{
+  "app_title": "রাগ-লজ্জা চক্র",
+  "app_subtitle": "লুপটি বোঝা • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "ক্ষোভ কেন ফিরে আসে?",
+      "description": "এটা আপনার মেজাজ নাও হতে পারে। রাগ এবং লজ্জার মধ্যে একটি লুকানো লুপ রয়েছে - এবং একবার আপনি এটি দেখলে, সবকিছু পরিবর্তিত হয়।",
+      "quote": "বেশির ভাগ মানুষই রাগ ঠিক করার চেষ্টা করে। তবে লজ্জা হ'ল যা নীরবে এটি চালিয়ে যায়।",
+      "button": "আসুন অন্বেষণ করা যাক"
+    },
+    "s2": {
+      "tag": "চক্র",
+      "title": "লুপটি ব্যাখ্যা করা হয়েছে",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "ক্ষোভের সামনে"
+        },
+        {
+          "emoji": "😔",
+          "label": "লজ্জা: 'আমি খারাপ'"
+        },
+        {
+          "emoji": "🤐",
+          "label": "লজ্জা চাপা পড়ে যায়"
+        },
+        {
+          "emoji": "🔥",
+          "label": "ফের ক্ষোভ ছড়িয়ে পড়ে"
+        }
+      ],
+      "button": "আমি এটা দেখছি"
+    },
+    "s3": {
+      "tag": "কি হচ্ছে",
+      "title": "দুটো আবেগ, এক ফাঁদ",
+      "anger": {
+        "title": "🔥 রাগ",
+        "desc": "একটি গৌণ আবেগ - জীবনের নীচে আঘাত, ভয় বা প্রত্যাখ্যান। এটা অ্যালার্ম, আগুন নয়।"
+      },
+      "shame": {
+        "title": "😔 লজ্জা",
+        "desc": "\"আমি খারাপ\" - কেবল \"আমি খারাপ কিছু করেছি\" নয়। এটি আড়াল করে, নীরব করে এবং চক্রকে ঘুরতে রাখে।"
+      },
+      "button": "ব্রেকিং ফ্রি"
+    },
+    "s4": {
+      "tag": "বাধা",
+      "title": "চক্রকে বাধা দিন",
+      "steps": [
+        {
+          "title": "উৎসের নাম",
+          "desc": "প্রশ্ন করুন, 'আমি আসলে কী অনুভব করছি? আঘাত পেয়েছে? ভয় পাচ্ছেন? অদৃশ্য? নামকরণ করলে তা দুর্বল হয়ে পড়ে।"
+        },
+        {
+          "title": "সহানুভূতির বিরতি",
+          "desc": "বুকে হাত রাখুন। বলুনঃ এটা খুবই কঠিন। আমি মানুষ। আমি এর মধ্য দিয়ে যেতে পারি।'"
+        },
+        {
+          "title": "করুণার সাথে মেরামত করুন",
+          "desc": "প্রয়োজনে সংশোধন করুন - তবে সর্পিল করবেন না। আপনি আপনার সবচেয়ে খারাপ মুহূর্ত নন।"
+        }
+      ],
+      "notice": "চক্রটি লক্ষ্য করা ইতিমধ্যে প্রথম পদক্ষেপ। আপনি কাজটি করছেন।",
+      "button": "সম্পূর্ণ কার্যকলাপ"
+    }
+  },
+  "complete": {
+    "title": "সাইকেল বাধাগ্রস্ত",
+    "message": "আপনি রাগ এবং লজ্জার মধ্যে যোগসূত্র দেখার জন্য সচেতনতা অর্জন করেছেন। এটাই স্থায়ী মানসিক স্বাধীনতার ভিত্তি।"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "লুপ বোঝা • {{step}}/{{total}}",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

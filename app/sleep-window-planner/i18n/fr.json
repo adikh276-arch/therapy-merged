@@ -1,0 +1,147 @@
+{
+  "app_title": "Planificateur de fenêtres de sommeil",
+  "pill_labels": [
+    "Construis ta fenêtre",
+    "Fixe tes horaires",
+    "Ta fenêtre de sommeil"
+  ],
+  "screen1": {
+    "title": "Votre fenêtre de sommeil compte plus que vous ne le pensez",
+    "p1": "Une fenêtre de sommeil est le temps fixe entre le coucher et le réveil. Rester régulier — même le week-end — est l’une des choses les plus puissantes que vous puissiez faire pour votre sommeil.",
+    "p2": "Cet outil vous aide à construire le vôtre en moins de 2 minutes.",
+    "insight": "Même une différence d’une heure dans les heures de sommeil le week-end peut perturber votre ressenti toute la semaine.",
+    "meta": "Simple. Personnel. Efficace.",
+    "button": "Construisons la mienne →"
+  },
+  "screen2": {
+    "title": "Fixons ta fenêtre de sommeil",
+    "step1": {
+      "title": "ÉTAPE 1 — HEURE DU RÉVEIL",
+      "desc": "À quelle heure dois-tu te réveiller la plupart des jours ?"
+    },
+    "step2": {
+      "title": "ÉTAPE 2 — DURÉE DU SOMMEIL",
+      "desc": "Combien d’heures de sommeil veux-tu ?"
+    },
+    "live_window": {
+      "bedtime": "Heure du coucher",
+      "waketime": "Heure du réveil",
+      "duration": "{{hours}} heures de sommeil"
+    },
+    "italic": "La plupart des adultes ont besoin de 7 à 9 heures. Choisissez ce qui vous semble juste.",
+    "button": "Voir ma fenêtre de sommeil →"
+  },
+  "screen3": {
+    "title": "Ta fenêtre 🌙 de sommeil",
+    "result": {
+      "bedtime": "Heure du coucher",
+      "waketime": "Heure du réveil",
+      "duration": "Durée",
+      "hours": "{{hours}} heures"
+    },
+    "accordion1": {
+      "title": "3 façons de le protéger",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Détends-toi 30 minutes avant l’heure du coucher"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Même heure de veil tous les jours — oui, aussi le week-end"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Évitez les siestes de plus de 20 minutes après 15h"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Engage-toi à une chose ce soir",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Je range mon téléphone avant de dormir"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Commencez une routine de détente"
+        },
+        {
+          "emoji": "💡",
+          "text": "Baissez la lumière une heure avant le coucher"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Finis ma liste de choses à faire tôt"
+        }
+      ]
+    },
+    "quote": "La constance est plus puissante que la perfection. Une bonne nuit construit la suivante.",
+    "button": "Sauve ma fenêtre de sommeil ✓",
+    "saved_button": "✓ Fenêtre de sommeil sauvegardée !",
+    "adjust_times": "Ajustement des temps"
+  },
+  "complete": {
+    "title": "Fenêtre créée",
+    "message": "Votre fenêtre de sommeil idéale a été cartographiée. La régularité est la clé d’un repos profond et réparateur."
+  },
+  "toasts": {
+    "save_success": "Fenêtre de veille sauvegardée",
+    "save_error": "Échec à sauver la fenêtre de sommeil",
+    "auth_error": "Session d’authentification manquante ou base de données non configurée",
+    "saving": "Sauver..."
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Planificateur de fenêtre de sommeil",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

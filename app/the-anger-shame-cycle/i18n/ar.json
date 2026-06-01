@@ -1,0 +1,124 @@
+{
+  "app_title": "دورة الغضب والعار",
+  "app_subtitle": "فهم الحلقة • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "لماذا يستمر الغضب في العودة؟",
+      "description": "قد لا يكون هذا بسبب مزاجك. هناك حلقة خفية بين الغضب والعار — ومتى ما رأيتها، يتغير كل شيء.",
+      "quote": "\"معظم الناس يحاولون إصلاح الغضب. لكن العار هو ما يبقيها مستمرة بهدوء.\"",
+      "button": "دعونا نستكشف"
+    },
+    "s2": {
+      "tag": "الدورة",
+      "title": "شرح الحلقة",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "تظهر الغضب"
+        },
+        {
+          "emoji": "😔",
+          "label": "عار: \"أنا سيء\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "الخجل يدفن"
+        },
+        {
+          "emoji": "🔥",
+          "label": "الغضب ينفجر مجددا"
+        }
+      ],
+      "button": "أراه"
+    },
+    "s3": {
+      "tag": "ما الذي يحدث",
+      "title": "عاطفتان، فخ واحد",
+      "anger": {
+        "title": "🔥 الغضب",
+        "desc": "عاطفة ثانوية — تحت الأرواح الألم أو الخوف أو الرفض. إنه الإنذار، وليس الحريق."
+      },
+      "shame": {
+        "title": "😔 يا للعار",
+        "desc": "\"أنا سيء\" — وليس فقط \"فعلت شيئا سيئا.\" يختبئ، يصمت، ويحافظ على دوران الدورة."
+      },
+      "button": "التحرر"
+    },
+    "s4": {
+      "tag": "الانقطاع",
+      "title": "قطع الدورة",
+      "steps": [
+        {
+          "title": "اذكر المصدر",
+          "desc": "اسأل: 'ماذا أشعر فعلا؟' هل تألم؟ خائف؟ غير مرئي؟ تسميته يضعفها."
+        },
+        {
+          "title": "توقف التعاطف",
+          "desc": "يدا على صدر. قل: 'هذا صعب. أنا إنسان. أستطيع تجاوز هذا.'"
+        },
+        {
+          "title": "إصلاح برشاقة",
+          "desc": "تصحيح الأمور إذا لزم الأمر — لكن لا تغرق في دوامة الأحداث. أنت لست أسوأ لحظاتك."
+        }
+      ],
+      "notice": "ملاحظة الدورة هي الخطوة الأولى بالفعل. أنت تقوم بالعمل.",
+      "button": "النشاط الكامل"
+    }
+  },
+  "complete": {
+    "title": "انقطاع الدورة",
+    "message": "لقد اكتسبت الوعي لرؤية العلاقة بين الغضب والعار. هذا هو الأساس للحرية العاطفية الدائمة."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "فهم الحلقة • {{step}}/{{total}}",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,147 @@
+{
+  "app_title": "Perencana Jendela Tidur",
+  "pill_labels": [
+    "Bangun jendela Anda",
+    "Atur waktu Anda",
+    "Jendela tidur Anda"
+  ],
+  "screen1": {
+    "title": "Jendela tidur Anda lebih penting dari yang Anda pikirkan",
+    "p1": "Jendela tidur adalah waktu tetap antara saat Anda tidur dan saat Anda bangun. Tetap konsisten - bahkan di akhir pekan - adalah salah satu hal paling ampuh yang dapat Anda lakukan untuk tidur Anda.",
+    "p2": "Alat ini membantu Anda membangun milik Anda dalam waktu kurang dari 2 menit.",
+    "insight": "Bahkan perbedaan waktu tidur 1 jam di akhir pekan dapat mengganggu perasaan Anda sepanjang minggu.",
+    "meta": "Sederhana. Pribadi. Efektif.",
+    "button": "Mari kita bangun → saya"
+  },
+  "screen2": {
+    "title": "Mari atur jendela tidur Anda",
+    "step1": {
+      "title": "LANGKAH 1 — WAKTU BANGUN",
+      "desc": "Jam berapa Anda perlu bangun hampir setiap hari?"
+    },
+    "step2": {
+      "title": "LANGKAH 2 — DURASI TIDUR",
+      "desc": "Berapa jam tidur yang Anda inginkan?"
+    },
+    "live_window": {
+      "bedtime": "Waktu tidur",
+      "waketime": "Waktu bangun",
+      "duration": "{{hours}} jam tidur"
+    },
+    "italic": "Kebanyakan orang dewasa membutuhkan 7-9 jam. Pilih apa yang terasa tepat.",
+    "button": "Lihat jendela tidur saya →"
+  },
+  "screen3": {
+    "title": "Jendela 🌙 tidur Anda",
+    "result": {
+      "bedtime": "Waktu tidur",
+      "waketime": "Waktu bangun",
+      "duration": "Durasi",
+      "hours": "{{hours}} jam"
+    },
+    "accordion1": {
+      "title": "3 cara untuk melindunginya",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Bersantai 30 menit sebelum tidur"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Waktu bangun yang sama setiap hari — ya, akhir pekan juga"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Hindari tidur siang lebih dari 20 menit setelah jam 3 sore"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Berkomitmen pada 1 hal malam ini",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Singkirkan ponsel saya sebelum tidur"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Mulai rutinitas santai"
+        },
+        {
+          "emoji": "💡",
+          "text": "Redupkan lampu satu jam sebelum tidur"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Selesaikan daftar tugas saya lebih awal"
+        }
+      ]
+    },
+    "quote": "Konsistensi lebih kuat daripada kesempurnaan. Satu malam yang baik membangun malam berikutnya.",
+    "button": "Simpan jendela tidur saya ✓",
+    "saved_button": "✓ Jendela tidur disimpan!",
+    "adjust_times": "Sesuaikan Waktu"
+  },
+  "complete": {
+    "title": "Jendela Dibuat",
+    "message": "Jendela tidur ideal Anda telah dipetakan. Konsistensi adalah kunci istirahat yang mendalam dan memulihkan."
+  },
+  "toasts": {
+    "save_success": "Jendela tidur disimpan",
+    "save_error": "Gagal menyimpan jendela tidur",
+    "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
+    "saving": "Menghemat..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Perencana Jendela Tidur",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

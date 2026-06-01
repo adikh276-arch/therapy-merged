@@ -1,0 +1,146 @@
+{
+  "app_title": "Hafıza Kutusu",
+  "screen_titles": [
+    "Senin Kutun",
+    "Onurlandırma",
+    "İfade",
+    "Korunmuş",
+    "Nazik Bakım"
+  ],
+  "complete_title": "Korunan Hafıza",
+  "complete_message": "{{name}}'in bir anısını kutunuza güvenle yerleştirdiniz. Bu bağlantı anları her zaman senin tutacağındır.",
+  "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
+  "save_success": "Korunan hafıza",
+  "save_error": "Hafıza korunamadı",
+  "preserving": "Koruma...",
+  "preserve_memory": "Hafıza Koruma",
+  "welcome": {
+    "title": "Hafıza Kutunuz",
+    "subtitle1": "Sevdiğiniz birini hatırlamak için sessiz bir alan. 🤍",
+    "subtitle2": "Yavaşça nefes al...",
+    "subtitle3": "… ve nazikçe nefes ver.",
+    "subtitle4": "Bunu yapmanın doğru ya da yanlış bir yolu yok.",
+    "subtitle5": "Kendi hızında git. 🌿",
+    "begin": "Başla ✨",
+    "later": "Belki sonra"
+  },
+  "who": {
+    "placeholder_name": "İsimlerini yazın...",
+    "placeholder_relation": "Onları nasıl tanıyorsun? (isteğe bağlı)",
+    "categories": [
+      {
+        "label": "Mutlu bir an",
+        "emoji": "😊"
+      },
+      {
+        "label": "Eskiden söyledikleri bir şey",
+        "emoji": "💬"
+      },
+      {
+        "label": "Küçük bir günlük anı",
+        "emoji": "☕"
+      },
+      {
+        "label": "Onları hatırlatan bir yer",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Keşke söyleyebilsem",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Devam →"
+  },
+  "expression": {
+    "title": "Hafızınızı İfade Etmek",
+    "memory_label": "Hafızanın kendisi",
+    "memory_placeholder": "Anı, duyguyu ya da korumak istediğin detayı yaz...",
+    "message_label": "Onlara bir mesaj (isteğe bağlı)",
+    "message_placeholder": "Şu anda onlarla konuşabilseydin, ne derdin?",
+    "save": "Hafıza Koruma",
+    "skip": "Şimdilik atla",
+    "back": "Geri"
+  },
+  "box": {
+    "title": "Güvenle Saklanıyor",
+    "subtitle": "{{name}}'ın bu anısı artık koleksiyonunuzun bir parçası.",
+    "add_another": "Başka Bir Anı Ekle",
+    "finish": "Finish Reflection"
+  },
+  "closing": {
+    "title": "Bakım Yapmak",
+    "subtitle": "Şimdilik kutunu kapatıyorum. Bu anılara yakın hissetmek için istediğin zaman buraya dönebilirsin.",
+    "exit": "Kapat Kutusu"
+  },
+  "history": {
+    "title": "Kutu İçeriği",
+    "no_memories": "Kutunun boş. Koleksiyonunuza başlamak için ilk anınızı ekleyin.",
+    "search_placeholder": "Anıları ara..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Anı Kutusu",
+  "before_you_go": "Gitmeden önce",
+  "grief_comes_in_waves": "Yas dalgalar halinde gelir. 🌊",
+  "what_you_re_feeling_matters": "Hissettikleriniz önemli. 🤍",
+  "be_gentle_with_yourself_today": "Bugün kendinize karşı nazik olun. 🌿",
+  "save_exit": "Kaydet ve çık 🕊️",
+  "take_your_time": "Acele etmeyin 🕯️",
+  "save_to_memory_box": "Anı Kutusuna Kaydet 📦",
+  "write_as_much_or_as_little_as_you_want": "Dilediğiniz kadar yazın… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Söylemek istediğiniz bir şey varsa…",
+  "past_entries": "Geçmiş Girişler",
+  "no_memories_saved_yet": "Henüz hiçbir anı kaydedilmedi.",
+  "this_memory_is_held_here_for_you": "Bu hatıra burada, senin için saklanıyor. 🌿",
+  "add_another_memory": "Bir anı daha ekleyin ✨",
+  "finish_for_now": "Şimdilik bu kadar.",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

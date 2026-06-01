@@ -1,0 +1,81 @@
+{
+  "app_title": "Pourquoi le cerveau reste bloqué",
+  "app_subtitle": "La logique de la survie • {{step}}/{{total}}",
+  "s1": {
+    "title": "Ton cerveau ne s’est pas brisé. Il s’est adapté.",
+    "description": "Après un traumatisme, ton cerveau se reconfigure pour te protéger. Il a appris que le monde pouvait être dangereux, alors il est resté prêt. Ce n’est pas un défaut. C’est ça, la survie.",
+    "quote": "« Le PTSD n’est pas un signe que quelque chose ne va pas chez toi. C’est un signe qu’il t’est arrivé quelque chose. »",
+    "button": "Raconte-moi plus"
+  },
+  "s2": {
+    "tag": "Douces vérités",
+    "title": "Logique de survie cérébrale",
+    "truths": [
+      {
+        "header": "L’alarme resta activée",
+        "body": "L’hypervigilance et la surprise facile ne sont pas des réactions exagérées — le système d’alarme de votre cerveau fait trop bien son travail."
+      },
+      {
+        "header": "Les flashbacks sont des souvenirs",
+        "body": "Les déclencheurs attirent votre cerveau en arrière parce qu’il n’a jamais reçu le signal que la menace était terminée. Il essaie de te protéger."
+      },
+      {
+        "header": "Je me bats pour toi",
+        "body": "Chaque symptôme était autrefois un acte de survie. Ton cerveau a fait ce qu’il fallait pour te garder en vie."
+      }
+    ],
+    "healing": "La guérison ne consiste pas à oublier. Il s’agit d’aider votre cerveau à apprendre que vous êtes en sécurité maintenant."
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "La logique de la survie • {{step}}/{{total}}",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

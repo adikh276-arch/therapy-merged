@@ -1,0 +1,147 @@
+{
+  "app_title": "مخطط نوافذ النوم",
+  "pill_labels": [
+    "ابن نافذتك",
+    "حدد أوقاتك",
+    "نافذة نومك"
+  ],
+  "screen1": {
+    "title": "نافذة نومك أهم مما تعتقد",
+    "p1": "نافذة النوم هي الوقت الثابت بين وقت ذهابك للنوم ووقت استيقاظك. الحفاظ على استقراره — حتى في عطلات نهاية الأسبوع — هو أحد أقوى الأمور التي يمكنك القيام بها لنومك.",
+    "p2": "تساعدك هذه الأداة على بناء جهازك في أقل من دقيقتين.",
+    "insight": "حتى فرق ساعة واحدة في أوقات النوم في عطلة نهاية الأسبوع يمكن أن يؤثر على شعورك طوال الأسبوع.",
+    "meta": "بسيط. شخصي. فعال.",
+    "button": "لنبني مصنعي →"
+  },
+  "screen2": {
+    "title": "دعنا نحدد نافذة نومك",
+    "step1": {
+      "title": "الخطوة 1 — وقت الاستيقاظ",
+      "desc": "في أي وقت تحتاج للاستيقاظ معظم الأيام؟"
+    },
+    "step2": {
+      "title": "الخطوة 2 — مدة النوم",
+      "desc": "كم ساعة نوم تريد؟"
+    },
+    "live_window": {
+      "bedtime": "وقت النوم",
+      "waketime": "وقت الاستيقاظ",
+      "duration": "{{hours}} ساعات النوم"
+    },
+    "italic": "معظم البالغين يحتاجون إلى 7-9 ساعات. اختر ما تشعر أنه صحيح.",
+    "button": "انظر إلى نافذة نومي →"
+  },
+  "screen3": {
+    "title": "نافذة 🌙 نومك",
+    "result": {
+      "bedtime": "وقت النوم",
+      "waketime": "وقت الاستيقاظ",
+      "duration": "المدة",
+      "hours": "{{hours}} ساعات"
+    },
+    "accordion1": {
+      "title": "3 طرق لحمايته",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "استرخي قبل موعد نومك بثلاثين دقيقة"
+        },
+        {
+          "emoji": "⏰",
+          "text": "نفس وقت الاستيقاظ كل يوم — نعم، في عطلات نهاية الأسبوع أيضا"
+        },
+        {
+          "emoji": "🚫",
+          "text": "تجنب القيلولات التي تزيد عن 20 دقيقة بعد الساعة 3 مساء"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "التزم بشيء واحد الليلة",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "ضع هاتفي جانبا قبل النوم"
+        },
+        {
+          "emoji": "🛁",
+          "text": "ابدأ روتين الاسترخاء"
+        },
+        {
+          "emoji": "💡",
+          "text": "خففت الأنوار قبل النوم بساعة"
+        },
+        {
+          "emoji": "✍️",
+          "text": "أنهي قائمة مهامي مبكرا"
+        }
+      ]
+    },
+    "quote": "الاستمرارية أقوى من الكمال. ليلة جيدة تجمع الليلة التالية.",
+    "button": "أنقذ نافذة نومي ✓",
+    "saved_button": "✓ تم حفظ نافذة النوم!",
+    "adjust_times": "تعديل الأوقات"
+  },
+  "complete": {
+    "title": "النافذة التي تم إنشاؤها",
+    "message": "تم رسم خريطة نافذة نومك المثالية. الاستمرارية هي مفتاح الراحة العميقة والعلاجية."
+  },
+  "toasts": {
+    "save_success": "تم حفظ نافذة النوم",
+    "save_error": "فشل في حفظ نافذة السكون",
+    "auth_error": "جلسة المصادقة مفقودة أو قاعدة بيانات غير مهيأة",
+    "saving": "إنقاذ..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "مخطط نافذة النوم",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

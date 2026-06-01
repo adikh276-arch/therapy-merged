@@ -1,0 +1,252 @@
+{
+  "app_title": "Okno tolerance",
+  "screens": {
+    "welcome": {
+      "title": "Okno tolerance",
+      "subtitle": "Pochopte svůj nervový systém.\nNajdi cestu zpět k klidu.",
+      "description": "Tato jemná aktivita vám pomůže pochopit, kde se váš nervový systém právě nachází — a poskytne vám nástroje k nalezení rovnováhy. Jděte vlastním tempem. Tady jsi v bezpečí.",
+      "callout": "✨ Nadechni se. Jsi na správném místě.",
+      "button": "Začněme →",
+      "disclaimer": "Tato aktivita je podpůrným nástrojem, nikoli náhradou za profesionální terapii."
+    },
+    "explain": {
+      "title": "Tvůj nervový systém má okno",
+      "zones": {
+        "hyper": {
+          "label": "Hyperarosal",
+          "desc": "Přetížení, panikaření, mimo kontrolu.",
+          "tag": "🔴 Červená"
+        },
+        "safe": {
+          "label": "Bezpečná zóna",
+          "desc": "Klidný, přítomný, schopný jasně myslet.",
+          "tag": "🟢 Zelená"
+        },
+        "hypo": {
+          "label": "Hypoarousal",
+          "desc": "Otupělý, odpojený, zamlžený.",
+          "tag": "🔵 Modrá"
+        }
+      },
+      "footer": "Trauma vás může vytlačit z okna. To vám pomůže rozpoznat, kde jste, a vrátit se zpět dovnitř.",
+      "back": "← Zpět",
+      "next": "Další →"
+    },
+    "checkin": {
+      "title": "Kde teď jsi?",
+      "subtitle": "Nadechni se. Pak si upřímně vyber, kde se právě nacházíš.",
+      "footer": "Neexistuje špatná odpověď. To je jen váš výchozí bod.",
+      "back": "← Zpět",
+      "next": "Další →",
+      "zones": {
+        "hyper": {
+          "label": "Nad mým oknem",
+          "desc": "Cítím úzkost, paniku, vztek nebo zahlcení."
+        },
+        "safe": {
+          "label": "Uvnitř mého okna",
+          "desc": "Cítím se klidná, přítomná a uzemněná."
+        },
+        "hypo": {
+          "label": "Pod mým oknem",
+          "desc": "Cítím se otupěle, zamlženě nebo odpojeně."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Nad tvým oknem",
+        "subtitle": "Tvůj nervový systém je v přetížení. To je v pořádku. Přinesme tě zpátky jemně.",
+        "feelings": [
+          "Bušící srdce",
+          "Mělké dýchání",
+          "Panika nebo vztek",
+          "Závodní myšlenky",
+          "Neklid"
+        ],
+        "tools": [
+          {
+            "name": "Box Breathing",
+            "desc": "Nadech 4, měsíc 4, výdech 4, měsíc 4. Opakujte to 4krát."
+          },
+          {
+            "name": "5-4-3-2-1 Uzemnění",
+            "desc": "5 věcí vidí, 4 se dotkne, 3 slyší, 2 čichá, 1 ochutná."
+          },
+          {
+            "name": "Nohy na zemi",
+            "desc": "Přitlačte nohy dolů a řekněte: 'Jsem tady. Jsem v bezpečí. To přejde.'"
+          }
+        ],
+        "button": "Cítím se o něco klidnější →",
+        "footer": "Jsi v bezpečí. Dej si čas."
+      },
+      "hypo": {
+        "title": "Pod tvým oknem",
+        "subtitle": "Tvůj nervový systém ztichl. Chrání tě. Jemně ho probudíme.",
+        "feelings": [
+          "Necitlivost",
+          "Oddělení",
+          "Extrémní únava",
+          "Pocit neskutečnosti",
+          "Plochost"
+        ],
+        "tools": [
+          {
+            "name": "Jemný pohyb",
+            "desc": "Stůj, jdi pomalu, mávej rukama. Nechte své tělo probudit se."
+          },
+          {
+            "name": "Rytmický zvuk",
+            "desc": "Hrajte hudbu s pravidelným rytmem, poklepávejte nohama."
+          },
+          {
+            "name": "Mluvte nahlas",
+            "desc": "Řekni nahlas své jméno, místo, dnešní datum. Znovu zapojte myšlenkový mozek."
+          }
+        ],
+        "button": "Cítím se trochu víc přítomný →",
+        "footer": "Děláš to skvěle. Jděte krok za krokem."
+      },
+      "safe": {
+        "title": "Uvnitř tvého okna",
+        "subtitle": "Jste ve své bezpečné zóně. Právě zde dochází k uzdravení, propojení a růstu. Dobrá práce.",
+        "feelings": [
+          "Přítomný a vědomý",
+          "Pravidelné dýchání",
+          "Jasné myšlení",
+          "Propojení"
+        ],
+        "tools": [
+          {
+            "name": "Dýchej pomalu",
+            "desc": "Nádech nosem, výdech ústy."
+          },
+          {
+            "name": "Zamyslet se",
+            "desc": "Co vám pomohlo zůstat tady? Napiš si to."
+          },
+          {
+            "name": "Sebesoucit",
+            "desc": "'Můj nervový systém dělal svou práci. Nejsem rozbitý. Uzdravuji se.'"
+          }
+        ],
+        "button": "Pokračujte v mém nástrojovém →",
+        "footer": "Jsi hoden péče a uzdravení."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Vaše osobní sada nástrojů",
+      "subtitle": "Vaše osvědčené nástroje — uložené a připravené kdykoli je budete potřebovat.",
+      "tools_list": [
+        "🌬️ Box Breathing",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Nohy na zemi",
+        "🚶 Jemný pohyb",
+        "🎵 Hudba",
+        "💬 Mluvte nahlas"
+      ],
+      "journal_label": "📝 Dnešní reflexe",
+      "journal_desc": "Jaký byl dnes jeden okamžik, kdy jste si všimli, že se váš nervový systém mění — a co jste s tím udělali?",
+      "journal_placeholder": "Piš sem...",
+      "history_label": "📊 Váš týden na první pohled",
+      "save_button": "Uložit a dokončit ✓",
+      "footer": "Na tvé cestě záleží. Vraťte se, kdykoli budete potřebovat podporu.",
+      "preserving": "Uchování...",
+      "preserve_button": "Zachovat odraz"
+    }
+  },
+  "nav": [
+    "Check-in",
+    "Vysvětlení",
+    "Monitorování",
+    "Zóna",
+    "Sada nástrojů"
+  ],
+  "history": {
+    "title": "Historie přihlášení",
+    "empty": "Zatím žádné kontroly."
+  },
+  "toasts": {
+    "save_success": "Check-in zachován",
+    "save_error": "Nepodařilo se zachovat check-in",
+    "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze"
+  },
+  "complete": {
+    "title": "Kontrola dokončena",
+    "message": "Úspěšně jste zmapovali svůj současný stav. Budování povědomí je prvním krokem k nalezení rovnováhy."
+  },
+  "days": [
+    "Můj",
+    "Út",
+    "Střed",
+    "Podzim",
+    "Pá",
+    "Sobota",
+    "Slunce"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Okno tolerance",
+  "are_you_sure_you_want_to_exit": "Jste si jistý/á, že chcete odejít?",
+  "your_unsaved_data_will_be_lost": "Vaše neuložená data budou ztracena.",
+  "stay": "Pobyt",
+  "exit": "Výstup",
+  "exit_confirmation": "Potvrzení o ukončení",
+  "check_in_history": "Historie check-inů",
+  "close": "Blízko",
+  "screen_navigation": "Navigace na obrazovce",
+  "check_in": "Check-in",
+  "what_is_the_window_of_tolerance": "Co je Okno tolerance",
+  "your_personal_toolkit": "Vaše osobní sada nástrojů",
+  "welcome": "Vítejte",
+  "view_history": "Zobrazit historii",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

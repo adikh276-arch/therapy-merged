@@ -1,0 +1,146 @@
+{
+  "app_title": "میموری باکس",
+  "screen_titles": [
+    "تمہارا باکس",
+    "اعزازات",
+    "اظہار",
+    "محفوظ شدہ",
+    "جینٹل کیئر"
+  ],
+  "complete_title": "یادداشت محفوظ",
+  "complete_message": "آپ نے محفوظ طریقے سے {{name}} کی یادداشت اپنے باکس میں رکھ دی ہے۔ یہ تعلق کے لمحات ہمیشہ آپ کے لیے ہوتے ہیں۔",
+  "auth_error": "آتھ سیشن غائب ہے یا ڈیٹا بیس کنفیگر نہیں ہے",
+  "save_success": "یاد محفوظ",
+  "save_error": "یادداشت محفوظ رکھنے میں ناکام رہا",
+  "preserving": "محفوظ رکھنا...",
+  "preserve_memory": "یادداشت محفوظ رکھیں",
+  "welcome": {
+    "title": "آپ کی یادداشت کا ڈبہ",
+    "subtitle1": "ایک پرسکون جگہ جہاں آپ کسی ایسے شخص کو یاد کر سکیں جس سے آپ محبت کرتے ہیں۔ 🤍",
+    "subtitle2": "آہستہ سانس لو...",
+    "subtitle3": "… اور آہستہ سے سانس باہر نکالیں۔",
+    "subtitle4": "اس کا کوئی صحیح یا غلط طریقہ نہیں ہے۔",
+    "subtitle5": "اپنی رفتار سے جائیں۔ 🌿",
+    "begin": "آغاز ✨",
+    "later": "شاید بعد میں"
+  },
+  "who": {
+    "placeholder_name": "ان کا نام ٹائپ کریں...",
+    "placeholder_relation": "آپ انہیں کیسے جانتے ہیں؟ (اختیاری)",
+    "categories": [
+      {
+        "label": "ایک خوشگوار لمحہ",
+        "emoji": "😊"
+      },
+      {
+        "label": "کچھ ایسا جو وہ کہا کرتے تھے",
+        "emoji": "💬"
+      },
+      {
+        "label": "ایک چھوٹی سی روزمرہ یاد",
+        "emoji": "☕"
+      },
+      {
+        "label": "ایک ایسی جگہ جو آپ کو ان کی یاد دلاتی ہے",
+        "emoji": "🏡"
+      },
+      {
+        "label": "کچھ ایسا جو میں کہنا چاہتا ہوں",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "جاری →"
+  },
+  "expression": {
+    "title": "اپنی یادداشت کا اظہار",
+    "memory_label": "خود یادداشت",
+    "memory_placeholder": "اس لمحے، احساس یا تفصیل کے بارے میں لکھیں جو آپ رکھنا چاہتے ہیں...",
+    "message_label": "ان کے لیے ایک پیغام (اختیاری)",
+    "message_placeholder": "اگر آپ ابھی ان سے بات کر سکتے تو آپ کیا کہتے؟",
+    "save": "یادداشت محفوظ رکھیں",
+    "skip": "ابھی کے لیے چھوڑ دیں",
+    "back": "واپس"
+  },
+  "box": {
+    "title": "محفوظ طریقے سے چھپا ہوا",
+    "subtitle": "{{name}} کی یہ یاد اب آپ کے مجموعے کا حصہ ہے۔",
+    "add_another": "ایک اور یادداشت شامل کریں",
+    "finish": "اختتامی عکاسی"
+  },
+  "closing": {
+    "title": "خیال رکھنا",
+    "subtitle": "ابھی کے لیے آپ کا ڈبہ بند کر رہا ہوں۔ آپ جب چاہیں یہاں واپس آ سکتے ہیں تاکہ ان یادوں کے قریب محسوس کر سکیں۔",
+    "exit": "کلوز باکس"
+  },
+  "history": {
+    "title": "باکس کا مواد",
+    "no_memories": "تمہارا ڈبہ خالی ہے۔ اپنی پہلی یادداشت شامل کریں تاکہ آپ کی کلیکشن شروع ہو سکے۔",
+    "search_placeholder": "یادیں تلاش کرو..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "میموری باکس",
+  "before_you_go": "آپ کے جانے سے پہلے",
+  "grief_comes_in_waves": "غم لہروں میں آتا ہے۔ 🌊",
+  "what_you_re_feeling_matters": "آپ جو محسوس کر رہے ہیں وہ اہم ہے۔ 🤍",
+  "be_gentle_with_yourself_today": "آج اپنے ساتھ نرمی برتیں۔ 🌿",
+  "save_exit": "محفوظ کریں اور باہر نکلیں 🕊️",
+  "take_your_time": "اپنا وقت نکالیں 🕯️",
+  "save_to_memory_box": "میموری باکس میں محفوظ کریں 📦",
+  "write_as_much_or_as_little_as_you_want": "جتنا چاہیں لکھیں یا جتنا کم… ✍️",
+  "if_there_s_something_you_d_like_to_say": "اگر آپ کچھ کہنا چاہتے ہیں…",
+  "past_entries": "ماضی کے اندراجات",
+  "no_memories_saved_yet": "ابھی تک کوئی یادیں محفوظ نہیں ہیں۔",
+  "this_memory_is_held_here_for_you": "یہ یاد آپ کے لیے یہاں رکھی گئی ہے۔ 🌿",
+  "add_another_memory": "ایک اور میموری شامل کریں ✨",
+  "finish_for_now": "ابھی کے لیے ختم کریں۔",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

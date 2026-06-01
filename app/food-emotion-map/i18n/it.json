@@ -1,0 +1,139 @@
+{
+  "app_title": "Mappa di cibo ed emozioni",
+  "screen_titles": [
+    "Benvenuto",
+    "Modelli alimentari",
+    "Dialogo Interno",
+    "Sensore fisico",
+    "La Mappa",
+    "Supporto Gentile",
+    "Ultimo sguardo",
+    "Riflettendo"
+  ],
+  "welcome_text": "Ehi... Sono davvero felice che tu sia qui 💛. Mappiamo delicatamente cosa è successo.",
+  "coming_up_label": "Cosa succede ultimamente?",
+  "begin_mapping": "Inizia la mappatura",
+  "food_patterns_q": "Hmm... Ti capisco. Quando senti {{emotion}}... Come arriva di solito il cibo?",
+  "continue_button": "Continua",
+  "internal_dialogue_q": "In quei momenti... Che tipo di pensieri emergono?",
+  "write_placeholder": "Scrivi quello che ti viene in mente...",
+  "physical_sensing_q": "Se ti fermi un attimo... Cosa noti nel tuo corpo?",
+  "the_pattern_label": "Il Pattern",
+  "pattern_desc_1": "Quando senti {{emotion}}, il tuo corpo sente {{sensation}}...",
+  "pattern_desc_2": "… e il cibo diventa un modo per {{response}}, mentre pensieri come \"{{thought}}\" compaiono.",
+  "pattern_footer": "\"La consapevolezza dei modelli è libertà\"",
+  "support_q": "In quei momenti... Cosa potrebbe aiutarti—anche solo un po'?",
+  "understanding_text": "Stai capendo un po' meglio te stesso. È più che sufficiente 💛",
+  "how_feeling_now": "Come ti senti adesso?",
+  "preserve_button": "Mappa della Riserva",
+  "preserving": "Preservare...",
+  "complete_title": "Mappa conservata",
+  "complete_message": "Hai mappato con successo il legame tra i tuoi sentimenti e il cibo. Questa consapevolezza è uno strumento potente per un cambiamento delicato.",
+  "auth_error": "Sessione di autenticazione mancante o DB non configurato",
+  "save_success": "Modello preservato",
+  "save_error": "Non è riuscito a preservare il modello",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Tristezza",
+    "😶 Noia",
+    "😟 Ansia",
+    "🥺 Solitudine",
+    "💭 Qualcos'altro..."
+  ],
+  "food_responses": [
+    "🍽️ Mangio di più",
+    "🚫 Mangio meno",
+    "🍫 Desidero cibi specifici",
+    "😣 Evito il cibo",
+    "😐 Nessun vero cambiamento"
+  ],
+  "body_sensations": [
+    "💔 Petto stretto",
+    "🪨 Sensazione di pesantezza",
+    "🦵 Irrequieto / irrequieto",
+    "🔋 Bassa energia",
+    "🌀 Nodi allo stomaco",
+    "❓ Qualcos'altro..."
+  ],
+  "support_options": [
+    "🗣️ Parla con qualcuno",
+    "☕ Fai una pausa",
+    "📝 Rivista",
+    "🌬️ Respira",
+    "🎧 Mi distraevo"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Contattami 💛",
+      "body": "A volte condividere alleggerisce un po' le cose. Forse un semplice 'ehi, possiamo parlare?'"
+    },
+    "☕ Take a break": {
+      "title": "Pausa 💛",
+      "body": "Una breve pausa può aiutare a resettare le cose. Forse allontanati e fai qualche respiro lento."
+    },
+    "📝 Journal": {
+      "title": "Scrivilo 💛",
+      "body": "Potresti iniziare con 'in questo momento mi sento...' E lascia che scorra."
+    },
+    "🌬️ Breathe": {
+      "title": "Respira 💛",
+      "body": "Inspira 4... tieni 2... Espira 6... Rallentiamolo insieme."
+    },
+    "🎧 Distract myself": {
+      "title": "Spostamento 💛 delicato",
+      "body": "Una distrazione delicata può cambiare il momento... Forse qualcosa di leggero o semplice."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Mappa del cibo e delle emozioni",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,139 @@
+{
+  "app_title": "Mat- och känslokarta",
+  "screen_titles": [
+    "Välkommen",
+    "Födomönster",
+    "Intern dialog",
+    "Fysisk sensorik",
+    "Kartan",
+    "Varsamt stöd",
+    "Slutgiltigt utseende",
+    "Reflekterande"
+  ],
+  "welcome_text": "Hej... Jag är verkligen glad att du är här 💛. Låt oss försiktigt kartlägga vad som har hänt.",
+  "coming_up_label": "Vad har hänt på sistone?",
+  "begin_mapping": "Börja kartläggning",
+  "food_patterns_q": "Hmm... Jag hör dig. När du känner {{emotion}}... Hur brukar maten se ut?",
+  "continue_button": "Fortsätt",
+  "internal_dialogue_q": "I de stunderna... Vilka tankar dyker upp?",
+  "write_placeholder": "Skriv vad som än dyker upp i huvudet...",
+  "physical_sensing_q": "Om du pausar en sekund... Vad märker du i din kropp?",
+  "the_pattern_label": "Mönstret",
+  "pattern_desc_1": "När du känner {{emotion}}, känns din kropp {{sensation}}...",
+  "pattern_desc_2": "… och mat blir ett sätt att {{response}}, medan tankar som \"{{thought}}\" dyker upp.",
+  "pattern_footer": "\"Mönstermedvetenhet är frihet\"",
+  "support_q": "I de stunderna... Vad kan hjälpa dig—åtminstone lite?",
+  "understanding_text": "Du förstår dig själv lite bättre. Det räcker mer än väl 💛",
+  "how_feeling_now": "Hur mår du nu?",
+  "preserve_button": "Bevarakarta",
+  "preserving": "Bevara...",
+  "complete_title": "Bevarad karta",
+  "complete_message": "Du har framgångsrikt kartlagt kopplingen mellan dina känslor och mat. Denna medvetenhet är ett kraftfullt verktyg för mild förändring.",
+  "auth_error": "Auth-session saknas eller databas inte konfigurerad",
+  "save_success": "Mönster bevarat",
+  "save_error": "Misslyckades med att bevara mönstret",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Sorg",
+    "😶 Tristess",
+    "😟 Ångest",
+    "🥺 Ensamhet",
+    "💭 Något annat..."
+  ],
+  "food_responses": [
+    "🍽️ Jag äter mer",
+    "🚫 Jag äter mindre",
+    "🍫 Jag är sugen på specifika livsmedel",
+    "😣 Jag undviker mat",
+    "😐 Ingen verklig förändring"
+  ],
+  "body_sensations": [
+    "💔 Trångt bröst",
+    "🪨 Tung känsla",
+    "🦵 Rastlös / rastlös",
+    "🔋 Låg energi",
+    "🌀 Knutar i magen",
+    "❓ Något annat..."
+  ],
+  "support_options": [
+    "🗣️ Prata med någon",
+    "☕ Ta en paus",
+    "📝 Tidskrift",
+    "🌬️ Andas",
+    "🎧 Distrahera mig själv"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Hör av dig 💛",
+      "body": "Ibland lättar det lite på att dela med sig. Kanske ett enkelt 'hej, kan vi prata?'"
+    },
+    "☕ Take a break": {
+      "title": "Paus 💛",
+      "body": "En kort paus kan hjälpa till att återställa saker. Kanske ta ett steg tillbaka och ta några långsamma andetag."
+    },
+    "📝 Journal": {
+      "title": "Skriv ner 💛 det",
+      "body": "Du kan börja med 'just nu känner jag...' Och låt det bara flöda."
+    },
+    "🌬️ Breathe": {
+      "title": "Andas 💛",
+      "body": "Andas in 4... Håll 2... Andas ut 6... Låt oss sakta ner tillsammans."
+    },
+    "🎧 Distract myself": {
+      "title": "Mjuk förändring 💛",
+      "body": "En mild distraktion kan förändra ögonblicket... Kanske något lätt eller enkelt."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Mat- och känslokarta",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

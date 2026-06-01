@@ -1,0 +1,114 @@
+{
+  "app_title": "محفوظ جگہ",
+  "nav": [
+    "چیک ان",
+    "نرمی سے یاد کرو",
+    "مشاہدہ",
+    "موجودہ وقت میں رہنا",
+    "آگے بڑھنا"
+  ],
+  "s1": {
+    "title": "چلو کوئی ایسی جگہ ڈھونڈتے ہیں جو ٹھیک محسوس ہو",
+    "description": [
+      "شروع کرنے سے پہلے، ایک لمحہ نکال کر چیک کریں...",
+      "آپ اس وقت کیسا محسوس کر رہے ہیں؟",
+      "ہم ایک کامل \"محفوظ جگہ\" کی تلاش میں نہیں ہیں۔ بس کچھ ایسا جو تھوڑا سا پرسکون یا ٹھیک محسوس ہو۔"
+    ],
+    "placeholder": "آپ اس وقت کیسا محسوس کر رہے ہیں؟",
+    "button": "ویژولائزیشن شروع کریں"
+  },
+  "s2": {
+    "title": "نرمی سے اسے ذہن میں لائیں",
+    "description": [
+      "ایک ایسی جگہ کا تصور کریں جہاں آپ کو تھوڑی سی بھی سکون محسوس ہوئی... یا کوئی ایسی جگہ جس کی آپ خواہش کرتے ہیں کہ موجود ہو۔",
+      "اب خود کو وہاں رکھو...",
+      "کیا آپ بیٹھے ہیں، کھڑے ہیں، یا لیٹے ہوئے ہیں؟"
+    ],
+    "button": "جاری رکھیں"
+  },
+  "s3": {
+    "title": "آہستہ آہستہ اردگرد دیکھو",
+    "description": [
+      "آہستہ سے اردگرد دیکھو...",
+      "ایک چیز کیا ہے جو آپ دیکھ سکتے ہیں؟",
+      "اب ایک آواز نوٹ کرو... کیا سن رہے ہو؟"
+    ],
+    "button": "جاری رکھیں"
+  },
+  "s4": {
+    "title": "اس کے ساتھ رہیں",
+    "description": [
+      "اس جگہ میں ایسی کیا بات ہے جو اسے تھوڑا سا محفوظ یا ٹھیک محسوس کراتی ہے؟",
+      "جب آپ نے محسوس کیا کہ ...",
+      "اپنی توجہ اپنی سانس پر بھی مرکوز کریں۔"
+    ],
+    "breathe": "سانس لو",
+    "notice": "اگر تصور کرنا مشکل لگتا ہے تو اس جگہ کے تصور کے بارے میں سوچیں۔",
+    "button": "جاری رکھیں"
+  },
+  "s5": {
+    "title": "یہ اپنے ساتھ لے جاؤ",
+    "description": [
+      "دھیان دیں کہ آپ ابھی کیسا محسوس کر رہے ہیں۔ ایک چھوٹی سی تبدیلی بھی اہم ہے۔",
+      "دیکھیں کہ کیا آپ اس احساس کا 5٪ بھی ساتھ لے جا سکتے ہیں۔"
+    ],
+    "placeholder": "اب آپ کیسا محسوس کر رہے ہیں؟",
+    "button": "مکمل سیشن"
+  },
+  "complete": {
+    "title": "سیشن مکمل",
+    "message": "یہ محفوظ جگہ ہمیشہ آپ کے لیے دستیاب ہے۔ تم جب بھی تمہیں سکون کا لمحہ چاہیے ہو یہاں واپس آ سکتے ہو۔"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "محفوظ جگہ",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,113 @@
+{
+  "app_title": "Ohjauksen ymmärtäminen",
+  "app_subtitle": "Selviytymisstrategia • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Miksi kontrolli voi tuntua niin voimakkaalta",
+      "paragraphs": [
+        "Monille syömisvaikeuksista kärsiville hallinta voi tuntua keinolta luoda turvaa.",
+        "Kun elämä tuntuu arvaamattomalta tai emotionaalisesti intensiiviseltä, keskittyminen ruokaan, painoon tai rutiineihin voi tuoda rakenteen ja varmuuden tunteen.",
+        "Tässä ei ole kyse tahdonvoimasta tai kurinalaisuudesta. Kyse on siitä, että yrität tasapainottaa itsensä, kun asiat tuntuvat epävarmoilta.",
+        "Näin kontrollista tulee selviytymiskeino — jotain, joka auttaa sinua tuntemaan olosi maadoittuneeksi, vaikkakin vain väliaikaisesti."
+      ],
+      "microcopy": "Et ole yksin, joka tuntee näin.",
+      "cta": "Jatka"
+    },
+    {
+      "headline": "Erilaiset tavat kontrollin ilmenemismuodot",
+      "intro": "Hallinnan tarve ei näytä samalta kaikille, mutta se ilmenee usein kuvioissa kuten:",
+      "bullets": [
+        {
+          "text": "Tiukat tai joustamattomat ruokasäännöt"
+        },
+        {
+          "text": "Täytyy noudattaa rutiineja tarkasti"
+        },
+        {
+          "text": "Ahdistus, kun suunnitelmat muuttuvat"
+        },
+        {
+          "text": "Itsetunnon yhdistäminen muotoon/painoon"
+        }
+      ],
+      "outro": "Ajan myötä nämä voivat jäykistyä, viedä henkistä tilaa ja vaikeuttaa sopeutumista.",
+      "microcopy": "Se, mikä alkaa kontrollina, voi vähitellen alkaa tuntua kontrolloivalta.",
+      "cta": "Jatka"
+    },
+    {
+      "headline": "Ohjauksen alla",
+      "intro": "Kontrollin tarve on usein syvemmällä juurilla. Se voidaan yhdistää:",
+      "bullets": [
+        {
+          "text": "Tunne tunteiden tulvassa"
+        },
+        {
+          "text": "Halu ennustettavuuteen"
+        },
+        {
+          "text": "Tarve vakaudelle ja turvallisuudelle"
+        }
+      ],
+      "insight": "Kontrolli ei ole ongelma — se on strategia, jonka mielesi on löytänyt selviytyäkseen. Ajan ja tuen myötä on muitakin tapoja tuntea olo turvalliseksi.",
+      "microcopy": "Ymmärtäminen on voimakas ensimmäinen askel.",
+      "cta": "Viimeistele lukeminen"
+    }
+  ],
+  "complete": {
+    "title": "Tietoisuuden lisääminen",
+    "message": "Kontrollin juurien ymmärtäminen on rohkea ensimmäinen askel kohti uusien tapojen löytämistä tuntea olonsa turvalliseksi ja vakaaksi.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Selviytymisstrategia • {{step}}/3",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,139 @@
+{
+  "app_title": "Ernährungs- und Emotionskarte",
+  "screen_titles": [
+    "Willkommen",
+    "Ernährungsmuster",
+    "Innerer Dialog",
+    "Physikalische Wahrnehmung",
+    "Die Karte",
+    "Sanfte Unterstützung",
+    "Endgültiger Look",
+    "Reflektieren"
+  ],
+  "welcome_text": "Hey... Ich bin wirklich froh, dass du hier 💛 bist. Lass uns vorsichtig planen, was passiert ist.",
+  "coming_up_label": "Was steht in letzter Zeit an?",
+  "begin_mapping": "Beginnen mit der Kartierung",
+  "food_patterns_q": "Hmm... Ich verstehe dich. Wenn du {{emotion}} fühlst... Wie zeigt sich das Essen normalerweise?",
+  "continue_button": "Weitermachen",
+  "internal_dialogue_q": "In diesen Momenten... Welche Gedanken tauchen auf?",
+  "write_placeholder": "Schreib, was dir einfällt...",
+  "physical_sensing_q": "Wenn du eine Sekunde innehältst... Was bemerkst du an deinem Körper?",
+  "the_pattern_label": "Das Muster",
+  "pattern_desc_1": "Wenn du {{emotion}} fühlst, fühlt dein Körper {{sensation}}...",
+  "pattern_desc_2": "… Und Essen wird zu einem Weg zu {{response}}, während Gedanken wie \"{{thought}}\" auftauchen.",
+  "pattern_footer": "\"Musterbewusstsein ist Freiheit\"",
+  "support_q": "In diesen Momenten... Was könnte Ihnen helfen – auch nur ein bisschen?",
+  "understanding_text": "Du verstehst dich selbst ein bisschen besser. Das ist mehr als genug 💛",
+  "how_feeling_now": "Wie fühlst du dich jetzt?",
+  "preserve_button": "Erhaltungskarte",
+  "preserving": "Bewahren...",
+  "complete_title": "Karte erhalten",
+  "complete_message": "Du hast die Verbindung zwischen deinen Gefühlen und deinem Essen erfolgreich kartiert. Dieses Bewusstsein ist ein kraftvolles Werkzeug für sanfte Veränderung.",
+  "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
+  "save_success": "Muster erhalten",
+  "save_error": "Muster wurde nicht erhalten",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Traurigkeit",
+    "😶 Langeweile",
+    "😟 Angst",
+    "🥺 Einsamkeit",
+    "💭 Noch etwas anderes..."
+  ],
+  "food_responses": [
+    "🍽️ Ich esse mehr",
+    "🚫 Ich esse weniger",
+    "🍫 Ich habe Lust auf bestimmte Lebensmittel",
+    "😣 Ich meide Essen",
+    "😐 Keine wirkliche Veränderung"
+  ],
+  "body_sensations": [
+    "💔 Enge Brust",
+    "🪨 Schweres Gefühl",
+    "🦵 Unruhig / unruhig",
+    "🔋 Niedrige Energie",
+    "🌀 Knoten im Magen",
+    "❓ Noch etwas anderes..."
+  ],
+  "support_options": [
+    "🗣️ Sprich mit jemandem",
+    "☕ Mach eine Pause",
+    "📝 Zeitschrift",
+    "🌬️ Atme",
+    "🎧 Mich ablenken"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Melde dich 💛",
+      "body": "Manchmal lockert das Teilen die Stimmung ein wenig. Vielleicht ein einfaches 'Hey, können wir reden?'"
+    },
+    "☕ Take a break": {
+      "title": "Pause 💛",
+      "body": "Eine kurze Pause kann helfen, die Dinge zurückzusetzen. Vielleicht trittst du einen Schritt zurück und atmest ein paar Mal langsam durch."
+    },
+    "📝 Journal": {
+      "title": "Schreib es auf 💛",
+      "body": "Du könntest mit 'gerade jetzt fühle ich...' anfangen. Und lass es einfach fließen."
+    },
+    "🌬️ Breathe": {
+      "title": "Atme 💛",
+      "body": "Einatmen 4... Halt 2... Ausatmen 6... Lass uns gemeinsam langsamer machen."
+    },
+    "🎧 Distract myself": {
+      "title": "Sanfte Bewegung 💛",
+      "body": "Eine sanfte Ablenkung kann den Moment verändern... Vielleicht etwas Leichtes oder Einfaches."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Essen & Emotionen Karte",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

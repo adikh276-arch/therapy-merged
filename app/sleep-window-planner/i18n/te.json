@@ -1,0 +1,147 @@
+{
+  "app_title": "స్లీప్ విండో ప్లానర్",
+  "pill_labels": [
+    "మీ విండోను నిర్మించండి",
+    "మీ సమయాలను సెట్ చేయండి",
+    "మీ నిద్ర విండో"
+  ],
+  "screen1": {
+    "title": "మీరు అనుకున్నదానికంటే మీ నిద్ర కిటికీ చాలా ముఖ్యమైనది",
+    "p1": "స్లీప్ విండో అనేది మీరు నిద్రపోయే సమయం మరియు మీరు మేల్కొన్నప్పుడు మధ్య స్థిర సమయం. దీన్ని స్థిరంగా ఉంచడం - వారాంతాల్లో కూడా - మీ నిద్ర కోసం మీరు చేయగలిగే అత్యంత శక్తివంతమైన విషయాలలో ఒకటి.",
+    "p2": "ఈ సాధనం 2 నిమిషాల లోపు మీదిని నిర్మించడానికి మీకు సహాయపడుతుంది.",
+    "insight": "వారాంతాల్లో నిద్ర సమయాల్లో 1 గంట వ్యత్యాసం కూడా వారమంతా మీకు ఎలా అనిపిస్తుందో దెబ్బతీస్తుంది.",
+    "meta": "సరళమైనది. వ్యక్తిగత. ప్రభావవంతమైనది.",
+    "button": "గని → నిర్మిద్దాం"
+  },
+  "screen2": {
+    "title": "మీ నిద్ర విండోను సెట్ చేద్దాం",
+    "step1": {
+      "title": "దశ 1 - మేల్కొనే సమయం",
+      "desc": "మీరు చాలా రోజులు ఏ సమయంలో మేల్కొనాలి?"
+    },
+    "step2": {
+      "title": "దశ 2 - నిద్ర వ్యవధి",
+      "desc": "మీకు ఎన్ని గంటల నిద్ర కావాలి?"
+    },
+    "live_window": {
+      "bedtime": "నిద్రవేళ",
+      "waketime": "మేల్కొనే సమయం",
+      "duration": "{{hours}} గంటల నిద్ర"
+    },
+    "italic": "చాలా మంది పెద్దలకు 7–9 గంటలు అవసరం. ఏది సరైనది అనిపిస్తుందో ఎంచుకోండి.",
+    "button": "నా నిద్ర కిటికీని చూడండి →"
+  },
+  "screen3": {
+    "title": "మీ నిద్ర విండో 🌙",
+    "result": {
+      "bedtime": "నిద్రవేళ",
+      "waketime": "మేల్కొనే సమయం",
+      "duration": "వ్యవధి",
+      "hours": "{{hours}} గంటలు"
+    },
+    "accordion1": {
+      "title": "దానిని రక్షించడానికి 3 మార్గాలు",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "మీ నిద్రవేళకు 30 నిమిషాల ముందు మూసివేయండి"
+        },
+        {
+          "emoji": "⏰",
+          "text": "ప్రతిరోజూ అదే మేల్కొనే సమయం - అవును, వారాంతాలు కూడా"
+        },
+        {
+          "emoji": "🚫",
+          "text": "మధ్యాహ్నం 3 గంటల తర్వాత 20 నిమిషాల కంటే ఎక్కువ సేపు కునుకు తీయవద్దు."
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "ఈ రాత్రికి 1 పనికి కట్టుబడి ఉండండి",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "పడుకునే ముందు నా ఫోన్ ను దూరంగా ఉంచండి"
+        },
+        {
+          "emoji": "🛁",
+          "text": "విండ్ డౌన్ దినచర్యను ప్రారంభించండి"
+        },
+        {
+          "emoji": "💡",
+          "text": "పడుకోవటానికి ఒక గంట ముందు లైట్లను డిమ్ చేయండి"
+        },
+        {
+          "emoji": "✍️",
+          "text": "నేను చేయవలసిన పనుల జాబితాను ముందుగానే పూర్తి చేయండి"
+        }
+      ]
+    },
+    "quote": "పరిపూర్ణత కంటే స్థిరత్వం చాలా శక్తివంతమైనది. ఒక శుభరాత్రి మరొకదాన్ని నిర్మిస్తుంది.",
+    "button": "నా నిద్ర విండోను సేవ్ చేయండి ✓",
+    "saved_button": "✓ స్లీప్ విండో సేవ్ చేయబడింది!",
+    "adjust_times": "సమయాలను సర్దుబాటు చేయండి"
+  },
+  "complete": {
+    "title": "విండో సృష్టించబడింది",
+    "message": "మీ ఆదర్శ నిద్ర విండో మ్యాప్ చేయబడింది. లోతైన, పునరుద్ధరణ విశ్రాంతికి స్థిరత్వం కీలకం."
+  },
+  "toasts": {
+    "save_success": "నిద్ర విండో సేవ్ చేయబడింది",
+    "save_error": "నిద్ర విండోను సేవ్ చేయడం విఫలమైంది",
+    "auth_error": "ప్రమాణీకరణ సెషన్ మిస్ అయింది లేదా DB కాన్ఫిగర్ చేయబడలేదు",
+    "saving": "సేవ్ చేస్తోంది..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "స్లీప్ విండో ప్లానర్",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,145 @@
+{
+  "app_title": "Previsione vs Realtà",
+  "step_label": "Passo {{current}} di 8",
+  "intro": {
+    "title": "Previsione vs Realtà",
+    "description": "Confronta le tue previsioni ansiose con ciò che accade realmente per costruire una prospettiva più equilibrata.",
+    "benefits": [
+      "Identifica i modelli ansiosi",
+      "Raccogli prove contro le paure",
+      "Ridurre il rimuginare in futuro"
+    ],
+    "duration": "4-5 minuti",
+    "view_past": "Visualizza riflessioni passate"
+  },
+  "history": {
+    "title": "Riflessioni passate",
+    "no_reflections": "Nessun riflesso salvato ancora.",
+    "prediction_label": "Previsione",
+    "reality_label": "Realtà",
+    "reflection_label": "Riflessione:"
+  },
+  "complete": {
+    "title": "Attività completata",
+    "saved_title": "Riflessione salvata",
+    "message": "Guardando ai fatti, aiuti la tua mente a capire che le cose sono spesso più gestibili di quanto sembrino."
+  },
+  "emotions": [
+    "Ansioso",
+    "Nervoso",
+    "Spaventata",
+    "Sopraffatta",
+    "Inquieto"
+  ],
+  "intensity_labels": {
+    "not_intense": "Non intenso",
+    "very_intense": "Molto intenso"
+  },
+  "comparison_options": [
+    "È andata quasi esattamente come mi aspettavo",
+    "Alcune parti erano giuste, ma non tutte",
+    "Era molto diverso da quello che mi aspettavo",
+    "È stato molto più facile/migliore di quanto immaginassi"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Pensa a una situazione recente",
+      "desc": "Ricorda un momento recente in cui ti sei sentito ansioso o incerto.",
+      "placeholder": "Descrivi la situazione..."
+    },
+    "s2": {
+      "title": "Cosa pensavi sarebbe successo?",
+      "desc": "Cosa ti aspettavi o temevavi in quel momento?",
+      "placeholder": "Ero preoccupato che..."
+    },
+    "s3": {
+      "title": "Come ti sei sentita?",
+      "desc": "Seleziona le emozioni che hai provato e la loro intensità."
+    },
+    "s4": {
+      "title": "Cosa è successo davvero?",
+      "desc": "Concentrati sui fatti di ciò che è realmente accaduto.",
+      "placeholder": "In realtà..."
+    },
+    "s5": {
+      "title": "Vediamo entrambi",
+      "expectation": "Aspettative",
+      "reality": "Realtà",
+      "question": "Quanto era vicina la tua aspettativa?"
+    },
+    "s6": {
+      "title": "Cosa noti?",
+      "desc": "È stato così grave come pensavi?",
+      "placeholder": "Ho notato che..."
+    },
+    "s7": {
+      "title": "La prossima volta",
+      "desc": "Cosa potresti ricordarti se succedesse di nuovo?",
+      "placeholder": "ad esempio, \"Forse non sarà così grave come immagino.\""
+    },
+    "s8": {
+      "title": "Un piccolo promemoria",
+      "desc": "La tua mente cerca di prepararti—ma non sempre prevede con precisione. Ogni volta che ti fermi a guardare i fatti, costruisci resilienza.",
+      "button": "Salva la riflessione",
+      "discard": "Scartamento"
+    }
+  },
+  "buttons": {
+    "continue": "Continua"
+  },
+  "toasts": {
+    "saved": "Riflessione salvata!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Previsione contro realtà",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

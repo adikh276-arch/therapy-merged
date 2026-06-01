@@ -1,0 +1,145 @@
+{
+  "app_title": "การทํานายเทียบกับความเป็นจริง",
+  "step_label": "ขั้นตอนที่ {{current}} จาก 8",
+  "intro": {
+    "title": "การทํานายเทียบกับความเป็นจริง",
+    "description": "เปรียบเทียบการคาดการณ์ที่วิตกกังวลของคุณกับสิ่งที่เกิดขึ้นจริงเพื่อสร้างมุมมองที่สมดุลมากขึ้น",
+    "benefits": [
+      "ระบุรูปแบบความวิตกกังวล",
+      "รวบรวมหลักฐานต่อต้านความกลัว",
+      "ลดการคิดมากในอนาคต"
+    ],
+    "duration": "4-5 นาที",
+    "view_past": "ดูภาพสะท้อนในอดีต"
+  },
+  "history": {
+    "title": "ภาพสะท้อนในอดีต",
+    "no_reflections": "ยังไม่มีการบันทึกภาพสะท้อน",
+    "prediction_label": "การคาดการณ์",
+    "reality_label": "ความเป็นจริง",
+    "reflection_label": "การสะท้อน:"
+  },
+  "complete": {
+    "title": "กิจกรรมเสร็จสมบูรณ์",
+    "saved_title": "ภาพสะท้อนที่บันทึกไว้",
+    "message": "การดูข้อเท็จจริงจะช่วยให้คุณเรียนรู้ว่าสิ่งต่าง ๆ มักจะจัดการได้มากกว่าที่คิด"
+  },
+  "emotions": [
+    "วิตกกังวล",
+    "ประหม่า",
+    "กลัว",
+    "ท่วมท้น",
+    "ไม่สบายใจ"
+  ],
+  "intensity_labels": {
+    "not_intense": "ไม่เข้มข้น",
+    "very_intense": "เข้มข้นมาก"
+  },
+  "comparison_options": [
+    "มันกลายเป็นเกือบอย่างที่ฉันคาดไว้",
+    "บางส่วนถูกต้อง แต่ไม่ใช่ทุกอย่าง",
+    "มันค่อนข้างแตกต่างจากที่ฉันคาดไว้",
+    "มันง่ายกว่า/ดีกว่าที่ฉันคิดไว้มาก"
+  ],
+  "screens": {
+    "s1": {
+      "title": "นึกถึงสถานการณ์ล่าสุด",
+      "desc": "นึกถึงช่วงเวลาล่าสุดที่ท่านรู้สึกวิตกกังวลหรือไม่แน่ใจ",
+      "placeholder": "อธิบายสถานการณ์..."
+    },
+    "s2": {
+      "title": "คุณคิดว่าจะเกิดอะไรขึ้น?",
+      "desc": "คุณคาดหวังหรือกลัวอะไรในช่วงเวลานั้น?",
+      "placeholder": "ฉันกังวลว่า..."
+    },
+    "s3": {
+      "title": "คุณรู้สึกอย่างไร?",
+      "desc": "เลือกอารมณ์ที่คุณรู้สึกและความรุนแรงของอารมณ์เหล่านั้น"
+    },
+    "s4": {
+      "title": "เกิดอะไรขึ้นจริงๆ?",
+      "desc": "มุ่งเน้นไปที่ข้อเท็จจริงของสิ่งที่เกิดขึ้นจริง",
+      "placeholder": "ในความเป็นจริง..."
+    },
+    "s5": {
+      "title": "ลองดูทั้งสองอย่าง",
+      "expectation": "ความคาดหวัง",
+      "reality": "ความเป็นจริง",
+      "question": "ความคาดหวังของคุณใกล้เคียงแค่ไหน?"
+    },
+    "s6": {
+      "title": "คุณสังเกตเห็นอะไร?",
+      "desc": "มันแย่อย่างที่คุณคิดหรือไม่?",
+      "placeholder": "ฉันสังเกตเห็นว่า..."
+    },
+    "s7": {
+      "title": "ครั้งต่อไป",
+      "desc": "ท่านจะเตือนตัวเองอย่างไรหากสิ่งนี้เกิดขึ้นอีก",
+      "placeholder": "เช่น \"บางทีมันอาจจะไม่เลวร้ายอย่างที่ฉันคิด\""
+    },
+    "s8": {
+      "title": "เตือนความจําเล็กๆ น้อยๆ",
+      "desc": "จิตใจของคุณพยายามเตรียมคุณให้พร้อม แต่ก็ไม่ได้คาดการณ์ได้แม่นยําเสมอไป ทุกครั้งที่คุณหยุดชั่วคราวเพื่อดูข้อเท็จจริง คุณจะสร้างความยืดหยุ่น",
+      "button": "บันทึกการสะท้อนแสง",
+      "discard": "ทิ้งรายการ"
+    }
+  },
+  "buttons": {
+    "continue": "ดําเนินการต่อ"
+  },
+  "toasts": {
+    "saved": "ภาพสะท้อนบันทึกไว้!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "การคาดการณ์เทียบกับความเป็นจริง",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,1305 @@
+{
+  "Depression": {
+    "categories": [
+      {
+        "name": "Assess Your Mood",
+        "activities": [
+          {
+            "name": "Vibe Tracker",
+            "description": "Track daily changes in your mood",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          },
+          {
+            "name": "Energy Tracker",
+            "description": "Notice patterns in your energy levels",
+            "icon": "Zap",
+            "color": "#F97316",
+            "route": "/trackers/energy-tracker"
+          },
+          {
+            "name": "What Are Your Habits?",
+            "description": "Understand how daily routines shape your mood",
+            "icon": "Clock",
+            "color": "#6366F1",
+            "route": "/tools/what-are-your-habits"
+          }
+        ]
+      },
+      {
+        "name": "Breathing & Mindfulness",
+        "activities": [
+          {
+            "name": "Box Breathing",
+            "description": "Calm your nervous system with rhythmic breathing",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "4-6-8 Breathing",
+            "description": "Slow, deep breathing to ease your mind",
+            "icon": "Wind",
+            "color": "#0EA5E9",
+            "route": "/exercises/4-6-8-breathing"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Bring your attention back to the present moment",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          }
+        ]
+      },
+      {
+        "name": "Helpful Tools",
+        "activities": [
+          {
+            "name": "Affirmations",
+            "description": "Start your day with powerful, positive affirmations",
+            "icon": "Star",
+            "color": "#10B981",
+            "route": "/tools/affirmations"
+          },
+          {
+            "name": "Joyful Activities",
+            "description": "Rediscover activities that spark joy in you",
+            "icon": "Sparkles",
+            "color": "#EC4899",
+            "route": "/tools/joyful-activities"
+          },
+          {
+            "name": "A Letter to Self",
+            "description": "Write a compassionate letter to yourself",
+            "icon": "Book",
+            "color": "#6366F1",
+            "route": "/tools/a-letter-to-self"
+          }
+        ]
+      },
+      {
+        "name": "Track & Reflect",
+        "activities": [
+          {
+            "name": "Gratitude Tracker",
+            "description": "Build a daily habit of gratitude",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/gratitude-tracker"
+          },
+          {
+            "name": "Care Tracker",
+            "description": "Log your self-care activities each day",
+            "icon": "Heart",
+            "color": "#F97316",
+            "route": "/trackers/care-tracker"
+          },
+          {
+            "name": "Depression Tips",
+            "description": "Evidence-based tips for managing depression",
+            "icon": "Brain",
+            "color": "#14B8A6",
+            "route": "/tips/depression-tips"
+          }
+        ]
+      }
+    ]
+  },
+  "Anxiety": {
+    "categories": [
+      {
+        "name": "Understand Your Anxiety",
+        "activities": [
+          {
+            "name": "Vibe Tracker",
+            "description": "Monitor your anxiety levels day by day",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          },
+          {
+            "name": "What Are Your Habits?",
+            "description": "See how your routines affect your anxiety",
+            "icon": "Clock",
+            "color": "#6366F1",
+            "route": "/tools/what-are-your-habits"
+          }
+        ]
+      },
+      {
+        "name": "Breathing & Grounding",
+        "activities": [
+          {
+            "name": "Box Breathing",
+            "description": "Regulate your breath to calm anxiety",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "4-6-8 Breathing",
+            "description": "Slow, deep breaths to ease anxious feelings",
+            "icon": "Wind",
+            "color": "#0EA5E9",
+            "route": "/exercises/4-6-8-breathing"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Ground yourself with your five senses",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          },
+          {
+            "name": "Grounding Technique",
+            "description": "Anchor yourself to the present moment",
+            "icon": "Target",
+            "color": "#7C3AED",
+            "route": "/exercises/grounding-technique"
+          }
+        ]
+      },
+      {
+        "name": "Challenge Your Thoughts",
+        "activities": [
+          {
+            "name": "Diffusion Technique",
+            "description": "Create distance from unhelpful thoughts",
+            "icon": "Cloud",
+            "color": "#3B82F6",
+            "route": "/exercises/diffusion-technique"
+          },
+          {
+            "name": "Name Your Mind",
+            "description": "Observe your inner critic with curiosity",
+            "icon": "Brain",
+            "color": "#8B5CF6",
+            "route": "/exercises/name-your-mind"
+          },
+          {
+            "name": "Mind Reading Check",
+            "description": "Challenge assumptions about what others think",
+            "icon": "Brain",
+            "color": "#6366F1",
+            "route": "/exercises/mind-reading-check"
+          },
+          {
+            "name": "Prediction vs Reality",
+            "description": "Test your worried predictions against reality",
+            "icon": "Scale",
+            "color": "#0EA5E9",
+            "route": "/exercises/prediction-vs-reality"
+          }
+        ]
+      },
+      {
+        "name": "Track & Resources",
+        "activities": [
+          {
+            "name": "Care Tracker",
+            "description": "Track your self-care activities every day",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/care-tracker"
+          },
+          {
+            "name": "Anxiety Tips",
+            "description": "Practical tips and strategies for anxiety",
+            "icon": "Brain",
+            "color": "#14B8A6",
+            "route": "/tips/anxiety-tips"
+          }
+        ]
+      }
+    ]
+  },
+  "Stress": {
+    "categories": [
+      {
+        "name": "Check In",
+        "activities": [
+          {
+            "name": "Vibe Tracker",
+            "description": "Check in with your mood and stress levels",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          },
+          {
+            "name": "Energy Tracker",
+            "description": "Monitor energy dips that signal stress",
+            "icon": "Zap",
+            "color": "#F97316",
+            "route": "/trackers/energy-tracker"
+          }
+        ]
+      },
+      {
+        "name": "Breathe & Ground",
+        "activities": [
+          {
+            "name": "Box Breathing",
+            "description": "Activate your body's calm response",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Pull yourself back to the present moment",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          },
+          {
+            "name": "Diffusion Technique",
+            "description": "Defuse stressful thoughts before they spiral",
+            "icon": "Cloud",
+            "color": "#3B82F6",
+            "route": "/exercises/diffusion-technique"
+          }
+        ]
+      },
+      {
+        "name": "Release & Reframe",
+        "activities": [
+          {
+            "name": "Doodle Burst",
+            "description": "Express your stress creatively through doodling",
+            "icon": "Sparkles",
+            "color": "#EC4899",
+            "route": "/tools/doodle-burst"
+          },
+          {
+            "name": "Brain Dump & Sort",
+            "description": "Clear your mind by writing it all out",
+            "icon": "Brain",
+            "color": "#6366F1",
+            "route": "/tools/brain-dump-and-sort"
+          },
+          {
+            "name": "A Letter to Self",
+            "description": "Write with kindness to your stressed self",
+            "icon": "Book",
+            "color": "#8B5CF6",
+            "route": "/tools/a-letter-to-self"
+          }
+        ]
+      },
+      {
+        "name": "Healthy Habits",
+        "activities": [
+          {
+            "name": "Physical Activity Log",
+            "description": "Movement is one of the best stress relievers",
+            "icon": "Activity",
+            "color": "#10B981",
+            "route": "/trackers/physical-activity-log"
+          },
+          {
+            "name": "Environment Optimization",
+            "description": "Design a space that reduces stress",
+            "icon": "Sparkles",
+            "color": "#14B8A6",
+            "route": "/tools/environment-optimization"
+          },
+          {
+            "name": "Gratitude Tracker",
+            "description": "Shift focus to what's going right",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/gratitude-tracker"
+          },
+          {
+            "name": "Stress Tips",
+            "description": "Evidence-based strategies to manage stress",
+            "icon": "Brain",
+            "color": "#0EA5E9",
+            "route": "/tips/stress-tips"
+          }
+        ]
+      }
+    ]
+  },
+  "Sleep": {
+    "categories": [
+      {
+        "name": "Track Your Sleep",
+        "activities": [
+          {
+            "name": "Sleep Audit",
+            "description": "Understand your current sleep quality",
+            "icon": "Moon",
+            "color": "#3B82F6",
+            "route": "/trackers/sleep-audit"
+          },
+          {
+            "name": "Sleep Window Planner",
+            "description": "Set consistent sleep and wake times",
+            "icon": "Clock",
+            "color": "#6366F1",
+            "route": "/tools/sleep-window-planner"
+          },
+          {
+            "name": "Energy Tracker",
+            "description": "See how sleep affects your daytime energy",
+            "icon": "Zap",
+            "color": "#F97316",
+            "route": "/trackers/energy-tracker"
+          }
+        ]
+      },
+      {
+        "name": "Understand Sleep",
+        "activities": [
+          {
+            "name": "Sleep Guide",
+            "description": "Learn evidence-based tips for better sleep",
+            "icon": "Moon",
+            "color": "#0EA5E9",
+            "route": "/tips/sleep-guide"
+          },
+          {
+            "name": "Sleep Cycle Guide",
+            "description": "Understand your sleep cycles and stages",
+            "icon": "Moon",
+            "color": "#8B5CF6",
+            "route": "/tips/sleep-cycle-guide"
+          }
+        ]
+      },
+      {
+        "name": "Wind Down",
+        "activities": [
+          {
+            "name": "Box Breathing",
+            "description": "Breathe your way into a restful state",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "4-6-8 Breathing",
+            "description": "Calm your nervous system before bed",
+            "icon": "Wind",
+            "color": "#0EA5E9",
+            "route": "/exercises/4-6-8-breathing"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Quiet a racing mind before sleep",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          },
+          {
+            "name": "My Safe Space Canvas",
+            "description": "Visualise a peaceful place to drift off",
+            "icon": "Sparkles",
+            "color": "#EC4899",
+            "route": "/exercises/my-safe-space-canvas"
+          }
+        ]
+      },
+      {
+        "name": "Physical Wellness",
+        "activities": [
+          {
+            "name": "Physical Activity Log",
+            "description": "Exercise for better, deeper sleep",
+            "icon": "Activity",
+            "color": "#10B981",
+            "route": "/trackers/physical-activity-log"
+          },
+          {
+            "name": "Affirmations",
+            "description": "Positive affirmations for a restful mindset",
+            "icon": "Star",
+            "color": "#F59E0B",
+            "route": "/tools/affirmations"
+          },
+          {
+            "name": "Gratitude Tracker",
+            "description": "End the day with gratitude for better sleep",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/gratitude-tracker"
+          }
+        ]
+      }
+    ]
+  },
+  "Adolescent": {
+    "categories": [
+      {
+        "name": "Check In",
+        "activities": [
+          {
+            "name": "Vibe Tracker",
+            "description": "Track how you're feeling each day",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          },
+          {
+            "name": "Energy Tracker",
+            "description": "Notice what drains and restores your energy",
+            "icon": "Zap",
+            "color": "#F97316",
+            "route": "/trackers/energy-tracker"
+          },
+          {
+            "name": "What Are Your Habits?",
+            "description": "Explore your everyday routines and patterns",
+            "icon": "Clock",
+            "color": "#6366F1",
+            "route": "/tools/what-are-your-habits"
+          }
+        ]
+      },
+      {
+        "name": "Express Yourself",
+        "activities": [
+          {
+            "name": "Doodle Burst",
+            "description": "Draw out your feelings freely",
+            "icon": "Sparkles",
+            "color": "#EC4899",
+            "route": "/tools/doodle-burst"
+          },
+          {
+            "name": "A Letter to Self",
+            "description": "Write to yourself with honesty and kindness",
+            "icon": "Book",
+            "color": "#6366F1",
+            "route": "/tools/a-letter-to-self"
+          },
+          {
+            "name": "Affirmations",
+            "description": "Build your confidence with daily affirmations",
+            "icon": "Star",
+            "color": "#10B981",
+            "route": "/tools/affirmations"
+          }
+        ]
+      },
+      {
+        "name": "Mindfulness",
+        "activities": [
+          {
+            "name": "Box Breathing",
+            "description": "Calm yourself down with structured breathing",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Use your senses to stay present",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          },
+          {
+            "name": "Joyful Activities",
+            "description": "Make time for things you love",
+            "icon": "Sparkles",
+            "color": "#F59E0B",
+            "route": "/tools/joyful-activities"
+          }
+        ]
+      },
+      {
+        "name": "Build Good Habits",
+        "activities": [
+          {
+            "name": "Gratitude Tracker",
+            "description": "Notice the good things in your day",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/gratitude-tracker"
+          },
+          {
+            "name": "Care Tracker",
+            "description": "Build consistent self-care habits",
+            "icon": "Heart",
+            "color": "#F97316",
+            "route": "/trackers/care-tracker"
+          },
+          {
+            "name": "Know Your Values",
+            "description": "Clarify what matters most to you",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/tools/know-your-values"
+          }
+        ]
+      }
+    ]
+  },
+  "Relationship": {
+    "categories": [
+      {
+        "name": "Know Your Patterns",
+        "activities": [
+          {
+            "name": "Relationship Patterns Unpacked",
+            "description": "Identify recurring patterns in your relationships",
+            "icon": "Users",
+            "color": "#EC4899",
+            "route": "/tools/relationship-patterns-unpacked"
+          },
+          {
+            "name": "Redraw Your Circle",
+            "description": "Reflect on who you want in your inner circle",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/tools/redraw-your-circle"
+          },
+          {
+            "name": "What Do I Need?",
+            "description": "Get clear on your emotional needs",
+            "icon": "Heart",
+            "color": "#F59E0B",
+            "route": "/tools/what-do-i-need"
+          }
+        ]
+      },
+      {
+        "name": "Express & Heal",
+        "activities": [
+          {
+            "name": "The Unsent Letter",
+            "description": "Say what you couldn't say out loud",
+            "icon": "Book",
+            "color": "#6366F1",
+            "route": "/tools/the-unsent-letter"
+          },
+          {
+            "name": "A Letter to Self",
+            "description": "Reflect on your role in relationships",
+            "icon": "Book",
+            "color": "#8B5CF6",
+            "route": "/tools/a-letter-to-self"
+          },
+          {
+            "name": "Repair & Reconnect",
+            "description": "Take steps to heal a damaged bond",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/tools/repair-and-reconnect"
+          }
+        ]
+      },
+      {
+        "name": "Mindfulness",
+        "activities": [
+          {
+            "name": "Diffusion Technique",
+            "description": "Separate yourself from reactive thoughts",
+            "icon": "Cloud",
+            "color": "#3B82F6",
+            "route": "/exercises/diffusion-technique"
+          },
+          {
+            "name": "A Pause for Appreciation",
+            "description": "Appreciate the good in your relationships",
+            "icon": "Star",
+            "color": "#F59E0B",
+            "route": "/trackers/a-pause-for-appreciation"
+          },
+          {
+            "name": "Affirmations",
+            "description": "Build confidence and self-worth",
+            "icon": "Star",
+            "color": "#10B981",
+            "route": "/tools/affirmations"
+          }
+        ]
+      },
+      {
+        "name": "Track & Reflect",
+        "activities": [
+          {
+            "name": "Vibe Tracker",
+            "description": "Track how relationships affect your mood",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          },
+          {
+            "name": "Gratitude Tracker",
+            "description": "Notice the positive aspects of your connections",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/gratitude-tracker"
+          },
+          {
+            "name": "Know Your Values",
+            "description": "Build relationships aligned with your values",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/tools/know-your-values"
+          }
+        ]
+      }
+    ]
+  },
+  "Workplace": {
+    "categories": [
+      {
+        "name": "Check In",
+        "activities": [
+          {
+            "name": "Vibe Tracker",
+            "description": "Track how work is affecting your mood",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          },
+          {
+            "name": "Energy Tracker",
+            "description": "Spot burnout before it takes over",
+            "icon": "Zap",
+            "color": "#F97316",
+            "route": "/trackers/energy-tracker"
+          }
+        ]
+      },
+      {
+        "name": "Organise Your Mind",
+        "activities": [
+          {
+            "name": "Brain Dump & Sort",
+            "description": "Clear mental clutter and prioritise tasks",
+            "icon": "Brain",
+            "color": "#6366F1",
+            "route": "/tools/brain-dump-and-sort"
+          },
+          {
+            "name": "Environment Optimisation",
+            "description": "Create a workspace that helps you thrive",
+            "icon": "Sparkles",
+            "color": "#14B8A6",
+            "route": "/tools/environment-optimization"
+          },
+          {
+            "name": "What Are Your Habits?",
+            "description": "Understand your work habits and patterns",
+            "icon": "Clock",
+            "color": "#6366F1",
+            "route": "/tools/what-are-your-habits"
+          }
+        ]
+      },
+      {
+        "name": "Mindfulness & Calm",
+        "activities": [
+          {
+            "name": "Box Breathing",
+            "description": "Reset during stressful moments at work",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "Diffusion Technique",
+            "description": "Step back from work-related anxious thoughts",
+            "icon": "Cloud",
+            "color": "#3B82F6",
+            "route": "/exercises/diffusion-technique"
+          },
+          {
+            "name": "Physical Activity Log",
+            "description": "Stay active to counteract desk fatigue",
+            "icon": "Activity",
+            "color": "#10B981",
+            "route": "/trackers/physical-activity-log"
+          }
+        ]
+      },
+      {
+        "name": "Values & Purpose",
+        "activities": [
+          {
+            "name": "Know Your Values",
+            "description": "Align your work with what truly matters to you",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/tools/know-your-values"
+          },
+          {
+            "name": "Personal Mission Statement",
+            "description": "Define your professional purpose and direction",
+            "icon": "Target",
+            "color": "#6366F1",
+            "route": "/tools/personal-mission-statement"
+          },
+          {
+            "name": "Stress Tips",
+            "description": "Practical strategies for workplace stress",
+            "icon": "Brain",
+            "color": "#14B8A6",
+            "route": "/tips/stress-tips"
+          },
+          {
+            "name": "Care Tracker",
+            "description": "Maintain self-care alongside your work life",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/care-tracker"
+          }
+        ]
+      }
+    ]
+  },
+  "Parenting": {
+    "categories": [
+      {
+        "name": "Your Wellbeing First",
+        "activities": [
+          {
+            "name": "Vibe Tracker",
+            "description": "Check in with how you're feeling as a parent",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          },
+          {
+            "name": "Energy Tracker",
+            "description": "Notice what depletes and restores you",
+            "icon": "Zap",
+            "color": "#F97316",
+            "route": "/trackers/energy-tracker"
+          }
+        ]
+      },
+      {
+        "name": "Mindfulness for Parents",
+        "activities": [
+          {
+            "name": "A Pause for Appreciation",
+            "description": "Pause and notice the good moments",
+            "icon": "Star",
+            "color": "#F59E0B",
+            "route": "/trackers/a-pause-for-appreciation"
+          },
+          {
+            "name": "Box Breathing",
+            "description": "Calm yourself in stressful parenting moments",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Stay present and grounded for your family",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          }
+        ]
+      },
+      {
+        "name": "Emotional Tools",
+        "activities": [
+          {
+            "name": "Affirmations",
+            "description": "Build confidence in your parenting journey",
+            "icon": "Star",
+            "color": "#10B981",
+            "route": "/tools/affirmations"
+          },
+          {
+            "name": "A Letter to Self",
+            "description": "Reflect on your growth as a parent",
+            "icon": "Book",
+            "color": "#6366F1",
+            "route": "/tools/a-letter-to-self"
+          },
+          {
+            "name": "Compassion Break",
+            "description": "Offer yourself the compassion you give your child",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/exercises/compassion-break"
+          }
+        ]
+      },
+      {
+        "name": "Build Positive Habits",
+        "activities": [
+          {
+            "name": "Daily Gratitude Diary",
+            "description": "Reflect on small wins in your parenting day",
+            "icon": "Book",
+            "color": "#F59E0B",
+            "route": "/trackers/daily-gratitude-diary"
+          },
+          {
+            "name": "Gratitude Tracker",
+            "description": "Notice the joys of parenthood",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/gratitude-tracker"
+          },
+          {
+            "name": "Care Tracker",
+            "description": "Remember to take care of yourself too",
+            "icon": "Heart",
+            "color": "#F97316",
+            "route": "/trackers/care-tracker"
+          },
+          {
+            "name": "Know Your Values",
+            "description": "Parent in alignment with your deepest values",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/tools/know-your-values"
+          }
+        ]
+      }
+    ]
+  },
+  "Anger": {
+    "categories": [
+      {
+        "name": "Understand Your Anger",
+        "activities": [
+          {
+            "name": "Anger Facts & Myths",
+            "description": "Separate truth from myth about anger",
+            "icon": "Brain",
+            "color": "#EF4444",
+            "route": "/tips/anger-facts-myths"
+          },
+          {
+            "name": "The Anger–Shame Cycle",
+            "description": "Understand the emotions beneath your anger",
+            "icon": "Brain",
+            "color": "#DC2626",
+            "route": "/tips/the-anger-shame-cycle"
+          },
+          {
+            "name": "Vibe Tracker",
+            "description": "Track triggers and patterns in your anger",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          }
+        ]
+      },
+      {
+        "name": "Pause & Breathe",
+        "activities": [
+          {
+            "name": "The Pause Practice",
+            "description": "Create space between trigger and response",
+            "icon": "Clock",
+            "color": "#F97316",
+            "route": "/exercises/the-pause-practice"
+          },
+          {
+            "name": "Box Breathing",
+            "description": "Slow down your body's anger response",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Ground yourself when anger flares",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          }
+        ]
+      },
+      {
+        "name": "Release & Reflect",
+        "activities": [
+          {
+            "name": "Doodle Burst",
+            "description": "Channel your anger into creative expression",
+            "icon": "Sparkles",
+            "color": "#EC4899",
+            "route": "/tools/doodle-burst"
+          },
+          {
+            "name": "Diffusion Technique",
+            "description": "Defuse angry thoughts before they escalate",
+            "icon": "Cloud",
+            "color": "#3B82F6",
+            "route": "/exercises/diffusion-technique"
+          },
+          {
+            "name": "Name Your Mind",
+            "description": "Observe your angry inner voice with curiosity",
+            "icon": "Brain",
+            "color": "#8B5CF6",
+            "route": "/exercises/name-your-mind"
+          }
+        ]
+      },
+      {
+        "name": "Repair & Reconnect",
+        "activities": [
+          {
+            "name": "Repair & Reconnect",
+            "description": "Heal relationships after an anger episode",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/tools/repair-and-reconnect"
+          },
+          {
+            "name": "Compassion Break",
+            "description": "Extend compassion to yourself and others",
+            "icon": "Heart",
+            "color": "#F97316",
+            "route": "/exercises/compassion-break"
+          },
+          {
+            "name": "Energy Tracker",
+            "description": "Spot the moments when you're most reactive",
+            "icon": "Zap",
+            "color": "#F97316",
+            "route": "/trackers/energy-tracker"
+          }
+        ]
+      }
+    ]
+  },
+  "Grief": {
+    "categories": [
+      {
+        "name": "Map Your Journey",
+        "activities": [
+          {
+            "name": "Grief Journey Map",
+            "description": "Trace your grief journey and see your progress",
+            "icon": "Target",
+            "color": "#64748B",
+            "route": "/tools/grief-journey-map"
+          },
+          {
+            "name": "Memory Box",
+            "description": "Preserve precious memories in your heart",
+            "icon": "Star",
+            "color": "#F59E0B",
+            "route": "/tools/memory-box"
+          },
+          {
+            "name": "Continuing Bonds",
+            "description": "Maintain a meaningful connection with your loss",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/tools/continuing-bonds"
+          }
+        ]
+      },
+      {
+        "name": "Express & Release",
+        "activities": [
+          {
+            "name": "A Gentle Wish",
+            "description": "Send love and wishes to whom you've lost",
+            "icon": "Star",
+            "color": "#8B5CF6",
+            "route": "/tools/a-gentle-wish"
+          },
+          {
+            "name": "Missing Someone",
+            "description": "Acknowledge the ache of missing someone dear",
+            "icon": "Heart",
+            "color": "#6366F1",
+            "route": "/tools/missing-someone"
+          },
+          {
+            "name": "The Unsent Letter",
+            "description": "Say the things you never got to say",
+            "icon": "Book",
+            "color": "#64748B",
+            "route": "/tools/the-unsent-letter"
+          }
+        ]
+      },
+      {
+        "name": "Write & Reflect",
+        "activities": [
+          {
+            "name": "Write Your Narrative",
+            "description": "Tell your story of loss in your own words",
+            "icon": "Book",
+            "color": "#6366F1",
+            "route": "/tools/write-your-narrative"
+          },
+          {
+            "name": "A Letter to Self",
+            "description": "Write to yourself with gentleness and care",
+            "icon": "Book",
+            "color": "#8B5CF6",
+            "route": "/tools/a-letter-to-self"
+          }
+        ]
+      },
+      {
+        "name": "Find Peace",
+        "activities": [
+          {
+            "name": "Compassion Break",
+            "description": "Be kind to yourself through the pain",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/exercises/compassion-break"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Anchor yourself in moments of overwhelm",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          },
+          {
+            "name": "Gratitude Tracker",
+            "description": "Notice moments of beauty amidst grief",
+            "icon": "Heart",
+            "color": "#F59E0B",
+            "route": "/trackers/gratitude-tracker"
+          },
+          {
+            "name": "Vibe Tracker",
+            "description": "Track your emotional journey through grief",
+            "icon": "Smile",
+            "color": "#64748B",
+            "route": "/trackers/vibe-tracker"
+          }
+        ]
+      }
+    ]
+  },
+  "PTSD": {
+    "categories": [
+      {
+        "name": "Understand Your Trauma",
+        "activities": [
+          {
+            "name": "Why the Brain Gets Stuck",
+            "description": "Learn why trauma responses happen",
+            "icon": "Brain",
+            "color": "#14B8A6",
+            "route": "/tips/why-brain-gets-stuck"
+          },
+          {
+            "name": "Window of Tolerance",
+            "description": "Understand your nervous system's safe zone",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/window-of-tolerance"
+          }
+        ]
+      },
+      {
+        "name": "Safety & Grounding",
+        "activities": [
+          {
+            "name": "Safe Space",
+            "description": "Build an internal safe space when triggered",
+            "icon": "Sparkles",
+            "color": "#10B981",
+            "route": "/exercises/safe-space"
+          },
+          {
+            "name": "My Safe Space Canvas",
+            "description": "Visualise and draw your place of peace",
+            "icon": "Sparkles",
+            "color": "#EC4899",
+            "route": "/exercises/my-safe-space-canvas"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Use your senses to exit flashbacks",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          },
+          {
+            "name": "Grounding Technique",
+            "description": "Stay anchored to the present moment",
+            "icon": "Target",
+            "color": "#7C3AED",
+            "route": "/exercises/grounding-technique"
+          }
+        ]
+      },
+      {
+        "name": "Breathe & Calm",
+        "activities": [
+          {
+            "name": "Box Breathing",
+            "description": "Regulate your nervous system with breath",
+            "icon": "Wind",
+            "color": "#06B6D4",
+            "route": "/exercises/box-breathing"
+          },
+          {
+            "name": "Compassion Break",
+            "description": "Offer yourself kindness in the hard moments",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/exercises/compassion-break"
+          }
+        ]
+      },
+      {
+        "name": "Process & Heal",
+        "activities": [
+          {
+            "name": "Name Your Mind",
+            "description": "Observe intrusive thoughts without judgment",
+            "icon": "Brain",
+            "color": "#8B5CF6",
+            "route": "/exercises/name-your-mind"
+          },
+          {
+            "name": "Diffusion Technique",
+            "description": "Create space between you and traumatic thoughts",
+            "icon": "Cloud",
+            "color": "#3B82F6",
+            "route": "/exercises/diffusion-technique"
+          },
+          {
+            "name": "Write Your Narrative",
+            "description": "Reclaim your story on your own terms",
+            "icon": "Book",
+            "color": "#6366F1",
+            "route": "/tools/write-your-narrative"
+          },
+          {
+            "name": "Vibe Tracker",
+            "description": "Track your healing journey over time",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          }
+        ]
+      }
+    ]
+  },
+  "Acceptance": {
+    "categories": [
+      {
+        "name": "Know Yourself",
+        "activities": [
+          {
+            "name": "Know Your Values",
+            "description": "Discover what you truly stand for",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/tools/know-your-values"
+          },
+          {
+            "name": "Personal Mission Statement",
+            "description": "Define your path with purpose and clarity",
+            "icon": "Target",
+            "color": "#6366F1",
+            "route": "/tools/personal-mission-statement"
+          },
+          {
+            "name": "What Do I Need?",
+            "description": "Identify and honour your core needs",
+            "icon": "Heart",
+            "color": "#F59E0B",
+            "route": "/tools/what-do-i-need"
+          }
+        ]
+      },
+      {
+        "name": "Be Present",
+        "activities": [
+          {
+            "name": "A Pause for Appreciation",
+            "description": "Pause and notice what is already good",
+            "icon": "Star",
+            "color": "#F59E0B",
+            "route": "/trackers/a-pause-for-appreciation"
+          },
+          {
+            "name": "Compassion Break",
+            "description": "Accept yourself with warmth and understanding",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/exercises/compassion-break"
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "description": "Anchor yourself in the present moment",
+            "icon": "Target",
+            "color": "#8B5CF6",
+            "route": "/exercises/5-4-3-2-1-grounding"
+          }
+        ]
+      },
+      {
+        "name": "Shift Perspective",
+        "activities": [
+          {
+            "name": "Diffusion Technique",
+            "description": "Step back from self-critical thoughts",
+            "icon": "Cloud",
+            "color": "#3B82F6",
+            "route": "/exercises/diffusion-technique"
+          },
+          {
+            "name": "Affirmations",
+            "description": "Affirm your worth exactly as you are",
+            "icon": "Star",
+            "color": "#10B981",
+            "route": "/tools/affirmations"
+          },
+          {
+            "name": "Write Your Narrative",
+            "description": "Rewrite your story with acceptance",
+            "icon": "Book",
+            "color": "#6366F1",
+            "route": "/tools/write-your-narrative"
+          }
+        ]
+      },
+      {
+        "name": "Build Resilience",
+        "activities": [
+          {
+            "name": "Gratitude Tracker",
+            "description": "Build a foundation of daily appreciation",
+            "icon": "Heart",
+            "color": "#EC4899",
+            "route": "/trackers/gratitude-tracker"
+          },
+          {
+            "name": "A Letter to Self",
+            "description": "Write to yourself with radical acceptance",
+            "icon": "Book",
+            "color": "#8B5CF6",
+            "route": "/tools/a-letter-to-self"
+          },
+          {
+            "name": "Care Tracker",
+            "description": "Commit to caring for yourself every day",
+            "icon": "Heart",
+            "color": "#F97316",
+            "route": "/trackers/care-tracker"
+          },
+          {
+            "name": "Vibe Tracker",
+            "description": "Track how acceptance shapes your daily mood",
+            "icon": "Smile",
+            "color": "#F59E0B",
+            "route": "/trackers/vibe-tracker"
+          }
+        ]
+      }
+    ]
+  }
+}

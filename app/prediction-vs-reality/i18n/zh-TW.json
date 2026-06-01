@@ -1,0 +1,145 @@
+{
+  "app_title": "預測與現實",
+  "step_label": "步驟 {{current}} 共 8 步",
+  "intro": {
+    "title": "預測與現實",
+    "description": "將你焦慮的預測與實際發生的事情進行比較，以建立更平衡的觀點。",
+    "benefits": {
+      "0": "識別焦慮模式",
+      "1": "收集證據來反駁恐懼。",
+      "2": "減少未來過度思考"
+    },
+    "duration": "4-5分鐘",
+    "view_past": "回顧過往的思考"
+  },
+  "history": {
+    "title": "過往的反思",
+    "no_reflections": "尚未保存任何反射影像。",
+    "prediction_label": "預言",
+    "reality_label": "現實",
+    "reflection_label": "反射："
+  },
+  "complete": {
+    "title": "活動完成",
+    "saved_title": "反思已儲存",
+    "message": "透過了解事實，你可以幫助你的大腦認識到，事情往往比看起來更容易掌控。"
+  },
+  "emotions": {
+    "0": "焦慮的",
+    "1": "緊張的",
+    "2": "害怕的",
+    "3": "不知所措",
+    "4": "不安"
+  },
+  "intensity_labels": {
+    "not_intense": "強度不大",
+    "very_intense": "非常激烈"
+  },
+  "comparison_options": {
+    "0": "結果幾乎和我預想的一模一樣。",
+    "1": "有些部分是對的，但並非全部。",
+    "2": "這和我預想的完全不一樣。",
+    "3": "比我想的要容易得多/好得多。"
+  },
+  "screens": {
+    "s1": {
+      "title": "想想最近發生的事",
+      "desc": "回想一下你最近感到焦慮或不安的時刻。",
+      "placeholder": "描述一下情況…"
+    },
+    "s2": {
+      "title": "你覺得會發生什麼事？",
+      "desc": "那一刻，你期待的是什麼？你害怕的是什麼？",
+      "placeholder": "我擔心的是…"
+    },
+    "s3": {
+      "title": "你感覺如何？",
+      "desc": "選擇你感受到的情緒及其強度。"
+    },
+    "s4": {
+      "title": "究竟發生了什麼事？",
+      "desc": "關注事件的真相。",
+      "placeholder": "實際上…"
+    },
+    "s5": {
+      "title": "讓我們來看看這兩方面。",
+      "expectation": "期待",
+      "reality": "現實",
+      "question": "你的預期與實際情況有多接近？"
+    },
+    "s6": {
+      "title": "你注意到了什麼？",
+      "desc": "情況真的像你想像的那麼糟嗎？",
+      "placeholder": "我注意到…"
+    },
+    "s7": {
+      "title": "下次",
+      "desc": "如果再次發生這種情況，你可以提醒自己什麼？",
+      "placeholder": "例如，“也許情況不會像我想像的那麼糟糕。”"
+    },
+    "s8": {
+      "title": "溫馨提示",
+      "desc": "你的大腦會試圖讓你做好準備，但它的預測並不總是準確的。每次停下來審視事實，你就能增強自己的韌性。",
+      "button": "保存反射",
+      "discard": "棄置條目"
+    }
+  },
+  "buttons": {
+    "continue": "繼續"
+  },
+  "toasts": {
+    "saved": "倒影已儲存！"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Prediction vs Reality",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

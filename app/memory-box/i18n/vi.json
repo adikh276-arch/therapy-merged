@@ -1,0 +1,146 @@
+{
+  "app_title": "Hộp bộ nhớ",
+  "screen_titles": [
+    "Hộp của bạn",
+    "Tôn vinh",
+    "Thể hiện",
+    "Bảo quản",
+    "Chăm sóc nhẹ nhàng"
+  ],
+  "complete_title": "Bộ nhớ được bảo tồn",
+  "complete_message": "Bạn đã đặt một bộ nhớ về {{name}} vào hộp của mình một cách an toàn. Những khoảnh khắc kết nối này là của bạn để luôn lưu giữ.",
+  "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
+  "save_success": "Bộ nhớ được bảo tồn",
+  "save_error": "Không bảo quản được bộ nhớ",
+  "preserving": "Bảo quản...",
+  "preserve_memory": "Bảo tồn bộ nhớ",
+  "welcome": {
+    "title": "Hộp ký ức của bạn",
+    "subtitle1": "Một không gian yên tĩnh để tưởng nhớ người bạn yêu thương. 🤍",
+    "subtitle2": "Hít một hơi chậm vào...",
+    "subtitle3": "… và nhẹ nhàng thở ra.",
+    "subtitle4": "Không có cách nào đúng hay sai để làm điều này.",
+    "subtitle5": "Đi theo tốc độ của riêng bạn. 🌿",
+    "begin": "Bắt đầu ✨",
+    "later": "Có thể sau này"
+  },
+  "who": {
+    "placeholder_name": "Nhập tên của họ...",
+    "placeholder_relation": "Làm thế nào để bạn biết họ? (tùy chọn)",
+    "categories": [
+      {
+        "label": "Khoảnh khắc hạnh phúc",
+        "emoji": "😊"
+      },
+      {
+        "label": "Một cái gì đó họ thường nói",
+        "emoji": "💬"
+      },
+      {
+        "label": "Một kỷ niệm nhỏ hàng ngày",
+        "emoji": "☕"
+      },
+      {
+        "label": "Một nơi khiến bạn nhớ đến chúng",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Một điều tôi ước mình có thể nói",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Tiếp tục →"
+  },
+  "expression": {
+    "title": "Thể hiện trí nhớ của bạn",
+    "memory_label": "Bản thân ký ức",
+    "memory_placeholder": "Viết về khoảnh khắc, cảm xúc hoặc chi tiết bạn muốn lưu giữ...",
+    "message_label": "Một tin nhắn cho họ (tùy chọn)",
+    "message_placeholder": "Bạn sẽ nói gì nếu bạn có thể nói chuyện với họ ngay bây giờ?",
+    "save": "Bảo tồn bộ nhớ",
+    "skip": "Bỏ qua ngay bây giờ",
+    "back": "Quay lại"
+  },
+  "box": {
+    "title": "Cất giấu an toàn",
+    "subtitle": "Ký ức về {{name}} này bây giờ là một phần trong bộ sưu tập của bạn.",
+    "add_another": "Thêm một bộ nhớ khác",
+    "finish": "Hoàn thành phản xạ"
+  },
+  "closing": {
+    "title": "Chăm sóc",
+    "subtitle": "Đóng hộp của bạn ngay bây giờ. Bạn có thể trở lại đây bất cứ lúc nào bạn cần để cảm thấy gần gũi với những kỷ niệm này.",
+    "exit": "Đóng hộp"
+  },
+  "history": {
+    "title": "Nội dung hộp",
+    "no_memories": "Hộp của bạn trống. Thêm kỷ niệm đầu tiên của bạn để bắt đầu bộ sưu tập của bạn.",
+    "search_placeholder": "Tìm kiếm kỷ niệm..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Hộp kỷ niệm",
+  "before_you_go": "Trước khi bạn đi",
+  "grief_comes_in_waves": "Nỗi đau đến từng đợt. 🌊",
+  "what_you_re_feeling_matters": "Cảm xúc của bạn rất quan trọng. 🤍",
+  "be_gentle_with_yourself_today": "Hãy đối xử nhẹ nhàng với bản thân mình hôm nay nhé. 🌿",
+  "save_exit": "Lưu và thoát 🕊️",
+  "take_your_time": "Cứ từ từ thôi nhé 🕯️",
+  "save_to_memory_box": "Lưu vào Hộp kỷ niệm 📦",
+  "write_as_much_or_as_little_as_you_want": "Bạn có thể viết nhiều hoặc ít tùy thích… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Nếu bạn có điều gì muốn nói…",
+  "past_entries": "Các bài viết trước",
+  "no_memories_saved_yet": "Chưa có kỷ niệm nào được lưu.",
+  "this_memory_is_held_here_for_you": "Ký ức này được lưu giữ ở đây, dành cho bạn. 🌿",
+  "add_another_memory": "Thêm một kỷ niệm nữa ✨",
+  "finish_for_now": "Tạm dừng ở đây",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

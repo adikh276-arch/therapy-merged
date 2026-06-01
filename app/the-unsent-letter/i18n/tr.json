@@ -1,0 +1,102 @@
+{
+  "app_title": "Gönderilmeyen Mektup",
+  "app_subtitle": "Düşüncelerinizi güvenli ve özel olarak serbest bırakın",
+  "intro": {
+    "title": "Gönderilmeyen Mektup",
+    "description": [
+      "Bazen, söylemek istediğimiz ama hiç fırsat bulamadığımız şeyler oluyor.",
+      "Bunun nedeni güvende hissettirmemesi, zamanlamanın doğru olmaması ya da kelimelerin yüksek sesle ifade edilmesi çok zor olması olabilir.",
+      "Bu etkinlik, düşüncelerinizi kelimelere dökmeniz için özel bir alan sağlar.",
+      "Bu mektubu göndermek zorunda değilsin. Bu sadece senin için — duygularını daha iyi ifade etmek, serbest bırakmak ve anlamak için."
+    ],
+    "notice": "Özgürce yaz. Başka kimse bunu görmeyecek.",
+    "button": "Yazmaya Başlayın→"
+  },
+  "writing": {
+    "title": "Sakladığın Şeyi Yaz",
+    "desc": "Partnerinize, eski partnerinize veya hatta ilişkiye yazabilirsiniz. Bunu yapmanın doğru ya da yanlış bir yolu yok.",
+    "prompts": [
+      "Kendimi...",
+      "Keşke...",
+      "Hiç söylemedim...",
+      "Beni inciten şey...",
+      "İhtiyacım olan şey..."
+    ],
+    "placeholder": "Sevgili ____,\nUzun zamandır şunu söylemek istiyordum...",
+    "notice": "Her zaman duraklayıp geri gelebilirsiniz.",
+    "button": "Devam →"
+  },
+  "reflection": {
+    "title": "Bunu bir an düşünün",
+    "description": [
+      "Düşüncelerini ve duygularını kelimelere döktün — bu cesaret gerektiriyor.",
+      "Şu anda bir karışım duygu fark edebilirsin ve bu tamamen normal.",
+      "Devam etmeden önce derin bir nefes al ve nazikçe kendine bak."
+    ],
+    "notice": "Bu senin iyileşmen içindi, göndermek için değil.",
+    "save_button": "Kaydetme Harfi",
+    "finish_button": "Bitiriş"
+  },
+  "history": {
+    "title": "Geçmiş Mektuplar",
+    "empty_title": "Henüz mektup yazmadın.",
+    "empty_desc": "Mektuplarınız kaydettikten sonra burada görünecek."
+  },
+  "toasts": {
+    "save_success": "Mektup özel günlüğüne kaydedildi",
+    "save_error": "Harfi kaydedemedi",
+    "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Düşüncelerinizi güvenli ve özel bir şekilde ifade edin.",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

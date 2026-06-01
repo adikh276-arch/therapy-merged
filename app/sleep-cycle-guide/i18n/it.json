@@ -1,0 +1,177 @@
+{
+  "app_title": "Guida al ciclo del sonno",
+  "pill_labels": [
+    "Introduzione",
+    "Le 4 fasi",
+    "La verità assonnata",
+    "E tu?"
+  ],
+  "s1": {
+    "title": "Ti è mai capitato di dormire 8 ore e sentirti comunque malissimo?",
+    "p1": "Non si tratta di <1>quanto tempo</1> dormi.",
+    "p2": "È circa <1>< 1> nel ciclo del sonno in cui ti svegli.",
+    "p3": "Una cosa cambia quando capisci questo — tutto.",
+    "insight": "💡 Il tuo cervello è in realtà più attivo durante il sonno REM che quando sei completamente sveglio!",
+    "duration": "Ci vogliono 3 minuti · dura tutta la vita",
+    "button": "Aspetta, davvero? Raccontami di più →"
+  },
+  "s2": {
+    "title": "Il tuo cervello fa QUESTO ogni notte 🌀",
+    "desc": "Ogni 90 minuti, il cervello scorre attraverso 4 fasi — come una playlist in loop. Tocca ciascuno per esplorare 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Sonno leggero",
+        "tag": "1–5 minuti · facilmente svegliabile",
+        "body": "Stai andando a dormire. Il corpo inizia a lasciar andare, i muscoli possono contrarsi. È molto facile svegliarsi da qui."
+      },
+      {
+        "emoji": "💤",
+        "title": "Ambientarsi",
+        "tag": "10–25 minuti · Davvero addormentato",
+        "body": "Il battito cardiaco rallenta, la temperatura corporea scende. Sei davvero addormentato — l'attività cerebrale inizia a rallentare."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Sonno ⭐ profondo",
+        "tag": "20–40 minuti · L'oro",
+        "body": "Il corpo ripara i tessuti, costruisce l'immunità. La fase più rigenerativa fisicamente — difficile da cui svegliarsi."
+      },
+      {
+        "emoji": "🌙",
+        "title": "Sonno REM",
+        "tag": "10–60 minuti · Modalità sogno",
+        "body": "Il cervello ronza di attività. Le emozioni vengono elaborate, i ricordi si bloccano. Saltare questo ti lascia confuso."
+      }
+    ],
+    "italic": "Il sonno profondo sistema il tuo corpo. Il REM sistema la mente.",
+    "button": "Allora perché mi sento ancora intontita? →"
+  },
+  "s3": {
+    "title": "Risveglio a metà ciclo = modalità 🧟 zombie",
+    "p1": "Strappati dal sonno profondo da una sveglia? Il tuo cervello letteralmente non ha finito quello che stava facendo. Quella sensazione pesante e nebbiosa? È <1>inerzia del sonno</1>.",
+    "wave": {
+      "light": "luce",
+      "deep": "profondo",
+      "groggy": "😫 assonnata",
+      "fresh": "😊 Fresco",
+      "cycles": [
+        "Ciclo 1",
+        "Ciclo 2",
+        "Ciclo 3"
+      ]
+    },
+    "disruptors_title": "Cosa interrompe i tuoi cicli 👇",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Schermi prima di andare a letto",
+        "sub": "ritarda il sonno profondo"
+      },
+      {
+        "emoji": "☕",
+        "text": "Caffeina tardiva",
+        "sub": "riduce il sonno profondo fino al 20%"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Orari di sonno irregolari",
+        "sub": "rompe il tuo ritmo naturale"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stress e ansia",
+        "sub": "Ti tiene bloccato in un sonno leggero"
+      }
+    ],
+    "italic": "Le tue abitudini determinano direttamente quali stadi raggiungi.",
+    "button": "Cosa significa questo per me? →"
+  },
+  "s4": {
+    "title": "Quale ti somiglia? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Mi sveglio fisicamente esausta",
+        "sub": "Probabilmente manca il sonno profondo",
+        "tip": "Concentrati su un orario costante di sonno e veglia: il tuo corpo ha bisogno di un ritmo regolare per raggiungere il sonno profondo."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Mi sento emotivamente confuso o giù di morale",
+        "sub": "probabilmente manca il sonno REM",
+        "tip": "Prova a rilassarti 30 minuti prima di andare a letto — una routine calma prima del sonno protegge il tuo sonno REM."
+      },
+      {
+        "emoji": "😤",
+        "text": "Mi sveglio spesso durante la notte",
+        "sub": "I cicli continuano a essere interrotti",
+        "tip": "Una stanza fresca, buia e silenziosa aiuta il cervello a rimanere in stadi più profondi senza interruzioni."
+      },
+      {
+        "emoji": "😐",
+        "text": "Mi sento bene ma non benissimo",
+        "sub": "I cicli sono parziali ma non completi",
+        "tip": "Prova ad andare a letto 20 minuti prima — potresti aver bisogno di un altro ciclo completo di sonno."
+      }
+    ],
+    "quote": "Il sonno non è solo riposo — è recupero attivo. Proteggi i tuoi cicli e i cambiamenti della tua giornata.",
+    "button": "Fatto ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Guida al ciclo del sonno",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Non riguarda",
+  "it_s_about": "Si tratta di",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Strappato al sonno profondo da una sveglia? Il tuo cervello non ha letteralmente finito quello che stava facendo. Quella sensazione di nebbia e pesantezza? Quella è",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,217 @@
+{
+  "app_title": "O que eu preciso?",
+  "app_subtitle": "Verifique consigo mesmo",
+  "screens": {
+    "s1": {
+      "title": "O que eu preciso agora?",
+      "description": "Um momento para pausar e ouvir o que seu coração está pedindo.",
+      "button": "Início do check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "O que parece importante?",
+        "placeholder": "Outra coisa...",
+        "add_button": "Adicionar",
+        "button": "Continue"
+      },
+      "prioritize": {
+        "title": "Qual deles é o principal?"
+      },
+      "focus": {
+        "tag": "Seu foco agora",
+        "button": "Continue"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Continue"
+      },
+      "action": {
+        "title": "Um pequeno passo à frente?",
+        "placeholder": "Ou escreva o seu próprio...",
+        "button": "Reflexão sobre a Análise"
+      },
+      "closing": {
+        "tag_need": "Necessidade Primária",
+        "tag_insight": "Sua Visão",
+        "tag_action": "Ação Pequena",
+        "save_button": "Salvar & Terminar",
+        "finish_button": "Finalize sem salvar"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Apoio emocional",
+      "prompt": "Que tipo de apoio realmente te ajudaria agora?",
+      "hints": [
+        "Só preciso de alguém para...",
+        "Ajudaria se...",
+        "O que eu realmente quero é..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Espaço / tempo para mim mesma",
+      "prompt": "Como seria ter esse espaço para você?",
+      "hints": [
+        "Eu usaria esse tempo para...",
+        "O espaço me permitiria...",
+        "Preciso de espaço para..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Comunicação clara",
+      "prompt": "Como seria uma comunicação mais clara para você?",
+      "hints": [
+        "Queria poder dizer...",
+        "Se eles realmente ouvissem, eu diria...",
+        "A comunicação fica difícil quando..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Tranquilidade",
+      "prompt": "Que tipo de garantia seria significativa?",
+      "hints": [
+        "Preciso ouvir isso...",
+        "Me acalmaria saber...",
+        "Fico preocupado que..."
+      ]
+    },
+    "Understanding": {
+      "label": "Compreensão",
+      "prompt": "Como seria se sentir verdadeiramente compreendido?",
+      "hints": [
+        "Queria que as pessoas soubessem disso...",
+        "O que eu realmente sinto é...",
+        "Ninguém vê que eu..."
+      ]
+    },
+    "Stability": {
+      "label": "Estabilidade",
+      "prompt": "Como seria a estabilidade na sua vida agora?",
+      "hints": [
+        "Preciso que as coisas se sintam...",
+        "O que me castigaria seria...",
+        "Estabilidade significa..."
+      ]
+    },
+    "Honesty": {
+      "label": "Honestidade",
+      "prompt": "Como seria mais honestidade na sua situação?",
+      "hints": [
+        "A verdade que preciso encarar é...",
+        "Quero ser honesto sobre...",
+        "O que realmente está acontecendo é..."
+      ]
+    },
+    "Respect": {
+      "label": "Respeito",
+      "prompt": "Como é o respeito para você agora?",
+      "hints": [
+        "Eu mereço ser tratada...",
+        "Respeito seria como...",
+        "Preciso que as pessoas..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Clareza sobre o relacionamento",
+      "prompt": "Que tipo de clareza te ajudaria mais?",
+      "hints": [
+        "Preciso saber se...",
+        "O que me confunde é...",
+        "Quero que sejamos claros sobre..."
+      ]
+    },
+    "default": {
+      "prompt": "Como isso seria em uma situação real?",
+      "hints": [
+        "O que me vem à mente é...",
+        "Agora eu me sinto...",
+        "Se eu for honesto comigo mesmo..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Diga algo honestamente"
+    },
+    {
+      "label": "Tire um tempo para mim"
+    },
+    {
+      "label": "Procure alguém"
+    },
+    {
+      "label": "Estabeleça um limite pequeno"
+    },
+    {
+      "label": "Ainda não tenho certeza"
+    }
+  ],
+  "history": {
+    "title": "Reflexões Passadas",
+    "empty": "Ainda sem reflexões."
+  },
+  "toasts": {
+    "save_success": "Reflexão salva",
+    "save_error": "Falhou em salvar a reflexão",
+    "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado"
+  },
+  "complete": {
+    "title": "Check-in Completo",
+    "message": "Você identificou que precisa de \"{{need}}\". Honrar suas necessidades é uma forma vital de autocuidado."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Faça uma autoavaliação.",
+  "past_reflections": "Reflexões passadas",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

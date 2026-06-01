@@ -1,0 +1,81 @@
+{
+  "app_title": "மூளை ஏன் சிக்கிக் கொள்கிறது",
+  "app_subtitle": "உயிர்வாழ்வதற்கான தர்க்கம் • {{step}}/{{total}}",
+  "s1": {
+    "title": "உங்கள் மூளை உடைக்கவில்லை. அது மாற்றியமைத்தது.",
+    "description": "அதிர்ச்சிக்குப் பிறகு, உங்களைப் பாதுகாப்பாக வைத்திருக்க உங்கள் மூளை தன்னை மறுபரிசீலனை செய்கிறது. உலகம் ஆபத்தானது என்று அது கற்றுக்கொண்டது, எனவே அது தயாராக இருந்தது. அது ஒரு குறைபாடு அல்ல. அதுதான் உயிர்வாழ்வு.",
+    "quote": "\"PTSD என்பது உங்களிடம் ஏதோ தவறு இருக்கிறது என்பதற்கான அறிகுறி அல்ல. உனக்கு ஏதோ நடந்துவிட்டது என்பதற்கான அறிகுறி இது.\"",
+    "button": "மேலும் சொல்லுங்கள்"
+  },
+  "s2": {
+    "tag": "மென்மையான உண்மைகள்",
+    "title": "மூளை உயிர்வாழும் தர்க்கம்",
+    "truths": [
+      {
+        "header": "அலாரம் ஆன் ஆனது",
+        "body": "ஹைப்பர் விஜிலென்ஸ் மற்றும் திடுக்கிடும் எளிதில் அதிகப்படியான எதிர்வினைகள் அல்ல - உங்கள் மூளையின் அலாரம் அமைப்பு அதன் வேலையை நன்றாகச் செய்கிறது."
+      },
+      {
+        "header": "ஃப்ளாஷ்பேக்குகள் நினைவகம்",
+        "body": "தூண்டுதல்கள் உங்கள் மூளையை பின்னோக்கி இழுக்கின்றன, ஏனெனில் அச்சுறுத்தல் முடிந்துவிட்டது என்பதற்கான சமிக்ஞை ஒருபோதும் கிடைக்கவில்லை. அது உங்களைப் பாதுகாக்க முயற்சிக்கிறது."
+      },
+      {
+        "header": "உங்களுக்காக போராடுகிறோம்",
+        "body": "ஒவ்வொரு அறிகுறியும் ஒரு காலத்தில் உயிர்வாழும் செயலாக இருந்தது. உங்கள் மூளை உங்களை உயிருடன் வைத்திருக்க என்ன செய்ய வேண்டுமோ அதைச் செய்தது."
+      }
+    ],
+    "healing": "குணப்படுத்துதல் என்பது மறப்பது பற்றியது அல்ல. நீங்கள் இப்போது பாதுகாப்பாக இருக்கிறீர்கள் என்பதை உங்கள் மூளை அறிய உதவுவது பற்றியது."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "மீண்டும் தொடங்கு",
+    "finish_exit": "முடித்துவிட்டு வெளியேறவும்",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "முடிக்க வேண்டிய நேரம்",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "பகிர்",
+    "share_progress": "முன்னேற்றத்தைப் பகிரவும்",
+    "inspire_others": "இன்று மற்றவர்களுக்கு ஊக்கமளியுங்கள்",
+    "share_text": "நான் தெரபிமந்த்ராவில் இந்த {{activityName}} செயல்பாட்டைச் செய்துள்ளேன், அது எனக்கு மிகவும் பிடித்திருக்கிறது. நீங்களும் இதைச் செய்யலாம், ஆண்ட்ராய்டு செயலி {{androidUrl}} அல்லது ஐஓஎஸ் செயலி {{iosUrl}} இணைப்பைப் பின்தொடரவும்.",
+    "this_activity": "இந்த செயல்பாடு",
+    "copied": "நகலெடுக்கப்பட்டது!",
+    "copy_message": "செய்தியை நகலெடுக்கவும்",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "உயிர்வாழ்வின் தர்க்கம் • {{படி}}/{{மொத்தம்}}",
+  "more": "மேலும்",
+  "breadcrumb": "ரொட்டித்தூள்",
+  "previous_slide": "முந்தைய ஸ்லைடு",
+  "next_slide": "அடுத்த ஸ்லைடு",
+  "close": "அருகில்",
+  "previous": "முந்தைய",
+  "more_pages": "மேலும் பக்கங்கள்",
+  "pagination": "பக்க எண்",
+  "go_to_previous_page": "முந்தைய பக்கத்திற்குச் செல்லவும்",
+  "go_to_next_page": "அடுத்த பக்கத்திற்குச் செல்லவும்",
+  "toggle_sidebar": "பக்கப் பட்டியை மாற்று",
+  "oops_page_not_found": "அச்சச்சோ! பக்கம் காணப்படவில்லை",
+  "return_to_home": "முகப்புக்குத் திரும்பு",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

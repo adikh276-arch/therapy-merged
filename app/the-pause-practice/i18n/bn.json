@@ -1,0 +1,125 @@
+{
+  "app_title": "বিরতি অনুশীলন",
+  "app_subtitle": "মধ্যবর্তী স্থানটি আয়ত্ত করুন",
+  "intro": {
+    "title": "5 সেকেন্ডের বিরতি",
+    "description": "অনুভূতি এবং প্রতিক্রিয়ার মধ্যে একটি ছোট বিরতি সবকিছু পরিবর্তন করতে পারে।",
+    "duration": "15 সেকেন্ডেরও কম সময় নেয়। সত্যিই।",
+    "button": "চেষ্টা করে দেখুন →"
+  },
+  "scenario": {
+    "title": "কী আপনাকে ট্রিগার করে?",
+    "desc": "আপনি যে পরিস্থিতির সাথে সম্পর্কিত তা বেছে নিন",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "কেউ আমাকে বাধা দেয়",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "সবকিছু পরিকল্পনা অনুযায়ী চলছে না",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "আমি তো উপেক্ষিত বোধ করি",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "আমি অভিভূত বোধ করছি",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "নিজের টাইপ করুন...",
+    "button": "অনুশীলন বিরতি →"
+  },
+  "hold": {
+    "title": "বিরতি দিতে ⏸️ ধরে থাকুন",
+    "instructions": "বৃত্তটি 5 সেকেন্ডের জন্য ধরে রাখুন",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "টিপুন এবং ধরে রাখুন..."
+      },
+      {
+        "at": "0.15",
+        "text": "এটির সাথে থাকুন..."
+      },
+      {
+        "at": "0.5",
+        "text": "তুমি এটা করছো..."
+      },
+      {
+        "at": "0.8",
+        "text": "প্রায় সেখানে..."
+      }
+    ]
+  },
+  "result": {
+    "title": "ওটাই বিরতি",
+    "message": "আপনি যা অনুভব করেছিলেন এবং আপনি কীভাবে প্রতিক্রিয়া জানান তার মধ্যে আপনি কেবল জায়গা তৈরি করেছেন। এমনকি একটি ছোট বিরতিও আপনাকে আপনার কেন্দ্রটি পুনরুদ্ধার করতে সহায়তা করে।",
+    "tip_label": "প্রো টিপ",
+    "scenario_messages": {
+      "interrupts": "পরের বার যখন কেউ আপনাকে বাধা দেয়, প্রতিক্রিয়া জানানোর আগে এটি চেষ্টা করুন।",
+      "plans": "পরের বার যখন জিনিসগুলি পরিকল্পনা অনুযায়ী না হয়, প্রতিক্রিয়া জানানোর আগে এটি চেষ্টা করুন।",
+      "ignored": "পরের বার যখন আপনি উপেক্ষা বোধ করেন, প্রতিক্রিয়া জানানোর আগে এটি চেষ্টা করুন।",
+      "overwhelmed": "পরের বার যখন আপনি অভিভূত বোধ করেন, কিছু করার আগে এটি চেষ্টা করুন।",
+      "other": "পরের বার যখন আপনি ট্রিগার বোধ করেন, প্রতিক্রিয়া জানানোর আগে এটি চেষ্টা করুন।"
+    },
+    "italic": "এটি সর্বদা সহজ বোধ করবে না - তবে ধারাবাহিকতা মূল বিষয়।"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "মাঝের স্থানটি আয়ত্ত করুন",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

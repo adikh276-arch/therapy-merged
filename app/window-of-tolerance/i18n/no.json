@@ -1,0 +1,252 @@
+{
+  "app_title": "Toleransevindu",
+  "screens": {
+    "welcome": {
+      "title": "Toleransevindu",
+      "subtitle": "Forstå nervesystemet ditt.\nFinn veien tilbake til roen.",
+      "description": "Denne milde aktiviteten vil hjelpe deg å forstå hvor nervesystemet ditt er akkurat nå — og gi deg verktøy for å finne balanse. Gå i ditt eget tempo. Du er trygg her.",
+      "callout": "✨ Ta et pust. Du er på rett sted.",
+      "button": "La oss begynne →",
+      "disclaimer": "Denne aktiviteten er et støttende verktøy, ikke en erstatning for profesjonell terapi."
+    },
+    "explain": {
+      "title": "Nervesystemet ditt har et vindu",
+      "zones": {
+        "hyper": {
+          "label": "Hyperarousal",
+          "desc": "Overveldet, panisk, ute av kontroll.",
+          "tag": "🔴 Rød"
+        },
+        "safe": {
+          "label": "Sikker sone",
+          "desc": "Rolig, til stede, i stand til å tenke klart.",
+          "tag": "🟢 Grønn"
+        },
+        "hypo": {
+          "label": "Hypoarousal",
+          "desc": "Nummen, frakoblet, tåkete.",
+          "tag": "🔵 Blå"
+        }
+      },
+      "footer": "Traumer kan dytte deg ut av vinduet. Dette hjelper deg å kjenne igjen hvor du er og komme deg inn igjen.",
+      "back": "← Tilbake",
+      "next": "Neste →"
+    },
+    "checkin": {
+      "title": "Hvor er du nå?",
+      "subtitle": "Ta et pust. Velg så ærlig hvor du er akkurat nå.",
+      "footer": "Det finnes ikke noe feil svar. Dette er bare ditt utgangspunkt.",
+      "back": "← Tilbake",
+      "next": "Neste →",
+      "zones": {
+        "hyper": {
+          "label": "Over vinduet mitt",
+          "desc": "Jeg føler meg engstelig, panisk, sint eller overveldet."
+        },
+        "safe": {
+          "label": "Innenfor vinduet mitt",
+          "desc": "Jeg føler meg rolig, til stede og jordet."
+        },
+        "hypo": {
+          "label": "Under vinduet mitt",
+          "desc": "Jeg føler meg nummen, tåkete eller frakoblet."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Over vinduet ditt",
+        "subtitle": "Nervesystemet ditt er i overdrive. Det går bra. La oss bringe deg forsiktig tilbake.",
+        "feelings": [
+          "Hjertebankende hjerte",
+          "Overfladisk pust",
+          "Panikk eller sinne",
+          "Rasende tanker",
+          "Rastløshet"
+        ],
+        "tools": [
+          {
+            "name": "Bokspusting",
+            "desc": "Pust inn 4, måne 4, pust ut 4, måne 4. Gjenta 4 ganger."
+          },
+          {
+            "name": "5-4-3-2-1 Grounding",
+            "desc": "5 ting ser, 4 berører, 3 hører, 2 lukter, 1 smak."
+          },
+          {
+            "name": "Føtter på gulvet",
+            "desc": "Press føttene ned, si: 'Jeg er her. Jeg er trygg. Dette vil gå over.'"
+          }
+        ],
+        "button": "Jeg føler meg litt roligere →",
+        "footer": "Du er trygg. Ta den tiden du trenger."
+      },
+      "hypo": {
+        "title": "Under vinduet ditt",
+        "subtitle": "Nervesystemet ditt har blitt stille. Det beskytter deg. La oss forsiktig vekke den igjen.",
+        "feelings": [
+          "Nummenhet",
+          "Frakobling",
+          "Ekstrem utmattelse",
+          "Føler meg uvirkelig",
+          "Flathet"
+        ],
+        "tools": [
+          {
+            "name": "Myk bevegelse",
+            "desc": "Stå, gå sakte, sving armene. La kroppen våkne."
+          },
+          {
+            "name": "Rytmisk lyd",
+            "desc": "Spill musikk med jevn rytme, tramp med føttene."
+          },
+          {
+            "name": "Snakk høyt",
+            "desc": "Si navnet ditt, stedet, dagens dato høyt. Engasjer den tenkende hjernen igjen."
+          }
+        ],
+        "button": "Jeg føler meg litt mer til stede →",
+        "footer": "Du gjør det kjempebra. Ta det steg for steg."
+      },
+      "safe": {
+        "title": "Innenfor vinduet ditt",
+        "subtitle": "Du er i din trygge sone. Det er her helbredelse, tilknytning og vekst skjer. Bra jobbet.",
+        "feelings": [
+          "Nåtid og bevisst",
+          "Jevn pust",
+          "Klar tenkning",
+          "Connected"
+        ],
+        "tools": [
+          {
+            "name": "Fortsett å puste sakte",
+            "desc": "Inn gjennom nesen, ut gjennom munnen."
+          },
+          {
+            "name": "Reflekter",
+            "desc": "Hva hjalp deg å bli her? Skriv det ned."
+          },
+          {
+            "name": "Selvmedfølelse",
+            "desc": "'Nervesystemet mitt gjorde jobben sin. Jeg er ikke ødelagt. Jeg helbreder.'"
+          }
+        ],
+        "button": "Fortsett til verktøykassen min →",
+        "footer": "Du er verdig omsorg og helbredelse."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Ditt personlige verktøysett",
+      "subtitle": "Dine foretrukne verktøy — lagret og klare når du trenger dem.",
+      "tools_list": [
+        "🌬️ Bokspusting",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Føtter på gulvet",
+        "🚶 Myk bevegelse",
+        "🎵 Musikk",
+        "💬 Snakk høyt"
+      ],
+      "journal_label": "📝 Dagens refleksjon",
+      "journal_desc": "Hva var et øyeblikk i dag da du la merke til at nervesystemet ditt endret seg — og hva gjorde du med det?",
+      "journal_placeholder": "Skriv her...",
+      "history_label": "📊 Din uke i et overblikk",
+      "save_button": "Lagre og fullfør ✓",
+      "footer": "Din reise betyr noe. Kom tilbake når du trenger støtte.",
+      "preserving": "Bevare...",
+      "preserve_button": "Bevar refleksjon"
+    }
+  },
+  "nav": [
+    "Innsjekk",
+    "Forklaring",
+    "Overvåking",
+    "Sonen",
+    "Verktøykasse"
+  ],
+  "history": {
+    "title": "Innsjekkingshistorikk",
+    "empty": "Ingen innsjekkinger ennå."
+  },
+  "toasts": {
+    "save_success": "Innsjekking bevart",
+    "save_error": "Unnlatt å beholde innsjekking",
+    "auth_error": "Auth-sesjon mangler eller database ikke konfigurert"
+  },
+  "complete": {
+    "title": "Innsjekk fullført",
+    "message": "Du har klart å kartlegge din nåværende tilstand. Å bygge bevissthet er det første steget mot å finne balansen din."
+  },
+  "days": [
+    "Min",
+    "Tirsdag",
+    "Wed",
+    "Høst",
+    "Fredag",
+    "Lørdag",
+    "Sol"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Toleransevindu",
+  "are_you_sure_you_want_to_exit": "Er du sikker på at du vil avslutte?",
+  "your_unsaved_data_will_be_lost": "Dine ulagrede data vil gå tapt.",
+  "stay": "Opphold",
+  "exit": "Gå",
+  "exit_confirmation": "Avsluttbekreftelse",
+  "check_in_history": "Innsjekkingshistorikk",
+  "close": "Lukke",
+  "screen_navigation": "Skjermnavigasjon",
+  "check_in": "Innsjekking",
+  "what_is_the_window_of_tolerance": "Hva er toleransevinduet",
+  "your_personal_toolkit": "Din personlige verktøykasse",
+  "welcome": "Velkomst",
+  "view_history": "Vis historikk",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

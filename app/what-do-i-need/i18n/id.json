@@ -1,0 +1,217 @@
+{
+  "app_title": "Apa yang Saya Butuhkan?",
+  "app_subtitle": "Periksa diri Anda sendiri",
+  "screens": {
+    "s1": {
+      "title": "Apa yang Saya Butuhkan Saat Ini?",
+      "description": "Sesaat untuk berhenti sejenak dan mendengarkan apa yang diminta hati Anda.",
+      "button": "Mulai Check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Apa yang terasa penting?",
+        "placeholder": "Sesuatu yang lain...",
+        "add_button": "Tambahkan",
+        "button": "Lanjutkan"
+      },
+      "prioritize": {
+        "title": "Mana yang utama?"
+      },
+      "focus": {
+        "tag": "Fokus Anda saat ini",
+        "button": "Lanjutkan"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Lanjutkan"
+      },
+      "action": {
+        "title": "Langkah kecil ke depan?",
+        "placeholder": "Atau tulis sendiri...",
+        "button": "Refleksi Tinjauan"
+      },
+      "closing": {
+        "tag_need": "Kebutuhan Primer",
+        "tag_insight": "Wawasan Anda",
+        "tag_action": "Tindakan Kecil",
+        "save_button": "Simpan & Selesaikan",
+        "finish_button": "Selesaikan tanpa menyimpan"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Dukungan emosional",
+      "prompt": "Dukungan seperti apa yang benar-benar akan membantu Anda saat ini?",
+      "hints": [
+        "Saya hanya membutuhkan seseorang untuk...",
+        "Akan membantu jika...",
+        "Yang benar-benar saya inginkan adalah..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Ruang/waktu untuk diri saya sendiri",
+      "prompt": "Seperti apa ruang itu bagi Anda?",
+      "hints": [
+        "Saya akan menggunakan waktu itu untuk...",
+        "Ruang angkasa akan membiarkanku...",
+        "Saya butuh ruang untuk..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Komunikasi yang jelas",
+      "prompt": "Seperti apa komunikasi yang lebih jelas bagi Anda?",
+      "hints": [
+        "Saya berharap saya bisa mengatakan...",
+        "Jika mereka benar-benar mendengarkan, saya akan memberi tahu mereka ...",
+        "Komunikasi terasa sulit ketika..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Kepastian",
+      "prompt": "Kepastian seperti apa yang akan terasa bermakna?",
+      "hints": [
+        "Saya perlu mendengarnya...",
+        "Itu akan menenangkan saya untuk mengetahui ...",
+        "Saya terus khawatir bahwa..."
+      ]
+    },
+    "Understanding": {
+      "label": "Pemahaman",
+      "prompt": "Seperti apa perasaan yang benar-benar dipahami?",
+      "hints": [
+        "Saya berharap orang tahu bahwa...",
+        "Apa yang benar-benar saya rasakan adalah...",
+        "Tidak ada yang melihat bahwa saya..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilitas",
+      "prompt": "Seperti apa rasakan stabilitas dalam hidup Anda saat ini?",
+      "hints": [
+        "Saya membutuhkan hal-hal untuk dirasakan...",
+        "Apa yang akan membumikan saya adalah...",
+        "Stabilitas berarti..."
+      ]
+    },
+    "Honesty": {
+      "label": "Kejujuran",
+      "prompt": "Seperti apa kejujuran dalam situasi Anda?",
+      "hints": [
+        "Kebenaran yang harus saya hadapi adalah...",
+        "Saya ingin jujur tentang...",
+        "Apa yang sebenarnya terjadi adalah..."
+      ]
+    },
+    "Respect": {
+      "label": "Hormat",
+      "prompt": "Seperti apa rasa hormat bagi Anda saat ini?",
+      "hints": [
+        "Saya pantas diperlakukan ...",
+        "Rasa hormat akan terlihat seperti...",
+        "Saya membutuhkan orang untuk..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Kejelasan tentang hubungan",
+      "prompt": "Kejelasan seperti apa yang paling membantu Anda?",
+      "hints": [
+        "Saya perlu tahu apakah...",
+        "Yang membingungkan saya adalah...",
+        "Saya ingin kita jelas tentang..."
+      ]
+    },
+    "default": {
+      "prompt": "Seperti apa ini dalam situasi nyata?",
+      "hints": [
+        "Yang terlintas dalam pikiran adalah...",
+        "Saat ini saya merasa...",
+        "Jika saya jujur pada diri saya sendiri ..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Katakan sesuatu dengan jujur"
+    },
+    {
+      "label": "Luangkan waktu untuk diri saya sendiri"
+    },
+    {
+      "label": "Menjangkau seseorang"
+    },
+    {
+      "label": "Tetapkan batas kecil"
+    },
+    {
+      "label": "Belum yakin"
+    }
+  ],
+  "history": {
+    "title": "Refleksi Masa Lalu",
+    "empty": "Belum ada refleksi."
+  },
+  "toasts": {
+    "save_success": "Refleksi disimpan",
+    "save_error": "Gagal menyimpan pantulan",
+    "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi"
+  },
+  "complete": {
+    "title": "Check-in Selesai",
+    "message": "Anda telah mengidentifikasi bahwa Anda membutuhkan \"{{need}}\". Menghormati kebutuhan Anda adalah bentuk perawatan diri yang vital."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Periksa kondisi diri Anda",
+  "past_reflections": "Refleksi masa lalu",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

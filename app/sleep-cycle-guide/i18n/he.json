@@ -1,0 +1,177 @@
+{
+  "app_title": "מדריך למחזור שינה",
+  "pill_labels": [
+    "הקדמה",
+    "ארבעת השלבים",
+    "האמת המעורפלת",
+    "ומה איתך?"
+  ],
+  "s1": {
+    "title": "אי פעם ישנת 8 שעות ועדיין מרגישה נורא?",
+    "p1": "זה לא עניין של <1>כמה זמן</1> אתה ישן.",
+    "p2": "זה בערך <1>איפה</1> במחזור השינה שלך שאתה מתעורר.",
+    "p3": "דבר אחד משתנה כשאתה מבין את זה — הכל.",
+    "insight": "💡 המוח שלך למעשה פעיל יותר במהלך שנת REM מאשר כשאתה ער לגמרי!",
+    "duration": "לוקח 3 דקות · נמשך לכל החיים",
+    "button": "רגע, באמת? ספר לי עוד →"
+  },
+  "s2": {
+    "title": "המוח שלך עושה את זה כל לילה 🌀",
+    "desc": "כל 90 דקות, המוח שלך עובר בין 4 שלבים — כמו פלייליסט חוזר על עצמו. הקש כל אחד כדי לחקור 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "שינה קלה",
+        "tag": "1–5 דקות · קל להתעורר",
+        "body": "אתה נרדם. הגוף מתחיל לשחרר, השרירים עשויים להתכווץ. קל מאוד להתעורר מכאן."
+      },
+      {
+        "emoji": "💤",
+        "title": "להתמקם",
+        "tag": "10–25 דקות · ישן באמת",
+        "body": "קצב הלב מאט, טמפרטורת הגוף יורדת. אתה ישן כמו שצריך — פעילות המוח מתחילה להאט."
+      },
+      {
+        "emoji": "🔵",
+        "title": "שינה ⭐ עמוקה",
+        "tag": "20–40 דקות · הזהב",
+        "body": "הגוף מתקן רקמות, בונה חסינות. השלב הכי משקם פיזית — קשה להתעורר ממנו."
+      },
+      {
+        "emoji": "🌙",
+        "title": "שנת REM",
+        "tag": "10–60 דקות · מצב חלום",
+        "body": "המוח רוטט מפעילות. הרגשות מעובדים, הזיכרונות ננעלים. דילוג על זה משאיר אותך מעורפל."
+      }
+    ],
+    "italic": "שינה עמוקה מתקנת את הגוף שלך. REM מתקן את המוח שלך.",
+    "button": "אז למה אני עדיין מרגיש עייף? →"
+  },
+  "s3": {
+    "title": "התעוררות באמצע מחזור = מצב 🧟 זומבי",
+    "p1": "נגרר משינה עמוקה על ידי שעון מעורר? המוח שלך פשוט לא סיים את מה שהוא עשה. התחושה הכבדה והערפלית הזו? זה <1>אינרציית שינה</1>.",
+    "wave": {
+      "light": "אור",
+      "deep": "עמוק",
+      "groggy": "😫 מנומנם",
+      "fresh": "😊 טרי",
+      "cycles": [
+        "מחזור 1",
+        "מחזור 2",
+        "מחזור 3"
+      ]
+    },
+    "disruptors_title": "מה מפריע למחזורים 👇 שלך",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "מסכים לפני השינה",
+        "sub": "מעכב שינה עמוקה"
+      },
+      {
+        "emoji": "☕",
+        "text": "קפאין מאוחר",
+        "sub": "מקצר שינה עמוקה עד 20%"
+      },
+      {
+        "emoji": "⏰",
+        "text": "זמני שינה לא סדירים",
+        "sub": "שוברת את הקצב הטבעי שלך"
+      },
+      {
+        "emoji": "😰",
+        "text": "לחץ וחרדה",
+        "sub": "משאיר אותך תקוע בשינה קלה"
+      }
+    ],
+    "italic": "ההרגלים שלך מעצבים ישירות את השלבים שאתה מגיע.",
+    "button": "מה זה אומר עבורי? →"
+  },
+  "s4": {
+    "title": "איזה מהם נשמע כמוך? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "אני מתעורר מותש פיזית",
+        "sub": "כנראה שחסר שינה עמוקה",
+        "tip": "התמקד בשינה וזמן ערות עקביים — הגוף שלך זקוק לקצב קבוע כדי להגיע לשינה עמוקה."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "אני מרגיש מעורפל רגשית או נמוך",
+        "sub": "כנראה שחסר שינה REM",
+        "tip": "נסה להירגע 30 דקות לפני השינה — שגרה רגועה לפני השינה מגנה על שינת ה-REM שלך."
+      },
+      {
+        "emoji": "😤",
+        "text": "אני מתעורר הרבה בלילה",
+        "sub": "מחזורים ממשיכים להיקטע",
+        "tip": "חדר קריר, חשוך ושקט עוזר למוח שלך להישאר בשלבים עמוקים יותר ללא הפרעה."
+      },
+      {
+        "emoji": "😐",
+        "text": "אני מרגיש בסדר אבל לא טוב",
+        "sub": "המחזורים הם חלקיים אך לא שלמים",
+        "tip": "נסה ללכת לישון 20 דקות מוקדם יותר — ייתכן שתצטרך עוד מחזור שינה מלא אחד."
+      }
+    ],
+    "quote": "שינה היא לא רק מנוחה — זו התאוששות פעילה. הגן על המחזור שלך ועל כל היום שלך משתנה.",
+    "button": "בוצע ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "מדריך מחזור השינה",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = []",
+  "it_s_not_about": "זה לא קשור",
+  "it_s_about": "זה בערך",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "נגררת משינה עמוקה בגלל אזעקה? המוח שלך פשוט לא סיים את מה שהוא עשה. התחושה הכבדה והערפילית הזאת? זה...",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

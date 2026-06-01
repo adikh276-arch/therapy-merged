@@ -1,0 +1,147 @@
+{
+  "title": "A Pause for Appreciation",
+  "subtitle": "A 5–7 Minute Guided Reflection",
+  "nav": {
+    "history": "History",
+    "home": "Home"
+  },
+  "intro": {
+    "text1": "When a relationship feels strained, it can become easy to focus only on what is not working. This reflection offers a brief pause — not to dismiss concerns, but to gently broaden perspective.",
+    "text2": "There is no expectation to feel grateful. Simply notice what comes up.",
+    "begin": "Begin",
+    "viewHistory": "View History"
+  },
+  "breathing": {
+    "title": "Arrive and Settle",
+    "description": "Before continuing, allow yourself a brief pause. This moment is not about solving anything. It is about creating space.",
+    "instruction": "Follow the breathing rhythm below.",
+    "inhale": "Inhale… {{counter}}…",
+    "hold": "Hold…",
+    "exhale": "Exhale… {{counter}}…",
+    "affirmation": "\"I can acknowledge what feels difficult and still remain open to noticing.\"",
+    "continue": "Continue"
+  },
+  "reflection": {
+    "step": "Step {{step}} of {{total}}",
+    "prompts": {
+      "p1": "One small moment recently with your partner that did not feel tense was…",
+      "p1_ex": "\"We had a brief, calm conversation in the evening.\"",
+      "p2": "One effort your partner has made — even if imperfect — is…",
+      "p2_ex": "\"They attempted to explain their feelings instead of withdrawing.\"",
+      "p3": "One quality in your partner that has remained consistent over time is…",
+      "p3_ex": "\"They continue to show dedication toward our responsibilities.\""
+    },
+    "placeholder": "Write your reflection here…",
+    "next": "Next",
+    "finish": "Finish"
+  },
+  "intention": {
+    "step": "Step 4 of 4",
+    "title": "How would you like to hold this reflection?",
+    "options": {
+      "private": "I would prefer to keep this reflection private.",
+      "share_part": "I may choose to share part of this with my partner.",
+      "share_full": "I would like to share this reflection fully.",
+      "save_later": "I will save this for a later conversation."
+    },
+    "continue": "Continue"
+  },
+  "checkin": {
+    "title": "As you completed this reflection, which statement feels most accurate?",
+    "statements": {
+      "s1": "I feel slightly more open toward my partner right now.",
+      "s2": "I do not notice much change, but I am willing to stay aware.",
+      "s3": "I found this somewhat difficult to complete.",
+      "s4": "I experienced a small sense of warmth during reflection.",
+      "s5": "I noticed resistance, and that feels important to acknowledge.",
+      "s6": "I feel a subtle softening compared to before I began."
+    },
+    "finish": "Finish & Save"
+  },
+  "closing": {
+    "title": "Reflection Complete",
+    "text1": "This pause does not erase challenges. It simply restores balance in how the relationship is viewed.",
+    "text2": "Even brief moments of noticing can gradually soften emotional rigidity and create space for healthier conversations.",
+    "save": "Save to Reflections",
+    "viewHistory": "View History",
+    "exit": "Exit"
+  },
+  "history": {
+    "title": "Your Reflection History",
+    "noReflections": "No reflections saved yet. Your completed sessions will appear here.",
+    "back": "Back to Start",
+    "confirmDelete": "Confirm Delete",
+    "cancel": "Cancel",
+    "delete": "Delete entry",
+    "prompts": [
+      "One small moment that did not feel tense…",
+      "One effort your partner has made…",
+      "One quality that has remained consistent…",
+      "Intention",
+      "Emotional Check-In"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5 minutes",
+  "intro_p1": "Cultivate gratitude",
+  "intro_p2": "Reduce stress",
+  "intro_p3": "Improve well-being",
+  "app_title": "Reflecting",
+  "app_description": "A 5–7 Minute Guided Reflection",
+  "how_do_you_feel_after_this_reflection": "How do you feel after this reflection?",
+  "your_past_reflections_appreciations": "Your past reflections & appreciations",
+  "start_new_session": "Start New Session",
+  "feeling": "Feeling",
+  "delete_this_entry": "Delete this entry?",
+  "delete_5": "Delete",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

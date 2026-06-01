@@ -1,0 +1,102 @@
+{
+  "app_title": "ان سینڈنگ لیٹر",
+  "app_subtitle": "اپنے خیالات کو محفوظ اور نجی طور پر جاری کریں",
+  "intro": {
+    "title": "ان سینڈنگ لیٹر",
+    "description": [
+      "کبھی کبھی، ایسی باتیں ہوتی ہیں جو ہم کہنا چاہتے ہیں — لیکن کبھی موقع نہیں ملا۔",
+      "یہ اس لیے ہو سکتا ہے کہ یہ محفوظ محسوس نہیں ہوا، وقت مناسب نہیں تھا، یا الفاظ بلند آواز میں کہنا مشکل تھا۔",
+      "یہ سرگرمی آپ کو ان خیالات کو الفاظ میں بیان کرنے کے لیے ایک نجی جگہ فراہم کرتی ہے۔",
+      "تمہیں یہ خط بھیجنے کی ضرورت نہیں ہے۔ یہ صرف آپ کے لیے ہے — اپنے جذبات کا اظہار، رہائی اور بہتر سمجھنے کے لیے۔"
+    ],
+    "notice": "آزادانہ طور پر لکھیں۔ کوئی اور یہ نہیں دیکھے گا۔",
+    "button": "لکھنا شروع →"
+  },
+  "writing": {
+    "title": "جو کچھ تم نے دل میں چھپا رکھا ہے وہ لکھو",
+    "desc": "آپ اپنے ساتھی، سابق ساتھی، یا یہاں تک کہ رشتے کو بھی خط لکھ سکتے ہیں۔ اس کا کوئی صحیح یا غلط طریقہ نہیں ہے۔",
+    "prompts": [
+      "مجھے لگتا ہے...",
+      "کاش...",
+      "میں نے کبھی نہیں کہا...",
+      "جس چیز نے مجھے تکلیف دی...",
+      "جو مجھے چاہیے تھا..."
+    ],
+    "placeholder": "محترم ____,\nمیں کافی عرصے سے کہنا چاہتا تھا...",
+    "notice": "آپ کسی بھی وقت رک کر واپس آ سکتے ہیں۔",
+    "button": "جاری →"
+  },
+  "reflection": {
+    "title": "اس پر ایک لمحہ لیں۔",
+    "description": [
+      "آپ نے اپنے خیالات اور جذبات کو الفاظ میں ڈھال دیا ہے — اس کے لیے حوصلہ چاہیے۔",
+      "آپ اس وقت مختلف جذبات محسوس کر سکتے ہیں، اور یہ بالکل ٹھیک ہے۔",
+      "آگے بڑھنے سے پہلے، ایک گہرا سانس لیں اور نرمی سے اپنے آپ کو چیک کریں۔"
+    ],
+    "notice": "یہ تمہاری شفا یابی کے لیے تھا، بھیجنے کے لیے نہیں۔",
+    "save_button": "خط محفوظ کریں",
+    "finish_button": "اختتام"
+  },
+  "history": {
+    "title": "ماضی کے خطوط",
+    "empty_title": "تم نے ابھی تک کوئی خط نہیں لکھا۔",
+    "empty_desc": "تمہارے خطوط یہاں ظاہر ہوں گے جب تم انہیں محفوظ کرو گے۔"
+  },
+  "toasts": {
+    "save_success": "خط آپ کے ذاتی جرنل میں محفوظ کر لیا گیا",
+    "save_error": "خط محفوظ کرنے میں ناکامی",
+    "auth_error": "آتھ سیشن غائب ہے یا ڈیٹا بیس کنفیگر نہیں ہے"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "اپنے خیالات کو محفوظ اور نجی طور پر جاری کریں۔",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

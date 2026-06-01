@@ -1,0 +1,113 @@
+{
+  "app_title": "Înțelegerea controlului",
+  "app_subtitle": "Strategia de supraviețuire • {{step}}/3",
+  "screens": [
+    {
+      "headline": "De ce controlul poate părea atât de puternic",
+      "paragraphs": [
+        "Pentru mulți oameni care întâmpină dificultăți alimentare, controlul poate părea o modalitate de a crea siguranță.",
+        "Când viața pare imprevizibilă sau intensă emoțional, concentrarea pe mâncare, greutate sau rutine poate aduce un sentiment de structură și certitudine.",
+        "Nu este vorba despre voință sau disciplină. Este vorba despre a încerca să te stabilizezi când lucrurile par nesigure.",
+        "În acest fel, controlul devine o strategie de adaptare — ceva care te ajută să te simți ancorat, chiar dacă doar temporar."
+      ],
+      "microcopy": "Nu ești singurul care se simte așa.",
+      "cta": "Continuă"
+    },
+    {
+      "headline": "Moduri diferite în care apare controlul",
+      "intro": "Nevoia de control nu arată la fel pentru toată lumea, dar apare adesea în tipare precum:",
+      "bullets": [
+        {
+          "text": "Reguli stricte sau rigide privind alimentația"
+        },
+        {
+          "text": "Trebuie să urmezi rutinele exact"
+        },
+        {
+          "text": "Anxietate când planurile se schimbă"
+        },
+        {
+          "text": "Legarea stimei de sine de formă/greutate"
+        }
+      ],
+      "outro": "În timp, acestea pot deveni rigide, ocupând spațiu mental și făcând mai dificilă adaptarea.",
+      "microcopy": "Ceea ce începe ca control poate începe treptat să devină controlant.",
+      "cta": "Continuă"
+    },
+    {
+      "headline": "Sub controlul",
+      "intro": "Dorința de a controla are adesea rădăcini mai adânci. Poate fi conectat la:",
+      "bullets": [
+        {
+          "text": "Mă simt copleșit emoțional"
+        },
+        {
+          "text": "Dorința de predictibilitate"
+        },
+        {
+          "text": "O nevoie de stabilitate și siguranță"
+        }
+      ],
+      "insight": "Controlul nu este problema — este strategia pe care mintea ta a găsit-o pentru a face față. Cu timp și sprijin, sunt posibile și alte modalități de a te simți în siguranță.",
+      "microcopy": "Înțelegerea este un prim pas puternic.",
+      "cta": "Termină lectura"
+    }
+  ],
+  "complete": {
+    "title": "Conștientizare dobândită",
+    "message": "Înțelegerea rădăcinilor controlului este un prim pas curajos spre găsirea unor noi modalități de a te simți în siguranță și stabil.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Strategie de supraviețuire • {{step}}/3",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

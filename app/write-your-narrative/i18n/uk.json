@@ -1,0 +1,125 @@
+{
+  "app_title": "Ваша розповідь",
+  "nav": {
+    "entry": "Ласкаво просимо",
+    "writing": "Вираження",
+    "landing": "Відображення",
+    "history": "Твоя подорож"
+  },
+  "entry": {
+    "title": "Давайте рухатися крок за кроком. 💛",
+    "description": [
+      "Сьогодні тобі не обов'язково розповідати всю свою історію. Достатньо невеликої частини.",
+      "Ти зараз у безпеці. Ви контролюєте те, що пишете — а що ні."
+    ],
+    "breath": "Зроби повільний вдих перед початком.",
+    "button_ready": "Я готовий",
+    "button_history": "Минулі наративи",
+    "footer": "Твої слова • Твій темп • Твоя історія"
+  },
+  "writing": {
+    "title": "Пиши те, що здається прийнятним ✨",
+    "subtitle": "Твої слова, твій темп",
+    "prompt_label": "Потрібна відправна точка?",
+    "prompts": [
+      {
+        "text": "Найбільше я пам'ятаю...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Тоді я відчував...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Відтоді я помітив...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Починайте писати тут...",
+    "notice": "Немає правильного способу це зробити. Навіть кількох рядків достатньо.",
+    "button": "Закінчити написання"
+  },
+  "landing": {
+    "title": "Ти зробив щось важливе.",
+    "subtitle": "Дякую, що прийшли заради себе.",
+    "settle_title": "Давайте трохи заспокоїмося",
+    "steps": [
+      "Оглянься навколо і назви три речі, які ти можеш побачити.",
+      "Повільно вдихни... І вийшли."
+    ],
+    "feeling_label": "Зараз я відчуваю:",
+    "feeling_placeholder": "Кілька слів...",
+    "quote": "\"Тобі не обов'язково нести все одразу. Ти можеш повернутися, коли відчуєш себе готовим.\"",
+    "button_save": "Зберегти наратив",
+    "button_preserving": "Збереження..."
+  },
+  "history": {
+    "title": "Твоя подорож 📝",
+    "subtitle": "Минулі наративи та роздуми",
+    "empty": "Ви ще не зберегли жодного запису. Не поспішайте — не поспішайте.",
+    "no_writing": "Жодних написів не збережено",
+    "button_back": "Повернутися до активності"
+  },
+  "complete": {
+    "title": "Збережений наратив",
+    "message": "Ви зробили потужний крок у розповіді своєї історії. Ваша перспектива має значення, і ваша подорож унікально ваша."
+  },
+  "toasts": {
+    "save_success": "Збережено наратив",
+    "save_error": "Не зміг зберегти наратив",
+    "auth_error": "Відсутня сесія автентифікації або база даних не налаштована"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ваша розповідь",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "remove_this": "ВИДАЛИТИ_ЦЕ",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

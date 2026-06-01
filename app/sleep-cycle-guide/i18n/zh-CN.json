@@ -1,0 +1,177 @@
+{
+  "app_title": "睡眠周期指南",
+  "pill_labels": {
+    "0": "介绍",
+    "1": "四个阶段",
+    "2": "昏昏沉沉的真相",
+    "3": "你呢？"
+  },
+  "s1": {
+    "title": "你有没有睡了8个小时却仍然感觉很糟糕的经历？",
+    "p1": "这与你睡了多久无关。",
+    "p2": "这指的是你在睡眠周期的哪个阶段醒来。",
+    "p3": "当你明白这一点后，一切都会改变。",
+    "insight": "💡 实际上，你的大脑在快速眼动睡眠期间比完全清醒时更加活跃！",
+    "duration": "只需3分钟，却能持续一生",
+    "button": "等等，真的吗？跟我说说吧 →"
+  },
+  "s2": {
+    "title": "你的大脑每晚都会做这件事🌀",
+    "desc": "每隔90分钟，你的大脑就会循环经历4个阶段——就像一个循环播放的歌单。点击每个阶段进行探索👇",
+    "stages": {
+      "0": {
+        "emoji": "🌊",
+        "title": "浅睡眠",
+        "tag": "1-5分钟 · 容易唤醒",
+        "body": "你快要睡着了。身体开始放松，肌肉可能会抽搐。从这种状态很容易醒来。"
+      },
+      "1": {
+        "emoji": "💤",
+        "title": "安顿下来",
+        "tag": "10-25分钟 · 真正入睡",
+        "body": "心率减慢，体温下降。你正式入睡了——大脑活动开始减缓。"
+      },
+      "2": {
+        "emoji": "🔵",
+        "title": "深度睡眠 ⭐",
+        "tag": "20-40分钟 · 黄金",
+        "body": "身体修复组织，增强免疫力。这是身体恢复最彻底的阶段——很难从中醒来。"
+      },
+      "3": {
+        "emoji": "🌙",
+        "title": "快速眼动睡眠",
+        "tag": "10-60分钟 · 梦境模式",
+        "body": "大脑活动频繁。情绪得到处理，记忆得以巩固。跳过这一过程会让你思维迟钝。"
+      }
+    },
+    "italic": "深度睡眠修复身体，快速眼动睡眠修复大脑。",
+    "button": "那我为什么还是感觉昏昏沉沉的？→"
+  },
+  "s3": {
+    "title": "半夜醒来 = 进入僵尸模式🧟",
+    "p1": "被闹钟从睡梦中惊醒？你的大脑其实还没完成它正在做的事情。那种昏昏沉沉、沉重的感觉？那就是<1>睡眠惯性</1>。",
+    "wave": {
+      "light": "光",
+      "deep": "深的",
+      "groggy": "😫 昏昏沉沉",
+      "fresh": "😊 新鲜",
+      "cycles": {
+        "0": "第一周期",
+        "1": "第二周期",
+        "2": "周期 3"
+      }
+    },
+    "disruptors_title": "什么会扰乱你的生理周期👇",
+    "disruptors": {
+      "0": {
+        "emoji": "📱",
+        "text": "睡前看屏幕",
+        "sub": "延迟深度睡眠"
+      },
+      "1": {
+        "emoji": "☕",
+        "text": "迟来的咖啡因",
+        "sub": "深度睡眠减少高达20%。"
+      },
+      "2": {
+        "emoji": "⏰",
+        "text": "睡眠时间不规律",
+        "sub": "打破你的自然节奏"
+      },
+      "3": {
+        "emoji": "😰",
+        "text": "压力和焦虑",
+        "sub": "让你一直处于浅睡眠状态"
+      }
+    },
+    "italic": "你的习惯直接决定你最终能达到哪个阶段。",
+    "button": "这对我意味着什么？→"
+  },
+  "s4": {
+    "title": "哪个听起来像你？👇",
+    "options": {
+      "0": {
+        "emoji": "😩",
+        "text": "我醒来时感觉身体非常疲惫。",
+        "sub": "可能错过了深度睡眠",
+        "tip": "注重保持规律的作息时间——你的身体需要规律的节奏才能进入深度睡眠。"
+      },
+      "1": {
+        "emoji": "🌫️",
+        "text": "我感觉情绪低落或情绪低落。",
+        "sub": "可能错过了快速眼动睡眠",
+        "tip": "尝试在睡前 30 分钟放松身心——平静的睡前习惯可以保护你的快速眼动睡眠。"
+      },
+      "2": {
+        "emoji": "😤",
+        "text": "我夜里经常醒来",
+        "sub": "循环不断被打断",
+        "tip": "凉爽、黑暗、安静的房间有助于大脑保持深度思考状态，不受干扰。"
+      },
+      "3": {
+        "emoji": "😐",
+        "text": "我感觉还行，但不是特别好。",
+        "sub": "循环是部分循环，但并不完整。",
+        "tip": "试着早睡20分钟——你可能只需要多睡一个完整的周期。"
+      }
+    },
+    "quote": "睡眠不仅仅是休息，更是积极的恢复过程。保护好你的生理周期，就能改变你一整天的状态。",
+    "button": "完成 ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sleep Cycle Guide",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\n  const screens = [",
+  "it_s_not_about": "It's not about",
+  "it_s_about": "It's about",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Dragged out of deep sleep by an alarm? Your brain literally hasn't finished what it was doing. That foggy heavy feeling? That's",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

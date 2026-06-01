@@ -1,0 +1,146 @@
+{
+  "app_title": "Paměťová krabice",
+  "screen_titles": [
+    "Tvoje krabice",
+    "Ocenění",
+    "Vyjadřování",
+    "Zachováno",
+    "Jemná péče"
+  ],
+  "complete_title": "Paměť zachována",
+  "complete_message": "Bezpečně jsi uložil vzpomínku na {{name}} do své krabice. Tyto okamžiky spojení jsou vaše, abyste si je vždy nechal.",
+  "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
+  "save_success": "Paměť zachována",
+  "save_error": "Nepodařilo se zachovat paměť",
+  "preserving": "Uchování...",
+  "preserve_memory": "Uchovejte paměť",
+  "welcome": {
+    "title": "Tvoje paměťová krabička",
+    "subtitle1": "Tiché místo, kde si můžete vzpomenout na někoho, koho milujete. 🤍",
+    "subtitle2": "Pomalu se nadechni...",
+    "subtitle3": "… a jemně vydechnout.",
+    "subtitle4": "Neexistuje správný nebo špatný způsob, jak to udělat.",
+    "subtitle5": "Jděte vlastním tempem. 🌿",
+    "begin": "Začátek ✨",
+    "later": "Možná později"
+  },
+  "who": {
+    "placeholder_name": "Napište jejich jméno...",
+    "placeholder_relation": "Jak je znáš? (volitelné)",
+    "categories": [
+      {
+        "label": "Šťastný okamžik",
+        "emoji": "😊"
+      },
+      {
+        "label": "Něco, co dřív říkali",
+        "emoji": "💬"
+      },
+      {
+        "label": "Malá každodenní vzpomínka",
+        "emoji": "☕"
+      },
+      {
+        "label": "Místo, které vám je připomíná",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Něco, co bych si přál říct",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Pokračujte →"
+  },
+  "expression": {
+    "title": "Vyjádření vaší paměti",
+    "memory_label": "Samotná vzpomínka",
+    "memory_placeholder": "Pište o okamžiku, pocitu nebo detailu, který chcete zachovat...",
+    "message_label": "Vzkaz pro ně (volitelné)",
+    "message_placeholder": "Co byste řekl, kdybyste s nimi mohl mluvit hned teď?",
+    "save": "Uchovejte paměť",
+    "skip": "Zatím přeskočte",
+    "back": "Zpět"
+  },
+  "box": {
+    "title": "Bezpečně schované",
+    "subtitle": "Tato vzpomínka na {{name}} je nyní součástí vaší sbírky.",
+    "add_another": "Přidat další vzpomínku",
+    "finish": "Finish Reflection"
+  },
+  "closing": {
+    "title": "Péče",
+    "subtitle": "Zatím zavírám krabici. Můžeš se sem kdykoli vrátit, abys se cítil blízko těmto vzpomínkám.",
+    "exit": "Zavřít krabici"
+  },
+  "history": {
+    "title": "Obsah krabice",
+    "no_memories": "Tvoje krabice je prázdná. Přidejte svou první vzpomínku a začněte svou sbírku.",
+    "search_placeholder": "Hledejte vzpomínky..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Paměťová krabička",
+  "before_you_go": "Než půjdeš",
+  "grief_comes_in_waves": "Smutek přichází ve vlnách. 🌊",
+  "what_you_re_feeling_matters": "Na tom, co cítíš, záleží. 🤍",
+  "be_gentle_with_yourself_today": "Buďte k sobě dnes laskaví. 🌿",
+  "save_exit": "Uložit a ukončit 🕊️",
+  "take_your_time": "Nespěchejte 🕯️",
+  "save_to_memory_box": "Uložit do schránky s pamětí 📦",
+  "write_as_much_or_as_little_as_you_want": "Pište tolik, kolik chcete, nebo tak málo… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Pokud je něco, co byste chtěl/a říct…",
+  "past_entries": "Minulé záznamy",
+  "no_memories_saved_yet": "Zatím nejsou uloženy žádné vzpomínky.",
+  "this_memory_is_held_here_for_you": "Tato vzpomínka je zde uchována pro vás. 🌿",
+  "add_another_memory": "Přidej další vzpomínku ✨",
+  "finish_for_now": "Prozatím hotovo",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

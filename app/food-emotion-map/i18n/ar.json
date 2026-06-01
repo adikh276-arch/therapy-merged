@@ -1,0 +1,139 @@
+{
+  "app_title": "خريطة الطعام والعاطفة",
+  "screen_titles": [
+    "مرحبا بك",
+    "أنماط الطعام",
+    "الحوار الداخلي",
+    "الاستشعار الفيزيائي",
+    "الخريطة",
+    "الدعم اللطيف",
+    "المظهر النهائي",
+    "الانعكاس"
+  ],
+  "welcome_text": "هيه... أنا سعيد حقا بوجودك هنا 💛، دعونا نرسم ما كان يحدث بلطف.",
+  "coming_up_label": "ما الذي سيحدث مؤخرا؟",
+  "begin_mapping": "بدء رسم الخرائط",
+  "food_patterns_q": "هممم... أسمعك. عندما تشعر ب {{emotion}}... كيف يظهر الطعام عادة؟",
+  "continue_button": "تابع",
+  "internal_dialogue_q": "في تلك اللحظات... ما نوع الأفكار التي تخطر ببالها؟",
+  "write_placeholder": "اكتب ما يخطر ببالك...",
+  "physical_sensing_q": "إذا توقفت للحظة... ماذا تلاحظ في جسدك؟",
+  "the_pattern_label": "النمط",
+  "pattern_desc_1": "عندما تشعر ب {{emotion}}، يشعر جسدك ب {{sensation}}...",
+  "pattern_desc_2": "… ويصبح الطعام وسيلة ل {{response}}، بينما تظهر أفكار مثل \"{{thought}}\".",
+  "pattern_footer": "\"الوعي بالنمط هو الحرية\"",
+  "support_q": "في تلك اللحظات... ما الذي قد يساعدك — حتى ولو قليلا؟",
+  "understanding_text": "أنت تفهم نفسك بشكل أفضل قليلا. هذا أكثر من كاف 💛",
+  "how_feeling_now": "كيف تشعر الآن؟",
+  "preserve_button": "خريطة الحفظ",
+  "preserving": "الحفظ...",
+  "complete_title": "الخريطة محفوظة",
+  "complete_message": "لقد نجحت في رسم خريطة العلاقة بين مشاعرك والطعام. هذا الوعي أداة قوية للتغيير اللطيف.",
+  "auth_error": "جلسة المصادقة مفقودة أو قاعدة بيانات غير مهيأة",
+  "save_success": "النمط المحفوظ",
+  "save_error": "فشل في الحفاظ على النمط",
+  "emotions_list": [
+    "😰 الضغط",
+    "😢 الحزن",
+    "😶 الملل",
+    "😟 القلق",
+    "🥺 الوحدة",
+    "💭 شيء آخر..."
+  ],
+  "food_responses": [
+    "🍽️ آكل أكثر",
+    "🚫 أنا آكل أقل",
+    "🍫 أشتهي أطعمة محددة",
+    "😣 أتجنب الطعام",
+    "😐 لا تغيير حقيقي"
+  ],
+  "body_sensations": [
+    "💔 ضيق الصدر",
+    "🪨 شعور ثقيل",
+    "🦵 قلق / متململ",
+    "🔋 الطاقة المنخفضة",
+    "🌀 عقد في المعدة",
+    "❓ شيء آخر..."
+  ],
+  "support_options": [
+    "🗣️ تحدث مع شخص ما",
+    "☕ خذ استراحة",
+    "📝 المجلة",
+    "🌬️ تنفس",
+    "🎧 أشتت نفسي"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "تواصل معك 💛",
+      "body": "أحيانا المشاركة تخفف الأمور قليلا. ربما مجرد 'مرحبا، هل يمكننا التحدث؟'"
+    },
+    "☕ Take a break": {
+      "title": "توقف 💛",
+      "body": "توقف قصير يمكن أن يساعد في إعادة ضبط الأمور. ربما تبتعد وتأخذ بعض الأنفاس البطيئة."
+    },
+    "📝 Journal": {
+      "title": "اكتبها 💛",
+      "body": "يمكنك أن تبدأ ب 'الآن أشعر...' ودع الأمور تتدفق."
+    },
+    "🌬️ Breathe": {
+      "title": "تنفس 💛",
+      "body": "استنشق 4... انتظر 2... زفير 6... دعونا نبطئ الأمور معا."
+    },
+    "🎧 Distract myself": {
+      "title": "حركة 💛 لطيفة",
+      "body": "يمكن للتشتيت اللطيف أن يغير اللحظة... ربما شيء خفيف أو سهل."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "خريطة الطعام والمشاعر",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,124 @@
+{
+  "app_title": "Цикл гнева и стыда",
+  "app_subtitle": "Понимание петли • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Почему злость снова и снова возвращается?",
+      "description": "Возможно, дело не в твоём характере. Между гневом и стыдом существует скрытая петля — и как только ты её видишь, всё меняется.",
+      "quote": "«Большинство людей пытаются исправить злость. Но стыд — это то, что тихо поддерживает его.»",
+      "button": "Давайте исследуем"
+    },
+    "s2": {
+      "tag": "Цикл",
+      "title": "Петля объясняла",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Гнев всплывает"
+        },
+        {
+          "emoji": "😔",
+          "label": "Стыд: «Я плохая»"
+        },
+        {
+          "emoji": "🤐",
+          "label": "Стыд похоронен"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Гнев снова вспыхивает"
+        }
+      ],
+      "button": "Я вижу это"
+    },
+    "s3": {
+      "tag": "Что происходит?",
+      "title": "Две эмоции, одна ловушка",
+      "anger": {
+        "title": "🔥 Гнев",
+        "desc": "Вторичная эмоция — под жизнью скрываются боль, страх или отвержение. Это сигнализация, а не пожар."
+      },
+      "shame": {
+        "title": "😔 Стыд",
+        "desc": "«Я плохой» — не просто «Я сделал что-то плохое». Она прячется, замолкает и поддерживает этот цикл."
+      },
+      "button": "Освобождение"
+    },
+    "s4": {
+      "tag": "Прерывание",
+      "title": "Прервать цикл",
+      "steps": [
+        {
+          "title": "Назовите источник",
+          "desc": "Спросите: «Что я на самом деле чувствую?» Больно? Боишься? Незаметно? Название её ослабляет его."
+        },
+        {
+          "title": "Пауза сострадания",
+          "desc": "Рука на грудь. Скажи: «Это сложно. Я человек. Я справлюсь с этим.»"
+        },
+        {
+          "title": "Починить с грацией",
+          "desc": "Загладите вину, если нужно — но не впадайте в панику. Ты не самый худший момент."
+        }
+      ],
+      "notice": "Замечание цикла — уже первый шаг. Ты делаешь свою работу.",
+      "button": "Полная деятельность"
+    }
+  },
+  "complete": {
+    "title": "Прерванный цикл",
+    "message": "Ты приобрёл осознание, чтобы видеть связь между гневом и стыдом. Это основа для устойчивой эмоциональной свободы."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Время выполнения",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Делиться",
+    "share_progress": "Поделиться прогрессом",
+    "inspire_others": "Вдохновите других сегодня!",
+    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
+    "this_activity": "эта деятельность",
+    "copied": "Скопировано!",
+    "copy_message": "Скопировать сообщение",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Понимание цикла • {{шаг}}/{{всего}}",
+  "more": "Более",
+  "breadcrumb": "хлебные крошки",
+  "previous_slide": "Предыдущий слайд",
+  "next_slide": "Следующий слайд",
+  "close": "Закрывать",
+  "previous": "Предыдущий",
+  "more_pages": "Больше страниц",
+  "pagination": "нумерация страниц",
+  "go_to_previous_page": "Перейти на предыдущую страницу",
+  "go_to_next_page": "Перейти на следующую страницу",
+  "toggle_sidebar": "Переключить боковую панель",
+  "oops_page_not_found": "Ой! Страница не найдена.",
+  "return_to_home": "Вернуться на главную",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "app_title": "Mind Reading Check",
+  "intro": {
+    "title": "Mind Reading Check",
+    "description": "Question the assumptions you make about what others are thinking.",
+    "benefits": [
+      "Stop assuming the worst",
+      "Identify biased interpretations",
+      "Build clearer communication"
+    ],
+    "duration": "3-4 minutes",
+    "view_past": "View Past Reflections"
+  },
+  "history": {
+    "title": "Past Reflections",
+    "no_entries": "No entries yet",
+    "belief_label": "Belief: {{level}}%",
+    "balanced_thought_label": "Balanced Thought"
+  },
+  "complete": {
+    "title": "Activity Complete",
+    "great_insights": "Great Insights!",
+    "message": "By questioning your assumptions, you're building a more objective and compassionate mind."
+  },
+  "steps": {
+    "label": "Step {{current}} of 10",
+    "step1": {
+      "title": "What happened?",
+      "desc": "Describe a recent moment where you felt judged or unsure.",
+      "placeholder": "Description of the situation..."
+    },
+    "step2": {
+      "title": "What went through your mind?",
+      "desc": "What did you assume they were thinking about you?",
+      "placeholder": "I assumed they were thinking..."
+    },
+    "step3": {
+      "title": "Let's slow this down",
+      "desc": "Right now, this thought can feel true. But before accepting it as a fact, let's take a step back and look at it more closely.",
+      "button": "Pause & Continue"
+    },
+    "step4": {
+      "title": "Is this true?",
+      "desc": "Is there any clear evidence (facts, not assumptions) that supports this thought?",
+      "placeholder": "The evidence I see is..."
+    },
+    "step5": {
+      "title": "What else could be going on?",
+      "desc": "What are 2–3 other possible explanations?",
+      "placeholder": "Possibility {{num}}..."
+    },
+    "step6": {
+      "title": "Check your belief",
+      "desc": "How strongly do you believe your original thought now?",
+      "labels": [
+        "Not at all",
+        "Completely"
+      ]
+    },
+    "step7": {
+      "title": "A more balanced view",
+      "desc": "Write a thought that feels more fair and less certain.",
+      "placeholder": "A more balanced thought..."
+    },
+    "step8": {
+      "title": "Next time",
+      "desc": "What could you do instead of assuming?",
+      "examples": [
+        "Ask for clarification",
+        "Give it some time",
+        "Notice without reacting"
+      ],
+      "placeholder": "Next time, I could..."
+    },
+    "step9": {
+      "title": "Notice the shift",
+      "desc": "You explored different possibilities and created space for a more balanced view.",
+      "original_label": "Original Thought",
+      "balanced_label": "Balanced Perspective",
+      "button": "Finish Reflection"
+    },
+    "step10": {
+      "title": "A small shift",
+      "desc": "Your mind tries to fill in the gaps. But not every thought is a fact. Taking a step back helps you see things clearly.",
+      "button": "Complete Activity"
+    }
+  },
+  "buttons": {
+    "continue": "Continue",
+    "restart": "Restart"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Mind Reading Check",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

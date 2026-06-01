@@ -1,0 +1,125 @@
+{
+  "app_title": "قصتك",
+  "nav": {
+    "entry": "مرحبا بك",
+    "writing": "التعبير عن الجميع",
+    "landing": "الانعكاس",
+    "history": "رحلتك"
+  },
+  "entry": {
+    "title": "دعونا نأخذ هذا خطوة بخطوة. 💛",
+    "description": [
+      "لا تحتاج إلى سرد قصتك كاملة اليوم. جزء صغير فقط يكفي.",
+      "أنت بأمان الآن. أنت تتحكم فيما تكتبه—وما لا تكتبه."
+    ],
+    "breath": "خذ نفسا بطيئا قبل أن نبدأ.",
+    "button_ready": "أنا جاهز",
+    "button_history": "الروايات السابقة",
+    "footer": "كلماتك • وتيرتك • قصتك"
+  },
+  "writing": {
+    "title": "اكتب ما تشعر أنه جيد ✨",
+    "subtitle": "كلماتك، وتيرتك",
+    "prompt_label": "هل تحتاج إلى نقطة بداية؟",
+    "prompts": [
+      {
+        "text": "ما أتذكره أكثر هو...",
+        "emoji": "💭"
+      },
+      {
+        "text": "في ذلك الوقت، شعرت...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "منذ ذلك الحين، لاحظت...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "ابدأ الكتابة هنا...",
+    "notice": "لا توجد طريقة صحيحة لفعل ذلك. حتى بضع أسطر تكفي.",
+    "button": "إنهاء الكتابة"
+  },
+  "landing": {
+    "title": "لقد فعلت شيئا مهما.",
+    "subtitle": "شكرا لحضورك بنفسك.",
+    "settle_title": "دعونا نأخذ لحظة لنهدأ",
+    "steps": [
+      "انظر حولك واذكر 3 أشياء يمكنك أن تراها.",
+      "خذ نفسا بطيئا... وخارج."
+    ],
+    "feeling_label": "الآن، أشعر:",
+    "feeling_placeholder": "كلمة أو اثنتان...",
+    "quote": "\"لا يجب أن تحمل كل شيء دفعة واحدة. يمكنك العودة متى ما شعرت أنك مستعد.\"",
+    "button_save": "الحفاظ على السرد",
+    "button_preserving": "الحفظ..."
+  },
+  "history": {
+    "title": "رحلتك 📝",
+    "subtitle": "السرديات والتأملات السابقة",
+    "empty": "لم تقم بحفظ أي إدخالات بعد. خذ وقتك—لا داعي للعجلة.",
+    "no_writing": "لم يتم حفظ أي كتابة",
+    "button_back": "العودة إلى النشاط"
+  },
+  "complete": {
+    "title": "السرد المحفوظ",
+    "message": "لقد اتخذت خطوة قوية في سرد قصتك. وجهة نظرك مهمة، ورحلتك فريدة لك."
+  },
+  "toasts": {
+    "save_success": "السرد المحفوظ",
+    "save_error": "فشل في الحفاظ على السرد",
+    "auth_error": "جلسة المصادقة مفقودة أو قاعدة بيانات غير مهيأة"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "روايتك",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "remove_this": "قم بإزالة هذا",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "خذ نفسا 🌿 عميقا",
+    "title": "تحكم في توترك",
+    "description": "عادات يومية بسيطة تساعدك على الشعور بالهدوء والتحكم أكثر.",
+    "sectionTitle": "نصائح يومية لتخفيف التوتر"
+  },
+  "tip": {
+    "sleep": {
+      "title": "احصل على نوم هادئ",
+      "description": "استهدف أن تنام من 7 إلى 9 ساعات كل ليلة. حاول أن تنام وتستيقظ في نفس الوقت يوميا.",
+      "why": "يساعد النوم دماغك وجسمك على التعافي ويخفض هرمونات التوتر.",
+      "do": [
+        "حافظ على جدول نوم ثابت",
+        "تجنب الشاشات قبل النوم بساعة واحدة",
+        "حافظ على الغرفة باردة ومظلمة",
+        "تجنب تناول الكافيين بعد الساعة 4 مساء"
+      ],
+      "button": "تعيين تذكير النوم"
+    },
+    "breathing": {
+      "title": "تدرب على التنفس العميق",
+      "description": "اقض بضع دقائق تركز على تنفسك. التنفس البطيء يقلل من القلق.",
+      "why": "التنفس البطيء ينشط استجابة الجسم للاسترخاء.",
+      "do": [
+        "استنشق لمدة 4 ثوان",
+        "انتظر لمدة 4 ثوان",
+        "زفر لمدة 4 ثوان",
+        "كرر ذلك لمدة دقيقة واحدة"
+      ]
+    },
+    "exercise": {
+      "title": "حرك جسدك",
+      "description": "المشي الخفيف أو التمدد يساعد على تخفيف التوتر وتحسين المزاج.",
+      "why": "التمارين تفرز الإندورفينات وتحسن المزاج.",
+      "do": [
+        "مشيا لمدة 15 دقيقة",
+        "التمدد الخفيف",
+        "جلسة يوغا قصيرة",
+        "تمرين منزلي سريع"
+      ]
+    },
+    "caffeine": {
+      "title": "الحد من الكافيين والسكر",
+      "description": "الإفراط في تناول الكافيين والسكر يمكن أن يزيد من القلق ويزعج النوم.",
+      "why": "الإفراط في تناول الكافيين والسكر يزيد من القلق ومشاكل النوم.",
+      "do": [
+        "استبدل قهوة واحدة بشاي الأعشاب",
+        "اشرب المزيد من الماء",
+        "قلل من الوجبات الخفيفة السكرية",
+        "تجنب الكافيين في وقت متأخر من اليوم"
+      ]
+    },
+    "planning": {
+      "title": "خطط ليومك",
+      "description": "قسم المهام الكبيرة إلى خطوات صغيرة لتجنب الشعور بالإرهاق.",
+      "why": "التخطيط يقلل من الفوضى الذهنية والإرهاق.",
+      "do": [
+        "اكتب 3 مهام رئيسية",
+        "قسم المهام إلى خطوات صغيرة",
+        "ركز على مهمة واحدة في كل مرة",
+        "خذ استراحات قصيرة"
+      ]
+    }
+  },
+  "detail": {
+    "back": "العودة",
+    "notFound": "لم يتم العثور على البقشيش.",
+    "whyTitle": "لماذا يساعد ذلك",
+    "doTitle": "ما يمكنك فعله",
+    "reminderSet": "تم تعيين التذكير! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "أوه! الصفحة غير موجودة",
+    "return": "العودة إلى الوطن"
+  },
+  "mood": {
+    "title": "كيف تشعر اليوم؟",
+    "great": "رائع",
+    "okay": "حسنا",
+    "stressed": "متوتر",
+    "overwhelmed": "غارقة في الشعور"
+  },
+  "breathing": {
+    "inhale": "استنشق...",
+    "hold": "انتظر...",
+    "exhale": "زفير...",
+    "pause": "توقف",
+    "resume": "السيرة الذاتية"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "تخفيف التوتر",
+  "app_description": "تخفيف التوتر",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "breathing_guide": "دليل التنفس",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

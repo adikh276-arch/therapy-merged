@@ -1,0 +1,125 @@
+{
+  "app_title": "你的叙述",
+  "nav": {
+    "entry": "欢迎",
+    "writing": "表达",
+    "landing": "反思",
+    "history": "你的旅程"
+  },
+  "entry": {
+    "title": "让我们一步一步来。💛",
+    "description": [
+      "今天你不必把你的故事全部讲出来，只需说一小部分就够了。",
+      "你现在很安全。你可以掌控自己写什么，以及不写什么。"
+    ],
+    "breath": "开始之前，请深呼吸。",
+    "button_ready": "我准备好了",
+    "button_history": "过去的叙事",
+    "footer": "你的文字 • 你的节奏 • 你的故事"
+  },
+  "writing": {
+    "title": "写下你觉得舒服的事情✨",
+    "subtitle": "你的话语，你的节奏",
+    "prompt_label": "需要一个切入点吗？",
+    "prompts": [
+      {
+        "text": "我印象最深的是……",
+        "emoji": "💭"
+      },
+      {
+        "text": "那时，我感觉……",
+        "emoji": "🌊"
+      },
+      {
+        "text": "从那时起，我注意到……",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "从这里开始写作……",
+    "notice": "没有固定的方法。哪怕只写几行也行。",
+    "button": "完成写作"
+  },
+  "landing": {
+    "title": "你做了一件重要的事。",
+    "subtitle": "感谢你为自己挺身而出。",
+    "settle_title": "我们先花点时间平静下来。",
+    "steps": [
+      "环顾四周，说出你看到的3样东西。",
+      "慢慢吸气……再慢慢呼气。"
+    ],
+    "feeling_label": "此刻，我的感受是：",
+    "feeling_placeholder": "一两句话……",
+    "quote": "“你不必一次性承担所有事情。等你准备好了，随时都可以回来。”",
+    "button_save": "保留叙事",
+    "button_preserving": "保存……"
+  },
+  "history": {
+    "title": "你的旅程📝",
+    "subtitle": "过往的叙述与反思",
+    "empty": "您尚未保存任何条目。请慢慢来，不用着急。",
+    "no_writing": "没有文字保存下来。",
+    "button_back": "返回活动"
+  },
+  "complete": {
+    "title": "叙事得以保存",
+    "message": "你已经迈出了讲述自己故事的重要一步。你的视角很重要，你的经历也是独一无二的。"
+  },
+  "toasts": {
+    "save_success": "叙事得以保存",
+    "save_error": "未能保留叙事",
+    "auth_error": "身份验证会话缺失或数据库未配置"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享进度",
+    "inspire_others": "今天激励他人",
+    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "this_activity": "这项活动",
+    "copied": "已复制！",
+    "copy_message": "复制消息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "你的叙述",
+  "more": "更多的",
+  "breadcrumb": "面包屑",
+  "previous_slide": "上一张幻灯片",
+  "next_slide": "下一张幻灯片",
+  "close": "关闭",
+  "previous": "以前的",
+  "more_pages": "更多页面",
+  "pagination": "分页",
+  "go_to_previous_page": "返回上一页",
+  "go_to_next_page": "前往下一页",
+  "toggle_sidebar": "切换侧边栏",
+  "remove_this": "删除此项",
+  "oops_page_not_found": "糟糕！页面未找到",
+  "return_to_home": "返回首页",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

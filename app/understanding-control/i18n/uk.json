@@ -1,0 +1,113 @@
+{
+  "app_title": "Розуміння керування",
+  "app_subtitle": "Стратегія виживання • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Чому контроль може здаватися таким потужним",
+      "paragraphs": [
+        "Для багатьох людей, які мають проблеми з харчуванням, контроль може сприйматися як спосіб створити безпеку.",
+        "Коли життя здається непередбачуваним або емоційно напруженим, зосередження на їжі, вазі чи рутинах може принести відчуття структури та впевненості.",
+        "Це не про силу волі чи дисципліну. Це про те, щоб намагатися заспокоїтися, коли щось здається невизначеним.",
+        "Таким чином, контроль стає стратегією подолання — чимось, що допомагає відчути себе заземленим, навіть якщо лише тимчасово."
+      ],
+      "microcopy": "Ти не один у таких почуттях.",
+      "cta": "Продовжуй"
+    },
+    {
+      "headline": "Різні способи появи контролю",
+      "intro": "Потреба в контролі виглядає різною для всіх, але часто проявляється у таких схемах, як:",
+      "bullets": [
+        {
+          "text": "Суворі або негнучкі правила щодо харчування"
+        },
+        {
+          "text": "Потрібно точно дотримуватися рутини"
+        },
+        {
+          "text": "Тривога, коли плани змінюються"
+        },
+        {
+          "text": "Зв'язок самооцінки з формою/вагою"
+        }
+      ],
+      "outro": "З часом вони можуть стати жорсткими, займаючи ментальний простір і ускладнюючи адаптацію.",
+      "microcopy": "Те, що починається як контроль, поступово починає здаватися контролюючим.",
+      "cta": "Продовжуй"
+    },
+    {
+      "headline": "Під контролем",
+      "intro": "Бажання контролювати часто має глибші корені. Він може бути пов'язаний з:",
+      "bullets": [
+        {
+          "text": "Відчуття емоційного переповнення"
+        },
+        {
+          "text": "Бажання передбачуваності"
+        },
+        {
+          "text": "Потреба у стабільності та безпеці"
+        }
+      ],
+      "insight": "Контроль — це не проблема, а стратегія, яку ваш розум знайшов для впорання. З часом і підтримкою з'являються інші способи почуватися в безпеці.",
+      "microcopy": "Розуміння — це потужний перший крок.",
+      "cta": "Закінчити читання"
+    }
+  ],
+  "complete": {
+    "title": "Здобуття обізнаності",
+    "message": "Розуміння коренів контролю — це сміливий перший крок до пошуку нових способів почуватися в безпеці та стабільності.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Стратегія виживання • {{step}}/3",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,125 @@
+{
+  "app_title": "הנרטיב שלך",
+  "nav": {
+    "entry": "ברוכים הבאים",
+    "writing": "הבעה",
+    "landing": "השתקפות",
+    "history": "המסע שלך"
+  },
+  "entry": {
+    "title": "בואו ניקח את זה צעד אחר צעד. 💛",
+    "description": [
+      "אתה לא חייב לספר את כל הסיפור שלך היום. רק חלק קטן מספיק.",
+      "אתה בטוח עכשיו. אתה שולט במה שאתה כותב—ובמה שאתה לא."
+    ],
+    "breath": "קח נשימה איטית לפני שמתחילים.",
+    "button_ready": "אני מוכן",
+    "button_history": "נרטיבים מהעבר",
+    "footer": "המילים שלך • הקצב שלך • הסיפור שלך"
+  },
+  "writing": {
+    "title": "כתוב מה שמרגיש בסדר ✨",
+    "subtitle": "המילים שלך, הקצב שלך",
+    "prompt_label": "צריך נקודת התחלה?",
+    "prompts": [
+      {
+        "text": "מה שאני הכי זוכר זה...",
+        "emoji": "💭"
+      },
+      {
+        "text": "באותו זמן, הרגשתי...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "מאז, שמתי לב...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "תתחיל לכתוב כאן...",
+    "notice": "אין דרך נכונה לעשות את זה. אפילו כמה שורות מספיקות.",
+    "button": "סיים לכתוב"
+  },
+  "landing": {
+    "title": "עשית משהו חשוב.",
+    "subtitle": "תודה שהגעתם בשביל עצמכם.",
+    "settle_title": "בוא ניקח רגע להירגע",
+    "steps": [
+      "תסתכל סביב ותן 3 דברים שאתה יכול לראות.",
+      "קח נשימה איטית... והחוצה."
+    ],
+    "feeling_label": "כרגע, אני מרגיש:",
+    "feeling_placeholder": "מילה או שתיים...",
+    "quote": "\"אתה לא חייב לשאת הכל בבת אחת. אתה יכול לחזור מתי שתרגיש מוכן.\"",
+    "button_save": "נרטיב שימור",
+    "button_preserving": "שימור..."
+  },
+  "history": {
+    "title": "המסע 📝 שלך",
+    "subtitle": "נרטיבים והרהורים מהעבר",
+    "empty": "עדיין לא שמרת רשומים. קח את הזמן — אין לחץ.",
+    "no_writing": "אין כתיבה שנשמרה",
+    "button_back": "חזרה לפעילות"
+  },
+  "complete": {
+    "title": "נרטיב נשמר",
+    "message": "עשית צעד משמעותי בסיפור שלך. הפרספקטיבה שלך חשובה, והמסע שלך ייחודי לך."
+  },
+  "toasts": {
+    "save_success": "נרטיב נשמר",
+    "save_error": "נכשל בשימור הנרטיב",
+    "auth_error": "סשן אימות חסר או מסד נתונים לא מוגדר"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "הנרטיב שלך",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "remove_this": "הסר_את_זה",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

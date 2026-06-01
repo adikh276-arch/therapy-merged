@@ -1,0 +1,217 @@
+{
+  "app_title": "Vad behöver jag?",
+  "app_subtitle": "Kolla in dig själv",
+  "screens": {
+    "s1": {
+      "title": "Vad behöver jag just nu?",
+      "description": "Ett ögonblick för att stanna upp och lyssna på vad ditt hjärta ber om.",
+      "button": "Starta incheckning"
+    },
+    "s2": {
+      "select": {
+        "title": "Vad känns viktigt?",
+        "placeholder": "Något annat...",
+        "add_button": "Lägg till",
+        "button": "Fortsätt"
+      },
+      "prioritize": {
+        "title": "Vilken är primär?"
+      },
+      "focus": {
+        "tag": "Ditt fokus just nu",
+        "button": "Fortsätt"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Fortsätt"
+      },
+      "action": {
+        "title": "Ett litet steg framåt?",
+        "placeholder": "Eller skriva din egen...",
+        "button": "Recensionsreflektion"
+      },
+      "closing": {
+        "tag_need": "Primärt behov",
+        "tag_insight": "Din insikt",
+        "tag_action": "Småaktion",
+        "save_button": "Spara och avsluta",
+        "finish_button": "Avsluta utan att spara"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emotionellt stöd",
+      "prompt": "Vilken typ av stöd skulle faktiskt hjälpa dig just nu?",
+      "hints": [
+        "Jag behöver bara någon att...",
+        "Det skulle hjälpa om...",
+        "Det jag verkligen vill är..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Utrymme / tid för mig själv",
+      "prompt": "Hur skulle det se ut för dig att ha det utrymmet?",
+      "hints": [
+        "Jag skulle använda den tiden till att...",
+        "Rymden skulle låta mig...",
+        "Jag behöver plats för att..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Tydlig kommunikation",
+      "prompt": "Hur skulle tydligare kommunikation se ut för dig?",
+      "hints": [
+        "Jag önskar att jag kunde säga...",
+        "Om de verkligen lyssnade, skulle jag säga till dem...",
+        "Kommunikationen känns svår när..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Trygghet",
+      "prompt": "Vilken sorts beröring skulle kännas meningsfull?",
+      "hints": [
+        "Jag måste höra det...",
+        "Det skulle lugna mig att veta...",
+        "Jag oroar mig hela tiden för att..."
+      ]
+    },
+    "Understanding": {
+      "label": "Förståelse",
+      "prompt": "Hur skulle känslan av att verkligen förstå sig se ut?",
+      "hints": [
+        "Jag önskar att folk visste det...",
+        "Det jag verkligen känner är...",
+        "Ingen ser att jag..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilitet",
+      "prompt": "Hur skulle stabilitet kännas i ditt liv just nu?",
+      "hints": [
+        "Jag behöver att saker känns...",
+        "Det som skulle förankra mig är...",
+        "Stabilitet betyder..."
+      ]
+    },
+    "Honesty": {
+      "label": "Ärlighet",
+      "prompt": "Hur skulle mer ärlighet se ut i din situation?",
+      "hints": [
+        "Sanningen jag måste möta är...",
+        "Jag vill vara ärlig om...",
+        "Det som egentligen pågår är..."
+      ]
+    },
+    "Respect": {
+      "label": "Respekt",
+      "prompt": "Hur ser respekt ut för dig just nu?",
+      "hints": [
+        "Jag förtjänar att bli behandlad...",
+        "Respekt skulle se ut som...",
+        "Jag behöver folk att..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Tydlighet kring relationen",
+      "prompt": "Vilken sorts klarhet skulle hjälpa dig mest?",
+      "hints": [
+        "Jag måste veta om...",
+        "Det som förvirrar mig är...",
+        "Jag vill att vi ska vara tydliga om..."
+      ]
+    },
+    "default": {
+      "prompt": "Hur skulle detta se ut i en verklig situation?",
+      "hints": [
+        "Det jag kommer att tänka på är...",
+        "Just nu känner jag mig...",
+        "Om jag ska vara ärlig mot mig själv..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Säg något ärligt"
+    },
+    {
+      "label": "Ta tid för mig själv"
+    },
+    {
+      "label": "Kontakta någon"
+    },
+    {
+      "label": "Sätt en liten gräns"
+    },
+    {
+      "label": "Inte säker än"
+    }
+  ],
+  "history": {
+    "title": "Tidigare reflektioner",
+    "empty": "Inga reflektioner än."
+  },
+  "toasts": {
+    "save_success": "Reflektion räddad",
+    "save_error": "Misslyckades med att spara reflektionen",
+    "auth_error": "Auth-session saknas eller databas inte konfigurerad"
+  },
+  "complete": {
+    "title": "Incheckning klar",
+    "message": "Du har identifierat att du behöver \"{{need}}\". Att respektera dina behov är en viktig form av egenvård."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Kolla in hos dig själv",
+  "past_reflections": "Tidigare reflektioner",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,81 @@
+{
+  "app_title": "Mengapa Otak Terjebak",
+  "app_subtitle": "Logika kelangsungan hidup • {{step}}/{{total}}",
+  "s1": {
+    "title": "Otakmu tidak rusak. Itu beradaptasi.",
+    "description": "Setelah trauma, otak Anda memasang ulang dirinya sendiri untuk menjaga Anda tetap aman. Ia belajar bahwa dunia bisa berbahaya, jadi ia tetap siap. Itu bukan cacat. Itulah kelangsungan hidup.",
+    "quote": "\"PTSD bukanlah tanda bahwa ada sesuatu yang salah dengan Anda. Itu pertanda bahwa sesuatu terjadi padamu.\"",
+    "button": "Ceritakan lebih banyak"
+  },
+  "s2": {
+    "tag": "Kebenaran Lembut",
+    "title": "Logika kelangsungan hidup otak",
+    "truths": [
+      {
+        "header": "Alarm tetap menyala",
+        "body": "Kewaspadaan dan kejutan dengan mudah bukanlah reaksi berlebihan - sistem alarm otak Anda melakukan tugasnya dengan sangat baik."
+      },
+      {
+        "header": "Kilas balik adalah kenangan",
+        "body": "Pemicu menarik otak Anda ke belakang karena tidak pernah mendapat sinyal bahwa ancaman telah berakhir. Itu mencoba melindungi Anda."
+      },
+      {
+        "header": "Berjuang untukmu",
+        "body": "Setiap gejala pernah merupakan tindakan bertahan hidup. Otak Anda melakukan apa yang harus dilakukan untuk membuat Anda tetap hidup."
+      }
+    ],
+    "healing": "Penyembuhan bukan tentang melupakan. Ini tentang membantu otak Anda belajar bahwa Anda aman sekarang."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Logika bertahan hidup • {{langkah}}/{{total}}",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,139 @@
+{
+  "app_title": "מפת אוכל ורגש",
+  "screen_titles": [
+    "ברוכים הבאים",
+    "דפוסי מזון",
+    "דיאלוג פנימי",
+    "חישה פיזיקלית",
+    "המפה",
+    "תמיכה עדינה",
+    "מבט סופי",
+    "השתקפות"
+  ],
+  "welcome_text": "היי... אני ממש שמח שאתה כאן 💛. בוא נמפה בעדינות מה קורה.",
+  "coming_up_label": "מה קורה לאחרונה?",
+  "begin_mapping": "התחלת מיפוי",
+  "food_patterns_q": "הממ... אני שומע אותך. כשאתה מרגיש {{emotion}}... איך האוכל בדרך כלל מופיע?",
+  "continue_button": "המשך",
+  "internal_dialogue_q": "ברגעים האלה... איזה סוג של מחשבות עולות?",
+  "write_placeholder": "כתוב כל מה שעולה לי בראש...",
+  "physical_sensing_q": "אם תעצור לרגע... מה אתה מבחין בגוף שלך?",
+  "the_pattern_label": "הדפוס",
+  "pattern_desc_1": "כשאתה מרגיש {{emotion}}, הגוף שלך מרגיש את {{sensation}}...",
+  "pattern_desc_2": "… ואוכל הופך לדרך ל-{{response}}, בעוד מחשבות כמו \"{{thought}}\" מופיעות.",
+  "pattern_footer": "\"מודעות לדפוס היא חופש\"",
+  "support_q": "ברגעים האלה... מה יכול לעזור לך—אפילו קצת?",
+  "understanding_text": "אתה מבין את עצמך קצת יותר טוב. זה יותר ממספיק 💛",
+  "how_feeling_now": "איך אתה מרגיש עכשיו?",
+  "preserve_button": "מפת שימור",
+  "preserving": "שימור...",
+  "complete_title": "מפה נשמרת",
+  "complete_message": "הצלחת למפות את הקשר בין הרגשות שלך לאוכל. מודעות זו היא כלי עוצמתי לשינוי עדין.",
+  "auth_error": "סשן אימות חסר או מסד נתונים לא מוגדר",
+  "save_success": "תבנית נשמרת",
+  "save_error": "נכשל בשימור הדפוס",
+  "emotions_list": [
+    "😰 לחץ",
+    "😢 עצב",
+    "😶 שעמום",
+    "😟 חרדה",
+    "🥺 בדידות",
+    "💭 משהו אחר..."
+  ],
+  "food_responses": [
+    "🍽️ אני אוכל יותר",
+    "🚫 אני אוכל פחות",
+    "🍫 אני משתוקק למאכלים ספציפיים",
+    "😣 אני נמנע מאוכל",
+    "😐 אין שינוי אמיתי"
+  ],
+  "body_sensations": [
+    "💔 חזה מתוח",
+    "🪨 תחושה כבדה",
+    "🦵 חסר מנוחה / חסר מנוחה",
+    "🔋 אנרגיה נמוכה",
+    "🌀 קשרים בבטן",
+    "❓ משהו אחר..."
+  ],
+  "support_options": [
+    "🗣️ דבר עם מישהו",
+    "☕ קח הפסקה",
+    "📝 כתב עת",
+    "🌬️ תנשום",
+    "🎧 להסיח את דעתי"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "פנה 💛 אליו",
+      "body": "לפעמים שיתוף קצת מרגיע את העניינים. אולי פשוט 'היי, אפשר לדבר?'"
+    },
+    "☕ Take a break": {
+      "title": "הפסקה 💛",
+      "body": "הפסקה קטנה יכולה לעזור לאפס את הדברים. אולי תתרחק ותקח כמה נשימות לאט."
+    },
+    "📝 Journal": {
+      "title": "כתוב את זה 💛",
+      "body": "אפשר להתחיל ב'כרגע אני מרגיש...' ופשוט תן לזה לזרום."
+    },
+    "🌬️ Breathe": {
+      "title": "תנשום 💛",
+      "body": "שאוף 4... החזק 2... נשיפה 6... בוא נאט את זה יחד."
+    },
+    "🎧 Distract myself": {
+      "title": "הזזה 💛 עדינה",
+      "body": "הסחת דעת עדינה יכולה לשנות את הרגע... אולי משהו קל או קל."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "מפת אוכל ורגש",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

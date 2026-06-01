@@ -1,0 +1,113 @@
+{
+  "app_title": "理解控制",
+  "app_subtitle": "生存策略 • {{step}}/3",
+  "screens": {
+    "0": {
+      "headline": "為什麼控制感會讓人感覺如此強大",
+      "paragraphs": {
+        "0": "對於許多有飲食困難的人來說，控制感可以讓他們感到安全。",
+        "1": "當生活充滿變數或情緒波動時，專注於食物、體重或日常作息可以帶來一種結構感和確定感。",
+        "2": "這無關意志力或自律，而是關於在感到迷茫時如何保持內心的穩定。",
+        "3": "這樣一來，控制就成了一種應對策略——即使只是暫時的，也能讓你感覺到踏實。"
+      },
+      "microcopy": "你並不孤單，你並非唯一有這種感覺的人。",
+      "cta": "繼續"
+    },
+    "1": {
+      "headline": "控制的不同表現形式",
+      "intro": "每個人對控制的需求表現形式各不相同，但它通常會以以下模式表現出來：",
+      "bullets": {
+        "0": {
+          "text": "嚴格或僵化的飲食規則"
+        },
+        "1": {
+          "text": "需要嚴格遵守流程。"
+        },
+        "2": {
+          "text": "計劃變更時的焦慮"
+        },
+        "3": {
+          "text": "將自我價值與體型/體重連結起來"
+        }
+      },
+      "outro": "隨著時間的推移，這些觀念會變得僵化，佔據心理空間，使人更難適應。",
+      "microcopy": "一開始是控制，慢慢地卻變成了控制。",
+      "cta": "繼續"
+    },
+    "2": {
+      "headline": "在控制之下",
+      "intro": "控制欲往往根源更深，可能與下列因素有關：",
+      "bullets": {
+        "0": {
+          "text": "情緒崩潰"
+        },
+        "1": {
+          "text": "渴望可預測性"
+        },
+        "2": {
+          "text": "對穩定和安全的需求"
+        }
+      },
+      "insight": "控製本身不是問題——問題在於你的大腦為了應對這種控製而找到的策略。隨著時間的推移和支持，你會找到其他獲得安全感的方式。",
+      "microcopy": "理解是強而有力的第一步。",
+      "cta": "讀完"
+    }
+  },
+  "complete": {
+    "title": "意識提升",
+    "message": "了解控制的根源是勇敢的第一步，也是找到獲得安全感和穩定感的新方法的第一步。",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Strategy of Survival • {{step}}/3",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

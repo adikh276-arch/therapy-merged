@@ -1,0 +1,125 @@
+{
+  "app_title": "Pauze-oefening",
+  "app_subtitle": "Beheers de ruimte ertussen",
+  "intro": {
+    "title": "De 5-seconden pauze",
+    "description": "Een korte pauze tussen voelen en reageren kan alles veranderen.",
+    "duration": "Het duurt minder dan 15 seconden. Echt waar.",
+    "button": "Probeer het →"
+  },
+  "scenario": {
+    "title": "Wat triggert je?",
+    "desc": "Kies een situatie waar je je in herkent",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Iemand onderbreekt me",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Het loopt niet zoals gepland",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Ik voel me genegeerd",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Ik voel me overweldigd",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Typ je eigen...",
+    "button": "Oefen pauze →"
+  },
+  "hold": {
+    "title": "Pauze vasthouden ⏸️",
+    "instructions": "Houd de cirkel 5 seconden vast",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Druk en houd vast..."
+      },
+      {
+        "at": "0.15",
+        "text": "Blijf erbij..."
+      },
+      {
+        "at": "0.5",
+        "text": "Je doet het..."
+      },
+      {
+        "at": "0.8",
+        "text": "Bijna daar..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Dat is de pauze",
+    "message": "Je creëerde gewoon ruimte tussen wat je voelde en hoe je reageerde. Zelfs een korte pauze helpt je je centrum terug te krijgen.",
+    "tip_label": "Pro Tip",
+    "scenario_messages": {
+      "interrupts": "De volgende keer dat iemand je onderbreekt, probeer dit dan voordat je reageert.",
+      "plans": "De volgende keer dat dingen niet volgens plan gaan, probeer dit dan voordat je reageert.",
+      "ignored": "De volgende keer dat je je genegeerd voelt, probeer dit dan voordat je reageert.",
+      "overwhelmed": "De volgende keer dat je je overweldigd voelt, probeer dit dan voordat je iets doet.",
+      "other": "De volgende keer dat je getriggerd bent, probeer dit dan voordat je reageert."
+    },
+    "italic": "Het zal niet altijd makkelijk voelen—maar consistentie is essentieel."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Beheers de ruimte tussen",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

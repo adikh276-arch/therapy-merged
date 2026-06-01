@@ -1,0 +1,147 @@
+{
+  "title": "הפסקה להערכה",
+  "subtitle": "הרהור מודרך של 5–7 דקות",
+  "nav": {
+    "history": "היסטוריה",
+    "home": "בית"
+  },
+  "intro": {
+    "text1": "כשמערכת יחסים מרגישה מתוחה, קל להתמקד רק במה שלא עובד. הרהור זה מציע הפסקה קצרה — לא כדי לדחות חששות, אלא להרחיב בעדינות את הפרספקטיבה.",
+    "text2": "אין ציפייה להרגיש אסיר תודה. פשוט שים לב למה שעולה.",
+    "begin": "התחלה",
+    "viewHistory": "תצפית בהיסטוריה"
+  },
+  "breathing": {
+    "title": "להגיע ולהתיישב",
+    "description": "לפני שתמשיך, הרשה לעצמך הפסקה קצרה. הרגע הזה לא נועד לפתור שום דבר. זה על יצירת מרחב.",
+    "instruction": "עקבו אחרי קצב הנשימה למטה.",
+    "inhale": "שאף... {{counter}}…",
+    "hold": "חכה...",
+    "exhale": "נשיפה... {{counter}}…",
+    "affirmation": "\"אני יכול להכיר במה שמרגיש קשה ועדיין להישאר פתוח לשים לב אליו.\"",
+    "continue": "המשך"
+  },
+  "reflection": {
+    "step": "שלב {{step}} של {{total}}",
+    "prompts": {
+      "p1": "רגע קטן לאחרונה עם בן הזוג שלך שלא הרגיש מתוח היה...",
+      "p1_ex": "\"הייתה לנו שיחה קצרה ורגועה בערב.\"",
+      "p2": "מאמץ אחד שהשותף שלך עשה — אפילו אם לא מושלם — הוא...",
+      "p2_ex": "\"הם ניסו להסביר את רגשותיהם במקום להתרחק.\"",
+      "p3": "תכונה אחת בבן הזוג שלך שנשארה עקבית לאורך זמן היא...",
+      "p3_ex": "\"הם ממשיכים להראות מסירות לאחריות שלנו.\""
+    },
+    "placeholder": "כתוב את ההשתקפות שלך כאן...",
+    "next": "הבא",
+    "finish": "סיום"
+  },
+  "intention": {
+    "step": "שלב 4 מתוך 4",
+    "title": "איך היית רוצה להחזיק את ההשתקפות הזו?",
+    "options": {
+      "private": "אני מעדיף לשמור את ההשתקפות הזו פרטית.",
+      "share_part": "אולי אבחר לשתף חלק מזה עם בן הזוג שלי.",
+      "share_full": "אני רוצה לשתף את ההרהור הזה במלואו.",
+      "save_later": "אשמור את זה לשיחה מאוחרת יותר."
+    },
+    "continue": "המשך"
+  },
+  "checkin": {
+    "title": "כשסיימת את ההרהור הזה, איזו אמירה מרגישה הכי מדויקת?",
+    "statements": {
+      "s1": "אני מרגיש קצת יותר פתוח כלפי בן הזוג שלי כרגע.",
+      "s2": "אני לא מבחין בשינוי משמעותי, אבל אני מוכן להישאר מודע.",
+      "s3": "מצאתי את זה די קשה להשלים.",
+      "s4": "חוויתי תחושת חום קטנה במהלך ההתבוננות.",
+      "s5": "שמתי לב להתנגדות, וזה מרגיש חשוב להכיר בו.",
+      "s6": "אני מרגיש ריכוך עדין לעומת לפני שהתחלתי."
+    },
+    "finish": "לסיים ולהציל"
+  },
+  "closing": {
+    "title": "ההשתקפות הושלמה",
+    "text1": "הפסקה זו לא מוחקת אתגרים. זה פשוט מחזיר את האיזון לאופן שבו היחסים נתפסים.",
+    "text2": "אפילו רגעים קצרים של תשומת לב יכולים בהדרגה לרכך את הקשיחות הרגשית וליצור מרחב לשיחות בריאות יותר.",
+    "save": "שמור ל-Reflections",
+    "viewHistory": "תצפית בהיסטוריה",
+    "exit": "יציאה"
+  },
+  "history": {
+    "title": "היסטוריית ההשתקפות שלך",
+    "noReflections": "עדיין אין השתקפויות שמורות. המפגשים שהושלמו שלך יופיעו כאן.",
+    "back": "חזרה להתחלה",
+    "confirmDelete": "אשר מחיקה",
+    "cancel": "ביטול",
+    "delete": "מחק ערך",
+    "prompts": [
+      "רגע קטן שלא הרגיש מתוח...",
+      "מאמץ אחד שהשותף שלך עשה...",
+      "תכונה אחת שנשארה עקבית...",
+      "כוונה",
+      "בדיקה רגשית"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5 דקות",
+  "app_title": "הרהור",
+  "intro_p1": "טפחו הכרת תודה",
+  "intro_p2": "להפחית מתח",
+  "intro_p3": "לשפר את הרווחה",
+  "app_description": "רפלקציה מודרכת של 5-7 דקות",
+  "how_do_you_feel_after_this_reflection": "איך אתה מרגיש אחרי ההרהור הזה?",
+  "your_past_reflections_appreciations": "הרהורים והערכות מהעבר שלך",
+  "start_new_session": "התחל סשן חדש",
+  "feeling": "מַרגִישׁ",
+  "delete_this_entry": "למחוק את הערך הזה?",
+  "delete_5": "לִמְחוֹק",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

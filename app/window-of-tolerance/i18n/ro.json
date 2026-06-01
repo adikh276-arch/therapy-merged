@@ -1,0 +1,252 @@
+{
+  "app_title": "Fereastra de toleranță",
+  "screens": {
+    "welcome": {
+      "title": "Fereastra de toleranță",
+      "subtitle": "Înțelege-ți sistemul nervos.\nGăsește-ți calea spre liniște.",
+      "description": "Această activitate blândă te va ajuta să înțelegi unde se află sistemul tău nervos acum — și îți va oferi instrumente pentru a găsi echilibrul. Mergi în ritmul tău. Ești în siguranță aici.",
+      "callout": "✨ Respiră adânc. Ești în locul potrivit.",
+      "button": "Să începem →",
+      "disclaimer": "Această activitate este un instrument de susținere, nu un înlocuitor pentru terapia profesională."
+    },
+    "explain": {
+      "title": "Sistemul tău nervos are o fereastră",
+      "zones": {
+        "hyper": {
+          "label": "Hiperexcitare",
+          "desc": "Copleșită, panicată, scăpată de sub control.",
+          "tag": "🔴 Roșu"
+        },
+        "safe": {
+          "label": "Zona de siguranță",
+          "desc": "Calm, prezent, capabil să gândească limpede.",
+          "tag": "🟢 Verde"
+        },
+        "hypo": {
+          "label": "Hipoarousal",
+          "desc": "Amorțit, deconectat, încețoșat.",
+          "tag": "🔵 Albastru"
+        }
+      },
+      "footer": "Traumele te pot împinge pe fereastră. Acest lucru te ajută să recunoști unde ești și să te întorci înăuntru.",
+      "back": "← Înapoi",
+      "next": "Următorul →"
+    },
+    "checkin": {
+      "title": "Unde ești acum?",
+      "subtitle": "Respiră adânc. Apoi, sincer, alege unde te afli acum.",
+      "footer": "Nu există un răspuns greșit. Acesta este doar punctul tău de plecare.",
+      "back": "← Înapoi",
+      "next": "Următorul →",
+      "zones": {
+        "hyper": {
+          "label": "Deasupra ferestrei mele",
+          "desc": "Mă simt anxios, panicat, furios sau copleșit."
+        },
+        "safe": {
+          "label": "În fereastra mea",
+          "desc": "Mă simt calm, prezent și ancorat."
+        },
+        "hypo": {
+          "label": "Sub fereastra mea",
+          "desc": "Mă simt amorțit, încețoșat sau deconectat."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Deasupra ferestrei tale",
+        "subtitle": "Sistemul tău nervos este în overdrive. E în regulă. Hai să te aducem înapoi cu grijă.",
+        "feelings": [
+          "Inima care bate cu putere",
+          "Respirație superficială",
+          "Panică sau furie",
+          "Gânduri alergătoare",
+          "Neliniște"
+        ],
+        "tools": [
+          {
+            "name": "Respirația în cutie",
+            "desc": "Inspiră 4, lună 4, expiră 4, lună 4. Repetă de 4 ori."
+          },
+          {
+            "name": "5-4-3-2-1 Imobilizare",
+            "desc": "5 lucruri văd, 4 ating, 3 aud, 2 miros, 1 gust."
+          },
+          {
+            "name": "Picioare pe podea",
+            "desc": "Apasă picioarele jos, spune: \"Sunt aici. Sunt în siguranță. Asta va trece.'"
+          }
+        ],
+        "button": "Mă simt puțin mai liniștit →",
+        "footer": "Ești în siguranță. Ia-ți timpul."
+      },
+      "hypo": {
+        "title": "Sub fereastra ta",
+        "subtitle": "Sistemul tău nervos s-a liniștit. Te protejează. Hai să-l trezim ușor înapoi.",
+        "feelings": [
+          "Amorțeală",
+          "Deconectare",
+          "Oboseală extremă",
+          "Se simte ireal",
+          "Platitudine"
+        ],
+        "tools": [
+          {
+            "name": "Mișcare blândă",
+            "desc": "Stai în picioare, mergi încet, mișcă brațele. Lasă-ți corpul să se trezească."
+          },
+          {
+            "name": "Sunet ritmic",
+            "desc": "Cântă muzică cu ritm constant, bate din picioare."
+          },
+          {
+            "name": "Vorbește cu voce tare",
+            "desc": "Spune-ți numele, locația, data de azi cu voce tare. Reangajează creierul gânditor."
+          }
+        ],
+        "button": "Mă simt puțin mai prezentă →",
+        "footer": "Te descurci grozav. Mergi pas cu pas."
+      },
+      "safe": {
+        "title": "În fereastra ta",
+        "subtitle": "Ești în zona ta sigură. Aici au loc vindecarea, conexiunea și creșterea. Bravo.",
+        "feelings": [
+          "Prezent și conștient",
+          "Respirație regulată",
+          "Gândire clară",
+          "Conectat"
+        ],
+        "tools": [
+          {
+            "name": "Continuă să respiri încet",
+            "desc": "Inspiră pe nas, expiră pe gură."
+          },
+          {
+            "name": "Reflectă",
+            "desc": "Ce te-a ajutat să rămâi aici? Notează-l."
+          },
+          {
+            "name": "Autocompasiune",
+            "desc": "\"Sistemul meu nervos își făcea treaba. Nu sunt stricat. Mă vindec.\""
+          }
+        ],
+        "button": "Continuă cu trusa mea de unelte →",
+        "footer": "Ești demn de grijă și vindecare."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Trusa ta personală de unelte",
+      "subtitle": "Uneltele tale preferate — păstrate și gata ori de câte ori ai nevoie.",
+      "tools_list": [
+        "🌬️ Respirația în cutie",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Picioare pe podea",
+        "🚶 Mișcare blândă",
+        "🎵 Muzică",
+        "💬 Vorbește cu voce tare"
+      ],
+      "journal_label": "📝 Reflecția de astăzi",
+      "journal_desc": "Care a fost momentul de azi când ai observat că sistemul tău nervos se schimbă — și ce ai făcut în legătură cu asta?",
+      "journal_placeholder": "Scrie aici...",
+      "history_label": "📊 Săptămâna ta pe scurt",
+      "save_button": "Salvează și termină ✓",
+      "footer": "Călătoria ta contează. Revino ori de câte ori ai nevoie de sprijin.",
+      "preserving": "Păstrând...",
+      "preserve_button": "Păstrează reflecția"
+    }
+  },
+  "nav": [
+    "Check-in",
+    "Explicație",
+    "Monitorizare",
+    "Zona",
+    "Trusă de unelte"
+  ],
+  "history": {
+    "title": "Istoricul check-in-ului",
+    "empty": "Încă nu am făcut check-in-uri."
+  },
+  "toasts": {
+    "save_success": "Înregistrarea a fost păstrată",
+    "save_error": "Nu s-a păstrat check-in-ul",
+    "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată"
+  },
+  "complete": {
+    "title": "Check-in complet",
+    "message": "Ai reușit să cartografiezi starea ta actuală. Creșterea conștientizării este primul pas spre a-ți găsi echilibrul."
+  },
+  "days": [
+    "Mine",
+    "Mar",
+    "Căsătorie",
+    "Toamna",
+    "Vin",
+    "Sâmbătă",
+    "Soare"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Fereastra de toleranță",
+  "are_you_sure_you_want_to_exit": "Sigur vrei să ieși?",
+  "your_unsaved_data_will_be_lost": "Datele tale nesalvate vor fi pierdute.",
+  "stay": "Şedere",
+  "exit": "Ieșire",
+  "exit_confirmation": "Confirmare de ieșire",
+  "check_in_history": "Istoricul check-in-urilor",
+  "close": "Aproape",
+  "screen_navigation": "Navigare pe ecran",
+  "check_in": "Check-in",
+  "what_is_the_window_of_tolerance": "Ce este Fereastra Toleranței",
+  "your_personal_toolkit": "Trusa ta personală de instrumente",
+  "welcome": "Bun venit",
+  "view_history": "Vizualizați istoricul",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

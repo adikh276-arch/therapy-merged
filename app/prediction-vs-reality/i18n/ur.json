@@ -1,0 +1,145 @@
+{
+  "app_title": "پیش گوئی بمقابلہ حقیقت",
+  "step_label": "مرحلہ {{current}} کا 8",
+  "intro": {
+    "title": "پیش گوئی بمقابلہ حقیقت",
+    "description": "اپنی بے چینی کی پیش گوئیوں کا موازنہ اس سے کریں کہ حقیقت میں کیا ہوتا ہے تاکہ ایک متوازن نقطہ نظر بنایا جا سکے۔",
+    "benefits": [
+      "بے چینی کے پیٹرن کی نشاندہی کریں",
+      "خوف کے خلاف شواہد جمع کریں",
+      "مستقبل میں زیادہ سوچنے کو کم کریں"
+    ],
+    "duration": "4-5 منٹ",
+    "view_past": "ماضی کی عکاسی دیکھیں"
+  },
+  "history": {
+    "title": "ماضی کی عکاسی",
+    "no_reflections": "ابھی تک کوئی عکس محفوظ نہیں ہوا۔",
+    "prediction_label": "پیش گوئی",
+    "reality_label": "حقیقت",
+    "reflection_label": "غور و فکر:"
+  },
+  "complete": {
+    "title": "سرگرمی مکمل",
+    "saved_title": "عکاسی محفوظ کی گئی",
+    "message": "حقائق کو دیکھ کر آپ اپنے ذہن کو یہ سکھا رہے ہیں کہ چیزیں اکثر جتنی نظر آتی ہیں اس سے زیادہ قابل انتظام ہوتی ہیں۔"
+  },
+  "emotions": [
+    "بے چین",
+    "نروس",
+    "ڈر",
+    "مغلوب",
+    "بے چینی"
+  ],
+  "intensity_labels": {
+    "not_intense": "شدید نہیں",
+    "very_intense": "بہت شدید"
+  },
+  "comparison_options": [
+    "یہ تقریبا ویسا ہی ہوا جیسا میں نے سوچا تھا",
+    "کچھ حصے درست تھے، لیکن سب کچھ نہیں",
+    "یہ میری توقع سے کافی مختلف تھا",
+    "یہ میری توقع سے کہیں زیادہ آسان اور بہتر تھا"
+  ],
+  "screens": {
+    "s1": {
+      "title": "ایک حالیہ صورتحال کے بارے میں سوچیں",
+      "desc": "حال ہی میں ایک لمحہ یاد کریں جب آپ بے چینی یا غیر یقینی محسوس کر رہے تھے۔",
+      "placeholder": "صورتحال بیان کرو..."
+    },
+    "s2": {
+      "title": "آپ کو کیا لگا تھا کہ کیا ہوگا؟",
+      "desc": "اس لمحے آپ کیا توقع کر رہے تھے یا کیا ڈر رہے تھے؟",
+      "placeholder": "مجھے فکر تھی کہ..."
+    },
+    "s3": {
+      "title": "آپ کیسا محسوس کر رہے تھے؟",
+      "desc": "اپنے جذبات اور ان کی شدت کو منتخب کریں۔"
+    },
+    "s4": {
+      "title": "اصل میں ہوا کیا تھا؟",
+      "desc": "اصل میں جو کچھ ہوا اس کے حقائق پر توجہ دیں۔",
+      "placeholder": "حقیقت میں..."
+    },
+    "s5": {
+      "title": "آئیے دونوں کو دیکھتے ہیں",
+      "expectation": "توقعات",
+      "reality": "حقیقت",
+      "question": "آپ کی توقعات کتنی قریب تھیں؟"
+    },
+    "s6": {
+      "title": "تم کیا نوٹ کرتے ہو؟",
+      "desc": "کیا یہ اتنا برا تھا جتنا آپ نے سوچا تھا؟",
+      "placeholder": "میں نے نوٹ کیا کہ..."
+    },
+    "s7": {
+      "title": "اگلی بار",
+      "desc": "اگر یہ دوبارہ ہو تو آپ خود کو کیا یاد دلائیں گے؟",
+      "placeholder": "مثلا، \"شاید یہ اتنا برا نہ ہو جتنا میں سوچ رہا ہوں۔\""
+    },
+    "s8": {
+      "title": "ایک چھوٹی سی یاد دہانی",
+      "desc": "آپ کا ذہن آپ کو تیار کرنے کی کوشش کرتا ہے—لیکن یہ ہمیشہ درست پیش گوئی نہیں کرتا۔ ہر بار جب آپ حقائق کو دیکھنے کے لیے رکتے ہیں، آپ اپنی مضبوطی پیدا کرتے ہیں۔",
+      "button": "ریفلیکشن محفوظ کریں",
+      "discard": "ڈسکارڈ انٹری"
+    }
+  },
+  "buttons": {
+    "continue": "جاری رکھیں"
+  },
+  "toasts": {
+    "saved": "عکاسی محفوظ ہو گئی!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "پیشن گوئی بمقابلہ حقیقت",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,252 @@
+{
+  "app_title": "Okno tolerancji",
+  "screens": {
+    "welcome": {
+      "title": "Okno tolerancji",
+      "subtitle": "Zrozum swój układ nerwowy.\nZnajdź drogę powrotną do spokoju.",
+      "description": "Ta łagodna aktywność pomoże Ci zrozumieć, gdzie obecnie znajduje się Twój układ nerwowy — i da narzędzia do znalezienia równowagi. Idź we własnym tempie. Jesteś tu bezpieczny.",
+      "callout": "✨ Weź oddech. Jesteś we właściwym miejscu.",
+      "button": "Zacznijmy →",
+      "disclaimer": "Ta aktywność jest narzędziem wspierającym, a nie zastępuje terapię zawodową."
+    },
+    "explain": {
+      "title": "Twój układ nerwowy ma okno",
+      "zones": {
+        "hyper": {
+          "label": "Nadmierne pobudzenie",
+          "desc": "Przytłoczony, spanikowany, poza kontrolą.",
+          "tag": "🔴 Czerwony"
+        },
+        "safe": {
+          "label": "Strefa Bezpieczna",
+          "desc": "Spokojny, obecny, zdolny do jasnego myślenia.",
+          "tag": "🟢 Zielony"
+        },
+        "hypo": {
+          "label": "Hipoarousal",
+          "desc": "Otępiała, odłączona, zamglona.",
+          "tag": "🔵 Niebieski"
+        }
+      },
+      "footer": "Trauma może wypchnąć cię przez okno. To pomaga rozpoznać, gdzie jesteś i wrócić do środka.",
+      "back": "← Back",
+      "next": "Następny →"
+    },
+    "checkin": {
+      "title": "Gdzie teraz jesteś?",
+      "subtitle": "Weź oddech. To szczerze mówiąc, wybierz miejsce, w którym jesteś teraz.",
+      "footer": "Nie ma błędnej odpowiedzi. To tylko punkt wyjścia.",
+      "back": "← Back",
+      "next": "Następny →",
+      "zones": {
+        "hyper": {
+          "label": "Nad moim oknem",
+          "desc": "Czuję się niespokojny, spanikowany, zły lub przytłoczony."
+        },
+        "safe": {
+          "label": "W moim oknie",
+          "desc": "Czuję się spokojna, obecna i uziemiona."
+        },
+        "hypo": {
+          "label": "Pod moim oknem",
+          "desc": "Czuję się otępiała, zamglona lub odłączona."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Nad twoim oknem",
+        "subtitle": "Twój układ nerwowy pracuje na pełnych obrotach. To w porządku. Delikatnie cię przyprowadzimy z powrotem.",
+        "feelings": [
+          "Szybkie serce",
+          "Płytkie oddychanie",
+          "Panika lub złość",
+          "Myśli o wyścigu",
+          "Niepokój"
+        ],
+        "tools": [
+          {
+            "name": "Oddychanie pudełkowe",
+            "desc": "Wdech 4, księżyc 4, wydech 4, księżyc 4. Powtórz 4 razy."
+          },
+          {
+            "name": "5-4-3-2-1 Uziemienie",
+            "desc": "5 rzeczy widzę, 4 dotyk, 3 słyszy, 2 węch, 1 smak."
+          },
+          {
+            "name": "Stopy na podłodze",
+            "desc": "Naciśnij stopy w dół, powiedz: 'Jestem tutaj. Jestem bezpieczny. To minie.'"
+          }
+        ],
+        "button": "Czuję się trochę spokojniejszy→",
+        "footer": "Jesteś bezpieczny. Nie spiesz się."
+      },
+      "hypo": {
+        "title": "Pod twoim oknem",
+        "subtitle": "Twój układ nerwowy ucichł. Chroni cię. Delikatnie go obudźmy.",
+        "feelings": [
+          "Drętwienie",
+          "Rozłączenie",
+          "Ekstremalne zmęczenie",
+          "Czuję się nierealnie",
+          "Płaskość"
+        ],
+        "tools": [
+          {
+            "name": "Delikatny ruch",
+            "desc": "Wstań, idź powoli, machaj rękami. Pozwól swojemu ciału się obudzić."
+          },
+          {
+            "name": "Dźwięk rytmiczny",
+            "desc": "Graj muzykę w stałym rytmie, stukaj stopami."
+          },
+          {
+            "name": "Mów głośno",
+            "desc": "Wypowiedz na głos swoje imię, miejsce, dzisiejszą datę. Ponownie angażuj mózg myślenia."
+          }
+        ],
+        "button": "Czuję się trochę bardziej obecna →",
+        "footer": "Radzisz sobie świetnie. Idź krok po kroku."
+      },
+      "safe": {
+        "title": "Wewnątrz twojego okna",
+        "subtitle": "Jesteś w swojej bezpiecznej strefie. To tutaj następuje uzdrowienie, więź i rozwój. Dobra robota.",
+        "feelings": [
+          "Obecny i świadomy",
+          "Równy oddech",
+          "Jasne myślenie",
+          "Połączone"
+        ],
+        "tools": [
+          {
+            "name": "Oddychaj powoli",
+            "desc": "Wdech przez nos, wydech przez usta."
+          },
+          {
+            "name": "Refleksja",
+            "desc": "Co pomogło ci tu zostać? Zapisz to."
+          },
+          {
+            "name": "Samowspółczucie",
+            "desc": "'Mój układ nerwowy wykonywał swoją pracę. Nie jestem zepsuty. Leczę się.'"
+          }
+        ],
+        "button": "Kontynuuj do mojego zestawu narzędzi →",
+        "footer": "Zasługujesz na troskę i uzdrowienie."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Twój osobisty zestaw narzędzi",
+      "subtitle": "Twoje podstawowe narzędzia — zapisane i gotowe, kiedy tylko ich potrzebujesz.",
+      "tools_list": [
+        "🌬️ Oddychanie pudełkowe",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Stopy na podłodze",
+        "🚶 Delikatny ruch",
+        "🎵 Muzyka",
+        "💬 Mów głośno"
+      ],
+      "journal_label": "📝 Dzisiejsza refleksja",
+      "journal_desc": "Jaki był dziś moment, w którym zauważyłaś, że Twój układ nerwowy się zmienia — i co z tym zrobiłaś?",
+      "journal_placeholder": "Napisz tutaj...",
+      "history_label": "📊 Twój tydzień w spojrzeniu",
+      "save_button": "Save & Finish ✓",
+      "footer": "Twoja droga ma znaczenie. Wracaj, kiedy będziesz potrzebować wsparcia.",
+      "preserving": "Konserwowanie...",
+      "preserve_button": "Zachowaj odbicie"
+    }
+  },
+  "nav": [
+    "Odprawa",
+    "Wyjaśnienie",
+    "Monitorowanie",
+    "Strefa",
+    "Zestaw narzędzi"
+  ],
+  "history": {
+    "title": "Historia odpraw",
+    "empty": "Jeszcze żadnych odgłosów."
+  },
+  "toasts": {
+    "save_success": "Zachowanie odprawy",
+    "save_error": "Nie zachowano odprawy",
+    "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana"
+  },
+  "complete": {
+    "title": "Odprawa zakończona",
+    "message": "Udało ci się zmapować swój obecny stan. Budowanie świadomości to pierwszy krok do znalezienia równowagi."
+  },
+  "days": [
+    "Mój",
+    "Wtorek",
+    "Śr",
+    "Jesień",
+    "Piątek",
+    "Sobota",
+    "Słońce"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Okno tolerancji",
+  "are_you_sure_you_want_to_exit": "Czy na pewno chcesz wyjść?",
+  "your_unsaved_data_will_be_lost": "Twoje niezapisane dane zostaną utracone.",
+  "stay": "Zostawać",
+  "exit": "Wyjście",
+  "exit_confirmation": "Potwierdzenie wyjścia",
+  "check_in_history": "Historia meldunków",
+  "close": "Zamknąć",
+  "screen_navigation": "Nawigacja po ekranie",
+  "check_in": "Zameldować się",
+  "what_is_the_window_of_tolerance": "Czym jest okno tolerancji",
+  "your_personal_toolkit": "Twój osobisty zestaw narzędzi",
+  "welcome": "Powitanie",
+  "view_history": "Wyświetl historię",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

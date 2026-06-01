@@ -1,0 +1,125 @@
+{
+  "app_title": "Kertomuksesi",
+  "nav": {
+    "entry": "Tervetuloa",
+    "writing": "Ilmaiseminen",
+    "landing": "Reflektiointi",
+    "history": "Matkasi"
+  },
+  "entry": {
+    "title": "Otetaan tämä askel kerrallaan. 💛",
+    "description": [
+      "Sinun ei tarvitse kertoa koko tarinaasi tänään. Pieni osa riittää.",
+      "Olet nyt turvassa. Sinä hallitset, mitä kirjoitat – ja mitä et."
+    ],
+    "breath": "Hengitä rauhallisesti ennen kuin aloitamme.",
+    "button_ready": "Olen valmis",
+    "button_history": "Aiemmat kertomukset",
+    "footer": "Sanasi • Tahtisi • Tarinasi"
+  },
+  "writing": {
+    "title": "Kirjoita se, mikä tuntuu hyvältä ✨",
+    "subtitle": "Sinun sanasi, sinun tahtisi",
+    "prompt_label": "Tarvitsetko lähtökohdan?",
+    "prompts": [
+      {
+        "text": "Mitä muistan parhaiten, on...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Silloin tunsin...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Sen jälkeen olen huomannut...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Aloita kirjoittaminen täältä...",
+    "notice": "Ei ole oikeaa tapaa tehdä tätä. Jo muutama repliikki riittää.",
+    "button": "Viimeistely kirjoittaminen"
+  },
+  "landing": {
+    "title": "Teit jotain tärkeää.",
+    "subtitle": "Kiitos, että tulit paikalle itsesi vuoksi.",
+    "settle_title": "Otetaanpa hetki aikaa rauhoittua",
+    "steps": [
+      "Katso ympärillesi ja nimeä kolme asiaa, jotka näet.",
+      "Hengitä hitaasti sisään... ja ulos."
+    ],
+    "feeling_label": "Tällä hetkellä tunnen:",
+    "feeling_placeholder": "Yksi tai pari...",
+    "quote": "\"Sinun ei tarvitse kantaa kaikkea kerralla. Voit tulla takaisin, kun tunnet olevasi valmis.\"",
+    "button_save": "Preserve Narrative",
+    "button_preserving": "Säilyttäen..."
+  },
+  "history": {
+    "title": "Matkasi 📝",
+    "subtitle": "Menneet kertomukset ja pohdinnat",
+    "empty": "Et ole vielä tallentanut yhtään merkintää. Ota rauhassa – ei ole kiirettä.",
+    "no_writing": "Kirjoitusta ei ole säilynyt",
+    "button_back": "Takaisin toimintaan"
+  },
+  "complete": {
+    "title": "Säilytetty kertomus",
+    "message": "Olet ottanut vahvan askeleen tarinasi kertomisessa. Näkökulmasi on tärkeä, ja matkasi on ainutlaatuisesti sinun."
+  },
+  "toasts": {
+    "save_success": "Kertomus säilynyt",
+    "save_error": "Ei onnistunut säilyttämään kertomusta",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sinun kertomuksesi",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "remove_this": "POISTA_TÄMÄ",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,145 @@
+{
+  "app_title": "Прогноз проти реальності",
+  "step_label": "Крок {{current}} з 8",
+  "intro": {
+    "title": "Прогноз проти реальності",
+    "description": "Порівняйте свої тривожні прогнози з тим, що насправді відбувається, щоб сформувати більш збалансовану перспективу.",
+    "benefits": [
+      "Визначайте тривожні патерни",
+      "Збирати докази проти страхів",
+      "Зменшити надмірне обдумування в майбутньому"
+    ],
+    "duration": "4-5 хвилин",
+    "view_past": "Переглянути минулі роздуми"
+  },
+  "history": {
+    "title": "Минулі роздуми",
+    "no_reflections": "Поки що жодних відображень не збережено.",
+    "prediction_label": "Прогноз",
+    "reality_label": "Реальність",
+    "reflection_label": "Рефлексія:"
+  },
+  "complete": {
+    "title": "Діяльність завершена",
+    "saved_title": "Відображення збережено",
+    "message": "Дивлячись на факти, ти допомагаєш своєму розуму зрозуміти, що речі часто легше керувати, ніж здається."
+  },
+  "emotions": [
+    "Тривожний",
+    "Нервую",
+    "Наляканий",
+    "Перевантажений",
+    "Неспокійно"
+  ],
+  "intensity_labels": {
+    "not_intense": "Не інтенсивно",
+    "very_intense": "Дуже інтенсивно"
+  },
+  "comparison_options": [
+    "Вийшло майже так, як я очікував",
+    "Деякі моменти були правильними, але не все",
+    "Це було зовсім не так, як я очікував",
+    "Це було набагато простіше/краще, ніж я уявляв"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Згадайте нещодавню ситуацію",
+      "desc": "Згадайте нещодавній момент, коли ви відчували тривогу або невпевненість.",
+      "placeholder": "Опишіть ситуацію..."
+    },
+    "s2": {
+      "title": "Що ви думали, що станеться?",
+      "desc": "Чого ви очікували або боялися в той момент?",
+      "placeholder": "Я хвилювався, що..."
+    },
+    "s3": {
+      "title": "Як ти себе почував?",
+      "desc": "Оберіть емоції, які ви відчували, і їхню інтенсивність."
+    },
+    "s4": {
+      "title": "Що насправді сталося?",
+      "desc": "Зосередьтеся на фактах того, що насправді відбувалося.",
+      "placeholder": "Насправді..."
+    },
+    "s5": {
+      "title": "Давайте розглянемо обидва варіанти",
+      "expectation": "Очікування",
+      "reality": "Реальність",
+      "question": "Наскільки близькими були ваші очікування?"
+    },
+    "s6": {
+      "title": "Що ти помічаєш?",
+      "desc": "Чи було це так погано, як ви думали?",
+      "placeholder": "Я помічаю, що..."
+    },
+    "s7": {
+      "title": "Наступного разу",
+      "desc": "Що ти міг би собі нагадати, якщо це повториться?",
+      "placeholder": "наприклад, «Можливо, все буде не так погано, як я уявляю.»"
+    },
+    "s8": {
+      "title": "Невелике нагадування",
+      "desc": "Твій розум намагається підготувати тебе — але не завжди точно передбачає. Кожного разу, коли ви зупиняєтеся, щоб подивитися на факти, ви розвиваєте стійкість.",
+      "button": "Зберегти рефлексію",
+      "discard": "Запис про відкид"
+    }
+  },
+  "buttons": {
+    "continue": "Продовжуй"
+  },
+  "toasts": {
+    "saved": "Відображення врятовано!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Прогноз проти реальності",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

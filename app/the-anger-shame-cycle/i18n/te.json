@@ -1,0 +1,124 @@
+{
+  "app_title": "కోపం-సిగ్గు చక్రం",
+  "app_subtitle": "లూప్ అర్థం చేసుకోవడం • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "కోపం ఎందుకు తిరిగి వస్తుంది?",
+      "description": "ఇది మీ కోపం కాకపోవచ్చు. కోపం మరియు అవమానం మధ్య దాచిన లూప్ ఉంది - మరియు మీరు దానిని చూసిన తర్వాత, ప్రతిదీ మారుతుంది.",
+      "quote": "\"చాలా మంది కోపాన్ని పరిష్కరించడానికి ప్రయత్నిస్తారు. కానీ సిగ్గుచేటు నిశ్శబ్దంగా కొనసాగుతుంది. \"",
+      "button": "అన్వేషిద్దాం"
+    },
+    "s2": {
+      "tag": "చక్రం",
+      "title": "లూప్ వివరించింది",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "కోపం ఉపరితలాలు"
+        },
+        {
+          "emoji": "😔",
+          "label": "సిగ్గు: \"నేను చెడ్డవాడిని\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "సిగ్గు ఖననం అవుతుంది"
+        },
+        {
+          "emoji": "🔥",
+          "label": "మళ్లీ కోపం చెలరేగింది"
+        }
+      ],
+      "button": "నేను దానిని చూస్తున్నాను"
+    },
+    "s3": {
+      "tag": "ఏమి జరుగుతోంది",
+      "title": "రెండు భావోద్వేగాలు, ఒక ఉచ్చు",
+      "anger": {
+        "title": "🔥 కోపం",
+        "desc": "ద్వితీయ భావోద్వేగం - జీవితాల క్రింద బాధ, భయం లేదా తిరస్కరణ. ఇది అలారం, మంట కాదు."
+      },
+      "shame": {
+        "title": "😔 సిగ్గు",
+        "desc": "\"నేను చెడ్డవాడిని\" - \"నేను చెడ్డది చేసాను\" మాత్రమే కాదు. ఇది దాచిపెడుతుంది, నిశ్శబ్దం చేస్తుంది మరియు చక్రాన్ని తిప్పుతుంది."
+      },
+      "button": "బ్రేకింగ్ ఫ్రీ"
+    },
+    "s4": {
+      "tag": "అంతరాయం",
+      "title": "సైకిల్ కు అంతరాయం కలిగించండి",
+      "steps": [
+        {
+          "title": "మూలం పేరు చెప్పండి",
+          "desc": "అడగండి: 'నేను నిజంగా ఏమి అనుభూతి చెందుతున్నాను?' గాయపడ్డారా? భయపడ్డారా? చూడలేదా? దీనికి పేరు పెట్టడం బలహీనపరుస్తుంది."
+        },
+        {
+          "title": "కరుణ విరామం",
+          "desc": "ఛాతీపై చేయి. ఇలా చెప్పండి: 'ఇది కష్టం. నేను మనిషిని. నేను దీని నుండి బయటపడగలను. '"
+        },
+        {
+          "title": "దయతో మరమ్మత్తు చేయండి",
+          "desc": "అవసరమైతే సవరణలు చేయండి - కానీ మురికి వద్దు. మీరు మీ చెత్త క్షణం కాదు."
+        }
+      ],
+      "notice": "చక్రాన్ని గమనించడం ఇప్పటికే మొదటి దశ. మీరు పని చేస్తున్నారు.",
+      "button": "కార్యాచరణను పూర్తి చేయండి"
+    }
+  },
+  "complete": {
+    "title": "సైకిల్ కు అంతరాయం కలిగింది",
+    "message": "కోపం మరియు సిగ్గు మధ్య సంబంధాన్ని చూడటానికి మీరు అవగాహన పొందారు. శాశ్వత భావోద్వేగ స్వేచ్ఛకు ఇది పునాది."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "లూప్‌ను అర్థం చేసుకోవడం • {{step}}/{{total}}",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

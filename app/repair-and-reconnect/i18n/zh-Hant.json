@@ -1,0 +1,292 @@
+{
+  "app_title": "維修與重新連接",
+  "steps": {
+    "welcome": "歡迎",
+    "choose_person": "選擇人",
+    "choose_approach": "選擇方法",
+    "guided_action": "引導行動",
+    "complete": "完全的"
+  },
+  "intro": {
+    "title": "維修與重新連接",
+    "description": "憤怒會讓我們與所愛之人之間產生隔閡。但循序漸進、溫和的方式可以幫助重建這種連結。",
+    "quote": "「修復並不意味著你錯了——而是意味著你足夠在意，願意嘗試。”",
+    "small_efforts": "即使是微小的努力也能產生影響。",
+    "button": "開始 →"
+  },
+  "choose_person": {
+    "title": "你想和誰重新建立聯繫？",
+    "desc": "思考具體的人際關係有助於讓這些步驟感覺更真實。",
+    "options": {
+      "friend": "朋友",
+      "family": "家庭成員",
+      "colleague": "一位同事",
+      "other": "他人"
+    },
+    "button": "繼續 →"
+  },
+  "choose_approach": {
+    "title": "你覺得什麼才是合適的？",
+    "desc": "選擇一個你覺得可行的小步驟。",
+    "safety": "你不必解決所有問題——只需邁出一小步。",
+    "button": "試試這個 →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "傳送一封隨意的問候訊息",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "承認這種緊張關係",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "給彼此一些空間",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "放下過去，繼續前進。",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "好好想想吧。",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "傳送一則溫暖的訊息",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "如實陳述事情經過",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "下次一定要記得暫停。",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "選擇和平而非堅持己見。",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "認真思考你真正需要什麼",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "發送一份專業便條",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "請禮貌地稱呼它",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "下次盡量冷靜應對。",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "保持專業態度，繼續前進。",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "思考界限",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "用一則簡單的訊息聯絡對方",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "承認已經發生的事情",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "下次不妨停下來思考一下。",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "暫時放下這件事吧",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "只要思考（暫不採取行動）",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "點擊看詳情✨",
+    "copy_button": "📋 複製訊息",
+    "done_button": "我完成了 →",
+    "safety_line_default": "你現在不必發送任何東西。 💛",
+    "safety_line_pause": "慢慢來，不用急。 💛",
+    "safety_line_reflect": "這是專門給你看的——其他人不需要看到。 💛",
+    "actions": {
+      "message": {
+        "title": "發送一條簡單訊息",
+        "why": "一則簡單的訊息就能打破沉默，讓對方感受到你依然關心他們。",
+        "insight": "即使溝通方式不盡完美，通常也能得到比預期更好的回應。",
+        "howTitle": "從小處著手",
+        "howBody": "你不需要寫一篇長篇大論。幾句真誠的話語就能打開重新連結的大門。",
+        "prompts": [
+          "嘿，我一直在想你。希望你一切都好。",
+          "我知道當時氣氛很緊張——只是想說我很關心你。",
+          "很抱歉之前的事。等你準備好了我們再談好嗎？"
+        ],
+        "promptLabel": "選擇一個起點：",
+        "editLabel": "把它變成你自己的："
+      },
+      "acknowledge": {
+        "title": "承認已經發生的事情",
+        "why": "承認所發生的事情顯示了成熟，也能讓對方感到被理解。",
+        "insight": "人們不需要你完美——他們需要知道你注意到了他們。",
+        "howTitle": "輕輕地稱呼它",
+        "howBody": "你可以承認錯誤，但不必承擔全部責任。只要如實陳述事情經過即可。",
+        "prompts": [
+          "我知道我們之間氣氛變得緊張。我想讓你知道我注意到了。",
+          "我意識到我的語氣可能有些生硬，但這並非我的本意。",
+          "我一直在反思發生的事情，我希望當初能以不同的方式處理。"
+        ],
+        "promptLabel": "選擇一個起點：",
+        "editLabel": "把它變成你自己的："
+      },
+      "pause": {
+        "title": "下次停下來想想",
+        "why": "暫停片刻能讓你有空間回應，而不是反應。",
+        "insight": "6秒鐘的停頓通常足以使人從反應轉變為思考。",
+        "howTitle": "🧘 規劃你的暫停",
+        "howBody": "在回應之前，可以考慮一個簡單的提示──例如深呼吸或短暫地離開一下。",
+        "prompts": [
+          "下次我感到難過時，我會先深呼吸再回應。",
+          "我會試著說“請稍等片刻”，而不是立即做出反應。",
+          "我離開幾分鐘，整理一下思緒。"
+        ],
+        "promptLabel": "選擇一項讓你感覺適合的承諾：",
+        "editLabel": "寫下你的意願："
+      },
+      "letgo": {
+        "title": "暫時放下吧",
+        "why": "有時候，最仁慈的做法就是放下這件事所帶來的壓力。",
+        "insight": "放手不是放棄，而是選擇和平而不是堅持正確。",
+        "howTitle": "🕊️ 輕輕放開",
+        "howBody": "你不必忘記。你只需要下定決心，不再讓這件事左右你的感受。",
+        "prompts": [
+          "我選擇放下這件事——不是因為它不重要，而是因為我的內心平靜更重要。",
+          "我不再執著於證明自己是對的。我選擇與他人連結。",
+          "這件事並不能定義我們的關係。我會繼續前進。"
+        ],
+        "promptLabel": "選擇能引起共鳴的內容：",
+        "editLabel": "寫下你內心真實的想法："
+      },
+      "reflect": {
+        "title": "只需反思",
+        "why": "反思能夠培養自我意識，而自我意識是所有健康關係的基礎。",
+        "insight": "寫日記或只是思考發生的事情都能幫助你無壓力地處理情緒。",
+        "howTitle": "🔍 向內看",
+        "howBody": "問問自己：憤怒之下，我真正的感受是什麼？通常是受傷、恐懼或失望。",
+        "prompts": [
+          "在我的憤怒之下，我想我感到很受傷。",
+          "我意識到我的反應是出於害怕不被傾聽。",
+          "我真正需要的是感受到尊重和重視。"
+        ],
+        "promptLabel": "選擇能引起共鳴的內容：",
+        "editLabel": "請寫下你的感想："
+      }
+    }
+  },
+  "complete": {
+    "title": "連線已修復",
+    "message": "你勇敢地踏出了修復與{{person}}關係的第一步。小小的、用心的行動才能建立持久的橋樑。",
+    "default_person": "重要人物"
+  },
+  "toasts": {
+    "save_success": "修復進度得以保留",
+    "save_error": "未能保留反射",
+    "copy_success": "郵件已抄送！",
+    "preserving": "保存…",
+    "complete_button": "完成並儲存"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天激勵他人",
+    "share_text": "我在 TherapyMantra 上完成了這個 {{activityName}} 活動，非常喜歡，你也試試看吧，只需點擊連結即可下載安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}}",
+    "this_activity": "這項活動",
+    "copied": "已複製！",
+    "copy_message": "複製訊息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "維修與重新連接",
+  "that_s_a_step_forward": "這是向前邁出的一步。",
+  "you_took_a_small_step_toward_repair_and_that_matte": "你朝著修復方向邁出了一小步——這很重要。",
+  "try_with_someone_else": "試試找其他人。",
+  "done": "完成 ✔",
+  "more": "更多的",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "close": "關閉",
+  "previous": "以前的",
+  "more_pages": "更多頁面",
+  "pagination": "分頁",
+  "go_to_previous_page": "回上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "oops_page_not_found": "糟糕！頁面未找到",
+  "return_to_home": "回首頁",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,102 @@
+{
+  "app_title": "La lettre non envoyée",
+  "app_subtitle": "Libérez vos pensées en toute sécurité et en privé",
+  "intro": {
+    "title": "La lettre non envoyée",
+    "description": [
+      "Parfois, il y a des choses que nous aimerions pouvoir dire — mais que nous n’avons jamais eu l’occasion de faire.",
+      "Cela pouvait venir du fait que cela ne semblait pas sûr, que le timing n’était pas bon, ou que les mots étaient trop difficiles à dire à voix haute.",
+      "Cette activité vous offre un espace privé pour mettre ces pensées en mots.",
+      "Tu n’es pas obligé d’envoyer cette lettre. C’est juste pour vous — pour exprimer, libérer et mieux comprendre vos sentiments."
+    ],
+    "notice": "Écrivez librement. Personne d’autre ne verra ça.",
+    "button": "Commencez à écrire →"
+  },
+  "writing": {
+    "title": "Écris ce que tu as gardé pour toi",
+    "desc": "Vous pouvez écrire à votre partenaire, à votre ex-partenaire, ou même à la relation elle-même. Il n’y a pas de bonne ou de mauvaise façon de faire cela.",
+    "prompts": [
+      "Je me sens...",
+      "J’aimerais bien...",
+      "Je n’ai jamais dit...",
+      "Ce qui m’a blessé...",
+      "Ce dont j’avais besoin..."
+    ],
+    "placeholder": "Cher ____,\nJ’avais envie de dire...",
+    "notice": "Vous pouvez faire une pause et revenir à tout moment.",
+    "button": "Continuez →"
+  },
+  "reflection": {
+    "title": "Prends un moment avec ça",
+    "description": [
+      "Vous venez de mettre vos pensées et vos sentiments en mots — cela demande du courage.",
+      "Vous pourriez remarquer un mélange d’émotions en ce moment, et c’est tout à fait normal.",
+      "Avant de passer à autre chose, respirez et prenez doucement des nouvelles de vous-même."
+    ],
+    "notice": "C’était pour ta guérison, pas pour l’envoyer.",
+    "save_button": "Save Letter",
+    "finish_button": "Fin"
+  },
+  "history": {
+    "title": "Lettres passées",
+    "empty_title": "Tu n’as encore pas écrit de lettres.",
+    "empty_desc": "Vos lettres apparaîtront ici après que vous les aurez sauvegardées."
+  },
+  "toasts": {
+    "save_success": "Lettre sauvegardée dans votre journal privé",
+    "save_error": "Échec à sauvegarder la lettre",
+    "auth_error": "Session d’authentification manquante ou base de données non configurée"
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Libérez vos pensées en toute sécurité et en toute confidentialité",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

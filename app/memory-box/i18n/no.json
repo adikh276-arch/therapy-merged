@@ -1,0 +1,146 @@
+{
+  "app_title": "Minneboks",
+  "screen_titles": [
+    "Din boks",
+    "Ære",
+    "Uttrykk",
+    "Bevart",
+    "Forsiktig pleie"
+  ],
+  "complete_title": "Minne bevart",
+  "complete_message": "Du har trygt plassert et minne av {{name}} i boksen din. Disse øyeblikkene av tilknytning er alltid dine å beholde.",
+  "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
+  "save_success": "Minne bevart",
+  "save_error": "Klarte ikke å bevare minnet",
+  "preserving": "Bevare...",
+  "preserve_memory": "Bevare minnet",
+  "welcome": {
+    "title": "Din minneboks",
+    "subtitle1": "Et stille sted for å minnes noen du elsker. 🤍",
+    "subtitle2": "Ta et sakte pust inn...",
+    "subtitle3": "… og pust forsiktig ut.",
+    "subtitle4": "Det finnes ingen riktig eller gal måte å gjøre dette på.",
+    "subtitle5": "Gå i ditt eget tempo. 🌿",
+    "begin": "Begynn ✨",
+    "later": "Kanskje senere"
+  },
+  "who": {
+    "placeholder_name": "Skriv inn navnet deres...",
+    "placeholder_relation": "Hvordan kjenner du dem? (valgfritt)",
+    "categories": [
+      {
+        "label": "Et lykkelig øyeblikk",
+        "emoji": "😊"
+      },
+      {
+        "label": "Noe de pleide å si",
+        "emoji": "💬"
+      },
+      {
+        "label": "Et lite hverdagsminne",
+        "emoji": "☕"
+      },
+      {
+        "label": "Et sted som minner deg om dem",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Noe jeg skulle ønske jeg kunne si",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Fortsett →"
+  },
+  "expression": {
+    "title": "Uttrykk for hukommelsen din",
+    "memory_label": "Selve minnet",
+    "memory_placeholder": "Skriv om øyeblikket, følelsen eller detaljen du vil beholde...",
+    "message_label": "En melding til dem (valgfritt)",
+    "message_placeholder": "Hva ville du sagt hvis du kunne snakke med dem akkurat nå?",
+    "save": "Bevare minnet",
+    "skip": "Hopp over for nå",
+    "back": "Tilbake"
+  },
+  "box": {
+    "title": "Trygt gjemt bort",
+    "subtitle": "Dette minnet om {{name}} er nå en del av samlingen din.",
+    "add_another": "Legg til et nytt minne",
+    "finish": "Ferdig refleksjon"
+  },
+  "closing": {
+    "title": "Ta vare på",
+    "subtitle": "Lukker boksen din for nå. Du kan komme tilbake hit når som helst du trenger å føle deg nær disse minnene.",
+    "exit": "Lukkeboks"
+  },
+  "history": {
+    "title": "Boksinnhold",
+    "no_memories": "Boksen din er tom. Legg til ditt første minne for å starte samlingen din.",
+    "search_placeholder": "Søk minner..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Minneboks",
+  "before_you_go": "Før du går",
+  "grief_comes_in_waves": "Sorg kommer i bølger. 🌊",
+  "what_you_re_feeling_matters": "Det du føler betyr noe. 🤍",
+  "be_gentle_with_yourself_today": "Vær snill med deg selv i dag. 🌿",
+  "save_exit": "Lagre og avslutt 🕊️",
+  "take_your_time": "Ta deg god tid 🕯️",
+  "save_to_memory_box": "Lagre i minneboksen 📦",
+  "write_as_much_or_as_little_as_you_want": "Skriv så mye eller så lite du vil ... ✍️",
+  "if_there_s_something_you_d_like_to_say": "Hvis det er noe du vil si…",
+  "past_entries": "Tidligere innlegg",
+  "no_memories_saved_yet": "Ingen minner lagret ennå.",
+  "this_memory_is_held_here_for_you": "Dette minnet er her, for deg. 🌿",
+  "add_another_memory": "Legg til et nytt minne ✨",
+  "finish_for_now": "Ferdig for nå",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

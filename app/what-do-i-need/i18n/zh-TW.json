@@ -1,0 +1,217 @@
+{
+  "app_title": "我需要什麼？",
+  "app_subtitle": "審視自己",
+  "screens": {
+    "s1": {
+      "title": "我現在最需要什麼？",
+      "description": "停下來片刻，傾聽你內心深處的渴望。",
+      "button": "開始辦理入住手續"
+    },
+    "s2": {
+      "select": {
+        "title": "什麼對你來說最重要？",
+        "placeholder": "還有一件事…",
+        "add_button": "添加",
+        "button": "繼續"
+      },
+      "prioritize": {
+        "title": "哪個是主要的？"
+      },
+      "focus": {
+        "tag": "你現在的重點",
+        "button": "繼續"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "繼續"
+      },
+      "action": {
+        "title": "向前邁了一小步？",
+        "placeholder": "或者自己寫…",
+        "button": "回顧反思"
+      },
+      "closing": {
+        "tag_need": "主要需求",
+        "tag_insight": "你的見解",
+        "tag_action": "小行動",
+        "save_button": "儲存並完成",
+        "finish_button": "完成但不儲存"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "情感支持",
+      "prompt": "您現在真正需要什麼樣的幫助？",
+      "hints": {
+        "0": "我只是需要有人…",
+        "1": "如果……那就太好了。",
+        "2": "我真正想要的是…"
+      }
+    },
+    "Space / time for myself": {
+      "label": "屬於我自己的空間/時間",
+      "prompt": "對你來說，擁有那樣的空間會是什麼樣子？",
+      "hints": {
+        "0": "我會利用那段時間…",
+        "1": "太空會讓我…",
+        "2": "我需要空間…"
+      }
+    },
+    "Clear communication": {
+      "label": "清晰的溝通",
+      "prompt": "你認為更清晰的溝通應該是什麼樣的？",
+      "hints": {
+        "0": "我真希望我能說…",
+        "1": "如果他們真的聽進去了，我會告訴他們…",
+        "2": "當……時，溝通會變得很困難。"
+      }
+    },
+    "Reassurance": {
+      "label": "放心",
+      "prompt": "什麼樣的安慰才能讓人感到真正有意義？",
+      "hints": {
+        "0": "我需要聽到這個…",
+        "1": "知道這一點會讓我安心…",
+        "2": "我一直擔心…"
+      }
+    },
+    "Understanding": {
+      "label": "理解",
+      "prompt": "真正被理解的感覺會是什麼樣的呢？",
+      "hints": {
+        "0": "我希望人們都知道這一點…",
+        "1": "我內心真正的感受是…",
+        "2": "沒人看到我…"
+      }
+    },
+    "Stability": {
+      "label": "穩定",
+      "prompt": "你現在覺得生活中穩定是什麼樣的？",
+      "hints": {
+        "0": "我需要一些能讓我感到…的東西。",
+        "1": "能讓我腳踏實地的，是…",
+        "2": "穩定意味著…"
+      }
+    },
+    "Honesty": {
+      "label": "誠實",
+      "prompt": "在你的情況下，怎樣才算更誠實？",
+      "hints": {
+        "0": "我必須面對的真相是…",
+        "1": "我想坦誠地說…",
+        "2": "實際情況是…"
+      }
+    },
+    "Respect": {
+      "label": "尊重",
+      "prompt": "你現在認為尊重是什麼樣的？",
+      "hints": {
+        "0": "我應該受到應有的待遇…",
+        "1": "尊重應該體現在…",
+        "2": "我需要人們…"
+      }
+    },
+    "Clarity about relationship": {
+      "label": "對關係的清晰認識",
+      "prompt": "哪種類型的清晰說明對您最有幫助？",
+      "hints": {
+        "0": "我需要知道是否…",
+        "1": "讓我困惑的是…",
+        "2": "我希望我們能明確一點…"
+      }
+    },
+    "default": {
+      "prompt": "實際情況會是怎樣的？",
+      "hints": {
+        "0": "我首先想到的是…",
+        "1": "我現在感覺…",
+        "2": "如果我對自己誠實的話…"
+      }
+    }
+  },
+  "actions": {
+    "0": {
+      "label": "說些實話"
+    },
+    "1": {
+      "label": "給自己留點時間。"
+    },
+    "2": {
+      "label": "聯絡某人"
+    },
+    "3": {
+      "label": "設定一個小邊界"
+    },
+    "4": {
+      "label": "還不確定"
+    }
+  },
+  "history": {
+    "title": "過往的反思",
+    "empty": "暫無反思。"
+  },
+  "toasts": {
+    "save_success": "已儲存的反射",
+    "save_error": "保存反射失敗",
+    "auth_error": "身份驗證會話缺失或資料庫未配置"
+  },
+  "complete": {
+    "title": "辦理入住手續",
+    "message": "你已經意識到自己需要「{{need}}」。尊重自己的需求是自我關懷的重要方式。"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Check in with yourself",
+  "past_reflections": "Past reflections",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

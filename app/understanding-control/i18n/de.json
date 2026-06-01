@@ -1,0 +1,113 @@
+{
+  "app_title": "Verständnis der Steuerung",
+  "app_subtitle": "Überlebensstrategie • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Warum Kontrolle sich so mächtig anfühlen kann",
+      "paragraphs": [
+        "Für viele Menschen mit Essproblemen kann Kontrolle sich wie ein Weg zur Sicherheit anfühlen.",
+        "Wenn sich das Leben unvorhersehbar oder emotional intensiv anfühlt, kann der Fokus auf Essen, Gewicht oder Routinen ein Gefühl von Struktur und Sicherheit bringen.",
+        "Es geht hier nicht um Willenskraft oder Disziplin. Es geht darum, sich zu stabilisieren, wenn sich etwas unsicher anfühlt.",
+        "So wird Kontrolle zu einer Bewältigungsstrategie – etwas, das dir hilft, dich geerdet zu fühlen, wenn auch nur vorübergehend."
+      ],
+      "microcopy": "Du bist nicht allein mit diesem Gefühl.",
+      "cta": "Weitermachen"
+    },
+    {
+      "headline": "Verschiedene Arten, wie Kontrolle erscheint",
+      "intro": "Das Bedürfnis nach Kontrolle sieht nicht bei jedem gleich aus, zeigt sich aber oft in Mustern wie:",
+      "bullets": [
+        {
+          "text": "Strenge oder unflexible Ernährungsregeln"
+        },
+        {
+          "text": "Man muss Routinen genau befolgen"
+        },
+        {
+          "text": "Angst, wenn sich Pläne ändern"
+        },
+        {
+          "text": "Verknüpfung von Selbstwertgefühl mit Form/Gewicht"
+        }
+      ],
+      "outro": "Mit der Zeit können diese starr werden, den mentalen Raum einnehmen und die Anpassung erschweren.",
+      "microcopy": "Was als Kontrolle beginnt, kann sich langsam kontrollierend anfühlen.",
+      "cta": "Weitermachen"
+    },
+    {
+      "headline": "Unter der Kontrolle",
+      "intro": "Der Drang zu kontrollieren hat oft tiefere Wurzeln. Es kann mit Folgendem verbunden sein:",
+      "bullets": [
+        {
+          "text": "Emotional überflutet fühlen"
+        },
+        {
+          "text": "Verlangen nach Vorhersehbarkeit"
+        },
+        {
+          "text": "Ein Bedürfnis nach Stabilität und Sicherheit"
+        }
+      ],
+      "insight": "Kontrolle ist nicht das Problem – es ist die Strategie, die dein Geist gefunden hat, um damit umzugehen. Mit Zeit und Unterstützung sind andere Wege möglich, sich sicher zu fühlen.",
+      "microcopy": "Verständnis ist ein kraftvoller erster Schritt.",
+      "cta": "Lesen zu Ende"
+    }
+  ],
+  "complete": {
+    "title": "Bewusstsein gewonnen",
+    "message": "Das Verständnis der Wurzeln der Kontrolle ist ein mutiger erster Schritt, um neue Wege zu finden, sich sicher und gefestigt zu fühlen.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Überlebensstrategie • {{step}}/3",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

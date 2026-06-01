@@ -1,0 +1,147 @@
+{
+  "app_title": "Планувальник вікон для сну",
+  "pill_labels": [
+    "Побудуйте своє вікно",
+    "Встановлюйте свій час",
+    "Твоє вікно сну"
+  ],
+  "screen1": {
+    "title": "Твоє вікно сну важливіше, ніж ти думаєш",
+    "p1": "Вікно сну — це фіксований час між тим, як ви лягаєте спати, і прокиданням. Підтримувати його стабільним — навіть у вихідні — це одна з найефективніших способів сну.",
+    "p2": "Цей інструмент допоможе зібрати свій менш ніж за 2 хвилини.",
+    "insight": "Навіть різниця в годині сну на вихідних може порушити ваше самопочуття протягом тижня.",
+    "meta": "Просто. Особисте. Ефективно.",
+    "button": "Давай побудуємо мій →"
+  },
+  "screen2": {
+    "title": "Давай налаштуємо твоє вікно для сну",
+    "step1": {
+      "title": "КРОК 1 — ЧАС ПРОБУДЖЕННЯ",
+      "desc": "О котрій годині потрібно прокидатися більшість днів?"
+    },
+    "step2": {
+      "title": "КРОК 2 — ТРИВАЛІСТЬ СНУ",
+      "desc": "Скільки годин сну ти хочеш?"
+    },
+    "live_window": {
+      "bedtime": "Час сну",
+      "waketime": "Час прокидання",
+      "duration": "{{hours}} години сну"
+    },
+    "italic": "Більшість дорослих потребують 7–9 годин. Обирайте те, що відчувається правильним.",
+    "button": "Дивись на моє вікно сну →"
+  },
+  "screen3": {
+    "title": "Твоє вікно 🌙 сну",
+    "result": {
+      "bedtime": "Час сну",
+      "waketime": "Час прокидання",
+      "duration": "Тривалість",
+      "hours": "{{hours}} години"
+    },
+    "accordion1": {
+      "title": "3 способи захисту",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Розслабтеся за 30 хвилин до сну"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Однаковий час прокидання щодня — так, і на вихідних теж"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Уникайте дрімоти довше 20 хвилин після 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Візьми на себе зобов'язання зробити одну справу сьогодні ввечері",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Поклади телефон перед сном"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Почніть режим розслаблення"
+        },
+        {
+          "emoji": "💡",
+          "text": "Приглуши світло за годину до сну"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Закінчити мій список справ раніше"
+        }
+      ]
+    },
+    "quote": "Послідовність сильніша за досконалість. Одна хороша ніч нарощує наступну.",
+    "button": "Збережи моє вікно сну ✓",
+    "saved_button": "✓ Вікно сну збережено!",
+    "adjust_times": "Коригуйте час"
+  },
+  "complete": {
+    "title": "Вікно створено",
+    "message": "Ваш ідеальний період сну вже визначено. Послідовність — ключ до глибокого, відновлюючого відпочинку."
+  },
+  "toasts": {
+    "save_success": "Збережене вікно сну",
+    "save_error": "Не вдалося зберегти вікно сну",
+    "auth_error": "Відсутня сесія автентифікації або база даних не налаштована",
+    "saving": "Рятуючи..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Планувальник вікон для сну",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,222 @@
+{
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, pur și simplu accesează linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "chooseAnother": "Choose another feeling",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Când te simți singur și trist",
+      "affirmations": [
+        "Nu sunt singur, chiar și atunci când așa simt.",
+        "Sentimentele mele merită grijă și blândețe.",
+        "Acest moment nu va dura pentru totdeauna.",
+        "Am dreptul să am nevoie de conexiune.",
+        "Pot să-mi ofer căldură chiar acum."
+      ]
+    },
+    "terrified": {
+      "label": "Când te simți îngrozit",
+      "affirmations": [
+        "Sunt în siguranță în acest moment.",
+        "Frica este un sentiment, nu o predicție.",
+        "Pot să iau asta o respirație pe rând.",
+        "Nu trebuie să rezolv totul acum.",
+        "Sunt mai puternic decât acest moment."
+      ]
+    },
+    "insignificant": {
+      "label": "Când te simți nesemnificativ",
+      "affirmations": [
+        "Momentele mici încă contează.",
+        "Nu trebuie să-mi dovedesc valoarea.",
+        "Am voie să ocup spațiu.",
+        "Existența mea contează.",
+        "Sunt suficient așa cum sunt."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Când te simți copleșit",
+      "affirmations": [
+        "Nu trebuie să fac totul deodată.",
+        "Un singur pas mic este suficient.",
+        "E în regulă să faci o pauză.",
+        "Am voie să mă odihnesc.",
+        "Acest lucru va deveni din nou gestionabil."
+      ]
+    },
+    "hopeless": {
+      "label": "Când te simți fără speranță",
+      "affirmations": [
+        "Nu am nevoie de răspunsuri azi.",
+        "Schimbarea este încă posibilă.",
+        "Am supraviețuit unor zile dificile înainte.",
+        "Pot să rămân aici deocamdată.",
+        "Ceva blând încă se poate desfășura."
+      ]
+    },
+    "conflicted": {
+      "label": "Când te simți în conflict",
+      "affirmations": [
+        "E în regulă să simți mai mult de un lucru deodată.",
+        "Nu am nevoie de claritate imediată.",
+        "Confuzia nu înseamnă eșec.",
+        "Pot să-mi acord timp.",
+        "Am încredere în mine că voi găsi o soluție."
+      ]
+    },
+    "self-critical": {
+      "label": "Când ești foarte autocritic",
+      "affirmations": [
+        "Pot să vorbesc cu bunătate.",
+        "Nu trebuie să mă pedepsesc ca să cresc.",
+        "Greșelile nu definesc cine sunt.",
+        "Învăț, nu eșuez.",
+        "Creșterea nu necesită cruzime."
+      ]
+    },
+    "out-of-place": {
+      "label": "Când te simți social în afara locului",
+      "affirmations": [
+        "Am voie să fiu tăcut sau diferit.",
+        "Nu trebuie să țin pasul cu energia altcuiva.",
+        "Aparțin așa cum sunt.",
+        "Pot să ocup spațiu ușor.",
+        "Nu fac asta greșit."
+      ]
+    },
+    "unsafe": {
+      "label": "Când te simți nesigur în preajma străinilor",
+      "affirmations": [
+        "Pot să mă mișc în ritmul meu.",
+        "Am voie să-mi protejez limitele.",
+        "Pot să rămân ancorat în corpul meu.",
+        "Am voie să plec din situații.",
+        "Pot să mă protejez."
+      ]
+    },
+    "pressured": {
+      "label": "Când te simți presat la muncă",
+      "affirmations": [
+        "Valoarea mea nu este productivitatea mea.",
+        "Nu trebuie să mă dovedesc mereu.",
+        "Să dau tot ce am mai bun azi.",
+        "O sarcină pe rând este în regulă.",
+        "Sunt mai mult decât rolul meu."
+      ]
+    },
+    "face-the-day": {
+      "label": "Când nu vrei să înfrunți ziua",
+      "affirmations": [
+        "Pot lua ziua de azi în bucăți mici.",
+        "Să treci prin asta e suficient.",
+        "Nu am nevoie de motivație ca să încep.",
+        "Să te prezinți cu blândețe încă contează.",
+        "Această zi nu mă definește."
+      ]
+    },
+    "future": {
+      "label": "Când îți faci griji pentru viitorul tău",
+      "affirmations": [
+        "Pot să revin în prezent.",
+        "Voi gestiona lucrurile pe măsură ce vin.",
+        "Nu am nevoie de certitudine azi.",
+        "Sunt capabil să mă adaptez.",
+        "Pot să am mai multă încredere în mine."
+      ]
+    },
+    "stuck": {
+      "label": "Când te simți blocat într-o problemă",
+      "affirmations": [
+        "A fi blocat nu înseamnă că sunt stricat.",
+        "Pot să mă opresc fără să renunț.",
+        "Nu am nevoie de soluții imediate.",
+        "Am dreptul să mă simt nesigur.",
+        "Încă mă mișc, chiar și încet."
+      ]
+    },
+    "compare": {
+      "label": "Când te compari",
+      "affirmations": [
+        "Călătoria mea este a mea.",
+        "Nu trebuie să concurez ca să fiu vrednic.",
+        "Mi se permite să cresc în ritmul meu.",
+        "Succesul altcuiva nu-l șterge pe al meu.",
+        "Nu sunt în urmă."
+      ]
+    },
+    "give-up": {
+      "label": "Când vrei să renunți",
+      "affirmations": [
+        "Nu trebuie să decid nimic acum.",
+        "Acest sentiment va trece.",
+        "Am supraviețuit mai mult decât îmi dau seama.",
+        "Pot să mai stau încă un moment.",
+        "Sunt încă aici — și asta contează."
+      ]
+    }
+  },
+  "app_complete_title": "Simte-te împuternicit",
+  "app_complete_message": "Afirmațiile zilnice îți ajută la remodelarea mentalității. Poartă cu tine aceste gânduri pozitive astăzi.",
+  "app_duration": "2-3 minute",
+  "app_title": "Mentalitate",
+  "app_description": "Remodelează-ți mentalitatea prin afirmații zilnice.",
+  "intro": {
+    "description": "Afirmațiile zilnice te ajută să-ți remodelezi mentalitatea și să-ți construiești rezistența emoțională. Acordă-ți câteva momente pentru a te concentra asupra gândurilor pozitive și vorbește-ți cu blândețe.",
+    "benefits": [
+      "Găsește pacea în momentele dificile",
+      "Contestați tiparele de gândire negative",
+      "Dezvoltă compasiune față de sine și putere"
+    ]
+  },
+  "affirmation_for": "Afirmație pentru",
+  "affirmation": "Afirmare",
+  "language": "Limbă",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

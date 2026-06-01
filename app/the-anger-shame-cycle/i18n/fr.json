@@ -1,0 +1,124 @@
+{
+  "app_title": "Cycle Colère-Honte",
+  "app_subtitle": "Comprendre la boucle • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Pourquoi la colère revient-elle sans cesse ?",
+      "description": "Ce n’est peut-être pas ton tempérament. Il y a une boucle cachée entre la colère et la honte — et une fois qu’on la voit, tout change.",
+      "quote": "« La plupart des gens essaient de calmer la colère. Mais la honte est ce qui la maintient tranquillement. »",
+      "button": "Explorons"
+    },
+    "s2": {
+      "tag": "Le cycle",
+      "title": "La boucle expliquait",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "La colère remonte à la surface"
+        },
+        {
+          "emoji": "😔",
+          "label": "Honte : « Je suis méchant »"
+        },
+        {
+          "emoji": "🤐",
+          "label": "La honte est enterrée"
+        },
+        {
+          "emoji": "🔥",
+          "label": "La colère éclate à nouveau"
+        }
+      ],
+      "button": "Je le vois"
+    },
+    "s3": {
+      "tag": "Que se passe-t-il",
+      "title": "Deux émotions, un piège",
+      "anger": {
+        "title": "🔥 Colère",
+        "desc": "Une émotion secondaire — sous la peau de vies, de la peur, ou du rejet. C’est l’alarme, pas l’incendie."
+      },
+      "shame": {
+        "title": "😔 Dommage",
+        "desc": "« Je suis mauvais » — pas seulement « J’ai fait quelque chose de mal. » Elle cache, fait taire et maintient le cycle en cours."
+      },
+      "button": "Se libérer"
+    },
+    "s4": {
+      "tag": "Interruption",
+      "title": "Interrompre le cycle",
+      "steps": [
+        {
+          "title": "Nommer la source",
+          "desc": "Demandez : « Qu’est-ce que je ressens réellement ? » Blessé ? Peur ? Invisible ? Le nommer l’affaiblit."
+        },
+        {
+          "title": "Pause de compassion",
+          "desc": "Main sur la poitrine. Dis : « C’est difficile. Je suis humain. Je peux m’en sortir. »"
+        },
+        {
+          "title": "Réparer avec grâce",
+          "desc": "Faites amende honorable si besoin — mais ne vous perdez pas dans la spirale. Tu n’es pas ton pire moment."
+        }
+      ],
+      "notice": "Remarquer le cycle est déjà la première étape. Tu fais le travail.",
+      "button": "Activité complète"
+    }
+  },
+  "complete": {
+    "title": "Cycle interrompu",
+    "message": "Vous avez acquis la conscience nécessaire pour voir le lien entre la colère et la honte. C’est la base d’une liberté émotionnelle durable."
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Comprendre la boucle • {{step}}/{{total}}",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

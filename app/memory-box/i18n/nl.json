@@ -1,0 +1,146 @@
+{
+  "app_title": "Geheugendoos",
+  "screen_titles": [
+    "Jouw Doos",
+    "Eren",
+    "Expressen",
+    "Bewaard",
+    "Zachte zorg"
+  ],
+  "complete_title": "Herinnering bewaard",
+  "complete_message": "Je hebt veilig een herinnering van {{name}} in je doos geplaatst. Deze momenten van verbinding zijn altijd van jou om te bewaren.",
+  "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
+  "save_success": "Herinnering bewaard",
+  "save_error": "Niet in staat om geheugen te bewaren",
+  "preserving": "Bewaren...",
+  "preserve_memory": "Behoud van het geheugen",
+  "welcome": {
+    "title": "Jouw Geheugendoos",
+    "subtitle1": "Een stille plek om iemand van wie je houdt te herinneren. 🤍",
+    "subtitle2": "Haal langzaam adem...",
+    "subtitle3": "… en zachtjes uitademen.",
+    "subtitle4": "Er is geen goed of fout manier om dit te doen.",
+    "subtitle5": "Doe het in je eigen tempo. 🌿",
+    "begin": "Begin ✨",
+    "later": "Misschien later"
+  },
+  "who": {
+    "placeholder_name": "Typ hun naam...",
+    "placeholder_relation": "Hoe ken je ze? (optioneel)",
+    "categories": [
+      {
+        "label": "Een gelukkig moment",
+        "emoji": "😊"
+      },
+      {
+        "label": "Iets wat ze vroeger zeiden",
+        "emoji": "💬"
+      },
+      {
+        "label": "Een kleine alledaagse herinnering",
+        "emoji": "☕"
+      },
+      {
+        "label": "Een plek die je aan hen doet denken",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Iets wat ik graag zou willen zeggen",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Ga verder →"
+  },
+  "expression": {
+    "title": "Je herinnering uitdrukken",
+    "memory_label": "De herinnering zelf",
+    "memory_placeholder": "Schrijf over het moment, het gevoel of het detail dat je wilt behouden...",
+    "message_label": "Een boodschap aan hen (optioneel)",
+    "message_placeholder": "Wat zou je zeggen als je nu met ze kon praten?",
+    "save": "Behoud van het geheugen",
+    "skip": "Sla nu maar over",
+    "back": "Achteruit"
+  },
+  "box": {
+    "title": "Veilig opgeborgen",
+    "subtitle": "Deze herinnering aan {{name}} maakt nu deel uit van je collectie.",
+    "add_another": "Voeg een andere herinnering toe",
+    "finish": "Eindreflectie"
+  },
+  "closing": {
+    "title": "Zorg nemen",
+    "subtitle": "Ik sluit je doos voorlopig. Je kunt hier altijd terugkomen wanneer je dicht bij deze herinneringen wilt komen.",
+    "exit": "Sluitdoos"
+  },
+  "history": {
+    "title": "Inhoud van de doos",
+    "no_memories": "Je doos is leeg. Voeg je eerste herinnering toe om je verzameling te beginnen.",
+    "search_placeholder": "Zoek herinneringen..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog.",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Herinneringsdoos",
+  "before_you_go": "Voordat je vertrekt",
+  "grief_comes_in_waves": "Verdriet komt in golven. 🌊",
+  "what_you_re_feeling_matters": "Wat je voelt, is belangrijk. 🤍",
+  "be_gentle_with_yourself_today": "Wees vandaag lief voor jezelf. 🌿",
+  "save_exit": "Opslaan en afsluiten 🕊️",
+  "take_your_time": "Neem de tijd 🕯️",
+  "save_to_memory_box": "Bewaar in de Geheugenbox 📦",
+  "write_as_much_or_as_little_as_you_want": "Schrijf zoveel of zo weinig als je wilt… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Als u nog iets wilt zeggen…",
+  "past_entries": "Eerdere berichten",
+  "no_memories_saved_yet": "Er zijn nog geen herinneringen opgeslagen.",
+  "this_memory_is_held_here_for_you": "Deze herinnering is hier voor jou bewaard. 🌿",
+  "add_another_memory": "Voeg nog een herinnering toe ✨",
+  "finish_for_now": "Voorlopig klaar.",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

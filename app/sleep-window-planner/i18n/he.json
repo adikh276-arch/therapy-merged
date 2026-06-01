@@ -1,0 +1,147 @@
+{
+  "app_title": "מתכנן חלונות שינה",
+  "pill_labels": [
+    "בנה את החלון שלך",
+    "קבע את הזמנים שלך",
+    "חלון השינה שלך"
+  ],
+  "screen1": {
+    "title": "חלון השינה שלך חשוב יותר ממה שאתה חושב",
+    "p1": "חלון שינה הוא הזמן הקבוע בין השינה לבין ההתעוררות. שמירה על עקביות — אפילו בסופי שבוע — היא אחת הדברים החזקים ביותר שאתה יכול לעשות לשינה שלך.",
+    "p2": "הכלי הזה עוזר לך לבנות את שלך בפחות משתי דקות.",
+    "insight": "אפילו הבדל של שעה בשעות השינה בסופי שבוע יכול להפריע להרגשה שלך לאורך כל השבוע.",
+    "meta": "פשוט. אישי. יעיל.",
+    "button": "בוא נבנה את שלי →"
+  },
+  "screen2": {
+    "title": "בוא נקבע לך חלון שינה",
+    "step1": {
+      "title": "שלב 1 — זמן התעוררות",
+      "desc": "באיזו שעה אתה צריך לקום רוב הימים?"
+    },
+    "step2": {
+      "title": "שלב 2 — משך השינה",
+      "desc": "כמה שעות שינה אתה רוצה?"
+    },
+    "live_window": {
+      "bedtime": "שעת שינה",
+      "waketime": "זמן הערות",
+      "duration": "{{hours}} שעות שינה"
+    },
+    "italic": "רוב המבוגרים זקוקים ל-7–9 שעות. בחר מה שמרגיש נכון.",
+    "button": "רואה את חלון השינה שלי →"
+  },
+  "screen3": {
+    "title": "חלון 🌙 השינה שלך",
+    "result": {
+      "bedtime": "שעת שינה",
+      "waketime": "זמן הערות",
+      "duration": "משך",
+      "hours": "{{hours}} שעות"
+    },
+    "accordion1": {
+      "title": "3 דרכים להגן עליו",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "להירגע 30 דקות לפני שעת השינה"
+        },
+        {
+          "emoji": "⏰",
+          "text": "אותו זמן ער כל יום — כן, גם בסופי שבוע"
+        },
+        {
+          "emoji": "🚫",
+          "text": "הימנע מתנומות ארוכות מ-20 דקות אחרי 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "התחייב לדבר אחד הערב",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "תשים את הטלפון שלי בצד לפני השינה"
+        },
+        {
+          "emoji": "🛁",
+          "text": "התחל שגרת הרגעה"
+        },
+        {
+          "emoji": "💡",
+          "text": "תכבה את האורות שעה לפני השינה"
+        },
+        {
+          "emoji": "✍️",
+          "text": "סיים את רשימת המטלות שלי מוקדם"
+        }
+      ]
+    },
+    "quote": "עקביות חזקה יותר משלמות. לילה אחד טוב בונה את הבא.",
+    "button": "תשמור על חלון השינה שלי ✓",
+    "saved_button": "✓ חלון השינה נשמר!",
+    "adjust_times": "התאמת זמנים"
+  },
+  "complete": {
+    "title": "חלון נוצר",
+    "message": "חלון השינה האידיאלי שלך מופה. עקביות היא המפתח למנוחה עמוקה ומשקמת."
+  },
+  "toasts": {
+    "save_success": "חלון השינה נשמר",
+    "save_error": "לא הצלחתי לשמור את חלון השינה",
+    "auth_error": "סשן אימות חסר או מסד נתונים לא מוגדר",
+    "saving": "מצילה..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "מתכנן חלונות שינה",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

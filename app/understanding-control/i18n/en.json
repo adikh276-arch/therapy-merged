@@ -1,0 +1,113 @@
+{
+  "app_title": "Understanding Control",
+  "app_subtitle": "Strategy of Survival • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Why Control Can Feel So Powerful",
+      "paragraphs": [
+        "For many people experiencing eating difficulties, control can feel like a way to create safety.",
+        "When life feels unpredictable or emotionally intense, focusing on food, weight, or routines can bring a sense of structure and certainty.",
+        "This isn't about willpower or discipline. It's about trying to steady yourself when things feel uncertain.",
+        "In this way, control becomes a coping strategy — something that helps you feel grounded, even if only temporarily."
+      ],
+      "microcopy": "You're not alone in feeling this way.",
+      "cta": "Continue"
+    },
+    {
+      "headline": "Different Ways Control Appears",
+      "intro": "The need for control doesn't look the same for everyone, but it often shows up in patterns like:",
+      "bullets": [
+        {
+          "text": "Strict or inflexible food rules"
+        },
+        {
+          "text": "Need to follow routines exactly"
+        },
+        {
+          "text": "Anxiety when plans change"
+        },
+        {
+          "text": "Linking self-worth to shape/weight"
+        }
+      ],
+      "outro": "Over time, these can become rigid, taking up mental space and making it harder to adapt.",
+      "microcopy": "What starts as control can slowly start to feel controlling.",
+      "cta": "Continue"
+    },
+    {
+      "headline": "Underneath the Control",
+      "intro": "The urge to control often has deeper roots. It can be connected to:",
+      "bullets": [
+        {
+          "text": "Feeling emotionally flooded"
+        },
+        {
+          "text": "Wanting predictability"
+        },
+        {
+          "text": "A need for stability and safety"
+        }
+      ],
+      "insight": "Control isn't the problem — it's the strategy your mind found to cope. With time and support, other ways to feel safe are possible.",
+      "microcopy": "Understanding is a powerful first step.",
+      "cta": "Finish Reading"
+    }
+  ],
+  "complete": {
+    "title": "Awareness Gained",
+    "message": "Understanding the roots of control is a brave first step toward finding new ways to feel safe and steady.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Strategy of Survival • {{step}}/3",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

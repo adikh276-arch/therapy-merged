@@ -1,0 +1,125 @@
+{
+  "app_title": "Taukoharjoittelu",
+  "app_subtitle": "Hallitse väli",
+  "intro": {
+    "title": "Viiden sekunnin tauko",
+    "description": "Pieni tauko tuntemisen ja reagoimisen välillä voi muuttaa kaiken.",
+    "duration": "Kestää alle 15 sekuntia. Todella.",
+    "button": "Kokeile →"
+  },
+  "scenario": {
+    "title": "Mikä laukaisee sinut?",
+    "desc": "Valitse tilanne, johon samaistut",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Joku keskeyttää minut",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Asiat eivät mene suunnitelmien mukaan",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Tunnen itseni sivuutetuksi",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Tunnen oloni ylikuormittuneeksi",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Kirjoita itse...",
+    "button": "Harjoitustauko →"
+  },
+  "hold": {
+    "title": "Pidä tauko ⏸️",
+    "instructions": "Pidä ympyrää 5 sekuntia",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Paina ja pidä kiinni..."
+      },
+      {
+        "at": "0.15",
+        "text": "Pysy mukana..."
+      },
+      {
+        "at": "0.5",
+        "text": "Sinä teet sen..."
+      },
+      {
+        "at": "0.8",
+        "text": "Melkein perillä..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Se on tauko",
+    "message": "Loit vain tilaa tunteidesi ja reaktioiden välille. Jo pieni tauko auttaa sinua palauttamaan keskipisteesi.",
+    "tip_label": "Vinkki",
+    "scenario_messages": {
+      "interrupts": "Seuraavan kerran kun joku keskeyttää sinut, kokeile tätä ennen kuin vastaat.",
+      "plans": "Seuraavan kerran, kun asiat eivät mene suunnitelmien mukaan, kokeile tätä ennen kuin reagoit.",
+      "ignored": "Seuraavan kerran kun tunnet itsesi sivuutetuksi, kokeile tätä ennen kuin vastaat.",
+      "overwhelmed": "Seuraavan kerran kun tunnet olosi ylikuormittuneeksi, kokeile tätä ennen kuin teet mitään.",
+      "other": "Seuraavan kerran kun tunnet triggeröityn, kokeile tätä ennen kuin reagoit."
+    },
+    "italic": "Se ei aina tunnu helpolta – mutta johdonmukaisuus on avainasemassa."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Hallitse välitila",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

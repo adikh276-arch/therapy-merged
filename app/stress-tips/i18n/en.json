@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Take a deep breath 🌿",
+    "title": "Manage Your Stress",
+    "description": "Simple daily habits to help you feel calmer and more in control.",
+    "sectionTitle": "Daily Stress Relief Tips"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Get Restful Sleep",
+      "description": "Aim for 7–9 hours of sleep each night. Try to sleep and wake up at the same time daily.",
+      "why": "Sleep helps your brain and body recover and lowers stress hormones.",
+      "do": [
+        "Keep a fixed sleep schedule",
+        "Avoid screens 1 hour before bed",
+        "Keep room cool and dark",
+        "Avoid caffeine after 4 PM"
+      ],
+      "button": "Set Sleep Reminder"
+    },
+    "breathing": {
+      "title": "Practice Deep Breathing",
+      "description": "Spend a few minutes focusing on your breath. Slow breathing reduces anxiety.",
+      "why": "Slow breathing activates your body's relaxation response.",
+      "do": [
+        "Inhale for 4 seconds",
+        "Hold for 4 seconds",
+        "Exhale for 4 seconds",
+        "Repeat for 1 minute"
+      ]
+    },
+    "exercise": {
+      "title": "Move Your Body",
+      "description": "Light walking or stretching helps release stress and improve mood.",
+      "why": "Exercise releases endorphins and improves mood.",
+      "do": [
+        "15-minute walk",
+        "Light stretching",
+        "Short yoga session",
+        "Quick home workout"
+      ]
+    },
+    "caffeine": {
+      "title": "Limit Caffeine & Sugar",
+      "description": "Too much caffeine and sugar can increase anxiety and disturb sleep.",
+      "why": "Too much caffeine and sugar increases anxiety and sleep problems.",
+      "do": [
+        "Replace one coffee with herbal tea",
+        "Drink more water",
+        "Reduce sugary snacks",
+        "Avoid caffeine late in the day"
+      ]
+    },
+    "planning": {
+      "title": "Plan Your Day",
+      "description": "Break large tasks into smaller steps to avoid feeling overwhelmed.",
+      "why": "Planning reduces mental clutter and overwhelm.",
+      "do": [
+        "Write 3 main tasks",
+        "Break tasks into small steps",
+        "Focus on one task at a time",
+        "Take short breaks"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Back",
+    "notFound": "Tip not found.",
+    "whyTitle": "Why It Helps",
+    "doTitle": "What You Can Do",
+    "reminderSet": "Reminder set! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "return": "Return to Home"
+  },
+  "mood": {
+    "title": "How are you feeling today?",
+    "great": "Great",
+    "okay": "Okay",
+    "stressed": "Stressed",
+    "overwhelmed": "Overwhelmed"
+  },
+  "breathing": {
+    "inhale": "Inhale…",
+    "hold": "Hold…",
+    "exhale": "Exhale…",
+    "pause": "Pause",
+    "resume": "Resume"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Stress Relief",
+  "app_description": "Stress Relief",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "breathing_guide": "Breathing Guide",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Fai un respiro 🌿 profondo",
+    "title": "Gestisci il tuo stress",
+    "description": "Semplici abitudini quotidiane per aiutarti a sentirti più calmo e più in controllo.",
+    "sectionTitle": "Consigli quotidiani per alleviare lo stress"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Dormi bene",
+      "description": "Punta a dormire 7–9 ore ogni notte. Cerca di dormire e svegliarti contemporaneamente ogni giorno.",
+      "why": "Il sonno aiuta cervello e corpo a recuperare e riduce gli ormoni dello stress.",
+      "do": [
+        "Mantenere un ritmo fisso del sonno",
+        "Evita gli schermi un'ora prima di andare a letto",
+        "Mantieni la stanza fresca e buia",
+        "Evita la caffeina dopo le 16:00"
+      ],
+      "button": "Imposta il promemoria del sonno"
+    },
+    "breathing": {
+      "title": "Esercitati con la respirazione profonda",
+      "description": "Dedica qualche minuto a concentrarti sul respiro. La respirazione lenta riduce l'ansia.",
+      "why": "La respirazione lenta attiva la risposta di rilassamento del corpo.",
+      "do": [
+        "Inspira per 4 secondi",
+        "Tieni per 4 secondi",
+        "Espira per 4 secondi",
+        "Ripeti per 1 minuto"
+      ]
+    },
+    "exercise": {
+      "title": "Muovi il tuo corpo",
+      "description": "Camminare leggero o fare stretching aiuta a liberare lo stress e migliorare l'umore.",
+      "why": "L'esercizio rilascio di endorfine e migliora l'umore.",
+      "do": [
+        "15 minuti a piedi",
+        "Allungamento leggero",
+        "Breve sessione di yoga",
+        "Allenamento veloce a casa"
+      ]
+    },
+    "caffeine": {
+      "title": "Limita caffeina e zucchero",
+      "description": "Troppa caffeina e zucchero possono aumentare l'ansia e disturbare il sonno.",
+      "why": "Troppa caffeina e zucchero aumentano ansia e problemi di sonno.",
+      "do": [
+        "Sostituisci un caffè con una tisana alle erbe",
+        "Bevi più acqua",
+        "Ridurre gli snack zuccherati",
+        "Evita la caffeina a tarda giornata"
+      ]
+    },
+    "planning": {
+      "title": "Pianifica la tua giornata",
+      "description": "Dividi i compiti grandi in passaggi più piccoli per evitare di sentirti sopraffatto.",
+      "why": "Pianificare riduce il disordine mentale e il sovraccarico.",
+      "do": [
+        "Scrivi 3 compiti principali",
+        "Dividere i compiti in piccoli passi",
+        "Concentrati su un compito alla volta",
+        "Fai brevi pause"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Indietro",
+    "notFound": "Soffiata non trovata.",
+    "whyTitle": "Perché aiuta",
+    "doTitle": "Cosa puoi fare",
+    "reminderSet": "Promemoria impostato! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ops! Pagina non trovata",
+    "return": "Ritorno a casa"
+  },
+  "mood": {
+    "title": "Come ti senti oggi?",
+    "great": "Ottimo",
+    "okay": "Ok",
+    "stressed": "Stressato",
+    "overwhelmed": "Sopraffatta"
+  },
+  "breathing": {
+    "inhale": "Inspira...",
+    "hold": "Fermati...",
+    "exhale": "Espira...",
+    "pause": "Pausa",
+    "resume": "Curriculum"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Sollievo dallo stress",
+  "app_description": "Sollievo dallo stress",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "breathing_guide": "Guida alla respirazione",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

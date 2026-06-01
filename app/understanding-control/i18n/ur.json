@@ -1,0 +1,113 @@
+{
+  "app_title": "کنٹرول کو سمجھنا",
+  "app_subtitle": "بقا کی حکمت عملی • {{step}}/3",
+  "screens": [
+    {
+      "headline": "کنٹرول اتنا طاقتور کیوں محسوس ہو سکتا ہے",
+      "paragraphs": [
+        "بہت سے لوگوں کے لیے جو کھانے میں مشکلات کا سامنا کر رہے ہیں، کنٹرول تحفظ پیدا کرنے کا ایک طریقہ محسوس ہو سکتا ہے۔",
+        "جب زندگی غیر متوقع یا جذباتی طور پر شدید محسوس ہوتی ہے، تو خوراک، وزن یا معمولات پر توجہ مرکوز کرنے سے ساخت اور یقین کا احساس آ سکتا ہے۔",
+        "یہ ارادے یا نظم و ضبط کی بات نہیں ہے۔ یہ اس بات کی ہے کہ جب حالات غیر یقینی محسوس ہوں تو خود کو سنبھالنے کی کوشش کریں۔",
+        "اس طرح، کنٹرول ایک مقابلہ کرنے کی حکمت عملی بن جاتا ہے — کچھ ایسا جو آپ کو عارضی طور پر ہی حد تک زمین سے جڑا ہوا محسوس کراتا ہے۔"
+      ],
+      "microcopy": "آپ اکیلے نہیں ہیں جو اس طرح محسوس کر رہے ہیں۔",
+      "cta": "جاری رکھیں"
+    },
+    {
+      "headline": "کنٹرول کے مختلف طریقے ظاہر ہوتے ہیں",
+      "intro": "کنٹرول کی ضرورت ہر کسی کے لیے ایک جیسی نہیں ہوتی، لیکن یہ اکثر ایسے پیٹرنز میں ظاہر ہوتی ہے:",
+      "bullets": [
+        {
+          "text": "سخت یا سخت خوراک کے قوانین"
+        },
+        {
+          "text": "روٹینز کو بالکل درست طریقے سے فالو کرنا ضروری ہے"
+        },
+        {
+          "text": "جب منصوبے بدلتے ہیں تو بے چینی"
+        },
+        {
+          "text": "خود کی قدر کو شکل/وزن سے جوڑنا"
+        }
+      ],
+      "outro": "وقت کے ساتھ، یہ سخت ہو سکتے ہیں، ذہنی جگہ گھیر لیتے ہیں اور موافقت کو مشکل بنا دیتے ہیں۔",
+      "microcopy": "جو کنٹرول کے طور پر شروع ہوتا ہے وہ آہستہ آہستہ کنٹرولنگ محسوس ہونے لگتا ہے۔",
+      "cta": "جاری رکھیں"
+    },
+    {
+      "headline": "کنٹرول کے نیچے",
+      "intro": "کنٹرول کی خواہش اکثر گہری جڑیں رکھتی ہے۔ اسے درج ذیل سے منسلک کیا جا سکتا ہے:",
+      "bullets": [
+        {
+          "text": "جذباتی طور پر سیلاب کا احساس"
+        },
+        {
+          "text": "پیش گوئی کی خواہش"
+        },
+        {
+          "text": "استحکام اور حفاظت کی ضرورت"
+        }
+      ],
+      "insight": "کنٹرول مسئلہ نہیں ہے — یہ وہ حکمت عملی ہے جو آپ کا ذہن اس سے نمٹنے کے لیے سیکھی ہے۔ وقت اور مدد کے ساتھ، محفوظ محسوس کرنے کے دیگر طریقے ممکن ہیں۔",
+      "microcopy": "سمجھنا ایک طاقتور پہلا قدم ہے۔",
+      "cta": "مطالعہ مکمل کریں"
+    }
+  ],
+  "complete": {
+    "title": "آگاہی حاصل کی گئی",
+    "message": "کنٹرول کی جڑوں کو سمجھنا محفوظ اور مستحکم محسوس کرنے کے نئے طریقے تلاش کرنے کی طرف ایک جرات مندانہ پہلا قدم ہے۔",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "بقا کی حکمت عملی • {{step}}/3",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

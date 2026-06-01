@@ -1,0 +1,147 @@
+{
+  "app_title": "Tagaplano ng Window ng Pagtulog",
+  "pill_labels": [
+    "Bumuo ng iyong bintana",
+    "Itakda ang Iyong Mga Oras",
+    "Ang iyong window ng pagtulog"
+  ],
+  "screen1": {
+    "title": "Ang iyong window ng pagtulog ay mas mahalaga kaysa sa iniisip mo",
+    "p1": "Ang window ng pagtulog ay ang takdang oras sa pagitan ng pagtulog at paggising. Ang pagpapanatiling pare-pareho - kahit na sa katapusan ng linggo - ay isa sa mga pinaka-makapangyarihang bagay na maaari mong gawin para sa iyong pagtulog.",
+    "p2": "Tinutulungan ka ng tool na ito na bumuo ng iyong sarili sa ilalim ng 2 minuto.",
+    "insight": "Kahit na ang isang 1-oras na pagkakaiba sa oras ng pagtulog sa katapusan ng linggo ay maaaring makagambala sa nararamdaman mo sa buong linggo.",
+    "meta": "Simple. Personal. Epektibo.",
+    "button": "Ayusin natin ang aking →"
+  },
+  "screen2": {
+    "title": "Ayusin ang Iyong Window ng Pagtulog",
+    "step1": {
+      "title": "HAKBANG 1 - ORAS NG PAGGISING",
+      "desc": "Anong oras kailangan mong gumising sa karamihan ng mga araw?"
+    },
+    "step2": {
+      "title": "HAKBANG 2 - TAGAL NG PAGTULOG",
+      "desc": "Gaano karaming oras ng tulog ang gusto mo?"
+    },
+    "live_window": {
+      "bedtime": "Oras ng pagtulog",
+      "waketime": "Oras ng paggising",
+      "duration": "{{hours}} Mga Oras ng Pagtulog"
+    },
+    "italic": "Karamihan sa mga may sapat na gulang ay nangangailangan ng 7-9 na oras. Piliin kung ano ang nararamdaman ng tama.",
+    "button": "Tingnan ang aking bintana ng pagtulog →"
+  },
+  "screen3": {
+    "title": "Ang iyong window 🌙 ng pagtulog",
+    "result": {
+      "bedtime": "Oras ng pagtulog",
+      "waketime": "Oras ng paggising",
+      "duration": "Tagal",
+      "hours": "{{hours}} oras"
+    },
+    "accordion1": {
+      "title": "3 Mga Paraan upang Protektahan Ito",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Magpahinga ng 30 minuto bago ang iyong oras ng pagtulog"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Parehong oras ng paggising araw-araw - oo, katapusan ng linggo din"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Iwasan ang pagtulog nang mas mahaba kaysa sa 20 minuto pagkatapos ng 3pm"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Mangako sa 1 bagay ngayong gabi",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Alisin ang aking telepono bago matulog"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Simulan ang isang Wind-Down Routine"
+        },
+        {
+          "emoji": "💡",
+          "text": "Patayin ang ilaw isang oras bago matulog"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Tapusin ang aking listahan ng mga dapat gawin nang maaga"
+        }
+      ]
+    },
+    "quote": "Ang pagkakapare-pareho ay mas makapangyarihan kaysa sa pagiging perpekto. Isang magandang gabi ang bumubuo sa susunod.",
+    "button": "I-save ang Aking Window ng Pagtulog ✓",
+    "saved_button": "✓ Sleep window saved!",
+    "adjust_times": "Ayusin ang Mga Oras"
+  },
+  "complete": {
+    "title": "Nilikha ang Window",
+    "message": "Ang iyong perpektong window ng pagtulog ay nai-map na. Ang pagkakapare-pareho ay ang susi sa malalim at nakapagpapanumbalik na pahinga."
+  },
+  "toasts": {
+    "save_success": "Nai-save ang window ng pagtulog",
+    "save_error": "Nabigo na i-save ang window ng pagtulog",
+    "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
+    "saving": "Pag-save ..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Tagaplano ng Bintana ng Pagtulog",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

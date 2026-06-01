@@ -1,0 +1,222 @@
+{
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "chooseAnother": "Choose another feeling",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Apabila anda berasa sunyi dan sedih",
+      "affirmations": [
+        "Saya tidak bersendirian, walaupun ia berasa begitu.",
+        "Perasaan saya patut diberi perhatian dan kelembutan.",
+        "Detik ini tidak akan kekal selama-lamanya.",
+        "Saya dibenarkan memerlukan sambungan.",
+        "Saya boleh menawarkan kehangatan kepada diri saya sekarang."
+      ]
+    },
+    "terrified": {
+      "label": "Apabila anda berasa takut",
+      "affirmations": [
+        "Saya selamat pada masa ini.",
+        "Ketakutan adalah perasaan, bukan ramalan.",
+        "Saya boleh menarik nafas ini satu demi satu.",
+        "Saya tidak perlu menyelesaikan semuanya sekarang.",
+        "Saya lebih kuat daripada saat ini."
+      ]
+    },
+    "insignificant": {
+      "label": "Apabila anda berasa tidak penting",
+      "affirmations": [
+        "Detik-detik kecil masih dikira.",
+        "Saya tidak perlu membuktikan nilai saya.",
+        "Saya dibenarkan mengambil ruang.",
+        "Kewujudan saya penting.",
+        "Saya sudah cukup seperti saya."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Apabila anda berasa terharu",
+      "affirmations": [
+        "Saya tidak perlu melakukan semuanya sekaligus.",
+        "Satu langkah kecil sudah memadai.",
+        "Tidak mengapa untuk berhenti sebentar.",
+        "Saya dibenarkan berehat.",
+        "Ini akan menjadi terurus semula."
+      ]
+    },
+    "hopeless": {
+      "label": "Apabila anda berasa putus asa",
+      "affirmations": [
+        "Saya tidak memerlukan jawapan hari ini.",
+        "Perubahan masih boleh dilakukan.",
+        "Saya telah terselamat daripada hari-hari sukar sebelum ini.",
+        "Saya boleh tinggal di sini buat masa ini.",
+        "Sesuatu yang lembut masih boleh terungkap."
+      ]
+    },
+    "conflicted": {
+      "label": "Apabila anda berasa bercanggah",
+      "affirmations": [
+        "Tidak mengapa untuk merasakan lebih daripada satu perkara sekaligus.",
+        "Saya tidak memerlukan kejelasan segera.",
+        "Kekeliruan tidak bermakna kegagalan.",
+        "Saya boleh memberi diri saya masa.",
+        "Saya mempercayai diri saya untuk memikirkan perkara ini."
+      ]
+    },
+    "self-critical": {
+      "label": "Apabila anda sangat mengkritik diri sendiri",
+      "affirmations": [
+        "Saya boleh bercakap dengan diri saya sendiri dengan baik.",
+        "Saya tidak perlu menghukum diri saya untuk berkembang.",
+        "Kesilapan tidak menentukan siapa saya.",
+        "Saya belajar, bukan gagal.",
+        "Pertumbuhan tidak memerlukan kekejaman."
+      ]
+    },
+    "out-of-place": {
+      "label": "Apabila anda berasa tidak pada tempatnya secara sosial",
+      "affirmations": [
+        "Saya dibenarkan untuk berdiam diri atau berbeza.",
+        "Saya tidak perlu menandingi tenaga orang lain.",
+        "Saya tergolong seadanya.",
+        "Saya boleh mengambil ruang dengan lembut.",
+        "Saya tidak melakukan ini salah."
+      ]
+    },
+    "unsafe": {
+      "label": "Apabila anda berasa tidak selamat di sekeliling orang yang tidak dikenali",
+      "affirmations": [
+        "Saya boleh bergerak mengikut rentak saya sendiri.",
+        "Saya dibenarkan melindungi sempadan saya.",
+        "Saya boleh kekal berasas dalam badan saya.",
+        "Saya dibenarkan meninggalkan situasi.",
+        "Saya boleh memastikan diri saya selamat."
+      ]
+    },
+    "pressured": {
+      "label": "Apabila anda berasa tertekan di tempat kerja",
+      "affirmations": [
+        "Nilai saya bukan produktiviti saya.",
+        "Saya tidak perlu membuktikan diri saya secara berterusan.",
+        "Melakukan yang terbaik sudah cukup hari ini.",
+        "Satu tugas pada satu masa tidak mengapa.",
+        "Saya lebih daripada peranan saya."
+      ]
+    },
+    "face-the-day": {
+      "label": "Apabila anda tidak mahu menghadapi hari itu",
+      "affirmations": [
+        "Saya boleh mengambil hari ini dalam kepingan kecil.",
+        "Berjaya sudah memadai.",
+        "Saya tidak memerlukan motivasi untuk memulakan.",
+        "Muncul dengan lembut masih dikira.",
+        "Hari ini tidak mentakrifkan saya."
+      ]
+    },
+    "future": {
+      "label": "Apabila anda bimbang tentang masa depan anda",
+      "affirmations": [
+        "Saya boleh kembali ke masa kini.",
+        "Saya akan mengendalikan perkara apabila ia datang.",
+        "Saya tidak memerlukan kepastian hari ini.",
+        "Saya mampu menyesuaikan diri.",
+        "Saya boleh mempercayai diri saya lebih sedikit."
+      ]
+    },
+    "stuck": {
+      "label": "Apabila anda berasa terperangkap dalam masalah",
+      "affirmations": [
+        "Tersekat tidak bermakna saya patah.",
+        "Saya boleh berhenti seketika tanpa berputus asa.",
+        "Saya tidak memerlukan penyelesaian segera.",
+        "Saya dibenarkan berasa tidak pasti.",
+        "Saya masih bergerak, walaupun perlahan."
+      ]
+    },
+    "compare": {
+      "label": "Apabila anda membandingkan diri anda",
+      "affirmations": [
+        "Perjalanan saya adalah perjalanan saya sendiri.",
+        "Saya tidak perlu bersaing untuk menjadi layak.",
+        "Saya dibenarkan berkembang mengikut kadar saya.",
+        "Kejayaan orang lain tidak memadamkan kejayaan saya.",
+        "Saya tidak ketinggalan."
+      ]
+    },
+    "give-up": {
+      "label": "Apabila anda mahu berputus asa",
+      "affirmations": [
+        "Saya tidak perlu memutuskan apa-apa sekarang.",
+        "Perasaan ini akan berlalu.",
+        "Saya telah terselamat lebih daripada yang saya sedar.",
+        "Saya boleh tinggal sebentar lagi.",
+        "Saya masih di sini - dan itu penting."
+      ]
+    }
+  },
+  "app_complete_title": "Rasa Diperkasakan",
+  "app_complete_message": "Pengesahan harian membantu membentuk semula pemikiran anda. Bawa pemikiran positif ini bersama anda hari ini.",
+  "app_duration": "2-3 minit",
+  "app_title": "Pemikiran",
+  "app_description": "Bentuk semula pemikiran anda melalui penegasan harian.",
+  "intro": {
+    "description": "Penegasan harian membantu membentuk semula pemikiran anda dan membina daya tahan emosi. Luangkan sedikit masa untuk fokus pada pemikiran positif dan Bercakaplah dengan baik kepada diri sendiri.",
+    "benefits": [
+      "Carilah ketenangan di saat-saat sukar",
+      "Cabar corak pemikiran negatif",
+      "Bina rasa belas kasihan dan kekuatan diri"
+    ]
+  },
+  "affirmation_for": "Penegasan untuk",
+  "affirmation": "Penegasan",
+  "language": "Bahasa",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,113 @@
+{
+  "app_title": "فهم التحكم",
+  "app_subtitle": "استراتيجية البقاء • {{step}}/3",
+  "screens": [
+    {
+      "headline": "لماذا يمكن أن تشعر السيطرة بأنها قوية جدا؟",
+      "paragraphs": [
+        "بالنسبة للكثيرين الذين يواجهون صعوبات في الأكل، قد يبدو التحكم كوسيلة لخلق الأمان.",
+        "عندما تبدو الحياة غير متوقعة أو عاطفية مكثفة، يمكن أن يجلب التركيز على الطعام أو الوزن أو الروتين شعورا بالهيكلية واليقين.",
+        "الأمر ليس متعلقا بالإرادة أو الانضباط. الأمر يتعلق بمحاولة تثبيت نفسك عندما تشعر الأمور بعدم اليقين.",
+        "بهذه الطريقة، يصبح التحكم استراتيجية للتكيف — شيء يساعدك على الشعور بالثبات، حتى لو كان مؤقتا فقط."
+      ],
+      "microcopy": "لست وحدك في هذا الشعور.",
+      "cta": "تابع"
+    },
+    {
+      "headline": "طرق مختلفة يظهر فيها التحكم",
+      "intro": "الحاجة للسيطرة لا تبدو متشابهة للجميع، لكنها غالبا ما تظهر في أنماط مثل:",
+      "bullets": [
+        {
+          "text": "قواعد صارمة أو غير مرنة للطعام"
+        },
+        {
+          "text": "يجب اتباع الروتين بدقة"
+        },
+        {
+          "text": "القلق عندما تتغير الخطط"
+        },
+        {
+          "text": "ربط القيمة الذاتية بالشكل/الوزن"
+        }
+      ],
+      "outro": "مع مرور الوقت، قد تصبح هذه القواعد جامدة، وتشغل مساحة ذهنية وتجعل التكيف أصعب.",
+      "microcopy": "ما يبدأ كتحكم يمكن أن يبدأ تدريجيا في الشعور بالتحكم.",
+      "cta": "تابع"
+    },
+    {
+      "headline": "تحت السيطرة",
+      "intro": "الرغبة في السيطرة غالبا ما تكون ذات جذور أعمق. يمكن ربطها ب:",
+      "bullets": [
+        {
+          "text": "الشعور بفيض عاطفي"
+        },
+        {
+          "text": "الرغبة في التنبؤ"
+        },
+        {
+          "text": "الحاجة إلى الاستقرار والأمان"
+        }
+      ],
+      "insight": "السيطرة ليست المشكلة — بل هي الاستراتيجية التي وجدها عقلك للتأقلم. مع الوقت والدعم، أصبحت هناك طرق أخرى للشعور بالأمان ممكنة.",
+      "microcopy": "الفهم خطوة أولى قوية.",
+      "cta": "أكمل القراءة"
+    }
+  ],
+  "complete": {
+    "title": "الوعي المكتسب",
+    "message": "فهم جذور السيطرة هو خطوة شجاعة أولى نحو إيجاد طرق جديدة للشعور بالأمان والثبات.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "استراتيجية البقاء • {{step}}/3",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

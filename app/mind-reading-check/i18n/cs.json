@@ -1,0 +1,144 @@
+{
+  "app_title": "Kontrola čtení myšlenek",
+  "intro": {
+    "title": "Kontrola čtení myšlenek",
+    "description": "Zpochybňuj předpoklady, které si děláš o tom, co si ostatní myslí.",
+    "benefits": [
+      "Přestaň předpokládat to nejhorší",
+      "Identifikujte zaujaté interpretace",
+      "Budujte jasnější komunikaci"
+    ],
+    "duration": "3-4 minuty",
+    "view_past": "Zobrazit minulé reflexe"
+  },
+  "history": {
+    "title": "Minulé úvahy",
+    "no_entries": "Zatím žádné příspěvky",
+    "belief_label": "Víra: {{level}}%",
+    "balanced_thought_label": "Vyvážené myšlení"
+  },
+  "complete": {
+    "title": "Aktivita dokončena",
+    "great_insights": "Skvělé postřehy!",
+    "message": "Tím, že zpochybňujete své předpoklady, budujete objektivnější a soucitnější mysl."
+  },
+  "steps": {
+    "label": "Krok {{current}} z 10",
+    "step1": {
+      "title": "Co se stalo?",
+      "desc": "Popište nedávný okamžik, kdy jste se cítili souzeni nebo nejistí.",
+      "placeholder": "Popis situace..."
+    },
+    "step2": {
+      "title": "Co ti proběhlo hlavou?",
+      "desc": "Co jste si mysleli, že si o vás myslí?",
+      "placeholder": "Předpokládal jsem, že přemýšlejí..."
+    },
+    "step3": {
+      "title": "Zpomalme to",
+      "desc": "Teď se tato myšlenka může zdát pravdivá. Ale než to přijmeme jako fakt, pojďme se na to podívat blíže.",
+      "button": "Pauza a pokračování"
+    },
+    "step4": {
+      "title": "Je to pravda?",
+      "desc": "Existují nějaké jasné důkazy (fakta, ne předpoklady), které tuto myšlenku podporují?",
+      "placeholder": "Důkazy, které vidím, jsou..."
+    },
+    "step5": {
+      "title": "Co dalšího by se mohlo dít?",
+      "desc": "Jaké jsou 2–3 další možné vysvětlení?",
+      "placeholder": "Možnost {{num}}..."
+    },
+    "step6": {
+      "title": "Zkontrolujte své přesvědčení",
+      "desc": "Jak silně věříte své původní myšlence nyní?",
+      "labels": [
+        "Vůbec ne",
+        "Úplně"
+      ]
+    },
+    "step7": {
+      "title": "Vyváženější pohled",
+      "desc": "Napiš myšlenku, která bude působit spravedlivěji a méně jistě.",
+      "placeholder": "Vyváženější myšlenka..."
+    },
+    "step8": {
+      "title": "Příště",
+      "desc": "Co byste mohli dělat místo toho, abyste předpokládali?",
+      "examples": [
+        "Zeptejte se na upřesnění",
+        "Dej tomu čas",
+        "Oznámení bez reakce"
+      ],
+      "placeholder": "Příště bych mohl..."
+    },
+    "step9": {
+      "title": "Všimněte si posunu",
+      "desc": "Zkoumal jsi různé možnosti a vytvořil prostor pro vyváženější pohled.",
+      "original_label": "Původní myšlenka",
+      "balanced_label": "Vyvážený pohled",
+      "button": "Finish Reflection"
+    },
+    "step10": {
+      "title": "Malý posun",
+      "desc": "Mysl se snaží dohromady zaplnit mezery. Ale ne každá myšlenka je fakt. Odstup vám pomůže vidět věci jasněji.",
+      "button": "Kompletní činnost"
+    }
+  },
+  "buttons": {
+    "continue": "Pokračovat",
+    "restart": "Restart"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Kontrola čtení myšlenek",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

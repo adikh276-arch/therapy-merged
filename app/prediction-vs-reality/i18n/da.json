@@ -1,0 +1,145 @@
+{
+  "app_title": "Forudsigelse vs. virkelighed",
+  "step_label": "Trin {{current}} af 8",
+  "intro": {
+    "title": "Forudsigelse vs. virkelighed",
+    "description": "Sammenlign dine ængstelige forudsigelser med det, der faktisk sker, for at opbygge et mere balanceret perspektiv.",
+    "benefits": [
+      "Identificer ængstelige mønstre",
+      "Indsaml beviser mod frygt",
+      "Reducer fremtidig overtænkning"
+    ],
+    "duration": "4-5 minutter",
+    "view_past": "Se tidligere refleksioner"
+  },
+  "history": {
+    "title": "Tidligere refleksioner",
+    "no_reflections": "Ingen refleksioner gemt endnu.",
+    "prediction_label": "Forudsigelse",
+    "reality_label": "Virkelighed",
+    "reflection_label": "Refleksion:"
+  },
+  "complete": {
+    "title": "Aktivitet afsluttet",
+    "saved_title": "Refleksion reddet",
+    "message": "Ved at se på fakta hjælper du dit sind med at lære, at tingene ofte er mere håndterbare, end de ser ud til."
+  },
+  "emotions": [
+    "Ængstelig",
+    "Nervøs",
+    "Bange",
+    "Overvældet",
+    "Urolig"
+  ],
+  "intensity_labels": {
+    "not_intense": "Ikke intens",
+    "very_intense": "Meget intens"
+  },
+  "comparison_options": [
+    "Det blev næsten præcis, som jeg havde forventet",
+    "Nogle dele var rigtige, men ikke alt",
+    "Det var ret anderledes, end jeg havde forventet",
+    "Det var meget nemmere/bedre, end jeg havde forestillet mig"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Tænk på en nylig situation",
+      "desc": "Husk et nyligt øjeblik, hvor du følte dig ængstelig eller usikker.",
+      "placeholder": "Beskriv situationen..."
+    },
+    "s2": {
+      "title": "Hvad troede du ville ske?",
+      "desc": "Hvad forventede eller frygtede du i det øjeblik?",
+      "placeholder": "Jeg var bekymret for, at..."
+    },
+    "s3": {
+      "title": "Hvordan havde du det?",
+      "desc": "Vælg de følelser, du følte, og deres intensitet."
+    },
+    "s4": {
+      "title": "Hvad skete der egentlig?",
+      "desc": "Fokuser på fakta om, hvad der virkelig skete.",
+      "placeholder": "I virkeligheden..."
+    },
+    "s5": {
+      "title": "Lad os se på begge dele",
+      "expectation": "Forventning",
+      "reality": "Virkelighed",
+      "question": "Hvor tæt var din forventning?"
+    },
+    "s6": {
+      "title": "Hvad lægger du mærke til?",
+      "desc": "Var det så slemt, som du troede, det ville være?",
+      "placeholder": "Jeg bemærker, at..."
+    },
+    "s7": {
+      "title": "Næste gang",
+      "desc": "Hvad kunne du minde dig selv om, hvis det sker igen?",
+      "placeholder": "f.eks. \"Måske bliver det ikke så slemt, som jeg forestiller mig.\""
+    },
+    "s8": {
+      "title": "En lille påmindelse",
+      "desc": "Dit sind prøver at forberede dig—men det forudsiger ikke altid præcist. Hver gang du stopper op for at se på fakta, opbygger du modstandskraft.",
+      "button": "Gem refleksion",
+      "discard": "Kasseret indgang"
+    }
+  },
+  "buttons": {
+    "continue": "Fortsæt"
+  },
+  "toasts": {
+    "saved": "Refleksion gemt!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Forudsigelse vs. virkelighed",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

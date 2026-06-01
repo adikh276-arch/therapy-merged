@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Ta ett djupt andetag 🌿",
+    "title": "Hantera din stress",
+    "description": "Enkla dagliga vanor för att hjälpa dig att känna dig lugnare och mer i kontroll.",
+    "sectionTitle": "Dagliga tips för stresslindring"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Få en vilsam sömn",
+      "description": "Sikta på 7–9 timmars sömn varje natt. Försök att sova och vakna vid samma tid varje dag.",
+      "why": "Sömn hjälper din hjärna och kropp att återhämta sig och sänker stresshormoner.",
+      "do": [
+        "Håll ett fast sömnschema",
+        "Undvik skärmar en timme innan läggdags",
+        "Håll rummet svalt och mörkt",
+        "Undvik koffein efter kl 16"
+      ],
+      "button": "Ställ in sömnpåminnelse"
+    },
+    "breathing": {
+      "title": "Öva djupandning",
+      "description": "Lägg några minuter på att fokusera på din andning. Långsam andning minskar ångest.",
+      "why": "Långsam andning aktiverar kroppens avslappningsrespons.",
+      "do": [
+        "Andas in i 4 sekunder",
+        "Håll i 4 sekunder",
+        "Andas ut i 4 sekunder",
+        "Upprepa i 1 minut"
+      ]
+    },
+    "exercise": {
+      "title": "Rör på dig",
+      "description": "Lätt promenad eller stretching hjälper till att minska stress och förbättra humöret.",
+      "why": "Träning frigör endorfiner och förbättrar humöret.",
+      "do": [
+        "15 minuters promenad",
+        "Lätt stretching",
+        "Kort yogapass",
+        "Snabbt hemmaträningspass"
+      ]
+    },
+    "caffeine": {
+      "title": "Begränsa koffein och socker",
+      "description": "För mycket koffein och socker kan öka ångest och störa sömnen.",
+      "why": "För mycket koffein och socker ökar ångest och sömnproblem.",
+      "do": [
+        "Byt ut ett kaffe mot örtte",
+        "Drick mer vatten",
+        "Minska sockrade snacks",
+        "Undvik koffein sent på dagen"
+      ]
+    },
+    "planning": {
+      "title": "Planera din dag",
+      "description": "Dela upp stora uppgifter i mindre steg för att undvika att känna dig överväldigad.",
+      "why": "Planering minskar mental röra och överväldigande.",
+      "do": [
+        "Skriv 3 huvuduppgifter",
+        "Dela upp uppgifter i små steg",
+        "Fokusera på en uppgift i taget",
+        "Ta korta pauser"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Tillbaka",
+    "notFound": "Tips ej hittat.",
+    "whyTitle": "Varför det hjälper",
+    "doTitle": "Vad du kan göra",
+    "reminderSet": "Påminnelse satt! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oj! Sidan hittades inte",
+    "return": "Återkomst hem"
+  },
+  "mood": {
+    "title": "Hur mår du idag?",
+    "great": "Toppen",
+    "okay": "Okej",
+    "stressed": "Stressad",
+    "overwhelmed": "Överväldigad"
+  },
+  "breathing": {
+    "inhale": "Andas in...",
+    "hold": "Håll...",
+    "exhale": "Andas ut...",
+    "pause": "Paus",
+    "resume": "CV"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Stresslindring",
+  "app_description": "Stresslindring",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "breathing_guide": "Andningsguide",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

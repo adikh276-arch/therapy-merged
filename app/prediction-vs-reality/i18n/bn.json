@@ -1,0 +1,145 @@
+{
+  "app_title": "ভবিষ্যদ্বাণী বনাম বাস্তবতা",
+  "step_label": "8 এর ধাপ {{current}}",
+  "intro": {
+    "title": "ভবিষ্যদ্বাণী বনাম বাস্তবতা",
+    "description": "আপনার উদ্বিগ্ন ভবিষ্যদ্বাণীগুলি আরও ভারসাম্যপূর্ণ দৃষ্টিভঙ্গি তৈরি করার জন্য আসলে কী ঘটে তার সাথে তুলনা করুন।",
+    "benefits": [
+      "উদ্বিগ্ন নিদর্শনগুলি সনাক্ত করুন",
+      "ভয়ের বিরুদ্ধে প্রমাণ সংগ্রহ করুন",
+      "ভবিষ্যতের অতিরিক্ত চিন্তাভাবনা হ্রাস করুন"
+    ],
+    "duration": "4-5 মিনিট",
+    "view_past": "অতীতের প্রতিচ্ছবি দেখুন"
+  },
+  "history": {
+    "title": "অতীত প্রতিফলন",
+    "no_reflections": "এখনও কোনও প্রতিচ্ছবি সংরক্ষিত হয়নি।",
+    "prediction_label": "ভবিষ্যদ্বাণী",
+    "reality_label": "বাস্তবতা",
+    "reflection_label": "প্রতিফলন:"
+  },
+  "complete": {
+    "title": "কার্যকলাপ সম্পূর্ণ",
+    "saved_title": "প্রতিফলন সংরক্ষণ করা হয়েছে",
+    "message": "তথ্যগুলি দেখে, আপনি আপনার মনকে শিখতে সহায়তা করছেন যে জিনিসগুলি প্রায়শই তাদের চেয়ে বেশি পরিচালনাযোগ্য।"
+  },
+  "emotions": [
+    "উদ্বিগ্ন",
+    "নার্ভাস",
+    "ভয় পেয়ে গেছে",
+    "অভিভূত",
+    "অস্বস্তি"
+  ],
+  "intensity_labels": {
+    "not_intense": "তীব্র নয়",
+    "very_intense": "খুব তীব্র"
+  },
+  "comparison_options": [
+    "আমি যেভাবে আশা করেছিলাম ঠিক তেমনটাই হয়ে গেল",
+    "কিছু অংশ সঠিক ছিল, কিন্তু সবকিছু নয়",
+    "আমি যা আশা করেছিলাম তার চেয়ে এটি বেশ আলাদা ছিল",
+    "এটা আমার কল্পনার চেয়ে অনেক সহজ / ভাল ছিল"
+  ],
+  "screens": {
+    "s1": {
+      "title": "সাম্প্রতিক একটি পরিস্থিতির কথা ভাবুন",
+      "desc": "সাম্প্রতিক একটি মুহুর্ত স্মরণ করুন যেখানে আপনি উদ্বিগ্ন বা অনিশ্চিত বোধ করেছিলেন।",
+      "placeholder": "পরিস্থিতি বর্ণনা করুন..."
+    },
+    "s2": {
+      "title": "আপনি কি ভেবেছিলেন?",
+      "desc": "সেই মুহূর্তে আপনি কী আশা করেছিলেন বা ভয় পেয়েছিলেন?",
+      "placeholder": "আমি চিন্তিত ছিলাম যে..."
+    },
+    "s3": {
+      "title": "আপনার কেমন লাগছে?",
+      "desc": "আপনি যে আবেগগুলি অনুভব করেছেন এবং সেগুলির তীব্রতা নির্বাচন করুন।"
+    },
+    "s4": {
+      "title": "আসলে কী ঘটেছিল?",
+      "desc": "আসলে কী ঘটেছিল তার ঘটনাগুলির দিকে মনোনিবেশ করুন।",
+      "placeholder": "বাস্তবে..."
+    },
+    "s5": {
+      "title": "আসুন দুটোই দেখি",
+      "expectation": "প্রত্যাশা",
+      "reality": "বাস্তবতা",
+      "question": "আপনার প্রত্যাশা কতটুকু ছিল?"
+    },
+    "s6": {
+      "title": "আপনি কি লক্ষ্য করেছেন?",
+      "desc": "আপনি যতটা ভেবেছিলেন এটি কি ততটা খারাপ ছিল?",
+      "placeholder": "আমি লক্ষ্য করেছি যে..."
+    },
+    "s7": {
+      "title": "পরের বার",
+      "desc": "যদি এটি আবার ঘটে তবে আপনি নিজেকে কী মনে করিয়ে দিতে পারেন?",
+      "placeholder": "যেমন, \"সম্ভবত এটি যতটা খারাপ হবে ততটা খারাপ হবে না যতটা আমি কল্পনা করছি।"
+    },
+    "s8": {
+      "title": "ছোট্ট একটি অনুস্মারক",
+      "desc": "আপনার মন আপনাকে প্রস্তুত করার চেষ্টা করে - তবে এটি সর্বদা সঠিকভাবে ভবিষ্যদ্বাণী করে না। যখনই আপনি ঘটনাগুলি দেখার জন্য বিরতি দেন, আপনি স্থিতিস্থাপকতা তৈরি করেন।",
+      "button": "প্রতিচ্ছবি সংরক্ষণ করুন",
+      "discard": "এন্ট্রি পরিত্যাগ করুন"
+    }
+  },
+  "buttons": {
+    "continue": "চালিয়ে যান"
+  },
+  "toasts": {
+    "saved": "প্রতিফলন সংরক্ষণ করা হয়েছে!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ভবিষ্যদ্বাণী বনাম বাস্তবতা",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

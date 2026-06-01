@@ -1,0 +1,217 @@
+{
+  "app_title": "Hva trenger jeg?",
+  "app_subtitle": "Sjekk inn med deg selv",
+  "screens": {
+    "s1": {
+      "title": "Hva trenger jeg akkurat nå?",
+      "description": "Et øyeblikk til å stoppe opp og lytte til hva hjertet ditt ber om.",
+      "button": "Start innsjekking"
+    },
+    "s2": {
+      "select": {
+        "title": "Hva føles viktig?",
+        "placeholder": "Noe annet...",
+        "add_button": "Legg til",
+        "button": "Fortsett"
+      },
+      "prioritize": {
+        "title": "Hvilken er primær?"
+      },
+      "focus": {
+        "tag": "Fokuset ditt nå",
+        "button": "Fortsett"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Fortsett"
+      },
+      "action": {
+        "title": "Et lite skritt fremover?",
+        "placeholder": "Eller skriv din egen...",
+        "button": "Anmeldelsesrefleksjon"
+      },
+      "closing": {
+        "tag_need": "Primært behov",
+        "tag_insight": "Din innsikt",
+        "tag_action": "Småaksjon",
+        "save_button": "Lagre og avslutte",
+        "finish_button": "Avslutt uten å lagre"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emosjonell støtte",
+      "prompt": "Hva slags støtte ville faktisk hjelpe deg akkurat nå?",
+      "hints": [
+        "Jeg trenger bare noen til å...",
+        "Det ville hjelpe om...",
+        "Det jeg egentlig vil er..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Rom / tid for meg selv",
+      "prompt": "Hvordan ville det sett ut for deg å ha det rommet?",
+      "hints": [
+        "Jeg ville brukt den tiden til å...",
+        "Rommet ville la meg...",
+        "Jeg trenger plass til å..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Klar kommunikasjon",
+      "prompt": "Hvordan ville klarere kommunikasjon sett ut for deg?",
+      "hints": [
+        "Jeg skulle ønske jeg kunne si...",
+        "Hvis de virkelig lyttet, ville jeg sagt til dem...",
+        "Kommunikasjon føles vanskelig når..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Trygghet",
+      "prompt": "Hva slags forsikring ville føles meningsfullt?",
+      "hints": [
+        "Jeg må høre det...",
+        "Det ville roe meg å vite...",
+        "Jeg bekymrer meg stadig for at..."
+      ]
+    },
+    "Understanding": {
+      "label": "Forståelse",
+      "prompt": "Hvordan ville det å virkelig forstå se ut?",
+      "hints": [
+        "Jeg skulle ønske folk visste det...",
+        "Det jeg egentlig føler er...",
+        "Ingen ser at jeg..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilitet",
+      "prompt": "Hvordan ville stabilitet føles i livet ditt akkurat nå?",
+      "hints": [
+        "Jeg trenger at ting føles...",
+        "Det som ville forankre meg er...",
+        "Stabilitet betyr..."
+      ]
+    },
+    "Honesty": {
+      "label": "Ærlighet",
+      "prompt": "Hvordan ville mer ærlighet sett ut i din situasjon?",
+      "hints": [
+        "Sannheten jeg må møte er...",
+        "Jeg vil være ærlig om...",
+        "Det som egentlig skjer er..."
+      ]
+    },
+    "Respect": {
+      "label": "Respekt",
+      "prompt": "Hvordan ser respekt ut for deg akkurat nå?",
+      "hints": [
+        "Jeg fortjener å bli behandlet...",
+        "Respekt ville se ut som...",
+        "Jeg trenger folk til å..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Klarhet om forholdet",
+      "prompt": "Hva slags klarhet ville hjelpe deg mest?",
+      "hints": [
+        "Jeg må vite om...",
+        "Det som forvirrer meg er...",
+        "Jeg vil at vi skal være klare om..."
+      ]
+    },
+    "default": {
+      "prompt": "Hvordan ville dette sett ut i en virkelig situasjon?",
+      "hints": [
+        "Det jeg tenker på er...",
+        "Akkurat nå føler jeg meg...",
+        "Hvis jeg skal være ærlig med meg selv..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Si noe ærlig"
+    },
+    {
+      "label": "Ta tid for meg selv"
+    },
+    {
+      "label": "Ta kontakt med noen"
+    },
+    {
+      "label": "Sett en liten grense"
+    },
+    {
+      "label": "Ikke sikker ennå"
+    }
+  ],
+  "history": {
+    "title": "Tidligere refleksjoner",
+    "empty": "Ingen refleksjoner ennå."
+  },
+  "toasts": {
+    "save_success": "Refleksjon lagret",
+    "save_error": "Klarte ikke å lagre refleksjon",
+    "auth_error": "Auth-sesjon mangler eller database ikke konfigurert"
+  },
+  "complete": {
+    "title": "Innsjekk fullført",
+    "message": "Du har identifisert at du trenger \"{{need}}\". Å respektere dine behov er en viktig form for egenomsorg."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sjekk inn hos deg selv",
+  "past_reflections": "Tidligere refleksjoner",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Hengitä 🌿 syvään",
+    "title": "Hallitse stressiäsi",
+    "description": "Yksinkertaisia päivittäisiä tapoja, jotka auttavat sinua tuntemaan olosi rauhallisemmaksi ja paremmaksi hallinnassa.",
+    "sectionTitle": "Päivittäiset stressinlievitysvinkit"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Saa levollinen uni",
+      "description": "Pyri nukkumaan 7–9 tuntia joka yö. Yritä nukkua ja herätä samaan aikaan päivittäin.",
+      "why": "Uni auttaa aivojasi ja kehoasi palautumaan ja laskee stressihormoneja.",
+      "do": [
+        "Pidä kiinteä unirytmi",
+        "Vältä näyttöjä tunti ennen nukkumaanmenoa",
+        "Pidä huone viileänä ja pimeänä",
+        "Vältä kofeiinia klo 16 jälkeen"
+      ],
+      "button": "Aseta unimuistutus"
+    },
+    "breathing": {
+      "title": "Harjoittele syvähengitystä",
+      "description": "Keskity muutama minuutti hengitykseesi. Hidas hengitys vähentää ahdistusta.",
+      "why": "Hidas hengitys aktivoi kehon rentoutumisreaktion.",
+      "do": [
+        "Hengitä sisään 4 sekuntia",
+        "Pidä 4 sekuntia",
+        "Hengitä ulos 4 sekuntia",
+        "Toista 1 minuutin ajan"
+      ]
+    },
+    "exercise": {
+      "title": "Liikuta kehoasi",
+      "description": "Kevyt kävely tai venyttely auttaa purkamaan stressiä ja parantamaan mielialaa.",
+      "why": "Liikunta vapauttaa endorfiineja ja parantaa mielialaa.",
+      "do": [
+        "15 minuutin kävelymatka",
+        "Kevyt venyttely",
+        "Lyhyt joogatunti",
+        "Nopea kotitreeni"
+      ]
+    },
+    "caffeine": {
+      "title": "Rajoita kofeiinin ja sokerin käyttöä",
+      "description": "Liiallinen kofeiini ja sokeri voivat lisätä ahdistusta ja häiritä unta.",
+      "why": "Liiallinen kofeiini ja sokeri lisäävät ahdistusta ja univaikeuksia.",
+      "do": [
+        "Korvaa yksi kahvi yrttiteellä",
+        "Juo enemmän vettä",
+        "Vähennä sokerisia välipaloja",
+        "Vältä kofeiinia myöhään päivällä"
+      ]
+    },
+    "planning": {
+      "title": "Suunnittele päiväsi",
+      "description": "Pilko suuret tehtävät pienempiin vaiheisiin, jotta et tunne itseään ylikuormittuneeksi.",
+      "why": "Suunnittelu vähentää henkistä sotkua ja ylikuormitusta.",
+      "do": [
+        "Kirjoita 3 päätehtävää",
+        "Pilko tehtävät pieniksi askeliksi",
+        "Keskity yhteen tehtävään kerrallaan",
+        "Pidä lyhyitä taukoja"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Takaisin",
+    "notFound": "Vinkkiä ei löytynyt.",
+    "whyTitle": "Miksi se auttaa",
+    "doTitle": "Mitä voit tehdä",
+    "reminderSet": "Muistutus asetettu! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hups! Sivua ei löydy",
+    "return": "Paluu kotiin"
+  },
+  "mood": {
+    "title": "Miltä sinusta tuntuu tänään?",
+    "great": "Upea",
+    "okay": "Okei",
+    "stressed": "Stressaantunut",
+    "overwhelmed": "Ylikuormittunut"
+  },
+  "breathing": {
+    "inhale": "Hengitä sisään...",
+    "hold": "Odota...",
+    "exhale": "Hengitä ulos...",
+    "pause": "Tauko",
+    "resume": "Ansioluettelo"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Stressin lievitys",
+  "app_description": "Stressin lievitys",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "breathing_guide": "Hengitysopas",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

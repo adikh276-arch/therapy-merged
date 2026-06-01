@@ -1,0 +1,177 @@
+{
+  "app_title": "Ghidul ciclului de somn",
+  "pill_labels": [
+    "Introducere",
+    "Cele 4 etape",
+    "Adevărul somnoros",
+    "Dar tu?"
+  ],
+  "s1": {
+    "title": "Ai dormit vreodată 8 ore și tot te simți groaznic?",
+    "p1": "Nu este vorba de <1>cât timp</1> dormi.",
+    "p2": "Este cam <1>unde< pe 1> în ciclul tău de somn te trezești.",
+    "p3": "Un lucru se schimbă când înțelegi asta — totul.",
+    "insight": "💡 Creierul tău este de fapt mai activ în timpul somnului REM decât când ești complet treaz!",
+    "duration": "Durează 3 minute · Durează o viață întreagă",
+    "button": "Stai, serios? Spune-mi mai multe →"
+  },
+  "s2": {
+    "title": "Creierul tău face ASTA în fiecare noapte 🌀",
+    "desc": "La fiecare 90 de minute, creierul tău trece prin 4 etape — ca o listă de redare pe repeat. Atinge-le pe fiecare pentru a explora 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Somn ușor",
+        "tag": "1–5 minute · Ușor de trezit",
+        "body": "Adormești. Corpul începe să cedeze, mușchii pot tresări. E foarte ușor să te trezești de aici."
+      },
+      {
+        "emoji": "💤",
+        "title": "Acomodarea",
+        "tag": "10–25 minute · cu adevărat adormit",
+        "body": "Ritmul cardiac încetinește, temperatura corpului scade. Ești cu adevărat adormit — activitatea creierului începe să încetinească."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Somn ⭐ adânc",
+        "tag": "20–40 minute · aurul",
+        "body": "Corpul repară țesuturi, construiește imunitate. Cea mai revigorantă etapă fizică — greu de trezit."
+      },
+      {
+        "emoji": "🌙",
+        "title": "Somnul REM",
+        "tag": "10–60 minute · Modul de vis",
+        "body": "Creierul vibrează de activitate. Emoțiile sunt procesate, amintirile se blochează. Să sari peste asta te lasă în ceață."
+      }
+    ],
+    "italic": "Somnul profund îți repară corpul. REM îți repară mintea.",
+    "button": "Atunci de ce încă mă simt amețit? →"
+  },
+  "s3": {
+    "title": "Trezirea la mijlocul ciclului = modul 🧟 zombi",
+    "p1": "Smuls din somnul adânc de o alarmă? Creierul tău literalmente nu a terminat ce făcea. Acea senzație cețoasă și grea? Asta înseamnă inerție <1>somn</1>.",
+    "wave": {
+      "light": "lumină",
+      "deep": "adânc",
+      "groggy": "😫 somnoroasă",
+      "fresh": "😊 proaspăt",
+      "cycles": [
+        "Ciclul 1",
+        "Ciclul 2",
+        "Ciclul 3"
+      ]
+    },
+    "disruptors_title": "Ce îți perturbă 👇 ciclurile",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Ecrane înainte de culcare",
+        "sub": "Întârzie somnul profund"
+      },
+      {
+        "emoji": "☕",
+        "text": "Cofeina târzie",
+        "sub": "reduce somnul profund cu până la 20%"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Ore neregulate de somn",
+        "sub": "îți rupe ritmul natural"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stres și anxietate",
+        "sub": "Te ține blocat într-un somn ușor"
+      }
+    ],
+    "italic": "Obiceiurile tale modelează direct etapele pe care le atingi.",
+    "button": "Ce înseamnă asta pentru mine? →"
+  },
+  "s4": {
+    "title": "Care dintre ele sună ca tine? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Mă trezesc epuizat fizic",
+        "sub": "Probabil lipsește somnul profund",
+        "tip": "Concentrează-te pe un somn și o trezire constantă — corpul tău are nevoie de un ritm regulat pentru a ajunge la somnul profund."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Mă simt emoțional încețoșat sau jos",
+        "sub": "probabil că lipsește somnul REM",
+        "tip": "Încearcă să te relaxezi cu 30 de minute înainte de culcare — o rutină calmă înainte de somn îți protejează somnul REM."
+      },
+      {
+        "emoji": "😤",
+        "text": "Mă trezesc des noaptea",
+        "sub": "ciclurile sunt întrerupte constant",
+        "tip": "O cameră răcoroasă, întunecată și liniștită ajută creierul să rămână în stadii mai profunde fără întreruperi."
+      },
+      {
+        "emoji": "😐",
+        "text": "Mă simt bine, dar nu grozav",
+        "sub": "Ciclurile sunt parțiale, dar nu complete",
+        "tip": "Încearcă să te culci cu 20 de minute mai devreme — s-ar putea să ai nevoie doar de încă un ciclu complet de somn."
+      }
+    ],
+    "quote": "Somnul nu este doar odihnă — este recuperare activă. Protejează-ți ciclurile și întreaga zi se schimbă.",
+    "button": "Gata ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ghidul ciclului de somn",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_ECRANE - 1));\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst ecrane = [",
+  "it_s_not_about": "Nu este vorba despre",
+  "it_s_about": "Este vorba despre",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Trezit din somnul profund de o alarmă? Creierul tău nu a terminat literalmente ce făcea. Acea senzație de ceață și greutate? Asta e...",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

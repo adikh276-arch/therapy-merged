@@ -1,0 +1,139 @@
+{
+  "app_title": "Food & Emotion Map",
+  "screen_titles": [
+    "Welcome",
+    "Food Patterns",
+    "Internal Dialogue",
+    "Physical Sensing",
+    "The Map",
+    "Gentle Support",
+    "Final Look",
+    "Reflecting"
+  ],
+  "welcome_text": "Hey… I'm really glad you're here 💛 Let's gently map out what's been going on.",
+  "coming_up_label": "What's coming up lately?",
+  "begin_mapping": "Begin Mapping",
+  "food_patterns_q": "Hmm… I hear you. When you feel {{emotion}}… how does food usually show up?",
+  "continue_button": "Continue",
+  "internal_dialogue_q": "In those moments… what kind of thoughts pop up?",
+  "write_placeholder": "Write whatever comes to mind…",
+  "physical_sensing_q": "If you pause for a second… what do you notice in your body?",
+  "the_pattern_label": "The Pattern",
+  "pattern_desc_1": "When you feel {{emotion}}, your body feels {{sensation}}…",
+  "pattern_desc_2": "…and food becomes a way to {{response}}, while thoughts like \"{{thought}}\" show up.",
+  "pattern_footer": "\"Pattern awareness is freedom\"",
+  "support_q": "In those moments… what might help you—even a little?",
+  "understanding_text": "You're understanding yourself a little better. That's more than enough 💛",
+  "how_feeling_now": "How are you feeling now?",
+  "preserve_button": "Preserve Map",
+  "preserving": "Preserving...",
+  "complete_title": "Map Preserved",
+  "complete_message": "You've successfully mapped the connection between your feelings and food. This awareness is a powerful tool for gentle change.",
+  "auth_error": "Auth session missing or DB not configured",
+  "save_success": "Pattern preserved",
+  "save_error": "Failed to preserve pattern",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Sadness",
+    "😶 Boredom",
+    "😟 Anxiety",
+    "🥺 Loneliness",
+    "💭 Something else…"
+  ],
+  "food_responses": [
+    "🍽️ I eat more",
+    "🚫 I eat less",
+    "🍫 I crave specific foods",
+    "😣 I avoid food",
+    "😐 No real change"
+  ],
+  "body_sensations": [
+    "💔 Tight chest",
+    "🪨 Heavy feeling",
+    "🦵 Restless / fidgety",
+    "🔋 Low energy",
+    "🌀 Knots in stomach",
+    "❓ Something else…"
+  ],
+  "support_options": [
+    "🗣️ Talk to someone",
+    "☕ Take a break",
+    "📝 Journal",
+    "🌬️ Breathe",
+    "🎧 Distract myself"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Reach out 💛",
+      "body": "Sometimes sharing lightens things a bit. Maybe a simple 'hey, can we talk?'"
+    },
+    "☕ Take a break": {
+      "title": "Pause 💛",
+      "body": "A small pause can help reset things. Maybe step away and take a few slow breaths."
+    },
+    "📝 Journal": {
+      "title": "Write it out 💛",
+      "body": "You could start with 'right now I feel…' and just let it flow."
+    },
+    "🌬️ Breathe": {
+      "title": "Breathe 💛",
+      "body": "Inhale 4… hold 2… exhale 6… let's slow it down together."
+    },
+    "🎧 Distract myself": {
+      "title": "Gentle shift 💛",
+      "body": "A gentle distraction can shift the moment… maybe something light or easy."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Food & Emotion Map",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

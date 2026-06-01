@@ -1,0 +1,81 @@
+{
+  "app_title": "Varför hjärnan fastnar",
+  "app_subtitle": "Överlevnadslogiken • {{step}}/{{total}}",
+  "s1": {
+    "title": "Din hjärna gick inte sönder. Den anpassade sig.",
+    "description": "Efter traumat omprogrammerar din hjärna sig för att hålla dig säker. Den lärde sig att världen kunde vara farlig, så den höll sig redo. Det är inget fel. Det är överlevnad.",
+    "quote": "\"PTSD är inget tecken på att något är fel på dig. Det är ett tecken på att något har hänt dig.\"",
+    "button": "Berätta mer"
+  },
+  "s2": {
+    "tag": "Milda sanningar",
+    "title": "Hjärnans överlevnadslogik",
+    "truths": [
+      {
+        "header": "Larmet var fortfarande på",
+        "body": "Hypervigilans och att lätt bli skrämd är inte överreaktioner – hjärnans larmsystem gör sitt jobb för bra."
+      },
+      {
+        "header": "Tillbakablickar är minnen",
+        "body": "Triggers drar tillbaka hjärnan eftersom den aldrig fick signalen att hotet var över. Den försöker skydda dig."
+      },
+      {
+        "header": "Kämpar för dig",
+        "body": "Varje symptom var en gång en överlevnadsakt. Din hjärna gjorde vad den behövde för att hålla dig vid liv."
+      }
+    ],
+    "healing": "Läkning handlar inte om att glömma. Det handlar om att hjälpa din hjärna att lära sig att du är trygg nu."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Överlevnadens logik • {{step}}/{{total}}",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

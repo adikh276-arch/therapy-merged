@@ -1,0 +1,217 @@
+{
+  "app_title": "Czego potrzebuję?",
+  "app_subtitle": "Sprawdź się sam",
+  "screens": {
+    "s1": {
+      "title": "Czego teraz potrzebuję?",
+      "description": "Chwila, by się zatrzymać i posłuchać, czego prosi twoje serce.",
+      "button": "Start Check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Co wydaje się ważne?",
+        "placeholder": "Coś jeszcze...",
+        "add_button": "Dodaj",
+        "button": "Kontynuuj"
+      },
+      "prioritize": {
+        "title": "Który jest główny?"
+      },
+      "focus": {
+        "tag": "Teraz skup się na tobie",
+        "button": "Kontynuuj"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Kontynuuj"
+      },
+      "action": {
+        "title": "Mały krok naprzód?",
+        "placeholder": "Albo napisz własne...",
+        "button": "Refleksja recenzji"
+      },
+      "closing": {
+        "tag_need": "Potrzeba pierwotna",
+        "tag_insight": "Twoje spostrzeżenia",
+        "tag_action": "Małe akcje",
+        "save_button": "Save & Finish",
+        "finish_button": "Skończ bez zapisu"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Wsparcie emocjonalne",
+      "prompt": "Jakie wsparcie faktycznie mogłoby ci teraz pomóc?",
+      "hints": [
+        "Po prostu potrzebuję kogoś, kto...",
+        "Pomogłoby, gdyby...",
+        "Tak naprawdę chcę..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Przestrzeń / czas dla siebie",
+      "prompt": "Jak wyglądałoby dla ciebie posiadanie takiej przestrzeni?",
+      "hints": [
+        "Wykorzystałabym ten czas, żeby...",
+        "Kosmos pozwoliłby mi...",
+        "Potrzebuję miejsca, żeby..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Jasna komunikacja",
+      "prompt": "Jak wyglądałaby dla Ciebie jaśniejsza komunikacja?",
+      "hints": [
+        "Chciałbym móc powiedzieć...",
+        "Gdyby naprawdę słuchali, powiedziałbym im...",
+        "Komunikacja jest trudna, gdy..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Zapewnienie",
+      "prompt": "Jakie zapewnienie mogłoby mieć sens?",
+      "hints": [
+        "Muszę to usłyszeć...",
+        "Uspokajałoby mnie wiedzieć...",
+        "Ciągle się martwię, że..."
+      ]
+    },
+    "Understanding": {
+      "label": "Zrozumienie",
+      "prompt": "Jak wyglądałoby poczucie prawdziwego zrozumienia?",
+      "hints": [
+        "Chciałbym, żeby ludzie wiedzieli, że...",
+        "To, co naprawdę czuję, to...",
+        "Nikt nie widzi, że ja..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilność",
+      "prompt": "Jak wyglądałaby stabilność w Twoim życiu teraz?",
+      "hints": [
+        "Potrzebuję, żeby coś się czuło...",
+        "To, co mnie uziemi, to...",
+        "Stabilność oznacza..."
+      ]
+    },
+    "Honesty": {
+      "label": "Szczerość",
+      "prompt": "Jak wyglądałaby większa uczciwość w twojej sytuacji?",
+      "hints": [
+        "Prawda, z którą muszę się zmierzyć, to...",
+        "Chcę być szczery w kwestii...",
+        "To, co naprawdę się dzieje, to..."
+      ]
+    },
+    "Respect": {
+      "label": "Szacunek",
+      "prompt": "Jak wygląda u Ciebie teraz szacunek?",
+      "hints": [
+        "Zasługuję na leczenie...",
+        "Szacunek wyglądałby jak...",
+        "Potrzebuję ludzi, żeby..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Jasność w relacjach",
+      "prompt": "Jaki rodzaj jasności pomógłby Ci najbardziej?",
+      "hints": [
+        "Muszę wiedzieć, czy...",
+        "To, co mnie myli, to...",
+        "Chcę, żebyśmy byli jasni w kwestii..."
+      ]
+    },
+    "default": {
+      "prompt": "Jak to wyglądałoby w prawdziwej sytuacji?",
+      "hints": [
+        "Przychodzi mi na myśl...",
+        "Teraz czuję się...",
+        "Jeśli mam być ze sobą szczery..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Powiedz coś szczerze"
+    },
+    {
+      "label": "Znajdź czas dla siebie"
+    },
+    {
+      "label": "Skontaktuj się z kimś"
+    },
+    {
+      "label": "Ustal małą granicę"
+    },
+    {
+      "label": "Jeszcze nie jestem pewien"
+    }
+  ],
+  "history": {
+    "title": "Refleksje z przeszłości",
+    "empty": "Jeszcze żadnych odbić."
+  },
+  "toasts": {
+    "save_success": "Odbicie zapisane",
+    "save_error": "Nie udało się zapisać odbicia",
+    "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana"
+  },
+  "complete": {
+    "title": "Odprawa zakończona",
+    "message": "Zidentyfikowałeś, że potrzebujesz \"{{need}}\". Szanowanie własnych potrzeb to kluczowa forma dbania o siebie."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sprawdź się sam",
+  "past_reflections": "Przeszłe refleksje",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

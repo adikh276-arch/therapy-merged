@@ -1,0 +1,114 @@
+{
+  "app_title": "Sikkert Rum",
+  "nav": [
+    "Check-in",
+    "Forsigtig genkald",
+    "Observation",
+    "At være til stede",
+    "Fremadrettet"
+  ],
+  "s1": {
+    "title": "Lad os finde et sted, der føles okay",
+    "description": [
+      "Før vi begynder, tag et øjeblik til at tjekke ind...",
+      "Hvordan har du det lige nu?",
+      "Vi leder ikke efter et perfekt \"sikkert sted\". Bare noget, der føles bare en smule roligt eller okay."
+    ],
+    "placeholder": "Hvordan har du det lige nu?",
+    "button": "Begynd visualisering"
+  },
+  "s2": {
+    "title": "Bring det forsigtigt i tankerne",
+    "description": [
+      "Tænk på et sted, hvor du følte dig bare en smule tilpas... eller et sted, du ville ønske eksisterede.",
+      "Sæt dig nu der...",
+      "Sidder du, står du eller ligger du ned?"
+    ],
+    "button": "Fortsæt"
+  },
+  "s3": {
+    "title": "Se dig langsomt omkring",
+    "description": [
+      "Tag et forsigtigt kig rundt...",
+      "Hvad er én ting, du kan se?",
+      "Læg nu mærke til en lyd... Hvad hører du?"
+    ],
+    "button": "Fortsæt"
+  },
+  "s4": {
+    "title": "Bliv ved med det her",
+    "description": [
+      "Hvad er det ved dette sted, der får det til at føles bare en smule trygt eller okay?",
+      "Som du bemærker det...",
+      "Bring også din opmærksomhed mod din vejrtrækning."
+    ],
+    "breathe": "Træk vejret",
+    "notice": "Hvis det føles svært at forestille sig, så tænk bare på idéen om dette sted.",
+    "button": "Fortsæt"
+  },
+  "s5": {
+    "title": "Tag det her med dig",
+    "description": [
+      "Læg mærke til, hvordan du har det lige nu. Selv en lille ændring betyder noget.",
+      "Se om du kan bære bare 5% af denne følelse med dig."
+    ],
+    "placeholder": "Hvordan har du det nu?",
+    "button": "Fuld session"
+  },
+  "complete": {
+    "title": "Session afsluttet",
+    "message": "Dette sikre sted er altid tilgængeligt for dig. Du kan vende tilbage hertil, når du har brug for et øjebliks ro."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sikker plads",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

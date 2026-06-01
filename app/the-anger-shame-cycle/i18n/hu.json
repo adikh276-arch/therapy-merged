@@ -1,0 +1,124 @@
+{
+  "app_title": "Harag-szégyen ciklus",
+  "app_subtitle": "A hurok megértése • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Miért tér vissza a harag folyton?",
+      "description": "Lehet, hogy nem a te dühséged. Van egy rejtett kör a harag és a szégyen között — és ha egyszer meglátod, minden megváltozik.",
+      "quote": "\"A legtöbben próbálják helyrehozni a haragot. De a szégyen az, ami csendben tartja életben.\"",
+      "button": "Nézzük meg a részleteket"
+    },
+    "s2": {
+      "tag": "A ciklus",
+      "title": "A kör magyarázatot adott",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Düh felszínre tör"
+        },
+        {
+          "emoji": "😔",
+          "label": "Szégyen: \"Rossz vagyok\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Szégyen eltemetik"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Düh újra kitör"
+        }
+      ],
+      "button": "Látom"
+    },
+    "s3": {
+      "tag": "Mi történik",
+      "title": "Két érzelem, egy csapda",
+      "anger": {
+        "title": "🔥 Harag",
+        "desc": "Egy másodlagos érzelem — az élet alatt, amely fájdalom, félelem vagy elutasítás van. A riasztó a gond, nem a tűz."
+      },
+      "shame": {
+        "title": "😔 Szégyen",
+        "desc": "\"Rossz vagyok\" — nem csak \"valami rosszat tettem.\" Elrejtőzik, elnémítja, és forog a körforgást."
+      },
+      "button": "Szabadulás"
+    },
+    "s4": {
+      "tag": "Megszakítás",
+      "title": "Megszakítsd a ciklust",
+      "steps": [
+        {
+          "title": "Nevezze meg a forrást",
+          "desc": "Kérdezd: 'Mit érzek valójában?' Fájt? Félsz? Láthatatlan? A név meggyengíti."
+        },
+        {
+          "title": "Együttérzés szünet",
+          "desc": "Kéz a mellkason. Mondd: 'Ez nehéz. Ember vagyok. Át tudom vészelni ezt.'"
+        },
+        {
+          "title": "Javítás kegyelemmel",
+          "desc": "Ha kell, jóváteheted a hibákat — de ne ess bele a spirálba. Nem vagy a legrosszabb pillanatod."
+        }
+      ],
+      "notice": "A ciklus észlelése már az első lépés. Te végzed a munkát.",
+      "button": "Teljes tevékenység"
+    }
+  },
+  "complete": {
+    "title": "Megszakított ciklus",
+    "message": "Tudatossá tetted arra, hogy meglásd a harag és a szégyen közötti kapcsolatot. Ez az alapja a tartós érzelmi szabadságnak."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Újrakezdés",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Elkészítési idő",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Részesedés",
+    "share_progress": "Haladás megosztása",
+    "inspire_others": "Inspirálj másokat még ma",
+    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "this_activity": "ez a tevékenység",
+    "copied": "Másolva!",
+    "copy_message": "Üzenet másolása",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "A ciklus megértése • {{step}}/{{total}}",
+  "more": "Több",
+  "breadcrumb": "navigációs morzsa",
+  "previous_slide": "Előző dia",
+  "next_slide": "Következő dia",
+  "close": "Közeli",
+  "previous": "Előző",
+  "more_pages": "További oldalak",
+  "pagination": "lapszámozás",
+  "go_to_previous_page": "Ugrás az előző oldalra",
+  "go_to_next_page": "Ugrás a következő oldalra",
+  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
+  "oops_page_not_found": "Hoppá! Az oldal nem található.",
+  "return_to_home": "Vissza a kezdőlapra",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

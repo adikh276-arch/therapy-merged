@@ -1,0 +1,81 @@
+{
+  "app_title": "لماذا يعلق الدماغ",
+  "app_subtitle": "منطق البقاء • {{step}}/{{total}}",
+  "s1": {
+    "title": "دماغك لم ينكسر. تكيفت مع ذلك.",
+    "description": "بعد الصدمة، يعيد دماغك برمجة نفسه ليبقيك آمنا. تعلم أن العالم قد يكون خطيرا، فظل مستعدا. هذا ليس عيبا. هذا هو البقاء.",
+    "quote": "\"اضطراب ما بعد الصدمة ليس علامة على أن هناك خطبا ما بك. إنها علامة على أن شيئا ما حدث لك.\"",
+    "button": "أخبرني المزيد"
+  },
+  "s2": {
+    "tag": "حقائق لطيفة",
+    "title": "منطق بقاء الدماغ",
+    "truths": [
+      {
+        "header": "استمر الإنذار",
+        "body": "اليقظة المفرطة والمفاجأة بسهولة ليست ردود فعل مبالغ فيها — نظام الإنذار في دماغك يؤدي عمله بشكل جيد جدا."
+      },
+      {
+        "header": "الفلاشباك هي الذكرى",
+        "body": "المحفزات تسحب عقلك للخلف لأنه لم يتلق الإشارة التي تفيد بأن التهديد قد انتهى. إنه يحاول حمايتك."
+      },
+      {
+        "header": "أقاتل من أجلك",
+        "body": "كل عرض كان في السابق فعل بقاء. عقلك فعل ما كان عليه فعله ليبقيك على قيد الحياة."
+      }
+    ],
+    "healing": "الشفاء ليس عن النسيان. الأمر يتعلق بمساعدة دماغك على تعلم أنك الآن بأمان."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "منطق البقاء • {{step}}/{{total}}",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

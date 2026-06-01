@@ -1,0 +1,145 @@
+{
+  "app_title": "Ennustus vs todellisuus",
+  "step_label": "Askel {{current}} kahdeksasta",
+  "intro": {
+    "title": "Ennustus vs todellisuus",
+    "description": "Vertaa ahdistuneita ennustuksiasi siihen, mitä oikeasti tapahtuu, jotta saat tasapainoisemman näkökulman.",
+    "benefits": [
+      "Tunnista ahdistuneita kuvioita",
+      "Kerää todisteita pelkoja vastaan",
+      "Vähennä tulevaa yliajattelua"
+    ],
+    "duration": "4-5 minuuttia",
+    "view_past": "Katso menneitä pohdintoja"
+  },
+  "history": {
+    "title": "Menneet pohdinnat",
+    "no_reflections": "Heijastuksia ei ole vielä tallennettu.",
+    "prediction_label": "Ennuste",
+    "reality_label": "Todellisuus",
+    "reflection_label": "Pohdinta:"
+  },
+  "complete": {
+    "title": "Toiminta suoritettu",
+    "saved_title": "Heijastus pelastettu",
+    "message": "Katsomalla faktoja autat mieltäsi oppimaan, että asiat ovat usein hallittavampia kuin miltä ne vaikuttavat."
+  },
+  "emotions": [
+    "Huolestunut",
+    "Hermostunut",
+    "Peloissaan",
+    "Ylikuormittunut",
+    "Levoton"
+  ],
+  "intensity_labels": {
+    "not_intense": "Ei intensiivistä",
+    "very_intense": "Erittäin intensiivistä"
+  },
+  "comparison_options": [
+    "Lopputulos oli melkein juuri sellainen kuin odotin",
+    "Jotkut osat olivat kohdallaan, mutta eivät kaikki",
+    "Se oli melko erilaista kuin odotin",
+    "Se oli paljon helpompaa/parempaa kuin kuvittelin"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Ajattele erästä äskettäistä tilannetta",
+      "desc": "Muista hetki hiljattain, jolloin tunsit ahdistusta tai epävarmuutta.",
+      "placeholder": "Kuvaile tilannetta..."
+    },
+    "s2": {
+      "title": "Mitä luulit tapahtuvan?",
+      "desc": "Mitä odotit tai pelkäsit sillä hetkellä?",
+      "placeholder": "Olin huolissani että..."
+    },
+    "s3": {
+      "title": "Miltä sinusta tuntui?",
+      "desc": "Valitse tunteet, joita koit, ja niiden voimakkuus."
+    },
+    "s4": {
+      "title": "Mitä oikeastaan tapahtui?",
+      "desc": "Keskity siihen, mitä todella tapahtui.",
+      "placeholder": "Todellisuudessa..."
+    },
+    "s5": {
+      "title": "Katsotaanpa molempia",
+      "expectation": "Odotus",
+      "reality": "Todellisuus",
+      "question": "Kuinka lähellä odotuksesi olivat?"
+    },
+    "s6": {
+      "title": "Mitä huomaat?",
+      "desc": "Oliko se niin paha kuin luulit?",
+      "placeholder": "Huomaan, että..."
+    },
+    "s7": {
+      "title": "Seuraavalla kerralla",
+      "desc": "Mitä voisit muistuttaa itseäsi, jos tämä tapahtuu uudelleen?",
+      "placeholder": "esim. \"Ehkä se ei olekaan niin paha kuin kuvittelin.\""
+    },
+    "s8": {
+      "title": "Pieni muistutus",
+      "desc": "Mielesi yrittää valmistaa sinua – mutta se ei aina ennusta tarkasti. Joka kerta kun pysähdyt katsomaan faktoja, rakennat sitkeyttä.",
+      "button": "Tallenna heijastus",
+      "discard": "Hylkää merkintä"
+    }
+  },
+  "buttons": {
+    "continue": "Jatka"
+  },
+  "toasts": {
+    "saved": "Heijastus tallennettu!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ennustus vs. todellisuus",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

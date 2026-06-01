@@ -1,0 +1,81 @@
+{
+  "app_title": "دماغ کیوں پھنس جاتا ہے",
+  "app_subtitle": "بقا کی منطق • {{step}}/{{total}}",
+  "s1": {
+    "title": "تمہارا دماغ نہیں ٹوٹا۔ اس نے خود کو ڈھال لیا۔",
+    "description": "صدمے کے بعد، آپ کا دماغ خود کو دوبارہ ترتیب دیتا ہے تاکہ آپ محفوظ رہیں۔ اس نے سیکھا کہ دنیا خطرناک ہو سکتی ہے، اس لیے وہ تیار رہا۔ یہ کوئی خامی نہیں ہے۔ یہی بقا ہے۔",
+    "quote": "\"پی ٹی ایس ڈی اس بات کی علامت نہیں کہ آپ میں کچھ غلط ہے۔ یہ اس بات کی علامت ہے کہ تمہارے ساتھ کچھ ہوا ہے۔\"",
+    "button": "مزید بتائیں"
+  },
+  "s2": {
+    "tag": "نرم سچائیاں",
+    "title": "دماغی بقا کی منطق",
+    "truths": [
+      {
+        "header": "الارم آن رہا",
+        "body": "حد سے زیادہ چوکسی اور آسانی سے چونکا دینا زیادہ ردعمل نہیں — آپ کے دماغ کا الارم سسٹم اپنا کام بہت اچھے طریقے سے کر رہا ہے۔"
+      },
+      {
+        "header": "فلیش بیکس یادیں ہیں",
+        "body": "ٹرگرز آپ کے دماغ کو پیچھے کھینچ لیتے ہیں کیونکہ اسے کبھی یہ سگنل نہیں ملا کہ خطرہ ختم ہو چکا ہے۔ یہ تمہیں بچانے کی کوشش کر رہا ہے۔"
+      },
+      {
+        "header": "تمہارے لیے لڑ رہا ہوں",
+        "body": "ہر علامت کبھی بقا کا عمل تھی۔ آپ کا دماغ آپ کو زندہ رکھنے کے لیے جو کرنا پڑا وہ کرتا تھا۔"
+      }
+    ],
+    "healing": "شفا یابی بھولنے کے بارے میں نہیں ہے۔ یہ آپ کے دماغ کو یہ سکھانے میں مدد دینے کے بارے میں ہے کہ آپ اب محفوظ ہیں۔"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "بقا کی منطق • {{step}}/{{total}}",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

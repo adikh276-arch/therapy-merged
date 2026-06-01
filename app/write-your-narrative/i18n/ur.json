@@ -1,0 +1,125 @@
+{
+  "app_title": "آپ کی کہانی",
+  "nav": {
+    "entry": "خوش آمدید",
+    "writing": "اظہار",
+    "landing": "عکاسی",
+    "history": "آپ کا سفر"
+  },
+  "entry": {
+    "title": "آئیے ایک قدم ایک وقت میں چلتے ہیں۔ 💛",
+    "description": [
+      "آج آپ کو اپنی پوری کہانی سنانے کی ضرورت نہیں۔ صرف ایک چھوٹا سا حصہ کافی ہے۔",
+      "تم ابھی محفوظ ہو۔ آپ اس بات پر قابو رکھتے ہیں کہ آپ کیا لکھتے ہیں—اور کیا نہیں لکھتے۔"
+    ],
+    "breath": "شروع کرنے سے پہلے آہستہ سانس لیں۔",
+    "button_ready": "میں تیار ہوں",
+    "button_history": "ماضی کی کہانیاں",
+    "footer": "آپ کے الفاظ • آپ کی رفتار • آپ کی کہانی"
+  },
+  "writing": {
+    "title": "جو ٹھیک ✨ لگے وہ لکھیں",
+    "subtitle": "تمہارے الفاظ، تمہاری رفتار",
+    "prompt_label": "کیا آپ کو کوئی آغاز چاہیے؟",
+    "prompts": [
+      {
+        "text": "جو مجھے سب سے زیادہ یاد ہے وہ یہ ہے...",
+        "emoji": "💭"
+      },
+      {
+        "text": "اس وقت، میں نے محسوس کیا...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "تب سے، میں نے محسوس کیا ہے...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "یہاں سے لکھنا شروع کرو...",
+    "notice": "یہ کرنے کا کوئی صحیح طریقہ نہیں ہے۔ چند لائنیں بھی کافی ہیں۔",
+    "button": "تحریر مکمل کریں"
+  },
+  "landing": {
+    "title": "تم نے کچھ اہم کیا ہے۔",
+    "subtitle": "اپنے لیے آنے کا شکریہ۔",
+    "settle_title": "آئیے ایک لمحہ لیتے ہیں اور آرام کرتے ہیں",
+    "steps": [
+      "ادھر ادھر دیکھیں اور تین چیزیں بتائیں جو آپ دیکھ سکتے ہیں۔",
+      "آہستہ سانس لو... اور باہر۔"
+    ],
+    "feeling_label": "اس وقت، میں محسوس کرتا ہوں:",
+    "feeling_placeholder": "ایک دو لفظ...",
+    "quote": "\"تمہیں سب کچھ ایک ساتھ اٹھانے کی ضرورت نہیں۔ تم جب چاہو واپس آ سکتے ہو۔\"",
+    "button_save": "بیانیہ محفوظ رکھیں",
+    "button_preserving": "محفوظ رکھنا..."
+  },
+  "history": {
+    "title": "آپ کا سفر 📝",
+    "subtitle": "ماضی کی کہانیاں اور غور و فکر",
+    "empty": "آپ نے ابھی تک کوئی اندراج محفوظ نہیں کیا۔ آرام سے کریں—کوئی جلدی نہیں۔",
+    "no_writing": "کوئی تحریر محفوظ نہیں کی گئی",
+    "button_back": "سرگرمی کی طرف واپسی"
+  },
+  "complete": {
+    "title": "بیان محفوظ",
+    "message": "آپ نے اپنی کہانی سنانے میں ایک طاقتور قدم اٹھایا ہے۔ آپ کا نقطہ نظر اہم ہے، اور آپ کا سفر خاص طور پر آپ کا ہے۔"
+  },
+  "toasts": {
+    "save_success": "بیانیہ محفوظ",
+    "save_error": "کہانی کو برقرار رکھنے میں ناکامی",
+    "auth_error": "آتھ سیشن غائب ہے یا ڈیٹا بیس کنفیگر نہیں ہے"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "آپ کا بیانیہ",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "remove_this": "اسے ہٹا دیں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

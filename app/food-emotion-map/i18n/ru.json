@@ -1,0 +1,139 @@
+{
+  "app_title": "Карта еды и эмоций",
+  "screen_titles": [
+    "Добро пожаловать",
+    "Пищевые модели",
+    "Внутренний диалог",
+    "Физические ощущения",
+    "Карта",
+    "Нежная поддержка",
+    "Финальный образ",
+    "Отражение"
+  ],
+  "welcome_text": "Эй... Я очень рад, что ты здесь 💛. Давай аккуратно продумаем, что происходит.",
+  "coming_up_label": "Что ждёт в последнее время?",
+  "begin_mapping": "Начать картографирование",
+  "food_patterns_q": "Хмм... Я тебя понимаю. Когда чувствуешь {{emotion}}... Как обычно проявляется еда?",
+  "continue_button": "Продолжайте",
+  "internal_dialogue_q": "В такие моменты... Какие мысли возникают?",
+  "write_placeholder": "Пиши всё, что приходит в голову...",
+  "physical_sensing_q": "Если ты на секунду остановишься... Что вы замечаете в своём теле?",
+  "the_pattern_label": "Узор",
+  "pattern_desc_1": "Когда вы чувствуете {{emotion}}, ваше тело ощущает {{sensation}}...",
+  "pattern_desc_2": "… а еда становится способом {{response}}, а мысли вроде «{{thought}}» появляются.",
+  "pattern_footer": "«Осознание паттернов — это свобода»",
+  "support_q": "В такие моменты... Что могло бы помочь тебе — хотя бы немного?",
+  "understanding_text": "Ты немного лучше себя понимаешь. Этого более чем достаточно 💛",
+  "how_feeling_now": "Как ты себя сейчас чувствуешь?",
+  "preserve_button": "Карта сохранения",
+  "preserving": "Сохраняя...",
+  "complete_title": "Карта сохранена",
+  "complete_message": "Вам удалось определить связь между своими чувствами и едой. Это осознание — мощный инструмент мягких изменений.",
+  "auth_error": "Отсутствует сессия аутентификации или база данных не настроена",
+  "save_success": "Сохранившийся узор",
+  "save_error": "Не удалось сохранить закономерность",
+  "emotions_list": [
+    "😰 Стресс",
+    "😢 Печаль",
+    "😶 Скука",
+    "😟 Тревога",
+    "🥺 Одиночество",
+    "💭 Что-то ещё..."
+  ],
+  "food_responses": [
+    "🍽️ Я ем больше",
+    "🚫 Я ем меньше",
+    "🍫 Мне очень хочется определённая еда",
+    "😣 Я избегаю еды",
+    "😐 Никаких существенных изменений"
+  ],
+  "body_sensations": [
+    "💔 Сжатая грудь",
+    "🪨 Тяжёлое ощущение",
+    "🦵 Беспокойство / беспокойство",
+    "🔋 Низкая энергия",
+    "🌀 Узлы в животе",
+    "❓ Что-то ещё..."
+  ],
+  "support_options": [
+    "🗣️ Поговори с кем-нибудь",
+    "☕ Сделай перерыв",
+    "📝 Журнал",
+    "🌬️ Дыши",
+    "🎧 Отвлечь себя"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Свяжитесь 💛 с нами",
+      "body": "Иногда общение немного облегчает обстановку. Может, простое «эй, можем поговорить?»"
+    },
+    "☕ Take a break": {
+      "title": "Пауза 💛",
+      "body": "Небольшая пауза может помочь сбросить ситуацию. Может, стоит отойти и сделать несколько медленных вдохов."
+    },
+    "📝 Journal": {
+      "title": "Напиши это 💛",
+      "body": "Можно начать с «прямо сейчас я чувствую...» И просто позволить всему течь."
+    },
+    "🌬️ Breathe": {
+      "title": "Дыши 💛",
+      "body": "Вдох 4... Держи 2... выдох 6... Давай вместе замедлимся."
+    },
+    "🎧 Distract myself": {
+      "title": "Мягкий сдвиг 💛",
+      "body": "Мягкое отвлечение может изменить момент... Может, что-то лёгкое или простое."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Время выполнения",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Делиться",
+    "share_progress": "Поделиться прогрессом",
+    "inspire_others": "Вдохновите других сегодня!",
+    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
+    "this_activity": "эта деятельность",
+    "copied": "Скопировано!",
+    "copy_message": "Скопировать сообщение",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Карта «Еда и эмоции»",
+  "more": "Более",
+  "breadcrumb": "хлебные крошки",
+  "previous_slide": "Предыдущий слайд",
+  "next_slide": "Следующий слайд",
+  "close": "Закрывать",
+  "previous": "Предыдущий",
+  "more_pages": "Больше страниц",
+  "pagination": "нумерация страниц",
+  "go_to_previous_page": "Перейти на предыдущую страницу",
+  "go_to_next_page": "Перейти на следующую страницу",
+  "toggle_sidebar": "Переключить боковую панель",
+  "oops_page_not_found": "Ой! Страница не найдена.",
+  "return_to_home": "Вернуться на главную",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

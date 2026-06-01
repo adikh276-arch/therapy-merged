@@ -1,0 +1,124 @@
+{
+  "app_title": "Wut-Scham-Kreislauf",
+  "app_subtitle": "Verständnis der Schleife • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Warum kommt die Wut immer wieder zurück?",
+      "description": "Es muss nicht dein Temperament sein. Es gibt eine versteckte Schleife zwischen Wut und Scham – und sobald man sie sieht, ändert sich alles.",
+      "quote": "\"Die meisten Menschen versuchen, die Wut zu beheben. Aber Scham ist es, die es still am Laufen hält.\"",
+      "button": "Lass uns erkunden"
+    },
+    "s2": {
+      "tag": "Der Zyklus",
+      "title": "Die Schleife erklärt",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Wut kommt hoch"
+        },
+        {
+          "emoji": "😔",
+          "label": "Schande: \"Ich bin schlecht\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Scham wird begraben"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Wut bricht erneut aus"
+        }
+      ],
+      "button": "Ich sehe es"
+    },
+    "s3": {
+      "tag": "Was passiert hier",
+      "title": "Zwei Gefühle, eine Falle",
+      "anger": {
+        "title": "🔥 Wut",
+        "desc": "Eine sekundäre Emotion – darunter liegen Verletzungen, Angst oder Ablehnung. Es ist der Alarm, nicht das Feuer."
+      },
+      "shame": {
+        "title": "😔 Schande",
+        "desc": "\"Ich bin schlecht\" – nicht nur \"Ich habe etwas Schlechtes getan.\" Es versteckt sich, verstummt und hält den Kreislauf am Laufen."
+      },
+      "button": "Befreiung"
+    },
+    "s4": {
+      "tag": "Unterbrechung",
+      "title": "Unterbrechen Sie den Zyklus",
+      "steps": [
+        {
+          "title": "Nennen Sie die Quelle",
+          "desc": "Frag: 'Was fühle ich eigentlich?' Verletzt? Angst? Unsichtbar? Es zu benennen, schwächt es."
+        },
+        {
+          "title": "Mitgefühlspause",
+          "desc": "Hand auf die Brust. Sag: 'Das ist schwer. Ich bin ein Mensch. Ich schaffe das.'"
+        },
+        {
+          "title": "Reparieren Sie mit Anmut",
+          "desc": "Wiedergutmache, wenn nötig – aber keine Abwärtsspirale. Du bist nicht dein schlechtester Moment."
+        }
+      ],
+      "notice": "Den Kreislauf zu bemerken ist bereits der erste Schritt. Du machst die Arbeit.",
+      "button": "Vollständige Aktivität"
+    }
+  },
+  "complete": {
+    "title": "Zyklus unterbrochen",
+    "message": "Du hast das Bewusstsein gewonnen, den Zusammenhang zwischen Wut und Scham zu erkennen. Das ist die Grundlage für dauerhafte emotionale Freiheit."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Den Kreislauf verstehen • {{step}}/{{total}}",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

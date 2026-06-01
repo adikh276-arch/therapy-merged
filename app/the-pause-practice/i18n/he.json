@@ -1,0 +1,125 @@
+{
+  "app_title": "תרגול הפסקה",
+  "app_subtitle": "לשלוט במרחב שבין",
+  "intro": {
+    "title": "הפסקת 5 השניות",
+    "description": "הפסקה קטנה בין ההרגשה לתגובה יכולה לשנות הכל.",
+    "duration": "זה לוקח פחות מ-15 שניות. באמת.",
+    "button": "נסה את זה →"
+  },
+  "scenario": {
+    "title": "מה מפעיל אותך?",
+    "desc": "בחר סיטואציה שאתה מזדהה איתה",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "מישהו מפריע לי",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "הדברים לא מתנהלים כמתוכנן",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "אני מרגישה שמתעלמים ממני",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "אני מרגיש מוצף",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "הקליד בעצמך...",
+    "button": "הפסקת תרגול →"
+  },
+  "hold": {
+    "title": "המתנה להשהיה ⏸️",
+    "instructions": "החזק את המעגל במשך 5 שניות",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "לחץ והחזק..."
+      },
+      {
+        "at": "0.15",
+        "text": "תישאר עם זה..."
+      },
+      {
+        "at": "0.5",
+        "text": "אתה עושה את זה..."
+      },
+      {
+        "at": "0.8",
+        "text": "כמעט שם..."
+      }
+    ]
+  },
+  "result": {
+    "title": "זו ההפסקה",
+    "message": "פשוט יצרת מרווח בין מה שהרגשת לבין איך שאת מגיבה. אפילו הפסקה קטנה עוזרת לך להחזיר לעצמך את המרכז.",
+    "tip_label": "טיפ מקצועי",
+    "scenario_messages": {
+      "interrupts": "בפעם הבאה שמישהו יפריע לך, נסה את זה לפני שתגיב.",
+      "plans": "בפעם הבאה שהדברים לא ילכו כמתוכנן, נסה את זה לפני שאתה מגיב.",
+      "ignored": "בפעם הבאה שתרגישו מוזנחים, נסו את זה לפני שאתם מגיבים.",
+      "overwhelmed": "בפעם הבאה שתרגישי מוצפת, תנסי את זה לפני שתעשי משהו.",
+      "other": "בפעם הבאה שתרגישי טריגר, תנסי את זה לפני שתגיבי."
+    },
+    "italic": "זה לא תמיד ירגיש קל—אבל עקביות היא המפתח."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "שלטו במרחב שבין",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

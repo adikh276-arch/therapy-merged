@@ -1,0 +1,292 @@
+{
+  "app_title": "Reparo e Reconexão",
+  "steps": {
+    "welcome": "Bem-vindo",
+    "choose_person": "Escolha Pessoa",
+    "choose_approach": "Escolha Abordagem",
+    "guided_action": "Ação Guiada",
+    "complete": "Completo"
+  },
+  "intro": {
+    "title": "Reparo e Reconexão",
+    "description": "A raiva pode criar distância entre nós e as pessoas de quem gostamos. Mas pequenos passos gentis podem ajudar a reconstruir essa conexão.",
+    "quote": "\"Reparar não significa que você estava errado—significa que você se importa o suficiente para tentar.\"",
+    "small_efforts": "Até pequenos esforços podem fazer a diferença.",
+    "button": "Comece →"
+  },
+  "choose_person": {
+    "title": "Com quem você gostaria de se reconectar?",
+    "desc": "Pensar em um relacionamento específico ajuda a fazer os passos parecerem reais.",
+    "options": {
+      "friend": "Um Amigo",
+      "family": "Um Membro da Família",
+      "colleague": "Um Colega",
+      "other": "Outra Pessoa"
+    },
+    "button": "Continue →"
+  },
+  "choose_approach": {
+    "title": "O que parece certo para você?",
+    "desc": "Escolha um pequeno passo que pareça possível.",
+    "safety": "Você não precisa consertar tudo — apenas escolha um pequeno passo.",
+    "button": "Tente →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Envie um check-in casual",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Reconheça a tensão",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Dê um pouco de espaço um ao outro",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Deixe pra lá e siga em frente",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Apenas reflita sobre isso",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Envie uma mensagem calorosa",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Diga honestamente o que aconteceu",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Comprometa-se a pausar da próxima vez",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Escolha a paz em vez de estar certo",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflita sobre o que você realmente precisa",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Envie uma nota profissional",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Aborde com respeito",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Planeje uma resposta mais calma da próxima vez",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Mantenha o profissionalismo e siga em frente",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Pense nos limites",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Entre em contato com uma mensagem simples",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Reconheça o que aconteceu",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Faça uma pausa da próxima vez",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Deixa pra lá por enquanto",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Apenas refletir (ainda sem ação)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Toque para ver como ✨",
+    "copy_button": "📋 Copiar a mensagem",
+    "done_button": "Cansei →",
+    "safety_line_default": "Você não precisa enviar nada agora. 💛",
+    "safety_line_pause": "Vá com calma — não há pressa. 💛",
+    "safety_line_reflect": "Isso é só para você—ninguém mais precisa ver isso. 💛",
+    "actions": {
+      "message": {
+        "title": "Envie uma Mensagem Simples",
+        "why": "Uma mensagem simples pode quebrar o silêncio e mostrar para a outra pessoa que você ainda se importa.",
+        "insight": "Estender a mão — mesmo que de forma imperfeita — quase sempre é recebido melhor do que esperamos.",
+        "howTitle": "Comece pequeno",
+        "howBody": "Você não precisa escrever uma redação. Algumas palavras honestas podem abrir a porta para uma reconexão.",
+        "prompts": [
+          "Ei, estive pensando em você. Espero que você esteja bem.",
+          "Eu sei que as coisas estavam tensas — só queria dizer que me importo.",
+          "Desculpe pelo que aconteceu antes. Podemos conversar quando você estiver pronta?"
+        ],
+        "promptLabel": "Escolha um ponto de partida:",
+        "editLabel": "Faça seu mesmo:"
+      },
+      "acknowledge": {
+        "title": "Reconheça o que aconteceu",
+        "why": "Reconhecer o que aconteceu mostra maturidade e ajuda a outra pessoa a se sentir vista.",
+        "insight": "As pessoas não precisam que você seja perfeita — elas precisam saber que você percebeu.",
+        "howTitle": "Diga com delicadeza",
+        "howBody": "Você pode reconhecer sem assumir toda a culpa. É só dizer o que aconteceu honestamente.",
+        "prompts": [
+          "Eu sei que as coisas esquentaram entre nós. Quero que saiba que percebi.",
+          "Percebo que posso ter sido duro. Não era minha intenção.",
+          "Tenho refletido sobre o que aconteceu e gostaria de ter lidado com isso de outra forma."
+        ],
+        "promptLabel": "Escolha um ponto de partida:",
+        "editLabel": "Faça seu mesmo:"
+      },
+      "pause": {
+        "title": "Faça uma pausa na próxima vez",
+        "why": "Comprometer-se com uma pausa te dá espaço para responder em vez de reagir.",
+        "insight": "Uma pausa de 6 segundos geralmente é suficiente para mudar da reação para a reflexão.",
+        "howTitle": "🧘 Planeje sua pausa",
+        "howBody": "Pense em um comando simples — como respirar fundo ou se afastar brevemente — antes de responder.",
+        "prompts": [
+          "Da próxima vez que eu ficar chateado, respiro fundo antes de responder.",
+          "Vou tentar dizer 'Me dê um momento' em vez de reagir imediatamente.",
+          "Vou me afastar por alguns minutos para organizar meus pensamentos."
+        ],
+        "promptLabel": "Escolha um compromisso que pareça certo:",
+        "editLabel": "Escreva sua própria intenção:"
+      },
+      "letgo": {
+        "title": "Deixe pra lá por enquanto",
+        "why": "Às vezes, a coisa mais gentil que você pode fazer é aliviar o peso da situação.",
+        "insight": "Deixar ir não é desistir—é escolher a paz em vez de estar certo.",
+        "howTitle": "🕊️ Solte suavemente",
+        "howBody": "Você não precisa esquecer. Apenas decida que isso não precisa mais controlar como você se sente.",
+        "prompts": [
+          "Estou escolhendo deixar isso para lá—não porque não importasse, mas porque minha paz importa mais.",
+          "Eu liberto a necessidade de estar certo sobre isso. Eu escolho conexão.",
+          "Essa situação não define nosso relacionamento. Estou seguindo em frente."
+        ],
+        "promptLabel": "Escolha o que ressoar:",
+        "editLabel": "Escreva o que parece verdadeiro para você:"
+      },
+      "reflect": {
+        "title": "Apenas Reflita",
+        "why": "A reflexão constrói autoconsciência, que é a base de todo relacionamento saudável.",
+        "insight": "Escrever em um diário ou até mesmo pensar no que aconteceu ajuda a processar emoções sem pressão.",
+        "howTitle": "🔍 Olhe para dentro",
+        "howBody": "Pergunte a si mesmo: O que eu realmente sentia por trás da raiva? Muitas vezes é dor, medo ou decepção.",
+        "prompts": [
+          "Por baixo da minha raiva, acho que estava me sentindo magoado.",
+          "Percebo que reagi por medo de não ser ouvido.",
+          "O que eu realmente precisava era me sentir respeitado e valorizado."
+        ],
+        "promptLabel": "Escolha o que ressoar:",
+        "editLabel": "Escreva sua própria reflexão:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Conexão Reparada",
+    "message": "Você deu um passo corajoso para reparar sua conexão com {{person}}. Pequenas ações intencionais constroem pontes duradouras.",
+    "default_person": "alguém importante"
+  },
+  "toasts": {
+    "save_success": "Progresso do reparo mantido",
+    "save_error": "Falhou em preservar a reflexão",
+    "copy_success": "Mensagem copiada!",
+    "preserving": "Preservando...",
+    "complete_button": "Completar & Salvar"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Reparar e reconectar",
+  "that_s_a_step_forward": "Isso é um passo em frente.",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Você deu um pequeno passo em direção à reparação — e isso importa.",
+  "try_with_someone_else": "Tente com outra pessoa.",
+  "done": "Concluído ✔",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

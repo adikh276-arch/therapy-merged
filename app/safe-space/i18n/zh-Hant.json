@@ -1,0 +1,114 @@
+{
+  "app_title": "安全空間",
+  "nav": [
+    "報到",
+    "輕輕回憶",
+    "觀察",
+    "保持專注",
+    "展望未來"
+  ],
+  "s1": {
+    "title": "我們找個感覺舒適的地方吧。",
+    "description": [
+      "開始之前，請花點時間確認一下…",
+      "你現在感覺如何？",
+      "我們並非在尋找一個完美的“安全港灣”，只是想要一個能讓我們感到哪怕一絲平靜或安心的地方。"
+    ],
+    "placeholder": "你現在感覺如何？",
+    "button": "開始視覺化"
+  },
+  "s2": {
+    "title": "輕輕地把它喚起。",
+    "description": [
+      "想想讓你感到哪怕一絲自在的地方……或是你希望存在的地方。",
+      "現在，請設身處地想像一下…",
+      "你是坐著、站著還是躺著？"
+    ],
+    "button": "繼續"
+  },
+  "s3": {
+    "title": "慢慢環顧四周",
+    "description": [
+      "輕輕環顧四周…",
+      "你看到了什麼？",
+      "現在註意聽聲音……你聽到了什麼？"
+    ],
+    "button": "繼續"
+  },
+  "s4": {
+    "title": "堅持下去",
+    "description": [
+      "這個地方究竟有什麼魔力，讓人感覺哪怕有點安全感或安心感？",
+      "正如你所注意到的…",
+      "同時也要注意你的呼吸。"
+    ],
+    "breathe": "呼吸",
+    "notice": "如果想像起來有困難，那就想想這個地方吧。",
+    "button": "繼續"
+  },
+  "s5": {
+    "title": "把這個帶走",
+    "description": [
+      "注意你現在的感受。即使是微小的改變也很重要。",
+      "看看你能不能把這種感覺保留哪怕5%。"
+    ],
+    "placeholder": "你現在感覺如何？",
+    "button": "完整會話"
+  },
+  "complete": {
+    "title": "會話結束",
+    "message": "這個安全的地方永遠為你敞開。當你需要片刻寧靜時，隨時都可以回到這裡。"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天激勵他人",
+    "share_text": "我在 TherapyMantra 上完成了這個 {{activityName}} 活動，非常喜歡，你也試試看吧，只需點擊連結下載安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}}。",
+    "this_activity": "這項活動",
+    "copied": "已複製！",
+    "copy_message": "複製訊息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "安全空間",
+  "more": "更多的",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "close": "關閉",
+  "previous": "以前的",
+  "more_pages": "更多頁面",
+  "pagination": "分頁",
+  "go_to_previous_page": "回上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "oops_page_not_found": "糟糕！頁面未找到",
+  "return_to_home": "回首頁",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

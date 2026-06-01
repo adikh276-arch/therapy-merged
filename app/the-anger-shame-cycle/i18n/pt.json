@@ -1,0 +1,124 @@
+{
+  "app_title": "Ciclo Raiva-Vergonha",
+  "app_subtitle": "Entendendo o loop • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Por que a raiva continua voltando?",
+      "description": "Pode não ser seu temperamento. Existe um ciclo oculto entre raiva e vergonha — e, uma vez que você vê, tudo muda.",
+      "quote": "\"A maioria das pessoas tenta controlar a raiva. Mas a vergonha é o que silenciosamente mantém tudo funcionando.\"",
+      "button": "Vamos explorar"
+    },
+    "s2": {
+      "tag": "O ciclo",
+      "title": "O loop explicado",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Raiva à tona"
+        },
+        {
+          "emoji": "😔",
+          "label": "Vergonha: \"Eu sou ruim\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "A vergonha é enterrada"
+        },
+        {
+          "emoji": "🔥",
+          "label": "A raiva explode novamente"
+        }
+      ],
+      "button": "Eu vejo"
+    },
+    "s3": {
+      "tag": "O que está acontecendo",
+      "title": "Duas emoções, uma armadilha",
+      "anger": {
+        "title": "🔥 Raiva",
+        "desc": "Uma emoção secundária — por baixo de vidas de dor, medo ou rejeição. É o alarme, não o fogo."
+      },
+      "shame": {
+        "title": "😔 Que pena",
+        "desc": "\"Eu sou mau\" — não apenas \"Eu fiz algo ruim.\" Ela esconde, silencia e mantém o ciclo girando."
+      },
+      "button": "Quebrando a Liberdade"
+    },
+    "s4": {
+      "tag": "Interrupção",
+      "title": "Interrompa o ciclo",
+      "steps": [
+        {
+          "title": "Diga a fonte",
+          "desc": "Pergunte: 'O que eu realmente estou sentindo?' Machucado? Com medo? Invisível? Dar nome a enfraquece."
+        },
+        {
+          "title": "Pausa de compaixão",
+          "desc": "Mão no peito. Diga: 'Isso é difícil. Eu sou humano. Eu consigo superar isso.'"
+        },
+        {
+          "title": "Repare com graça",
+          "desc": "Faça as pazes se necessário — mas não entre em espiral. Você não é seu pior momento."
+        }
+      ],
+      "notice": "Perceber o ciclo já é o primeiro passo. Você está fazendo o trabalho.",
+      "button": "Atividade Completa"
+    }
+  },
+  "complete": {
+    "title": "Ciclo Interrompido",
+    "message": "Você ganhou consciência para ver a ligação entre raiva e vergonha. Essa é a base para a liberdade emocional duradoura."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Entendendo o loop • {{step}}/{{total}}",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

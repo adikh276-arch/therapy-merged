@@ -1,0 +1,125 @@
+{
+  "app_title": "หยุดการฝึกชั่วคราว",
+  "app_subtitle": "เชี่ยวชาญช่องว่างระหว่าง",
+  "intro": {
+    "title": "หยุดชั่วคราว 5 วินาที",
+    "description": "การหยุดชั่วคราวเล็กน้อยระหว่างความรู้สึกและปฏิกิริยาสามารถเปลี่ยนทุกอย่างได้",
+    "duration": "ใช้เวลาน้อยกว่า 15 วินาที จริงๆ.",
+    "button": "ลอง→"
+  },
+  "scenario": {
+    "title": "อะไรกระตุ้นคุณ?",
+    "desc": "เลือกสถานการณ์ที่คุณเกี่ยวข้อง",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "มีคนขัดจังหวะฉัน",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "สิ่งต่าง ๆ ไม่เป็นไปตามแผนที่วางไว้",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "ฉันรู้สึกถูกเพิกเฉย",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "ฉันรู้สึกหนักใจ",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "พิมพ์ของคุณเอง...",
+    "button": "ฝึกหยุดชั่วคราว →"
+  },
+  "hold": {
+    "title": "กดค้างไว้เพื่อหยุดชั่วคราว ⏸️",
+    "instructions": "กดวงกลมค้างไว้ 5 วินาที",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "กดค้างไว้..."
+      },
+      {
+        "at": "0.15",
+        "text": "อยู่กับมัน..."
+      },
+      {
+        "at": "0.5",
+        "text": "คุณกําลังทําอยู่..."
+      },
+      {
+        "at": "0.8",
+        "text": "ใกล้จะถึงแล้ว..."
+      }
+    ]
+  },
+  "result": {
+    "title": "นั่นคือการหยุดชั่วคราว",
+    "message": "คุณแค่สร้างช่องว่างระหว่างสิ่งที่คุณรู้สึกกับวิธีที่คุณตอบสนอง แม้แต่การหยุดชั่วคราวเพียงเล็กน้อยก็ช่วยให้คุณเรียกคืนจุดศูนย์กลางของคุณได้",
+    "tip_label": "เคล็ดลับสําหรับมือโปร",
+    "scenario_messages": {
+      "interrupts": "ครั้งต่อไปที่มีคนขัดจังหวะคุณ ให้ลองทําสิ่งนี้ก่อนตอบกลับ",
+      "plans": "ครั้งต่อไปที่สิ่งต่าง ๆ ไม่เป็นไปตามแผนที่วางไว้ ให้ลองทําสิ่งนี้ก่อนตอบสนอง",
+      "ignored": "ครั้งต่อไปที่คุณรู้สึกว่าถูกเพิกเฉย ให้ลองทําเช่นนี้ก่อนตอบกลับ",
+      "overwhelmed": "ครั้งต่อไปที่คุณรู้สึกหนักใจ ให้ลองทําสิ่งนี้ก่อนทําอะไร",
+      "other": "ครั้งต่อไปที่คุณรู้สึกถูกกระตุ้น ให้ลองทําสิ่งนี้ก่อนตอบสนอง"
+    },
+    "italic": "มันจะไม่รู้สึกง่ายเสมอไป แต่ความสม่ําเสมอเป็นกุญแจสําคัญ"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ควบคุมช่องว่างระหว่างกัน",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

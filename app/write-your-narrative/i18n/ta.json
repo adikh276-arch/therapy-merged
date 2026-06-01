@@ -1,0 +1,125 @@
+{
+  "app_title": "உங்கள் கதை",
+  "nav": {
+    "entry": "நல்வரவு",
+    "writing": "வெளிப்படுத்துகிறது",
+    "landing": "பிரதிபலிப்பு",
+    "history": "உங்கள் பயணம்"
+  },
+  "entry": {
+    "title": "ஒரு நேரத்தில் இதை ஒரு படி எடுப்போம். 💛",
+    "description": [
+      "இன்று உங்கள் முழு கதையையும் நீங்கள் சொல்ல வேண்டியதில்லை. ஒரு சிறிய பகுதி போதுமானது.",
+      "நீங்கள் இப்போது பாதுகாப்பாக இருக்கிறீர்கள். நீங்கள் என்ன எழுதுகிறீர்கள் என்பதையும், நீங்கள் எழுதாததையும் நீங்கள் கட்டுப்படுத்துகிறீர்கள்."
+    ],
+    "breath": "நாங்கள் தொடங்குவதற்கு முன் மெதுவாக மூச்சு விடுங்கள்.",
+    "button_ready": "நான் தயாராக இருக்கிறேன்",
+    "button_history": "கடந்த கால விவரிப்புகள்",
+    "footer": "உங்கள் வார்த்தைகள் • உங்கள் வேகம் • உங்கள் கதை"
+  },
+  "writing": {
+    "title": "சரி என்று ✨ தோன்றுவதை எழுதுங்கள்",
+    "subtitle": "உங்கள் வார்த்தைகள், உங்கள் வேகம்",
+    "prompt_label": "ஒரு தொடக்க புள்ளி தேவையா?",
+    "prompts": [
+      {
+        "text": "எனக்கு அதிகம் ஞாபகம் இருப்பதுதான்...",
+        "emoji": "💭"
+      },
+      {
+        "text": "அந்த நேரத்தில், நான் உணர்ந்தேன்...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "அப்போதிருந்து, நான் கவனித்தேன் ...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "இங்கே எழுதத் தொடங்குங்கள்...",
+    "notice": "இதைச் செய்ய சரியான வழி இல்லை. ஒரு சில வரிகள் கூட போதும்.",
+    "button": "எழுதுவதை முடிக்கவும்"
+  },
+  "landing": {
+    "title": "நீங்கள் முக்கியமான ஒன்றைச் செய்தீர்கள்.",
+    "subtitle": "நீங்களே காட்டியதற்கு நன்றி.",
+    "settle_title": "தீர்வு காண ஒரு கணம் எடுத்துக்கொள்வோம்",
+    "steps": [
+      "சுற்றிப் பார்த்து நீங்கள் பார்க்கக்கூடிய 3 விஷயங்களுக்கு பெயரிடுங்கள்.",
+      "மெதுவாக மூச்சு விடுங்கள்... மற்றும் வெளியே."
+    ],
+    "feeling_label": "இப்போது, நான் உணர்கிறேன்:",
+    "feeling_placeholder": "ஓரிரு வார்த்தைகள்...",
+    "quote": "\"நீங்கள் எல்லாவற்றையும் ஒரே நேரத்தில் எடுத்துச் செல்ல வேண்டியதில்லை. நீங்கள் தயாராக இருக்கும்போது திரும்பி வரலாம்.",
+    "button_save": "கதையைப் பாதுகாக்கவும்",
+    "button_preserving": "பாதுகாக்கிறது..."
+  },
+  "history": {
+    "title": "உங்கள் பயணம் 📝",
+    "subtitle": "கடந்தகால கதைகள் மற்றும் பிரதிபலிப்புகள்",
+    "empty": "நீங்கள் இன்னும் எந்த உள்ளீடுகளையும் சேமிக்கவில்லை. உங்கள் நேரத்தை எடுத்துக் கொள்ளுங்கள் - அவசரம் இல்லை.",
+    "no_writing": "எழுத்து பாதுகாக்கப்படவில்லை",
+    "button_back": "செயல்பாட்டிற்குத் திரும்பு"
+  },
+  "complete": {
+    "title": "கதை பாதுகாக்கப்பட்டது",
+    "message": "உங்கள் கதையைச் சொல்வதில் நீங்கள் ஒரு சக்திவாய்ந்த படியை எடுத்துள்ளீர்கள். உங்கள் முன்னோக்கு முக்கியமானது, உங்கள் பயணம் தனித்துவமாக உங்களுடையது."
+  },
+  "toasts": {
+    "save_success": "கதை பாதுகாக்கப்பட்டது",
+    "save_error": "கதையைப் பாதுகாக்கத் தவறிவிட்டது",
+    "auth_error": "அங்கீகார அமர்வு காணவில்லை அல்லது DB உள்ளமைக்கப்படவில்லை"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "மீண்டும் தொடங்கு",
+    "finish_exit": "முடித்துவிட்டு வெளியேறவும்",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "முடிக்க வேண்டிய நேரம்",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "பகிர்",
+    "share_progress": "முன்னேற்றத்தைப் பகிரவும்",
+    "inspire_others": "இன்று மற்றவர்களுக்கு ஊக்கமளியுங்கள்",
+    "share_text": "நான் தெரபிமந்த்ராவில் இந்த {{activityName}} செயல்பாட்டைச் செய்துள்ளேன், அது எனக்கு மிகவும் பிடித்திருக்கிறது. நீங்களும் இதைச் செய்யலாம், ஆண்ட்ராய்டு செயலி {{androidUrl}} அல்லது ஐஓஎஸ் செயலி {{iosUrl}} இணைப்பைப் பின்தொடரவும்.",
+    "this_activity": "இந்த செயல்பாடு",
+    "copied": "நகலெடுக்கப்பட்டது!",
+    "copy_message": "செய்தியை நகலெடுக்கவும்",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "உங்கள் கதை",
+  "more": "மேலும்",
+  "breadcrumb": "ரொட்டித்தூள்",
+  "previous_slide": "முந்தைய ஸ்லைடு",
+  "next_slide": "அடுத்த ஸ்லைடு",
+  "close": "அருகில்",
+  "previous": "முந்தைய",
+  "more_pages": "மேலும் பக்கங்கள்",
+  "pagination": "பக்க எண்",
+  "go_to_previous_page": "முந்தைய பக்கத்திற்குச் செல்லவும்",
+  "go_to_next_page": "அடுத்த பக்கத்திற்குச் செல்லவும்",
+  "toggle_sidebar": "பக்கப் பட்டியை மாற்று",
+  "remove_this": "இதை அகற்று",
+  "oops_page_not_found": "அச்சச்சோ! பக்கம் காணப்படவில்லை",
+  "return_to_home": "முகப்புக்குத் திரும்பு",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

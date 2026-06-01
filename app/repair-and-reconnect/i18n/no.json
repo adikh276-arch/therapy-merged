@@ -1,0 +1,292 @@
+{
+  "app_title": "Reparasjon og gjenforening",
+  "steps": {
+    "welcome": "Velkommen",
+    "choose_person": "Velg person",
+    "choose_approach": "Velg tilnærming",
+    "guided_action": "Ledet handling",
+    "complete": "Komplett"
+  },
+  "intro": {
+    "title": "Reparasjon og gjenforening",
+    "description": "Sinne kan skape avstand mellom oss og de vi bryr oss om. Men små, forsiktige steg kan hjelpe til med å gjenoppbygge den forbindelsen.",
+    "quote": "\"Reparasjon betyr ikke at du tok feil—det betyr at du bryr deg nok til å prøve.\"",
+    "small_efforts": "Selv små anstrengelser kan utgjøre en forskjell.",
+    "button": "Start →"
+  },
+  "choose_person": {
+    "title": "Hvem ønsker du å gjenoppta kontakten med?",
+    "desc": "Å tenke på et spesifikt forhold hjelper til med å få stegene til å føles ekte.",
+    "options": {
+      "friend": "En venn",
+      "family": "Et familiemedlem",
+      "colleague": "En kollega",
+      "other": "Noen andre"
+    },
+    "button": "Fortsett →"
+  },
+  "choose_approach": {
+    "title": "Hva føles riktig for deg?",
+    "desc": "Velg ett lite steg som føles gjennomførbart.",
+    "safety": "Du trenger ikke å fikse alt—bare velg ett lite steg.",
+    "button": "Prøv denne →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Send en uformell innsjekking",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Anerkjenn spenningen",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Gi hverandre litt plass",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Slipp det og gå videre",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Bare reflekter over det",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Send en varm melding",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Nevn ærlig hva som skjedde",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Forplikt deg til å pause neste gang",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Velg fred fremfor å ha rett",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflekter over hva du egentlig trenger",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Send en profesjonell melding",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Ta det opp med respekt",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Planlegg en roligere respons neste gang",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Hold det profesjonelt og gå videre",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Tenk på grenser",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Ta kontakt med en enkel melding",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Anerkjenn det som skjedde",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Ta en pause neste gang",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "La det ligge for nå",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Bare reflekter (ingen handling ennå)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Trykk for å se hvordan ✨",
+    "copy_button": "📋 Kopier melding",
+    "done_button": "Jeg er ferdig →",
+    "safety_line_default": "Du trenger ikke sende noe nå. 💛",
+    "safety_line_pause": "Ta den tiden du trenger—det haster ikke. 💛",
+    "safety_line_reflect": "Dette er bare for deg—ingen andre trenger å se dette. 💛",
+    "actions": {
+      "message": {
+        "title": "Send en enkel melding",
+        "why": "En enkel melding kan bryte stillheten og vise den andre personen at du fortsatt bryr deg.",
+        "insight": "Å ta kontakt – selv om det ikke er perfekt – blir nesten alltid mottatt bedre enn vi forventer.",
+        "howTitle": "Start i det små",
+        "howBody": "Du trenger ikke å skrive et essay. Noen ærlige ord kan åpne døren for gjenforening.",
+        "prompts": [
+          "Hei, jeg har tenkt på deg. Håper du har det bra.",
+          "Jeg vet at ting var anspent – ville bare si at jeg bryr meg.",
+          "Beklager det som skjedde tidligere. Kan vi snakke når du er klar?"
+        ],
+        "promptLabel": "Velg et utgangspunkt:",
+        "editLabel": "Gjør den til din:"
+      },
+      "acknowledge": {
+        "title": "Anerkjenn hva som skjedde",
+        "why": "Å erkjenne det som skjedde viser modenhet og hjelper den andre personen å føle seg sett.",
+        "insight": "Folk trenger ikke at du er perfekt – de må vite at du har lagt merke til det.",
+        "howTitle": "Navngi det forsiktig",
+        "howBody": "Du kan erkjenne uten å ta all skylden. Bare si hva som skjedde ærlig.",
+        "prompts": [
+          "Jeg vet at ting ble opphetet mellom oss. Jeg vil at du skal vite at jeg la merke til det.",
+          "Jeg innser at jeg kanskje har virket hard. Det var ikke min hensikt.",
+          "Jeg har reflektert over det som skjedde, og jeg skulle ønske jeg hadde håndtert det annerledes."
+        ],
+        "promptLabel": "Velg et utgangspunkt:",
+        "editLabel": "Gjør den til din:"
+      },
+      "pause": {
+        "title": "Ta en pause neste gang",
+        "why": "Å forplikte seg til en pause gir deg rom til å svare i stedet for å reagere.",
+        "insight": "En seks sekunders pause er ofte nok til å gå fra reaksjon til refleksjon.",
+        "howTitle": "🧘 Planlegg pausen din",
+        "howBody": "Tenk på et enkelt signal—som å trekke pusten eller trekke deg litt unna—før du svarer.",
+        "prompts": [
+          "Neste gang jeg føler meg opprørt, skal jeg ta et dypt pust før jeg svarer.",
+          "Jeg skal prøve å si 'Gi meg et øyeblikk' i stedet for å reagere umiddelbart.",
+          "Jeg tar en pause noen minutter for å samle tankene mine."
+        ],
+        "promptLabel": "Velg en forpliktelse som føles riktig:",
+        "editLabel": "Skriv din egen intensjon:"
+      },
+      "letgo": {
+        "title": "La det ligge for nå",
+        "why": "Noen ganger er det snilleste du kan gjøre å slippe vekten av situasjonen.",
+        "insight": "Å gi slipp er ikke å gi opp—det er å velge fred fremfor å ha rett.",
+        "howTitle": "🕊️ Slipp forsiktig",
+        "howBody": "Du trenger ikke å glemme. Bare bestem deg for at dette ikke trenger å kontrollere hvordan du føler deg lenger.",
+        "prompts": [
+          "Jeg velger å gi slipp på dette—ikke fordi det ikke betydde noe, men fordi min fred betyr mer.",
+          "Jeg gir slipp på behovet for å ha rett om dette. Jeg velger forbindelse.",
+          "Denne situasjonen definerer ikke forholdet vårt. Jeg går videre."
+        ],
+        "promptLabel": "Velg det som treffer meg:",
+        "editLabel": "Skriv det som føles sant for deg:"
+      },
+      "reflect": {
+        "title": "Bare reflekter",
+        "why": "Refleksjon bygger selvbevissthet, som er grunnlaget for ethvert sunt forhold.",
+        "insight": "Å skrive dagbok eller til og med tenke gjennom hva som skjedde hjelper deg å bearbeide følelser uten press.",
+        "howTitle": "🔍 Se innover",
+        "howBody": "Spør deg selv: Hva følte jeg egentlig under sinnet? Ofte er det smerte, frykt eller skuffelse.",
+        "prompts": [
+          "Under sinnet mitt tror jeg at jeg følte meg såret.",
+          "Jeg innser at jeg reagerte ut fra frykt for ikke å bli hørt.",
+          "Det jeg virkelig trengte, var å føle meg respektert og verdsatt."
+        ],
+        "promptLabel": "Velg det som treffer meg:",
+        "editLabel": "Skriv din egen refleksjon:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Forbindelsen reparert",
+    "message": "Du har tatt et modig steg mot å reparere forbindelsen din med {{person}}. Små, bevisste handlinger bygger varige broer.",
+    "default_person": "noen viktige"
+  },
+  "toasts": {
+    "save_success": "Reparasjonsfremdriften bevares",
+    "save_error": "Klarte ikke å bevare refleksjonen",
+    "copy_success": "Melding kopiert!",
+    "preserving": "Bevare...",
+    "complete_button": "Fullfør og lagre"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Reparer og koble til igjen",
+  "that_s_a_step_forward": "Det er et skritt fremover",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Du tok et lite skritt mot reparasjon – og det er viktig.",
+  "try_with_someone_else": "Prøv med noen andre",
+  "done": "Ferdig ✔",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

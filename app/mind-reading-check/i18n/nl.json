@@ -1,0 +1,144 @@
+{
+  "app_title": "Gedachtenleescontrole",
+  "intro": {
+    "title": "Gedachtenleescontrole",
+    "description": "Stel vragen bij de aannames die je maakt over wat anderen denken.",
+    "benefits": [
+      "Stop met het ergste aannemen",
+      "Identificeer bevooroordeelde interpretaties",
+      "Bouw duidelijkere communicatie op"
+    ],
+    "duration": "3-4 minuten",
+    "view_past": "Bekijk eerdere reflecties"
+  },
+  "history": {
+    "title": "Eerdere Overdenkingen",
+    "no_entries": "Nog geen inzendingen",
+    "belief_label": "Geloof: {{level}}%",
+    "balanced_thought_label": "Evenwichtig Denken"
+  },
+  "complete": {
+    "title": "Activiteit voltooid",
+    "great_insights": "Geweldige inzichten!",
+    "message": "Door je aannames in twijfel te trekken, bouw je een objectievere en meelevende geest op."
+  },
+  "steps": {
+    "label": "Stap {{current}} van 10",
+    "step1": {
+      "title": "Wat is er gebeurd?",
+      "desc": "Beschrijf een recent moment waarop je je beoordeeld of onzeker voelde.",
+      "placeholder": "Beschrijving van de situatie..."
+    },
+    "step2": {
+      "title": "Wat ging er door je hoofd?",
+      "desc": "Wat dacht je dat ze over jou dachten?",
+      "placeholder": "Ik dacht dat ze dachten..."
+    },
+    "step3": {
+      "title": "Laten we dit wat rustiger aan doen",
+      "desc": "Op dit moment kan deze gedachte waar aanvoelen. Maar voordat we het als feit accepteren, laten we er eerst even afstand van nemen en er beter naar kijken.",
+      "button": "Pauze & Doorgaan"
+    },
+    "step4": {
+      "title": "Is dit waar?",
+      "desc": "Is er enig duidelijk bewijs (feiten, geen aannames) dat deze gedachte ondersteunt?",
+      "placeholder": "Het bewijs dat ik zie is..."
+    },
+    "step5": {
+      "title": "Wat zou er nog meer aan de hand kunnen zijn?",
+      "desc": "Wat zijn 2–3 andere mogelijke verklaringen?",
+      "placeholder": "Mogelijkheid {{num}}..."
+    },
+    "step6": {
+      "title": "Controleer je geloof",
+      "desc": "Hoe sterk geloof je nu in je oorspronkelijke gedachte?",
+      "labels": [
+        "Helemaal niet",
+        "Helemaal"
+      ]
+    },
+    "step7": {
+      "title": "Een meer evenwichtige kijk",
+      "desc": "Schrijf een gedachte die eerlijker en minder zeker aanvoelt.",
+      "placeholder": "Een meer evenwichtige gedachte..."
+    },
+    "step8": {
+      "title": "Volgende keer",
+      "desc": "Wat zou je kunnen doen in plaats van aan te nemen?",
+      "examples": [
+        "Vraag om verduidelijking",
+        "Geef het wat tijd",
+        "Let op zonder te reageren"
+      ],
+      "placeholder": "De volgende keer zou ik..."
+    },
+    "step9": {
+      "title": "Let op de verschuiving",
+      "desc": "Je hebt verschillende mogelijkheden verkend en ruimte gecreëerd voor een meer evenwichtige kijk.",
+      "original_label": "Oorspronkelijke gedachte",
+      "balanced_label": "Evenwichtig perspectief",
+      "button": "Eindreflectie"
+    },
+    "step10": {
+      "title": "Een kleine verandering",
+      "desc": "Je geest probeert de gaten op te vullen. Maar niet elke gedachte is een feit. Een stap terug doen helpt je om dingen helderder te zien.",
+      "button": "Volledige activiteit"
+    }
+  },
+  "buttons": {
+    "continue": "Ga verder",
+    "restart": "Herstart"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Gedachten lezen test",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

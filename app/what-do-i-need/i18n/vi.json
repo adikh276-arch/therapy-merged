@@ -1,0 +1,217 @@
+{
+  "app_title": "Tôi cần gì?",
+  "app_subtitle": "Kiểm tra với chính mình",
+  "screens": {
+    "s1": {
+      "title": "Tôi cần gì ngay bây giờ?",
+      "description": "Một khoảnh khắc để dừng lại và lắng nghe những gì trái tim bạn đang yêu cầu.",
+      "button": "Bắt đầu làm thủ tục chuyến bay"
+    },
+    "s2": {
+      "select": {
+        "title": "Điều gì cảm thấy quan trọng?",
+        "placeholder": "Một cái gì đó khác...",
+        "add_button": "Thêm",
+        "button": "Tiếp tục"
+      },
+      "prioritize": {
+        "title": "Cái nào là chính?"
+      },
+      "focus": {
+        "tag": "Trọng tâm của bạn ngay bây giờ",
+        "button": "Tiếp tục"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Tiếp tục"
+      },
+      "action": {
+        "title": "Một bước tiến nhỏ?",
+        "placeholder": "Hoặc viết của riêng bạn...",
+        "button": "Đánh giá phản ánh"
+      },
+      "closing": {
+        "tag_need": "Nhu cầu chính",
+        "tag_insight": "Cái nhìn sâu sắc của bạn",
+        "tag_action": "Hành động nhỏ",
+        "save_button": "Lưu & Kết thúc",
+        "finish_button": "Kết thúc mà không cần lưu"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Hỗ trợ tinh thần",
+      "prompt": "Loại hỗ trợ nào sẽ thực sự giúp bạn ngay bây giờ?",
+      "hints": [
+        "Tôi chỉ cần ai đó...",
+        "Sẽ hữu ích nếu...",
+        "Điều tôi thực sự muốn là..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Không gian / thời gian cho bản thân",
+      "prompt": "Có không gian đó sẽ như thế nào đối với bạn?",
+      "hints": [
+        "Tôi sẽ sử dụng thời gian đó để...",
+        "Không gian sẽ cho phép tôi...",
+        "Tôi cần chỗ để..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Giao tiếp rõ ràng",
+      "prompt": "Giao tiếp rõ ràng hơn sẽ như thế nào đối với bạn?",
+      "hints": [
+        "Tôi ước gì tôi có thể nói...",
+        "Nếu họ thực sự lắng nghe, tôi sẽ nói với họ...",
+        "Giao tiếp cảm thấy khó khăn khi..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Đảm bảo",
+      "prompt": "Loại trấn an nào sẽ cảm thấy có ý nghĩa?",
+      "hints": [
+        "Tôi cần nghe điều đó...",
+        "Nó sẽ làm tôi bình tĩnh khi biết...",
+        "Tôi cứ lo lắng rằng..."
+      ]
+    },
+    "Understanding": {
+      "label": "Hiểu biết",
+      "prompt": "Cảm giác thực sự được hiểu sẽ như thế nào?",
+      "hints": [
+        "Tôi ước mọi người biết rằng...",
+        "Những gì tôi thực sự cảm thấy là...",
+        "Không ai thấy rằng tôi..."
+      ]
+    },
+    "Stability": {
+      "label": "Tính ổn định",
+      "prompt": "Sự ổn định sẽ như thế nào trong cuộc sống của bạn ngay bây giờ?",
+      "hints": [
+        "Tôi cần mọi thứ để cảm nhận...",
+        "Điều khiến tôi trở nên khó khăn là...",
+        "Ổn định có nghĩa là..."
+      ]
+    },
+    "Honesty": {
+      "label": "Trung thực",
+      "prompt": "Sự trung thực hơn sẽ như thế nào trong tình huống của bạn?",
+      "hints": [
+        "Sự thật tôi cần phải đối mặt là...",
+        "Tôi muốn thành thật về...",
+        "Những gì thực sự đang xảy ra là..."
+      ]
+    },
+    "Respect": {
+      "label": "Tôn trọng",
+      "prompt": "Sự tôn trọng trông như thế nào đối với bạn ngay bây giờ?",
+      "hints": [
+        "Tôi xứng đáng được đối xử...",
+        "Sự tôn trọng sẽ giống như...",
+        "Tôi cần mọi người..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Sự rõ ràng về mối quan hệ",
+      "prompt": "Loại rõ ràng nào sẽ giúp bạn nhiều nhất?",
+      "hints": [
+        "Tôi cần biết nếu...",
+        "Điều khiến tôi bối rối là...",
+        "Tôi muốn chúng ta rõ ràng về..."
+      ]
+    },
+    "default": {
+      "prompt": "Điều này sẽ như thế nào trong một tình huống thực tế?",
+      "hints": [
+        "Những gì xuất hiện trong tâm trí là...",
+        "Ngay bây giờ tôi cảm thấy...",
+        "Nếu tôi thành thật với bản thân..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Nói điều gì đó một cách trung thực"
+    },
+    {
+      "label": "Dành thời gian cho bản thân"
+    },
+    {
+      "label": "Liên hệ với ai đó"
+    },
+    {
+      "label": "Đặt ranh giới nhỏ"
+    },
+    {
+      "label": "Chưa chắc chắn"
+    }
+  ],
+  "history": {
+    "title": "Suy ngẫm trong quá khứ",
+    "empty": "Chưa có phản chiếu."
+  },
+  "toasts": {
+    "save_success": "Phản chiếu đã lưu",
+    "save_error": "Không thể lưu phản xạ",
+    "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình"
+  },
+  "complete": {
+    "title": "Làm thủ tục chuyến bay hoàn tất",
+    "message": "Bạn đã xác định rằng bạn cần \"{{need}}\". Tôn trọng nhu cầu của bạn là một hình thức chăm sóc bản thân quan trọng."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Hãy tự kiểm tra bản thân mình.",
+  "past_reflections": "Những suy ngẫm trong quá khứ",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

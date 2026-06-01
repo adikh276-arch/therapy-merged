@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Tarik napas 🌿 dalam-dalam",
+    "title": "Kelola Stres Anda",
+    "description": "Kebiasaan sehari-hari sederhana untuk membantu Anda merasa lebih tenang dan lebih terkendali.",
+    "sectionTitle": "Tips Penghilang Stres Harian"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Dapatkan Tidur Nyenyak",
+      "description": "Targetkan tidur 7-9 jam setiap malam. Cobalah untuk tidur dan bangun pada waktu yang sama setiap hari.",
+      "why": "Tidur membantu otak dan tubuh Anda pulih dan menurunkan hormon stres.",
+      "do": [
+        "Pertahankan jadwal tidur tetap",
+        "Hindari layar 1 jam sebelum tidur",
+        "Menjaga ruangan tetap sejuk dan gelap",
+        "Hindari kafein setelah jam 4 sore"
+      ],
+      "button": "Atur Pengingat Tidur"
+    },
+    "breathing": {
+      "title": "Berlatih Pernapasan Dalam",
+      "description": "Luangkan beberapa menit untuk fokus pada napas Anda. Pernapasan lambat mengurangi kecemasan.",
+      "why": "Pernapasan lambat mengaktifkan respons relaksasi tubuh Anda.",
+      "do": [
+        "Tarik napas selama 4 detik",
+        "Tahan selama 4 detik",
+        "Buang napas selama 4 detik",
+        "Ulangi selama 1 menit"
+      ]
+    },
+    "exercise": {
+      "title": "Gerakkan Tubuh Anda",
+      "description": "Berjalan ringan atau peregangan membantu melepaskan stres dan meningkatkan suasana hati.",
+      "why": "Olahraga melepaskan endorfin dan meningkatkan suasana hati.",
+      "do": [
+        "15 menit berjalan kaki",
+        "Peregangan ringan",
+        "Sesi yoga singkat",
+        "Latihan cepat di rumah"
+      ]
+    },
+    "caffeine": {
+      "title": "Batasi Kafein & Gula",
+      "description": "Terlalu banyak kafein dan gula dapat meningkatkan kecemasan dan mengganggu tidur.",
+      "why": "Terlalu banyak kafein dan gula meningkatkan kecemasan dan masalah tidur.",
+      "do": [
+        "Ganti satu kopi dengan teh herbal",
+        "Minum lebih banyak air",
+        "Kurangi camilan manis",
+        "Hindari kafein di sore hari"
+      ]
+    },
+    "planning": {
+      "title": "Rencanakan Hari Anda",
+      "description": "Bagilah tugas-tugas besar menjadi langkah-langkah yang lebih kecil untuk menghindari perasaan kewalahan.",
+      "why": "Perencanaan mengurangi kekacauan mental dan kewalahan.",
+      "do": [
+        "Tulis 3 tugas utama",
+        "Bagi tugas menjadi langkah-langkah kecil",
+        "Fokus pada satu tugas pada satu waktu",
+        "Beristirahatlah sejenak"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Kembali",
+    "notFound": "Tip tidak ditemukan.",
+    "whyTitle": "Mengapa Ini Membantu",
+    "doTitle": "Apa yang Dapat Anda Lakukan",
+    "reminderSet": "Set pengingat! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Halaman tidak ditemukan",
+    "return": "Kembali ke Rumah"
+  },
+  "mood": {
+    "title": "Bagaimana perasaan Anda hari ini?",
+    "great": "Bagus",
+    "okay": "Oke",
+    "stressed": "Stres",
+    "overwhelmed": "Kewalahan"
+  },
+  "breathing": {
+    "inhale": "Tarik napas...",
+    "hold": "Tahan...",
+    "exhale": "Menghembuskan napas...",
+    "pause": "Jeda",
+    "resume": "Lanjutkan"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Meredakan Stres",
+  "app_description": "Meredakan Stres",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "breathing_guide": "Panduan Pernapasan",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

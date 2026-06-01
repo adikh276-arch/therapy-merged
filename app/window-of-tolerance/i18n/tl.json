@@ -1,0 +1,252 @@
+{
+  "app_title": "Window ng Tolerance",
+  "screens": {
+    "welcome": {
+      "title": "Window ng Tolerance",
+      "subtitle": "Unawain ang iyong nervous system.\nHanapin ang iyong daan pabalik sa katahimikan.",
+      "description": "Ang banayad na aktibidad na ito ay makakatulong sa iyo na maunawaan kung nasaan ang iyong nervous system ngayon - at magbibigay sa iyo ng mga tool upang makahanap ng balanse. Pumunta sa iyong sariling bilis. Ligtas ka dito.",
+      "callout": "✨ Huminga ka. Nasa tamang lugar ka.",
+      "button": "Simulan na natin →",
+      "disclaimer": "Ang aktibidad na ito ay isang sumusuporta na tool, hindi isang kapalit para sa propesyonal na therapy."
+    },
+    "explain": {
+      "title": "Ang iyong sistema ng nerbiyos ay may bintana",
+      "zones": {
+        "hyper": {
+          "label": "Hyperarousal",
+          "desc": "Sobrang takot, nag-aalala, wala sa kontrol.",
+          "tag": "🔴 Pula"
+        },
+        "safe": {
+          "label": "Ligtas na Zone",
+          "desc": "Kalmado, naroroon, marunong mag-isip nang malinaw.",
+          "tag": "🟢 Berde"
+        },
+        "hypo": {
+          "label": "Hypoarousal",
+          "desc": "Manhid, naka-disconnect, foggy.",
+          "tag": "🔵 Asul"
+        }
+      },
+      "footer": "Ang trauma ay maaaring itulak ka sa labas ng iyong bintana. Tinutulungan ka nitong makilala kung nasaan ka at bumalik sa loob.",
+      "back": "← Bumalik",
+      "next": "Susunod na →"
+    },
+    "checkin": {
+      "title": "Nasaan ka ngayon?",
+      "subtitle": "Huminga ka. Pagkatapos ay tapat na piliin kung nasaan ka ngayon.",
+      "footer": "Walang maling sagot. Ito ay lamang ang iyong panimulang punto.",
+      "back": "← Bumalik",
+      "next": "Susunod na →",
+      "zones": {
+        "hyper": {
+          "label": "Sa itaas ng aking bintana",
+          "desc": "Nakakaramdam ako ng pagkabalisa, takot, galit, o labis na pagkabalisa."
+        },
+        "safe": {
+          "label": "Sa loob ng Aking Bintana",
+          "desc": "Pakiramdam ko kalmado, kasalukuyan, at grounded."
+        },
+        "hypo": {
+          "label": "Sa ibaba ng Aking Bintana",
+          "desc": "Pakiramdam ko manhid, maulap, o hindi konektado."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Sa Itaas ng Iyong Bintana",
+        "subtitle": "Ang iyong nervous system ay nasa overdrive. Okay lang iyon. Balikan ka namin nang malumanay.",
+        "feelings": [
+          "Puso na tumibok",
+          "Mababaw na paghinga",
+          "Takot o galit",
+          "Karera ng mga saloobin",
+          "Pagkabalisa"
+        ],
+        "tools": [
+          {
+            "name": "Kahon ng Paghinga",
+            "desc": "Huminga 4, buwan 4, huminga 4, buwan 4. Ulitin ang 4 na beses."
+          },
+          {
+            "name": "5-4-3-2-1 Saligan",
+            "desc": "5 bagay na nakikita, 4 hawakan, 3 naririnig, 2 amoy, 1 panlasa."
+          },
+          {
+            "name": "Mga Paa sa Sahig",
+            "desc": "Pindutin ang mga paa pababa, sabihing: 'Nandito ako. Ligtas ako. Lilipas ito.'"
+          }
+        ],
+        "button": "Medyo kalmado ang pakiramdam ko →",
+        "footer": "Ligtas ka. Maglaan ng iyong oras."
+      },
+      "hypo": {
+        "title": "Sa ibaba ng iyong bintana",
+        "subtitle": "Tahimik na ang nervous system mo. Pinoprotektahan ka nito. Marah-hinay nating gisingin ito.",
+        "feelings": [
+          "Pamamanhid",
+          "Pagdiskonekta",
+          "Matinding pagkapagod",
+          "Pakiramdam na hindi totoo",
+          "Flatness"
+        ],
+        "tools": [
+          {
+            "name": "Magiliw na Paggalaw",
+            "desc": "Tumayo ka, maglakad nang dahan-dahan, mag-ugoy ng mga braso. Hayaang magising ang iyong katawan."
+          },
+          {
+            "name": "Tunog ng Ritmo",
+            "desc": "Magpatugtog ng musika nang may matatag na beat, i-tap ang mga paa."
+          },
+          {
+            "name": "Magsalita nang malakas",
+            "desc": "Sabihin ang iyong pangalan, lokasyon, at ang petsa ng araw na ito nang malakas. Balikan ang pag-iisip ng utak."
+          }
+        ],
+        "button": "Pakiramdam ko ay medyo naroroon ako →",
+        "footer": "Maganda ang ginagawa mo. Gawin ito nang hakbang-hakbang."
+      },
+      "safe": {
+        "title": "Sa loob ng Iyong Bintana",
+        "subtitle": "Nasa safe zone ka na. Dito nangyayari ang pagpapagaling, koneksyon, at pag-unlad. Mahusay na ginawa.",
+        "feelings": [
+          "Kasalukuyan at may kamalayan",
+          "Matatag na paghinga",
+          "Malinaw na pag-iisip",
+          "Konektado"
+        ],
+        "tools": [
+          {
+            "name": "Patuloy na huminga nang dahan-dahan",
+            "desc": "Sa pamamagitan ng ilong, sa pamamagitan ng bibig."
+          },
+          {
+            "name": "Sumasalamin",
+            "desc": "Ano ang nakatulong sa iyo na manatili dito? Isulat ito."
+          },
+          {
+            "name": "Pagkahabag sa Sarili",
+            "desc": "\"Ginagawa ng nervous system ko ang trabaho niya. Hindi ako nasira. Nagpapagaling ako.'"
+          }
+        ],
+        "button": "Magpatuloy sa Aking Toolkit →",
+        "footer": "Karapat-dapat kang alagaan at pagalingin."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Ang Iyong Personal na Toolkit",
+      "subtitle": "Ang iyong mga go-to tool - naka-save at handa sa tuwing kailangan mo ang mga ito.",
+      "tools_list": [
+        "🌬️ Kahon ng Paghinga",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Mga Paa sa Sahig",
+        "🚶 Magiliw na Paggalaw",
+        "🎵 Musika",
+        "💬 Magsalita nang malakas"
+      ],
+      "journal_label": "📝 Ang Pagmumuni-muni Ngayon",
+      "journal_desc": "Ano ang isang sandali ngayon nang mapansin mo ang paglipat ng iyong nervous system - at ano ang ginawa mo tungkol dito?",
+      "journal_placeholder": "Sumulat dito...",
+      "history_label": "📊 Ang Iyong Linggo sa Isang Sulyap",
+      "save_button": "I-save at Tapusin ✓",
+      "footer": "Mahalaga ang iyong paglalakbay. Bumalik sa tuwing kailangan mo ng suporta.",
+      "preserving": "Pagpapanatili ...",
+      "preserve_button": "Panatilihin ang Pagmumuni-muni"
+    }
+  },
+  "nav": [
+    "Email Address *",
+    "Pagpapaliwanag",
+    "Pagsubaybay",
+    "Ang Zone",
+    "Toolkit"
+  ],
+  "history": {
+    "title": "Kasaysayan ng Pag-check-in",
+    "empty": "Walang mga check-in pa."
+  },
+  "toasts": {
+    "save_success": "Napanatili ang check-in",
+    "save_error": "Nabigo na mapanatili ang pag-check in",
+    "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB"
+  },
+  "complete": {
+    "title": "Kumpleto ang Pag-check-in",
+    "message": "Matagumpay mong nai-map ang iyong kasalukuyang kalagayan. Ang pagbuo ng kamalayan ay ang unang hakbang patungo sa paghahanap ng iyong balanse."
+  },
+  "days": [
+    "Ang aking",
+    "Tue",
+    "Miyerkules",
+    "Taglagas",
+    "Biyernes",
+    "Umupo",
+    "Araw"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Bintana ng Pagpaparaya",
+  "are_you_sure_you_want_to_exit": "Sigurado ka bang gusto mong lumabas?",
+  "your_unsaved_data_will_be_lost": "Mawawala ang iyong hindi naka-save na data.",
+  "stay": "Manatili",
+  "exit": "Lumabas",
+  "exit_confirmation": "Kumpirmasyon ng paglabas",
+  "check_in_history": "Kasaysayan ng pag-check in",
+  "close": "Isara",
+  "screen_navigation": "Pag-navigate sa screen",
+  "check_in": "Pag-check in",
+  "what_is_the_window_of_tolerance": "Ano ang Window of Tolerance",
+  "your_personal_toolkit": "Ang Iyong Personal na Toolkit",
+  "welcome": "Maligayang pagdating",
+  "view_history": "Tingnan ang kasaysayan",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

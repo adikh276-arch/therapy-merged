@@ -1,0 +1,113 @@
+{
+  "app_title": "Memahami Kontrol",
+  "app_subtitle": "Strategi Bertahan Hidup • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Mengapa Kontrol Bisa Terasa Begitu Kuat",
+      "paragraphs": [
+        "Bagi banyak orang yang mengalami kesulitan makan, kontrol bisa terasa seperti cara untuk menciptakan keamanan.",
+        "Ketika hidup terasa tidak dapat diprediksi atau intens secara emosional, berfokus pada makanan, berat badan, atau rutinitas dapat membawa rasa struktur dan kepastian.",
+        "Ini bukan tentang kemauan atau disiplin. Ini tentang mencoba menstabilkan diri ketika segala sesuatunya terasa tidak pasti.",
+        "Dengan cara ini, kontrol menjadi strategi koping — sesuatu yang membantu Anda merasa membumi, meskipun hanya sementara."
+      ],
+      "microcopy": "Anda tidak sendirian dalam perasaan seperti ini.",
+      "cta": "Lanjutkan"
+    },
+    {
+      "headline": "Cara Berbeda Kontrol Muncul",
+      "intro": "Kebutuhan akan kontrol tidak terlihat sama untuk semua orang, tetapi sering muncul dalam pola seperti:",
+      "bullets": [
+        {
+          "text": "Aturan makanan yang ketat atau tidak fleksibel"
+        },
+        {
+          "text": "Perlu mengikuti rutinitas dengan tepat"
+        },
+        {
+          "text": "Kecemasan ketika rencana berubah"
+        },
+        {
+          "text": "Menghubungkan harga diri dengan bentuk/berat badan"
+        }
+      ],
+      "outro": "Seiring waktu, ini bisa menjadi kaku, memakan ruang mental dan membuatnya lebih sulit untuk beradaptasi.",
+      "microcopy": "Apa yang dimulai sebagai kontrol perlahan-lahan bisa mulai terasa mengendalikan.",
+      "cta": "Lanjutkan"
+    },
+    {
+      "headline": "Di bawah Kontrol",
+      "intro": "Keinginan untuk mengendalikan seringkali memiliki akar yang lebih dalam. Itu dapat dihubungkan ke:",
+      "bullets": [
+        {
+          "text": "Merasa dibanjiri secara emosional"
+        },
+        {
+          "text": "Menginginkan prediktabilitas"
+        },
+        {
+          "text": "Kebutuhan akan stabilitas dan keamanan"
+        }
+      ],
+      "insight": "Kontrol bukanlah masalahnya - itu adalah strategi yang ditemukan pikiran Anda untuk mengatasinya. Dengan waktu dan dukungan, cara lain untuk merasa aman dimungkinkan.",
+      "microcopy": "Pemahaman adalah langkah pertama yang kuat.",
+      "cta": "Selesai Membaca"
+    }
+  ],
+  "complete": {
+    "title": "Kesadaran yang Diperoleh",
+    "message": "Memahami akar kontrol adalah langkah pertama yang berani untuk menemukan cara baru untuk merasa aman dan mantap.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Strategi Bertahan Hidup • {{step}}/3",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,125 @@
+{
+  "app_title": "আপনার আখ্যান",
+  "nav": {
+    "entry": "স্বাগতম",
+    "writing": "প্রকাশ করা",
+    "landing": "প্রতিফলন",
+    "history": "আপনার যাত্রা"
+  },
+  "entry": {
+    "title": "আসুন একবারে একটি পদক্ষেপ নেওয়া যাক। 💛",
+    "description": [
+      "আজ আপনাকে আপনার পুরো গল্পটি বলতে হবে না। মাত্র একটি ছোট অংশই যথেষ্ট।",
+      "আপনি এই মুহূর্তে নিরাপদে আছেন। আপনি কী লিখছেন এবং কী করছেন না তার নিয়ন্ত্রণে রয়েছেন।"
+    ],
+    "breath": "শুরু করার আগে আস্তে আস্তে শ্বাস নিন।",
+    "button_ready": "আমি প্রস্তুত",
+    "button_history": "অতীত আখ্যান",
+    "footer": "আপনার কথা • আপনার গতি • আপনার গল্প"
+  },
+  "writing": {
+    "title": "যা ঠিক মনে ✨ হয় তা লিখুন",
+    "subtitle": "তোমার কথা, তোমার গতি",
+    "prompt_label": "একটি শুরুর পয়েন্ট দরকার?",
+    "prompts": [
+      {
+        "text": "যেটা আমার সবচেয়ে বেশি মনে আছে তা হলো...",
+        "emoji": "💭"
+      },
+      {
+        "text": "সেই সময় আমার মনে হয়েছিল...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "তারপর থেকে, আমি লক্ষ্য করেছি ...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "এখানে লেখালেখি শুরু করুন...",
+    "notice": "এটি করার কোনও সঠিক উপায় নেই। এমনকি কয়েকটা লাইনই যথেষ্ট।",
+    "button": "লেখালেখি শেষ করুন"
+  },
+  "landing": {
+    "title": "আপনি গুরুত্বপূর্ণ কিছু করেছেন।",
+    "subtitle": "নিজের জন্য দেখানোর জন্য আপনাকে ধন্যবাদ।",
+    "settle_title": "আসুন নিষ্পত্তি করার জন্য এক মুহুর্ত সময় নেওয়া যাক",
+    "steps": [
+      "চারপাশে দেখুন এবং আপনি দেখতে পাচ্ছেন এমন 3 টি জিনিসের নাম দিন।",
+      "আস্তে আস্তে শ্বাস নিন... এবং বাইরে।"
+    ],
+    "feeling_label": "এই মুহুর্তে, আমি অনুভব করি:",
+    "feeling_placeholder": "দু-একটা কথা...",
+    "quote": "\"আপনাকে একবারে সবকিছু বহন করতে হবে না। আপনি যখনই প্রস্তুত বোধ করবেন তখনই ফিরে আসতে পারেন।",
+    "button_save": "আখ্যান সংরক্ষণ করুন",
+    "button_preserving": "সংরক্ষণ..."
+  },
+  "history": {
+    "title": "আপনার যাত্রা 📝",
+    "subtitle": "অতীতের আখ্যান ও প্রতিফলন",
+    "empty": "আপনি এখনও কোনও এন্ট্রি সংরক্ষণ করেননি। আপনার সময় নিন - কোনও তাড়াহুড়ো নেই।",
+    "no_writing": "কোন লেখা সংরক্ষণ করা হয়নি",
+    "button_back": "ক্রিয়াকলাপে ফিরে যান"
+  },
+  "complete": {
+    "title": "আখ্যান সংরক্ষিত",
+    "message": "আপনি আপনার গল্প বলার জন্য একটি শক্তিশালী পদক্ষেপ নিয়েছেন। আপনার দৃষ্টিভঙ্গি গুরুত্বপূর্ণ, এবং আপনার যাত্রা অনন্যভাবে আপনার।"
+  },
+  "toasts": {
+    "save_success": "আখ্যান সংরক্ষিত",
+    "save_error": "আখ্যান সংরক্ষণ করতে ব্যর্থ হয়েছে",
+    "auth_error": "অথ সেশন অনুপস্থিত বা DB কনফিগার করা হয়নি"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে। আপনিও এটি করতে পারেন, শুধু অ্যান্ড্রয়েড অ্যাপের {{androidUrl}} অথবা আইওএস অ্যাপের {{iosUrl}} লিঙ্কে যান।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "আপনার আখ্যান",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "remove_this": "এটি সরান",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,102 @@
+{
+  "app_title": "A nem küldött levél",
+  "app_subtitle": "Engedd el a gondolataidat biztonságosan és privátban",
+  "intro": {
+    "title": "A nem küldött levél",
+    "description": [
+      "Néha vannak dolgok, amiket szeretnénk kimondani — de soha nem volt rá lehetőségünk.",
+      "Lehet, hogy azért, mert nem érezte magát biztonságosnak, az időzítés nem volt megfelelő, vagy a szavakat túl nehéz volt kimondani.",
+      "Ez a tevékenység privát teret ad, hogy ezeket a gondolatokat szavakba önthesd.",
+      "Nem kell ezt a levelet elküldened. Ez csak neked szól — hogy jobban kifejezd, elengedd és megértsd az érzéseidet."
+    ],
+    "notice": "Írj szabadon. Senki más nem fogja látni ezt.",
+    "button": "Kezdj el írni →"
+  },
+  "writing": {
+    "title": "Írd meg, amit eddig magadban tartottál",
+    "desc": "Írhatsz a partnerednek, az expartnerednek, vagy akár magának a kapcsolatnak. Nincs helyes vagy rossz módja ennek.",
+    "prompts": [
+      "Úgy érzem...",
+      "Szeretném...",
+      "Sosem mondtam...",
+      "Mi fájt nekem...",
+      "Amire szükségem volt..."
+    ],
+    "placeholder": "Kedves ____,\nMár régóta szeretném mondani...",
+    "notice": "Bármikor megállhatsz és visszatérhetsz.",
+    "button": "Folytasd →"
+  },
+  "reflection": {
+    "title": "Szánj egy pillanatot ezzel",
+    "description": [
+      "Most fejezted ki a gondolataidat és érzéseidet szavakká — ehhez bátorság kell.",
+      "Lehet, hogy most érzelmek vegyes keverékét veszed észre, és ez teljesen rendben van.",
+      "Mielőtt továbblépnél, vegyél egy mély levegőt, és óvatosan nézd meg magad."
+    ],
+    "notice": "Ez a gyógyulásod miatt volt, nem azért, hogy küldj.",
+    "save_button": "Mentse betűt",
+    "finish_button": "Befejezés"
+  },
+  "history": {
+    "title": "Korábbi levelek",
+    "empty_title": "Még nem írtál levelet.",
+    "empty_desc": "A leveleid itt jelennek meg, miután megmented őket."
+  },
+  "toasts": {
+    "save_success": "Levél elmentve a magánnaplódba",
+    "save_error": "Nem sikerült menteni a levelet",
+    "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Újrakezdés",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Elkészítési idő",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Részesedés",
+    "share_progress": "Haladás megosztása",
+    "inspire_others": "Inspirálj másokat még ma",
+    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "this_activity": "ez a tevékenység",
+    "copied": "Másolva!",
+    "copy_message": "Üzenet másolása",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Engedd szabadjára a gondolataidat biztonságosan és privát módon",
+  "more": "Több",
+  "breadcrumb": "navigációs morzsa",
+  "previous_slide": "Előző dia",
+  "next_slide": "Következő dia",
+  "close": "Közeli",
+  "previous": "Előző",
+  "more_pages": "További oldalak",
+  "pagination": "lapszámozás",
+  "go_to_previous_page": "Ugrás az előző oldalra",
+  "go_to_next_page": "Ugrás a következő oldalra",
+  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
+  "oops_page_not_found": "Hoppá! Az oldal nem található.",
+  "return_to_home": "Vissza a kezdőlapra",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,139 @@
+{
+  "app_title": "Peta Makanan & Emosi",
+  "screen_titles": [
+    "Selamat datang",
+    "Corak Makanan",
+    "Dialog Dalaman",
+    "Penderiaan Fizikal",
+    "Peta",
+    "Sokongan Lembut",
+    "Pandangan Akhir",
+    "Mencerminkan"
+  ],
+  "welcome_text": "Hei... Saya sangat gembira anda berada di sini 💛 Mari kita petakan dengan lembut apa yang sedang berlaku.",
+  "coming_up_label": "Apa yang akan berlaku sejak kebelakangan ini?",
+  "begin_mapping": "Mulakan Pemetaan",
+  "food_patterns_q": "Hmm... Saya dengar awak. Apabila anda berasa {{emotion}}... Bagaimanakah makanan biasanya muncul?",
+  "continue_button": "Teruskan",
+  "internal_dialogue_q": "Pada saat-saat itu... Apakah jenis pemikiran yang muncul?",
+  "write_placeholder": "Tulis apa sahaja yang terlintas di fikiran...",
+  "physical_sensing_q": "Jika anda berhenti sebentar... Apa yang anda perhatikan dalam badan anda?",
+  "the_pattern_label": "Corak",
+  "pattern_desc_1": "Apabila anda berasa {{emotion}}, badan anda berasa {{sensation}}...",
+  "pattern_desc_2": "… dan makanan menjadi cara untuk {{response}}, manakala pemikiran seperti \"{{thought}}\" muncul.",
+  "pattern_footer": "\"Kesedaran corak adalah kebebasan\"",
+  "support_q": "Pada saat-saat itu... Apa yang boleh membantu anda—walaupun sedikit?",
+  "understanding_text": "Anda memahami diri anda dengan lebih baik. Itu lebih daripada cukup 💛",
+  "how_feeling_now": "Bagaimana perasaan anda sekarang?",
+  "preserve_button": "Pemelihara Peta",
+  "preserving": "Memelihara...",
+  "complete_title": "Peta Dipelihara",
+  "complete_message": "Anda telah berjaya memetakan hubungan antara perasaan anda dan makanan. Kesedaran ini adalah alat yang berkuasa untuk perubahan lembut.",
+  "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
+  "save_success": "Corak dipelihara",
+  "save_error": "Gagal mengekalkan corak",
+  "emotions_list": [
+    "😰 Tekanan",
+    "😢 Kesedihan",
+    "😶 Kebosanan",
+    "😟 Kebimbangan",
+    "🥺 Kesepian",
+    "💭 Sesuatu yang lain..."
+  ],
+  "food_responses": [
+    "🍽️ Saya makan lebih banyak",
+    "🚫 Saya makan kurang",
+    "🍫 Saya mendambakan makanan tertentu",
+    "😣 Saya mengelakkan makanan",
+    "😐 Tiada perubahan sebenar"
+  ],
+  "body_sensations": [
+    "💔 Dada yang ketat",
+    "🪨 Perasaan berat",
+    "🦵 Gelisah / gelisah",
+    "🔋 Tenaga rendah",
+    "🌀 Simpulan di perut",
+    "❓ Sesuatu yang lain..."
+  ],
+  "support_options": [
+    "🗣️ Bercakap dengan seseorang",
+    "☕ Berehat sebentar",
+    "📝 Jurnal",
+    "🌬️ Bernafas",
+    "🎧 Mengalihkan perhatian diri saya"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Hubungi 💛",
+      "body": "Kadang-kadang perkongsian meringankan sedikit. Mungkin mudah 'hei, bolehkah kita bercakap?'"
+    },
+    "☕ Take a break": {
+      "title": "Jeda 💛",
+      "body": "Jeda kecil boleh membantu menetapkan semula sesuatu. Mungkin menjauhkan diri dan menarik nafas perlahan-lahan."
+    },
+    "📝 Journal": {
+      "title": "Tuliskannya 💛",
+      "body": "Anda boleh mulakan dengan 'sekarang saya rasa...' dan biarkan ia mengalir."
+    },
+    "🌬️ Breathe": {
+      "title": "Bernafas 💛",
+      "body": "Tarik nafas 4... pegang 2... menghembus nafas 6... Mari kita perlahankan bersama-sama."
+    },
+    "🎧 Distract myself": {
+      "title": "Peralihan 💛 lembut",
+      "body": "Gangguan lembut boleh mengalihkan masa ... mungkin sesuatu yang ringan atau mudah."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Peta Makanan & Emosi",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

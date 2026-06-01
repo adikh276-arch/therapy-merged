@@ -1,0 +1,125 @@
+{
+  "app_title": "Pausövning",
+  "app_subtitle": "Behärska utrymmet mellan",
+  "intro": {
+    "title": "Den 5-sekunders pausen",
+    "description": "En kort paus mellan att känna och reagera kan förändra allt.",
+    "duration": "Det tar mindre än 15 sekunder. Verkligen.",
+    "button": "Prova →"
+  },
+  "scenario": {
+    "title": "Vad triggar dig?",
+    "desc": "Välj en situation du kan relatera till",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Någon avbryter mig",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Saker och ting går inte som planerat",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Jag känner mig ignorerad",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Jag känner mig överväldigad",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Skriv din egen...",
+    "button": "Övningspaus →"
+  },
+  "hold": {
+    "title": "Håll pausen ⏸️",
+    "instructions": "Håll cirkeln i 5 sekunder",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Tryck och håll..."
+      },
+      {
+        "at": "0.15",
+        "text": "Fortsätt med det..."
+      },
+      {
+        "at": "0.5",
+        "text": "Du gör det..."
+      },
+      {
+        "at": "0.8",
+        "text": "Nästan framme..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Det är pausen",
+    "message": "Du skapade bara ett avstånd mellan vad du kände och hur du svarade. Även en kort paus hjälper dig att återta ditt centrum.",
+    "tip_label": "Proffstips",
+    "scenario_messages": {
+      "interrupts": "Nästa gång någon avbryter dig, prova detta innan du svarar.",
+      "plans": "Nästa gång saker inte går som planerat, prova detta innan du reagerar.",
+      "ignored": "Nästa gång du känner dig ignorerad, prova detta innan du svarar.",
+      "overwhelmed": "Nästa gång du känner dig överväldigad, prova detta innan du gör något.",
+      "other": "Nästa gång du känner dig triggad, prova detta innan du reagerar."
+    },
+    "italic": "Det kommer inte alltid kännas lätt – men konsekvens är nyckeln."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Bemästra utrymmet mellan",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

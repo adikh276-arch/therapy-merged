@@ -1,0 +1,139 @@
+{
+  "app_title": "Harta Mâncării și Emoțiilor",
+  "screen_titles": [
+    "Bine ai venit",
+    "Modele alimentare",
+    "Dialog intern",
+    "Senzori fizici",
+    "Harta",
+    "Sprijin blând",
+    "Ultimul aspect",
+    "Reflectând"
+  ],
+  "welcome_text": "Hei... Mă bucur foarte mult că ești aici 💛. Hai să cartografiam ușor ce s-a întâmplat.",
+  "coming_up_label": "Ce se întâmplă în ultima vreme?",
+  "begin_mapping": "Începeți cartografierea",
+  "food_patterns_q": "Hmm... Te înțeleg. Când simți {{emotion}}... Cum apare de obicei mâncarea?",
+  "continue_button": "Continuă",
+  "internal_dialogue_q": "În acele momente... Ce fel de gânduri îmi vin în minte?",
+  "write_placeholder": "Scrie orice îți vine în minte...",
+  "physical_sensing_q": "Dacă te oprești o secundă... Ce observi în corpul tău?",
+  "the_pattern_label": "Modelul",
+  "pattern_desc_1": "Când simți {{emotion}}, corpul tău simte {{sensation}}...",
+  "pattern_desc_2": "… iar mâncarea devine o cale spre {{response}}, în timp ce apar gânduri precum \"{{thought}}\".",
+  "pattern_footer": "\"Conștientizarea tiparelor este libertate\"",
+  "support_q": "În acele momente... Ce te-ar putea ajuta — chiar și puțin?",
+  "understanding_text": "Te înțelegi puțin mai bine. E mai mult decât suficient 💛",
+  "how_feeling_now": "Cum te simți acum?",
+  "preserve_button": "Harta Rezervației",
+  "preserving": "Păstrând...",
+  "complete_title": "Hartă păstrată",
+  "complete_message": "Ai reușit să cartografiezi legătura dintre sentimentele tale și mâncare. Această conștientizare este un instrument puternic pentru o schimbare blândă.",
+  "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
+  "save_success": "Modelul a fost păstrat",
+  "save_error": "Nu a reușit să păstreze modelul",
+  "emotions_list": [
+    "😰 Stres",
+    "😢 Tristețe",
+    "😶 Plictiseală",
+    "😟 Anxietate",
+    "🥺 Singurătate",
+    "💭 Altceva..."
+  ],
+  "food_responses": [
+    "🍽️ Mănânc mai mult",
+    "🚫 Mănânc mai puțin",
+    "🍫 Poftesc după anumite alimente",
+    "😣 Evit mâncarea",
+    "😐 Nicio schimbare reală"
+  ],
+  "body_sensations": [
+    "💔 Piept strâns",
+    "🪨 Senzație grea",
+    "🦵 Neliniștit / agitat",
+    "🔋 Energie scăzută",
+    "🌀 Noduri în stomac",
+    "❓ Altceva..."
+  ],
+  "support_options": [
+    "🗣️ Vorbește cu cineva",
+    "☕ Ia o pauză",
+    "📝 Jurnal",
+    "🌬️ Respiră",
+    "🎧 Să mă distrag"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Contactează-te 💛",
+      "body": "Uneori, împărțirea ușurează puțin lucrurile. Poate un simplu \"hei, putem vorbi?\""
+    },
+    "☕ Take a break": {
+      "title": "Pauză 💛",
+      "body": "O mică pauză poate ajuta la resetarea lucrurilor. Poate ar trebui să te dai la o parte și să tragi câteva respirații lente."
+    },
+    "📝 Journal": {
+      "title": "Scrie-o 💛",
+      "body": "Ai putea începe cu \"acum simt...\" Și pur și simplu lasă lucrurile să curgă."
+    },
+    "🌬️ Breathe": {
+      "title": "Respiră 💛",
+      "body": "Inspiră 4... ține 2... expiră 6... Hai să încetinim împreună."
+    },
+    "🎧 Distract myself": {
+      "title": "Schimbare 💛 blândă",
+      "body": "O distragere blândă poate schimba momentul... Poate ceva ușor sau ușor."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Harta Mâncării și Emoțiilor",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

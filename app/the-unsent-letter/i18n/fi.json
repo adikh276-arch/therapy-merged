@@ -1,0 +1,102 @@
+{
+  "app_title": "Lähettämätön kirje",
+  "app_subtitle": "Vapauta ajatuksesi turvallisesti ja yksityisesti",
+  "intro": {
+    "title": "Lähettämätön kirje",
+    "description": [
+      "Joskus on asioita, joita toivoisimme voivamme sanoa — mutta emme koskaan saaneet tilaisuutta.",
+      "Tämä saattoi johtua siitä, ettei se tuntunut turvalliselta, ajoitus ei ollut oikea tai sanat olivat liian vaikeita ilmaista ääneen.",
+      "Tämä aktiviteetti antaa sinulle yksityisen tilan pukea ajatukset sanoiksi.",
+      "Sinun ei tarvitse lähettää tätä kirjettä. Tämä on vain sinua varten — ilmaista, vapauttaa ja ymmärtää tunteitasi paremmin."
+    ],
+    "notice": "Kirjoita vapaasti. Kukaan muu ei tule näkemään tätä.",
+    "button": "Aloita kirjoittaminen →"
+  },
+  "writing": {
+    "title": "Kirjoita se, mitä olet pidätellyt sisälläsi",
+    "desc": "Voit kirjoittaa kumppanillesi, entiselle kumppanillesi tai jopa itse suhteelle. Tähän ei ole oikeaa tai väärää tapaa.",
+    "prompts": [
+      "Tunnen...",
+      "Toivon...",
+      "En koskaan sanonut...",
+      "Mikä satutti minua...",
+      "Mitä tarvitsin..."
+    ],
+    "placeholder": "Rakas ____,\nOlen halunnut sanoa...",
+    "notice": "Voit pysähtyä ja palata milloin tahansa.",
+    "button": "Jatka →"
+  },
+  "reflection": {
+    "title": "Ota hetki tämän kanssa",
+    "description": [
+      "Olet juuri pukenut ajatuksesi ja tunteesi sanoiksi — se vaatii rohkeutta.",
+      "Saatat huomata tunteiden sekoituksen juuri nyt, ja se on täysin ok.",
+      "Ennen kuin jatkat, hengitä syvään ja tarkista itsesi kanssa lempeästi."
+    ],
+    "notice": "Tämä oli sinun parantumistasi varten, ei lähettämistä varten.",
+    "save_button": "Tallenna kirje",
+    "finish_button": "Viimeistely"
+  },
+  "history": {
+    "title": "Aiemmat kirjeet",
+    "empty_title": "Et ole vielä kirjoittanut yhtään kirjettä.",
+    "empty_desc": "Kirjeesi ilmestyvät tänne, kun olet tallentanut ne."
+  },
+  "toasts": {
+    "save_success": "Kirje tallennettu yksityiseen päiväkirjaasi",
+    "save_error": "Kirjeen tallentaminen epäonnistui",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Vapauta ajatuksesi turvallisesti ja yksityisesti",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

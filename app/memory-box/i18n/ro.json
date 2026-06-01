@@ -1,0 +1,146 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": [
+    "Cutia ta",
+    "Onorare",
+    "Exprimare",
+    "Păstrate",
+    "Îngrijire blândă"
+  ],
+  "complete_title": "Memorie păstrată",
+  "complete_message": "Ai pus în siguranță o amintire a lui {{name}} în cutia ta. Aceste momente de conexiune îți aparțin mereu.",
+  "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
+  "save_success": "Memorie păstrată",
+  "save_error": "Nu a reușit să păstreze memoria",
+  "preserving": "Păstrând...",
+  "preserve_memory": "Păstrează memoria",
+  "welcome": {
+    "title": "Cutia ta cu amintiri",
+    "subtitle1": "Un spațiu liniștit în care să-ți amintești de cineva drag. 🤍",
+    "subtitle2": "Inspiră încet...",
+    "subtitle3": "… Și expiră ușor.",
+    "subtitle4": "Nu există o modalitate corectă sau greșită de a face asta.",
+    "subtitle5": "Mergi în ritmul tău. 🌿",
+    "begin": "Începe ✨",
+    "later": "Poate mai târziu"
+  },
+  "who": {
+    "placeholder_name": "Scrie-le numele...",
+    "placeholder_relation": "De unde îi cunoști? (opțional)",
+    "categories": [
+      {
+        "label": "Un moment fericit",
+        "emoji": "😊"
+      },
+      {
+        "label": "Ceva ce obișnuiau să spună",
+        "emoji": "💬"
+      },
+      {
+        "label": "O mică amintire de zi cu zi",
+        "emoji": "☕"
+      },
+      {
+        "label": "Un loc care îți amintește de ei",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Ceva ce mi-aș dori să pot spune",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Continuă →"
+  },
+  "expression": {
+    "title": "Exprimându-ți memoria",
+    "memory_label": "Amintirea în sine",
+    "memory_placeholder": "Scrie despre moment, sentiment sau detaliu pe care vrei să-l păstrezi...",
+    "message_label": "Un mesaj pentru ei (opțional)",
+    "message_placeholder": "Ce ai spune dacă ai putea vorbi cu ei chiar acum?",
+    "save": "Păstrează memoria",
+    "skip": "Sari deocamdată",
+    "back": "Înapoi"
+  },
+  "box": {
+    "title": "Ascuns în siguranță",
+    "subtitle": "Această amintire a lui {{name}} face acum parte din colecția ta.",
+    "add_another": "Adaugă o altă amintire",
+    "finish": "Reflecția de finisaj"
+  },
+  "closing": {
+    "title": "Îngrijire",
+    "subtitle": "Îți închizi cutia pentru moment. Poți reveni aici oricând ai nevoie să te simți aproape de aceste amintiri.",
+    "exit": "Închide cutia"
+  },
+  "history": {
+    "title": "Conținutul cutiei",
+    "no_memories": "Cutia ta e goală. Adaugă prima ta amintire pentru a începe colecția.",
+    "search_placeholder": "Caută amintiri..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Cutie de amintiri",
+  "before_you_go": "Înainte să pleci",
+  "grief_comes_in_waves": "Durerea vine în valuri. 🌊",
+  "what_you_re_feeling_matters": "Ceea ce simți contează. 🤍",
+  "be_gentle_with_yourself_today": "Fii blând cu tine însuți astăzi. 🌿",
+  "save_exit": "Salvează și ieși 🕊️",
+  "take_your_time": "Ia-ți timp 🕯️",
+  "save_to_memory_box": "Salvează în Cutia cu amintiri 📦",
+  "write_as_much_or_as_little_as_you_want": "Scrie cât de mult sau cât de puțin vrei… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Dacă există ceva ce ai vrea să spui…",
+  "past_entries": "Intrări anterioare",
+  "no_memories_saved_yet": "Nicio amintire salvată încă.",
+  "this_memory_is_held_here_for_you": "Această amintire este păstrată aici, pentru tine. 🌿",
+  "add_another_memory": "Adaugă o altă amintire ✨",
+  "finish_for_now": "Termină deocamdată",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

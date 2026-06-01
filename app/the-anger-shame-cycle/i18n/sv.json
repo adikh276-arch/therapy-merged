@@ -1,0 +1,124 @@
+{
+  "app_title": "Ilska-skamcykeln",
+  "app_subtitle": "Att förstå loopen • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Varför kommer ilskan hela tiden tillbaka?",
+      "description": "Det kanske inte är ditt humör. Det finns en dold loop mellan ilska och skam – och när du väl ser den förändras allt.",
+      "quote": "\"De flesta försöker fixa ilskan. Men skam är det som tyst håller det igång.\"",
+      "button": "Låt oss utforska"
+    },
+    "s2": {
+      "tag": "Cykeln",
+      "title": "Loopen förklarades",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Ilska uppstår"
+        },
+        {
+          "emoji": "😔",
+          "label": "Skam: \"Jag är dålig\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Skammen begravs"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Vreden bryter ut igen"
+        }
+      ],
+      "button": "Jag ser det"
+    },
+    "s3": {
+      "tag": "Vad händer",
+      "title": "Två känslor, en fälla",
+      "anger": {
+        "title": "🔥 Ilska",
+        "desc": "En sekundär känsla — under liv finns smärta, rädsla eller avvisande. Det är larmet, inte branden."
+      },
+      "shame": {
+        "title": "😔 Skam",
+        "desc": "\"Jag är dålig\" — inte bara \"Jag gjorde något dåligt.\" Den gömmer sig, tystar och håller cykeln snurrande."
+      },
+      "button": "Att bryta sig fri"
+    },
+    "s4": {
+      "tag": "Avbrott",
+      "title": "Avbryt cykeln",
+      "steps": [
+        {
+          "title": "Namnge källan",
+          "desc": "Fråga: 'Vad känner jag egentligen?' Skadad? Rädd? Osedd? Att namnge den försvagar den."
+        },
+        {
+          "title": "Medkänslapaus",
+          "desc": "Handen på bröstet. Säg: 'Det här är svårt. Jag är människa. Jag klarar det här.'"
+        },
+        {
+          "title": "Reparera med grace",
+          "desc": "Gör bot om det behövs – men snurra inte iväg. Du är inte ditt sämsta ögonblick."
+        }
+      ],
+      "notice": "Att märka cykeln är redan första steget. Du gör jobbet.",
+      "button": "Fullständig aktivitet"
+    }
+  },
+  "complete": {
+    "title": "Cykeln avbruten",
+    "message": "Du har fått medvetenheten att se sambandet mellan ilska och skam. Detta är grunden för varaktig känslomässig frihet."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Förstå loopen • {{step}}/{{total}}",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

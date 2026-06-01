@@ -1,0 +1,147 @@
+{
+  "app_title": "Slaapraamplanner",
+  "pill_labels": [
+    "Bouw je raam",
+    "Stel je tijden vast",
+    "Jouw slaapvenster"
+  ],
+  "screen1": {
+    "title": "Je slaapvenster is belangrijker dan je denkt",
+    "p1": "Een slaapvenster is de vaste tijd tussen het moment dat je gaat slapen en het moment dat je wakker wordt. Het consistent houden — zelfs in het weekend — is een van de krachtigste dingen die je voor je slaap kunt doen.",
+    "p2": "Deze tool helpt je om de jouwe in minder dan 2 minuten te bouwen.",
+    "insight": "Zelfs een verschil van 1 uur in slaaptijden in het weekend kan je gevoel de hele week verstoren.",
+    "meta": "Simpel. Persoonlijk. Effectief.",
+    "button": "Laten we de mijne bouwen →"
+  },
+  "screen2": {
+    "title": "Laten we je slaapvenster instellen",
+    "step1": {
+      "title": "STAP 1 — OPSTAANTIJD",
+      "desc": "Hoe laat moet je de meeste dagen opstaan?"
+    },
+    "step2": {
+      "title": "STAP 2 — SLAAPDUUR",
+      "desc": "Hoeveel uur slaap wil je?"
+    },
+    "live_window": {
+      "bedtime": "Bedtijd",
+      "waketime": "Wakker worden",
+      "duration": "{{hours}} uren slaap"
+    },
+    "italic": "De meeste volwassenen hebben 7–9 uur nodig. Kies wat goed voelt.",
+    "button": "Zie mijn slaapvenster →"
+  },
+  "screen3": {
+    "title": "Jouw slaapvenster 🌙",
+    "result": {
+      "bedtime": "Bedtijd",
+      "waketime": "Wakker worden",
+      "duration": "Duur",
+      "hours": "{{hours}} Uren"
+    },
+    "accordion1": {
+      "title": "3 manieren om het te beschermen",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Ontspan 30 minuten voor je bedtijd"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Elke dag dezelfde wakkertijd — ja, ook in het weekend"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Vermijd dutjes langer dan 20 minuten na 15.00 uur"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Zet je vanavond voor één ding",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Leg mijn telefoon weg voor het slapengaan"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Begin met een afbouwroutine"
+        },
+        {
+          "emoji": "💡",
+          "text": "Dim het licht een uur voor het slapengaan"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Maak mijn takenlijst vroeg af"
+        }
+      ]
+    },
+    "quote": "Consistentie is krachtiger dan perfectie. De ene goede nacht bouwt de volgende op.",
+    "button": "Red mijn slaapvenster ✓",
+    "saved_button": "✓ Slaapvenster gered!",
+    "adjust_times": "Tijden aanpassen"
+  },
+  "complete": {
+    "title": "Window Created",
+    "message": "Je ideale slaapvenster is in kaart gebracht. Consistentie is de sleutel tot diepe, herstellende rust."
+  },
+  "toasts": {
+    "save_success": "Slaapvenster opgeslagen",
+    "save_error": "Slaapvenster niet opgeslagen",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
+    "saving": "Redden..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Slaapvensterplanner",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

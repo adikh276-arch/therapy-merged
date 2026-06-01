@@ -1,0 +1,125 @@
+{
+  "app_title": "Cvičení pauzy",
+  "app_subtitle": "Ovládni prostor mezi",
+  "intro": {
+    "title": "Pětisekundová pauza",
+    "description": "Malá pauza mezi pocitem a reakcí může změnit všechno.",
+    "duration": "Trvá to méně než 15 sekund. Opravdu.",
+    "button": "Zkus to →"
+  },
+  "scenario": {
+    "title": "Co vás spouští?",
+    "desc": "Vyberte si situaci, se kterou se ztotožňujete",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Někdo mě přerušuje",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Věci nejdou podle plánu",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Cítím se ignorovaná",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Cítím se zahlcený",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Napiš si vlastní...",
+    "button": "Cvičné pauzy →"
+  },
+  "hold": {
+    "title": "Počkat na pauzu ⏸️",
+    "instructions": "Držte kruh 5 sekund",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Stiskni a drž..."
+      },
+      {
+        "at": "0.15",
+        "text": "Vydrž to..."
+      },
+      {
+        "at": "0.5",
+        "text": "Děláš to..."
+      },
+      {
+        "at": "0.8",
+        "text": "Už skoro tam..."
+      }
+    ]
+  },
+  "result": {
+    "title": "To je ta pauza",
+    "message": "Jen jste vytvořili odstup mezi tím, co jste cítili, a tím, jak reagujete. I krátká pauza vám pomůže znovu získat střed.",
+    "tip_label": "Pro Tip",
+    "scenario_messages": {
+      "interrupts": "Příště, až vás někdo přeruší, zkuste toto, než odpovíte.",
+      "plans": "Příště, až věci nepůjdou podle plánu, zkuste tohle, než zareagujete.",
+      "ignored": "Až se příště budete cítit ignorovaní, zkuste tohle, než odpovíte.",
+      "overwhelmed": "Příště, až se budete cítit zahlceni, zkuste toto, než cokoli uděláš.",
+      "other": "Příště, až se budete cítit spuštění, zkuste tohle, než začnete reagovat."
+    },
+    "italic": "Nebude to vždy snadné – ale klíčem je konzistence."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ovládněte prostor mezi",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

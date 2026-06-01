@@ -1,0 +1,252 @@
+{
+  "app_title": "Jendela Toleransi",
+  "screens": {
+    "welcome": {
+      "title": "Jendela Toleransi",
+      "subtitle": "Pahami sistem saraf Anda.\nTemukan jalan kembali ke ketenangan.",
+      "description": "Aktivitas lembut ini akan membantu Anda memahami di mana sistem saraf Anda saat ini - dan memberi Anda alat untuk menemukan keseimbangan. Pergi dengan kecepatan Anda sendiri. Anda aman di sini.",
+      "callout": "✨ Tarik napas. Anda berada di tempat yang tepat.",
+      "button": "Mari kita mulai →",
+      "disclaimer": "Kegiatan ini merupakan alat pendukung, bukan pengganti terapi profesional."
+    },
+    "explain": {
+      "title": "Sistem Saraf Anda Memiliki Jendela",
+      "zones": {
+        "hyper": {
+          "label": "Hipergairah",
+          "desc": "Kewalahan, panik, di luar kendali.",
+          "tag": "🔴 Merah"
+        },
+        "safe": {
+          "label": "Zona Aman",
+          "desc": "Tenang, hadir, mampu berpikir jernih.",
+          "tag": "🟢 Hijau"
+        },
+        "hypo": {
+          "label": "Hypoarousal",
+          "desc": "Mati rasa, terputus, berkabut.",
+          "tag": "🔵 Biru"
+        }
+      },
+      "footer": "Trauma dapat mendorong Anda keluar dari jendela Anda. Ini membantu Anda mengenali di mana Anda berada dan kembali ke dalam.",
+      "back": "← Kembali",
+      "next": "→ berikutnya"
+    },
+    "checkin": {
+      "title": "Di mana Anda sekarang?",
+      "subtitle": "Tarik napas. Kemudian pilih dengan jujur di mana Anda berada saat ini.",
+      "footer": "Tidak ada jawaban yang salah. Ini hanyalah titik awal Anda.",
+      "back": "← Kembali",
+      "next": "→ berikutnya",
+      "zones": {
+        "hyper": {
+          "label": "Di Atas Jendelaku",
+          "desc": "Saya merasa cemas, panik, marah, atau kewalahan."
+        },
+        "safe": {
+          "label": "Di Dalam Jendela Saya",
+          "desc": "Saya merasa tenang, hadir, dan membumi."
+        },
+        "hypo": {
+          "label": "Di Bawah Jendela Saya",
+          "desc": "Saya merasa mati rasa, berkabut, atau terputus."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Di Atas Jendela Anda",
+        "subtitle": "Sistem saraf Anda sedang dalam kecepatan tinggi. Tidak apa-apa. Mari kita bawa Anda kembali dengan lembut.",
+        "feelings": [
+          "Jantung berdebar kencang",
+          "Pernapasan dangkal",
+          "Kepanikan atau kemarahan",
+          "Pikiran balap",
+          "Kegelisahan"
+        ],
+        "tools": [
+          {
+            "name": "Pernapasan Kotak",
+            "desc": "Tarik napas 4, bulan 4, hembuskan napas 4, bulan 4. Ulangi 4 kali."
+          },
+          {
+            "name": "5-4-3-2-1 Pembumian",
+            "desc": "5 hal melihat, 4 menyentuh, 3 mendengar, 2 mencium, 1 rasa."
+          },
+          {
+            "name": "Kaki di Lantai",
+            "desc": "Tekan kaki ke bawah, katakan: 'Saya di sini. Saya aman. Ini akan berlalu.'"
+          }
+        ],
+        "button": "Saya merasa sedikit lebih tenang →",
+        "footer": "Anda aman. Luangkan waktu Anda."
+      },
+      "hypo": {
+        "title": "Di Bawah Jendela Anda",
+        "subtitle": "Sistem saraf Anda menjadi sunyi. Itu melindungi Anda. Mari kita bangunkan kembali dengan lembut.",
+        "feelings": [
+          "Mati rasa",
+          "Pemutusan",
+          "Kelelahan ekstrem",
+          "Merasa tidak nyata",
+          "Kerataan"
+        ],
+        "tools": [
+          {
+            "name": "Gerakan Lembut",
+            "desc": "Berdiri, berjalan perlahan, ayunkan lengan. Biarkan tubuh Anda bangun."
+          },
+          {
+            "name": "Suara Berirama",
+            "desc": "Putar musik dengan ketukan yang stabil, ketuk kaki."
+          },
+          {
+            "name": "Bicaralah dengan Keras",
+            "desc": "Ucapkan nama, lokasi, tanggal hari ini dengan lantang. Melibatkan kembali otak yang berpikir."
+          }
+        ],
+        "button": "Saya merasa sedikit lebih hadir →",
+        "footer": "Anda melakukannya dengan baik. Lakukan selangkah demi selangkah."
+      },
+      "safe": {
+        "title": "Di Dalam Jendela Anda",
+        "subtitle": "Anda berada di zona aman Anda. Di sinilah penyembuhan, koneksi, dan pertumbuhan terjadi. Bagus.",
+        "feelings": [
+          "Sekarang & sadar",
+          "Pernapasan stabil",
+          "Berpikir jernih",
+          "Terhubung"
+        ],
+        "tools": [
+          {
+            "name": "Terus Bernapas Perlahan",
+            "desc": "Masuk melalui hidung, keluar melalui mulut."
+          },
+          {
+            "name": "Refleksikan",
+            "desc": "Apa yang membantu Anda tinggal di sini? Tuliskan."
+          },
+          {
+            "name": "Welas Asih Diri",
+            "desc": "\"Sistem saraf saya melakukan tugasnya. Saya tidak rusak. Saya sedang sembuh.'"
+          }
+        ],
+        "button": "Lanjutkan ke My Toolkit →",
+        "footer": "Anda layak dirawat dan disembuhkan."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Toolkit Pribadi Anda",
+      "subtitle": "Alat masuk Anda — disimpan dan siap kapan pun Anda membutuhkannya.",
+      "tools_list": [
+        "🌬️ Pernapasan Kotak",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Kaki di Lantai",
+        "🚶 Gerakan Lembut",
+        "🎵 Musik",
+        "💬 Bicaralah dengan Keras"
+      ],
+      "journal_label": "📝 Refleksi Hari Ini",
+      "journal_desc": "Apa satu momen hari ini ketika Anda melihat sistem saraf Anda bergeser - dan apa yang Anda lakukan tentang itu?",
+      "journal_placeholder": "Tulis di sini...",
+      "history_label": "📊 Sekilas Tentang Minggu Anda",
+      "save_button": "Simpan & Selesaikan ✓",
+      "footer": "Perjalanan Anda penting. Kembalilah kapan pun Anda membutuhkan dukungan.",
+      "preserving": "Melestarikan...",
+      "preserve_button": "Mempertahankan Refleksi"
+    }
+  },
+  "nav": [
+    "Check-in",
+    "Penjelasan",
+    "Pemantauan",
+    "Zona",
+    "Perangkat"
+  ],
+  "history": {
+    "title": "Riwayat Check-in",
+    "empty": "Belum ada check-in."
+  },
+  "toasts": {
+    "save_success": "Check-in dipertahankan",
+    "save_error": "Gagal mempertahankan check-in",
+    "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi"
+  },
+  "complete": {
+    "title": "Check-in Selesai",
+    "message": "Anda telah berhasil memetakan status Anda saat ini. Membangun kesadaran adalah langkah pertama untuk menemukan keseimbangan Anda."
+  },
+  "days": [
+    "Saya",
+    "Selasa",
+    "Rabu",
+    "Musim gugur",
+    "Jumat",
+    "Sabtu",
+    "Matahari"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Jendela Toleransi",
+  "are_you_sure_you_want_to_exit": "Apakah Anda yakin ingin keluar?",
+  "your_unsaved_data_will_be_lost": "Data Anda yang belum disimpan akan hilang.",
+  "stay": "Tinggal",
+  "exit": "KELUAR",
+  "exit_confirmation": "Konfirmasi keluar",
+  "check_in_history": "Riwayat check-in",
+  "close": "Menutup",
+  "screen_navigation": "Navigasi layar",
+  "check_in": "Check-in",
+  "what_is_the_window_of_tolerance": "Apa itu Jendela Toleransi?",
+  "your_personal_toolkit": "Perangkat Pribadi Anda",
+  "welcome": "Selamat datang",
+  "view_history": "Lihat riwayat",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

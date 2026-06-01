@@ -1,0 +1,125 @@
+{
+  "app_title": "Exercițiul de pauză",
+  "app_subtitle": "Stăpânește spațiul dintre",
+  "intro": {
+    "title": "Pauza de 5 secunde",
+    "description": "O mică pauză între a simți și a reacționa poate schimba totul.",
+    "duration": "Durează mai puțin de 15 secunde. Serios.",
+    "button": "Încearcă →"
+  },
+  "scenario": {
+    "title": "Ce te declanșează?",
+    "desc": "Alege o situație cu care te regăsești",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Cineva mă întrerupe",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Lucrurile nu merg conform planului",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Mă simt ignorată",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Mă simt copleșit",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Scrie-ți propriul...",
+    "button": "Exersează pauza →"
+  },
+  "hold": {
+    "title": "Ține pe pauză ⏸️",
+    "instructions": "Ține cercul timp de 5 secunde",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Apasă și ține apăsat..."
+      },
+      {
+        "at": "0.15",
+        "text": "Rămâi așa..."
+      },
+      {
+        "at": "0.5",
+        "text": "O faci..."
+      },
+      {
+        "at": "0.8",
+        "text": "Aproape am ajuns..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Asta e pauza",
+    "message": "Pur și simplu ai creat un spațiu între ceea ce simțeai și modul în care răspunzi. Chiar și o mică pauză te ajută să-ți recapeți centrul.",
+    "tip_label": "Sfat de expert",
+    "scenario_messages": {
+      "interrupts": "Data viitoare când cineva te întrerupe, încearcă asta înainte să răspunzi.",
+      "plans": "Data viitoare când lucrurile nu merg conform planului, încearcă asta înainte să reacționezi.",
+      "ignored": "Data viitoare când te simți ignorat, încearcă asta înainte să răspunzi.",
+      "overwhelmed": "Data viitoare când te simți copleșit, încearcă asta înainte să faci ceva.",
+      "other": "Data viitoare când te simți declanșat, încearcă asta înainte să reacționezi."
+    },
+    "italic": "Nu va părea întotdeauna ușor — dar consecvența este cheia."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Stăpânește spațiul dintre",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

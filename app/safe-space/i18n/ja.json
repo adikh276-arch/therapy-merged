@@ -1,0 +1,114 @@
+{
+  "app_title": "セーフスペース",
+  "nav": [
+    "チェックイン",
+    "優しく思い出せ",
+    "観察",
+    "現在にとどまって",
+    "前進して"
+  ],
+  "s1": {
+    "title": "気持ちのいい場所を探そう",
+    "description": [
+      "始める前に、少し様子を見てください...",
+      "今、気分はどう?",
+      "完璧な「安全な場所」を求めているわけではありません。少しでも落ち着いたり、まあまあいい感じがするものが欲しいです。"
+    ],
+    "placeholder": "今、どんな気持ちですか?",
+    "button": "ビジュアライゼーション開始"
+  },
+  "s2": {
+    "title": "そっと思い出してください",
+    "description": [
+      "少しでも安心できた場所を思い浮かべてみて...あるいは、存在したいと思う場所。",
+      "さあ、そこに座って...",
+      "座っているのですか、立っているのですか、それとも横になっているのですか?"
+    ],
+    "button": "続けてください"
+  },
+  "s3": {
+    "title": "ゆっくり周りを見渡して",
+    "description": [
+      "そっと周りを見渡して...",
+      "一つ見えるものは何ですか?",
+      "さて、音に気づく...何が聞こえる?"
+    ],
+    "button": "続けてください"
+  },
+  "s4": {
+    "title": "このまま続けてください",
+    "description": [
+      "この場所の何が少しでも安全で、まあまあだと感じさせるのでしょうか?",
+      "気づいた通り...",
+      "また、呼吸に意識を向けてください。"
+    ],
+    "breathe": "深呼吸して",
+    "notice": "想像するのが難しいなら、この場所のイメージを考えてみてください。",
+    "button": "続けてください"
+  },
+  "s5": {
+    "title": "これを持っていけ",
+    "description": [
+      "今の自分の気持ちに気づいてください。たとえ小さなシフトでも重要です。",
+      "この感情の5%でも持ち帰れるか試してみて。"
+    ],
+    "placeholder": "今の気持ちはどうですか?",
+    "button": "セッション完了"
+  },
+  "complete": {
+    "title": "セッション完了",
+    "message": "この安全な場所はいつでもあなたのために用意されています。落ち着きたいときはいつでもここに戻ってきていい。"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "安全な場所",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

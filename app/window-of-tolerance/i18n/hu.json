@@ -1,0 +1,252 @@
+{
+  "app_title": "Tolerancia ablaka",
+  "screens": {
+    "welcome": {
+      "title": "Tolerancia ablaka",
+      "subtitle": "Értsd meg az idegrendszeredet.\nTaláld meg az utat a nyugalmába.",
+      "description": "Ez a gyengéd tevékenység segít megérteni, hol tart most az idegrendszered — és eszközöket ad az egyensúly megtalálásához. Menj a saját tempódban. Itt biztonságban vagy.",
+      "callout": "✨ Vegyél egy mély levegőt. Jó helyen vagy.",
+      "button": "Kezdjük →",
+      "disclaimer": "Ez a tevékenység támogató eszköz, nem helyettesíti a szakmai terápiát."
+    },
+    "explain": {
+      "title": "Az idegrendszerednek van egy ablaka",
+      "zones": {
+        "hyper": {
+          "label": "Hiperizgalom",
+          "desc": "Elárasztott, pánikban, kontrollálhatatlan.",
+          "tag": "🔴 Piros"
+        },
+        "safe": {
+          "label": "Biztonságos zóna",
+          "desc": "Nyugodt, jelen van, tisztán gondolkodni.",
+          "tag": "🟢 Zöld"
+        },
+        "hypo": {
+          "label": "Hipoarousal",
+          "desc": "Zsibbadt, elszakadt, ködös.",
+          "tag": "🔵 Kék"
+        }
+      },
+      "footer": "A trauma kitaszíthat az ablakodból. Ez segít felismerni, hol tartasz, és visszajuthatsz a befelé.",
+      "back": "← Vissza",
+      "next": "Következő →"
+    },
+    "checkin": {
+      "title": "Hol vagy most?",
+      "subtitle": "Vegyél egy mély levegőt. Akkor őszintén válaszd ki, hol vagy most.",
+      "footer": "Nincs rossz válasz. Ez csak a kiindulópontod.",
+      "back": "← Vissza",
+      "next": "Következő →",
+      "zones": {
+        "hyper": {
+          "label": "Az ablakom felett",
+          "desc": "Szorongónak, pániknak, dühösnek vagy túlterheltnek érzem magam."
+        },
+        "safe": {
+          "label": "Az ablakomban",
+          "desc": "Nyugodtnak, jelen vagyok és megnyugtatottnak érzem magam."
+        },
+        "hypo": {
+          "label": "Az ablakom alatt",
+          "desc": "Zsibbadtnak, ködösnek vagy elszakadtnak érzem magam."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Az ablakod fölött",
+        "subtitle": "Az idegrendszered túlpörög. Ez rendben van. Hozzuk vissza óvatosan.",
+        "feelings": [
+          "Szív dobogása",
+          "Sekély légzés",
+          "Pánik vagy düh",
+          "Száguldó gondolatok",
+          "Nyugtalanság"
+        ],
+        "tools": [
+          {
+            "name": "Doboz légzési",
+            "desc": "Inhale 4, hold 4, exhale 4, hold 4. Repeat 4 times."
+          },
+          {
+            "name": "5-4-3-2-1 Földre ütés",
+            "desc": "5 dolog lát, 4 érintés, 3 hallás, 2 szag, 1 íz."
+          },
+          {
+            "name": "Láb a padlón",
+            "desc": "Nyomd le a lábat, mondd: 'Itt vagyok. Biztonságban vagyok. Ez el fog múlni.\""
+          }
+        ],
+        "button": "Kicsit nyugodtabbnak érzem magam →",
+        "footer": "Biztonságban vagy. Ne siess."
+      },
+      "hypo": {
+        "title": "Az ablakod alatt",
+        "subtitle": "Az idegrendszered elcsendesedett. Megvéd téged. Ébresztsük fel óvatosan.",
+        "feelings": [
+          "Zsibbadás",
+          "Megszakítás",
+          "Extrém fáradtság",
+          "Valószerűtlennek érzem magam",
+          "Laposság"
+        ],
+        "tools": [
+          {
+            "name": "Gyengéd mozgás",
+            "desc": "Állj fel, lassan sétálj, lendítsd a karjait. Hagyd, hogy a tested felébredjen."
+          },
+          {
+            "name": "Ritmikus hangzás",
+            "desc": "Játssz zenét egyenletes ütemmel, ütögtön lábakkal végig."
+          },
+          {
+            "name": "Beszélj hangosan",
+            "desc": "Mondd ki hangosan a neved, a helyszíned, a mai dátum. Kapcsold újra a gondolkodó agyat."
+          }
+        ],
+        "button": "Kicsit jelen vagyok →",
+        "footer": "Nagyon jól csinálod. Lépésről lépésre haladj."
+      },
+      "safe": {
+        "title": "Az ablakodban",
+        "subtitle": "A saját biztonságos zónádban vagy. Itt történik a gyógyulás, a kapcsolat és a fejlődés. Szép munka.",
+        "feelings": [
+          "Jelen és tudatos",
+          "Egyenletes légzés",
+          "Tiszta gondolkodás",
+          "Kapcsolt"
+        ],
+        "tools": [
+          {
+            "name": "Légezz lassan.",
+            "desc": "Orron keresztül be, szájon keresztül ki."
+          },
+          {
+            "name": "Reflektálj",
+            "desc": "Mi segített abban, hogy itt maradj? Írd le."
+          },
+          {
+            "name": "Önrészvét",
+            "desc": "'Az idegrendszerem végezte a dolgát. Nem vagyok törött. Gyógyulok.'"
+          }
+        ],
+        "button": "Folytasd a Toolkit →",
+        "footer": "Megérdemel vagy a gondoskodásra és a gyógyulásra."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 A személyes eszköztárod",
+      "subtitle": "A kedvenc eszközeid — bármikor elmentettek és készen állnak, amikor szükséged van rájuk.",
+      "tools_list": [
+        "🌬️ Doboz légzési",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Láb a padlón",
+        "🚶 Gyengéd mozgás",
+        "🎵 Zene",
+        "💬 Beszélj hangosan"
+      ],
+      "journal_label": "📝 A mai visszatekintés",
+      "journal_desc": "Mi volt az a pillanat, amikor észrevetted, hogy az idegrendszered megváltozik — és mit tettél ellene?",
+      "journal_placeholder": "Írj ide...",
+      "history_label": "📊 A heted egy pillantásra",
+      "save_button": "Mentés és befejezés ✓",
+      "footer": "Az utad számít. Gyere vissza, amikor támogatásra van szükséged.",
+      "preserving": "Megőrizve...",
+      "preserve_button": "Megőrzés a reflektorálás"
+    }
+  },
+  "nav": [
+    "Bejelentkezés",
+    "Magyarázat",
+    "Megfigyelés",
+    "A zóna",
+    "Eszköztár"
+  ],
+  "history": {
+    "title": "Bejelentkezési történet",
+    "empty": "Még nincs bejelentkezés."
+  },
+  "toasts": {
+    "save_success": "A bejelentkezés megőrzése",
+    "save_error": "Nem sikerült megőrizni a bejelentkezést",
+    "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva"
+  },
+  "complete": {
+    "title": "Bejelentkezés befejezve",
+    "message": "Sikeresen feltérképezted a jelenlegi állapotodat. A tudatosság építése az első lépés az egyensúly megtalálása felé."
+  },
+  "days": [
+    "Az én",
+    "Kedd",
+    "Szerda",
+    "Ősz",
+    "Péntek",
+    "Szombat",
+    "Sun"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Újrakezdés",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Elkészítési idő",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Részesedés",
+    "share_progress": "Haladás megosztása",
+    "inspire_others": "Inspirálj másokat még ma",
+    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "this_activity": "ez a tevékenység",
+    "copied": "Másolva!",
+    "copy_message": "Üzenet másolása",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "A tolerancia ablaka",
+  "are_you_sure_you_want_to_exit": "Biztosan ki akarsz lépni?",
+  "your_unsaved_data_will_be_lost": "A nem mentett adataid elvesznek.",
+  "stay": "Marad",
+  "exit": "Kijárat",
+  "exit_confirmation": "Kilépés megerősítése",
+  "check_in_history": "Bejelentkezési előzmények",
+  "close": "Közeli",
+  "screen_navigation": "Képernyőnavigáció",
+  "check_in": "Bejelentkezés",
+  "what_is_the_window_of_tolerance": "Mi a tolerancia ablaka?",
+  "your_personal_toolkit": "Személyes eszköztárad",
+  "welcome": "Üdvözöljük",
+  "view_history": "Előzmények megtekintése",
+  "more": "Több",
+  "breadcrumb": "navigációs morzsa",
+  "previous_slide": "Előző dia",
+  "next_slide": "Következő dia",
+  "previous": "Előző",
+  "more_pages": "További oldalak",
+  "pagination": "lapszámozás",
+  "go_to_previous_page": "Ugrás az előző oldalra",
+  "go_to_next_page": "Ugrás a következő oldalra",
+  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
+  "oops_page_not_found": "Hoppá! Az oldal nem található.",
+  "return_to_home": "Vissza a kezdőlapra",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

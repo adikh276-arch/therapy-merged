@@ -1,0 +1,124 @@
+{
+  "app_title": "Cyklus hněvu a studu",
+  "app_subtitle": "Pochopení smyčky • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Proč se vztek pořád vrací?",
+      "description": "Možná to není tvůj temperament. Existuje skrytá smyčka mezi hněvem a studem — a jakmile ji uvidíte, všechno se změní.",
+      "quote": "\"Většina lidí se snaží ten hněv napravit. Ale stud je to, co to tiše drží při chodu.\"",
+      "button": "Pojďme to prozkoumat"
+    },
+    "s2": {
+      "tag": "Cyklus",
+      "title": "Smyčka vysvětlená",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Vztek se projevuje"
+        },
+        {
+          "emoji": "😔",
+          "label": "Hanba: \"Jsem špatný\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Hanba se pohřbí"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Vztek znovu vybuchne"
+        }
+      ],
+      "button": "Vidím to"
+    },
+    "s3": {
+      "tag": "Co se děje",
+      "title": "Dvě emoce, jedna past",
+      "anger": {
+        "title": "🔥 Hněv",
+        "desc": "Sekundární emoce — pod povrchem životů zraněná, strach nebo odmítnutí. Je to alarm, ne požár."
+      },
+      "shame": {
+        "title": "😔 Škoda",
+        "desc": "\"Jsem špatný\" — nejen \"udělal jsem něco špatného.\" Skrývá, umlčuje a udržuje cyklus v."
+      },
+      "button": "Osvobození"
+    },
+    "s4": {
+      "tag": "Přerušení",
+      "title": "Přerušte cyklus",
+      "steps": [
+        {
+          "title": "Uveďte zdroj",
+          "desc": "Zeptejte se: 'Co vlastně cítím?' Bolí? Bojíš se? Neviděný? Pojmenování ho oslabuje."
+        },
+        {
+          "title": "Soucitná pauza",
+          "desc": "Ruku na hruď. Řekni: 'To je těžké. Jsem člověk. Zvládnu to.'"
+        },
+        {
+          "title": "Oprava s grácií",
+          "desc": "Pokud je potřeba, napravte to — ale nepropadněte se. Nejsi nejhorší chvíle."
+        }
+      ],
+      "notice": "Všimnout si cyklu je už první krok. Děláš tu práci.",
+      "button": "Kompletní činnost"
+    }
+  },
+  "complete": {
+    "title": "Přerušení cyklu",
+    "message": "Získal jsi vědomí, že vidíš souvislost mezi hněvem a studem. To je základ trvalé emoční svobody."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Pochopení smyčky • {{step}}/{{total}}",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

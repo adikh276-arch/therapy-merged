@@ -1,0 +1,144 @@
+{
+  "app_title": "Verificare de citire a minții",
+  "intro": {
+    "title": "Verificare de citire a minții",
+    "description": "Pune sub semnul întrebării presupunerile pe care le faci despre ce gândesc alții.",
+    "benefits": [
+      "Nu mai presupune ce e mai rău",
+      "Identifică interpretările părtinitoare",
+      "Construiește o comunicare mai clară"
+    ],
+    "duration": "3-4 minute",
+    "view_past": "Vezi reflecții anterioare"
+  },
+  "history": {
+    "title": "Reflecții din trecut",
+    "no_entries": "Încă nu există înscrieri",
+    "belief_label": "Credință: {{level}}%",
+    "balanced_thought_label": "Gândire echilibrată"
+  },
+  "complete": {
+    "title": "Activitate completă",
+    "great_insights": "Perspective grozave!",
+    "message": "Prin a-ți pune la îndoială presupunerile, construiești o minte mai obiectivă și mai plină de compasiune."
+  },
+  "steps": {
+    "label": "Pasul {{current}} din 10",
+    "step1": {
+      "title": "Ce s-a întâmplat?",
+      "desc": "Descrie un moment recent în care te-ai simțit judecat sau nesigur.",
+      "placeholder": "Descrierea situației..."
+    },
+    "step2": {
+      "title": "Ce ți-a trecut prin minte?",
+      "desc": "Ce ai presupus că gândesc despre tine?",
+      "placeholder": "Am presupus că se gândesc..."
+    },
+    "step3": {
+      "title": "Hai să încetinim lucrurile",
+      "desc": "Acum, acest gând poate părea adevărat. Dar înainte de a accepta asta ca pe un fapt, să facem un pas înapoi și să privim mai atent.",
+      "button": "Pauză și continuă"
+    },
+    "step4": {
+      "title": "Este adevărat?",
+      "desc": "Există vreo dovadă clară (fapte, nu presupuneri) care să susțină această idee?",
+      "placeholder": "Dovezile pe care le văd sunt..."
+    },
+    "step5": {
+      "title": "Ce altceva s-ar putea întâmpla?",
+      "desc": "Care sunt 2–3 alte explicații posibile?",
+      "placeholder": "Posibilitate {{num}}..."
+    },
+    "step6": {
+      "title": "Verifică-ți credința",
+      "desc": "Cât de puternic crezi acum în gândirea ta inițială?",
+      "labels": [
+        "Deloc",
+        "Complet"
+      ]
+    },
+    "step7": {
+      "title": "O perspectivă mai echilibrată",
+      "desc": "Scrie un gând care să pară mai corect și mai puțin sigur.",
+      "placeholder": "Un gând mai echilibrat..."
+    },
+    "step8": {
+      "title": "Data viitoare",
+      "desc": "Ce ai putea face în loc să presupui?",
+      "examples": [
+        "Cere clarificări",
+        "Dă-i puțin timp",
+        "Observați fără a reacționa"
+      ],
+      "placeholder": "Data viitoare, aș putea..."
+    },
+    "step9": {
+      "title": "Observați schimbarea",
+      "desc": "Ai explorat posibilități diferite și ai creat spațiu pentru o perspectivă mai echilibrată.",
+      "original_label": "Gând original",
+      "balanced_label": "Perspectivă echilibrată",
+      "button": "Reflecția de finisaj"
+    },
+    "step10": {
+      "title": "O mică schimbare",
+      "desc": "Mintea ta încearcă să umple golurile. Dar nu orice gând este un fapt. Un pas înapoi te ajută să vezi lucrurile clar.",
+      "button": "Activitate completă"
+    }
+  },
+  "buttons": {
+    "continue": "Continuă",
+    "restart": "Repornire"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Verificarea citirii gândurilor",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

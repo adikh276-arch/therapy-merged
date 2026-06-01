@@ -1,0 +1,145 @@
+{
+  "app_title": "ప్రిడిక్షన్ వర్సెస్ రియాలిటీ",
+  "step_label": "8 యొక్క దశ {{current}}",
+  "intro": {
+    "title": "ప్రిడిక్షన్ వర్సెస్ రియాలిటీ",
+    "description": "మరింత సమతుల్య దృక్పథాన్ని నిర్మించడానికి వాస్తవానికి ఏమి జరుగుతుందో మీ ఆత్రుత అంచనాలను పోల్చండి.",
+    "benefits": [
+      "ఆత్రుత నమూనాలను గుర్తించడం",
+      "భయాలకు వ్యతిరేకంగా సాక్ష్యాలను సేకరించడం",
+      "భవిష్యత్తులో అతిగా ఆలోచించడాన్ని తగ్గించండి"
+    ],
+    "duration": "4-5 నిమిషాలు",
+    "view_past": "గత ప్రతిబింబాలను వీక్షించండి"
+  },
+  "history": {
+    "title": "గత ప్రతిబింబాలు",
+    "no_reflections": "ఇంకా ప్రతిబింబాలు సేవ్ చేయబడలేదు.",
+    "prediction_label": "అంచనా",
+    "reality_label": "వాస్తవికత",
+    "reflection_label": "ప్రతిబింబం:"
+  },
+  "complete": {
+    "title": "యాక్టివిటీ పూర్తయింది",
+    "saved_title": "ప్రతిబింబం సేవ్ చేయబడింది",
+    "message": "వాస్తవాలను చూడటం ద్వారా, విషయాలు కనిపించే దానికంటే తరచుగా నిర్వహించదగినవి అని తెలుసుకోవడానికి మీరు మీ మనస్సుకు సహాయం చేస్తున్నారు."
+  },
+  "emotions": [
+    "ఆత్రుతగా ఉంది",
+    "నాడీ",
+    "భయపడ్డాడు",
+    "మునిగిపోయారు",
+    "అసౌకర్యం"
+  ],
+  "intensity_labels": {
+    "not_intense": "తీవ్రమైనది కాదు",
+    "very_intense": "చాలా తీవ్రమైన"
+  },
+  "comparison_options": [
+    "నేను ఊహించిన విధంగా ఇది దాదాపు జరిగింది",
+    "కొన్ని భాగాలు సరైనవి, కానీ ప్రతిదీ కాదు",
+    "ఇది నేను ఊహించిన దానికంటే చాలా భిన్నంగా ఉంది",
+    "నేను ఊహించిన దానికంటే ఇది చాలా సులభం/మెరుగ్గా ఉంది"
+  ],
+  "screens": {
+    "s1": {
+      "title": "ఇటీవలి పరిస్థితి గురించి ఆలోచించండి",
+      "desc": "మీరు ఆత్రుతగా లేదా అస్పష్టంగా భావించిన ఇటీవలి క్షణాన్ని గుర్తు చేసుకోండి.",
+      "placeholder": "పరిస్థితిని వివరించండి..."
+    },
+    "s2": {
+      "title": "ఏమి జరుగుతుందని మీరు అనుకున్నారు?",
+      "desc": "ఆ క్షణంలో మీరు ఏమి ఆశించారు లేదా భయపడ్డారు?",
+      "placeholder": "నేను ఆందోళన చెందాను ..."
+    },
+    "s3": {
+      "title": "మీకు ఎలా అనిపించింది?",
+      "desc": "మీరు అనుభూతి చెందిన భావోద్వేగాలు మరియు వాటి తీవ్రతను ఎంచుకోండి."
+    },
+    "s4": {
+      "title": "వాస్తవానికి ఏమి జరిగింది?",
+      "desc": "నిజంగా ఏమి జరిగిందో వాస్తవాలపై దృష్టి పెట్టండి.",
+      "placeholder": "వాస్తవానికి..."
+    },
+    "s5": {
+      "title": "రెండింటినీ చూద్దాం",
+      "expectation": "నిరీక్షణ",
+      "reality": "వాస్తవికత",
+      "question": "మీ నిరీక్షణ ఎంత దగ్గరగా ఉంది?"
+    },
+    "s6": {
+      "title": "మీరు ఏమి గమనించారు?",
+      "desc": "మీరు అనుకున్నంత చెడ్డదా?",
+      "placeholder": "నేను గమనించాను ..."
+    },
+    "s7": {
+      "title": "తదుపరిసారి",
+      "desc": "ఇది మళ్లీ జరిగితే మీకు మీరే ఏమి గుర్తు చేసుకోగలరు?",
+      "placeholder": "ఉదా., \"నేను ఊహించినంత చెడ్డది కాకపోవచ్చు.\""
+    },
+    "s8": {
+      "title": "ఒక చిన్న రిమైండర్",
+      "desc": "మీ మనస్సు మిమ్మల్ని సిద్ధం చేయడానికి ప్రయత్నిస్తుంది - కానీ అది ఎల్లప్పుడూ ఖచ్చితంగా ఊహించదు. వాస్తవాలను చూడటానికి మీరు విరామం ఇచ్చిన ప్రతిసారీ, మీరు స్థితిస్థాపకతను పెంచుకుంటారు.",
+      "button": "ప్రతిబింబాన్ని సేవ్ చేయండి",
+      "discard": "ఎంట్రీని విస్మరించండి"
+    }
+  },
+  "buttons": {
+    "continue": "కొనసాగించండి"
+  },
+  "toasts": {
+    "saved": "ప్రతిబింబం సేవ్ చేయబడింది!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "అంచనా వర్సెస్ వాస్తవికత",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

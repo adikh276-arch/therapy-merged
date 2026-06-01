@@ -1,0 +1,124 @@
+{
+  "app_title": "Kitaran Kemarahan-Malu",
+  "app_subtitle": "Memahami gelung • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Mengapa kemarahan terus kembali?",
+      "description": "Ia mungkin bukan perangai anda. Terdapat gelung tersembunyi antara kemarahan dan rasa malu — dan sebaik sahaja anda melihatnya, semuanya berubah.",
+      "quote": "\"Kebanyakan orang cuba membetulkan kemarahan. Tetapi rasa malu adalah apa yang secara senyap-senyap membuatkan ia berjalan.\"",
+      "button": "Mari terokai"
+    },
+    "s2": {
+      "tag": "kitaran",
+      "title": "Gelung dijelaskan",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Kemarahan muncul"
+        },
+        {
+          "emoji": "😔",
+          "label": "Malu: \"Saya buruk\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Malu terkubur"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Kemarahan meletus lagi"
+        }
+      ],
+      "button": "Saya nampak ia"
+    },
+    "s3": {
+      "tag": "Apa yang sedang berlaku",
+      "title": "Dua emosi, satu perangkap",
+      "anger": {
+        "title": "🔥 Kemarahan",
+        "desc": "Emosi sekunder - di sebalik kehidupan terluka, ketakutan, atau penolakan. Ia adalah penggera, bukan kebakaran."
+      },
+      "shame": {
+        "title": "😔 Malu",
+        "desc": "\"Saya buruk\" - bukan hanya \"Saya melakukan sesuatu yang buruk.\" Ia menyembunyikan, menyenyapkan, dan memastikan kitaran berputar."
+      },
+      "button": "Membebaskan"
+    },
+    "s4": {
+      "tag": "Gangguan",
+      "title": "Mengganggu kitaran",
+      "steps": [
+        {
+          "title": "Namakan sumber",
+          "desc": "Tanya: 'Apa yang saya rasa sebenarnya?' Terluka? Takut? Tidak kelihatan? Menamakannya melemahkannya."
+        },
+        {
+          "title": "Jeda belas kasihan",
+          "desc": "Tangan di dada. Katakan: 'Ini sukar. Saya manusia. Saya boleh mengharungi ini.'"
+        },
+        {
+          "title": "Baiki dengan rahmat",
+          "desc": "Menebus kesalahan jika perlu — tetapi jangan berputar. Anda bukan detik terburuk anda."
+        }
+      ],
+      "notice": "Menyedari kitaran sudah menjadi langkah pertama. Anda sedang melakukan kerja.",
+      "button": "Lengkapkan Aktiviti"
+    }
+  },
+  "complete": {
+    "title": "Kitaran Terganggu",
+    "message": "Anda telah mendapat kesedaran untuk melihat hubungan antara kemarahan dan rasa malu. Ini adalah asas untuk kebebasan emosi yang berkekalan."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Memahami gelung • {{step}}/{{total}}",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

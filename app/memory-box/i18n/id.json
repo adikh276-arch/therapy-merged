@@ -1,0 +1,146 @@
+{
+  "app_title": "Kotak Memori",
+  "screen_titles": [
+    "Kotak Anda",
+    "Menghormati",
+    "Mengekspresikan",
+    "Diawetkan",
+    "Perawatan Lembut"
+  ],
+  "complete_title": "Memori Dipertahankan",
+  "complete_message": "Anda telah dengan aman menempatkan memori {{name}} di dalam kotak Anda. Momen-momen koneksi ini adalah milik Anda untuk selalu disimpan.",
+  "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
+  "save_success": "Memori dipertahankan",
+  "save_error": "Gagal mempertahankan memori",
+  "preserving": "Melestarikan...",
+  "preserve_memory": "Melestarikan Memori",
+  "welcome": {
+    "title": "Kotak Memori Anda",
+    "subtitle1": "Ruang yang tenang untuk mengingat seseorang yang Anda cintai. 🤍",
+    "subtitle2": "Tarik napas perlahan ...",
+    "subtitle3": "… dan hembuskan napas dengan lembut.",
+    "subtitle4": "Tidak ada cara yang benar atau salah untuk melakukan ini.",
+    "subtitle5": "Pergi dengan kecepatan Anda sendiri. 🌿",
+    "begin": "Mulai ✨",
+    "later": "Mungkin nanti"
+  },
+  "who": {
+    "placeholder_name": "Ketik nama mereka...",
+    "placeholder_relation": "Bagaimana Anda mengenalnya? (opsional)",
+    "categories": [
+      {
+        "label": "Momen bahagia",
+        "emoji": "😊"
+      },
+      {
+        "label": "Sesuatu yang biasa mereka katakan",
+        "emoji": "💬"
+      },
+      {
+        "label": "Kenangan kecil sehari-hari",
+        "emoji": "☕"
+      },
+      {
+        "label": "Tempat yang mengingatkan Anda pada mereka",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Sesuatu yang saya harap bisa saya katakan",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Lanjutkan →"
+  },
+  "expression": {
+    "title": "Mengekspresikan Ingatan Anda",
+    "memory_label": "Memori itu sendiri",
+    "memory_placeholder": "Tuliskan tentang momen, perasaan, atau detail yang ingin Anda simpan...",
+    "message_label": "Pesan untuk mereka (opsional)",
+    "message_placeholder": "Apa yang akan Anda katakan jika Anda bisa berbicara dengan mereka sekarang?",
+    "save": "Melestarikan Memori",
+    "skip": "Lewati untuk saat ini",
+    "back": "Kembali"
+  },
+  "box": {
+    "title": "Tersembunyi dengan Aman",
+    "subtitle": "Memori {{name}} ini sekarang menjadi bagian dari koleksi Anda.",
+    "add_another": "Tambahkan Memori Lain",
+    "finish": "Selesaikan Refleksi"
+  },
+  "closing": {
+    "title": "Merawat",
+    "subtitle": "Menutup kotak Anda untuk saat ini. Anda dapat kembali ke sini kapan saja Anda perlu merasa dekat dengan kenangan ini.",
+    "exit": "Tutup Kotak"
+  },
+  "history": {
+    "title": "Isi Kotak",
+    "no_memories": "Kotak Anda kosong. Tambahkan memori pertama Anda untuk memulai koleksi Anda.",
+    "search_placeholder": "Cari kenangan..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Kotak Memori",
+  "before_you_go": "Sebelum kamu pergi",
+  "grief_comes_in_waves": "Kesedihan datang bergelombang. 🌊",
+  "what_you_re_feeling_matters": "Perasaanmu itu penting. 🤍",
+  "be_gentle_with_yourself_today": "Bersikaplah lembut pada diri sendiri hari ini. 🌿",
+  "save_exit": "Simpan & keluar 🕊️",
+  "take_your_time": "Luangkan waktumu 🕯️",
+  "save_to_memory_box": "Simpan ke Kotak Kenangan 📦",
+  "write_as_much_or_as_little_as_you_want": "Tulislah sebanyak atau sesedikit yang kamu mau… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Jika ada sesuatu yang ingin Anda sampaikan…",
+  "past_entries": "Entri Sebelumnya",
+  "no_memories_saved_yet": "Belum ada kenangan yang tersimpan.",
+  "this_memory_is_held_here_for_you": "Kenangan ini tersimpan di sini, untukmu. 🌿",
+  "add_another_memory": "Tambahkan kenangan lain ✨",
+  "finish_for_now": "Selesai untuk saat ini",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "app_title": "בדיקת קריאת מחשבות",
+  "intro": {
+    "title": "בדיקת קריאת מחשבות",
+    "description": "שאל שאלות על ההנחות שאתה עושה לגבי מה שאחרים חושבים.",
+    "benefits": [
+      "תפסיק להניח את הגרוע מכל",
+      "זיהוי פרשנויות מוטות",
+      "בנה תקשורת ברורה יותר"
+    ],
+    "duration": "3-4 דקות",
+    "view_past": "צפו בהשתקפויות מהעבר"
+  },
+  "history": {
+    "title": "הרהורים מהעבר",
+    "no_entries": "עדיין אין רשומות",
+    "belief_label": "אמונה: {{level}}%",
+    "balanced_thought_label": "מחשבה מאוזנת"
+  },
+  "complete": {
+    "title": "הפעילות הושלמה",
+    "great_insights": "תובנות נהדרות!",
+    "message": "על ידי הטלת ספק בהנחות שלך, אתה בונה מוח אובייקטיבי וחומל יותר."
+  },
+  "steps": {
+    "label": "שלב {{current}} מתוך 10",
+    "step1": {
+      "title": "מה קרה?",
+      "desc": "תאר רגע לאחרונה שבו הרגשת נשפט או לא בטוח.",
+      "placeholder": "תיאור המצב..."
+    },
+    "step2": {
+      "title": "מה עבר לך בראש?",
+      "desc": "מה הנחת שהם חושבים עליך?",
+      "placeholder": "הנחתי שהם חושבים..."
+    },
+    "step3": {
+      "title": "בוא נאט את זה",
+      "desc": "כרגע, המחשבה הזו יכולה להרגיש אמיתית. אבל לפני שנקבל את זה כעובדה, בואו ניקח צעד אחורה ונבחן את זה מקרוב.",
+      "button": "הפסקה והמשך"
+    },
+    "step4": {
+      "title": "האם זה נכון?",
+      "desc": "האם יש ראיות ברורות (עובדות, לא הנחות) שתומכות במחשבה זו?",
+      "placeholder": "הראיות שאני רואה הן..."
+    },
+    "step5": {
+      "title": "מה עוד יכול לקרות?",
+      "desc": "מהם 2–3 הסברים אפשריים נוספים?",
+      "placeholder": "אפשרות {{num}}..."
+    },
+    "step6": {
+      "title": "בדוק את האמונה שלך",
+      "desc": "כמה חזק אתה מאמין במחשבה המקורית שלך עכשיו?",
+      "labels": [
+        "בכלל לא",
+        "לגמרי"
+      ]
+    },
+    "step7": {
+      "title": "גישה מאוזנת יותר",
+      "desc": "כתוב מחשבה שמרגישה יותר הוגנת ופחות ודאית.",
+      "placeholder": "מחשבה מאוזנת יותר..."
+    },
+    "step8": {
+      "title": "בפעם הבאה",
+      "desc": "מה אפשר לעשות במקום להניח?",
+      "examples": [
+        "בקש הבהרה",
+        "תן לזה קצת זמן",
+        "הודעה בלי להגיב"
+      ],
+      "placeholder": "בפעם הבאה, אני יכול..."
+    },
+    "step9": {
+      "title": "שימו לב לשינוי",
+      "desc": "חקרת אפשרויות שונות ויצרת מרחב למבט מאוזן יותר.",
+      "original_label": "מחשבה מקורית",
+      "balanced_label": "פרספקטיבה מאוזנת",
+      "button": "השתקפות גימור"
+    },
+    "step10": {
+      "title": "שינוי קטן",
+      "desc": "המוח שלך מנסה למלא את הפערים. אבל לא כל מחשבה היא עובדה. לקחת צעד אחורה עוזר לך לראות דברים בבירור.",
+      "button": "פעילות מלאה"
+    }
+  },
+  "buttons": {
+    "continue": "המשך",
+    "restart": "הפעלה מחדש"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "בדיקת קריאת מחשבות",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

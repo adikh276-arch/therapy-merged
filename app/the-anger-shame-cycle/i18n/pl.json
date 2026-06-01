@@ -1,0 +1,124 @@
+{
+  "app_title": "Cykl gniewu i wstydu",
+  "app_subtitle": "Zrozumienie pętli • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Dlaczego złość ciągle wraca?",
+      "description": "Może to nie twój temperament. Istnieje ukryta pętla między złością a wstydem — a gdy ją zobaczysz, wszystko się zmienia.",
+      "quote": "\"Większość ludzi próbuje naprawić złość. Ale to wstyd cicho go podtrzymuje.\"",
+      "button": "Zbadajmy to"
+    },
+    "s2": {
+      "tag": "Cykl",
+      "title": "Pętla wyjaśniona",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Pojawia się złość"
+        },
+        {
+          "emoji": "😔",
+          "label": "Wstyd: \"Jestem zły\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Wstyd zostaje zakopany"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Złość znów wybucha"
+        }
+      ],
+      "button": "Widzę to"
+    },
+    "s3": {
+      "tag": "Co się dzieje",
+      "title": "Dwie emocje, jedna pułapka",
+      "anger": {
+        "title": "🔥 Gniew",
+        "desc": "To wtórne uczucie — pod powierzchnią życia ból, strach lub odrzucenie. To alarm, nie pożar."
+      },
+      "shame": {
+        "title": "😔 Wstyd",
+        "desc": "\"Jestem zły\" — nie tylko \"zrobiłem coś złego.\" Ukrywa, ucisza i utrzymuje cykl w ruchu."
+      },
+      "button": "Uwolnienie się"
+    },
+    "s4": {
+      "tag": "Przerwa",
+      "title": "Przerwij cykl",
+      "steps": [
+        {
+          "title": "Podaj źródło",
+          "desc": "Zapytaj: 'Co właściwie czuję?' Zranione? Przestraszony? Niewidzialny? Nadanie jej nazwy ją osłabia."
+        },
+        {
+          "title": "Pauza współczucia",
+          "desc": "Ręka na piersi. Powiedz: 'To trudne. Jestem człowiekiem. Poradzę sobie z tym.'"
+        },
+        {
+          "title": "Napraw z łaską",
+          "desc": "Napraw to, jeśli trzeba, ale nie popadaj w spiralę. Nie jesteś swoim najgorszym momentem."
+        }
+      ],
+      "notice": "Zauważenie cyklu to już pierwszy krok. To ty wykonujesz pracę.",
+      "button": "Pełna aktywność"
+    }
+  },
+  "complete": {
+    "title": "Przerwanie cyklu",
+    "message": "Zyskałeś świadomość, by dostrzec związek między złością a wstydem. To jest fundament trwałej wolności emocjonalnej."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Zrozumienie pętli • {{krok}}/{{suma}}",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

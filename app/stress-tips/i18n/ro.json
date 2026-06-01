@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Respiră 🌿 adânc",
+    "title": "Gestionează-ți stresul",
+    "description": "Obiceiuri zilnice simple care să te ajute să te simți mai calm și mai controlat.",
+    "sectionTitle": "Sfaturi zilnice pentru reducerea stresului"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Dormi odihnitor",
+      "description": "Țintește 7–9 ore de somn în fiecare noapte. Încearcă să dormi și să te trezești în același timp în fiecare zi.",
+      "why": "Somnul ajută creierul și corpul să se recupereze și reduce hormonii de stres.",
+      "do": [
+        "Menține un program fix de somn",
+        "Evită ecranele cu o oră înainte de culcare",
+        "Păstrează camera răcoroasă și întunecată",
+        "Evită cofeina după ora 16:00"
+      ],
+      "button": "Setează reamintirea somnului"
+    },
+    "breathing": {
+      "title": "Exersează respirația profundă",
+      "description": "Petrece câteva minute concentrându-te pe respirație. Respirația lentă reduce anxietatea.",
+      "why": "Respirația lentă activează răspunsul de relaxare al corpului.",
+      "do": [
+        "Inspiră 4 secunde",
+        "Ține timp de 4 secunde",
+        "Expiră timp de 4 secunde",
+        "Repetă timp de 1 minut"
+      ]
+    },
+    "exercise": {
+      "title": "Mișcă-ți corpul",
+      "description": "Mersul ușor sau întinderile ajută la eliberarea stresului și la îmbunătățirea stării de spirit.",
+      "why": "Exercițiile eliberează endorfine și îmbunătățesc starea de spirit.",
+      "do": [
+        "15 minute de mers pe jos",
+        "Întindere ușoară",
+        "Scurtă sesiune de yoga",
+        "Antrenament rapid acasă"
+      ]
+    },
+    "caffeine": {
+      "title": "Limitează cofeina și zahărul",
+      "description": "Prea multă cofeină și zahăr pot crește anxietatea și pot perturba somnul.",
+      "why": "Prea multă cofeină și zahăr cresc anxietatea și problemele de somn.",
+      "do": [
+        "Înlocuiește o cafea cu ceai din plante",
+        "Bea mai multă apă",
+        "Reducerea gustărilor cu zahăr",
+        "Evită cofeina târziu în zi"
+      ]
+    },
+    "planning": {
+      "title": "Planifică-ți ziua",
+      "description": "Împarte sarcinile mari în pași mai mici pentru a evita să te simți copleșit.",
+      "why": "Planificarea reduce aglomerația mentală și suprasolicitarea.",
+      "do": [
+        "Scrie 3 sarcini principale",
+        "Împarte sarcinile în pași mici",
+        "Concentrează-te pe o singură sarcină pe rând",
+        "Ia pauze scurte"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Înapoi",
+    "notFound": "Pont negăsit.",
+    "whyTitle": "De ce ajută",
+    "doTitle": "Ce poți face",
+    "reminderSet": "Memento set! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Pagină negăsită",
+    "return": "Întoarcerea acasă"
+  },
+  "mood": {
+    "title": "Cum te simți azi?",
+    "great": "Grozav",
+    "okay": "Bine",
+    "stressed": "Stresat",
+    "overwhelmed": "Copleșit"
+  },
+  "breathing": {
+    "inhale": "Inspiră...",
+    "hold": "Stai...",
+    "exhale": "Expiră...",
+    "pause": "Pauză",
+    "resume": "Recapitulare"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Ameliorarea stresului",
+  "app_description": "Ameliorarea stresului",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "breathing_guide": "Ghid de respirație",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,217 @@
+{
+  "app_title": "আমার কি দরকার?",
+  "app_subtitle": "নিজের সাথে চেক ইন করুন",
+  "screens": {
+    "s1": {
+      "title": "এই মুহূর্তে আমার কি দরকার?",
+      "description": "আপনার হৃদয় কী চাইছে তা বিরতি দেওয়ার এবং শোনার জন্য একটি মুহুর্ত।",
+      "button": "চেক-ইন শুরু করুন"
+    },
+    "s2": {
+      "select": {
+        "title": "কী গুরুত্বপূর্ণ মনে হয়?",
+        "placeholder": "অন্য কিছু...",
+        "add_button": "যোগ করুন",
+        "button": "চালিয়ে যান"
+      },
+      "prioritize": {
+        "title": "কোনটি প্রাথমিক?"
+      },
+      "focus": {
+        "tag": "এই মুহূর্তে আপনার ফোকাস",
+        "button": "চালিয়ে যান"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "চালিয়ে যান"
+      },
+      "action": {
+        "title": "ছোট্ট একটা ধাপ এগিয়ে?",
+        "placeholder": "অথবা নিজে লিখতে হবে...",
+        "button": "রিভিউ রিফ্লিকশন"
+      },
+      "closing": {
+        "tag_need": "প্রাথমিক চাহিদা",
+        "tag_insight": "আপনার অন্তর্দৃষ্টি",
+        "tag_action": "ছোট অ্যাকশন",
+        "save_button": "সেভ অ্যান্ড ফিনিশ",
+        "finish_button": "সংরক্ষণ না করেই শেষ করুন"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "সংবেদনশীল সমর্থন",
+      "prompt": "এই মুহূর্তে কোন ধরনের সমর্থন আপনাকে সাহায্য করবে?",
+      "hints": [
+        "আমি শুধু কাউকে চাই...",
+        "এটি সাহায্য করবে যদি...",
+        "আমি আসলে যা চাই তা হলো..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "নিজের জন্য স্থান / সময়",
+      "prompt": "সেই স্থানটি আপনার জন্য কেমন দেখাবে?",
+      "hints": [
+        "আমি সেই সময়টা কাজে লাগাতাম...",
+        "মহাকাশ আমাকে অনুমতি দেবে...",
+        "আমার রুম দরকার..."
+      ]
+    },
+    "Clear communication": {
+      "label": "পরিষ্কার যোগাযোগ",
+      "prompt": "আপনার জন্য পরিষ্কার যোগাযোগ কেমন হবে?",
+      "hints": [
+        "আমি যদি বলতে পারতাম...",
+        "যদি তারা সত্যিই শুনত, আমি তাদের বলতাম...",
+        "যোগাযোগ কঠিন মনে হয় যখন..."
+      ]
+    },
+    "Reassurance": {
+      "label": "আশ্বাস",
+      "prompt": "কোন্ ধরনের আশ্বাস অর্থবহ মনে হবে?",
+      "hints": [
+        "আমার ওটা শুনতে হবে...",
+        "জেনে আমি শান্ত হই...",
+        "আমি চিন্তিত থাকি যে..."
+      ]
+    },
+    "Understanding": {
+      "label": "বোঝাপড়া",
+      "prompt": "অনুভূতি সত্যই কেমন হবে?",
+      "hints": [
+        "আমি আশা করি মানুষ জানতেন যে...",
+        "আমি আসলে যা অনুভব করছি তা হ'ল...",
+        "কেউ দেখে না যে আমি..."
+      ]
+    },
+    "Stability": {
+      "label": "স্থায়িত্ব",
+      "prompt": "এই মুহূর্তে আপনার জীবনে স্থিতিশীলতা কেমন অনুভূত হবে?",
+      "hints": [
+        "আমার অনুভব করার জন্য জিনিসগুলি দরকার ...",
+        "যা আমাকে গ্রাউন্ড করবে তা হ'ল...",
+        "স্থিতিশীলতা মানেই ..."
+      ]
+    },
+    "Honesty": {
+      "label": "সততা",
+      "prompt": "আপনার পরিস্থিতিতে আরও সততা কেমন দেখাবে?",
+      "hints": [
+        "যে সত্যের মুখোমুখি হতে হবে তা হলো...",
+        "আমি সৎ হতে চাই...",
+        "আসলে যা ঘটছে তা হ'ল..."
+      ]
+    },
+    "Respect": {
+      "label": "সম্মান",
+      "prompt": "এই মুহূর্তে আপনার কাছে সম্মান কেমন দেখায়?",
+      "hints": [
+        "আমি চিকিত্সা পাওয়ার যোগ্য...",
+        "সম্মান দেখতে হবে যে...",
+        "আমি চাই মানুষ..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "সম্পর্ক সম্পর্কে স্বচ্ছতা",
+      "prompt": "কোন ধরনের স্বচ্ছতা আপনাকে সবচেয়ে বেশি সাহায্য করবে?",
+      "hints": [
+        "আমার জানা দরকার কিনা...",
+        "যা আমাকে বিভ্রান্ত করে তা হ'ল...",
+        "আমি চাই আমরা পরিষ্কার হই..."
+      ]
+    },
+    "default": {
+      "prompt": "বাস্তব পরিস্থিতিতে এটি কেমন দেখাবে?",
+      "hints": [
+        "যা মনে আসে তা হলো...",
+        "এই মুহূর্তে আমার মনে হয়...",
+        "আমি যদি নিজের সাথে সৎ থাকি..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "সততার সাথে কিছু বলুন"
+    },
+    {
+      "label": "নিজের জন্য সময় নিন"
+    },
+    {
+      "label": "কারও কাছে পৌঁছান"
+    },
+    {
+      "label": "একটি ছোট সীমানা সেট করুন"
+    },
+    {
+      "label": "এখনও নিশ্চিত নই"
+    }
+  ],
+  "history": {
+    "title": "অতীত প্রতিফলন",
+    "empty": "এখনও কোনও প্রতিফলন নেই।"
+  },
+  "toasts": {
+    "save_success": "প্রতিফলন সংরক্ষণ করা হয়েছে",
+    "save_error": "প্রতিফলন সংরক্ষণ করতে ব্যর্থ হয়েছে",
+    "auth_error": "অথ সেশন অনুপস্থিত বা DB কনফিগার করা হয়নি"
+  },
+  "complete": {
+    "title": "চেক-ইন সম্পূর্ণ",
+    "message": "আপনি সনাক্ত করেছেন যে আপনার \"{{need}}\" প্রয়োজন। আপনার প্রয়োজনকে সম্মান করা স্ব-যত্নের একটি গুরুত্বপূর্ণ রূপ।"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "নিজের খোঁজখবর নিন",
+  "past_reflections": "অতীতের প্রতিফলন",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

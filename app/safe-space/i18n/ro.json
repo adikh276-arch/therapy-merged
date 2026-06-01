@@ -1,0 +1,114 @@
+{
+  "app_title": "Spațiu sigur",
+  "nav": [
+    "Check-in",
+    "Recall blând",
+    "Observare",
+    "Rămânând prezent",
+    "Mergând înainte"
+  ],
+  "s1": {
+    "title": "Hai să găsim un loc care să se simtă bine",
+    "description": [
+      "Înainte să începem, luați un moment să verificați...",
+      "Cum te simți acum?",
+      "Nu căutăm un \"loc sigur\" perfect. Doar ceva care să se simtă măcar puțin liniștit sau în regulă."
+    ],
+    "placeholder": "Cum te simți acum?",
+    "button": "Începeți vizualizarea"
+  },
+  "s2": {
+    "title": "Adu-mi ușor aminte de asta",
+    "description": [
+      "Gândește-te la un loc unde te-ai simțit măcar puțin în largul tău... Sau un loc pe care ți-ai dori să existe.",
+      "Acum așază-te acolo...",
+      "Stai jos, stai în picioare sau stai întins?"
+    ],
+    "button": "Continuă"
+  },
+  "s3": {
+    "title": "Uită-te încet în jur",
+    "description": [
+      "Aruncă o privire blândă în jur...",
+      "Care este un lucru pe care îl poți vedea?",
+      "Acum observă un sunet... Ce auzi?"
+    ],
+    "button": "Continuă"
+  },
+  "s4": {
+    "title": "Rămâi cu asta",
+    "description": [
+      "Ce anume la acest loc îl face să pară măcar puțin sigur sau ok?",
+      "După cum observi asta...",
+      "De asemenea, adu-ți atenția asupra respirației."
+    ],
+    "breathe": "Respiră",
+    "notice": "Dacă imaginarea pare grea, gândește-te la ideea acestui loc.",
+    "button": "Continuă"
+  },
+  "s5": {
+    "title": "Ia asta cu tine",
+    "description": [
+      "Observă cum te simți acum. Chiar și o mică schimbare contează.",
+      "Vezi dacă poți duce cu tine măcar 5% din acest sentiment."
+    ],
+    "placeholder": "Cum te simți acum?",
+    "button": "Sesiunea completă"
+  },
+  "complete": {
+    "title": "Sesiunea încheiată",
+    "message": "Acest loc sigur este mereu disponibil pentru tine. Poți reveni aici oricând ai nevoie de un moment de liniște."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Spațiu sigur",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

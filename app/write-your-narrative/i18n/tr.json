@@ -1,0 +1,125 @@
+{
+  "app_title": "Anlatınız",
+  "nav": {
+    "entry": "Hoş geldiniz",
+    "writing": "İfade",
+    "landing": "Yansıtma",
+    "history": "Yolculuğun"
+  },
+  "entry": {
+    "title": "Bunu adım adım ele alalım. 💛",
+    "description": [
+      "Bugün tüm hikayeni anlatmak zorunda değilsin. Sadece küçük bir parça yeterli.",
+      "Şu anda güvendesin. Ne yazdığın ve ne yazmadığın senin kontrolünde."
+    ],
+    "breath": "Başlamadan önce yavaşça nefes al.",
+    "button_ready": "Hazırım",
+    "button_history": "Geçmiş Anlatılar",
+    "footer": "Sözleriniz • Hızınız • Hikayeniz"
+  },
+  "writing": {
+    "title": "Ne iyi ✨ hissettirse yaz",
+    "subtitle": "Sözlerin, tempon",
+    "prompt_label": "Bir başlangıç noktasına mı ihtiyacınız var?",
+    "prompts": [
+      {
+        "text": "En çok hatırladığım şey...",
+        "emoji": "💭"
+      },
+      {
+        "text": "O zamanlar kendimi...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "O zamandan beri fark ettim ki...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Buradan yazmaya başla...",
+    "notice": "Bunu yapmanın doğru bir yolu yok. Birkaç satır bile yeterlidir.",
+    "button": "Yazmayı Bitir"
+  },
+  "landing": {
+    "title": "Önemli bir şey yaptın.",
+    "subtitle": "Kendin için orada olduğun için teşekkürler.",
+    "settle_title": "Biraz duralım ve yerleşelim",
+    "steps": [
+      "Etrafına bak ve görebileceğin 3 şeyi söyle.",
+      "Yavaşça nefes al... ve dışarı."
+    ],
+    "feeling_label": "Şu anda hissediyorum:",
+    "feeling_placeholder": "Bir iki kelime...",
+    "quote": "\"Her şeyi bir anda taşımana gerek yok. Hazır hissettiğin anda geri gelebilirsin.\"",
+    "button_save": "Anlatıyı Koruma",
+    "button_preserving": "Koruma..."
+  },
+  "history": {
+    "title": "Yolculuğun 📝",
+    "subtitle": "Geçmiş anlatılar ve yansımalar",
+    "empty": "Henüz hiçbir kayıt kaydetmedin. Acele etme—acele yok.",
+    "no_writing": "Hiçbir yazı korunmamıştır",
+    "button_back": "Yeniden Faaliyete Dönüş"
+  },
+  "complete": {
+    "title": "Korunan Anlatı",
+    "message": "Hikayenizi anlatırken güçlü bir adım attınız. Bakış açınız önemlidir ve yolculuğunuz benzersiz şekilde size aittir."
+  },
+  "toasts": {
+    "save_success": "Korunan anlatı",
+    "save_error": "Anlatıyı korumada başarısız oldu",
+    "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sizin Anlatınız",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "remove_this": "BUNU KALDIR",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

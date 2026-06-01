@@ -1,0 +1,124 @@
+{
+  "app_title": "怒りと恥のサイクル",
+  "app_subtitle": "ループの理解 • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "なぜ怒りは何度も戻ってくるのでしょうか?",
+      "description": "それはあなたの短気ではないかもしれません。怒りと恥の間には隠れたループがあり、それに気づくとすべてが変わります。",
+      "quote": "「ほとんどの人は怒りを直そうとする。しかし、恥こそが静かにそれを支えているのです。」",
+      "button": "さあ、探検しよう"
+    },
+    "s2": {
+      "tag": "サイクル",
+      "title": "ループの説明",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "怒りが表面化する"
+        },
+        {
+          "emoji": "😔",
+          "label": "恥:「私は悪い」"
+        },
+        {
+          "emoji": "🤐",
+          "label": "恥は埋もれてしまう"
+        },
+        {
+          "emoji": "🔥",
+          "label": "怒りが再び爆発する"
+        }
+      ],
+      "button": "見えた"
+    },
+    "s3": {
+      "tag": "何が起きているのか",
+      "title": "二つの感情、一つの罠",
+      "anger": {
+        "title": "🔥 怒り",
+        "desc": "二次的な感情――その下には傷つき、恐怖、拒絶が隠されています。火災じゃなくて警報だ。"
+      },
+      "shame": {
+        "title": "😔 恥ずかしい",
+        "desc": "「私は悪い」――単に「悪いことをした」だけではありません。それは隠れ、沈黙させ、循環を続けている。"
+      },
+      "button": "ブレイキング・フリー"
+    },
+    "s4": {
+      "tag": "中断",
+      "title": "サイクルを中断する",
+      "steps": [
+        {
+          "title": "出典を挙げてください",
+          "desc": "「私は実際に何を感じているのか?」と問いかけてみてください。怪我?怖い?見えない?名前をつけることで弱体化します。"
+        },
+        {
+          "title": "思いやりの間",
+          "desc": "手を胸に当てて。こう言いなさい。『これは難しい。私は人間です。これを乗り越えられる。」"
+        },
+        {
+          "title": "優雅に修復",
+          "desc": "必要なら償いをしましょう—でも、悪循環に陥らないでください。君は最悪の瞬間じゃない。"
+        }
+      ],
+      "notice": "サイクルに気づくことはすでに最初のステップです。あなたは仕事をしているのです。",
+      "button": "完全な活動"
+    }
+  },
+  "complete": {
+    "title": "サイクル中断",
+    "message": "怒りと恥のつながりに気づくようになりました。これが持続的な感情の自由の基盤です。"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ループを理解する • {{step}}/{{total}}",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

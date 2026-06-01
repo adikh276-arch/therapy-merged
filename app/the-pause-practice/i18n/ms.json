@@ -1,0 +1,125 @@
+{
+  "app_title": "Jeda Latihan",
+  "app_subtitle": "Kuasai ruang antara",
+  "intro": {
+    "title": "Jeda 5 saat",
+    "description": "Jeda kecil antara perasaan dan bertindak balas boleh mengubah segala-galanya.",
+    "duration": "Mengambil masa kurang daripada 15 saat. Sungguh.",
+    "button": "Cubalah →"
+  },
+  "scenario": {
+    "title": "Apa yang mencetuskan anda?",
+    "desc": "Pilih situasi yang anda kaitkan",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Seseorang mengganggu saya",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Perkara tidak berjalan seperti yang dirancang",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Saya rasa diabaikan",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Saya berasa terharu",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Taipkan anda sendiri...",
+    "button": "Berlatih Jeda →"
+  },
+  "hold": {
+    "title": "Tahan untuk Jeda ⏸️",
+    "instructions": "Pegang bulatan selama 5 saat",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Tekan dan tahan..."
+      },
+      {
+        "at": "0.15",
+        "text": "Kekal dengannya..."
+      },
+      {
+        "at": "0.5",
+        "text": "Anda melakukannya..."
+      },
+      {
+        "at": "0.8",
+        "text": "Hampir sampai..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Itulah jeda",
+    "message": "Anda hanya mencipta ruang antara apa yang anda rasakan dan cara anda bertindak balas. Malah jeda kecil membantu anda menuntut semula pusat anda.",
+    "tip_label": "Petua Pro",
+    "scenario_messages": {
+      "interrupts": "Lain kali seseorang mengganggu anda, cuba ini sebelum bertindak balas.",
+      "plans": "Lain kali perkara tidak berjalan seperti yang dirancang, cuba ini sebelum bertindak balas.",
+      "ignored": "Lain kali anda berasa diabaikan, cuba ini sebelum bertindak balas.",
+      "overwhelmed": "Lain kali anda berasa terharu, cuba ini sebelum melakukan apa-apa.",
+      "other": "Lain kali anda berasa dicetuskan, cuba ini sebelum bertindak balas."
+    },
+    "italic": "Ia tidak akan selalu terasa mudah—tetapi konsistensi adalah kunci."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Kuasai ruang antara",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

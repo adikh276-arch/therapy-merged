@@ -1,0 +1,144 @@
+{
+  "app_title": "Tankeläsningskontroll",
+  "intro": {
+    "title": "Tankeläsningskontroll",
+    "description": "Ifrågasätt de antaganden du gör om vad andra tänker.",
+    "benefits": [
+      "Sluta anta det värsta",
+      "Identifiera partiska tolkningar",
+      "Bygg tydligare kommunikation"
+    ],
+    "duration": "3-4 minuter",
+    "view_past": "Se tidigare reflektioner"
+  },
+  "history": {
+    "title": "Tidigare reflektioner",
+    "no_entries": "Inga bidrag än",
+    "belief_label": "Tro: {{level}}%",
+    "balanced_thought_label": "Balanserat tänkande"
+  },
+  "complete": {
+    "title": "Aktivitet avslutad",
+    "great_insights": "Fantastiska insikter!",
+    "message": "Genom att ifrågasätta dina antaganden bygger du ett mer objektivt och medkännande sinne."
+  },
+  "steps": {
+    "label": "Steg {{current}} av 10",
+    "step1": {
+      "title": "Vad hände?",
+      "desc": "Beskriv ett nyligen ögonblick då du kände dig dömd eller osäker.",
+      "placeholder": "Beskrivning av situationen..."
+    },
+    "step2": {
+      "title": "Vad tänkte du på?",
+      "desc": "Vad trodde du att de tänkte om dig?",
+      "placeholder": "Jag antog att de tänkte..."
+    },
+    "step3": {
+      "title": "Låt oss sakta ner det här",
+      "desc": "Just nu kan den tanken kännas sann. Men innan vi accepterar det som ett faktum, låt oss ta ett steg tillbaka och titta närmare på det.",
+      "button": "Pausa & Fortsätt"
+    },
+    "step4": {
+      "title": "Stämmer det?",
+      "desc": "Finns det några tydliga bevis (fakta, inte antaganden) som stöder denna tanke?",
+      "placeholder": "Bevisen jag ser är..."
+    },
+    "step5": {
+      "title": "Vad mer kan pågå?",
+      "desc": "Vilka är 2–3 andra möjliga förklaringar?",
+      "placeholder": "Möjlighet {{num}}..."
+    },
+    "step6": {
+      "title": "Kontrollera din tro",
+      "desc": "Hur starkt tror du på din ursprungliga tanke nu?",
+      "labels": [
+        "Inte alls",
+        "Helt och hållet"
+      ]
+    },
+    "step7": {
+      "title": "En mer balanserad syn",
+      "desc": "Skriv en tanke som känns mer rättvis och mindre säker.",
+      "placeholder": "En mer balanserad tanke..."
+    },
+    "step8": {
+      "title": "Nästa gång",
+      "desc": "Vad skulle du kunna göra istället för att anta?",
+      "examples": [
+        "Be om förtydligande",
+        "Ge det lite tid",
+        "Lägg märke till utan att reagera"
+      ],
+      "placeholder": "Nästa gång skulle jag kunna..."
+    },
+    "step9": {
+      "title": "Lägg märke till skiftet",
+      "desc": "Du utforskade olika möjligheter och skapade utrymme för en mer balanserad syn.",
+      "original_label": "Ursprunglig tanke",
+      "balanced_label": "Balanserat perspektiv",
+      "button": "Färdig reflektion"
+    },
+    "step10": {
+      "title": "En liten förändring",
+      "desc": "Ditt sinne försöker fylla i luckorna. Men inte varje tanke är ett faktum. Att ta ett steg tillbaka hjälper dig att se saker klart.",
+      "button": "Fullständig aktivitet"
+    }
+  },
+  "buttons": {
+    "continue": "Fortsätt",
+    "restart": "Starta om"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Tankeläsningskontroll",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,102 @@
+{
+  "app_title": "La carta no enviada",
+  "app_subtitle": "Libera tus pensamientos de forma segura y privada",
+  "intro": {
+    "title": "La carta no enviada",
+    "description": [
+      "A veces, hay cosas que desearíamos poder decir — pero nunca tuvimos la oportunidad.",
+      "Esto podía ser porque no se sentía seguro, porque el momento no era el adecuado o porque las palabras eran demasiado difíciles de expresar en voz alta.",
+      "Esta actividad te ofrece un espacio privado para poner esos pensamientos en palabras.",
+      "No tienes que enviar esta carta. Esto es solo para ti: para expresar, liberar y entender mejor tus sentimientos."
+    ],
+    "notice": "Escribe libremente. Nadie más verá esto.",
+    "button": "Empieza a escribir →"
+  },
+  "writing": {
+    "title": "Escribe lo que has estado guardando",
+    "desc": "Puedes escribir a tu pareja, expareja o incluso a la propia relación. No hay una forma correcta o incorrecta de hacerlo.",
+    "prompts": [
+      "Me siento...",
+      "Ojalá...",
+      "Nunca dije...",
+      "Lo que me dolió...",
+      "Lo que necesitaba..."
+    ],
+    "placeholder": "Querido ____,\nLlevo tiempo queriendo decir...",
+    "notice": "Puedes hacer una pausa y volver cuando quieras.",
+    "button": "Continúa →"
+  },
+  "reflection": {
+    "title": "Tómate un momento con esto",
+    "description": [
+      "Acabas de poner tus pensamientos y sentimientos en palabras — eso requiere valor.",
+      "Puede que notes una mezcla de emociones ahora mismo, y eso está completamente bien.",
+      "Antes de seguir adelante, respira hondo y revisa suavemente cómo eres tú mismo."
+    ],
+    "notice": "Esto era para tu sanación, no para enviarla.",
+    "save_button": "Carta guardada",
+    "finish_button": "Finalización"
+  },
+  "history": {
+    "title": "Cartas pasadas",
+    "empty_title": "Aún no has escrito ninguna carta.",
+    "empty_desc": "Tus cartas aparecerán aquí después de que las guardes."
+  },
+  "toasts": {
+    "save_success": "Carta guardada en tu diario privado",
+    "save_error": "No se pudo guardar la carta",
+    "auth_error": "Sesión de autenticación ausente o base de datos no configurada"
+  },
+  "common": {
+    "get_started": "Comenzar",
+    "start_over": "Volver a empezar",
+    "finish_exit": "Finalizar y salir",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Tiempo para completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar",
+    "step_of": "Paso {{current}} de {{total}}",
+    "round_of": "Ronda {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondas",
+    "instruction_ready": "Configura tus rondas y toca play para comenzar",
+    "instruction_running": "Sigue el círculo para regular tu respiración"
+  },
+  "app_description": "Libera tus pensamientos de forma segura y privada.",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "¡Ups! Página no encontrada",
+  "return_to_home": "Regresar a la página principal",
+  "phase_label": "Fase",
+  "instruction_ready": "Configura tus rondas y toca play para comenzar",
+  "instruction_running": "Sigue el círculo para regular tu respiración",
+  "round_x_of_y": "Ronda {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rondas",
+  "yes": "Sí",
+  "no": "No",
+  "date": "Fecha",
+  "continue": "Continuar"
+}

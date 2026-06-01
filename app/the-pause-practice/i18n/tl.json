@@ -1,0 +1,125 @@
+{
+  "app_title": "I-pause ang pagsasanay",
+  "app_subtitle": "Master ang espasyo sa pagitan ng",
+  "intro": {
+    "title": "Ang 5-Segundong Pag-pause",
+    "description": "Ang isang maliit na paghinto sa pagitan ng pakiramdam at reaksyon ay maaaring baguhin ang lahat.",
+    "duration": "Tumatagal ng mas mababa sa 15 segundo. Talagang.",
+    "button": "Subukan ito →"
+  },
+  "scenario": {
+    "title": "Ano ang nag-trigger sa iyo?",
+    "desc": "Pumili ng sitwasyong nauugnay sa iyo",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "May pumigil sa akin",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Ang mga bagay ay hindi napupunta ayon sa plano",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Pakiramdam ko ay hindi ako pinansin",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Pakiramdam ko ay labis na nababaliw",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "I-type ang iyong sariling ...",
+    "button": "Magpraktis I-pause →"
+  },
+  "hold": {
+    "title": "I-hold ang pahinga ⏸️",
+    "instructions": "Hawakan ang bilog sa loob ng 5 segundo",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Pindutin at hawakan ..."
+      },
+      {
+        "at": "0.15",
+        "text": "Manatili sa ito ..."
+      },
+      {
+        "at": "0.5",
+        "text": "Ginagawa mo ito..."
+      },
+      {
+        "at": "0.8",
+        "text": "Halos doon..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Iyon ang pahinga",
+    "message": "Lumikha ka lamang ng puwang sa pagitan ng iyong naramdaman at kung paano ka tumugon. Kahit na ang isang maliit na pag-pause ay tumutulong sa iyo na mabawi ang iyong sentro.",
+    "tip_label": "Pro Tip",
+    "scenario_messages": {
+      "interrupts": "Sa susunod na may makagambala sa iyo, subukan ito bago tumugon.",
+      "plans": "Sa susunod na hindi natuloy ang mga bagay-bagay ayon sa plano, subukan ito bago mag-react.",
+      "ignored": "Sa susunod na pakiramdam mo ay hindi ka pinansin, subukan ito bago sumagot.",
+      "overwhelmed": "Sa susunod na makaramdam ka ng labis na kalungkutan, subukan ito bago gumawa ng anumang bagay.",
+      "other": "Sa susunod na maramdaman mong na-trigger, subukan ito bago mag-react."
+    },
+    "italic": "Hindi ito palaging magiging madali-ngunit ang pagkakapare-pareho ay susi."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Pangasiwaan ang espasyo sa pagitan",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

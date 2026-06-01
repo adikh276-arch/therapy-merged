@@ -1,0 +1,113 @@
+{
+  "app_title": "הבנת הבקרה",
+  "app_subtitle": "אסטרטגיית הישרדות • {{step}}/3",
+  "screens": [
+    {
+      "headline": "למה שליטה יכולה להרגיש כל כך חזקה",
+      "paragraphs": [
+        "עבור אנשים רבים החווים קשיי אכילה, שליטה יכולה להרגיש כמו דרך ליצירת ביטחון.",
+        "כאשר החיים מרגישים בלתי צפויים או אינטנסיביים רגשית, התמקדות באוכל, במשקל או בשגרה יכולה להביא תחושת מבנה וביטחון.",
+        "זה לא עניין של כוח רצון או משמעת. זה על לנסות לייצב את עצמך כשדברים מרגישים לא בטוחים.",
+        "כך, השליטה הופכת לאסטרטגיית התמודדות — משהו שעוזר לך להרגיש יציב, אפילו אם רק זמנית."
+      ],
+      "microcopy": "אתה לא לבד בתחושה כזו.",
+      "cta": "המשך"
+    },
+    {
+      "headline": "דרכים שונות שבהן מופיע הבקרה",
+      "intro": "הצורך בשליטה לא נראה אותו דבר אצל כולם, אבל לעיתים קרובות הוא מתבטא בדפוסים כמו:",
+      "bullets": [
+        {
+          "text": "כללי מזון נוקשים או נוקשים"
+        },
+        {
+          "text": "צריך לעקוב אחרי שגרות בדיוק"
+        },
+        {
+          "text": "חרדה כשתוכניות משתנות"
+        },
+        {
+          "text": "קישור ערך עצמי לצורה/משקל"
+        }
+      ],
+      "outro": "עם הזמן, אלה עלולים להפוך לנוקשים, לתפוס מקום מנטלי ולהקשות על ההסתגלות.",
+      "microcopy": "מה שמתחיל כשליטה יכול לאט לאט להרגיש שולט.",
+      "cta": "המשך"
+    },
+    {
+      "headline": "מתחת לשליטה",
+      "intro": "הדחף לשליטה לעיתים קרובות שורשיו עמוקים יותר. ניתן לקשר אותו ל:",
+      "bullets": [
+        {
+          "text": "מרגיש מוצף רגשית"
+        },
+        {
+          "text": "רצון לחיזוי"
+        },
+        {
+          "text": "צורך ביציבות ובטיחות"
+        }
+      ],
+      "insight": "שליטה אינה הבעיה — זו האסטרטגיה שהמוח שלך מצא להתמודד. עם הזמן והתמיכה, דרכים נוספות להרגיש בטוחות אפשריות.",
+      "microcopy": "הבנה היא צעד ראשון עוצמתי.",
+      "cta": "סיים את הקריאה"
+    }
+  ],
+  "complete": {
+    "title": "מודעות שהושגה",
+    "message": "הבנת שורשי השליטה היא צעד אמיץ ראשון למציאת דרכים חדשות להרגיש בטוח ויציב.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "אסטרטגיית הישרדות • {{step}}/3",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

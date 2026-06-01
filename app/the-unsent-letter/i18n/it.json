@@ -1,0 +1,102 @@
+{
+  "app_title": "La Lettera Non Inviata",
+  "app_subtitle": "Libera i tuoi pensieri in modo sicuro e privato",
+  "intro": {
+    "title": "La Lettera Non Inviata",
+    "description": [
+      "A volte ci sono cose che vorremmo poter dire — ma che non abbiamo mai avuto la possibilità.",
+      "Questo poteva essere perché non sembrava sicuro, il tempismo non era giusto, o le parole erano troppo difficili da esprimere ad alta voce.",
+      "Questa attività ti offre uno spazio privato dove mettere in parole quei pensieri.",
+      "Non devi mandare questa lettera. Questo è solo per te — per esprimere, liberare e comprendere meglio i tuoi sentimenti."
+    ],
+    "notice": "Scrivi liberamente. Nessun altro lo vedrà.",
+    "button": "Inizia a scrivere →"
+  },
+  "writing": {
+    "title": "Scrivi ciò che hai tenuto dentro",
+    "desc": "Puoi scrivere al tuo partner, al tuo ex partner o anche alla relazione stessa. Non c'è un modo giusto o sbagliato per farlo.",
+    "prompts": [
+      "Mi sento...",
+      "Magari...",
+      "Non ho mai detto...",
+      "Cosa mi ha ferito...",
+      "Quello di cui avevo bisogno..."
+    ],
+    "placeholder": "Caro ____,\nVolevo dire...",
+    "notice": "Puoi fermarti e tornare in qualsiasi momento.",
+    "button": "Continua →"
+  },
+  "reflection": {
+    "title": "Prenditi un momento con questo",
+    "description": [
+      "Hai appena messo in parole i tuoi pensieri e sentimenti — ci vuole coraggio.",
+      "Potresti notare un mix di emozioni in questo momento, e va benissimo così.",
+      "Prima di andare avanti, fai un respiro e controlla delicatamente te stesso."
+    ],
+    "notice": "Questo era per la tua guarigione, non per mandare.",
+    "save_button": "Salva la lettera",
+    "finish_button": "Fine"
+  },
+  "history": {
+    "title": "Lettere passate",
+    "empty_title": "Non hai ancora scritto nessuna lettera.",
+    "empty_desc": "Le tue lettere appariranno qui dopo averle salvate."
+  },
+  "toasts": {
+    "save_success": "Lettera salvata nel tuo diario privato",
+    "save_error": "Non è riuscito a salvare la lettera",
+    "auth_error": "Sessione di autenticazione mancante o DB non configurato"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Esprimi i tuoi pensieri in modo sicuro e privato",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

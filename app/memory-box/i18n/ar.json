@@ -1,0 +1,146 @@
+{
+  "app_title": "صندوق الذاكرة",
+  "screen_titles": [
+    "صندوقك",
+    "التكريم",
+    "التعبير عن الجميع",
+    "محفوظة",
+    "العناية اللطيفة"
+  ],
+  "complete_title": "الذاكرة محفوظة",
+  "complete_message": "لقد وضعت ذكرى {{name}} بأمان في صندوقك. هذه اللحظات من التواصل هي ملكك لتحتفظ بها دائما.",
+  "auth_error": "جلسة المصادقة مفقودة أو قاعدة بيانات غير مهيأة",
+  "save_success": "حفظ الذكرى",
+  "save_error": "فشل في حفظ الذاكرة",
+  "preserving": "الحفظ...",
+  "preserve_memory": "حفظ الذاكرة",
+  "welcome": {
+    "title": "صندوق ذاكرتك",
+    "subtitle1": "مساحة هادئة لتذكر من تحبه. 🤍",
+    "subtitle2": "خذ نفسا بطيئا...",
+    "subtitle3": "… وزفر برفق.",
+    "subtitle4": "لا توجد طريقة صحيحة أو خاطئة للقيام بذلك.",
+    "subtitle5": "اذهب على وتيرتك الخاصة. 🌿",
+    "begin": "البداية ✨",
+    "later": "ربما لاحقا"
+  },
+  "who": {
+    "placeholder_name": "اكتب اسمهم...",
+    "placeholder_relation": "كيف تعرفهم؟ (اختياري)",
+    "categories": [
+      {
+        "label": "لحظة سعيدة",
+        "emoji": "😊"
+      },
+      {
+        "label": "شيء كانوا يقولونه سابقا",
+        "emoji": "💬"
+      },
+      {
+        "label": "ذكرى صغيرة يومية",
+        "emoji": "☕"
+      },
+      {
+        "label": "مكان يذكرك بهم",
+        "emoji": "🏡"
+      },
+      {
+        "label": "شيء أتمنى لو أستطيع قوله",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "تابع →"
+  },
+  "expression": {
+    "title": "التعبير عن ذاكرتك",
+    "memory_label": "الذكرى نفسها",
+    "memory_placeholder": "اكتب عن اللحظة، الشعور، أو التفاصيل التي تريد الاحتفاظ بها...",
+    "message_label": "رسالة لهم (اختياري)",
+    "message_placeholder": "ماذا ستقول لو كان بإمكانك التحدث إليهم الآن؟",
+    "save": "حفظ الذاكرة",
+    "skip": "تخطى الآن",
+    "back": "العودة"
+  },
+  "box": {
+    "title": "مخبأ بأمان",
+    "subtitle": "هذه الذكرى ل {{name}} أصبحت الآن جزءا من مجموعتك.",
+    "add_another": "إضافة ذكرى أخرى",
+    "finish": "انعكاس النهاية"
+  },
+  "closing": {
+    "title": "العناية",
+    "subtitle": "أغلق صندوقك الآن. يمكنك العودة إلى هنا في أي وقت تحتاج فيه للشعور بالقرب من هذه الذكريات.",
+    "exit": "الصندوق المغلق"
+  },
+  "history": {
+    "title": "محتويات الصندوق",
+    "no_memories": "صندوقك فارغ. أضف أول ذكرى لك لتبدأ مجموعتك.",
+    "search_placeholder": "ابحث عن ذكريات..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "صندوق الذكريات",
+  "before_you_go": "قبل أن تذهب",
+  "grief_comes_in_waves": "يأتي الحزن على شكل موجات. 🌊",
+  "what_you_re_feeling_matters": "ما تشعر به مهم. 🤍",
+  "be_gentle_with_yourself_today": "كُن لطيفاً مع نفسك اليوم. 🌿",
+  "save_exit": "حفظ وخروج 🕊️",
+  "take_your_time": "خذ وقتك 🕯️",
+  "save_to_memory_box": "احفظ في صندوق الذاكرة 📦",
+  "write_as_much_or_as_little_as_you_want": "اكتب بقدر ما تشاء، قليلاً كان أم كثيراً... ✍️",
+  "if_there_s_something_you_d_like_to_say": "إذا كان هناك شيء تود قوله...",
+  "past_entries": "المشاركات السابقة",
+  "no_memories_saved_yet": "لم يتم حفظ أي ذكريات بعد.",
+  "this_memory_is_held_here_for_you": "هذه الذكرى محفوظة هنا، من أجلك. 🌿",
+  "add_another_memory": "أضف ذكرى أخرى ✨",
+  "finish_for_now": "انتهينا الآن",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

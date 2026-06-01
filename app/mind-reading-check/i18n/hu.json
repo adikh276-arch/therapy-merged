@@ -1,0 +1,144 @@
+{
+  "app_title": "Gondolatolvasó Ellenőrzés",
+  "intro": {
+    "title": "Gondolatolvasó Ellenőrzés",
+    "description": "Kérdőjelezd meg azokat a feltételezéseket, amiket mások gondolkodnak.",
+    "benefits": [
+      "Ne feltételezd a legrosszabbat",
+      "Elfogult értelmezések azonosítása",
+      "Tisztább kommunikáció kialakítása"
+    ],
+    "duration": "3-4 perc",
+    "view_past": "Tekints múltbeli visszatükröződéseket"
+  },
+  "history": {
+    "title": "Múltbeli visszatekintések",
+    "no_entries": "Még nincs bejegyzés",
+    "belief_label": "Hit: {{level}}%",
+    "balanced_thought_label": "Kiegyensúlyozott gondolkodás"
+  },
+  "complete": {
+    "title": "Tevékenység befejezve",
+    "great_insights": "Remek meglátások!",
+    "message": "Ha megkérdőjelezed a feltételezéseidet, objektívebb és együttérzőbb elmét építesz."
+  },
+  "steps": {
+    "label": "Lépés {{current}} a 10-ből",
+    "step1": {
+      "title": "Mi történt?",
+      "desc": "Írj le egy friss pillanatot, amikor megítélve vagy bizonytalan voltál.",
+      "placeholder": "A helyzet leírása..."
+    },
+    "step2": {
+      "title": "Mi járt az eszedben?",
+      "desc": "Mit gondoltál rólad?",
+      "placeholder": "Azt hittem, azt gondolják..."
+    },
+    "step3": {
+      "title": "Lassítsuk le",
+      "desc": "Most ez a gondolat igaznak tűnhet. De mielőtt tényként elfogadnánk, lépjünk hátra, és nézzük meg közelebbről.",
+      "button": "Szünet és folytatás"
+    },
+    "step4": {
+      "title": "Ez igaz?",
+      "desc": "Van valami egyértelmű bizonyíték (tények, nem feltételezések), ami ezt a nézetet alátámasztja?",
+      "placeholder": "A bizonyítékok, amiket látok..."
+    },
+    "step5": {
+      "title": "Mi más lehetne még?",
+      "desc": "Mik a további 2–3 lehetséges magyarázat?",
+      "placeholder": "Lehetőség {{num}}..."
+    },
+    "step6": {
+      "title": "Nézd meg a hitedet",
+      "desc": "Mennyire hiszel most az eredeti gondolatodban?",
+      "labels": [
+        "Egyáltalán nem",
+        "Teljesen"
+      ]
+    },
+    "step7": {
+      "title": "Kiegyensúlyozottabb nézet",
+      "desc": "Írj egy olyan gondolatot, ami igazságosabbnak és kevésbé biztosnak tűnik.",
+      "placeholder": "Egy kiegyensúlyozottabb gondolat..."
+    },
+    "step8": {
+      "title": "Legközelebb",
+      "desc": "Mit tehetnél ahelyett, hogy feltételeznéd?",
+      "examples": [
+        "Kérj tisztázást",
+        "Adj neki egy kis időt",
+        "Értesítés reagálás nélkül"
+      ],
+      "placeholder": "Legközelebb tudnék..."
+    },
+    "step9": {
+      "title": "Figyeld meg a változást",
+      "desc": "Különböző lehetőségeket kutattál, és teret teremtettél egy kiegyensúlyozottabb nézőpontnak.",
+      "original_label": "Eredeti gondolat",
+      "balanced_label": "Kiegyensúlyozott nézőpont",
+      "button": "Finish Reflection"
+    },
+    "step10": {
+      "title": "Egy kis váltás",
+      "desc": "Az elméd próbálja kitölteni a hiányosságokat. De nem minden gondolat tény. Ha egy lépést hátralépsz, tisztán látod a dolgokat.",
+      "button": "Teljes tevékenység"
+    }
+  },
+  "buttons": {
+    "continue": "Folytatás",
+    "restart": "Újraindítás"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Újrakezdés",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Elkészítési idő",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Részesedés",
+    "share_progress": "Haladás megosztása",
+    "inspire_others": "Inspirálj másokat még ma",
+    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "this_activity": "ez a tevékenység",
+    "copied": "Másolva!",
+    "copy_message": "Üzenet másolása",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Gondolatolvasási ellenőrzés",
+  "more": "Több",
+  "breadcrumb": "navigációs morzsa",
+  "previous_slide": "Előző dia",
+  "next_slide": "Következő dia",
+  "close": "Közeli",
+  "previous": "Előző",
+  "more_pages": "További oldalak",
+  "pagination": "lapszámozás",
+  "go_to_previous_page": "Ugrás az előző oldalra",
+  "go_to_next_page": "Ugrás a következő oldalra",
+  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
+  "oops_page_not_found": "Hoppá! Az oldal nem található.",
+  "return_to_home": "Vissza a kezdőlapra",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

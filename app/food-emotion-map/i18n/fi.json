@@ -1,0 +1,139 @@
+{
+  "app_title": "Ruoka- ja tuntekartta",
+  "screen_titles": [
+    "Tervetuloa",
+    "Ruokatottumukset",
+    "Sisäinen vuoropuhelu",
+    "Fyysinen aistiminen",
+    "Kartta",
+    "Hellä tuki",
+    "Viimeinen katsaus",
+    "Reflektiointi"
+  ],
+  "welcome_text": "Hei siellä... Olen todella iloinen, että olet täällä 💛. Käydään varovasti läpi, mitä on tapahtunut.",
+  "coming_up_label": "Mitä on viime aikoina tulossa?",
+  "begin_mapping": "Aloita kartoitus",
+  "food_patterns_q": "Hmm... Kuulen sinut. Kun tunnet {{emotion}}... Miten ruoka yleensä ilmestyy?",
+  "continue_button": "Jatka",
+  "internal_dialogue_q": "Niissä hetkissä... Millaisia ajatuksia tulee mieleen?",
+  "write_placeholder": "Kirjoita mitä mieleen tulee...",
+  "physical_sensing_q": "Jos pysähdyt hetkeksi... Mitä huomaat kehossasi?",
+  "the_pattern_label": "Kuvio",
+  "pattern_desc_1": "Kun tunnet {{emotion}}, kehosi tuntee {{sensation}}...",
+  "pattern_desc_2": "… ja ruoka muuttuu tieksi {{response}}, samalla kun ajatukset kuten \"{{thought}}\" ilmestyvät.",
+  "pattern_footer": "\"Kaavatietoisuus on vapautta\"",
+  "support_q": "Niissä hetkissä... Mikä voisi auttaa sinua – edes vähän?",
+  "understanding_text": "Ymmärrät itseäsi vähän paremmin. Se riittää enemmän kuin 💛 tarpeeksi",
+  "how_feeling_now": "Miltä sinusta tuntuu nyt?",
+  "preserve_button": "Suojelukartta",
+  "preserving": "Säilyttäen...",
+  "complete_title": "Kartta säilynyt",
+  "complete_message": "Olet onnistuneesti kartoittanut yhteyden tunteidesi ja ruoan välillä. Tämä tietoisuus on voimakas väline lempeään muutokseen.",
+  "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
+  "save_success": "Kuvio säilynyt",
+  "save_error": "Kuvion säilyttäminen epäonnistui",
+  "emotions_list": [
+    "😰 Stressi",
+    "😢 Surua",
+    "😶 Tylsyys",
+    "😟 Ahdistus",
+    "🥺 Yksinäisyys",
+    "💭 Jotain muuta..."
+  ],
+  "food_responses": [
+    "🍽️ Syön enemmän",
+    "🚫 Syön vähemmän",
+    "🍫 Himoitsen tiettyjä ruokia",
+    "😣 Vältän ruokaa",
+    "😐 Ei todellista muutosta"
+  ],
+  "body_sensations": [
+    "💔 Tiukka rinta",
+    "🪨 Raskas tunne",
+    "🦵 Levoton / levoton",
+    "🔋 Matala energia",
+    "🌀 Solmuja vatsassa",
+    "❓ Jotain muuta..."
+  ],
+  "support_options": [
+    "🗣️ Puhu jonkun kanssa",
+    "☕ Pidä tauko",
+    "📝 Päiväkirja",
+    "🌬️ Hengitä",
+    "🎧 Häiritsen itseäni"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Pyrkiä tavoittamaan 💛",
+      "body": "Joskus jakaminen keventää asioita hieman. Ehkä yksinkertainen 'hei, voidaanko puhua?'"
+    },
+    "☕ Take a break": {
+      "title": "Tauko 💛",
+      "body": "Pieni tauko voi auttaa nollaamaan tilanteen. Ehkä astu taaksepäin ja hengitä hitaasti."
+    },
+    "📝 Journal": {
+      "title": "Kirjoita se ylös 💛",
+      "body": "Voisit aloittaa sanomalla 'juuri nyt tunnen...' Ja anna sen vain virrata."
+    },
+    "🌬️ Breathe": {
+      "title": "Hengitä 💛",
+      "body": "Hengitä sisään 4... Pidä 2... Uloshengitys 6... Hidastetaan yhdessä."
+    },
+    "🎧 Distract myself": {
+      "title": "Hellä siirtymä 💛",
+      "body": "Hellä häiriö voi muuttaa hetkeä... Ehkä jotain kevyttä tai helppoa."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ruoka- ja tunnekartta",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

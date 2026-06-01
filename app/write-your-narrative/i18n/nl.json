@@ -1,0 +1,125 @@
+{
+  "app_title": "Jouw verhaal",
+  "nav": {
+    "entry": "Welkom",
+    "writing": "Expressen",
+    "landing": "Reflecterend",
+    "history": "Jouw reis"
+  },
+  "entry": {
+    "title": "Laten we dit stap voor stap aanpakken. 💛",
+    "description": [
+      "Je hoeft vandaag niet je hele verhaal te vertellen. Een klein deel is genoeg.",
+      "Je bent nu veilig. Je hebt de controle over wat je schrijft—en wat je niet schrijft."
+    ],
+    "breath": "Haal langzaam adem voordat we beginnen.",
+    "button_ready": "Ik ben er klaar voor",
+    "button_history": "Verleden verhalen",
+    "footer": "Jouw woorden • Jouw tempo • Jouw verhaal"
+  },
+  "writing": {
+    "title": "Schrijf wat goed voelt ✨",
+    "subtitle": "Jouw woorden, jouw tempo",
+    "prompt_label": "Heb je een startpunt nodig?",
+    "prompts": [
+      {
+        "text": "Wat ik me het meest herinner is...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Op dat moment voelde ik me...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Sindsdien is het me opgevallen...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Begin hier met schrijven...",
+    "notice": "Er is geen juiste manier om dit te doen. Zelfs een paar regels zijn genoeg.",
+    "button": "Maak het schrijven af"
+  },
+  "landing": {
+    "title": "Je hebt iets belangrijks gedaan.",
+    "subtitle": "Bedankt dat je er voor jezelf was.",
+    "settle_title": "Laten we even de tijd nemen om te settelen",
+    "steps": [
+      "Kijk rond en noem drie dingen die je kunt zien.",
+      "Haal langzaam adem... en uit."
+    ],
+    "feeling_label": "Op dit moment voel ik:",
+    "feeling_placeholder": "Een woord of twee...",
+    "quote": "\"Je hoeft niet alles tegelijk te dragen. Je kunt terugkomen wanneer je er klaar voor bent.\"",
+    "button_save": "Behoud van het verhaal",
+    "button_preserving": "Bewaren..."
+  },
+  "history": {
+    "title": "Jouw reis 📝",
+    "subtitle": "Verleden verhalen & reflecties",
+    "empty": "Je hebt nog geen vermeldingen opgeslagen. Neem je tijd—er is geen haast.",
+    "no_writing": "Geen schrift bewaard",
+    "button_back": "Terug naar de activiteit"
+  },
+  "complete": {
+    "title": "Verhaal bewaard",
+    "message": "Je hebt een krachtige stap gezet in het vertellen van je verhaal. Jouw perspectief doet ertoe, en jouw reis is uniek van jou."
+  },
+  "toasts": {
+    "save_success": "Verhaal bewaard gebleven",
+    "save_error": "Niet in staat het verhaal te behouden",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Jouw verhaal",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "remove_this": "VERWIJDER DIT",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

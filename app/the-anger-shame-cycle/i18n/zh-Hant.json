@@ -1,0 +1,124 @@
+{
+  "app_title": "憤怒-羞恥循環",
+  "app_subtitle": "理解循環 • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "為什麼憤怒總是反覆出現？",
+      "description": "這可能並非你的脾氣問題。憤怒和羞恥之間存在著一種隱密的連結——一旦你發現了這一點，一切都會改變。",
+      "quote": "“大多數人試圖消除憤怒，但羞恥感卻在悄然滋生憤怒。”",
+      "button": "讓我們一起探索"
+    },
+    "s2": {
+      "tag": "循環",
+      "title": "循環解釋",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "憤怒浮現"
+        },
+        {
+          "emoji": "😔",
+          "label": "羞恥感：“我很糟糕”"
+        },
+        {
+          "emoji": "🤐",
+          "label": "恥辱終將被掩埋"
+        },
+        {
+          "emoji": "🔥",
+          "label": "怒火再次爆發"
+        }
+      ],
+      "button": "我看到了。"
+    },
+    "s3": {
+      "tag": "發生了什麼事",
+      "title": "兩種情緒，一個陷阱",
+      "anger": {
+        "title": "🔥 憤怒",
+        "desc": "一種次要的情緒－隱藏在內心深處的痛苦、恐懼或被拒絕的感覺。它是警報，而非烈火。"
+      },
+      "shame": {
+        "title": "😔 羞愧",
+        "desc": "「我是個壞人」——而不僅僅是「我做了壞事」。這種說法會掩蓋真相，讓人噤聲，並使惡性循環持續下去。"
+      },
+      "button": "掙脫束縛"
+    },
+    "s4": {
+      "tag": "中斷",
+      "title": "中斷循環",
+      "steps": [
+        {
+          "title": "說出來源",
+          "desc": "問問自己：「我到底有什麼感覺？」受傷？害怕？不被理解？說出這種感覺會削弱它。"
+        },
+        {
+          "title": "同情暫停",
+          "desc": "手放在胸口，說：“這很難。我是人。我能挺過去的。”"
+        },
+        {
+          "title": "優雅地修補",
+          "desc": "如果需要，就做出彌補——但不要陷入惡性循環。你並非你最糟糕的時刻。"
+        }
+      ],
+      "notice": "注意到這個循環本身就是第一步。你已經在努力了。",
+      "button": "完成活動"
+    }
+  },
+  "complete": {
+    "title": "循環中斷",
+    "message": "你已經意識到憤怒和羞恥之間的關聯。這是獲得持久情感自由的基礎。"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天激勵他人",
+    "share_text": "我在 TherapyMantra 上完成了這個 {{activityName}} 活動，非常喜歡，你也試試看吧，只需點擊連結即可下載安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}}",
+    "this_activity": "這項活動",
+    "copied": "已複製！",
+    "copy_message": "複製訊息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "理解循環 • {{step}}/{{total}}",
+  "more": "更多的",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "close": "關閉",
+  "previous": "以前的",
+  "more_pages": "更多頁面",
+  "pagination": "分頁",
+  "go_to_previous_page": "回上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "oops_page_not_found": "糟糕！頁面未找到",
+  "return_to_home": "回首頁",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

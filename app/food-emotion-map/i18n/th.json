@@ -1,0 +1,139 @@
+{
+  "app_title": "แผนที่อาหารและอารมณ์",
+  "screen_titles": [
+    "ยินดีต้อนรับ",
+    "รูปแบบอาหาร",
+    "บทสนทนาภายใน",
+    "การตรวจจับทางกายภาพ",
+    "แผนที่",
+    "การสนับสนุนที่อ่อนโยน",
+    "รูปลักษณ์สุดท้าย",
+    "สะท้อน"
+  ],
+  "welcome_text": "เฮ้... ฉันดีใจมากที่คุณอยู่ที่นี่ 💛 มาทําแผนที่เบา ๆ ว่าเกิดอะไรขึ้น",
+  "coming_up_label": "มีอะไรเกิดขึ้นเมื่อเร็ว ๆ นี้?",
+  "begin_mapping": "เริ่มทําแผนที่",
+  "food_patterns_q": "อืม... ฉันได้ยินคุณ เมื่อคุณรู้สึก {{emotion}}... อาหารมักจะปรากฏอย่างไร?",
+  "continue_button": "ดําเนินการต่อ",
+  "internal_dialogue_q": "ในช่วงเวลานั้น... ความคิดแบบไหนผุดขึ้นมา?",
+  "write_placeholder": "เขียนอะไรก็ได้ที่นึกถึง...",
+  "physical_sensing_q": "หากคุณหยุดชั่วคราว... คุณสังเกตเห็นอะไรในร่างกายของคุณ?",
+  "the_pattern_label": "รูปแบบ",
+  "pattern_desc_1": "เมื่อคุณรู้สึก {{emotion}} ร่างกายของคุณจะรู้สึก {{sensation}}...",
+  "pattern_desc_2": "… และอาหารก็กลายเป็นหนทางไปสู่ {{response}} ในขณะที่ความคิดเช่น \"{{thought}}\" ปรากฏขึ้น",
+  "pattern_footer": "\"การรับรู้รูปแบบคือเสรีภาพ\"",
+  "support_q": "ในช่วงเวลานั้น... อะไรจะช่วยท่านได้แม้เพียงเล็กน้อย?",
+  "understanding_text": "คุณเข้าใจตัวเองดีขึ้นเล็กน้อย แค่นั้นก็เกินพอ 💛",
+  "how_feeling_now": "ตอนนี้คุณรู้สึกอย่างไร?",
+  "preserve_button": "รักษาแผนที่",
+  "preserving": "การถนอมอาหาร...",
+  "complete_title": "แผนที่ที่เก็บรักษาไว้",
+  "complete_message": "คุณได้ทําแผนที่ความเชื่อมโยงระหว่างความรู้สึกกับอาหารของคุณเรียบร้อยแล้ว การรับรู้นี้เป็นเครื่องมือที่มีประสิทธิภาพสําหรับการเปลี่ยนแปลงที่อ่อนโยน",
+  "auth_error": "เซสชันการตรวจสอบสิทธิ์หายไปหรือไม่ได้กําหนดค่า DB",
+  "save_success": "ลวดลายที่เก็บรักษาไว้",
+  "save_error": "ไม่สามารถรักษารูปแบบได้",
+  "emotions_list": [
+    "😰 ความเครียด",
+    "😢 ความเศร้า",
+    "😶 ความเบื่อหน่าย",
+    "😟 ความวิตกกังวล",
+    "🥺 ความเหงา",
+    "💭 อย่างอื่น..."
+  ],
+  "food_responses": [
+    "🍽️ ฉันกินมากขึ้น",
+    "🚫 ฉันกินน้อยลง",
+    "🍫 ฉันอยากกินอาหารเฉพาะ",
+    "😣 ฉันหลีกเลี่ยงอาหาร",
+    "😐 ไม่มีการเปลี่ยนแปลงที่แท้จริง"
+  ],
+  "body_sensations": [
+    "💔 แน่นหน้าอก",
+    "🪨 ความรู้สึกหนัก",
+    "🦵 กระสับกระส่าย / กระสับกระส่าย",
+    "🔋 พลังงานต่ํา",
+    "🌀 นอตในกระเพาะอาหาร",
+    "❓ อย่างอื่น..."
+  ],
+  "support_options": [
+    "🗣️ พูดคุยกับใครสักคน",
+    "☕ หยุดพัก",
+    "📝 วารสาร",
+    "🌬️ หายใจ",
+    "🎧 เบี่ยงเบนความสนใจของตัวเอง"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "ติดต่อ 💛",
+      "body": "บางครั้งการแบ่งปันก็ทําให้สิ่งต่าง ๆ เบาลงเล็กน้อย บางทีอาจจะพูดง่ายๆ 'เฮ้ เราคุยกันได้ไหม'"
+    },
+    "☕ Take a break": {
+      "title": "หยุดชั่วคราว 💛",
+      "body": "การหยุดชั่วคราวเล็กน้อยสามารถช่วยรีเซ็ตสิ่งต่างๆ ได้ บางทีอาจถอยห่างออกไปและหายใจช้าๆ สักสองสามครั้ง"
+    },
+    "📝 Journal": {
+      "title": "เขียนออกมา 💛",
+      "body": "คุณสามารถเริ่มต้นด้วย 'ตอนนี้ฉันรู้สึก...' และปล่อยให้มันไหล"
+    },
+    "🌬️ Breathe": {
+      "title": "หายใจ 💛",
+      "body": "หายใจเข้า 4... กดค้างไว้ 2... หายใจออก 6... มาชะลอตัวลงด้วยกัน"
+    },
+    "🎧 Distract myself": {
+      "title": "กะ💛ที่นุ่มนวล",
+      "body": "การเบี่ยงเบนความสนใจอย่างอ่อนโยนสามารถเปลี่ยนช่วงเวลาได้... บางทีอาจจะเบาหรือง่าย"
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "แผนที่อาหารและอารมณ์",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

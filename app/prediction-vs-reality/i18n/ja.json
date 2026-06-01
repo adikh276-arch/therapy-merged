@@ -1,0 +1,145 @@
+{
+  "app_title": "予測と現実",
+  "step_label": "ステップ{{current}}/8",
+  "intro": {
+    "title": "予測と現実",
+    "description": "不安な予測と実際に起こることを比較し、よりバランスの取れた視点を築きましょう。",
+    "benefits": [
+      "不安なパターンを特定する",
+      "恐怖に対抗する証拠を集めましょう",
+      "将来の過剰な考えを減らす"
+    ],
+    "duration": "4〜5分",
+    "view_past": "過去の振り返りを見る"
+  },
+  "history": {
+    "title": "過去の振り返り",
+    "no_reflections": "まだリフレクションは保存されていません。",
+    "prediction_label": "予想",
+    "reality_label": "現実",
+    "reflection_label": "振り返り:"
+  },
+  "complete": {
+    "title": "アクティビティ完了",
+    "saved_title": "リフレクション・セーブド",
+    "message": "事実を見ることで、物事は見た目以上に管理しやすいことが多いと心に学ばせています。"
+  },
+  "emotions": [
+    "不安",
+    "緊張している",
+    "怖がってる",
+    "圧倒されていた",
+    "不安"
+  ],
+  "intensity_labels": {
+    "not_intense": "強烈ではありません",
+    "very_intense": "とても激しい"
+  },
+  "comparison_options": [
+    "結果はほぼ予想通りのものでした",
+    "正しい部分もありましたが、すべてではありませんでした",
+    "予想していたのとはかなり違っていた",
+    "想像していたよりもずっと簡単で良かったです"
+  ],
+  "screens": {
+    "s1": {
+      "title": "最近の状況を考えてみてください",
+      "desc": "最近、不安や不安を感じた瞬間を思い出してください。",
+      "placeholder": "状況を説明してください..."
+    },
+    "s2": {
+      "title": "何が起こると思っていましたか?",
+      "desc": "その瞬間、何を期待していたのか、何を恐れていたのか?",
+      "placeholder": "心配してたんだ..."
+    },
+    "s3": {
+      "title": "どんな気持ちでしたか?",
+      "desc": "感じた感情とその強さを選びましょう。"
+    },
+    "s4": {
+      "title": "実際に何が起こったのですか?",
+      "desc": "実際に起こった事実に焦点を当ててください。",
+      "placeholder": "実際には..."
+    },
+    "s5": {
+      "title": "両方を見てみよう",
+      "expectation": "期待値",
+      "reality": "現実",
+      "question": "どのくらい期待に近かったですか?"
+    },
+    "s6": {
+      "title": "何に気づきましたか?",
+      "desc": "思っていたほどひどかったですか?",
+      "placeholder": "気づいたんだ..."
+    },
+    "s7": {
+      "title": "次回は",
+      "desc": "もしまた同じことが起きたら、何を思い出せばいいでしょうか?",
+      "placeholder": "例えば、「想像しているほどひどくはないかもしれない」といった感じです。"
+    },
+    "s8": {
+      "title": "小さなリマインダー",
+      "desc": "心は準備しようとするが、必ずしも正確に予測できるわけではない。事実を見つめるたびに、回復力が身につきます。",
+      "button": "リフレクションを保存する",
+      "discard": "捨て駒エントリー"
+    }
+  },
+  "buttons": {
+    "continue": "続けてください"
+  },
+  "toasts": {
+    "saved": "リフレクションが保存されました!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "予測と現実",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

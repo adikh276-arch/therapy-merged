@@ -1,0 +1,146 @@
+{
+  "app_title": "Scatola della memoria",
+  "screen_titles": [
+    "La tua scatola",
+    "Onore",
+    "Espressione",
+    "Conservato",
+    "Cura Delicata"
+  ],
+  "complete_title": "Memoria conservata",
+  "complete_message": "Hai messo in sicurezza un ricordo di {{name}} nella tua scatola. Questi momenti di connessione sono sempre tuoi.",
+  "auth_error": "Sessione di autenticazione mancante o DB non configurato",
+  "save_success": "Memoria conservata",
+  "save_error": "Non è riuscito a preservare la memoria",
+  "preserving": "Preservare...",
+  "preserve_memory": "Preserva la memoria",
+  "welcome": {
+    "title": "La tua scatola dei ricordi",
+    "subtitle1": "Uno spazio tranquillo per ricordare qualcuno che ami. 🤍",
+    "subtitle2": "Fai un respiro lento...",
+    "subtitle3": "… e espira dolcemente.",
+    "subtitle4": "Non c'è un modo giusto o sbagliato per farlo.",
+    "subtitle5": "Vai al tuo ritmo. 🌿",
+    "begin": "Inizio ✨",
+    "later": "Forse più tardi"
+  },
+  "who": {
+    "placeholder_name": "Digita il loro nome...",
+    "placeholder_relation": "Come li conosci? (opzionale)",
+    "categories": [
+      {
+        "label": "Un momento felice",
+        "emoji": "😊"
+      },
+      {
+        "label": "Qualcosa che dicevano",
+        "emoji": "💬"
+      },
+      {
+        "label": "Un piccolo ricordo quotidiano",
+        "emoji": "☕"
+      },
+      {
+        "label": "Un posto che ti ricorda loro",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Qualcosa che vorrei poter dire",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Continua →"
+  },
+  "expression": {
+    "title": "Esprimere la tua memoria",
+    "memory_label": "Il ricordo stesso",
+    "memory_placeholder": "Scrivi del momento, della sensazione o del dettaglio che vuoi conservare...",
+    "message_label": "Un messaggio per loro (opzionale)",
+    "message_placeholder": "Cosa diresti se potessi parlare con loro adesso?",
+    "save": "Preserva la memoria",
+    "skip": "Per ora salta",
+    "back": "Indietro"
+  },
+  "box": {
+    "title": "Al Sicuro Nascosto",
+    "subtitle": "Questo ricordo di {{name}} ora fa parte della tua collezione.",
+    "add_another": "Aggiungi un altro ricordo",
+    "finish": "Riflessione finale"
+  },
+  "closing": {
+    "title": "Prendersi cura della cura",
+    "subtitle": "Chiudo la tua scatola per ora. Puoi tornare qui ogni volta che hai bisogno di sentirti vicino a questi ricordi.",
+    "exit": "Chiudi la scatola"
+  },
+  "history": {
+    "title": "Contenuti della scatola",
+    "no_memories": "La tua scatola è vuota. Aggiungi il tuo primo ricordo per iniziare la tua collezione.",
+    "search_placeholder": "Cerca i ricordi..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Scatola dei ricordi",
+  "before_you_go": "Prima di andare",
+  "grief_comes_in_waves": "Il dolore arriva a ondate. 🌊",
+  "what_you_re_feeling_matters": "Ciò che provi è importante. 🤍",
+  "be_gentle_with_yourself_today": "Sii gentile con te stesso oggi. 🌿",
+  "save_exit": "Salva ed esci 🕊️",
+  "take_your_time": "Prenditi il tuo tempo 🕯️",
+  "save_to_memory_box": "Salva nella Memory Box 📦",
+  "write_as_much_or_as_little_as_you_want": "Scrivi quanto vuoi, o poco quanto vuoi... ✍️",
+  "if_there_s_something_you_d_like_to_say": "Se c'è qualcosa che vorresti dire…",
+  "past_entries": "Articoli precedenti",
+  "no_memories_saved_yet": "Nessun ricordo ancora salvato.",
+  "this_memory_is_held_here_for_you": "Questo ricordo è custodito qui, per te. 🌿",
+  "add_another_memory": "Aggiungi un altro ricordo ✨",
+  "finish_for_now": "Per ora è tutto.",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

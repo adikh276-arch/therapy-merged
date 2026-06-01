@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "深呼吸🌿して",
+    "title": "ストレス管理",
+    "description": "落ち着きやコントロール感を高めるためのシンプルな毎日の習慣。",
+    "sectionTitle": "日々のストレス解消のヒント"
+  },
+  "tip": {
+    "sleep": {
+      "title": "安らかな睡眠をとる",
+      "description": "毎晩7〜9時間の睡眠を目標にしてください。毎日同じ時間に寝て起きるように心がけてください。",
+      "why": "睡眠は脳と体の回復を助け、ストレスホルモンを下げます。",
+      "do": [
+        "一定の睡眠スケジュールを守りましょう",
+        "寝る1時間前はスクリーンを避けましょう",
+        "部屋は涼しく暗く保ちましょう",
+        "午後4時以降はカフェインを避けてください"
+      ],
+      "button": "セットスリープリマインダー"
+    },
+    "breathing": {
+      "title": "深呼吸の練習をしましょう",
+      "description": "数分間、呼吸に集中してください。ゆっくりとした呼吸は不安を軽減します。",
+      "why": "ゆっくりとした呼吸は体のリラクゼーション反応を活性化します。",
+      "do": [
+        "4秒間吸い込む",
+        "4秒間キープしてください",
+        "4秒間息を吐く",
+        "これを1分間繰り返します"
+      ]
+    },
+    "exercise": {
+      "title": "体を動かして",
+      "description": "軽い散歩やストレッチはストレスを解消し、気分を良くするのに役立ちます。",
+      "why": "運動はエンドルフィンを分泌し、気分を改善します。",
+      "do": [
+        "徒歩15分",
+        "軽いストレッチ",
+        "短いヨガセッション",
+        "クイックホームワークアウト"
+      ]
+    },
+    "caffeine": {
+      "title": "カフェインと砂糖を控える",
+      "description": "カフェインや砂糖の摂りすぎは不安を増やし、睡眠を妨げることがあります。",
+      "why": "カフェインや砂糖の摂りすぎは不安や睡眠障害を増やします。",
+      "do": [
+        "コーヒーをハーブティーに置き換えてください",
+        "もっと水を飲んで",
+        "甘いおやつを減らす",
+        "遅い時間帯のカフェインは避けましょう"
+      ]
+    },
+    "planning": {
+      "title": "一日の計画を立てましょう",
+      "description": "大きな作業を小さなステップに分けて、圧倒される気持ちを避けましょう。",
+      "why": "計画を立てることで、頭の中の雑多さや圧倒感が減ります。",
+      "do": [
+        "3つの主要なタスクを書く",
+        "タスクを小さなステップに分けましょう",
+        "一度に一つのタスクに集中しましょう",
+        "短い休憩を取りましょう"
+      ]
+    }
+  },
+  "detail": {
+    "back": "戻る",
+    "notFound": "情報が見つかりません。",
+    "whyTitle": "なぜ役立つのか",
+    "doTitle": "できること",
+    "reminderSet": "リマインダーセット!🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "おっと!ページが見つかりません",
+    "return": "帰郷"
+  },
+  "mood": {
+    "title": "今日はどう?",
+    "great": "素晴らしい",
+    "okay": "わかった",
+    "stressed": "ストレス",
+    "overwhelmed": "圧倒されていた"
+  },
+  "breathing": {
+    "inhale": "息を吸って...",
+    "hold": "待て...",
+    "exhale": "息を吐いて...",
+    "pause": "間",
+    "resume": "履歴書"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "ストレス解消",
+  "app_description": "ストレス解消",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "breathing_guide": "呼吸ガイド",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

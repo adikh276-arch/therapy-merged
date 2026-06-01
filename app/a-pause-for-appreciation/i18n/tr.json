@@ -1,0 +1,147 @@
+{
+  "title": "Takdir İçin Bir Mola",
+  "subtitle": "5-7 Dakikalık Rehberli Düşünme",
+  "nav": {
+    "history": "Tarih",
+    "home": "Ev"
+  },
+  "intro": {
+    "text1": "Bir ilişki gerginleştiğinde, sadece yolunda gitmeyen şeylere odaklanmak kolaylaşır. Bu düşünce, endişeleri göz ardı etmek için değil, bakış açısını nazikçe genişletmek için kısa bir ara vermeyi amaçlıyor.",
+    "text2": "Minnettar olmanız beklenmiyor. Sadece ortaya çıkan şeyleri fark edin.",
+    "begin": "Başlamak",
+    "viewHistory": "Geçmişi Görüntüle"
+  },
+  "breathing": {
+    "title": "Varış ve Yerleşme",
+    "description": "Devam etmeden önce, kendinize kısa bir ara verin. Bu an, herhangi bir şeyi çözmekle ilgili değil. Bu an, alan yaratmakla ilgili.",
+    "instruction": "Aşağıdaki nefes alma ritmini takip edin.",
+    "inhale": "Nefes alın… {{counter}}…",
+    "hold": "Tutmak…",
+    "exhale": "Nefes verin… {{counter}}…",
+    "affirmation": "\"Zor gelen şeyleri kabul edebilir ve yine de fark etmeye açık kalabilirim.\"",
+    "continue": "Devam etmek"
+  },
+  "reflection": {
+    "step": "Adım {{step}} / {{total}}",
+    "prompts": {
+      "p1": "Partnerinizle yakın zamanda yaşadığınız ve gerginlik hissettirmeyen küçük bir an şuydu...",
+      "p1_ex": "\"Akşamleyin kısa ve sakin bir görüşme yaptık.\"",
+      "p2": "Partnerinizin yaptığı -kusurlu olsa bile- bir çaba şudur:",
+      "p2_ex": "\"Geri çekilmek yerine duygularını açıklamaya çalıştılar.\"",
+      "p3": "Partnerinizde zaman içinde değişmeden kalan bir özellik şudur...",
+      "p3_ex": "\"Sorumluluklarımıza olan bağlılıklarını göstermeye devam ediyorlar.\""
+    },
+    "placeholder": "Düşüncelerinizi buraya yazın…",
+    "next": "Sonraki",
+    "finish": "Sona ermek"
+  },
+  "intention": {
+    "step": "4. Adım (4/4)",
+    "title": "Bu değerlendirmeyi nasıl yapmak istersiniz?",
+    "options": {
+      "private": "Bu düşüncemi özel tutmayı tercih ederim.",
+      "share_part": "Bunun bir kısmını partnerimle paylaşmayı tercih edebilirim.",
+      "share_full": "Bu düşüncelerimi eksiksiz olarak paylaşmak istiyorum.",
+      "save_later": "Bunu daha sonraki bir görüşmeye saklayacağım."
+    },
+    "continue": "Devam etmek"
+  },
+  "checkin": {
+    "title": "Bu değerlendirmeyi tamamladığınızda, hangi ifade size en doğru geliyor?",
+    "statements": {
+      "s1": "Şu an partnerime karşı biraz daha açık hissediyorum.",
+      "s2": "Çok fazla değişiklik fark etmiyorum, ancak olup bitenlerin farkında olmaya istekliyim.",
+      "s3": "Bunu tamamlamakta biraz zorlandım.",
+      "s4": "Düşünürken hafif bir sıcaklık hissettim.",
+      "s5": "Direnişle karşılaştığımı fark ettim ve bunu dile getirmenin önemli olduğunu düşünüyorum.",
+      "s6": "Başlamadan önceki halime kıyasla hafif bir yumuşama hissediyorum."
+    },
+    "finish": "Bitir ve Kaydet"
+  },
+  "closing": {
+    "title": "Yansıma Tamamlandı",
+    "text1": "Bu ara, zorlukları ortadan kaldırmaz. Sadece ilişkinin nasıl algılandığı konusunda dengeyi yeniden sağlar.",
+    "text2": "Kısa süreli farkındalık anları bile, duygusal katılığı yavaş yavaş yumuşatabilir ve daha sağlıklı konuşmalar için alan yaratabilir.",
+    "save": "Yansımalara Kaydet",
+    "viewHistory": "Geçmişi Görüntüle",
+    "exit": "Çıkış"
+  },
+  "history": {
+    "title": "Yansıma Geçmişiniz",
+    "noReflections": "Henüz hiçbir değerlendirme kaydedilmedi. Tamamladığınız oturumlar burada görünecektir.",
+    "back": "Başa Dön",
+    "confirmDelete": "Silme işlemini onaylayın",
+    "cancel": "İptal etmek",
+    "delete": "Girişi sil",
+    "prompts": [
+      "Gerginlik hissettirmeyen küçük bir an…",
+      "Partnerinizin yaptığı bir girişim…",
+      "Değişmeden kalan bir özellik…",
+      "Niyet",
+      "Duygusal Durum Değerlendirmesi"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5 dakika",
+  "app_title": "Yansıtmak",
+  "intro_p1": "Şükran duygusunu geliştirin.",
+  "intro_p2": "Stresi azaltın",
+  "intro_p3": "İyilik halini iyileştirin",
+  "app_description": "5-7 Dakikalık Rehberli Düşünme",
+  "how_do_you_feel_after_this_reflection": "Bu düşüncelerden sonra nasıl hissediyorsunuz?",
+  "your_past_reflections_appreciations": "Geçmişe dair düşünceleriniz ve takdirleriniz",
+  "start_new_session": "Yeni Oturum Başlat",
+  "feeling": "His",
+  "delete_this_entry": "Bu kaydı silmek mi istiyorsunuz?",
+  "delete_5": "Silmek",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

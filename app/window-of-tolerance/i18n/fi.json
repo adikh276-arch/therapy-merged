@@ -1,0 +1,252 @@
+{
+  "app_title": "Toleranssiikkuna",
+  "screens": {
+    "welcome": {
+      "title": "Toleranssiikkuna",
+      "subtitle": "Ymmärrä hermostosi.\nLöydä tie takaisin rauhaan.",
+      "description": "Tämä lempeä aktiviteetti auttaa sinua ymmärtämään, missä hermostosi on tällä hetkellä — ja antaa sinulle työkaluja tasapainon löytämiseen. Mene omaan tahtiisi. Olet turvassa täällä.",
+      "callout": "✨ Hengitä. Olet oikeassa paikassa.",
+      "button": "Aloitetaan →",
+      "disclaimer": "Tämä aktiviteetti on tukeva työkalu, ei korvaa ammatillista terapiaa."
+    },
+    "explain": {
+      "title": "Hermostollasi on ikkuna",
+      "zones": {
+        "hyper": {
+          "label": "Yliherkkyys",
+          "desc": "Ylikuormittunut, paniikissa, hallitsematon.",
+          "tag": "🔴 Punainen"
+        },
+        "safe": {
+          "label": "Turva-alue",
+          "desc": "Rauhallinen, läsnäoleva, kykenevä ajattelemaan selkeästi.",
+          "tag": "🟢 Vihreä"
+        },
+        "hypo": {
+          "label": "Hypoarousaalisuus",
+          "desc": "Tunnoton, irrallaan, sumuinen.",
+          "tag": "🔵 Sininen"
+        }
+      },
+      "footer": "Trauma voi työntää sinut ulos ikkunastasi. Tämä auttaa tunnistamaan missä olet ja pääsemään takaisin sisälle.",
+      "back": "← Takaisin",
+      "next": "Seuraava →"
+    },
+    "checkin": {
+      "title": "Missä olet nyt?",
+      "subtitle": "Hengitä. Valitse sitten rehellisesti, missä olet nyt.",
+      "footer": "Ei ole väärää vastausta. Tämä on vain lähtökohtasi.",
+      "back": "← Takaisin",
+      "next": "Seuraava →",
+      "zones": {
+        "hyper": {
+          "label": "Ikkunani yläpuolella",
+          "desc": "Tunnen ahdistusta, paniikkia, vihaa tai ylikuormittunutta."
+        },
+        "safe": {
+          "label": "Ikkunani sisällä",
+          "desc": "Tunnen oloni rauhalliseksi, läsnä olevaksi ja maanläheiseksi."
+        },
+        "hypo": {
+          "label": "Ikkunani alla",
+          "desc": "Tunnen oloni tunnottomaksi, sumuiseksi tai irtaantuneeksi."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Ikkunasi yläpuolella",
+        "subtitle": "Hermostosi käy ylikierroksilla. Se on ihan okei. Tuodaan sinut varovasti takaisin.",
+        "feelings": [
+          "Sydän hakkaa",
+          "Pinnallinen hengitys",
+          "Paniikki vai viha",
+          "Kiihkeitä ajatuksia",
+          "Levottomuus"
+        ],
+        "tools": [
+          {
+            "name": "Laatikkohengitys",
+            "desc": "Hengitä sisään 4, kuu 4, uloshengitä 4, kuu 4. Toista neljä kertaa."
+          },
+          {
+            "name": "5-4-3-2-1 Maihinnousu",
+            "desc": "5 asiaa näkee, 4 kosketus, 3 kuulo, 2 haista, 1 maku."
+          },
+          {
+            "name": "Jalat lattialla",
+            "desc": "Paina jalat alas, sano: 'Olen täällä. Olen turvassa. Tämä menee ohi.'"
+          }
+        ],
+        "button": "Tunnen oloni hieman rauhallisemmaksi→",
+        "footer": "Olet turvassa. Älä kiirehdi suotta."
+      },
+      "hypo": {
+        "title": "Ikkunasi alla",
+        "subtitle": "Hermostosi on hiljentynyt. Se suojelee sinua. Herätetään se varovasti uudelleen.",
+        "feelings": [
+          "Tunnottomuus",
+          "Yhteyden katkaisu",
+          "Äärimmäinen väsymys",
+          "Tuntuu epätodelliselta",
+          "Tasaisuus"
+        ],
+        "tools": [
+          {
+            "name": "Hellä liike",
+            "desc": "Seiso, kävele hitaasti, heiluta käsiä. Anna kehosi herätä."
+          },
+          {
+            "name": "Rytminen ääni",
+            "desc": "Soita musiikkia tasaisella rytmillä, naputtele jalkoja eteenpäin."
+          },
+          {
+            "name": "Puhu ääneen",
+            "desc": "Sano nimesi, sijaintisi, tämän päivän päivämäärä ääneen. Palauta ajattelevat aivot."
+          }
+        ],
+        "button": "Tunnen olevani vähän läsnä →",
+        "footer": "Teet hienoa työtä. Ota se askel askeleelta."
+      },
+      "safe": {
+        "title": "Ikkunasi sisällä",
+        "subtitle": "Olet turva-alueellasi. Tässä tapahtuu parantuminen, yhteys ja kasvu. Hyvin tehty.",
+        "feelings": [
+          "Nykyhetki ja tietoinen",
+          "Tasainen hengitys",
+          "Selkeä ajattelu",
+          "Yhdistetty"
+        ],
+        "tools": [
+          {
+            "name": "Jatka hengittämistä hitaasti",
+            "desc": "Sisään nenän kautta, ulos suun kautta."
+          },
+          {
+            "name": "Reflect",
+            "desc": "Mikä auttoi sinua pysymään täällä? Kirjoita se ylös."
+          },
+          {
+            "name": "Itsemyötätunto",
+            "desc": "'Hermostoni teki tehtävänsä. En ole rikki. Minä paranen.'"
+          }
+        ],
+        "button": "Jatka Työkalupakkiini →",
+        "footer": "Olet huolenpidon ja parantumisen arvoinen."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Henkilökohtainen työkalupakki",
+      "subtitle": "Luotettavat työkalusi — tallennettuina ja valmiina aina kun tarvitset.",
+      "tools_list": [
+        "🌬️ Laatikkohengitys",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Jalat lattialla",
+        "🚶 Hellä liike",
+        "🎵 Musiikki",
+        "💬 Puhu ääneen"
+      ],
+      "journal_label": "📝 Tämän päivän pohdinta",
+      "journal_desc": "Mikä oli yksi hetki tänään, kun huomasit hermostosi muuttuvan — ja mitä teit asialle?",
+      "journal_placeholder": "Kirjoita tähän...",
+      "history_label": "📊 Viikkosi lyhyesti",
+      "save_button": "Tallenna ja viimeistele ✓",
+      "footer": "Matkallasi on merkitystä. Tule takaisin aina kun tarvitset tukea.",
+      "preserving": "Säilyttäen...",
+      "preserve_button": "Säilytä heijastus"
+    }
+  },
+  "nav": [
+    "Sisäänkirjautuminen",
+    "Selitys",
+    "Seuranta",
+    "Vyöhyke",
+    "Työkalupakki"
+  ],
+  "history": {
+    "title": "Sisäänkirjautumishistoria",
+    "empty": "Ei vielä tarkistuksia."
+  },
+  "toasts": {
+    "save_success": "Sisäänkirjautuminen säilytetty",
+    "save_error": "Ei onnistunut säilyttämään sisäänkirjautumista",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu"
+  },
+  "complete": {
+    "title": "Sisäänkirjautuminen valmis",
+    "message": "Olet onnistuneesti kartoittanut nykyisen tilasi. Tietoisuuden rakentaminen on ensimmäinen askel kohti tasapainon löytämistä."
+  },
+  "days": [
+    "Minun",
+    "Ti",
+    "Keskiviikko",
+    "Syksy",
+    "Pe",
+    "Lauanta",
+    "Aurinko"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Suvaitsevaisuuden ikkuna",
+  "are_you_sure_you_want_to_exit": "Oletko varma, että haluat poistua?",
+  "your_unsaved_data_will_be_lost": "Tallentamattomat tietosi menetetään.",
+  "stay": "Pysyä",
+  "exit": "Uloskäynti",
+  "exit_confirmation": "Poistumisen vahvistus",
+  "check_in_history": "Sisäänkirjautumishistoria",
+  "close": "Lähellä",
+  "screen_navigation": "Näytön navigointi",
+  "check_in": "Sisäänkirjautuminen",
+  "what_is_the_window_of_tolerance": "Mikä on suvaitsevaisuusikkuna",
+  "your_personal_toolkit": "Henkilökohtainen työkalupakki",
+  "welcome": "Tervetuloa",
+  "view_history": "Näytä historia",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

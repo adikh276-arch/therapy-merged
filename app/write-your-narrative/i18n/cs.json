@@ -1,0 +1,125 @@
+{
+  "app_title": "Tvůj příběh",
+  "nav": {
+    "entry": "Vítejte",
+    "writing": "Vyjadřování",
+    "landing": "Reflexe",
+    "history": "Tvoje cesta"
+  },
+  "entry": {
+    "title": "Pojďme to brát krok za krokem. 💛",
+    "description": [
+      "Dnes nemusíš vyprávět celý svůj příběh. Stačí malá část.",
+      "Teď jsi v bezpečí. Máte kontrolu nad tím, co píšete – a co ne."
+    ],
+    "breath": "Pomalu se nadechněte, než začneme.",
+    "button_ready": "Jsem připravený",
+    "button_history": "Minulé příběhy",
+    "footer": "Tvá slova • Tvé tempo • Tvůj příběh"
+  },
+  "writing": {
+    "title": "Piš to, co ti přijde v pořádku ✨",
+    "subtitle": "Tvá slova, tvé tempo",
+    "prompt_label": "Potřebujete výchozí bod?",
+    "prompts": [
+      {
+        "text": "Co si pamatuji nejvíc je...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Tehdy jsem cítil...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Od té doby jsem si všiml...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Začni psát tady...",
+    "notice": "Neexistuje správný způsob, jak to udělat. Stačí pár řádků.",
+    "button": "Dokončit psaní"
+  },
+  "landing": {
+    "title": "Udělala jsi něco důležitého.",
+    "subtitle": "Děkuji, že jste se objevil sám za sebe.",
+    "settle_title": "Pojďme si na chvíli usadit",
+    "steps": [
+      "Rozhlédněte se a jmenujte 3 věci, které vidíte.",
+      "Pomalu se nadechni... A ven."
+    ],
+    "feeling_label": "Momentálně cítím:",
+    "feeling_placeholder": "Slovo nebo dvě...",
+    "quote": "\"Nemusíš nést všechno najednou. Můžeš se vrátit, až budeš připravený.\"",
+    "button_save": "Uchovat narativ",
+    "button_preserving": "Uchování..."
+  },
+  "history": {
+    "title": "Tvoje cesta 📝",
+    "subtitle": "Minulé příběhy a reflexe",
+    "empty": "Ještě jste žádné záznamy neuložili. Dejte si čas – není kam spěchat.",
+    "no_writing": "Žádný rukopis se nedochoval",
+    "button_back": "Zpět k aktivitám"
+  },
+  "complete": {
+    "title": "Příběh zachován",
+    "message": "Udělal jste silný krok v tom, abyste vyprávěl svůj příběh. Váš pohled je důležitý a vaše cesta je jedinečně vaše."
+  },
+  "toasts": {
+    "save_success": "Příběh zachován",
+    "save_error": "Nepodařilo se zachovat narativ",
+    "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Váš příběh",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "remove_this": "ODSTRANIT_TOTO",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

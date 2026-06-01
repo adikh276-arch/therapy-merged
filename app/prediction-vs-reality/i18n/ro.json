@@ -1,0 +1,145 @@
+{
+  "app_title": "Predicție vs Realitate",
+  "step_label": "Pasul {{current}} din 8",
+  "intro": {
+    "title": "Predicție vs Realitate",
+    "description": "Compară predicțiile tale anxioase cu ceea ce se întâmplă de fapt pentru a construi o perspectivă mai echilibrată.",
+    "benefits": [
+      "Identifică tiparele anxioase",
+      "Adună dovezi împotriva temerilor",
+      "Reduceți gândirea excesivă în viitor"
+    ],
+    "duration": "4-5 minute",
+    "view_past": "Vezi reflecții anterioare"
+  },
+  "history": {
+    "title": "Reflecții din trecut",
+    "no_reflections": "Nicio reflecție salvată încă.",
+    "prediction_label": "Predicție",
+    "reality_label": "Realitate",
+    "reflection_label": "Reflecție:"
+  },
+  "complete": {
+    "title": "Activitate completă",
+    "saved_title": "Reflecție salvată",
+    "message": "Privind faptele, îți ajuți mintea să înțeleagă că lucrurile sunt adesea mai ușor de gestionat decât par."
+  },
+  "emotions": [
+    "Anxios",
+    "Nervos",
+    "Speriat",
+    "Copleșit",
+    "Neliniștit"
+  ],
+  "intensity_labels": {
+    "not_intense": "Nu intens",
+    "very_intense": "Foarte intens"
+  },
+  "comparison_options": [
+    "A ieșit aproape exact așa cum mă așteptam",
+    "Unele părți erau corecte, dar nu totul",
+    "A fost destul de diferit față de ce mă așteptam",
+    "A fost mult mai ușor/mai bun decât mi-am imaginat"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Gândește-te la o situație recentă",
+      "desc": "Amintește-ți un moment recent în care te-ai simțit anxios sau nesigur.",
+      "placeholder": "Descrie situația..."
+    },
+    "s2": {
+      "title": "Ce credeai că se va întâmpla?",
+      "desc": "La ce te așteptai sau la ce te temeai în acel moment?",
+      "placeholder": "Eram îngrijorat că..."
+    },
+    "s3": {
+      "title": "Cum te-ai simțit?",
+      "desc": "Selectează emoțiile pe care le-ai simțit și intensitatea lor."
+    },
+    "s4": {
+      "title": "Ce s-a întâmplat de fapt?",
+      "desc": "Concentrează-te pe faptele a ceea ce s-a întâmplat cu adevărat.",
+      "placeholder": "În realitate..."
+    },
+    "s5": {
+      "title": "Să ne uităm la ambele",
+      "expectation": "Așteptări",
+      "reality": "Realitate",
+      "question": "Cât de apropiată era așteptarea ta?"
+    },
+    "s6": {
+      "title": "Ce observi?",
+      "desc": "A fost atât de rău pe cât credeai?",
+      "placeholder": "Observ că..."
+    },
+    "s7": {
+      "title": "Data viitoare",
+      "desc": "Ce ți-ai putea aminti dacă se întâmplă din nou?",
+      "placeholder": "de exemplu, \"Poate nu va fi atât de rău pe cât îmi imaginez.\""
+    },
+    "s8": {
+      "title": "Un mic memento",
+      "desc": "Mintea ta încearcă să te pregătească — dar nu prezice întotdeauna corect. De fiecare dată când te oprești să analizezi faptele, îți construiești reziliența.",
+      "button": "Salvează reflecția",
+      "discard": "Intrare de aruncare"
+    }
+  },
+  "buttons": {
+    "continue": "Continuă"
+  },
+  "toasts": {
+    "saved": "Reflecție salvată!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Predicție vs. Realitate",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

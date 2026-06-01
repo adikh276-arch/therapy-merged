@@ -1,0 +1,147 @@
+{
+  "app_title": "Perancang Tetingkap Tidur",
+  "pill_labels": [
+    "Bina tetingkap anda",
+    "Tetapkan masa anda",
+    "Tetingkap tidur anda"
+  ],
+  "screen1": {
+    "title": "Tetingkap tidur anda lebih penting daripada yang anda fikirkan",
+    "p1": "Tetingkap tidur ialah masa tetap antara anda tidur dan apabila anda bangun. Memastikan ia konsisten - walaupun pada hujung minggu - adalah salah satu perkara paling berkuasa yang boleh anda lakukan untuk tidur anda.",
+    "p2": "Alat ini membantu anda membina alat anda dalam masa kurang dari 2 minit.",
+    "insight": "Malah perbezaan 1 jam dalam masa tidur pada hujung minggu boleh mengganggu perasaan anda sepanjang minggu.",
+    "meta": "Mudah. Peribadi. Berkesan.",
+    "button": "Mari kita bina → saya"
+  },
+  "screen2": {
+    "title": "Mari tetapkan tetingkap tidur anda",
+    "step1": {
+      "title": "LANGKAH 1 — MASA BANGUN",
+      "desc": "Pukul berapa anda perlukan untuk bangun hampir setiap hari?"
+    },
+    "step2": {
+      "title": "LANGKAH 2 — TEMPOH TIDUR",
+      "desc": "Berapa jam tidur yang anda mahukan?"
+    },
+    "live_window": {
+      "bedtime": "Waktu tidur",
+      "waketime": "Masa bangun",
+      "duration": "{{hours}} jam tidur"
+    },
+    "italic": "Kebanyakan orang dewasa memerlukan 7-9 jam. Pilih apa yang dirasakan betul.",
+    "button": "Lihat tetingkap tidur saya →"
+  },
+  "screen3": {
+    "title": "Tetingkap 🌙 tidur anda",
+    "result": {
+      "bedtime": "Waktu tidur",
+      "waketime": "Masa bangun",
+      "duration": "Tempoh",
+      "hours": "{{hours}} jam"
+    },
+    "accordion1": {
+      "title": "3 cara untuk melindunginya",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Bersantai 30 minit sebelum tidur anda"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Masa bangun yang sama setiap hari — ya, hujung minggu juga"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Elakkan tidur siang lebih lama daripada 20 minit selepas jam 3 petang"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Komited kepada 1 perkara malam ini",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Letakkan telefon saya sebelum tidur"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Mulakan rutin rehat"
+        },
+        {
+          "emoji": "💡",
+          "text": "Malapkan lampu sejam sebelum tidur"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Selesaikan senarai tugasan saya lebih awal"
+        }
+      ]
+    },
+    "quote": "Konsistensi lebih berkuasa daripada kesempurnaan. Satu malam yang baik membina yang seterusnya.",
+    "button": "Simpan tetingkap tidur saya ✓",
+    "saved_button": "✓ Tetingkap tidur disimpan!",
+    "adjust_times": "Laraskan Masa"
+  },
+  "complete": {
+    "title": "Tetingkap Dicipta",
+    "message": "Tetingkap tidur ideal anda telah dipetakan. Konsistensi adalah kunci kepada rehat yang mendalam dan memulihkan."
+  },
+  "toasts": {
+    "save_success": "Tetingkap tidur disimpan",
+    "save_error": "Gagal menyimpan tetingkap tidur",
+    "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
+    "saving": "Menjimatkan..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Perancang Tingkap Tidur",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

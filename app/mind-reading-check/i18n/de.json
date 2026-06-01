@@ -1,0 +1,144 @@
+{
+  "app_title": "Gedankenlese-Check",
+  "intro": {
+    "title": "Gedankenlese-Check",
+    "description": "Hinterfrage die Annahmen, die du darüber triffst, was andere denken.",
+    "benefits": [
+      "Hör auf, das Schlimmste anzunehmen",
+      "Identifizieren Sie voreingenommene Interpretationen",
+      "Klarere Kommunikation aufbauen"
+    ],
+    "duration": "3-4 Minuten",
+    "view_past": "Vergangene Reflexionen ansehen"
+  },
+  "history": {
+    "title": "Vergangene Reflexionen",
+    "no_entries": "Noch keine Einträge",
+    "belief_label": "Glaube: {{level}}%",
+    "balanced_thought_label": "Ausgewogenes Denken"
+  },
+  "complete": {
+    "title": "Aktivität abgeschlossen",
+    "great_insights": "Tolle Einblicke!",
+    "message": "Indem du deine Annahmen hinterfragst, baust du einen objektiveren und mitfühlenderen Geist auf."
+  },
+  "steps": {
+    "label": "Schritt {{current}} von 10",
+    "step1": {
+      "title": "Was ist passiert?",
+      "desc": "Beschreiben Sie einen kürzlichen Moment, in dem Sie sich beurteilt oder unsicher gefühlt haben.",
+      "placeholder": "Beschreibung der Situation..."
+    },
+    "step2": {
+      "title": "Was ging dir durch den Kopf?",
+      "desc": "Was hast du angenommen, was sie über dich denken?",
+      "placeholder": "Ich nahm an, sie dachten..."
+    },
+    "step3": {
+      "title": "Lass uns das langsamer machen",
+      "desc": "Im Moment kann sich dieser Gedanke wahr anfühlen. Aber bevor wir es als Tatsache akzeptieren, lassen Sie uns einen Schritt zurücktreten und es genauer betrachten.",
+      "button": "Pause & Weitermachen"
+    },
+    "step4": {
+      "title": "Stimmt das?",
+      "desc": "Gibt es klare Beweise (Fakten, keine Annahmen), die diesen Gedanken stützen?",
+      "placeholder": "Die Beweise, die ich sehe, sind..."
+    },
+    "step5": {
+      "title": "Was könnte sonst noch vor sich gehen?",
+      "desc": "Was sind 2–3 weitere mögliche Erklärungen?",
+      "placeholder": "Möglichkeit {{num}}..."
+    },
+    "step6": {
+      "title": "Überprüfe deinen Glauben",
+      "desc": "Wie stark glaubst du jetzt an deinen ursprünglichen Gedanken?",
+      "labels": [
+        "Überhaupt nicht",
+        "Vollständig"
+      ]
+    },
+    "step7": {
+      "title": "Eine ausgewogenere Sichtweise",
+      "desc": "Schreibe einen Gedanken, der sich fairer und weniger sicher anfühlt.",
+      "placeholder": "Ein ausgewogenerer Gedanke..."
+    },
+    "step8": {
+      "title": "Nächstes Mal",
+      "desc": "Was könntest du tun, anstatt anzunehmen?",
+      "examples": [
+        "Bitte um eine Klarstellung",
+        "Gib ihm etwas Zeit",
+        "Bemerken Sie es ohne Reaktion"
+      ],
+      "placeholder": "Beim nächsten Mal könnte ich..."
+    },
+    "step9": {
+      "title": "Beachte die Verschiebung",
+      "desc": "Du hast verschiedene Möglichkeiten erkundet und Raum für eine ausgewogenere Sichtweise geschaffen.",
+      "original_label": "Ursprünglicher Gedanke",
+      "balanced_label": "Ausgewogene Perspektive",
+      "button": "Fertige Reflexion"
+    },
+    "step10": {
+      "title": "Eine kleine Veränderung",
+      "desc": "Dein Geist versucht, die Lücken zu füllen. Aber nicht jeder Gedanke ist eine Tatsache. Ein Schritt zurück zu machen, hilft Ihnen, die Dinge klar zu sehen.",
+      "button": "Vollständige Aktivität"
+    }
+  },
+  "buttons": {
+    "continue": "Weitermachen",
+    "restart": "Neustart"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Gedankenlesen-Check",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

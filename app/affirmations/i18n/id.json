@@ -1,0 +1,222 @@
+{
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "chooseAnother": "Choose another feeling",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Saat kamu merasa kesepian dan sedih",
+      "affirmations": [
+        "Aku tidak sendirian, meskipun terkadang terasa seperti itu.",
+        "Perasaanku layak mendapatkan perhatian dan kelembutan.",
+        "Momen ini tidak akan berlangsung selamanya.",
+        "Saya berhak membutuhkan koneksi.",
+        "Aku bisa memberikan kehangatan pada diriku sendiri saat ini."
+      ]
+    },
+    "terrified": {
+      "label": "Saat kamu merasa ketakutan",
+      "affirmations": [
+        "Saat ini saya merasa aman.",
+        "Rasa takut adalah sebuah perasaan, bukan sebuah prediksi.",
+        "Aku bisa menjalani ini selangkah demi selangkah.",
+        "Saya tidak perlu menyelesaikan semuanya sekarang juga.",
+        "Aku lebih kuat dari momen ini."
+      ]
+    },
+    "insignificant": {
+      "label": "Saat kamu merasa tidak berarti",
+      "affirmations": [
+        "Momen-momen kecil tetap berarti.",
+        "Saya tidak perlu membuktikan nilai saya.",
+        "Saya diizinkan untuk menempati tempat.",
+        "Keberadaanku berarti.",
+        "Aku sudah cukup apa adanya."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Saat kamu merasa kewalahan",
+      "affirmations": [
+        "Saya tidak harus melakukan semuanya sekaligus.",
+        "Satu langkah kecil sudah cukup.",
+        "Tidak apa-apa untuk berhenti sejenak.",
+        "Saya diizinkan untuk beristirahat.",
+        "Ini akan kembali terkendali."
+      ]
+    },
+    "hopeless": {
+      "label": "Saat kamu merasa putus asa",
+      "affirmations": [
+        "Aku tidak butuh jawaban hari ini.",
+        "Perubahan masih mungkin terjadi.",
+        "Aku sudah pernah melewati hari-hari sulit sebelumnya.",
+        "Aku bisa tinggal di sini untuk sementara waktu.",
+        "Sesuatu yang lembut masih bisa terjadi."
+      ]
+    },
+    "conflicted": {
+      "label": "Saat kamu merasa bimbang",
+      "affirmations": [
+        "Tidak apa-apa merasakan lebih dari satu hal sekaligus.",
+        "Saya tidak butuh kejelasan segera.",
+        "Kebingungan bukan berarti kegagalan.",
+        "Aku bisa memberi diriku waktu.",
+        "Saya percaya diri bisa memecahkan masalah ini."
+      ]
+    },
+    "self-critical": {
+      "label": "Ketika Anda sangat kritis terhadap diri sendiri",
+      "affirmations": [
+        "Aku bisa berbicara pada diriku sendiri dengan penuh kebaikan.",
+        "Aku tidak perlu menghukum diriku sendiri untuk berkembang.",
+        "Kesalahan tidak mendefinisikan siapa saya.",
+        "Saya sedang belajar, bukan gagal.",
+        "Pertumbuhan tidak membutuhkan kekejaman."
+      ]
+    },
+    "out-of-place": {
+      "label": "Saat kamu merasa tidak nyaman secara sosial",
+      "affirmations": [
+        "Saya boleh diam atau berbeda.",
+        "Aku tidak perlu menyamai energi orang lain.",
+        "Aku diterima apa adanya.",
+        "Saya bisa menempati ruang dengan lembut.",
+        "Saya tidak melakukan kesalahan dalam hal ini."
+      ]
+    },
+    "unsafe": {
+      "label": "Saat Anda merasa tidak aman di sekitar orang asing",
+      "affirmations": [
+        "Saya bisa bergerak dengan kecepatan saya sendiri.",
+        "Saya diizinkan untuk melindungi batasan saya.",
+        "Saya bisa tetap terhubung dengan tubuh saya.",
+        "Saya diperbolehkan untuk meninggalkan situasi tersebut.",
+        "Aku bisa menjaga diriku tetap aman."
+      ]
+    },
+    "pressured": {
+      "label": "Saat Anda merasa tertekan di tempat kerja",
+      "affirmations": [
+        "Nilai diriku bukanlah produktivitasku.",
+        "Saya tidak perlu terus-menerus membuktikan diri.",
+        "Melakukan yang terbaik sudah cukup hari ini.",
+        "Kerjakan satu tugas dalam satu waktu, itu tidak masalah.",
+        "Saya lebih dari sekadar peran saya."
+      ]
+    },
+    "face-the-day": {
+      "label": "Saat kamu tidak ingin menghadapi hari itu",
+      "affirmations": [
+        "Aku bisa menjalani hari ini sedikit demi sedikit.",
+        "Melewatinya saja sudah cukup.",
+        "Saya tidak butuh motivasi untuk memulai.",
+        "Menunjukkan sikap ramah tetaplah berarti.",
+        "Hari ini tidak mendefinisikan diriku."
+      ]
+    },
+    "future": {
+      "label": "Saat kamu mengkhawatirkan masa depanmu",
+      "affirmations": [
+        "Saya bisa kembali ke masa sekarang.",
+        "Saya akan menangani segala sesuatunya seiring berjalannya waktu.",
+        "Aku tidak butuh kepastian hari ini.",
+        "Saya mampu beradaptasi.",
+        "Aku bisa lebih percaya pada diriku sendiri."
+      ]
+    },
+    "stuck": {
+      "label": "Saat Anda merasa terjebak dalam suatu masalah",
+      "affirmations": [
+        "Terjebak bukan berarti aku rusak.",
+        "Saya bisa berhenti sejenak tanpa menyerah.",
+        "Saya tidak butuh solusi instan.",
+        "Saya berhak merasa ragu.",
+        "Saya masih bergerak, meskipun perlahan."
+      ]
+    },
+    "compare": {
+      "label": "Saat kamu membandingkan dirimu sendiri",
+      "affirmations": [
+        "Perjalanan hidupku adalah milikku sendiri.",
+        "Saya tidak perlu berkompetisi untuk menjadi berharga.",
+        "Saya diizinkan untuk berkembang sesuai dengan kecepatan saya sendiri.",
+        "Kesuksesan orang lain tidak menghapus kesuksesan saya.",
+        "Saya tidak ketinggalan."
+      ]
+    },
+    "give-up": {
+      "label": "Saat kamu ingin menyerah",
+      "affirmations": [
+        "Saya tidak perlu memutuskan apa pun sekarang.",
+        "Perasaan ini akan berlalu.",
+        "Aku telah melewati lebih banyak hal daripada yang kusadari.",
+        "Saya bisa tinggal sebentar lagi.",
+        "Saya masih di sini — dan itu penting."
+      ]
+    }
+  },
+  "app_complete_title": "Merasa Diberdayakan",
+  "app_complete_message": "Afirmasi harian membantu membentuk kembali pola pikir Anda. Bawalah pikiran positif ini bersama Anda hari ini.",
+  "app_duration": "2-3 menit",
+  "app_title": "Kerangka berpikir",
+  "app_description": "Ubah pola pikir Anda melalui afirmasi harian.",
+  "intro": {
+    "description": "Afirmasi harian membantu membentuk kembali pola pikir Anda dan membangun ketahanan emosional. Luangkan beberapa saat untuk fokus pada pikiran positif dan berbicaralah dengan lembut kepada diri sendiri.",
+    "benefits": [
+      "Temukan kedamaian di saat-saat sulit.",
+      "Tantang pola pikir negatif",
+      "Bangun rasa welas asih dan kekuatan diri."
+    ]
+  },
+  "affirmation_for": "Penegasan untuk",
+  "affirmation": "Afirmasi",
+  "language": "Bahasa",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

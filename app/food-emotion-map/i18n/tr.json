@@ -1,0 +1,139 @@
+{
+  "app_title": "Yiyecek ve Duygu Haritası",
+  "screen_titles": [
+    "Hoş geldiniz",
+    "Beslenme Kalıpları",
+    "İç Diyalog",
+    "Fiziksel Algılama",
+    "Harita",
+    "Nazik Destek",
+    "Son Görünüm",
+    "Yansıtma"
+  ],
+  "welcome_text": "Hey... Burada olmana gerçekten çok sevindim. 💛 Hadi nazikçe neler olup bittiğini haritalayalım.",
+  "coming_up_label": "Son zamanlarda neler çıkıyor?",
+  "begin_mapping": "Haritalamaya Başlayın",
+  "food_patterns_q": "Hmm... Seni anlıyorum. Kendinizi {{emotion}}... Yiyecekler genellikle nasıl ortaya çıkar?",
+  "continue_button": "Devam et",
+  "internal_dialogue_q": "O anlarda... Ne tür düşünceler aklıma geliyor?",
+  "write_placeholder": "Aklına ne gelirse yaz...",
+  "physical_sensing_q": "Bir saniye durursan... Vücudunuzda ne fark ediyorsunuz?",
+  "the_pattern_label": "Model",
+  "pattern_desc_1": "{{emotion}} hissettiğinde, vücudunuz {{sensation}}...",
+  "pattern_desc_2": "… ve yiyecek {{response}}'a ulaşmak için bir yol haline gelirken, \"{{thought}}\" gibi düşünceler ortaya çıkar.",
+  "pattern_footer": "\"Desen farkındalığı özgürlüktür\"",
+  "support_q": "O anlarda... Size ne yardımcı olabilir—az da olsa?",
+  "understanding_text": "Kendini biraz daha iyi anlıyorsun. Bu fazlasıyla 💛 yeterli",
+  "how_feeling_now": "Şu an nasıl hissediyorsun?",
+  "preserve_button": "Koruma Haritası",
+  "preserving": "Koruma...",
+  "complete_title": "Korunan Harita",
+  "complete_message": "Duyguların ile yiyecek arasındaki bağlantıyı başarıyla haritaladın. Bu farkındalık, nazik değişim için güçlü bir araçtır.",
+  "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
+  "save_success": "Korunan Desenler",
+  "save_error": "Düzeni koruyamaması",
+  "emotions_list": [
+    "😰 Stres",
+    "😢 Hüzün",
+    "😶 Sıkıntı",
+    "😟 Anksiyete",
+    "🥺 Yalnızlık",
+    "💭 Başka bir şey..."
+  ],
+  "food_responses": [
+    "🍽️ Daha fazla yiyorum",
+    "🚫 Daha az yiyorum",
+    "🍫 Belirli yiyecekleri özlüyorum",
+    "😣 Yemek yemekten kaçınıyorum",
+    "😐 Gerçek bir değişiklik yok"
+  ],
+  "body_sensations": [
+    "💔 Sıkı göğüs",
+    "🪨 Ağır bir his",
+    "🦵 Huzursuz / huzursuz",
+    "🔋 Düşük enerji",
+    "🌀 Midede düğümler",
+    "❓ Başka bir şey..."
+  ],
+  "support_options": [
+    "🗣️ Birisiyle konuş",
+    "☕ Bir mola ver",
+    "📝 Dergi",
+    "🌬️ Nefes al",
+    "🎧 Kendimi oyalamak"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Ulaşın 💛",
+      "body": "Bazen paylaşmak işleri biraz hafifletiyor. Belki basit bir 'hey, konuşabilir miyiz?'"
+    },
+    "☕ Take a break": {
+      "title": "Duraklama 💛",
+      "body": "Küçük bir duraklama işleri sıfırlamaya yardımcı olabilir. Belki uzaklaşıp birkaç yavaş nefes al."
+    },
+    "📝 Journal": {
+      "title": "Yaz 💛",
+      "body": "'Şu anda hissediyorum...' diye başlayabilirsin. Ve sadece akmasına izin ver."
+    },
+    "🌬️ Breathe": {
+      "title": "Nefes al 💛",
+      "body": "4 nefes al... 2... nefes ver 6... Birlikte yavaşlayalım."
+    },
+    "🎧 Distract myself": {
+      "title": "Nazik bir değişim 💛",
+      "body": "Nazik bir dikkat dağıtıcı anı değiştirebilir... Belki hafif ya da kolay bir şey."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Yiyecek ve Duygu Haritası",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

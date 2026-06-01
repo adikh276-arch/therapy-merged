@@ -1,0 +1,113 @@
+{
+  "app_title": "Zrozumienie sterowania",
+  "app_subtitle": "Strategia przetrwania • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Dlaczego kontrola może wydawać się tak potężna",
+      "paragraphs": [
+        "Dla wielu osób mających trudności z jedzeniem kontrola może być sposobem na stworzenie bezpieczeństwa.",
+        "Gdy życie wydaje się nieprzewidywalne lub emocjonalnie intensywne, skupienie się na jedzeniu, wadze lub rutynie może przynieść poczucie struktury i pewności.",
+        "To nie chodzi o siłę woli czy dyscyplinę. Chodzi o próbę opanowania się, gdy wszystko wydaje się niepewne.",
+        "W ten sposób kontrola staje się strategią radzenia sobie — czymś, co pomaga poczuć się ugruntowanym, nawet jeśli tylko tymczasowo."
+      ],
+      "microcopy": "Nie jesteś w tym sam.",
+      "cta": "Kontynuuj"
+    },
+    {
+      "headline": "Różne sposoby pojawiania się kontroli",
+      "intro": "Potrzeba kontroli nie wygląda tak samo u każdego, ale często objawia się w takich wzorcach jak:",
+      "bullets": [
+        {
+          "text": "Surowe lub sztywne zasady żywieniowe"
+        },
+        {
+          "text": "Trzeba dokładnie przestrzegać rutyny"
+        },
+        {
+          "text": "Lęk, gdy plany się zmieniają"
+        },
+        {
+          "text": "Łączenie poczucia własnej wartości z kształtem/wagą"
+        }
+      ],
+      "outro": "Z czasem mogą one stać się sztywne, zajmując przestrzeń mentalną i utrudniając adaptację.",
+      "microcopy": "To, co zaczyna się jako kontrola, powoli zaczyna wydawać się kontrolujące.",
+      "cta": "Kontynuuj"
+    },
+    {
+      "headline": "Pod kontrolą",
+      "intro": "Potrzeba kontroli często ma głębsze korzenie. Można go połączyć z:",
+      "bullets": [
+        {
+          "text": "Czuję się emocjonalnie zalana"
+        },
+        {
+          "text": "Pragnienie przewidywalności"
+        },
+        {
+          "text": "Potrzeba stabilności i bezpieczeństwa"
+        }
+      ],
+      "insight": "Kontrola nie jest problemem — to strategia, którą twój umysł znalazł, by sobie z tym radzić. Z czasem i wsparciem możliwe są inne sposoby na poczucie bezpieczeństwa.",
+      "microcopy": "Zrozumienie to potężny pierwszy krok.",
+      "cta": "Skończ czytać"
+    }
+  ],
+  "complete": {
+    "title": "Zdobyta świadomość",
+    "message": "Zrozumienie korzeni kontroli to odważny pierwszy krok do znalezienia nowych sposobów na poczucie bezpieczeństwa i stabilności.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Strategia przetrwania • {{step}}/3",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

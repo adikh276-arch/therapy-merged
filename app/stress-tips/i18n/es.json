@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Respira 🌿 hondo",
+    "title": "Gestiona tu estrés",
+    "description": "Hábitos diarios sencillos para ayudarte a sentirte más tranquilo y con más control.",
+    "sectionTitle": "Consejos diarios para aliviar el estrés"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Duerme bien",
+      "description": "Procura dormir entre 7 y 9 horas cada noche. Intenta dormir y despertarte a la misma hora cada día.",
+      "why": "El sueño ayuda a que tu cerebro y cuerpo se recuperen y reduce las hormonas del estrés.",
+      "do": [
+        "Mantén un horario de sueño fijo",
+        "Evita las pantallas una hora antes de acostarte",
+        "Mantén la habitación fresca y oscura",
+        "Evita la cafeína después de las 16:00"
+      ],
+      "button": "Recordatorio de sueño establecido"
+    },
+    "breathing": {
+      "title": "Practica la respiración profunda",
+      "description": "Dedica unos minutos a centrarte en tu respiración. La respiración lenta reduce la ansiedad.",
+      "why": "La respiración lenta activa la respuesta de relajación de tu cuerpo.",
+      "do": [
+        "Inhala durante 4 segundos",
+        "Aguanta durante 4 segundos",
+        "Exhala durante 4 segundos",
+        "Repite durante 1 minuto"
+      ]
+    },
+    "exercise": {
+      "title": "Mueve tu cuerpo",
+      "description": "Caminar ligero o estirarse ayuda a liberar el estrés y a mejorar el estado de ánimo.",
+      "why": "El ejercicio libera endorfinas y mejora el estado de ánimo.",
+      "do": [
+        "15 minutos andando",
+        "Estiramiento ligero",
+        "Breve sesión de yoga",
+        "Entrenamiento rápido en casa"
+      ]
+    },
+    "caffeine": {
+      "title": "Limita la cafeína y el azúcar",
+      "description": "Demasiada cafeína y azúcar puede aumentar la ansiedad y alterar el sueño.",
+      "why": "Demasiada cafeína y azúcar aumenta la ansiedad y los problemas de sueño.",
+      "do": [
+        "Sustituye un café por té de hierbas",
+        "Bebe más agua",
+        "Reduce los aperitivos azucarados",
+        "Evita la cafeína a última hora del día"
+      ]
+    },
+    "planning": {
+      "title": "Planifica tu día",
+      "description": "Divide las tareas grandes en pasos más pequeños para evitar sentirte abrumado.",
+      "why": "Planificar reduce el desorden mental y el sobrecarga.",
+      "do": [
+        "Escribe 3 tareas principales",
+        "Divide las tareas en pequeños pasos",
+        "Concéntrate en una tarea a la vez",
+        "Haz pausas cortas"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Atrás",
+    "notFound": "Pista no encontrada.",
+    "whyTitle": "Por qué ayuda",
+    "doTitle": "Lo que puedes hacer",
+    "reminderSet": "¡Recordatorio listo! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "¡Ups! Página no encontrada",
+    "return": "Regreso a casa"
+  },
+  "mood": {
+    "title": "¿Cómo te sientes hoy?",
+    "great": "Genial",
+    "okay": "Vale",
+    "stressed": "Estresado",
+    "overwhelmed": "Abrumado"
+  },
+  "breathing": {
+    "inhale": "Inhala...",
+    "hold": "Espera...",
+    "exhale": "Exhala...",
+    "pause": "Pausa",
+    "resume": "Currículum"
+  },
+  "common": {
+    "get_started": "Comenzar",
+    "start_over": "Volver a empezar",
+    "finish_exit": "Finalizar y salir",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Tiempo para completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar",
+    "step_of": "Paso {{current}} de {{total}}",
+    "round_of": "Ronda {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondas",
+    "instruction_ready": "Configura tus rondas y toca play para comenzar",
+    "instruction_running": "Sigue el círculo para regular tu respiración"
+  },
+  "app_title": "Alivio del estrés",
+  "app_description": "Alivio del estrés",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "breathing_guide": "Guía de respiración",
+  "phase_label": "Fase",
+  "instruction_ready": "Configura tus rondas y toca play para comenzar",
+  "instruction_running": "Sigue el círculo para regular tu respiración",
+  "round_x_of_y": "Ronda {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rondas",
+  "yes": "Sí",
+  "no": "No",
+  "date": "Fecha",
+  "continue": "Continuar"
+}

@@ -1,0 +1,125 @@
+{
+  "app_title": "Prática de Pausa",
+  "app_subtitle": "Domine o espaço entre",
+  "intro": {
+    "title": "A pausa de 5 segundos",
+    "description": "Uma pequena pausa entre sentir e reagir pode mudar tudo.",
+    "duration": "Leva menos de 15 segundos. Sério.",
+    "button": "Tente →"
+  },
+  "scenario": {
+    "title": "O que te desencadeia?",
+    "desc": "Escolha uma situação com a qual você se identifique",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Alguém me interrompe",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "As coisas não saem como planejado",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Me sinto ignorada",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Me sinto sobrecarregado",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Digite o seu próprio...",
+    "button": "Pausa na prática →"
+  },
+  "hold": {
+    "title": "Segure para pausar ⏸️",
+    "instructions": "Segure o círculo por 5 segundos",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Pressione e segure..."
+      },
+      {
+        "at": "0.15",
+        "text": "Continue firme..."
+      },
+      {
+        "at": "0.5",
+        "text": "Você está fazendo isso..."
+      },
+      {
+        "at": "0.8",
+        "text": "Quase lá..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Essa é a pausa",
+    "message": "Você apenas criou um espaço entre o que sentiu e como responde. Mesmo uma pequena pausa ajuda a recuperar seu centro.",
+    "tip_label": "Dica profissional",
+    "scenario_messages": {
+      "interrupts": "Da próxima vez que alguém te interromper, tente isso antes de responder.",
+      "plans": "Da próxima vez que as coisas não saírem como planejado, tente isso antes de reagir.",
+      "ignored": "Da próxima vez que se sentir ignorado, tente isso antes de responder.",
+      "overwhelmed": "Da próxima vez que se sentir sobrecarregado, tente isso antes de fazer qualquer coisa.",
+      "other": "Da próxima vez que se sentir ativado, tente isso antes de reagir."
+    },
+    "italic": "Nem sempre vai parecer fácil — mas a consistência é fundamental."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Domine o espaço entre",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

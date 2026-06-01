@@ -1,0 +1,124 @@
+{
+  "app_title": "Vihan ja häpeän sykli",
+  "app_subtitle": "Silmukan ymmärtäminen • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Miksi viha palaa yhä uudelleen?",
+      "description": "Se ei ehkä ole temperamenttiasi. Vihan ja häpeän välillä on piilotettu kierukka — ja kun sen näkee, kaikki muuttuu.",
+      "quote": "\"Useimmat ihmiset yrittävät korjata vihaa. Mutta häpeä on se, mikä hiljaisesti pitää sen käynnissä.\"",
+      "button": "Tutkitaanpa"
+    },
+    "s2": {
+      "tag": "Sykli",
+      "title": "Silmukka selitettiin",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Viha nousee pintaan"
+        },
+        {
+          "emoji": "😔",
+          "label": "Häpeä: \"Olen paha\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Häpeä hautautuu"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Viha purkautuu uudelleen"
+        }
+      ],
+      "button": "Näen sen"
+    },
+    "s3": {
+      "tag": "Mitä on tekeillä",
+      "title": "Kaksi tunnetta, yksi ansa",
+      "anger": {
+        "title": "🔥 Viha",
+        "desc": "Toissijainen tunne — elämien alla on kipu, pelko tai hylkääminen. Se on hälytys, ei tulipalo."
+      },
+      "shame": {
+        "title": "😔 Häpeä",
+        "desc": "\"Olen paha\" — en vain \"tein jotain pahaa.\" Se piilottaa, hiljentää ja pitää kierteen pyörimässä."
+      },
+      "button": "Vapautuminen"
+    },
+    "s4": {
+      "tag": "Keskeytys",
+      "title": "Keskeytä sykli",
+      "steps": [
+        {
+          "title": "Nimeä lähde",
+          "desc": "Kysy: 'Mitä oikeastaan tunnen?' Sattuiko? Pelottaako? Näkymätön? Nimeäminen heikentää sitä."
+        },
+        {
+          "title": "Myötätunnon tauko",
+          "desc": "Käsi rinnalla. Sano: 'Tämä on vaikeaa. Olen ihminen. Minä selviän tästä.'"
+        },
+        {
+          "title": "Korjaa arvokkaasti",
+          "desc": "Sovita asiat tarvittaessa — mutta älä ajaudu alas. Et ole pahin hetkesi."
+        }
+      ],
+      "notice": "Kierron huomaaminen on jo ensimmäinen askel. Sinä teet työn.",
+      "button": "Koko toiminta"
+    }
+  },
+  "complete": {
+    "title": "Sykli keskeytetty",
+    "message": "Olet saanut tietoisuuden nähdä yhteyden vihan ja häpeän välillä. Tämä on kestävän tunne-elämän vapauden perusta."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Silmukan ymmärtäminen • {{step}}/{{total}}",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

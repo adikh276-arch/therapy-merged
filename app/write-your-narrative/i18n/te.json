@@ -1,0 +1,125 @@
+{
+  "app_title": "మీ కథనం",
+  "nav": {
+    "entry": "స్వాగతం",
+    "writing": "వ్యక్తీకరణ",
+    "landing": "ప్రతిబింబిస్తుంది",
+    "history": "మీ ప్రయాణం"
+  },
+  "entry": {
+    "title": "దీనిని ఒక్కొక్క అడుగు వేద్దాం. 💛",
+    "description": [
+      "మీరు ఈ రోజు మీ మొత్తం కథను చెప్పాల్సిన అవసరం లేదు. ఒక్క చిన్న భాగం మాత్రమే సరిపోతుంది.",
+      "మీరు ప్రస్తుతం సురక్షితంగా ఉన్నారు. మీరు ఏమి వ్రాస్తారో మరియు మీరు ఏమి రాకూడదో మీ నియంత్రణలో ఉన్నారు."
+    ],
+    "breath": "మేము ప్రారంభించే ముందు నెమ్మదిగా శ్వాస తీసుకోండి.",
+    "button_ready": "నేను సిద్ధంగా ఉన్నాను.",
+    "button_history": "గత కథనాలు",
+    "footer": "మీ మాటలు • మీ వేగం • మీ కథ"
+  },
+  "writing": {
+    "title": "సరేనని ✨ అనిపించినదాన్ని రాయండి",
+    "subtitle": "మీ మాటలు, మీ వేగం",
+    "prompt_label": "ప్రారంభ బిందువు కావాలా?",
+    "prompts": [
+      {
+        "text": "నాకు బాగా గుర్తున్నది ఏమిటంటే...",
+        "emoji": "💭"
+      },
+      {
+        "text": "ఆ సమయంలో, నేను భావించాను ...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "అప్పటి నుండి, నేను గమనించాను ...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "ఇక్కడ రాయడం ప్రారంభించండి...",
+    "notice": "దీన్ని చేయడానికి సరైన మార్గం లేదు. కొన్ని పంక్తులు కూడా చాలు.",
+    "button": "రాయడం పూర్తి చేయండి"
+  },
+  "landing": {
+    "title": "మీరు ఒక ముఖ్యమైన పని చేశారు.",
+    "subtitle": "మీ కోసం చూపించినందుకు ధన్యవాదాలు.",
+    "settle_title": "సెటిల్ కావడానికి మనం ఒక్క క్షణం తీసుకుంటాం",
+    "steps": [
+      "చుట్టూ చూడండి మరియు మీరు చూడగలిగే 3 విషయాలకు పేరు పెట్టండి.",
+      "నెమ్మదిగా ఊపిరి పీల్చుకోండి... మరియు వెలుపల."
+    ],
+    "feeling_label": "ప్రస్తుతం, నేను భావిస్తున్నాను:",
+    "feeling_placeholder": "ఒకటి లేదా రెండు పదాలు...",
+    "quote": "\"మీరు ప్రతిదీ ఒకేసారి తీసుకెళ్లాల్సిన అవసరం లేదు. మీరు సిద్ధంగా ఉన్నప్పుడు మీరు తిరిగి రావచ్చు. \"",
+    "button_save": "కథనాన్ని సంరక్షించండి",
+    "button_preserving": "సంరక్షించడం..."
+  },
+  "history": {
+    "title": "మీ ప్రయాణం 📝",
+    "subtitle": "గత కథనాలు & ప్రతిబింబాలు",
+    "empty": "మీరు ఇంకా ఎలాంటి ఎంట్రీలను సేవ్ చేయలేదు. మీ సమయాన్ని తీసుకోండి - తొందరపాటు లేదు.",
+    "no_writing": "రచన భద్రపరచబడలేదు",
+    "button_back": "యాక్టివిటీకి తిరిగి వెళ్లండి"
+  },
+  "complete": {
+    "title": "కథనం సంరక్షించబడింది",
+    "message": "మీ కథను చెప్పడంలో మీరు శక్తివంతమైన అడుగు వేశారు. మీ దృక్పథం ముఖ్యమైనది, మరియు మీ ప్రయాణం ప్రత్యేకంగా మీది."
+  },
+  "toasts": {
+    "save_success": "కథనం సంరక్షించబడింది",
+    "save_error": "కథనాన్ని సంరక్షించడంలో విఫలమైంది",
+    "auth_error": "ప్రమాణీకరణ సెషన్ మిస్ అయింది లేదా DB కాన్ఫిగర్ చేయబడలేదు"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "మీ కథనం",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "remove_this": "దీన్ని తొలగించండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

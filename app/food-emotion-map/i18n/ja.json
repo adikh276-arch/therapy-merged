@@ -1,0 +1,139 @@
+{
+  "app_title": "食と感情マップ",
+  "screen_titles": [
+    "ようこそ",
+    "食のパターン",
+    "内部対話",
+    "物理的感覚",
+    "地図",
+    "優しいサポート",
+    "ファイナルルック",
+    "リフレクション"
+  ],
+  "welcome_text": "ねえ...来💛てくれて本当に嬉しい。さあ、何が起きていたのかをさっさと整理しよう。",
+  "coming_up_label": "最近の予定は?",
+  "begin_mapping": "マッピング開始",
+  "food_patterns_q": "うーん...わかるよ。あなたが{{emotion}}を感じたとき...食べ物は通常どのように表示されますか?",
+  "continue_button": "続けてください",
+  "internal_dialogue_q": "その瞬間に...どんな考えが浮かびますか?",
+  "write_placeholder": "思いつくことを何でも書け...",
+  "physical_sensing_q": "少し間を置いたら...体の中で何を感じますか?",
+  "the_pattern_label": "パターン",
+  "pattern_desc_1": "あなたが{{emotion}}を感じるとき、あなたの体は{{sensation}}...",
+  "pattern_desc_2": "…そして食べ物は{{response}}の手段となり、「{{thought}}」のような思考が現れます。",
+  "pattern_footer": "「パターン認識は自由だ」",
+  "support_q": "その瞬間に...少しでも役立つものは何でしょうか?",
+  "understanding_text": "自分自身を少し理解してきたね。それだけで十分💛だ",
+  "how_feeling_now": "今の気分はいかがですか?",
+  "preserve_button": "保護地図",
+  "preserving": "保存...",
+  "complete_title": "地図保存",
+  "complete_message": "あなたは自分の感情と食べ物のつながりを見事にマッピングしました。この気づきは穏やかな変化をもたらす強力なツールです。",
+  "auth_error": "認証セッションが欠如しているか、データベースが設定されていない",
+  "save_success": "パターンの保存",
+  "save_error": "パターンの保存に失敗",
+  "emotions_list": [
+    "😰 ストレス",
+    "😢 悲しみ",
+    "😶 退屈",
+    "😟 不安",
+    "🥺 孤独",
+    "💭 何か別のもの..."
+  ],
+  "food_responses": [
+    "🍽️ 食べる量が増えました",
+    "🚫 食べる量が減りました",
+    "🍫 特定の食べ物が欲しいのです",
+    "😣 食べ物は避けています",
+    "😐 特に変化はありません"
+  ],
+  "body_sensations": [
+    "💔 胸が締め付けられる",
+    "🪨 重い感覚",
+    "🦵 落ち着きがない/そわそわしている",
+    "🔋 低エネルギー",
+    "🌀 胃の中のしわ",
+    "❓ 何か別のもの..."
+  ],
+  "support_options": [
+    "🗣️ 誰かに話してください",
+    "☕ 休憩しなさい",
+    "📝 ジャーナル",
+    "🌬️ 深呼吸して",
+    "🎧 気を紛らわせて"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "連絡を取💛ろう",
+      "body": "時には共有することで少し気持ちが軽くなることもあります。例えば、単純に「ねえ、話せる?」とだけ言えばいいかもしれません。"
+    },
+    "☕ Take a break": {
+      "title": "間 💛",
+      "body": "少しの間を置くことで、リセットに役立つことがあります。少し離れてゆっくり深呼吸をしてみてはどうでしょうか。"
+    },
+    "📝 Journal": {
+      "title": "書き出💛して",
+      "body": "まずは「今は...」と感じてみていいでしょう。そしてただ流れに任せてください。"
+    },
+    "🌬️ Breathe": {
+      "title": "深呼吸して 💛",
+      "body": "吸う 4回...ホールド2...吐く6...一緒にペースを落とそう。"
+    },
+    "🎧 Distract myself": {
+      "title": "やさしいシフト 💛",
+      "body": "穏やかな気をそらす一つで、その瞬間を変えることができる...軽いものや簡単なものがいいかもしれません。"
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "食べ物と感情のマップ",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,139 @@
+{
+  "app_title": "Voedsel- en Emotiekaart",
+  "screen_titles": [
+    "Welkom",
+    "Voedselpatronen",
+    "Interne Dialoog",
+    "Fysieke waarneming",
+    "De Kaart",
+    "Zachte steun",
+    "Eindresultaat",
+    "Reflecterend"
+  ],
+  "welcome_text": "Hé... Ik ben echt blij dat je hier 💛 bent. Laten we voorzichtig in kaart brengen wat er aan de hand is.",
+  "coming_up_label": "Wat staat er de laatste tijd op de planning?",
+  "begin_mapping": "Begin met het Kaarten",
+  "food_patterns_q": "Hmm... Ik hoor je. Wanneer je {{emotion}} voelt... Hoe ziet het eten zich meestal uit?",
+  "continue_button": "Ga verder",
+  "internal_dialogue_q": "In die momenten... Wat voor gedachten komen er op?",
+  "write_placeholder": "Schrijf wat er in je opkomt...",
+  "physical_sensing_q": "Als je even pauzeert... Wat merk je op in je lichaam?",
+  "the_pattern_label": "Het patroon",
+  "pattern_desc_1": "Wanneer je {{emotion}} voelt, voelt je lichaam {{sensation}}...",
+  "pattern_desc_2": "… en eten wordt een manier om {{response}} te doen, terwijl gedachten als \"{{thought}}\" verschijnen.",
+  "pattern_footer": "\"Patroonbewustzijn is vrijheid\"",
+  "support_q": "In die momenten... Wat zou je kunnen helpen—al is het maar een beetje?",
+  "understanding_text": "Je begrijpt jezelf iets beter. Dat is meer dan genoeg 💛",
+  "how_feeling_now": "Hoe voel je je nu?",
+  "preserve_button": "Preserve Map",
+  "preserving": "Bewaren...",
+  "complete_title": "Kaart bewaard",
+  "complete_message": "Je hebt met succes de verbinding tussen je gevoelens en eten in kaart gebracht. Dit bewustzijn is een krachtig hulpmiddel voor zachte verandering.",
+  "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
+  "save_success": "Patroon behouden",
+  "save_error": "Patroon niet behouden",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Verdriet",
+    "😶 Verveling",
+    "😟 Angst",
+    "🥺 Eenzaamheid",
+    "💭 Iets anders..."
+  ],
+  "food_responses": [
+    "🍽️ Ik eet meer",
+    "🚫 Ik eet minder",
+    "🍫 Ik heb trek in bepaalde voedingsmiddelen",
+    "😣 Ik vermijd eten",
+    "😐 Geen echte verandering"
+  ],
+  "body_sensations": [
+    "💔 Benauwde borst",
+    "🪨 Zwaar gevoel",
+    "🦵 Rusteloos / onrustig",
+    "🔋 Lage energie",
+    "🌀 Knopen in de maag",
+    "❓ Iets anders..."
+  ],
+  "support_options": [
+    "🗣️ Praat met iemand",
+    "☕ Neem een pauze",
+    "📝 Tijdschrift",
+    "🌬️ Adem in",
+    "🎧 Afleiden"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Neem contact op 💛",
+      "body": "Soms maakt delen het wat luchtiger. Misschien een simpele 'hé, kunnen we praten?'"
+    },
+    "☕ Take a break": {
+      "title": "Pauze 💛",
+      "body": "Een korte pauze kan helpen om alles opnieuw op gang te brengen. Misschien kun je even afstand nemen en een paar keer langzaam ademhalen."
+    },
+    "📝 Journal": {
+      "title": "Schrijf het maar op 💛",
+      "body": "Je zou kunnen beginnen met 'nu voel ik...' en het gewoon laten stromen."
+    },
+    "🌬️ Breathe": {
+      "title": "Adem in 💛",
+      "body": "Adem 4 in... Hou 2... uitademen 6... Laten we samen langzamer gaan."
+    },
+    "🎧 Distract myself": {
+      "title": "Zachte verschuiving 💛",
+      "body": "Een zachte afleiding kan het moment veranderen... Misschien iets lichts of makkelijks."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Voedsel & Emotie Kaart",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

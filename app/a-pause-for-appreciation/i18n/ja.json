@@ -1,0 +1,147 @@
+{
+  "title": "感謝のためのひととき",
+  "subtitle": "5～7分のガイド付きリフレクション",
+  "nav": {
+    "history": "歴史",
+    "home": "家"
+  },
+  "intro": {
+    "text1": "人間関係がぎくしゃくしていると、うまくいっていないことばかりに目が行きがちです。この振り返りは、少し立ち止まって考える機会を与えてくれます。不安を振り払うためではなく、少し視野を広げるための時間です。",
+    "text2": "感謝の気持ちを抱く必要はありません。ただ、湧き上がってくる感情に気づくだけでいいのです。",
+    "begin": "始める",
+    "viewHistory": "履歴を表示"
+  },
+  "breathing": {
+    "title": "到着して落ち着く",
+    "description": "続ける前に、少しの間、自分自身に休息を与えてください。この瞬間は何かを解決することではありません。スペースを作ることです。",
+    "instruction": "以下の呼吸のリズムに従ってください。",
+    "inhale": "吸い込む…{{counter}}…",
+    "hold": "所有…",
+    "exhale": "息を吐く…{{counter}}…",
+    "affirmation": "「難しいと感じられることを認めながらも、気づく心を持ち続けることができます。」",
+    "continue": "続く"
+  },
+  "reflection": {
+    "step": "ステップ {{step}} / {{total}}",
+    "prompts": {
+      "p1": "最近、パートナーと緊張を感じなかったちょっとした瞬間がありました。",
+      "p1_ex": "「夕方、私たちは短く穏やかな会話をしました。」",
+      "p2": "あなたのパートナーが、たとえ不完全であったとしても、行った努力の一つは…",
+      "p2_ex": "「彼らは撤退する代わりに、自分たちの気持ちを説明しようとした。」",
+      "p3": "あなたのパートナーの中で、長い間変わらず変わらない資質が 1 つあります。",
+      "p3_ex": "「彼らは引き続き、私たちの責任に対して献身的な姿勢を示してくれています。」"
+    },
+    "placeholder": "ここにあなたの感想を書いてください…",
+    "next": "次",
+    "finish": "仕上げる"
+  },
+  "intention": {
+    "step": "ステップ4/4",
+    "title": "この反省をどのように捉えたいですか?",
+    "options": {
+      "private": "この反省は非公開にしておきたいと思います。",
+      "share_part": "この一部をパートナーと共有することもできます。",
+      "share_full": "この反省を全面的に共有したいと思います。",
+      "save_later": "これを後で話し合うために保存しておきます。"
+    },
+    "continue": "続く"
+  },
+  "checkin": {
+    "title": "この考察を終えて、どの記述が最も正確だと感じましたか?",
+    "statements": {
+      "s1": "今はパートナーに対して少しオープンになった気がします。",
+      "s2": "大きな変化は感じられませんが、引き続き注意していきたいと思います。",
+      "s3": "これを完了するのはやや困難だと感じました。",
+      "s4": "振り返ってみると、少しだけ温かさを感じました。",
+      "s5": "私は抵抗に気づきました。そしてそれを認めることが重要だと感じています。",
+      "s6": "始める前と比べて、微妙に柔らかくなった気がします。"
+    },
+    "finish": "完了して保存"
+  },
+  "closing": {
+    "title": "反省完了",
+    "text1": "この休止は、課題を消し去るものではありません。単に、関係性に対する見方のバランスを取り戻すだけです。",
+    "text2": "ほんの少し気づくだけでも、感情的な硬直が徐々に和らぎ、より健全な会話の余地が生まれます。",
+    "save": "Reflectionsに保存",
+    "viewHistory": "履歴を表示",
+    "exit": "出口"
+  },
+  "history": {
+    "title": "あなたの反省の歴史",
+    "noReflections": "まだ反省は保存されていません。完了したセッションはここに表示されます。",
+    "back": "スタートに戻る",
+    "confirmDelete": "削除を確認",
+    "cancel": "キャンセル",
+    "delete": "エントリを削除",
+    "prompts": [
+      "緊張を感じなかったちょっとした瞬間…",
+      "あなたのパートナーが行った1つの努力は…",
+      "一貫して維持されてきた品質が 1 つあります。",
+      "意図",
+      "感情チェックイン"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3～5分",
+  "app_title": "振り返る",
+  "intro_p1": "感謝の気持ちを育む",
+  "intro_p2": "ストレスを軽減する",
+  "intro_p3": "健康状態を改善する",
+  "app_description": "5～7分間のガイド付き振り返り",
+  "how_do_you_feel_after_this_reflection": "この振り返りを終えて、あなたはどんな気持ちですか？",
+  "your_past_reflections_appreciations": "過去の感想と感謝の言葉",
+  "start_new_session": "新しいセッションを開始",
+  "feeling": "フィーリング",
+  "delete_this_entry": "このエントリを削除しますか？",
+  "delete_5": "消去",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

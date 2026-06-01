@@ -1,0 +1,81 @@
+{
+  "app_title": "Por qué el cerebro se queda atascado",
+  "app_subtitle": "La lógica de la supervivencia • {{step}}/{{total}}",
+  "s1": {
+    "title": "Tu cerebro no se rompió. Se adaptó.",
+    "description": "Después del trauma, tu cerebro se reconfigura para mantenerte a salvo. Aprendió que el mundo podía ser peligroso, así que se mantuvo preparado. Eso no es un defecto. Eso es supervivencia.",
+    "quote": "\"El TEPT no es señal de que algo te vaya mal. Es una señal de que te ha pasado algo.\"",
+    "button": "Cuéntame más"
+  },
+  "s2": {
+    "tag": "Verdades suaves",
+    "title": "Lógica de supervivencia cerebral",
+    "truths": [
+      {
+        "header": "La alarma seguía encendida",
+        "body": "La hipervigilancia y el sobresalto no son exageraciones: el sistema de alarma de tu cerebro está cumpliendo demasiado bien su función."
+      },
+      {
+        "header": "Los flashbacks son memoria",
+        "body": "Los gatillos dejan tu cerebro hacia atrás porque nunca recibió la señal de que la amenaza había terminado. Está intentando protegerte."
+      },
+      {
+        "header": "Luchando por ti",
+        "body": "Cada síntoma fue en su día un acto de supervivencia. Tu cerebro hizo lo que tenía que hacer para mantenerte con vida."
+      }
+    ],
+    "healing": "Sanar no consiste en olvidar. Se trata de ayudar a tu cerebro a aprender que ahora estás a salvo."
+  },
+  "common": {
+    "get_started": "Comenzar",
+    "start_over": "Volver a empezar",
+    "finish_exit": "Finalizar y salir",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Tiempo para completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar",
+    "step_of": "Paso {{current}} de {{total}}",
+    "round_of": "Ronda {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondas",
+    "instruction_ready": "Configura tus rondas y toca play para comenzar",
+    "instruction_running": "Sigue el círculo para regular tu respiración"
+  },
+  "app_description": "La lógica de la supervivencia • {{paso}}/{{total}}",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "¡Ups! Página no encontrada",
+  "return_to_home": "Regresar a la página principal",
+  "phase_label": "Fase",
+  "instruction_ready": "Configura tus rondas y toca play para comenzar",
+  "instruction_running": "Sigue el círculo para regular tu respiración",
+  "round_x_of_y": "Ronda {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rondas",
+  "yes": "Sí",
+  "no": "No",
+  "date": "Fecha",
+  "continue": "Continuar"
+}

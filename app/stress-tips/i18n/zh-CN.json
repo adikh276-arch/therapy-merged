@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "深呼吸🌿",
+    "title": "管理你的压力",
+    "description": "养成一些简单的日常习惯，帮助你感到更平静、更能掌控自己。",
+    "sectionTitle": "每日减压小贴士"
+  },
+  "tip": {
+    "sleep": {
+      "title": "获得充足睡眠",
+      "description": "每晚睡眠时间应保证7-9小时。尽量每天在同一时间入睡和起床。",
+      "why": "睡眠有助于大脑和身体恢复，并降低压力激素水平。",
+      "do": {
+        "0": "保持固定的睡眠时间",
+        "1": "睡前1小时避免使用电子屏幕。",
+        "2": "保持房间凉爽黑暗",
+        "3": "下午4点后避免摄入咖啡因。"
+      },
+      "button": "设置睡眠提醒"
+    },
+    "breathing": {
+      "title": "练习深呼吸",
+      "description": "花几分钟时间专注于你的呼吸。缓慢呼吸可以减轻焦虑。",
+      "why": "缓慢呼吸可以激活身体的放松反应。",
+      "do": {
+        "0": "吸气 4 秒",
+        "1": "保持4秒",
+        "2": "呼气 4 秒",
+        "3": "重复1分钟"
+      }
+    },
+    "exercise": {
+      "title": "动起来",
+      "description": "散步或伸展运动有助于释放压力，改善情绪。",
+      "why": "运动能释放内啡肽，改善情绪。",
+      "do": {
+        "0": "步行15分钟",
+        "1": "轻柔拉伸",
+        "2": "简短的瑜伽课程",
+        "3": "快速居家锻炼"
+      }
+    },
+    "caffeine": {
+      "title": "限制咖啡因和糖的摄入",
+      "description": "摄入过多的咖啡因和糖分会加剧焦虑，扰乱睡眠。",
+      "why": "摄入过多的咖啡因和糖分会加剧焦虑和睡眠问题。",
+      "do": {
+        "0": "用一杯花草茶代替一杯咖啡。",
+        "1": "多喝水",
+        "2": "减少含糖零食的摄入",
+        "3": "一天中临近结束时应避免摄入咖啡因。"
+      }
+    },
+    "planning": {
+      "title": "规划你的一天",
+      "description": "将大的任务分解成小的步骤，以免感到压力过大。",
+      "why": "制定计划可以减少精神上的混乱和压力。",
+      "do": {
+        "0": "写出3个主要任务",
+        "1": "将任务分解成小步骤",
+        "2": "一次只专注于一项任务",
+        "3": "适当休息"
+      }
+    }
+  },
+  "detail": {
+    "back": "后退",
+    "notFound": "未找到提示。",
+    "whyTitle": "它为何有用",
+    "doTitle": "你可以做什么",
+    "reminderSet": "已设置提醒！🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "糟糕！页面未找到",
+    "return": "返回首页"
+  },
+  "mood": {
+    "title": "你今天感觉怎么样？",
+    "great": "伟大的",
+    "okay": "好的",
+    "stressed": "压力",
+    "overwhelmed": "不知所措"
+  },
+  "breathing": {
+    "inhale": "吸入…",
+    "hold": "抓住…",
+    "exhale": "呼气……",
+    "pause": "暂停",
+    "resume": "恢复"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Stress Relief",
+  "app_description": "Stress Relief",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "breathing_guide": "Breathing Guide",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

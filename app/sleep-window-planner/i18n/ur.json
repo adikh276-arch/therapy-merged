@@ -1,0 +1,147 @@
+{
+  "app_title": "سلیپ ونڈو پلانر",
+  "pill_labels": [
+    "اپنی کھڑکی بناؤ",
+    "اپنے وقت مقرر کریں",
+    "تمہاری نیند کی کھڑکی"
+  ],
+  "screen1": {
+    "title": "آپ کی نیند کی کھڑکی آپ کے خیال سے زیادہ اہم ہے",
+    "p1": "نیند کی کھڑکی وہ مقررہ وقت ہے جب آپ سوتے ہیں اور جب آپ جاگتے ہیں۔ اسے مستقل مزاج رکھنا — یہاں تک کہ ویک اینڈ پر بھی — آپ کی نیند کے لیے سب سے طاقتور چیزوں میں سے ایک ہے۔",
+    "p2": "یہ ٹول آپ کو اپنا ڈیزائن 2 منٹ سے بھی کم وقت میں بنانے میں مدد دیتا ہے۔",
+    "insight": "یہاں تک کہ ہفتے کے آخر میں نیند کے اوقات میں 1 گھنٹے کا فرق بھی آپ کے پورے ہفتے کے جذبات کو متاثر کر سکتا ہے۔",
+    "meta": "سادہ بات ہے۔ ذاتی۔ مؤثر۔",
+    "button": "آؤ میرا → بنائیں"
+  },
+  "screen2": {
+    "title": "آؤ تمہاری نیند کی کھڑکی سیٹ کرتے ہیں",
+    "step1": {
+      "title": "مرحلہ 1 — جاگنے کا وقت",
+      "desc": "زیادہ تر دنوں میں آپ کو کس وقت اٹھنا ہوتا ہے؟"
+    },
+    "step2": {
+      "title": "مرحلہ 2 — نیند کا دورانیہ",
+      "desc": "آپ کتنے گھنٹے نیند چاہتے ہیں؟"
+    },
+    "live_window": {
+      "bedtime": "سونے کا وقت",
+      "waketime": "جاگنے کا وقت",
+      "duration": "{{hours}} نیند کے گھنٹے"
+    },
+    "italic": "زیادہ تر بالغ افراد کو 7–9 گھنٹے کی ضرورت ہوتی ہے۔ جو صحیح لگے وہی منتخب کریں۔",
+    "button": "میری نیند کی کھڑکی دیکھو→"
+  },
+  "screen3": {
+    "title": "تمہاری نیند کی کھڑکی 🌙",
+    "result": {
+      "bedtime": "سونے کا وقت",
+      "waketime": "جاگنے کا وقت",
+      "duration": "دورانیہ",
+      "hours": "{{hours}} گھنٹے"
+    },
+    "accordion1": {
+      "title": "اسے بچانے کے 3 طریقے",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "سونے سے 30 منٹ پہلے آرام کریں"
+        },
+        {
+          "emoji": "⏰",
+          "text": "ہر روز ایک ہی جاگنے کا وقت — ہاں، ویک اینڈز پر بھی"
+        },
+        {
+          "emoji": "🚫",
+          "text": "دوپہر 3 بجے کے بعد 20 منٹ سے زیادہ کی نیند سے گریز کریں"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "آج رات ایک چیز کے لیے پرعزم ہو جائیں",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "سونے سے پہلے اپنا فون رکھ دوں"
+        },
+        {
+          "emoji": "🛁",
+          "text": "آرام کرنے کی روٹین شروع کریں"
+        },
+        {
+          "emoji": "💡",
+          "text": "سونے سے ایک گھنٹہ پہلے روشنی مدھم کر دیں"
+        },
+        {
+          "emoji": "✍️",
+          "text": "میری ٹو-ڈو لسٹ جلدی مکمل کریں"
+        }
+      ]
+    },
+    "quote": "تسلسل کمال سے زیادہ طاقتور ہے۔ ایک اچھی رات اگلی کو بناتی ہے۔",
+    "button": "میری نیند کی کھڑکی بچاؤ ✓",
+    "saved_button": "✓ نیند کی کھڑکی بچ گئی!",
+    "adjust_times": "اوقات کو ایڈجسٹ کریں"
+  },
+  "complete": {
+    "title": "کھڑکی بنائی گئی",
+    "message": "آپ کی مثالی نیند کی کھڑکی نقشہ بن چکی ہے۔ مستقل مزاجی گہری، بحالی بخش آرام کی کنجی ہے۔"
+  },
+  "toasts": {
+    "save_success": "نیند کی ونڈو محفوظ ہو گئی",
+    "save_error": "سلیپ ونڈو محفوظ کرنے میں ناکام رہا",
+    "auth_error": "آتھ سیشن غائب ہے یا ڈیٹا بیس کنفیگر نہیں ہے",
+    "saving": "بچت کر رہا ہوں..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "سلیپ ونڈو پلانر",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,124 @@
+{
+  "app_title": "Vrede-skam-cyklus",
+  "app_subtitle": "Forståelse af løkken • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Hvorfor bliver vreden ved med at vende tilbage?",
+      "description": "Det er måske ikke dit temperament. Der er en skjult løkke mellem vrede og skam — og når man først ser det, ændrer alt sig.",
+      "quote": "\"De fleste prøver at løse vreden. Men skam er det, der stille holder det kørende.\"",
+      "button": "Lad os udforske"
+    },
+    "s2": {
+      "tag": "Cyklussen",
+      "title": "Løkken forklarede",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Vreden dukker op"
+        },
+        {
+          "emoji": "😔",
+          "label": "Skam: \"Jeg er dårlig\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Skam bliver begravet"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Vreden bryder ud igen"
+        }
+      ],
+      "button": "Jeg kan se det"
+    },
+    "s3": {
+      "tag": "Hvad sker der",
+      "title": "To følelser, én fælde",
+      "anger": {
+        "title": "🔥 Vrede",
+        "desc": "En sekundær følelse — under livet er smerte, frygt eller afvisning. Det er alarmen, ikke branden."
+      },
+      "shame": {
+        "title": "😔 Skam",
+        "desc": "\"Jeg er ond\" — ikke bare \"Jeg gjorde noget dårligt.\" Den gemmer sig, bringer til tavshed og holder cyklussen i gang."
+      },
+      "button": "At bryde fri"
+    },
+    "s4": {
+      "tag": "Afbrydelse",
+      "title": "Afbryd cyklussen",
+      "steps": [
+        {
+          "title": "Nævn kilden",
+          "desc": "Spørg: 'Hvad føler jeg egentlig?' Skadet? Bange? Uset? At navngive det svækker det."
+        },
+        {
+          "title": "Medfølelsespause",
+          "desc": "Hånd på brystet. Sig: 'Det er svært. Jeg er menneske. Jeg kan godt komme igennem det her.'"
+        },
+        {
+          "title": "Reparer med ynde",
+          "desc": "Gør bod, hvis det er nødvendigt — men undgå at gå i panik. Du er ikke dit værste øjeblik."
+        }
+      ],
+      "notice": "At lægge mærke til cyklussen er allerede det første skridt. Du gør arbejdet.",
+      "button": "Fuldstændig aktivitet"
+    }
+  },
+  "complete": {
+    "title": "Cyklus afbrudt",
+    "message": "Du har fået bevidstheden om at se sammenhængen mellem vrede og skam. Dette er fundamentet for varig følelsesmæssig frihed."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Forståelse af løkken • {{step}}/{{total}}",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

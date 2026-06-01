@@ -1,0 +1,145 @@
+{
+  "app_title": "Dự đoán vs Thực tế",
+  "step_label": "Bước {{current}} của 8",
+  "intro": {
+    "title": "Dự đoán vs Thực tế",
+    "description": "So sánh những dự đoán lo lắng của bạn với những gì thực sự xảy ra để xây dựng một quan điểm cân bằng hơn.",
+    "benefits": [
+      "Xác định các mô hình lo lắng",
+      "Thu thập bằng chứng chống lại nỗi sợ hãi",
+      "Giảm suy nghĩ quá nhiều trong tương lai"
+    ],
+    "duration": "4-5 phút",
+    "view_past": "Xem phản ánh trong quá khứ"
+  },
+  "history": {
+    "title": "Suy ngẫm trong quá khứ",
+    "no_reflections": "Chưa có phản xạ nào được lưu.",
+    "prediction_label": "Dự đoán",
+    "reality_label": "Thực tế",
+    "reflection_label": "Suy ngẫm:"
+  },
+  "complete": {
+    "title": "Hoàn thành hoạt động",
+    "saved_title": "Phản xạ đã lưu",
+    "message": "Bằng cách nhìn vào sự thật, bạn đang giúp tâm trí của bạn học được rằng mọi thứ thường dễ quản lý hơn vẻ ngoài của chúng."
+  },
+  "emotions": [
+    "Lo lắng",
+    "Lo lắng",
+    "Sợ hãi",
+    "Choáng ngợp",
+    "Khó chịu"
+  ],
+  "intensity_labels": {
+    "not_intense": "Không dữ dội",
+    "very_intense": "Rất dữ dội"
+  },
+  "comparison_options": [
+    "Hóa ra gần như chính xác như tôi mong đợi",
+    "Một số phần đúng, nhưng không phải tất cả mọi thứ",
+    "Nó hoàn toàn khác với những gì tôi mong đợi",
+    "Nó dễ dàng / tốt hơn nhiều so với tôi tưởng tượng"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Hãy nghĩ về một tình huống gần đây",
+      "desc": "Hãy nhớ lại một khoảnh khắc gần đây mà bạn cảm thấy lo lắng hoặc không chắc chắn.",
+      "placeholder": "Mô tả tình huống..."
+    },
+    "s2": {
+      "title": "Bạn nghĩ điều gì sẽ xảy ra?",
+      "desc": "Bạn đã mong đợi hoặc sợ hãi điều gì trong khoảnh khắc đó?",
+      "placeholder": "Tôi đã lo lắng rằng..."
+    },
+    "s3": {
+      "title": "Bạn cảm thấy thế nào?",
+      "desc": "Chọn những cảm xúc bạn cảm thấy và cường độ của chúng."
+    },
+    "s4": {
+      "title": "Điều gì đã thực sự xảy ra?",
+      "desc": "Tập trung vào sự thật về những gì đã thực sự xảy ra.",
+      "placeholder": "Trên thực tế..."
+    },
+    "s5": {
+      "title": "Hãy xem xét cả hai",
+      "expectation": "Kỳ vọng",
+      "reality": "Thực tế",
+      "question": "Kỳ vọng của bạn gần như thế nào?"
+    },
+    "s6": {
+      "title": "Bạn nhận thấy điều gì?",
+      "desc": "Nó có tệ như bạn nghĩ không?",
+      "placeholder": "Tôi nhận thấy rằng..."
+    },
+    "s7": {
+      "title": "Lần sau",
+      "desc": "Bạn có thể nhắc nhở bản thân điều gì nếu điều này xảy ra một lần nữa?",
+      "placeholder": "ví dụ: \"Có lẽ nó sẽ không tệ như tôi tưởng tượng.\""
+    },
+    "s8": {
+      "title": "Một lời nhắc nhở nhỏ",
+      "desc": "Tâm trí của bạn cố gắng chuẩn bị cho bạn - nhưng không phải lúc nào nó cũng dự đoán chính xác. Mỗi khi bạn dừng lại để nhìn vào sự thật, bạn xây dựng khả năng phục hồi.",
+      "button": "Lưu phản xạ",
+      "discard": "Loại bỏ mục nhập"
+    }
+  },
+  "buttons": {
+    "continue": "Tiếp tục"
+  },
+  "toasts": {
+    "saved": "Phản chiếu đã được lưu!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Dự đoán so với thực tế",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

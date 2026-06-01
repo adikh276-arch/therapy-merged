@@ -1,0 +1,81 @@
+{
+  "app_title": "Waarom het brein vastloopt",
+  "app_subtitle": "De logica van overleven • {{step}}/{{total}}",
+  "s1": {
+    "title": "Je brein is niet kapot. Het paste zich aan.",
+    "description": "Na trauma herbedraad je brein zichzelf om je veilig te houden. Het leerde dat de wereld gevaarlijk kon zijn, dus bleef het klaar. Dat is geen fout. Dat is overleven.",
+    "quote": "\"PTSS is geen teken dat er iets mis is met jou. Het is een teken dat er iets met je is gebeurd.\"",
+    "button": "Vertel me meer"
+  },
+  "s2": {
+    "tag": "Zachte waarheden",
+    "title": "Hersenoverlevingslogica",
+    "truths": [
+      {
+        "header": "Het alarm bleef aan",
+        "body": "Hyperwaakzaamheid en snel schrikken zijn geen overreacties — het alarmsysteem van je hersenen doet zijn werk te goed."
+      },
+      {
+        "header": "Flashbacks zijn herinneringen",
+        "body": "Triggers trekken je brein terug omdat het nooit het signaal kreeg dat de dreiging voorbij was. Het probeert je te beschermen."
+      },
+      {
+        "header": "Vechtend voor jou",
+        "body": "Elk symptoom was ooit een overlevingsdaad. Je brein deed wat het moest doen om je in leven te houden."
+      }
+    ],
+    "healing": "Genezen gaat niet over vergeten. Het gaat erom je brein te helpen leren dat je nu veilig bent."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "De logica van overleven • {{stap}}/{{totaal}}",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

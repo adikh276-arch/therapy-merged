@@ -1,0 +1,146 @@
+{
+  "app_title": "Muistilaatikko",
+  "screen_titles": [
+    "Sinun laatikkosi",
+    "Kunnioittaminen",
+    "Ilmaiseminen",
+    "Säilytetty",
+    "Hellävarainen hoito"
+  ],
+  "complete_title": "Muisto säilynyt",
+  "complete_message": "Olet turvallisesti laittanut muiston [[0]:sta laatikkoosi. Nämä yhteyden hetket ovat aina sinun säilytettävissäsi.",
+  "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
+  "save_success": "Muisti säilynyt",
+  "save_error": "Muistin säilyttäminen epäonnistui",
+  "preserving": "Säilyttäen...",
+  "preserve_memory": "Säilytä muisti",
+  "welcome": {
+    "title": "Muistilaatikkosi",
+    "subtitle1": "Hiljainen tila muistaa jotakuta, jota rakastaa. 🤍",
+    "subtitle2": "Hengitä hitaasti sisään...",
+    "subtitle3": "… ja hengitä lempeästi ulos.",
+    "subtitle4": "Tähän ei ole oikeaa tai väärää tapaa.",
+    "subtitle5": "Mene omaan tahtiisi. 🌿",
+    "begin": "Aloita ✨",
+    "later": "Ehkä myöhemmin"
+  },
+  "who": {
+    "placeholder_name": "Kirjoita heidän nimensä...",
+    "placeholder_relation": "Mistä tunnet heidät? (valinnainen)",
+    "categories": [
+      {
+        "label": "Onnellinen hetki",
+        "emoji": "😊"
+      },
+      {
+        "label": "Jotain, mitä he ennen sanoivat",
+        "emoji": "💬"
+      },
+      {
+        "label": "Pieni arjen muisto",
+        "emoji": "☕"
+      },
+      {
+        "label": "Paikka, joka muistuttaa sinua heistä",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Jotain, mitä toivoisin voivani sanoa",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Jatka →"
+  },
+  "expression": {
+    "title": "Muistosi ilmaiseminen",
+    "memory_label": "Itse muisto",
+    "memory_placeholder": "Kirjoita hetkestä, tunteesta tai yksityiskohdasta, jonka haluat säilyttää...",
+    "message_label": "Viesti heille (valinnainen)",
+    "message_placeholder": "Mitä sanoisit, jos voisit puhua heidän kanssaan juuri nyt?",
+    "save": "Säilytä muisti",
+    "skip": "Hyppää toistaiseksi",
+    "back": "Takaisin"
+  },
+  "box": {
+    "title": "Turvallisesti piilossa",
+    "subtitle": "Tämä muisto {{name}}:sta on nyt osa kokoelmaasi.",
+    "add_another": "Lisää toinen muisto",
+    "finish": "Viimeistelyn heijastus"
+  },
+  "closing": {
+    "title": "Huolehtiminen",
+    "subtitle": "Suljen laatikkosi toistaiseksi. Voit palata tänne milloin tahansa, kun haluat tuntea olevasi lähellä näitä muistoja.",
+    "exit": "Sulje laatikko"
+  },
+  "history": {
+    "title": "Laatikon sisältö",
+    "no_memories": "Laatikkosi on tyhjä. Lisää ensimmäinen muistosi aloittaaksesi kokoelmasi.",
+    "search_placeholder": "Etsi muistoja..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Muistilaatikko",
+  "before_you_go": "Ennen lähtöäsi",
+  "grief_comes_in_waves": "Suru tulee aaltoina. 🌊",
+  "what_you_re_feeling_matters": "Sillä, mitä tunnet, on merkitystä. 🤍",
+  "be_gentle_with_yourself_today": "Ole tänään itsellesi armollinen. 🌿",
+  "save_exit": "Tallenna ja poistu 🕊️",
+  "take_your_time": "Käytä aikasi 🕯️",
+  "save_to_memory_box": "Tallenna muistilaatikkoon 📦",
+  "write_as_much_or_as_little_as_you_want": "Kirjoita niin paljon tai vähän kuin haluat… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Jos on jotain, mitä haluat sanoa…",
+  "past_entries": "Aiemmat merkinnät",
+  "no_memories_saved_yet": "Ei vielä tallennettuja muistoja.",
+  "this_memory_is_held_here_for_you": "Tämä muisto on täällä, sinua varten. 🌿",
+  "add_another_memory": "Lisää toinen muisto ✨",
+  "finish_for_now": "Lopeta nyt",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

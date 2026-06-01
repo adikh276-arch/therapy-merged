@@ -1,0 +1,145 @@
+{
+  "app_title": "Tahmin ve Gerçeklik",
+  "step_label": "8'den {{current}} adım",
+  "intro": {
+    "title": "Tahmin ve Gerçeklik",
+    "description": "Endişeli tahminlerinizi gerçekten olanlarla karşılaştırarak daha dengeli bir bakış açısı oluşturun.",
+    "benefits": [
+      "Kaygılı kalıpları belirleyin",
+      "Korkulara karşı kanıt toplama",
+      "Gelecekteki aşırı düşünmeyi azaltın"
+    ],
+    "duration": "4-5 dakika",
+    "view_past": "Geçmiş Yansımaları Gör"
+  },
+  "history": {
+    "title": "Geçmiş Yansımalar",
+    "no_reflections": "Henüz bir yansıma kaydedilmiyor.",
+    "prediction_label": "Tahmin",
+    "reality_label": "Gerçeklik",
+    "reflection_label": "Düşünce:"
+  },
+  "complete": {
+    "title": "Etkinlik Tamamlandı",
+    "saved_title": "Yansıma Kaydedildi",
+    "message": "Gerçeklere bakarak, zihninize şeylerin göründüğünden daha yönetilebilir olduğunu öğretmesine yardımcı oluyorsunuz."
+  },
+  "emotions": [
+    "Endişeli",
+    "Gergin",
+    "Korkmuş",
+    "Bunalmış",
+    "Huzursuz"
+  ],
+  "intensity_labels": {
+    "not_intense": "Yoğun değil",
+    "very_intense": "Çok yoğun"
+  },
+  "comparison_options": [
+    "Neredeyse beklediğim gibi oldu",
+    "Bazı kısımlar doğruydu ama her şey değil",
+    "Beklediğimden oldukça farklıydı",
+    "Hayal ettiğimden çok daha kolay/daha iyiydi"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Son zamanlarda bir durumu düşünün",
+      "desc": "Yakın zamanda kaygılı ya da emin olmayan bir anı hatırlayın.",
+      "placeholder": "Durumu anlat..."
+    },
+    "s2": {
+      "title": "Ne olacağını düşünüyordunuz?",
+      "desc": "O anda ne bekliyordun ya da neyden korkuyordun?",
+      "placeholder": "Endişeleniyordum ki..."
+    },
+    "s3": {
+      "title": "Nasıl hissettin?",
+      "desc": "Hissettiğin duyguları ve yoğunluğunu seç."
+    },
+    "s4": {
+      "title": "Aslında ne oldu?",
+      "desc": "Gerçekten olanların gerçeklerine odaklanın.",
+      "placeholder": "Gerçekte..."
+    },
+    "s5": {
+      "title": "İkisine de bakalım",
+      "expectation": "Beklenti",
+      "reality": "Gerçeklik",
+      "question": "Beklentiniz ne kadar yakındı?"
+    },
+    "s6": {
+      "title": "Ne fark ediyorsun?",
+      "desc": "Düşündüğünüz kadar kötü müydü?",
+      "placeholder": "Fark ettim ki..."
+    },
+    "s7": {
+      "title": "Bir dahaki sefere",
+      "desc": "Bu tekrar olursa kendine neyi hatırlatabilirsin?",
+      "placeholder": "örneğin, \"Belki hayal ettiğim kadar kötü olmayacaktır.\""
+    },
+    "s8": {
+      "title": "Küçük bir hatırlatma",
+      "desc": "Zihnin seni hazırlamaya çalışır—ama her zaman doğru tahmin etmez. Her gerçeklere bakmak için durduğunuzda, dayanıklılık geliştirirsiniz.",
+      "button": "Yansıtmayı Kaydet",
+      "discard": "Atma Girişi"
+    }
+  },
+  "buttons": {
+    "continue": "Devam et"
+  },
+  "toasts": {
+    "saved": "Yansıma kaydedildi!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Tahmin ve Gerçeklik",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

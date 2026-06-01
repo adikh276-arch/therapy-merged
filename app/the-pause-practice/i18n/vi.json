@@ -1,0 +1,125 @@
+{
+  "app_title": "Tạm dừng thực hành",
+  "app_subtitle": "Làm chủ không gian giữa",
+  "intro": {
+    "title": "Tạm dừng 5 giây",
+    "description": "Một khoảng dừng nhỏ giữa cảm giác và phản ứng có thể thay đổi mọi thứ.",
+    "duration": "Mất chưa đầy 15 giây. Thật sự.",
+    "button": "Dùng thử →"
+  },
+  "scenario": {
+    "title": "Điều gì kích hoạt bạn?",
+    "desc": "Chọn một tình huống bạn liên quan",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Ai đó ngắt lời tôi",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Mọi thứ không diễn ra như kế hoạch",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Tôi cảm thấy bị phớt lờ",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Tôi cảm thấy choáng ngợp",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Gõ của riêng bạn...",
+    "button": "Thực hành tạm dừng →"
+  },
+  "hold": {
+    "title": "Giữ để tạm ⏸️ dừng",
+    "instructions": "Giữ vòng tròn trong 5 giây",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Nhấn và giữ..."
+      },
+      {
+        "at": "0.15",
+        "text": "Ở lại với nó..."
+      },
+      {
+        "at": "0.5",
+        "text": "Bạn đang làm điều đó..."
+      },
+      {
+        "at": "0.8",
+        "text": "Gần đến đó..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Đó là tạm dừng",
+    "message": "Bạn chỉ tạo ra khoảng trống giữa những gì bạn cảm thấy và cách bạn phản ứng. Ngay cả một khoảng dừng nhỏ cũng giúp bạn lấy lại trung tâm của mình.",
+    "tip_label": "Mẹo chuyên nghiệp",
+    "scenario_messages": {
+      "interrupts": "Lần tới khi ai đó ngắt lời bạn, hãy thử điều này trước khi trả lời.",
+      "plans": "Lần tới khi mọi thứ không diễn ra như kế hoạch, hãy thử điều này trước khi phản ứng.",
+      "ignored": "Lần tới khi bạn cảm thấy bị phớt lờ, hãy thử điều này trước khi trả lời.",
+      "overwhelmed": "Lần tới khi bạn cảm thấy quá tải, hãy thử điều này trước khi làm bất cứ điều gì.",
+      "other": "Lần tới khi bạn cảm thấy bị kích hoạt, hãy thử điều này trước khi phản ứng."
+    },
+    "italic": "Nó sẽ không phải lúc nào cũng cảm thấy dễ dàng — nhưng tính nhất quán là chìa khóa."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Nắm vững khoảng không gian giữa",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

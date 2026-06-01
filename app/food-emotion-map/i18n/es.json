@@ -1,0 +1,139 @@
+{
+  "app_title": "Mapa de Comida y Emociones",
+  "screen_titles": [
+    "Bienvenido",
+    "Patrones alimentarios",
+    "Diálogo interno",
+    "Detección física",
+    "El mapa",
+    "Apoyo Suave",
+    "Final Look",
+    "Reflejando"
+  ],
+  "welcome_text": "Oye... Me alegro mucho de que estés aquí 💛. Vamos a mapear suavemente lo que ha estado pasando.",
+  "coming_up_label": "¿Qué pasa últimamente?",
+  "begin_mapping": "Comienza el mapeo",
+  "food_patterns_q": "Hmm... Te entiendo. Cuando sientes {{emotion}}... ¿Cómo suele aparecer la comida?",
+  "continue_button": "Continúa",
+  "internal_dialogue_q": "En esos momentos... ¿Qué tipo de pensamientos surgen?",
+  "write_placeholder": "Escribe lo que se te ocurra...",
+  "physical_sensing_q": "Si te detienes un segundo... ¿Qué notas en tu cuerpo?",
+  "the_pattern_label": "El patrón",
+  "pattern_desc_1": "Cuando sientes {{emotion}}, tu cuerpo siente {{sensation}}...",
+  "pattern_desc_2": "… y la comida se convierte en una forma de {{response}}, mientras que aparecen pensamientos como \"{{thought}}\".",
+  "pattern_footer": "\"La conciencia de patrones es libertad\"",
+  "support_q": "En esos momentos... ¿Qué podría ayudarte—aunque sea un poco?",
+  "understanding_text": "Te estás entendiendo un poco mejor. Eso es más que suficiente 💛",
+  "how_feeling_now": "¿Cómo te sientes ahora?",
+  "preserve_button": "Mapa de la Reserva",
+  "preserving": "Preservando...",
+  "complete_title": "Mapa preservado",
+  "complete_message": "Has conseguido mapear la conexión entre tus sentimientos y la comida. Esta conciencia es una herramienta poderosa para un cambio suave.",
+  "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
+  "save_success": "Patrón preservado",
+  "save_error": "No se preservó el patrón",
+  "emotions_list": [
+    "😰 Estrés",
+    "😢 Tristeza",
+    "😶 Aburrimiento",
+    "😟 Ansiedad",
+    "🥺 Soledad",
+    "💭 Algo más..."
+  ],
+  "food_responses": [
+    "🍽️ Como más",
+    "🚫 Como menos",
+    "🍫 Tengo antojo de ciertos alimentos",
+    "😣 Evito la comida",
+    "😐 No hubo cambios reales"
+  ],
+  "body_sensations": [
+    "💔 Pecho apretado",
+    "🪨 Sensación pesada",
+    "🦵 Inquieto / inquieto",
+    "🔋 Baja energía",
+    "🌀 Nudos en el estómago",
+    "❓ Algo más..."
+  ],
+  "support_options": [
+    "🗣️ Habla con alguien",
+    "☕ Tómate un descanso",
+    "📝 Revista",
+    "🌬️ Respira",
+    "🎧 Distraerme"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Contacta 💛",
+      "body": "A veces compartir alivia un poco las cosas. Quizá un simple 'oye, ¿podemos hablar?'"
+    },
+    "☕ Take a break": {
+      "title": "Pausa 💛",
+      "body": "Una pequeña pausa puede ayudar a reiniciar las cosas. Quizá aléjate y respira despacio unas cuantas veces."
+    },
+    "📝 Journal": {
+      "title": "Escríbelo 💛",
+      "body": "Podrías empezar con 'ahora mismo siento...' Y simplemente dejarlo fluir."
+    },
+    "🌬️ Breathe": {
+      "title": "Respira 💛",
+      "body": "Inhala 4... Mantén 2... exhala 6... Vamos a ralentizarlo juntos."
+    },
+    "🎧 Distract myself": {
+      "title": "Cambio 💛 suave",
+      "body": "Una distracción suave puede cambiar el momento... Quizá algo ligero o sencillo."
+    }
+  },
+  "common": {
+    "get_started": "Comenzar",
+    "start_over": "Volver a empezar",
+    "finish_exit": "Finalizar y salir",
+    "well_done": "¡Bien hecho!",
+    "completion_message": "Has completado esta actividad con éxito. Tómate un momento para apreciar tu progreso.",
+    "time_to_complete": "Tiempo para completar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "share": "Compartir",
+    "share_progress": "Compartir el progreso",
+    "inspire_others": "Inspira a otros hoy",
+    "share_text": "He realizado esta actividad {{activityName}} en TherapyMantra y me ha gustado mucho. Tú también puedes hacerlo; solo tienes que seguir el enlace a la aplicación para Android {{androidUrl}} o a la aplicación para iOS {{iosUrl}}.",
+    "this_activity": "esta actividad",
+    "copied": "¡Copiado!",
+    "copy_message": "Copiar mensaje",
+    "yes": "Sí",
+    "no": "No",
+    "date": "Fecha",
+    "continue": "Continuar",
+    "step_of": "Paso {{current}} de {{total}}",
+    "round_of": "Ronda {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondas",
+    "instruction_ready": "Configura tus rondas y toca play para comenzar",
+    "instruction_running": "Sigue el círculo para regular tu respiración"
+  },
+  "app_description": "Mapa de alimentación y emociones",
+  "more": "Más",
+  "breadcrumb": "migaja de pan",
+  "previous_slide": "Diapositiva anterior",
+  "next_slide": "Siguiente diapositiva",
+  "close": "Cerca",
+  "previous": "Anterior",
+  "more_pages": "Más páginas",
+  "pagination": "paginación",
+  "go_to_previous_page": "Ir a la página anterior",
+  "go_to_next_page": "Ir a la página siguiente",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "¡Ups! Página no encontrada",
+  "return_to_home": "Regresar a la página principal",
+  "phase_label": "Fase",
+  "instruction_ready": "Configura tus rondas y toca play para comenzar",
+  "instruction_running": "Sigue el círculo para regular tu respiración",
+  "round_x_of_y": "Ronda {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rondas",
+  "yes": "Sí",
+  "no": "No",
+  "date": "Fecha",
+  "continue": "Continuar"
+}

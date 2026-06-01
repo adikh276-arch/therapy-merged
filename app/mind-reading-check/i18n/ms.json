@@ -1,0 +1,144 @@
+{
+  "app_title": "Semakan Membaca Minda",
+  "intro": {
+    "title": "Semakan Membaca Minda",
+    "description": "Persoalkan andaian yang anda buat tentang apa yang orang lain fikirkan.",
+    "benefits": [
+      "Berhenti menganggap yang paling teruk",
+      "Kenal pasti tafsiran berat sebelah",
+      "Bina komunikasi yang lebih jelas"
+    ],
+    "duration": "3-4 minit",
+    "view_past": "Lihat Refleksi Masa Lalu"
+  },
+  "history": {
+    "title": "Refleksi Masa Lalu",
+    "no_entries": "Tiada penyertaan lagi",
+    "belief_label": "Kepercayaan: {{level}}%",
+    "balanced_thought_label": "Pemikiran Seimbang"
+  },
+  "complete": {
+    "title": "Aktiviti Selesai",
+    "great_insights": "Pandangan yang hebat!",
+    "message": "Dengan mempersoalkan andaian anda, anda membina minda yang lebih objektif dan belas kasihan."
+  },
+  "steps": {
+    "label": "Langkah {{current}} daripada 10",
+    "step1": {
+      "title": "Apa yang berlaku?",
+      "desc": "Terangkan detik baru-baru ini di mana anda berasa dihakimi atau tidak pasti.",
+      "placeholder": "Penerangan mengenai keadaan..."
+    },
+    "step2": {
+      "title": "Apa yang terlintas di fikiran anda?",
+      "desc": "Apa yang anda anggap mereka fikirkan tentang anda?",
+      "placeholder": "Saya menganggap mereka berfikir ..."
+    },
+    "step3": {
+      "title": "Mari kita perlahankan ini",
+      "desc": "Pada masa ini, pemikiran ini boleh terasa benar. Tetapi sebelum menerimanya sebagai fakta, mari kita mundur selangkah dan melihatnya dengan lebih dekat.",
+      "button": "Jeda & Teruskan"
+    },
+    "step4": {
+      "title": "Adakah ini benar?",
+      "desc": "Adakah terdapat sebarang bukti yang jelas (fakta, bukan andaian) yang menyokong pemikiran ini?",
+      "placeholder": "Bukti yang saya lihat ialah..."
+    },
+    "step5": {
+      "title": "Apa lagi yang boleh berlaku?",
+      "desc": "Apakah 2–3 penjelasan lain yang mungkin?",
+      "placeholder": "Kemungkinan {{num}}..."
+    },
+    "step6": {
+      "title": "Semak kepercayaan anda",
+      "desc": "Sejauh manakah anda mempercayai pemikiran asal anda sekarang?",
+      "labels": [
+        "Langsung tidak",
+        "Sepenuhnya"
+      ]
+    },
+    "step7": {
+      "title": "Pandangan yang lebih seimbang",
+      "desc": "Tulis pemikiran yang terasa lebih adil dan kurang pasti.",
+      "placeholder": "Pemikiran yang lebih seimbang..."
+    },
+    "step8": {
+      "title": "Lain kali",
+      "desc": "Apa yang boleh anda lakukan dan bukannya mengandaikan?",
+      "examples": [
+        "Minta penjelasan",
+        "Beri sedikit masa",
+        "Notis tanpa bertindak balas"
+      ],
+      "placeholder": "Lain kali, saya boleh..."
+    },
+    "step9": {
+      "title": "Perhatikan peralihan",
+      "desc": "Anda meneroka kemungkinan yang berbeza dan mencipta ruang untuk pandangan yang lebih seimbang.",
+      "original_label": "Pemikiran Asal",
+      "balanced_label": "Perspektif Seimbang",
+      "button": "Selesaikan Refleksi"
+    },
+    "step10": {
+      "title": "Peralihan kecil",
+      "desc": "Fikiran anda cuba mengisi jurang. Tetapi tidak setiap pemikiran adalah fakta. Mengambil langkah ke belakang membantu anda melihat sesuatu dengan jelas.",
+      "button": "Lengkapkan Aktiviti"
+    }
+  },
+  "buttons": {
+    "continue": "Teruskan",
+    "restart": "Mulakan semula"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Pemeriksaan Membaca Minda",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

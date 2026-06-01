@@ -1,0 +1,217 @@
+{
+  "app_title": "What Do I Need?",
+  "app_subtitle": "Check in with yourself",
+  "screens": {
+    "s1": {
+      "title": "What Do I Need Right Now?",
+      "description": "A moment to pause and listen to what your heart is asking for.",
+      "button": "Start Check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "What feels important?",
+        "placeholder": "Something else...",
+        "add_button": "Add",
+        "button": "Continue"
+      },
+      "prioritize": {
+        "title": "Which one is primary?"
+      },
+      "focus": {
+        "tag": "Your focus right now",
+        "button": "Continue"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Continue"
+      },
+      "action": {
+        "title": "A small step forward?",
+        "placeholder": "Or write your own...",
+        "button": "Review Reflection"
+      },
+      "closing": {
+        "tag_need": "Primary Need",
+        "tag_insight": "Your Insight",
+        "tag_action": "Small Action",
+        "save_button": "Save & Finish",
+        "finish_button": "Finish without saving"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emotional support",
+      "prompt": "What kind of support would actually help you right now?",
+      "hints": [
+        "I just need someone to...",
+        "It would help if...",
+        "What I really want is..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Space / time for myself",
+      "prompt": "What would having that space look like for you?",
+      "hints": [
+        "I'd use that time to...",
+        "Space would let me...",
+        "I need room to..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Clear communication",
+      "prompt": "What would clearer communication look like for you?",
+      "hints": [
+        "I wish I could say...",
+        "If they really listened, I'd tell them...",
+        "Communication feels hard when..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Reassurance",
+      "prompt": "What kind of reassurance would feel meaningful?",
+      "hints": [
+        "I need to hear that...",
+        "It would calm me to know...",
+        "I keep worrying that..."
+      ]
+    },
+    "Understanding": {
+      "label": "Understanding",
+      "prompt": "What would feeling truly understood look like?",
+      "hints": [
+        "I wish people knew that...",
+        "What I'm really feeling is...",
+        "Nobody sees that I..."
+      ]
+    },
+    "Stability": {
+      "label": "Stability",
+      "prompt": "What would stability feel like in your life right now?",
+      "hints": [
+        "I need things to feel...",
+        "What would ground me is...",
+        "Stability means..."
+      ]
+    },
+    "Honesty": {
+      "label": "Honesty",
+      "prompt": "What would more honesty look like in your situation?",
+      "hints": [
+        "The truth I need to face is...",
+        "I want to be honest about...",
+        "What's really going on is..."
+      ]
+    },
+    "Respect": {
+      "label": "Respect",
+      "prompt": "What does respect look like for you right now?",
+      "hints": [
+        "I deserve to be treated...",
+        "Respect would look like...",
+        "I need people to..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Clarity about relationship",
+      "prompt": "What kind of clarity would help you most?",
+      "hints": [
+        "I need to know if...",
+        "What confuses me is...",
+        "I want us to be clear about..."
+      ]
+    },
+    "default": {
+      "prompt": "What would this look like in a real situation?",
+      "hints": [
+        "What comes to mind is...",
+        "Right now I feel...",
+        "If I'm honest with myself..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Say something honestly"
+    },
+    {
+      "label": "Take time for myself"
+    },
+    {
+      "label": "Reach out to someone"
+    },
+    {
+      "label": "Set a small boundary"
+    },
+    {
+      "label": "Not sure yet"
+    }
+  ],
+  "history": {
+    "title": "Past Reflections",
+    "empty": "No reflections yet."
+  },
+  "toasts": {
+    "save_success": "Reflection saved",
+    "save_error": "Failed to save reflection",
+    "auth_error": "Auth session missing or DB not configured"
+  },
+  "complete": {
+    "title": "Check-in Complete",
+    "message": "You've identified that you need \"{{need}}\". Honoring your needs is a vital form of self-care."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Check in with yourself",
+  "past_reflections": "Past reflections",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

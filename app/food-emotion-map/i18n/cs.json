@@ -1,0 +1,139 @@
+{
+  "app_title": "Mapa jídla a emocí",
+  "screen_titles": [
+    "Vítejte",
+    "Stravovací vzorce",
+    "Vnitřní dialog",
+    "Fyzikální snímání",
+    "Mapa",
+    "Jemná podpora",
+    "Finální pohled",
+    "Reflexe"
+  ],
+  "welcome_text": "Hej... Jsem opravdu rád, že jsi tady 💛. Pojďme si jemně zmapovat, co se dělo.",
+  "coming_up_label": "Co se v poslední době chystá?",
+  "begin_mapping": "Začněte mapování",
+  "food_patterns_q": "Hmm... Rozumím ti. Když cítíš {{emotion}}... Jak se jídlo obvykle objevuje?",
+  "continue_button": "Pokračovat",
+  "internal_dialogue_q": "V těch chvílích... Jaké myšlenky se objevují?",
+  "write_placeholder": "Piš, co tě napadne...",
+  "physical_sensing_q": "Když se na chvíli zastavíš... Co si všímáte ve svém těle?",
+  "the_pattern_label": "Vzorec",
+  "pattern_desc_1": "Když cítíš {{emotion}}, tvé tělo cítí {{sensation}}...",
+  "pattern_desc_2": "… a jídlo se stává cestou k {{response}}, zatímco se objevují myšlenky jako \"{{thought}}\".",
+  "pattern_footer": "\"Uvědomění si vzorců je svoboda\"",
+  "support_q": "V těch chvílích... Co by vám mohlo alespoň trochu pomoci?",
+  "understanding_text": "Trochu se chápeš sám sebe. To je víc než dost 💛",
+  "how_feeling_now": "Jak se teď cítíš?",
+  "preserve_button": "Mapa rezervace",
+  "preserving": "Uchování...",
+  "complete_title": "Mapa zachována",
+  "complete_message": "Úspěšně jste zmapovali spojení mezi svými pocity a jídlem. Toto uvědomění je mocným nástrojem pro jemnou změnu.",
+  "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
+  "save_success": "Vzor zachován",
+  "save_error": "Nepodařilo se zachovat vzor",
+  "emotions_list": [
+    "😰 Stres",
+    "😢 Smutek",
+    "😶 Nuda",
+    "😟 Úzkost",
+    "🥺 Samota",
+    "💭 Něco jiného..."
+  ],
+  "food_responses": [
+    "🍽️ Jím víc",
+    "🚫 Jím méně",
+    "🍫 Mám chuť na konkrétní jídla",
+    "😣 Vyhýbám se jídlu",
+    "😐 Žádná skutečná změna"
+  ],
+  "body_sensations": [
+    "💔 Sevřený hrudník",
+    "🪨 Těžký pocit",
+    "🦵 Neklidný / neklidný",
+    "🔋 Nízká energie",
+    "🌀 Uzly v žaludku",
+    "❓ Něco jiného..."
+  ],
+  "support_options": [
+    "🗣️ Promluv si s někým",
+    "☕ Dej si pauzu",
+    "📝 Časopis",
+    "🌬️ Dýchej",
+    "🎧 Rozptýlit se"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Ozvěte se 💛",
+      "body": "Někdy sdílení trochu odlehčí situaci. Možná jednoduché 'hej, můžeme si promluvit?'"
+    },
+    "☕ Take a break": {
+      "title": "Pauza 💛",
+      "body": "Malá pauza může pomoci věci znovu nastavit. Možná se odtáhnout a párkrát pomalu dýchat."
+    },
+    "📝 Journal": {
+      "title": "Napiš to 💛",
+      "body": "Můžete začít s 'právě teď mám pocit...' A prostě to nechat plynout."
+    },
+    "🌬️ Breathe": {
+      "title": "Dýchej 💛",
+      "body": "Nadechněte se 4... drž 2... VÝDECH 6... Zpomalme spolu."
+    },
+    "🎧 Distract myself": {
+      "title": "Jemný přesun 💛",
+      "body": "Jemné rozptýlení může změnit okamžik... Možná něco lehkého nebo jednoduchého."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Mapa jídla a emocí",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

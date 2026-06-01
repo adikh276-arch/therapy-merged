@@ -1,0 +1,102 @@
+{
+  "app_title": "Neodeslaný dopis",
+  "app_subtitle": "Uvolněte své myšlenky bezpečně a soukromě",
+  "intro": {
+    "title": "Neodeslaný dopis",
+    "description": [
+      "Někdy jsou věci, které bychom si přáli říct — ale nikdy jsme neměli příležitost.",
+      "Možná to bylo proto, že to nepůsobilo bezpečně, načasování nebylo správné, nebo slova byla příliš těžká na vyjádření nahlas.",
+      "Tato aktivita vám dává soukromý prostor, kde můžete tyto myšlenky vyjádřit slovy.",
+      "Nemusíš ten dopis posílat. Je to jen pro vás — abyste mohli vyjádřit, uvolnit a lépe pochopit své pocity."
+    ],
+    "notice": "Pište svobodně. Nikdo jiný to neuvidí.",
+    "button": "Začněte psát →"
+  },
+  "writing": {
+    "title": "Piš, co jsi držel v sobě",
+    "desc": "Můžete psát svému partnerovi, bývalému partnerovi nebo dokonce samotnému vztahu. Neexistuje správný nebo špatný způsob, jak to udělat.",
+    "prompts": [
+      "Cítím se...",
+      "Přál bych si...",
+      "Nikdy jsem neřekl...",
+      "Co mě bolelo...",
+      "Co jsem potřeboval..."
+    ],
+    "placeholder": "Drahý ____,\nChtěl jsem říct...",
+    "notice": "Můžete kdykoli pauzovat a vrátit se.",
+    "button": "Pokračujte →"
+  },
+  "reflection": {
+    "title": "Na chvíli se zastavte",
+    "description": [
+      "Právě jste své myšlenky a pocity vyjádřili slovy — to vyžaduje odvahu.",
+      "Možná si teď všimnete směsi emocí, a to je naprosto v pořádku.",
+      "Než půjdete dál, zhluboka se nadechněte a jemně se zkontrolujte sami sebou."
+    ],
+    "notice": "Bylo to pro tvé uzdravení, ne pro posílání.",
+    "save_button": "Uložit dopis",
+    "finish_button": "Konec"
+  },
+  "history": {
+    "title": "Minulé dopisy",
+    "empty_title": "Ještě jsi nenapsala žádné dopisy.",
+    "empty_desc": "Vaše dopisy se zde objeví poté, co je uložíte."
+  },
+  "toasts": {
+    "save_success": "Dopis uložený ve vašem soukromém deníku",
+    "save_error": "Nepodařilo se uložit dopis",
+    "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Uvolněte své myšlenky bezpečně a v soukromí",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

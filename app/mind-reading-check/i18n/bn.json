@@ -1,0 +1,144 @@
+{
+  "app_title": "মাইন্ড রিডিং চেক",
+  "intro": {
+    "title": "মাইন্ড রিডিং চেক",
+    "description": "অন্যরা কী ভাবছে সে সম্পর্কে আপনি যে অনুমানগুলি করছেন তা নিয়ে প্রশ্ন করুন।",
+    "benefits": [
+      "সবচেয়ে খারাপ ধারণা করা বন্ধ করুন",
+      "পক্ষপাতদুষ্ট ব্যাখ্যাগুলি সনাক্ত করুন",
+      "পরিষ্কার যোগাযোগ তৈরি করুন"
+    ],
+    "duration": "3-4 মিনিট",
+    "view_past": "অতীতের প্রতিচ্ছবি দেখুন"
+  },
+  "history": {
+    "title": "অতীত প্রতিফলন",
+    "no_entries": "এখনও কোনও এন্ট্রি নেই",
+    "belief_label": "বিশ্বাস: {{level}}%",
+    "balanced_thought_label": "ভারসাম্যপূর্ণ চিন্তাভাবনা"
+  },
+  "complete": {
+    "title": "কার্যকলাপ সম্পূর্ণ",
+    "great_insights": "দুর্দান্ত অন্তর্দৃষ্টি!",
+    "message": "আপনার অনুমানগুলি নিয়ে প্রশ্ন করে, আপনি আরও উদ্দেশ্যমূলক এবং সহানুভূতিশীল মন তৈরি করছেন।"
+  },
+  "steps": {
+    "label": "ধাপ {{current}} এর 10",
+    "step1": {
+      "title": "কি হয়েছে?",
+      "desc": "একটি সাম্প্রতিক মুহুর্ত বর্ণনা করুন যেখানে আপনি বিচার বা অনিশ্চিত বোধ করেছিলেন।",
+      "placeholder": "পরিস্থিতির বর্ণনা..."
+    },
+    "step2": {
+      "title": "আপনার মনের ভেতর কী চলে গেছে?",
+      "desc": "আপনি কি ভেবেছিলেন যে তারা আপনার সম্পর্কে ভাবছে?",
+      "placeholder": "আমি ধরে নিয়েছিলাম তারা ভাবছে..."
+    },
+    "step3": {
+      "title": "আসুন এটাকে ধীর করে দেওয়া যাক",
+      "desc": "এই মুহূর্তে, এই চিন্তাটি সত্য মনে হতে পারে। তবে এটিকে সত্য হিসাবে গ্রহণ করার আগে, আসুন এক ধাপ পিছনে ফিরে যাই এবং এটি আরও ঘনিষ্ঠভাবে দেখি।",
+      "button": "বিরতি এবং চালিয়ে যান"
+    },
+    "step4": {
+      "title": "এটা কি সত্যি?",
+      "desc": "এমন কোন সুস্পষ্ট প্রমাণ আছে (তথ্য, অনুমান নয়) যা এই চিন্তাকে সমর্থন করে?",
+      "placeholder": "আমি যে প্রমাণ দেখছি তা হলো..."
+    },
+    "step5": {
+      "title": "আর কী হতে পারে?",
+      "desc": "2-3 টি অন্যান্য সম্ভাব্য ব্যাখ্যা কী কী?",
+      "placeholder": "সম্ভাবনা {{num}}..."
+    },
+    "step6": {
+      "title": "আপনার বিশ্বাস পরীক্ষা করুন",
+      "desc": "আপনি এখন আপনার মূল চিন্তাভাবনাকে কতটা দৃঢ়ভাবে বিশ্বাস করেন?",
+      "labels": [
+        "মোটেও না",
+        "সম্পূর্ণরূপে"
+      ]
+    },
+    "step7": {
+      "title": "আরও ভারসাম্যপূর্ণ দৃষ্টিভঙ্গি",
+      "desc": "এমন একটি চিন্তাভাবনা লিখুন যা আরও ন্যায্য এবং কম নিশ্চিত বোধ করে।",
+      "placeholder": "আরও ভারসাম্যপূর্ণ চিন্তা..."
+    },
+    "step8": {
+      "title": "পরের বার",
+      "desc": "ধরে নেওয়ার পরিবর্তে আপনি কী করতে পারেন?",
+      "examples": [
+        "ব্যাখ্যার জন্য জিজ্ঞাসা করুন",
+        "একটু সময় দিন",
+        "প্রতিক্রিয়া না দেখিয়ে নোটিশ দিন"
+      ],
+      "placeholder": "পরের বার, আমি পারি ..."
+    },
+    "step9": {
+      "title": "পরিবর্তনটি লক্ষ্য করুন",
+      "desc": "আপনি বিভিন্ন সম্ভাবনা অন্বেষণ করেছেন এবং আরও ভারসাম্যপূর্ণ দৃষ্টিভঙ্গির জন্য জায়গা তৈরি করেছেন।",
+      "original_label": "মূল চিন্তাভাবনা",
+      "balanced_label": "ভারসাম্যপূর্ণ দৃষ্টিভঙ্গি",
+      "button": "ফিনিশ রিফ্লেকশন"
+    },
+    "step10": {
+      "title": "ছোট্ট একটা শিফট",
+      "desc": "আপনার মন শূন্যস্থান পূরণ করার চেষ্টা করে। কিন্তু সব চিন্তাই সত্য নয়। এক ধাপ পিছিয়ে যাওয়া আপনাকে জিনিসগুলি পরিষ্কারভাবে দেখতে সহায়তা করে।",
+      "button": "সম্পূর্ণ কার্যকলাপ"
+    }
+  },
+  "buttons": {
+    "continue": "চালিয়ে যান",
+    "restart": "পুনরায় শুরু করুন"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "মন পড়ার পরীক্ষা",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Sejenak untuk Mengapresiasi",
+  "subtitle": "Refleksi Terbimbing Selama 5–7 Menit",
+  "nav": {
+    "history": "Sejarah",
+    "home": "Rumah"
+  },
+  "intro": {
+    "text1": "Ketika suatu hubungan terasa tegang, mudah untuk hanya fokus pada apa yang tidak berjalan dengan baik. Refleksi ini menawarkan jeda singkat — bukan untuk mengabaikan kekhawatiran, tetapi untuk memperluas perspektif secara perlahan.",
+    "text2": "Tidak ada harapan untuk merasa bersyukur. Cukup perhatikan apa yang muncul.",
+    "begin": "Mulai",
+    "viewHistory": "Lihat Riwayat"
+  },
+  "breathing": {
+    "title": "Tiba dan Beristirahat",
+    "description": "Sebelum melanjutkan, beri diri Anda jeda sejenak. Momen ini bukan tentang menyelesaikan apa pun. Ini tentang menciptakan ruang.",
+    "instruction": "Ikuti ritme pernapasan di bawah ini.",
+    "inhale": "Hirup napas… {{counter}}…",
+    "hold": "Memegang…",
+    "exhale": "Hembuskan napas… {{counter}}…",
+    "affirmation": "\"Saya bisa mengakui apa yang terasa sulit dan tetap terbuka untuk memperhatikan.\"",
+    "continue": "Melanjutkan"
+  },
+  "reflection": {
+    "step": "Langkah {{step}} dari {{total}}",
+    "prompts": {
+      "p1": "Salah satu momen kecil baru-baru ini bersama pasangan Anda yang tidak terasa tegang adalah…",
+      "p1_ex": "\"Kami sempat berbincang singkat dan tenang di malam hari.\"",
+      "p2": "Salah satu upaya yang telah dilakukan pasangan Anda — meskipun tidak sempurna — adalah…",
+      "p2_ex": "\"Mereka mencoba menjelaskan perasaan mereka alih-alih menarik diri.\"",
+      "p3": "Salah satu kualitas pada pasangan Anda yang tetap konsisten dari waktu ke waktu adalah…",
+      "p3_ex": "\"Mereka terus menunjukkan dedikasi terhadap tanggung jawab kita.\""
+    },
+    "placeholder": "Tuliskan refleksi Anda di sini…",
+    "next": "Berikutnya",
+    "finish": "Menyelesaikan"
+  },
+  "intention": {
+    "step": "Langkah 4 dari 4",
+    "title": "Bagaimana Anda ingin menyimpan refleksi ini?",
+    "options": {
+      "private": "Saya lebih memilih untuk merahasiakan refleksi ini.",
+      "share_part": "Saya mungkin memilih untuk membagikan sebagian dari ini dengan pasangan saya.",
+      "share_full": "Saya ingin membagikan refleksi ini secara lengkap.",
+      "save_later": "Saya akan menyimpan hal ini untuk percakapan selanjutnya."
+    },
+    "continue": "Melanjutkan"
+  },
+  "checkin": {
+    "title": "Setelah Anda menyelesaikan refleksi ini, pernyataan mana yang terasa paling akurat?",
+    "statements": {
+      "s1": "Saat ini aku merasa sedikit lebih terbuka terhadap pasanganku.",
+      "s2": "Saya tidak melihat banyak perubahan, tetapi saya bersedia untuk tetap waspada.",
+      "s3": "Saya merasa agak kesulitan untuk menyelesaikan ini.",
+      "s4": "Saya merasakan sedikit kehangatan saat merenung.",
+      "s5": "Saya melihat adanya penolakan, dan hal itu penting untuk diakui.",
+      "s6": "Saya merasakan pelunakan yang halus dibandingkan sebelum saya memulai."
+    },
+    "finish": "Selesaikan & Simpan"
+  },
+  "closing": {
+    "title": "Refleksi Selesai",
+    "text1": "Jeda ini tidak menghilangkan tantangan. Jeda ini hanya mengembalikan keseimbangan dalam cara pandang terhadap hubungan tersebut.",
+    "text2": "Bahkan momen-momen singkat untuk memperhatikan dapat secara bertahap melunakkan kekakuan emosional dan menciptakan ruang untuk percakapan yang lebih sehat.",
+    "save": "Simpan ke Refleksi",
+    "viewHistory": "Lihat Riwayat",
+    "exit": "KELUAR"
+  },
+  "history": {
+    "title": "Riwayat Refleksi Anda",
+    "noReflections": "Belum ada refleksi yang tersimpan. Sesi Anda yang telah selesai akan muncul di sini.",
+    "back": "Kembali ke Awal",
+    "confirmDelete": "Konfirmasi Penghapusan",
+    "cancel": "Membatalkan",
+    "delete": "Hapus entri",
+    "prompts": [
+      "Satu momen kecil yang tidak terasa tegang…",
+      "Salah satu upaya yang telah dilakukan pasangan Anda…",
+      "Salah satu kualitas yang tetap konsisten…",
+      "Maksud",
+      "Pemeriksaan Emosional"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5 menit",
+  "app_title": "Merefleksikan",
+  "intro_p1": "Pupuk rasa syukur",
+  "intro_p2": "Kurangi stres",
+  "intro_p3": "Meningkatkan kesejahteraan",
+  "app_description": "Refleksi Terbimbing Selama 5–7 Menit",
+  "how_do_you_feel_after_this_reflection": "Bagaimana perasaan Anda setelah refleksi ini?",
+  "your_past_reflections_appreciations": "Refleksi dan apresiasi Anda di masa lalu",
+  "start_new_session": "Mulai Sesi Baru",
+  "feeling": "Merasa",
+  "delete_this_entry": "Hapus entri ini?",
+  "delete_5": "Menghapus",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

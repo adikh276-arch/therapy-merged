@@ -1,0 +1,147 @@
+{
+  "title": "وقفة تقدير",
+  "subtitle": "جلسة تأمل موجهة لمدة 5-7 دقائق",
+  "nav": {
+    "history": "تاريخ",
+    "home": "بيت"
+  },
+  "intro": {
+    "text1": "عندما تشعر العلاقة بالتوتر، قد يسهل التركيز فقط على ما لا يسير على ما يرام. هذه التأملات تمنحنا وقفة قصيرة - ليس لتجاهل المخاوف، بل لتوسيع آفاقنا بلطف.",
+    "text2": "ليس من المتوقع أن تشعر بالامتنان. فقط لاحظ ما يطرأ عليك.",
+    "begin": "يبدأ",
+    "viewHistory": "عرض السجل"
+  },
+  "breathing": {
+    "title": "الوصول والاستقرار",
+    "description": "قبل المتابعة، امنح نفسك وقفة قصيرة. هذه اللحظة لا تتعلق بحل أي شيء، بل تتعلق بخلق مساحة.",
+    "instruction": "اتبع إيقاع التنفس الموضح أدناه.",
+    "inhale": "استنشق... {{counter}}…",
+    "hold": "يمسك…",
+    "exhale": "أخرج الزفير... {{counter}}…",
+    "affirmation": "\"أستطيع أن أعترف بما يبدو صعباً وأن أبقى منفتحاً على الملاحظة.\"",
+    "continue": "يكمل"
+  },
+  "reflection": {
+    "step": "الخطوة {{step}} من {{total}}",
+    "prompts": {
+      "p1": "لحظة صغيرة قضيتها مؤخراً مع شريكك ولم تشعر فيها بالتوتر كانت...",
+      "p1_ex": "\"أجرينا محادثة قصيرة وهادئة في المساء.\"",
+      "p2": "أحد الجهود التي بذلها شريكك - حتى وإن لم تكن مثالية - هي...",
+      "p2_ex": "\"لقد حاولوا شرح مشاعرهم بدلاً من الانسحاب.\"",
+      "p3": "إحدى الصفات التي حافظت عليها شريكتك مع مرور الوقت هي...",
+      "p3_ex": "\"إنهم يواصلون إظهار تفانيهم تجاه مسؤولياتنا.\""
+    },
+    "placeholder": "اكتب تأملاتك هنا…",
+    "next": "التالي",
+    "finish": "ينهي"
+  },
+  "intention": {
+    "step": "الخطوة الرابعة من أصل أربع خطوات",
+    "title": "كيف ترغب في الاحتفاظ بهذا الانعكاس؟",
+    "options": {
+      "private": "أفضّل أن أبقي هذا التأمل سراً.",
+      "share_part": "قد أختار مشاركة جزء من هذا مع شريكي.",
+      "share_full": "أود أن أشارككم هذا التأمل بشكل كامل.",
+      "save_later": "سأحتفظ بهذا الموضوع لمحادثة لاحقة."
+    },
+    "continue": "يكمل"
+  },
+  "checkin": {
+    "title": "بعد إتمامك لهذا التأمل، أي عبارة تشعر أنها الأكثر دقة؟",
+    "statements": {
+      "s1": "أشعر الآن بانفتاح أكبر قليلاً تجاه شريكي.",
+      "s2": "لا ألاحظ تغييراً كبيراً، لكنني على استعداد للبقاء على دراية.",
+      "s3": "وجدتُ أن إكمال هذا الأمر صعباً بعض الشيء.",
+      "s4": "شعرتُ بدفءٍ خفيفٍ أثناء التأمل.",
+      "s5": "لقد لاحظت مقاومة، وأعتقد أن من المهم الاعتراف بذلك.",
+      "s6": "أشعر بنعومة طفيفة مقارنة بما كنت عليه قبل أن أبدأ."
+    },
+    "finish": "أنهِ العملية واحفظها"
+  },
+  "closing": {
+    "title": "اكتمل الانعكاس",
+    "text1": "لا تمحو هذه الفترة الفاصلة التحديات، بل تعيد التوازن إلى كيفية النظر إلى العلاقة.",
+    "text2": "حتى لحظات الملاحظة القصيرة يمكن أن تخفف تدريجياً من حدة التوتر العاطفي وتخلق مساحة لمحادثات أكثر صحة.",
+    "save": "حفظ في قسم الانعكاسات",
+    "viewHistory": "عرض السجل",
+    "exit": "مخرج"
+  },
+  "history": {
+    "title": "سجل تأملاتك",
+    "noReflections": "لم يتم حفظ أي تأملات بعد. ستظهر جلساتك المكتملة هنا.",
+    "back": "العودة إلى البداية",
+    "confirmDelete": "تأكيد الحذف",
+    "cancel": "يلغي",
+    "delete": "إدخال البيانات",
+    "prompts": [
+      "لحظة قصيرة لم أشعر فيها بالتوتر...",
+      "أحد الجهود التي بذلها شريكك...",
+      "إحدى الصفات التي ظلت ثابتة...",
+      "نيّة",
+      "الاطمئنان على الحالة النفسية"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5 دقائق",
+  "app_title": "تأمل",
+  "intro_p1": "ازرع الامتنان",
+  "intro_p2": "تقليل التوتر",
+  "intro_p3": "تحسين الصحة العامة",
+  "app_description": "جلسة تأمل موجهة لمدة 5-7 دقائق",
+  "how_do_you_feel_after_this_reflection": "ما هو شعورك بعد هذا التأمل؟",
+  "your_past_reflections_appreciations": "تأملاتكم وتقديراتكم السابقة",
+  "start_new_session": "بدء جلسة جديدة",
+  "feeling": "إحساس",
+  "delete_this_entry": "هل تريد حذف هذا الإدخال؟",
+  "delete_5": "يمسح",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

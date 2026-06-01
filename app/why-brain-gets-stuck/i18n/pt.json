@@ -1,0 +1,81 @@
+{
+  "app_title": "Por que o cérebro fica preso",
+  "app_subtitle": "A lógica da sobrevivência • {{step}}/{{total}}",
+  "s1": {
+    "title": "Seu cérebro não quebrou. Ela se adaptou.",
+    "description": "Após o trauma, seu cérebro se reconfigura para te manter seguro. Aprendeu que o mundo podia ser perigoso, então ficou pronto. Isso não é um defeito. Isso é sobrevivência.",
+    "quote": "\"TEPT não é sinal de que algo está errado com você. É um sinal de que algo aconteceu com você.\"",
+    "button": "Me conte mais"
+  },
+  "s2": {
+    "tag": "verdades gentis",
+    "title": "Lógica da sobrevivência cerebral",
+    "truths": [
+      {
+        "header": "O alarme continuou ligado",
+        "body": "Hipervigilância e surpresa facilmente não são exageros — o sistema de alarme do seu cérebro está fazendo seu trabalho muito bem."
+      },
+      {
+        "header": "Flashbacks são memória",
+        "body": "Gatilhos puxam seu cérebro de volta porque ele nunca recebeu o sinal de que a ameaça havia acabado. Está tentando te proteger."
+      },
+      {
+        "header": "Lutando por você",
+        "body": "Cada sintoma já foi um ato de sobrevivência. Seu cérebro fez o que precisava para te manter vivo."
+      }
+    ],
+    "healing": "Curar não é esquecer. É sobre ajudar seu cérebro a aprender que você está seguro agora."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "A lógica da sobrevivência • {{step}}/{{total}}",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

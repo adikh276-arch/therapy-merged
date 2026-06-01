@@ -1,0 +1,177 @@
+{
+  "app_title": "睡眠サイクルガイド",
+  "pill_labels": [
+    "はじめに",
+    "4つのステージ",
+    "眠そうな真実",
+    "あなたはどうですか?"
+  ],
+  "s1": {
+    "title": "8時間寝てもまだひどい気分になったことはありませんか?",
+    "p1": "大事なのは<1>どれくらい<1つ寝るか>ではありません。",
+    "p2": "睡眠サイクルの<1>どこ</1>あたりで目が覚めますか。",
+    "p3": "これを理解すると、一つのことが変わる――すべてが。",
+    "insight": "💡 実際には、完全に目覚めている時よりもREM睡眠の方が脳が活発に働いています!",
+    "duration": "3分で・一生続く",
+    "button": "え、本当に?もっと教えて→"
+  },
+  "s2": {
+    "title": "あなたの脳は毎晩🌀これをやっています",
+    "desc": "90分ごとに、脳は4つの段階を繰り返し再生します。まるで繰り返し再生されるプレイリストのようです。それぞれをタップして探索👇してください",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "浅い睡眠",
+        "tag": "1〜5分 ·簡単に目を覚ます",
+        "body": "うとうとしそうだ。体が力を抜き始め、筋肉がピクピクすることがあります。ここから目覚めるのはとても簡単です。"
+      },
+      {
+        "emoji": "💤",
+        "title": "落ち着く",
+        "tag": "10〜25分 ·本当に眠っている",
+        "body": "心拍数が落ち、体温が下がります。あなたはしっかりと眠りにつき、脳の活動がゆっくりと動き始めます。"
+      },
+      {
+        "emoji": "🔵",
+        "title": "深い睡眠 ⭐",
+        "tag": "20〜40分 ·金",
+        "body": "体は組織を修復し、免疫力を築く。最も身体的に回復が必要な段階で、目覚めるのは難しい。"
+      },
+      {
+        "emoji": "🌙",
+        "title": "REM睡眠",
+        "tag": "10〜60分 ·ドリームモード",
+        "body": "脳は活発でざわめいている。感情は処理され、記憶は固定されます。これを飛ばすと頭がぼんやりしてしまいます。"
+      }
+    ],
+    "italic": "深い睡眠は体を修復します。REM睡眠は心を癒します。",
+    "button": "それなのに、なぜまだぼんやりしているのだろう?→"
+  },
+  "s3": {
+    "title": "サイクル途中の覚醒 = ゾンビモード 🧟",
+    "p1": "アラームで深い眠りから引きずり出された?脳はまだやっていたことを終えていないのです。あの霧のような重い感覚?これは<1 >睡眠慣性</1>です。",
+    "wave": {
+      "light": "光",
+      "deep": "深い",
+      "groggy": "😫 眠気",
+      "fresh": "😊 新鮮",
+      "cycles": [
+        "サイクル1",
+        "サイクル2",
+        "サイクル3"
+      ]
+    },
+    "disruptors_title": "あなたの生理👇周期を乱すものは何でしょうか",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "寝る前のスクリーン",
+        "sub": "深い睡眠を遅らせる"
+      },
+      {
+        "emoji": "☕",
+        "text": "遅いカフェイン",
+        "sub": "深い睡眠を最大20%短縮します"
+      },
+      {
+        "emoji": "⏰",
+        "text": "不規則な睡眠時間",
+        "sub": "自然なリズムを壊す"
+      },
+      {
+        "emoji": "😰",
+        "text": "ストレスと不安",
+        "sub": "浅い眠りにとどまる"
+      }
+    ],
+    "italic": "習慣がどの段階に到達するかを直接形作ります。",
+    "button": "これは私にとって何を意味するのでしょうか?→"
+  },
+  "s4": {
+    "title": "どちらがあなたに似ていると思いますか?👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "目覚めると身体的に疲れ果てています",
+        "sub": "おそらく深い睡眠を逃しているのでしょう",
+        "tip": "一定の睡眠と起床時間に集中しましょう。深い睡眠に入るには体が規則正しいリズムを必要とします。"
+      },
+      {
+        "emoji": "🌫️",
+        "text": "感情がぼんやりしたり落ち込んだりしています",
+        "sub": "おそらくREM睡眠を逃しているのでしょう",
+        "tip": "寝る30分前にリラックスしてみてください。落ち着いた寝前のルーティンがREM睡眠を守ります。"
+      },
+      {
+        "emoji": "😤",
+        "text": "夜中によく目が覚めます",
+        "sub": "サイクルが何度も中断されます",
+        "tip": "涼しく暗く静かな部屋は、脳が邪魔されずに深い段階に留まるのに役立ちます。"
+      },
+      {
+        "emoji": "😐",
+        "text": "体調はまあまあですが、あまり良くはありません",
+        "sub": "サイクルは部分的ですが完全ではありません",
+        "tip": "20分早く寝るのも良いでしょう。もう一つの完全な睡眠サイクルが必要なかもしれません。"
+      }
+    ],
+    "quote": "睡眠は単なる休息ではなく、積極的な回復です。生理や一日の変わる日程を守りましょう。",
+    "button": "完了 ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "睡眠サイクルガイド",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "それは",
+  "it_s_about": "それは",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "アラームで深い眠りから引きずり出された？あなたの脳は文字通り、まだやっていたことを終えていない。あのぼんやりとした重い感覚？それは",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

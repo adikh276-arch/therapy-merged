@@ -1,0 +1,102 @@
+{
+  "app_title": "প্রেরিত চিঠি",
+  "app_subtitle": "আপনার চিন্তাভাবনাগুলি নিরাপদে এবং ব্যক্তিগতভাবে প্রকাশ করুন",
+  "intro": {
+    "title": "প্রেরিত চিঠি",
+    "description": [
+      "কখনও কখনও, এমন কিছু জিনিস রয়েছে যা আমরা বলতে চাই - কিন্তু কখনও সুযোগ পাইনি।",
+      "এটি হতে পারে কারণ এটি নিরাপদ বোধ করছিল না, সময়টি সঠিক ছিল না, বা শব্দগুলি উচ্চস্বরে প্রকাশ করা খুব কঠিন ছিল।",
+      "এই ক্রিয়াকলাপটি আপনাকে সেই চিন্তাভাবনাগুলিকে শব্দে প্রকাশ করার জন্য একটি ব্যক্তিগত স্থান দেয়।",
+      "আপনাকে এই চিঠি পাঠাতে হবে না। এটি কেবল আপনার জন্য - আপনার অনুভূতিগুলি আরও ভালভাবে প্রকাশ করতে, মুক্তি দিতে এবং বোঝার জন্য।"
+    ],
+    "notice": "স্বাধীনভাবে লিখুন। আর কেউ তা দেখবে না।",
+    "button": "লিখতে শুরু করুন →"
+  },
+  "writing": {
+    "title": "আপনি যা ধরে রেখেছেন তা লিখুন",
+    "desc": "আপনি আপনার সঙ্গী, প্রাক্তন সঙ্গী বা এমনকি সম্পর্কের কাছেও লিখতে পারেন। এটি করার কোনও সঠিক বা ভুল উপায় নেই।",
+    "prompts": [
+      "আমার মনে হয়...",
+      "আমি চাই...",
+      "আমি কখনো বলিনি...",
+      "কী কষ্ট দিয়েছে আমাকে...",
+      "আমার যা দরকার ছিল..."
+    ],
+    "placeholder": "প্রিয় ____,\nআমি বলতে চেয়েছিলাম...",
+    "notice": "আপনি বিরতি দিতে পারেন এবং যে কোনও সময় ফিরে আসতে পারেন।",
+    "button": "→ চালিয়ে যান"
+  },
+  "reflection": {
+    "title": "এটি নিয়ে এক মুহুর্ত সময় নিন",
+    "description": [
+      "আপনি কেবল আপনার চিন্তাভাবনা এবং অনুভূতিগুলি শব্দে প্রকাশ করেছেন - এর জন্য সাহস লাগে।",
+      "আপনি এখনই আবেগের মিশ্রণ লক্ষ্য করতে পারেন এবং এটি সম্পূর্ণ ঠিক আছে।",
+      "আপনি এগিয়ে যাওয়ার আগে, একটি শ্বাস নিন এবং আলতো করে নিজের সাথে চেক ইন করুন।"
+    ],
+    "notice": "এটি আপনার নিরাময়ের জন্য ছিল, প্রেরণের জন্য নয়।",
+    "save_button": "চিঠি সংরক্ষণ করুন",
+    "finish_button": "সমাপ্তি"
+  },
+  "history": {
+    "title": "অতীত চিঠি",
+    "empty_title": "আপনি এখনো কোনো চিঠি লিখেননি।",
+    "empty_desc": "আপনি আপনার চিঠিগুলি সংরক্ষণ করার পরে সেগুলি এখানে উপস্থিত হবে।"
+  },
+  "toasts": {
+    "save_success": "চিঠি আপনার ব্যক্তিগত জার্নালে সংরক্ষিত হয়েছে",
+    "save_error": "চিঠি সংরক্ষণ করতে ব্যর্থ হয়েছে",
+    "auth_error": "অথ সেশন অনুপস্থিত বা DB কনফিগার করা হয়নি"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "আপনার ভাবনাগুলো নিরাপদে ও ব্যক্তিগতভাবে প্রকাশ করুন।",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

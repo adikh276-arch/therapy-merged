@@ -1,0 +1,81 @@
+{
+  "app_title": "Dlaczego mózg się zacina",
+  "app_subtitle": "Logika przetrwania • {{step}}/{{total}}",
+  "s1": {
+    "title": "Twój mózg się nie zepsuł. Dostosowało się.",
+    "description": "Po traumie mózg przeprogramowuje się, by cię chronić. Nauczył się, że świat może być niebezpieczny, więc pozostał gotowy. To nie jest wada. To jest przetrwanie.",
+    "quote": "\"PTSD nie jest oznaką, że coś jest z tobą nie tak. To znak, że coś ci się stało.\"",
+    "button": "Opowiedz mi więcej"
+  },
+  "s2": {
+    "tag": "łagodne prawdy",
+    "title": "Logika przetrwania mózgu",
+    "truths": [
+      {
+        "header": "Alarm pozostał włączony",
+        "body": "Nadmierna czujność i przestraszenie się łatwo nie są przesadą — system alarmowy twojego mózgu wykonuje swoją pracę zbyt dobrze."
+      },
+      {
+        "header": "Retrospekcje to wspomnienia",
+        "body": "Wyzwalacze cofają twój umysł, bo nigdy nie dostał sygnału, że zagrożenie minęło. Próbuje cię chronić."
+      },
+      {
+        "header": "Walcząc o ciebie",
+        "body": "Każdy objaw był kiedyś aktem przetrwania. Twój mózg robił to, co musiał, by cię utrzymać przy życiu."
+      }
+    ],
+    "healing": "Uzdrowienie to nie zapominanie. Chodzi o to, żeby pomóc twojemu mózgowi nauczyć się, że jesteś teraz bezpieczny."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Logika przetrwania • {{krok}}/{{suma}}",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

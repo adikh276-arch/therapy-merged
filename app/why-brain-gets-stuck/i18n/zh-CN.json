@@ -1,0 +1,81 @@
+{
+  "app_title": "为什么大脑会卡住",
+  "app_subtitle": "生存逻辑 • {{步长}}/{{总和}}",
+  "s1": {
+    "title": "你的大脑没有坏掉，它适应了。",
+    "description": "经历创伤后，你的大脑会重塑自身以保护你。它学会了这个世界可能充满危险，所以时刻保持警惕。这不是缺陷，而是生存本能。",
+    "quote": "“创伤后应激障碍并不代表你有什么问题，而是表明你经历过某些事情。”",
+    "button": "请告诉我更多"
+  },
+  "s2": {
+    "tag": "温柔的真理",
+    "title": "大脑生存逻辑",
+    "truths": {
+      "0": {
+        "header": "警报器一直响着。",
+        "body": "过度警觉和容易受到惊吓并不是反应过度——你大脑的警报系统工作得太好了。"
+      },
+      "1": {
+        "header": "闪回是记忆",
+        "body": "触发机制会让你的大脑迅速回避威胁，因为它没有收到威胁解除的信号。这是它在试图保护你。"
+      },
+      "2": {
+        "header": "为你而战",
+        "body": "每一种症状都曾是求生本能。你的大脑为了让你活下去，竭尽所能。"
+      }
+    },
+    "healing": "疗愈并非遗忘，而是帮助你的大脑明白你现在是安全的。"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share progress",
+    "inspire_others": "Inspire others",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied",
+    "copy_message": "Copy message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "The logic of survival • {{step}}/{{total}}",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,217 @@
+{
+  "app_title": "Mitä tarvitsen?",
+  "app_subtitle": "Tarkista asiat itsestäsi",
+  "screens": {
+    "s1": {
+      "title": "Mitä tarvitsen juuri nyt?",
+      "description": "Hetki pysähtyä ja kuunnella, mitä sydämesi pyytää.",
+      "button": "Aloita Check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Mikä tuntuu tärkeältä?",
+        "placeholder": "Jotain muuta...",
+        "add_button": "Add",
+        "button": "Jatka"
+      },
+      "prioritize": {
+        "title": "Kumpi on ensisijainen?"
+      },
+      "focus": {
+        "tag": "Keskityksesi juuri nyt",
+        "button": "Jatka"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Jatka"
+      },
+      "action": {
+        "title": "Pieni askel eteenpäin?",
+        "placeholder": "Tai kirjoita oma...",
+        "button": "Arvostelun pohdintaa"
+      },
+      "closing": {
+        "tag_need": "Ensisijainen tarve",
+        "tag_insight": "Näkemyksesi",
+        "tag_action": "Pieni toiminta",
+        "save_button": "Tallenna ja viimeistele",
+        "finish_button": "Viimeistele ilman tallentamista"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emotionaalinen tuki",
+      "prompt": "Millainen tuki oikeasti auttaisi sinua juuri nyt?",
+      "hints": [
+        "Tarvitsen vain jonkun...",
+        "Auttaisi, jos...",
+        "Mitä oikeasti haluan, on..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Tilaa / aikaa itselleni",
+      "prompt": "Miltä tuo tila näyttäisi sinulle?",
+      "hints": [
+        "Käyttäisin sen ajan...",
+        "Avaruus antaisi minun...",
+        "Tarvitsen tilaa..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Selkeä viestintä",
+      "prompt": "Miltä selkeämpi viestintä näyttäisi sinulle?",
+      "hints": [
+        "Toivon, että voisin sanoa...",
+        "Jos he todella kuuntelisivat, kertoisin heille...",
+        "Kommunikaatio tuntuu vaikealta, kun..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Vakuuttelua",
+      "prompt": "Millainen lohdutus tuntuisi merkitykselliseltä?",
+      "hints": [
+        "Minun täytyy kuulla se...",
+        "Minua rauhoittaisi tietää...",
+        "Huolehdin koko ajan siitä, että..."
+      ]
+    },
+    "Understanding": {
+      "label": "Ymmärrys",
+      "prompt": "Miltä todella ymmärretty tunne näyttäisi?",
+      "hints": [
+        "Toivon, että ihmiset tietäisivät, että...",
+        "Mitä oikeasti tunnen, on...",
+        "Kukaan ei näe, että minä..."
+      ]
+    },
+    "Stability": {
+      "label": "Vakaus",
+      "prompt": "Miltä vakaus tuntuisi elämässäsi juuri nyt?",
+      "hints": [
+        "Tarvitsen asioita, jotka tuntevat...",
+        "Mikä minua juurruttaisi on...",
+        "Vakaus tarkoittaa..."
+      ]
+    },
+    "Honesty": {
+      "label": "Rehellisyys",
+      "prompt": "Miltä rehellisyys näyttäisi sinun tilanteessasi?",
+      "hints": [
+        "Totuus, jonka minun täytyy kohdata, on...",
+        "Haluan olla rehellinen...",
+        "Mitä oikeasti tapahtuu on..."
+      ]
+    },
+    "Respect": {
+      "label": "Kunnioitus",
+      "prompt": "Miltä kunnioitus näyttää sinulle juuri nyt?",
+      "hints": [
+        "Ansaitsen tulla kohdelluksi...",
+        "Kunnioitus näyttäisi...",
+        "Tarvitsen ihmisiä..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Selkeys suhteesta",
+      "prompt": "Millainen selkeys auttaisi sinua eniten?",
+      "hints": [
+        "Minun täytyy tietää, jos...",
+        "Mikä minua hämmentää, on...",
+        "Haluan, että olemme selkeitä siitä..."
+      ]
+    },
+    "default": {
+      "prompt": "Miltä tämä näyttäisi oikeassa tilanteessa?",
+      "hints": [
+        "Mitä tulee mieleen, on...",
+        "Juuri nyt tunnen...",
+        "Jos olen rehellinen itselleni..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Sano jotain rehellisesti"
+    },
+    {
+      "label": "Ota aikaa itselleni"
+    },
+    {
+      "label": "Ota yhteyttä johonkuhun"
+    },
+    {
+      "label": "Aseta pieni raja"
+    },
+    {
+      "label": "En ole vielä varma"
+    }
+  ],
+  "history": {
+    "title": "Menneet pohdinnat",
+    "empty": "Ei vielä heijastuksia."
+  },
+  "toasts": {
+    "save_success": "Heijastus pelastettu",
+    "save_error": "Ei onnistunut tallentamaan heijastusta",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu"
+  },
+  "complete": {
+    "title": "Sisäänkirjautuminen valmis",
+    "message": "Olet tunnistanut, että tarvitset \"{{need}}\". Tarpeiden kunnioittaminen on tärkeä itsehoidon muoto."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ota yhteyttä itseesi",
+  "past_reflections": "Menneisyyden pohdintoja",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

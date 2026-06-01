@@ -1,0 +1,147 @@
+{
+  "app_title": "Công cụ lập kế hoạch cửa sổ ngủ",
+  "pill_labels": [
+    "Xây dựng cửa sổ của bạn",
+    "Đặt thời gian của bạn",
+    "Khoảng thời gian ngủ của bạn"
+  ],
+  "screen1": {
+    "title": "Khoảng thời gian ngủ của bạn quan trọng hơn bạn nghĩ",
+    "p1": "Cửa sổ ngủ là thời gian cố định từ khi bạn đi ngủ đến khi bạn thức dậy. Giữ nó nhất quán - ngay cả vào cuối tuần - là một trong những điều mạnh mẽ nhất bạn có thể làm cho giấc ngủ của mình.",
+    "p2": "Công cụ này giúp bạn xây dựng công cụ của mình trong vòng chưa đầy 2 phút.",
+    "insight": "Ngay cả sự chênh lệch 1 giờ về thời gian ngủ vào cuối tuần cũng có thể làm gián đoạn cảm giác của bạn cả tuần.",
+    "meta": "Đơn giản. Cá nhân. Hiệu quả.",
+    "button": "Hãy xây dựng → của tôi"
+  },
+  "screen2": {
+    "title": "Hãy đặt cửa sổ ngủ của bạn",
+    "step1": {
+      "title": "BƯỚC 1 - THỜI GIAN THỨC DẬY",
+      "desc": "Bạn cần mấy giờ để thức dậy hầu hết các ngày?"
+    },
+    "step2": {
+      "title": "BƯỚC 2 - THỜI GIAN NGỦ",
+      "desc": "Bạn muốn ngủ bao nhiêu giờ?"
+    },
+    "live_window": {
+      "bedtime": "Giờ đi ngủ",
+      "waketime": "Thời gian thức dậy",
+      "duration": "{{hours}} giờ ngủ"
+    },
+    "italic": "Hầu hết người lớn cần 7–9 giờ. Chọn những gì cảm thấy phù hợp.",
+    "button": "Xem cửa sổ giấc ngủ của tôi →"
+  },
+  "screen3": {
+    "title": "Khoảng thời gian 🌙 ngủ của bạn",
+    "result": {
+      "bedtime": "Giờ đi ngủ",
+      "waketime": "Thời gian thức dậy",
+      "duration": "Độ dài khóa học",
+      "hours": "{{hours}} giờ"
+    },
+    "accordion1": {
+      "title": "3 cách để bảo vệ nó",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Thư giãn 30 phút trước khi đi ngủ"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Cùng một thời gian thức dậy mỗi ngày - vâng, cả cuối tuần"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Tránh ngủ trưa lâu hơn 20 phút sau 3 giờ chiều"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Cam kết 1 điều tối nay",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Cất điện thoại của tôi đi trước khi đi ngủ"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Bắt đầu thói quen thư giãn"
+        },
+        {
+          "emoji": "💡",
+          "text": "Làm mờ đèn một giờ trước khi đi ngủ"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Hoàn thành danh sách việc cần làm của tôi sớm"
+        }
+      ]
+    },
+    "quote": "Tính nhất quán mạnh mẽ hơn sự hoàn hảo. Một đêm ngon xây dựng tiếp theo.",
+    "button": "Lưu cửa sổ ngủ của tôi ✓",
+    "saved_button": "✓ Cửa sổ ngủ đã lưu!",
+    "adjust_times": "Điều chỉnh thời gian"
+  },
+  "complete": {
+    "title": "Cửa sổ đã tạo",
+    "message": "Cửa sổ giấc ngủ lý tưởng của bạn đã được lập bản đồ. Tính nhất quán là chìa khóa để nghỉ ngơi sâu, phục hồi."
+  },
+  "toasts": {
+    "save_success": "Cửa sổ ngủ đã lưu",
+    "save_error": "Không thể lưu cửa sổ ngủ",
+    "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
+    "saving": "Tiết kiệm..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Lập kế hoạch cửa sổ ngủ",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

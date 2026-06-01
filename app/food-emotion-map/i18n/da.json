@@ -1,0 +1,139 @@
+{
+  "app_title": "Mad- og følelseskort",
+  "screen_titles": [
+    "Velkommen",
+    "Fødemønstre",
+    "Intern dialog",
+    "Fysisk sansning",
+    "Kortet",
+    "Blid støtte",
+    "Slutlook",
+    "Reflekterende"
+  ],
+  "welcome_text": "Hey... Jeg er virkelig glad for, at du er her 💛. Lad os forsigtigt kortlægge, hvad der er sket.",
+  "coming_up_label": "Hvad sker der for tiden?",
+  "begin_mapping": "Begynd kortlægning",
+  "food_patterns_q": "Hmm... Jeg hører dig. Når du føler {{emotion}}... Hvordan plejer maden at dukke op?",
+  "continue_button": "Fortsæt",
+  "internal_dialogue_q": "I de øjeblikke... Hvilke tanker dukker op?",
+  "write_placeholder": "Skriv hvad der falder dig ind...",
+  "physical_sensing_q": "Hvis du holder en pause et øjeblik... Hvad lægger du mærke til i din krop?",
+  "the_pattern_label": "Mønsteret",
+  "pattern_desc_1": "Når du mærker {{emotion}}, føles din krop {{sensation}}...",
+  "pattern_desc_2": "… og mad bliver en måde at {{response}} på, mens tanker som \"{{thought}}\" dukker op.",
+  "pattern_footer": "\"Mønsterbevidsthed er frihed\"",
+  "support_q": "I de øjeblikke... Hvad kunne hjælpe dig—bare lidt?",
+  "understanding_text": "Du forstår dig selv lidt bedre. Det er mere end nok 💛",
+  "how_feeling_now": "Hvordan har du det nu?",
+  "preserve_button": "Bevar-kortet",
+  "preserving": "Bevare...",
+  "complete_title": "Kort bevaret",
+  "complete_message": "Du har med succes kortlagt forbindelsen mellem dine følelser og mad. Denne bevidsthed er et stærkt redskab til blid forandring.",
+  "auth_error": "Auth-session mangler eller database ikke konfigureret",
+  "save_success": "Mønster bevaret",
+  "save_error": "Undlod at bevare mønsteret",
+  "emotions_list": [
+    "😰 Stress",
+    "😢 Sorg",
+    "😶 Kedsomhed",
+    "😟 Angst",
+    "🥺 Ensomhed",
+    "💭 Noget andet..."
+  ],
+  "food_responses": [
+    "🍽️ Jeg spiser mere",
+    "🚫 Jeg spiser mindre",
+    "🍫 Jeg craver bestemte fødevarer",
+    "😣 Jeg undgår mad",
+    "😐 Ingen reel ændring"
+  ],
+  "body_sensations": [
+    "💔 Stram brystkasse",
+    "🪨 Tung følelse",
+    "🦵 Rastløs / rastløs",
+    "🔋 Lav energi",
+    "🌀 Knuder i maven",
+    "❓ Noget andet..."
+  ],
+  "support_options": [
+    "🗣️ Tal med nogen",
+    "☕ Tag en pause",
+    "📝 Tidsskrift",
+    "🌬️ Træk vejret",
+    "🎧 Distrahere mig selv"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Tag kontakt. 💛",
+      "body": "Nogle gange gør deling tingene lidt lettere. Måske et simpelt 'hey, kan vi tale sammen?'"
+    },
+    "☕ Take a break": {
+      "title": "Pause 💛",
+      "body": "En kort pause kan hjælpe med at nulstille tingene. Måske skal du træde væk og tage et par langsomme vejrtrækninger."
+    },
+    "📝 Journal": {
+      "title": "Skriv det ned 💛",
+      "body": "Du kunne starte med 'lige nu føler jeg...' Og bare lade det flyde."
+    },
+    "🌬️ Breathe": {
+      "title": "Træk vejret 💛",
+      "body": "Indånding 4... Hold 2... udånd 6... Lad os tage det roligt sammen."
+    },
+    "🎧 Distract myself": {
+      "title": "Blid bevægelse 💛",
+      "body": "En blid afledning kan ændre øjeblikket... Måske noget let eller let."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Mad- og følelseskort",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

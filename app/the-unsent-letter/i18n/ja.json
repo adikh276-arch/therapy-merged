@@ -1,0 +1,102 @@
+{
+  "app_title": "送られなかった手紙",
+  "app_subtitle": "安全かつプライベートに思いを解放してください",
+  "intro": {
+    "title": "送られなかった手紙",
+    "description": [
+      "時には、言いたいけれど言えなかったことがある。",
+      "それは安全に感じられなかったり、タイミングが合わなかったり、言葉が口に出して表現しづらかったからかもしれません。",
+      "この活動は、そうした思いを言葉にするプライベートな空間を与えてくれます。",
+      "この手紙を送る必要はない。これはあなた自身のためのもので、感情を表現し、解放し、よりよく理解するためのものです。"
+    ],
+    "notice": "自由に書くこと。他の誰にもこれを見ることはありません。",
+    "button": "執筆を始めましょう→"
+  },
+  "writing": {
+    "title": "ずっと抱えていたことを書き出して",
+    "desc": "パートナーや元パートナー、あるいは関係自体に手紙を書くこともできます。これに正解も間違いもありません。",
+    "prompts": [
+      "私は...",
+      "願う...",
+      "そんなことは言ってない...",
+      "何が私を傷つけたのか...",
+      "私が必要としていたのは..."
+    ],
+    "placeholder": "親愛なる____へ、\nずっと言いたかったんだ...",
+    "notice": "いつでも一時停止して戻ってきてください。",
+    "button": "続けて→"
+  },
+  "reflection": {
+    "title": "これについて少し時間を取ってください",
+    "description": [
+      "自分の考えや気持ちを言葉にしただけです――それには勇気が必要です。",
+      "今はさまざまな感情が混ざっているのに気づくかもしれませんが、それで全く問題ありません。",
+      "次に進む前に、深呼吸して、優しく自分自身を見つめ直してください。"
+    ],
+    "notice": "これはあなたの癒しのためであって、送るためではありません。",
+    "save_button": "セーブレター",
+    "finish_button": "フィニッシュ"
+  },
+  "history": {
+    "title": "過去の手紙",
+    "empty_title": "まだ手紙を書いていない。",
+    "empty_desc": "あなたの手紙は保存した後、ここに表示されます。"
+  },
+  "toasts": {
+    "save_success": "手紙はあなたのプライベートジャーナルに保存されました",
+    "save_error": "手紙を保存できなかった",
+    "auth_error": "認証セッションが欠如しているか、データベースが設定されていない"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "安全かつプライベートな環境で、あなたの考えを吐き出してください。",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

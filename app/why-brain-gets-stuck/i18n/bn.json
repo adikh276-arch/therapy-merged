@@ -1,0 +1,81 @@
+{
+  "app_title": "মস্তিষ্ক কেন আটকে যায়",
+  "app_subtitle": "বেঁচে থাকার যুক্তি • {{step}}/{{total}}",
+  "s1": {
+    "title": "আপনার মস্তিষ্ক ভেঙে যায়নি। এটি অভিযোজিত হয়েছে।",
+    "description": "ট্রমার পরে, আপনার মস্তিষ্ক আপনাকে নিরাপদ রাখতে নিজেকে পুনরায় তারযুক্ত করে। এটি শিখেছিল যে পৃথিবী বিপজ্জনক হতে পারে, তাই এটি প্রস্তুত ছিল। এটি কোনও ত্রুটি নয়। এটাই বেঁচে থাকা।",
+    "quote": "\"পিটিএসডি এমন কোনও লক্ষণ নয় যে আপনার সাথে কিছু ভুল হয়েছে। এটি একটি লক্ষণ যে আপনার সাথে কিছু ঘটেছে।",
+    "button": "আমাকে আরও বলুন"
+  },
+  "s2": {
+    "tag": "মৃদু সত্য",
+    "title": "মস্তিষ্কের বেঁচে থাকার যুক্তি",
+    "truths": [
+      {
+        "header": "অ্যালার্ম চালু ছিল",
+        "body": "হাইপারভিজিলেন্স এবং চমকপ্রদ সহজেই অত্যধিক প্রতিক্রিয়া নয় - আপনার মস্তিষ্কের অ্যালার্ম সিস্টেম তার কাজটি খুব ভালভাবে করছে।"
+      },
+      {
+        "header": "ফ্ল্যাশব্যাকগুলি স্মৃতি",
+        "body": "ট্রিগারগুলি আপনার মস্তিষ্ককে পিছনে টেনে নিয়ে যায় কারণ এটি কখনও হুমকিটি শেষ হওয়ার সংকেত পায়নি। এটি আপনাকে রক্ষা করার চেষ্টা করছে।"
+      },
+      {
+        "header": "তোমার জন্য লড়াই করা",
+        "body": "প্রতিটি লক্ষণ একসময় বেঁচে থাকার কাজ ছিল। আপনার মস্তিষ্ক আপনাকে বাঁচিয়ে রাখার জন্য যা করা উচিত তা করেছে।"
+      }
+    ],
+    "healing": "নিরাময় ভুলে যাওয়া নয়। এটি আপনার মস্তিষ্ককে শিখতে সহায়তা করার বিষয়ে যে আপনি এখন নিরাপদ।"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "টিকে থাকার যুক্তি • {{ধাপ}}/{{মোট}}",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,292 @@
+{
+  "app_title": "Reparare și Reconectare",
+  "steps": {
+    "welcome": "Bine ai venit",
+    "choose_person": "Alege persoana",
+    "choose_approach": "Alege abordarea",
+    "guided_action": "Acțiune ghidată",
+    "complete": "Complet"
+  },
+  "intro": {
+    "title": "Reparare și Reconectare",
+    "description": "Furia poate crea distanță între noi și cei dragi. Dar pașii mici și blânzi pot ajuta la reconstruirea acelei conexiuni.",
+    "quote": "\"Repararea nu înseamnă că ai greșit—înseamnă că îți pasă suficient încât să încerci.\"",
+    "small_efforts": "Chiar și eforturi mici pot face diferența.",
+    "button": "Începe →"
+  },
+  "choose_person": {
+    "title": "Cu cine ai vrea să te reconectezi?",
+    "desc": "Gândindu-te la o anumită relație ajută pașii să pară reali.",
+    "options": {
+      "friend": "Un prieten",
+      "family": "Un membru al familiei",
+      "colleague": "Un coleg",
+      "other": "Altcineva"
+    },
+    "button": "Continuă →"
+  },
+  "choose_approach": {
+    "title": "Ce ți se pare potrivit?",
+    "desc": "Alege un pas mic care ți se pare realizabil.",
+    "safety": "Nu trebuie să repari totul—doar alege un singur pas mic.",
+    "button": "Încearcă asta →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Trimite un raport casual",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Recunoaște tensiunea",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Oferiți-vă spațiu unul altuia",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Lasă totul în urmă și mergi mai departe",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Doar reflectează asupra asta",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Trimite un mesaj cald",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Spune sincer ce s-a întâmplat",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Angajează-te să pui pauză data viitoare",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Alege pacea în locul dreptății",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflectează la ceea ce ai cu adevărat nevoie",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Trimite o notă profesională",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Abordează-l cu respect",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Planifică un răspuns mai calm data viitoare",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Păstrează-te profesional și mergi mai departe",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Gândește-te la limite",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Contactează-ne cu un mesaj simplu",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Recunoaște ce s-a întâmplat",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Fă o pauză data viitoare",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Lasă-l deoparte pentru moment",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Doar reflectează (încă nu am făcut nimic de făcut).",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Apasă să vezi cum ✨",
+    "copy_button": "📋 Copiază mesajul",
+    "done_button": "Am terminat →",
+    "safety_line_default": "Nu trebuie să trimiți nimic acum. 💛",
+    "safety_line_pause": "Ia-ți timpul necesar — nu e grabă. 💛",
+    "safety_line_reflect": "Este doar pentru tine—nimeni altcineva nu trebuie să vadă asta. 💛",
+    "actions": {
+      "message": {
+        "title": "Trimite un mesaj simplu",
+        "why": "Un mesaj simplu poate rupe tăcerea și îi poate arăta celuilalt că încă îți pasă.",
+        "insight": "A întinde mâna—chiar și imperfect—este aproape întotdeauna primit mai bine decât ne așteptăm.",
+        "howTitle": "Începe cu pași mici",
+        "howBody": "Nu trebuie să scrii un eseu. Câteva cuvinte sincere pot deschide ușa către reconectare.",
+        "prompts": [
+          "Hei, m-am gândit la tine. Sper că ești bine.",
+          "Știu că era tensionat—voiam doar să spun că îmi pasă.",
+          "Îmi pare rău pentru mai devreme. Putem vorbi când ești gata?"
+        ],
+        "promptLabel": "Alege un punct de plecare:",
+        "editLabel": "Fă-l al tău:"
+      },
+      "acknowledge": {
+        "title": "Recunoaște ce s-a întâmplat",
+        "why": "Recunoașterea a ceea ce s-a întâmplat arată maturitate și ajută cealaltă persoană să se simtă văzută.",
+        "insight": "Oamenii nu au nevoie să fii perfecțion—trebuie să știe că ai observat.",
+        "howTitle": "Spune-i cu blândețe",
+        "howBody": "Poți să recunoști fără să-ți asumi toată vina. Spune sincer ce s-a întâmplat.",
+        "prompts": [
+          "Știu că lucrurile s-au încins între noi. Vreau să știi că am observat.",
+          "Îmi dau seama că poate am părut dur. Nu asta a fost intenția mea.",
+          "Am reflectat asupra a ceea ce s-a întâmplat și mi-aș fi dorit să fi gestionat situația altfel."
+        ],
+        "promptLabel": "Alege un punct de plecare:",
+        "editLabel": "Fă-l al tău:"
+      },
+      "pause": {
+        "title": "Fă o pauză data viitoare",
+        "why": "Angajarea într-o pauză îți oferă spațiu să răspunzi, nu să reacționezi.",
+        "insight": "O pauză de 6 secunde este adesea suficientă pentru a trece de la reacție la reflecție.",
+        "howTitle": "🧘 Planifică-ți pauza",
+        "howBody": "Gândește-te la un semnal simplu—cum ar fi să tragi aer în piept sau să faci un pas înapoi pentru o clipă—înainte să răspunzi.",
+        "prompts": [
+          "Data viitoare când mă simt supărat, o să trag o gură adâncă de aer înainte să răspund.",
+          "O să încerc să spun \"Dă-mi un moment\" în loc să reacționez imediat.",
+          "O să mă retrag câteva minute să-mi adun gândurile."
+        ],
+        "promptLabel": "Alege un angajament care ți se pare potrivit:",
+        "editLabel": "Scrie-ți propria intenție:"
+      },
+      "letgo": {
+        "title": "Lasă-l deoparte pentru moment",
+        "why": "Uneori, cel mai blând lucru pe care îl poți face este să eliberezi greutatea situației.",
+        "insight": "A renunța nu înseamnă a renunța—e a alege pacea în locul faptului că ai dreptate.",
+        "howTitle": "🕊️ Eliberează ușor",
+        "howBody": "Nu trebuie să uiți. Pur și simplu decide că asta nu mai trebuie să controleze cum te simți.",
+        "prompts": [
+          "Aleg să las totul în urmă — nu pentru că nu conta, ci pentru că pacea mea contează mai mult.",
+          "Renunț la nevoia de a avea dreptate în privința asta. Aleg conexiunea.",
+          "Această situație nu definește relația noastră. Merg mai departe."
+        ],
+        "promptLabel": "Alege ce rezonează:",
+        "editLabel": "Scrie ce ți se pare adevărat:"
+      },
+      "reflect": {
+        "title": "Doar reflectă",
+        "why": "Reflecția dezvoltă conștientizarea de sine, care este fundamentul oricărei relații sănătoase.",
+        "insight": "Scrierea unui jurnal sau chiar gândirea la ce s-a întâmplat te ajută să procesezi emoțiile fără presiune.",
+        "howTitle": "🔍 Privește în interior",
+        "howBody": "Întreabă-te: Ce simțeam cu adevărat sub furia? Adesea este durere, frică sau dezamăgire.",
+        "prompts": [
+          "Sub furia mea, cred că mă simțeam rănit.",
+          "Îmi dau seama că reacționam din frica de a nu fi auzit.",
+          "Ceea ce aveam cu adevărat nevoie era să mă simt respectată și apreciată."
+        ],
+        "promptLabel": "Alege ce rezonează:",
+        "editLabel": "Scrie-ți propria reflecție:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Conexiunea refăcută",
+    "message": "Ai făcut un pas curajos spre repararea conexiunii cu {{person}}. Acțiunile mici, intenționate, construiesc punți durabile.",
+    "default_person": "Cineva important"
+  },
+  "toasts": {
+    "save_success": "Progresul reparațiilor a fost menținut",
+    "save_error": "A eșuat să păstreze reflexia",
+    "copy_success": "Mesaj copiat!",
+    "preserving": "Păstrând...",
+    "complete_button": "Complete & Save"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Reparații și reconectare",
+  "that_s_a_step_forward": "Acesta este un pas înainte",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Ai făcut un mic pas spre reparație - și asta contează.",
+  "try_with_someone_else": "Încearcă cu altcineva",
+  "done": "Gata ✔",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

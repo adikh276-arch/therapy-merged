@@ -1,0 +1,144 @@
+{
+  "app_title": "Sprawdzenie czytania myśli",
+  "intro": {
+    "title": "Sprawdzenie czytania myśli",
+    "description": "Podważ założenia, które przyjmujesz na temat myślenia innych.",
+    "benefits": [
+      "Przestań zakładać najgorsze",
+      "Zidentyfikuj stronnicze interpretacje",
+      "Buduj jaśniejszą komunikację"
+    ],
+    "duration": "3-4 minuty",
+    "view_past": "Zobacz przeszłe refleksje"
+  },
+  "history": {
+    "title": "Refleksje z przeszłości",
+    "no_entries": "Jeszcze brak wpisów",
+    "belief_label": "Wiara: {{level}}%",
+    "balanced_thought_label": "Zrównoważona myśl"
+  },
+  "complete": {
+    "title": "Aktywność zakończona",
+    "great_insights": "Świetne spostrzeżenia!",
+    "message": "Kwestionując swoje założenia, budujesz bardziej obiektywny i współczujący umysł."
+  },
+  "steps": {
+    "label": "Krok {{current}} z 10",
+    "step1": {
+      "title": "Co się stało?",
+      "desc": "Opisz ostatni moment, gdy czułaś się oceniana lub niepewna.",
+      "placeholder": "Opis sytuacji..."
+    },
+    "step2": {
+      "title": "Co przyszło ci do głowy?",
+      "desc": "Co myślałeś, że myślą o tobie?",
+      "placeholder": "Założyłem, że myślą..."
+    },
+    "step3": {
+      "title": "Zwolnijmy tempo",
+      "desc": "Teraz ta myśl może wydawać się prawdziwa. Ale zanim zaakceptujemy to jako fakt, zróbmy krok wstecz i przyjrzyjmy się temu bliżej.",
+      "button": "Pauza i kontynuacja"
+    },
+    "step4": {
+      "title": "Czy to prawda?",
+      "desc": "Czy istnieją jakieś jasne dowody (fakty, a nie założenia), które potwierdzają tę teorię?",
+      "placeholder": "Dowody, które widzę, to..."
+    },
+    "step5": {
+      "title": "Co jeszcze mogłoby się dziać?",
+      "desc": "Jakie są 2–3 inne możliwe wyjaśnienia?",
+      "placeholder": "Możliwość {{num}}..."
+    },
+    "step6": {
+      "title": "Sprawdź swoje przekonania",
+      "desc": "Jak mocno wierzysz teraz w swoją pierwotną myśl?",
+      "labels": [
+        "Wcale nie",
+        "Całkowicie"
+      ]
+    },
+    "step7": {
+      "title": "Bardziej zrównoważony obraz",
+      "desc": "Napisz myśl, która będzie bardziej sprawiedliwa i mniej pewna.",
+      "placeholder": "Bardziej zrównoważona myśl..."
+    },
+    "step8": {
+      "title": "Następnym razem",
+      "desc": "Co można zrobić zamiast zakładać?",
+      "examples": [
+        "Poproś o wyjaśnienie",
+        "Daj temu trochę czasu",
+        "Powiadomić bez reakcji"
+      ],
+      "placeholder": "Następnym razem mógłbym..."
+    },
+    "step9": {
+      "title": "Zauważ tę zmianę",
+      "desc": "Eksplorowałeś różne możliwości i stworzyłeś przestrzeń dla bardziej zrównoważonego spojrzenia.",
+      "original_label": "Pierwotna myśl",
+      "balanced_label": "Zrównoważona perspektywa",
+      "button": "Odbicie wykończenia"
+    },
+    "step10": {
+      "title": "Mała zmiana",
+      "desc": "Twój umysł próbuje wypełnić luki. Ale nie każda myśl jest faktem. Zrobienie kroku w tył pomaga jasno zobaczyć rzeczy.",
+      "button": "Pełna aktywność"
+    }
+  },
+  "buttons": {
+    "continue": "Kontynuuj",
+    "restart": "Restart"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sprawdzanie czytania w myślach",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

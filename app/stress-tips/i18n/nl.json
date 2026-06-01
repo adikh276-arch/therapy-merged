@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Haal diep adem 🌿",
+    "title": "Beheer je stress",
+    "description": "Eenvoudige dagelijkse gewoontes om je rustiger en meer controle te laten voelen.",
+    "sectionTitle": "Dagelijkse stressverlichtingstips"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Slaap Rustig",
+      "description": "Streef naar 7–9 uur slaap per nacht. Probeer elke dag op hetzelfde tijdstip te slapen en wakker te worden.",
+      "why": "Slaap helpt je hersenen en lichaam te herstellen en verlaagt stresshormonen.",
+      "do": [
+        "Houd een vast slaapschema aan",
+        "Vermijd schermen 1 uur voor het slapengaan",
+        "Houd de kamer koel en donker",
+        "Vermijd cafeïne na 16.00 uur"
+      ],
+      "button": "Stel slaapherinnering in"
+    },
+    "breathing": {
+      "title": "Oefen diep ademhalen",
+      "description": "Besteed een paar minuten aandacht aan je ademhaling. Langzaam ademen vermindert angst.",
+      "why": "Langzaam ademen activeert de ontspanningsreactie van je lichaam.",
+      "do": [
+        "Adem in 4 seconden",
+        "Houd het 4 seconden vast",
+        "Adem 4 seconden uit",
+        "Herhaal dit 1 minuut"
+      ]
+    },
+    "exercise": {
+      "title": "Beweeg je lichaam",
+      "description": "Lichte wandelingen of rekken helpt stress los te laten en de stemming te verbeteren.",
+      "why": "Beweging geeft endorfines vrij en verbetert de stemming.",
+      "do": [
+        "15 minuten lopen",
+        "Lichte rekking",
+        "Korte yogasessie",
+        "Snelle workout thuis"
+      ]
+    },
+    "caffeine": {
+      "title": "Beperk cafeïne en suiker",
+      "description": "Te veel cafeïne en suiker kan angst verhogen en de slaap verstoren.",
+      "why": "Te veel cafeïne en suiker verergert angst en slaapproblemen.",
+      "do": [
+        "Vervang één koffie door kruidenthee",
+        "Drink meer water",
+        "Verminder suikerrijke snacks",
+        "Vermijd cafeïne laat op de dag"
+      ]
+    },
+    "planning": {
+      "title": "Plan je dag",
+      "description": "Breek grote taken op in kleinere stappen om te voorkomen dat je overweldigd raakt.",
+      "why": "Planning vermindert mentale rommel en overweldiging.",
+      "do": [
+        "Schrijf 3 hoofdtaken",
+        "Breek taken op in kleine stappen",
+        "Focus op één taak tegelijk",
+        "Neem korte pauzes"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Achteruit",
+    "notFound": "Tip niet gevonden.",
+    "whyTitle": "Waarom het helpt",
+    "doTitle": "Wat je kunt doen",
+    "reminderSet": "Herinnering ingesteld! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oeps! Pagina niet gevonden",
+    "return": "Terugkeer naar huis"
+  },
+  "mood": {
+    "title": "Hoe voel je je vandaag?",
+    "great": "Geweldig",
+    "okay": "Oké",
+    "stressed": "Gestrest",
+    "overwhelmed": "Overweldigd"
+  },
+  "breathing": {
+    "inhale": "Adem in...",
+    "hold": "Wacht...",
+    "exhale": "Uitademen...",
+    "pause": "Pauze",
+    "resume": "Cv"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Stressverlichting",
+  "app_description": "Stressverlichting",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "breathing_guide": "Ademhalingsgids",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

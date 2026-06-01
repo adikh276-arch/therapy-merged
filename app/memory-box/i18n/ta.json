@@ -1,0 +1,146 @@
+{
+  "app_title": "நினைவக பெட்டி",
+  "screen_titles": [
+    "உங்கள் பெட்டி",
+    "கௌரவித்தல்",
+    "வெளிப்படுத்துகிறது",
+    "பாதுகாக்கப்பட்டது",
+    "மென்மையான பராமரிப்பு"
+  ],
+  "complete_title": "நினைவகம் பாதுகாக்கப்பட்டது",
+  "complete_message": "உங்கள் பெட்டியில் {{name}} நினைவகத்தை பாதுகாப்பாக வைத்துள்ளீர்கள். இந்த இணைப்பு தருணங்கள் எப்போதும் உங்களுடையவை.",
+  "auth_error": "அங்கீகார அமர்வு காணவில்லை அல்லது DB உள்ளமைக்கப்படவில்லை",
+  "save_success": "நினைவகம் பாதுகாக்கப்பட்டது",
+  "save_error": "நினைவகத்தை பாதுகாப்பதில் தோல்வியுற்றது",
+  "preserving": "பாதுகாக்கிறது...",
+  "preserve_memory": "நினைவகத்தைப் பாதுகாக்கவும்",
+  "welcome": {
+    "title": "உங்கள் நினைவக பெட்டி",
+    "subtitle1": "நீங்கள் நேசிக்கும் ஒருவரை நினைவுகூர ஒரு அமைதியான இடம். 🤍",
+    "subtitle2": "மெதுவாக மூச்சு விடுங்கள்...",
+    "subtitle3": "… மெதுவாக மூச்சை வெளியே விடவும்.",
+    "subtitle4": "இதைச் செய்ய சரியான அல்லது தவறான வழி இல்லை.",
+    "subtitle5": "உங்கள் சொந்த வேகத்தில் செல்லுங்கள். 🌿",
+    "begin": "தொடங்கு ✨",
+    "later": "ஒருவேளை பின்னர்"
+  },
+  "who": {
+    "placeholder_name": "அவர்களின் பெயரைத் தட்டச்சு செய்க...",
+    "placeholder_relation": "அவர்களை உனக்கு எப்படித் தெரியும்? (விரும்பினால்)",
+    "categories": [
+      {
+        "label": "ஒரு மகிழ்ச்சியான தருணம்",
+        "emoji": "😊"
+      },
+      {
+        "label": "அவர்கள் சொல்லும் ஒன்று",
+        "emoji": "💬"
+      },
+      {
+        "label": "ஒரு சிறிய அன்றாட நினைவு",
+        "emoji": "☕"
+      },
+      {
+        "label": "அவற்றை உங்களுக்கு நினைவூட்டும் இடம்",
+        "emoji": "🏡"
+      },
+      {
+        "label": "நான் சொல்ல விரும்பும் ஒன்று",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "தொடர்க→"
+  },
+  "expression": {
+    "title": "உங்கள் நினைவகத்தை வெளிப்படுத்துதல்",
+    "memory_label": "நினைவகம் தானே",
+    "memory_placeholder": "நீங்கள் வைத்திருக்க விரும்பும் தருணம், உணர்வு அல்லது விவரம் பற்றி எழுதுங்கள்...",
+    "message_label": "அவர்களுக்கு ஒரு செய்தி (விரும்பினால்)",
+    "message_placeholder": "இப்போதே அவர்களிடம் பேச முடிந்தால் என்ன சொல்வீர்கள்?",
+    "save": "நினைவகத்தைப் பாதுகாக்கவும்",
+    "skip": "இப்போதைக்கு தவிர்க்கவும்",
+    "back": "மீண்டும்"
+  },
+  "box": {
+    "title": "பாதுகாப்பாக விலகிச் செல்லப்பட்டது",
+    "subtitle": "{{name}} இன் இந்த நினைவகம் இப்போது உங்கள் சேகரிப்பின் ஒரு பகுதியாகும்.",
+    "add_another": "மற்றொரு நினைவகத்தைச் சேர்க்கவும்",
+    "finish": "பிரதிபலிப்பை முடிக்கவும்"
+  },
+  "closing": {
+    "title": "கவனித்துக் கொள்ளுதல்",
+    "subtitle": "இப்போதைக்கு உங்கள் பெட்டியை மூடுகிறேன். இந்த நினைவுகளுக்கு நெருக்கமாக உணர வேண்டிய எப்போது வேண்டுமானாலும் நீங்கள் இங்கு திரும்பலாம்.",
+    "exit": "மூடு பெட்டி"
+  },
+  "history": {
+    "title": "பெட்டி உள்ளடக்கங்கள்",
+    "no_memories": "உங்கள் பெட்டி காலியாக உள்ளது. உங்கள் சேகரிப்பைத் தொடங்க உங்கள் முதல் நினைவகத்தைச் சேர்க்கவும்.",
+    "search_placeholder": "நினைவுகளைத் தேடுங்கள்..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "மீண்டும் தொடங்கு",
+    "finish_exit": "முடித்துவிட்டு வெளியேறவும்",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "முடிக்க வேண்டிய நேரம்",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "பகிர்",
+    "share_progress": "முன்னேற்றத்தைப் பகிரவும்",
+    "inspire_others": "இன்று மற்றவர்களுக்கு ஊக்கமளியுங்கள்",
+    "share_text": "நான் தெரபிமந்த்ராவில் இந்த {{activityName}} செயல்பாட்டைச் செய்துள்ளேன், அது எனக்கு மிகவும் பிடித்திருக்கிறது. நீங்களும் இதைச் செய்யலாம், ஆண்ட்ராய்டு செயலி {{androidUrl}} அல்லது ஐஓஎஸ் செயலி {{iosUrl}} இணைப்பைப் பின்தொடரவும்.",
+    "this_activity": "இந்த செயல்பாடு",
+    "copied": "நகலெடுக்கப்பட்டது!",
+    "copy_message": "செய்தியை நகலெடுக்கவும்",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "மெமரி பாக்ஸ்",
+  "before_you_go": "நீங்கள் செல்வதற்கு முன்",
+  "grief_comes_in_waves": "துக்கம் அலை அலையாக வரும். 🌊",
+  "what_you_re_feeling_matters": "உங்கள் உணர்வுகள் முக்கியமானவை. 🤍",
+  "be_gentle_with_yourself_today": "இன்று உங்களுடன் மென்மையாக இருங்கள். 🌿",
+  "save_exit": "சேமித்து வெளியேறவும் 🕊️",
+  "take_your_time": "நிதானமாகச் செய்யுங்கள் 🕯️",
+  "save_to_memory_box": "மெமரி பாக்ஸில் சேமிக்கவும் 📦",
+  "write_as_much_or_as_little_as_you_want": "நீங்கள் விரும்பிய அளவு அதிகமாகவோ அல்லது குறைவாகவோ எழுதுங்கள்… ✍️",
+  "if_there_s_something_you_d_like_to_say": "நீங்கள் ஏதேனும் சொல்ல விரும்பினால்…",
+  "past_entries": "கடந்த பதிவுகள்",
+  "no_memories_saved_yet": "இன்னும் நினைவுகள் எதுவும் சேமிக்கப்படவில்லை.",
+  "this_memory_is_held_here_for_you": "இந்த நினைவு உங்களுக்காக இங்கே பாதுகாக்கப்படுகிறது. 🌿",
+  "add_another_memory": "இன்னொரு நினைவைச் சேர்க்கவும் ✨",
+  "finish_for_now": "இப்போதைக்கு முடிக்கவும்",
+  "more": "மேலும்",
+  "breadcrumb": "ரொட்டித்தூள்",
+  "previous_slide": "முந்தைய ஸ்லைடு",
+  "next_slide": "அடுத்த ஸ்லைடு",
+  "close": "அருகில்",
+  "previous": "முந்தைய",
+  "more_pages": "மேலும் பக்கங்கள்",
+  "pagination": "பக்க எண்",
+  "go_to_previous_page": "முந்தைய பக்கத்திற்குச் செல்லவும்",
+  "go_to_next_page": "அடுத்த பக்கத்திற்குச் செல்லவும்",
+  "toggle_sidebar": "பக்கப் பட்டியை மாற்று",
+  "oops_page_not_found": "அச்சச்சோ! பக்கம் காணப்படவில்லை",
+  "return_to_home": "முகப்புக்குத் திரும்பு",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,147 @@
+{
+  "app_title": "Planer okna snu",
+  "pill_labels": [
+    "Zbuduj swoje okno",
+    "Ustal swoje czasy",
+    "Twoje okno snu"
+  ],
+  "screen1": {
+    "title": "Twoje okno snu ma większe znaczenie, niż myślisz",
+    "p1": "Okno snu to stały czas między pójściem spać a przebudzeniem. Utrzymanie regularności — nawet w weekendy — to jedna z najpotężniejszych rzeczy, jakie możesz zrobić dla swojego snu.",
+    "p2": "To narzędzie pomaga zbudować swój w mniej niż 2 minuty.",
+    "insight": "Nawet godzinna różnica w czasie snu w weekendy może zakłócić samopoczucie przez cały tydzień.",
+    "meta": "Proste. Osobiste. Skuteczne.",
+    "button": "Zbudujmy mój →"
+  },
+  "screen2": {
+    "title": "Ustaw okno snu",
+    "step1": {
+      "title": "KROK 1 — CZAS POBUDKI",
+      "desc": "O której godzinie musisz się budzić większość dni?"
+    },
+    "step2": {
+      "title": "KROK 2 — CZAS SNU",
+      "desc": "Ile godzin chcesz spać?"
+    },
+    "live_window": {
+      "bedtime": "Pora snu",
+      "waketime": "Czas pobudki",
+      "duration": "{{hours}} godzin snu"
+    },
+    "italic": "Większość dorosłych potrzebuje 7–9 godzin. Wybierz to, co wydaje się właściwe.",
+    "button": "Widzisz moje okno snu →"
+  },
+  "screen3": {
+    "title": "Twoje okno 🌙 snu",
+    "result": {
+      "bedtime": "Pora snu",
+      "waketime": "Czas pobudki",
+      "duration": "Czas trwania",
+      "hours": "{{hours}} godzin"
+    },
+    "accordion1": {
+      "title": "3 sposoby ochrony",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Zrelaksuj się 30 minut przed snem"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Taka sama pora pobudki każdego dnia — tak, w weekendy też"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Unikaj drzemek dłuższych niż 20 minut po 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Zobowiąż się dziś wieczorem do jednej rzeczy",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Odłóż telefon przed snem"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Zacznij rutynę relaksującą"
+        },
+        {
+          "emoji": "💡",
+          "text": "Przyciemnić światła na godzinę przed snem"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Skończę moją listę rzeczy do zrobienia wcześniej"
+        }
+      ]
+    },
+    "quote": "Konsekwencja jest potężniejsza niż perfekcja. Jedna dobra noc buduje się kolejna.",
+    "button": "Zachowaj mój czas na sen ✓",
+    "saved_button": "✓ Okno snu uratowane!",
+    "adjust_times": "Czas korekty"
+  },
+  "complete": {
+    "title": "Utworzone okno",
+    "message": "Twoje idealne okno snu zostało zmapowane. Konsekwencja to klucz do głębokiego, regenerującego odpoczynku."
+  },
+  "toasts": {
+    "save_success": "Okno snu zapisane",
+    "save_error": "Nie udało się zapisać okna snu",
+    "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
+    "saving": "Zapisuję..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Planer okien snu",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

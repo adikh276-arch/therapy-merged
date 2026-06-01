@@ -1,0 +1,147 @@
+{
+  "app_title": "Sömnfönsterplanerare",
+  "pill_labels": [
+    "Bygg ditt fönster",
+    "Sätt dina tider",
+    "Ditt sömnfönster"
+  ],
+  "screen1": {
+    "title": "Ditt sömnfönster betyder mer än du tror",
+    "p1": "Ett sömnfönster är den fasta tiden mellan att du går och lägger dig och när du vaknar. Att hålla den konsekvent – även på helgerna – är en av de mest kraftfulla sakerna du kan göra för din sömn.",
+    "p2": "Det här verktyget hjälper dig att bygga din på under 2 minuter.",
+    "insight": "Även en timmes skillnad i sömntider på helgerna kan störa hur du mår hela veckan.",
+    "meta": "Enkelt. Personligt. Effektivt.",
+    "button": "Låt oss bygga min →"
+  },
+  "screen2": {
+    "title": "Låt oss ställa in ditt sömnfönster",
+    "step1": {
+      "title": "STEG 1 — UPPVAKNINGSTID",
+      "desc": "Vilken tid behöver du vakna de flesta dagar?"
+    },
+    "step2": {
+      "title": "STEG 2 — SÖMNLÄNGD",
+      "desc": "Hur många timmars sömn vill du ha?"
+    },
+    "live_window": {
+      "bedtime": "Läggdags",
+      "waketime": "Vakningstid",
+      "duration": "{{hours}} timmars sömn"
+    },
+    "italic": "De flesta vuxna behöver 7–9 timmar. Välj det som känns rätt.",
+    "button": "Se mitt sömnfönster →"
+  },
+  "screen3": {
+    "title": "Ditt sömnfönster 🌙",
+    "result": {
+      "bedtime": "Läggdags",
+      "waketime": "Vakningstid",
+      "duration": "Varaktighet",
+      "hours": "{{hours}} timmar"
+    },
+    "accordion1": {
+      "title": "3 sätt att skydda den",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Varva ner 30 minuter innan läggdags"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Samma vakentid varje dag — ja, helger också"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Undvik tupplurar längre än 20 minuter efter kl 15"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Satsa på en sak ikväll",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Lägg undan min telefon innan jag går och lägger mig"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Starta en varvningsrutin"
+        },
+        {
+          "emoji": "💡",
+          "text": "Dämpa ljuset en timme innan läggdags"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Avsluta min att-göra-lista tidigt"
+        }
+      ]
+    },
+    "quote": "Konsekvens är starkare än perfektion. En bra natt byggs upp, nästa.",
+    "button": "Spara mitt sömnfönster ✓",
+    "saved_button": "✓ Sovfönstret räddat!",
+    "adjust_times": "Justera tider"
+  },
+  "complete": {
+    "title": "Fönster skapat",
+    "message": "Ditt ideala sömnfönster har kartlagts. Konsekvens är nyckeln till djup, återställande vila."
+  },
+  "toasts": {
+    "save_success": "Vilofönstret sparat",
+    "save_error": "Misslyckades med att spara vilofönstret",
+    "auth_error": "Auth-session saknas eller databas inte konfigurerad",
+    "saving": "Rädda..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sömnfönsterplanerare",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

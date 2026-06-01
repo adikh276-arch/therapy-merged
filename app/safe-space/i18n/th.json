@@ -1,0 +1,114 @@
+{
+  "app_title": "พื้นที่ปลอดภัย",
+  "nav": [
+    "เช็คอิน",
+    "เรียกคืนอย่างนุ่มนวล",
+    "การสังเกต",
+    "อยู่กับปัจจุบัน",
+    "ก้าวไปข้างหน้า"
+  ],
+  "s1": {
+    "title": "มาหาสถานที่ที่รู้สึกโอเคกันเถอะ",
+    "description": [
+      "ก่อนที่เราจะเริ่ม สละเวลาสักครู่เพื่อเช็คอิน...",
+      "ตอนนี้คุณรู้สึกอย่างไร?",
+      "เราไม่ได้มองหา \"สถานที่ปลอดภัย\" ที่สมบูรณ์แบบ แค่สิ่งที่รู้สึกสงบหรือโอเคเพียงเล็กน้อย"
+    ],
+    "placeholder": "ตอนนี้คุณรู้สึกอย่างไร?",
+    "button": "เริ่มการแสดงภาพ"
+  },
+  "s2": {
+    "title": "ค่อยๆ นึกถึง",
+    "description": [
+      "ลองนึกถึงสถานที่ที่คุณรู้สึกสบายใจแม้เพียงเล็กน้อย... หรือสถานที่ที่คุณอยากมีอยู่",
+      "ตอนนี้วางตัวเองไว้ที่นั่น...",
+      "คุณนั่ง ยืน หรือนอนราบ?"
+    ],
+    "button": "ดําเนินการต่อ"
+  },
+  "s3": {
+    "title": "มองไปรอบ ๆ อย่างช้าๆ",
+    "description": [
+      "มองไปรอบ ๆ อย่างอ่อนโยน...",
+      "สิ่งหนึ่งที่คุณสามารถเห็นคืออะไร?",
+      "ตอนนี้สังเกตเสียง... คุณได้ยินอะไร?"
+    ],
+    "button": "ดําเนินการต่อ"
+  },
+  "s4": {
+    "title": "อยู่กับสิ่งนี้",
+    "description": [
+      "อะไรเกี่ยวกับสถานที่แห่งนี้ที่ทําให้รู้สึกปลอดภัยหรือโอเคแม้แต่นิดเดียว?",
+      "อย่างที่คุณสังเกตเห็นว่า...",
+      "ให้ความสนใจกับลมหายใจของคุณด้วย"
+    ],
+    "breathe": "หายใจ",
+    "notice": "หากจินตนาการรู้สึกยาก ให้คิดถึงความคิดของสถานที่แห่งนี้",
+    "button": "ดําเนินการต่อ"
+  },
+  "s5": {
+    "title": "นําสิ่งนี้ติดตัวไปด้วย",
+    "description": [
+      "สังเกตว่าคุณรู้สึกอย่างไรในตอนนี้ แม้แต่การเปลี่ยนแปลงเล็กน้อยก็มีความสําคัญ",
+      "ดูว่าคุณสามารถพกความรู้สึกนี้ติดตัวไปได้ถึง 5% หรือไม่"
+    ],
+    "placeholder": "ตอนนี้คุณรู้สึกอย่างไร?",
+    "button": "เซสชันที่สมบูรณ์"
+  },
+  "complete": {
+    "title": "เซสชั่นเสร็จสมบูรณ์",
+    "message": "สถานที่ปลอดภัยนี้พร้อมให้คุณเสมอ คุณสามารถกลับมาที่นี่ได้ทุกเมื่อที่คุณต้องการความสงบสักครู่"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "พื้นที่ปลอดภัย",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

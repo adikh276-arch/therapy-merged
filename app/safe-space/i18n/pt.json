@@ -1,0 +1,114 @@
+{
+  "app_title": "Espaço Seguro",
+  "nav": [
+    "Check-in",
+    "Lembre Suavemente",
+    "Observação",
+    "Permanecendo no Presente",
+    "Avançando"
+  ],
+  "s1": {
+    "title": "Vamos encontrar um lugar que seja bom",
+    "description": [
+      "Antes de começarmos, reserve um momento para checar...",
+      "Como você está se sentindo agora?",
+      "Não estamos procurando um \"lugar seguro\" perfeito. Só algo que pareça um pouco calmo ou aceitável."
+    ],
+    "placeholder": "Como você está se sentindo agora?",
+    "button": "Iniciar a visualização"
+  },
+  "s2": {
+    "title": "Com delicadeza, traga isso à mente",
+    "description": [
+      "Pense em um lugar onde você se sentisse ao menos um pouco à vontade... Ou um lugar que você gostaria que existisse.",
+      "Agora coloque-se ali...",
+      "Você está sentado, em pé ou deitado?"
+    ],
+    "button": "Continue"
+  },
+  "s3": {
+    "title": "Olhe ao redor devagar",
+    "description": [
+      "Dê uma olhada gentil ao redor...",
+      "Qual é uma coisa que você consegue ver?",
+      "Agora repare em um som... O que você ouve?"
+    ],
+    "button": "Continue"
+  },
+  "s4": {
+    "title": "Fique com isso",
+    "description": [
+      "O que há nesse lugar que faz com que pareça um pouco seguro ou legal?",
+      "Como você percebe isso...",
+      "Também chame sua atenção para a respiração."
+    ],
+    "breathe": "respire",
+    "notice": "Se imaginar parece difícil, pense na ideia deste lugar.",
+    "button": "Continue"
+  },
+  "s5": {
+    "title": "Leve isso com você",
+    "description": [
+      "Perceba como você se sente agora. Até uma pequena mudança importa.",
+      "Veja se consegue carregar até 5% dessa sensação com você."
+    ],
+    "placeholder": "Como você se sente agora?",
+    "button": "Sessão Completa"
+  },
+  "complete": {
+    "title": "Sessão Concluída",
+    "message": "Esse lugar seguro está sempre disponível para você. Você pode voltar aqui sempre que precisar de um momento de calma."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Espaço seguro",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

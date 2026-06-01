@@ -1,0 +1,102 @@
+{
+  "app_title": "Ang Hindi Ipinadala na Liham",
+  "app_subtitle": "Palayain ang iyong mga saloobin nang ligtas at pribado",
+  "intro": {
+    "title": "Ang Hindi Ipinadala na Liham",
+    "description": [
+      "Minsan, may mga bagay na nais nating sabihin - ngunit hindi kailanman nagkaroon ng pagkakataon.",
+      "Maaaring ito ay dahil hindi ito ligtas, hindi tama ang tiyempo, o napakahirap ipahayag nang malakas ang mga salita.",
+      "Ang aktibidad na ito ay nagbibigay sa iyo ng isang pribadong espasyo upang ilagay ang mga kaisipang iyon sa mga salita.",
+      "Hindi mo na kailangang ipadala ang liham na ito. Ito ay para lamang sa iyo - upang ipahayag, palayain, at maunawaan ang iyong mga damdamin nang mas mahusay."
+    ],
+    "notice": "Sumulat nang malaya. Walang ibang makakakita nito.",
+    "button": "Simulan ang pagsulat →"
+  },
+  "writing": {
+    "title": "Isulat kung ano ang iyong hinawakan",
+    "desc": "Maaari kang sumulat sa iyong kapareha, dating kapareha, o kahit na sa relasyon mismo. Walang tama o maling paraan upang gawin ito.",
+    "prompts": [
+      "Pakiramdam ko...",
+      "Nais ko...",
+      "Hindi ko kailanman sinabi...",
+      "Ano ang nasaktan sa akin ...",
+      "Ano ang kailangan ko..."
+    ],
+    "placeholder": "Mahal na ____,\nMatagal ko nang gustong sabihin...",
+    "notice": "Maaari kang mag-pause at bumalik anumang oras.",
+    "button": "Magpatuloy →"
+  },
+  "reflection": {
+    "title": "Maglaan ng ilang sandali dito",
+    "description": [
+      "Inilagay mo lang ang iyong mga saloobin at damdamin sa mga salita - na nangangailangan ng lakas ng loob.",
+      "Maaari mong mapansin ang isang halo ng mga emosyon ngayon, at iyon ay ganap na okay.",
+      "Bago ka magpatuloy, huminga muna at dahan-dahang suriin ang iyong sarili."
+    ],
+    "notice": "Ito ay para sa iyong pagpapagaling, hindi para sa pagpapadala.",
+    "save_button": "I-save ang Liham",
+    "finish_button": "Tapusin"
+  },
+  "history": {
+    "title": "Mga Nakaraang Liham",
+    "empty_title": "Hindi ka pa nagsusulat ng kahit anong liham.",
+    "empty_desc": "Ang iyong mga liham ay lilitaw dito pagkatapos mong i-save ang mga ito."
+  },
+  "toasts": {
+    "save_success": "Nai-save ang liham sa iyong pribadong journal",
+    "save_error": "Nabigong i-save ang liham",
+    "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ilabas ang iyong mga iniisip nang ligtas at pribado",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

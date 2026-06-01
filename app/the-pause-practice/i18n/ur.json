@@ -1,0 +1,125 @@
+{
+  "app_title": "پاز پریکٹس",
+  "app_subtitle": "درمیان کے فاصلے پر عبور حاصل کریں",
+  "intro": {
+    "title": "5 سیکنڈ کا وقفہ",
+    "description": "محسوس کرنے اور ردعمل دینے کے درمیان ایک چھوٹا وقفہ سب کچھ بدل سکتا ہے۔",
+    "duration": "پندرہ سیکنڈ سے بھی کم وقت لگتا ہے۔ واقعی۔",
+    "button": "کوشش →"
+  },
+  "scenario": {
+    "title": "آپ کو کیا چیز ٹرگر کرتی ہے؟",
+    "desc": "ایسی صورتحال منتخب کریں جس سے آپ خود کو جوڑتے ہوں",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "کسی نے مجھے روک دیا",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "چیزیں منصوبے کے مطابق نہیں ہوتیں",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "مجھے نظر انداز کیا گیا محسوس ہوتا ہے",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "میں خود کو مغلوب محسوس کر رہا ہوں",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "اپنا خود ٹائپ کریں...",
+    "button": "پریکٹس پاز →"
+  },
+  "hold": {
+    "title": "ہولڈ ٹو پاز ⏸️",
+    "instructions": "دائرے کو 5 سیکنڈ تک روکیں",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "دبائیں اور روکیں..."
+      },
+      {
+        "at": "0.15",
+        "text": "اس کے ساتھ رہو..."
+      },
+      {
+        "at": "0.5",
+        "text": "تم کر رہے ہو..."
+      },
+      {
+        "at": "0.8",
+        "text": "تقریبا پہنچ گئے..."
+      }
+    ]
+  },
+  "result": {
+    "title": "یہی وقفہ ہے",
+    "message": "آپ نے بس اپنے جذبات اور ردعمل کے درمیان فاصلہ پیدا کیا۔ ایک چھوٹا سا وقفہ بھی آپ کو اپنا مرکز واپس لینے میں مدد دیتا ہے۔",
+    "tip_label": "پروفیشنل ٹپ",
+    "scenario_messages": {
+      "interrupts": "اگلی بار جب کوئی آپ کی بات کاٹے، جواب دینے سے پہلے یہ طریقہ آزما کر دیکھیں۔",
+      "plans": "اگلی بار جب چیزیں منصوبے کے مطابق نہ ہوں، تو ردعمل دینے سے پہلے یہ طریقہ آزما لیں۔",
+      "ignored": "اگلی بار جب آپ کو نظر انداز ہونے کا احساس ہو تو جواب دینے سے پہلے یہ طریقہ آزمائیں۔",
+      "overwhelmed": "اگلی بار جب آپ خود کو مغلوب محسوس کریں، تو کچھ کرنے سے پہلے یہ طریقہ آزما کر دیکھیں۔",
+      "other": "اگلی بار جب آپ کو ٹرگر محسوس ہو، تو ردعمل دینے سے پہلے یہ طریقہ آزمائیں۔"
+    },
+    "italic": "یہ ہمیشہ آسان محسوس نہیں ہوگا—لیکن مستقل مزاجی کلید ہے۔"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "درمیان کی جگہ پر عبور حاصل کریں۔",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

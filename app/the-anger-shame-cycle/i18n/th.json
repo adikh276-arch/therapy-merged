@@ -1,0 +1,124 @@
+{
+  "app_title": "วงจรความโกรธ-ความอัปยศ",
+  "app_subtitle": "ทําความเข้าใจกับลูป • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "ทําไมความโกรธถึงกลับมาอีก?",
+      "description": "มันอาจไม่ใช่อารมณ์ของคุณ มีลูปที่ซ่อนอยู่ระหว่างความโกรธและความอับอาย และเมื่อคุณเห็นมัน ทุกอย่างก็เปลี่ยนไป",
+      "quote": "\"คนส่วนใหญ่พยายามแก้ไขความโกรธ แต่ความอัปยศคือสิ่งที่ทําให้มันดําเนินต่อไปอย่างเงียบ ๆ \"",
+      "button": "มาสํารวจกัน"
+    },
+    "s2": {
+      "tag": "วัฏจักร",
+      "title": "อธิบายลูป",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "ความโกรธปรากฏขึ้น"
+        },
+        {
+          "emoji": "😔",
+          "label": "ความอัปยศ: \"ฉันไม่ดี\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "ความอัปยศถูกฝัง"
+        },
+        {
+          "emoji": "🔥",
+          "label": "ความโกรธปะทุขึ้นอีกครั้ง"
+        }
+      ],
+      "button": "ฉันเห็นมัน"
+    },
+    "s3": {
+      "tag": "สิ่งที่เกิดขึ้น",
+      "title": "สองอารมณ์ หนึ่งกับดัก",
+      "anger": {
+        "title": "🔥 ความโกรธ",
+        "desc": "อารมณ์รอง — ภายใต้ชีวิตที่เจ็บปวด กลัว หรือถูกปฏิเสธ มันเป็นสัญญาณเตือนภัย ไม่ใช่ไฟไหม้"
+      },
+      "shame": {
+        "title": "😔 ความอัปยศ",
+        "desc": "\"ฉันไม่ดี\" ไม่ใช่แค่ \"ฉันทําอะไรไม่ดี\" มันซ่อน เงียบ และทําให้วงจรหมุน"
+      },
+      "button": "หลุดพ้น"
+    },
+    "s4": {
+      "tag": "การหยุดชะงัก",
+      "title": "ขัดจังหวะวงจร",
+      "steps": [
+        {
+          "title": "ตั้งชื่อแหล่งที่มา",
+          "desc": "ถาม ว่า 'ฉัน รู้สึก อะไร อยู่ จริง ๆ?' เจ็บ? กลัว? มองไม่เห็น? การตั้งชื่อมันทําให้มันอ่อนแอลง"
+        },
+        {
+          "title": "หยุดความเห็นอกเห็นใจชั่วคราว",
+          "desc": "มือบนหน้าอก จงกล่าวเถิด (มุฮัมมัด) \"นี่เป็นเรื่องยาก ฉันเป็นมนุษย์ ฉันผ่านมันไปได้'"
+        },
+        {
+          "title": "ซ่อมแซมด้วยความสง่างาม",
+          "desc": "แก้ไขหากจําเป็น แต่อย่าวนเวียน คุณไม่ใช่ช่วงเวลาที่เลวร้ายที่สุดของคุณ"
+        }
+      ],
+      "notice": "การสังเกตวงจรเป็นขั้นตอนแรกแล้ว คุณกําลังทํางานอยู่",
+      "button": "ทํากิจกรรมให้เสร็จสมบูรณ์"
+    }
+  },
+  "complete": {
+    "title": "วงจรถูกขัดจังหวะ",
+    "message": "คุณได้รับความตระหนักที่จะเห็นความเชื่อมโยงระหว่างความโกรธและความอับอาย นี่คือรากฐานสําหรับอิสรภาพทางอารมณ์ที่ยั่งยืน"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ทำความเข้าใจลูป • {{step}}/{{total}}",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

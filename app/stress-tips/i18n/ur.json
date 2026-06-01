@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "گہرا سانس 🌿 لو",
+    "title": "اپنے ذہنی دباؤ کو سنبھالیں",
+    "description": "سادہ روزمرہ کی عادات جو آپ کو پرسکون اور زیادہ قابو میں محسوس کرنے میں مدد دیتی ہیں۔",
+    "sectionTitle": "روزانہ کے لیے ذہنی دباؤ کم کرنے کے مشورے"
+  },
+  "tip": {
+    "sleep": {
+      "title": "آرام دہ نیند لیں",
+      "description": "ہر رات 7–9 گھنٹے کی نیند کا ہدف رکھیں۔ روزانہ ایک ہی وقت پر سونے اور جاگنے کی کوشش کریں۔",
+      "why": "نیند آپ کے دماغ اور جسم کو بحال کرنے میں مدد دیتی ہے اور دباؤ کے ہارمونز کو کم کرتی ہے۔",
+      "do": [
+        "ایک مقررہ نیند کا شیڈول رکھیں",
+        "سونے سے ایک گھنٹہ پہلے اسکرینز سے بچیں",
+        "کمرہ ٹھنڈا اور تاریک رکھیں",
+        "شام 4 بجے کے بعد کیفین سے پرہیز کریں"
+      ],
+      "button": "نیند کی یاد دہانی سیٹ کریں"
+    },
+    "breathing": {
+      "title": "گہری سانس لینے کی مشق کریں",
+      "description": "چند منٹ اپنی سانس پر توجہ مرکوز کریں۔ آہستہ سانس لینے سے بے چینی کم ہوتی ہے۔",
+      "why": "آہستہ سانس لینا آپ کے جسم کے آرام کے ردعمل کو متحرک کرتا ہے۔",
+      "do": [
+        "4 سیکنڈ کے لیے سانس اندر کھینچیں",
+        "4 سیکنڈ کے لیے روکیں",
+        "4 سیکنڈ کے لیے سانس باہر نکالیں",
+        "یہ عمل 1 منٹ کے لیے دہرائیں"
+      ]
+    },
+    "exercise": {
+      "title": "اپنا جسم حرکت دو",
+      "description": "ہلکی پھلکی چلنا یا اسٹریچنگ دباؤ کو کم کرنے اور موڈ بہتر بنانے میں مدد دیتی ہے۔",
+      "why": "ورزش اینڈورفنز خارج کرتی ہے اور موڈ کو بہتر بناتی ہے۔",
+      "do": [
+        "پندرہ منٹ کی واک",
+        "ہلکی کھینچاؤ",
+        "مختصر یوگا سیشن",
+        "فوری گھر پر ورزش"
+      ]
+    },
+    "caffeine": {
+      "title": "کیفین اور شکر کی مقدار محدود کریں",
+      "description": "زیادہ کیفین اور چینی بے چینی بڑھا سکتی ہے اور نیند میں خلل ڈال سکتی ہے۔",
+      "why": "زیادہ کیفین اور چینی بے چینی اور نیند کے مسائل میں اضافہ کرتی ہے۔",
+      "do": [
+        "ایک کافی کو ہربل چائے سے بدلیں",
+        "زیادہ پانی پیو",
+        "میٹھا سنیکس کم کریں",
+        "دن کے آخر میں کیفین سے پرہیز کریں"
+      ]
+    },
+    "planning": {
+      "title": "اپنا دن پلان کریں",
+      "description": "بڑے کاموں کو چھوٹے مراحل میں تقسیم کریں تاکہ دباؤ محسوس نہ ہو۔",
+      "why": "منصوبہ بندی ذہنی بے ترتیبی اور دباؤ کو کم کرتی ہے۔",
+      "do": [
+        "3 اہم کام لکھیں",
+        "کاموں کو چھوٹے مراحل میں تقسیم کریں",
+        "ایک وقت میں ایک کام پر توجہ مرکوز کریں",
+        "مختصر وقفے لیں"
+      ]
+    }
+  },
+  "detail": {
+    "back": "واپس",
+    "notFound": "ٹپ نہیں ملی۔",
+    "whyTitle": "یہ کیوں مدد دیتا ہے",
+    "doTitle": "آپ کیا کر سکتے ہیں",
+    "reminderSet": "یاد دہانی سیٹ! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "اوہ! صفحہ نہیں ملا",
+    "return": "گھر کی طرف واپسی"
+  },
+  "mood": {
+    "title": "آج کیسا محسوس کر رہے ہو؟",
+    "great": "زبردست",
+    "okay": "ٹھیک ہے",
+    "stressed": "دباؤ میں",
+    "overwhelmed": "مغلوب"
+  },
+  "breathing": {
+    "inhale": "سانس لیں...",
+    "hold": "رکو...",
+    "exhale": "سانس چھوڑو...",
+    "pause": "وقفہ",
+    "resume": "ریزیومے"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "تناؤ سے نجات",
+  "app_description": "تناؤ سے نجات",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "breathing_guide": "سانس لینے کی گائیڈ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

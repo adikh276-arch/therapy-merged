@@ -1,0 +1,292 @@
+{
+  "app_title": "תיקון וחיבור מחדש",
+  "steps": {
+    "welcome": "ברוכים הבאים",
+    "choose_person": "בחר אדם",
+    "choose_approach": "בחר גישה",
+    "guided_action": "פעולה מונחית",
+    "complete": "הושלם"
+  },
+  "intro": {
+    "title": "תיקון וחיבור מחדש",
+    "description": "כעס יכול ליצור מרחק בינינו לבין האנשים שחשובים לנו. אבל צעדים קטנים ועדינים יכולים לעזור לבנות מחדש את הקשר הזה.",
+    "quote": "\"תיקון לא אומר שטעית—זה אומר שאתה דואג מספיק לנסות.\"",
+    "small_efforts": "אפילו מאמצים קטנים יכולים לעשות הבדל.",
+    "button": "תתחיל →"
+  },
+  "choose_person": {
+    "title": "עם מי היית רוצה להתחבר מחדש?",
+    "desc": "לחשוב על מערכת יחסים מסוימת עוזר לגרום לשלבים להרגיש אמיתיים.",
+    "options": {
+      "friend": "חבר",
+      "family": "בן משפחה",
+      "colleague": "עמית",
+      "other": "מישהו אחר"
+    },
+    "button": "המשך →"
+  },
+  "choose_approach": {
+    "title": "מה מרגיש לך נכון?",
+    "desc": "בחר צעד קטן שמרגיש אפשרי.",
+    "safety": "אתה לא חייב לתקן הכל—רק תבחר צעד קטן אחד.",
+    "button": "נסה את זה →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "שלח צ'ק-אין קליל",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "הכיר במתח",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "תנו אחד לשני קצת מרחב",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "שחרר את זה ותמשיך הלאה",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "פשוט תחשוב על זה",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "שלח מסר חם",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "תגיד בכנות מה קרה",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "התחייב להשהות בפעם הבאה",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "בחר בשלום על פני להיות צודק",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "הרהר במה שאתה באמת צריך",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "שלח מכתב מקצועי",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "תתייחס לזה בכבוד",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "תכנן תגובה רגועה יותר בפעם הבאה",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "תשמור על מקצועיות ותמשיך הלאה",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "תחשוב על גבולות",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "פנה עם הודעה פשוטה",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "הכירו במה שקרה",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "קח הפסקה בפעם הבאה",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "תעזוב את זה לעת עתה",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "פשוט תחשוב (עדיין אין פעולה)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "הקש כדי לראות איך ✨",
+    "copy_button": "📋 העתק הודעה",
+    "done_button": "סיימתי →",
+    "safety_line_default": "אתה לא חייב לשלוח כלום עכשיו. 💛",
+    "safety_line_pause": "קח את הזמן — אין לחץ. 💛",
+    "safety_line_reflect": "זה רק בשבילך—אף אחד אחר לא צריך לראות את זה. 💛",
+    "actions": {
+      "message": {
+        "title": "שלח הודעה פשוטה",
+        "why": "הודעה פשוטה יכולה לשבור את השקט ולהראות לאדם השני שאתה עדיין אכפת לך.",
+        "insight": "הפנייה — אפילו בצורה לא מושלמת — כמעט תמיד מתקבלת טוב יותר ממה שציפינו.",
+        "howTitle": "תתחיל בקטן",
+        "howBody": "אתה לא חייב לכתוב חיבור. כמה מילים כנות יכולות לפתוח את הדלת להתחברות מחדש.",
+        "prompts": [
+          "היי, חשבתי עלייך. מקווה שאתה בסדר.",
+          "אני יודע שהמצב היה מתוח—רק רציתי להגיד שאכפת לי.",
+          "אני מצטער על מה שקרה קודם. אפשר לדבר כשאתה מוכן?"
+        ],
+        "promptLabel": "בחרו נקודת התחלה:",
+        "editLabel": "תעשה זאת שלך:"
+      },
+      "acknowledge": {
+        "title": "הכירו במה שקרה",
+        "why": "הכרה במה שקרה מראה בגרות ועוזרת לאדם השני להרגיש שהוא נראה.",
+        "insight": "אנשים לא צריכים שתהיי מושלמת — הם צריכים לדעת ששמת לב.",
+        "howTitle": "תגיד בעדינות",
+        "howBody": "אתה יכול להכיר בלי לקחת את כל האשמה. פשוט תגיד מה קרה בכנות.",
+        "prompts": [
+          "אני יודע שהדברים בינינו התלהטו. אני רוצה שתדע ששמתי לב.",
+          "אני מבין שאולי נשמעתי בצורה קשה. זו לא הייתה הכוונה שלי.",
+          "חשבתי על מה שקרה, והייתי רוצה שהייתי מתמודד עם זה אחרת."
+        ],
+        "promptLabel": "בחרו נקודת התחלה:",
+        "editLabel": "תעשה זאת שלך:"
+      },
+      "pause": {
+        "title": "קח הפסקה בפעם הבאה",
+        "why": "להתחייב להפסקה נותן לך מרחב להגיב במקום להגיב.",
+        "insight": "הפסקה של 6 שניות מספיקה לעיתים קרובות כדי לעבור מתגובה להרהור.",
+        "howTitle": "🧘 תכנן את ההפסקה שלך",
+        "howBody": "תחשוב על אות פשוט—כמו לקחת נשימה או להתרחק לרגע—לפני שתגיב.",
+        "prompts": [
+          "בפעם הבאה שארגיש עצוב, אקח נשימה עמוקה לפני שאגיב.",
+          "אני אנסה להגיד 'תן לי רגע' במקום להגיב מיד.",
+          "אני אתרחק לכמה דקות כדי לאסוף את מחשבותיי."
+        ],
+        "promptLabel": "בחר התחייבות שמרגישה נכונה:",
+        "editLabel": "כתוב את הכוונה שלך:"
+      },
+      "letgo": {
+        "title": "תעזוב את זה לעת עתה",
+        "why": "לפעמים הדבר הכי טוב שאתה יכול לעשות הוא לשחרר את כובד המצב.",
+        "insight": "לשחרר זה לא ויתור—זה לבחור בשלום על פני להיות צודק.",
+        "howTitle": "🕊️ שחרר בעדינות",
+        "howBody": "אתה לא חייב לשכוח. פשוט תחליט שזה כבר לא צריך לשלוט איך אתה מרגיש.",
+        "prompts": [
+          "אני בוחרת לשחרר את זה—לא כי זה לא היה חשוב, אלא כי השקט שלי חשוב יותר.",
+          "אני משחרר את הצורך להיות צודק בזה. אני בוחר בחיבור.",
+          "המצב הזה לא מגדיר את הקשר שלנו. אני מתקדם."
+        ],
+        "promptLabel": "בחר מה שמדבר אליו:",
+        "editLabel": "כתוב מה שמרגיש נכון עבורך:"
+      },
+      "reflect": {
+        "title": "פשוט תחשוב",
+        "why": "הרהור בונה מודעות עצמית, שהיא הבסיס לכל מערכת יחסים בריאה.",
+        "insight": "כתיבה ביומן או אפילו לחשוב על מה שקרה עוזרים לך לעבד רגשות בלי לחץ.",
+        "howTitle": "🔍 תסתכל פנימה",
+        "howBody": "שאל את עצמך: מה באמת הרגשתי מתחת לכעס? לעיתים קרובות זה פגיעה, פחד או אכזבה.",
+        "prompts": [
+          "מתחת לכעס שלי, אני חושב שהרגשתי פגוע.",
+          "אני מבין שהגבתי מתוך פחד שלא יקשיבו לי.",
+          "מה שבאמת הייתי צריכה זה להרגיש מכובדת ומוערכת."
+        ],
+        "promptLabel": "בחר מה שמדבר אליו:",
+        "editLabel": "כתוב את ההרהור שלך:"
+      }
+    }
+  },
+  "complete": {
+    "title": "חיבור תיקון",
+    "message": "עשית צעד אמיץ לקראת תיקון הקשר שלך עם {{person}}. פעולות קטנות ומכוונות בונות גשרים מתמשכים.",
+    "default_person": "מישהו חשוב"
+  },
+  "toasts": {
+    "save_success": "התקדמות התיקון נשמרת",
+    "save_error": "נכשל בשימור ההשתקפות",
+    "copy_success": "ההודעה הועתקה!",
+    "preserving": "שימור...",
+    "complete_button": "שלם ושמור"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "תיקון וחיבור מחדש",
+  "that_s_a_step_forward": "זה צעד קדימה",
+  "you_took_a_small_step_toward_repair_and_that_matte": "עשית צעד קטן לקראת תיקון - וזה חשוב.",
+  "try_with_someone_else": "נסה עם מישהו אחר",
+  "done": "בוצע ✔",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

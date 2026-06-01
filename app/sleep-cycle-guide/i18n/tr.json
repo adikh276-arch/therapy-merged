@@ -1,0 +1,177 @@
+{
+  "app_title": "Uyku Döngüsü Rehberi",
+  "pill_labels": [
+    "Giriş",
+    "4 aşama",
+    "Sersemlemiş gerçek",
+    "Ya sen?"
+  ],
+  "s1": {
+    "title": "Hiç 8 saat uyudunuz mu ve hâlâ kötü hissettiniz mi?",
+    "p1": "Mesele <1>ne kadar süre</1> uyumayacağınız değil.",
+    "p2": "Uyku döngünüzde uyandığınız <1>1</1> civarında.",
+    "p3": "Bunu anladığınızda bir şey değişir — her şey.",
+    "insight": "💡 Beyniniz aslında REM uykusu sırasında tamamen uyanık olduğundakinden daha aktif!",
+    "duration": "3 dakika sürüyor · ömür boyu sürer",
+    "button": "Bekle, gerçekten mi? Daha fazla →"
+  },
+  "s2": {
+    "title": "Beyniniz BUNU her gece 🌀 yapıyor",
+    "desc": "Her 90 dakikada bir, beyniniz 4 aşamadan geçer — sanki bir çalma listesi tekrar tekrar tekrarlanır. Her birine dokunarak keşfet 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Hafif uyku",
+        "tag": "1–5 dakika · Kolayca uyanıyor",
+        "body": "Uykuya dalıyorsun. Vücut bırakmaya başlar, kaslar seğirebilir. Buradan uyanmak çok kolay."
+      },
+      {
+        "emoji": "💤",
+        "title": "Yerleşim",
+        "tag": "10–25 dakika · gerçekten uyuyor",
+        "body": "Kalp atış hızı yavaşlar, vücut sıcaklığı düşer. Düzgün uyuyorsunuz — beyin aktiviteleri yavaşlamaya başlar."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Derin uyku ⭐",
+        "tag": "20–40 dakika · Altın",
+        "body": "Vücut dokuyu onarır, bağışıklık oluşturur. En fiziksel olarak iyileştirici aşama — uyanması zor."
+      },
+      {
+        "emoji": "🌙",
+        "title": "REM uykusu",
+        "tag": "10–60 dakika · rüya modu",
+        "body": "Beynim hareketlilikle titreşir. Duygular işleniyor, anılar kilitleniyor. Bunu atlamak sizi bulanık bırakır."
+      }
+    ],
+    "italic": "Derin uyku vücudunu iyileştirir. REM zihnini düzeltir.",
+    "button": "Peki neden hala sersemleniyorum? →"
+  },
+  "s3": {
+    "title": "Döngü ortasında uyanmak = zombi modu 🧟",
+    "p1": "Derin uykudan alarmla mı çekildin? Beyniniz gerçekten işini tamamlamadı. O sisli, ağır bir his mi? Bu <1>uyku ataleti</1>.",
+    "wave": {
+      "light": "ışık",
+      "deep": "Derin",
+      "groggy": "😫 sersemledim",
+      "fresh": "😊 taze",
+      "cycles": [
+        "1. Döngü",
+        "2. Döngü",
+        "3. Döngü"
+      ]
+    },
+    "disruptors_title": "Döngülerinizi 👇 ne bozuyor",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Yatmadan önce ekranlar",
+        "sub": "derin uykuyu geciktirir"
+      },
+      {
+        "emoji": "☕",
+        "text": "Geç Kafein",
+        "sub": "derin uykuyu %20'ye kadar azaltır"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Düzensiz uyku süreleri",
+        "sub": "doğal ritmini bozar"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stres ve kaygı",
+        "sub": "Hafif uykuda kalmanızı sağlar"
+      }
+    ],
+    "italic": "Alışkanlıklarınız, hangi aşamalara ulaşacağınızı doğrudan şekillendirir.",
+    "button": "Bu benim için ne anlama geliyor? →"
+  },
+  "s4": {
+    "title": "Hangisi sana benziyor? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Fiziksel olarak yorgun uyanıyorum",
+        "sub": "muhtemelen derin uykuyu özledim",
+        "tip": "Düzenli bir uyku ve uyanık zamanına odaklanın — vücudunuzun derin uykuya ulaşması için düzenli bir ritme ihtiyacı var."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Duygusal olarak bulanık ya da düşüklü hissediyorum",
+        "sub": "muhtemelen REM uykusunu özlemiyor",
+        "tip": "Yatmadan 30 dakika önce rahatlamayı deneyin — sakin bir uyku öncesi rutin REM uykunuzu korur."
+      },
+      {
+        "emoji": "😤",
+        "text": "Gece çok uyanıyorum",
+        "sub": "Döngüler sürekli kesintiye uğrayıp",
+        "tip": "Serin, karanlık ve sessiz bir oda, beyninizin kesintisiz daha derin aşamalarda kalmasına yardımcı olur."
+      },
+      {
+        "emoji": "😐",
+        "text": "Kendimi iyi hissediyorum ama iyi değilim",
+        "sub": "döngüler kısmi ama tam değildir",
+        "tip": "20 dakika erken yatmayı deneyin — belki de bir tam uyku döngüsü daha gerekebilir."
+      }
+    ],
+    "quote": "Uyku sadece dinlenme değil — aktif bir iyileşmedir. Döngülerinizi koruyun ve tüm gün değişiklikleriniz.",
+    "button": "Bitti ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Uyku Döngüsü Rehberi",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Konu bu değil",
+  "it_s_about": "Konu şu:",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Alarm sesiyle derin uykunuzdan mı uyandırıldınız? Beyniniz kelimenin tam anlamıyla yapmakta olduğu işi henüz bitirmedi. O bulanık, ağır his? İşte o...",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

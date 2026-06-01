@@ -1,0 +1,114 @@
+{
+  "app_title": "Безопасное пространство",
+  "nav": [
+    "Регистрация",
+    "Мягко вспоминайте",
+    "Наблюдения",
+    "Оставаясь в настоящем",
+    "Вперёд"
+  ],
+  "s1": {
+    "title": "Давай найдём место, где будет нормально",
+    "description": [
+      "Прежде чем начать, уделите минуту, чтобы проверить...",
+      "Как ты себя сейчас чувствуешь?",
+      "Мы не ищем идеального «безопасного места». Просто что-то, что хоть немного спокойно или нормально."
+    ],
+    "placeholder": "Как ты себя чувствуешь сейчас?",
+    "button": "Начать визуализацию"
+  },
+  "s2": {
+    "title": "Аккуратно напомни об этом",
+    "description": [
+      "Вспомни о месте, где ты хоть немного чувствовал себя спокойно... Или место, которое вы хотели бы видеть.",
+      "Теперь расположись туда...",
+      "Ты сидишь, стоишь или лежишь?"
+    ],
+    "button": "Продолжайте"
+  },
+  "s3": {
+    "title": "Оглядывайся медленно",
+    "description": [
+      "Оглянитесь вокруг...",
+      "Что ты можешь видеть?",
+      "Теперь обратите внимание на звук... Что слышишь?"
+    ],
+    "button": "Продолжайте"
+  },
+  "s4": {
+    "title": "Оставайся с этим",
+    "description": [
+      "Что такого в этом месте, что заставляет его хоть немного чувствовать себя безопасным или нормальным?",
+      "Как ты заметил...",
+      "Также обратите внимание на дыхание."
+    ],
+    "breathe": "Дыши",
+    "notice": "Если воображения трудно, просто подумайте об этом месте.",
+    "button": "Продолжайте"
+  },
+  "s5": {
+    "title": "Возьми это с собой",
+    "description": [
+      "Обратите внимание, что вы сейчас чувствуете. Даже небольшое изменение имеет значение.",
+      "Попробуйте унести хотя бы 5% этого чувства с собой."
+    ],
+    "placeholder": "Как ты себя чувствуешь сейчас?",
+    "button": "Полная сессия"
+  },
+  "complete": {
+    "title": "Сессия завершена",
+    "message": "Это безопасное место всегда доступно для вас. Ты можешь вернуться сюда, когда тебе понадобится минута спокойствия."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Время выполнения",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Делиться",
+    "share_progress": "Поделиться прогрессом",
+    "inspire_others": "Вдохновите других сегодня!",
+    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
+    "this_activity": "эта деятельность",
+    "copied": "Скопировано!",
+    "copy_message": "Скопировать сообщение",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Безопасное пространство",
+  "more": "Более",
+  "breadcrumb": "хлебные крошки",
+  "previous_slide": "Предыдущий слайд",
+  "next_slide": "Следующий слайд",
+  "close": "Закрывать",
+  "previous": "Предыдущий",
+  "more_pages": "Больше страниц",
+  "pagination": "нумерация страниц",
+  "go_to_previous_page": "Перейти на предыдущую страницу",
+  "go_to_next_page": "Перейти на следующую страницу",
+  "toggle_sidebar": "Переключить боковую панель",
+  "oops_page_not_found": "Ой! Страница не найдена.",
+  "return_to_home": "Вернуться на главную",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

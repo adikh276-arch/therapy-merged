@@ -1,0 +1,217 @@
+{
+  "app_title": "Ce am nevoie?",
+  "app_subtitle": "Verifică-te cu tine însuți",
+  "screens": {
+    "s1": {
+      "title": "Ce am nevoie acum?",
+      "description": "Un moment să te oprești și să asculți ce îți cere inima.",
+      "button": "Începeți check-in-ul"
+    },
+    "s2": {
+      "select": {
+        "title": "Ce pare important?",
+        "placeholder": "Altceva...",
+        "add_button": "Adaugă",
+        "button": "Continuă"
+      },
+      "prioritize": {
+        "title": "Care este principalul?"
+      },
+      "focus": {
+        "tag": "Atenția ta acum",
+        "button": "Continuă"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Continuă"
+      },
+      "action": {
+        "title": "Un mic pas înainte?",
+        "placeholder": "Sau scrie-ți propriul...",
+        "button": "Reflecție la recenzie"
+      },
+      "closing": {
+        "tag_need": "Nevoi Primare",
+        "tag_insight": "Perspectiva ta",
+        "tag_action": "Acțiune Mică",
+        "save_button": "Salvare & Finish",
+        "finish_button": "Termină fără să salvezi"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Sprijin emoțional",
+      "prompt": "Ce fel de sprijin te-ar ajuta cu adevărat acum?",
+      "hints": [
+        "Am nevoie doar de cineva care...",
+        "Ar ajuta dacă...",
+        "Ce vreau cu adevărat este..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Spațiu / timp pentru mine",
+      "prompt": "Cum ar arăta pentru tine să ai acel spațiu?",
+      "hints": [
+        "Aș folosi timpul ăsta să...",
+        "Spațiul mi-ar permite...",
+        "Am nevoie de spațiu să..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Comunicare clară",
+      "prompt": "Cum ar arăta o comunicare mai clară pentru tine?",
+      "hints": [
+        "Mi-aș dori să pot spune...",
+        "Dacă ar asculta cu adevărat, le-aș spune...",
+        "Comunicarea pare grea când..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Reasigurare",
+      "prompt": "Ce fel de reasigurare ar avea sens?",
+      "hints": [
+        "Trebuie să aud asta...",
+        "M-ar liniști să știu...",
+        "Tot mă îngrijorez că..."
+      ]
+    },
+    "Understanding": {
+      "label": "Înțelegere",
+      "prompt": "Cum ar arăta să te simți cu adevărat înțeles?",
+      "hints": [
+        "Mi-aș dori ca oamenii să știe că...",
+        "Ceea ce simt cu adevărat este...",
+        "Nimeni nu vede că eu..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilitate",
+      "prompt": "Cum ar simți stabilitatea în viața ta acum?",
+      "hints": [
+        "Am nevoie ca lucrurile să se simtă...",
+        "Ce m-ar ancora ar fi...",
+        "Stabilitatea înseamnă..."
+      ]
+    },
+    "Honesty": {
+      "label": "Onestitate",
+      "prompt": "Cum ar arăta mai multă sinceritate în situația ta?",
+      "hints": [
+        "Adevărul pe care trebuie să-l înfrunt este...",
+        "Vreau să fiu sincer despre...",
+        "Ce se întâmplă cu adevărat este..."
+      ]
+    },
+    "Respect": {
+      "label": "Respect",
+      "prompt": "Cum arată respectul pentru tine acum?",
+      "hints": [
+        "Merit să fiu tratat...",
+        "Respectul ar arăta ca...",
+        "Am nevoie ca oamenii să..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Claritate despre relație",
+      "prompt": "Ce fel de claritate te-ar ajuta cel mai mult?",
+      "hints": [
+        "Trebuie să știu dacă...",
+        "Ce mă derutează este...",
+        "Vreau să fim clari despre..."
+      ]
+    },
+    "default": {
+      "prompt": "Cum ar arăta asta într-o situație reală?",
+      "hints": [
+        "Ce îmi vine în minte este...",
+        "Acum simt...",
+        "Dacă sunt sincer cu mine însumi..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Spune ceva sincer"
+    },
+    {
+      "label": "Îmi iau timp pentru mine"
+    },
+    {
+      "label": "Contactează pe cineva"
+    },
+    {
+      "label": "Stabilește o limită mică"
+    },
+    {
+      "label": "Nu sunt sigur încă"
+    }
+  ],
+  "history": {
+    "title": "Reflecții din trecut",
+    "empty": "Nicio reflecție încă."
+  },
+  "toasts": {
+    "save_success": "Reflecție salvată",
+    "save_error": "Nu am reușit să salveze reflecția",
+    "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată"
+  },
+  "complete": {
+    "title": "Check-in complet",
+    "message": "Ai identificat că ai nevoie de \"{{need}}\". Respectarea nevoilor tale este o formă vitală de îngrijire de sine."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Verifică-te cu tine însuți",
+  "past_reflections": "Reflecții trecute",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

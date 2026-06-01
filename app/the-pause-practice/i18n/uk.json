@@ -1,0 +1,125 @@
+{
+  "app_title": "Практика паузи",
+  "app_subtitle": "Опануйте простір між",
+  "intro": {
+    "title": "5-секундна пауза",
+    "description": "Невелика пауза між почуттями і реакцією може змінити все.",
+    "duration": "Це займає менше 15 секунд. Справді.",
+    "button": "Спробуйте →"
+  },
+  "scenario": {
+    "title": "Що вас тригерить?",
+    "desc": "Обери ситуацію, яка тобі близька",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Хтось мене перебиває.",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Все йде не за планом",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Я почуваюся ігнорованою",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Я почуваюся пригніченим",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Напишіть свої...",
+    "button": "Практика паузи →"
+  },
+  "hold": {
+    "title": "Затримати паузу ⏸️",
+    "instructions": "Тримайте коло 5 секунд",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Натисніть і затримайте..."
+      },
+      {
+        "at": "0.15",
+        "text": "Тримайся..."
+      },
+      {
+        "at": "0.5",
+        "text": "Ти це робиш..."
+      },
+      {
+        "at": "0.8",
+        "text": "Майже на місці..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Це пауза",
+    "message": "Ти просто створив простір між тим, що відчуваєш, і тим, як ти реагуєш. Навіть невелика пауза допомагає повернути собі центр.",
+    "tip_label": "Порада",
+    "scenario_messages": {
+      "interrupts": "Наступного разу, коли вас перебивають, спробуйте це перед відповіддю.",
+      "plans": "Наступного разу, якщо щось піде не за планом, спробуйте це перед тим, як реагувати.",
+      "ignored": "Наступного разу, коли відчуєш себе ігнорованим, спробуй це перед відповіддю.",
+      "overwhelmed": "Наступного разу, коли відчуєш себе перевантаженим, спробуй це перед тим, як щось робити.",
+      "other": "Наступного разу, коли відчуєш тригер, спробуй це перед тим, як реагувати."
+    },
+    "italic": "Це не завжди буде легко — але послідовність — це ключ."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Опануйте простір між",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

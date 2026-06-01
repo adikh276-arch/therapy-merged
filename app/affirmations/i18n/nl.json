@@ -1,0 +1,222 @@
+{
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "chooseAnother": "Choose another feeling",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "feelings": {
+    "lonely": {
+      "label": "Wanneer je je eenzaam en verdrietig voelt",
+      "affirmations": [
+        "Ik ben niet alleen, zelfs niet als het zo voelt.",
+        "Mijn gevoelens verdienen zorg en zachtheid.",
+        "Dit moment zal niet eeuwig duren.",
+        "Ik mag verbinding nodig hebben.",
+        "Ik kan mezelf nu meteen warmte bieden."
+      ]
+    },
+    "terrified": {
+      "label": "Wanneer je bang bent",
+      "affirmations": [
+        "Ik ben veilig in dit moment.",
+        "Angst is een gevoel, geen voorspelling.",
+        "Ik kan deze adem voor adem nemen.",
+        "Ik hoef nu niet alles op te lossen.",
+        "Ik ben sterker dan dit moment."
+      ]
+    },
+    "insignificant": {
+      "label": "Wanneer je je onbeduidend voelt",
+      "affirmations": [
+        "Kleine momenten tellen nog steeds.",
+        "Ik hoef mijn waarde niet te bewijzen.",
+        "Ik mag ruimte innemen.",
+        "Mijn bestaan doet ertoe.",
+        "Ik ben genoeg zoals ik ben."
+      ]
+    },
+    "overwhelmed": {
+      "label": "Wanneer je je overweldigd voelt",
+      "affirmations": [
+        "Ik hoef niet alles in één keer te doen.",
+        "Eén kleine stap is genoeg.",
+        "Het is oké om even te pauzeren.",
+        "Ik mag rusten.",
+        "Dit wordt weer beheersbaar."
+      ]
+    },
+    "hopeless": {
+      "label": "Als je je hopeloos voelt",
+      "affirmations": [
+        "Ik heb vandaag geen antwoorden nodig.",
+        "Verandering is nog steeds mogelijk.",
+        "Ik heb moeilijke dagen overleefd.",
+        "Ik kan hier voorlopig blijven.",
+        "Er kan nog iets zachts gebeuren."
+      ]
+    },
+    "conflicted": {
+      "label": "Wanneer je je in conflict voelt",
+      "affirmations": [
+        "Het is oké om meer dan één ding tegelijk te voelen.",
+        "Ik heb niet meteen duidelijkheid nodig.",
+        "Verwarring betekent niet falen.",
+        "Ik kan mezelf tijd geven.",
+        "Ik vertrouw erop dat ik dit uitzoek."
+      ]
+    },
+    "self-critical": {
+      "label": "Wanneer je erg zelfkritisch bent.",
+      "affirmations": [
+        "Ik kan met vriendelijkheid tegen mezelf spreken.",
+        "Ik hoef mezelf niet te straffen om te groeien.",
+        "Fouten bepalen niet wie ik ben.",
+        "Ik leer, ik faal niet.",
+        "Groei vereist geen wreedheid."
+      ]
+    },
+    "out-of-place": {
+      "label": "Wanneer je je sociaal buitengesloten voelt",
+      "affirmations": [
+        "Ik mag stil zijn of anders.",
+        "Ik hoef niet de energie van iemand anders te evenaren.",
+        "Ik hoor erbij zoals ik ben.",
+        "Ik kan rustig ruimte innemen.",
+        "Ik doe dit niet verkeerd."
+      ]
+    },
+    "unsafe": {
+      "label": "Wanneer je je onveilig voelt bij vreemden",
+      "affirmations": [
+        "Ik kan in mijn eigen tempo bewegen.",
+        "Ik mag mijn grenzen beschermen.",
+        "Ik kan geaard blijven in mijn lichaam.",
+        "Ik mag situaties verlaten.",
+        "Ik kan mezelf veilig houden."
+      ]
+    },
+    "pressured": {
+      "label": "Wanneer je je onder druk gezet voelt op het werk",
+      "affirmations": [
+        "Mijn waarde is niet mijn productiviteit.",
+        "Ik hoef mezelf niet constant te bewijzen.",
+        "Mijn best doen is vandaag genoeg.",
+        "Eén taak tegelijk is prima.",
+        "Ik ben meer dan mijn rol."
+      ]
+    },
+    "face-the-day": {
+      "label": "Wanneer je de dag niet onder ogen wilt zien",
+      "affirmations": [
+        "Ik kan vandaag in kleine stukjes nemen.",
+        "Doorkomen is genoeg.",
+        "Ik heb geen motivatie nodig om te beginnen.",
+        "Voorzichtig verschijnen telt nog steeds.",
+        "Deze dag definieert mij niet."
+      ]
+    },
+    "future": {
+      "label": "Wanneer je je zorgen maakt over je toekomst",
+      "affirmations": [
+        "Ik kan terugkeren naar het heden.",
+        "Ik zal de zaken regelen zoals ze komen.",
+        "Ik heb vandaag geen zekerheid nodig.",
+        "Ik ben in staat me aan te passen.",
+        "Ik kan mezelf iets meer vertrouwen."
+      ]
+    },
+    "stuck": {
+      "label": "Wanneer je je vastzit in een probleem",
+      "affirmations": [
+        "Vastzitten betekent niet dat ik kapot ben.",
+        "Ik kan pauzeren zonder op te geven.",
+        "Ik heb geen directe oplossingen nodig.",
+        "Ik mag me onzeker voelen.",
+        "Ik beweeg nog steeds, zelfs langzaam."
+      ]
+    },
+    "compare": {
+      "label": "Als je jezelf vergelijkt",
+      "affirmations": [
+        "Mijn reis is van mij.",
+        "Ik hoef niet te concurreren om het waard te zijn.",
+        "Ik mag in mijn eigen tempo groeien.",
+        "Het succes van iemand anders wist het mijne niet uit.",
+        "Ik loop niet achter."
+      ]
+    },
+    "give-up": {
+      "label": "Wanneer je wilt opgeven",
+      "affirmations": [
+        "Ik hoef nu niets te beslissen.",
+        "Dit gevoel zal voorbijgaan.",
+        "Ik heb meer overleefd dan ik besef.",
+        "Ik kan nog een moment wachten.",
+        "Ik ben er nog steeds — en dat doet ertoe."
+      ]
+    }
+  },
+  "app_complete_title": "Voel je krachtig",
+  "app_complete_message": "Dagelijkse affirmaties helpen je mindset te hervormen. Neem deze positieve gedachten vandaag nog met je mee.",
+  "app_duration": "2-3 minuten",
+  "app_title": "Denkwijze",
+  "app_description": "Verander je mindset door middel van dagelijkse affirmaties.",
+  "intro": {
+    "description": "Dagelijkse affirmaties helpen je mindset te veranderen en emotionele veerkracht op te bouwen. Neem even de tijd om je te concentreren op positieve gedachten en wees vriendelijk voor jezelf.",
+    "benefits": [
+      "Vind rust in moeilijke momenten.",
+      "Daag negatieve denkpatronen uit.",
+      "Ontwikkel zelfcompassie en kracht."
+    ]
+  },
+  "affirmation_for": "Bevestiging voor",
+  "affirmation": "Bevestiging",
+  "language": "Taal",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

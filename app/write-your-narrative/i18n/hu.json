@@ -1,0 +1,125 @@
+{
+  "app_title": "A történeted",
+  "nav": {
+    "entry": "Üdvözlöm",
+    "writing": "Expresszálás",
+    "landing": "Reflektálás",
+    "history": "Az Ön utad"
+  },
+  "entry": {
+    "title": "Lépjünk lépésről lépésre. 💛",
+    "description": [
+      "Nem kell ma az egész történetedet elmesélni. Csak egy kis rész is elég.",
+      "Most biztonságban vagy. Te irányítod, mit írsz – és mit nem."
+    ],
+    "breath": "Vegyél egy mély levegőt, mielőtt elkezdjük.",
+    "button_ready": "Készen állok",
+    "button_history": "Múltbeli történetek",
+    "footer": "A te szavaid • A tempód • A te történeted"
+  },
+  "writing": {
+    "title": "Írj azt, ami rendben ✨ van",
+    "subtitle": "A szavai, a tempód",
+    "prompt_label": "Szükséged van kiindulópontra?",
+    "prompts": [
+      {
+        "text": "Amit a legjobban emlékszem, az az...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Akkoriban éreztem magam...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Azóta észrevettem...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Kezdj el itt írni...",
+    "notice": "Nincs helyes módja ennek. Még néhány sor is elég.",
+    "button": "Befejezés az írás"
+  },
+  "landing": {
+    "title": "Valami fontosat tettél.",
+    "subtitle": "Köszönöm, hogy magadért is megjelentél.",
+    "settle_title": "Szánjunk egy pillanatot, hogy legyőzzük",
+    "steps": [
+      "Nézz körül, és nevezz meg 3 dolgot, amit látsz.",
+      "Vegyél egy lassan levegőt... és ki."
+    ],
+    "feeling_label": "Most úgy érzem:",
+    "feeling_placeholder": "Egy-két szó...",
+    "quote": "\"Nem kell mindent egyszerre cipelni. Bármikor visszajöhetsz, amikor készen állsz.\"",
+    "button_save": "Megőrzési narratíva",
+    "button_preserving": "Megőrizve..."
+  },
+  "history": {
+    "title": "Az Ön utad 📝",
+    "subtitle": "Múltbeli történetek és reflexiók",
+    "empty": "Még nem mentettél el bejegyzéseket. Szánj rá időt—nincs sietség.",
+    "no_writing": "Nincs megőrzött írás",
+    "button_back": "Vissza az aktivitáshoz"
+  },
+  "complete": {
+    "title": "Megőrzött narratíva",
+    "message": "Erőteljes lépést tettél a történeted elmesélésében. A te nézőpontod számít, és az utad egyedülállóan a tiéd."
+  },
+  "toasts": {
+    "save_success": "Megőrzött narratíva",
+    "save_error": "Nem sikerült megőrizni a narratívát",
+    "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Újrakezdés",
+    "finish_exit": "Befejezés és kilépés",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Elkészítési idő",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Részesedés",
+    "share_progress": "Haladás megosztása",
+    "inspire_others": "Inspirálj másokat még ma",
+    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "this_activity": "ez a tevékenység",
+    "copied": "Másolva!",
+    "copy_message": "Üzenet másolása",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "A te elbeszélésed",
+  "more": "Több",
+  "breadcrumb": "navigációs morzsa",
+  "previous_slide": "Előző dia",
+  "next_slide": "Következő dia",
+  "close": "Közeli",
+  "previous": "Előző",
+  "more_pages": "További oldalak",
+  "pagination": "lapszámozás",
+  "go_to_previous_page": "Ugrás az előző oldalra",
+  "go_to_next_page": "Ugrás a következő oldalra",
+  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
+  "remove_this": "ELTÁVOLÍTÁS",
+  "oops_page_not_found": "Hoppá! Az oldal nem található.",
+  "return_to_home": "Vissza a kezdőlapra",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

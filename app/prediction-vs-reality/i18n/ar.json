@@ -1,0 +1,145 @@
+{
+  "app_title": "التنبؤ مقابل الواقع",
+  "step_label": "الخطوة {{current}} من 8",
+  "intro": {
+    "title": "التنبؤ مقابل الواقع",
+    "description": "قارن توقعاتك القلقة بما يحدث فعليا لبناء منظور أكثر توازنا.",
+    "benefits": [
+      "تحديد أنماط القلق",
+      "جمع الأدلة ضد المخاوف",
+      "تقليل التفكير المفرط في المستقبل"
+    ],
+    "duration": "4-5 دقائق",
+    "view_past": "اطلع على تأملات الماضي"
+  },
+  "history": {
+    "title": "تأملات سابقة",
+    "no_reflections": "لا توجد انعكاسات محفوظة حتى الآن.",
+    "prediction_label": "التنبؤ",
+    "reality_label": "الواقع",
+    "reflection_label": "التأمل:"
+  },
+  "complete": {
+    "title": "اكتمال النشاط",
+    "saved_title": "انعكاس محفوظ",
+    "message": "من خلال النظر إلى الحقائق، تساعد عقلك على تعلم أن الأمور غالبا ما تكون أكثر قابلية للإدارة مما تبدو."
+  },
+  "emotions": [
+    "قلق",
+    "متوتر",
+    "خائف",
+    "غارقة في الشعور",
+    "قلق"
+  ],
+  "intensity_labels": {
+    "not_intense": "ليس مكثفا",
+    "very_intense": "شديدة الكثافة"
+  },
+  "comparison_options": [
+    "اتضح أن الأمر كان تقريبا كما توقعت",
+    "بعض الأجزاء كانت صحيحة، لكن ليس كل شيء",
+    "كان الأمر مختلفا تماما عما توقعت",
+    "كان الأمر أسهل وأفضل بكثير مما تخيلت"
+  ],
+  "screens": {
+    "s1": {
+      "title": "فكر في موقف حديث",
+      "desc": "تذكر لحظة حديثة شعرت فيها بالقلق أو عدم اليقين.",
+      "placeholder": "صف الوضع..."
+    },
+    "s2": {
+      "title": "ماذا كنت تعتقد أنه سيحدث؟",
+      "desc": "ماذا كنت تتوقع أو تخاف في تلك اللحظة؟",
+      "placeholder": "كنت قلقا أن..."
+    },
+    "s3": {
+      "title": "كيف شعرت؟",
+      "desc": "اختر المشاعر التي شعرت بها وشدةها."
+    },
+    "s4": {
+      "title": "ماذا حدث فعلا؟",
+      "desc": "ركز على حقائق ما حدث فعلا.",
+      "placeholder": "في الواقع..."
+    },
+    "s5": {
+      "title": "دعونا ننظر إلى كلاهما",
+      "expectation": "التوقعات",
+      "reality": "الواقع",
+      "question": "ما مدى قرب توقعك؟"
+    },
+    "s6": {
+      "title": "ماذا تلاحظ؟",
+      "desc": "هل كان الأمر سيئا كما توقعت؟",
+      "placeholder": "لاحظت أن..."
+    },
+    "s7": {
+      "title": "في المرة القادمة",
+      "desc": "ماذا يمكنك أن تذكر نفسك إذا حدث هذا مرة أخرى؟",
+      "placeholder": "مثلا: \"ربما لن يكون الأمر سيئا كما أتخيل.\""
+    },
+    "s8": {
+      "title": "تذكير صغير",
+      "desc": "عقلك يحاول أن يجهزك — لكنه لا يتنبأ دائما بدقة. في كل مرة تتوقف لتنظر إلى الحقائق، تبني مرونة.",
+      "button": "احفظ الانعكاس",
+      "discard": "إدخال المهملة"
+    }
+  },
+  "buttons": {
+    "continue": "تابع"
+  },
+  "toasts": {
+    "saved": "تم حفظ الانعكاس!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "التوقع مقابل الواقع",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

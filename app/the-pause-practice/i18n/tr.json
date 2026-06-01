@@ -1,0 +1,125 @@
+{
+  "app_title": "Duraklama Uygulaması",
+  "app_subtitle": "Aradaki mesafeyi ustalıkla",
+  "intro": {
+    "title": "5 Saniyelik Duraklama",
+    "description": "Hissetmek ve tepki vermek arasında küçük bir duraklama her şeyi değiştirebilir.",
+    "duration": "15 saniyeden kısa sürede sürüyor. Gerçekten.",
+    "button": "Deneyin →"
+  },
+  "scenario": {
+    "title": "Seni ne tetikliyor?",
+    "desc": "Kendinizi ilişkilendirdiğiniz bir durumu seçin",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Biri beni bölüyor",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "İşler planlandığı gibi gitmiyor",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Görmezden gelilmiş hissediyorum",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Kendimi bunalmış hissediyorum",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Kendi yazın...",
+    "button": "Pratik Duraklaması →"
+  },
+  "hold": {
+    "title": "Duraklatmak ⏸️ için tutun",
+    "instructions": "Çemberi 5 saniye tutun",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Bas ve tut..."
+      },
+      {
+        "at": "0.15",
+        "text": "Devam et..."
+      },
+      {
+        "at": "0.5",
+        "text": "Yapıyorsun..."
+      },
+      {
+        "at": "0.8",
+        "text": "Neredeyse geldik..."
+      }
+    ]
+  },
+  "result": {
+    "title": "İşte duraklama",
+    "message": "Sadece hissettiklerin ile nasıl tepki verdiğin arasında boşluk yarattın. Küçük bir duraklama bile merkezinizi geri kazanmanıza yardımcı olur.",
+    "tip_label": "Profesyonel İpucu",
+    "scenario_messages": {
+      "interrupts": "Bir dahaki sefere biri sizi böldüğünde, cevap vermeden önce bunu deneyin.",
+      "plans": "Bir dahaki dahaki işler planlandığı gibi gitmediğinde, tepki vermeden önce bunu deneyin.",
+      "ignored": "Bir dahaki sefere görmezden gelindiğini hissettiğinizde, cevap vermeden önce bunu deneyin.",
+      "overwhelmed": "Bir dahaki bunalmış hissettiğinizde, bir şey yapmadan önce bunu deneyin.",
+      "other": "Bir dahaki kez tetiklendiğini hissettiğinizde, tepki vermeden önce bunu deneyin."
+    },
+    "italic": "Her zaman kolay hissettirmeyecek—ama tutarlılık çok önemli."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Aradaki boşluğa hakim olun.",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

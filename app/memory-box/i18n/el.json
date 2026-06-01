@@ -1,0 +1,146 @@
+{
+  "app_title": "Κουτί μνήμης",
+  "screen_titles": [
+    "Το κουτί σας",
+    "Τιμώντας",
+    "Έκφραση",
+    "Διατηρημένο",
+    "Απαλή Φροντίδα"
+  ],
+  "complete_title": "Η μνήμη διατηρείται",
+  "complete_message": "Έχετε τοποθετήσει με ασφάλεια μια ανάμνηση {{name}} στο κουτί σας. Αυτές οι στιγμές σύνδεσης είναι δικές σας για να τις κρατάτε, πάντα.",
+  "auth_error": "Λείπει η περίοδος λειτουργίας ελέγχου ταυτότητας ή δεν έχει ρυθμιστεί η βάση δεδομένων",
+  "save_success": "Η μνήμη διατηρήθηκε",
+  "save_error": "Αποτυχία διατήρησης μνήμης",
+  "preserving": "Διατήρηση...",
+  "preserve_memory": "Διατήρηση μνήμης",
+  "welcome": {
+    "title": "Το κουτί μνήμης σας",
+    "subtitle1": "Ένας ήσυχος χώρος για να θυμάστε κάποιον που αγαπάτε. 🤍",
+    "subtitle2": "Πάρτε μια αργή ανάσα...",
+    "subtitle3": "… και εκπνεύστε απαλά.",
+    "subtitle4": "Δεν υπάρχει σωστός ή λάθος τρόπος για να γίνει αυτό.",
+    "subtitle5": "Πηγαίνετε με τον δικό σας ρυθμό. 🌿",
+    "begin": "Έναρξη ✨",
+    "later": "Ίσως αργότερα"
+  },
+  "who": {
+    "placeholder_name": "Πληκτρολογήστε το όνομά τους...",
+    "placeholder_relation": "Πώς τους γνωρίζετε; (προαιρετικός)",
+    "categories": [
+      {
+        "label": "Μια ευτυχισμένη στιγμή",
+        "emoji": "😊"
+      },
+      {
+        "label": "Κάτι που έλεγαν",
+        "emoji": "💬"
+      },
+      {
+        "label": "Μια μικρή καθημερινή ανάμνηση",
+        "emoji": "☕"
+      },
+      {
+        "label": "Ένα μέρος που σου τα θυμίζει",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Κάτι που μακάρι να μπορούσα να πω",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Συνέχεια →"
+  },
+  "expression": {
+    "title": "Εκφράζοντας τη μνήμη σας",
+    "memory_label": "Η ίδια η μνήμη",
+    "memory_placeholder": "Γράψτε για τη στιγμή, το συναίσθημα ή τη λεπτομέρεια που θέλετε να κρατήσετε...",
+    "message_label": "Ένα μήνυμα προς αυτούς (προαιρετικό)",
+    "message_placeholder": "Τι θα λέγατε αν μπορούσατε να τους μιλήσετε αυτή τη στιγμή;",
+    "save": "Διατήρηση μνήμης",
+    "skip": "Παράλειψη προς το παρόν",
+    "back": "Πίσω"
+  },
+  "box": {
+    "title": "Κρυμμένο με ασφάλεια",
+    "subtitle": "Αυτή η ανάμνηση του {{name}} είναι πλέον μέρος της συλλογής σας.",
+    "add_another": "Προσθήκη άλλης ανάμνησης",
+    "finish": "Φινίρισμα αντανάκλασης"
+  },
+  "closing": {
+    "title": "Φροντίζοντας",
+    "subtitle": "Κλείνουμε το κουτί σας προς το παρόν. Μπορείτε να επιστρέψετε εδώ όποτε θέλετε να νιώσετε κοντά σε αυτές τις αναμνήσεις.",
+    "exit": "Κλείσιμο κουτιού"
+  },
+  "history": {
+    "title": "Περιεχόμενα κουτιού",
+    "no_memories": "Το κουτί σας είναι άδειο. Προσθέστε την πρώτη σας ανάμνηση για να ξεκινήσετε τη συλλογή σας.",
+    "search_placeholder": "Αναζήτηση αναμνήσεων..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ξεκινήστε από την αρχή",
+    "finish_exit": "Τέλος & Έξοδος",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Ώρα για ολοκλήρωση",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Μερίδιο",
+    "share_progress": "Κοινοποίηση προόδου",
+    "inspire_others": "Εμπνεύστε τους άλλους σήμερα",
+    "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
+    "this_activity": "αυτή η δραστηριότητα",
+    "copied": "Αντιγράφηκε!",
+    "copy_message": "Αντιγραφή μηνύματος",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Κουτί μνήμης",
+  "before_you_go": "Πριν φύγεις",
+  "grief_comes_in_waves": "Η θλίψη έρχεται κατά κύματα. 🌊",
+  "what_you_re_feeling_matters": "Αυτό που νιώθεις έχει σημασία. 🤍",
+  "be_gentle_with_yourself_today": "Να είσαι ευγενικός με τον εαυτό σου σήμερα. 🌿",
+  "save_exit": "Αποθήκευση και έξοδος 🕊️",
+  "take_your_time": "Αφιερώστε χρόνο 🕯️",
+  "save_to_memory_box": "Αποθήκευση στο Memory Box 📦",
+  "write_as_much_or_as_little_as_you_want": "Γράψε όσο πολύ ή όσο λίγο θέλεις… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Αν υπάρχει κάτι που θα θέλατε να πείτε…",
+  "past_entries": "Προηγούμενες καταχωρήσεις",
+  "no_memories_saved_yet": "Δεν έχουν αποθηκευτεί ακόμη αναμνήσεις.",
+  "this_memory_is_held_here_for_you": "Αυτή η ανάμνηση φυλάσσεται εδώ, για σένα. 🌿",
+  "add_another_memory": "Προσθέστε μια ακόμη ανάμνηση ✨",
+  "finish_for_now": "Τελείωσε προς το παρόν",
+  "more": "Περισσότερο",
+  "breadcrumb": "ψίχουλα ψωμιού",
+  "previous_slide": "Προηγούμενη διαφάνεια",
+  "next_slide": "Επόμενη διαφάνεια",
+  "close": "Κοντά",
+  "previous": "Προηγούμενος",
+  "more_pages": "Περισσότερες σελίδες",
+  "pagination": "σελιδοποίηση",
+  "go_to_previous_page": "Μετάβαση στην προηγούμενη σελίδα",
+  "go_to_next_page": "Μετάβαση στην επόμενη σελίδα",
+  "toggle_sidebar": "Εναλλαγή πλευρικής γραμμής",
+  "oops_page_not_found": "Ωχ! Η σελίδα δεν βρέθηκε.",
+  "return_to_home": "Επιστροφή στην Αρχική",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

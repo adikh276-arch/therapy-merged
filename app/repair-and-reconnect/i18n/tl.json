@@ -1,0 +1,292 @@
+{
+  "app_title": "Ayusin at Muling Ikonekta",
+  "steps": {
+    "welcome": "Maligayang pagdating",
+    "choose_person": "Pumili ng Tao",
+    "choose_approach": "Pumili ng Diskarte",
+    "guided_action": "Gabay na Pagkilos",
+    "complete": "Kumpleto"
+  },
+  "intro": {
+    "title": "Ayusin at Muling Ikonekta",
+    "description": "Ang galit ay maaaring lumikha ng distansya sa pagitan natin at ng mga taong mahal natin. Ngunit ang maliit, banayad na mga hakbang ay maaaring makatulong na muling buuin ang koneksyon na iyon.",
+    "quote": "\"Ang pag-aayos ay hindi nangangahulugang mali ka—nangangahulugan ito na sapat ang pag-aalaga mo upang subukan.\"",
+    "small_efforts": "Kahit na ang maliliit na pagsisikap ay maaaring gumawa ng pagkakaiba.",
+    "button": "Simulan ang →"
+  },
+  "choose_person": {
+    "title": "Sino ang nais mong makipag-ugnay muli?",
+    "desc": "Ang pag-iisip tungkol sa isang partikular na relasyon ay tumutulong na gawing totoo ang mga hakbang.",
+    "options": {
+      "friend": "Isang Kaibigan",
+      "family": "Isang miyembro ng pamilya",
+      "colleague": "Isang Kasamahan",
+      "other": "Iba pa"
+    },
+    "button": "Magpatuloy →"
+  },
+  "choose_approach": {
+    "title": "Ano ang nararamdaman na tama para sa iyo?",
+    "desc": "Pumili ng isang maliit na hakbang na pakiramdam na magagawa.",
+    "safety": "Hindi mo kailangang ayusin ang lahat—pumili lamang ng isang maliit na hakbang.",
+    "button": "Subukan ang → na ito",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Magpadala ng kaswal na pag-check-in",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Kilalanin ang tensyon",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Bigyan ang isa't isa ng kaunting espasyo",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Hayaan mo na lang at magpatuloy",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Pagnilayan lamang ito",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Magpadala ng Mainit na Mensahe",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Pangalanan ang nangyari nang tapat",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Mangako na mag-pause sa susunod",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Piliin ang kapayapaan kaysa maging tama",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Pagnilayan kung ano talaga ang kailangan mo",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Email Address *",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Tugunan ito nang may paggalang",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Magplano ng mas kalmado na tugon sa susunod",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Panatilihin itong propesyonal at magpatuloy",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Isipin ang mga hangganan",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Makipag-ugnay sa Isang Simpleng Mensahe",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Kilalanin ang nangyari",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Magpahinga ka muna next time",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Hayaan mo na lang sa ngayon",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Magmuni-muni lang (wala pang aksyon)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "I-tap upang makita kung paano ✨",
+    "copy_button": "📋 Kopyahin ang Mensahe",
+    "done_button": "Tapos na ako →",
+    "safety_line_default": "Hindi mo na kailangang magpadala ng kahit ano ngayon. 💛",
+    "safety_line_pause": "Maglaan ng iyong oras-walang pagmamadali. 💛",
+    "safety_line_reflect": "Ito ay para lamang sa iyo—walang ibang kailangang makakita nito. 💛",
+    "actions": {
+      "message": {
+        "title": "Magpadala ng Simpleng Mensahe",
+        "why": "Ang isang simpleng mensahe ay maaaring basagin ang katahimikan at ipakita sa ibang tao na nagmamalasakit ka pa rin.",
+        "insight": "Ang pag-abot ng tulong—kahit na hindi perpekto—ay halos palaging tinatanggap nang mas mahusay kaysa inaasahan natin.",
+        "howTitle": "Magsimula nang maliit",
+        "howBody": "Hindi mo na kailangang magsulat ng sanaysay. Ang ilang tapat na salita ay maaaring magbukas ng pinto sa muling pakikipag-ugnayan.",
+        "prompts": [
+          "Hoy, kanina pa ako nag-iisip tungkol sa iyo. Sana ay maayos ka.",
+          "Alam ko na ang mga bagay ay tensiyonado—gusto ko lang sabihin na nagmamalasakit ako.",
+          "Pasensya na kanina. Pwede ba tayong mag-usap kapag handa ka na?"
+        ],
+        "promptLabel": "Pumili ng panimulang punto:",
+        "editLabel": "Gawin itong sa iyo:"
+      },
+      "acknowledge": {
+        "title": "Kilalanin ang Nangyari",
+        "why": "Ang pagkilala sa nangyari ay nagpapakita ng kapanahunan at tumutulong sa ibang tao na maramdaman na nakikita.",
+        "insight": "Hindi ka kailangan ng mga tao upang maging perpekto—kailangan nilang malaman na napansin mo.",
+        "howTitle": "Pangalanan ito nang malumanay",
+        "howBody": "Maaari mong kilalanin nang hindi kinukuha ang lahat ng sisihin. Pangalanan lamang kung ano ang nangyari nang tapat.",
+        "prompts": [
+          "Alam kong nag-iinit ang mga bagay sa pagitan namin. Gusto kong malaman mo na napansin ko.",
+          "Napagtanto ko na baka malupit ang aking nararamdaman. Hindi iyon ang intensyon ko.",
+          "Pinag-iisipan ko ang nangyari, at sana ay iba ang paghawak ko rito."
+        ],
+        "promptLabel": "Pumili ng panimulang punto:",
+        "editLabel": "Gawin itong sa iyo:"
+      },
+      "pause": {
+        "title": "Magpahinga muna sa susunod",
+        "why": "Ang pag-pause ay nagbibigay sa iyo ng puwang upang tumugon sa halip na mag-react.",
+        "insight": "Ang isang 6 na segundo na pag-pause ay kadalasang sapat na upang lumipat mula sa reaksyon patungo sa pagmumuni-muni.",
+        "howTitle": "🧘 Planuhin ang iyong pag-pause",
+        "howBody": "Mag-isip ng isang simpleng pahiwatig-tulad ng paghinga o pag-alis nang maikli-bago tumugon.",
+        "prompts": [
+          "Sa susunod na magalit ako, huminga muna ako ng malalim bago sumagot.",
+          "Susubukan kong sabihin na 'Bigyan mo ako ng sandali' sa halip na mag-react kaagad.",
+          "Ilang minuto na lang akong mag-iisip para mag-isip ng mga bagay-bagay."
+        ],
+        "promptLabel": "Pumili ng isang pangako na pakiramdam tama:",
+        "editLabel": "Isulat ang iyong sariling intensyon:"
+      },
+      "letgo": {
+        "title": "Hayaan mo na lang ito ngayon",
+        "why": "Minsan ang pinakamabait na bagay na maaari mong gawin ay palayain ang bigat ng sitwasyon.",
+        "insight": "Ang pagpapaalam ay hindi sumusuko—ito ay pagpili ng kapayapaan kaysa sa pagiging tama.",
+        "howTitle": "🕊️ Pakawalan nang malumanay",
+        "howBody": "Hindi mo kailangang kalimutan. Magpasiya lamang na hindi na nito kailangang kontrolin ang nararamdaman mo.",
+        "prompts": [
+          "Pinipili kong hayaan ito—hindi dahil hindi ito mahalaga, kundi dahil mas mahalaga ang aking kapayapaan.",
+          "Kailangan kong maging tama tungkol dito. Pinili ko ang koneksyon.",
+          "Ang sitwasyong ito ay hindi tumutukoy sa aming relasyon. Sumusulong ako."
+        ],
+        "promptLabel": "Piliin kung ano ang resonates:",
+        "editLabel": "Isulat kung ano ang nararamdaman na totoo para sa iyo:"
+      },
+      "reflect": {
+        "title": "Sumasalamin lamang",
+        "why": "Ang pagmumuni-muni ay nagtatayo ng kamalayan sa sarili, na siyang pundasyon ng bawat malusog na relasyon.",
+        "insight": "Ang pag-journal o kahit na pag-iisip sa kung ano ang nangyari ay tumutulong sa iyo na iproseso ang emosyon nang walang presyon.",
+        "howTitle": "🔍 Tumingin sa loob",
+        "howBody": "Tanungin ang iyong sarili: Ano ba talaga ang nararamdaman ko sa ilalim ng galit? Kadalasan ito ay nasasaktan, natatakot, o nabigo.",
+        "prompts": [
+          "Sa sobrang galit ko, nasasaktan ako.",
+          "Napagtanto ko na nag-react ako dahil sa takot na hindi marinig ako.",
+          "Ang kailangan ko talaga ay maramdaman kong iginagalang at pinahahalagahan."
+        ],
+        "promptLabel": "Piliin kung ano ang resonates:",
+        "editLabel": "Isulat ang iyong sariling pagmumuni-muni:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Koneksyon na Naayos",
+    "message": "Gumawa ka ng isang matapang na hakbang patungo sa pag-aayos ng iyong koneksyon sa {{person}}. Ang maliliit at sinasadyang pagkilos ay nagtatayo ng pangmatagalang tulay.",
+    "default_person": "isang taong mahalaga"
+  },
+  "toasts": {
+    "save_success": "Napanatili ang pag-unlad ng pagkukumpuni",
+    "save_error": "Nabigo na mapanatili ang pagmumuni-muni",
+    "copy_success": "Kopyahin ang mensahe!",
+    "preserving": "Pagpapanatili ...",
+    "complete_button": "Kumpletuhin at I-save"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Pag-ayos at Muling Pagkonekta",
+  "that_s_a_step_forward": "Isang hakbang pasulong iyan",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Gumawa ka ng isang maliit na hakbang patungo sa pagkukumpuni—at mahalaga iyon.",
+  "try_with_someone_else": "Subukan sa ibang tao",
+  "done": "Tapos na ✔",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,102 @@
+{
+  "app_title": "పంపని లేఖ",
+  "app_subtitle": "మీ ఆలోచనలను సురక్షితంగా మరియు వ్యక్తిగతంగా విడుదల చేయండి",
+  "intro": {
+    "title": "పంపని లేఖ",
+    "description": [
+      "కొన్నిసార్లు, మేము చెప్పాలని కోరుకునే విషయాలు ఉన్నాయి - కానీ ఎప్పుడూ అవకాశం రాలేదు.",
+      "ఇది సురక్షితంగా అనిపించకపోవడం, సమయం సరైనది కాకపోవడం లేదా పదాలు బిగ్గరగా వ్యక్తీకరించడం చాలా కష్టం కావడం.",
+      "ఈ కార్యాచరణ ఆ ఆలోచనలను మాటల్లో ఉంచడానికి మీకు ఒక ప్రైవేట్ స్థలాన్ని ఇస్తుంది.",
+      "మీరు ఈ లేఖను పంపాల్సిన అవసరం లేదు. ఇది మీ కోసం మాత్రమే - మీ భావాలను బాగా వ్యక్తీకరించడానికి, విడుదల చేయడానికి మరియు అర్థం చేసుకోవడానికి మాత్రమే."
+    ],
+    "notice": "స్వేచ్ఛగా వ్రాయండి. దీన్ని మరెవరూ చూడరు.",
+    "button": "→ రాయడం ప్రారంభించండి"
+  },
+  "writing": {
+    "title": "మీరు పట్టుకున్నదాన్ని రాయండి",
+    "desc": "మీరు మీ భాగస్వామికి, మాజీ భాగస్వామికి లేదా సంబంధానికి కూడా వ్రాయవచ్చు. దీన్ని చేయడానికి సరైన లేదా తప్పు మార్గం లేదు.",
+    "prompts": [
+      "నేను భావిస్తున్నాను ...",
+      "నేను కోరుకుంటున్నాను ...",
+      "నేనెప్పుడూ అనలేదు...",
+      "నాకు ఏం బాధ కలిగింది...",
+      "నాకు కావలసినది..."
+    ],
+    "placeholder": "ప్రియమైన ____,\nనేను చెప్పాలనుకున్నాను...",
+    "notice": "మీరు ఎప్పుడైనా విరామం ఇవ్వవచ్చు మరియు తిరిగి రావచ్చు.",
+    "button": "→ కొనసాగించండి"
+  },
+  "reflection": {
+    "title": "దీనితో ఒక్క క్షణం తీసుకోండి",
+    "description": [
+      "మీరు మీ ఆలోచనలు మరియు భావాలను మాటల్లో ఉంచారు - దానికి ధైర్యం అవసరం.",
+      "మీరు ప్రస్తుతం భావోద్వేగాల మిశ్రమాన్ని గమనించవచ్చు మరియు అది పూర్తిగా సరే.",
+      "మీరు ముందుకు సాగడానికి ముందు, శ్వాస తీసుకోండి మరియు మీతో నెమ్మదిగా తనిఖీ చేయండి."
+    ],
+    "notice": "ఇది మీ వైద్యం కోసం, పంపడానికి కాదు.",
+    "save_button": "అక్షరాన్ని సేవ్ చేయండి",
+    "finish_button": "ముగించు"
+  },
+  "history": {
+    "title": "గత అక్షరాలు",
+    "empty_title": "మీరు ఇంకా ఎలాంటి లేఖలు రాయలేదు.",
+    "empty_desc": "మీరు వాటిని సేవ్ చేసిన తర్వాత మీ అక్షరాలు ఇక్కడ కనిపిస్తాయి."
+  },
+  "toasts": {
+    "save_success": "లేఖ మీ ప్రైవేట్ జర్నల్ కు సేవ్ చేయబడింది",
+    "save_error": "అక్షరాన్ని సేవ్ చేయడం విఫలమైంది",
+    "auth_error": "ప్రమాణీకరణ సెషన్ మిస్ అయింది లేదా DB కాన్ఫిగర్ చేయబడలేదు"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "మీ ఆలోచనలను సురక్షితంగా మరియు గోప్యంగా వ్యక్తపరచండి",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

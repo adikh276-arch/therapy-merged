@@ -1,0 +1,139 @@
+{
+  "app_title": "Χάρτης Φαγητού & Συναισθημάτων",
+  "screen_titles": [
+    "Καλωσόρισμα",
+    "Μοτίβα τροφίμων",
+    "Εσωτερικός διάλογος",
+    "Φυσική αίσθηση",
+    "Ο χάρτης",
+    "Απαλή υποστήριξη",
+    "Τελική εμφάνιση",
+    "Αναστοχασμός"
+  ],
+  "welcome_text": "Γεια... Χαίρομαι πολύ που είσαι εδώ 💛 Ας χαρτογραφήσουμε απαλά τι συμβαίνει.",
+  "coming_up_label": "Τι έρχεται τελευταία;",
+  "begin_mapping": "Έναρξη χαρτογράφησης",
+  "food_patterns_q": "Χμμ... Σε ακούω. Όταν νιώθεις {{emotion}}... Πώς εμφανίζεται συνήθως το φαγητό;",
+  "continue_button": "Συνέχεια",
+  "internal_dialogue_q": "Εκείνες τις στιγμές... Τι είδους σκέψεις προκύπτουν;",
+  "write_placeholder": "Γράψε ό,τι σου έρχεται στο μυαλό...",
+  "physical_sensing_q": "Αν σταματήσετε για ένα δευτερόλεπτο... Τι παρατηρείτε στο σώμα σας;",
+  "the_pattern_label": "Το μοτίβο",
+  "pattern_desc_1": "Όταν αισθάνεστε {{emotion}}, το σώμα σας αισθάνεται {{sensation}}...",
+  "pattern_desc_2": "… και το φαγητό γίνεται ένας τρόπος για το {{response}}, ενώ εμφανίζονται σκέψεις όπως «{{thought}}».",
+  "pattern_footer": "«Η επίγνωση του προτύπου είναι ελευθερία»",
+  "support_q": "Εκείνες τις στιγμές... Τι θα μπορούσε να σας βοηθήσει – έστω και λίγο;",
+  "understanding_text": "Καταλαβαίνεις τον εαυτό σου λίγο καλύτερα. Αυτό είναι υπεραρκετό 💛",
+  "how_feeling_now": "Πώς νιώθεις τώρα;",
+  "preserve_button": "Διατήρηση χάρτη",
+  "preserving": "Διατήρηση...",
+  "complete_title": "Ο χάρτης διατηρείται",
+  "complete_message": "Έχετε χαρτογραφήσει με επιτυχία τη σύνδεση μεταξύ των συναισθημάτων σας και του φαγητού. Αυτή η επίγνωση είναι ένα ισχυρό εργαλείο για ήπια αλλαγή.",
+  "auth_error": "Λείπει η περίοδος λειτουργίας ελέγχου ταυτότητας ή δεν έχει ρυθμιστεί η βάση δεδομένων",
+  "save_success": "Το μοτίβο διατηρείται",
+  "save_error": "Αποτυχία διατήρησης του μοτίβου",
+  "emotions_list": [
+    "😰 Στρες",
+    "😢 Θλίψη",
+    "😶 Ανία",
+    "😟 Ανησυχία",
+    "🥺 Μοναξιά",
+    "💭 Κάτι άλλο..."
+  ],
+  "food_responses": [
+    "🍽️ Τρώω περισσότερο",
+    "🚫 Τρώω λιγότερο",
+    "🍫 Λαχταρώ συγκεκριμένα φαγητά",
+    "😣 Αποφεύγω το φαγητό",
+    "😐 Καμία πραγματική αλλαγή"
+  ],
+  "body_sensations": [
+    "💔 Σφιχτό στήθος",
+    "🪨 Βαρύ συναίσθημα",
+    "🦵 Ανήσυχος / νευρικός",
+    "🔋 Χαμηλή ενέργεια",
+    "🌀 Κόμποι στο στομάχι",
+    "❓ Κάτι άλλο..."
+  ],
+  "support_options": [
+    "🗣️ Μιλήστε σε κάποιον",
+    "☕ Κάνε ένα διάλειμμα",
+    "📝 Εφημερίδα",
+    "🌬️ Αναπνέω",
+    "🎧 Αποσπάστε την προσοχή μου"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Φτάσε 💛",
+      "body": "Μερικές φορές η κοινή χρήση ελαφρύνει λίγο τα πράγματα. Ίσως ένα απλό «γεια, μπορούμε να μιλήσουμε;»."
+    },
+    "☕ Take a break": {
+      "title": "Παύση 💛",
+      "body": "Μια μικρή παύση μπορεί να βοηθήσει στην επαναφορά των πραγμάτων. Ίσως απομακρυνθείτε και πάρτε μερικές αργές αναπνοές."
+    },
+    "📝 Journal": {
+      "title": "Γράψτε το 💛",
+      "body": "Θα μπορούσατε να ξεκινήσετε με το «αυτή τη στιγμή νιώθω...» και απλά αφήστε το να κυλήσει."
+    },
+    "🌬️ Breathe": {
+      "title": "Αναπνέω 💛",
+      "body": "Εισπνεύστε 4... κρατήστε 2... Εκπνεύστε 6... Ας το επιβραδύνουμε μαζί."
+    },
+    "🎧 Distract myself": {
+      "title": "Απαλή αλλαγή 💛",
+      "body": "Μια απαλή απόσπαση της προσοχής μπορεί να αλλάξει τη στιγμή... ίσως κάτι ελαφρύ ή εύκολο."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ξεκινήστε από την αρχή",
+    "finish_exit": "Τέλος & Έξοδος",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Ώρα για ολοκλήρωση",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Μερίδιο",
+    "share_progress": "Κοινοποίηση προόδου",
+    "inspire_others": "Εμπνεύστε τους άλλους σήμερα",
+    "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
+    "this_activity": "αυτή η δραστηριότητα",
+    "copied": "Αντιγράφηκε!",
+    "copy_message": "Αντιγραφή μηνύματος",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Χάρτης Φαγητού & Συναισθημάτων",
+  "more": "Περισσότερο",
+  "breadcrumb": "ψίχουλα ψωμιού",
+  "previous_slide": "Προηγούμενη διαφάνεια",
+  "next_slide": "Επόμενη διαφάνεια",
+  "close": "Κοντά",
+  "previous": "Προηγούμενος",
+  "more_pages": "Περισσότερες σελίδες",
+  "pagination": "σελιδοποίηση",
+  "go_to_previous_page": "Μετάβαση στην προηγούμενη σελίδα",
+  "go_to_next_page": "Μετάβαση στην επόμενη σελίδα",
+  "toggle_sidebar": "Εναλλαγή πλευρικής γραμμής",
+  "oops_page_not_found": "Ωχ! Η σελίδα δεν βρέθηκε.",
+  "return_to_home": "Επιστροφή στην Αρχική",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

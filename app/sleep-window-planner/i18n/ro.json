@@ -1,0 +1,147 @@
+{
+  "app_title": "Planificator pentru fereastra de somn",
+  "pill_labels": [
+    "Construiește-ți fereastra",
+    "Stabilește-ți timpii",
+    "Fereastra ta de somn"
+  ],
+  "screen1": {
+    "title": "Fereastra ta de somn contează mai mult decât crezi",
+    "p1": "O fereastră de somn este timpul fix dintre momentul în care te culci și cel în care te trezești. Menținerea consecventului — chiar și în weekend — este unul dintre cele mai puternice lucruri pe care le poți face pentru somnul tău.",
+    "p2": "Acest instrument te ajută să-ți construiești dispozitivul în mai puțin de 2 minute.",
+    "insight": "Chiar și o diferență de o oră în timpul somnului în weekend poate afecta modul în care te simți pe tot parcursul săptămânii.",
+    "meta": "Simplu. Personal. Eficient.",
+    "button": "Hai să-mi construim →"
+  },
+  "screen2": {
+    "title": "Hai să-ți setăm fereastra de somn",
+    "step1": {
+      "title": "PASUL 1 — TIMPUL DE TREZIRE",
+      "desc": "La ce oră trebuie să te trezești în majoritatea zilelor?"
+    },
+    "step2": {
+      "title": "PASUL 2 — DURATA SOMNULUI",
+      "desc": "Câte ore de somn vrei?"
+    },
+    "live_window": {
+      "bedtime": "Ora de culcare",
+      "waketime": "Ora de trezire",
+      "duration": "{{hours}} ore de somn"
+    },
+    "italic": "Majoritatea adulților au nevoie de 7–9 ore. Alege ce ți se pare potrivit.",
+    "button": "Vezi fereastra mea de somn →"
+  },
+  "screen3": {
+    "title": "Fereastra 🌙 ta de somn",
+    "result": {
+      "bedtime": "Ora de culcare",
+      "waketime": "Ora de trezire",
+      "duration": "Durata",
+      "hours": "{{hours}} ore"
+    },
+    "accordion1": {
+      "title": "3 moduri de a-l proteja",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Relaxează-te cu 30 de minute înainte de culcare"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Aceeași oră de trezire în fiecare zi — da, și în weekend"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Evită somnurile mai lungi de 20 de minute după ora 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Angajează-te la un singur lucru în seara asta",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Mi-am pus telefonul deoparte înainte de culcare"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Începe o rutină de relaxare"
+        },
+        {
+          "emoji": "💡",
+          "text": "Strânge luminile cu o oră înainte de culcare"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Termină-mi lista de lucruri de făcut mai devreme"
+        }
+      ]
+    },
+    "quote": "Consistența este mai puternică decât perfecțiunea. O noapte bună se construiește pe următoarea.",
+    "button": "Păstrează-mi fereastra de somn ✓",
+    "saved_button": "✓ Fereastra de somn salvată!",
+    "adjust_times": "Ajustarea timpilor"
+  },
+  "complete": {
+    "title": "Fereastră creată",
+    "message": "Fereastra ta ideală de somn a fost trasată. Consistența este cheia odihnei profunde și restauratoare."
+  },
+  "toasts": {
+    "save_success": "Fereastra de somn salvată",
+    "save_error": "Nu s-a reușit să salveze fereastra de somn",
+    "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
+    "saving": "Salvând..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Planificator de ferestre de somn",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

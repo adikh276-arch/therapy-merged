@@ -1,0 +1,125 @@
+{
+  "app_title": "La tua narrazione",
+  "nav": {
+    "entry": "Benvenuto",
+    "writing": "Espressione",
+    "landing": "Riflettendo",
+    "history": "Il tuo viaggio"
+  },
+  "entry": {
+    "title": "Facciamo un passo alla volta. 💛",
+    "description": [
+      "Non devi raccontare tutta la tua storia oggi. Basta, anche solo una piccola parte.",
+      "Sei al sicuro adesso. Hai il controllo su ciò che scrivi—e su ciò che non scrivi."
+    ],
+    "breath": "Fai un respiro lento prima di cominciare.",
+    "button_ready": "Sono pronto",
+    "button_history": "Narrazioni passate",
+    "footer": "Le tue parole • Il tuo ritmo • La tua storia"
+  },
+  "writing": {
+    "title": "Scrivi ciò che ti sembra a posto ✨",
+    "subtitle": "Le tue parole, il tuo passo",
+    "prompt_label": "Hai bisogno di un punto di partenza?",
+    "prompts": [
+      {
+        "text": "Quello che ricordo di più è...",
+        "emoji": "💭"
+      },
+      {
+        "text": "In quel momento, mi sono sentito...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Da allora, ho notato...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Inizia a scrivere qui...",
+    "notice": "Non c'è un modo giusto per farlo. Anche poche battute bastano.",
+    "button": "Termina la scrittura"
+  },
+  "landing": {
+    "title": "Hai fatto qualcosa di importante.",
+    "subtitle": "Grazie per esserti presentata per te stessa.",
+    "settle_title": "Facciamo un momento per sistemarci",
+    "steps": [
+      "Guarda intorno e nomina 3 cose che riesci a vedere.",
+      "Fai un respiro lento... e fuori."
+    ],
+    "feeling_label": "In questo momento, mi sento:",
+    "feeling_placeholder": "Una parola o due...",
+    "quote": "\"Non devi portare tutto insieme. Puoi tornare quando ti sentirai pronto.\"",
+    "button_save": "Preserva la narrazione",
+    "button_preserving": "Preservare..."
+  },
+  "history": {
+    "title": "Il tuo viaggio 📝",
+    "subtitle": "Narrazioni e riflessioni passate",
+    "empty": "Non hai ancora salvato nessuna voce. Prenditi il tuo tempo—non c'è fretta.",
+    "no_writing": "Nessuna scritta conservata",
+    "button_back": "Ritorno all'attività"
+  },
+  "complete": {
+    "title": "Narrazione conservata",
+    "message": "Hai fatto un passo potente nel raccontare la tua storia. La tua prospettiva conta, e il tuo percorso è unicamente tuo."
+  },
+  "toasts": {
+    "save_success": "Narrazione preservata",
+    "save_error": "Non è riuscito a preservare la narrazione",
+    "auth_error": "Sessione di autenticazione mancante o DB non configurato"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "La tua narrazione",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "remove_this": "RIMUOVI_QUESTO",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

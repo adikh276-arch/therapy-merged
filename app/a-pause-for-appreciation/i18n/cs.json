@@ -1,0 +1,147 @@
+{
+  "title": "Pauza pro ocenění",
+  "subtitle": "5–7 minutová řízená reflexe",
+  "nav": {
+    "history": "Historie",
+    "home": "Domov"
+  },
+  "intro": {
+    "text1": "Když je vztah napjatý, může být snadné soustředit se jen na to, co nefunguje. Tato úvaha nabízí krátkou pauzu — ne proto, aby obavy odmítla, ale aby jemně rozšířila obzory.",
+    "text2": "Není tu žádné očekávání, že budeš vděčný. Stačí si všimnout, co se objeví.",
+    "begin": "Začátek",
+    "viewHistory": "Zobrazit historii"
+  },
+  "breathing": {
+    "title": "Přijďte a usadíte se",
+    "description": "Než budete pokračovat, dopřejte si krátkou pauzu. Tento okamžik není o řešení čehokoliv. Jde o vytváření prostoru.",
+    "instruction": "Sledujte dechový rytmus níže.",
+    "inhale": "Nadechni se... {{counter}}…",
+    "hold": "Drž...",
+    "exhale": "Vydechni... {{counter}}…",
+    "affirmation": "\"Dokážu uznat, co je těžké, a přesto zůstat otevřený tomu, aby si toho všiml.\"",
+    "continue": "Pokračovat"
+  },
+  "reflection": {
+    "step": "Krok {{step}} z {{total}}",
+    "prompts": {
+      "p1": "Jeden malý okamžik s partnerem, který nepůsobil napjatě, byl...",
+      "p1_ex": "\"Večer jsme si krátce a klidně povídali.\"",
+      "p2": "Jedno úsilí, které tvůj partner vynaložil — i když nedokonalé — je...",
+      "p2_ex": "\"Snažili se vysvětlit své pocity místo toho, aby se stáhli.\"",
+      "p3": "Jedna vlastnost tvého partnera, která zůstala konzistentní v průběhu času, je...",
+      "p3_ex": "\"Stále projevují oddanost našim povinnostem.\""
+    },
+    "placeholder": "Napište svůj názor sem...",
+    "next": "Další",
+    "finish": "Konec"
+  },
+  "intention": {
+    "step": "Krok 4 ze 4",
+    "title": "Jak byste chtěli držet tuto reflexi?",
+    "options": {
+      "private": "Raději bych si tuto úvahu nechal v soukromí.",
+      "share_part": "Možná se rozhodnu část z toho sdílet se svým partnerem.",
+      "share_full": "Rád bych se s vámi o tuto úvahu plně podělil.",
+      "save_later": "Tohle si nechám na pozdější rozhovor."
+    },
+    "continue": "Pokračovat"
+  },
+  "checkin": {
+    "title": "Když jste dokončil tuto úvahu, které tvrzení vám připadá nejpřesnější?",
+    "statements": {
+      "s1": "Teď se cítím vůči svému partnerovi o něco otevřenější.",
+      "s2": "Nevšiml jsem si výrazné změny, ale jsem ochoten být ve střehu.",
+      "s3": "Zjistil jsem, že je to trochu obtížné dokončit.",
+      "s4": "Při reflexi jsem zažil malý pocit tepla.",
+      "s5": "Všiml jsem si odporu a to je důležité uznat.",
+      "s6": "Cítím jemné změkčení oproti tomu, co jsem začal předtím."
+    },
+    "finish": "Dokončit a zachránit"
+  },
+  "closing": {
+    "title": "Reflexe dokončena",
+    "text1": "Tato pauza nevymaže výzvy. Jednoduše obnovuje rovnováhu v tom, jak je vztah vnímán.",
+    "text2": "I krátké okamžiky vnímání si mohou postupně zmírnit emoční ztuhlost a vytvořit prostor pro zdravější rozhovory.",
+    "save": "Uložit do odrazů",
+    "viewHistory": "Zobrazit historii",
+    "exit": "Východ"
+  },
+  "history": {
+    "title": "Tvá reflexní historie",
+    "noReflections": "Žádné odrazy zatím neuložené. Vaše dokončené sezení se zobrazí zde.",
+    "back": "Zpět na začátek",
+    "confirmDelete": "Potvrdit smazání",
+    "cancel": "Zrušit",
+    "delete": "Smazat záznam",
+    "prompts": [
+      "Jeden malý okamžik, který nepůsobil napjatě...",
+      "Jeden pokus, který tvůj partner udělal...",
+      "Jedna vlastnost, která zůstala konzistentní...",
+      "Záměr",
+      "Emocionální kontrola"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3–5 minut",
+  "app_title": "Odrážející",
+  "intro_p1": "Pěstujte vděčnost",
+  "intro_p2": "Snižte stres",
+  "intro_p3": "Zlepšení pohody",
+  "app_description": "Řízená reflexe v délce 5–7 minut",
+  "how_do_you_feel_after_this_reflection": "Jak se cítíte po této reflexi?",
+  "your_past_reflections_appreciations": "Vaše minulé úvahy a uznání",
+  "start_new_session": "Začít novou relaci",
+  "feeling": "Pocit",
+  "delete_this_entry": "Smazat tento záznam?",
+  "delete_5": "Vymazat",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

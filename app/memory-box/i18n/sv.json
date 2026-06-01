@@ -1,0 +1,146 @@
+{
+  "app_title": "Minneslåda",
+  "screen_titles": [
+    "Din låda",
+    "Hedersbetygelser",
+    "Uttryck",
+    "Bevarat",
+    "Varsam vård"
+  ],
+  "complete_title": "Bevarat minne",
+  "complete_message": "Du har säkert placerat ett minne av {{name}} i din låda. Dessa stunder av kontakt är alltid dina att behålla.",
+  "auth_error": "Auth-session saknas eller databas inte konfigurerad",
+  "save_success": "Bevarat minne",
+  "save_error": "Misslyckades med att bevara minnet",
+  "preserving": "Bevara...",
+  "preserve_memory": "Bevara minnet",
+  "welcome": {
+    "title": "Din minneslåda",
+    "subtitle1": "En tyst plats för att minnas någon du älskar. 🤍",
+    "subtitle2": "Ta ett långsamt andetag in...",
+    "subtitle3": "… och andas ut försiktigt.",
+    "subtitle4": "Det finns inget rätt eller fel sätt att göra detta på.",
+    "subtitle5": "Ta det i din egen takt. 🌿",
+    "begin": "Börja ✨",
+    "later": "Kanske senare"
+  },
+  "who": {
+    "placeholder_name": "Skriv deras namn...",
+    "placeholder_relation": "Hur känner du dem? (valfritt)",
+    "categories": [
+      {
+        "label": "Ett lyckligt ögonblick",
+        "emoji": "😊"
+      },
+      {
+        "label": "Något de brukade säga",
+        "emoji": "💬"
+      },
+      {
+        "label": "Ett litet vardagsminne",
+        "emoji": "☕"
+      },
+      {
+        "label": "En plats som påminner dig om dem",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Något jag önskar att jag kunde säga",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Fortsätt →"
+  },
+  "expression": {
+    "title": "Uttrycker ditt minne",
+    "memory_label": "Själva minnet",
+    "memory_placeholder": "Skriv om ögonblicket, känslan eller detaljen du vill behålla...",
+    "message_label": "Ett meddelande till dem (valfritt)",
+    "message_placeholder": "Vad skulle du säga om du kunde prata med dem just nu?",
+    "save": "Bevara minnet",
+    "skip": "Hoppa över för nu",
+    "back": "Tillbaka"
+  },
+  "box": {
+    "title": "Säkert undanstoppad",
+    "subtitle": "Detta minne av {{name}} är nu en del av din samling.",
+    "add_another": "Lägg till ett minne till",
+    "finish": "Färdig reflektion"
+  },
+  "closing": {
+    "title": "Ta hand om dig",
+    "subtitle": "Stänger din låda för tillfället. Du kan återvända hit när du vill känna dig nära dessa minnen.",
+    "exit": "Stäng Box"
+  },
+  "history": {
+    "title": "Innehåll i lådan",
+    "no_memories": "Din låda är tom. Lägg till ditt första minne för att börja din samling.",
+    "search_placeholder": "Sök minnen..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Minneslåda",
+  "before_you_go": "Innan du går",
+  "grief_comes_in_waves": "Sorgen kommer i vågor. 🌊",
+  "what_you_re_feeling_matters": "Vad du känner spelar roll. 🤍",
+  "be_gentle_with_yourself_today": "Var snäll mot dig själv idag. 🌿",
+  "save_exit": "Spara och avsluta 🕊️",
+  "take_your_time": "Ta din tid 🕯️",
+  "save_to_memory_box": "Spara i minneslåda 📦",
+  "write_as_much_or_as_little_as_you_want": "Skriv så mycket eller så lite du vill… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Om det är något du vill säga…",
+  "past_entries": "Tidigare inlägg",
+  "no_memories_saved_yet": "Inga minnen sparade än.",
+  "this_memory_is_held_here_for_you": "Detta minne finns här, för dig. 🌿",
+  "add_another_memory": "Lägg till ytterligare ett minne ✨",
+  "finish_for_now": "Slutför för nu",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

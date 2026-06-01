@@ -1,0 +1,151 @@
+{
+  "title": "Todellisia tarinoita ahdistuksen voittamisesta",
+  "subtitle": "Oikeita ihmisiä. Aitoa ahdistusta. Todellista rohkeutta.",
+  "quote": "Jokainen matka näyttää erilaiselta. Jokainen askel eteenpäin merkitsee.",
+  "readStories": "Lue tarinat",
+  "chooseStory": "Valitse tarina",
+  "allStories": "Kaikki tarinat",
+  "backToStories": "Takaisin tarinoihin",
+  "nextStory": "Seuraava tarina",
+  "stories": [
+    {
+      "name": "Aarav",
+      "quote": "Luulin, että pelko tarkoitti, että minussa oli jotain vialla.",
+      "body": [
+        "En nuorempana tiennyt sanaa \"ahdistus\" — tunsin vain tunteen. Rintani tuntui ahtaalta, vatsani sattui ja mieleni kertoi, että jotain pahaa oli tapahtumassa. Jopa tavalliset päivät tuntuivat vaarallisilta. Kouluaamut olivat vaikeimpia. Pidin kiinni vanhemmistani, peläten, että kun he lähtisivät, en olisi kunnossa.",
+        "Muistan katsoneeni muita lapsia ja ihmetelleeni, miksi he vaikuttivat ihan hyviltä. Miksi heidän sydämensä eivät lyöneet kuten minun? Miksi he eivät halunneet juosta kotiin? Tunsin oloni hämmentyneeksi ja noloksi. Joskus ajattelin, että pelko tarkoitti heikkoutta tai erilaista huonolla tavalla.",
+        "Avun avulla opin hitaasti, ettei ahdistus ollut vika — se oli aivoni, jotka yrittivät liikaa suojella minua. Sen sijaan, että olisin taistellut sitä vastaan tai piiloutunut siltä, opin pieniä tapoja kohdata se. Joinakin päivinä se tarkoitti viiden minuutin pidempään luokassa olemista. Toisina päivinä se tarkoitti vain hengittämistä pelon läpi pakenematta.",
+        "Nyt ymmärrän jotain tärkeää: rohkeus ei tarkoita, ettei pelkää. Se tarkoittaa jäämistä, vaikka olisitkin. Ja joka kerta kun jään, vahvistun hieman."
+      ],
+      "reflection": "Milloin olet jäänyt, vaikka pelkäsit?"
+    },
+    {
+      "name": "Daniel",
+      "quote": "Uskoin, että huolehtiminen tarkoitti vastuullisuutta.",
+      "body": [
+        "Vuosien ajan uskoin, että huolehtiminen oli työni. Jos mietin jokaisen mahdollisen ongelman, valmistauduin jokaiseen lopputulokseen ja pysyisin henkisesti valppaana koko ajan, pystyin estämään virheet. Ahdistus tuntui tuottavalta. Se tuntui vastuulliselta.",
+        "Mutta ajan myötä huomasin, kuinka uupunut olin. Mieleni ei koskaan pysähtynyt. Jopa lomien tai perheillallisten aikana suunnittelin, ennakoin tai estin mielessäni. Rentoutuminen tuntui turvattomalta. Jos lakkasin huolehtimasta, tunsin olevani huolimaton.",
+        "Lopulta tajusin, ettei ahdistus suojellut minua — se hallitsi minua. Terapia auttoi minua ymmärtämään, että epävarmuus on osa elämää, eikä mikään murehtiminen voi poistaa sitä. Aloin harjoitella huomaamaan ajatuksiani ilman, että uskoin niihin automaattisesti.",
+        "Jatkuvan kontrollin irti päästäminen tuntui aluksi epämukavalta. Mutta hitaasti tila avautui. Aloin tehdä päätöksiä sen perusteella, mikä minulle oli tärkeää — en vain sen perusteella, mikä tuntui turvallisimmalta. Ahdistus näkyy edelleen, mutta se ei enää hallitse tapahtumia."
+      ],
+      "reflection": "Missä sekoitat huolen vastuuseen?"
+    },
+    {
+      "name": "Rhea",
+      "quote": "Odotin koko ajan, että tuntisin oloni itsevarmaksi ennen kuin elän.",
+      "body": [
+        "Ahdistus kuulosti ääneltä päässäni, joka ei koskaan lakannut kritisoimasta minua. Se kertoi minulle, että nolaisin itseni, sanoisin väärän asian tai minut tuomittaisiin. Keskustelujen jälkeen kävin läpi kaiken, mitä sanoin. Ennen tapahtumia kuvittelisin pahimpia mahdollisia skenaarioita.",
+        "Ulospäin näytin itsevarmalta. Sisälläni olin jatkuvasti hermostunut. Jatkoin odottamista, että tuntisin olevani valmis — odotin, että itseluottamus taianomaisesti saapuisi, jotta voisin vihdoin puhua vapaasti, hakea mahdollisuuksia tai laittaa itseni likoon.",
+        "Mutta itsevarmuus ei koskaan tullut ensin.",
+        "Mikä muutti elämäni, oli se, että tajusin, ettei minun tarvitse poistaa ahdistusta päästäkseni eteenpäin. Voisin ottaa sen mukaani. Aloin ottaa pieniä riskejä — nostin kättäni, osallistuin tapahtumiin, puhuin vaikka ääneni värisi.",
+        "Joka kerta kun toimin pelosta huolimatta, jokin muuttui. Lopetin itseni mittaamisen sen mukaan, kuinka rauhalliseksi tunsin, ja aloin mitata itseäni sillä, kuinka rohkea olin valmis olemaan."
+      ],
+      "reflection": "Mitä kokeilisit, jos et odottaisi olevasi täysin valmis?"
+    },
+    {
+      "name": "Margaret",
+      "quote": "En odottanut, että ahdistus alkaisi tässä elämänvaiheessa.",
+      "body": [
+        "Luulin, että ahdistus kuuluu nuoremmille ihmisille. En odottanut sen ilmestyvän eläkkeelle jäämisen jälkeen, kun elämä viimein hidastui. Mutta kun kiireiset vuodet päättyivät, ajatukseni muuttuivat kovemmiksi. Jokainen fyysinen tunne tuntui huolestuttavalta. Jokainen tuntematon tuntui vaaralliselta.",
+        "Tunsin häpeää kamppailusta. Iässäni uskoin, että minun pitäisi olla selvittänyt kaikki. Etsin jatkuvasti varmuutta — lääkäreiltä, perheeltä, verkkoartikkeleista. Vakuuttelu auttoi hetkeksi, mutta pelko palasi aina.",
+        "Lopulta ymmärsin, että vakuuttelu ruokki kierrettä. Ohjauksessa aloin harjoitella istumista epävarmuuden kanssa sen sijaan, että olisin jahdannut varmuutta. Rakensin rutiinit uudelleen. Löysin uudelleen yhteyden harrastuksiin. Sallin epämukavuuden hitaasti yrittämättä heti korjata sitä.",
+        "Nykyään ahdistus käy yhä joskus. Mutta se ei enää määrittele minua. Olen oppinut, että kasvulla ei ole vanhenemispäivää — ja rohkeus voi ilmestyä missä iässä tahansa."
+      ],
+      "reflection": "Mikä osa sinusta vielä kasvaa?"
+    },
+    {
+      "name": "Kabir",
+      "quote": "Ahdistukseni ei koskaan näyttänyt paniikilta. Se näytti tuottavuudelta.",
+      "body": [
+        "Heräsin aikaisin, tein pitkiä päiviä ja täytin jokaisen vapaan hetken jollain — uutisilla, sähköposteilla, puheluilla, taustamelulla. Jos oli hiljaista, täytin sen. Jos oli hiljaisuutta, pääsin siitä pois.",
+        "Koska kun asiat hiljenivät, ajatukseni muuttuivat äänekkäiksi.",
+        "Entä jos perheelleni tapahtuu jotain? Entä jos menetän työni? Entä jos sairastun? Pelot eivät olleet jatkuvia, mutta ne olivat sitkeitä. He leijailivat taustalla odottaen tilaa.",
+        "Joten en antanut heille tilaa.",
+        "Luulin olevani vain kunnianhimoinen. Määrätietoinen. Keskittynyt. Mutta kiireen alla oli levottomuus. Ärtyneisyys. Tunne, jota en koskaan voinut todella rentoutua.",
+        "Eräänä iltana tyttäreni kysyi minulta, miksi olin aina \"jossain muualla\", vaikka istuin aivan hänen vieressään. Tuo kysymys jäi mieleeni.",
+        "Aloitin pienestä. Kaksi minuuttia istumista ilman puhelinta. Ei häiriötekijöitä. Vain hengittäen. Aluksi se tuntui sietämättömältä. Mieleni laukkasi. Kehoni tuntui levottomalta.",
+        "Mutta jatkoin harjoittelua.",
+        "Ajan myötä opin, että ajatukset voivat olla äänekkäitä ilman, että ne ovat vaarallisia. Minun ei tarvinnut ratkaista jokaista pelkoa heti. Minun ei tarvinnut paeta epämukavuutta.",
+        "Nyt teen edelleen kovasti töitä. Välitän edelleen syvästi. Mutta sallin myös hiljaisuuden hetkiä. Ja sen sijaan, että ne tuntuisivat uhkalta, nuo hetket tuntuvat joskus rauhalta."
+      ],
+      "reflection": "Missä vaiheessa elämässäsi täytät hiljaisuutta välttääksesi sen, mitä se saattaa paljastaa?"
+    },
+    {
+      "name": "Nisha",
+      "quote": "Sain ylennyksen — ja sitten en saanut unta.",
+      "body": [
+        "Ahdistukseni alkoi, kun tapahtui jotain \"hyvää\".",
+        "Sain ylennyksen. Enemmän vastuuta. Parempi näkyvyys. Lisää odotuksia. Kaikki onnittelivat minua. Hymyilin, kiitin heitä, juhlin — ja menin sitten kotiin enkä saanut unta.",
+        "Entä jos en oikeasti pysty siihen? Entä jos he tajuavat tehneensä virheen? Entä jos epäonnistun julkisesti?",
+        "Mitä korkeammalle kiipesin, sitä paljaammaksi tunsin itseni. Jokainen kokous tuntui testiltä. Jokainen pieni virhe tuntui todisteelta siitä, etten kuulunut joukkoon. Aloin tehdä liikaa töitä kompensoidakseni — jäin myöhään, vapaaehtoisin ylimääräisiin tehtäviin, vastasin sähköposteihin välittömästi.",
+        "Ulospäin näytin menestyneeltä. Sisälläni tunsin itseni huijariksi, joka odottaa tulla löydetyksi.",
+        "Ahdistus ei huutanut. Se kuiskasi. Se kertoi minulle, että minun täytyy olla parempi kuin kaikki muut, jotta ansaitsisin olla siellä. Se kertoi minulle, että lepo on laiskuutta. Se kertoi, että yksi väärä liike kumoaisi kaiken.",
+        "Murtumispiste ei ollut dramaattinen. Se oli satunnainen tiistai, kun unohdin pienen liitteen sähköpostiin — ja vietin koko illan pyörittäen sitä mielessäni. Silloin tajusin, ettei tämä ollut enää kunnianhimoa. Se oli pelkoa.",
+        "Mikä hitaasti muutti asioita, oli oppiminen, että epämukavuus ei tarkoita vaaraa. Kasvu tuntuu usein altistumiselta. Uudet roolit venyttävät sinua — ne eivät tarkoita, että olisit huijari.",
+        "Aloin sallia itselleni oppimisen sen sijaan, että odottaisin olevani täydellinen. Aloin myöntää, kun en tiennyt jotain. Annan itseni esittää kysymyksiä.",
+        "Ja tapahtui jotain yllättävää.",
+        "Ihmiset kunnioittivat minua enemmän, eivät vähemmän.",
+        "Nyt, kun ahdistus sanoo, etten kuulu joukkoon, en automaattisesti usko sitä. Muistutan itseäni: uusi jossain ei tarkoita, että olisi kyvytön. Se tarkoittaa kasvua.",
+        "Ja kasvu on aina tuntunut hieman epämukavalta."
+      ],
+      "reflection": "Missä sekoitat epämukavuuden todisteeseen siitä, ettet kuulu joukkoon?"
+    }
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "5–10 minuuttia",
+  "app_title": "Tositarinoita ahdistuksen voittamiseksi",
+  "intro_p1": "Oikeiden ihmisten oikeita kokemuksia",
+  "intro_p2": "Löydä voimaa jaetuista tarinoista",
+  "app_description": "Oikeita ihmisiä. Todellista ahdistusta. Todellista rohkeutta.",
+  "toggle_language": "Vaihda kieli",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

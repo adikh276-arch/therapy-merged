@@ -1,0 +1,147 @@
+{
+  "app_title": "Sleep Window Planner",
+  "pill_labels": [
+    "Build your window",
+    "Set your times",
+    "Your sleep window"
+  ],
+  "screen1": {
+    "title": "Your sleep window matters more than you think",
+    "p1": "A sleep window is the fixed time between when you go to bed and when you wake up. Keeping it consistent — even on weekends — is one of the most powerful things you can do for your sleep.",
+    "p2": "This tool helps you build yours in under 2 minutes.",
+    "insight": "Even a 1-hour difference in sleep times on weekends can disrupt how you feel all week.",
+    "meta": "Simple. Personal. Effective.",
+    "button": "Let's build mine →"
+  },
+  "screen2": {
+    "title": "Let's set your sleep window",
+    "step1": {
+      "title": "STEP 1 — WAKE-UP TIME",
+      "desc": "What time do you need to wake up most days?"
+    },
+    "step2": {
+      "title": "STEP 2 — SLEEP DURATION",
+      "desc": "How many hours of sleep do you want?"
+    },
+    "live_window": {
+      "bedtime": "Bedtime",
+      "waketime": "Wake time",
+      "duration": "{{hours}} hours of sleep"
+    },
+    "italic": "Most adults need 7–9 hours. Choose what feels right.",
+    "button": "See my sleep window →"
+  },
+  "screen3": {
+    "title": "Your sleep window 🌙",
+    "result": {
+      "bedtime": "Bedtime",
+      "waketime": "Wake time",
+      "duration": "Duration",
+      "hours": "{{hours}} hours"
+    },
+    "accordion1": {
+      "title": "3 ways to protect it",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Wind down 30 mins before your bedtime"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Same wake time every day — yes, weekends too"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Avoid naps longer than 20 mins after 3pm"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Commit to 1 thing tonight",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Put my phone away before bed"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Start a wind-down routine"
+        },
+        {
+          "emoji": "💡",
+          "text": "Dim the lights an hour before bed"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Finish my to-do list early"
+        }
+      ]
+    },
+    "quote": "Consistency is more powerful than perfection. One good night builds the next.",
+    "button": "Save my sleep window ✓",
+    "saved_button": "✓ Sleep window saved!",
+    "adjust_times": "Adjust Times"
+  },
+  "complete": {
+    "title": "Window Created",
+    "message": "Your ideal sleep window has been mapped. Consistency is the key to deep, restorative rest."
+  },
+  "toasts": {
+    "save_success": "Sleep window saved",
+    "save_error": "Failed to save sleep window",
+    "auth_error": "Auth session missing or DB not configured",
+    "saving": "Saving..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sleep Window Planner",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

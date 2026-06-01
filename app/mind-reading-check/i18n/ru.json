@@ -1,0 +1,144 @@
+{
+  "app_title": "Проверка чтения мыслей",
+  "intro": {
+    "title": "Проверка чтения мыслей",
+    "description": "Ставьте под сомнение свои предположения о том, что думают другие.",
+    "benefits": [
+      "Перестань думать о худшем",
+      "Выявление предвзятых интерпретаций",
+      "Постройте более чёткую коммуникацию"
+    ],
+    "duration": "3-4 минуты",
+    "view_past": "Просмотр прошлых размышлений"
+  },
+  "history": {
+    "title": "Прошлые размышления",
+    "no_entries": "Пока нет записей",
+    "belief_label": "Вера: {{level}}%",
+    "balanced_thought_label": "Сбалансированное мышление"
+  },
+  "complete": {
+    "title": "Деятельность завершена",
+    "great_insights": "Отличные инсайты!",
+    "message": "Ставя под сомнение свои предположения, вы формируете более объективный и сострадательный ум."
+  },
+  "steps": {
+    "label": "Шаг {{current}} из 10",
+    "step1": {
+      "title": "Что случилось?",
+      "desc": "Опишите недавний момент, когда вы почувствовали осуждение или неуверенность.",
+      "placeholder": "Описание ситуации..."
+    },
+    "step2": {
+      "title": "Что у тебя было на уме?",
+      "desc": "Как вы думали, что они думают о вас?",
+      "placeholder": "Я предположил, что они думают..."
+    },
+    "step3": {
+      "title": "Давайте замедлимся.",
+      "desc": "Сейчас эта мысль кажется правдой. Но прежде чем принимать это как факт, давайте сделаем шаг назад и рассмотрим это более внимательно.",
+      "button": "Пауза и продолжение"
+    },
+    "step4": {
+      "title": "Это правда?",
+      "desc": "Есть ли какие-либо явные доказательства (факты, а не предположения), которые подтверждают эту мысль?",
+      "placeholder": "Доказательства, которые я вижу..."
+    },
+    "step5": {
+      "title": "Что ещё может происходить?",
+      "desc": "Какие ещё 2–3 возможных объяснения?",
+      "placeholder": "Возможность {{num}}..."
+    },
+    "step6": {
+      "title": "Проверьте свою веру",
+      "desc": "Насколько сильно вы сейчас верите в свою первоначальную мысль?",
+      "labels": [
+        "Совсем нет",
+        "Полностью"
+      ]
+    },
+    "step7": {
+      "title": "Более сбалансированный взгляд",
+      "desc": "Напишите мысль, которая кажется более справедливой и менее уверенной.",
+      "placeholder": "Более взвешенная мысль..."
+    },
+    "step8": {
+      "title": "В следующий раз",
+      "desc": "Что вы могли бы сделать, вместо того чтобы делать выводы?",
+      "examples": [
+        "Попросите разъяснения",
+        "Дай этому немного времени",
+        "Уведомляйте, не реагируя"
+      ],
+      "placeholder": "В следующий раз я могу..."
+    },
+    "step9": {
+      "title": "Обратите внимание на сдвиг",
+      "desc": "Вы исследовали разные возможности и создали пространство для более сбалансированного взгляда.",
+      "original_label": "Оригинальная мысль",
+      "balanced_label": "Сбалансированная перспектива",
+      "button": "Отражение финиша"
+    },
+    "step10": {
+      "title": "Небольшой сдвиг",
+      "desc": "Ваш разум пытается заполнить пробелы. Но не каждая мысль — это факт. Шаг назад помогает видеть вещи ясно.",
+      "button": "Полная деятельность"
+    }
+  },
+  "buttons": {
+    "continue": "Продолжайте",
+    "restart": "Перезапуск"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Время выполнения",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Делиться",
+    "share_progress": "Поделиться прогрессом",
+    "inspire_others": "Вдохновите других сегодня!",
+    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
+    "this_activity": "эта деятельность",
+    "copied": "Скопировано!",
+    "copy_message": "Скопировать сообщение",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Проверка на умение читать мысли",
+  "more": "Более",
+  "breadcrumb": "хлебные крошки",
+  "previous_slide": "Предыдущий слайд",
+  "next_slide": "Следующий слайд",
+  "close": "Закрывать",
+  "previous": "Предыдущий",
+  "more_pages": "Больше страниц",
+  "pagination": "нумерация страниц",
+  "go_to_previous_page": "Перейти на предыдущую страницу",
+  "go_to_next_page": "Перейти на следующую страницу",
+  "toggle_sidebar": "Переключить боковую панель",
+  "oops_page_not_found": "Ой! Страница не найдена.",
+  "return_to_home": "Вернуться на главную",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

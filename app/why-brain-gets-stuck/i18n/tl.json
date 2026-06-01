@@ -1,0 +1,81 @@
+{
+  "app_title": "Bakit Natigil ang Utak",
+  "app_subtitle": "Ang lohika ng kaligtasan • {{step}}/{{total}}",
+  "s1": {
+    "title": "Hindi nasira ang utak mo. Nag-adjust ito.",
+    "description": "Pagkatapos ng trauma, ang iyong utak ay nag-rewire mismo upang mapanatili kang ligtas. Nalaman niya na ang mundo ay maaaring maging mapanganib, kaya nanatiling handa ito. Hindi iyan isang kapintasan. Iyon ang kaligtasan ng buhay.",
+    "quote": "\"Hindi naman senyales na may mali sa 'yo. Tanda ito na may nangyari sa iyo.\"",
+    "button": "Sabihin sa akin ang higit pa"
+  },
+  "s2": {
+    "tag": "Magiliw na Katotohanan",
+    "title": "Lohika ng kaligtasan ng utak",
+    "truths": [
+      {
+        "header": "Nanatiling naka-on ang alarma",
+        "body": "Hypervigilance at nakakagulat madaling ay hindi overreaction - ang sistema ng alarma ng iyong utak ay ginagawa ang trabaho nito masyadong mahusay."
+      },
+      {
+        "header": "Ang mga flashback ay alaala",
+        "body": "Ang mga trigger ay humihila sa iyong utak pabalik dahil hindi ito nakatanggap ng signal na tapos na ang banta. Sinusubukan nitong protektahan ka."
+      },
+      {
+        "header": "Nakikipaglaban para sa iyo",
+        "body": "Ang bawat sintomas ay minsang isang kilos ng kaligtasan. Ginawa ng utak mo ang dapat niyang gawin para mabuhay ka."
+      }
+    ],
+    "healing": "Ang pagpapagaling ay hindi tungkol sa paglimot. Ito ay tungkol sa pagtulong sa iyong utak na malaman na ligtas ka ngayon."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ang lohika ng kaligtasan • {{step}}/{{total}}",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

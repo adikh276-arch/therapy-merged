@@ -1,0 +1,292 @@
+{
+  "app_title": "Réparation et Reconnexion",
+  "steps": {
+    "welcome": "Bienvenue",
+    "choose_person": "Choisir une personne",
+    "choose_approach": "Choisir l’approche",
+    "guided_action": "Action guidée",
+    "complete": "Complet"
+  },
+  "intro": {
+    "title": "Réparation et Reconnexion",
+    "description": "La colère peut créer de la distance entre nous et les personnes qui nous sont chères. Mais de petits pas doux peuvent aider à reconstruire ce lien.",
+    "quote": "« Réparer ne veut pas dire que tu avais tort—ça veut dire que tu tiens assez à toi pour essayer. »",
+    "small_efforts": "Même de petits efforts peuvent faire la différence.",
+    "button": "Commencez →"
+  },
+  "choose_person": {
+    "title": "Avec qui aimeriez-vous renouer ?",
+    "desc": "Penser à une relation spécifique aide à rendre les étapes plus réelles.",
+    "options": {
+      "friend": "Un ami",
+      "family": "Un membre de la famille",
+      "colleague": "Un collègue",
+      "other": "Quelqu’un d’autre"
+    },
+    "button": "Continuez →"
+  },
+  "choose_approach": {
+    "title": "Qu’est-ce qui te semble juste ?",
+    "desc": "Choisissez une petite étape qui vous semble réalisable.",
+    "safety": "Vous n’êtes pas obligé de tout réparer—choisissez simplement une petite étape.",
+    "button": "Essayez ceci →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Envoyez un point de contact informel",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Reconnaître la tension",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Laissez-vous un peu d’espace",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Laisse tomber et passe à autre chose",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Réfléchissez-y simplement",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Envoie un message chaleureux",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Nomme honnêtement ce qui s’est passé",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Engagez-vous à mettre en pause la prochaine fois",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Choisis la paix plutôt que d’avoir raison",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Réfléchissez à ce dont vous avez vraiment besoin",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Envoyez un certificat professionnel",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Abordez-le avec respect",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Prévoyez une réponse plus calme la prochaine fois",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Reste professionnel et passe à autre chose",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Réfléchissez aux limites",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Contactez-nous avec un message simple",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Reconnaître ce qui s’est passé",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Prends une pause la prochaine fois",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Laisse tomber pour l’instant",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Réfléchissez simplement (pas encore d’action)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Appuyez pour voir comment ✨",
+    "copy_button": "📋 Copie du message",
+    "done_button": "J’en ai fini →",
+    "safety_line_default": "Tu n’es pas obligé d’envoyer quoi que ce soit maintenant. 💛",
+    "safety_line_pause": "Prenez votre temps — il n’y a pas d’urgence. 💛",
+    "safety_line_reflect": "C’est juste pour toi — personne d’autre n’a besoin de voir ça. 💛",
+    "actions": {
+      "message": {
+        "title": "Envoyez un message simple",
+        "why": "Un simple message peut briser le silence et montrer à l’autre personne que tu tiens toujours à toi.",
+        "insight": "Tendre la main — même imparfaitement — est presque toujours mieux accueilli que ce à quoi nous nous attendons.",
+        "howTitle": "Commencez petit",
+        "howBody": "Vous n’avez pas besoin d’écrire un essai. Quelques mots honnêtes peuvent ouvrir la porte à une reconnexion.",
+        "prompts": [
+          "Hé, j’ai pensé à toi. J’espère que tu vas bien.",
+          "Je sais que c’était tendu — je voulais juste dire que je tiens à moi.",
+          "Je suis désolé pour tout à l’heure. On peut parler quand tu seras prêt ?"
+        ],
+        "promptLabel": "Choisissez un point de départ :",
+        "editLabel": "Faites-le vôtre :"
+      },
+      "acknowledge": {
+        "title": "Reconnaître ce qui s’est passé",
+        "why": "Reconnaître ce qui s’est passé montre de la maturité et aide l’autre personne à se sentir vu.",
+        "insight": "Les gens n’ont pas besoin que vous soyez parfaits — ils doivent savoir que vous avez remarqué.",
+        "howTitle": "Nommez-le doucement",
+        "howBody": "Tu peux reconnaître sans prendre toute la responsabilité. Dites simplement ce qui s’est passé honnêtement.",
+        "prompts": [
+          "Je sais que ça s’est intensifié entre nous. Je veux que tu saches que j’ai remarqué.",
+          "Je me rends compte que j’ai peut-être été dur. Ce n’était pas mon intention.",
+          "J’ai réfléchi à ce qui s’est passé, et j’aurais aimé l’avoir géré autrement."
+        ],
+        "promptLabel": "Choisissez un point de départ :",
+        "editLabel": "Faites-le vôtre :"
+      },
+      "pause": {
+        "title": "Faites une pause la prochaine fois",
+        "why": "S’engager dans une pause vous laisse l’espace pour répondre plutôt que pour réagir.",
+        "insight": "Une pause de 6 secondes suffit souvent à passer de la réaction à la réflexion.",
+        "howTitle": "🧘 Plan your pause",
+        "howBody": "Pensez à un simple signal — comme prendre une inspiration ou s’éloigner brièvement — avant de répondre.",
+        "prompts": [
+          "La prochaine fois que je me sentirai contrarié, je prendrai une grande inspiration avant de répondre.",
+          "Je vais essayer de dire « Donnez-moi un moment » au lieu de réagir immédiatement.",
+          "Je vais m’éloigner quelques minutes pour rassembler mes pensées."
+        ],
+        "promptLabel": "Choisissez un engagement qui vous semble juste :",
+        "editLabel": "Écrivez votre propre intention :"
+      },
+      "letgo": {
+        "title": "Laisse tomber pour l’instant",
+        "why": "Parfois, la chose la plus gentille que tu puisses faire est de relâcher le poids de la situation.",
+        "insight": "Lâcher prise n’est pas abandonner — c’est choisir la paix plutôt que d’avoir raison.",
+        "howTitle": "🕊️ Relâche doucement",
+        "howBody": "Tu n’as pas à oublier. Décide simplement que ça n’a plus besoin de contrôler ce que tu ressens.",
+        "prompts": [
+          "Je choisis de laisser tomber — pas parce que cela n’avait pas d’importance, mais parce que ma paix compte plus que ça.",
+          "Je me défoule du besoin d’avoir raison à ce sujet. Je choisis la connexion.",
+          "Cette situation ne définit pas notre relation. J’avance."
+        ],
+        "promptLabel": "Choisissez ce qui vous parle :",
+        "editLabel": "Écrivez ce qui vous semble vrai :"
+      },
+      "reflect": {
+        "title": "Réfléchissez simplement",
+        "why": "La réflexion développe la conscience de soi, qui est la base de toute relation saine.",
+        "insight": "Écrire dans un journal ou même réfléchir à ce qui s’est passé vous aide à traiter les émotions sans pression.",
+        "howTitle": "🔍 Regarde à l’intérieur",
+        "howBody": "Demandez-vous : Qu’est-ce que je ressentais vraiment sous cette colère ? Souvent, c’est de la douleur, de la peur ou de la déception.",
+        "prompts": [
+          "Sous ma colère, je pense que je me sentais blessé.",
+          "Je me rends compte que je réagissais par peur de ne pas être entendu.",
+          "Ce dont j’avais vraiment besoin, c’était de me sentir respecté et valorisé."
+        ],
+        "promptLabel": "Choisissez ce qui vous parle :",
+        "editLabel": "Rédigez votre propre réflexion :"
+      }
+    }
+  },
+  "complete": {
+    "title": "Connexion réparée",
+    "message": "Tu as fait un pas courageux pour réparer ta connexion avec {{person}}. Les petites actions intentionnelles construisent des ponts durables.",
+    "default_person": "quelqu’un d’important"
+  },
+  "toasts": {
+    "save_success": "Progrès de la réparation préservé",
+    "save_error": "A échoué à préserver la réflexion",
+    "copy_success": "Message reçu !",
+    "preserving": "Préserver...",
+    "complete_button": "Compléter & sauvegarder"
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Réparation et reconnexion",
+  "that_s_a_step_forward": "C'est un pas en avant",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Vous avez fait un petit pas vers la réparation, et c'est important.",
+  "try_with_someone_else": "Essayez avec quelqu'un d'autre",
+  "done": "Terminé ✔",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

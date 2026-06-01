@@ -1,0 +1,144 @@
+{
+  "app_title": "Kiểm tra đọc suy nghĩ",
+  "intro": {
+    "title": "Kiểm tra đọc suy nghĩ",
+    "description": "Đặt câu hỏi về những giả định bạn đưa ra về những gì người khác đang nghĩ.",
+    "benefits": [
+      "Ngừng giả định điều tồi tệ nhất",
+      "Xác định cách giải thích thiên vị",
+      "Xây dựng giao tiếp rõ ràng hơn"
+    ],
+    "duration": "3-4 phút",
+    "view_past": "Xem phản ánh trong quá khứ"
+  },
+  "history": {
+    "title": "Suy ngẫm trong quá khứ",
+    "no_entries": "Chưa có bài dự thi nào",
+    "belief_label": "Niềm tin: {{level}}%",
+    "balanced_thought_label": "Suy nghĩ cân bằng"
+  },
+  "complete": {
+    "title": "Hoàn thành hoạt động",
+    "great_insights": "Thông tin chi tiết tuyệt vời!",
+    "message": "Bằng cách đặt câu hỏi về các giả định của mình, bạn đang xây dựng một tâm trí khách quan và từ bi hơn."
+  },
+  "steps": {
+    "label": "Bước {{current}} của 10",
+    "step1": {
+      "title": "Chuyện gì đã xảy ra?",
+      "desc": "Mô tả một khoảnh khắc gần đây mà các em cảm thấy bị phán xét hoặc không chắc chắn.",
+      "placeholder": "Mô tả tình hình..."
+    },
+    "step2": {
+      "title": "Điều gì đã xuất hiện trong tâm trí bạn?",
+      "desc": "Bạn cho rằng họ đang nghĩ gì về bạn?",
+      "placeholder": "Tôi cho rằng họ đang nghĩ..."
+    },
+    "step3": {
+      "title": "Hãy làm chậm quá trình này",
+      "desc": "Ngay bây giờ, suy nghĩ này có thể cảm thấy đúng. Nhưng trước khi chấp nhận nó như một sự thật, chúng ta hãy lùi lại một bước và xem xét nó kỹ hơn.",
+      "button": "Tạm dừng và tiếp tục"
+    },
+    "step4": {
+      "title": "Điều này có đúng không?",
+      "desc": "Có bằng chứng rõ ràng nào (sự thật, không phải giả định) ủng hộ suy nghĩ này không?",
+      "placeholder": "Bằng chứng tôi thấy là..."
+    },
+    "step5": {
+      "title": "Điều gì khác có thể xảy ra?",
+      "desc": "2–3 lời giải thích có thể khác là gì?",
+      "placeholder": "Khả năng {{num}}..."
+    },
+    "step6": {
+      "title": "Kiểm tra niềm tin của bạn",
+      "desc": "Bây giờ bạn tin tưởng vào suy nghĩ ban đầu của mình mạnh mẽ như thế nào?",
+      "labels": [
+        "Không hề",
+        "Hoàn toàn"
+      ]
+    },
+    "step7": {
+      "title": "Một cái nhìn cân bằng hơn",
+      "desc": "Viết một suy nghĩ cảm thấy công bằng hơn và ít chắc chắn hơn.",
+      "placeholder": "Một suy nghĩ cân bằng hơn..."
+    },
+    "step8": {
+      "title": "Lần sau",
+      "desc": "Bạn có thể làm gì thay vì giả định?",
+      "examples": [
+        "Yêu cầu làm rõ",
+        "Hãy cho nó một chút thời gian",
+        "Thông báo mà không phản ứng"
+      ],
+      "placeholder": "Lần tới, tôi có thể..."
+    },
+    "step9": {
+      "title": "Chú ý sự thay đổi",
+      "desc": "Bạn đã khám phá các khả năng khác nhau và tạo không gian cho một cái nhìn cân bằng hơn.",
+      "original_label": "Suy nghĩ ban đầu",
+      "balanced_label": "Phối cảnh cân bằng",
+      "button": "Hoàn thành phản xạ"
+    },
+    "step10": {
+      "title": "Một sự thay đổi nhỏ",
+      "desc": "Tâm trí của bạn cố gắng lấp đầy những khoảng trống. Nhưng không phải mọi suy nghĩ đều là sự thật. Lùi lại một bước giúp bạn nhìn mọi thứ rõ ràng.",
+      "button": "Hoàn thành hoạt động"
+    }
+  },
+  "buttons": {
+    "continue": "Tiếp tục",
+    "restart": "Khởi động lại"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Bắt đầu lại",
+    "finish_exit": "Hoàn thành & Lối ra",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Đã đến lúc hoàn thành",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Chia sẻ",
+    "share_progress": "Chia sẻ tiến độ",
+    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
+    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
+    "this_activity": "hoạt động này",
+    "copied": "Đã sao chép!",
+    "copy_message": "Sao chép tin nhắn",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Kiểm tra khả năng đọc suy nghĩ",
+  "more": "Hơn",
+  "breadcrumb": "vụn bánh mì",
+  "previous_slide": "Trang trước",
+  "next_slide": "Trang chiếu tiếp theo",
+  "close": "Đóng",
+  "previous": "Trước",
+  "more_pages": "Thêm trang",
+  "pagination": "đánh số trang",
+  "go_to_previous_page": "Quay lại trang trước",
+  "go_to_next_page": "Chuyển sang trang tiếp theo",
+  "toggle_sidebar": "Ẩn/Hiện thanh bên",
+  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
+  "return_to_home": "Trở về Trang chủ",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

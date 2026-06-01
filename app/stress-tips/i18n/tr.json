@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Derin bir nefes 🌿 al",
+    "title": "Stresinizi Yönetin",
+    "description": "Daha sakin ve kontrolde hissetmenize yardımcı olacak basit günlük alışkanlıklar.",
+    "sectionTitle": "Günlük Stres Azaltma İpuçları"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Rahat Uyu",
+      "description": "Her gece 7–9 saat uyumayı hedefleyin. Her gün aynı saatte uyumaya ve uyanmaya çalışın.",
+      "why": "Uyku, beyninizin ve vücudunuzun iyileşmesine yardımcı olur ve stres hormonlarını azaltır.",
+      "do": [
+        "Sabit bir uyku programı tutun",
+        "Yatmadan 1 saat önce ekrandan kaçının",
+        "Odayı serin ve karanlık tutun",
+        "Saat 16:00'ten sonra kafeinden kaçının"
+      ],
+      "button": "Uyku Hatırlatıcısını Ayarla"
+    },
+    "breathing": {
+      "title": "Derin Nefes Alışığı Yapın",
+      "description": "Birkaç dakika nefesine odaklan. Yavaş nefes almak kaygıyı azaltır.",
+      "why": "Yavaş nefes almak, vücudunuzun rahatlama tepkisini aktive eder.",
+      "do": [
+        "4 saniye nefes al",
+        "4 saniye bekleyin",
+        "4 saniye nefes ver",
+        "1 dakika tekrarlayın"
+      ]
+    },
+    "exercise": {
+      "title": "Vücudunu Hareket Ettir",
+      "description": "Hafif yürüyüş veya esneme stresi azaltmaya ve ruh halini iyileştirmeye yardımcı olur.",
+      "why": "Egzersiz endorfinleri serbest bırakır ve ruh halini iyileştirir.",
+      "do": [
+        "15 dakikalık yürüyüş",
+        "Hafif esneme",
+        "Kısa yoga seansı",
+        "Hızlı ev antrenmanı"
+      ]
+    },
+    "caffeine": {
+      "title": "Kafein ve Şekeri Sınırlayın",
+      "description": "Çok fazla kafein ve şeker anksiyeteyi artırabilir ve uykuyu bozabilir.",
+      "why": "Çok fazla kafein ve şeker anksiyete ve uyku sorunlarını artırır.",
+      "do": [
+        "Bir kahveyi bitkisel çayla değiştirin",
+        "Daha fazla su iç",
+        "Şekerli atıştırmalıkları azaltın",
+        "Günün geç saatlerinde kafeinden kaçının"
+      ]
+    },
+    "planning": {
+      "title": "Gününüzü Planlayın",
+      "description": "Büyük görevleri daha küçük adımlara ayırarak kendinizi bunalmış hissetmeyin.",
+      "why": "Planlama, zihinsel karmaşayı ve bunalmayı azaltır.",
+      "do": [
+        "3 ana görev yaz",
+        "Görevleri küçük adımlara böl",
+        "Aynı anda tek bir göreve odaklanın",
+        "Kısa molalar verin"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Geri",
+    "notFound": "İpucu bulunamadı.",
+    "whyTitle": "Neden Yardımcı Oluyor",
+    "doTitle": "Ne Yapabilirsiniz",
+    "reminderSet": "Hatırlatma hazır! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Hop! Sayfa bulunmadı",
+    "return": "Eve Dönüş"
+  },
+  "mood": {
+    "title": "Bugün nasıl hissediyorsun?",
+    "great": "Harika",
+    "okay": "Tamam",
+    "stressed": "Stresli",
+    "overwhelmed": "Bunalmış"
+  },
+  "breathing": {
+    "inhale": "Nefes al...",
+    "hold": "Bekle...",
+    "exhale": "Nefes ver...",
+    "pause": "Duraklama",
+    "resume": "Özgeçmiş"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "Stres Giderici",
+  "app_description": "Stres Giderici",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "breathing_guide": "Nefes Alma Rehberi",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

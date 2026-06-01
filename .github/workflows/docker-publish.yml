@@ -1,0 +1,50 @@
+name: Build & Push therapy:4.0
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  verify-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js App
+        run: npm run build
+        env:
+          VITE_AUTH_PORTAL_URL: ${{ secrets.AUTH_PORTAL_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          NEXT_TELEMETRY_DISABLED: 1
+
+      - name: Log in to Container Registry
+        run: echo "${{ secrets.PASSWORD }}" | docker login https://bunker.mantracare.com/ -u "${{ secrets.USERNAME }}" --password-stdin
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: |
+            bunker.mantracare.com/lovable/therapy:4.0
+            bunker.mantracare.com/lovable/therapy:latest
+          build-args: |
+            VITE_AUTH_PORTAL_URL=${{ secrets.AUTH_PORTAL_URL }}
+            DATABASE_URL=${{ secrets.DATABASE_URL }}
+            BUILD_ID=${{ github.run_id }}

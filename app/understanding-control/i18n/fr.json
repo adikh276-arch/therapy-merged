@@ -1,0 +1,113 @@
+{
+  "app_title": "Comprendre le contrôle",
+  "app_subtitle": "Stratégie de survie • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Pourquoi le contrôle peut-il sembler si puissant",
+      "paragraphs": [
+        "Pour beaucoup de personnes ayant des difficultés alimentaires, le contrôle peut sembler être un moyen de créer de la sécurité.",
+        "Lorsque la vie semble imprévisible ou émotionnellement intense, se concentrer sur la nourriture, le poids ou les routines peut apporter un sentiment de structure et de certitude.",
+        "Il ne s’agit pas de volonté ou de discipline. Il s’agit d’essayer de se stabiliser quand les choses semblent incertaines.",
+        "Ainsi, le contrôle devient une stratégie d’adaptation — quelque chose qui vous aide à vous sentir ancré, même temporairement."
+      ],
+      "microcopy": "Tu n’es pas seul à ressentir cela.",
+      "cta": "Continuez"
+    },
+    {
+      "headline": "Différentes façons dont le contrôle apparaît",
+      "intro": "Le besoin de contrôle ne se manifeste pas comme pour tout le monde, mais il se manifeste souvent sous forme de motifs tels que :",
+      "bullets": [
+        {
+          "text": "Règles alimentaires strictes ou rigides"
+        },
+        {
+          "text": "Il faut suivre les routines à la lettre"
+        },
+        {
+          "text": "Anxiété quand les plans changent"
+        },
+        {
+          "text": "Lier l’estime de soi à la forme/poids"
+        }
+      ],
+      "outro": "Avec le temps, ces éléments peuvent devenir rigides, occupant de l’espace mental et rendant l’adaptation plus difficile.",
+      "microcopy": "Ce qui commence par du contrôle peut lentement devenir contrôlant.",
+      "cta": "Continuez"
+    },
+    {
+      "headline": "Sous le contrôle",
+      "intro": "L’envie de contrôler a souvent des racines plus profondes. Il peut être relié à :",
+      "bullets": [
+        {
+          "text": "Se sentir submergé émotionnellement"
+        },
+        {
+          "text": "Désir de prévisibilité"
+        },
+        {
+          "text": "Un besoin de stabilité et de sécurité"
+        }
+      ],
+      "insight": "Le contrôle n’est pas le problème — c’est la stratégie que votre esprit a trouvée pour faire face. Avec du temps et du soutien, d’autres moyens de se sentir en sécurité sont possibles.",
+      "microcopy": "La compréhension est une première étape puissante.",
+      "cta": "Terminer la lecture"
+    }
+  ],
+  "complete": {
+    "title": "Prise de conscience acquise",
+    "message": "Comprendre les racines du contrôle est une première étape courageuse pour trouver de nouvelles façons de se sentir en sécurité et stable.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Stratégie de survie • {{step}}/3",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

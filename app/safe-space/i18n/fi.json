@@ -1,0 +1,114 @@
+{
+  "app_title": "Turvallinen tila",
+  "nav": [
+    "Sisäänkirjautuminen",
+    "Lempeästi muistaminen",
+    "Havainnointi",
+    "Nykyhetkessä pysyminen",
+    "Eteenpäin vieminen"
+  ],
+  "s1": {
+    "title": "Etsitään paikka, joka tuntuu hyvältä",
+    "description": [
+      "Ennen kuin aloitamme, ota hetki ja tarkista tilanne...",
+      "Miltä sinusta tuntuu juuri nyt?",
+      "Emme etsi täydellistä \"turvallista paikkaa\". Jotain, mikä tuntuu edes vähän rauhalliselta tai ok."
+    ],
+    "placeholder": "Miltä sinusta tuntuu juuri nyt?",
+    "button": "Aloita visualisointi"
+  },
+  "s2": {
+    "title": "Tuo se varovasti mieleen",
+    "description": [
+      "Ajattele paikkaa, jossa tunsit olosi edes vähän rauhalliseksi... Tai paikkaan, jonka toivoisit olevan olemassa.",
+      "Nyt asetu sinne...",
+      "Istutko, seisotko vai makaudutko?"
+    ],
+    "button": "Jatka"
+  },
+  "s3": {
+    "title": "Katso ympärillesi hitaasti",
+    "description": [
+      "Katso varovasti ympärillesi...",
+      "Mikä on yksi asia, jonka näet?",
+      "Nyt huomaa ääni... Mitä kuulet?"
+    ],
+    "button": "Jatka"
+  },
+  "s4": {
+    "title": "Pysy tässä mukana",
+    "description": [
+      "Mikä tässä paikassa saa sen tuntumaan edes vähän turvalliselta tai ok?",
+      "Kuten huomaat, että...",
+      "Kiinnitä myös huomio hengitykseesi."
+    ],
+    "breathe": "hengitä",
+    "notice": "Jos kuvitteleminen tuntuu vaikealta, mieti vain tämän paikan ideaa.",
+    "button": "Jatka"
+  },
+  "s5": {
+    "title": "Ota tämä mukaasi",
+    "description": [
+      "Huomaa, miltä sinusta tuntuu juuri nyt. Jopa pieni työvuoro merkitsee.",
+      "Katso, pystytkö kantamaan edes 5 % tästä tunteesta mukanasi."
+    ],
+    "placeholder": "Miltä sinusta nyt tuntuu?",
+    "button": "Koko istunto"
+  },
+  "complete": {
+    "title": "Istunto päättynyt",
+    "message": "Tämä turvallinen paikka on aina käytettävissäsi. Voit palata tänne milloin tahansa, kun tarvitset hetken rauhaa."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Turvallinen tila",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

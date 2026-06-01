@@ -1,0 +1,217 @@
+{
+  "app_title": "Wat heb ik nodig?",
+  "app_subtitle": "Check het bij jezelf",
+  "screens": {
+    "s1": {
+      "title": "Wat heb ik nu nodig?",
+      "description": "Een moment om even stil te staan en te luisteren naar wat je hart vraagt.",
+      "button": "Start inchecken"
+    },
+    "s2": {
+      "select": {
+        "title": "Wat voelt belangrijk?",
+        "placeholder": "Iets anders...",
+        "add_button": "Voeg toe",
+        "button": "Ga verder"
+      },
+      "prioritize": {
+        "title": "Welke is primair?"
+      },
+      "focus": {
+        "tag": "Je focus nu",
+        "button": "Ga verder"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Ga verder"
+      },
+      "action": {
+        "title": "Een kleine stap vooruit?",
+        "placeholder": "Of schrijf je eigen...",
+        "button": "Reflectie van de recensie"
+      },
+      "closing": {
+        "tag_need": "Primaire behoefte",
+        "tag_insight": "Jouw inzicht",
+        "tag_action": "Kleine actie",
+        "save_button": "Opslaan en Afmaken",
+        "finish_button": "Afmaken zonder op te slaan"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emotionele steun",
+      "prompt": "Wat voor soort ondersteuning zou je nu echt helpen?",
+      "hints": [
+        "Ik heb gewoon iemand nodig om...",
+        "Het zou helpen als...",
+        "Wat ik echt wil is..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Ruimte / tijd voor mezelf",
+      "prompt": "Hoe zou het hebben van zo'n ruimte er voor jou uitzien?",
+      "hints": [
+        "Ik zou die tijd gebruiken om...",
+        "De ruimte zou me toestaan...",
+        "Ik heb ruimte nodig om..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Duidelijke communicatie",
+      "prompt": "Hoe zou duidelijkere communicatie er voor jou uitzien?",
+      "hints": [
+        "Ik wou dat ik kon zeggen...",
+        "Als ze echt luisterden, zou ik het ze vertellen...",
+        "Communiceren voelt moeilijk als..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Geruststelling",
+      "prompt": "Wat voor geruststelling zou betekenisvol voelen?",
+      "hints": [
+        "Ik moet dat horen...",
+        "Het zou me kalmeren om te weten...",
+        "Ik blijf me zorgen maken dat..."
+      ]
+    },
+    "Understanding": {
+      "label": "Begrip",
+      "prompt": "Hoe zou het eruitzien om echt begrepen te worden?",
+      "hints": [
+        "Ik wou dat mensen wisten dat...",
+        "Wat ik echt voel is...",
+        "Niemand ziet dat ik..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabiliteit",
+      "prompt": "Hoe zou stabiliteit nu in jouw leven voelen?",
+      "hints": [
+        "Ik wil dat dingen voelen...",
+        "Wat mij zou aarden is...",
+        "Stabiliteit betekent..."
+      ]
+    },
+    "Honesty": {
+      "label": "Eerlijkheid",
+      "prompt": "Hoe zou eerlijkheid er in jouw situatie uitzien?",
+      "hints": [
+        "De waarheid die ik onder ogen moet zien is...",
+        "Ik wil eerlijk zijn over...",
+        "Wat er echt aan de hand is..."
+      ]
+    },
+    "Respect": {
+      "label": "Respect",
+      "prompt": "Hoe ziet respect er nu voor jou uit?",
+      "hints": [
+        "Ik verdien het om behandeld te worden...",
+        "Respect zou eruitzien als...",
+        "Ik heb mensen nodig om..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Duidelijkheid over relatie",
+      "prompt": "Wat voor soort helderheid zou jou het meest helpen?",
+      "hints": [
+        "Ik moet weten of...",
+        "Wat mij in de war brengt is...",
+        "Ik wil dat we duidelijk zijn over..."
+      ]
+    },
+    "default": {
+      "prompt": "Hoe zou dit eruitzien in een echte situatie?",
+      "hints": [
+        "Wat in me opkomt is...",
+        "Op dit moment voel ik me...",
+        "Als ik eerlijk ben tegenover mezelf..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Zeg iets eerlijk"
+    },
+    {
+      "label": "Neem tijd voor mezelf"
+    },
+    {
+      "label": "Neem contact op met iemand"
+    },
+    {
+      "label": "Stel een kleine grens"
+    },
+    {
+      "label": "Nog niet zeker"
+    }
+  ],
+  "history": {
+    "title": "Eerdere Overdenkingen",
+    "empty": "Nog geen reflecties."
+  },
+  "toasts": {
+    "save_success": "Reflectie opgeslagen",
+    "save_error": "Reflectie niet opgeslagen",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd"
+  },
+  "complete": {
+    "title": "Inchecken voltooid",
+    "message": "Je hebt vastgesteld dat je \"{{need}}\" nodig hebt. Je behoeften respecteren is een essentiële vorm van zelfzorg."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Neem even de tijd om bij jezelf na te gaan hoe het met je gaat.",
+  "past_reflections": "Terugblikken op het verleden",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,146 @@
+{
+  "app_title": "メモリーボックス",
+  "screen_titles": [
+    "あなたの箱",
+    "敬意",
+    "表現",
+    "保存",
+    "ジェントルケア"
+  ],
+  "complete_title": "メモリ保存",
+  "complete_message": "あなたは{{name}}の記憶を安全に箱に入れました。このつながりの瞬間は、いつでもあなたのものだ。",
+  "auth_error": "認証セッションが欠如しているか、データベースが設定されていない",
+  "save_success": "記憶の保存",
+  "save_error": "記憶を保存できなかった",
+  "preserving": "保存...",
+  "preserve_memory": "記憶を保存する",
+  "welcome": {
+    "title": "あなたのメモリーボックス",
+    "subtitle1": "愛する人を思い出す静かな空間。🤍",
+    "subtitle2": "ゆっくり息を吸って...",
+    "subtitle3": "…そして、そっと息を吐き出します。",
+    "subtitle4": "これに正解も間違いもありません。",
+    "subtitle5": "自分のペースで進めてください。🌿",
+    "begin": "開始 ✨",
+    "later": "また今度"
+  },
+  "who": {
+    "placeholder_name": "名前を入力...",
+    "placeholder_relation": "どうして知り合ったの?(任意)",
+    "categories": [
+      {
+        "label": "幸せな瞬間",
+        "emoji": "😊"
+      },
+      {
+        "label": "昔はよく言ってたことだ",
+        "emoji": "💬"
+      },
+      {
+        "label": "小さな日常の記憶",
+        "emoji": "☕"
+      },
+      {
+        "label": "彼らを思い出させる場所",
+        "emoji": "🏡"
+      },
+      {
+        "label": "言いたいことがある",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "続けて→"
+  },
+  "expression": {
+    "title": "記憶を表現する",
+    "memory_label": "記憶そのもの",
+    "memory_placeholder": "その瞬間や感情、残したい細部について書きましょう...",
+    "message_label": "彼らへのメッセージ(任意)",
+    "message_placeholder": "もし今すぐ彼らと話せるとしたら、何と言いますか?",
+    "save": "記憶を保存する",
+    "skip": "今はスキップしておきます",
+    "back": "戻る"
+  },
+  "box": {
+    "title": "安全に隠れて",
+    "subtitle": "この{{name}}の記憶は今やあなたのコレクションの一部です。",
+    "add_another": "もう一つの記憶を追加",
+    "finish": "フィニッシュリフレクション"
+  },
+  "closing": {
+    "title": "ケアをする",
+    "subtitle": "今は箱を閉じます。これらの思い出に近づきたいときはいつでもここに戻ってきていい。",
+    "exit": "閉鎖箱"
+  },
+  "history": {
+    "title": "箱の中身",
+    "no_memories": "あなたの箱は空っぽです。最初の記憶を加えてコレクションを始めましょう。",
+    "search_placeholder": "記憶を探す..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "メモリーボックス",
+  "before_you_go": "出発前に",
+  "grief_comes_in_waves": "悲しみは波のように押し寄せてくる。🌊",
+  "what_you_re_feeling_matters": "あなたの気持ちは大切です。🤍",
+  "be_gentle_with_yourself_today": "今日は自分に優しくしてあげましょう。🌿",
+  "save_exit": "保存して終了🕊️",
+  "take_your_time": "ゆっくり時間をかけてください🕯️",
+  "save_to_memory_box": "メモリーボックスに保存📦",
+  "write_as_much_or_as_little_as_you_want": "好きなだけ書いてください…✍️",
+  "if_there_s_something_you_d_like_to_say": "何か言いたいことがあれば…",
+  "past_entries": "過去の記事",
+  "no_memories_saved_yet": "まだ記憶は保存されていません。",
+  "this_memory_is_held_here_for_you": "この思い出は、あなたのためにここに保管されています。🌿",
+  "add_another_memory": "思い出をもう一つ追加✨",
+  "finish_for_now": "とりあえずここまで。",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,217 @@
+{
+  "app_title": "מה אני צריך?",
+  "app_subtitle": "בדוק מה עם עצמך",
+  "screens": {
+    "s1": {
+      "title": "מה אני צריך עכשיו?",
+      "description": "רגע לעצור ולהקשיב למה שהלב שלך מבקש.",
+      "button": "התחל צ'ק-אין"
+    },
+    "s2": {
+      "select": {
+        "title": "מה מרגיש חשוב?",
+        "placeholder": "משהו אחר...",
+        "add_button": "הוסף",
+        "button": "המשך"
+      },
+      "prioritize": {
+        "title": "איזה מהם הוא העיקרי?"
+      },
+      "focus": {
+        "tag": "המיקוד שלך כרגע",
+        "button": "המשך"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "המשך"
+      },
+      "action": {
+        "title": "צעד קטן קדימה?",
+        "placeholder": "או לכתוב בעצמך...",
+        "button": "הרהור סקירה"
+      },
+      "closing": {
+        "tag_need": "צורך ראשוני",
+        "tag_insight": "התובנה שלך",
+        "tag_action": "פעולה קטנה",
+        "save_button": "שמירה וסיים",
+        "finish_button": "לסיים בלי לשמור"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "תמיכה רגשית",
+      "prompt": "איזה סוג של תמיכה באמת יכול לעזור לך כרגע?",
+      "hints": [
+        "אני רק צריך מישהו ש...",
+        "זה יעזור אם...",
+        "מה שאני באמת רוצה זה..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "מרחב / זמן לעצמי",
+      "prompt": "איך תיראה לך את החלל הזה?",
+      "hints": [
+        "הייתי מנצלת את הזמן הזה כדי...",
+        "החלל יאפשר לי...",
+        "אני צריך מקום ל..."
+      ]
+    },
+    "Clear communication": {
+      "label": "תקשורת ברורה",
+      "prompt": "איך תיראה תקשורת ברורה יותר עבורך?",
+      "hints": [
+        "הלוואי ויכולתי לומר...",
+        "אם הם באמת היו מקשיבים, הייתי אומר להם...",
+        "התקשורת מרגישה קשה כש..."
+      ]
+    },
+    "Reassurance": {
+      "label": "הרגעה",
+      "prompt": "איזה סוג של הרגעה ירגיש משמעותי?",
+      "hints": [
+        "אני צריך לשמוע את זה...",
+        "זה היה מרגיע אותי לדעת...",
+        "אני כל הזמן דואג ש..."
+      ]
+    },
+    "Understanding": {
+      "label": "הבנה",
+      "prompt": "איך תיראה תחושת הבנה אמיתית?",
+      "hints": [
+        "הלוואי שאנשים ידעו את זה...",
+        "מה שאני באמת מרגיש זה...",
+        "אף אחד לא רואה שאני..."
+      ]
+    },
+    "Stability": {
+      "label": "יציבות",
+      "prompt": "איך תרגיש יציבות בחיים שלך כרגע?",
+      "hints": [
+        "אני צריך שהדברים ירגישו...",
+        "מה שיכול לקרקע אותי זה...",
+        "יציבות משמעות..."
+      ]
+    },
+    "Honesty": {
+      "label": "כנות",
+      "prompt": "איך ייראה יותר כנות במצב שלך?",
+      "hints": [
+        "האמת שאני צריך להתמודד איתה היא...",
+        "אני רוצה להיות כנה לגבי...",
+        "מה שבאמת קורה זה..."
+      ]
+    },
+    "Respect": {
+      "label": "כבוד",
+      "prompt": "איך נראה כבוד עבורך כרגע?",
+      "hints": [
+        "אני ראוי שיטפלו בי...",
+        "כבוד היה נראה כמו...",
+        "אני צריך אנשים ש..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "בהירות לגבי מערכות יחסים",
+      "prompt": "איזה בהירות תעזור לך הכי הרבה?",
+      "hints": [
+        "אני צריך לדעת אם...",
+        "מה שמבלבל אותי זה...",
+        "אני רוצה שנהיה ברורים לגבי..."
+      ]
+    },
+    "default": {
+      "prompt": "איך זה היה נראה במצב אמיתי?",
+      "hints": [
+        "מה שעולה לי לראש זה...",
+        "כרגע אני מרגיש...",
+        "אם אני כנה עם עצמי..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "תגיד משהו בכנות"
+    },
+    {
+      "label": "קח זמן לעצמי"
+    },
+    {
+      "label": "פנה למישהו"
+    },
+    {
+      "label": "קבע גבול קטן"
+    },
+    {
+      "label": "עדיין לא בטוח"
+    }
+  ],
+  "history": {
+    "title": "הרהורים מהעבר",
+    "empty": "עדיין אין הרהורים."
+  },
+  "toasts": {
+    "save_success": "ההשתקפות נשמרה",
+    "save_error": "נכשל בשמירת ההשתקפות",
+    "auth_error": "סשן אימות חסר או מסד נתונים לא מוגדר"
+  },
+  "complete": {
+    "title": "הצ'ק-אין הושלם",
+    "message": "זיהית שאתה צריך \"{{need}}\". כיבוד הצרכים שלך הוא צורת טיפול עצמית חיונית."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "בדוק עם עצמך",
+  "past_reflections": "הרהורים מהעבר",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

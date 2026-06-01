@@ -1,0 +1,144 @@
+{
+  "app_title": "Перевірка читання думок",
+  "intro": {
+    "title": "Перевірка читання думок",
+    "description": "Ставте під сумнів свої припущення щодо думок інших.",
+    "benefits": [
+      "Перестань припускати найгірше",
+      "Виявлення упереджених інтерпретацій",
+      "Побудуйте чіткіший зв'язок"
+    ],
+    "duration": "3-4 хвилини",
+    "view_past": "Переглянути минулі роздуми"
+  },
+  "history": {
+    "title": "Минулі роздуми",
+    "no_entries": "Поки що записів немає.",
+    "belief_label": "Віра: {{level}}%",
+    "balanced_thought_label": "Збалансоване мислення"
+  },
+  "complete": {
+    "title": "Діяльність завершена",
+    "great_insights": "Чудові думки!",
+    "message": "Ставлячи під сумнів свої припущення, ви формуєте більш об'єктивний і співчутливий розум."
+  },
+  "steps": {
+    "label": "Крок {{current}} з 10",
+    "step1": {
+      "title": "Що сталося?",
+      "desc": "Опишіть нещодавній момент, коли ви відчували осуду або невпевненість.",
+      "placeholder": "Опис ситуації..."
+    },
+    "step2": {
+      "title": "Що було у вас на думці?",
+      "desc": "Що, на вашу думку, вони думають про вас?",
+      "placeholder": "Я припускав, що вони думають..."
+    },
+    "step3": {
+      "title": "Давайте сповільнимо",
+      "desc": "Зараз ця думка може здаватися правдивою. Але перш ніж приймати це як факт, давайте зробимо крок назад і розглянемо це уважніше.",
+      "button": "Пауза і продовження"
+    },
+    "step4": {
+      "title": "Чи це правда?",
+      "desc": "Чи є якісь чіткі докази (факти, а не припущення), які підтверджують цю думку?",
+      "placeholder": "Докази, які я бачу..."
+    },
+    "step5": {
+      "title": "Що ще може відбуватися?",
+      "desc": "Які ще 2–3 можливі пояснення?",
+      "placeholder": "Можливість {{num}}..."
+    },
+    "step6": {
+      "title": "Перевірте свою віру",
+      "desc": "Наскільки сильно ви зараз вірите у свою початкову думку?",
+      "labels": [
+        "Зовсім ні",
+        "Повністю"
+      ]
+    },
+    "step7": {
+      "title": "Більш збалансований погляд",
+      "desc": "Напишіть думку, яка здається більш справедливою і менш впевненою.",
+      "placeholder": "Більш збалансована думка..."
+    },
+    "step8": {
+      "title": "Наступного разу",
+      "desc": "Що можна зробити замість того, щоб робити припущення?",
+      "examples": [
+        "Попросіть уточнення",
+        "Дай собі трохи часу",
+        "Повідомте без реакції"
+      ],
+      "placeholder": "Наступного разу я міг би..."
+    },
+    "step9": {
+      "title": "Зверніть увагу на зміну",
+      "desc": "Ви досліджували різні можливості і створювали простір для більш збалансованого погляду.",
+      "original_label": "Оригінальна думка",
+      "balanced_label": "Збалансована перспектива",
+      "button": "Фінальне роздзеркування"
+    },
+    "step10": {
+      "title": "Невелика зміна",
+      "desc": "Твій розум намагається заповнити прогалини. Але не кожна думка — це факт. Зробити крок назад допомагає бачити речі чітко.",
+      "button": "Повна діяльність"
+    }
+  },
+  "buttons": {
+    "continue": "Продовжуй",
+    "restart": "Перезапуск"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Перевірка читання думок",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

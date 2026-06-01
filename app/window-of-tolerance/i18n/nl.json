@@ -1,0 +1,252 @@
+{
+  "app_title": "Venster van tolerantie",
+  "screens": {
+    "welcome": {
+      "title": "Venster van tolerantie",
+      "subtitle": "Begrijp je zenuwstelsel.\nVind je weg terug naar kalmte.",
+      "description": "Deze zachte activiteit helpt je te begrijpen waar je zenuwstelsel zich nu bevindt — en geeft je hulpmiddelen om balans te vinden. Doe het in je eigen tempo. Je bent hier veilig.",
+      "callout": "✨ Haal adem. Je bent op de juiste plek.",
+      "button": "Laten we beginnen →",
+      "disclaimer": "Deze activiteit is een ondersteunend hulpmiddel, geen vervanging voor professionele therapie."
+    },
+    "explain": {
+      "title": "Je zenuwstelsel heeft een venster",
+      "zones": {
+        "hyper": {
+          "label": "Hyperarousal",
+          "desc": "Overweldigd, in paniek, buiten controle.",
+          "tag": "🔴 Rood"
+        },
+        "safe": {
+          "label": "Veilige Zone",
+          "desc": "Kalm, aanwezig, in staat om helder te denken.",
+          "tag": "🟢 Groen"
+        },
+        "hypo": {
+          "label": "Hypoarousal",
+          "desc": "Verdoofd, losgekoppeld, mistig.",
+          "tag": "🔵 Blauw"
+        }
+      },
+      "footer": "Trauma kan je uit je raam duwen. Dit helpt je te herkennen waar je bent en weer naar binnen te gaan.",
+      "back": "← Terug",
+      "next": "Volgende →"
+    },
+    "checkin": {
+      "title": "Waar ben je nu?",
+      "subtitle": "Haal adem. Kies dan eerlijk waar je nu bent.",
+      "footer": "Er is geen verkeerd antwoord. Dit is simpelweg je startpunt.",
+      "back": "← Terug",
+      "next": "Volgende →",
+      "zones": {
+        "hyper": {
+          "label": "Boven mijn raam",
+          "desc": "Ik voel me angstig, paniekerig, boos of overweldigd."
+        },
+        "safe": {
+          "label": "Binnen mijn raam",
+          "desc": "Ik voel me kalm, aanwezig en geaard."
+        },
+        "hypo": {
+          "label": "Onder mijn raam",
+          "desc": "Ik voel me gevoelloos, wazig of losgekoppeld."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Boven Je Raam",
+        "subtitle": "Je zenuwstelsel draait op volle toeren. Dat is oké. Laten we je voorzichtig terugbrengen.",
+        "feelings": [
+          "Snel hart",
+          "Oppervlakkige ademhaling",
+          "Paniek of woede",
+          "Racende gedachten",
+          "Rusteloosheid"
+        ],
+        "tools": [
+          {
+            "name": "Doos-ademhaling",
+            "desc": "Inademen 4, maan 4, uitademen 4, maan 4. Herhaal dit 4 keer."
+          },
+          {
+            "name": "5-4-3-2-1 Aarding",
+            "desc": "5 dingen zien, 4 aanraken, 3 horen, 2 ruiken, 1 proeven."
+          },
+          {
+            "name": "Voeten op de Vloer",
+            "desc": "Druk je voeten neer, zeg: 'Ik ben hier. Ik ben veilig. Dit gaat voorbij.'"
+          }
+        ],
+        "button": "Ik voel me iets rustiger →",
+        "footer": "Je bent veilig. Neem je tijd."
+      },
+      "hypo": {
+        "title": "Onder uw raam",
+        "subtitle": "Je zenuwstelsel is stil geworden. Het beschermt je. Laten we hem voorzichtig weer wakker maken.",
+        "feelings": [
+          "Gevoelloosheid",
+          "Ontkoppeling verbreken",
+          "Extreme vermoeidheid",
+          "Onwerkelijk voelen",
+          "Vlakheid"
+        ],
+        "tools": [
+          {
+            "name": "Zachte beweging",
+            "desc": "Sta, langzaam lopen, armen zwaaien. Laat je lichaam wakker worden."
+          },
+          {
+            "name": "Ritmisch geluid",
+            "desc": "Speel muziek met een steady beat, stap met je voeten mee."
+          },
+          {
+            "name": "Spreek hardop",
+            "desc": "Zeg je naam, locatie, de datum van vandaag hardop. Activeer het denkende brein weer."
+          }
+        ],
+        "button": "Ik voel me iets meer aanwezig →",
+        "footer": "Je doet het geweldig. Neem het stap voor stap."
+      },
+      "safe": {
+        "title": "Binnen in je raam",
+        "subtitle": "Je bent in je veilige zone. Hier vinden genezing, verbinding en groei plaats. Goed gedaan.",
+        "feelings": [
+          "Heden en bewust",
+          "Rustige ademhaling",
+          "Helderdenkend denken",
+          "Verbonden"
+        ],
+        "tools": [
+          {
+            "name": "Blijf langzaam ademen",
+            "desc": "Door de neus in, naar buiten door de mond."
+          },
+          {
+            "name": "Reflecteer",
+            "desc": "Wat heeft je geholpen hier te blijven? Schrijf het op."
+          },
+          {
+            "name": "Zelfcompassie",
+            "desc": "'Mijn zenuwstelsel deed zijn werk. Ik ben niet kapot. Ik genees.'"
+          }
+        ],
+        "button": "Ga verder met mijn Toolkit →",
+        "footer": "Je bent het waard om verzorgd en te helen."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Jouw persoonlijke gereedschapskist",
+      "subtitle": "Jouw favoriete tools — opgeslagen en klaar wanneer je ze nodig hebt.",
+      "tools_list": [
+        "🌬️ Doos-ademhaling",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Voeten op de Vloer",
+        "🚶 Zachte beweging",
+        "🎵 Muziek",
+        "💬 Spreek hardop"
+      ],
+      "journal_label": "📝 De reflectie van vandaag",
+      "journal_desc": "Wat was een moment vandaag waarop je merkte dat je zenuwstelsel verschoof — en wat deed je daarmee?",
+      "journal_placeholder": "Schrijf hier...",
+      "history_label": "📊 Jouw week in één oogopslag",
+      "save_button": "Opslaan & Afmaken ✓",
+      "footer": "Jouw reis doet ertoe. Kom terug wanneer je ondersteuning nodig hebt.",
+      "preserving": "Bewaren...",
+      "preserve_button": "Behoud Reflectie"
+    }
+  },
+  "nav": [
+    "Inchecken",
+    "Uitleg",
+    "Monitoring",
+    "De Zone",
+    "Toolkit"
+  ],
+  "history": {
+    "title": "Incheckgeschiedenis",
+    "empty": "Nog geen check-ins."
+  },
+  "toasts": {
+    "save_success": "Inchecken bewaard",
+    "save_error": "Niet in staat om het inchecken te behouden",
+    "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd"
+  },
+  "complete": {
+    "title": "Inchecken voltooid",
+    "message": "Je hebt je huidige toestand succesvol in kaart gebracht. Bewustzijn opbouwen is de eerste stap naar het vinden van je balans."
+  },
+  "days": [
+    "Mijn",
+    "Dinsdag",
+    "Echtgenootschap",
+    "Herfst",
+    "Vrijdag",
+    "Za",
+    "Zon"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Tolerantievenster",
+  "are_you_sure_you_want_to_exit": "Weet je zeker dat je wilt vertrekken?",
+  "your_unsaved_data_will_be_lost": "Uw niet-opgeslagen gegevens gaan verloren.",
+  "stay": "Verblijf",
+  "exit": "Uitgang",
+  "exit_confirmation": "Bevestiging van vertrek",
+  "check_in_history": "Incheckgeschiedenis",
+  "close": "Dichtbij",
+  "screen_navigation": "Schermnavigatie",
+  "check_in": "Inchecken",
+  "what_is_the_window_of_tolerance": "Wat is de tolerantiezone?",
+  "your_personal_toolkit": "Jouw persoonlijke gereedschapskist",
+  "welcome": "Welkom",
+  "view_history": "Geschiedenis bekijken",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

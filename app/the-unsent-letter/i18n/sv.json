@@ -1,0 +1,102 @@
+{
+  "app_title": "Det oskickade brevet",
+  "app_subtitle": "Släpp dina tankar säkert och privat",
+  "intro": {
+    "title": "Det oskickade brevet",
+    "description": [
+      "Ibland finns det saker vi önskar att vi kunde säga – men aldrig fick chansen till.",
+      "Det kunde bero på att det inte kändes säkert, att tidpunkten inte var rätt, eller att orden var för svåra att uttrycka högt.",
+      "Denna aktivitet ger dig ett privat utrymme att sätta ord på dessa tankar.",
+      "Du behöver inte skicka det här brevet. Det här är bara för dig – för att uttrycka, släppa och förstå dina känslor bättre."
+    ],
+    "notice": "Skriv fritt. Ingen annan kommer att se detta.",
+    "button": "Börja skriva →"
+  },
+  "writing": {
+    "title": "Skriv det du har hållit inne",
+    "desc": "Du kan skriva till din partner, din ex-partner eller till och med till själva relationen. Det finns inget rätt eller fel sätt att göra detta på.",
+    "prompts": [
+      "Jag känner mig...",
+      "Jag önskar...",
+      "Jag har aldrig sagt...",
+      "Vad gjorde ont på mig...",
+      "Det jag behövde..."
+    ],
+    "placeholder": "Kära ____,\nJag har velat säga...",
+    "notice": "Du kan pausa och komma tillbaka när som helst.",
+    "button": "Fortsätt →"
+  },
+  "reflection": {
+    "title": "Ta en stund med detta",
+    "description": [
+      "Du har just satt dina tankar och känslor i ord – det kräver mod.",
+      "Du kanske märker en blandning av känslor just nu, och det är helt okej.",
+      "Innan du går vidare, ta ett djupt andetag och kontrollera försiktigt hur du är med dig själv."
+    ],
+    "notice": "Detta var för din läkning, inte för att skicka.",
+    "save_button": "Spara brev",
+    "finish_button": "Slut"
+  },
+  "history": {
+    "title": "Tidigare brev",
+    "empty_title": "Du har inte skrivit några brev än.",
+    "empty_desc": "Dina brev kommer att dyka upp här efter att du sparat dem."
+  },
+  "toasts": {
+    "save_success": "Brev sparat i din privata dagbok",
+    "save_error": "Misslyckades med att spara brevet",
+    "auth_error": "Auth-session saknas eller databas inte konfigurerad"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Släpp lös dina tankar säkert och privat",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

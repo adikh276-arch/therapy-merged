@@ -1,0 +1,252 @@
+{
+  "app_title": "Toleransfönster",
+  "screens": {
+    "welcome": {
+      "title": "Toleransfönster",
+      "subtitle": "Förstå ditt nervsystem.\nHitta tillbaka till lugnet.",
+      "description": "Denna milda aktivitet hjälper dig att förstå var ditt nervsystem befinner sig just nu – och ger dig verktyg för att hitta balans. Ta det i din egen takt. Du är säker här.",
+      "callout": "✨ Ta ett andetag. Du är på rätt plats.",
+      "button": "Låt oss börja →",
+      "disclaimer": "Denna aktivitet är ett stödjande verktyg, inte en ersättning för professionell terapi."
+    },
+    "explain": {
+      "title": "Ditt nervsystem har ett fönster",
+      "zones": {
+        "hyper": {
+          "label": "Hyperarousal",
+          "desc": "Överväldigad, panikslagen, ur kontroll.",
+          "tag": "🔴 Röd"
+        },
+        "safe": {
+          "label": "Säker zon",
+          "desc": "Lugn, närvarande, kapabel att tänka klart.",
+          "tag": "🟢 Grön"
+        },
+        "hypo": {
+          "label": "Hypoarousal",
+          "desc": "Avtrubbad, frånkopplat, dimmigt.",
+          "tag": "🔵 Blå"
+        }
+      },
+      "footer": "Trauma kan få dig att gå ut genom ditt fönster. Det hjälper dig att känna igen var du är och komma tillbaka in.",
+      "back": "← Tillbaka",
+      "next": "Nästa →"
+    },
+    "checkin": {
+      "title": "Var är du just nu?",
+      "subtitle": "Ta ett andetag. Välj sedan ärligt var du är just nu.",
+      "footer": "Det finns inget fel svar. Detta är helt enkelt din utgångspunkt.",
+      "back": "← Tillbaka",
+      "next": "Nästa →",
+      "zones": {
+        "hyper": {
+          "label": "Ovanför mitt fönster",
+          "desc": "Jag känner mig orolig, panikslagen, arg eller överväldigad."
+        },
+        "safe": {
+          "label": "Innanför mitt fönster",
+          "desc": "Jag känner mig lugn, närvarande och jordad."
+        },
+        "hypo": {
+          "label": "Under mitt fönster",
+          "desc": "Jag känner mig avdomnad, dimmig eller frånkopplad."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Ovanför ditt fönster",
+        "subtitle": "Ditt nervsystem går på högvarv. Det är okej. Låt oss ta dig tillbaka försiktigt.",
+        "feelings": [
+          "Hjärtat rusar",
+          "Ytlig andning",
+          "Panik eller ilska",
+          "Snabba tankar",
+          "Rastlöshet"
+        ],
+        "tools": [
+          {
+            "name": "Boxandning",
+            "desc": "Andas in 4, måne 4, andas ut 4, måne 4. Upprepa 4 gånger."
+          },
+          {
+            "name": "5-4-3-2-1 Markning",
+            "desc": "5 saker ser, 4 rör vid, 3 hör, 2 luktar, 1 smak."
+          },
+          {
+            "name": "Fötter på golvet",
+            "desc": "Tryck ner fötterna, säg: 'Jag är här. Jag är säker. Det här går över.'"
+          }
+        ],
+        "button": "Jag känner mig lite lugnare →",
+        "footer": "Du är säker. Ta det lugnt."
+      },
+      "hypo": {
+        "title": "Under ditt fönster",
+        "subtitle": "Ditt nervsystem har blivit tyst. Det skyddar dig. Låt oss försiktigt väcka den igen.",
+        "feelings": [
+          "Domningar",
+          "Frånkoppling",
+          "Extrem trötthet",
+          "Känner mig overklig",
+          "Platthet"
+        ],
+        "tools": [
+          {
+            "name": "Mjuk rörelse",
+            "desc": "Stå, gå långsamt, svinga armarna. Låt kroppen vakna."
+          },
+          {
+            "name": "Rytmiskt ljud",
+            "desc": "Spela musik med stadig takt, trampa med fötterna."
+          },
+          {
+            "name": "Tala högt",
+            "desc": "Säg ditt namn, plats, dagens datum högt. Aktivera tänkande hjärnan igen."
+          }
+        ],
+        "button": "Jag känner mig lite mer närvarande →",
+        "footer": "Du gör det jättebra. Ta det steg för steg."
+      },
+      "safe": {
+        "title": "Innanför ditt fönster",
+        "subtitle": "Du är i din säkra zon. Det är här läkning, kontakt och tillväxt sker. Bra jobbat.",
+        "feelings": [
+          "Nutid och medveten",
+          "Jämn andning",
+          "Klart tänkande",
+          "Ansluten"
+        ],
+        "tools": [
+          {
+            "name": "Fortsätt andas långsamt",
+            "desc": "In genom näsan, ut genom munnen."
+          },
+          {
+            "name": "Reflektera",
+            "desc": "Vad hjälpte dig att stanna här? Skriv ner det."
+          },
+          {
+            "name": "Självmedkänsla",
+            "desc": "'Mitt nervsystem gjorde sitt jobb. Jag är inte trasig. Jag läker.'"
+          }
+        ],
+        "button": "Fortsätt till min verktygslåda →",
+        "footer": "Du är värd omsorg och läkning."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Din personliga verktygslåda",
+      "subtitle": "Dina verktyg som du använder – sparade och redo när du behöver dem.",
+      "tools_list": [
+        "🌬️ Boxandning",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Fötter på golvet",
+        "🚶 Mjuk rörelse",
+        "🎵 Musik",
+        "💬 Tala högt"
+      ],
+      "journal_label": "📝 Dagens reflektion",
+      "journal_desc": "Vilket ögonblick idag märkte du att ditt nervsystem förändrades – och vad gjorde du åt det?",
+      "journal_placeholder": "Skriv här...",
+      "history_label": "📊 Din vecka i översikt",
+      "save_button": "Spara och avsluta ✓",
+      "footer": "Din resa är viktig. Kom tillbaka när du behöver stöd.",
+      "preserving": "Bevara...",
+      "preserve_button": "Bevara reflektion"
+    }
+  },
+  "nav": [
+    "Incheckning",
+    "Förklaring",
+    "Övervakning",
+    "Zonen",
+    "Verktygslåda"
+  ],
+  "history": {
+    "title": "Incheckningshistorik",
+    "empty": "Inga incheckningar än."
+  },
+  "toasts": {
+    "save_success": "Incheckning bevarad",
+    "save_error": "Misslyckades med att bevara incheckningen",
+    "auth_error": "Auth-session saknas eller databas inte konfigurerad"
+  },
+  "complete": {
+    "title": "Incheckning klar",
+    "message": "Du har framgångsrikt kartlagt ditt nuvarande tillstånd. Att bygga medvetenhet är det första steget mot att hitta din balans."
+  },
+  "days": [
+    "Min",
+    "Tis",
+    "Gift",
+    "Höst",
+    "Fre",
+    "Lör",
+    "Sol"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Toleransens fönster",
+  "are_you_sure_you_want_to_exit": "Är du säker på att du vill avsluta?",
+  "your_unsaved_data_will_be_lost": "Dina osparade data kommer att gå förlorade.",
+  "stay": "Vistelse",
+  "exit": "Utgång",
+  "exit_confirmation": "Bekräftelse av utgång",
+  "check_in_history": "Incheckningshistorik",
+  "close": "Nära",
+  "screen_navigation": "Skärmnavigering",
+  "check_in": "Incheckning",
+  "what_is_the_window_of_tolerance": "Vad är toleransfönstret",
+  "your_personal_toolkit": "Din personliga verktygslåda",
+  "welcome": "Välkomna",
+  "view_history": "Visa historik",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

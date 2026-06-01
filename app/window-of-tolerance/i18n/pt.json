@@ -1,0 +1,252 @@
+{
+  "app_title": "Janela de Tolerância",
+  "screens": {
+    "welcome": {
+      "title": "Janela de Tolerância",
+      "subtitle": "Entenda seu sistema nervoso.\nEncontre seu caminho de volta à calma.",
+      "description": "Essa atividade suave vai te ajudar a entender onde está seu sistema nervoso agora — e te dará ferramentas para encontrar equilíbrio. Vá no seu próprio ritmo. Você está seguro aqui.",
+      "callout": "✨ Respire fundo. Você está no lugar certo.",
+      "button": "Vamos começar →",
+      "disclaimer": "Essa atividade é uma ferramenta de apoio, não um substituto para a terapia profissional."
+    },
+    "explain": {
+      "title": "Seu sistema nervoso tem uma janela",
+      "zones": {
+        "hyper": {
+          "label": "Hiperexcitação",
+          "desc": "Sobrecarregada, em pânico, fora de controle.",
+          "tag": "🔴 Vermelho"
+        },
+        "safe": {
+          "label": "Zona Segura",
+          "desc": "Calma, presente, capaz de pensar com clareza.",
+          "tag": "🟢 Verde"
+        },
+        "hypo": {
+          "label": "Hipoexcitação",
+          "desc": "Entorpecido, desconectado, enevoado.",
+          "tag": "🔵 Azul"
+        }
+      },
+      "footer": "Traumas podem te empurrar para fora da janela. Isso ajuda você a reconhecer onde está e voltar para dentro.",
+      "back": "← De volta",
+      "next": "Próximo →"
+    },
+    "checkin": {
+      "title": "Onde você está agora?",
+      "subtitle": "Respire fundo. Então, honestamente, escolha onde você está agora.",
+      "footer": "Não existe resposta errada. Este é apenas o seu ponto de partida.",
+      "back": "← De volta",
+      "next": "Próximo →",
+      "zones": {
+        "hyper": {
+          "label": "Acima da Minha Janela",
+          "desc": "Me sinto ansioso, em pânico, com raiva ou sobrecarregado."
+        },
+        "safe": {
+          "label": "Dentro da Minha Janela",
+          "desc": "Me sinto calmo, presente e com os pés no chão."
+        },
+        "hypo": {
+          "label": "Abaixo da Minha Janela",
+          "desc": "Me sinto entorpecido, enevoado ou desconectado."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Acima da Sua Janela",
+        "subtitle": "Seu sistema nervoso está em sobrecarga. Tudo bem. Vamos trazê-lo de volta com cuidado.",
+        "feelings": [
+          "Coração acelerado",
+          "Respiração superficial",
+          "Pânico ou raiva",
+          "Pensamentos acelerados",
+          "Inquietação"
+        ],
+        "tools": [
+          {
+            "name": "Respiração em Caixa",
+            "desc": "Inspire 4, lua 4, expire 4, lua 4. Repita 4 vezes."
+          },
+          {
+            "name": "5-4-3-2-1 Encalhamento",
+            "desc": "5 coisas vêem, 4 tocam, 3 ouvem, 2 cheiram, 1 prova."
+          },
+          {
+            "name": "Pés no chão",
+            "desc": "Pressione os pés para baixo, diga: 'Eu estou aqui. Estou seguro. Isso vai passar.'"
+          }
+        ],
+        "button": "Me sinto um pouco mais calmo →",
+        "footer": "Você está seguro. Vá com calma."
+      },
+      "hypo": {
+        "title": "Abaixo da Sua Janela",
+        "subtitle": "Seu sistema nervoso ficou em silêncio. Está te protegendo. Vamos acordá-lo suavemente de novo.",
+        "feelings": [
+          "Dormência",
+          "Desconexão",
+          "Fadiga extrema",
+          "Sentindo-se irreal",
+          "Planicidade"
+        ],
+        "tools": [
+          {
+            "name": "Movimento Suave",
+            "desc": "Fique em pé, caminhe devagar, balance os braços. Deixe seu corpo acordar."
+          },
+          {
+            "name": "Som Rítmico",
+            "desc": "Toque música com ritmo constante, bata os pés com os pés."
+          },
+          {
+            "name": "Fale em Voz Alta",
+            "desc": "Diga seu nome, local, data de hoje em voz alta. Reative o cérebro pensante."
+          }
+        ],
+        "button": "Me sinto um pouco mais presente →",
+        "footer": "Você está indo muito bem. Vá passo a passo."
+      },
+      "safe": {
+        "title": "Dentro da Sua Janela",
+        "subtitle": "Você está na sua zona segura. É aqui que acontecem a cura, a conexão e o crescimento. Muito bem.",
+        "feelings": [
+          "Presente e consciente",
+          "Respiração constante",
+          "Pensamento claro",
+          "Conectados"
+        ],
+        "tools": [
+          {
+            "name": "Continue respirando devagar",
+            "desc": "Inspira pelo nariz, expira pela boca."
+          },
+          {
+            "name": "Refletir",
+            "desc": "O que te ajudou a ficar aqui? Anote."
+          },
+          {
+            "name": "Autocompaixão",
+            "desc": "'Meu sistema nervoso estava fazendo seu trabalho. Eu não estou quebrado. Estou me recuperando.'"
+          }
+        ],
+        "button": "Continue com meu kit de ferramentas →",
+        "footer": "Você merece cuidado e cura."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Seu Kit de Ferramentas Pessoal",
+      "subtitle": "Suas ferramentas de referência — guardadas e prontas sempre que precisar.",
+      "tools_list": [
+        "🌬️ Respiração em Caixa",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Pés no chão",
+        "🚶 Movimento Suave",
+        "🎵 Música",
+        "💬 Fale em Voz Alta"
+      ],
+      "journal_label": "📝 Reflexão de hoje",
+      "journal_desc": "Qual foi o momento hoje em que você percebeu que seu sistema nervoso estava mudando — e o que você fez a respeito?",
+      "journal_placeholder": "Escreva aqui...",
+      "history_label": "📊 Sua Semana em Resumo",
+      "save_button": "Salvar & Terminar ✓",
+      "footer": "Sua jornada importa. Volte sempre que precisar de apoio.",
+      "preserving": "Preservando...",
+      "preserve_button": "Preservar a Reflexão"
+    }
+  },
+  "nav": [
+    "Check-in",
+    "Explicando",
+    "Monitoramento",
+    "A Zona",
+    "Kit de ferramentas"
+  ],
+  "history": {
+    "title": "Histórico de Check-In",
+    "empty": "Ainda não houve checagens."
+  },
+  "toasts": {
+    "save_success": "Check-in preservado",
+    "save_error": "Não preservaram o check-in",
+    "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado"
+  },
+  "complete": {
+    "title": "Check-in Completo",
+    "message": "Você mapeou com sucesso seu estado atual. Aumentar a conscientização é o primeiro passo para encontrar seu equilíbrio."
+  },
+  "days": [
+    "Meu",
+    "Ter",
+    "Casar",
+    "Outono",
+    "Sex",
+    "Sat",
+    "Sun"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Janela de Tolerância",
+  "are_you_sure_you_want_to_exit": "Tem certeza de que deseja sair?",
+  "your_unsaved_data_will_be_lost": "Seus dados não salvos serão perdidos.",
+  "stay": "Ficar",
+  "exit": "Saída",
+  "exit_confirmation": "Confirmação de saída",
+  "check_in_history": "Histórico de check-ins",
+  "close": "Fechar",
+  "screen_navigation": "Navegação entre telas",
+  "check_in": "Check-in",
+  "what_is_the_window_of_tolerance": "O que é a janela de tolerância?",
+  "your_personal_toolkit": "Seu Kit de Ferramentas Pessoal",
+  "welcome": "Bem-vindo",
+  "view_history": "Ver histórico",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

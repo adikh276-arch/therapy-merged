@@ -1,0 +1,146 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": [
+    "Твоя скринька",
+    "Вшанування",
+    "Вираження",
+    "Збережено",
+    "Ніжний догляд"
+  ],
+  "complete_title": "Пам'ять збережена",
+  "complete_message": "Ви безпечно помістили спогад про {{name}} у свою коробку. Ці моменти зв'язку завжди залишаються вашими.",
+  "auth_error": "Відсутня сесія автентифікації або база даних не налаштована",
+  "save_success": "Пам'ять збережена",
+  "save_error": "Не зміг зберегти пам'ять",
+  "preserving": "Збереження...",
+  "preserve_memory": "Зберегти пам'ять",
+  "welcome": {
+    "title": "Твоя скринька пам'яті",
+    "subtitle1": "Тихий простір, щоб згадати когось, кого любиш. 🤍",
+    "subtitle2": "Повільно вдихни...",
+    "subtitle3": "… і ніжно видихає.",
+    "subtitle4": "Немає правильного чи неправильного способу це зробити.",
+    "subtitle5": "Рухайтеся у своєму темпі. 🌿",
+    "begin": "Початок ✨",
+    "later": "Можливо, пізніше"
+  },
+  "who": {
+    "placeholder_name": "Введи їхнє ім'я...",
+    "placeholder_relation": "Звідки ти їх знаєш? (за бажанням)",
+    "categories": [
+      {
+        "label": "Щасливий момент",
+        "emoji": "😊"
+      },
+      {
+        "label": "Щось, що вони колись казали",
+        "emoji": "💬"
+      },
+      {
+        "label": "Маленький повсякденний спогад",
+        "emoji": "☕"
+      },
+      {
+        "label": "Місце, яке нагадує про них",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Щось, що я хотів би сказати",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Продовжуй →"
+  },
+  "expression": {
+    "title": "Вираження пам'яті",
+    "memory_label": "Сам спогад",
+    "memory_placeholder": "Пишіть про момент, відчуття або деталі, які хочете зберегти...",
+    "message_label": "Повідомлення їм (за бажанням)",
+    "message_placeholder": "Що б ви сказали, якби могли поговорити з ними прямо зараз?",
+    "save": "Зберегти пам'ять",
+    "skip": "Поки що пропустити",
+    "back": "Назад"
+  },
+  "box": {
+    "title": "Надійно схований",
+    "subtitle": "Цей спогад про {{name}} тепер є частиною вашої колекції.",
+    "add_another": "Додай ще одну пам'ять",
+    "finish": "Фінальне роздзеркування"
+  },
+  "closing": {
+    "title": "Догляд",
+    "subtitle": "Поки що закриваю свою коробку. Ти можеш повернутися сюди будь-коли захочеш, щоб відчути близькість до цих спогадів.",
+    "exit": "Закрити коробку"
+  },
+  "history": {
+    "title": "Вміст коробки",
+    "no_memories": "Твоя коробка порожня. Додайте свій перший спогад, щоб почати колекцію.",
+    "search_placeholder": "Шукай спогади..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Почати спочатку",
+    "finish_exit": "Фініш і вихід",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Час завершити",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Поділитися",
+    "share_progress": "Поділитися прогресом",
+    "inspire_others": "Надихайте інших сьогодні",
+    "share_text": "Я виконав(-ла) цю активність ({{activityName}}) у TherapyMantra і мені дуже подобається, ви теж можете це зробити, просто перейдіть за посиланням на додаток для Android ({androidUrl}}) або iOS ({iosUrl}}).",
+    "this_activity": "ця діяльність",
+    "copied": "Скопійовано!",
+    "copy_message": "Копіювати повідомлення",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Скринька пам'яті",
+  "before_you_go": "Перш ніж ви підете",
+  "grief_comes_in_waves": "Горе приходить хвилями. 🌊",
+  "what_you_re_feeling_matters": "Те, що ти відчуваєш, має значення. 🤍",
+  "be_gentle_with_yourself_today": "Будьте ніжні до себе сьогодні. 🌿",
+  "save_exit": "Зберегти та вийти 🕊️",
+  "take_your_time": "Не поспішайте 🕯️",
+  "save_to_memory_box": "Зберегти у скриньці пам'яті 📦",
+  "write_as_much_or_as_little_as_you_want": "Пишіть скільки завгодно… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Якщо є щось, що ви хотіли б сказати…",
+  "past_entries": "Попередні записи",
+  "no_memories_saved_yet": "Спогади ще не збережено.",
+  "this_memory_is_held_here_for_you": "Цей спогад зберігається тут, для тебе. 🌿",
+  "add_another_memory": "Додайте ще один спогад ✨",
+  "finish_for_now": "Закінчити поки що",
+  "more": "Більше",
+  "breadcrumb": "хлібні крихти",
+  "previous_slide": "Попередній слайд",
+  "next_slide": "Наступний слайд",
+  "close": "Закрити",
+  "previous": "Попередній",
+  "more_pages": "Більше сторінок",
+  "pagination": "пагінація",
+  "go_to_previous_page": "Перейти на попередню сторінку",
+  "go_to_next_page": "Перейти на наступну сторінку",
+  "toggle_sidebar": "Перемикання бічної панелі",
+  "oops_page_not_found": "Ой! Сторінку не знайдено",
+  "return_to_home": "Повернення додому",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

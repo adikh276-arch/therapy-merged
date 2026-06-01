@@ -1,0 +1,102 @@
+{
+  "app_title": "The Unsent Letter",
+  "app_subtitle": "Release your thoughts safely and privately",
+  "intro": {
+    "title": "The Unsent Letter",
+    "description": [
+      "Sometimes, there are things we wish we could say — but never got the chance to.",
+      "This could be because it didn't feel safe, the timing wasn't right, or the words were too hard to express out loud.",
+      "This activity gives you a private space to put those thoughts into words.",
+      "You don't have to send this letter. This is just for you — to express, release, and understand your feelings better."
+    ],
+    "notice": "Write freely. No one else will see this.",
+    "button": "Start Writing →"
+  },
+  "writing": {
+    "title": "Write What You've Been Holding In",
+    "desc": "You can write to your partner, ex-partner, or even to the relationship itself. There's no right or wrong way to do this.",
+    "prompts": [
+      "I feel…",
+      "I wish…",
+      "I never said…",
+      "What hurt me…",
+      "What I needed…"
+    ],
+    "placeholder": "Dear ____,\nI've been wanting to say…",
+    "notice": "You can pause and come back anytime.",
+    "button": "Continue →"
+  },
+  "reflection": {
+    "title": "Take a Moment With This",
+    "description": [
+      "You've just put your thoughts and feelings into words — that takes courage.",
+      "You might notice a mix of emotions right now, and that's completely okay.",
+      "Before you move on, take a breath and gently check in with yourself."
+    ],
+    "notice": "This was for your healing, not for sending.",
+    "save_button": "Save Letter",
+    "finish_button": "Finish"
+  },
+  "history": {
+    "title": "Past Letters",
+    "empty_title": "You haven't written any letters yet.",
+    "empty_desc": "Your letters will appear here after you save them."
+  },
+  "toasts": {
+    "save_success": "Letter saved to your private journal",
+    "save_error": "Failed to save letter",
+    "auth_error": "Auth session missing or DB not configured"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Release your thoughts safely and privately",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,217 @@
+{
+  "app_title": "Ano ang kailangan ko?",
+  "app_subtitle": "Suriin ang Iyong Sarili",
+  "screens": {
+    "s1": {
+      "title": "Ano ang kailangan ko ngayon?",
+      "description": "Sandali upang tumigil at makinig sa hinihiling ng iyong puso.",
+      "button": "Simulan ang Pag-check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Ano ang nararamdaman na mahalaga?",
+        "placeholder": "Iba pa...",
+        "add_button": "Magdagdag",
+        "button": "Magpatuloy"
+      },
+      "prioritize": {
+        "title": "Alin sa mga ito ang pangunahin?"
+      },
+      "focus": {
+        "tag": "Ang iyong pokus ngayon",
+        "button": "Magpatuloy"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Magpatuloy"
+      },
+      "action": {
+        "title": "Isang maliit na hakbang pasulong?",
+        "placeholder": "O sumulat ng iyong sariling ...",
+        "button": "Repasuhin ang Pagninilay"
+      },
+      "closing": {
+        "tag_need": "Pangunahing Pangangailangan",
+        "tag_insight": "Ang Iyong Pananaw",
+        "tag_action": "Maliit na Pagkilos",
+        "save_button": "I-save at Tapusin",
+        "finish_button": "Tapusin nang hindi nagse-save"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emosyonal na suporta",
+      "prompt": "Anong uri ng suporta ang talagang makakatulong sa iyo ngayon?",
+      "hints": [
+        "Kailangan ko lang ng isang tao para sa...",
+        "Makakatulong ito kung...",
+        "Ang gusto ko talaga ay..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Space / oras para sa aking sarili",
+      "prompt": "Ano ang magiging hitsura ng espasyo na iyon para sa iyo?",
+      "hints": [
+        "Gagamitin ko ang oras na iyon para...",
+        "Papayagan ako ng espasyo...",
+        "Kailangan ko ng kuwarto para sa..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Malinaw na komunikasyon",
+      "prompt": "Ano ang magiging hitsura ng mas malinaw na komunikasyon para sa iyo?",
+      "hints": [
+        "Sana masabi ko...",
+        "Kung talagang nakikinig sila, sasabihin ko sa kanila...",
+        "Mahirap ang komunikasyon kapag..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Katiyakan",
+      "prompt": "Anong uri ng katiyakan ang makabuluhan?",
+      "hints": [
+        "Kailangan kong marinig na...",
+        "Kalmado ako na malaman...",
+        "Patuloy akong nag-aalala na ..."
+      ]
+    },
+    "Understanding": {
+      "label": "Pag-unawa",
+      "prompt": "Ano ang magiging hitsura ng pakiramdam na tunay na nauunawaan?",
+      "hints": [
+        "Sana malaman ng mga tao na...",
+        "Ang nararamdaman ko talaga ay...",
+        "Walang nakakakita na ako..."
+      ]
+    },
+    "Stability": {
+      "label": "Katatagan",
+      "prompt": "Ano ang pakiramdam ng katatagan sa iyong buhay ngayon?",
+      "hints": [
+        "Kailangan ko ng mga bagay na dapat kong maramdaman...",
+        "Ano ang magiging dahilan kung bakit ako nag-aalala ay...",
+        "Ang kahulugan ng katatagan ay ..."
+      ]
+    },
+    "Honesty": {
+      "label": "Katapatan",
+      "prompt": "Ano ang magiging hitsura ng higit na katapatan sa iyong sitwasyon?",
+      "hints": [
+        "Ang katotohanan na kailangan kong harapin ay...",
+        "Gusto kong maging tapat tungkol sa...",
+        "Ang tunay na nangyayari ay..."
+      ]
+    },
+    "Respect": {
+      "label": "Paggalang",
+      "prompt": "Ano ang hitsura ng paggalang para sa iyo ngayon?",
+      "hints": [
+        "Karapat-dapat akong tratuhin ...",
+        "Ang paggalang ay tila ...",
+        "Kailangan ko ng mga tao para sa..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Kalinawan tungkol sa relasyon",
+      "prompt": "Anong uri ng kalinawan ang makakatulong sa iyo nang husto?",
+      "hints": [
+        "Kailangan kong malaman kung ...",
+        "Ang nakakalito sa akin ay...",
+        "Nais kong maging malinaw tayo tungkol sa ..."
+      ]
+    },
+    "default": {
+      "prompt": "Ano ang magiging hitsura nito sa isang tunay na sitwasyon?",
+      "hints": [
+        "Ang pumapasok sa isip ay...",
+        "Sa ngayon nararamdaman ko...",
+        "Kung tapat ako sa sarili ko..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Sabihin ang isang bagay nang tapat"
+    },
+    {
+      "label": "Maglaan ng oras para sa aking sarili"
+    },
+    {
+      "label": "Makipag-ugnay sa isang tao"
+    },
+    {
+      "label": "Magtakda ng isang maliit na hangganan"
+    },
+    {
+      "label": "Hindi pa sigurado"
+    }
+  ],
+  "history": {
+    "title": "Mga Nakaraang Pagninilay",
+    "empty": "Wala pang mga pagmumuni-muni."
+  },
+  "toasts": {
+    "save_success": "Nai-save ang pagmumuni-muni",
+    "save_error": "Nabigo na i-save ang pagmumuni-muni",
+    "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB"
+  },
+  "complete": {
+    "title": "Kumpleto ang Pag-check-in",
+    "message": "Natukoy mo na kailangan mo ng \"{{need}}\". Ang paggalang sa iyong mga pangangailangan ay isang mahalagang paraan ng pag-aalaga sa sarili."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Magtanong sa iyong sarili",
+  "past_reflections": "Mga nakaraang pagninilay",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

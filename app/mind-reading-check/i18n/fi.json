@@ -1,0 +1,144 @@
+{
+  "app_title": "Ajatustenlukutarkistus",
+  "intro": {
+    "title": "Ajatustenlukutarkistus",
+    "description": "Kyseenalaista ne oletukset, joita teet siitä, mitä muut ajattelevat.",
+    "benefits": [
+      "Lopeta pahimman olettaminen",
+      "Tunnista puolueelliset tulkinnat",
+      "Rakenna selkeämpää viestintää"
+    ],
+    "duration": "3-4 minuuttia",
+    "view_past": "Katso menneitä pohdintoja"
+  },
+  "history": {
+    "title": "Menneet pohdinnat",
+    "no_entries": "Ei vielä merkintöjä",
+    "belief_label": "Uskomus: {{level}}%",
+    "balanced_thought_label": "Tasapainoinen ajattelu"
+  },
+  "complete": {
+    "title": "Toiminta suoritettu",
+    "great_insights": "Hienoja näkemyksiä!",
+    "message": "Kyseenalaistamalla oletuksesi rakennat objektiivisempaa ja myötätuntoisempaa mieltä."
+  },
+  "steps": {
+    "label": "Askel {{current}} kymmenestä",
+    "step1": {
+      "title": "Mitä tapahtui?",
+      "desc": "Kuvaile äskettäinen hetki, jolloin tunsit itsesi tuomituksi tai epävarmaksi.",
+      "placeholder": "Tilanteen kuvaus..."
+    },
+    "step2": {
+      "title": "Mitä mielessäsi liikkui?",
+      "desc": "Mitä luulit heidän ajattelevan sinusta?",
+      "placeholder": "Oletin, että he ajattelivat..."
+    },
+    "step3": {
+      "title": "Hidastetaan tätä",
+      "desc": "Juuri nyt tämä ajatus voi tuntua todelta. Mutta ennen kuin hyväksymme sen faktana, otetaan askel taaksepäin ja tarkastellaan sitä tarkemmin.",
+      "button": "Tauko ja Jatka"
+    },
+    "step4": {
+      "title": "Onko tämä totta?",
+      "desc": "Onko olemassa selkeitä todisteita (faktoja, ei oletuksia), jotka tukisivat tätä ajatusta?",
+      "placeholder": "Näkemäni todisteet ovat..."
+    },
+    "step5": {
+      "title": "Mitä muuta voisi olla meneillään?",
+      "desc": "Mitkä ovat 2–3 muuta mahdollista selitystä?",
+      "placeholder": "Mahdollisuus {{num}}..."
+    },
+    "step6": {
+      "title": "Tarkista uskomuksesi",
+      "desc": "Kuinka vahvasti uskot alkuperäiseen ajatukseesi nyt?",
+      "labels": [
+        "Ei todellakaan",
+        "Täysin"
+      ]
+    },
+    "step7": {
+      "title": "Tasapainoisempi näkemys",
+      "desc": "Kirjoita ajatus, joka tuntuu oikeudenmukaisemmalta ja epävarmemmalta.",
+      "placeholder": "Tasapainoisempi ajatus..."
+    },
+    "step8": {
+      "title": "Seuraavalla kerralla",
+      "desc": "Mitä voisit tehdä olettamisen sijaan?",
+      "examples": [
+        "Pyydä tarkennusta",
+        "Anna sille aikaa",
+        "Ilmoitus ilman reagointia"
+      ],
+      "placeholder": "Seuraavalla kerralla voisin..."
+    },
+    "step9": {
+      "title": "Huomaa muutos",
+      "desc": "Tutkit erilaisia mahdollisuuksia ja loit tilaa tasapainoisemmalle näkymälle.",
+      "original_label": "Alkuperäinen ajatus",
+      "balanced_label": "Tasapainoinen näkökulma",
+      "button": "Viimeistelyn heijastus"
+    },
+    "step10": {
+      "title": "Pieni muutos",
+      "desc": "Mielesi yrittää täyttää aukkoja. Mutta kaikki ajatukset eivät ole totta. Askeleen taaksepäin ottaminen auttaa näkemään asiat selkeästi.",
+      "button": "Koko toiminta"
+    }
+  },
+  "buttons": {
+    "continue": "Jatka",
+    "restart": "Uudelleenkäynnistys"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ajatustenlukutarkistus",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

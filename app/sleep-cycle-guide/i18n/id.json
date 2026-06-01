@@ -1,0 +1,177 @@
+{
+  "app_title": "Panduan Siklus Tidur",
+  "pill_labels": [
+    "Pendahuluan",
+    "4 tahapan",
+    "Kebenaran yang pusing",
+    "Bagaimana dengan Anda?"
+  ],
+  "s1": {
+    "title": "Pernah tidur 8 jam dan masih merasa tidak enak?",
+    "p1": "Ini bukan tentang <1>berapa lama</1> Anda tidur.",
+    "p2": "Ini sekitar <1>dimana</1> dalam siklus tidur Anda bangun.",
+    "p3": "Satu hal berubah ketika Anda memahami ini - semuanya.",
+    "insight": "💡 Otak Anda sebenarnya lebih aktif selama tidur REM daripada saat Anda benar-benar terjaga!",
+    "duration": "Membutuhkan waktu 3 menit · bertahan seumur hidup",
+    "button": "Tunggu, benarkah? Ceritakan lebih banyak →"
+  },
+  "s2": {
+    "title": "Otak Anda melakukan INI setiap malam 🌀",
+    "desc": "Setiap 90 menit, otak Anda berputar melalui 4 tahap — seperti daftar putar berulang. Ketuk masing-masing untuk menjelajahi 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Tidur ringan",
+        "tag": "1–5 menit · mudah terbangun",
+        "body": "Anda hanyut. Tubuh mulai melepaskan, otot mungkin berkedut. Sangat mudah untuk bangun dari sini."
+      },
+      {
+        "emoji": "💤",
+        "title": "Menetap di",
+        "tag": "10–25 menit · benar-benar tertidur",
+        "body": "Detak jantung melambat, suhu tubuh turun. Anda tertidur nyenyak - aktivitas otak mulai melambat."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Tidur nyenyak ⭐",
+        "tag": "20–40 menit · emas",
+        "body": "Tubuh memperbaiki jaringan, membangun kekebalan. Tahap yang paling restoratif secara fisik — sulit untuk bangun."
+      },
+      {
+        "emoji": "🌙",
+        "title": "Tidur REM",
+        "tag": "10–60 menit · Mode mimpi",
+        "body": "Otak berdengung dengan aktivitas. Emosi diproses, kenangan terkunci. Melewatkan ini membuat Anda berkabut."
+      }
+    ],
+    "italic": "Tidur nyenyak memperbaiki tubuh Anda. REM memperbaiki pikiran Anda.",
+    "button": "Jadi mengapa saya masih merasa pusing? →"
+  },
+  "s3": {
+    "title": "Bangun di tengah siklus = mode 🧟 zombie",
+    "p1": "Diseret keluar dari tidur nyenyak oleh alarm? Otak Anda benar-benar belum menyelesaikan apa yang dilakukannya. Perasaan berat berkabut itu? Itu adalah <1>inersia tidur</1>.",
+    "wave": {
+      "light": "Cahaya",
+      "deep": "dalam",
+      "groggy": "😫 pusing",
+      "fresh": "😊 segar",
+      "cycles": [
+        "Siklus 1",
+        "Siklus 2",
+        "Siklus 3"
+      ]
+    },
+    "disruptors_title": "Apa yang mengganggu siklus 👇 Anda",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Layar sebelum tidur",
+        "sub": "menunda tidur nyenyak"
+      },
+      {
+        "emoji": "☕",
+        "text": "Kafein terlambat",
+        "sub": "Mengurangi tidur nyenyak hingga 20%"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Waktu tidur yang tidak teratur",
+        "sub": "Mematahkan ritme alami Anda"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stres & kecemasan",
+        "sub": "membuat Anda terjebak dalam tidur ringan"
+      }
+    ],
+    "italic": "Kebiasaan Anda secara langsung membentuk tahap yang Anda capai.",
+    "button": "Apa artinya ini bagi saya? →"
+  },
+  "s4": {
+    "title": "Mana yang terdengar seperti Anda? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Saya bangun kelelahan secara fisik",
+        "sub": "mungkin kehilangan tidur nyenyak",
+        "tip": "Fokus pada tidur dan waktu bangun yang konsisten - tubuh Anda membutuhkan ritme yang teratur untuk mencapai tidur nyenyak."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Saya merasa berkabut atau rendah secara emosional",
+        "sub": "mungkin kehilangan tidur REM",
+        "tip": "Cobalah bersantai 30 menit sebelum tidur — rutinitas pra-tidur yang tenang melindungi tidur REM Anda."
+      },
+      {
+        "emoji": "😤",
+        "text": "Saya sering bangun di malam hari",
+        "sub": "siklus terus terganggu",
+        "tip": "Ruangan yang sejuk, gelap, dan tenang membantu otak Anda tetap dalam tahap yang lebih dalam tanpa gangguan."
+      },
+      {
+        "emoji": "😐",
+        "text": "Saya merasa baik-baik saja tetapi tidak bagus",
+        "sub": "siklus bersifat parsial tetapi tidak lengkap",
+        "tip": "Cobalah tidur 20 menit lebih awal - Anda mungkin hanya membutuhkan satu siklus tidur lengkap lagi."
+      }
+    ],
+    "quote": "Tidur bukan hanya istirahat - ini pemulihan aktif. Lindungi siklus Anda dan perubahan sepanjang hari Anda.",
+    "button": "Selesai ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Panduan Siklus Tidur",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Ini bukan tentang",
+  "it_s_about": "Ini tentang",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Terbangun dari tidur nyenyak karena alarm? Otak Anda sebenarnya belum menyelesaikan prosesnya. Perasaan berat dan berkabut itu? Itulah",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

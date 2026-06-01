@@ -1,0 +1,147 @@
+{
+  "app_title": "Plánovač spánkového okna",
+  "pill_labels": [
+    "Postavte si okno",
+    "Nastavte si časy",
+    "Tvé spánkové okno"
+  ],
+  "screen1": {
+    "title": "Na tvém spánkovém okně záleží víc, než si myslíš",
+    "p1": "Spánkové okno je pevný čas mezi tím, kdy půjdete spát, a tím, jak se probudíte. Udržet ho konzistentní — i o víkendech — je jednou z nejsilnějších věcí, které můžete pro svůj spánek udělat.",
+    "p2": "Tento nástroj vám pomůže postavit svůj za méně než 2 minuty.",
+    "insight": "I hodinový rozdíl v době spánku o víkendech může narušit váš pocit během celého týdne.",
+    "meta": "Jednoduché. Osobní. Účinné.",
+    "button": "Pojďme postavit můj →"
+  },
+  "screen2": {
+    "title": "Nastavme ti okno na spaní",
+    "step1": {
+      "title": "KROK 1 — ČAS PROBUZENÍ",
+      "desc": "V kolik hodin se většinou potřebujete probudit?"
+    },
+    "step2": {
+      "title": "KROK 2 — DÉLKA SPÁNKU",
+      "desc": "Kolik hodin spánku chceš?"
+    },
+    "live_window": {
+      "bedtime": "Čas jít spát",
+      "waketime": "Čas probuzení",
+      "duration": "{{hours}} hodin spánku"
+    },
+    "italic": "Většina dospělých potřebuje 7–9 hodin. Vyberte si to, co vám přijde správné.",
+    "button": "Vidíš mé okno spánku →"
+  },
+  "screen3": {
+    "title": "Tvé spánkové okno 🌙",
+    "result": {
+      "bedtime": "Čas jít spát",
+      "waketime": "Čas probuzení",
+      "duration": "Délka trvání",
+      "hours": "{{hours}} hodin"
+    },
+    "accordion1": {
+      "title": "3 způsoby, jak ji chránit",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Uklidněte se 30 minut před spaním"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Stejný čas vstávání každý den — ano, i o víkendech"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Vyhněte se zdřímnutí delším než 20 minut po 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Dnes večer se zavázej k jedné věci",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Schovej telefon před spaním"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Začni s relaxačním režimem"
+        },
+        {
+          "emoji": "💡",
+          "text": "Ztlumte světla hodinu před spaním"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Dokončit svůj seznam úkolů včas"
+        }
+      ]
+    },
+    "quote": "Konzistence je silnější než dokonalost. Jedna dobrá noc buduje další.",
+    "button": "Ušetři mi okno spánku ✓",
+    "saved_button": "✓ Okno spánku zachráněno!",
+    "adjust_times": "Časy úprav"
+  },
+  "complete": {
+    "title": "Vytvořené okno",
+    "message": "Vaše ideální spánkové okno je namapováno. Důslednost je klíčem k hlubokému, obnovujícímu odpočinku."
+  },
+  "toasts": {
+    "save_success": "Okno spánku uložené",
+    "save_error": "Nepodařilo se uložit okno spánku",
+    "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
+    "saving": "Ukládám..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Plánovač oken pro spaní",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

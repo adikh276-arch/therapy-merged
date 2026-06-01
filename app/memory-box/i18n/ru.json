@@ -1,0 +1,146 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": [
+    "Твоя коробка",
+    "Почитание",
+    "Выражение",
+    "Сохранено",
+    "Gentle Care"
+  ],
+  "complete_title": "Память сохранена",
+  "complete_message": "Вы безопасно положили воспоминание о {{name}} в свою коробку. Эти моменты связи всегда принадлежат тебе.",
+  "auth_error": "Отсутствует сессия аутентификации или база данных не настроена",
+  "save_success": "Память сохранена",
+  "save_error": "Не удалось сохранить память",
+  "preserving": "Сохраняя...",
+  "preserve_memory": "Сохранить память",
+  "welcome": {
+    "title": "Твоя коробка памяти",
+    "subtitle1": "Тихое место, чтобы помнить кого-то, кого ты любишь. 🤍",
+    "subtitle2": "Сделай медленный вдох...",
+    "subtitle3": "… и мягко выдохнуть.",
+    "subtitle4": "Нет правильного или неправильного способа сделать это.",
+    "subtitle5": "Иди в своём темпе. 🌿",
+    "begin": "Начинаем ✨",
+    "later": "Может, позже"
+  },
+  "who": {
+    "placeholder_name": "Введите их имя...",
+    "placeholder_relation": "Откуда вы их знаете? (по выбору)",
+    "categories": [
+      {
+        "label": "Счастливый момент",
+        "emoji": "😊"
+      },
+      {
+        "label": "Что-то, что они раньше говорили",
+        "emoji": "💬"
+      },
+      {
+        "label": "Маленькое повседневное воспоминание",
+        "emoji": "☕"
+      },
+      {
+        "label": "Место, напоминающее о них",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Что-то, что я хотел бы сказать",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Продолжайте →"
+  },
+  "expression": {
+    "title": "Выражение памяти",
+    "memory_label": "Само воспоминание",
+    "memory_placeholder": "Пиши о моменте, чувствах или деталях, которые хочешь сохранить...",
+    "message_label": "Сообщение им (по желанию)",
+    "message_placeholder": "Что бы вы сказали, если бы могли поговорить с ними прямо сейчас?",
+    "save": "Сохранить память",
+    "skip": "Пока пропусти",
+    "back": "Назад"
+  },
+  "box": {
+    "title": "Надёжно спрятаны",
+    "subtitle": "Это воспоминание о {{name}} теперь часть вашей коллекции.",
+    "add_another": "Добавить ещё одну память",
+    "finish": "Отражение финиша"
+  },
+  "closing": {
+    "title": "Забота",
+    "subtitle": "Пока закрываю коробку. Ты можешь вернуться сюда в любое время, когда почувствуешь близость к этим воспоминаниям.",
+    "exit": "Закрыть коробку"
+  },
+  "history": {
+    "title": "Содержание коробки",
+    "no_memories": "Твоя коробка пуста. Добавьте своё первое воспоминание, чтобы начать свою коллекцию.",
+    "search_placeholder": "Ищи воспоминания..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Время выполнения",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Делиться",
+    "share_progress": "Поделиться прогрессом",
+    "inspire_others": "Вдохновите других сегодня!",
+    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
+    "this_activity": "эта деятельность",
+    "copied": "Скопировано!",
+    "copy_message": "Скопировать сообщение",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Коробка памяти",
+  "before_you_go": "Прежде чем уйти",
+  "grief_comes_in_waves": "Горе приходит волнами. 🌊",
+  "what_you_re_feeling_matters": "Ваши чувства имеют значение. 🤍",
+  "be_gentle_with_yourself_today": "Будьте сегодня снисходительны к себе. 🌿",
+  "save_exit": "Сохраните и выйдите 🕊️",
+  "take_your_time": "Не торопитесь 🕯️",
+  "save_to_memory_box": "Сохраните в папку «Воспоминания» 📦",
+  "write_as_much_or_as_little_as_you_want": "Пишите столько, сколько хотите… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Если вы хотите что-то сказать…",
+  "past_entries": "Предыдущие записи",
+  "no_memories_saved_yet": "Воспоминания пока не сохранены.",
+  "this_memory_is_held_here_for_you": "Это воспоминание хранится здесь, для тебя. 🌿",
+  "add_another_memory": "Добавьте еще одно воспоминание ✨",
+  "finish_for_now": "На этом пока всё.",
+  "more": "Более",
+  "breadcrumb": "хлебные крошки",
+  "previous_slide": "Предыдущий слайд",
+  "next_slide": "Следующий слайд",
+  "close": "Закрывать",
+  "previous": "Предыдущий",
+  "more_pages": "Больше страниц",
+  "pagination": "нумерация страниц",
+  "go_to_previous_page": "Перейти на предыдущую страницу",
+  "go_to_next_page": "Перейти на следующую страницу",
+  "toggle_sidebar": "Переключить боковую панель",
+  "oops_page_not_found": "Ой! Страница не найдена.",
+  "return_to_home": "Вернуться на главную",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

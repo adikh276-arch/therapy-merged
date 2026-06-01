@@ -1,0 +1,125 @@
+{
+  "app_title": "Παύση εξάσκησης",
+  "app_subtitle": "Κατακτήστε το διάστημα μεταξύ",
+  "intro": {
+    "title": "Η παύση των 5 δευτερολέπτων",
+    "description": "Μια μικρή παύση μεταξύ συναισθήματος και αντίδρασης μπορεί να αλλάξει τα πάντα.",
+    "duration": "Διαρκεί λιγότερο από 15 δευτερόλεπτα. Αλήθεια.",
+    "button": "Δοκιμάστε το →"
+  },
+  "scenario": {
+    "title": "Τι σας πυροδοτεί;",
+    "desc": "Επιλέξτε μια κατάσταση με την οποία σχετίζεστε",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Κάποιος με διακόπτει",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Τα πράγματα δεν πάνε όπως τα σχεδίασα",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Νιώθω ότι με αγνοούν",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Νιώθω συγκλονισμένος",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Πληκτρολογήστε το δικό σας...",
+    "button": "Εξάσκηση Παύση →"
+  },
+  "hold": {
+    "title": "Κρατήστε πατημένο για παύση ⏸️",
+    "instructions": "Κρατήστε τον κύκλο για 5 δευτερόλεπτα",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Πατήστε και κρατήστε πατημένο..."
+      },
+      {
+        "at": "0.15",
+        "text": "Μείνε μαζί του..."
+      },
+      {
+        "at": "0.5",
+        "text": "Το κάνεις..."
+      },
+      {
+        "at": "0.8",
+        "text": "Σχεδόν εκεί..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Αυτή είναι η Παύση",
+    "message": "Απλώς δημιουργήσατε χώρο ανάμεσα σε αυτό που νιώσατε και στο πώς ανταποκρίνεστε. Ακόμη και μια μικρή παύση σας βοηθά να ανακτήσετε το κέντρο σας.",
+    "tip_label": "Επαγγελματική συμβουλή",
+    "scenario_messages": {
+      "interrupts": "Την επόμενη φορά που κάποιος θα σας διακόψει, δοκιμάστε το πριν απαντήσετε.",
+      "plans": "Την επόμενη φορά που τα πράγματα δεν πάνε όπως τα σχεδιάζετε, δοκιμάστε αυτό πριν αντιδράσετε.",
+      "ignored": "Την επόμενη φορά που θα νιώσετε ότι σας αγνοούν, δοκιμάστε αυτό πριν απαντήσετε.",
+      "overwhelmed": "Την επόμενη φορά που θα νιώσετε συγκλονισμένοι, δοκιμάστε το πριν κάνετε οτιδήποτε.",
+      "other": "Την επόμενη φορά που θα νιώσετε ότι πυροδοτείστε, δοκιμάστε το πριν αντιδράσετε."
+    },
+    "italic": "Δεν θα είναι πάντα εύκολο - αλλά η συνέπεια είναι το κλειδί."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ξεκινήστε από την αρχή",
+    "finish_exit": "Τέλος & Έξοδος",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Ώρα για ολοκλήρωση",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Μερίδιο",
+    "share_progress": "Κοινοποίηση προόδου",
+    "inspire_others": "Εμπνεύστε τους άλλους σήμερα",
+    "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
+    "this_activity": "αυτή η δραστηριότητα",
+    "copied": "Αντιγράφηκε!",
+    "copy_message": "Αντιγραφή μηνύματος",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Κατακτήστε τον χώρο ανάμεσα",
+  "more": "Περισσότερο",
+  "breadcrumb": "ψίχουλα ψωμιού",
+  "previous_slide": "Προηγούμενη διαφάνεια",
+  "next_slide": "Επόμενη διαφάνεια",
+  "close": "Κοντά",
+  "previous": "Προηγούμενος",
+  "more_pages": "Περισσότερες σελίδες",
+  "pagination": "σελιδοποίηση",
+  "go_to_previous_page": "Μετάβαση στην προηγούμενη σελίδα",
+  "go_to_next_page": "Μετάβαση στην επόμενη σελίδα",
+  "toggle_sidebar": "Εναλλαγή πλευρικής γραμμής",
+  "oops_page_not_found": "Ωχ! Η σελίδα δεν βρέθηκε.",
+  "return_to_home": "Επιστροφή στην Αρχική",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

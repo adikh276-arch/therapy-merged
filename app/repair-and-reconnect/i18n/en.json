@@ -1,0 +1,292 @@
+{
+  "app_title": "Repair & Reconnect",
+  "steps": {
+    "welcome": "Welcome",
+    "choose_person": "Choose Person",
+    "choose_approach": "Choose Approach",
+    "guided_action": "Guided Action",
+    "complete": "Complete"
+  },
+  "intro": {
+    "title": "Repair & Reconnect",
+    "description": "Anger can create distance between us and the people we care about. But small, gentle steps can help rebuild that connection.",
+    "quote": "\"Repair doesn't mean you were wrong—it means you care enough to try.\"",
+    "small_efforts": "Even small efforts can make a difference.",
+    "button": "Start →"
+  },
+  "choose_person": {
+    "title": "Who would you like to reconnect with?",
+    "desc": "Thinking about a specific relationship helps make the steps feel real.",
+    "options": {
+      "friend": "A Friend",
+      "family": "A Family Member",
+      "colleague": "A Colleague",
+      "other": "Someone Else"
+    },
+    "button": "Continue →"
+  },
+  "choose_approach": {
+    "title": "What feels right for you?",
+    "desc": "Pick one small step that feels doable.",
+    "safety": "You don't have to fix everything—just choose one small step.",
+    "button": "Try This →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Send a casual check-in",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Acknowledge the tension",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Give each other some space",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Let it go and move on",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Just reflect on it",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Send a warm message",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Name what happened honestly",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Commit to pausing next time",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Choose peace over being right",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflect on what you really need",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Send a professional note",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Address it respectfully",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Plan a calmer response next time",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Keep it professional and move on",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Think about boundaries",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Reach out with a simple message",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Acknowledge what happened",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Take a pause next time",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Let it go for now",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Just reflect (no action yet)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Tap to see how ✨",
+    "copy_button": "📋 Copy Message",
+    "done_button": "I'm Done →",
+    "safety_line_default": "You don't have to send anything right now. 💛",
+    "safety_line_pause": "Take your time—there's no rush. 💛",
+    "safety_line_reflect": "This is just for you—no one else needs to see this. 💛",
+    "actions": {
+      "message": {
+        "title": "Send a Simple Message",
+        "why": "A simple message can break the silence and show the other person you still care.",
+        "insight": "Reaching out—even imperfectly—is almost always received better than we expect.",
+        "howTitle": "Start small",
+        "howBody": "You don't need to write an essay. A few honest words can open the door to reconnection.",
+        "prompts": [
+          "Hey, I've been thinking about you. Hope you're doing okay.",
+          "I know things were tense—just wanted to say I care.",
+          "I'm sorry about earlier. Can we talk when you're ready?"
+        ],
+        "promptLabel": "Choose a starting point:",
+        "editLabel": "Make it yours:"
+      },
+      "acknowledge": {
+        "title": "Acknowledge What Happened",
+        "why": "Acknowledging what happened shows maturity and helps the other person feel seen.",
+        "insight": "People don't need you to be perfect—they need to know you noticed.",
+        "howTitle": "Name it gently",
+        "howBody": "You can acknowledge without taking all the blame. Just name what happened honestly.",
+        "prompts": [
+          "I know things got heated between us. I want you to know I noticed.",
+          "I realize I may have come across harshly. That wasn't my intention.",
+          "I've been reflecting on what happened, and I wish I'd handled it differently."
+        ],
+        "promptLabel": "Choose a starting point:",
+        "editLabel": "Make it yours:"
+      },
+      "pause": {
+        "title": "Take a Pause Next Time",
+        "why": "Committing to a pause gives you space to respond rather than react.",
+        "insight": "A 6-second pause is often enough to shift from reaction to reflection.",
+        "howTitle": "🧘 Plan your pause",
+        "howBody": "Think of a simple cue—like taking a breath or stepping away briefly—before responding.",
+        "prompts": [
+          "Next time I feel upset, I'll take a deep breath before responding.",
+          "I'll try saying 'Give me a moment' instead of reacting immediately.",
+          "I'll step away for a few minutes to collect my thoughts."
+        ],
+        "promptLabel": "Pick a commitment that feels right:",
+        "editLabel": "Write your own intention:"
+      },
+      "letgo": {
+        "title": "Let It Go for Now",
+        "why": "Sometimes the kindest thing you can do is release the weight of the situation.",
+        "insight": "Letting go isn't giving up—it's choosing peace over being right.",
+        "howTitle": "🕊️ Release gently",
+        "howBody": "You don't have to forget. Just decide that this doesn't need to control how you feel anymore.",
+        "prompts": [
+          "I'm choosing to let this go—not because it didn't matter, but because my peace matters more.",
+          "I release the need to be right about this. I choose connection.",
+          "This situation doesn't define our relationship. I'm moving forward."
+        ],
+        "promptLabel": "Choose what resonates:",
+        "editLabel": "Write what feels true for you:"
+      },
+      "reflect": {
+        "title": "Just Reflect",
+        "why": "Reflection builds self-awareness, which is the foundation of every healthy relationship.",
+        "insight": "Journaling or even thinking through what happened helps you process emotions without pressure.",
+        "howTitle": "🔍 Look inward",
+        "howBody": "Ask yourself: What was I really feeling underneath the anger? Often it's hurt, fear, or disappointment.",
+        "prompts": [
+          "Underneath my anger, I think I was feeling hurt.",
+          "I realize I was reacting out of fear of not being heard.",
+          "What I really needed was to feel respected and valued."
+        ],
+        "promptLabel": "Choose what resonates:",
+        "editLabel": "Write your own reflection:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Connection Mended",
+    "message": "You've taken a brave step toward repairing your connection with {{person}}. Small, intentional actions build lasting bridges.",
+    "default_person": "someone important"
+  },
+  "toasts": {
+    "save_success": "Repair progress preserved",
+    "save_error": "Failed to preserve reflection",
+    "copy_success": "Message copied!",
+    "preserving": "Preserving...",
+    "complete_button": "Complete & Save"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Repair & Reconnect",
+  "that_s_a_step_forward": "That's a step forward",
+  "you_took_a_small_step_toward_repair_and_that_matte": "You took a small step toward repair—and that matters.",
+  "try_with_someone_else": "Try with someone else",
+  "done": "Done ✔",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

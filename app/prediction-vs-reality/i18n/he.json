@@ -1,0 +1,145 @@
+{
+  "app_title": "חיזוי מול מציאות",
+  "step_label": "שלב {{current}} מתוך 8",
+  "intro": {
+    "title": "חיזוי מול מציאות",
+    "description": "השווה את התחזיות החרדתיות שלך למה שקורה בפועל כדי לבנות פרספקטיבה מאוזנת יותר.",
+    "benefits": [
+      "זיהוי דפוסי חרדה",
+      "איסוף ראיות נגד פחדים",
+      "הפחתת מחשבות יתר על העתיד"
+    ],
+    "duration": "4-5 דקות",
+    "view_past": "צפו בהשתקפויות מהעבר"
+  },
+  "history": {
+    "title": "הרהורים מהעבר",
+    "no_reflections": "עדיין אין השתקפויות שמורות.",
+    "prediction_label": "תחזית",
+    "reality_label": "המציאות",
+    "reflection_label": "השתקפות:"
+  },
+  "complete": {
+    "title": "הפעילות הושלמה",
+    "saved_title": "השתקפות נשמרה",
+    "message": "כשאתה מסתכל על העובדות, אתה עוזר למוח שלך ללמוד שדברים לעיתים קרובות יותר ניתנים לניהול ממה שהם נראים."
+  },
+  "emotions": [
+    "חרד",
+    "עצבני",
+    "מפוחדת",
+    "מוצף",
+    "לא נוח"
+  ],
+  "intensity_labels": {
+    "not_intense": "לא אינטנסיבי",
+    "very_intense": "מאוד אינטנסיבי"
+  },
+  "comparison_options": [
+    "זה יצא כמעט בדיוק כפי שציפיתי",
+    "חלק מהחלקים היו נכונים, אבל לא הכל",
+    "זה היה שונה לגמרי ממה שציפיתי",
+    "זה היה הרבה יותר קל/טוב ממה שדמיינתי"
+  ],
+  "screens": {
+    "s1": {
+      "title": "תחשבו על מצב עדכני",
+      "desc": "תזכור רגע לאחרונה שבו הרגשת חרדה או חוסר ביטחון.",
+      "placeholder": "תאר את המצב..."
+    },
+    "s2": {
+      "title": "מה חשבת שיקרה?",
+      "desc": "ממה ציפית או פחדת באותו רגע?",
+      "placeholder": "דאגתי ש..."
+    },
+    "s3": {
+      "title": "איך הרגשת?",
+      "desc": "בחר את הרגשות שהרגשת ואת עוצמתם."
+    },
+    "s4": {
+      "title": "מה בעצם קרה?",
+      "desc": "תתמקד בעובדות של מה שבאמת קרה.",
+      "placeholder": "במציאות..."
+    },
+    "s5": {
+      "title": "בואו נבחן את שניהם",
+      "expectation": "ציפייה",
+      "reality": "המציאות",
+      "question": "כמה קרוב הייתה הציפייה שלך?"
+    },
+    "s6": {
+      "title": "מה אתה מבחין?",
+      "desc": "האם זה היה גרוע כמו שחשבת שיהיה?",
+      "placeholder": "אני שם לב ש..."
+    },
+    "s7": {
+      "title": "בפעם הבאה",
+      "desc": "מה תוכל להזכיר לעצמך אם זה יקרה שוב?",
+      "placeholder": "למשל, \"אולי זה לא יהיה כל כך גרוע כמו שאני מדמיין.\""
+    },
+    "s8": {
+      "title": "תזכורת קטנה",
+      "desc": "המוח שלך מנסה להכין אותך—אבל הוא לא תמיד חוזה במדויק. בכל פעם שאתה עוצר להסתכל על העובדות, אתה בונה חוסן.",
+      "button": "שמור השתקפות",
+      "discard": "רשומת השלכה"
+    }
+  },
+  "buttons": {
+    "continue": "המשך"
+  },
+  "toasts": {
+    "saved": "ההשתקפות נשמרה!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ניבוי לעומת מציאות",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

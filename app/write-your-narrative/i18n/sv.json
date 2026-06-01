@@ -1,0 +1,125 @@
+{
+  "app_title": "Din berättelse",
+  "nav": {
+    "entry": "Välkommen",
+    "writing": "Uttryck",
+    "landing": "Reflekterande",
+    "history": "Din resa"
+  },
+  "entry": {
+    "title": "Låt oss ta det ett steg i taget. 💛",
+    "description": [
+      "Du behöver inte berätta hela din historia idag. Bara en liten del räcker.",
+      "Du är säker just nu. Du har kontroll över vad du skriver – och vad du inte skriver."
+    ],
+    "breath": "Ta ett långsamt andetag innan vi börjar.",
+    "button_ready": "Jag är redo",
+    "button_history": "Tidigare berättelser",
+    "footer": "Dina ord • Ditt tempo • Din berättelse"
+  },
+  "writing": {
+    "title": "Skriv det som känns okej ✨",
+    "subtitle": "Dina ord, ditt tempo",
+    "prompt_label": "Behöver du en startpunkt?",
+    "prompts": [
+      {
+        "text": "Det jag minns mest är...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Då kände jag mig...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Sedan dess har jag märkt...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Börja skriva här...",
+    "notice": "Det finns inget rätt sätt att göra detta. Även några få rader räcker.",
+    "button": "Färdigställ skrivandet"
+  },
+  "landing": {
+    "title": "Du gjorde något viktigt.",
+    "subtitle": "Tack för att du dök upp för din egen skull.",
+    "settle_title": "Låt oss ta en stund för att lugna ner oss",
+    "steps": [
+      "Titta runt och nämn tre saker du kan se.",
+      "Ta ett långsamt andetag in... och ut."
+    ],
+    "feeling_label": "Just nu känner jag:",
+    "feeling_placeholder": "Ett ord eller två...",
+    "quote": "\"Du behöver inte bära allt på en gång. Du kan komma tillbaka när du känner dig redo.\"",
+    "button_save": "Bevara berättelsen",
+    "button_preserving": "Bevara..."
+  },
+  "history": {
+    "title": "Din resa 📝",
+    "subtitle": "Tidigare berättelser och reflektioner",
+    "empty": "Du har inte sparat några poster än. Ta det lugnt—det är ingen brådska.",
+    "no_writing": "Ingen skrift bevarad",
+    "button_back": "Tillbaka till aktivitet"
+  },
+  "complete": {
+    "title": "Bevarad berättelse",
+    "message": "Du har tagit ett kraftfullt steg i att berätta din historia. Ditt perspektiv är viktigt, och din resa är unikt din."
+  },
+  "toasts": {
+    "save_success": "Bevarad berättelse",
+    "save_error": "Misslyckades med att bevara berättelsen",
+    "auth_error": "Auth-session saknas eller databas inte konfigurerad"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Din berättelse",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "remove_this": "TA BORT_DETTA",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

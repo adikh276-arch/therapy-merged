@@ -1,0 +1,147 @@
+{
+  "app_title": "স্লিপ উইন্ডো প্ল্যানার",
+  "pill_labels": [
+    "আপনার উইন্ডো তৈরি করুন",
+    "আপনার সময় সেট করুন",
+    "আপনার ঘুমের জানালা"
+  ],
+  "screen1": {
+    "title": "আপনার ঘুমের উইন্ডোটি আপনি যা ভাবেন তার চেয়ে বেশি গুরুত্বপূর্ণ",
+    "p1": "একটি ঘুমের উইন্ডো হ'ল আপনি বিছানায় যাওয়ার সময় এবং জেগে ওঠার মধ্যবর্তী সময়। এটি ধারাবাহিক রাখা - এমনকি সপ্তাহান্তেও - আপনার ঘুমের জন্য আপনি করতে পারেন এমন সবচেয়ে শক্তিশালী জিনিসগুলির মধ্যে একটি।",
+    "p2": "এই সরঞ্জামটি আপনাকে 2 মিনিটের মধ্যে আপনার তৈরি করতে সহায়তা করে।",
+    "insight": "এমনকি সপ্তাহান্তে ঘুমের সময়ের মধ্যে 1 ঘন্টার পার্থক্য আপনি পুরো সপ্তাহ কীভাবে অনুভব করছেন তা ব্যাহত করতে পারে।",
+    "meta": "সহজ। ব্যক্তিগত। কার্যকর।",
+    "button": "আসুন আমার → তৈরি করি"
+  },
+  "screen2": {
+    "title": "আসুন আপনার নিদ্রার উইন্ডো সেট করি",
+    "step1": {
+      "title": "ধাপ 1 - জেগে ওঠার সময়",
+      "desc": "বেশিরভাগ দিন ঘুম থেকে ওঠার জন্য আপনার কখন প্রয়োজন?"
+    },
+    "step2": {
+      "title": "ধাপ 2 - ঘুমের সময়কাল",
+      "desc": "আপনি কত ঘন্টা ঘুমাতে চান?"
+    },
+    "live_window": {
+      "bedtime": "ঘুমানোর সময়",
+      "waketime": "ঘুম থেকে ওঠার সময়",
+      "duration": "{{hours}} ঘন্টা ঘুম"
+    },
+    "italic": "বেশিরভাগ প্রাপ্তবয়স্কদের 7-9 ঘন্টা প্রয়োজন। যা সঠিক মনে হয় তা বেছে নিন।",
+    "button": "আমার ঘুমের জানালা দেখুন →"
+  },
+  "screen3": {
+    "title": "আপনার ঘুমের জানালা 🌙",
+    "result": {
+      "bedtime": "ঘুমানোর সময়",
+      "waketime": "ঘুম থেকে ওঠার সময়",
+      "duration": "সময়কাল",
+      "hours": "{{hours}} ঘন্টা"
+    },
+    "accordion1": {
+      "title": "এটি রক্ষা করার 3 টি উপায়",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "আপনার শোওয়ার সময় থেকে 30 মিনিট আগে বাতাস নিন"
+        },
+        {
+          "emoji": "⏰",
+          "text": "প্রতিদিন একই জেগে ওঠার সময় - হ্যাঁ, সপ্তাহান্তেও"
+        },
+        {
+          "emoji": "🚫",
+          "text": "বিকেল 3 টার পরে 20 মিনিটের বেশি ঘুম এড়িয়ে চলুন"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "আজ রাতে 1 টি জিনিস প্রতিশ্রুতিবদ্ধ করুন",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "বিছানায় যাওয়ার আগে আমার ফোনটি দূরে রাখুন"
+        },
+        {
+          "emoji": "🛁",
+          "text": "একটি উইন্ড-ডাউন রুটিন শুরু করুন"
+        },
+        {
+          "emoji": "💡",
+          "text": "ঘুমানোর এক ঘন্টা আগে আলো নিভিয়ে দিন"
+        },
+        {
+          "emoji": "✍️",
+          "text": "আমার করণীয় তালিকা তাড়াতাড়ি শেষ করুন"
+        }
+      ]
+    },
+    "quote": "ধারাবাহিকতা পরিপূর্ণতার চেয়ে বেশি শক্তিশালী। একটি শুভরাত্রি আরেকটি তৈরি করে।",
+    "button": "আমার নিদ্রার উইন্ডো সংরক্ষণ করুন ✓",
+    "saved_button": "✓ স্লিপ উইন্ডো সেভ করা হয়েছে!",
+    "adjust_times": "সময় সামঞ্জস্য করুন"
+  },
+  "complete": {
+    "title": "উইন্ডো তৈরি করা হয়েছে",
+    "message": "আপনার আদর্শ নিদ্রার উইন্ডো ম্যাপ করা হয়েছে। ধারাবাহিকতা গভীর, পুনরুদ্ধারমূলক বিশ্রামের মূল চাবিকাঠি।"
+  },
+  "toasts": {
+    "save_success": "নিদ্রার উইন্ডো সংরক্ষিত হয়েছে",
+    "save_error": "নিদ্রার উইন্ডো সংরক্ষণ করতে ব্যর্থ হয়েছে",
+    "auth_error": "অথ সেশন অনুপস্থিত বা DB কনফিগার করা হয়নি",
+    "saving": "সংরক্ষণ করা হচ্ছে..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে। আপনিও এটি করতে পারেন, শুধু অ্যান্ড্রয়েড অ্যাপের {{androidUrl}} অথবা আইওএস অ্যাপের {{iosUrl}} লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "স্লিপ উইন্ডো প্ল্যানার",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

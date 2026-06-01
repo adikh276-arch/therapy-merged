@@ -1,0 +1,81 @@
+{
+  "app_title": "De ce se blochează creierul",
+  "app_subtitle": "Logica supraviețuirii • {{step}}/{{total}}",
+  "s1": {
+    "title": "Creierul tău nu s-a stricat. S-a adaptat.",
+    "description": "După traumă, creierul tău se reconfigurează pentru a te proteja. A învățat că lumea poate fi periculoasă, așa că a rămas pregătit. Asta nu e un defect. Asta e supraviețuirea.",
+    "quote": "\"PTSD-ul nu e un semn că ceva nu e în regulă cu tine. E un semn că ți s-a întâmplat ceva.\"",
+    "button": "Spune-mi mai multe"
+  },
+  "s2": {
+    "tag": "Adevăruri blânde",
+    "title": "Logica supraviețuirii cerebrale",
+    "truths": [
+      {
+        "header": "Alarma a rămas pornită",
+        "body": "Hipervigilența și surprizele ușor nu sunt reacții exagerate — sistemul de alarmă al creierului tău își face treaba prea bine."
+      },
+      {
+        "header": "Flashback-urile sunt amintiri",
+        "body": "Trăgacile îți trag creierul înapoi pentru că nu a primit niciodată semnalul că amenințarea s-a încheiat. Încearcă să te protejeze."
+      },
+      {
+        "header": "Luptând pentru tine",
+        "body": "Fiecare simptom a fost odată un act de supraviețuire. Creierul tău a făcut ce trebuia ca să te țină în viață."
+      }
+    ],
+    "healing": "Vindecarea nu înseamnă să uiți. Este vorba despre a-ți ajuta creierul să învețe că acum ești în siguranță."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Logica supraviețuirii • {{step}}/{{total}}",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,125 @@
+{
+  "app_title": "Your Narrative",
+  "nav": {
+    "entry": "Welcome",
+    "writing": "Expressing",
+    "landing": "Reflecting",
+    "history": "Your Journey"
+  },
+  "entry": {
+    "title": "Let's take this one step at a time. 💛",
+    "description": [
+      "You don't have to tell your whole story today. Just a small part is enough.",
+      "You're safe right now. You're in control of what you write—and what you don't."
+    ],
+    "breath": "Take a slow breath before we begin.",
+    "button_ready": "I'm ready",
+    "button_history": "Past Narratives",
+    "footer": "Your words • Your pace • Your story"
+  },
+  "writing": {
+    "title": "Write what feels okay ✨",
+    "subtitle": "Your words, your pace",
+    "prompt_label": "Need a starting point?",
+    "prompts": [
+      {
+        "text": "What I remember most is…",
+        "emoji": "💭"
+      },
+      {
+        "text": "At that time, I felt…",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Since then, I've noticed…",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Start writing here…",
+    "notice": "There's no right way to do this. Even a few lines are enough.",
+    "button": "Finish Writing"
+  },
+  "landing": {
+    "title": "You did something important.",
+    "subtitle": "Thank you for showing up for yourself.",
+    "settle_title": "Let's take a moment to settle",
+    "steps": [
+      "Look around and name 3 things you can see.",
+      "Take a slow breath in… and out."
+    ],
+    "feeling_label": "Right now, I feel:",
+    "feeling_placeholder": "A word or two...",
+    "quote": "\"You don't have to carry everything at once. You can come back whenever you feel ready.\"",
+    "button_save": "Preserve Narrative",
+    "button_preserving": "Preserving..."
+  },
+  "history": {
+    "title": "Your Journey 📝",
+    "subtitle": "Past narratives & reflections",
+    "empty": "You haven't saved any entries yet. Take your time—there's no rush.",
+    "no_writing": "No writing preserved",
+    "button_back": "Back to Activity"
+  },
+  "complete": {
+    "title": "Narrative Preserved",
+    "message": "You've taken a powerful step in telling your story. Your perspective matters, and your journey is uniquely yours."
+  },
+  "toasts": {
+    "save_success": "Narrative preserved",
+    "save_error": "Failed to preserve narrative",
+    "auth_error": "Auth session missing or DB not configured"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Your Narrative",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "remove_this": "REMOVE_THIS",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

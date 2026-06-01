@@ -1,0 +1,81 @@
+{
+  "app_title": "మెదడు ఎందుకు ఇరుక్కుపోతుంది",
+  "app_subtitle": "మనుగడ యొక్క తర్కం • {{step}}/{{total}}",
+  "s1": {
+    "title": "మీ మెదడు విచ్ఛిన్నం కాలేదు. ఇది స్వీకరించబడింది.",
+    "description": "గాయం తరువాత, మీ మెదడు మిమ్మల్ని సురక్షితంగా ఉంచడానికి తనను తాను రీవైర్ చేస్తుంది. ప్రపంచం ప్రమాదకరంగా ఉంటుందని ఇది తెలుసుకుంది, కాబట్టి అది సిద్ధంగా ఉంది. అది లోపం కాదు. అది మనుగడ.",
+    "quote": "\"PTSD అనేది మీతో ఏదో తప్పు ఉందనడానికి సంకేతం కాదు. ఇది మీకు ఏదో జరిగిందనడానికి సంకేతం. \"",
+    "button": "నాకు మరింత చెప్పండి"
+  },
+  "s2": {
+    "tag": "సున్నితమైన సత్యాలు",
+    "title": "మెదడు మనుగడ తర్కం",
+    "truths": [
+      {
+        "header": "అలారం ఆన్ లో ఉంది",
+        "body": "హైపర్విజిలెన్స్ మరియు ఆశ్చర్యం సులభంగా అతిగా ప్రతిచర్యలు కావు - మీ మెదడు యొక్క అలారం వ్యవస్థ దాని పనిని బాగా చేస్తోంది."
+      },
+      {
+        "header": "ఫ్లాష్ బ్యాక్ లు అనేవి మెమరీ",
+        "body": "ట్రిగ్గర్లు మీ మెదడును వెనక్కి లాగుతాయి ఎందుకంటే ముప్పు ముగిసిందని సంకేతం ఎప్పుడూ రాలేదు. ఇది మిమ్మల్ని రక్షించడానికి ప్రయత్నిస్తోంది."
+      },
+      {
+        "header": "మీ కోసం పోరాడటం",
+        "body": "ప్రతి లక్షణం ఒకప్పుడు మనుగడ యొక్క చర్య. మిమ్మల్ని సజీవంగా ఉంచడానికి మీ మెదడు ఏమి చేయాలో అది చేసింది."
+      }
+    ],
+    "healing": "వైద్యం మరచిపోవడం గురించి కాదు. మీరు ఇప్పుడు సురక్షితంగా ఉన్నారని తెలుసుకోవడానికి మీ మెదడుకు సహాయపడటం గురించి."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "మనుగడ తర్కం • {{దశ}}/{{మొత్తం}}",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

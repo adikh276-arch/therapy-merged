@@ -1,0 +1,139 @@
+{
+  "app_title": "Mapa Jedzenia i Emocji",
+  "screen_titles": [
+    "Witamy",
+    "Wzorce żywieniowe",
+    "Dialog wewnętrzny",
+    "Fizyczne wykrywanie",
+    "Mapa",
+    "Delikatne wsparcie",
+    "Ostateczne spojrzenie",
+    "Refleksja"
+  ],
+  "welcome_text": "Hej... Bardzo się cieszę, że jesteś 💛. Delikatnie zaplanujmy to, co się działo.",
+  "coming_up_label": "Co ostatnio się wydarzy?",
+  "begin_mapping": "Rozpocznij mapowanie",
+  "food_patterns_q": "Hmm... Rozumiem cię. Kiedy czujesz {{emotion}}... Jak jedzenie zwykle się pojawia?",
+  "continue_button": "Kontynuuj",
+  "internal_dialogue_q": "W tych chwilach... Jakie myśli pojawiają się na głowie?",
+  "write_placeholder": "Pisz, co przyjdzie ci do głowy...",
+  "physical_sensing_q": "Jeśli zatrzymasz się na chwilę... Co zauważasz w swoim ciele?",
+  "the_pattern_label": "Wzór",
+  "pattern_desc_1": "Kiedy czujesz {{emotion}}, twoje ciało czuje {{sensation}}...",
+  "pattern_desc_2": "… a jedzenie staje się sposobem na {{response}}, podczas gdy pojawiają się myśli takie jak \"{{thought}}\".",
+  "pattern_footer": "\"Świadomość wzorców to wolność\"",
+  "support_q": "W tych chwilach... Co mogłoby ci pomóc — choćby trochę?",
+  "understanding_text": "Lepiej rozumiesz siebie. To więcej niż wystarczająco 💛",
+  "how_feeling_now": "Jak się teraz czujesz?",
+  "preserve_button": "Mapa rezerwatu",
+  "preserving": "Konserwowanie...",
+  "complete_title": "Mapa zachowana",
+  "complete_message": "Udało Ci się zmapować związek między uczuciami a jedzeniem. Ta świadomość jest potężnym narzędziem łagodnej zmiany.",
+  "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
+  "save_success": "Zachowany wzór",
+  "save_error": "Nie zachowało wzoru",
+  "emotions_list": [
+    "😰 Stres",
+    "😢 Smutek",
+    "😶 Nuda",
+    "😟 Lęk",
+    "🥺 Samotność",
+    "💭 Coś jeszcze..."
+  ],
+  "food_responses": [
+    "🍽️ Jem więcej",
+    "🚫 Jem mniej",
+    "🍫 Mam ochotę na konkretne potrawy",
+    "😣 Unikam jedzenia",
+    "😐 Brak realnych zmian"
+  ],
+  "body_sensations": [
+    "💔 Ściśnięta klatka piersiowa",
+    "🪨 Ciężkie uczucie",
+    "🦵 Niespokojny / wiercący się",
+    "🔋 Niska energia",
+    "🌀 Węzły w żołądku",
+    "❓ Coś jeszcze..."
+  ],
+  "support_options": [
+    "🗣️ Porozmawiaj z kimś",
+    "☕ Zrób sobie przerwę",
+    "📝 Czasopismo",
+    "🌬️ Oddychaj",
+    "🎧 Rozproszyć się"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "Skontaktuj się z nami 💛",
+      "body": "Czasem dzielenie się trochę rozjaśnia sytuację. Może po prostu \"hej, możemy porozmawiać?\""
+    },
+    "☕ Take a break": {
+      "title": "Pauza 💛",
+      "body": "Krótka pauza może pomóc w zresetowaniu wszystkiego. Może odsunąć się i wziąć kilka powolnych oddechów."
+    },
+    "📝 Journal": {
+      "title": "Zapisz 💛 to",
+      "body": "Możesz zacząć od 'teraz czuję...' I po prostu pozwól temu płynąć."
+    },
+    "🌬️ Breathe": {
+      "title": "Oddychaj 💛",
+      "body": "Wdech 4... Trzymaj 2... Wydech 6... Zwolnijmy razem."
+    },
+    "🎧 Distract myself": {
+      "title": "Delikatna zmiana 💛",
+      "body": "Delikatna rozproszenie może zmienić moment... Może coś lekkiego lub łatwego."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Zacznij od nowa",
+    "finish_exit": "Zakończ i wyjdź",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Czas na ukończenie",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Udział",
+    "share_progress": "Udostępnij postęp",
+    "inspire_others": "Zainspiruj innych już dziś",
+    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
+    "this_activity": "ta aktywność",
+    "copied": "Skopiowano!",
+    "copy_message": "Kopiuj wiadomość",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Mapa jedzenia i emocji",
+  "more": "Więcej",
+  "breadcrumb": "bułka tarta",
+  "previous_slide": "Poprzedni slajd",
+  "next_slide": "Następny slajd",
+  "close": "Zamknąć",
+  "previous": "Poprzedni",
+  "more_pages": "Więcej stron",
+  "pagination": "paginacja",
+  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "go_to_next_page": "Przejdź do następnej strony",
+  "toggle_sidebar": "Przełącz pasek boczny",
+  "oops_page_not_found": "Ups! Strona nie została znaleziona",
+  "return_to_home": "Powrót do strony głównej",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

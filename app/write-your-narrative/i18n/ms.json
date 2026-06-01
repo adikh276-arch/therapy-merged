@@ -1,0 +1,125 @@
+{
+  "app_title": "Naratif anda",
+  "nav": {
+    "entry": "Selamat datang",
+    "writing": "Menyatakan",
+    "landing": "Mencerminkan",
+    "history": "Perjalanan Anda"
+  },
+  "entry": {
+    "title": "Mari kita ambil ini selangkah demi selangkah. 💛",
+    "description": [
+      "Anda tidak perlu menceritakan keseluruhan kisah anda hari ini. Hanya sebahagian kecil sudah mencukupi.",
+      "Anda selamat sekarang. Anda mengawal apa yang anda tulis—dan apa yang anda tidak."
+    ],
+    "breath": "Tarik nafas perlahan sebelum kita mulakan.",
+    "button_ready": "Saya sudah bersedia",
+    "button_history": "Naratif Masa Lalu",
+    "footer": "Kata-kata anda • Rentak anda • Cerita anda"
+  },
+  "writing": {
+    "title": "Tulis apa yang terasa baik ✨",
+    "subtitle": "Kata-kata anda, rentak anda",
+    "prompt_label": "Perlukan titik permulaan?",
+    "prompts": [
+      {
+        "text": "Apa yang paling saya ingat ialah...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Pada masa itu, saya merasa...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Sejak itu, saya perhatikan...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Mula menulis di sini...",
+    "notice": "Tiada cara yang betul untuk melakukan ini. Malah beberapa baris sudah memadai.",
+    "button": "Selesaikan Penulisan"
+  },
+  "landing": {
+    "title": "Anda melakukan sesuatu yang penting.",
+    "subtitle": "Terima kasih kerana muncul untuk diri sendiri.",
+    "settle_title": "Mari kita luangkan sedikit masa untuk menyelesaikan",
+    "steps": [
+      "Lihat sekeliling dan namakan 3 perkara yang anda boleh lihat.",
+      "Tarik nafas perlahan-lahan dalam... dan keluar."
+    ],
+    "feeling_label": "Sekarang, saya rasa:",
+    "feeling_placeholder": "Satu atau dua perkataan...",
+    "quote": "\"Anda tidak perlu membawa semuanya sekaligus. Anda boleh kembali bila-bila masa anda berasa bersedia.\"",
+    "button_save": "Kekalkan Naratif",
+    "button_preserving": "Memelihara..."
+  },
+  "history": {
+    "title": "Perjalanan 📝 Anda",
+    "subtitle": "Naratif & refleksi masa lalu",
+    "empty": "Anda belum menyimpan sebarang penyertaan lagi. Luangkan masa anda—tidak perlu tergesa-gesa.",
+    "no_writing": "Tiada tulisan yang dipelihara",
+    "button_back": "Kembali ke Aktiviti"
+  },
+  "complete": {
+    "title": "Naratif Dipelihara",
+    "message": "Anda telah mengambil langkah yang kuat dalam menceritakan kisah anda. Perspektif anda penting, dan perjalanan anda adalah unik anda."
+  },
+  "toasts": {
+    "save_success": "Naratif dipelihara",
+    "save_error": "Gagal mengekalkan naratif",
+    "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Naratif Anda",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "remove_this": "KELUARKAN_INI",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,217 @@
+{
+  "app_title": "مجھے کیا چاہیے؟",
+  "app_subtitle": "اپنے آپ سے رابطہ کریں",
+  "screens": {
+    "s1": {
+      "title": "مجھے ابھی کیا چاہیے؟",
+      "description": "ایک لمحہ رکنے اور سننے کے لیے کہ آپ کا دل کیا مانگ رہا ہے۔",
+      "button": "چیک ان شروع کریں"
+    },
+    "s2": {
+      "select": {
+        "title": "کیا چیز اہم محسوس ہوتی ہے؟",
+        "placeholder": "کچھ اور...",
+        "add_button": "شامل کریں",
+        "button": "جاری رکھیں"
+      },
+      "prioritize": {
+        "title": "کون سا بنیادی ہے؟"
+      },
+      "focus": {
+        "tag": "تمہاری توجہ ابھی",
+        "button": "جاری رکھیں"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "جاری رکھیں"
+      },
+      "action": {
+        "title": "ایک چھوٹا سا قدم؟",
+        "placeholder": "یا اپنا...",
+        "button": "جائزہ عکاسی"
+      },
+      "closing": {
+        "tag_need": "بنیادی ضرورت",
+        "tag_insight": "آپ کی بصیرت",
+        "tag_action": "چھوٹی کارروائی",
+        "save_button": "سیو اینڈ فنش",
+        "finish_button": "بغیر محفوظ کیے مکمل کریں"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "جذباتی حمایت",
+      "prompt": "اس وقت آپ کی کون سی مدد واقعی مددگار ہو سکتی ہے؟",
+      "hints": [
+        "مجھے بس کسی کی ضرورت ہے جو...",
+        "یہ مددگار ہوگا اگر...",
+        "جو میں واقعی چاہتا ہوں وہ یہ ہے..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "اپنے لیے جگہ / وقت",
+      "prompt": "آپ کے لیے وہ جگہ کیسی نظر آئے گی؟",
+      "hints": [
+        "میں اس وقت کو استعمال کروں گا...",
+        "خلا مجھے اجازت دے گا...",
+        "مجھے جگہ چاہیے کہ..."
+      ]
+    },
+    "Clear communication": {
+      "label": "واضح مواصلات",
+      "prompt": "آپ کے لیے زیادہ واضح بات چیت کیسی ہوگی؟",
+      "hints": [
+        "کاش میں کہہ سکتا...",
+        "اگر وہ واقعی سنتے تو میں انہیں بتاتا...",
+        "بات چیت مشکل محسوس ہوتی ہے جب..."
+      ]
+    },
+    "Reassurance": {
+      "label": "یقین دہانی",
+      "prompt": "کس قسم کی یقین دہانی معنی خیز محسوس ہوگی؟",
+      "hints": [
+        "مجھے یہ سننا ہے...",
+        "یہ جان کر مجھے سکون ملے گا...",
+        "میں بار بار فکر کرتا ہوں کہ..."
+      ]
+    },
+    "Understanding": {
+      "label": "سمجھ بوجھ",
+      "prompt": "واقعی سمجھا جانے کا احساس کیسا ہوگا؟",
+      "hints": [
+        "کاش لوگ جانتے کہ...",
+        "جو میں واقعی محسوس کر رہا ہوں وہ یہ ہے...",
+        "کوئی نہیں دیکھتا کہ میں..."
+      ]
+    },
+    "Stability": {
+      "label": "استحکام",
+      "prompt": "اس وقت آپ کی زندگی میں استحکام کیسا محسوس ہوگا؟",
+      "hints": [
+        "مجھے ایسی چیزیں چاہئیں جو محسوس کریں...",
+        "جو چیز مجھے زمین میں لے آئے گی وہ یہ ہے...",
+        "استحکام کا مطلب ہے..."
+      ]
+    },
+    "Honesty": {
+      "label": "ایمانداری",
+      "prompt": "آپ کی صورتحال میں زیادہ ایمانداری کیسی نظر آتی؟",
+      "hints": [
+        "سچ جس کا مجھے سامنا کرنا ہے وہ یہ ہے...",
+        "میں ایماندار ہونا چاہتا ہوں...",
+        "اصل میں جو ہو رہا ہے وہ یہ ہے..."
+      ]
+    },
+    "Respect": {
+      "label": "احترام",
+      "prompt": "اس وقت آپ کے لیے عزت کیسی نظر آتی ہے؟",
+      "hints": [
+        "میں سلوک کا مستحق ہوں...",
+        "عزت کچھ ایسا لگے گا...",
+        "مجھے لوگوں کی ضرورت ہے جو..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "تعلقات کے بارے میں وضاحت",
+      "prompt": "کس قسم کی وضاحت آپ کی سب سے زیادہ مدد کرے گی؟",
+      "hints": [
+        "مجھے جاننا ہے کہ...",
+        "جو چیز مجھے الجھا رہی ہے وہ یہ ہے...",
+        "میں چاہتا ہوں کہ ہم واضح ہوں..."
+      ]
+    },
+    "default": {
+      "prompt": "یہ حقیقی صورتحال میں کیسا نظر آتا؟",
+      "hints": [
+        "جو ذہن میں آتا ہے وہ یہ ہے...",
+        "ابھی میں محسوس کر رہا ہوں...",
+        "اگر میں اپنے آپ سے ایماندار ہوں..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "کچھ ایمانداری سے کہیں"
+    },
+    {
+      "label": "اپنے لیے وقت نکالو"
+    },
+    {
+      "label": "کسی سے رابطہ کریں"
+    },
+    {
+      "label": "ایک چھوٹی حد مقرر کریں"
+    },
+    {
+      "label": "ابھی یقین نہیں"
+    }
+  ],
+  "history": {
+    "title": "ماضی کی عکاسی",
+    "empty": "ابھی تک کوئی عکس نہیں۔"
+  },
+  "toasts": {
+    "save_success": "عکاسی محفوظ کی گئی",
+    "save_error": "ریفلیکشن کو محفوظ کرنے میں ناکام رہا",
+    "auth_error": "آتھ سیشن غائب ہے یا ڈیٹا بیس کنفیگر نہیں ہے"
+  },
+  "complete": {
+    "title": "چیک ان مکمل",
+    "message": "آپ نے نشاندہی کی ہے کہ آپ کو \"{{need}}\" کی ضرورت ہے۔ اپنی ضروریات کا احترام کرنا خود کی دیکھ بھال کی ایک اہم شکل ہے۔"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "اپنے ساتھ چیک ان کریں۔",
+  "past_reflections": "ماضی کی جھلکیاں",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

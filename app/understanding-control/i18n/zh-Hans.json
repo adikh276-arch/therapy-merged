@@ -1,0 +1,113 @@
+{
+  "app_title": "理解控制",
+  "app_subtitle": "生存策略 • {{step}}/3",
+  "screens": [
+    {
+      "headline": "为什么控制感会让人感觉如此强大",
+      "paragraphs": [
+        "对于许多有饮食困难的人来说，控制感可以让他们感到安全。",
+        "当生活充满变数或情绪波动时，关注食物、体重或日常作息可以带来一种结构感和确定感。",
+        "这无关意志力或自律，而是关于在感到迷茫时如何保持内心的稳定。",
+        "这样一来，控制就成了一种应对策略——即使只是暂时的，也能让你感到踏实。"
+      ],
+      "microcopy": "你并不孤单，你并非唯一有这种感觉的人。",
+      "cta": "继续"
+    },
+    {
+      "headline": "控制的不同表现形式",
+      "intro": "每个人对控制的需求表现形式各不相同，但它通常会以以下模式表现出来：",
+      "bullets": [
+        {
+          "text": "严格或僵化的饮食规则"
+        },
+        {
+          "text": "需要严格遵守流程。"
+        },
+        {
+          "text": "计划变更时的焦虑"
+        },
+        {
+          "text": "将自我价值与体型/体重联系起来"
+        }
+      ],
+      "outro": "随着时间的推移，这些观念会变得僵化，占据心理空间，使人更难适应。",
+      "microcopy": "一开始是控制，慢慢地却变成了控制。",
+      "cta": "继续"
+    },
+    {
+      "headline": "在控制之下",
+      "intro": "控制欲往往根源更深，可能与以下因素有关：",
+      "bullets": [
+        {
+          "text": "情绪崩溃"
+        },
+        {
+          "text": "渴望可预测性"
+        },
+        {
+          "text": "对稳定和安全的需求"
+        }
+      ],
+      "insight": "控制本身不是问题——问题在于你的大脑为了应对这种情况而采取的策略。随着时间的推移和支持，你会找到其他获得安全感的方式。",
+      "microcopy": "理解是强有力的第一步。",
+      "cta": "读完"
+    }
+  ],
+  "complete": {
+    "title": "意识提升",
+    "message": "了解控制的根源是勇敢地迈向寻找获得安全感和稳定感的新方法的第一步。",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享进度",
+    "inspire_others": "今天激励他人",
+    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "this_activity": "这项活动",
+    "copied": "已复制！",
+    "copy_message": "复制消息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "生存策略 • {{step}}/3",
+  "more": "更多的",
+  "breadcrumb": "面包屑",
+  "previous_slide": "上一张幻灯片",
+  "next_slide": "下一张幻灯片",
+  "close": "关闭",
+  "previous": "以前的",
+  "more_pages": "更多页面",
+  "pagination": "分页",
+  "go_to_previous_page": "返回上一页",
+  "go_to_next_page": "前往下一页",
+  "toggle_sidebar": "切换侧边栏",
+  "oops_page_not_found": "糟糕！页面未找到",
+  "return_to_home": "返回首页",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

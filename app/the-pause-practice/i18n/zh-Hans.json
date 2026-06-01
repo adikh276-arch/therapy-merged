@@ -1,0 +1,125 @@
+{
+  "app_title": "暂停练习",
+  "app_subtitle": "掌握彼此之间的空间",
+  "intro": {
+    "title": "五秒的停顿",
+    "description": "感受和反应之间的短暂停顿，就能改变一切。",
+    "duration": "不到15秒。真的。",
+    "button": "试试→"
+  },
+  "scenario": {
+    "title": "是什么触发了你的情绪？",
+    "desc": "选择一个你能产生共鸣的情况",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "有人打断我",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "事情并没有按计划进行",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "我感到被忽视了",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "我感到不知所措",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "你自己打字......",
+    "button": "练习暂停→"
+  },
+  "hold": {
+    "title": "按键暂停 ⏸️",
+    "instructions": "保持圆圈5秒",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "按住......"
+      },
+      {
+        "at": "0.15",
+        "text": "坚持下去......"
+      },
+      {
+        "at": "0.5",
+        "text": "你做到了......"
+      },
+      {
+        "at": "0.8",
+        "text": "快到了......"
+      }
+    ]
+  },
+  "result": {
+    "title": "这就是暂停",
+    "message": "你只是在感受和反应之间创造了空间。哪怕只是小小的停顿，也能帮助你重新找回内心。",
+    "tip_label": "专业提示",
+    "scenario_messages": {
+      "interrupts": "下次有人打断你时，先试试这个再回复。",
+      "plans": "下次事情不如预期时，先试试这个再反应。",
+      "ignored": "下次你觉得被忽视时，先试试这个再回复。",
+      "overwhelmed": "下次你感到不知所措时，先试试这个方法再做任何事。",
+      "other": "下次你感到被触发时，先试试这个再反应。"
+    },
+    "italic": "这并不总是容易——但坚持是关键。"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "终点与退场",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "时间到了完成",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享进度",
+    "inspire_others": "今天激励他人",
+    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "this_activity": "这项活动",
+    "copied": "已复制！",
+    "copy_message": "复制消息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "掌握两者之间的空间",
+  "more": "更多的",
+  "breadcrumb": "面包屑",
+  "previous_slide": "上一张幻灯片",
+  "next_slide": "下一张幻灯片",
+  "close": "关闭",
+  "previous": "以前的",
+  "more_pages": "更多页面",
+  "pagination": "分页",
+  "go_to_previous_page": "返回上一页",
+  "go_to_next_page": "前往下一页",
+  "toggle_sidebar": "切换侧边栏",
+  "oops_page_not_found": "糟糕！页面未找到",
+  "return_to_home": "返回首页",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

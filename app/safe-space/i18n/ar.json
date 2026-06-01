@@ -1,0 +1,114 @@
+{
+  "app_title": "المساحة الآمنة",
+  "nav": [
+    "تسجيل الدخول",
+    "استرجع بلطف",
+    "المراقبة",
+    "البقاء حاضرا",
+    "المضي قدما"
+  ],
+  "s1": {
+    "title": "دعنا نجد مكانا يشعر بالراحة",
+    "description": [
+      "قبل أن نبدأ، خذ لحظة للاطمئنان...",
+      "كيف تشعر الآن؟",
+      "نحن لا نبحث عن \"مكان آمن\" مثالي. مجرد شيء يشعر حتى ببعض الهدوء أو القبول."
+    ],
+    "placeholder": "كيف تشعر الآن؟",
+    "button": "ابدأ التصور"
+  },
+  "s2": {
+    "title": "تذكرها بلطف",
+    "description": [
+      "تخيل مكانا شعرت فيه حتى ببعض الراحة... أو مكان تتمنى لو كان موجودا.",
+      "الآن ضع نفسك هناك...",
+      "هل أنت جالس، واقف، أم مستلق؟"
+    ],
+    "button": "تابع"
+  },
+  "s3": {
+    "title": "انظر حولك ببطء",
+    "description": [
+      "انظر حولك بلطف...",
+      "ما هو الشيء الوحيد الذي يمكنك رؤيته؟",
+      "الآن لاحظ صوتا... ماذا تسمع؟"
+    ],
+    "button": "تابع"
+  },
+  "s4": {
+    "title": "استمر في هذا",
+    "description": [
+      "ما الذي يجعل هذا المكان يشعر حتى ولو ببعض الأمان أو القبول؟",
+      "وأنت تلاحظ أن...",
+      "وأيضا وجه انتباهك إلى تنفسك."
+    ],
+    "breathe": "تنفس",
+    "notice": "إذا كان التخيل صعبا، فكر فقط في فكرة هذا المكان.",
+    "button": "تابع"
+  },
+  "s5": {
+    "title": "خذ هذا معك",
+    "description": [
+      "لاحظ كيف تشعر الآن. حتى التحول البسيط مهم.",
+      "حاول أن تحمل حتى 5٪ من هذا الشعور معك."
+    ],
+    "placeholder": "كيف تشعر الآن؟",
+    "button": "الجلسة الكاملة"
+  },
+  "complete": {
+    "title": "اكتملت الجلسة",
+    "message": "هذا المكان الآمن متاح لك دائما. يمكنك العودة إلى هنا متى احتجت إلى لحظة هدوء."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "مساحة آمنة",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

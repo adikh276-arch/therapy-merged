@@ -1,0 +1,252 @@
+{
+  "app_title": "Tolerans Penceresi",
+  "screens": {
+    "welcome": {
+      "title": "Tolerans Penceresi",
+      "subtitle": "Sinir sisteminizi anlayın.\nSakinliğe geri dön.",
+      "description": "Bu nazik aktivite, sinir sisteminizin şu anda nerede olduğunu anlamanıza yardımcı olacak — ve denge bulmanız için araçlar sunacaktır. Kendi hızında git. Burada güvendesin.",
+      "callout": "✨ Bir nefes al. Doğru yerdesin.",
+      "button": "Başlayalım→",
+      "disclaimer": "Bu aktivite, profesyonel terapinin yerine geçmeyen destekleyici bir araçtır."
+    },
+    "explain": {
+      "title": "Sinir sisteminizin bir penceresi var",
+      "zones": {
+        "hyper": {
+          "label": "Aşırı uyarılma",
+          "desc": "Bunalmış, panikle, kontrolden çıkmış.",
+          "tag": "🔴 Kırmızı"
+        },
+        "safe": {
+          "label": "Güvenli Bölge",
+          "desc": "Sakin, hazır, net düşünebilen.",
+          "tag": "🟢 Yeşil"
+        },
+        "hypo": {
+          "label": "Hipoarousal",
+          "desc": "Uyuşmuş, kopuk, sisli.",
+          "tag": "🔵 Mavi"
+        }
+      },
+      "footer": "Travma seni pencereden dışarı itebilir. Bu, nerede olduğunuzu fark etmenize ve tekrar içeri girmenize yardımcı olur.",
+      "back": "← Geri",
+      "next": "Sonraki →"
+    },
+    "checkin": {
+      "title": "Şu anda neredesin?",
+      "subtitle": "Bir nefes al. O zaman dürüstçe şu anda nerede olduğunuzu seçin.",
+      "footer": "Yanlış bir cevap yok. Bu sadece başlangıç noktanız.",
+      "back": "← Geri",
+      "next": "Sonraki →",
+      "zones": {
+        "hyper": {
+          "label": "Penceremin Üzerinde",
+          "desc": "Kendimi kaygılı, panikli, öfkeli ya da bunalmış hissediyorum."
+        },
+        "safe": {
+          "label": "Penceremin İçeri",
+          "desc": "Kendimi sakin, mevcut ve ayakta hissediyorum."
+        },
+        "hypo": {
+          "label": "Penceremin Altında",
+          "desc": "Kendimi uyuşmuş, bulanık ya da kopuk hissediyorum."
+        }
+      }
+    },
+    "zone": {
+      "hyper": {
+        "title": "Pencerenizin Üstünde",
+        "subtitle": "Sinir sisteminiz aşırı hızda. Sorun değil. Seni nazikçe geri getirelim.",
+        "feelings": [
+          "Hızla atan kalp",
+          "Sığ nefes alma",
+          "Panik mi öfke",
+          "Hızla düşünceler",
+          "Huzursuzluk"
+        ],
+        "tools": [
+          {
+            "name": "Kutu Nefes Alma",
+            "desc": "Nefes alın 4, ay 4, nefes verin 4, ay 4. Dört kez tekrarlayın."
+          },
+          {
+            "name": "5-4-3-2-1 Karaya Düşme",
+            "desc": "5 şey görüyor, 4 dokunuyor, 3 duyuyor, 2 koku, 1 tat."
+          },
+          {
+            "name": "Ayaklar Yere Düşer",
+            "desc": "Ayaklarını bastırıp şöyle de: 'Buradayım. Güvendeyim. Bu geçecek.'"
+          }
+        ],
+        "button": "Kendimi biraz daha sakin hissediyorum →",
+        "footer": "Güvendesin. Acele etme."
+      },
+      "hypo": {
+        "title": "Pencerenizin Altında",
+        "subtitle": "Sinir sistemin sessizleşti. Seni koruyor. Nazikçe tekrar uyandıralım.",
+        "feelings": [
+          "Uyuşukluk",
+          "Bağlantı Kopması",
+          "Aşırı yorgunluk",
+          "Gerçek dışı hissediyorum",
+          "Düzlük"
+        ],
+        "tools": [
+          {
+            "name": "Nazik Hareket",
+            "desc": "Ayağa kalk, yavaşça yürü, kollarını salla. Vücudunun uyanmasına izin ver."
+          },
+          {
+            "name": "Ritmik Ses",
+            "desc": "Düzenli ritimli müzik çal, ayaklarını hafifçe vur."
+          },
+          {
+            "name": "Yüksek Sesle Konuş",
+            "desc": "Adını, konumunu, bugünün tarihini yüksek sesle söyle. Düşünen beynini yeniden devreye sok."
+          }
+        ],
+        "button": "Kendimi biraz daha hazır hissediyorum →",
+        "footer": "Harika gidiyorsun. Adım adım ilerle."
+      },
+      "safe": {
+        "title": "Pencerenizin İçeri",
+        "subtitle": "Güvenli bölgendesin. İşte iyileşme, bağlantı ve büyüme burada gerçekleşir. Aferin.",
+        "feelings": [
+          "Günümüzde ve farkında",
+          "Düzenli nefes alma",
+          "Açık düşünce",
+          "Bağlantılı"
+        ],
+        "tools": [
+          {
+            "name": "Yavaş Nefes Alma",
+            "desc": "Burundan girin, ağızdan dışarı."
+          },
+          {
+            "name": "Yansıt",
+            "desc": "Burada kalmanıza ne yardımcı oldu? Yaz."
+          },
+          {
+            "name": "Öz-Şefkat",
+            "desc": "'Sinir sistemim işini yapıyordu. Ben kırık değilim. İyileşiyorum.'"
+          }
+        ],
+        "button": "Araç Set'im'e devam →",
+        "footer": "Sen bakıma ve iyileşmeye layıksın."
+      }
+    },
+    "toolkit": {
+      "title": "🧰 Kişisel Araç Setiniz",
+      "subtitle": "Başvurduğunuz araçlar — ihtiyacınız olduğunda saklanır ve hazır olur.",
+      "tools_list": [
+        "🌬️ Kutu Nefes Alma",
+        "🖐️ 5-4-3-2-1",
+        "🦶 Ayaklar Yere Düşer",
+        "🚶 Nazik Hareket",
+        "🎵 Müzik",
+        "💬 Yüksek Sesle Konuş"
+      ],
+      "journal_label": "📝 Bugünün Yansıması",
+      "journal_desc": "Bugün sinir sisteminizin bir kez değiştiğini fark ettiğiniz an neydi — ve bununla ilgili ne yaptınız?",
+      "journal_placeholder": "Buraya yaz...",
+      "history_label": "📊 Haftanızın Bir Bakışı",
+      "save_button": "Kaydet ve Bitir ✓",
+      "footer": "Yolculuğun önemli. Desteğe ihtiyacınız olduğunda geri dönün.",
+      "preserving": "Koruma...",
+      "preserve_button": "Yansıtmayı Koruyun"
+    }
+  },
+  "nav": [
+    "Check-in",
+    "Açıklama",
+    "İzleme",
+    "Bölge",
+    "Araç Seti"
+  ],
+  "history": {
+    "title": "Check-in Tarihi",
+    "empty": "Henüz kontrol yok."
+  },
+  "toasts": {
+    "save_success": "Kayıt korundu",
+    "save_error": "Check-in korunamadı",
+    "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı"
+  },
+  "complete": {
+    "title": "Check-in tamamlandı",
+    "message": "Mevcut durumunuzu başarıyla haritaladınız. Farkındalık oluşturmak, dengenizi bulmanın ilk adımıdır."
+  },
+  "days": [
+    "Aman",
+    "Salı",
+    "Çarşamba",
+    "Sonbahar",
+    "Cuma",
+    "Cumartesi",
+    "Güneş"
+  ],
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Tolerans Penceresi",
+  "are_you_sure_you_want_to_exit": "Çıkmak istediğinizden emin misiniz?",
+  "your_unsaved_data_will_be_lost": "Kaydedilmemiş verileriniz kaybolacaktır.",
+  "stay": "Kalmak",
+  "exit": "Çıkış",
+  "exit_confirmation": "Çıkış onayı",
+  "check_in_history": "Giriş geçmişi",
+  "close": "Kapalı",
+  "screen_navigation": "Ekran navigasyonu",
+  "check_in": "Giriş",
+  "what_is_the_window_of_tolerance": "Tolerans aralığı nedir?",
+  "your_personal_toolkit": "Kişisel Araç Setiniz",
+  "welcome": "Hoş geldin",
+  "view_history": "Geçmişi görüntüle",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

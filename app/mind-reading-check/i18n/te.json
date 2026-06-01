@@ -1,0 +1,144 @@
+{
+  "app_title": "మైండ్ రీడింగ్ చెక్",
+  "intro": {
+    "title": "మైండ్ రీడింగ్ చెక్",
+    "description": "ఇతరులు ఏమి ఆలోచిస్తున్నారనే దాని గురించి మీరు చేసే ఊహలను ప్రశ్నించండి.",
+    "benefits": [
+      "చెడ్డదాన్ని ఊహించడం ఆపండి",
+      "పక్షపాత వ్యాఖ్యానాలను గుర్తించడం",
+      "స్పష్టమైన కమ్యూనికేషన్ ను రూపొందించండి"
+    ],
+    "duration": "3-4 నిమిషాలు",
+    "view_past": "గత ప్రతిబింబాలను వీక్షించండి"
+  },
+  "history": {
+    "title": "గత ప్రతిబింబాలు",
+    "no_entries": "ఇంకా ఎంట్రీలు లేవు",
+    "belief_label": "నమ్మకం: {{level}}%",
+    "balanced_thought_label": "సమతుల్య ఆలోచన"
+  },
+  "complete": {
+    "title": "యాక్టివిటీ పూర్తయింది",
+    "great_insights": "గొప్ప అంతర్దృష్టులు!",
+    "message": "మీ ఊహలను ప్రశ్నించడం ద్వారా, మీరు మరింత ఆబ్జెక్టివ్ మరియు కరుణతో కూడిన మనస్సును నిర్మిస్తున్నారు."
+  },
+  "steps": {
+    "label": "10 యొక్క దశ {{current}}",
+    "step1": {
+      "title": "ఏం జరిగింది?",
+      "desc": "మీరు తీర్పు లేదా అస్పష్టంగా భావించిన ఇటీవలి క్షణాన్ని వివరించండి.",
+      "placeholder": "పరిస్థితి వివరణ..."
+    },
+    "step2": {
+      "title": "మీ మనస్సులో ఏమి జరిగింది?",
+      "desc": "వారు మీ గురించి ఏమి ఆలోచిస్తున్నారని మీరు అనుకున్నారు?",
+      "placeholder": "వారు ఆలోచిస్తున్నారని నేను ఊహించాను ..."
+    },
+    "step3": {
+      "title": "దీనిని నెమ్మదిగా చేద్దాం",
+      "desc": "ప్రస్తుతం, ఈ ఆలోచన నిజంగా అనిపించవచ్చు. కానీ దానిని వాస్తవంగా అంగీకరించే ముందు, ఒక అడుగు వెనక్కి వేసి మరింత నిశితంగా పరిశీలిద్దాం.",
+      "button": "విరామం & కొనసాగింపు"
+    },
+    "step4": {
+      "title": "ఇది నిజమేనా?",
+      "desc": "ఈ ఆలోచనకు మద్దతు ఇచ్చే స్పష్టమైన ఆధారాలు (వాస్తవాలు, ఊహలు కాదు) ఉన్నాయా?",
+      "placeholder": "నేను చూసే సాక్ష్యం..."
+    },
+    "step5": {
+      "title": "ఇంకా ఏమి జరుగుతుంది?",
+      "desc": "2–3 ఇతర సంభావ్య వివరణలు ఏమిటి?",
+      "placeholder": "అవకాశం {{num}}..."
+    },
+    "step6": {
+      "title": "మీ నమ్మకాన్ని తనిఖీ చేయండి",
+      "desc": "ఇప్పుడు మీ అసలు ఆలోచనను మీరు ఎంత బలంగా నమ్ముతారు?",
+      "labels": [
+        "అస్సలు కాదు",
+        "పూర్తిగా"
+      ]
+    },
+    "step7": {
+      "title": "మరింత సమతుల్య వీక్షణ",
+      "desc": "మరింత నిష్పాక్షికంగా మరియు తక్కువ నిశ్చయంగా అనిపించే ఆలోచనను రాయండి.",
+      "placeholder": "మరింత సమతుల్య ఆలోచన..."
+    },
+    "step8": {
+      "title": "తదుపరిసారి",
+      "desc": "ఊహించడానికి బదులుగా మీరు ఏమి చేయగలరు?",
+      "examples": [
+        "వివరణ కోసం అడగండి",
+        "దానికి కొంత సమయం ఇవ్వండి",
+        "ప్రతిస్పందించకుండా నోటీసు"
+      ],
+      "placeholder": "తదుపరిసారి, నేను చేయగలను..."
+    },
+    "step9": {
+      "title": "మార్పును గమనించండి",
+      "desc": "మీరు విభిన్న అవకాశాలను అన్వేషించారు మరియు మరింత సమతుల్య వీక్షణ కోసం స్థలాన్ని సృష్టించారు.",
+      "original_label": "అసలు ఆలోచన",
+      "balanced_label": "సమతుల్య దృక్పథం",
+      "button": "రిఫ్లెక్షన్ పూర్తి చేయండి"
+    },
+    "step10": {
+      "title": "ఒక చిన్న మార్పు",
+      "desc": "మీ మనస్సు ఖాళీలను పూరించడానికి ప్రయత్నిస్తుంది. కానీ ప్రతి ఆలోచన వాస్తవం కాదు. ఒక అడుగు వెనక్కి తీసుకోవడం వల్ల విషయాలను స్పష్టంగా చూడటానికి మీకు సహాయపడుతుంది.",
+      "button": "కార్యాచరణను పూర్తి చేయండి"
+    }
+  },
+  "buttons": {
+    "continue": "కొనసాగించండి",
+    "restart": "పునః ప్రారంభించండి"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "మనసు చదివే తనిఖీ",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

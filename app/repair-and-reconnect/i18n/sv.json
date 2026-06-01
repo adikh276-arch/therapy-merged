@@ -1,0 +1,292 @@
+{
+  "app_title": "Reparation och återanslutning",
+  "steps": {
+    "welcome": "Välkommen",
+    "choose_person": "Välj person",
+    "choose_approach": "Välj tillvägagångssätt",
+    "guided_action": "Styrd handling",
+    "complete": "Komplett"
+  },
+  "intro": {
+    "title": "Reparation och återanslutning",
+    "description": "Ilska kan skapa avstånd mellan oss och de vi bryr oss om. Men små, mjuka steg kan hjälpa till att återuppbygga den kontakten.",
+    "quote": "\"Reparation betyder inte att du hade fel—det betyder att du bryr dig tillräckligt för att försöka.\"",
+    "small_efforts": "Även små insatser kan göra skillnad.",
+    "button": "Börja →"
+  },
+  "choose_person": {
+    "title": "Vem skulle du vilja återknyta kontakten med?",
+    "desc": "Att tänka på en specifik relation hjälper till att få stegen att kännas verkliga.",
+    "options": {
+      "friend": "En vän",
+      "family": "En familjemedlem",
+      "colleague": "En kollega",
+      "other": "Någon annan"
+    },
+    "button": "Fortsätt →"
+  },
+  "choose_approach": {
+    "title": "Vad känns rätt för dig?",
+    "desc": "Välj ett litet steg som känns genomförbart.",
+    "safety": "Du behöver inte fixa allt—välj bara ett litet steg.",
+    "button": "Prova det här →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Skicka en avslappnad incheckning",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Erkänn spänningen",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Ge varandra lite utrymme",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Släpp det och gå vidare",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Tänk bara på det",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Skicka ett varmt budskap",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Nämn vad som hände ärligt",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Bestäm dig för att pausa nästa gång",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Välj fred framför att ha rätt",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflektera över vad du verkligen behöver",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Skicka ett professionellt meddelande",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Ta det upp med respekt",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Planera ett lugnare svar nästa gång",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Håll det professionellt och gå vidare",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Tänk på gränser",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Hör av dig med ett enkelt meddelande",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Erkänn vad som hände",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Ta en paus nästa gång",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Låt det vara för nu",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflektera bara (ingen handling än)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Tryck för att se hur ✨",
+    "copy_button": "📋 Kopiera meddelande",
+    "done_button": "Jag är klar →",
+    "safety_line_default": "Du behöver inte skicka något just nu. 💛",
+    "safety_line_pause": "Ta det lugnt—det är ingen brådska. 💛",
+    "safety_line_reflect": "Det här är bara för dig—ingen annan behöver se detta. 💛",
+    "actions": {
+      "message": {
+        "title": "Skicka ett enkelt meddelande",
+        "why": "Ett enkelt meddelande kan bryta tystnaden och visa att du fortfarande bryr dig.",
+        "insight": "Att nå ut – även om det inte är perfekt – tas nästan alltid emot bättre än vi förväntar oss.",
+        "howTitle": "Börja smått",
+        "howBody": "Du behöver inte skriva en uppsats. Några ärliga ord kan öppna dörren till återkontakt.",
+        "prompts": [
+          "Hej, jag har tänkt på dig. Hoppas du mår bra.",
+          "Jag vet att det var spänt – ville bara säga att jag bryr mig.",
+          "Jag är ledsen för tidigare. Kan vi prata när du är redo?"
+        ],
+        "promptLabel": "Välj en startpunkt:",
+        "editLabel": "Gör den till din:"
+      },
+      "acknowledge": {
+        "title": "Erkänn vad som hände",
+        "why": "Att erkänna vad som hänt visar mognad och hjälper den andra personen att känna sig sedd.",
+        "insight": "Folk behöver inte att du är perfekt – de behöver veta att du har lagt märke till det.",
+        "howTitle": "Namnge det försiktigt",
+        "howBody": "Du kan erkänna utan att ta på dig all skuld. Säg bara vad som hände ärligt.",
+        "prompts": [
+          "Jag vet att det blev hett mellan oss. Jag vill att du ska veta att jag märkte det.",
+          "Jag inser att jag kanske uppfattades som hård. Det var inte min avsikt.",
+          "Jag har reflekterat över vad som hände, och jag önskar att jag hade hanterat det annorlunda."
+        ],
+        "promptLabel": "Välj en startpunkt:",
+        "editLabel": "Gör den till din:"
+      },
+      "pause": {
+        "title": "Ta en paus nästa gång",
+        "why": "Att hålla en paus ger dig utrymme att svara istället för att reagera.",
+        "insight": "En 6-sekunders paus räcker ofta för att växla från reaktion till reflektion.",
+        "howTitle": "🧘 Planera din paus",
+        "howBody": "Tänk på en enkel signal – som att ta ett andetag eller ta ett kort steg bort – innan du svarar.",
+        "prompts": [
+          "Nästa gång jag känner mig upprörd ska jag ta ett djupt andetag innan jag svarar.",
+          "Jag ska försöka säga 'Ge mig en stund' istället för att reagera direkt.",
+          "Jag tar ett steg bort några minuter för att samla mina tankar."
+        ],
+        "promptLabel": "Välj ett åtagande som känns rätt:",
+        "editLabel": "Skriv din egen avsikt:"
+      },
+      "letgo": {
+        "title": "Släpp det för nu",
+        "why": "Ibland är det snällaste du kan göra att släppa tyngden av situationen.",
+        "insight": "Att släppa taget är inte att ge upp—det är att välja frid framför att ha rätt.",
+        "howTitle": "🕊️ Släpp försiktigt",
+        "howBody": "Du behöver inte glömma. Bestäm dig bara för att detta inte längre behöver styra hur du känner.",
+        "prompts": [
+          "Jag väljer att släppa det här – inte för att det inte spelade någon roll, utan för att min frid betyder mer.",
+          "Jag släpper behovet av att ha rätt om detta. Jag väljer kontakt.",
+          "Den här situationen definierar inte vår relation. Jag går framåt."
+        ],
+        "promptLabel": "Välj vad som känns rätt:",
+        "editLabel": "Skriv vad som känns sant för dig:"
+      },
+      "reflect": {
+        "title": "Reflektera bara",
+        "why": "Reflektion bygger självmedvetenhet, vilket är grunden för varje hälsosam relation.",
+        "insight": "Att skriva dagbok eller till och med fundera igenom vad som hände hjälper dig att bearbeta känslor utan press.",
+        "howTitle": "🔍 Titta inåt",
+        "howBody": "Fråga dig själv: Vad kände jag egentligen under ilskan? Ofta är det sårad, rädsla eller besvikelse.",
+        "prompts": [
+          "Under min ilska tror jag att jag kände mig sårad.",
+          "Jag inser att jag reagerade av rädsla för att inte bli hörd.",
+          "Det jag verkligen behövde var att känna mig respekterad och värderad."
+        ],
+        "promptLabel": "Välj vad som känns rätt:",
+        "editLabel": "Skriv din egen reflektion:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Förbindelsen lagad",
+    "message": "Du har tagit ett modigt steg mot att reparera din kontakt med {{person}}. Små, avsiktliga handlingar bygger varaktiga broar.",
+    "default_person": "Någon viktig"
+  },
+  "toasts": {
+    "save_success": "Reparationsframsteg bevarades",
+    "save_error": "Misslyckades med att bevara reflektionen",
+    "copy_success": "Meddelandet kopierat!",
+    "preserving": "Bevara...",
+    "complete_button": "Färdigställ och spara"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Börja om från början",
+    "finish_exit": "Slutför och avsluta",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Dags att slutföra",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dela",
+    "share_progress": "Dela framsteg",
+    "inspire_others": "Inspirera andra idag",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "den här aktiviteten",
+    "copied": "Kopierad!",
+    "copy_message": "Kopiera meddelande",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Reparera och återanslut",
+  "that_s_a_step_forward": "Det är ett steg framåt",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Du tog ett litet steg mot reparation – och det spelar roll.",
+  "try_with_someone_else": "Försök med någon annan",
+  "done": "Klart ✔",
+  "more": "Mer",
+  "breadcrumb": "brödsmulor",
+  "previous_slide": "Föregående bild",
+  "next_slide": "Nästa bild",
+  "close": "Nära",
+  "previous": "Tidigare",
+  "more_pages": "Fler sidor",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå till föregående sida",
+  "go_to_next_page": "Gå till nästa sida",
+  "toggle_sidebar": "Växla sidofält",
+  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
+  "return_to_home": "Återvänd till hemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

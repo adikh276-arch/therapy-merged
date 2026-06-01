@@ -1,0 +1,177 @@
+{
+  "app_title": "Sleep Cycle Guide",
+  "pill_labels": [
+    "Introduction",
+    "The 4 stages",
+    "The groggy truth",
+    "What about you?"
+  ],
+  "s1": {
+    "title": "Ever sleep 8 hours and still feel terrible?",
+    "p1": "It's not about <1>how long</1> you sleep.",
+    "p2": "It's about <1>where</1> in your sleep cycle you wake up.",
+    "p3": "One thing changes when you understand this — everything.",
+    "insight": "💡 Your brain is actually more active during REM sleep than when you're fully awake!",
+    "duration": "Takes 3 minutes · lasts a lifetime",
+    "button": "Wait, really? Tell me more →"
+  },
+  "s2": {
+    "title": "Your brain does THIS every night 🌀",
+    "desc": "Every 90 minutes, your brain cycles through 4 stages — like a playlist on repeat. Tap each to explore 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Light sleep",
+        "tag": "1–5 mins · easily woken",
+        "body": "You're drifting off. Body starts to let go, muscles may twitch. Very easy to wake up from here."
+      },
+      {
+        "emoji": "💤",
+        "title": "Settling in",
+        "tag": "10–25 mins · truly asleep",
+        "body": "Heart rate slows, body temperature drops. You're properly asleep — brain activity begins to slow down."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Deep sleep ⭐",
+        "tag": "20–40 mins · the gold",
+        "body": "Body repairs tissue, builds immunity. The most physically restorative stage — hard to wake from."
+      },
+      {
+        "emoji": "🌙",
+        "title": "REM sleep",
+        "tag": "10–60 mins · dream mode",
+        "body": "Brain buzzes with activity. Emotions get processed, memories lock in. Skipping this leaves you foggy."
+      }
+    ],
+    "italic": "Deep sleep fixes your body. REM fixes your mind.",
+    "button": "So why do I still feel groggy? →"
+  },
+  "s3": {
+    "title": "Waking mid-cycle = zombie mode 🧟",
+    "p1": "Dragged out of deep sleep by an alarm? Your brain literally hasn't finished what it was doing. That foggy heavy feeling? That's <1>sleep inertia</1>.",
+    "wave": {
+      "light": "light",
+      "deep": "deep",
+      "groggy": "😫 groggy",
+      "fresh": "😊 fresh",
+      "cycles": [
+        "Cycle 1",
+        "Cycle 2",
+        "Cycle 3"
+      ]
+    },
+    "disruptors_title": "What disrupts your cycles 👇",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Screens before bed",
+        "sub": "delays deep sleep"
+      },
+      {
+        "emoji": "☕",
+        "text": "Late caffeine",
+        "sub": "cuts deep sleep by up to 20%"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Irregular sleep times",
+        "sub": "breaks your natural rhythm"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stress & anxiety",
+        "sub": "keeps you stuck in light sleep"
+      }
+    ],
+    "italic": "Your habits directly shape which stages you reach.",
+    "button": "What does this mean for me? →"
+  },
+  "s4": {
+    "title": "Which one sounds like you? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "I wake up physically exhausted",
+        "sub": "probably missing deep sleep",
+        "tip": "Focus on a consistent sleep and wake time — your body needs a regular rhythm to reach deep sleep."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "I feel emotionally foggy or low",
+        "sub": "probably missing REM sleep",
+        "tip": "Try winding down 30 mins before bed — a calm pre-sleep routine protects your REM sleep."
+      },
+      {
+        "emoji": "😤",
+        "text": "I wake up a lot during the night",
+        "sub": "cycles keep getting interrupted",
+        "tip": "A cool, dark and quiet room helps your brain stay in deeper stages without interruption."
+      },
+      {
+        "emoji": "😐",
+        "text": "I feel okay but not great",
+        "sub": "cycles are partial but not complete",
+        "tip": "Try going to bed 20 mins earlier — you may just need one more complete sleep cycle."
+      }
+    ],
+    "quote": "Sleep isn't just rest — it's active recovery. Protect your cycles and your whole day changes.",
+    "button": "Done ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Sleep Cycle Guide",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\n  const screens = [",
+  "it_s_not_about": "It's not about",
+  "it_s_about": "It's about",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Dragged out of deep sleep by an alarm? Your brain literally hasn't finished what it was doing. That foggy heavy feeling? That's",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

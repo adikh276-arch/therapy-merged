@@ -1,0 +1,125 @@
+{
+  "app_title": "Ang Iyong Salaysay",
+  "nav": {
+    "entry": "Maligayang pagdating",
+    "writing": "Pagpapahayag",
+    "landing": "Pagmumuni-muni",
+    "history": "Ang Iyong Paglalakbay"
+  },
+  "entry": {
+    "title": "Gawin natin ito nang paisa-isa. 💛",
+    "description": [
+      "Hindi mo na kailangang ikuwento ang buong kwento mo ngayon. Sapat na ang isang maliit na bahagi.",
+      "Ligtas ka ngayon. Ikaw ang may kontrol sa kung ano ang iyong isinusulat - at kung ano ang hindi."
+    ],
+    "breath": "Huminga muna nang dahan-dahan bago tayo magsimula.",
+    "button_ready": "Handa na ako",
+    "button_history": "Mga Nakaraan na Salaysay",
+    "footer": "Ang Iyong Mga Salita • Ang Iyong Bilis • Ang Iyong Kuwento"
+  },
+  "writing": {
+    "title": "Isulat kung ano ang pakiramdam okay ✨",
+    "subtitle": "Ang iyong mga salita, ang iyong bilis",
+    "prompt_label": "Kailangan mo ba ng panimulang punto?",
+    "prompts": [
+      {
+        "text": "Ang pinaka naaalala ko ay...",
+        "emoji": "💭"
+      },
+      {
+        "text": "Sa oras na iyon, naramdaman ko...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Mula noon, napansin ko na...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Simulan ang pagsusulat dito ...",
+    "notice": "Walang tamang paraan para magawa ito. Kahit ilang linya lang ay sapat na.",
+    "button": "Tapusin ang Pagsulat"
+  },
+  "landing": {
+    "title": "May ginawa kang mahalaga.",
+    "subtitle": "Salamat sa pagpapakita para sa iyong sarili.",
+    "settle_title": "Maglaan tayo ng ilang sandali para mag-ayos",
+    "steps": [
+      "Tumingin sa paligid at banggitin ang tatlong bagay na maaari mong makita.",
+      "Huminga nang mabagal sa... at sa labas."
+    ],
+    "feeling_label": "Sa ngayon, nararamdaman ko:",
+    "feeling_placeholder": "Isang salita o dalawa...",
+    "quote": "\"Hindi mo kailangang dalhin ang lahat nang sabay-sabay. Maaari kang bumalik sa tuwing sa tingin mo ay handa ka na.\"",
+    "button_save": "Panatilihin ang Salaysay",
+    "button_preserving": "Pagpapanatili ..."
+  },
+  "history": {
+    "title": "Ang Iyong Paglalakbay 📝",
+    "subtitle": "Mga nakaraan na salaysay at pagmumuni-muni",
+    "empty": "Hindi ka pa nagse-save ng anumang mga entry. Maglaan ng iyong oras-walang pagmamadali.",
+    "no_writing": "Walang nakasulat na napanatili",
+    "button_back": "Bumalik sa Aktibidad"
+  },
+  "complete": {
+    "title": "Napanatili ang salaysay",
+    "message": "Gumawa ka ng isang makapangyarihang hakbang sa pagsasalaysay ng iyong kuwento. Mahalaga ang iyong pananaw, at ang iyong paglalakbay ay natatangi sa iyo."
+  },
+  "toasts": {
+    "save_success": "Napanatili ang salaysay",
+    "save_error": "Nabigo na mapanatili ang salaysay",
+    "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Magsimula Muli",
+    "finish_exit": "Tapusin at Lumabas",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Oras para makumpleto",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Ibahagi",
+    "share_progress": "Ibahagi ang Pag-unlad",
+    "inspire_others": "Magbigay-inspirasyon sa iba ngayon",
+    "share_text": "Ginawa ko na ito {{activityName}} sa TherapyMantra at talagang nasiyahan ako rito. Kaya mo rin itong gawin. Sundan lang ang link papunta sa android app {{androidUrl}} o ios app {{iosUrl}}.",
+    "this_activity": "aktibidad na ito",
+    "copied": "Kinopya!",
+    "copy_message": "Kopyahin ang Mensahe",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ang Iyong Salaysay",
+  "more": "Higit pa",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Nakaraang slide",
+  "next_slide": "Susunod na slide",
+  "close": "Isara",
+  "previous": "Nakaraan",
+  "more_pages": "Mas maraming pahina",
+  "pagination": "paginasyon",
+  "go_to_previous_page": "Pumunta sa nakaraang pahina",
+  "go_to_next_page": "Pumunta sa susunod na pahina",
+  "toggle_sidebar": "I-toggle ang Sidebar",
+  "remove_this": "TANGGALIN_ITO",
+  "oops_page_not_found": "Naku! Hindi natagpuan ang pahina",
+  "return_to_home": "Bumalik sa Bahay",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

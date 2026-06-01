@@ -1,0 +1,146 @@
+{
+  "app_title": "మెమొరీ బాక్స్",
+  "screen_titles": [
+    "మీ పెట్టె",
+    "గౌరవం",
+    "వ్యక్తీకరణ",
+    "సంరక్షించబడింది",
+    "సున్నితమైన సంరక్షణ"
+  ],
+  "complete_title": "మెమరీ భద్రపరచబడింది",
+  "complete_message": "మీరు మీ బాక్సులో {{name}} యొక్క మెమరీని సురక్షితంగా ఉంచారు. కనెక్షన్ యొక్క ఈ క్షణాలు ఎల్లప్పుడూ మీవి.",
+  "auth_error": "ప్రమాణీకరణ సెషన్ మిస్ అయింది లేదా DB కాన్ఫిగర్ చేయబడలేదు",
+  "save_success": "మెమరీ భద్రపరచబడింది",
+  "save_error": "మెమరీని సంరక్షించడం విఫలమైంది",
+  "preserving": "సంరక్షించడం...",
+  "preserve_memory": "జ్ఞాపకశక్తిని భద్రపరచండి",
+  "welcome": {
+    "title": "మీ మెమొరీ బాక్స్",
+    "subtitle1": "మీరు ప్రేమించే వ్యక్తిని గుర్తుంచుకోవడానికి నిశ్శబ్ద స్థలం. 🤍",
+    "subtitle2": "నెమ్మదిగా ఊపిరి పీల్చుకోండి...",
+    "subtitle3": "… మరియు నెమ్మదిగా శ్వాస వదలండి.",
+    "subtitle4": "దీన్ని చేయడానికి సరైన లేదా తప్పు మార్గం లేదు.",
+    "subtitle5": "మీ స్వంత వేగంతో వెళ్ళండి. 🌿",
+    "begin": "ప్రారంభించండి ✨",
+    "later": "బహుశా తరువాత"
+  },
+  "who": {
+    "placeholder_name": "వారి పేరును టైప్ చేయండి...",
+    "placeholder_relation": "వారు మీకు ఎలా తెలుసు? (ఐచ్ఛికం)",
+    "categories": [
+      {
+        "label": "సంతోషకరమైన క్షణం",
+        "emoji": "😊"
+      },
+      {
+        "label": "వారు చెప్పేది",
+        "emoji": "💬"
+      },
+      {
+        "label": "ఒక చిన్న రోజువారీ జ్ఞాపకం",
+        "emoji": "☕"
+      },
+      {
+        "label": "వాటిని మీకు గుర్తు చేసే ప్రదేశం",
+        "emoji": "🏡"
+      },
+      {
+        "label": "నేను చెప్పగలనని నేను కోరుకుంటున్నాను",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "→ కొనసాగించండి"
+  },
+  "expression": {
+    "title": "మీ జ్ఞాపకశక్తిని వ్యక్తీకరించడం",
+    "memory_label": "జ్ఞాపకశక్తి స్వయంగా",
+    "memory_placeholder": "మీరు ఉంచాలనుకుంటున్న క్షణం, అనుభూతి లేదా వివరాల గురించి రాయండి...",
+    "message_label": "వారికి ఒక సందేశం (ఐచ్ఛికం)",
+    "message_placeholder": "మీరు ఇప్పుడు వారితో మాట్లాడగలిగితే మీరు ఏమి చెబుతారు?",
+    "save": "జ్ఞాపకశక్తిని భద్రపరచండి",
+    "skip": "ప్రస్తుతానికి దాటవేయండి",
+    "back": "వెనక్కి"
+  },
+  "box": {
+    "title": "సురక్షితంగా దూరంగా ఉంచబడింది",
+    "subtitle": "{{name}} యొక్క ఈ మెమరీ ఇప్పుడు మీ సేకరణలో భాగం.",
+    "add_another": "మరొక మెమరీని జోడించండి",
+    "finish": "రిఫ్లెక్షన్ పూర్తి చేయండి"
+  },
+  "closing": {
+    "title": "జాగ్రత్తలు తీసుకోవడం",
+    "subtitle": "ప్రస్తుతానికి మీ బాక్స్ క్లోజ్ చేస్తోంది. ఈ జ్ఞాపకాలకు దగ్గరగా ఉండటానికి మీరు ఎప్పుడైనా ఇక్కడకు తిరిగి రావచ్చు.",
+    "exit": "పెట్టెను మూసివేయండి"
+  },
+  "history": {
+    "title": "పెట్టె విషయాలు",
+    "no_memories": "మీ బాక్స్ ఖాళీగా ఉంది. మీ సేకరణను ప్రారంభించడానికి మీ మొదటి మెమరీని జోడించండి.",
+    "search_placeholder": "జ్ఞాపకాలను శోధించండి..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "జ్ఞాపకాల పెట్టె",
+  "before_you_go": "మీరు వెళ్ళే ముందు",
+  "grief_comes_in_waves": "దుఃఖం అలల రూపంలో వస్తుంది. 🌊",
+  "what_you_re_feeling_matters": "మీరు అనుభూతి చెందుతున్నది ముఖ్యం. 🤍",
+  "be_gentle_with_yourself_today": "ఈ రోజు మీ పట్ల మీరు దయగా ఉండండి. 🌿",
+  "save_exit": "సేవ్ చేసి నిష్క్రమించండి 🕊️",
+  "take_your_time": "మీ సమయం తీసుకోండి 🕯️",
+  "save_to_memory_box": "మెమరీ బాక్స్‌లో భద్రపరచుకోండి 📦",
+  "write_as_much_or_as_little_as_you_want": "మీకు నచ్చినంత ఎక్కువగా లేదా తక్కువగా రాయండి… ✍️",
+  "if_there_s_something_you_d_like_to_say": "మీరు ఏదైనా చెప్పాలనుకుంటే...",
+  "past_entries": "గత ఎంట్రీలు",
+  "no_memories_saved_yet": "ఇంకా ఏ జ్ఞాపకాలూ భద్రపరచబడలేదు.",
+  "this_memory_is_held_here_for_you": "ఈ జ్ఞాపకం మీ కోసం ఇక్కడ భద్రపరచబడింది. 🌿",
+  "add_another_memory": "మరో జ్ఞాపకాన్ని జోడించండి ✨",
+  "finish_for_now": "ప్రస్తుతానికి ముగించండి",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

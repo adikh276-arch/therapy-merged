@@ -1,0 +1,144 @@
+{
+  "app_title": "Vérification de la lecture de pensée",
+  "intro": {
+    "title": "Vérification de la lecture de pensée",
+    "description": "Remettez en question les suppositions que vous faites sur ce que pensent les autres.",
+    "benefits": [
+      "Arrête de supposer le pire",
+      "Identifier les interprétations biaisées",
+      "Construire une communication plus claire"
+    ],
+    "duration": "3-4 minutes",
+    "view_past": "Voir les réflexions passées"
+  },
+  "history": {
+    "title": "Réflexions passées",
+    "no_entries": "Aucune inscription pour l’instant",
+    "belief_label": "Croyance : {{level}} %",
+    "balanced_thought_label": "Pensée équilibrée"
+  },
+  "complete": {
+    "title": "Activité terminée",
+    "great_insights": "Excellentes idées !",
+    "message": "En remettant en question vos hypothèses, vous construisez un esprit plus objectif et compatissant."
+  },
+  "steps": {
+    "label": "Étape {{current}} de 10",
+    "step1": {
+      "title": "Que s’est-il passé ?",
+      "desc": "Décrivez un moment récent où vous vous êtes senti jugé ou incertain.",
+      "placeholder": "Description de la situation..."
+    },
+    "step2": {
+      "title": "Qu’est-ce qui t’a traversé l’esprit ?",
+      "desc": "Qu’est-ce que tu pensais qu’ils pensaient de toi ?",
+      "placeholder": "Je pensais qu’ils pensaient..."
+    },
+    "step3": {
+      "title": "Ralentissons un peu",
+      "desc": "En ce moment, cette pensée peut sembler vraie. Mais avant de l’accepter comme un fait, prenons du recul et examinons cela de plus près.",
+      "button": "Pause & Continue"
+    },
+    "step4": {
+      "title": "Est-ce vrai ?",
+      "desc": "Existe-t-il des preuves claires (faits, pas hypothèses) qui soutiennent cette idée ?",
+      "placeholder": "Les preuves que je vois sont..."
+    },
+    "step5": {
+      "title": "Quoi d’autre pourrait se passer ?",
+      "desc": "Quelles sont 2 ou 3 autres explications possibles ?",
+      "placeholder": "Possibilité {{num}}..."
+    },
+    "step6": {
+      "title": "Vérifiez votre croyance",
+      "desc": "À quel point croyez-vous maintenant à votre pensée initiale ?",
+      "labels": [
+        "Pas du tout",
+        "Complètement"
+      ]
+    },
+    "step7": {
+      "title": "Une vision plus équilibrée",
+      "desc": "Écris une pensée qui te semble plus juste et moins certaine.",
+      "placeholder": "Une pensée plus équilibrée..."
+    },
+    "step8": {
+      "title": "La prochaine fois",
+      "desc": "Que pouvait-on faire au lieu de supposer ?",
+      "examples": [
+        "Demandez des précisions",
+        "Donne-lui un peu de temps",
+        "Prévenez sans réagir"
+      ],
+      "placeholder": "La prochaine fois, je pourrais..."
+    },
+    "step9": {
+      "title": "Remarquez le changement",
+      "desc": "Vous avez exploré différentes possibilités et créé un espace pour une vision plus équilibrée.",
+      "original_label": "Pensée originale",
+      "balanced_label": "Perspective équilibrée",
+      "button": "Réflexion de finition"
+    },
+    "step10": {
+      "title": "Un petit changement",
+      "desc": "Ton esprit essaie de combler les vides. Mais toutes les pensées ne sont pas un fait. Prendre du recul aide à voir les choses clairement.",
+      "button": "Activité complète"
+    }
+  },
+  "buttons": {
+    "continue": "Continuez",
+    "restart": "Redémarrage"
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Vérification de la lecture de pensée",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

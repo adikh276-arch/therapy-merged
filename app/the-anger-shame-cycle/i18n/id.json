@@ -1,0 +1,124 @@
+{
+  "app_title": "Siklus Kemarahan-Rasa Malu",
+  "app_subtitle": "Memahami loop • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Mengapa kemarahan terus kembali?",
+      "description": "Itu mungkin bukan temperamen Anda. Ada lingkaran tersembunyi antara kemarahan dan rasa malu - dan begitu Anda melihatnya, semuanya berubah.",
+      "quote": "\"Kebanyakan orang mencoba memperbaiki kemarahan. Tapi rasa malu adalah apa yang diam-diam membuatnya terus berjalan.\"",
+      "button": "Mari kita jelajahi"
+    },
+    "s2": {
+      "tag": "Siklus",
+      "title": "Loop dijelaskan",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Kemarahan muncul"
+        },
+        {
+          "emoji": "😔",
+          "label": "Malu: \"Saya buruk\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Rasa malu terkubur"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Kemarahan meletus lagi"
+        }
+      ],
+      "button": "Saya melihatnya"
+    },
+    "s3": {
+      "tag": "Apa yang terjadi",
+      "title": "Dua emosi, satu jebakan",
+      "anger": {
+        "title": "🔥 Kemarahan",
+        "desc": "Emosi sekunder — di balik kehidupan terluka, ketakutan, atau penolakan. Ini alarm, bukan api."
+      },
+      "shame": {
+        "title": "😔 Malu",
+        "desc": "\"Saya buruk\" - bukan hanya \"Saya melakukan sesuatu yang buruk.\" Itu menyembunyikan, membungkam, dan membuat siklus berputar."
+      },
+      "button": "Membebaskan diri"
+    },
+    "s4": {
+      "tag": "Gangguan",
+      "title": "Menghentikan siklus",
+      "steps": [
+        {
+          "title": "Beri nama sumbernya",
+          "desc": "Tanyakan: 'Apa yang sebenarnya saya rasakan?' Terluka? Takut? Tidak terlihat? Menamainya melemahkannya."
+        },
+        {
+          "title": "Jeda welas asih",
+          "desc": "Tangan di dada. Katakanlah: 'Ini sulit. Saya manusia. Saya bisa melewati ini.'"
+        },
+        {
+          "title": "Perbaiki dengan anggun",
+          "desc": "Buat kesalahan jika diperlukan — tetapi jangan berputar. Anda bukan momen terburuk Anda."
+        }
+      ],
+      "notice": "Memperhatikan siklus sudah menjadi langkah pertama. Anda sedang melakukan pekerjaan.",
+      "button": "Aktivitas Lengkap"
+    }
+  },
+  "complete": {
+    "title": "Siklus Terputus",
+    "message": "Anda telah mendapatkan kesadaran untuk melihat hubungan antara kemarahan dan rasa malu. Ini adalah dasar untuk kebebasan emosional yang langgeng."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Memahami perulangan • {{step}}/{{total}}",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

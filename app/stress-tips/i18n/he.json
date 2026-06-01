@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "קח נשימה 🌿 עמוקה",
+    "title": "נהל את הלחץ שלך",
+    "description": "הרגלים יומיומיים פשוטים שיעזרו לך להרגיש רגוע יותר ויותר בשליטה.",
+    "sectionTitle": "טיפים יומיים להקלה על מתחים"
+  },
+  "tip": {
+    "sleep": {
+      "title": "קבל שינה רגועה",
+      "description": "שאף לשינה של 7–9 שעות בכל לילה. נסה לישון ולהתעורר באותו זמן כל יום.",
+      "why": "שינה עוזרת למוח ולגוף שלך להתאושש ומפחיתה הורמוני לחץ.",
+      "do": [
+        "לשמור על לוח שינה קבוע",
+        "הימנעו ממסכים שעה לפני השינה",
+        "שמור על החדר קריר וחשוך",
+        "הימנעו מקפאין אחרי 16:00"
+      ],
+      "button": "הגדר תזכורת שינה"
+    },
+    "breathing": {
+      "title": "תרגל נשימה עמוקה",
+      "description": "הקדש כמה דקות להתמקד בנשימה שלך. נשימה איטית מפחיתה חרדה.",
+      "why": "נשימה איטית מפעילה את תגובת ההרפיה של הגוף.",
+      "do": [
+        "שאפו ל-4 שניות",
+        "החזק 4 שניות",
+        "נשוף ל-4 שניות",
+        "חזור על זה דקה אחת"
+      ]
+    },
+    "exercise": {
+      "title": "תזיז את הגוף שלך",
+      "description": "הליכה קלה או מתיחות עוזרות לשחרר מתחים ולשפר את מצב הרוח.",
+      "why": "פעילות גופנית משחררת אנדורפינים ומשפרת את מצב הרוח.",
+      "do": [
+        "הליכה של 15 דקות",
+        "מתיחה קלה",
+        "אימון יוגה קצר",
+        "אימון ביתי מהיר"
+      ]
+    },
+    "caffeine": {
+      "title": "הגבלת קפאין וסוכר",
+      "description": "יותר מדי קפאין וסוכר עלולים להגביר חרדה ולהפריע לשינה.",
+      "why": "יותר מדי קפאין וסוכר מגבירים חרדה ובעיות שינה.",
+      "do": [
+        "החלף קפה אחד בתה צמחים",
+        "שתה יותר מים",
+        "הפחתת חטיפים מתוקים",
+        "הימנע מקפאין בשעות המאוחרות של היום"
+      ]
+    },
+    "planning": {
+      "title": "תכנן את היום שלך",
+      "description": "חלק משימות גדולות לצעדים קטנים כדי לא להרגיש מוצף.",
+      "why": "תכנון מפחית עומס מנטלי ועומס.",
+      "do": [
+        "כתוב 3 משימות עיקריות",
+        "חלק משימות לצעדים קטנים",
+        "התמקד במשימה אחת בכל פעם",
+        "קח הפסקות קצרות"
+      ]
+    }
+  },
+  "detail": {
+    "back": "חזרה",
+    "notFound": "טיפ לא נמצא.",
+    "whyTitle": "למה זה עוזר",
+    "doTitle": "מה אתה יכול לעשות",
+    "reminderSet": "תזכורת מוגדרת! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "אופס! העמוד לא נמצא",
+    "return": "חזרה הביתה"
+  },
+  "mood": {
+    "title": "איך אתה מרגיש היום?",
+    "great": "מעולה",
+    "okay": "אוקיי",
+    "stressed": "מתח",
+    "overwhelmed": "מוצף"
+  },
+  "breathing": {
+    "inhale": "שאף...",
+    "hold": "חכה...",
+    "exhale": "נשיפה...",
+    "pause": "הפסקה",
+    "resume": "קורות חיים"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_title": "הקלה על מתחים",
+  "app_description": "הקלה על מתחים",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "breathing_guide": "מדריך נשימה",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

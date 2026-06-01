@@ -1,0 +1,144 @@
+{
+  "index": {
+    "tagline": "Respire 🌿 profondément",
+    "title": "Gérez votre stress",
+    "description": "Des habitudes quotidiennes simples pour vous aider à vous sentir plus calme et plus maître de vous.",
+    "sectionTitle": "Conseils quotidiens pour soulager le stress"
+  },
+  "tip": {
+    "sleep": {
+      "title": "Dormez profondément",
+      "description": "Visez 7 à 9 heures de sommeil chaque nuit. Essayez de dormir et de vous réveiller à la même heure chaque jour.",
+      "why": "Le sommeil aide votre cerveau et votre corps à récupérer et réduit les hormones du stress.",
+      "do": [
+        "Garde un rythme de sommeil fixe",
+        "Évitez les écrans une heure avant le coucher",
+        "Garde la pièce fraîche et sombre",
+        "Évitez la caféine après 16h"
+      ],
+      "button": "Rappel de sommeil défini"
+    },
+    "breathing": {
+      "title": "Entraînez-vous à la respiration profonde",
+      "description": "Prenez quelques minutes pour vous concentrer sur votre respiration. Respirer lentement réduit l’anxiété.",
+      "why": "La respiration lente active la réponse de relaxation de votre corps.",
+      "do": [
+        "Inspirez pendant 4 secondes",
+        "Tenez pendant 4 secondes",
+        "Expire pendant 4 secondes",
+        "Répétez pendant 1 minute"
+      ]
+    },
+    "exercise": {
+      "title": "Bouge ton corps",
+      "description": "La marche légère ou les étirements aident à libérer le stress et à améliorer l’humeur.",
+      "why": "L’exercice libère des endorphines et améliore l’humeur.",
+      "do": [
+        "15 minutes à pied",
+        "Étirement léger",
+        "Courte séance de yoga",
+        "Entraînement rapide à domicile"
+      ]
+    },
+    "caffeine": {
+      "title": "Limitez la caféine et le sucre",
+      "description": "Trop de caféine et de sucre peuvent augmenter l’anxiété et perturber le sommeil.",
+      "why": "Trop de caféine et de sucre augmentent l’anxiété et les problèmes de sommeil.",
+      "do": [
+        "Remplacez un café par une tisane",
+        "Bois plus d’eau",
+        "Réduisez les snacks sucrés",
+        "Évitez la caféine en fin de journée"
+      ]
+    },
+    "planning": {
+      "title": "Planifiez votre journée",
+      "description": "Divisez les grandes tâches en étapes plus petites pour éviter de vous sentir dépassé.",
+      "why": "Planifier réduit le désordre mental et la surcharge.",
+      "do": [
+        "Écrire 3 tâches principales",
+        "Divisez les tâches en petites étapes",
+        "Concentrez-vous sur une tâche à la fois",
+        "Faites de courtes pauses"
+      ]
+    }
+  },
+  "detail": {
+    "back": "Retour",
+    "notFound": "Piste non trouvée.",
+    "whyTitle": "Pourquoi cela aide",
+    "doTitle": "Ce que vous pouvez faire",
+    "reminderSet": "Rappel réglé ! 🌙"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oups ! Page non trouvée",
+    "return": "Retour au pays"
+  },
+  "mood": {
+    "title": "Comment te sens-tu aujourd’hui ?",
+    "great": "Super",
+    "okay": "D’accord",
+    "stressed": "Stressé",
+    "overwhelmed": "Submergé"
+  },
+  "breathing": {
+    "inhale": "Inspire...",
+    "hold": "Tiens...",
+    "exhale": "Expire...",
+    "pause": "Pause",
+    "resume": "CV"
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_title": "Soulager le stress",
+  "app_description": "Soulager le stress",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "breathing_guide": "Guide respiratoire",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

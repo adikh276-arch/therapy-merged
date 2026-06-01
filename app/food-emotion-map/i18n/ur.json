@@ -1,0 +1,139 @@
+{
+  "app_title": "فوڈ اینڈ ایموشن میپ",
+  "screen_titles": [
+    "خوش آمدید",
+    "خوراک کے نمونے",
+    "اندرونی مکالمہ",
+    "فزیکل سینسنگ",
+    "نقشہ",
+    "نرمی سے سپورٹ",
+    "آخری نظر",
+    "عکاسی"
+  ],
+  "welcome_text": "ارے... مجھے واقعی خوشی ہے کہ آپ یہاں 💛 ہیں۔ آئیے نرمی سے بتاتے ہیں کہ کیا ہو رہا ہے۔",
+  "coming_up_label": "حال ہی میں کیا آ رہا ہے؟",
+  "begin_mapping": "نقشہ سازی شروع کریں",
+  "food_patterns_q": "ہمم... میں آپ کی بات سمجھتا ہوں۔ جب آپ {{emotion}} محسوس کرتے ہیں... عام طور پر کھانا کیسے ظاہر ہوتا ہے؟",
+  "continue_button": "جاری رکھیں",
+  "internal_dialogue_q": "ان لمحات میں... کس قسم کے خیالات ذہن میں آتے ہیں؟",
+  "write_placeholder": "جو بھی ذہن میں آئے لکھو...",
+  "physical_sensing_q": "اگر تم ایک لمحے کے لیے رک جاؤ... آپ اپنے جسم میں کیا محسوس کرتے ہیں؟",
+  "the_pattern_label": "پیٹرن",
+  "pattern_desc_1": "جب آپ {{emotion}} محسوس کرتے ہیں، تو آپ کا جسم {{sensation}} محسوس کرتا ہے...",
+  "pattern_desc_2": "… اور کھانا {{response}} تک پہنچنے کا ذریعہ بن جاتا ہے، جبکہ \"{{thought}}\" جیسے خیالات ظاہر ہوتے ہیں۔",
+  "pattern_footer": "\"پیٹرن کی آگاہی آزادی ہے\"",
+  "support_q": "ان لمحات میں... کیا چیز آپ کی مدد کر سکتی ہے—چاہے تھوڑی سی ہی کیوں نہ ہو؟",
+  "understanding_text": "تم خود کو تھوڑا بہتر سمجھ رہے ہو۔ یہ کافی 💛 سے زیادہ ہے",
+  "how_feeling_now": "اب کیسا محسوس کر رہے ہو؟",
+  "preserve_button": "محفوظ نقشہ",
+  "preserving": "محفوظ رکھنا...",
+  "complete_title": "نقشہ محفوظ",
+  "complete_message": "آپ نے کامیابی سے اپنے جذبات اور کھانے کے درمیان تعلق کو نقشہ بنا لیا ہے۔ یہ شعور نرم تبدیلی کے لیے ایک طاقتور ذریعہ ہے۔",
+  "auth_error": "آتھ سیشن غائب ہے یا ڈیٹا بیس کنفیگر نہیں ہے",
+  "save_success": "نمونہ محفوظ",
+  "save_error": "پیٹرن کو محفوظ رکھنے میں ناکام رہا",
+  "emotions_list": [
+    "😰 دباؤ",
+    "😢 غم",
+    "😶 بوریت",
+    "😟 پریشانی",
+    "🥺 تنہائی",
+    "💭 کچھ اور..."
+  ],
+  "food_responses": [
+    "🍽️ میں زیادہ کھاتا ہوں",
+    "🚫 میں کم کھاتا ہوں",
+    "🍫 مجھے مخصوص کھانوں کی طلب ہے",
+    "😣 میں کھانے سے پرہیز کرتا ہوں",
+    "😐 کوئی حقیقی تبدیلی نہیں"
+  ],
+  "body_sensations": [
+    "💔 تنگ سینہ",
+    "🪨 بھاری احساس",
+    "🦵 بے چین / بے چین",
+    "🔋 کم توانائی",
+    "🌀 پیٹ میں گانٹھیں",
+    "❓ کچھ اور..."
+  ],
+  "support_options": [
+    "🗣️ کسی سے بات کرو",
+    "☕ تھوڑا وقفہ لو",
+    "📝 جرنل",
+    "🌬️ سانس لو",
+    "🎧 خود کو مصروف رکھوں"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "رابطہ کریں 💛",
+      "body": "کبھی کبھار شیئر کرنے سے بات کچھ ہلکی ہو جاتی ہے۔ شاید ایک سادہ سا 'ارے، کیا ہم بات کر سکتے ہیں؟'"
+    },
+    "☕ Take a break": {
+      "title": "وقفہ 💛",
+      "body": "ایک چھوٹا وقفہ چیزوں کو ری سیٹ کرنے میں مدد دے سکتا ہے۔ شاید پیچھے ہٹ کر چند آہستہ سانس لیں۔"
+    },
+    "📝 Journal": {
+      "title": "اسے لکھیں 💛",
+      "body": "آپ شروع کر سکتے ہیں 'ابھی میں محسوس کرتا ہوں...' اور بس اسے بہنے دیں۔"
+    },
+    "🌬️ Breathe": {
+      "title": "سانس لو 💛",
+      "body": "سانس اندر 4... ہولڈ 2... سانس چھوڑیں 6... آؤ مل کر رفتار کم کریں۔"
+    },
+    "🎧 Distract myself": {
+      "title": "نرمی سے شفٹ 💛",
+      "body": "ایک نرم خلفشار لمحے کو بدل سکتی ہے... شاید کچھ ہلکا پھلکا یا آسان۔"
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "خوراک اور جذبات کا نقشہ",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,144 @@
+{
+  "app_title": "Tankelæsningstjek",
+  "intro": {
+    "title": "Tankelæsningstjek",
+    "description": "Sæt spørgsmålstegn ved de antagelser, du gør om, hvad andre tænker.",
+    "benefits": [
+      "Stop med at antage det værste",
+      "Identificer partiske fortolkninger",
+      "Byg klarere kommunikation"
+    ],
+    "duration": "3-4 minutter",
+    "view_past": "Se tidligere refleksioner"
+  },
+  "history": {
+    "title": "Tidligere refleksioner",
+    "no_entries": "Ingen bidrag endnu",
+    "belief_label": "Tro: {{level}}%",
+    "balanced_thought_label": "Afbalanceret tanke"
+  },
+  "complete": {
+    "title": "Aktivitet afsluttet",
+    "great_insights": "Gode indsigter!",
+    "message": "Ved at stille spørgsmålstegn ved dine antagelser opbygger du et mere objektivt og medfølende sind."
+  },
+  "steps": {
+    "label": "Trin {{current}} af 10",
+    "step1": {
+      "title": "Hvad skete der?",
+      "desc": "Beskriv et nyligt øjeblik, hvor du følte dig dømt eller usikker.",
+      "placeholder": "Beskrivelse af situationen..."
+    },
+    "step2": {
+      "title": "Hvad gik der gennem dit hoved?",
+      "desc": "Hvad antog du, de tænkte om dig?",
+      "placeholder": "Jeg antog, at de tænkte..."
+    },
+    "step3": {
+      "title": "Lad os tage det lidt roligt",
+      "desc": "Lige nu kan denne tanke føles sand. Men før vi accepterer det som et faktum, lad os tage et skridt tilbage og se nærmere på det.",
+      "button": "Pause & Fortsæt"
+    },
+    "step4": {
+      "title": "Er det sandt?",
+      "desc": "Findes der nogen klare beviser (fakta, ikke antagelser), der understøtter denne tanke?",
+      "placeholder": "De beviser, jeg ser, er..."
+    },
+    "step5": {
+      "title": "Hvad ellers kunne der foregå?",
+      "desc": "Hvad er 2–3 andre mulige forklaringer?",
+      "placeholder": "Mulighed {{num}}..."
+    },
+    "step6": {
+      "title": "Tjek din tro",
+      "desc": "Hvor stærkt tror du på din oprindelige tanke nu?",
+      "labels": [
+        "Slet ikke",
+        "Fuldstændig"
+      ]
+    },
+    "step7": {
+      "title": "Et mere balanceret syn",
+      "desc": "Skriv en tanke, der føles mere retfærdig og mindre sikker.",
+      "placeholder": "En mere afbalanceret tanke..."
+    },
+    "step8": {
+      "title": "Næste gang",
+      "desc": "Hvad kunne du gøre i stedet for at antage?",
+      "examples": [
+        "Bed om en afklaring",
+        "Giv det lidt tid",
+        "Læg mærke til det uden at reagere"
+      ],
+      "placeholder": "Næste gang kunne jeg..."
+    },
+    "step9": {
+      "title": "Bemærk skiftet",
+      "desc": "Du udforskede forskellige muligheder og skabte plads til et mere afbalanceret synspunkt.",
+      "original_label": "Oprindelig tanke",
+      "balanced_label": "Balanceret perspektiv",
+      "button": "Afsluttende refleksion"
+    },
+    "step10": {
+      "title": "En lille ændring",
+      "desc": "Dit sind prøver at udfylde hullerne. Men ikke alle tanker er et faktum. At tage et skridt tilbage hjælper dig med at se tingene klart.",
+      "button": "Fuldstændig aktivitet"
+    }
+  },
+  "buttons": {
+    "continue": "Fortsæt",
+    "restart": "Genstart"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Tankelæsningstjek",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

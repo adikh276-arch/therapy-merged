@@ -1,0 +1,102 @@
+{
+  "app_title": "จดหมายที่ยังไม่ได้ส่ง",
+  "app_subtitle": "ปลดปล่อยความคิดของคุณอย่างปลอดภัยและเป็นส่วนตัว",
+  "intro": {
+    "title": "จดหมายที่ยังไม่ได้ส่ง",
+    "description": [
+      "บางครั้ง มีบางสิ่งที่เราอยากจะพูด แต่ไม่เคยมีโอกาสพูด",
+      "อาจเป็นเพราะรู้สึกไม่ปลอดภัย จังหวะเวลาไม่ถูกต้อง หรือคําพูดยากเกินกว่าจะแสดงออกเสียง",
+      "กิจกรรมนี้ทําให้คุณมีพื้นที่ส่วนตัวในการถ่ายทอดความคิดเหล่านั้นเป็นคําพูด",
+      "คุณไม่จําเป็นต้องส่งจดหมายฉบับนี้ นี่เป็นเพียงสําหรับคุณ — เพื่อแสดง ปลดปล่อย และเข้าใจความรู้สึกของคุณให้ดีขึ้น"
+    ],
+    "notice": "เขียนได้อย่างอิสระ ไม่มีใครเห็นสิ่งนี้",
+    "button": "เริ่มเขียน→"
+  },
+  "writing": {
+    "title": "เขียนสิ่งที่คุณถือไว้",
+    "desc": "คุณสามารถเขียนถึงคู่ของคุณอดีตคู่หรือแม้แต่ความสัมพันธ์เอง ไม่มีวิธีถูกหรือผิดในการทําเช่นนี้",
+    "prompts": [
+      "ฉันรู้สึกว่า...",
+      "ฉันหวังว่า...",
+      "ฉันไม่เคยพูดว่า...",
+      "อะไรที่ทําให้ฉันเจ็บปวด...",
+      "สิ่งที่ฉันต้องการ..."
+    ],
+    "placeholder": "เรียน ____\nฉันอยากจะบอกว่า...",
+    "notice": "คุณสามารถหยุดชั่วคราวและกลับมาได้ตลอดเวลา",
+    "button": "ดําเนินการต่อ→"
+  },
+  "reflection": {
+    "title": "ใช้เวลาสักครู่กับสิ่งนี้",
+    "description": [
+      "คุณเพิ่งใส่ความคิดและความรู้สึกของคุณเป็นคําพูด ซึ่งต้องใช้ความกล้าหาญ",
+      "คุณอาจสังเกตเห็นอารมณ์ผสมผสานกันในตอนนี้ และนั่นก็ไม่เป็นไร",
+      "ก่อนที่คุณจะดําเนินการต่อ ให้หายใจเข้าและค่อยๆ ตรวจสอบตัวเอง"
+    ],
+    "notice": "นี่เป็นเพื่อการรักษาของคุณ ไม่ใช่เพื่อส่ง",
+    "save_button": "บันทึกจดหมาย",
+    "finish_button": "เสร็จสิ้น"
+  },
+  "history": {
+    "title": "จดหมายที่ผ่านมา",
+    "empty_title": "คุณยังไม่ได้เขียนจดหมายใดๆ",
+    "empty_desc": "จดหมายของคุณจะปรากฏที่นี่หลังจากที่คุณบันทึก"
+  },
+  "toasts": {
+    "save_success": "จดหมายที่บันทึกไว้ในบันทึกส่วนตัวของคุณ",
+    "save_error": "บันทึกจดหมายไม่สําเร็จ",
+    "auth_error": "เซสชันการตรวจสอบสิทธิ์หายไปหรือไม่ได้กําหนดค่า DB"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "เริ่มต้นใหม่",
+    "finish_exit": "เสร็จสิ้นและออก",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "แบ่งปัน",
+    "share_progress": "แชร์ความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
+    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "this_activity": "กิจกรรมนี้",
+    "copied": "คัดลอกแล้ว!",
+    "copy_message": "คัดลอกข้อความ",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ระบายความคิดของคุณอย่างปลอดภัยและเป็นส่วนตัว",
+  "more": "มากกว่า",
+  "breadcrumb": "เศษขนมปัง",
+  "previous_slide": "สไลด์ก่อนหน้า",
+  "next_slide": "สไลด์ถัดไป",
+  "close": "ปิด",
+  "previous": "ก่อนหน้า",
+  "more_pages": "หน้าเพิ่มเติม",
+  "pagination": "การแบ่งหน้า",
+  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_next_page": "ไปยังหน้าถัดไป",
+  "toggle_sidebar": "สลับแถบด้านข้าง",
+  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
+  "return_to_home": "กลับสู่หน้าแรก",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

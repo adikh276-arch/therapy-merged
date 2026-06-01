@@ -1,0 +1,102 @@
+{
+  "app_title": "Der nicht abgesendete Brief",
+  "app_subtitle": "Lass deine Gedanken sicher und privat frei",
+  "intro": {
+    "title": "Der nicht abgesendete Brief",
+    "description": [
+      "Manchmal gibt es Dinge, die wir gerne sagen würden – aber nie die Gelegenheit dazu hatten.",
+      "Das konnte daran liegen, dass es sich nicht sicher anfühlte, der Zeitpunkt nicht stimmte oder die Worte zu schwer laut auszusprechen waren.",
+      "Diese Aktivität gibt dir einen privaten Raum, um diese Gedanken in Worte zu fassen.",
+      "Du musst diesen Brief nicht abschicken. Das ist nur für dich – um deine Gefühle besser auszudrücken, loszulassen und zu verstehen."
+    ],
+    "notice": "Schreibe frei. Niemand sonst wird das sehen.",
+    "button": "Fang an, → zu schreiben"
+  },
+  "writing": {
+    "title": "Schreib auf, was du zurückgehalten hast",
+    "desc": "Du kannst deinem Partner, deinem Ex-Partner oder sogar an die Beziehung selbst schreiben. Es gibt keinen richtigen oder falschen Weg, das zu tun.",
+    "prompts": [
+      "Ich fühle mich...",
+      "Ich wünschte...",
+      "Ich habe nie gesagt...",
+      "Was hat mich verletzt...",
+      "Was ich brauchte..."
+    ],
+    "placeholder": "Lieber ____,\nIch wollte schon länger sagen...",
+    "notice": "Du kannst jederzeit pausieren und zurückkommen.",
+    "button": "Fahren Sie weiter →"
+  },
+  "reflection": {
+    "title": "Nimm dir einen Moment damit",
+    "description": [
+      "Du hast gerade deine Gedanken und Gefühle in Worte gefasst – das erfordert Mut.",
+      "Vielleicht bemerkst du gerade eine gemischte Emotion, und das ist völlig in Ordnung.",
+      "Bevor du weitermachst, atme tief durch und informiere dich sanft über dich selbst."
+    ],
+    "notice": "Das war zu deiner Heilung, nicht zum Absenden.",
+    "save_button": "Save Letter",
+    "finish_button": "Ziel"
+  },
+  "history": {
+    "title": "Frühere Briefe",
+    "empty_title": "Du hast noch keine Briefe geschrieben.",
+    "empty_desc": "Deine Briefe erscheinen hier, nachdem du sie gespeichert hast."
+  },
+  "toasts": {
+    "save_success": "Brief in deinem privaten Tagebuch gespeichert",
+    "save_error": "Brief nicht gespeichert",
+    "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Teilen Sie Ihre Gedanken sicher und privat.",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

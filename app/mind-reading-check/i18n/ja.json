@@ -1,0 +1,144 @@
+{
+  "app_title": "心を読むチェック",
+  "intro": {
+    "title": "心を読むチェック",
+    "description": "他人の考えについて自分が持っている前提を問い直しましょう。",
+    "benefits": [
+      "最悪の事態を想定するのはやめましょう",
+      "偏った解釈を特定する",
+      "より明確なコミュニケーションを築く"
+    ],
+    "duration": "3〜4分",
+    "view_past": "過去の振り返りを見る"
+  },
+  "history": {
+    "title": "過去の振り返り",
+    "no_entries": "まだエントリーはありません",
+    "belief_label": "信念:{{level}}%",
+    "balanced_thought_label": "バランスの取れた思考"
+  },
+  "complete": {
+    "title": "アクティビティ完了",
+    "great_insights": "素晴らしい洞察をありがとうございます!",
+    "message": "自分の前提に疑問を持つことで、より客観的で思いやりのある心を育てることができます。"
+  },
+  "steps": {
+    "label": "ステップ{{current}} 10の",
+    "step1": {
+      "title": "何があったの?",
+      "desc": "最近、評価されたり不安を感じた瞬間を説明してください。",
+      "placeholder": "状況の説明は..."
+    },
+    "step2": {
+      "title": "何を考えていましたか?",
+      "desc": "彼らはあなたのことをどう思っていると思いましたか?",
+      "placeholder": "彼らはこう考えているのだろうと思った。"
+    },
+    "step3": {
+      "title": "ペースを落とそう",
+      "desc": "今は、この考えが本当のように感じられるかもしれません。しかし、それを事実として受け入れる前に、一歩引いてもっと詳しく見てみよう。",
+      "button": "一時停止・継続"
+    },
+    "step4": {
+      "title": "これは本当でしょうか?",
+      "desc": "この考えを裏付ける明確な証拠(仮定ではなく事実)はあるのでしょうか?",
+      "placeholder": "私が見る証拠は..."
+    },
+    "step5": {
+      "title": "他に何が起きているのでしょうか?",
+      "desc": "他に2〜3の可能な説明は何でしょうか?",
+      "placeholder": "可能性{{num}}..."
+    },
+    "step6": {
+      "title": "自分の信念を見直してみてください",
+      "desc": "今、自分の最初の考えをどれほど強く信じていますか?",
+      "labels": [
+        "全然そんなことはありません",
+        "完全に"
+      ]
+    },
+    "step7": {
+      "title": "よりバランスの取れた見方",
+      "desc": "より公平で不確かに感じられる思考を書きましょう。",
+      "placeholder": "もっとバランスの取れた考え..."
+    },
+    "step8": {
+      "title": "次回は",
+      "desc": "勝手に決めつける代わりに何ができるでしょうか?",
+      "examples": [
+        "確認を求めてください",
+        "少し時間を置いてください",
+        "反応せずに気づく"
+      ],
+      "placeholder": "次は..."
+    },
+    "step9": {
+      "title": "変化に気づいてください",
+      "desc": "さまざまな可能性を探求し、よりバランスの取れた視点の余地を作り出しました。",
+      "original_label": "オリジナル・ソート",
+      "balanced_label": "バランスの取れた視点",
+      "button": "フィニッシュリフレクション"
+    },
+    "step10": {
+      "title": "小さな変化",
+      "desc": "あなたの心は空白を埋めようとします。しかし、すべての考えが事実というわけではありません。一歩引くことで物事がはっきり見えるようになります。",
+      "button": "完全な活動"
+    }
+  },
+  "buttons": {
+    "continue": "続けてください",
+    "restart": "再開"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "読心術チェック",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

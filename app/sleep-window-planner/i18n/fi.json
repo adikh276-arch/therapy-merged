@@ -1,0 +1,147 @@
+{
+  "app_title": "Uni-ikkunan suunnittelija",
+  "pill_labels": [
+    "Rakenna ikkunasi",
+    "Aseta ajat",
+    "Sinun uniaikasi"
+  ],
+  "screen1": {
+    "title": "Uniaikasi merkitsee enemmän kuin luulet",
+    "p1": "Uniaika on kiinteä aika nukkumaanmenon ja heräämisen välillä. Tasaisena pitäminen — jopa viikonloppuisin — on yksi tehokkaimmista keinoista, joita voit tehdä unesi parantamiseksi.",
+    "p2": "Tämä työkalu auttaa sinua rakentamaan omasi alle kahdessa minuutissa.",
+    "insight": "Jo yhden tunnin ero uniajassa viikonloppuisin voi häiritä oloasi koko viikon.",
+    "meta": "Yksinkertaista. Henkilökohtaista. Tehokas.",
+    "button": "Rakennetaan minun →"
+  },
+  "screen2": {
+    "title": "Asetetaan nukkumisikkunasi",
+    "step1": {
+      "title": "ASKEL 1 — HERÄÄMISAIKA",
+      "desc": "Mihin aikaan sinun täytyy herätä useimpina päivinä?"
+    },
+    "step2": {
+      "title": "VAIHE 2 — UNEN KESTO",
+      "desc": "Kuinka monta tuntia haluat unta?"
+    },
+    "live_window": {
+      "bedtime": "Nukkumaanmenoaika",
+      "waketime": "Heräämisaika",
+      "duration": "{{hours}} tunnit unta"
+    },
+    "italic": "Useimmat aikuiset tarvitsevat 7–9 tuntia. Valitse se, mikä tuntuu oikealta.",
+    "button": "Katso uniaikani →"
+  },
+  "screen3": {
+    "title": "Sinun uniaikasi 🌙",
+    "result": {
+      "bedtime": "Nukkumaanmenoaika",
+      "waketime": "Heräämisaika",
+      "duration": "Kesto",
+      "hours": "{{hours}} tunnit"
+    },
+    "accordion1": {
+      "title": "3 tapaa suojata sitä",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Rentoudu 30 minuuttia ennen nukkumaanmenoa"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Sama herätysaika joka päivä — kyllä, myös viikonloppuisin"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Vältä päiväunia, jotka kestävät yli 20 minuuttia klo 15 jälkeen"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Sitoudu yhteen asiaan tänä iltana",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Laitoin puhelimeni pois ennen nukkumaanmenoa"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Aloita rentoutumisrutiini"
+        },
+        {
+          "emoji": "💡",
+          "text": "Himmennä valot tuntia ennen nukkumaanmenoa"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Viimeistele tehtävälistani ajoissa"
+        }
+      ]
+    },
+    "quote": "Johdonmukaisuus on voimakkaampaa kuin täydellisyys. Yksi hyvä yö rakentaa seuraavan.",
+    "button": "Säästä uniaikani ✓",
+    "saved_button": "✓ Uniaika pelastettu!",
+    "adjust_times": "Säädä aikoja"
+  },
+  "complete": {
+    "title": "Ikkuna luotu",
+    "message": "Ihanteellinen uniaikasi on kartoitettu. Johdonmukaisuus on avain syvään, palauttavaan lepoon."
+  },
+  "toasts": {
+    "save_success": "Nukkumisikkuna tallennettu",
+    "save_error": "Lepoikkunan tallentaminen epäonnistui",
+    "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
+    "saving": "Säästäminen..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Uni-ikkunasuunnittelija",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

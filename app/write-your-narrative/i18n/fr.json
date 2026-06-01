@@ -1,0 +1,125 @@
+{
+  "app_title": "Votre récit",
+  "nav": {
+    "entry": "Bienvenue",
+    "writing": "Expression",
+    "landing": "Réfléchir",
+    "history": "Votre parcours"
+  },
+  "entry": {
+    "title": "Prenons ça étape par étape. 💛",
+    "description": [
+      "Tu n’es pas obligé de raconter toute ton histoire aujourd’hui. Une petite partie suffit.",
+      "Tu es en sécurité pour l’instant. Vous contrôlez ce que vous écrivez — et ce que vous ne faites pas."
+    ],
+    "breath": "Respirez lentement avant de commencer.",
+    "button_ready": "Je suis prêt",
+    "button_history": "Récits passés",
+    "footer": "Tes mots • Ton rythme • Ton histoire"
+  },
+  "writing": {
+    "title": "Écris ce qui te semble correct ✨",
+    "subtitle": "Tes mots, ton rythme",
+    "prompt_label": "Besoin d’un point de départ ?",
+    "prompts": [
+      {
+        "text": "Ce dont je me souviens le plus, c’est...",
+        "emoji": "💭"
+      },
+      {
+        "text": "À ce moment-là, je me sentais...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Depuis, j’ai remarqué...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Commence à écrire ici...",
+    "notice": "Il n’y a pas de bonne façon de faire cela. Même quelques répliques suffisent.",
+    "button": "Terminer l’écriture"
+  },
+  "landing": {
+    "title": "Tu as fait quelque chose d’important.",
+    "subtitle": "Merci d’être venu pour toi-même.",
+    "settle_title": "Prenons un moment pour nous installer",
+    "steps": [
+      "Regarde autour de toi et cite 3 choses que tu peux voir.",
+      "Inspire lentement... et dehors."
+    ],
+    "feeling_label": "En ce moment, je ressens :",
+    "feeling_placeholder": "Un mot ou deux...",
+    "quote": "« Tu n’es pas obligé de tout porter d’un coup. Tu pourras revenir quand tu te sentiras prête. »",
+    "button_save": "Préservation du récit",
+    "button_preserving": "Préserver..."
+  },
+  "history": {
+    "title": "Votre parcours 📝",
+    "subtitle": "Récits et réflexions passés",
+    "empty": "Vous n’avez encore pas enregistré d’entrées. Prenez votre temps — il n’y a pas d’urgence.",
+    "no_writing": "Aucune écriture n’a été conservée",
+    "button_back": "Retour à l’activité"
+  },
+  "complete": {
+    "title": "Récit préservé",
+    "message": "Vous avez franchi une étape puissante pour raconter votre histoire. Votre point de vue compte, et votre parcours vous appartient uniquement."
+  },
+  "toasts": {
+    "save_success": "Récit préservé",
+    "save_error": "Échec à préserver le récit",
+    "auth_error": "Session d’authentification manquante ou base de données non configurée"
+  },
+  "common": {
+    "get_started": "Commencer",
+    "start_over": "Recommencer",
+    "finish_exit": "Fin et sortie",
+    "well_done": "Bien joué !",
+    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Temps écoulé",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "share": "Partager",
+    "share_progress": "Partager les progrès",
+    "inspire_others": "Inspirez les autres aujourd'hui",
+    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
+    "this_activity": "cette activité",
+    "copied": "Copié !",
+    "copy_message": "Copier le message",
+    "yes": "Oui",
+    "no": "Non",
+    "date": "Date",
+    "continue": "Continuer",
+    "step_of": "Étape {{current}} sur {{total}}",
+    "round_of": "Round {{current}} sur {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+  },
+  "app_description": "Votre récit",
+  "more": "Plus",
+  "breadcrumb": "chapelure",
+  "previous_slide": "Diapositive précédente",
+  "next_slide": "Diapositive suivante",
+  "close": "Fermer",
+  "previous": "Précédent",
+  "more_pages": "Plus de pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Aller à la page précédente",
+  "go_to_next_page": "Passer à la page suivante",
+  "toggle_sidebar": "Afficher/masquer la barre latérale",
+  "remove_this": "SUPPRIMER_CECI",
+  "oops_page_not_found": "Oups ! Page introuvable",
+  "return_to_home": "Retour à l'accueil",
+  "phase_label": "Phase",
+  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_running": "Suivez le cercle pour réguler votre respiration",
+  "round_x_of_y": "Round {{current}} sur {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Oui",
+  "no": "Non",
+  "date": "Date",
+  "continue": "Continuer"
+}

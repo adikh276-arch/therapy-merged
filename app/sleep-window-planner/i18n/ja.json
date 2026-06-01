@@ -1,0 +1,147 @@
+{
+  "app_title": "スリープウィンドウプランナー",
+  "pill_labels": [
+    "窓を作る",
+    "タイムを決めて",
+    "あなたの睡眠ウィンドウ"
+  ],
+  "screen1": {
+    "title": "睡眠時間は思っている以上に重要です",
+    "p1": "睡眠ウィンドウとは、寝る時間から目覚めるまでの固定時間のことです。週末でも一貫して睡眠を続けることは、睡眠のためにできる最も効果的なことの一つです。",
+    "p2": "このツールは2分以内に自分の作品を作るのに役立ちます。",
+    "insight": "週末の睡眠時間の差が1時間でも、一週間の気分を乱すことがあります。",
+    "meta": "簡単です。個人的なこと。効果的だ。",
+    "button": "俺の→を作ろう"
+  },
+  "screen2": {
+    "title": "睡眠時間を設定しましょう",
+    "step1": {
+      "title": "ステップ1 — 起床時間",
+      "desc": "ほとんどの日は何時に起きる必要があるのでしょうか?"
+    },
+    "step2": {
+      "title": "ステップ2 — 睡眠時間",
+      "desc": "何時間寝たい?"
+    },
+    "live_window": {
+      "bedtime": "就寝時間",
+      "waketime": "覚醒時間",
+      "duration": "{{hours}} 睡眠時間"
+    },
+    "italic": "ほとんどの成人は7〜9時間かかります。自分に合うものを選びましょう。",
+    "button": "私の睡眠ウィンドウを見てくれ→"
+  },
+  "screen3": {
+    "title": "あなたの睡眠ウィンドウ 🌙",
+    "result": {
+      "bedtime": "就寝時間",
+      "waketime": "覚醒時間",
+      "duration": "期間",
+      "hours": "{{hours}} 時間"
+    },
+    "accordion1": {
+      "title": "保護の3つの方法",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "就寝の30分前にリラックスしましょう"
+        },
+        {
+          "emoji": "⏰",
+          "text": "毎日同じ起床時間で――そう、週末も同様です"
+        },
+        {
+          "emoji": "🚫",
+          "text": "午後3時以降20分以上の昼寝は避けてください"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "今夜は一つのことにコミットしてください",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "寝る前に携帯をしまって"
+        },
+        {
+          "emoji": "🛁",
+          "text": "リラックスのルーティンを始めましょう"
+        },
+        {
+          "emoji": "💡",
+          "text": "寝る1時間前に照明を落とす"
+        },
+        {
+          "emoji": "✍️",
+          "text": "やることリストを早く終わらせて"
+        }
+      ]
+    },
+    "quote": "一貫性は完璧よりも強力です。良い夜が次の夜を積み重ねる。",
+    "button": "セーブ・マイ・スリープ・ウィンドウ✓",
+    "saved_button": "✓ 睡眠ウィンドウが保存されました!",
+    "adjust_times": "時間調整"
+  },
+  "complete": {
+    "title": "ウィンドウ作成",
+    "message": "理想的な睡眠ウィンドウはマッピング済みです。一貫性こそが深く回復的な休息の鍵です。"
+  },
+  "toasts": {
+    "save_success": "スリープウィンドウを保存しました",
+    "save_error": "スリープウィンドウのセーブに失敗しました",
+    "auth_error": "認証セッションが欠如しているか、データベースが設定されていない",
+    "saving": "セーブ..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "最初からやり直す",
+    "finish_exit": "終了して退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完了までの時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "共有",
+    "share_progress": "進捗状況を共有する",
+    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
+    "this_activity": "このアクティビティ",
+    "copied": "コピーしました！",
+    "copy_message": "メッセージをコピー",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "睡眠時間プランナー",
+  "more": "もっと",
+  "breadcrumb": "パン粉",
+  "previous_slide": "前のスライド",
+  "next_slide": "次のスライド",
+  "close": "近い",
+  "previous": "前の",
+  "more_pages": "その他のページ",
+  "pagination": "ページネーション",
+  "go_to_previous_page": "前のページへ",
+  "go_to_next_page": "次のページへ",
+  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
+  "oops_page_not_found": "おっと！ページが見つかりません",
+  "return_to_home": "ホームに戻る",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

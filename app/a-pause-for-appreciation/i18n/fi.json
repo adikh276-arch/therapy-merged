@@ -1,0 +1,147 @@
+{
+  "title": "Tauko arvostukseksi",
+  "subtitle": "5–7 minuutin ohjattu pohdinta",
+  "nav": {
+    "history": "Historia",
+    "home": "Koti"
+  },
+  "intro": {
+    "text1": "Kun suhde tuntuu kireältä, voi olla helppo keskittyä vain siihen, mikä ei toimi. Tämä pohdinta tarjoaa lyhyen tauon — ei huolien sivuuttamiseksi, vaan lempeästi laajentaakseen näkökulmaa.",
+    "text2": "Ei ole odotusta olla kiitollinen. Huomaa vain, mitä tulee vastaan.",
+    "begin": "Aloita",
+    "viewHistory": "Katso historia"
+  },
+  "breathing": {
+    "title": "Saapu ja asetu",
+    "description": "Ennen kuin jatkat, anna itsellesi pieni tauko. Tämä hetki ei ole ratkaisemista varten. Kyse on tilan luomisesta.",
+    "instruction": "Seuraa alla olevaa hengitysrytmiä.",
+    "inhale": "Hengitä sisään... {{counter}}…",
+    "hold": "Odota...",
+    "exhale": "Hengitä ulos... {{counter}}…",
+    "affirmation": "\"Voin tunnustaa, mikä tuntuu vaikealta, ja silti olla avoin huomaamaan.\"",
+    "continue": "Jatka"
+  },
+  "reflection": {
+    "step": "{{step}} askel [{{total}}",
+    "prompts": {
+      "p1": "Yksi pieni hetki äskettäin kumppanisi kanssa, joka ei tuntunut jännittyneeltä, oli...",
+      "p1_ex": "\"Meillä oli illalla lyhyt, rauhallinen keskustelu.\"",
+      "p2": "Yksi yritys, jonka kumppanisi on tehnyt — vaikka epätäydellinen — on...",
+      "p2_ex": "\"He yrittivät selittää tunteitaan vetäytymisen sijaan.\"",
+      "p3": "Yksi ominaisuus kumppanissasi, joka on pysynyt samana ajan myötä, on...",
+      "p3_ex": "\"He osoittavat edelleen omistautumista vastuillemme.\""
+    },
+    "placeholder": "Kirjoita pohdintasi tähän...",
+    "next": "Seuraavaksi",
+    "finish": "Viimeistely"
+  },
+  "intention": {
+    "step": "Vaihe 4/4",
+    "title": "Miten haluaisit pitää tätä heijastusta?",
+    "options": {
+      "private": "Haluaisin pitää tämän pohdinnan yksityisenä.",
+      "share_part": "Saatan haluta jakaa osan tästä kumppanilleni.",
+      "share_full": "Haluaisin jakaa tämän pohdinnan kokonaisuudessaan.",
+      "save_later": "Säästän tämän myöhempään keskusteluun."
+    },
+    "continue": "Jatka"
+  },
+  "checkin": {
+    "title": "Kun teit tämän pohdinnan, mikä väite tuntuu osuvimmalta?",
+    "statements": {
+      "s1": "Tunnen oloni hieman avoimemmaksi kumppanilleni juuri nyt.",
+      "s2": "En huomaa suuria muutoksia, mutta olen valmis pysymään valppaana.",
+      "s3": "Minusta tämä oli hieman vaikeaa toteuttaa.",
+      "s4": "Koin pienen lämmön tunteen pohdiskellessani.",
+      "s5": "Huomasin vastarintaa, ja se tuntuu tärkeältä tunnustaa.",
+      "s6": "Tunnen hienoista pehmentymistä verrattuna ennen kuin aloitin."
+    },
+    "finish": "Viimeistely ja tallenna"
+  },
+  "closing": {
+    "title": "Reflektio valmis",
+    "text1": "Tämä tauko ei poista haasteita. Se yksinkertaisesti palauttaa tasapainon siihen, miten suhdetta tarkastellaan.",
+    "text2": "Jo lyhyet hetket, jolloin huomaat asiaa, voivat vähitellen pehmentää tunne-elämän jäykkyyttä ja luoda tilaa terveellisemmille keskusteluille.",
+    "save": "Tallenna heijastuksiin",
+    "viewHistory": "Katso historia",
+    "exit": "Poistuminen"
+  },
+  "history": {
+    "title": "Sinun pohdintahistoriasi",
+    "noReflections": "Heijastuksia ei ole vielä tallennettu. Valmiit istuntosi näkyvät täällä.",
+    "back": "Takaisin alkuun",
+    "confirmDelete": "Vahvista poisto",
+    "cancel": "Peruuta",
+    "delete": "Poista merkintä",
+    "prompts": [
+      "Yksi pieni hetki, joka ei tuntunut jännittyneeltä...",
+      "Yksi yritys, jonka kumppanisi on tehnyt...",
+      "Yksi ominaisuus, joka on pysynyt samana...",
+      "Tarkoitus",
+      "Tunteellinen tarkistus"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Aloita alusta",
+    "finish_exit": "Lopeta ja poistu",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Aikaa valmistua",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Jakaa",
+    "share_progress": "Jaa edistyminen",
+    "inspire_others": "Inspiroi muita tänään",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "tämä toiminta",
+    "copied": "Kopioitu!",
+    "copy_message": "Kopioi viesti",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3–5 minuuttia",
+  "app_title": "Heijastava",
+  "intro_p1": "Kasvata kiitollisuutta",
+  "intro_p2": "Vähennä stressiä",
+  "intro_p3": "Paranna hyvinvointia",
+  "app_description": "5–7 minuutin ohjattu pohdinta",
+  "how_do_you_feel_after_this_reflection": "Miltä sinusta tuntuu tämän pohdinnan jälkeen?",
+  "your_past_reflections_appreciations": "Menneet pohdintasi ja arvostuksesi",
+  "start_new_session": "Aloita uusi istunto",
+  "feeling": "Tunne",
+  "delete_this_entry": "Poistetaanko tämä merkintä?",
+  "delete_5": "Poistaa",
+  "more": "Lisää",
+  "breadcrumb": "navigointipolku",
+  "previous_slide": "Edellinen dia",
+  "next_slide": "Seuraava dia",
+  "close": "Lähellä",
+  "previous": "Edellinen",
+  "more_pages": "Lisää sivuja",
+  "pagination": "sivunumerointi",
+  "go_to_previous_page": "Siirry edelliselle sivulle",
+  "go_to_next_page": "Siirry seuraavalle sivulle",
+  "toggle_sidebar": "Näytä/piilota sivupalkki",
+  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
+  "return_to_home": "Palaa kotiin",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

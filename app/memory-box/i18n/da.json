@@ -1,0 +1,146 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": [
+    "Din Boks",
+    "Ære",
+    "Udtrykker",
+    "Bevaret",
+    "Blid pleje"
+  ],
+  "complete_title": "Bevaret hukommelse",
+  "complete_message": "Du har sikkert placeret et minde om {{name}} i din boks. Disse øjeblikke af forbindelse er altid dine at beholde.",
+  "auth_error": "Auth-session mangler eller database ikke konfigureret",
+  "save_success": "Hukommelsen bevaret",
+  "save_error": "Undlod at bevare hukommelsen",
+  "preserving": "Bevare...",
+  "preserve_memory": "Bevar hukommelsen",
+  "welcome": {
+    "title": "Din Hukommelsesboks",
+    "subtitle1": "Et stille sted at huske en, du elsker. 🤍",
+    "subtitle2": "Tag en langsom indånding...",
+    "subtitle3": "… og pust blidt ud.",
+    "subtitle4": "Der er ikke nogen rigtig eller forkert måde at gøre det på.",
+    "subtitle5": "Tag det i dit eget tempo. 🌿",
+    "begin": "Begynd ✨",
+    "later": "Måske senere"
+  },
+  "who": {
+    "placeholder_name": "Skriv deres navn...",
+    "placeholder_relation": "Hvordan kender du dem? (valgfrit)",
+    "categories": [
+      {
+        "label": "Et lykkeligt øjeblik",
+        "emoji": "😊"
+      },
+      {
+        "label": "Noget de plejede at sige",
+        "emoji": "💬"
+      },
+      {
+        "label": "Et lille hverdagsminde",
+        "emoji": "☕"
+      },
+      {
+        "label": "Et sted, der minder dig om dem",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Noget jeg ville ønske, jeg kunne sige",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Fortsæt →"
+  },
+  "expression": {
+    "title": "Udtrykker din hukommelse",
+    "memory_label": "Selve mindet",
+    "memory_placeholder": "Skriv om øjeblikket, følelsen eller detaljen, du gerne vil beholde...",
+    "message_label": "En besked til dem (valgfrit)",
+    "message_placeholder": "Hvad ville du sige, hvis du kunne tale med dem lige nu?",
+    "save": "Bevar hukommelsen",
+    "skip": "Spring over for nu",
+    "back": "Tilbage"
+  },
+  "box": {
+    "title": "Sikkert gemt væk",
+    "subtitle": "Dette minde om {{name}} er nu en del af din samling.",
+    "add_another": "Tilføj et andet minde",
+    "finish": "Afsluttende refleksion"
+  },
+  "closing": {
+    "title": "At tage sig af",
+    "subtitle": "Lukker din kasse for nu. Du kan vende tilbage hertil, når som helst du har brug for at føle dig tæt på disse minder.",
+    "exit": "Lukkeboks"
+  },
+  "history": {
+    "title": "Indhold i æsken",
+    "no_memories": "Din kasse er tom. Tilføj dit første minde for at begynde din samling.",
+    "search_placeholder": "Søg minder..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Hukommelsesboks",
+  "before_you_go": "Før du går",
+  "grief_comes_in_waves": "Sorg kommer i bølger. 🌊",
+  "what_you_re_feeling_matters": "Hvad du føler betyder noget. 🤍",
+  "be_gentle_with_yourself_today": "Vær blid med dig selv i dag. 🌿",
+  "save_exit": "Gem og afslut 🕊️",
+  "take_your_time": "Tag dig god tid 🕯️",
+  "save_to_memory_box": "Gem i mindeboks 📦",
+  "write_as_much_or_as_little_as_you_want": "Skriv så meget eller så lidt, som du vil… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Hvis der er noget, du gerne vil sige…",
+  "past_entries": "Tidligere indlæg",
+  "no_memories_saved_yet": "Ingen minder gemt endnu.",
+  "this_memory_is_held_here_for_you": "Dette minde er gemt her, til dig. 🌿",
+  "add_another_memory": "Tilføj endnu et minde ✨",
+  "finish_for_now": "Færdig for nu",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

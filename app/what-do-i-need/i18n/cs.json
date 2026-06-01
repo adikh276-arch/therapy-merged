@@ -1,0 +1,217 @@
+{
+  "app_title": "Co potřebuji?",
+  "app_subtitle": "Zkontrolujte sami sebe",
+  "screens": {
+    "s1": {
+      "title": "Co teď potřebuji?",
+      "description": "Chvíli na zastavení a naslouchání tomu, co vaše srdce žádá.",
+      "button": "Začít check-in"
+    },
+    "s2": {
+      "select": {
+        "title": "Co se zdá důležité?",
+        "placeholder": "Něco jiného...",
+        "add_button": "Přidat",
+        "button": "Pokračovat"
+      },
+      "prioritize": {
+        "title": "Který je primární?"
+      },
+      "focus": {
+        "tag": "Teď se soustředíš na tebe",
+        "button": "Pokračovat"
+      }
+    },
+    "s3": {
+      "reflect": {
+        "button": "Pokračovat"
+      },
+      "action": {
+        "title": "Malý krok vpřed?",
+        "placeholder": "Nebo napište vlastní...",
+        "button": "Reflexe recenze"
+      },
+      "closing": {
+        "tag_need": "Primární potřeba",
+        "tag_insight": "Váš pohled",
+        "tag_action": "Malá akce",
+        "save_button": "Save & Finish",
+        "finish_button": "Skončit bez uložení"
+      }
+    }
+  },
+  "needs": {
+    "Emotional support": {
+      "label": "Emocionální podpora",
+      "prompt": "Jaká podpora by vám teď skutečně pomohla?",
+      "hints": [
+        "Potřebuju jen, aby...",
+        "Pomohlo by, kdyby...",
+        "Co opravdu chci je..."
+      ]
+    },
+    "Space / time for myself": {
+      "label": "Prostor / čas pro sebe",
+      "prompt": "Jak by pro vás vypadalo mít takový prostor?",
+      "hints": [
+        "Využil bych ten čas k...",
+        "Vesmír by mi dovolil...",
+        "Potřebuju místo, abych..."
+      ]
+    },
+    "Clear communication": {
+      "label": "Jasná komunikace",
+      "prompt": "Jak by pro vás vypadala jasnější komunikace?",
+      "hints": [
+        "Přál bych si, abych mohl říct...",
+        "Kdyby opravdu poslouchali, řekl bych jim...",
+        "Komunikace je těžká, když..."
+      ]
+    },
+    "Reassurance": {
+      "label": "Ujištění",
+      "prompt": "Jaké ujištění by mělo smysl?",
+      "hints": [
+        "Potřebuju to slyšet...",
+        "Uklidnilo by mě vědět...",
+        "Pořád se bojím, že..."
+      ]
+    },
+    "Understanding": {
+      "label": "Porozumění",
+      "prompt": "Jak by vypadalo cítit se skutečně pochopeno?",
+      "hints": [
+        "Přál bych si, aby to lidé věděli...",
+        "Co opravdu cítím, je...",
+        "Nikdo nevidí, že já..."
+      ]
+    },
+    "Stability": {
+      "label": "Stabilita",
+      "prompt": "Jak by se teď cítila stabilita ve vašem životě?",
+      "hints": [
+        "Potřebuji, aby věci působily...",
+        "Co by mě uzemnilo, je...",
+        "Stabilita znamená..."
+      ]
+    },
+    "Honesty": {
+      "label": "Upřímnost",
+      "prompt": "Jak by vypadala větší upřímnost ve vaší situaci?",
+      "hints": [
+        "Pravda, které se musím postavit, je...",
+        "Chci být upřímný o...",
+        "Co se opravdu děje, je..."
+      ]
+    },
+    "Respect": {
+      "label": "Respekt",
+      "prompt": "Jak pro vás teď vypadá respekt?",
+      "hints": [
+        "Zasloužím si, aby se ke mně zacházeli...",
+        "Respekt by vypadal jako...",
+        "Potřebuji, aby..."
+      ]
+    },
+    "Clarity about relationship": {
+      "label": "Jasnost ohledně vztahů",
+      "prompt": "Jaký druh jasnosti by vám nejvíce pomohl?",
+      "hints": [
+        "Potřebuji vědět, jestli...",
+        "Co mě mate, je...",
+        "Chci, abychom si byli jasní ohledem..."
+      ]
+    },
+    "default": {
+      "prompt": "Jak by to vypadalo v reálné situaci?",
+      "hints": [
+        "Co mě napadá...",
+        "Teď se cítím...",
+        "Když budu k sobě upřímný..."
+      ]
+    }
+  },
+  "actions": [
+    {
+      "label": "Řekni něco upřímně"
+    },
+    {
+      "label": "Najít si čas pro sebe"
+    },
+    {
+      "label": "Obraťte se na někoho"
+    },
+    {
+      "label": "Nastavte malou hranici"
+    },
+    {
+      "label": "Ještě nevím jistě"
+    }
+  ],
+  "history": {
+    "title": "Minulé úvahy",
+    "empty": "Zatím žádné odrazy."
+  },
+  "toasts": {
+    "save_success": "Reflexe uložena",
+    "save_error": "Nepodařilo se uložit odraz",
+    "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze"
+  },
+  "complete": {
+    "title": "Kontrola dokončena",
+    "message": "Zjistil jsi, že potřebuješ \"{{need}}\". Ctít své potřeby je zásadní formou péče o sebe."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Zkontrolujte se sami",
+  "past_reflections": "Minulé úvahy",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

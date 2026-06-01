@@ -1,0 +1,124 @@
+{
+  "app_title": "غصہ اور شرمندگی کا چکر",
+  "app_subtitle": "لوپ کو سمجھنا • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "غصہ بار بار کیوں واپس آتا ہے؟",
+      "description": "شاید یہ تمہارا مزاج نہ ہو۔ غصے اور شرمندگی کے درمیان ایک چھپا ہوا چکر ہے — اور جب آپ اسے دیکھ لیتے ہیں تو سب کچھ بدل جاتا ہے۔",
+      "quote": "\"زیادہ تر لوگ غصے کو ٹھیک کرنے کی کوشش کرتے ہیں۔ لیکن شرمندگی ہی وہ چیز ہے جو خاموشی سے اسے چلائے رکھتی ہے۔\"",
+      "button": "آئیے دریافت کرتے ہیں"
+    },
+    "s2": {
+      "tag": "سائیکل",
+      "title": "لوپ نے وضاحت کی",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "غصے کی سطحیں"
+        },
+        {
+          "emoji": "😔",
+          "label": "شرم: \"میں برا ہوں\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "شرم دفن ہو جاتی ہے"
+        },
+        {
+          "emoji": "🔥",
+          "label": "غصہ پھر پھوٹ پڑتا ہے"
+        }
+      ],
+      "button": "میں دیکھ رہا ہوں"
+    },
+    "s3": {
+      "tag": "کیا ہو رہا ہے",
+      "title": "دو جذبات، ایک جال",
+      "anger": {
+        "title": "🔥 غصہ",
+        "desc": "ایک ثانوی جذبہ — زندگیوں کے نیچے تکلیف، خوف، یا انکار ہے۔ یہ الارم ہے، آگ نہیں۔"
+      },
+      "shame": {
+        "title": "😔 شرم کی بات ہے",
+        "desc": "\"میں برا ہوں\" — صرف \"میں نے کچھ برا کیا ہے\" نہیں۔ یہ چھپتا ہے، خاموش کرتا ہے، اور چکر کو گھماتا رہتا ہے۔"
+      },
+      "button": "آزاد ہونا"
+    },
+    "s4": {
+      "tag": "مداخلت",
+      "title": "چکر کو روکیں",
+      "steps": [
+        {
+          "title": "ماخذ کا نام بتائیں",
+          "desc": "پوچھیں: 'میں اصل میں کیا محسوس کر رہا ہوں؟' تکلیف ہوئی؟ ڈر گئے؟ نظر نہیں آئے؟ اسے نام دینا اسے کمزور کر دیتا ہے۔"
+        },
+        {
+          "title": "ہمدردی کا وقفہ",
+          "desc": "سینے پر ہاتھ رکھو۔ کہیں: 'یہ مشکل ہے۔ میں انسان ہوں۔ میں اس سے گزر سکتا ہوں۔'"
+        },
+        {
+          "title": "مرمت وقار کے ساتھ",
+          "desc": "اگر ضرورت ہو تو معافی مانگیں — لیکن الجھنے سے بچیں۔ تم تمہارا سب سے برا لمحہ نہیں ہو۔"
+        }
+      ],
+      "notice": "چکر کو محسوس کرنا پہلے ہی پہلا قدم ہے۔ آپ کام کر رہے ہیں۔",
+      "button": "مکمل سرگرمی"
+    }
+  },
+  "complete": {
+    "title": "سائیکل انٹرپٹڈ",
+    "message": "آپ نے غصے اور شرمندگی کے درمیان تعلق کو سمجھنے کا شعور حاصل کر لیا ہے۔ یہی دیرپا جذباتی آزادی کی بنیاد ہے۔"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "دوبارہ شروع کریں۔",
+    "finish_exit": "ختم کریں اور باہر نکلیں۔",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "مکمل ہونے کا وقت",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "شیئر کریں۔",
+    "share_progress": "پیش رفت کا اشتراک کریں",
+    "inspire_others": "آج دوسروں کو متاثر کریں۔",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
+    "this_activity": "اس سرگرمی",
+    "copied": "نقل کیا گیا!",
+    "copy_message": "پیغام کاپی کریں۔",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "لوپ کو سمجھنا • {{step}}/{{total}}",
+  "more": "مزید",
+  "breadcrumb": "بریڈ کرمب",
+  "previous_slide": "پچھلی سلائیڈ",
+  "next_slide": "اگلی سلائیڈ",
+  "close": "بند",
+  "previous": "پچھلا",
+  "more_pages": "مزید صفحات",
+  "pagination": "صفحہ بندی",
+  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
+  "go_to_next_page": "اگلے صفحے پر جائیں۔",
+  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
+  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر واپس جائیں۔",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

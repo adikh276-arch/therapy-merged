@@ -1,0 +1,147 @@
+{
+  "title": "O pauză pentru apreciere",
+  "subtitle": "O reflecție ghidată de 5–7 minute",
+  "nav": {
+    "history": "Istoric",
+    "home": "Acasă"
+  },
+  "intro": {
+    "text1": "Când o relație pare tensionată, poate deveni ușor să te concentrezi doar pe ceea ce nu funcționează. Această reflecție oferă o scurtă pauză — nu pentru a respinge îngrijorările, ci pentru a lărgi ușor perspectiva.",
+    "text2": "Nu există nicio așteptare să fii recunoscător. Pur și simplu observă ce apare.",
+    "begin": "Începe",
+    "viewHistory": "Vezi istoric"
+  },
+  "breathing": {
+    "title": "Sosește și stabilește",
+    "description": "Înainte de a continua, permite-ți o scurtă pauză. Acest moment nu este despre a rezolva nimic. Este vorba despre crearea spațiului.",
+    "instruction": "Urmărește ritmul respirației de mai jos.",
+    "inhale": "Inspiră... {{counter}}…",
+    "hold": "Stai...",
+    "exhale": "Expiră... {{counter}}…",
+    "affirmation": "\"Pot să recunosc ce mi se pare greu și totuși să rămân deschis să observ.\"",
+    "continue": "Continuă"
+  },
+  "reflection": {
+    "step": "Pasul {{step}} al {{total}}",
+    "prompts": {
+      "p1": "Un mic moment recent cu partenerul tău care nu părea tensionat a fost...",
+      "p1_ex": "\"Am avut o conversație scurtă și calmă seara.\"",
+      "p2": "Un efort pe care partenerul tău l-a făcut — chiar dacă imperfect — este...",
+      "p2_ex": "\"Au încercat să-și explice sentimentele în loc să se retragă.\"",
+      "p3": "O calitate la partenerul tău care a rămas constantă de-a lungul timpului este...",
+      "p3_ex": "\"Continuă să arate dedicare față de responsabilitățile noastre.\""
+    },
+    "placeholder": "Scrie-ți reflecția aici...",
+    "next": "Următorul",
+    "finish": "Finish"
+  },
+  "intention": {
+    "step": "Pasul 4 din 4",
+    "title": "Cum ți-ar plăcea să ții această reflecție?",
+    "options": {
+      "private": "Aș prefera să păstrez această reflecție privată.",
+      "share_part": "Poate aleg să împărtășesc o parte din asta cu partenerul meu.",
+      "share_full": "Aș dori să împărtășesc această reflecție pe deplin.",
+      "save_later": "Voi păstra asta pentru o discuție ulterioară."
+    },
+    "continue": "Continuă"
+  },
+  "checkin": {
+    "title": "Pe măsură ce ai terminat această reflecție, care afirmație ți se pare cea mai corectă?",
+    "statements": {
+      "s1": "Mă simt puțin mai deschis față de partenerul meu acum.",
+      "s2": "Nu observ prea multe schimbări, dar sunt dispus să rămân conștient.",
+      "s3": "Am găsit asta destul de dificil de finalizat.",
+      "s4": "Am simțit o mică senzație de căldură în timpul reflecției.",
+      "s5": "Am observat rezistență și mi se pare important să recunosc asta.",
+      "s6": "Simt o ușoară înmuiere față de dinainte să încep."
+    },
+    "finish": "Finish & Save"
+  },
+  "closing": {
+    "title": "Reflecție completă",
+    "text1": "Această pauză nu șterge provocările. Pur și simplu restabilește echilibrul în modul în care este privită relația.",
+    "text2": "Chiar și momentele scurte de observare pot atenua treptat rigiditatea emoțională și pot crea spațiu pentru conversații mai sănătoase.",
+    "save": "Salvează în reflecții",
+    "viewHistory": "Vezi istoric",
+    "exit": "Ieșire"
+  },
+  "history": {
+    "title": "Istoricul tău de reflecție",
+    "noReflections": "Nicio reflecție salvată încă. Sesiunile tale finalizate vor apărea aici.",
+    "back": "Înapoi la început",
+    "confirmDelete": "Confirmă Șterge",
+    "cancel": "Anulează",
+    "delete": "Șterge intrarea",
+    "prompts": [
+      "Un mic moment care nu părea tensionat...",
+      "Un efort pe care partenerul tău l-a făcut...",
+      "O calitate care a rămas constantă...",
+      "Intenție",
+      "Verificare emoțională"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Începeți de la început",
+    "finish_exit": "Terminare și ieșire",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Timpul de finalizare",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Distribuie",
+    "share_progress": "Distribuiți progresul",
+    "inspire_others": "Inspiră-i pe alții astăzi",
+    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
+    "this_activity": "această activitate",
+    "copied": "Copiat!",
+    "copy_message": "Copiați mesajul",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5 minute",
+  "app_title": "Reflectând",
+  "intro_p1": "Cultivă recunoștința",
+  "intro_p2": "Reduce stresul",
+  "intro_p3": "Îmbunătățiți bunăstarea",
+  "app_description": "O reflecție ghidată de 5–7 minute",
+  "how_do_you_feel_after_this_reflection": "Cum te simți după această reflecție?",
+  "your_past_reflections_appreciations": "Reflecțiile și aprecierile tale din trecut",
+  "start_new_session": "Începeți o sesiune nouă",
+  "feeling": "Sentiment",
+  "delete_this_entry": "Ștergeți această intrare?",
+  "delete_5": "Şterge",
+  "more": "Mai mult",
+  "breadcrumb": "pesmet",
+  "previous_slide": "Diapozitivul anterior",
+  "next_slide": "Diapozitivul următor",
+  "close": "Aproape",
+  "previous": "Anterior",
+  "more_pages": "Mai multe pagini",
+  "pagination": "paginare",
+  "go_to_previous_page": "Mergi la pagina anterioară",
+  "go_to_next_page": "Mergi la pagina următoare",
+  "toggle_sidebar": "Comutare bară laterală",
+  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "return_to_home": "Întoarcerea acasă",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

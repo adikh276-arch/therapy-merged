@@ -1,0 +1,292 @@
+{
+  "app_title": "Oprava a opětovné připojení",
+  "steps": {
+    "welcome": "Vítejte",
+    "choose_person": "Vyberte si osobu",
+    "choose_approach": "Zvolte přístup",
+    "guided_action": "Řízená akce",
+    "complete": "Dokončeno"
+  },
+  "intro": {
+    "title": "Oprava a opětovné připojení",
+    "description": "Hněv může vytvořit odstup mezi námi a lidmi, na kterých nám záleží. Ale malé, jemné kroky mohou pomoci to spojení znovu vybudovat.",
+    "quote": "\"Oprava neznamená, že ses mýlil—znamená to, že ti na tom záleží natolik, že to zkusíš.\"",
+    "small_efforts": "I malé úsilí může něco změnit.",
+    "button": "Začni →"
+  },
+  "choose_person": {
+    "title": "S kým byste se chtěli znovu spojit?",
+    "desc": "Přemýšlení o konkrétním vztahu pomáhá udělat kroky skutečnými.",
+    "options": {
+      "friend": "Přítel",
+      "family": "Člen rodiny",
+      "colleague": "Kolega",
+      "other": "Někdo jiný"
+    },
+    "button": "Pokračujte →"
+  },
+  "choose_approach": {
+    "title": "Co vám připadá správné?",
+    "desc": "Vyberte si jeden malý krok, který se zdá zvládnutelný.",
+    "safety": "Nemusíte všechno opravovat – stačí zvolit jeden malý krok.",
+    "button": "Zkuste to →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Pošlete neformální hlášení",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Uvědomte si napětí",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Dejte si navzájem prostor",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Nech to být a jdi dál",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Jen se nad tím zamysli",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Pošlete vřelou zprávu",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Upřímně pojmenuj, co se stalo",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Příště se zavázejte, že budete mít pauzu",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Zvolte mír před tím, abyste měli pravdu",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Zamyslete se nad tím, co opravdu potřebujete",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Pošlete profesionální zprávu",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Reagujte s respektem",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Příště si naplánuj klidnější reakci",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Zůstaňte profesionální a jděte dál",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Přemýšlejte o hranicích",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Ozvěte se jednoduchou zprávou",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Uznej, co se stalo",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Příště si dej pauzu",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Teď to nech být",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Jen reflektuj (zatím žádná akce)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Klepněte a podívejte se, jak ✨",
+    "copy_button": "📋 Zkopírovat zprávu",
+    "done_button": "Mám →",
+    "safety_line_default": "Nemusíš teď nic posílat. 💛",
+    "safety_line_pause": "Dejte si čas – není kam spěchat. 💛",
+    "safety_line_reflect": "Tohle je jen pro tebe—nikdo jiný to nemusí vidět. 💛",
+    "actions": {
+      "message": {
+        "title": "Pošlete jednoduchou zprávu",
+        "why": "Jednoduchá zpráva může prolomit ticho a ukázat druhému, že vám na něm stále záleží.",
+        "insight": "Oslovení – i když nedokonalé – je téměř vždy přijato lépe, než očekáváme.",
+        "howTitle": "Začněte v malém",
+        "howBody": "Nemusíte psát esej. Několik upřímných slov může otevřít dveře k obnovení kontaktu.",
+        "prompts": [
+          "Hej, myslel jsem na tebe. Doufám, že se máš dobře.",
+          "Vím, že to bylo napjaté – chtěl jsem jen říct, že mi na mně záleží.",
+          "Omlouvám se za to předtím. Můžeme si promluvit, až budeš připravený?"
+        ],
+        "promptLabel": "Vyberte výchozí bod:",
+        "editLabel": "Udělejte si to pro sebe:"
+      },
+      "acknowledge": {
+        "title": "Uznej, co se stalo",
+        "why": "Uznání, co se stalo, ukazuje zralost a pomáhá druhému cítit se viděný.",
+        "insight": "Lidé nepotřebují, abyste byli dokonalí – potřebují vědět, že jste si toho všimli.",
+        "howTitle": "Pojmenuj to jemně",
+        "howBody": "Můžeš to přiznat, aniž bys bral veškerou vinu. Prostě upřímně pojmenuj, co se stalo.",
+        "prompts": [
+          "Vím, že mezi námi to bylo vyhrocené. Chci, abys věděl, že jsem si toho všiml.",
+          "Uvědomuji si, že jsem možná působil tvrdě. To nebyl můj záměr.",
+          "Přemýšlel jsem o tom, co se stalo, a přál bych si, abych to řešil jinak."
+        ],
+        "promptLabel": "Vyberte výchozí bod:",
+        "editLabel": "Udělejte si to pro sebe:"
+      },
+      "pause": {
+        "title": "Příště si dej pauzu",
+        "why": "Závazek k pauze vám dává prostor k reakci, ne k reakci.",
+        "insight": "Často stačí 6sekundová pauza k přechodu z reakce na reflexi.",
+        "howTitle": "🧘 Naplánujte si pauzu",
+        "howBody": "Představte si jednoduchý signál – například se nadechnout nebo na chvíli odstoupit – než odpovíte.",
+        "prompts": [
+          "Příště, až budu rozrušený, zhluboka se nadechnu, než odpovím.",
+          "Zkusím říct 'Dej mi chvilku' místo okamžité reakce.",
+          "Na pár minut se odtáhnu, abych si srovnal myšlenky."
+        ],
+        "promptLabel": "Vyberte si závazek, který vám přijde správný:",
+        "editLabel": "Napište svůj vlastní záměr:"
+      },
+      "letgo": {
+        "title": "Teď to nech být",
+        "why": "Někdy je nejlaskavější, co můžete udělat, ulevit tíze situace.",
+        "insight": "Pustit to není vzdát se – je to volba klidu místo toho, že máte pravdu.",
+        "howTitle": "🕊️ Uvolněte jemně",
+        "howBody": "Nemusíš zapomínat. Prostě se rozhodni, že už to nemusí ovládat, jak se cítíš.",
+        "prompts": [
+          "Rozhodla jsem se to pustit – ne proto, že by to nebylo důležité, ale protože můj klid je důležitější.",
+          "Uvolňuji potřebu mít pravdu v tomhle. Volím spojení.",
+          "Tato situace náš vztah nedefinuje. Jdu dál."
+        ],
+        "promptLabel": "Vyberte si, co vás osloví:",
+        "editLabel": "Piš to, co ti připadá pravdivé:"
+      },
+      "reflect": {
+        "title": "Jen se zamyslete",
+        "why": "Reflexe buduje sebeuvědomění, což je základ každého zdravého vztahu.",
+        "insight": "Psaní deníku nebo i přemýšlení o tom, co se stalo, vám pomůže zpracovat emoce bez tlaku.",
+        "howTitle": "🔍 Podívej se dovnitř",
+        "howBody": "Zeptej se sama sebe: Co jsem vlastně cítila pod tím hněvem? Často je to bolest, strach nebo zklamání.",
+        "prompts": [
+          "Pod hněvem jsem cítila bolest.",
+          "Uvědomuji si, že jsem reagoval ze strachu, že mě nikdo nevyslyší.",
+          "Co jsem opravdu potřebovala, bylo cítit se respektovaná a oceňována."
+        ],
+        "promptLabel": "Vyberte si, co vás osloví:",
+        "editLabel": "Napište si vlastní reflexi:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Spojení opraveno",
+    "message": "Udělal jsi odvážný krok k opravě svého spojení s {{person}}. Malé, záměrné činy budují trvalé mosty.",
+    "default_person": "Někdo důležitý"
+  },
+  "toasts": {
+    "save_success": "Pokrok oprav zachován",
+    "save_error": "Nepodařilo se zachovat odraz",
+    "copy_success": "Zpráva zkopírována!",
+    "preserving": "Uchování...",
+    "complete_button": "Dokončit a uložit"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Oprava a opětovné připojení",
+  "that_s_a_step_forward": "To je krok vpřed",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Udělali jste malý krok k nápravě – a na tom záleží.",
+  "try_with_someone_else": "Zkus to s někým jiným",
+  "done": "Hotovo ✔",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

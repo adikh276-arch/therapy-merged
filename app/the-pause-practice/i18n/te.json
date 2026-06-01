@@ -1,0 +1,125 @@
+{
+  "app_title": "పాజ్ ప్రాక్టీస్",
+  "app_subtitle": "మధ్య స్థలాన్ని మాస్టర్ చేయండి",
+  "intro": {
+    "title": "5 సెకన్ల విరామం",
+    "description": "అనుభూతి మరియు ప్రతిస్పందన మధ్య ఒక చిన్న విరామం ప్రతిదీ మార్చగలదు.",
+    "duration": "15 సెకండ్ల కంటే తక్కువ సమయం పడుతుంది. నిజంగా.",
+    "button": "→ ప్రయత్నించండి"
+  },
+  "scenario": {
+    "title": "మిమ్మల్ని ప్రేరేపించేది ఏమిటి?",
+    "desc": "మీకు సంబంధించిన పరిస్థితిని ఎంచుకోండి",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "ఎవరో నాకు అంతరాయం కలిగించారు",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "అనుకున్న విధంగా పనులు జరగవు",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "నేను నిర్లక్ష్యం చేయబడినట్లు అనిపిస్తుంది",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "నేను మునిగిపోయినట్లు అనిపిస్తుంది",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "మీ స్వంతంగా టైప్ చేయండి...",
+    "button": "పాజ్ → ప్రాక్టీస్ చేయండి"
+  },
+  "hold": {
+    "title": "పాజ్ చేయడానికి ⏸️ పట్టుకోండి",
+    "instructions": "వృత్తాన్ని 5 సెకండ్లపాటు పట్టుకోండి.",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "నొక్కి, పట్టుకోండి..."
+      },
+      {
+        "at": "0.15",
+        "text": "దానితో ఉండండి..."
+      },
+      {
+        "at": "0.5",
+        "text": "నువ్వు చేస్తున్నావు..."
+      },
+      {
+        "at": "0.8",
+        "text": "దాదాపుగా అక్కడే..."
+      }
+    ]
+  },
+  "result": {
+    "title": "అది విరామం",
+    "message": "మీరు అనుభూతి చెందినదానికి మరియు మీరు ఎలా ప్రతిస్పందిస్తారో మధ్య మీరు ఖాళీని సృష్టించారు. ఒక చిన్న విరామం కూడా మీ కేంద్రాన్ని తిరిగి పొందడంలో మీకు సహాయపడుతుంది.",
+    "tip_label": "ప్రో చిట్కా",
+    "scenario_messages": {
+      "interrupts": "తదుపరిసారి ఎవరైనా మీకు అంతరాయం కలిగించినప్పుడు, ప్రతిస్పందించడానికి ముందు దీనిని ప్రయత్నించండి.",
+      "plans": "తదుపరిసారి పనులు ప్రణాళిక ప్రకారం జరగనప్పుడు, ప్రతిస్పందించే ముందు దీనిని ప్రయత్నించండి.",
+      "ignored": "తదుపరిసారి మీరు నిర్లక్ష్యం చేయబడినట్లు భావించినప్పుడు, ప్రతిస్పందించడానికి ముందు దీనిని ప్రయత్నించండి.",
+      "overwhelmed": "తదుపరిసారి మీరు మునిగిపోయినట్లు అనిపించినప్పుడు, ఏదైనా చేయడానికి ముందు దీన్ని ప్రయత్నించండి.",
+      "other": "తదుపరిసారి మీరు ట్రిగ్గర్ అయినట్లు అనిపించినప్పుడు, ప్రతిస్పందించే ముందు దీనిని ప్రయత్నించండి."
+    },
+    "italic": "ఇది ఎల్లప్పుడూ సులభం అనిపించదు - కానీ స్థిరత్వం కీలకం."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "మధ్య ఉన్న ఖాళీని స్వాధీనం చేసుకోండి",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

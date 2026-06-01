@@ -1,0 +1,146 @@
+{
+  "app_title": "মেমরি বক্স",
+  "screen_titles": [
+    "আপনার বাক্স",
+    "সম্মানিত করা",
+    "প্রকাশ করা",
+    "সংরক্ষিত",
+    "মৃদু যত্ন"
+  ],
+  "complete_title": "স্মৃতি সংরক্ষিত",
+  "complete_message": "আপনি নিরাপদে আপনার বাক্সে {{name}} এর একটি স্মৃতি রেখেছেন। সংযোগের এই মুহুর্তগুলি সর্বদা আপনার।",
+  "auth_error": "অথ সেশন অনুপস্থিত বা DB কনফিগার করা হয়নি",
+  "save_success": "স্মৃতি সংরক্ষিত",
+  "save_error": "স্মৃতি সংরক্ষণ করতে ব্যর্থ হয়েছে",
+  "preserving": "সংরক্ষণ...",
+  "preserve_memory": "স্মৃতি সংরক্ষণ করুন",
+  "welcome": {
+    "title": "আপনার মেমোরি বক্স",
+    "subtitle1": "আপনার ভালবাসার কাউকে স্মরণ করার জন্য একটি শান্ত জায়গা। 🤍",
+    "subtitle2": "আস্তে আস্তে শ্বাস নিন...",
+    "subtitle3": "… এবং আস্তে আস্তে শ্বাস ছাড়ুন।",
+    "subtitle4": "এটি করার কোনও সঠিক বা ভুল উপায় নেই।",
+    "subtitle5": "নিজের গতিতে এগিয়ে যান। 🌿",
+    "begin": "শুরু করুন ✨",
+    "later": "হয়তো পরে"
+  },
+  "who": {
+    "placeholder_name": "তাদের নাম টাইপ করুন...",
+    "placeholder_relation": "আপনি তাদের কিভাবে চেনেন? (ঐচ্ছিক)",
+    "categories": [
+      {
+        "label": "একটি আনন্দের মুহূর্ত",
+        "emoji": "😊"
+      },
+      {
+        "label": "এমন কিছু যা তারা বলতেন",
+        "emoji": "💬"
+      },
+      {
+        "label": "ছোট্ট প্রতিদিনের স্মৃতি",
+        "emoji": "☕"
+      },
+      {
+        "label": "এমন একটি জায়গা যা আপনাকে তাদের কথা মনে করিয়ে দেয়",
+        "emoji": "🏡"
+      },
+      {
+        "label": "আমি তো এমন কিছু বলতে চাই যা আমি বলতে পারি",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "→ চালিয়ে যান"
+  },
+  "expression": {
+    "title": "আপনার স্মৃতি প্রকাশ করা",
+    "memory_label": "স্মৃতি নিজেই",
+    "memory_placeholder": "আপনি যে মুহুর্ত, অনুভূতি বা বিশদ রাখতে চান সে সম্পর্কে লিখুন...",
+    "message_label": "তাদের কাছে একটি বার্তা (ঐচ্ছিক)",
+    "message_placeholder": "আপনি যদি এখনই তাদের সাথে কথা বলতে পারেন তবে আপনি কী বলবেন?",
+    "save": "স্মৃতি সংরক্ষণ করুন",
+    "skip": "আপাতত এড়িয়ে যান",
+    "back": "পিছনে"
+  },
+  "box": {
+    "title": "নিরাপদে দূরে রাখা হয়েছে",
+    "subtitle": "{{name}} এর এই স্মৃতিটি এখন আপনার সংগ্রহের অংশ।",
+    "add_another": "অন্য একটি স্মৃতি যোগ করুন",
+    "finish": "ফিনিশ রিফ্লেকশন"
+  },
+  "closing": {
+    "title": "যত্ন নেওয়া",
+    "subtitle": "আপাতত আপনার বাক্স বন্ধ করুন। এই স্মৃতিগুলির কাছাকাছি বোধ করার জন্য আপনি যে কোনও সময় এখানে ফিরে আসতে পারেন।",
+    "exit": "বাক্স বন্ধ করুন"
+  },
+  "history": {
+    "title": "বাক্সের বিষয়বস্তু",
+    "no_memories": "আপনার বাক্স খালি। আপনার সংগ্রহ শুরু করতে আপনার প্রথম মেমরি যোগ করুন।",
+    "search_placeholder": "স্মৃতি অনুসন্ধান করুন..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "নতুন করে শুরু করুন",
+    "finish_exit": "শেষ করুন এবং প্রস্থান করুন",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "সম্পূর্ণ করার সময়",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "শেয়ার",
+    "share_progress": "শেয়ার অগ্রগতি",
+    "inspire_others": "আজ অন্যদের অনুপ্রাণিত করুন",
+    "share_text": "আমি থেরাপিমন্ত্রা-তে এই {{activityName}} কাজটি করেছি এবং এটি আমার খুব ভালো লেগেছে, আপনিও এটি করতে পারেন। এর জন্য শুধু অ্যান্ড্রয়েড অ্যাপ {{androidUrl}} অথবা আইওএস অ্যাপ {{iosUrl}} এর লিঙ্কটি অনুসরণ করুন।",
+    "this_activity": "এই কার্যকলাপ",
+    "copied": "অনুলিপি করা হয়েছে!",
+    "copy_message": "বার্তা কপি করুন",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "মেমরি বক্স",
+  "before_you_go": "যাওয়ার আগে",
+  "grief_comes_in_waves": "দুঃখ ঢেউয়ের মতো আসে। 🌊",
+  "what_you_re_feeling_matters": "তোমার অনুভূতি গুরুত্বপূর্ণ। 🤍",
+  "be_gentle_with_yourself_today": "আজ নিজের প্রতি সদয় হন। 🌿",
+  "save_exit": "সংরক্ষণ করুন এবং প্রস্থান করুন 🕊️",
+  "take_your_time": "সময় নিন 🕯️",
+  "save_to_memory_box": "মেমোরি বক্সে সংরক্ষণ করুন 📦",
+  "write_as_much_or_as_little_as_you_want": "আপনার ইচ্ছেমতো কম বা বেশি লিখুন… ✍️",
+  "if_there_s_something_you_d_like_to_say": "আপনার যদি কিছু বলার থাকে…",
+  "past_entries": "অতীতের এন্ট্রিগুলি",
+  "no_memories_saved_yet": "এখনো কোনো স্মৃতি সংরক্ষিত হয়নি।",
+  "this_memory_is_held_here_for_you": "এই স্মৃতিটা এখানে তোমার জন্য সংরক্ষিত আছে। 🌿",
+  "add_another_memory": "আরও একটি স্মৃতি যোগ করুন ✨",
+  "finish_for_now": "আপাতত এখানেই শেষ।",
+  "more": "আরও",
+  "breadcrumb": "রুটির গুঁড়ো",
+  "previous_slide": "পূর্ববর্তী স্লাইড",
+  "next_slide": "পরবর্তী স্লাইড",
+  "close": "বন্ধ করুন",
+  "previous": "পূর্ববর্তী",
+  "more_pages": "আরও পৃষ্ঠা",
+  "pagination": "পৃষ্ঠা সংখ্যা",
+  "go_to_previous_page": "পূর্ববর্তী পৃষ্ঠায় যান",
+  "go_to_next_page": "পরবর্তী পৃষ্ঠায় যান",
+  "toggle_sidebar": "সাইডবার টগল করুন",
+  "oops_page_not_found": "ওহ! পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।",
+  "return_to_home": "হোমপেজে ফিরে যান",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

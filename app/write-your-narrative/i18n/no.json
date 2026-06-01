@@ -1,0 +1,125 @@
+{
+  "app_title": "Din fortelling",
+  "nav": {
+    "entry": "Velkommen",
+    "writing": "Uttrykk",
+    "landing": "Reflekterende",
+    "history": "Din reise"
+  },
+  "entry": {
+    "title": "La oss ta dette ett skritt av gangen. 💛",
+    "description": [
+      "Du trenger ikke fortelle hele historien din i dag. Bare en liten del er nok.",
+      "Du er trygg nå. Du har kontroll over hva du skriver – og hva du ikke skriver."
+    ],
+    "breath": "Ta et rolig pust før vi begynner.",
+    "button_ready": "Jeg er klar",
+    "button_history": "Tidligere fortellinger",
+    "footer": "Dine ord • Ditt tempo • Din historie"
+  },
+  "writing": {
+    "title": "Skriv det som føles greit ✨",
+    "subtitle": "Dine ord, ditt tempo",
+    "prompt_label": "Trenger du et utgangspunkt?",
+    "prompts": [
+      {
+        "text": "Det jeg husker best er...",
+        "emoji": "💭"
+      },
+      {
+        "text": "På den tiden følte jeg meg...",
+        "emoji": "🌊"
+      },
+      {
+        "text": "Siden da har jeg lagt merke til...",
+        "emoji": "🌱"
+      }
+    ],
+    "placeholder": "Begynn å skrive her...",
+    "notice": "Det finnes ingen riktig måte å gjøre dette på. Selv noen få linjer er nok.",
+    "button": "Fullfør skrivingen"
+  },
+  "landing": {
+    "title": "Du gjorde noe viktig.",
+    "subtitle": "Takk for at du møtte opp for deg selv.",
+    "settle_title": "La oss ta et øyeblikk for å roe oss ned",
+    "steps": [
+      "Se deg rundt og nevn 3 ting du kan se.",
+      "Ta et sakte pust inn... Og ut."
+    ],
+    "feeling_label": "Akkurat nå føler jeg:",
+    "feeling_placeholder": "Et ord eller to...",
+    "quote": "\"Du trenger ikke bære alt på en gang. Du kan komme tilbake når du føler deg klar.\"",
+    "button_save": "Bevar fortellingen",
+    "button_preserving": "Bevare..."
+  },
+  "history": {
+    "title": "Din reise 📝",
+    "subtitle": "Fortidens fortellinger og refleksjoner",
+    "empty": "Du har ikke lagret noen oppføringer ennå. Ta den tiden du trenger—det haster ikke.",
+    "no_writing": "Ingen skrift bevart",
+    "button_back": "Tilbake til aktivitet"
+  },
+  "complete": {
+    "title": "Fortelling bevart",
+    "message": "Du har tatt et kraftfullt steg i å fortelle din historie. Ditt perspektiv betyr noe, og reisen din er unikt din."
+  },
+  "toasts": {
+    "save_success": "Fortelling bevart",
+    "save_error": "Mislyktes i å bevare fortellingen",
+    "auth_error": "Auth-sesjon mangler eller database ikke konfigurert"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Din fortelling",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "remove_this": "FJERN_DETTE",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

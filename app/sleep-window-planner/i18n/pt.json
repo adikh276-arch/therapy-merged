@@ -1,0 +1,147 @@
+{
+  "app_title": "Planejador de Janela de Sono",
+  "pill_labels": [
+    "Construa sua janela",
+    "Defina seus tempos",
+    "Sua janela de sono"
+  ],
+  "screen1": {
+    "title": "Sua janela de sono importa mais do que você imagina",
+    "p1": "Uma janela de sono é o tempo fixo entre você ir dormir e acordar. Manter a consistência — mesmo nos fins de semana — é uma das coisas mais poderosas que você pode fazer pelo seu sono.",
+    "p2": "Esta ferramenta ajuda você a montar o seu em menos de 2 minutos.",
+    "insight": "Mesmo uma diferença de 1 hora no tempo de sono nos fins de semana pode atrapalhar sua sensação durante toda a semana.",
+    "meta": "Simples. Pessoal. Eficaz.",
+    "button": "Vamos construir o meu →"
+  },
+  "screen2": {
+    "title": "Vamos definir sua janela de sono",
+    "step1": {
+      "title": "PASSO 1 — HORA DE ACORDAR",
+      "desc": "Que horas você precisa acordar na maioria dos dias?"
+    },
+    "step2": {
+      "title": "PASSO 2 — DURAÇÃO DO SONO",
+      "desc": "Quantas horas de sono você quer?"
+    },
+    "live_window": {
+      "bedtime": "Hora de dormir",
+      "waketime": "Horário de acordar",
+      "duration": "{{hours}} horas de sono"
+    },
+    "italic": "A maioria dos adultos precisa de 7 a 9 horas. Escolha o que parecer certo.",
+    "button": "Veja minha janela de sono →"
+  },
+  "screen3": {
+    "title": "Sua janela 🌙 de sono",
+    "result": {
+      "bedtime": "Hora de dormir",
+      "waketime": "Horário de acordar",
+      "duration": "Duração",
+      "hours": "{{hours}} horas"
+    },
+    "accordion1": {
+      "title": "3 maneiras de protegê-lo",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Relaxe 30 minutos antes da hora de dormir"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Mesmo horário de acordar todos os dias — sim, nos fins de semana também"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Evite cochilos com mais de 20 minutos depois das 15h"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Comprometa-se com uma coisa hoje à noite",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Guardei meu celular antes de dormir"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Comece uma rotina de relaxamento"
+        },
+        {
+          "emoji": "💡",
+          "text": "Diminua as luzes uma hora antes de dormir"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Terminar minha lista de tarefas cedo"
+        }
+      ]
+    },
+    "quote": "Consistência é mais poderosa que perfeição. Uma boa noite constrói a seguinte.",
+    "button": "Guarde minha janela de sono ✓",
+    "saved_button": "✓ Janela de sono salva!",
+    "adjust_times": "Ajustes de Tempos"
+  },
+  "complete": {
+    "title": "Janela Criada",
+    "message": "Sua janela ideal de sono foi mapeada. A consistência é a chave para um descanso profundo e restaurador."
+  },
+  "toasts": {
+    "save_success": "Janela de sono salva",
+    "save_error": "Falhou em salvar a janela de sono",
+    "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
+    "saving": "Salvando..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Recomeçar",
+    "finish_exit": "Finalizar e sair",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo para concluir",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Compartilhar",
+    "share_progress": "Compartilhar progresso",
+    "inspire_others": "Inspire outras pessoas hoje",
+    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
+    "this_activity": "esta atividade",
+    "copied": "Copiado!",
+    "copy_message": "Copiar mensagem",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Planejador de Janela de Sono",
+  "more": "Mais",
+  "breadcrumb": "farinha de rosca",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Próximo slide",
+  "close": "Fechar",
+  "previous": "Anterior",
+  "more_pages": "Mais páginas",
+  "pagination": "paginação",
+  "go_to_previous_page": "Ir para a página anterior",
+  "go_to_next_page": "Acesse a próxima página.",
+  "toggle_sidebar": "Alternar barra lateral",
+  "oops_page_not_found": "Ops! Página não encontrada",
+  "return_to_home": "Voltar para a página inicial",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

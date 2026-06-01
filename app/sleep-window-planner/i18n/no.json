@@ -1,0 +1,147 @@
+{
+  "app_title": "Søvnvindusplanlegger",
+  "pill_labels": [
+    "Bygg vinduet ditt",
+    "Sett tidene dine",
+    "Ditt søvnvindu"
+  ],
+  "screen1": {
+    "title": "Søvnvinduet ditt betyr mer enn du tror",
+    "p1": "Et søvnvindu er den faste tiden mellom når du legger deg og når du våkner. Å holde det jevnt – selv i helgene – er en av de mest kraftfulle tingene du kan gjøre for søvnen din.",
+    "p2": "Dette verktøyet hjelper deg å bygge din egen på under 2 minutter.",
+    "insight": "Selv en times forskjell i søvntid i helgene kan forstyrre hvordan du føler deg hele uken.",
+    "meta": "Enkelt. Personlig. Effektivt.",
+    "button": "La oss bygge min →"
+  },
+  "screen2": {
+    "title": "La oss sette søvnvinduet ditt",
+    "step1": {
+      "title": "STEG 1 — OPPVÅKNINGSTID",
+      "desc": "Når må du våkne de fleste dager?"
+    },
+    "step2": {
+      "title": "STEG 2 — SØVNVARIGHET",
+      "desc": "Hvor mange timers søvn vil du ha?"
+    },
+    "live_window": {
+      "bedtime": "Leggetid",
+      "waketime": "Oppvåkningstid",
+      "duration": "{{hours}} timer søvn"
+    },
+    "italic": "De fleste voksne trenger 7–9 timer. Velg det som føles riktig.",
+    "button": "Se søvnvinduet mitt →"
+  },
+  "screen3": {
+    "title": "Ditt søvnvindu 🌙",
+    "result": {
+      "bedtime": "Leggetid",
+      "waketime": "Oppvåkningstid",
+      "duration": "Varighet",
+      "hours": "{{hours}} timer"
+    },
+    "accordion1": {
+      "title": "3 måter å beskytte den på",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Slapp av 30 minutter før leggetid"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Samme oppvåkningstid hver dag — ja, helgene også"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Unngå lurer som varer mer enn 20 minutter etter kl. 15"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Forplikt deg til én ting i kveld",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Legg bort telefonen før jeg legger meg"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Start en nedtrappingsrutine"
+        },
+        {
+          "emoji": "💡",
+          "text": "Demp lyset en time før leggetid"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Bli ferdig med gjøremålslisten min tidlig"
+        }
+      ]
+    },
+    "quote": "Konsistens er sterkere enn perfeksjon. En god natt bygger seg opp, den neste.",
+    "button": "Spar sovevinduet mitt ✓",
+    "saved_button": "✓ Søvnvindu reddet!",
+    "adjust_times": "Juster tider"
+  },
+  "complete": {
+    "title": "Vindu opprettet",
+    "message": "Ditt ideelle søvnvindu er kartlagt. Konsistens er nøkkelen til dyp, gjenopprettende hvile."
+  },
+  "toasts": {
+    "save_success": "Søvnvindu lagret",
+    "save_error": "Klarte ikke å lagre hvilevinduet",
+    "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
+    "saving": "Redde..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start på nytt",
+    "finish_exit": "Fullfør og avslutt",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid for å fullføre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremdrift",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktiviteten",
+    "copied": "Kopiert!",
+    "copy_message": "Kopier melding",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Søvnvinduplanlegger",
+  "more": "Flere",
+  "breadcrumb": "brødsmuler",
+  "previous_slide": "Forrige lysbilde",
+  "next_slide": "Neste lysbilde",
+  "close": "Lukke",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til neste side",
+  "toggle_sidebar": "Slå sidefeltet av/på",
+  "oops_page_not_found": "Ups! Siden ble ikke funnet",
+  "return_to_home": "Gå tilbake til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

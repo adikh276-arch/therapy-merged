@@ -1,0 +1,81 @@
+{
+  "app_title": "למה המוח נתקע",
+  "app_subtitle": "לוגיקת ההישרדות • {{step}}/{{total}}",
+  "s1": {
+    "title": "המוח שלך לא נשבר. הוא הסתגל.",
+    "description": "אחרי טראומה, המוח שלך מתכוון מחדש כדי לשמור עליך בטוח. הוא למד שהעולם יכול להיות מסוכן, ולכן נשאר מוכן. זו לא פגם. זה הישרדות.",
+    "quote": "\"PTSD זה לא סימן שמשהו לא בסדר אצלך. זה סימן שמשהו קרה לך.\"",
+    "button": "ספר לי עוד"
+  },
+  "s2": {
+    "tag": "אמיתות עדינות",
+    "title": "לוגיקת הישרדות מוחית",
+    "truths": [
+      {
+        "header": "האזעקה נשארה דולקת",
+        "body": "ערנות יתר והבהלה בקלות אינן תגובות מוגזמות — מערכת האזעקה של המוח שלך עושה את העבודה שלה טוב מדי."
+      },
+      {
+        "header": "פלאשבקים הם זיכרון",
+        "body": "הטריגרים מושכים את המוח שלך אחורה כי הוא אף פעם לא קיבל את האות שהאיום נגמר. הוא מנסה להגן עליך."
+      },
+      {
+        "header": "נלחם בשבילך",
+        "body": "כל תסמין היה פעם מעשה הישרדות. המוח שלך עשה את מה שהיה צריך כדי לשמור עליך בחיים."
+      }
+    ],
+    "healing": "ריפוי זה לא לשכוח. זה עוסק בעזרה למוח שלך ללמוד שאתה בטוח עכשיו."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "התחל מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "זמן להשלים",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "לַחֲלוֹק",
+    "share_progress": "שתף התקדמות",
+    "inspire_others": "תנו השראה לאחרים היום",
+    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "מוּעֲתָק!",
+    "copy_message": "העתקת הודעה",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ההיגיון של ההישרדות • {{step}}/{{total}}",
+  "more": "יוֹתֵר",
+  "breadcrumb": "פירורי לחם",
+  "previous_slide": "שקופית קודמת",
+  "next_slide": "השקופית הבאה",
+  "close": "לִסְגוֹר",
+  "previous": "קוֹדֵם",
+  "more_pages": "דפים נוספים",
+  "pagination": "דִפּוּף",
+  "go_to_previous_page": "עבור לעמוד הקודם",
+  "go_to_next_page": "עבור לעמוד הבא",
+  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
+  "oops_page_not_found": "אופס! הדף לא נמצא",
+  "return_to_home": "חזרה לבית",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

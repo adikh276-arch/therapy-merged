@@ -1,0 +1,125 @@
+{
+  "app_title": "Pauseøvelse",
+  "app_subtitle": "Mestre rummet imellem",
+  "intro": {
+    "title": "Den 5-sekunders pause",
+    "description": "En lille pause mellem at føle og reagere kan ændre alt.",
+    "duration": "Det tager mindre end 15 sekunder. Virkelig.",
+    "button": "Prøv det →"
+  },
+  "scenario": {
+    "title": "Hvad trigger dig?",
+    "desc": "Vælg en situation, du kan relatere til",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Nogen afbryder mig",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Tingene går ikke som planlagt",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "Jeg føler mig ignoreret",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "Jeg føler mig overvældet",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Skriv dit eget...",
+    "button": "Øv pause→"
+  },
+  "hold": {
+    "title": "Hold pause ⏸️",
+    "instructions": "Hold cirklen i 5 sekunder",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "Tryk og hold..."
+      },
+      {
+        "at": "0.15",
+        "text": "Bliv ved..."
+      },
+      {
+        "at": "0.5",
+        "text": "Du gør det..."
+      },
+      {
+        "at": "0.8",
+        "text": "Næsten der..."
+      }
+    ]
+  },
+  "result": {
+    "title": "Det er pausen",
+    "message": "Du skabte bare afstand mellem det, du følte, og hvordan du reagerede. Selv en kort pause hjælper dig med at genvinde dit centrum.",
+    "tip_label": "Pro Tip",
+    "scenario_messages": {
+      "interrupts": "Næste gang nogen afbryder dig, så prøv dette, før du svarer.",
+      "plans": "Næste gang tingene ikke går som planlagt, så prøv dette, før du reagerer.",
+      "ignored": "Næste gang du føler dig ignoreret, så prøv dette, før du svarer.",
+      "overwhelmed": "Næste gang du føler dig overvældet, så prøv dette, før du gør noget.",
+      "other": "Næste gang du føler dig trigget, så prøv dette, før du reagerer."
+    },
+    "italic": "Det vil ikke altid føles let – men konsistens er nøglen."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Mestrer rummet mellem",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

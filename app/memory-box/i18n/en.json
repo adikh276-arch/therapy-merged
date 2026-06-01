@@ -1,0 +1,146 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": [
+    "Your Box",
+    "Honoring",
+    "Expressing",
+    "Preserved",
+    "Gentle Care"
+  ],
+  "complete_title": "Memory Preserved",
+  "complete_message": "You've safely placed a memory of {{name}} in your box. These moments of connection are yours to keep, always.",
+  "auth_error": "Auth session missing or DB not configured",
+  "save_success": "Memory preserved",
+  "save_error": "Failed to preserve memory",
+  "preserving": "Preserving...",
+  "preserve_memory": "Preserve Memory",
+  "welcome": {
+    "title": "Your Memory Box",
+    "subtitle1": "A quiet space to remember someone you love. 🤍",
+    "subtitle2": "Take a slow breath in…",
+    "subtitle3": "…and gently breathe out.",
+    "subtitle4": "There's no right or wrong way to do this.",
+    "subtitle5": "Go at your own pace. 🌿",
+    "begin": "Begin ✨",
+    "later": "Maybe later"
+  },
+  "who": {
+    "placeholder_name": "Type their name…",
+    "placeholder_relation": "How do you know them? (optional)",
+    "categories": [
+      {
+        "label": "A happy moment",
+        "emoji": "😊"
+      },
+      {
+        "label": "Something they used to say",
+        "emoji": "💬"
+      },
+      {
+        "label": "A small everyday memory",
+        "emoji": "☕"
+      },
+      {
+        "label": "A place that reminds you of them",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Something I wish I could say",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Continue →"
+  },
+  "expression": {
+    "title": "Expressing Your Memory",
+    "memory_label": "The memory itself",
+    "memory_placeholder": "Write about the moment, the feeling, or the detail you want to keep...",
+    "message_label": "A message to them (optional)",
+    "message_placeholder": "What would you say if you could speak to them right now?",
+    "save": "Preserve Memory",
+    "skip": "Skip for now",
+    "back": "Back"
+  },
+  "box": {
+    "title": "Safely Tucked Away",
+    "subtitle": "This memory of {{name}} is now part of your collection.",
+    "add_another": "Add Another Memory",
+    "finish": "Finish Reflection"
+  },
+  "closing": {
+    "title": "Taking Care",
+    "subtitle": "Closing your box for now. You can return here anytime you need to feel close to these memories.",
+    "exit": "Close Box"
+  },
+  "history": {
+    "title": "Box Contents",
+    "no_memories": "Your box is empty. Add your first memory to begin your collection.",
+    "search_placeholder": "Search memories..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Memory Box",
+  "before_you_go": "Before you go",
+  "grief_comes_in_waves": "Grief comes in waves. 🌊",
+  "what_you_re_feeling_matters": "What you're feeling matters. 🤍",
+  "be_gentle_with_yourself_today": "Be gentle with yourself today. 🌿",
+  "save_exit": "Save & exit 🕊️",
+  "take_your_time": "Take your time 🕯️",
+  "save_to_memory_box": "Save to Memory Box 📦",
+  "write_as_much_or_as_little_as_you_want": "Write as much or as little as you want… ✍️",
+  "if_there_s_something_you_d_like_to_say": "If there's something you'd like to say…",
+  "past_entries": "Past Entries",
+  "no_memories_saved_yet": "No memories saved yet.",
+  "this_memory_is_held_here_for_you": "This memory is held here, for you. 🌿",
+  "add_another_memory": "Add another memory ✨",
+  "finish_for_now": "Finish for now",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

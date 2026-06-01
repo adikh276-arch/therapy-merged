@@ -1,0 +1,125 @@
+{
+  "app_title": "Pause Practice",
+  "app_subtitle": "Master the space between",
+  "intro": {
+    "title": "The 5-Second Pause",
+    "description": "A small pause between feeling and reacting can change everything.",
+    "duration": "Takes less than 15 seconds. Really.",
+    "button": "Try It →"
+  },
+  "scenario": {
+    "title": "What triggers you?",
+    "desc": "Pick a situation you relate to",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "Someone interrupts me",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "Things don't go as planned",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "I feel ignored",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "I feel overwhelmed",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "Type your own...",
+    "button": "Practice Pause →"
+  },
+  "hold": {
+    "title": "Hold to Pause ⏸️",
+    "instructions": "Hold the circle for 5 seconds",
+    "microcopy": [
+      {
+        "at": 0,
+        "text": "Press and hold…"
+      },
+      {
+        "at": 0.15,
+        "text": "Stay with it…"
+      },
+      {
+        "at": 0.5,
+        "text": "You're doing it…"
+      },
+      {
+        "at": 0.8,
+        "text": "Almost there…"
+      }
+    ]
+  },
+  "result": {
+    "title": "That's the Pause",
+    "message": "You just created space between what you felt and how you respond. Even a small pause helps you reclaim your center.",
+    "tip_label": "Pro Tip",
+    "scenario_messages": {
+      "interrupts": "Next time someone interrupts you, try this before responding.",
+      "plans": "Next time things don't go as planned, try this before reacting.",
+      "ignored": "Next time you feel ignored, try this before responding.",
+      "overwhelmed": "Next time you feel overwhelmed, try this before doing anything.",
+      "other": "Next time you feel triggered, try this before reacting."
+    },
+    "italic": "It won't always feel easy—but consistency is key."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Master the space between",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

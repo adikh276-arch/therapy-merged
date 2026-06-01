@@ -1,0 +1,145 @@
+{
+  "app_title": "Předpověď vs realita",
+  "step_label": "Krok {{current}} z 8",
+  "intro": {
+    "title": "Předpověď vs realita",
+    "description": "Porovnejte své úzkostné předpovědi s tím, co se skutečně děje, abyste si vytvořili vyváženější pohled.",
+    "benefits": [
+      "Identifikujte úzkostné vzorce",
+      "Shromažďujte důkazy proti obavám",
+      "Omezte přemýšlení o budoucnosti"
+    ],
+    "duration": "4-5 minut",
+    "view_past": "Zobrazit minulé reflexe"
+  },
+  "history": {
+    "title": "Minulé úvahy",
+    "no_reflections": "Žádné odrazy zatím neuložené.",
+    "prediction_label": "Předpověď",
+    "reality_label": "Realita",
+    "reflection_label": "Reflexe:"
+  },
+  "complete": {
+    "title": "Aktivita dokončena",
+    "saved_title": "Reflexe zachráněna",
+    "message": "Když se podíváte na fakta, pomáháte své mysli naučit se, že věci jsou často zvládnutelnější, než se zdají."
+  },
+  "emotions": [
+    "Úzkostný",
+    "Nervózní",
+    "Bojím se",
+    "Přetížení",
+    "Neklid"
+  ],
+  "intensity_labels": {
+    "not_intense": "Ne intenzivní",
+    "very_intense": "Velmi intenzivní"
+  },
+  "comparison_options": [
+    "Dopadlo to téměř přesně tak, jak jsem čekal",
+    "Některé části byly správné, ale ne všechny",
+    "Bylo to dost jiné, než jsem čekal",
+    "Bylo to mnohem jednodušší/lepší, než jsem si představoval"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Vzpomínejte na nedávnou situaci",
+      "desc": "Vzpomínáte na nedávný okamžik, kdy jste se cítili úzkostně nebo nejistí.",
+      "placeholder": "Popište situaci..."
+    },
+    "s2": {
+      "title": "Co jste si mysleli, že se stane?",
+      "desc": "Co jste v tu chvíli očekávali nebo se báli?",
+      "placeholder": "Bál jsem se, že..."
+    },
+    "s3": {
+      "title": "Jak jste se cítili?",
+      "desc": "Vyberte emoce, které jste cítili, a jejich intenzitu."
+    },
+    "s4": {
+      "title": "Co se vlastně stalo?",
+      "desc": "Zaměřte se na fakta o tom, co se skutečně stalo.",
+      "placeholder": "Ve skutečnosti..."
+    },
+    "s5": {
+      "title": "Podívejme se na obě možnosti",
+      "expectation": "Očekávání",
+      "reality": "Realita",
+      "question": "Jak blízko byla vaše očekávání?"
+    },
+    "s6": {
+      "title": "Čeho si všimnete?",
+      "desc": "Bylo to tak špatné, jak jste si mysleli?",
+      "placeholder": "Všiml jsem si, že..."
+    },
+    "s7": {
+      "title": "Příště",
+      "desc": "Co byste si mohli připomenout, kdyby se to stalo znovu?",
+      "placeholder": "například \"Možná to nebude tak špatné, jak si představuji.\""
+    },
+    "s8": {
+      "title": "Malá připomínka",
+      "desc": "Mysl se vás snaží připravit – ale ne vždy přesně předpovídá. Pokaždé, když se zastavíte a podíváte se na fakta, budujete odolnost.",
+      "button": "Uložte si odraz",
+      "discard": "Vstup do odhození"
+    }
+  },
+  "buttons": {
+    "continue": "Pokračovat"
+  },
+  "toasts": {
+    "saved": "Odraz uložen!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Předpověď vs. realita",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

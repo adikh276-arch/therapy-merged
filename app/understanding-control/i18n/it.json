@@ -1,0 +1,113 @@
+{
+  "app_title": "Comprendere il controllo",
+  "app_subtitle": "Strategia di sopravvivenza • {{step}}/3",
+  "screens": [
+    {
+      "headline": "Perché il controllo può sembrare così potente",
+      "paragraphs": [
+        "Per molte persone che hanno difficoltà alimentari, il controllo può sembrare un modo per creare sicurezza.",
+        "Quando la vita sembra imprevedibile o emotivamente intensa, concentrarsi su cibo, peso o routine può portare un senso di struttura e certezza.",
+        "Non si tratta di forza di volontà o disciplina. Si tratta di cercare di stabilizzarsi quando le cose sembrano incerte.",
+        "In questo modo, il controllo diventa una strategia di coping — qualcosa che ti aiuta a sentirti radicato, anche se solo temporaneamente."
+      ],
+      "microcopy": "Non sei l'unico a sentirti così.",
+      "cta": "Continua"
+    },
+    {
+      "headline": "Diversi modi in cui appare il controllo",
+      "intro": "Il bisogno di controllo non appare uguale per tutti, ma spesso si manifesta in schemi come:",
+      "bullets": [
+        {
+          "text": "Regole alimentari rigide o inflessibili"
+        },
+        {
+          "text": "Bisogna seguire le routine alla lettera"
+        },
+        {
+          "text": "Ansia quando cambiano i piani"
+        },
+        {
+          "text": "Collegare l'autostima alla forma/peso"
+        }
+      ],
+      "outro": "Col tempo, questi possono diventare rigidi, occupando spazio mentale e rendendo più difficile adattarsi.",
+      "microcopy": "Quello che inizia come controllo può lentamente iniziare a sembrare controllante.",
+      "cta": "Continua"
+    },
+    {
+      "headline": "Sotto il controllo",
+      "intro": "L'impulso a controllare spesso ha radici più profonde. Può essere collegato a:",
+      "bullets": [
+        {
+          "text": "Sentirsi emotivamente sommerso"
+        },
+        {
+          "text": "Desidero prevedibilità"
+        },
+        {
+          "text": "Un bisogno di stabilità e sicurezza"
+        }
+      ],
+      "insight": "Il controllo non è il problema — è la strategia che la tua mente ha trovato per affrontare la situazione. Con il tempo e il supporto, sono possibili altri modi per sentirsi al sicuro.",
+      "microcopy": "La comprensione è un primo passo potente.",
+      "cta": "Termina la lettura"
+    }
+  ],
+  "complete": {
+    "title": "Consapevolezza acquisita",
+    "message": "Comprendere le radici del controllo è un primo passo coraggioso per trovare nuovi modi per sentirsi sicuri e stabili.",
+    "button_fallback": "Back to Hub"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Strategia di sopravvivenza • {{step}}/3",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

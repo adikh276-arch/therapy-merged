@@ -1,0 +1,147 @@
+{
+  "title": "片刻的欣賞",
+  "subtitle": "5-7分鐘引導式反思",
+  "nav": {
+    "history": "歷史",
+    "home": "家"
+  },
+  "intro": {
+    "text1": "當一段關係出現緊張時，人們很容易只專注在哪裡出了問題。這段反思提供了一個短暫的停頓——並非為了忽視這些問題，而是為了溫和地拓寬視角。",
+    "text2": "不必非得心存感激。只要留意內心湧現的感受即可。",
+    "begin": "開始",
+    "viewHistory": "查看歷史記錄"
+  },
+  "breathing": {
+    "title": "抵達並安頓",
+    "description": "在繼續之前，請稍作停頓。此刻並非要解決任何問題，而是為了創造空間。",
+    "instruction": "請按照以下呼吸節奏進行呼吸。",
+    "inhale": "吸氣… {{counter}}…",
+    "hold": "抓住…",
+    "exhale": "呼氣… {{counter}}…",
+    "affirmation": "“我可以承認哪些事情感覺困難，同時仍然保持開放的心態去觀察。”",
+    "continue": "繼續"
+  },
+  "reflection": {
+    "step": "總計的 {{total}} 步 {{step}}",
+    "prompts": {
+      "p1": "最近和伴侶之間發生的一件小事，並沒有讓你們感到緊張，那就是…",
+      "p1_ex": "“晚上我們進行了一次簡短而平靜的談話。”",
+      "p2": "你的伴侶所做的努力之一——即使不完美——是…",
+      "p2_ex": "“他們試圖解釋自己的感受，而不是選擇逃避。”",
+      "p3": "你伴侶身上始終不變的一個特質是…",
+      "p3_ex": "“他們一如既往地展現出對我們職責的盡職盡責。”"
+    },
+    "placeholder": "請在此寫下您的感想…",
+    "next": "下一個",
+    "finish": "結束"
+  },
+  "intention": {
+    "step": "第 4 步（共 4 步）",
+    "title": "你想如何保存這份反思？",
+    "options": {
+      "private": "我希望將這種想法保留在個人隱私中。",
+      "share_part": "我可能會選擇與我的伴侶分享其中的一部分。",
+      "share_full": "我想完整地分享我的思考。",
+      "save_later": "我會把這件事留到以後再談。"
+    },
+    "continue": "繼續"
+  },
+  "checkin": {
+    "title": "完成以上反思後，你覺得哪一句話最準確？",
+    "statements": {
+      "s1": "我現在感覺對伴侶更加坦誠了一些。",
+      "s2": "我沒感覺到太大變化，但我願意保持專注。",
+      "s3": "我覺得完成這項任務有點困難。",
+      "s4": "反思的過程中，我感到一絲溫暖。",
+      "s5": "我注意到了一些阻力，我覺得承認這一點很重要。",
+      "s6": "與開始之前相比，我感覺自己身體柔和了一些。"
+    },
+    "finish": "完成並儲存"
+  },
+  "closing": {
+    "title": "反思完成",
+    "text1": "這種暫停並不會消除挑戰，它只是讓雙方重新審視這段關係，恢復平衡。",
+    "text2": "即使是短暫的關注也能逐漸軟化情緒僵化，為更健康的對話創造空間。",
+    "save": "儲存到 Reflections",
+    "viewHistory": "查看歷史記錄",
+    "exit": "出口"
+  },
+  "history": {
+    "title": "你的反思歷史",
+    "noReflections": "尚未保存任何反思記錄。您已完成的會話將顯示在此。",
+    "back": "返回開頭",
+    "confirmDelete": "確認刪除",
+    "cancel": "取消",
+    "delete": "刪除條目",
+    "prompts": [
+      "一個不讓人感到緊張的小時刻…",
+      "你的伴侶所做的一項努力是…",
+      "始終不變的品質之一是…",
+      "意圖",
+      "情緒檢查"
+    ]
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新開始",
+    "finish_exit": "結束並退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成時間",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天激勵他人",
+    "share_text": "我在 TherapyMantra 上完成了這個 {{activityName}} 活動，非常喜歡，你也試試看吧，只需點擊連結下載安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}}。",
+    "this_activity": "這項活動",
+    "copied": "已複製！",
+    "copy_message": "複製訊息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_duration": "3-5分鐘",
+  "app_title": "反思",
+  "intro_p1": "培養感恩之心",
+  "intro_p2": "減輕壓力",
+  "intro_p3": "改善幸福感",
+  "app_description": "5-7分鐘引導式反思",
+  "how_do_you_feel_after_this_reflection": "反思之後，你有什麼感受？",
+  "your_past_reflections_appreciations": "你過去的反思與感悟",
+  "start_new_session": "開始新會話",
+  "feeling": "感覺",
+  "delete_this_entry": "刪除此條目？",
+  "delete_5": "刪除",
+  "more": "更多的",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "close": "關閉",
+  "previous": "以前的",
+  "more_pages": "更多頁面",
+  "pagination": "分頁",
+  "go_to_previous_page": "回上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "oops_page_not_found": "糟糕！頁面未找到",
+  "return_to_home": "回首頁",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

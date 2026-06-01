@@ -1,0 +1,145 @@
+{
+  "app_title": "Ramalan vs Realiti",
+  "step_label": "Langkah {{current}} daripada 8",
+  "intro": {
+    "title": "Ramalan vs Realiti",
+    "description": "Bandingkan ramalan cemas anda dengan apa yang sebenarnya berlaku untuk membina perspektif yang lebih seimbang.",
+    "benefits": [
+      "Kenal pasti corak cemas",
+      "Kumpulkan bukti terhadap ketakutan",
+      "Kurangkan pemikiran berlebihan masa depan"
+    ],
+    "duration": "4-5 minit",
+    "view_past": "Lihat Refleksi Masa Lalu"
+  },
+  "history": {
+    "title": "Refleksi Masa Lalu",
+    "no_reflections": "Tiada refleksi disimpan lagi.",
+    "prediction_label": "Ramalan",
+    "reality_label": "Realiti",
+    "reflection_label": "Refleksi:"
+  },
+  "complete": {
+    "title": "Aktiviti Selesai",
+    "saved_title": "Refleksi Disimpan",
+    "message": "Dengan melihat fakta, anda membantu minda anda belajar bahawa perkara selalunya lebih terkawal daripada yang kelihatan."
+  },
+  "emotions": [
+    "Cemas",
+    "Saraf",
+    "Takut",
+    "Terharu",
+    "Tidak selesa"
+  ],
+  "intensity_labels": {
+    "not_intense": "Tidak sengit",
+    "very_intense": "Sangat sengit"
+  },
+  "comparison_options": [
+    "Ternyata hampir sama seperti yang saya jangkakan",
+    "Beberapa bahagian betul, tetapi tidak semuanya",
+    "Ia agak berbeza daripada apa yang saya jangkakan",
+    "Ia jauh lebih mudah/lebih baik daripada yang saya bayangkan"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Fikirkan situasi baru-baru ini",
+      "desc": "Ingat detik baru-baru ini di mana anda berasa cemas atau tidak pasti.",
+      "placeholder": "Terangkan keadaan..."
+    },
+    "s2": {
+      "title": "Apa yang anda fikir akan berlaku?",
+      "desc": "Apa yang anda jangkakan atau takutkan pada masa itu?",
+      "placeholder": "Saya bimbang bahawa..."
+    },
+    "s3": {
+      "title": "Bagaimana perasaan anda?",
+      "desc": "Pilih emosi yang anda rasakan dan keamatannya."
+    },
+    "s4": {
+      "title": "Apa sebenarnya yang berlaku?",
+      "desc": "Fokus pada fakta tentang apa yang sebenarnya berlaku.",
+      "placeholder": "Pada hakikatnya..."
+    },
+    "s5": {
+      "title": "Mari kita lihat kedua-duanya",
+      "expectation": "Jangkaan",
+      "reality": "Realiti",
+      "question": "Sejauh manakah jangkaan anda?"
+    },
+    "s6": {
+      "title": "Apa yang anda perhatikan?",
+      "desc": "Adakah ia seteruk yang anda fikirkan?",
+      "placeholder": "Saya perhatikan bahawa..."
+    },
+    "s7": {
+      "title": "Lain kali",
+      "desc": "Apa yang boleh anda ingatkan kepada diri sendiri jika ini berlaku lagi?",
+      "placeholder": "cth, \"Mungkin ia tidak akan seteruk yang saya bayangkan.\""
+    },
+    "s8": {
+      "title": "Peringatan kecil",
+      "desc": "Fikiran anda cuba menyediakan anda—tetapi ia tidak selalu meramalkan dengan tepat. Setiap kali anda berhenti seketika untuk melihat fakta, anda membina daya tahan.",
+      "button": "Simpan Refleksi",
+      "discard": "Buang Kemasukan"
+    }
+  },
+  "buttons": {
+    "continue": "Teruskan"
+  },
+  "toasts": {
+    "saved": "Refleksi diselamatkan!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mula Semula",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Masa untuk disiapkan",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Kongsi",
+    "share_progress": "Kongsi Kemajuan",
+    "inspire_others": "Beri inspirasi kepada orang lain hari ini",
+    "share_text": "Saya telah melakukan {{activityName}} ini dalam TherapyMantra dan sangat menikmatinya, anda juga boleh melakukannya, ikuti sahaja pautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "aktiviti ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Mesej",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ramalan vs Realiti",
+  "more": "Lebih lanjut",
+  "breadcrumb": "serbuk roti",
+  "previous_slide": "Slaid sebelumnya",
+  "next_slide": "Slaid seterusnya",
+  "close": "Tutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Lebih banyak halaman",
+  "pagination": "penomboran halaman",
+  "go_to_previous_page": "Pergi ke halaman sebelumnya",
+  "go_to_next_page": "Pergi ke halaman seterusnya",
+  "toggle_sidebar": "Togol Bar Sisi",
+  "oops_page_not_found": "Alamak! Halaman tidak ditemui",
+  "return_to_home": "Kembali ke Rumah",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

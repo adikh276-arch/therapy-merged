@@ -1,0 +1,124 @@
+{
+  "app_title": "분노-수치심 순환",
+  "app_subtitle": "루프 이해 • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "왜 분노가 계속 다시 떠오르는 걸까요?",
+      "description": "성격 때문이 아닐 수도 있어. 분노와 수치심 사이에는 숨겨진 고리가 있고, 그것을 보면 모든 것이 변한다.",
+      "quote": "\"대부분 사람들은 분노를 달래려고 해. 하지만 수치심이 조용히 그것을 계속 움직이게 한다.\"",
+      "button": "함께 탐험해 봅시다"
+    },
+    "s2": {
+      "tag": "사이클",
+      "title": "루프가 설명했다",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "분노가 표면으로 드러난다"
+        },
+        {
+          "emoji": "😔",
+          "label": "수치심: \"나는 나쁘다\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "수치심은 묻혀버린다"
+        },
+        {
+          "emoji": "🔥",
+          "label": "분노가 다시 폭발한다"
+        }
+      ],
+      "button": "보여요"
+    },
+    "s3": {
+      "tag": "무슨 일이야?",
+      "title": "두 가지 감정, 하나의 함정",
+      "anger": {
+        "title": "🔥 분노",
+        "desc": "2차 감정 — 삶 밑에는 상처, 두려움, 거절이 숨어 있습니다. 불이 아니라 경보 때문이야."
+      },
+      "shame": {
+        "title": "😔 부끄러운 일이야",
+        "desc": "\"나는 나쁘다\" — 단순히 \"나쁜 짓을 했다\"가 아니라. 그것은 숨고, 침묵시키며, 순환을 계속 돌립니다."
+      },
+      "button": "브레이크 프리"
+    },
+    "s4": {
+      "tag": "중단",
+      "title": "순환을 끊으세요",
+      "steps": [
+        {
+          "title": "출처를 말하세요",
+          "desc": "물어보세요: '내가 실제로 느끼는 감정은 무엇인가?' 다쳤다고? 무서워? 보이지 않는 것? 이름을 붙이면 약해집니다."
+        },
+        {
+          "title": "연민의 잠시 침묵",
+          "desc": "가슴에 손을 얹고. 이렇게 말하세요: '이건 어렵습니다. 나도 인간이야. 난 이겨낼 수 있어.'"
+        },
+        {
+          "title": "우아함으로 수리하다",
+          "desc": "필요하다면 보상하되, 감정이 나락에 빠지지 마세요. 네가 최악의 순간은 아니야."
+        }
+      ],
+      "notice": "주기를 인지하는 것이 이미 첫걸음입니다. 네가 일을 하고 있어.",
+      "button": "전체 활동"
+    }
+  },
+  "complete": {
+    "title": "사이클 중단",
+    "message": "당신은 분노와 수치심 사이의 연관성을 인식하게 되었습니다. 이것이 지속적인 감정적 자유의 토대입니다."
+  },
+  "common": {
+    "get_started": "시작하기",
+    "start_over": "처음부터 다시 시작",
+    "finish_exit": "완료 및 종료",
+    "well_done": "잘하셨어요!",
+    "completion_message": "이 활동을 성공적으로 완료하셨습니다. 잠시 시간을 내어 지금까지의 성과를 되돌아보세요.",
+    "time_to_complete": "완료 시간",
+    "back": "뒤로",
+    "next": "다음",
+    "save": "저장",
+    "loading": "로딩 중...",
+    "share": "공유하다",
+    "share_progress": "진행 상황 공유",
+    "inspire_others": "오늘 다른 사람들에게 영감을 주세요",
+    "share_text": "저는 TherapyMantra에서 {{activityName}} 활동을 해봤는데 정말 좋았어요. 여러분도 해보세요. 안드로이드 앱 {{androidUrl}} 또는 iOS 앱 {{iosUrl}} 링크를 따라가시면 됩니다.",
+    "this_activity": "이 활동",
+    "copied": "복사했어요!",
+    "copy_message": "메시지 복사",
+    "yes": "네",
+    "no": "아니요",
+    "date": "날짜",
+    "continue": "계속하기",
+    "step_of": "{{total}}단계 중 {{current}}단계",
+    "round_of": "{{total}}라운드 중 {{current}}라운드",
+    "phase_label": "단계",
+    "rounds_selector": "{{count}} 라운드",
+    "instruction_ready": "라운드를 설정하고 재생을 눌러 시작하세요",
+    "instruction_running": "원을 따라 호흡을 조절하세요"
+  },
+  "app_description": "반복문 이해하기 • {{step}}/{{total}}",
+  "more": "더",
+  "breadcrumb": "빵가루",
+  "previous_slide": "이전 슬라이드",
+  "next_slide": "다음 슬라이드",
+  "close": "닫다",
+  "previous": "이전의",
+  "more_pages": "더 많은 페이지",
+  "pagination": "쪽수 매기기",
+  "go_to_previous_page": "이전 페이지로 이동",
+  "go_to_next_page": "다음 페이지로 이동",
+  "toggle_sidebar": "사이드바 토글",
+  "oops_page_not_found": "앗! 페이지를 찾을 수 없습니다.",
+  "return_to_home": "홈으로 돌아가기",
+  "phase_label": "단계",
+  "instruction_ready": "라운드를 설정하고 재생을 눌러 시작하세요",
+  "instruction_running": "원을 따라 호흡을 조절하세요",
+  "round_x_of_y": "{{total}}라운드 중 {{current}}라운드",
+  "rounds_selector": "{{count}} 라운드",
+  "yes": "네",
+  "no": "아니요",
+  "date": "날짜",
+  "continue": "계속하기"
+}

@@ -1,0 +1,114 @@
+{
+  "app_title": "Ruang Aman",
+  "nav": [
+    "Check-in",
+    "Ingat dengan Lembut",
+    "Mengamati",
+    "Tetap Hadir",
+    "Maju"
+  ],
+  "s1": {
+    "title": "Mari kita temukan tempat yang terasa baik-baik saja",
+    "description": [
+      "Sebelum kita mulai, luangkan waktu sejenak untuk check-in...",
+      "Bagaimana perasaan Anda saat ini?",
+      "Kami tidak mencari \"tempat aman\" yang sempurna. Hanya sesuatu yang terasa sedikit tenang atau baik-baik saja."
+    ],
+    "placeholder": "Bagaimana perasaan Anda saat ini?",
+    "button": "Mulai Visualisasi"
+  },
+  "s2": {
+    "title": "Ingatkan dengan lembut",
+    "description": [
+      "Pikirkan tempat di mana Anda merasa sedikit nyaman... atau tempat yang Anda inginkan ada.",
+      "Sekarang tempatkan diri Anda di sana...",
+      "Apakah Anda duduk, berdiri, atau berbaring?"
+    ],
+    "button": "Lanjutkan"
+  },
+  "s3": {
+    "title": "Lihat sekeliling perlahan",
+    "description": [
+      "Lihatlah sekeliling dengan lembut ...",
+      "Apa satu hal yang bisa Anda lihat?",
+      "Sekarang perhatikan suara... Apa yang Anda dengar?"
+    ],
+    "button": "Lanjutkan"
+  },
+  "s4": {
+    "title": "Tetap dengan ini",
+    "description": [
+      "Apa yang membuat tempat ini terasa sedikit aman atau baik-baik saja?",
+      "Seperti yang Anda perhatikan bahwa...",
+      "juga bawa perhatian Anda ke napas Anda."
+    ],
+    "breathe": "bernapas",
+    "notice": "Jika berimajinasi terasa sulit, pikirkan saja ide tempat ini.",
+    "button": "Lanjutkan"
+  },
+  "s5": {
+    "title": "Bawa ini bersama Anda",
+    "description": [
+      "Perhatikan bagaimana perasaan Anda saat ini. Bahkan pergeseran kecil pun penting.",
+      "Lihat apakah Anda dapat membawa bahkan 5% dari perasaan ini bersama Anda."
+    ],
+    "placeholder": "Bagaimana perasaan Anda sekarang?",
+    "button": "Sesi Lengkap"
+  },
+  "complete": {
+    "title": "Sesi Selesai",
+    "message": "Tempat aman ini selalu tersedia untuk Anda. Anda dapat kembali ke sini kapan pun Anda membutuhkan momen tenang."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Mulai dari Awal",
+    "finish_exit": "Selesai & Keluar",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Waktu penyelesaian",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Membagikan",
+    "share_progress": "Bagikan Kemajuan",
+    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
+    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
+    "this_activity": "aktivitas ini",
+    "copied": "Disalin!",
+    "copy_message": "Salin Pesan",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Ruang Aman",
+  "more": "Lagi",
+  "breadcrumb": "remah roti",
+  "previous_slide": "Slide sebelumnya",
+  "next_slide": "Slide berikutnya",
+  "close": "Menutup",
+  "previous": "Sebelumnya",
+  "more_pages": "Halaman lainnya",
+  "pagination": "penomoran halaman",
+  "go_to_previous_page": "Kembali ke halaman sebelumnya",
+  "go_to_next_page": "Lanjut ke halaman berikutnya",
+  "toggle_sidebar": "Alihkan Sidebar",
+  "oops_page_not_found": "Ups! Halaman tidak ditemukan",
+  "return_to_home": "Kembali ke Halaman Utama",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

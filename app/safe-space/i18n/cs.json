@@ -1,0 +1,114 @@
+{
+  "app_title": "Bezpečný prostor",
+  "nav": [
+    "Check-in",
+    "Jemné připomenutí",
+    "Pozorování",
+    "Zůstat přítomný",
+    "Pokračujeme dál"
+  ],
+  "s1": {
+    "title": "Najděme místo, kde je to v pohodě",
+    "description": [
+      "Než začneme, věnujte chvíli kontrole toho...",
+      "Jak se teď cítíš?",
+      "Nehledáme dokonalé \"bezpečné místo\". Jen něco, co působí alespoň trochu klidně nebo v pořádku."
+    ],
+    "placeholder": "Jak se teď cítíš?",
+    "button": "Začněte vizualizaci"
+  },
+  "s2": {
+    "title": "Jemně si to připomeň",
+    "description": [
+      "Představ si místo, kde ses cítil alespoň trochu v klidu... nebo místo, které byste si přáli existovat.",
+      "Teď se tam postav...",
+      "Sedíte, stojíte nebo ležíte?"
+    ],
+    "button": "Pokračovat"
+  },
+  "s3": {
+    "title": "Rozhlédni se pomalu",
+    "description": [
+      "Rozhlédni se kolem sebe...",
+      "Co je jedna věc, kterou vidíš?",
+      "Teď si všimněte zvuku... Co slyšíš?"
+    ],
+    "button": "Pokračovat"
+  },
+  "s4": {
+    "title": "Vydrž to",
+    "description": [
+      "Co je na tomto místě takové, že se cítí byť jen trochu bezpečně nebo v pohodě?",
+      "Když si všimneš, že...",
+      "Také zaměřte pozornost na svůj dech."
+    ],
+    "breathe": "Dýchej",
+    "notice": "Pokud je představa těžká, jen si představte toto místo.",
+    "button": "Pokračovat"
+  },
+  "s5": {
+    "title": "Vezmi si to s sebou",
+    "description": [
+      "Všímej si, jak se teď cítíš. I malá změna je důležitá.",
+      "Zkus si vzít alespoň 5 % tohoto pocitu s sebou."
+    ],
+    "placeholder": "Jak se teď cítíš?",
+    "button": "Kompletní sezení"
+  },
+  "complete": {
+    "title": "Session dokončena",
+    "message": "Toto bezpečné místo je pro vás vždy k dispozici. Můžeš se sem vrátit, kdykoli budeš potřebovat chvíli klidu."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Začít znovu",
+    "finish_exit": "Dokončit a ukončit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Čas na dokončení",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Podíl",
+    "share_progress": "Sdílet pokrok",
+    "inspire_others": "Inspirujte ostatní ještě dnes",
+    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu mě baví, můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
+    "this_activity": "tato aktivita",
+    "copied": "Zkopírováno!",
+    "copy_message": "Kopírovat zprávu",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Bezpečný prostor",
+  "more": "Více",
+  "breadcrumb": "strouhanka",
+  "previous_slide": "Předchozí snímek",
+  "next_slide": "Další snímek",
+  "close": "Blízko",
+  "previous": "Předchozí",
+  "more_pages": "Více stránek",
+  "pagination": "stránkování",
+  "go_to_previous_page": "Přejít na předchozí stránku",
+  "go_to_next_page": "Přejít na další stránku",
+  "toggle_sidebar": "Přepnout postranní panel",
+  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "return_to_home": "Návrat domů",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

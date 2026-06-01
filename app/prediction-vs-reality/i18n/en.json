@@ -1,0 +1,145 @@
+{
+  "app_title": "Prediction vs Reality",
+  "step_label": "Step {{current}} of 8",
+  "intro": {
+    "title": "Prediction vs Reality",
+    "description": "Compare your anxious predictions with what actually happens to build a more balanced perspective.",
+    "benefits": [
+      "Identify anxious patterns",
+      "Collect evidence against fears",
+      "Reduce future overthinking"
+    ],
+    "duration": "4-5 minutes",
+    "view_past": "View Past Reflections"
+  },
+  "history": {
+    "title": "Past Reflections",
+    "no_reflections": "No reflections saved yet.",
+    "prediction_label": "Prediction",
+    "reality_label": "Reality",
+    "reflection_label": "Reflection:"
+  },
+  "complete": {
+    "title": "Activity Complete",
+    "saved_title": "Reflection Saved",
+    "message": "By looking at the facts, you're helping your mind learn that things are often more manageable than they seem."
+  },
+  "emotions": [
+    "Anxious",
+    "Nervous",
+    "Scared",
+    "Overwhelmed",
+    "Uneasy"
+  ],
+  "intensity_labels": {
+    "not_intense": "Not Intense",
+    "very_intense": "Very Intense"
+  },
+  "comparison_options": [
+    "It turned out almost exactly how I expected",
+    "Some parts were right, but not everything",
+    "It was quite different from what I expected",
+    "It was much easier/better than I imagined"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Think of a recent situation",
+      "desc": "Recall a recent moment where you felt anxious or unsure.",
+      "placeholder": "Describe the situation..."
+    },
+    "s2": {
+      "title": "What did you think would happen?",
+      "desc": "What were you expecting or fearing in that moment?",
+      "placeholder": "I was worried that..."
+    },
+    "s3": {
+      "title": "How did you feel?",
+      "desc": "Select the emotions you felt and their intensity."
+    },
+    "s4": {
+      "title": "What actually happened?",
+      "desc": "Focus on the facts of what really took place.",
+      "placeholder": "In reality..."
+    },
+    "s5": {
+      "title": "Let's look at both",
+      "expectation": "Expectation",
+      "reality": "Reality",
+      "question": "How close was your expectation?"
+    },
+    "s6": {
+      "title": "What do you notice?",
+      "desc": "Was it as bad as you thought it would be?",
+      "placeholder": "I notice that..."
+    },
+    "s7": {
+      "title": "Next time",
+      "desc": "What could you remind yourself if this happens again?",
+      "placeholder": "e.g., \"Maybe it won't be as bad as I'm imagining.\""
+    },
+    "s8": {
+      "title": "A small reminder",
+      "desc": "Your mind tries to prepare you—but it doesn't always predict accurately. Every time you pause to look at the facts, you build resilience.",
+      "button": "Save Reflection",
+      "discard": "Discard Entry"
+    }
+  },
+  "buttons": {
+    "continue": "Continue"
+  },
+  "toasts": {
+    "saved": "Reflection saved!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Prediction vs Reality",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

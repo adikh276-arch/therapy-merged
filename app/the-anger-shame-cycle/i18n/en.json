@@ -1,0 +1,124 @@
+{
+  "app_title": "Anger-Shame Cycle",
+  "app_subtitle": "Understanding the loop • {{step}}/{{total}}",
+  "screens": {
+    "s1": {
+      "title": "Why does anger keep coming back?",
+      "description": "It might not be your temper. There's a hidden loop between anger and shame — and once you see it, everything changes.",
+      "quote": "\"Most people try to fix the anger. But shame is what quietly keeps it going.\"",
+      "button": "Let's explore"
+    },
+    "s2": {
+      "tag": "the cycle",
+      "title": "The loop explained",
+      "nodes": [
+        {
+          "emoji": "🔥",
+          "label": "Anger surfaces"
+        },
+        {
+          "emoji": "😔",
+          "label": "Shame: \"I'm bad\""
+        },
+        {
+          "emoji": "🤐",
+          "label": "Shame gets buried"
+        },
+        {
+          "emoji": "🔥",
+          "label": "Anger erupts again"
+        }
+      ],
+      "button": "I see it"
+    },
+    "s3": {
+      "tag": "What's happening",
+      "title": "Two emotions, one trap",
+      "anger": {
+        "title": "🔥 Anger",
+        "desc": "A secondary emotion — underneath lives hurt, fear, or rejection. It's the alarm, not the fire."
+      },
+      "shame": {
+        "title": "😔 Shame",
+        "desc": "\"I am bad\" — not just \"I did something bad.\" It hides, silences, and keeps the cycle spinning."
+      },
+      "button": "Breaking Free"
+    },
+    "s4": {
+      "tag": "Interruption",
+      "title": "Interrupt the cycle",
+      "steps": [
+        {
+          "title": "Name the source",
+          "desc": "Ask: 'What am I actually feeling?' Hurt? Scared? Unseen? Naming it weakens it."
+        },
+        {
+          "title": "Compassion pause",
+          "desc": "Hand on chest. Say: 'This is hard. I'm human. I can get through this.'"
+        },
+        {
+          "title": "Repair with grace",
+          "desc": "Make amends if needed — but don't spiral. You're not your worst moment."
+        }
+      ],
+      "notice": "Noticing the cycle is already the first step. You're doing the work.",
+      "button": "Complete Activity"
+    }
+  },
+  "complete": {
+    "title": "Cycle Interrupted",
+    "message": "You've gained the awareness to see the link between anger and shame. This is the foundation for lasting emotional freedom."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Understanding the loop • {{step}}/{{total}}",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

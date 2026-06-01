@@ -1,0 +1,292 @@
+{
+  "app_title": "Onarım ve Yeniden Bağlantı",
+  "steps": {
+    "welcome": "Hoş geldiniz",
+    "choose_person": "Kişiyi Seç",
+    "choose_approach": "Yaklaşımı Seç",
+    "guided_action": "Yönlendirilmiş Eylem",
+    "complete": "Tamam"
+  },
+  "intro": {
+    "title": "Onarım ve Yeniden Bağlantı",
+    "description": "Öfke, önem verdiğimiz insanlarla aramızda mesafe yaratabilir. Ama küçük, nazik adımlar o bağı yeniden inşa etmeye yardımcı olabilir.",
+    "quote": "\"Onarım yanlış yaptığın anlamına gelmez—bu, denemek için yeterince önemsediğin anlamına gelir.\"",
+    "small_efforts": "Küçük çabalar bile fark yaratabilir.",
+    "button": "Başlayın→"
+  },
+  "choose_person": {
+    "title": "Kiminle yeniden bağlantı kurmak istersiniz?",
+    "desc": "Belirli bir ilişkiyi düşünmek, adımların gerçek hissettirmesine yardımcı olur.",
+    "options": {
+      "friend": "Bir Arkadaş",
+      "family": "Bir Aile Üyesi",
+      "colleague": "Bir Meslektaş",
+      "other": "Başka Biri"
+    },
+    "button": "Devam →"
+  },
+  "choose_approach": {
+    "title": "Senin için ne doğru geliyor?",
+    "desc": "Yapılabilir gibi hissettiren küçük bir adım seç.",
+    "safety": "Her şeyi düzeltmek zorunda değilsin—sadece küçük bir adım seç.",
+    "button": "Bunu →",
+    "approaches": {
+      "friend": [
+        {
+          "id": "message",
+          "label": "Rahat bir check-in gönderin",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Gerginliği kabul edin",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Birbirinize biraz alan bırakın",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Bırak git ve devam et",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Sadece bir düşünün",
+          "emoji": "🪞"
+        }
+      ],
+      "family": [
+        {
+          "id": "message",
+          "label": "Sıcak bir mesaj gönder",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Ne olduğunu dürüstçe söyle",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Bir dahaki sefere duraklatmaya söz verin",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Haklı olmakta barışı tercih et",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Gerçekten neye ihtiyacınız olduğunu düşünün",
+          "emoji": "🪞"
+        }
+      ],
+      "colleague": [
+        {
+          "id": "message",
+          "label": "Profesyonel bir not gönderin",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Saygıyla ele alın",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Bir dahaki sefere daha sakin bir tepki planlayın",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Profesyonel kalın ve devam edin",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Sınırları düşünün",
+          "emoji": "🪞"
+        }
+      ],
+      "other": [
+        {
+          "id": "message",
+          "label": "Basit bir mesajla ulaşın",
+          "emoji": "💬"
+        },
+        {
+          "id": "acknowledge",
+          "label": "Olanları kabul et",
+          "emoji": "🫶"
+        },
+        {
+          "id": "pause",
+          "label": "Bir dahaki sefere durak ver",
+          "emoji": "⏸️"
+        },
+        {
+          "id": "letgo",
+          "label": "Şimdilik bırak gitsin",
+          "emoji": "🍃"
+        },
+        {
+          "id": "reflect",
+          "label": "Sadece düşün (henüz bir eylem yok)",
+          "emoji": "🪞"
+        }
+      ]
+    }
+  },
+  "guided_action": {
+    "tap_reveal": "Nasıl olduğunu görmek ✨ için dokunun",
+    "copy_button": "📋 Mesajı Kopyala",
+    "done_button": "Artık bitti →",
+    "safety_line_default": "Şu anda bir şey göndermek zorunda değilsin. 💛",
+    "safety_line_pause": "Acele etme—acele yok. 💛",
+    "safety_line_reflect": "Bu sadece senin için—başkasının bunu görmesine gerek yok. 💛",
+    "actions": {
+      "message": {
+        "title": "Basit bir mesaj gönderin",
+        "why": "Basit bir mesaj sessizliği bozabilir ve diğer kişiye hâlâ önemsediğini gösterebilir.",
+        "insight": "Ulaşmak—kusurlu olsa bile—neredeyse her zaman beklediğimizden daha iyi karşılanır.",
+        "howTitle": "Küçük başlayın",
+        "howBody": "Makale yazmanıza gerek yok. Birkaç dürüst kelime yeniden bağlantı kurmanın kapısını açabilir.",
+        "prompts": [
+          "Hey, seni düşünüyordum. Umarım iyisinizdir.",
+          "Biliyorum, her şey gergindi—sadece umursadığımı söylemek istedim.",
+          "Az önceki için özür dilerim. Hazır olduğunda konuşabilir miyiz?"
+        ],
+        "promptLabel": "Bir başlangıç noktası seçin:",
+        "editLabel": "Kendi yap:"
+      },
+      "acknowledge": {
+        "title": "Olanları Kabul Et",
+        "why": "Olanları kabul etmek olgunluğu gösterir ve karşı tarafın kendini görüldüğünü hissetmesine yardımcı olur.",
+        "insight": "İnsanlar mükemmel olman için ihtiyaç duymaz—fark ettiğini bilmeleri gerekir.",
+        "howTitle": "Nazik söyle",
+        "howBody": "Tüm suçu üstlenmeden kabul edebilirsiniz. Olanları dürüstçe söyle.",
+        "prompts": [
+          "Aramızda geriye gidiyor biliyorum. Fark ettiğimi bilmeni isterim.",
+          "Fark ettim ki sert hissettim. Niyetim bu değildi.",
+          "Olanlar üzerine düşünüyorum ve keşke farklı şekilde ele alsaydım."
+        ],
+        "promptLabel": "Bir başlangıç noktası seçin:",
+        "editLabel": "Kendi yap:"
+      },
+      "pause": {
+        "title": "Bir dahaki sefere durak ver",
+        "why": "Bir duraklamaya karar vermek, tepki vermek yerine yanıt verme alanı sağlar.",
+        "insight": "6 saniyelik bir duraklama, tepkiden yansıtmaya geçmek için genellikle yeterlidir.",
+        "howTitle": "🧘 Duraklamanızı planlayın",
+        "howBody": "Cevap vermeden önce basit bir işaret düşünün—örneğin nefes almak ya da kısa bir adım uzaklaşmak gibi.",
+        "prompts": [
+          "Bir dahaki kez üzgün hissettiğimde, cevap vermeden önce derin bir nefes alacağım.",
+          "Hemen tepki vermek yerine 'Bana bir dakika ver' demeyi deneyeceğim.",
+          "Düşüncelerimi toplamak için birkaç dakika uzaklaşacağım."
+        ],
+        "promptLabel": "Doğru hissettiren bir taahhüt seçin:",
+        "editLabel": "Kendi niyetinizi yazın:"
+      },
+      "letgo": {
+        "title": "Şimdilik bırak gitsin",
+        "why": "Bazen yapabileceğiniz en nazik şey durumun ağırlığını bırakmaktır.",
+        "insight": "Bırakmak pes etmek değildir—doğru olmaktan çok barışı seçmektir.",
+        "howTitle": "🕊️ Nazik bırak",
+        "howBody": "Unutmana gerek yok. Artık bunun nasıl hissettiğini kontrol etmemesi gerektiğine karar ver.",
+        "prompts": [
+          "Bunu bırakmayı seçiyorum—önemli olmadığı için değil, huzurum daha önemli olduğu için.",
+          "Bu konuda haklı olma ihtiyacımı bırakıyorum. Bağlantıyı seçiyorum.",
+          "Bu durum ilişkimizi tanımlamıyor. İleriye gidiyorum."
+        ],
+        "promptLabel": "Ne rezonans veriyorsa, seçin:",
+        "editLabel": "Sizin için doğru hissettiren şeyleri yazın:"
+      },
+      "reflect": {
+        "title": "Sadece Düşün",
+        "why": "Düşünce, her sağlıklı ilişkinin temelini oluşturan öz-farkındalığı oluşturur.",
+        "insight": "Günlük tutmak ya da olanları düşünmek, duyguları baskı olmadan işlemene yardımcı olur.",
+        "howTitle": "🔍 İçine bak",
+        "howBody": "Kendinize sorun: Öfkenin altında gerçekten ne hissediyordum? Çoğu zaman acı, korku ya da hayal kırıklığıdır.",
+        "prompts": [
+          "Öfkemin altında sanırım incinmiştim.",
+          "Duyulmamak korkusundan tepki verdiğimi fark ettim.",
+          "Gerçekten ihtiyacım olan şey, saygı gördüğümü ve değer gördüğümü hissetmekti."
+        ],
+        "promptLabel": "Ne rezonans veriyorsa, seçin:",
+        "editLabel": "Kendi yansımanızı yazın:"
+      }
+    }
+  },
+  "complete": {
+    "title": "Bağlantı Düzeltildi",
+    "message": "{{person}} ile bağlantınızı onarmak için cesur bir adım attınız. Küçük, kasıtlı eylemler kalıcı köprüler inşa eder.",
+    "default_person": "önemli biri"
+  },
+  "toasts": {
+    "save_success": "Onarım ilerlemesi korundu",
+    "save_error": "Yansımayı koruyamadı",
+    "copy_success": "Mesaj kopyalandı!",
+    "preserving": "Koruma...",
+    "complete_button": "Tamamlan ve Kaydet"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Baştan Başla",
+    "finish_exit": "Bitir ve Çık",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tamamlama süresi",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Paylaşmak",
+    "share_progress": "İlerlemenizi Paylaşın",
+    "inspire_others": "Bugün başkalarına ilham verin.",
+    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
+    "this_activity": "bu aktivite",
+    "copied": "Kopyalandı!",
+    "copy_message": "Mesajı Kopyala",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Onarım ve Yeniden Bağlantı",
+  "that_s_a_step_forward": "Bu ileriye doğru atılmış bir adım.",
+  "you_took_a_small_step_toward_repair_and_that_matte": "Onarıma doğru küçük bir adım attınız ve bu önemli.",
+  "try_with_someone_else": "Başka biriyle deneyin.",
+  "done": "Tamamlandı ✔",
+  "more": "Daha",
+  "breadcrumb": "ekmek kırıntısı",
+  "previous_slide": "Önceki slayt",
+  "next_slide": "Sonraki slayt",
+  "close": "Kapalı",
+  "previous": "Öncesi",
+  "more_pages": "Daha fazla sayfa",
+  "pagination": "sayfalama",
+  "go_to_previous_page": "Önceki sayfaya git",
+  "go_to_next_page": "Sonraki sayfaya git",
+  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
+  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
+  "return_to_home": "Ana sayfaya dön",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

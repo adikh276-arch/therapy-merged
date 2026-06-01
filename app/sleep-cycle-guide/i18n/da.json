@@ -1,0 +1,177 @@
+{
+  "app_title": "Søvncyklusguide",
+  "pill_labels": [
+    "Indførelsen",
+    "De 4 faser",
+    "Den søvnige sandhed",
+    "Hvad med dig?"
+  ],
+  "s1": {
+    "title": "Har du nogensinde sovet 8 timer og stadig følt dig elendig?",
+    "p1": "Det handler ikke om <1>hvor længe</1> du sover.",
+    "p2": "Det er omkring <1>hvor</1> i din søvncyklus vågner du.",
+    "p3": "Én ting ændrer sig, når man forstår dette — alt.",
+    "insight": "💡 Din hjerne er faktisk mere aktiv under REM-søvn end når du er helt vågen!",
+    "duration": "Tager 3 minutter · varer livet ud",
+    "button": "Vent, virkelig? Fortæl mig mere →"
+  },
+  "s2": {
+    "title": "Din hjerne gør DETTE hver nat 🌀",
+    "desc": "Hver 90. minut cykler din hjerne gennem 4 baner — som en playliste på repeat. Tryk på hver for at udforske 👇",
+    "stages": [
+      {
+        "emoji": "🌊",
+        "title": "Let søvn",
+        "tag": "1–5 min · let at vække",
+        "body": "Du er ved at glide væk. Kroppen begynder at give slip, musklerne kan rykke. Meget let at vågne herfra."
+      },
+      {
+        "emoji": "💤",
+        "title": "At slå sig ned",
+        "tag": "10–25 minutter · virkelig sovende",
+        "body": "Hjertefrekvensen falder, kropstemperaturen falder. Du sover ordentligt — hjerneaktiviteten begynder at aftage."
+      },
+      {
+        "emoji": "🔵",
+        "title": "Dyb søvn ⭐",
+        "tag": "20–40 minutter · Guldet",
+        "body": "Kroppen reparerer væv, opbygger immunitet. Den mest fysisk genoprettende fase — svær at vågne fra."
+      },
+      {
+        "emoji": "🌙",
+        "title": "REM-søvn",
+        "tag": "10–60 minutter · Drømmetilstand",
+        "body": "Hjernen summer af aktivitet. Følelser bliver bearbejdet, minder låser sig fast. At springe dette over gør dig uklar."
+      }
+    ],
+    "italic": "Dyb søvn reparerer din krop. REM fikser dit sind.",
+    "button": "Så hvorfor føler jeg mig stadig groggy? →"
+  },
+  "s3": {
+    "title": "Vågen midt i cyklussen = zombietilstand 🧟",
+    "p1": "Trukket ud af dyb søvn af en alarm? Din hjerne er bogstaveligt talt ikke færdig med det, den var i gang med. Den tågede, tunge følelse? Det er <1>søvninerti</1>.",
+    "wave": {
+      "light": "Lys",
+      "deep": "Dyb",
+      "groggy": "😫 groggy",
+      "fresh": "😊 frisk",
+      "cycles": [
+        "Cyklus 1",
+        "Cyklus 2",
+        "Cyklus 3"
+      ]
+    },
+    "disruptors_title": "Hvad forstyrrer dine cyklusser 👇",
+    "disruptors": [
+      {
+        "emoji": "📱",
+        "text": "Skærme før sengetid",
+        "sub": "Forsinker dyb søvn"
+      },
+      {
+        "emoji": "☕",
+        "text": "Sen koffein",
+        "sub": "skærer dyb søvn med op til 20%"
+      },
+      {
+        "emoji": "⏰",
+        "text": "Uregelmæssige søvntider",
+        "sub": "Bryder din naturlige rytme"
+      },
+      {
+        "emoji": "😰",
+        "text": "Stress og angst",
+        "sub": "holder dig fanget i let søvn"
+      }
+    ],
+    "italic": "Dine vaner former direkte, hvilke stadier du når op.",
+    "button": "Hvad betyder det for mig? →"
+  },
+  "s4": {
+    "title": "Hvilken lyder som dig? 👇",
+    "options": [
+      {
+        "emoji": "😩",
+        "text": "Jeg vågner fysisk udmattet",
+        "sub": "Sandsynligvis savner jeg dyb søvn",
+        "tip": "Fokuser på en stabil søvn og opvågningstid — din krop har brug for en regelmæssig rytme for at nå dyb søvn."
+      },
+      {
+        "emoji": "🌫️",
+        "text": "Jeg føler mig følelsesmæssigt tåget eller nede",
+        "sub": "Savner sandsynligvis REM-søvn",
+        "tip": "Prøv at slappe af 30 minutter før sengetid — en rolig rutine før søvn beskytter din REM-søvn."
+      },
+      {
+        "emoji": "😤",
+        "text": "Jeg vågner ofte om natten",
+        "sub": "Cyklusser bliver ved med at blive afbrudt",
+        "tip": "Et køligt, mørkt og stille rum hjælper din hjerne med at forblive i dybere stadier uden afbrydelser."
+      },
+      {
+        "emoji": "😐",
+        "text": "Jeg har det okay, men ikke fantastisk",
+        "sub": "Cyklusserne er delvise, men ikke komplette",
+        "tip": "Prøv at gå i seng 20 minutter tidligere — du har måske bare brug for en komplet søvncyklus mere."
+      }
+    ],
+    "quote": "Søvn er ikke bare hvile — det er aktiv restitution. Beskyt dine cyklusser, og din heldag ændrer sig.",
+    "button": "Færdig ✓"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start forfra",
+    "finish_exit": "Afslut og afslut",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tid til at færdiggøre",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Dele",
+    "share_progress": "Del fremskridt",
+    "inspire_others": "Inspirer andre i dag",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
+    "this_activity": "denne aktivitet",
+    "copied": "Kopieret!",
+    "copy_message": "Kopiér besked",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Guide til søvncyklus",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(forrige + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setAktuelSkærm(forrige => Math.max(forrige - 1, 0));\n\nconst screens = [\n\n\n\nconst screens = [\n...",
+  "it_s_not_about": "Det handler ikke om",
+  "it_s_about": "Det handler om",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Blev du revet ud af din dyb søvn af en alarm? Din hjerne er bogstaveligt talt ikke færdig med det, den lavede. Den tågede, tunge følelse? Det er...",
+  "more": "Mere",
+  "breadcrumb": "brødkrumme",
+  "previous_slide": "Forrige slide",
+  "next_slide": "Næste slide",
+  "close": "Tæt",
+  "previous": "Tidligere",
+  "more_pages": "Flere sider",
+  "pagination": "paginering",
+  "go_to_previous_page": "Gå til forrige side",
+  "go_to_next_page": "Gå til næste side",
+  "toggle_sidebar": "Slå sidebjælken til/fra",
+  "oops_page_not_found": "Ups! Siden blev ikke fundet",
+  "return_to_home": "Tilbage til hjemmet",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

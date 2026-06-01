@@ -1,0 +1,146 @@
+{
+  "app_title": "Memory Box",
+  "screen_titles": [
+    "Deine Box",
+    "Ehrung",
+    "Ausdrucken",
+    "Bewahrt",
+    "Sanfte Pflege"
+  ],
+  "complete_title": "Bewahrte Erinnerung",
+  "complete_message": "Du hast sicher eine Erinnerung von {{name}} in deine Box gelegt. Diese Momente der Verbindung gehören dir immer.",
+  "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
+  "save_success": "Bewahrte Erinnerung",
+  "save_error": "Es wurde versäumt, das Gedächtnis zu bewahren",
+  "preserving": "Bewahren...",
+  "preserve_memory": "Erinnerung bewahren",
+  "welcome": {
+    "title": "Deine Erinnerungskiste",
+    "subtitle1": "Ein ruhiger Ort, um sich an jemanden zu erinnern, den man liebt. 🤍",
+    "subtitle2": "Atme langsam ein...",
+    "subtitle3": "… Und atme sanft aus.",
+    "subtitle4": "Es gibt keinen richtigen oder falschen Weg, das zu tun.",
+    "subtitle5": "Geh in deinem eigenen Tempo. 🌿",
+    "begin": "Beginnen ✨",
+    "later": "Vielleicht später"
+  },
+  "who": {
+    "placeholder_name": "Gib ihren Namen ein...",
+    "placeholder_relation": "Woher kennst du sie? (optional)",
+    "categories": [
+      {
+        "label": "Ein glücklicher Moment",
+        "emoji": "😊"
+      },
+      {
+        "label": "Etwas, das sie früher gesagt haben",
+        "emoji": "💬"
+      },
+      {
+        "label": "Eine kleine Alltagserinnerung",
+        "emoji": "☕"
+      },
+      {
+        "label": "Ein Ort, der dich an sie erinnert",
+        "emoji": "🏡"
+      },
+      {
+        "label": "Etwas, das ich gerne sagen könnte",
+        "emoji": "💌"
+      }
+    ],
+    "continue": "Fahren Sie weiter →"
+  },
+  "expression": {
+    "title": "Dein Gedächtnis ausdrücken",
+    "memory_label": "Die Erinnerung selbst",
+    "memory_placeholder": "Schreibe über den Moment, das Gefühl oder das Detail, das du behalten möchtest...",
+    "message_label": "Eine Nachricht an sie (optional)",
+    "message_placeholder": "Was würdest du sagen, wenn du jetzt mit ihnen sprechen könntest?",
+    "save": "Erinnerung bewahren",
+    "skip": "Vorerst überspringen",
+    "back": "Zurück"
+  },
+  "box": {
+    "title": "Sicher verstaut",
+    "subtitle": "Diese Erinnerung an {{name}} ist jetzt Teil deiner Sammlung.",
+    "add_another": "Fügen Sie ein weiteres Gedächtnis hinzu",
+    "finish": "Fertige Reflexion"
+  },
+  "closing": {
+    "title": "Pflege",
+    "subtitle": "Ich schließe vorerst deine Kiste. Du kannst jederzeit hierher zurückkehren, wenn du dich diesen Erinnerungen nahe fühlen möchtest.",
+    "exit": "Schließende Box"
+  },
+  "history": {
+    "title": "Inhalt der Box",
+    "no_memories": "Deine Box ist leer. Füge deine erste Erinnerung hinzu, um deine Sammlung zu beginnen.",
+    "search_placeholder": "Suche Erinnerungen..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Erinnerungsbox",
+  "before_you_go": "Bevor Sie gehen",
+  "grief_comes_in_waves": "Trauer kommt in Wellen. 🌊",
+  "what_you_re_feeling_matters": "Deine Gefühle sind wichtig. 🤍",
+  "be_gentle_with_yourself_today": "Sei heute sanft zu dir selbst. 🌿",
+  "save_exit": "Speichern & Beenden 🕊️",
+  "take_your_time": "Lass dir Zeit 🕯️",
+  "save_to_memory_box": "In der Erinnerungsbox speichern 📦",
+  "write_as_much_or_as_little_as_you_want": "Schreibe so viel oder so wenig, wie du möchtest… ✍️",
+  "if_there_s_something_you_d_like_to_say": "Wenn Sie etwas sagen möchten…",
+  "past_entries": "Frühere Einträge",
+  "no_memories_saved_yet": "Noch keine Erinnerungen gespeichert.",
+  "this_memory_is_held_here_for_you": "Diese Erinnerung wird hier für dich aufbewahrt. 🌿",
+  "add_another_memory": "Füge eine weitere Erinnerung hinzu ✨",
+  "finish_for_now": "Fürs Erste beendet.",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

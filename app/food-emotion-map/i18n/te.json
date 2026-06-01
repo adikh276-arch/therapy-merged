@@ -1,0 +1,139 @@
+{
+  "app_title": "ఆహారం & భావోద్వేగ పటం",
+  "screen_titles": [
+    "స్వాగతం",
+    "ఆహార విధానాలు",
+    "అంతర్గత సంభాషణ",
+    "ఫిజికల్ సెన్సింగ్",
+    "మ్యాప్",
+    "సున్నితమైన మద్దతు",
+    "ఫైనల్ లుక్",
+    "ప్రతిబింబిస్తుంది"
+  ],
+  "welcome_text": "హేయ్... మీరు ఇక్కడ ఉన్నందుకు 💛 నేను నిజంగా సంతోషిస్తున్నాను, ఏమి జరుగుతుందో సున్నితంగా మ్యాప్ చేద్దాం.",
+  "coming_up_label": "ఇటీవల ఏమి రాబోతోంది?",
+  "begin_mapping": "మ్యాపింగ్ ప్రారంభించండి",
+  "food_patterns_q": "హ్మ్మ్... నేను మీ మాట వింటున్నాను. మీరు {{emotion}} అనుభూతి చెందినప్పుడు... ఆహారం సాధారణంగా ఎలా కనిపిస్తుంది?",
+  "continue_button": "కొనసాగించండి",
+  "internal_dialogue_q": "ఆ క్షణాలలో... ఎలాంటి ఆలోచనలు పాప్ అప్ అవుతాయి?",
+  "write_placeholder": "ఏది మదిలో వచ్చిందో అది రాయండి...",
+  "physical_sensing_q": "ఒక్క సెకను ఆగితే.. మీ శరీరంలో మీరు ఏమి గమనించారు?",
+  "the_pattern_label": "ది ప్యాటర్న్",
+  "pattern_desc_1": "మీరు {{emotion}} అనుభూతి చెందినప్పుడు, మీ శరీరం {{sensation}}...",
+  "pattern_desc_2": "… మరియు ఆహారం {{response}} కు ఒక మార్గంగా మారుతుంది, అయితే \"{{thought}}\" వంటి ఆలోచనలు కనిపిస్తాయి.",
+  "pattern_footer": "\"నమూనా అవగాహన స్వేచ్ఛ\"",
+  "support_q": "ఆ క్షణాలలో... మీకు ఏది సహాయపడగలదు - కొద్దిపాటికీ?",
+  "understanding_text": "మిమ్మల్ని మీరు కొంచెం బాగా అర్థం చేసుకున్నారు. అది సరిపోతుంది 💛",
+  "how_feeling_now": "ఇప్పుడు మీకు ఎలా అనిపిస్తోంది?",
+  "preserve_button": "మ్యాప్ ను భద్రపరచండి",
+  "preserving": "సంరక్షించడం...",
+  "complete_title": "మ్యాప్ సంరక్షించబడింది",
+  "complete_message": "మీ భావాలు మరియు ఆహారం మధ్య సంబంధాన్ని మీరు విజయవంతంగా మ్యాప్ చేశారు. ఈ అవగాహన సున్నితమైన మార్పుకు శక్తివంతమైన సాధనం.",
+  "auth_error": "ప్రమాణీకరణ సెషన్ మిస్ అయింది లేదా DB కాన్ఫిగర్ చేయబడలేదు",
+  "save_success": "సంరక్షించబడిన నమూనా",
+  "save_error": "నమూనాను భద్రపరచడంలో విఫలమైంది",
+  "emotions_list": [
+    "😰 ఒత్తిడి",
+    "😢 విచారం",
+    "😶 విసుగు",
+    "😟 ఆందోళన",
+    "🥺 ఒంటరితనం",
+    "💭 ఇంకేదో ..."
+  ],
+  "food_responses": [
+    "🍽️ నేను ఎక్కువగా తింటాను",
+    "🚫 నేను తక్కువ తింటాను",
+    "🍫 నేను నిర్దిష్ట ఆహారాలను కోరుకుంటాను",
+    "😣 నేను ఆహారానికి దూరంగా ఉంటాను",
+    "😐 నిజమైన మార్పు లేదు"
+  ],
+  "body_sensations": [
+    "💔 ఛాతీ బిగుతుగా ఉండటం",
+    "🪨 భారీ అనుభూతి",
+    "🦵 విశ్రాంతి లేనిది / చందరుడు",
+    "🔋 తక్కువ శక్తి",
+    "🌀 కడుపులో ముడులు",
+    "❓ ఇంకేదో ..."
+  ],
+  "support_options": [
+    "🗣️ ఎవరితోనైనా మాట్లాడండి",
+    "☕ విరామం తీసుకోండి",
+    "📝 జర్నల్",
+    "🌬️ ఊపిరి పీల్చుకోండి",
+    "🎧 నా దృష్టిని మరల్చండి"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "చేరుకోండి 💛",
+      "body": "కొన్నిసార్లు పంచుకోవడం విషయాలను కొంచెం తేలికపరుస్తుంది. బహుశా సరళమైన 'హే, మనం మాట్లాడవచ్చా?'"
+    },
+    "☕ Take a break": {
+      "title": "విరామం 💛",
+      "body": "ఒక చిన్న విరామం విషయాలను రీసెట్ చేయడానికి సహాయపడుతుంది. బహుశా దూరంగా వెళ్లి కొన్ని నెమ్మదిగా శ్వాస తీసుకోండి."
+    },
+    "📝 Journal": {
+      "title": "దానిని వ్రాయండి 💛",
+      "body": "మీరు 'ప్రస్తుతం నేను భావిస్తున్నాను ...' తో ప్రారంభించవచ్చు మరియు దానిని ప్రవహించనివ్వండి."
+    },
+    "🌬️ Breathe": {
+      "title": "ఊపిరి పీల్చుకోండి 💛",
+      "body": "4 పీల్చుకోండి... హోల్డ్ 2 ... ౬ ఊపిరి పీల్చుకోండి... కలిసి నెమ్మదిగా చేద్దాం."
+    },
+    "🎧 Distract myself": {
+      "title": "సున్నితమైన మార్పు 💛",
+      "body": "సున్నితమైన పరధ్యానం క్షణాన్ని మార్చగలదు... బహుశా తేలికపాటి లేదా సులభమైనది."
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "మళ్ళీ ప్రారంభించండి",
+    "finish_exit": "ముగించి నిష్క్రమించండి",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "పూర్తి చేయడానికి సమయం",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "పంచుకోండి",
+    "share_progress": "పురోగతిని పంచుకోండి",
+    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "this_activity": "ఈ కార్యాచరణ",
+    "copied": "కాపీ చేయబడింది!",
+    "copy_message": "సందేశాన్ని కాపీ చేయండి",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "ఆహారం & భావోద్వేగాల పటం",
+  "more": "మరిన్ని",
+  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "previous_slide": "మునుపటి స్లైడ్",
+  "next_slide": "తదుపరి స్లైడ్",
+  "close": "మూసివేయండి",
+  "previous": "మునుపటి",
+  "more_pages": "మరిన్ని పేజీలు",
+  "pagination": "పేజీల సంఖ్య",
+  "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
+  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
+  "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
+  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

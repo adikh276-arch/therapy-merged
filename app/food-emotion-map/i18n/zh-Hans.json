@@ -1,0 +1,139 @@
+{
+  "app_title": "食物与情绪地图",
+  "screen_titles": [
+    "欢迎",
+    "饮食模式",
+    "内心对话",
+    "物理传感",
+    "地图",
+    "温柔支持",
+    "最终呈现",
+    "反思"
+  ],
+  "welcome_text": "嘿……我很高兴你在这里💛 让我们慢慢梳理一下最近发生的事情。",
+  "coming_up_label": "最近有什么活动吗？",
+  "begin_mapping": "开始绘制地图",
+  "food_patterns_q": "嗯……我明白了。当你感到情绪激动时……食物通常会以什么方式出现呢？",
+  "continue_button": "继续",
+  "internal_dialogue_q": "在那些时刻……你会想到什么？",
+  "write_placeholder": "想到什么就写什么……",
+  "physical_sensing_q": "如果你停下来思考片刻……你注意到你的身体有什么变化吗？",
+  "the_pattern_label": "模式",
+  "pattern_desc_1": "当你感受到{{情绪}}时，你的身体会感受到{{感觉}}……",
+  "pattern_desc_2": "…食物成为一种回应方式，同时“想法”之类的念头也随之出现。",
+  "pattern_footer": "“模式意识即自由”",
+  "support_q": "在那些时刻……什么能给你带来哪怕一点点帮助？",
+  "understanding_text": "你对自己的了解更深了。这就足够了💛",
+  "how_feeling_now": "你现在感觉如何？",
+  "preserve_button": "地图保护",
+  "preserving": "保存……",
+  "complete_title": "地图保存完好",
+  "complete_message": "你已经成功地梳理出了你的情绪与食物之间的联系。这种觉察是实现温和改变的有力工具。",
+  "auth_error": "身份验证会话缺失或数据库未配置",
+  "save_success": "模式得以保留",
+  "save_error": "未能保留模式",
+  "emotions_list": [
+    "😰压力",
+    "😢 悲伤",
+    "😶 无聊",
+    "😟焦虑",
+    "🥺 孤独",
+    "💭 还有一些其他的事情……"
+  ],
+  "food_responses": [
+    "🍽️ 我吃得更多",
+    "🚫 我吃得更少了",
+    "🍫 我特别想吃某些特定的食物",
+    "😣 我拒绝进食",
+    "😐 没有实质性改变"
+  ],
+  "body_sensations": [
+    "💔 胸部紧绷",
+    "🪨 沉重感",
+    "🦵 焦躁不安/坐立不安",
+    "🔋 低能量",
+    "🌀 胃部不适",
+    "❓还有其他事……"
+  ],
+  "support_options": [
+    "🗣️ 找人聊聊",
+    "☕ 休息一下",
+    "📝 日记",
+    "🌬️ 呼吸",
+    "🎧 分散注意力"
+  ],
+  "support_responses": {
+    "🗣️ Talk to someone": {
+      "title": "联系我💛",
+      "body": "有时候，分享能让气氛轻松一些。也许只是简单地说一句“嘿，我们能聊聊吗？”"
+    },
+    "☕ Take a break": {
+      "title": "暂停💛",
+      "body": "短暂的停顿有助于调整状态。或许可以暂时离开一会儿，深呼吸几次。"
+    },
+    "📝 Journal": {
+      "title": "写下来💛",
+      "body": "你可以从“我现在感觉……”开始，然后顺其自然地表达。"
+    },
+    "🌬️ Breathe": {
+      "title": "深呼吸💛",
+      "body": "吸气 4 秒……屏住呼吸 2 秒……呼气 6 秒……让我们一起慢下来。"
+    },
+    "🎧 Distract myself": {
+      "title": "轻柔的转变💛",
+      "body": "轻轻转移一下注意力就能缓和气氛……也许是一些轻松愉快的事情。"
+    }
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "重新开始",
+    "finish_exit": "结束并退出",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "完成时间",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "分享",
+    "share_progress": "分享进度",
+    "inspire_others": "今天激励他人",
+    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "this_activity": "这项活动",
+    "copied": "已复制！",
+    "copy_message": "复制消息",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "食物与情绪地图",
+  "more": "更多的",
+  "breadcrumb": "面包屑",
+  "previous_slide": "上一张幻灯片",
+  "next_slide": "下一张幻灯片",
+  "close": "关闭",
+  "previous": "以前的",
+  "more_pages": "更多页面",
+  "pagination": "分页",
+  "go_to_previous_page": "返回上一页",
+  "go_to_next_page": "前往下一页",
+  "toggle_sidebar": "切换侧边栏",
+  "oops_page_not_found": "糟糕！页面未找到",
+  "return_to_home": "返回首页",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

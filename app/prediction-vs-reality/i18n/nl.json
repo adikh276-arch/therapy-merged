@@ -1,0 +1,145 @@
+{
+  "app_title": "Voorspelling versus Realiteit",
+  "step_label": "Stap {{current}} van 8",
+  "intro": {
+    "title": "Voorspelling versus Realiteit",
+    "description": "Vergelijk je angstige voorspellingen met wat er daadwerkelijk gebeurt om een meer evenwichtig perspectief op te bouwen.",
+    "benefits": [
+      "Identificeer angstpatronen",
+      "Verzamel bewijs tegen angsten",
+      "Verminder toekomstige overdenken"
+    ],
+    "duration": "4-5 minuten",
+    "view_past": "Bekijk eerdere reflecties"
+  },
+  "history": {
+    "title": "Eerdere Overdenkingen",
+    "no_reflections": "Er zijn nog geen reflecties opgeslagen.",
+    "prediction_label": "Voorspelling",
+    "reality_label": "Werkelijkheid",
+    "reflection_label": "Reflectie:"
+  },
+  "complete": {
+    "title": "Activiteit voltooid",
+    "saved_title": "Reflectie gered",
+    "message": "Door naar de feiten te kijken, help je je geest te leren dat dingen vaak beter beheersbaar zijn dan ze lijken."
+  },
+  "emotions": [
+    "Angstig",
+    "Nerveus",
+    "Bang",
+    "Overweldigd",
+    "Onrustig"
+  ],
+  "intensity_labels": {
+    "not_intense": "Niet intens",
+    "very_intense": "Zeer intens"
+  },
+  "comparison_options": [
+    "Het is bijna precies gelopen, zoals ik had verwacht",
+    "Sommige delen klopten, maar niet alles",
+    "Het was heel anders dan ik had verwacht",
+    "Het was veel makkelijker/beter dan ik had gedacht"
+  ],
+  "screens": {
+    "s1": {
+      "title": "Denk aan een recente situatie",
+      "desc": "Herinner je een recent moment waarop je je angstig of onzeker voelde.",
+      "placeholder": "Beschrijf de situatie..."
+    },
+    "s2": {
+      "title": "Wat dacht je dat er zou gebeuren?",
+      "desc": "Wat verwachtte of vreesde je op dat moment?",
+      "placeholder": "Ik was bang dat..."
+    },
+    "s3": {
+      "title": "Hoe voelde je je?",
+      "desc": "Selecteer de emoties die je voelde en hun intensiteit."
+    },
+    "s4": {
+      "title": "Wat is er eigenlijk gebeurd?",
+      "desc": "Focus op de feiten van wat er echt is gebeurd.",
+      "placeholder": "In werkelijkheid..."
+    },
+    "s5": {
+      "title": "Laten we naar beide kijken",
+      "expectation": "Verwachting",
+      "reality": "Werkelijkheid",
+      "question": "Hoe dicht was je verwachting?"
+    },
+    "s6": {
+      "title": "Wat valt je op?",
+      "desc": "Was het zo erg als je dacht?",
+      "placeholder": "Ik merk dat..."
+    },
+    "s7": {
+      "title": "Volgende keer",
+      "desc": "Wat zou je jezelf kunnen herinneren als dit weer gebeurt?",
+      "placeholder": "bijvoorbeeld: \"Misschien is het niet zo erg als ik me voorstel.\""
+    },
+    "s8": {
+      "title": "Een kleine herinnering",
+      "desc": "Je geest probeert je voor te bereiden—maar voorspelt niet altijd nauwkeurig. Elke keer dat je even pauzeert om naar de feiten te kijken, bouw je veerkracht op.",
+      "button": "Reflectie opslaan",
+      "discard": "Afdanking"
+    }
+  },
+  "buttons": {
+    "continue": "Ga verder"
+  },
+  "toasts": {
+    "saved": "Reflectie gered!"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Opnieuw beginnen",
+    "finish_exit": "Voltooien en afsluiten",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tijd om te voltooien",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Deel",
+    "share_progress": "Voortgang delen",
+    "inspire_others": "Inspireer anderen vandaag nog",
+    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
+    "this_activity": "deze activiteit",
+    "copied": "Gekopieerd!",
+    "copy_message": "Bericht kopiëren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Voorspelling versus realiteit",
+  "more": "Meer",
+  "breadcrumb": "paneermeel",
+  "previous_slide": "Vorige dia",
+  "next_slide": "Volgende dia",
+  "close": "Dichtbij",
+  "previous": "Vorig",
+  "more_pages": "Meer pagina's",
+  "pagination": "paginering",
+  "go_to_previous_page": "Ga naar de vorige pagina",
+  "go_to_next_page": "Ga naar de volgende pagina",
+  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "oops_page_not_found": "Oeps! Pagina niet gevonden",
+  "return_to_home": "Terug naar de homepage",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

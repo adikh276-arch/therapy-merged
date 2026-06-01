@@ -1,0 +1,125 @@
+{
+  "app_title": "تدريب الإيقاف",
+  "app_subtitle": "سيطر على المسافة بينهما",
+  "intro": {
+    "title": "توقف الخمس ثوان",
+    "description": "توقف صغير بين الشعور وردة الفعل يمكن أن يغير كل شيء.",
+    "duration": "يستغرق أقل من 15 ثانية. حقا.",
+    "button": "جربها →"
+  },
+  "scenario": {
+    "title": "ما الذي يثيرك؟",
+    "desc": "اختر موقفا تشعر به",
+    "options": [
+      {
+        "id": "interrupts",
+        "label": "شخص ما يقاطعني",
+        "emoji": "😠"
+      },
+      {
+        "id": "plans",
+        "label": "الأمور لا تسير كما هو مخطط لها",
+        "emoji": "😤"
+      },
+      {
+        "id": "ignored",
+        "label": "أشعر أنني مهملة",
+        "emoji": "😔"
+      },
+      {
+        "id": "overwhelmed",
+        "label": "أشعر بالإرهاق",
+        "emoji": "😵‍💫"
+      }
+    ],
+    "placeholder": "اكتب بنفسك...",
+    "button": "التوقف → التدريب"
+  },
+  "hold": {
+    "title": "التوقف المؤقت ⏸️.",
+    "instructions": "أمسك الدائرة لمدة 5 ثوان",
+    "microcopy": [
+      {
+        "at": "0",
+        "text": "اضغط واحتفظ..."
+      },
+      {
+        "at": "0.15",
+        "text": "استمر في الأمر..."
+      },
+      {
+        "at": "0.5",
+        "text": "أنت تفعلها..."
+      },
+      {
+        "at": "0.8",
+        "text": "اقتربنا..."
+      }
+    ]
+  },
+  "result": {
+    "title": "هذا هو التوقف",
+    "message": "لقد خلقت مساحة بين ما شعرت به وكيف تستجيب لديك. حتى التوقف القصير يساعدك على استعادة مركزك.",
+    "tip_label": "نصيحة محترفة",
+    "scenario_messages": {
+      "interrupts": "في المرة القادمة التي يقاطعك فيها أحد، جرب هذا قبل الرد.",
+      "plans": "في المرة القادمة التي لا تسير الأمور كما هو مخطط، جرب هذا قبل أن تتصرف.",
+      "ignored": "في المرة القادمة التي تشعر فيها بأنك مهمل، جرب هذا قبل الرد.",
+      "overwhelmed": "في المرة القادمة التي تشعر فيها بالإرهاق، جرب هذا قبل أن تفعل أي شيء.",
+      "other": "في المرة القادمة التي تشعر فيها بأنك مثير، جرب هذا قبل أن تتفاعل."
+    },
+    "italic": "لن يكون الأمر سهلا دائما—لكن الاستمرارية هي المفتاح."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "ابدأ من جديد",
+    "finish_exit": "إنهاء العملية والخروج",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "الوقت اللازم للإنجاز",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "يشارك",
+    "share_progress": "مشاركة التقدم",
+    "inspire_others": "ألهم الآخرين اليوم",
+    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "this_activity": "هذا النشاط",
+    "copied": "تم النسخ!",
+    "copy_message": "انسخ الرسالة",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "أتقن المساحة بين",
+  "more": "أكثر",
+  "breadcrumb": "فتات الخبز",
+  "previous_slide": "الشريحة السابقة",
+  "next_slide": "الشريحة التالية",
+  "close": "يغلق",
+  "previous": "سابق",
+  "more_pages": "صفحات أخرى",
+  "pagination": "ترقيم الصفحات",
+  "go_to_previous_page": "انتقل إلى الصفحة السابقة",
+  "go_to_next_page": "انتقل إلى الصفحة التالية",
+  "toggle_sidebar": "تبديل الشريط الجانبي",
+  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

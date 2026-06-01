@@ -1,0 +1,102 @@
+{
+  "app_title": "Неотправленное письмо",
+  "app_subtitle": "Выпустите свои мысли безопасно и наедине",
+  "intro": {
+    "title": "Неотправленное письмо",
+    "description": [
+      "Иногда есть вещи, которые мы хотели бы сказать — но никогда не имели возможности это сделать.",
+      "Возможно, это было потому, что это было небезопасно, неподходящее время или слова было слишком трудно выразить вслух.",
+      "Это занятие даёт вам личное пространство, чтобы выразить свои мысли словами.",
+      "Тебе не обязательно отправлять это письмо. Это только для тебя — чтобы лучше выразить, выпустить и понять свои чувства."
+    ],
+    "notice": "Пиши свободно. Никто другой этого не увидит.",
+    "button": "Начинайте писать →"
+  },
+  "writing": {
+    "title": "Пишите то, что сдерживаете в себе",
+    "desc": "Вы можете написать своему партнёру, бывшему партнёру или даже самим отношениям. Нет правильного или неправильного способа сделать это.",
+    "prompts": [
+      "Я чувствую...",
+      "Хотелось бы...",
+      "Я никогда не говорил...",
+      "Что меня ранило...",
+      "Что мне было нужно..."
+    ],
+    "placeholder": "Дорогой ____,\nЯ давно хотел сказать...",
+    "notice": "Вы можете поставить паузу и вернуться в любое время.",
+    "button": "Продолжайте →"
+  },
+  "reflection": {
+    "title": "Подумайте об этом на минуту",
+    "description": [
+      "Вы просто выразили свои мысли и чувства словами — для этого нужна смелость.",
+      "Сейчас вы можете заметить смешанные эмоции, и это совершенно нормально.",
+      "Прежде чем двигаться дальше, сделайте вдох и аккуратно проверьте себя."
+    ],
+    "notice": "Это было для вашего исцеления, а не для отправки.",
+    "save_button": "Сохранить письмо",
+    "finish_button": "Финиш"
+  },
+  "history": {
+    "title": "Прошлые письма",
+    "empty_title": "Ты ещё не написал ни одной писем.",
+    "empty_desc": "Ваши письма появятся здесь после того, как вы их сохраните."
+  },
+  "toasts": {
+    "save_success": "Письмо, сохранённое в вашем личном дневнике",
+    "save_error": "Не удалось сохранить письмо",
+    "auth_error": "Отсутствует сессия аутентификации или база данных не настроена"
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Начать заново",
+    "finish_exit": "Финиш и выход",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Время выполнения",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Делиться",
+    "share_progress": "Поделиться прогрессом",
+    "inspire_others": "Вдохновите других сегодня!",
+    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
+    "this_activity": "эта деятельность",
+    "copied": "Скопировано!",
+    "copy_message": "Скопировать сообщение",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Выскажите свои мысли безопасно и конфиденциально.",
+  "more": "Более",
+  "breadcrumb": "хлебные крошки",
+  "previous_slide": "Предыдущий слайд",
+  "next_slide": "Следующий слайд",
+  "close": "Закрывать",
+  "previous": "Предыдущий",
+  "more_pages": "Больше страниц",
+  "pagination": "нумерация страниц",
+  "go_to_previous_page": "Перейти на предыдущую страницу",
+  "go_to_next_page": "Перейти на следующую страницу",
+  "toggle_sidebar": "Переключить боковую панель",
+  "oops_page_not_found": "Ой! Страница не найдена.",
+  "return_to_home": "Вернуться на главную",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

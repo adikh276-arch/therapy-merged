@@ -1,0 +1,147 @@
+{
+  "app_title": "Schlaffenster-Planer",
+  "pill_labels": [
+    "Bau dein Fenster",
+    "Legen Sie Ihre Zeiten fest",
+    "Dein Schlaffenster"
+  ],
+  "screen1": {
+    "title": "Dein Schlaffenster ist wichtiger, als du denkst",
+    "p1": "Ein Schlaffenster ist die feste Zeit zwischen dem Schlafengehen und dem Aufwachen. Es konstant zu halten – selbst am Wochenende – ist eine der wirkungsvollsten Maßnahmen, die Sie für Ihren Schlaf tun können.",
+    "p2": "Dieses Tool hilft dir, dein eigenes in weniger als 2 Minuten zu bauen.",
+    "insight": "Schon ein Unterschied von einer Stunde Schlafzeiten am Wochenende kann Ihr Gefühl die ganze Woche über stören.",
+    "meta": "Ganz einfach. Persönlich. Effektiv.",
+    "button": "Lass uns meine bauen →"
+  },
+  "screen2": {
+    "title": "Lass uns dein Schlaffenster einstellen",
+    "step1": {
+      "title": "SCHRITT 1 — WACHZEIT",
+      "desc": "Wann musst du an den meisten Tagen aufstehen?"
+    },
+    "step2": {
+      "title": "SCHRITT 2 — SCHLAFDAUER",
+      "desc": "Wie viele Stunden Schlaf möchtest du?"
+    },
+    "live_window": {
+      "bedtime": "Schlafenszeit",
+      "waketime": "Aufwachzeit",
+      "duration": "{{hours}} Stunden Schlaf"
+    },
+    "italic": "Die meisten Erwachsenen benötigen 7–9 Stunden. Wähle, was sich richtig anfühlt.",
+    "button": "Siehst du mein Schlaffenster →"
+  },
+  "screen3": {
+    "title": "Dein Schlaffenster 🌙",
+    "result": {
+      "bedtime": "Schlafenszeit",
+      "waketime": "Aufwachzeit",
+      "duration": "Dauer",
+      "hours": "{{hours}} Stunden"
+    },
+    "accordion1": {
+      "title": "3 Möglichkeiten, ihn zu schützen",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Beruhige dich 30 Minuten vor deiner Schlafenszeit"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Jeden Tag dieselbe Wachzeit – ja, auch am Wochenende"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Vermeide Nickerchen, die länger als 20 Minuten nach 15 Uhr dauern."
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Verpflichte dich heute Abend auf eine Sache",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Steck mein Handy vor dem Schlafengehen weg"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Beginnen Sie mit einer Abschaltroutine"
+        },
+        {
+          "emoji": "💡",
+          "text": "Das Licht eine Stunde vor dem Schlafengehen dimmen"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Beende meine To-do-Liste frühzeitig"
+        }
+      ]
+    },
+    "quote": "Konsistenz ist stärker als Perfektion. Eine gute Nacht baut sich auf, die nächste.",
+    "button": "Spar mir mein Schlaffenster ✓",
+    "saved_button": "✓ Schlaffenster gerettet!",
+    "adjust_times": "Zeiten anpassen"
+  },
+  "complete": {
+    "title": "Fenster erstellt",
+    "message": "Dein ideales Schlaffenster wurde kartiert. Beständigkeit ist der Schlüssel zu tiefer, erholsamer Ruhe."
+  },
+  "toasts": {
+    "save_success": "Schlaffenster gespeichert",
+    "save_error": "Es konnte das Schlaffenster nicht gespeichert werden",
+    "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
+    "saving": "Retten..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Von vorne beginnen",
+    "finish_exit": "Ziel & Ausgang",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Zeit zum Fertigstellen",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Aktie",
+    "share_progress": "Fortschritt teilen",
+    "inspire_others": "Inspiriere heute andere.",
+    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
+    "this_activity": "diese Aktivität",
+    "copied": "Kopiert!",
+    "copy_message": "Nachricht kopieren",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Schlaffensterplaner",
+  "more": "Mehr",
+  "breadcrumb": "Brotkrumen",
+  "previous_slide": "Vorherige Folie",
+  "next_slide": "Nächste Folie",
+  "close": "Schließen",
+  "previous": "Vorherige",
+  "more_pages": "Weitere Seiten",
+  "pagination": "Pagination",
+  "go_to_previous_page": "Zur vorherigen Seite",
+  "go_to_next_page": "Weiter zur nächsten Seite",
+  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
+  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
+  "return_to_home": "Zurück zur Startseite",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

@@ -1,0 +1,81 @@
+{
+  "app_title": "Why Brain Gets Stuck",
+  "app_subtitle": "The logic of survival • {{step}}/{{total}}",
+  "s1": {
+    "title": "Your brain didn't break. It adapted.",
+    "description": "After trauma, your brain rewires itself to keep you safe. It learned that the world could be dangerous, so it stayed ready. That's not a flaw. That's survival.",
+    "quote": "\"PTSD isn't a sign that something is wrong with you. It's a sign that something happened to you.\"",
+    "button": "Tell me more"
+  },
+  "s2": {
+    "tag": "gentle truths",
+    "title": "Brain survival logic",
+    "truths": [
+      {
+        "header": "The alarm stayed on",
+        "body": "Hypervigilance and startling easily aren't overreactions — your brain's alarm system is doing its job too well."
+      },
+      {
+        "header": "Flashbacks are memory",
+        "body": "Triggers pull your brain back because it never got the signal that the threat was over. It's trying to protect you."
+      },
+      {
+        "header": "Fighting for you",
+        "body": "Every symptom was once an act of survival. Your brain did what it had to do to keep you alive."
+      }
+    ],
+    "healing": "Healing isn't about forgetting. It's about helping your brain learn that you're safe now."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Start Over",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Time to complete",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Share",
+    "share_progress": "Share Progress",
+    "inspire_others": "Inspire others today",
+    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
+    "this_activity": "this activity",
+    "copied": "Copied!",
+    "copy_message": "Copy Message",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "The logic of survival • {{step}}/{{total}}",
+  "more": "More",
+  "breadcrumb": "breadcrumb",
+  "previous_slide": "Previous slide",
+  "next_slide": "Next slide",
+  "close": "Close",
+  "previous": "Previous",
+  "more_pages": "More pages",
+  "pagination": "pagination",
+  "go_to_previous_page": "Go to previous page",
+  "go_to_next_page": "Go to next page",
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Page not found",
+  "return_to_home": "Return to Home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}

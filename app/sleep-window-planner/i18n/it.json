@@ -1,0 +1,147 @@
+{
+  "app_title": "Pianificatore della finestra di sonno",
+  "pill_labels": [
+    "Costruisci la tua finestra",
+    "Fissa i tuoi tempi",
+    "La tua finestra di sonno"
+  ],
+  "screen1": {
+    "title": "La finestra del sonno conta più di quanto pensi",
+    "p1": "Una finestra di sonno è il tempo fisso tra il momento in cui vai a letto e il momento in cui ti svegli. Mantenere la costanza — anche nei fine settimana — è una delle cose più potenti che puoi fare per il tuo sonno.",
+    "p2": "Questo strumento ti aiuta a costruire il tuo in meno di 2 minuti.",
+    "insight": "Anche una differenza di un'ora nel sonno nei fine settimana può sconvolgere la sensazione per tutta la settimana.",
+    "meta": "Semplice. Personale. Efficace.",
+    "button": "Costruiamo la mia →"
+  },
+  "screen2": {
+    "title": "Impostamo la tua finestra di sonno",
+    "step1": {
+      "title": "PASSO 1 — ORA DI SVEGLIARSI",
+      "desc": "A che ora devi svegliarti quasi ogni giorno?"
+    },
+    "step2": {
+      "title": "PASSO 2 — DURATA DEL SONNO",
+      "desc": "Quante ore di sonno vuoi?"
+    },
+    "live_window": {
+      "bedtime": "Ora di andare a letto",
+      "waketime": "Ora di veglia",
+      "duration": "{{hours}} ore di sonno"
+    },
+    "italic": "La maggior parte degli adulti ha bisogno di 7–9 ore. Scegli ciò che ti sembra giusto.",
+    "button": "Vedi la mia finestra di sonno →"
+  },
+  "screen3": {
+    "title": "La tua finestra 🌙 di sonno",
+    "result": {
+      "bedtime": "Ora di andare a letto",
+      "waketime": "Ora di veglia",
+      "duration": "Durata",
+      "hours": "{{hours}} ore"
+    },
+    "accordion1": {
+      "title": "3 modi per proteggerlo",
+      "tips": [
+        {
+          "emoji": "📵",
+          "text": "Rilassati 30 minuti prima dell'ora di andare a letto"
+        },
+        {
+          "emoji": "⏰",
+          "text": "Stessa ora di veglia ogni giorno — sì, anche nei weekend"
+        },
+        {
+          "emoji": "🚫",
+          "text": "Evita i pisolini più lunghi di 20 minuti dopo le 15:00"
+        }
+      ]
+    },
+    "accordion2": {
+      "title": "Impegnati a una cosa stasera",
+      "commitments": [
+        {
+          "emoji": "📵",
+          "text": "Ho messo via il telefono prima di andare a letto"
+        },
+        {
+          "emoji": "🛁",
+          "text": "Inizia una routine di rilassamento"
+        },
+        {
+          "emoji": "💡",
+          "text": "Abbassa le luci un'ora prima di andare a letto"
+        },
+        {
+          "emoji": "✍️",
+          "text": "Finisci presto la mia lista di cose da fare"
+        }
+      ]
+    },
+    "quote": "La coerenza è più potente della perfezione. Una buona notte si costruisce la successiva.",
+    "button": "Risparmia la finestra del sonno ✓",
+    "saved_button": "✓ Finestra di sonno salvata!",
+    "adjust_times": "Tempi di regolazione"
+  },
+  "complete": {
+    "title": "Finestra creata",
+    "message": "La tua finestra ideale per dormire è stata mappata. La costanza è la chiave per un riposo profondo e ristorante."
+  },
+  "toasts": {
+    "save_success": "Finestra di sospensione salvata",
+    "save_error": "Non è riuscito a salvare la finestra di sonno",
+    "auth_error": "Sessione di autenticazione mancante o DB non configurato",
+    "saving": "Salvando..."
+  },
+  "common": {
+    "get_started": "Get Started",
+    "start_over": "Ricominciare",
+    "finish_exit": "Termina ed esci",
+    "well_done": "Well Done!",
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "time_to_complete": "Tempo di completamento",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "loading": "Loading...",
+    "share": "Condividere",
+    "share_progress": "Condividi i progressi",
+    "inspire_others": "Ispira gli altri oggi",
+    "share_text": "Ho svolto questa attività {{activityName}} su TherapyMantra e mi è piaciuta molto. Puoi farlo anche tu, basta seguire il link all'app Android {{androidUrl}} o all'app iOS {{iosUrl}}.",
+    "this_activity": "questa attività",
+    "copied": "Copiato!",
+    "copy_message": "Copia messaggio",
+    "yes": "Yes",
+    "no": "No",
+    "date": "Date",
+    "continue": "Continue",
+    "step_of": "Step {{current}} of {{total}}",
+    "round_of": "Round {{current}} of {{total}}",
+    "phase_label": "Phase",
+    "rounds_selector": "{{count}} Rounds",
+    "instruction_ready": "Set your rounds and tap play to begin",
+    "instruction_running": "Follow the circle to regulate your breath"
+  },
+  "app_description": "Pianificatore della finestra del sonno",
+  "more": "Di più",
+  "breadcrumb": "pangrattato",
+  "previous_slide": "diapositiva precedente",
+  "next_slide": "diapositiva successiva",
+  "close": "Vicino",
+  "previous": "Precedente",
+  "more_pages": "Altre pagine",
+  "pagination": "paginazione",
+  "go_to_previous_page": "Vai alla pagina precedente",
+  "go_to_next_page": "Vai alla pagina successiva",
+  "toggle_sidebar": "Attiva/disattiva la barra laterale",
+  "oops_page_not_found": "Ops! Pagina non trovata",
+  "return_to_home": "Torna alla home",
+  "phase_label": "Phase",
+  "instruction_ready": "Set your rounds and tap play to begin",
+  "instruction_running": "Follow the circle to regulate your breath",
+  "round_x_of_y": "Round {{current}} of {{total}}",
+  "rounds_selector": "{{count}} Rounds",
+  "yes": "Yes",
+  "no": "No",
+  "date": "Date",
+  "continue": "Continue"
+}
