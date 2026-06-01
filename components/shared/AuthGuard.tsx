@@ -122,10 +122,8 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
       // Save the destination path
       localStorage.setItem('APP_REDIRECT_PATH', currentUrl);
       
-      // Redirect to Auth Portal
-      const authPortalUrl = process.env.NEXT_PUBLIC_AUTH_PORTAL_URL || 'https://auth.mantracare.com';
-      const redirectUrl = encodeURIComponent(window.location.origin);
-      window.location.href = `${authPortalUrl}?redirect_url=${redirectUrl}`;
+      // Redirect to the main web app which handles adding the token
+      window.location.href = 'https://web.mantracare.com/app/therapy';
     }
   };
 
