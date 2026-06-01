@@ -69,7 +69,7 @@ const TIPS: Tip[] = [
     title: "Limit Caffeine & Sugar",
     description: "Too much caffeine and sugar can increase anxiety and disturb sleep.",
     icon: "☕",
-    iconBg: "bg-slate-50 dark:bg-slate-950/20 text-slate-600",
+    iconBg: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950/20 text-slate-600",
     whyItHelps: "Too much caffeine and sugar increases anxiety and sleep problems.",
     whatYouCanDo: [
       "Replace one coffee with herbal tea",
@@ -139,7 +139,7 @@ function BreathingGuide() {
         </div>
         {/* Soft decorative outer circle */}
         <div
-          className={`absolute inset-0 rounded-full border-2 border-dashed border-teal-500/20 transition-all ease-in-out duration-[4000ms] ${
+          className={`absolute inset-0 rounded-full border border-dashed border-teal-500/20 transition-all ease-in-out duration-[4000ms] ${
             paused ? 'scale-100' : scaleClass
           }`}
         />
@@ -227,7 +227,7 @@ function StressTipsInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => setSelectedSlug(tip.slug)}
-                      className="w-full p-6 text-left rounded-[2rem] bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all flex flex-col justify-start gap-2 group"
+                      className="w-full p-6 text-left rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all flex flex-col justify-start gap-2 group"
                     >
                       <div className="flex items-center gap-3.5">
                         <div className={`w-11 h-11 rounded-2xl ${tip.iconBg} flex items-center justify-center text-xl shrink-0`}>
@@ -282,7 +282,7 @@ function StressTipsInner() {
 
               {/* Dynamic breathing guide overlay */}
               {activeTip.hasBreathing && (
-                <div className="p-8 bg-teal-500/5 dark:bg-teal-500/10 border-2 border-teal-500/15 rounded-[2.5rem] space-y-4">
+                <div className="p-8 bg-teal-500/5 dark:bg-teal-500/10 border border-teal-500/15 rounded-[2.5rem] space-y-4">
                   <div className="flex items-center gap-2 text-teal-600 dark:text-teal-400 font-black text-[10px] uppercase tracking-widest">
                     <Wind size={16} />
                     {t('breathing_guide', 'PULSING BREATHING REGULATOR')}
@@ -292,7 +292,7 @@ function StressTipsInner() {
               )}
 
               {/* Why it helps */}
-              <div className="bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 p-8 shadow-sm space-y-2">
+              <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm space-y-2">
                 <span className="text-[9px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest block">
                   {t('detail.whyTitle', 'WHY IT HELPS')}
                 </span>
@@ -310,7 +310,7 @@ function StressTipsInner() {
                   {activeTip.whatYouCanDo.map((item, i) => (
                     <div
                       key={i}
-                      className="flex items-start gap-4 p-5 bg-slate-55/60 dark:bg-slate-900/60 rounded-2xl border border-slate-100/20 shadow-sm"
+                      className="flex items-start gap-4 p-5 bg-slate-55/60 dark:bg-slate-900/60 rounded-2xl border border-white/60/20 shadow-sm"
                     >
                       <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
                         <Check size={16} strokeWidth={3} />

@@ -212,7 +212,7 @@ function RealStoriesInner() {
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={() => handleSelectStory(idx)}
-                    className="w-full p-6 text-left rounded-[2rem] bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all flex flex-col justify-start gap-2.5 relative overflow-hidden group"
+                    className="w-full p-6 text-left rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all flex flex-col justify-start gap-2.5 relative overflow-hidden group"
                   >
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-sm font-black shrink-0">

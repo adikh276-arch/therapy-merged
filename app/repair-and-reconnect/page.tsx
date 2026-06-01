@@ -155,7 +155,7 @@ function RepairReconnectInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="glass-card p-8 text-center space-y-6 relative rounded-[2.5rem] bg-white border border-slate-100 shadow-xl flex flex-col justify-between"
+              className="glass-card p-8 text-center space-y-6 relative rounded-[2.5rem] bg-white/70 backdrop-blur-xl border border-white/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col justify-between"
             >
               <div className="text-6xl mt-4">🤝</div>
 
@@ -167,7 +167,7 @@ function RepairReconnectInner() {
                 {t("intro.description", "Anger can create distance between us and the people we care about. But small, gentle steps can help rebuild that connection.")}
               </p>
 
-              <div className="bg-slate-50 border border-slate-100 rounded-2xl p-5 italic text-slate-500 text-xs font-bold leading-relaxed text-center">
+              <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 rounded-2xl p-5 italic text-slate-500 text-xs font-bold leading-relaxed text-center">
                 {t("intro.quote", "\"Repair doesn't mean you were wrong—it means you care enough to try.\"")}
               </div>
 
@@ -177,7 +177,7 @@ function RepairReconnectInner() {
 
               <button 
                 onClick={next} 
-                className="w-full py-4.5 bg-slate-900 text-white font-bold rounded-2xl shadow-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
+                className="w-full py-4.5 bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold rounded-2xl shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
               >
                 {t("intro.button", "Start Reflection")} <ChevronRight size={18} />
               </button>
@@ -191,7 +191,7 @@ function RepairReconnectInner() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 1.05 }}
-              className="bg-white border border-slate-100 p-8 rounded-[2.5rem] shadow-xl space-y-6 text-left"
+              className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 rounded-[2.5rem] shadow-xl space-y-6 text-left"
             >
               <div className="text-center space-y-2">
                 <h2 className="text-2xl font-black text-slate-850">
@@ -207,10 +207,10 @@ function RepairReconnectInner() {
                   <button
                     key={opt.id}
                     onClick={() => setPerson(opt.id)}
-                    className={`p-5 rounded-[2rem] border-2 flex flex-col items-center gap-3 transition-all ${
+                    className={`p-5 rounded-[2rem] border flex flex-col items-center gap-3 transition-all ${
                       person === opt.id
                         ? "border-primary bg-primary/5 text-primary scale-105 shadow-md"
-                        : "border-slate-100 bg-white text-slate-650 hover:bg-slate-50"
+                        : "border-white/60 bg-white text-slate-650 hover:bg-slate-50"
                     }`}
                   >
                     <span className="text-4xl">{opt.emoji}</span>
@@ -224,7 +224,7 @@ function RepairReconnectInner() {
               <button
                 onClick={next}
                 disabled={!person}
-                className="w-full py-4 rounded-2xl bg-slate-900 text-white font-bold disabled:opacity-30 disabled:pointer-events-none mt-4"
+                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold disabled:opacity-30 disabled:pointer-events-none mt-4"
               >
                 {t("choose_person.button", "Continue")}
               </button>
@@ -237,7 +237,7 @@ function RepairReconnectInner() {
               key="approach"
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="bg-white border border-slate-100 p-8 rounded-[2.5rem] shadow-xl space-y-6 text-left"
+              className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 rounded-[2.5rem] shadow-xl space-y-6 text-left"
             >
               <div className="text-center space-y-2">
                 <h2 className="text-2xl font-black text-slate-850">
@@ -253,10 +253,10 @@ function RepairReconnectInner() {
                   <button
                     key={a.id}
                     onClick={() => setApproach(a.id)}
-                    className={`w-full p-4 rounded-2xl border-2 text-left flex items-center gap-3 transition-all ${
+                    className={`w-full p-4 rounded-2xl border text-left flex items-center gap-3 transition-all ${
                       approach === a.id
                         ? "border-primary bg-primary/5 text-primary shadow-sm"
-                        : "border-slate-100 bg-white text-slate-600 hover:border-primary/25"
+                        : "border-white/60 bg-white text-slate-600 hover:border-primary/25"
                     }`}
                   >
                     <span className="text-xl">{a.emoji}</span>
@@ -272,7 +272,7 @@ function RepairReconnectInner() {
               <button
                 onClick={next}
                 disabled={!approach}
-                className="w-full py-4 rounded-2xl bg-slate-900 text-white font-bold disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold disabled:opacity-30"
               >
                 {t("choose_approach.button", "Try This")}
               </button>
@@ -288,11 +288,11 @@ function RepairReconnectInner() {
               className="space-y-5 text-left"
             >
               {/* Action Banner */}
-              <div className="bg-white border border-slate-100 rounded-[2.5rem] p-6 shadow-xl text-center space-y-3">
+              <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-6 shadow-xl text-center space-y-3">
                 <div className="text-5xl">{emojiMap[approach] || "✨"}</div>
                 <h2 className="text-xl font-black text-slate-850">{actionData.title}</h2>
                 <p className="text-slate-500 font-semibold text-xs leading-relaxed max-w-xs mx-auto">{actionData.why}</p>
-                <div className="bg-slate-50 rounded-2xl p-4.5 border border-slate-100/50">
+                <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl p-4.5 border border-white/60/50">
                   <p className="text-[11px] text-slate-650 font-bold leading-relaxed">💡 {actionData.insight}</p>
                 </div>
               </div>
@@ -300,7 +300,7 @@ function RepairReconnectInner() {
               {/* Reveal Instruction */}
               <button
                 onClick={() => setRevealed(true)}
-                className="w-full bg-white border border-slate-100 p-5 rounded-3xl text-left space-y-1.5 shadow-sm hover:shadow-md transition-all"
+                className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-5 rounded-3xl text-left space-y-1.5 shadow-sm hover:shadow-md transition-all"
               >
                 <p className="font-extrabold text-sm text-slate-800">{actionData.howTitle}</p>
                 <AnimatePresence mode="wait">
@@ -336,7 +336,7 @@ function RepairReconnectInner() {
                       key={i}
                       onClick={() => handleSelectMsg(i, msg)}
                       className={`w-full bg-white border p-4 rounded-2xl text-left transition-all ${
-                        selectedMsgIdx === i ? "border-primary bg-primary/5 ring-2 ring-primary/10 shadow-sm" : "border-slate-100"
+                        selectedMsgIdx === i ? "border-primary bg-primary/5 ring-2 ring-primary/10 shadow-sm" : "border-white/60"
                       }`}
                     >
                       <p className="text-xs text-slate-700 font-bold leading-relaxed">"{msg}"</p>
@@ -354,7 +354,7 @@ function RepairReconnectInner() {
                   value={editedMsg}
                   onChange={(e) => setEditedMsg(e.target.value)}
                   rows={3}
-                  className="w-full bg-white border border-slate-150 rounded-2xl p-4 font-semibold text-xs text-slate-750 resize-none focus:outline-none focus:border-primary transition-all shadow-inner"
+                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-4 font-semibold text-xs text-slate-750 resize-none focus:outline-none focus:border-primary transition-all shadow-inner"
                 />
               </div>
 
@@ -373,7 +373,7 @@ function RepairReconnectInner() {
                   <button
                     onClick={done}
                     disabled={isSaving}
-                    className="flex-1 bg-slate-900 text-white py-3.5 rounded-2xl font-bold text-sm hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
+                    className="flex-1 bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-3.5 rounded-2xl font-bold text-sm hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
                   >
                     <Save size={16} />
                     {isSaving ? t("toasts.preserving", "Saving...") : t("toasts.complete_button", "Complete & Save")}

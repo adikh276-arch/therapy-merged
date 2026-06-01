@@ -180,7 +180,7 @@ function KnowYourValuesInner() {
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   onClick={handleViewHistory}
-                  className="w-full py-5 rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-md transition-all"
+                  className="w-full py-5 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-md transition-all"
                 >
                   <History size={16} strokeWidth={2.5} />
                   {t('app.viewHistory', 'View History')}
@@ -220,10 +220,10 @@ function KnowYourValuesInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleToggleValue(v)}
-                      className={`relative flex flex-col items-center justify-center gap-3 p-5 rounded-[2rem] border-2 transition-all duration-200 aspect-square ${
+                      className={`relative flex flex-col items-center justify-center gap-3 p-5 rounded-[2rem] border transition-all duration-200 aspect-square ${
                         isSelected
                           ? 'bg-primary/5 dark:bg-primary/10 border-primary shadow-sm'
-                          : 'bg-white dark:bg-slate-900 border-slate-100 dark:border-slate-800 hover:border-slate-200'
+                          : 'bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 hover:border-slate-200'
                       }`}
                     >
                       {isSelected && (
@@ -285,7 +285,7 @@ function KnowYourValuesInner() {
                       className={`px-4.5 py-3 rounded-2xl font-black text-xs uppercase tracking-wider transition-all shadow-sm ${
                         isChosen
                           ? 'bg-primary text-primary-foreground'
-                          : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-300 border border-slate-100 dark:border-slate-800'
+                          : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-300 border border-white/60 dark:border-slate-800'
                       }`}
                     >
                       {v.emoji} {t(`values.${v.name}`, v.name)}
@@ -305,7 +305,7 @@ function KnowYourValuesInner() {
                       onChange={(e) => setReflectionText(e.target.value)}
                       placeholder={t('app.reflectPlaceholder', 'Write your thoughts and feelings here...')}
                       rows={5}
-                      className="w-full py-5 rounded-3xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 dark:placeholder:text-slate-600 resize-none shadow-sm leading-relaxed"
+                      className="w-full py-5 rounded-3xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 dark:placeholder:text-slate-600 resize-none shadow-sm leading-relaxed"
                     />
                   </div>
 
@@ -362,7 +362,7 @@ function KnowYourValuesInner() {
                     onChange={(e) => setActionText(e.target.value)}
                     placeholder={t('app.livePlaceholder', 'e.g. Call my partner to check in at lunch, or block 30 minutes to practice painting...')}
                     rows={5}
-                    className="w-full py-5 rounded-3xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 dark:placeholder:text-slate-650 resize-none shadow-sm leading-relaxed"
+                    className="w-full py-5 rounded-3xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 dark:placeholder:text-slate-650 resize-none shadow-sm leading-relaxed"
                   />
                 </div>
 
@@ -396,7 +396,7 @@ function KnowYourValuesInner() {
                 onRestart={handleResetActivity}
                 icon={<Target size={48} className="text-primary animate-pulse" />}
               >
-                <div className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 text-left space-y-6 my-6 shadow-sm">
+                <div className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 text-left space-y-6 my-6 shadow-sm">
                   <div className="flex items-center gap-4 border-b border-slate-50 dark:border-slate-850 pb-4">
                     <div className="w-14 h-14 bg-primary/10 text-primary rounded-2xl flex items-center justify-center text-3xl leading-none">
                       {savedReflection.valueEmoji}
@@ -484,7 +484,7 @@ function KnowYourValuesInner() {
                   </p>
                 </div>
               ) : historyList.length === 0 ? (
-                <div className="py-16 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border-2 border-dashed border-slate-100 dark:border-slate-800 px-6 space-y-6">
+                <div className="py-16 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border border-dashed border-white/60 dark:border-slate-800 px-6 space-y-6">
                   <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-slate-200 dark:text-slate-800 shadow-sm">
                     <Calendar size={24} />
                   </div>
@@ -508,11 +508,11 @@ function KnowYourValuesInner() {
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: i * 0.03 }}
-                      className="p-6 bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/10 transition-all"
+                      className="p-6 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/10 transition-all"
                     >
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3.5">
-                          <div className="w-11 h-11 rounded-xl bg-slate-50 dark:bg-slate-950 flex items-center justify-center text-xl shadow-inner leading-none shrink-0">
+                          <div className="w-11 h-11 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-xl shadow-inner leading-none shrink-0">
                             {r.valueEmoji}
                           </div>
                           <div>

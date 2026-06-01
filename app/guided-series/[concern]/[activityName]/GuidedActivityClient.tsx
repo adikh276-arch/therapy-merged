@@ -81,24 +81,24 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
       case 'THOUGHT_RECORD':
         return (
           <div className="space-y-5">
-            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+            <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-4 rounded-2xl border border-white/60">
               <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t('the_situation', 'The Situation')}</label>
               <input type="text" placeholder={t('what_happened', 'What happened?')} className="w-full bg-transparent outline-none text-slate-700 font-medium"
                 onChange={(e) => setFormData({ ...formData, situation: e.target.value })} />
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+              <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-4 rounded-2xl border border-white/60">
                 <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t('emotion', 'Emotion')}</label>
                 <input type="text" placeholder={t('e_g_anxiety', 'e.g. Anxiety')} className="w-full bg-transparent outline-none text-slate-700 font-medium"
                   onChange={(e) => setFormData({ ...formData, emotion: e.target.value })} />
               </div>
-              <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+              <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-4 rounded-2xl border border-white/60">
                 <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t('intensity', 'Intensity')}</label>
                 <input type="number" placeholder={t('1_10', '1-10')} className="w-full bg-transparent outline-none text-slate-700 font-medium"
                   onChange={(e) => setFormData({ ...formData, intensity: e.target.value })} />
               </div>
             </div>
-            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+            <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-4 rounded-2xl border border-white/60">
               <label className="text-[13px] font-bold text-slate-400 uppercase mb-2 block">{t('automatic_thought', 'Automatic Thought')}</label>
               <textarea placeholder={t('what_was_your_mind_telling_you', 'What was your mind telling you?')} className="w-full bg-transparent outline-none text-slate-700 font-medium h-20 resize-none"
                 onChange={(e) => setFormData({ ...formData, thought: e.target.value })} />
@@ -144,7 +144,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
                 className={`w-full p-4 rounded-2xl border text-left transition-all flex items-center justify-between ${
                   (formData.checked || []).includes(opt)
                     ? 'bg-blue-600 border-blue-600 text-white shadow-lg shadow-blue-100'
-                    : 'bg-slate-50 border-slate-100 text-slate-600 hover:border-slate-200'
+                    : 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-white/60 text-slate-600 hover:border-slate-200'
                 }`}
               >
                 <span className="font-medium">{opt}</span>
@@ -187,7 +187,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
                 setFormData({ ...formData, note: e.target.value });
               }}
               placeholder={t('start_typing_your_reflection_here', 'Start typing your reflection here...')}
-              className="w-full p-6 bg-slate-50 border border-slate-100 rounded-3xl outline-none h-40 resize-none text-slate-700"
+              className="w-full p-6 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 rounded-3xl outline-none h-40 resize-none text-slate-700"
             />
           </div>
         );
@@ -198,7 +198,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
             value={reflection}
             onChange={(e) => setReflection(e.target.value)}
             placeholder={t('start_typing_your_reflection_here', 'Start typing your reflection here...')}
-            className="w-full h-64 p-8 bg-[#F8FAFC] border border-slate-100 rounded-[32px] focus:ring-4 focus:ring-blue-100/50 focus:border-blue-400 transition-all resize-none text-slate-700 text-lg placeholder:text-slate-300 leading-relaxed"
+            className="w-full h-64 p-8 bg-[#F8FAFC] border border-white/60 rounded-[32px] focus:ring-4 focus:ring-blue-100/50 focus:border-blue-400 transition-all resize-none text-slate-700 text-lg placeholder:text-slate-300 leading-relaxed"
           />
         );
     }
@@ -207,11 +207,11 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
   return (
     <div className="min-h-screen bg-[#F8FAFC] pb-10 font-sans">
       {/* Header */}
-      <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-slate-100 px-6 py-5 flex items-center justify-between">
+      <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-white/60 px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <button
             onClick={() => router.back()}
-            className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-slate-50"
+            className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-white/40 backdrop-blur-sm shadow-sm border border-white/50"
           >
             <ChevronLeft size={20} className="text-slate-600" />
           </button>
@@ -219,7 +219,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
         </div>
         <button
           onClick={() => { setShowHistory(!showHistory); if (!showHistory) fetchHistory(); }}
-          className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-slate-50 relative"
+          className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 relative"
         >
           <History size={20} className={showHistory ? 'text-blue-500' : 'text-slate-400'} />
         </button>
@@ -229,7 +229,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white rounded-[40px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.03)] border border-slate-100"
+          className="bg-white rounded-[40px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.03)] border border-white/60"
         >
           <div className="mb-10">
             <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight leading-tight">
@@ -268,12 +268,12 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
             disabled={isSaving}
             className={`w-full mt-10 py-6 rounded-[24px] flex items-center justify-center gap-3 text-lg font-black transition-all active:scale-[0.98] ${
               !isSaving
-                ? 'bg-slate-900 text-white hover:bg-black shadow-2xl shadow-slate-200'
+                ? 'bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 hover:bg-black shadow-2xl shadow-slate-200'
                 : 'bg-slate-100 text-slate-300 cursor-not-allowed shadow-none'
             }`}
           >
             {isSaving ? (
-              <div className="w-6 h-6 rounded-full border-2 border-white/30 border-t-white animate-spin" />
+              <div className="w-6 h-6 rounded-full border border-white/30 border-t-white animate-spin" />
             ) : (
               <>
                 <Send size={20} className="opacity-70" />
@@ -298,7 +298,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
               {history.length > 0 ? (
                 <div className="space-y-4">
                   {history.map((entry, idx) => (
-                    <div key={idx} className="bg-white p-8 rounded-[32px] border border-slate-100 shadow-sm">
+                    <div key={idx} className="bg-white p-8 rounded-[32px] border border-white/60 shadow-sm">
                       <div className="flex justify-between items-center mb-6">
                         <span className="text-[10px] font-black text-blue-600 bg-blue-50 px-3 py-1.5 rounded-full">
                           {new Date(entry.created_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}

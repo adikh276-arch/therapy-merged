@@ -221,7 +221,7 @@ function PersonalMissionStatementInner() {
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={handleViewHistory}
-                    className="w-full py-5 rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-md transition-all"
+                    className="w-full py-5 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-md transition-all"
                   >
                     <History size={16} strokeWidth={2.5} />
                     {t('history_title', 'View Stored Statements')}
@@ -263,8 +263,8 @@ function PersonalMissionStatementInner() {
                         onClick={() => handleToggleValue(v.key)}
                         className={`px-4.5 py-3 rounded-2xl font-black text-xs uppercase tracking-wider transition-all shadow-sm ${
                           isSelected
-                            ? 'bg-primary text-primary-foreground border-2 border-primary'
-                            : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-350 border-2 border-slate-100 dark:border-slate-800'
+                            ? 'bg-primary text-primary-foreground border border-primary'
+                            : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-350 border border-white/60 dark:border-slate-800'
                         }`}
                       >
                         {isSelected && <span className="mr-1.5">✓</span>}
@@ -321,7 +321,7 @@ function PersonalMissionStatementInner() {
                       placeholder={t('reflection_being_placeholder', 'e.g. Someone who listens deeply and supports others...')}
                       value={data.beingSomeoneWho}
                       onChange={(e) => setData({ ...data, beingSomeoneWho: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-6 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-6 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
                     />
                   </div>
 
@@ -334,7 +334,7 @@ function PersonalMissionStatementInner() {
                       placeholder={t('reflection_life_placeholder', 'e.g. Complete, peaceful, aligned...')}
                       value={data.lifeFeelMore}
                       onChange={(e) => setData({ ...data, lifeFeelMore: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-6 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-6 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
                     />
                   </div>
                 </div>
@@ -370,7 +370,7 @@ function PersonalMissionStatementInner() {
                   <motion.div
                     initial={{ opacity: 0, scale: 0.97 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    className="bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 p-8 shadow-xl text-center relative overflow-hidden my-6"
+                    className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl text-center relative overflow-hidden my-6"
                   >
                     <textarea
                       value={statement}
@@ -400,7 +400,7 @@ function PersonalMissionStatementInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => setScreen(2)}
-                      className="py-4.5 bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-600 dark:text-slate-350 font-black text-sm rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-950 transition-all shadow-sm"
+                      className="py-4.5 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-600 dark:text-slate-350 font-black text-sm rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-950 transition-all shadow-sm"
                     >
                       <Pencil size={16} />
                       {t('mission_edit', 'Modify Draft')}
@@ -447,7 +447,7 @@ function PersonalMissionStatementInner() {
                     </p>
                   </div>
                 ) : historyList.length === 0 ? (
-                  <div className="py-16 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border-2 border-dashed border-slate-100 dark:border-slate-800 px-6 space-y-6">
+                  <div className="py-16 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border border-dashed border-white/60 dark:border-slate-800 px-6 space-y-6">
                     <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-slate-200 dark:text-slate-800 shadow-sm animate-pulse">
                       <Compass size={24} />
                     </div>
@@ -474,7 +474,7 @@ function PersonalMissionStatementInner() {
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.03 }}
-                        className="p-6.5 bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/10 transition-all text-center"
+                        className="p-6.5 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/10 transition-all text-center"
                       >
                         <div className="flex items-center justify-between border-b border-slate-50 dark:border-slate-850 pb-3 text-left">
                           <div className="flex items-center gap-2 text-slate-400">

@@ -172,7 +172,7 @@ const ActiveBreathing = () => {
         </div>
 
         {status === "idle" && (
-          <div className="bg-slate-50 p-2 rounded-[2rem] border-2 border-slate-100 flex gap-2">
+          <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-2 rounded-[2rem] border border-white/60 flex gap-2">
             {[4, 6, 8].map((r) => (
               <button
                 key={r}
@@ -195,7 +195,7 @@ const ActiveBreathing = () => {
             onClick={status === "running" ? handlePause : handleStart}
             className={`w-20 h-20 rounded-full flex items-center justify-center shadow-xl transition-all ${
               status === "running" 
-              ? "bg-white text-slate-900 border-2 border-slate-100 hover:bg-slate-50 shadow-slate-200" 
+              ? "bg-white text-slate-900 border border-white/60 hover:bg-slate-50 shadow-slate-200" 
               : "bg-primary text-white shadow-primary/20 hover:shadow-primary/30"
             }`}
           >
@@ -206,7 +206,7 @@ const ActiveBreathing = () => {
             whileHover={{ rotate: -90, scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={reset}
-            className="w-16 h-16 bg-slate-50 text-slate-400 rounded-full flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all border-2 border-slate-100"
+            className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 rounded-full flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all border border-white/60"
             aria-label={t('reset')}
           >
             <RefreshCw size={24} strokeWidth={3} />

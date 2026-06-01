@@ -268,7 +268,7 @@ function MemoryBoxInner() {
               <div className="absolute top-0 right-0 p-4">
                 <button
                   onClick={() => setHistoryOpen(true)}
-                  className="w-10 h-10 rounded-2xl bg-white border border-slate-100 flex items-center justify-center text-slate-500 hover:text-primary shadow-sm hover:shadow-md transition-all"
+                  className="w-10 h-10 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex items-center justify-center text-slate-500 hover:text-primary shadow-sm hover:shadow-md transition-all"
                   title="View History"
                 >
                   <Archive size={20} />
@@ -294,7 +294,7 @@ function MemoryBoxInner() {
                 </div>
 
                 <motion.div
-                  className="w-14 h-14 mx-auto rounded-full bg-primary/10 border-2 border-primary/20"
+                  className="w-14 h-14 mx-auto rounded-full bg-primary/10 border border-primary/20"
                   animate={{ scale: [1, 1.3, 1], opacity: [0.4, 0.7, 0.4] }}
                   transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" as const }}
                 />
@@ -325,14 +325,14 @@ function MemoryBoxInner() {
                     placeholder={t("who.placeholder_name", "Who are you remembering?")}
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="w-full bg-white border border-slate-100 rounded-2xl px-5 py-4 text-center font-bold text-slate-800 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all placeholder:text-slate-350"
+                    className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl px-5 py-4 text-center font-bold text-slate-800 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all placeholder:text-slate-350"
                   />
                   <input
                     type="text"
                     placeholder={t("who.placeholder_relation", "Their relationship to you (optional)")}
                     value={relation}
                     onChange={(e) => setRelation(e.target.value)}
-                    className="w-full bg-white border border-slate-100 rounded-2xl px-5 py-3.5 text-center text-sm font-medium text-slate-700 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all placeholder:text-slate-350"
+                    className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl px-5 py-3.5 text-center text-sm font-medium text-slate-700 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all placeholder:text-slate-350"
                   />
                 </div>
 
@@ -362,7 +362,7 @@ function MemoryBoxInner() {
                   whileTap={{ scale: name.trim() && category ? 0.98 : 1 }}
                   onClick={() => setScreen(2)}
                   disabled={!name.trim() || !category}
-                  className="w-full py-4 rounded-2xl bg-slate-900 text-white font-bold shadow-lg disabled:opacity-40 disabled:scale-100"
+                  className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold shadow-lg disabled:opacity-40 disabled:scale-100"
                 >
                   {t("who.continue", "Continue")}
                 </motion.button>
@@ -389,7 +389,7 @@ function MemoryBoxInner() {
                   onChange={(e) => setMemoryText(e.target.value)}
                   placeholder={t("write_as_much_or_as_little_as_you_want", "Type your memory here...")}
                   rows={4}
-                  className="w-full bg-white border border-slate-150 rounded-2xl px-5 py-4 font-medium text-slate-800 text-sm focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 resize-none transition-all"
+                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl px-5 py-4 font-medium text-slate-800 text-sm focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 resize-none transition-all"
                 />
 
                 <div className="space-y-2">
@@ -401,7 +401,7 @@ function MemoryBoxInner() {
                     onChange={(e) => setMessage(e.target.value)}
                     placeholder={t("if_there_s_something_you_d_like_to_say", "Is there something you want to tell them?")}
                     rows={2}
-                    className="w-full bg-white border border-slate-150 rounded-2xl px-5 py-3 font-medium text-slate-800 text-sm focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 resize-none transition-all"
+                    className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl px-5 py-3 font-medium text-slate-800 text-sm focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 resize-none transition-all"
                   />
                 </div>
 
@@ -448,7 +448,7 @@ function MemoryBoxInner() {
                     initial={{ opacity: 0, y: 15 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.5 }}
-                    className="bg-white border border-slate-100 rounded-3xl p-5 shadow-sm space-y-3 text-left"
+                    className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 shadow-sm space-y-3 text-left"
                   >
                     <div className="flex items-center gap-2">
                       <span className="text-lg">🤍</span>
@@ -483,7 +483,7 @@ function MemoryBoxInner() {
                   </motion.button>
                   <button
                     onClick={() => setScreen(4)}
-                    className="w-full py-3.5 rounded-2xl bg-slate-50 hover:bg-slate-100 border border-slate-100 text-slate-600 font-bold text-sm transition-all"
+                    className="w-full py-3.5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 hover:bg-slate-100 border border-white/60 text-slate-600 font-bold text-sm transition-all"
                   >
                     {t("finish_for_now", "Finish for Now")}
                   </button>
@@ -591,7 +591,7 @@ function MemoryBoxInner() {
                         key={m.id}
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="bg-white border border-slate-100 rounded-3xl p-5 shadow-sm space-y-3 relative group text-left"
+                        className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 shadow-sm space-y-3 relative group text-left"
                       >
                         <button
                           onClick={() => deleteMemory(m.id)}

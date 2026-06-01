@@ -228,7 +228,7 @@ function FeelingSelector({ onSelect }: { onSelect: (feelingId: string, colorInde
             whileHover={{ scale: 1.01, x: 4 }}
             whileTap={{ scale: 0.99 }}
             onClick={() => onSelect(feeling.id, index % FEELING_COLORS.length)}
-            className={`w-full p-5 rounded-2xl border-2 text-left transition-all flex items-center justify-between group ${
+            className={`w-full p-5 rounded-2xl border text-left transition-all flex items-center justify-between group ${
               FEELING_COLORS[index % FEELING_COLORS.length]
             }`}
           >
@@ -309,7 +309,7 @@ function AffirmationScreen({
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 1.05, y: -10 }}
               transition={{ duration: 0.4, ease: 'easeOut' }}
-              className={`w-full aspect-[4/3] rounded-[2.5rem] border-2 ${tintClass} p-10 flex items-center justify-center text-center shadow-xl shadow-slate-200/50 dark:shadow-none relative overflow-hidden`}
+              className={`w-full aspect-[4/3] rounded-[2.5rem] border ${tintClass} p-10 flex items-center justify-center text-center shadow-xl shadow-slate-200/50 dark:shadow-none relative overflow-hidden`}
             >
               {/* Decorative element */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-white/30 dark:bg-white/5 rounded-full -mr-16 -mt-16 blur-2xl" />
@@ -343,7 +343,7 @@ function AffirmationScreen({
             whileTap={{ scale: 0.9 }}
             onClick={goPrev}
             disabled={isFirst}
-            className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-600 dark:text-slate-300 shadow-sm disabled:opacity-20 transition-all"
+            className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-600 dark:text-slate-300 shadow-sm disabled:opacity-20 transition-all"
           >
             <ChevronLeft size={24} />
           </motion.button>
@@ -373,7 +373,7 @@ function AffirmationScreen({
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={onChooseAnother}
-            className="w-full py-4 rounded-2xl bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 font-bold flex items-center justify-center gap-2 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all"
+            className="w-full py-4 rounded-2xl bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 font-bold flex items-center justify-center gap-2 hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
           >
             <RotateCcw size={18} />
             {t('common.chooseAnother', 'Choose another feeling')}

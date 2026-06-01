@@ -174,7 +174,7 @@ function EnvironmentOptimizationInner() {
               </div>
 
               {/* Instruction Panel */}
-              <div className="p-6 bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 text-left space-y-4 shadow-sm">
+              <div className="p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 text-left space-y-4 shadow-sm">
                 <p className="text-base font-bold text-slate-800 dark:text-slate-200">
                   {t('next_5_minutes', 'For the next 5 minutes:')}
                 </p>
@@ -240,7 +240,7 @@ function EnvironmentOptimizationInner() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleResetTimer}
-                  className="w-12 h-12 rounded-full border-2 border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white flex items-center justify-center shadow-sm"
+                  className="w-12 h-12 rounded-full border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white flex items-center justify-center shadow-sm"
                 >
                   <RotateCcw size={18} />
                 </motion.button>
@@ -258,7 +258,7 @@ function EnvironmentOptimizationInner() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setSoundEnabled(!soundEnabled)}
-                  className="w-12 h-12 rounded-full border-2 border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white flex items-center justify-center shadow-sm"
+                  className="w-12 h-12 rounded-full border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white flex items-center justify-center shadow-sm"
                 >
                   {soundEnabled ? <Volume2 size={18} /> : <VolumeX size={18} />}
                 </motion.button>
@@ -273,7 +273,7 @@ function EnvironmentOptimizationInner() {
                 whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
                 onClick={handleFinishEarly}
-                className="w-full py-4.5 rounded-2xl bg-slate-100 dark:bg-slate-900 border-2 border-slate-200/40 dark:border-slate-800 text-slate-650 dark:text-slate-350 font-black text-xs uppercase tracking-widest transition-all flex items-center justify-center gap-2 hover:bg-slate-200"
+                className="w-full py-4.5 rounded-2xl bg-slate-100 dark:bg-slate-900 border border-slate-200/40 dark:border-slate-800 text-slate-650 dark:text-slate-350 font-black text-xs uppercase tracking-widest transition-all flex items-center justify-center gap-2 hover:bg-slate-200"
               >
                 <CheckCircle2 size={16} />
                 {t('im_done', "I'm Done — Continue")}
@@ -301,7 +301,7 @@ function EnvironmentOptimizationInner() {
                 icon={<Sparkles size={48} />}
               >
                 <div className="space-y-6 w-full mt-6">
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 p-6 shadow-sm text-left space-y-4">
+                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm text-left space-y-4">
                     <p className="text-slate-600 dark:text-slate-350 text-sm font-bold leading-relaxed">
                       {t('draining_item', 'If one item still feels draining, move or remove just that one thing.')}
                     </p>

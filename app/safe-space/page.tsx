@@ -70,13 +70,13 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
           placeholder={t("s1.placeholder", "Type how you are feeling (e.g. My shoulders feel tight...)")} 
           value={feeling} 
           onChange={(e) => setFeeling(e.target.value)}
-          className="w-full rounded-3xl border-2 border-slate-100 bg-white p-6 text-slate-700 placeholder:text-slate-300 focus:border-primary/35 outline-none transition-all font-bold min-h-[120px] shadow-inner resize-none" 
+          className="w-full rounded-3xl border border-white/60 bg-white p-6 text-slate-700 placeholder:text-slate-300 focus:border-primary/35 outline-none transition-all font-bold min-h-[120px] shadow-inner resize-none" 
         />
       </motion.div>
       <motion.div variants={childFade} className="w-full">
         <button
           onClick={onContinue}
-          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("s1.button", "Continue")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -115,7 +115,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
       <motion.div variants={childFade} className="w-full">
         <button
           onClick={onContinue}
-          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("s2.button", "I have my place")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -154,7 +154,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
       <motion.div variants={childFade} className="w-full">
         <button
           onClick={onContinue}
-          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("s3.button", "Continue Exploring")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -197,7 +197,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
         </motion.div>
       </motion.div>
 
-      <motion.div variants={childFade} className="bg-slate-50 rounded-3xl p-6 border border-slate-100">
+      <motion.div variants={childFade} className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-3xl p-6 border border-white/60">
         <p className="text-slate-500 font-bold text-sm italic leading-relaxed">
           {t("s4.notice", "Allow yourself to fully settle. There is nothing else you need to do right now.")}
         </p>
@@ -206,7 +206,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
       <motion.div variants={childFade} className="w-full">
         <button
           onClick={onContinue}
-          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("s4.button", "I feel settled")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -247,14 +247,14 @@ function Screen5({ onDone }: { onDone: () => void }) {
           placeholder={t("s5.placeholder", "Write down how you feel now...")} 
           value={reflection} 
           onChange={(e) => setReflection(e.target.value)}
-          className="w-full rounded-3xl border-2 border-slate-100 bg-white p-6 text-slate-700 placeholder:text-slate-300 focus:border-primary/35 outline-none transition-all font-bold min-h-[120px] shadow-inner resize-none" 
+          className="w-full rounded-3xl border border-white/60 bg-white p-6 text-slate-700 placeholder:text-slate-300 focus:border-primary/35 outline-none transition-all font-bold min-h-[120px] shadow-inner resize-none" 
         />
       </motion.div>
 
       <motion.div variants={childFade} className="w-full">
         <button
           onClick={onDone}
-          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("s5.button", "Complete Session")}
           <ChevronRight size={20} strokeWidth={3} />

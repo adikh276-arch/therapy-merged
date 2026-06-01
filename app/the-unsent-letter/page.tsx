@@ -205,7 +205,7 @@ function TheUnsentLetterInner() {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => setScreen("writing")}
-                  className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg"
                 >
                   {t("intro.button", "Start Writing")}
                 </motion.button>
@@ -249,7 +249,7 @@ function TheUnsentLetterInner() {
                   value={recipient}
                   onChange={(e) => setRecipient(e.target.value)}
                   placeholder="e.g. To my past self..."
-                  className="w-full bg-white border border-slate-100 rounded-2xl px-5 py-4 font-bold text-slate-800 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all text-sm"
+                  className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl px-5 py-4 font-bold text-slate-800 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all text-sm"
                 />
               </div>
 
@@ -263,7 +263,7 @@ function TheUnsentLetterInner() {
                     <button
                       key={p}
                       onClick={() => insertPrompt(p)}
-                      className="shrink-0 px-4 py-2 rounded-2xl bg-white border border-slate-100 text-slate-500 hover:bg-primary hover:text-white hover:border-primary font-bold text-xs shadow-sm transition-all"
+                      className="shrink-0 px-4 py-2 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] text-slate-500 hover:bg-primary hover:text-white hover:border-primary font-bold text-xs shadow-sm transition-all"
                     >
                       {p}
                     </button>
@@ -282,7 +282,7 @@ function TheUnsentLetterInner() {
                   onChange={(e) => setLetterContent(e.target.value)}
                   placeholder={t("writing.placeholder", "Dear ____,\nI've been wanting to say…")}
                   rows={6}
-                  className="w-full bg-white border border-slate-150 rounded-2xl p-5 text-sm font-semibold text-slate-800 resize-none focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all flex-1 min-h-[180px] shadow-inner leading-relaxed"
+                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-5 text-sm font-semibold text-slate-800 resize-none focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all flex-1 min-h-[180px] shadow-inner leading-relaxed"
                 />
               </div>
 
@@ -292,7 +292,7 @@ function TheUnsentLetterInner() {
                   whileTap={{ scale: letterContent.trim() ? 0.98 : 1 }}
                   onClick={() => setScreen("reflection")}
                   disabled={!letterContent.trim()}
-                  className="w-full py-4.5 bg-slate-900 text-white font-bold rounded-2xl disabled:opacity-30 flex items-center justify-center gap-2"
+                  className="w-full py-4.5 bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold rounded-2xl disabled:opacity-30 flex items-center justify-center gap-2"
                 >
                   {t("writing.button", "Continue to Reflection")}
                   <ChevronRight size={18} />
@@ -378,7 +378,7 @@ function TheUnsentLetterInner() {
                   Loading letters...
                 </div>
               ) : savedLetters.length === 0 ? (
-                <div className="text-center py-16 bg-white rounded-3xl border border-slate-100 shadow-sm space-y-4 text-center">
+                <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
                   <span className="text-4xl block">📭</span>
                   <p className="text-slate-450 font-bold text-sm">
                     {t("history.empty_title", "You haven't written any letters yet.")}
@@ -389,7 +389,7 @@ function TheUnsentLetterInner() {
                   {savedLetters.map((l) => (
                     <div
                       key={l.id}
-                      className="w-full bg-white border border-slate-100 rounded-3xl p-5 hover:shadow-lg transition-all relative group flex flex-col gap-2"
+                      className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 hover:shadow-lg transition-all relative group flex flex-col gap-2"
                     >
                       <button
                         onClick={() => deleteLetter(l.id)}

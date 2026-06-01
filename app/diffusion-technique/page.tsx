@@ -223,7 +223,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -15 }}
-      className="w-full relative overflow-hidden rounded-[2.5rem] p-8 border-2 border-primary/10 bg-gradient-to-b from-[#F3EDFF]/50 to-[#E9E4FF]/50 dark:from-[#2e264d]/10 dark:to-[#1a172e]/10 shadow-sm"
+      className="w-full relative overflow-hidden rounded-[2.5rem] p-8 border border-primary/10 bg-gradient-to-b from-[#F3EDFF]/50 to-[#E9E4FF]/50 dark:from-[#2e264d]/10 dark:to-[#1a172e]/10 shadow-sm"
     >
       {/* Floating decorative elements */}
       {[
@@ -270,10 +270,10 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => onStoryNameChange(chip)}
-                  className={`px-4.5 py-2.5 rounded-full text-xs font-bold transition-all border-2 ${
+                  className={`px-4.5 py-2.5 rounded-full text-xs font-bold transition-all border ${
                     isSelected
                       ? 'bg-primary text-primary-foreground border-primary'
-                      : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-350 border-slate-100 dark:border-slate-800 hover:border-primary/20 hover:bg-primary/5'
+                      : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-350 border-white/60 dark:border-slate-800 hover:border-primary/20 hover:bg-primary/5'
                   }`}
                 >
                   {chip}
@@ -289,7 +289,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
             value={storyName}
             onChange={(e) => onStoryNameChange(e.target.value)}
             placeholder="Or type your own story name..."
-            className="w-full border-2 border-primary/20 rounded-2xl px-5 py-4 text-base text-slate-900 dark:text-white bg-white/80 dark:bg-slate-950/80 backdrop-blur-sm focus:outline-none focus:border-primary focus:shadow-md transition-all font-bold placeholder:text-slate-300"
+            className="w-full border border-primary/20 rounded-2xl px-5 py-4 text-base text-slate-900 dark:text-white bg-white/80 dark:bg-slate-950/80 backdrop-blur-sm focus:outline-none focus:border-primary focus:shadow-md transition-all font-bold placeholder:text-slate-300"
           />
         </div>
 
@@ -301,7 +301,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="rounded-2xl p-5 border-2 border-primary/10 bg-primary/5 text-left"
+              className="rounded-2xl p-5 border border-primary/10 bg-primary/5 text-left"
             >
               <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1.5">
                 {t('your_mindful_phrase', 'Your mindful phrase:')}
@@ -506,7 +506,7 @@ function DiffusionTechniqueInner() {
                         resetFlow();
                         setView(card.view);
                       }}
-                      className="w-full text-left p-6 rounded-3xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all flex items-center gap-5 group"
+                      className="w-full text-left p-6 rounded-3xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all flex items-center gap-5 group"
                     >
                       <div className={`w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 ${card.color} group-hover:scale-105 transition-all`}>
                         <CardIcon className="w-6 h-6" />
@@ -548,7 +548,7 @@ function DiffusionTechniqueInner() {
                         <p>{t('sky_intro_2', 'Thoughts are like clouds passing through.')}</p>
                       </div>
                     </div>
-                    <div className="p-6 bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 shadow-sm">
+                    <div className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm">
                       <p className="text-slate-600 dark:text-slate-400 text-sm font-bold leading-relaxed italic">
                         {t('sky_intro_5', 'Your job is simply to watch them pass.')}
                       </p>
@@ -590,7 +590,7 @@ function DiffusionTechniqueInner() {
                         onChange={(e) => setThought(e.target.value)}
                         placeholder={t('sky_placeholder', 'Example: "I might fail this presentation"')}
                         rows={4}
-                        className="w-full py-4.5 rounded-2xl border-2 border-slate-105 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none shadow-inner"
+                        className="w-full py-4.5 rounded-2xl border border-slate-105 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none shadow-inner"
                       />
                     </div>
                     <motion.button
@@ -640,7 +640,7 @@ function DiffusionTechniqueInner() {
                             resetFlow();
                             setView('choose');
                           }}
-                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                         >
                           <RefreshCw size={16} />
                           {t('btn_try_another', 'Try Another Technique')}
@@ -708,7 +708,7 @@ function DiffusionTechniqueInner() {
                         value={thought}
                         onChange={(e) => setThought(e.target.value)}
                         placeholder={t('placeholder_sell', 'I\'m not good enough')}
-                        className="w-full py-4.5 rounded-2xl border-2 border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300 shadow-inner"
+                        className="w-full py-4.5 rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300 shadow-inner"
                       />
                     </div>
                     <motion.button
@@ -739,7 +739,7 @@ function DiffusionTechniqueInner() {
                         {t('sell_cost_hint', 'If someone tried to sell you this thought, how valuable would it actually be?')}
                       </p>
                     </div>
-                    <div className="p-6 bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 shadow-sm">
+                    <div className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm">
                       <MoneySlider value={sellValue} onChange={setSellValue} />
                     </div>
                     <motion.button
@@ -790,7 +790,7 @@ function DiffusionTechniqueInner() {
                             resetFlow();
                             setView('choose');
                           }}
-                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                         >
                           <RefreshCw size={16} />
                           {t('btn_try_another', 'Try Another Technique')}
@@ -858,7 +858,7 @@ function DiffusionTechniqueInner() {
                         value={thought}
                         onChange={(e) => setThought(e.target.value)}
                         placeholder={t('placeholder_name', '"I always mess things up"')}
-                        className="w-full py-4.5 rounded-2xl border-2 border-slate-105 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300 shadow-inner"
+                        className="w-full py-4.5 rounded-2xl border border-slate-105 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300 shadow-inner"
                       />
                     </div>
                     <motion.button
@@ -902,7 +902,7 @@ function DiffusionTechniqueInner() {
                       }}
                       icon={<BookOpen size={48} />}
                     >
-                      <div className="p-6 bg-slate-900 rounded-[2rem] text-white my-6 shadow-xl relative overflow-hidden text-left">
+                      <div className="p-6 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[2rem] text-white my-6 shadow-xl relative overflow-hidden text-left">
                         <div className="absolute top-0 right-0 p-6 text-white/5 pointer-events-none">
                           <BookOpen size={100} strokeWidth={1} />
                         </div>
@@ -923,7 +923,7 @@ function DiffusionTechniqueInner() {
                             resetFlow();
                             setView('choose');
                           }}
-                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                         >
                           <RefreshCw size={16} />
                           {t('btn_try_another', 'Try Another Technique')}

@@ -107,7 +107,7 @@ function ResourceListInner({ concern, type }: ResourceListInnerProps) {
                 whileHover={{ y: -4, scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
                 onClick={() => router.push(`/resources/${concern}/${type}/${res.id}?lang=${i18n.language}`)}
-                className="w-full text-left p-8 rounded-[3rem] bg-white border-2 border-slate-105 shadow-sm hover:shadow-2xl hover:shadow-primary/10 hover:border-primary/20 transition-all flex items-center gap-8 group relative overflow-hidden"
+                className="w-full text-left p-8 rounded-[3rem] bg-white border border-slate-105 shadow-sm hover:shadow-2xl hover:shadow-primary/10 hover:border-primary/20 transition-all flex items-center gap-8 group relative overflow-hidden"
               >
                 <div className={`w-20 h-20 rounded-3xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 ${bgClr}`}>
                   <Icon className={`w-8 h-8 ${textClr}`} />
@@ -122,13 +122,13 @@ function ResourceListInner({ concern, type }: ResourceListInnerProps) {
                   </p>
                 </div>
                 
-                <div className="w-12 h-12 rounded-full border-2 border-slate-50 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:border-primary transition-all duration-300">
+                <div className="w-12 h-12 rounded-full border border-slate-50 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:border-primary transition-all duration-300">
                   <ChevronRight className="w-6 h-6 text-slate-350 group-hover:text-white group-hover:translate-x-0.5 transition-all" />
                 </div>
               </motion.button>
             ))
           ) : (
-            <div className="py-32 text-center space-y-6 bg-slate-50 rounded-[4rem] border-2 border-dashed border-slate-200">
+            <div className="py-32 text-center space-y-6 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[4rem] border border-dashed border-slate-200">
               <div className="text-slate-200 flex justify-center">
                 <Icon size={80} strokeWidth={1} />
               </div>

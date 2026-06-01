@@ -87,7 +87,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white rounded-[3rem] border-2 border-slate-100 p-12 shadow-sm relative overflow-hidden"
+          className="bg-white rounded-[3rem] border border-white/60 p-12 shadow-sm relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 p-12 text-slate-50 pointer-events-none">
             <Sparkles size={120} />
@@ -119,7 +119,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 + (i * 0.1) }}
-                className="flex items-start gap-8 p-10 bg-slate-50 rounded-[3rem] border-2 border-transparent hover:bg-white hover:border-primary/20 transition-all group shadow-sm hover:shadow-xl hover:shadow-primary/5"
+                className="flex items-start gap-8 p-10 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[3rem] border border-transparent hover:bg-white hover:border-primary/20 transition-all group shadow-sm hover:shadow-xl hover:shadow-primary/5"
               >
                 <div className="w-12 h-12 rounded-2xl bg-white text-primary flex items-center justify-center shrink-0 mt-0.5 shadow-sm group-hover:bg-primary group-hover:text-white transition-all duration-300">
                   <CheckCircle2 size={24} strokeWidth={3} />
@@ -135,7 +135,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="p-12 bg-emerald-50 rounded-[4rem] border-2 border-emerald-100 shadow-sm space-y-10 relative overflow-hidden group"
+            className="p-12 bg-emerald-50 rounded-[4rem] border border-emerald-100 shadow-sm space-y-10 relative overflow-hidden group"
           >
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-emerald-100/50 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-700" />
             
@@ -179,7 +179,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
         <motion.section 
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="p-12 bg-slate-900 rounded-[4rem] text-white space-y-8 shadow-2xl relative overflow-hidden"
+          className="p-12 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[4rem] text-white space-y-8 shadow-2xl relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 p-12 text-white/5 pointer-events-none">
             <Sparkles size={160} />
@@ -199,7 +199,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
   const renderStory = (story: Story) => {
     return (
       <div className="w-full space-y-16 pb-24">
-        <div className="relative p-12 bg-white rounded-[4rem] border-2 border-slate-100 shadow-sm overflow-hidden group hover:border-amber-200 transition-all duration-500">
+        <div className="relative p-12 bg-white rounded-[4rem] border border-white/60 shadow-sm overflow-hidden group hover:border-amber-200 transition-all duration-500">
           <div className="absolute -top-10 -right-10 p-12 text-amber-50 pointer-events-none group-hover:text-amber-100/50 transition-colors duration-700">
             <MessageCircle size={200} strokeWidth={1} />
           </div>
@@ -225,7 +225,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="p-12 bg-amber-50 rounded-[4rem] border-2 border-amber-100 space-y-6 relative overflow-hidden"
+          className="p-12 bg-amber-50 rounded-[4rem] border border-amber-100 space-y-6 relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 p-8 text-amber-200/30">
             <Sparkles size={100} />
@@ -236,7 +236,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
           </p>
         </motion.section>
 
-        <section className="p-12 bg-slate-50 rounded-[4rem] border-2 border-slate-100">
+        <section className="p-12 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[4rem] border border-white/60">
           <h3 className="text-slate-400 font-black text-[10px] uppercase tracking-[0.3em] mb-6">{t("detail.story.note_label")}</h3>
           <p className="text-slate-600 text-lg font-bold leading-relaxed">
             {story.takeaway}
@@ -262,7 +262,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
           <p className="text-white text-4xl font-black leading-tight tracking-tight relative z-10">{myth.truth}</p>
         </motion.section>
 
-        <article className="p-12 bg-white rounded-[4rem] border-2 border-slate-100 shadow-sm space-y-8">
+        <article className="p-12 bg-white rounded-[4rem] border border-white/60 shadow-sm space-y-8">
           <h3 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">{t("detail.myth.explanation_label")}</h3>
           <div 
             className="text-slate-700 text-xl leading-relaxed space-y-8 font-medium article-content"
@@ -273,7 +273,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="p-12 bg-slate-900 rounded-[4rem] text-white space-y-8 shadow-2xl"
+          className="p-12 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[4rem] text-white space-y-8 shadow-2xl"
         >
           <div className="flex items-center gap-3 text-indigo-400 font-black text-[11px] uppercase tracking-[0.4em]">
             <Sparkles size={18} />

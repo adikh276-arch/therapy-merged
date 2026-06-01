@@ -198,7 +198,7 @@ function SleepCycleGuideInner() {
                   </p>
                 </div>
 
-                <div className="w-full p-6 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 border-l-4 border-l-primary rounded-2xl shadow-sm text-left">
+                <div className="w-full p-6 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 border-l-4 border-l-primary rounded-2xl shadow-sm text-left">
                   <p className="text-xs italic text-slate-500 leading-relaxed font-semibold">
                     {t("s1.insight", "Waking up exactly at the end of a 90-minute cycle allows you to rise fresh and alert, even with fewer hours.")}
                   </p>
@@ -242,13 +242,13 @@ function SleepCycleGuideInner() {
                     return (
                       <div
                         key={i}
-                        className="bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-primary/20 transition-all duration-300"
+                        className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-primary/20 transition-all duration-300"
                       >
                         <button
                           className="w-full flex items-center gap-4 p-4 text-left"
                           onClick={() => setExpandedStage(isOpen ? null : i)}
                         >
-                          <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-xl bg-slate-50 dark:bg-slate-950 text-xl shadow-inner">
+                          <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-xl shadow-inner">
                             {s.emoji}
                           </div>
                           <div className="flex-1 min-w-0">
@@ -317,7 +317,7 @@ function SleepCycleGuideInner() {
                 </div>
 
                 {/* SVG Visual Sleep cycle diagram */}
-                <div className="p-4 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl shadow-sm">
+                <div className="p-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-3xl shadow-sm">
                   <WaveDiagram />
                 </div>
 
@@ -329,7 +329,7 @@ function SleepCycleGuideInner() {
                   {disruptors.map((d, i) => (
                     <div
                       key={i}
-                      className="p-4 bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md transition-shadow"
+                      className="p-4 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md transition-shadow"
                     >
                       <span className="text-xl">{d.emoji}</span>
                       <p className="text-xs font-black mt-2 text-slate-800 dark:text-slate-200">{d.text}</p>
@@ -370,10 +370,10 @@ function SleepCycleGuideInner() {
                     return (
                       <button
                         key={i}
-                        className={`w-full text-left p-4 rounded-2xl border-2 transition-all duration-300 flex items-start gap-4 ${
+                        className={`w-full text-left p-4 rounded-2xl border transition-all duration-300 flex items-start gap-4 ${
                           isSel
                             ? "bg-primary/5 border-primary shadow-sm"
-                            : "bg-white border-slate-100 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 hover:bg-slate-50"
+                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 hover:bg-slate-50"
                         }`}
                         onClick={() => setSelectedReflection(i)}
                       >
@@ -403,7 +403,7 @@ function SleepCycleGuideInner() {
                   )}
                 </AnimatePresence>
 
-                <div className="p-6 bg-gradient-to-r from-blue-50/60 to-indigo-50/60 border border-slate-100 dark:from-slate-900 dark:to-slate-900/60 dark:border-slate-800 rounded-[2rem] shadow-sm relative">
+                <div className="p-6 bg-gradient-to-r from-blue-50/60 to-indigo-50/60 border border-white/60 dark:from-slate-900 dark:to-slate-900/60 dark:border-slate-800 rounded-[2rem] shadow-sm relative">
                   <span className="text-4xl text-slate-300 dark:text-slate-700 leading-none absolute top-2 left-4 select-none font-serif">"</span>
                   <p className="text-xs italic leading-relaxed text-slate-600 dark:text-slate-350 mt-2 px-2 font-semibold">
                     {t("s4.quote", "Protecting your cycles is not about perfect schedules. It is about understanding your bio-rhythm and treating your nights with patient care.")}

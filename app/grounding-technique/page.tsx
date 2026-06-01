@@ -152,7 +152,7 @@ const TECHNIQUES: Technique[] = [
   {
     id: "body",
     title: "Check in with your body",
-    color: "bg-slate-50 dark:bg-slate-950/20",
+    color: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950/20",
     colorDeep: "bg-slate-100 dark:bg-slate-900/30",
     colorVar: "slate",
     steps: [
@@ -259,7 +259,7 @@ function GroundingTechniqueInner() {
                       whileHover={{ scale: 1.02, y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleStartTechnique(tech.id)}
-                      className="w-full aspect-square rounded-[2rem] bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 p-5 text-center flex flex-col items-center justify-center gap-4 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all group"
+                      className="w-full aspect-square rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 p-5 text-center flex flex-col items-center justify-center gap-4 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all group"
                     >
                       <div className={`w-14 h-14 rounded-2xl ${tech.color} flex items-center justify-center text-slate-500 dark:text-slate-400 group-hover:scale-105 transition-transform`}>
                         <span className="text-xl font-black text-primary opacity-60 group-hover:opacity-100 transition-opacity">
@@ -315,7 +315,7 @@ function GroundingTechniqueInner() {
                     initial={{ opacity: 0, scale: 0.96, y: 12 }}
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     exit={{ opacity: 0, scale: 1.04, y: -12 }}
-                    className="w-full p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 shadow-xl shadow-slate-200/20 dark:shadow-none flex flex-col items-center justify-center text-center gap-8 min-h-[280px]"
+                    className="w-full p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-xl shadow-slate-200/20 dark:shadow-none flex flex-col items-center justify-center text-center gap-8 min-h-[280px]"
                   >
                     <motion.div
                       animate={{ scale: [1, 1.05, 1] }}
@@ -337,7 +337,7 @@ function GroundingTechniqueInner() {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handlePrev}
-                    className="p-4.5 bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-400 rounded-2xl shadow-sm flex items-center justify-center hover:text-slate-800 dark:hover:text-white transition-all"
+                    className="p-4.5 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-400 rounded-2xl shadow-sm flex items-center justify-center hover:text-slate-800 dark:hover:text-white transition-all"
                   >
                     <ChevronLeft size={24} strokeWidth={3} />
                   </motion.button>
@@ -367,7 +367,7 @@ function GroundingTechniqueInner() {
               exit={{ opacity: 0 }}
               className="w-full text-center space-y-8"
             >
-              <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 p-8 shadow-xl shadow-slate-200/20 dark:shadow-none space-y-6">
+              <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl shadow-slate-200/20 dark:shadow-none space-y-6">
                 <div className="w-20 h-20 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-500 rounded-full flex items-center justify-center mx-auto shadow-sm">
                   <CheckCircle2 size={44} strokeWidth={2.5} />
                 </div>
@@ -383,7 +383,7 @@ function GroundingTechniqueInner() {
                   </p>
                 </div>
 
-                <div className={`p-5 rounded-2xl ${activeTechnique.color} border border-slate-100/50 dark:border-slate-850 text-center font-extrabold text-slate-800 dark:text-slate-200 text-sm italic`}>
+                <div className={`p-5 rounded-2xl ${activeTechnique.color} border border-white/60/50 dark:border-slate-850 text-center font-extrabold text-slate-800 dark:text-slate-200 text-sm italic`}>
                   &quot;{t(activeTechnique.title, activeTechnique.title)}&quot;
                 </div>
               </div>
@@ -402,7 +402,7 @@ function GroundingTechniqueInner() {
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   onClick={handleReset}
-                  className="w-full py-4 bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-sm transition-all"
+                  className="w-full py-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-sm transition-all"
                 >
                   {t('Back', 'Back')}
                 </motion.button>

@@ -94,7 +94,7 @@ function BrainDump({ onComplete }: { onComplete: (text: string) => void }) {
                     onChange={(e) => updateThought(index, e.target.value)}
                     onKeyDown={(e) => handleEnter(e, index)}
                     placeholder={index === 0 ? t('dump_placeholder', 'Type a thought here...') : t('type_another', 'Type another thought...')}
-                    className="w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-300 placeholder:text-slate-300 dark:placeholder:text-slate-700 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                    className="w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 placeholder:text-slate-300 dark:placeholder:text-slate-700 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
                   />
                   {index === 0 && (
                     <div className="absolute right-6 top-1/2 -translate-y-1/2 text-primary/30">
@@ -107,7 +107,7 @@ function BrainDump({ onComplete }: { onComplete: (text: string) => void }) {
                   whileTap={{ scale: 0.9 }}
                   type="button"
                   onClick={() => removeThought(index)}
-                  className="w-12 h-12 shrink-0 rounded-full bg-slate-50 dark:bg-slate-800 text-slate-300 flex items-center justify-center hover:bg-rose-50 dark:hover:bg-rose-950 transition-colors"
+                  className="w-12 h-12 shrink-0 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-800 text-slate-300 flex items-center justify-center hover:bg-rose-50 dark:hover:bg-rose-950 transition-colors"
                 >
                   <X size={18} />
                 </motion.button>
@@ -181,7 +181,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={onBack} 
-            className="p-3 bg-slate-50 dark:bg-slate-800 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
+            className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-800 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
           >
             <ArrowLeft size={20} />
           </motion.button>
@@ -196,7 +196,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
         </header>
 
         {/* Progress Bar */}
-        <div className="bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 p-6 shadow-sm">
+        <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2 font-bold text-slate-700 dark:text-slate-300 text-sm">
               <ListFilter size={18} className="text-primary" />
@@ -204,7 +204,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
             </div>
             <span className="text-primary font-black text-sm">{Math.round(progress * 100)}%</span>
           </div>
-          <div className="h-3 rounded-full bg-slate-50 dark:bg-slate-950 overflow-hidden">
+          <div className="h-3 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 overflow-hidden">
             <motion.div 
               initial={{ width: 0 }}
               animate={{ width: `${progress * 100}%` }}
@@ -221,7 +221,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
               initial={{ opacity: 0, y: 20, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, scale: 1.1 }}
-              className="bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-primary/20 p-8 shadow-xl shadow-primary/5 text-center relative overflow-hidden"
+              className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-primary/20 p-8 shadow-xl shadow-primary/5 text-center relative overflow-hidden"
             >
               <div className="absolute top-0 right-0 p-4 text-primary/10">
                 <Sparkles size={48} />
@@ -237,7 +237,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="bg-emerald-50 dark:bg-emerald-950/20 rounded-[2.5rem] border-2 border-emerald-100 dark:border-emerald-900/30 p-8 text-center"
+              className="bg-emerald-50 dark:bg-emerald-950/20 rounded-[2.5rem] border border-emerald-100 dark:border-emerald-900/30 p-8 text-center"
             >
               <div className="w-16 h-16 bg-white dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto mb-4 text-emerald-500 shadow-sm border border-emerald-100 dark:border-emerald-900/30">
                 <CheckCircle2 size={32} />
@@ -264,15 +264,15 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
                 whileHover={isClickable ? { scale: 1.02, x: 5 } : {}}
                 whileTap={isClickable ? { scale: 0.98 } : {}}
                 onClick={() => isClickable && assignBucket(unsorted[0].id, b.key)}
-                className={`w-full text-left rounded-[2rem] border-2 p-6 transition-all group ${
+                className={`w-full text-left rounded-[2rem] border p-6 transition-all group ${
                   isClickable 
-                    ? "bg-white dark:bg-slate-900 border-slate-100 dark:border-slate-800 hover:border-primary/50 shadow-sm" 
-                    : "bg-slate-50 dark:bg-slate-950 border-transparent opacity-60"
+                    ? "bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 hover:border-primary/50 shadow-sm" 
+                    : "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border-transparent opacity-60"
                 }`}
               >
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-2xl bg-slate-50 dark:bg-slate-950 flex items-center justify-center text-slate-400 dark:text-slate-650 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                    <div className="w-10 h-10 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-slate-400 dark:text-slate-650 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
                       {b.icon}
                     </div>
                     <div>
@@ -294,7 +294,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
                         key={item.id}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3 py-1.5 rounded-xl bg-slate-50 dark:bg-slate-950 text-slate-650 dark:text-slate-400 text-xs font-bold"
+                        className="px-3 py-1.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-650 dark:text-slate-400 text-xs font-bold"
                       >
                         {item.text}
                       </motion.span>
@@ -444,7 +444,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setPaused((p) => !p)}
-                className="flex-1 py-5 rounded-[2rem] bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-650 dark:text-slate-300 font-bold shadow-sm flex items-center justify-center gap-3"
+                className="flex-1 py-5 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-650 dark:text-slate-300 font-bold shadow-sm flex items-center justify-center gap-3"
               >
                 {paused ? <Play size={20} className="fill-current" /> : <Pause size={20} className="fill-current" />}
                 {paused ? t('resume', 'Resume') : t('pause', 'Pause')}
@@ -473,7 +473,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={onBack} 
-            className="p-3 bg-slate-50 dark:bg-slate-800 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
+            className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-800 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
           >
             <ArrowLeft size={20} />
           </motion.button>
@@ -488,7 +488,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
         </header>
 
         {thoughts.length === 0 ? (
-          <div className="text-center py-20 bg-slate-50 dark:bg-slate-900 rounded-[2.5rem] border-2 border-dashed border-slate-200 dark:border-slate-800">
+          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-[2.5rem] border border-dashed border-slate-200 dark:border-slate-800">
             <p className="text-slate-400 font-bold mb-6">{t('no_action_items_found', 'No action items selected.')}</p>
             <motion.button
               whileHover={{ scale: 1.05 }}
@@ -518,10 +518,10 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                     whileHover={{ scale: 1.02, x: 5 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setSelected(item.id)}
-                    className={`w-full text-left p-6 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
+                    className={`w-full text-left p-6 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                       isSelected 
                         ? "bg-primary border-primary text-white shadow-lg shadow-primary/20" 
-                        : "bg-white dark:bg-slate-900 border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800/40"
+                        : "bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40/40"
                     }`}
                   >
                     <span className="text-base font-bold">{item.text}</span>
@@ -558,7 +558,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                     value={nextStep}
                     onChange={(e) => setNextStep(e.target.value)}
                     placeholder={t('e_g_open_the_document_tidy_one_corner', 'e.g. Open the document, tidy one corner...')}
-                    className="w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-350 placeholder:text-slate-300 dark:placeholder:text-slate-750 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                    className="w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-350 placeholder:text-slate-300 dark:placeholder:text-slate-750 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
                   />
                 </motion.div>
               )}
@@ -631,10 +631,10 @@ function Reflection({ onComplete, onBack }: ReflectionProps) {
               whileHover={{ scale: 1.02, x: 5 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => setSelected(f.label)}
-              className={`flex items-center justify-between p-5 rounded-[2rem] border-2 transition-all duration-300 ${
+              className={`flex items-center justify-between p-5 rounded-[2rem] border transition-all duration-300 ${
                 selected === f.label
                   ? "bg-primary border-primary text-white shadow-lg shadow-primary/20"
-                  : "bg-white dark:bg-slate-900 border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"
+                  : "bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40"
               }`}
             >
               <div className="flex items-center gap-4">
@@ -716,14 +716,14 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={onBack} 
-            className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-300 rounded-2xl hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors shadow-sm"
+            className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-300 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
           >
             <ArrowLeft size={20} />
           </motion.button>
         </header>
 
         {sessions.length === 0 ? (
-          <div className="text-center py-20 bg-slate-50 dark:bg-slate-900 rounded-[2.5rem] border-2 border-dashed border-slate-200 dark:border-slate-850">
+          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-[2.5rem] border border-dashed border-slate-200 dark:border-slate-850">
             <div className="w-16 h-16 bg-white dark:bg-slate-955 rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm">
               <History size={32} />
             </div>
@@ -745,10 +745,10 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ delay: i * 0.05 }}
-                  className="bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 p-6 shadow-sm group"
+                  className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm group"
                 >
                   <div className="flex items-center justify-between mb-6">
-                    <div className="flex items-center gap-2 px-3 py-1 bg-slate-50 dark:bg-slate-950 rounded-full">
+                    <div className="flex items-center gap-2 px-3 py-1 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-full">
                       <Calendar size={14} className="text-slate-400" />
                       <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
                         {formatDate(session.date)}
@@ -758,7 +758,7 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
                       whileHover={{ scale: 1.1, color: "#EF4444" }}
                       whileTap={{ scale: 0.9 }}
                       onClick={() => onDelete(session.id)}
-                      className="p-2 rounded-xl bg-slate-50 dark:bg-slate-950 text-slate-300 dark:text-slate-700 hover:bg-rose-50 dark:hover:bg-rose-950 transition-colors"
+                      className="p-2 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-300 dark:text-slate-700 hover:bg-rose-50 dark:hover:bg-rose-950 transition-colors"
                     >
                       <Trash2 size={16} />
                     </motion.button>
@@ -779,7 +779,7 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
                             {items.map((item) => (
                               <span
                                 key={item.id}
-                                className="px-3 py-1.5 rounded-xl bg-slate-50 dark:bg-slate-950 text-slate-600 dark:text-slate-400 text-xs font-bold border border-slate-100 dark:border-slate-800"
+                                className="px-3 py-1.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-600 dark:text-slate-400 text-xs font-bold border border-white/60 dark:border-slate-800"
                               >
                                 {item.text}
                               </span>

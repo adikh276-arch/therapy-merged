@@ -99,7 +99,7 @@ function AngerShameCycleInner() {
               exit={{ opacity: 0, y: -15 }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl min-h-[420px] flex flex-col justify-center text-center">
+              <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl min-h-[420px] flex flex-col justify-center text-center">
                 <div className="absolute top-[-20px] right-[-20px] w-32 h-32 rounded-full bg-red-100/30 blur-3xl" />
                 <div className="w-20 h-20 bg-red-50 rounded-[1.75rem] flex items-center justify-center text-5xl mx-auto mb-6 shadow-inner animate-pulse">
                   🔥
@@ -119,7 +119,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(1)}
-                className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
               >
                 {t("screens.s1.button", "Let's Explore")}
                 <ChevronRight size={18} />
@@ -136,7 +136,7 @@ function AngerShameCycleInner() {
               exit={{ opacity: 0, y: -15 }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl min-h-[420px] flex flex-col justify-between text-left">
+              <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl min-h-[420px] flex flex-col justify-between text-left">
                 <div>
                   <Badge className="bg-red-150 text-red-600 mb-4">
                     {t("screens.s2.tag", "THE LOOP")}
@@ -165,7 +165,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(2)}
-                className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
               >
                 {t("screens.s2.button", "I see it")}
                 <ChevronRight size={18} />
@@ -182,7 +182,7 @@ function AngerShameCycleInner() {
               exit={{ opacity: 0, y: -15 }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl min-h-[420px] flex flex-col justify-between text-left">
+              <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl min-h-[420px] flex flex-col justify-between text-left">
                 <div>
                   <Badge className="bg-indigo-100 text-indigo-650 mb-4">
                     {t("screens.s3.tag", "UNDER THE HOOD")}
@@ -217,7 +217,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(3)}
-                className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
               >
                 {t("screens.s3.button", "Breaking Free")}
                 <ChevronRight size={18} />
@@ -234,7 +234,7 @@ function AngerShameCycleInner() {
               exit={{ opacity: 0, y: -15 }}
               className="flex-1 flex flex-col gap-6 text-left"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl min-h-[420px] flex flex-col justify-between">
+              <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl min-h-[420px] flex flex-col justify-between">
                 <div>
                   <Badge className="bg-emerald-100 text-emerald-650 mb-4">
                     {t("screens.s4.tag", "INTERRUPTION")}
@@ -246,7 +246,7 @@ function AngerShameCycleInner() {
                   <div className="space-y-4 pb-4">
                     {stepsData.map((step, idx) => (
                       <div key={idx} className="flex gap-4">
-                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-slate-900 text-white font-black text-sm shadow-md">
+                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-sm shadow-md">
                           {idx + 1}
                         </div>
                         <div className="space-y-0.5">
@@ -274,7 +274,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(4)}
-                className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
               >
                 {t("screens.s4.button", "Complete Activity")}
                 <ChevronRight size={18} />

@@ -186,7 +186,7 @@ function SleepAuditInner() {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => setScreen(0)}
-            className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:shadow-none transition-all flex items-center justify-center gap-3 shadow-xl shadow-slate-200/50"
+            className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:shadow-none transition-all flex items-center justify-center gap-3 shadow-xl shadow-slate-200/50"
           >
             <Moon size={20} className="animate-pulse" />
             {t("intro.more_insights", "Back to Start")}
@@ -237,7 +237,7 @@ function SleepAuditInner() {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setShowHistory(true)}
-                    className="w-full bg-white/10 dark:bg-slate-900/60 backdrop-blur-md text-slate-650 dark:text-slate-200 py-5 rounded-2xl font-black text-lg border border-slate-100 dark:border-slate-800 hover:bg-slate-50/50 dark:hover:bg-slate-800/80 transition-all flex items-center justify-center gap-3 shadow-sm"
+                    className="w-full bg-white/10 dark:bg-slate-900/60 backdrop-blur-md text-slate-650 dark:text-slate-200 py-5 rounded-2xl font-black text-lg border border-white/60 dark:border-slate-800 hover:bg-slate-50/50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40/80 transition-all flex items-center justify-center gap-3 shadow-sm"
                   >
                     <History size={20} strokeWidth={2.5} />
                     {t("intro.history_button", "View Past Audits")}
@@ -283,14 +283,14 @@ function SleepAuditInner() {
                         className={`flex items-center gap-4 p-5 rounded-2xl text-left transition-all border ${
                           active
                             ? "bg-primary text-primary-foreground border-primary shadow-lg shadow-primary/10"
-                            : "bg-white border-slate-100 text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                            : "bg-white border-white/60 text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
                         }`}
                       >
                         <span className="text-2xl shrink-0">{o.emoji}</span>
                         <span className="flex-1 text-sm font-bold leading-tight">
                           {o.text}
                         </span>
-                        <div className={`w-6 h-6 rounded-lg flex items-center justify-center border-2 transition-all shrink-0 ${
+                        <div className={`w-6 h-6 rounded-lg flex items-center justify-center border transition-all shrink-0 ${
                           active ? "bg-white/20 border-white/20" : "border-slate-205 dark:border-slate-700"
                         }`}>
                           {active && <Check size={14} className="text-white" strokeWidth={4} />}
@@ -336,10 +336,10 @@ function SleepAuditInner() {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setRating(n)}
-                        className={`flex flex-col items-center py-4 rounded-xl transition-all border-2 ${
+                        className={`flex flex-col items-center py-4 rounded-xl transition-all border ${
                           active
                             ? "bg-primary border-primary text-white scale-105 shadow-md shadow-primary/20"
-                            : "bg-white border-slate-100 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 hover:bg-slate-50 dark:hover:bg-slate-955"
+                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 hover:bg-slate-50 dark:hover:bg-slate-955"
                         }`}
                       >
                         <span className={`text-xl font-black ${active ? "text-white" : "text-slate-400"}`}>{n}</span>
@@ -359,7 +359,7 @@ function SleepAuditInner() {
                     value={note}
                     onChange={e => setNote(e.target.value)}
                     placeholder={t("screens.s2.placeholder", "How did you feel when you woke up? Any thoughts on your sleep?")}
-                    className="w-full p-6 bg-white border border-slate-150 rounded-3xl text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium outline-none focus:border-primary/50 transition-all resize-none shadow-sm placeholder:text-slate-300"
+                    className="w-full p-6 bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-3xl text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium outline-none focus:border-primary/50 transition-all resize-none shadow-sm placeholder:text-slate-300"
                     rows={4}
                   />
                 </div>
@@ -382,7 +382,7 @@ function SleepAuditInner() {
                 exit={{ opacity: 0, scale: 0.9 }}
                 className="flex-1 flex flex-col items-center gap-6 py-6 animate-fade-in"
               >
-                <div className="p-8 rounded-[3rem] bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-2xl w-full flex flex-col items-center text-center">
+                <div className="p-8 rounded-[3rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 shadow-2xl w-full flex flex-col items-center text-center">
                   <div className="relative w-36 h-36 flex items-center justify-center">
                     <svg className="w-full h-full -rotate-90">
                       <circle
@@ -462,7 +462,7 @@ function SleepAuditInner() {
                   <h3 className="text-xl font-black text-slate-900 dark:text-white">
                     {t("history.title", "Sleep Audits History")}
                   </h3>
-                  <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-900 flex items-center justify-center">
+                  <button onClick={() => setShowHistory(false)} className="w-10 h-10 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 flex items-center justify-center">
                     <X size={20} className="text-slate-400" strokeWidth={3} />
                   </button>
                 </div>
@@ -476,7 +476,7 @@ function SleepAuditInner() {
                   </div>
                 ) : history.length === 0 ? (
                   <div className="py-16 text-center space-y-4">
-                    <div className="w-14 h-14 bg-slate-50 dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto text-slate-300">
+                    <div className="w-14 h-14 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto text-slate-300">
                       <History size={28} />
                     </div>
                     <p className="text-slate-400 font-bold text-sm">
@@ -488,7 +488,7 @@ function SleepAuditInner() {
                     {history.map((e, i) => {
                       const info = getScoreInfo(e.score);
                       return (
-                        <div key={i} className="flex items-center justify-between p-6 rounded-[2rem] bg-slate-50 border border-slate-100 dark:bg-slate-900 dark:border-slate-900/60">
+                        <div key={i} className="flex items-center justify-between p-6 rounded-[2rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 dark:bg-slate-900 dark:border-slate-900/60">
                           <div>
                             <p className="text-xs font-black text-slate-400 uppercase tracking-widest">{e.date}</p>
                             <p className="text-sm font-black mt-1" style={{ color: info.color }}>{info.status}</p>

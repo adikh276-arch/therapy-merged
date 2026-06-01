@@ -117,7 +117,7 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
           className={`w-20 h-20 rounded-[2rem] flex items-center justify-center shadow-xl transition-all ${
             paused
               ? 'bg-primary text-white shadow-primary/20'
-              : 'bg-white text-slate-900 border-2 border-slate-100 shadow-slate-200'
+              : 'bg-white text-slate-900 border border-white/60 shadow-slate-200'
           }`}
         >
           {paused ? <Play size={32} fill="currentColor" className="ml-1" /> : <Pause size={32} fill="currentColor" />}
@@ -127,7 +127,7 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
           whileHover={{ scale: 1.05, rotate: -90 }}
           whileTap={{ scale: 0.95 }}
           onClick={onEnd}
-          className="w-16 h-16 rounded-[1.5rem] bg-slate-50 text-slate-400 border-2 border-slate-100 flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all shadow-sm"
+          className="w-16 h-16 rounded-[1.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 border border-white/60 flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all shadow-sm"
         >
           <RotateCcw size={24} strokeWidth={3} />
         </motion.button>

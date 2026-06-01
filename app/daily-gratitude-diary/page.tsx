@@ -193,7 +193,7 @@ function DailyGratitudeInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('past')}
-                      className="flex items-center gap-3 text-slate-500 dark:text-slate-400 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm"
+                      className="flex items-center gap-3 text-slate-500 dark:text-slate-400 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm"
                     >
                       <Book size={16} />
                       {t('view_past', 'View Past Entries')}
@@ -233,7 +233,7 @@ function DailyGratitudeInner() {
                         key={i}
                         initial={{ opacity: 0, y: 15 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className={`p-6 bg-white dark:bg-slate-900 rounded-3xl border-2 ${tintClass} shadow-sm space-y-4 hover:shadow-md transition-all`}
+                        className={`p-6 bg-white dark:bg-slate-900 rounded-3xl border ${tintClass} shadow-sm space-y-4 hover:shadow-md transition-all`}
                       >
                         <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-widest">
                           <Heart size={12} fill="currentColor" />
@@ -249,7 +249,7 @@ function DailyGratitudeInner() {
                               placeholder={t('placeholder_grateful', "Today, I'm grateful for...")}
                               value={entry.grateful}
                               onChange={(e) => updateEntry(i, 'grateful', e.target.value)}
-                              className="w-full py-4 rounded-xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350"
+                              className="w-full py-4 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350"
                             />
                           </div>
                           <div className="space-y-1.5">
@@ -261,7 +261,7 @@ function DailyGratitudeInner() {
                               placeholder={t('placeholder_reason', 'This matters to me because... (optional)')}
                               value={entry.reason}
                               onChange={(e) => updateEntry(i, 'reason', e.target.value)}
-                              className="w-full py-4 rounded-xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-355"
+                              className="w-full py-4 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-355"
                             />
                           </div>
                         </div>
@@ -273,7 +273,7 @@ function DailyGratitudeInner() {
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={addAnother}
-                    className="w-full py-4 rounded-2xl bg-slate-50 dark:bg-slate-905 text-slate-400 font-bold border-2 border-dashed border-slate-200 dark:border-slate-800 hover:border-primary/30 hover:text-primary transition-all flex items-center justify-center gap-2"
+                    className="w-full py-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-905 text-slate-400 font-bold border border-dashed border-slate-200 dark:border-slate-800 hover:border-primary/30 hover:text-primary transition-all flex items-center justify-center gap-2"
                   >
                     <Plus size={18} />
                     {t('add_another', 'Add Another')}
@@ -321,7 +321,7 @@ function DailyGratitudeInner() {
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-6 bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 shadow-sm space-y-4 hover:border-primary/20 transition-all"
+                  className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm space-y-4 hover:border-primary/20 transition-all"
                 >
                   <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-widest">
                     <Smile size={14} />
@@ -336,7 +336,7 @@ function DailyGratitudeInner() {
                       placeholder={t('placeholder_feeling', 'When I think about this, I feel...')}
                       value={feeling}
                       onChange={(e) => setFeeling(e.target.value)}
-                      className="w-full py-4 rounded-xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350"
+                      className="w-full py-4 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350"
                     />
                   </div>
                 </motion.div>
@@ -373,7 +373,7 @@ function DailyGratitudeInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('past')}
-                      className="px-8 py-4 bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 hover:text-slate-850 dark:text-slate-300 dark:hover:text-white font-bold text-sm uppercase tracking-widest rounded-2xl shadow-sm hover:shadow-md transition-all flex items-center gap-2"
+                      className="px-8 py-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-850 dark:text-slate-300 dark:hover:text-white font-bold text-sm uppercase tracking-widest rounded-2xl shadow-sm hover:shadow-md transition-all flex items-center gap-2"
                     >
                       <Book size={16} />
                       {t('view_history', 'View History')}
@@ -409,7 +409,7 @@ function DailyGratitudeInner() {
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={() => setScreen(entries.length > 1 || entries[0].grateful.trim().length > 0 ? 'closing' : 'intro')}
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors shadow-sm"
+                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
                   >
                     <ArrowLeft size={18} />
                   </motion.button>
@@ -423,7 +423,7 @@ function DailyGratitudeInner() {
                     </p>
                   </div>
                 ) : pastEntries.length === 0 ? (
-                  <div className="text-center py-16 bg-slate-50 dark:bg-slate-900 rounded-3xl border-2 border-dashed border-slate-150 dark:border-slate-800">
+                  <div className="text-center py-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-3xl border border-dashed border-slate-150 dark:border-slate-800">
                     <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm">
                       <History size={28} />
                     </div>
@@ -438,7 +438,7 @@ function DailyGratitudeInner() {
                         key={entry.id || i}
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="p-6 bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 shadow-sm space-y-4 relative group"
+                        className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative group"
                       >
                         <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-2">
                           <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-widest">

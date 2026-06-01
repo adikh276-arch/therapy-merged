@@ -245,7 +245,7 @@ function GratitudeTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('history')}
-                      className="flex items-center gap-3 text-slate-500 dark:text-slate-400 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm"
+                      className="flex items-center gap-3 text-slate-500 dark:text-slate-400 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm"
                     >
                       <CalendarIcon size={16} />
                       {t('review.history', 'View History')}
@@ -287,7 +287,7 @@ function GratitudeTrackerInner() {
                       placeholder={t('gratitude.item1.placeholder', 'e.g. A warm cup of tea this morning...')}
                       value={gratitude1}
                       onChange={(e) => setGratitude1(e.target.value)}
-                      className="w-full py-4.5 rounded-2xl border-2 border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-950 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300"
+                      className="w-full py-4.5 rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-950 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300"
                     />
                   </div>
 
@@ -301,7 +301,7 @@ function GratitudeTrackerInner() {
                       placeholder={t('gratitude.item2.placeholder', 'e.g. A kind word from a friend...')}
                       value={gratitude2}
                       onChange={(e) => setGratitude2(e.target.value)}
-                      className="w-full py-4.5 rounded-2xl border-2 border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-955 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300"
+                      className="w-full py-4.5 rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-955 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300"
                     />
                   </div>
                 </div>
@@ -354,10 +354,10 @@ function GratitudeTrackerInner() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.05 }}
                         onClick={() => setSelectedMood(opt)}
-                        className={`flex items-center gap-5 rounded-2xl border-2 px-6 py-4 transition-all text-left group ${
+                        className={`flex items-center gap-5 rounded-2xl border px-6 py-4 transition-all text-left group ${
                           isSelected
                             ? 'bg-primary border-primary text-white shadow-lg shadow-primary/10'
-                            : 'bg-slate-55/60 dark:bg-slate-900/60 border-slate-100 dark:border-slate-800 text-slate-800 dark:text-slate-100 hover:scale-[1.01]'
+                            : 'bg-slate-55/60 dark:bg-slate-900/60 border-white/60 dark:border-slate-800 text-slate-800 dark:text-slate-100 hover:scale-[1.01]'
                         }`}
                       >
                         <span className="text-3xl filter drop-shadow-sm">{opt.emoji}</span>
@@ -368,7 +368,7 @@ function GratitudeTrackerInner() {
                         >
                           {t(`mood.${opt.label.toLowerCase()}`, opt.label)}
                         </span>
-                        <div className="ml-auto w-6 h-6 rounded-full border-2 border-current flex items-center justify-center shrink-0 opacity-40 group-hover:opacity-100 transition-opacity">
+                        <div className="ml-auto w-6 h-6 rounded-full border border-current flex items-center justify-center shrink-0 opacity-40 group-hover:opacity-100 transition-opacity">
                           {isSelected && <Check size={14} strokeWidth={4} />}
                         </div>
                       </motion.button>
@@ -410,7 +410,7 @@ function GratitudeTrackerInner() {
                   icon={<Heart size={48} fill="currentColor" className="text-rose-500 animate-pulse" />}
                 >
                   {/* Summary Card */}
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 p-6 shadow-sm text-left space-y-4 my-6">
+                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm text-left space-y-4 my-6">
                     <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-3">
                       <span className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest">
                         {t('review.heading', 'Your Entry')}
@@ -453,7 +453,7 @@ function GratitudeTrackerInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={handleEditEntry}
-                      className="flex-1 py-4 bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-350 dark:hover:text-white font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-sm transition-all"
+                      className="flex-1 py-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-350 dark:hover:text-white font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-sm transition-all"
                     >
                       {t('review.edit', 'Edit Entry')}
                     </motion.button>
@@ -495,18 +495,18 @@ function GratitudeTrackerInner() {
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={handleResetFlow}
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors shadow-sm"
+                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
                   >
                     <ArrowLeft size={18} />
                   </motion.button>
                 </div>
 
-                <div className="flex items-center justify-between bg-slate-55/60 dark:bg-slate-900/60 p-2.5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm">
+                <div className="flex items-center justify-between bg-slate-55/60 dark:bg-slate-900/60 p-2.5 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm">
                   <motion.button
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={() => changeMonth(-1)}
-                    className="p-2.5 bg-white dark:bg-slate-950 text-slate-400 rounded-xl hover:text-slate-800 dark:hover:text-white transition-all shadow-sm border border-slate-100/50"
+                    className="p-2.5 bg-white dark:bg-slate-950 text-slate-400 rounded-xl hover:text-slate-800 dark:hover:text-white transition-all shadow-sm border border-white/60/50"
                   >
                     <ChevronLeft size={16} strokeWidth={3} />
                   </motion.button>
@@ -517,14 +517,14 @@ function GratitudeTrackerInner() {
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={() => changeMonth(1)}
-                    className="p-2.5 bg-white dark:bg-slate-955 text-slate-400 rounded-xl hover:text-slate-800 dark:hover:text-white transition-all shadow-sm border border-slate-100/50"
+                    className="p-2.5 bg-white dark:bg-slate-955 text-slate-400 rounded-xl hover:text-slate-800 dark:hover:text-white transition-all shadow-sm border border-white/60/50"
                   >
                     <ChevronRight size={16} strokeWidth={3} />
                   </motion.button>
                 </div>
 
                 {/* Calendar box wrapper */}
-                <div className="bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 p-6.5 shadow-sm min-h-[340px] flex flex-col relative justify-center">
+                <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6.5 shadow-sm min-h-[340px] flex flex-col relative justify-center">
                   {historyLoading ? (
                     <div className="flex-1 flex items-center justify-center">
                       <Loader2 className="w-8 h-8 animate-spin text-primary opacity-30" />
@@ -563,7 +563,7 @@ function GratitudeTrackerInner() {
                                   : isToday
                                   ? 'bg-primary/10 text-primary'
                                   : hasEntry
-                                  ? 'bg-slate-55 dark:bg-slate-950 text-slate-700 dark:text-slate-300 hover:bg-slate-100 border border-slate-100/50 dark:border-slate-850'
+                                  ? 'bg-slate-55 dark:bg-slate-950 text-slate-700 dark:text-slate-300 hover:bg-slate-100 border border-white/60/50 dark:border-slate-850'
                                   : 'text-slate-200 dark:text-slate-800 pointer-events-none'
                               }`}
                             >
@@ -587,7 +587,7 @@ function GratitudeTrackerInner() {
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 p-6 shadow-sm space-y-4"
+                      className="bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 p-6 shadow-sm space-y-4"
                     >
                       <div className="flex items-center justify-between border-b border-slate-50 dark:border-slate-850 pb-4">
                         <div className="flex items-center gap-2.5 text-slate-400">
@@ -630,7 +630,7 @@ function GratitudeTrackerInner() {
                       </div>
                     </motion.div>
                   ) : (
-                    <div className="py-12 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-3xl border-2 border-dashed border-slate-100 dark:border-slate-800">
+                    <div className="py-12 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-3xl border border-dashed border-white/60 dark:border-slate-800">
                       <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm animate-pulse">
                         <CalendarIcon size={24} />
                       </div>

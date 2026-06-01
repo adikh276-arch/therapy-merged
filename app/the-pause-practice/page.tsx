@@ -200,10 +200,10 @@ function ScenarioScreen({ onNext }: { onNext: (scenario: string) => void }) {
           <button
             key={s.id}
             onClick={() => handleSelect(s.id)}
-            className={`w-full flex items-center gap-3 px-5 py-4 rounded-2xl text-left border-2 transition-all duration-300 ${
+            className={`w-full flex items-center gap-3 px-5 py-4 rounded-2xl text-left border transition-all duration-300 ${
               selected === s.id
                 ? "bg-primary/10 border-primary shadow-sm text-primary-dark"
-                : "bg-white border-slate-100 hover:border-slate-200"
+                : "bg-white border-white/60 hover:border-slate-200"
             }`}
           >
             <span className="text-xl">{s.emoji}</span>
@@ -215,10 +215,10 @@ function ScenarioScreen({ onNext }: { onNext: (scenario: string) => void }) {
 
         <div
           onClick={() => handleSelect("other")}
-          className={`w-full rounded-2xl border-2 transition-all duration-300 cursor-pointer ${
+          className={`w-full rounded-2xl border transition-all duration-300 cursor-pointer ${
             selected === "other"
               ? "bg-primary/10 border-primary shadow-sm"
-              : "bg-white border-slate-100 hover:border-slate-200"
+              : "bg-white border-white/60 hover:border-slate-200"
           }`}
         >
           <input
@@ -267,7 +267,7 @@ function ResultScreen({ scenario, onTryAgain, onDone }: { scenario: string; onTr
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="p-8 bg-slate-900 rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden group"
+            className="p-8 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden group"
           >
             <div className="absolute top-0 right-0 p-8 text-white/5 pointer-events-none group-hover:scale-110 transition-transform">
                 <Sparkles size={120} strokeWidth={1} />

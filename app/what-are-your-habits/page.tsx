@@ -161,10 +161,10 @@ function HabitsInner() {
                         whileHover={{ scale: 1.01, x: 4 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => toggleItem(bodySelected, setBodySelected, opt)}
-                        className={`w-full text-left p-5 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
+                        className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                           isSel
                             ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                            : "bg-white border-slate-100 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
                         }`}
                       >
                         <span className="text-sm font-bold">{opt}</span>
@@ -224,10 +224,10 @@ function HabitsInner() {
                         whileHover={{ scale: 1.01, x: 4 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => toggleItem(mindSelected, setMindSelected, opt)}
-                        className={`w-full text-left p-5 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
+                        className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                           isSel
                             ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                            : "bg-white border-slate-100 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
                         }`}
                       >
                         <span className="text-sm font-bold">{opt}</span>
@@ -287,10 +287,10 @@ function HabitsInner() {
                         whileHover={{ scale: 1.01, x: 4 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => toggleItem(copingSelected, setCopingSelected, opt)}
-                        className={`w-full text-left p-5 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
+                        className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                           isSel
                             ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                            : "bg-white border-slate-100 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
                         }`}
                       >
                         <span className="text-sm font-bold">{opt}</span>
@@ -350,7 +350,7 @@ function HabitsInner() {
                     <textarea
                       value={stressReflection}
                       onChange={(e) => setStressReflection(e.target.value)}
-                      className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-350 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
+                      className="w-full py-5 px-6 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-700 placeholder:text-slate-350 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
                       rows={3}
                       placeholder={t("type_your_thoughts_here", "Type your thoughts here...")}
                     />
@@ -368,7 +368,7 @@ function HabitsInner() {
                     <textarea
                       value={calmReflection}
                       onChange={(e) => setCalmReflection(e.target.value)}
-                      className="w-full py-5 px-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-700 placeholder:text-slate-355 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
+                      className="w-full py-5 px-6 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-700 placeholder:text-slate-355 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
                       rows={3}
                       placeholder={t("type_your_thoughts_here", "Type your thoughts here...")}
                     />
@@ -422,7 +422,7 @@ function HabitsInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setSuggestionsRevealed(true)}
-                      className="w-full py-6 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-650 font-bold text-lg shadow-sm hover:bg-slate-50 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:hover:bg-slate-950 transition-all flex items-center justify-center gap-3"
+                      className="w-full py-6 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-650 font-bold text-lg shadow-sm hover:bg-slate-50 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:hover:bg-slate-950 transition-all flex items-center justify-center gap-3"
                     >
                       <Sparkles size={20} className="text-primary animate-pulse" />
                       {t('show_suggestions', 'Reveal Recommended Actions')}
@@ -442,10 +442,10 @@ function HabitsInner() {
                               whileHover={{ scale: 1.01, x: 4 }}
                               whileTap={{ scale: 0.98 }}
                               onClick={() => toggleItem(suggestionsSelected, setSuggestionsSelected, s)}
-                              className={`w-full text-left p-5 rounded-[2rem] border-2 transition-all duration-300 flex items-center justify-between ${
+                              className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                                 isSel
                                   ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                                  : "bg-white border-slate-100 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                                  : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
                               }`}
                             >
                               <span className="text-sm font-bold">{s}</span>

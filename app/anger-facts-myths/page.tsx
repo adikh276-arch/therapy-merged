@@ -176,7 +176,7 @@ function AngerQuizInner() {
               </div>
               <button
                 onClick={() => setScreen("game")}
-                className="w-full py-5 rounded-2xl bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
               >
                 {t("start_quiz", "Start Quiz")}
                 <ChevronRight size={20} strokeWidth={3} />
@@ -203,7 +203,7 @@ function AngerQuizInner() {
                 />
               </div>
 
-              <div className="relative overflow-hidden rounded-[3rem] bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 p-8 shadow-2xl flex-1 flex flex-col justify-center min-h-[180px]">
+              <div className="relative overflow-hidden rounded-[3rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 p-8 shadow-2xl flex-1 flex flex-col justify-center min-h-[180px]">
                 <h2 className="text-xl font-black text-slate-800 dark:text-slate-200 leading-snug text-center italic">
                   "{current.statement}"
                 </h2>
@@ -216,7 +216,7 @@ function AngerQuizInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleAnswer("myth")}
-                      className="py-8 rounded-3xl bg-white border-2 border-rose-50 text-rose-500 font-black text-xl shadow-xl hover:bg-rose-50/50 dark:bg-slate-900 dark:border-rose-950/20 dark:text-rose-400 transition-all"
+                      className="py-8 rounded-3xl bg-white border border-rose-50 text-rose-500 font-black text-xl shadow-xl hover:bg-rose-50/50 dark:bg-slate-900 dark:border-rose-950/20 dark:text-rose-400 transition-all"
                     >
                       {t("myth_button", "Myth")}
                     </motion.button>
@@ -224,7 +224,7 @@ function AngerQuizInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleAnswer("fact")}
-                      className="py-8 rounded-3xl bg-white border-2 border-emerald-50 text-emerald-500 font-black text-xl shadow-xl hover:bg-emerald-50/50 dark:bg-slate-900 dark:border-emerald-950/20 dark:text-emerald-400 transition-all"
+                      className="py-8 rounded-3xl bg-white border border-emerald-50 text-emerald-500 font-black text-xl shadow-xl hover:bg-emerald-50/50 dark:bg-slate-900 dark:border-emerald-950/20 dark:text-emerald-400 transition-all"
                     >
                       {t("fact_button", "Fact")}
                     </motion.button>
@@ -249,7 +249,7 @@ function AngerQuizInner() {
                         <motion.div
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
-                          className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-[2.5rem] p-8 space-y-4 shadow-2xl"
+                          className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 space-y-4 shadow-2xl"
                         >
                           <div className="flex items-center gap-2">
                             <span className={`px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] ${current.answer === "myth" ? "bg-rose-100 text-rose-600" : "bg-emerald-100 text-emerald-600"}`}>
@@ -273,7 +273,7 @@ function AngerQuizInner() {
                     {showNext && (
                       <button
                         onClick={handleNext}
-                        className="w-full py-5 rounded-2xl bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-95 transition-all flex items-center justify-center gap-3"
+                        className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-95 transition-all flex items-center justify-center gap-3"
                       >
                         {step + 1 === TOTAL ? t("see_results", "See Quiz Results") : t("next_question", "Next Question")}
                         <ChevronRight size={20} strokeWidth={3} />
@@ -292,7 +292,7 @@ function AngerQuizInner() {
               animate={{ opacity: 1, scale: 1 }}
               className="flex-1 flex flex-col items-center text-center gap-8 py-6"
             >
-              <div className="w-full bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-850 rounded-[3.5rem] p-10 shadow-2xl">
+              <div className="w-full bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-850 rounded-[3.5rem] p-10 shadow-2xl">
                 <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-6 text-5xl">
                   🏆
                 </div>
@@ -308,7 +308,7 @@ function AngerQuizInner() {
               <div className="w-full space-y-4">
                 <button
                   onClick={handleRetry}
-                  className="w-full py-5 rounded-2xl bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                  className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
                 >
                   <RotateCcw size={20} strokeWidth={3} />
                   {t("try_again", "Try Again")}

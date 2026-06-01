@@ -159,7 +159,7 @@ function TipsList({ onSelectTip }: { onSelectTip: (id: string) => void }) {
                 whileHover={{ scale: 1.01, x: 4 }}
                 whileTap={{ scale: 0.99 }}
                 onClick={() => onSelectTip(tip.id)}
-                className="w-full text-left p-5.5 rounded-3xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all flex items-center gap-4 group"
+                className="w-full text-left p-5.5 rounded-3xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all flex items-center gap-4 group"
               >
                 <div className={`w-14 h-14 rounded-2xl ${tip.iconBg} flex items-center justify-center shrink-0 transition-transform group-hover:scale-105`}>
                   <Icon className="w-6 h-6" />
@@ -203,7 +203,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.92 }}
           onClick={onBack}
-          className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors shadow-sm"
+          className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
         >
           <ArrowLeft size={18} />
         </motion.button>
@@ -214,7 +214,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
       </div>
 
       <div className="flex items-center gap-5 pt-2">
-        <div className={`w-18 h-18 rounded-[1.75rem] ${tip.iconBg} flex items-center justify-center shrink-0 shadow-sm border-2 border-primary/5`}>
+        <div className={`w-18 h-18 rounded-[1.75rem] ${tip.iconBg} flex items-center justify-center shrink-0 shadow-sm border border-primary/5`}>
           <Icon className="w-8 h-8" />
         </div>
         <motion.h1
@@ -231,7 +231,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 p-8 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all"
+        className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all"
       >
         <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.25em] mb-4">
           {t('whyItHelps', 'Why It Helps')}
@@ -258,7 +258,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.25 + i * 0.08 }}
-              className="flex items-start gap-4 p-5 bg-slate-50 dark:bg-slate-900 rounded-2xl border-2 border-transparent hover:bg-white dark:hover:bg-slate-905 hover:border-primary/25 dark:hover:border-primary/30 transition-all shadow-sm"
+              className="flex items-start gap-4 p-5 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-2xl border border-transparent hover:bg-white dark:hover:bg-slate-905 hover:border-primary/25 dark:hover:border-primary/30 transition-all shadow-sm"
             >
               <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
                 <CheckCircle2 size={16} strokeWidth={3} />
@@ -277,7 +277,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35 }}
-          className="p-8 bg-emerald-50/50 dark:bg-emerald-950/10 rounded-[2rem] border-2 border-emerald-100 dark:border-emerald-900/20 shadow-sm space-y-5"
+          className="p-8 bg-emerald-50/50 dark:bg-emerald-950/10 rounded-[2rem] border border-emerald-100 dark:border-emerald-900/20 shadow-sm space-y-5"
         >
           <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-450 font-black text-[10px] uppercase tracking-[0.25em]">
             <Lightbulb size={14} fill="currentColor" />
@@ -311,7 +311,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="p-8 bg-slate-900 rounded-[2rem] text-white space-y-4 shadow-xl relative overflow-hidden"
+          className="p-8 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[2rem] text-white space-y-4 shadow-xl relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 p-6 text-white/5 pointer-events-none">
             <MessageCircle size={100} strokeWidth={1} />

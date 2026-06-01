@@ -147,7 +147,7 @@ function JoyfulActivitiesInner() {
                       placeholder={t('recall.input1_placeholder', 'e.g. Painting, cycling, reading in the park...')}
                       value={data.activity}
                       onChange={(e) => update({ activity: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-350 dark:placeholder:text-slate-600"
+                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-350 dark:placeholder:text-slate-600"
                     />
                   </div>
 
@@ -160,7 +160,7 @@ function JoyfulActivitiesInner() {
                       placeholder={t('recall.input2_placeholder', 'e.g. Peaceful, energized, fully present...')}
                       value={data.feeling}
                       onChange={(e) => update({ feeling: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-slate-50 dark:bg-slate-955 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-350 dark:placeholder:text-slate-600"
+                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-955 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-350 dark:placeholder:text-slate-600"
                     />
                   </div>
                 </div>
@@ -212,7 +212,7 @@ function JoyfulActivitiesInner() {
                       placeholder={t('meaning.input1_placeholder', 'e.g. Allowed me to express my creativity...')}
                       value={data.enjoyBecause}
                       onChange={(e) => update({ enjoyBecause: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-355"
+                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-355"
                     />
                   </div>
 
@@ -225,7 +225,7 @@ function JoyfulActivitiesInner() {
                       placeholder={t('meaning.input2_placeholder', 'e.g. It helps me disconnect from stress...')}
                       value={data.feelsMore}
                       onChange={(e) => update({ feelsMore: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-slate-50 dark:bg-slate-955 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-355"
+                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-955 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-355"
                     />
                   </div>
 
@@ -238,7 +238,7 @@ function JoyfulActivitiesInner() {
                       placeholder={t('meaning.input3_placeholder', 'e.g. Reminds me of when I had more free time...')}
                       value={data.remindsOf}
                       onChange={(e) => update({ remindsOf: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-355"
+                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-355"
                     />
                   </div>
                 </div>
@@ -291,7 +291,7 @@ function JoyfulActivitiesInner() {
                       value={data.smallStep}
                       onChange={(e) => update({ smallStep: e.target.value })}
                       rows={4}
-                      className="w-full py-5 rounded-3xl bg-slate-55 dark:bg-slate-950 border-2 border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-350 dark:placeholder:text-slate-650 resize-none shadow-sm leading-relaxed"
+                      className="w-full py-5 rounded-3xl bg-slate-55 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-100 placeholder:text-slate-350 dark:placeholder:text-slate-650 resize-none shadow-sm leading-relaxed"
                     />
                   </div>
                 </div>
@@ -327,7 +327,7 @@ function JoyfulActivitiesInner() {
                   )}
                   onRestart={handleResetFlow}
                 >
-                  <div className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 text-left space-y-6 my-6 shadow-sm">
+                  <div className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 text-left space-y-6 my-6 shadow-sm">
                     <div className="flex items-center gap-3.5 border-b border-slate-50 dark:border-slate-850 pb-4">
                       <div className="w-12 h-12 bg-rose-50 dark:bg-rose-950/20 text-rose-500 rounded-2xl flex items-center justify-center text-2xl animate-pulse shrink-0">
                         ❤️

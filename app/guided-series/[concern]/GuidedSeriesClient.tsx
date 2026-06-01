@@ -84,7 +84,7 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
   return (
     <div className="min-h-screen bg-[#F8FAFC] pb-10">
       {/* Header */}
-      <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-slate-100 px-4 py-4 flex items-center gap-4">
+      <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-white/60 px-4 py-4 flex items-center gap-4">
         <button
           onClick={() => router.back()}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
@@ -118,7 +118,7 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => handleActivityClick(activity)}
-                      className="w-full bg-white border border-slate-100 rounded-2xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-slate-200 transition-all text-left group"
+                      className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-slate-200 transition-all text-left group"
                     >
                       {/* Icon Box */}
                       <div

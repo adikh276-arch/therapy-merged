@@ -304,7 +304,7 @@ function PhysicalActivityLogInner() {
         {/* LOG AND STATS GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* LOG ACTIVITY CARD */}
-          <div className="bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-xl shadow-slate-200/10 dark:shadow-none space-y-6">
+          <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-xl shadow-slate-200/10 dark:shadow-none space-y-6">
             <div className="flex items-center gap-3 border-b border-slate-50 dark:border-slate-850 pb-4">
               <div className="w-11 h-11 bg-primary/10 text-primary rounded-xl flex items-center justify-center">
                 <Plus size={22} />
@@ -323,7 +323,7 @@ function PhysicalActivityLogInner() {
                   type="date"
                   value={dateStr}
                   onChange={(e) => setDateStr(e.target.value)}
-                  className="w-full py-4.5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white dark:focus:bg-slate-900 outline-none transition-all shadow-sm"
+                  className="w-full py-4.5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none outline-none transition-all shadow-sm"
                 />
               </div>
 
@@ -336,7 +336,7 @@ function PhysicalActivityLogInner() {
                   placeholder={t('activity_placeholder', 'e.g. Morning jog, Vinyasa yoga, swimming...')}
                   value={activityName}
                   onChange={(e) => setActivityName(e.target.value)}
-                  className="w-full py-4.5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                  className="w-full py-4.5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
                 />
 
                 <div className="flex flex-wrap gap-2 pt-2">
@@ -345,7 +345,7 @@ function PhysicalActivityLogInner() {
                       key={tag.name}
                       type="button"
                       onClick={() => setActivityName(tag.name)}
-                      className="px-3.5 py-1.5 rounded-xl bg-slate-100/60 dark:bg-slate-950 hover:bg-primary/10 hover:text-primary transition-all text-xs font-bold text-slate-600 dark:text-slate-350 border border-slate-100/10"
+                      className="px-3.5 py-1.5 rounded-xl bg-slate-100/60 dark:bg-slate-950 hover:bg-primary/10 hover:text-primary transition-all text-xs font-bold text-slate-600 dark:text-slate-350 border border-white/60/10"
                     >
                       {tag.emoji} {t(tag.name, tag.name)}
                     </button>
@@ -362,7 +362,7 @@ function PhysicalActivityLogInner() {
                   placeholder={t('duration_placeholder', 'e.g. 30, 45')}
                   value={duration}
                   onChange={(e) => setDuration(e.target.value)}
-                  className="w-full py-4.5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                  className="w-full py-4.5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
                 />
               </div>
 
@@ -375,7 +375,7 @@ function PhysicalActivityLogInner() {
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
                   rows={3}
-                  className="w-full py-4 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm resize-none"
+                  className="w-full py-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm resize-none"
                 />
               </div>
             </div>
@@ -391,7 +391,7 @@ function PhysicalActivityLogInner() {
           </div>
 
           {/* STATS OVERVIEW PANEL */}
-          <div className="bg-slate-900 dark:bg-slate-950 rounded-[2.5rem] p-8 text-white relative overflow-hidden flex flex-col justify-between shadow-2xl space-y-8">
+          <div className="bg-gradient-to-r from-primary to-sky-400 border-none dark:bg-slate-950 rounded-[2.5rem] p-8 text-white relative overflow-hidden flex flex-col justify-between shadow-2xl space-y-8">
             <div className="absolute top-0 right-0 p-12 text-white/5 pointer-events-none">
               <History size={160} strokeWidth={1} />
             </div>
@@ -465,7 +465,7 @@ function PhysicalActivityLogInner() {
         {/* CUSTOM Responsive SVG Charts */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* DAILY MINUTES BAR CHART */}
-          <div className="bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-sm">
+          <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-sm">
             <h3 className="text-lg font-black text-slate-800 dark:text-slate-200 mb-6">
               {t('last_7_days', 'Daily Minutes (Past 7 Days)')}
             </h3>
@@ -538,7 +538,7 @@ function PhysicalActivityLogInner() {
           </div>
 
           {/* WEEKLY TREND LINE CHART */}
-          <div className="bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-sm">
+          <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-sm">
             <h3 className="text-lg font-black text-slate-800 dark:text-slate-200 mb-6">
               {t('weekly_trend', 'Weekly Progress Curve')}
             </h3>
@@ -655,7 +655,7 @@ function PhysicalActivityLogInner() {
                 type="date"
                 value={filterDate}
                 onChange={(e) => setFilterDate(e.target.value)}
-                className="py-2.5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200 focus:border-primary outline-none transition-all shadow-sm"
+                className="py-2.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 border border-white/60 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200 focus:border-primary outline-none transition-all shadow-sm"
               />
               {filterDate && (
                 <button
@@ -677,7 +677,7 @@ function PhysicalActivityLogInner() {
               </p>
             </div>
           ) : filteredActivities.length === 0 ? (
-            <div className="py-12 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border-2 border-dashed border-slate-100 dark:border-slate-800">
+            <div className="py-12 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border border-dashed border-white/60 dark:border-slate-800">
               <p className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest px-4">
                 {t('no_activities', 'No exercises logged on this date')}
               </p>
@@ -689,7 +689,7 @@ function PhysicalActivityLogInner() {
                 return (
                   <motion.div
                     key={a.id}
-                    className="p-5.5 bg-white dark:bg-slate-900 rounded-[2rem] border-2 border-slate-100 dark:border-slate-800 shadow-sm relative overflow-hidden group hover:border-primary/10 transition-all"
+                    className="p-5.5 bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 shadow-sm relative overflow-hidden group hover:border-primary/10 transition-all"
                   >
                     {isEditing ? (
                       <div className="space-y-4 text-left">
@@ -701,7 +701,7 @@ function PhysicalActivityLogInner() {
                             <input
                               value={editName}
                               onChange={(e) => setEditName(e.target.value)}
-                              className="w-full py-2.5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200"
+                              className="w-full py-2.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200"
                             />
                           </div>
 
@@ -713,7 +713,7 @@ function PhysicalActivityLogInner() {
                               type="number"
                               value={editDuration}
                               onChange={(e) => setEditDuration(e.target.value)}
-                              className="w-full py-2.5 rounded-xl bg-slate-50 dark:bg-slate-955 border border-slate-100 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200"
+                              className="w-full py-2.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-955 border border-white/60 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200"
                             />
                           </div>
                         </div>
@@ -726,7 +726,7 @@ function PhysicalActivityLogInner() {
                             value={editNotes}
                             onChange={(e) => setEditNotes(e.target.value)}
                             rows={2}
-                            className="w-full py-2 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-100 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200 resize-none"
+                            className="w-full py-2 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200 resize-none"
                           />
                         </div>
 
@@ -749,7 +749,7 @@ function PhysicalActivityLogInner() {
                     ) : (
                       <div className="flex items-start justify-between gap-4">
                         <div className="flex items-start gap-4">
-                          <div className="w-12 h-12 rounded-2xl bg-slate-50 dark:bg-slate-950 flex items-center justify-center text-2xl leading-none shrink-0 shadow-inner">
+                          <div className="w-12 h-12 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-2xl leading-none shrink-0 shadow-inner">
                             {a.emoji}
                           </div>
                           <div>

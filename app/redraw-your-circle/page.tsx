@@ -289,7 +289,7 @@ function RedrawCircleInner() {
               </p>
 
               {/* Instructions Bar */}
-              <div className="mt-4 bg-white/70 border border-slate-100 rounded-2xl px-4 py-2.5 flex items-center gap-2 max-w-xs shadow-sm">
+              <div className="mt-4 bg-white/70 border border-white/60 rounded-2xl px-4 py-2.5 flex items-center gap-2 max-w-xs shadow-sm">
                 <Info className="w-4.5 h-4.5 text-primary shrink-0" />
                 <span className="text-[11px] text-slate-500 font-bold leading-relaxed text-left">
                   {t("circle.instruction", "You don't need to fill all bubbles. Just add who comes to mind naturally.")}
@@ -315,7 +315,7 @@ function RedrawCircleInner() {
                       whileHover={{ scale: 1.06 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => handleBubbleTap(i)}
-                      className={`absolute w-20 h-20 rounded-full border-2 p-1.5 flex flex-col items-center justify-center text-center transition-all ${
+                      className={`absolute w-20 h-20 rounded-full border p-1.5 flex flex-col items-center justify-center text-center transition-all ${
                         BUBBLE_COLORS[i]
                       } ${nodeName ? "shadow-md scale-105" : "shadow-sm opacity-80"}`}
                       style={{
@@ -338,7 +338,7 @@ function RedrawCircleInner() {
 
               <button
                 onClick={() => setScreen("reflection")}
-                className="mt-6 w-full max-w-xs bg-slate-900 text-white py-4 rounded-2xl font-bold shadow-lg"
+                className="mt-6 w-full max-w-xs bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
               >
                 {t("circle.button", "Continue to Reflection")}
               </button>
@@ -366,7 +366,7 @@ function RedrawCircleInner() {
                 {t("reflection.title", "Coping Reflection")}
               </h2>
 
-              <div className="bg-white border border-slate-100 rounded-3xl p-5 shadow-sm space-y-4 max-w-sm mt-6 text-left">
+              <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 shadow-sm space-y-4 max-w-sm mt-6 text-left">
                 <p className="text-slate-500 font-bold text-xs leading-relaxed">
                   {t("reflection.p_intro", "Take a look at the support system you mapped out. Keep these thoughts in mind:")}
                 </p>
@@ -389,7 +389,7 @@ function RedrawCircleInner() {
                   onChange={(e) => setReflection(e.target.value)}
                   placeholder={t("reflection.placeholder", "What did this map reveal to you about your connections?")}
                   rows={4}
-                  className="w-full bg-white border border-slate-150 rounded-2xl px-5 py-4 text-sm text-slate-800 focus:outline-none focus:border-primary/20 transition-all resize-none shadow-sm font-medium"
+                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl px-5 py-4 text-sm text-slate-800 focus:outline-none focus:border-primary/20 transition-all resize-none shadow-sm font-medium"
                 />
               </div>
 
@@ -438,7 +438,7 @@ function RedrawCircleInner() {
                   Loading history...
                 </div>
               ) : entries.length === 0 ? (
-                <div className="text-center py-16 bg-white rounded-3xl border border-slate-100 shadow-sm space-y-4 text-center">
+                <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
                   <span className="text-4xl block">📭</span>
                   <p className="text-slate-450 font-bold text-sm">{t("no_entries_yet", "No circles mapped yet.")}</p>
                 </div>
@@ -450,7 +450,7 @@ function RedrawCircleInner() {
                       <div
                         key={entry.id}
                         onClick={() => setSelectedEntry(entry)}
-                        className="w-full bg-white border border-slate-100 rounded-3xl p-5 hover:shadow-lg transition-all cursor-pointer relative group flex flex-col gap-2"
+                        className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 hover:shadow-lg transition-all cursor-pointer relative group flex flex-col gap-2"
                       >
                         <button
                           onClick={(e) => deleteCircle(entry.id, e)}
@@ -524,7 +524,7 @@ function RedrawCircleInner() {
                   onKeyDown={(e) => e.key === "Enter" && handleSaveBubbleName()}
                   placeholder={t("circle.modal.placeholder", "Name of person...")}
                   autoFocus
-                  className="w-full bg-slate-50 border-2 border-transparent rounded-2xl px-5 py-4 text-sm text-slate-800 outline-none focus:bg-white focus:border-primary/20 transition-all font-semibold"
+                  className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-transparent rounded-2xl px-5 py-4 text-sm text-slate-800 outline-none focus:bg-white focus:border-primary/20 transition-all font-semibold"
                 />
                 
                 <button
@@ -572,7 +572,7 @@ function RedrawCircleInner() {
                   {PROMPTS.map((prompt, i) => {
                     const nodeName = selectedEntry.names[String(i)];
                     return (
-                      <div key={i} className="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100/50 text-left">
+                      <div key={i} className="flex items-start gap-4 p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60/50 text-left">
                         <span className="text-2xl mt-0.5">{BUBBLE_EMOJIS[i]}</span>
                         <div className="space-y-0.5">
                           <p className="text-sm font-black text-slate-800">

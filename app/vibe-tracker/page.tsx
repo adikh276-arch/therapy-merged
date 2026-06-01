@@ -17,7 +17,7 @@ const vibes = [
   { emoji: "🔥", label: "Driven", tint: "bg-orange-50/50 border-orange-100 text-orange-800 dark:bg-orange-950/10 dark:border-orange-900/20 dark:text-orange-300" },
   { emoji: "🌸", label: "Content", tint: "bg-pink-50/50 border-pink-100 text-pink-800 dark:bg-pink-950/10 dark:border-pink-900/20 dark:text-pink-300" },
   { emoji: "🌊", label: "Steady", tint: "bg-blue-50/50 border-blue-100 text-blue-800 dark:bg-blue-950/10 dark:border-blue-900/20 dark:text-blue-300" },
-  { emoji: "🤍", label: "Tender", tint: "bg-slate-50/50 border-slate-100 text-slate-800 dark:bg-slate-950/10 dark:border-slate-900/20 dark:text-slate-300" },
+  { emoji: "🤍", label: "Tender", tint: "bg-slate-50/50 border-white/60 text-slate-800 dark:bg-slate-950/10 dark:border-slate-900/20 dark:text-slate-300" },
   { emoji: "🌧", label: "Heavy", tint: "bg-indigo-50/50 border-indigo-100 text-indigo-800 dark:bg-indigo-950/10 dark:border-indigo-900/20 dark:text-indigo-300" },
   { emoji: "🌫", label: "Thoughtful", tint: "bg-teal-50/50 border-teal-100 text-teal-800 dark:bg-teal-950/10 dark:border-teal-900/20 dark:text-teal-300" },
   { emoji: "⚡", label: "Restless", tint: "bg-yellow-50/50 border-yellow-100 text-yellow-800 dark:bg-yellow-950/10 dark:border-yellow-900/20 dark:text-yellow-300" },
@@ -279,7 +279,7 @@ function VibeTrackerInner() {
                         setSelectedVibe(vibe.label);
                         setCustomVibe("");
                       }}
-                      className={`flex flex-col items-center justify-center p-6 rounded-[2.5rem] border-2 transition-all shadow-sm ${
+                      className={`flex flex-col items-center justify-center p-6 rounded-[2.5rem] border transition-all shadow-sm ${
                         selectedVibe === vibe.label
                           ? "bg-primary text-white border-primary shadow-xl shadow-primary/20"
                           : "bg-white border-slate-50 text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-100 hover:border-primary/20"
@@ -299,7 +299,7 @@ function VibeTrackerInner() {
                   </label>
                   <input
                     type="text"
-                    className="w-full py-6 rounded-[2.5rem] bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-8 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 shadow-inner"
+                    className="w-full py-6 rounded-[2.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-8 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 shadow-inner"
                     placeholder={t("rightNowIFeel", "Right now, I feel...")}
                     value={customVibe}
                     onChange={(e) => {
@@ -346,7 +346,7 @@ function VibeTrackerInner() {
                     {t("typeThoughts", "Type your thoughts")}
                   </label>
                   <textarea
-                    className="w-full py-8 rounded-[2.5rem] bg-slate-50 dark:bg-slate-950 border-2 border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-slate-900 transition-all outline-none px-8 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 shadow-inner min-h-[200px] resize-none leading-relaxed"
+                    className="w-full py-8 rounded-[2.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-8 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 shadow-inner min-h-[200px] resize-none leading-relaxed"
                     placeholder={t("type_your_reflection_here", "Type your reflection here...")}
                     value={reflectionAnswer}
                     onChange={(e) => setReflectionAnswer(e.target.value)}
@@ -387,7 +387,7 @@ function VibeTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen("history")}
-                      className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 dark:shadow-none transition-all flex items-center justify-center gap-3"
+                      className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 dark:shadow-none transition-all flex items-center justify-center gap-3"
                     >
                       <Clock size={20} />
                       {t("viewHistory", "View History")}
@@ -426,8 +426,8 @@ function VibeTrackerInner() {
                     </p>
                   </div>
                 ) : historyEntries.length === 0 ? (
-                  <div className="p-12 bg-white dark:bg-slate-900 rounded-[3rem] border-2 border-slate-50 dark:border-slate-800 text-center space-y-6">
-                    <div className="w-20 h-20 bg-slate-50 dark:bg-slate-950 rounded-full flex items-center justify-center mx-auto text-slate-350 dark:text-slate-700">
+                  <div className="p-12 bg-white dark:bg-slate-900 rounded-[3rem] border border-slate-50 dark:border-slate-800 text-center space-y-6">
+                    <div className="w-20 h-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-full flex items-center justify-center mx-auto text-slate-350 dark:text-slate-700">
                       <Calendar size={40} />
                     </div>
                     <p className="text-slate-400 font-bold">{t("noVibes", "No logged moods found.")}</p>
@@ -457,11 +457,11 @@ function VibeTrackerInner() {
                                 initial={{ opacity: 0, x: -20 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: (groupIdx * 2 + i) * 0.05 }}
-                                className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/20 transition-all"
+                                className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/20 transition-all"
                               >
                                 <div className="flex items-center justify-between">
                                   <div className="flex items-center gap-3">
-                                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl transition-colors ${matchingVibe?.tint || 'bg-slate-50 dark:bg-slate-950'}`}>
+                                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl transition-colors ${matchingVibe?.tint || 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950'}`}>
                                       {vibeEmojiMap[entry.vibe] || "✨"}
                                     </div>
                                     <div>

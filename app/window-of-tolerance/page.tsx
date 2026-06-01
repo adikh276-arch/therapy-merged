@@ -69,7 +69,7 @@ function WelcomeScreen({ onBegin, onHistory, onBack }: WelcomeProps) {
 
       <button
         onClick={onBegin}
-        className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 shadow-2xl transition-all duration-300"
+        className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-2xl transition-all duration-300"
       >
         {t("screens.welcome.button", "Get Started")}
       </button>
@@ -89,7 +89,7 @@ function ExplainScreen({ onBack, onNext }: { onBack: () => void; onNext: () => v
 
       {/* Window Diagram */}
       <div className="flex justify-center my-6">
-        <div className="w-[140px] rounded-3xl overflow-hidden border border-slate-100 shadow-xl">
+        <div className="w-[140px] rounded-3xl overflow-hidden border border-white/60 shadow-xl">
           <div className="h-[80px] flex items-center justify-center text-sm font-black uppercase tracking-widest bg-rose-400 text-white">
             {t("screens.explain.zones.hyper.tag", "Hyper")}
           </div>
@@ -103,21 +103,21 @@ function ExplainScreen({ onBack, onNext }: { onBack: () => void; onNext: () => v
       </div>
 
       <div className="space-y-5">
-        <div className="flex gap-4 items-start p-4 rounded-2xl bg-slate-50">
+        <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
           <span className="text-lg mt-0.5">🔴</span>
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.hyper.label", "Hyper-arousal (Flight or Fight)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.hyper.desc", "Feeling anxious, angry, flooded, or overwhelmed. Your system is stuck in high gear.")}</p>
           </div>
         </div>
-        <div className="flex gap-4 items-start p-4 rounded-2xl bg-slate-50">
+        <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
           <span className="text-lg mt-0.5">🟢</span>
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.safe.label", "Optimal Zone (Connected & Calm)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.safe.desc", "Feeling grounded, present, and capable. You can handle emotional waves easily.")}</p>
           </div>
         </div>
-        <div className="flex gap-4 items-start p-4 rounded-2xl bg-slate-50">
+        <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
           <span className="text-lg mt-0.5">🔵</span>
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.hypo.label", "Hypo-arousal (Freeze or Shut Down)")}</p>
@@ -139,7 +139,7 @@ function ExplainScreen({ onBack, onNext }: { onBack: () => void; onNext: () => v
         </button>
         <button
           onClick={onNext}
-          className="flex-1 py-4 rounded-2xl bg-slate-900 text-white font-bold hover:bg-slate-800 shadow-lg transition-all duration-300"
+          className="flex-1 py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-lg transition-all duration-300"
         >
           {t("screens.explain.next", "Next")}
         </button>
@@ -194,8 +194,8 @@ function CheckInScreen({ selected, onSelect, onBack, onNext }: CheckInProps) {
           <button
             key={z.id}
             onClick={() => onSelect(z.id)}
-            className={`w-full text-left p-6 rounded-3xl border-2 transition-all duration-300 flex gap-4 items-start shadow-sm ${
-              selected === z.id ? z.color : "border-slate-100 bg-white hover:bg-slate-50"
+            className={`w-full text-left p-6 rounded-3xl border transition-all duration-300 flex gap-4 items-start shadow-sm ${
+              selected === z.id ? z.color : "border-white/60 bg-white hover:bg-slate-50"
             }`}
           >
             <span className="text-3xl mt-0.5">{z.emoji}</span>
@@ -217,7 +217,7 @@ function CheckInScreen({ selected, onSelect, onBack, onNext }: CheckInProps) {
         <button
           onClick={onNext}
           disabled={!selected}
-          className="flex-1 py-4 rounded-2xl bg-slate-900 text-white font-bold hover:bg-slate-800 transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="flex-1 py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {t("screens.checkin.next", "Next")}
         </button>
@@ -297,7 +297,7 @@ function ZoneScreen({ zone, onContinue, onBack }: ZoneProps) {
 
       <div className="space-y-4">
         {data.tools && data.tools.map((tool: any) => (
-          <div key={tool.name} className="p-5 rounded-2xl bg-white border border-slate-100 shadow-sm flex gap-4 items-start">
+          <div key={tool.name} className="p-5 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] shadow-sm flex gap-4 items-start">
             <span className="text-2xl mt-0.5">{toolIcons[tool.name] || "✨"}</span>
             <div>
               <p className="font-extrabold text-sm text-slate-800">{tool.name}</p>
@@ -310,7 +310,7 @@ function ZoneScreen({ zone, onContinue, onBack }: ZoneProps) {
       <div className="space-y-3 pt-4">
         <button
           onClick={onContinue}
-          className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 shadow-xl transition-all duration-300"
+          className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-xl transition-all duration-300"
         >
           {data.button}
         </button>
@@ -352,7 +352,7 @@ function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack, 
 
       <div className="flex flex-wrap gap-2 justify-center">
         {tools_list && tools_list.map((t) => (
-          <span key={t} className="inline-flex px-3 py-1 rounded-full bg-slate-50 border border-slate-150 text-slate-600 text-xs font-semibold">{t}</span>
+          <span key={t} className="inline-flex px-3 py-1 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-slate-150 text-slate-600 text-xs font-semibold">{t}</span>
         ))}
       </div>
 
@@ -374,7 +374,7 @@ function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack, 
       {/* Weekly Tracker */}
       <div className="space-y-3 border-t border-slate-50 pt-4">
         <label className="text-sm font-bold text-slate-800">{t("screens.toolkit.history_label", "Nervous System Week Calendar")}</label>
-        <div className="flex justify-between px-2 bg-slate-50 py-4 rounded-2xl border border-slate-100 shadow-inner">
+        <div className="flex justify-between px-2 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 py-4 rounded-2xl border border-white/60 shadow-inner">
           {DAYS.map((day, i) => (
             <div key={i} className="flex flex-col items-center gap-1.5" title={day}>
               <span className="text-lg">{weekTracker[i] ? ZONE_EMOJI[weekTracker[i]!] : "⚪"}</span>
@@ -387,7 +387,7 @@ function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack, 
       <button
         onClick={onSave}
         disabled={isSaving}
-        className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg hover:bg-slate-800 shadow-2xl transition-all duration-300 flex items-center justify-center gap-2"
+        className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-2xl transition-all duration-300 flex items-center justify-center gap-2"
       >
         <Save size={20} />
         {isSaving ? t("screens.toolkit.preserving", "Saving...") : t("screens.toolkit.save_button", "Save & Finish Check-in")}
@@ -447,7 +447,7 @@ function HistoryModal({ entries, onClose }: HistoryModalProps) {
             {entries.map((entry, i) => {
               const zone = ZONE_LABELS[entry.zone! || "safe"];
               return (
-                <div key={entry.id || i} className="flex items-center gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-100 text-left">
+                <div key={entry.id || i} className="flex items-center gap-3.5 p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 text-left">
                   <span className="text-2xl">{zone ? zone.emoji : "⚪"}</span>
                   <div className="flex-1">
                     <p className="text-sm font-bold text-slate-800">{zone ? zone.label : "General Check-in"}</p>

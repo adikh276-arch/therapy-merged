@@ -110,7 +110,7 @@ function RelationshipPatternsInner() {
               transition={{ duration: 0.6, ease: "easeOut" as const }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl min-h-[420px] flex flex-col justify-between">
+              <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl min-h-[420px] flex flex-col justify-between">
                 <div className="absolute top-[-20px] right-[-20px] w-32 h-32 rounded-full bg-amber-100/50 blur-3xl" />
                 <div className="absolute bottom-[-20px] left-[-20px] w-32 h-32 rounded-full bg-pink-100/30 blur-3xl" />
                 <FloatingHearts hearts={HEARTS_SCREEN1} />
@@ -142,7 +142,7 @@ function RelationshipPatternsInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(1)}
-                className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
               >
                 {t("screen1.button", "Continue Unpacking")}
                 <ChevronRight size={18} />
@@ -157,7 +157,7 @@ function RelationshipPatternsInner() {
               transition={{ duration: 0.6, ease: "easeOut" as const }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl min-h-[420px] flex flex-col justify-between">
+              <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl min-h-[420px] flex flex-col justify-between">
                 <div className="absolute top-[-20px] left-[-20px] w-32 h-32 rounded-full bg-indigo-100/50 blur-3xl" />
                 <div className="absolute bottom-[-20px] right-[-20px] w-32 h-32 rounded-full bg-teal-100/30 blur-3xl" />
                 <FloatingHearts hearts={HEARTS_SCREEN2} />
@@ -189,7 +189,7 @@ function RelationshipPatternsInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(2)}
-                className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
               >
                 {t("screen2.button", "Finish Reflection")}
                 <ChevronRight size={18} />

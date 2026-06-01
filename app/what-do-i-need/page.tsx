@@ -322,7 +322,7 @@ function WhatDoINeedInner() {
                   </div>
                 ) : history.length === 0 ? (
                   <div className="py-20 text-center space-y-4">
-                    <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mx-auto text-slate-300">
+                    <div className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-full flex items-center justify-center mx-auto text-slate-300">
                       <BookOpen size={32} />
                     </div>
                     <p className="text-slate-400 font-medium">{t("history.empty", "No reflections yet.")}</p>
@@ -337,7 +337,7 @@ function WhatDoINeedInner() {
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ delay: i * 0.05 }}
-                          className="rounded-2xl p-5 bg-slate-50 border border-slate-100 relative group"
+                          className="rounded-2xl p-5 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 relative group"
                         >
                           <button
                             onClick={() => deleteReflection(item.id)}
@@ -409,7 +409,7 @@ function WhatDoINeedInner() {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => setScreen(2)} 
-                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all mt-4"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all mt-4"
                 >
                   {t("screens.s1.button", "Start Check-in")}
                 </motion.button>
@@ -473,7 +473,7 @@ function WhatDoINeedInner() {
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
                           onClick={goToPrioritize} 
-                          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
+                          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
                         >
                           {t("screens.s2.select.button", "Continue")}
                         </motion.button>
@@ -505,7 +505,7 @@ function WhatDoINeedInner() {
                       <div className="space-y-2 text-center w-full">
                         <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">{t("screens.s2.focus.tag", "Your focus right now")}</p>
                         <motion.div
-                          className="w-full p-10 rounded-[3rem] bg-white border border-slate-100 shadow-2xl flex flex-col items-center gap-4 focus-card"
+                          className="w-full p-10 rounded-[3rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] shadow-2xl flex flex-col items-center gap-4 focus-card"
                           initial={{ scale: 0.9, opacity: 0 }}
                           animate={{ scale: 1, opacity: 1 }}
                         >
@@ -515,7 +515,7 @@ function WhatDoINeedInner() {
                           <p className="text-2xl font-black text-slate-900">{needs_obj[primaryNeed]?.label || primaryNeed}</p>
                         </motion.div>
                       </div>
-                      <button onClick={goToScreen3} className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all">
+                      <button onClick={goToScreen3} className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all">
                         {t("screens.s2.focus.button", "Continue")}
                       </button>
                     </motion.div>
@@ -552,7 +552,7 @@ function WhatDoINeedInner() {
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
                           onClick={goToAction} 
-                          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
+                          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
                         >
                           {t("screens.s3.reflect.button", "Continue")}
                         </motion.button>
@@ -586,7 +586,7 @@ function WhatDoINeedInner() {
                         className="w-full p-5 bg-white border border-slate-200 rounded-2xl text-base font-bold focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all shadow-sm"
                       />
                       {(selectedAction || customAction.trim()) && (
-                        <button onClick={goToClosing} className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all">
+                        <button onClick={goToClosing} className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all">
                           {t("screens.s3.action.button", "Review Reflection")}
                         </button>
                       )}
@@ -595,7 +595,7 @@ function WhatDoINeedInner() {
 
                   {step3Phase === "closing" && (
                     <motion.div key="s3-closing" {...fadeUp} className="w-full flex flex-col items-center gap-8 pt-4">
-                      <div className="w-full p-8 rounded-[2.5rem] bg-white border border-slate-100 shadow-2xl space-y-6 summary-card">
+                      <div className="w-full p-8 rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] shadow-2xl space-y-6 summary-card">
                         <div className="space-y-1">
                           <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.closing.tag_need", "Primary Need")}</p>
                           <div className="flex items-center gap-3">
@@ -620,7 +620,7 @@ function WhatDoINeedInner() {
                       <div className="w-full space-y-4">
                         <button
                           onClick={handleSave}
-                          className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-xl shadow-slate-900/20 hover:bg-slate-800 transition-all"
+                          className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
                         >
                           {t("screens.s3.closing.save_button", "Save & Finish")}
                         </button>

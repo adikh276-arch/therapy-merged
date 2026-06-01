@@ -227,9 +227,9 @@ function ContinuingBondsInner() {
                     <button
                       key={i}
                       onClick={() => setSelectedOption(i)}
-                      className="w-full bg-white border border-slate-100 rounded-3xl p-5 text-left shadow-sm hover:shadow-md hover:bg-slate-50 transition-all flex items-center gap-4 group"
+                      className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 text-left shadow-sm hover:shadow-md hover:bg-slate-50 transition-all flex items-center gap-4 group"
                     >
-                      <div className="w-11 h-11 bg-slate-50 rounded-xl flex items-center justify-center text-xl group-hover:scale-105 transition-transform shrink-0">
+                      <div className="w-11 h-11 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-xl flex items-center justify-center text-xl group-hover:scale-105 transition-transform shrink-0">
                         {OPTION_EMOJIS[i] || "✨"}
                       </div>
                       <span className="font-bold text-slate-700 text-sm">{opt.label}</span>
@@ -238,7 +238,7 @@ function ContinuingBondsInner() {
                 </div>
               ) : (
                 <div className="space-y-6">
-                  <div className="bg-white rounded-[2rem] p-6 space-y-4 border border-slate-100 shadow-md">
+                  <div className="bg-white rounded-[2rem] p-6 space-y-4 border border-white/60 shadow-md">
                     <p className="text-slate-800 font-extrabold text-sm leading-relaxed italic text-center">
                       "{CONNECTION_OPTIONS[selectedOption]?.prompt}"
                     </p>
@@ -247,14 +247,14 @@ function ContinuingBondsInner() {
                       onChange={(e) => setPrimaryText(e.target.value)}
                       placeholder={t("write_heart", "Write from the heart...")}
                       rows={4}
-                      className="w-full bg-slate-50 border border-slate-100 rounded-2xl p-4 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all outline-none resize-none"
+                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 rounded-2xl p-4 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all outline-none resize-none"
                     />
                   </div>
 
                   <button
                     onClick={() => setScreen("bond")}
                     disabled={!primaryText.trim()}
-                    className="w-full py-4 rounded-2xl bg-slate-900 text-white font-bold disabled:opacity-30"
+                    className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold disabled:opacity-30"
                   >
                     {t("continue_button", "Continue")}
                   </button>
@@ -271,7 +271,7 @@ function ContinuingBondsInner() {
               animate={{ opacity: 1, y: 0 }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl flex flex-col items-center text-center">
+              <div className="rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl flex flex-col items-center text-center">
                 <div className="text-5xl mb-4">🔗</div>
                 <h2 className="text-xl font-black text-slate-850 mb-2">{t("action_title", "Connecting in Action")}</h2>
                 <p className="text-slate-500 font-medium text-xs mb-6 leading-relaxed italic">
@@ -282,7 +282,7 @@ function ContinuingBondsInner() {
                   onChange={(e) => setBondText(e.target.value)}
                   placeholder={t("sharing_optional", "Describe a small action (optional)...")}
                   rows={4}
-                  className="w-full bg-slate-50 border border-slate-100 rounded-2xl p-4 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all outline-none resize-none"
+                  className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 rounded-2xl p-4 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all outline-none resize-none"
                 />
               </div>
 
@@ -306,7 +306,7 @@ function ContinuingBondsInner() {
               animate={{ opacity: 1, scale: 1 }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="w-full bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-xl text-center">
+              <div className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-8 shadow-xl text-center">
                 <div className="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl">
                   📖
                 </div>
@@ -314,7 +314,7 @@ function ContinuingBondsInner() {
                 <p className="text-slate-450 text-xs font-bold leading-relaxed mb-6 italic">
                   {t("preserved_subtitle", "\"This connection is part of you. You can return to it anytime.\"")}
                 </p>
-                <div className="bg-slate-50 rounded-2xl p-5 text-left border border-slate-100/50">
+                <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl p-5 text-left border border-white/60/50">
                   <p className="text-[9px] font-black uppercase tracking-widest text-primary mb-2">
                     {reflections[0]?.connectionType}
                   </p>
@@ -327,7 +327,7 @@ function ContinuingBondsInner() {
               <div className="space-y-2">
                 <button
                   onClick={() => setScreen("closing")}
-                  className="w-full py-4 rounded-2xl bg-slate-900 text-white font-bold shadow-lg"
+                  className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold shadow-lg"
                 >
                   {t("finish_button", "Finish for now")}
                 </button>
@@ -349,7 +349,7 @@ function ContinuingBondsInner() {
               animate={{ opacity: 1, y: 0 }}
               className="flex-1 flex flex-col items-center text-center gap-6 py-6"
             >
-              <div className="w-20 h-20 bg-white border border-slate-100 rounded-[1.75rem] flex items-center justify-center text-4xl shadow-sm">
+              <div className="w-20 h-20 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[1.75rem] flex items-center justify-center text-4xl shadow-sm">
                 🕊️
               </div>
               <div className="space-y-4 text-slate-500 font-medium text-sm leading-relaxed max-w-xs mx-auto">
@@ -358,7 +358,7 @@ function ContinuingBondsInner() {
               </div>
               <button
                 onClick={() => setScreen("complete")}
-                className="w-full max-w-xs py-4.5 rounded-2xl bg-slate-900 text-white font-bold shadow-lg mt-4"
+                className="w-full max-w-xs py-4.5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold shadow-lg mt-4"
               >
                 {t("save_exit_button", "Save & Exit")}
               </button>
@@ -389,7 +389,7 @@ function ContinuingBondsInner() {
                   Loading entries...
                 </div>
               ) : reflections.length === 0 ? (
-                <div className="text-center py-16 bg-white rounded-3xl border border-slate-100 shadow-sm space-y-4 text-center">
+                <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
                   <span className="text-4xl block">📭</span>
                   <p className="text-slate-450 font-bold text-sm">{t("no_reflections_yet", "No reflections logged yet.")}</p>
                 </div>
@@ -398,7 +398,7 @@ function ContinuingBondsInner() {
                   {reflections.map((ref) => (
                     <div
                       key={ref.id}
-                      className="w-full bg-white border border-slate-100 rounded-3xl p-5 hover:shadow-lg transition-all relative group flex flex-col gap-2"
+                      className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 hover:shadow-lg transition-all relative group flex flex-col gap-2"
                     >
                       <button
                         onClick={() => deleteReflection(ref.id)}

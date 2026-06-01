@@ -174,7 +174,7 @@ function GentleWishInner() {
 
               <div className="space-y-6 text-slate-500 dark:text-slate-400 font-medium leading-relaxed max-w-xs mx-auto text-base">
                 <p>{t("welcome_description", "When we lose someone, our connection doesn't end. This is a quiet space to dedicate a gentle wish to them.")}</p>
-                <div className="bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 rounded-3xl p-6 shadow-xl shadow-slate-200/50 italic text-slate-400">
+                <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 rounded-3xl p-6 shadow-xl shadow-slate-200/50 italic text-slate-400">
                   {t("breathing_instruction", "Take a slow, deep breath in... and let it out fully. Bring their memory to mind.")}
                 </div>
                 <p className="text-sm font-black uppercase tracking-widest text-slate-350">{t("pace_instruction", "Take all the time you need")}</p>
@@ -183,7 +183,7 @@ function GentleWishInner() {
               <div className="w-full space-y-4">
                 <button
                   onClick={() => setScreen("connection")}
-                  className="w-full bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
                 >
                   {t("begin_button", "Begin")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -228,7 +228,7 @@ function GentleWishInner() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder={t("placeholder_name", "Name...")}
-                    className="w-full bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-3xl px-8 py-5 text-slate-800 text-lg font-black placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-xl shadow-slate-200/50"
+                    className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-3xl px-8 py-5 text-slate-800 text-lg font-black placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-xl shadow-slate-200/50"
                   />
                 </div>
 
@@ -241,7 +241,7 @@ function GentleWishInner() {
                     value={relation}
                     onChange={(e) => setRelation(e.target.value)}
                     placeholder={t("placeholder_relation", "Relation (optional)...")}
-                    className="w-full bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-3xl px-8 py-4 text-slate-800 text-base font-bold placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-lg shadow-slate-200/40"
+                    className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-3xl px-8 py-4 text-slate-800 text-base font-bold placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-lg shadow-slate-200/40"
                   />
                 </div>
               </div>
@@ -286,7 +286,7 @@ function GentleWishInner() {
                       onChange={(e) => setWish(e.target.value)}
                       placeholder={t("placeholder_wish", "I wish you...")}
                       rows={3}
-                      className="w-full bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-[2rem] px-8 py-6 text-slate-800 text-lg font-medium placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-2xl shadow-slate-200/50 resize-none"
+                      className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-[2rem] px-8 py-6 text-slate-800 text-lg font-medium placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-2xl shadow-slate-200/50 resize-none"
                     />
                   </motion.div>
                 )}
@@ -310,7 +310,7 @@ function GentleWishInner() {
                       onChange={(e) => setWhy(e.target.value)}
                       placeholder={t("placeholder_why", "This feels significant because...")}
                       rows={2}
-                      className="w-full bg-slate-50 border border-slate-100 dark:bg-slate-950 dark:border-slate-900 dark:text-white rounded-[1.5rem] px-8 py-5 text-slate-700 text-base font-medium placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all resize-none shadow-inner"
+                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 dark:bg-slate-950 dark:border-slate-900 dark:text-white rounded-[1.5rem] px-8 py-5 text-slate-700 text-base font-medium placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all resize-none shadow-inner"
                     />
                   </motion.div>
                 )}
@@ -320,7 +320,7 @@ function GentleWishInner() {
                 <button
                   onClick={() => setScreen("carry")}
                   disabled={!wish.trim()}
-                  className="w-full bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3 disabled:opacity-20"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3 disabled:opacity-20"
                 >
                   {t("continue_button", "Continue")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -354,7 +354,7 @@ function GentleWishInner() {
                   onChange={(e) => setSmallStep(e.target.value)}
                   placeholder={t("placeholder_step", "I will carry their kindness by...")}
                   rows={3}
-                  className="w-full bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-2xl px-6 py-4 text-slate-800 placeholder:text-slate-200 font-medium text-base focus:ring-4 focus:ring-primary/5 transition-all resize-none shadow-sm"
+                  className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-2xl px-6 py-4 text-slate-800 placeholder:text-slate-200 font-medium text-base focus:ring-4 focus:ring-primary/5 transition-all resize-none shadow-sm"
                 />
                 <p className="text-xs text-slate-400 dark:text-slate-500 text-center font-semibold max-w-[280px] mx-auto leading-relaxed">
                   {t("carry_footer", "This doesn't need to be massive. A tiny, quiet action holds infinite value.")}
@@ -364,13 +364,13 @@ function GentleWishInner() {
               <div className="mt-auto pt-8 space-y-3 w-full">
                 <button
                   disabled={isSaving}
-                  className="w-full bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
                   onClick={saveEntry}
                 >
                   {isSaving ? t("saving...", "Preserving...") : t("save_button", "Preserve Tribute")}
                 </button>
                 <button
-                  className="w-full bg-white text-slate-400 dark:bg-slate-900 dark:text-slate-500 py-4 rounded-xl font-bold text-sm border-2 border-dashed border-slate-200 dark:border-slate-800 hover:text-slate-650"
+                  className="w-full bg-white text-slate-400 dark:bg-slate-900 dark:text-slate-500 py-4 rounded-xl font-bold text-sm border border-dashed border-slate-200 dark:border-slate-800 hover:text-slate-650"
                   onClick={saveEntry}
                 >
                   {t("skip_button", "Skip & Save")}
@@ -419,7 +419,7 @@ function GentleWishInner() {
 
               <div className="mt-auto pt-8 space-y-3 w-full">
                 <button
-                  className="w-full bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
                   onClick={addAnother}
                 >
                   {t("add_another_button", "Honour Another Memory")}
@@ -453,8 +453,8 @@ function GentleWishInner() {
 
               <div className="flex-1 overflow-y-auto pr-2 space-y-6 max-h-[50vh]">
                 {entries.length === 0 ? (
-                  <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-[2.5rem] p-12 text-center shadow-xl space-y-6">
-                    <div className="w-16 h-16 bg-slate-50 dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-3xl">
+                  <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-12 text-center shadow-xl space-y-6">
+                    <div className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-3xl">
                       ⏳
                     </div>
                     <p className="text-slate-550 dark:text-slate-400 font-bold text-sm">
@@ -469,7 +469,7 @@ function GentleWishInner() {
                         initial={{ opacity: 0, y: 12 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: i * 0.05, duration: 0.6 }}
-                        className="bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-2xl space-y-4 hover:shadow-primary/5 transition-all duration-300"
+                        className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-2xl space-y-4 hover:shadow-primary/5 transition-all duration-300"
                       >
                         <div className="flex items-center justify-between">
                           <span className="px-4 py-1.5 rounded-full bg-rose-50/50 text-rose-500 text-[10px] font-black uppercase tracking-[0.2em]">

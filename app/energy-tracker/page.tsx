@@ -327,7 +327,7 @@ function EnergyTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('weekly')}
-                      className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm"
+                      className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm"
                     >
                       <History size={16} />
                       {t('view_weekly', 'View Weekly Trends')}
@@ -366,7 +366,7 @@ function EnergyTrackerInner() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.05 }}
                         onClick={() => setCurrentLevel(opt.level)}
-                        className={`flex items-center gap-5 rounded-2xl border-2 px-6 py-4.5 transition-all text-left group ${
+                        className={`flex items-center gap-5 rounded-2xl border px-6 py-4.5 transition-all text-left group ${
                           isSelected
                             ? 'bg-primary border-primary text-white shadow-lg shadow-primary/10'
                             : `${opt.color} text-slate-800 dark:text-slate-100 hover:scale-[1.01]`
@@ -380,7 +380,7 @@ function EnergyTrackerInner() {
                         >
                           {opt.label}
                         </span>
-                        <div className="ml-auto w-6 h-6 rounded-full border-2 border-current flex items-center justify-center shrink-0 opacity-40 group-hover:opacity-100 transition-opacity">
+                        <div className="ml-auto w-6 h-6 rounded-full border border-current flex items-center justify-center shrink-0 opacity-40 group-hover:opacity-100 transition-opacity">
                           {isSelected && <Check size={14} strokeWidth={4} />}
                         </div>
                       </motion.button>
@@ -436,10 +436,10 @@ function EnergyTrackerInner() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: i * 0.03 }}
                         onClick={() => toggleFactor(f.id)}
-                        className={`flex items-center gap-3 rounded-2xl px-4 py-3.5 text-xs font-bold transition-all border-2 ${
+                        className={`flex items-center gap-3 rounded-2xl px-4 py-3.5 text-xs font-bold transition-all border ${
                           selected
                             ? 'border-primary bg-primary/5 text-primary shadow-sm'
-                            : 'border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-300 hover:border-slate-200'
+                            : 'border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-300 hover:border-slate-200'
                         }`}
                       >
                         <div
@@ -466,7 +466,7 @@ function EnergyTrackerInner() {
                     placeholder={t('note_placeholder', 'Describe briefly...')}
                     maxLength={120}
                     rows={3}
-                    className="w-full resize-none rounded-2xl border-2 border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 px-5 py-4 text-sm text-slate-900 dark:text-slate-100 placeholder:text-slate-300 focus:outline-none focus:border-primary transition-all font-medium shadow-inner"
+                    className="w-full resize-none rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 px-5 py-4 text-sm text-slate-900 dark:text-slate-100 placeholder:text-slate-300 focus:outline-none focus:border-primary transition-all font-medium shadow-inner"
                   />
                   <p className="text-right text-[9px] font-black text-slate-350 dark:text-slate-600 uppercase tracking-widest px-1">
                     {currentNote.length}/120
@@ -518,7 +518,7 @@ function EnergyTrackerInner() {
                           initial={{ opacity: 0, x: -10 }}
                           animate={{ opacity: 1, x: 0 }}
                           transition={{ delay: i * 0.08 }}
-                          className="flex items-center gap-4 rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 px-5 py-4 shadow-sm hover:border-primary/20 transition-all text-left"
+                          className="flex items-center gap-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 px-5 py-4 shadow-sm hover:border-primary/20 transition-all text-left"
                         >
                           <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
                             <s.icon className="h-5 w-5" />
@@ -534,7 +534,7 @@ function EnergyTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('weekly')}
-                      className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-bold text-sm uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                      className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-bold text-sm uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                     >
                       <History size={16} />
                       {t('view_weekly', 'View Weekly Trends')}
@@ -567,7 +567,7 @@ function EnergyTrackerInner() {
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={() => setScreen(currentLevel ? 'summary' : 'overview')}
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors shadow-sm"
+                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
                   >
                     <ArrowLeft size={18} />
                   </motion.button>
@@ -577,7 +577,7 @@ function EnergyTrackerInner() {
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 p-5 shadow-sm overflow-hidden flex flex-col items-center justify-center"
+                  className="bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 p-5 shadow-sm overflow-hidden flex flex-col items-center justify-center"
                 >
                   {loading ? (
                     <div className="flex flex-col items-center justify-center py-10 gap-3">
@@ -691,10 +691,10 @@ function EnergyTrackerInner() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
-                    className={`rounded-3xl p-6 border-2 flex gap-4 ${
+                    className={`rounded-3xl p-6 border flex gap-4 ${
                       hasEnoughData && avgValue
                         ? 'bg-primary/5 border-primary/15'
-                        : 'bg-slate-50 dark:bg-slate-900 border-slate-100 dark:border-slate-800'
+                        : 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 border-white/60 dark:border-slate-800'
                     }`}
                   >
                     <div className="w-10 h-10 rounded-xl bg-white dark:bg-slate-950 flex items-center justify-center shrink-0 text-primary shadow-sm">

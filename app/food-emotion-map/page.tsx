@@ -270,10 +270,10 @@ function FoodEmotionMapInner() {
                         <button
                           key={opt}
                           onClick={() => setEmotion(opt)}
-                          className={`px-4.5 py-3 rounded-2xl text-xs font-bold transition-all border-2 ${
+                          className={`px-4.5 py-3 rounded-2xl text-xs font-bold transition-all border ${
                             emotion === opt
-                              ? "bg-primary border-primary text-white shadow-md"
-                              : "bg-white border-slate-100 text-slate-500 hover:border-primary/25"
+                              ? "bg-primary border-primary text-white shadow-lg shadow-primary/30"
+                              : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-500 hover:bg-white/80 hover:shadow-md"
                           }`}
                         >
                           {opt}
@@ -288,7 +288,7 @@ function FoodEmotionMapInner() {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={nextStep}
-                        className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold shadow-lg"
+                        className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
                       >
                         {t("begin_mapping", "Begin Mapping")}
                       </motion.button>
@@ -332,10 +332,10 @@ function FoodEmotionMapInner() {
                       <button
                         key={opt}
                         onClick={() => setFoodResponse(opt)}
-                        className={`px-4.5 py-3.5 rounded-2xl text-xs font-bold transition-all border-2 ${
+                        className={`px-4.5 py-3.5 rounded-2xl text-xs font-bold transition-all border ${
                           foodResponse === opt
-                            ? "bg-primary border-primary text-white shadow-md"
-                            : "bg-white border-slate-100 text-slate-500 hover:border-primary/25"
+                            ? "bg-primary border-primary text-white shadow-lg shadow-primary/30"
+                            : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-500 hover:bg-white/80 hover:shadow-md"
                         }`}
                       >
                         {opt}
@@ -348,7 +348,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold"
+                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -384,7 +384,7 @@ function FoodEmotionMapInner() {
                     onChange={(e) => setThought(e.target.value)}
                     placeholder={t("write_placeholder", "e.g., 'I just need comfort right now' or 'I shouldn't be eating this'...")}
                     rows={4}
-                    className="w-full bg-white border border-slate-150 rounded-2xl p-5 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/25 outline-none transition-all shadow-inner"
+                    className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-5 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/25 outline-none transition-all shadow-inner"
                   />
 
                   {thought.trim() && (
@@ -392,7 +392,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold"
+                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -428,10 +428,10 @@ function FoodEmotionMapInner() {
                       <button
                         key={opt}
                         onClick={() => setBodySensation(opt)}
-                        className={`px-4.5 py-3 rounded-2xl text-xs font-bold transition-all border-2 ${
+                        className={`px-4.5 py-3 rounded-2xl text-xs font-bold transition-all border ${
                           bodySensation === opt
-                            ? "bg-primary border-primary text-white shadow-md"
-                            : "bg-white border-slate-100 text-slate-500 hover:border-primary/25"
+                            ? "bg-primary border-primary text-white shadow-lg shadow-primary/30"
+                            : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-500 hover:bg-white/80 hover:shadow-md"
                         }`}
                       >
                         {opt}
@@ -444,7 +444,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold"
+                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -463,7 +463,7 @@ function FoodEmotionMapInner() {
               exit={{ opacity: 0, scale: 1.05 }}
               className="flex-1 flex flex-col gap-6 py-4 text-left"
             >
-              <div className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-xl space-y-6">
+              <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-8 shadow-xl space-y-6">
                 <span className="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-[9px] font-black uppercase tracking-wider">
                   {t("the_pattern_label", "The Pattern Map")}
                 </span>
@@ -493,7 +493,7 @@ function FoodEmotionMapInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={nextStep}
-                className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold shadow-lg"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
               >
                 {t("continue_button", "Continue")}
               </motion.button>
@@ -526,10 +526,10 @@ function FoodEmotionMapInner() {
                       <button
                         key={opt}
                         onClick={() => setSupportChoice(opt)}
-                        className={`px-4.5 py-3 rounded-2xl text-xs font-bold transition-all border-2 ${
+                        className={`px-4.5 py-3 rounded-2xl text-xs font-bold transition-all border ${
                           supportChoice === opt
-                            ? "bg-primary border-primary text-white shadow-md"
-                            : "bg-white border-slate-100 text-slate-500 hover:border-primary/25"
+                            ? "bg-primary border-primary text-white shadow-lg shadow-primary/30"
+                            : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-500 hover:bg-white/80 hover:shadow-md"
                         }`}
                       >
                         {opt}
@@ -557,7 +557,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold shadow-lg"
+                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -597,7 +597,7 @@ function FoodEmotionMapInner() {
                       onChange={(e) => setClosingFeeling(e.target.value)}
                       placeholder={t("write_placeholder", "Describe briefly...")}
                       rows={4}
-                      className="w-full bg-white border border-slate-150 rounded-2xl p-5 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/25 outline-none transition-all shadow-inner"
+                      className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-5 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/25 outline-none transition-all shadow-inner"
                     />
                   </div>
 
@@ -606,7 +606,7 @@ function FoodEmotionMapInner() {
                     whileTap={{ scale: closingFeeling?.trim() ? 0.98 : 1 }}
                     onClick={saveMap}
                     disabled={isSaving || !closingFeeling?.trim()}
-                    className="w-full bg-slate-900 text-white py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2 disabled:opacity-30"
+                    className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2 disabled:opacity-30"
                   >
                     <Save size={18} />
                     {isSaving ? t("preserving", "Preserving...") : t("preserve_button", "Preserve Map")}
@@ -640,7 +640,7 @@ function FoodEmotionMapInner() {
                   Loading history...
                 </div>
               ) : historyLogs.length === 0 ? (
-                <div className="text-center py-16 bg-white rounded-3xl border border-slate-100 shadow-sm space-y-4 text-center">
+                <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
                   <span className="text-4xl block">📭</span>
                   <p className="text-slate-450 font-bold text-sm">No eating pattern maps found.</p>
                 </div>
@@ -649,7 +649,7 @@ function FoodEmotionMapInner() {
                   {historyLogs.map((entry) => (
                     <div
                       key={entry.id}
-                      className="w-full bg-white border border-slate-100 rounded-3xl p-6 relative group flex flex-col gap-3 shadow-sm hover:shadow-md transition-all"
+                      className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-6 relative group flex flex-col gap-3 shadow-sm hover:shadow-md transition-all"
                     >
                       <button
                         onClick={(e) => deleteEntry(entry.id, e)}
@@ -670,12 +670,12 @@ function FoodEmotionMapInner() {
                         <span className="px-2.5 py-1 rounded bg-primary/5 text-primary text-[10px] font-black uppercase tracking-wider">
                           {entry.emotion}
                         </span>
-                        <span className="px-2.5 py-1 rounded bg-slate-50 text-slate-500 text-[10px] font-black uppercase tracking-wider">
+                        <span className="px-2.5 py-1 rounded bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-500 text-[10px] font-black uppercase tracking-wider">
                           {entry.bodySensation}
                         </span>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-slate-50 text-xs font-semibold leading-relaxed text-slate-655 space-y-2 border border-slate-100/50">
+                      <div className="p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-xs font-semibold leading-relaxed text-slate-655 space-y-2 border border-white/60/50">
                         <p>💡 <span className="font-black text-slate-800">Thoughts:</span> "{entry.thought}"</p>
                         <p>🍽️ <span className="font-black text-slate-800">Response:</span> {entry.foodResponse}</p>
                         <p>🌱 <span className="font-black text-slate-850">Support Anchor:</span> {entry.supportChoice}</p>

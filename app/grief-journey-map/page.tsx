@@ -13,7 +13,7 @@ const TOTAL_SCREENS = 3;
 function Screen1({ onNext, t }: { onNext: () => void; t: any }) {
   return (
     <div className="flex flex-1 flex-col gap-8">
-      <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 flex flex-col justify-center text-center min-h-[450px]">
+      <div className="relative overflow-hidden rounded-[3rem] bg-white/70 backdrop-blur-xl border border-white/80 p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col justify-center text-center min-h-[450px]">
         <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-8 text-6xl">🌊</div>
         <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
           {t("screen1_title")}
@@ -27,7 +27,7 @@ function Screen1({ onNext, t }: { onNext: () => void; t: any }) {
       </div>
       <button
         onClick={onNext}
-        className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+        className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
       >
         {t("btn_tell_more")}
         <ChevronRight size={20} strokeWidth={3} />
@@ -39,7 +39,7 @@ function Screen1({ onNext, t }: { onNext: () => void; t: any }) {
 function GriefGraph({ t }: { t: any }) {
   return (
     <div className="grid grid-cols-1 gap-6 mt-4">
-      <div className="rounded-3xl bg-slate-50 border border-slate-100 p-6">
+      <div className="rounded-3xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 p-6">
         <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-4">{t("expectation_label")}</p>
         <svg viewBox="0 0 100 40" className="w-full">
           <path d="M10,35 L90,5" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" />
@@ -65,7 +65,7 @@ function GriefGraph({ t }: { t: any }) {
 function Screen2({ onNext, t }: { onNext: () => void; t: any }) {
   return (
     <div className="flex flex-1 flex-col gap-8">
-      <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
+      <div className="relative overflow-hidden rounded-[3rem] bg-white/70 backdrop-blur-xl border border-white/80 p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] min-h-[450px]">
         <span className="inline-block rounded-full bg-rose-100 text-rose-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
           {t("screen2_tag")}
         </span>
@@ -80,7 +80,7 @@ function Screen2({ onNext, t }: { onNext: () => void; t: any }) {
       </div>
       <button
         onClick={onNext}
-        className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+        className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
       >
         {t("btn_one_more")}
         <ChevronRight size={20} strokeWidth={3} />
@@ -91,7 +91,7 @@ function Screen2({ onNext, t }: { onNext: () => void; t: any }) {
 
 function TruthCard({ emoji, title, body }: { emoji: string; title: string; body: string }) {
   return (
-    <div className="rounded-3xl border border-slate-100 bg-slate-50 p-6 group hover:bg-white hover:border-primary/20 transition-all">
+    <div className="rounded-3xl border border-white/60 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-6 group hover:bg-white hover:border-primary/20 transition-all">
       <p className="font-black text-slate-800 text-base mb-2 flex items-center gap-3">
         <span className="text-2xl group-hover:scale-110 transition-transform">{emoji}</span> {title}
       </p>
@@ -104,7 +104,7 @@ function Screen3({ onNext, t }: { onNext: () => void; t: any }) {
   const truths = t("truths", { returnObjects: true }) as any[];
   return (
     <div className="flex flex-1 flex-col gap-8">
-      <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50 min-h-[450px]">
+      <div className="relative overflow-hidden rounded-[3rem] bg-white/70 backdrop-blur-xl border border-white/80 p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] min-h-[450px]">
         <span className="inline-block rounded-full bg-emerald-100 text-emerald-600 px-4 py-1.5 text-[10px] font-black uppercase tracking-widest mb-6">
           {t("screen3_tag")}
         </span>
@@ -123,7 +123,7 @@ function Screen3({ onNext, t }: { onNext: () => void; t: any }) {
       </div>
       <button
         onClick={onNext}
-        className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+        className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
       >
         {t("btn_finish")}
         <ChevronRight size={20} strokeWidth={3} />

@@ -188,7 +188,7 @@ function CompassionBreakInner() {
         <div className="w-full max-w-sm mx-auto mt-6">
           <button
             onClick={() => setShowHistory(true)}
-            className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:shadow-none transition-all flex items-center justify-center gap-3"
+            className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:shadow-none transition-all flex items-center justify-center gap-3"
           >
             <Clock size={20} />
             {t("intro.view_past", "View Past Sessions")}
@@ -232,7 +232,7 @@ function CompassionBreakInner() {
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => setShowHistory(false)}
-                  className="p-3 bg-slate-50 dark:bg-slate-900 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 rounded-2xl border border-slate-100 dark:border-slate-800 transition-colors shadow-sm"
+                  className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 rounded-2xl border border-white/60 dark:border-slate-800 transition-colors shadow-sm"
                 >
                   <ArrowLeft size={16} />
                 </button>
@@ -250,7 +250,7 @@ function CompassionBreakInner() {
                 </div>
               ) : history.length === 0 ? (
                 <div className="py-16 text-center space-y-4">
-                  <div className="w-14 h-14 bg-slate-50 dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto text-slate-300">
+                  <div className="w-14 h-14 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto text-slate-300">
                     <Heart size={28} />
                   </div>
                   <p className="text-slate-405 font-bold text-sm">
@@ -260,7 +260,7 @@ function CompassionBreakInner() {
               ) : (
                 <div className="space-y-4 max-h-[50vh] overflow-y-auto pr-2">
                   {history.map((e, i) => (
-                    <div key={i} className="p-6 rounded-2xl bg-white border border-slate-100 dark:bg-slate-900 dark:border-slate-800 shadow-sm space-y-4">
+                    <div key={i} className="p-6 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 shadow-sm space-y-4">
                       <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-2">
                         <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">
                           {new Date(e.createdAt || e.date).toLocaleDateString()}
@@ -276,7 +276,7 @@ function CompassionBreakInner() {
                       {e.emotions && e.emotions.length > 0 && (
                         <div className="flex flex-wrap gap-1.5 pt-2">
                           {e.emotions.map((emo: string) => (
-                            <span key={emo} className="px-2 py-0.5 rounded-lg bg-slate-50 dark:bg-slate-950 text-[10px] font-bold text-slate-400 border border-slate-100 dark:border-slate-850">
+                            <span key={emo} className="px-2 py-0.5 rounded-lg bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-[10px] font-bold text-slate-400 border border-white/60 dark:border-slate-850">
                               {emo}
                             </span>
                           ))}
@@ -305,7 +305,7 @@ function CompassionBreakInner() {
                     {t("pause_description", "Take a moment to check in with yourself. How heavy or intense do things feel right now?")}
                   </p>
 
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-100 dark:border-slate-800 p-8 shadow-xl w-full mb-8">
+                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl w-full mb-8">
                     <p className="text-xs font-bold text-slate-400 dark:text-slate-500 mb-6 uppercase tracking-widest">
                       {t("intensity_label", "Emotional Intensity Level")}
                     </p>
@@ -328,7 +328,7 @@ function CompassionBreakInner() {
                       </div>
                     </div>
 
-                    <div className="bg-slate-50 dark:bg-slate-950 rounded-2xl p-4 border border-slate-100 dark:border-slate-850">
+                    <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-2xl p-4 border border-white/60 dark:border-slate-850">
                       <p className="text-sm text-slate-700 dark:text-slate-300 font-bold">
                         {beforeIntensity <= 3 ? t("feedback_calm", "Things feel peaceful or stable right now.") :
                          beforeIntensity <= 6 ? t("feedback_noticing", "You're noticing some emotional waves. Perfectly natural.") :
@@ -375,7 +375,7 @@ function CompassionBreakInner() {
                           className={`px-5 py-3 rounded-2xl text-xs font-bold transition-all duration-300 ${
                             isSel
                               ? "bg-primary text-white shadow-lg shadow-primary/10"
-                              : "bg-white text-slate-600 border border-slate-100 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 hover:bg-slate-50 shadow-sm"
+                              : "bg-white text-slate-600 border border-white/60 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 hover:bg-slate-50 shadow-sm"
                           }`}
                           onClick={() => toggleEmotion(e)}
                         >
@@ -385,13 +385,13 @@ function CompassionBreakInner() {
                     })}
                   </div>
 
-                  <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 p-6 shadow-xl mb-8">
+                  <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 p-6 shadow-xl mb-8">
                     <p className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest mb-3">
                       {t("label_custom_emotion", "Or Type Your Emotion")}
                     </p>
                     <input
                       type="text"
-                      className="w-full bg-slate-50 border-none dark:bg-slate-950 dark:text-white rounded-2xl p-4 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner"
+                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-none dark:bg-slate-950 dark:text-white rounded-2xl p-4 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner"
                       placeholder={t("placeholder_emotion", "Feeling...")}
                       maxLength={30}
                       value={customEmotion}
@@ -430,7 +430,7 @@ function CompassionBreakInner() {
 
                   <div className="relative flex items-center justify-center mb-10 w-[240px] h-[240px] mx-auto">
                     <motion.div
-                      className="absolute rounded-full border-2 border-primary/10"
+                      className="absolute rounded-full border border-primary/10"
                       style={{
                         width: 220,
                         height: 220,
@@ -511,12 +511,12 @@ function CompassionBreakInner() {
                     {t("kindness_subtitle", "What kind words do you need to offer yourself? Speak to yourself as you would to a dear friend.")}
                   </p>
 
-                  <div className="w-full bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-100 dark:border-slate-800 p-8 shadow-xl mb-8">
+                  <div className="w-full bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl mb-8">
                     <p className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest mb-4">
                       {t("label_kind_message", "Your Compassionate Message")}
                     </p>
                     <textarea
-                      className="w-full bg-slate-50 border-none dark:bg-slate-950 dark:text-white rounded-2xl p-6 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner resize-none min-h-[160px]"
+                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-none dark:bg-slate-950 dark:text-white rounded-2xl p-6 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner resize-none min-h-[160px]"
                       placeholder={t("placeholder_kind_message", "May I accept myself as I am...")}
                       value={kindSentence}
                       onChange={(e) => setKindSentence(e.target.value)}
@@ -540,7 +540,7 @@ function CompassionBreakInner() {
                     {t("shift_title", "Notice the Shift")}
                   </h1>
 
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-100 dark:border-slate-800 p-8 shadow-xl w-full mb-8">
+                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl w-full mb-8">
                     <p className="text-xs font-bold text-slate-400 dark:text-slate-500 mb-8 uppercase tracking-widest">
                       {t("shift_question", "How intense does the feeling feel now?")}
                     </p>
@@ -562,7 +562,7 @@ function CompassionBreakInner() {
                     </div>
                   </div>
 
-                  <div className="w-full bg-slate-50 dark:bg-slate-950 rounded-2xl p-6 border border-slate-100 dark:border-slate-850 mb-8">
+                  <div className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-2xl p-6 border border-white/60 dark:border-slate-850 mb-8">
                     <p className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-3">
                       {t("label_notice_shift", "Noticing Shifts")}
                     </p>
@@ -590,7 +590,7 @@ function CompassionBreakInner() {
                     {t("save_subtitle", "Review your self-compassion check-in. Choose whether to preserve it in your quiet journal.")}
                   </p>
 
-                  <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-slate-100 dark:border-slate-800 p-8 shadow-xl w-full mb-8 relative overflow-hidden">
+                  <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl w-full mb-8 relative overflow-hidden">
                     <div className="absolute top-0 right-0 p-4 opacity-5 pointer-events-none">
                       <Heart size={80} fill="currentColor" className="text-primary" />
                     </div>
@@ -626,7 +626,7 @@ function CompassionBreakInner() {
                       {t("save_finish_button", "Save & Finish")}
                     </button>
                     <button
-                      className="w-full py-5 rounded-[2rem] bg-slate-50 text-slate-400 border border-slate-150 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-550 font-black text-base hover:bg-slate-100 transition-colors"
+                      className="w-full py-5 rounded-[2rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 border border-slate-150 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-550 font-black text-base hover:bg-slate-100 transition-colors"
                       onClick={() => handleSave(false)}
                     >
                       {t("finish_no_save_button", "Finish Without Saving")}

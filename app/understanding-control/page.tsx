@@ -114,7 +114,7 @@ function UnderstandingControlInner() {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex-1 flex flex-col gap-6"
           >
-            <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50">
+            <div className="relative overflow-hidden rounded-[3rem] bg-white/70 backdrop-blur-xl border border-white/80 p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h1 className="text-2xl font-black text-slate-800 mb-8 leading-tight">{screen.headline}</h1>
 
               {screen.paragraphs && (
@@ -130,7 +130,7 @@ function UnderstandingControlInner() {
                   <p className="text-slate-500 text-sm font-bold italic">{screen.intro}</p>
                   <div className="space-y-4">
                     {screen.bullets && screen.bullets.map((b: any, i: number) => (
-                      <div key={i} className="flex items-center gap-4 p-4 rounded-[1.5rem] bg-slate-50 border border-slate-100">
+                      <div key={i} className="flex items-center gap-4 p-4 rounded-[1.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60">
                         {currentIcons[i] && (
                           <div className={`p-3 rounded-2xl ${currentIcons[i]?.color}`}>
                             {currentIcons[i]?.icon}
@@ -154,7 +154,7 @@ function UnderstandingControlInner() {
               <p className="text-center text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">{screen.microcopy}</p>
               <button
                 onClick={() => setCurrent(prev => prev + 1)}
-                className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
               >
                 {screen.cta || t("complete.button_fallback", "Finish Reading")}
                 <ChevronRight size={20} strokeWidth={3} />

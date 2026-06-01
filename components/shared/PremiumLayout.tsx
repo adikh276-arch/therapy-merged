@@ -60,15 +60,16 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   };
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans overflow-x-hidden selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
-      {/* Decorative background elements */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-primary/5 rounded-full blur-[120px]" />
-        <div className="absolute top-[20%] -right-[5%] w-[30%] h-[30%] bg-secondary/5 rounded-full blur-[100px]" />
+    <div className="min-h-screen bg-[#fafcff] flex flex-col font-sans overflow-x-hidden selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
+      {/* Elegant mesh background elements */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0 bg-gradient-to-br from-[#fafcff] via-white to-[#f0f7ff]">
+        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-primary/10 rounded-full blur-[120px] mix-blend-multiply opacity-70" />
+        <div className="absolute top-[20%] right-[-5%] w-[40%] h-[40%] bg-indigo-300/10 rounded-full blur-[100px] mix-blend-multiply opacity-70" />
+        <div className="absolute bottom-[-10%] left-[20%] w-[50%] h-[50%] bg-sky-200/20 rounded-full blur-[120px] mix-blend-multiply opacity-60" />
       </div>
 
       {/* Header */}
-      <header className="w-full bg-white/70 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100/50">
+      <header className="w-full bg-white/60 backdrop-blur-xl sticky top-0 z-50 border-b border-white/80 shadow-[0_4px_30px_rgb(0,0,0,0.02)]">
         <div className="max-w-[1000px] mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-6">
             {showBack && (

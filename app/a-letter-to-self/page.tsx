@@ -191,15 +191,15 @@ function WritingScreen({
           value={content}
           onChange={(e) => setContent(e.target.value)}
           placeholder={t('write_placeholder', "Dear me,\n\nI know things have been difficult...")}
-          className="w-full min-h-[400px] bg-slate-50 dark:bg-slate-900 border-2 border-transparent focus:bg-white dark:focus:bg-slate-950 focus:border-primary/30 rounded-[3rem] px-10 py-10 text-xl font-bold leading-relaxed outline-none transition-all resize-none shadow-inner placeholder:text-slate-200 dark:placeholder:text-slate-700"
+          className="w-full min-h-[400px] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 border border-transparent focus:bg-white dark:focus:bg-slate-950 focus:border-primary/30 rounded-[3rem] px-10 py-10 text-xl font-bold leading-relaxed outline-none transition-all resize-none shadow-inner placeholder:text-slate-200 dark:placeholder:text-slate-700"
         />
       </motion.div>
 
       {/* Inspiration Prompt Section */}
-      <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 overflow-hidden shadow-sm group hover:border-primary/20 transition-all">
+      <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 overflow-hidden shadow-sm group hover:border-primary/20 transition-all">
         <button
           onClick={() => setInspirationOpen(!inspirationOpen)}
-          className="w-full flex items-center justify-between px-8 py-6 text-left hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors"
+          className="w-full flex items-center justify-between px-8 py-6 text-left hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40/50 transition-colors"
         >
           <div className="flex items-center gap-3 font-black text-slate-700 dark:text-slate-300 uppercase text-xs tracking-widest">
             <Sparkles className="text-primary" size={20} />
@@ -228,7 +228,7 @@ function WritingScreen({
                     whileHover={{ scale: 1.02, x: 8 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handlePromptClick(prompt)}
-                    className="text-left bg-slate-50 dark:bg-slate-950 text-slate-700 dark:text-slate-300 rounded-2xl px-6 py-5 text-base font-bold hover:bg-primary/5 hover:text-primary transition-all border-2 border-transparent hover:border-primary/10 shadow-sm"
+                    className="text-left bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-700 dark:text-slate-300 rounded-2xl px-6 py-5 text-base font-bold hover:bg-primary/5 hover:text-primary transition-all border border-transparent hover:border-primary/10 shadow-sm"
                   >
                     &quot;{prompt}&quot;
                   </motion.button>
@@ -246,7 +246,7 @@ function WritingScreen({
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={onSave}
-            className="flex-1 py-5 rounded-[2rem] bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 text-slate-400 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 dark:shadow-none flex items-center justify-center gap-3 hover:text-slate-900 dark:hover:text-white hover:border-slate-200 transition-all"
+            className="flex-1 py-5 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-400 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 dark:shadow-none flex items-center justify-center gap-3 hover:text-slate-900 dark:hover:text-white hover:border-slate-200 transition-all"
           >
             <Save size={20} />{t('common.save', 'Save')}
           </motion.button>
@@ -303,10 +303,10 @@ function EmotionalCheckIn({ onComplete, onBack }: EmotionalCheckInProps) {
               whileHover={{ scale: 1.02, x: 8 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => setSelected(emotion)}
-              className={`w-full flex items-center justify-between px-10 py-8 rounded-[2.5rem] border-2 transition-all duration-300 text-left group ${
+              className={`w-full flex items-center justify-between px-10 py-8 rounded-[2.5rem] border transition-all duration-300 text-left group ${
                 isSelected 
                   ? "bg-primary border-primary text-white shadow-xl shadow-primary/20" 
-                  : "bg-slate-50 dark:bg-slate-900 border-transparent text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-950 hover:border-primary/10 shadow-sm"
+                  : "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 border-transparent text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-950 hover:border-primary/10 shadow-sm"
               }`}
             >
               <span className="text-lg font-black">{emotion}</span>
@@ -381,7 +381,7 @@ function PastLetters({ entries, onSelect, onDelete, onWriteNew, loading }: PastL
       </header>
 
       {(!entries || entries.length === 0) ? (
-        <div className="text-center py-24 bg-slate-50 dark:bg-slate-900 rounded-[3rem] border-2 border-dashed border-slate-200 dark:border-slate-800 space-y-8 group hover:border-primary/20 transition-all">
+        <div className="text-center py-24 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-[3rem] border border-dashed border-slate-200 dark:border-slate-800 space-y-8 group hover:border-primary/20 transition-all">
           <div className="w-24 h-24 bg-white dark:bg-slate-950 rounded-[2.5rem] flex items-center justify-center mx-auto text-slate-100 dark:text-slate-800 shadow-sm group-hover:scale-110 transition-transform">
             <Mail size={48} strokeWidth={1} />
           </div>
@@ -409,7 +409,7 @@ function PastLetters({ entries, onSelect, onDelete, onWriteNew, loading }: PastL
               whileHover={{ scale: 1.01, y: -4 }}
               whileTap={{ scale: 0.99 }}
               onClick={() => onSelect(entry)}
-              className="w-full text-left bg-white dark:bg-slate-900 rounded-[2.5rem] border-2 border-slate-100 dark:border-slate-800 p-10 shadow-sm hover:shadow-xl hover:shadow-primary/5 hover:border-primary/20 transition-all group flex flex-col gap-6"
+              className="w-full text-left bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-10 shadow-sm hover:shadow-xl hover:shadow-primary/5 hover:border-primary/20 transition-all group flex flex-col gap-6"
             >
               <div className="flex items-center justify-between w-full">
                 <div className="flex items-center gap-3 text-[10px] font-black text-slate-300 uppercase tracking-widest group-hover:text-primary transition-colors">
@@ -450,7 +450,7 @@ function PastLetters({ entries, onSelect, onDelete, onWriteNew, loading }: PastL
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
-                className="bg-white dark:bg-slate-900 rounded-[3rem] border-4 border-slate-100 dark:border-slate-800 p-12 max-w-md w-full shadow-2xl pointer-events-auto"
+                className="bg-white dark:bg-slate-900 rounded-[3rem] border-4 border-white/60 dark:border-slate-800 p-12 max-w-md w-full shadow-2xl pointer-events-auto"
               >
                 <div className="space-y-4">
                   <h3 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
@@ -463,7 +463,7 @@ function PastLetters({ entries, onSelect, onDelete, onWriteNew, loading }: PastL
                 <div className="mt-10 flex gap-4">
                   <button
                     onClick={() => setDeleteId(null)}
-                    className="flex-1 rounded-2xl py-4 border-2 border-slate-100 dark:border-slate-800 font-black text-sm uppercase tracking-widest hover:bg-slate-50 dark:hover:bg-slate-800 transition-all text-slate-500"
+                    className="flex-1 rounded-2xl py-4 border border-white/60 dark:border-slate-800 font-black text-sm uppercase tracking-widest hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all text-slate-500"
                   >
                     {t('cancel', 'Cancel')}
                   </button>
@@ -501,7 +501,7 @@ function LetterDetail({ entry, onBack, onDeleteRequest }: LetterDetailProps) {
       <motion.div
         initial={{ opacity: 0, scale: 0.98 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="bg-white dark:bg-slate-900 rounded-[3rem] border-2 border-slate-100 dark:border-slate-800 p-12 shadow-xl shadow-slate-200/40 dark:shadow-none space-y-10 text-left relative overflow-hidden"
+        className="bg-white dark:bg-slate-900 rounded-[3rem] border border-white/60 dark:border-slate-800 p-12 shadow-xl shadow-slate-200/40 dark:shadow-none space-y-10 text-left relative overflow-hidden"
       >
         <div className="absolute top-0 right-0 p-10 text-slate-100 dark:text-slate-800 pointer-events-none opacity-40">
           <Mail size={120} strokeWidth={1} />
@@ -519,7 +519,7 @@ function LetterDetail({ entry, onBack, onDeleteRequest }: LetterDetailProps) {
             whileHover={{ scale: 1.1, color: '#EF4444' }}
             whileTap={{ scale: 0.9 }}
             onClick={() => onDeleteRequest(entry.id)}
-            className="w-12 h-12 rounded-2xl bg-slate-50 dark:bg-slate-800 text-slate-300 dark:text-slate-500 flex items-center justify-center hover:bg-rose-50 dark:hover:bg-rose-950 hover:text-rose-500 dark:hover:text-rose-400 transition-all border-2 border-transparent hover:border-rose-100 dark:hover:border-rose-900"
+            className="w-12 h-12 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-800 text-slate-300 dark:text-slate-500 flex items-center justify-center hover:bg-rose-50 dark:hover:bg-rose-950 hover:text-rose-500 dark:hover:text-rose-400 transition-all border border-transparent hover:border-rose-100 dark:hover:border-rose-900"
           >
             <Trash2 size={20} />
           </motion.button>
@@ -779,7 +779,7 @@ function ALetterToSelfInner() {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={handleViewHistory}
-                    className="w-full py-5 rounded-[2rem] bg-white border-2 border-slate-100 text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
+                    className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
                   >
                     <History size={20} />{t('view_past_letters', 'View Past Letters')}
                   </motion.button>
@@ -840,7 +840,7 @@ function ALetterToSelfInner() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
-                className="bg-white dark:bg-slate-900 rounded-[3rem] border-4 border-slate-100 dark:border-slate-800 p-12 max-w-md w-full shadow-2xl pointer-events-auto"
+                className="bg-white dark:bg-slate-900 rounded-[3rem] border-4 border-white/60 dark:border-slate-800 p-12 max-w-md w-full shadow-2xl pointer-events-auto"
               >
                 <div className="space-y-4">
                   <h3 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
@@ -853,7 +853,7 @@ function ALetterToSelfInner() {
                 <div className="mt-10 flex gap-4">
                   <button
                     onClick={() => setDeletePendingId(null)}
-                    className="flex-1 rounded-2xl py-4 border-2 border-slate-100 dark:border-slate-800 font-black text-sm uppercase tracking-widest hover:bg-slate-50 dark:hover:bg-slate-800 transition-all text-slate-500"
+                    className="flex-1 rounded-2xl py-4 border border-white/60 dark:border-slate-800 font-black text-sm uppercase tracking-widest hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all text-slate-500"
                   >
                     {t('cancel', 'Cancel')}
                   </button>

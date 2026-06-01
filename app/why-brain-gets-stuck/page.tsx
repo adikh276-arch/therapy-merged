@@ -14,7 +14,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
   const { t } = useTranslation(undefined, { i18n });
   return (
     <div className="flex flex-1 flex-col gap-6">
-      <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50 min-h-[400px] flex flex-col justify-center text-center">
+      <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl shadow-slate-200/50 min-h-[400px] flex flex-col justify-center text-center">
         <div className="text-6xl mb-6 animate-bounce-slow">🧠</div>
         <h1 className="text-2xl font-black text-slate-800 mb-4 leading-tight">
           {t("s1.title", "Your brain didn't break. It adapted.")}
@@ -64,7 +64,7 @@ const Screen2 = () => {
 
   return (
     <div className="flex flex-1 flex-col gap-6">
-      <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-slate-100 p-8 shadow-xl shadow-slate-200/50 min-h-[400px]">
+      <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl shadow-slate-200/50 min-h-[400px]">
         <span className="inline-block rounded-full bg-slate-100 text-slate-600 px-3 py-1 text-[10px] font-black uppercase tracking-widest mb-4">
           {t("s2.tag", "gentle truths")}
         </span>
@@ -78,7 +78,7 @@ const Screen2 = () => {
             >
               <button
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                className={`w-full text-left p-5 rounded-2xl border transition-all duration-300 ${openIndex === i ? "bg-slate-50 border-slate-200" : "bg-white border-slate-100 shadow-sm"}`}
+                className={`w-full text-left p-5 rounded-2xl border transition-all duration-300 ${openIndex === i ? "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-slate-200" : "bg-white border-white/60 shadow-sm"}`}
               >
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg bg-slate-100 group-hover:scale-110 transition-transform">

@@ -61,7 +61,7 @@ function ScreenEntry({ onContinue, onHistory }: ScreenEntryProps) {
       <div className="w-full space-y-4">
         <button
           onClick={onContinue}
-          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("entry.button_ready")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -123,7 +123,7 @@ function ScreenWriting({ writing, setWriting, onContinue }: ScreenWritingProps) 
               className={`text-sm font-black rounded-2xl px-5 py-3 transition-all duration-300 border ${
                 activePrompt === p.text
                   ? "bg-primary text-white border-primary shadow-xl shadow-primary/20 scale-[1.03]"
-                  : "bg-white border-slate-100 text-slate-600 hover:border-primary/30 hover:bg-slate-50 shadow-sm"
+                  : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"
               }`}
             >
               {p.emoji} {p.text}
@@ -133,7 +133,7 @@ function ScreenWriting({ writing, setWriting, onContinue }: ScreenWritingProps) 
       </div>
 
       {/* Notebook effect */}
-      <div className="relative rounded-[3rem] overflow-hidden shadow-2xl shadow-slate-200/50 border border-slate-100 bg-white group transition-all duration-500 hover:shadow-primary/5">
+      <div className="relative rounded-[3rem] overflow-hidden shadow-2xl shadow-slate-200/50 border border-white/60 bg-white group transition-all duration-500 hover:shadow-primary/5">
         {/* Notebook spine */}
         <div className="absolute left-0 top-0 bottom-0 w-2 bg-slate-100 group-hover:bg-primary/20 transition-colors z-10" />
         {/* Red margin line */}
@@ -165,7 +165,7 @@ function ScreenWriting({ writing, setWriting, onContinue }: ScreenWritingProps) 
 
         <button
           onClick={onContinue}
-          className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("writing.button")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -196,7 +196,7 @@ function ScreenLanding({ reflection, setReflection }: ScreenLandingProps) {
         <p className="text-slate-500 font-medium text-base italic">{t("landing.subtitle")}</p>
       </div>
 
-      <div className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-2xl shadow-slate-200/50 space-y-6">
+      <div className="bg-white/70 backdrop-blur-xl border border-white/80 rounded-[2.5rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] space-y-6">
         <div className="flex items-center gap-4 text-slate-800 font-black text-lg">
           <span className="text-emerald-500 text-xl font-bold">✓</span>
           {t("landing.settle_title")}
@@ -204,7 +204,7 @@ function ScreenLanding({ reflection, setReflection }: ScreenLandingProps) {
         
         <div className="space-y-4">
           {steps && Array.isArray(steps) && steps.map((step, idx) => (
-            <div key={idx} className="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+            <div key={idx} className="flex items-start gap-4 p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60">
               <div className="w-8 h-8 rounded-xl bg-white flex items-center justify-center font-black text-slate-400 text-xs shadow-sm">{idx + 1}</div>
               <p className="text-slate-600 text-sm font-medium leading-relaxed pt-1">
                 {step}
@@ -223,7 +223,7 @@ function ScreenLanding({ reflection, setReflection }: ScreenLandingProps) {
           value={reflection}
           onChange={(e) => setReflection(e.target.value)}
           placeholder={t("landing.feeling_placeholder")}
-          className="w-full bg-white border border-slate-100 rounded-3xl px-8 py-5 text-slate-800 text-lg font-black placeholder:text-slate-350 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-xl shadow-slate-200/50 text-center"
+          className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl px-8 py-5 text-slate-800 text-lg font-black placeholder:text-slate-350 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-xl shadow-slate-200/50 text-center"
         />
       </div>
 
@@ -253,8 +253,8 @@ function ScreenPastEntries({ entries, onBack }: ScreenPastEntriesProps) {
 
       <div className="flex-1 overflow-y-auto pr-2 space-y-6">
         {entries.length === 0 ? (
-          <div className="bg-white border border-slate-100 rounded-[2.5rem] p-12 text-center shadow-xl shadow-slate-200/50">
-            <div className="w-16 h-16 bg-slate-50 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">
+          <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-12 text-center shadow-xl shadow-slate-200/50">
+            <div className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">
               ⏳
             </div>
             <p className="text-slate-500 font-medium text-base leading-relaxed">
@@ -266,10 +266,10 @@ function ScreenPastEntries({ entries, onBack }: ScreenPastEntriesProps) {
             {entries.map((entry, i) => (
               <div
                 key={entry.id || i}
-                className="bg-white border border-slate-100 rounded-[2.5rem] p-8 shadow-2xl shadow-slate-200/50 space-y-4 hover:shadow-primary/5 transition-all duration-300"
+                className="bg-white/70 backdrop-blur-xl border border-white/80 rounded-[2.5rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] space-y-4 hover:shadow-primary/5 transition-all duration-300"
               >
                 <div className="flex items-center justify-between">
-                  <span className="px-4 py-1.5 rounded-full bg-slate-50 text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
+                  <span className="px-4 py-1.5 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
                     {entry.date}
                   </span>
                   {entry.reflection && (
@@ -440,7 +440,7 @@ function WritingNarrativeInner() {
                 <button
                   onClick={saveEntry}
                   disabled={isSaving || !writing}
-                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:cursor-not-allowed"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:cursor-not-allowed"
                 >
                   <Save size={20} strokeWidth={3} />
                   {isSaving ? t("landing.button_preserving") : t("landing.button_save")}

@@ -105,7 +105,7 @@ function GroundingInner() {
           icon={<Compass size={48} />}
         >
           {reflectionWord && (
-            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center mt-6">
+            <div className="bg-white p-6 rounded-2xl border border-white/60 shadow-sm text-center mt-6">
                <p className="text-slate-500 text-sm mb-1">{t("common.you_feel", "You feel")}</p>
                <p className="text-2xl font-bold text-primary italic">"{reflectionWord}"</p>
             </div>

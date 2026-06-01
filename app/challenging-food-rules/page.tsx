@@ -120,7 +120,7 @@ function ChallengingFoodRulesInner() {
           >
             {screen === "intro" && (
               <div className="flex-1 flex flex-col gap-10 text-center justify-center">
-                <div className="relative overflow-hidden rounded-[3rem] bg-white border border-slate-100 p-10 shadow-2xl shadow-slate-200/50">
+                <div className="relative overflow-hidden rounded-[3rem] bg-white/70 backdrop-blur-xl border border-white/80 p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
                   <div className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center mx-auto mb-8 text-4xl">
                     🌿
                   </div>
@@ -133,7 +133,7 @@ function ChallengingFoodRulesInner() {
                 </div>
                 <button
                   onClick={goNext}
-                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                 >
                   {t("begin_button")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -152,21 +152,21 @@ function ChallengingFoodRulesInner() {
                     <button
                       key={opt}
                       onClick={() => setRule(opt)}
-                      className={`w-full text-left p-6 rounded-2xl border-2 transition-all ${rule === opt ? "bg-primary/5 border-primary text-primary" : "bg-white border-slate-100 text-slate-600 hover:border-slate-200"}`}
+                      className={`w-full text-left p-6 rounded-2xl border transition-all ${rule === opt ? "bg-primary/10 border-primary/30 text-primary shadow-lg shadow-primary/5 backdrop-blur-md" : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"}`}
                     >
                       <span className="font-bold text-base">{opt}</span>
                     </button>
                   ))}
                   <button
                     onClick={() => setRule("__custom")}
-                    className={`w-full text-left p-6 rounded-2xl border-2 transition-all ${rule === "__custom" ? "bg-primary/5 border-primary text-primary" : "bg-white border-slate-100 text-slate-600 hover:border-slate-200"}`}
+                    className={`w-full text-left p-6 rounded-2xl border transition-all ${rule === "__custom" ? "bg-primary/10 border-primary/30 text-primary shadow-lg shadow-primary/5 backdrop-blur-md" : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"}`}
                   >
                     <span className="font-bold text-base">{t("rule_something_else")}</span>
                   </button>
                 </div>
                 {rule === "__custom" && (
                   <textarea
-                    className="w-full bg-white border-2 border-slate-100 rounded-2xl p-6 text-base font-bold min-h-[120px] focus:border-primary/30 outline-none transition-all resize-none"
+                    className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-6 text-base font-bold min-h-[120px] focus:border-primary/30 outline-none transition-all resize-none"
                     placeholder={t("rule_placeholder")}
                     value={customRule}
                     onChange={(e) => setCustomRule(e.target.value)}
@@ -175,7 +175,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={goNext}
                   disabled={!selectedRule}
-                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   {t("continue_button")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -194,7 +194,7 @@ function ChallengingFoodRulesInner() {
                     <button
                       key={opt}
                       onClick={() => setFeeling(opt)}
-                      className={`p-6 rounded-3xl border-2 text-center transition-all ${feeling === opt ? "bg-primary/5 border-primary text-primary shadow-lg shadow-primary/5" : "bg-white border-slate-100 text-slate-600 hover:border-slate-200"}`}
+                      className={`p-6 rounded-3xl border text-center transition-all ${feeling === opt ? "bg-primary/10 border-primary/30 text-primary shadow-lg shadow-primary/5 backdrop-blur-md shadow-lg shadow-primary/5" : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"}`}
                     >
                       <span className="font-bold text-sm">{opt}</span>
                     </button>
@@ -203,7 +203,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={goNext}
                   disabled={!selectedFeeling}
-                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   {t("next_button", "Next")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -222,7 +222,7 @@ function ChallengingFoodRulesInner() {
                     <div key={opt} className="space-y-3">
                       <button
                         onClick={() => setChallengeChoice(opt)}
-                        className={`w-full text-left p-6 rounded-2xl border-2 transition-all ${challengeChoice === opt ? "bg-slate-850 text-white border-slate-850 shadow-xl" : "bg-white border-slate-100 text-slate-600 hover:border-slate-200"}`}
+                        className={`w-full text-left p-6 rounded-2xl border transition-all ${challengeChoice === opt ? "bg-slate-850 text-white border-slate-850 shadow-xl" : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"}`}
                       >
                         <span className="font-bold text-base">{opt}</span>
                       </button>
@@ -246,7 +246,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={goNext}
                   disabled={!challengeChoice}
-                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   {t("continue_button")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -256,7 +256,7 @@ function ChallengingFoodRulesInner() {
 
             {screen === "takeaway" && (
               <div className="flex-1 flex flex-col gap-10 text-center justify-center">
-                <div className="bg-white border border-slate-100 rounded-[3rem] p-10 shadow-2xl shadow-slate-200/50 space-y-8 text-left relative overflow-hidden">
+                <div className="bg-white/70 backdrop-blur-xl border border-white/80 rounded-[3rem] p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] space-y-8 text-left relative overflow-hidden">
                    <div className="absolute top-0 right-0 p-8 text-primary/10">
                     <Sparkles size={64} />
                   </div>
@@ -280,7 +280,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={saveRule}
                   disabled={isSaving}
-                  className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
                   {isSaving ? t("preserving", "Preserving...") : t("preserve_button", "Preserve Insight")}
