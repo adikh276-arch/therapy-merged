@@ -427,9 +427,10 @@ export function SelfCareHub({ topicId }: { topicId?: string }) {
   const router = useRouter();
   const selectedTopic = topicId || null;
 
-  const prefetchTool = (id: string) => {
+  const prefetchTool = (path: string) => {
+    if (!path || path.startsWith('http')) return;
     // Next.js prefetching is automatic via <Link> or router.prefetch
-    router.prefetch(`/${id}`);
+    router.prefetch(path);
   };
 
   useEffect(() => {
@@ -523,8 +524,7 @@ export function SelfCareHub({ topicId }: { topicId?: string }) {
                               ex.url?.startsWith('http') ? window.location.href = ex.url : router.push(ex.url!)
                             }}
                             onMouseEnter={() => {
-                              const slug = ex.url?.split('/').pop();
-                              if (slug) prefetchTool(slug);
+                              if (ex.url) prefetchTool(ex.url);
                             }}
                             className="p-4 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition-all text-left space-y-3"
                           >
@@ -658,7 +658,9 @@ export function SelfCareHub({ topicId }: { topicId?: string }) {
                             router.push(tool.url!);
                           }
                         }}
-                        onMouseEnter={() => prefetchTool(tool.id)}
+                        onMouseEnter={() => {
+                          if (tool.url) prefetchTool(tool.url);
+                        }}
                         className="p-5 rounded-2xl text-white flex flex-col justify-between h-28 shadow-sm relative overflow-hidden group"
                         style={{ background: tool.bgColor }}
                       >
