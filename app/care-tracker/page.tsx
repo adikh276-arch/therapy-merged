@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // --- Constants & Types ---
 
@@ -261,7 +262,7 @@ function CareTrackerInner() {
   const handleStatementContinue = async () => {
     setIsSaving(true);
     try {
-      await fetch('/api/care-tracker', {
+      await fetch(apiPath('/api/care-tracker'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(entry),
@@ -277,7 +278,7 @@ function CareTrackerInner() {
   const loadHistory = async () => {
     setHistoryLoading(true);
     try {
-      const res = await fetch('/api/care-tracker');
+      const res = await fetch(apiPath('/api/care-tracker'));
       if (res.ok) {
         const data = await res.json();
         // filter last 7 entries

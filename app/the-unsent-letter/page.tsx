@@ -7,6 +7,7 @@ import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
+import { apiPath } from '@/lib/apiPath';
 
 export interface Letter {
   id: string;
@@ -44,7 +45,7 @@ function TheUnsentLetterInner() {
   const fetchLetters = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("/api/the-unsent-letter");
+      const res = await fetch(apiPath("/api/the-unsent-letter"));
       if (res.ok) {
         const rows = await res.json();
         const formatted = rows.map((r: any) => ({
@@ -74,7 +75,7 @@ function TheUnsentLetterInner() {
     };
 
     try {
-      const res = await fetch("/api/the-unsent-letter", {
+      const res = await fetch(apiPath("/api/the-unsent-letter"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -205,7 +206,7 @@ function TheUnsentLetterInner() {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => setScreen("writing")}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg"
+                  className="w-full bg-slate-900 text-white shadow-md py-4.5 rounded-2xl font-bold shadow-lg"
                 >
                   {t("intro.button", "Start Writing")}
                 </motion.button>
@@ -292,7 +293,7 @@ function TheUnsentLetterInner() {
                   whileTap={{ scale: letterContent.trim() ? 0.98 : 1 }}
                   onClick={() => setScreen("reflection")}
                   disabled={!letterContent.trim()}
-                  className="w-full py-4.5 bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold rounded-2xl disabled:opacity-30 flex items-center justify-center gap-2"
+                  className="w-full py-4.5 bg-slate-900 text-white shadow-md font-bold rounded-2xl disabled:opacity-30 flex items-center justify-center gap-2"
                 >
                   {t("writing.button", "Continue to Reflection")}
                   <ChevronRight size={18} />

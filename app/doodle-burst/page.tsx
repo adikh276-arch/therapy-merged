@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // --- Types & Constants ---
 
@@ -369,7 +370,7 @@ function DoodleBurstInner() {
         setFinalDoodleUrl(dataUrl);
         // Save to DB
         const entryId = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15);
-        fetch('/api/doodle-burst', {
+        fetch(apiPath('/api/doodle-burst'), {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ id: entryId, imageUrl: dataUrl }),
@@ -398,7 +399,7 @@ function DoodleBurstInner() {
   const fetchDoodles = useCallback(async () => {
     setHistoryLoading(true);
     try {
-      const res = await fetch('/api/doodle-burst');
+      const res = await fetch(apiPath('/api/doodle-burst'));
       if (res.ok) {
         const data = await res.json();
         const formatted = data.map((row: any) => ({

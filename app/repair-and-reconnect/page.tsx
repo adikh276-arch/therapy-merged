@@ -7,6 +7,7 @@ import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { apiPath } from '@/lib/apiPath';
 
 type Approach = { id: string; label: string; emoji: string };
 
@@ -48,7 +49,7 @@ function RepairReconnectInner() {
     const repairData = { person, approach, message: editedMsg, completedAt: new Date().toISOString() };
 
     try {
-      const res = await fetch("/api/repair-and-reconnect", {
+      const res = await fetch(apiPath("/api/repair-and-reconnect"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, repairData }),
@@ -177,7 +178,7 @@ function RepairReconnectInner() {
 
               <button 
                 onClick={next} 
-                className="w-full py-4.5 bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold rounded-2xl shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
+                className="w-full py-4.5 bg-slate-900 text-white shadow-md font-bold rounded-2xl shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
               >
                 {t("intro.button", "Start Reflection")} <ChevronRight size={18} />
               </button>
@@ -224,7 +225,7 @@ function RepairReconnectInner() {
               <button
                 onClick={next}
                 disabled={!person}
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold disabled:opacity-30 disabled:pointer-events-none mt-4"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold disabled:opacity-30 disabled:pointer-events-none mt-4"
               >
                 {t("choose_person.button", "Continue")}
               </button>
@@ -272,7 +273,7 @@ function RepairReconnectInner() {
               <button
                 onClick={next}
                 disabled={!approach}
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold disabled:opacity-30"
               >
                 {t("choose_approach.button", "Try This")}
               </button>
@@ -373,7 +374,7 @@ function RepairReconnectInner() {
                   <button
                     onClick={done}
                     disabled={isSaving}
-                    className="flex-1 bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-3.5 rounded-2xl font-bold text-sm hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
+                    className="flex-1 bg-slate-900 text-white shadow-md py-3.5 rounded-2xl font-bold text-sm hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
                   >
                     <Save size={16} />
                     {isSaving ? t("toasts.preserving", "Saving...") : t("toasts.complete_button", "Complete & Save")}

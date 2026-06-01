@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // --- Types ---
 
@@ -584,7 +585,7 @@ function ALetterToSelfInner() {
   const fetchLetters = async () => {
     setLoading(true);
     try {
-      const res = await fetch('/api/letters');
+      const res = await fetch(apiPath('/api/letters'));
       if (res.ok) {
         const data = await res.json();
         setEntries(data);
@@ -601,7 +602,7 @@ function ALetterToSelfInner() {
     currentEntryRef.current.content = text;
     currentEntryRef.current.updatedAt = new Date().toISOString();
     try {
-      const res = await fetch('/api/letters', {
+      const res = await fetch(apiPath('/api/letters'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(currentEntryRef.current),
@@ -635,7 +636,7 @@ function ALetterToSelfInner() {
     currentEntryRef.current.emotionalState = emotion;
     currentEntryRef.current.updatedAt = new Date().toISOString();
     try {
-      await fetch('/api/letters', {
+      await fetch(apiPath('/api/letters'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(currentEntryRef.current),

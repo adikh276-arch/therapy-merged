@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // --- Types ---
 
@@ -831,7 +832,7 @@ function BrainDumpAppInner() {
   const fetchSessions = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch('/api/brain-dump');
+      const res = await fetch(apiPath('/api/brain-dump'));
       if (res.ok) {
         const data = await res.json();
         setSavedSessions(data);
@@ -882,7 +883,7 @@ function BrainDumpAppInner() {
     };
 
     try {
-      const res = await fetch('/api/brain-dump', {
+      const res = await fetch(apiPath('/api/brain-dump'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newSession),

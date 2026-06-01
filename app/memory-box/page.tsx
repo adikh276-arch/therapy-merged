@@ -7,6 +7,7 @@ import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { apiPath } from '@/lib/apiPath';
 
 export interface Memory {
   id: string;
@@ -134,7 +135,7 @@ function MemoryBoxInner() {
   const fetchMemories = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("/api/memory-box");
+      const res = await fetch(apiPath("/api/memory-box"));
       if (res.ok) {
         const rows = await res.json();
         const formatted = rows.map((r: any) => {
@@ -174,7 +175,7 @@ function MemoryBoxInner() {
     };
 
     try {
-      const res = await fetch("/api/memory-box", {
+      const res = await fetch(apiPath("/api/memory-box"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newMemory),
@@ -362,7 +363,7 @@ function MemoryBoxInner() {
                   whileTap={{ scale: name.trim() && category ? 0.98 : 1 }}
                   onClick={() => setScreen(2)}
                   disabled={!name.trim() || !category}
-                  className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold shadow-lg disabled:opacity-40 disabled:scale-100"
+                  className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold shadow-lg disabled:opacity-40 disabled:scale-100"
                 >
                   {t("who.continue", "Continue")}
                 </motion.button>

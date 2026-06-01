@@ -7,6 +7,7 @@ import { Heart, Save, Sparkles, Clock, Check, HelpCircle, Loader2, ArrowLeft, Hi
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 const TOTAL_CYCLES = 3;
 
@@ -44,7 +45,7 @@ function CompassionBreakInner() {
   const fetchHistory = useCallback(async () => {
     setLoadingHistory(true);
     try {
-      const res = await fetch('/api/compassion-break');
+      const res = await fetch(apiPath('/api/compassion-break'));
       if (res.ok) {
         const data = await res.json();
         setHistory(data);
@@ -78,7 +79,7 @@ function CompassionBreakInner() {
     };
 
     try {
-      const res = await fetch('/api/compassion-break', {
+      const res = await fetch(apiPath('/api/compassion-break'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(breakData)

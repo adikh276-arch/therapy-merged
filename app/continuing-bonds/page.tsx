@@ -7,6 +7,7 @@ import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
+import { apiPath } from '@/lib/apiPath';
 
 type Screen = "welcome" | "choose" | "bond" | "review" | "closing" | "complete" | "history";
 const OPTION_EMOJIS = ["🕊️", "🤲", "🌿", "💌", "✨"];
@@ -61,7 +62,7 @@ function ContinuingBondsInner() {
   const fetchReflections = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("/api/continuing-bonds");
+      const res = await fetch(apiPath("/api/continuing-bonds"));
       if (res.ok) {
         const rows = await res.json();
         const formatted = rows.map((r: any) => {
@@ -99,7 +100,7 @@ function ContinuingBondsInner() {
     };
 
     try {
-      const res = await fetch("/api/continuing-bonds", {
+      const res = await fetch(apiPath("/api/continuing-bonds"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, bondData }),
@@ -254,7 +255,7 @@ function ContinuingBondsInner() {
                   <button
                     onClick={() => setScreen("bond")}
                     disabled={!primaryText.trim()}
-                    className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold disabled:opacity-30"
+                    className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold disabled:opacity-30"
                   >
                     {t("continue_button", "Continue")}
                   </button>
@@ -327,7 +328,7 @@ function ContinuingBondsInner() {
               <div className="space-y-2">
                 <button
                   onClick={() => setScreen("closing")}
-                  className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold shadow-lg"
+                  className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold shadow-lg"
                 >
                   {t("finish_button", "Finish for now")}
                 </button>
@@ -358,7 +359,7 @@ function ContinuingBondsInner() {
               </div>
               <button
                 onClick={() => setScreen("complete")}
-                className="w-full max-w-xs py-4.5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold shadow-lg mt-4"
+                className="w-full max-w-xs py-4.5 rounded-2xl bg-slate-900 text-white shadow-md font-bold shadow-lg mt-4"
               >
                 {t("save_exit_button", "Save & Exit")}
               </button>

@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, Send, CheckCircle2, History, Plus, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import '@/lib/i18n/i18n';
+import { apiPath } from '@/lib/apiPath';
 
 interface GuidedActivityClientProps {
   concern: string;
@@ -43,7 +44,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
 
   const fetchHistory = useCallback(async () => {
     try {
-      const res = await fetch(`/api/guided-series/history?concern=${encodeURIComponent(concern)}&activity=${encodeURIComponent(activityName)}`);
+      const res = await fetch(apiPath(`/api/guided-series/history?concern=${encodeURIComponent(concern)}&activity=${encodeURIComponent(activityName)}`));
       if (res.ok) {
         const rows = await res.json();
         setHistory(rows);
@@ -57,7 +58,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
     const finalData = uiType === 'DEFAULT' ? { reflection } : formData;
     setIsSaving(true);
     try {
-      const res = await fetch('/api/guided-series/save', {
+      const res = await fetch(apiPath('/api/guided-series/save'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ concern, activityName, entryData: finalData }),
@@ -268,7 +269,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
             disabled={isSaving}
             className={`w-full mt-10 py-6 rounded-[24px] flex items-center justify-center gap-3 text-lg font-black transition-all active:scale-[0.98] ${
               !isSaving
-                ? 'bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 hover:bg-black shadow-2xl shadow-slate-200'
+                ? 'bg-slate-900 text-white shadow-md hover:bg-black shadow-2xl shadow-slate-200'
                 : 'bg-slate-100 text-slate-300 cursor-not-allowed shadow-none'
             }`}
           >

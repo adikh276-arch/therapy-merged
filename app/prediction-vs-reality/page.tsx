@@ -8,6 +8,7 @@ import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumIntro } from "@/components/shared/PremiumIntro";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { apiPath } from '@/lib/apiPath';
 
 interface Entry {
   id: string;
@@ -50,7 +51,7 @@ function PredictionVsRealityInner() {
   const fetchEntries = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("/api/prediction-vs-reality");
+      const res = await fetch(apiPath("/api/prediction-vs-reality"));
       if (res.ok) {
         const rows = await res.json();
         const formatted = rows.map((r: any) => JSON.parse(r.entry_data) as Entry);
@@ -81,7 +82,7 @@ function PredictionVsRealityInner() {
     };
 
     try {
-      const res = await fetch("/api/prediction-vs-reality", {
+      const res = await fetch(apiPath("/api/prediction-vs-reality"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(entry),
@@ -302,7 +303,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={() => setScreen(2)} 
                 disabled={!situation.trim()} 
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
               >
                 {t("buttons.continue", "Continue")} <ChevronRight size={18} />
               </button>
@@ -328,7 +329,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={() => setScreen(3)} 
                 disabled={!prediction.trim()} 
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
               >
                 {t("buttons.continue", "Continue")} <ChevronRight size={18} />
               </button>
@@ -383,7 +384,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={() => setScreen(4)} 
                 disabled={emotions.length === 0} 
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
               >
                 {t("buttons.continue", "Continue")} <ChevronRight size={18} />
               </button>
@@ -409,7 +410,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={() => setScreen(5)} 
                 disabled={!reality.trim()} 
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
               >
                 {t("buttons.continue", "Continue")} <ChevronRight size={18} />
               </button>
@@ -453,7 +454,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={() => setScreen(6)} 
                 disabled={!comparison} 
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
               >
                 {t("buttons.continue", "Continue")} <ChevronRight size={18} />
               </button>
@@ -479,7 +480,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={() => setScreen(7)} 
                 disabled={!reflection.trim()} 
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
               >
                 {t("buttons.continue", "Continue")} <ChevronRight size={18} />
               </button>
@@ -505,7 +506,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={() => setScreen(8)} 
                 disabled={!reframe.trim()} 
-                className="w-full py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
+                className="w-full py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 disabled:opacity-30"
               >
                 {t("buttons.continue", "Continue")} <ChevronRight size={18} />
               </button>
@@ -524,7 +525,7 @@ function PredictionVsRealityInner() {
               <button 
                 onClick={handleSave} 
                 disabled={isSaving}
-                className="w-full py-4.5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 shadow-lg shadow-slate-900/10"
+                className="w-full py-4.5 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 shadow-lg shadow-slate-900/10"
               >
                 {isSaving ? "Saving..." : t("screens.s8.button", "Save & Complete")} <Save size={18} />
               </button>

@@ -133,7 +133,7 @@ function ChallengingFoodRulesInner() {
                 </div>
                 <button
                   onClick={goNext}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                 >
                   {t("begin_button")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -175,7 +175,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={goNext}
                   disabled={!selectedRule}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   {t("continue_button")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -203,7 +203,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={goNext}
                   disabled={!selectedFeeling}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   {t("next_button", "Next")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -246,7 +246,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={goNext}
                   disabled={!challengeChoice}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all disabled:opacity-20 flex items-center justify-center gap-3"
                 >
                   {t("continue_button")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -280,7 +280,7 @@ function ChallengingFoodRulesInner() {
                 <button
                   onClick={saveRule}
                   disabled={isSaving}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                 >
                   <Save size={20} strokeWidth={3} />
                   {isSaving ? t("preserving", "Preserving...") : t("preserve_button", "Preserve Insight")}

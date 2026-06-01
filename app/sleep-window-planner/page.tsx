@@ -16,6 +16,7 @@ const toast = {
   }
 };
 import i18n, { loadLocale } from './i18n';
+import { apiPath } from '@/lib/apiPath';
 
 // --- STAR BACKGROUND ---
 const stars = [
@@ -498,7 +499,7 @@ function SleepWindowInner() {
     };
 
     try {
-      const res = await fetch("/api/sleep-window-planner", {
+      const res = await fetch(apiPath("/api/sleep-window-planner"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(entryData),
@@ -590,7 +591,7 @@ function SleepWindowInner() {
                   <Screen1 onNext={() => navigate(2)} />
                   <button
                     onClick={() => navigate(2)}
-                    className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+                    className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                   >
                     {t("screen1.button", "Let's build mine →")}
                   </button>
@@ -607,7 +608,7 @@ function SleepWindowInner() {
                   />
                   <button
                     onClick={() => navigate(3)}
-                    className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+                    className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                   >
                     {t("screen2.button", "See my sleep window →")}
                   </button>
@@ -620,7 +621,7 @@ function SleepWindowInner() {
                     <button
                       onClick={handleSave}
                       disabled={isSaving}
-                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+                      className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                     >
                       <Save size={20} strokeWidth={3} />
                       {isSaving ? t("toasts.saving", "Saving...") : t("screen3.button", "Save my sleep window ✓")}

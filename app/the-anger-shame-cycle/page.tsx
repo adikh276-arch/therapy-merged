@@ -119,7 +119,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(1)}
-                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
+                className="w-full bg-slate-900 text-white shadow-md py-4.5 rounded-2xl font-bold shadow-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-2"
               >
                 {t("screens.s1.button", "Let's Explore")}
                 <ChevronRight size={18} />
@@ -165,7 +165,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(2)}
-                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
+                className="w-full bg-slate-900 text-white shadow-md py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
               >
                 {t("screens.s2.button", "I see it")}
                 <ChevronRight size={18} />
@@ -217,7 +217,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(3)}
-                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
+                className="w-full bg-slate-900 text-white shadow-md py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
               >
                 {t("screens.s3.button", "Breaking Free")}
                 <ChevronRight size={18} />
@@ -246,7 +246,7 @@ function AngerShameCycleInner() {
                   <div className="space-y-4 pb-4">
                     {stepsData.map((step, idx) => (
                       <div key={idx} className="flex gap-4">
-                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-sm shadow-md">
+                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-slate-900 text-white shadow-md font-black text-sm shadow-md">
                           {idx + 1}
                         </div>
                         <div className="space-y-0.5">
@@ -274,7 +274,7 @@ function AngerShameCycleInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setScreen(4)}
-                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
+                className="w-full bg-slate-900 text-white shadow-md py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2"
               >
                 {t("screens.s4.button", "Complete Activity")}
                 <ChevronRight size={18} />

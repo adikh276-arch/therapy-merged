@@ -46,6 +46,7 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
         newSearchParams.delete('token');
         const newSearch = newSearchParams.toString();
         const cleanUrl = pathname + (newSearch ? `?${newSearch}` : '');
+        window.history.replaceState(null, '', cleanUrl);
         router.replace(cleanUrl);
         return;
       }
@@ -82,7 +83,9 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
               
               if (savedPath) {
                 localStorage.removeItem('APP_REDIRECT_PATH');
-                // Use router.replace to strip token and navigate to intended destination
+                // Instantly update URL so window.location.search is correct for child components
+                window.history.replaceState(null, '', savedPath);
+                // Use router.replace to notify Next.js of the change
                 router.replace(savedPath);
               } else {
                 // Magic link scenario (no saved path)
@@ -90,6 +93,7 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({ children }) => {
                 newSearchParams.delete('token');
                 const newSearch = newSearchParams.toString();
                 const cleanUrl = pathname + (newSearch ? `?${newSearch}` : '');
+                window.history.replaceState(null, '', cleanUrl || '/');
                 router.replace(cleanUrl || '/');
               }
               

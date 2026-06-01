@@ -7,6 +7,7 @@ import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import i18n, { loadLocale } from "./i18n";
+import { apiPath } from '@/lib/apiPath';
 
 type Screen = "entry" | "writing" | "landing" | "history" | "complete";
 
@@ -61,7 +62,7 @@ function ScreenEntry({ onContinue, onHistory }: ScreenEntryProps) {
       <div className="w-full space-y-4">
         <button
           onClick={onContinue}
-          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("entry.button_ready")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -165,7 +166,7 @@ function ScreenWriting({ writing, setWriting, onContinue }: ScreenWritingProps) 
 
         <button
           onClick={onContinue}
-          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+          className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("writing.button")}
           <ChevronRight size={20} strokeWidth={3} />
@@ -323,7 +324,7 @@ function WritingNarrativeInner() {
 
   const fetchEntries = async () => {
     try {
-      const res = await fetch("/api/write-your-narrative");
+      const res = await fetch(apiPath("/api/write-your-narrative"));
       if (res.ok) {
         const rows = await res.json();
         const mappedEntries = rows.map((r: any) => {
@@ -364,7 +365,7 @@ function WritingNarrativeInner() {
     };
 
     try {
-      const res = await fetch("/api/write-your-narrative", {
+      const res = await fetch(apiPath("/api/write-your-narrative"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(entry),
@@ -440,7 +441,7 @@ function WritingNarrativeInner() {
                 <button
                   onClick={saveEntry}
                   disabled={isSaving || !writing}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:cursor-not-allowed"
+                  className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3 disabled:opacity-40 disabled:cursor-not-allowed"
                 >
                   <Save size={20} strokeWidth={3} />
                   {isSaving ? t("landing.button_preserving") : t("landing.button_save")}

@@ -154,7 +154,7 @@ function UnderstandingControlInner() {
               <p className="text-center text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">{screen.microcopy}</p>
               <button
                 onClick={() => setCurrent(prev => prev + 1)}
-                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+                className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
               >
                 {screen.cta || t("complete.button_fallback", "Finish Reading")}
                 <ChevronRight size={20} strokeWidth={3} />

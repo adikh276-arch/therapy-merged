@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // --- Types & Constants ---
 
@@ -78,7 +79,7 @@ function GratitudeTrackerInner() {
     const monthParam = `${year}-${monthStr}`;
 
     try {
-      const res = await fetch(`/api/gratitude-tracker?month=${monthParam}`);
+      const res = await fetch(apiPath(`/api/gratitude-tracker?month=${monthParam}`));
       if (res.ok) {
         const data = await res.json();
         const formatted = data.map((row: any) => ({
@@ -123,7 +124,7 @@ function GratitudeTrackerInner() {
     };
 
     try {
-      await fetch('/api/gratitude-tracker', {
+      await fetch(apiPath('/api/gratitude-tracker'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

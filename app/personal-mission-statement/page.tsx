@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 const VALUES_OPTIONS = [
   { key: "value_kindness", label: "Kindness" },
@@ -69,7 +70,7 @@ function PersonalMissionStatementInner() {
   const fetchHistory = useCallback(async () => {
     setHistoryLoading(true);
     try {
-      const res = await fetch('/api/personal-mission-statement');
+      const res = await fetch(apiPath('/api/personal-mission-statement'));
       if (res.ok) {
         const list = await res.json();
         setHistoryList(list);
@@ -119,7 +120,7 @@ function PersonalMissionStatementInner() {
   const handleSaveStatement = async () => {
     setSaveLoading(true);
     try {
-      const res = await fetch('/api/personal-mission-statement', {
+      const res = await fetch(apiPath('/api/personal-mission-statement'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

@@ -7,6 +7,7 @@ import { Moon, History, Check, X, Save, Sparkles, ArrowLeft, Loader2 } from 'luc
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // Stars canvas component for premium bedtime theme
 const StarsCanvas = () => {
@@ -122,7 +123,7 @@ function SleepAuditInner() {
   const fetchHistory = useCallback(async () => {
     setIsLoadingHistory(true);
     try {
-      const res = await fetch('/api/sleep-audit');
+      const res = await fetch(apiPath('/api/sleep-audit'));
       if (res.ok) {
         const data = await res.json();
         setHistory(data);
@@ -151,7 +152,7 @@ function SleepAuditInner() {
     };
 
     try {
-      const res = await fetch('/api/sleep-audit', {
+      const res = await fetch(apiPath('/api/sleep-audit'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)

@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 type Screen = 'intro' | 'checkin' | 'reflection' | 'confirmation' | 'history';
 
@@ -65,7 +66,7 @@ function VibeTrackerInner() {
   const fetchHistory = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await fetch('/api/vibe-tracker');
+      const res = await fetch(apiPath('/api/vibe-tracker'));
       if (res.ok) {
         const data = await res.json();
         setHistoryEntries(data);
@@ -98,7 +99,7 @@ function VibeTrackerInner() {
     };
 
     try {
-      await fetch('/api/vibe-tracker', {
+      await fetch(apiPath('/api/vibe-tracker'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newEntry),

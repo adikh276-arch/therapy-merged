@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 interface ValueItem {
   emoji: string;
@@ -62,7 +63,7 @@ function KnowYourValuesInner() {
   const fetchHistory = useCallback(async () => {
     setHistoryLoading(true);
     try {
-      const res = await fetch('/api/know-your-values');
+      const res = await fetch(apiPath('/api/know-your-values'));
       if (res.ok) {
         const data = await res.json();
         setHistoryList(data);
@@ -94,7 +95,7 @@ function KnowYourValuesInner() {
     };
 
     try {
-      const res = await fetch('/api/know-your-values', {
+      const res = await fetch(apiPath('/api/know-your-values'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

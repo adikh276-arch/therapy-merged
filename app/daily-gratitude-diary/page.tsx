@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // --- Types & Constants ---
 
@@ -53,7 +54,7 @@ function DailyGratitudeInner() {
   const fetchPastEntries = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await fetch('/api/daily-gratitude-diary');
+      const res = await fetch(apiPath('/api/daily-gratitude-diary'));
       if (res.ok) {
         const data = await res.json();
         const formatted = data.map((row: any) => ({
@@ -108,7 +109,7 @@ function DailyGratitudeInner() {
     };
 
     try {
-      await fetch('/api/daily-gratitude-diary', {
+      await fetch(apiPath('/api/daily-gratitude-diary'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Calendar as CalendarIcon, Pencil, Trash2, Sparkles, History, Loader2, Plus, Dumbbell, Award, Flame, Check, X } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
+import { apiPath } from '@/lib/apiPath';
 
 interface Activity {
   id: number;
@@ -76,7 +77,7 @@ function PhysicalActivityLogInner() {
   const fetchActivities = useCallback(async () => {
     setIsLoading(true);
     try {
-      const res = await fetch('/api/physical-activity');
+      const res = await fetch(apiPath('/api/physical-activity'));
       if (res.ok) {
         const data = await res.json();
         setActivities(data);
@@ -105,7 +106,7 @@ function PhysicalActivityLogInner() {
     };
 
     try {
-      const res = await fetch('/api/physical-activity', {
+      const res = await fetch(apiPath('/api/physical-activity'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -143,7 +144,7 @@ function PhysicalActivityLogInner() {
     };
 
     try {
-      const res = await fetch('/api/physical-activity', {
+      const res = await fetch(apiPath('/api/physical-activity'), {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

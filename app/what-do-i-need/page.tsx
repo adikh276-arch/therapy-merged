@@ -7,6 +7,7 @@ import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import i18n, { loadLocale } from "./i18n";
+import { apiPath } from '@/lib/apiPath';
 const toast = {
   success: (msg: string) => console.log("SUCCESS:", msg),
   error: (msg: string) => {
@@ -110,7 +111,7 @@ function WhatDoINeedInner() {
   const fetchHistory = async () => {
     setIsLoadingHistory(true);
     try {
-      const res = await fetch("/api/what-do-i-need");
+      const res = await fetch(apiPath("/api/what-do-i-need"));
       if (res.ok) {
         const rows = await res.json();
         setHistory(rows.map((r: any) => {
@@ -208,7 +209,7 @@ function WhatDoINeedInner() {
     };
 
     try {
-      const res = await fetch("/api/what-do-i-need", {
+      const res = await fetch(apiPath("/api/what-do-i-need"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(needsData),
@@ -409,7 +410,7 @@ function WhatDoINeedInner() {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => setScreen(2)} 
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all mt-4"
+                  className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all mt-4"
                 >
                   {t("screens.s1.button", "Start Check-in")}
                 </motion.button>
@@ -473,7 +474,7 @@ function WhatDoINeedInner() {
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
                           onClick={goToPrioritize} 
-                          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
+                          className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
                         >
                           {t("screens.s2.select.button", "Continue")}
                         </motion.button>
@@ -515,7 +516,7 @@ function WhatDoINeedInner() {
                           <p className="text-2xl font-black text-slate-900">{needs_obj[primaryNeed]?.label || primaryNeed}</p>
                         </motion.div>
                       </div>
-                      <button onClick={goToScreen3} className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all">
+                      <button onClick={goToScreen3} className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all">
                         {t("screens.s2.focus.button", "Continue")}
                       </button>
                     </motion.div>
@@ -552,7 +553,7 @@ function WhatDoINeedInner() {
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
                           onClick={goToAction} 
-                          className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
+                          className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
                         >
                           {t("screens.s3.reflect.button", "Continue")}
                         </motion.button>
@@ -586,7 +587,7 @@ function WhatDoINeedInner() {
                         className="w-full p-5 bg-white border border-slate-200 rounded-2xl text-base font-bold focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all shadow-sm"
                       />
                       {(selectedAction || customAction.trim()) && (
-                        <button onClick={goToClosing} className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all">
+                        <button onClick={goToClosing} className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all">
                           {t("screens.s3.action.button", "Review Reflection")}
                         </button>
                       )}
@@ -620,7 +621,7 @@ function WhatDoINeedInner() {
                       <div className="w-full space-y-4">
                         <button
                           onClick={handleSave}
-                          className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
+                          className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg shadow-xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
                         >
                           {t("screens.s3.closing.save_button", "Save & Finish")}
                         </button>

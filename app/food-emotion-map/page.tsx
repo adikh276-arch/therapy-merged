@@ -7,6 +7,7 @@ import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
+import { apiPath } from '@/lib/apiPath';
 
 interface TypingTextProps {
   text: string;
@@ -85,7 +86,7 @@ function FoodEmotionMapInner() {
   const fetchHistory = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("/api/food-emotion-map");
+      const res = await fetch(apiPath("/api/food-emotion-map"));
       if (res.ok) {
         const rows = await res.json();
         const formatted = rows.map((r: any) => {
@@ -130,7 +131,7 @@ function FoodEmotionMapInner() {
     };
 
     try {
-      const res = await fetch("/api/food-emotion-map", {
+      const res = await fetch(apiPath("/api/food-emotion-map"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, mapData }),
@@ -288,7 +289,7 @@ function FoodEmotionMapInner() {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={nextStep}
-                        className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
+                        className="w-full bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold shadow-lg"
                       >
                         {t("begin_mapping", "Begin Mapping")}
                       </motion.button>
@@ -348,7 +349,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold"
+                      className="w-full bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -392,7 +393,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold"
+                      className="w-full bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -444,7 +445,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold"
+                      className="w-full bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -493,7 +494,7 @@ function FoodEmotionMapInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={nextStep}
-                className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
+                className="w-full bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold shadow-lg"
               >
                 {t("continue_button", "Continue")}
               </motion.button>
@@ -557,7 +558,7 @@ function FoodEmotionMapInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={nextStep}
-                      className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
+                      className="w-full bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold shadow-lg"
                     >
                       {t("continue_button", "Continue")}
                     </motion.button>
@@ -606,7 +607,7 @@ function FoodEmotionMapInner() {
                     whileTap={{ scale: closingFeeling?.trim() ? 0.98 : 1 }}
                     onClick={saveMap}
                     disabled={isSaving || !closingFeeling?.trim()}
-                    className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2 disabled:opacity-30"
+                    className="w-full bg-slate-900 text-white shadow-md py-4.5 rounded-2xl font-bold shadow-lg flex items-center justify-center gap-2 disabled:opacity-30"
                   >
                     <Save size={18} />
                     {isSaving ? t("preserving", "Preserving...") : t("preserve_button", "Preserve Map")}

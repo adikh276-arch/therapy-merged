@@ -176,7 +176,7 @@ function AngerQuizInner() {
               </div>
               <button
                 onClick={() => setScreen("game")}
-                className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
               >
                 {t("start_quiz", "Start Quiz")}
                 <ChevronRight size={20} strokeWidth={3} />
@@ -273,7 +273,7 @@ function AngerQuizInner() {
                     {showNext && (
                       <button
                         onClick={handleNext}
-                        className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-95 transition-all flex items-center justify-center gap-3"
+                        className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-95 transition-all flex items-center justify-center gap-3"
                       >
                         {step + 1 === TOTAL ? t("see_results", "See Quiz Results") : t("next_question", "Next Question")}
                         <ChevronRight size={20} strokeWidth={3} />
@@ -308,7 +308,7 @@ function AngerQuizInner() {
               <div className="w-full space-y-4">
                 <button
                   onClick={handleRetry}
-                  className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                  className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
                 >
                   <RotateCcw size={20} strokeWidth={3} />
                   {t("try_again", "Try Again")}

@@ -7,6 +7,7 @@ import { Heart, Sparkles, History, ChevronLeft, ChevronRight } from "lucide-reac
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { apiPath } from '@/lib/apiPath';
 
 export interface ReflectionEntry {
   id: string;
@@ -47,7 +48,7 @@ function GentleWishInner() {
   const fetchEntries = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await fetch("/api/a-gentle-wish");
+      const res = await fetch(apiPath("/api/a-gentle-wish"));
       if (res.ok) {
         const data = await res.json();
         setEntries(data);
@@ -76,7 +77,7 @@ function GentleWishInner() {
     };
 
     try {
-      const res = await fetch("/api/a-gentle-wish", {
+      const res = await fetch(apiPath("/api/a-gentle-wish"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(entry),
@@ -183,7 +184,7 @@ function GentleWishInner() {
               <div className="w-full space-y-4">
                 <button
                   onClick={() => setScreen("connection")}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                  className="w-full bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
                 >
                   {t("begin_button", "Begin")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -320,7 +321,7 @@ function GentleWishInner() {
                 <button
                   onClick={() => setScreen("carry")}
                   disabled={!wish.trim()}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3 disabled:opacity-20"
+                  className="w-full bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3 disabled:opacity-20"
                 >
                   {t("continue_button", "Continue")}
                   <ChevronRight size={20} strokeWidth={3} />
@@ -364,7 +365,7 @@ function GentleWishInner() {
               <div className="mt-auto pt-8 space-y-3 w-full">
                 <button
                   disabled={isSaving}
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
+                  className="w-full bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
                   onClick={saveEntry}
                 >
                   {isSaving ? t("saving...", "Preserving...") : t("save_button", "Preserve Tribute")}
@@ -419,7 +420,7 @@ function GentleWishInner() {
 
               <div className="mt-auto pt-8 space-y-3 w-full">
                 <button
-                  className="w-full bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
+                  className="w-full bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
                   onClick={addAnother}
                 >
                   {t("add_another_button", "Honour Another Memory")}

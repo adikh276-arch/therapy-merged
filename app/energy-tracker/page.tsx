@@ -8,6 +8,7 @@ import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import { apiPath } from '@/lib/apiPath';
 
 // --- Types & Constants ---
 
@@ -63,7 +64,7 @@ function EnergyTrackerInner() {
   const fetchHistory = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await fetch('/api/energy-tracker');
+      const res = await fetch(apiPath('/api/energy-tracker'));
       if (res.ok) {
         const data = await res.json();
         const formatted = data.map((row: any) => ({
@@ -133,7 +134,7 @@ function EnergyTrackerInner() {
     };
 
     try {
-      const res = await fetch('/api/energy-tracker', {
+      const res = await fetch(apiPath('/api/energy-tracker'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

@@ -7,6 +7,7 @@ import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import i18n, { loadLocale } from "./i18n";
+import { apiPath } from '@/lib/apiPath';
 
 export type ZoneType = "hyper" | "safe" | "hypo" | null;
 
@@ -69,7 +70,7 @@ function WelcomeScreen({ onBegin, onHistory, onBack }: WelcomeProps) {
 
       <button
         onClick={onBegin}
-        className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-2xl transition-all duration-300"
+        className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-2xl transition-all duration-300"
       >
         {t("screens.welcome.button", "Get Started")}
       </button>
@@ -139,7 +140,7 @@ function ExplainScreen({ onBack, onNext }: { onBack: () => void; onNext: () => v
         </button>
         <button
           onClick={onNext}
-          className="flex-1 py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-lg transition-all duration-300"
+          className="flex-1 py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-lg transition-all duration-300"
         >
           {t("screens.explain.next", "Next")}
         </button>
@@ -217,7 +218,7 @@ function CheckInScreen({ selected, onSelect, onBack, onNext }: CheckInProps) {
         <button
           onClick={onNext}
           disabled={!selected}
-          className="flex-1 py-4 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="flex-1 py-4 rounded-2xl bg-slate-900 text-white shadow-md font-bold hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {t("screens.checkin.next", "Next")}
         </button>
@@ -310,7 +311,7 @@ function ZoneScreen({ zone, onContinue, onBack }: ZoneProps) {
       <div className="space-y-3 pt-4">
         <button
           onClick={onContinue}
-          className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-xl transition-all duration-300"
+          className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-xl transition-all duration-300"
         >
           {data.button}
         </button>
@@ -387,7 +388,7 @@ function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack, 
       <button
         onClick={onSave}
         disabled={isSaving}
-        className="w-full py-5 rounded-2xl bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-2xl transition-all duration-300 flex items-center justify-center gap-2"
+        className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-2xl transition-all duration-300 flex items-center justify-center gap-2"
       >
         <Save size={20} />
         {isSaving ? t("screens.toolkit.preserving", "Saving...") : t("screens.toolkit.save_button", "Save & Finish Check-in")}
@@ -489,7 +490,7 @@ function WindowInner() {
 
   const fetchHistory = async () => {
     try {
-      const res = await fetch("/api/window-of-tolerance");
+      const res = await fetch(apiPath("/api/window-of-tolerance"));
       if (res.ok) {
         const rows = await res.json();
         const fetchedHistory = rows.map((r: any) => {
@@ -545,7 +546,7 @@ function WindowInner() {
     };
 
     try {
-      const res = await fetch("/api/window-of-tolerance", {
+      const res = await fetch(apiPath("/api/window-of-tolerance"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(entryData),

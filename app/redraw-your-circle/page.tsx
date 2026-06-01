@@ -7,6 +7,7 @@ import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { apiPath } from '@/lib/apiPath';
 
 const BUBBLE_COLORS = [
   "bg-rose-50 border-rose-200 text-rose-600",
@@ -83,7 +84,7 @@ function RedrawCircleInner() {
   const fetchHistory = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("/api/redraw-your-circle");
+      const res = await fetch(apiPath("/api/redraw-your-circle"));
       if (res.ok) {
         const rows = await res.json();
         const formatted = rows.map((r: any) => {
@@ -110,7 +111,7 @@ function RedrawCircleInner() {
     const payload = { id, circles: { names, reflection } };
 
     try {
-      const res = await fetch("/api/redraw-your-circle", {
+      const res = await fetch(apiPath("/api/redraw-your-circle"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -338,7 +339,7 @@ function RedrawCircleInner() {
 
               <button
                 onClick={() => setScreen("reflection")}
-                className="mt-6 w-full max-w-xs bg-gradient-to-r from-primary to-sky-400 text-white shadow-lg shadow-primary/30 py-4 rounded-2xl font-bold shadow-lg"
+                className="mt-6 w-full max-w-xs bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold shadow-lg"
               >
                 {t("circle.button", "Continue to Reflection")}
               </button>
