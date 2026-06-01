@@ -31,7 +31,9 @@ const GroundingExercise = () => {
   
   const steps = useMemo(() => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const stepsData = t("steps", { returnObjects: true }) as any[];
+    const stepsData = t("steps", { returnObjects: true }) as any;
+    const stepsArray = Array.isArray(stepsData) ? stepsData : [];
+    
     const config = [
       { inputCount: 0 },
       { inputCount: 5 },
@@ -41,7 +43,7 @@ const GroundingExercise = () => {
       { inputCount: 1 },
       { inputCount: 0, reflectionPrompt: true },
     ];
-    return stepsData.map((s, i) => ({
+    return stepsArray.map((s, i) => ({
       ...s,
       ...config[i]
     }));
@@ -57,6 +59,10 @@ const GroundingExercise = () => {
     }
     setCurrentStep((s) => s + 1);
   }, [currentStep, totalSteps]);
+
+  if (!step) {
+    return <div className="min-h-[60vh] flex items-center justify-center text-slate-400">Loading...</div>;
+  }
 
   const handleInputChange = (values: string[]) => {
     setResponses((prev) => ({ ...prev, [currentStep]: values }));

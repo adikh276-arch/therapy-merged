@@ -128,10 +128,13 @@ function PredictionVsRealityInner() {
     );
   };
 
-  const EMOTIONS = (t("emotions", { returnObjects: true }) as string[]) || [
+  const tEmotions = t("emotions", { returnObjects: true });
+  const EMOTIONS = Array.isArray(tEmotions) ? tEmotions : [
     "Anxious", "Fearful", "Nervous", "Worried", "Stressed", "Insecure"
   ];
-  const COMPARISON_OPTIONS = (t("comparison_options", { returnObjects: true }) as string[]) || [
+  
+  const tOptions = t("comparison_options", { returnObjects: true });
+  const COMPARISON_OPTIONS = Array.isArray(tOptions) ? tOptions : [
     "It went much better than I expected",
     "It went slightly better than I expected",
     "It went exactly as I expected",
