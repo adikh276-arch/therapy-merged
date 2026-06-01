@@ -1,5 +1,3 @@
-import { cookies } from "next/headers";
-import { redirect } from "next/navigation";
 import { SelfCareHub } from "@/components/hub/SelfCareHub";
 
 export const metadata = {
@@ -7,18 +5,13 @@ export const metadata = {
   description: "Explore topic-specific exercises, tools, and guided series for your mental wellness journey.",
 };
 
+// AUTH TEMPORARILY DISABLED FOR LOCAL UI TESTING
+// TODO: Restore auth before deployment
 export default async function TopicPage({
   params,
 }: {
   params: Promise<{ topicId: string }>;
 }) {
-  const cookieStore = await cookies();
-  const userIdCookie = cookieStore.get("user_id");
-  
-  if (!userIdCookie?.value) {
-    redirect("/token");
-  }
-
   const { topicId } = await params;
   return <SelfCareHub topicId={topicId} />;
 }

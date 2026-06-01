@@ -102,7 +102,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
           whileHover={{ scale: 1.02, y: -2 }}
           whileTap={{ scale: 0.98 }}
           onClick={onStart}
-          className="w-full max-w-lg py-5 rounded-2xl bg-slate-900 text-white font-bold text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+          className="w-full max-w-lg py-5 rounded-2xl bg-primary text-primary-foreground font-bold text-lg shadow-2xl shadow-primary/25 hover:bg-primary/90 hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
         >
           {t("common.get_started", "Get Started")}
           <ArrowRight size={20} strokeWidth={3} />

@@ -146,7 +146,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
             whileHover={{ scale: 1.02, y: -2 }}
             whileTap={{ scale: 0.98 }}
             onClick={handleHome}
-            className="w-full py-5 rounded-2xl bg-slate-900 text-white font-black text-lg shadow-2xl shadow-slate-900/20 hover:bg-slate-800 transition-all flex items-center justify-center gap-3"
+            className="w-full py-5 rounded-2xl bg-primary text-primary-foreground font-black text-lg shadow-2xl shadow-primary/25 hover:bg-primary/90 hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
           >
             <Home size={20} strokeWidth={2.5} />
             {t("common.finish_exit", "Finish & Exit")}
