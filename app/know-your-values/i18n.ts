@@ -18,7 +18,10 @@ i18n.use(initReactI18next).init({
 });
 
 export const loadLocale = async (lang: string) => {
-  if (lang === 'en') return;
+  if (lang === 'en') {
+    await i18n.changeLanguage('en');
+    return;
+  }
   try {
     const res = await import(`./i18n/${lang}.json`);
     i18n.addResourceBundle(lang, 'translation', res.default || res, true, false);

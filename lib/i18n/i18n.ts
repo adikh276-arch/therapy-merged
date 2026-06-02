@@ -25,12 +25,17 @@ if (!i18n.isInitialized) {
 
 // Dynamically load the requested language
 export const loadGlobalResource = async (lang: string) => {
-    if (lang === 'en') return; // Already loaded
+    if (lang === 'en') {
+        await i18n.changeLanguage('en');
+        return; // Already loaded
+    }
     try {
         const res = await import(`./${lang}.json`);
-        i18n.addResourceBundle(lang, 'translation', res.default, true, false);
+        i18n.addResourceBundle(lang, 'translation', res.default || res, true, false);
+        await i18n.changeLanguage(lang);
     } catch (e) {
         console.error(`Could not load translations for ${lang}`, e);
+        await i18n.changeLanguage('en');
     }
 };
 
