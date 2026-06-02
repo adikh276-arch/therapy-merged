@@ -123,7 +123,21 @@ function WhatDoINeedInner() {
           }
           return {
             id: r.id,
-            date: new Date(r.created_at).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }),
+            date: (() => {
+              if (!r.created_at) return "N/A";
+              try {
+                const normalized = String(r.created_at).replace(" ", "T");
+                const d = new Date(normalized);
+                if (isNaN(d.getTime())) {
+                  const d2 = new Date(r.created_at);
+                  if (isNaN(d2.getTime())) return "N/A";
+                  return d2.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+                }
+                return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+              } catch {
+                return "N/A";
+              }
+            })(),
             primaryNeed: parsed.primaryNeed || "General",
             reflection: parsed.reflection || "",
             action: parsed.action || "",
