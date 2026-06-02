@@ -134,7 +134,21 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
     if (disabled) return;
     saveState();
     const ctx = getCtx();
-    if (!ctx) return;
+    const canvas = canvasRef.current;
+    if (!ctx || !canvas) return;
+
+    // Set gorgeous, premium custom brush stroke style on every draw to prevent any fallback to pure black
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.lineWidth = 5;
+
+    // Create a vibrant, soft blue-to-indigo gradient for highly appealing visual stroke feedback
+    const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
+    gradient.addColorStop(0, '#3b82f6'); // Calming Blue
+    gradient.addColorStop(0.5, '#60a5fa'); // Vibrant Soft Blue
+    gradient.addColorStop(1, '#8b5cf6'); // Premium Healing Purple
+    ctx.strokeStyle = gradient;
+
     const pos = getPos(e);
     ctx.beginPath();
     ctx.moveTo(pos.x, pos.y);

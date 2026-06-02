@@ -25,5 +25,5 @@ export default async function StaticContentPage({
   }
 
   const { concern, type } = await params;
-  return <StaticContentViewerClient concern={concern} type={type} />;
+  redirect(`/resources/${concern}/${type}`);
 }
