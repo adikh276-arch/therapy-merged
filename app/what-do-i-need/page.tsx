@@ -289,6 +289,7 @@ function WhatDoINeedInner() {
       subtitle={t("app_title", "What Do I Need?")}
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={screen === 1 ? undefined : handleBack}
+      exitOnBack={screen === 1}
     >
       <style>{`
         :root {

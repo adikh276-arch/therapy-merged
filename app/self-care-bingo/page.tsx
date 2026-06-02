@@ -174,6 +174,7 @@ function SelfCareBingoInner() {
       icon={<Trophy className="w-6 h-6 text-primary animate-pulse" />}
       onBack={screen !== 'intro' ? () => setScreen('intro') : undefined}
       onReset={screen !== 'intro' ? handleResetBoard : undefined}
+      exitOnBack={screen === 'intro'}
     >
       {/* Zero-Dependency Floating Confetti Canvas overlay */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-50">

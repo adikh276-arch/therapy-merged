@@ -693,7 +693,13 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         whileHover={{ y: -2 }}
                         onClick={() => {
                           if (topic.id === 'ocd') {
-                            if (typeof window !== 'undefined') window.location.href = 'https://web.mantracare.com';
+                            if (typeof window !== 'undefined') {
+                              if (window.parent !== window) {
+                                window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
+                              } else {
+                                window.location.href = 'https://web.mantracare.com';
+                              }
+                            }
                           } else if (topic.url) {
                             window.location.href = topic.url;
                           } else {
