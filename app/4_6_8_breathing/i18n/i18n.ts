@@ -1,29 +1,33 @@
-import i18n from 'i18next';
+'use client';
+
+import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import enTranslations from './en.json';
 
-// Initialize i18next first
-i18n
-  .use(initReactI18next)
-  .init({
-    lng: "en", // default language
-    fallbackLng: "en",
-    interpolation: {
-      escapeValue: false 
+const i18n = i18next.createInstance();
+
+i18n.use(initReactI18next).init({
+  lng: 'en',
+  fallbackLng: 'en',
+  interpolation: { escapeValue: false },
+  resources: {
+    en: {
+      translation: enTranslations,
     },
-    resources: {} // will be loaded dynamically
-  });
+  },
+});
 
-// Dynamically load the requested language
-export const loadResource = async (lang: string) => {
-    try {
-        const res = await import(`./${lang}.json`);
-        i18n.addResourceBundle(lang, 'translation', res.default);
-    } catch (e) {
-        console.error(`Could not load translations for ${lang}`, e);
-    }
+export const loadLocale = async (lang: string) => {
+  if (lang === 'en') return;
+  try {
+    const res = await import(`./${lang}.json`);
+    i18n.addResourceBundle(lang, 'translation', res.default || res, true, false);
+    await i18n.changeLanguage(lang);
+  } catch (err) {
+    console.error(`Failed to load locale: ${lang}`, err);
+    // fallback to en
+    await i18n.changeLanguage('en');
+  }
 };
-
-// Ensure english is loaded by default
-loadResource('en');
 
 export default i18n;
