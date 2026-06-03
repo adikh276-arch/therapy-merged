@@ -610,28 +610,7 @@ function DoodleBurstInner() {
                 message={t('end_saved', 'Your doodle has been saved! 📒')}
                 onRestart={startActivity}
                 icon={<Palette size={48} />}
-              >
-                <div className="space-y-6 w-full mt-6">
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm space-y-4">
-                    <p className="text-slate-500 dark:text-slate-400 font-bold text-sm leading-relaxed text-left px-1">
-                      {t('end_reset', 'Even a quick doodle can help your brain reset.')}
-                    </p>
-                    <div className="grid gap-2.5">
-                      <CheckInItem
-                        icon={<Rocket className="text-primary" size={16} />}
-                        text={t('checkin_brain', 'Does your brain feel lighter?')}
-                      />
-                      <CheckInItem
-                        icon={<Sparkles className="text-primary" size={16} />}
-                        text={t('checkin_calmer', 'Do you feel a little calmer?')}
-                      />
-                      <CheckInItem
-                        icon={<Check className="text-primary" size={16} />}
-                        text={t('checkin_task', 'Ready to get back to your task?')}
-                      />
-                    </div>
-                  </div>
-
+                customActions={
                   <div className="flex gap-3">
                     <motion.button
                       whileHover={{ scale: 1.01 }}
@@ -652,6 +631,28 @@ function DoodleBurstInner() {
                       <History size={14} />
                       {t('view_history', 'View History')}
                     </motion.button>
+                  </div>
+                }
+              >
+                <div className="space-y-6 w-full mt-6">
+                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm space-y-4">
+                    <p className="text-slate-500 dark:text-slate-400 font-bold text-sm leading-relaxed text-left px-1">
+                      {t('end_reset', 'Even a quick doodle can help your brain reset.')}
+                    </p>
+                    <div className="grid gap-2.5">
+                      <CheckInItem
+                        icon={<Rocket className="text-primary" size={16} />}
+                        text={t('checkin_brain', 'Does your brain feel lighter?')}
+                      />
+                      <CheckInItem
+                        icon={<Sparkles className="text-primary" size={16} />}
+                        text={t('checkin_calmer', 'Do you feel a little calmer?')}
+                      />
+                      <CheckInItem
+                        icon={<Check className="text-primary" size={16} />}
+                        text={t('checkin_task', 'Ready to get back to your task?')}
+                      />
+                    </div>
                   </div>
                 </div>
               </PremiumComplete>

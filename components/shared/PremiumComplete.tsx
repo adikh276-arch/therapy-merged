@@ -15,6 +15,8 @@ interface PremiumCompleteProps {
   onHome?: () => void;
   children?: React.ReactNode;
   icon?: React.ReactNode;
+  customActions?: React.ReactNode;
+  hideShare?: boolean;
 }
 
 export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
@@ -23,7 +25,9 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   onRestart,
   onHome,
   children,
-  icon
+  icon,
+  customActions,
+  hideShare
 }) => {
   const { t } = useTranslation();
   const router = useRouter();
@@ -117,34 +121,40 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
       {/* Action Buttons — fixed at bottom */}
       <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/60 backdrop-blur-md z-20 flex justify-center border-t border-slate-100/50">
         <div className="w-full max-w-lg flex flex-col gap-4">
-          <div className="flex gap-4">
-            {onRestart && (
-              <motion.button
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6 }}
-                whileHover={{ scale: 1.02, y: -1 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onRestart}
-                className="flex-1 py-4.5 rounded-2xl bg-white border border-slate-200 text-slate-600 font-bold flex items-center justify-center gap-3 hover:bg-slate-50 hover:text-slate-900 transition-all shadow-sm"
-              >
-                <RotateCcw size={18} strokeWidth={2.5} />
-                {t("common.start_over", "Start Over")}
-              </motion.button>
-            )}
-            <motion.button
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.65 }}
-              whileHover={{ scale: 1.02, y: -1 }}
-              whileTap={{ scale: 0.98 }}
-              onClick={() => setIsShareOpen(true)}
-              className="flex-1 py-4.5 rounded-2xl bg-primary/10 border border-primary/20 text-primary font-bold flex items-center justify-center gap-3 hover:bg-primary/20 transition-all shadow-sm"
-            >
-              <Share2 size={18} strokeWidth={2.5} />
-              {t("common.share", "Share")}
-            </motion.button>
-          </div>
+          {customActions ? (
+            customActions
+          ) : (
+            <div className="flex gap-4">
+              {onRestart && (
+                <motion.button
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.6 }}
+                  whileHover={{ scale: 1.02, y: -1 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={onRestart}
+                  className="flex-1 py-4.5 rounded-2xl bg-white border border-slate-200 text-slate-600 font-bold flex items-center justify-center gap-3 hover:bg-slate-50 hover:text-slate-900 transition-all shadow-sm"
+                >
+                  <RotateCcw size={18} strokeWidth={2.5} />
+                  {t("common.start_over", "Start Over")}
+                </motion.button>
+              )}
+              {!hideShare && (
+                <motion.button
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.65 }}
+                  whileHover={{ scale: 1.02, y: -1 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setIsShareOpen(true)}
+                  className="flex-1 py-4.5 rounded-2xl bg-primary/10 border border-primary/20 text-primary font-bold flex items-center justify-center gap-3 hover:bg-primary/20 transition-all shadow-sm"
+                >
+                  <Share2 size={18} strokeWidth={2.5} />
+                  {t("common.share", "Share")}
+                </motion.button>
+              )}
+            </div>
+          )}
           <motion.button
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
