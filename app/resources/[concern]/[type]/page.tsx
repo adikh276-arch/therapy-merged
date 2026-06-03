@@ -104,26 +104,26 @@ function ResourceListInner({ concern, type }: ResourceListInnerProps) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.05, type: 'spring', damping: 20 }}
-                whileHover={{ y: -4, scale: 1.01 }}
-                whileTap={{ scale: 0.99 }}
+                whileHover={{ y: -2, scale: 1.005 }}
+                whileTap={{ scale: 0.995 }}
                 onClick={() => router.push(`/resources/${concern}/${type}/${res.id}?lang=${i18n.language}`)}
-                className="w-full text-left p-8 rounded-[3rem] bg-white border border-slate-105 shadow-sm hover:shadow-2xl hover:shadow-primary/10 hover:border-primary/20 transition-all flex items-center gap-8 group relative overflow-hidden"
+                className="w-full text-left p-6 md:p-8 rounded-[2rem] bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:border-slate-200 transition-all flex items-center gap-6 md:gap-8 group relative overflow-hidden"
               >
-                <div className={`w-20 h-20 rounded-3xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 ${bgClr}`}>
-                  <Icon className={`w-8 h-8 ${textClr}`} />
+                <div className={`w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-500 ${bgClr}`}>
+                  <Icon className={`w-6 h-6 ${textClr}`} />
                 </div>
                 
-                <div className="flex-1 min-w-0 space-y-1.5">
-                  <h3 className="font-black text-slate-900 text-xl group-hover:text-primary transition-colors leading-tight">
+                <div className="flex-1 min-w-0 space-y-1">
+                  <h3 className="font-bold text-slate-900 text-lg md:text-xl group-hover:text-primary transition-colors leading-tight">
                     {res.title}
                   </h3>
-                  <p className="text-slate-400 text-sm font-bold leading-relaxed line-clamp-2 pr-4">
+                  <p className="text-slate-400 text-sm font-medium leading-relaxed line-clamp-2 pr-4">
                     {res.preview}
                   </p>
                 </div>
                 
-                <div className="w-12 h-12 rounded-full border border-slate-50 flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:border-primary transition-all duration-300">
-                  <ChevronRight className="w-6 h-6 text-slate-350 group-hover:text-white group-hover:translate-x-0.5 transition-all" />
+                <div className="w-10 h-10 rounded-full border border-slate-100 flex items-center justify-center shrink-0 group-hover:bg-slate-50 transition-all duration-300">
+                  <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-slate-500 group-hover:translate-x-0.5 transition-all" />
                 </div>
               </motion.button>
             ))

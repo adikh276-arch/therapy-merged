@@ -177,18 +177,20 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
         </article>
 
         <motion.section 
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="p-12 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[4rem] text-white space-y-8 shadow-2xl relative overflow-hidden"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="p-10 md:p-12 bg-[#0c1524] rounded-[2.5rem] text-white space-y-6 shadow-xl relative overflow-hidden flex flex-col items-center text-center max-w-2xl mx-auto border border-slate-800"
         >
-          <div className="absolute top-0 right-0 p-12 text-white/5 pointer-events-none">
-            <Sparkles size={160} />
+          <div className="absolute top-0 right-0 p-8 text-white/[0.03] pointer-events-none select-none">
+            <Sparkles size={180} />
           </div>
-          <div className="flex items-center gap-3 text-emerald-400 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">
-            <Sparkles size={18} />
-            {t("detail.article.final_thought")}
+          
+          <div className="flex items-center gap-2 text-[#02c39a] font-bold text-xs uppercase tracking-[0.3em] relative z-10">
+            <Sparkles size={14} className="text-[#02c39a]" />
+            {t("detail.article.final_thought", "FINAL THOUGHT")}
           </div>
-          <p className="text-slate-100 text-3xl font-black italic leading-[1.3] tracking-tight relative z-10">
+          
+          <p className="text-white text-xl md:text-2xl font-bold italic leading-relaxed relative z-10 max-w-xl">
             &ldquo;{article.takeaway}&rdquo;
           </p>
         </motion.section>
