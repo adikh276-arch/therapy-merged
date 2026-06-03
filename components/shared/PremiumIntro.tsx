@@ -53,7 +53,7 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
         transition={{ duration: 0.4, ease: [0.4, 0, 0.2, 1] }}
         className="relative rounded-2xl bg-white/80 backdrop-blur-sm border border-white shadow-lg shadow-sky-100/60 overflow-visible"
       >
-        <div className="p-6 space-y-4">
+        <div className="p-8 space-y-5">
           {/* Icon row + duration */}
           <div className="flex items-start justify-between gap-4">
             {/* Icon with pulsing glow ring */}

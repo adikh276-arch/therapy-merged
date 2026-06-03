@@ -3,7 +3,7 @@
 
 :root {
   --font-size: 16px;
-  --background: #f0f9ff;
+  --background: #F0F7FF;
   --foreground: oklch(0.145 0 0);
   --card: #ffffff;
   --card-foreground: oklch(0.145 0 0);
@@ -129,7 +129,7 @@ html {
 }
 
 body {
-  background: #F8FAFB;
+  background: #F0F7FF;
   color: var(--foreground);
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -318,7 +318,7 @@ body {
   border: 1.5px solid rgba(255, 255, 255, 0.96);
   border-radius: 20px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.03);
-  padding: 22px;
+  padding: 28px;
 }
 .act-card:hover {
   border-color: rgba(186, 230, 255, 0.7);
@@ -326,11 +326,11 @@ body {
 
 /* ── Typography ── */
 .act-heading {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   color: #0f172a;
-  letter-spacing: -0.025em;
-  line-height: 1.2;
+  letter-spacing: -0.028em;
+  line-height: 1.15;
 }
 
 .act-eyebrow {

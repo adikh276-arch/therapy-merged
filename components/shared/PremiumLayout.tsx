@@ -65,7 +65,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
           borderBottom: '1px solid rgba(14,165,233,0.1)',
         }}
       >
-        <div className="max-w-2xl mx-auto px-5 h-[64px] flex items-center justify-between gap-4">
+        <div className="max-w-xl mx-auto px-5 h-[68px] flex items-center justify-between gap-4">
           <div className="flex items-center gap-3 min-w-0">
             {showBack && (
               <button
@@ -110,7 +110,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
       </header>
 
       {/* ── Content ── */}
-      <main className="flex-1 w-full max-w-2xl mx-auto px-5 py-10 relative z-10">
+      <main className="flex-1 w-full max-w-xl mx-auto px-5 py-10 pb-16 relative z-10">
         <AnimatePresence mode="wait">
           <motion.div
             key="content"

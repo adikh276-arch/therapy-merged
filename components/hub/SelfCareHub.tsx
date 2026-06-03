@@ -445,15 +445,9 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
     router.prefetch(path);
   };
 
-  useEffect(() => {
-    const handlePopState = () => {
-      if (!topicId) {
-        handlePlatformExit();
-      }
-    };
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, [topicId]);
+  // No popstate listener needed — back navigation is handled directly:
+  // • Topic detail back button → router.back() (pops history)
+  // • Home back button → handlePlatformExit() inline
 
   const container = {
     hidden: { opacity: 0 },
@@ -487,7 +481,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                   className="space-y-8"
                 >
                   <button
-                    onClick={() => router.push("/")}
+                    onClick={() => router.back()}
                     className="flex items-center gap-2 text-[#64748B] hover:text-[#020817] transition-colors group mb-4"
                   >
                     <ChevronLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
