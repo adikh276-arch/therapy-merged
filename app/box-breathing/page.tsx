@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Pause, Play, RotateCcw, Wind } from 'lucide-react';
+import { useSound } from '@/lib/hooks/useSound';
 import { motion, AnimatePresence } from 'framer-motion';
 import { I18nextProvider, useTranslation } from 'react-i18next';
 import i18n from './i18n';
@@ -22,6 +23,7 @@ const TOTAL_CYCLES = 4;
 
 function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
+  const { playBreathIn, playBreathOut, playHold, playPop } = useSound();
   const [phaseIndex, setPhaseIndex] = useState(0);
   const [countdown, setCountdown] = useState<number>(PHASES[0].duration);
   const [cycle, setCycle] = useState(1);
@@ -54,6 +56,13 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
     intervalRef.current = setInterval(tick, 1000);
     return () => { if (intervalRef.current) clearInterval(intervalRef.current); };
   }, [tick, paused]);
+
+  useEffect(() => {
+    if (paused) return;
+    if (phaseIndex === 0) playBreathIn(PHASES[0].duration * 1000);
+    else if (phaseIndex === 1 || phaseIndex === 3) playHold(PHASES[1].duration * 1000);
+    else if (phaseIndex === 2) playBreathOut(PHASES[2].duration * 1000);
+  }, [phaseIndex, paused, playBreathIn, playBreathOut, playHold]);
 
   const circleScale = phaseIndex === 0 || phaseIndex === 1 ? 1 : 0.6;
 
@@ -113,7 +122,10 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => setPaused((p) => !p)}
+          onClick={() => {
+            playPop();
+            setPaused((p) => !p);
+          }}
           className={`w-20 h-20 rounded-[2rem] flex items-center justify-center shadow-xl transition-all ${
             paused
               ? 'bg-primary text-white shadow-primary/20'
@@ -126,7 +138,10 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
         <motion.button
           whileHover={{ scale: 1.05, rotate: -90 }}
           whileTap={{ scale: 0.95 }}
-          onClick={onEnd}
+          onClick={() => {
+            playPop();
+            onEnd();
+          }}
           className="w-16 h-16 rounded-[1.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 border border-white/60 flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all shadow-sm"
         >
           <RotateCcw size={24} strokeWidth={3} />

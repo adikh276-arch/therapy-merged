@@ -1,11 +1,12 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Home, RotateCcw, Sparkles, Share2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import ShareModal from './ShareModal';
+import { useSound } from '@/lib/hooks/useSound';
 
 interface PremiumCompleteProps {
   title?: string;
@@ -27,6 +28,11 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   const { t } = useTranslation();
   const router = useRouter();
   const [isShareOpen, setIsShareOpen] = useState(false);
+  const { playComplete } = useSound();
+
+  useEffect(() => {
+    playComplete();
+  }, [playComplete]);
 
   const displayTitle = title || t("common.well_done", "Well Done!");
   const displayMessage = message || t("common.completion_message", "You've successfully completed this activity. Take a moment to appreciate your progress.");

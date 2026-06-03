@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { handlePlatformExit } from "@/lib/navigation";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadGlobalResource } from "../../lib/i18n/i18n";
+import { useSound } from "@/lib/hooks/useSound";
 import { 
   ChevronLeft, 
   Heart, 
@@ -425,6 +426,7 @@ const topicDetails: Record<string, {
 
 function SelfCareHubInner({ topicId }: { topicId?: string }) {
   const { t } = useTranslation();
+  const { playPop } = useSound();
   
   // Sync lang URL parameter
   useEffect(() => {
@@ -502,7 +504,10 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                     <motion.button
                       whileHover={{ y: -2 }}
                       whileTap={{ scale: 0.98 }}
-                      onClick={() => router.push(`/guided-series/${selectedTopic}`)}
+                      onClick={() => {
+                        playPop();
+                        router.push(`/guided-series/${selectedTopic}`);
+                      }}
                       className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-6 flex items-center justify-between hover:border-primary hover:shadow-lg transition-all group"
                     >
                       <div className="flex items-center gap-4">
@@ -527,6 +532,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                             key={i}
                             whileHover={{ y: -4 }}
                             onClick={() => {
+                              playPop();
                               if (ex.action === 'guided') {
                                 if (typeof window !== 'undefined') window.location.href = ex.url!;
                                 return;
@@ -564,7 +570,10 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                             <motion.button
                               key={i}
                               whileHover={{ x: 4, scale: 1.02 }}
-                              onClick={() => todo.url?.startsWith('http') ? (window.location.href = todo.url) : router.push(todo.url!)}
+                              onClick={() => {
+                                playPop();
+                                todo.url?.startsWith('http') ? (window.location.href = todo.url) : router.push(todo.url!);
+                              }}
                               className="p-5 rounded-2xl flex items-center gap-5 transition-all border border-slate-100/50 shadow-sm hover:shadow-xl group"
                               style={{ backgroundColor: color.bg }}
                             >
@@ -599,7 +608,10 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                             <motion.button
                               key={i}
                               whileHover={{ x: 8, scale: 1.01 }}
-                              onClick={() => res.url?.startsWith('http') ? window.location.href = res.url : router.push(res.url!)}
+                              onClick={() => {
+                                playPop();
+                                res.url?.startsWith('http') ? window.location.href = res.url : router.push(res.url!);
+                              }}
                               className="w-full rounded-2xl p-4 flex items-center gap-4 transition-all group relative overflow-hidden text-left"
                               style={{ backgroundColor: color.bg }}
                             >
@@ -669,6 +681,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         variants={item}
                         whileHover={{ y: -2 }}
                         onClick={() => {
+                          playPop();
                           if (tool.id === 'mindful-space') {
                             if (typeof window !== 'undefined') window.location.href = 'https://web.mantracare.com';
                           } else if (tool.url?.startsWith('http')) {
@@ -701,6 +714,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         key={topic.id}
                         whileHover={{ y: -2 }}
                         onClick={() => {
+                          playPop();
                           if (topic.id === 'ocd') {
                             if (typeof window !== 'undefined') {
                               if (window.parent !== window) {

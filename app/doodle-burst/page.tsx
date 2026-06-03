@@ -1,5 +1,6 @@
 'use client';
 import { parseDbDate } from '@/lib/dateUtils';
+import { useSound } from '@/lib/hooks/useSound';
 
 import { useState, useEffect, useCallback, useRef, forwardRef, useImperativeHandle, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -55,6 +56,7 @@ interface DrawingCanvasRef {
 
 const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabled = false }, ref) => {
   const { t } = useTranslation(undefined, { i18n });
+  const { playPop } = useSound();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isDrawing, setIsDrawing] = useState(false);
   const [history, setHistory] = useState<ImageData[]>([]);
@@ -182,6 +184,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const undo = () => {
+    playPop();
     const ctx = getCtx();
     const canvas = canvasRef.current;
     if (!ctx || !canvas || history.length === 0) return;
@@ -191,6 +194,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
   };
 
   const clearCanvas = () => {
+    playPop();
     const ctx = getCtx();
     const canvas = canvasRef.current;
     if (!ctx || !canvas) return;
