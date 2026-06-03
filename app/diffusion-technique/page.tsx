@@ -18,66 +18,64 @@ type View = 'intro' | 'choose' | 'sky' | 'sell' | 'name';
 function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
 
-  const cloudConfigs = useMemo(() => [
-    { top: '8%',  size: 'text-[150px]', delay: 0,   duration: 12, textSize: 'text-sm' },
-    { top: '28%', size: 'text-[110px]', delay: 0.3, duration: 14, textSize: 'text-xs' },
-    { top: '48%', size: 'text-[160px]', delay: 0.1, duration: 11, textSize: 'text-sm' },
-    { top: '66%', size: 'text-[100px]', delay: 0.4, duration: 13, textSize: 'text-xs' },
-    { top: '80%', size: 'text-[120px]', delay: 0.2, duration: 10, textSize: 'text-xs' },
-  ], []);
+  const cloudConfigs = useMemo(() => {
+    return thoughts.map((_, i) => ({
+      top: `${15 + (i * 15)}%`, // Distribute vertically
+      delay: i * 1.5,
+      duration: 15 + Math.random() * 10,
+    }));
+  }, [thoughts]);
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.6, ease: 'easeInOut' }}
-      className="fixed inset-0 z-50 flex flex-col items-center justify-between py-12 px-6 overflow-hidden"
-      style={{ background: 'linear-gradient(180deg, #BEE7FF 0%, #EAF6FF 100%)' }}
+      transition={{ duration: 0.8, ease: 'easeInOut' }}
+      className="fixed inset-0 z-[100] flex flex-col justify-between overflow-hidden bg-gradient-to-b from-sky-100 to-sky-50 dark:from-slate-900 dark:to-slate-950"
     >
-      {/* Ambient background clouds */}
-      {[
-        { top: '5%',  left: '2%',  size: 'text-6xl', dur: 30, dx: 40 },
-        { top: '60%', right: '5%', size: 'text-4xl', dur: 25, dx: -30 },
-      ].map((c, i) => (
-        <motion.span
-          key={i}
-          className={`absolute ${c.size} opacity-10 select-none pointer-events-none`}
-          style={{ top: c.top, left: (c as any).left, right: (c as any).right }}
-          animate={{ x: [0, c.dx, 0] }}
-          transition={{ duration: c.dur, repeat: Infinity, ease: 'easeInOut' }}
-        >☁️</motion.span>
-      ))}
+      {/* Background ambient elements */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-60 dark:opacity-20">
+         <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-white rounded-full mix-blend-overlay filter blur-[60px] animate-pulse" style={{ animationDuration: '4s' }} />
+         <div className="absolute top-[40%] right-[5%] w-[50vw] h-[50vw] bg-white rounded-full mix-blend-overlay filter blur-[80px] animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
+         <div className="absolute bottom-[20%] left-[20%] w-[35vw] h-[35vw] bg-white rounded-full mix-blend-overlay filter blur-[50px] animate-pulse" style={{ animationDuration: '5s', animationDelay: '2s' }} />
+      </div>
 
-      {/* Title */}
-      <motion.h2
-        initial={{ opacity: 0, y: -16 }}
+      {/* Title Header */}
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.5 }}
-        className="text-xl font-bold text-slate-800 text-center z-10"
+        transition={{ delay: 0.5, duration: 0.8 }}
+        className="relative z-10 pt-16 px-6 text-center space-y-3"
       >
-        {t('watch_thoughts_drift', 'Watch your thoughts drift away...')}
-      </motion.h2>
+        <div className="inline-flex items-center justify-center p-3.5 bg-white/40 dark:bg-slate-800/40 backdrop-blur-md rounded-2xl shadow-sm border border-white/50 dark:border-slate-700/50 text-sky-500">
+          <Cloud size={28} strokeWidth={2.5} />
+        </div>
+        <h2 className="text-2xl font-black text-slate-800 dark:text-white tracking-tight">
+          {t('watch_thoughts_drift', 'Watch your thoughts drift away...')}
+        </h2>
+      </motion.div>
 
       {/* Flying thought clouds */}
-      <div className="relative w-full flex-1 overflow-hidden">
+      <div className="relative w-full flex-1">
         {thoughts.map((thought, i) => {
           const cfg = cloudConfigs[i];
           return (
             <motion.div
               key={i}
-              className="absolute flex items-center justify-center"
-              style={{ top: cfg.top, left: 0, right: 0 }}
-              initial={{ x: '-160px', opacity: 0 }}
-              animate={{ x: ['−160px', '0vw', '115vw'], opacity: [0, 1, 1] }}
+              className="absolute whitespace-nowrap"
+              style={{ top: cfg.top }}
+              initial={{ left: '-100%', opacity: 0 }}
+              animate={{ left: '120%', opacity: [0, 1, 1, 0] }}
               transition={{
-                x: { duration: cfg.duration, delay: cfg.delay, ease: [0.25, 0.46, 0.45, 0.94], repeat: Infinity, repeatDelay: 4 },
-                opacity: { duration: 0.6, delay: cfg.delay },
+                left: { duration: cfg.duration, delay: cfg.delay, ease: 'linear', repeat: Infinity },
+                opacity: { duration: cfg.duration, delay: cfg.delay, times: [0, 0.1, 0.9, 1], repeat: Infinity },
               }}
             >
-              <div className="relative flex items-center justify-center">
-                <span className={`${cfg.size} leading-none filter drop-shadow-lg select-none`}>☁️</span>
-                <span className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[45%] ${cfg.textSize} font-extrabold text-slate-700 max-w-[130px] text-center leading-snug`}>
+              {/* Premium Frosted Glass "Cloud" */}
+              <div className="flex items-center gap-3 px-6 py-4 bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-[2rem] border border-white/80 dark:border-slate-700 shadow-[0_8px_30px_rgb(0,0,0,0.08)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.2)]">
+                <Cloud className="text-sky-400 shrink-0" size={20} strokeWidth={3} />
+                <span className="font-bold text-slate-700 dark:text-slate-200 text-sm max-w-[200px] truncate">
                   "{thought}"
                 </span>
               </div>
@@ -86,34 +84,36 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
         })}
       </div>
 
-      {/* Bottom info + button */}
-      <div className="z-10 flex flex-col items-center gap-6 w-full max-w-sm">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.6 }}
-          className="text-center space-y-2 bg-white/40 backdrop-blur-md p-6 rounded-3xl border border-white/60 shadow-sm"
-        >
-          <p className="text-sm font-bold text-slate-700">
-            {t('watch_the_cloud_move_across_the_sky', 'Watch the clouds move across the sky.')}
-          </p>
-          <p className="text-sm font-bold text-slate-700">
-            {t('your_thought_is_simply_passing_through', 'Your thoughts are simply passing through.')}
-          </p>
-          <p className="text-xs font-black text-primary uppercase tracking-widest mt-1">
-            {t('you_are_the_sky_observing_it', 'You are the sky observing them.')}
-          </p>
-        </motion.div>
-        <motion.button
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 0.4 }}
-          onClick={onNext}
-          className="w-full py-4.5 rounded-2xl font-black text-base bg-primary text-primary-foreground hover:shadow-lg transition-all duration-200"
-        >
-          {t('btn_next', 'Next →')}
-        </motion.button>
-      </div>
+      {/* Bottom control panel */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1, duration: 0.8 }}
+        className="relative z-10 p-6 pb-12 w-full max-w-md mx-auto"
+      >
+        <div className="bg-white/60 dark:bg-slate-900/60 backdrop-blur-2xl p-6 rounded-[2.5rem] border border-white/80 dark:border-slate-800 shadow-2xl space-y-6 text-center">
+          <div className="space-y-1.5">
+            <p className="text-sm font-bold text-slate-600 dark:text-slate-300">
+              {t('watch_the_cloud_move_across_the_sky', 'Watch the clouds move across the sky.')}
+            </p>
+            <p className="text-sm font-bold text-slate-600 dark:text-slate-300">
+              {t('your_thought_is_simply_passing_through', 'Your thoughts are simply passing through.')}
+            </p>
+          </div>
+          <div className="inline-block px-5 py-2.5 bg-sky-100 dark:bg-sky-900/30 rounded-xl">
+            <p className="text-[10px] font-black text-sky-600 dark:text-sky-400 uppercase tracking-[0.2em]">
+              {t('you_are_the_sky_observing_it', 'You are the sky observing them.')}
+            </p>
+          </div>
+          
+          <button
+            onClick={onNext}
+            className="w-full py-5 rounded-2xl font-black text-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-xl hover:opacity-90 active:scale-[0.98] transition-all duration-300"
+          >
+            {t('btn_next', 'Next →')}
+          </button>
+        </div>
+      </motion.div>
     </motion.div>
   );
 }
