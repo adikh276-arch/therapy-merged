@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { Utensils, ChevronRight, Save, History, Sparkles, Trash2, Calendar, X } from "lucide-react";
@@ -663,7 +664,7 @@ function FoodEmotionMapInner() {
                       <div className="flex items-center gap-1.5 text-slate-400">
                         <Calendar size={12} />
                         <span className="text-[10px] font-black uppercase tracking-wider">
-                          {new Date(entry.date).toLocaleDateString()}
+                          {parseDbDate(entry.date).toLocaleDateString()}
                         </span>
                       </div>
 

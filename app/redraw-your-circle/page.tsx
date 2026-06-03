@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -463,7 +464,7 @@ function RedrawCircleInner() {
                         <div className="flex items-center gap-1.5 text-slate-400">
                           <Calendar size={12} />
                           <span className="text-[10px] font-black uppercase tracking-wider">
-                            {new Date(entry.date).toLocaleDateString()}
+                            {parseDbDate(entry.date).toLocaleDateString()}
                           </span>
                         </div>
                         <p className="text-slate-800 font-bold text-base line-clamp-1 leading-snug">
@@ -559,7 +560,7 @@ function RedrawCircleInner() {
               >
                 <div className="flex items-center justify-between mb-6 border-b border-slate-50 pb-2">
                   <h3 className="text-base font-black text-slate-900">
-                    Circle mapping — {new Date(selectedEntry.date).toLocaleDateString()}
+                    Circle mapping — {parseDbDate(selectedEntry.date).toLocaleDateString()}
                   </h3>
                   <button
                     onClick={() => setSelectedEntry(null)}

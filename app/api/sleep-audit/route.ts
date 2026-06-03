@@ -1,3 +1,4 @@
+import { parseDbDate } from '@/lib/dateUtils';
 import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { db } from "@/lib/db";
@@ -32,7 +33,7 @@ export async function GET() {
 
     const formatted = rows.map(r => ({
       id: r.id.toString(),
-      date: new Date(r.created_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }),
+      date: parseDbDate(r.created_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }),
       score: r.audit_data.score,
       rating: r.audit_data.rating,
       note: r.audit_data.note || ""

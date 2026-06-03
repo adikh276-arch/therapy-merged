@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -594,7 +595,7 @@ function GratitudeTrackerInner() {
                         <div className="flex items-center gap-2.5 text-slate-400">
                           <CalendarIcon size={16} />
                           <span className="text-xs font-bold uppercase tracking-wider">
-                            {new Date(selectedHistoryEntry.date + 'T00:00:00').toLocaleDateString(undefined, {
+                            {parseDbDate(selectedHistoryEntry.date + 'T00:00:00').toLocaleDateString(undefined, {
                               month: 'long',
                               day: 'numeric',
                               year: 'numeric',

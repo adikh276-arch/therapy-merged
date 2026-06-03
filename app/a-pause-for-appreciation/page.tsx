@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -469,7 +470,7 @@ function HistoryScreen({ onBack, prompts }: HistoryScreenProps) {
 
   const formatDateString = (dateStr: string) => {
     try {
-      return new Date(dateStr).toLocaleDateString('en-US', {
+      return parseDbDate(dateStr).toLocaleDateString('en-US', {
         month: 'short',
         day: 'numeric',
         year: 'numeric'

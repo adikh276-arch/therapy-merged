@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import { Mail, History, ChevronRight, X, Trash2, Calendar, ArrowLeft, Heart, Save } from "lucide-react";
@@ -403,7 +404,7 @@ function TheUnsentLetterInner() {
                       <div className="flex items-center gap-1.5 text-slate-400">
                         <Calendar size={12} />
                         <span className="text-[10px] font-black uppercase tracking-wider">
-                          {new Date(l.date).toLocaleDateString()}
+                          {parseDbDate(l.date).toLocaleDateString()}
                         </span>
                       </div>
 

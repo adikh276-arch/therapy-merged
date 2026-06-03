@@ -95,7 +95,7 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/a-letter-to-self" },
     ],
@@ -118,7 +118,7 @@ const topicDetails: Record<string, {
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 30, icon: Newspaper, url: "/resources/anxiety/articles" },
@@ -136,8 +136,8 @@ const topicDetails: Record<string, {
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/5_4_3_2_1_grounding" },
     ],
     todos: [
-      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "tools.environment_optimization", icon: Compass, url: "/environment-optimization" },
     ],
@@ -158,8 +158,8 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { titleKey: "tools.sleep-tracker", icon: Moon, url: "https://web.mantracare.com/app/sleep" },
-      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
     ],
     resources: [
@@ -180,7 +180,7 @@ const topicDetails: Record<string, {
     todos: [
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
     ],
     resources: [
@@ -201,7 +201,7 @@ const topicDetails: Record<string, {
     todos: [
       { titleKey: "tools.know_values", icon: Target, url: "/know-your-values" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.personal-mission-statement", icon: Compass, url: "/personal-mission-statement" },
     ],
     resources: [
@@ -221,9 +221,9 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { titleKey: "tools.physical_activity_log", icon: Activity, url: "/physical-activity-log" },
-      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 25, icon: Newspaper, url: "/resources/workplace/articles" },
@@ -242,7 +242,7 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/a-letter-to-self" },
     ],
@@ -265,7 +265,7 @@ const topicDetails: Record<string, {
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
-      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 18, icon: Newspaper, url: "/resources/anger/articles" },
@@ -286,7 +286,7 @@ const topicDetails: Record<string, {
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/grief/articles" },
@@ -306,7 +306,7 @@ const topicDetails: Record<string, {
     todos: [
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
-      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
       { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
     ],
     resources: [
@@ -328,7 +328,7 @@ const topicDetails: Record<string, {
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/a-letter-to-self" },
       { titleKey: "tools.know_values", icon: Target, url: "/know-your-values" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 16, icon: Newspaper, url: "/resources/acceptance/articles" },
@@ -346,8 +346,8 @@ const topicDetails: Record<string, {
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/5_4_3_2_1_grounding" },
     ],
     todos: [
-      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
     ],
@@ -368,7 +368,7 @@ const topicDetails: Record<string, {
     ],
     todos: [
       { titleKey: "tools.know_values", icon: Target, url: "/know-your-values" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
     ],
@@ -388,8 +388,8 @@ const topicDetails: Record<string, {
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
     ],
     todos: [
-      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/trackers/energy-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
     ],
@@ -411,7 +411,7 @@ const topicDetails: Record<string, {
     todos: [
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
-      { titleKey: "tools.care_tracker", icon: Heart, url: "/trackers/care-tracker" },
+      { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
       { titleKey: "tools.gratitude-tracker", icon: Star, url: "/gratitude-tracker" },
     ],
     resources: [

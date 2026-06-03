@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -763,7 +764,7 @@ function PhysicalActivityLogInner() {
                               </span>
                             </div>
                             <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">
-                              {new Date(a.date + 'T00:00:00').toLocaleDateString(undefined, {
+                              {parseDbDate(a.date + 'T00:00:00').toLocaleDateString(undefined, {
                                 weekday: 'short',
                                 month: 'short',
                                 day: 'numeric',

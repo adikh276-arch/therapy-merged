@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -264,7 +265,7 @@ function CompassionBreakInner() {
                     <div key={i} className="p-6 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 shadow-sm space-y-4">
                       <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-2">
                         <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">
-                          {new Date(e.createdAt || e.date).toLocaleDateString()}
+                          {parseDbDate(e.createdAt || e.date).toLocaleDateString()}
                         </span>
                         <div className="flex items-center gap-2">
                           <span className="text-slate-400 line-through text-xs">{e.beforeIntensity}</span>

@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useRef, forwardRef, useImperativeHandle, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -65,7 +66,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
     getDataUrl: () => {
       const canvas = canvasRef.current;
       if (!canvas) return null;
-      return canvas.toDataURL('image/png');
+      return canvas.toDataURL('image/webp', 0.5);
     },
   }));
 
@@ -705,7 +706,7 @@ function DoodleBurstInner() {
 
                       <div className="flex justify-between items-center pt-3 border-t border-slate-50 dark:border-slate-850 mt-3">
                         <span className="text-[9px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest">
-                          {new Date(entry.createdAt).toLocaleDateString(undefined, {
+                          {parseDbDate(entry.createdAt).toLocaleDateString(undefined, {
                             month: 'short',
                             day: 'numeric',
                             hour: '2-digit',

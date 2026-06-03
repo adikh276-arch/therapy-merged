@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -481,7 +482,7 @@ function PersonalMissionStatementInner() {
                           <div className="flex items-center gap-2 text-slate-400">
                             <Calendar size={14} />
                             <span className="text-[10px] font-bold uppercase tracking-wider">
-                              {new Date(m.date).toLocaleDateString(undefined, {
+                              {parseDbDate(m.date).toLocaleDateString(undefined, {
                                 month: 'long',
                                 day: 'numeric',
                                 year: 'numeric',

@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -212,7 +213,7 @@ function PredictionVsRealityInner() {
                   <div className="flex justify-between items-center pr-6">
                     <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-slate-350">
                       <Calendar size={12} />
-                      {new Date(entry.date).toLocaleDateString()}
+                      {parseDbDate(entry.date).toLocaleDateString()}
                     </div>
                     <div className="flex gap-1 flex-wrap">
                       {entry.emotions.map(em => (

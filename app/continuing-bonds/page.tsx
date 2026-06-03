@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useMemo, useEffect } from "react";
 import { Heart, History, Save, ChevronRight, X, Trash2, Calendar, Sparkles } from "lucide-react";
@@ -412,7 +413,7 @@ function ContinuingBondsInner() {
                       <div className="flex items-center gap-1.5 text-slate-400">
                         <Calendar size={12} />
                         <span className="text-[10px] font-black uppercase tracking-wider">
-                          {new Date(ref.createdAt).toLocaleDateString()}
+                          {parseDbDate(ref.createdAt).toLocaleDateString()}
                         </span>
                       </div>
 

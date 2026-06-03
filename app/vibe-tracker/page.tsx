@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -149,7 +150,7 @@ function VibeTrackerInner() {
   };
 
   const formatTime = (dateStr: string) => {
-    return new Date(dateStr).toLocaleTimeString(i18n.language, {
+    return parseDbDate(dateStr).toLocaleTimeString(i18n.language, {
       hour: "numeric",
       minute: "2-digit",
       hour12: true,

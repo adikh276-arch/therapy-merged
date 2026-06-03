@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
@@ -302,7 +303,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
                     <div key={idx} className="bg-white p-8 rounded-[32px] border border-white/60 shadow-sm">
                       <div className="flex justify-between items-center mb-6">
                         <span className="text-[10px] font-black text-blue-600 bg-blue-50 px-3 py-1.5 rounded-full">
-                          {new Date(entry.created_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}
+                          {parseDbDate(entry.created_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}
                         </span>
                       </div>
                       <div className="space-y-3">

@@ -9,14 +9,14 @@
             "description": "Track daily changes in your mood",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           },
           {
             "name": "Energy Tracker",
             "description": "Notice patterns in your energy levels",
             "icon": "Zap",
             "color": "#F97316",
-            "route": "/trackers/energy-tracker"
+            "route": "/energy-tracker"
           },
           {
             "name": "What Are Your Habits?",
@@ -87,14 +87,14 @@
             "description": "Build a daily habit of gratitude",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           },
           {
             "name": "Care Tracker",
             "description": "Log your self-care activities each day",
             "icon": "Heart",
             "color": "#F97316",
-            "route": "/trackers/care-tracker"
+            "route": "/care-tracker"
           },
           {
             "name": "Depression Tips",
@@ -117,7 +117,7 @@
             "description": "Monitor your anxiety levels day by day",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           },
           {
             "name": "What Are Your Habits?",
@@ -202,7 +202,7 @@
             "description": "Track your self-care activities every day",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/care-tracker"
+            "route": "/care-tracker"
           },
           {
             "name": "Anxiety Tips",
@@ -225,14 +225,14 @@
             "description": "Check in with your mood and stress levels",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           },
           {
             "name": "Energy Tracker",
             "description": "Monitor energy dips that signal stress",
             "icon": "Zap",
             "color": "#F97316",
-            "route": "/trackers/energy-tracker"
+            "route": "/energy-tracker"
           }
         ]
       },
@@ -296,7 +296,7 @@
             "description": "Movement is one of the best stress relievers",
             "icon": "Activity",
             "color": "#10B981",
-            "route": "/trackers/physical-activity-log"
+            "route": "/physical-activity-log"
           },
           {
             "name": "Environment Optimization",
@@ -310,7 +310,7 @@
             "description": "Shift focus to what's going right",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           },
           {
             "name": "Stress Tips",
@@ -333,7 +333,7 @@
             "description": "Understand your current sleep quality",
             "icon": "Moon",
             "color": "#3B82F6",
-            "route": "/trackers/sleep-audit"
+            "route": "/sleep-audit"
           },
           {
             "name": "Sleep Window Planner",
@@ -347,7 +347,7 @@
             "description": "See how sleep affects your daytime energy",
             "icon": "Zap",
             "color": "#F97316",
-            "route": "/trackers/energy-tracker"
+            "route": "/energy-tracker"
           }
         ]
       },
@@ -411,7 +411,7 @@
             "description": "Exercise for better, deeper sleep",
             "icon": "Activity",
             "color": "#10B981",
-            "route": "/trackers/physical-activity-log"
+            "route": "/physical-activity-log"
           },
           {
             "name": "Affirmations",
@@ -425,7 +425,7 @@
             "description": "End the day with gratitude for better sleep",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           }
         ]
       }
@@ -441,14 +441,14 @@
             "description": "Track how you're feeling each day",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           },
           {
             "name": "Energy Tracker",
             "description": "Notice what drains and restores your energy",
             "icon": "Zap",
             "color": "#F97316",
-            "route": "/trackers/energy-tracker"
+            "route": "/energy-tracker"
           },
           {
             "name": "What Are Your Habits?",
@@ -519,14 +519,14 @@
             "description": "Notice the good things in your day",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           },
           {
             "name": "Care Tracker",
             "description": "Build consistent self-care habits",
             "icon": "Heart",
             "color": "#F97316",
-            "route": "/trackers/care-tracker"
+            "route": "/care-tracker"
           },
           {
             "name": "Know Your Values",
@@ -608,7 +608,7 @@
             "description": "Appreciate the good in your relationships",
             "icon": "Star",
             "color": "#F59E0B",
-            "route": "/trackers/a-pause-for-appreciation"
+            "route": "/a-pause-for-appreciation"
           },
           {
             "name": "Affirmations",
@@ -627,14 +627,14 @@
             "description": "Track how relationships affect your mood",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           },
           {
             "name": "Gratitude Tracker",
             "description": "Notice the positive aspects of your connections",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           },
           {
             "name": "Know Your Values",
@@ -657,14 +657,14 @@
             "description": "Track how work is affecting your mood",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           },
           {
             "name": "Energy Tracker",
             "description": "Spot burnout before it takes over",
             "icon": "Zap",
             "color": "#F97316",
-            "route": "/trackers/energy-tracker"
+            "route": "/energy-tracker"
           }
         ]
       },
@@ -716,7 +716,7 @@
             "description": "Stay active to counteract desk fatigue",
             "icon": "Activity",
             "color": "#10B981",
-            "route": "/trackers/physical-activity-log"
+            "route": "/physical-activity-log"
           }
         ]
       },
@@ -749,7 +749,7 @@
             "description": "Maintain self-care alongside your work life",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/care-tracker"
+            "route": "/care-tracker"
           }
         ]
       }
@@ -765,14 +765,14 @@
             "description": "Check in with how you're feeling as a parent",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           },
           {
             "name": "Energy Tracker",
             "description": "Notice what depletes and restores you",
             "icon": "Zap",
             "color": "#F97316",
-            "route": "/trackers/energy-tracker"
+            "route": "/energy-tracker"
           }
         ]
       },
@@ -784,7 +784,7 @@
             "description": "Pause and notice the good moments",
             "icon": "Star",
             "color": "#F59E0B",
-            "route": "/trackers/a-pause-for-appreciation"
+            "route": "/a-pause-for-appreciation"
           },
           {
             "name": "Box Breathing",
@@ -836,21 +836,21 @@
             "description": "Reflect on small wins in your parenting day",
             "icon": "Book",
             "color": "#F59E0B",
-            "route": "/trackers/daily-gratitude-diary"
+            "route": "/daily-gratitude-diary"
           },
           {
             "name": "Gratitude Tracker",
             "description": "Notice the joys of parenthood",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           },
           {
             "name": "Care Tracker",
             "description": "Remember to take care of yourself too",
             "icon": "Heart",
             "color": "#F97316",
-            "route": "/trackers/care-tracker"
+            "route": "/care-tracker"
           },
           {
             "name": "Know Your Values",
@@ -887,7 +887,7 @@
             "description": "Track triggers and patterns in your anger",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           }
         ]
       },
@@ -965,7 +965,7 @@
             "description": "Spot the moments when you're most reactive",
             "icon": "Zap",
             "color": "#F97316",
-            "route": "/trackers/energy-tracker"
+            "route": "/energy-tracker"
           }
         ]
       }
@@ -1066,14 +1066,14 @@
             "description": "Notice moments of beauty amidst grief",
             "icon": "Heart",
             "color": "#F59E0B",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           },
           {
             "name": "Vibe Tracker",
             "description": "Track your emotional journey through grief",
             "icon": "Smile",
             "color": "#64748B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           }
         ]
       }
@@ -1181,7 +1181,7 @@
             "description": "Track your healing journey over time",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           }
         ]
       }
@@ -1223,7 +1223,7 @@
             "description": "Pause and notice what is already good",
             "icon": "Star",
             "color": "#F59E0B",
-            "route": "/trackers/a-pause-for-appreciation"
+            "route": "/a-pause-for-appreciation"
           },
           {
             "name": "Compassion Break",
@@ -1275,7 +1275,7 @@
             "description": "Build a foundation of daily appreciation",
             "icon": "Heart",
             "color": "#EC4899",
-            "route": "/trackers/gratitude-tracker"
+            "route": "/gratitude-tracker"
           },
           {
             "name": "A Letter to Self",
@@ -1289,14 +1289,14 @@
             "description": "Commit to caring for yourself every day",
             "icon": "Heart",
             "color": "#F97316",
-            "route": "/trackers/care-tracker"
+            "route": "/care-tracker"
           },
           {
             "name": "Vibe Tracker",
             "description": "Track how acceptance shapes your daily mood",
             "icon": "Smile",
             "color": "#F59E0B",
-            "route": "/trackers/vibe-tracker"
+            "route": "/vibe-tracker"
           }
         ]
       }

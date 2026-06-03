@@ -1,4 +1,5 @@
 'use client';
+import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -521,7 +522,7 @@ function KnowYourValuesInner() {
                               {t(`values.${r.valueName}`, r.valueName)}
                             </h4>
                             <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">
-                              {new Date(r.date).toLocaleDateString(undefined, {
+                              {parseDbDate(r.date).toLocaleDateString(undefined, {
                                 month: 'long',
                                 day: 'numeric',
                                 year: 'numeric',

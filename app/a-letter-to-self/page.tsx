@@ -588,7 +588,20 @@ function ALetterToSelfInner() {
       const res = await fetch(apiPath('/api/letters'));
       if (res.ok) {
         const data = await res.json();
-        setEntries(data);
+        const formatted = data.map((row: any) => {
+          const dateStr = (row.created_at || new Date().toISOString()).replace(' ', 'T') + (!row.created_at || row.created_at.includes('Z') ? '' : 'Z');
+          const d = new Date(dateStr);
+          return {
+            id: row.id,
+            content: row.content,
+            emotionalState: row.emotional_state,
+            createdAt: row.created_at,
+            updatedAt: row.updated_at,
+            date: d.toISOString(),
+            time: d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+          };
+        });
+        setEntries(formatted);
       }
     } catch (err) {
       console.error('Failed to fetch letters from server:', err);
