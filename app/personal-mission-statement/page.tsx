@@ -4,11 +4,12 @@ import { parseDbDate } from '@/lib/dateUtils';
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Compass, Sparkles, Heart, Pencil, Save, History, Loader2, ArrowLeft, Check, Trash2, Calendar, Target, ArrowRight } from 'lucide-react';
+import { Compass, Sparkles, Heart, Pencil, Share2, History, Loader2, ArrowLeft, Check, Trash2, Calendar, Target, ArrowRight } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
+import ShareModal from '@/components/shared/ShareModal';
 import { apiPath } from '@/lib/apiPath';
 
 const VALUES_OPTIONS = [
@@ -57,6 +58,7 @@ function PersonalMissionStatementInner() {
   const [historyList, setHistoryList] = useState<SavedMission[]>([]);
   const [historyLoading, setHistoryLoading] = useState(false);
   const [saveLoading, setSaveLoading] = useState(false);
+  const [isShareOpen, setIsShareOpen] = useState(false);
 
   // Sync lang URL parameter
   useEffect(() => {
@@ -357,49 +359,96 @@ function PersonalMissionStatementInner() {
                 key="result"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="w-full flex-1 flex flex-col pb-20"
+                className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
                   title={t('app_title', 'Personal Mission')}
-                  message={t('mission_is_reminder', 'Here is your drafted mission statement. You can edit the text directly.')}
-                  onRestart={handleResetFlow}
-                >
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0.97 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white p-6 shadow-sm text-center relative overflow-hidden"
-                  >
-                    <textarea
-                      value={statement}
-                      onChange={(e) => setStatement(e.target.value)}
-                      className="w-full bg-transparent text-slate-800 text-base font-semibold border-none p-0 resize-none placeholder:text-slate-300 focus:outline-none transition-all leading-[1.8] text-center min-h-[140px]"
-                    />
-                  </motion.div>
+                  message={t('mission_is_reminder', 'Your mission statement is ready. Tap to edit the text directly.')}
+                  shareContent={`My Personal Mission Statement:\n\n"${statement}"\n\nCreated with TherapyMantra 🌿\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                  shareEmoji="🧭"
+                  customActions={
+                    <div className="space-y-3">
+                      {/* Editable statement card */}
+                      <div
+                        className="rounded-2xl p-5 relative overflow-hidden"
+                        style={{
+                          background: 'linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)',
+                          border: '1.5px solid rgba(186,230,255,0.7)',
+                          boxShadow: '0 2px 12px rgba(14,165,233,0.08)',
+                        }}
+                      >
+                        <div className="flex items-center gap-2 mb-3">
+                          <Sparkles size={13} className="text-sky-400" />
+                          <span className="text-[11px] font-bold text-sky-500 uppercase tracking-widest">
+                            {t('mission_your_statement', 'Your Statement')}
+                          </span>
+                          <span className="ml-auto text-[10px] text-slate-400 italic flex items-center gap-1">
+                            <Pencil size={9} /> tap to edit
+                          </span>
+                        </div>
+                        <textarea
+                          value={statement}
+                          onChange={(e) => setStatement(e.target.value)}
+                          className="w-full bg-transparent text-slate-800 text-[15px] font-semibold border-none p-0 resize-none focus:outline-none leading-[1.8] text-center min-h-[120px]"
+                          style={{ fontStyle: 'italic' }}
+                        />
+                      </div>
 
-                  <div className="space-y-3 text-slate-500 text-xs leading-relaxed text-center italic max-w-xs mx-auto">
-                    <p>{t('mission_not_rule', 'Remember: This is a supportive declaration, not a rigid set of rules.')}</p>
-                    <p>{t('mission_return_whenever', 'Return and reflect whenever you need to align your decisions.')}</p>
-                  </div>
+                      <p className="text-center text-[12px] text-slate-400 italic leading-relaxed">
+                        {t('mission_not_rule', 'A supportive declaration — not a rigid rule. Return whenever you need direction.')}
+                      </p>
 
-                  <div className="grid grid-cols-2 gap-3">
-                    <button
-                      onClick={handleSaveStatement}
-                      disabled={saveLoading}
-                      className="act-btn-primary"
-                    >
-                      {saveLoading ? <Loader2 className="animate-spin w-4 h-4" /> : <Save size={15} strokeWidth={2.5} />}
-                      {t('mission_save', 'Save Statement')}
-                    </button>
+                      {/* Primary: Save & Finish */}
+                      <button
+                        onClick={handleSaveStatement}
+                        disabled={saveLoading}
+                        className="act-btn-primary"
+                      >
+                        {saveLoading
+                          ? <Loader2 className="animate-spin w-4 h-4" />
+                          : <Check size={17} strokeWidth={2.5} />}
+                        {saveLoading
+                          ? t('saving', 'Saving...')
+                          : t('mission_save_finish', 'Save & Finish')}
+                      </button>
 
-                    <button
-                      onClick={() => setScreen(2)}
-                      className="h-12 bg-white/80 backdrop-blur-sm border border-white text-slate-600 font-semibold text-sm rounded-xl flex items-center justify-center gap-2 hover:bg-white hover:border-sky-100 transition-all"
-                    >
-                      <Pencil size={14} />
-                      {t('mission_edit', 'Modify Draft')}
-                    </button>
-                  </div>
-                </PremiumComplete>
+                      {/* Secondary row: Share + Edit */}
+                      <div className="grid grid-cols-2 gap-3">
+                        <button
+                          onClick={() => setIsShareOpen(true)}
+                          className="h-[50px] rounded-2xl flex items-center justify-center gap-2 font-semibold text-[14px] text-sky-600 transition-all"
+                          style={{
+                            background: '#f0f9ff',
+                            border: '1.5px solid rgba(186,230,255,0.8)',
+                          }}
+                        >
+                          <Share2 size={15} strokeWidth={2} />
+                          {t('mission_share', 'Share')}
+                        </button>
+                        <button
+                          onClick={() => setScreen(2)}
+                          className="h-[50px] rounded-2xl flex items-center justify-center gap-2 font-semibold text-[14px] text-slate-500 transition-all"
+                          style={{
+                            background: '#f8fafc',
+                            border: '1.5px solid rgba(226,232,240,0.8)',
+                          }}
+                        >
+                          <Pencil size={14} strokeWidth={2} />
+                          {t('mission_edit', 'Edit Draft')}
+                        </button>
+                      </div>
+
+                      {/* Start over — minimal */}
+                      <button
+                        onClick={handleResetFlow}
+                        className="w-full py-3 text-[13px] text-slate-400 font-medium hover:text-slate-600 transition-colors flex items-center justify-center gap-1.5"
+                      >
+                        <ArrowLeft size={13} />
+                        {t('mission_start_over', 'Start Over')}
+                      </button>
+                    </div>
+                  }
+                />
               </motion.div>
             )}
 
@@ -518,6 +567,13 @@ function PersonalMissionStatementInner() {
           </AnimatePresence>
         </div>
       </div>
+      <ShareModal
+        isOpen={isShareOpen}
+        onClose={() => setIsShareOpen(false)}
+        activityName={t('app_title', 'Personal Mission Statement')}
+        shareContent={statement ? `My Personal Mission Statement:\n\n"${statement}"\n\nCreated with TherapyMantra 🌿\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888` : undefined}
+        emoji="🧭"
+      />
     </PremiumLayout>
   );
 }
