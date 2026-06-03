@@ -68,7 +68,23 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
     getDataUrl: () => {
       const canvas = canvasRef.current;
       if (!canvas) return null;
-      return canvas.toDataURL('image/webp', 0.5);
+      
+      // Scale down image drastically to avoid hitting Next.js req.json() 1MB limits
+      const targetSize = 400;
+      const scale = Math.min(1, Math.min(targetSize / canvas.width, targetSize / canvas.height));
+      
+      const offScreenCanvas = document.createElement('canvas');
+      offScreenCanvas.width = canvas.width * scale;
+      offScreenCanvas.height = canvas.height * scale;
+      
+      const ctx = offScreenCanvas.getContext('2d');
+      if (ctx) {
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, offScreenCanvas.width, offScreenCanvas.height);
+        ctx.drawImage(canvas, 0, 0, offScreenCanvas.width, offScreenCanvas.height);
+      }
+      
+      return offScreenCanvas.toDataURL('image/webp', 0.4);
     },
   }));
 
