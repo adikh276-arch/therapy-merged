@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -73,6 +73,8 @@ function ChallengingFoodRulesInner() {
           title={t("app_title")}
           message={t("complete_message")}
           onRestart={resetFlow}
+                  shareEmoji="🍽️"
+                  shareContent={"I just completed 'Challenging Food Rules' on TherapyMantra — a guided mindful eating exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -293,6 +293,8 @@ function JoyfulActivitiesInner() {
                     'Your commitment plan is saved. Focus on taking that small step, and appreciate yourself for starting.'
                   )}
                   onRestart={handleResetFlow}
+                  shareEmoji="🌈"
+                  shareContent={"I just completed 'Reconstruct Joy' on TherapyMantra — a guided joy planning that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm text-left space-y-5 p-5">
                     <div className="flex items-center gap-3 border-b border-sky-50 pb-4">

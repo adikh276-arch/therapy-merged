@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -945,6 +945,8 @@ function BrainDumpAppInner() {
         title={t('app_title', 'Clarity Dump')}
         message={t('complete_message', "You've successfully sorted your thoughts and identified actionable steps. A clearer mind leads to a calmer heart.")}
         onRestart={() => goTo(0)}
+                  shareEmoji="🧠"
+                  shareContent={"I just completed 'Brain Dump and Sort' on TherapyMantra — a guided mental clarity exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

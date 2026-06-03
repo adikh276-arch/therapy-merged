@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useMemo, forwardRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -238,6 +238,8 @@ function MemoryBoxInner() {
         title={t("app_title", "Memory Box")}
         message={t("complete_message", `You have beautifully stored a memory of {{name}} in your digital box.`, { name: name || "your loved one" })}
         onRestart={resetAll}
+                  shareEmoji="📦"
+                  shareContent={"I just completed 'Memory Box' on TherapyMantra — a guided memory preservation that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

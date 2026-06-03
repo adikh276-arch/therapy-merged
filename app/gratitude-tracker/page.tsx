@@ -395,6 +395,8 @@ function GratitudeTrackerInner() {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
+        shareEmoji="🙏"
+        shareContent={`I just completed "Gratitude Tracker" on TherapyMantra — a guided gratitude practice that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                   title={t('common.well_done', 'Well Done!')}
                   message={t(
                     'common.completion_message',

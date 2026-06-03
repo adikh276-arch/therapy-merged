@@ -676,6 +676,8 @@ function DiffusionTechniqueInner() {
                     className="w-full"
                   >
                     <PremiumComplete
+        shareEmoji="🫧"
+        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                       title={t('conclusion_sky_title', 'The Thought Drifted Away')}
                       message={
                         t('conclusion_sky_desc1', 'Thoughts are like clouds in the sky.') +
@@ -818,6 +820,8 @@ function DiffusionTechniqueInner() {
                     className="w-full"
                   >
                     <PremiumComplete
+        shareEmoji="🫧"
+        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                       title={
                         sellValue < 30
                           ? t('sell_result_low_title', 'Not a great deal')
@@ -947,6 +951,8 @@ function DiffusionTechniqueInner() {
                     className="w-full text-left"
                   >
                     <PremiumComplete
+        shareEmoji="🫧"
+        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                       title={t('conclusion_name_title', 'You Named the Story')}
                       message={`${t('conclusion_name_desc1', 'Our minds often repeat the same stories again and again.')} ${t(
                         'conclusion_name_desc2',

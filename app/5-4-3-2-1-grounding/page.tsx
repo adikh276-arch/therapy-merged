@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useCallback, useEffect, useMemo } from "react";
 import { useTranslation, I18nextProvider } from "react-i18next";
@@ -103,6 +103,8 @@ function GroundingInner() {
           message={t("common.completion_message")}
           onRestart={handleRestart}
           icon={<Compass size={48} />}
+                  shareEmoji="🌿"
+                  shareContent={"I just completed '5-4-3-2-1 Grounding' on TherapyMantra — a guided grounding technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         >
           {reflectionWord && (
             <div className="bg-white p-6 rounded-2xl border border-white/60 shadow-sm text-center mt-6">

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useRef, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -261,6 +261,8 @@ function ResultScreen({ scenario, onTryAgain, onDone }: { scenario: string; onTr
         message={t("result.message")}
         onRestart={onTryAgain}
         icon={<Sparkles size={48} />}
+                  shareEmoji="🧘"
+                  shareContent={"I just completed 'The Pause Practice' on TherapyMantra — a guided mindfulness practice that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="space-y-6 my-10">
           <motion.div

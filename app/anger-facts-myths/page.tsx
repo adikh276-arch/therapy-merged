@@ -290,30 +290,29 @@ function AngerQuizInner() {
               key="final"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="flex-1 flex flex-col items-center text-center gap-8 py-6"
+              className="flex-1 flex flex-col w-full"
             >
-              <div className="w-full bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-850 rounded-[3.5rem] p-10 shadow-2xl">
-                <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-6 text-5xl">
-                  🏆
+              <PremiumComplete
+                title={t("results_title", "Anger Quiz Complete!")}
+                message={t("results_message", "You've gained a better understanding of how anger functions in our lives.")}
+                onRestart={handleRetry}
+                shareEmoji="🔥"
+                shareContent={`I just scored ${score}/${TOTAL} on the Anger Facts & Myths Quiz in TherapyMantra. 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+              >
+                <div className="w-full bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-8 shadow-xl text-center my-6">
+                  <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-6 text-4xl">
+                    🏆
+                  </div>
+                  <div className="text-6xl font-black text-slate-900 dark:text-white tabular-nums mb-2">
+                    {score}<span className="text-slate-300 dark:text-slate-700 text-3xl">/{TOTAL}</span>
+                  </div>
+                  <p className="text-slate-500 dark:text-slate-400 font-bold text-sm uppercase tracking-widest">
+                    {score === TOTAL ? t("expert_level", "Perfect Awareness!") : 
+                     score >= 3 ? t("great_progress", "Excellent Understanding") : 
+                     t("learning_journey", "Great Learning Journey")}
+                  </p>
                 </div>
-                <h2 className="text-2xl font-black text-slate-800 dark:text-white mb-2">{t("results_title", "Anger Quiz Complete!")}</h2>
-                <div className="text-7xl font-black text-slate-900 dark:text-white my-8 tabular-nums">{score}<span className="text-slate-300 dark:text-slate-700 text-4xl">/{TOTAL}</span></div>
-                <p className="text-slate-500 dark:text-slate-400 font-black text-sm leading-relaxed uppercase tracking-widest px-4">
-                  {score === TOTAL ? t("expert_level", "Perfect Awareness!") : 
-                   score >= 3 ? t("great_progress", "Excellent Understanding") : 
-                   t("learning_journey", "Great Learning Journey")}
-                </p>
-              </div>
-
-              <div className="w-full space-y-4">
-                <button
-                  onClick={handleRetry}
-                  className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
-                >
-                  <RotateCcw size={20} strokeWidth={3} />
-                  {t("try_again", "Try Again")}
-                </button>
-              </div>
+              </PremiumComplete>
             </motion.div>
           )}
         </AnimatePresence>

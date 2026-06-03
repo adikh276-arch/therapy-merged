@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -65,6 +65,8 @@ function UnderstandingControlInner() {
         title={t("app_title", "Understanding Control")}
         message={t("complete.message", "Understanding the roots of control is a brave first step toward finding new ways to feel safe and steady.")}
         onRestart={() => setCurrent(0)}
+                  shareEmoji="🎛️"
+                  shareContent={"I just completed 'Understanding Control' on TherapyMantra — a guided anxiety management that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

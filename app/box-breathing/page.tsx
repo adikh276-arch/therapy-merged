@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Pause, Play, RotateCcw, Wind } from 'lucide-react';
@@ -244,6 +244,8 @@ function BoxBreathingInner() {
                 message={t('app_complete_message', '')}
                 onRestart={() => setScreen('session')}
                 icon={<Wind size={48} />}
+                  shareEmoji="🟦"
+                  shareContent={"I just completed 'Box Breathing' on TherapyMantra — a guided breathing exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
               />
             </motion.div>
           )}

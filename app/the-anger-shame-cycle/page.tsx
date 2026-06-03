@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from "react";
 import { RefreshCw, ChevronRight, Heart, AlertCircle, ShieldAlert } from "lucide-react";
@@ -64,6 +64,8 @@ function AngerShameCycleInner() {
           title={t("app_title", "Anger-Shame Cycle")}
           message={t("complete.message", "You've gained the awareness to see the link between anger and shame. This is the foundation for lasting emotional freedom.")}
           onRestart={resetFlow}
+                  shareEmoji="💢"
+                  shareContent={"I just completed 'Anger-Shame Cycle' on TherapyMantra — a guided emotional awareness that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );

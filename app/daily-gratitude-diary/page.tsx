@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -362,6 +362,8 @@ function DailyGratitudeInner() {
                   message={t('app_complete_message', 'Reflecting on what you\'re thankful for is a powerful way to shift your focus to the positive.')}
                   onRestart={resetFlow}
                   icon={<Sparkles size={48} />}
+                  shareEmoji="📖"
+                  shareContent={"I just completed 'Daily Gratitude Diary' on TherapyMantra — a guided gratitude journaling that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="flex justify-center mt-10">
                     <motion.button

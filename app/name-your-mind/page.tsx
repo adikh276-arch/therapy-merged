@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -350,6 +350,8 @@ function NameYourMindInner() {
         onRestart={reset}
         icon={<Brain size={48} />}
         hideShare={false}
+                  shareEmoji="🧩"
+                  shareContent={"I just completed 'Name Your Mind' on TherapyMantra — a guided mindfulness technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="mt-8 p-6 bg-primary/5 rounded-2xl border border-primary/10 text-center">
           <p className="text-sm font-bold text-slate-600 dark:text-slate-300 italic leading-relaxed">

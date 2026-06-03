@@ -385,53 +385,39 @@ function GentleWishInner() {
               key="reflection"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="flex-1 flex flex-col items-center justify-center text-center gap-6"
+              className="flex-1 flex flex-col w-full"
             >
-              <h2 className="text-3xl font-black text-slate-800 dark:text-white">
-                {t("reflection_title", "Tribute Preserved")}
-              </h2>
-
-              <div className="bg-white dark:bg-slate-900 rounded-3xl p-8 w-full space-y-6 shadow-xl border border-slate-50 dark:border-slate-850">
-                <div>
-                  <p className="field-label">
-                    {t("label_thinking_of", "Honoring")}
-                  </p>
-                  <p className="text-xl font-black text-slate-850 dark:text-white">{name}</p>
-                </div>
-                <div>
-                  <p className="field-label">
-                    {t("label_what_they_want", "Your Gentle Wish")}
-                  </p>
-                  <p className="text-slate-700 dark:text-slate-300 leading-relaxed font-bold italic">"{wish}"</p>
-                </div>
-                {smallStep && (
+              <PremiumComplete
+                title={t("reflection_title", "Tribute Preserved")}
+                message={t("reflection_footer", "Your thoughts and commitments are kept secure. Let these memories continue to spark light inside you.")}
+                shareEmoji="🤍"
+                shareContent={`I just dedicated a Gentle Wish to honor a loved one on TherapyMantra 🕊️\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                onHome={() => setScreen("welcome")}
+                onRestart={addAnother}
+              >
+                <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 w-full space-y-5 shadow-sm border border-slate-100 dark:border-slate-800 my-4 text-left">
                   <div>
-                    <p className="text-[10px] text-slate-405 dark:text-slate-500 uppercase tracking-widest font-black mb-1">
-                      {t("label_your_step", "Your Carry Forward Practice")}
+                    <p className="text-[10px] text-slate-400 uppercase tracking-widest font-black mb-1">
+                      {t("label_thinking_of", "Honoring")}
                     </p>
-                    <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-bold">"{smallStep}"</p>
+                    <p className="text-lg font-black text-slate-800 dark:text-white">{name}</p>
                   </div>
-                )}
-              </div>
-
-              <p className="text-xs text-slate-450 dark:text-slate-500 mt-4 leading-relaxed max-w-xs font-semibold">
-                {t("reflection_footer", "Your thoughts and commitments are kept secure. Let these memories continue to spark light inside you.")}
-              </p>
-
-              <div className="mt-auto pt-8 space-y-3 w-full">
-                <button
-                  className="w-full bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 py-5 rounded-2xl font-black text-lg hover:opacity-90 transition-all flex items-center justify-center gap-2"
-                  onClick={addAnother}
-                >
-                  {t("add_another_button", "Honour Another Memory")}
-                </button>
-                <button
-                  className="w-full bg-white text-slate-650 dark:bg-slate-900 dark:text-slate-300 py-5 rounded-2xl font-black text-lg border border-slate-200 dark:border-slate-800 hover:bg-slate-50 transition-all"
-                  onClick={() => setScreen("welcome")}
-                >
-                  {t("finish_button", "Return Home")}
-                </button>
-              </div>
+                  <div>
+                    <p className="text-[10px] text-slate-400 uppercase tracking-widest font-black mb-1">
+                      {t("label_what_they_want", "Your Gentle Wish")}
+                    </p>
+                    <p className="text-slate-600 dark:text-slate-300 leading-relaxed font-bold italic">"{wish}"</p>
+                  </div>
+                  {smallStep && (
+                    <div>
+                      <p className="text-[10px] text-slate-400 uppercase tracking-widest font-black mb-1">
+                        {t("label_your_step", "Your Carry Forward Practice")}
+                      </p>
+                      <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-bold">"{smallStep}"</p>
+                    </div>
+                  )}
+                </div>
+              </PremiumComplete>
             </motion.div>
           )}
 

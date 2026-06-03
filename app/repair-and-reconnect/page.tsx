@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -116,6 +116,8 @@ function RepairReconnectInner() {
           title={t("app_title", "Repair & Reconnect")}
           message={t("complete.message", `You've taken a brave step toward repairing your connection with {{person}}. Small, intentional actions build lasting bridges.`, { person: personLabel })}
           onRestart={reset}
+                  shareEmoji="🤝"
+                  shareContent={"I just completed 'Repair and Reconnect' on TherapyMantra — a guided relationship repair that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );

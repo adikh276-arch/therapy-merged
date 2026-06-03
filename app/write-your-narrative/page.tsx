@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -406,6 +406,8 @@ function WritingNarrativeInner() {
         title={t("app_title")}
         message={t("complete.message")}
         onRestart={() => setScreen("entry")}
+                  shareEmoji="📝"
+                  shareContent={"I just completed 'Write Your Narrative' on TherapyMantra — a guided narrative therapy that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

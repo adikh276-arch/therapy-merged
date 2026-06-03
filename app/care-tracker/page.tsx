@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -625,6 +625,8 @@ function CareTrackerInner() {
                   title={t('app_title', 'Self-Care Log')}
                   message={t('screens.review.subtitle', "Fantastic work reflecting on today's self-care habits.")}
                   onRestart={resetFlow}
+                  shareEmoji="🌱"
+                  shareContent={"I just completed 'Self-Care Log' on TherapyMantra — a guided self-care tracking that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="grid gap-3 w-full max-w-md mx-auto mt-10">
                     <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">

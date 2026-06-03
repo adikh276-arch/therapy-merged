@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation as useTrans, I18nextProvider as I18nProvider } from 'react-i18next';
@@ -495,6 +495,8 @@ function EnergyTrackerInner() {
                   message={supportiveMessages[activeLevel]}
                   onRestart={handleReset}
                   icon={<span className="text-6xl filter drop-shadow-md">{EMOJI_MAP[activeLevel]}</span>}
+                  shareEmoji="⚡"
+                  shareContent={"I just completed 'Energy Tracker' on TherapyMantra — a guided energy tracking that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="space-y-5 w-full mt-6">
                     <div className="grid gap-3">

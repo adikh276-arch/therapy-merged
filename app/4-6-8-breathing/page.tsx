@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import { RotateCcw, Wind, Play, Pause, RefreshCw } from "lucide-react";
@@ -158,6 +158,8 @@ function BreathingInner() {
             setScreen("breathing");
           }}
           icon={<Wind size={48} />}
+                  shareEmoji="🌬️"
+                  shareContent={"I just completed '4-6-8 Breathing' on TherapyMantra — a guided breathing exercises that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         >
           <div className="w-full flex flex-col gap-4 text-left mt-8">
             <p className="text-xs font-black text-slate-400 uppercase tracking-widest px-2">

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -362,6 +362,8 @@ function MindReadingInner() {
                 message={t('complete.message', "By questioning your assumptions, you're building a more objective and compassionate mind.")}
                 onRestart={reset}
                 icon={<Eye size={48} />}
+                  shareEmoji="🔮"
+                  shareContent={"I just completed 'Mind Reading Check' on TherapyMantra — a guided cognitive reframing that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
               />
             </motion.div>
           )}

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -186,6 +186,8 @@ function CompassionBreakInner() {
         title={t("app_title", "Self-Compassion Break")}
         message={t("complete_message", "You have successfully taken a mindful moment for self-compassion. Always offer yourself gentleness and care.")}
         onRestart={resetFlow}
+                  shareEmoji="💙"
+                  shareContent={"I just completed 'Self-Compassion Break' on TherapyMantra — a guided self-compassion practice that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="w-full max-w-sm mx-auto mt-6">
           <button

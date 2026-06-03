@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -181,6 +181,8 @@ function SleepAuditInner() {
           setRating(3);
           setNote("");
         }}
+                  shareEmoji="😴"
+                  shareContent={"I just completed 'Sleep Audit' on TherapyMantra — a guided sleep improvement that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="w-full max-w-md mx-auto mt-8 px-6">
           <motion.button

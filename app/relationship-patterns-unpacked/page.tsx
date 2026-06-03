@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useMemo } from "react";
 import { Heart, ChevronRight } from "lucide-react";
@@ -75,6 +75,8 @@ function RelationshipPatternsInner() {
         title={t("app_title", "Relationship Patterns")}
         message={t("complete_message", "Understanding your patterns is the first step toward rewriting them. You carry the power to choose a different path.")}
         onRestart={resetFlow}
+                  shareEmoji="🔗"
+                  shareContent={"I just completed 'Relationship Patterns' on TherapyMantra — a guided relationship insight that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

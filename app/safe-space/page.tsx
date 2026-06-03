@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -286,6 +286,8 @@ function SafePlaceVisualizationInner() {
         title={t("app_title", "Safe Space Visualization")}
         message={t("complete.message", "Take this feeling of safety with you. You can return to your safe space whenever you need a moment of peace.")}
         onRestart={reset}
+                  shareEmoji="🏡"
+                  shareContent={"I just completed 'Safe Space' on TherapyMantra — a guided visualization exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }
