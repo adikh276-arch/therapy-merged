@@ -4,7 +4,7 @@ import { db } from "@/lib/db";
 
 async function ensureTableExists() {
   await db`
-    CREATE TABLE IF NOT EXISTS doodle_logs (
+    CREATE TABLE IF NOT EXISTS doodle_burst_logs (
       id VARCHAR(255) PRIMARY KEY,
       user_id VARCHAR(255) NOT NULL,
       image_url TEXT NOT NULL,
@@ -23,7 +23,7 @@ export async function GET() {
   try {
     await ensureTableExists();
     const rows = await db`
-      SELECT id, image_url, created_at FROM doodle_logs 
+      SELECT id, image_url, created_at FROM doodle_burst_logs 
       WHERE user_id = ${userId} 
       ORDER BY created_at DESC
     `;
@@ -50,7 +50,7 @@ export async function POST(req: NextRequest) {
     }
 
     await db`
-      INSERT INTO doodle_logs (id, user_id, image_url, created_at)
+      INSERT INTO doodle_burst_logs (id, user_id, image_url, created_at)
       VALUES (${id}, ${userId}, ${imageUrl}, NOW())
     `;
 
@@ -78,7 +78,7 @@ export async function DELETE(req: NextRequest) {
   try {
     await ensureTableExists();
     await db`
-      DELETE FROM doodle_logs WHERE id = ${id} AND user_id = ${userId}
+      DELETE FROM doodle_burst_logs WHERE id = ${id} AND user_id = ${userId}
     `;
     return NextResponse.json({ success: true });
   } catch (err) {
