@@ -47,10 +47,10 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   return (
     <div className="min-h-screen bg-[#fafcff] flex flex-col font-sans overflow-x-hidden selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
       {/* Elegant mesh background elements */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0 bg-slate-50 dark:bg-slate-950">
-        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-slate-200/30 dark:bg-slate-800/30 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen opacity-70" />
-        <div className="absolute top-[20%] right-[-5%] w-[40%] h-[40%] bg-slate-300/20 dark:bg-slate-700/20 rounded-full blur-[100px] mix-blend-multiply dark:mix-blend-screen opacity-50" />
-        <div className="absolute bottom-[-10%] left-[20%] w-[50%] h-[50%] bg-slate-200/40 dark:bg-slate-800/40 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen opacity-60" />
+      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0 bg-sky-50/50 dark:bg-slate-950">
+        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-sky-200/40 dark:bg-sky-800/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen opacity-70" />
+        <div className="absolute top-[20%] right-[-5%] w-[40%] h-[40%] bg-teal-100/50 dark:bg-teal-900/20 rounded-full blur-[100px] mix-blend-multiply dark:mix-blend-screen opacity-60" />
+        <div className="absolute bottom-[-10%] left-[20%] w-[50%] h-[50%] bg-blue-100/50 dark:bg-blue-900/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen opacity-60" />
       </div>
 
       {/* Header */}
