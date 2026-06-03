@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useSound } from '@/lib/hooks/useSound';
 
@@ -21,7 +21,8 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
   onStart,
   icon,
   benefits,
-  children
+  duration,
+  children,
 }) => {
   const { t } = useTranslation();
   const { playStart } = useSound();
@@ -32,89 +33,116 @@ export const PremiumIntro: React.FC<PremiumIntroProps> = ({
   };
 
   return (
-    <div className="flex flex-col items-center py-12 pb-32 min-h-[80vh] selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
-      <div className="w-full max-w-lg space-y-12">
-        {/* Hero Icon */}
-        <motion.div
-          initial={{ scale: 0.8, opacity: 0, y: -20 }}
-          animate={{ scale: 1, opacity: 1, y: 0 }}
-          transition={{ delay: 0.05, type: 'spring', stiffness: 200, damping: 20 }}
-          className="flex justify-center"
-        >
-          <div className="relative group">
-            <div className="w-24 h-24 bg-white rounded-[2rem] flex items-center justify-center text-primary shadow-2xl shadow-primary/10 border border-slate-100 transition-transform duration-500 group-hover:scale-110">
-              {icon || <ArrowRight size={36} />}
+    <div className="w-full max-w-lg mx-auto space-y-6 pb-8">
+      {/* ── Hero card ── */}
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, ease: [0.4, 0, 0.2, 1] }}
+        className="relative overflow-hidden rounded-3xl bg-white border border-black/[0.06] shadow-sm"
+        style={{ boxShadow: '0 2px 16px 0 rgba(14,165,233,0.07), 0 1px 4px 0 rgba(0,0,0,0.04)' }}
+      >
+        {/* Top gradient strip */}
+        <div
+          className="h-1.5 w-full"
+          style={{ background: 'linear-gradient(90deg, #0ea5e9 0%, #38bdf8 50%, #7dd3fc 100%)' }}
+        />
+
+        <div className="p-7 space-y-5">
+          {/* Icon + duration row */}
+          <div className="flex items-center justify-between">
+            <div
+              className="w-14 h-14 rounded-2xl flex items-center justify-center text-primary shadow-inner"
+              style={{ background: 'rgba(14,165,233,0.1)', boxShadow: 'inset 0 1px 3px rgba(14,165,233,0.15)' }}
+            >
+              {icon || <ArrowRight size={28} />}
             </div>
-            <motion.div
-              animate={{ scale: [1, 1.2, 1], opacity: [0.1, 0.2, 0.1] }}
-              transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute inset-0 rounded-[2rem] bg-primary -z-10 blur-xl"
-            />
+            {duration && (
+              <div
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold text-sky-600"
+                style={{ background: 'rgba(14,165,233,0.08)' }}
+              >
+                <Clock size={12} strokeWidth={2.5} />
+                {duration}
+              </div>
+            )}
           </div>
-        </motion.div>
 
-        {/* Description */}
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.15 }}
-          className="text-center space-y-4"
-        >
-          <p className="text-xl text-slate-900 font-semibold leading-relaxed tracking-tight max-w-md mx-auto">{description}</p>
-        </motion.div>
-
-        {/* Benefits */}
-        {Array.isArray(benefits) && benefits.length > 0 && (
-          <motion.div
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.25 }}
-            className="space-y-3"
+          {/* Description */}
+          <p
+            className="text-[17px] font-semibold text-slate-700 leading-snug"
+            style={{ letterSpacing: '-0.01em' }}
           >
+            {description}
+          </p>
+        </div>
+      </motion.div>
+
+      {/* ── Benefits ── */}
+      {Array.isArray(benefits) && benefits.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.1, ease: [0.4, 0, 0.2, 1] }}
+          className="space-y-2"
+        >
+          <p className="text-[11px] font-bold text-slate-400 uppercase tracking-widest px-1">
+            What you'll gain
+          </p>
+          <div className="space-y-2">
             {benefits.map((benefit, idx) => (
               <motion.div
                 key={idx}
-                initial={{ opacity: 0, x: -10 }}
+                initial={{ opacity: 0, x: -8 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.3 + idx * 0.07 }}
-                className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-primary/10 transition-all duration-300"
+                transition={{ duration: 0.3, delay: 0.15 + idx * 0.06 }}
+                className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-black/[0.05]"
+                style={{ boxShadow: '0 1px 3px rgba(0,0,0,0.03)' }}
               >
-                <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
-                  <CheckCircle2 size={16} strokeWidth={2.5} />
+                <div
+                  className="w-7 h-7 rounded-xl flex items-center justify-center shrink-0 text-primary"
+                  style={{ background: 'rgba(14,165,233,0.1)' }}
+                >
+                  <CheckCircle2 size={14} strokeWidth={2.5} />
                 </div>
-                <span className="text-sm font-semibold text-slate-700">{benefit}</span>
+                <span className="text-sm font-medium text-slate-600 leading-snug">{benefit}</span>
               </motion.div>
             ))}
-          </motion.div>
-        )}
+          </div>
+        </motion.div>
+      )}
 
-        {/* Extra content slot */}
-        {children && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-          >
-            {children}
-          </motion.div>
-        )}
-      </div>
-
-      {/* CTA Button — fixed at bottom */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-white/60 backdrop-blur-md z-20 flex justify-center border-t border-slate-100/50">
-        <motion.button
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.55 }}
-          whileHover={{ scale: 1.02, y: -2 }}
-          whileTap={{ scale: 0.98 }}
-          onClick={handleStart}
-          className="w-full max-w-lg py-5 rounded-2xl bg-primary text-primary-foreground font-bold text-lg shadow-2xl shadow-primary/25 hover:bg-primary/90 hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
+      {/* Extra content slot */}
+      {children && (
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.3 }}
         >
-          {t("common.get_started", "Get Started")}
-          <ArrowRight size={20} strokeWidth={3} />
-        </motion.button>
-      </div>
+          {children}
+        </motion.div>
+      )}
+
+      {/* ── CTA — inline, not fixed ── */}
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.35, delay: 0.25 }}
+      >
+        <button
+          onClick={handleStart}
+          className="w-full h-14 rounded-2xl font-bold text-base text-white flex items-center justify-center gap-2.5 transition-all duration-200 active:scale-[0.98]"
+          style={{
+            background: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)',
+            boxShadow: '0 4px 20px rgba(14,165,233,0.35), 0 1px 4px rgba(0,0,0,0.08)',
+          }}
+          onMouseEnter={e => { (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 6px 28px rgba(14,165,233,0.45), 0 2px 8px rgba(0,0,0,0.1)'; }}
+          onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 4px 20px rgba(14,165,233,0.35), 0 1px 4px rgba(0,0,0,0.08)'; }}
+        >
+          {t('common.get_started', 'Get Started')}
+          <ArrowRight size={18} strokeWidth={2.5} />
+        </button>
+      </motion.div>
     </div>
   );
 };

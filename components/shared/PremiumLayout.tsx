@@ -3,7 +3,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, RotateCcw } from 'lucide-react';
-import { useRouter, usePathname } from 'next/navigation';
 import { handlePlatformExit } from '../../lib/navigation';
 
 interface PremiumLayoutProps {
@@ -25,91 +24,112 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   onReset,
   showBack = true,
   icon,
-  exitOnBack
 }) => {
-  const router = useRouter();
-  const pathname = usePathname();
-
-  const handleExit = () => {
-    handlePlatformExit();
-  };
-
   const handleBack = () => {
     if (onBack) {
       onBack();
       return;
     }
-    
-    // Always exit on the first page of any activity as requested
-    handleExit();
+    handlePlatformExit();
   };
 
   return (
-    <div className="min-h-screen bg-[#fafcff] flex flex-col font-sans overflow-x-hidden selection:bg-primary/20" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif' }}>
-      {/* Elegant mesh background elements */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0 bg-sky-50/50 dark:bg-slate-950">
-        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-sky-200/40 dark:bg-sky-800/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen opacity-70" />
-        <div className="absolute top-[20%] right-[-5%] w-[40%] h-[40%] bg-teal-100/50 dark:bg-teal-900/20 rounded-full blur-[100px] mix-blend-multiply dark:mix-blend-screen opacity-60" />
-        <div className="absolute bottom-[-10%] left-[20%] w-[50%] h-[50%] bg-blue-100/50 dark:bg-blue-900/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen opacity-60" />
-      </div>
+    <div
+      className="min-h-screen flex flex-col overflow-x-hidden"
+      style={{
+        background: '#F8FAFB',
+        fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      }}
+    >
+      {/* Subtle static gradient orb — top right, no animation */}
+      <div
+        className="fixed top-0 right-0 w-[480px] h-[480px] pointer-events-none z-0"
+        style={{
+          background: 'radial-gradient(circle at 80% 20%, rgba(14,165,233,0.07) 0%, transparent 70%)',
+        }}
+      />
+      <div
+        className="fixed bottom-0 left-0 w-[360px] h-[360px] pointer-events-none z-0"
+        style={{
+          background: 'radial-gradient(circle at 20% 80%, rgba(56,189,248,0.05) 0%, transparent 70%)',
+        }}
+      />
 
-      {/* Header */}
-      <header className="w-full bg-white/60 backdrop-blur-xl sticky top-0 z-50 border-b border-white/80 shadow-[0_4px_30px_rgb(0,0,0,0.02)]">
-        <div className="max-w-[1000px] mx-auto px-6 py-5 flex items-center justify-between">
-          <div className="flex items-center gap-6">
+      {/* ── Header ── */}
+      <header
+        className="w-full sticky top-0 z-50"
+        style={{
+          background: 'rgba(255,255,255,0.85)',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          borderBottom: '1px solid rgba(0,0,0,0.06)',
+          boxShadow: '0 1px 0 0 rgba(0,0,0,0.04)',
+        }}
+      >
+        <div className="max-w-2xl mx-auto px-5 h-16 flex items-center justify-between gap-4">
+          {/* Left: back + identity */}
+          <div className="flex items-center gap-3 min-w-0">
             {showBack && (
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
+              <button
                 onClick={handleBack}
-                className="w-10 h-10 rounded-full bg-white border border-slate-200 shadow-sm flex items-center justify-center text-slate-500 hover:text-primary hover:border-primary/30 hover:shadow-md transition-all"
+                className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all duration-150"
+                aria-label="Back"
               >
                 <ChevronLeft size={20} strokeWidth={2.5} />
-              </motion.button>
+              </button>
             )}
-            <div className="flex items-center gap-4">
-              {icon && (
-               <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary shadow-inner border border-primary/5">
-                  {icon}
-                </div>
-              )}
-              <div className="flex flex-col">
-                <h1 className="text-xl font-bold text-slate-900 tracking-tight leading-none mb-1">{title}</h1>
-                {subtitle && <p className="text-slate-500 text-xs font-bold uppercase tracking-widest opacity-70">{subtitle}</p>}
+
+            {icon && (
+              <div
+                className="flex-shrink-0 w-9 h-9 rounded-xl flex items-center justify-center text-primary"
+                style={{ background: 'rgba(14,165,233,0.1)' }}
+              >
+                {icon}
               </div>
+            )}
+
+            <div className="min-w-0">
+              <h1
+                className="text-[15px] font-bold text-slate-800 truncate leading-tight"
+                style={{ letterSpacing: '-0.01em' }}
+              >
+                {title}
+              </h1>
+              {subtitle && (
+                <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest leading-none mt-0.5 truncate">
+                  {subtitle}
+                </p>
+              )}
             </div>
           </div>
-          
-          <div className="flex items-center gap-3">
-            {onReset && (
-              <motion.button
-                whileHover={{ rotate: -180 }}
-                transition={{ duration: 0.4 }}
-                onClick={onReset}
-                className="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary hover:border-primary/30 hover:shadow-md transition-all"
-                title="Reset Activity"
-              >
-                <RotateCcw size={18} strokeWidth={2.5} />
-              </motion.button>
-            )}
-          </div>
+
+          {/* Right: reset */}
+          {onReset && (
+            <motion.button
+              whileHover={{ rotate: -180 }}
+              transition={{ duration: 0.35, ease: 'easeInOut' }}
+              onClick={onReset}
+              className="flex-shrink-0 w-9 h-9 rounded-xl flex items-center justify-center text-slate-400 hover:text-primary hover:bg-primary/5 transition-all duration-150"
+              title="Reset Activity"
+              aria-label="Reset"
+            >
+              <RotateCcw size={17} strokeWidth={2.5} />
+            </motion.button>
+          )}
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="flex-1 w-full max-w-[1000px] mx-auto px-6 py-10 relative z-10">
-        <motion.div 
-          initial={{ opacity: 0, y: 10 }}
+      {/* ── Content ── */}
+      <main className="flex-1 w-full max-w-2xl mx-auto px-5 py-8 relative z-10">
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
           className="w-full"
         >
           {children}
         </motion.div>
       </main>
-
-      {/* Subtle bottom gradient for mobile */}
-      <div className="fixed bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[#F8FAFC] to-transparent pointer-events-none z-10 opacity-10" />
     </div>
   );
 };
