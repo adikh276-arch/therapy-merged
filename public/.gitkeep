@@ -1,0 +1,3 @@
+# This file ensures the public directory is tracked by Git.
+# The /public directory must exist for the Docker build to succeed
+# (Dockerfile: COPY --from=builder /app/public ./public)
