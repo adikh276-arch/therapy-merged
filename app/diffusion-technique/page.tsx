@@ -13,10 +13,19 @@ import { PremiumComplete } from '@/components/shared/PremiumComplete';
 
 type View = 'intro' | 'choose' | 'sky' | 'sell' | 'name';
 
-// --- Floating Sky Background Cloud Animation Sub-component ---
+// --- Multi-Cloud Sky Animation Component ---
 
-function FullScreenSky({ thought, onNext }: { thought: string; onNext: () => void }) {
+function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
+
+  // Each cloud gets fixed random-but-stable layout values
+  const cloudConfigs = useMemo(() => [
+    { top: '12%',  size: 'text-[140px]', duration: 22, delay: 0,   textSize: 'text-sm' },
+    { top: '30%',  size: 'text-[110px]', duration: 28, delay: 3,   textSize: 'text-xs' },
+    { top: '50%',  size: 'text-[160px]', duration: 20, delay: 1.5, textSize: 'text-sm' },
+    { top: '68%',  size: 'text-[100px]', duration: 25, delay: 5,   textSize: 'text-xs' },
+    { top: '82%',  size: 'text-[120px]', duration: 18, delay: 2,   textSize: 'text-xs' },
+  ], []);
 
   return (
     <motion.div
@@ -27,39 +36,18 @@ function FullScreenSky({ thought, onNext }: { thought: string; onNext: () => voi
       className="fixed inset-0 z-50 flex flex-col items-center justify-between py-12 px-6 overflow-hidden"
       style={{ background: 'linear-gradient(180deg, #BEE7FF 0%, #EAF6FF 100%)' }}
     >
-      {/* Background clouds */}
-      <motion.span
-        className="absolute text-7xl opacity-15 select-none pointer-events-none"
-        style={{ top: '10%', left: '5%' }}
-        animate={{ x: [0, 80, 0] }}
-        transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
-      >
-        ☁️
-      </motion.span>
-      <motion.span
-        className="absolute text-5xl opacity-10 select-none pointer-events-none"
-        style={{ top: '70%', right: '10%' }}
-        animate={{ x: [0, -60, 0] }}
-        transition={{ duration: 18, repeat: Infinity, ease: 'easeInOut' }}
-      >
-        ☁️
-      </motion.span>
-      <motion.span
-        className="absolute text-4xl opacity-15 select-none pointer-events-none"
-        style={{ top: '35%', right: '5%' }}
-        animate={{ x: [0, -50, 0] }}
-        transition={{ duration: 15, repeat: Infinity, ease: 'easeInOut' }}
-      >
-        ☁️
-      </motion.span>
-      <motion.span
-        className="absolute text-6xl opacity-10 select-none pointer-events-none"
-        style={{ bottom: '20%', left: '15%' }}
-        animate={{ x: [0, 70, 0] }}
-        transition={{ duration: 22, repeat: Infinity, ease: 'easeInOut' }}
-      >
-        ☁️
-      </motion.span>
+      {/* Background ambient clouds */}
+      {[{ top: '8%', left: '5%', size: 'text-7xl', dur: 20, dx: 80 },
+        { top: '70%', right: '10%', size: 'text-5xl', dur: 18, dx: -60 },
+        { top: '35%', right: '5%', size: 'text-4xl', dur: 15, dx: -50 }].map((c, i) => (
+        <motion.span
+          key={i}
+          className={`absolute ${c.size} opacity-10 select-none pointer-events-none`}
+          style={{ top: c.top, left: c.left, right: c.right }}
+          animate={{ x: [0, c.dx, 0] }}
+          transition={{ duration: c.dur, repeat: Infinity, ease: 'easeInOut' }}
+        >☁️</motion.span>
+      ))}
 
       {/* Title */}
       <motion.h2
@@ -68,21 +56,37 @@ function FullScreenSky({ thought, onNext }: { thought: string; onNext: () => voi
         transition={{ delay: 0.2, duration: 0.6 }}
         className="text-xl font-bold text-slate-800 text-center z-10"
       >
-        {t('place_your_thought_on_a_cloud', 'Place your thought on a cloud')}
+        {t('watch_thoughts_drift', 'Watch your thoughts drift away...')}
       </motion.h2>
 
-      {/* Main thought cloud */}
-      <motion.div
-        initial={{ x: '-60%', opacity: 0 }}
-        animate={{ x: ['0%', '12%', '-10%', '0%'], opacity: 1 }}
-        transition={{ x: { duration: 14, repeat: Infinity, ease: 'easeInOut' }, opacity: { duration: 1 } }}
-        className="relative z-10 flex items-center justify-center cursor-default select-none"
-      >
-        <span className="text-[140px] leading-none filter drop-shadow-md">☁️</span>
-        <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-sm font-extrabold text-slate-700 max-w-[170px] text-center leading-snug mt-1">
-          "{thought}"
-        </span>
-      </motion.div>
+      {/* Individual thought clouds flying across */}
+      <div className="relative w-full flex-1">
+        {thoughts.map((thought, i) => {
+          const cfg = cloudConfigs[i];
+          return (
+            <motion.div
+              key={i}
+              className="absolute flex items-center justify-center"
+              style={{ top: cfg.top, left: 0, right: 0 }}
+              initial={{ x: '-100%', opacity: 0 }}
+              animate={{ x: ['−100%', '0%', '20%', '-5%', '10%', '100vw'], opacity: [0, 1, 1, 1, 1, 0] }}
+              transition={{
+                x: { duration: cfg.duration, delay: cfg.delay, ease: 'easeInOut' },
+                opacity: { duration: cfg.duration, delay: cfg.delay },
+                repeat: Infinity,
+                repeatDelay: 2,
+              }}
+            >
+              <div className="relative flex items-center justify-center">
+                <span className={`${cfg.size} leading-none filter drop-shadow-md select-none`}>☁️</span>
+                <span className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[45%] ${cfg.textSize} font-extrabold text-slate-700 max-w-[130px] text-center leading-snug`}>
+                  "{thought}"
+                </span>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
 
       {/* Bottom section */}
       <div className="z-10 flex flex-col items-center gap-6 w-full max-w-sm">
@@ -93,13 +97,13 @@ function FullScreenSky({ thought, onNext }: { thought: string; onNext: () => voi
           className="text-center space-y-2 bg-white/40 backdrop-blur-md p-6 rounded-3xl border border-white/60 shadow-sm"
         >
           <p className="text-sm font-bold text-slate-700">
-            {t('watch_the_cloud_move_across_the_sky', 'Watch the cloud move across the sky.')}
+            {t('watch_the_cloud_move_across_the_sky', 'Watch the clouds move across the sky.')}
           </p>
           <p className="text-sm font-bold text-slate-700">
-            {t('your_thought_is_simply_passing_through', 'Your thought is simply passing through.')}
+            {t('your_thought_is_simply_passing_through', 'Your thoughts are simply passing through.')}
           </p>
           <p className="text-xs font-black text-primary uppercase tracking-widest mt-1">
-            {t('you_are_the_sky_observing_it', 'You are the sky observing it.')}
+            {t('you_are_the_sky_observing_it', 'You are the sky observing them.')}
           </p>
         </motion.div>
         <motion.button
@@ -361,6 +365,8 @@ function DiffusionTechniqueInner() {
   const [view, setView] = useState<View>('intro');
   const [step, setStep] = useState(1);
   const [thought, setThought] = useState('');
+  const [thoughts, setThoughts] = useState<string[]>([]);
+  const [inputThought, setInputThought] = useState('');
   const [sellValue, setSellValue] = useState(50);
   const [storyName, setStoryName] = useState('');
 
@@ -376,6 +382,8 @@ function DiffusionTechniqueInner() {
   const resetFlow = () => {
     setStep(1);
     setThought('');
+    setThoughts([]);
+    setInputThought('');
     setSellValue(50);
     setStoryName('');
   };
@@ -575,32 +583,82 @@ function DiffusionTechniqueInner() {
                   >
                     <div className="space-y-2">
                       <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
-                        {t('sky_question', 'What thought is on your mind right now?')}
+                        {t('sky_question', 'What thoughts are on your mind?')}
                       </h1>
-                      <p className="text-slate-505 dark:text-slate-400 text-sm font-medium leading-relaxed">
-                        {t('sky_hint', 'Write one thought that has been bothering you recently.')}
+                      <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                        {t('sky_hint', 'Add up to 5 thoughts. Each one will get its own cloud. ☁️')}
                       </p>
                     </div>
-                    <div className="space-y-1.5">
-                      <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1">
-                        {t('label_current_thought', 'Your current thought')}
-                      </label>
-                      <textarea
-                        value={thought}
-                        onChange={(e) => setThought(e.target.value)}
-                        placeholder={t('sky_placeholder', 'Example: "I might fail this presentation"')}
-                        rows={4}
-                        className="w-full py-4.5 rounded-2xl border border-slate-105 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none shadow-inner"
+
+                    {/* Input row */}
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        value={inputThought}
+                        onChange={(e) => setInputThought(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' && inputThought.trim() && thoughts.length < 5) {
+                            setThoughts(prev => [...prev, inputThought.trim()]);
+                            setInputThought('');
+                          }
+                        }}
+                        placeholder={t('sky_placeholder', 'Type a thought and press Add...')}
+                        maxLength={40}
+                        className="flex-1 py-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 shadow-inner text-sm"
                       />
+                      <motion.button
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        onClick={() => {
+                          if (inputThought.trim() && thoughts.length < 5) {
+                            setThoughts(prev => [...prev, inputThought.trim()]);
+                            setInputThought('');
+                          }
+                        }}
+                        disabled={!inputThought.trim() || thoughts.length >= 5}
+                        className="px-5 py-4 rounded-2xl bg-primary text-primary-foreground font-black text-sm shadow-lg shadow-primary/10 disabled:opacity-40 transition-all"
+                      >
+                        + Add
+                      </motion.button>
                     </div>
+
+                    {/* Thought chips */}
+                    {thoughts.length > 0 && (
+                      <div className="space-y-2">
+                        <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                          {thoughts.length}/5 thoughts — each will have its own cloud
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          <AnimatePresence>
+                            {thoughts.map((th, i) => (
+                              <motion.div
+                                key={th + i}
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0, scale: 0.8 }}
+                                className="flex items-center gap-2 bg-sky-50 dark:bg-sky-950/30 border border-sky-200 dark:border-sky-800 text-sky-700 dark:text-sky-300 rounded-full px-4 py-2 text-xs font-bold"
+                              >
+                                <span>☁️</span>
+                                <span className="max-w-[120px] truncate">{th}</span>
+                                <button
+                                  onClick={() => setThoughts(prev => prev.filter((_, idx) => idx !== i))}
+                                  className="ml-1 text-sky-400 hover:text-red-400 transition-colors font-black"
+                                >×</button>
+                              </motion.div>
+                            ))}
+                          </AnimatePresence>
+                        </div>
+                      </div>
+                    )}
+
                     <motion.button
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
-                      disabled={!thought.trim()}
+                      disabled={thoughts.length === 0}
                       onClick={() => setStep(3)}
                       className="w-full py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
                     >
-                      {t('btn_place_on_cloud', 'Place it on a Cloud →')}
+                      {t('btn_place_on_cloud', 'Place on Clouds →')}
                       <Cloud size={18} />
                     </motion.button>
                   </motion.div>
@@ -608,7 +666,7 @@ function DiffusionTechniqueInner() {
 
                 {/* ANIMATED FULL SCREEN EXERCISE */}
                 {step === 3 && (
-                  <FullScreenSky key="sky3" thought={thought} onNext={() => setStep(4)} />
+                  <FullScreenSky key="sky3" thoughts={thoughts} onNext={() => setStep(4)} />
                 )}
 
                 {step === 4 && (
