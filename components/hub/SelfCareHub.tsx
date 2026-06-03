@@ -460,7 +460,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
   };
 
   return (
-    <div className="flex min-h-screen bg-[#F0F7FF]">
+    <div className="flex min-h-screen bg-[#F6F7F9]">
       <div className="flex-1 flex flex-col min-w-0">
         <main className="max-w-4xl w-full mx-auto px-4 md:px-6 py-6 pt-10">
           <AnimatePresence mode="wait">

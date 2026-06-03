@@ -3,7 +3,7 @@
 
 :root {
   --font-size: 16px;
-  --background: #F0F7FF;
+  --background: #F6F7F9;
   --foreground: oklch(0.145 0 0);
   --card: #ffffff;
   --card-foreground: oklch(0.145 0 0);
@@ -129,7 +129,7 @@ html {
 }
 
 body {
-  background: #F0F7FF;
+  background: #F6F7F9;
   color: var(--foreground);
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -169,13 +169,13 @@ body {
 /* ── Labels ── */
 .field-label {
   display: block;
-  font-size: 11.5px;
+  font-size: 12.5px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: #94a3b8;
-  padding-left: 2px;
-  margin-bottom: 8px;
+  padding-left: 4px;
+  margin-bottom: 10px;
 }
 
 /* ── Text Inputs ── */
@@ -184,26 +184,26 @@ body {
   appearance: none;
   display: block;
   width: 100%;
-  padding: 15px 18px;
+  padding: 18px 22px;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: #1e293b;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1.5px solid rgba(255, 255, 255, 0.98);
-  border-radius: 16px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.04), inset 0 1px 2px rgba(255,255,255,0.8);
+  border: 1.5px solid rgba(226, 232, 240, 0.8);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04), inset 0 1px 3px rgba(255,255,255,0.9);
   outline: none;
   transition: border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 .field-input::placeholder { color: #b8cad9; font-weight: 400; }
 .field-input:focus {
-  border-color: rgba(14, 165, 233, 0.38);
-  background: rgba(255, 255, 255, 0.99);
-  box-shadow: 0 0 0 4px rgba(14,165,233,0.08), 0 2px 10px rgba(0,0,0,0.05);
+  border-color: rgba(14, 165, 233, 0.40);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 4px rgba(14,165,233,0.08), 0 2px 12px rgba(0,0,0,0.05);
 }
 
 /* ── Textareas ── */
@@ -212,27 +212,27 @@ body {
   appearance: none;
   display: block;
   width: 100%;
-  padding: 15px 18px;
+  padding: 18px 22px;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.7;
+  line-height: 1.75;
   color: #1e293b;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1.5px solid rgba(255, 255, 255, 0.98);
-  border-radius: 16px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.04), inset 0 1px 2px rgba(255,255,255,0.8);
+  border: 1.5px solid rgba(226, 232, 240, 0.8);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04), inset 0 1px 3px rgba(255,255,255,0.9);
   outline: none;
   resize: none;
   transition: border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 .field-textarea::placeholder { color: #b8cad9; font-weight: 400; }
 .field-textarea:focus {
-  border-color: rgba(14, 165, 233, 0.38);
-  background: rgba(255, 255, 255, 0.99);
-  box-shadow: 0 0 0 4px rgba(14,165,233,0.08), 0 2px 10px rgba(0,0,0,0.05);
+  border-color: rgba(14, 165, 233, 0.40);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 4px rgba(14,165,233,0.08), 0 2px 12px rgba(0,0,0,0.05);
 }
 
 /* ── Primary CTA button ── */
@@ -241,21 +241,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
   width: 100%;
-  height: 54px;
-  padding: 0 24px;
+  height: 58px;
+  padding: 0 28px;
   font-family: inherit;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
   color: #ffffff;
   background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 55%, #0284c7 100%);
   border: none;
-  border-radius: 16px;
+  border-radius: 18px;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0 4px 18px -3px rgba(14,165,233,0.32), 0 1px 4px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 22px -4px rgba(14,165,233,0.38), 0 2px 6px rgba(0,0,0,0.07);
   transition: box-shadow 0.15s ease, transform 0.1s ease;
 }
 .act-btn-primary::after {
@@ -271,11 +271,12 @@ body {
   40%, 100% { transform: translateX(200%); }
 }
 .act-btn-primary:not(:disabled):hover {
-  box-shadow: 0 6px 22px -3px rgba(14,165,233,0.42), 0 2px 6px rgba(0,0,0,0.07);
+  box-shadow: 0 8px 28px -4px rgba(14,165,233,0.48), 0 3px 8px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
 }
 .act-btn-primary:not(:disabled):active {
-  transform: scale(0.983);
-  box-shadow: 0 2px 10px -2px rgba(14,165,233,0.28);
+  transform: scale(0.983) translateY(0);
+  box-shadow: 0 3px 12px -2px rgba(14,165,233,0.28);
 }
 .act-btn-primary:disabled {
   opacity: 0.36;
@@ -289,65 +290,67 @@ body {
   justify-content: center;
   gap: 8px;
   width: 100%;
-  height: 48px;
-  padding: 0 20px;
+  height: 52px;
+  padding: 0 22px;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   color: #475569;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border: 1.5px solid rgba(255, 255, 255, 0.96);
-  border-radius: 14px;
+  border: 1.5px solid rgba(226, 232, 240, 0.85);
+  border-radius: 16px;
   cursor: pointer;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
 }
 .act-btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.98);
+  background: rgba(255, 255, 255, 1);
   border-color: rgba(186, 230, 255, 0.9);
   color: #0369a1;
+  box-shadow: 0 4px 14px rgba(14,165,233,0.12);
 }
 
 /* ── Glass card ── */
 .act-card {
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1.5px solid rgba(255, 255, 255, 0.96);
-  border-radius: 20px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.03);
-  padding: 28px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(226, 232, 240, 0.7);
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.05), 0 1px 6px rgba(0,0,0,0.04);
+  padding: 32px;
 }
 .act-card:hover {
   border-color: rgba(186, 230, 255, 0.7);
+  box-shadow: 0 6px 30px rgba(14,165,233,0.08), 0 2px 8px rgba(0,0,0,0.04);
 }
 
 /* ── Typography ── */
 .act-heading {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 800;
   color: #0f172a;
-  letter-spacing: -0.028em;
-  line-height: 1.15;
+  letter-spacing: -0.032em;
+  line-height: 1.12;
 }
 
 .act-eyebrow {
   display: flex;
   align-items: center;
-  gap: 5px;
-  font-size: 11px;
+  gap: 6px;
+  font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: #38bdf8;
 }
 
 .act-body {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.7;
   color: #64748b;
 }
 
