@@ -18,13 +18,12 @@ type View = 'intro' | 'choose' | 'sky' | 'sell' | 'name';
 function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
 
-  // Each cloud gets fixed random-but-stable layout values
   const cloudConfigs = useMemo(() => [
-    { top: '12%',  size: 'text-[140px]', duration: 22, delay: 0,   textSize: 'text-sm' },
-    { top: '30%',  size: 'text-[110px]', duration: 28, delay: 3,   textSize: 'text-xs' },
-    { top: '50%',  size: 'text-[160px]', duration: 20, delay: 1.5, textSize: 'text-sm' },
-    { top: '68%',  size: 'text-[100px]', duration: 25, delay: 5,   textSize: 'text-xs' },
-    { top: '82%',  size: 'text-[120px]', duration: 18, delay: 2,   textSize: 'text-xs' },
+    { top: '8%',  size: 'text-[150px]', delay: 0,   duration: 12, textSize: 'text-sm' },
+    { top: '28%', size: 'text-[110px]', delay: 0.3, duration: 14, textSize: 'text-xs' },
+    { top: '48%', size: 'text-[160px]', delay: 0.1, duration: 11, textSize: 'text-sm' },
+    { top: '66%', size: 'text-[100px]', delay: 0.4, duration: 13, textSize: 'text-xs' },
+    { top: '80%', size: 'text-[120px]', delay: 0.2, duration: 10, textSize: 'text-xs' },
   ], []);
 
   return (
@@ -32,18 +31,19 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.8, ease: 'easeInOut' }}
+      transition={{ duration: 0.6, ease: 'easeInOut' }}
       className="fixed inset-0 z-50 flex flex-col items-center justify-between py-12 px-6 overflow-hidden"
       style={{ background: 'linear-gradient(180deg, #BEE7FF 0%, #EAF6FF 100%)' }}
     >
-      {/* Background ambient clouds */}
-      {[{ top: '8%', left: '5%', size: 'text-7xl', dur: 20, dx: 80 },
-        { top: '70%', right: '10%', size: 'text-5xl', dur: 18, dx: -60 },
-        { top: '35%', right: '5%', size: 'text-4xl', dur: 15, dx: -50 }].map((c, i) => (
+      {/* Ambient background clouds */}
+      {[
+        { top: '5%',  left: '2%',  size: 'text-6xl', dur: 30, dx: 40 },
+        { top: '60%', right: '5%', size: 'text-4xl', dur: 25, dx: -30 },
+      ].map((c, i) => (
         <motion.span
           key={i}
           className={`absolute ${c.size} opacity-10 select-none pointer-events-none`}
-          style={{ top: c.top, left: c.left, right: c.right }}
+          style={{ top: c.top, left: (c as any).left, right: (c as any).right }}
           animate={{ x: [0, c.dx, 0] }}
           transition={{ duration: c.dur, repeat: Infinity, ease: 'easeInOut' }}
         >☁️</motion.span>
@@ -51,16 +51,16 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
 
       {/* Title */}
       <motion.h2
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: -16 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2, duration: 0.6 }}
+        transition={{ delay: 0.1, duration: 0.5 }}
         className="text-xl font-bold text-slate-800 text-center z-10"
       >
         {t('watch_thoughts_drift', 'Watch your thoughts drift away...')}
       </motion.h2>
 
-      {/* Individual thought clouds flying across */}
-      <div className="relative w-full flex-1">
+      {/* Flying thought clouds */}
+      <div className="relative w-full flex-1 overflow-hidden">
         {thoughts.map((thought, i) => {
           const cfg = cloudConfigs[i];
           return (
@@ -68,17 +68,15 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
               key={i}
               className="absolute flex items-center justify-center"
               style={{ top: cfg.top, left: 0, right: 0 }}
-              initial={{ x: '-100%', opacity: 0 }}
-              animate={{ x: ['−100%', '0%', '20%', '-5%', '10%', '100vw'], opacity: [0, 1, 1, 1, 1, 0] }}
+              initial={{ x: '-160px', opacity: 0 }}
+              animate={{ x: ['−160px', '0vw', '115vw'], opacity: [0, 1, 1] }}
               transition={{
-                x: { duration: cfg.duration, delay: cfg.delay, ease: 'easeInOut' },
-                opacity: { duration: cfg.duration, delay: cfg.delay },
-                repeat: Infinity,
-                repeatDelay: 2,
+                x: { duration: cfg.duration, delay: cfg.delay, ease: [0.25, 0.46, 0.45, 0.94], repeat: Infinity, repeatDelay: 4 },
+                opacity: { duration: 0.6, delay: cfg.delay },
               }}
             >
               <div className="relative flex items-center justify-center">
-                <span className={`${cfg.size} leading-none filter drop-shadow-md select-none`}>☁️</span>
+                <span className={`${cfg.size} leading-none filter drop-shadow-lg select-none`}>☁️</span>
                 <span className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[45%] ${cfg.textSize} font-extrabold text-slate-700 max-w-[130px] text-center leading-snug`}>
                   "{thought}"
                 </span>
@@ -88,12 +86,12 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
         })}
       </div>
 
-      {/* Bottom section */}
+      {/* Bottom info + button */}
       <div className="z-10 flex flex-col items-center gap-6 w-full max-w-sm">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.8, duration: 0.8 }}
+          transition={{ delay: 0.5, duration: 0.6 }}
           className="text-center space-y-2 bg-white/40 backdrop-blur-md p-6 rounded-3xl border border-white/60 shadow-sm"
         >
           <p className="text-sm font-bold text-slate-700">
@@ -109,7 +107,7 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
         <motion.button
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.2, duration: 0.5 }}
+          transition={{ delay: 0.6, duration: 0.4 }}
           onClick={onNext}
           className="w-full py-4.5 rounded-2xl font-black text-base bg-primary text-primary-foreground hover:shadow-lg transition-all duration-200"
         >
