@@ -135,29 +135,29 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="p-12 bg-emerald-50 rounded-[4rem] border border-emerald-100 shadow-sm space-y-10 relative overflow-hidden group"
+            className="p-10 md:p-12 bg-rose-50/70 rounded-[2.5rem] border border-rose-100 shadow-sm space-y-8 relative overflow-hidden group"
           >
-            <div className="absolute -top-10 -right-10 w-40 h-40 bg-emerald-100/50 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-700" />
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-rose-100/40 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-700" />
             
-            <div className="flex items-center gap-3 text-emerald-600 font-black text-[11px] uppercase tracking-[0.4em] relative z-10">
-              <Lightbulb size={18} fill="currentColor" />
+            <div className="flex items-center gap-2 text-rose-600 font-bold text-xs uppercase tracking-[0.3em] relative z-10">
+              <Lightbulb size={16} className="text-rose-500" />
               {t("detail.tip.example_label")}
             </div>
-            <div className="grid md:grid-cols-[1fr,auto,1fr] items-center gap-10 relative z-10">
-              <div className="space-y-3">
-                <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">{t("detail.tip.instead_of")}</p>
-                <p className="text-emerald-900/50 text-lg font-bold leading-relaxed italic">{tip.example.instead}</p>
+            <div className="grid md:grid-cols-[1fr,auto,1fr] items-center gap-8 relative z-10">
+              <div className="space-y-2">
+                <p className="text-[10px] font-bold text-rose-450 uppercase tracking-wider">{t("detail.tip.instead_of")}</p>
+                <p className="text-rose-900/60 text-lg font-bold leading-relaxed italic">{tip.example.instead}</p>
               </div>
               
               <div className="hidden md:flex flex-col items-center gap-1">
-                <div className="w-1 h-1 rounded-full bg-emerald-200" />
-                <div className="w-1 h-8 bg-gradient-to-b from-emerald-200 to-emerald-400 rounded-full" />
-                <div className="w-1 h-1 rounded-full bg-emerald-400" />
+                <div className="w-1 h-1 rounded-full bg-rose-200" />
+                <div className="w-1 h-8 bg-gradient-to-b from-rose-200 to-rose-300 rounded-full" />
+                <div className="w-1 h-1 rounded-full bg-rose-300" />
               </div>
 
-              <div className="space-y-3">
-                <p className="text-[10px] font-black text-emerald-500 uppercase tracking-[0.2em]">{t("detail.tip.try_this")}</p>
-                <p className="text-emerald-900 text-2xl font-black leading-tight tracking-tight">{tip.example.tryThis}</p>
+              <div className="space-y-2">
+                <p className="text-[10px] font-bold text-rose-500 uppercase tracking-wider">{t("detail.tip.try_this")}</p>
+                <p className="text-rose-950 text-2xl font-bold leading-tight tracking-tight">{tip.example.tryThis}</p>
               </div>
             </div>
           </motion.section>
@@ -179,18 +179,18 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
         <motion.section 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          className="p-10 md:p-12 bg-[#0c1524] rounded-[2.5rem] text-white space-y-6 shadow-xl relative overflow-hidden flex flex-col items-center text-center max-w-2xl mx-auto border border-slate-800"
+          className="p-10 md:p-12 bg-emerald-50/70 rounded-[2.5rem] text-slate-800 space-y-6 shadow-sm relative overflow-hidden flex flex-col items-center text-center max-w-2xl mx-auto border border-emerald-100"
         >
-          <div className="absolute top-0 right-0 p-8 text-white/[0.03] pointer-events-none select-none">
+          <div className="absolute top-0 right-0 p-8 text-emerald-200/20 pointer-events-none select-none">
             <Sparkles size={180} />
           </div>
           
-          <div className="flex items-center gap-2 text-[#02c39a] font-bold text-xs uppercase tracking-[0.3em] relative z-10">
-            <Sparkles size={14} className="text-[#02c39a]" />
+          <div className="flex items-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-[0.3em] relative z-10">
+            <Sparkles size={14} className="text-emerald-500" />
             {t("detail.article.final_thought", "FINAL THOUGHT")}
           </div>
           
-          <p className="text-white text-xl md:text-2xl font-bold italic leading-relaxed relative z-10 max-w-xl">
+          <p className="text-emerald-950 text-xl md:text-2xl font-bold italic leading-relaxed relative z-10 max-w-xl">
             &ldquo;{article.takeaway}&rdquo;
           </p>
         </motion.section>
@@ -275,13 +275,18 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="p-12 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[4rem] text-white space-y-8 shadow-2xl"
+          className="p-10 md:p-12 bg-indigo-50/70 rounded-[2.5rem] text-slate-800 space-y-6 shadow-sm relative overflow-hidden flex flex-col items-center text-center max-w-2xl mx-auto border border-indigo-100"
         >
-          <div className="flex items-center gap-3 text-indigo-400 font-black text-[11px] uppercase tracking-[0.4em]">
-            <Sparkles size={18} />
-            {t("detail.myth.insight_label")}
+          <div className="absolute top-0 right-0 p-8 text-indigo-200/20 pointer-events-none select-none">
+            <Sparkles size={180} />
           </div>
-          <p className="text-indigo-100 text-3xl font-black italic leading-[1.3] tracking-tight">
+          
+          <div className="flex items-center gap-2 text-indigo-600 font-bold text-xs uppercase tracking-[0.3em] relative z-10">
+            <Sparkles size={14} className="text-indigo-500" />
+            {t("detail.myth.insight_label", "KEY INSIGHT")}
+          </div>
+          
+          <p className="text-indigo-950 text-xl md:text-2xl font-bold italic leading-relaxed relative z-10 max-w-xl">
             &ldquo;{myth.takeaway}&rdquo;
           </p>
         </motion.section>

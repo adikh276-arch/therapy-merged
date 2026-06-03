@@ -375,27 +375,31 @@ function DoodleBurstInner() {
     [t]
   );
 
+  const completeSession = useCallback(() => {
+    const dataUrl = canvasRef.current?.getDataUrl();
+    if (dataUrl) {
+      setFinalDoodleUrl(dataUrl);
+      // Save to DB
+      const entryId = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15);
+      fetch(apiPath('/api/doodle-burst'), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: entryId, imageUrl: dataUrl }),
+      }).catch((err) => console.error('Save doodle error:', err));
+    }
+    setScreen('end');
+  }, []);
+
   // Timer Tick
   useEffect(() => {
     if (screen !== 'activity') return;
     if (timer <= 0) {
-      const dataUrl = canvasRef.current?.getDataUrl();
-      if (dataUrl) {
-        setFinalDoodleUrl(dataUrl);
-        // Save to DB
-        const entryId = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15);
-        fetch(apiPath('/api/doodle-burst'), {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ id: entryId, imageUrl: dataUrl }),
-        }).catch((err) => console.error('Save doodle error:', err));
-      }
-      setScreen('end');
+      completeSession();
       return;
     }
     const id = setInterval(() => setTimer((t) => t - 1), 1000);
     return () => clearInterval(id);
-  }, [screen, timer]);
+  }, [screen, timer, completeSession]);
 
   // Prompt Swapper
   useEffect(() => {
@@ -557,6 +561,16 @@ function DoodleBurstInner() {
                 </div>
 
                 <DrawingCanvas ref={canvasRef} />
+
+                <motion.button
+                  whileHover={{ scale: 1.01 }}
+                  whileTap={{ scale: 0.99 }}
+                  onClick={completeSession}
+                  className="w-full py-4.5 bg-primary text-primary-foreground font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-primary/15 hover:shadow-xl transition-all"
+                >
+                  <Check size={14} />
+                  {t('complete_and_save', 'Complete & Save')}
+                </motion.button>
               </div>
             </motion.div>
           )}
