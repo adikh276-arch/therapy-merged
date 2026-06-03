@@ -168,7 +168,7 @@ function EnvironmentOptimizationInner() {
                 <p className="text-[10px] font-black text-primary uppercase tracking-widest">
                   {t('step_2_of_3', 'Step 2 of 3')}
                 </p>
-                <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                <h1 className="act-heading">
                   {t('five_min_reset', '5-Minute Reset')}
                 </h1>
               </div>

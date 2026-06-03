@@ -239,7 +239,7 @@ function ScenarioScreen({ onNext }: { onNext: (scenario: string) => void }) {
         <button
           disabled={!isValid}
           onClick={() => selected && onNext(selected === "other" ? customText : selected)}
-          className="w-full bg-primary text-primary-foreground py-4 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all font-bold disabled:opacity-40"
+          className="act-btn-primary"
         >
           {t("scenario.button")}
         </button>
@@ -339,7 +339,7 @@ function PauseInner() {
               <div className="w-full max-w-xs">
                 <button
                   onClick={() => setScreen("scenario")}
-                  className="w-full bg-primary text-primary-foreground font-bold py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all"
+                  className="act-btn-primary"
                 >
                   {t("intro.button")}
                 </button>

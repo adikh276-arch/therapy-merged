@@ -369,7 +369,7 @@ function WhatDoINeedInner() {
                               </div>
                               <span className="font-bold text-slate-800">{item.primaryNeed}</span>
                             </div>
-                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{item.date}</span>
+                            <span className="field-label">{item.date}</span>
                           </div>
                           {item.reflection && (
                             <p className="text-sm text-slate-650 italic leading-relaxed mb-3">"{item.reflection}"</p>
@@ -613,7 +613,7 @@ function WhatDoINeedInner() {
                     <motion.div key="s3-closing" {...fadeUp} className="w-full flex flex-col items-center gap-8 pt-4">
                       <div className="w-full p-8 rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] shadow-2xl space-y-6 summary-card">
                         <div className="space-y-1">
-                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.closing.tag_need", "Primary Need")}</p>
+                          <p className="field-label">{t("screens.s3.closing.tag_need", "Primary Need")}</p>
                           <div className="flex items-center gap-3">
                             <PrimaryIcon size={20} className="text-slate-800" />
                             <p className="text-xl font-black text-slate-900">{needs_obj[primaryNeed]?.label || primaryNeed}</p>
@@ -621,13 +621,13 @@ function WhatDoINeedInner() {
                         </div>
                         
                         <div className="space-y-1">
-                          <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.closing.tag_insight", "Your Insight")}</p>
+                          <p className="field-label">{t("screens.s3.closing.tag_insight", "Your Insight")}</p>
                           <p className="text-base text-slate-700 font-medium italic leading-relaxed">"{reflection}"</p>
                         </div>
 
                         {(selectedAction || customAction) && (
                           <div className="space-y-1">
-                            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("screens.s3.closing.tag_action", "Small Action")}</p>
+                            <p className="field-label">{t("screens.s3.closing.tag_action", "Small Action")}</p>
                             <p className="text-base font-bold text-slate-800">{selectedAction || customAction}</p>
                           </div>
                         )}

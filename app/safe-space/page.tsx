@@ -70,7 +70,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
           placeholder={t("s1.placeholder", "Type how you are feeling (e.g. My shoulders feel tight...)")} 
           value={feeling} 
           onChange={(e) => setFeeling(e.target.value)}
-          className="w-full rounded-3xl border border-white/60 bg-white p-6 text-slate-700 placeholder:text-slate-300 focus:border-primary/35 outline-none transition-all font-bold min-h-[120px] shadow-inner resize-none" 
+          className="field-textarea min-h-[120px]" 
         />
       </motion.div>
       <motion.div variants={childFade} className="w-full">
@@ -247,7 +247,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
           placeholder={t("s5.placeholder", "Write down how you feel now...")} 
           value={reflection} 
           onChange={(e) => setReflection(e.target.value)}
-          className="w-full rounded-3xl border border-white/60 bg-white p-6 text-slate-700 placeholder:text-slate-300 focus:border-primary/35 outline-none transition-all font-bold min-h-[120px] shadow-inner resize-none" 
+          className="field-textarea min-h-[120px]" 
         />
       </motion.div>
 

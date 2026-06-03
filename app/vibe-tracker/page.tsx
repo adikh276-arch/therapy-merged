@@ -14,16 +14,16 @@ import { apiPath } from '@/lib/apiPath';
 type Screen = 'intro' | 'checkin' | 'reflection' | 'confirmation' | 'history';
 
 const vibes = [
-  { emoji: "🌷", label: "Calm", tint: "bg-emerald-50/50 border-emerald-100 text-emerald-800 dark:bg-emerald-950/10 dark:border-emerald-900/20 dark:text-emerald-300" },
-  { emoji: "🌤", label: "Light", tint: "bg-amber-50/50 border-amber-100 text-amber-800 dark:bg-amber-950/10 dark:border-amber-900/20 dark:text-amber-300" },
-  { emoji: "🔥", label: "Driven", tint: "bg-orange-50/50 border-orange-100 text-orange-800 dark:bg-orange-950/10 dark:border-orange-900/20 dark:text-orange-300" },
-  { emoji: "🌸", label: "Content", tint: "bg-pink-50/50 border-pink-100 text-pink-800 dark:bg-pink-950/10 dark:border-pink-900/20 dark:text-pink-300" },
-  { emoji: "🌊", label: "Steady", tint: "bg-blue-50/50 border-blue-100 text-blue-800 dark:bg-blue-950/10 dark:border-blue-900/20 dark:text-blue-300" },
-  { emoji: "🤍", label: "Tender", tint: "bg-slate-50/50 border-white/60 text-slate-800 dark:bg-slate-950/10 dark:border-slate-900/20 dark:text-slate-300" },
-  { emoji: "🌧", label: "Heavy", tint: "bg-indigo-50/50 border-indigo-100 text-indigo-800 dark:bg-indigo-950/10 dark:border-indigo-900/20 dark:text-indigo-300" },
-  { emoji: "🌫", label: "Thoughtful", tint: "bg-teal-50/50 border-teal-100 text-teal-800 dark:bg-teal-950/10 dark:border-teal-900/20 dark:text-teal-300" },
-  { emoji: "⚡", label: "Restless", tint: "bg-yellow-50/50 border-yellow-100 text-yellow-800 dark:bg-yellow-950/10 dark:border-yellow-900/20 dark:text-yellow-300" },
-  { emoji: "💔", label: "Drained", tint: "bg-rose-50/50 border-rose-100 text-rose-800 dark:bg-rose-950/10 dark:border-rose-900/20 dark:text-rose-300" },
+  { emoji: "??", label: "Calm", tint: "bg-emerald-50/50 border-emerald-100 text-emerald-800 dark:bg-emerald-950/10 dark:border-emerald-900/20 dark:text-emerald-300" },
+  { emoji: "??", label: "Light", tint: "bg-amber-50/50 border-amber-100 text-amber-800 dark:bg-amber-950/10 dark:border-amber-900/20 dark:text-amber-300" },
+  { emoji: "??", label: "Driven", tint: "bg-orange-50/50 border-orange-100 text-orange-800 dark:bg-orange-950/10 dark:border-orange-900/20 dark:text-orange-300" },
+  { emoji: "??", label: "Content", tint: "bg-pink-50/50 border-pink-100 text-pink-800 dark:bg-pink-950/10 dark:border-pink-900/20 dark:text-pink-300" },
+  { emoji: "??", label: "Steady", tint: "bg-blue-50/50 border-blue-100 text-blue-800 dark:bg-blue-950/10 dark:border-blue-900/20 dark:text-blue-300" },
+  { emoji: "??", label: "Tender", tint: "bg-slate-50/50 border-white/60 text-slate-800 dark:bg-slate-950/10 dark:border-slate-900/20 dark:text-slate-300" },
+  { emoji: "??", label: "Heavy", tint: "bg-indigo-50/50 border-indigo-100 text-indigo-800 dark:bg-indigo-950/10 dark:border-indigo-900/20 dark:text-indigo-300" },
+  { emoji: "??", label: "Thoughtful", tint: "bg-teal-50/50 border-teal-100 text-teal-800 dark:bg-teal-950/10 dark:border-teal-900/20 dark:text-teal-300" },
+  { emoji: "?", label: "Restless", tint: "bg-yellow-50/50 border-yellow-100 text-yellow-800 dark:bg-yellow-950/10 dark:border-yellow-900/20 dark:text-yellow-300" },
+  { emoji: "??", label: "Drained", tint: "bg-rose-50/50 border-rose-100 text-rose-800 dark:bg-rose-950/10 dark:border-rose-900/20 dark:text-rose-300" },
 ];
 
 const vibeEmojiMap: Record<string, string> = vibes.reduce((acc, v) => ({ ...acc, [v.label]: v.emoji }), {});
@@ -263,45 +263,45 @@ function VibeTrackerInner() {
                 className="w-full flex-1 flex flex-col space-y-8"
               >
                 <div className="space-y-2 text-left">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t("rightNowIFeel", "Right now, I feel...")}
                   </h1>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-3">
                   {vibes.map((vibe, i) => (
                     <motion.button
                       key={vibe.label}
-                      initial={{ opacity: 0, y: 10 }}
+                      initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: i * 0.05 }}
+                      transition={{ delay: i * 0.04 }}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
                         setSelectedVibe(vibe.label);
                         setCustomVibe("");
                       }}
-                      className={`flex flex-col items-center justify-center p-6 rounded-[2.5rem] border transition-all shadow-sm ${
+                      className={`flex flex-col items-center justify-center p-5 rounded-2xl border transition-all shadow-sm ${
                         selectedVibe === vibe.label
-                          ? "bg-primary text-white border-primary shadow-xl shadow-primary/20"
-                          : "bg-white border-slate-50 text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-100 hover:border-primary/20"
+                          ? "bg-primary text-white border-primary"
+                          : "bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100"
                       }`}
                     >
-                      <span className="text-3xl mb-2">{vibe.emoji}</span>
-                      <span className="text-xs font-black uppercase tracking-widest opacity-80">
+                      <span className="text-2xl mb-1.5">{vibe.emoji}</span>
+                      <span className="text-[11px] font-semibold uppercase tracking-wider opacity-80">
                         {t(`vibes.${vibe.label}`, vibe.label)}
                       </span>
                     </motion.button>
                   ))}
                 </div>
 
-                <div className="space-y-4">
-                  <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-[0.2em] px-4 block">
+                <div className="space-y-3">
+                  <label className="field-label">
                     {t("describeOwnVibe", "Or describe your own vibe")}
                   </label>
                   <input
                     type="text"
-                    className="w-full py-6 rounded-[2.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-8 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 shadow-inner"
+                    className="field-input"
                     placeholder={t("rightNowIFeel", "Right now, I feel...")}
                     value={customVibe}
                     onChange={(e) => {
@@ -311,16 +311,16 @@ function VibeTrackerInner() {
                   />
                 </div>
 
-                <motion.button
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  disabled={!currentVibe}
-                  onClick={handleVibeSelected}
-                  className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
-                >
-                  {t("saveVibe", "Save & Continue")}
-                  <ArrowRight size={20} />
-                </motion.button>
+                <div className="pt-2">
+                  <button
+                    disabled={!currentVibe}
+                    onClick={handleVibeSelected}
+                    className="act-btn-primary"
+                  >
+                    {t("saveVibe", "Save & Continue")}
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
+                </div>
               </motion.div>
             )}
 
@@ -334,7 +334,7 @@ function VibeTrackerInner() {
                 className="w-full flex-1 flex flex-col space-y-8"
               >
                 <div className="space-y-4 text-center">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t("pauseAndReflect", "Pause & Reflect")}
                   </h1>
                 </div>
@@ -343,28 +343,28 @@ function VibeTrackerInner() {
                   {t(`prompts.${shuffledKeys[reflectionIndex]}`, shuffledKeys[reflectionIndex])}
                 </p>
 
-                <div className="space-y-4">
-                  <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-[0.2em] px-4 block">
+                <div className="space-y-3">
+                  <label className="field-label">
                     {t("typeThoughts", "Type your thoughts")}
                   </label>
                   <textarea
-                    className="w-full py-8 rounded-[2.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-8 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 shadow-inner min-h-[200px] resize-none leading-relaxed"
+                    className="field-textarea min-h-[160px]"
                     placeholder={t("type_your_reflection_here", "Type your reflection here...")}
                     value={reflectionAnswer}
                     onChange={(e) => setReflectionAnswer(e.target.value)}
                   />
                 </div>
 
-                <motion.button
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  disabled={!reflectionAnswer.trim()}
-                  onClick={handleReflectionNext}
-                  className="w-full py-5 rounded-[2rem] bg-primary text-primary-foreground font-black text-lg shadow-xl shadow-primary/20 hover:shadow-2xl transition-all flex items-center justify-center gap-3 disabled:opacity-40"
-                >
-                  {reflectionIndex >= shuffledKeys.length - 1 ? t("submitReflection", "Save Check-In") : t("next", "Next")}
-                  {reflectionIndex >= shuffledKeys.length - 1 ? <Check size={20} /> : <ArrowRight size={20} />}
-                </motion.button>
+                <div className="pt-2">
+                  <button
+                    disabled={!reflectionAnswer.trim()}
+                    onClick={handleReflectionNext}
+                    className="act-btn-primary"
+                  >
+                    {reflectionIndex >= shuffledKeys.length - 1 ? t("submitReflection", "Save Check-In") : t("next", "Next")}
+                    {reflectionIndex >= shuffledKeys.length - 1 ? <Check size={15} strokeWidth={2.5} /> : <ArrowRight size={15} strokeWidth={2.5} />}
+                  </button>
+                </div>
               </motion.div>
             )}
 
@@ -414,7 +414,7 @@ function VibeTrackerInner() {
                       <Sparkles size={12} />
                       {t("yourJourney", "Your Journey")}
                     </span>
-                    <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                    <h1 className="act-heading">
                       {t("yourJourney", "Mood Journey")}
                     </h1>
                   </div>
@@ -428,19 +428,17 @@ function VibeTrackerInner() {
                     </p>
                   </div>
                 ) : historyEntries.length === 0 ? (
-                  <div className="p-12 bg-white dark:bg-slate-900 rounded-[3rem] border border-slate-50 dark:border-slate-800 text-center space-y-6">
-                    <div className="w-20 h-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-full flex items-center justify-center mx-auto text-slate-350 dark:text-slate-700">
-                      <Calendar size={40} />
+                  <div className="p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-white text-center space-y-4 shadow-sm">
+                    <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto text-slate-300 shadow-sm">
+                      <Calendar size={32} />
                     </div>
-                    <p className="text-slate-400 font-bold">{t("noVibes", "No logged moods found.")}</p>
-                    <motion.button
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
+                    <p className="text-slate-400 font-medium text-sm">{t("noVibes", "No logged moods found.")}</p>
+                    <button
                       onClick={() => setScreen("checkin")}
-                      className="w-full py-4 rounded-[2rem] bg-primary text-primary-foreground font-black shadow-lg"
+                      className="act-btn-primary"
                     >
                       {t("startFirstCheckIn", "Log Your First Vibe")}
-                    </motion.button>
+                    </button>
                   </div>
                 ) : (
                   <div className="space-y-10">
@@ -459,12 +457,12 @@ function VibeTrackerInner() {
                                 initial={{ opacity: 0, x: -20 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: (groupIdx * 2 + i) * 0.05 }}
-                                className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/20 transition-all"
+                                className="p-5 bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm space-y-3 relative overflow-hidden hover:border-sky-100 transition-all"
                               >
                                 <div className="flex items-center justify-between">
                                   <div className="flex items-center gap-3">
                                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl transition-colors ${matchingVibe?.tint || 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950'}`}>
-                                      {vibeEmojiMap[entry.vibe] || "✨"}
+                                      {vibeEmojiMap[entry.vibe] || "?"}
                                     </div>
                                     <div>
                                       <h4 className="font-black text-slate-800 dark:text-slate-200 text-sm uppercase tracking-wider">

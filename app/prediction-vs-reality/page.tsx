@@ -299,7 +299,7 @@ function PredictionVsRealityInner() {
                 onChange={(e) => setSituation(e.target.value)}
                 placeholder={t("screens.s1.placeholder", "e.g., Giving a presentation tomorrow morning...")}
                 rows={4}
-                className="w-full rounded-2xl border border-slate-50 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-5 text-sm text-slate-800 placeholder:text-slate-350 focus:outline-none focus:border-primary/20 focus:bg-white transition-all resize-none font-medium"
+                className="field-textarea"
               />
               <button 
                 onClick={() => setScreen(2)} 
@@ -325,7 +325,7 @@ function PredictionVsRealityInner() {
                 onChange={(e) => setPrediction(e.target.value)}
                 placeholder={t("screens.s2.placeholder", "e.g., I will forget my slides and everyone will judge me...")}
                 rows={4}
-                className="w-full rounded-2xl border border-slate-50 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-5 text-sm text-slate-800 placeholder:text-slate-350 focus:outline-none focus:border-primary/20 focus:bg-white transition-all resize-none font-medium"
+                className="field-textarea"
               />
               <button 
                 onClick={() => setScreen(3)} 
@@ -406,7 +406,7 @@ function PredictionVsRealityInner() {
                 onChange={(e) => setReality(e.target.value)}
                 placeholder={t("screens.s4.placeholder", "e.g., I stumbled slightly in the beginning, but recovered and finished smoothly...")}
                 rows={4}
-                className="w-full rounded-2xl border border-slate-50 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-5 text-sm text-slate-800 placeholder:text-slate-350 focus:outline-none focus:border-primary/20 focus:bg-white transition-all resize-none font-medium"
+                className="field-textarea"
               />
               <button 
                 onClick={() => setScreen(5)} 
@@ -476,7 +476,7 @@ function PredictionVsRealityInner() {
                 onChange={(e) => setReflection(e.target.value)}
                 placeholder={t("screens.s6.placeholder", "e.g., My anxiety made me think I'd fail completely, but I coped much better than expected...")}
                 rows={4}
-                className="w-full rounded-2xl border border-slate-50 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-5 text-sm text-slate-800 placeholder:text-slate-350 focus:outline-none focus:border-primary/20 focus:bg-white transition-all resize-none font-medium"
+                className="field-textarea"
               />
               <button 
                 onClick={() => setScreen(7)} 
@@ -502,7 +502,7 @@ function PredictionVsRealityInner() {
                 onChange={(e) => setReframe(e.target.value)}
                 placeholder={t("screens.s7.placeholder", "e.g., Although I feel nervous, I have proven I can prepare and succeed despite the fear...")}
                 rows={4}
-                className="w-full rounded-2xl border border-slate-50 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-5 text-sm text-slate-800 placeholder:text-slate-350 focus:outline-none focus:border-primary/20 focus:bg-white transition-all resize-none font-medium"
+                className="field-textarea"
               />
               <button 
                 onClick={() => setScreen(8)} 

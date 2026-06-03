@@ -75,7 +75,7 @@ function MindReadingInner() {
           <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
             {t('steps.step1.title', 'What happened?')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+          <p className="act-body">
             {t('steps.step1.desc', 'Describe a recent moment where you felt judged or unsure.')}
           </p>
           <textarea
@@ -83,7 +83,7 @@ function MindReadingInner() {
             onChange={e => setSituation(e.target.value)}
             placeholder={t('steps.step1.placeholder', 'Description of the situation...')}
             rows={4}
-            className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none transition-all text-sm shadow-inner"
+            className="field-textarea"
           />
         </div>
       );
@@ -104,7 +104,7 @@ function MindReadingInner() {
             onChange={e => setAssumption(e.target.value)}
             placeholder={t('steps.step2.placeholder', 'I assumed they were thinking...')}
             rows={3}
-            className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none transition-all text-sm shadow-inner"
+            className="field-textarea"
           />
         </div>
       );
@@ -118,7 +118,7 @@ function MindReadingInner() {
             <div className="p-4 bg-amber-50 dark:bg-amber-950/20 rounded-2xl border border-amber-100 dark:border-amber-900/30">
               <p className="text-amber-700 dark:text-amber-400 font-bold italic text-sm">"{assumption}"</p>
             </div>
-            <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+            <p className="act-body">
               {t('steps.step3.desc', "Right now, this thought can feel true. But before accepting it as a fact, let's take a step back and look at it more closely.")}
             </p>
           </div>
@@ -130,7 +130,7 @@ function MindReadingInner() {
           <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
             {t('steps.step4.title', 'Is this true?')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+          <p className="act-body">
             {t('steps.step4.desc', 'Is there any clear evidence (facts, not assumptions) that supports this thought?')}
           </p>
           <textarea
@@ -138,7 +138,7 @@ function MindReadingInner() {
             onChange={e => setEvidence(e.target.value)}
             placeholder={t('steps.step4.placeholder', 'The evidence I see is...')}
             rows={4}
-            className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none transition-all text-sm shadow-inner"
+            className="field-textarea"
           />
         </div>
       );
@@ -158,7 +158,7 @@ function MindReadingInner() {
                 value={p}
                 onChange={e => setPossibilities(prev => prev.map((v, idx) => idx === i ? e.target.value : v))}
                 placeholder={`Possibility ${i + 1}...`}
-                className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 transition-all text-sm"
+                className="field-input"
               />
             ))}
           </div>
@@ -203,7 +203,7 @@ function MindReadingInner() {
             onChange={e => setBalancedThought(e.target.value)}
             placeholder={t('steps.step7.placeholder', 'A more balanced thought...')}
             rows={4}
-            className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none transition-all text-sm shadow-inner"
+            className="field-textarea"
           />
         </div>
       );
@@ -238,7 +238,7 @@ function MindReadingInner() {
             value={customNextTime}
             onChange={e => { setCustomNextTime(e.target.value); setNextTime(''); }}
             placeholder={t('steps.step8.placeholder', 'Next time, I could...')}
-            className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 transition-all text-sm"
+            className="field-input"
           />
         </div>
       );
@@ -248,7 +248,7 @@ function MindReadingInner() {
           <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
             {t('steps.step9.title', 'Notice the shift')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+          <p className="act-body">
             {t('steps.step9.desc', 'You explored different possibilities and created space for a more balanced view.')}
           </p>
           <div className="space-y-3">
@@ -303,7 +303,7 @@ function MindReadingInner() {
               {/* Progress bar */}
               <div className="space-y-2">
                 <div className="flex justify-between items-center">
-                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                  <span className="field-label">
                     {t('steps.label', `Step ${step} of ${TOTAL_STEPS}`, { current: step, total: TOTAL_STEPS })}
                   </span>
                   <span className="text-[10px] font-black text-primary uppercase tracking-widest">
@@ -319,7 +319,7 @@ function MindReadingInner() {
                 </div>
               </div>
 
-              <div className="space-y-1.5">
+              <div className="space-y-2">
                 <span className="inline-flex items-center gap-1.5 text-primary font-black text-[10px] uppercase tracking-widest">
                   <Sparkles size={12} /> Mind Reading Check
                 </span>

@@ -378,7 +378,7 @@ function CareTrackerInner() {
             {screen === "checkin" && (
               <motion.div key="checkin" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-8 pb-32">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('screens.checkin.title', 'Checking In')}
                   </h1>
                   <p className="text-slate-500 dark:text-slate-400 text-sm">
@@ -397,7 +397,7 @@ function CareTrackerInner() {
                       value={entry.date}
                       max={toLocalIsoDate(new Date())}
                       onChange={(e) => handleDateChange(e.target.value)}
-                      className="w-full py-5 pl-14 pr-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-bold focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                      className="field-input pl-14"
                     />
                   </div>
                 </div>
@@ -428,7 +428,7 @@ function CareTrackerInner() {
             {screen === "activities" && (
               <motion.div key="activities" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-8 pb-32">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('screens.activities.title', 'Self-Care Activities')}
                   </h1>
                   <p className="text-slate-500 dark:text-slate-400 text-sm">
@@ -483,7 +483,7 @@ function CareTrackerInner() {
             {screen === "duration" && (
               <motion.div key="duration" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-8 pb-32">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('screens.duration.title', 'Time Spent')}
                   </h1>
                   <p className="text-slate-505 dark:text-slate-400 text-sm">
@@ -513,7 +513,7 @@ function CareTrackerInner() {
             {screen === "noSelfCare" && (
               <motion.div key="noSelfCare" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-8 pb-32">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('screens.noSelfCare.title', 'Understand Today')}
                   </h1>
                   <p className="text-slate-500 dark:text-slate-400 text-sm">
@@ -564,7 +564,7 @@ function CareTrackerInner() {
             {screen === "mood" && (
               <motion.div key="mood" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-8 pb-32">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('screens.mood.title', 'Your Mood')}
                   </h1>
                   <p className="text-slate-500 dark:text-slate-400 text-sm">
@@ -768,7 +768,7 @@ function CareTrackerInner() {
                               {entryItem.moodEmoji || <Calendar size={24} className="text-slate-300 dark:text-slate-700" />}
                             </div>
                             <div>
-                              <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                              <p className="field-label">
                                 {formatDateShort(entryItem.date)}
                               </p>
                               <p className="text-base font-bold text-slate-800 dark:text-slate-200 mt-0.5 line-clamp-1">

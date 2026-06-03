@@ -207,7 +207,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
         >
           <ArrowLeft size={18} />
         </motion.button>
-        <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
+        <span className="act-eyebrow">
           <Sparkles size={12} />
           {t('dailySupportTips', 'Daily Support Tips')}
         </span>

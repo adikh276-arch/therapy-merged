@@ -21,11 +21,11 @@ interface MoodOption {
 }
 
 const MOODS: MoodOption[] = [
-  { emoji: "😀", label: "Happy" },
-  { emoji: "😌", label: "Calm" },
-  { emoji: "😐", label: "Neutral" },
-  { emoji: "😔", label: "Low" },
-  { emoji: "😣", label: "Stressed" },
+  { emoji: "??", label: "Happy" },
+  { emoji: "??", label: "Calm" },
+  { emoji: "??", label: "Neutral" },
+  { emoji: "??", label: "Low" },
+  { emoji: "??", label: "Stressed" },
 ];
 
 interface GratitudeEntry {
@@ -264,24 +264,24 @@ function GratitudeTrackerInner() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                className="w-full flex-1 flex flex-col space-y-6 pb-20 text-left"
+                className="w-full flex-1 flex flex-col space-y-6 text-left"
               >
                 <div className="space-y-2">
-                  <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <Sparkles size={12} />
+                  <span className="act-eyebrow">
+                    <Sparkles size={11} />
                     {t('app_title', 'Gratitude Journal')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('gratitude.heading', 'What are you grateful for today?')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('gratitude.subheading', 'Take a moment to reflect on the good things, big or small.')}
                   </p>
                 </div>
 
-                <div className="space-y-4">
+                <div className="space-y-3">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1">
+                    <label className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest px-1">
                       {t('gratitude.item1.label', 'Gratitude Item 1')}
                     </label>
                     <input
@@ -289,37 +289,34 @@ function GratitudeTrackerInner() {
                       placeholder={t('gratitude.item1.placeholder', 'e.g. A warm cup of tea this morning...')}
                       value={gratitude1}
                       onChange={(e) => setGratitude1(e.target.value)}
-                      className="w-full py-4.5 rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-950 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300"
+                      className="field-input"
                     />
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-[10px] font-black text-slate-400 dark:text-slate-550 uppercase tracking-widest px-1">
+                    <label className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest px-1">
                       {t('gratitude.item2.label', 'Gratitude Item 2')}{' '}
-                      <span className="font-medium lowercase text-slate-350">{t('gratitude.optional', '(optional)')}</span>
+                      <span className="font-normal normal-case text-slate-300">{t('gratitude.optional', '(optional)')}</span>
                     </label>
                     <input
                       type="text"
                       placeholder={t('gratitude.item2.placeholder', 'e.g. A kind word from a friend...')}
                       value={gratitude2}
                       onChange={(e) => setGratitude2(e.target.value)}
-                      className="w-full py-4.5 rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-955 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300"
+                      className="field-input"
                     />
                   </div>
                 </div>
 
-                {/* Footer Controls */}
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={canContinue ? { scale: 1.02 } : {}}
-                    whileTap={canContinue ? { scale: 0.98 } : {}}
+                <div className="pt-2">
+                  <button
                     disabled={!canContinue}
                     onClick={() => setScreen('mood')}
-                    className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+                    className="act-btn-primary"
                   >
                     {t('common.continue', 'Continue')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -331,65 +328,60 @@ function GratitudeTrackerInner() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                className="w-full flex-1 flex flex-col space-y-6 pb-20 text-left"
+                className="w-full flex-1 flex flex-col space-y-6 text-left"
               >
                 <div className="space-y-2">
-                  <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <Smile size={14} />
+                  <span className="act-eyebrow">
+                    <Smile size={11} />
                     {t('mood.heading', 'How are you feeling?')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('mood.heading', 'How are you feeling?')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('mood.subheading', 'Select the mood that best describes you right now.')}
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 gap-3.5">
+                <div className="grid grid-cols-1 gap-2">
                   {MOODS.map((opt, i) => {
                     const isSelected = selectedMood?.label === opt.label;
                     return (
                       <motion.button
                         key={opt.label}
-                        initial={{ opacity: 0, x: -10 }}
+                        initial={{ opacity: 0, x: -8 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.05 }}
                         onClick={() => setSelectedMood(opt)}
-                        className={`flex items-center gap-5 rounded-2xl border px-6 py-4 transition-all text-left group ${
+                        className={`flex items-center gap-4 rounded-xl border px-5 py-3.5 transition-all text-left ${
                           isSelected
-                            ? 'bg-primary border-primary text-white shadow-lg shadow-primary/10'
-                            : 'bg-slate-55/60 dark:bg-slate-900/60 border-white/60 dark:border-slate-800 text-slate-800 dark:text-slate-100 hover:scale-[1.01]'
+                            ? 'bg-primary border-primary text-white'
+                            : 'bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100'
                         }`}
                       >
-                        <span className="text-3xl filter drop-shadow-sm">{opt.emoji}</span>
-                        <span
-                          className={`text-base font-extrabold ${
-                            isSelected ? 'text-white' : 'text-slate-700 dark:text-slate-200'
-                          }`}
-                        >
+                        <span className="text-2xl">{opt.emoji}</span>
+                        <span className={`text-sm font-semibold ${isSelected ? 'text-white' : 'text-slate-700'}`}>
                           {t(`mood.${opt.label.toLowerCase()}`, opt.label)}
                         </span>
-                        <div className="ml-auto w-6 h-6 rounded-full border border-current flex items-center justify-center shrink-0 opacity-40 group-hover:opacity-100 transition-opacity">
-                          {isSelected && <Check size={14} strokeWidth={4} />}
+                        <div className={`ml-auto w-5 h-5 rounded-full border flex items-center justify-center shrink-0 transition-all ${
+                          isSelected ? 'border-white bg-white/20' : 'border-slate-200'
+                        }`}>
+                          {isSelected && <Check size={12} strokeWidth={3} />}
                         </div>
                       </motion.button>
                     );
                   })}
                 </div>
 
-                {/* Footer Controls */}
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={selectedMood ? { scale: 1.02 } : {}}
-                    whileTap={selectedMood ? { scale: 0.98 } : {}}
+                <div className="pt-2">
+                  <button
                     disabled={!selectedMood}
                     onClick={handleSaveEntry}
-                    className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+                    className="act-btn-primary"
                   >
-                    {t('mood.save', 'Save Gratitude Entry')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    {t('mood.save', 'Save Entry')}
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -412,39 +404,35 @@ function GratitudeTrackerInner() {
                   icon={<Heart size={48} fill="currentColor" className="text-rose-500 animate-pulse" />}
                 >
                   {/* Summary Card */}
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm text-left space-y-4 my-6">
-                    <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-3">
-                      <span className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest">
+                  <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm text-left space-y-4 p-5">
+                    <div className="flex justify-between items-center border-b border-sky-50 pb-3">
+                      <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest">
                         {t('review.heading', 'Your Entry')}
                       </span>
                       {selectedMood && (
-                        <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-primary/10 text-primary shrink-0">
-                          <span className="text-xl leading-none">{selectedMood.emoji}</span>
-                          <span className="text-[10px] font-black uppercase tracking-widest">
+                        <div className="flex items-center gap-2 px-3 py-1 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 shrink-0">
+                          <span className="text-lg leading-none">{selectedMood.emoji}</span>
+                          <span className="text-[11px] font-semibold">
                             {t(`mood.${selectedMood.label.toLowerCase()}`, selectedMood.label)}
                           </span>
                         </div>
                       )}
                     </div>
 
-                    <div className="space-y-4">
-                      <div className="space-y-1">
-                        <span className="text-[9px] font-black text-slate-300 dark:text-slate-655 uppercase tracking-widest block">
+                    <div className="space-y-3">
+                      <div className="space-y-0.5">
+                        <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest block">
                           {t('review.gratitude1', 'Gratitude 1')}
                         </span>
-                        <p className="text-sm font-bold text-slate-700 dark:text-slate-200 leading-relaxed">
-                          {gratitude1}
-                        </p>
+                        <p className="text-sm font-medium text-slate-700 leading-relaxed">{gratitude1}</p>
                       </div>
 
                       {gratitude2.trim() && (
-                        <div className="space-y-1">
-                          <span className="text-[9px] font-black text-slate-300 dark:text-slate-655 uppercase tracking-widest block">
+                        <div className="space-y-0.5">
+                          <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest block">
                             {t('review.gratitude2', 'Gratitude 2')}
                           </span>
-                          <p className="text-sm font-bold text-slate-700 dark:text-slate-200 leading-relaxed">
-                            {gratitude2}
-                          </p>
+                          <p className="text-sm font-medium text-slate-700 leading-relaxed">{gratitude2}</p>
                         </div>
                       )}
                     </div>
@@ -464,7 +452,7 @@ function GratitudeTrackerInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => setScreen('history')}
-                      className="flex-1 py-4 bg-primary text-primary-foreground font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-primary/10 hover:shadow-xl transition-all"
+                      className="act-btn-primary flex-1"
                     >
                       <CalendarIcon size={14} />
                       {t('review.history', 'View History')}
@@ -485,11 +473,11 @@ function GratitudeTrackerInner() {
               >
                 <div className="flex justify-between items-center">
                   <div className="space-y-1">
-                    <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+                    <span className="act-eyebrow">
                       <History size={12} />
                       {t('review.history', 'View History')}
                     </span>
-                    <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                    <h1 className="act-heading">
                       {t('history.heading', 'History')}
                     </h1>
                   </div>
@@ -526,7 +514,7 @@ function GratitudeTrackerInner() {
                 </div>
 
                 {/* Calendar box wrapper */}
-                <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6.5 shadow-sm min-h-[340px] flex flex-col relative justify-center">
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm min-h-[340px] flex flex-col relative justify-center p-5">
                   {historyLoading ? (
                     <div className="flex-1 flex items-center justify-center">
                       <Loader2 className="w-8 h-8 animate-spin text-primary opacity-30" />
@@ -586,10 +574,10 @@ function GratitudeTrackerInner() {
                   {selectedHistoryEntry ? (
                     <motion.div
                       key={selectedHistoryEntry.id}
-                      initial={{ opacity: 0, y: 10 }}
+                      initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      className="bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 p-6 shadow-sm space-y-4"
+                      exit={{ opacity: 0, y: -8 }}
+                      className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm space-y-4 p-5"
                     >
                       <div className="flex items-center justify-between border-b border-slate-50 dark:border-slate-850 pb-4">
                         <div className="flex items-center gap-2.5 text-slate-400">

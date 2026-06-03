@@ -211,17 +211,17 @@ function DailyGratitudeInner() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                className="w-full flex-1 flex flex-col space-y-6 pb-28"
+                className="w-full flex-1 flex flex-col space-y-5"
               >
                 <div className="space-y-3 text-left">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <Sparkles size={12} />
+                  <span className="act-eyebrow">
+                    <Sparkles size={11} />
                     {t('daily_gratitude', 'Daily Gratitude')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('grateful_title', "Today, I'm Grateful For...")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('grateful_step_1', 'Think about today. What is one small thing you appreciate right now? It can be something simple.')}
                   </p>
                 </div>
@@ -234,15 +234,15 @@ function DailyGratitudeInner() {
                         key={i}
                         initial={{ opacity: 0, y: 15 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className={`p-6 bg-white dark:bg-slate-900 rounded-3xl border ${tintClass} shadow-sm space-y-4 hover:shadow-md transition-all`}
+                        className={`p-5 bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm space-y-4 hover:border-sky-100 transition-all`}
                       >
-                        <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-widest">
+                        <div className="act-eyebrow">
                           <Heart size={12} fill="currentColor" />
                           {t('entry_x', 'Entry #')}{i + 1}
                         </div>
                         <div className="space-y-3">
-                          <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1">
+                          <div className="space-y-2">
+                            <label className="field-label">
                               {t('i_am_grateful_for', 'I am grateful for...')}
                             </label>
                             <input
@@ -250,11 +250,11 @@ function DailyGratitudeInner() {
                               placeholder={t('placeholder_grateful', "Today, I'm grateful for...")}
                               value={entry.grateful}
                               onChange={(e) => updateEntry(i, 'grateful', e.target.value)}
-                              className="w-full py-4 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350"
+                              className="field-input"
                             />
                           </div>
-                          <div className="space-y-1.5">
-                            <label className="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1">
+                          <div className="space-y-2">
+                            <label className="field-label">
                               {t('because', 'Because...')}
                             </label>
                             <input
@@ -262,7 +262,7 @@ function DailyGratitudeInner() {
                               placeholder={t('placeholder_reason', 'This matters to me because... (optional)')}
                               value={entry.reason}
                               onChange={(e) => updateEntry(i, 'reason', e.target.value)}
-                              className="w-full py-4 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-355"
+                              className="field-input"
                             />
                           </div>
                         </div>
@@ -270,29 +270,25 @@ function DailyGratitudeInner() {
                     );
                   })}
 
-                  <motion.button
-                    whileHover={{ scale: 1.01 }}
-                    whileTap={{ scale: 0.99 }}
+                  <button
                     onClick={addAnother}
-                    className="w-full py-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-905 text-slate-400 font-bold border border-dashed border-slate-200 dark:border-slate-800 hover:border-primary/30 hover:text-primary transition-all flex items-center justify-center gap-2"
+                    className="w-full py-3 rounded-xl bg-white/60 backdrop-blur-sm border border-dashed border-sky-100 text-slate-400 font-medium text-sm hover:border-sky-200 hover:text-sky-600 transition-all flex items-center justify-center gap-2"
                   >
-                    <Plus size={18} />
+                    <Plus size={16} />
                     {t('add_another', 'Add Another')}
-                  </motion.button>
+                  </button>
                 </div>
 
-                {/* Footer Controls */}
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={canContinue ? { scale: 1.02 } : {}}
-                    whileTap={canContinue ? { scale: 0.98 } : {}}
+                {/* Inline Continue Button */}
+                <div className="pt-2">
+                  <button
                     onClick={() => canContinue && setScreen('reflection')}
                     disabled={!canContinue}
-                    className="w-full max-w-md py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+                    className="act-btn-primary"
                   >
                     {t('continue', 'Continue')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -307,14 +303,14 @@ function DailyGratitudeInner() {
                 className="w-full flex-1 flex flex-col space-y-6"
               >
                 <div className="space-y-3 text-left">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <Sparkles size={12} />
+                  <span className="act-eyebrow">
+                    <Sparkles size={11} />
                     {t('reflection', 'Reflection')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('reflection_title', 'Pause and Notice')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('reflection_text', 'When you focus on this moment, what do you notice in yourself?')}
                   </p>
                 </div>
@@ -322,14 +318,14 @@ function DailyGratitudeInner() {
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm space-y-4 hover:border-primary/20 transition-all"
+                  className="act-card space-y-3"
                 >
-                  <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-widest">
+                  <div className="act-eyebrow">
                     <Smile size={14} />
                     {t('mood_check', 'Mood Check')}
                   </div>
-                  <div className="space-y-1.5">
-                    <label className="text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1">
+                  <div className="space-y-2">
+                    <label className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest px-1">
                       {t('how_do_you_feel_after_this', 'How do you feel after this?')}
                     </label>
                     <input
@@ -337,20 +333,18 @@ function DailyGratitudeInner() {
                       placeholder={t('placeholder_feeling', 'When I think about this, I feel...')}
                       value={feeling}
                       onChange={(e) => setFeeling(e.target.value)}
-                      className="w-full py-4 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/50 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350"
+                      className="field-input"
                     />
                   </div>
                 </motion.div>
 
-                <motion.button
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
+                <button
                   onClick={saveEntry}
-                  className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                  className="act-btn-primary"
                 >
                   {t('save_entry', 'Save Entry')}
-                  <ArrowRight size={18} />
-                </motion.button>
+                  <ArrowRight size={16} strokeWidth={2.5} />
+                </button>
               </motion.div>
             )}
 
@@ -395,25 +389,23 @@ function DailyGratitudeInner() {
               >
                 <div className="flex justify-between items-center">
                   <div className="text-left space-y-1">
-                    <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+                    <span className="act-eyebrow">
                       <History size={12} />
                       {t('history', 'History')}
                     </span>
-                    <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                    <h1 className="act-heading">
                       {t('past_entries_title', 'Past Entries')}
                     </h1>
-                    <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                    <p className="act-body">
                       {t('relive_your_moments_of_gratitude', 'Relive your moments of gratitude.')}
                     </p>
                   </div>
-                  <motion.button
-                    whileHover={{ scale: 1.08 }}
-                    whileTap={{ scale: 0.92 }}
+                  <button
                     onClick={() => setScreen(entries.length > 1 || entries[0].grateful.trim().length > 0 ? 'closing' : 'intro')}
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+                    className="p-2.5 bg-white/80 backdrop-blur-sm border border-white text-slate-500 rounded-xl hover:border-sky-100 hover:text-sky-600 transition-all"
                   >
-                    <ArrowLeft size={18} />
-                  </motion.button>
+                    <ArrowLeft size={16} />
+                  </button>
                 </div>
 
                 {loading ? (
@@ -424,11 +416,11 @@ function DailyGratitudeInner() {
                     </p>
                   </div>
                 ) : pastEntries.length === 0 ? (
-                  <div className="text-center py-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-3xl border border-dashed border-slate-150 dark:border-slate-800">
-                    <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm">
-                      <History size={28} />
+                  <div className="text-center py-12 bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm">
+                    <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
+                      <History size={22} />
                     </div>
-                    <p className="text-slate-450 dark:text-slate-400 font-bold text-sm px-6">
+                    <p className="text-slate-400 font-medium text-sm px-6">
                       {t('no_entries', 'No entries yet. Start your first one today.')}
                     </p>
                   </div>
@@ -439,10 +431,10 @@ function DailyGratitudeInner() {
                         key={entry.id || i}
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative group"
+                        className="act-card space-y-3"
                       >
                         <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-2">
-                          <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-widest">
+                          <div className="act-eyebrow">
                             <Calendar size={12} />
                             {entry.date}
                           </div>

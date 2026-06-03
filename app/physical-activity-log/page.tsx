@@ -325,7 +325,7 @@ function PhysicalActivityLogInner() {
                   type="date"
                   value={dateStr}
                   onChange={(e) => setDateStr(e.target.value)}
-                  className="w-full py-4.5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none outline-none transition-all shadow-sm"
+                  className="field-input"
                 />
               </div>
 
@@ -338,7 +338,7 @@ function PhysicalActivityLogInner() {
                   placeholder={t('activity_placeholder', 'e.g. Morning jog, Vinyasa yoga, swimming...')}
                   value={activityName}
                   onChange={(e) => setActivityName(e.target.value)}
-                  className="w-full py-4.5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                  className="field-input"
                 />
 
                 <div className="flex flex-wrap gap-2 pt-2">
@@ -364,7 +364,7 @@ function PhysicalActivityLogInner() {
                   placeholder={t('duration_placeholder', 'e.g. 30, 45')}
                   value={duration}
                   onChange={(e) => setDuration(e.target.value)}
-                  className="w-full py-4.5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                  className="field-input"
                 />
               </div>
 
@@ -377,7 +377,7 @@ function PhysicalActivityLogInner() {
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
                   rows={3}
-                  className="w-full py-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-5 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm resize-none"
+                  className="field-textarea"
                 />
               </div>
             </div>
@@ -445,7 +445,7 @@ function PhysicalActivityLogInner() {
 
             <div className="relative z-10 pt-6 border-t border-white/10 flex justify-between items-center">
               <div className="space-y-1">
-                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                <span className="field-label">
                   {t('current_streak', 'Active Streak')}
                 </span>
                 <p className="text-slate-300 font-bold text-xs">
@@ -645,12 +645,12 @@ function PhysicalActivityLogInner() {
         {/* LOG HISTORY LIST */}
         <div className="space-y-6 max-w-2xl mx-auto">
           <div className="flex justify-between items-center">
-            <h3 className="text-2xl font-extrabold text-slate-900 dark:text-white leading-tight">
+            <h3 className="act-heading">
               {t('activity_history', 'Activity Log History')}
             </h3>
 
             <div className="flex items-center gap-3">
-              <span className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest">
+              <span className="field-label">
                 {t('filter_by_date', 'Filter by Date')}
               </span>
               <input

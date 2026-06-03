@@ -95,7 +95,7 @@ function BrainDump({ onComplete }: { onComplete: (text: string) => void }) {
                     onChange={(e) => updateThought(index, e.target.value)}
                     onKeyDown={(e) => handleEnter(e, index)}
                     placeholder={index === 0 ? t('dump_placeholder', 'Type a thought here...') : t('type_another', 'Type another thought...')}
-                    className="w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 placeholder:text-slate-300 dark:placeholder:text-slate-700 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                    className="field-input"
                   />
                   {index === 0 && (
                     <div className="absolute right-6 top-1/2 -translate-y-1/2 text-primary/30">
@@ -559,7 +559,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                     value={nextStep}
                     onChange={(e) => setNextStep(e.target.value)}
                     placeholder={t('e_g_open_the_document_tidy_one_corner', 'e.g. Open the document, tidy one corner...')}
-                    className="w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-350 placeholder:text-slate-300 dark:placeholder:text-slate-750 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                    className="field-input"
                   />
                 </motion.div>
               )}

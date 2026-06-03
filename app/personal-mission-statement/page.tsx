@@ -223,7 +223,7 @@ function PersonalMissionStatementInner() {
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={handleViewHistory}
-                    className="w-full py-5 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-md transition-all"
+                    className="w-full py-3 rounded-xl bg-white/80 backdrop-blur-sm border border-white text-slate-500 font-semibold text-xs uppercase tracking-wider flex items-center justify-center gap-2 mt-3 hover:text-sky-600 hover:border-sky-100 transition-all"
                   >
                     <History size={16} strokeWidth={2.5} />
                     {t('history_title', 'View Stored Statements')}
@@ -239,54 +239,51 @@ function PersonalMissionStatementInner() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                className="w-full flex-1 flex flex-col space-y-6 text-left pb-20"
+                className="w-full flex-1 flex flex-col space-y-6 text-left"
               >
                 <div className="space-y-2">
-                  <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <Sparkles size={12} />
+                  <span className="act-eyebrow">
+                    <Sparkles size={11} />
                     {t('app_title', 'Personal Mission')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('values_title', 'Choose Your Core Values')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('values_subtitle', 'Select up to three values that anchor your heart and mind.')}
                   </p>
                 </div>
 
-                <div className="flex flex-wrap gap-2.5 justify-start">
+                <div className="flex flex-wrap gap-2 justify-start">
                   {VALUES_OPTIONS.map((v) => {
                     const isSelected = data.values.includes(v.key);
                     return (
                       <motion.button
                         key={v.key}
-                        whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleToggleValue(v.key)}
-                        className={`px-4.5 py-3 rounded-2xl font-black text-xs uppercase tracking-wider transition-all shadow-sm ${
+                        className={`px-3.5 py-2 rounded-xl font-semibold text-xs uppercase tracking-wider transition-all ${
                           isSelected
-                            ? 'bg-primary text-primary-foreground border border-primary'
-                            : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-350 border border-white/60 dark:border-slate-800'
+                            ? 'bg-primary text-white border border-primary'
+                            : 'bg-white/80 backdrop-blur-sm text-slate-600 border border-white hover:border-sky-100'
                         }`}
                       >
-                        {isSelected && <span className="mr-1.5">✓</span>}
+                        {isSelected && <span className="mr-1">?</span>}
                         {t(v.key, v.label)}
                       </motion.button>
                     );
                   })}
                 </div>
 
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={canContinueValues ? { scale: 1.01 } : {}}
-                    whileTap={canContinueValues ? { scale: 0.99 } : {}}
+                <div className="pt-2">
+                  <button
                     disabled={!canContinueValues}
                     onClick={() => setScreen(2)}
-                    className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+                    className="act-btn-primary"
                   >
                     {t('values_next', 'Continue')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -298,24 +295,24 @@ function PersonalMissionStatementInner() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                className="w-full flex-1 flex flex-col space-y-6 text-left pb-20"
+                className="w-full flex-1 flex flex-col space-y-6 text-left"
               >
                 <div className="space-y-2">
-                  <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <Heart size={12} />
+                  <span className="act-eyebrow">
+                    <Heart size={11} />
                     {t('app_title', 'Personal Mission')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('reflection_title', 'Reflect on Identity')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('reflection_subtitle', 'Draft your aspirations. Fill out the core components of your purpose.')}
                   </p>
                 </div>
 
-                <div className="space-y-6">
-                  <div className="space-y-3">
-                    <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-4 block">
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <label className="field-label">
                       {t('reflection_being_label', 'What kind of person do you strive to be?')}
                     </label>
                     <input
@@ -323,12 +320,12 @@ function PersonalMissionStatementInner() {
                       placeholder={t('reflection_being_placeholder', 'e.g. Someone who listens deeply and supports others...')}
                       value={data.beingSomeoneWho}
                       onChange={(e) => setData({ ...data, beingSomeoneWho: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-6 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                      className="field-input"
                     />
                   </div>
 
-                  <div className="space-y-3">
-                    <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-4 block">
+                  <div className="space-y-2">
+                    <label className="field-label">
                       {t('reflection_life_label', 'How does living in this way make you feel?')}
                     </label>
                     <input
@@ -336,22 +333,20 @@ function PersonalMissionStatementInner() {
                       placeholder={t('reflection_life_placeholder', 'e.g. Complete, peaceful, aligned...')}
                       value={data.lifeFeelMore}
                       onChange={(e) => setData({ ...data, lifeFeelMore: e.target.value })}
-                      className="w-full py-5 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-6 text-slate-700 dark:text-slate-200 focus:border-primary focus:bg-white outline-none transition-all shadow-sm"
+                      className="field-input"
                     />
                   </div>
                 </div>
 
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={canContinueReflections ? { scale: 1.01 } : {}}
-                    whileTap={canContinueReflections ? { scale: 0.99 } : {}}
+                <div className="pt-2">
+                  <button
                     disabled={!canContinueReflections}
                     onClick={() => setScreen(3)}
-                    className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+                    className="act-btn-primary"
                   >
                     {t('reflection_create', 'Construct Mission Statement')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -372,41 +367,37 @@ function PersonalMissionStatementInner() {
                   <motion.div
                     initial={{ opacity: 0, scale: 0.97 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl text-center relative overflow-hidden my-6"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white p-6 shadow-sm text-center relative overflow-hidden"
                   >
                     <textarea
                       value={statement}
                       onChange={(e) => setStatement(e.target.value)}
-                      className="w-full bg-transparent text-slate-800 dark:text-slate-100 text-lg font-bold border-none p-0 resize-none placeholder:text-slate-300 focus:outline-none transition-all leading-[1.8] text-center min-h-[140px]"
+                      className="w-full bg-transparent text-slate-800 text-base font-semibold border-none p-0 resize-none placeholder:text-slate-300 focus:outline-none transition-all leading-[1.8] text-center min-h-[140px]"
                     />
                   </motion.div>
 
-                  <div className="space-y-4 text-slate-500 dark:text-slate-450 text-xs font-bold leading-relaxed text-center italic max-w-xs mx-auto mb-6">
+                  <div className="space-y-3 text-slate-500 text-xs leading-relaxed text-center italic max-w-xs mx-auto">
                     <p>{t('mission_not_rule', 'Remember: This is a supportive declaration, not a rigid set of rules.')}</p>
                     <p>{t('mission_return_whenever', 'Return and reflect whenever you need to align your decisions.')}</p>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-3.5">
-                    <motion.button
-                      whileHover={{ scale: 1.01 }}
-                      whileTap={{ scale: 0.99 }}
+                  <div className="grid grid-cols-2 gap-3">
+                    <button
                       onClick={handleSaveStatement}
                       disabled={saveLoading}
-                      className="py-4.5 bg-primary text-primary-foreground font-black text-sm rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-primary/10 hover:shadow-xl transition-all"
+                      className="act-btn-primary"
                     >
-                      {saveLoading ? <Loader2 className="animate-spin w-4 h-4" /> : <Save size={16} />}
+                      {saveLoading ? <Loader2 className="animate-spin w-4 h-4" /> : <Save size={15} strokeWidth={2.5} />}
                       {t('mission_save', 'Save Statement')}
-                    </motion.button>
+                    </button>
 
-                    <motion.button
-                      whileHover={{ scale: 1.01 }}
-                      whileTap={{ scale: 0.99 }}
+                    <button
                       onClick={() => setScreen(2)}
-                      className="py-4.5 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-600 dark:text-slate-350 font-black text-sm rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-950 transition-all shadow-sm"
+                      className="h-12 bg-white/80 backdrop-blur-sm border border-white text-slate-600 font-semibold text-sm rounded-xl flex items-center justify-center gap-2 hover:bg-white hover:border-sky-100 transition-all"
                     >
-                      <Pencil size={16} />
+                      <Pencil size={14} />
                       {t('mission_edit', 'Modify Draft')}
-                    </motion.button>
+                    </button>
                   </div>
                 </PremiumComplete>
               </motion.div>
@@ -419,69 +410,65 @@ function PersonalMissionStatementInner() {
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -15 }}
-                className="space-y-6 pb-24 text-left w-full"
+                className="space-y-6 text-left w-full"
               >
                 <div className="flex justify-between items-center">
-                  <div className="space-y-1">
-                    <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                      <History size={12} />
+                  <div className="space-y-0.5">
+                    <span className="act-eyebrow">
+                      <History size={11} />
                       {t('history_title', 'Mission History')}
                     </span>
-                    <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                    <h1 className="act-heading">
                       {t('history_title', 'Saved Declarations')}
                     </h1>
                   </div>
-                  <motion.button
-                    whileHover={{ scale: 1.08 }}
-                    whileTap={{ scale: 0.92 }}
+                  <button
                     onClick={handleResetFlow}
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-300 rounded-2xl shadow-sm hover:bg-slate-200 transition-colors"
+                    className="p-2.5 bg-white/80 backdrop-blur-sm border border-white text-slate-500 rounded-xl hover:border-sky-100 hover:text-sky-600 transition-all"
                   >
-                    <ArrowLeft size={18} />
-                  </motion.button>
+                    <ArrowLeft size={16} />
+                  </button>
                 </div>
 
                 {historyLoading ? (
                   <div className="py-24 text-center flex flex-col items-center justify-center gap-4">
                     <Loader2 className="w-8 h-8 animate-spin text-primary opacity-30" />
-                    <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">
+                    <p className="text-slate-400 font-medium text-xs uppercase tracking-widest">
                       {t('loading', 'Loading declarations...')}
                     </p>
                   </div>
                 ) : historyList.length === 0 ? (
-                  <div className="py-16 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border border-dashed border-white/60 dark:border-slate-800 px-6 space-y-6">
-                    <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-slate-200 dark:text-slate-800 shadow-sm animate-pulse">
-                      <Compass size={24} />
+                  <div className="py-12 text-center bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm px-6 space-y-4">
+                    <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mx-auto text-slate-200 shadow-sm animate-pulse">
+                      <Compass size={22} />
                     </div>
-                    <p className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest">
+                    <p className="text-slate-400 font-medium text-sm">
                       {t('history_empty', 'No mission statements saved yet')}
                     </p>
-                    <p className="text-slate-350 dark:text-slate-550 text-[10px] font-bold tracking-wider uppercase">
+                    <p className="text-slate-400 text-xs">
                       {t('history_empty_hint', 'Go through the activity to build your statement')}
                     </p>
-                    <motion.button
-                      whileHover={{ scale: 1.01 }}
-                      whileTap={{ scale: 0.99 }}
+                    <button
                       onClick={() => setScreen(1)}
-                      className="w-full py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-sm shadow-md"
+                      className="act-btn-primary"
                     >
                       {t('app.startActivity', 'Create Mission')}
-                    </motion.button>
+                    </button>
                   </div>
                 ) : (
-                  <div className="space-y-4">
+                  <div className="space-y-3">
                     {historyList.map((m, i) => (
                       <motion.div
                         key={m.id}
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.03 }}
-                        className="p-6.5 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/10 transition-all text-center"
+                        className="p-5 bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm space-y-3 text-center hover:border-sky-100 transition-all"
                       >
-                        <div className="flex items-center justify-between border-b border-slate-50 dark:border-slate-850 pb-3 text-left">
+                        <div className="flex items-center justify-between border-b border-sky-50 pb-3 text-left">
                           <div className="flex items-center gap-2 text-slate-400">
-                            <Calendar size={14} />
-                            <span className="text-[10px] font-bold uppercase tracking-wider">
+                            <Calendar size={13} />
+                            <span className="text-[11px] font-medium">
                               {parseDbDate(m.date).toLocaleDateString(undefined, {
                                 month: 'long',
                                 day: 'numeric',
@@ -491,18 +478,18 @@ function PersonalMissionStatementInner() {
                           </div>
                           <button
                             onClick={() => handleDeleteStatement(m.id)}
-                            className="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/20 rounded-xl transition-all"
+                            className="p-2 text-slate-300 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all"
                           >
-                            <Trash2 size={14} />
+                            <Trash2 size={13} />
                           </button>
                         </div>
 
                         {m.values && m.values.length > 0 && (
-                          <div className="flex flex-wrap gap-1.5 justify-center pt-2">
+                          <div className="flex flex-wrap gap-1.5 justify-center pt-1">
                             {m.values.map((v) => (
                               <span
                                 key={v}
-                                className="px-3 py-1 bg-primary/10 text-primary text-[10px] font-black uppercase tracking-widest rounded-full"
+                                className="px-2.5 py-1 bg-sky-50 border border-sky-100 text-sky-600 text-[10px] font-semibold uppercase tracking-wider rounded-full"
                               >
                                 {t(v, v)}
                               </span>
@@ -510,21 +497,19 @@ function PersonalMissionStatementInner() {
                           </div>
                         )}
 
-                        <p className="text-slate-700 dark:text-slate-200 text-base font-extrabold leading-[1.8] whitespace-pre-line pt-2">
+                        <p className="text-slate-700 text-sm font-semibold leading-[1.8] whitespace-pre-line pt-1">
                           {m.statement}
                         </p>
                       </motion.div>
                     ))}
 
-                    <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                      <motion.button
-                        whileHover={{ scale: 1.01 }}
-                        whileTap={{ scale: 0.99 }}
+                    <div className="pt-2">
+                      <button
                         onClick={handleResetFlow}
-                        className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                        className="act-btn-primary"
                       >
                         {t('history_back', 'Create New Statement')}
-                      </motion.button>
+                      </button>
                     </div>
                   </div>
                 )}

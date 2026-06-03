@@ -326,14 +326,14 @@ function MemoryBoxInner() {
                     placeholder={t("who.placeholder_name", "Who are you remembering?")}
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl px-5 py-4 text-center font-bold text-slate-800 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all placeholder:text-slate-350"
+                    className="field-input text-center"
                   />
                   <input
                     type="text"
                     placeholder={t("who.placeholder_relation", "Their relationship to you (optional)")}
                     value={relation}
                     onChange={(e) => setRelation(e.target.value)}
-                    className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl px-5 py-3.5 text-center text-sm font-medium text-slate-700 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all placeholder:text-slate-350"
+                    className="field-input text-center"
                   />
                 </div>
 
@@ -390,7 +390,7 @@ function MemoryBoxInner() {
                   onChange={(e) => setMemoryText(e.target.value)}
                   placeholder={t("write_as_much_or_as_little_as_you_want", "Type your memory here...")}
                   rows={4}
-                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl px-5 py-4 font-medium text-slate-800 text-sm focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 resize-none transition-all"
+                  className="field-textarea"
                 />
 
                 <div className="space-y-2">
@@ -402,7 +402,7 @@ function MemoryBoxInner() {
                     onChange={(e) => setMessage(e.target.value)}
                     placeholder={t("if_there_s_something_you_d_like_to_say", "Is there something you want to tell them?")}
                     rows={2}
-                    className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl px-5 py-3 font-medium text-slate-800 text-sm focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 resize-none transition-all"
+                    className="field-textarea"
                   />
                 </div>
 

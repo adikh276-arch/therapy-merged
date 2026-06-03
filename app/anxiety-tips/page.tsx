@@ -176,10 +176,10 @@ function AnxietyTipsInner() {
                   <Sparkles size={12} />
                   {t("slow_down", "Slow Down & Breathe")}
                 </span>
-                <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                <h1 className="act-heading">
                   {t("app_title", "Anxiety Relief Tips")}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                <p className="act-body">
                   {t("app_subtitle", "Gently explore supportive strategies designed to ground you when anxious sensations arise.")}
                 </p>
               </header>
@@ -239,7 +239,7 @@ function AnxietyTipsInner() {
                 >
                   <ArrowLeft size={16} />
                 </motion.button>
-                <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+                <div className="act-eyebrow">
                   <Sparkles size={12} />
                   {t("daily_guide", "Daily Guide")}
                 </div>

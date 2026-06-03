@@ -249,7 +249,7 @@ function ContinuingBondsInner() {
                       onChange={(e) => setPrimaryText(e.target.value)}
                       placeholder={t("write_heart", "Write from the heart...")}
                       rows={4}
-                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 rounded-2xl p-4 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all outline-none resize-none"
+                      className="field-textarea"
                     />
                   </div>
 
@@ -284,7 +284,7 @@ function ContinuingBondsInner() {
                   onChange={(e) => setBondText(e.target.value)}
                   placeholder={t("sharing_optional", "Describe a small action (optional)...")}
                   rows={4}
-                  className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 rounded-2xl p-4 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all outline-none resize-none"
+                  className="field-textarea"
                 />
               </div>
 

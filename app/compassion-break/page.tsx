@@ -340,7 +340,7 @@ function CompassionBreakInner() {
                   </div>
 
                   <button
-                    className="w-full bg-primary text-primary-foreground py-5 rounded-[2rem] font-black text-lg shadow-xl hover:opacity-95 transition-all"
+                    className="act-btn-primary"
                     onClick={() => setScreen(1)}
                   >
                     {t("continue_button", "Continue")}
@@ -405,7 +405,7 @@ function CompassionBreakInner() {
                   </div>
 
                   <button
-                    className="w-full bg-primary text-primary-foreground py-5 rounded-[2rem] font-black text-lg shadow-xl disabled:opacity-30 transition-all"
+                    className="act-btn-primary"
                     onClick={() => {
                       const finalEmos = customEmotion.trim() ? [customEmotion.trim()] : emotions;
                       if (finalEmos.length > 0) {
@@ -491,7 +491,7 @@ function CompassionBreakInner() {
                     {breatheDone && (
                       <motion.button
                         key="btn"
-                        className="w-full bg-primary text-primary-foreground py-5 rounded-[2rem] font-black text-lg shadow-xl"
+                        className="act-btn-primary"
                         onClick={() => setScreen(3)}
                         initial={{ opacity: 0, y: 15 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -526,7 +526,7 @@ function CompassionBreakInner() {
                   </div>
 
                   <button
-                    className="w-full bg-primary text-primary-foreground py-5 rounded-[2rem] font-black text-lg shadow-xl disabled:opacity-30"
+                    className="act-btn-primary"
                     onClick={() => setScreen(4)}
                     disabled={!kindSentence.trim()}
                   >
@@ -574,7 +574,7 @@ function CompassionBreakInner() {
                   </div>
 
                   <button
-                    className="w-full bg-primary text-primary-foreground py-5 rounded-[2rem] font-black text-lg shadow-xl"
+                    className="act-btn-primary"
                     onClick={() => setScreen(5)}
                   >
                     {t("continue_button", "Continue")}
@@ -621,7 +621,7 @@ function CompassionBreakInner() {
 
                   <div className="w-full space-y-4">
                     <button
-                      className="w-full bg-primary text-primary-foreground py-5 rounded-[2rem] font-black text-lg shadow-xl flex items-center justify-center gap-3"
+                      className="act-btn-primary"
                       onClick={() => handleSave(true)}
                     >
                       <Save size={20} />

@@ -251,7 +251,7 @@ function TheUnsentLetterInner() {
                   value={recipient}
                   onChange={(e) => setRecipient(e.target.value)}
                   placeholder="e.g. To my past self..."
-                  className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl px-5 py-4 font-bold text-slate-800 focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all text-sm"
+                  className="field-input"
                 />
               </div>
 
@@ -284,7 +284,7 @@ function TheUnsentLetterInner() {
                   onChange={(e) => setLetterContent(e.target.value)}
                   placeholder={t("writing.placeholder", "Dear ____,\nI've been wanting to say…")}
                   rows={6}
-                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-5 text-sm font-semibold text-slate-800 resize-none focus:outline-none focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all flex-1 min-h-[180px] shadow-inner leading-relaxed"
+                  className="field-textarea flex-1 min-h-[180px]"
                 />
               </div>
 
@@ -339,7 +339,7 @@ function TheUnsentLetterInner() {
                   whileTap={{ scale: 0.98 }}
                   onClick={saveLetter}
                   disabled={isSaving}
-                  className="w-full py-4.5 bg-primary text-white font-bold rounded-2xl shadow-lg flex items-center justify-center gap-2"
+                  className="act-btn-primary"
                 >
                   <Save size={18} />
                   {isSaving ? "Saving..." : t("reflection.save_button", "Save Private Letter")}

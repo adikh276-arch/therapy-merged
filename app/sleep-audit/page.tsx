@@ -230,7 +230,7 @@ function SleepAuditInner() {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setScreen(1)}
-                    className="w-full bg-primary text-primary-foreground py-5 rounded-2xl font-black text-lg shadow-2xl hover:opacity-95 transition-all"
+                    className="act-btn-primary"
                   >
                     {t("intro.start_button", "Begin Sleep Audit")}
                   </motion.button>
@@ -303,7 +303,7 @@ function SleepAuditInner() {
 
                 <button
                   onClick={() => setScreen(2)}
-                  className="w-full bg-primary text-primary-foreground py-5 rounded-2xl font-black text-lg shadow-xl mt-4 hover:opacity-95 transition-all"
+                  className="act-btn-primary mt-4"
                 >
                   {t("buttons.continue", "Continue")}
                 </button>
@@ -360,14 +360,14 @@ function SleepAuditInner() {
                     value={note}
                     onChange={e => setNote(e.target.value)}
                     placeholder={t("screens.s2.placeholder", "How did you feel when you woke up? Any thoughts on your sleep?")}
-                    className="w-full p-6 bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-3xl text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium outline-none focus:border-primary/50 transition-all resize-none shadow-sm placeholder:text-slate-300"
+                    className="field-textarea"
                     rows={4}
                   />
                 </div>
 
                 <button
                   onClick={() => setScreen(3)}
-                  className="w-full bg-primary text-primary-foreground py-5 rounded-2xl font-black text-lg shadow-xl transition-all"
+                  className="act-btn-primary"
                 >
                   {t("buttons.see_results", "Review Results")}
                 </button>
@@ -411,7 +411,7 @@ function SleepAuditInner() {
                     </svg>
                     <div className="absolute flex flex-col items-center">
                       <span className="text-5xl font-black" style={{ color: scoreInfo.color }}>{scoreValue}</span>
-                      <span className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest">
+                      <span className="field-label">
                         {t("screens.s3.score_label", "Score")}
                       </span>
                     </div>
@@ -431,7 +431,7 @@ function SleepAuditInner() {
                     whileTap={{ scale: 0.99 }}
                     onClick={handleSave}
                     disabled={isSaving}
-                    className="w-full bg-primary text-primary-foreground py-5 rounded-2xl font-black text-lg shadow-2xl flex items-center justify-center gap-3 disabled:opacity-50"
+                    className="act-btn-primary"
                   >
                     <Save size={20} strokeWidth={3} />
                     {isSaving ? t("buttons.preserving", "Saving...") : t("buttons.preserve", "Preserve Sleep Audit")}
@@ -501,7 +501,7 @@ function SleepAuditInner() {
                           </div>
                           <div className="flex flex-col items-end shrink-0 pl-4">
                             <span className="text-3xl font-black" style={{ color: info.color }}>{e.score}</span>
-                            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                            <span className="field-label">
                               {t("history.score_label", "/7")}
                             </span>
                           </div>

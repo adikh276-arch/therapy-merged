@@ -254,7 +254,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
           <h2 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
             {t('give_this_thought_a_story_name', 'Give this thought a story name 📖')}
           </h2>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+          <p className="act-body">
             {t('what_would_you_call_this_story', 'What would you call this story?')}
           </p>
         </div>
@@ -291,7 +291,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
             value={storyName}
             onChange={(e) => onStoryNameChange(e.target.value)}
             placeholder="Or type your own story name..."
-            className="w-full border border-primary/20 rounded-2xl px-5 py-4 text-base text-slate-900 dark:text-white bg-white/80 dark:bg-slate-950/80 backdrop-blur-sm focus:outline-none focus:border-primary focus:shadow-md transition-all font-bold placeholder:text-slate-300"
+            className="field-input"
           />
         </div>
 
@@ -466,14 +466,14 @@ function DiffusionTechniqueInner() {
               className="space-y-6 text-left"
             >
               <header className="space-y-2">
-                <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
+                <span className="act-eyebrow">
                   <Sparkles size={12} />
                   {t('label_choose_technique', 'Choose Technique')}
                 </span>
                 <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
                   {t('choose_title', 'Choose a Technique to Practice')}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                <p className="act-body">
                   {t('choose_desc', 'Each exercise helps you look at your thoughts from a new perspective. Pick one and follow the guided steps.')}
                 </p>
               </header>
@@ -583,7 +583,7 @@ function DiffusionTechniqueInner() {
                       <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
                         {t('sky_question', 'What thoughts are on your mind?')}
                       </h1>
-                      <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                      <p className="act-body">
                         {t('sky_hint', 'Add up to 5 thoughts. Each one will get its own cloud. ☁️')}
                       </p>
                     </div>
@@ -623,7 +623,7 @@ function DiffusionTechniqueInner() {
                     {/* Thought chips */}
                     {thoughts.length > 0 && (
                       <div className="space-y-2">
-                        <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                        <p className="field-label">
                           {thoughts.length}/5 thoughts — each will have its own cloud
                         </p>
                         <div className="flex flex-wrap gap-2">
@@ -755,8 +755,8 @@ function DiffusionTechniqueInner() {
                         {t('sell_question', 'What thought is bothering you?')}
                       </h1>
                     </div>
-                    <div className="space-y-1.5">
-                      <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1">
+                    <div className="space-y-2">
+                      <label className="field-label">
                         {t('label_current_thought', 'Your current thought')}
                       </label>
                       <input
@@ -764,7 +764,7 @@ function DiffusionTechniqueInner() {
                         value={thought}
                         onChange={(e) => setThought(e.target.value)}
                         placeholder={t('placeholder_sell', 'I\'m not good enough')}
-                        className="w-full py-4.5 rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300 shadow-inner"
+                        className="field-input"
                       />
                     </div>
                     <motion.button
@@ -905,8 +905,8 @@ function DiffusionTechniqueInner() {
                         {t('name_question', 'Write a recurring thought')}
                       </h1>
                     </div>
-                    <div className="space-y-1.5">
-                      <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1">
+                    <div className="space-y-2">
+                      <label className="field-label">
                         {t('label_recurrent_thought', 'The recurrent thought')}
                       </label>
                       <input
@@ -914,7 +914,7 @@ function DiffusionTechniqueInner() {
                         value={thought}
                         onChange={(e) => setThought(e.target.value)}
                         placeholder={t('placeholder_name', '"I always mess things up"')}
-                        className="w-full py-4.5 rounded-2xl border border-slate-105 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-white placeholder:text-slate-300 shadow-inner"
+                        className="field-input"
                       />
                     </div>
                     <motion.button

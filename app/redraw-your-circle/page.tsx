@@ -253,7 +253,7 @@ function RedrawCircleInner() {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => setScreen("circle")}
-                  className="w-full bg-primary text-white py-4.5 rounded-2xl font-bold shadow-lg shadow-primary/20 hover:shadow-xl transition-all"
+                  className="act-btn-primary"
                 >
                   {t("intro.button", "Start Redrawing")}
                 </motion.button>
@@ -391,7 +391,7 @@ function RedrawCircleInner() {
                   onChange={(e) => setReflection(e.target.value)}
                   placeholder={t("reflection.placeholder", "What did this map reveal to you about your connections?")}
                   rows={4}
-                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl px-5 py-4 text-sm text-slate-800 focus:outline-none focus:border-primary/20 transition-all resize-none shadow-sm font-medium"
+                  className="field-textarea"
                 />
               </div>
 
@@ -531,7 +531,7 @@ function RedrawCircleInner() {
                 
                 <button
                   onClick={handleSaveBubbleName}
-                  className="mt-6 w-full bg-primary text-white font-bold py-4 rounded-2xl shadow-lg"
+                  className="act-btn-primary mt-6"
                 >
                   {t("circle.modal.button", "Save Node")}
                 </button>

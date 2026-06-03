@@ -264,7 +264,7 @@ function FoodEmotionMapInner() {
                   className="space-y-6"
                 >
                   <div className="space-y-3">
-                    <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                    <p className="field-label">
                       {t("coming_up_label", "What feeling is prominent today?")}
                     </p>
                     <div className="flex flex-wrap gap-2.5 justify-center">
@@ -386,7 +386,7 @@ function FoodEmotionMapInner() {
                     onChange={(e) => setThought(e.target.value)}
                     placeholder={t("write_placeholder", "e.g., 'I just need comfort right now' or 'I shouldn't be eating this'...")}
                     rows={4}
-                    className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-5 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/25 outline-none transition-all shadow-inner"
+                    className="field-textarea"
                   />
 
                   {thought.trim() && (
@@ -599,7 +599,7 @@ function FoodEmotionMapInner() {
                       onChange={(e) => setClosingFeeling(e.target.value)}
                       placeholder={t("write_placeholder", "Describe briefly...")}
                       rows={4}
-                      className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-5 text-sm font-medium focus:ring-4 focus:ring-primary/5 focus:border-primary/25 outline-none transition-all shadow-inner"
+                      className="field-textarea"
                     />
                   </div>
 

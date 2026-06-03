@@ -233,7 +233,7 @@ function ReflectionPrompt({
           </div>
           
           <div className="text-left space-y-2">
-            <h2 className="text-2xl font-extrabold text-slate-900 dark:text-white leading-tight">
+            <h2 className="act-heading">
               {prompt}
             </h2>
             <div className="flex items-center gap-2 text-slate-400 text-xs font-medium italic">
@@ -248,7 +248,7 @@ function ReflectionPrompt({
             placeholder={t('reflection.placeholder', 'Write your reflection here…')}
             value={value}
             onChange={(e) => onChange(e.target.value)}
-            className="w-full min-h-[160px] p-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 placeholder:text-slate-300 dark:placeholder:text-slate-700 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
+            className="field-textarea min-h-[160px]"
           />
           
           <motion.button 
@@ -298,7 +298,7 @@ function IntentionScreen({ value, onChange, onContinue }: IntentionScreenProps) 
               ))}
             </div>
           </div>
-          <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+          <h2 className="act-heading">
             {t('intention.title', 'How would you like to hold this reflection?')}
           </h2>
         </header>
@@ -387,7 +387,7 @@ function CheckInScreen({ value, onChange, onFinish }: CheckInScreenProps) {
           <div className="w-16 h-16 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto text-primary mb-4">
             <Sparkles size={32} />
           </div>
-          <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+          <h2 className="act-heading">
             {t('checkin.title', 'As you completed this reflection, which statement feels most accurate?')}
           </h2>
           <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">

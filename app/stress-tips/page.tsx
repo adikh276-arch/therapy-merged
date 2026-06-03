@@ -149,7 +149,7 @@ function BreathingGuide() {
         <p className="text-lg font-black text-slate-800 dark:text-slate-200">
           {label}
         </p>
-        <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+        <p className="field-label">
           {t('breathing_instruction', 'Follow the circle to regulate')}
         </p>
       </div>

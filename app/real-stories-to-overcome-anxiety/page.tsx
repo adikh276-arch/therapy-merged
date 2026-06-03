@@ -22,9 +22,9 @@ const STORIES: Story[] = [
     age: 9,
     quote: "I thought being scared meant something was wrong with me.",
     body: [
-      "I didn't know the word \"anxiety\" when I was younger â€” I only knew the feeling. My chest would feel tight, my stomach would hurt, and my mind would tell me something bad was about to happen. Even normal days felt dangerous. School mornings were the hardest. I would cling to my parents, afraid that once they left, I wouldn't be okay.",
+      "I didn't know the word \"anxiety\" when I was younger — I only knew the feeling. My chest would feel tight, my stomach would hurt, and my mind would tell me something bad was about to happen. Even normal days felt dangerous. School mornings were the hardest. I would cling to my parents, afraid that once they left, I wouldn't be okay.",
       "I remember looking at other kids and wondering why they seemed fine. Why didn't their hearts race like mine? Why didn't they want to run home? I felt confused and embarrassed. Sometimes I thought being scared meant I was weak or different in a bad way.",
-      "With help, I slowly learned that anxiety wasn't a flaw â€” it was my brain trying too hard to protect me. Instead of fighting it or hiding from it, I learned small ways to face it. Some days that meant staying in class five minutes longer. Other days it meant just breathing through the fear without running away.",
+      "With help, I slowly learned that anxiety wasn't a flaw — it was my brain trying too hard to protect me. Instead of fighting it or hiding from it, I learned small ways to face it. Some days that meant staying in class five minutes longer. Other days it meant just breathing through the fear without running away.",
       "Now I understand something important: courage doesn't mean not feeling scared. It means staying, even when you are. And every time I stay, I grow a little stronger."
     ],
     reflection: "When have you stayed, even when you felt afraid?"
@@ -36,8 +36,8 @@ const STORIES: Story[] = [
     body: [
       "For years, I believed worrying was my job. If I thought through every possible problem, prepared for every outcome, and stayed mentally alert at all times, I could prevent things from going wrong. Anxiety felt productive. It felt responsible.",
       "But over time, I noticed how exhausted I was. My mind never stopped. Even during vacations or family dinners, I was mentally planning, predicting, or preventing. Relaxing felt unsafe. If I stopped worrying, I felt like I was being careless.",
-      "Eventually, I realized anxiety wasn't protecting me â€” it was controlling me. Therapy helped me understand that uncertainty is part of life, and no amount of worrying can eliminate it. I began practicing noticing my thoughts without automatically believing them.",
-      "Letting go of constant control felt uncomfortable at first. But slowly, space opened up. I started making decisions based on what mattered to me â€” not just what felt safest. Anxiety still shows up, but it no longer runs the show."
+      "Eventually, I realized anxiety wasn't protecting me — it was controlling me. Therapy helped me understand that uncertainty is part of life, and no amount of worrying can eliminate it. I began practicing noticing my thoughts without automatically believing them.",
+      "Letting go of constant control felt uncomfortable at first. But slowly, space opened up. I started making decisions based on what mattered to me — not just what felt safest. Anxiety still shows up, but it no longer runs the show."
     ],
     reflection: "Where are you mistaking worry for responsibility?"
   },
@@ -47,9 +47,9 @@ const STORIES: Story[] = [
     quote: "I kept waiting to feel confident before living.",
     body: [
       "Anxiety sounded like a voice in my head that never stopped criticizing me. It told me I would embarrass myself, say the wrong thing, or be judged. After conversations, I would replay everything I said. Before events, I would imagine worst-case scenarios.",
-      "From the outside, I looked confident. Inside, I felt constantly on edge. I kept waiting to feel ready â€” waiting for confidence to magically arrive so I could finally speak freely, apply for opportunities, or put myself out there.",
+      "From the outside, I looked confident. Inside, I felt constantly on edge. I kept waiting to feel ready — waiting for confidence to magically arrive so I could finally speak freely, apply for opportunities, or put myself out there.",
       "But confidence never came first.",
-      "What changed my life was realizing I didn't have to eliminate anxiety to move forward. I could bring it with me. I started taking small risks â€” raising my hand, attending events, speaking up even if my voice shook.",
+      "What changed my life was realizing I didn't have to eliminate anxiety to move forward. I could bring it with me. I started taking small risks — raising my hand, attending events, speaking up even if my voice shook.",
       "Every time I acted despite fear, something shifted. I stopped measuring myself by how calm I felt, and started measuring myself by how brave I was willing to be."
     ],
     reflection: "What would you try if you didn't wait to feel completely ready?"
@@ -60,9 +60,9 @@ const STORIES: Story[] = [
     quote: "I didn't expect anxiety to begin at this stage of life.",
     body: [
       "I thought anxiety belonged to younger people. I didn't expect it to appear after retirement, when life had finally slowed down. But when the busy years ended, my thoughts became louder. Every physical sensation felt alarming. Every unknown felt dangerous.",
-      "I felt embarrassed for struggling. At my age, I believed I should have everything figured out. I searched constantly for reassurance â€” from doctors, from family, from online articles. The reassurance helped briefly, but the fear always returned.",
+      "I felt embarrassed for struggling. At my age, I believed I should have everything figured out. I searched constantly for reassurance — from doctors, from family, from online articles. The reassurance helped briefly, but the fear always returned.",
       "Eventually, I understood that reassurance was feeding the cycle. With guidance, I began practicing sitting with uncertainty instead of chasing certainty. I rebuilt routines. I reconnected with hobbies. I slowly allowed discomfort without immediately trying to fix it.",
-      "Today, anxiety still visits sometimes. But it no longer defines me. I've learned that growth doesn't have an expiration date â€” and courage can appear at any age."
+      "Today, anxiety still visits sometimes. But it no longer defines me. I've learned that growth doesn't have an expiration date — and courage can appear at any age."
     ],
     reflection: "What part of you is still growing?"
   },
@@ -71,7 +71,7 @@ const STORIES: Story[] = [
     age: 45,
     quote: "My anxiety never looked like panic. It looked like productivity.",
     body: [
-      "I woke up early, worked long hours, and filled every spare moment with something â€” news, emails, phone calls, background noise. If there was silence, I filled it. If there was stillness, I escaped it.",
+      "I woke up early, worked long hours, and filled every spare moment with something — news, emails, phone calls, background noise. If there was silence, I filled it. If there was stillness, I escaped it.",
       "Because when things got quiet, my thoughts got loud.",
       "What if something happens to my family? What if I lose my job? What if I get sick? The fears weren't constant, but they were persistent. They hovered in the background, waiting for space.",
       "So I gave them no space.",
@@ -87,16 +87,16 @@ const STORIES: Story[] = [
   {
     name: "Nisha",
     age: 34,
-    quote: "I got promoted â€” and then couldn't sleep.",
+    quote: "I got promoted — and then couldn't sleep.",
     body: [
       "My anxiety began after something \"good\" happened.",
-      "I got promoted. More responsibility. More visibility. More expectations. Everyone congratulated me. I smiled, thanked them, celebrated â€” and then went home and couldn't sleep.",
+      "I got promoted. More responsibility. More visibility. More expectations. Everyone congratulated me. I smiled, thanked them, celebrated — and then went home and couldn't sleep.",
       "What if I'm not actually capable? What if they realize they made a mistake? What if I fail publicly?",
-      "The higher I climbed, the more exposed I felt. Every meeting felt like a test. Every small mistake felt like proof that I didn't belong. I started overworking to compensate â€” staying late, volunteering for extra tasks, answering emails instantly.",
+      "The higher I climbed, the more exposed I felt. Every meeting felt like a test. Every small mistake felt like proof that I didn't belong. I started overworking to compensate — staying late, volunteering for extra tasks, answering emails instantly.",
       "From the outside, I looked successful. Inside, I felt like an imposter waiting to be discovered.",
       "The anxiety didn't scream. It whispered. It told me I had to be better than everyone else just to deserve being there. It told me rest was laziness. It told me one wrong move would undo everything.",
-      "The breaking point wasn't dramatic. It was a random Tuesday when I forgot a minor attachment in an email â€” and spent the entire evening replaying it in my head. That's when I realized this wasn't ambition anymore. It was fear.",
-      "What slowly changed things was learning that discomfort doesn't mean danger. Growth often feels like exposure. New roles stretch you â€” they don't mean you're a fraud.",
+      "The breaking point wasn't dramatic. It was a random Tuesday when I forgot a minor attachment in an email — and spent the entire evening replaying it in my head. That's when I realized this wasn't ambition anymore. It was fear.",
+      "What slowly changed things was learning that discomfort doesn't mean danger. Growth often feels like exposure. New roles stretch you — they don't mean you're a fraud.",
       "I began allowing myself to be a learner instead of expecting myself to be perfect. I started admitting when I didn't know something. I let myself ask questions.",
       "And something surprising happened.",
       "People respected me more, not less.",
@@ -187,44 +187,43 @@ function RealStoriesInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="space-y-6 text-left w-full pb-20"
+              className="space-y-6 text-left w-full"
             >
               <div className="space-y-2">
-                <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                  <Sparkles size={12} />
+                <span className="act-eyebrow">
+                  <Sparkles size={11} />
                   {t('app_title', 'Real Stories')}
                 </span>
-                <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                <h1 className="act-heading">
                   {t('chooseStory', 'Select a Story')}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                <p className="act-body">
                   {t('chooseStoryDesc', 'Tap on a profile to read their personal journey of strength and recovery.')}
                 </p>
               </div>
 
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-3">
                 {STORIES.map((story, idx) => (
                   <motion.button
                     key={story.name}
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: idx * 0.05 }}
-                    whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={() => handleSelectStory(idx)}
-                    className="w-full p-6 text-left rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all flex flex-col justify-start gap-2.5 relative overflow-hidden group"
+                    className="w-full p-5 text-left rounded-2xl bg-white/80 backdrop-blur-sm border border-white shadow-sm hover:border-sky-100 transition-all flex flex-col justify-start gap-2 relative overflow-hidden"
                   >
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-sm font-black shrink-0">
+                      <div className="w-9 h-9 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center text-sm font-bold shrink-0">
                         {story.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-extrabold text-slate-800 dark:text-slate-200 text-sm">
+                        <h4 className="font-semibold text-slate-800 text-sm">
                           {t(`stories.${idx}.name`, story.name)}, {story.age}
                         </h4>
                       </div>
                     </div>
-                    <p className="text-slate-500 dark:text-slate-400 text-xs font-bold leading-relaxed italic pr-4">
+                    <p className="text-slate-500 text-xs leading-relaxed italic pr-4">
                       &quot;{t(`stories.${idx}.quote`, story.quote)}&quot;
                     </p>
                   </motion.button>
@@ -240,65 +239,61 @@ function RealStoriesInner() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="w-full flex-1 flex flex-col text-left space-y-6 pb-20"
+              className="w-full flex-1 flex flex-col text-left space-y-5"
             >
               <button
                 onClick={handleBackToSelection}
-                className="font-bold text-xs text-slate-400 dark:text-slate-500 mb-2 flex items-center gap-1.5 hover:text-primary transition-colors uppercase tracking-wider"
+                className="font-semibold text-xs text-slate-400 mb-1 flex items-center gap-1.5 hover:text-sky-600 transition-colors uppercase tracking-wider"
               >
-                <ArrowLeft size={16} />
+                <ArrowLeft size={14} />
                 {t('allStories', 'All Stories')}
               </button>
 
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 bg-primary/10 text-primary rounded-2xl flex items-center justify-center text-xl font-black shadow-inner">
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-sky-50 border border-sky-100 text-sky-600 rounded-2xl flex items-center justify-center text-lg font-bold shadow-sm">
                   {currentStory.name.charAt(0)}
                 </div>
                 <div>
-                  <h2 className="font-extrabold text-slate-900 dark:text-white text-xl">
+                  <h2 className="font-bold text-slate-900 text-lg">
                     {t(`stories.${selectedStoryIdx}.name`, currentStory.name)}, {currentStory.age}
                   </h2>
-                  <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-0.5">
-                    {t('recovery_journey', 'INSPIRATIONAL JOURNEY')}
+                  <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest mt-0.5">
+                    {t('recovery_journey', 'Inspirational Journey')}
                   </p>
                 </div>
               </div>
 
               {/* Story Quote Card */}
-              <div className="bg-primary/5 dark:bg-primary/10 border border-primary/20 rounded-2xl p-5 italic font-bold text-slate-700 dark:text-slate-350 text-sm leading-relaxed">
+              <div className="bg-white/80 backdrop-blur-sm border border-sky-100 rounded-2xl p-4 italic font-medium text-slate-700 text-sm leading-relaxed shadow-sm">
                 &quot;{t(`stories.${selectedStoryIdx}.quote`, currentStory.quote)}&quot;
               </div>
 
               {/* Story Body Paragraphs */}
-              <article className="space-y-4 text-slate-650 dark:text-slate-300 text-sm font-semibold leading-relaxed">
+              <article className="space-y-3.5 text-slate-600 text-sm leading-relaxed">
                 {currentStory.body.map((p, i) => (
-                  <p key={i}>
-                    {t(`stories.${selectedStoryIdx}.body[${i}]`, p)}
-                  </p>
+                  <p key={i}>{t(`stories.${selectedStoryIdx}.body[${i}]`, p)}</p>
                 ))}
               </article>
 
               {/* Reflection Callout */}
-              <div className="bg-emerald-50 dark:bg-emerald-950/20 border-l-4 border-emerald-500 rounded-r-2xl p-5 space-y-1 my-2">
-                <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest block">
+              <div className="bg-emerald-50 border-l-4 border-emerald-500 rounded-r-2xl p-4 space-y-1">
+                <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest block">
                   {t('reflection_prompt', 'Reflect on this')}
                 </span>
-                <p className="font-bold text-slate-800 dark:text-slate-200 text-sm leading-relaxed italic">
+                <p className="font-semibold text-slate-800 text-sm leading-relaxed italic">
                   {t(`stories.${selectedStoryIdx}.reflection`, currentStory.reflection)}
                 </p>
               </div>
 
               {/* Next/Back Button Controls */}
-              <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                <motion.button
-                  whileHover={{ scale: 1.01 }}
-                  whileTap={{ scale: 0.99 }}
+              <div className="pt-2">
+                <button
                   onClick={handleNextStory}
-                  className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                  className="act-btn-primary"
                 >
                   {isLast ? t('backToStories', 'All Stories') : t('nextStory', 'Next Story')}
-                  {!isLast && <ChevronRight size={18} />}
-                </motion.button>
+                  {!isLast && <ChevronRight size={16} strokeWidth={2.5} />}
+                </button>
               </div>
             </motion.div>
           )}

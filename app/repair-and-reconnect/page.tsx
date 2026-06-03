@@ -355,7 +355,7 @@ function RepairReconnectInner() {
                   value={editedMsg}
                   onChange={(e) => setEditedMsg(e.target.value)}
                   rows={3}
-                  className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-4 font-semibold text-xs text-slate-750 resize-none focus:outline-none focus:border-primary transition-all shadow-inner"
+                  className="field-textarea"
                 />
               </div>
 

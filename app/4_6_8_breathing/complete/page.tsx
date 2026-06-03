@@ -30,7 +30,7 @@ const CompletionScreen = () => {
             onChange={(e) => setReflection(e.target.value)}
             placeholder={t('reflection_placeholder')}
             rows={4}
-            className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-[2.5rem] p-8 text-lg font-bold resize-none outline-none focus:border-primary/50 transition-all placeholder:text-slate-200 shadow-inner"
+            className="field-textarea text-lg p-8"
           />
         </div>
       </PremiumComplete>

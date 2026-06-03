@@ -287,7 +287,7 @@ function GentleWishInner() {
                       onChange={(e) => setWish(e.target.value)}
                       placeholder={t("placeholder_wish", "I wish you...")}
                       rows={3}
-                      className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 dark:text-white rounded-[2rem] px-8 py-6 text-slate-800 text-lg font-medium placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-2xl shadow-slate-200/50 resize-none"
+                      className="field-textarea text-lg px-8 py-6"
                     />
                   </motion.div>
                 )}
@@ -311,7 +311,7 @@ function GentleWishInner() {
                       onChange={(e) => setWhy(e.target.value)}
                       placeholder={t("placeholder_why", "This feels significant because...")}
                       rows={2}
-                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 dark:bg-slate-950 dark:border-slate-900 dark:text-white rounded-[1.5rem] px-8 py-5 text-slate-700 text-base font-medium placeholder:text-slate-200 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all resize-none shadow-inner"
+                      className="field-textarea px-8 py-5"
                     />
                   </motion.div>
                 )}
@@ -393,13 +393,13 @@ function GentleWishInner() {
 
               <div className="bg-white dark:bg-slate-900 rounded-3xl p-8 w-full space-y-6 shadow-xl border border-slate-50 dark:border-slate-850">
                 <div>
-                  <p className="text-[10px] text-slate-400 dark:text-slate-500 uppercase tracking-widest font-black mb-1">
+                  <p className="field-label">
                     {t("label_thinking_of", "Honoring")}
                   </p>
                   <p className="text-xl font-black text-slate-850 dark:text-white">{name}</p>
                 </div>
                 <div>
-                  <p className="text-[10px] text-slate-400 dark:text-slate-500 uppercase tracking-widest font-black mb-1">
+                  <p className="field-label">
                     {t("label_what_they_want", "Your Gentle Wish")}
                   </p>
                   <p className="text-slate-700 dark:text-slate-300 leading-relaxed font-bold italic">"{wish}"</p>

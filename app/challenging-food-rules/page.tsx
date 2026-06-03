@@ -166,7 +166,7 @@ function ChallengingFoodRulesInner() {
                 </div>
                 {rule === "__custom" && (
                   <textarea
-                    className="w-full bg-white/60 backdrop-blur-md border border-white/60 shadow-inner rounded-2xl p-6 text-base font-bold min-h-[120px] focus:border-primary/30 outline-none transition-all resize-none"
+                    className="field-textarea min-h-[120px]"
                     placeholder={t("rule_placeholder")}
                     value={customRule}
                     onChange={(e) => setCustomRule(e.target.value)}
@@ -268,11 +268,11 @@ function ChallengingFoodRulesInner() {
                   </header>
                   <div className="space-y-6">
                     <div className="space-y-1">
-                      <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("label_rule", "Rule")}</p>
+                      <p className="field-label">{t("label_rule", "Rule")}</p>
                       <p className="text-slate-700 font-bold text-lg">{selectedRule}</p>
                     </div>
                     <div className="space-y-1">
-                      <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t("label_feeling", "Feeling")}</p>
+                      <p className="field-label">{t("label_feeling", "Feeling")}</p>
                       <p className="text-slate-700 font-bold text-lg">{selectedFeeling}</p>
                     </div>
                   </div>

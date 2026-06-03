@@ -17,16 +17,16 @@ interface ValueItem {
 }
 
 const ALL_VALUES: ValueItem[] = [
-  { emoji: "❤️", name: "Family" },
-  { emoji: "🌿", name: "Health" },
-  { emoji: "🎨", name: "Creativity" },
-  { emoji: "📚", name: "Learning" },
-  { emoji: "🌍", name: "Adventure" },
-  { emoji: "🕊️", name: "Freedom" },
-  { emoji: "🌱", name: "Growth" },
-  { emoji: "🤝", name: "Kindness" },
-  { emoji: "⚖️", name: "Balance" },
-  { emoji: "✨", name: "Honesty" },
+  { emoji: "??", name: "Family" },
+  { emoji: "??", name: "Health" },
+  { emoji: "??", name: "Creativity" },
+  { emoji: "??", name: "Learning" },
+  { emoji: "??", name: "Adventure" },
+  { emoji: "???", name: "Freedom" },
+  { emoji: "??", name: "Growth" },
+  { emoji: "??", name: "Kindness" },
+  { emoji: "??", name: "Balance" },
+  { emoji: "?", name: "Honesty" },
 ];
 
 interface Reflection {
@@ -182,7 +182,7 @@ function KnowYourValuesInner() {
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   onClick={handleViewHistory}
-                  className="w-full py-5 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 mt-4 hover:text-primary hover:border-primary/20 hover:shadow-md transition-all"
+                  className="w-full py-3 rounded-xl bg-white/80 backdrop-blur-sm border border-white text-slate-500 font-semibold text-xs uppercase tracking-wider flex items-center justify-center gap-2 mt-3 hover:text-sky-600 hover:border-sky-100 transition-all"
                 >
                   <History size={16} strokeWidth={2.5} />
                   {t('app.viewHistory', 'View History')}
@@ -198,43 +198,42 @@ function KnowYourValuesInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="space-y-6 pb-24 text-left w-full"
+              className="space-y-6 text-left w-full"
             >
               <div className="space-y-2">
-                <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                  <Sparkles size={12} />
+                <span className="act-eyebrow">
+                  <Sparkles size={11} />
                   {t('app_title', 'Values Reflection')}
                 </span>
-                <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                <h1 className="act-heading">
                   {t('app.chooseTitle', 'Select Your Core Values')}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                <p className="act-body">
                   {t('app.chooseDesc', 'Choose a few values that resonate most deeply with how you want to live.')}
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 gap-3.5">
+              <div className="grid grid-cols-2 gap-3">
                 {ALL_VALUES.map((v) => {
                   const isSelected = !!selectedValues.find((s) => s.name === v.name);
                   return (
                     <motion.button
                       key={v.name}
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
+                      whileTap={{ scale: 0.97 }}
                       onClick={() => handleToggleValue(v)}
-                      className={`relative flex flex-col items-center justify-center gap-3 p-5 rounded-[2rem] border transition-all duration-200 aspect-square ${
+                      className={`relative flex flex-col items-center justify-center gap-2.5 p-4 rounded-2xl border transition-all aspect-square ${
                         isSelected
-                          ? 'bg-primary/5 dark:bg-primary/10 border-primary shadow-sm'
-                          : 'bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 hover:border-slate-200'
+                          ? 'bg-primary/5 border-primary'
+                          : 'bg-white/80 backdrop-blur-sm border-white hover:border-sky-100'
                       }`}
                     >
                       {isSelected && (
-                        <div className="absolute top-3.5 right-3.5 w-5 h-5 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-[10px] font-black">
-                          ✓
+                        <div className="absolute top-2.5 right-2.5 w-5 h-5 rounded-full bg-primary text-white flex items-center justify-center text-[10px] font-bold">
+                          ?
                         </div>
                       )}
-                      <span className="text-3xl filter drop-shadow-sm leading-none">{v.emoji}</span>
-                      <span className="text-xs font-black text-slate-800 dark:text-slate-200 uppercase tracking-wider">
+                      <span className="text-2xl leading-none">{v.emoji}</span>
+                      <span className="text-[11px] font-semibold text-slate-700 uppercase tracking-wider">
                         {t(`values.${v.name}`, v.name)}
                       </span>
                     </motion.button>
@@ -242,17 +241,15 @@ function KnowYourValuesInner() {
                 })}
               </div>
 
-              <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                <motion.button
-                  whileHover={selectedValues.length > 0 ? { scale: 1.01 } : {}}
-                  whileTap={selectedValues.length > 0 ? { scale: 0.99 } : {}}
+              <div className="pt-2">
+                <button
                   disabled={selectedValues.length === 0}
                   onClick={() => setScreen('reflect')}
-                  className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+                  className="act-btn-primary"
                 >
                   {t('app.continue', 'Continue')}
-                  <ArrowRight size={18} />
-                </motion.button>
+                  <ArrowRight size={16} strokeWidth={2.5} />
+                </button>
               </div>
             </motion.div>
           )}
@@ -264,30 +261,29 @@ function KnowYourValuesInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="space-y-6 pb-24 text-left w-full"
+              className="space-y-6 text-left w-full"
             >
               <div className="space-y-2">
-                <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                <h1 className="act-heading">
                   {t('app.reflectTitle', 'Reflect on a Value')}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                <p className="act-body">
                   {t('app.reflectDesc', 'Select one value from your set and write down what it means to you.')}
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-2.5">
+              <div className="flex flex-wrap gap-2">
                 {selectedValues.map((v) => {
                   const isChosen = chosenValue?.name === v.name;
                   return (
                     <motion.button
                       key={v.name}
-                      whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setChosenValue(v)}
-                      className={`px-4.5 py-3 rounded-2xl font-black text-xs uppercase tracking-wider transition-all shadow-sm ${
+                      className={`px-4 py-2 rounded-xl font-semibold text-xs uppercase tracking-wider transition-all ${
                         isChosen
-                          ? 'bg-primary text-primary-foreground'
-                          : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-300 border border-white/60 dark:border-slate-800'
+                          ? 'bg-primary text-white'
+                          : 'bg-white/80 backdrop-blur-sm border border-white text-slate-600 hover:border-sky-100'
                       }`}
                     >
                       {v.emoji} {t(`values.${v.name}`, v.name)}
@@ -297,9 +293,9 @@ function KnowYourValuesInner() {
               </div>
 
               {chosenValue && (
-                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4 pt-2">
+                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-3">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1 block">
+                    <label className="field-label">
                       {t('app.reflectQuestion', 'Why is this value essential in your life right now?')}
                     </label>
                     <textarea
@@ -307,22 +303,18 @@ function KnowYourValuesInner() {
                       onChange={(e) => setReflectionText(e.target.value)}
                       placeholder={t('app.reflectPlaceholder', 'Write your thoughts and feelings here...')}
                       rows={5}
-                      className="w-full py-5 rounded-3xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 dark:placeholder:text-slate-600 resize-none shadow-sm leading-relaxed"
+                      className="field-textarea"
                     />
                   </div>
 
-                  <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                    <motion.button
-                      whileHover={reflectionText.trim() ? { scale: 1.01 } : {}}
-                      whileTap={reflectionText.trim() ? { scale: 0.99 } : {}}
-                      disabled={!reflectionText.trim()}
-                      onClick={() => setScreen('action')}
-                      className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
-                    >
-                      {t('app.next', 'Continue')}
-                      <ArrowRight size={18} />
-                    </motion.button>
-                  </div>
+                  <button
+                    disabled={!reflectionText.trim()}
+                    onClick={() => setScreen('action')}
+                    className="act-btn-primary"
+                  >
+                    {t('app.next', 'Continue')}
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </motion.div>
               )}
             </motion.div>
@@ -335,52 +327,43 @@ function KnowYourValuesInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="space-y-6 pb-24 text-left w-full"
+              className="space-y-6 text-left w-full"
             >
               <div className="space-y-2">
-                <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                <h1 className="act-heading">
                   {t('app.liveTitle', 'Live Your Values')}
                 </h1>
                 <div className="flex justify-start">
-                  <div className="px-3.5 py-1.5 rounded-xl bg-primary/10 text-primary font-black text-[10px] uppercase tracking-widest flex items-center gap-2">
+                  <div className="px-3 py-1.5 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 font-semibold text-[11px] uppercase tracking-widest flex items-center gap-1.5">
                     {chosenValue.emoji} {t(`values.${chosenValue.name}`, chosenValue.name)}
                   </div>
                 </div>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
-                  {t(
-                    'app.liveDesc',
-                    'How can you put this value into action? Define one practical action you can perform.'
-                  )}
+                <p className="act-body">
+                  {t('app.liveDesc', 'How can you put this value into action? Define one practical action you can perform.')}
                 </p>
               </div>
 
-              <div className="space-y-4">
-                <div className="space-y-2">
-                  <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1 block">
-                    {t('app.liveQuestion', 'One practical action item')}
-                  </label>
-                  <textarea
-                    value={actionText}
-                    onChange={(e) => setActionText(e.target.value)}
-                    placeholder={t('app.livePlaceholder', 'e.g. Call my partner to check in at lunch, or block 30 minutes to practice painting...')}
-                    rows={5}
-                    className="w-full py-5 rounded-3xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-transparent focus:border-primary/30 focus:bg-white dark:focus:bg-gradient-to-r from-primary to-sky-400 border-none transition-all outline-none px-6 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-350 dark:placeholder:text-slate-650 resize-none shadow-sm leading-relaxed"
-                  />
-                </div>
-
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={actionText.trim() && !saveLoading ? { scale: 1.01 } : {}}
-                    whileTap={actionText.trim() && !saveLoading ? { scale: 0.99 } : {}}
-                    disabled={!actionText.trim() || saveLoading}
-                    onClick={handleSave}
-                    className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
-                  >
-                    {saveLoading ? <Loader2 className="animate-spin w-5 h-5" /> : <Check size={18} />}
-                    {t('app.saveReflection', 'Save Reflection')}
-                  </motion.button>
-                </div>
+              <div className="space-y-2">
+                <label className="field-label">
+                  {t('app.liveQuestion', 'One practical action item')}
+                </label>
+                <textarea
+                  value={actionText}
+                  onChange={(e) => setActionText(e.target.value)}
+                  placeholder={t('app.livePlaceholder', 'e.g. Call my partner to check in at lunch, or block 30 minutes to practice painting...')}
+                  rows={5}
+                  className="field-textarea"
+                />
               </div>
+
+              <button
+                disabled={!actionText.trim() || saveLoading}
+                onClick={handleSave}
+                className="act-btn-primary"
+              >
+                {saveLoading ? <Loader2 className="animate-spin w-4 h-4" /> : <Check size={15} strokeWidth={2.5} />}
+                {t('app.saveReflection', 'Save Reflection')}
+              </button>
             </motion.div>
           )}
 
@@ -398,36 +381,36 @@ function KnowYourValuesInner() {
                 onRestart={handleResetActivity}
                 icon={<Target size={48} className="text-primary animate-pulse" />}
               >
-                <div className="p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 text-left space-y-6 my-6 shadow-sm">
-                  <div className="flex items-center gap-4 border-b border-slate-50 dark:border-slate-850 pb-4">
-                    <div className="w-14 h-14 bg-primary/10 text-primary rounded-2xl flex items-center justify-center text-3xl leading-none">
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm text-left space-y-5 p-5">
+                  <div className="flex items-center gap-3 border-b border-sky-50 pb-4">
+                    <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center text-2xl leading-none shrink-0">
                       {savedReflection.valueEmoji}
                     </div>
                     <div>
-                      <h3 className="font-extrabold text-slate-800 dark:text-slate-200 text-base leading-snug">
+                      <h3 className="font-bold text-slate-800 text-base leading-snug">
                         {t(`values.${savedReflection.valueName}`, savedReflection.valueName)}
                       </h3>
-                      <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
-                        {t('app.aligned', 'ALIGNED')}
+                      <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest">
+                        {t('app.aligned', 'Aligned')}
                       </p>
                     </div>
                   </div>
 
-                  <div className="space-y-4">
-                    <div className="space-y-1">
-                      <span className="text-[9px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest block">
+                  <div className="space-y-3">
+                    <div className="space-y-0.5">
+                      <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest block">
                         {t('app.reflectionLabel', 'My Reflection')}
                       </span>
-                      <p className="text-sm font-bold text-slate-700 dark:text-slate-300 leading-relaxed italic">
+                      <p className="text-sm font-medium text-slate-700 leading-relaxed italic">
                         &quot;{savedReflection.reflection}&quot;
                       </p>
                     </div>
 
-                    <div className="space-y-1 border-t border-slate-50 dark:border-slate-850 pt-4">
-                      <span className="text-[9px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest block text-primary">
+                    <div className="space-y-0.5 border-t border-sky-50 pt-3">
+                      <span className="text-[11px] font-semibold text-sky-500 uppercase tracking-widest block">
                         {t('app.actionLabel', 'Action Commitment')}
                       </span>
-                      <p className="text-sm font-extrabold text-slate-800 dark:text-slate-100 leading-relaxed">
+                      <p className="text-sm font-semibold text-slate-800 leading-relaxed">
                         {savedReflection.action}
                       </p>
                     </div>
@@ -435,15 +418,13 @@ function KnowYourValuesInner() {
                 </div>
 
                 <div className="pt-2">
-                  <motion.button
-                    whileHover={{ scale: 1.01 }}
-                    whileTap={{ scale: 0.99 }}
+                  <button
                     onClick={handleViewHistory}
-                    className="w-full py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                    className="w-full h-12 rounded-xl bg-white/80 backdrop-blur-sm border border-white text-slate-600 font-semibold text-sm flex items-center justify-center gap-2 hover:bg-white hover:border-sky-100 transition-all"
                   >
-                    <History size={16} />
+                    <History size={15} />
                     {t('app.viewHistory', 'View History')}
-                  </motion.button>
+                  </button>
                 </div>
               </PremiumComplete>
             </motion.div>
@@ -456,72 +437,68 @@ function KnowYourValuesInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="space-y-6 pb-24 text-left w-full"
+              className="space-y-6 text-left w-full"
             >
               <div className="flex justify-between items-center">
-                <div className="space-y-1">
-                  <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <History size={12} />
+                <div className="space-y-0.5">
+                  <span className="act-eyebrow">
+                    <History size={11} />
                     {t('app.viewHistory', 'History')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('app.historyTitle', 'Reflections History')}
                   </h1>
                 </div>
-                <motion.button
-                  whileHover={{ scale: 1.08 }}
-                  whileTap={{ scale: 0.92 }}
+                <button
                   onClick={handleResetActivity}
-                  className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-300 rounded-2xl shadow-sm hover:bg-slate-200 transition-colors"
+                  className="p-2.5 bg-white/80 backdrop-blur-sm border border-white text-slate-500 rounded-xl hover:border-sky-100 hover:text-sky-600 transition-all"
                 >
-                  <ArrowLeft size={18} />
-                </motion.button>
+                  <ArrowLeft size={16} />
+                </button>
               </div>
 
               {historyLoading ? (
                 <div className="py-24 text-center flex flex-col items-center justify-center gap-4">
                   <Loader2 className="w-8 h-8 animate-spin text-primary opacity-30" />
-                  <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">
+                  <p className="text-slate-400 font-medium text-xs uppercase tracking-widest">
                     {t('loading', 'Loading reflections...')}
                   </p>
                 </div>
               ) : historyList.length === 0 ? (
-                <div className="py-16 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-[2.5rem] border border-dashed border-white/60 dark:border-slate-800 px-6 space-y-6">
-                  <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-slate-200 dark:text-slate-800 shadow-sm">
-                    <Calendar size={24} />
+                <div className="py-12 text-center bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm px-6 space-y-4">
+                  <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mx-auto text-slate-200 shadow-sm">
+                    <Calendar size={22} />
                   </div>
-                  <p className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest">
+                  <p className="text-slate-400 font-medium text-sm">
                     {t('app.noHistory', 'No reflection entries yet')}
                   </p>
-                  <motion.button
-                    whileHover={{ scale: 1.01 }}
-                    whileTap={{ scale: 0.99 }}
+                  <button
                     onClick={() => setScreen('choose')}
-                    className="w-full py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-sm shadow-md"
+                    className="act-btn-primary"
                   >
                     {t('app.startActivity', 'Start Reflection')}
-                  </motion.button>
+                  </button>
                 </div>
               ) : (
-                <div className="space-y-4">
+                <div className="space-y-3">
                   {historyList.map((r, i) => (
                     <motion.div
                       key={r.id}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: i * 0.03 }}
-                      className="p-6 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-sm space-y-4 relative overflow-hidden group hover:border-primary/10 transition-all"
+                      className="act-card space-y-3"
                     >
                       <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-3.5">
-                          <div className="w-11 h-11 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-xl shadow-inner leading-none shrink-0">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-xl bg-white border border-sky-50 flex items-center justify-center text-xl leading-none shrink-0">
                             {r.valueEmoji}
                           </div>
                           <div>
-                            <h4 className="font-extrabold text-slate-800 dark:text-slate-200 text-sm">
+                            <h4 className="font-semibold text-slate-800 text-sm">
                               {t(`values.${r.valueName}`, r.valueName)}
                             </h4>
-                            <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">
+                            <p className="text-[11px] text-slate-400 font-medium">
                               {parseDbDate(r.date).toLocaleDateString(undefined, {
                                 month: 'long',
                                 day: 'numeric',
@@ -530,31 +507,29 @@ function KnowYourValuesInner() {
                             </p>
                           </div>
                         </div>
-                        <Heart size={14} className="text-slate-100 dark:text-slate-800 group-hover:text-primary transition-colors" fill="currentColor" />
+                        <Heart size={12} className="text-sky-200" fill="currentColor" />
                       </div>
 
-                      <div className="space-y-3 pt-2">
-                        <p className="text-slate-650 dark:text-slate-350 text-sm font-bold leading-relaxed italic">
+                      <div className="space-y-2 pt-1">
+                        <p className="text-slate-600 text-sm font-medium leading-relaxed italic">
                           &quot;{r.reflection}&quot;
                         </p>
-                        <div className="flex items-center gap-2 text-primary font-black text-[9px] uppercase tracking-widest pt-2 border-t border-slate-50 dark:border-slate-850">
-                          <Target size={12} />
-                          {t('app.actionLabel', 'Action Commitment')}: {r.action}
+                        <div className="flex items-center gap-1.5 text-sky-500 font-semibold text-[11px] uppercase tracking-widest pt-1 border-t border-sky-50">
+                          <Target size={11} />
+                          {t('app.actionLabel', 'Action')}: {r.action}
                         </div>
                       </div>
                     </motion.div>
                   ))}
 
-                  <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                    <motion.button
-                      whileHover={{ scale: 1.01 }}
-                      whileTap={{ scale: 0.99 }}
+                  <div className="pt-2">
+                    <button
                       onClick={handleResetActivity}
-                      className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                      className="act-btn-primary"
                     >
-                      <RefreshCw size={18} />
+                      <RefreshCw size={15} strokeWidth={2.5} />
                       {t('app.startNew', 'Reflect Again')}
-                    </motion.button>
+                    </button>
                   </div>
                 </div>
               )}

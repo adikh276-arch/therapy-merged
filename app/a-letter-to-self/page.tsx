@@ -192,7 +192,7 @@ function WritingScreen({
           value={content}
           onChange={(e) => setContent(e.target.value)}
           placeholder={t('write_placeholder', "Dear me,\n\nI know things have been difficult...")}
-          className="w-full min-h-[400px] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 border border-transparent focus:bg-white dark:focus:bg-slate-950 focus:border-primary/30 rounded-[3rem] px-10 py-10 text-xl font-bold leading-relaxed outline-none transition-all resize-none shadow-inner placeholder:text-slate-200 dark:placeholder:text-slate-700"
+          className="field-textarea min-h-[400px] text-xl px-10 py-10"
         />
       </motion.div>
 

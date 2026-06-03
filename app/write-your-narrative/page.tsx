@@ -224,7 +224,7 @@ function ScreenLanding({ reflection, setReflection }: ScreenLandingProps) {
           value={reflection}
           onChange={(e) => setReflection(e.target.value)}
           placeholder={t("landing.feeling_placeholder")}
-          className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl px-8 py-5 text-slate-800 text-lg font-black placeholder:text-slate-350 focus:ring-4 focus:ring-primary/5 focus:border-primary/20 transition-all shadow-xl shadow-slate-200/50 text-center"
+          className="field-textarea text-lg text-center"
         />
       </div>
 

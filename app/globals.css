@@ -164,6 +164,193 @@ body {
   border-radius: 6px;
 }
 
+/* ─── Premium Activity Design System ─── */
+
+/* ── Labels ── */
+.field-label {
+  display: block;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  padding-left: 2px;
+  margin-bottom: 8px;
+}
+
+/* ── Text Inputs ── */
+.field-input {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  padding: 15px 18px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e293b;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1.5px solid rgba(255, 255, 255, 0.98);
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04), inset 0 1px 2px rgba(255,255,255,0.8);
+  outline: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+.field-input::placeholder { color: #b8cad9; font-weight: 400; }
+.field-input:focus {
+  border-color: rgba(14, 165, 233, 0.38);
+  background: rgba(255, 255, 255, 0.99);
+  box-shadow: 0 0 0 4px rgba(14,165,233,0.08), 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* ── Textareas ── */
+.field-textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  padding: 15px 18px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #1e293b;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1.5px solid rgba(255, 255, 255, 0.98);
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04), inset 0 1px 2px rgba(255,255,255,0.8);
+  outline: none;
+  resize: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+.field-textarea::placeholder { color: #b8cad9; font-weight: 400; }
+.field-textarea:focus {
+  border-color: rgba(14, 165, 233, 0.38);
+  background: rgba(255, 255, 255, 0.99);
+  box-shadow: 0 0 0 4px rgba(14,165,233,0.08), 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* ── Primary CTA button ── */
+.act-btn-primary {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 54px;
+  padding: 0 24px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 55%, #0284c7 100%);
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 4px 18px -3px rgba(14,165,233,0.32), 0 1px 4px rgba(0,0,0,0.06);
+  transition: box-shadow 0.15s ease, transform 0.1s ease;
+}
+.act-btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 20%, rgba(255,255,255,0.18) 50%, transparent 80%);
+  animation: btn-shimmer 3.2s infinite;
+  animation-delay: 1s;
+}
+@keyframes btn-shimmer {
+  0% { transform: translateX(-100%); }
+  40%, 100% { transform: translateX(200%); }
+}
+.act-btn-primary:not(:disabled):hover {
+  box-shadow: 0 6px 22px -3px rgba(14,165,233,0.42), 0 2px 6px rgba(0,0,0,0.07);
+}
+.act-btn-primary:not(:disabled):active {
+  transform: scale(0.983);
+  box-shadow: 0 2px 10px -2px rgba(14,165,233,0.28);
+}
+.act-btn-primary:disabled {
+  opacity: 0.36;
+  cursor: not-allowed;
+}
+
+/* ── Ghost / secondary button ── */
+.act-btn-ghost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 48px;
+  padding: 0 20px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1.5px solid rgba(255, 255, 255, 0.96);
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.act-btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.98);
+  border-color: rgba(186, 230, 255, 0.9);
+  color: #0369a1;
+}
+
+/* ── Glass card ── */
+.act-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(255, 255, 255, 0.96);
+  border-radius: 20px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.03);
+  padding: 22px;
+}
+.act-card:hover {
+  border-color: rgba(186, 230, 255, 0.7);
+}
+
+/* ── Typography ── */
+.act-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.act-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #38bdf8;
+}
+
+.act-body {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #64748b;
+}
+
 /* ─── Animations ─── */
 @keyframes twinkle {
   0%, 100% { opacity: 0.2; transform: scale(1); }

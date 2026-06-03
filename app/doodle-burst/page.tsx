@@ -333,7 +333,7 @@ function ShareModal({
         <div className="flex flex-col gap-3">
           <button
             onClick={handleDownload}
-            className="w-full py-4.5 bg-primary text-primary-foreground font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-primary/15 hover:shadow-xl transition-all"
+            className="act-btn-primary"
           >
             <Download size={14} />
             {t('download_poster_image', 'Download Poster Image')}
@@ -587,7 +587,7 @@ function DoodleBurstInner() {
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   onClick={completeSession}
-                  className="w-full py-4.5 bg-primary text-primary-foreground font-black text-xs uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-lg shadow-primary/15 hover:shadow-xl transition-all"
+                  className="act-btn-primary"
                 >
                   <Check size={14} />
                   {t('complete_and_save', 'Complete & Save')}
@@ -670,11 +670,11 @@ function DoodleBurstInner() {
             >
               <div className="flex justify-between items-center">
                 <div className="space-y-1">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+                  <span className="act-eyebrow">
                     <History size={12} />
                     {t('history_title', 'Doodle History')}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('history_title', 'Doodle History')}
                   </h1>
                 </div>

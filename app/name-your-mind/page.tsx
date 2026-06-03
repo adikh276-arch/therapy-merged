@@ -138,7 +138,7 @@ function NameYourMindInner() {
           onChange={(e) => setThought(e.target.value)}
           placeholder={t('screens.input_thought.placeholder', 'Write it exactly as it comes to you…')}
           rows={4}
-          className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 resize-none shadow-inner transition-all text-sm"
+          className="field-textarea"
         />
 
         <motion.button
@@ -191,7 +191,7 @@ function NameYourMindInner() {
           ))}
         </div>
 
-        <div className="space-y-1.5">
+        <div className="space-y-2">
           <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest px-1">
             {t('screens.input_name.placeholder', 'Or type your own…')}
           </label>
@@ -200,7 +200,7 @@ function NameYourMindInner() {
             value={customName}
             onChange={(e) => { setCustomName(e.target.value); setMindName(''); }}
             placeholder="Type a custom name…"
-            className="w-full rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary outline-none px-5 py-4 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 transition-all text-sm"
+            className="field-input"
           />
         </div>
 
@@ -235,7 +235,7 @@ function NameYourMindInner() {
 
         <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm space-y-6">
           <div className="space-y-3">
-            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+            <p className="field-label">
               {t('screens.practice.instead_of', 'Instead of')}
             </p>
             <div className="p-4 bg-red-50 dark:bg-red-950/20 rounded-2xl border border-red-100 dark:border-red-900/30">
@@ -243,7 +243,7 @@ function NameYourMindInner() {
             </div>
           </div>
           <div className="space-y-3">
-            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+            <p className="field-label">
               {t('screens.practice.try_saying', 'Try saying')}
             </p>
             <div className="p-4 bg-primary/5 rounded-2xl border border-primary/15">

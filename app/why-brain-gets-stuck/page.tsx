@@ -28,7 +28,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
       </div>
       <button
         onClick={onNext}
-        className="w-full bg-primary text-white py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+        className="act-btn-primary"
       >
         {t("s1.button", "Tell me more")}
         <ChevronRight size={20} />

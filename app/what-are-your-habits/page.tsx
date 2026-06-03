@@ -137,40 +137,39 @@ function HabitsInner() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="w-full flex-1 flex flex-col space-y-6 pb-24"
+                className="w-full flex-1 flex flex-col space-y-5"
               >
                 <header className="space-y-3">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest animate-pulse">
+                  <span className="act-eyebrow">
                     <Sparkles size={12} />
                     {t("physical_health", "Physical Health")}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('body_title', "Your Physical Routine")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('body_subtitle', "Which habits do you recognize in your physical self lately? Select all that apply.")}
                   </p>
                 </header>
 
-                <div className="grid gap-3">
+                <div className="grid gap-2.5">
                   {bodyOptions.map((opt) => {
                     const isSel = bodySelected.includes(opt);
                     return (
                       <motion.button
                         key={opt}
-                        whileHover={{ scale: 1.01, x: 4 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => toggleItem(bodySelected, setBodySelected, opt)}
-                        className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
+                        className={`w-full text-left px-4 py-3 rounded-xl border transition-all flex items-center justify-between ${
                           isSel
-                            ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                            ? "bg-primary border-primary text-white"
+                            : "bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100"
                         }`}
                       >
-                        <span className="text-sm font-bold">{opt}</span>
+                        <span className="text-sm font-medium">{opt}</span>
                         {isSel && (
-                          <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center">
-                            <Check size={16} />
+                          <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                            <Check size={12} strokeWidth={3} />
                           </div>
                         )}
                       </motion.button>
@@ -178,16 +177,14 @@ function HabitsInner() {
                   })}
                 </div>
 
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                <div className="pt-2">
+                  <button
                     onClick={next}
-                    className="w-full max-w-md py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                    className="act-btn-primary"
                   >
                     {t('continue', 'Continue')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -200,40 +197,39 @@ function HabitsInner() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="w-full flex-1 flex flex-col space-y-6 pb-24"
+                className="w-full flex-1 flex flex-col space-y-5"
               >
                 <header className="space-y-3">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest animate-pulse">
+                  <span className="act-eyebrow">
                     <Sparkles size={12} />
                     {t("mental_health", "Mental Health")}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('mind_title', "Your Mind & Thoughts")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('mind_subtitle', "What thought habits do you notice returning most often? Select all that apply.")}
                   </p>
                 </header>
 
-                <div className="grid gap-3">
+                <div className="grid gap-2.5">
                   {mindOptions.map((opt) => {
                     const isSel = mindSelected.includes(opt);
                     return (
                       <motion.button
                         key={opt}
-                        whileHover={{ scale: 1.01, x: 4 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => toggleItem(mindSelected, setMindSelected, opt)}
-                        className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
+                        className={`w-full text-left px-4 py-3 rounded-xl border transition-all flex items-center justify-between ${
                           isSel
-                            ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                            ? "bg-primary border-primary text-white"
+                            : "bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100"
                         }`}
                       >
-                        <span className="text-sm font-bold">{opt}</span>
+                        <span className="text-sm font-medium">{opt}</span>
                         {isSel && (
-                          <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center">
-                            <Check size={16} />
+                          <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                            <Check size={12} strokeWidth={3} />
                           </div>
                         )}
                       </motion.button>
@@ -241,16 +237,14 @@ function HabitsInner() {
                   })}
                 </div>
 
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                <div className="pt-2">
+                  <button
                     onClick={next}
-                    className="w-full max-w-md py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                    className="act-btn-primary"
                   >
                     {t('continue', 'Continue')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -263,40 +257,39 @@ function HabitsInner() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="w-full flex-1 flex flex-col space-y-6 pb-24"
+                className="w-full flex-1 flex flex-col space-y-5"
               >
                 <header className="space-y-3">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest animate-pulse">
+                  <span className="act-eyebrow">
                     <Sparkles size={12} />
                     {t("coping_mechanisms", "Coping Mechanisms")}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('coping_title', "Coping Under Stress")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('coping_subtitle', "How do you typically react when overwhelm occurs? Select all that apply.")}
                   </p>
                 </header>
 
-                <div className="grid gap-3">
+                <div className="grid gap-2.5">
                   {copingOptions.map((opt) => {
                     const isSel = copingSelected.includes(opt);
                     return (
                       <motion.button
                         key={opt}
-                        whileHover={{ scale: 1.01, x: 4 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => toggleItem(copingSelected, setCopingSelected, opt)}
-                        className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
+                        className={`w-full text-left px-4 py-3 rounded-xl border transition-all flex items-center justify-between ${
                           isSel
-                            ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                            ? "bg-primary border-primary text-white"
+                            : "bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100"
                         }`}
                       >
-                        <span className="text-sm font-bold">{opt}</span>
+                        <span className="text-sm font-medium">{opt}</span>
                         {isSel && (
-                          <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center">
-                            <Check size={16} />
+                          <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                            <Check size={12} strokeWidth={3} />
                           </div>
                         )}
                       </motion.button>
@@ -304,16 +297,14 @@ function HabitsInner() {
                   })}
                 </div>
 
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                <div className="pt-2">
+                  <button
                     onClick={next}
-                    className="w-full max-w-md py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                    className="act-btn-primary"
                   >
                     {t('continue', 'Continue')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -326,14 +317,14 @@ function HabitsInner() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="w-full flex-1 flex flex-col space-y-6 pb-24"
+                className="w-full flex-1 flex flex-col space-y-5"
               >
                 <header className="space-y-3">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest animate-pulse">
+                  <span className="act-eyebrow">
                     <Sparkles size={12} />
                     {t("deeper_reflection", "Deeper Reflection")}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('reflection_title', "Unpack Your Patterns")}
                   </h1>
                 </header>
@@ -344,13 +335,13 @@ function HabitsInner() {
                     animate={{ opacity: 1, y: 0 }}
                     className="space-y-3"
                   >
-                    <label className="text-xs font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-2 block">
+                    <label className="field-label">
                       {t('question_stress', "What habits trigger stress in your life?")}
                     </label>
                     <textarea
                       value={stressReflection}
                       onChange={(e) => setStressReflection(e.target.value)}
-                      className="w-full py-5 px-6 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-700 placeholder:text-slate-350 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
+                      className="field-textarea"
                       rows={3}
                       placeholder={t("type_your_thoughts_here", "Type your thoughts here...")}
                     />
@@ -360,31 +351,29 @@ function HabitsInner() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
-                    className="space-y-3"
+                    className="space-y-2"
                   >
-                    <label className="text-xs font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-2 block">
+                    <label className="field-label">
                       {t('question_calm', "What routines help you recover a sense of calm?")}
                     </label>
                     <textarea
                       value={calmReflection}
                       onChange={(e) => setCalmReflection(e.target.value)}
-                      className="w-full py-5 px-6 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-700 placeholder:text-slate-355 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 font-medium focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm resize-none"
+                      className="field-textarea"
                       rows={3}
                       placeholder={t("type_your_thoughts_here", "Type your thoughts here...")}
                     />
                   </motion.div>
                 </div>
 
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                <div className="pt-2">
+                  <button
                     onClick={next}
-                    className="w-full max-w-md py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                    className="act-btn-primary"
                   >
                     {t('see_insight', 'See Insights')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -397,17 +386,17 @@ function HabitsInner() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="w-full flex-1 flex flex-col space-y-6 pb-24"
+                className="w-full flex-1 flex flex-col space-y-5"
               >
                 <header className="space-y-3">
                   <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest animate-pulse">
                     <Lightbulb size={12} />
                     {t("insight_growth", "Insight & Growth")}
                   </span>
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="act-heading">
                     {t('insight_title', "Your Daily Commitments")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                  <p className="act-body">
                     {t('insight_description', "Small steps accumulate into massive changes. Review these potential positive shifts.")}
                   </p>
                 </header>
@@ -422,9 +411,9 @@ function HabitsInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setSuggestionsRevealed(true)}
-                      className="w-full py-6 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-650 font-bold text-lg shadow-sm hover:bg-slate-50 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:hover:bg-slate-950 transition-all flex items-center justify-center gap-3"
+                      className="w-full py-5 rounded-xl bg-white/80 backdrop-blur-sm border border-white text-slate-600 font-semibold text-sm shadow-sm hover:bg-white transition-all flex items-center justify-center gap-3"
                     >
-                      <Sparkles size={20} className="text-primary animate-pulse" />
+                      <Sparkles size={16} className="text-primary" />
                       {t('show_suggestions', 'Reveal Recommended Actions')}
                     </motion.button>
                   ) : (
@@ -442,16 +431,16 @@ function HabitsInner() {
                               whileHover={{ scale: 1.01, x: 4 }}
                               whileTap={{ scale: 0.98 }}
                               onClick={() => toggleItem(suggestionsSelected, setSuggestionsSelected, s)}
-                              className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
+                              className={`w-full text-left px-4 py-3 rounded-xl border transition-all flex items-center justify-between text-sm ${
                                 isSel
-                                  ? "bg-primary border-primary text-primary-foreground shadow-lg shadow-primary/20"
-                                  : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
+                                  ? "bg-primary border-primary text-white"
+                                  : "bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100"
                               }`}
                             >
-                              <span className="text-sm font-bold">{s}</span>
+                              <span className="text-sm font-medium">{s}</span>
                               {isSel && (
-                                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center">
-                                  <Check size={16} />
+                                <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                                  <Check size={12} strokeWidth={3} />
                                 </div>
                               )}
                             </motion.button>
@@ -463,18 +452,14 @@ function HabitsInner() {
                 </AnimatePresence>
 
                 {suggestionsRevealed && (
-                  <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                    <motion.button
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
+                  <div className="pt-2">
+                    <button
                       onClick={next}
-                      className="w-full max-w-md py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                      className="act-btn-primary"
                     >
                       {t('commit', 'Commit to Actions')}
-                      <ArrowRight size={18} />
-                    </motion.button>
+                      <ArrowRight size={16} strokeWidth={2.5} />
+                    </button>
                   </div>
                 )}
               </motion.div>

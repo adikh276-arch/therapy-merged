@@ -207,7 +207,7 @@ function GroundingInner() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={handleNext}
-                className="w-full bg-primary text-primary-foreground font-bold py-4 rounded-2xl shadow-lg shadow-primary/20 hover:shadow-xl transition-all"
+                className="act-btn-primary"
               >
                 {step.button}
               </motion.button>

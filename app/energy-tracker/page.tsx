@@ -25,11 +25,11 @@ interface EnergyEntry {
 type Screen = 'overview' | 'checkin' | 'factors' | 'summary' | 'weekly';
 
 const EMOJI_MAP: Record<EnergyLevel, string> = {
-  'very-low': '😴',
-  'low': '😔',
-  'okay': '😐',
-  'good': '🙂',
-  'high': '⚡',
+  'very-low': '??',
+  'low': '??',
+  'okay': '??',
+  'good': '??',
+  'high': '?',
 };
 
 const ENERGY_LEVEL_NUMS: Record<EnergyLevel, number> = {
@@ -345,62 +345,57 @@ function EnergyTrackerInner() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -12 }}
-                className="w-full flex-1 flex flex-col space-y-6 pb-20"
+                className="w-full flex-1 flex flex-col space-y-5"
               >
-                <div className="text-left space-y-2">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
-                    <Sparkles size={12} />
+                <div className="text-left space-y-1.5">
+                  <span className="act-eyebrow">
+                    <Sparkles size={11} />
                     {t('app_title', 'Energy Tracker')}
                   </span>
-                  <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h2 className="act-heading">
                     {t('how_is_energy', 'How is your energy right now?')}
                   </h2>
                 </div>
 
-                <div className="grid grid-cols-1 gap-3.5">
+                <div className="grid grid-cols-1 gap-2">
                   {levelOptions.map((opt, i) => {
                     const isSelected = currentLevel === opt.level;
                     return (
                       <motion.button
                         key={opt.level}
-                        initial={{ opacity: 0, x: -10 }}
+                        initial={{ opacity: 0, x: -8 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.05 }}
                         onClick={() => setCurrentLevel(opt.level)}
-                        className={`flex items-center gap-5 rounded-2xl border px-6 py-4.5 transition-all text-left group ${
+                        className={`flex items-center gap-4 rounded-xl border px-5 py-3.5 transition-all text-left ${
                           isSelected
-                            ? 'bg-primary border-primary text-white shadow-lg shadow-primary/10'
-                            : `${opt.color} text-slate-800 dark:text-slate-100 hover:scale-[1.01]`
+                            ? 'bg-primary border-primary text-white'
+                            : 'bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100'
                         }`}
                       >
-                        <span className="text-3xl filter drop-shadow-sm">{opt.emoji}</span>
-                        <span
-                          className={`text-base font-extrabold ${
-                            isSelected ? 'text-white' : 'text-slate-700 dark:text-slate-200'
-                          }`}
-                        >
+                        <span className="text-2xl">{opt.emoji}</span>
+                        <span className={`text-sm font-semibold ${isSelected ? 'text-white' : 'text-slate-700'}`}>
                           {opt.label}
                         </span>
-                        <div className="ml-auto w-6 h-6 rounded-full border border-current flex items-center justify-center shrink-0 opacity-40 group-hover:opacity-100 transition-opacity">
-                          {isSelected && <Check size={14} strokeWidth={4} />}
+                        <div className={`ml-auto w-5 h-5 rounded-full border flex items-center justify-center shrink-0 transition-all ${
+                          isSelected ? 'border-white bg-white/20' : 'border-slate-200'
+                        }`}>
+                          {isSelected && <Check size={12} strokeWidth={3} />}
                         </div>
                       </motion.button>
                     );
                   })}
                 </div>
 
-                {/* Footer Controls */}
-                <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white dark:via-slate-950 to-transparent pt-12 flex justify-center z-50">
-                  <motion.button
-                    whileHover={currentLevel ? { scale: 1.02 } : {}}
-                    whileTap={currentLevel ? { scale: 0.98 } : {}}
+                <div className="pt-2">
+                  <button
                     disabled={!currentLevel}
                     onClick={() => setScreen('factors')}
-                    className="w-full max-w-md py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:shadow-none"
+                    className="act-btn-primary"
                   >
                     {t('continue', 'Continue')}
-                    <ArrowRight size={18} />
-                  </motion.button>
+                    <ArrowRight size={16} strokeWidth={2.5} />
+                  </button>
                 </div>
               </motion.div>
             )}
@@ -415,11 +410,11 @@ function EnergyTrackerInner() {
                 className="w-full flex-1 flex flex-col space-y-6 pb-20"
               >
                 <div className="text-left space-y-1">
-                  <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+                  <span className="act-eyebrow">
                     <Sparkles size={12} />
                     {t('factors_title', 'Contributors')}
                   </span>
-                  <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h2 className="act-heading">
                     {t('what_affected', 'What affected your energy?')}
                   </h2>
                   <p className="text-slate-450 dark:text-slate-500 text-xs font-bold uppercase tracking-wider">
@@ -427,28 +422,26 @@ function EnergyTrackerInner() {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-2 gap-2.5">
                   {factorsOptions.map((f, i) => {
                     const selected = currentFactors.includes(f.id);
                     return (
                       <motion.button
                         key={f.id}
-                        initial={{ opacity: 0, y: 8 }}
+                        initial={{ opacity: 0, y: 6 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: i * 0.03 }}
                         onClick={() => toggleFactor(f.id)}
-                        className={`flex items-center gap-3 rounded-2xl px-4 py-3.5 text-xs font-bold transition-all border ${
+                        className={`flex items-center gap-2.5 rounded-xl px-3.5 py-3 text-xs font-semibold transition-all border ${
                           selected
-                            ? 'border-primary bg-primary/5 text-primary shadow-sm'
-                            : 'border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-300 hover:border-slate-200'
+                            ? 'border-primary bg-primary/5 text-primary'
+                            : 'border-white bg-white/80 backdrop-blur-sm text-slate-600 hover:border-sky-100'
                         }`}
                       >
-                        <div
-                          className={`w-4.5 h-4.5 rounded-md flex items-center justify-center transition-colors shrink-0 ${
-                            selected ? 'bg-primary text-white' : 'bg-slate-100 dark:bg-slate-800 text-transparent'
-                          }`}
-                        >
-                          <Check size={12} strokeWidth={4} />
+                        <div className={`w-4 h-4 rounded-md flex items-center justify-center transition-colors shrink-0 ${
+                          selected ? 'bg-primary text-white' : 'bg-slate-100 text-transparent'
+                        }`}>
+                          <Check size={10} strokeWidth={3} />
                         </div>
                         <span className="truncate">{f.label}</span>
                       </motion.button>
@@ -457,9 +450,9 @@ function EnergyTrackerInner() {
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-black text-slate-400 dark:text-slate-550 uppercase tracking-widest block px-1">
+                  <label className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest block px-1">
                     {t('add_note', 'Add a note')}{' '}
-                    <span className="font-medium lowercase">({t('optional', 'optional')})</span>
+                    <span className="font-normal normal-case">({t('optional', 'optional')})</span>
                   </label>
                   <textarea
                     value={currentNote}
@@ -467,32 +460,24 @@ function EnergyTrackerInner() {
                     placeholder={t('note_placeholder', 'Describe briefly...')}
                     maxLength={120}
                     rows={3}
-                    className="w-full resize-none rounded-2xl border border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 px-5 py-4 text-sm text-slate-900 dark:text-slate-100 placeholder:text-slate-300 focus:outline-none focus:border-primary transition-all font-medium shadow-inner"
+                    className="field-textarea"
                   />
-                  <p className="text-right text-[9px] font-black text-slate-350 dark:text-slate-600 uppercase tracking-widest px-1">
+                  <p className="text-right text-[11px] font-medium text-slate-300 px-1">
                     {currentNote.length}/120
                   </p>
                 </div>
 
-                {/* Footer Controls */}
-                <div className="pt-4 flex flex-col gap-2">
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    onClick={handleSave}
-                    disabled={saving}
-                    className="w-full py-4 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all flex items-center justify-center gap-2 disabled:opacity-50"
-                  >
-                    {saving ? (
-                      <Loader2 className="w-5 h-5 animate-spin" />
-                    ) : (
-                      <>
-                        {t('save_checkin', 'Save Check-in')}
-                        <ArrowRight size={18} />
-                      </>
-                    )}
-                  </motion.button>
-                </div>
+                <button
+                  onClick={handleSave}
+                  disabled={saving}
+                  className="w-full h-12 rounded-xl bg-primary text-white font-semibold text-sm flex items-center justify-center gap-2 hover:bg-primary/90 active:bg-primary/80 transition-colors duration-150 disabled:opacity-50"
+                >
+                  {saving ? (
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                  ) : (
+                    <>{t('save_checkin', 'Save Check-in')}<ArrowRight size={15} strokeWidth={2.5} /></>
+                  )}
+                </button>
               </motion.div>
             )}
 
@@ -556,11 +541,11 @@ function EnergyTrackerInner() {
               >
                 <div className="flex justify-between items-center">
                   <div className="space-y-1">
-                    <span className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest">
+                    <span className="act-eyebrow">
                       <History size={12} />
                       {t('weekly_title', 'Weekly Trend')}
                     </span>
-                    <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                    <h1 className="act-heading">
                       {t('your_weekly', 'Your Energy Flow')}
                     </h1>
                   </div>
@@ -576,9 +561,9 @@ function EnergyTrackerInner() {
 
                 {/* SVG Chart Container */}
                 <motion.div
-                  initial={{ opacity: 0, y: 10 }}
+                  initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 p-5 shadow-sm overflow-hidden flex flex-col items-center justify-center"
+                  className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm overflow-hidden flex flex-col items-center justify-center p-5"
                 >
                   {loading ? (
                     <div className="flex flex-col items-center justify-center py-10 gap-3">
@@ -701,7 +686,7 @@ function EnergyTrackerInner() {
                     <div className="w-10 h-10 rounded-xl bg-white dark:bg-slate-950 flex items-center justify-center shrink-0 text-primary shadow-sm">
                       <Info size={20} />
                     </div>
-                    <div className="space-y-1.5">
+                    <div className="space-y-2">
                       <h3 className="text-[10px] font-black text-primary uppercase tracking-widest">
                         {t('insight', 'Energy Insight')}
                       </h3>
