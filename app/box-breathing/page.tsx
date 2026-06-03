@@ -21,6 +21,12 @@ const PHASES = [
 
 const TOTAL_CYCLES = 4;
 
+const PHASE_META = {
+  breathe_in:  { scale: 1.0,  glowScale: 1.5, transitionDuration: 4, ease: [0.4, 0, 0.6, 1] as const },
+  hold:        { scale: 1.0,  glowScale: 1.5, transitionDuration: 0.4, ease: [0.4, 0, 0.6, 1] as const },
+  breathe_out: { scale: 0.55, glowScale: 0.9, transitionDuration: 4, ease: [0.4, 0, 0.6, 1] as const },
+};
+
 function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: () => void }) {
   const { t } = useTranslation(undefined, { i18n });
   const { playBreathIn, playBreathOut, playHold, playPop } = useSound();
@@ -31,6 +37,9 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const phase = PHASES[phaseIndex];
+  // hold phases use breathe_in's held position
+  const metaKey = phase.label === 'hold' ? 'hold' : phase.label as keyof typeof PHASE_META;
+  const meta = PHASE_META[metaKey];
 
   const tick = useCallback(() => {
     setCountdown((prev) => {
@@ -64,92 +73,137 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
     else if (phaseIndex === 2) playBreathOut(PHASES[2].duration * 1000);
   }, [phaseIndex, paused, playBreathIn, playBreathOut, playHold]);
 
-  const circleScale = phaseIndex === 0 || phaseIndex === 1 ? 1 : 0.6;
+  const phaseColors: Record<string, string> = {
+    breathe_in:  'rgba(56,189,248,0.18)',
+    hold:        'rgba(99,210,190,0.18)',
+    breathe_out: 'rgba(147,197,253,0.18)',
+  };
+  const glowColor = phaseColors[phase.label] ?? 'rgba(56,189,248,0.18)';
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[60vh] relative">
-      {/* Cycle indicators */}
+    <div className="flex flex-col items-center justify-center min-h-[62vh] relative">
+      {/* Cycle dots */}
       <div className="absolute top-0 left-0 right-0 flex justify-center gap-3">
         {Array.from({ length: TOTAL_CYCLES }).map((_, i) => (
           <motion.div
             key={i}
             animate={{
-              scale: i + 1 === cycle ? 1.2 : 1,
-              backgroundColor: i + 1 <= cycle ? 'var(--color-primary, #3b82f6)' : '#E2E8F0',
+              scale: i + 1 === cycle ? 1.3 : 1,
+              backgroundColor: i + 1 <= cycle ? '#0ea5e9' : '#CBD5E1',
             }}
+            transition={{ type: 'spring', damping: 15, stiffness: 280 }}
             className="w-2.5 h-2.5 rounded-full"
           />
         ))}
       </div>
 
       {/* Breathing circle */}
-      <div className="flex flex-col items-center mt-12">
-        <div className="relative flex items-center justify-center w-64 h-64">
-          {/* Glow */}
+      <div className="flex flex-col items-center mt-14">
+        <div className="relative flex items-center justify-center w-72 h-72">
+
+          {/* Outer slow glow — breathes with the phase */}
           <motion.div
-            animate={{ scale: circleScale * 1.1, opacity: paused ? 0.1 : [0.1, 0.3, 0.1] }}
-            transition={{ scale: { duration: 4, ease: 'easeInOut' }, opacity: { duration: 2, repeat: Infinity } }}
-            className="absolute inset-0 rounded-full bg-primary/20 blur-2xl"
+            animate={{ scale: paused ? 0.8 : meta.glowScale, opacity: paused ? 0 : 0.6 }}
+            transition={{ duration: meta.transitionDuration, ease: meta.ease as [number,number,number,number] }}
+            className="absolute inset-0 rounded-full"
+            style={{ background: glowColor, filter: 'blur(36px)' }}
           />
+
+          {/* Middle ring — faint border that expands */}
+          <motion.div
+            animate={{ scale: paused ? 0.75 : meta.scale * 1.18 }}
+            transition={{ duration: meta.transitionDuration, ease: meta.ease as [number,number,number,number] }}
+            className="absolute inset-0 rounded-full border-2 border-sky-300/30"
+          />
+
           {/* Main circle */}
           <motion.div
-            animate={{ scale: circleScale }}
-            transition={{ duration: 4, ease: 'easeInOut' }}
-            className="w-full h-full rounded-full bg-primary flex items-center justify-center shadow-2xl shadow-primary/30 z-10"
+            animate={{ scale: paused ? 0.72 : meta.scale }}
+            transition={{ duration: meta.transitionDuration, ease: meta.ease as [number,number,number,number] }}
+            className="w-56 h-56 rounded-full flex items-center justify-center relative z-10"
+            style={{
+              background: 'linear-gradient(145deg, #38bdf8 0%, #0ea5e9 50%, #0284c7 100%)',
+              boxShadow: '0 0 0 8px rgba(14,165,233,0.08), 0 16px 48px rgba(14,165,233,0.22)',
+            }}
           >
-            <div className="text-center">
+            {/* Phase label + countdown */}
+            <div className="text-center px-4">
               <AnimatePresence mode="wait">
                 <motion.span
                   key={phase.label}
-                  initial={{ opacity: 0, y: 5 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -5 }}
-                  className="text-white font-bold text-xl uppercase tracking-widest block"
+                  initial={{ opacity: 0, scale: 0.85 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 1.1 }}
+                  transition={{ duration: 0.3 }}
+                  className="text-white/90 font-bold text-base uppercase tracking-[0.15em] block"
                 >
                   {t(phase.label, phase.label)}
                 </motion.span>
               </AnimatePresence>
-              <span className="text-white/70 text-4xl font-light tabular-nums mt-2 block">
-                {countdown}
-              </span>
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={countdown}
+                  initial={{ opacity: 0, y: 4 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -4 }}
+                  transition={{ duration: 0.2 }}
+                  className="text-white font-light text-5xl tabular-nums mt-1 block leading-none"
+                >
+                  {countdown}
+                </motion.span>
+              </AnimatePresence>
             </div>
           </motion.div>
         </div>
       </div>
 
       {/* Controls */}
-      <div className="flex items-center gap-8 mt-16">
+      <div className="flex items-center gap-6 mt-16">
         <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={() => {
-            playPop();
-            setPaused((p) => !p);
-          }}
-          className={`w-20 h-20 rounded-[2rem] flex items-center justify-center shadow-xl transition-all ${
-            paused
-              ? 'bg-primary text-white shadow-primary/20'
-              : 'bg-white text-slate-900 border border-white/60 shadow-slate-200'
-          }`}
+          whileHover={{ scale: 1.06 }}
+          whileTap={{ scale: 0.94 }}
+          onClick={() => { playPop(); setPaused(p => !p); }}
+          className="w-[72px] h-[72px] rounded-2xl flex items-center justify-center transition-all"
+          style={paused
+            ? { background: 'linear-gradient(135deg,#38bdf8,#0284c7)', boxShadow: '0 8px 24px rgba(14,165,233,0.3)' }
+            : { background: 'rgba(255,255,255,0.85)', border: '1.5px solid rgba(14,165,233,0.15)', boxShadow: '0 2px 12px rgba(0,0,0,0.06)', color: '#0284c7' }
+          }
         >
-          {paused ? <Play size={32} fill="currentColor" className="ml-1" /> : <Pause size={32} fill="currentColor" />}
+          {paused
+            ? <Play size={28} fill="white" className="text-white ml-1" />
+            : <Pause size={28} fill="currentColor" />
+          }
         </motion.button>
 
         <motion.button
-          whileHover={{ scale: 1.05, rotate: -90 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={() => {
-            playPop();
-            onEnd();
-          }}
-          className="w-16 h-16 rounded-[1.5rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 border border-white/60 flex items-center justify-center hover:bg-slate-100 hover:text-slate-600 transition-all shadow-sm"
+          whileHover={{ scale: 1.06 }}
+          whileTap={{ scale: 0.94 }}
+          onClick={() => { playPop(); onEnd(); }}
+          className="w-14 h-14 rounded-xl flex items-center justify-center text-slate-400 hover:text-sky-600 transition-colors"
+          style={{ background: 'rgba(255,255,255,0.7)', border: '1.5px solid rgba(0,0,0,0.06)', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}
         >
-          <RotateCcw size={24} strokeWidth={3} />
+          <RotateCcw size={20} strokeWidth={2.5} />
         </motion.button>
       </div>
+
+      {/* Phase instruction hint */}
+      <motion.p
+        key={phase.label}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.55 }}
+        transition={{ duration: 0.5 }}
+        className="mt-8 text-[12px] font-semibold text-sky-700 uppercase tracking-widest text-center"
+      >
+        {phase.label === 'breathe_in'
+          ? t('instruction_in', 'breathe in slowly…')
+          : phase.label === 'breathe_out'
+          ? t('instruction_out', 'breathe out slowly…')
+          : t('instruction_hold', 'gently hold…')}
+      </motion.p>
     </div>
   );
 }
+
 
 // ─── Main Page ─────────────────────────────────────────────────────────────────
 
