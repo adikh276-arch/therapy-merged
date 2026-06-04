@@ -66,10 +66,10 @@ function RepairReconnectInner() {
   };
 
   const personOptions = [
-    { id: "friend", label: t("choose_person.options.friend", "A Friend"), emoji: "🤝" },
-    { id: "family", label: t("choose_person.options.family", "A Family Member"), emoji: "🏠" },
-    { id: "colleague", label: t("choose_person.options.colleague", "A Colleague"), emoji: "💼" },
-    { id: "other", label: t("choose_person.options.other", "Someone Else"), emoji: "👤" },
+    { id: "friend", label: t("choose_person.options.friend", "A Friend"), emoji: "" },
+    { id: "family", label: t("choose_person.options.family", "A Family Member"), emoji: "" },
+    { id: "colleague", label: t("choose_person.options.colleague", "A Colleague"), emoji: "" },
+    { id: "other", label: t("choose_person.options.other", "Someone Else"), emoji: "" },
   ];
 
   const approaches = (t(`choose_approach.approaches.${person}`, { returnObjects: true }) || 
@@ -77,11 +77,11 @@ function RepairReconnectInner() {
 
   const actionData = t(`guided_action.actions.${approach}`, { returnObjects: true }) as any;
   const emojiMap: Record<string, string> = {
-    message: "💬",
+    message: "",
     acknowledge: "🫶",
-    pause: "⏸️",
-    letgo: "🍃",
-    reflect: "💭"
+    pause: "️",
+    letgo: "",
+    reflect: ""
   };
 
   // Sync edited message when template action data changes
@@ -103,9 +103,9 @@ function RepairReconnectInner() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const safetyLine = approach === "pause" ? t("guided_action.safety_line_pause", "Take your time—there's no rush. 💛") : 
-                    approach === "reflect" ? t("guided_action.safety_line_reflect", "This is just for you—no one else needs to see this. 💛") : 
-                    t("guided_action.safety_line_default", "You don't have to send anything right now. 💛");
+  const safetyLine = approach === "pause" ? t("guided_action.safety_line_pause", "Take your time—there's no rush. ") : 
+                    approach === "reflect" ? t("guided_action.safety_line_reflect", "This is just for you—no one else needs to see this. ") : 
+                    t("guided_action.safety_line_default", "You don't have to send anything right now. ");
 
   const personLabel = person ? (t(`choose_person.options.${person}`) || person) : t("complete.default_person", "someone important");
 
@@ -116,8 +116,8 @@ function RepairReconnectInner() {
           title={t("app_title", "Repair & Reconnect")}
           message={t("complete.message", `You've taken a brave step toward repairing your connection with {{person}}. Small, intentional actions build lasting bridges.`, { person: personLabel })}
           onRestart={reset}
-                  shareEmoji="🤝"
-                  shareContent={"I just completed 'Repair and Reconnect' on TherapyMantra — a guided relationship repair that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Repair and Reconnect' on TherapyMantra — a guided relationship repair that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );
@@ -160,7 +160,7 @@ function RepairReconnectInner() {
               exit={{ opacity: 0, y: -15 }}
               className="glass-card p-8 text-center space-y-6 relative rounded-[2.5rem] bg-white/70 backdrop-blur-xl border border-white/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col justify-between"
             >
-              <div className="text-6xl mt-4">🤝</div>
+              <div className="text-6xl mt-4"></div>
 
               <h1 className="text-3xl font-black text-slate-800 leading-tight">
                 {t("intro.title", "Repair & Reconnect")}
@@ -292,11 +292,11 @@ function RepairReconnectInner() {
             >
               {/* Action Banner */}
               <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-6 shadow-xl text-center space-y-3">
-                <div className="text-5xl">{emojiMap[approach] || "✨"}</div>
+                <div className="text-5xl">{emojiMap[approach] || ""}</div>
                 <h2 className="text-xl font-black text-slate-850">{actionData.title}</h2>
                 <p className="text-slate-500 font-semibold text-xs leading-relaxed max-w-xs mx-auto">{actionData.why}</p>
                 <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl p-4.5 border border-white/60/50">
-                  <p className="text-[11px] text-slate-650 font-bold leading-relaxed">💡 {actionData.insight}</p>
+                  <p className="text-[11px] text-slate-650 font-bold leading-relaxed"> {actionData.insight}</p>
                 </div>
               </div>
 
@@ -313,7 +313,7 @@ function RepairReconnectInner() {
                       exit={{ opacity: 0 }}
                       className="text-[11px] font-black text-primary uppercase tracking-wider"
                     >
-                      {t("guided_action.tap_reveal", "Tap to see how ✨")}
+                      {t("guided_action.tap_reveal", "Tap to see how ")}
                     </motion.p>
                   ) : (
                     <motion.p

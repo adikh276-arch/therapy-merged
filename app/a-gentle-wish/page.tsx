@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from "react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
-import { Heart, Sparkles, History, ChevronLeft, ChevronRight } from "lucide-react";
+import { Heart, Sparkles, History, ChevronLeft, ChevronRight, Feather, Hourglass } from "lucide-react";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
@@ -160,9 +160,7 @@ function GentleWishInner() {
               exit={{ opacity: 0, y: -15 }}
               className="flex-1 flex flex-col items-center text-center gap-8 py-10"
             >
-              <div className="w-24 h-24 bg-rose-50 dark:bg-rose-950/20 rounded-[2.5rem] flex items-center justify-center text-5xl shadow-2xl animate-pulse">
-                🕊️
-              </div>
+              <div className="w-24 h-24 bg-rose-50 dark:bg-rose-950/20 rounded-[2.5rem] flex items-center justify-center text-5xl shadow-2xl animate-pulse"><Feather className="inline-block w-8 h-8" /></div>
 
               <div className="space-y-3">
                 <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white leading-tight">
@@ -390,8 +388,8 @@ function GentleWishInner() {
               <PremiumComplete
                 title={t("reflection_title", "Tribute Preserved")}
                 message={t("reflection_footer", "Your thoughts and commitments are kept secure. Let these memories continue to spark light inside you.")}
-                shareEmoji="🤍"
-                shareContent={`I just dedicated a Gentle Wish to honor a loved one on TherapyMantra 🕊️\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                shareEmoji=""
+                shareContent={`I just dedicated a Gentle Wish to honor a loved one on TherapyMantra ️\n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                 onHome={() => setScreen("welcome")}
                 onRestart={addAnother}
               >
@@ -441,9 +439,7 @@ function GentleWishInner() {
               <div className="flex-1 overflow-y-auto pr-2 space-y-6 max-h-[50vh]">
                 {entries.length === 0 ? (
                   <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-12 text-center shadow-xl space-y-6">
-                    <div className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-3xl">
-                      ⏳
-                    </div>
+                    <div className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto text-3xl"><Hourglass className="inline-block w-8 h-8" /></div>
                     <p className="text-slate-550 dark:text-slate-400 font-bold text-sm">
                       {t("no_past_entries", "No entries exist yet.")}
                     </p>

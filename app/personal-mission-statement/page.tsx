@@ -364,8 +364,8 @@ function PersonalMissionStatementInner() {
                 <PremiumComplete
                   title={t('app_title', 'Personal Mission')}
                   message={t('mission_is_reminder', 'Your mission statement is ready. Tap to edit the text directly.')}
-                  shareContent={`My Personal Mission Statement:\n\n"${statement}"\n\nCreated with TherapyMantra 🌿\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
-                  shareEmoji="🧭"
+                  shareContent={`My Personal Mission Statement:\n\n"${statement}"\n\nCreated with TherapyMantra \n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                  shareEmoji=""
                   customActions={
                     <div className="space-y-3">
                       {/* Editable statement card */}
@@ -571,8 +571,8 @@ function PersonalMissionStatementInner() {
         isOpen={isShareOpen}
         onClose={() => setIsShareOpen(false)}
         activityName={t('app_title', 'Personal Mission Statement')}
-        shareContent={statement ? `My Personal Mission Statement:\n\n"${statement}"\n\nCreated with TherapyMantra 🌿\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888` : undefined}
-        emoji="🧭"
+        shareContent={statement ? `My Personal Mission Statement:\n\n"${statement}"\n\nCreated with TherapyMantra \n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888` : undefined}
+        emoji=""
       />
     </PremiumLayout>
   );

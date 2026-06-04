@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Moon, Sparkles, ChevronRight, CheckCircle2, RefreshCw } from 'lucide-react';
+import { Moon, Sparkles, ChevronRight, CheckCircle2, RefreshCw, Sun, Waves, Coffee, Smartphone, Wine, Frown } from "lucide-react";
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 
@@ -110,10 +110,10 @@ function SleepCycleGuideInner() {
     const raw = t("s2.stages", { returnObjects: true });
     if (Array.isArray(raw)) return raw;
     return [
-      { emoji: "🌤️", title: "Stage 1: NREM", tag: "Transition state (1-7 min)", body: "Your body begins to drift off, heart rate slows down, muscles relax slightly. Waking up here feels simple." },
-      { emoji: "😴", title: "Stage 2: NREM Light", tag: "Light Sleep (10-25 min)", body: "Body temperature drops, brain activity slows. Waking up here is relatively comfortable." },
-      { emoji: "💤", title: "Stage 3: NREM Deep", tag: "Slow-wave Rest (20-40 min)", body: "Crucial physical recovery takes place. Waking up from this stage produces severe morning grogginess." },
-      { emoji: "🌀", title: "Stage 4: REM Sleep", tag: "Dream Stage (10-60 min)", body: "High brain activity, vivid dreaming, cognitive restoration. Waking up here feels natural." }
+      { icon: <Sun className="w-5 h-5" />, title: "Stage 1: NREM", tag: "Transition state (1-7 min)", body: "Your body begins to drift off, heart rate slows down, muscles relax slightly. Waking up here feels simple." },
+      { icon: <Moon className="w-5 h-5" />, title: "Stage 2: NREM Light", tag: "Light Sleep (10-25 min)", body: "Body temperature drops, brain activity slows. Waking up here is relatively comfortable." },
+      { icon: <Moon className="w-5 h-5" />, title: "Stage 3: NREM Deep", tag: "Slow-wave Rest (20-40 min)", body: "Crucial physical recovery takes place. Waking up from this stage produces severe morning grogginess." },
+      { icon: <Waves className="w-5 h-5" />, title: "Stage 4: REM Sleep", tag: "Dream Stage (10-60 min)", body: "High brain activity, vivid dreaming, cognitive restoration. Waking up here feels natural." }
     ];
   };
 
@@ -121,9 +121,9 @@ function SleepCycleGuideInner() {
     const raw = t("s3.disruptors", { returnObjects: true });
     if (Array.isArray(raw)) return raw;
     return [
-      { emoji: "☕", text: "Late Caffeine", sub: "Blocks tiredness chemicals" },
-      { emoji: "📱", text: "Blue Screens", sub: "Delays natural melatonin" },
-      { emoji: "🍷", text: "Bedtime Alcohol", sub: "Fragments restorative cycles" },
+      { icon: <Coffee className="w-5 h-5" />, text: "Late Caffeine", sub: "Blocks tiredness chemicals" },
+      { icon: <Smartphone className="w-5 h-5" />, text: "Blue Screens", sub: "Delays natural melatonin" },
+      { icon: <Wine className="w-5 h-5" />, text: "Bedtime Alcohol", sub: "Fragments restorative cycles" },
       { emoji: "⏰", text: "Inconsistent Alarms", sub: "Interrupts deep stages" }
     ];
   };
@@ -132,9 +132,9 @@ function SleepCycleGuideInner() {
     const raw = t("s4.options", { returnObjects: true });
     if (Array.isArray(raw)) return raw;
     return [
-      { emoji: "🥱", text: "Woke up exhausted despite sleeping 8 hours", sub: "Woken from deep sleep", tip: "Your alarm likely fired during your deep non-REM cycle. Try altering your bedtime in 90-minute chunks (e.g. 7.5 hours instead of 8)." },
-      { emoji: "☕", text: "Need caffeine immediately to function", sub: "Poor sleep continuity", tip: "Late afternoon stimulants disrupt cycle transitions. Implement a strict no-caffeine rule starting 6 hours before bedtime." },
-      { emoji: "☀️", text: "Woke up fully alert and energized", sub: "Optimal cycle alignment", tip: "Excellent! You woke up during a light sleep stage. Keep replicating this exact window." }
+      { icon: <Frown className="w-5 h-5" />, text: "Woke up exhausted despite sleeping 8 hours", sub: "Woken from deep sleep", tip: "Your alarm likely fired during your deep non-REM cycle. Try altering your bedtime in 90-minute chunks (e.g. 7.5 hours instead of 8)." },
+      { icon: <Coffee className="w-5 h-5" />, text: "Need caffeine immediately to function", sub: "Poor sleep continuity", tip: "Late afternoon stimulants disrupt cycle transitions. Implement a strict no-caffeine rule starting 6 hours before bedtime." },
+      { icon: <Sun className="w-5 h-5" />, text: "Woke up fully alert and energized", sub: "Optimal cycle alignment", tip: "Excellent! You woke up during a light sleep stage. Keep replicating this exact window." }
     ];
   };
 
@@ -176,7 +176,7 @@ function SleepCycleGuideInner() {
                 exit={{ opacity: 0, x: -20 }}
                 className="flex-1 flex flex-col items-center justify-center text-center gap-6 py-4"
               >
-                <div className="text-6xl mb-2 animate-bounce">😫</div>
+                <div className="text-6xl mb-2 animate-bounce"><Frown className="inline-block w-8 h-8" /></div>
 
                 <h1 className="text-2.5xl font-black text-slate-900 dark:text-white leading-tight">
                   {t("s1.title", "Why Am I Tired?")}
@@ -249,7 +249,7 @@ function SleepCycleGuideInner() {
                           onClick={() => setExpandedStage(isOpen ? null : i)}
                         >
                           <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-xl shadow-inner">
-                            {s.emoji}
+                            {s.icon}
                           </div>
                           <div className="flex-1 min-w-0">
                             <div className="text-sm font-black text-slate-800 dark:text-slate-200">{s.title}</div>
@@ -331,7 +331,7 @@ function SleepCycleGuideInner() {
                       key={i}
                       className="p-4 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md transition-shadow"
                     >
-                      <span className="text-xl">{d.emoji}</span>
+                      <span className="text-xl">{d.icon}</span>
                       <p className="text-xs font-black mt-2 text-slate-800 dark:text-slate-200">{d.text}</p>
                       <p className="text-[9px] text-slate-405 dark:text-slate-500 font-bold uppercase mt-1 leading-tight">{d.sub}</p>
                     </div>
@@ -377,7 +377,7 @@ function SleepCycleGuideInner() {
                         }`}
                         onClick={() => setSelectedReflection(i)}
                       >
-                        <span className="text-2xl shrink-0 mt-0.5">{o.emoji}</span>
+                        <span className="text-2xl shrink-0 mt-0.5">{o.icon}</span>
                         <div>
                           <p className="text-sm font-black text-slate-800 dark:text-slate-100">{o.text}</p>
                           <p className="text-xs text-slate-400 dark:text-slate-500 italic mt-0.5">{o.sub}</p>
@@ -397,7 +397,7 @@ function SleepCycleGuideInner() {
                       className="p-6 bg-indigo-50/50 border border-indigo-100 dark:bg-slate-900 dark:border-slate-800 rounded-[2rem] shadow-inner"
                     >
                       <p className="text-xs font-semibold leading-relaxed text-indigo-750 dark:text-slate-300">
-                        💡 {reflections[selectedReflection].tip}
+                         {reflections[selectedReflection].tip}
                       </p>
                     </motion.div>
                   )}

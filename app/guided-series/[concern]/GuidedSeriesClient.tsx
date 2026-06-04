@@ -26,6 +26,7 @@ import {
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import '@/lib/i18n/i18n';
+import { withLang } from '@/lib/navigation';
 
 const iconMap: Record<string, any> = {
   Smile, Clock, Activity, Book, Target, Moon, Cloud, Wind,
@@ -72,13 +73,13 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
   const handleActivityClick = useCallback((activity: Activity) => {
     if (activity.route) {
       if (activity.route.startsWith('http')) {
-        window.location.href = activity.route;
+        window.location.href = withLang(activity.route);
       } else {
-        router.push(activity.route);
+        router.push(withLang(activity.route));
       }
       return;
     }
-    router.push(`/guided-series/${concern}/${encodeURIComponent(activity.name)}`);
+    router.push(withLang(`/guided-series/${concern}/${encodeURIComponent(activity.name)}`));
   }, [concern, router]);
 
   return (

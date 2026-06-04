@@ -380,8 +380,8 @@ function KnowYourValuesInner() {
                 message={t('app.quote', 'A life aligned with your values is a life of strength, peace, and clarity.')}
                 onRestart={handleResetActivity}
                 icon={<Target size={48} className="text-primary animate-pulse" />}
-                  shareEmoji="⭐"
-                  shareContent={"I just completed 'Know Your Values' on TherapyMantra — a guided values reflection that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Know Your Values' on TherapyMantra — a guided values reflection that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
               >
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm text-left space-y-5 p-5">
                   <div className="flex items-center gap-3 border-b border-sky-50 pb-4">

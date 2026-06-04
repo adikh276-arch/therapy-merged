@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation, I18nextProvider } from "react-i18next";
-import { Utensils, Save, ChevronRight, Sparkles } from "lucide-react";
+import { Utensils, Save, ChevronRight, Sparkles, Leaf } from "lucide-react";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import i18n, { loadLocale } from "./i18n";
@@ -73,8 +73,8 @@ function ChallengingFoodRulesInner() {
           title={t("app_title")}
           message={t("complete_message")}
           onRestart={resetFlow}
-                  shareEmoji="🍽️"
-                  shareContent={"I just completed 'Challenging Food Rules' on TherapyMantra — a guided mindful eating exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji="️"
+                  shareContent={"I just completed 'Challenging Food Rules' on TherapyMantra — a guided mindful eating exercise that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );
@@ -123,9 +123,7 @@ function ChallengingFoodRulesInner() {
             {screen === "intro" && (
               <div className="flex-1 flex flex-col gap-10 text-center justify-center">
                 <div className="relative overflow-hidden rounded-[3rem] bg-white/70 backdrop-blur-xl border border-white/80 p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
-                  <div className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center mx-auto mb-8 text-4xl">
-                    🌿
-                  </div>
+                  <div className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center mx-auto mb-8 text-4xl"><Leaf className="inline-block w-8 h-8" /></div>
                   <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
                     {t("welcome_title")}
                   </h1>

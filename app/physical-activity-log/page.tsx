@@ -4,7 +4,7 @@ import { parseDbDate } from '@/lib/dateUtils';
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calendar as CalendarIcon, Pencil, Trash2, Sparkles, History, Loader2, Plus, Dumbbell, Award, Flame, Check, X } from 'lucide-react';
+import { Calendar as CalendarIcon, Pencil, Trash2, Sparkles, History, Loader2, Plus, Dumbbell, Award, Flame, Check, X, Activity } from "lucide-react";
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { apiPath } from '@/lib/apiPath';
@@ -19,21 +19,21 @@ interface Activity {
 }
 
 const EMOJI_MAP: Record<string, string> = {
-  run: "🏃", walk: "🚶", swim: "🏊", bike: "🚴", yoga: "🧘", hike: "🥾",
-  dance: "💃", gym: "🏋️", stretch: "🤸", meditation: "🧘",
+  run: "", walk: "", swim: "", bike: "", yoga: "", hike: "",
+  dance: "", gym: "️", stretch: "", meditation: "",
 };
 
 const QUICK_TAGS = [
-  { name: 'Run', emoji: '🏃' },
-  { name: 'Walk', emoji: '🚶' },
-  { name: 'Yoga', emoji: '🧘' },
-  { name: 'Gym', emoji: '🏋️' },
-  { name: 'Bike', emoji: '🚴' },
-  { name: 'Swim', emoji: '🏊' },
+  { name: 'Run', emoji: '' },
+  { name: 'Walk', icon: <Activity className="w-5 h-5" /> },
+  { name: 'Yoga', icon: <Activity className="w-5 h-5" /> },
+  { name: 'Gym', emoji: '️' },
+  { name: 'Bike', emoji: '' },
+  { name: 'Swim', emoji: '' },
 ];
 
 function getEmoji(name: string): string {
-  return EMOJI_MAP[name.toLowerCase()] || "💪";
+  return EMOJI_MAP[name.toLowerCase()] || "";
 }
 
 const toLocalIsoDate = (date: Date): string => {
@@ -349,7 +349,7 @@ function PhysicalActivityLogInner() {
                       onClick={() => setActivityName(tag.name)}
                       className="px-3.5 py-1.5 rounded-xl bg-slate-100/60 dark:bg-slate-950 hover:bg-primary/10 hover:text-primary transition-all text-xs font-bold text-slate-600 dark:text-slate-350 border border-white/60/10"
                     >
-                      {tag.emoji} {t(tag.name, tag.name)}
+                      {tag.icon || tag.emoji} {t(tag.name, tag.name)}
                     </button>
                   ))}
                 </div>

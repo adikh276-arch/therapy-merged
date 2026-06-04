@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronRight, RotateCcw, HelpCircle, Check, X as XIcon, Sparkles } from "lucide-react";
+import { ChevronRight, RotateCcw, HelpCircle, Check, X as XIcon, Sparkles, Trophy } from "lucide-react";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
@@ -163,9 +163,7 @@ function AngerQuizInner() {
               exit={{ opacity: 0, y: -15 }}
               className="flex-1 flex flex-col items-center text-center gap-8 py-10"
             >
-              <div className="w-32 h-32 rounded-[3rem] bg-primary/10 flex items-center justify-center text-6xl shadow-2xl animate-pulse">
-                ❓
-              </div>
+              <div className="w-32 h-32 rounded-[3rem] bg-primary/10 flex items-center justify-center text-6xl shadow-2xl animate-pulse"><HelpCircle className="inline-block w-8 h-8" /></div>
               <div className="space-y-4">
                 <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white leading-tight">
                   {t("welcome_title", "Anger: Facts & Myths")}
@@ -296,13 +294,11 @@ function AngerQuizInner() {
                 title={t("results_title", "Anger Quiz Complete!")}
                 message={t("results_message", "You've gained a better understanding of how anger functions in our lives.")}
                 onRestart={handleRetry}
-                shareEmoji="🔥"
-                shareContent={`I just scored ${score}/${TOTAL} on the Anger Facts & Myths Quiz in TherapyMantra. 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                shareEmoji=""
+                shareContent={`I just scored ${score}/${TOTAL} on the Anger Facts & Myths Quiz in TherapyMantra. \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
               >
                 <div className="w-full bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-8 shadow-xl text-center my-6">
-                  <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-6 text-4xl">
-                    🏆
-                  </div>
+                  <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-6 text-4xl"><Trophy className="inline-block w-8 h-8" /></div>
                   <div className="text-6xl font-black text-slate-900 dark:text-white tabular-nums mb-2">
                     {score}<span className="text-slate-300 dark:text-slate-700 text-3xl">/{TOTAL}</span>
                   </div>

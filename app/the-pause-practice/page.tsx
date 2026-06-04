@@ -3,7 +3,7 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation, I18nextProvider } from "react-i18next";
-import { Timer, Sparkles } from "lucide-react";
+import { Timer, Sparkles, Pause, Check } from "lucide-react";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import i18n, { loadLocale } from "./i18n";
@@ -142,12 +142,10 @@ function HoldScreen({ onComplete }: { onComplete: () => void }) {
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 200 }}
               className="text-primary-foreground text-3xl"
-            >
-              ✓
-            </motion.span>
+            ><Check className="inline-block w-8 h-8" /></motion.span>
           ) : (
             <span className="text-primary-foreground text-4xl">
-              {holding ? "🤚" : "👆"}
+              {holding ? "" : ""}
             </span>
           )}
         </button>
@@ -206,7 +204,7 @@ function ScenarioScreen({ onNext }: { onNext: (scenario: string) => void }) {
                 : "bg-white border-white/60 hover:border-slate-200"
             }`}
           >
-            <span className="text-xl">{s.emoji}</span>
+            <span className="text-xl">{s.icon}</span>
             <span className="font-semibold text-base">
               {s.label}
             </span>
@@ -261,8 +259,8 @@ function ResultScreen({ scenario, onTryAgain, onDone }: { scenario: string; onTr
         message={t("result.message")}
         onRestart={onTryAgain}
         icon={<Sparkles size={48} />}
-                  shareEmoji="🧘"
-                  shareContent={"I just completed 'The Pause Practice' on TherapyMantra — a guided mindfulness practice that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'The Pause Practice' on TherapyMantra — a guided mindfulness practice that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="space-y-6 my-10">
           <motion.div
@@ -334,7 +332,7 @@ function PauseInner() {
               exit={{ opacity: 0, y: -20 }}
               className="flex flex-col items-center justify-center min-h-[50vh] px-8 text-center py-8"
             >
-              <div className="text-6xl mb-8">⏸️</div>
+              <div className="text-6xl mb-8"><Pause className="inline-block w-8 h-8" /></div>
               <h1 className="text-3xl font-extrabold text-slate-800 mb-4">{t("intro.title")}</h1>
               <p className="text-lg text-slate-500 leading-relaxed mb-3 max-w-xs">{t("intro.description")}</p>
               <p className="text-sm text-slate-400 mb-10">{t("intro.duration")}</p>

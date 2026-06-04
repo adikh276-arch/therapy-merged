@@ -3,7 +3,7 @@ import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Users, Info, X, Calendar, Sparkles, Save, Heart, ChevronLeft } from "lucide-react";
+import { Users, Info, X, Calendar, Sparkles, Save, Heart, ChevronLeft, MailOpen } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -18,7 +18,7 @@ const BUBBLE_COLORS = [
   "bg-cyan-50 border-cyan-200 text-cyan-600",
 ];
 
-const BUBBLE_EMOJIS = ["💬", "🤗", "💪", "🎉", "🌟"];
+const BUBBLE_EMOJIS = ["", "", "", "", ""];
 
 const POSITIONS = [
   { angle: -90, r: 105 },
@@ -195,8 +195,8 @@ function RedrawCircleInner() {
           title={t("app_title", "Redraw Your Circle")}
           message={t("reflection.saved_success", "Your interpersonal map is safely stored in your journal. Cultivating these support nodes helps keep us resilient.")}
           onRestart={reset}
-                  shareEmoji="⭕"
-                  shareContent={"I just completed 'Redraw Your Circle' on TherapyMantra — a guided relationship mapping that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Redraw Your Circle' on TherapyMantra — a guided relationship mapping that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );
@@ -377,7 +377,7 @@ function RedrawCircleInner() {
                 <ul className="space-y-2 text-slate-600 text-xs font-semibold pl-1">
                   {Array.isArray(reflectionList) && reflectionList.map((item, idx) => (
                     <li key={idx} className="flex gap-2 items-start">
-                      <span className="text-primary mt-0.5">🔹</span>
+                      <span className="text-primary mt-0.5"></span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -443,7 +443,7 @@ function RedrawCircleInner() {
                 </div>
               ) : entries.length === 0 ? (
                 <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
-                  <span className="text-4xl block">📭</span>
+                  <span className="text-4xl block"><MailOpen className="inline-block w-8 h-8" /></span>
                   <p className="text-slate-450 font-bold text-sm">{t("no_entries_yet", "No circles mapped yet.")}</p>
                 </div>
               ) : (
@@ -594,7 +594,7 @@ function RedrawCircleInner() {
                 {selectedEntry.reflection && (
                   <div className="mt-5 p-5 bg-primary/5 rounded-3xl border border-primary/10 text-left">
                     <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1.5">
-                      💭 Reflection
+                       Reflection
                     </p>
                     <p className="text-sm text-slate-750 font-medium leading-relaxed italic">
                       "{selectedEntry.reflection}"

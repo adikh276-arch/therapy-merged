@@ -474,8 +474,8 @@ function HabitsInner() {
                 className="w-full flex-1 flex flex-col"
               >
                 <PremiumComplete
-        shareEmoji="🔄"
-        shareContent={`I just completed "What Are Your Habits" on TherapyMantra — a guided habit reflection that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+        shareEmoji=""
+        shareContent={`I just completed "What Are Your Habits" on TherapyMantra — a guided habit reflection that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                   title={t("app_title", "What Are Your Habits?")}
                   message={t('final_text', "Great job! Acknowledging habits is the first crucial milestone. Remember to treat yourself with patience and kindness as you introduce subtle positive changes.")}
                   onRestart={resetFlow}

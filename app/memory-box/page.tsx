@@ -1,8 +1,8 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect, useMemo, forwardRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Heart, Archive, ChevronLeft, ChevronRight, X, Save, Trash2, Sparkles } from "lucide-react";
+import { Heart, Archive, ChevronLeft, ChevronRight, X, Save, Trash2, Sparkles, Feather, Coffee, MessageCircle, Smile, MapPin, Mail, Sunrise } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -20,10 +20,10 @@ export interface Memory {
 }
 
 const PARTICLES = [
-  { emoji: "🤍", size: 18 },
-  { emoji: "🤍", size: 14 },
-  { emoji: "🤍", size: 20 },
-  { emoji: "🤍", size: 16 },
+  { icon: <Heart fill="currentColor" strokeWidth={0} />, size: 18 },
+  { icon: <Heart fill="currentColor" strokeWidth={0} />, size: 14 },
+  { icon: <Heart fill="currentColor" strokeWidth={0} />, size: 20 },
+  { icon: <Heart fill="currentColor" strokeWidth={0} />, size: 16 },
 ];
 
 interface ScreenWrapperProps {
@@ -87,7 +87,7 @@ const ScreenWrapper = forwardRef<HTMLDivElement, ScreenWrapperProps>(({ children
               ease: "linear",
             }}
           >
-            {item.emoji}
+            {item.icon}
           </motion.span>
         ))}
       </div>
@@ -100,12 +100,12 @@ const ScreenWrapper = forwardRef<HTMLDivElement, ScreenWrapperProps>(({ children
 });
 ScreenWrapper.displayName = "ScreenWrapper";
 
-const PROMPTS: Record<string, { text: string; emoji: string }> = {
-  "A happy moment": { text: "Tell me about a happy moment with", emoji: "😊" },
-  "Something they used to say": { text: "What did they used to say?", emoji: "💬" },
-  "A small everyday memory": { text: "Describe a small everyday moment with", emoji: "☕" },
-  "A place that reminds you of them": { text: "What place reminds you of", emoji: "🏡" },
-  "Something I wish I could say": { text: "What would you want to say to", emoji: "💌" },
+const PROMPTS: Record<string, { text: string; emoji?: string; icon?: React.ReactNode }> = {
+  "A happy moment": { text: "Tell me about a happy moment with", icon: <Smile className="w-5 h-5" /> },
+  "Something they used to say": { text: "What did they used to say?", icon: <MessageCircle className="w-5 h-5" /> },
+  "A small everyday memory": { text: "Describe a small everyday moment with", icon: <Coffee className="w-5 h-5" /> },
+  "A place that reminds you of them": { text: "What place reminds you of", emoji: "" },
+  "Something I wish I could say": { text: "What would you want to say to", emoji: "" },
 };
 
 function MemoryBoxInner() {
@@ -220,14 +220,14 @@ function MemoryBoxInner() {
   };
 
   const CATEGORIES = ((_t => Array.isArray(_t) ? _t : null)(t("who.categories", { returnObjects: true }))) || [
-    { label: "A happy moment", emoji: "😊" },
-    { label: "Something they used to say", emoji: "💬" },
-    { label: "A small everyday memory", emoji: "☕" },
-    { label: "A place that reminds you of them", emoji: "🏡" },
-    { label: "Something I wish I could say", emoji: "💌" }
+    { label: "A happy moment", icon: <Smile className="w-5 h-5" /> },
+    { label: "Something they used to say", icon: <MessageCircle className="w-5 h-5" /> },
+    { label: "A small everyday memory", icon: <Coffee className="w-5 h-5" /> },
+    { label: "A place that reminds you of them", icon: <MapPin className="w-5 h-5" /> },
+    { label: "Something I wish I could say", icon: <Mail className="w-5 h-5" /> }
   ];
 
-  const info = PROMPTS[category] || { text: "Share a memory about", emoji: "✨" };
+  const info = PROMPTS[category] || { text: "Share a memory about", icon: <Sparkles className="w-5 h-5" /> };
   const promptText = category === "Something they used to say" || category === "Something I wish I could say"
     ? `${info.text} ${name}?`
     : `${info.text} ${name}…`;
@@ -238,8 +238,8 @@ function MemoryBoxInner() {
         title={t("app_title", "Memory Box")}
         message={t("complete_message", `You have beautifully stored a memory of {{name}} in your digital box.`, { name: name || "your loved one" })}
         onRestart={resetAll}
-                  shareEmoji="📦"
-                  shareContent={"I just completed 'Memory Box' on TherapyMantra — a guided memory preservation that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Memory Box' on TherapyMantra — a guided memory preservation that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }
@@ -283,9 +283,7 @@ function MemoryBoxInner() {
                   animate={{ scale: [1, 1.05, 1] }}
                   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" as const }}
                   className="text-6xl"
-                >
-                  🕊️
-                </motion.div>
+                ><Feather className="inline-block w-8 h-8" /></motion.div>
 
                 <h1 className="text-3xl font-black text-slate-900 leading-tight">
                   {t("welcome.title", "Memory Box")}
@@ -320,7 +318,7 @@ function MemoryBoxInner() {
           {screen === 1 && (
             <ScreenWrapper key="who">
               <div className="space-y-6 w-full max-w-xs">
-                <div className="text-4xl">🌸</div>
+                <div className="flex justify-center text-primary"><Sparkles className="w-12 h-12" /></div>
 
                 <div className="space-y-3">
                   <input
@@ -354,7 +352,7 @@ function MemoryBoxInner() {
                           : "bg-white border-slate-150 text-slate-500 hover:bg-slate-50"
                       }`}
                     >
-                      <span>{cat.emoji || "🤍"}</span>
+                      <span>{cat.icon || cat.emoji || ""}</span>
                       <span>{cat.label || cat}</span>
                     </motion.button>
                   ))}
@@ -377,7 +375,7 @@ function MemoryBoxInner() {
           {screen === 2 && (
             <ScreenWrapper key="expression">
               <div className="space-y-5 w-full max-w-xs text-left">
-                <div className="text-4xl text-center">{info.emoji}</div>
+                <div className="text-4xl text-center">{info.icon || info.emoji}</div>
 
                 <h2 className="text-2xl font-black text-slate-950 text-center">
                   {t("take_your_time", "Take Your Time")}
@@ -397,7 +395,7 @@ function MemoryBoxInner() {
 
                 <div className="space-y-2">
                   <p className="text-xs font-black text-slate-400 uppercase tracking-widest pl-1">
-                    💌 {t("expression.message_label", "A message to them (optional)")}
+                     {t("expression.message_label", "A message to them (optional)")}
                   </p>
                   <textarea
                     value={message}
@@ -439,7 +437,7 @@ function MemoryBoxInner() {
                   transition={{ type: "spring", duration: 0.8 }}
                   className="text-6xl"
                 >
-                  📦
+                  <Archive className="w-16 h-16 text-primary mx-auto" />
                 </motion.div>
 
                 <h2 className="text-2xl font-black text-slate-900">
@@ -454,7 +452,7 @@ function MemoryBoxInner() {
                     className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 shadow-sm space-y-3 text-left"
                   >
                     <div className="flex items-center gap-2">
-                      <span className="text-lg">🤍</span>
+                      <span className="text-lg"><Heart className="w-5 h-5" /></span>
                       <p className="font-extrabold text-slate-850">{lastSaved.name}</p>
                     </div>
                     <p className="text-slate-500 text-xs font-bold uppercase tracking-widest opacity-80">
@@ -465,7 +463,7 @@ function MemoryBoxInner() {
                     </p>
                     {lastSaved.message && (
                       <p className="text-primary text-xs italic font-bold pt-1.5 border-t border-slate-50">
-                        💌 "{lastSaved.message}"
+                         "{lastSaved.message}"
                       </p>
                     )}
                   </motion.div>
@@ -505,7 +503,7 @@ function MemoryBoxInner() {
                   transition={{ duration: 0.8 }}
                   className="text-5xl"
                 >
-                  🌅
+                  <Sunrise className="w-14 h-14 text-orange-400 mx-auto" />
                 </motion.div>
 
                 <h2 className="text-2xl font-black text-slate-900">
@@ -582,7 +580,7 @@ function MemoryBoxInner() {
                   </div>
                 ) : memories.length === 0 ? (
                   <div className="text-center py-16 space-y-4">
-                    <span className="text-4xl block">🌸</span>
+                    <span className="flex justify-center mb-2"><Archive className="w-10 h-10 text-slate-300" /></span>
                     <p className="text-slate-450 text-sm font-medium">
                       {t("no_memories_saved_yet", "No memories saved yet. Your box is empty.")}
                     </p>
@@ -617,7 +615,7 @@ function MemoryBoxInner() {
                         </p>
                         {m.message && (
                           <div className="pt-2 border-t border-slate-50 italic text-xs text-primary font-semibold">
-                            💌 "{m.message}"
+                             "{m.message}"
                           </div>
                         )}
                       </motion.div>

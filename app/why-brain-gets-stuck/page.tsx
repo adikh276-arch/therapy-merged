@@ -15,7 +15,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
   return (
     <div className="flex flex-1 flex-col gap-6">
       <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl shadow-slate-200/50 min-h-[400px] flex flex-col justify-center text-center">
-        <div className="text-6xl mb-6 animate-bounce-slow">🧠</div>
+        <div className="text-6xl mb-6 animate-bounce-slow"><Brain className="inline-block w-8 h-8" /></div>
         <h1 className="text-2xl font-black text-slate-800 mb-4 leading-tight">
           {t("s1.title", "Your brain didn't break. It adapted.")}
         </h1>
@@ -181,8 +181,8 @@ function WhyBrainGetsStuckInner() {
                 title={t("app_title", "Why Brain Gets Stuck")}
                 message={t("complete.message", "You've taken a powerful step by understanding how your brain works. Knowledge is the first part of healing.")}
                 onRestart={() => setScreen(0)}
-                shareEmoji="🧬"
-                shareContent={`I just learned about "Why the Brain Gets Stuck" on TherapyMantra — understanding survival logic really helps. 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                shareEmoji=""
+                shareContent={`I just learned about "Why the Brain Gets Stuck" on TherapyMantra — understanding survival logic really helps. \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
               />
             )}
           </motion.div>

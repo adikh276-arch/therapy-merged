@@ -1,9 +1,9 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Activity, Calendar, Plus, ChevronLeft, ChevronRight, Check, History, Loader2, Sparkles, Pencil, CalendarDays, Home, ArrowLeft } from 'lucide-react';
+import { Activity, Calendar, Plus, ChevronLeft, ChevronRight, Check, History, Loader2, Sparkles, Pencil, CalendarDays, Home, ArrowLeft, Frown, Moon, Smile } from "lucide-react";
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
@@ -44,28 +44,28 @@ const HELPFUL_TYPES = [
 ];
 
 const MOODS = [
-  { emoji: "😀", label: "Happy" },
-  { emoji: "😌", label: "Calm" },
-  { emoji: "😐", label: "Neutral" },
-  { emoji: "😔", label: "Low" },
-  { emoji: "😣", label: "Stressed" },
-  { emoji: "😴", label: "Tired" },
+  { emoji: "", icon: <Smile className="w-5 h-5" />, label: "Happy" },
+  { emoji: "", icon: <Smile className="w-5 h-5" />, label: "Calm" },
+  { emoji: "", icon: <Smile className="w-5 h-5" />, label: "Neutral" },
+  { emoji: "", icon: <Frown className="w-5 h-5" />, label: "Low" },
+  { emoji: "", icon: <Frown className="w-5 h-5" />, label: "Stressed" },
+  { emoji: "", icon: <Moon className="w-5 h-5" />, label: "Tired" },
 ];
 
 const POSITIVE_STATEMENTS = [
-  "You showed up for yourself today. That's powerful. 🌿",
-  "Self-care isn't selfish — it's essential. Well done. 💚",
-  "Every small act of care builds a stronger you. 🌱",
-  "You invested in yourself today. That matters. ✨",
-  "Taking care of you is the best thing you did today. 🍃",
+  "You showed up for yourself today. That's powerful. ",
+  "Self-care isn't selfish — it's essential. Well done. ",
+  "Every small act of care builds a stronger you. ",
+  "You invested in yourself today. That matters. ",
+  "Taking care of you is the best thing you did today. ",
 ];
 
 const SUPPORTIVE_STATEMENTS = [
-  "It's okay. Tomorrow is a fresh start. Be gentle with yourself. 🤍",
-  "Not every day will be perfect, and that's perfectly fine. 🕊️",
-  "You're doing your best. That's always enough. 💛",
-  "Rest is also a form of self-care. Give yourself grace. 🌸",
-  "Acknowledging today takes courage. You're already growing. 🌷",
+  "It's okay. Tomorrow is a fresh start. Be gentle with yourself. ",
+  "Not every day will be perfect, and that's perfectly fine. ️",
+  "You're doing your best. That's always enough. ",
+  "Rest is also a form of self-care. Give yourself grace. ",
+  "Acknowledging today takes courage. You're already growing. ",
 ];
 
 const toLocalIsoDate = (date: Date): string => {
@@ -411,13 +411,13 @@ function CareTrackerInner() {
                       label={t('common.yes', 'Yes')}
                       selected={entry.didSelfCare === true}
                       onToggle={() => handleCheckIn(true)}
-                      emoji="✅"
+                      emoji=""
                     />
                     <OptionChip
                       label={t('common.no', 'No')}
                       selected={entry.didSelfCare === false}
                       onToggle={() => handleCheckIn(false)}
-                      emoji="❌"
+                      emoji=""
                     />
                   </div>
                 </div>
@@ -585,7 +585,7 @@ function CareTrackerInner() {
                             : "border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-primary/30 text-slate-500 dark:text-slate-450"
                         }`}
                       >
-                        <span className="text-4xl">{m.emoji}</span>
+                        <span className="text-4xl flex items-center justify-center">{m.icon || m.emoji}</span>
                         <span className="text-xs font-bold uppercase tracking-wider">{t(`data.moods.${m.label}`, m.label)}</span>
                       </button>
                     );
@@ -603,7 +603,7 @@ function CareTrackerInner() {
             {screen === "statement" && (
               <motion.div key="statement" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-8 pb-32">
                 <div className="flex min-h-[60vh] flex-col items-center justify-center text-center">
-                  <div className="text-7xl mb-8">{entry.didSelfCare ? "🌿" : "🤍"}</div>
+                  <div className="flex justify-center mb-8">{entry.didSelfCare ? <Sparkles className="w-20 h-20 text-primary" /> : <Moon className="w-20 h-20 text-primary" />}</div>
                   <p className="font-display text-2xl font-bold leading-relaxed tracking-tight px-4 text-slate-850 dark:text-slate-100">
                     {entry.didSelfCare
                       ? t(`data.positiveStatements.${statementInfo.index}`, statementInfo.text)
@@ -625,8 +625,8 @@ function CareTrackerInner() {
                   title={t('app_title', 'Self-Care Log')}
                   message={t('screens.review.subtitle', "Fantastic work reflecting on today's self-care habits.")}
                   onRestart={resetFlow}
-                  shareEmoji="🌱"
-                  shareContent={"I just completed 'Self-Care Log' on TherapyMantra — a guided self-care tracking that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Self-Care Log' on TherapyMantra — a guided self-care tracking that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="grid gap-3 w-full max-w-md mx-auto mt-10">
                     <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
@@ -637,7 +637,7 @@ function CareTrackerInner() {
                     <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
                       <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.didSelfCare', 'Self-Care')}</span>
                       <span className="text-base font-bold text-slate-700 dark:text-slate-350">
-                        {entry.didSelfCare ? `${t('common.yes', 'Yes')} ✅` : `${t('common.no', 'No')} ❌`}
+                        {entry.didSelfCare ? `${t('common.yes', 'Yes')} ` : `${t('common.no', 'No')} `}
                       </span>
                     </div>
 
@@ -681,7 +681,7 @@ function CareTrackerInner() {
                       <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
                         <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.mood', 'Mood')}</span>
                         <span className="text-base font-bold text-slate-700 dark:text-slate-350">
-                          {entry.moodEmoji} {t(`data.moods.${entry.mood}`, entry.mood)}
+                          {MOODS.find(m => m.label === entry.mood)?.icon || entry.moodEmoji} {t(`data.moods.${entry.mood}`, entry.mood)}
                         </span>
                       </div>
                     )}
@@ -767,7 +767,7 @@ function CareTrackerInner() {
                         >
                           <div className="flex items-center gap-5">
                             <div className="w-14 h-14 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-2xl group-hover:bg-primary/10 transition-colors">
-                              {entryItem.moodEmoji || <Calendar size={24} className="text-slate-300 dark:text-slate-700" />}
+                              {MOODS.find(m => m.label === entryItem.mood)?.icon || entryItem.moodEmoji || <Calendar size={24} className="text-slate-300 dark:text-slate-700" />}
                             </div>
                             <div>
                               <p className="field-label">

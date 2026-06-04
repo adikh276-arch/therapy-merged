@@ -97,10 +97,10 @@ function EnvironmentOptimizationInner() {
 
   const areas = useMemo(
     () => [
-      `🖥️ ${t('one_corner_desk', 'One corner of your desk')}`,
-      `🛏️ ${t('bedside_table', 'Bedside table')}`,
+      `️ ${t('one_corner_desk', 'One corner of your desk')}`,
+      `️ ${t('bedside_table', 'Bedside table')}`,
       `🪑 ${t('one_chair', 'One chair')}`,
-      `🧹 ${t('small_section_floor', 'Small section of the floor')}`,
+      ` ${t('small_section_floor', 'Small section of the floor')}`,
     ],
     [t]
   );
@@ -299,8 +299,8 @@ function EnvironmentOptimizationInner() {
                 }
                 onRestart={handleResetAll}
                 icon={<Sparkles size={48} />}
-                  shareEmoji="🏠"
-                  shareContent={"I just completed 'Environment Optimization' on TherapyMantra — a guided wellness optimization that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Environment Optimization' on TherapyMantra — a guided wellness optimization that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
               >
                 <div className="space-y-6 w-full mt-6">
                   <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm text-left space-y-4">

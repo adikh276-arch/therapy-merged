@@ -1,7 +1,7 @@
 ﻿'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Save, Moon, ChevronRight, ChevronLeft } from 'lucide-react';
+import { Save, Moon, ChevronRight, ChevronLeft, Sun, Lightbulb, PhoneOff, Ban, Bath, Pen, Target, Play } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
@@ -186,7 +186,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
   return (
     <div className="flex flex-col flex-1 px-5 pb-6 justify-center" style={{ minHeight: 0 }}>
       <div className="flex flex-col items-center text-center gap-4 flex-1 justify-center">
-        <div style={{ fontSize: 62, lineHeight: 1 }}>🌙</div>
+        <div style={{ fontSize: 62, lineHeight: 1 }}><Moon className="inline-block w-8 h-8" /></div>
         <h1 style={{ fontSize: 20, fontWeight: 600, color: 'var(--sleep-body-color)', lineHeight: 1.35 }}>
           {t("screen1.title", "Your sleep window matters more than you think")}
         </h1>
@@ -204,7 +204,7 @@ const Screen1 = ({ onNext }: { onNext: () => void }) => {
           textAlign: 'left',
         }}>
           <div className="flex gap-2 items-start">
-            <span style={{ fontSize: 18 }}>💡</span>
+            <span style={{ fontSize: 18 }}><Lightbulb className="inline-block w-8 h-8" /></span>
             <p style={{ fontSize: 12.5, fontStyle: 'italic', color: 'var(--sleep-sub-color)', lineHeight: 1.6 }}>
               {t("screen1.insight", "Even a 1-hour difference in sleep times on weekends can disrupt how you feel all week.")}
             </p>
@@ -286,8 +286,8 @@ const Screen2 = (props: Screen2Props) => {
         borderRadius: 14, padding: 14, marginBottom: 12,
       }}>
         <div className="flex justify-between items-center mb-2">
-          <span style={{ fontWeight: 500, fontSize: 14, color: 'var(--sleep-body-color)' }}>🌙 {bedStr}</span>
-          <span style={{ fontWeight: 500, fontSize: 14, color: 'var(--sleep-body-color)' }}>☀️ {wakeStr}</span>
+          <span style={{ fontWeight: 500, fontSize: 14, color: 'var(--sleep-body-color)' }}> {bedStr}</span>
+          <span style={{ fontWeight: 500, fontSize: 14, color: 'var(--sleep-body-color)' }}>️ {wakeStr}</span>
         </div>
         <div style={{ position: 'relative', height: 10, borderRadius: 5, background: 'linear-gradient(90deg, #a0c0ff, #c0a0ff)', marginBottom: 8 }}>
           <div style={{
@@ -296,14 +296,14 @@ const Screen2 = (props: Screen2Props) => {
             background: '#8090c0', border: '2px solid #fff',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: 8,
-          }}>🌙</div>
+          }}><Moon className="inline-block w-8 h-8" /></div>
           <div style={{
             position: 'absolute', right: -5, top: -3,
             width: 16, height: 16, borderRadius: '50%',
             background: '#f0c060', border: '2px solid #fff',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: 8,
-          }}>☀️</div>
+          }}><Sun className="inline-block w-8 h-8" /></div>
         </div>
         <p style={{ textAlign: 'center', fontSize: 11, color: 'var(--sleep-sub-color)' }}>
           {t("screen2.live_window.duration", { hours: sleepDuration, defaultValue: `${sleepDuration} hours of sleep` })}
@@ -346,31 +346,31 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
   };
 
   const tips = ((_t => Array.isArray(_t) ? _t : null)(t("screen3.accordion1.tips", { returnObjects: true }))) || [
-    { emoji: "📵", text: "Wind down 30 mins before your bedtime" },
+    { icon: <PhoneOff className="w-5 h-5" />, text: "Wind down 30 mins before your bedtime" },
     { emoji: "⏰", text: "Same wake time every day — yes, weekends too" },
-    { emoji: "🚫", text: "Avoid naps longer than 20 mins after 3pm" }
+    { icon: <Ban className="w-5 h-5" />, text: "Avoid naps longer than 20 mins after 3pm" }
   ];
   const commitments = ((_t => Array.isArray(_t) ? _t : null)(t("screen3.accordion2.commitments", { returnObjects: true }))) || [
-    { emoji: "📵", text: "Put my phone away before bed" },
-    { emoji: "🛁", text: "Start a wind-down routine" },
-    { emoji: "💡", text: "Dim the lights an hour before bed" },
-    { emoji: "✍️", text: "Finish my to-do list early" }
+    { icon: <PhoneOff className="w-5 h-5" />, text: "Put my phone away before bed" },
+    { icon: <Bath className="w-5 h-5" />, text: "Start a wind-down routine" },
+    { icon: <Lightbulb className="w-5 h-5" />, text: "Dim the lights an hour before bed" },
+    { icon: <Pen className="w-5 h-5" />, text: "Finish my to-do list early" }
   ];
 
   return (
     <div className="flex flex-col flex-1 px-5 pb-6 overflow-y-auto" style={{ minHeight: 0 }}>
       <h1 style={{ fontSize: 18, fontWeight: 600, color: 'var(--sleep-body-color)', marginBottom: 14 }}>
-        {t("screen3.title", "Your sleep window 🌙")}
+        {t("screen3.title", "Your sleep window ")}
       </h1>
 
       <div style={cardStyle} className="mb-3">
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>🌙 {t("screen3.result.bedtime", "Bedtime")}</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}> {t("screen3.result.bedtime", "Bedtime")}</span>
           <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{bedtime}</span>
         </div>
         <div style={dividerStyle} />
         <div className="flex justify-between items-center">
-          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>☀️ {t("screen3.result.waketime", "Wake time")}</span>
+          <span style={{ fontSize: 13, color: 'var(--sleep-sub-color)' }}>️ {t("screen3.result.waketime", "Wake time")}</span>
           <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{wakeTime}</span>
         </div>
         <div style={dividerStyle} />
@@ -388,13 +388,13 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           padding: '12px 14px', background: 'transparent', border: 'none',
           cursor: 'pointer', textAlign: 'left',
         }}>
-          <span style={{ width: 28, height: 28, borderRadius: 8, background: '#ddeeff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>🛡️</span>
+          <span style={{ width: 28, height: 28, borderRadius: 8, background: '#ddeeff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>️</span>
           <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.accordion1.title", "3 ways to protect it")}</span>
           <span style={{
             fontSize: 12, color: 'var(--sleep-sub-color)',
             transform: openAccordion === 0 ? 'rotate(90deg)' : 'rotate(0deg)',
             transition: 'transform 300ms ease',
-          }}>▶</span>
+          }}><Play className="inline-block w-8 h-8" /></span>
         </button>
         <div style={{
           maxHeight: openAccordion === 0 ? 200 : 0,
@@ -406,7 +406,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
               <div key={i}>
                 {i > 0 && <div style={dividerStyle} />}
                 <div className="flex items-center gap-2" style={{ fontSize: 12.5, color: 'var(--sleep-body-color)', padding: '4px 0' }}>
-                  <span>{tip.emoji}</span><span>{tip.text}</span>
+                  <span>{tip.icon}</span><span>{tip.text}</span>
                 </div>
               </div>
             ))}
@@ -420,13 +420,13 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
           padding: '12px 14px', background: 'transparent', border: 'none',
           cursor: 'pointer', textAlign: 'left',
         }}>
-          <span style={{ width: 28, height: 28, borderRadius: 8, background: '#e8d8ff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}>🎯</span>
+          <span style={{ width: 28, height: 28, borderRadius: 8, background: '#e8d8ff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14 }}><Target className="inline-block w-8 h-8" /></span>
           <span style={{ flex: 1, fontSize: 13.5, fontWeight: 500, color: 'var(--sleep-body-color)' }}>{t("screen3.accordion2.title", "Commit to 1 thing tonight")}</span>
           <span style={{
             fontSize: 12, color: 'var(--sleep-sub-color)',
             transform: openAccordion === 1 ? 'rotate(90deg)' : 'rotate(0deg)',
             transition: 'transform 300ms ease',
-          }}>▶</span>
+          }}><Play className="inline-block w-8 h-8" /></span>
         </button>
         <div style={{
           maxHeight: openAccordion === 1 ? 300 : 0,
@@ -443,7 +443,7 @@ const Screen3 = ({ bedtime, wakeTime, duration, onReset }: Screen3Props) => {
                 cursor: 'pointer', textAlign: 'left', width: '100%',
                 transition: 'all 200ms ease',
               }}>
-                <span style={{ fontSize: 16 }}>{c.emoji}</span>
+                <span style={{ fontSize: 16 }}>{c.icon}</span>
                 <span style={{ fontSize: 12.5, color: 'var(--sleep-body-color)' }}>{c.text}</span>
               </button>
             ))}
@@ -525,8 +525,8 @@ function SleepWindowInner() {
         title={t("app_title", "Sleep Window Planner")}
         message={t("complete.message", "Your ideal sleep window has been mapped. Consistency is the key to deep, restorative rest.")}
         onRestart={() => setScreen(1)}
-                  shareEmoji="🌙"
-                  shareContent={"I just completed 'Sleep Window Planner' on TherapyMantra — a guided sleep scheduling that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Sleep Window Planner' on TherapyMantra — a guided sleep scheduling that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }
@@ -626,7 +626,7 @@ function SleepWindowInner() {
                       className="w-full bg-slate-900 text-white shadow-md py-5 rounded-2xl font-black text-lg shadow-2xl shadow-slate-900/20 hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all flex items-center justify-center gap-3"
                     >
                       <Save size={20} strokeWidth={3} />
-                      {isSaving ? t("toasts.saving", "Saving...") : t("screen3.button", "Save my sleep window ✓")}
+                      {isSaving ? t("toasts.saving", "Saving...") : t("screen3.button", "Save my sleep window ")}
                     </button>
                     <button
                       onClick={() => navigate(2)}

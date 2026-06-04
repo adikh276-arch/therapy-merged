@@ -1,8 +1,8 @@
-﻿'use client';
+'use client';
 
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Activity, History, Save, ArrowLeft, ClipboardList, X } from "lucide-react";
+import { Activity, History, Save, ArrowLeft, ClipboardList, X, Circle } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
@@ -18,7 +18,7 @@ export interface CheckInEntry {
   timestamp: string;
 }
 
-const ZONE_EMOJI: Record<string, string> = { hyper: "🔴", safe: "🟢", hypo: "🔵" };
+const ZONE_EMOJI: Record<string, string> = { hyper: "", safe: "🟢", hypo: "" };
 
 // --- CUSTOM TOAST HELPERS ---
 const localToast = {
@@ -105,21 +105,21 @@ function ExplainScreen({ onBack, onNext }: { onBack: () => void; onNext: () => v
 
       <div className="space-y-5">
         <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
-          <span className="text-lg mt-0.5">🔴</span>
+          <span className="text-lg mt-0.5"><Circle className="inline-block w-8 h-8" /></span>
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.hyper.label", "Hyper-arousal (Flight or Fight)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.hyper.desc", "Feeling anxious, angry, flooded, or overwhelmed. Your system is stuck in high gear.")}</p>
           </div>
         </div>
         <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
-          <span className="text-lg mt-0.5">🟢</span>
+          <span className="text-lg mt-0.5"><Circle className="inline-block w-8 h-8" /></span>
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.safe.label", "Optimal Zone (Connected & Calm)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.safe.desc", "Feeling grounded, present, and capable. You can handle emotional waves easily.")}</p>
           </div>
         </div>
         <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
-          <span className="text-lg mt-0.5">🔵</span>
+          <span className="text-lg mt-0.5"><Circle className="inline-block w-8 h-8" /></span>
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.hypo.label", "Hypo-arousal (Freeze or Shut Down)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.hypo.desc", "Feeling numb, exhausted, spaced out, or disconnected. Your system has shut down to protect you.")}</p>
@@ -162,21 +162,21 @@ function CheckInScreen({ selected, onSelect, onBack, onNext }: CheckInProps) {
   const zones = [
     {
       id: "hyper" as const,
-      emoji: "🔴",
+      icon: <Circle className="w-5 h-5" />,
       label: t("screens.checkin.zones.hyper.label", "Hyper-arousal (High Activation)"),
       desc: t("screens.checkin.zones.hyper.desc", "I feel jittery, overwhelmed, angry, or anxious."),
       color: "border-rose-200 bg-rose-50/40"
     },
     {
       id: "safe" as const,
-      emoji: "🟢",
+      icon: <Circle className="w-5 h-5" />,
       label: t("screens.checkin.zones.safe.label", "Within My Window (Optimal State)"),
       desc: t("screens.checkin.zones.safe.desc", "I feel present, calm, and able to think clearly."),
       color: "border-emerald-200 bg-emerald-50/40"
     },
     {
       id: "hypo" as const,
-      emoji: "🔵",
+      icon: <Circle className="w-5 h-5" />,
       label: t("screens.checkin.zones.hypo.label", "Hypo-arousal (Low Activation)"),
       desc: t("screens.checkin.zones.hypo.desc", "I feel numb, spaced out, heavy, or unmotivated."),
       color: "border-sky-200 bg-sky-50/40"
@@ -199,7 +199,7 @@ function CheckInScreen({ selected, onSelect, onBack, onNext }: CheckInProps) {
               selected === z.id ? z.color : "border-white/60 bg-white hover:bg-slate-50"
             }`}
           >
-            <span className="text-3xl mt-0.5">{z.emoji}</span>
+            <span className="text-3xl mt-0.5">{z.icon}</span>
             <div>
               <p className="font-bold text-slate-800">{z.label}</p>
               <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1.5">{z.desc}</p>
@@ -258,20 +258,20 @@ function ZoneScreen({ zone, onContinue, onBack }: ZoneProps) {
     hypo: "text-sky-500",
   };
   const emojis: Record<string, string> = {
-    hyper: "🔴",
+    hyper: "",
     safe: "🟢",
-    hypo: "🔵",
+    hypo: "",
   };
   const toolIcons: Record<string, string> = {
-    "Box Breathing": "🌬️",
-    "5-4-3-2-1 Grounding": "🖐️",
-    "Feet on Floor": "🦶",
-    "Gentle Movement": "🚶",
-    "Rhythmic Sound": "🎵",
-    "Speak Out Loud": "💬",
-    "Keep Breathing Slowly": "🧘",
-    "Reflect": "📝",
-    "Self-Compassion": "💛",
+    "Box Breathing": "️",
+    "5-4-3-2-1 Grounding": "️",
+    "Feet on Floor": "",
+    "Gentle Movement": "",
+    "Rhythmic Sound": "",
+    "Speak Out Loud": "",
+    "Keep Breathing Slowly": "",
+    "Reflect": "",
+    "Self-Compassion": "",
   };
 
   return (
@@ -299,7 +299,7 @@ function ZoneScreen({ zone, onContinue, onBack }: ZoneProps) {
       <div className="space-y-4">
         {data.tools && data.tools.map((tool: any) => (
           <div key={tool.name} className="p-5 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] shadow-sm flex gap-4 items-start">
-            <span className="text-2xl mt-0.5">{toolIcons[tool.name] || "✨"}</span>
+            <span className="text-2xl mt-0.5">{toolIcons[tool.name] || ""}</span>
             <div>
               <p className="font-extrabold text-sm text-slate-800">{tool.name}</p>
               <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1.5">{tool.desc}</p>
@@ -378,7 +378,7 @@ function ToolkitScreen({ journal, onJournalChange, weekTracker, onSave, onBack, 
         <div className="flex justify-between px-2 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 py-4 rounded-2xl border border-white/60 shadow-inner">
           {DAYS.map((day, i) => (
             <div key={i} className="flex flex-col items-center gap-1.5" title={day}>
-              <span className="text-lg">{weekTracker[i] ? ZONE_EMOJI[weekTracker[i]!] : "⚪"}</span>
+              <span className="text-lg">{weekTracker[i] ? ZONE_EMOJI[weekTracker[i]!] : ""}</span>
               <span className="text-[10px] text-slate-400 font-black uppercase tracking-wider">{day}</span>
             </div>
           ))}
@@ -410,10 +410,10 @@ interface HistoryModalProps {
 function HistoryModal({ entries, onClose }: HistoryModalProps) {
   const { t } = useTranslation(undefined, { i18n });
 
-  const ZONE_LABELS: Record<string, { emoji: string; label: string }> = {
-    hyper: { emoji: "🔴", label: t("screens.checkin.zones.hyper.label", "Hyper-arousal") },
-    safe: { emoji: "🟢", label: t("screens.checkin.zones.safe.label", "Window of Tolerance") },
-    hypo: { emoji: "🔵", label: t("screens.checkin.zones.hypo.label", "Hypo-arousal") },
+  const ZONE_LABELS: Record<string, { emoji?: string; icon?: React.ReactNode; label: string }> = {
+    hyper: { icon: <Circle className="w-5 h-5" />, label: t("screens.checkin.zones.hyper.label", "Hyper-arousal") },
+    safe: { icon: <Circle className="w-5 h-5" />, label: t("screens.checkin.zones.safe.label", "Window of Tolerance") },
+    hypo: { icon: <Circle className="w-5 h-5" />, label: t("screens.checkin.zones.hypo.label", "Hypo-arousal") },
   };
 
   function formatTime(timestampStr: string) {
@@ -436,7 +436,7 @@ function HistoryModal({ entries, onClose }: HistoryModalProps) {
         role="dialog"
       >
         <div className="flex items-center justify-between mb-5">
-          <h2 className="font-display text-xl font-bold text-slate-900">📋 {t("history.title", "Check-in History")}</h2>
+          <h2 className="font-display text-xl font-bold text-slate-900"> {t("history.title", "Check-in History")}</h2>
           <button onClick={onClose} className="p-2 rounded-full hover:bg-slate-100 transition-colors text-slate-400">
             <X size={20} />
           </button>
@@ -449,7 +449,7 @@ function HistoryModal({ entries, onClose }: HistoryModalProps) {
               const zone = ZONE_LABELS[entry.zone! || "safe"];
               return (
                 <div key={entry.id || i} className="flex items-center gap-3.5 p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60 text-left">
-                  <span className="text-2xl">{zone ? zone.emoji : "⚪"}</span>
+                  <span className="text-2xl">{zone ? zone.icon : ""}</span>
                   <div className="flex-1">
                     <p className="text-sm font-bold text-slate-800">{zone ? zone.label : "General Check-in"}</p>
                     <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mt-0.5">{formatTime(entry.timestamp)}</p>
@@ -576,7 +576,7 @@ function WindowInner() {
         message={t("complete.message", "Excellent job tuning in and regulating your nervous system today. Over time, checking in creates self-directed regulation baselines.")}
         onRestart={() => setScreen(0)}
                   shareEmoji="🪟"
-                  shareContent={"I just completed 'Window of Tolerance' on TherapyMantra — a guided emotional regulation that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareContent={"I just completed 'Window of Tolerance' on TherapyMantra — a guided emotional regulation that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

@@ -18,7 +18,7 @@ interface PremiumCompleteProps {
   hideShare?: boolean;
   /** Custom share message — shown inside the ShareModal for this activity */
   shareContent?: string;
-  /** Emoji to show in the ShareModal activity card. Default: ✨ */
+  /** Emoji to show in the ShareModal activity card. Default:  */
   shareEmoji?: string;
   /** Replaces the entire action row with custom buttons */
   customActions?: React.ReactNode;
@@ -57,7 +57,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   icon,
   hideShare = false,
   shareContent,
-  shareEmoji = '✨',
+  shareEmoji = '',
   customActions,
 }) => {
   const { t } = useTranslation();

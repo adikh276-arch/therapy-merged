@@ -6,6 +6,7 @@ import { Wind, Play, Pause, RefreshCw } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { withLang } from "@/lib/navigation";
 import '../i18n/i18n'; // Initialize i18n for this feature
 
 type Phase = "inhale" | "hold" | "exhale";
@@ -61,7 +62,7 @@ const ActiveBreathing = () => {
                 if (r >= totalRounds) {
                   clearTimer();
                   setStatus("idle");
-                  router.push("/4_6_8_breathing/complete");
+                  router.push(withLang("/4_6_8_breathing/complete"));
                   return r;
                 }
                 return r + 1;
@@ -125,7 +126,7 @@ const ActiveBreathing = () => {
   return (
     <PremiumLayout 
       title={t("app_title")} 
-      onReset={() => { reset(); router.push("/4_6_8_breathing"); }}
+      onReset={() => { reset(); router.push(withLang("/4_6_8_breathing")); }}
       onBack={() => { reset(); router.back(); }}
     >
       <div className="flex flex-col items-center gap-10 py-6">

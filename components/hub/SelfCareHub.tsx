@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { handlePlatformExit } from "@/lib/navigation";
+import { handlePlatformExit, withLang } from "@/lib/navigation";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadGlobalResource } from "../../lib/i18n/i18n";
 import { useSound } from "@/lib/hooks/useSound";
@@ -500,7 +500,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
                         playPop();
-                        router.push(`/guided-series/${selectedTopic}`);
+                        router.push(withLang(`/guided-series/${selectedTopic}`));
                       }}
                       className="w-full bg-[#F5FBFF] border-2 border-[#E0F2FE] rounded-2xl p-6 flex items-center justify-between hover:border-primary hover:shadow-lg transition-all group"
                     >
@@ -528,10 +528,10 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                             onClick={() => {
                               playPop();
                               if (ex.action === 'guided') {
-                                if (typeof window !== 'undefined') window.location.href = ex.url!;
+                                if (typeof window !== 'undefined') window.location.href = withLang(ex.url!);
                                 return;
                               }
-                              ex.url?.startsWith('http') ? window.location.href = ex.url : router.push(ex.url!)
+                              ex.url?.startsWith('http') ? window.location.href = withLang(ex.url) : router.push(withLang(ex.url!))
                             }}
                             onMouseEnter={() => {
                               if (ex.url) prefetchTool(ex.url);
@@ -566,7 +566,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                               whileHover={{ x: 4, scale: 1.02 }}
                               onClick={() => {
                                 playPop();
-                                todo.url?.startsWith('http') ? (window.location.href = todo.url) : router.push(todo.url!);
+                                todo.url?.startsWith('http') ? (window.location.href = withLang(todo.url)) : router.push(withLang(todo.url!));
                               }}
                               className="p-5 rounded-2xl flex items-center gap-5 transition-all border border-slate-100/50 shadow-sm hover:shadow-xl group"
                               style={{ backgroundColor: color.bg }}
@@ -604,7 +604,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                               whileHover={{ x: 8, scale: 1.01 }}
                               onClick={() => {
                                 playPop();
-                                res.url?.startsWith('http') ? window.location.href = res.url : router.push(res.url!);
+                                res.url?.startsWith('http') ? window.location.href = withLang(res.url) : router.push(withLang(res.url!));
                               }}
                               className="w-full rounded-2xl p-4 flex items-center gap-4 transition-all group relative overflow-hidden text-left"
                               style={{ backgroundColor: color.bg }}
@@ -646,7 +646,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         if (window.parent !== window) {
                           window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
                         } else {
-                          window.location.href = 'https://web.mantracare.com';
+                          window.location.href = withLang('https://web.mantracare.com');
                         }
                       }} 
                       className="p-2 -ml-2 text-slate-400 hover:text-slate-600"
@@ -677,11 +677,11 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         onClick={() => {
                           playPop();
                           if (tool.id === 'mindful-space') {
-                            if (typeof window !== 'undefined') window.location.href = 'https://web.mantracare.com';
+                            if (typeof window !== 'undefined') window.location.href = withLang('https://web.mantracare.com');
                           } else if (tool.url?.startsWith('http')) {
-                            window.location.href = tool.url;
+                            window.location.href = withLang(tool.url);
                           } else {
-                            router.push(tool.url!);
+                            router.push(withLang(tool.url!));
                           }
                         }}
                         onMouseEnter={() => {
@@ -714,13 +714,13 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                               if (window.parent !== window) {
                                 window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
                               } else {
-                                window.location.href = 'https://web.mantracare.com';
+                                window.location.href = withLang('https://web.mantracare.com');
                               }
                             }
                           } else if (topic.url) {
-                            window.location.href = topic.url;
+                            window.location.href = withLang(topic.url);
                           } else {
-                            router.push(`/topics/${topic.id}`);
+                            router.push(withLang(`/topics/${topic.id}`));
                           }
                         }}
                         className="p-6 bg-white border border-slate-100 rounded-2xl flex flex-col items-center gap-4 transition-all hover:shadow-md"

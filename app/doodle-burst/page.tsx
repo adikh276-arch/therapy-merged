@@ -261,7 +261,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
               className="fixed pointer-events-none text-primary/70 z-50 text-base"
               style={{ left: s.x - 6, top: s.y - 6 }}
             >
-              ✦
+              
             </motion.div>
           ))}
         </AnimatePresence>
@@ -313,7 +313,7 @@ function ShareModal({
       >
         <div className="flex justify-between items-center">
           <h3 className="font-extrabold text-slate-850 dark:text-slate-100 text-lg">
-            {t('share_your_doodle', 'Share Your Doodle ⚡')}
+            {t('share_your_doodle', 'Share Your Doodle ')}
           </h3>
           <button
             onClick={onClose}
@@ -389,9 +389,9 @@ function DoodleBurstInner() {
 
   const PROMPTS = useMemo(
     () => [
-      { time: 60, text: t('prompt_1', 'Go wild! Doodle anything. 🎨') },
-      { time: 30, text: t('prompt_2', 'Try filling the space with fun patterns. 🌀') },
-      { time: 10, text: t('prompt_3', 'Slow down and draw a calm spiral. 🍥') },
+      { time: 60, text: t('prompt_1', 'Go wild! Doodle anything. ') },
+      { time: 30, text: t('prompt_2', 'Try filling the space with fun patterns. ') },
+      { time: 10, text: t('prompt_3', 'Slow down and draw a calm spiral. ') },
     ],
     [t]
   );
@@ -606,10 +606,10 @@ function DoodleBurstInner() {
               className="w-full"
             >
               <PremiumComplete
-        shareEmoji="🎨"
-        shareContent={`I just completed "Doodle Burst" on TherapyMantra — a guided creative expression that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
-                title={t('end_title', 'Nice doodling! ✨')}
-                message={t('end_saved', 'Your doodle has been saved! 📒')}
+        shareEmoji=""
+        shareContent={`I just completed "Doodle Burst" on TherapyMantra — a guided creative expression that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                title={t('end_title', 'Nice doodling! ')}
+                message={t('end_saved', 'Your doodle has been saved! ')}
                 onRestart={startActivity}
                 icon={<Palette size={48} />}
                 customActions={

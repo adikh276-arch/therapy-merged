@@ -499,8 +499,8 @@ function AffirmationsInner() {
                   message={t('app_complete_message', 'Daily affirmations help reshape your mindset. Carry these positive thoughts with you today.')}
                   onRestart={() => setScreen('feelings')}
                   icon={<Sparkles size={48} />}
-                  shareEmoji="💛"
-                  shareContent={"I just completed 'Positive Affirmations' on TherapyMantra — a guided affirmations practice that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Positive Affirmations' on TherapyMantra — a guided affirmations practice that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 />
               </motion.div>
             )}

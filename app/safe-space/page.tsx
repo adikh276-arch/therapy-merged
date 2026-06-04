@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
-import { Shield, ChevronRight } from "lucide-react";
+import { Shield, ChevronRight, Moon, Activity, Leaf } from "lucide-react";
 import i18n, { loadLocale } from "./i18n";
 
 const transition = { duration: 0.6, ease: [0.4, 0, 0.2, 1] as [number, number, number, number] };
@@ -50,9 +50,7 @@ function Screen1({ onContinue }: { onContinue: () => void }) {
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
-      <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
-        🌿
-      </motion.div>
+      <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner"><Leaf className="inline-block w-8 h-8" /></motion.div>
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
@@ -96,9 +94,7 @@ function Screen2({ onContinue }: { onContinue: () => void }) {
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
-      <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
-        🧘
-      </motion.div>
+      <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner"><Activity className="inline-block w-8 h-8" /></motion.div>
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
@@ -136,7 +132,7 @@ function Screen3({ onContinue }: { onContinue: () => void }) {
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
       <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
-        🌅
+        
       </motion.div>
 
       <div className="space-y-4">
@@ -174,9 +170,7 @@ function Screen4({ onContinue }: { onContinue: () => void }) {
 
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
-      <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
-        🌙
-      </motion.div>
+      <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner"><Moon className="inline-block w-8 h-8" /></motion.div>
 
       <div className="space-y-4">
         <motion.h1 variants={childFade} className="text-3xl font-black text-slate-800 leading-tight">
@@ -227,7 +221,7 @@ function Screen5({ onDone }: { onDone: () => void }) {
   return (
     <motion.div variants={staggerChildren} initial="enter" animate="center" className="flex flex-col items-center text-center gap-10">
       <motion.div variants={floatEmoji} animate="animate" className="w-20 h-20 bg-primary/10 rounded-[2rem] flex items-center justify-center text-4xl shadow-inner">
-        🌸
+        
       </motion.div>
 
       <div className="space-y-4">
@@ -286,8 +280,8 @@ function SafePlaceVisualizationInner() {
         title={t("app_title", "Safe Space Visualization")}
         message={t("complete.message", "Take this feeling of safety with you. You can return to your safe space whenever you need a moment of peace.")}
         onRestart={reset}
-                  shareEmoji="🏡"
-                  shareContent={"I just completed 'Safe Space' on TherapyMantra — a guided visualization exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Safe Space' on TherapyMantra — a guided visualization exercise that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

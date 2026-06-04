@@ -3,7 +3,7 @@ import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { History, Calendar, ChevronRight, ChevronLeft, Save, Brain, Activity, Trash2, Sparkles } from "lucide-react";
+import { History, Calendar, ChevronRight, ChevronLeft, Save, Brain, Activity, Trash2, Sparkles, Clipboard } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -192,7 +192,7 @@ function PredictionVsRealityInner() {
             </div>
           ) : entries.length === 0 ? (
             <div className="text-center py-20 bg-white rounded-[2.5rem] border border-white/60 shadow-sm space-y-4">
-              <span className="text-4xl block">📋</span>
+              <span className="text-4xl block"><Clipboard className="inline-block w-8 h-8" /></span>
               <p className="text-slate-450 font-medium">{t("history.no_reflections", "No predictions logged yet.")}</p>
             </div>
           ) : (
@@ -239,7 +239,7 @@ function PredictionVsRealityInner() {
                     </p>
                     {entry.reframe && (
                       <p className="text-xs text-primary leading-relaxed font-bold">
-                        <span>💡 {t("history.reframe_label", "New Balanced View:")}</span> {entry.reframe}
+                        <span> {t("history.reframe_label", "New Balanced View:")}</span> {entry.reframe}
                       </p>
                     )}
                   </div>
@@ -259,8 +259,8 @@ function PredictionVsRealityInner() {
           title={t("app_title", "Prediction vs Reality")}
           message={t("complete.message", "Excellent job testing your anxiety predictions. Over time, this builds deep confidence that you can handle whatever life brings.")}
           onRestart={reset}
-                  shareEmoji="🎯"
-                  shareContent={"I just completed 'Prediction vs Reality' on TherapyMantra — a guided anxiety reframing that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Prediction vs Reality' on TherapyMantra — a guided anxiety reframing that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );

@@ -1,46 +1,47 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Trophy, RefreshCw, Check, Sparkles, Award } from 'lucide-react';
+import { Trophy, RefreshCw, Check, Sparkles, Award, Moon, Coffee, PhoneOff, Bath, Wind, Activity, Music, MessageCircle, FileText, Book, Smile, Droplets, Phone, Utensils, TreePine, Star, Trash2, Palette, Flower2, Sunset, SmilePlus, Bed, Music4 } from "lucide-react";
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
 
 interface Tile {
-  emoji: string;
+  emoji?: string;
+  icon?: React.ReactNode;
   translationKey: string;
   defaultText: string;
 }
 
 const BINGO_TILES: Tile[] = [
-  { emoji: "🚶", translationKey: "tiles.walk", defaultText: "Take a Walk" },
-  { emoji: "💧", translationKey: "tiles.water", defaultText: "Drink Water" },
-  { emoji: "📞", translationKey: "tiles.friend", defaultText: "Call a Friend" },
-  { emoji: "📝", translationKey: "tiles.gratitudes", defaultText: "Write Gratitudes" },
-  { emoji: "😴", translationKey: "tiles.nap", defaultText: "Power Nap" },
-  { emoji: "🧘", translationKey: "tiles.stretch", defaultText: "Gentle Stretching" },
-  { emoji: "🥗", translationKey: "tiles.cook", defaultText: "Cook Healthy Meal" },
-  { emoji: "🎵", translationKey: "tiles.music", defaultText: "Listen to Music" },
-  { emoji: "🌬️", translationKey: "tiles.breathing", defaultText: "Deep Breathing" },
-  { emoji: "📖", translationKey: "tiles.read", defaultText: "Read a Book" },
-  { emoji: "🛁", translationKey: "tiles.bath", defaultText: "Warm Bath" },
-  { emoji: "🌳", translationKey: "tiles.journal", defaultText: "Nature Journaling" },
-  { emoji: "⭐", translationKey: "tiles.free_space", defaultText: "FREE SPACE" },
-  { emoji: "🧹", translationKey: "tiles.declutter", defaultText: "Declutter Room" },
-  { emoji: "🎨", translationKey: "tiles.recipe", defaultText: "Creative Hobbies" },
-  { emoji: "🧘‍♀️", translationKey: "tiles.meditation", defaultText: "Meditation" },
-  { emoji: "😌", translationKey: "tiles.mask", defaultText: "Skincare Mask" },
-  { emoji: "📵", translationKey: "tiles.unplug", defaultText: "Unplug Tech" },
-  { emoji: "💬", translationKey: "tiles.compliment", defaultText: "Give Compliment" },
-  { emoji: "🌅", translationKey: "tiles.sunset", defaultText: "Watch Sunset" },
-  { emoji: "🐱", translationKey: "tiles.smile", defaultText: "Smile at Mirror" },
-  { emoji: "☕", translationKey: "tiles.kindness", defaultText: "Kind Act" },
-  { emoji: "📓", translationKey: "tiles.sleep", defaultText: "Sleep 8 Hours" },
-  { emoji: "🧘", translationKey: "tiles.yoga", defaultText: "10m Yoga Flow" },
-  { emoji: "💃", translationKey: "tiles.dance", defaultText: "Freestyle Dance" },
+  { icon: <Activity className="w-5 h-5" />, translationKey: "tiles.walk", defaultText: "Take a Walk" },
+  { icon: <Droplets className="w-5 h-5" />, translationKey: "tiles.water", defaultText: "Drink Water" },
+  { icon: <Phone className="w-5 h-5" />, translationKey: "tiles.friend", defaultText: "Call a Friend" },
+  { icon: <FileText className="w-5 h-5" />, translationKey: "tiles.gratitudes", defaultText: "Write Gratitudes" },
+  { icon: <Moon className="w-5 h-5" />, translationKey: "tiles.nap", defaultText: "Power Nap" },
+  { icon: <Activity className="w-5 h-5" />, translationKey: "tiles.stretch", defaultText: "Gentle Stretching" },
+  { icon: <Utensils className="w-5 h-5" />, translationKey: "tiles.cook", defaultText: "Cook Healthy Meal" },
+  { icon: <Music className="w-5 h-5" />, translationKey: "tiles.music", defaultText: "Listen to Music" },
+  { icon: <Wind className="w-5 h-5" />, translationKey: "tiles.breathing", defaultText: "Deep Breathing" },
+  { icon: <Book className="w-5 h-5" />, translationKey: "tiles.read", defaultText: "Read a Book" },
+  { icon: <Bath className="w-5 h-5" />, translationKey: "tiles.bath", defaultText: "Warm Bath" },
+  { icon: <TreePine className="w-5 h-5" />, translationKey: "tiles.journal", defaultText: "Nature Journaling" },
+  { icon: <Star className="w-5 h-5" />, translationKey: "tiles.free_space", defaultText: "FREE SPACE" },
+  { icon: <Trash2 className="w-5 h-5" />, translationKey: "tiles.declutter", defaultText: "Declutter Room" },
+  { icon: <Palette className="w-5 h-5" />, translationKey: "tiles.recipe", defaultText: "Creative Hobbies" },
+  { icon: <Flower2 className="w-5 h-5" />, translationKey: "tiles.meditation", defaultText: "Meditation" },
+  { icon: <Smile className="w-5 h-5" />, translationKey: "tiles.mask", defaultText: "Skincare Mask" },
+  { icon: <PhoneOff className="w-5 h-5" />, translationKey: "tiles.unplug", defaultText: "Unplug Tech" },
+  { icon: <MessageCircle className="w-5 h-5" />, translationKey: "tiles.compliment", defaultText: "Give Compliment" },
+  { icon: <Sunset className="w-5 h-5" />, translationKey: "tiles.sunset", defaultText: "Watch Sunset" },
+  { icon: <SmilePlus className="w-5 h-5" />, translationKey: "tiles.smile", defaultText: "Smile at Mirror" },
+  { icon: <Coffee className="w-5 h-5" />, translationKey: "tiles.kindness", defaultText: "Kind Act" },
+  { icon: <Bed className="w-5 h-5" />, translationKey: "tiles.sleep", defaultText: "Sleep 8 Hours" },
+  { icon: <Activity className="w-5 h-5" />, translationKey: "tiles.yoga", defaultText: "10m Yoga Flow" },
+  { icon: <Music4 className="w-5 h-5" />, translationKey: "tiles.dance", defaultText: "Freestyle Dance" },
 ];
 
 const BINGO_LETTERS = [
@@ -288,7 +289,7 @@ function SelfCareBingoInner() {
                       }`}
                     >
                       <span className="text-xl mb-0.5 group-hover:scale-110 transition-transform">
-                        {tile.emoji}
+                        {tile.icon || tile.emoji}
                       </span>
                       <span className={`text-[6px] font-black uppercase tracking-tight leading-none ${
                         isCompleted ? 'opacity-30' : 'opacity-100'
@@ -341,8 +342,8 @@ function SelfCareBingoInner() {
                 )}
                 onRestart={handleResetBoard}
                 icon={<Award size={48} className="text-primary animate-pulse" />}
-                  shareEmoji="🎉"
-                  shareContent={"I just completed 'Self-Care Bingo' on TherapyMantra — a guided self-care challenge that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Self-Care Bingo' on TherapyMantra — a guided self-care challenge that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
               />
             </motion.div>
           )}

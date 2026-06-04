@@ -2,7 +2,7 @@
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useRef } from "react";
-import { Mail, History, ChevronRight, X, Trash2, Calendar, ArrowLeft, Heart, Save } from "lucide-react";
+import { Mail, History, ChevronRight, X, Trash2, Calendar, ArrowLeft, Heart, Save, Activity, MailOpen } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -154,8 +154,8 @@ function TheUnsentLetterInner() {
           title={t("app_title", "The Unsent Letter")}
           message={t("reflection.save_success", "Your unsent letter is safely mended in your private local journal. Expression is a profound release.")}
           onRestart={reset}
-                  shareEmoji="✉️"
-                  shareContent={"I just completed 'The Unsent Letter' on TherapyMantra — a guided emotional release that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji="️"
+                  shareContent={"I just completed 'The Unsent Letter' on TherapyMantra — a guided emotional release that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );
@@ -188,7 +188,7 @@ function TheUnsentLetterInner() {
               exit="exit"
               className="flex-1 flex flex-col items-center justify-center text-center space-y-6 py-6"
             >
-              <div className="text-6xl animate-pulse">✉️</div>
+              <div className="text-6xl animate-pulse"><Mail className="inline-block w-8 h-8" /></div>
 
               <h1 className="text-3xl font-black text-slate-800 leading-tight">
                 {t("intro.title", "The Unsent Letter")}
@@ -319,7 +319,7 @@ function TheUnsentLetterInner() {
               exit="exit"
               className="flex-1 flex flex-col items-center justify-center text-center space-y-6 py-6"
             >
-              <div className="text-5xl">🧘</div>
+              <div className="text-5xl"><Activity className="inline-block w-8 h-8" /></div>
 
               <h2 className="text-2xl font-black text-slate-900 leading-tight">
                 {t("reflection.title", "Reflect on Release")}
@@ -383,7 +383,7 @@ function TheUnsentLetterInner() {
                 </div>
               ) : savedLetters.length === 0 ? (
                 <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
-                  <span className="text-4xl block">📭</span>
+                  <span className="text-4xl block"><MailOpen className="inline-block w-8 h-8" /></span>
                   <p className="text-slate-450 font-bold text-sm">
                     {t("history.empty_title", "You haven't written any letters yet.")}
                   </p>

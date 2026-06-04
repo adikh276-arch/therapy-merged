@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Moon, ChevronRight, ChevronLeft } from 'lucide-react';
+import { Moon, ChevronRight, ChevronLeft, Star } from "lucide-react";
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { motion, AnimatePresence } from "framer-motion";
@@ -59,9 +59,7 @@ const TwinklingStars = () => (
           animationDelay: `${s.delay}s`,
           zIndex: 0,
         }}
-      >
-        ★
-      </span>
+      ><Star className="inline-block w-8 h-8" /></span>
     ))}
   </>
 );
@@ -90,9 +88,7 @@ const FloatingStars = () => (
           zIndex: 0,
           pointerEvents: 'none',
         }}
-      >
-        ★
-      </span>
+      ><Star className="inline-block w-8 h-8" /></span>
     ))}
   </>
 );

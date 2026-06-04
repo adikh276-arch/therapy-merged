@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { BookOpen, History, Save, ChevronRight, ChevronLeft, Sparkles } from "lucide-react";
+import { BookOpen, History, Save, ChevronRight, ChevronLeft, Sparkles, Book, Leaf, Check, Hourglass } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
@@ -42,9 +42,7 @@ function ScreenEntry({ onContinue, onHistory }: ScreenEntryProps) {
 
   return (
     <div className="flex-1 flex flex-col items-center text-center gap-8 py-10">
-      <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center text-6xl shadow-2xl animate-bounce-slow">
-        📖
-      </div>
+      <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center text-6xl shadow-2xl animate-bounce-slow"><Book className="inline-block w-8 h-8" /></div>
       
       <div className="space-y-6">
         <h1 className="text-3xl font-black text-slate-800 leading-tight">
@@ -127,7 +125,7 @@ function ScreenWriting({ writing, setWriting, onContinue }: ScreenWritingProps) 
                   : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"
               }`}
             >
-              {p.emoji} {p.text}
+              {p.icon} {p.text}
             </button>
           ))}
         </div>
@@ -188,9 +186,7 @@ function ScreenLanding({ reflection, setReflection }: ScreenLandingProps) {
   return (
     <div className="flex-1 flex flex-col gap-8">
       <div className="text-center space-y-4">
-        <div className="w-20 h-20 bg-emerald-50 rounded-[2rem] flex items-center justify-center mx-auto mb-6 text-4xl shadow-inner">
-          🌿
-        </div>
+        <div className="w-20 h-20 bg-emerald-50 rounded-[2rem] flex items-center justify-center mx-auto mb-6 text-4xl shadow-inner"><Leaf className="inline-block w-8 h-8" /></div>
         <h1 className="text-3xl font-black text-slate-800 leading-tight">
           {t("landing.title")}
         </h1>
@@ -199,7 +195,7 @@ function ScreenLanding({ reflection, setReflection }: ScreenLandingProps) {
 
       <div className="bg-white/70 backdrop-blur-xl border border-white/80 rounded-[2.5rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] space-y-6">
         <div className="flex items-center gap-4 text-slate-800 font-black text-lg">
-          <span className="text-emerald-500 text-xl font-bold">✓</span>
+          <span className="text-emerald-500 text-xl font-bold"><Check className="inline-block w-8 h-8" /></span>
           {t("landing.settle_title")}
         </div>
         
@@ -255,9 +251,7 @@ function ScreenPastEntries({ entries, onBack }: ScreenPastEntriesProps) {
       <div className="flex-1 overflow-y-auto pr-2 space-y-6">
         {entries.length === 0 ? (
           <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-12 text-center shadow-xl shadow-slate-200/50">
-            <div className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">
-              ⏳
-            </div>
+            <div className="w-16 h-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl"><Hourglass className="inline-block w-8 h-8" /></div>
             <p className="text-slate-500 font-medium text-base leading-relaxed">
               {t("history.empty")}
             </p>
@@ -406,8 +400,8 @@ function WritingNarrativeInner() {
         title={t("app_title")}
         message={t("complete.message")}
         onRestart={() => setScreen("entry")}
-                  shareEmoji="📝"
-                  shareContent={"I just completed 'Write Your Narrative' on TherapyMantra — a guided narrative therapy that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Write Your Narrative' on TherapyMantra — a guided narrative therapy that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

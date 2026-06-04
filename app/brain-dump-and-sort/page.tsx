@@ -605,10 +605,10 @@ interface ReflectionProps {
 }
 
 const feelings = [
-  { label: "Slightly lighter", emoji: "🌤" },
-  { label: "More focused", emoji: "🎯" },
-  { label: "About the same", emoji: "🌊" },
-  { label: "Still overwhelmed", emoji: "💙" },
+  { label: "Slightly lighter", emoji: "" },
+  { label: "More focused", icon: <Target className="w-5 h-5" /> },
+  { label: "About the same", emoji: "" },
+  { label: "Still overwhelmed", emoji: "" },
 ];
 
 function Reflection({ onComplete, onBack }: ReflectionProps) {
@@ -639,7 +639,7 @@ function Reflection({ onComplete, onBack }: ReflectionProps) {
               }`}
             >
               <div className="flex items-center gap-4">
-                <span className="text-2xl">{f.emoji}</span>
+                <span className="text-2xl">{f.icon}</span>
                 <span className="text-sm font-bold">{f.label}</span>
               </div>
               <AnimatePresence>
@@ -945,8 +945,8 @@ function BrainDumpAppInner() {
         title={t('app_title', 'Clarity Dump')}
         message={t('complete_message', "You've successfully sorted your thoughts and identified actionable steps. A clearer mind leads to a calmer heart.")}
         onRestart={() => goTo(0)}
-                  shareEmoji="🧠"
-                  shareContent={"I just completed 'Brain Dump and Sort' on TherapyMantra — a guided mental clarity exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Brain Dump and Sort' on TherapyMantra — a guided mental clarity exercise that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }

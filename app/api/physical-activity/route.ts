@@ -56,7 +56,7 @@ export async function POST(req: NextRequest) {
 
     const res = await db`
       INSERT INTO activities (user_id, date, emoji, name, duration, notes)
-      VALUES (${userId}, ${body.date}, ${body.emoji || "💪"}, ${body.name}, ${body.duration}, ${body.notes || ""})
+      VALUES (${userId}, ${body.date}, ${body.emoji || ""}, ${body.name}, ${body.duration}, ${body.notes || ""})
       RETURNING id, to_char(date, 'YYYY-MM-DD') as date, emoji, name, duration, notes
     `;
 
@@ -84,7 +84,7 @@ export async function PUT(req: NextRequest) {
 
     const res = await db`
       UPDATE activities 
-      SET name = ${body.name}, emoji = ${body.emoji || "💪"}, duration = ${body.duration}, notes = ${body.notes || ""} 
+      SET name = ${body.name}, emoji = ${body.emoji || ""}, duration = ${body.duration}, notes = ${body.notes || ""} 
       WHERE id = ${body.id} AND user_id = ${userId}
       RETURNING id, to_char(date, 'YYYY-MM-DD') as date, emoji, name, duration, notes
     `;

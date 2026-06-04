@@ -2,7 +2,7 @@
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useMemo, useEffect } from "react";
-import { Heart, History, Save, ChevronRight, X, Trash2, Calendar, Sparkles } from "lucide-react";
+import { Heart, History, Save, ChevronRight, X, Trash2, Calendar, Sparkles, Feather, MailOpen, Book } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -11,7 +11,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { apiPath } from '@/lib/apiPath';
 
 type Screen = "welcome" | "choose" | "bond" | "review" | "closing" | "complete" | "history";
-const OPTION_EMOJIS = ["🕊️", "🤲", "🌿", "💌", "✨"];
+const OPTION_EMOJIS = ["️", "", "", "", ""];
 
 interface Reflection {
   id: string;
@@ -145,8 +145,8 @@ function ContinuingBondsInner() {
         title={t("app_title", "Continuing Bonds")}
         message={t("complete_message", "The connection you shared continues in many ways. Remembering and honoring them is a form of deep strength.")}
         onRestart={reset}
-                  shareEmoji="🕊️"
-                  shareContent={"I just completed 'Continuing Bonds' on TherapyMantra — a guided grief healing exercise that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji="️"
+                  shareContent={"I just completed 'Continuing Bonds' on TherapyMantra — a guided grief healing exercise that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );
   }
@@ -181,7 +181,7 @@ function ContinuingBondsInner() {
               className="flex-1 flex flex-col items-center text-center gap-6 py-6"
             >
               <div className="w-20 h-20 bg-primary/10 rounded-[1.75rem] flex items-center justify-center text-4xl shadow-inner animate-pulse">
-                🤍
+                
               </div>
               <div className="space-y-3">
                 <h1 className="text-3xl font-black text-slate-800 leading-tight">
@@ -234,7 +234,7 @@ function ContinuingBondsInner() {
                       className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 text-left shadow-sm hover:shadow-md hover:bg-slate-50 transition-all flex items-center gap-4 group"
                     >
                       <div className="w-11 h-11 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-xl flex items-center justify-center text-xl group-hover:scale-105 transition-transform shrink-0">
-                        {OPTION_EMOJIS[i] || "✨"}
+                        {OPTION_EMOJIS[i] || ""}
                       </div>
                       <span className="font-bold text-slate-700 text-sm">{opt.label}</span>
                     </button>
@@ -276,7 +276,7 @@ function ContinuingBondsInner() {
               className="flex-1 flex flex-col gap-6"
             >
               <div className="rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl flex flex-col items-center text-center">
-                <div className="text-5xl mb-4">🔗</div>
+                <div className="text-5xl mb-4"></div>
                 <h2 className="text-xl font-black text-slate-850 mb-2">{t("action_title", "Connecting in Action")}</h2>
                 <p className="text-slate-500 font-medium text-xs mb-6 leading-relaxed italic">
                   "{bondPrompt}"
@@ -311,9 +311,7 @@ function ContinuingBondsInner() {
               className="flex-1 flex flex-col gap-6"
             >
               <div className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-8 shadow-xl text-center">
-                <div className="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl">
-                  📖
-                </div>
+                <div className="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl"><Book className="inline-block w-8 h-8" /></div>
                 <h2 className="text-xl font-black text-slate-900 mb-1">{t("preserved_title", "Preserved")}</h2>
                 <p className="text-slate-450 text-xs font-bold leading-relaxed mb-6 italic">
                   {t("preserved_subtitle", "\"This connection is part of you. You can return to it anytime.\"")}
@@ -353,11 +351,9 @@ function ContinuingBondsInner() {
               animate={{ opacity: 1, y: 0 }}
               className="flex-1 flex flex-col items-center text-center gap-6 py-6"
             >
-              <div className="w-20 h-20 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[1.75rem] flex items-center justify-center text-4xl shadow-sm">
-                🕊️
-              </div>
+              <div className="w-20 h-20 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[1.75rem] flex items-center justify-center text-4xl shadow-sm"><Feather className="inline-block w-8 h-8" /></div>
               <div className="space-y-4 text-slate-500 font-medium text-sm leading-relaxed max-w-xs mx-auto">
-                <p>{t("closing_p1", "The people we love become a part of who we are. 🤍")}</p>
+                <p>{t("closing_p1", "The people we love become a part of who we are. ")}</p>
                 <p>{t("closing_p2", "They live on in the way you laugh, the stories you tell, and the quiet moments.")}</p>
               </div>
               <button
@@ -394,7 +390,7 @@ function ContinuingBondsInner() {
                 </div>
               ) : reflections.length === 0 ? (
                 <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
-                  <span className="text-4xl block">📭</span>
+                  <span className="text-4xl block"><MailOpen className="inline-block w-8 h-8" /></span>
                   <p className="text-slate-450 font-bold text-sm">{t("no_reflections_yet", "No reflections logged yet.")}</p>
                 </div>
               ) : (

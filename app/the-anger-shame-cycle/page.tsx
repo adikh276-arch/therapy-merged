@@ -1,7 +1,7 @@
 ﻿'use client';
 
 import { useState, useEffect } from "react";
-import { RefreshCw, ChevronRight, Heart, AlertCircle, ShieldAlert } from "lucide-react";
+import { RefreshCw, ChevronRight, Heart, AlertCircle, ShieldAlert, Flame, Frown, Lock } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -32,10 +32,10 @@ function AngerShameCycleInner() {
   }, []);
 
   const nodesData = ((_t => Array.isArray(_t) ? _t : null)(t("screens.s2.nodes", { returnObjects: true }))) || [
-    { emoji: "🔥", label: "Anger surfaces" },
-    { emoji: "😔", label: "Shame: \"I'm bad\"" },
-    { emoji: "🤐", label: "Shame gets buried" },
-    { emoji: "🔥", label: "Anger erupts again" }
+    { icon: <Flame className="w-5 h-5" />, label: "Anger surfaces" },
+    { icon: <Frown className="w-5 h-5" />, label: "Shame: \"I'm bad\"" },
+    { icon: <Lock className="w-5 h-5" />, label: "Shame gets buried" },
+    { icon: <Flame className="w-5 h-5" />, label: "Anger erupts again" }
   ];
 
   const cycleColors = [
@@ -51,7 +51,7 @@ function AngerShameCycleInner() {
     { title: "Repair with grace", desc: "Make amends if needed — but don't spiral. You're not your worst moment." }
   ];
 
-  const stepsEmojis = ["🔍", "🤲", "🕊️"];
+  const stepsEmojis = ["", "", "️"];
 
   const resetFlow = () => {
     setScreen(0);
@@ -64,8 +64,8 @@ function AngerShameCycleInner() {
           title={t("app_title", "Anger-Shame Cycle")}
           message={t("complete.message", "You've gained the awareness to see the link between anger and shame. This is the foundation for lasting emotional freedom.")}
           onRestart={resetFlow}
-                  shareEmoji="💢"
-                  shareContent={"I just completed 'Anger-Shame Cycle' on TherapyMantra — a guided emotional awareness that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Anger-Shame Cycle' on TherapyMantra — a guided emotional awareness that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );
@@ -103,9 +103,7 @@ function AngerShameCycleInner() {
             >
               <div className="relative overflow-hidden rounded-[2.5rem] bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-8 shadow-xl min-h-[420px] flex flex-col justify-center text-center">
                 <div className="absolute top-[-20px] right-[-20px] w-32 h-32 rounded-full bg-red-100/30 blur-3xl" />
-                <div className="w-20 h-20 bg-red-50 rounded-[1.75rem] flex items-center justify-center text-5xl mx-auto mb-6 shadow-inner animate-pulse">
-                  🔥
-                </div>
+                <div className="w-20 h-20 bg-red-50 rounded-[1.75rem] flex items-center justify-center text-5xl mx-auto mb-6 shadow-inner animate-pulse"><Flame className="inline-block w-8 h-8" /></div>
                 <h1 className="text-2xl font-black text-slate-800 mb-3 leading-tight tracking-tight">
                   {t("screens.s1.title", "Why does anger keep coming back?")}
                 </h1>
@@ -151,7 +149,7 @@ function AngerShameCycleInner() {
                     {nodesData.map((node, i) => (
                       <div key={i} className="flex flex-col items-center w-full">
                         <div className={`w-full rounded-[1.25rem] border px-6 py-3.5 font-bold text-sm flex items-center gap-4 ${cycleColors[i % cycleColors.length]}`}>
-                          <span className="text-xl">{node.emoji}</span>
+                          <span className="text-xl">{node.icon}</span>
                           <span className="uppercase tracking-wider text-xs font-black">{node.label}</span>
                         </div>
                         {i < nodesData.length - 1 && (
@@ -196,7 +194,7 @@ function AngerShameCycleInner() {
                   <div className="space-y-4">
                     <div className="rounded-2xl border border-red-100 bg-red-50/20 p-5 space-y-1">
                       <p className="font-black text-red-550 text-xs uppercase tracking-widest flex items-center gap-2">
-                        {t("screens.s3.anger.title", "🔥 Anger")}
+                        {t("screens.s3.anger.title", " Anger")}
                       </p>
                       <p className="text-slate-600 text-xs font-semibold leading-relaxed">
                         {t("screens.s3.anger.desc", "A secondary emotion — underneath lives hurt, fear, or rejection. It's the alarm, not the fire.")}
@@ -205,7 +203,7 @@ function AngerShameCycleInner() {
 
                     <div className="rounded-2xl border border-indigo-100 bg-indigo-50/20 p-5 space-y-1">
                       <p className="font-black text-indigo-600 text-xs uppercase tracking-widest flex items-center gap-2">
-                        {t("screens.s3.shame.title", "😔 Shame")}
+                        {t("screens.s3.shame.title", " Shame")}
                       </p>
                       <p className="text-slate-600 text-xs font-semibold leading-relaxed">
                         {t("screens.s3.shame.desc", "\"I am bad\" — not just \"I did something bad.\" It hides, silences, and keeps the cycle spinning.")}

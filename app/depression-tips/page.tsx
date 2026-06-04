@@ -131,7 +131,7 @@ function TipsList({ onSelectTip }: { onSelectTip: (id: string) => void }) {
       <header className="space-y-4 text-left">
         <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
           <Sparkles size={14} />
-          {t('notAlone', "You're not alone 💛")}
+          {t('notAlone', "You're not alone ")}
         </div>
         <h1 className="text-4xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
           {t('supportForLowMood', 'Support for Low Mood')}

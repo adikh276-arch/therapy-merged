@@ -830,8 +830,8 @@ function APauseForAppreciationInner() {
                   title={t('title', 'A Pause for Appreciation')}
                   message={t('closing.text1', 'This pause does not erase challenges. It simply restores balance in how the relationship is viewed.') + ' ' + t('closing.text2', 'Even brief moments of noticing can gradually soften emotional rigidity and create space for healthier conversations.')}
                   onRestart={resetFlow}
-                  shareEmoji="🌸"
-                  shareContent={`I just completed "A Pause for Appreciation" on TherapyMantra — a guided mindful appreciation that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+                  shareEmoji=""
+                  shareContent={`I just completed "A Pause for Appreciation" on TherapyMantra — a guided mindful appreciation that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                 >
                   <div className="w-full max-w-md mx-auto mt-8">
                     <motion.button

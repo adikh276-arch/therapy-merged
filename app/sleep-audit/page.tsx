@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Moon, History, Check, X, Save, Sparkles, ArrowLeft, Loader2 } from 'lucide-react';
+import { Moon, History, Check, X, Save, Sparkles, ArrowLeft, Loader2, Coffee, Smartphone, Wine } from "lucide-react";
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
@@ -95,13 +95,13 @@ function SleepAuditInner() {
     const raw = t("options", { returnObjects: true });
     if (Array.isArray(raw)) return raw as { emoji: string; text: string }[];
     return [
-      { emoji: "☕", text: "Caffeine after 3 PM" },
-      { emoji: "📱", text: "Screens in bed (phone/tablet)" },
+      { icon: <Coffee className="w-5 h-5" />, text: "Caffeine after 3 PM" },
+      { icon: <Smartphone className="w-5 h-5" />, text: "Screens in bed (phone/tablet)" },
       { emoji: "⏰", text: "Inconsistent sleeping schedule" },
-      { emoji: "🍔", text: "Heavy meals close to bedtime" },
-      { emoji: "🍷", text: "Alcohol close to bedtime" },
-      { emoji: "💭", text: "Worrying or overthinking in bed" },
-      { emoji: "🌡️", text: "Uncomfortable bedroom environment" }
+      { emoji: "", text: "Heavy meals close to bedtime" },
+      { icon: <Wine className="w-5 h-5" />, text: "Alcohol close to bedtime" },
+      { emoji: "", text: "Worrying or overthinking in bed" },
+      { emoji: "️", text: "Uncomfortable bedroom environment" }
     ];
   };
 
@@ -181,8 +181,8 @@ function SleepAuditInner() {
           setRating(3);
           setNote("");
         }}
-                  shareEmoji="😴"
-                  shareContent={"I just completed 'Sleep Audit' on TherapyMantra — a guided sleep improvement that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Sleep Audit' on TherapyMantra — a guided sleep improvement that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="w-full max-w-md mx-auto mt-8 px-6">
           <motion.button
@@ -219,9 +219,7 @@ function SleepAuditInner() {
                 exit={{ opacity: 0, y: -20 }}
                 className="flex-1 flex flex-col items-center justify-center text-center gap-6 py-10"
               >
-                <div className="w-24 h-24 bg-white/10 dark:bg-slate-900/40 backdrop-blur-md rounded-[2.5rem] border border-white/20 dark:border-slate-800 flex items-center justify-center text-6xl shadow-2xl animate-pulse">
-                  🌙
-                </div>
+                <div className="w-24 h-24 bg-white/10 dark:bg-slate-900/40 backdrop-blur-md rounded-[2.5rem] border border-white/20 dark:border-slate-800 flex items-center justify-center text-6xl shadow-2xl animate-pulse"><Moon className="inline-block w-8 h-8" /></div>
                 <h1 className="text-3xl font-black text-slate-800 dark:text-white">{t("intro.title", "Sleep Audit")}</h1>
                 <p className="text-slate-500 dark:text-slate-350 text-base font-bold leading-relaxed max-w-[280px]">
                   {t("intro.description", "Evaluate your evening behaviors to discover what interrupts your resting state.")}
@@ -289,7 +287,7 @@ function SleepAuditInner() {
                             : "bg-white border-white/60 text-slate-800 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-950 shadow-sm"
                         }`}
                       >
-                        <span className="text-2xl shrink-0">{o.emoji}</span>
+                        <span className="text-2xl shrink-0">{o.icon}</span>
                         <span className="flex-1 text-sm font-bold leading-tight">
                           {o.text}
                         </span>

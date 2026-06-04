@@ -2,7 +2,7 @@
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { Utensils, ChevronRight, Save, History, Sparkles, Trash2, Calendar, X } from "lucide-react";
+import { Utensils, ChevronRight, Save, History, Sparkles, Trash2, Calendar, X, Lightbulb, MailOpen } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -179,24 +179,24 @@ function FoodEmotionMapInner() {
   };
 
   const EMOTIONS = ((_t => Array.isArray(_t) ? _t : null)(t("emotions_list", { returnObjects: true }))) || [
-    "😰 Stress", "😢 Sadness", "😶 Boredom", "😟 Anxiety", "🥺 Loneliness", "💭 Something else…"
+    " Stress", " Sadness", " Boredom", " Anxiety", " Loneliness", " Something else…"
   ];
   const FOOD_RESPONSES = ((_t => Array.isArray(_t) ? _t : null)(t("food_responses", { returnObjects: true }))) || [
-    "🍽️ I eat more", "🚫 I eat less", "🍫 I crave specific foods", "😣 I avoid food", "😐 No real change"
+    "️ I eat more", " I eat less", " I crave specific foods", " I avoid food", " No real change"
   ];
   const BODY_SENSATIONS = ((_t => Array.isArray(_t) ? _t : null)(t("body_sensations", { returnObjects: true }))) || [
-    "💔 Tight chest", "🪨 Heavy feeling", "🦵 Restless / fidgety", "🔋 Low energy", "🌀 Knots in stomach", "❓ Something else…"
+    " Tight chest", "🪨 Heavy feeling", " Restless / fidgety", " Low energy", " Knots in stomach", " Something else…"
   ];
   const SUPPORT_OPTIONS = ((_t => Array.isArray(_t) ? _t : null)(t("support_options", { returnObjects: true }))) || [
-    "🗣️ Talk to someone", "☕ Take a break", "📝 Journal", "🌬️ Breathe", "🎧 Distract myself"
+    "️ Talk to someone", " Take a break", " Journal", "️ Breathe", " Distract myself"
   ];
   const tSupport = t("support_responses", { returnObjects: true });
   const SUPPORT_RESPONSES: Record<string, { title: string; body: string }> = (typeof tSupport === 'object' && tSupport !== null && !Array.isArray(tSupport) ? tSupport as any : null) || {
-    "🗣️ Talk to someone": { title: "Reach out 💛", body: "Sometimes sharing lightens things a bit. Maybe a simple 'hey, can we talk?'" },
-    "☕ Take a break": { title: "Pause 💛", body: "A small pause can help reset things. Maybe step away and take a few slow breaths." },
-    "📝 Journal": { title: "Write it out 💛", body: "You could start with 'right now I feel…' and just let it flow." },
-    "🌬️ Breathe": { title: "Breathe 💛", body: "Inhale 4… hold 2… exhale 6… let's slow it down together." },
-    "🎧 Distract myself": { title: "Gentle shift 💛", body: "A gentle distraction can shift the moment… maybe something light or easy." }
+    "️ Talk to someone": { title: "Reach out ", body: "Sometimes sharing lightens things a bit. Maybe a simple 'hey, can we talk?'" },
+    " Take a break": { title: "Pause ", body: "A small pause can help reset things. Maybe step away and take a few slow breaths." },
+    " Journal": { title: "Write it out ", body: "You could start with 'right now I feel…' and just let it flow." },
+    "️ Breathe": { title: "Breathe ", body: "Inhale 4… hold 2… exhale 6… let's slow it down together." },
+    " Distract myself": { title: "Gentle shift ", body: "A gentle distraction can shift the moment… maybe something light or easy." }
   };
 
   const screenTitles = ((_t => Array.isArray(_t) ? _t : null)(t("screen_titles", { returnObjects: true }))) || [
@@ -210,8 +210,8 @@ function FoodEmotionMapInner() {
           title={t("app_title", "Food & Emotion Map")}
           message={t("complete_message", "You've successfully mapped the connection between your feelings and food. This awareness is a powerful tool for gentle change.")}
           onRestart={reset}
-                  shareEmoji="🍃"
-                  shareContent={"I just completed 'Food and Emotion Map' on TherapyMantra — a guided emotional eating awareness that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Food and Emotion Map' on TherapyMantra — a guided emotional eating awareness that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );
@@ -581,7 +581,7 @@ function FoodEmotionMapInner() {
               className="flex-1 flex flex-col gap-6 text-center justify-center py-4"
             >
               <TypingText
-                text={t("understanding_text", "You're understanding yourself a little better. That's more than enough 💛")}
+                text={t("understanding_text", "You're understanding yourself a little better. That's more than enough ")}
                 className="text-lg font-black text-slate-700 leading-relaxed animate-pulse"
                 onComplete={() => setTextReady(true)}
               />
@@ -645,7 +645,7 @@ function FoodEmotionMapInner() {
                 </div>
               ) : historyLogs.length === 0 ? (
                 <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
-                  <span className="text-4xl block">📭</span>
+                  <span className="text-4xl block"><MailOpen className="inline-block w-8 h-8" /></span>
                   <p className="text-slate-450 font-bold text-sm">No eating pattern maps found.</p>
                 </div>
               ) : (
@@ -680,14 +680,14 @@ function FoodEmotionMapInner() {
                       </div>
 
                       <div className="p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-xs font-semibold leading-relaxed text-slate-655 space-y-2 border border-white/60/50">
-                        <p>💡 <span className="font-black text-slate-800">Thoughts:</span> "{entry.thought}"</p>
-                        <p>🍽️ <span className="font-black text-slate-800">Response:</span> {entry.foodResponse}</p>
-                        <p>🌱 <span className="font-black text-slate-850">Support Anchor:</span> {entry.supportChoice}</p>
+                        <p><Lightbulb className="inline-block w-8 h-8" /><span className="font-black text-slate-800">Thoughts:</span> "{entry.thought}"</p>
+                        <p>️ <span className="font-black text-slate-800">Response:</span> {entry.foodResponse}</p>
+                        <p> <span className="font-black text-slate-850">Support Anchor:</span> {entry.supportChoice}</p>
                       </div>
 
                       {entry.closingFeeling && (
                         <p className="text-slate-650 text-xs font-bold leading-relaxed border-t border-slate-50 pt-2 text-primary">
-                          💭 Feel check: "{entry.closingFeeling}"
+                           Feel check: "{entry.closingFeeling}"
                         </p>
                       )}
                     </div>

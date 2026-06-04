@@ -24,7 +24,7 @@ const TIPS: Tip[] = [
     slug: "sleep",
     title: "Get Restful Sleep",
     description: "Aim for 7–9 hours of sleep each night. Try to sleep and wake up at the same time daily.",
-    icon: "🌙",
+    icon: "",
     iconBg: "bg-cyan-50 dark:bg-cyan-950/20 text-cyan-600",
     whyItHelps: "Sleep helps your brain and body recover and lowers stress hormones.",
     whatYouCanDo: [
@@ -39,7 +39,7 @@ const TIPS: Tip[] = [
     slug: "breathing",
     title: "Practice Deep Breathing",
     description: "Spend a few minutes focusing on your breath. Slow breathing reduces anxiety.",
-    icon: "🌬️",
+    icon: "️",
     iconBg: "bg-teal-50 dark:bg-teal-950/20 text-teal-600",
     whyItHelps: "Slow breathing activates your body's relaxation response.",
     whatYouCanDo: [
@@ -54,7 +54,7 @@ const TIPS: Tip[] = [
     slug: "exercise",
     title: "Move Your Body",
     description: "Light walking or stretching helps release stress and improve mood.",
-    icon: "🚶",
+    icon: "",
     iconBg: "bg-blue-50 dark:bg-blue-950/20 text-blue-600",
     whyItHelps: "Exercise releases endorphins and improves mood.",
     whatYouCanDo: [
@@ -68,7 +68,7 @@ const TIPS: Tip[] = [
     slug: "caffeine",
     title: "Limit Caffeine & Sugar",
     description: "Too much caffeine and sugar can increase anxiety and disturb sleep.",
-    icon: "☕",
+    icon: "",
     iconBg: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950/20 text-slate-600",
     whyItHelps: "Too much caffeine and sugar increases anxiety and sleep problems.",
     whatYouCanDo: [
@@ -82,7 +82,7 @@ const TIPS: Tip[] = [
     slug: "planning",
     title: "Plan Your Day",
     description: "Break large tasks into smaller steps to avoid feeling overwhelmed.",
-    icon: "📋",
+    icon: "",
     iconBg: "bg-amber-50 dark:bg-amber-950/20 text-amber-600",
     whyItHelps: "Planning reduces mental clutter and overwhelm.",
     whatYouCanDo: [
@@ -135,7 +135,7 @@ function BreathingGuide() {
             paused ? 'scale-100 bg-slate-100 border-slate-300' : scaleClass
           }`}
         >
-          <span className="text-4xl animate-pulse">🌬️</span>
+          <span className="text-4xl animate-pulse"><Wind className="inline-block w-8 h-8" /></span>
         </div>
         {/* Soft decorative outer circle */}
         <div

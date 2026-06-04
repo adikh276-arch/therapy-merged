@@ -385,7 +385,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
             margin-bottom: 0.75rem;
           }
           .article-content .keybox li::before {
-            content: "✓";
+            content: "";
             position: absolute;
             left: 0;
             color: #22c55e;

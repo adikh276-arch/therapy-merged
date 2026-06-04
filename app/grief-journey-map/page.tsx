@@ -14,7 +14,7 @@ function Screen1({ onNext, t }: { onNext: () => void; t: any }) {
   return (
     <div className="flex flex-1 flex-col gap-8">
       <div className="relative overflow-hidden rounded-[3rem] bg-white/70 backdrop-blur-xl border border-white/80 p-10 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col justify-center text-center min-h-[450px]">
-        <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-8 text-6xl">🌊</div>
+        <div className="w-24 h-24 bg-primary/10 rounded-[2.5rem] flex items-center justify-center mx-auto mb-8 text-6xl"></div>
         <h1 className="text-3xl font-black text-slate-800 mb-4 leading-tight">
           {t("screen1_title")}
         </h1>
@@ -156,8 +156,8 @@ function GriefInner() {
           title={t("app_title")}
           message={t("complete_message")}
           onRestart={handleRestart}
-                  shareEmoji="🗺️"
-                  shareContent={"I just completed 'Grief Journey Map' on TherapyMantra — a guided grief processing that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                  shareEmoji="️"
+                  shareContent={"I just completed 'Grief Journey Map' on TherapyMantra — a guided grief processing that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );

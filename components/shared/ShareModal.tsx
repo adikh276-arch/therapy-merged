@@ -44,7 +44,7 @@ interface ShareModalProps {
   activityName: string;
   /** Optional custom message for this specific activity. Falls back to generic. */
   shareContent?: string;
-  /** Optional emoji to show in the preview card. Default: ✨ */
+  /** Optional emoji to show in the preview card. Default:  */
   emoji?: string;
 }
 
@@ -56,7 +56,7 @@ const ShareModal: React.FC<ShareModalProps> = ({
   onClose,
   activityName,
   shareContent,
-  emoji = '✨',
+  emoji = '',
 }) => {
   const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
@@ -69,7 +69,7 @@ const ShareModal: React.FC<ShareModalProps> = ({
   // Build the share message
   const defaultMessage = t('common.share_text', {
     defaultValue:
-      `I just completed "${activityName}" on TherapyMantra — a guided mental wellness activity that's genuinely helped me. Try it yourself! 🌿\n\n📱 Android: ${APP_ANDROID}\n🍎 iOS: ${APP_IOS}`,
+      `I just completed "${activityName}" on TherapyMantra — a guided mental wellness activity that's genuinely helped me. Try it yourself! \n\n Android: ${APP_ANDROID}\n iOS: ${APP_IOS}`,
     activityName,
     androidUrl: APP_ANDROID,
     iosUrl: APP_IOS,

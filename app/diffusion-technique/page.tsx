@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, Brain, Cloud, Banknote, BookOpen, ArrowRight, RefreshCw, ChevronLeft } from 'lucide-react';
+import { Sparkles, Brain, Cloud, Banknote, BookOpen, ArrowRight, RefreshCw, ChevronLeft, Book } from "lucide-react";
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
@@ -159,7 +159,7 @@ function MoneySlider({ value, onChange }: { value: number; onChange: (val: numbe
               className="absolute text-3xl pointer-events-none"
               style={{ left: `${coin.left}%` }}
             >
-              💰
+              
             </motion.span>
           ))}
         </AnimatePresence>
@@ -229,10 +229,10 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
     >
       {/* Floating decorative elements */}
       {[
-        { emoji: '📖', top: '8%', left: '8%', dur: 6, rotate: true },
-        { emoji: '✨', top: '15%', right: '10%', dur: 3, scale: true },
-        { emoji: '📖', bottom: '20%', right: '7%', dur: 7, rotate: true },
-        { emoji: '✨', bottom: '10%', right: '15%', dur: 3.5, scale: true },
+        { icon: <Book className="w-5 h-5" />, top: '8%', left: '8%', dur: 6, rotate: true },
+        { icon: <Sparkles className="w-5 h-5" />, top: '15%', right: '10%', dur: 3, scale: true },
+        { icon: <Book className="w-5 h-5" />, bottom: '20%', right: '7%', dur: 7, rotate: true },
+        { icon: <Sparkles className="w-5 h-5" />, bottom: '10%', right: '15%', dur: 3.5, scale: true },
       ].map((el, i) => (
         <motion.span
           key={i}
@@ -245,14 +245,14 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
           }
           transition={{ duration: el.dur, repeat: Infinity, ease: 'easeInOut' }}
         >
-          {el.emoji}
+          {el.icon}
         </motion.span>
       ))}
 
       <div className="relative z-10 w-full space-y-6">
         <div className="space-y-2 text-center">
           <h2 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
-            {t('give_this_thought_a_story_name', 'Give this thought a story name 📖')}
+            {t('give_this_thought_a_story_name', 'Give this thought a story name ')}
           </h2>
           <p className="act-body">
             {t('what_would_you_call_this_story', 'What would you call this story?')}
@@ -330,9 +330,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
                   initial={{ rotateY: 0, scale: 1 }}
                   animate={{ rotateY: [0, -90, -180, -270, -360], scale: [1, 1.25, 1.4, 1.25, 1] }}
                   transition={{ duration: 0.8, ease: 'easeInOut' }}
-                >
-                  📖
-                </motion.span>
+                ><Book className="inline-block w-8 h-8" /></motion.span>
               </motion.div>
             )}
           </AnimatePresence>
@@ -584,7 +582,7 @@ function DiffusionTechniqueInner() {
                         {t('sky_question', 'What thoughts are on your mind?')}
                       </h1>
                       <p className="act-body">
-                        {t('sky_hint', 'Add up to 5 thoughts. Each one will get its own cloud. ☁️')}
+                        {t('sky_hint', 'Add up to 5 thoughts. Each one will get its own cloud. ️')}
                       </p>
                     </div>
 
@@ -636,7 +634,7 @@ function DiffusionTechniqueInner() {
                                 exit={{ opacity: 0, scale: 0.8 }}
                                 className="flex items-center gap-2 bg-sky-50 dark:bg-sky-950/30 border border-sky-200 dark:border-sky-800 text-sky-700 dark:text-sky-300 rounded-full px-4 py-2 text-xs font-bold"
                               >
-                                <span>☁️</span>
+                                <span>️</span>
                                 <span className="max-w-[120px] truncate">{th}</span>
                                 <button
                                   onClick={() => setThoughts(prev => prev.filter((_, idx) => idx !== i))}
@@ -677,7 +675,7 @@ function DiffusionTechniqueInner() {
                   >
                     <PremiumComplete
         shareEmoji="🫧"
-        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                       title={t('conclusion_sky_title', 'The Thought Drifted Away')}
                       message={
                         t('conclusion_sky_desc1', 'Thoughts are like clouds in the sky.') +
@@ -821,7 +819,7 @@ function DiffusionTechniqueInner() {
                   >
                     <PremiumComplete
         shareEmoji="🫧"
-        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                       title={
                         sellValue < 30
                           ? t('sell_result_low_title', 'Not a great deal')
@@ -952,7 +950,7 @@ function DiffusionTechniqueInner() {
                   >
                     <PremiumComplete
         shareEmoji="🫧"
-        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! 🌿\n\n📱 Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n🍎 iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
+        shareContent={`I just completed "Diffusion Technique" on TherapyMantra — a guided CBT technique that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                       title={t('conclusion_name_title', 'You Named the Story')}
                       message={`${t('conclusion_name_desc1', 'Our minds often repeat the same stories again and again.')} ${t(
                         'conclusion_name_desc2',
