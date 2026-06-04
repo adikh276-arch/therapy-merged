@@ -23,8 +23,9 @@ const TOTAL_CYCLES = 4;
 
 const PHASE_META = {
   breathe_in:  { scale: 1.0,  glowScale: 1.5, transitionDuration: 4, ease: [0.4, 0, 0.6, 1] as const },
-  hold:        { scale: 1.0,  glowScale: 1.5, transitionDuration: 0.4, ease: [0.4, 0, 0.6, 1] as const },
+  hold_in:     { scale: 1.0,  glowScale: 1.5, transitionDuration: 0.4, ease: [0.4, 0, 0.6, 1] as const },
   breathe_out: { scale: 0.55, glowScale: 0.9, transitionDuration: 4, ease: [0.4, 0, 0.6, 1] as const },
+  hold_out:    { scale: 0.55, glowScale: 0.9, transitionDuration: 0.4, ease: [0.4, 0, 0.6, 1] as const },
 };
 
 function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: () => void }) {
@@ -37,8 +38,10 @@ function SessionScreen({ onComplete, onEnd }: { onComplete: () => void; onEnd: (
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const phase = PHASES[phaseIndex];
-  // hold phases use breathe_in's held position
-  const metaKey = phase.label === 'hold' ? 'hold' : phase.label as keyof typeof PHASE_META;
+  
+  const metaKey = phase.label === 'hold' 
+    ? (phaseIndex === 1 ? 'hold_in' : 'hold_out') 
+    : phase.label as 'breathe_in' | 'breathe_out';
   const meta = PHASE_META[metaKey];
 
   const tick = useCallback(() => {
