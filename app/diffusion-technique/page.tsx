@@ -20,9 +20,11 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
 
   const cloudConfigs = useMemo(() => {
     return thoughts.map((_, i) => ({
-      top: `${15 + (i * 15)}%`, // Distribute vertically
-      delay: i * 1.5,
-      duration: 15 + Math.random() * 10,
+      top: `${10 + (i * 15)}%`, // Distribute vertically
+      delay: i * 0.8, // Faster entrance
+      duration: 12 + Math.random() * 8, // Between 12 and 20 seconds
+      scale: 0.75 + Math.random() * 0.4, // Vary size
+      yOffset: Math.random() * 30 - 15, // Slight bobbing
     }));
   }, [thoughts]);
 
@@ -64,20 +66,29 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
             <motion.div
               key={i}
               className="absolute whitespace-nowrap"
-              style={{ top: cfg.top }}
-              initial={{ left: '-100%', opacity: 0 }}
-              animate={{ left: '120%', opacity: [0, 1, 1, 0] }}
+              style={{ top: cfg.top, zIndex: 50 - i }}
+              initial={{ left: '-300px', opacity: 0, y: 0 }}
+              animate={{ left: '110vw', opacity: [0, 1, 1, 0], y: [0, cfg.yOffset, -cfg.yOffset, 0] }}
               transition={{
                 left: { duration: cfg.duration, delay: cfg.delay, ease: 'linear', repeat: Infinity },
                 opacity: { duration: cfg.duration, delay: cfg.delay, times: [0, 0.1, 0.9, 1], repeat: Infinity },
+                y: { duration: cfg.duration / 2, delay: cfg.delay, ease: 'easeInOut', repeat: Infinity, repeatType: 'mirror' }
               }}
             >
-              {/* Premium Frosted Glass "Cloud" */}
-              <div className="flex items-center gap-3 px-6 py-4 bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-[2rem] border border-white/80 dark:border-slate-700 shadow-[0_8px_30px_rgb(0,0,0,0.08)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.2)]">
-                <Cloud className="text-sky-400 shrink-0" size={20} strokeWidth={3} />
-                <span className="font-bold text-slate-700 dark:text-slate-200 text-sm max-w-[200px] truncate">
-                  "{thought}"
-                </span>
+              <div className="relative flex items-center justify-center w-[260px] h-[150px] px-8 py-4" style={{ transform: `scale(${cfg.scale})` }}>
+                {/* Cloud Background SVG */}
+                <div className="absolute inset-0 pointer-events-none drop-shadow-[0_12px_24px_rgba(0,0,0,0.12)] dark:drop-shadow-[0_12px_24px_rgba(0,0,0,0.3)] opacity-95 dark:opacity-85">
+                  <svg viewBox="0 0 240 140" fill="currentColor" className="w-full h-full text-white dark:text-slate-800" preserveAspectRatio="none">
+                    <path d="M60 120 C 20 120, 10 70, 40 50 C 50 20, 110 10, 140 40 C 180 20, 230 50, 220 90 C 235 120, 190 130, 170 120 C 150 135, 90 135, 60 120 Z" />
+                  </svg>
+                </div>
+                
+                {/* Thought Text */}
+                <div className="relative z-10 flex flex-col items-center justify-center max-w-[180px] -mt-2">
+                  <span className="font-extrabold text-sky-900/90 dark:text-sky-100/90 text-[15px] leading-snug text-center break-words whitespace-normal line-clamp-3 italic">
+                    "{thought}"
+                  </span>
+                </div>
               </div>
             </motion.div>
           );
