@@ -3,18 +3,26 @@ import { cookies } from "next/headers";
 import { db } from "@/lib/db";
 
 async function ensureTableExists() {
-  await db`
-    CREATE TABLE IF NOT EXISTS gratitude_tracker_entries (
-      id VARCHAR(255) PRIMARY KEY,
-      user_id VARCHAR(255) NOT NULL,
-      date VARCHAR(10) NOT NULL,
-      gratitude1 TEXT NOT NULL,
-      gratitude2 TEXT,
-      mood_emoji VARCHAR(10) NOT NULL,
-      mood_label VARCHAR(50) NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    )
-  `;
+  try {
+    await db`
+      CREATE TABLE IF NOT EXISTS gratitude_tracker_entries (
+        id VARCHAR(255) PRIMARY KEY,
+        user_id VARCHAR(255) NOT NULL,
+        date VARCHAR(10) NOT NULL,
+        gratitude1 TEXT NOT NULL,
+        gratitude2 TEXT,
+        mood_emoji VARCHAR(255) NOT NULL,
+        mood_label VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `;
+    // Also try to alter mood_emoji to be longer in case it was created as VARCHAR(10)
+    // and failed due to longer emoji names or React nodes
+    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN mood_emoji TYPE VARCHAR(255)`.catch(() => {});
+    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN mood_label TYPE VARCHAR(255)`.catch(() => {});
+  } catch (err) {
+    console.error('ensureTableExists failed:', err);
+  }
 }
 
 export async function GET(req: NextRequest) {
@@ -32,20 +40,22 @@ export async function GET(req: NextRequest) {
     await ensureTableExists();
 
     if (date) {
-      const [row] = await db`
+      const rows = await db`
         SELECT id, date, gratitude1, gratitude2, mood_emoji, mood_label FROM gratitude_tracker_entries
         WHERE user_id = ${userId} AND date = ${date}
-        ORDER BY created_at DESC
+        ORDER BY date DESC, id DESC
         LIMIT 1
       `;
-      return NextResponse.json(row || null);
+      return NextResponse.json(rows[0] || null);
     }
 
     if (month) {
+      const monthStart = month + "-00";
+      const monthEnd = month + "-31";
       const rows = await db`
         SELECT id, date, gratitude1, gratitude2, mood_emoji, mood_label FROM gratitude_tracker_entries
-        WHERE user_id = ${userId} AND date LIKE ${month + "%"}
-        ORDER BY date ASC, created_at DESC
+        WHERE user_id = ${userId} AND date >= ${monthStart} AND date <= ${monthEnd}
+        ORDER BY date ASC, id DESC
       `;
       return NextResponse.json(rows);
     }
@@ -53,12 +63,12 @@ export async function GET(req: NextRequest) {
     const rows = await db`
       SELECT id, date, gratitude1, gratitude2, mood_emoji, mood_label FROM gratitude_tracker_entries
       WHERE user_id = ${userId}
-      ORDER BY date DESC, created_at DESC
+      ORDER BY date DESC, id DESC
     `;
     return NextResponse.json(rows);
-  } catch (err) {
+  } catch (err: any) {
     console.error("Failed to fetch gratitude tracker entries:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: "Database error", detail: err.message }, { status: 500 });
   }
 }
 
@@ -88,9 +98,9 @@ export async function POST(req: NextRequest) {
     `;
 
     return NextResponse.json({ success: true });
-  } catch (err) {
+  } catch (err: any) {
     console.error("Failed to save gratitude tracker entry:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: "Database error", detail: err.message }, { status: 500 });
   }
 }
 
@@ -114,8 +124,8 @@ export async function DELETE(req: NextRequest) {
       DELETE FROM gratitude_tracker_entries WHERE id = ${id} AND user_id = ${userId}
     `;
     return NextResponse.json({ success: true });
-  } catch (err) {
+  } catch (err: any) {
     console.error("Failed to delete gratitude tracker entry:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: "Database error", detail: err.message }, { status: 500 });
   }
 }
