@@ -1,10 +1,11 @@
 ﻿'use client';
+import React from 'react';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, Brain, ArrowRight, ArrowLeft, RefreshCw, History, Calendar, Check, Target, Heart, Loader2 } from 'lucide-react';
+import { Sparkles, Brain, ArrowRight, ArrowLeft, RefreshCw, History, Calendar, Check, Target, Heart, Loader2, Users, HeartPulse, Palette, BookOpen, Compass, Bird, TrendingUp, Smile, Scale, ShieldCheck } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
@@ -14,19 +15,20 @@ import { apiPath } from '@/lib/apiPath';
 interface ValueItem {
   emoji: string;
   name: string;
+  icon?: React.ReactNode;
 }
 
 const ALL_VALUES: ValueItem[] = [
-  { emoji: "??", name: "Family" },
-  { emoji: "??", name: "Health" },
-  { emoji: "??", name: "Creativity" },
-  { emoji: "??", name: "Learning" },
-  { emoji: "??", name: "Adventure" },
-  { emoji: "???", name: "Freedom" },
-  { emoji: "??", name: "Growth" },
-  { emoji: "??", name: "Kindness" },
-  { emoji: "??", name: "Balance" },
-  { emoji: "?", name: "Honesty" },
+  { emoji: "family", name: "Family", icon: <Users size={24} className="text-blue-500" /> },
+  { emoji: "health", name: "Health", icon: <HeartPulse size={24} className="text-rose-500" /> },
+  { emoji: "creativity", name: "Creativity", icon: <Palette size={24} className="text-purple-500" /> },
+  { emoji: "learning", name: "Learning", icon: <BookOpen size={24} className="text-amber-500" /> },
+  { emoji: "adventure", name: "Adventure", icon: <Compass size={24} className="text-emerald-500" /> },
+  { emoji: "freedom", name: "Freedom", icon: <Bird size={24} className="text-sky-500" /> },
+  { emoji: "growth", name: "Growth", icon: <TrendingUp size={24} className="text-teal-500" /> },
+  { emoji: "kindness", name: "Kindness", icon: <Smile size={24} className="text-pink-500" /> },
+  { emoji: "balance", name: "Balance", icon: <Scale size={24} className="text-indigo-500" /> },
+  { emoji: "honesty", name: "Honesty", icon: <ShieldCheck size={24} className="text-slate-500" /> },
 ];
 
 interface Reflection {
@@ -232,7 +234,7 @@ function KnowYourValuesInner() {
                           ?
                         </div>
                       )}
-                      <span className="text-2xl leading-none">{v.emoji}</span>
+                      <span className="text-2xl leading-none flex items-center justify-center">{v.icon || v.emoji}</span>
                       <span className="text-[11px] font-semibold text-slate-700 uppercase tracking-wider">
                         {t(`values.${v.name}`, v.name)}
                       </span>
@@ -286,7 +288,7 @@ function KnowYourValuesInner() {
                           : 'bg-white/80 backdrop-blur-sm border border-white text-slate-600 hover:border-sky-100'
                       }`}
                     >
-                      {v.emoji} {t(`values.${v.name}`, v.name)}
+                      {v.icon || v.emoji} {t(`values.${v.name}`, v.name)}
                     </motion.button>
                   );
                 })}
@@ -335,7 +337,7 @@ function KnowYourValuesInner() {
                 </h1>
                 <div className="flex justify-start">
                   <div className="px-3 py-1.5 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 font-semibold text-[11px] uppercase tracking-widest flex items-center gap-1.5">
-                    {chosenValue.emoji} {t(`values.${chosenValue.name}`, chosenValue.name)}
+                    {chosenValue.icon || chosenValue.emoji} {t(`values.${chosenValue.name}`, chosenValue.name)}
                   </div>
                 </div>
                 <p className="act-body">
@@ -386,7 +388,7 @@ function KnowYourValuesInner() {
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm text-left space-y-5 p-5">
                   <div className="flex items-center gap-3 border-b border-sky-50 pb-4">
                     <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center text-2xl leading-none shrink-0">
-                      {savedReflection.valueEmoji}
+                      {ALL_VALUES.find(val => val.name === savedReflection.valueName)?.icon || savedReflection.valueEmoji}
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-800 text-base leading-snug">
@@ -494,7 +496,7 @@ function KnowYourValuesInner() {
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
                           <div className="w-10 h-10 rounded-xl bg-white border border-sky-50 flex items-center justify-center text-xl leading-none shrink-0">
-                            {r.valueEmoji}
+                            {ALL_VALUES.find(val => val.name === r.valueName)?.icon || r.valueEmoji}
                           </div>
                           <div>
                             <h4 className="font-semibold text-slate-800 text-sm">

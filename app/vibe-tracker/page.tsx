@@ -4,7 +4,7 @@ import { parseDbDate } from '@/lib/dateUtils';
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Heart, Sparkles, Clock, Calendar, ArrowRight, Check, History, Loader2 } from 'lucide-react';
+import { Heart, Sparkles, Clock, Calendar, ArrowRight, Check, History, Loader2, Wind, Sun, Flame, HeartHandshake, Anchor, CloudRain, Coffee, Activity, Battery, BatteryWarning } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
@@ -14,16 +14,16 @@ import { apiPath } from '@/lib/apiPath';
 type Screen = 'intro' | 'checkin' | 'reflection' | 'confirmation' | 'history';
 
 const vibes = [
-  { emoji: "??", label: "Calm", tint: "bg-emerald-50/50 border-emerald-100 text-emerald-800 dark:bg-emerald-950/10 dark:border-emerald-900/20 dark:text-emerald-300" },
-  { emoji: "??", label: "Light", tint: "bg-amber-50/50 border-amber-100 text-amber-800 dark:bg-amber-950/10 dark:border-amber-900/20 dark:text-amber-300" },
-  { emoji: "??", label: "Driven", tint: "bg-orange-50/50 border-orange-100 text-orange-800 dark:bg-orange-950/10 dark:border-orange-900/20 dark:text-orange-300" },
-  { emoji: "??", label: "Content", tint: "bg-pink-50/50 border-pink-100 text-pink-800 dark:bg-pink-950/10 dark:border-pink-900/20 dark:text-pink-300" },
-  { emoji: "??", label: "Steady", tint: "bg-blue-50/50 border-blue-100 text-blue-800 dark:bg-blue-950/10 dark:border-blue-900/20 dark:text-blue-300" },
-  { emoji: "??", label: "Tender", tint: "bg-slate-50/50 border-white/60 text-slate-800 dark:bg-slate-950/10 dark:border-slate-900/20 dark:text-slate-300" },
-  { emoji: "??", label: "Heavy", tint: "bg-indigo-50/50 border-indigo-100 text-indigo-800 dark:bg-indigo-950/10 dark:border-indigo-900/20 dark:text-indigo-300" },
-  { emoji: "??", label: "Thoughtful", tint: "bg-teal-50/50 border-teal-100 text-teal-800 dark:bg-teal-950/10 dark:border-teal-900/20 dark:text-teal-300" },
-  { emoji: "?", label: "Restless", tint: "bg-yellow-50/50 border-yellow-100 text-yellow-800 dark:bg-yellow-950/10 dark:border-yellow-900/20 dark:text-yellow-300" },
-  { emoji: "??", label: "Drained", tint: "bg-rose-50/50 border-rose-100 text-rose-800 dark:bg-rose-950/10 dark:border-rose-900/20 dark:text-rose-300" },
+  { emoji: "calm", label: "Calm", icon: <Wind size={24} />, tint: "bg-emerald-50/50 border-emerald-100 text-emerald-800 dark:bg-emerald-950/10 dark:border-emerald-900/20 dark:text-emerald-300" },
+  { emoji: "light", label: "Light", icon: <Sun size={24} />, tint: "bg-amber-50/50 border-amber-100 text-amber-800 dark:bg-amber-950/10 dark:border-amber-900/20 dark:text-amber-300" },
+  { emoji: "driven", label: "Driven", icon: <Flame size={24} />, tint: "bg-orange-50/50 border-orange-100 text-orange-800 dark:bg-orange-950/10 dark:border-orange-900/20 dark:text-orange-300" },
+  { emoji: "content", label: "Content", icon: <HeartHandshake size={24} />, tint: "bg-pink-50/50 border-pink-100 text-pink-800 dark:bg-pink-950/10 dark:border-pink-900/20 dark:text-pink-300" },
+  { emoji: "steady", label: "Steady", icon: <Anchor size={24} />, tint: "bg-blue-50/50 border-blue-100 text-blue-800 dark:bg-blue-950/10 dark:border-blue-900/20 dark:text-blue-300" },
+  { emoji: "tender", label: "Tender", icon: <CloudRain size={24} />, tint: "bg-slate-50/50 border-white/60 text-slate-800 dark:bg-slate-950/10 dark:border-slate-900/20 dark:text-slate-300" },
+  { emoji: "heavy", label: "Heavy", icon: <Coffee size={24} />, tint: "bg-indigo-50/50 border-indigo-100 text-indigo-800 dark:bg-indigo-950/10 dark:border-indigo-900/20 dark:text-indigo-300" },
+  { emoji: "thoughtful", label: "Thoughtful", icon: <Activity size={24} />, tint: "bg-teal-50/50 border-teal-100 text-teal-800 dark:bg-teal-950/10 dark:border-teal-900/20 dark:text-teal-300" },
+  { emoji: "restless", label: "Restless", icon: <BatteryWarning size={24} />, tint: "bg-yellow-50/50 border-yellow-100 text-yellow-800 dark:bg-yellow-950/10 dark:border-yellow-900/20 dark:text-yellow-300" },
+  { emoji: "drained", label: "Drained", icon: <Battery size={24} />, tint: "bg-rose-50/50 border-rose-100 text-rose-800 dark:bg-rose-950/10 dark:border-rose-900/20 dark:text-rose-300" },
 ];
 
 const vibeEmojiMap: Record<string, string> = vibes.reduce((acc, v) => ({ ...acc, [v.label]: v.emoji }), {});
@@ -464,7 +464,7 @@ function VibeTrackerInner() {
                                 <div className="flex items-center justify-between">
                                   <div className="flex items-center gap-3">
                                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl transition-colors ${matchingVibe?.tint || 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950'}`}>
-                                      {vibeEmojiMap[entry.vibe] || "?"}
+                                      {(vibes.find(v => v.label === entry.vibe)?.icon || vibeEmojiMap[entry.vibe]) || "?"}
                                     </div>
                                     <div>
                                       <h4 className="font-black text-slate-800 dark:text-slate-200 text-sm uppercase tracking-wider">

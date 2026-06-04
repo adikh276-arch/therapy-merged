@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -299,7 +299,7 @@ function JoyfulActivitiesInner() {
                   <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm text-left space-y-5 p-5">
                     <div className="flex items-center gap-3 border-b border-sky-50 pb-4">
                       <div className="w-10 h-10 bg-rose-50 text-rose-500 rounded-xl flex items-center justify-center text-xl shrink-0">
-                        ??
+                        <Sparkles size={20} />
                       </div>
                       <div>
                         <h3 className="font-bold text-slate-800 text-base leading-snug">{data.activity}</h3>

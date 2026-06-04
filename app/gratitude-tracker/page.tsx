@@ -1,10 +1,11 @@
 'use client';
+import React from 'react';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Loader2, Sparkles, Heart, ArrowLeft, ArrowRight, Smile, Check, History } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Loader2, Sparkles, Heart, ArrowLeft, ArrowRight, Smile, Check, History, Sun, Cloud, CloudRain, CloudLightning } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
@@ -18,14 +19,15 @@ type Screen = 'overview' | 'entry' | 'mood' | 'review' | 'history';
 interface MoodOption {
   emoji: string;
   label: string;
+  icon?: React.ReactNode;
 }
 
 const MOODS: MoodOption[] = [
-  { emoji: "??", label: "Happy" },
-  { emoji: "??", label: "Calm" },
-  { emoji: "??", label: "Neutral" },
-  { emoji: "??", label: "Low" },
-  { emoji: "??", label: "Stressed" },
+  { emoji: "happy", label: "Happy", icon: <Sun size={24} className="text-amber-500" /> },
+  { emoji: "calm", label: "Calm", icon: <Smile size={24} className="text-emerald-500" /> },
+  { emoji: "neutral", label: "Neutral", icon: <Cloud size={24} className="text-slate-500" /> },
+  { emoji: "low", label: "Low", icon: <CloudRain size={24} className="text-indigo-500" /> },
+  { emoji: "stressed", label: "Stressed", icon: <CloudLightning size={24} className="text-rose-500" /> },
 ];
 
 interface GratitudeEntry {
@@ -359,7 +361,7 @@ function GratitudeTrackerInner() {
                             : 'bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100'
                         }`}
                       >
-                        <span className="text-2xl">{opt.emoji}</span>
+                        <span className="text-2xl flex items-center justify-center">{opt.icon || opt.emoji}</span>
                         <span className={`text-sm font-semibold ${isSelected ? 'text-white' : 'text-slate-700'}`}>
                           {t(`mood.${opt.label.toLowerCase()}`, opt.label)}
                         </span>
@@ -413,7 +415,7 @@ function GratitudeTrackerInner() {
                       </span>
                       {selectedMood && (
                         <div className="flex items-center gap-2 px-3 py-1 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 shrink-0">
-                          <span className="text-lg leading-none">{selectedMood.emoji}</span>
+                          <span className="text-lg leading-none flex items-center justify-center">{selectedMood.icon || selectedMood.emoji}</span>
                           <span className="text-[11px] font-semibold">
                             {t(`mood.${selectedMood.label.toLowerCase()}`, selectedMood.label)}
                           </span>
@@ -593,7 +595,9 @@ function GratitudeTrackerInner() {
                           </span>
                         </div>
                         <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-primary/10 text-primary shrink-0">
-                          <span className="text-xl leading-none">{selectedHistoryEntry.mood.emoji}</span>
+                          <span className="text-xl leading-none flex items-center justify-center">
+    {MOODS.find(m => m.label === selectedHistoryEntry.mood.label)?.icon || selectedHistoryEntry.mood.emoji}
+  </span>
                           <span className="text-[10px] font-black uppercase tracking-widest">
                             {t(`mood.${selectedHistoryEntry.mood.label.toLowerCase()}`, selectedHistoryEntry.mood.label)}
                           </span>

@@ -1,9 +1,10 @@
 ﻿'use client';
+import React from 'react';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useTranslation as useTrans, I18nextProvider as I18nProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { BatteryMedium, History, ArrowLeft, ArrowRight, Check, Sparkles, Coffee, Droplets, Footprints, Info, Loader2 } from 'lucide-react';
+import { BatteryMedium, History, ArrowLeft, ArrowRight, Check, Sparkles, Coffee, Droplets, Footprints, Info, Loader2, BatteryWarning, Battery as BatteryFull, BatteryLow, Zap } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
@@ -24,12 +25,12 @@ interface EnergyEntry {
 
 type Screen = 'overview' | 'checkin' | 'factors' | 'summary' | 'weekly';
 
-const EMOJI_MAP: Record<EnergyLevel, string> = {
-  'very-low': '??',
-  'low': '??',
-  'okay': '??',
-  'good': '??',
-  'high': '?',
+const EMOJI_MAP: Record<EnergyLevel, React.ReactNode> = {
+  'very-low': <BatteryWarning size={32} className="text-rose-500" />,
+  'low': <BatteryLow size={32} className="text-amber-500" />,
+  'okay': <BatteryMedium size={32} className="text-blue-500" />,
+  'good': <BatteryFull size={32} className="text-teal-500" />,
+  'high': <Zap size={32} className="text-emerald-500" />,
 };
 
 const ENERGY_LEVEL_NUMS: Record<EnergyLevel, number> = {
@@ -373,7 +374,7 @@ function EnergyTrackerInner() {
                             : 'bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100'
                         }`}
                       >
-                        <span className="text-2xl">{opt.emoji}</span>
+                        <span className="text-2xl flex items-center justify-center">{opt.emoji}</span>
                         <span className={`text-sm font-semibold ${isSelected ? 'text-white' : 'text-slate-700'}`}>
                           {opt.label}
                         </span>
@@ -494,7 +495,7 @@ function EnergyTrackerInner() {
                   title={t('today_energy', `Today you're feeling {{label}}`, { label: numToLabel[ENERGY_LEVEL_NUMS[activeLevel]] })}
                   message={supportiveMessages[activeLevel]}
                   onRestart={handleReset}
-                  icon={<span className="text-6xl filter drop-shadow-md">{EMOJI_MAP[activeLevel]}</span>}
+                  icon={<span className="text-6xl filter drop-shadow-md flex items-center justify-center scale-150">{EMOJI_MAP[activeLevel]}</span>}
                   shareEmoji=""
                   shareContent={"I just completed 'Energy Tracker' on TherapyMantra — a guided energy tracking that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
