@@ -26,6 +26,7 @@ import {
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import '@/lib/i18n/i18n';
+import { loadGlobalResource as loadLocale } from '@/lib/i18n/i18n';
 import { withLang } from '@/lib/navigation';
 
 const iconMap: Record<string, any> = {
@@ -58,6 +59,17 @@ interface GuidedSeriesClientProps {
 
 export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang') || 'en';
+      if (typeof loadLocale === 'function') {
+        loadLocale(lang);
+      }
+    }
+  }, []);
+
   const router = useRouter();
 
   const containerVariants = {

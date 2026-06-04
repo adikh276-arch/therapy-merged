@@ -1,16 +1,28 @@
 'use client';
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { withLang } from "@/lib/navigation";
 import { Wind } from "lucide-react";
-import '../i18n/i18n'; // Initialize i18n for this feature
+import '../i18n/i18n';
+import { loadLocale } from '../i18n/i18n';
 
 const CompletionScreen = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang') || 'en';
+      if (typeof loadLocale === 'function') {
+        loadLocale(lang);
+      }
+    }
+  }, []);
+
   const router = useRouter();
   const [reflection, setReflection] = useState("");
 

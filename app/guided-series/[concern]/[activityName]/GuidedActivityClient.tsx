@@ -1,12 +1,13 @@
 'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, Send, CheckCircle2, History, Plus, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import '@/lib/i18n/i18n';
+import { loadGlobalResource as loadLocale } from '@/lib/i18n/i18n';
 import { apiPath } from '@/lib/apiPath';
 
 interface GuidedActivityClientProps {
@@ -33,6 +34,17 @@ interface HistoryEntry {
 
 export function GuidedActivityClient({ concern, activityName }: GuidedActivityClientProps) {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang') || 'en';
+      if (typeof loadLocale === 'function') {
+        loadLocale(lang);
+      }
+    }
+  }, []);
+
   const router = useRouter();
   const [reflection, setReflection] = useState('');
   const [isSaving, setIsSaving] = useState(false);

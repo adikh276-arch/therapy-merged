@@ -1,11 +1,11 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Pause, Play, RotateCcw, Wind } from 'lucide-react';
 import { useSound } from '@/lib/hooks/useSound';
 import { motion, AnimatePresence } from 'framer-motion';
 import { I18nextProvider, useTranslation } from 'react-i18next';
-import i18n from './i18n';
+import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
 import { PremiumComplete } from '@/components/shared/PremiumComplete';
@@ -212,6 +212,14 @@ type Screen = 'overview' | 'session' | 'complete';
 function BoxBreathingInner() {
   const { t } = useTranslation(undefined, { i18n });
   const [screen, setScreen] = useState<Screen>('overview');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang') || 'en';
+      loadLocale(lang);
+    }
+  }, []);
 
   return (
     <PremiumLayout

@@ -7,7 +7,8 @@ import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { withLang } from "@/lib/navigation";
-import '../i18n/i18n'; // Initialize i18n for this feature
+import '../i18n/i18n';
+import { loadLocale } from '../i18n/i18n';
 
 type Phase = "inhale" | "hold" | "exhale";
 type Status = "idle" | "running" | "paused";
@@ -22,6 +23,17 @@ const PHASE_ORDER: Phase[] = ["inhale", "hold", "exhale"];
 
 const ActiveBreathing = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang') || 'en';
+      if (typeof loadLocale === 'function') {
+        loadLocale(lang);
+      }
+    }
+  }, []);
+
   const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [totalRounds, setTotalRounds] = useState(4);

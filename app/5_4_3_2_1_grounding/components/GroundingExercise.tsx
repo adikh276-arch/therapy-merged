@@ -1,5 +1,6 @@
 'use client';
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect } from "react";
+import { loadLocale } from "../i18n/i18n";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { PremiumIntro } from "../../../components/shared/PremiumIntro";
@@ -21,6 +22,17 @@ const stepIcons = [
 
 const GroundingExercise = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang') || 'en';
+      if (typeof loadLocale === 'function') {
+        loadLocale(lang);
+      }
+    }
+  }, []);
+
   const [currentStep, setCurrentStep] = useState(0);
   const [responses, setResponses] = useState<Record<number, string[]>>({});
   const [reflectionWord, setReflectionWord] = useState("");
