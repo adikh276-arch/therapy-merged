@@ -642,7 +642,13 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <button 
-                      onClick={handlePlatformExit} 
+                      onClick={() => {
+                        if (window.parent !== window) {
+                           window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+                        } else {
+                           window.location.href = 'https://web.mantracare.com';
+                        }
+                      }} 
                       className="p-2 -ml-2 text-slate-400 hover:text-slate-600"
                     >
                       <ChevronLeft size={24} />
