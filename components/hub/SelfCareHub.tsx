@@ -481,7 +481,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                   className="space-y-8"
                 >
                   <button
-                    onClick={() => router.back()}
+                    onClick={() => router.push(withLang('/'))}
                     className="flex items-center gap-2 text-[#64748B] hover:text-[#020817] transition-colors group mb-4"
                   >
                     <ChevronLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
@@ -642,13 +642,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <button 
-                      onClick={() => {
-                        if (window.parent !== window) {
-                          window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-                        } else {
-                          window.location.href = withLang('https://web.mantracare.com');
-                        }
-                      }} 
+                      onClick={handlePlatformExit} 
                       className="p-2 -ml-2 text-slate-400 hover:text-slate-600"
                     >
                       <ChevronLeft size={24} />
