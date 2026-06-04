@@ -25,7 +25,7 @@ interface SelfCareEntry {
 
 const ACTIVITIES = [
   "Exercise", "Meditation", "Journaling", "Reading",
-  "Rest / Nap", "Skincare", "Healthy Meal", "Nature / Walk",
+  "Rest", "Nap", "Skincare", "Healthy Meal", "Nature", "Walk",
   "Social Time", "Hobby", "Therapy", "Digital Detox",
 ];
 
@@ -391,13 +391,12 @@ function CareTrackerInner() {
                     {t('common.date', 'Date')}
                   </label>
                   <div className="relative flex items-center">
-                    <Calendar size={18} className="absolute left-6 text-slate-450 pointer-events-none" />
                     <input
                       type="date"
                       value={entry.date}
                       max={toLocalIsoDate(new Date())}
                       onChange={(e) => handleDateChange(e.target.value)}
-                      className="field-input pl-14"
+                      className="field-input w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-bold focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
                     />
                   </div>
                 </div>
