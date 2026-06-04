@@ -20,12 +20,12 @@ export function StaticContentViewerClient({ concern, type }: StaticContentViewer
       <header className="flex items-center px-4 h-14 bg-white border-b gap-3 flex-shrink-0">
         <button
           onClick={() => {
-            if (typeof window !== 'undefined' && window.parent !== window) {
-              window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-            } else {
-              router.back();
-            }
-          }}
+             if (window.parent !== window) {
+                window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+             } else {
+                window.location.href = 'https://web.mantracare.com';
+             }
+            }}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
         >
           <ChevronLeft size={20} />
