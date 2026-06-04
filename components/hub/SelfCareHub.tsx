@@ -677,7 +677,11 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         onClick={() => {
                           playPop();
                           if (tool.id === 'mindful-space') {
-                            if (typeof window !== 'undefined') window.location.href = withLang('https://web.mantracare.com');
+                            if (window.parent !== window) {
+                              window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+                            } else {
+                              window.location.href = 'https://web.mantracare.com';
+                            }
                           } else if (tool.url?.startsWith('http')) {
                             window.location.href = withLang(tool.url);
                           } else {
