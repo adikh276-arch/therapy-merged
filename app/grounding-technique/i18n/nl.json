@@ -1,5 +1,12 @@
 {
   "Grounding": "Aarding",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Grounding-technieken helpen je aandacht terug te brengen naar het huidige moment."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Kies één activiteit die op dit moment ondersteunend aanvoelt."
+  },
+  "Step": "Step",
   "Back": "Achteruit",
   "Next": "Volgende",
   "I Feel More Grounded": "Ik voel me meer geaard",
@@ -16,110 +23,195 @@
   "Move your body": "Beweeg je lichaam",
   "Listen to your surroundings": "Luister naar je omgeving",
   "Check in with your body": "Check even met je lichaam",
+  "Run your hands under cool or warm water": {
+    "": "Houd je handen onder koud of warm water."
+  },
+  "Notice the temperature": {
+    "": "Let op de temperatuur."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Let op het gevoel op je huid."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Let op hoe het van moment tot moment verandert."
+  },
+  "Let your breathing slow naturally": {
+    "": "Laat je ademhaling vanzelf vertragen."
+  },
+  "Choose a nearby object": {
+    "": "Kies een object in de buurt."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Let op de textuur, het gewicht en de temperatuur."
+  },
   "Is it smooth or rough? Heavy or light?": "Is het glad of ruw? Zwaar of licht?",
+  "Let your focus stay fully on this one object": {
+    "": "Laat je aandacht volledig op dit ene object blijven."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Adem langzaam in door je neus."
+  },
+  "Hold gently for a moment": {
+    "": "Houd het even voorzichtig vast."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Adem langzaam uit door je mond."
+  },
+  "Repeat several times": {
+    "": "Herhaal dit meerdere keren."
+  },
+  "Let your shoulders soften": {
+    "": "Laat je schouders verslappen."
+  },
+  "Take a small bite": {
+    "": "Neem een klein hapje."
+  },
+  "Chew slowly": {
+    "": "Kauw langzaam."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Let op de smaak, textuur en temperatuur."
+  },
+  "Stay fully present with the experience": {
+    "": "Blijf volledig aanwezig bij de ervaring."
+  },
+  "Take a slow sip": {
+    "": "Neem een langzame slok."
+  },
+  "Notice the temperature and taste": {
+    "": "Let op de temperatuur en smaak."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Voel het gevoel terwijl je slikt."
+  },
+  "Let yourself stay with that moment": {
+    "": "Laat jezelf bij dat moment blijven."
+  },
+  "Walk slowly and intentionally": {
+    "": "Loop langzaam en doelbewust."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Let op het gevoel van je voeten die de grond raken."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Observeer je omgeving zonder oordeel."
+  },
+  "Let your breath match your steps": {
+    "": "Laat je adem je passen volgen."
+  },
+  "Hold the ice in your hand": {
+    "": "Houd het ijs in je hand."
+  },
+  "Notice the cold sensation": {
+    "": "Let op het koude gevoel."
+  },
+  "Focus fully on the feeling": {
+    "": "Focus volledig op het gevoel."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Laat het sterke gevoel je aan het heden verankeren."
+  },
+  "Choose a scent nearby": {
+    "": "Kies een geur in de buurt."
+  },
+  "Inhale slowly": {
+    "": "Adem langzaam in."
+  },
+  "Notice how it feels in your body": {
+    "": "Let op hoe het in je lichaam aanvoelt."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Laat de geur je in dit moment brengen."
+  },
+  "Stretch gently": {
+    "": "Rek je voorzichtig uit."
+  },
+  "Roll your shoulders": {
+    "": "Rol met je schouders."
+  },
+  "Shift your weight from side to side": {
+    "": "Verplaats je gewicht van links naar rechts."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Let op hoe je lichaam aanvoelt terwijl het beweegt."
+  },
+  "Pause and listen": {
+    "": "Pauzeer en luister."
+  },
+  "Identify three distinct sounds": {
+    "": "Identificeer drie verschillende geluiden."
+  },
   "Are they near or far?": "Zijn ze dichtbij of ver weg?",
+  "Let your attention rest on each one": {
+    "": "Laat je aandacht op elk van hen rusten."
+  },
+  "Close your eyes if comfortable": {
+    "": "Sluit je ogen als je je prettig vindt."
+  },
+  "Scan from head to toe": {
+    "": "Scan van top tot teen."
+  },
+  "Notice areas of tension or ease": {
+    "": "Let op plekken met spanning of ontspanning."
+  },
+  "Breathe into any tightness": {
+    "": "Adem in elke strakheid."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Begin",
     "start_over": "Opnieuw beginnen",
-    "finish_exit": "Voltooien en afsluiten",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Tijd om te voltooien",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden...",
     "share": "Deel",
     "share_progress": "Voortgang delen",
-    "inspire_others": "Inspireer anderen vandaag nog",
-    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
-    "this_activity": "deze activiteit",
+    "inspire_others": "Inspireer vandaag anderen",
+    "share_text": "Ik heb dit {{activityName}} gedaan in TherapyMantra en vind het echt leuk, je kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of iOS-app {{iosUrl}}",
+    "this_activity": "Deze activiteit",
     "copied": "Gekopieerd!",
-    "copy_message": "Bericht kopiëren",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "Kopieer bericht",
+    "yes": "Ja",
+    "no": "Nee",
+    "date": "Datum",
+    "continue": "Ga verder",
+    "step_of": "Stap {{current}} van {{total}}",
+    "round_of": "Ronde {{current}} van {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondes",
+    "instruction_ready": "Stel je rondes in en tik op play om te beginnen",
+    "instruction_running": "Volg de cirkel om je ademhaling te reguleren"
   },
   "app_title": "Aarding",
-  "Step": "Stap",
   "app_description": "Aarding",
-  "change_language": "Taal wijzigen",
+  "change_language": "Verander taal",
   "search_language": "Zoektaal...",
   "more": "Meer",
-  "breadcrumb": "paneermeel",
+  "breadcrumb": "broodkruimel",
   "previous_slide": "Vorige dia",
   "next_slide": "Volgende dia",
-  "close": "Dichtbij",
-  "previous": "Vorig",
+  "close": "Sluit",
+  "previous": "Eerder",
   "more_pages": "Meer pagina's",
-  "pagination": "paginering",
-  "go_to_previous_page": "Ga naar de vorige pagina",
-  "go_to_next_page": "Ga naar de volgende pagina",
-  "toggle_sidebar": "Zijbalk in-/uitschakelen",
-  "stay_present": "Blijf aanwezig",
+  "pagination": "Paginering",
+  "go_to_previous_page": "Ga naar vorige pagina",
+  "go_to_next_page": "Ga naar volgende pagina",
+  "toggle_sidebar": "Toggle zijbalk",
+  "stay_present": "Blijf Aanwezig",
   "oops_page_not_found": "Oeps! Pagina niet gevonden",
-  "return_to_home": "Terug naar de homepage",
+  "return_to_home": "Terugkeer naar huis",
   "grounding_technique": "Aardingstechniek",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Fase",
+  "instruction_ready": "Stel je rondes in en tik op play om te beginnen",
+  "instruction_running": "Volg de cirkel om je ademhaling te reguleren",
+  "round_x_of_y": "Ronde {{current}} van {{total}}",
+  "rounds_selector": "{{count}} Rondes",
+  "yes": "Ja",
+  "no": "Nee",
+  "date": "Datum",
+  "continue": "Ga verder"
 }

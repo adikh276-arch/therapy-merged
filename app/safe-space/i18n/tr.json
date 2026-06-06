@@ -1,57 +1,57 @@
 {
   "app_title": "Güvenli Alan",
-  "nav": [
-    "Check-in",
-    "Nazikçe Hatırlama",
-    "Gözlem",
-    "Günümüzde Kalmak",
-    "İleriye Gitmek"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Nazikçe Hatırlama",
+    "2": "Gözlem",
+    "3": "Günümüzde Kalmak",
+    "4": "İleriye Gitmek"
+  },
   "s1": {
     "title": "Hadi iyi hissettiren bir yer bulalım",
-    "description": [
-      "Başlamadan önce, bir an durup durumu kontrol edin...",
-      "Şu anda nasıl hissediyorsun?",
-      "Mükemmel bir \"güvenli yer\" aramıyoruz. Sadece biraz sakin ya da iyi hissettiren bir şey."
-    ],
+    "description": {
+      "0": "Başlamadan önce, bir an durup durumu kontrol edin...",
+      "1": "Şu anda nasıl hissediyorsun?",
+      "2": "Mükemmel bir \"güvenli yer\" aramıyoruz. Sadece biraz sakin ya da iyi hissettiren bir şey."
+    },
     "placeholder": "Şu anda nasıl hissediyorsun?",
     "button": "Görselleştirmeye Başlayın"
   },
   "s2": {
     "title": "Nazikçe aklına getir",
-    "description": [
-      "Biraz bile rahat hissettiğin bir yer düşün... ya da var olmasını dilediğiniz bir yer.",
-      "Şimdi kendini oraya yerleştir...",
-      "Oturuyor musun, ayakta mı yoksa yatıyor musun?"
-    ],
+    "description": {
+      "0": "Biraz bile rahat hissettiğin bir yer düşün... ya da var olmasını dilediğiniz bir yer.",
+      "1": "Şimdi kendini oraya yerleştir...",
+      "2": "Oturuyor musun, ayakta mı yoksa yatıyor musun?"
+    },
     "button": "Devam et"
   },
   "s3": {
     "title": "Etrafına yavaşça bak",
-    "description": [
-      "Etrafına nazikçe bakın...",
-      "Görebildiğiniz bir şey nedir?",
-      "Şimdi bir ses fark edin... Ne duyuyorsun?"
-    ],
+    "description": {
+      "0": "Etrafına nazikçe bakın...",
+      "1": "Görebildiğiniz bir şey nedir?",
+      "2": "Şimdi bir ses fark edin... Ne duyuyorsun?"
+    },
     "button": "Devam et"
   },
   "s4": {
     "title": "Buna devam et",
-    "description": [
-      "Bu yerin biraz da olsa güvenli ya da iyi hissettiren ne var?",
-      "Fark ettiğiniz gibi...",
-      "Ayrıca dikkatinizi nefesinize de çekin."
-    ],
-    "breathe": "nefes al",
+    "description": {
+      "0": "Bu yerin biraz da olsa güvenli ya da iyi hissettiren ne var?",
+      "1": "Fark ettiğiniz gibi...",
+      "2": "Ayrıca dikkatinizi nefesinize de çekin."
+    },
+    "breathe": "Nefes al",
     "notice": "Hayal etmek zor geliyorsa, bu yerin fikrini düşün.",
     "button": "Devam et"
   },
   "s5": {
     "title": "Bunu yanında al",
-    "description": [
-      "Şu anda nasıl hissettiğine dikkat et. Küçük bir vardiya bile önemlidir.",
-      "Bu hissin %5'ini bile taşıyabilir miyin bak."
-    ],
+    "description": {
+      "0": "Şu anda nasıl hissettiğine dikkat et. Küçük bir vardiya bile önemlidir.",
+      "1": "Bu hissin %5'ini bile taşıyabilir miyin bak."
+    },
     "placeholder": "Şimdi nasıl hissediyorsun?",
     "button": "Tam Oturum"
   },
@@ -60,55 +60,55 @@
     "message": "Bu güvenli yer her zaman sizin için açıktır. Ne zaman sakinleşmeye ihtiyacın olursa buraya dönebilirsin."
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Baştan Başla",
-    "finish_exit": "Bitir ve Çık",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Tamamlama süresi",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Paylaşmak",
-    "share_progress": "İlerlemenizi Paylaşın",
-    "inspire_others": "Bugün başkalarına ilham verin.",
-    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
-    "this_activity": "bu aktivite",
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor...",
+    "share": "Paylaş",
+    "share_progress": "İlerleme Paylaş",
+    "inspire_others": "Bugün başkalarına ilham verin",
+    "share_text": "Bunu {{activityName}} ile TherapyMantra'da yaptım ve gerçekten keyif aldım, siz de yapabilirsiniz, android uygulaması {{androidUrl}} veya iOS uygulaması {{iosUrl}} bağlantısını takip edin.",
+    "this_activity": "Bu faaliyet",
     "copied": "Kopyalandı!",
     "copy_message": "Mesajı Kopyala",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Evet",
+    "no": "Hayır",
+    "date": "Tarih",
+    "continue": "Devam et",
+    "step_of": "{{total}} aşaması {{current}}",
+    "round_of": "{{total}} turu {{current}}",
+    "phase_label": "Faz",
+    "rounds_selector": "{{count}} Turlar",
+    "instruction_ready": "Turlarınızı ayarlayın ve başlamak için oynatmaya dokunun",
+    "instruction_running": "Nefesinizi düzenlemek için daireyi takip edin"
   },
   "app_description": "Güvenli Alan",
-  "more": "Daha",
-  "breadcrumb": "ekmek kırıntısı",
+  "more": "Daha fazlası",
+  "breadcrumb": "Ekmek kırıntısı",
   "previous_slide": "Önceki slayt",
   "next_slide": "Sonraki slayt",
-  "close": "Kapalı",
-  "previous": "Öncesi",
+  "close": "Kapat",
+  "previous": "Önceki",
   "more_pages": "Daha fazla sayfa",
-  "pagination": "sayfalama",
-  "go_to_previous_page": "Önceki sayfaya git",
-  "go_to_next_page": "Sonraki sayfaya git",
-  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
-  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
-  "return_to_home": "Ana sayfaya dön",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "pagination": "Sayfa Oluşturma",
+  "go_to_previous_page": "Önceki sayfaya geç",
+  "go_to_next_page": "Bir sonraki sayfaya geç",
+  "toggle_sidebar": "Yan Çubuğu Aç",
+  "oops_page_not_found": "Hop! Sayfa bulunmadı",
+  "return_to_home": "Eve Dönüş",
+  "phase_label": "Faz",
+  "instruction_ready": "Turlarınızı ayarlayın ve başlamak için oynatmaya dokunun",
+  "instruction_running": "Nefesinizi düzenlemek için daireyi takip edin",
+  "round_x_of_y": "{{total}} turu {{current}}",
+  "rounds_selector": "{{count}} Turlar",
+  "yes": "Evet",
+  "no": "Hayır",
+  "date": "Tarih",
+  "continue": "Devam et"
 }

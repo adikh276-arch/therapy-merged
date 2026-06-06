@@ -1,11 +1,11 @@
 {
   "app_title": "Sömncykelguide",
-  "pill_labels": [
-    "Introduktion",
-    "De 4 stegen",
-    "Den sömniga sanningen",
-    "Hur är det med dig?"
-  ],
+  "pill_labels": {
+    "0": "Introduktion",
+    "1": "De 4 stegen",
+    "2": "Den sömniga sanningen",
+    "3": "Hur är det med dig?"
+  },
   "s1": {
     "title": "Har du någonsin sovit åtta timmar och ändå känt dig hemsk?",
     "p1": "Det handlar inte om <1>hur länge</1> du sover.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Din hjärna gör DETTA varje natt 🌀",
     "desc": "Var 90:e minut cyklar din hjärna genom fyra steg – som en spellista på repeat. Tryck på varje för att utforska 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Lätt sömn",
         "tag": "1–5 minuter · lättväckt",
         "body": "Du håller på att somna. Kroppen börjar släppa taget, musklerna kan rycka. Väldigt lätt att vakna härifrån."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Att slå sig till ro",
         "tag": "10–25 minuter · verkligen sovande",
         "body": "Hjärtfrekvensen saktar ner, kroppstemperaturen sjunker. Du sover ordentligt — hjärnaktiviteten börjar sakta ner."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Djupsömn ⭐",
         "tag": "20–40 minuter · Guldet",
         "body": "Kroppen reparerar vävnad, bygger upp immunitet. Det mest fysiskt återställande stadiet – svårt att vakna från."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM-sömn",
         "tag": "10–60 minuter · Drömläge",
         "body": "Hjärnan surrar av aktivitet. Känslor bearbetas, minnen låser sig. Att hoppa över detta gör dig dimmig."
       }
-    ],
+    },
     "italic": "Djupsömn fixar din kropp. REM fixar ditt sinne.",
     "button": "Så varför känner jag mig fortfarande groggy? →"
   },
@@ -52,126 +52,126 @@
     "p1": "Dragen ur djup sömn av ett alarm? Din hjärna har bokstavligen inte avslutat det den höll på med. Den där dimmiga tunga känslan? Det är <1>sömntröghet</1>.",
     "wave": {
       "light": "Ljus",
-      "deep": "djupt",
+      "deep": "Deep",
       "groggy": "😫 groggy",
       "fresh": "😊 Färsk",
-      "cycles": [
-        "Cykel 1",
-        "Cykel 2",
-        "Cykel 3"
-      ]
+      "cycles": {
+        "0": "Cykel 1",
+        "1": "Cykel 2",
+        "2": "Cykel 3"
+      }
     },
     "disruptors_title": "Vad stör dina cykler 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Skärmar före läggdags",
         "sub": "fördröjer djupsömn"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Sent koffein",
         "sub": "Minskar djupsömnen med upp till 20 %"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Oregelbundna sömntider",
         "sub": "Bryter din naturliga rytm"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stress och ångest",
         "sub": "håller dig fast i lätt sömn"
       }
-    ],
+    },
     "italic": "Dina vanor formar direkt vilka stadier du når nå.",
     "button": "Vad betyder detta för mig? →"
   },
   "s4": {
     "title": "Vilken låter som du? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Jag vaknar fysiskt utmattad",
         "sub": "Förmodligen saknar jag djup sömn",
         "tip": "Fokusera på en jämn sömn och uppvaknande tid – din kropp behöver en regelbunden rytm för att nå djupsömn."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Jag känner mig känslomässigt dimmig eller låg",
         "sub": "troligen saknar jag REM-sömn",
         "tip": "Försök varva ner 30 minuter innan du går och lägger dig – en lugn rutin före sömn skyddar din REM-sömn."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Jag vaknar ofta på nätterna",
         "sub": "Cykler blir ständigt avbrutna",
         "tip": "Ett svalt, mörkt och tyst rum hjälper din hjärna att stanna i djupare stadier utan avbrott."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Jag mår okej men inte bra",
         "sub": "cyklerna är partiella men inte fullständiga",
         "tip": "Försök gå och lägga dig 20 minuter tidigare – du kanske bara behöver en komplett sömncykel till."
       }
-    ],
+    },
     "quote": "Sömn är inte bara vila – det är aktiv återhämtning. Skydda dina cykler och hela din dag förändras.",
     "button": "Klart ✓"
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Börja om från början",
-    "finish_exit": "Slutför och avsluta",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
     "time_to_complete": "Dags att slutföra",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar...",
     "share": "Dela",
     "share_progress": "Dela framsteg",
     "inspire_others": "Inspirera andra idag",
-    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
-    "this_activity": "den här aktiviteten",
-    "copied": "Kopierad!",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och tycker verkligen om det, du kan göra det också, följ bara länken till android-appen {{androidUrl}} eller ios-appen {{iosUrl}}",
+    "this_activity": "Denna aktivitet",
+    "copied": "Kopierat!",
     "copy_message": "Kopiera meddelande",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Ja",
+    "no": "Nej",
+    "date": "Datum",
+    "continue": "Fortsätt",
+    "step_of": "Steg {{current}} av {{total}}",
+    "round_of": "Runda {{current}} av {{total}}",
+    "phase_label": "Fas",
+    "rounds_selector": "{{count}} Rundor",
+    "instruction_ready": "Ställ in dina rundor och tryck på play för att börja",
+    "instruction_running": "Följ cirkeln för att reglera din andning"
   },
-  "app_description": "Guide till sömncykeln",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(föregående + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setAktuellSkärm(föregående => Math.max(föregående - 1, 0));\n\nconst screens = [\n\n\n\nconst screens = [\n...",
+  "app_description": "Sömncykelguide",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(föregående + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(tidigare => Math.max(föregående - 1, 0));\n\nConst-skärmar = [",
   "it_s_not_about": "Det handlar inte om",
   "it_s_about": "Det handlar om",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Dragad ur djupsömnen av ett alarm? Din hjärna har bokstavligen inte avslutat det den höll på med. Den där dimmiga, tunga känslan? Det är...",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Dragen ur djup sömn av ett alarm? Din hjärna har bokstavligen inte avslutat det den höll på med. Den där dimmiga tunga känslan? Det är",
   "more": "Mer",
-  "breadcrumb": "brödsmulor",
+  "breadcrumb": "Brödsmula",
   "previous_slide": "Föregående bild",
   "next_slide": "Nästa bild",
-  "close": "Nära",
+  "close": "Stäng",
   "previous": "Tidigare",
   "more_pages": "Fler sidor",
-  "pagination": "paginering",
+  "pagination": "Paginering",
   "go_to_previous_page": "Gå till föregående sida",
   "go_to_next_page": "Gå till nästa sida",
-  "toggle_sidebar": "Växla sidofält",
-  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
-  "return_to_home": "Återvänd till hemmet",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "toggle_sidebar": "Vipp-sidofält",
+  "oops_page_not_found": "Oj! Sidan hittades inte",
+  "return_to_home": "Återkomst hem",
+  "phase_label": "Fas",
+  "instruction_ready": "Ställ in dina rundor och tryck på play för att börja",
+  "instruction_running": "Följ cirkeln för att reglera din andning",
+  "round_x_of_y": "Runda {{current}} av {{total}}",
+  "rounds_selector": "{{count}} Rundor",
+  "yes": "Ja",
+  "no": "Nej",
+  "date": "Datum",
+  "continue": "Fortsätt"
 }

@@ -1,125 +1,217 @@
 {
-  "Grounding": "Topraklama",
+  "Grounding": "Karaya oturma",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Topraklama teknikleri, dikkatinizi tekrar şu ana çekmeye yardımcı olur."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Şu anda destekleyici hissettiren bir aktivite seçin."
+  },
   "Step": "Adım",
   "Back": "Geri",
-  "Next": "Sonraki",
-  "I Feel More Grounded": "Kendimi daha dengeli hissediyorum.",
-  "Choose Another Technique": "Başka bir teknik seçin",
+  "Next": "Sıradaki",
+  "I Feel More Grounded": "Kendimi daha sağlam hissediyorum",
+  "Choose Another Technique": "Başka Bir Teknik Seç",
   "Technique not found": "Teknik bulunamadı",
-  "Put your hands in water": "Ellerinizi suya batırın.",
-  "Pick up or touch items near you": "Yakınınızdaki nesneleri alın veya dokunun.",
-  "Breathe deeply": "Derin nefes alın",
-  "Savour your food": "Yemeğinizin tadını çıkarın.",
-  "Savour a drink": "Bir içeceğin tadını çıkarın.",
+  "Put your hands in water": "Ellerini suya koy",
+  "Pick up or touch items near you": "Yakınınızdaki eşyaları almak veya dokunmak",
+  "Breathe deeply": "Derin nefes al",
+  "Savour your food": "Yemeğinizin tadını çıkarın",
+  "Savour a drink": "Bir içeceğin tadını çıkar",
   "Take a short walk": "Kısa bir yürüyüş yapın",
-  "Hold a piece of ice": "Bir buz parçası tutun.",
-  "Savour a scent": "Kokunun tadını çıkarın",
-  "Move your body": "Vücudunuzu hareket ettirin",
-  "Listen to your surroundings": "Çevrenizi dinleyin.",
-  "Check in with your body": "Bedeninizle bağlantı kurun.",
-  "Is it smooth or rough? Heavy or light?": "Pürüzsüz mü, pürüzlü mü? Ağır mı, hafif mi?",
-  "Are they near or far?": "Yakınlar mı, uzaklar mı?",
+  "Hold a piece of ice": "Bir parça buz tutun",
+  "Savour a scent": "Bir kokunun tadını çıkarın",
+  "Move your body": "Vücudunu hareket ettir",
+  "Listen to your surroundings": "Çevrenizi dinleyin",
+  "Check in with your body": "Vücudunuzla kontrol yapın",
+  "Run your hands under cool or warm water": {
+    "": "Ellerinizi soğuk veya sıcak suyun altında gezdirin."
+  },
+  "Notice the temperature": {
+    "": "Sıcaklığa dikkat edin."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Cildinizdeki hisse dikkat edin."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Anın an an nasıl değiştiğini gözlemleyin."
+  },
+  "Let your breathing slow naturally": {
+    "": "Nefesini doğal olarak yavaşlat."
+  },
+  "Choose a nearby object": {
+    "": "Yakındaki bir nesneyi seçin."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Dokusuna, ağırlığına ve sıcaklığına dikkat edin."
+  },
+  "Is it smooth or rough? Heavy or light?": "Pürüzsüz mü yoksa pürüzlü mü? Ağır mı hafif mi?",
+  "Let your focus stay fully on this one object": {
+    "": "Tamamen bu nesneye odaklanın."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Burnundan yavaşça nefes al."
+  },
+  "Hold gently for a moment": {
+    "": "Bir an nazikçe tutun."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Ağzından yavaşça nefes ver."
+  },
+  "Repeat several times": {
+    "": "Birkaç kez tekrarlayın."
+  },
+  "Let your shoulders soften": {
+    "": "Omuzlarını yumuşat."
+  },
+  "Take a small bite": {
+    "": "Küçük bir ısırık al."
+  },
+  "Chew slowly": {
+    "": "Yavaşça çiğne."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Lezzet, doku ve sıcaklığa dikkat edin."
+  },
+  "Stay fully present with the experience": {
+    "": "Deneyimle tam olarak ilgili kalın."
+  },
+  "Take a slow sip": {
+    "": "Yavaşça bir yudum al."
+  },
+  "Notice the temperature and taste": {
+    "": "Sıcaklık ve tadı fark edin."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Yutkunurken hisset."
+  },
+  "Let yourself stay with that moment": {
+    "": "O anda kalmanıza izin verin."
+  },
+  "Walk slowly and intentionally": {
+    "": "Yavaş ve kasıtlı yürü."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Ayaklarınızın yere değdiği hissi fark edin."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Çevrenizi yargılamadan gözlemleyin."
+  },
+  "Let your breath match your steps": {
+    "": "Nefesin adımlarınla uyumlu olsun."
+  },
+  "Hold the ice in your hand": {
+    "": "Buzu elinde tut."
+  },
+  "Notice the cold sensation": {
+    "": "Soğuk hissi fark et."
+  },
+  "Focus fully on the feeling": {
+    "": "Tamamen hisse odaklan."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Güçlü hissin sizi şimdiki zamana sabitlemesine izin verin."
+  },
+  "Choose a scent nearby": {
+    "": "Yakında bir koku seçin."
+  },
+  "Inhale slowly": {
+    "": "Yavaşça nefes al."
+  },
+  "Notice how it feels in your body": {
+    "": "Vücudunuzda nasıl hissettiğine dikkat edin."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Kokunun seni bu ana götürmesine izin ver."
+  },
+  "Stretch gently": {
+    "": "Nazikçe esne."
+  },
+  "Roll your shoulders": {
+    "": "Omuzlarını devir."
+  },
+  "Shift your weight from side to side": {
+    "": "Ağırlığınızı sağa sola kaydırın."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Vücudunuzun hareket ederken nasıl hissettiğine dikkat edin."
+  },
+  "Pause and listen": {
+    "": "Durak ve dinle."
+  },
+  "Identify three distinct sounds": {
+    "": "Üç farklı sesi tanımlayın."
+  },
+  "Are they near or far?": "Yakın mı, uzak mu?",
+  "Let your attention rest on each one": {
+    "": "Dikkatinizi her birine verin."
+  },
+  "Close your eyes if comfortable": {
+    "": "Rahatsanız gözlerini kapat."
+  },
+  "Scan from head to toe": {
+    "": "Baştan ayağa tarama."
+  },
+  "Notice areas of tension or ease": {
+    "": "Gerginlik veya rahatlık alanlarını fark edin."
+  },
+  "Breathe into any tightness": {
+    "": "Her türlü sıkışmaya nefes ver."
+  },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Baştan Başla",
-    "finish_exit": "Bitir ve Çık",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Tamamlama süresi",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Paylaşmak",
-    "share_progress": "İlerlemenizi Paylaşın",
-    "inspire_others": "Bugün başkalarına ilham verin.",
-    "share_text": "Bu aktiviteyi ({{activityName}}) TherapyMantra'da yaptım ve gerçekten çok beğendim, siz de yapabilirsiniz, sadece Android uygulamasına ({{androidUrl}}) veya iOS uygulamasına ({{iosUrl}}) giden bağlantıyı takip edin.",
-    "this_activity": "bu aktivite",
+    "get_started": "Başlayın",
+    "start_over": "Yeniden Başla",
+    "finish_exit": "Bitiş ve Çıkış",
+    "well_done": "Aferin!",
+    "completion_message": "Bu etkinliği başarıyla tamamladın. İlerlemenin takdir edilmesini bir an ayır.",
+    "time_to_complete": "Tamamlanma zamanı",
+    "back": "Geri",
+    "next": "Sıradaki",
+    "save": "Kayd et",
+    "loading": "Yükleniyor...",
+    "share": "Paylaş",
+    "share_progress": "İlerleme Paylaş",
+    "inspire_others": "Bugün başkalarına ilham verin",
+    "share_text": "Bunu {{activityName}} ile TherapyMantra'da yaptım ve gerçekten keyif aldım, siz de yapabilirsiniz, android uygulaması {{androidUrl}} veya iOS uygulaması {{iosUrl}} bağlantısını takip edin.",
+    "this_activity": "Bu faaliyet",
     "copied": "Kopyalandı!",
     "copy_message": "Mesajı Kopyala",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Evet",
+    "no": "Hayır",
+    "date": "Tarih",
+    "continue": "Devam et",
+    "step_of": "{{total}} aşaması {{current}}",
+    "round_of": "{{total}} turu {{current}}",
+    "phase_label": "Faz",
+    "rounds_selector": "{{count}} Turlar",
+    "instruction_ready": "Turlarınızı ayarlayın ve başlamak için oynatmaya dokunun",
+    "instruction_running": "Nefesinizi düzenlemek için daireyi takip edin"
   },
-  "app_title": "Topraklama",
-  "app_description": "Topraklama",
+  "app_title": "Karaya oturma",
+  "app_description": "Karaya oturma",
   "change_language": "Dil değiştir",
   "search_language": "Arama dili...",
-  "more": "Daha",
-  "breadcrumb": "ekmek kırıntısı",
+  "more": "Daha fazlası",
+  "breadcrumb": "Ekmek kırıntısı",
   "previous_slide": "Önceki slayt",
   "next_slide": "Sonraki slayt",
-  "close": "Kapalı",
-  "previous": "Öncesi",
+  "close": "Kapat",
+  "previous": "Önceki",
   "more_pages": "Daha fazla sayfa",
-  "pagination": "sayfalama",
-  "go_to_previous_page": "Önceki sayfaya git",
-  "go_to_next_page": "Sonraki sayfaya git",
-  "toggle_sidebar": "Kenar Çubuğunu Aç/Kapat",
-  "stay_present": "Anı Yaşa",
-  "oops_page_not_found": "Ups! Sayfa bulunamadı.",
-  "return_to_home": "Ana sayfaya dön",
+  "pagination": "Sayfa Oluşturma",
+  "go_to_previous_page": "Önceki sayfaya geç",
+  "go_to_next_page": "Bir sonraki sayfaya geç",
+  "toggle_sidebar": "Yan Çubuğu Aç",
+  "stay_present": "Günümüzde Kalın",
+  "oops_page_not_found": "Hop! Sayfa bulunmadı",
+  "return_to_home": "Eve Dönüş",
   "grounding_technique": "Topraklama Tekniği",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Faz",
+  "instruction_ready": "Turlarınızı ayarlayın ve başlamak için oynatmaya dokunun",
+  "instruction_running": "Nefesinizi düzenlemek için daireyi takip edin",
+  "round_x_of_y": "{{total}} turu {{current}}",
+  "rounds_selector": "{{count}} Turlar",
+  "yes": "Evet",
+  "no": "Hayır",
+  "date": "Tarih",
+  "continue": "Devam et"
 }

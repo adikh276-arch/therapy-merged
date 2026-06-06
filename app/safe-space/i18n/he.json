@@ -1,57 +1,57 @@
 {
   "app_title": "מרחב בטוח",
-  "nav": [
-    "צ'ק-אין",
-    "לזכור בעדינות",
-    "תצפית",
-    "להישאר נוכח",
-    "קדימה"
-  ],
+  "nav": {
+    "0": "צ'ק-אין",
+    "1": "לזכור בעדינות",
+    "2": "תצפית",
+    "3": "להישאר נוכח",
+    "4": "קדימה"
+  },
   "s1": {
     "title": "בוא נמצא מקום שמרגיש בסדר",
-    "description": [
-      "לפני שנתחיל, קח רגע לבדוק...",
-      "איך אתה מרגיש עכשיו?",
-      "אנחנו לא מחפשים \"מקום בטוח\" מושלם. פשוט משהו שמרגיש אפילו קצת רגוע או בסדר."
-    ],
+    "description": {
+      "0": "לפני שנתחיל, קח רגע לבדוק...",
+      "1": "איך אתה מרגיש עכשיו?",
+      "2": "אנחנו לא מחפשים \"מקום בטוח\" מושלם. פשוט משהו שמרגיש אפילו קצת רגוע או בסדר."
+    },
     "placeholder": "איך אתה מרגיש עכשיו?",
     "button": "התחלת ויזואליזציה"
   },
   "s2": {
     "title": "תזכיר את זה בעדינות",
-    "description": [
-      "תחשוב על מקום שבו הרגשת אפילו קצת בנוח... או מקום שהיית רוצה להתקיים.",
-      "עכשיו תעמוד שם...",
-      "אתה יושב, עומד או שוכב?"
-    ],
+    "description": {
+      "0": "תחשוב על מקום שבו הרגשת אפילו קצת בנוח... או מקום שהיית רוצה להתקיים.",
+      "1": "עכשיו תעמוד שם...",
+      "2": "אתה יושב, עומד או שוכב?"
+    },
     "button": "המשך"
   },
   "s3": {
     "title": "תסתכל סביב לאט",
-    "description": [
-      "תסתכל בעדינות סביב...",
-      "מה הדבר היחיד שאתה יכול לראות?",
-      "עכשיו שימו לב לרעש... מה אתה שומע?"
-    ],
+    "description": {
+      "0": "תסתכל בעדינות סביב...",
+      "1": "מה הדבר היחיד שאתה יכול לראות?",
+      "2": "עכשיו שימו לב לרעש... מה אתה שומע?"
+    },
     "button": "המשך"
   },
   "s4": {
     "title": "תישאר עם זה",
-    "description": [
-      "מה יש במקום הזה שגורם לו להרגיש אפילו קצת בטוח או בסדר?",
-      "כשאתה שם לב לזה...",
-      "גם הפנה את תשומת הלב לנשימה שלך."
-    ],
+    "description": {
+      "0": "מה יש במקום הזה שגורם לו להרגיש אפילו קצת בטוח או בסדר?",
+      "1": "כשאתה שם לב לזה...",
+      "2": "גם הפנה את תשומת הלב לנשימה שלך."
+    },
     "breathe": "תנשום",
     "notice": "אם קשה לדמיין, פשוט תחשוב על הרעיון של המקום הזה.",
     "button": "המשך"
   },
   "s5": {
     "title": "קח את זה איתך",
-    "description": [
-      "שים לב איך אתה מרגיש עכשיו. אפילו שינוי קטן חשוב.",
-      "תראה אם תוכל לשאת איתך אפילו 5% מהתחושה הזו."
-    ],
+    "description": {
+      "0": "שים לב איך אתה מרגיש עכשיו. אפילו שינוי קטן חשוב.",
+      "1": "תראה אם תוכל לשאת איתך אפילו 5% מהתחושה הזו."
+    },
     "placeholder": "איך אתה מרגיש עכשיו?",
     "button": "סשן מלא"
   },
@@ -60,55 +60,55 @@
     "message": "המקום הבטוח הזה תמיד זמין עבורך. אתה יכול לחזור לכאן מתי שתצטרך רגע של רוגע."
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "התחל מחדש",
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
     "finish_exit": "סיום ויציאה",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "זמן להשלים",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "לַחֲלוֹק",
-    "share_progress": "שתף התקדמות",
-    "inspire_others": "תנו השראה לאחרים היום",
-    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען...",
+    "share": "שתף",
+    "share_progress": "שתפו התקדמות",
+    "inspire_others": "השראה לאחרים היום",
+    "share_text": "עשיתי את זה {{activityName}} ב-TherapyMantra ואני ממש נהנה מזה, אתה יכול לעשות את זה גם, פשוט עקוב אחרי הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
     "this_activity": "פעילות זו",
-    "copied": "מוּעֲתָק!",
-    "copy_message": "העתקת הודעה",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copied": "הועתק!",
+    "copy_message": "העתק הודעה",
+    "yes": "כן",
+    "no": "לא",
+    "date": "תאריך",
+    "continue": "המשך",
+    "step_of": "שלב {{current}} של {{total}}",
+    "round_of": "סיבוב {{current}} של {{total}}",
+    "phase_label": "שלב",
+    "rounds_selector": "{{ספירה}} סבבים",
+    "instruction_ready": "הגדר את הסיבובים והמשחק שלך כדי להתחיל",
+    "instruction_running": "עקבו אחרי המעגל כדי לווסת את הנשימה שלכם"
   },
   "app_description": "מרחב בטוח",
-  "more": "יוֹתֵר",
+  "more": "עוד",
   "breadcrumb": "פירורי לחם",
   "previous_slide": "שקופית קודמת",
-  "next_slide": "השקופית הבאה",
-  "close": "לִסְגוֹר",
-  "previous": "קוֹדֵם",
-  "more_pages": "דפים נוספים",
-  "pagination": "דִפּוּף",
+  "next_slide": "שקופית הבאה",
+  "close": "סגור",
+  "previous": "קודם",
+  "more_pages": "עוד עמודים",
+  "pagination": "עמודים",
   "go_to_previous_page": "עבור לעמוד הקודם",
   "go_to_next_page": "עבור לעמוד הבא",
-  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
-  "oops_page_not_found": "אופס! הדף לא נמצא",
-  "return_to_home": "חזרה לבית",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "toggle_sidebar": "החלפת סרגל צד",
+  "oops_page_not_found": "אופס! העמוד לא נמצא",
+  "return_to_home": "חזרה הביתה",
+  "phase_label": "שלב",
+  "instruction_ready": "הגדר את הסיבובים והמשחק שלך כדי להתחיל",
+  "instruction_running": "עקבו אחרי המעגל כדי לווסת את הנשימה שלכם",
+  "round_x_of_y": "סיבוב {{current}} של {{total}}",
+  "rounds_selector": "{{ספירה}} סבבים",
+  "yes": "כן",
+  "no": "לא",
+  "date": "תאריך",
+  "continue": "המשך"
 }

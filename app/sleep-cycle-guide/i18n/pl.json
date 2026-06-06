@@ -1,11 +1,11 @@
 {
   "app_title": "Przewodnik po cyklu snu",
-  "pill_labels": [
-    "Wprowadzenie",
-    "4 etapy",
-    "Ospała prawda",
-    "A ty?"
-  ],
+  "pill_labels": {
+    "0": "Wprowadzenie",
+    "1": "4 etapy",
+    "2": "Ospała prawda",
+    "3": "A ty?"
+  },
   "s1": {
     "title": "Czy kiedykolwiek spałeś 8 godzin i nadal czułeś się okropnie?",
     "p1": "Nie chodzi o <1>jak długo</1> śpisz.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Twój mózg robi to każdej nocy 🌀",
     "desc": "Co 90 minut twój mózg przechodzi przez 4 etapy — jak playlista na okrągło. Stuknij w każdą z nich, aby odkrywać 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Lekki sen",
         "tag": "1–5 minut · łatwo się obudzić",
         "body": "Zasypiasz. Ciało zaczyna odpuszczać, mięśnie mogą drgać. Bardzo łatwo się obudzić stąd."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Osiedlanie się",
         "tag": "10–25 min · naprawdę śpiący",
         "body": "Tętno zwalnia, temperatura ciała spada. Śpisz już dobrze — aktywność mózgu zaczyna zwalniać."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Głęboki sen ⭐",
         "tag": "20–40 min · Złoto",
         "body": "Ciało naprawia tkanki, buduje odporność. Najbardziej fizycznie regenerujący etap — trudno się obudzić."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "Sen REM",
         "tag": "10–60 min · Tryb snu",
         "body": "Mózg tętni aktywnością. Emocje są przetwarzane, wspomnienia się utrwalają. Pominięcie tego pozostawia cię zamglonym."
       }
-    ],
+    },
     "italic": "Głęboki sen naprawia ciało. REM naprawia umysł.",
     "button": "Więc dlaczego wciąż czuję się otępiały? →"
   },
@@ -51,127 +51,127 @@
     "title": "Budzenie w trakcie cyklu = tryb 🧟 zombie",
     "p1": "Wyrwany z głębokiego snu przez budzik? Twój mózg dosłownie nie skończył tego, co robił. To mgliste, ciężkie uczucie? To <1>inercja snu</1>.",
     "wave": {
-      "light": "światło",
-      "deep": "głęboko",
+      "light": "Światło",
+      "deep": "Głęboko",
       "groggy": "😫 zaspany",
       "fresh": "😊 świeże",
-      "cycles": [
-        "Cykl 1",
-        "Cykl 2",
-        "Cykl 3"
-      ]
+      "cycles": {
+        "0": "Cykl 1",
+        "1": "Cykl 2",
+        "2": "Cykl 3"
+      }
     },
     "disruptors_title": "Co zakłóca twoje cykle 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Ekrany przed snem",
         "sub": "opóźnia głęboki sen"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Późna kofeina",
         "sub": "Skraca głęboki sen nawet o 20%"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Nieregularne czasy snu",
         "sub": "Zakłóca twój naturalny rytm"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stres i lęk",
         "sub": "Trzyma cię w lekkim śnie"
       }
-    ],
+    },
     "italic": "Twoje nawyki bezpośrednio kształtują, które etapy osiągasz.",
     "button": "Co to dla mnie oznacza? →"
   },
   "s4": {
     "title": "Który z nich brzmi jak ty? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Budzę się fizycznie wyczerpany",
         "sub": "Prawdopodobnie brakowało głębokiego snu",
         "tip": "Skup się na stałym czasie snu i czuwania — Twoje ciało potrzebuje regularnego rytmu, aby osiągnąć głęboki sen."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Czuję się emocjonalnie zamglony lub przygnębiony",
         "sub": "prawdopodobnie brakowało mu snu REM",
         "tip": "Spróbuj się wycisnąć na 30 minut przed snem — spokojna rutyna przed snem chroni Twój sen REM."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Często budzę się w nocy",
         "sub": "cykle ciągle są przerywane",
         "tip": "Chłodne, ciemne i ciche pomieszczenie pomaga mózgowi pozostać na głębszych etapach bez przerw."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Czuję się dobrze, ale nie najlepiej",
         "sub": "cykle są częściowe, ale nie są pełne",
         "tip": "Spróbuj iść spać 20 minut wcześniej — może potrzebujesz jeszcze jednego pełnego cyklu snu."
       }
-    ],
+    },
     "quote": "Sen to nie tylko odpoczynek — to aktywna regeneracja. Chroń swoje cykle i cały Twój dzień się zmienia.",
     "button": "Gotowe ✓"
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Zacznij od nowa",
-    "finish_exit": "Zakończ i wyjdź",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "get_started": "Zacznij",
+    "start_over": "Start From",
+    "finish_exit": "Koniec i wyjście",
+    "well_done": "Brawo!",
+    "completion_message": "Udało ci się ukończyć tę aktywność. Poświęć chwilę, by docenić swoje postępy.",
     "time_to_complete": "Czas na ukończenie",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Udział",
-    "share_progress": "Udostępnij postęp",
-    "inspire_others": "Zainspiruj innych już dziś",
-    "share_text": "Wykonałem tę {{activityName}} w TherapyMantra i bardzo mi się to spodobało. Ty też możesz to zrobić, po prostu kliknij link do aplikacji na Androida {{androidUrl}} lub aplikacji na iOS {{iosUrl}}",
-    "this_activity": "ta aktywność",
-    "copied": "Skopiowano!",
+    "back": "Z powrotem",
+    "next": "Następny",
+    "save": "Zapisz",
+    "loading": "Ładowanie...",
+    "share": "Udostępnij",
+    "share_progress": "Udostępnij postępy",
+    "inspire_others": "Inspiruj innych dziś",
+    "share_text": "Robiłem to {{activityName}} w TherapyMantra i naprawdę mi się to podoba, możesz to zrobić, wystarczy kliknąć link do aplikacji na Androida {{androidUrl}} lub aplikacji iOS {{iosUrl}}",
+    "this_activity": "Ta działalność",
+    "copied": "Skopiowane!",
     "copy_message": "Kopiuj wiadomość",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Tak",
+    "no": "Nie",
+    "date": "Data",
+    "continue": "Kontynuuj",
+    "step_of": "Krok {{current}} of {{total}}",
+    "round_of": "Runda {{current}} z {{total}}",
+    "phase_label": "Faza",
+    "rounds_selector": "{{count}} Rundy",
+    "instruction_ready": "Ustaw rundy i kliknij w play, aby zacząć",
+    "instruction_running": "Podążaj za kołem, aby regulować oddech"
   },
   "app_description": "Przewodnik po cyklu snu",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(poprzedni + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setCurrentScreen(poprzedni => Math.max(poprzedni - 1, 0));\n\nconst screens = [",
-  "it_s_not_about": "Nie chodzi o to",
-  "it_s_about": "Chodzi o to",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Wyrwany z głębokiego snu przez alarm? Twój mózg dosłownie nie dokończył tego, co robił. To uczucie otępienia i ciężkości? To…",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min (poprzedni + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nekrany const = [",
+  "it_s_not_about": "To nie o to chodzi",
+  "it_s_about": "Chodzi o",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Wyrwany z głębokiego snu przez budzik? Twój mózg dosłownie nie skończył tego, co robił. To mgliste, ciężkie uczucie? To jest",
   "more": "Więcej",
-  "breadcrumb": "bułka tarta",
+  "breadcrumb": "okruch tarty",
   "previous_slide": "Poprzedni slajd",
   "next_slide": "Następny slajd",
-  "close": "Zamknąć",
-  "previous": "Poprzedni",
+  "close": "Zamknij",
+  "previous": "Poprzednie",
   "more_pages": "Więcej stron",
-  "pagination": "paginacja",
-  "go_to_previous_page": "Przejdź do poprzedniej strony",
+  "pagination": "Paginacja",
+  "go_to_previous_page": "Przejdź na poprzednią stronę",
   "go_to_next_page": "Przejdź do następnej strony",
-  "toggle_sidebar": "Przełącz pasek boczny",
-  "oops_page_not_found": "Ups! Strona nie została znaleziona",
-  "return_to_home": "Powrót do strony głównej",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "toggle_sidebar": "Przełącznik boczny",
+  "oops_page_not_found": "Ups! Strona nie znaleziona",
+  "return_to_home": "Powrót do domu",
+  "phase_label": "Faza",
+  "instruction_ready": "Ustaw rundy i kliknij w play, aby zacząć",
+  "instruction_running": "Podążaj za kołem, aby regulować oddech",
+  "round_x_of_y": "Runda {{current}} z {{total}}",
+  "rounds_selector": "{{count}} Rundy",
+  "yes": "Tak",
+  "no": "Nie",
+  "date": "Data",
+  "continue": "Kontynuuj"
 }

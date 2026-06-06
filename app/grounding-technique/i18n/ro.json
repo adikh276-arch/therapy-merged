@@ -1,5 +1,11 @@
 {
   "Grounding": "Împământare",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Tehnicile de ancorare te ajută să readuci atenția la momentul prezent."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Alege o activitate care să te susțină acum."
+  },
   "Step": "Pas",
   "Back": "Înapoi",
   "Next": "Următorul",
@@ -17,109 +23,195 @@
   "Move your body": "Mișcă-ți corpul",
   "Listen to your surroundings": "Ascultă-ți împrejurimile",
   "Check in with your body": "Verifică-ți corpul",
+  "Run your hands under cool or warm water": {
+    "": "Trece mâinile sub apă rece sau caldă."
+  },
+  "Notice the temperature": {
+    "": "Observă temperatura."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Fii atent la senzația de pe pielea ta."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Observă cum se schimbă de la moment la moment."
+  },
+  "Let your breathing slow naturally": {
+    "": "Lasă-ți respirația să încetinească natural."
+  },
+  "Choose a nearby object": {
+    "": "Alege un obiect din apropiere."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Observă-i textura, greutatea și temperatura."
+  },
   "Is it smooth or rough? Heavy or light?": "Este netedă sau aspră? Greu sau ușor?",
+  "Let your focus stay fully on this one object": {
+    "": "Lasă-ți concentrarea să rămână complet asupra acestui singur obiect."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Inspiră încet pe nas."
+  },
+  "Hold gently for a moment": {
+    "": "Ține-o ușor pentru un moment."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Expiră încet pe gură."
+  },
+  "Repeat several times": {
+    "": "Repetă de mai multe ori."
+  },
+  "Let your shoulders soften": {
+    "": "Lasă-ți umerii să se înmoaie."
+  },
+  "Take a small bite": {
+    "": "Ia o mușcătură mică."
+  },
+  "Chew slowly": {
+    "": "Mestecă încet."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Observă aroma, textura și temperatura."
+  },
+  "Stay fully present with the experience": {
+    "": "Rămâi pe deplin prezent cu experiența."
+  },
+  "Take a slow sip": {
+    "": "Ia o înghițitură lentă."
+  },
+  "Notice the temperature and taste": {
+    "": "Observă temperatura și gustul."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Simte senzația când înghiți."
+  },
+  "Let yourself stay with that moment": {
+    "": "Lasă-te să rămâi cu acel moment."
+  },
+  "Walk slowly and intentionally": {
+    "": "Mergi încet și intenționat."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Observă senzația picioarelor tale atingând solul."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Observă-ți împrejurimile fără judecată."
+  },
+  "Let your breath match your steps": {
+    "": "Lasă-ți respirația să se potrivească cu pașii tăi."
+  },
+  "Hold the ice in your hand": {
+    "": "Ține gheața în mână."
+  },
+  "Notice the cold sensation": {
+    "": "Observă senzația de frig."
+  },
+  "Focus fully on the feeling": {
+    "": "Concentrează-te complet pe sentiment."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Lasă senzația puternică să te ancoreze în prezent."
+  },
+  "Choose a scent nearby": {
+    "": "Alege un parfum în apropiere."
+  },
+  "Inhale slowly": {
+    "": "Inspiră încet."
+  },
+  "Notice how it feels in your body": {
+    "": "Observă cum se simte în corpul tău."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Lasă mirosul să te aducă în acest moment."
+  },
+  "Stretch gently": {
+    "": "Întinde-te ușor."
+  },
+  "Roll your shoulders": {
+    "": "Rotește-ți umerii."
+  },
+  "Shift your weight from side to side": {
+    "": "Schimbă-ți greutatea dintr-o parte în alta."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Observă cum se simte corpul tău când se mișcă."
+  },
+  "Pause and listen": {
+    "": "Oprește-te și ascultă."
+  },
+  "Identify three distinct sounds": {
+    "": "Identifică trei sunete distincte."
+  },
   "Are they near or far?": "Sunt aproape sau departe?",
+  "Let your attention rest on each one": {
+    "": "Lasă-ți atenția să se odihnească asupra fiecăruia."
+  },
+  "Close your eyes if comfortable": {
+    "": "Închide ochii dacă te simți confortabil."
+  },
+  "Scan from head to toe": {
+    "": "Scanează de la cap până-n picioare."
+  },
+  "Notice areas of tension or ease": {
+    "": "Observă zonele de tensiune sau ușurință."
+  },
+  "Breathe into any tightness": {
+    "": "Inspiră în orice tensiune."
+  },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Începeți de la început",
-    "finish_exit": "Terminare și ieșire",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Timpul de finalizare",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
+    "get_started": "Începe",
+    "start_over": "Începeți de la zero",
+    "finish_exit": "Final și ieșire",
+    "well_done": "Bravo!",
+    "completion_message": "Ai finalizat cu succes această activitate. Ia-ți un moment să apreciezi progresul tău.",
+    "time_to_complete": "Timpul de finalizat",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salvează",
+    "loading": "Se încarcă...",
     "share": "Distribuie",
-    "share_progress": "Distribuiți progresul",
-    "inspire_others": "Inspiră-i pe alții astăzi",
-    "share_text": "Am făcut această {{activityName}} în TherapyMantra și îmi place foarte mult. O poți face și tu, trebuie doar să accesezi linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}.",
-    "this_activity": "această activitate",
+    "share_progress": "Distribuie progresul",
+    "inspire_others": "Inspiră-i pe ceilalți astăzi",
+    "share_text": "Am făcut asta {{activityName}} în TherapyMantra și chiar îți place, poți face și tu asta, doar urmează linkul către aplicația Android {{androidUrl}} sau aplicația iOS {{iosUrl}}",
+    "this_activity": "Această activitate",
     "copied": "Copiat!",
-    "copy_message": "Copiați mesajul",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "Copiază mesajul",
+    "yes": "Da",
+    "no": "Nu",
+    "date": "Data",
+    "continue": "Continuă",
+    "step_of": "Pasul {{current}} al {{total}}",
+    "round_of": "Runda {{current}} a {{total}}",
+    "phase_label": "Fază",
+    "rounds_selector": "{{count}} Runde",
+    "instruction_ready": "Setează-ți rundele și tap play pentru a începe",
+    "instruction_running": "Urmează cercul pentru a-ți regla respirația"
   },
   "app_title": "Împământare",
   "app_description": "Împământare",
-  "change_language": "Schimbați limba",
-  "search_language": "Limba de căutare...",
+  "change_language": "Schimbă limba",
+  "search_language": "Limba căutării...",
   "more": "Mai mult",
-  "breadcrumb": "pesmet",
-  "previous_slide": "Diapozitivul anterior",
-  "next_slide": "Diapozitivul următor",
-  "close": "Aproape",
+  "breadcrumb": "firimit",
+  "previous_slide": "Slide anterior",
+  "next_slide": "Următorul slide",
+  "close": "Închide",
   "previous": "Anterior",
   "more_pages": "Mai multe pagini",
-  "pagination": "paginare",
+  "pagination": "Paginare",
   "go_to_previous_page": "Mergi la pagina anterioară",
   "go_to_next_page": "Mergi la pagina următoare",
-  "toggle_sidebar": "Comutare bară laterală",
+  "toggle_sidebar": "Comută bara laterală",
   "stay_present": "Rămâi prezent",
-  "oops_page_not_found": "Oops! Pagina nu a fost găsită.",
+  "oops_page_not_found": "Ups! Pagină negăsită",
   "return_to_home": "Întoarcerea acasă",
   "grounding_technique": "Tehnica de împământare",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Fază",
+  "instruction_ready": "Setează-ți rundele și tap play pentru a începe",
+  "instruction_running": "Urmează cercul pentru a-ți regla respirația",
+  "round_x_of_y": "Runda {{current}} a {{total}}",
+  "rounds_selector": "{{count}} Runde",
+  "yes": "Da",
+  "no": "Nu",
+  "date": "Data",
+  "continue": "Continuă"
 }

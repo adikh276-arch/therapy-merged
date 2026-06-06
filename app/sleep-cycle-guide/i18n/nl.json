@@ -1,11 +1,11 @@
 {
   "app_title": "Slaapcyclusgids",
-  "pill_labels": [
-    "Inleiding",
-    "De 4 fasen",
-    "De slaperige waarheid",
-    "En jij?"
-  ],
+  "pill_labels": {
+    "0": "Inleiding",
+    "1": "De 4 fasen",
+    "2": "De slaperige waarheid",
+    "3": "En jij?"
+  },
   "s1": {
     "title": "Heb je ooit 8 uur geslapen en je toch vreselijk gevoeld?",
     "p1": "Het gaat niet om <1>hoe lang</1> je slaapt.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Je brein doet DIT elke nacht 🌀",
     "desc": "Elke 90 minuten doorloopt je brein 4 fasen — als een afspeellijst die steeds opnieuw wordt afgespeeld. Tik op elk om te verkennen 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Lichte slaap",
         "tag": "1–5 minuten · gemakkelijk wakker te worden",
         "body": "Je valt in slaap. Het lichaam begint los te laten, spieren kunnen samentrekken. Heel makkelijk om hier wakker te worden."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Vestigen",
         "tag": "10–25 min · echt in slaap",
         "body": "De hartslag vertraagt, de lichaamstemperatuur daalt. Je slaapt goed — de hersenactiviteit begint af te nemen."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Diepe slaap ⭐",
         "tag": "20–40 minuten · Het goud",
         "body": "Het lichaam herstelt weefsel, bouwt immuniteit op. De meest fysiek herstellende fase — moeilijk om uit te ontwaken."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM-slaap",
         "tag": "10–60 minuten · Droommodus",
         "body": "Mijn hersenen bruisen van activiteit. Emoties worden verwerkt, herinneringen vergrendelen zich. Als je dit overslaat, word je onzeker."
       }
-    ],
+    },
     "italic": "Diepe slaap herstelt je lichaam. REM herstelt je geest.",
     "button": "Dus waarom voel ik me nog steeds suf? →"
   },
@@ -51,127 +51,127 @@
     "title": "Wakker worden midden in de cyclus = zombiemodus 🧟",
     "p1": "Uit de diepe slaap gehaald door een wekker? Je brein is letterlijk nog niet klaar met wat het aan het doen was. Dat mistige, zware gevoel? Dat is <1>slaaptraagheid</1>.",
     "wave": {
-      "light": "licht",
-      "deep": "Diep",
+      "light": "Licht",
+      "deep": "Deep",
       "groggy": "😫 Suf",
       "fresh": "😊 Fris",
-      "cycles": [
-        "Cyclus 1",
-        "Cyclus 2",
-        "Cyclus 3"
-      ]
+      "cycles": {
+        "0": "Cyclus 1",
+        "1": "Cyclus 2",
+        "2": "Cyclus 3"
+      }
     },
     "disruptors_title": "Wat verstoort je cycli 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Schermen voor het slapengaan",
         "sub": "Vertraagt diepe slaap"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Laat cafeïne",
         "sub": "Vermindert diepe slaap tot wel 20%"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Onregelmatige slaaptijden",
         "sub": "Breekt je natuurlijke ritme"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stress en angst",
         "sub": "houdt je vast in een lichte slaap"
       }
-    ],
+    },
     "italic": "Je gewoonten bepalen direct welke stadia je bereikt.",
     "button": "Wat betekent dit voor mij? →"
   },
   "s4": {
     "title": "Welke klinkt als jij? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Ik word fysiek uitgeput wakker",
         "sub": "Waarschijnlijk missen we diepe slaap",
-        "tip": "Richt je op een consistente slaap en opstaantijd — je lichaam heeft een regelmatig ritme nodig om diepe slaap te bereiken."
+        "tip": "Richt je op een consistente slaap en waaktijd — je lichaam heeft een regelmatig ritme nodig om diepe slaap te bereiken."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Ik voel me emotioneel wazig of somber",
         "sub": "waarschijnlijk mis je REM-slaap",
         "tip": "Probeer 30 minuten voor het slapengaan tot rust te komen — een rustige voorslaaproutine beschermt je REM-slaap."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Ik word vaak wakker 's nachts",
         "sub": "Cycli worden steeds onderbroken",
         "tip": "Een koele, donkere en stille kamer helpt je brein om zonder onderbreking in diepere stadia te blijven."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Ik voel me oké, maar niet geweldig",
         "sub": "Cycli zijn gedeeltelijk maar niet compleet",
         "tip": "Probeer 20 minuten eerder naar bed te gaan — je hebt misschien nog één volledige slaapcyclus nodig."
       }
-    ],
+    },
     "quote": "Slapen is niet alleen rust — het is actief herstel. Bescherm je cycli en je hele dag verandert.",
     "button": "Klaar ✓"
   },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Begin",
     "start_over": "Opnieuw beginnen",
-    "finish_exit": "Voltooien en afsluiten",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Tijd om te voltooien",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
+    "finish_exit": "Finish & Exit",
+    "well_done": "Goed gedaan!",
+    "completion_message": "Je hebt deze activiteit succesvol voltooid. Neem even de tijd om je vooruitgang te waarderen.",
+    "time_to_complete": "Tijd om af te ronden",
+    "back": "Achteruit",
+    "next": "Volgende",
+    "save": "Sla op",
+    "loading": "Laden...",
     "share": "Deel",
     "share_progress": "Voortgang delen",
-    "inspire_others": "Inspireer anderen vandaag nog",
-    "share_text": "Ik heb deze activiteit {{activityName}} in TherapyMantra gedaan en ik vind het erg leuk. Jij kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of de iOS-app {{iosUrl}}.",
-    "this_activity": "deze activiteit",
+    "inspire_others": "Inspireer vandaag anderen",
+    "share_text": "Ik heb dit {{activityName}} gedaan in TherapyMantra en vind het echt leuk, je kunt het ook doen, volg gewoon de link naar de Android-app {{androidUrl}} of iOS-app {{iosUrl}}",
+    "this_activity": "Deze activiteit",
     "copied": "Gekopieerd!",
-    "copy_message": "Bericht kopiëren",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "Kopieer bericht",
+    "yes": "Ja",
+    "no": "Nee",
+    "date": "Datum",
+    "continue": "Ga verder",
+    "step_of": "Stap {{current}} van {{total}}",
+    "round_of": "Ronde {{current}} van {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rondes",
+    "instruction_ready": "Stel je rondes in en tik op play om te beginnen",
+    "instruction_running": "Volg de cirkel om je ademhaling te reguleren"
   },
   "app_description": "Slaapcyclusgids",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [\n",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(vorige + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(vorige => Math.max(vorige - 1, 0));\n\nConst-schermen = [",
   "it_s_not_about": "Het gaat er niet om",
   "it_s_about": "Het gaat over",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Werd je ruw uit je diepe slaap gewekt door een wekker? Je hersenen zijn letterlijk nog niet klaar met waar ze mee bezig waren. Dat wazige, zware gevoel? Dat is...",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Uit de diepe slaap gehaald door een wekker? Je brein is letterlijk nog niet klaar met wat het aan het doen was. Dat mistige, zware gevoel? Dat is",
   "more": "Meer",
-  "breadcrumb": "paneermeel",
+  "breadcrumb": "broodkruimel",
   "previous_slide": "Vorige dia",
   "next_slide": "Volgende dia",
-  "close": "Dichtbij",
-  "previous": "Vorig",
+  "close": "Sluit",
+  "previous": "Eerder",
   "more_pages": "Meer pagina's",
-  "pagination": "paginering",
-  "go_to_previous_page": "Ga naar de vorige pagina",
-  "go_to_next_page": "Ga naar de volgende pagina",
-  "toggle_sidebar": "Zijbalk in-/uitschakelen",
+  "pagination": "Paginering",
+  "go_to_previous_page": "Ga naar vorige pagina",
+  "go_to_next_page": "Ga naar volgende pagina",
+  "toggle_sidebar": "Toggle zijbalk",
   "oops_page_not_found": "Oeps! Pagina niet gevonden",
-  "return_to_home": "Terug naar de homepage",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "return_to_home": "Terugkeer naar huis",
+  "phase_label": "Fase",
+  "instruction_ready": "Stel je rondes in en tik op play om te beginnen",
+  "instruction_running": "Volg de cirkel om je ademhaling te reguleren",
+  "round_x_of_y": "Ronde {{current}} van {{total}}",
+  "rounds_selector": "{{count}} Rondes",
+  "yes": "Ja",
+  "no": "Nee",
+  "date": "Datum",
+  "continue": "Ga verder"
 }

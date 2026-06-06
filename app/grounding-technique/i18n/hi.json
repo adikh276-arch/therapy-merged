@@ -1,125 +1,217 @@
 {
   "Grounding": "ग्राउंडिंग",
-  "Step": "कदम",
-  "Back": "पीछे",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "ग्राउंडिंग तकनीक आपका ध्यान वर्तमान क्षण में वापस लाने में मदद करती है।"
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "एक ऐसी गतिविधि चुनें जो अभी सहायक लगे।"
+  },
+  "Step": "कहीं जाना",
+  "Back": "शर्त लगाना",
   "Next": "अगला",
-  "I Feel More Grounded": "मुझे अधिक स्थिर महसूस होता है",
-  "Choose Another Technique": "कोई दूसरी तकनीक चुनें",
+  "I Feel More Grounded": "मैं अधिक जमीन से जुड़ा हुआ महसूस करता हूं",
+  "Choose Another Technique": "दूसरी तकनीक चुनें",
   "Technique not found": "तकनीक नहीं मिली",
-  "Put your hands in water": "अपने हाथों को पानी में डालो",
-  "Pick up or touch items near you": "अपने आस-पास की वस्तुओं को उठाएं या छुएं",
-  "Breathe deeply": "गहरी साँस",
-  "Savour your food": "अपने भोजन का आनंद लें",
-  "Savour a drink": "एक पेय का आनंद लें",
+  "Put your hands in water": "अपने हाथों को पानी में डालें",
+  "Pick up or touch items near you": "अपने आस-पास की वस्तुओं को उठाना या स्पर्श करना",
+  "Breathe deeply": "गहरी सांस लें",
+  "Savour your food": "अपने भोजन का स्वाद लें",
+  "Savour a drink": "एक पेय का स्वाद लें",
   "Take a short walk": "थोड़ी देर टहलें",
-  "Hold a piece of ice": "बर्फ का एक टुकड़ा पकड़ें",
-  "Savour a scent": "एक सुगंध का आनंद लें",
-  "Move your body": "अपने शरीर को हिलाएँ",
-  "Listen to your surroundings": "अपने आस-पास की आवाज़ों पर ध्यान दें।",
-  "Check in with your body": "अपने शरीर पर ध्यान दें",
-  "Is it smooth or rough? Heavy or light?": "यह चिकना है या खुरदरा? भारी है या हल्का?",
-  "Are they near or far?": "वे पास हैं या दूर?",
+  "Hold a piece of ice": "बर्फ का एक टुकड़ा पकड़ो",
+  "Savour a scent": "खुशबू का स्वाद लें",
+  "Move your body": "अपने शरीर को हिलाएं",
+  "Listen to your surroundings": "अपने परिवेश को सुनें",
+  "Check in with your body": "अपने शरीर के साथ जाँच करें",
+  "Run your hands under cool or warm water": {
+    "": "अपने हाथों को ठंडे या गर्म पानी के नीचे चलाएं।"
+  },
+  "Notice the temperature": {
+    "": "तापमान पर ध्यान दें।"
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "अपनी त्वचा पर होने वाली सनसनी पर ध्यान दें।"
+  },
+  "Observe how it changes moment by moment": {
+    "": "देखें कि यह पल-पल कैसे बदलता है।"
+  },
+  "Let your breathing slow naturally": {
+    "": "अपनी सांस को स्वाभाविक रूप से धीमा होने दें।"
+  },
+  "Choose a nearby object": {
+    "": "पास की वस्तु चुनें।"
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "इसकी बनावट, वजन और तापमान पर ध्यान दें।"
+  },
+  "Is it smooth or rough? Heavy or light?": "क्या यह चिकना या खुरदरा है? भारी या हल्का?",
+  "Let your focus stay fully on this one object": {
+    "": "अपना ध्यान पूरी तरह से इस एक वस्तु पर रहने दें।"
+  },
+  "Take a slow breath in through your nose": {
+    "": "अपनी नाक से धीमी सांस लें।"
+  },
+  "Hold gently for a moment": {
+    "": "एक पल के लिए धीरे से रुकें।"
+  },
+  "Exhale slowly through your mouth": {
+    "": "अपने मुंह से धीरे-धीरे सांस छोड़ें।"
+  },
+  "Repeat several times": {
+    "": "कई बार दोहराएं।"
+  },
+  "Let your shoulders soften": {
+    "": "अपने कंधों को नरम होने दें।"
+  },
+  "Take a small bite": {
+    "": "एक छोटा सा काट लें।"
+  },
+  "Chew slowly": {
+    "": "धीरे-धीरे चबाएं।"
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "स्वाद, बनावट और तापमान पर ध्यान दें।"
+  },
+  "Stay fully present with the experience": {
+    "": "अनुभव के साथ पूरी तरह से उपस्थित रहें।"
+  },
+  "Take a slow sip": {
+    "": "एक धीमी घूंट लें।"
+  },
+  "Notice the temperature and taste": {
+    "": "तापमान और स्वाद पर ध्यान दें।"
+  },
+  "Feel the sensation as you swallow": {
+    "": "निगलते समय अनुभूति महसूस करें।"
+  },
+  "Let yourself stay with that moment": {
+    "": "अपने आप को उस पल के साथ रहने दें।"
+  },
+  "Walk slowly and intentionally": {
+    "": "धीरे-धीरे और जानबूझकर चलें।"
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "अपने पैरों के जमीन को छूने की भावना पर ध्यान दें।"
+  },
+  "Observe your surroundings without judgment": {
+    "": "निर्णय के बिना अपने परिवेश का निरीक्षण करें।"
+  },
+  "Let your breath match your steps": {
+    "": "अपनी सांस को अपने कदमों से मेल खाने दें।"
+  },
+  "Hold the ice in your hand": {
+    "": "बर्फ को अपने हाथ में पकड़ें।"
+  },
+  "Notice the cold sensation": {
+    "": "ठंड की अनुभूति पर ध्यान दें।"
+  },
+  "Focus fully on the feeling": {
+    "": "भावना पर पूरा ध्यान दें।"
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "मजबूत सनसनी को आपको वर्तमान में लंगर डालने दें।"
+  },
+  "Choose a scent nearby": {
+    "": "पास में एक खुशबू चुनें।"
+  },
+  "Inhale slowly": {
+    "": "धीरे-धीरे श्वास लें।"
+  },
+  "Notice how it feels in your body": {
+    "": "ध्यान दें कि यह आपके शरीर में कैसा महसूस करता है।"
+  },
+  "Let the scent bring you into this moment": {
+    "": "खुशबू को आपको इस पल में लाने दें।"
+  },
+  "Stretch gently": {
+    "": "धीरे से स्ट्रेच करें।"
+  },
+  "Roll your shoulders": {
+    "": "अपने कंधों को रोल करें।"
+  },
+  "Shift your weight from side to side": {
+    "": "अपना वजन एक तरफ से दूसरी तरफ शिफ्ट करें।"
+  },
+  "Notice how your body feels as it moves": {
+    "": "ध्यान दें कि आपका शरीर कैसा महसूस करता है क्योंकि यह चलता है।"
+  },
+  "Pause and listen": {
+    "": "रुको और सुनो।"
+  },
+  "Identify three distinct sounds": {
+    "": "तीन अलग-अलग ध्वनियों की पहचान करें।"
+  },
+  "Are they near or far?": "क्या वे निकट या दूर हैं?",
+  "Let your attention rest on each one": {
+    "": "अपना ध्यान हर एक पर टिके रहने दें।"
+  },
+  "Close your eyes if comfortable": {
+    "": "यदि सहज हो तो अपनी आँखें बंद कर लें।"
+  },
+  "Scan from head to toe": {
+    "": "सिर से पैर तक स्कैन करें।"
+  },
+  "Notice areas of tension or ease": {
+    "": "तनाव या सहजता के क्षेत्रों पर ध्यान दें।"
+  },
+  "Breathe into any tightness": {
+    "": "किसी भी जकड़न में सांस लें।"
+  },
   "common": {
-    "get_started": "शुरू करें",
-    "start_over": "प्रारंभ करें",
-    "finish_exit": "समाप्त करें और बाहर निकलें",
+    "get_started": "शुरू हो जाओ",
+    "start_over": "शुरू करो",
+    "finish_exit": "समाप्त करें और निकास करें",
     "well_done": "बहुत बढ़िया!",
-    "completion_message": "आपने इस गतिविधि को सफलतापूर्वक पूरा कर लिया है। अपनी प्रगति की सराहना करने के लिए कुछ समय निकालें।",
-    "time_to_complete": "पूरा करने में लगने वाला समय",
-    "back": "पीछे",
+    "completion_message": "आपने इस गतिविधि को सफलतापूर्वक पूरा कर लिया है. अपनी प्रगति की सराहना करने के लिए कुछ समय निकालें।",
+    "time_to_complete": "पूरा करने का समय",
+    "back": "शर्त लगाना",
     "next": "अगला",
     "save": "सहेजें",
-    "loading": "लोडींग...",
-    "share": "शेयर करना",
+    "loading": "लोड हो रहा है...",
+    "share": "पत्ती",
     "share_progress": "प्रगति साझा करें",
     "inspire_others": "आज दूसरों को प्रेरित करें",
-    "share_text": "मैंने TherapyMantra में यह {{activityName}} गतिविधि की है और मुझे इसमें बहुत आनंद आया। आप भी इसे कर सकते हैं, बस एंड्रॉइड ऐप {{androidUrl}} या आईओएस ऐप {{iosUrl}} के लिंक पर क्लिक करें।",
+    "share_text": "मैंने यह {{activityName}} TherapyMantra में किया है और वास्तव में इसका आनंद लें, आप इसे भी कर सकते हैं, बस एंड्रॉइड ऐप {{androidUrl}} या ios ऐप {{iosUrl}} के लिंक का अनुसरण करें",
     "this_activity": "यह गतिविधि",
-    "copied": "कॉपी हो गया!",
-    "copy_message": "संदेश की प्रतिलिपि बनाएं",
+    "copied": "कॉपी किया गया!",
+    "copy_message": "संदेश कॉपी करें",
     "yes": "हाँ",
     "no": "नहीं",
-    "date": "दिनांक",
-    "continue": "जारी रखें",
-    "step_of": "चरण {{current}} / {{total}}",
-    "round_of": "राउंड {{current}} / {{total}}",
+    "date": "तारीख",
+    "continue": "आगे बढ़ना",
+    "step_of": "{{कुल}} का चरण {{current}}",
+    "round_of": "{{कुल}} का {{current}} गोल करें",
     "phase_label": "चरण",
-    "rounds_selector": "{{count}} राउंड",
-    "instruction_ready": "अपना राउंड सेट करें और शुरू करने के लिए प्ले दबाएं",
+    "rounds_selector": "{{गिनती}} राउंड",
+    "instruction_ready": "अपने राउंड सेट करें और शुरू करने के लिए प्ले पर टैप करें",
     "instruction_running": "अपनी सांस को नियंत्रित करने के लिए सर्कल का पालन करें"
   },
   "app_title": "ग्राउंडिंग",
   "app_description": "ग्राउंडिंग",
   "change_language": "भाषा बदलें",
-  "search_language": "खोज भाषा...",
+  "search_language": "भाषा खोजें...",
   "more": "अधिक",
-  "breadcrumb": "ब्रेडक्रम्ब",
+  "breadcrumb": "ब्रेडक्रंब",
   "previous_slide": "पिछली स्लाइड",
   "next_slide": "अगली स्लाइड",
-  "close": "बंद करना",
-  "previous": "पहले का",
-  "more_pages": "और पेज",
-  "pagination": "पृष्ठ पर अंक लगाना",
-  "go_to_previous_page": "पिछले पृष्ठ पर जाएं",
-  "go_to_next_page": "अगले पृष्ठ पर जाएं",
+  "close": "घुटनभरा",
+  "previous": "पिछला",
+  "more_pages": "अधिक पृष्ठ",
+  "pagination": "पृष्ठांकन",
+  "go_to_previous_page": "पिछले पृष्ठ पर जाएँ",
+  "go_to_next_page": "अगले पेज पर जाएं",
   "toggle_sidebar": "साइडबार टॉगल करें",
-  "stay_present": "वर्तमान में बने रहें",
-  "oops_page_not_found": "ओह! पेज नहीं मिला",
-  "return_to_home": "घर पर वापस",
+  "stay_present": "उपस्थित रहें",
+  "oops_page_not_found": "उफ़! पेज नहीं मिला",
+  "return_to_home": "घर लौटें",
   "grounding_technique": "ग्राउंडिंग तकनीक",
   "phase_label": "चरण",
-  "instruction_ready": "अपना राउंड सेट करें और शुरू करने के लिए प्ले दबाएं",
+  "instruction_ready": "अपने राउंड सेट करें और शुरू करने के लिए प्ले पर टैप करें",
   "instruction_running": "अपनी सांस को नियंत्रित करने के लिए सर्कल का पालन करें",
-  "round_x_of_y": "राउंड {{current}} / {{total}}",
-  "rounds_selector": "{{count}} राउंड",
+  "round_x_of_y": "{{कुल}} का {{current}} गोल करें",
+  "rounds_selector": "{{गिनती}} राउंड",
   "yes": "हाँ",
   "no": "नहीं",
-  "date": "दिनांक",
-  "continue": "जारी रखें",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "date": "तारीख",
+  "continue": "आगे बढ़ना"
 }

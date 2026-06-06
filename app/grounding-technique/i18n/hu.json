@@ -1,5 +1,11 @@
 {
   "Grounding": "Földre szállás",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "A földelési technikák segítenek visszaterelni a figyelmedet a jelen pillanatra."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Válassz egy olyan tevékenységet, ami most támogatónak tűnik."
+  },
   "Step": "Lépés",
   "Back": "Hátra",
   "Next": "Következő",
@@ -17,109 +23,195 @@
   "Move your body": "Mozgasd a tested",
   "Listen to your surroundings": "Hallgass a környezetedre",
   "Check in with your body": "Ellenőrizd a testedet",
+  "Run your hands under cool or warm water": {
+    "": "Húzd a kezed hideg vagy meleg víz alatt."
+  },
+  "Notice the temperature": {
+    "": "Figyeld meg a hőmérsékletet."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Figyelj a bőröd érzetére."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Figyeld meg, hogyan változik pillanatról pillanatra."
+  },
+  "Let your breathing slow naturally": {
+    "": "Hagyd, hogy természetesen lelassítsd a légzésed."
+  },
+  "Choose a nearby object": {
+    "": "Válassz egy közeli tárgyat."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Figyeld meg a textúráját, súlyát és hőmérsékletét."
+  },
   "Is it smooth or rough? Heavy or light?": "Sima vagy durva? Nehéz vagy könnyű?",
+  "Let your focus stay fully on this one object": {
+    "": "Hagyd, hogy teljes fókuszod ezen az egy tárgyon maradjon."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Vegyél lassan belélegezni az orrodon keresztül."
+  },
+  "Hold gently for a moment": {
+    "": "Tartsd meg óvatosan egy pillanatra."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Lassan kilélegezz a szájadon keresztül."
+  },
+  "Repeat several times": {
+    "": "Ismételd többször is."
+  },
+  "Let your shoulders soften": {
+    "": "Engedd, hogy a vállad meglágyuljanak."
+  },
+  "Take a small bite": {
+    "": "Fogj egy kis falatot."
+  },
+  "Chew slowly": {
+    "": "Rágd lassan."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Figyeld meg az ízt, a textúrát és a hőmérsékletet."
+  },
+  "Stay fully present with the experience": {
+    "": "Maradj teljesen jelen az élményben."
+  },
+  "Take a slow sip": {
+    "": "Igyál egy lassú kortyot."
+  },
+  "Notice the temperature and taste": {
+    "": "Figyeld meg a hőmérsékletet és az ízt."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Érezd az érzést, miközben nyelsz."
+  },
+  "Let yourself stay with that moment": {
+    "": "Hagyd, hogy maradj abban a pillanatban."
+  },
+  "Walk slowly and intentionally": {
+    "": "Lassan és szándékosan sétálj."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Figyeld meg, milyen érzés ér a lábad a talajhoz."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Figyeld meg a környezetedet ítélkezés nélkül."
+  },
+  "Let your breath match your steps": {
+    "": "Engedd, hogy a lélegzeted összhangban legyen a lépéseiddel."
+  },
+  "Hold the ice in your hand": {
+    "": "Tartsd a jeget a kezedben."
+  },
+  "Notice the cold sensation": {
+    "": "Figyeld fel a hideg érzést."
+  },
+  "Focus fully on the feeling": {
+    "": "Teljesen az érzésre koncentrálj."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Hagyd, hogy az erős érzés a jelenhez kötözzen."
+  },
+  "Choose a scent nearby": {
+    "": "Válassz egy közeli illatot."
+  },
+  "Inhale slowly": {
+    "": "Lélegezz lassan."
+  },
+  "Notice how it feels in your body": {
+    "": "Figyeld meg, hogyan érzi a tested állapotát."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Hagyd, hogy az illat bevonzzon ebbe a pillanatba."
+  },
+  "Stretch gently": {
+    "": "Nyújtózkodj óvatosan."
+  },
+  "Roll your shoulders": {
+    "": "Forgatd a vállad."
+  },
+  "Shift your weight from side to side": {
+    "": "Mozgasd a súlyodat oldalról oldalra."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Figyeld meg, hogyan érzi magát a tested mozgás közben."
+  },
+  "Pause and listen": {
+    "": "Állj meg és hallgasd."
+  },
+  "Identify three distinct sounds": {
+    "": "Azonosíts három különálló hangot."
+  },
   "Are they near or far?": "Közel vagy távol vannak?",
+  "Let your attention rest on each one": {
+    "": "Hagyd, hogy mindegyikre figyelj."
+  },
+  "Close your eyes if comfortable": {
+    "": "Csukd be a szemed, ha kényelmes vagy."
+  },
+  "Scan from head to toe": {
+    "": "Fejétől talpig szkennelje."
+  },
+  "Notice areas of tension or ease": {
+    "": "Figyeld meg a feszültség vagy könnyedség területeit."
+  },
+  "Breathe into any tightness": {
+    "": "Lélegezz be bármilyen szorítást."
+  },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Újrakezdés",
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
     "finish_exit": "Befejezés és kilépés",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Elkészítési idő",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Részesedés",
-    "share_progress": "Haladás megosztása",
-    "inspire_others": "Inspirálj másokat még ma",
-    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés...",
+    "share": "Megosztás",
+    "share_progress": "Ossza meg a haladást",
+    "inspire_others": "Inspirálj másokat ma",
+    "share_text": "Ezt {{activityName}} csináltam már a TherapyMantrában, és nagyon élveztem, te is megcsinálhatod, csak kövesd az android alkalmazás {{androidUrl}} vagy az iOS alkalmazás {{iosUrl}} linkjét",
     "this_activity": "ez a tevékenység",
     "copied": "Másolva!",
-    "copy_message": "Üzenet másolása",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "Másold az üzenetet",
+    "yes": "Igen",
+    "no": "Nem",
+    "date": "Dátum",
+    "continue": "Folytatás",
+    "step_of": "{{current}} lépés a {{total}}",
+    "round_of": "{{current}} kör a {{total}}",
+    "phase_label": "Fázis",
+    "rounds_selector": "{{count}} Fordulók",
+    "instruction_ready": "Állítsd be a köreidet, és kezdd meg a játékot",
+    "instruction_running": "Kövesd a kört, hogy szabályozd a légzésed"
   },
-  "app_title": "Földelés",
-  "app_description": "Földelés",
-  "change_language": "Nyelv módosítása",
+  "app_title": "Földre szállás",
+  "app_description": "Földre szállás",
+  "change_language": "Nyelvváltás",
   "search_language": "Keresési nyelv...",
-  "more": "Több",
-  "breadcrumb": "navigációs morzsa",
+  "more": "További",
+  "breadcrumb": "morzsa",
   "previous_slide": "Előző dia",
   "next_slide": "Következő dia",
-  "close": "Közeli",
-  "previous": "Előző",
+  "close": "Zárt",
+  "previous": "Korábbi",
   "more_pages": "További oldalak",
-  "pagination": "lapszámozás",
-  "go_to_previous_page": "Ugrás az előző oldalra",
-  "go_to_next_page": "Ugrás a következő oldalra",
-  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
+  "pagination": "Lapozás",
+  "go_to_previous_page": "Menj az előző oldalra",
+  "go_to_next_page": "Menj a következő oldalra",
+  "toggle_sidebar": "Kapcsoló oldalsáv",
   "stay_present": "Maradj jelen",
-  "oops_page_not_found": "Hoppá! Az oldal nem található.",
-  "return_to_home": "Vissza a kezdőlapra",
+  "oops_page_not_found": "Hoppá! Oldal nem talált meg",
+  "return_to_home": "Hazatérés",
   "grounding_technique": "Földelési technika",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Fázis",
+  "instruction_ready": "Állítsd be a köreidet, és kezdd meg a játékot",
+  "instruction_running": "Kövesd a kört, hogy szabályozd a légzésed",
+  "round_x_of_y": "{{current}} kör a {{total}}",
+  "rounds_selector": "{{count}} Fordulók",
+  "yes": "Igen",
+  "no": "Nem",
+  "date": "Dátum",
+  "continue": "Folytatás"
 }

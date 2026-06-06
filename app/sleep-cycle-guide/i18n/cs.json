@@ -1,11 +1,11 @@
 {
   "app_title": "Průvodce spánkovým cyklem",
-  "pill_labels": [
-    "Úvod",
-    "Čtyři fáze",
-    "Ospalá pravda",
-    "A co ty?"
-  ],
+  "pill_labels": {
+    "0": "Úvod",
+    "1": "Čtyři fáze",
+    "2": "Ospalá pravda",
+    "3": "A co ty?"
+  },
   "s1": {
     "title": "Spal jsi někdy 8 hodin a pořád se cítil hrozně?",
     "p1": "Nejde o <1>jak dlouho</1> spíš.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Váš mozek to dělá každou noc 🌀",
     "desc": "Každých 90 minut váš mozek prochází 4 fáze — jako playlist pořád dokola. Klepněte na každou pro prozkoumání 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Lehký spánek",
         "tag": "1–5 minut · snadno probuzené",
         "body": "Usínáš. Tělo začne povolovat, svaly mohou cukat. Je velmi snadné se odsud probudit."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Usazování se",
         "tag": "10–25 minut · Opravdu spí",
         "body": "Tep se zpomalí, tělesná teplota klesne. Jste pořádně usnuli — mozková aktivita začíná zpomalovat."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Hluboký spánek ⭐",
         "tag": "20–40 minut · Zlato",
         "body": "Tělo opravuje tkáně, buduje imunitu. Nejvíce fyzicky obnovující fáze — těžko se z ní probouzí."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM spánek",
         "tag": "10–60 minut · Režim snu",
         "body": "Mozek bzučí aktivitou. Emoce se zpracovávají, vzpomínky se uzamykají. Přeskočení tohoto zanechává mlhu."
       }
-    ],
+    },
     "italic": "Hluboký spánek opravuje vaše tělo. REM opravuje mysl.",
     "button": "Tak proč se pořád cítím malátný? →"
   },
@@ -52,126 +52,126 @@
     "p1": "Vytrhl vás z hlubokého spánku budík? Mozek doslova nedokončil, co dělal. Ten mlhavý těžký pocit? To je <1>spánková setrvačnost</1>.",
     "wave": {
       "light": "Světlo",
-      "deep": "hluboký",
+      "deep": "Deep",
       "groggy": "😫 ospalý",
       "fresh": "😊 čerstvé",
-      "cycles": [
-        "Cyklus 1",
-        "Cyklus 2",
-        "Cyklus 3"
-      ]
+      "cycles": {
+        "0": "Cyklus 1",
+        "1": "Cyklus 2",
+        "2": "Cyklus 3"
+      }
     },
     "disruptors_title": "Co narušuje vaše cykly 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Obrazovky před spaním",
         "sub": "Zpoždění hlubokého spánku"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Pozdní kofein",
         "sub": "Snižuje hluboký spánek až o 20 %"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Nepravidelné doby spánku",
         "sub": "naruší tvůj přirozený rytmus"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stres a úzkost",
         "sub": "udrží vás v lehkém spánku"
       }
-    ],
+    },
     "italic": "Vaše návyky přímo ovlivňují, do kterých fází dosáhnete.",
     "button": "Co to pro mě znamená? →"
   },
   "s4": {
     "title": "Který z nich zní jako ty? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Probouzím se fyzicky vyčerpaný",
         "sub": "Pravděpodobně jim chybí hluboký spánek",
         "tip": "Soustřeďte se na pravidelný spánek a bdění — vaše tělo potřebuje pravidelný rytmus, aby dosáhlo hlubokého spánku."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Cítím se emocionálně zmateně nebo sklesle",
         "sub": "pravděpodobně chybí REM spánek",
         "tip": "Zkuste se uklidnit 30 minut před spaním — klidná předspánková rutina chrání váš REM spánek."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Často se v noci probouzím",
         "sub": "cykly se neustále přerušují",
         "tip": "Chladná, tmavá a tichá místnost pomáhá vašemu mozku zůstat v hlubších fázích bez přerušení."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Cítím se dobře, ale ne skvěle",
         "sub": "cykly jsou částečné, ale nejsou úplné",
         "tip": "Zkuste jít spát o 20 minut dříve — možná budete potřebovat ještě jeden kompletní spánkový cyklus."
       }
-    ],
+    },
     "quote": "Spánek není jen odpočinek — je to aktivní regenerace. Chraňte své cykly a celý den se mění.",
     "button": "Hotovo ✓"
   },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Začněte",
     "start_over": "Začít znovu",
-    "finish_exit": "Dokončit a ukončit",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Čas na dokončení",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Podíl",
+    "finish_exit": "Konec a výjezd",
+    "well_done": "Dobrá práce!",
+    "completion_message": "Úspěšně jste tuto aktivitu dokončili. Věnujte chvíli ocenění svého pokroku.",
+    "time_to_complete": "Čas dokončit",
+    "back": "Zpět",
+    "next": "Další",
+    "save": "Uložit",
+    "loading": "Načítám...",
+    "share": "Sdílet",
     "share_progress": "Sdílet pokrok",
-    "inspire_others": "Inspirujte ostatní ještě dnes",
-    "share_text": "Tuto aktivitu {{activityName}} jsem dělal/a v TherapyMantra a opravdu si ji užívám. Můžete to dělat i vy, stačí kliknout na odkaz na aplikaci pro Android {{androidUrl}} nebo aplikaci pro iOS {{iosUrl}}.",
-    "this_activity": "tato aktivita",
+    "inspire_others": "Inspirujte ostatní dnes",
+    "share_text": "Dělal jsem to {{activityName}} v TherapyMantra a opravdu mě to baví, můžete to dělat taky, stačí kliknout na odkaz na android aplikaci {{androidUrl}} nebo iOS aplikaci {{iosUrl}}",
+    "this_activity": "Tato činnost",
     "copied": "Zkopírováno!",
-    "copy_message": "Kopírovat zprávu",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "Zkopírovat zprávu",
+    "yes": "Ano",
+    "no": "Ne",
+    "date": "Datum",
+    "continue": "Pokračovat",
+    "step_of": "Krok {{current}} of {{total}}",
+    "round_of": "Kolo {{current}} z {{total}}",
+    "phase_label": "Fáze",
+    "rounds_selector": "{{count}} Kola",
+    "instruction_ready": "Nastavte si kola a klepněte na play pro zahájení",
+    "instruction_running": "Následujte kruh, abyste regulovali dech"
   },
   "app_description": "Průvodce spánkovým cyklem",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(předchozí + 1, CELKEM_OBRAZOVEK - 1));\nconst goBack = () => setCurrentScreen(předchozí => Math.max(předchozí - 1, 0));\n\nconst obrazovky = [",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min (prev + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nConst screens = [",
   "it_s_not_about": "Nejde o to",
-  "it_s_about": "Jde o",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Vytrhl vás z hlubokého spánku budík? Váš mozek doslova nedokončil to, co dělal. Ten mlhavý těžký pocit? To je...",
+  "it_s_about": "Jde o to",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Vytrhl vás z hlubokého spánku budík? Mozek doslova nedokončil, co dělal. Ten mlhavý těžký pocit? To je",
   "more": "Více",
-  "breadcrumb": "strouhanka",
+  "breadcrumb": "drobeček",
   "previous_slide": "Předchozí snímek",
   "next_slide": "Další snímek",
-  "close": "Blízko",
+  "close": "Zavřít",
   "previous": "Předchozí",
-  "more_pages": "Více stránek",
-  "pagination": "stránkování",
-  "go_to_previous_page": "Přejít na předchozí stránku",
-  "go_to_next_page": "Přejít na další stránku",
-  "toggle_sidebar": "Přepnout postranní panel",
-  "oops_page_not_found": "Jejda! Stránka nenalezena.",
+  "more_pages": "Další stránky",
+  "pagination": "Paginace",
+  "go_to_previous_page": "Přejděte na předchozí stránku",
+  "go_to_next_page": "Přejděte na další stránku",
+  "toggle_sidebar": "Přepínač postranního panelu",
+  "oops_page_not_found": "Jejda! Stránka nenalezena",
   "return_to_home": "Návrat domů",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "phase_label": "Fáze",
+  "instruction_ready": "Nastavte si kola a klepněte na play pro zahájení",
+  "instruction_running": "Následujte kruh, abyste regulovali dech",
+  "round_x_of_y": "Kolo {{current}} z {{total}}",
+  "rounds_selector": "{{count}} Kola",
+  "yes": "Ano",
+  "no": "Ne",
+  "date": "Datum",
+  "continue": "Pokračovat"
 }

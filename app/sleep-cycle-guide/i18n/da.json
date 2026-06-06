@@ -1,11 +1,11 @@
 {
   "app_title": "Søvncyklusguide",
-  "pill_labels": [
-    "Indførelsen",
-    "De 4 faser",
-    "Den søvnige sandhed",
-    "Hvad med dig?"
-  ],
+  "pill_labels": {
+    "0": "Indførelsen",
+    "1": "De 4 faser",
+    "2": "Den søvnige sandhed",
+    "3": "Hvad med dig?"
+  },
   "s1": {
     "title": "Har du nogensinde sovet 8 timer og stadig følt dig elendig?",
     "p1": "Det handler ikke om <1>hvor længe</1> du sover.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Din hjerne gør DETTE hver nat 🌀",
     "desc": "Hver 90. minut cykler din hjerne gennem 4 baner — som en playliste på repeat. Tryk på hver for at udforske 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Let søvn",
         "tag": "1–5 min · let at vække",
         "body": "Du er ved at glide væk. Kroppen begynder at give slip, musklerne kan rykke. Meget let at vågne herfra."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "At slå sig ned",
         "tag": "10–25 minutter · virkelig sovende",
         "body": "Hjertefrekvensen falder, kropstemperaturen falder. Du sover ordentligt — hjerneaktiviteten begynder at aftage."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Dyb søvn ⭐",
         "tag": "20–40 minutter · Guldet",
         "body": "Kroppen reparerer væv, opbygger immunitet. Den mest fysisk genoprettende fase — svær at vågne fra."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM-søvn",
         "tag": "10–60 minutter · Drømmetilstand",
         "body": "Hjernen summer af aktivitet. Følelser bliver bearbejdet, minder låser sig fast. At springe dette over gør dig uklar."
       }
-    ],
+    },
     "italic": "Dyb søvn reparerer din krop. REM fikser dit sind.",
     "button": "Så hvorfor føler jeg mig stadig groggy? →"
   },
@@ -52,126 +52,126 @@
     "p1": "Trukket ud af dyb søvn af en alarm? Din hjerne er bogstaveligt talt ikke færdig med det, den var i gang med. Den tågede, tunge følelse? Det er <1>søvninerti</1>.",
     "wave": {
       "light": "Lys",
-      "deep": "Dyb",
+      "deep": "Deep",
       "groggy": "😫 groggy",
       "fresh": "😊 frisk",
-      "cycles": [
-        "Cyklus 1",
-        "Cyklus 2",
-        "Cyklus 3"
-      ]
+      "cycles": {
+        "0": "Cyklus 1",
+        "1": "Cyklus 2",
+        "2": "Cyklus 3"
+      }
     },
     "disruptors_title": "Hvad forstyrrer dine cyklusser 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Skærme før sengetid",
         "sub": "Forsinker dyb søvn"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Sen koffein",
         "sub": "skærer dyb søvn med op til 20%"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Uregelmæssige søvntider",
         "sub": "Bryder din naturlige rytme"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stress og angst",
         "sub": "holder dig fanget i let søvn"
       }
-    ],
+    },
     "italic": "Dine vaner former direkte, hvilke stadier du når op.",
     "button": "Hvad betyder det for mig? →"
   },
   "s4": {
     "title": "Hvilken lyder som dig? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Jeg vågner fysisk udmattet",
         "sub": "Sandsynligvis savner jeg dyb søvn",
         "tip": "Fokuser på en stabil søvn og opvågningstid — din krop har brug for en regelmæssig rytme for at nå dyb søvn."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Jeg føler mig følelsesmæssigt tåget eller nede",
         "sub": "Savner sandsynligvis REM-søvn",
         "tip": "Prøv at slappe af 30 minutter før sengetid — en rolig rutine før søvn beskytter din REM-søvn."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Jeg vågner ofte om natten",
         "sub": "Cyklusser bliver ved med at blive afbrudt",
         "tip": "Et køligt, mørkt og stille rum hjælper din hjerne med at forblive i dybere stadier uden afbrydelser."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Jeg har det okay, men ikke fantastisk",
         "sub": "Cyklusserne er delvise, men ikke komplette",
         "tip": "Prøv at gå i seng 20 minutter tidligere — du har måske bare brug for en komplet søvncyklus mere."
       }
-    ],
+    },
     "quote": "Søvn er ikke bare hvile — det er aktiv restitution. Beskyt dine cyklusser, og din heldag ændrer sig.",
     "button": "Færdig ✓"
   },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Kom i gang",
     "start_over": "Start forfra",
-    "finish_exit": "Afslut og afslut",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Tid til at færdiggøre",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Dele",
+    "finish_exit": "Afslutning og exit",
+    "well_done": "Godt gået!",
+    "completion_message": "Du har gennemført denne aktivitet med succes. Tag et øjeblik til at værdsætte dine fremskridt.",
+    "time_to_complete": "Tid til at gennemføre",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "loading": "Indlæser...",
+    "share": "Del",
     "share_progress": "Del fremskridt",
     "inspire_others": "Inspirer andre i dag",
-    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig. Du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
-    "this_activity": "denne aktivitet",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og nyder det virkelig, du kan også gøre det, bare følg linket til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "Denne aktivitet",
     "copied": "Kopieret!",
-    "copy_message": "Kopiér besked",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "Kopier besked",
+    "yes": "Ja",
+    "no": "Nej",
+    "date": "Dato",
+    "continue": "Fortsæt",
+    "step_of": "Trin {{current}} af {{total}}",
+    "round_of": "Runde {{current}} af {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Afdelinger",
+    "instruction_ready": "Sæt dine runder og tryk play for at begynde",
+    "instruction_running": "Følg cirklen for at regulere din vejrtrækning"
   },
-  "app_description": "Guide til søvncyklus",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(forrige + 1, TOTAL_SCREENS - 1));\nconst goBack = () => setAktuelSkærm(forrige => Math.max(forrige - 1, 0));\n\nconst screens = [\n\n\n\nconst screens = [\n...",
+  "app_description": "Søvncyklusguide",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(tidligere + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(tidligere => Math.max(tidligere - 1, 0));\n\nCONST screens = [",
   "it_s_not_about": "Det handler ikke om",
   "it_s_about": "Det handler om",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Blev du revet ud af din dyb søvn af en alarm? Din hjerne er bogstaveligt talt ikke færdig med det, den lavede. Den tågede, tunge følelse? Det er...",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Trukket ud af dyb søvn af en alarm? Din hjerne er bogstaveligt talt ikke færdig med det, den var i gang med. Den tågede, tunge følelse? Det er",
   "more": "Mere",
   "breadcrumb": "brødkrumme",
   "previous_slide": "Forrige slide",
   "next_slide": "Næste slide",
-  "close": "Tæt",
+  "close": "Luk",
   "previous": "Tidligere",
   "more_pages": "Flere sider",
-  "pagination": "paginering",
+  "pagination": "Paginering",
   "go_to_previous_page": "Gå til forrige side",
   "go_to_next_page": "Gå til næste side",
-  "toggle_sidebar": "Slå sidebjælken til/fra",
-  "oops_page_not_found": "Ups! Siden blev ikke fundet",
-  "return_to_home": "Tilbage til hjemmet",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "toggle_sidebar": "Toggle-sidebjælke",
+  "oops_page_not_found": "Ups! Side ikke fundet",
+  "return_to_home": "Tilbage til Hjem",
+  "phase_label": "Fase",
+  "instruction_ready": "Sæt dine runder og tryk play for at begynde",
+  "instruction_running": "Følg cirklen for at regulere din vejrtrækning",
+  "round_x_of_y": "Runde {{current}} af {{total}}",
+  "rounds_selector": "{{count}} Afdelinger",
+  "yes": "Ja",
+  "no": "Nej",
+  "date": "Dato",
+  "continue": "Fortsæt"
 }

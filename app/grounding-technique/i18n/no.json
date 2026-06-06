@@ -1,5 +1,11 @@
 {
   "Grounding": "Grunnstøting",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Forankringsteknikker hjelper deg å bringe oppmerksomheten tilbake til nåtiden."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Velg én aktivitet som føles støttende akkurat nå."
+  },
   "Step": "Trinn",
   "Back": "Tilbake",
   "Next": "Neste",
@@ -17,109 +23,195 @@
   "Move your body": "Beveg kroppen din",
   "Listen to your surroundings": "Lytt til omgivelsene dine",
   "Check in with your body": "Sjekk inn med kroppen din",
+  "Run your hands under cool or warm water": {
+    "": "Kjør hendene under kaldt eller varmt vann."
+  },
+  "Notice the temperature": {
+    "": "Legg merke til temperaturen."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Legg merke til følelsen på huden din."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Legg merke til hvordan det endrer seg øyeblikk for øyeblikk."
+  },
+  "Let your breathing slow naturally": {
+    "": "La pusten din roe seg naturlig."
+  },
+  "Choose a nearby object": {
+    "": "Velg en gjenstand i nærheten."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Legg merke til tekstur, vekt og temperatur."
+  },
   "Is it smooth or rough? Heavy or light?": "Er det glatt eller ru? Tung eller lett?",
+  "Let your focus stay fully on this one object": {
+    "": "La fokuset ditt holde seg fullt ut på dette ene objektet."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Ta et rolig pust inn gjennom nesen."
+  },
+  "Hold gently for a moment": {
+    "": "Hold forsiktig et øyeblikk."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Pust sakte ut gjennom munnen."
+  },
+  "Repeat several times": {
+    "": "Gjenta flere ganger."
+  },
+  "Let your shoulders soften": {
+    "": "La skuldrene mykne."
+  },
+  "Take a small bite": {
+    "": "Ta en liten bit."
+  },
+  "Chew slowly": {
+    "": "Tygg sakte."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Legg merke til smak, tekstur og temperatur."
+  },
+  "Stay fully present with the experience": {
+    "": "Hold deg helt til stede med opplevelsen."
+  },
+  "Take a slow sip": {
+    "": "Ta en langsom slurk."
+  },
+  "Notice the temperature and taste": {
+    "": "Legg merke til temperatur og smak."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Kjenn følelsen når du svelger."
+  },
+  "Let yourself stay with that moment": {
+    "": "La deg selv bli værende i det øyeblikket."
+  },
+  "Walk slowly and intentionally": {
+    "": "Gå sakte og bevisst."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Legg merke til følelsen av at føttene dine treffer bakken."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Observer omgivelsene dine uten å dømme."
+  },
+  "Let your breath match your steps": {
+    "": "La pusten din følge stegene dine."
+  },
+  "Hold the ice in your hand": {
+    "": "Hold isen i hånden."
+  },
+  "Notice the cold sensation": {
+    "": "Legg merke til den kalde følelsen."
+  },
+  "Focus fully on the feeling": {
+    "": "Fokuser fullt på følelsen."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "La den sterke følelsen forankre deg til nåtiden."
+  },
+  "Choose a scent nearby": {
+    "": "Velg en duft i nærheten."
+  },
+  "Inhale slowly": {
+    "": "Pust sakte inn."
+  },
+  "Notice how it feels in your body": {
+    "": "Legg merke til hvordan det føles i kroppen din."
+  },
+  "Let the scent bring you into this moment": {
+    "": "La duften føre deg inn i dette øyeblikket."
+  },
+  "Stretch gently": {
+    "": "Strekk forsiktig."
+  },
+  "Roll your shoulders": {
+    "": "Rull med skuldrene."
+  },
+  "Shift your weight from side to side": {
+    "": "Flytt vekten fra side til side."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Legg merke til hvordan kroppen din føles når den beveger seg."
+  },
+  "Pause and listen": {
+    "": "Pause og lytt."
+  },
+  "Identify three distinct sounds": {
+    "": "Identifiser tre distinkte lyder."
+  },
   "Are they near or far?": "Er de nær eller langt unna?",
+  "Let your attention rest on each one": {
+    "": "La oppmerksomheten hvile på hver enkelt."
+  },
+  "Close your eyes if comfortable": {
+    "": "Lukk øynene hvis det er komfortabelt."
+  },
+  "Scan from head to toe": {
+    "": "Skann fra topp til tå."
+  },
+  "Notice areas of tension or ease": {
+    "": "Legg merke til områder med spenning eller letthet."
+  },
+  "Breathe into any tightness": {
+    "": "Pust inn i enhver stramhet."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Kom i gang",
     "start_over": "Start på nytt",
-    "finish_exit": "Fullfør og avslutt",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
     "time_to_complete": "Tid for å fullføre",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Dele",
-    "share_progress": "Del fremdrift",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster...",
+    "share": "Del",
+    "share_progress": "Del fremgang",
     "inspire_others": "Inspirer andre i dag",
-    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
-    "this_activity": "denne aktiviteten",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og liker det veldig godt, du kan gjøre det også, bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "Denne aktiviteten",
     "copied": "Kopiert!",
     "copy_message": "Kopier melding",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Ja",
+    "no": "Nei",
+    "date": "Dato",
+    "continue": "Fortsett",
+    "step_of": "Trinn {{current}} av {{total}}",
+    "round_of": "Runde {{current}} av {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{tell}} Runder",
+    "instruction_ready": "Sett rundene dine og trykk play for å starte",
+    "instruction_running": "Følg sirkelen for å regulere pusten din"
   },
-  "app_title": "Jording",
-  "app_description": "Jording",
+  "app_title": "Grunnstøting",
+  "app_description": "Grunnstøting",
   "change_language": "Endre språk",
-  "search_language": "Søk på språk...",
-  "more": "Flere",
-  "breadcrumb": "brødsmuler",
-  "previous_slide": "Forrige lysbilde",
+  "search_language": "Søkespråk...",
+  "more": "Mer",
+  "breadcrumb": "Brødsmule",
+  "previous_slide": "Forrige slide",
   "next_slide": "Neste lysbilde",
-  "close": "Lukke",
+  "close": "Lukk",
   "previous": "Tidligere",
   "more_pages": "Flere sider",
-  "pagination": "paginering",
+  "pagination": "Paginering",
   "go_to_previous_page": "Gå til forrige side",
   "go_to_next_page": "Gå til neste side",
-  "toggle_sidebar": "Slå sidefeltet av/på",
-  "stay_present": "Vær til stede",
-  "oops_page_not_found": "Ups! Siden ble ikke funnet",
-  "return_to_home": "Gå tilbake til hjemmet",
+  "toggle_sidebar": "Toggle Sidebar",
+  "stay_present": "Hold deg til stede",
+  "oops_page_not_found": "Oops! Side ikke funnet",
+  "return_to_home": "Tilbake til hjemmet",
   "grounding_technique": "Jordingsteknikk",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Fase",
+  "instruction_ready": "Sett rundene dine og trykk play for å starte",
+  "instruction_running": "Følg sirkelen for å regulere pusten din",
+  "round_x_of_y": "Runde {{current}} av {{total}}",
+  "rounds_selector": "{{tell}} Runder",
+  "yes": "Ja",
+  "no": "Nei",
+  "date": "Dato",
+  "continue": "Fortsett"
 }

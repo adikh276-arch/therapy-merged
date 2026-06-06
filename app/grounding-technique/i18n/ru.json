@@ -1,125 +1,217 @@
 {
-  "Grounding": "Заземление",
+  "Grounding": "Посадка на землю",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Техники заземления помогают вернуть внимание к настоящему моменту."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Выберите одно занятие, которое сейчас ощущается для вас поддержкой."
+  },
   "Step": "Шаг",
   "Back": "Назад",
-  "Next": "Следующий",
-  "I Feel More Grounded": "Я чувствую себя более уверенно.",
-  "Choose Another Technique": "Выберите другой метод",
+  "Next": "Далее",
+  "I Feel More Grounded": "Я чувствую себя более приземлённой",
+  "Choose Another Technique": "Выберите другую технику",
   "Technique not found": "Техника не найдена",
-  "Put your hands in water": "Опустите руки в воду",
-  "Pick up or touch items near you": "Поднимите или коснитесь предметов, находящихся рядом с вами.",
-  "Breathe deeply": "Дышите глубоко",
-  "Savour your food": "Наслаждайтесь едой!",
-  "Savour a drink": "Насладитесь напитком",
-  "Take a short walk": "Совершите короткую прогулку.",
-  "Hold a piece of ice": "Возьмите в руки кусок льда",
-  "Savour a scent": "Насладитесь ароматом",
-  "Move your body": "Двигайте телом",
-  "Listen to your surroundings": "Прислушивайтесь к окружающему миру.",
-  "Check in with your body": "Прислушивайтесь к своему телу.",
-  "Is it smooth or rough? Heavy or light?": "Гладкое или шероховатое? Тяжелое или легкое?",
-  "Are they near or far?": "Они близко или далеко?",
+  "Put your hands in water": "Опусти руки в воду",
+  "Pick up or touch items near you": "Поднимите или трогайте предметы рядом с вами",
+  "Breathe deeply": "Глубоко вдохни",
+  "Savour your food": "Наслаждайся своей едой",
+  "Savour a drink": "Попробуйте выпить",
+  "Take a short walk": "Прогуляйся немного",
+  "Hold a piece of ice": "Держи кусок льда",
+  "Savour a scent": "Наслаждайся запахом",
+  "Move your body": "Двигай телом",
+  "Listen to your surroundings": "Прислушивайтесь к окружению",
+  "Check in with your body": "Проверь своё тело",
+  "Run your hands under cool or warm water": {
+    "": "Проведите руки под холодной или тёплой водой."
+  },
+  "Notice the temperature": {
+    "": "Обратите внимание на температуру."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Обращайте внимание на ощущения на коже."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Наблюдайте, как он меняется в момент за моментом."
+  },
+  "Let your breathing slow naturally": {
+    "": "Дайте дыханию естественным образом замедлиться."
+  },
+  "Choose a nearby object": {
+    "": "Выберите ближайший объект."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Обратите внимание на его текстуру, вес и температуру."
+  },
+  "Is it smooth or rough? Heavy or light?": "Гладкая или шероховатая? Тяжёлый или лёгкий?",
+  "Let your focus stay fully on this one object": {
+    "": "Пусть ваше внимание полностью сосредоточено на одном объекте."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Медленно вдохните через нос."
+  },
+  "Hold gently for a moment": {
+    "": "Подержи немного аккуратно."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Медленно выдыхайте через рот."
+  },
+  "Repeat several times": {
+    "": "Повторяйте несколько раз."
+  },
+  "Let your shoulders soften": {
+    "": "Позвольте плечам расслабиться."
+  },
+  "Take a small bite": {
+    "": "Откусите маленький кусок."
+  },
+  "Chew slowly": {
+    "": "Жуй медленно."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Обратите внимание на вкус, текстуру и температуру."
+  },
+  "Stay fully present with the experience": {
+    "": "Оставайтесь полностью в моменте происходящего."
+  },
+  "Take a slow sip": {
+    "": "Сделай медленный глоток."
+  },
+  "Notice the temperature and taste": {
+    "": "Обратите внимание на температуру и вкус."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Почувствуйте это ощущение, когда глотаете."
+  },
+  "Let yourself stay with that moment": {
+    "": "Позвольте себе остаться в этом моменте."
+  },
+  "Walk slowly and intentionally": {
+    "": "Иди медленно и целенаправленно."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Обратите внимание на ощущение, когда ваши ноги касаются земли."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Наблюдайте за окружающим миром без осуждения."
+  },
+  "Let your breath match your steps": {
+    "": "Пусть дыхание будет совпадать с шагами."
+  },
+  "Hold the ice in your hand": {
+    "": "Держи лёд в руке."
+  },
+  "Notice the cold sensation": {
+    "": "Обратите внимание на холодное ощущение."
+  },
+  "Focus fully on the feeling": {
+    "": "Полностью сосредоточьтесь на ощущениях."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Позвольте сильному ощущению закрепить вас в настоящем."
+  },
+  "Choose a scent nearby": {
+    "": "Выберите аромат поблизости."
+  },
+  "Inhale slowly": {
+    "": "Вдохни медленно."
+  },
+  "Notice how it feels in your body": {
+    "": "Обратите внимание, как это ощущается в вашем теле."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Пусть аромат приведёт тебя в этот момент."
+  },
+  "Stretch gently": {
+    "": "Растянитесь аккуратно."
+  },
+  "Roll your shoulders": {
+    "": "Покрути плечами."
+  },
+  "Shift your weight from side to side": {
+    "": "Перемещайте вес из стороны в сторону."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Обратите внимание, как чувствует себя ваше тело при движении."
+  },
+  "Pause and listen": {
+    "": "Остановись и слушай."
+  },
+  "Identify three distinct sounds": {
+    "": "Определите три разных звука."
+  },
+  "Are they near or far?": "Они близки или далеко?",
+  "Let your attention rest on each one": {
+    "": "Пусть ваше внимание остановится на каждом из них."
+  },
+  "Close your eyes if comfortable": {
+    "": "Закройте глаза, если вам комфортно."
+  },
+  "Scan from head to toe": {
+    "": "Сканируйте с головы до ног."
+  },
+  "Notice areas of tension or ease": {
+    "": "Обратите внимание на места натяжения или спокойствия."
+  },
+  "Breathe into any tightness": {
+    "": "Вдохни в любое напряжение."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Начните",
     "start_over": "Начать заново",
     "finish_exit": "Финиш и выход",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Время выполнения",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Делиться",
+    "well_done": "Молодец!",
+    "completion_message": "Вы успешно выполнили это задание. Уделите минуту, чтобы оценить свой прогресс.",
+    "time_to_complete": "Время завершить",
+    "back": "Назад",
+    "next": "Далее",
+    "save": "Сохранить",
+    "loading": "Загрузка...",
+    "share": "Поделиться",
     "share_progress": "Поделиться прогрессом",
-    "inspire_others": "Вдохновите других сегодня!",
-    "share_text": "Я выполняла это упражнение {{activityName}} в TherapyMantra и мне это очень понравилось, вы тоже можете попробовать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или iOS {{iosUrl}}.",
-    "this_activity": "эта деятельность",
-    "copied": "Скопировано!",
+    "inspire_others": "Вдохновляйте других сегодня",
+    "share_text": "Я делал это {{activityName}} в TherapyMantra и мне очень нравится, вы тоже можете это сделать, просто перейдите по ссылке на приложение для Android {{androidUrl}} или приложение для iOS {{iosUrl}}",
+    "this_activity": "Эта деятельность",
+    "copied": "Принято!",
     "copy_message": "Скопировать сообщение",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Да",
+    "no": "Нет",
+    "date": "Дата",
+    "continue": "Продолжайте",
+    "step_of": "Шаг {{current}} от {{total}}",
+    "round_of": "Раунд {{current}} от {{total}}",
+    "phase_label": "Фаза",
+    "rounds_selector": "{{count}} Раунды",
+    "instruction_ready": "Назначьте раунды и нажимайте на кнопку игры",
+    "instruction_running": "Следуйте кругу, чтобы регулировать дыхание"
   },
-  "app_title": "Заземление",
-  "app_description": "Заземление",
-  "change_language": "Изменить язык",
+  "app_title": "Посадка на землю",
+  "app_description": "Посадка на землю",
+  "change_language": "Сменить язык",
   "search_language": "Язык поиска...",
-  "more": "Более",
+  "more": "Подробнее",
   "breadcrumb": "хлебные крошки",
   "previous_slide": "Предыдущий слайд",
   "next_slide": "Следующий слайд",
-  "close": "Закрывать",
-  "previous": "Предыдущий",
+  "close": "Закрыть",
+  "previous": "Предыдущие",
   "more_pages": "Больше страниц",
-  "pagination": "нумерация страниц",
+  "pagination": "Пагинация",
   "go_to_previous_page": "Перейти на предыдущую страницу",
   "go_to_next_page": "Перейти на следующую страницу",
-  "toggle_sidebar": "Переключить боковую панель",
-  "stay_present": "Оставайтесь в настоящем моменте",
-  "oops_page_not_found": "Ой! Страница не найдена.",
-  "return_to_home": "Вернуться на главную",
+  "toggle_sidebar": "Переключение боковой панели",
+  "stay_present": "Оставайтесь в настоящем",
+  "oops_page_not_found": "Ой! Страница не найдена",
+  "return_to_home": "Возвращение домой",
   "grounding_technique": "Техника заземления",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Фаза",
+  "instruction_ready": "Назначьте раунды и нажимайте на кнопку игры",
+  "instruction_running": "Следуйте кругу, чтобы регулировать дыхание",
+  "round_x_of_y": "Раунд {{current}} от {{total}}",
+  "rounds_selector": "{{count}} Раунды",
+  "yes": "Да",
+  "no": "Нет",
+  "date": "Дата",
+  "continue": "Продолжайте"
 }

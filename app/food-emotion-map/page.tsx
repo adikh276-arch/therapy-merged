@@ -1,7 +1,7 @@
-﻿'use client';
+'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { Utensils, ChevronRight, Save, History, Sparkles, Trash2, Calendar, X, Lightbulb, MailOpen } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
@@ -20,6 +20,11 @@ interface TypingTextProps {
 const TypingText = ({ text, speed = 25, onComplete, className = "" }: TypingTextProps) => {
   const [displayed, setDisplayed] = useState("");
   const [done, setDone] = useState(false);
+  const onCompleteRef = useRef(onComplete);
+
+  useEffect(() => {
+    onCompleteRef.current = onComplete;
+  }, [onComplete]);
 
   useEffect(() => {
     setDisplayed("");
@@ -31,11 +36,11 @@ const TypingText = ({ text, speed = 25, onComplete, className = "" }: TypingText
       if (i >= text.length) {
         clearInterval(interval);
         setDone(true);
-        onComplete?.();
+        onCompleteRef.current?.();
       }
     }, speed);
     return () => clearInterval(interval);
-  }, [text, speed, onComplete]);
+  }, [text, speed]);
 
   return (
     <motion.p

@@ -1,11 +1,11 @@
 {
   "app_title": "Schlafzyklus-Leitfaden",
-  "pill_labels": [
-    "Einleitung",
-    "Die 4 Stufen",
-    "Die verschlafene Wahrheit",
-    "Und du?"
-  ],
+  "pill_labels": {
+    "0": "Einleitung",
+    "1": "Die 4 Stufen",
+    "2": "Die verschlafene Wahrheit",
+    "3": "Und du?"
+  },
   "s1": {
     "title": "Hast du schon mal acht Stunden geschlafen und dich trotzdem schrecklich gefühlt?",
     "p1": "Es geht nicht um <1>wie lange</1> du schläfst.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Dein Gehirn macht DAS jede Nacht 🌀",
     "desc": "Alle 90 Minuten durchläuft dein Gehirn vier Phasen – wie eine Playlist in Dauerschleife. Tippen Sie auf jedes Exemplar, um zu erkunden. 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Leichter Schlaf",
         "tag": "1–5 Minuten · Leicht zu wecken",
         "body": "Du schläfst ein. Der Körper beginnt nachzugeben, Muskeln zucken vielleicht. Von hier aus ist es sehr leicht, aufzuwachen."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Einleben",
         "tag": "10–25 Minuten · wirklich schlafend",
         "body": "Herzfrequenz verlangsamt sich, Körpertemperatur sinkt. Du schläfst richtig – die Gehirnaktivität beginnt sich zu verlangsamen."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Tiefschlaf ⭐",
         "tag": "20–40 Minuten · Das Gold",
         "body": "Der Körper repariert Gewebe und baut Immunität auf. Die körperlich erholsamste Phase – schwer aufzuwachen."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM-Schlaf",
         "tag": "10–60 Minuten · Traummodus",
-        "body": "Das Gehirn summt vor Aktivität. Emotionen werden verarbeitet, Erinnerungen schließen sich fest. Wenn du das überspringst, wirst du unklar."
+        "body": "Das Gehirn summt vor Aktivität. Emotionen werden verarbeitet, Erinnerungen schließen sich fest. Wenn du das überspringst, bist du unsicher."
       }
-    ],
+    },
     "italic": "Tiefschlaf heilt deinen Körper. REM repariert deinen Geist.",
     "button": "Warum fühle ich mich also immer noch benommen? →"
   },
@@ -55,123 +55,123 @@
       "deep": "Deep",
       "groggy": "😫 benommen",
       "fresh": "😊 Frisch",
-      "cycles": [
-        "Zyklus 1",
-        "Zyklus 2",
-        "Zyklus 3"
-      ]
+      "cycles": {
+        "0": "Zyklus 1",
+        "1": "Zyklus 2",
+        "2": "Zyklus 3"
+      }
     },
     "disruptors_title": "Was stört deine Zyklen 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Bildschirme vor dem Schlafengehen",
         "sub": "Verzögert den Tiefschlaf"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Spätes Koffein",
         "sub": "reduziert den tiefen Schlaf um bis zu 20 %"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Unregelmäßige Schlafzeiten",
         "sub": "Stört deinen natürlichen Rhythmus"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stress und Angst",
         "sub": "hält dich im leichten Schlaf gefangen"
       }
-    ],
+    },
     "italic": "Deine Gewohnheiten prägen direkt, welche Phasen du erreichst.",
     "button": "Was bedeutet das für mich? →"
   },
   "s4": {
     "title": "Welche klingt nach dir? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Ich wache körperlich erschöpft auf",
         "sub": "Wahrscheinlich vermisst er den tiefen Schlaf",
-        "tip": "Konzentrieren Sie sich auf einen regelmäßigen Schlaf und eine regelmäßige Aufwachungszeit – Ihr Körper braucht einen regelmäßigen Rhythmus, um Tiefschlaf zu erreichen."
+        "tip": "Konzentrieren Sie sich auf einen regelmäßigen Schlaf und eine regelmäßige Aufwachungszeit – Ihr Körper braucht einen regelmäßigen Rhythmus, um einen tiefen Schlaf zu erreichen."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Ich fühle mich emotional benebelt oder niedergeschlagen",
         "sub": "Wahrscheinlich fehlt der REM-Schlaf",
-        "tip": "Versuche, 30 Minuten vor dem Schlafengehen zu entspannen – eine ruhige Vor-Schlaf-Routine schützt deinen REM-Schlaf."
+        "tip": "Versuchen Sie, 30 Minuten vor dem Schlafengehen zu entspannen – eine ruhige Vor-Schlaf-Routine schützt Ihren REM-Schlaf."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Ich wache nachts oft auf",
         "sub": "Zyklen werden immer wieder unterbrochen",
         "tip": "Ein kühler, dunkler und ruhiger Raum hilft deinem Gehirn, ohne Unterbrechung in tieferen Phasen zu bleiben."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Ich fühle mich okay, aber nicht großartig",
         "sub": "Zyklen sind partiell, aber nicht vollständig",
         "tip": "Versuche, 20 Minuten früher ins Bett zu gehen – vielleicht brauchst du nur noch einen kompletten Schlafzyklus."
       }
-    ],
+    },
     "quote": "Schlaf ist nicht nur Ruhe – es ist eine aktive Erholung. Schütze deine Zyklen und deine Tagesveränderungen.",
     "button": "Fertig ✓"
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Von vorne beginnen",
-    "finish_exit": "Ziel & Ausgang",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Zeit zum Fertigstellen",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Aktie",
+    "get_started": "Leg los",
+    "start_over": "Neu anfangen",
+    "finish_exit": "Ziel und Ausgang",
+    "well_done": "Gut gemacht!",
+    "completion_message": "Du hast diese Aktivität erfolgreich abgeschlossen. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen.",
+    "time_to_complete": "Zeit zum Abschluss",
+    "back": "Zurück",
+    "next": "Als Nächstes",
+    "save": "Speichern",
+    "loading": "Lädt...",
+    "share": "Teilen",
     "share_progress": "Fortschritt teilen",
-    "inspire_others": "Inspiriere heute andere.",
-    "share_text": "Ich habe diese Aktivität {{activityName}} in TherapyMantra ausprobiert und finde sie richtig toll. Du kannst das auch machen! Folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}.",
-    "this_activity": "diese Aktivität",
+    "inspire_others": "Inspirieren Sie heute andere",
+    "share_text": "Ich habe das {{activityName}} in TherapyMantra gemacht und genieße es wirklich, du kannst es auch machen, folge einfach dem Link zur Android-App {{androidUrl}} oder zur iOS-App {{iosUrl}}",
+    "this_activity": "Diese Aktivität",
     "copied": "Kopiert!",
     "copy_message": "Nachricht kopieren",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
+    "yes": "Ja",
+    "no": "Nein",
+    "date": "Datum",
+    "continue": "Weitermachen",
+    "step_of": "Schritt {{current}} von {{total}}",
+    "round_of": "Runde {{current}} von {{total}}",
     "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "rounds_selector": "{{count}} Runden",
+    "instruction_ready": "Stellen Sie Ihre Runden ein und tippen Sie auf Play, um zu beginnen",
+    "instruction_running": "Folge dem Kreis, um deine Atmung zu regulieren"
   },
-  "app_description": "Leitfaden zum Schlafzyklus",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "app_description": "Schlafzyklus-Leitfaden",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(vorher + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(vorher => Math.max(vorher - 1, 0));\n\nconst screens = [",
   "it_s_not_about": "Es geht nicht darum",
   "it_s_about": "Es geht um",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Vom Wecker aus dem Tiefschlaf gerissen? Ihr Gehirn hat seine Arbeit noch nicht beendet. Dieses benebelte, schwere Gefühl? Das ist",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Von einem Wecker aus dem tiefen Schlaf gerissen? Dein Gehirn hat buchstäblich noch nicht beendet, was es getan hat. Dieses neblige, schwere Gefühl? Das ist",
   "more": "Mehr",
   "breadcrumb": "Brotkrumen",
   "previous_slide": "Vorherige Folie",
   "next_slide": "Nächste Folie",
   "close": "Schließen",
-  "previous": "Vorherige",
-  "more_pages": "Weitere Seiten",
-  "pagination": "Pagination",
-  "go_to_previous_page": "Zur vorherigen Seite",
-  "go_to_next_page": "Weiter zur nächsten Seite",
-  "toggle_sidebar": "Seitenleiste ein-/ausblenden",
-  "oops_page_not_found": "Hoppla! Seite nicht gefunden",
-  "return_to_home": "Zurück zur Startseite",
+  "previous": "Früher",
+  "more_pages": "Mehr Seiten",
+  "pagination": "Paginierung",
+  "go_to_previous_page": "Gehe zur vorherigen Seite",
+  "go_to_next_page": "Zur nächsten Seite gehen",
+  "toggle_sidebar": "Seitenleiste umschalten",
+  "oops_page_not_found": "Ups! Seite nicht gefunden",
+  "return_to_home": "Rückkehr in die Heimat",
   "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "instruction_ready": "Stellen Sie Ihre Runden ein und tippen Sie auf Play, um zu beginnen",
+  "instruction_running": "Folge dem Kreis, um deine Atmung zu regulieren",
+  "round_x_of_y": "Runde {{current}} von {{total}}",
+  "rounds_selector": "{{count}} Runden",
+  "yes": "Ja",
+  "no": "Nein",
+  "date": "Datum",
+  "continue": "Weitermachen"
 }

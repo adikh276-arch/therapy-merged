@@ -1,14 +1,14 @@
 {
   "app_title": "Guide du cycle du sommeil",
-  "pill_labels": [
-    "Introduction",
-    "Les 4 étapes",
-    "La vérité ensommeillée",
-    "Et toi ?"
-  ],
+  "pill_labels": {
+    "0": "Introduction",
+    "1": "Les 4 étapes",
+    "2": "La vérité ensommeillée",
+    "3": "Et toi ?"
+  },
   "s1": {
     "title": "Avez-vous déjà dormi 8 heures et vous vous sentez toujours mal ?",
-    "p1": "Ce n’est pas une question de <1>combien de temps< sur 1> tu dors.",
+    "p1": "Ce n’est pas une question de <1>combien de temps</1> tu dors.",
     "p2": "C’est environ <1>où< 1> dans ton cycle de sommeil tu te réveilles.",
     "p3": "Une chose change quand on comprend cela — tout.",
     "insight": "💡 Votre cerveau est en fait plus actif pendant le sommeil paradoxal que lorsque vous êtes complètement éveillé !",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Ton cerveau fait ÇA chaque nuit 🌀",
     "desc": "Toutes les 90 minutes, votre cerveau passe en boucle à travers 4 étapes — comme une playlist en boucle. Tapez chacun pour explorer 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Sommeil léger",
         "tag": "1–5 min · facilement réveillé",
         "body": "Tu t’endors. Le corps commence à lâcher prise, les muscles peuvent tressaillir. Très facile de se réveiller d’ici."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "S’installer",
         "tag": "10–25 minutes · vraiment endormi",
         "body": "Le rythme cardiaque ralentit, la température corporelle chute. Vous dormez profondément — l’activité cérébrale commence à ralentir."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Sommeil ⭐ profond",
         "tag": "20–40 minutes · L’or",
         "body": "Le corps répare les tissus, renforce l’immunité. Le stade le plus réparateur physiquement — difficile à sortir."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "Sommeil paradoxal",
         "tag": "10–60 minutes · Mode rêve",
         "body": "Le cerveau bourdonne d’activité. Les émotions sont traitées, les souvenirs s’enferment. Passer ça te laisse dans le brouillard."
       }
-    ],
+    },
     "italic": "Le sommeil profond répare votre corps. Le REM répare votre esprit.",
     "button": "Alors pourquoi est-ce que je me sens encore dans la tête ? →"
   },
@@ -52,126 +52,126 @@
     "p1": "Tiré de son sommeil profond par une alarme ? Ton cerveau n’a littéralement pas fini ce qu’il faisait. Cette sensation de brouillard et lourd ? C’est <1>inertie du sommeil</1>.",
     "wave": {
       "light": "Lumière",
-      "deep": "profond",
+      "deep": "Deep",
       "groggy": "😫 groggy",
       "fresh": "😊 frais",
-      "cycles": [
-        "Cycle 1",
-        "Cycle 2",
-        "Cycle 3"
-      ]
+      "cycles": {
+        "0": "Cycle 1",
+        "1": "Cycle 2",
+        "2": "Cycle 3"
+      }
     },
     "disruptors_title": "Ce qui perturbe vos cycles 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Écrans avant de se coucher",
         "sub": "Retarde le sommeil profond"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Caféine tardive",
         "sub": "réduit le sommeil profond jusqu’à 20 %"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Heures de sommeil irrégulières",
         "sub": "casse ton rythme naturel"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stress et anxiété",
         "sub": "Te maintient coincé dans un sommeil léger"
       }
-    ],
+    },
     "italic": "Vos habitudes influencent directement les étapes que vous atteignez.",
     "button": "Qu’est-ce que cela signifie pour moi ? →"
   },
   "s4": {
     "title": "Lequel vous ressemble ? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Je me réveille physiquement épuisé",
         "sub": "Probablement manqué un sommeil profond",
         "tip": "Concentrez-vous sur un temps de sommeil et d’éveil régulier — votre corps a besoin d’un rythme régulier pour atteindre un sommeil profond."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Je me sens émotionnellement embrumé ou déprimé",
         "sub": "probablement manquant le sommeil paradoxal",
         "tip": "Essayez de vous détendre 30 minutes avant de vous coucher — une routine calme avant le sommeil protège votre sommeil paradoxal."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Je me réveille souvent la nuit",
         "sub": "Les cycles sont interrompus sans cesse",
         "tip": "Une pièce fraîche, sombre et calme aide votre cerveau à rester dans des stades plus profonds sans interruption."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Je me sens bien mais pas super",
         "sub": "Les cycles sont partiels mais pas complets",
         "tip": "Essayez de vous coucher 20 minutes plus tôt — vous aurez peut-être juste besoin d’un cycle de sommeil complet supplémentaire."
       }
-    ],
+    },
     "quote": "Le sommeil n’est pas seulement du repos — c’est une récupération active. Protégez vos cycles et toute votre journée change.",
     "button": "Fait ✓"
   },
   "common": {
-    "get_started": "Commencer",
-    "start_over": "Recommencer",
+    "get_started": "Commencez",
+    "start_over": "Recommencer à zéro",
     "finish_exit": "Fin et sortie",
-    "well_done": "Bien joué !",
-    "completion_message": "Vous avez terminé cette activité avec succès. Prenez un moment pour apprécier vos progrès.",
-    "time_to_complete": "Temps écoulé",
+    "well_done": "Bravo !",
+    "completion_message": "Vous avez réussi cette activité. Prenez un moment pour apprécier vos progrès.",
+    "time_to_complete": "Il est temps de terminer",
     "back": "Retour",
     "next": "Suivant",
-    "save": "Enregistrer",
+    "save": "Sauvegarder",
     "loading": "Chargement...",
     "share": "Partager",
-    "share_progress": "Partager les progrès",
-    "inspire_others": "Inspirez les autres aujourd'hui",
-    "share_text": "J'ai réalisé cette activité {{activityName}} sur TherapyMantra et j'ai beaucoup apprécié. Vous pouvez la faire aussi ; il suffit de suivre le lien vers l'application Android {{androidUrl}} ou l'application iOS {{iosUrl}}.",
-    "this_activity": "cette activité",
+    "share_progress": "Partagez les progrès",
+    "inspire_others": "Inspirez les autres aujourd’hui",
+    "share_text": "J’ai fait ça {{activityName}} dans TherapyMantra et j’aime vraiment ça, tu peux le faire aussi, il suffit de suivre le lien vers l’application Android {{androidUrl}} ou l’application iOS {{iosUrl}}",
+    "this_activity": "Cette activité",
     "copied": "Copié !",
-    "copy_message": "Copier le message",
+    "copy_message": "Copie du message",
     "yes": "Oui",
     "no": "Non",
     "date": "Date",
-    "continue": "Continuer",
-    "step_of": "Étape {{current}} sur {{total}}",
-    "round_of": "Round {{current}} sur {{total}}",
+    "continue": "Continuez",
+    "step_of": "Étape {{current}} de {{total}}",
+    "round_of": "Ronde {{current}} de {{total}}",
     "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+    "rounds_selector": "{{count}} Manches",
+    "instruction_ready": "Fixez vos parties et appuyez sur jeu pour commencer",
     "instruction_running": "Suivez le cercle pour réguler votre respiration"
   },
   "app_description": "Guide du cycle du sommeil",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
-  "it_s_not_about": "Il ne s'agit pas de",
-  "it_s_about": "Il s'agit de",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Tiré en sursaut par une alarme ? Votre cerveau n'a tout simplement pas terminé sa tâche. Cette sensation de lourdeur et de brouillard mental ? C'est…",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min (précédent + 1, TOTAL_SCREENS - 1)) ;\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0)) ;\n\nécrans const = [",
+  "it_s_not_about": "Ce n’est pas une question",
+  "it_s_about": "Il s’agit de",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Tiré de son sommeil profond par une alarme ? Ton cerveau n’a littéralement pas fini ce qu’il faisait. Cette sensation de brouillard et lourd ? C’est",
   "more": "Plus",
-  "breadcrumb": "chapelure",
+  "breadcrumb": "miette de pain",
   "previous_slide": "Diapositive précédente",
   "next_slide": "Diapositive suivante",
   "close": "Fermer",
   "previous": "Précédent",
   "more_pages": "Plus de pages",
-  "pagination": "pagination",
+  "pagination": "Pagination",
   "go_to_previous_page": "Aller à la page précédente",
-  "go_to_next_page": "Passer à la page suivante",
-  "toggle_sidebar": "Afficher/masquer la barre latérale",
-  "oops_page_not_found": "Oups ! Page introuvable",
-  "return_to_home": "Retour à l'accueil",
+  "go_to_next_page": "Aller à la page suivante",
+  "toggle_sidebar": "Basculer la barre latérale",
+  "oops_page_not_found": "Oups ! Page non trouvée",
+  "return_to_home": "Retour au pays",
   "phase_label": "Phase",
-  "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
+  "instruction_ready": "Fixez vos parties et appuyez sur jeu pour commencer",
   "instruction_running": "Suivez le cercle pour réguler votre respiration",
-  "round_x_of_y": "Round {{current}} sur {{total}}",
-  "rounds_selector": "{{count}} Rounds",
+  "round_x_of_y": "Ronde {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Manches",
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuez"
 }

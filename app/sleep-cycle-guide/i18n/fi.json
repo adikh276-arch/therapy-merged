@@ -1,11 +1,11 @@
 {
   "app_title": "Unikierto-opas",
-  "pill_labels": [
-    "Johdanto",
-    "Neljä vaihetta",
-    "Uninen totuus",
-    "Entä sinä?"
-  ],
+  "pill_labels": {
+    "0": "Johdanto",
+    "1": "Neljä vaihetta",
+    "2": "Uninen totuus",
+    "3": "Entä sinä?"
+  },
   "s1": {
     "title": "Oletko koskaan nukkunut 8 tuntia ja silti tuntenut olosi kamalaksi?",
     "p1": "Kyse ei ole siitä, <1>kuinka kauan</1> nukut.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Aivosi tekevät TÄTÄ joka yö 🌀",
     "desc": "Joka 90. minuutti aivosi kiertävät neljän vaiheen läpi — kuin soittolista toistuvasti. Napauta kutakin tutkiaksesi 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Kevyt uni",
         "tag": "1–5 minuuttia · helposti heräävä",
         "body": "Vaivut uneen. Keho alkaa päästää irti, lihakset saattavat nykiä. Täältä on todella helppo herätä."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Sopeutuminen",
         "tag": "10–25 minuuttia · Todella unessa",
         "body": "Syke hidastuu, kehon lämpötila laskee. Olet kunnolla unessa — aivotoiminta alkaa hidastua."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Syvä uni ⭐",
         "tag": "20–40 minuuttia · Kulta",
         "body": "Keho korjaa kudosta, rakentaa vastustuskyvyn. Fyysisesti parantavin vaihe — vaikea herätä."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM-uni",
         "tag": "10–60 minuuttia · Dream-tila",
         "body": "Aivot surisevat toiminnasta. Tunteet käsitellään, muistot lukittuvat. Tämän ohittaminen saa sinut sumuiseksi."
       }
-    ],
+    },
     "italic": "Syvä uni korjaa kehosi. REM korjaa mielesi.",
     "button": "Miksi sitten tunnen oloni edelleen tokkuraiseksi? →"
   },
@@ -55,123 +55,123 @@
       "deep": "Syvällä",
       "groggy": "😫 tokkurainen",
       "fresh": "😊 Tuore",
-      "cycles": [
-        "Sykli 1",
-        "Kausi 2",
-        "Kausi 3"
-      ]
+      "cycles": {
+        "0": "Sykli 1",
+        "1": "Kausi 2",
+        "2": "Kausi 3"
+      }
     },
     "disruptors_title": "Mikä häiritsee kiertojasi 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Näytöt ennen nukkumaanmenoa",
         "sub": "viivästyttää syvää unta"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Myöhäinen kofeiini",
         "sub": "Vähentää syvää unta jopa 20 %"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Epäsäännölliset uniajat",
         "sub": "rikkoo luonnollisen rytmisi"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stressi ja ahdistus",
         "sub": "Pitää sinut jumissa kevyessä unessa"
       }
-    ],
+    },
     "italic": "Tapasi muokkaavat suoraan, mihin vaiheisiin pääset.",
     "button": "Mitä tämä merkitsee minulle? →"
   },
   "s4": {
     "title": "Kumpi kuulostaa sinulta? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Herään fyysisesti uupuneena",
         "sub": "Todennäköisesti kaipaa syvää unta",
         "tip": "Keskity säännölliseen uni- ja heräämisaikaan — kehosi tarvitsee säännöllisen rytmin päästäkseen syvään uneen."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Tunnen oloni henkisesti sumuiseksi tai alakuloiseksi",
         "sub": "todennäköisesti puuttuu REM-uni",
         "tip": "Kokeile rentoutua 30 minuuttia ennen nukkumaanmenoa — rauhallinen ennen nukkumaanmenorutiini suojaa REM-untasi."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Herään usein yöllä",
         "sub": "Syklit keskeytyvät jatkuvasti",
         "tip": "Viileä, pimeä ja hiljainen huone auttaa aivojasi pysymään syvemmissä vaiheissa ilman keskeytyksiä."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Voin hyvin, mutta en kovin hyvin",
         "sub": "Syklit ovat osittaisia, mutta eivät täydellisiä",
         "tip": "Yritä mennä nukkumaan 20 minuuttia aikaisemmin — saatat tarvita vain yhden täydellisen unisyklin lisää."
       }
-    ],
+    },
     "quote": "Uni ei ole pelkkää lepoa — se on aktiivista toipumista. Suojaa kiertosi ja koko päivän muutokset.",
     "button": "Valmista ✓"
   },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Aloita",
     "start_over": "Aloita alusta",
-    "finish_exit": "Lopeta ja poistu",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Aikaa valmistua",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Jakaa",
-    "share_progress": "Jaa edistyminen",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan...",
+    "share": "Jaa",
+    "share_progress": "Jaa edistystä",
     "inspire_others": "Inspiroi muita tänään",
-    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
-    "this_activity": "tämä toiminta",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon, sinäkin voit tehdä sen, seuraa vain linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "Tämä toiminta",
     "copied": "Kopioitu!",
     "copy_message": "Kopioi viesti",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Kyllä",
+    "no": "Ei",
+    "date": "Päivämäärä",
+    "continue": "Jatka",
+    "step_of": "Vaihe {{current}} {{total}}",
+    "round_of": "Kierros {{current}} {{total}}",
+    "phase_label": "Vaihe",
+    "rounds_selector": "{{count}} Kierrokset",
+    "instruction_ready": "Aseta kierrokset ja napauta play aloittaaksesi",
+    "instruction_running": "Seuraa ympyrää säädelläksesi hengitystäsi"
   },
-  "app_description": "Unisyklin opas",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(edellinen + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(edellinen => Math.max(edellinen - 1, 0));\n\nconst screens = [ ]",
+  "app_description": "Unikierto-opas",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(edellinen + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(edellinen => Math.max(edellinen - 1, 0));\n\nConst screens = [",
   "it_s_not_about": "Kyse ei ole",
   "it_s_about": "Kyse on",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Herättikö herätyskello sinut syvästä unesta? Aivosi eivät ole kirjaimellisesti saaneet sitä, mitä ne olivat tekemässä. Tuo sumuinen, raskas tunne? Se on...",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Herätetty syvästä unesta herätyskellolla? Aivosi eivät kirjaimellisesti ole vielä lopettaneet sitä, mitä ne tekivät. Se sumuinen raskas tunne? Tuo on",
   "more": "Lisää",
-  "breadcrumb": "navigointipolku",
+  "breadcrumb": "Leivänmuru",
   "previous_slide": "Edellinen dia",
   "next_slide": "Seuraava dia",
-  "close": "Lähellä",
+  "close": "Sulje",
   "previous": "Edellinen",
   "more_pages": "Lisää sivuja",
-  "pagination": "sivunumerointi",
-  "go_to_previous_page": "Siirry edelliselle sivulle",
-  "go_to_next_page": "Siirry seuraavalle sivulle",
-  "toggle_sidebar": "Näytä/piilota sivupalkki",
-  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
-  "return_to_home": "Palaa kotiin",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "pagination": "Sivutus",
+  "go_to_previous_page": "Mene edelliselle sivulle",
+  "go_to_next_page": "Mene seuraavalle sivulle",
+  "toggle_sidebar": "Sivupalkin vaihto",
+  "oops_page_not_found": "Hups! Sivua ei löydy",
+  "return_to_home": "Paluu kotiin",
+  "phase_label": "Vaihe",
+  "instruction_ready": "Aseta kierrokset ja napauta play aloittaaksesi",
+  "instruction_running": "Seuraa ympyrää säädelläksesi hengitystäsi",
+  "round_x_of_y": "Kierros {{current}} {{total}}",
+  "rounds_selector": "{{count}} Kierrokset",
+  "yes": "Kyllä",
+  "no": "Ei",
+  "date": "Päivämäärä",
+  "continue": "Jatka"
 }

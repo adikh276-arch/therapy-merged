@@ -1,125 +1,217 @@
 {
-  "Grounding": "Tiếp đất",
-  "Step": "Bước chân",
-  "Back": "Mặt sau",
+  "Grounding": "Nối đất",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Các kỹ thuật tiếp đất giúp đưa sự chú ý của bạn trở lại thời điểm hiện tại."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Chọn một hoạt động cảm thấy hỗ trợ ngay bây giờ."
+  },
+  "Step": "Bước",
+  "Back": "Quay lại",
   "Next": "Kế tiếp",
-  "I Feel More Grounded": "Tôi cảm thấy vững vàng hơn.",
+  "I Feel More Grounded": "Tôi cảm thấy có cơ sở hơn",
   "Choose Another Technique": "Chọn một kỹ thuật khác",
   "Technique not found": "Không tìm thấy kỹ thuật",
-  "Put your hands in water": "Nhúng tay vào nước",
-  "Pick up or touch items near you": "Nhặt hoặc chạm vào các vật thể ở gần bạn.",
+  "Put your hands in water": "Đặt tay vào nước",
+  "Pick up or touch items near you": "Nhặt hoặc chạm vào các vật dụng gần bạn",
   "Breathe deeply": "Hít thở sâu",
-  "Savour your food": "Hãy thưởng thức món ăn của bạn.",
+  "Savour your food": "Thưởng thức món ăn của bạn",
   "Savour a drink": "Thưởng thức đồ uống",
   "Take a short walk": "Đi bộ một đoạn ngắn",
-  "Hold a piece of ice": "Cầm một viên đá",
-  "Savour a scent": "Thưởng thức hương thơm",
-  "Move your body": "Hãy vận động cơ thể",
-  "Listen to your surroundings": "Hãy lắng nghe môi trường xung quanh bạn",
-  "Check in with your body": "Hãy lắng nghe cơ thể mình.",
-  "Is it smooth or rough? Heavy or light?": "Bề mặt nhẵn hay thô ráp? Nặng hay nhẹ?",
-  "Are they near or far?": "Họ ở gần hay ở xa?",
+  "Hold a piece of ice": "Giữ một miếng băng",
+  "Savour a scent": "Thưởng thức mùi hương",
+  "Move your body": "Di chuyển cơ thể của bạn",
+  "Listen to your surroundings": "Lắng nghe môi trường xung quanh bạn",
+  "Check in with your body": "Kiểm tra cơ thể của bạn",
+  "Run your hands under cool or warm water": {
+    "": "Chạy tay dưới vòi nước mát hoặc ấm."
+  },
+  "Notice the temperature": {
+    "": "Chú ý nhiệt độ."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Chú ý đến cảm giác trên da của bạn."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Quan sát cách nó thay đổi từng khoảnh khắc."
+  },
+  "Let your breathing slow naturally": {
+    "": "Hãy để hơi thở của bạn chậm lại một cách tự nhiên."
+  },
+  "Choose a nearby object": {
+    "": "Chọn một đối tượng ở gần."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Chú ý kết cấu, trọng lượng và nhiệt độ của nó."
+  },
+  "Is it smooth or rough? Heavy or light?": "Nó mịn hay thô? Nặng hay nhẹ?",
+  "Let your focus stay fully on this one object": {
+    "": "Hãy để sự tập trung của bạn hoàn toàn vào một đối tượng này."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Hít một hơi chậm bằng mũi."
+  },
+  "Hold gently for a moment": {
+    "": "Giữ nhẹ nhàng trong giây lát."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Thở ra từ từ bằng miệng."
+  },
+  "Repeat several times": {
+    "": "Lặp lại nhiều lần."
+  },
+  "Let your shoulders soften": {
+    "": "Hãy để vai của bạn mềm mại."
+  },
+  "Take a small bite": {
+    "": "Cắn một miếng nhỏ."
+  },
+  "Chew slowly": {
+    "": "Nhai chậm."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Chú ý hương vị, kết cấu và nhiệt độ."
+  },
+  "Stay fully present with the experience": {
+    "": "Luôn hiện diện đầy đủ với trải nghiệm."
+  },
+  "Take a slow sip": {
+    "": "Nhấp một ngụm chậm."
+  },
+  "Notice the temperature and taste": {
+    "": "Chú ý nhiệt độ và hương vị."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Cảm nhận cảm giác khi bạn nuốt."
+  },
+  "Let yourself stay with that moment": {
+    "": "Hãy để bản thân ở lại với khoảnh khắc đó."
+  },
+  "Walk slowly and intentionally": {
+    "": "Đi chậm và có chủ ý."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Chú ý cảm giác bàn chân của bạn chạm đất."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Quan sát môi trường xung quanh bạn mà không phán xét."
+  },
+  "Let your breath match your steps": {
+    "": "Hãy để hơi thở của bạn phù hợp với bước đi của bạn."
+  },
+  "Hold the ice in your hand": {
+    "": "Cầm đá trên tay của bạn."
+  },
+  "Notice the cold sensation": {
+    "": "Chú ý cảm giác lạnh."
+  },
+  "Focus fully on the feeling": {
+    "": "Tập trung hoàn toàn vào cảm xúc."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Hãy để cảm giác mạnh mẽ neo bạn vào hiện tại."
+  },
+  "Choose a scent nearby": {
+    "": "Chọn một mùi hương gần đó."
+  },
+  "Inhale slowly": {
+    "": "Hít vào từ từ."
+  },
+  "Notice how it feels in your body": {
+    "": "Chú ý cảm giác của nó trong cơ thể bạn."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Hãy để mùi hương đưa bạn vào khoảnh khắc này."
+  },
+  "Stretch gently": {
+    "": "Kéo căng nhẹ nhàng."
+  },
+  "Roll your shoulders": {
+    "": "Lăn vai."
+  },
+  "Shift your weight from side to side": {
+    "": "Chuyển trọng lượng của bạn từ bên này sang bên kia."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Chú ý cơ thể bạn cảm thấy như thế nào khi nó di chuyển."
+  },
+  "Pause and listen": {
+    "": "Tạm dừng và lắng nghe."
+  },
+  "Identify three distinct sounds": {
+    "": "Xác định ba âm thanh riêng biệt."
+  },
+  "Are they near or far?": "Họ gần hay xa?",
+  "Let your attention rest on each one": {
+    "": "Hãy để sự chú ý của bạn nghỉ ngơi vào từng người."
+  },
+  "Close your eyes if comfortable": {
+    "": "Nhắm mắt lại nếu thoải mái."
+  },
+  "Scan from head to toe": {
+    "": "Quét từ đầu đến chân."
+  },
+  "Notice areas of tension or ease": {
+    "": "Chú ý các khu vực căng thẳng hoặc dễ dàng."
+  },
+  "Breathe into any tightness": {
+    "": "Hít thở vào bất kỳ sự căng thẳng nào."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Bắt đầu",
     "start_over": "Bắt đầu lại",
-    "finish_exit": "Hoàn thành & Lối ra",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Đã đến lúc hoàn thành",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
+    "finish_exit": "Kết thúc & Thoát",
+    "well_done": "Làm tốt lắm!",
+    "completion_message": "Bạn đã hoàn thành thành công hoạt động này. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn.",
+    "time_to_complete": "Thời gian hoàn thành",
+    "back": "Quay lại",
+    "next": "Kế tiếp",
+    "save": "Lưu",
+    "loading": "Đang tải...",
     "share": "Chia sẻ",
     "share_progress": "Chia sẻ tiến độ",
-    "inspire_others": "Hãy truyền cảm hứng cho người khác ngay hôm nay!",
-    "share_text": "Tôi đã thực hiện hoạt động này {{activityName}} trên TherapyMantra và thực sự rất thích, bạn cũng có thể làm được, chỉ cần theo liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng iOS {{iosUrl}}.",
-    "this_activity": "hoạt động này",
+    "inspire_others": "Truyền cảm hứng cho người khác ngay hôm nay",
+    "share_text": "Tôi đã làm điều này {{activityName}} trong TherapyMantra và thực sự thích nó, bạn cũng có thể làm điều đó chỉ cần nhấp vào liên kết đến ứng dụng Android {{androidUrl}} hoặc ứng dụng ios {{iosUrl}}",
+    "this_activity": "Hoạt động này",
     "copied": "Đã sao chép!",
     "copy_message": "Sao chép tin nhắn",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Có",
+    "no": "Không",
+    "date": "Ngày",
+    "continue": "Tiếp tục",
+    "step_of": "Bước {{current}} của {{total}}",
+    "round_of": "Làm tròn {{current}} của {{total}}",
+    "phase_label": "Giai đoạn",
+    "rounds_selector": "{{đếm}} Vòng",
+    "instruction_ready": "Đặt vòng của bạn và nhấn vào chơi để bắt đầu",
+    "instruction_running": "Đi theo vòng tròn để điều chỉnh hơi thở của bạn"
   },
-  "app_title": "Tiếp đất",
-  "app_description": "Tiếp đất",
+  "app_title": "Nối đất",
+  "app_description": "Nối đất",
   "change_language": "Thay đổi ngôn ngữ",
   "search_language": "Ngôn ngữ tìm kiếm...",
-  "more": "Hơn",
+  "more": "Xem thêm",
   "breadcrumb": "vụn bánh mì",
-  "previous_slide": "Trang trước",
-  "next_slide": "Trang chiếu tiếp theo",
+  "previous_slide": "Trang trình bày trước",
+  "next_slide": "Trang trình bày tiếp theo",
   "close": "Đóng",
   "previous": "Trước",
-  "more_pages": "Thêm trang",
-  "pagination": "đánh số trang",
-  "go_to_previous_page": "Quay lại trang trước",
-  "go_to_next_page": "Chuyển sang trang tiếp theo",
-  "toggle_sidebar": "Ẩn/Hiện thanh bên",
-  "stay_present": "Hãy sống trọn vẹn từng khoảnh khắc hiện tại",
-  "oops_page_not_found": "Ôi! Không tìm thấy trang!",
-  "return_to_home": "Trở về Trang chủ",
-  "grounding_technique": "Kỹ thuật tiếp đất",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "more_pages": "Các trang khác",
+  "pagination": "Phân trang",
+  "go_to_previous_page": "Chuyển đến trang trước",
+  "go_to_next_page": "Chuyển đến trang tiếp theo",
+  "toggle_sidebar": "Chuyển đổi thanh bên",
+  "stay_present": "Ở hiện tại",
+  "oops_page_not_found": "Rất tiếc! Không tìm thấy trang",
+  "return_to_home": "Trở về nhà",
+  "grounding_technique": "Kỹ thuật nối đất",
+  "phase_label": "Giai đoạn",
+  "instruction_ready": "Đặt vòng của bạn và nhấn vào chơi để bắt đầu",
+  "instruction_running": "Đi theo vòng tròn để điều chỉnh hơi thở của bạn",
+  "round_x_of_y": "Làm tròn {{current}} của {{total}}",
+  "rounds_selector": "{{đếm}} Vòng",
+  "yes": "Có",
+  "no": "Không",
+  "date": "Ngày",
+  "continue": "Tiếp tục"
 }

@@ -1,57 +1,57 @@
 {
   "app_title": "Trygt rom",
-  "nav": [
-    "Innsjekk",
-    "Forsiktig gjenkall",
-    "Observasjon",
-    "Å være til stede",
-    "Fremover"
-  ],
+  "nav": {
+    "0": "Innsjekk",
+    "1": "Forsiktig gjenkall",
+    "2": "Observasjon",
+    "3": "Å være til stede",
+    "4": "Fremover"
+  },
   "s1": {
     "title": "La oss finne et sted som føles greit",
-    "description": [
-      "Før vi begynner, ta et øyeblikk til å sjekke inn...",
-      "Hvordan føler du deg akkurat nå?",
-      "Vi leter ikke etter et perfekt «trygt sted». Bare noe som føles bare litt rolig eller greit."
-    ],
+    "description": {
+      "0": "Før vi begynner, ta et øyeblikk til å sjekke inn...",
+      "1": "Hvordan føler du deg akkurat nå?",
+      "2": "Vi leter ikke etter et perfekt «trygt sted». Bare noe som føles bare litt rolig eller greit."
+    },
     "placeholder": "Hvordan føler du deg akkurat nå?",
     "button": "Start visualisering"
   },
   "s2": {
     "title": "Ta det forsiktig i tankene",
-    "description": [
-      "Tenk på et sted hvor du følte deg bare litt rolig... eller et sted du skulle ønske eksisterte.",
-      "Nå plasser deg der...",
-      "Sitter, står du eller ligger du ned?"
-    ],
+    "description": {
+      "0": "Tenk på et sted hvor du følte deg bare litt rolig... Eller et sted du skulle ønske eksisterte.",
+      "1": "Nå plasser deg der...",
+      "2": "Sitter, står du eller ligger du ned?"
+    },
     "button": "Fortsett"
   },
   "s3": {
     "title": "Se deg rundt, sakte",
-    "description": [
-      "Ta en forsiktig titt rundt...",
-      "Hva er én ting du kan se?",
-      "Legg merke til en lyd... Hva hører du?"
-    ],
+    "description": {
+      "0": "Ta en forsiktig titt rundt...",
+      "1": "Hva er én ting du kan se?",
+      "2": "Legg merke til en lyd... Hva hører du?"
+    },
     "button": "Fortsett"
   },
   "s4": {
     "title": "Hold deg til dette",
-    "description": [
-      "Hva er det med dette stedet som får det til å føles bare litt trygt eller greit?",
-      "Som du legger merke til at...",
-      "Dra også oppmerksomheten mot pusten din."
-    ],
-    "breathe": "pust",
+    "description": {
+      "0": "Hva er det med dette stedet som får det til å føles bare litt trygt eller greit?",
+      "1": "Som du legger merke til at...",
+      "2": "Dra også oppmerksomheten mot pusten din."
+    },
+    "breathe": "Pust",
     "notice": "Hvis det føles vanskelig å forestille seg, tenk bare på ideen om dette stedet.",
     "button": "Fortsett"
   },
   "s5": {
     "title": "Ta dette med deg",
-    "description": [
-      "Legg merke til hvordan du føler deg akkurat nå. Selv en liten endring betyr noe.",
-      "Se om du kan bære med deg selv 5 % av denne følelsen."
-    ],
+    "description": {
+      "0": "Legg merke til hvordan du føler deg akkurat nå. Selv en liten endring betyr noe.",
+      "1": "Se om du kan bære med deg selv 5 % av denne følelsen."
+    },
     "placeholder": "Hvordan føler du deg nå?",
     "button": "Fullstendig sesjon"
   },
@@ -60,55 +60,55 @@
     "message": "Dette trygge stedet er alltid tilgjengelig for deg. Du kan komme tilbake hit når du trenger et øyeblikk med ro."
   },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Kom i gang",
     "start_over": "Start på nytt",
-    "finish_exit": "Fullfør og avslutt",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "finish_exit": "Mål og utgang",
+    "well_done": "Bra jobbet!",
+    "completion_message": "Du har fullført denne aktiviteten med suksess. Ta et øyeblikk til å sette pris på fremgangen din.",
     "time_to_complete": "Tid for å fullføre",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Dele",
-    "share_progress": "Del fremdrift",
+    "back": "Tilbake",
+    "next": "Neste",
+    "save": "Lagre",
+    "loading": "Laster...",
+    "share": "Del",
+    "share_progress": "Del fremgang",
     "inspire_others": "Inspirer andre i dag",
-    "share_text": "Jeg har gjort dette med {{activityName}} i TherapyMantra og liker det veldig godt. Du kan også gjøre det. Bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}.",
-    "this_activity": "denne aktiviteten",
+    "share_text": "Jeg har gjort dette {{activityName}} i TherapyMantra og liker det veldig godt, du kan gjøre det også, bare følg lenken til Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
+    "this_activity": "Denne aktiviteten",
     "copied": "Kopiert!",
     "copy_message": "Kopier melding",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Ja",
+    "no": "Nei",
+    "date": "Dato",
+    "continue": "Fortsett",
+    "step_of": "Trinn {{current}} av {{total}}",
+    "round_of": "Runde {{current}} av {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{tell}} Runder",
+    "instruction_ready": "Sett rundene dine og trykk play for å starte",
+    "instruction_running": "Følg sirkelen for å regulere pusten din"
   },
-  "app_description": "Trygg plass",
-  "more": "Flere",
-  "breadcrumb": "brødsmuler",
-  "previous_slide": "Forrige lysbilde",
+  "app_description": "Trygt rom",
+  "more": "Mer",
+  "breadcrumb": "Brødsmule",
+  "previous_slide": "Forrige slide",
   "next_slide": "Neste lysbilde",
-  "close": "Lukke",
+  "close": "Lukk",
   "previous": "Tidligere",
   "more_pages": "Flere sider",
-  "pagination": "paginering",
+  "pagination": "Paginering",
   "go_to_previous_page": "Gå til forrige side",
   "go_to_next_page": "Gå til neste side",
-  "toggle_sidebar": "Slå sidefeltet av/på",
-  "oops_page_not_found": "Ups! Siden ble ikke funnet",
-  "return_to_home": "Gå tilbake til hjemmet",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "toggle_sidebar": "Toggle Sidebar",
+  "oops_page_not_found": "Oops! Side ikke funnet",
+  "return_to_home": "Tilbake til hjemmet",
+  "phase_label": "Fase",
+  "instruction_ready": "Sett rundene dine og trykk play for å starte",
+  "instruction_running": "Følg sirkelen for å regulere pusten din",
+  "round_x_of_y": "Runde {{current}} av {{total}}",
+  "rounds_selector": "{{tell}} Runder",
+  "yes": "Ja",
+  "no": "Nei",
+  "date": "Dato",
+  "continue": "Fortsett"
 }

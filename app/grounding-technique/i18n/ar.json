@@ -1,125 +1,217 @@
 {
   "Grounding": "التأريض",
-  "Step": "خطوة",
-  "Back": "خلف",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "تقنيات التأريض تساعدك على إعادة انتباهك إلى اللحظة الحالية."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "اختر نشاطا واحدا يشعر بالدعم الآن."
+  },
+  "Step": "الخطوة",
+  "Back": "العودة",
   "Next": "التالي",
-  "I Feel More Grounded": "أشعر بمزيد من الاستقرار",
-  "Choose Another Technique": "اختر أسلوبًا آخر",
-  "Technique not found": "لم يتم العثور على التقنية",
+  "I Feel More Grounded": "أشعر أنني أكثر توازنا",
+  "Choose Another Technique": "اختر تقنية أخرى",
+  "Technique not found": "تقنية غير موجودة",
   "Put your hands in water": "ضع يديك في الماء",
-  "Pick up or touch items near you": "التقط أو المس الأشياء القريبة منك",
+  "Pick up or touch items near you": "التقط أو لمس الأشياء بالقرب منك",
   "Breathe deeply": "تنفس بعمق",
   "Savour your food": "استمتع بطعامك",
-  "Savour a drink": "استمتع بمشروبك",
-  "Take a short walk": "قم بنزهة قصيرة",
-  "Hold a piece of ice": "أمسك بقطعة من الثلج",
-  "Savour a scent": "استمتع بالعطر",
-  "Move your body": "حرك جسمك",
-  "Listen to your surroundings": "استمع إلى ما يحيط بك",
-  "Check in with your body": "انتبه لحالتك الجسدية",
+  "Savour a drink": "استمتع بمشروب",
+  "Take a short walk": "خذ نزهة قصيرة",
+  "Hold a piece of ice": "امسك قطعة من الثلج",
+  "Savour a scent": "استمتع برائحة",
+  "Move your body": "حرك جسدك",
+  "Listen to your surroundings": "استمع إلى محيطك",
+  "Check in with your body": "تواصل مع جسمك",
+  "Run your hands under cool or warm water": {
+    "": "مرر يديك تحت ماء بارد أو دافئ."
+  },
+  "Notice the temperature": {
+    "": "لاحظ درجة الحرارة."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "انتبه للإحساس على بشرتك."
+  },
+  "Observe how it changes moment by moment": {
+    "": "راقب كيف يتغير لحظة بلحظة."
+  },
+  "Let your breathing slow naturally": {
+    "": "دع تنفسك يهدئ بشكل طبيعي."
+  },
+  "Choose a nearby object": {
+    "": "اختر شيئا قريبا."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "لاحظ ملمسها ووزنه ودرجة حرارته."
+  },
   "Is it smooth or rough? Heavy or light?": "هل هو ناعم أم خشن؟ ثقيل أم خفيف؟",
+  "Let your focus stay fully on this one object": {
+    "": "دع تركيزك يبقى بالكامل على هذا الشيء الواحد."
+  },
+  "Take a slow breath in through your nose": {
+    "": "خذ نفسا بطيئا من أنفك."
+  },
+  "Hold gently for a moment": {
+    "": "تمسك بلطف للحظة."
+  },
+  "Exhale slowly through your mouth": {
+    "": "زفر ببطء من فمك."
+  },
+  "Repeat several times": {
+    "": "كرر ذلك عدة مرات."
+  },
+  "Let your shoulders soften": {
+    "": "دع كتفيك تلينان."
+  },
+  "Take a small bite": {
+    "": "خذ قضمة صغيرة."
+  },
+  "Chew slowly": {
+    "": "امضغ ببطء."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "لاحظ النكهة والملمس ودرجة الحرارة."
+  },
+  "Stay fully present with the experience": {
+    "": "ابق حاضرا بالكامل مع التجربة."
+  },
+  "Take a slow sip": {
+    "": "خذ رشفة بطيئة."
+  },
+  "Notice the temperature and taste": {
+    "": "لاحظ درجة الحرارة والطعم."
+  },
+  "Feel the sensation as you swallow": {
+    "": "اشعر بالإحساس أثناء البلع."
+  },
+  "Let yourself stay with that moment": {
+    "": "دع نفسك تبقى مع تلك اللحظة."
+  },
+  "Walk slowly and intentionally": {
+    "": "امش ببطء وبهدف واضح."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "لاحظ شعور قدميك تلمس الأرض."
+  },
+  "Observe your surroundings without judgment": {
+    "": "راقب محيطك دون حكم."
+  },
+  "Let your breath match your steps": {
+    "": "دع أنفاسك تتماشى مع خطواتك."
+  },
+  "Hold the ice in your hand": {
+    "": "امسك الثلج في يدك."
+  },
+  "Notice the cold sensation": {
+    "": "لاحظ الإحساس بالبرودة."
+  },
+  "Focus fully on the feeling": {
+    "": "ركز تماما على الشعور."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "دع الإحساس القوي يثبتك في الحاضر."
+  },
+  "Choose a scent nearby": {
+    "": "اختر رائحة قريبة."
+  },
+  "Inhale slowly": {
+    "": "استنشق ببطء."
+  },
+  "Notice how it feels in your body": {
+    "": "لاحظ كيف تشعر في جسدك."
+  },
+  "Let the scent bring you into this moment": {
+    "": "دع الرائحة تأخذك إلى هذه اللحظة."
+  },
+  "Stretch gently": {
+    "": "تمد بلطف."
+  },
+  "Roll your shoulders": {
+    "": "حرك كتفيك."
+  },
+  "Shift your weight from side to side": {
+    "": "حرك وزنك من جانب إلى آخر."
+  },
+  "Notice how your body feels as it moves": {
+    "": "لاحظ كيف يشعر جسدك أثناء الحركة."
+  },
+  "Pause and listen": {
+    "": "توقف واستمع."
+  },
+  "Identify three distinct sounds": {
+    "": "حدد ثلاثة أصوات مميزة."
+  },
   "Are they near or far?": "هل هم قريبون أم بعيدون؟",
+  "Let your attention rest on each one": {
+    "": "دع انتباهك يركز على كل واحد."
+  },
+  "Close your eyes if comfortable": {
+    "": "أغمض عينيك إذا كان مرتاحا."
+  },
+  "Scan from head to toe": {
+    "": "افحص من الرأس حتى أخمص القدمين."
+  },
+  "Notice areas of tension or ease": {
+    "": "لاحظ مناطق التوتر أو الاسترخاء."
+  },
+  "Breathe into any tightness": {
+    "": "تنفس في أي ضيق."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "ابدأ",
     "start_over": "ابدأ من جديد",
-    "finish_exit": "إنهاء العملية والخروج",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "الوقت اللازم للإنجاز",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "يشارك",
-    "share_progress": "مشاركة التقدم",
+    "finish_exit": "النهاية والخروج",
+    "well_done": "عمل رائع!",
+    "completion_message": "لقد أنجزت هذا النشاط بنجاح. خذ لحظة لتقدير تقدمك.",
+    "time_to_complete": "حان وقت الإكمال",
+    "back": "العودة",
+    "next": "التالي",
+    "save": "حفظ",
+    "loading": "جار التحميل...",
+    "share": "شارك",
+    "share_progress": "شارك التقدم",
     "inspire_others": "ألهم الآخرين اليوم",
-    "share_text": "لقد قمتُ بهذا النشاط {{activityName}} في تطبيق TherapyMantra واستمتعتُ به حقًا، يمكنك القيام به أيضًا، فقط اتبع الرابط إلى تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
+    "share_text": "لقد فعلت هذا {{activityName}} في TherapyMantra وأستمتع به حقا، يمكنك القيام به أيضا، فقط اتبع رابط تطبيق أندرويد {{androidUrl}} أو تطبيق iOS {{iosUrl}}",
     "this_activity": "هذا النشاط",
     "copied": "تم النسخ!",
     "copy_message": "انسخ الرسالة",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "نعم",
+    "no": "لا",
+    "date": "التاريخ",
+    "continue": "تابع",
+    "step_of": "الخطوة {{current}} من {{total}}",
+    "round_of": "الجولة {{current}} من {{total}}",
+    "phase_label": "المرحلة",
+    "rounds_selector": "{{العد}} الجولات",
+    "instruction_ready": "اضبط جولاتك واضغط على اللعب لتبدأ",
+    "instruction_running": "اتبع الدائرة لتنظيم تنفسك"
   },
   "app_title": "التأريض",
   "app_description": "التأريض",
   "change_language": "تغيير اللغة",
-  "search_language": "لغة البحث",
-  "more": "أكثر",
+  "search_language": "لغة البحث...",
+  "more": "المزيد",
   "breadcrumb": "فتات الخبز",
   "previous_slide": "الشريحة السابقة",
   "next_slide": "الشريحة التالية",
-  "close": "يغلق",
-  "previous": "سابق",
-  "more_pages": "صفحات أخرى",
-  "pagination": "ترقيم الصفحات",
+  "close": "إغلاق",
+  "previous": "السابق",
+  "more_pages": "صفحات إضافية",
+  "pagination": "تقسيم الصفحات",
   "go_to_previous_page": "انتقل إلى الصفحة السابقة",
   "go_to_next_page": "انتقل إلى الصفحة التالية",
   "toggle_sidebar": "تبديل الشريط الجانبي",
-  "stay_present": "ابقَ حاضراً",
-  "oops_page_not_found": "عذراً! الصفحة غير موجودة",
-  "return_to_home": "العودة إلى الصفحة الرئيسية",
+  "stay_present": "ابق حاضرا",
+  "oops_page_not_found": "أوه! الصفحة غير موجودة",
+  "return_to_home": "العودة إلى الوطن",
   "grounding_technique": "تقنية التأريض",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "المرحلة",
+  "instruction_ready": "اضبط جولاتك واضغط على اللعب لتبدأ",
+  "instruction_running": "اتبع الدائرة لتنظيم تنفسك",
+  "round_x_of_y": "الجولة {{current}} من {{total}}",
+  "rounds_selector": "{{العد}} الجولات",
+  "yes": "نعم",
+  "no": "لا",
+  "date": "التاريخ",
+  "continue": "تابع"
 }

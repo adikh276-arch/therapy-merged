@@ -1,11 +1,11 @@
 {
   "app_title": "Alvási ciklus útmutató",
-  "pill_labels": [
-    "Bevezetés",
-    "A 4 szakasz",
-    "A kábult igazság",
-    "És te?"
-  ],
+  "pill_labels": {
+    "0": "Bevezetés",
+    "1": "A 4 szakasz",
+    "2": "A kábult igazság",
+    "3": "És te?"
+  },
   "s1": {
     "title": "Aludtál már 8 órát, és még mindig rosszul érezted magad?",
     "p1": "Nem arról van szó, hogy <1>meddig</1> alszol.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Az agyad EZT csinálja minden este 🌀",
     "desc": "90 percenként az agyad négy szakaszon keresztül jár — mintha egy lejátszási lista ismétlődő. Érintsd meg mindegyiket, hogy felfedezd 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Könnyű alvás",
         "tag": "1–5 perc · könnyen felébredő",
         "body": "Elaludsz. A test elkezd elengedni, az izmok rángatódhatnak. Innen nagyon könnyű felébredni."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "A beilleszkedés",
         "tag": "10–25 perc · Igazán aludt",
         "body": "A pulzus lassul, a testhőmérséklet csökken. Rendesen alszol — az agyi aktivitás lassulásra kezd csökkenni."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Mély alvás ⭐",
         "tag": "20–40 perc · Az arany",
         "body": "A test javítja a szöveteket, immunitást épít. A legfizikailag leggyógyítóbb szakasz — nehéz onnan felébredni."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM alvás",
         "tag": "10–60 perc · Álom mód",
         "body": "Az agyam zümmög az aktivitástól. Az érzelmek feldolgozódnak, az emlékek bezáródnak. Ha ezt kihagyod, ködös vagy."
       }
-    ],
+    },
     "italic": "A mély alvás meggyógyítja a testedet. A REM megjavítja az elmédet.",
     "button": "Szóval miért érzem még mindig magam kábultnak? →"
   },
@@ -52,126 +52,126 @@
     "p1": "Mély álomból egy ébresztő rántotta ki? Az agyad szó szerint még nem fejezte be, amit csinált. Az a ködös, nehéz érzés? Ez <1>alvási tehetetlenség</1>.",
     "wave": {
       "light": "Fény",
-      "deep": "mélyen",
+      "deep": "Mély",
       "groggy": "😫 kábító",
       "fresh": "😊 friss",
-      "cycles": [
-        "1. ciklus",
-        "2. ciklus",
-        "3. ciklus"
-      ]
+      "cycles": {
+        "0": "1. ciklus",
+        "1": "2. ciklus",
+        "2": "3. ciklus"
+      }
     },
     "disruptors_title": "Mi zavarja meg a ciklusodat 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Képernyők lefekvés előtt",
         "sub": "Késleli a mély alvást."
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Késői koffein",
         "sub": "akár 20%-kal csökkenti a mély alvást."
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Szabálytalan alvási idők",
         "sub": "megtöri a természetes ritmusodat"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stressz és szorongás",
         "sub": "Könnyű alvásban ragadnak"
       }
-    ],
+    },
     "italic": "A szokásaid közvetlenül meghatározzák, mely szintekre jutsz el.",
     "button": "Mit jelent ez számomra? →"
   },
   "s4": {
     "title": "Melyik hangzik hozzád? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Fizikailag kimerülten ébredekem",
         "sub": "valószínűleg hiányzik a mély alvás",
         "tip": "Koncentrálj a következetes alvásra és ébredésre — a testednek rendszeres ritmusra van szüksége ahhoz, hogy mély alváshoz jusson."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Érzelmileg ködösnek vagy mélyen érzem magam",
         "sub": "valószínűleg hiányzik a REM alvás",
         "tip": "Próbálj meg lefekvés előtt 30 percet pihenni — egy nyugodt, alvás előtti rutin megvédi a REM alvást."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Éjszaka sokat ébredek.",
         "sub": "A ciklusok folyton megszakadnak",
         "tip": "Egy hűvös, sötét és csendes szoba segít az agyad mélyebb szakaszokban maradni zavartalanul."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Jól érzem magam, de nem túl jól",
         "sub": "a ciklusok részlegesek, de nem teljesek",
         "tip": "Próbálj meg 20 perccel korábban lefeküdni – lehet, hogy még egy teljes alvásciklusra van szükséged."
       }
-    ],
+    },
     "quote": "Az alvás nem csupán pihenés – hanem aktív felépülés. Védd a ciklusodat és a teljes napod változásait.",
     "button": "Kész ✓"
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Újrakezdés",
+    "get_started": "Kezdj el",
+    "start_over": "Kezdj újrakezdeni",
     "finish_exit": "Befejezés és kilépés",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Elkészítési idő",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Részesedés",
-    "share_progress": "Haladás megosztása",
-    "inspire_others": "Inspirálj másokat még ma",
-    "share_text": "Ezt a(z) {{activityName}} tevékenységet csináltam a TherapyMantra-ban, és nagyon élvezem, te is meg tudod csinálni, csak kövesd az {{androidUrl}} androidos vagy {{iosUrl}} iOS-es alkalmazás linkjét.",
+    "well_done": "Szép munka!",
+    "completion_message": "Sikeresen teljesítetted ezt a feladatot. Szánj egy pillanatot, hogy értékeld a fejlődésedet.",
+    "time_to_complete": "Ideje befejezni",
+    "back": "Hátra",
+    "next": "Következő",
+    "save": "Mentés",
+    "loading": "Betöltés...",
+    "share": "Megosztás",
+    "share_progress": "Ossza meg a haladást",
+    "inspire_others": "Inspirálj másokat ma",
+    "share_text": "Ezt {{activityName}} csináltam már a TherapyMantrában, és nagyon élveztem, te is megcsinálhatod, csak kövesd az android alkalmazás {{androidUrl}} vagy az iOS alkalmazás {{iosUrl}} linkjét",
     "this_activity": "ez a tevékenység",
     "copied": "Másolva!",
-    "copy_message": "Üzenet másolása",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "Másold az üzenetet",
+    "yes": "Igen",
+    "no": "Nem",
+    "date": "Dátum",
+    "continue": "Folytatás",
+    "step_of": "{{current}} lépés a {{total}}",
+    "round_of": "{{current}} kör a {{total}}",
+    "phase_label": "Fázis",
+    "rounds_selector": "{{count}} Fordulók",
+    "instruction_ready": "Állítsd be a köreidet, és kezdd meg a játékot",
+    "instruction_running": "Kövesd a kört, hogy szabályozd a légzésed"
   },
   "app_description": "Alvási ciklus útmutató",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(előző + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(előző => Math.max(előző - 1, 0));\n\nconst screens = [ ]",
-  "it_s_not_about": "Nem arról van szó,",
-  "it_s_about": "Arról van szó, hogy",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Egy ébresztő riasztott fel mély alvásból? Az agyad szó szerint nem fejezte be, amit csinált. Az a ködös, nehéz érzés? Ez...",
-  "more": "Több",
-  "breadcrumb": "navigációs morzsa",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "it_s_not_about": "Nem a lényeg",
+  "it_s_about": "Arról van szó",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "Mély álomból egy ébresztő rántotta ki? Az agyad szó szerint még nem fejezte be, amit csinált. Az a ködös, nehéz érzés? Ez",
+  "more": "További",
+  "breadcrumb": "morzsa",
   "previous_slide": "Előző dia",
   "next_slide": "Következő dia",
-  "close": "Közeli",
-  "previous": "Előző",
+  "close": "Zárt",
+  "previous": "Korábbi",
   "more_pages": "További oldalak",
-  "pagination": "lapszámozás",
-  "go_to_previous_page": "Ugrás az előző oldalra",
-  "go_to_next_page": "Ugrás a következő oldalra",
-  "toggle_sidebar": "Oldalsáv be- és kikapcsolása",
-  "oops_page_not_found": "Hoppá! Az oldal nem található.",
-  "return_to_home": "Vissza a kezdőlapra",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "pagination": "Lapozás",
+  "go_to_previous_page": "Menj az előző oldalra",
+  "go_to_next_page": "Menj a következő oldalra",
+  "toggle_sidebar": "Kapcsoló oldalsáv",
+  "oops_page_not_found": "Hoppá! Oldal nem talált meg",
+  "return_to_home": "Hazatérés",
+  "phase_label": "Fázis",
+  "instruction_ready": "Állítsd be a köreidet, és kezdd meg a játékot",
+  "instruction_running": "Kövesd a kört, hogy szabályozd a légzésed",
+  "round_x_of_y": "{{current}} kör a {{total}}",
+  "rounds_selector": "{{count}} Fordulók",
+  "yes": "Igen",
+  "no": "Nem",
+  "date": "Dátum",
+  "continue": "Folytatás"
 }

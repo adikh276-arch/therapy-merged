@@ -1,5 +1,11 @@
 {
   "Grounding": "Maadoitus",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Maadoittamistekniikat auttavat palauttamaan huomiosi nykyhetkeen."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Valitse yksi aktiviteetti, joka tuntuu tukevalta juuri nyt."
+  },
   "Step": "Askel",
   "Back": "Takaisin",
   "Next": "Seuraavaksi",
@@ -17,109 +23,195 @@
   "Move your body": "Liikuta kehoasi",
   "Listen to your surroundings": "Kuuntele ympäristöäsi",
   "Check in with your body": "Tarkista kehosi",
+  "Run your hands under cool or warm water": {
+    "": "Juokse kätesi viileän tai lämpimän veden alla."
+  },
+  "Notice the temperature": {
+    "": "Huomaa lämpötila."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Kiinnitä huomiota ihosi tunteeseen."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Tarkkaile, miten se muuttuu hetki hetkeltä."
+  },
+  "Let your breathing slow naturally": {
+    "": "Anna hengityksesi rauhoittua luonnollisesti."
+  },
+  "Choose a nearby object": {
+    "": "Valitse läheinen esine."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Huomaa sen rakenne, paino ja lämpötila."
+  },
   "Is it smooth or rough? Heavy or light?": "Onko se sileä vai karhea? Raskas vai kevyt?",
+  "Let your focus stay fully on this one object": {
+    "": "Anna keskittymisesi pysyä täysin tässä yhdessä kohteessa."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Hengitä hitaasti nenän kautta."
+  },
+  "Hold gently for a moment": {
+    "": "Pidä hellästi kiinni hetki."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Hengitä hitaasti ulos suun kautta."
+  },
+  "Repeat several times": {
+    "": "Toista useita kertoja."
+  },
+  "Let your shoulders soften": {
+    "": "Anna hartioidesi pehmetä."
+  },
+  "Take a small bite": {
+    "": "Ota pieni pala."
+  },
+  "Chew slowly": {
+    "": "Pureskele hitaasti."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Kiinnitä huomiota makuun, koostumukseen ja lämpötilaan."
+  },
+  "Stay fully present with the experience": {
+    "": "Pysy täysin läsnä kokemuksen kanssa."
+  },
+  "Take a slow sip": {
+    "": "Ota hidas siemaus."
+  },
+  "Notice the temperature and taste": {
+    "": "Kiinnitä huomiota lämpötilaan ja makuun."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Tunne tunne nielläessäsi."
+  },
+  "Let yourself stay with that moment": {
+    "": "Anna itsesi jäädä siihen hetkeen."
+  },
+  "Walk slowly and intentionally": {
+    "": "Kävele hitaasti ja tarkoituksella."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Huomaa tunne, kun jalkasi koskettavat maata."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Tarkkaile ympäristöäsi ilman tuomitsemista."
+  },
+  "Let your breath match your steps": {
+    "": "Anna hengityksesi sopia askeleesi."
+  },
+  "Hold the ice in your hand": {
+    "": "Pidä jäätä kädessäsi."
+  },
+  "Notice the cold sensation": {
+    "": "Huomaa kylmä tunne."
+  },
+  "Focus fully on the feeling": {
+    "": "Keskity täysin tunteeseen."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Anna vahvan tunteen ankkuroida sinut nykyhetkeen."
+  },
+  "Choose a scent nearby": {
+    "": "Valitse tuoksu läheltä."
+  },
+  "Inhale slowly": {
+    "": "Hengitä hitaasti sisään."
+  },
+  "Notice how it feels in your body": {
+    "": "Huomaa, miltä se tuntuu kehossasi."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Anna tuoksun tuoda sinut tähän hetkeen."
+  },
+  "Stretch gently": {
+    "": "Venyttele varovasti."
+  },
+  "Roll your shoulders": {
+    "": "Pyöritä hartiat."
+  },
+  "Shift your weight from side to side": {
+    "": "Siirrä painoasi puolelta toiselle."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Huomaa, miltä kehosi tuntuu liikkuessaan."
+  },
+  "Pause and listen": {
+    "": "Pysähdy ja kuuntele."
+  },
+  "Identify three distinct sounds": {
+    "": "Tunnista kolme erillistä ääntä."
+  },
   "Are they near or far?": "Ovatko ne lähellä vai kaukana?",
+  "Let your attention rest on each one": {
+    "": "Anna huomiosi lepäädä jokaisessa niistä."
+  },
+  "Close your eyes if comfortable": {
+    "": "Sulje silmäsi, jos olet mukava."
+  },
+  "Scan from head to toe": {
+    "": "Skannaa päästä varpaisiin."
+  },
+  "Notice areas of tension or ease": {
+    "": "Huomaa jännityksen tai helppouden alueet."
+  },
+  "Breathe into any tightness": {
+    "": "Hengitä kaikkeen kireysteeseen."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Aloita",
     "start_over": "Aloita alusta",
-    "finish_exit": "Lopeta ja poistu",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Aikaa valmistua",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Jakaa",
-    "share_progress": "Jaa edistyminen",
+    "finish_exit": "Maali ja uloskäynti",
+    "well_done": "Hyvin tehty!",
+    "completion_message": "Olet suorittanut tämän tehtävän onnistuneesti. Ota hetki arvostaaksesi edistymistäsi.",
+    "time_to_complete": "Aika valmistua",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "save": "Tallenna",
+    "loading": "Ladataan...",
+    "share": "Jaa",
+    "share_progress": "Jaa edistystä",
     "inspire_others": "Inspiroi muita tänään",
-    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon. Voit tehdä sen sinäkin seuraamalla linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
-    "this_activity": "tämä toiminta",
+    "share_text": "Olen tehnyt tämän {{activityName}} TherapyMantrassa ja nautin siitä todella paljon, sinäkin voit tehdä sen, seuraa vain linkkiä Android-sovellukseen {{androidUrl}} tai iOS-sovellukseen {{iosUrl}}",
+    "this_activity": "Tämä toiminta",
     "copied": "Kopioitu!",
     "copy_message": "Kopioi viesti",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Kyllä",
+    "no": "Ei",
+    "date": "Päivämäärä",
+    "continue": "Jatka",
+    "step_of": "Vaihe {{current}} {{total}}",
+    "round_of": "Kierros {{current}} {{total}}",
+    "phase_label": "Vaihe",
+    "rounds_selector": "{{count}} Kierrokset",
+    "instruction_ready": "Aseta kierrokset ja napauta play aloittaaksesi",
+    "instruction_running": "Seuraa ympyrää säädelläksesi hengitystäsi"
   },
   "app_title": "Maadoitus",
   "app_description": "Maadoitus",
   "change_language": "Vaihda kieltä",
   "search_language": "Hakukieli...",
   "more": "Lisää",
-  "breadcrumb": "navigointipolku",
+  "breadcrumb": "Leivänmuru",
   "previous_slide": "Edellinen dia",
   "next_slide": "Seuraava dia",
-  "close": "Lähellä",
+  "close": "Sulje",
   "previous": "Edellinen",
   "more_pages": "Lisää sivuja",
-  "pagination": "sivunumerointi",
-  "go_to_previous_page": "Siirry edelliselle sivulle",
-  "go_to_next_page": "Siirry seuraavalle sivulle",
-  "toggle_sidebar": "Näytä/piilota sivupalkki",
-  "stay_present": "Pysy läsnä",
-  "oops_page_not_found": "Hupsista! Sivua ei löytynyt",
-  "return_to_home": "Palaa kotiin",
+  "pagination": "Sivutus",
+  "go_to_previous_page": "Mene edelliselle sivulle",
+  "go_to_next_page": "Mene seuraavalle sivulle",
+  "toggle_sidebar": "Sivupalkin vaihto",
+  "stay_present": "Pysy nykyhetkessä",
+  "oops_page_not_found": "Hups! Sivua ei löydy",
+  "return_to_home": "Paluu kotiin",
   "grounding_technique": "Maadoitustekniikka",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Vaihe",
+  "instruction_ready": "Aseta kierrokset ja napauta play aloittaaksesi",
+  "instruction_running": "Seuraa ympyrää säädelläksesi hengitystäsi",
+  "round_x_of_y": "Kierros {{current}} {{total}}",
+  "rounds_selector": "{{count}} Kierrokset",
+  "yes": "Kyllä",
+  "no": "Ei",
+  "date": "Päivämäärä",
+  "continue": "Jatka"
 }

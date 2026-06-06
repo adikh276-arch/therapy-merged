@@ -1,125 +1,217 @@
 {
-  "Grounding": "接地",
+  "Grounding": "座礁",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "グラウンディングのテクニックは、注意を現在の瞬間に引き戻すのに役立ちます。"
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "今、支え合えると感じられる活動を一つ選んでみてください。"
+  },
   "Step": "ステップ",
   "Back": "戻る",
   "Next": "次",
-  "I Feel More Grounded": "より地に足がついた感じ",
-  "Choose Another Technique": "別のテクニックを選択する",
-  "Technique not found": "テクニックが見つかりません",
-  "Put your hands in water": "手を水に浸す",
-  "Pick up or touch items near you": "近くにあるアイテムを拾ったり触ったりする",
-  "Breathe deeply": "深呼吸しましょう",
-  "Savour your food": "食べ物を味わう",
-  "Savour a drink": "ドリンクを味わう",
-  "Take a short walk": "少し散歩してみましょう",
-  "Hold a piece of ice": "氷を握る",
-  "Savour a scent": "香りを味わう",
-  "Move your body": "体を動かしましょう",
-  "Listen to your surroundings": "周囲の音に耳を傾ける",
-  "Check in with your body": "自分の体をチェックする",
-  "Is it smooth or rough? Heavy or light?": "滑らかですか、それともざらざらですか？重いですか、軽いですか？",
-  "Are they near or far?": "近いですか、遠いですか?",
-  "common": {
-    "get_started": "Get Started",
-    "start_over": "最初からやり直す",
-    "finish_exit": "終了して退出",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "完了までの時間",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "共有",
-    "share_progress": "進捗状況を共有する",
-    "inspire_others": "今日、他の人にインスピレーションを与えましょう",
-    "share_text": "私はTherapyMantraで{{activityName}}を試してみましたが、とても楽しかったです。あなたも試せますよ。Androidアプリ{{androidUrl}}またはiOSアプリ{{iosUrl}}へのリンクをクリックしてください。",
-    "this_activity": "このアクティビティ",
-    "copied": "コピーしました！",
-    "copy_message": "メッセージをコピー",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+  "I Feel More Grounded": "より地に足がついた気がします",
+  "Choose Another Technique": "別の技法を選ぶ",
+  "Technique not found": "技法は見つかりません",
+  "Put your hands in water": "手を水に入れて",
+  "Pick up or touch items near you": "近くの物を拾ったり触ったりしてください",
+  "Breathe deeply": "深呼吸して",
+  "Savour your food": "食事を味わいましょう",
+  "Savour a drink": "飲み物を味わえ",
+  "Take a short walk": "少し散歩してみてください",
+  "Hold a piece of ice": "氷を一つ持って",
+  "Savour a scent": "香りを味わえ",
+  "Move your body": "体を動かして",
+  "Listen to your surroundings": "周囲の音に耳を傾けてください",
+  "Check in with your body": "自分の体の状態を確認しましょう",
+  "Run your hands under cool or warm water": {
+    "": "手を冷たい水か温かい水に浸してください。"
   },
-  "app_title": "接地",
-  "app_description": "接地",
-  "change_language": "言語を変更する",
-  "search_language": "検索言語...",
-  "more": "もっと",
-  "breadcrumb": "パン粉",
+  "Notice the temperature": {
+    "": "温度に注目してください。"
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "肌の感触に注意を向けてください。"
+  },
+  "Observe how it changes moment by moment": {
+    "": "瞬間ごとにどのように変化するか観察してください。"
+  },
+  "Let your breathing slow naturally": {
+    "": "呼吸を自然にゆっくりさせてください。"
+  },
+  "Choose a nearby object": {
+    "": "近くの物体を選びましょう。"
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "その質感、重さ、温度に注目してください。"
+  },
+  "Is it smooth or rough? Heavy or light?": "滑らかですか、それとも粗いですか?重いのか軽いのか?",
+  "Let your focus stay fully on this one object": {
+    "": "この一つの物体に完全に集中してください。"
+  },
+  "Take a slow breath in through your nose": {
+    "": "ゆっくり鼻から息を吸い込んで。"
+  },
+  "Hold gently for a moment": {
+    "": "少しの間、優しく持って。"
+  },
+  "Exhale slowly through your mouth": {
+    "": "ゆっくり口から息を吐き出してください。"
+  },
+  "Repeat several times": {
+    "": "これを何度も繰り返します。"
+  },
+  "Let your shoulders soften": {
+    "": "肩の力を和らげて。"
+  },
+  "Take a small bite": {
+    "": "少しだけ食べて。"
+  },
+  "Chew slowly": {
+    "": "ゆっくり噛んでください。"
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "味、食感、温度に注目してください。"
+  },
+  "Stay fully present with the experience": {
+    "": "体験に完全に集中してください。"
+  },
+  "Take a slow sip": {
+    "": "ゆっくり一口飲んで。"
+  },
+  "Notice the temperature and taste": {
+    "": "温度と味に注目してください。"
+  },
+  "Feel the sensation as you swallow": {
+    "": "飲み込むときの感覚を感じてください。"
+  },
+  "Let yourself stay with that moment": {
+    "": "その瞬間に自分を留めてあげてください。"
+  },
+  "Walk slowly and intentionally": {
+    "": "ゆっくりと、そして意図的に歩きましょう。"
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "足が地面に触れている感覚に気づいてください。"
+  },
+  "Observe your surroundings without judgment": {
+    "": "周囲を判断せずに観察しましょう。"
+  },
+  "Let your breath match your steps": {
+    "": "呼吸を歩みに合わせて。"
+  },
+  "Hold the ice in your hand": {
+    "": "氷を手に持て。"
+  },
+  "Notice the cold sensation": {
+    "": "冷たい感覚に気づいてください。"
+  },
+  "Focus fully on the feeling": {
+    "": "その感覚に完全に集中してください。"
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "強い感覚に今この瞬間にしっかりと繋がってください。"
+  },
+  "Choose a scent nearby": {
+    "": "近くの香りを選びましょう。"
+  },
+  "Inhale slowly": {
+    "": "ゆっくり吸い込んで。"
+  },
+  "Notice how it feels in your body": {
+    "": "自分の体に感じる感覚に気づいてください。"
+  },
+  "Let the scent bring you into this moment": {
+    "": "香りに身を任せて、この瞬間へと導いてください。"
+  },
+  "Stretch gently": {
+    "": "優しくストレッチしてください。"
+  },
+  "Roll your shoulders": {
+    "": "肩を回して。"
+  },
+  "Shift your weight from side to side": {
+    "": "体重を左右に移動させてください。"
+  },
+  "Notice how your body feels as it moves": {
+    "": "体が動くときに感じる感覚に気づいてください。"
+  },
+  "Pause and listen": {
+    "": "一旦立ち止まって聞いてください。"
+  },
+  "Identify three distinct sounds": {
+    "": "3つの異なる音を特定しましょう。"
+  },
+  "Are they near or far?": "近くにいるのか遠くにいるのか?",
+  "Let your attention rest on each one": {
+    "": "それぞれに注意を向けてください。"
+  },
+  "Close your eyes if comfortable": {
+    "": "もし楽なら目を閉じてください。"
+  },
+  "Scan from head to toe": {
+    "": "頭の先からつま先までスキャン。"
+  },
+  "Notice areas of tension or ease": {
+    "": "緊張や緩みを感じる部分に気づきましょう。"
+  },
+  "Breathe into any tightness": {
+    "": "締め付けがあるなら呼吸して。"
+  },
+  "common": {
+    "get_started": "始めよう",
+    "start_over": "やり直し",
+    "finish_exit": "フィニッシュ&エグジット",
+    "well_done": "よくやった!",
+    "completion_message": "あなたはこの活動を無事に完了しました。自分の進歩を少しでも感じてみてください。",
+    "time_to_complete": "完了の時間だ",
+    "back": "戻る",
+    "next": "次",
+    "save": "セーブ",
+    "loading": "読み込み中...",
+    "share": "シェア",
+    "share_progress": "進捗を共有する",
+    "inspire_others": "今日、他者を鼓舞しましょう",
+    "share_text": "私はTherapyMantraで{{activityName}}を使ってみて、とても楽しんでいます。あなたもAndroidアプリの{{androidUrl}}かiOSアプリの{{iosUrl}}へのリンクをたどればできます。",
+    "this_activity": "この活動",
+    "copied": "コピーしました!",
+    "copy_message": "メッセージをコピー",
+    "yes": "はい",
+    "no": "いいえ",
+    "date": "日付",
+    "continue": "続けてください",
+    "step_of": "{{total}}のステップ{{current}}",
+    "round_of": "{{current}}ラウンド {{total}}",
+    "phase_label": "フェーズ",
+    "rounds_selector": "{{count}}ラウンド",
+    "instruction_ready": "ラウンドを設定し、再生ボタンをタップして開始",
+    "instruction_running": "呼吸を整えるために円をたどりましょう"
+  },
+  "app_title": "座礁",
+  "app_description": "座礁",
+  "change_language": "言語の変更",
+  "search_language": "言語を検索...",
+  "more": "続き",
+  "breadcrumb": "パンくず",
   "previous_slide": "前のスライド",
   "next_slide": "次のスライド",
-  "close": "近い",
-  "previous": "前の",
-  "more_pages": "その他のページ",
-  "pagination": "ページネーション",
+  "close": "閉じる",
+  "previous": "過去",
+  "more_pages": "さらにページを増やします",
+  "pagination": "ページ付け",
   "go_to_previous_page": "前のページへ",
-  "go_to_next_page": "次のページへ",
-  "toggle_sidebar": "サイドバーの表示/非表示を切り替える",
-  "stay_present": "今この瞬間に集中しよう",
-  "oops_page_not_found": "おっと！ページが見つかりません",
-  "return_to_home": "ホームに戻る",
-  "grounding_technique": "グラウンディングテクニック",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "go_to_next_page": "次のページへ進む",
+  "toggle_sidebar": "トグルサイドバー",
+  "stay_present": "現在に集中しましょう",
+  "oops_page_not_found": "おっと!ページが見つかりません",
+  "return_to_home": "帰郷",
+  "grounding_technique": "グラウンディング・テクニック",
+  "phase_label": "フェーズ",
+  "instruction_ready": "ラウンドを設定し、再生ボタンをタップして開始",
+  "instruction_running": "呼吸を整えるために円をたどりましょう",
+  "round_x_of_y": "{{current}}ラウンド {{total}}",
+  "rounds_selector": "{{count}}ラウンド",
+  "yes": "はい",
+  "no": "いいえ",
+  "date": "日付",
+  "continue": "続けてください"
 }

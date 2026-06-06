@@ -51,8 +51,8 @@
     "title": "Waking mid-cycle = zombie mode 🧟",
     "p1": "Dragged out of deep sleep by an alarm? Your brain literally hasn't finished what it was doing. That foggy heavy feeling? That's <1>sleep inertia</1>.",
     "wave": {
-      "light": "light",
-      "deep": "deep",
+      "light": "Light",
+      "deep": "Deep",
       "groggy": "😫 groggy",
       "fresh": "😊 fresh",
       "cycles": [

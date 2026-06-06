@@ -1,11 +1,11 @@
 {
   "app_title": "نیند کے چکر کی رہنمائی",
-  "pill_labels": [
-    "تعارف",
-    "چار مراحل",
-    "سست حقیقت",
-    "تمہارا کیا حال ہے؟"
-  ],
+  "pill_labels": {
+    "0": "تعارف",
+    "1": "چار مراحل",
+    "2": "سست حقیقت",
+    "3": "تمہارا کیا حال ہے؟"
+  },
   "s1": {
     "title": "کیا آپ نے کبھی 8 گھنٹے سویا ہے اور پھر بھی برا محسوس کیا ہے؟",
     "p1": "یہ <1>کتنی دیر سوتے ہیں</1> کے بارے میں نہیں ہے۔",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "آپ کا دماغ ہر رات 🌀 یہی کرتا ہے",
     "desc": "ہر 90 منٹ بعد، آپ کا دماغ چار مراحل سے گزرتا ہے — جیسے بار بار پلے لسٹ چلایا جا رہا ہو۔ ہر ایک کو ٹیپ کریں تاکہ دریافت کریں 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "ہلکی نیند",
         "tag": "1–5 منٹ · آسانی سے جگایا جا سکتا ہے",
         "body": "تم نیند میں جا رہے ہو۔ جسم چھوڑنا شروع کر دیتا ہے، پٹھے جھٹکے کھا سکتے ہیں۔ یہاں سے جاگنا بہت آسان ہے۔"
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "سیٹل ہونا",
         "tag": "10–25 منٹ · واقعی نیند میں",
         "body": "دل کی دھڑکن سست ہو جاتی ہے، جسم کا درجہ حرارت کم ہو جاتا ہے۔ آپ صحیح معنوں میں سو رہے ہیں — دماغی سرگرمی سست ہونے لگتی ہے۔"
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "گہری نیند ⭐",
         "tag": "20–40 منٹ · سونا",
         "body": "جسم ٹشوز کی مرمت کرتا ہے، مدافعت بناتا ہے۔ سب سے زیادہ جسمانی بحالی والا مرحلہ — جس سے جاگنا مشکل ہے۔"
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM نیند",
         "tag": "10–60 منٹ · ڈریم موڈ",
         "body": "دماغ سرگرمی سے گونجتا ہے۔ جذبات کو پروسیس کیا جاتا ہے، یادیں ان پر جمی رہتی ہیں۔ اسے چھوڑنے سے آپ کو دھندلا چھوڑ دیتا ہے۔"
       }
-    ],
+    },
     "italic": "گہری نیند آپ کے جسم کو ٹھیک کر دیتی ہے۔ REM آپ کے ذہن کو ٹھیک کر دیتا ہے۔",
     "button": "تو پھر میں اب بھی سست کیوں محسوس کر رہا ہوں؟ →"
   },
@@ -55,123 +55,123 @@
       "deep": "گہرا",
       "groggy": "😫 مدھم",
       "fresh": "😊 تازہ",
-      "cycles": [
-        "سائیکل 1",
-        "سائیکل 2",
-        "سائیکل 3"
-      ]
+      "cycles": {
+        "0": "سائیکل 1",
+        "1": "سائیکل 2",
+        "2": "سائیکل 3"
+      }
     },
     "disruptors_title": "آپ کے سائیکل 👇 کو کیا متاثر کرتا ہے",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "سونے سے پہلے اسکرینز",
         "sub": "گہری نیند میں تاخیر"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "دیر سے کیفین",
         "sub": "گہری نیند کو 20٪ تک کم کر دیتا ہے"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "بے قاعدہ نیند کے اوقات",
         "sub": "تمہاری قدرتی تال توڑ دیتا ہے"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "ذہنی دباؤ اور اضطراب",
         "sub": "آپ کو ہلکی نیند میں قید رکھتا ہے"
       }
-    ],
+    },
     "italic": "آپ کی عادات براہ راست اس بات پر منحصر ہیں کہ آپ کس مرحلے تک پہنچتے ہیں۔",
     "button": "اس کا میرے لیے کیا مطلب ہے؟ →"
   },
   "s4": {
     "title": "کون سا آپ جیسا لگتا ہے؟ 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "میں جسمانی طور پر تھکا ہوا جاگتا ہوں",
         "sub": "شاید گہری نیند کی کمی محسوس ہو رہی ہے",
         "tip": "مستقل نیند اور جاگنے کے وقت پر توجہ دیں — آپ کے جسم کو گہری نیند تک پہنچنے کے لیے باقاعدہ تال کی ضرورت ہوتی ہے۔"
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "میں جذباتی طور پر دھندلا یا اداس محسوس کرتا ہوں",
         "sub": "شاید REM نیند کی کمی",
         "tip": "سونے سے 30 منٹ پہلے آرام کرنے کی کوشش کریں — ایک پرسکون پری سلیپ روٹین آپ کی REM نیند کی حفاظت کرتی ہے۔"
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "میں رات کو اکثر جاگتا ہوں",
         "sub": "سائیکلز بار بار رک جاتے ہیں",
         "tip": "ٹھنڈا، تاریک اور خاموش کمرہ آپ کے دماغ کو بغیر کسی رکاوٹ کے گہرے مراحل میں رہنے میں مدد دیتا ہے۔"
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "میں ٹھیک محسوس کر رہا ہوں لیکن اچھا نہیں",
         "sub": "چکر جزوی ہوتے ہیں لیکن مکمل نہیں ہوتے",
         "tip": "کوشش کریں کہ 20 منٹ پہلے سونے جائیں — آپ کو شاید ایک اور مکمل نیند کے چکر کی ضرورت ہو۔"
       }
-    ],
+    },
     "quote": "نیند صرف آرام نہیں ہے — یہ فعال بحالی ہے۔ اپنے سائیکل اور پورے دن کی تبدیلیوں کی حفاظت کریں۔",
     "button": "ہو گیا ✓"
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "دوبارہ شروع کریں۔",
-    "finish_exit": "ختم کریں اور باہر نکلیں۔",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "get_started": "شروع کریں",
+    "start_over": "دوبارہ شروع کریں",
+    "finish_exit": "فنش اینڈ ایگزٹ",
+    "well_done": "شاباش!",
+    "completion_message": "آپ نے یہ سرگرمی کامیابی سے مکمل کر لی ہے۔ اپنی پیش رفت کی قدر کرنے کے لیے ایک لمحہ نکالیں۔",
     "time_to_complete": "مکمل ہونے کا وقت",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "شیئر کریں۔",
-    "share_progress": "پیش رفت کا اشتراک کریں",
-    "inspire_others": "آج دوسروں کو متاثر کریں۔",
-    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور واقعی اس سے لطف اندوز ہوں آپ بھی کر سکتے ہیں بس android ایپ {{androidUrl}} یا ios ایپ {{iosUrl}} کے لنک پر عمل کریں۔",
-    "this_activity": "اس سرگرمی",
-    "copied": "نقل کیا گیا!",
-    "copy_message": "پیغام کاپی کریں۔",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "back": "واپس",
+    "next": "اگلا",
+    "save": "سیو",
+    "loading": "لوڈ ہو رہا ہے...",
+    "share": "شیئر کریں",
+    "share_progress": "پیش رفت شیئر کریں",
+    "inspire_others": "آج ہی دوسروں کو متاثر کریں",
+    "share_text": "میں نے یہ {{activityName}} TherapyMantra میں کیا ہے اور مجھے واقعی مزہ آتا ہے، آپ بھی کر سکتے ہیں، بس اینڈرائیڈ ایپ {{androidUrl}} یا iOS ایپ {{iosUrl}} کے لنک پر جائیں",
+    "this_activity": "یہ سرگرمی",
+    "copied": "کاپی کر لیا!",
+    "copy_message": "پیغام کاپی کریں",
+    "yes": "جی ہاں",
+    "no": "نہیں",
+    "date": "تاریخ",
+    "continue": "جاری رکھیں",
+    "step_of": "{{current}} کا مرحلہ {{total}}",
+    "round_of": "{{current}} کا راؤنڈ {{current}}",
+    "phase_label": "مرحلہ",
+    "rounds_selector": "{{گنتی}} راؤنڈز",
+    "instruction_ready": "اپنے راؤنڈز سیٹ کریں اور کھیل شروع کرنے کے لیے ٹیپ کریں",
+    "instruction_running": "اپنی سانس کو منظم کرنے کے لیے دائرے کی پیروی کریں"
   },
-  "app_description": "سلیپ سائیکل گائیڈ",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "ریاضی منٹ (پچھلا + 1، TOTAL_SCREENS - 1))؛\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0))؛\n\n  const اسکرینز = [",
-  "it_s_not_about": "اس کے بارے میں نہیں ہے۔",
-  "it_s_about": "یہ کے بارے میں ہے",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "ایک الارم کے ذریعے گہری نیند سے باہر گھسیٹ لیا؟ آپ کے دماغ نے لفظی طور پر ختم نہیں کیا ہے کہ وہ کیا کر رہا تھا۔ کہ دھند بھاری احساس؟ وہ ہے",
+  "app_description": "نیند کے چکر کی رہنمائی",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min (پچھلا + 1، TOTAL_SCREENS - 1));\n  const goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nConst اسکرینز = [",
+  "it_s_not_about": "یہ اس بارے میں نہیں ہے",
+  "it_s_about": "یہ اس بارے میں ہے",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "گہری نیند سے الارم کی آواز میں جگا دیا گیا؟ تمہارا دماغ واقعی ابھی تک اپنا کام مکمل نہیں کر سکا۔ وہ دھندلا سا بھاری احساس؟ یہ ہے",
   "more": "مزید",
   "breadcrumb": "بریڈ کرمب",
   "previous_slide": "پچھلی سلائیڈ",
-  "next_slide": "اگلی سلائیڈ",
+  "next_slide": "اگلا سلائیڈ",
   "close": "بند",
   "previous": "پچھلا",
   "more_pages": "مزید صفحات",
   "pagination": "صفحہ بندی",
-  "go_to_previous_page": "پچھلے صفحے پر جائیں۔",
-  "go_to_next_page": "اگلے صفحے پر جائیں۔",
-  "toggle_sidebar": "سائڈبار کو ٹوگل کریں۔",
-  "oops_page_not_found": "افوہ! صفحہ نہیں ملا",
-  "return_to_home": "گھر واپس جائیں۔",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "go_to_previous_page": "پچھلے صفحے پر جائیں",
+  "go_to_next_page": "اگلے صفحے پر جائیں",
+  "toggle_sidebar": "ٹوگل سائیڈبار",
+  "oops_page_not_found": "اوہ! صفحہ نہیں ملا",
+  "return_to_home": "گھر کی طرف واپسی",
+  "phase_label": "مرحلہ",
+  "instruction_ready": "اپنے راؤنڈز سیٹ کریں اور کھیل شروع کرنے کے لیے ٹیپ کریں",
+  "instruction_running": "اپنی سانس کو منظم کرنے کے لیے دائرے کی پیروی کریں",
+  "round_x_of_y": "{{current}} کا راؤنڈ {{current}}",
+  "rounds_selector": "{{گنتی}} راؤنڈز",
+  "yes": "جی ہاں",
+  "no": "نہیں",
+  "date": "تاریخ",
+  "continue": "جاری رکھیں"
 }

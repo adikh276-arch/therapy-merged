@@ -1,125 +1,217 @@
 {
   "Grounding": "Pembumian",
-  "Step": "Melangkah",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Teknik pembumian membantu membawa perhatian Anda kembali ke saat ini."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Pilih salah satu aktivitas yang terasa mendukung saat ini."
+  },
+  "Step": "Langkah",
   "Back": "Kembali",
-  "Next": "Berikutnya",
-  "I Feel More Grounded": "Aku Merasa Lebih Tenang",
+  "Next": "Selanjutnya",
+  "I Feel More Grounded": "Saya Merasa Lebih Membumi",
   "Choose Another Technique": "Pilih Teknik Lain",
   "Technique not found": "Teknik tidak ditemukan",
-  "Put your hands in water": "Celupkan tanganmu ke dalam air",
-  "Pick up or touch items near you": "Ambil atau sentuh barang-barang di dekat Anda",
-  "Breathe deeply": "Bernapaslah dalam-dalam",
-  "Savour your food": "Nikmati makananmu",
+  "Put your hands in water": "Masukkan tangan Anda ke dalam air",
+  "Pick up or touch items near you": "Mengambil atau menyentuh barang di dekat Anda",
+  "Breathe deeply": "Tarik napas dalam-dalam",
+  "Savour your food": "Nikmati makanan Anda",
   "Savour a drink": "Nikmati minuman",
-  "Take a short walk": "Berjalan kaki sebentar",
+  "Take a short walk": "Berjalan-jalan sebentar",
   "Hold a piece of ice": "Pegang sepotong es",
-  "Savour a scent": "Nikmati aromanya",
-  "Move your body": "Gerakkan tubuhmu",
-  "Listen to your surroundings": "Perhatikan lingkungan sekitar Anda.",
-  "Check in with your body": "Perhatikan kondisi tubuh Anda.",
-  "Is it smooth or rough? Heavy or light?": "Apakah permukaannya halus atau kasar? Berat atau ringan?",
+  "Savour a scent": "Nikmati aroma",
+  "Move your body": "Gerakkan tubuh Anda",
+  "Listen to your surroundings": "Dengarkan lingkungan Anda",
+  "Check in with your body": "Periksa dengan tubuh Anda",
+  "Run your hands under cool or warm water": {
+    "": "Jalankan tangan Anda di bawah air dingin atau hangat."
+  },
+  "Notice the temperature": {
+    "": "Perhatikan suhunya."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Perhatikan sensasi pada kulit Anda."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Amati bagaimana itu berubah dari saat ke saat."
+  },
+  "Let your breathing slow naturally": {
+    "": "Biarkan pernapasan Anda melambat secara alami."
+  },
+  "Choose a nearby object": {
+    "": "Pilih objek terdekat."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Perhatikan tekstur, berat, dan suhunya."
+  },
+  "Is it smooth or rough? Heavy or light?": "Apakah halus atau kasar? Berat atau ringan?",
+  "Let your focus stay fully on this one object": {
+    "": "Biarkan fokus Anda tetap sepenuhnya pada objek yang satu ini."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Tarik napas perlahan melalui hidung Anda."
+  },
+  "Hold gently for a moment": {
+    "": "Pegang dengan lembut sebentar."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Buang napas perlahan melalui mulut Anda."
+  },
+  "Repeat several times": {
+    "": "Ulangi beberapa kali."
+  },
+  "Let your shoulders soften": {
+    "": "Biarkan bahu Anda melunak."
+  },
+  "Take a small bite": {
+    "": "Gigit sedikit."
+  },
+  "Chew slowly": {
+    "": "Kunyah perlahan."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Perhatikan rasa, tekstur, dan suhunya."
+  },
+  "Stay fully present with the experience": {
+    "": "Tetap hadir sepenuhnya dengan pengalaman."
+  },
+  "Take a slow sip": {
+    "": "Menyesap perlahan."
+  },
+  "Notice the temperature and taste": {
+    "": "Perhatikan suhu dan rasanya."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Rasakan sensasi saat Anda menelan."
+  },
+  "Let yourself stay with that moment": {
+    "": "Biarkan diri Anda tetap dengan momen itu."
+  },
+  "Walk slowly and intentionally": {
+    "": "Berjalan perlahan dan sengaja."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Perhatikan perasaan kaki Anda menyentuh tanah."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Amati lingkungan Anda tanpa menghakimi."
+  },
+  "Let your breath match your steps": {
+    "": "Biarkan nafasmu sesuai dengan langkahmu."
+  },
+  "Hold the ice in your hand": {
+    "": "Pegang es di tangan Anda."
+  },
+  "Notice the cold sensation": {
+    "": "Perhatikan sensasi dingin."
+  },
+  "Focus fully on the feeling": {
+    "": "Fokus sepenuhnya pada perasaan."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Biarkan sensasi yang kuat menambatkan Anda ke masa kini."
+  },
+  "Choose a scent nearby": {
+    "": "Pilih aroma di dekatnya."
+  },
+  "Inhale slowly": {
+    "": "Tarik napas perlahan."
+  },
+  "Notice how it feels in your body": {
+    "": "Perhatikan bagaimana rasanya di tubuh Anda."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Biarkan aroma membawa Anda ke momen ini."
+  },
+  "Stretch gently": {
+    "": "Regangkan dengan lembut."
+  },
+  "Roll your shoulders": {
+    "": "Putar bahu Anda."
+  },
+  "Shift your weight from side to side": {
+    "": "Pindahkan berat badan Anda dari sisi ke sisi."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Perhatikan bagaimana perasaan tubuh Anda saat bergerak."
+  },
+  "Pause and listen": {
+    "": "Jeda dan dengarkan."
+  },
+  "Identify three distinct sounds": {
+    "": "Identifikasi tiga suara yang berbeda."
+  },
   "Are they near or far?": "Apakah mereka dekat atau jauh?",
+  "Let your attention rest on each one": {
+    "": "Biarkan perhatian Anda tertuju pada masing-masing."
+  },
+  "Close your eyes if comfortable": {
+    "": "Tutup mata Anda jika nyaman."
+  },
+  "Scan from head to toe": {
+    "": "Pindai dari ujung kepala sampai ujung kaki."
+  },
+  "Notice areas of tension or ease": {
+    "": "Perhatikan area ketegangan atau kemudahan."
+  },
+  "Breathe into any tightness": {
+    "": "Bernapas ke dalam sesak apa pun."
+  },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Mulai dari Awal",
+    "get_started": "Memulai",
+    "start_over": "Mulai Dari Awal",
     "finish_exit": "Selesai & Keluar",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Waktu penyelesaian",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Membagikan",
+    "well_done": "Bagus!",
+    "completion_message": "Anda telah berhasil menyelesaikan aktivitas ini. Luangkan waktu sejenak untuk menghargai kemajuan Anda.",
+    "time_to_complete": "Waktu untuk menyelesaikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "save": "Simpan",
+    "loading": "Memuat...",
+    "share": "Bagikan",
     "share_progress": "Bagikan Kemajuan",
-    "inspire_others": "Berikan inspirasi kepada orang lain hari ini.",
-    "share_text": "Saya telah melakukan {{activityName}} ini di TherapyMantra dan sangat menikmatinya, Anda juga bisa melakukannya, cukup ikuti tautan ke aplikasi Android {{androidUrl}} atau aplikasi iOS {{iosUrl}}",
-    "this_activity": "aktivitas ini",
+    "inspire_others": "Menginspirasi orang lain hari ini",
+    "share_text": "Saya telah melakukan ini {{activityName}} di TherapyMantra dan sangat menikmatinya, Anda juga dapat melakukannya cukup ikuti tautan ke aplikasi android {{androidUrl}} atau aplikasi ios {{iosUrl}}",
+    "this_activity": "Kegiatan ini",
     "copied": "Disalin!",
     "copy_message": "Salin Pesan",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Iya",
+    "no": "Tidak",
+    "date": "Tanggal",
+    "continue": "Lanjutkan",
+    "step_of": "Langkah {{current}} dari {{total}}",
+    "round_of": "Bulatkan {{current}} dari {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{hitung}} Putaran",
+    "instruction_ready": "Atur putaran Anda dan ketuk putar untuk memulai",
+    "instruction_running": "Ikuti lingkaran untuk mengatur napas Anda"
   },
   "app_title": "Pembumian",
   "app_description": "Pembumian",
   "change_language": "Ubah bahasa",
-  "search_language": "Cari bahasa...",
-  "more": "Lagi",
+  "search_language": "Bahasa pencarian...",
+  "more": "Selengkapnya",
   "breadcrumb": "remah roti",
   "previous_slide": "Slide sebelumnya",
   "next_slide": "Slide berikutnya",
-  "close": "Menutup",
-  "previous": "Sebelumnya",
+  "close": "Tutup",
+  "previous": "sebelumnya",
   "more_pages": "Halaman lainnya",
   "pagination": "penomoran halaman",
-  "go_to_previous_page": "Kembali ke halaman sebelumnya",
-  "go_to_next_page": "Lanjut ke halaman berikutnya",
-  "toggle_sidebar": "Alihkan Sidebar",
-  "stay_present": "Tetaplah hadir di saat ini",
+  "go_to_previous_page": "Ke halaman sebelumnya",
+  "go_to_next_page": "Buka halaman berikutnya",
+  "toggle_sidebar": "Beralih Bilah Sisi",
+  "stay_present": "Tetap Hadir",
   "oops_page_not_found": "Ups! Halaman tidak ditemukan",
-  "return_to_home": "Kembali ke Halaman Utama",
+  "return_to_home": "Kembali ke Rumah",
   "grounding_technique": "Teknik Pembumian",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Fase",
+  "instruction_ready": "Atur putaran Anda dan ketuk putar untuk memulai",
+  "instruction_running": "Ikuti lingkaran untuk mengatur napas Anda",
+  "round_x_of_y": "Bulatkan {{current}} dari {{total}}",
+  "rounds_selector": "{{hitung}} Putaran",
+  "yes": "Iya",
+  "no": "Tidak",
+  "date": "Tanggal",
+  "continue": "Lanjutkan"
 }

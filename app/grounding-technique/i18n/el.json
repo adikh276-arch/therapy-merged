@@ -1,5 +1,11 @@
 {
   "Grounding": "Γείωση",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Οι τεχνικές γείωσης βοηθούν να επαναφέρετε την προσοχή σας στην παρούσα στιγμή."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Επιλέξτε μια δραστηριότητα που σας υποστηρίζει αυτή τη στιγμή."
+  },
   "Step": "Βήμα",
   "Back": "Πίσω",
   "Next": "Επόμενο",
@@ -17,46 +23,178 @@
   "Move your body": "Κινήστε το σώμα σας",
   "Listen to your surroundings": "Ακούστε το περιβάλλον σας",
   "Check in with your body": "Ελέγξτε με το σώμα σας",
+  "Run your hands under cool or warm water": {
+    "": "Περάστε τα χέρια σας κάτω από δροσερό ή ζεστό νερό."
+  },
+  "Notice the temperature": {
+    "": "Παρατηρήστε τη θερμοκρασία."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Δώστε προσοχή στην αίσθηση στο δέρμα σας."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Παρατηρήστε πώς αλλάζει στιγμή με τη στιγμή."
+  },
+  "Let your breathing slow naturally": {
+    "": "Αφήστε την αναπνοή σας να επιβραδύνει φυσικά."
+  },
+  "Choose a nearby object": {
+    "": "Επιλέξτε ένα κοντινό αντικείμενο."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Παρατηρήστε την υφή, το βάρος και τη θερμοκρασία του."
+  },
   "Is it smooth or rough? Heavy or light?": "Είναι λείο ή τραχύ; Βαρύ ή ελαφρύ;",
+  "Let your focus stay fully on this one object": {
+    "": "Αφήστε την εστίασή σας να παραμείνει πλήρως σε αυτό το αντικείμενο."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Πάρτε μια αργή εισπνοή από τη μύτη σας."
+  },
+  "Hold gently for a moment": {
+    "": "Κρατήστε απαλά για μια στιγμή."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Εκπνεύστε αργά από το στόμα σας."
+  },
+  "Repeat several times": {
+    "": "Επαναλάβετε αρκετές φορές."
+  },
+  "Let your shoulders soften": {
+    "": "Αφήστε τους ώμους σας να μαλακώσουν."
+  },
+  "Take a small bite": {
+    "": "Πάρτε μια μικρή μπουκιά."
+  },
+  "Chew slowly": {
+    "": "Μασήστε αργά."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Παρατηρήστε τη γεύση, την υφή και τη θερμοκρασία."
+  },
+  "Stay fully present with the experience": {
+    "": "Μείνετε πλήρως παρόντες με την εμπειρία."
+  },
+  "Take a slow sip": {
+    "": "Πιείτε μια αργή γουλιά."
+  },
+  "Notice the temperature and taste": {
+    "": "Παρατηρήστε τη θερμοκρασία και τη γεύση."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Νιώστε την αίσθηση καθώς καταπίνετε."
+  },
+  "Let yourself stay with that moment": {
+    "": "Αφήστε τον εαυτό σας να μείνει σε εκείνη τη στιγμή."
+  },
+  "Walk slowly and intentionally": {
+    "": "Περπατήστε αργά και σκόπιμα."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Παρατηρήστε την αίσθηση των ποδιών σας να αγγίζουν το έδαφος."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Παρατηρήστε το περιβάλλον σας χωρίς κρίση."
+  },
+  "Let your breath match your steps": {
+    "": "Αφήστε την αναπνοή σας να ταιριάζει με τα βήματά σας."
+  },
+  "Hold the ice in your hand": {
+    "": "Κρατήστε τον πάγο στο χέρι σας."
+  },
+  "Notice the cold sensation": {
+    "": "Παρατηρήστε την αίσθηση του κρύου."
+  },
+  "Focus fully on the feeling": {
+    "": "Εστιάστε πλήρως στο συναίσθημα."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Αφήστε την έντονη αίσθηση να σας αγκυροβολήσει στο παρόν."
+  },
+  "Choose a scent nearby": {
+    "": "Επιλέξτε ένα άρωμα κοντά."
+  },
+  "Inhale slowly": {
+    "": "Εισπνεύστε αργά."
+  },
+  "Notice how it feels in your body": {
+    "": "Παρατηρήστε πώς αισθάνεστε στο σώμα σας."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Αφήστε το άρωμα να σας φέρει σε αυτή τη στιγμή."
+  },
+  "Stretch gently": {
+    "": "Τεντώστε απαλά."
+  },
+  "Roll your shoulders": {
+    "": "Κυλήστε τους ώμους σας."
+  },
+  "Shift your weight from side to side": {
+    "": "Μετατοπίστε το βάρος σας από τη μία πλευρά στην άλλη."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Παρατηρήστε πώς αισθάνεται το σώμα σας καθώς κινείται."
+  },
+  "Pause and listen": {
+    "": "Κάντε παύση και ακούστε."
+  },
+  "Identify three distinct sounds": {
+    "": "Προσδιορίστε τρεις διακριτούς ήχους."
+  },
   "Are they near or far?": "Είναι κοντά ή μακριά;",
+  "Let your attention rest on each one": {
+    "": "Αφήστε την προσοχή σας να ξεκουραστεί σε κάθε ένα."
+  },
+  "Close your eyes if comfortable": {
+    "": "Κλείστε τα μάτια σας αν αισθάνεστε άνετα."
+  },
+  "Scan from head to toe": {
+    "": "Σάρωση από την κορυφή μέχρι τα νύχια."
+  },
+  "Notice areas of tension or ease": {
+    "": "Παρατηρήστε περιοχές έντασης ή ευκολίας."
+  },
+  "Breathe into any tightness": {
+    "": "Εισπνεύστε σε οποιοδήποτε σφίξιμο."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Ξεκινήστε",
     "start_over": "Ξεκινήστε από την αρχή",
-    "finish_exit": "Τέλος & Έξοδος",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "finish_exit": "Τερματισμός & Έξοδος",
+    "well_done": "Μπράβο!",
+    "completion_message": "Ολοκληρώσατε με επιτυχία αυτή τη δραστηριότητα. Αφιερώστε λίγο χρόνο για να εκτιμήσετε την πρόοδό σας.",
     "time_to_complete": "Ώρα για ολοκλήρωση",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Μερίδιο",
-    "share_progress": "Κοινοποίηση προόδου",
-    "inspire_others": "Εμπνεύστε τους άλλους σήμερα",
-    "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πολύ. Μπορείτε να το κάνετε κι εσείς, απλώς ακολουθήστε τον σύνδεσμο για την εφαρμογή Android {{androidUrl}} ή την εφαρμογή iOS {{iosUrl}}",
-    "this_activity": "αυτή η δραστηριότητα",
+    "back": "Πίσω",
+    "next": "Επόμενο",
+    "save": "Αποθήκευση",
+    "loading": "Φόρτωση...",
+    "share": "Κοινοποίηση",
+    "share_progress": "Μοιραστείτε την πρόοδο",
+    "inspire_others": "Εμπνεύστε άλλους σήμερα",
+    "share_text": "Έχω κάνει αυτό το {{activityName}} στο TherapyMantra και το απολαμβάνω πραγματικά, μπορείτε να το κάνετε κι εσείς, απλά ακολουθήστε τον σύνδεσμο προς την εφαρμογή Android {{androidUrl}} ή την εφαρμογή ios {{iosUrl}}",
+    "this_activity": "Αυτή η δραστηριότητα",
     "copied": "Αντιγράφηκε!",
     "copy_message": "Αντιγραφή μηνύματος",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Ναι",
+    "no": "Όχι",
+    "date": "Ημερομηνία",
+    "continue": "Συνέχεια",
+    "step_of": "Βήμα {{current}} από {{total}}",
+    "round_of": "Γύρος {{current}} από {{total}}",
+    "phase_label": "Φάση",
+    "rounds_selector": "{{καταμέτρηση}} Γύροι",
+    "instruction_ready": "Ορίστε τους γύρους σας και πατήστε αναπαραγωγή για να ξεκινήσετε",
+    "instruction_running": "Ακολουθήστε τον κύκλο για να ρυθμίσετε την αναπνοή σας"
   },
   "app_title": "Γείωση",
   "app_description": "Γείωση",
   "change_language": "Αλλαγή γλώσσας",
-  "search_language": "Αναζήτηση γλώσσας...",
-  "more": "Περισσότερο",
-  "breadcrumb": "ψίχουλα ψωμιού",
+  "search_language": "Γλώσσα αναζήτησης...",
+  "more": "Περισσότερα",
+  "breadcrumb": "τριμμένη φρυγανιά",
   "previous_slide": "Προηγούμενη διαφάνεια",
   "next_slide": "Επόμενη διαφάνεια",
-  "close": "Κοντά",
+  "close": "Κλείσιμο",
   "previous": "Προηγούμενος",
   "more_pages": "Περισσότερες σελίδες",
   "pagination": "σελιδοποίηση",
@@ -64,62 +202,16 @@
   "go_to_next_page": "Μετάβαση στην επόμενη σελίδα",
   "toggle_sidebar": "Εναλλαγή πλευρικής γραμμής",
   "stay_present": "Μείνετε παρόντες",
-  "oops_page_not_found": "Ωχ! Η σελίδα δεν βρέθηκε.",
+  "oops_page_not_found": "Ουπς! Η σελίδα δεν βρέθηκε",
   "return_to_home": "Επιστροφή στην Αρχική",
   "grounding_technique": "Τεχνική γείωσης",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "Φάση",
+  "instruction_ready": "Ορίστε τους γύρους σας και πατήστε αναπαραγωγή για να ξεκινήσετε",
+  "instruction_running": "Ακολουθήστε τον κύκλο για να ρυθμίσετε την αναπνοή σας",
+  "round_x_of_y": "Γύρος {{current}} από {{total}}",
+  "rounds_selector": "{{καταμέτρηση}} Γύροι",
+  "yes": "Ναι",
+  "no": "Όχι",
+  "date": "Ημερομηνία",
+  "continue": "Συνέχεια"
 }

@@ -1,64 +1,64 @@
 {
-  "Grounding": "接地",
+  "Grounding": "擱淺",
   "Grounding techniques help bring your attention back to the present moment": {
-    "": "接地技巧有助於將注意力拉回當下。"
+    "": "接地技巧幫助你將注意力拉回到當下。"
   },
   "Choose one activity that feels supportive right now": {
-    "": "選擇一項你現在覺得有益的活動。"
+    "": "選擇一項當下讓你感到支持的活動。"
   },
-  "Step": "步",
-  "Back": "後退",
-  "Next": "下一個",
-  "I Feel More Grounded": "我感覺更踏實了。",
-  "Choose Another Technique": "選擇其他方法",
-  "Technique not found": "未找到該技術",
-  "Put your hands in water": "把手伸進水里",
-  "Pick up or touch items near you": "拿起或觸摸你附近的物品",
+  "Step": "步進",
+  "Back": "返回",
+  "Next": "下一篇",
+  "I Feel More Grounded": "我感覺更踏實了",
+  "Choose Another Technique": "選擇其他技巧",
+  "Technique not found": "未找到技術",
+  "Put your hands in water": "把手放進水裡",
+  "Pick up or touch items near you": "撿起或觸摸你附近的物品",
   "Breathe deeply": "深呼吸",
-  "Savour your food": "細細品味你的食物",
-  "Savour a drink": "細細品味一杯飲品",
-  "Take a short walk": "短途散步",
-  "Hold a piece of ice": "拿一塊冰",
+  "Savour your food": "好好品味你的食物",
+  "Savour a drink": "品味一杯",
+  "Take a short walk": "走個短路",
+  "Hold a piece of ice": "拿一塊冰塊",
   "Savour a scent": "細細品味香氣",
-  "Move your body": "活動你的身體",
-  "Listen to your surroundings": "傾聽周圍環境",
-  "Check in with your body": "傾聽你的身體。",
+  "Move your body": "動動你的身體",
+  "Listen to your surroundings": "傾聽周遭環境",
+  "Check in with your body": "檢查你的身體狀況",
   "Run your hands under cool or warm water": {
-    "": "將雙手放在涼水或溫水下沖洗。"
+    "": "用冷水或溫水沖洗雙手。"
   },
   "Notice the temperature": {
     "": "注意溫度。"
   },
   "Pay attention to the sensation on your skin": {
-    "": "注意感受皮膚上的感覺。"
+    "": "注意你皮膚上的觸感。"
   },
   "Observe how it changes moment by moment": {
-    "": "觀察它如何瞬息萬變。"
+    "": "觀察它如何隨著時間改變。"
   },
   "Let your breathing slow naturally": {
-    "": "讓呼吸自然放緩。"
+    "": "讓你的呼吸自然放慢。"
   },
   "Choose a nearby object": {
-    "": "選擇附近的物體。"
+    "": "選擇一個附近的物體。"
   },
   "Notice its texture, weight, and temperature": {
     "": "注意它的質地、重量和溫度。"
   },
-  "Is it smooth or rough? Heavy or light?": "它是光滑的還是粗糙的？重的還是輕的？",
+  "Is it smooth or rough? Heavy or light?": "是光滑還是粗糙？重還是輕？",
   "Let your focus stay fully on this one object": {
-    "": "讓你的注意力完全集中在這個物體上。"
+    "": "讓你的注意力完全停留在這一個物件上。"
   },
   "Take a slow breath in through your nose": {
-    "": "用鼻子慢慢吸氣。"
+    "": "慢慢用鼻子吸氣。"
   },
   "Hold gently for a moment": {
-    "": "輕輕握住片刻。"
+    "": "輕輕握住。"
   },
   "Exhale slowly through your mouth": {
-    "": "透過嘴巴慢慢呼氣。"
+    "": "慢慢用嘴巴呼氣。"
   },
   "Repeat several times": {
-    "": "重複數次。"
+    "": "重複好幾次。"
   },
   "Let your shoulders soften": {
     "": "放鬆肩膀。"
@@ -73,7 +73,7 @@
     "": "注意味道、口感和溫度。"
   },
   "Stay fully present with the experience": {
-    "": "全心投入體驗。"
+    "": "完全活在當下。"
   },
   "Take a slow sip": {
     "": "慢慢啜飲。"
@@ -82,182 +82,136 @@
     "": "注意溫度和味道。"
   },
   "Feel the sensation as you swallow": {
-    "": "感受吞嚥時的感覺。"
+    "": "在吞嚥時感受那種感覺。"
   },
   "Let yourself stay with that moment": {
-    "": "讓自己沉浸在那一刻。"
+    "": "讓自己停留在那一刻。"
   },
   "Walk slowly and intentionally": {
-    "": "慢慢地、有目的地走。"
+    "": "走得慢且有意識。"
   },
   "Notice the feeling of your feet touching the ground": {
-    "": "注意感受雙腳接觸地面的感覺。"
+    "": "注意腳觸地的感覺。"
   },
   "Observe your surroundings without judgment": {
-    "": "觀察周圍的環境，不要妄加評判。"
+    "": "觀察周遭環境，不要帶著評判。"
   },
   "Let your breath match your steps": {
-    "": "讓你的呼吸與你的步伐保持一致。"
+    "": "讓你的呼吸與步伐同步。"
   },
   "Hold the ice in your hand": {
     "": "手裡拿著冰塊。"
   },
   "Notice the cold sensation": {
-    "": "注意這種冰冷的感覺。"
+    "": "注意那種冰冷的感覺。"
   },
   "Focus fully on the feeling": {
-    "": "全神貫注於這種感覺。"
+    "": "全神貫注在感覺上。"
   },
   "Allow the strong sensation to anchor you to the present": {
-    "": "讓這種強烈的感受將你牢牢地錨定在當下。"
+    "": "讓強烈的感覺將你錨定在當下。"
   },
   "Choose a scent nearby": {
-    "": "選擇附近某種香味。"
+    "": "選擇附近的香味。"
   },
   "Inhale slowly": {
     "": "慢慢吸氣。"
   },
   "Notice how it feels in your body": {
-    "": "注意一下你的身體感覺。"
+    "": "注意它在你身體裡的感覺。"
   },
   "Let the scent bring you into this moment": {
-    "": "讓香氣帶你進入這一刻。"
+    "": "讓香氣帶你進入此刻。"
   },
   "Stretch gently": {
-    "": "輕輕拉伸。"
+    "": "輕輕伸展。"
   },
   "Roll your shoulders": {
-    "": "聳聳肩。"
+    "": "轉動你的肩膀。"
   },
   "Shift your weight from side to side": {
-    "": "左右移動重心。"
+    "": "將重心左右移動。"
   },
   "Notice how your body feels as it moves": {
-    "": "注意身體運動時的感覺。"
+    "": "注意你的身體在移動時的感覺。"
   },
   "Pause and listen": {
-    "": "暫停片刻，仔細聆聽。"
+    "": "停下來聽。"
   },
   "Identify three distinct sounds": {
-    "": "找出三種不同的聲音。"
+    "": "辨識三個明顯不同的聲音。"
   },
-  "Are they near or far?": "它們離得近還是遠？",
+  "Are they near or far?": "他們是近還是遠？",
   "Let your attention rest on each one": {
-    "": "讓你的注意力集中在每一個細節上。"
+    "": "讓你的注意力停留在每一個細節上。"
   },
   "Close your eyes if comfortable": {
-    "": "如果感覺舒服，可以閉上眼睛。"
+    "": "如果覺得舒服，可以閉上眼睛。"
   },
   "Scan from head to toe": {
     "": "從頭到腳掃描。"
   },
   "Notice areas of tension or ease": {
-    "": "注意身體哪些部位感到緊張或放鬆。"
+    "": "注意緊繃或放鬆的區域。"
   },
   "Breathe into any tightness": {
-    "": "深呼吸，緩解緊繃感。"
+    "": "呼吸到任何緊繃的感覺。"
   },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "開始",
     "start_over": "重新開始",
-    "finish_exit": "結束並退出",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "finish_exit": "結束與退出",
+    "well_done": "做得好！",
+    "completion_message": "你已經成功完成了這個活動。花點時間欣賞你的進步。",
     "time_to_complete": "完成時間",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Share",
-    "share_progress": "Share progress",
-    "inspire_others": "Inspire others",
-    "share_text": "I have done this {{activityName}} in TherapyMantra and really enjoy it you can do it too just follow the link to android app {{androidUrl}} or ios app {{iosUrl}}",
-    "this_activity": "this activity",
-    "copied": "Copied",
-    "copy_message": "Copy message",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "back": "返回",
+    "next": "下一篇",
+    "save": "存檔",
+    "loading": "載入中......",
+    "share": "分享",
+    "share_progress": "分享進度",
+    "inspire_others": "今天啟發他人",
+    "share_text": "我在 TherapyMantra 裡做過這個 {{activityName}}，非常喜歡，你也可以這樣做，只要點到安卓應用程式 {{androidUrl}} 或 iOS 應用程式 {{iosUrl}} 就能做到。",
+    "this_activity": "這項活動",
+    "copied": "複製了！",
+    "copy_message": "複製訊息",
+    "yes": "是的",
+    "no": "不",
+    "date": "日期",
+    "continue": "繼續",
+    "step_of": "步驟 {{current}} {{total}}",
+    "round_of": "{{current}} 的 {{total}}",
+    "phase_label": "階段",
+    "rounds_selector": "{{count}}回合",
+    "instruction_ready": "設定你的回合並點擊播放開始",
+    "instruction_running": "跟著圓圈來調節呼吸"
   },
-  "Grounding techniques help bring your attention back to the present moment.": "Grounding techniques help bring your attention back to the present moment.",
-  "Choose one activity that feels supportive right now.": "Choose one activity that feels supportive right now.",
-  "Run your hands under cool or warm water.": "Run your hands under cool or warm water.",
-  "Notice the temperature.": "Notice the temperature.",
-  "Pay attention to the sensation on your skin.": "Pay attention to the sensation on your skin.",
-  "Observe how it changes moment by moment.": "Observe how it changes moment by moment.",
-  "Let your breathing slow naturally.": "Let your breathing slow naturally.",
-  "Choose a nearby object.": "Choose a nearby object.",
-  "Notice its texture, weight, and temperature.": "Notice its texture, weight, and temperature.",
-  "Let your focus stay fully on this one object.": "Let your focus stay fully on this one object.",
-  "Take a slow breath in through your nose.": "Take a slow breath in through your nose.",
-  "Hold gently for a moment.": "Hold gently for a moment.",
-  "Exhale slowly through your mouth.": "Exhale slowly through your mouth.",
-  "Repeat several times.": "Repeat several times.",
-  "Let your shoulders soften.": "Let your shoulders soften.",
-  "Take a small bite.": "Take a small bite.",
-  "Chew slowly.": "Chew slowly.",
-  "Notice the flavor, texture, and temperature.": "Notice the flavor, texture, and temperature.",
-  "Stay fully present with the experience.": "Stay fully present with the experience.",
-  "Take a slow sip.": "Take a slow sip.",
-  "Notice the temperature and taste.": "Notice the temperature and taste.",
-  "Feel the sensation as you swallow.": "Feel the sensation as you swallow.",
-  "Let yourself stay with that moment.": "Let yourself stay with that moment.",
-  "Walk slowly and intentionally.": "Walk slowly and intentionally.",
-  "Notice the feeling of your feet touching the ground.": "Notice the feeling of your feet touching the ground.",
-  "Observe your surroundings without judgment.": "Observe your surroundings without judgment.",
-  "Let your breath match your steps.": "Let your breath match your steps.",
-  "Hold the ice in your hand.": "Hold the ice in your hand.",
-  "Notice the cold sensation.": "Notice the cold sensation.",
-  "Focus fully on the feeling.": "Focus fully on the feeling.",
-  "Allow the strong sensation to anchor you to the present.": "Allow the strong sensation to anchor you to the present.",
-  "Choose a scent nearby.": "Choose a scent nearby.",
-  "Inhale slowly.": "Inhale slowly.",
-  "Notice how it feels in your body.": "Notice how it feels in your body.",
-  "Let the scent bring you into this moment.": "Let the scent bring you into this moment.",
-  "Stretch gently.": "Stretch gently.",
-  "Roll your shoulders.": "Roll your shoulders.",
-  "Shift your weight from side to side.": "Shift your weight from side to side.",
-  "Notice how your body feels as it moves.": "Notice how your body feels as it moves.",
-  "Pause and listen.": "Pause and listen.",
-  "Identify three distinct sounds.": "Identify three distinct sounds.",
-  "Let your attention rest on each one.": "Let your attention rest on each one.",
-  "Close your eyes if comfortable.": "Close your eyes if comfortable.",
-  "Scan from head to toe.": "Scan from head to toe.",
-  "Notice areas of tension or ease.": "Notice areas of tension or ease.",
-  "Breathe into any tightness.": "Breathe into any tightness.",
-  "app_title": "Grounding",
-  "app_description": "Grounding",
-  "change_language": "Change language",
-  "search_language": "Search language...",
-  "more": "More",
-  "breadcrumb": "breadcrumb",
-  "previous_slide": "Previous slide",
-  "next_slide": "Next slide",
-  "close": "Close",
-  "previous": "Previous",
-  "more_pages": "More pages",
-  "pagination": "pagination",
-  "go_to_previous_page": "Go to previous page",
-  "go_to_next_page": "Go to next page",
-  "toggle_sidebar": "Toggle Sidebar",
-  "stay_present": "Stay Present",
-  "oops_page_not_found": "Oops! Page not found",
-  "return_to_home": "Return to Home",
-  "grounding_technique": "Grounding Technique",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "app_title": "擱淺",
+  "app_description": "擱淺",
+  "change_language": "更換語言",
+  "search_language": "搜尋語言......",
+  "more": "更多",
+  "breadcrumb": "麵包屑",
+  "previous_slide": "上一張投影片",
+  "next_slide": "下一張投影片",
+  "close": "結束",
+  "previous": "先前",
+  "more_pages": "更多頁面",
+  "pagination": "頁碼",
+  "go_to_previous_page": "前往上一頁",
+  "go_to_next_page": "前往下一頁",
+  "toggle_sidebar": "切換側邊欄",
+  "stay_present": "保持當下",
+  "oops_page_not_found": "哎呀！找不到頁面",
+  "return_to_home": "歸鄉",
+  "grounding_technique": "接地技巧",
+  "phase_label": "階段",
+  "instruction_ready": "設定你的回合並點擊播放開始",
+  "instruction_running": "跟著圓圈來調節呼吸",
+  "round_x_of_y": "{{current}} 的 {{total}}",
+  "rounds_selector": "{{count}}回合",
+  "yes": "是的",
+  "no": "不",
+  "date": "日期",
+  "continue": "繼續"
 }

@@ -1,125 +1,217 @@
 {
-  "Grounding": "การต่อสายดิน",
+  "Grounding": "สายดิน",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "เทคนิคการต่อสายดินช่วยดึงความสนใจของคุณกลับมาที่ช่วงเวลาปัจจุบัน"
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "เลือกหนึ่งกิจกรรมที่ให้ความรู้สึกสนับสนุนในตอนนี้"
+  },
   "Step": "ขั้นตอน",
-  "Back": "กลับ",
+  "Back": "ย้อนกลับ",
   "Next": "ต่อไป",
-  "I Feel More Grounded": "ฉันรู้สึกมั่นคงมากขึ้น",
+  "I Feel More Grounded": "ฉันรู้สึกมีเหตุผลมากขึ้น",
   "Choose Another Technique": "เลือกเทคนิคอื่น",
   "Technique not found": "ไม่พบเทคนิค",
-  "Put your hands in water": "จุ่มมือลงในน้ำ",
+  "Put your hands in water": "เอามือลงไปในน้ํา",
   "Pick up or touch items near you": "หยิบหรือสัมผัสสิ่งของที่อยู่ใกล้คุณ",
   "Breathe deeply": "หายใจเข้าลึกๆ",
-  "Savour your food": "ลิ้มรสอาหารของคุณอย่างเต็มที่",
-  "Savour a drink": "ดื่มด่ำกับเครื่องดื่ม",
-  "Take a short walk": "เดินเล่นสักครู่",
-  "Hold a piece of ice": "ถือก้อนน้ำแข็งไว้",
-  "Savour a scent": "ดื่มด่ำกับกลิ่นหอม",
+  "Savour your food": "ลิ้มรสอาหารของคุณ",
+  "Savour a drink": "ลิ้มรสเครื่องดื่ม",
+  "Take a short walk": "เดินไปไม่ไกล",
+  "Hold a piece of ice": "ถือน้ําแข็ง",
+  "Savour a scent": "ลิ้มรสกลิ่นหอม",
   "Move your body": "ขยับร่างกายของคุณ",
-  "Listen to your surroundings": "ลองฟังเสียงรอบข้าง",
-  "Check in with your body": "สังเกตอาการของร่างกายของคุณ",
-  "Is it smooth or rough? Heavy or light?": "ผิวเรียบหรือหยาบ? หนักหรือเบา?",
+  "Listen to your surroundings": "ฟังสิ่งรอบข้าง",
+  "Check in with your body": "ตรวจสอบร่างกายของคุณ",
+  "Run your hands under cool or warm water": {
+    "": "ใช้มือของคุณใต้น้ําเย็นหรือน้ําอุ่น"
+  },
+  "Notice the temperature": {
+    "": "สังเกตอุณหภูมิ"
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "ใส่ใจกับความรู้สึกบนผิวของคุณ"
+  },
+  "Observe how it changes moment by moment": {
+    "": "สังเกตว่ามันเปลี่ยนแปลงไปอย่างไรในแต่ละช่วงเวลา"
+  },
+  "Let your breathing slow naturally": {
+    "": "ปล่อยให้การหายใจของคุณช้าลงอย่างเป็นธรรมชาติ"
+  },
+  "Choose a nearby object": {
+    "": "เลือกวัตถุที่อยู่ใกล้เคียง"
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "สังเกตพื้นผิว น้ําหนัก และอุณหภูมิ"
+  },
+  "Is it smooth or rough? Heavy or light?": "มันเรียบหรือหยาบ? หนักหรือเบา?",
+  "Let your focus stay fully on this one object": {
+    "": "ปล่อยให้โฟกัสของคุณอยู่กับวัตถุชิ้นเดียวนี้อย่างเต็มที่"
+  },
+  "Take a slow breath in through your nose": {
+    "": "หายใจเข้าช้าๆ ทางจมูก"
+  },
+  "Hold gently for a moment": {
+    "": "กดค้างไว้เบา ๆ สักครู่"
+  },
+  "Exhale slowly through your mouth": {
+    "": "หายใจออกช้าๆ ทางปาก"
+  },
+  "Repeat several times": {
+    "": "ทําซ้ําหลาย ๆ ครั้ง"
+  },
+  "Let your shoulders soften": {
+    "": "ปล่อยให้ไหล่ของคุณนุ่มขึ้น"
+  },
+  "Take a small bite": {
+    "": "กัดเล็กน้อย"
+  },
+  "Chew slowly": {
+    "": "เคี้ยวช้าๆ"
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "สังเกตรสชาติ เนื้อสัมผัส และอุณหภูมิ"
+  },
+  "Stay fully present with the experience": {
+    "": "อยู่กับประสบการณ์อย่างเต็มที่"
+  },
+  "Take a slow sip": {
+    "": "จิบช้าๆ"
+  },
+  "Notice the temperature and taste": {
+    "": "สังเกตอุณหภูมิและรสชาติ"
+  },
+  "Feel the sensation as you swallow": {
+    "": "สัมผัสความรู้สึกขณะกลืน"
+  },
+  "Let yourself stay with that moment": {
+    "": "ปล่อยให้ตัวเองอยู่กับช่วงเวลานั้น"
+  },
+  "Walk slowly and intentionally": {
+    "": "เดินช้าๆ และตั้งใจ"
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "สังเกตความรู้สึกที่เท้าของคุณแตะพื้น"
+  },
+  "Observe your surroundings without judgment": {
+    "": "สังเกตสิ่งรอบข้างของคุณโดยไม่ตัดสิน"
+  },
+  "Let your breath match your steps": {
+    "": "ปล่อยให้ลมหายใจของคุณตรงกับก้าวของคุณ"
+  },
+  "Hold the ice in your hand": {
+    "": "ถือน้ําแข็งไว้ในมือ"
+  },
+  "Notice the cold sensation": {
+    "": "สังเกตความรู้สึกหนาวเย็น"
+  },
+  "Focus fully on the feeling": {
+    "": "จดจ่อกับความรู้สึกอย่างเต็มที่"
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "ปล่อยให้ความรู้สึกที่รุนแรงยึดคุณไว้กับปัจจุบัน"
+  },
+  "Choose a scent nearby": {
+    "": "เลือกกลิ่นใกล้เคียง"
+  },
+  "Inhale slowly": {
+    "": "หายใจเข้าช้าๆ"
+  },
+  "Notice how it feels in your body": {
+    "": "สังเกตว่ามันรู้สึกอย่างไรในร่างกายของคุณ"
+  },
+  "Let the scent bring you into this moment": {
+    "": "ให้กลิ่นพาคุณเข้าสู่ช่วงเวลานี้"
+  },
+  "Stretch gently": {
+    "": "ยืดเบา ๆ"
+  },
+  "Roll your shoulders": {
+    "": "ม้วนไหล่ของคุณ"
+  },
+  "Shift your weight from side to side": {
+    "": "เปลี่ยนน้ําหนักของคุณจากด้านหนึ่งไปอีกด้านหนึ่ง"
+  },
+  "Notice how your body feels as it moves": {
+    "": "สังเกตว่าร่างกายของคุณรู้สึกอย่างไรขณะเคลื่อนไหว"
+  },
+  "Pause and listen": {
+    "": "หยุดชั่วคราวและฟัง"
+  },
+  "Identify three distinct sounds": {
+    "": "ระบุเสียงที่แตกต่างกันสามเสียง"
+  },
   "Are they near or far?": "พวกเขาอยู่ใกล้หรือไกล?",
+  "Let your attention rest on each one": {
+    "": "ให้ความสนใจของคุณอยู่ที่แต่ละคน"
+  },
+  "Close your eyes if comfortable": {
+    "": "หลับตาถ้าสบาย"
+  },
+  "Scan from head to toe": {
+    "": "สแกนตั้งแต่หัวจรดเท้า"
+  },
+  "Notice areas of tension or ease": {
+    "": "สังเกตบริเวณที่ตึงเครียดหรือผ่อนคลาย"
+  },
+  "Breathe into any tightness": {
+    "": "หายใจเข้าในความตึงเครียด"
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "เริ่มต้นใช้งาน",
     "start_over": "เริ่มต้นใหม่",
-    "finish_exit": "เสร็จสิ้นและออก",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "เวลาที่ใช้ในการดำเนินการให้เสร็จสิ้น",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "แบ่งปัน",
-    "share_progress": "แชร์ความคืบหน้า",
-    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นในวันนี้",
-    "share_text": "ฉันได้ทำกิจกรรมนี้ {{activityName}} ใน TherapyMantra แล้วและรู้สึกสนุกมาก คุณก็ลองทำได้เช่นกัน เพียงแค่คลิกลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป iOS {{iosUrl}}",
+    "finish_exit": "เสร็จสิ้น & ออก",
+    "well_done": "ทําได้ดี!",
+    "completion_message": "คุณทํากิจกรรมนี้สําเร็จแล้ว ใช้เวลาสักครู่เพื่อชื่นชมความก้าวหน้าของคุณ",
+    "time_to_complete": "เวลาที่จะเสร็จสมบูรณ์",
+    "back": "ย้อนกลับ",
+    "next": "ต่อไป",
+    "save": "บันทึก",
+    "loading": "กําลังโหลด...",
+    "share": "ใช้ร่วมกัน",
+    "share_progress": "แบ่งปันความคืบหน้า",
+    "inspire_others": "สร้างแรงบันดาลใจให้ผู้อื่นวันนี้",
+    "share_text": "ฉันได้ทําสิ่งนี้ {{activityName}} ใน TherapyMantra และสนุกกับมันจริงๆ คุณสามารถทําได้เช่นกัน เพียงแค่ไปที่ลิงก์ไปยังแอป Android {{androidUrl}} หรือแอป ios {{iosUrl}}",
     "this_activity": "กิจกรรมนี้",
     "copied": "คัดลอกแล้ว!",
     "copy_message": "คัดลอกข้อความ",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "ใช่",
+    "no": "ไม่",
+    "date": "วันที่",
+    "continue": "ดําเนินการต่อ",
+    "step_of": "ขั้นตอน {{current}} ของ {{total}}",
+    "round_of": "รอบ {{current}} ของ {{total}}",
+    "phase_label": "เฟส",
+    "rounds_selector": "{{นับ}} รอบ",
+    "instruction_ready": "ตั้งค่ารอบของคุณแล้วแตะเล่นเพื่อเริ่มต้น",
+    "instruction_running": "เดินตามวงกลมเพื่อควบคุมลมหายใจของคุณ"
   },
-  "app_title": "การต่อสายดิน",
-  "app_description": "การต่อสายดิน",
+  "app_title": "สายดิน",
+  "app_description": "สายดิน",
   "change_language": "เปลี่ยนภาษา",
-  "search_language": "ค้นหาภาษา...",
+  "search_language": "ภาษาค้นหา...",
   "more": "มากกว่า",
-  "breadcrumb": "เศษขนมปัง",
+  "breadcrumb": "เกล็ดขนมปัง",
   "previous_slide": "สไลด์ก่อนหน้า",
   "next_slide": "สไลด์ถัดไป",
   "close": "ปิด",
   "previous": "ก่อนหน้า",
   "more_pages": "หน้าเพิ่มเติม",
   "pagination": "การแบ่งหน้า",
-  "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+  "go_to_previous_page": "ไปที่หน้าก่อนหน้า",
   "go_to_next_page": "ไปยังหน้าถัดไป",
   "toggle_sidebar": "สลับแถบด้านข้าง",
   "stay_present": "อยู่กับปัจจุบัน",
-  "oops_page_not_found": "ขออภัย! ไม่พบหน้าเว็บ",
-  "return_to_home": "กลับสู่หน้าแรก",
-  "grounding_technique": "เทคนิคการลงดิน",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "oops_page_not_found": "อ๊ะ! ไม่พบหน้า",
+  "return_to_home": "กลับไปที่บ้าน",
+  "grounding_technique": "เทคนิคการต่อสายดิน",
+  "phase_label": "เฟส",
+  "instruction_ready": "ตั้งค่ารอบของคุณแล้วแตะเล่นเพื่อเริ่มต้น",
+  "instruction_running": "เดินตามวงกลมเพื่อควบคุมลมหายใจของคุณ",
+  "round_x_of_y": "รอบ {{current}} ของ {{total}}",
+  "rounds_selector": "{{นับ}} รอบ",
+  "yes": "ใช่",
+  "no": "ไม่",
+  "date": "วันที่",
+  "continue": "ดําเนินการต่อ"
 }

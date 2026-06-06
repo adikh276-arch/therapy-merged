@@ -1,5 +1,11 @@
 {
   "Grounding": "గ్రౌండింగ్",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "గ్రౌండింగ్ పద్ధతులు మీ దృష్టిని ప్రస్తుత క్షణానికి తిరిగి తీసుకురావడానికి సహాయపడతాయి."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "ప్రస్తుతం సపోర్టింగ్ గా అనిపించే ఒక యాక్టివిటీని ఎంచుకోండి."
+  },
   "Step": "దశ",
   "Back": "వెనక్కి",
   "Next": "తరువాత",
@@ -17,109 +23,195 @@
   "Move your body": "మీ శరీరాన్ని కదిలించండి",
   "Listen to your surroundings": "మీ పరిసరాలను వినండి",
   "Check in with your body": "మీ శరీరంతో చెక్ ఇన్ చేయండి",
+  "Run your hands under cool or warm water": {
+    "": "చల్లటి లేదా గోరువెచ్చని నీటిలో మీ చేతులను నడపండి."
+  },
+  "Notice the temperature": {
+    "": "ఉష్ణోగ్రతను గమనించండి."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "మీ చర్మంపై ఉన్న అనుభూతిపై శ్రద్ధ వహించండి."
+  },
+  "Observe how it changes moment by moment": {
+    "": "ఇది క్షణం క్షణం ఎలా మారుతుందో గమనించండి."
+  },
+  "Let your breathing slow naturally": {
+    "": "మీ శ్వాస సహజంగా నెమ్మదిగా ఉండనివ్వండి."
+  },
+  "Choose a nearby object": {
+    "": "సమీపంలో ఉన్న ఆబ్జెక్ట్ ను ఎంచుకోండి."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "దాని ఆకృతి, బరువు మరియు ఉష్ణోగ్రతను గమనించండి."
+  },
   "Is it smooth or rough? Heavy or light?": "ఇది మృదువుగా లేదా గరుకుగా ఉందా? భారీగా లేదా తేలికైనదా?",
+  "Let your focus stay fully on this one object": {
+    "": "ఈ ఒక్క వస్తువుపై మీ దృష్టి పూర్తిగా ఉండనివ్వండి."
+  },
+  "Take a slow breath in through your nose": {
+    "": "మీ ముక్కు ద్వారా నెమ్మదిగా శ్వాస తీసుకోండి."
+  },
+  "Hold gently for a moment": {
+    "": "ఒక్క క్షణం మృదువుగా పట్టుకోండి."
+  },
+  "Exhale slowly through your mouth": {
+    "": "మీ నోటి ద్వారా నెమ్మదిగా శ్వాస వదలండి."
+  },
+  "Repeat several times": {
+    "": "అనేకసార్లు పునరావృతం చేయండి."
+  },
+  "Let your shoulders soften": {
+    "": "మీ భుజాలు మృదువుగా ఉండనివ్వండి."
+  },
+  "Take a small bite": {
+    "": "ఒక చిన్న కాటు తీసుకోండి."
+  },
+  "Chew slowly": {
+    "": "నెమ్మదిగా నమలండి."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "రుచి, ఆకృతి మరియు ఉష్ణోగ్రతను గమనించండి."
+  },
+  "Stay fully present with the experience": {
+    "": "అనుభవంతో పూర్తిగా ఉండండి."
+  },
+  "Take a slow sip": {
+    "": "నెమ్మదిగా సిప్ తీసుకోండి."
+  },
+  "Notice the temperature and taste": {
+    "": "ఉష్ణోగ్రత మరియు రుచిని గమనించండి."
+  },
+  "Feel the sensation as you swallow": {
+    "": "మీరు మింగేటప్పుడు అనుభూతి చెందండి."
+  },
+  "Let yourself stay with that moment": {
+    "": "ఆ క్షణంతో మిమ్మల్ని మీరు ఉండనివ్వండి."
+  },
+  "Walk slowly and intentionally": {
+    "": "నెమ్మదిగా మరియు ఉద్దేశ్యపూర్వకంగా నడవండి."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "మీ పాదాలు నేలను తాకుతున్న అనుభూతిని గమనించండి."
+  },
+  "Observe your surroundings without judgment": {
+    "": "తీర్పు లేకుండా మీ పరిసరాలను గమనించండి."
+  },
+  "Let your breath match your steps": {
+    "": "మీ శ్వాస మీ అడుగులతో సరిపోలనివ్వండి."
+  },
+  "Hold the ice in your hand": {
+    "": "మంచును మీ చేతిలో పట్టుకోండి."
+  },
+  "Notice the cold sensation": {
+    "": "చల్లని అనుభూతిని గమనించండి."
+  },
+  "Focus fully on the feeling": {
+    "": "అనుభూతిపై పూర్తిగా దృష్టి పెట్టండి."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "బలమైన అనుభూతి మిమ్మల్ని ప్రస్తుతానికి లంగరు వేయడానికి అనుమతించండి."
+  },
+  "Choose a scent nearby": {
+    "": "సమీపంలో ఉన్న సువాసనను ఎంచుకోండి."
+  },
+  "Inhale slowly": {
+    "": "నెమ్మదిగా శ్వాస తీసుకోండి."
+  },
+  "Notice how it feels in your body": {
+    "": "ఇది మీ శరీరంలో ఎలా అనిపిస్తుందో గమనించండి."
+  },
+  "Let the scent bring you into this moment": {
+    "": "సువాసన మిమ్మల్ని ఈ క్షణంలోకి తీసుకురానివ్వండి."
+  },
+  "Stretch gently": {
+    "": "సున్నితంగా సాగదీయండి."
+  },
+  "Roll your shoulders": {
+    "": "మీ భుజాలను రోల్ చేయండి."
+  },
+  "Shift your weight from side to side": {
+    "": "మీ బరువును ఒక వైపు నుండి మరొక వైపుకు మార్చండి."
+  },
+  "Notice how your body feels as it moves": {
+    "": "మీ శరీరం కదులుతున్నప్పుడు ఎలా అనిపిస్తుందో గమనించండి."
+  },
+  "Pause and listen": {
+    "": "విరామం మరియు వినండి."
+  },
+  "Identify three distinct sounds": {
+    "": "మూడు విభిన్న ధ్వనులను గుర్తించండి."
+  },
   "Are they near or far?": "అవి దగ్గరగా ఉన్నాయా లేదా దూరంగా ఉన్నాయా?",
+  "Let your attention rest on each one": {
+    "": "మీ దృష్టిని ప్రతి ఒక్కరిపై ఉంచనివ్వండి."
+  },
+  "Close your eyes if comfortable": {
+    "": "సౌకర్యవంతంగా ఉంటే మీ కళ్లు మూసుకోండి."
+  },
+  "Scan from head to toe": {
+    "": "తల నుంచి కాలి వరకు స్కాన్ చేయండి."
+  },
+  "Notice areas of tension or ease": {
+    "": "టెన్షన్ లేదా తేలికగా ఉన్న ప్రాంతాలను గమనించండి."
+  },
+  "Breathe into any tightness": {
+    "": "ఏదైనా బిగుతుగా ఊపిరి పీల్చుకోండి."
+  },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "మళ్ళీ ప్రారంభించండి",
-    "finish_exit": "ముగించి నిష్క్రమించండి",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "get_started": "ప్రారంభించండి",
+    "start_over": "మళ్లీ ప్రారంభించండి",
+    "finish_exit": "ఫినిష్ & ఎగ్జిట్",
+    "well_done": "బాగుంది!",
+    "completion_message": "మీరు ఈ యాక్టివిటీని విజయవంతంగా పూర్తి చేశారు. మీ పురోగతిని అభినందించడానికి ఒక్క క్షణం తీసుకోండి.",
     "time_to_complete": "పూర్తి చేయడానికి సమయం",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "పంచుకోండి",
+    "back": "వెనక్కి",
+    "next": "తరువాత",
+    "save": "సేవ్ చేయి",
+    "loading": "లోడ్ అవుతోంది...",
+    "share": "భాగస్వామ్యం",
     "share_progress": "పురోగతిని పంచుకోండి",
-    "inspire_others": "ఈరోజు ఇతరులకు స్ఫూర్తినివ్వండి",
-    "share_text": "నేను థెరపీమంత్రలో ఈ {{activityName}} చేశాను మరియు నాకు ఇది చాలా నచ్చింది. మీరు కూడా దీన్ని చేయవచ్చు, కేవలం ఈ లింక్‌ను అనుసరించండి: ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా ఐఓఎస్ యాప్ {{iosUrl}}",
+    "inspire_others": "ఈ రోజు ఇతరులకు స్ఫూర్తినివ్వండి",
+    "share_text": "నేను దీనిని TherapyMantra లో {{activityName}} చేశాను మరియు దీనిని నిజంగా ఆస్వాదించాను, మీరు కూడా దీనిని చేయవచ్చు, ఆండ్రాయిడ్ యాప్ {{androidUrl}} లేదా iOS యాప్ {{iosUrl}} లింక్ ని అనుసరించండి.",
     "this_activity": "ఈ కార్యాచరణ",
     "copied": "కాపీ చేయబడింది!",
-    "copy_message": "సందేశాన్ని కాపీ చేయండి",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "copy_message": "సందేశాన్ని కాపీ చేయి",
+    "yes": "అవును",
+    "no": "లేదు",
+    "date": "తేదీ",
+    "continue": "కొనసాగించండి",
+    "step_of": "{{total}} యొక్క దశ {{current}}",
+    "round_of": "{{total}} యొక్క రౌండ్ {{current}}",
+    "phase_label": "దశ",
+    "rounds_selector": "{{count}} రౌండ్లు",
+    "instruction_ready": "మీ రౌండ్ లను సెట్ చేయండి మరియు ప్రారంభించడం కొరకు ప్లే మీద తట్టండి.",
+    "instruction_running": "మీ శ్వాసను నియంత్రించడానికి వృత్తాన్ని అనుసరించండి"
   },
   "app_title": "గ్రౌండింగ్",
   "app_description": "గ్రౌండింగ్",
   "change_language": "భాషను మార్చండి",
-  "search_language": "శోధన భాష...",
+  "search_language": "భాషను శోధించండి...",
   "more": "మరిన్ని",
-  "breadcrumb": "బ్రెడ్‌క్రంబ్",
+  "breadcrumb": "బ్రెడ్ క్రంబ్",
   "previous_slide": "మునుపటి స్లైడ్",
   "next_slide": "తదుపరి స్లైడ్",
   "close": "మూసివేయండి",
   "previous": "మునుపటి",
   "more_pages": "మరిన్ని పేజీలు",
-  "pagination": "పేజీల సంఖ్య",
+  "pagination": "పేజినేషన్",
   "go_to_previous_page": "మునుపటి పేజీకి వెళ్లండి",
-  "go_to_next_page": "తదుపరి పేజీకి వెళ్లండి",
-  "toggle_sidebar": "సైడ్‌బార్‌ను టోగుల్ చేయండి",
-  "stay_present": "ప్రస్తుతం ఉండండి",
+  "go_to_next_page": "తరువాత పేజీకి వెళ్లండి",
+  "toggle_sidebar": "సైడ్ బార్ టోగుల్ చేయండి",
+  "stay_present": "హాజరుగా ఉండండి",
   "oops_page_not_found": "అయ్యో! పేజీ కనుగొనబడలేదు",
-  "return_to_home": "హోమ్‌కు తిరిగి వెళ్లండి",
+  "return_to_home": "ఇంటికి తిరిగి వెళ్లండి",
   "grounding_technique": "గ్రౌండింగ్ టెక్నిక్",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "దశ",
+  "instruction_ready": "మీ రౌండ్ లను సెట్ చేయండి మరియు ప్రారంభించడం కొరకు ప్లే మీద తట్టండి.",
+  "instruction_running": "మీ శ్వాసను నియంత్రించడానికి వృత్తాన్ని అనుసరించండి",
+  "round_x_of_y": "{{total}} యొక్క రౌండ్ {{current}}",
+  "rounds_selector": "{{count}} రౌండ్లు",
+  "yes": "అవును",
+  "no": "లేదు",
+  "date": "తేదీ",
+  "continue": "కొనసాగించండి"
 }

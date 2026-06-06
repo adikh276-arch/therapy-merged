@@ -1,5 +1,11 @@
 {
   "Grounding": "הארקה",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "טכניקות עיגון עוזרות להחזיר את תשומת הלב לרגע הנוכחי."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "בחר פעילות אחת שמרגישה תומכת כרגע."
+  },
   "Step": "צעד",
   "Back": "חזרה",
   "Next": "הבא",
@@ -17,109 +23,195 @@
   "Move your body": "תזיז את הגוף שלך",
   "Listen to your surroundings": "הקשב לסביבה שלך",
   "Check in with your body": "בדוק את הגוף שלך",
-  "Is it smooth or rough? Heavy or light?": "האם הוא חלק או מחוספס? כבד או קל?",
-  "Are they near or far?": "האם הם קרובים או רחוקים?",
-  "common": {
-    "get_started": "Get Started",
-    "start_over": "התחל מחדש",
-    "finish_exit": "סיום ויציאה",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "זמן להשלים",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "לַחֲלוֹק",
-    "share_progress": "שתף התקדמות",
-    "inspire_others": "תנו השראה לאחרים היום",
-    "share_text": "עשיתי את זה ב-TherapyMantra ואני ממש נהנה מזה, גם אתם יכולים לעשות את זה פשוט עקבו אחר הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
-    "this_activity": "פעילות זו",
-    "copied": "מוּעֲתָק!",
-    "copy_message": "העתקת הודעה",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+  "Run your hands under cool or warm water": {
+    "": "רח את הידיים במים קרים או חמים."
   },
-  "app_title": "הַאֲרָקָה",
-  "app_description": "הַאֲרָקָה",
-  "change_language": "שנה שפה",
+  "Notice the temperature": {
+    "": "שים לב לטמפרטורה."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "שים לב לתחושה על העור שלך."
+  },
+  "Observe how it changes moment by moment": {
+    "": "שימו לב איך זה משתנה רגע אחרי רגע."
+  },
+  "Let your breathing slow naturally": {
+    "": "תן לנשימה שלך להאט באופן טבעי."
+  },
+  "Choose a nearby object": {
+    "": "בחר אובייקט קרוב."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "שימו לב למרקם, למשקל ולטמפרטורה שלו."
+  },
+  "Is it smooth or rough? Heavy or light?": "האם הוא חלק או מחוספס? כבד או קל?",
+  "Let your focus stay fully on this one object": {
+    "": "תן לריכוז שלך להישאר כולו על האובייקט הזה."
+  },
+  "Take a slow breath in through your nose": {
+    "": "קח נשימה איטית דרך האף."
+  },
+  "Hold gently for a moment": {
+    "": "תחזיק בעדינות רגע."
+  },
+  "Exhale slowly through your mouth": {
+    "": "נשוף לאט דרך הפה."
+  },
+  "Repeat several times": {
+    "": "חזור על זה כמה פעמים."
+  },
+  "Let your shoulders soften": {
+    "": "תן לכתפיים שלך להתרכך."
+  },
+  "Take a small bite": {
+    "": "קח ביס קטן."
+  },
+  "Chew slowly": {
+    "": "ללעוס לאט."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "שימו לב לטעם, למרקם ולטמפרטורה."
+  },
+  "Stay fully present with the experience": {
+    "": "הישארו נוכחים לחלוטין עם החוויה."
+  },
+  "Take a slow sip": {
+    "": "קח לגימה איטית."
+  },
+  "Notice the temperature and taste": {
+    "": "שים לב לטמפרטורה ולטעם."
+  },
+  "Feel the sensation as you swallow": {
+    "": "תרגיש את התחושה כשאתה בולע רוק."
+  },
+  "Let yourself stay with that moment": {
+    "": "תן לעצמך להישאר עם הרגע הזה."
+  },
+  "Walk slowly and intentionally": {
+    "": "לך לאט ובכוונה."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "שים לב לתחושת הרגליים שלך נוגעות בקרקע."
+  },
+  "Observe your surroundings without judgment": {
+    "": "התבונן בסביבה שלך ללא שיפוטיות."
+  },
+  "Let your breath match your steps": {
+    "": "תן לנשימה שלך להתאים את הצעדים שלך."
+  },
+  "Hold the ice in your hand": {
+    "": "תחזיק את הקרח ביד."
+  },
+  "Notice the cold sensation": {
+    "": "שים לב לתחושת הקור."
+  },
+  "Focus fully on the feeling": {
+    "": "תתמקד במלואו בתחושה."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "תן לתחושה החזקה לעגן אותך להווה."
+  },
+  "Choose a scent nearby": {
+    "": "בחר ריח קרוב."
+  },
+  "Inhale slowly": {
+    "": "שאף לאט."
+  },
+  "Notice how it feels in your body": {
+    "": "שים לב איך זה מרגיש בגוף שלך."
+  },
+  "Let the scent bring you into this moment": {
+    "": "תן לריח למשוך אותך לרגע הזה."
+  },
+  "Stretch gently": {
+    "": "מתוח בעדינות."
+  },
+  "Roll your shoulders": {
+    "": "גלגל את הכתפיים."
+  },
+  "Shift your weight from side to side": {
+    "": "הזז את המשקל מצד לצד."
+  },
+  "Notice how your body feels as it moves": {
+    "": "שים לב איך הגוף שלך מרגיש כשהוא זז."
+  },
+  "Pause and listen": {
+    "": "עצור והאזין."
+  },
+  "Identify three distinct sounds": {
+    "": "זהה שלושה צלילים מובחנים."
+  },
+  "Are they near or far?": "האם הם קרובים או רחוקים?",
+  "Let your attention rest on each one": {
+    "": "תן לתשומת הלב שלך לנוח על כל אחד מהם."
+  },
+  "Close your eyes if comfortable": {
+    "": "עצום עיניים אם נוח לך."
+  },
+  "Scan from head to toe": {
+    "": "סריקה מראש ועד רגליים."
+  },
+  "Notice areas of tension or ease": {
+    "": "שים לב לאזורי מתח או הקלה."
+  },
+  "Breathe into any tightness": {
+    "": "תנשום לכל תחושת צפוף."
+  },
+  "common": {
+    "get_started": "תתחילו",
+    "start_over": "התחלה מחדש",
+    "finish_exit": "סיום ויציאה",
+    "well_done": "כל הכבוד!",
+    "completion_message": "השלמת את הפעילות הזו בהצלחה. קח רגע להעריך את ההתקדמות שלך.",
+    "time_to_complete": "הגיע הזמן להשלים",
+    "back": "חזרה",
+    "next": "הבא",
+    "save": "שמור",
+    "loading": "טוען...",
+    "share": "שתף",
+    "share_progress": "שתפו התקדמות",
+    "inspire_others": "השראה לאחרים היום",
+    "share_text": "עשיתי את זה {{activityName}} ב-TherapyMantra ואני ממש נהנה מזה, אתה יכול לעשות את זה גם, פשוט עקוב אחרי הקישור לאפליקציית האנדרואיד {{androidUrl}} או לאפליקציית iOS {{iosUrl}}",
+    "this_activity": "פעילות זו",
+    "copied": "הועתק!",
+    "copy_message": "העתק הודעה",
+    "yes": "כן",
+    "no": "לא",
+    "date": "תאריך",
+    "continue": "המשך",
+    "step_of": "שלב {{current}} של {{total}}",
+    "round_of": "סיבוב {{current}} של {{total}}",
+    "phase_label": "שלב",
+    "rounds_selector": "{{ספירה}} סבבים",
+    "instruction_ready": "הגדר את הסיבובים והמשחק שלך כדי להתחיל",
+    "instruction_running": "עקבו אחרי המעגל כדי לווסת את הנשימה שלכם"
+  },
+  "app_title": "הארקה",
+  "app_description": "הארקה",
+  "change_language": "שינוי שפה",
   "search_language": "שפת חיפוש...",
-  "more": "יוֹתֵר",
+  "more": "עוד",
   "breadcrumb": "פירורי לחם",
   "previous_slide": "שקופית קודמת",
-  "next_slide": "השקופית הבאה",
-  "close": "לִסְגוֹר",
-  "previous": "קוֹדֵם",
-  "more_pages": "דפים נוספים",
-  "pagination": "דִפּוּף",
+  "next_slide": "שקופית הבאה",
+  "close": "סגור",
+  "previous": "קודם",
+  "more_pages": "עוד עמודים",
+  "pagination": "עמודים",
   "go_to_previous_page": "עבור לעמוד הקודם",
   "go_to_next_page": "עבור לעמוד הבא",
-  "toggle_sidebar": "הפעלה/כיבוי סרגל צד",
-  "stay_present": "הישאר נוכח",
-  "oops_page_not_found": "אופס! הדף לא נמצא",
-  "return_to_home": "חזרה לבית",
+  "toggle_sidebar": "החלפת סרגל צד",
+  "stay_present": "הישארו נוכחים",
+  "oops_page_not_found": "אופס! העמוד לא נמצא",
+  "return_to_home": "חזרה הביתה",
   "grounding_technique": "טכניקת הארקה",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "phase_label": "שלב",
+  "instruction_ready": "הגדר את הסיבובים והמשחק שלך כדי להתחיל",
+  "instruction_running": "עקבו אחרי המעגל כדי לווסת את הנשימה שלכם",
+  "round_x_of_y": "סיבוב {{current}} של {{total}}",
+  "rounds_selector": "{{ספירה}} סבבים",
+  "yes": "כן",
+  "no": "לא",
+  "date": "תאריך",
+  "continue": "המשך"
 }

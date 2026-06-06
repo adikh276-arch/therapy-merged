@@ -1,177 +1,177 @@
 {
   "app_title": "睡眠周期指南",
-  "pill_labels": [
-    "介绍",
-    "四个阶段",
-    "昏昏沉沉的真相",
-    "你呢？"
-  ],
+  "pill_labels": {
+    "0": "简介",
+    "1": "四个阶段",
+    "2": "迷迷糊糊的真相",
+    "3": "你呢？"
+  },
   "s1": {
-    "title": "你有没有睡了8个小时却仍然感觉很糟糕的经历？",
-    "p1": "这与你睡了多久无关。",
-    "p2": "这指的是你在睡眠周期的哪个阶段醒来。",
-    "p3": "当你明白这一点后，一切都会改变。",
-    "insight": "💡 实际上，你的大脑在快速眼动睡眠期间比完全清醒时更加活跃！",
-    "duration": "只需3分钟，却能持续一生",
-    "button": "等等，真的吗？跟我说说吧 →"
+    "title": "有没有睡了8个小时还是觉得很糟糕？",
+    "p1": "这不是<1>睡多久</1>的问题。",
+    "p2": "大约是在睡眠周期的<1>哪里</1>你醒来。",
+    "p3": "当你明白这一点时，有一件事会改变——一切都变了。",
+    "insight": "💡 实际上，你的大脑在快速眼动睡眠期间比完全清醒时更活跃！",
+    "duration": "只需3分钟·持续一生",
+    "button": "等等，真的吗？告诉我更多→"
   },
   "s2": {
-    "title": "你的大脑每晚都会做这件事🌀",
-    "desc": "每隔90分钟，你的大脑就会循环经历4个阶段——就像一个循环播放的歌单。点击每个阶段进行探索👇",
-    "stages": [
-      {
+    "title": "你的大脑每晚🌀都会这样做",
+    "desc": "每90分钟，你的大脑会经历四个阶段——就像一个不断重复播放的播放列表。点击每个页面即可探索 👇",
+    "stages": {
+      "0": {
         "emoji": "🌊",
-        "title": "浅睡眠",
-        "tag": "1-5分钟 · 容易唤醒",
-        "body": "你快要睡着了。身体开始放松，肌肉可能会抽搐。从这种状态很容易醒来。"
+        "title": "浅睡",
+        "tag": "1–5分钟 ·很容易被唤醒",
+        "body": "你快打瞌睡了。身体开始放松，肌肉可能会抽搐。从这里很容易醒来。"
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "安顿下来",
-        "tag": "10-25分钟 · 真正入睡",
-        "body": "心率减慢，体温下降。你正式入睡了——大脑活动开始减缓。"
+        "tag": "10–25分钟 ·真正入睡",
+        "body": "心率变慢，体温下降。你已经真正入睡了——大脑活动开始减缓。"
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "深度睡眠 ⭐",
-        "tag": "20-40分钟 · 黄金",
-        "body": "身体修复组织，增强免疫力。这是身体恢复最彻底的阶段——很难从中醒来。"
+        "tag": "20–40分钟 ·黄金",
+        "body": "身体修复组织，增强免疫力。这是身体上最需要恢复的阶段——很难醒来。"
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "快速眼动睡眠",
-        "tag": "10-60分钟 · 梦境模式",
-        "body": "大脑活动频繁。情绪得到处理，记忆得以巩固。跳过这一过程会让你思维迟钝。"
+        "tag": "10–60分钟 ·梦境模式",
+        "body": "大脑充满了活动。情绪会被处理，记忆会被锁定。跳过这个会让你感到头脑混乱。"
       }
-    ],
-    "italic": "深度睡眠修复身体，快速眼动睡眠修复大脑。",
-    "button": "那我为什么还是感觉昏昏沉沉的？→"
+    },
+    "italic": "深度睡眠能修复你的身体。快速眼动睡眠能修复你的思维。",
+    "button": "那为什么我还是觉得昏昏沉沉？→"
   },
   "s3": {
-    "title": "半夜醒来 = 进入僵尸模式🧟",
-    "p1": "被闹钟从睡梦中惊醒？你的大脑其实还没完成它正在做的事情。那种昏昏沉沉、沉重的感觉？那就是<1>睡眠惯性</1>。",
+    "title": "中途醒来 = 僵尸模式 🧟",
+    "p1": "被闹钟从深度睡眠中拉醒？你的大脑根本还没完成它正在做的事情。那种迷雾沉重的感觉？那就是<1>睡眠惯性</1>。",
     "wave": {
       "light": "光",
-      "deep": "深的",
+      "deep": "深沉",
       "groggy": "😫 昏昏沉沉",
       "fresh": "😊 新鲜",
-      "cycles": [
-        "第一周期",
-        "第二周期",
-        "周期 3"
-      ]
+      "cycles": {
+        "0": "第一季",
+        "1": "第二季",
+        "2": "第三季"
+      }
     },
-    "disruptors_title": "什么会扰乱你的生理周期👇",
-    "disruptors": [
-      {
+    "disruptors_title": "什么会扰乱你的月经周期 👇",
+    "disruptors": {
+      "0": {
         "emoji": "📱",
-        "text": "睡前看屏幕",
+        "text": "睡前屏幕",
         "sub": "延迟深度睡眠"
       },
-      {
+      "1": {
         "emoji": "☕",
-        "text": "迟来的咖啡因",
-        "sub": "深度睡眠减少高达20%。"
+        "text": "晚咖啡因",
+        "sub": "深度睡眠减少多达20%"
       },
-      {
+      "2": {
         "emoji": "⏰",
-        "text": "睡眠时间不规律",
-        "sub": "打破你的自然节奏"
+        "text": "不规律的睡眠时间",
+        "sub": "打乱你的自然节奏"
       },
-      {
+      "3": {
         "emoji": "😰",
-        "text": "压力和焦虑",
-        "sub": "让你一直处于浅睡眠状态"
+        "text": "压力与焦虑",
+        "sub": "让你一直处于浅眠状态"
       }
-    ],
-    "italic": "你的习惯直接决定你最终能达到哪个阶段。",
+    },
+    "italic": "你的习惯直接决定你达到的阶段。",
     "button": "这对我意味着什么？→"
   },
   "s4": {
     "title": "哪个听起来像你？👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
-        "text": "我醒来时感觉身体非常疲惫。",
-        "sub": "可能错过了深度睡眠",
-        "tip": "注重保持规律的作息时间——你的身体需要规律的节奏才能进入深度睡眠。"
+        "text": "我醒来时身体已经筋疲力尽",
+        "sub": "很可能是错过了深度睡眠",
+        "tip": "关注固定的睡眠和清醒时间——你的身体需要规律的节奏才能进入深度睡眠。"
       },
-      {
+      "1": {
         "emoji": "🌫️",
-        "text": "我感觉情绪低落或情绪低落。",
-        "sub": "可能错过了快速眼动睡眠",
-        "tip": "尝试在睡前 30 分钟放松身心——平静的睡前习惯可以保护你的快速眼动睡眠。"
+        "text": "我感觉情绪迷糊或情绪低落",
+        "sub": "很可能错过了快速眼动睡眠",
+        "tip": "试着睡前30分钟放松——一个平静的睡前例行程序能保护你的快速眼动睡眠。"
       },
-      {
+      "2": {
         "emoji": "😤",
-        "text": "我夜里经常醒来",
-        "sub": "循环不断被打断",
-        "tip": "凉爽、黑暗、安静的房间有助于大脑保持深度思考状态，不受干扰。"
+        "text": "我晚上经常醒来",
+        "sub": "周期不断被打断",
+        "tip": "凉爽、昏暗且安静的房间有助于你的大脑保持在更深层次的思考中，不受干扰。"
       },
-      {
+      "3": {
         "emoji": "😐",
-        "text": "我感觉还行，但不是特别好。",
-        "sub": "循环是部分循环，但并不完整。",
-        "tip": "试着早睡20分钟——你可能只需要多睡一个完整的周期。"
+        "text": "我感觉还行，但还不算特别好",
+        "sub": "循环是部分的，但不完全的",
+        "tip": "试着提前20分钟睡觉——你可能只需要再完成一个完整的睡眠周期。"
       }
-    ],
-    "quote": "睡眠不仅仅是休息，更是积极的恢复过程。保护好你的生理周期，就能改变你一整天的状态。",
+    },
+    "quote": "睡眠不仅仅是休息——它是积极的恢复。保护你的周期和整天的变化。",
     "button": "完成 ✓"
   },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "开始",
     "start_over": "重新开始",
-    "finish_exit": "结束并退出",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "完成时间",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
+    "finish_exit": "终点与退场",
+    "well_done": "干得好！",
+    "completion_message": "你已经成功完成了这项活动。花点时间欣赏你的进步。",
+    "time_to_complete": "时间到了完成",
+    "back": "返回",
+    "next": "下一个",
+    "save": "保存",
+    "loading": "加载中......",
     "share": "分享",
-    "share_progress": "分享进度",
+    "share_progress": "分享进展",
     "inspire_others": "今天激励他人",
-    "share_text": "我在 TherapyMantra 上完成了这个 {{activityName}} 活动，非常喜欢，你也试试吧，只需点击链接下载安卓应用 {{androidUrl}} 或 iOS 应用 {{iosUrl}}。",
+    "share_text": "我在TherapyMantra里{{activityName}}做过这个，非常喜欢，你也可以这样做，只要点击链接到安卓应用{{androidUrl}}或iOS应用{{iosUrl}}}",
     "this_activity": "这项活动",
-    "copied": "已复制！",
+    "copied": "复制了！",
     "copy_message": "复制消息",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "是的",
+    "no": "不",
+    "date": "日期",
+    "continue": "继续",
+    "step_of": "{{current}} 的步骤 {{total}}",
+    "round_of": "{{current}} 轮 {{total}}",
+    "phase_label": "阶段",
+    "rounds_selector": "{{count}}回合",
+    "instruction_ready": "设置你的回合并点击播放开始",
+    "instruction_running": "跟着圆圈来调节呼吸"
   },
   "app_description": "睡眠周期指南",
-  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min(prev + 1, TOTAL_SCREENS - 1));\n\nconst goBack = () => setCurrentScreen(prev => Math.max(prev - 1, 0));\n\nconst screens = [",
+  "math_min_prev_1_total_screens_1_const_goback_setcu": "Math.min（前 + 1，TOTAL_SCREENS - 1））;\n  const goBack = （） => setCurrentScreen（前 => Math.max（前 - 1， 0））;\n\nconst screens = [",
   "it_s_not_about": "这不是关于",
-  "it_s_about": "这是关于",
-  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "被闹钟从睡梦中惊醒？你的大脑其实还没完成它正在做的事情。那种昏昏沉沉、沉重的感觉？那就是……",
-  "more": "更多的",
+  "it_s_about": "是关于",
+  "dragged_out_of_deep_sleep_by_an_alarm_your_brain_l": "被闹钟从深度睡眠中拉醒？你的大脑根本还没完成它正在做的事情。那种迷雾沉重的感觉？那是",
+  "more": "更多",
   "breadcrumb": "面包屑",
   "previous_slide": "上一张幻灯片",
   "next_slide": "下一张幻灯片",
-  "close": "关闭",
-  "previous": "以前的",
+  "close": "结束",
+  "previous": "之前",
   "more_pages": "更多页面",
   "pagination": "分页",
   "go_to_previous_page": "返回上一页",
   "go_to_next_page": "前往下一页",
   "toggle_sidebar": "切换侧边栏",
-  "oops_page_not_found": "糟糕！页面未找到",
-  "return_to_home": "返回首页",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "oops_page_not_found": "哎呀！页面未找到",
+  "return_to_home": "归乡",
+  "phase_label": "阶段",
+  "instruction_ready": "设置你的回合并点击播放开始",
+  "instruction_running": "跟着圆圈来调节呼吸",
+  "round_x_of_y": "{{current}} 轮 {{total}}",
+  "rounds_selector": "{{count}}回合",
+  "yes": "是的",
+  "no": "不",
+  "date": "日期",
+  "continue": "继续"
 }

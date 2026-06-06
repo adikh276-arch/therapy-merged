@@ -1,57 +1,57 @@
 {
   "app_title": "Safe Space",
-  "nav": [
-    "Incheckning",
-    "Varsamt minns",
-    "Observationer",
-    "Att vara närvarande",
-    "Framåt"
-  ],
+  "nav": {
+    "0": "Incheckning",
+    "1": "Varsamt minns",
+    "2": "Observationer",
+    "3": "Att vara närvarande",
+    "4": "Framåt"
+  },
   "s1": {
     "title": "Låt oss hitta en plats som känns okej",
-    "description": [
-      "Innan vi börjar, ta en stund och kolla läget...",
-      "Hur mår du just nu?",
-      "Vi letar inte efter en perfekt \"säker plats\". Bara något som känns ens lite lugnt eller okej."
-    ],
+    "description": {
+      "0": "Innan vi börjar, ta en stund och kolla läget...",
+      "1": "Hur mår du just nu?",
+      "2": "Vi letar inte efter en perfekt \"säker plats\". Bara något som känns ens lite lugnt eller okej."
+    },
     "placeholder": "Hur känner du dig just nu?",
     "button": "Börja visualisering"
   },
   "s2": {
     "title": "Tänk försiktigt på det",
-    "description": [
-      "Tänk på en plats där du kände dig ens lite lugn... eller en plats du önskar fanns där.",
-      "Placera dig där...",
-      "Sitter, står du eller ligger du ner?"
-    ],
+    "description": {
+      "0": "Tänk på en plats där du kände dig ens lite lugn... eller en plats du önskar fanns där.",
+      "1": "Placera dig där...",
+      "2": "Sitter, står du eller ligger du ner?"
+    },
     "button": "Fortsätt"
   },
   "s3": {
     "title": "Titta dig omkring långsamt",
-    "description": [
-      "Titta försiktigt runt...",
-      "Vad är en sak du kan se?",
-      "Lägg märke till ett ljud... Vad hör du?"
-    ],
+    "description": {
+      "0": "Titta försiktigt runt...",
+      "1": "Vad är en sak du kan se?",
+      "2": "Lägg märke till ett ljud... Vad hör du?"
+    },
     "button": "Fortsätt"
   },
   "s4": {
     "title": "Fortsätt med det här",
-    "description": [
-      "Vad är det med det här stället som får det att kännas ens lite tryggt eller okej?",
-      "Som du märker att...",
-      "Fokusera också på din andning."
-    ],
+    "description": {
+      "0": "Vad är det med det här stället som får det att kännas ens lite tryggt eller okej?",
+      "1": "Som du märker att...",
+      "2": "Fokusera också på din andning."
+    },
     "breathe": "Andas",
     "notice": "Om det känns svårt att föreställa sig, tänk bara på idén om den här platsen.",
     "button": "Fortsätt"
   },
   "s5": {
     "title": "Ta med dig det här",
-    "description": [
-      "Lägg märke till hur du känner just nu. Även en liten förändring spelar roll.",
-      "Se om du kan bära med dig ens 5 % av den här känslan."
-    ],
+    "description": {
+      "0": "Lägg märke till hur du känner just nu. Även en liten förändring spelar roll.",
+      "1": "Se om du kan bära med dig ens 5 % av den här känslan."
+    },
     "placeholder": "Hur mår du nu?",
     "button": "Fullständig session"
   },
@@ -60,55 +60,55 @@
     "message": "Denna trygga plats finns alltid tillgänglig för dig. Du kan återvända hit när du behöver en stunds lugn."
   },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "Börja om från början",
-    "finish_exit": "Slutför och avsluta",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "get_started": "Kom igång",
+    "start_over": "Börja om",
+    "finish_exit": "Mål och utgång",
+    "well_done": "Bra jobbat!",
+    "completion_message": "Du har framgångsrikt slutfört denna aktivitet. Ta en stund och uppskatta dina framsteg.",
     "time_to_complete": "Dags att slutföra",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "save": "Spara",
+    "loading": "Laddar...",
     "share": "Dela",
     "share_progress": "Dela framsteg",
     "inspire_others": "Inspirera andra idag",
-    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och gillar det verkligen, du kan också göra det, följ bara länken till Android-appen {{androidUrl}} eller iOS-appen {{iosUrl}}",
-    "this_activity": "den här aktiviteten",
-    "copied": "Kopierad!",
+    "share_text": "Jag har gjort detta {{activityName}} i TherapyMantra och tycker verkligen om det, du kan göra det också, följ bara länken till android-appen {{androidUrl}} eller ios-appen {{iosUrl}}",
+    "this_activity": "Denna aktivitet",
+    "copied": "Kopierat!",
     "copy_message": "Kopiera meddelande",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "Ja",
+    "no": "Nej",
+    "date": "Datum",
+    "continue": "Fortsätt",
+    "step_of": "Steg {{current}} av {{total}}",
+    "round_of": "Runda {{current}} av {{total}}",
+    "phase_label": "Fas",
+    "rounds_selector": "{{count}} Rundor",
+    "instruction_ready": "Ställ in dina rundor och tryck på play för att börja",
+    "instruction_running": "Följ cirkeln för att reglera din andning"
   },
-  "app_description": "Säkert utrymme",
+  "app_description": "Safe Space",
   "more": "Mer",
-  "breadcrumb": "brödsmulor",
+  "breadcrumb": "Brödsmula",
   "previous_slide": "Föregående bild",
   "next_slide": "Nästa bild",
-  "close": "Nära",
+  "close": "Stäng",
   "previous": "Tidigare",
   "more_pages": "Fler sidor",
-  "pagination": "paginering",
+  "pagination": "Paginering",
   "go_to_previous_page": "Gå till föregående sida",
   "go_to_next_page": "Gå till nästa sida",
-  "toggle_sidebar": "Växla sidofält",
-  "oops_page_not_found": "Hoppsan! Sidan hittades inte",
-  "return_to_home": "Återvänd till hemmet",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue"
+  "toggle_sidebar": "Vipp-sidofält",
+  "oops_page_not_found": "Oj! Sidan hittades inte",
+  "return_to_home": "Återkomst hem",
+  "phase_label": "Fas",
+  "instruction_ready": "Ställ in dina rundor och tryck på play för att börja",
+  "instruction_running": "Följ cirkeln för att reglera din andning",
+  "round_x_of_y": "Runda {{current}} av {{total}}",
+  "rounds_selector": "{{count}} Rundor",
+  "yes": "Ja",
+  "no": "Nej",
+  "date": "Datum",
+  "continue": "Fortsätt"
 }

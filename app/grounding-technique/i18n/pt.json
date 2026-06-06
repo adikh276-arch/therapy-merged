@@ -1,125 +1,217 @@
 {
   "Grounding": "Aterramento",
-  "Step": "Etapa",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Técnicas de grounding ajudam a trazer sua atenção de volta ao momento presente."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Escolha uma atividade que seja solidária no momento."
+  },
+  "Step": "Passo",
   "Back": "Voltar",
   "Next": "Próximo",
-  "I Feel More Grounded": "Eu me sinto mais centrada.",
-  "Choose Another Technique": "Escolha outra técnica",
+  "I Feel More Grounded": "Me sinto mais centrado",
+  "Choose Another Technique": "Escolha Outra Técnica",
   "Technique not found": "Técnica não encontrada",
-  "Put your hands in water": "Coloque as mãos na água.",
-  "Pick up or touch items near you": "Pegue ou toque em objetos próximos a você.",
-  "Breathe deeply": "Respire profundamente.",
-  "Savour your food": "Aproveite sua comida.",
-  "Savour a drink": "Aprecie uma bebida",
-  "Take a short walk": "Faça uma pequena caminhada",
-  "Hold a piece of ice": "Segure um pedaço de gelo.",
-  "Savour a scent": "Aprecie um aroma",
-  "Move your body": "Mexa o seu corpo",
-  "Listen to your surroundings": "Preste atenção ao que está ao seu redor.",
-  "Check in with your body": "Preste atenção ao seu corpo.",
+  "Put your hands in water": "Coloque as mãos na água",
+  "Pick up or touch items near you": "Pegue ou toque em itens próximos a você",
+  "Breathe deeply": "Respire fundo",
+  "Savour your food": "Saboreie sua comida",
+  "Savour a drink": "Saboreie uma bebida",
+  "Take a short walk": "Dê uma caminhada rápida",
+  "Hold a piece of ice": "Segure um pedaço de gelo",
+  "Savour a scent": "Saboreie um aroma",
+  "Move your body": "Mexa seu corpo",
+  "Listen to your surroundings": "Ouça o que está ao seu redor",
+  "Check in with your body": "Verifique como está seu corpo",
+  "Run your hands under cool or warm water": {
+    "": "Passe as mãos por água fria ou morna."
+  },
+  "Notice the temperature": {
+    "": "Repare na temperatura."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "Preste atenção na sensação na sua pele."
+  },
+  "Observe how it changes moment by moment": {
+    "": "Observe como ele muda momento a momento."
+  },
+  "Let your breathing slow naturally": {
+    "": "Deixe sua respiração desacelerar naturalmente."
+  },
+  "Choose a nearby object": {
+    "": "Escolha um objeto próximo."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "Repare na textura, peso e temperatura."
+  },
   "Is it smooth or rough? Heavy or light?": "É liso ou áspero? Pesado ou leve?",
+  "Let your focus stay fully on this one object": {
+    "": "Deixe seu foco totalmente focado nesse único objeto."
+  },
+  "Take a slow breath in through your nose": {
+    "": "Respire fundo lentamente pelo nariz."
+  },
+  "Hold gently for a moment": {
+    "": "Segure suavemente por um momento."
+  },
+  "Exhale slowly through your mouth": {
+    "": "Expire devagar pela boca."
+  },
+  "Repeat several times": {
+    "": "Repita várias vezes."
+  },
+  "Let your shoulders soften": {
+    "": "Deixe seus ombros amolecerem."
+  },
+  "Take a small bite": {
+    "": "Dê uma mordida."
+  },
+  "Chew slowly": {
+    "": "Mastiga devagar."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "Repare no sabor, na textura e na temperatura."
+  },
+  "Stay fully present with the experience": {
+    "": "Fique totalmente presente com a experiência."
+  },
+  "Take a slow sip": {
+    "": "Toma um gole devagar."
+  },
+  "Notice the temperature and taste": {
+    "": "Repare na temperatura e no sabor."
+  },
+  "Feel the sensation as you swallow": {
+    "": "Sinta a sensação ao engolir."
+  },
+  "Let yourself stay with that moment": {
+    "": "Permita-se ficar com esse momento."
+  },
+  "Walk slowly and intentionally": {
+    "": "Caminhe devagar e com intenção."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "Perceba a sensação dos seus pés tocando o chão."
+  },
+  "Observe your surroundings without judgment": {
+    "": "Observe o ambiente ao seu redor sem julgamentos."
+  },
+  "Let your breath match your steps": {
+    "": "Deixe sua respiração acompanhar seus passos."
+  },
+  "Hold the ice in your hand": {
+    "": "Segure o gelo na mão."
+  },
+  "Notice the cold sensation": {
+    "": "Perceba a sensação de frio."
+  },
+  "Focus fully on the feeling": {
+    "": "Foque totalmente na sensação."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "Permita que a sensação forte te ancore ao presente."
+  },
+  "Choose a scent nearby": {
+    "": "Escolha um aroma por perto."
+  },
+  "Inhale slowly": {
+    "": "Inspire devagar."
+  },
+  "Notice how it feels in your body": {
+    "": "Perceba como isso se sente no seu corpo."
+  },
+  "Let the scent bring you into this moment": {
+    "": "Deixe o cheiro te trazer para este momento."
+  },
+  "Stretch gently": {
+    "": "Espreguice suavemente."
+  },
+  "Roll your shoulders": {
+    "": "Enrole os ombros."
+  },
+  "Shift your weight from side to side": {
+    "": "Mude o peso de um lado para o outro."
+  },
+  "Notice how your body feels as it moves": {
+    "": "Perceba como seu corpo se sente ao se mover."
+  },
+  "Pause and listen": {
+    "": "Pare e escute."
+  },
+  "Identify three distinct sounds": {
+    "": "Identifique três sons distintos."
+  },
   "Are they near or far?": "Eles estão perto ou longe?",
+  "Let your attention rest on each one": {
+    "": "Deixe sua atenção repousar em cada um deles."
+  },
+  "Close your eyes if comfortable": {
+    "": "Feche os olhos se estiver confortável."
+  },
+  "Scan from head to toe": {
+    "": "Escaneie da cabeça aos pés."
+  },
+  "Notice areas of tension or ease": {
+    "": "Perceba áreas de tensão ou facilidade."
+  },
+  "Breathe into any tightness": {
+    "": "Respire para sentir qualquer aperto apertado."
+  },
   "common": {
-    "get_started": "Get Started",
+    "get_started": "Comece",
     "start_over": "Recomeçar",
-    "finish_exit": "Finalizar e sair",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
-    "time_to_complete": "Tempo para concluir",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "Compartilhar",
-    "share_progress": "Compartilhar progresso",
-    "inspire_others": "Inspire outras pessoas hoje",
-    "share_text": "Eu fiz essa atividade {{activityName}} no TherapyMantra e gostei muito. Você também pode fazer, basta seguir o link para o aplicativo Android {{androidUrl}} ou para o aplicativo iOS {{iosUrl}}.",
-    "this_activity": "esta atividade",
+    "finish_exit": "Fim e Saída",
+    "well_done": "Parabéns!",
+    "completion_message": "Você completou esta atividade com sucesso. Reserve um momento para apreciar seu progresso.",
+    "time_to_complete": "Hora de concluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "save": "Salvar",
+    "loading": "Carregando...",
+    "share": "Compartilhe",
+    "share_progress": "Compartilhar Progresso",
+    "inspire_others": "Inspire os outros hoje",
+    "share_text": "Eu já fiz isso {{activityName}} no TherapyMantra e realmente gosto, você também pode fazer é só seguir o link do app Android {{androidUrl}} ou do app iOS {{iosUrl}}",
+    "this_activity": "Essa atividade",
     "copied": "Copiado!",
-    "copy_message": "Copiar mensagem",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
+    "copy_message": "Copiar a mensagem",
+    "yes": "Sim",
+    "no": "Não",
+    "date": "Data",
     "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "step_of": "Passo {{current}} de {{total}}",
+    "round_of": "Rodada {{current}} de {{total}}",
+    "phase_label": "Fase",
+    "rounds_selector": "{{count}} Rodadas",
+    "instruction_ready": "Defina suas rodadas e toque play para começar",
+    "instruction_running": "Siga o círculo para regular sua respiração"
   },
   "app_title": "Aterramento",
   "app_description": "Aterramento",
-  "change_language": "Alterar idioma",
-  "search_language": "Idioma de pesquisa...",
+  "change_language": "Mude a linguagem",
+  "search_language": "Linguagem de busca...",
   "more": "Mais",
-  "breadcrumb": "farinha de rosca",
+  "breadcrumb": "migalhas de pão",
   "previous_slide": "Slide anterior",
   "next_slide": "Próximo slide",
   "close": "Fechar",
   "previous": "Anterior",
   "more_pages": "Mais páginas",
-  "pagination": "paginação",
+  "pagination": "Paginação",
   "go_to_previous_page": "Ir para a página anterior",
-  "go_to_next_page": "Acesse a próxima página.",
-  "toggle_sidebar": "Alternar barra lateral",
-  "stay_present": "Esteja presente",
+  "go_to_next_page": "Ir para a próxima página",
+  "toggle_sidebar": "Alternar a barra lateral",
+  "stay_present": "Fique presente",
   "oops_page_not_found": "Ops! Página não encontrada",
-  "return_to_home": "Voltar para a página inicial",
-  "grounding_technique": "Técnica de aterramento",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "return_to_home": "Retorno ao Lar",
+  "grounding_technique": "Técnica de Aterramento",
+  "phase_label": "Fase",
+  "instruction_ready": "Defina suas rodadas e toque play para começar",
+  "instruction_running": "Siga o círculo para regular sua respiração",
+  "round_x_of_y": "Rodada {{current}} de {{total}}",
+  "rounds_selector": "{{count}} Rodadas",
+  "yes": "Sim",
+  "no": "Não",
+  "date": "Data",
+  "continue": "Continue"
 }

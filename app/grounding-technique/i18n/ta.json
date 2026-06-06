@@ -1,5 +1,11 @@
 {
   "Grounding": "கிரவுண்டிங்",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "கிரவுண்டிங் நுட்பங்கள் உங்கள் கவனத்தை தற்போதைய தருணத்திற்கு மீண்டும் கொண்டு வர உதவுகின்றன."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "இப்போது ஆதரவாக உணரும் ஒரு செயல்பாட்டைத் தேர்வுசெய்க."
+  },
   "Step": "படி",
   "Back": "மீண்டும்",
   "Next": "அடுத்து",
@@ -17,109 +23,195 @@
   "Move your body": "உங்கள் உடலை நகர்த்தவும்",
   "Listen to your surroundings": "உங்கள் சுற்றுப்புறத்தைக் கேளுங்கள்",
   "Check in with your body": "உங்கள் உடலுடன் சரிபார்க்கவும்",
+  "Run your hands under cool or warm water": {
+    "": "குளிர்ந்த அல்லது வெதுவெதுப்பான நீரில் உங்கள் கைகளை இயக்கவும்."
+  },
+  "Notice the temperature": {
+    "": "வெப்பநிலையைக் கவனியுங்கள்."
+  },
+  "Pay attention to the sensation on your skin": {
+    "": "உங்கள் சருமத்தில் உள்ள உணர்வுக்கு கவனம் செலுத்துங்கள்."
+  },
+  "Observe how it changes moment by moment": {
+    "": "அது எவ்வாறு ஒவ்வொரு கணமும் மாறுகிறது என்பதைக் கவனியுங்கள்."
+  },
+  "Let your breathing slow naturally": {
+    "": "உங்கள் சுவாசத்தை இயற்கையாகவே மெதுவாக விடுங்கள்."
+  },
+  "Choose a nearby object": {
+    "": "அருகிலுள்ள பொருளைத் தேர்வுசெய்க."
+  },
+  "Notice its texture, weight, and temperature": {
+    "": "அதன் அமைப்பு, எடை மற்றும் வெப்பநிலையைக் கவனியுங்கள்."
+  },
   "Is it smooth or rough? Heavy or light?": "இது மென்மையான அல்லது கரடுமுரடான தானா? கனமானதா அல்லது இலகுவா?",
+  "Let your focus stay fully on this one object": {
+    "": "இந்த ஒரு பொருளில் உங்கள் கவனம் முழுமையாக இருக்கட்டும்."
+  },
+  "Take a slow breath in through your nose": {
+    "": "உங்கள் மூக்கு வழியாக மெதுவாக சுவாசிக்கவும்."
+  },
+  "Hold gently for a moment": {
+    "": "ஒரு கணம் மெதுவாகப் பிடிக்கவும்."
+  },
+  "Exhale slowly through your mouth": {
+    "": "உங்கள் வாய் வழியாக மெதுவாக சுவாசிக்கவும்."
+  },
+  "Repeat several times": {
+    "": "பல முறை செய்யவும்."
+  },
+  "Let your shoulders soften": {
+    "": "உங்கள் தோள்கள் மென்மையாக இருக்கட்டும்."
+  },
+  "Take a small bite": {
+    "": "ஒரு சிறிய கடி எடுத்துக் கொள்ளுங்கள்."
+  },
+  "Chew slowly": {
+    "": "மெதுவாக மெல்லுங்கள்."
+  },
+  "Notice the flavor, texture, and temperature": {
+    "": "சுவை, அமைப்பு மற்றும் வெப்பநிலையைக் கவனியுங்கள்."
+  },
+  "Stay fully present with the experience": {
+    "": "அனுபவத்துடன் முழுமையாக இருங்கள்."
+  },
+  "Take a slow sip": {
+    "": "மெதுவாக சிப் எடுத்துக் கொள்ளுங்கள்."
+  },
+  "Notice the temperature and taste": {
+    "": "வெப்பநிலை மற்றும் சுவையைக் கவனியுங்கள்."
+  },
+  "Feel the sensation as you swallow": {
+    "": "நீங்கள் விழுங்கும்போது உணர்வை உணருங்கள்."
+  },
+  "Let yourself stay with that moment": {
+    "": "அந்த தருணத்துடன் நீங்களே இருக்கட்டும்."
+  },
+  "Walk slowly and intentionally": {
+    "": "மெதுவாகவும் வேண்டுமென்றேயும் நடக்கவும்."
+  },
+  "Notice the feeling of your feet touching the ground": {
+    "": "உங்கள் கால்கள் தரையைத் தொடும் உணர்வைக் கவனியுங்கள்."
+  },
+  "Observe your surroundings without judgment": {
+    "": "தீர்ப்பு இல்லாமல் உங்கள் சுற்றுப்புறத்தை கவனியுங்கள்."
+  },
+  "Let your breath match your steps": {
+    "": "உங்கள் மூச்சு உங்கள் படிகளுடன் பொருந்தட்டும்."
+  },
+  "Hold the ice in your hand": {
+    "": "பனியை உங்கள் கையில் பிடித்துக் கொள்ளுங்கள்."
+  },
+  "Notice the cold sensation": {
+    "": "குளிர் உணர்வைக் கவனியுங்கள்."
+  },
+  "Focus fully on the feeling": {
+    "": "உணர்வில் முழுமையாக கவனம் செலுத்துங்கள்."
+  },
+  "Allow the strong sensation to anchor you to the present": {
+    "": "வலுவான உணர்வு உங்களை நிகழ்காலத்திற்கு நங்கூரமிட அனுமதிக்கவும்."
+  },
+  "Choose a scent nearby": {
+    "": "அருகிலுள்ள ஒரு வாசனையைத் தேர்வுசெய்க."
+  },
+  "Inhale slowly": {
+    "": "மெதுவாக உள்ளிழுக்கவும்."
+  },
+  "Notice how it feels in your body": {
+    "": "உங்கள் உடலில் எப்படி உணர்கிறது என்பதைக் கவனியுங்கள்."
+  },
+  "Let the scent bring you into this moment": {
+    "": "வாசனை உங்களை இந்த தருணத்திற்கு கொண்டு வரட்டும்."
+  },
+  "Stretch gently": {
+    "": "மெதுவாக நீட்டவும்."
+  },
+  "Roll your shoulders": {
+    "": "உங்கள் தோள்களை உருட்டவும்."
+  },
+  "Shift your weight from side to side": {
+    "": "உங்கள் எடையை பக்கத்திலிருந்து பக்கமாக மாற்றவும்."
+  },
+  "Notice how your body feels as it moves": {
+    "": "உங்கள் உடல் நகரும்போது எப்படி உணர்கிறது என்பதைக் கவனியுங்கள்."
+  },
+  "Pause and listen": {
+    "": "இடைநிறுத்தி கேளுங்கள்."
+  },
+  "Identify three distinct sounds": {
+    "": "மூன்று தனித்துவமான ஒலிகளை அடையாளம் காண்க."
+  },
   "Are they near or far?": "அவர்கள் அருகில் இருக்கிறார்களா அல்லது தொலைவில் இருக்கிறார்களா?",
+  "Let your attention rest on each one": {
+    "": "உங்கள் கவனம் ஒவ்வொன்றின் மீதும் தங்கியிருக்கட்டும்."
+  },
+  "Close your eyes if comfortable": {
+    "": "வசதியாக இருந்தால் கண்களை மூடவும்."
+  },
+  "Scan from head to toe": {
+    "": "தலை முதல் கால் வரை ஸ்கேன் செய்யவும்."
+  },
+  "Notice areas of tension or ease": {
+    "": "பதற்றம் அல்லது எளிமையான பகுதிகளைக் கவனியுங்கள்."
+  },
+  "Breathe into any tightness": {
+    "": "எந்த இறுக்கத்தையும் சுவாசிக்கவும்."
+  },
   "common": {
-    "get_started": "Get Started",
-    "start_over": "மீண்டும் தொடங்கு",
-    "finish_exit": "முடித்துவிட்டு வெளியேறவும்",
-    "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "get_started": "தொடங்குக",
+    "start_over": "மீண்டும் தொடங்குங்கள்",
+    "finish_exit": "பூச்சு மற்றும் வெளியேறு",
+    "well_done": "நல்லது!",
+    "completion_message": "இந்த செயல்பாட்டை வெற்றிகரமாக முடித்துவிட்டீர்கள். உங்கள் முன்னேற்றத்தைப் பாராட்ட சிறிது நேரம் ஒதுக்குங்கள்.",
     "time_to_complete": "முடிக்க வேண்டிய நேரம்",
-    "back": "Back",
-    "next": "Next",
-    "save": "Save",
-    "loading": "Loading...",
-    "share": "பகிர்",
+    "back": "மீண்டும்",
+    "next": "அடுத்து",
+    "save": "சேமி",
+    "loading": "ஏற்றுகிறது...",
+    "share": "இந்த",
     "share_progress": "முன்னேற்றத்தைப் பகிரவும்",
-    "inspire_others": "இன்று மற்றவர்களுக்கு ஊக்கமளியுங்கள்",
-    "share_text": "நான் தெரபிமந்த்ராவில் இந்த {{activityName}} செயல்பாட்டைச் செய்துள்ளேன், அது எனக்கு மிகவும் பிடித்திருக்கிறது. நீங்களும் இதைச் செய்யலாம், ஆண்ட்ராய்டு செயலி {{androidUrl}} அல்லது ஐஓஎஸ் செயலி {{iosUrl}} இணைப்பைப் பின்தொடரவும்.",
+    "inspire_others": "இன்று மற்றவர்களை ஊக்குவிக்கவும்",
+    "share_text": "நான் இந்த {{activityName}} ஐ TherapyMantra இல் செய்துள்ளேன், அதை மிகவும் ரசிக்கிறேன், நீங்களும் அதைச் செய்யலாம் Android பயன்பாடு {{androidUrl}} அல்லது iOS பயன்பாட்டிற்கான இணைப்பைப் பின்தொடரவும் {{iosUrl}}",
     "this_activity": "இந்த செயல்பாடு",
     "copied": "நகலெடுக்கப்பட்டது!",
     "copy_message": "செய்தியை நகலெடுக்கவும்",
-    "yes": "Yes",
-    "no": "No",
-    "date": "Date",
-    "continue": "Continue",
-    "step_of": "Step {{current}} of {{total}}",
-    "round_of": "Round {{current}} of {{total}}",
-    "phase_label": "Phase",
-    "rounds_selector": "{{count}} Rounds",
-    "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "yes": "ஆம்",
+    "no": "இல்லை",
+    "date": "தேதி",
+    "continue": "தொடரவும்",
+    "step_of": "{{total}} இன் படி {{தற்போதைய}}",
+    "round_of": "{{total}} இன் சுற்று {{தற்போதைய}}",
+    "phase_label": "கட்டம்",
+    "rounds_selector": "{{count}} சுற்றுகள்",
+    "instruction_ready": "உங்கள் சுற்றுகளை அமைத்து, தொடங்குவதற்கு விளையாடு என்பதைத் தட்டவும்",
+    "instruction_running": "உங்கள் சுவாசத்தை ஒழுங்குபடுத்த வட்டத்தைப் பின்பற்றவும்"
   },
-  "app_title": "அடித்தளம்",
-  "app_description": "அடித்தளம்",
-  "change_language": "மொழியை மாற்றவும்",
+  "app_title": "கிரவுண்டிங்",
+  "app_description": "கிரவுண்டிங்",
+  "change_language": "மொழியை மாற்று",
   "search_language": "தேடல் மொழி...",
   "more": "மேலும்",
-  "breadcrumb": "ரொட்டித்தூள்",
+  "breadcrumb": "பிரட்தூள்",
   "previous_slide": "முந்தைய ஸ்லைடு",
   "next_slide": "அடுத்த ஸ்லைடு",
-  "close": "அருகில்",
+  "close": "மூடவும்",
   "previous": "முந்தைய",
   "more_pages": "மேலும் பக்கங்கள்",
-  "pagination": "பக்க எண்",
+  "pagination": "பக்கம்",
   "go_to_previous_page": "முந்தைய பக்கத்திற்குச் செல்லவும்",
   "go_to_next_page": "அடுத்த பக்கத்திற்குச் செல்லவும்",
-  "toggle_sidebar": "பக்கப் பட்டியை மாற்று",
-  "stay_present": "நிகழ்காலத்தில் இருங்கள்",
+  "toggle_sidebar": "பக்கப்பட்டியை மாற்றவும்",
+  "stay_present": "இருங்கள்",
   "oops_page_not_found": "அச்சச்சோ! பக்கம் காணப்படவில்லை",
-  "return_to_home": "முகப்புக்குத் திரும்பு",
-  "grounding_technique": "கிரவுண்டிங் டெக்னிக்",
-  "phase_label": "Phase",
-  "instruction_ready": "Set your rounds and tap play to begin",
-  "instruction_running": "Follow the circle to regulate your breath",
-  "round_x_of_y": "Round {{current}} of {{total}}",
-  "rounds_selector": "{{count}} Rounds",
-  "yes": "Yes",
-  "no": "No",
-  "date": "Date",
-  "continue": "Continue",
-  "Grounding techniques help bring your attention back to the present moment": [],
-  "Choose one activity that feels supportive right now": [],
-  "Run your hands under cool or warm water": [],
-  "Notice the temperature": [],
-  "Pay attention to the sensation on your skin": [],
-  "Observe how it changes moment by moment": [],
-  "Let your breathing slow naturally": [],
-  "Choose a nearby object": [],
-  "Notice its texture, weight, and temperature": [],
-  "Let your focus stay fully on this one object": [],
-  "Take a slow breath in through your nose": [],
-  "Hold gently for a moment": [],
-  "Exhale slowly through your mouth": [],
-  "Repeat several times": [],
-  "Let your shoulders soften": [],
-  "Take a small bite": [],
-  "Chew slowly": [],
-  "Notice the flavor, texture, and temperature": [],
-  "Stay fully present with the experience": [],
-  "Take a slow sip": [],
-  "Notice the temperature and taste": [],
-  "Feel the sensation as you swallow": [],
-  "Let yourself stay with that moment": [],
-  "Walk slowly and intentionally": [],
-  "Notice the feeling of your feet touching the ground": [],
-  "Observe your surroundings without judgment": [],
-  "Let your breath match your steps": [],
-  "Hold the ice in your hand": [],
-  "Notice the cold sensation": [],
-  "Focus fully on the feeling": [],
-  "Allow the strong sensation to anchor you to the present": [],
-  "Choose a scent nearby": [],
-  "Inhale slowly": [],
-  "Notice how it feels in your body": [],
-  "Let the scent bring you into this moment": [],
-  "Stretch gently": [],
-  "Roll your shoulders": [],
-  "Shift your weight from side to side": [],
-  "Notice how your body feels as it moves": [],
-  "Pause and listen": [],
-  "Identify three distinct sounds": [],
-  "Let your attention rest on each one": [],
-  "Close your eyes if comfortable": [],
-  "Scan from head to toe": [],
-  "Notice areas of tension or ease": [],
-  "Breathe into any tightness": []
+  "return_to_home": "வீட்டிற்குத் திரும்பு",
+  "grounding_technique": "கிரவுண்டிங் நுட்பம்",
+  "phase_label": "கட்டம்",
+  "instruction_ready": "உங்கள் சுற்றுகளை அமைத்து, தொடங்குவதற்கு விளையாடு என்பதைத் தட்டவும்",
+  "instruction_running": "உங்கள் சுவாசத்தை ஒழுங்குபடுத்த வட்டத்தைப் பின்பற்றவும்",
+  "round_x_of_y": "{{total}} இன் சுற்று {{தற்போதைய}}",
+  "rounds_selector": "{{count}} சுற்றுகள்",
+  "yes": "ஆம்",
+  "no": "இல்லை",
+  "date": "தேதி",
+  "continue": "தொடரவும்"
 }
