@@ -256,7 +256,7 @@ function GentleWishInner() {
                   >
                     <Heart className="w-8 h-8 text-rose-400 animate-pulse mx-auto" />
                     <p className="text-slate-650 dark:text-slate-300 font-bold italic leading-relaxed text-base">
-                      {t("cue_body", `Take a moment to sit quietly with the memory of ${name.trim()}. Let yourself feel whatever emotion arises.`)}
+                      {t("cue_body", "Take a moment to sit quietly with the memory of {{name}}. Let yourself feel whatever emotion arises.", { name: name.trim() })}
                     </p>
                   </motion.div>
                 )}
@@ -273,7 +273,7 @@ function GentleWishInner() {
                   >
                     <div className="text-center space-y-2 px-4">
                       <p className="text-slate-850 dark:text-white font-black text-lg leading-snug">
-                        {t("prompt_wish", `If you could offer one gentle wish to ${name.trim()} right now, what would it be?`)}
+                        {t("prompt_wish", "If you could offer one gentle wish to {{name}} right now, what would it be?", { name: name.trim() })}
                       </p>
                       <p className="text-slate-400 font-medium text-xs italic">
                         {t("prompt_wish_subtitle", "It could be a wish of peace, comfort, or eternal love.")}
@@ -341,7 +341,7 @@ function GentleWishInner() {
               </h2>
 
               <p className="text-center text-slate-500 dark:text-slate-400 leading-relaxed max-w-sm mx-auto">
-                {t("carry_description", `Grief is not only about letting go. It is also about keeping connection alive. What beautiful quality, value, or habit of ${name.trim()} would you like to carry forward in your own daily actions?`)}
+                {t("carry_description", "Grief is not only about letting go. It is also about keeping connection alive. What beautiful quality, value, or habit of {{name}} would you like to carry forward in your own daily actions?", { name: name.trim() })}
               </p>
 
               <div className="space-y-4">
