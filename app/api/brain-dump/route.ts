@@ -1,6 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { db } from "@/lib/db";
+import { trace, metrics } from "@opentelemetry/api";
+import { logs, SeverityNumber } from "@opentelemetry/api-logs";
+import { withSpan } from "@superlog/otel-helpers";
+
+const tracer = trace.getTracer("therapy.web");
+const meter = metrics.getMeter("therapy.web");
+const logger = logs.getLogger("therapy.web");
+
+const sessionsSaved = meter.createCounter("brain_dump.session.saved");
+
 
 async function ensureTablesExist() {
   await db`
@@ -62,31 +72,59 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  try {
-    await ensureTablesExist();
-    const { id, date, thoughts, reflection } = await req.json();
+  return await withSpan("brain_dump.save", async (span) => {
+    span.setAttribute("user.id", userId);
+    try {
+      await ensureTablesExist();
+      const { id, date, thoughts, reflection } = await req.json();
 
-    if (!id || !thoughts) {
-      return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
-    }
+      if (!id || !thoughts) {
+        return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+      }
 
-    await db`
-      INSERT INTO sessions (id, user_id, date, reflection)
-      VALUES (${id}, ${userId}, ${date}, ${reflection || ""})
-    `;
+      span.setAttribute("thought.count", thoughts.length);
 
-    for (const thought of thoughts) {
       await db`
-        INSERT INTO thoughts (local_id, session_id, user_id, text, bucket)
-        VALUES (${thought.id}, ${id}, ${userId}, ${thought.text}, ${thought.bucket || ""})
+        INSERT INTO sessions (id, user_id, date, reflection)
+        VALUES (${id}, ${userId}, ${date}, ${reflection || ""})
       `;
-    }
 
-    return NextResponse.json({ success: true });
-  } catch (err) {
-    console.error("Failed to save brain dump session:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
-  }
+      for (const thought of thoughts) {
+        await db`
+          INSERT INTO thoughts (local_id, session_id, user_id, text, bucket)
+          VALUES (${thought.id}, ${id}, ${userId}, ${thought.text}, ${thought.bucket || ""})
+        `;
+      }
+
+      sessionsSaved.add(1, { outcome: "success" });
+      logger.emit({
+        severityNumber: SeverityNumber.INFO,
+        severityText: "INFO",
+        body: "saved brain dump session",
+        attributes: {
+          "user.id": userId,
+          "thought.count": thoughts.length,
+          outcome: "success"
+        }
+      });
+
+      return NextResponse.json({ success: true });
+    } catch (err) {
+      console.error("Failed to save brain dump session:", err);
+      sessionsSaved.add(1, { outcome: "error" });
+      logger.emit({
+        severityNumber: SeverityNumber.ERROR,
+        severityText: "ERROR",
+        body: "failed to save brain dump session",
+        attributes: {
+          "user.id": userId,
+          outcome: "error",
+          error: String(err)
+        }
+      });
+      return NextResponse.json({ error: "Database error" }, { status: 500 });
+    }
+  }, { tracer });
 }
 
 export async function DELETE(req: NextRequest) {
