@@ -583,6 +583,11 @@ function ALetterToSelfInner() {
       if (upaId) {
         sessionStorage.setItem('upa_id', upaId);
       }
+      
+      const uid = params.get('uid');
+      if (uid) {
+        sessionStorage.setItem('uid', uid);
+      }
     }
   }, []);
 
@@ -661,20 +666,16 @@ function ALetterToSelfInner() {
       });
 
       const upaId = typeof window !== 'undefined' ? sessionStorage.getItem('upa_id') : null;
-      if (upaId) {
-        let userId = null;
-        if (typeof document !== 'undefined') {
-          const match = document.cookie.match(new RegExp('(^| )user_id=([^;]+)'));
-          if (match) userId = match[2];
-        }
+      const storedUid = typeof window !== 'undefined' ? sessionStorage.getItem('uid') : null;
 
+      if (upaId) {
         fetch('https://api.mantracare.com/webhook/pathway', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             intent: 'complete_activity',
             upa_id: Number(upaId),
-            uid: userId,
+            uid: storedUid ? (isNaN(Number(storedUid)) ? storedUid : Number(storedUid)) : undefined,
           }),
         }).catch((err) => console.error('Webhook error:', err));
       }
