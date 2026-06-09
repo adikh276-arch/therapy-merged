@@ -665,6 +665,8 @@ function ALetterToSelfInner() {
         body: JSON.stringify(currentEntryRef.current),
       });
 
+      console.log('data: ', sessionStorage.getItem('upa_id'), sessionStorage.getItem('uid'))
+
       const upaId = typeof window !== 'undefined' ? sessionStorage.getItem('upa_id') : null;
       const storedUid = typeof window !== 'undefined' ? sessionStorage.getItem('uid') : null;
 
