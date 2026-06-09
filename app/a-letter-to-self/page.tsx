@@ -675,7 +675,6 @@ function ALetterToSelfInner() {
             intent: 'complete_activity',
             upa_id: Number(upaId),
             uid: userId,
-            user_id: userId, // included to match your earlier example payload
           }),
         }).catch((err) => console.error('Webhook error:', err));
       }
