@@ -585,6 +585,8 @@ function ALetterToSelfInner() {
       if (upaId) {
         sessionStorage.setItem('upa_id', upaId);
       }
+
+      console.log('upa_id: ', upaId)
       
       const uid = searchParams.get('uid');
       if (uid) {
