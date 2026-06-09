@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo, Suspense } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
+import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Calendar, Trash2, Loader2, Sparkles, Heart, ChevronDown, Check, Send, Save, History, X } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
@@ -572,24 +573,25 @@ function ALetterToSelfInner() {
     updatedAt: new Date().toISOString(),
   });
 
+  const searchParams = useSearchParams();
+
   // Load language dynamically based on url search param
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const params = new URLSearchParams(window.location.search);
-      const lang = params.get('lang') || 'en';
+      const lang = searchParams.get('lang') || 'en';
       loadLocale(lang);
 
-      const upaId = params.get('upa_id');
+      const upaId = searchParams.get('upa_id');
       if (upaId) {
         sessionStorage.setItem('upa_id', upaId);
       }
       
-      const uid = params.get('uid');
+      const uid = searchParams.get('uid');
       if (uid) {
         sessionStorage.setItem('uid', uid);
       }
     }
-  }, []);
+  }, [searchParams]);
 
   // Fetch past letters from Server API
   const fetchLetters = async () => {
@@ -925,7 +927,9 @@ function ALetterToSelfInner() {
 export default function ALetterToSelfPage() {
   return (
     <I18nextProvider i18n={i18n}>
-      <ALetterToSelfInner />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ALetterToSelfInner />
+      </Suspense>
     </I18nextProvider>
   );
 }
