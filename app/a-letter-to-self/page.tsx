@@ -669,7 +669,8 @@ function ALetterToSelfInner() {
       const storedUid = typeof window !== 'undefined' ? sessionStorage.getItem('uid') : null;
 
       if (upaId) {
-        fetch('https://api.mantracare.com/webhook/pathway', {
+        console.log('completing activity')
+        await fetch('https://api.mantracare.com/webhook/pathway', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -680,6 +681,7 @@ function ALetterToSelfInner() {
         }).catch((err) => console.error('Webhook error:', err));
       }
 
+      console.log('pathway completed')
       setScreen('complete');
     } catch (err) {
       console.error('Final letter save failed:', err);
