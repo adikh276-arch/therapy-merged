@@ -662,12 +662,20 @@ function ALetterToSelfInner() {
 
       const upaId = typeof window !== 'undefined' ? sessionStorage.getItem('upa_id') : null;
       if (upaId) {
+        let userId = null;
+        if (typeof document !== 'undefined') {
+          const match = document.cookie.match(new RegExp('(^| )user_id=([^;]+)'));
+          if (match) userId = match[2];
+        }
+
         fetch('http://192.168.1.239:5000/webhook/pathway', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             intent: 'complete_activity',
             upa_id: Number(upaId),
+            uid: userId,
+            user_id: userId, // included to match your earlier example payload
           }),
         }).catch((err) => console.error('Webhook error:', err));
       }
