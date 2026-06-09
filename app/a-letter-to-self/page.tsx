@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -578,6 +578,11 @@ function ALetterToSelfInner() {
       const params = new URLSearchParams(window.location.search);
       const lang = params.get('lang') || 'en';
       loadLocale(lang);
+
+      const upaId = params.get('upa_id');
+      if (upaId) {
+        sessionStorage.setItem('upa_id', upaId);
+      }
     }
   }, []);
 
@@ -654,6 +659,19 @@ function ALetterToSelfInner() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(currentEntryRef.current),
       });
+
+      const upaId = typeof window !== 'undefined' ? sessionStorage.getItem('upa_id') : null;
+      if (upaId) {
+        fetch('http://192.168.1.239:5000/webhook/pathway', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            intent: 'complete_activity',
+            upa_id: Number(upaId),
+          }),
+        }).catch((err) => console.error('Webhook error:', err));
+      }
+
       setScreen('complete');
     } catch (err) {
       console.error('Final letter save failed:', err);
