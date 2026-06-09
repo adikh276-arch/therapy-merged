@@ -668,7 +668,7 @@ function ALetterToSelfInner() {
           if (match) userId = match[2];
         }
 
-        fetch('http://192.168.1.239:5000/webhook/pathway', {
+        fetch('https://api.mantracare.com/webhook/pathway', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
