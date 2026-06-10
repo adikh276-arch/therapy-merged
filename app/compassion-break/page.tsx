@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -180,33 +180,25 @@ function CompassionBreakInner() {
     "Pause & Check In", "Name Your Feeling", "Kindness Breathing", "Compassionate Response", "Notice Shift", "Preserve Break"
   ];
 
-  if (screen === 6 && !showHistory) {
+  if (screen === 6) {
     return (
-      <PremiumLayout
+      <PremiumComplete
         title={t("app_title", "Self-Compassion Break")}
-        showBack={false}
+        message={t("complete_message", "You have successfully taken a mindful moment for self-compassion. Always offer yourself gentleness and care.")}
+        onRestart={resetFlow}
+                  shareEmoji=""
+                  shareContent={"I just completed 'Self-Compassion Break' on TherapyMantra — a guided self-compassion practice that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
-        <div className="w-full max-w-md mx-auto">
-          <PremiumComplete
-            title={t("app_title", "Self-Compassion Break")}
-            message={t("complete_message", "You have successfully taken a mindful moment for self-compassion. Always offer yourself gentleness and care.")}
-            onRestart={resetFlow}
-            shareEmoji=""
-            shareContent={"I just completed 'Self-Compassion Break' on TherapyMantra — a guided self-compassion practice that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+        <div className="w-full max-w-sm mx-auto mt-6">
+          <button
+            onClick={() => setShowHistory(true)}
+            className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:shadow-none transition-all flex items-center justify-center gap-3"
           >
-            <div className="w-full mt-2">
-              <button
-                onClick={() => setShowHistory(true)}
-                className="w-full py-4 rounded-2xl bg-white/60 backdrop-blur-md border border-white/60 text-slate-500 font-bold text-sm hover:text-primary hover:bg-white transition-all flex items-center justify-center gap-2"
-                style={{ boxShadow: '0 1px 4px rgba(0,0,0,0.04)' }}
-              >
-                <Clock size={16} />
-                {t("intro.view_past", "View Past Sessions")}
-              </button>
-            </div>
-          </PremiumComplete>
+            <Clock size={20} />
+            {t("intro.view_past", "View Past Sessions")}
+          </button>
         </div>
-      </PremiumLayout>
+      </PremiumComplete>
     );
   }
 

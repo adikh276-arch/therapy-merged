@@ -304,19 +304,19 @@ function PhysicalActivityLogInner() {
         </header>
 
         {/* LOG AND STATS GRID */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* LOG ACTIVITY CARD */}
-          <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-8 space-y-6">
-            <div className="flex items-center gap-3 pb-2">
-              <div className="w-12 h-12 bg-primary/10 text-primary rounded-2xl flex items-center justify-center">
-                <Plus size={24} />
+          <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-xl shadow-slate-200/10 dark:shadow-none space-y-6">
+            <div className="flex items-center gap-3 border-b border-slate-50 dark:border-slate-850 pb-4">
+              <div className="w-11 h-11 bg-primary/10 text-primary rounded-xl flex items-center justify-center">
+                <Plus size={22} />
               </div>
-              <h2 className="text-xl font-black text-slate-900">
+              <h2 className="text-xl font-black text-slate-800 dark:text-slate-200">
                 {t('activity_log', 'Record Exercise')}
               </h2>
             </div>
 
-            <div className="space-y-5">
+            <div className="space-y-4">
               <div className="space-y-2">
                 <label className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest block">
                   {t('pick_date', 'Select Date')}
@@ -347,7 +347,7 @@ function PhysicalActivityLogInner() {
                       key={tag.name}
                       type="button"
                       onClick={() => setActivityName(tag.name)}
-                      className="px-4 py-2 rounded-2xl bg-white border border-slate-200 shadow-sm hover:border-primary hover:text-primary hover:bg-primary/5 transition-all text-xs font-bold text-slate-600 flex items-center gap-1.5"
+                      className="px-3.5 py-1.5 rounded-xl bg-slate-100/60 dark:bg-slate-950 hover:bg-primary/10 hover:text-primary transition-all text-xs font-bold text-slate-600 dark:text-slate-350 border border-white/60/10"
                     >
                       {tag.icon || tag.emoji} {t(tag.name, tag.name)}
                     </button>
@@ -386,55 +386,54 @@ function PhysicalActivityLogInner() {
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
               onClick={handleAddActivity}
-              className="act-btn-primary w-full mt-2"
+              className="w-full py-4.5 rounded-2xl bg-primary text-primary-foreground font-black text-base shadow-lg shadow-primary/10 hover:shadow-xl transition-all"
             >
-              <Plus size={18} strokeWidth={2.5} />
               {t('save_activity', 'Save Log Entry')}
             </motion.button>
           </div>
 
           {/* STATS OVERVIEW PANEL */}
-          <div className="bg-slate-900 border border-slate-800 rounded-[2.5rem] p-8 text-white relative overflow-hidden flex flex-col justify-between shadow-2xl space-y-8">
+          <div className="bg-gradient-to-r from-primary to-sky-400 border-none dark:bg-slate-950 rounded-[2.5rem] p-8 text-white relative overflow-hidden flex flex-col justify-between shadow-2xl space-y-8">
             <div className="absolute top-0 right-0 p-12 text-white/5 pointer-events-none">
               <History size={160} strokeWidth={1} />
             </div>
 
             <div className="relative z-10 space-y-2">
-              <span className="flex items-center gap-1.5 text-[#38bdf8] font-bold text-[10px] uppercase tracking-widest">
+              <span className="flex items-center gap-1.5 text-yellow-400 font-bold text-[10px] uppercase tracking-widest">
                 <Award size={14} />
                 {t('stat_dashboard', 'PERFORMANCE STATUS')}
               </span>
               <h2 className="text-2.5xl font-black leading-tight text-white">
                 {t('progress_summary', 'Wellness Impact')}
               </h2>
-              <p className="text-slate-400 font-bold text-xs leading-relaxed max-w-[250px]">
+              <p className="text-slate-400 font-bold text-xs leading-relaxed">
                 {t('you_re_doing_great', 'You are building exceptional consistent habits! Keep moving.')}
               </p>
             </div>
 
             <div className="relative z-10 grid grid-cols-2 gap-4">
-              <div className="rounded-2xl bg-white/5 p-4 border border-white/10 backdrop-blur-sm">
+              <div className="rounded-2xl bg-white/5 p-4 border border-white/5 backdrop-blur-sm">
                 <p className="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1">
                   {t('this_week', 'Last 7 Days')}
                 </p>
                 <p className="text-xl font-black text-white">{stats.weekMinutes} min</p>
               </div>
 
-              <div className="rounded-2xl bg-white/5 p-4 border border-white/10 backdrop-blur-sm">
+              <div className="rounded-2xl bg-white/5 p-4 border border-white/5 backdrop-blur-sm">
                 <p className="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1">
                   {t('this_month', 'Last 30 Days')}
                 </p>
                 <p className="text-xl font-black text-white">{stats.monthMinutes} min</p>
               </div>
 
-              <div className="rounded-2xl bg-white/5 p-4 border border-white/10 backdrop-blur-sm">
+              <div className="rounded-2xl bg-white/5 p-4 border border-white/5 backdrop-blur-sm">
                 <p className="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1">
                   {t('most_frequent', 'Favorite Exercise')}
                 </p>
                 <p className="text-xl font-black text-white truncate capitalize">{t(stats.mostFrequent, stats.mostFrequent)}</p>
               </div>
 
-              <div className="rounded-2xl bg-white/5 p-4 border border-white/10 backdrop-blur-sm">
+              <div className="rounded-2xl bg-white/5 p-4 border border-white/5 backdrop-blur-sm">
                 <p className="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1">
                   {t('longest_session', 'Longest Duration')}
                 </p>
@@ -466,10 +465,10 @@ function PhysicalActivityLogInner() {
         </div>
 
         {/* CUSTOM Responsive SVG Charts */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* DAILY MINUTES BAR CHART */}
-          <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-8">
-            <h3 className="text-lg font-black text-slate-900 mb-6">
+          <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-sm">
+            <h3 className="text-lg font-black text-slate-800 dark:text-slate-200 mb-6">
               {t('last_7_days', 'Daily Minutes (Past 7 Days)')}
             </h3>
 
@@ -541,8 +540,8 @@ function PhysicalActivityLogInner() {
           </div>
 
           {/* WEEKLY TREND LINE CHART */}
-          <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-8">
-            <h3 className="text-lg font-black text-slate-900 mb-6">
+          <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 shadow-sm">
+            <h3 className="text-lg font-black text-slate-800 dark:text-slate-200 mb-6">
               {t('weekly_trend', 'Weekly Progress Curve')}
             </h3>
 
@@ -692,58 +691,58 @@ function PhysicalActivityLogInner() {
                 return (
                   <motion.div
                     key={a.id}
-                    className="p-6 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2rem] relative overflow-hidden group hover:border-primary/20 transition-all"
+                    className="p-5.5 bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 shadow-sm relative overflow-hidden group hover:border-primary/10 transition-all"
                   >
                     {isEditing ? (
                       <div className="space-y-4 text-left">
-                        <div className="grid grid-cols-2 gap-4">
-                          <div className="space-y-2">
-                            <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest block">
+                        <div className="grid grid-cols-2 gap-3">
+                          <div className="space-y-1">
+                            <label className="text-[8px] font-black text-slate-400 uppercase tracking-widest block">
                               Name
                             </label>
                             <input
                               value={editName}
                               onChange={(e) => setEditName(e.target.value)}
-                              className="field-input"
+                              className="w-full py-2.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200"
                             />
                           </div>
 
-                          <div className="space-y-2">
-                            <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest block">
+                          <div className="space-y-1">
+                            <label className="text-[8px] font-black text-slate-400 uppercase tracking-widest block">
                               Duration (min)
                             </label>
                             <input
                               type="number"
                               value={editDuration}
                               onChange={(e) => setEditDuration(e.target.value)}
-                              className="field-input"
+                              className="w-full py-2.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-955 border border-white/60 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200"
                             />
                           </div>
                         </div>
 
-                        <div className="space-y-2">
-                          <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest block">
+                        <div className="space-y-1">
+                          <label className="text-[8px] font-black text-slate-400 uppercase tracking-widest block">
                             Notes
                           </label>
                           <textarea
                             value={editNotes}
                             onChange={(e) => setEditNotes(e.target.value)}
                             rows={2}
-                            className="field-textarea"
+                            className="w-full py-2 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border border-white/60 dark:border-slate-800 font-bold px-3 text-xs text-slate-700 dark:text-slate-200 resize-none"
                           />
                         </div>
 
                         <div className="flex gap-2">
                           <button
                             onClick={handleSaveEdit}
-                            className="act-btn-primary flex-1"
+                            className="px-4 py-2 bg-primary text-primary-foreground text-xs font-black rounded-xl flex items-center gap-1.5"
                           >
-                            <Check size={16} />
+                            <Check size={14} />
                             Save
                           </button>
                           <button
                             onClick={() => setEditingId(null)}
-                            className="act-btn-secondary flex-1"
+                            className="px-4 py-2 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-350 text-xs font-black rounded-xl"
                           >
                             Cancel
                           </button>
@@ -752,15 +751,15 @@ function PhysicalActivityLogInner() {
                     ) : (
                       <div className="flex items-start justify-between gap-4">
                         <div className="flex items-start gap-4">
-                          <div className="w-14 h-14 rounded-[1.25rem] bg-white border border-slate-100 shadow-sm flex items-center justify-center text-2xl leading-none shrink-0 text-slate-400">
-                            {a.emoji || <Activity size={24} />}
+                          <div className="w-12 h-12 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-2xl leading-none shrink-0 shadow-inner">
+                            {a.emoji}
                           </div>
                           <div>
-                            <div className="flex items-center gap-3">
-                              <h4 className="font-black text-slate-900 text-lg capitalize">
+                            <div className="flex items-center gap-2">
+                              <h4 className="font-extrabold text-slate-800 dark:text-slate-200 text-base capitalize">
                                 {t(a.name, a.name)}
                               </h4>
-                              <span className="px-3 py-1 text-[10px] font-black bg-primary/10 text-primary rounded-full uppercase tracking-wider border border-primary/10">
+                              <span className="px-2.5 py-1 text-[9px] font-black bg-primary/10 text-primary rounded-full uppercase tracking-wider">
                                 {a.duration} min
                               </span>
                             </div>
@@ -772,23 +771,23 @@ function PhysicalActivityLogInner() {
                               })}
                             </p>
                             {a.notes && (
-                              <p className="text-slate-600 text-sm font-medium leading-relaxed mt-3 italic bg-white/40 p-3 rounded-xl border border-white/60">
-                                "{a.notes}"
+                              <p className="text-slate-550 dark:text-slate-400 text-sm font-medium leading-relaxed mt-2.5 italic">
+                                &quot;{a.notes}&quot;
                               </p>
                             )}
                           </div>
                         </div>
 
-                        <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity absolute top-6 right-6">
+                        <div className="flex items-center gap-1 opacity-20 group-hover:opacity-100 transition-opacity">
                           <button
                             onClick={() => handleStartEdit(a)}
-                            className="p-2.5 text-slate-400 hover:text-primary hover:bg-white rounded-xl shadow-sm border border-transparent hover:border-slate-100 transition-all bg-slate-50"
+                            className="p-2 text-slate-400 hover:text-slate-800 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-950 rounded-xl transition-all"
                           >
                             <Pencil size={15} />
                           </button>
                           <button
                             onClick={() => handleDeleteActivity(a.id)}
-                            className="p-2.5 text-slate-400 hover:text-red-500 hover:bg-white rounded-xl shadow-sm border border-transparent hover:border-slate-100 transition-all bg-slate-50"
+                            className="p-2 text-slate-450 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/20 rounded-xl transition-all"
                           >
                             <Trash2 size={15} />
                           </button>

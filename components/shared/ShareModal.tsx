@@ -45,7 +45,7 @@ interface ShareModalProps {
   /** Optional custom message for this specific activity. Falls back to generic. */
   shareContent?: string;
   /** Optional emoji to show in the preview card. Default:  */
-  emoji?: string | React.ReactNode;
+  emoji?: string;
 }
 
 const APP_ANDROID = 'https://play.google.com/store/apps/details?id=org.mantracare.therapy';
@@ -56,7 +56,7 @@ const ShareModal: React.FC<ShareModalProps> = ({
   onClose,
   activityName,
   shareContent,
-  emoji,
+  emoji = '',
 }) => {
   const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
@@ -229,7 +229,7 @@ const ShareModal: React.FC<ShareModalProps> = ({
                       className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
                       style={{ background: 'rgba(255,255,255,0.2)', backdropFilter: 'blur(8px)' }}
                     >
-                      {emoji ? emoji : <Sparkles size={28} className="text-white" />}
+                      {emoji}
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-1.5 mb-1">

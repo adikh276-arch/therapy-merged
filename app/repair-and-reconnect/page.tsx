@@ -1,38 +1,15 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Save, ArrowLeft, ChevronRight, Copy, CheckCircle, Users, User, Briefcase, HeartHandshake, MessageCircle, Pause, Wind, BookOpen } from "lucide-react";
+import { Heart, Save, ArrowLeft, ChevronRight, Copy, CheckCircle } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { apiPath } from '@/lib/apiPath';
 
-type Approach = { id: string; label: string; emoji?: string };
-
-const PERSON_ICONS: Record<string, React.ReactNode> = {
-  friend: <Users className="w-10 h-10 text-sky-500" />,
-  family: <User className="w-10 h-10 text-rose-500" />,
-  colleague: <Briefcase className="w-10 h-10 text-amber-500" />,
-  other: <HeartHandshake className="w-10 h-10 text-emerald-500" />
-};
-
-const APPROACH_ICONS: Record<string, React.ReactNode> = {
-  message: <MessageCircle className="w-6 h-6 text-sky-500" />,
-  acknowledge: <HeartHandshake className="w-6 h-6 text-rose-500" />,
-  pause: <Pause className="w-6 h-6 text-amber-500" />,
-  letgo: <Wind className="w-6 h-6 text-emerald-500" />,
-  reflect: <BookOpen className="w-6 h-6 text-indigo-500" />
-};
-
-const LARGE_APPROACH_ICONS: Record<string, React.ReactNode> = {
-  message: <MessageCircle className="w-14 h-14 text-sky-500 mx-auto" />,
-  acknowledge: <HeartHandshake className="w-14 h-14 text-rose-500 mx-auto" />,
-  pause: <Pause className="w-14 h-14 text-amber-500 mx-auto" />,
-  letgo: <Wind className="w-14 h-14 text-emerald-500 mx-auto" />,
-  reflect: <BookOpen className="w-14 h-14 text-indigo-500 mx-auto" />
-};
+type Approach = { id: string; label: string; emoji: string };
 
 function RepairReconnectInner() {
   const { t } = useTranslation(undefined, { i18n });
@@ -89,16 +66,23 @@ function RepairReconnectInner() {
   };
 
   const personOptions = [
-    { id: "friend", label: t("choose_person.options.friend", "A Friend") },
-    { id: "family", label: t("choose_person.options.family", "A Family Member") },
-    { id: "colleague", label: t("choose_person.options.colleague", "A Colleague") },
-    { id: "other", label: t("choose_person.options.other", "Someone Else") },
+    { id: "friend", label: t("choose_person.options.friend", "A Friend"), emoji: "" },
+    { id: "family", label: t("choose_person.options.family", "A Family Member"), emoji: "" },
+    { id: "colleague", label: t("choose_person.options.colleague", "A Colleague"), emoji: "" },
+    { id: "other", label: t("choose_person.options.other", "Someone Else"), emoji: "" },
   ];
 
   const approaches = (t(`choose_approach.approaches.${person}`, { returnObjects: true }) || 
                       t(`choose_approach.approaches.other`, { returnObjects: true })) as Approach[];
 
   const actionData = t(`guided_action.actions.${approach}`, { returnObjects: true }) as any;
+  const emojiMap: Record<string, string> = {
+    message: "",
+    acknowledge: "🫶",
+    pause: "️",
+    letgo: "",
+    reflect: ""
+  };
 
   // Sync edited message when template action data changes
   useEffect(() => {
@@ -176,7 +160,7 @@ function RepairReconnectInner() {
               exit={{ opacity: 0, y: -15 }}
               className="glass-card p-8 text-center space-y-6 relative rounded-[2.5rem] bg-white/70 backdrop-blur-xl border border-white/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col justify-between"
             >
-              <div className="mt-4 flex justify-center"><HeartHandshake className="w-16 h-16 text-primary" /></div>
+              <div className="text-6xl mt-4"></div>
 
               <h1 className="text-3xl font-black text-slate-800 leading-tight">
                 {t("intro.title", "Repair & Reconnect")}
@@ -226,13 +210,13 @@ function RepairReconnectInner() {
                   <button
                     key={opt.id}
                     onClick={() => setPerson(opt.id)}
-                    className={`p-5 rounded-[2rem] border flex flex-col items-center gap-4 transition-all ${
+                    className={`p-5 rounded-[2rem] border flex flex-col items-center gap-3 transition-all ${
                       person === opt.id
                         ? "border-primary bg-primary/5 text-primary scale-105 shadow-md"
                         : "border-white/60 bg-white text-slate-650 hover:bg-slate-50"
                     }`}
                   >
-                    <div>{PERSON_ICONS[opt.id]}</div>
+                    <span className="text-4xl">{opt.emoji}</span>
                     <span className="text-[10px] font-black uppercase tracking-widest text-center leading-tight">
                       {opt.label}
                     </span>
@@ -272,13 +256,13 @@ function RepairReconnectInner() {
                   <button
                     key={a.id}
                     onClick={() => setApproach(a.id)}
-                    className={`w-full p-4 rounded-2xl border text-left flex items-center gap-4 transition-all ${
+                    className={`w-full p-4 rounded-2xl border text-left flex items-center gap-3 transition-all ${
                       approach === a.id
                         ? "border-primary bg-primary/5 text-primary shadow-sm"
                         : "border-white/60 bg-white text-slate-600 hover:border-primary/25"
                     }`}
                   >
-                    <div className="bg-white/50 p-2 rounded-xl shadow-sm">{APPROACH_ICONS[a.id]}</div>
+                    <span className="text-xl">{a.emoji}</span>
                     <span className="font-bold text-xs uppercase tracking-wider">{a.label}</span>
                   </button>
                 ))}
@@ -308,7 +292,7 @@ function RepairReconnectInner() {
             >
               {/* Action Banner */}
               <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-[2.5rem] p-6 shadow-xl text-center space-y-3">
-                <div className="mb-4">{LARGE_APPROACH_ICONS[approach]}</div>
+                <div className="text-5xl">{emojiMap[approach] || ""}</div>
                 <h2 className="text-xl font-black text-slate-850">{actionData.title}</h2>
                 <p className="text-slate-500 font-semibold text-xs leading-relaxed max-w-xs mx-auto">{actionData.why}</p>
                 <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl p-4.5 border border-white/60/50">
