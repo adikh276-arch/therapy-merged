@@ -75,7 +75,10 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
       const upaId = sessionStorage.getItem('upa_id');
       const uid = sessionStorage.getItem('uid');
       
+      console.log('[PremiumComplete] Attempting to trigger webhook. Extracted from sessionStorage -> upa_id:', upaId, 'uid:', uid);
+      
       if (upaId) {
+        console.log('[PremiumComplete] Executing POST request to pathway webhook...');
         fetch('https://api.mantracare.com/webhook/pathway', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -84,7 +87,14 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
             upa_id: Number(upaId),
             ...(uid && { uid: isNaN(Number(uid)) ? uid : Number(uid) }),
           }),
-        }).catch((err) => console.error('Webhook error:', err));
+        }).then(res => {
+          console.log('[PremiumComplete] Webhook response HTTP status:', res.status);
+          return res.text();
+        }).then(text => {
+          console.log('[PremiumComplete] Webhook response body:', text);
+        }).catch((err) => console.error('[PremiumComplete] Webhook execution error:', err));
+      } else {
+        console.log('[PremiumComplete] WARNING: No upa_id found in sessionStorage! Webhook was skipped.');
       }
     }
 

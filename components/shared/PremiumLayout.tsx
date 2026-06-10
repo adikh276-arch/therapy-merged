@@ -12,10 +12,18 @@ function ActivityTrackerInner() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const upaId = searchParams.get('upa_id');
-      if (upaId) sessionStorage.setItem('upa_id', upaId);
+      console.log('[ActivityTracker] Extracted upa_id from URL:', upaId);
+      if (upaId) {
+        sessionStorage.setItem('upa_id', upaId);
+        console.log('[ActivityTracker] Saved upa_id to sessionStorage:', upaId);
+      }
 
       const uid = searchParams.get('uid');
-      if (uid) sessionStorage.setItem('uid', uid);
+      console.log('[ActivityTracker] Extracted uid from URL:', uid);
+      if (uid) {
+        sessionStorage.setItem('uid', uid);
+        console.log('[ActivityTracker] Saved uid to sessionStorage:', uid);
+      }
     }
   }, [searchParams]);
 
