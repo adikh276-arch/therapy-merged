@@ -580,18 +580,6 @@ function ALetterToSelfInner() {
     if (typeof window !== 'undefined') {
       const lang = searchParams.get('lang') || 'en';
       loadLocale(lang);
-
-      const upaId = searchParams.get('upa_id');
-      if (upaId) {
-        sessionStorage.setItem('upa_id', upaId);
-      }
-
-      console.log('upa_id: ', upaId)
-      
-      const uid = searchParams.get('uid');
-      if (uid) {
-        sessionStorage.setItem('uid', uid);
-      }
     }
   }, [searchParams]);
 
@@ -669,25 +657,6 @@ function ALetterToSelfInner() {
         body: JSON.stringify(currentEntryRef.current),
       });
 
-      console.log('data: ', sessionStorage.getItem('upa_id'), sessionStorage.getItem('uid'))
-
-      const upaId = typeof window !== 'undefined' ? sessionStorage.getItem('upa_id') : null;
-      const storedUid = typeof window !== 'undefined' ? sessionStorage.getItem('uid') : null;
-
-      if (upaId) {
-        console.log('completing activity')
-        await fetch('https://api.mantracare.com/webhook/pathway', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            intent: 'complete_activity',
-            upa_id: Number(upaId),
-            uid: storedUid ? (isNaN(Number(storedUid)) ? storedUid : Number(storedUid)) : undefined,
-          }),
-        }).catch((err) => console.error('Webhook error:', err));
-      }
-
-      console.log('pathway completed')
       setScreen('complete');
     } catch (err) {
       console.error('Final letter save failed:', err);

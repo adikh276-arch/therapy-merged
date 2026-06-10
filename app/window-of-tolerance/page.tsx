@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Activity, History, Save, ArrowLeft, ClipboardList, X, Circle } from "lucide-react";
+import { Activity, History, Save, ArrowLeft, ClipboardList, X, Circle, CheckCircle2 } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
@@ -105,21 +105,21 @@ function ExplainScreen({ onBack, onNext }: { onBack: () => void; onNext: () => v
 
       <div className="space-y-5">
         <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
-          <span className="text-lg mt-0.5"><Circle className="inline-block w-8 h-8" /></span>
+          <div className="w-4 h-4 rounded-full bg-rose-400 mt-1 shrink-0 shadow-inner" />
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.hyper.label", "Hyper-arousal (Flight or Fight)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.hyper.desc", "Feeling anxious, angry, flooded, or overwhelmed. Your system is stuck in high gear.")}</p>
           </div>
         </div>
         <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
-          <span className="text-lg mt-0.5"><Circle className="inline-block w-8 h-8" /></span>
+          <div className="w-4 h-4 rounded-full bg-emerald-400 mt-1 shrink-0 shadow-inner" />
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.safe.label", "Optimal Zone (Connected & Calm)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.safe.desc", "Feeling grounded, present, and capable. You can handle emotional waves easily.")}</p>
           </div>
         </div>
         <div className="flex gap-4 items-start p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50">
-          <span className="text-lg mt-0.5"><Circle className="inline-block w-8 h-8" /></span>
+          <div className="w-4 h-4 rounded-full bg-sky-400 mt-1 shrink-0 shadow-inner" />
           <div>
             <p className="font-bold text-slate-800 text-sm">{t("screens.explain.zones.hypo.label", "Hypo-arousal (Freeze or Shut Down)")}</p>
             <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{t("screens.explain.zones.hypo.desc", "Feeling numb, exhausted, spaced out, or disconnected. Your system has shut down to protect you.")}</p>
@@ -199,7 +199,9 @@ function CheckInScreen({ selected, onSelect, onBack, onNext }: CheckInProps) {
               selected === z.id ? z.color : "border-white/60 bg-white hover:bg-slate-50"
             }`}
           >
-            <span className="text-3xl mt-0.5">{z.icon}</span>
+            <span className={`text-3xl mt-0.5 ${selected === z.id ? "" : "text-slate-400"}`}>
+              {selected === z.id ? <CheckCircle2 className="w-6 h-6" /> : <Circle className="w-6 h-6" />}
+            </span>
             <div>
               <p className="font-bold text-slate-800">{z.label}</p>
               <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1.5">{z.desc}</p>
@@ -571,13 +573,29 @@ function WindowInner() {
 
   if (screen === 5) {
     return (
-      <PremiumComplete
+      <PremiumLayout
         title={t("app_title", "Window of Tolerance")}
-        message={t("complete.message", "Excellent job tuning in and regulating your nervous system today. Over time, checking in creates self-directed regulation baselines.")}
-        onRestart={() => setScreen(0)}
-                  shareEmoji="🪟"
-                  shareContent={"I just completed 'Window of Tolerance' on TherapyMantra — a guided emotional regulation that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
-      />
+        showBack={false}
+      >
+        <div className="w-full max-w-md mx-auto">
+          <PremiumComplete
+            title={t("app_title", "Window of Tolerance")}
+            message={t("complete.message", "Excellent job tuning in and regulating your nervous system today. Over time, checking in creates self-directed regulation baselines.")}
+            onRestart={() => setScreen(0)}
+            shareEmoji="🪟"
+            shareContent={"I just completed 'Window of Tolerance' on TherapyMantra — a guided emotional regulation that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+          >
+            <div className="w-full mt-2">
+              <button
+                onClick={() => setShowHistory(true)}
+                className="w-full py-4 rounded-2xl bg-white border border-slate-200 text-slate-700 font-bold hover:bg-slate-50 transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <ClipboardList size={18} /> View Past Check-ins
+              </button>
+            </div>
+          </PremiumComplete>
+        </div>
+      </PremiumLayout>
     );
   }
 

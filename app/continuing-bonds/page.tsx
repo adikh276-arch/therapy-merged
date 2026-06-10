@@ -1,8 +1,8 @@
-﻿'use client';
+'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useMemo, useEffect } from "react";
-import { Heart, History, Save, ChevronRight, X, Trash2, Calendar, Sparkles, Feather, MailOpen, Book } from "lucide-react";
+import { Heart, History, Save, ChevronRight, X, Trash2, Calendar, Sparkles, Feather, MailOpen, Book, Activity, Sun, MessageCircle, Wind } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -11,7 +11,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { apiPath } from '@/lib/apiPath';
 
 type Screen = "welcome" | "choose" | "bond" | "review" | "closing" | "complete" | "history";
-const OPTION_EMOJIS = ["️", "", "", "", ""];
+const OPTION_EMOJIS = [
+  <Book key="memories" className="w-6 h-6 text-indigo-500" />,
+  <Activity key="actions" className="w-6 h-6 text-rose-500" />,
+  <Sun key="daily" className="w-6 h-6 text-emerald-500" />,
+  <MessageCircle key="say" className="w-6 h-6 text-sky-500" />,
+  <Wind key="feeling" className="w-6 h-6 text-amber-500" />
+];
 
 interface Reflection {
   id: string;

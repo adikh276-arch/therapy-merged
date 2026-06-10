@@ -1,9 +1,9 @@
-﻿'use client';
+'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Users, Info, X, Calendar, Sparkles, Save, Heart, ChevronLeft, MailOpen } from "lucide-react";
+import { Users, Info, X, Calendar, Save, MailOpen, Handshake, Shield, Rocket, Sun, Compass } from "lucide-react";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
@@ -13,12 +13,18 @@ import { apiPath } from '@/lib/apiPath';
 const BUBBLE_COLORS = [
   "bg-rose-50 border-rose-200 text-rose-600",
   "bg-indigo-50 border-indigo-200 text-indigo-600",
-  "bg-amber-50 border-amber-200 text-amber-650",
+  "bg-amber-50 border-amber-200 text-amber-600",
   "bg-emerald-50 border-emerald-200 text-emerald-600",
   "bg-cyan-50 border-cyan-200 text-cyan-600",
 ];
 
-const BUBBLE_EMOJIS = ["", "", "", "", ""];
+const BUBBLE_EMOJIS = [
+  <Handshake key="practical" className="w-6 h-6" />,
+  <Shield key="secure" className="w-6 h-6" />,
+  <Rocket key="goals" className="w-6 h-6" />,
+  <Sun key="cheer" className="w-6 h-6" />,
+  <Compass key="counsel" className="w-6 h-6" />,
+];
 
 const POSITIONS = [
   { angle: -90, r: 105 },
@@ -39,26 +45,6 @@ interface CircleEntry {
   names: Record<string, string>;
   reflection: string;
 }
-
-const BackgroundOrbs = () => (
-  <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
-    <motion.div
-      animate={{ x: [0, 30, -20, 0], y: [0, -20, 15, 0] }}
-      transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" as const }}
-      className="absolute -top-20 -right-20 w-72 h-72 rounded-full bg-primary/10 blur-3xl"
-    />
-    <motion.div
-      animate={{ x: [0, -25, 15, 0], y: [0, 25, -10, 0] }}
-      transition={{ duration: 25, repeat: Infinity, ease: "easeInOut" as const }}
-      className="absolute top-1/3 -left-24 w-64 h-64 rounded-full bg-indigo-100/10 blur-3xl"
-    />
-    <motion.div
-      animate={{ x: [0, 20, -15, 0], y: [0, -15, 25, 0] }}
-      transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" as const }}
-      className="absolute bottom-20 right-10 w-56 h-56 rounded-full bg-emerald-100/10 blur-3xl"
-    />
-  </div>
-);
 
 function RedrawCircleInner() {
   const { t } = useTranslation(undefined, { i18n });
@@ -195,8 +181,8 @@ function RedrawCircleInner() {
           title={t("app_title", "Redraw Your Circle")}
           message={t("reflection.saved_success", "Your interpersonal map is safely stored in your journal. Cultivating these support nodes helps keep us resilient.")}
           onRestart={reset}
-                  shareEmoji=""
-                  shareContent={"I just completed 'Redraw Your Circle' on TherapyMantra — a guided relationship mapping that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+          shareEmoji=""
+          shareContent={"I just completed 'Redraw Your Circle' on TherapyMantra — a guided relationship mapping that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>
     );
@@ -217,8 +203,6 @@ function RedrawCircleInner() {
       }
     >
       <div className="w-full max-w-md mx-auto flex flex-col min-h-[60vh] relative select-none">
-        <BackgroundOrbs />
-
         <AnimatePresence mode="wait">
           {/* INTRO SCREEN */}
           {screen === "intro" && (
@@ -235,18 +219,20 @@ function RedrawCircleInner() {
                 <div className="w-1.5 bg-slate-200 h-1.5 rounded-full" />
               </div>
 
-              <span className="text-5xl mt-4">🫂</span>
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mt-4">
+                <Users className="w-8 h-8 text-primary" />
+              </div>
 
-              <h1 className="text-3xl font-black text-slate-900 leading-tight">
+              <h1 className="text-3xl font-extrabold text-slate-800 leading-tight">
                 {t("intro.title", "Redraw Your Circle")}
               </h1>
 
-              <div className="text-slate-500 text-sm leading-relaxed max-w-xs space-y-3 font-medium">
+              <div className="text-slate-600 text-sm leading-relaxed max-w-sm space-y-3 font-medium">
                 <p>{t("intro.p1", "No one can survive completely alone. Our resilience comes from a web of connection.")}</p>
                 <p>{t("intro.p2", "This mapping activity helps you step back and look objectively at your current support system.")}</p>
               </div>
 
-              <p className="text-xs text-slate-400 font-semibold italic max-w-xs leading-relaxed">
+              <p className="text-xs text-slate-500 font-medium italic max-w-xs leading-relaxed">
                 {t("intro.italic", "Remember: Different people serve different purposes. Your circle is unique.")}
               </p>
 
@@ -262,7 +248,7 @@ function RedrawCircleInner() {
                 
                 <button
                   onClick={() => setScreen("history")}
-                  className="text-xs font-black uppercase tracking-widest text-slate-450 hover:text-slate-700 py-2.5 transition-colors"
+                  className="act-btn-secondary border-none shadow-none"
                 >
                   {t("your_past_circles", "View Past Circles")}
                 </button>
@@ -285,25 +271,25 @@ function RedrawCircleInner() {
                 <div className="w-1.5 bg-slate-200 h-1.5 rounded-full" />
               </div>
 
-              <h2 className="text-2xl font-black text-slate-900 mt-6 leading-tight">
+              <h2 className="text-2xl font-bold text-slate-800 mt-6 leading-tight">
                 {t("circle.title", "Add Support Nodes")}
               </h2>
-              <p className="text-xs font-semibold text-slate-450 mt-1 max-w-xs text-center">
+              <p className="text-sm font-medium text-slate-500 mt-2 max-w-xs text-center">
                 {t("circle.desc", "Tap each bubble surrounding you and add the names of people who fill that space.")}
               </p>
 
               {/* Instructions Bar */}
-              <div className="mt-4 bg-white/70 border border-white/60 rounded-2xl px-4 py-2.5 flex items-center gap-2 max-w-xs shadow-sm">
-                <Info className="w-4.5 h-4.5 text-primary shrink-0" />
-                <span className="text-[11px] text-slate-500 font-bold leading-relaxed text-left">
+              <div className="mt-4 bg-slate-50 border border-slate-100 rounded-2xl px-4 py-3 flex items-start gap-3 max-w-xs shadow-sm">
+                <Info className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                <span className="text-xs text-slate-600 font-medium leading-relaxed text-left">
                   {t("circle.instruction", "You don't need to fill all bubbles. Just add who comes to mind naturally.")}
                 </span>
               </div>
 
               {/* Interactive Circle UI */}
               <div className="relative w-80 h-80 mx-auto mt-10">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-primary shadow-lg shadow-primary/20 flex flex-col items-center justify-center border-4 border-white z-10">
-                  <span className="text-white text-[11px] font-black uppercase tracking-widest">{t("circle.center_node", "Me")}</span>
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-primary shadow-sm flex flex-col items-center justify-center border-[3px] border-white z-10">
+                  <span className="text-white text-xs font-bold uppercase tracking-widest">{t("circle.center_node", "Me")}</span>
                 </div>
 
                 {Array.isArray(PROMPTS) && PROMPTS.map((prompt, i) => {
@@ -327,8 +313,8 @@ function RedrawCircleInner() {
                         top: `calc(50% + ${y}px - 40px)`,
                       }}
                     >
-                      <span className="text-xl mb-0.5">{BUBBLE_EMOJIS[i]}</span>
-                      <span className="text-[9px] font-black uppercase tracking-wide truncate max-w-full leading-tight">
+                      <span className="mb-1">{BUBBLE_EMOJIS[i]}</span>
+                      <span className="text-[10px] font-bold uppercase tracking-wide truncate max-w-full leading-tight px-1">
                         {nodeName ? nodeName : prompt.split(" ").slice(-1)[0].replace("?", "")}
                       </span>
                     </motion.button>
@@ -336,13 +322,13 @@ function RedrawCircleInner() {
                 })}
               </div>
 
-              <p className="text-[11px] text-slate-400 font-semibold italic mt-12 max-w-xs text-center">
+              <p className="text-xs text-slate-500 font-medium italic mt-12 max-w-xs text-center">
                 {t("circle.italic", "Nodes can represent family, friends, mentors, or even therapists.")}
               </p>
 
               <button
                 onClick={() => setScreen("reflection")}
-                className="mt-6 w-full max-w-xs bg-slate-900 text-white shadow-md py-4 rounded-2xl font-bold shadow-lg"
+                className="act-btn-primary w-full max-w-xs mt-6"
               >
                 {t("circle.button", "Continue to Reflection")}
               </button>
@@ -364,20 +350,22 @@ function RedrawCircleInner() {
                 <div className="w-2 bg-primary h-2 rounded-full" />
               </div>
 
-              <span className="text-4xl mt-6">🪞</span>
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mt-6">
+                <span className="text-3xl">🪞</span>
+              </div>
 
-              <h2 className="text-2xl font-black text-slate-900 mt-4 leading-tight">
+              <h2 className="text-2xl font-bold text-slate-800 mt-4 leading-tight">
                 {t("reflection.title", "Coping Reflection")}
               </h2>
 
-              <div className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 shadow-sm space-y-4 max-w-sm mt-6 text-left">
-                <p className="text-slate-500 font-bold text-xs leading-relaxed">
+              <div className="bg-white border border-slate-100 rounded-3xl p-5 shadow-sm space-y-4 max-w-sm mt-6 text-left">
+                <p className="text-slate-600 font-medium text-sm leading-relaxed">
                   {t("reflection.p_intro", "Take a look at the support system you mapped out. Keep these thoughts in mind:")}
                 </p>
-                <ul className="space-y-2 text-slate-600 text-xs font-semibold pl-1">
+                <ul className="space-y-3 text-slate-600 text-sm font-medium pl-1">
                   {Array.isArray(reflectionList) && reflectionList.map((item, idx) => (
-                    <li key={idx} className="flex gap-2 items-start">
-                      <span className="text-primary mt-0.5"></span>
+                    <li key={idx} className="flex gap-3 items-start">
+                      <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0"></span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -385,7 +373,7 @@ function RedrawCircleInner() {
               </div>
 
               <div className="w-full max-w-sm space-y-2 mt-6 text-left">
-                <label className="text-[10px] font-black text-slate-450 uppercase tracking-widest pl-1">
+                <label className="field-label">
                   {t("reflection.label", "Your reflection notes")}
                 </label>
                 <textarea
@@ -397,20 +385,18 @@ function RedrawCircleInner() {
                 />
               </div>
 
-              <div className="flex flex-col gap-2 mt-6 w-full max-w-sm">
-                <motion.button
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
+              <div className="flex flex-col gap-3 mt-8 w-full max-w-sm">
+                <button
                   onClick={handleSave}
                   disabled={isSaving}
-                  className="w-full py-4.5 rounded-2xl bg-primary text-white font-bold shadow-lg flex items-center justify-center gap-2"
+                  className="act-btn-primary"
                 >
-                  <Save size={18} />
+                  <Save size={18} className="mr-2 inline-block" />
                   {isSaving ? "Saving..." : t("reflection.save_button", "Save Reflection")}
-                </motion.button>
+                </button>
                 <button
                   onClick={reset}
-                  className="w-full py-2.5 text-slate-450 hover:text-slate-700 font-bold text-xs uppercase tracking-widest"
+                  className="act-btn-secondary border-none shadow-none"
                 >
                   {t("reflection.skip_button", "Skip")}
                 </button>
@@ -428,52 +414,52 @@ function RedrawCircleInner() {
               className="flex-1 flex flex-col relative z-10 py-4 text-left"
             >
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-xl font-black text-slate-900">{t("your_past_circles", "Support Archive")}</h2>
+                <h2 className="text-xl font-bold text-slate-800">{t("your_past_circles", "Support Archive")}</h2>
                 <button 
                   onClick={() => setScreen("intro")} 
-                  className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-slate-800 transition-colors"
+                  className="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-slate-800 transition-colors"
                 >
                   Back
                 </button>
               </div>
 
               {isLoading ? (
-                <div className="text-center py-12 text-slate-400 font-bold text-xs uppercase tracking-widest">
+                <div className="text-center py-12 text-slate-500 font-bold text-xs uppercase tracking-widest">
                   Loading history...
                 </div>
               ) : entries.length === 0 ? (
-                <div className="text-center py-16 bg-white rounded-3xl border border-white/60 shadow-sm space-y-4 text-center">
-                  <span className="text-4xl block"><MailOpen className="inline-block w-8 h-8" /></span>
-                  <p className="text-slate-450 font-bold text-sm">{t("no_entries_yet", "No circles mapped yet.")}</p>
+                <div className="text-center py-16 bg-slate-50 rounded-3xl border border-slate-100 shadow-sm space-y-4 text-center">
+                  <span className="text-4xl block"><MailOpen className="inline-block w-8 h-8 text-slate-400" /></span>
+                  <p className="text-slate-500 font-medium text-sm">{t("no_entries_yet", "No circles mapped yet.")}</p>
                 </div>
               ) : (
-                <div className="space-y-4 max-h-[50vh] overflow-y-auto pr-1">
+                <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-1">
                   {entries.map((entry) => {
                     const namesList = Object.values(entry.names).filter(Boolean);
                     return (
                       <div
                         key={entry.id}
                         onClick={() => setSelectedEntry(entry)}
-                        className="w-full bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-3xl p-5 hover:shadow-lg transition-all cursor-pointer relative group flex flex-col gap-2"
+                        className="w-full bg-white border border-slate-100 shadow-sm rounded-3xl p-5 hover:border-slate-200 hover:shadow-md transition-all cursor-pointer relative group flex flex-col gap-2"
                       >
                         <button
                           onClick={(e) => deleteCircle(entry.id, e)}
-                          className="absolute top-4 right-4 text-slate-350 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity"
+                          className="absolute top-4 right-4 text-slate-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity"
                         >
                           <X size={16} />
                         </button>
                         
-                        <div className="flex items-center gap-1.5 text-slate-400">
+                        <div className="flex items-center gap-1.5 text-slate-500">
                           <Calendar size={12} />
-                          <span className="text-[10px] font-black uppercase tracking-wider">
+                          <span className="text-[10px] font-bold uppercase tracking-wider">
                             {parseDbDate(entry.date).toLocaleDateString()}
                           </span>
                         </div>
-                        <p className="text-slate-800 font-bold text-base line-clamp-1 leading-snug">
+                        <p className="text-slate-800 font-bold text-base line-clamp-1 leading-snug mt-1">
                           {namesList.length > 0 ? namesList.join(", ") : "No names added"}
                         </p>
                         {entry.reflection && (
-                          <p className="text-slate-500 text-xs italic font-medium line-clamp-2 mt-1">
+                          <p className="text-slate-600 text-sm italic font-medium line-clamp-2 mt-2">
                             "{entry.reflection}"
                           </p>
                         )}
@@ -493,7 +479,7 @@ function RedrawCircleInner() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-slate-900/30 backdrop-blur-sm flex items-end justify-center z-50 px-4"
+              className="fixed inset-0 bg-slate-900/50 flex items-end justify-center z-50 px-4"
               onClick={() => setActiveIndex(null)}
             >
               <motion.div
@@ -502,11 +488,11 @@ function RedrawCircleInner() {
                 exit={{ y: 100 }}
                 transition={{ type: "spring", damping: 25, stiffness: 220 }}
                 onClick={(e) => e.stopPropagation()}
-                className="bg-white rounded-t-[2.5rem] w-full max-w-md p-6 pb-12 shadow-2xl"
+                className="bg-white rounded-t-[2.5rem] w-full max-w-md p-6 pb-12 shadow-xl"
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-base font-black text-slate-900 flex items-center gap-2">
-                    <span className="text-xl">{BUBBLE_EMOJIS[activeIndex]}</span>
+                  <h3 className="text-base font-bold text-slate-800 flex items-center gap-3">
+                    <span className="text-primary">{BUBBLE_EMOJIS[activeIndex]}</span>
                     {t("circle.modal.title", "Add Support Node")}
                   </h3>
                   <button
@@ -517,7 +503,7 @@ function RedrawCircleInner() {
                   </button>
                 </div>
                 
-                <p className="text-xs font-bold text-slate-400 mb-4 leading-relaxed">
+                <p className="text-sm font-medium text-slate-600 mb-6 leading-relaxed">
                   {PROMPTS[activeIndex]}
                 </p>
                 
@@ -528,7 +514,7 @@ function RedrawCircleInner() {
                   onKeyDown={(e) => e.key === "Enter" && handleSaveBubbleName()}
                   placeholder={t("circle.modal.placeholder", "Name of person...")}
                   autoFocus
-                  className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-transparent rounded-2xl px-5 py-4 text-sm text-slate-800 outline-none focus:bg-white focus:border-primary/20 transition-all font-semibold"
+                  className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-5 py-4 text-sm text-slate-800 outline-none focus:bg-white focus:border-primary/30 transition-all font-medium shadow-sm"
                 />
                 
                 <button
@@ -549,7 +535,7 @@ function RedrawCircleInner() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-slate-900/30 backdrop-blur-sm flex items-end justify-center z-50 px-4"
+              className="fixed inset-0 bg-slate-900/50 flex items-end justify-center z-50 px-4"
               onClick={() => setSelectedEntry(null)}
             >
               <motion.div
@@ -558,10 +544,10 @@ function RedrawCircleInner() {
                 exit={{ y: 100 }}
                 transition={{ type: "spring", damping: 25, stiffness: 220 }}
                 onClick={(e) => e.stopPropagation()}
-                className="bg-white rounded-t-[2.5rem] w-full max-w-md p-6 pb-12 shadow-2xl max-h-[80vh] overflow-y-auto"
+                className="bg-white rounded-t-[2.5rem] w-full max-w-md p-6 pb-12 shadow-xl max-h-[85vh] overflow-y-auto"
               >
-                <div className="flex items-center justify-between mb-6 border-b border-slate-50 pb-2">
-                  <h3 className="text-base font-black text-slate-900">
+                <div className="flex items-center justify-between mb-6 border-b border-slate-100 pb-4">
+                  <h3 className="text-base font-bold text-slate-800">
                     Circle mapping — {parseDbDate(selectedEntry.date).toLocaleDateString()}
                   </h3>
                   <button
@@ -576,13 +562,13 @@ function RedrawCircleInner() {
                   {PROMPTS.map((prompt, i) => {
                     const nodeName = selectedEntry.names[String(i)];
                     return (
-                      <div key={i} className="flex items-start gap-4 p-4 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border border-white/60/50 text-left">
-                        <span className="text-2xl mt-0.5">{BUBBLE_EMOJIS[i]}</span>
-                        <div className="space-y-0.5">
-                          <p className="text-sm font-black text-slate-800">
+                      <div key={i} className="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm text-left">
+                        <span className="text-primary mt-1">{BUBBLE_EMOJIS[i]}</span>
+                        <div className="space-y-1">
+                          <p className="text-sm font-bold text-slate-800">
                             {nodeName || "—"}
                           </p>
-                          <p className="text-[10px] text-slate-400 font-bold leading-normal">
+                          <p className="text-xs text-slate-500 font-medium leading-normal">
                             {prompt}
                           </p>
                         </div>
@@ -592,11 +578,11 @@ function RedrawCircleInner() {
                 </div>
 
                 {selectedEntry.reflection && (
-                  <div className="mt-5 p-5 bg-primary/5 rounded-3xl border border-primary/10 text-left">
-                    <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1.5">
+                  <div className="mt-6 p-5 bg-primary/5 rounded-2xl border border-primary/10 text-left shadow-sm">
+                    <p className="text-[10px] font-bold text-primary uppercase tracking-widest mb-2">
                        Reflection
                     </p>
-                    <p className="text-sm text-slate-750 font-medium leading-relaxed italic">
+                    <p className="text-sm text-slate-700 font-medium leading-relaxed italic">
                       "{selectedEntry.reflection}"
                     </p>
                   </div>

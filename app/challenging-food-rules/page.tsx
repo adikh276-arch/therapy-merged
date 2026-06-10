@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -68,14 +68,19 @@ function ChallengingFoodRulesInner() {
 
   if (screen === "close") {
     return (
-      <PremiumLayout title={t("app_title")}>
-        <PremiumComplete
-          title={t("app_title")}
-          message={t("complete_message")}
-          onRestart={resetFlow}
-                  shareEmoji="️"
-                  shareContent={"I just completed 'Challenging Food Rules' on TherapyMantra — a guided mindful eating exercise that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
-        />
+      <PremiumLayout
+        title={t("app_title")}
+        showBack={false}
+      >
+        <div className="w-full max-w-md mx-auto">
+          <PremiumComplete
+            title={t("app_title")}
+            message={t("complete_message")}
+            onRestart={resetFlow}
+            shareEmoji="️"
+            shareContent={"I just completed 'Challenging Food Rules' on TherapyMantra — a guided mindful eating exercise that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+          />
+        </div>
       </PremiumLayout>
     );
   }
@@ -222,7 +227,7 @@ function ChallengingFoodRulesInner() {
                     <div key={opt} className="space-y-3">
                       <button
                         onClick={() => setChallengeChoice(opt)}
-                        className={`w-full text-left p-6 rounded-2xl border transition-all ${challengeChoice === opt ? "bg-slate-850 text-white border-slate-850 shadow-xl" : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"}`}
+                        className={`w-full text-left p-6 rounded-2xl border transition-all ${challengeChoice === opt ? "bg-slate-900 text-white border-slate-900 shadow-xl" : "bg-white/50 backdrop-blur-md border-white/50 shadow-sm text-slate-600 hover:bg-white/80 hover:shadow-md"}`}
                       >
                         <span className="font-bold text-base">{opt}</span>
                       </button>

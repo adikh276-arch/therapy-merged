@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback, useRef } from "react";
@@ -7,6 +7,7 @@ import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadLocale } from "./i18n";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
+import { handlePlatformExit } from "@/lib/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { apiPath } from '@/lib/apiPath';
 
@@ -173,6 +174,8 @@ function TheUnsentLetterInner() {
           ? () => setScreen("writing")
           : screen === "history"
           ? () => setScreen("intro")
+          : screen === "intro"
+          ? handlePlatformExit
           : undefined
       }
     >
@@ -348,7 +351,7 @@ function TheUnsentLetterInner() {
                 </motion.button>
 
                 <button
-                  onClick={reset}
+                  onClick={() => handlePlatformExit()}
                   className="w-full py-3.5 text-slate-450 hover:text-slate-700 font-bold text-xs uppercase tracking-widest text-center"
                 >
                   {t("reflection.finish_button", "Finish without saving")}

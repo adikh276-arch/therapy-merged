@@ -139,17 +139,25 @@ function MemoryBoxInner() {
       if (res.ok) {
         const rows = await res.json();
         const formatted = rows.map((r: any) => {
-          try {
-            return JSON.parse(r.memory_data) as Memory;
-          } catch {
-            return {
-              id: r.id,
-              name: "Loved One",
-              category: "General",
-              text: r.memory_data,
-              createdAt: r.created_at,
-            } as Memory;
+          let parsed;
+          if (typeof r.memory_data === "object" && r.memory_data !== null) {
+            parsed = r.memory_data;
+          } else {
+            try {
+              parsed = JSON.parse(r.memory_data);
+            } catch {
+              parsed = {
+                name: "Loved One",
+                category: "General",
+                text: String(r.memory_data),
+              };
+            }
           }
+          return {
+            id: r.id,
+            createdAt: r.created_at,
+            ...parsed,
+          } as Memory;
         });
         setMemories(formatted);
       }

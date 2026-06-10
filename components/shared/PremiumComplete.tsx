@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, RotateCcw, Share2, Home } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useSound } from '@/lib/hooks/useSound';
+import { handlePlatformExit } from '@/lib/navigation';
 import ShareModal from './ShareModal';
 
 interface PremiumCompleteProps {
@@ -68,6 +69,25 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   useEffect(() => {
     playComplete();
     const timer = setTimeout(() => setShowConfetti(false), 3200);
+
+    // Trigger global activity completion webhook
+    if (typeof window !== 'undefined') {
+      const upaId = sessionStorage.getItem('upa_id');
+      const uid = sessionStorage.getItem('uid');
+      
+      if (upaId) {
+        fetch('https://api.mantracare.com/webhook/pathway', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            intent: 'complete_activity',
+            upa_id: Number(upaId),
+            ...(uid && { uid: isNaN(Number(uid)) ? uid : Number(uid) }),
+          }),
+        }).catch((err) => console.error('Webhook error:', err));
+      }
+    }
+
     return () => clearTimeout(timer);
   }, [playComplete]);
 
@@ -78,13 +98,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
 
   const handleHome = () => {
     if (onHome) { onHome(); return; }
-    if (typeof window !== 'undefined') {
-      if (window.parent !== window) {
-        window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-      } else {
-        window.location.href = 'https://web.mantracare.com';
-      }
-    }
+    handlePlatformExit();
   };
 
   return (

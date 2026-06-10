@@ -1,9 +1,34 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, RotateCcw } from 'lucide-react';
 import { handlePlatformExit } from '../../lib/navigation';
+
+function ActivityTrackerInner() {
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const upaId = searchParams.get('upa_id');
+      if (upaId) sessionStorage.setItem('upa_id', upaId);
+
+      const uid = searchParams.get('uid');
+      if (uid) sessionStorage.setItem('uid', uid);
+    }
+  }, [searchParams]);
+
+  return null;
+}
+
+function ActivityTracker() {
+  return (
+    <Suspense fallback={null}>
+      <ActivityTrackerInner />
+    </Suspense>
+  );
+}
 
 interface PremiumLayoutProps {
   children: React.ReactNode;
@@ -35,6 +60,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
       className="min-h-screen flex flex-col overflow-x-hidden relative"
       style={{ background: '#F6F7F9', fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif' }}
     >
+      <ActivityTracker />
       {/* ── Very subtle ambient orbs — neutral, calming ── */}
       <motion.div
         animate={{ x: [0, 20, 0], y: [0, -14, 0] }}

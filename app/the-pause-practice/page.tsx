@@ -1,9 +1,9 @@
-﻿'use client';
+'use client';
 
 import { useState, useRef, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation, I18nextProvider } from "react-i18next";
-import { Timer, Sparkles, Pause, Check } from "lucide-react";
+import { Timer, Sparkles, Pause, Check, MessageSquare, CalendarX2, UserMinus, Wind } from "lucide-react";
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
 import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import i18n, { loadLocale } from "./i18n";
@@ -171,6 +171,13 @@ function ScenarioScreen({ onNext }: { onNext: (scenario: string) => void }) {
 
   const scenarios = t("scenario.options", { returnObjects: true }) as any[];
 
+  const SCENARIO_ICONS: Record<string, React.ReactNode> = {
+    interrupts: <MessageSquare className="w-5 h-5 text-rose-500" />,
+    plans: <CalendarX2 className="w-5 h-5 text-amber-500" />,
+    ignored: <UserMinus className="w-5 h-5 text-sky-500" />,
+    overwhelmed: <Wind className="w-5 h-5 text-emerald-500" />,
+  };
+
   const handleSelect = (id: string) => {
     setSelected(id);
     if (id !== "other") setCustomText("");
@@ -204,8 +211,8 @@ function ScenarioScreen({ onNext }: { onNext: (scenario: string) => void }) {
                 : "bg-white border-white/60 hover:border-slate-200"
             }`}
           >
-            <span className="text-xl">{s.icon}</span>
-            <span className="font-semibold text-base">
+            <div className="bg-slate-50 p-2 rounded-xl border border-slate-100">{SCENARIO_ICONS[s.id] || <Sparkles className="w-5 h-5 text-slate-400" />}</div>
+            <span className="font-semibold text-sm text-slate-700">
               {s.label}
             </span>
           </button>
@@ -332,8 +339,10 @@ function PauseInner() {
               exit={{ opacity: 0, y: -20 }}
               className="flex flex-col items-center justify-center min-h-[50vh] px-8 text-center py-8"
             >
-              <div className="text-6xl mb-8"><Pause className="inline-block w-8 h-8" /></div>
-              <h1 className="text-3xl font-extrabold text-slate-800 mb-4">{t("intro.title")}</h1>
+              <div className="mb-8 bg-primary/10 w-24 h-24 rounded-full flex items-center justify-center shadow-inner">
+                <Pause className="w-10 h-10 text-primary" />
+              </div>
+              <h1 className="text-3xl font-black text-slate-800 mb-4">{t("intro.title")}</h1>
               <p className="text-lg text-slate-500 leading-relaxed mb-3 max-w-xs">{t("intro.description")}</p>
               <p className="text-sm text-slate-400 mb-10">{t("intro.duration")}</p>
               <div className="w-full max-w-xs">
