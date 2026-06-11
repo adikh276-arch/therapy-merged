@@ -197,7 +197,7 @@ function SelfCareBingoInner() {
         ))}
       </div>
 
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh] text-center">
+      <div className="w-full max-w-xl mx-auto flex flex-col px-3 sm:px-6 py-4 min-h-[70vh] text-center">
         <AnimatePresence mode="wait">
           {/* SCREEN 1: INTRO */}
           {screen === 'intro' && (
@@ -256,7 +256,7 @@ function SelfCareBingoInner() {
               </div>
 
               {/* B-I-N-G-O letters grid */}
-              <div className="grid grid-cols-5 gap-2.5">
+              <div className="grid grid-cols-5 gap-2 sm:gap-3">
                 {BINGO_LETTERS.map(({ letter, color }) => (
                   <div
                     key={letter}
@@ -268,7 +268,7 @@ function SelfCareBingoInner() {
               </div>
 
               {/* 5x5 Grid */}
-              <div className="grid grid-cols-5 gap-2.5">
+              <div className="grid grid-cols-5 gap-2 sm:gap-3">
                 {BINGO_TILES.map((tile, idx) => {
                   const isCompleted = completed.has(idx);
                   const isFreeSpace = idx === 12;
@@ -280,7 +280,7 @@ function SelfCareBingoInner() {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleTileClick(idx)}
-                      className={`relative aspect-square rounded-2xl border flex flex-col items-center justify-center p-1.5 text-center transition-all duration-300 group ${
+                      className={`relative aspect-square rounded-xl sm:rounded-2xl border flex flex-col items-center justify-center p-1 sm:p-2 text-center transition-all duration-300 group ${
                         isCompleted
                           ? isFreeSpace
                             ? 'bg-gradient-to-r from-primary to-sky-400 border-none border-slate-900 text-white shadow-md'
