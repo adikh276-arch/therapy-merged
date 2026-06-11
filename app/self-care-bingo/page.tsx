@@ -291,8 +291,8 @@ function SelfCareBingoInner() {
                       <span className="text-xl mb-0.5 group-hover:scale-110 transition-transform">
                         {tile.icon || tile.emoji}
                       </span>
-                      <span className={`text-[6px] font-black uppercase tracking-tight leading-none ${
-                        isCompleted ? 'opacity-30' : 'opacity-100'
+                      <span className={`text-[9px] sm:text-[10px] font-black uppercase tracking-tight leading-tight ${
+                        isCompleted ? 'opacity-40' : 'opacity-100'
                       }`}>
                         {label}
                       </span>
