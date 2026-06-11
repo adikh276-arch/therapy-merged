@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -287,7 +287,7 @@ function VibeTrackerInner() {
                           : "bg-white/80 backdrop-blur-sm border-white text-slate-700 hover:border-sky-100"
                       }`}
                     >
-                      <span className="text-2xl mb-1.5">{vibe.emoji}</span>
+                      <span className="mb-2 opacity-90">{vibe.icon}</span>
                       <span className="text-[11px] font-semibold uppercase tracking-wider opacity-80">
                         {t(`vibes.${vibe.label}`, vibe.label)}
                       </span>
