@@ -109,7 +109,8 @@ function PhysicalActivityLogInner() {
         }),
       });
       if (res.ok) {
-        setActivities(prev => [await res.json(), ...prev]);
+        const newRecord = await res.json();
+        setActivities(prev => [newRecord, ...prev]);
         setActivityName(''); setDuration(''); setNotes('');
         setShowForm(false);
       }
