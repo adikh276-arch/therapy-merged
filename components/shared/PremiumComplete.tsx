@@ -107,7 +107,6 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
     t('common.completion_message', "You've successfully completed this activity. Take a moment to appreciate your progress.");
 
   const handleHome = () => {
-    if (onHome) { onHome(); return; }
     handlePlatformExit();
   };
 

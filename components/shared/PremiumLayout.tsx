@@ -59,7 +59,6 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   icon,
 }) => {
   const handleBack = () => {
-    if (onBack) { onBack(); return; }
     handlePlatformExit();
   };
 
