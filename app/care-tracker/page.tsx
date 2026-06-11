@@ -311,21 +311,6 @@ function CareTrackerInner() {
     <PremiumLayout
       title={getTitle()}
       icon={<Activity className="w-6 h-6 text-primary" />}
-      onBack={
-        screen === 'checkin'
-          ? () => setScreen('intro')
-          : screen === 'activities' || screen === 'noSelfCare'
-          ? () => setScreen('checkin')
-          : screen === 'duration'
-          ? () => setScreen('activities')
-          : screen === 'mood'
-          ? () => setScreen(entry.didSelfCare ? 'duration' : 'noSelfCare')
-          : screen === 'statement'
-          ? () => setScreen('mood')
-          : screen === 'history'
-          ? () => setScreen('review')
-          : undefined
-      }
       onReset={screen !== 'intro' && screen !== 'review' ? resetFlow : undefined}
     >
       <div className="w-full max-w-md mx-auto min-h-[70vh]">
