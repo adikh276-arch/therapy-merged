@@ -643,10 +643,14 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                   <div className="flex items-center gap-3">
                     <button 
                       onClick={() => {
-                        if (window.parent !== window) {
-                           window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-                        } else {
-                           window.location.href = 'https://web.mantracare.com';
+                        if (typeof window !== 'undefined') {
+                          if ((window as any).ReactNativeWebView) {
+                            (window as any).ReactNativeWebView.postMessage(JSON.stringify({ action: 'exit' }));
+                          } else if (window.parent !== window) {
+                             window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+                          } else {
+                             window.location.href = 'https://web.mantracare.com';
+                          }
                         }
                       }} 
                       className="p-2 -ml-2 text-slate-400 hover:text-slate-600"
@@ -677,10 +681,14 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         onClick={() => {
                           playPop();
                           if (tool.id === 'mindful-space') {
-                            if (window.parent !== window) {
-                              window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
-                            } else {
-                              window.location.href = 'https://web.mantracare.com';
+                            if (typeof window !== 'undefined') {
+                              if ((window as any).ReactNativeWebView) {
+                                (window as any).ReactNativeWebView.postMessage(JSON.stringify({ action: 'mindful' }));
+                              } else if (window.parent !== window) {
+                                window.parent.postMessage({ action: 'mindful' }, 'https://web.mantracare.com');
+                              } else {
+                                window.location.href = 'https://web.mantracare.com';
+                              }
                             }
                           } else if (tool.url?.startsWith('http')) {
                             window.location.href = withLang(tool.url);
@@ -715,7 +723,9 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                           playPop();
                           if (topic.id === 'ocd') {
                             if (typeof window !== 'undefined') {
-                              if (window.parent !== window) {
+                              if ((window as any).ReactNativeWebView) {
+                                (window as any).ReactNativeWebView.postMessage(JSON.stringify({ action: 'ocd' }));
+                              } else if (window.parent !== window) {
                                 window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
                               } else {
                                 window.location.href = withLang('https://web.mantracare.com');

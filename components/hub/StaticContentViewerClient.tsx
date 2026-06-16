@@ -20,10 +20,14 @@ export function StaticContentViewerClient({ concern, type }: StaticContentViewer
       <header className="flex items-center px-4 h-14 bg-white border-b gap-3 flex-shrink-0">
         <button
           onClick={() => {
-            if (typeof window !== 'undefined' && window.parent !== window) {
-              window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-            } else {
-              router.back();
+            if (typeof window !== 'undefined') {
+              if ((window as any).ReactNativeWebView) {
+                (window as any).ReactNativeWebView.postMessage(JSON.stringify({ action: 'exit' }));
+              } else if (window.parent !== window) {
+                window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
+              } else {
+                router.back();
+              }
             }
           }}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
