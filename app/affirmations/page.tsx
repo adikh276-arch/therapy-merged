@@ -186,23 +186,23 @@ const feelings: Feeling[] = [
 ];
 
 const FEELING_COLORS = [
-  "bg-blue-50 text-blue-600 border-blue-100 hover:bg-blue-100 dark:bg-blue-950/20 dark:text-blue-400 dark:border-blue-900/30 dark:hover:bg-blue-950/40",
-  "bg-purple-50 text-purple-600 border-purple-100 hover:bg-purple-100 dark:bg-purple-950/20 dark:text-purple-400 dark:border-purple-900/30 dark:hover:bg-purple-950/40",
-  "bg-indigo-50 text-indigo-600 border-indigo-100 hover:bg-indigo-100 dark:bg-indigo-950/20 dark:text-indigo-400 dark:border-indigo-900/30 dark:hover:bg-indigo-950/40",
-  "bg-rose-50 text-rose-600 border-rose-100 hover:bg-rose-100 dark:bg-rose-950/20 dark:text-rose-400 dark:border-rose-900/30 dark:hover:bg-rose-950/40",
-  "bg-amber-50 text-amber-600 border-amber-100 hover:bg-amber-100 dark:bg-amber-950/20 dark:text-amber-400 dark:border-amber-900/30 dark:hover:bg-amber-950/40",
-  "bg-teal-50 text-teal-600 border-teal-100 hover:bg-teal-100 dark:bg-teal-950/20 dark:text-teal-400 dark:border-teal-900/30 dark:hover:bg-teal-950/40",
-  "bg-cyan-50 text-cyan-600 border-cyan-100 hover:bg-cyan-100 dark:bg-cyan-950/20 dark:text-cyan-400 dark:border-cyan-900/30 dark:hover:bg-cyan-950/40",
-  "bg-emerald-50 text-emerald-600 border-emerald-100 hover:bg-emerald-100 dark:bg-emerald-950/20 dark:text-emerald-400 dark:border-emerald-900/30 dark:hover:bg-emerald-950/40",
+  "bg-blue-50 text-blue-600 border-blue-100 hover:bg-blue-100    ",
+  "bg-purple-50 text-purple-600 border-purple-100 hover:bg-purple-100    ",
+  "bg-indigo-50 text-indigo-600 border-indigo-100 hover:bg-indigo-100    ",
+  "bg-rose-50 text-rose-600 border-rose-100 hover:bg-rose-100    ",
+  "bg-amber-50 text-amber-600 border-amber-100 hover:bg-amber-100    ",
+  "bg-teal-50 text-teal-600 border-teal-100 hover:bg-teal-100    ",
+  "bg-cyan-50 text-cyan-600 border-cyan-100 hover:bg-cyan-100    ",
+  "bg-emerald-50 text-emerald-600 border-emerald-100 hover:bg-emerald-100    ",
 ];
 
 const premiumTints = [
   "bg-primary/5 border-primary/20",
-  "bg-cyan-50 border-cyan-100 dark:bg-cyan-950/10 dark:border-cyan-900/20",
-  "bg-blue-50 border-blue-100 dark:bg-blue-950/10 dark:border-blue-900/20",
-  "bg-emerald-50 border-emerald-100 dark:bg-emerald-950/10 dark:border-emerald-900/20",
-  "bg-sky-50 border-sky-100 dark:bg-sky-950/10 dark:border-sky-900/20",
-  "bg-teal-50 border-teal-100 dark:bg-teal-950/10 dark:border-teal-900/20",
+  "bg-cyan-50 border-cyan-100  ",
+  "bg-blue-50 border-blue-100  ",
+  "bg-emerald-50 border-emerald-100  ",
+  "bg-sky-50 border-sky-100  ",
+  "bg-teal-50 border-teal-100  ",
 ];
 
 // --- Sub-components ---
@@ -213,10 +213,10 @@ function FeelingSelector({ onSelect }: { onSelect: (feelingId: string, colorInde
   return (
     <div className="space-y-6">
       <div className="text-center space-y-2">
-        <h2 className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+        <h2 className="text-2xl font-black text-slate-900 tracking-tight">
           {t('feelings_heading', 'How are you feeling?')}
         </h2>
-        <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+        <p className="text-slate-500 text-sm font-medium">
           {t('feelings_subheading', "Select the emotion you're experiencing right now.")}
         </p>
       </div>
@@ -235,7 +235,7 @@ function FeelingSelector({ onSelect }: { onSelect: (feelingId: string, colorInde
             <span className="font-bold text-base">
               {t(`feelings.${feeling.id}.label`, feeling.label)}
             </span>
-            <div className="w-8 h-8 rounded-full bg-white/50 dark:bg-white/10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            <div className="w-8 h-8 rounded-full bg-white/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                <span className="text-xl font-bold">→</span>
             </div>
           </motion.button>
@@ -295,7 +295,7 @@ function AffirmationScreen({
           <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-2">
             {t('affirmation_for', 'Affirmation for')}
           </h2>
-          <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white">
+          <h1 className="text-3xl font-extrabold text-slate-900">
             {t(`feelings.${feelingId}.label`, feeling.label)}
           </h1>
         </div>
@@ -309,13 +309,13 @@ function AffirmationScreen({
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 1.05, y: -10 }}
               transition={{ duration: 0.4, ease: 'easeOut' }}
-              className={`w-full aspect-[4/3] rounded-[2.5rem] border ${tintClass} p-10 flex items-center justify-center text-center shadow-xl shadow-slate-200/50 dark:shadow-none relative overflow-hidden`}
+              className={`w-full aspect-[4/3] rounded-[2.5rem] border ${tintClass} p-10 flex items-center justify-center text-center shadow-xl shadow-slate-200/50  relative overflow-hidden`}
             >
               {/* Decorative element */}
-              <div className="absolute top-0 right-0 w-32 h-32 bg-white/30 dark:bg-white/5 rounded-full -mr-16 -mt-16 blur-2xl" />
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-primary/10 dark:bg-primary/5 rounded-full -ml-12 -mb-12 blur-2xl" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/30 rounded-full -mr-16 -mt-16 blur-2xl" />
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-primary/10 rounded-full -ml-12 -mb-12 blur-2xl" />
               
-              <p className="text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-100 leading-snug relative z-10">
+              <p className="text-2xl md:text-3xl font-bold text-slate-800 leading-snug relative z-10">
                 {t(`feelings.${feelingId}.affirmations.${currentIndex}`, feeling.affirmations[currentIndex])}
               </p>
             </motion.div>
@@ -343,7 +343,7 @@ function AffirmationScreen({
             whileTap={{ scale: 0.9 }}
             onClick={goPrev}
             disabled={isFirst}
-            className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-600 dark:text-slate-300 shadow-sm disabled:opacity-20 transition-all"
+            className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white border border-white/60 text-slate-600 shadow-sm disabled:opacity-20 transition-all"
           >
             <ChevronLeft size={24} />
           </motion.button>
@@ -352,8 +352,8 @@ function AffirmationScreen({
             <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">
               {t('affirmation', 'Affirmation')}
             </p>
-            <p className="text-lg font-extrabold text-slate-900 dark:text-white">
-              {currentIndex + 1} <span className="text-slate-300 dark:text-slate-700 mx-1">/</span> {total}
+            <p className="text-lg font-extrabold text-slate-900">
+              {currentIndex + 1} <span className="text-slate-300 mx-1">/</span> {total}
             </p>
           </div>
 
@@ -373,7 +373,7 @@ function AffirmationScreen({
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={onChooseAnother}
-            className="w-full py-4 rounded-2xl bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 font-bold flex items-center justify-center gap-2 hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-all"
+            className="w-full py-4 rounded-2xl bg-slate-100 text-slate-600 font-bold flex items-center justify-center gap-2 hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-all"
           >
             <RotateCcw size={18} />
             {t('common.chooseAnother', 'Choose another feeling')}
@@ -425,7 +425,7 @@ function AffirmationsInner() {
               <div
                 key={s}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-100 dark:bg-slate-800'
+                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-100 '
                 }`}
               />
             ))}

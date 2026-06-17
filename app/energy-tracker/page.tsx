@@ -89,11 +89,11 @@ function EnergyTrackerInner() {
   }, [fetchHistory]);
 
   const levelOptions = useMemo(() => [
-    { level: 'very-low' as const, emoji: EMOJI_MAP['very-low'], label: t('very_low', 'Very Low'), color: 'bg-rose-50 border-rose-100 dark:bg-rose-950/20 dark:border-rose-900/30' },
-    { level: 'low' as const, emoji: EMOJI_MAP['low'], label: t('low', 'Low'), color: 'bg-amber-50 border-amber-100 dark:bg-amber-950/20 dark:border-amber-900/30' },
-    { level: 'okay' as const, emoji: EMOJI_MAP['okay'], label: t('okay', 'Okay'), color: 'bg-blue-50 border-blue-100 dark:bg-blue-950/20 dark:border-blue-900/30' },
-    { level: 'good' as const, emoji: EMOJI_MAP['good'], label: t('good', 'Good'), color: 'bg-teal-50 border-teal-100 dark:bg-teal-950/20 dark:border-teal-900/30' },
-    { level: 'high' as const, emoji: EMOJI_MAP['high'], label: t('high', 'High'), color: 'bg-emerald-50 border-emerald-100 dark:bg-emerald-950/20 dark:border-emerald-900/30' },
+    { level: 'very-low' as const, emoji: EMOJI_MAP['very-low'], label: t('very_low', 'Very Low'), color: 'bg-rose-50 border-rose-100  ' },
+    { level: 'low' as const, emoji: EMOJI_MAP['low'], label: t('low', 'Low'), color: 'bg-amber-50 border-amber-100  ' },
+    { level: 'okay' as const, emoji: EMOJI_MAP['okay'], label: t('okay', 'Okay'), color: 'bg-blue-50 border-blue-100  ' },
+    { level: 'good' as const, emoji: EMOJI_MAP['good'], label: t('good', 'Good'), color: 'bg-teal-50 border-teal-100  ' },
+    { level: 'high' as const, emoji: EMOJI_MAP['high'], label: t('high', 'High'), color: 'bg-emerald-50 border-emerald-100  ' },
   ], [t]);
 
   const factorsOptions = useMemo(() => [
@@ -291,7 +291,7 @@ function EnergyTrackerInner() {
               <div
                 key={s}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-150 dark:bg-slate-800'
+                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-150 '
                 }`}
               />
             ))}
@@ -329,7 +329,7 @@ function EnergyTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('weekly')}
-                      className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm"
+                      className="inline-flex items-center gap-2 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white px-6 py-3 rounded-2xl border border-white/60 shadow-sm"
                     >
                       <History size={16} />
                       {t('view_weekly', 'View Weekly Trends')}
@@ -418,7 +418,7 @@ function EnergyTrackerInner() {
                   <h2 className="act-heading">
                     {t('what_affected', 'What affected your energy?')}
                   </h2>
-                  <p className="text-slate-450 dark:text-slate-500 text-xs font-bold uppercase tracking-wider">
+                  <p className="text-slate-450 text-xs font-bold uppercase tracking-wider">
                     {t('optional', 'Optional')}
                   </p>
                 </div>
@@ -507,12 +507,12 @@ function EnergyTrackerInner() {
                           initial={{ opacity: 0, x: -10 }}
                           animate={{ opacity: 1, x: 0 }}
                           transition={{ delay: i * 0.08 }}
-                          className="flex items-center gap-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 px-5 py-4 shadow-sm hover:border-primary/20 transition-all text-left"
+                          className="flex items-center gap-4 rounded-2xl bg-white border border-white/60 px-5 py-4 shadow-sm hover:border-primary/20 transition-all text-left"
                         >
                           <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
                             <s.icon className="h-5 w-5" />
                           </div>
-                          <span className="text-sm font-bold text-slate-700 dark:text-slate-300">
+                          <span className="text-sm font-bold text-slate-700">
                             {s.text}
                           </span>
                         </motion.div>
@@ -523,7 +523,7 @@ function EnergyTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('weekly')}
-                      className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-bold text-sm uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                      className="w-full py-4 rounded-2xl bg-white border border-white/60 text-slate-500 hover:text-slate-900 font-bold text-sm uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                     >
                       <History size={16} />
                       {t('view_weekly', 'View Weekly Trends')}
@@ -556,7 +556,7 @@ function EnergyTrackerInner() {
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={() => setScreen(currentLevel ? 'summary' : 'overview')}
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+                    className="p-3 bg-slate-100 text-slate-650 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
                   >
                     <ArrowLeft size={18} />
                   </motion.button>
@@ -576,7 +576,7 @@ function EnergyTrackerInner() {
                       </p>
                     </div>
                   ) : filledDays.length === 0 ? (
-                    <p className="py-12 text-center text-sm text-slate-400 dark:text-slate-500 font-medium px-4">
+                    <p className="py-12 text-center text-sm text-slate-400 font-medium px-4">
                       {t('no_entries', 'Complete 3 check-ins to see your weekly trend.')}
                     </p>
                   ) : (
@@ -603,7 +603,7 @@ function EnergyTrackerInner() {
                               x2={chartSvgContent.width}
                               y2={y}
                               stroke="var(--color-grid, #F1F5F9)"
-                              className="stroke-slate-100 dark:stroke-slate-800"
+                              className="stroke-slate-100"
                               strokeWidth={1}
                               strokeDasharray="3 3"
                             />
@@ -683,17 +683,17 @@ function EnergyTrackerInner() {
                     className={`rounded-3xl p-6 border flex gap-4 ${
                       hasEnoughData && avgValue
                         ? 'bg-primary/5 border-primary/15'
-                        : 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 border-white/60 dark:border-slate-800'
+                        : 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50  border-white/60 '
                     }`}
                   >
-                    <div className="w-10 h-10 rounded-xl bg-white dark:bg-slate-950 flex items-center justify-center shrink-0 text-primary shadow-sm">
+                    <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center shrink-0 text-primary shadow-sm">
                       <Info size={20} />
                     </div>
                     <div className="space-y-2">
                       <h3 className="text-[10px] font-black text-primary uppercase tracking-widest">
                         {t('insight', 'Energy Insight')}
                       </h3>
-                      <p className="text-sm font-bold text-slate-650 dark:text-slate-350 leading-relaxed">
+                      <p className="text-sm font-bold text-slate-650 leading-relaxed">
                         {hasEnoughData && avgValue ? (
                           avgValue >= 4 ? (
                             t(

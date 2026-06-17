@@ -28,7 +28,7 @@ const TIPS_DATA: Tip[] = [
     title: "Engage in Enjoyable Activities",
     preview: "Do small activities that bring even a tiny bit of comfort or interest.",
     icon: Heart,
-    iconBg: "bg-rose-50 dark:bg-rose-950/20 text-rose-500 border-rose-100 dark:border-rose-900/30",
+    iconBg: "bg-rose-50  text-rose-500 border-rose-100 ",
     whyItHelps: "Depression reduces motivation and pleasure. Small enjoyable actions can slowly rebuild positive feelings and energy.",
     whatYouCanDo: [
       "Listen to a favorite song",
@@ -45,7 +45,7 @@ const TIPS_DATA: Tip[] = [
     title: "Challenge Negative Thoughts",
     preview: "Notice harsh thoughts and gently replace them with balanced ones.",
     icon: Brain,
-    iconBg: "bg-cyan-50 dark:bg-cyan-950/20 text-cyan-500 border-cyan-100 dark:border-cyan-900/30",
+    iconBg: "bg-cyan-50  text-cyan-500 border-cyan-100 ",
     whyItHelps: "Depression often creates automatic negative thoughts that feel true but may not be fully accurate.",
     whatYouCanDo: [
       "Write down the negative thought",
@@ -64,7 +64,7 @@ const TIPS_DATA: Tip[] = [
     title: "Set Realistic Goals",
     preview: "Break tasks into very small steps and focus on just one.",
     icon: Target,
-    iconBg: "bg-blue-50 dark:bg-blue-950/20 text-blue-500 border-blue-100 dark:border-blue-900/30",
+    iconBg: "bg-blue-50  text-blue-500 border-blue-100 ",
     whyItHelps: "Large tasks can feel overwhelming. Small goals build confidence and momentum.",
     whatYouCanDo: [
       "Choose ONE small task",
@@ -83,7 +83,7 @@ const TIPS_DATA: Tip[] = [
     title: "Limit Stressors",
     preview: "Protect your energy by reducing overwhelming situations.",
     icon: Shield,
-    iconBg: "bg-emerald-50 dark:bg-emerald-950/20 text-emerald-500 border-emerald-100 dark:border-emerald-900/30",
+    iconBg: "bg-emerald-50  text-emerald-500 border-emerald-100 ",
     whyItHelps: "When energy is low, too many stressors can worsen symptoms.",
     whatYouCanDo: [
       "Say no to one non-essential task",
@@ -99,7 +99,7 @@ const TIPS_DATA: Tip[] = [
     title: "Practice Self-Care",
     preview: "Take care of your basic physical and emotional needs.",
     icon: Sparkles,
-    iconBg: "bg-amber-50 dark:bg-amber-950/20 text-amber-500 border-amber-100 dark:border-amber-900/30",
+    iconBg: "bg-amber-50  text-amber-500 border-amber-100 ",
     whyItHelps: "Sleep, hydration, nutrition, and sunlight strongly affect mood and brain chemistry.",
     whatYouCanDo: [
       "Drink a glass of water",
@@ -133,10 +133,10 @@ function TipsList({ onSelectTip }: { onSelectTip: (id: string) => void }) {
           <Sparkles size={14} />
           {t('notAlone', "You're not alone ")}
         </div>
-        <h1 className="text-4xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+        <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
           {t('supportForLowMood', 'Support for Low Mood')}
         </h1>
-        <p className="text-slate-500 dark:text-slate-400 text-base font-bold leading-relaxed max-w-md">
+        <p className="text-slate-500 text-base font-bold leading-relaxed max-w-md">
           {t('gentleSteps', 'Gentle steps to help you move forward, one day at a time.')}
         </p>
       </header>
@@ -159,16 +159,16 @@ function TipsList({ onSelectTip }: { onSelectTip: (id: string) => void }) {
                 whileHover={{ scale: 1.01, x: 4 }}
                 whileTap={{ scale: 0.99 }}
                 onClick={() => onSelectTip(tip.id)}
-                className="w-full text-left p-5.5 rounded-3xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800/80 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all flex items-center gap-4 group"
+                className="w-full text-left p-5.5 rounded-3xl bg-white border border-white/60 shadow-sm hover:shadow-md hover:border-primary/20 transition-all flex items-center gap-4 group"
               >
                 <div className={`w-14 h-14 rounded-2xl ${tip.iconBg} flex items-center justify-center shrink-0 transition-transform group-hover:scale-105`}>
                   <Icon className="w-6 h-6" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-slate-850 dark:text-slate-100 text-base group-hover:text-primary transition-colors">
+                  <h3 className="font-bold text-slate-850 text-base group-hover:text-primary transition-colors">
                     {k ? t(`${k}_title`, tip.title) : tip.title}
                   </h3>
-                  <p className="text-slate-400 dark:text-slate-500 text-xs font-medium leading-relaxed mt-1 line-clamp-2">
+                  <p className="text-slate-400 text-xs font-medium leading-relaxed mt-1 line-clamp-2">
                     {k ? t(`${k}_preview`, tip.preview) : tip.preview}
                   </p>
                 </div>
@@ -179,7 +179,7 @@ function TipsList({ onSelectTip }: { onSelectTip: (id: string) => void }) {
         </div>
       </div>
 
-      <p className="text-center text-slate-350 dark:text-slate-650 text-[10px] font-black uppercase tracking-[0.2em] mt-16 px-6 leading-relaxed opacity-80">
+      <p className="text-center text-slate-350 text-[10px] font-black uppercase tracking-[0.2em] mt-16 px-6 leading-relaxed opacity-80">
         {t('strugglingMessage', "If you're struggling deeply, consider reaching out to someone you trust or a mental health professional.")}
       </p>
     </div>
@@ -203,7 +203,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.92 }}
           onClick={onBack}
-          className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+          className="p-3 bg-slate-100 text-slate-650 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
         >
           <ArrowLeft size={18} />
         </motion.button>
@@ -220,7 +220,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
         <motion.h1
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
-          className="text-2xl md:text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight"
+          className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight"
         >
           {k ? t(`${k}_title`, tip.title) : tip.title}
         </motion.h1>
@@ -231,12 +231,12 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all"
+        className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-sm hover:border-primary/20 transition-all"
       >
         <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.25em] mb-4">
           {t('whyItHelps', 'Why It Helps')}
         </h2>
-        <p className="text-slate-650 dark:text-slate-350 text-base font-bold leading-relaxed">
+        <p className="text-slate-650 text-base font-bold leading-relaxed">
           {k ? t(`${k}_why`, tip.whyItHelps) : tip.whyItHelps}
         </p>
       </motion.section>
@@ -248,7 +248,7 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
         transition={{ delay: 0.2 }}
         className="space-y-4"
       >
-        <h2 className="text-lg font-black text-slate-800 dark:text-slate-200 tracking-tight px-1">
+        <h2 className="text-lg font-black text-slate-800 tracking-tight px-1">
           {t('whatYouCanDo', 'What You Can Do')}
         </h2>
         <div className="grid gap-3">
@@ -258,12 +258,12 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.25 + i * 0.08 }}
-              className="flex items-start gap-4 p-5 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-2xl border border-transparent hover:bg-white dark:hover:bg-slate-905 hover:border-primary/25 dark:hover:border-primary/30 transition-all shadow-sm"
+              className="flex items-start gap-4 p-5 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl border border-transparent hover:bg-white hover:border-primary/25 transition-all shadow-sm"
             >
               <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
                 <CheckCircle2 size={16} strokeWidth={3} />
               </div>
-              <span className="text-slate-700 dark:text-slate-350 text-sm font-bold leading-relaxed">
+              <span className="text-slate-700 text-sm font-bold leading-relaxed">
                 {t(key, tip.whatYouCanDo[i])}
               </span>
             </motion.div>
@@ -277,27 +277,27 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35 }}
-          className="p-8 bg-emerald-50/50 dark:bg-emerald-950/10 rounded-[2rem] border border-emerald-100 dark:border-emerald-900/20 shadow-sm space-y-5"
+          className="p-8 bg-emerald-50/50 rounded-[2rem] border border-emerald-100 shadow-sm space-y-5"
         >
-          <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-450 font-black text-[10px] uppercase tracking-[0.25em]">
+          <div className="flex items-center gap-2 text-emerald-600 font-black text-[10px] uppercase tracking-[0.25em]">
             <Lightbulb size={14} fill="currentColor" />
             {t('example', 'Example')}
           </div>
           <div className="space-y-4">
             <div className="space-y-1">
-              <p className="text-[9px] font-black text-emerald-400 dark:text-emerald-600 uppercase tracking-[0.2em]">
+              <p className="text-[9px] font-black text-emerald-400 uppercase tracking-[0.2em]">
                 {t('insteadOf', 'Instead of:')}
               </p>
-              <p className="text-emerald-900/60 dark:text-emerald-300/60 text-sm font-bold leading-relaxed">
+              <p className="text-emerald-900/60 text-sm font-bold leading-relaxed">
                 {k ? t(`${k}_ex_instead`, tip.example.instead) : tip.example.instead}
               </p>
             </div>
-            <div className="h-0.5 w-8 bg-emerald-100/60 dark:bg-emerald-950/30 rounded-full" />
+            <div className="h-0.5 w-8 bg-emerald-100/60 rounded-full" />
             <div className="space-y-1">
-              <p className="text-[9px] font-black text-emerald-500 dark:text-emerald-400 uppercase tracking-[0.2em]">
+              <p className="text-[9px] font-black text-emerald-500 uppercase tracking-[0.2em]">
                 {t('try', 'Try:')}
               </p>
-              <p className="text-emerald-900 dark:text-emerald-300 text-base font-black leading-snug tracking-tight">
+              <p className="text-emerald-900 text-base font-black leading-snug tracking-tight">
                 {k ? t(`${k}_ex_try`, tip.example.tryThis) : tip.example.tryThis}
               </p>
             </div>

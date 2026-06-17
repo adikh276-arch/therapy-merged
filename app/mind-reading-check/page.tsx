@@ -72,7 +72,7 @@ function MindReadingInner() {
     switch (step) {
       case 1: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step1.title', 'What happened?')}
           </h1>
           <p className="act-body">
@@ -90,14 +90,14 @@ function MindReadingInner() {
 
       case 2: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step2.title', 'What went through your mind?')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+          <p className="text-slate-500 text-sm font-medium">
             {t('steps.step2.desc', 'What did you assume they were thinking about you?')}
           </p>
-          <div className="bg-slate-50 dark:bg-slate-900/60 rounded-2xl border border-slate-100 dark:border-slate-800 px-5 py-4 text-xs font-bold text-slate-400 uppercase tracking-widest">
-            Situation: <span className="text-slate-600 dark:text-slate-300 normal-case">{situation}</span>
+          <div className="bg-slate-50 rounded-2xl border border-slate-100 px-5 py-4 text-xs font-bold text-slate-400 uppercase tracking-widest">
+            Situation: <span className="text-slate-600 normal-case">{situation}</span>
           </div>
           <textarea
             value={assumption}
@@ -111,12 +111,12 @@ function MindReadingInner() {
 
       case 3: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step3.title', "Let's slow this down")}
           </h1>
-          <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm space-y-4">
-            <div className="p-4 bg-amber-50 dark:bg-amber-950/20 rounded-2xl border border-amber-100 dark:border-amber-900/30">
-              <p className="text-amber-700 dark:text-amber-400 font-bold italic text-sm">"{assumption}"</p>
+          <div className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-sm space-y-4">
+            <div className="p-4 bg-amber-50 rounded-2xl border border-amber-100">
+              <p className="text-amber-700 font-bold italic text-sm">"{assumption}"</p>
             </div>
             <p className="act-body">
               {t('steps.step3.desc', "Right now, this thought can feel true. But before accepting it as a fact, let's take a step back and look at it more closely.")}
@@ -127,7 +127,7 @@ function MindReadingInner() {
 
       case 4: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step4.title', 'Is this true?')}
           </h1>
           <p className="act-body">
@@ -145,10 +145,10 @@ function MindReadingInner() {
 
       case 5: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step5.title', 'What else could be going on?')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+          <p className="text-slate-500 text-sm font-medium">
             {t('steps.step5.desc', 'What are 2–3 other possible explanations?')}
           </p>
           <div className="space-y-3">
@@ -167,13 +167,13 @@ function MindReadingInner() {
 
       case 6: return (
         <div className="space-y-6">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step6.title', 'Check your belief')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+          <p className="text-slate-500 text-sm font-medium">
             {t('steps.step6.desc', 'How strongly do you believe your original thought now?')}
           </p>
-          <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm space-y-6">
+          <div className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-sm space-y-6">
             <div className="text-center">
               <motion.p key={beliefLevel} initial={{ scale: 1.15 }} animate={{ scale: 1 }} className="text-5xl font-black text-primary">{beliefLevel}%</motion.p>
               <p className="text-xs font-black text-slate-400 uppercase tracking-widest mt-1">Belief Level</p>
@@ -192,10 +192,10 @@ function MindReadingInner() {
 
       case 7: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step7.title', 'A more balanced view')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+          <p className="text-slate-500 text-sm font-medium">
             {t('steps.step7.desc', 'Write a thought that feels more fair and less certain.')}
           </p>
           <textarea
@@ -210,10 +210,10 @@ function MindReadingInner() {
 
       case 8: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step8.title', 'Next time')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+          <p className="text-slate-500 text-sm font-medium">
             {t('steps.step8.desc', 'What could you do instead of assuming?')}
           </p>
           <div className="flex flex-wrap gap-2.5">
@@ -226,7 +226,7 @@ function MindReadingInner() {
                 className={`px-4 py-2.5 rounded-full text-xs font-bold border transition-all ${
                   nextTime === ex && !customNextTime
                     ? 'bg-primary text-primary-foreground border-primary'
-                    : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-primary/30'
+                    : 'bg-white  text-slate-600  border-slate-200  hover:border-primary/30'
                 }`}
               >
                 {ex}
@@ -245,18 +245,18 @@ function MindReadingInner() {
 
       case 9: return (
         <div className="space-y-5">
-          <h1 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-2xl font-black text-slate-900 leading-tight">
             {t('steps.step9.title', 'Notice the shift')}
           </h1>
           <p className="act-body">
             {t('steps.step9.desc', 'You explored different possibilities and created space for a more balanced view.')}
           </p>
           <div className="space-y-3">
-            <div className="p-5 bg-red-50 dark:bg-red-950/20 rounded-2xl border border-red-100 dark:border-red-900/30 space-y-1">
+            <div className="p-5 bg-red-50 rounded-2xl border border-red-100 space-y-1">
               <p className="text-[10px] font-black text-red-400 uppercase tracking-widest">
                 {t('steps.step9.original_label', 'Original Thought')}
               </p>
-              <p className="text-red-600 dark:text-red-400 font-bold italic text-sm">"{assumption}"</p>
+              <p className="text-red-600 font-bold italic text-sm">"{assumption}"</p>
             </div>
             <div className="p-5 bg-primary/5 rounded-2xl border border-primary/15 space-y-1">
               <p className="text-[10px] font-black text-primary uppercase tracking-widest">
@@ -310,7 +310,7 @@ function MindReadingInner() {
                     {Math.round((step / TOTAL_STEPS) * 100)}%
                   </span>
                 </div>
-                <div className="h-1.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div className="h-1.5 bg-slate-100 rounded-full overflow-hidden">
                   <motion.div
                     className="h-full bg-primary rounded-full"
                     animate={{ width: `${(step / TOTAL_STEPS) * 100}%` }}
@@ -333,7 +333,7 @@ function MindReadingInner() {
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={() => setStep(s => s - 1)}
-                    className="flex-1 py-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 font-black text-sm transition-all hover:border-primary/20"
+                    className="flex-1 py-4 rounded-2xl bg-white border border-slate-200 text-slate-600 font-black text-sm transition-all hover:border-primary/20"
                   >
                     ← Back
                   </motion.button>

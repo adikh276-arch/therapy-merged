@@ -165,21 +165,21 @@ function AngerQuizInner() {
             >
               <div className="w-32 h-32 rounded-[3rem] bg-primary/10 flex items-center justify-center text-6xl shadow-2xl animate-pulse"><HelpCircle className="inline-block w-8 h-8" /></div>
               <div className="space-y-4">
-                <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white leading-tight">
+                <h1 className="text-3xl font-extrabold text-slate-800 leading-tight">
                   {t("welcome_title", "Anger: Facts & Myths")}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 font-medium leading-relaxed max-w-xs mx-auto text-base">
+                <p className="text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-base">
                   {t("welcome_subtitle", "Anger is often misunderstood. Test your awareness of how anger functions in our lives.")}
                 </p>
               </div>
               <button
                 onClick={() => setScreen("game")}
-                className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
               >
                 {t("start_quiz", "Start Quiz")}
                 <ChevronRight size={20} strokeWidth={3} />
               </button>
-              <p className="text-slate-400 dark:text-slate-500 text-[10px] font-black uppercase tracking-[0.2em]">
+              <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
                 {t("questions_count", { count: TOTAL })}
               </p>
             </motion.div>
@@ -193,7 +193,7 @@ function AngerQuizInner() {
               exit={{ opacity: 0, scale: 0.95 }}
               className="flex-1 flex flex-col gap-6"
             >
-              <div className="w-full bg-slate-100 dark:bg-slate-850 h-1.5 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
                 <motion.div
                   className="bg-primary h-full"
                   initial={{ width: 0 }}
@@ -201,8 +201,8 @@ function AngerQuizInner() {
                 />
               </div>
 
-              <div className="relative overflow-hidden rounded-[3rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 p-8 shadow-2xl flex-1 flex flex-col justify-center min-h-[180px]">
-                <h2 className="text-xl font-black text-slate-800 dark:text-slate-200 leading-snug text-center italic">
+              <div className="relative overflow-hidden rounded-[3rem] bg-white border border-white/60 p-8 shadow-2xl flex-1 flex flex-col justify-center min-h-[180px]">
+                <h2 className="text-xl font-black text-slate-800 leading-snug text-center italic">
                   "{current.statement}"
                 </h2>
               </div>
@@ -214,7 +214,7 @@ function AngerQuizInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleAnswer("myth")}
-                      className="py-8 rounded-3xl bg-white border border-rose-50 text-rose-500 font-black text-xl shadow-xl hover:bg-rose-50/50 dark:bg-slate-900 dark:border-rose-950/20 dark:text-rose-400 transition-all"
+                      className="py-8 rounded-3xl bg-white border border-rose-50 text-rose-500 font-black text-xl shadow-xl hover:bg-rose-50/50 transition-all"
                     >
                       {t("myth_button", "Myth")}
                     </motion.button>
@@ -222,7 +222,7 @@ function AngerQuizInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleAnswer("fact")}
-                      className="py-8 rounded-3xl bg-white border border-emerald-50 text-emerald-500 font-black text-xl shadow-xl hover:bg-emerald-50/50 dark:bg-slate-900 dark:border-emerald-950/20 dark:text-emerald-400 transition-all"
+                      className="py-8 rounded-3xl bg-white border border-emerald-50 text-emerald-500 font-black text-xl shadow-xl hover:bg-emerald-50/50 transition-all"
                     >
                       {t("fact_button", "Fact")}
                     </motion.button>
@@ -237,7 +237,7 @@ function AngerQuizInner() {
                       >
                         {isCorrect ? <Check size={24} strokeWidth={4} /> : <XIcon size={24} strokeWidth={4} />}
                       </motion.div>
-                      <p className={`text-xl font-black ${isCorrect ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-455"}`}>
+                      <p className={`text-xl font-black ${isCorrect ? "text-emerald-600 " : "text-rose-600 "}`}>
                         {isCorrect ? t("correct", "Correct!") : t("incorrect", "Incorrect")}
                       </p>
                     </div>
@@ -247,19 +247,19 @@ function AngerQuizInner() {
                         <motion.div
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
-                          className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2.5rem] p-8 space-y-4 shadow-2xl"
+                          className="bg-white border border-white/60 rounded-[2.5rem] p-8 space-y-4 shadow-2xl"
                         >
                           <div className="flex items-center gap-2">
                             <span className={`px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] ${current.answer === "myth" ? "bg-rose-100 text-rose-600" : "bg-emerald-100 text-emerald-600"}`}>
                               {current.answer === "myth" ? t("its_a_myth", "It's a Myth") : t("its_a_fact", "It's a Fact")}
                             </span>
                           </div>
-                          <p className="text-slate-700 dark:text-slate-300 font-bold text-base leading-relaxed">
+                          <p className="text-slate-700 font-bold text-base leading-relaxed">
                             {current.realFact}
                           </p>
                           {current.example && (
-                            <div className="pt-4 border-t border-slate-50 dark:border-slate-850">
-                              <p className="text-slate-400 dark:text-slate-500 text-xs font-bold italic">
+                            <div className="pt-4 border-t border-slate-50">
+                              <p className="text-slate-400 text-xs font-bold italic">
                                 {t("example_label", "Example: ")}{current.example}
                               </p>
                             </div>
@@ -271,7 +271,7 @@ function AngerQuizInner() {
                     {showNext && (
                       <button
                         onClick={handleNext}
-                        className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md dark:bg-slate-100 dark:text-slate-900 font-black text-lg shadow-2xl hover:opacity-95 transition-all flex items-center justify-center gap-3"
+                        className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg shadow-2xl hover:opacity-95 transition-all flex items-center justify-center gap-3"
                       >
                         {step + 1 === TOTAL ? t("see_results", "See Quiz Results") : t("next_question", "Next Question")}
                         <ChevronRight size={20} strokeWidth={3} />
@@ -297,12 +297,12 @@ function AngerQuizInner() {
                 shareEmoji=""
                 shareContent={`I just scored ${score}/${TOTAL} on the Anger Facts & Myths Quiz in TherapyMantra. \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
               >
-                <div className="w-full bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-3xl p-8 shadow-xl text-center my-6">
+                <div className="w-full bg-white border border-slate-100 rounded-3xl p-8 shadow-xl text-center my-6">
                   <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-6 text-4xl"><Trophy className="inline-block w-8 h-8" /></div>
-                  <div className="text-6xl font-black text-slate-900 dark:text-white tabular-nums mb-2">
-                    {score}<span className="text-slate-300 dark:text-slate-700 text-3xl">/{TOTAL}</span>
+                  <div className="text-6xl font-black text-slate-900 tabular-nums mb-2">
+                    {score}<span className="text-slate-300 text-3xl">/{TOTAL}</span>
                   </div>
-                  <p className="text-slate-500 dark:text-slate-400 font-bold text-sm uppercase tracking-widest">
+                  <p className="text-slate-500 font-bold text-sm uppercase tracking-widest">
                     {score === TOTAL ? t("expert_level", "Perfect Awareness!") : 
                      score >= 3 ? t("great_progress", "Excellent Understanding") : 
                      t("learning_journey", "Great Learning Journey")}

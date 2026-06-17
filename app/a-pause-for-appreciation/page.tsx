@@ -108,10 +108,10 @@ function BreathingScreen({ onContinue }: { onContinue: () => void }) {
     <div className="flex flex-col items-center py-6">
       <div className="w-full max-w-lg space-y-8">
         <header className="text-center">
-          <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">
+          <h2 className="text-3xl font-extrabold text-slate-900 mb-2">
             {t('breathing.title', 'Arrive and Settle')}
           </h2>
-          <p className="text-slate-505 dark:text-slate-400 text-sm font-medium leading-relaxed">
+          <p className="text-slate-505 text-sm font-medium leading-relaxed">
             {t('breathing.description', 'Before continuing, allow yourself a brief pause. This moment is not about solving anything. It is about creating space.')}
           </p>
         </header>
@@ -127,7 +127,7 @@ function BreathingScreen({ onContinue }: { onContinue: () => void }) {
                 className="relative flex items-center justify-center"
               >
                 {/* Background Ring */}
-                <div className="absolute w-40 h-40 rounded-full border border-white/60 dark:border-slate-800" />
+                <div className="absolute w-40 h-40 rounded-full border border-white/60" />
                 
                 {/* Breathing Circle */}
                 <motion.div
@@ -138,7 +138,7 @@ function BreathingScreen({ onContinue }: { onContinue: () => void }) {
                 
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
                   <Wind size={24} className="text-primary mb-2 opacity-20" />
-                  <p className="text-lg font-black text-slate-800 dark:text-slate-200 uppercase tracking-widest leading-none">
+                  <p className="text-lg font-black text-slate-800 uppercase tracking-widest leading-none">
                     {phase === 'inhale' && t('breathing.inhale', 'Inhale…')}
                     {phase === 'hold' && t('breathing.hold', 'Hold…')}
                     {phase === 'exhale' && t('breathing.exhale', 'Exhale…')}
@@ -162,10 +162,10 @@ function BreathingScreen({ onContinue }: { onContinue: () => void }) {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
               >
-                <div className="w-20 h-20 bg-emerald-50 dark:bg-emerald-950/20 rounded-3xl flex items-center justify-center mx-auto text-emerald-500 shadow-sm border border-emerald-100 dark:border-emerald-900/30">
+                <div className="w-20 h-20 bg-emerald-50 rounded-3xl flex items-center justify-center mx-auto text-emerald-500 shadow-sm border border-emerald-100">
                   <Sparkles size={32} />
                 </div>
-                <p className="text-xl font-bold text-slate-800 dark:text-slate-200 leading-relaxed italic max-w-xs mx-auto">
+                <p className="text-xl font-bold text-slate-800 leading-relaxed italic max-w-xs mx-auto">
                   &quot;{t('breathing.affirmation', 'I can acknowledge what feels difficult and still remain open to noticing.')}&quot;
                 </p>
                 
@@ -225,7 +225,7 @@ function ReflectionPrompt({
                 <div
                   key={i}
                   className={`h-1.5 w-8 rounded-full transition-all duration-500 ${
-                    i < step ? 'bg-primary' : 'bg-slate-100 dark:bg-slate-800'
+                    i < step ? 'bg-primary' : 'bg-slate-100 '
                   }`}
                 />
               ))}
@@ -318,12 +318,12 @@ function IntentionScreen({ value, onChange, onContinue }: IntentionScreenProps) 
                 className={`w-full text-left p-6 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                   isSelected 
                     ? 'bg-primary border-primary text-white shadow-lg shadow-primary/20' 
-                    : 'bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-sm'
+                    : 'bg-white  border-white/60  text-slate-700  hover:bg-slate-50  hover:shadow-xl hover:shadow-primary/40 shadow-sm'
                 }`}
               >
                 <div className="flex items-center gap-4">
                   <div className={`w-10 h-10 rounded-2xl flex items-center justify-center transition-colors ${
-                    isSelected ? 'bg-white/20' : 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-400 dark:text-slate-500'
+                    isSelected ? 'bg-white/20' : 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50  text-slate-400 '
                   }`}>
                     {opt.icon}
                   </div>
@@ -390,7 +390,7 @@ function CheckInScreen({ value, onChange, onFinish }: CheckInScreenProps) {
           <h2 className="act-heading">
             {t('checkin.title', 'As you completed this reflection, which statement feels most accurate?')}
           </h2>
-          <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+          <p className="text-slate-500 text-sm font-medium">
             {t('how_do_you_feel_after_this_reflection', 'How do you feel after this reflection?')}
           </p>
         </header>
@@ -410,7 +410,7 @@ function CheckInScreen({ value, onChange, onFinish }: CheckInScreenProps) {
                 className={`w-full text-left p-5 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                   isSelected 
                     ? 'bg-primary border-primary text-white shadow-lg shadow-primary/20' 
-                    : 'bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 shadow-sm'
+                    : 'bg-white  border-white/60  text-slate-700  hover:bg-slate-50  hover:shadow-xl hover:shadow-primary/40 shadow-sm'
                 }`}
               >
                 <span className="text-sm font-bold leading-relaxed">{s}</span>
@@ -485,10 +485,10 @@ function HistoryScreen({ onBack, prompts }: HistoryScreenProps) {
       <div className="w-full max-w-lg space-y-8">
         <header className="flex items-center justify-between">
           <div className="text-left">
-            <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-1">
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">
               {t('history.title', 'Your Reflection History')}
             </h1>
-            <p className="text-slate-500 dark:text-slate-400 text-sm">
+            <p className="text-slate-500 text-sm">
               {t('your_past_reflections_appreciations', 'Your past reflections & appreciations')}
             </p>
           </div>
@@ -496,15 +496,15 @@ function HistoryScreen({ onBack, prompts }: HistoryScreenProps) {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={onBack} 
-            className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+            className="p-3 bg-slate-100 text-slate-600 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
           >
             <ArrowLeft size={20} />
           </motion.button>
         </header>
 
         {entries.length === 0 ? (
-          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-[2.5rem] border border-dashed border-slate-200 dark:border-slate-800">
-            <div className="w-16 h-16 bg-white dark:bg-slate-950 rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm">
+          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[2.5rem] border border-dashed border-slate-200">
+            <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
               <History size={32} />
             </div>
             <p className="text-slate-400 font-bold mb-6">
@@ -530,21 +530,21 @@ function HistoryScreen({ onBack, prompts }: HistoryScreenProps) {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: i * 0.05 }}
-                    className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 shadow-sm overflow-hidden"
+                    className="bg-white rounded-[2rem] border border-white/60 shadow-sm overflow-hidden"
                   >
                     <button
                       onClick={() => setExpanded(isExpanded ? null : entry.id)}
                       className="w-full text-left p-6 flex items-center justify-between group"
                     >
                       <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-slate-400 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                        <div className="w-12 h-12 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 flex items-center justify-center text-slate-400 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
                           <Calendar size={20} />
                         </div>
                         <div>
                           <p className="text-xs font-black text-slate-400 uppercase tracking-widest">
                             {formatDateString(entry.timestamp)}
                           </p>
-                          <p className="text-base font-bold text-slate-800 dark:text-slate-200 line-clamp-1 mt-1">
+                          <p className="text-base font-bold text-slate-800 line-clamp-1 mt-1">
                             {entry.checkIn}
                           </p>
                         </div>
@@ -566,14 +566,14 @@ function HistoryScreen({ onBack, prompts }: HistoryScreenProps) {
                             {entry.responses?.map((r, idx) => (
                               <div key={idx} className="space-y-1">
                                 <p className="text-[10px] font-bold text-primary uppercase tracking-widest">{prompts[idx]}</p>
-                                <p className="text-sm text-slate-600 dark:text-slate-300 font-medium leading-relaxed">{r}</p>
+                                <p className="text-sm text-slate-600 font-medium leading-relaxed">{r}</p>
                               </div>
                             ))}
                             <div className="space-y-1">
                               <p className="text-[10px] font-bold text-primary uppercase tracking-widest">
                                 {t('history.prompts.3', 'Intention')}
                               </p>
-                              <p className="text-sm text-slate-600 dark:text-slate-300 font-medium leading-relaxed">{entry.intention}</p>
+                              <p className="text-sm text-slate-600 font-medium leading-relaxed">{entry.intention}</p>
                             </div>
                             <div className="space-y-1">
                               <p className="text-[10px] font-bold text-primary uppercase tracking-widest">
@@ -581,19 +581,19 @@ function HistoryScreen({ onBack, prompts }: HistoryScreenProps) {
                                   <Check size={12} />{t('feeling', 'Feeling')}
                                 </span>
                               </p>
-                              <p className="text-sm text-slate-600 dark:text-slate-300 font-bold">{entry.checkIn}</p>
+                              <p className="text-sm text-slate-600 font-bold">{entry.checkIn}</p>
                             </div>
                           </div>
 
-                          <div className="pt-4 border-t border-slate-50 dark:border-slate-800">
+                          <div className="pt-4 border-t border-slate-50">
                             {confirmDelete === entry.id ? (
-                              <div className="flex items-center gap-3 bg-rose-50 dark:bg-rose-950/20 p-3 rounded-2xl">
-                                <p className="text-xs font-bold text-rose-600 dark:text-rose-400 flex-1 ml-2">
+                              <div className="flex items-center gap-3 bg-rose-50 p-3 rounded-2xl">
+                                <p className="text-xs font-bold text-rose-600 flex-1 ml-2">
                                   {t('delete_this_entry', 'Delete this entry?')}
                                 </p>
                                 <button 
                                   onClick={() => setConfirmDelete(null)} 
-                                  className="px-4 py-2 bg-white dark:bg-slate-900 text-slate-400 text-[10px] font-bold rounded-xl border border-white/60 dark:border-slate-800"
+                                  className="px-4 py-2 bg-white text-slate-400 text-[10px] font-bold rounded-xl border border-white/60"
                                 >
                                   {t('history.cancel', 'Cancel')}
                                 </button>
@@ -721,7 +721,7 @@ function APauseForAppreciationInner() {
               <div
                 key={s}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-100 dark:bg-slate-800'
+                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-100 '
                 }`}
               />
             ))}

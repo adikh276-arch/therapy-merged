@@ -20,8 +20,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "water",
     title: "Put your hands in water",
-    color: "bg-teal-50 dark:bg-teal-950/20",
-    colorDeep: "bg-teal-100 dark:bg-teal-900/30",
+    color: "bg-teal-50 ",
+    colorDeep: "bg-teal-100 ",
     colorVar: "teal",
     steps: [
       "Run your hands under cool or warm water.",
@@ -34,8 +34,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "touch",
     title: "Pick up or touch items near you",
-    color: "bg-purple-50 dark:bg-purple-950/20",
-    colorDeep: "bg-purple-100 dark:bg-purple-900/30",
+    color: "bg-purple-50 ",
+    colorDeep: "bg-purple-100 ",
     colorVar: "purple",
     steps: [
       "Choose a nearby object.",
@@ -47,8 +47,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "breathe",
     title: "Breathe deeply",
-    color: "bg-amber-50 dark:bg-amber-950/20",
-    colorDeep: "bg-amber-100 dark:bg-amber-900/30",
+    color: "bg-amber-50 ",
+    colorDeep: "bg-amber-100 ",
     colorVar: "amber",
     steps: [
       "Take a slow breath in through your nose.",
@@ -61,8 +61,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "food",
     title: "Savour your food",
-    color: "bg-emerald-50 dark:bg-emerald-950/20",
-    colorDeep: "bg-emerald-100 dark:bg-emerald-900/30",
+    color: "bg-emerald-50 ",
+    colorDeep: "bg-emerald-100 ",
     colorVar: "emerald",
     steps: [
       "Take a small bite.",
@@ -74,8 +74,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "drink",
     title: "Savour a drink",
-    color: "bg-blue-50 dark:bg-blue-950/20",
-    colorDeep: "bg-blue-100 dark:bg-blue-900/30",
+    color: "bg-blue-50 ",
+    colorDeep: "bg-blue-100 ",
     colorVar: "blue",
     steps: [
       "Take a slow sip.",
@@ -87,8 +87,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "walk",
     title: "Take a short walk",
-    color: "bg-rose-50 dark:bg-rose-950/20",
-    colorDeep: "bg-rose-100 dark:bg-rose-900/30",
+    color: "bg-rose-50 ",
+    colorDeep: "bg-rose-100 ",
     colorVar: "rose",
     steps: [
       "Walk slowly and intentionally.",
@@ -100,8 +100,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "ice",
     title: "Hold a piece of ice",
-    color: "bg-cyan-50 dark:bg-cyan-950/20",
-    colorDeep: "bg-cyan-100 dark:bg-cyan-900/30",
+    color: "bg-cyan-50 ",
+    colorDeep: "bg-cyan-100 ",
     colorVar: "cyan",
     steps: [
       "Hold the ice in your hand.",
@@ -113,8 +113,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "scent",
     title: "Savour a scent",
-    color: "bg-orange-50 dark:bg-orange-950/20",
-    colorDeep: "bg-orange-100 dark:bg-orange-900/30",
+    color: "bg-orange-50 ",
+    colorDeep: "bg-orange-100 ",
     colorVar: "orange",
     steps: [
       "Choose a scent nearby.",
@@ -126,8 +126,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "move",
     title: "Move your body",
-    color: "bg-sky-50 dark:bg-sky-950/20",
-    colorDeep: "bg-sky-100 dark:bg-sky-900/30",
+    color: "bg-sky-50 ",
+    colorDeep: "bg-sky-100 ",
     colorVar: "sky",
     steps: [
       "Stretch gently.",
@@ -139,8 +139,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "listen",
     title: "Listen to your surroundings",
-    color: "bg-indigo-50 dark:bg-indigo-950/20",
-    colorDeep: "bg-indigo-100 dark:bg-indigo-900/30",
+    color: "bg-indigo-50 ",
+    colorDeep: "bg-indigo-100 ",
     colorVar: "indigo",
     steps: [
       "Pause and listen.",
@@ -152,8 +152,8 @@ const TECHNIQUES: Technique[] = [
   {
     id: "body",
     title: "Check in with your body",
-    color: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950/20",
-    colorDeep: "bg-slate-100 dark:bg-slate-900/30",
+    color: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 ",
+    colorDeep: "bg-slate-100 ",
     colorVar: "slate",
     steps: [
       "Close your eyes if comfortable.",
@@ -235,10 +235,10 @@ function GroundingTechniqueInner() {
                   <Sparkles size={14} />
                   {t('Grounding', 'Grounding')}
                 </div>
-                <h1 className="text-3.5xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                <h1 className="text-3.5xl font-black text-slate-900 leading-tight tracking-tight">
                   {t('stay_present', 'Stay Present')}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-bold leading-relaxed">
+                <p className="text-slate-500 text-sm font-bold leading-relaxed">
                   {t(
                     'Grounding techniques help bring your attention back to the present moment.',
                     'Grounding techniques help bring your attention back to the present moment.'
@@ -259,14 +259,14 @@ function GroundingTechniqueInner() {
                       whileHover={{ scale: 1.02, y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleStartTechnique(tech.id)}
-                      className="w-full aspect-square rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 p-5 text-center flex flex-col items-center justify-center gap-4 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all group"
+                      className="w-full aspect-square rounded-[2rem] bg-white border border-white/60 p-5 text-center flex flex-col items-center justify-center gap-4 shadow-sm hover:shadow-md hover:border-primary/20 transition-all group"
                     >
-                      <div className={`w-14 h-14 rounded-2xl ${tech.color} flex items-center justify-center text-slate-500 dark:text-slate-400 group-hover:scale-105 transition-transform`}>
+                      <div className={`w-14 h-14 rounded-2xl ${tech.color} flex items-center justify-center text-slate-500  group-hover:scale-105 transition-transform`}>
                         <span className="text-xl font-black text-primary opacity-60 group-hover:opacity-100 transition-opacity">
                           {translatedLabel.charAt(0).toUpperCase()}
                         </span>
                       </div>
-                      <span className="text-slate-800 dark:text-slate-200 font-extrabold text-xs leading-snug group-hover:text-primary transition-colors">
+                      <span className="text-slate-800 font-extrabold text-xs leading-snug group-hover:text-primary transition-colors">
                         {translatedLabel}
                       </span>
                     </motion.button>
@@ -290,12 +290,12 @@ function GroundingTechniqueInner() {
                   <Sparkles size={14} />
                   {t('grounding_technique', 'Grounding Technique')}
                 </div>
-                <h1 className="text-2.5xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                <h1 className="text-2.5xl font-black text-slate-900 leading-tight tracking-tight">
                   {t(activeTechnique.title, activeTechnique.title)}
                 </h1>
 
                 <div className="flex items-center gap-4 pt-2">
-                  <div className="flex-1 h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                  <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
                     <motion.div
                       initial={{ width: 0 }}
                       animate={{ width: `${((currentStep + 1) / totalSteps) * 100}%` }}
@@ -315,7 +315,7 @@ function GroundingTechniqueInner() {
                     initial={{ opacity: 0, scale: 0.96, y: 12 }}
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     exit={{ opacity: 0, scale: 1.04, y: -12 }}
-                    className="w-full p-8 bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 shadow-xl shadow-slate-200/20 dark:shadow-none flex flex-col items-center justify-center text-center gap-8 min-h-[280px]"
+                    className="w-full p-8 bg-white rounded-[2.5rem] border border-white/60 shadow-xl shadow-slate-200/20 flex flex-col items-center justify-center text-center gap-8 min-h-[280px]"
                   >
                     <motion.div
                       animate={{ scale: [1, 1.05, 1] }}
@@ -324,7 +324,7 @@ function GroundingTechniqueInner() {
                     >
                       <Wind size={40} className="animate-pulse" />
                     </motion.div>
-                    <p className="text-slate-700 dark:text-slate-200 text-xl font-extrabold leading-relaxed px-4">
+                    <p className="text-slate-700 text-xl font-extrabold leading-relaxed px-4">
                       {t(activeTechnique.steps[currentStep], activeTechnique.steps[currentStep])}
                     </p>
                   </motion.div>
@@ -337,7 +337,7 @@ function GroundingTechniqueInner() {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handlePrev}
-                    className="p-4.5 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-400 rounded-2xl shadow-sm flex items-center justify-center hover:text-slate-800 dark:hover:text-white transition-all"
+                    className="p-4.5 bg-white border border-white/60 text-slate-400 rounded-2xl shadow-sm flex items-center justify-center hover:text-slate-800 transition-all"
                   >
                     <ChevronLeft size={24} strokeWidth={3} />
                   </motion.button>
@@ -367,15 +367,15 @@ function GroundingTechniqueInner() {
               exit={{ opacity: 0 }}
               className="w-full text-center space-y-8"
             >
-              <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl shadow-slate-200/20 dark:shadow-none space-y-6">
-                <div className="w-20 h-20 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-500 rounded-full flex items-center justify-center mx-auto shadow-sm">
+              <div className="bg-white rounded-[2.5rem] border border-white/60 p-8 shadow-xl shadow-slate-200/20 space-y-6">
+                <div className="w-20 h-20 bg-emerald-50 text-emerald-500 rounded-full flex items-center justify-center mx-auto shadow-sm">
                   <CheckCircle2 size={44} strokeWidth={2.5} />
                 </div>
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
+                  <h1 className="text-3xl font-black text-slate-900 leading-tight">
                     {t('common.well_done', 'Well Done!')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-bold leading-relaxed max-w-sm mx-auto">
+                  <p className="text-slate-500 text-sm font-bold leading-relaxed max-w-sm mx-auto">
                     {t(
                       'common.completion_message',
                       "You've successfully completed this activity. Take a moment to appreciate your progress."
@@ -383,7 +383,7 @@ function GroundingTechniqueInner() {
                   </p>
                 </div>
 
-                <div className={`p-5 rounded-2xl ${activeTechnique.color} border border-white/60/50 dark:border-slate-850 text-center font-extrabold text-slate-800 dark:text-slate-200 text-sm italic`}>
+                <div className={`p-5 rounded-2xl ${activeTechnique.color} border border-white/60/50  text-center font-extrabold text-slate-800  text-sm italic`}>
                   &quot;{t(activeTechnique.title, activeTechnique.title)}&quot;
                 </div>
               </div>
@@ -402,7 +402,7 @@ function GroundingTechniqueInner() {
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   onClick={handleReset}
-                  className="w-full py-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-sm transition-all"
+                  className="w-full py-4 bg-white border border-white/60 text-slate-500 hover:text-slate-800 font-black text-xs uppercase tracking-widest rounded-2xl shadow-sm transition-all"
                 >
                   {t('Back', 'Back')}
                 </motion.button>

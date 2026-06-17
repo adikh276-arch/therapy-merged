@@ -36,7 +36,7 @@ const ToolButton: React.FC<{
     className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
       active
         ? 'bg-primary text-primary-foreground shadow-sm shadow-primary/10'
-        : 'bg-slate-100 dark:bg-slate-900 text-slate-500 hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40'
+        : 'bg-slate-100  text-slate-500 hover:bg-slate-200  hover:shadow-xl hover:shadow-primary/40'
     }`}
   >
     {icon}
@@ -228,7 +228,7 @@ const DrawingCanvas = forwardRef<DrawingCanvasRef, DrawingCanvasProps>(({ disabl
       </div>
 
       {/* Canvas Box */}
-      <div className="relative w-full rounded-3xl overflow-hidden border border-white/60 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-950/20 shadow-inner">
+      <div className="relative w-full rounded-3xl overflow-hidden border border-white/60 bg-slate-50/50 shadow-inner">
         <div
           className="absolute inset-0 opacity-[0.05] pointer-events-none"
           style={{
@@ -309,15 +309,15 @@ function ShareModal({
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.95 }}
-        className="w-full max-w-sm bg-white dark:bg-slate-900 rounded-[2.5rem] p-6 shadow-2xl space-y-6 text-left border border-white/60 dark:border-slate-800"
+        className="w-full max-w-sm bg-white rounded-[2.5rem] p-6 shadow-2xl space-y-6 text-left border border-white/60"
       >
         <div className="flex justify-between items-center">
-          <h3 className="font-extrabold text-slate-850 dark:text-slate-100 text-lg">
+          <h3 className="font-extrabold text-slate-850 text-lg">
             {t('share_your_doodle', 'Share Your Doodle ')}
           </h3>
           <button
             onClick={onClose}
-            className="p-1.5 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 rounded-full transition-colors text-slate-400 hover:text-slate-650"
+            className="p-1.5 hover:bg-slate-50 hover:shadow-xl hover:shadow-primary/40 rounded-full transition-colors text-slate-400 hover:text-slate-650"
           >
             <X size={18} />
           </button>
@@ -325,7 +325,7 @@ function ShareModal({
 
         {/* Doodle Preview inside Card */}
         {dataUrl && (
-          <div className="rounded-2xl border border-white/60 dark:border-slate-800 overflow-hidden bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 p-4 aspect-video flex items-center justify-center">
+          <div className="rounded-2xl border border-white/60 overflow-hidden bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-4 aspect-video flex items-center justify-center">
             <img src={dataUrl} alt="Your Doodle" className="max-h-full max-w-full object-contain" />
           </div>
         )}
@@ -341,7 +341,7 @@ function ShareModal({
 
           <button
             onClick={handleCopy}
-            className="w-full py-4 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-600 dark:text-slate-350 font-black text-xs uppercase tracking-widest rounded-2xl border border-white/60 dark:border-slate-800 flex items-center justify-center gap-2 hover:bg-slate-100 transition-all"
+            className="w-full py-4 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-600 font-black text-xs uppercase tracking-widest rounded-2xl border border-white/60 flex items-center justify-center gap-2 hover:bg-slate-100 transition-all"
           >
             {copied ? <Check size={14} /> : <Copy size={14} />}
             {copied ? t('common.copied', 'Copied!') : t('copy_text', 'Copy Text')}
@@ -355,11 +355,11 @@ function ShareModal({
 // --- Checklist / CheckIn Item ---
 
 const CheckInItem: React.FC<{ icon: React.ReactNode; text: string }> = ({ icon, text }) => (
-  <div className="flex items-center gap-4 p-4.5 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-955 rounded-2xl border border-white/60 dark:border-slate-850 group hover:border-primary/20 transition-all text-left">
-    <div className="w-10 h-10 rounded-xl bg-white dark:bg-slate-900 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform shrink-0">
+  <div className="flex items-center gap-4 p-4.5 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl border border-white/60 group hover:border-primary/20 transition-all text-left">
+    <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform shrink-0">
       {icon}
     </div>
-    <span className="text-xs font-black text-slate-700 dark:text-slate-300 uppercase tracking-tight">{text}</span>
+    <span className="text-xs font-black text-slate-700 uppercase tracking-tight">{text}</span>
   </div>
 );
 
@@ -521,7 +521,7 @@ function DoodleBurstInner() {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setScreen('history')}
-                    className="flex items-center gap-3 text-slate-500 dark:text-slate-400 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm"
+                    className="flex items-center gap-3 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white px-6 py-3 rounded-2xl border border-white/60 shadow-sm"
                   >
                     <History size={16} />
                     {t('view_past_doodles', 'View Past Doodles')}
@@ -542,7 +542,7 @@ function DoodleBurstInner() {
             >
               <div className="w-full flex flex-col items-center gap-6">
                 {/* Header with Timer and Prompt */}
-                <div className="w-full bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm flex items-center justify-between group hover:border-primary/20 transition-all text-left">
+                <div className="w-full bg-white rounded-[2rem] border border-white/60 p-6 shadow-sm flex items-center justify-between group hover:border-primary/20 transition-all text-left">
                   <div className="flex items-center gap-4">
                     <div className="w-18 h-18 rounded-2xl bg-primary/10 flex flex-col items-center justify-center text-primary border border-primary/15 shadow-sm shrink-0">
                       <span className="text-2xl font-black tabular-nums leading-none">{timer}</span>
@@ -551,7 +551,7 @@ function DoodleBurstInner() {
                       </span>
                     </div>
                     <div className="min-w-0">
-                      <p className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest mb-1">
+                      <p className="text-[10px] font-black text-slate-350 uppercase tracking-widest mb-1">
                         {t('current_focus', 'Current Focus')}
                       </p>
                       <AnimatePresence mode="wait">
@@ -560,20 +560,20 @@ function DoodleBurstInner() {
                           initial={{ opacity: 0, x: -10 }}
                           animate={{ opacity: 1, x: 0 }}
                           exit={{ opacity: 0, x: 10 }}
-                          className="text-base font-black text-slate-800 dark:text-white tracking-tight leading-snug"
+                          className="text-base font-black text-slate-800 tracking-tight leading-snug"
                         >
                           {currentPrompt}
                         </motion.h2>
                       </AnimatePresence>
                     </div>
                   </div>
-                  <div className="w-10 h-10 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-slate-205 dark:text-slate-800 shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 flex items-center justify-center text-slate-205 shrink-0">
                     <Clock size={20} />
                   </div>
                 </div>
 
                 {/* Instructions */}
-                <div className="flex items-center gap-2 text-slate-400 dark:text-slate-500 text-[10px] font-black uppercase tracking-widest text-left px-1">
+                <div className="flex items-center gap-2 text-slate-400 text-[10px] font-black uppercase tracking-widest text-left px-1">
                   <Sparkles size={14} className="text-primary opacity-60" />
                   {t(
                     'activity_instructions',
@@ -618,7 +618,7 @@ function DoodleBurstInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => setIsShareModalOpen(true)}
-                      className="flex-1 py-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-350 dark:hover:text-white font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-sm transition-all"
+                      className="flex-1 py-4 bg-white border border-white/60 text-slate-500 hover:text-slate-900 font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-sm transition-all"
                     >
                       <Share2 size={14} />
                       {t('share_doodle', 'Share Doodle')}
@@ -628,7 +628,7 @@ function DoodleBurstInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => setScreen('history')}
-                      className="flex-1 py-4 bg-slate-100 dark:bg-slate-950 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-gradient-to-r from-primary to-sky-400 border-none font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 transition-all"
+                      className="flex-1 py-4 bg-slate-100 text-slate-600 hover:bg-slate-200 from-primary to-sky-400 border-none font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 transition-all"
                     >
                       <History size={14} />
                       {t('view_history', 'View History')}
@@ -637,8 +637,8 @@ function DoodleBurstInner() {
                 }
               >
                 <div className="space-y-6 w-full mt-6">
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm space-y-4">
-                    <p className="text-slate-500 dark:text-slate-400 font-bold text-sm leading-relaxed text-left px-1">
+                  <div className="bg-white rounded-[2rem] border border-white/60 p-6 shadow-sm space-y-4">
+                    <p className="text-slate-500 font-bold text-sm leading-relaxed text-left px-1">
                       {t('end_reset', 'Even a quick doodle can help your brain reset.')}
                     </p>
                     <div className="grid gap-2.5">
@@ -684,7 +684,7 @@ function DoodleBurstInner() {
                   whileHover={{ scale: 1.08 }}
                   whileTap={{ scale: 0.92 }}
                   onClick={handleReset}
-                  className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+                  className="p-3 bg-slate-100 text-slate-650 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
                 >
                   <ArrowLeft size={18} />
                 </motion.button>
@@ -698,14 +698,14 @@ function DoodleBurstInner() {
                   </p>
                 </div>
               ) : historyList.length === 0 ? (
-                <div className="text-center py-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-3xl border border-dashed border-slate-150 dark:border-slate-800">
-                  <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm">
+                <div className="text-center py-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-3xl border border-dashed border-slate-150">
+                  <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
                     <Palette size={28} />
                   </div>
-                  <p className="text-slate-450 dark:text-slate-400 font-bold text-sm px-6 mb-1">
+                  <p className="text-slate-450 font-bold text-sm px-6 mb-1">
                     {t('no_doodles', 'No doodles yet!')}
                   </p>
-                  <p className="text-slate-400 dark:text-slate-550 text-xs px-6">
+                  <p className="text-slate-400 text-xs px-6">
                     {t('history_empty_desc', 'Complete a Doodle Burst session and your artwork will be saved here automatically.')}
                   </p>
                 </div>
@@ -716,19 +716,19 @@ function DoodleBurstInner() {
                       key={entry.id}
                       initial={{ opacity: 0, scale: 0.95 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="p-4 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm relative group overflow-hidden flex flex-col justify-between hover:border-primary/20 transition-all cursor-pointer"
+                      className="p-4 bg-white rounded-3xl border border-white/60 shadow-sm relative group overflow-hidden flex flex-col justify-between hover:border-primary/20 transition-all cursor-pointer"
                       onClick={() => {
                         setFinalDoodleUrl(entry.imageUrl);
                         setIsShareModalOpen(true);
                       }}
                     >
                       {/* Image Preview Box */}
-                      <div className="aspect-video w-full rounded-2xl overflow-hidden bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 p-2 flex items-center justify-center shadow-inner">
+                      <div className="aspect-video w-full rounded-2xl overflow-hidden bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 p-2 flex items-center justify-center shadow-inner">
                         <img src={entry.imageUrl} alt="Doodle" className="max-h-full max-w-full object-contain" />
                       </div>
 
-                      <div className="flex justify-between items-center pt-3 border-t border-slate-50 dark:border-slate-850 mt-3">
-                        <span className="text-[9px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest">
+                      <div className="flex justify-between items-center pt-3 border-t border-slate-50 mt-3">
+                        <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">
                           {parseDbDate(entry.createdAt).toLocaleDateString(undefined, {
                             month: 'short',
                             day: 'numeric',

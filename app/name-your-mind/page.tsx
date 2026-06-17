@@ -79,24 +79,24 @@ function NameYourMindInner() {
           <span className="inline-flex items-center gap-1.5 text-primary font-black text-[10px] uppercase tracking-widest">
             <Sparkles size={12} /> {t('subtitles.concept', 'Perspective')}
           </span>
-          <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-3xl font-black text-slate-900 leading-tight">
             {t('screens.concept.title', 'A small shift')}
           </h1>
         </div>
 
-        <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm space-y-6">
+        <div className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-sm space-y-6">
           <div className="text-center space-y-4">
-            <div className="inline-block bg-red-50 dark:bg-red-950/20 border border-red-100 dark:border-red-900/30 rounded-2xl px-6 py-4">
-              <p className="text-2xl font-black text-red-500 dark:text-red-400 italic">
+            <div className="inline-block bg-red-50 border border-red-100 rounded-2xl px-6 py-4">
+              <p className="text-2xl font-black text-red-500 italic">
                 {t('screens.concept.example', '"I\'m not good enough"')}
               </p>
             </div>
-            <p className="text-slate-500 dark:text-slate-400 font-medium text-sm leading-relaxed">
-              When a thought shows up, it often feels like it's <strong className="text-slate-700 dark:text-slate-200">you</strong>. But what if you could step back and <strong className="text-primary">notice</strong> it instead?
+            <p className="text-slate-500 font-medium text-sm leading-relaxed">
+              When a thought shows up, it often feels like it's <strong className="text-slate-700">you</strong>. But what if you could step back and <strong className="text-primary">notice</strong> it instead?
             </p>
           </div>
           <div className="p-5 bg-primary/5 rounded-2xl border border-primary/10">
-            <p className="text-sm font-bold text-slate-600 dark:text-slate-300 text-center italic leading-relaxed">
+            <p className="text-sm font-bold text-slate-600 text-center italic leading-relaxed">
               "That's just <span className="text-primary font-black">my mind</span> talking. I don't have to believe everything it says."
             </p>
           </div>
@@ -125,10 +125,10 @@ function NameYourMindInner() {
           <span className="inline-flex items-center gap-1.5 text-primary font-black text-[10px] uppercase tracking-widest">
             <Sparkles size={12} /> {t('subtitles.notice', 'Notice your thoughts')}
           </span>
-          <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-3xl font-black text-slate-900 leading-tight">
             {t('screens.input_thought.title', "Let's start with a real thought")}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 font-medium text-sm">
+          <p className="text-slate-500 font-medium text-sm">
             {t('screens.input_thought.desc', 'What is one thought that has been bothering you lately?')}
           </p>
         </div>
@@ -165,10 +165,10 @@ function NameYourMindInner() {
           <span className="inline-flex items-center gap-1.5 text-primary font-black text-[10px] uppercase tracking-widest">
             <Sparkles size={12} /> {t('subtitles.name', 'Give it a name')}
           </span>
-          <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-3xl font-black text-slate-900 leading-tight">
             {t('screens.input_name.title', 'Create some distance')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 font-medium text-sm">
+          <p className="text-slate-500 font-medium text-sm">
             {t('screens.input_name.desc', 'Give your mind a name to help separate yourself from these thoughts.')}
           </p>
         </div>
@@ -183,7 +183,7 @@ function NameYourMindInner() {
               className={`px-4 py-2.5 rounded-full text-xs font-bold transition-all border ${
                 mindName === s && !customName
                   ? 'bg-primary text-primary-foreground border-primary shadow-lg shadow-primary/15'
-                  : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-primary/30'
+                  : 'bg-white  text-slate-600  border-slate-200  hover:border-primary/30'
               }`}
             >
               {s}
@@ -228,18 +228,18 @@ function NameYourMindInner() {
           <span className="inline-flex items-center gap-1.5 text-primary font-black text-[10px] uppercase tracking-widest">
             <Sparkles size={12} /> {t('subtitles.practice', 'Practice')}
           </span>
-          <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-3xl font-black text-slate-900 leading-tight">
             {t('screens.practice.title', 'Try this shift')}
           </h1>
         </div>
 
-        <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm space-y-6">
+        <div className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-sm space-y-6">
           <div className="space-y-3">
             <p className="field-label">
               {t('screens.practice.instead_of', 'Instead of')}
             </p>
-            <div className="p-4 bg-red-50 dark:bg-red-950/20 rounded-2xl border border-red-100 dark:border-red-900/30">
-              <p className="font-bold text-red-600 dark:text-red-400 italic text-sm">"{thought}"</p>
+            <div className="p-4 bg-red-50 rounded-2xl border border-red-100">
+              <p className="font-bold text-red-600 italic text-sm">"{thought}"</p>
             </div>
           </div>
           <div className="space-y-3">
@@ -254,7 +254,7 @@ function NameYourMindInner() {
           </div>
         </div>
 
-        <p className="text-slate-500 dark:text-slate-400 text-sm font-medium text-center leading-relaxed px-4">
+        <p className="text-slate-500 text-sm font-medium text-center leading-relaxed px-4">
           {t('screens.practice.guide', 'Gently repeat this sentence to yourself 4–5 times at your own pace.')}
         </p>
 
@@ -268,7 +268,7 @@ function NameYourMindInner() {
               className={`w-10 h-10 rounded-full font-black text-sm transition-all ${
                 n <= practiceCount
                   ? 'bg-primary text-primary-foreground shadow-lg shadow-primary/20'
-                  : 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-400'
+                  : 'bg-white  border border-slate-200  text-slate-400'
               }`}
             >
               {n <= practiceCount ? <Check size={16} className="mx-auto" /> : n}
@@ -300,10 +300,10 @@ function NameYourMindInner() {
           <span className="inline-flex items-center gap-1.5 text-primary font-black text-[10px] uppercase tracking-widest">
             <Sparkles size={12} /> Reflect
           </span>
-          <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight">
+          <h1 className="text-3xl font-black text-slate-900 leading-tight">
             {t('screens.reflection.title', 'What did you notice?')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 font-medium text-sm">
+          <p className="text-slate-500 font-medium text-sm">
             {t('screens.reflection.desc', 'How did the thought feel after giving it a name?')}
           </p>
         </div>
@@ -318,11 +318,11 @@ function NameYourMindInner() {
               className={`w-full text-left p-5 rounded-2xl border font-bold text-sm transition-all flex items-center gap-4 ${
                 reflection === opt
                   ? 'bg-primary/10 border-primary/30 text-primary'
-                  : 'bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/20'
+                  : 'bg-white  border-white/60  text-slate-600  hover:border-primary/20'
               }`}
             >
               <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${
-                reflection === opt ? 'border-primary bg-primary' : 'border-slate-300 dark:border-slate-600'
+                reflection === opt ? 'border-primary bg-primary' : 'border-slate-300 '
               }`}>
                 {reflection === opt && <Check size={10} className="text-white" strokeWidth={3} />}
               </div>
@@ -354,7 +354,7 @@ function NameYourMindInner() {
                   shareContent={"I just completed 'Name Your Mind' on TherapyMantra — a guided mindfulness technique that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="mt-8 p-6 bg-primary/5 rounded-2xl border border-primary/10 text-center">
-          <p className="text-sm font-bold text-slate-600 dark:text-slate-300 italic leading-relaxed">
+          <p className="text-sm font-bold text-slate-600 italic leading-relaxed">
             "{t('complete.footer', "Remember: You don't have to believe every thought your mind gives you.")}"
           </p>
         </div>

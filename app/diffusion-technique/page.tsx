@@ -34,10 +34,10 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.8, ease: 'easeInOut' }}
-      className="fixed inset-0 z-[100] flex flex-col justify-between overflow-hidden bg-gradient-to-b from-sky-100 to-sky-50 dark:from-slate-900 dark:to-slate-950"
+      className="fixed inset-0 z-[100] flex flex-col justify-between overflow-hidden bg-gradient-to-b from-sky-100 to-sky-50"
     >
       {/* Background ambient elements */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-60 dark:opacity-20">
+      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-60">
          <div className="absolute top-[10%] left-[10%] w-[40vw] h-[40vw] bg-white rounded-full mix-blend-overlay filter blur-[60px] animate-pulse" style={{ animationDuration: '4s' }} />
          <div className="absolute top-[40%] right-[5%] w-[50vw] h-[50vw] bg-white rounded-full mix-blend-overlay filter blur-[80px] animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
          <div className="absolute bottom-[20%] left-[20%] w-[35vw] h-[35vw] bg-white rounded-full mix-blend-overlay filter blur-[50px] animate-pulse" style={{ animationDuration: '5s', animationDelay: '2s' }} />
@@ -50,10 +50,10 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
         transition={{ delay: 0.5, duration: 0.8 }}
         className="relative z-10 pt-16 px-6 text-center space-y-3"
       >
-        <div className="inline-flex items-center justify-center p-3.5 bg-white/40 dark:bg-slate-800/40 backdrop-blur-md rounded-2xl shadow-sm border border-white/50 dark:border-slate-700/50 text-sky-500">
+        <div className="inline-flex items-center justify-center p-3.5 bg-white/40 backdrop-blur-md rounded-2xl shadow-sm border border-white/50 text-sky-500">
           <Cloud size={28} strokeWidth={2.5} />
         </div>
-        <h2 className="text-2xl font-black text-slate-800 dark:text-white tracking-tight">
+        <h2 className="text-2xl font-black text-slate-800 tracking-tight">
           {t('watch_thoughts_drift', 'Watch your thoughts drift away...')}
         </h2>
       </motion.div>
@@ -77,15 +77,15 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
             >
               <div className="relative flex items-center justify-center w-[260px] h-[150px] px-8 py-4" style={{ transform: `scale(${cfg.scale})` }}>
                 {/* Cloud Background SVG */}
-                <div className="absolute inset-0 pointer-events-none drop-shadow-[0_12px_24px_rgba(0,0,0,0.12)] dark:drop-shadow-[0_12px_24px_rgba(0,0,0,0.3)] opacity-95 dark:opacity-85">
-                  <svg viewBox="0 0 240 140" fill="currentColor" className="w-full h-full text-white dark:text-slate-800" preserveAspectRatio="none">
+                <div className="absolute inset-0 pointer-events-none drop-shadow-[0_12px_24px_rgba(0,0,0,0.12)] opacity-95">
+                  <svg viewBox="0 0 240 140" fill="currentColor" className="w-full h-full text-white" preserveAspectRatio="none">
                     <path d="M60 120 C 20 120, 10 70, 40 50 C 50 20, 110 10, 140 40 C 180 20, 230 50, 220 90 C 235 120, 190 130, 170 120 C 150 135, 90 135, 60 120 Z" />
                   </svg>
                 </div>
                 
                 {/* Thought Text */}
                 <div className="relative z-10 flex flex-col items-center justify-center max-w-[180px] -mt-2">
-                  <span className="font-extrabold text-sky-900/90 dark:text-sky-100/90 text-[15px] leading-snug text-center break-words whitespace-normal line-clamp-3 italic">
+                  <span className="font-extrabold text-sky-900/90 text-[15px] leading-snug text-center break-words whitespace-normal line-clamp-3 italic">
                     "{thought}"
                   </span>
                 </div>
@@ -102,24 +102,24 @@ function FullScreenSky({ thoughts, onNext }: { thoughts: string[]; onNext: () =>
         transition={{ delay: 1, duration: 0.8 }}
         className="relative z-10 p-6 pb-12 w-full max-w-md mx-auto"
       >
-        <div className="bg-white/60 dark:bg-slate-900/60 backdrop-blur-2xl p-6 rounded-[2.5rem] border border-white/80 dark:border-slate-800 shadow-2xl space-y-6 text-center">
+        <div className="bg-white/60 backdrop-blur-2xl p-6 rounded-[2.5rem] border border-white/80 shadow-2xl space-y-6 text-center">
           <div className="space-y-1.5">
-            <p className="text-sm font-bold text-slate-600 dark:text-slate-300">
+            <p className="text-sm font-bold text-slate-600">
               {t('watch_the_cloud_move_across_the_sky', 'Watch the clouds move across the sky.')}
             </p>
-            <p className="text-sm font-bold text-slate-600 dark:text-slate-300">
+            <p className="text-sm font-bold text-slate-600">
               {t('your_thought_is_simply_passing_through', 'Your thoughts are simply passing through.')}
             </p>
           </div>
-          <div className="inline-block px-5 py-2.5 bg-sky-100 dark:bg-sky-900/30 rounded-xl">
-            <p className="text-[10px] font-black text-sky-600 dark:text-sky-400 uppercase tracking-[0.2em]">
+          <div className="inline-block px-5 py-2.5 bg-sky-100 rounded-xl">
+            <p className="text-[10px] font-black text-sky-600 uppercase tracking-[0.2em]">
               {t('you_are_the_sky_observing_it', 'You are the sky observing them.')}
             </p>
           </div>
           
           <button
             onClick={onNext}
-            className="w-full py-5 rounded-2xl font-black text-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 shadow-xl hover:opacity-90 active:scale-[0.98] transition-all duration-300"
+            className="w-full py-5 rounded-2xl font-black text-lg bg-slate-900 text-white shadow-xl hover:opacity-90 active:scale-[0.98] transition-all duration-300"
           >
             {t('btn_next', 'Next →')}
           </button>
@@ -153,7 +153,7 @@ function MoneySlider({ value, onChange }: { value: number; onChange: (val: numbe
           key={value}
           initial={{ scale: 1.15 }}
           animate={{ scale: 1 }}
-          className="text-5xl font-black text-slate-800 dark:text-white"
+          className="text-5xl font-black text-slate-800"
         >
           ${value}
         </motion.p>
@@ -184,10 +184,10 @@ function MoneySlider({ value, onChange }: { value: number; onChange: (val: numbe
           step="1"
           value={value}
           onChange={handleSliderChange}
-          className="w-full h-2 bg-slate-100 dark:bg-slate-800 rounded-lg appearance-none cursor-pointer accent-primary focus:outline-none"
+          className="w-full h-2 bg-slate-100 rounded-lg appearance-none cursor-pointer accent-primary focus:outline-none"
         />
 
-        <div className="flex justify-between text-xs font-black text-slate-400 dark:text-slate-500 uppercase tracking-wider">
+        <div className="flex justify-between text-xs font-black text-slate-400 uppercase tracking-wider">
           <span>$0</span>
           <span>$25</span>
           <span>$50</span>
@@ -195,7 +195,7 @@ function MoneySlider({ value, onChange }: { value: number; onChange: (val: numbe
           <span>$100</span>
         </div>
 
-        <div className="flex justify-between text-[10px] font-black text-slate-350 dark:text-slate-650 uppercase tracking-widest pt-1">
+        <div className="flex justify-between text-[10px] font-black text-slate-350 uppercase tracking-widest pt-1">
           <span>{t('worthless', 'Worthless')}</span>
           <span>{t('somewhat', 'Somewhat')}</span>
           <span>{t('fully_believe', 'Fully believe')}</span>
@@ -236,7 +236,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -15 }}
-      className="w-full relative overflow-hidden rounded-[2.5rem] p-8 border border-primary/10 bg-gradient-to-b from-[#F3EDFF]/50 to-[#E9E4FF]/50 dark:from-[#2e264d]/10 dark:to-[#1a172e]/10 shadow-sm"
+      className="w-full relative overflow-hidden rounded-[2.5rem] p-8 border border-primary/10 bg-gradient-to-b from-[#F3EDFF]/50 to-[#E9E4FF]/50 shadow-sm"
     >
       {/* Floating decorative elements */}
       {[
@@ -262,7 +262,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
 
       <div className="relative z-10 w-full space-y-6">
         <div className="space-y-2 text-center">
-          <h2 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+          <h2 className="text-2xl font-black text-slate-900 leading-tight">
             {t('give_this_thought_a_story_name', 'Give this thought a story name ')}
           </h2>
           <p className="act-body">
@@ -271,7 +271,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
         </div>
 
         <div className="space-y-3.5">
-          <p className="text-xs font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest text-left px-1">
+          <p className="text-xs font-black text-slate-400 uppercase tracking-widest text-left px-1">
             {t('pick_a_suggestion_or_write_your_own', 'Pick a suggestion or write your own:')}
           </p>
           <div className="flex flex-wrap gap-2.5">
@@ -286,7 +286,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
                   className={`px-4.5 py-2.5 rounded-full text-xs font-bold transition-all border ${
                     isSelected
                       ? 'bg-primary text-primary-foreground border-primary'
-                      : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-350 border-white/60 dark:border-slate-800 hover:border-primary/20 hover:bg-primary/5'
+                      : 'bg-white  text-slate-650  border-white/60  hover:border-primary/20 hover:bg-primary/5'
                   }`}
                 >
                   {chip}
@@ -319,7 +319,7 @@ function StoryNamingScreen({ storyName, onStoryNameChange, onContinue }: StoryNa
               <p className="text-[10px] font-black text-primary uppercase tracking-widest mb-1.5">
                 {t('your_mindful_phrase', 'Your mindful phrase:')}
               </p>
-              <p className="text-sm font-bold text-slate-700 dark:text-slate-355 italic leading-relaxed">
+              <p className="text-sm font-bold text-slate-700 italic leading-relaxed">
                 "I'm noticing my mind telling the '{storyName}' story again."
               </p>
             </motion.div>
@@ -479,7 +479,7 @@ function DiffusionTechniqueInner() {
                   <Sparkles size={12} />
                   {t('label_choose_technique', 'Choose Technique')}
                 </span>
-                <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                   {t('choose_title', 'Choose a Technique to Practice')}
                 </h1>
                 <p className="act-body">
@@ -494,21 +494,21 @@ function DiffusionTechniqueInner() {
                     title: t('title_sky_clouds', 'Sky and Clouds'),
                     desc: t('card_sky_desc', 'Imagine your thoughts drifting across the sky like clouds. Watch them appear and pass by without holding onto them.'),
                     view: 'sky' as View,
-                    color: 'bg-cyan-50 dark:bg-cyan-950/20 text-cyan-500 border-cyan-100 dark:border-cyan-900/30',
+                    color: 'bg-cyan-50  text-cyan-500 border-cyan-100 ',
                   },
                   {
                     icon: Banknote,
                     title: t('title_sell_thought', 'Sell the Thought'),
                     desc: t('card_sell_desc', 'Treat your thought like something being sold to you. How valuable is it really?'),
                     view: 'sell' as View,
-                    color: 'bg-teal-50 dark:bg-teal-950/20 text-teal-500 border-teal-100 dark:border-teal-900/30',
+                    color: 'bg-teal-50  text-teal-500 border-teal-100 ',
                   },
                   {
                     icon: BookOpen,
                     title: t('title_name_story', 'Name the Story'),
                     desc: t('card_name_desc', 'When thoughts repeat again and again, they become stories. Naming the story helps create distance from it.'),
                     view: 'name' as View,
-                    color: 'bg-sky-50 dark:bg-sky-950/20 text-sky-500 border-sky-100 dark:border-sky-900/30',
+                    color: 'bg-sky-50  text-sky-500 border-sky-100 ',
                   },
                 ].map((card) => {
                   const CardIcon = card.icon;
@@ -521,20 +521,20 @@ function DiffusionTechniqueInner() {
                         resetFlow();
                         setView(card.view);
                       }}
-                      className="w-full text-left p-6 rounded-3xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30 transition-all flex items-center gap-5 group"
+                      className="w-full text-left p-6 rounded-3xl bg-white border border-white/60 shadow-sm hover:shadow-md hover:border-primary/20 transition-all flex items-center gap-5 group"
                     >
                       <div className={`w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 ${card.color} group-hover:scale-105 transition-all`}>
                         <CardIcon className="w-6 h-6" />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-extrabold text-slate-800 dark:text-slate-100 text-base group-hover:text-primary transition-colors">
+                        <h3 className="font-extrabold text-slate-800 text-base group-hover:text-primary transition-colors">
                           {card.title}
                         </h3>
-                        <p className="text-slate-400 dark:text-slate-500 text-xs font-bold leading-relaxed mt-1 line-clamp-2">
+                        <p className="text-slate-400 text-xs font-bold leading-relaxed mt-1 line-clamp-2">
                           {card.desc}
                         </p>
                       </div>
-                      <ArrowRight className="text-slate-200 dark:text-slate-850 group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
+                      <ArrowRight className="text-slate-200 group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
                     </motion.button>
                   );
                 })}
@@ -555,16 +555,16 @@ function DiffusionTechniqueInner() {
                     className="space-y-6 text-left"
                   >
                     <div className="space-y-3">
-                      <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                      <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                         {t('sky_title', 'Sky and Cloud')}
                       </h1>
-                      <div className="space-y-4 text-slate-500 dark:text-slate-400 text-base font-bold leading-relaxed">
+                      <div className="space-y-4 text-slate-500 text-base font-bold leading-relaxed">
                         <p>{t('sky_intro_1', 'Imagine your mind as a wide open sky.')}</p>
                         <p>{t('sky_intro_2', 'Thoughts are like clouds passing through.')}</p>
                       </div>
                     </div>
-                    <div className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm">
-                      <p className="text-slate-600 dark:text-slate-400 text-sm font-bold leading-relaxed italic">
+                    <div className="p-6 bg-white rounded-3xl border border-white/60 shadow-sm">
+                      <p className="text-slate-600 text-sm font-bold leading-relaxed italic">
                         {t('sky_intro_5', 'Your job is simply to watch them pass.')}
                       </p>
                     </div>
@@ -589,7 +589,7 @@ function DiffusionTechniqueInner() {
                     className="space-y-6 text-left"
                   >
                     <div className="space-y-2">
-                      <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                      <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                         {t('sky_question', 'What thoughts are on your mind?')}
                       </h1>
                       <p className="act-body">
@@ -611,7 +611,7 @@ function DiffusionTechniqueInner() {
                         }}
                         placeholder={t('sky_placeholder', 'Type a thought and press Add...')}
                         maxLength={40}
-                        className="flex-1 py-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 dark:text-slate-200 placeholder:text-slate-300 shadow-inner text-sm"
+                        className="flex-1 py-4 rounded-2xl border border-slate-200 bg-white focus:border-primary transition-all outline-none px-5 font-bold text-slate-700 placeholder:text-slate-300 shadow-inner text-sm"
                       />
                       <motion.button
                         whileHover={{ scale: 1.05 }}
@@ -643,7 +643,7 @@ function DiffusionTechniqueInner() {
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 0.8 }}
-                                className="flex items-center gap-2 bg-sky-50 dark:bg-sky-950/30 border border-sky-200 dark:border-sky-800 text-sky-700 dark:text-sky-300 rounded-full px-4 py-2 text-xs font-bold"
+                                className="flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 rounded-full px-4 py-2 text-xs font-bold"
                               >
                                 <span>️</span>
                                 <span className="max-w-[120px] truncate">{th}</span>
@@ -707,7 +707,7 @@ function DiffusionTechniqueInner() {
                             resetFlow();
                             setView('choose');
                           }}
-                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                          className="w-full py-4 rounded-2xl bg-white border border-white/60 text-slate-500 hover:text-slate-900 font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                         >
                           <RefreshCw size={16} />
                           {t('btn_try_another', 'Try Another Technique')}
@@ -733,10 +733,10 @@ function DiffusionTechniqueInner() {
                     className="space-y-6 text-left"
                   >
                     <div className="space-y-3">
-                      <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                      <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                         {t('sell_title', 'Sell the Thought')}
                       </h1>
-                      <div className="space-y-4 text-slate-500 dark:text-slate-400 text-base font-bold leading-relaxed">
+                      <div className="space-y-4 text-slate-500 text-base font-bold leading-relaxed">
                         <p>{t('sell_intro_1', 'Sometimes our mind tries to sell us thoughts that feel very convincing.')}</p>
                         <p>{t('sell_intro_2', 'In this exercise you will treat your thought like a product someone is trying to sell you.')}</p>
                       </div>
@@ -762,7 +762,7 @@ function DiffusionTechniqueInner() {
                     className="space-y-6 text-left"
                   >
                     <div className="space-y-2">
-                      <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                      <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                         {t('sell_question', 'What thought is bothering you?')}
                       </h1>
                     </div>
@@ -799,14 +799,14 @@ function DiffusionTechniqueInner() {
                     className="space-y-6 text-left"
                   >
                     <div className="space-y-2">
-                      <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                      <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                         {t('sell_cost_question', 'How much would this thought cost?')}
                       </h1>
-                      <p className="text-slate-505 dark:text-slate-400 text-sm font-medium leading-relaxed">
+                      <p className="text-slate-505 text-sm font-medium leading-relaxed">
                         {t('sell_cost_hint', 'If someone tried to sell you this thought, how valuable would it actually be?')}
                       </p>
                     </div>
-                    <div className="p-6 bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 shadow-sm">
+                    <div className="p-6 bg-white rounded-3xl border border-white/60 shadow-sm">
                       <MoneySlider value={sellValue} onChange={setSellValue} />
                     </div>
                     <motion.button
@@ -859,7 +859,7 @@ function DiffusionTechniqueInner() {
                             resetFlow();
                             setView('choose');
                           }}
-                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                          className="w-full py-4 rounded-2xl bg-white border border-white/60 text-slate-500 hover:text-slate-900 font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                         >
                           <RefreshCw size={16} />
                           {t('btn_try_another', 'Try Another Technique')}
@@ -885,10 +885,10 @@ function DiffusionTechniqueInner() {
                     className="space-y-6 text-left"
                   >
                     <div className="space-y-3">
-                      <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                      <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                         {t('name_title', 'Name the Story')}
                       </h1>
-                      <div className="space-y-4 text-slate-500 dark:text-slate-400 text-base font-bold leading-relaxed">
+                      <div className="space-y-4 text-slate-500 text-base font-bold leading-relaxed">
                         <p>{t('name_intro_1', 'Our mind often repeats the same thoughts again and again.')}</p>
                         <p>{t('name_intro_2', 'Instead of fighting them, we can simply name the story our mind is telling.')}</p>
                       </div>
@@ -914,7 +914,7 @@ function DiffusionTechniqueInner() {
                     className="space-y-6 text-left"
                   >
                     <div className="space-y-2">
-                      <h1 className="text-3xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                      <h1 className="text-3xl font-black text-slate-900 leading-tight tracking-tight">
                         {t('name_question', 'Write a recurring thought')}
                       </h1>
                     </div>
@@ -994,7 +994,7 @@ function DiffusionTechniqueInner() {
                             resetFlow();
                             setView('choose');
                           }}
-                          className="w-full py-4 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
+                          className="w-full py-4 rounded-2xl bg-white border border-white/60 text-slate-500 hover:text-slate-900 font-black text-xs uppercase tracking-widest shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-2"
                         >
                           <RefreshCw size={16} />
                           {t('btn_try_another', 'Try Another Technique')}

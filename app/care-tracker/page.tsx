@@ -106,7 +106,7 @@ function OptionChip({
       className={`px-5 py-3 rounded-full font-bold text-sm border transition-all flex items-center gap-2 ${
         selected
           ? "bg-primary border-primary text-white shadow-lg shadow-primary/30 shadow-primary/20"
-          : "bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40"
+          : "bg-white  border-white/60  text-slate-600  hover:bg-slate-50  hover:shadow-xl hover:shadow-primary/40"
       }`}
     >
       {emoji && <span>{emoji}</span>}
@@ -330,7 +330,7 @@ function CareTrackerInner() {
                 <div
                   key={s}
                   className={`h-1.5 rounded-full transition-all duration-550 ${
-                    stepFilled ? "w-8 bg-primary" : "w-2 bg-slate-100 dark:bg-slate-800"
+                    stepFilled ? "w-8 bg-primary" : "w-2 bg-slate-100 "
                   }`}
                 />
               );
@@ -366,7 +366,7 @@ function CareTrackerInner() {
                   <h1 className="act-heading">
                     {t('screens.checkin.title', 'Checking In')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm">
+                  <p className="text-slate-500 text-sm">
                     {t('screens.checkin.subtitle', 'First, select the date for your entry.')}
                   </p>
                 </div>
@@ -381,7 +381,7 @@ function CareTrackerInner() {
                       value={entry.date}
                       max={toLocalIsoDate(new Date())}
                       onChange={(e) => handleDateChange(e.target.value)}
-                      className="field-input w-full py-5 px-6 rounded-[2rem] bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-bold focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
+                      className="field-input w-full py-5 px-6 rounded-[2rem] bg-white border border-slate-100 text-slate-700 font-bold focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all shadow-sm"
                     />
                   </div>
                 </div>
@@ -415,7 +415,7 @@ function CareTrackerInner() {
                   <h1 className="act-heading">
                     {t('screens.activities.title', 'Self-Care Activities')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm">
+                  <p className="text-slate-500 text-sm">
                     {t('screens.activities.subtitle', 'What acts of self-care did you practice today?')}
                   </p>
                 </div>
@@ -445,7 +445,7 @@ function CareTrackerInner() {
                     onChange={(e) => setCustomActivity(e.target.value)}
                     onKeyDown={(e) => e.key === "Enter" && addCustomActivity()}
                     placeholder={t('common.add_activity', 'Add custom activity...')}
-                    className="flex-1 py-5 px-6 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 placeholder:text-slate-300 dark:placeholder:text-slate-700 font-bold focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all"
+                    className="flex-1 py-5 px-6 rounded-2xl bg-white border border-white/60 text-slate-700 placeholder:text-slate-300 font-bold focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none transition-all"
                   />
                   <button
                     onClick={addCustomActivity}
@@ -470,7 +470,7 @@ function CareTrackerInner() {
                   <h1 className="act-heading">
                     {t('screens.duration.title', 'Time Spent')}
                   </h1>
-                  <p className="text-slate-505 dark:text-slate-400 text-sm">
+                  <p className="text-slate-505 text-sm">
                     {t('screens.duration.subtitle', 'Roughly how long did you spend practicing self-care?')}
                   </p>
                 </div>
@@ -500,7 +500,7 @@ function CareTrackerInner() {
                   <h1 className="act-heading">
                     {t('screens.noSelfCare.title', 'Understand Today')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm">
+                  <p className="text-slate-500 text-sm">
                     {t('screens.noSelfCare.subtitle', "Let's reflect gently on what kept you from self-care.")}
                   </p>
                 </div>
@@ -551,7 +551,7 @@ function CareTrackerInner() {
                   <h1 className="act-heading">
                     {t('screens.mood.title', 'Your Mood')}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm">
+                  <p className="text-slate-500 text-sm">
                     {t('screens.mood.subtitle', 'How do you feel overall today?')}
                   </p>
                 </div>
@@ -565,8 +565,8 @@ function CareTrackerInner() {
                         onClick={() => handleMoodSelect(m.label, m.emoji)}
                         className={`flex flex-col items-center gap-3 rounded-3xl border p-5 transition-all duration-200 active:scale-95 ${
                           isSelected
-                            ? "border-primary bg-primary/10 dark:bg-primary/20 text-slate-900 dark:text-slate-100"
-                            : "border-white/60 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-primary/30 text-slate-500 dark:text-slate-450"
+                            ? "border-primary bg-primary/10  text-slate-900 "
+                            : "border-white/60  bg-white  hover:border-primary/30 text-slate-500 "
                         }`}
                       >
                         <span className="text-4xl flex items-center justify-center">{m.icon || m.emoji}</span>
@@ -588,7 +588,7 @@ function CareTrackerInner() {
               <motion.div key="statement" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-8 pb-32">
                 <div className="flex min-h-[60vh] flex-col items-center justify-center text-center">
                   <div className="flex justify-center mb-8">{entry.didSelfCare ? <Sparkles className="w-20 h-20 text-primary" /> : <Moon className="w-20 h-20 text-primary" />}</div>
-                  <p className="font-display text-2xl font-bold leading-relaxed tracking-tight px-4 text-slate-850 dark:text-slate-100">
+                  <p className="font-display text-2xl font-bold leading-relaxed tracking-tight px-4 text-slate-850">
                     {entry.didSelfCare
                       ? t(`data.positiveStatements.${statementInfo.index}`, statementInfo.text)
                       : t(`data.supportiveStatements.${statementInfo.index}`, statementInfo.text)}
@@ -613,14 +613,14 @@ function CareTrackerInner() {
                   shareContent={"I just completed 'Self-Care Log' on TherapyMantra — a guided self-care tracking that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="grid gap-3 w-full max-w-md mx-auto mt-10">
-                    <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
+                    <div className="flex items-center justify-between p-6 bg-white rounded-[2rem] border border-slate-50 shadow-sm">
                       <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('common.date', 'Date')}</span>
-                      <span className="text-base font-bold text-slate-700 dark:text-slate-350">{formatDateShort(entry.date)}</span>
+                      <span className="text-base font-bold text-slate-700">{formatDateShort(entry.date)}</span>
                     </div>
 
-                    <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
+                    <div className="flex items-center justify-between p-6 bg-white rounded-[2rem] border border-slate-50 shadow-sm">
                       <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.didSelfCare', 'Self-Care')}</span>
-                      <span className="text-base font-bold text-slate-700 dark:text-slate-350">
+                      <span className="text-base font-bold text-slate-700">
                         {entry.didSelfCare ? `${t('common.yes', 'Yes')} ` : `${t('common.no', 'No')} `}
                       </span>
                     </div>
@@ -628,43 +628,43 @@ function CareTrackerInner() {
                     {entry.didSelfCare ? (
                       <>
                         {entry.activities.length > 0 && (
-                          <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
+                          <div className="flex items-center justify-between p-6 bg-white rounded-[2rem] border border-slate-50 shadow-sm">
                             <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.activities', 'Activities')}</span>
-                            <span className="text-base font-bold text-slate-700 dark:text-slate-350 max-w-[200px] text-right truncate">
+                            <span className="text-base font-bold text-slate-700 max-w-[200px] text-right truncate">
                               {entry.activities.map((a) => t(`data.activities.${a}`, a)).join(", ")}
                             </span>
                           </div>
                         )}
                         {entry.duration && (
-                          <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
+                          <div className="flex items-center justify-between p-6 bg-white rounded-[2rem] border border-slate-50 shadow-sm">
                             <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.duration', 'Duration')}</span>
-                            <span className="text-base font-bold text-slate-700 dark:text-slate-350">{t(`data.durations.${entry.duration}`, entry.duration)}</span>
+                            <span className="text-base font-bold text-slate-700">{t(`data.durations.${entry.duration}`, entry.duration)}</span>
                           </div>
                         )}
                       </>
                     ) : (
                       <>
                         {entry.preventionReasons.length > 0 && (
-                          <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
+                          <div className="flex items-center justify-between p-6 bg-white rounded-[2rem] border border-slate-50 shadow-sm">
                             <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.challenges', 'Challenges')}</span>
-                            <span className="text-base font-bold text-slate-700 dark:text-slate-350 max-w-[200px] text-right truncate">
+                            <span className="text-base font-bold text-slate-700 max-w-[200px] text-right truncate">
                               {entry.preventionReasons.map((r) => t(`data.reasons.${r}`, r)).join(", ")}
                             </span>
                           </div>
                         )}
                         {entry.helpfulType && (
-                          <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
+                          <div className="flex items-center justify-between p-6 bg-white rounded-[2rem] border border-slate-50 shadow-sm">
                             <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.whatHelps', 'What helps')}</span>
-                            <span className="text-base font-bold text-slate-700 dark:text-slate-350">{t(`data.helpfulTypes.${entry.helpfulType}`, entry.helpfulType)}</span>
+                            <span className="text-base font-bold text-slate-700">{t(`data.helpfulTypes.${entry.helpfulType}`, entry.helpfulType)}</span>
                           </div>
                         )}
                       </>
                     )}
 
                     {entry.mood && (
-                      <div className="flex items-center justify-between p-6 bg-white dark:bg-slate-900 rounded-[2rem] border border-slate-50 dark:border-slate-800 shadow-sm">
+                      <div className="flex items-center justify-between p-6 bg-white rounded-[2rem] border border-slate-50 shadow-sm">
                         <span className="text-[10px] font-black text-slate-350 uppercase tracking-[0.2em]">{t('screens.review.mood', 'Mood')}</span>
-                        <span className="text-base font-bold text-slate-700 dark:text-slate-350">
+                        <span className="text-base font-bold text-slate-700">
                           {MOODS.find(m => m.label === entry.mood)?.icon || entry.moodEmoji} {t(`data.moods.${entry.mood}`, entry.mood)}
                         </span>
                       </div>
@@ -675,7 +675,7 @@ function CareTrackerInner() {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={resetFlow}
-                        className="py-5 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 font-black text-[10px] uppercase tracking-widest shadow-sm flex items-center justify-center gap-2 hover:text-primary hover:border-primary/20 transition-all"
+                        className="py-5 rounded-2xl bg-white border border-white/60 text-slate-500 font-black text-[10px] uppercase tracking-widest shadow-sm flex items-center justify-center gap-2 hover:text-primary hover:border-primary/20 transition-all"
                       >
                         <Pencil size={16} />
                         {t('screens.review.editToday', 'Edit Entry')}
@@ -685,7 +685,7 @@ function CareTrackerInner() {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={handleViewHistory}
-                        className="py-5 rounded-2xl bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 font-black text-[10px] uppercase tracking-widest shadow-sm flex items-center justify-center gap-2 hover:text-primary hover:border-primary/20 transition-all"
+                        className="py-5 rounded-2xl bg-white border border-white/60 text-slate-500 font-black text-[10px] uppercase tracking-widest shadow-sm flex items-center justify-center gap-2 hover:text-primary hover:border-primary/20 transition-all"
                       >
                         <CalendarDays size={16} />
                         {t('screens.review.viewHistory', 'View History')}
@@ -701,10 +701,10 @@ function CareTrackerInner() {
               <motion.div key="history" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} className="w-full space-y-6 pb-12">
                 <div className="text-left flex justify-between items-center">
                   <div>
-                    <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-1">
+                    <h2 className="text-3xl font-extrabold text-slate-900 mb-1">
                       {t('screens.history.title', 'Your Progress')}
                     </h2>
-                    <p className="text-slate-505 dark:text-slate-400 text-sm font-medium">
+                    <p className="text-slate-505 text-sm font-medium">
                       {t('your_progress_over_the_last_7_days', 'Your progress over the last 7 days')}
                     </p>
                   </div>
@@ -712,7 +712,7 @@ function CareTrackerInner() {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     onClick={() => setScreen("review")} 
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-300 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+                    className="p-3 bg-slate-100 text-slate-650 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
                   >
                     <ArrowLeft size={20} />
                   </motion.button>
@@ -726,8 +726,8 @@ function CareTrackerInner() {
                     </p>
                   </div>
                 ) : historyList.length === 0 ? (
-                  <div className="text-center py-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-3xl border border-dashed border-white/60 dark:border-slate-850">
-                    <div className="w-16 h-16 bg-white dark:bg-slate-955 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm">
+                  <div className="text-center py-16 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-3xl border border-dashed border-white/60">
+                    <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
                       <History size={32} />
                     </div>
                     <p className="text-slate-400 font-bold text-sm px-8">
@@ -747,17 +747,17 @@ function CareTrackerInner() {
                           initial={{ opacity: 0, x: -10 }}
                           animate={{ opacity: 1, x: 0 }}
                           transition={{ delay: i * 0.04 }}
-                          className="group bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 flex items-center justify-between transition-all hover:border-primary/20 hover:shadow-md"
+                          className="group bg-white rounded-[2rem] border border-white/60 p-6 flex items-center justify-between transition-all hover:border-primary/20 hover:shadow-md"
                         >
                           <div className="flex items-center gap-5">
-                            <div className="w-14 h-14 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-2xl group-hover:bg-primary/10 transition-colors">
-                              {MOODS.find(m => m.label === entryItem.mood)?.icon || entryItem.moodEmoji || <Calendar size={24} className="text-slate-300 dark:text-slate-700" />}
+                            <div className="w-14 h-14 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 flex items-center justify-center text-2xl group-hover:bg-primary/10 transition-colors">
+                              {MOODS.find(m => m.label === entryItem.mood)?.icon || entryItem.moodEmoji || <Calendar size={24} className="text-slate-300" />}
                             </div>
                             <div>
                               <p className="field-label">
                                 {formatDateShort(entryItem.date)}
                               </p>
-                              <p className="text-base font-bold text-slate-800 dark:text-slate-200 mt-0.5 line-clamp-1">
+                              <p className="text-base font-bold text-slate-800 mt-0.5 line-clamp-1">
                                 {keyInfo}
                               </p>
                             </div>
@@ -766,7 +766,7 @@ function CareTrackerInner() {
                             className={`px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest ${
                               entryItem.didSelfCare
                                 ? "bg-primary/10 text-primary"
-                                : "bg-slate-100 dark:bg-slate-950 text-slate-400 dark:text-slate-500"
+                                : "bg-slate-100  text-slate-400 "
                             }`}
                           >
                             {entryItem.didSelfCare ? t('common.yes', 'Yes') : t('common.no', 'No')}

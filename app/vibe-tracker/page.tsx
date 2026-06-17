@@ -14,16 +14,16 @@ import { apiPath } from '@/lib/apiPath';
 type Screen = 'intro' | 'checkin' | 'reflection' | 'confirmation' | 'history';
 
 const vibes = [
-  { emoji: "calm", label: "Calm", icon: <Wind size={24} />, tint: "bg-emerald-50/50 border-emerald-100 text-emerald-800 dark:bg-emerald-950/10 dark:border-emerald-900/20 dark:text-emerald-300" },
-  { emoji: "light", label: "Light", icon: <Sun size={24} />, tint: "bg-amber-50/50 border-amber-100 text-amber-800 dark:bg-amber-950/10 dark:border-amber-900/20 dark:text-amber-300" },
-  { emoji: "driven", label: "Driven", icon: <Flame size={24} />, tint: "bg-orange-50/50 border-orange-100 text-orange-800 dark:bg-orange-950/10 dark:border-orange-900/20 dark:text-orange-300" },
-  { emoji: "content", label: "Content", icon: <HeartHandshake size={24} />, tint: "bg-pink-50/50 border-pink-100 text-pink-800 dark:bg-pink-950/10 dark:border-pink-900/20 dark:text-pink-300" },
-  { emoji: "steady", label: "Steady", icon: <Anchor size={24} />, tint: "bg-blue-50/50 border-blue-100 text-blue-800 dark:bg-blue-950/10 dark:border-blue-900/20 dark:text-blue-300" },
-  { emoji: "tender", label: "Tender", icon: <CloudRain size={24} />, tint: "bg-slate-50/50 border-white/60 text-slate-800 dark:bg-slate-950/10 dark:border-slate-900/20 dark:text-slate-300" },
-  { emoji: "heavy", label: "Heavy", icon: <Coffee size={24} />, tint: "bg-indigo-50/50 border-indigo-100 text-indigo-800 dark:bg-indigo-950/10 dark:border-indigo-900/20 dark:text-indigo-300" },
-  { emoji: "thoughtful", label: "Thoughtful", icon: <Activity size={24} />, tint: "bg-teal-50/50 border-teal-100 text-teal-800 dark:bg-teal-950/10 dark:border-teal-900/20 dark:text-teal-300" },
-  { emoji: "restless", label: "Restless", icon: <BatteryWarning size={24} />, tint: "bg-yellow-50/50 border-yellow-100 text-yellow-800 dark:bg-yellow-950/10 dark:border-yellow-900/20 dark:text-yellow-300" },
-  { emoji: "drained", label: "Drained", icon: <Battery size={24} />, tint: "bg-rose-50/50 border-rose-100 text-rose-800 dark:bg-rose-950/10 dark:border-rose-900/20 dark:text-rose-300" },
+  { emoji: "calm", label: "Calm", icon: <Wind size={24} />, tint: "bg-emerald-50/50 border-emerald-100 text-emerald-800   " },
+  { emoji: "light", label: "Light", icon: <Sun size={24} />, tint: "bg-amber-50/50 border-amber-100 text-amber-800   " },
+  { emoji: "driven", label: "Driven", icon: <Flame size={24} />, tint: "bg-orange-50/50 border-orange-100 text-orange-800   " },
+  { emoji: "content", label: "Content", icon: <HeartHandshake size={24} />, tint: "bg-pink-50/50 border-pink-100 text-pink-800   " },
+  { emoji: "steady", label: "Steady", icon: <Anchor size={24} />, tint: "bg-blue-50/50 border-blue-100 text-blue-800   " },
+  { emoji: "tender", label: "Tender", icon: <CloudRain size={24} />, tint: "bg-slate-50/50 border-white/60 text-slate-800   " },
+  { emoji: "heavy", label: "Heavy", icon: <Coffee size={24} />, tint: "bg-indigo-50/50 border-indigo-100 text-indigo-800   " },
+  { emoji: "thoughtful", label: "Thoughtful", icon: <Activity size={24} />, tint: "bg-teal-50/50 border-teal-100 text-teal-800   " },
+  { emoji: "restless", label: "Restless", icon: <BatteryWarning size={24} />, tint: "bg-yellow-50/50 border-yellow-100 text-yellow-800   " },
+  { emoji: "drained", label: "Drained", icon: <Battery size={24} />, tint: "bg-rose-50/50 border-rose-100 text-rose-800   " },
 ];
 
 const vibeEmojiMap: Record<string, string> = vibes.reduce((acc, v) => ({ ...acc, [v.label]: v.emoji }), {});
@@ -208,7 +208,7 @@ function VibeTrackerInner() {
               <div
                 key={i}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= reflectionIndex ? 'w-8 bg-primary' : 'w-2 bg-slate-150 dark:bg-slate-800'
+                  i <= reflectionIndex ? 'w-8 bg-primary' : 'w-2 bg-slate-150 '
                 }`}
               />
             ))}
@@ -339,7 +339,7 @@ function VibeTrackerInner() {
                   </h1>
                 </div>
 
-                <p className="text-xl font-bold text-slate-700 dark:text-slate-350 text-center leading-relaxed px-4">
+                <p className="text-xl font-bold text-slate-700 text-center leading-relaxed px-4">
                   {t(`prompts.${shuffledKeys[reflectionIndex]}`, shuffledKeys[reflectionIndex])}
                 </p>
 
@@ -391,7 +391,7 @@ function VibeTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen("history")}
-                      className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 dark:shadow-none transition-all flex items-center justify-center gap-3"
+                      className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
                     >
                       <Clock size={20} />
                       {t("viewHistory", "View History")}
@@ -446,7 +446,7 @@ function VibeTrackerInner() {
                   <div className="space-y-10">
                     {groupedEntries().map(([dateKey, dayEntries], groupIdx) => (
                       <div key={dateKey} className="space-y-4">
-                        <p className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-[0.2em] px-4">
+                        <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] px-4">
                           {formatDate(dayEntries[0].timestamp)}
                         </p>
 
@@ -463,20 +463,20 @@ function VibeTrackerInner() {
                               >
                                 <div className="flex items-center justify-between">
                                   <div className="flex items-center gap-3">
-                                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl transition-colors ${matchingVibe?.tint || 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950'}`}>
+                                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl transition-colors ${matchingVibe?.tint || 'bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 '}`}>
                                       {(vibes.find(v => v.label === entry.vibe)?.icon || vibeEmojiMap[entry.vibe]) || "?"}
                                     </div>
                                     <div>
-                                      <h4 className="font-black text-slate-800 dark:text-slate-200 text-sm uppercase tracking-wider">
+                                      <h4 className="font-black text-slate-800 text-sm uppercase tracking-wider">
                                         {t(`vibes.${entry.vibe}`, entry.vibe)}
                                       </h4>
-                                      <div className="flex items-center gap-1.5 text-[10px] text-slate-400 dark:text-slate-500 font-bold uppercase tracking-widest">
+                                      <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-bold uppercase tracking-widest">
                                         <Clock size={10} />
                                         {formatTime(entry.timestamp)}
                                       </div>
                                     </div>
                                   </div>
-                                  <Heart size={16} className="text-slate-100 group-hover:text-primary dark:text-slate-800 transition-colors animate-pulse" fill="currentColor" />
+                                  <Heart size={16} className="text-slate-100 group-hover:text-primary transition-colors animate-pulse" fill="currentColor" />
                                 </div>
 
                                 {entry.reflections && entry.reflections.length > 0 && entry.reflections.some(r => r && r.trim()) && (
@@ -486,7 +486,7 @@ function VibeTrackerInner() {
                                       .map((reflection, idx) => (
                                         <p
                                           key={idx}
-                                          className="text-slate-600 dark:text-slate-400 text-sm font-bold leading-relaxed line-clamp-3 italic"
+                                          className="text-slate-600 text-sm font-bold leading-relaxed line-clamp-3 italic"
                                         >
                                           "{reflection}"
                                         </p>

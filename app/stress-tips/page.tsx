@@ -25,7 +25,7 @@ const TIPS: Tip[] = [
     title: "Get Restful Sleep",
     description: "Aim for 7–9 hours of sleep each night. Try to sleep and wake up at the same time daily.",
     icon: "",
-    iconBg: "bg-cyan-50 dark:bg-cyan-950/20 text-cyan-600",
+    iconBg: "bg-cyan-50  text-cyan-600",
     whyItHelps: "Sleep helps your brain and body recover and lowers stress hormones.",
     whatYouCanDo: [
       "Keep a fixed sleep schedule",
@@ -40,7 +40,7 @@ const TIPS: Tip[] = [
     title: "Practice Deep Breathing",
     description: "Spend a few minutes focusing on your breath. Slow breathing reduces anxiety.",
     icon: "️",
-    iconBg: "bg-teal-50 dark:bg-teal-950/20 text-teal-600",
+    iconBg: "bg-teal-50  text-teal-600",
     whyItHelps: "Slow breathing activates your body's relaxation response.",
     whatYouCanDo: [
       "Inhale for 4 seconds",
@@ -55,7 +55,7 @@ const TIPS: Tip[] = [
     title: "Move Your Body",
     description: "Light walking or stretching helps release stress and improve mood.",
     icon: "",
-    iconBg: "bg-blue-50 dark:bg-blue-950/20 text-blue-600",
+    iconBg: "bg-blue-50  text-blue-600",
     whyItHelps: "Exercise releases endorphins and improves mood.",
     whatYouCanDo: [
       "15-minute walk",
@@ -69,7 +69,7 @@ const TIPS: Tip[] = [
     title: "Limit Caffeine & Sugar",
     description: "Too much caffeine and sugar can increase anxiety and disturb sleep.",
     icon: "",
-    iconBg: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950/20 text-slate-600",
+    iconBg: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50  text-slate-600",
     whyItHelps: "Too much caffeine and sugar increases anxiety and sleep problems.",
     whatYouCanDo: [
       "Replace one coffee with herbal tea",
@@ -83,7 +83,7 @@ const TIPS: Tip[] = [
     title: "Plan Your Day",
     description: "Break large tasks into smaller steps to avoid feeling overwhelmed.",
     icon: "",
-    iconBg: "bg-amber-50 dark:bg-amber-950/20 text-amber-600",
+    iconBg: "bg-amber-50  text-amber-600",
     whyItHelps: "Planning reduces mental clutter and overwhelm.",
     whatYouCanDo: [
       "Write 3 main tasks",
@@ -146,7 +146,7 @@ function BreathingGuide() {
       </div>
 
       <div className="space-y-1">
-        <p className="text-lg font-black text-slate-800 dark:text-slate-200">
+        <p className="text-lg font-black text-slate-800">
           {label}
         </p>
         <p className="field-label">
@@ -202,10 +202,10 @@ function StressTipsInner() {
                   <Sparkles size={14} />
                   {t('Grounding', 'Mental De-stress')}
                 </div>
-                <h1 className="text-3.5xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+                <h1 className="text-3.5xl font-black text-slate-900 leading-tight tracking-tight">
                   {t('stay_present', 'Stress Relief Tips')}
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-bold leading-relaxed">
+                <p className="text-slate-500 text-sm font-bold leading-relaxed">
                   {t(
                     'Choose any target strategy below to explore why it helps and how you can apply it daily.',
                     'Choose any target strategy below to explore why it helps and how you can apply it daily.'
@@ -227,19 +227,19 @@ function StressTipsInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => setSelectedSlug(tip.slug)}
-                      className="w-full p-6 text-left rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 shadow-sm hover:border-primary/20 dark:hover:border-primary/30 transition-all flex flex-col justify-start gap-2 group"
+                      className="w-full p-6 text-left rounded-[2rem] bg-white border border-white/60 shadow-sm hover:border-primary/20 transition-all flex flex-col justify-start gap-2 group"
                     >
                       <div className="flex items-center gap-3.5">
                         <div className={`w-11 h-11 rounded-2xl ${tip.iconBg} flex items-center justify-center text-xl shrink-0`}>
                           {tip.icon}
                         </div>
                         <div>
-                          <h4 className="font-extrabold text-slate-800 dark:text-slate-200 text-base leading-tight">
+                          <h4 className="font-extrabold text-slate-800 text-base leading-tight">
                             {title}
                           </h4>
                         </div>
                       </div>
-                      <p className="text-slate-500 dark:text-slate-450 text-xs font-bold leading-relaxed pl-1.5 pt-1">
+                      <p className="text-slate-500 text-xs font-bold leading-relaxed pl-1.5 pt-1">
                         {desc}
                       </p>
                     </motion.button>
@@ -260,7 +260,7 @@ function StressTipsInner() {
             >
               <button
                 onClick={() => setSelectedSlug(null)}
-                className="font-bold text-xs text-slate-400 dark:text-slate-500 mb-2 flex items-center gap-1.5 hover:text-primary transition-colors uppercase tracking-wider"
+                className="font-bold text-xs text-slate-400 mb-2 flex items-center gap-1.5 hover:text-primary transition-colors uppercase tracking-wider"
               >
                 <ArrowLeft size={16} />
                 {t('detail.back', 'Back to Tips')}
@@ -271,7 +271,7 @@ function StressTipsInner() {
                   {activeTip.icon}
                 </div>
                 <div>
-                  <h1 className="font-extrabold text-slate-900 dark:text-white text-xl">
+                  <h1 className="font-extrabold text-slate-900 text-xl">
                     {t(`tip.${activeTip.slug}.title`, activeTip.title)}
                   </h1>
                   <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-0.5">
@@ -282,8 +282,8 @@ function StressTipsInner() {
 
               {/* Dynamic breathing guide overlay */}
               {activeTip.hasBreathing && (
-                <div className="p-8 bg-teal-500/5 dark:bg-teal-500/10 border border-teal-500/15 rounded-[2.5rem] space-y-4">
-                  <div className="flex items-center gap-2 text-teal-600 dark:text-teal-400 font-black text-[10px] uppercase tracking-widest">
+                <div className="p-8 bg-teal-500/5 border border-teal-500/15 rounded-[2.5rem] space-y-4">
+                  <div className="flex items-center gap-2 text-teal-600 font-black text-[10px] uppercase tracking-widest">
                     <Wind size={16} />
                     {t('breathing_guide', 'PULSING BREATHING REGULATOR')}
                   </div>
@@ -292,30 +292,30 @@ function StressTipsInner() {
               )}
 
               {/* Why it helps */}
-              <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm space-y-2">
-                <span className="text-[9px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest block">
+              <div className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-sm space-y-2">
+                <span className="text-[9px] font-black text-slate-350 uppercase tracking-widest block">
                   {t('detail.whyTitle', 'WHY IT HELPS')}
                 </span>
-                <p className="text-slate-700 dark:text-slate-200 text-sm font-extrabold leading-relaxed italic">
+                <p className="text-slate-700 text-sm font-extrabold leading-relaxed italic">
                   &quot;{t(`tip.${activeTip.slug}.why`, activeTip.whyItHelps)}&quot;
                 </p>
               </div>
 
               {/* What you can do checklists */}
               <div className="space-y-4">
-                <h3 className="text-base font-black text-slate-800 dark:text-slate-200 tracking-tight">
+                <h3 className="text-base font-black text-slate-800 tracking-tight">
                   {t('detail.doTitle', 'Steps You Can Take')}
                 </h3>
                 <div className="grid gap-3">
                   {activeTip.whatYouCanDo.map((item, i) => (
                     <div
                       key={i}
-                      className="flex items-start gap-4 p-5 bg-slate-55/60 dark:bg-slate-900/60 rounded-2xl border border-white/60/20 shadow-sm"
+                      className="flex items-start gap-4 p-5 bg-slate-55/60 rounded-2xl border border-white/60/20 shadow-sm"
                     >
                       <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
                         <Check size={16} strokeWidth={3} />
                       </div>
-                      <span className="text-slate-755 dark:text-slate-300 text-xs font-extrabold leading-relaxed pt-1">
+                      <span className="text-slate-755 text-xs font-extrabold leading-relaxed pt-1">
                         {t(`tip.${activeTip.slug}.do[${i}]`, item)}
                       </span>
                     </div>

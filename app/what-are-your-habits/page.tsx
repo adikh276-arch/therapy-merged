@@ -95,7 +95,7 @@ function HabitsInner() {
               <div
                 key={i}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= step ? 'w-8 bg-primary' : 'w-2 bg-slate-150 dark:bg-slate-800'
+                  i <= step ? 'w-8 bg-primary' : 'w-2 bg-slate-150 '
                 }`}
               />
             ))}

@@ -214,7 +214,7 @@ function GratitudeTrackerInner() {
               <div
                 key={s}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-150 dark:bg-slate-800'
+                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-150 '
                 }`}
               />
             ))}
@@ -249,7 +249,7 @@ function GratitudeTrackerInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('history')}
-                      className="flex items-center gap-3 text-slate-500 dark:text-slate-400 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm"
+                      className="flex items-center gap-3 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white px-6 py-3 rounded-2xl border border-white/60 shadow-sm"
                     >
                       <CalendarIcon size={16} />
                       {t('review.history', 'View History')}
@@ -447,7 +447,7 @@ function GratitudeTrackerInner() {
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={handleEditEntry}
-                      className="flex-1 py-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-900 dark:text-slate-350 dark:hover:text-white font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-sm transition-all"
+                      className="flex-1 py-4 bg-white border border-white/60 text-slate-500 hover:text-slate-900 font-black text-[10px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 shadow-sm transition-all"
                     >
                       {t('review.edit', 'Edit Entry')}
                     </motion.button>
@@ -489,29 +489,29 @@ function GratitudeTrackerInner() {
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={handleResetFlow}
-                    className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-350 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+                    className="p-3 bg-slate-100 text-slate-650 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
                   >
                     <ArrowLeft size={18} />
                   </motion.button>
                 </div>
 
-                <div className="flex items-center justify-between bg-slate-55/60 dark:bg-slate-900/60 p-2.5 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm">
+                <div className="flex items-center justify-between bg-slate-55/60 p-2.5 rounded-2xl border border-white/60 shadow-sm">
                   <motion.button
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={() => changeMonth(-1)}
-                    className="p-2.5 bg-white dark:bg-slate-950 text-slate-400 rounded-xl hover:text-slate-800 dark:hover:text-white transition-all shadow-sm border border-white/60/50"
+                    className="p-2.5 bg-white text-slate-400 rounded-xl hover:text-slate-800 transition-all shadow-sm border border-white/60/50"
                   >
                     <ChevronLeft size={16} strokeWidth={3} />
                   </motion.button>
-                  <span className="text-sm font-black text-slate-750 dark:text-slate-200 min-w-[120px] text-center">
+                  <span className="text-sm font-black text-slate-750 min-w-[120px] text-center">
                     {currentMonth.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}
                   </span>
                   <motion.button
                     whileHover={{ scale: 1.08 }}
                     whileTap={{ scale: 0.92 }}
                     onClick={() => changeMonth(1)}
-                    className="p-2.5 bg-white dark:bg-slate-955 text-slate-400 rounded-xl hover:text-slate-800 dark:hover:text-white transition-all shadow-sm border border-white/60/50"
+                    className="p-2.5 bg-white text-slate-400 rounded-xl hover:text-slate-800 transition-all shadow-sm border border-white/60/50"
                   >
                     <ChevronRight size={16} strokeWidth={3} />
                   </motion.button>
@@ -529,7 +529,7 @@ function GratitudeTrackerInner() {
                         {WEEKDAYS.map((d) => (
                           <div
                             key={d}
-                            className="text-center text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest"
+                            className="text-center text-[10px] font-black text-slate-350 uppercase tracking-widest"
                           >
                             {t(`history.${d.toLowerCase()}`, d).substring(0, 3)}
                           </div>
@@ -557,8 +557,8 @@ function GratitudeTrackerInner() {
                                   : isToday
                                   ? 'bg-primary/10 text-primary'
                                   : hasEntry
-                                  ? 'bg-slate-55 dark:bg-slate-950 text-slate-700 dark:text-slate-300 hover:bg-slate-100 border border-white/60/50 dark:border-slate-850'
-                                  : 'text-slate-200 dark:text-slate-800 pointer-events-none'
+                                  ? 'bg-slate-55  text-slate-700  hover:bg-slate-100 border border-white/60/50 '
+                                  : 'text-slate-200  pointer-events-none'
                               }`}
                             >
                               {day.getDate()}
@@ -583,7 +583,7 @@ function GratitudeTrackerInner() {
                       exit={{ opacity: 0, y: -8 }}
                       className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white shadow-sm space-y-4 p-5"
                     >
-                      <div className="flex items-center justify-between border-b border-slate-50 dark:border-slate-850 pb-4">
+                      <div className="flex items-center justify-between border-b border-slate-50 pb-4">
                         <div className="flex items-center gap-2.5 text-slate-400">
                           <CalendarIcon size={16} />
                           <span className="text-xs font-bold uppercase tracking-wider">
@@ -606,19 +606,19 @@ function GratitudeTrackerInner() {
 
                       <div className="space-y-4">
                         <div className="space-y-1">
-                          <span className="text-[9px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest block">
+                          <span className="text-[9px] font-black text-slate-350 uppercase tracking-widest block">
                             {t('review.gratitude1', 'Gratitude 1')}
                           </span>
-                          <p className="text-sm font-bold text-slate-750 dark:text-slate-250 leading-relaxed">
+                          <p className="text-sm font-bold text-slate-750 leading-relaxed">
                             {selectedHistoryEntry.gratitude1}
                           </p>
                         </div>
                         {selectedHistoryEntry.gratitude2 && (
                           <div className="space-y-1">
-                            <span className="text-[9px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest block">
+                            <span className="text-[9px] font-black text-slate-350 uppercase tracking-widest block">
                               {t('review.gratitude2', 'Gratitude 2')}
                             </span>
-                            <p className="text-sm font-bold text-slate-750 dark:text-slate-250 leading-relaxed">
+                            <p className="text-sm font-bold text-slate-750 leading-relaxed">
                               {selectedHistoryEntry.gratitude2}
                             </p>
                           </div>
@@ -626,11 +626,11 @@ function GratitudeTrackerInner() {
                       </div>
                     </motion.div>
                   ) : (
-                    <div className="py-12 text-center bg-slate-55/40 dark:bg-slate-900/40 rounded-3xl border border-dashed border-white/60 dark:border-slate-800">
-                      <div className="w-14 h-14 bg-white dark:bg-slate-950 rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm animate-pulse">
+                    <div className="py-12 text-center bg-slate-55/40 rounded-3xl border border-dashed border-white/60">
+                      <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm animate-pulse">
                         <CalendarIcon size={24} />
                       </div>
-                      <p className="text-slate-400 dark:text-slate-500 font-bold text-xs uppercase tracking-widest px-4">
+                      <p className="text-slate-400 font-bold text-xs uppercase tracking-widest px-4">
                         {t('select_a_date_to_relive_gratitude', 'Select a date to relive gratitude')}
                       </p>
                     </div>

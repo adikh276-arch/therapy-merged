@@ -33,7 +33,7 @@ const BreathingCircle = () => {
   const opacity = current.name === "exhale" ? "opacity-50" : "opacity-100";
 
   return (
-    <div className="flex flex-col items-center gap-6 p-6 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 shadow-inner">
+    <div className="flex flex-col items-center gap-6 p-6 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[2rem] border border-white/60 shadow-inner">
       <div className="relative w-40 h-40 flex items-center justify-center">
         <div
           className={`absolute inset-0 rounded-full bg-primary/20 transition-all ${scale} ${opacity}`}
@@ -43,7 +43,7 @@ const BreathingCircle = () => {
           className={`absolute inset-4 rounded-full bg-primary/30 transition-all ${scale} ${opacity}`}
           style={{ transitionDuration: `${current.duration}ms`, transitionTimingFunction: "ease-in-out" }}
         />
-        <span className="relative text-foreground font-bold text-base z-10 text-slate-800 dark:text-slate-200">
+        <span className="relative text-foreground font-bold text-base z-10 text-slate-800">
           {running ? current.label : t("start", "Ready")}
         </span>
       </div>
@@ -137,14 +137,14 @@ function AnxietyTipsInner() {
         t("selftalk_step4", "Acknowledge that your feelings are natural and will pass."),
       ],
       extra: (
-        <div className="bg-emerald-50/50 border border-emerald-100 dark:bg-emerald-950/10 dark:border-emerald-900/20 rounded-[2rem] p-8 shadow-sm">
+        <div className="bg-emerald-50/50 border border-emerald-100 rounded-[2rem] p-8 shadow-sm">
           <p className="text-sm text-slate-500 font-bold mb-3 uppercase tracking-wider">{t("example", "Self-Talk Reframe")}</p>
-          <div className="space-y-2 text-slate-700 dark:text-slate-350">
+          <div className="space-y-2 text-slate-700">
             <p className="text-[15px] leading-relaxed">
               {t("instead_of", "Instead of")}: <span className="italic text-rose-500 font-medium">"{t("selftalk_instead", "I can't handle this right now.")}"</span>
             </p>
             <p className="text-[15px] leading-relaxed">
-              {t("try", "Try")}: <span className="font-bold text-emerald-600 dark:text-emerald-400">"{t("selftalk_try", "This feels tough, but I am doing my best and I can take it one breath at a time.")}"</span>
+              {t("try", "Try")}: <span className="font-bold text-emerald-600">"{t("selftalk_try", "This feels tough, but I am doing my best and I can take it one breath at a time.")}"</span>
             </p>
           </div>
         </div>
@@ -199,26 +199,26 @@ function AnxietyTipsInner() {
                       whileHover={{ scale: 1.02, x: 4 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setSelectedTipId(tip.id)}
-                      className="w-full text-left p-6 rounded-[2.5rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner dark:bg-slate-900 dark:border-slate-800 shadow-sm hover:shadow-xl hover:shadow-primary/5 hover:border-primary/20 transition-all flex items-center gap-5 group"
+                      className="w-full text-left p-6 rounded-[2.5rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner shadow-sm hover:shadow-xl hover:shadow-primary/5 hover:border-primary/20 transition-all flex items-center gap-5 group"
                     >
-                      <div className="w-16 h-16 rounded-3xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center shrink-0 group-hover:bg-primary/10 transition-all">
-                        <tip.icon className="w-7 h-7 text-slate-300 dark:text-slate-650 group-hover:text-primary transition-colors" />
+                      <div className="w-16 h-16 rounded-3xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 flex items-center justify-center shrink-0 group-hover:bg-primary/10 transition-all">
+                        <tip.icon className="w-7 h-7 text-slate-300 group-hover:text-primary transition-colors" />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-black text-slate-800 dark:text-slate-200 text-base group-hover:text-primary transition-colors leading-tight">
+                        <h3 className="font-black text-slate-800 text-base group-hover:text-primary transition-colors leading-tight">
                           {tip.title}
                         </h3>
-                        <p className="text-slate-400 dark:text-slate-500 text-xs font-bold leading-relaxed mt-1 line-clamp-2">
+                        <p className="text-slate-400 text-xs font-bold leading-relaxed mt-1 line-clamp-2">
                           {tip.preview}
                         </p>
                       </div>
-                      <ChevronRight className="w-5 h-5 text-slate-200 dark:text-slate-800 group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
+                      <ChevronRight className="w-5 h-5 text-slate-200 group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
                     </motion.button>
                   ))}
                 </div>
               </div>
 
-              <p className="text-center text-slate-300 dark:text-slate-700 text-[10px] font-black uppercase tracking-widest mt-12 px-8 leading-relaxed opacity-60">
+              <p className="text-center text-slate-300 text-[10px] font-black uppercase tracking-widest mt-12 px-8 leading-relaxed opacity-60">
                 {t("support_footer", "If you feel severe pain or require urgent assistance, please contact clinical services or hotlines.")}
               </p>
             </motion.div>
@@ -235,7 +235,7 @@ function AnxietyTipsInner() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setSelectedTipId(null)}
-                  className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 rounded-2xl border border-white/60 dark:border-slate-800 transition-colors shadow-sm"
+                  className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-500 hover:text-slate-700 rounded-2xl border border-white/60 transition-colors shadow-sm"
                 >
                   <ArrowLeft size={16} />
                 </motion.button>
@@ -245,7 +245,7 @@ function AnxietyTipsInner() {
                 </div>
               </div>
 
-              <h1 className="text-3.5xl font-black text-slate-900 dark:text-white leading-tight tracking-tight">
+              <h1 className="text-3.5xl font-black text-slate-900 leading-tight tracking-tight">
                 {currentTip.title}
               </h1>
 
@@ -253,12 +253,12 @@ function AnxietyTipsInner() {
               <motion.section
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-8 shadow-sm hover:border-primary/20 transition-all"
+                className="bg-white rounded-[2.5rem] border border-white/60 p-8 shadow-sm hover:border-primary/20 transition-all"
               >
                 <h2 className="text-[10px] font-black text-primary uppercase tracking-widest mb-4">
                   {t("why_it_helps", "Why It Helps")}
                 </h2>
-                <p className="text-slate-650 dark:text-slate-350 text-base font-bold leading-relaxed">
+                <p className="text-slate-650 text-base font-bold leading-relaxed">
                   {currentTip.why}
                 </p>
               </motion.section>
@@ -270,7 +270,7 @@ function AnxietyTipsInner() {
                 transition={{ delay: 0.05 }}
                 className="space-y-6"
               >
-                <h2 className="text-lg font-black text-slate-800 dark:text-slate-200 tracking-tight px-2">
+                <h2 className="text-lg font-black text-slate-800 tracking-tight px-2">
                   {t("what_you_can_do", "What You Can Do")}
                 </h2>
                 <div className="grid gap-3">
@@ -280,12 +280,12 @@ function AnxietyTipsInner() {
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: i * 0.05 }}
-                      className="flex items-start gap-4 p-6 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900/60 rounded-[2rem] border border-transparent hover:bg-white dark:hover:bg-gradient-to-r from-primary to-sky-400 border-none hover:border-primary/20 transition-all group shadow-sm hover:shadow-xl hover:shadow-primary/5"
+                      className="flex items-start gap-4 p-6 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[2rem] border border-transparent hover:bg-white from-primary to-sky-400 border-none hover:border-primary/20 transition-all group shadow-sm hover:shadow-xl hover:shadow-primary/5"
                     >
                       <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5 group-hover:scale-110 transition-transform">
                         <CheckCircle2 size={16} strokeWidth={3} />
                       </div>
-                      <span className="text-slate-700 dark:text-slate-300 text-sm font-bold leading-relaxed">
+                      <span className="text-slate-700 text-sm font-bold leading-relaxed">
                         {item}
                       </span>
                     </motion.div>

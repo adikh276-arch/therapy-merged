@@ -69,10 +69,10 @@ function BrainDump({ onComplete }: { onComplete: (text: string) => void }) {
     <div className="flex flex-col items-center py-6 pb-24">
       <div className="w-full max-w-lg space-y-8">
         <header className="text-center">
-          <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-2 leading-tight">
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">
             {t('app_description', 'Reshape your focus through sorting mental clutter.')}
           </h1>
-          <p className="text-slate-500 dark:text-slate-400 text-sm">
+          <p className="text-slate-500 text-sm">
             {t('dump_hint', 'Type out anything currently filling your mind. Press Enter after each item.')}
           </p>
         </header>
@@ -108,7 +108,7 @@ function BrainDump({ onComplete }: { onComplete: (text: string) => void }) {
                   whileTap={{ scale: 0.9 }}
                   type="button"
                   onClick={() => removeThought(index)}
-                  className="w-12 h-12 shrink-0 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-800 text-slate-300 flex items-center justify-center hover:bg-rose-50 dark:hover:bg-rose-950 transition-colors"
+                  className="w-12 h-12 shrink-0 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-300 flex items-center justify-center hover:bg-rose-50 transition-colors"
                 >
                   <X size={18} />
                 </motion.button>
@@ -182,30 +182,30 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={onBack} 
-            className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-800 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
+            className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
           >
             <ArrowLeft size={20} />
           </motion.button>
           <div className="text-left">
-            <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-1">
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">
               {t('sort_title', 'Sort Your Mind')}
             </h1>
-            <p className="text-slate-505 dark:text-slate-400 text-sm leading-tight">
+            <p className="text-slate-505 text-sm leading-tight">
               {t('sort_desc', 'Sort items into Action, Later, or Let Go.')}
             </p>
           </div>
         </header>
 
         {/* Progress Bar */}
-        <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm">
+        <div className="bg-white rounded-[2rem] border border-white/60 p-6 shadow-sm">
           <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-2 font-bold text-slate-700 dark:text-slate-300 text-sm">
+            <div className="flex items-center gap-2 font-bold text-slate-700 text-sm">
               <ListFilter size={18} className="text-primary" />
               {t('clarity_progress', 'Clarity Progress')}
             </div>
             <span className="text-primary font-black text-sm">{Math.round(progress * 100)}%</span>
           </div>
-          <div className="h-3 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 overflow-hidden">
+          <div className="h-3 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 overflow-hidden">
             <motion.div 
               initial={{ width: 0 }}
               animate={{ width: `${progress * 100}%` }}
@@ -222,7 +222,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
               initial={{ opacity: 0, y: 20, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, scale: 1.1 }}
-              className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-primary/20 p-8 shadow-xl shadow-primary/5 text-center relative overflow-hidden"
+              className="bg-white rounded-[2.5rem] border border-primary/20 p-8 shadow-xl shadow-primary/5 text-center relative overflow-hidden"
             >
               <div className="absolute top-0 right-0 p-4 text-primary/10">
                 <Sparkles size={48} />
@@ -230,7 +230,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
               <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest mb-4">
                 {t('sorting_thought', 'Sorting thought')}
               </p>
-              <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-200 leading-relaxed">
+              <h2 className="text-2xl font-bold text-slate-800 leading-relaxed">
                 {unsorted[0].text}
               </h2>
             </motion.div>
@@ -238,15 +238,15 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="bg-emerald-50 dark:bg-emerald-950/20 rounded-[2.5rem] border border-emerald-100 dark:border-emerald-900/30 p-8 text-center"
+              className="bg-emerald-50 rounded-[2.5rem] border border-emerald-100 p-8 text-center"
             >
-              <div className="w-16 h-16 bg-white dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto mb-4 text-emerald-500 shadow-sm border border-emerald-100 dark:border-emerald-900/30">
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-emerald-500 shadow-sm border border-emerald-100">
                 <CheckCircle2 size={32} />
               </div>
-              <h2 className="text-xl font-bold text-emerald-900 dark:text-emerald-400 mb-2">
+              <h2 className="text-xl font-bold text-emerald-900 mb-2">
                 {t('all_sorted', 'All thoughts sorted!')}
               </h2>
-              <p className="text-emerald-600 dark:text-emerald-500 font-medium">
+              <p className="text-emerald-600 font-medium">
                 {t('your_mind_is_clear_and_ready_for_the_next_step', 'Your mind is clear and ready for the next step.')}
               </p>
             </motion.div>
@@ -267,17 +267,17 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
                 onClick={() => isClickable && assignBucket(unsorted[0].id, b.key)}
                 className={`w-full text-left rounded-[2rem] border p-6 transition-all group ${
                   isClickable 
-                    ? "bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 hover:border-primary/50 shadow-sm" 
-                    : "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 border-transparent opacity-60"
+                    ? "bg-white  border-white/60  hover:border-primary/50 shadow-sm" 
+                    : "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50  border-transparent opacity-60"
                 }`}
               >
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 flex items-center justify-center text-slate-400 dark:text-slate-650 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                    <div className="w-10 h-10 rounded-2xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 flex items-center justify-center text-slate-400 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
                       {b.icon}
                     </div>
                     <div>
-                      <h3 className="font-bold text-slate-800 dark:text-slate-200">{b.label}</h3>
+                      <h3 className="font-bold text-slate-800">{b.label}</h3>
                       <p className="text-xs text-slate-400 font-medium">{b.desc}</p>
                     </div>
                   </div>
@@ -295,7 +295,7 @@ function SortThoughts({ thoughts: initial, onComplete, onBack }: SortThoughtsPro
                         key={item.id}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3 py-1.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-650 dark:text-slate-400 text-xs font-bold"
+                        className="px-3 py-1.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-650 text-xs font-bold"
                       >
                         {item.text}
                       </motion.span>
@@ -376,10 +376,10 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
       <div className="flex flex-col items-center py-6 pb-24">
         <div className="w-full max-w-lg flex flex-col items-center gap-12">
           <header className="text-center">
-            <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-2 leading-tight">
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-2 leading-tight">
               {t('focused_work', 'Focused Work')}
             </h1>
-            <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
+            <p className="text-slate-500 text-sm font-medium">
               {nextStep || selectedItem?.text}
             </p>
           </header>
@@ -417,7 +417,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
             </div>
 
             <div className="relative flex flex-col items-center">
-              <span className="text-5xl font-black text-slate-800 dark:text-white tabular-nums leading-none">
+              <span className="text-5xl font-black text-slate-800 tabular-nums leading-none">
                 {minutes}:{seconds.toString().padStart(2, "0")}
               </span>
               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-2">{t('time_left', 'Time Left')}</span>
@@ -431,7 +431,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                className="text-slate-500 dark:text-slate-400 font-bold italic"
+                className="text-slate-500 font-bold italic"
               >
                 {rotatingTexts[textIndex]}
               </motion.p>
@@ -445,7 +445,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setPaused((p) => !p)}
-                className="flex-1 py-5 rounded-[2rem] bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-650 dark:text-slate-300 font-bold shadow-sm flex items-center justify-center gap-3"
+                className="flex-1 py-5 rounded-[2rem] bg-white border border-white/60 text-slate-650 font-bold shadow-sm flex items-center justify-center gap-3"
               >
                 {paused ? <Play size={20} className="fill-current" /> : <Pause size={20} className="fill-current" />}
                 {paused ? t('resume', 'Resume') : t('pause', 'Pause')}
@@ -474,22 +474,22 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={onBack} 
-            className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-800 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
+            className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 rounded-2xl hover:text-slate-600 transition-colors"
           >
             <ArrowLeft size={20} />
           </motion.button>
           <div className="text-left">
-            <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-1">
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">
               {t('small_step_title', 'One Small Step')}
             </h1>
-            <p className="text-slate-505 dark:text-slate-400 text-sm leading-tight">
+            <p className="text-slate-505 text-sm leading-tight">
               {t('small_step_desc', 'Identify the single smallest step to resolve a stressful concern.')}
             </p>
           </div>
         </header>
 
         {thoughts.length === 0 ? (
-          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-[2.5rem] border border-dashed border-slate-200 dark:border-slate-800">
+          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[2.5rem] border border-dashed border-slate-200">
             <p className="text-slate-400 font-bold mb-6">{t('no_action_items_found', 'No action items selected.')}</p>
             <motion.button
               whileHover={{ scale: 1.05 }}
@@ -522,7 +522,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                     className={`w-full text-left p-6 rounded-[2rem] border transition-all duration-300 flex items-center justify-between ${
                       isSelected 
                         ? "bg-primary border-primary text-white shadow-lg shadow-primary/20" 
-                        : "bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40/40"
+                        : "bg-white  border-white/60  text-slate-700  hover:bg-slate-50  hover:shadow-xl hover:shadow-primary/40/40"
                     }`}
                   >
                     <span className="text-base font-bold">{item.text}</span>
@@ -548,7 +548,7 @@ function OneSmallStep({ thoughts, onComplete, onBack }: OneSmallStepProps) {
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="space-y-3 pt-4 border-t border-slate-50 dark:border-slate-800"
+                  className="space-y-3 pt-4 border-t border-slate-50"
                 >
                   <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest px-2">
                     <Sparkles size={14} className="text-primary" />
@@ -635,7 +635,7 @@ function Reflection({ onComplete, onBack }: ReflectionProps) {
               className={`flex items-center justify-between p-5 rounded-[2rem] border transition-all duration-300 ${
                 selected === f.label
                   ? "bg-primary border-primary text-white shadow-lg shadow-primary/20"
-                  : "bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40"
+                  : "bg-white  border-white/60  text-slate-700  hover:bg-slate-50  hover:shadow-xl hover:shadow-primary/40"
               }`}
             >
               <div className="flex items-center gap-4">
@@ -664,7 +664,7 @@ function Reflection({ onComplete, onBack }: ReflectionProps) {
             animate={{ opacity: 1 }}
             className="text-center p-4"
           >
-            <p className="text-slate-505 dark:text-slate-400 text-sm font-medium leading-relaxed italic">
+            <p className="text-slate-505 text-sm font-medium leading-relaxed italic">
               &quot;{t('growth_reminder', "Even tiny steps reduce mental weight. You don't have to carry everything at once.")}&quot;
             </p>
           </motion.div>
@@ -710,22 +710,22 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
       <div className="w-full max-w-lg space-y-8">
         <header className="flex items-center justify-between">
           <div className="text-left">
-            <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-1">{t('history', 'History')}</h1>
-            <p className="text-slate-500 dark:text-slate-400 text-sm">{t('your_past_mental_clarity_sessions', 'Your past mental clarity sessions')}</p>
+            <h1 className="text-3xl font-extrabold text-slate-900 mb-1">{t('history', 'History')}</h1>
+            <p className="text-slate-500 text-sm">{t('your_past_mental_clarity_sessions', 'Your past mental clarity sessions')}</p>
           </div>
           <motion.button 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={onBack} 
-            className="p-3 bg-slate-100 dark:bg-slate-900 text-slate-650 dark:text-slate-300 rounded-2xl hover:bg-slate-200 dark:hover:opacity-90 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+            className="p-3 bg-slate-100 text-slate-650 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
           >
             <ArrowLeft size={20} />
           </motion.button>
         </header>
 
         {sessions.length === 0 ? (
-          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-[2.5rem] border border-dashed border-slate-200 dark:border-slate-850">
-            <div className="w-16 h-16 bg-white dark:bg-slate-955 rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 dark:text-slate-800 shadow-sm">
+          <div className="text-center py-20 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[2.5rem] border border-dashed border-slate-200">
+            <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center mx-auto mb-4 text-slate-200 shadow-sm">
               <History size={32} />
             </div>
             <p className="text-slate-400 font-bold mb-6">{t('no_sessions', 'No past sessions saved.')}</p>
@@ -746,10 +746,10 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ delay: i * 0.05 }}
-                  className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-6 shadow-sm group"
+                  className="bg-white rounded-[2.5rem] border border-white/60 p-6 shadow-sm group"
                 >
                   <div className="flex items-center justify-between mb-6">
-                    <div className="flex items-center gap-2 px-3 py-1 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-full">
+                    <div className="flex items-center gap-2 px-3 py-1 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-full">
                       <Calendar size={14} className="text-slate-400" />
                       <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
                         {formatDate(session.date)}
@@ -759,7 +759,7 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
                       whileHover={{ scale: 1.1, color: "#EF4444" }}
                       whileTap={{ scale: 0.9 }}
                       onClick={() => onDelete(session.id)}
-                      className="p-2 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-300 dark:text-slate-700 hover:bg-rose-50 dark:hover:bg-rose-950 transition-colors"
+                      className="p-2 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-300 hover:bg-rose-50 transition-colors"
                     >
                       <Trash2 size={16} />
                     </motion.button>
@@ -780,7 +780,7 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
                             {items.map((item) => (
                               <span
                                 key={item.id}
-                                className="px-3 py-1.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-slate-600 dark:text-slate-400 text-xs font-bold border border-white/60 dark:border-slate-800"
+                                className="px-3 py-1.5 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-600 text-xs font-bold border border-white/60"
                               >
                                 {item.text}
                               </span>
@@ -792,12 +792,12 @@ function SavedThoughts({ sessions, onBack, onDelete }: SavedThoughtsProps) {
                   </div>
 
                   {session.reflection && (
-                    <div className="mt-6 pt-6 border-t border-slate-50 dark:border-slate-800/80">
+                    <div className="mt-6 pt-6 border-t border-slate-50">
                       <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
                         <Check size={14} className="text-emerald-500" />
                         {t('feelings', 'Feelings')}
                       </p>
-                      <p className="text-sm font-bold text-slate-700 dark:text-slate-300">{session.reflection}</p>
+                      <p className="text-sm font-bold text-slate-700">{session.reflection}</p>
                     </div>
                   )}
                 </motion.div>
@@ -971,7 +971,7 @@ function BrainDumpAppInner() {
           {[0, 1, 2, 3, 4].map((i) => (
             <div
               key={i}
-              className={`h-1.5 rounded-full transition-all duration-500 ${i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-100 dark:bg-slate-800"}`}
+              className={`h-1.5 rounded-full transition-all duration-500 ${i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-100 "}`}
             />
           ))}
         </div>

@@ -25,7 +25,7 @@ const StarField = () => {
       {stars.map((s, i) => (
         <div
           key={i}
-          className="absolute rounded-full bg-blue-300 dark:bg-blue-400 animate-pulse"
+          className="absolute rounded-full bg-blue-300 animate-pulse"
           style={{
             top: s.top,
             left: s.left,
@@ -57,8 +57,8 @@ const WaveDiagram = () => {
   return (
     <svg viewBox="0 0 280 100" className="w-full max-h-[110px]">
       {/* Y-axis labels */}
-      <text x="4" y="20" fontSize="8" className="fill-slate-400 dark:fill-slate-500 font-bold uppercase tracking-wider">{t("s3.wave.light", "Light")}</text>
-      <text x="4" y="72" fontSize="8" className="fill-slate-400 dark:fill-slate-500 font-bold uppercase tracking-wider">{t("s3.wave.deep", "Deep")}</text>
+      <text x="4" y="20" fontSize="8" className="fill-slate-400 font-bold uppercase tracking-wider">{t("s3.wave.light", "Light")}</text>
+      <text x="4" y="72" fontSize="8" className="fill-slate-400 font-bold uppercase tracking-wider">{t("s3.wave.deep", "Deep")}</text>
 
       {/* Wave curve */}
       <path d={pathD} fill="none" stroke="var(--color-primary)" strokeWidth="2.5" strokeLinecap="round" />
@@ -159,7 +159,7 @@ function SleepCycleGuideInner() {
             <div
               key={i}
               className={`h-1.5 rounded-full transition-all duration-300 ${
-                i === step ? "w-8 bg-primary" : "w-2 bg-slate-150 dark:bg-slate-800"
+                i === step ? "w-8 bg-primary" : "w-2 bg-slate-150 "
               }`}
             />
           ))}
@@ -178,11 +178,11 @@ function SleepCycleGuideInner() {
               >
                 <div className="text-6xl mb-2 animate-bounce"><Frown className="inline-block w-8 h-8" /></div>
 
-                <h1 className="text-2.5xl font-black text-slate-900 dark:text-white leading-tight">
+                <h1 className="text-2.5xl font-black text-slate-900 leading-tight">
                   {t("s1.title", "Why Am I Tired?")}
                 </h1>
 
-                <div className="text-sm leading-relaxed text-slate-600 dark:text-slate-350 space-y-4 max-w-xs font-bold">
+                <div className="text-sm leading-relaxed text-slate-600 space-y-4 max-w-xs font-bold">
                   <p>
                     {t("it_s_not_about", "It is not solely about ")}
                     <span className="text-primary font-black">{t("how_long", "how long ")}</span>
@@ -190,7 +190,7 @@ function SleepCycleGuideInner() {
                   </p>
                   <p>
                     {t("it_s_about", "It is about ")}
-                    <span className="text-indigo-500 dark:text-indigo-400 font-black">{t("where", "where ")}</span>
+                    <span className="text-indigo-500 font-black">{t("where", "where ")}</span>
                     {t("you_wake_up", "you wake up inside your sleep cycles.")}
                   </p>
                   <p className="text-xs text-slate-400 font-medium">
@@ -198,7 +198,7 @@ function SleepCycleGuideInner() {
                   </p>
                 </div>
 
-                <div className="w-full p-6 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 border-l-4 border-l-primary rounded-2xl shadow-sm text-left">
+                <div className="w-full p-6 bg-white border border-white/60 border-l-4 border-l-primary rounded-2xl shadow-sm text-left">
                   <p className="text-xs italic text-slate-500 leading-relaxed font-semibold">
                     {t("s1.insight", "Waking up exactly at the end of a 90-minute cycle allows you to rise fresh and alert, even with fewer hours.")}
                   </p>
@@ -228,7 +228,7 @@ function SleepCycleGuideInner() {
                 className="flex-1 flex flex-col gap-6 py-2"
               >
                 <div className="space-y-1">
-                  <h1 className="text-2.5xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="text-2.5xl font-extrabold text-slate-900 leading-tight">
                     {t("s2.title", "The 4 Stages of Sleep")}
                   </h1>
                   <p className="text-xs text-slate-500 font-medium">
@@ -242,18 +242,18 @@ function SleepCycleGuideInner() {
                     return (
                       <div
                         key={i}
-                        className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-primary/20 transition-all duration-300"
+                        className="bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl overflow-hidden shadow-sm hover:border-primary/20 transition-all duration-300"
                       >
                         <button
                           className="w-full flex items-center gap-4 p-4 text-left"
                           onClick={() => setExpandedStage(isOpen ? null : i)}
                         >
-                          <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-xl shadow-inner">
+                          <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-xl bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-xl shadow-inner">
                             {s.icon}
                           </div>
                           <div className="flex-1 min-w-0">
-                            <div className="text-sm font-black text-slate-800 dark:text-slate-200">{s.title}</div>
-                            <div className="text-[10px] text-slate-400 dark:text-slate-500 font-bold uppercase tracking-wider">{s.tag}</div>
+                            <div className="text-sm font-black text-slate-800">{s.title}</div>
+                            <div className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">{s.tag}</div>
                           </div>
                           <motion.svg
                             width="14"
@@ -274,7 +274,7 @@ function SleepCycleGuideInner() {
                               exit={{ height: 0, opacity: 0 }}
                               className="overflow-hidden"
                             >
-                              <p className="px-5 pb-5 pt-1 text-xs text-slate-650 dark:text-slate-400 leading-relaxed font-semibold border-t border-slate-50/50 dark:border-slate-800/30">
+                              <p className="px-5 pb-5 pt-1 text-xs text-slate-650 leading-relaxed font-semibold border-t border-slate-50/50">
                                 {s.body}
                               </p>
                             </motion.div>
@@ -308,16 +308,16 @@ function SleepCycleGuideInner() {
                 className="flex-1 flex flex-col gap-6 py-2"
               >
                 <div className="space-y-1">
-                  <h1 className="text-2.5xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                  <h1 className="text-2.5xl font-extrabold text-slate-900 leading-tight">
                     {t("s3.title", "The Groggy-Calculator")}
                   </h1>
-                  <p className="text-xs text-slate-550 dark:text-slate-400 font-bold leading-relaxed">
+                  <p className="text-xs text-slate-550 font-bold leading-relaxed">
                     {t("dragged_out_of_deep_sleep_by_an_alarm_your_brain_l", "Being dragged out of deep stage non-REM sleep by an alarm causes major sleep inertia.")}
                   </p>
                 </div>
 
                 {/* SVG Visual Sleep cycle diagram */}
-                <div className="p-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-3xl shadow-sm">
+                <div className="p-4 bg-white border border-white/60 rounded-3xl shadow-sm">
                   <WaveDiagram />
                 </div>
 
@@ -329,11 +329,11 @@ function SleepCycleGuideInner() {
                   {disruptors.map((d, i) => (
                     <div
                       key={i}
-                      className="p-4 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md transition-shadow"
+                      className="p-4 bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl shadow-sm hover:shadow-md transition-shadow"
                     >
                       <span className="text-xl">{d.icon}</span>
-                      <p className="text-xs font-black mt-2 text-slate-800 dark:text-slate-200">{d.text}</p>
-                      <p className="text-[9px] text-slate-405 dark:text-slate-500 font-bold uppercase mt-1 leading-tight">{d.sub}</p>
+                      <p className="text-xs font-black mt-2 text-slate-800">{d.text}</p>
+                      <p className="text-[9px] text-slate-405 font-bold uppercase mt-1 leading-tight">{d.sub}</p>
                     </div>
                   ))}
                 </div>
@@ -360,7 +360,7 @@ function SleepCycleGuideInner() {
                 exit={{ opacity: 0, x: -20 }}
                 className="flex-1 flex flex-col gap-6 py-2"
               >
-                <h1 className="text-2.5xl font-extrabold text-slate-900 dark:text-white leading-tight">
+                <h1 className="text-2.5xl font-extrabold text-slate-900 leading-tight">
                   {t("s4.title", "Sleep Evaluation")}
                 </h1>
 
@@ -373,14 +373,14 @@ function SleepCycleGuideInner() {
                         className={`w-full text-left p-4 rounded-2xl border transition-all duration-300 flex items-start gap-4 ${
                           isSel
                             ? "bg-primary/5 border-primary shadow-sm"
-                            : "bg-white border-white/60 text-slate-700 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-300 hover:bg-slate-50"
+                            : "bg-white border-white/60 text-slate-700    hover:bg-slate-50"
                         }`}
                         onClick={() => setSelectedReflection(i)}
                       >
                         <span className="text-2xl shrink-0 mt-0.5">{o.icon}</span>
                         <div>
-                          <p className="text-sm font-black text-slate-800 dark:text-slate-100">{o.text}</p>
-                          <p className="text-xs text-slate-400 dark:text-slate-500 italic mt-0.5">{o.sub}</p>
+                          <p className="text-sm font-black text-slate-800">{o.text}</p>
+                          <p className="text-xs text-slate-400 italic mt-0.5">{o.sub}</p>
                         </div>
                       </button>
                     );
@@ -394,18 +394,18 @@ function SleepCycleGuideInner() {
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="p-6 bg-indigo-50/50 border border-indigo-100 dark:bg-slate-900 dark:border-slate-800 rounded-[2rem] shadow-inner"
+                      className="p-6 bg-indigo-50/50 border border-indigo-100 rounded-[2rem] shadow-inner"
                     >
-                      <p className="text-xs font-semibold leading-relaxed text-indigo-750 dark:text-slate-300">
+                      <p className="text-xs font-semibold leading-relaxed text-indigo-750">
                          {reflections[selectedReflection].tip}
                       </p>
                     </motion.div>
                   )}
                 </AnimatePresence>
 
-                <div className="p-6 bg-gradient-to-r from-blue-50/60 to-indigo-50/60 border border-white/60 dark:from-slate-900 dark:to-slate-900/60 dark:border-slate-800 rounded-[2rem] shadow-sm relative">
-                  <span className="text-4xl text-slate-300 dark:text-slate-700 leading-none absolute top-2 left-4 select-none font-serif">"</span>
-                  <p className="text-xs italic leading-relaxed text-slate-600 dark:text-slate-350 mt-2 px-2 font-semibold">
+                <div className="p-6 bg-gradient-to-r from-blue-50/60 to-indigo-50/60 border border-white/60 rounded-[2rem] shadow-sm relative">
+                  <span className="text-4xl text-slate-300 leading-none absolute top-2 left-4 select-none font-serif">"</span>
+                  <p className="text-xs italic leading-relaxed text-slate-600 mt-2 px-2 font-semibold">
                     {t("s4.quote", "Protecting your cycles is not about perfect schedules. It is about understanding your bio-rhythm and treating your nights with patient care.")}
                   </p>
                 </div>

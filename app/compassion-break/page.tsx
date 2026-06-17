@@ -192,7 +192,7 @@ function CompassionBreakInner() {
         <div className="w-full max-w-sm mx-auto mt-6">
           <button
             onClick={() => setShowHistory(true)}
-            className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 dark:shadow-none transition-all flex items-center justify-center gap-3"
+            className="w-full py-5 rounded-[2rem] bg-white/60 backdrop-blur-md border border-white/60 shadow-inner text-slate-500 font-black text-sm uppercase tracking-widest shadow-xl shadow-slate-200/50 hover:text-primary hover:border-primary/20 transition-all flex items-center justify-center gap-3"
           >
             <Clock size={20} />
             {t("intro.view_past", "View Past Sessions")}
@@ -217,7 +217,7 @@ function CompassionBreakInner() {
               <div
                 key={i}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-150 dark:bg-slate-800"
+                  i <= screen ? "w-8 bg-primary" : "w-2 bg-slate-150 "
                 }`}
               />
             ))}
@@ -236,11 +236,11 @@ function CompassionBreakInner() {
               <div className="flex items-center gap-3">
                 <button
                   onClick={() => setShowHistory(false)}
-                  className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 rounded-2xl border border-white/60 dark:border-slate-800 transition-colors shadow-sm"
+                  className="p-3 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-500 hover:text-slate-700 rounded-2xl border border-white/60 transition-colors shadow-sm"
                 >
                   <ArrowLeft size={16} />
                 </button>
-                <h2 className="text-2xl font-black text-slate-900 dark:text-white">
+                <h2 className="text-2xl font-black text-slate-900">
                   {t("history.title", "Self-Compassion History")}
                 </h2>
               </div>
@@ -254,7 +254,7 @@ function CompassionBreakInner() {
                 </div>
               ) : history.length === 0 ? (
                 <div className="py-16 text-center space-y-4">
-                  <div className="w-14 h-14 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto text-slate-300">
+                  <div className="w-14 h-14 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-full flex items-center justify-center mx-auto text-slate-300">
                     <Heart size={28} />
                   </div>
                   <p className="text-slate-405 font-bold text-sm">
@@ -264,8 +264,8 @@ function CompassionBreakInner() {
               ) : (
                 <div className="space-y-4 max-h-[50vh] overflow-y-auto pr-2">
                   {history.map((e, i) => (
-                    <div key={i} className="p-6 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-slate-900 dark:border-slate-800 shadow-sm space-y-4">
-                      <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-2">
+                    <div key={i} className="p-6 rounded-2xl bg-white/60 backdrop-blur-lg border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] shadow-sm space-y-4">
+                      <div className="flex justify-between items-center border-b border-slate-50 pb-2">
                         <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">
                           {parseDbDate(e.createdAt || e.date).toLocaleDateString()}
                         </span>
@@ -274,13 +274,13 @@ function CompassionBreakInner() {
                           <span className="text-primary font-black text-xs">→ {e.afterIntensity}</span>
                         </div>
                       </div>
-                      <p className="text-slate-850 dark:text-white font-bold leading-relaxed italic">
+                      <p className="text-slate-850 font-bold leading-relaxed italic">
                         "{e.kindSentence}"
                       </p>
                       {e.emotions && e.emotions.length > 0 && (
                         <div className="flex flex-wrap gap-1.5 pt-2">
                           {e.emotions.map((emo: string) => (
-                            <span key={emo} className="px-2 py-0.5 rounded-lg bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 text-[10px] font-bold text-slate-400 border border-white/60 dark:border-slate-850">
+                            <span key={emo} className="px-2 py-0.5 rounded-lg bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-[10px] font-bold text-slate-400 border border-white/60">
                               {emo}
                             </span>
                           ))}
@@ -302,15 +302,15 @@ function CompassionBreakInner() {
               {/* SCREEN 0: PAUSE CHECK-IN */}
               {screen === 0 && (
                 <div className="flex flex-col items-center text-center py-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-4">
+                  <h1 className="text-3xl font-extrabold text-slate-900 mb-4">
                     {t("pause_title", "Pause & Check In")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-base mb-8 leading-relaxed">
+                  <p className="text-slate-500 text-base mb-8 leading-relaxed">
                     {t("pause_description", "Take a moment to check in with yourself. How heavy or intense do things feel right now?")}
                   </p>
 
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl w-full mb-8">
-                    <p className="text-xs font-bold text-slate-400 dark:text-slate-500 mb-6 uppercase tracking-widest">
+                  <div className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-xl w-full mb-8">
+                    <p className="text-xs font-bold text-slate-400 mb-6 uppercase tracking-widest">
                       {t("intensity_label", "Emotional Intensity Level")}
                     </p>
 
@@ -321,7 +321,7 @@ function CompassionBreakInner() {
                         max={10}
                         value={beforeIntensity}
                         onChange={(e) => setBeforeIntensity(Number(e.target.value))}
-                        className="w-full h-3 rounded-full appearance-none cursor-pointer bg-slate-100 dark:bg-slate-950"
+                        className="w-full h-3 rounded-full appearance-none cursor-pointer bg-slate-100"
                         style={{
                           background: `linear-gradient(to right, #e2e8f0 0%, var(--color-primary) ${beforeIntensity * 10}%, #f1f5f9 ${beforeIntensity * 10}%)`,
                         }}
@@ -332,8 +332,8 @@ function CompassionBreakInner() {
                       </div>
                     </div>
 
-                    <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-2xl p-4 border border-white/60 dark:border-slate-850">
-                      <p className="text-sm text-slate-700 dark:text-slate-300 font-bold">
+                    <div className="bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl p-4 border border-white/60">
+                      <p className="text-sm text-slate-700 font-bold">
                         {beforeIntensity <= 3 ? t("feedback_calm", "Things feel peaceful or stable right now.") :
                          beforeIntensity <= 6 ? t("feedback_noticing", "You're noticing some emotional waves. Perfectly natural.") :
                          t("feedback_heavy", "Things feel quite heavy. Let's create a space of deep gentleness.")}
@@ -350,7 +350,7 @@ function CompassionBreakInner() {
 
                   <button
                     onClick={() => setShowHistory(true)}
-                    className="mt-6 inline-flex items-center gap-2 text-slate-450 dark:text-slate-500 hover:text-primary transition-colors text-xs font-black uppercase tracking-widest"
+                    className="mt-6 inline-flex items-center gap-2 text-slate-450 hover:text-primary transition-colors text-xs font-black uppercase tracking-widest"
                   >
                     <History size={14} />
                     {t("intro.view_past", "History")}
@@ -361,10 +361,10 @@ function CompassionBreakInner() {
               {/* SCREEN 1: NAME IT */}
               {screen === 1 && (
                 <div className="flex flex-col items-center text-center py-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">
+                  <h1 className="text-3xl font-extrabold text-slate-900 mb-2">
                     {t("nameit_title", "Name Your Feeling")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium mb-8">
+                  <p className="text-slate-500 text-sm font-medium mb-8">
                     {t("nameit_subtitle", "Gently acknowledge what is present. Select up to 2, or type your own.")}
                   </p>
 
@@ -379,7 +379,7 @@ function CompassionBreakInner() {
                           className={`px-5 py-3 rounded-2xl text-xs font-bold transition-all duration-300 ${
                             isSel
                               ? "bg-primary text-white shadow-lg shadow-primary/10"
-                              : "bg-white text-slate-600 border border-white/60 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-350 hover:bg-slate-50 shadow-sm"
+                              : "bg-white text-slate-600 border border-white/60    hover:bg-slate-50 shadow-sm"
                           }`}
                           onClick={() => toggleEmotion(e)}
                         >
@@ -389,19 +389,19 @@ function CompassionBreakInner() {
                     })}
                   </div>
 
-                  <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-white/60 dark:border-slate-800 p-6 shadow-xl mb-8">
-                    <p className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest mb-3">
+                  <div className="w-full bg-white rounded-3xl border border-white/60 p-6 shadow-xl mb-8">
+                    <p className="text-[10px] font-black text-slate-350 uppercase tracking-widest mb-3">
                       {t("label_custom_emotion", "Or Type Your Emotion")}
                     </p>
                     <input
                       type="text"
-                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-none dark:bg-slate-950 dark:text-white rounded-2xl p-4 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner"
+                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-none rounded-2xl p-4 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner"
                       placeholder={t("placeholder_emotion", "Feeling...")}
                       maxLength={30}
                       value={customEmotion}
                       onChange={(e) => setCustomEmotion(e.target.value)}
                     />
-                    <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-3 font-semibold italic">
+                    <p className="text-[10px] text-slate-400 mt-3 font-semibold italic">
                       {t("nameit_footer", "Naming your pain takes away its invisible grip.")}
                     </p>
                   </div>
@@ -425,10 +425,10 @@ function CompassionBreakInner() {
               {/* SCREEN 2: MINDFUL BREATHING */}
               {screen === 2 && (
                 <div className="flex flex-col items-center text-center py-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">
+                  <h1 className="text-3xl font-extrabold text-slate-900 mb-2">
                     {t("breathe_title", "Kindness Breathing")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium mb-8">
+                  <p className="text-slate-500 text-sm font-medium mb-8">
                     {t("breathe_subtitle", "Sync your breath with the expanding circle. Let your body land.")}
                   </p>
 
@@ -473,7 +473,7 @@ function CompassionBreakInner() {
                       {breatheOverlayIdx >= 0 && (
                         <motion.p
                           key={OVERLAYS[breatheOverlayIdx]}
-                          className="text-base text-slate-700 dark:text-slate-350 font-bold italic"
+                          className="text-base text-slate-700 font-bold italic"
                           initial={{ opacity: 0, y: 8 }}
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -8 }}
@@ -485,7 +485,7 @@ function CompassionBreakInner() {
                     </AnimatePresence>
                   </div>
 
-                  <p className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest mb-10">
+                  <p className="text-[10px] font-black text-slate-350 uppercase tracking-widest mb-10">
                     {t("breathe_footer", "Breathe in ease, exhale distress.")}
                   </p>
 
@@ -508,19 +508,19 @@ function CompassionBreakInner() {
               {/* SCREEN 3: COMPASSIONATE RESPONSE */}
               {screen === 3 && (
                 <div className="flex flex-col items-center text-center py-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-3">
+                  <h1 className="text-3xl font-extrabold text-slate-900 mb-3">
                     {t("kindness_title", "Compassionate Response")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium mb-8">
+                  <p className="text-slate-500 text-sm font-medium mb-8">
                     {t("kindness_subtitle", "What kind words do you need to offer yourself? Speak to yourself as you would to a dear friend.")}
                   </p>
 
-                  <div className="w-full bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl mb-8">
-                    <p className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest mb-4">
+                  <div className="w-full bg-white rounded-[2rem] border border-white/60 p-8 shadow-xl mb-8">
+                    <p className="text-[10px] font-black text-slate-350 uppercase tracking-widest mb-4">
                       {t("label_kind_message", "Your Compassionate Message")}
                     </p>
                     <textarea
-                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-none dark:bg-slate-950 dark:text-white rounded-2xl p-6 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner resize-none min-h-[160px]"
+                      className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 border-none rounded-2xl p-6 text-center text-lg font-bold text-slate-800 focus:ring-2 focus:ring-primary/20 transition-all shadow-inner resize-none min-h-[160px]"
                       placeholder={t("placeholder_kind_message", "May I accept myself as I am...")}
                       value={kindSentence}
                       onChange={(e) => setKindSentence(e.target.value)}
@@ -540,12 +540,12 @@ function CompassionBreakInner() {
               {/* SCREEN 4: NOTICE SHIFT */}
               {screen === 4 && (
                 <div className="flex flex-col items-center text-center py-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-6">
+                  <h1 className="text-3xl font-extrabold text-slate-900 mb-6">
                     {t("shift_title", "Notice the Shift")}
                   </h1>
 
-                  <div className="bg-white dark:bg-slate-900 rounded-[2rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl w-full mb-8">
-                    <p className="text-xs font-bold text-slate-400 dark:text-slate-500 mb-8 uppercase tracking-widest">
+                  <div className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-xl w-full mb-8">
+                    <p className="text-xs font-bold text-slate-400 mb-8 uppercase tracking-widest">
                       {t("shift_question", "How intense does the feeling feel now?")}
                     </p>
 
@@ -555,7 +555,7 @@ function CompassionBreakInner() {
                       max={10}
                       value={afterIntensity}
                       onChange={(e) => setAfterIntensity(Number(e.target.value))}
-                      className="w-full h-3 rounded-full appearance-none cursor-pointer bg-slate-100 dark:bg-slate-955"
+                      className="w-full h-3 rounded-full appearance-none cursor-pointer bg-slate-100"
                       style={{
                         background: `linear-gradient(to right, #e2e8f0 0%, var(--color-primary) ${afterIntensity * 10}%, #f1f5f9 ${afterIntensity * 10}%)`,
                       }}
@@ -566,11 +566,11 @@ function CompassionBreakInner() {
                     </div>
                   </div>
 
-                  <div className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 rounded-2xl p-6 border border-white/60 dark:border-slate-850 mb-8">
-                    <p className="text-[10px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-3">
+                  <div className="w-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl p-6 border border-white/60 mb-8">
+                    <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">
                       {t("label_notice_shift", "Noticing Shifts")}
                     </p>
-                    <p className="text-slate-700 dark:text-slate-300 font-bold italic">
+                    <p className="text-slate-700 font-bold italic">
                       {t("shift_footer", "Even a microscopic shift represents incredible mindfulness. Trust the process.")}
                     </p>
                   </div>
@@ -587,36 +587,36 @@ function CompassionBreakInner() {
               {/* SCREEN 5: PRESERVE & FINISH */}
               {screen === 5 && (
                 <div className="flex flex-col items-center text-center py-4">
-                  <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white mb-4">
+                  <h1 className="text-3xl font-extrabold text-slate-900 mb-4">
                     {t("save_title", "Mindful Break Summary")}
                   </h1>
-                  <p className="text-slate-500 dark:text-slate-400 text-sm font-medium mb-8">
+                  <p className="text-slate-500 text-sm font-medium mb-8">
                     {t("save_subtitle", "Review your self-compassion check-in. Choose whether to preserve it in your quiet journal.")}
                   </p>
 
-                  <div className="bg-white dark:bg-slate-900 rounded-[2.5rem] border border-white/60 dark:border-slate-800 p-8 shadow-xl w-full mb-8 relative overflow-hidden">
+                  <div className="bg-white rounded-[2.5rem] border border-white/60 p-8 shadow-xl w-full mb-8 relative overflow-hidden">
                     <div className="absolute top-0 right-0 p-4 opacity-5 pointer-events-none">
                       <Heart size={80} fill="currentColor" className="text-primary" />
                     </div>
 
-                    <p className="text-[10px] font-black text-slate-350 dark:text-slate-500 uppercase tracking-widest mb-6 text-left">
+                    <p className="text-[10px] font-black text-slate-350 uppercase tracking-widest mb-6 text-left">
                       {t("label_your_checkin", "Check-In Summary")}
                     </p>
                     <div className="space-y-4 text-sm text-left relative z-10">
                       <div className="flex justify-between items-center">
-                        <span className="text-slate-400 dark:text-slate-500 font-bold">{t("label_intensity_shift", "Intensity Change")}</span>
+                        <span className="text-slate-400 font-bold">{t("label_intensity_shift", "Intensity Change")}</span>
                         <div className="flex items-center gap-2">
                           <span className="text-slate-400 line-through">{beforeIntensity}</span>
                           <span className="text-primary font-black text-lg">→ {afterIntensity}</span>
                         </div>
                       </div>
                       <div className="flex justify-between items-center">
-                        <span className="text-slate-400 dark:text-slate-500 font-bold">{t("label_feelings", "Emotions")}</span>
-                        <span className="text-slate-700 dark:text-slate-300 font-black uppercase tracking-tight">{emotions.join(", ")}</span>
+                        <span className="text-slate-400 font-bold">{t("label_feelings", "Emotions")}</span>
+                        <span className="text-slate-700 font-black uppercase tracking-tight">{emotions.join(", ")}</span>
                       </div>
-                      <div className="pt-6 border-t border-slate-50 dark:border-slate-850 mt-2">
-                        <p className="text-slate-405 dark:text-slate-505 font-bold text-[10px] uppercase tracking-widest mb-2">{t("label_your_kind_words", "Compassionate Mantra")}</p>
-                        <p className="text-slate-800 dark:text-slate-200 font-bold text-lg leading-relaxed italic">"{kindSentence}"</p>
+                      <div className="pt-6 border-t border-slate-50 mt-2">
+                        <p className="text-slate-405 font-bold text-[10px] uppercase tracking-widest mb-2">{t("label_your_kind_words", "Compassionate Mantra")}</p>
+                        <p className="text-slate-800 font-bold text-lg leading-relaxed italic">"{kindSentence}"</p>
                       </div>
                     </div>
                   </div>
@@ -630,7 +630,7 @@ function CompassionBreakInner() {
                       {t("save_finish_button", "Save & Finish")}
                     </button>
                     <button
-                      className="w-full py-5 rounded-[2rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 border border-slate-150 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-550 font-black text-base hover:bg-slate-100 transition-colors"
+                      className="w-full py-5 rounded-[2rem] bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 text-slate-400 border border-slate-150 font-black text-base hover:bg-slate-100 transition-colors"
                       onClick={() => handleSave(false)}
                     >
                       {t("finish_no_save_button", "Finish Without Saving")}

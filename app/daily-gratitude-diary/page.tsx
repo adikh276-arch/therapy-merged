@@ -27,9 +27,9 @@ interface SavedEntry {
 type Screen = 'intro' | 'gratitude' | 'reflection' | 'closing' | 'past';
 
 const premiumTints = [
-  "bg-emerald-50/50 border-emerald-100 dark:bg-emerald-950/10 dark:border-emerald-900/20",
-  "bg-teal-50/50 border-teal-100 dark:bg-teal-950/10 dark:border-teal-900/20",
-  "bg-green-50/50 border-green-100 dark:bg-green-950/10 dark:border-green-900/20",
+  "bg-emerald-50/50 border-emerald-100  ",
+  "bg-teal-50/50 border-teal-100  ",
+  "bg-green-50/50 border-green-100  ",
 ];
 
 // --- Daily Gratitude Inner Component ---
@@ -159,7 +159,7 @@ function DailyGratitudeInner() {
               <div
                 key={s}
                 className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-150 dark:bg-slate-800'
+                  i <= currentIdx ? 'w-8 bg-primary' : 'w-2 bg-slate-150 '
                 }`}
               />
             ))}
@@ -194,7 +194,7 @@ function DailyGratitudeInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('past')}
-                      className="flex items-center gap-3 text-slate-500 dark:text-slate-400 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white dark:bg-slate-900 px-6 py-3 rounded-2xl border border-white/60 dark:border-slate-800 shadow-sm"
+                      className="flex items-center gap-3 text-slate-500 hover:text-primary font-bold text-xs uppercase tracking-widest transition-all bg-white px-6 py-3 rounded-2xl border border-white/60 shadow-sm"
                     >
                       <Book size={16} />
                       {t('view_past', 'View Past Entries')}
@@ -370,7 +370,7 @@ function DailyGratitudeInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setScreen('past')}
-                      className="px-8 py-4 bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 text-slate-500 hover:text-slate-850 dark:text-slate-300 dark:hover:text-white font-bold text-sm uppercase tracking-widest rounded-2xl shadow-sm hover:shadow-md transition-all flex items-center gap-2"
+                      className="px-8 py-4 bg-white border border-white/60 text-slate-500 hover:text-slate-850 font-bold text-sm uppercase tracking-widest rounded-2xl shadow-sm hover:shadow-md transition-all flex items-center gap-2"
                     >
                       <Book size={16} />
                       {t('view_history', 'View History')}
@@ -435,7 +435,7 @@ function DailyGratitudeInner() {
                         animate={{ opacity: 1, y: 0 }}
                         className="act-card space-y-3"
                       >
-                        <div className="flex justify-between items-center border-b border-slate-50 dark:border-slate-850 pb-2">
+                        <div className="flex justify-between items-center border-b border-slate-50 pb-2">
                           <div className="act-eyebrow">
                             <Calendar size={12} />
                             {entry.date}
@@ -454,15 +454,15 @@ function DailyGratitudeInner() {
                           {entry.gratitudes &&
                             entry.gratitudes.map((g, j) => (
                               <div key={j} className="flex gap-3 text-left">
-                                <div className="w-7 h-7 rounded-lg bg-emerald-50 dark:bg-emerald-950/20 flex items-center justify-center text-primary shrink-0">
+                                <div className="w-7 h-7 rounded-lg bg-emerald-50 flex items-center justify-center text-primary shrink-0">
                                   <Heart size={14} fill="currentColor" />
                                 </div>
                                 <div>
-                                  <p className="text-slate-800 dark:text-slate-200 font-bold text-sm leading-relaxed">
+                                  <p className="text-slate-800 font-bold text-sm leading-relaxed">
                                     {g.grateful}
                                   </p>
                                   {g.reason && (
-                                    <p className="text-slate-405 dark:text-slate-400 text-xs font-medium mt-0.5 leading-relaxed">
+                                    <p className="text-slate-405 text-xs font-medium mt-0.5 leading-relaxed">
                                       {g.reason}
                                     </p>
                                   )}
@@ -472,8 +472,8 @@ function DailyGratitudeInner() {
                         </div>
 
                         {entry.feeling && (
-                          <div className="pt-2 border-t border-slate-50 dark:border-slate-850">
-                            <p className="text-slate-405 dark:text-slate-400 text-xs font-medium italic text-left">
+                          <div className="pt-2 border-t border-slate-50">
+                            <p className="text-slate-405 text-xs font-medium italic text-left">
                               "{entry.feeling}"
                             </p>
                           </div>

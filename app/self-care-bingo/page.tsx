@@ -45,11 +45,11 @@ const BINGO_TILES: Tile[] = [
 ];
 
 const BINGO_LETTERS = [
-  { letter: "B", color: "text-rose-500 bg-rose-50 dark:bg-rose-950/20" },
-  { letter: "I", color: "text-blue-500 bg-blue-50 dark:bg-blue-950/20" },
-  { letter: "N", color: "text-amber-500 bg-amber-50 dark:bg-amber-950/20" },
-  { letter: "G", color: "text-emerald-500 bg-emerald-50 dark:bg-emerald-950/20" },
-  { letter: "O", color: "text-indigo-500 bg-indigo-50 dark:bg-indigo-950/20" },
+  { letter: "B", color: "text-rose-500 bg-rose-50 " },
+  { letter: "I", color: "text-blue-500 bg-blue-50 " },
+  { letter: "N", color: "text-amber-500 bg-amber-50 " },
+  { letter: "G", color: "text-emerald-500 bg-emerald-50 " },
+  { letter: "O", color: "text-indigo-500 bg-indigo-50 " },
 ];
 
 const WINNING_LINES = [
@@ -235,9 +235,9 @@ function SelfCareBingoInner() {
               className="space-y-6 text-left w-full pb-20"
             >
               {/* Progress panel */}
-              <div className="bg-white dark:bg-slate-900 border border-white/60 dark:border-slate-800 rounded-[2rem] p-6 shadow-sm space-y-4">
+              <div className="bg-white border border-white/60 rounded-[2rem] p-6 shadow-sm space-y-4">
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2 font-black text-slate-700 dark:text-slate-350 text-xs uppercase tracking-widest">
+                  <div className="flex items-center gap-2 font-black text-slate-700 text-xs uppercase tracking-widest">
                     <Trophy size={14} className="text-primary" />
                     {t('activities_logged', 'Tiles Completed')}
                   </div>
@@ -246,7 +246,7 @@ function SelfCareBingoInner() {
                     <span className="text-slate-300 text-xs">/25</span>
                   </span>
                 </div>
-                <div className="h-1.5 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 dark:bg-slate-950 overflow-hidden">
+                <div className="h-1.5 rounded-full bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}
                     animate={{ width: `${progressPercent}%` }}
@@ -260,7 +260,7 @@ function SelfCareBingoInner() {
                 {BINGO_LETTERS.map(({ letter, color }) => (
                   <div
                     key={letter}
-                    className={`font-black text-sm py-2.5 rounded-2xl text-center border border-white/60 dark:border-slate-850 shadow-sm ${color}`}
+                    className={`font-black text-sm py-2.5 rounded-2xl text-center border border-white/60  shadow-sm ${color}`}
                   >
                     {letter}
                   </div>
@@ -284,8 +284,8 @@ function SelfCareBingoInner() {
                         isCompleted
                           ? isFreeSpace
                             ? 'bg-gradient-to-r from-primary to-sky-400 border-none border-slate-900 text-white shadow-md'
-                            : 'bg-emerald-50 dark:bg-emerald-950/20 border-emerald-100 dark:border-emerald-900/30 text-emerald-600 dark:text-emerald-400'
-                          : 'bg-white dark:bg-slate-900 border-white/60 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:border-primary/45 shadow-sm'
+                            : 'bg-emerald-50  border-emerald-100  text-emerald-600 '
+                          : 'bg-white  border-white/60  text-slate-700  hover:border-primary/45 shadow-sm'
                       }`}
                     >
                       <span className="text-xl mb-0.5 group-hover:scale-110 transition-transform">
@@ -302,7 +302,7 @@ function SelfCareBingoInner() {
                           <motion.div
                             initial={{ scale: 0, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
-                            className="absolute -top-1 -right-1 w-4.5 h-4.5 bg-emerald-500 rounded-full flex items-center justify-center text-white border border-white dark:border-slate-900 shadow-md"
+                            className="absolute -top-1 -right-1 w-4.5 h-4.5 bg-emerald-500 rounded-full flex items-center justify-center text-white border border-white shadow-md"
                           >
                             <Check size={9} strokeWidth={4} />
                           </motion.div>
@@ -317,7 +317,7 @@ function SelfCareBingoInner() {
               <div className="pt-2">
                 <button
                   onClick={handleResetBoard}
-                  className="w-full bg-white dark:bg-slate-900 text-slate-400 dark:text-slate-500 py-4.5 rounded-2xl font-black text-base border border-white/60 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-950 transition-all flex items-center justify-center gap-2 shadow-sm"
+                  className="w-full bg-white text-slate-400 py-4.5 rounded-2xl font-black text-base border border-white/60 hover:bg-slate-50 transition-all flex items-center justify-center gap-2 shadow-sm"
                 >
                   <RefreshCw size={18} strokeWidth={3} />
                   {t('new_board', 'Reset Bingo Board')}
