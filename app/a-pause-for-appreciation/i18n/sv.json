@@ -73,13 +73,13 @@
     "confirmDelete": "Bekräfta Radera",
     "cancel": "Avbryt",
     "delete": "Ta bort posten",
-    "prompts": [
-      "Ett litet ögonblick som inte kändes spänt...",
-      "En insats din partner har gjort...",
-      "En egenskap som har varit konsekvent...",
-      "Avsikt",
-      "Emotionell uppkoppling"
-    ]
+    "prompts": {
+      "0": "Ett litet ögonblick som inte kändes spänt...",
+      "1": "En insats din partner har gjort...",
+      "2": "En egenskap som har varit konsekvent...",
+      "3": "Avsikt",
+      "4": "Emotionell uppkoppling"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

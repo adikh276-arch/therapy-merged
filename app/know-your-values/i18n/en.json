@@ -29,7 +29,8 @@
     "historyDesc": "Your previous reflections are saved here so you can revisit them anytime.",
     "noHistory": "You haven't completed a values reflection yet.",
     "startActivity": "Start Activity",
-    "startNew": "Start New Reflection"
+    "startNew": "Start New Reflection",
+    "aligned": "Aligned"
   },
   "values": {
     "Family": "Family",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "app_duration": "5 minutes",
+  "loading": "Loading reflections..."
 }

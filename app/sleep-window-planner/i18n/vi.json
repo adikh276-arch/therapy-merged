@@ -1,10 +1,10 @@
 {
   "app_title": "Công cụ lập kế hoạch cửa sổ ngủ",
-  "pill_labels": [
-    "Xây dựng cửa sổ của bạn",
-    "Đặt thời gian của bạn",
-    "Khoảng thời gian ngủ của bạn"
-  ],
+  "pill_labels": {
+    "0": "Xây dựng cửa sổ của bạn",
+    "1": "Đặt thời gian của bạn",
+    "2": "Khoảng thời gian ngủ của bạn"
+  },
   "screen1": {
     "title": "Khoảng thời gian ngủ của bạn quan trọng hơn bạn nghĩ",
     "p1": "Cửa sổ ngủ là thời gian cố định từ khi bạn đi ngủ đến khi bạn thức dậy. Giữ nó nhất quán - ngay cả vào cuối tuần - là một trong những điều mạnh mẽ nhất bạn có thể làm cho giấc ngủ của mình.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 cách để bảo vệ nó",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Thư giãn 30 phút trước khi đi ngủ"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Cùng một thời gian thức dậy mỗi ngày - vâng, cả cuối tuần"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Tránh ngủ trưa lâu hơn 20 phút sau 3 giờ chiều"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Cam kết 1 điều tối nay",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Cất điện thoại của tôi đi trước khi đi ngủ"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Bắt đầu thói quen thư giãn"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Làm mờ đèn một giờ trước khi đi ngủ"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Hoàn thành danh sách việc cần làm của tôi sớm"
         }
-      ]
+      }
     },
     "quote": "Tính nhất quán mạnh mẽ hơn sự hoàn hảo. Một đêm ngon xây dựng tiếp theo.",
     "button": "Lưu cửa sổ ngủ của tôi ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

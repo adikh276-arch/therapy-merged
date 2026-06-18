@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "長篇",
+  "entry_x": "參賽#",
+  "loading": "載入中......",
+  "delete": "刪除"
 }

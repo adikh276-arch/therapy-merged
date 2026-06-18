@@ -29,7 +29,8 @@
     "historyDesc": "Aiemmat pohdintasi on tallennettu tänne, jotta voit palata niihin milloin tahansa.",
     "noHistory": "Et ole vielä suorittanut arvojen heijastusta.",
     "startActivity": "Aloita toiminta",
-    "startNew": "Aloita uusi pohdinta"
+    "startNew": "Aloita uusi pohdinta",
+    "aligned": "Aligned"
   },
   "values": {
     "Family": "Perhe",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  "app_duration": "5 minuuttia",
+  "loading": "Ladataan heijastuksia..."
 }

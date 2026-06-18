@@ -153,5 +153,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "watch_thoughts_drift": "Дивись, як твої думки віддаляються...",
+  "lang": "довгий",
+  "app_duration": "3-5 хвилин"
 }

@@ -1,12 +1,12 @@
 {
   "app_title": "Memory Box",
-  "screen_titles": [
-    "Cutia ta",
-    "Onorare",
-    "Exprimare",
-    "Păstrate",
-    "Îngrijire blândă"
-  ],
+  "screen_titles": {
+    "0": "Cutia ta",
+    "1": "Onorare",
+    "2": "Exprimare",
+    "3": "Păstrate",
+    "4": "Îngrijire blândă"
+  },
   "complete_title": "Memorie păstrată",
   "complete_message": "Ai pus în siguranță o amintire a lui {{name}} în cutia ta. Aceste momente de conexiune îți aparțin mereu.",
   "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Scrie-le numele...",
     "placeholder_relation": "De unde îi cunoști? (opțional)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Un moment fericit",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Ceva ce obișnuiau să spună",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "O mică amintire de zi cu zi",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Un loc care îți amintește de ei",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Ceva ce mi-aș dori să pot spune",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Continuă →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Ascuns în siguranță",
     "subtitle": "Această amintire a lui {{name}} face acum parte din colecția ta.",
     "add_another": "Adaugă o altă amintire",
-    "finish": "Reflecția de finisaj"
+    "finish": "Reflecția de finisaj",
+    "saved_title": "Păstrat în siguranță"
   },
   "closing": {
     "title": "Îngrijire",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ești sigur că vrei să ștergi această amintire?"
   },
   "app_description": "Cutie de amintiri",
   "before_you_go": "Înainte să pleci",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

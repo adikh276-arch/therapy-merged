@@ -1,15 +1,15 @@
 {
   "app_title": "Yiyecek ve Duygu Haritası",
-  "screen_titles": [
-    "Hoş geldiniz",
-    "Beslenme Kalıpları",
-    "İç Diyalog",
-    "Fiziksel Algılama",
-    "Harita",
-    "Nazik Destek",
-    "Son Görünüm",
-    "Yansıtma"
-  ],
+  "screen_titles": {
+    "0": "Hoş geldiniz",
+    "1": "Beslenme Kalıpları",
+    "2": "İç Diyalog",
+    "3": "Fiziksel Algılama",
+    "4": "Harita",
+    "5": "Nazik Destek",
+    "6": "Son Görünüm",
+    "7": "Yansıtma"
+  },
   "welcome_text": "Hey... Burada olmana gerçekten çok sevindim. 💛 Hadi nazikçe neler olup bittiğini haritalayalım.",
   "coming_up_label": "Son zamanlarda neler çıkıyor?",
   "begin_mapping": "Haritalamaya Başlayın",
@@ -32,36 +32,36 @@
   "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
   "save_success": "Korunan Desenler",
   "save_error": "Düzeni koruyamaması",
-  "emotions_list": [
-    "😰 Stres",
-    "😢 Hüzün",
-    "😶 Sıkıntı",
-    "😟 Anksiyete",
-    "🥺 Yalnızlık",
-    "💭 Başka bir şey..."
-  ],
-  "food_responses": [
-    "🍽️ Daha fazla yiyorum",
-    "🚫 Daha az yiyorum",
-    "🍫 Belirli yiyecekleri özlüyorum",
-    "😣 Yemek yemekten kaçınıyorum",
-    "😐 Gerçek bir değişiklik yok"
-  ],
-  "body_sensations": [
-    "💔 Sıkı göğüs",
-    "🪨 Ağır bir his",
-    "🦵 Huzursuz / huzursuz",
-    "🔋 Düşük enerji",
-    "🌀 Midede düğümler",
-    "❓ Başka bir şey..."
-  ],
-  "support_options": [
-    "🗣️ Birisiyle konuş",
-    "☕ Bir mola ver",
-    "📝 Dergi",
-    "🌬️ Nefes al",
-    "🎧 Kendimi oyalamak"
-  ],
+  "emotions_list": {
+    "0": "😰 Stres",
+    "1": "😢 Hüzün",
+    "2": "😶 Sıkıntı",
+    "3": "😟 Anksiyete",
+    "4": "🥺 Yalnızlık",
+    "5": "💭 Başka bir şey..."
+  },
+  "food_responses": {
+    "0": "🍽️ Daha fazla yiyorum",
+    "1": "🚫 Daha az yiyorum",
+    "2": "🍫 Belirli yiyecekleri özlüyorum",
+    "3": "😣 Yemek yemekten kaçınıyorum",
+    "4": "😐 Gerçek bir değişiklik yok"
+  },
+  "body_sensations": {
+    "0": "💔 Sıkı göğüs",
+    "1": "🪨 Ağır bir his",
+    "2": "🦵 Huzursuz / huzursuz",
+    "3": "🔋 Düşük enerji",
+    "4": "🌀 Midede düğümler",
+    "5": "❓ Başka bir şey..."
+  },
+  "support_options": {
+    "0": "🗣️ Birisiyle konuş",
+    "1": "☕ Bir mola ver",
+    "2": "📝 Dergi",
+    "3": "🌬️ Nefes al",
+    "4": "🎧 Kendimi oyalamak"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Ulaşın 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bu eşlemeyi silmek istediğinizden emin misiniz?"
   },
   "app_description": "Yiyecek ve Duygu Haritası",
   "more": "Daha",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun",
+  "view_weekly": "Harita Tarihini Görüntüle",
+  " ": " "
 }

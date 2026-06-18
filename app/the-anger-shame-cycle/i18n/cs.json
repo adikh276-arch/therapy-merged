@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Cyklus",
       "title": "Smyčka vysvětlená",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Vztek se projevuje"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Hanba: \"Jsem špatný\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Hanba se pohřbí"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Vztek znovu vybuchne"
         }
-      ],
+      },
       "button": "Vidím to"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Přerušení",
       "title": "Přerušte cyklus",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Uveďte zdroj",
           "desc": "Zeptejte se: 'Co vlastně cítím?' Bolí? Bojíš se? Neviděný? Pojmenování ho oslabuje."
         },
-        {
+        "1": {
           "title": "Soucitná pauza",
           "desc": "Ruku na hruď. Řekni: 'To je těžké. Jsem člověk. Zvládnu to.'"
         },
-        {
+        "2": {
           "title": "Oprava s grácií",
           "desc": "Pokud je potřeba, napravte to — ale nepropadněte se. Nejsi nejhorší chvíle."
         }
-      ],
+      },
       "notice": "Všimnout si cyklu je už první krok. Děláš tu práci.",
       "button": "Kompletní činnost"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

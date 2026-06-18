@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "Quando ti senti solo e triste",
-      "affirmations": [
-        "Non sono solo, anche quando mi sembra così.",
-        "I miei sentimenti meritano cura e delicatezza.",
-        "Questo momento non durerà per sempre.",
-        "Mi è consentito aver bisogno di una connessione.",
-        "Posso offrirmi calore in questo momento."
-      ]
+      "affirmations": {
+        "0": "Non sono solo, anche quando mi sembra così.",
+        "1": "I miei sentimenti meritano cura e delicatezza.",
+        "2": "Questo momento non durerà per sempre.",
+        "3": "Mi è consentito aver bisogno di una connessione.",
+        "4": "Posso offrirmi calore in questo momento."
+      }
     },
     "terrified": {
       "label": "Quando ti senti terrorizzato",
-      "affirmations": [
-        "In questo momento sono al sicuro.",
-        "La paura è un sentimento, non una previsione.",
-        "Posso respirare un respiro alla volta.",
-        "Non devo risolvere tutto adesso.",
-        "Sono più forte di questo momento."
-      ]
+      "affirmations": {
+        "0": "In questo momento sono al sicuro.",
+        "1": "La paura è un sentimento, non una previsione.",
+        "2": "Posso respirare un respiro alla volta.",
+        "3": "Non devo risolvere tutto adesso.",
+        "4": "Sono più forte di questo momento."
+      }
     },
     "insignificant": {
       "label": "Quando ti senti insignificante",
-      "affirmations": [
-        "Anche i piccoli momenti contano.",
-        "Non ho bisogno di dimostrare il mio valore.",
-        "Mi è permesso occupare spazio.",
-        "La mia esistenza è importante.",
-        "Io sono abbastanza così come sono."
-      ]
+      "affirmations": {
+        "0": "Anche i piccoli momenti contano.",
+        "1": "Non ho bisogno di dimostrare il mio valore.",
+        "2": "Mi è permesso occupare spazio.",
+        "3": "La mia esistenza è importante.",
+        "4": "Io sono abbastanza così come sono."
+      }
     },
     "overwhelmed": {
       "label": "Quando ti senti sopraffatto",
-      "affirmations": [
-        "Non devo fare tutto in una volta.",
-        "Basta un piccolo passo.",
-        "Va bene fare una pausa.",
-        "Mi è permesso riposare.",
-        "La situazione tornerà gestibile."
-      ]
+      "affirmations": {
+        "0": "Non devo fare tutto in una volta.",
+        "1": "Basta un piccolo passo.",
+        "2": "Va bene fare una pausa.",
+        "3": "Mi è permesso riposare.",
+        "4": "La situazione tornerà gestibile."
+      }
     },
     "hopeless": {
       "label": "Quando ti senti senza speranza",
-      "affirmations": [
-        "Oggi non ho bisogno di risposte.",
-        "Il cambiamento è ancora possibile.",
-        "Ho già superato giornate difficili.",
-        "Per ora posso restare qui.",
-        "Qualcosa di gentile può ancora accadere."
-      ]
+      "affirmations": {
+        "0": "Oggi non ho bisogno di risposte.",
+        "1": "Il cambiamento è ancora possibile.",
+        "2": "Ho già superato giornate difficili.",
+        "3": "Per ora posso restare qui.",
+        "4": "Qualcosa di gentile può ancora accadere."
+      }
     },
     "conflicted": {
       "label": "Quando ti senti in conflitto",
-      "affirmations": [
-        "Va bene provare più di una cosa contemporaneamente.",
-        "Non ho bisogno di chiarezza immediata.",
-        "La confusione non significa fallimento.",
-        "Posso prendermi del tempo.",
-        "Confido in me stesso per capirlo."
-      ]
+      "affirmations": {
+        "0": "Va bene provare più di una cosa contemporaneamente.",
+        "1": "Non ho bisogno di chiarezza immediata.",
+        "2": "La confusione non significa fallimento.",
+        "3": "Posso prendermi del tempo.",
+        "4": "Confido in me stesso per capirlo."
+      }
     },
     "self-critical": {
       "label": "Quando sei molto autocritico",
-      "affirmations": [
-        "Posso parlare a me stesso con gentilezza.",
-        "Non ho bisogno di punirmi per crescere.",
-        "Gli errori non definiscono chi sono.",
-        "Sto imparando, non fallendo.",
-        "La crescita non richiede crudeltà."
-      ]
+      "affirmations": {
+        "0": "Posso parlare a me stesso con gentilezza.",
+        "1": "Non ho bisogno di punirmi per crescere.",
+        "2": "Gli errori non definiscono chi sono.",
+        "3": "Sto imparando, non fallendo.",
+        "4": "La crescita non richiede crudeltà."
+      }
     },
     "out-of-place": {
       "label": "Quando ti senti socialmente fuori posto",
-      "affirmations": [
-        "Mi è permesso stare in silenzio o essere diverso.",
-        "Non devo eguagliare l'energia di nessun altro.",
-        "Io appartengo a questo posto così come sono.",
-        "Posso occupare spazio delicatamente.",
-        "Non sto sbagliando."
-      ]
+      "affirmations": {
+        "0": "Mi è permesso stare in silenzio o essere diverso.",
+        "1": "Non devo eguagliare l'energia di nessun altro.",
+        "2": "Io appartengo a questo posto così come sono.",
+        "3": "Posso occupare spazio delicatamente.",
+        "4": "Non sto sbagliando."
+      }
     },
     "unsafe": {
       "label": "Quando ti senti insicuro con gli sconosciuti",
-      "affirmations": [
-        "Posso muovermi al mio ritmo.",
-        "Mi è consentito proteggere i miei confini.",
-        "Posso rimanere ancorato al mio corpo.",
-        "Mi è consentito abbandonare le situazioni.",
-        "Posso proteggermi."
-      ]
+      "affirmations": {
+        "0": "Posso muovermi al mio ritmo.",
+        "1": "Mi è consentito proteggere i miei confini.",
+        "2": "Posso rimanere ancorato al mio corpo.",
+        "3": "Mi è consentito abbandonare le situazioni.",
+        "4": "Posso proteggermi."
+      }
     },
     "pressured": {
       "label": "Quando ti senti sotto pressione al lavoro",
-      "affirmations": [
-        "Il mio valore non è la mia produttività.",
-        "Non ho bisogno di dimostrare costantemente il mio valore.",
-        "Oggi mi basta fare del mio meglio.",
-        "Va bene svolgere un compito alla volta.",
-        "Io sono più del mio ruolo."
-      ]
+      "affirmations": {
+        "0": "Il mio valore non è la mia produttività.",
+        "1": "Non ho bisogno di dimostrare costantemente il mio valore.",
+        "2": "Oggi mi basta fare del mio meglio.",
+        "3": "Va bene svolgere un compito alla volta.",
+        "4": "Io sono più del mio ruolo."
+      }
     },
     "face-the-day": {
       "label": "Quando non vuoi affrontare la giornata",
-      "affirmations": [
-        "Posso vivere la giornata di oggi a piccoli pezzi.",
-        "Basta passare.",
-        "Non ho bisogno di motivazione per iniziare.",
-        "Presentarsi con delicatezza conta ancora.",
-        "Questa giornata non mi definisce."
-      ]
+      "affirmations": {
+        "0": "Posso vivere la giornata di oggi a piccoli pezzi.",
+        "1": "Basta passare.",
+        "2": "Non ho bisogno di motivazione per iniziare.",
+        "3": "Presentarsi con delicatezza conta ancora.",
+        "4": "Questa giornata non mi definisce."
+      }
     },
     "future": {
       "label": "Quando ti preoccupi del tuo futuro",
-      "affirmations": [
-        "Posso tornare al presente.",
-        "Gestirò le cose come verranno.",
-        "Oggi non ho bisogno di certezze.",
-        "Sono capace di adattarmi.",
-        "Posso fidarmi un po' di più di me stesso."
-      ]
+      "affirmations": {
+        "0": "Posso tornare al presente.",
+        "1": "Gestirò le cose come verranno.",
+        "2": "Oggi non ho bisogno di certezze.",
+        "3": "Sono capace di adattarmi.",
+        "4": "Posso fidarmi un po' di più di me stesso."
+      }
     },
     "stuck": {
       "label": "Quando ti senti bloccato in un problema",
-      "affirmations": [
-        "Essere bloccato non significa che sono rotto.",
-        "Posso fermarmi senza arrendermi.",
-        "Non ho bisogno di soluzioni immediate.",
-        "Mi è concesso sentirmi insicuro.",
-        "Mi muovo ancora, anche se lentamente."
-      ]
+      "affirmations": {
+        "0": "Essere bloccato non significa che sono rotto.",
+        "1": "Posso fermarmi senza arrendermi.",
+        "2": "Non ho bisogno di soluzioni immediate.",
+        "3": "Mi è concesso sentirmi insicuro.",
+        "4": "Mi muovo ancora, anche se lentamente."
+      }
     },
     "compare": {
       "label": "Quando ti paragoni",
-      "affirmations": [
-        "Il mio viaggio è personale.",
-        "Non ho bisogno di competere per essere degno.",
-        "Mi è permesso crescere al mio ritmo.",
-        "Il successo di qualcun altro non cancella il mio.",
-        "Non sono indietro."
-      ]
+      "affirmations": {
+        "0": "Il mio viaggio è personale.",
+        "1": "Non ho bisogno di competere per essere degno.",
+        "2": "Mi è permesso crescere al mio ritmo.",
+        "3": "Il successo di qualcun altro non cancella il mio.",
+        "4": "Non sono indietro."
+      }
     },
     "give-up": {
       "label": "Quando vuoi rinunciare",
-      "affirmations": [
-        "Non devo decidere nulla adesso.",
-        "Questa sensazione passerà.",
-        "Sono sopravvissuto a più di quanto pensassi.",
-        "Posso restare ancora un attimo.",
-        "Sono ancora qui, e questo è importante."
-      ]
+      "affirmations": {
+        "0": "Non devo decidere nulla adesso.",
+        "1": "Questa sensazione passerà.",
+        "2": "Sono sopravvissuto a più di quanto pensassi.",
+        "3": "Posso restare ancora un attimo.",
+        "4": "Sono ancora qui, e questo è importante."
+      }
     }
   },
   "app_complete_title": "Sentiti Empowerato",
@@ -188,11 +188,11 @@
   "app_description": "Trasforma la tua mentalità attraverso affermazioni quotidiane.",
   "intro": {
     "description": "Le affermazioni quotidiane aiutano a rimodellare la tua mentalità e a costruire la resilienza emotiva. Prenditi qualche istante per concentrarti su pensieri positivi e parla a te stesso con gentilezza.",
-    "benefits": [
-      "Trova la pace nei momenti difficili",
-      "Sfida gli schemi di pensiero negativi",
-      "Sviluppare l'autocompassione e la forza"
-    ]
+    "benefits": {
+      "0": "Trova la pace nei momenti difficili",
+      "1": "Sfida gli schemi di pensiero negativi",
+      "2": "Sviluppare l'autocompassione e la forza"
+    }
   },
   "affirmation_for": "Affermazione per",
   "affirmation": "Affermazione",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Come ti senti?",
+  "feelings_subheading": "Seleziona l'emozione che ti proponi",
+  "lang": "lunga"
 }

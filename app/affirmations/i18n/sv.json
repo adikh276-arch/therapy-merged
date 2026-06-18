@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "När du känner dig ensam och ledsen",
-      "affirmations": [
-        "Jag är inte ensam, även när det känns så.",
-        "Mina känslor förtjänar omsorg och mildhet.",
-        "Detta ögonblick kommer inte att vara för evigt.",
-        "Jag får behöva kontakt.",
-        "Jag kan erbjuda mig själv värme just nu."
-      ]
+      "affirmations": {
+        "0": "Jag är inte ensam, även när det känns så.",
+        "1": "Mina känslor förtjänar omsorg och mildhet.",
+        "2": "Detta ögonblick kommer inte att vara för evigt.",
+        "3": "Jag får behöva kontakt.",
+        "4": "Jag kan erbjuda mig själv värme just nu."
+      }
     },
     "terrified": {
       "label": "När du känner dig livrädd",
-      "affirmations": [
-        "Jag är trygg i detta ögonblick.",
-        "Rädsla är en känsla, inte en förutsägelse.",
-        "Jag kan ta det här ett andetag i taget.",
-        "Jag behöver inte lösa allt just nu.",
-        "Jag är starkare än i detta ögonblick."
-      ]
+      "affirmations": {
+        "0": "Jag är trygg i detta ögonblick.",
+        "1": "Rädsla är en känsla, inte en förutsägelse.",
+        "2": "Jag kan ta det här ett andetag i taget.",
+        "3": "Jag behöver inte lösa allt just nu.",
+        "4": "Jag är starkare än i detta ögonblick."
+      }
     },
     "insignificant": {
       "label": "När du känner dig obetydlig",
-      "affirmations": [
-        "Små ögonblick räknas fortfarande.",
-        "Jag behöver inte bevisa mitt värde.",
-        "Jag får ta plats.",
-        "Min existens är viktig.",
-        "Jag är tillräcklig som jag är."
-      ]
+      "affirmations": {
+        "0": "Små ögonblick räknas fortfarande.",
+        "1": "Jag behöver inte bevisa mitt värde.",
+        "2": "Jag får ta plats.",
+        "3": "Min existens är viktig.",
+        "4": "Jag är tillräcklig som jag är."
+      }
     },
     "overwhelmed": {
       "label": "När du känner dig överväldigad",
-      "affirmations": [
-        "Jag behöver inte göra allt på en gång.",
-        "Ett litet steg räcker.",
-        "Det är okej att pausa.",
-        "Jag får vila.",
-        "Det här kommer att bli hanterbart igen."
-      ]
+      "affirmations": {
+        "0": "Jag behöver inte göra allt på en gång.",
+        "1": "Ett litet steg räcker.",
+        "2": "Det är okej att pausa.",
+        "3": "Jag får vila.",
+        "4": "Det här kommer att bli hanterbart igen."
+      }
     },
     "hopeless": {
       "label": "När du känner dig hopplös",
-      "affirmations": [
-        "Jag behöver inga svar idag.",
-        "Förändring är fortfarande möjlig.",
-        "Jag har överlevt svåra dagar tidigare.",
-        "Jag kan stanna här för tillfället.",
-        "Något milt kan fortfarande utvecklas."
-      ]
+      "affirmations": {
+        "0": "Jag behöver inga svar idag.",
+        "1": "Förändring är fortfarande möjlig.",
+        "2": "Jag har överlevt svåra dagar tidigare.",
+        "3": "Jag kan stanna här för tillfället.",
+        "4": "Något milt kan fortfarande utvecklas."
+      }
     },
     "conflicted": {
       "label": "När du känner dig kluven",
-      "affirmations": [
-        "Det är okej att känna mer än en sak samtidigt.",
-        "Jag behöver inte klarhet direkt.",
-        "Förvirring betyder inte misslyckande.",
-        "Jag kan ge mig själv tid.",
-        "Jag litar på mig själv att lista ut det här."
-      ]
+      "affirmations": {
+        "0": "Det är okej att känna mer än en sak samtidigt.",
+        "1": "Jag behöver inte klarhet direkt.",
+        "2": "Förvirring betyder inte misslyckande.",
+        "3": "Jag kan ge mig själv tid.",
+        "4": "Jag litar på mig själv att lista ut det här."
+      }
     },
     "self-critical": {
       "label": "När du är väldigt självkritisk",
-      "affirmations": [
-        "Jag kan tala till mig själv med vänlighet.",
-        "Jag behöver inte straffa mig själv för att växa.",
-        "Misstag definierar inte vem jag är.",
-        "Jag lär mig, jag misslyckas inte.",
-        "Tillväxt kräver inte grymhet."
-      ]
+      "affirmations": {
+        "0": "Jag kan tala till mig själv med vänlighet.",
+        "1": "Jag behöver inte straffa mig själv för att växa.",
+        "2": "Misstag definierar inte vem jag är.",
+        "3": "Jag lär mig, jag misslyckas inte.",
+        "4": "Tillväxt kräver inte grymhet."
+      }
     },
     "out-of-place": {
       "label": "När du känner dig socialt malplacerad",
-      "affirmations": [
-        "Jag får vara tyst eller annorlunda.",
-        "Jag behöver inte matcha någon annans energi.",
-        "Jag hör hemma som jag är.",
-        "Jag kan ta plats försiktigt.",
-        "Jag gör inte det här fel."
-      ]
+      "affirmations": {
+        "0": "Jag får vara tyst eller annorlunda.",
+        "1": "Jag behöver inte matcha någon annans energi.",
+        "2": "Jag hör hemma som jag är.",
+        "3": "Jag kan ta plats försiktigt.",
+        "4": "Jag gör inte det här fel."
+      }
     },
     "unsafe": {
       "label": "När du känner dig otrygg bland främlingar",
-      "affirmations": [
-        "Jag kan röra mig i min egen takt.",
-        "Jag får skydda mina gränser.",
-        "Jag kan hålla mig jordad i min kropp.",
-        "Jag får lämna situationer.",
-        "Jag kan hålla mig själv säker."
-      ]
+      "affirmations": {
+        "0": "Jag kan röra mig i min egen takt.",
+        "1": "Jag får skydda mina gränser.",
+        "2": "Jag kan hålla mig jordad i min kropp.",
+        "3": "Jag får lämna situationer.",
+        "4": "Jag kan hålla mig själv säker."
+      }
     },
     "pressured": {
       "label": "När du känner dig pressad på jobbet",
-      "affirmations": [
-        "Mitt värde är inte min produktivitet.",
-        "Jag behöver inte bevisa mig själv hela tiden.",
-        "Att göra mitt bästa räcker idag.",
-        "En uppgift i taget är okej.",
-        "Jag är mer än min roll."
-      ]
+      "affirmations": {
+        "0": "Mitt värde är inte min produktivitet.",
+        "1": "Jag behöver inte bevisa mig själv hela tiden.",
+        "2": "Att göra mitt bästa räcker idag.",
+        "3": "En uppgift i taget är okej.",
+        "4": "Jag är mer än min roll."
+      }
     },
     "face-the-day": {
       "label": "När du inte vill möta dagen",
-      "affirmations": [
-        "Jag kan ta idag i små bitar.",
-        "Att ta sig igenom räcker.",
-        "Jag behöver ingen motivation för att börja.",
-        "Att dyka upp försiktigt räknas fortfarande.",
-        "Den här dagen definierar mig inte."
-      ]
+      "affirmations": {
+        "0": "Jag kan ta idag i små bitar.",
+        "1": "Att ta sig igenom räcker.",
+        "2": "Jag behöver ingen motivation för att börja.",
+        "3": "Att dyka upp försiktigt räknas fortfarande.",
+        "4": "Den här dagen definierar mig inte."
+      }
     },
     "future": {
       "label": "När du oroar dig för din framtid",
-      "affirmations": [
-        "Jag kan återvända till nuet.",
-        "Jag kommer att hantera saker som de kommer.",
-        "Jag behöver ingen säkerhet idag.",
-        "Jag kan anpassa mig.",
-        "Jag kan lita lite mer på mig själv."
-      ]
+      "affirmations": {
+        "0": "Jag kan återvända till nuet.",
+        "1": "Jag kommer att hantera saker som de kommer.",
+        "2": "Jag behöver ingen säkerhet idag.",
+        "3": "Jag kan anpassa mig.",
+        "4": "Jag kan lita lite mer på mig själv."
+      }
     },
     "stuck": {
       "label": "När du känner dig fast i ett problem",
-      "affirmations": [
-        "Att vara fast betyder inte att jag är trasig.",
-        "Jag kan pausa utan att ge upp.",
-        "Jag behöver inga omedelbara lösningar.",
-        "Jag har rätt att känna mig osäker.",
-        "Jag rör mig fortfarande, även långsamt."
-      ]
+      "affirmations": {
+        "0": "Att vara fast betyder inte att jag är trasig.",
+        "1": "Jag kan pausa utan att ge upp.",
+        "2": "Jag behöver inga omedelbara lösningar.",
+        "3": "Jag har rätt att känna mig osäker.",
+        "4": "Jag rör mig fortfarande, även långsamt."
+      }
     },
     "compare": {
       "label": "När du jämför dig själv",
-      "affirmations": [
-        "Min resa är min egen.",
-        "Jag behöver inte tävla för att vara värdig.",
-        "Jag får växa i min egen takt.",
-        "Någon annans framgång suddar inte ut min.",
-        "Jag ligger inte efter."
-      ]
+      "affirmations": {
+        "0": "Min resa är min egen.",
+        "1": "Jag behöver inte tävla för att vara värdig.",
+        "2": "Jag får växa i min egen takt.",
+        "3": "Någon annans framgång suddar inte ut min.",
+        "4": "Jag ligger inte efter."
+      }
     },
     "give-up": {
       "label": "När du vill ge upp",
-      "affirmations": [
-        "Jag behöver inte bestämma något just nu.",
-        "Den här känslan kommer att gå över.",
-        "Jag har överlevt mer än jag inser.",
-        "Jag kan stanna en stund till.",
-        "Jag är fortfarande här – och det är viktigt."
-      ]
+      "affirmations": {
+        "0": "Jag behöver inte bestämma något just nu.",
+        "1": "Den här känslan kommer att gå över.",
+        "2": "Jag har överlevt mer än jag inser.",
+        "3": "Jag kan stanna en stund till.",
+        "4": "Jag är fortfarande här – och det är viktigt."
+      }
     }
   },
   "app_complete_title": "Känn dig stärkt",
@@ -188,11 +188,11 @@
   "app_description": "Förändra ditt tankesätt genom dagliga affirmationer.",
   "intro": {
     "description": "Dagliga affirmationer hjälper till att omforma ditt tankesätt och bygga emotionell motståndskraft. Ta några ögonblick för att fokusera på positiva tankar och tala vänligt till dig själv.",
-    "benefits": [
-      "Hitta frid i svåra stunder",
-      "Utmana negativa tankemönster",
-      "Bygg självmedkänsla och styrka"
-    ]
+    "benefits": {
+      "0": "Hitta frid i svåra stunder",
+      "1": "Utmana negativa tankemönster",
+      "2": "Bygg självmedkänsla och styrka"
+    }
   },
   "affirmation_for": "Bekräftelse för",
   "affirmation": "Bekräftelse",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Hur mår du?",
+  "feelings_subheading": "Välj den känsla du har",
+  "lang": "Lång"
 }

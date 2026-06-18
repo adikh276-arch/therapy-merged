@@ -3,39 +3,40 @@
   "app_subtitle": "Engedd el a gondolataidat biztonságosan és privátban",
   "intro": {
     "title": "A nem küldött levél",
-    "description": [
-      "Néha vannak dolgok, amiket szeretnénk kimondani — de soha nem volt rá lehetőségünk.",
-      "Lehet, hogy azért, mert nem érezte magát biztonságosnak, az időzítés nem volt megfelelő, vagy a szavakat túl nehéz volt kimondani.",
-      "Ez a tevékenység privát teret ad, hogy ezeket a gondolatokat szavakba önthesd.",
-      "Nem kell ezt a levelet elküldened. Ez csak neked szól — hogy jobban kifejezd, elengedd és megértsd az érzéseidet."
-    ],
+    "description": {
+      "0": "Néha vannak dolgok, amiket szeretnénk kimondani — de soha nem volt rá lehetőségünk.",
+      "1": "Lehet, hogy azért, mert nem érezte magát biztonságosnak, az időzítés nem volt megfelelő, vagy a szavakat túl nehéz volt kimondani.",
+      "2": "Ez a tevékenység privát teret ad, hogy ezeket a gondolatokat szavakba önthesd.",
+      "3": "Nem kell ezt a levelet elküldened. Ez csak neked szól — hogy jobban kifejezd, elengedd és megértsd az érzéseidet."
+    },
     "notice": "Írj szabadon. Senki más nem fogja látni ezt.",
     "button": "Kezdj el írni →"
   },
   "writing": {
     "title": "Írd meg, amit eddig magadban tartottál",
     "desc": "Írhatsz a partnerednek, az expartnerednek, vagy akár magának a kapcsolatnak. Nincs helyes vagy rossz módja ennek.",
-    "prompts": [
-      "Úgy érzem...",
-      "Szeretném...",
-      "Sosem mondtam...",
-      "Mi fájt nekem...",
-      "Amire szükségem volt..."
-    ],
+    "prompts": {
+      "0": "Úgy érzem...",
+      "1": "Szeretném...",
+      "2": "Sosem mondtam...",
+      "3": "Mi fájt nekem...",
+      "4": "Amire szükségem volt..."
+    },
     "placeholder": "Kedves ____,\nMár régóta szeretném mondani...",
     "notice": "Bármikor megállhatsz és visszatérhetsz.",
     "button": "Folytasd →"
   },
   "reflection": {
     "title": "Szánj egy pillanatot ezzel",
-    "description": [
-      "Most fejezted ki a gondolataidat és érzéseidet szavakká — ehhez bátorság kell.",
-      "Lehet, hogy most érzelmek vegyes keverékét veszed észre, és ez teljesen rendben van.",
-      "Mielőtt továbblépnél, vegyél egy mély levegőt, és óvatosan nézd meg magad."
-    ],
+    "description": {
+      "0": "Most fejezted ki a gondolataidat és érzéseidet szavakká — ehhez bátorság kell.",
+      "1": "Lehet, hogy most érzelmek vegyes keverékét veszed észre, és ez teljesen rendben van.",
+      "2": "Mielőtt továbblépnél, vegyél egy mély levegőt, és óvatosan nézd meg magad."
+    },
     "notice": "Ez a gyógyulásod miatt volt, nem azért, hogy küldj.",
     "save_button": "Mentse betűt",
-    "finish_button": "Befejezés"
+    "finish_button": "Befejezés",
+    "save_success": "Az elküldetlen leveled biztonságosan helyrejavítható a magán helyi naplódban. A kifejezés mély felszabadulás."
   },
   "history": {
     "title": "Korábbi levelek",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Biztos, hogy törölni akarod ezt az elküldetlen levelet?"
   },
   "app_description": "Engedd szabadjára a gondolataidat biztonságosan és privát módon",
   "more": "Több",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

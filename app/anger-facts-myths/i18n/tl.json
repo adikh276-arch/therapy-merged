@@ -23,38 +23,38 @@
   "try_again": "Subukang Muli",
   "complete_title": "Kaalaman na Pinagkadalubhasaan",
   "complete_message": "Kayo ay nag-iskor ng {{score}}/{{total}}! Nakakuha ka ng mahalagang kaalaman sa mga katotohanan at alamat ng galit.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Masama ang galit. Kapag nagagalit ka, may mali sa iyo.",
       "answer": "myth",
       "realFact": "Ang galit ay isang normal at malusog na damdamin. Nararamdaman ito ng lahat. Hindi ito isang palatandaan na may isang bagay na 'mali' sa iyo - ito ay isang senyas na may isang bagay na mahalaga sa iyo. Ang mahalaga ay kung paano ka tumugon dito, hindi kung nararamdaman mo ito.",
       "example": "Galit na galit ang isang beterano kapag tumawid ang kanilang mga hangganan. Ang galit na iyon ay may bisa - ito ay nagsasabi sa kanila ng isang bagay na mahalaga."
     },
-    {
+    "1": {
       "statement": "Ang galit ay maaaring maging hudyat na ang iyong mga hangganan ay nalampasan na.",
       "answer": "fact",
       "realFact": "Ang galit ay impormasyon. Kapag naramdaman mo ito, sulit na tanungin: Anong hangganan ang nalampasan? Anong pangangailangan ang hindi natutugunan? Ang pakikinig sa iyong galit - nang hindi kumikilos sa pag-uudyok - ay tumutulong sa iyo na maunawaan ang iyong sarili nang mas mahusay at gumawa ng makabuluhang pagkilos.",
       "example": "Nagagalit ka kapag ang isang katrabaho ay kumukuha ng kredito para sa iyong trabaho. Ang galit na iyon ay nagpapahiwatig ng pangangailangan para sa pagkilala at katarungan."
     },
-    {
+    "2": {
       "statement": "Kung galit ka, kailangan mong ipaalam ito sa pamamagitan ng pagsigaw o paghampas ng mga bagay-bagay.",
       "answer": "myth",
       "realFact": "Ang malusog na pagpapahayag ng galit ay hindi nangangahulugang pagsugpo O pagsabog. Nangangahulugan ito ng pagkilala sa iyong mga damdamin at pagpapahayag ng mga ito nang nakabubuo - sa pamamagitan ng mga salita, journaling, pisikal na aktibidad, o malikhaing outlet. Maaari mong igalang ang iyong galit nang walang pagkawasak.",
       "example": "Imbes na mag-ipon ng pader, tumakbo ka o isulat kung ano talaga ang bumabagabag sa iyo. Ang galit ay dumadaan sa iyo nang hindi nagdudulot ng pinsala."
     },
-    {
+    "3": {
       "statement": "Ang pag-aaral na kontrolin ang galit ay tanda ng emosyonal na lakas.",
       "answer": "fact",
       "realFact": "Ang mga taong nagtatrabaho sa kanilang pamamahala ng galit ay hindi mahina - ginagawa nila ang ilan sa mga pinakamatapang na emosyonal na gawain na mayroon. Ang pagpili na mag-pause, magmuni-muni, at tumugon nang may pag-iisip ay nangangailangan ng mas maraming lakas kaysa sa pag-react sa salpok.",
       "example": "Ang paghinga ng malalim at pagsasabi ng 'Kailangan ko ng isang minuto bago ako tumugon' sa isang mainit na sandali ay isang malakas na kilos ng pagpipigil sa sarili."
     },
-    {
+    "4": {
       "statement": "Kung may nagagalit sa iyo, kasalanan nila iyon. Wala kang responsibilidad.",
       "answer": "myth",
       "realFact": "Ang ibang tao ay maaaring mag-trigger ng iyong galit, ngunit kung paano ka tumugon ay ang iyong responsibilidad - at ang iyong kapangyarihan. Ang pagmamay-ari ng iyong mga reaksyon ay hindi nangangahulugang tama ang ibang tao. Nangangahulugan ito na pinipili mo kung paano magpakita. Iyan ay pagbibigay-kapangyarihan, hindi sisihin.",
       "example": "May nag-aagawan sa iyo sa trapiko. Pakiramdam mo galit - normal iyon. Pinili mo kung magalit ka o huminga. Nasa iyo ang pagpipilian."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Magsimula Muli",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "results_message": "You"
 }

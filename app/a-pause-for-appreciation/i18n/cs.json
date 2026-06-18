@@ -73,13 +73,13 @@
     "confirmDelete": "Potvrdit smazání",
     "cancel": "Zrušit",
     "delete": "Smazat záznam",
-    "prompts": [
-      "Jeden malý okamžik, který nepůsobil napjatě...",
-      "Jeden pokus, který tvůj partner udělal...",
-      "Jedna vlastnost, která zůstala konzistentní...",
-      "Záměr",
-      "Emocionální kontrola"
-    ]
+    "prompts": {
+      "0": "Jeden malý okamžik, který nepůsobil napjatě...",
+      "1": "Jeden pokus, který tvůj partner udělal...",
+      "2": "Jedna vlastnost, která zůstala konzistentní...",
+      "3": "Záměr",
+      "4": "Emocionální kontrola"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

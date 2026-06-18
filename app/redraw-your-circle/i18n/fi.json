@@ -21,30 +21,31 @@
       "placeholder": "Syötä nimi...",
       "button": "Tallennettu nimi"
     },
-    "prompts": [
-      "Henkilö, joka tuo iloa",
-      "Henkilö, joka tukee sinua",
-      "Henkilö, jonka kanssa voit puhua",
-      "Henkilö, johon luotatte",
-      "Henkilö, joka inspiroi sinua"
-    ]
+    "prompts": {
+      "0": "Henkilö, joka tuo iloa",
+      "1": "Henkilö, joka tukee sinua",
+      "2": "Henkilö, jonka kanssa voit puhua",
+      "3": "Henkilö, johon luotatte",
+      "4": "Henkilö, joka inspiroi sinua"
+    }
   },
   "reflection": {
     "subtitle": "Lopulliset pohdinnat",
     "title": "Mitä huomaat?",
     "p_intro": "Ota hetki ja katso piiriäsi. Saatat huomata:",
-    "list": [
-      "Jotkut tuntevat olevansa läheisempiä kuin toiset",
-      "Jotkut yhteydet tuntuvat vahvoilta",
-      "Jotkut tuntuvat etäisiltä tai epäselvältä",
-      "Saattaa olla aukkoja — tai vain muutama merkittävä henkilö"
-    ],
+    "list": {
+      "0": "Jotkut tuntevat olevansa läheisempiä kuin toiset",
+      "1": "Jotkut yhteydet tuntuvat vahvoilta",
+      "2": "Jotkut tuntuvat etäisiltä tai epäselvältä",
+      "3": "Saattaa olla aukkoja — tai vain muutama merkittävä henkilö"
+    },
     "italic": "Tietoisuus on ensimmäinen askel kohti arvostettujen yhteyksien rakentamista. 🧘",
     "label": "💭 Onko joku, johon haluaisit tuntea enemmän yhteyttä?",
     "placeholder": "Kirjoita ajatuksesi tähän...",
     "save_button": "Tallenna heijastus",
     "saving_button": "Säästäminen...",
-    "skip_button": "Hyppää ja viimeistele"
+    "skip_button": "Hyppää ja viimeistele",
+    "saved_success": "Ihmissuhdekarttasi on turvallisesti tallennettu päiväkirjaasi. Näiden tukisolmujen kehittäminen auttaa meitä pysymään kestävinä."
   },
   "history": {
     "title": "Teidän piirien historia",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Oletko varma, että haluat poistaa tämän ympyrälokin?"
   },
   "intro_p1": "Elämän eri vaiheissa tukiverkostomme voi muuttua. 🌱 Joskus tunnemme yhteyttä ja saamme tukea. Toisinaan asiat voivat tuntua etäisiltä tai epäselviltä.",
   "intro_p2": "Tämä aktiviteetti on tila pysähtyä ja tarkastella ympärilläsi olevia ihmisiä – ja ymmärtää, ketkä tuntevat tällä hetkellä kuuluvansa piiriisi. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  " ": " "
 }

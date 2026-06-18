@@ -3,11 +3,11 @@
   "intro": {
     "title": "Gedankenlese-Check",
     "description": "Hinterfrage die Annahmen, die du darüber triffst, was andere denken.",
-    "benefits": [
-      "Hör auf, das Schlimmste anzunehmen",
-      "Identifizieren Sie voreingenommene Interpretationen",
-      "Klarere Kommunikation aufbauen"
-    ],
+    "benefits": {
+      "0": "Hör auf, das Schlimmste anzunehmen",
+      "1": "Identifizieren Sie voreingenommene Interpretationen",
+      "2": "Klarere Kommunikation aufbauen"
+    },
     "duration": "3-4 Minuten",
     "view_past": "Vergangene Reflexionen ansehen"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Überprüfe deinen Glauben",
       "desc": "Wie stark glaubst du jetzt an deinen ursprünglichen Gedanken?",
-      "labels": [
-        "Überhaupt nicht",
-        "Vollständig"
-      ]
+      "labels": {
+        "0": "Überhaupt nicht",
+        "1": "Vollständig"
+      }
     },
     "step7": {
       "title": "Eine ausgewogenere Sichtweise",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Nächstes Mal",
       "desc": "Was könntest du tun, anstatt anzunehmen?",
-      "examples": [
-        "Bitte um eine Klarstellung",
-        "Gib ihm etwas Zeit",
-        "Bemerken Sie es ohne Reaktion"
-      ],
+      "examples": {
+        "0": "Bitte um eine Klarstellung",
+        "1": "Gib ihm etwas Zeit",
+        "2": "Bemerken Sie es ohne Reaktion"
+      },
       "placeholder": "Beim nächsten Mal könnte ich..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

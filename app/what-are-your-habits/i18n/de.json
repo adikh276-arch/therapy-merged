@@ -5,37 +5,37 @@
   "body_title": "🧍‍♀️ Deine tägliche Körperroutine",
   "body_subtitle": "Welches davon fühlt sich in letzter Zeit etwas seltsam an? (Mehrere Antworten möglich)",
   "continue": "Weitermachen",
-  "body_options": [
-    "Ich habe nicht gut geschlafen.",
-    "Mein Schlafrhythmus ist unregelmäßig.",
-    "Ich lasse manchmal Mahlzeiten aus.",
-    "Ich esse mehr als sonst, wenn ich gestresst bin.",
-    "Ich habe mich in letzter Zeit nicht viel bewegt oder Sport getrieben.",
-    "Ich war in letzter Zeit nicht oft draußen.",
-    "Meine persönliche Pflegeroutine hat sich verändert",
-    "Mein Tagesablauf fühlt sich stabil an."
-  ],
+  "body_options": {
+    "0": "Ich habe nicht gut geschlafen.",
+    "1": "Mein Schlafrhythmus ist unregelmäßig.",
+    "2": "Ich lasse manchmal Mahlzeiten aus.",
+    "3": "Ich esse mehr als sonst, wenn ich gestresst bin.",
+    "4": "Ich habe mich in letzter Zeit nicht viel bewegt oder Sport getrieben.",
+    "5": "Ich war in letzter Zeit nicht oft draußen.",
+    "6": "Meine persönliche Pflegeroutine hat sich verändert",
+    "7": "Mein Tagesablauf fühlt sich stabil an."
+  },
   "mind_title": "🧠 Deine Denkmuster",
-  "mind_options": [
-    "Ich zerdenke die Dinge ständig.",
-    "Ich male mir oft das schlimmstmögliche Szenario aus.",
-    "Ich bin sehr streng mit mir selbst.",
-    "Ich fühle mich schuldig wegen Dingen, die ich getan oder nicht getan habe.",
-    "Ich mache mir ständig Sorgen.",
-    "Mir fällt es schwer, mich zu entspannen.",
-    "Meine Gedanken fühlen sich beherrschbar an"
-  ],
+  "mind_options": {
+    "0": "Ich zerdenke die Dinge ständig.",
+    "1": "Ich male mir oft das schlimmstmögliche Szenario aus.",
+    "2": "Ich bin sehr streng mit mir selbst.",
+    "3": "Ich fühle mich schuldig wegen Dingen, die ich getan oder nicht getan habe.",
+    "4": "Ich mache mir ständig Sorgen.",
+    "5": "Mir fällt es schwer, mich zu entspannen.",
+    "6": "Meine Gedanken fühlen sich beherrschbar an"
+  },
   "coping_title": "🌊 Wie du auf Stress reagierst",
-  "coping_options": [
-    "Ich vermeide Aufgaben, wenn ich gestresst bin.",
-    "Ich scrolle viel auf meinem Handy, um mich abzulenken.",
-    "Ich verbringe Zeit allein, um damit umzugehen",
-    "Ich stürze mich in die Arbeit, wenn ich gestresst bin.",
-    "Ich spreche mit jemandem darüber, wie ich mich fühle.",
-    "Ich mache Atemübungen, um mich zu beruhigen.",
-    "Ich schaue fern oder spiele Videospiele, um mich abzulenken.",
-    "Ich bin mir nicht sicher, wie ich auf Stress reagiere."
-  ],
+  "coping_options": {
+    "0": "Ich vermeide Aufgaben, wenn ich gestresst bin.",
+    "1": "Ich scrolle viel auf meinem Handy, um mich abzulenken.",
+    "2": "Ich verbringe Zeit allein, um damit umzugehen",
+    "3": "Ich stürze mich in die Arbeit, wenn ich gestresst bin.",
+    "4": "Ich spreche mit jemandem darüber, wie ich mich fühle.",
+    "5": "Ich mache Atemübungen, um mich zu beruhigen.",
+    "6": "Ich schaue fern oder spiele Videospiele, um mich abzulenken.",
+    "7": "Ich bin mir nicht sicher, wie ich auf Stress reagiere."
+  },
   "reflection_title": "✍️ Reflexion",
   "question_stress": "Welche Gewohnheit erhöht später Ihren Stresspegel?",
   "question_calm": "Welche Gewohnheit könnte Ihnen helfen, sich ruhiger zu fühlen?",
@@ -44,13 +44,13 @@
   "insight_description": "Tippe unten, um einfache Gewohnheiten zu sehen, die helfen können, Stress abzubauen.",
   "show_suggestions": "Vorschläge anzeigen",
   "commit": "Begehen",
-  "suggestions": [
-    "Versuche heute Abend etwas früher ins Bett zu gehen.",
-    "Gehen Sie heute nach draußen und schnappen Sie sich frische Luft.",
-    "Machen Sie eine Weile Pause vom Scrollen.",
-    "Sprich freundlich mit dir selbst.",
-    "Erledige eine Aufgabe, die du schon lange aufgeschoben hast."
-  ],
+  "suggestions": {
+    "0": "Versuche heute Abend etwas früher ins Bett zu gehen.",
+    "1": "Gehen Sie heute nach draußen und schnappen Sie sich frische Luft.",
+    "2": "Machen Sie eine Weile Pause vom Scrollen.",
+    "3": "Sprich freundlich mit dir selbst.",
+    "4": "Erledige eine Aufgabe, die du schon lange aufgeschoben hast."
+  },
   "final_text": "Kleine Veränderungen sind wichtig. Beständigkeit schafft Ruhe.",
   "finish": "Beenden",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "lang",
+  "mind_subtitle": "Welche Gedankengewohnheiten bemerkst du am häufigsten, dass sie zurückkehren? Wählen Sie alle an, die gelten.",
+  "coping_subtitle": "Wie reagieren Sie typischerweise, wenn Überforderung eintritt? Wählen Sie alle an, die gelten."
 }

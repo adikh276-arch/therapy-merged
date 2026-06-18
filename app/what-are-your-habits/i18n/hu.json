@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ A mindennapi testrutinod",
   "body_subtitle": "Melyik eset vált egy kicsit furcsának mostanában? (Válassz ki bármelyiket, ami releváns)",
   "continue": "Folytatás",
-  "body_options": [
-    "Nem aludtam jól",
-    "Az alvási időm szabálytalan",
-    "Néha kihagyom az étkezéseket",
-    "Stresszes állapotban többet eszem a szokásosnál",
-    "Nem mozogtam sokat vagy edzettem",
-    "Nem járok sokat a szabadba",
-    "A személyes gondozási rutinom megváltozott",
-    "A napi rutinom stabilnak tűnik"
-  ],
+  "body_options": {
+    "0": "Nem aludtam jól",
+    "1": "Az alvási időm szabálytalan",
+    "2": "Néha kihagyom az étkezéseket",
+    "3": "Stresszes állapotban többet eszem a szokásosnál",
+    "4": "Nem mozogtam sokat vagy edzettem",
+    "5": "Nem járok sokat a szabadba",
+    "6": "A személyes gondozási rutinom megváltozott",
+    "7": "A napi rutinom stabilnak tűnik"
+  },
   "mind_title": "🧠 A gondolatmintáid",
-  "mind_options": [
-    "Folyton túlgondolom a dolgokat",
-    "Gyakran képzelem el a legrosszabb forgatókönyvet",
-    "Kemény vagyok magammal",
-    "Bűntudatom van azért, amit tettem vagy nem tettem meg",
-    "Folyamatosan aggódom",
-    "Nehezen tudok lazítani",
-    "A gondolataim kezelhetőnek tűnnek"
-  ],
+  "mind_options": {
+    "0": "Folyton túlgondolom a dolgokat",
+    "1": "Gyakran képzelem el a legrosszabb forgatókönyvet",
+    "2": "Kemény vagyok magammal",
+    "3": "Bűntudatom van azért, amit tettem vagy nem tettem meg",
+    "4": "Folyamatosan aggódom",
+    "5": "Nehezen tudok lazítani",
+    "6": "A gondolataim kezelhetőnek tűnnek"
+  },
   "coping_title": "🌊 Hogyan reagálsz a stresszre",
-  "coping_options": [
-    "Kerülöm a feladatokat, ha stresszes vagyok",
-    "Sokat görgetek a telefonomon, hogy eltereljem a figyelmemet",
-    "Egyedül töltök időt, hogy megbirkózzak",
-    "Stresszes állapotban belevetem magam a munkába",
-    "Beszélek valakivel arról, hogyan érzem magam",
-    "Légzőgyakorlatokat végzek, hogy megnyugodjak",
-    "Tévét nézek vagy játszom, hogy eltereljem a figyelmemet",
-    "Nem tudom, hogyan reagálok a stresszre"
-  ],
+  "coping_options": {
+    "0": "Kerülöm a feladatokat, ha stresszes vagyok",
+    "1": "Sokat görgetek a telefonomon, hogy eltereljem a figyelmemet",
+    "2": "Egyedül töltök időt, hogy megbirkózzak",
+    "3": "Stresszes állapotban belevetem magam a munkába",
+    "4": "Beszélek valakivel arról, hogyan érzem magam",
+    "5": "Légzőgyakorlatokat végzek, hogy megnyugodjak",
+    "6": "Tévét nézek vagy játszom, hogy eltereljem a figyelmemet",
+    "7": "Nem tudom, hogyan reagálok a stresszre"
+  },
   "reflection_title": "✍️ Reflektív",
   "question_stress": "Melyik szokás növeli a stresszt később?",
   "question_calm": "Melyik szokás segíthet abban, hogy nyugodtabbnak érezd magad?",
@@ -44,13 +44,13 @@
   "insight_description": "Kattints alább, hogy láss egyszerű szokásokat, amelyek segíthetnek csökkenteni a stresszt.",
   "show_suggestions": "Műsorjavaslatok",
   "commit": "Kötelező",
-  "suggestions": [
-    "Próbálj meg ma este egy kicsit korábban lefeküdni",
-    "Ma menj ki friss levegőért",
-    "Tarts egy kis szünetet a görgetésben",
-    "Beszélj kedvesen magaddal",
-    "Fejezd be egy feladatot, amit halogattad"
-  ],
+  "suggestions": {
+    "0": "Próbálj meg ma este egy kicsit korábban lefeküdni",
+    "1": "Ma menj ki friss levegőért",
+    "2": "Tarts egy kis szünetet a görgetésben",
+    "3": "Beszélj kedvesen magaddal",
+    "4": "Fejezd be egy feladatot, amit halogattad"
+  },
   "final_text": "Az apró változások számítanak. A következetesség nyugalmat teremt.",
   "finish": "Befejezés",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "hosszú",
+  "mind_subtitle": "Milyen gondolati szokásokat veszel észre, hogy visszatérnek a leggyakrabban? Válaszd ki mindazt, ami vonatkozik.",
+  "coping_subtitle": "Hogyan reagálsz általában a túlterheltség esetén? Válaszd ki mindazt, ami vonatkozik."
 }

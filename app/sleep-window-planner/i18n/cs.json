@@ -1,10 +1,10 @@
 {
   "app_title": "Plánovač spánkového okna",
-  "pill_labels": [
-    "Postavte si okno",
-    "Nastavte si časy",
-    "Tvé spánkové okno"
-  ],
+  "pill_labels": {
+    "0": "Postavte si okno",
+    "1": "Nastavte si časy",
+    "2": "Tvé spánkové okno"
+  },
   "screen1": {
     "title": "Na tvém spánkovém okně záleží víc, než si myslíš",
     "p1": "Spánkové okno je pevný čas mezi tím, kdy půjdete spát, a tím, jak se probudíte. Udržet ho konzistentní — i o víkendech — je jednou z nejsilnějších věcí, které můžete pro svůj spánek udělat.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 způsoby, jak ji chránit",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Uklidněte se 30 minut před spaním"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Stejný čas vstávání každý den — ano, i o víkendech"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Vyhněte se zdřímnutí delším než 20 minut po 15:00"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Dnes večer se zavázej k jedné věci",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Schovej telefon před spaním"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Začni s relaxačním režimem"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Ztlumte světla hodinu před spaním"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Dokončit svůj seznam úkolů včas"
         }
-      ]
+      }
     },
     "quote": "Konzistence je silnější než dokonalost. Jedna dobrá noc buduje další.",
     "button": "Ušetři mi okno spánku ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

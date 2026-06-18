@@ -3,39 +3,40 @@
   "app_subtitle": "安全私密地释放你的想法",
   "intro": {
     "title": "未寄出的信",
-    "description": [
-      "有时，我们有些话想说却一直没有机会说出口。",
-      "这可能是因为感觉不安全，时机不对，或者难以启齿。",
-      "这项活动为你提供了一个私密的空间，让你可以用文字表达你的想法。",
-      "你不必寄出这封信。这封信只是写给你自己的——用来表达、释放和更好地理解你的感受。"
-    ],
+    "description": {
+      "0": "有时，我们有些话想说却一直没有机会说出口。",
+      "1": "这可能是因为感觉不安全，时机不对，或者难以启齿。",
+      "2": "这项活动为你提供了一个私密的空间，让你可以用文字表达你的想法。",
+      "3": "你不必寄出这封信。这封信只是写给你自己的——用来表达、释放和更好地理解你的感受。"
+    },
     "notice": "尽情写下来。反正没人会看到。",
     "button": "开始写作 →"
   },
   "writing": {
     "title": "把你一直藏在心里的话写下来",
     "desc": "你可以写信给你的伴侣、前伴侣，甚至写信给这段感情本身。这样做没有对错之分。",
-    "prompts": [
-      "我感觉……",
-      "我希望……",
-      "我从没说过……",
-      "什么让我感到受伤……",
-      "我需要的是……"
-    ],
+    "prompts": {
+      "0": "我感觉……",
+      "1": "我希望……",
+      "2": "我从没说过……",
+      "3": "什么让我感到受伤……",
+      "4": "我需要的是……"
+    },
     "placeholder": "亲爱的____，\n\n我一直想说……",
     "notice": "您可以随时暂停并返回继续。",
     "button": "继续 →"
   },
   "reflection": {
     "title": "请花点时间思考一下",
-    "description": [
-      "你刚刚把自己的想法和感受用语言表达了出来——这需要勇气。",
-      "你现在可能会感到五味杂陈，这完全没问题。",
-      "在继续前进之前，深呼吸，轻轻地审视一下自己。"
-    ],
+    "description": {
+      "0": "你刚刚把自己的想法和感受用语言表达了出来——这需要勇气。",
+      "1": "你现在可能会感到五味杂陈，这完全没问题。",
+      "2": "在继续前进之前，深呼吸，轻轻地审视一下自己。"
+    },
     "notice": "这是为了治愈你，而不是为了送你出去。",
     "save_button": "保存信件",
-    "finish_button": "结束"
+    "finish_button": "结束",
+    "save_success": "你未寄出的信件已安全地修复在你私人的本地日记中。表达是一种深刻的释放。"
   },
   "history": {
     "title": "往期信件",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你确定要删除这封未寄出的信吗？"
   },
   "app_description": "安全私密地释放你的想法",
   "more": "更多的",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长"
 }

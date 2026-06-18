@@ -4,11 +4,11 @@
   "intro": {
     "title": "Przewidywanie kontra rzeczywistość",
     "description": "Porównaj swoje niepokojowe przewidywania z tym, co faktycznie się dzieje, aby zbudować bardziej zrównoważoną perspektywę.",
-    "benefits": [
-      "Zidentyfikuj wzorce lękowe",
-      "Zbieranie dowodów przeciwko obawom",
-      "Ogranicz nadmierne myślenie o przyszłości"
-    ],
+    "benefits": {
+      "0": "Zidentyfikuj wzorce lękowe",
+      "1": "Zbieranie dowodów przeciwko obawom",
+      "2": "Ogranicz nadmierne myślenie o przyszłości"
+    },
     "duration": "4-5 minut",
     "view_past": "Zobacz przeszłe refleksje"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Odbicia jeszcze nie zapisane.",
     "prediction_label": "Przewidywanie",
     "reality_label": "Rzeczywistość",
-    "reflection_label": "Refleksja:"
+    "reflection_label": "Refleksja:",
+    "past_logs": "Refleksje z przeszłości",
+    "reframe_label": "Nowe, zrównoważone spojrzenie:"
   },
   "complete": {
     "title": "Aktywność zakończona",
     "saved_title": "Zachowano odbicie",
     "message": "Patrząc na fakty, pomagasz umysłowi nauczyć się, że często jest łatwiej sobie z tym poradzić, niż się wydaje."
   },
-  "emotions": [
-    "Niespokojny",
-    "Nerwowy",
-    "Przestraszony",
-    "Przytłoczony",
-    "Niespokojny"
-  ],
+  "emotions": {
+    "0": "Niespokojny",
+    "1": "Nerwowy",
+    "2": "Przestraszony",
+    "3": "Przytłoczony",
+    "4": "Niespokojny"
+  },
   "intensity_labels": {
     "not_intense": "Nie jest intensywnie",
     "very_intense": "Bardzo intensywne"
   },
-  "comparison_options": [
-    "Wyszło niemal dokładnie tak, jak się spodziewałem",
-    "Niektóre części były słuszne, ale nie wszystkie",
-    "Było to zupełnie inne niż się spodziewałem",
-    "Było dużo łatwiejsze i lepsze, niż sobie wyobrażałem"
-  ],
+  "comparison_options": {
+    "0": "Wyszło niemal dokładnie tak, jak się spodziewałem",
+    "1": "Niektóre części były słuszne, ale nie wszystkie",
+    "2": "Było to zupełnie inne niż się spodziewałem",
+    "3": "Było dużo łatwiejsze i lepsze, niż sobie wyobrażałem"
+  },
   "screens": {
     "s1": {
       "title": "Pomyśl o niedawnej sytuacji",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jesteś pewien, że chcesz usunąć ten dziennik przewidywań?"
   },
   "app_description": "Prognoza kontra rzeczywistość",
   "more": "Więcej",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

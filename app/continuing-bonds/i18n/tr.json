@@ -31,37 +31,37 @@
   "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
   "save_success": "Korunan bağ yansıması",
   "save_error": "Yansımayı koruyamadı",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Anılar aracılığıyla",
       "prompt": "Varlıklarını hissettiğin bir anıyı paylaşabilir misin?",
       "deeper": "Onlarla ilgili aklınızda kalan bir şey nedir?"
     },
-    {
+    "1": {
       "label": "Söylediklerimde ya da yaptıklarımda",
       "prompt": "Günlük hayatınızda bunların hangi parçasını taşıyorsunuz?",
       "deeper": "Bu bugün hayatında nasıl yanıyor?"
     },
-    {
+    "2": {
       "label": "Günlük hayatımın anlarında",
       "prompt": "Gün içinde ne zaman yakın hissediyorsun?",
       "deeper": "Onlarla ilgili aklınızda kalan bir şey nedir?"
     },
-    {
+    "3": {
       "label": "Hâlâ onlara söylemek istediğim şeyde",
       "prompt": "Hâlâ onlara söylemek istediğin bir şey var mı?",
       "deeper": "Şu anda onların en çok neyi bilmesini istersiniz?"
     },
-    {
+    "4": {
       "label": "Bir his ya da varlıkta",
       "prompt": "Varlıkları senin için nasıl hissediliyor?",
       "deeper": "Bu bugün hayatında nasıl yanıyor?"
     }
-  ],
-  "bond_prompts": [
-    "Bugün onlarla bağlı hissettiğiniz küçük bir yol nedir?",
-    "Onların bir parçasını taşıyan bir şey nedir?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Bugün onlarla bağlı hissettiğiniz küçük bir yol nedir?",
+    "1": "Onların bir parçasını taşıyan bir şey nedir?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Baştan Başla",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bu yansımayı silmek istediğinizden emin misiniz?"
   },
   "app_description": "Devam Eden Tahviller",
   "past_reflections": "Geçmişe Dair Düşünceler",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

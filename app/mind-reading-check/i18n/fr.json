@@ -3,11 +3,11 @@
   "intro": {
     "title": "Vérification de la lecture de pensée",
     "description": "Remettez en question les suppositions que vous faites sur ce que pensent les autres.",
-    "benefits": [
-      "Arrête de supposer le pire",
-      "Identifier les interprétations biaisées",
-      "Construire une communication plus claire"
-    ],
+    "benefits": {
+      "0": "Arrête de supposer le pire",
+      "1": "Identifier les interprétations biaisées",
+      "2": "Construire une communication plus claire"
+    },
     "duration": "3-4 minutes",
     "view_past": "Voir les réflexions passées"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Vérifiez votre croyance",
       "desc": "À quel point croyez-vous maintenant à votre pensée initiale ?",
-      "labels": [
-        "Pas du tout",
-        "Complètement"
-      ]
+      "labels": {
+        "0": "Pas du tout",
+        "1": "Complètement"
+      }
     },
     "step7": {
       "title": "Une vision plus équilibrée",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "La prochaine fois",
       "desc": "Que pouvait-on faire au lieu de supposer ?",
-      "examples": [
-        "Demandez des précisions",
-        "Donne-lui un peu de temps",
-        "Prévenez sans réagir"
-      ],
+      "examples": {
+        "0": "Demandez des précisions",
+        "1": "Donne-lui un peu de temps",
+        "2": "Prévenez sans réagir"
+      },
       "placeholder": "La prochaine fois, je pourrais..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

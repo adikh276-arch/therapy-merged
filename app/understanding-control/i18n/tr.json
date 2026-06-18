@@ -1,58 +1,58 @@
 {
   "app_title": "Kontrolü Anlamak",
   "app_subtitle": "Hayatta Kalma Stratejisi • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Neden Kontrol Bu Kadar Güçlü Hissettirebilir",
-      "paragraphs": [
-        "Yeme zorlukları yaşayan birçok kişi için, kontrol güvenliği yaratmanın bir yolu gibi hissedilebilir.",
-        "Hayat öngörülemez veya duygusal olarak yoğun geldiğinde, yiyecek, kilo veya rutinlere odaklanmak bir yapı ve kesinlik duygusu getirebilir.",
-        "Bu irade gücü ya da disiplinle ilgili değil. İşler belirsiz geldiğinde kendini dengelemeye çalışmakla ilgili.",
-        "Bu şekilde kontrol, geçici olsa bile olsa, kendinizi yere bastıran bir başa çıkma stratejisi haline gelir."
-      ],
+      "paragraphs": {
+        "0": "Yeme zorlukları yaşayan birçok kişi için, kontrol güvenliği yaratmanın bir yolu gibi hissedilebilir.",
+        "1": "Hayat öngörülemez veya duygusal olarak yoğun geldiğinde, yiyecek, kilo veya rutinlere odaklanmak bir yapı ve kesinlik duygusu getirebilir.",
+        "2": "Bu irade gücü ya da disiplinle ilgili değil. İşler belirsiz geldiğinde kendini dengelemeye çalışmakla ilgili.",
+        "3": "Bu şekilde kontrol, geçici olsa bile olsa, kendinizi yere bastıran bir başa çıkma stratejisi haline gelir."
+      },
       "microcopy": "Bu şekilde hisseden yalnız değilsin.",
       "cta": "Devam et"
     },
-    {
+    "1": {
       "headline": "Kontrolün Farklı Şekilleri",
       "intro": "Kontrol ihtiyacı herkes için aynı görünmese de, genellikle aşağıdaki kalıplarda ortaya çıkar:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Sıkı veya esnek olmayan gıda kuralları"
         },
-        {
+        "1": {
           "text": "Rutinleri tam olarak takip etmek gerekiyor"
         },
-        {
+        "2": {
           "text": "Planlar değiştiğinde kaygı"
         },
-        {
+        "3": {
           "text": "Öz değeri şekil/kilo ile ilişkilendirmek"
         }
-      ],
+      },
       "outro": "Zamanla, bunlar sertleşebilir, zihinsel alan kaplayabilir ve uyum sağlamayı zorlaştırabilir.",
       "microcopy": "Kontrol olarak başlayan şey yavaş yavaş kontrolleyici gibi hissettirmeye başlayabilir.",
       "cta": "Devam et"
     },
-    {
+    "2": {
       "headline": "Kontrolün Altında",
       "intro": "Kontrol etme isteği genellikle daha derin köklere sahiptir. Bağlantılı olabilir:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Duygusal olarak su basmış hissetmek"
         },
-        {
+        "1": {
           "text": "Öngörülebilirlik istemek"
         },
-        {
+        "2": {
           "text": "İstikrar ve güvenlik ihtiyacı"
         }
-      ],
+      },
       "insight": "Sorun kontrol değil — zihninizin başa çıkmak için bulduğu stratejidir. Zaman ve destekle, güvende hissetmenin başka yolları da mümkün.",
       "microcopy": "Anlama güçlü bir ilk adımdır.",
       "cta": "Okumayı Bitir"
     }
-  ],
+  },
   "complete": {
     "title": "Farkındalık Kazanıldı",
     "message": "Kontrolün köklerini anlamak, güvende ve istikrarlı hissetmenin yeni yollarını bulmak için cesur bir ilk adımdır.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

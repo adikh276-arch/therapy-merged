@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Vaše každodenní rutina pro tělo",
   "body_subtitle": "Která z těchto věcí mi v poslední době přišla trochu divná? (Vyberte kterékoli, které se týkají)",
   "continue": "Pokračovat",
-  "body_options": [
-    "Špatně spím",
-    "Můj spánkový režim je nepravidelný",
-    "Někdy vynechávám jídlo",
-    "Když jsem ve stresu, jím víc než obvykle",
-    "Moc se nehýbu ani necvičím",
-    "Ven moc nechodím",
-    "Moje rutina osobní péče se změnila",
-    "Můj denní režim je stabilní"
-  ],
+  "body_options": {
+    "0": "Špatně spím",
+    "1": "Můj spánkový režim je nepravidelný",
+    "2": "Někdy vynechávám jídlo",
+    "3": "Když jsem ve stresu, jím víc než obvykle",
+    "4": "Moc se nehýbu ani necvičím",
+    "5": "Ven moc nechodím",
+    "6": "Moje rutina osobní péče se změnila",
+    "7": "Můj denní režim je stabilní"
+  },
   "mind_title": "🧠 Vaše myšlenkové vzorce",
-  "mind_options": [
-    "Pořád to přemýšlím moc",
-    "Často si představuji nejhorší možný scénář",
-    "Jsem na sebe přísný",
-    "Cítím se provinile za věci, které jsem udělal nebo neudělal",
-    "Stále se bojím",
-    "Těžko se mi uvolní",
-    "Moje myšlenky jsou zvládnutelné"
-  ],
+  "mind_options": {
+    "0": "Pořád to přemýšlím moc",
+    "1": "Často si představuji nejhorší možný scénář",
+    "2": "Jsem na sebe přísný",
+    "3": "Cítím se provinile za věci, které jsem udělal nebo neudělal",
+    "4": "Stále se bojím",
+    "5": "Těžko se mi uvolní",
+    "6": "Moje myšlenky jsou zvládnutelné"
+  },
   "coping_title": "🌊 Jak reagujete na stres",
-  "coping_options": [
-    "Vyhýbám se úkolům, když jsem ve stresu",
-    "Hodně scrolluji po telefonu, abych se rozptýlil",
-    "Trávím čas sama, abych to zvládla",
-    "Když jsem ve stresu, vrhám se do práce",
-    "Mluvím s někým o tom, jak se cítím",
-    "Dělám dechová cvičení, abych se uklidnil",
-    "Dívám se na televizi nebo hraju hry, abych se rozptýlil",
-    "Nevím, jak reaguji na stres"
-  ],
+  "coping_options": {
+    "0": "Vyhýbám se úkolům, když jsem ve stresu",
+    "1": "Hodně scrolluji po telefonu, abych se rozptýlil",
+    "2": "Trávím čas sama, abych to zvládla",
+    "3": "Když jsem ve stresu, vrhám se do práce",
+    "4": "Mluvím s někým o tom, jak se cítím",
+    "5": "Dělám dechová cvičení, abych se uklidnil",
+    "6": "Dívám se na televizi nebo hraju hry, abych se rozptýlil",
+    "7": "Nevím, jak reaguji na stres"
+  },
   "reflection_title": "✍️ Reflexe",
   "question_stress": "Který zvyk vám později zvyšuje stres?",
   "question_calm": "Který z těchto zvyků by vám mohl pomoci cítit se klidněji?",
@@ -44,13 +44,13 @@
   "insight_description": "Klepněte níže a podívejte se na jednoduché návyky, které mohou pomoci snížit stres.",
   "show_suggestions": "Tipy na pořady",
   "commit": "Commit",
-  "suggestions": [
-    "Zkus dnes večer jít spát trochu dřív",
-    "Dnes vyjděte ven na čerstvý vzduch",
-    "Dej si pauzu od scrollování na chvíli",
-    "Mluv k sobě laskavě",
-    "Dokonči úkol, který jsi odkládal"
-  ],
+  "suggestions": {
+    "0": "Zkus dnes večer jít spát trochu dřív",
+    "1": "Dnes vyjděte ven na čerstvý vzduch",
+    "2": "Dej si pauzu od scrollování na chvíli",
+    "3": "Mluv k sobě laskavě",
+    "4": "Dokonči úkol, který jsi odkládal"
+  },
   "final_text": "Na drobných změnách záleží. Konzistence vytváří klid.",
   "finish": "Konec",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "dlouhý",
+  "mind_subtitle": "Jaké myšlenkové návyky si nejčastěji všímáte, že se vracejí? Vyberte vše, co platí.",
+  "coping_subtitle": "Jak obvykle reagujete, když nastane přetížení? Vyberte vše, co platí."
 }

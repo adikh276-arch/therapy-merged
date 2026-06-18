@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "استنشق...",
+  "hold_label": "انتظر...",
+  "exhale_label": "زفير...",
+  "start": "جاهز",
+  "stop": "توقف",
+  "begin_breathing": "ابدأ التنفس",
+  "lang": "طويل"
 }

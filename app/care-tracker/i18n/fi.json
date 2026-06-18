@@ -33,13 +33,16 @@
     "intro": {
       "title": "Itsehoitoseuranta",
       "description": "Seuraa päivittäisiä itsehoitotapojasi ja katso, miten ne vaikuttavat kokonaisvaltaiseen hyvinvointiisi. Johdonmukaisuus on avain terveempään mieleen.",
-      "benefits": [
-        "Kirjaa päivittäiset itsehoitoaktiviteetit",
-        "Seuraa aikaa itsellesi",
-        "Seuraa mielialaasi",
-        "Katso historia ja edistys"
-      ],
-      "duration": "2–3 minuuttia"
+      "benefits": {
+        "0": "Kirjaa päivittäiset itsehoitoaktiviteetit",
+        "1": "Seuraa aikaa itsellesi",
+        "2": "Seuraa mielialaasi",
+        "3": "Katso historia ja edistys"
+      },
+      "duration": "2–3 minuuttia",
+      "benefit1": "Kirjaa päivittäiset fyysisen ja henkisen hyvinvoinnin toimet",
+      "benefit2": "Huomaa haasteet, jotka estävät sinua lepäämästä",
+      "benefit3": "Rakenna tietoisuutta positiivisen vahvistamisen avulla"
     },
     "checkin": {
       "title": "Itsehoidon tarkistus 🌿",
@@ -135,20 +138,20 @@
       "Stressed": "Stressaantunut",
       "Tired": "Väsynyt"
     },
-    "positiveStatements": [
-      "Tulit tänään itsesi luo. Se on voimakasta. 🌿",
-      "Itsestä huolehtiminen ei ole itsekästä — se on välttämätöntä. Hyvin tehty. 💚",
-      "Jokainen pieni huolenpidon teko vahvistaa sinua. 🌱",
-      "Panostit itseesi tänään. Sillä on väliä. ✨",
-      "Sinusta huolehtiminen on paras asia, jonka teit tänään. 🍃"
-    ],
-    "supportiveStatements": [
-      "Se on okei. Huominen on uusi alku. Ole lempeä itsellesi. 🤍",
-      "Ei jokainen päivä ole täydellinen, ja se on täysin ok. 🕊️",
-      "Teet parhaasi. Se riittää aina. 💛",
-      "Lepo on myös eräänlainen itsestä huolehtimisen muoto. Anna itsellesi armoa. 🌸",
-      "Tämän päivän tunnustaminen vaatii rohkeutta. Olet jo kasvamassa. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Tulit tänään itsesi luo. Se on voimakasta. 🌿",
+      "1": "Itsestä huolehtiminen ei ole itsekästä — se on välttämätöntä. Hyvin tehty. 💚",
+      "2": "Jokainen pieni huolenpidon teko vahvistaa sinua. 🌱",
+      "3": "Panostit itseesi tänään. Sillä on väliä. ✨",
+      "4": "Sinusta huolehtiminen on paras asia, jonka teit tänään. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Se on okei. Huominen on uusi alku. Ole lempeä itsellesi. 🤍",
+      "1": "Ei jokainen päivä ole täydellinen, ja se on täysin ok. 🕊️",
+      "2": "Teet parhaasi. Se riittää aina. 💛",
+      "3": "Lepo on myös eräänlainen itsestä huolehtimisen muoto. Anna itsellesi armoa. 🌸",
+      "4": "Tämän päivän tunnustaminen vaatii rohkeutta. Olet jo kasvamassa. 🌷"
+    }
   },
   "app_title": "Itsehoidon seuranta",
   "app_description": "Seuraa päivittäisiä itsestäsi huolehtimiseen liittyviä tapojasi ja katso, miten ne vaikuttavat yleiseen hyvinvointiisi. Johdonmukaisuus on avain terveempään mieleen.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

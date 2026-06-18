@@ -11,24 +11,24 @@
     "s2": {
       "tag": "kitaran",
       "title": "Gelung dijelaskan",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Kemarahan muncul"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Malu: \"Saya buruk\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Malu terkubur"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Kemarahan meletus lagi"
         }
-      ],
+      },
       "button": "Saya nampak ia"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Gangguan",
       "title": "Mengganggu kitaran",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Namakan sumber",
           "desc": "Tanya: 'Apa yang saya rasa sebenarnya?' Terluka? Takut? Tidak kelihatan? Menamakannya melemahkannya."
         },
-        {
+        "1": {
           "title": "Jeda belas kasihan",
           "desc": "Tangan di dada. Katakan: 'Ini sukar. Saya manusia. Saya boleh mengharungi ini.'"
         },
-        {
+        "2": {
           "title": "Baiki dengan rahmat",
           "desc": "Menebus kesalahan jika perlu — tetapi jangan berputar. Anda bukan detik terburuk anda."
         }
-      ],
+      },
       "notice": "Menyedari kitaran sudah menjadi langkah pertama. Anda sedang melakukan kerja.",
       "button": "Lengkapkan Aktiviti"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

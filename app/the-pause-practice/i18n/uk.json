@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Що вас тригерить?",
     "desc": "Обери ситуацію, яка тобі близька",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Хтось мене перебиває.",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Все йде не за планом",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Я почуваюся ігнорованою",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Я почуваюся пригніченим",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Напишіть свої...",
     "button": "Практика паузи →"
   },
   "hold": {
     "title": "Затримати паузу ⏸️",
     "instructions": "Тримайте коло 5 секунд",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Натисніть і затримайте..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Тримайся..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Ти це робиш..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Майже на місці..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Це пауза",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "other",
+  "lang": "lang"
 }

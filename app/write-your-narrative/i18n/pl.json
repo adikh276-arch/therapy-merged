@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Zróbmy to krok po kroku. 💛",
-    "description": [
-      "Nie musisz dziś opowiadać całej swojej historii. Wystarczy mała część.",
-      "Jesteś teraz bezpieczna. To ty kontrolujesz to, co piszesz — i tego, czego nie robisz."
-    ],
+    "description": {
+      "0": "Nie musisz dziś opowiadać całej swojej historii. Wystarczy mała część.",
+      "1": "Jesteś teraz bezpieczna. To ty kontrolujesz to, co piszesz — i tego, czego nie robisz."
+    },
     "breath": "Weź powolny oddech, zanim zaczniemy.",
     "button_ready": "Jestem gotowy",
     "button_history": "Historie z przeszłości",
@@ -21,20 +21,20 @@
     "title": "Pisz to, co czujesz się w porządku ✨",
     "subtitle": "Twoje słowa, twoje tempo",
     "prompt_label": "Potrzebujesz punktu wyjścia?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Najbardziej pamiętam...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Wtedy czułem...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Od tamtej pory zauważyłem...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Zacznij pisać tutaj...",
     "notice": "Nie ma na to właściwego sposobu. Nawet kilka zdań wystarczy.",
     "button": "Zakończ pisanie"
@@ -43,10 +43,10 @@
     "title": "Zrobiłeś coś ważnego.",
     "subtitle": "Dziękuję, że jesteś dla siebie.",
     "settle_title": "Zatrzymajmy się na chwilę",
-    "steps": [
-      "Rozejrzyj się i wymień 3 rzeczy, które możesz zobaczyć.",
-      "Weź powolny oddech... i wychodzi."
-    ],
+    "steps": {
+      "0": "Rozejrzyj się i wymień 3 rzeczy, które możesz zobaczyć.",
+      "1": "Weź powolny oddech... i wychodzi."
+    },
     "feeling_label": "Obecnie czuję:",
     "feeling_placeholder": "Słowo lub dwa...",
     "quote": "\"Nie musisz nosić wszystkiego naraz. Możesz wrócić, kiedy poczujesz się gotowy.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

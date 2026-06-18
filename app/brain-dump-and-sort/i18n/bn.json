@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "আরেকটা ভাবনা টাইপ করুন...",
+  "resume": "পুনরায় শুরু করুন",
+  "pause": "বিরতি",
+  "growth_reminder": "এমনকি ছোট ছোট পদক্ষেপও মানসিক ওজন কমে। তুমি ডন করো",
+  "lang": "দীর্ঘ",
+  "complete_message": "তুমি",
+  "welcome_sub": "স্বাগতম",
+  "clearing_sub": "মানসিক ক্লিয়ারিং",
+  "sorting_sub": "বাছাই করা",
+  "action_sub": "অ্যাকশন স্টেপস",
+  "reflect_sub": "প্রতিফলন",
+  "intro": {
+    "viewHistory": "ইতিহাস দেখুন"
+  }
 }

@@ -3,11 +3,11 @@
   "intro": {
     "title": "Ajatustenlukutarkistus",
     "description": "Kyseenalaista ne oletukset, joita teet siitä, mitä muut ajattelevat.",
-    "benefits": [
-      "Lopeta pahimman olettaminen",
-      "Tunnista puolueelliset tulkinnat",
-      "Rakenna selkeämpää viestintää"
-    ],
+    "benefits": {
+      "0": "Lopeta pahimman olettaminen",
+      "1": "Tunnista puolueelliset tulkinnat",
+      "2": "Rakenna selkeämpää viestintää"
+    },
     "duration": "3-4 minuuttia",
     "view_past": "Katso menneitä pohdintoja"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Tarkista uskomuksesi",
       "desc": "Kuinka vahvasti uskot alkuperäiseen ajatukseesi nyt?",
-      "labels": [
-        "Ei todellakaan",
-        "Täysin"
-      ]
+      "labels": {
+        "0": "Ei todellakaan",
+        "1": "Täysin"
+      }
     },
     "step7": {
       "title": "Tasapainoisempi näkemys",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Seuraavalla kerralla",
       "desc": "Mitä voisit tehdä olettamisen sijaan?",
-      "examples": [
-        "Pyydä tarkennusta",
-        "Anna sille aikaa",
-        "Ilmoitus ilman reagointia"
-      ],
+      "examples": {
+        "0": "Pyydä tarkennusta",
+        "1": "Anna sille aikaa",
+        "2": "Ilmoitus ilman reagointia"
+      },
       "placeholder": "Seuraavalla kerralla voisin..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

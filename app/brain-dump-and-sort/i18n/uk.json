@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Напишіть ще одну думку...",
+  "resume": "Резюме",
+  "pause": "Пауза",
+  "growth_reminder": "Навіть маленькі кроки зменшують ментальне навантаження. Ти не можеш",
+  "lang": "довгий",
+  "complete_message": "Ти",
+  "welcome_sub": "Ласкаво просимо",
+  "clearing_sub": "Ментальне очищення",
+  "sorting_sub": "Сортування",
+  "action_sub": "Кроки дій",
+  "reflect_sub": "Рефлексія",
+  "intro": {
+    "viewHistory": "Переглянути історію"
+  }
 }

@@ -1,14 +1,14 @@
 {
   "app_title": "Rehat belas kasihan",
-  "screen_titles": [
-    "Daftar masuk",
-    "Kenal pasti",
-    "Pernafasan",
-    "Kebaikan",
-    "Peralihan",
-    "Renungkan",
-    "Lengkap"
-  ],
+  "screen_titles": {
+    "0": "Daftar masuk",
+    "1": "Kenal pasti",
+    "2": "Pernafasan",
+    "3": "Kebaikan",
+    "4": "Peralihan",
+    "5": "Renungkan",
+    "6": "Lengkap"
+  },
   "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
   "save_success": "Refleksi dipelihara",
   "save_error": "Gagal mengekalkan refleksi",
@@ -25,14 +25,14 @@
   "continue_button": "Teruskan",
   "nameit_title": "Masukkan ke dalam kata-kata",
   "nameit_subtitle": "Sekarang, saya berasa _______",
-  "emotions_list": [
-    "cemas",
-    "bersalah",
-    "terharu",
-    "tegang",
-    "letih",
-    "sedih"
-  ],
+  "emotions_list": {
+    "0": "cemas",
+    "1": "bersalah",
+    "2": "terharu",
+    "3": "tegang",
+    "4": "letih",
+    "5": "sedih"
+  },
   "label_custom_emotion": "atau taip sendiri",
   "placeholder_emotion": "1–2 patah perkataan",
   "nameit_footer": "Mudah sudah cukup.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "intro": {
+    "view_past": "Lihat Sesi Lepas"
+  },
+  "history": {
+    "title": "Sejarah Belas Kasihan Diri",
+    "no_entries": "Tiada log pecah masa lalu ditemui."
+  },
+  "loading": "Memuatkan Sejarah..."
 }

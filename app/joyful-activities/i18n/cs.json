@@ -14,7 +14,8 @@
     "input1_placeholder": "Například procházka v parku",
     "input2_label": "Když to dělám, obvykle se cítím...",
     "input2_placeholder": "např. klidný a přítomný",
-    "button": "Pokračovat"
+    "button": "Pokračovat",
+    "stage": "Fáze 1: Přivolání"
   },
   "meaning": {
     "title": "Co na tom dává smysl?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "např. připojený a uzemněný",
     "input3_label": "Připomíná mi to...",
     "input3_placeholder": "Například léta jako dítě",
-    "button": "Zachraňte můj odraz"
+    "button": "Zachraňte můj odraz",
+    "stage": "Fáze 2: Význam"
   },
   "smallStep": {
     "title": "Malý krok vpřed",
@@ -34,7 +36,8 @@
     "input1_label": "Jeden malý krok, který bych mohl tento týden udělat, je...",
     "input1_placeholder": "Například jděte na desetiminutovou procházku",
     "button_save": "Uložit",
-    "button_home": "Jít domů"
+    "button_home": "Jít domů",
+    "stage": "Fáze 3: Akce"
   },
   "affirmation": {
     "title": "Udělal jsi krásný krok",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

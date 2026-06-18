@@ -3,11 +3,11 @@
   "intro": {
     "title": "Verificação de Leitura da Mente",
     "description": "Questione as suposições que você faz sobre o que os outros estão pensando.",
-    "benefits": [
-      "Pare de assumir o pior",
-      "Identificar interpretações tendenciosas",
-      "Construa uma comunicação mais clara"
-    ],
+    "benefits": {
+      "0": "Pare de assumir o pior",
+      "1": "Identificar interpretações tendenciosas",
+      "2": "Construa uma comunicação mais clara"
+    },
     "duration": "3-4 minutos",
     "view_past": "Veja reflexões passadas"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Verifique sua crença",
       "desc": "Quão fortemente você acredita no seu pensamento original agora?",
-      "labels": [
-        "De jeito nenhum",
-        "Completamente"
-      ]
+      "labels": {
+        "0": "De jeito nenhum",
+        "1": "Completamente"
+      }
     },
     "step7": {
       "title": "Uma visão mais equilibrada",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Na próxima vez",
       "desc": "O que você poderia fazer em vez de assumir?",
-      "examples": [
-        "Peça esclarecimentos",
-        "Dê um tempo",
-        "Avise sem reagir"
-      ],
+      "examples": {
+        "0": "Peça esclarecimentos",
+        "1": "Dê um tempo",
+        "2": "Avise sem reagir"
+      },
       "placeholder": "Da próxima vez, eu poderia..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

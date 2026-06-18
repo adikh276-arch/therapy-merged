@@ -1,58 +1,58 @@
 {
   "app_title": "Pag-unawa sa Kontrol",
   "app_subtitle": "Diskarte sa Kaligtasan • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Bakit Napakalakas ng Kontrol",
-      "paragraphs": [
-        "Para sa maraming mga tao na nakakaranas ng mga kahirapan sa pagkain, ang pagkontrol ay maaaring pakiramdam tulad ng isang paraan upang lumikha ng kaligtasan.",
-        "Kapag ang buhay ay nararamdaman na hindi mahuhulaan o emosyonal na matindi, ang pagtuon sa pagkain, timbang, o mga gawain ay maaaring magdala ng isang pakiramdam ng istraktura at katiyakan.",
-        "Hindi ito tungkol sa lakas ng kalooban o disiplina. Ito ay tungkol sa pagsisikap na patatagin ang iyong sarili kapag ang mga bagay ay hindi sigurado.",
-        "Sa ganitong paraan, ang pagkontrol ay nagiging isang diskarte sa pagkaya - isang bagay na tumutulong sa iyo na makaramdam ng grounded, kahit na pansamantala lamang."
-      ],
+      "paragraphs": {
+        "0": "Para sa maraming mga tao na nakakaranas ng mga kahirapan sa pagkain, ang pagkontrol ay maaaring pakiramdam tulad ng isang paraan upang lumikha ng kaligtasan.",
+        "1": "Kapag ang buhay ay nararamdaman na hindi mahuhulaan o emosyonal na matindi, ang pagtuon sa pagkain, timbang, o mga gawain ay maaaring magdala ng isang pakiramdam ng istraktura at katiyakan.",
+        "2": "Hindi ito tungkol sa lakas ng kalooban o disiplina. Ito ay tungkol sa pagsisikap na patatagin ang iyong sarili kapag ang mga bagay ay hindi sigurado.",
+        "3": "Sa ganitong paraan, ang pagkontrol ay nagiging isang diskarte sa pagkaya - isang bagay na tumutulong sa iyo na makaramdam ng grounded, kahit na pansamantala lamang."
+      },
       "microcopy": "Hindi ka nag-iisa sa pakiramdam na ito.",
       "cta": "Magpatuloy"
     },
-    {
+    "1": {
       "headline": "Iba't ibang paraan ng paglitaw ng kontrol",
       "intro": "Ang pangangailangan para sa kontrol ay hindi mukhang pareho para sa lahat, ngunit madalas itong lumilitaw sa mga pattern tulad ng:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Mahigpit o hindi nababaluktot na mga patakaran sa pagkain"
         },
-        {
+        "1": {
           "text": "Kailangang sundin nang eksakto ang mga gawain"
         },
-        {
+        "2": {
           "text": "Pagkabalisa kapag nagbabago ang mga plano"
         },
-        {
+        "3": {
           "text": "Pag-uugnay ng pagpapahalaga sa sarili sa hugis / timbang"
         }
-      ],
+      },
       "outro": "Sa paglipas ng panahon, ang mga ito ay maaaring maging matigas, pagkuha ng puwang sa pag-iisip at ginagawang mas mahirap na umangkop.",
       "microcopy": "Ang nagsisimula bilang kontrol ay maaaring dahan-dahang magsimulang makaramdam ng pagkontrol.",
       "cta": "Magpatuloy"
     },
-    {
+    "2": {
       "headline": "Sa ilalim ng kontrol",
       "intro": "Ang pagnanais na kontrolin ay kadalasang may mas malalim na ugat. Maaari itong maiugnay sa:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Pakiramdam emosyonal na baha"
         },
-        {
+        "1": {
           "text": "Pagnanais ng kakayahang mahulaan"
         },
-        {
+        "2": {
           "text": "Pangangailangan para sa katatagan at kaligtasan"
         }
-      ],
+      },
       "insight": "Ang kontrol ay hindi ang problema - ito ang diskarte na natagpuan ng iyong isip upang makayanan. Sa oras at suporta, posible ang iba pang mga paraan upang makaramdam ng kaligtasan.",
       "microcopy": "Ang pag-unawa ay isang mabisang unang hakbang.",
       "cta": "Tapusin ang Pagbabasa"
     }
-  ],
+  },
   "complete": {
     "title": "Nakuha ang Kamalayan",
     "message": "Ang pag-unawa sa mga ugat ng kontrol ay isang matapang na unang hakbang patungo sa paghahanap ng mga bagong paraan upang makaramdam ng ligtas at matatag.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

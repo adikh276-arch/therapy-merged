@@ -23,38 +23,38 @@
   "try_again": "Réessayez",
   "complete_title": "Maîtrise des connaissances",
   "complete_message": "Tu as marqué {{score}}/{{total}} ! Vous avez acquis un précieux aperçu des vérités et mythes de la colère.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "La colère, c’est mauvais. Si tu ressens de la colère, c’est qu’il y a un problème chez toi.",
       "answer": "myth",
       "realFact": "La colère est une émotion normale et saine. Tout le monde le ressent. Ce n’est pas un signe que quelque chose ne va pas chez vous — c’est un signal que quelque chose compte pour vous. Ce qui compte, c’est la façon dont vous y réagissez, pas si vous le ressentez.",
       "example": "Un vétéran ressent de la colère lorsque ses limites sont franchies. Cette colère est légitime — elle leur dit quelque chose d’important."
     },
-    {
+    "1": {
       "statement": "La colère peut être un signal que vos limites ont été franchies.",
       "answer": "fact",
       "realFact": "La colère, c’est de l’information. Quand on le ressent, il vaut la peine de se demander : quelle limite a été franchie ? Quel besoin n’est pas comblé ? Écouter sa colère — sans agir sur un coup de tête — vous aide à mieux vous comprendre et à agir de manière significative.",
       "example": "Tu te sens en colère quand un collègue s’attribue le mérite de ton travail. Cette colère pointe vers un besoin de reconnaissance et d’équité."
     },
-    {
+    "2": {
       "statement": "Si tu es en colère, tu dois l’exprimer en criant ou en frappant des choses.",
       "answer": "myth",
       "realFact": "Une expression saine de la colère ne signifie pas de la suppression OU une explosion. Cela signifie reconnaître ses sentiments et les exprimer de manière constructive — par des mots, un journal inodieux, de l’activité physique ou des exutoires créatifs. Tu peux honorer ta colère sans destruction.",
       "example": "Au lieu de frapper un mur, vous allez courir ou écrire exactement ce qui vous dérange. La colère se propage en toi sans causer de mal."
     },
-    {
+    "3": {
       "statement": "Apprendre à gérer la colère est un signe de force émotionnelle.",
       "answer": "fact",
       "realFact": "Les personnes qui travaillent leur gestion de la colère ne sont pas faibles — elles font l’un des plus courageux travaux émotionnels qui existent. Choisir de faire une pause, de réfléchir et de répondre de manière réfléchie demande bien plus de force que de réagir sur un coup de cœur.",
       "example": "Prendre une profonde inspiration et dire « J’ai besoin d’une minute avant de répondre » dans un moment de tension est un acte puissant de maîtrise de soi."
     },
-    {
+    "4": {
       "statement": "Si quelqu’un vous met en colère, c’est de sa faute. Tu n’as aucune responsabilité.",
       "answer": "myth",
       "realFact": "Les autres peuvent déclencher votre colère, mais la façon dont vous réagissez est votre responsabilité — et votre pouvoir. Prendre la responsabilité de ses réactions ne signifie pas que l’autre personne avait raison. Cela signifie que vous choisissez comment vous présenter. C’est de l’autonomisation, pas de la faute.",
       "example": "Quelqu’un te coupe la route dans la circulation. Tu ressens de la colère — c’est normal. Mais vous choisissez de vous enflammer ou de respirer. Le choix t’appartient."
     }
-  ],
+  },
   "common": {
     "get_started": "Commencer",
     "start_over": "Recommencer",
@@ -106,5 +106,7 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long",
+  "results_message": "Toi"
 }

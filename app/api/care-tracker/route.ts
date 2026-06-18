@@ -17,6 +17,9 @@ async function ensureTableExists() {
       PRIMARY KEY (user_id, date)
     )
   `;
+
+    // Auto-backfill any missing columns for legacy migrations
+    await db`ALTER TABLE selfcare_entries ADD COLUMN IF NOT EXISTS user_id VARCHAR(255`.catch(() => {});
 }
 
 export async function GET() {

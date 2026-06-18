@@ -3,11 +3,11 @@
   "intro": {
     "title": "Treffen Sie Ihren Geist",
     "description": "Lerne, dich von überwältigenden Gedanken zu distanzieren, indem du deiner inneren Stimme einen Namen gibst.",
-    "benefits": [
-      "Schaffen Sie mentale Distanz",
-      "Reduziere die Kraft harter Gedanken",
-      "Beachte Gedanken, ohne sie selbst zu sein"
-    ],
+    "benefits": {
+      "0": "Schaffen Sie mentale Distanz",
+      "1": "Reduziere die Kraft harter Gedanken",
+      "2": "Beachte Gedanken, ohne sie selbst zu sein"
+    },
     "duration": "2-3 Minuten",
     "view_past": "Vergangene Einträge anzeigen"
   },
@@ -45,15 +45,15 @@
       "title": "Schaffen Sie etwas Abstand",
       "desc": "Gib deinem Geist einen Namen, um dich von diesen Gedanken zu lösen.",
       "placeholder": "Oder tipp deine eigene...",
-      "examples": [
-        "Der Kritiker",
-        "Überdenker",
-        "Worry FM",
-        "Die Überdenkmaschine",
-        "Der innere Kritiker",
-        "Der Was-wäre-wenn-Generator",
-        "Drama-Regisseur"
-      ]
+      "examples": {
+        "0": "Der Kritiker",
+        "1": "Überdenker",
+        "2": "Worry FM",
+        "3": "Die Überdenkmaschine",
+        "4": "Der innere Kritiker",
+        "5": "Der Was-wäre-wenn-Generator",
+        "6": "Drama-Regisseur"
+      }
     },
     "practice": {
       "title": "Probier diese Schicht aus",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Was ist dir aufgefallen?",
       "desc": "Wie fühlte sich der Gedanke an, nachdem ich ihm einen Namen gegeben hatte?",
-      "options": [
-        "Der Gedanke fühlte sich etwas weniger intensiv an als zuvor",
-        "Ich hatte das Gefühl, von dem Gedanken etwas Abstand zu haben",
-        "Es fühlte sich immer noch genauso stark an wie zuvor",
-        "Ich weiß nicht, was sich geändert hat, falls überhaupt etwas"
-      ],
+      "options": {
+        "0": "Der Gedanke fühlte sich etwas weniger intensiv an als zuvor",
+        "1": "Ich hatte das Gefühl, von dem Gedanken etwas Abstand zu haben",
+        "2": "Es fühlte sich immer noch genauso stark an wie zuvor",
+        "3": "Ich weiß nicht, was sich geändert hat, falls überhaupt etwas"
+      },
       "button": "Vollständige Reflexion"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

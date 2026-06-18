@@ -1,58 +1,58 @@
 {
   "app_title": "Förståelse för kontroll",
   "app_subtitle": "Överlevnadsstrategi • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Varför kontroll kan kännas så kraftfull",
-      "paragraphs": [
-        "För många som har ätsvårigheter kan kontroll kännas som ett sätt att skapa trygghet.",
-        "När livet känns oförutsägbart eller känslomässigt intensivt kan fokus på mat, vikt eller rutiner ge en känsla av struktur och säkerhet.",
-        "Det här handlar inte om viljestyrka eller disciplin. Det handlar om att försöka stabilisera sig när saker känns osäkra.",
-        "På så sätt blir kontroll en copingstrategi – något som hjälper dig att känna dig jordad, även om det bara är tillfälligt."
-      ],
+      "paragraphs": {
+        "0": "För många som har ätsvårigheter kan kontroll kännas som ett sätt att skapa trygghet.",
+        "1": "När livet känns oförutsägbart eller känslomässigt intensivt kan fokus på mat, vikt eller rutiner ge en känsla av struktur och säkerhet.",
+        "2": "Det här handlar inte om viljestyrka eller disciplin. Det handlar om att försöka stabilisera sig när saker känns osäkra.",
+        "3": "På så sätt blir kontroll en copingstrategi – något som hjälper dig att känna dig jordad, även om det bara är tillfälligt."
+      },
       "microcopy": "Du är inte ensam om att känna så här.",
       "cta": "Fortsätt"
     },
-    {
+    "1": {
       "headline": "Olika sätt som kontroll dyker upp på",
       "intro": "Behovet av kontroll ser inte likadant ut för alla, men det visar sig ofta i mönster som:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Strikta eller oflexibla matregler"
         },
-        {
+        "1": {
           "text": "Behöver följa rutiner exakt"
         },
-        {
+        "2": {
           "text": "Ångest när planer ändras"
         },
-        {
+        "3": {
           "text": "Att koppla självvärde till form/vikt"
         }
-      ],
+      },
       "outro": "Med tiden kan dessa bli stela, ta upp mental plats och göra det svårare att anpassa sig.",
       "microcopy": "Det som börjar som kontroll kan långsamt börja kännas kontrollerande.",
       "cta": "Fortsätt"
     },
-    {
+    "2": {
       "headline": "Under kontrollen",
       "intro": "Kontrollbehovet har ofta djupare rötter. Den kan kopplas till:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Känner sig känslomässigt överväldigad"
         },
-        {
+        "1": {
           "text": "Att vilja ha förutsägbarhet"
         },
-        {
+        "2": {
           "text": "Ett behov av stabilitet och säkerhet"
         }
-      ],
+      },
       "insight": "Kontroll är inte problemet – det är strategin ditt sinne hittade för att hantera det. Med tid och stöd finns andra sätt att känna sig trygg möjliga.",
       "microcopy": "Förståelse är ett kraftfullt första steg.",
       "cta": "Läs klart"
     }
-  ],
+  },
   "complete": {
     "title": "Medvetenhet som uppnåtts",
     "message": "Att förstå kontrollens rötter är ett modigt första steg mot att hitta nya sätt att känna sig trygg och stadig.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

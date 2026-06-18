@@ -10,21 +10,22 @@
   "s2": {
     "tag": "溫柔的真理",
     "title": "大腦生存邏輯",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "警報器一直響著。",
         "body": "過度警覺和容易受到驚嚇並不是反應過度——你大腦的警報系統運作得太好了。"
       },
-      {
+      "1": {
         "header": "閃回是記憶",
         "body": "觸發機制會讓你的大腦迅速迴避威脅，因為它沒有收到威脅解除的訊號。這是它在試圖保護你。"
       },
-      {
+      "2": {
         "header": "為你而戰",
         "body": "每一種症狀都曾是求生本能。你的大腦為了讓你活下去，盡力。"
       }
-    ],
-    "healing": "療癒並非遺忘，而是幫助你的大腦明白你現在是安全的。"
+    },
+    "healing": "療癒並非遺忘，而是幫助你的大腦明白你現在是安全的。",
+    "finish_reading": "閱讀完成"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  "complete": {
+    "message": "你"
+  }
 }

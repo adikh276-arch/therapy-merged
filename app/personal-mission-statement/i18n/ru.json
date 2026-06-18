@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Долго",
+  "intro_benefit_1": "Обрести абсолютную ясность в своих основных убеждениях",
+  "intro_benefit_2": "Ставьте чёткие цели для личных преобразований",
+  "reflection_subtitle": "Составляйте свои стремления. Заполните основные компоненты вашей цели.",
+  "mission_your_statement": "Ваше заявление",
+  "saving": "Сберегаю...",
+  "mission_save_finish": "Сохранить и завершить",
+  "mission_share": "Поделиться",
+  "mission_start_over": "Начать заново",
+  "loading": "Загрузка деклараций...",
+  "app": {
+    "startActivity": "Создать миссию"
+  }
 }

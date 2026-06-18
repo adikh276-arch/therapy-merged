@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Ciclul",
       "title": "Bucla a explicat",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Furia iese la suprafață"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Rușine: \"Sunt rău\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Rușinea este îngropată"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Furia izbucnește din nou"
         }
-      ],
+      },
       "button": "O văd"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Întrerupere",
       "title": "Întrerupe ciclul",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Numește sursa",
           "desc": "Întreabă: \"Ce simt de fapt?\" Rănit? Speriat? Nevăzut? Numirea ei o slăbește."
         },
-        {
+        "1": {
           "title": "Pauză de compasiune",
           "desc": "Mâna pe piept. Spune: \"E greu. Sunt om. Pot să trec peste asta.\""
         },
-        {
+        "2": {
           "title": "Repară cu grație",
           "desc": "Împăcați-vă dacă este nevoie — dar nu vă lăsați în panică. Nu ești cel mai rău moment al tău."
         }
-      ],
+      },
       "notice": "Observarea ciclului este deja primul pas. Tu faci treaba.",
       "button": "Activitate completă"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

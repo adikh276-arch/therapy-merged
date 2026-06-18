@@ -31,37 +31,37 @@
   "auth_error": "認証セッションが欠如しているか、データベースが設定されていない",
   "save_success": "結合反射の保存",
   "save_error": "反射を保存できなかった",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "記憶を通して",
       "prompt": "彼らの存在を感じた思い出を共有してもらえますか?",
       "deeper": "彼らのことで心に残るものは何ですか?"
     },
-    {
+    "1": {
       "label": "私の言うことや行動に",
       "prompt": "日常生活の中で、そのどの部分を抱えていますか?",
       "deeper": "これは今日のあなたの生活にどのように現れていますか?"
     },
-    {
+    "2": {
       "label": "日常生活の瞬間に",
       "prompt": "一日の中でいつ彼らが近くにいると感じますか?",
       "deeper": "彼らのことで心に残るものは何ですか?"
     },
-    {
+    "3": {
       "label": "まだ伝えたいことの中で",
       "prompt": "まだ彼らに伝えたいことはありますか?",
       "deeper": "今、彼らに一番知ってほしいことは何ですか?"
     },
-    {
+    "4": {
       "label": "感覚や存在の中で",
       "prompt": "彼らの存在はどのようにしてあなたに現れますか?",
       "deeper": "これは今日のあなたの生活にどのように現れていますか?"
     }
-  ],
-  "bond_prompts": [
-    "今日、彼らとつながっていると感じる小さな方法は何ですか?",
-    "あなたがやっていることで、その一部がつながっているものは何ですか?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "今日、彼らとつながっていると感じる小さな方法は何ですか?",
+    "1": "あなたがやっていることで、その一部がつながっているものは何ですか?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "最初からやり直す",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "本当にこの反射を削除したいのですか?"
   },
   "app_description": "継続債券",
   "past_reflections": "過去の振り返り",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い"
 }

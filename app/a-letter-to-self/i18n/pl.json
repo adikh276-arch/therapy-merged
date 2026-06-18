@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Zapisuję...",
+    "saved": "Uratowany"
   },
   "app_duration": "10-15 minut",
   "app_title": "List do samego siebie",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Prompty",
+  "need_inspiration": "Potrzebujesz inspiracji?",
+  "post_writing_reflection": "Refleksja po pisaniu",
+  "reflection_desc": "Uznanie swoich uczuć to potężny krok na twojej drodze.",
+  "finish_save_reflection": "Zakończ i zapisz odbicie",
+  "lang": "długie",
+  "completion_message": "Twój list został bezpiecznie zapisany. Poświęć chwilę, by docenić swoje postępy."
 }

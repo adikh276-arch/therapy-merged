@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Der Zyklus",
       "title": "Die Schleife erklärt",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Wut kommt hoch"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Schande: \"Ich bin schlecht\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Scham wird begraben"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Wut bricht erneut aus"
         }
-      ],
+      },
       "button": "Ich sehe es"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Unterbrechung",
       "title": "Unterbrechen Sie den Zyklus",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Nennen Sie die Quelle",
           "desc": "Frag: 'Was fühle ich eigentlich?' Verletzt? Angst? Unsichtbar? Es zu benennen, schwächt es."
         },
-        {
+        "1": {
           "title": "Mitgefühlspause",
           "desc": "Hand auf die Brust. Sag: 'Das ist schwer. Ich bin ein Mensch. Ich schaffe das.'"
         },
-        {
+        "2": {
           "title": "Reparieren Sie mit Anmut",
           "desc": "Wiedergutmache, wenn nötig – aber keine Abwärtsspirale. Du bist nicht dein schlechtester Moment."
         }
-      ],
+      },
       "notice": "Den Kreislauf zu bemerken ist bereits der erste Schritt. Du machst die Arbeit.",
       "button": "Vollständige Aktivität"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

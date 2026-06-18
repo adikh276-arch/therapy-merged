@@ -31,114 +31,114 @@
     "safety": "Nu trebuie să repari totul—doar alege un singur pas mic.",
     "button": "Încearcă asta →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Trimite un raport casual",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Recunoaște tensiunea",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Oferiți-vă spațiu unul altuia",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Lasă totul în urmă și mergi mai departe",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Doar reflectează asupra asta",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Trimite un mesaj cald",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Spune sincer ce s-a întâmplat",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Angajează-te să pui pauză data viitoare",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Alege pacea în locul dreptății",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Reflectează la ceea ce ai cu adevărat nevoie",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Trimite o notă profesională",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Abordează-l cu respect",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Planifică un răspuns mai calm data viitoare",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Păstrează-te profesional și mergi mai departe",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Gândește-te la limite",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Contactează-ne cu un mesaj simplu",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Recunoaște ce s-a întâmplat",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Fă o pauză data viitoare",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Lasă-l deoparte pentru moment",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Doar reflectează (încă nu am făcut nimic de făcut).",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "A întinde mâna—chiar și imperfect—este aproape întotdeauna primit mai bine decât ne așteptăm.",
         "howTitle": "Începe cu pași mici",
         "howBody": "Nu trebuie să scrii un eseu. Câteva cuvinte sincere pot deschide ușa către reconectare.",
-        "prompts": [
-          "Hei, m-am gândit la tine. Sper că ești bine.",
-          "Știu că era tensionat—voiam doar să spun că îmi pasă.",
-          "Îmi pare rău pentru mai devreme. Putem vorbi când ești gata?"
-        ],
+        "prompts": {
+          "0": "Hei, m-am gândit la tine. Sper că ești bine.",
+          "1": "Știu că era tensionat—voiam doar să spun că îmi pasă.",
+          "2": "Îmi pare rău pentru mai devreme. Putem vorbi când ești gata?"
+        },
         "promptLabel": "Alege un punct de plecare:",
         "editLabel": "Fă-l al tău:"
       },
@@ -169,11 +169,11 @@
         "insight": "Oamenii nu au nevoie să fii perfecțion—trebuie să știe că ai observat.",
         "howTitle": "Spune-i cu blândețe",
         "howBody": "Poți să recunoști fără să-ți asumi toată vina. Spune sincer ce s-a întâmplat.",
-        "prompts": [
-          "Știu că lucrurile s-au încins între noi. Vreau să știi că am observat.",
-          "Îmi dau seama că poate am părut dur. Nu asta a fost intenția mea.",
-          "Am reflectat asupra a ceea ce s-a întâmplat și mi-aș fi dorit să fi gestionat situația altfel."
-        ],
+        "prompts": {
+          "0": "Știu că lucrurile s-au încins între noi. Vreau să știi că am observat.",
+          "1": "Îmi dau seama că poate am părut dur. Nu asta a fost intenția mea.",
+          "2": "Am reflectat asupra a ceea ce s-a întâmplat și mi-aș fi dorit să fi gestionat situația altfel."
+        },
         "promptLabel": "Alege un punct de plecare:",
         "editLabel": "Fă-l al tău:"
       },
@@ -183,11 +183,11 @@
         "insight": "O pauză de 6 secunde este adesea suficientă pentru a trece de la reacție la reflecție.",
         "howTitle": "🧘 Planifică-ți pauza",
         "howBody": "Gândește-te la un semnal simplu—cum ar fi să tragi aer în piept sau să faci un pas înapoi pentru o clipă—înainte să răspunzi.",
-        "prompts": [
-          "Data viitoare când mă simt supărat, o să trag o gură adâncă de aer înainte să răspund.",
-          "O să încerc să spun \"Dă-mi un moment\" în loc să reacționez imediat.",
-          "O să mă retrag câteva minute să-mi adun gândurile."
-        ],
+        "prompts": {
+          "0": "Data viitoare când mă simt supărat, o să trag o gură adâncă de aer înainte să răspund.",
+          "1": "O să încerc să spun \"Dă-mi un moment\" în loc să reacționez imediat.",
+          "2": "O să mă retrag câteva minute să-mi adun gândurile."
+        },
         "promptLabel": "Alege un angajament care ți se pare potrivit:",
         "editLabel": "Scrie-ți propria intenție:"
       },
@@ -197,11 +197,11 @@
         "insight": "A renunța nu înseamnă a renunța—e a alege pacea în locul faptului că ai dreptate.",
         "howTitle": "🕊️ Eliberează ușor",
         "howBody": "Nu trebuie să uiți. Pur și simplu decide că asta nu mai trebuie să controleze cum te simți.",
-        "prompts": [
-          "Aleg să las totul în urmă — nu pentru că nu conta, ci pentru că pacea mea contează mai mult.",
-          "Renunț la nevoia de a avea dreptate în privința asta. Aleg conexiunea.",
-          "Această situație nu definește relația noastră. Merg mai departe."
-        ],
+        "prompts": {
+          "0": "Aleg să las totul în urmă — nu pentru că nu conta, ci pentru că pacea mea contează mai mult.",
+          "1": "Renunț la nevoia de a avea dreptate în privința asta. Aleg conexiunea.",
+          "2": "Această situație nu definește relația noastră. Merg mai departe."
+        },
         "promptLabel": "Alege ce rezonează:",
         "editLabel": "Scrie ce ți se pare adevărat:"
       },
@@ -211,11 +211,11 @@
         "insight": "Scrierea unui jurnal sau chiar gândirea la ce s-a întâmplat te ajută să procesezi emoțiile fără presiune.",
         "howTitle": "🔍 Privește în interior",
         "howBody": "Întreabă-te: Ce simțeam cu adevărat sub furia? Adesea este durere, frică sau dezamăgire.",
-        "prompts": [
-          "Sub furia mea, cred că mă simțeam rănit.",
-          "Îmi dau seama că reacționam din frica de a nu fi auzit.",
-          "Ceea ce aveam cu adevărat nevoie era să mă simt respectată și apreciată."
-        ],
+        "prompts": {
+          "0": "Sub furia mea, cred că mă simțeam rănit.",
+          "1": "Îmi dau seama că reacționam din frica de a nu fi auzit.",
+          "2": "Ceea ce aveam cu adevărat nevoie era să mă simt respectată și apreciată."
+        },
         "promptLabel": "Alege ce rezonează:",
         "editLabel": "Scrie-ți propria reflecție:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

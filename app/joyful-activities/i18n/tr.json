@@ -14,7 +14,8 @@
     "input1_placeholder": "örneğin parkta yürümek",
     "input2_label": "Bunu yaptığımda genellikle kendimi...",
     "input2_placeholder": "örneğin sakin ve mevcut",
-    "button": "Devam et"
+    "button": "Devam et",
+    "stage": "Aşama 1: Geri Çağırma"
   },
   "meaning": {
     "title": "Bunu anlamlı kılan nedir?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "örneğin bağlı ve topraklanmış",
     "input3_label": "Bana...",
     "input3_placeholder": "Örneğin, çocukken yazlar",
-    "button": "Yansımamı Kurtar"
+    "button": "Yansımamı Kurtar",
+    "stage": "Aşama 2: Anlam"
   },
   "smallStep": {
     "title": "Küçük bir İleriye Adım",
@@ -34,7 +36,8 @@
     "input1_label": "Bu hafta atabileceğim küçük bir adım şu...",
     "input1_placeholder": "örneğin 10 dakikalık bir yürüyüşe çıkın",
     "button_save": "Kayd et",
-    "button_home": "Eve git"
+    "button_home": "Eve git",
+    "stage": "3. Aşama: Aksiyon"
   },
   "affirmation": {
     "title": "Güzel bir adım attın",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

@@ -1,57 +1,57 @@
 {
   "app_title": "Ligtas na Espasyo",
-  "nav": [
-    "Email Address *",
-    "Malumanay na Paggunita",
-    "Pagmamasid",
-    "Manatiling Naroroon",
-    "Pagsulong"
-  ],
+  "nav": {
+    "0": "Email Address *",
+    "1": "Malumanay na Paggunita",
+    "2": "Pagmamasid",
+    "3": "Manatiling Naroroon",
+    "4": "Pagsulong"
+  },
   "s1": {
     "title": "Maghanap tayo ng lugar na okay lang sa pakiramdam",
-    "description": [
-      "Bago tayo magsimula, maglaan muna ng ilang sandali para mag-check-in...",
-      "Ano ang nararamdaman mo ngayon?",
-      "Hindi kami naghahanap ng perpektong \"ligtas na lugar\". Isang bagay lang na medyo kalmado o okay lang."
-    ],
+    "description": {
+      "0": "Bago tayo magsimula, maglaan muna ng ilang sandali para mag-check-in...",
+      "1": "Ano ang nararamdaman mo ngayon?",
+      "2": "Hindi kami naghahanap ng perpektong \"ligtas na lugar\". Isang bagay lang na medyo kalmado o okay lang."
+    },
     "placeholder": "Ano ang nararamdaman mo ngayon?",
     "button": "Simulan ang Visualization"
   },
   "s2": {
     "title": "Dahan-dahang dalhin ito sa isip",
-    "description": [
-      "Isipin ang isang lugar kung saan nakaramdam ka ng kaunting kaginhawahan... O isang lugar na nais mong umiiral.",
-      "Ngayon ilagay ang iyong sarili doon...",
-      "Nakaupo ka ba, nakatayo, o nakahiga?"
-    ],
+    "description": {
+      "0": "Isipin ang isang lugar kung saan nakaramdam ka ng kaunting kaginhawahan... O isang lugar na nais mong umiiral.",
+      "1": "Ngayon ilagay ang iyong sarili doon...",
+      "2": "Nakaupo ka ba, nakatayo, o nakahiga?"
+    },
     "button": "Magpatuloy"
   },
   "s3": {
     "title": "Tumingin sa paligid nang dahan-dahan",
-    "description": [
-      "Tumingin ka sa paligid...",
-      "Ano ang isang bagay na maaari mong makita?",
-      "Pansinin ang isang tunog ... Ano ang naririnig mo?"
-    ],
+    "description": {
+      "0": "Tumingin ka sa paligid...",
+      "1": "Ano ang isang bagay na maaari mong makita?",
+      "2": "Pansinin ang isang tunog ... Ano ang naririnig mo?"
+    },
     "button": "Magpatuloy"
   },
   "s4": {
     "title": "Manatili dito",
-    "description": [
-      "Ano ang tungkol sa lugar na ito na nagpaparamdam sa kanya kahit na medyo ligtas o okay?",
-      "Tulad ng napapansin mo na ...",
-      "Dalhin din ang iyong pansin sa iyong hininga."
-    ],
+    "description": {
+      "0": "Ano ang tungkol sa lugar na ito na nagpaparamdam sa kanya kahit na medyo ligtas o okay?",
+      "1": "Tulad ng napapansin mo na ...",
+      "2": "Dalhin din ang iyong pansin sa iyong hininga."
+    },
     "breathe": "huminga",
     "notice": "Kung mahirap mag-isip, isipin mo na lang ang ideya ng lugar na ito.",
     "button": "Magpatuloy"
   },
   "s5": {
     "title": "Dalhin ito sa iyo",
-    "description": [
-      "Pansinin kung ano ang nararamdaman mo ngayon. Kahit na isang maliit na shift ay mahalaga.",
-      "Tingnan kung maaari mong dalhin kahit na 5% ng pakiramdam na ito sa iyo."
-    ],
+    "description": {
+      "0": "Pansinin kung ano ang nararamdaman mo ngayon. Kahit na isang maliit na shift ay mahalaga.",
+      "1": "Tingnan kung maaari mong dalhin kahit na 5% ng pakiramdam na ito sa iyo."
+    },
     "placeholder": "Ano ang nararamdaman mo ngayon?",
     "button": "Kumpletuhin ang Sesyon"
   },
@@ -110,5 +110,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

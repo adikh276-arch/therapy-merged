@@ -31,37 +31,37 @@
   "auth_error": "Auth-session mangler eller database ikke konfigureret",
   "save_success": "Båndrefleksion bevaret",
   "save_error": "Undlod at bevare refleksionen",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Gennem minder",
       "prompt": "Kan du dele et minde, hvor du mærker deres tilstedeværelse?",
       "deeper": "Hvad er én ting ved dem, der bliver hængende hos dig?"
     },
-    {
+    "1": {
       "label": "I de ting, jeg siger eller gør",
       "prompt": "Hvilken del af dem bærer du med dig i din dagligdag?",
       "deeper": "Hvordan viser det sig i dit liv i dag?"
     },
-    {
+    "2": {
       "label": "I øjeblikke af min dagligdag",
       "prompt": "Hvornår mærker du, at de lukker sig i løbet af dagen?",
       "deeper": "Hvad er én ting ved dem, der bliver hængende hos dig?"
     },
-    {
+    "3": {
       "label": "I det, jeg stadig gerne vil fortælle dem",
       "prompt": "Er der noget, du stadig gerne vil sige til dem?",
       "deeper": "Hvad ville du helst ønske, at de vidste lige nu?"
     },
-    {
+    "4": {
       "label": "I en følelse eller tilstedeværelse",
       "prompt": "Hvordan viser deres tilstedeværelse sig stadig for dig?",
       "deeper": "Hvordan viser det sig i dit liv i dag?"
     }
-  ],
-  "bond_prompts": [
-    "Hvad er én lille måde, du føler dig forbundet med dem på i dag?",
-    "Hvad er noget, du gør, som bærer en del af dem?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Hvad er én lille måde, du føler dig forbundet med dem på i dag?",
+    "1": "Hvad er noget, du gør, som bærer en del af dem?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Start forfra",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på, at du vil slette denne refleksion?"
   },
   "app_description": "Løbende obligationer",
   "past_reflections": "Tidligere refleksioner",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

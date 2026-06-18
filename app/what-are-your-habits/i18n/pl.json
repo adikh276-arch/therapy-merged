@@ -5,37 +5,37 @@
   "body_title": "🧍‍♀️ Twoja codzienna rutyna dla ciała",
   "body_subtitle": "Która z poniższych odpowiedzi wydała Ci się ostatnio nieco nietypowa? (Zaznacz właściwą odpowiedź)",
   "continue": "Kontynuować",
-  "body_options": [
-    "Nie spałem dobrze",
-    "Mój czas snu jest nieregularny",
-    "Czasami pomijam posiłki",
-    "Jem więcej niż zwykle, gdy jestem zestresowany",
-    "Nie ruszałem się i nie ćwiczyłem zbyt wiele",
-    "Nie wychodziłem zbyt często na zewnątrz",
-    "Moja codzienna pielęgnacja uległa zmianie",
-    "Moja codzienna rutyna wydaje się stabilna"
-  ],
+  "body_options": {
+    "0": "Nie spałem dobrze",
+    "1": "Mój czas snu jest nieregularny",
+    "2": "Czasami pomijam posiłki",
+    "3": "Jem więcej niż zwykle, gdy jestem zestresowany",
+    "4": "Nie ruszałem się i nie ćwiczyłem zbyt wiele",
+    "5": "Nie wychodziłem zbyt często na zewnątrz",
+    "6": "Moja codzienna pielęgnacja uległa zmianie",
+    "7": "Moja codzienna rutyna wydaje się stabilna"
+  },
   "mind_title": "🧠 Twoje wzorce myślowe",
-  "mind_options": [
-    "Ciągle za dużo myślę o różnych rzeczach",
-    "Często wyobrażam sobie najgorszy scenariusz",
-    "Jestem dla siebie surowy",
-    "Czuję się winny z powodu rzeczy, które zrobiłem lub których nie zrobiłem",
-    "Ciągle się martwię",
-    "Trudno mi się zrelaksować",
-    "Moje myśli wydają się łatwe do opanowania"
-  ],
+  "mind_options": {
+    "0": "Ciągle za dużo myślę o różnych rzeczach",
+    "1": "Często wyobrażam sobie najgorszy scenariusz",
+    "2": "Jestem dla siebie surowy",
+    "3": "Czuję się winny z powodu rzeczy, które zrobiłem lub których nie zrobiłem",
+    "4": "Ciągle się martwię",
+    "5": "Trudno mi się zrelaksować",
+    "6": "Moje myśli wydają się łatwe do opanowania"
+  },
   "coping_title": "🌊 Jak reagujesz na stres",
-  "coping_options": [
-    "Unikam zadań, gdy jestem zestresowany",
-    "Dużo przewijam na telefonie, żeby się rozproszyć",
-    "Spędzam czas sam, żeby sobie poradzić",
-    "Kiedy jestem zestresowany, rzucam się w wir pracy",
-    "Rozmawiam z kimś o tym, co czuję",
-    "Robię ćwiczenia oddechowe, żeby się uspokoić",
-    "Oglądam telewizję lub gram w gry, żeby się rozproszyć",
-    "Nie jestem pewien, jak reaguję na stres"
-  ],
+  "coping_options": {
+    "0": "Unikam zadań, gdy jestem zestresowany",
+    "1": "Dużo przewijam na telefonie, żeby się rozproszyć",
+    "2": "Spędzam czas sam, żeby sobie poradzić",
+    "3": "Kiedy jestem zestresowany, rzucam się w wir pracy",
+    "4": "Rozmawiam z kimś o tym, co czuję",
+    "5": "Robię ćwiczenia oddechowe, żeby się uspokoić",
+    "6": "Oglądam telewizję lub gram w gry, żeby się rozproszyć",
+    "7": "Nie jestem pewien, jak reaguję na stres"
+  },
   "reflection_title": "✍️ Refleksja",
   "question_stress": "Który nawyk zwiększa u Ciebie późniejszy stres?",
   "question_calm": "Który nawyk może pomóc Ci poczuć się spokojniej?",
@@ -44,13 +44,13 @@
   "insight_description": "Kliknij poniżej, aby zobaczyć proste nawyki, które mogą pomóc w redukcji stresu.",
   "show_suggestions": "Pokaż sugestie",
   "commit": "Popełniać",
-  "suggestions": [
-    "Spróbuj pójść spać trochę wcześniej dziś wieczorem",
-    "Wyjdź dziś na świeże powietrze",
-    "Zrób sobie przerwę od przewijania",
-    "Mów do siebie życzliwie",
-    "Zakończ jedno zadanie, które odkładałeś"
-  ],
+  "suggestions": {
+    "0": "Spróbuj pójść spać trochę wcześniej dziś wieczorem",
+    "1": "Wyjdź dziś na świeże powietrze",
+    "2": "Zrób sobie przerwę od przewijania",
+    "3": "Mów do siebie życzliwie",
+    "4": "Zakończ jedno zadanie, które odkładałeś"
+  },
   "final_text": "Małe zmiany mają znaczenie. Konsekwencja daje spokój.",
   "finish": "Skończyć",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "długie",
+  "mind_subtitle": "Jakie nawyki myślowe najczęściej zauważasz, że wracają? Wybierz wszystko, co ma zastosowanie.",
+  "coping_subtitle": "Jak zazwyczaj reagujesz, gdy pojawia się przytłoczenie? Wybierz wszystko, co ma zastosowanie."
 }

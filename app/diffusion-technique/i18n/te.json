@@ -153,5 +153,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "watch_thoughts_drift": "మీ ఆలోచనలు దూరంగా వెళ్లడాన్ని చూడండి...",
+  "lang": "పొడవు",
+  "app_duration": "3-5 నిమిషాలు"
 }

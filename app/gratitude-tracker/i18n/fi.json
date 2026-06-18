@@ -110,5 +110,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  "SAVE FAILED: ": "TALLENNUS EPÄONNISTUI: "
 }

@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Tartsunk egy rövid szünetet együtt.\n\nA következő percben nincs semmi, amit meg kell oldani, megjavítani vagy válaszolni. Csak engedd meg magadnak, hogy lassíts.\n\nÜlj kényelmesen, tedd a lábad a földre, ha tudsz, és lassan lélegezz be... és lassan kilélegezni kell.\n\nEz a te pillanatod, hogy újrakezdd és újra kapcsolódj a jelenhez.",
       "button": "Kezdjük"
     },
-    {
+    "1": {
       "heading": "5 dolog, amit láthatsz",
       "body": "Lassan nézz körül. Engedd, hogy a szemed finoman végigjárja a teret. Figyelj fel színeket, formákat, fényt, árnyékokat vagy apró részleteket, amelyekre korábban talán nem figyeltél.",
       "button": "Következő"
     },
-    {
+    "2": {
       "heading": "4 dolog, amit érezhetsz",
       "body": "Fordítsd a figyelmed a testedre. Érezd a lábaid a padlóhoz, a hátad a székhez simul, a ruháid a bőrödön vagy a körülötted lévő levegőn. Ismerd el négy fizikai érzést.",
       "button": "Következő"
     },
-    {
+    "3": {
       "heading": "3 dolog, amit hallani lehet",
       "body": "Figyelj jól. Távoli hangokat, ventilátort, gépelést, lélegzetet vagy akár csendet hallhatsz. Azonosíts három hangot anélkül, hogy megítélnéd őket.",
       "button": "Következő"
     },
-    {
+    "4": {
       "heading": "2 dolog, amit érzel",
       "body": "Nézd meg, érzékelsz-e valamilyen illatot a szobában. Ha semmi sem tűnik fel, egyszerűen figyeld meg a levegő semleges illatát körülötted.",
       "button": "Következő"
     },
-    {
+    "5": {
       "heading": "1, amit megkóstolhatsz",
       "body": "Figyelj a száj ízére. Lehet finom vagy semleges — csak figyeld meg.",
       "button": "Következő"
     },
-    {
+    "6": {
       "heading": "Reflektív",
       "body": "Vegyél egy lassú lélegzetet... és gyengéden kilélegezni ki.",
       "button": "Beküldés"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Újrakezdés",
@@ -62,7 +62,10 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "you_feel": "Érzed",
+    "reflection_question": "Hogy érzed magad ez a földelés gyakorlása után?",
+    "reflection_placeholder": "Nyugodtabb, földhözragadt..."
   },
   "app_title": "5-4-3-2-1 Földelés",
   "intro_p1": "Gyorsan csökkenti a szorongást",
@@ -90,5 +93,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "\\n\\n": "\\n\\n"
 }

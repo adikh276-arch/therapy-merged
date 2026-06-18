@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "lang",
+  "mind_subtitle": "What thought habits do you notice returning most often? Select all that apply.",
+  "coping_subtitle": "How do you typically react when overwhelm occurs? Select all that apply."
 }

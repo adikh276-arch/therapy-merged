@@ -5,7 +5,8 @@
     "title": "Twój audyt snu",
     "description": "Zrozum, co wpływa na Twój sen i gdzie drobne zmiany mogą pomóc.",
     "start_button": "Rozpocznij audyt",
-    "history_button": "Poprzednie audyty"
+    "history_button": "Poprzednie audyty",
+    "more_insights": "Powrót do początku"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Kładę się spać o bardzo różnych porach każdej nocy"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Moje środowisko do snu nie jest ciemne, ciche ani komfortowe"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Przeglądam telefon tuż przed snem"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Piję kofeinę lub alkohol tuż przed snem"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Budzę się w nocy i mam trudności z powrotem zasnąć"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Kiedy próbuję zasnąć, myśli mi pędzą"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Rzadko czuję się wypoczęty po nocnym śnie"
     }
-  ],
-  "rating_labels": [
-    "Bardzo słabo",
-    "Biedny",
-    "Dobrze",
-    "Dobrze",
-    "Świetnie"
-  ],
+  },
+  "rating_labels": {
+    "0": "Bardzo słabo",
+    "1": "Biedny",
+    "2": "Dobrze",
+    "3": "Dobrze",
+    "4": "Świetnie"
+  },
   "status_labels": {
     "track": "Głównie na torze",
     "disruptions": "Pewne zakłócenia",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2D",
+  "lang": "długie",
+  "loading": "Historia ładowania..."
 }

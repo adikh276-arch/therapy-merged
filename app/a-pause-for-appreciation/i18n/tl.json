@@ -73,13 +73,13 @@
     "confirmDelete": "Kumpirmahin ang Pagtanggal",
     "cancel": "Kanselahin",
     "delete": "Burahin ang entry",
-    "prompts": [
-      "Isang maikling sandali na hindi nakakaramdam ng tensyon...",
-      "Isang pagsisikap na ginawa ng iyong partner...",
-      "Isang katangiang nanatiling pare-pareho...",
-      "Intensyon",
-      "Pagsusuri sa Emosyon"
-    ]
+    "prompts": {
+      "0": "Isang maikling sandali na hindi nakakaramdam ng tensyon...",
+      "1": "Isang pagsisikap na ginawa ng iyong partner...",
+      "2": "Isang katangiang nanatiling pare-pareho...",
+      "3": "Intensyon",
+      "4": "Pagsusuri sa Emosyon"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

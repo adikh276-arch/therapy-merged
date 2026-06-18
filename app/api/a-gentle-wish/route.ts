@@ -11,6 +11,9 @@ async function ensureTableExists() {
       created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
     )
   `;
+
+    // Auto-backfill any missing columns for legacy migrations
+    await db`ALTER TABLE gentle_wish_entries ADD COLUMN IF NOT EXISTS user_id VARCHAR(255`.catch(() => {});
 }
 
 export async function GET() {

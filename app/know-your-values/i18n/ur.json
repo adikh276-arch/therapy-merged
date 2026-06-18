@@ -29,7 +29,8 @@
     "historyDesc": "آپ کے پچھلے خیالات یہاں محفوظ ہیں تاکہ آپ انہیں کسی بھی وقت دوبارہ دیکھ سکیں۔",
     "noHistory": "آپ نے ابھی اقدار کی عکاسی مکمل نہیں کی۔",
     "startActivity": "سرگرمی شروع کریں",
-    "startNew": "نئی عکاسی شروع کریں"
+    "startNew": "نئی عکاسی شروع کریں",
+    "aligned": "الائنڈ"
   },
   "values": {
     "Family": "خاندان",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "لمبا",
+  "app_duration": "5 منٹ",
+  "loading": "لوڈنگ ریفلیکشنز..."
 }

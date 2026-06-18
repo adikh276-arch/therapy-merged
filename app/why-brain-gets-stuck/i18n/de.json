@@ -10,21 +10,22 @@
   "s2": {
     "tag": "sanfte Wahrheiten",
     "title": "Gehirnüberlebenslogik",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Der Wecker blieb an",
         "body": "Hypervigilanz und leicht zu erschrecken sind keine Überreaktionen – das Alarmsystem deines Gehirns erfüllt seine Arbeit zu gut."
       },
-      {
+      "1": {
         "header": "Rückblenden sind Erinnerungen",
         "body": "Auslöser ziehen dein Gehirn zurück, weil es nie das Signal bekam, dass die Bedrohung vorbei war. Es versucht, dich zu schützen."
       },
-      {
+      "2": {
         "header": "Ich kämpfe für dich",
         "body": "Jedes Symptom war einst ein Überlebensakt. Dein Gehirn tat, was es tun musste, um dich am Leben zu erhalten."
       }
-    ],
-    "healing": "Heilung bedeutet nicht, zu vergessen. Es geht darum, deinem Gehirn zu helfen, zu lernen, dass du jetzt sicher bist."
+    },
+    "healing": "Heilung bedeutet nicht, zu vergessen. Es geht darum, deinem Gehirn zu helfen, zu lernen, dass du jetzt sicher bist.",
+    "finish_reading": "Lesen zu Ende"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "complete": {
+    "message": "Du"
+  }
 }

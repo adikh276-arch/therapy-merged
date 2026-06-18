@@ -14,7 +14,8 @@
     "input1_placeholder": "Par exemple, se promener dans un parc",
     "input2_label": "Quand je fais ça, je me sens généralement...",
     "input2_placeholder": "par exemple calme et présent",
-    "button": "Continuez"
+    "button": "Continuez",
+    "stage": "Étape 1 : Rappel"
   },
   "meaning": {
     "title": "Qu’est-ce qui la rend significative ?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "par exemple connecté et mis à la terre",
     "input3_label": "Ça me rappelle...",
     "input3_placeholder": "par exemple, les étés quand j’étais enfant",
-    "button": "Sauve mon reflet"
+    "button": "Sauve mon reflet",
+    "stage": "Étape 2 : Signification"
   },
   "smallStep": {
     "title": "Un petit pas en avant",
@@ -34,7 +36,8 @@
     "input1_label": "Un petit pas que je pourrais faire cette semaine est...",
     "input1_placeholder": "Par exemple, aller marcher 10 minutes",
     "button_save": "Sauvegarder",
-    "button_home": "Retourne à la maison"
+    "button_home": "Retourne à la maison",
+    "stage": "Étape 3 : Action"
   },
   "affirmation": {
     "title": "Tu as fait un pas magnifique",
@@ -101,5 +104,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "inspiră încet...",
+  "instruction_out": "expiră încet...",
+  "instruction_hold": "ține ușor...",
+  "lang": "lung"
 }

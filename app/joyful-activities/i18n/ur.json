@@ -14,7 +14,8 @@
     "input1_placeholder": "مثلا پارک میں چلنا",
     "input2_label": "جب میں ایسا کرتا ہوں، تو میں عام طور پر محسوس کرتا ہوں...",
     "input2_placeholder": "مثلا پرسکون اور موجود",
-    "button": "جاری رکھیں"
+    "button": "جاری رکھیں",
+    "stage": "مرحلہ 1: ری کال"
   },
   "meaning": {
     "title": "اسے معنی خیز کیا بناتا ہے؟",
@@ -25,7 +26,8 @@
     "input2_placeholder": "مثلا جڑا ہوا اور گراؤنڈڈ",
     "input3_label": "یہ مجھے یاد دلاتا ہے...",
     "input3_placeholder": "مثلا بچپن میں گرمیوں کا موسم",
-    "button": "میری عکاسی بچاؤ"
+    "button": "میری عکاسی بچاؤ",
+    "stage": "مرحلہ 2: معنی"
   },
   "smallStep": {
     "title": "ایک چھوٹا سا قدم آگے",
@@ -34,7 +36,8 @@
     "input1_label": "ایک چھوٹا سا قدم جو میں اس ہفتے اٹھا سکتا ہوں وہ ہے...",
     "input1_placeholder": "مثلا 10 منٹ کی واک پر جائیں",
     "button_save": "سیو",
-    "button_home": "گھر جاؤ"
+    "button_home": "گھر جاؤ",
+    "stage": "مرحلہ 3: ایکشن"
   },
   "affirmation": {
     "title": "تم نے خوبصورت قدم اٹھایا",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "لمبا"
 }

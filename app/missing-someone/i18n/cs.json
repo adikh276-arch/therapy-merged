@@ -1,10 +1,10 @@
 {
   "app_title": "Chybí mi někdo",
-  "subtitles": [
-    "Validace",
-    "Vnitřní moudrost",
-    "Dokončeno"
-  ],
+  "subtitles": {
+    "0": "Validace",
+    "1": "Vnitřní moudrost",
+    "2": "Dokončeno"
+  },
   "complete_title": "Jasnost získaná",
   "complete_message": "Pochopení chemie postrádání někoho je prvním krokem k uzdravení. Vaše pocity jsou platné a váš mozek jen plní svou práci – chrání a zpracovává.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

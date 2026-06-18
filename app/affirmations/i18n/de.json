@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "Wenn du dich einsam und traurig fühlst",
-      "affirmations": [
-        "Ich bin nicht allein, auch wenn es sich manchmal so anfühlt.",
-        "Meine Gefühle verdienen Rücksichtnahme und Sanftmut.",
-        "Dieser Moment wird nicht ewig dauern.",
-        "Ich habe das Recht, eine Verbindung zu benötigen.",
-        "Ich kann mir jetzt selbst Wärme spenden."
-      ]
+      "affirmations": {
+        "0": "Ich bin nicht allein, auch wenn es sich manchmal so anfühlt.",
+        "1": "Meine Gefühle verdienen Rücksichtnahme und Sanftmut.",
+        "2": "Dieser Moment wird nicht ewig dauern.",
+        "3": "Ich habe das Recht, eine Verbindung zu benötigen.",
+        "4": "Ich kann mir jetzt selbst Wärme spenden."
+      }
     },
     "terrified": {
       "label": "Wenn du Angst hast",
-      "affirmations": [
-        "Ich bin in diesem Moment sicher.",
-        "Angst ist ein Gefühl, keine Vorhersage.",
-        "Ich kann das einen Atemzug nach dem anderen nehmen.",
-        "Ich muss nicht alles sofort lösen.",
-        "Ich bin stärker als dieser Moment."
-      ]
+      "affirmations": {
+        "0": "Ich bin in diesem Moment sicher.",
+        "1": "Angst ist ein Gefühl, keine Vorhersage.",
+        "2": "Ich kann das einen Atemzug nach dem anderen nehmen.",
+        "3": "Ich muss nicht alles sofort lösen.",
+        "4": "Ich bin stärker als dieser Moment."
+      }
     },
     "insignificant": {
       "label": "Wenn du dich unbedeutend fühlst",
-      "affirmations": [
-        "Auch kleine Momente zählen.",
-        "Ich muss meinen Wert nicht beweisen.",
-        "Ich darf Platz einnehmen.",
-        "Meine Existenz hat Bedeutung.",
-        "Ich bin genug, so wie ich bin."
-      ]
+      "affirmations": {
+        "0": "Auch kleine Momente zählen.",
+        "1": "Ich muss meinen Wert nicht beweisen.",
+        "2": "Ich darf Platz einnehmen.",
+        "3": "Meine Existenz hat Bedeutung.",
+        "4": "Ich bin genug, so wie ich bin."
+      }
     },
     "overwhelmed": {
       "label": "Wenn Sie sich überfordert fühlen",
-      "affirmations": [
-        "Ich muss nicht alles auf einmal erledigen.",
-        "Ein kleiner Schritt genügt.",
-        "Es ist in Ordnung, eine Pause einzulegen.",
-        "Ich darf mich ausruhen.",
-        "Das wird wieder in den Griff bekommen."
-      ]
+      "affirmations": {
+        "0": "Ich muss nicht alles auf einmal erledigen.",
+        "1": "Ein kleiner Schritt genügt.",
+        "2": "Es ist in Ordnung, eine Pause einzulegen.",
+        "3": "Ich darf mich ausruhen.",
+        "4": "Das wird wieder in den Griff bekommen."
+      }
     },
     "hopeless": {
       "label": "Wenn du dich hoffnungslos fühlst",
-      "affirmations": [
-        "Ich brauche heute keine Antworten.",
-        "Veränderung ist noch möglich.",
-        "Ich habe schon schwere Zeiten überstanden.",
-        "Ich kann vorerst hier bleiben.",
-        "Etwas Sanftes kann sich noch entfalten."
-      ]
+      "affirmations": {
+        "0": "Ich brauche heute keine Antworten.",
+        "1": "Veränderung ist noch möglich.",
+        "2": "Ich habe schon schwere Zeiten überstanden.",
+        "3": "Ich kann vorerst hier bleiben.",
+        "4": "Etwas Sanftes kann sich noch entfalten."
+      }
     },
     "conflicted": {
       "label": "Wenn Sie sich innerlich zerrissen fühlen",
-      "affirmations": [
-        "Es ist in Ordnung, mehr als ein Gefühl gleichzeitig zu empfinden.",
-        "Ich brauche nicht sofort Klarheit.",
-        "Verwirrung bedeutet nicht Scheitern.",
-        "Ich kann mir Zeit nehmen.",
-        "Ich traue mir zu, das herauszufinden."
-      ]
+      "affirmations": {
+        "0": "Es ist in Ordnung, mehr als ein Gefühl gleichzeitig zu empfinden.",
+        "1": "Ich brauche nicht sofort Klarheit.",
+        "2": "Verwirrung bedeutet nicht Scheitern.",
+        "3": "Ich kann mir Zeit nehmen.",
+        "4": "Ich traue mir zu, das herauszufinden."
+      }
     },
     "self-critical": {
       "label": "Wenn man sehr selbstkritisch ist",
-      "affirmations": [
-        "Ich kann freundlich mit mir selbst sprechen.",
-        "Ich muss mich nicht selbst bestrafen, um zu wachsen.",
-        "Fehler definieren nicht, wer ich bin.",
-        "Ich lerne, ich scheitere nicht.",
-        "Wachstum erfordert keine Grausamkeit."
-      ]
+      "affirmations": {
+        "0": "Ich kann freundlich mit mir selbst sprechen.",
+        "1": "Ich muss mich nicht selbst bestrafen, um zu wachsen.",
+        "2": "Fehler definieren nicht, wer ich bin.",
+        "3": "Ich lerne, ich scheitere nicht.",
+        "4": "Wachstum erfordert keine Grausamkeit."
+      }
     },
     "out-of-place": {
       "label": "Wenn Sie sich sozial fehl am Platz fühlen",
-      "affirmations": [
-        "Ich darf schweigen oder anders sein.",
-        "Ich muss mich nicht an die Energie anderer anpassen.",
-        "Ich gehöre dazu, so wie ich bin.",
-        "Ich kann auf dezente Weise Raum einnehmen.",
-        "Ich mache nichts falsch."
-      ]
+      "affirmations": {
+        "0": "Ich darf schweigen oder anders sein.",
+        "1": "Ich muss mich nicht an die Energie anderer anpassen.",
+        "2": "Ich gehöre dazu, so wie ich bin.",
+        "3": "Ich kann auf dezente Weise Raum einnehmen.",
+        "4": "Ich mache nichts falsch."
+      }
     },
     "unsafe": {
       "label": "Wenn Sie sich in der Nähe von Fremden unsicher fühlen",
-      "affirmations": [
-        "Ich kann in meinem eigenen Tempo vorgehen.",
-        "Ich habe das Recht, meine Grenzen zu schützen.",
-        "Ich kann in meinem Körper geerdet bleiben.",
-        "Ich darf Situationen verlassen.",
-        "Ich kann mich selbst schützen."
-      ]
+      "affirmations": {
+        "0": "Ich kann in meinem eigenen Tempo vorgehen.",
+        "1": "Ich habe das Recht, meine Grenzen zu schützen.",
+        "2": "Ich kann in meinem Körper geerdet bleiben.",
+        "3": "Ich darf Situationen verlassen.",
+        "4": "Ich kann mich selbst schützen."
+      }
     },
     "pressured": {
       "label": "Wenn Sie sich bei der Arbeit unter Druck gesetzt fühlen",
-      "affirmations": [
-        "Mein Wert bemisst sich nicht an meiner Produktivität.",
-        "Ich muss mich nicht ständig beweisen.",
-        "Heute genügt es, mein Bestes zu geben.",
-        "Es ist in Ordnung, jeweils eine Aufgabe zu erledigen.",
-        "Ich bin mehr als meine Rolle."
-      ]
+      "affirmations": {
+        "0": "Mein Wert bemisst sich nicht an meiner Produktivität.",
+        "1": "Ich muss mich nicht ständig beweisen.",
+        "2": "Heute genügt es, mein Bestes zu geben.",
+        "3": "Es ist in Ordnung, jeweils eine Aufgabe zu erledigen.",
+        "4": "Ich bin mehr als meine Rolle."
+      }
     },
     "face-the-day": {
       "label": "Wenn du dem Tag nicht ins Auge sehen willst",
-      "affirmations": [
-        "Ich kann den heutigen Tag in kleinen Abschnitten angehen.",
-        "Es genügt, durchzukommen.",
-        "Ich brauche keine Motivation, um anzufangen.",
-        "Freundliches Erscheinen zählt immer noch.",
-        "Dieser Tag definiert mich nicht."
-      ]
+      "affirmations": {
+        "0": "Ich kann den heutigen Tag in kleinen Abschnitten angehen.",
+        "1": "Es genügt, durchzukommen.",
+        "2": "Ich brauche keine Motivation, um anzufangen.",
+        "3": "Freundliches Erscheinen zählt immer noch.",
+        "4": "Dieser Tag definiert mich nicht."
+      }
     },
     "future": {
       "label": "Wenn du dir Sorgen um deine Zukunft machst",
-      "affirmations": [
-        "Ich kann in die Gegenwart zurückkehren.",
-        "Ich werde mich um die Dinge kümmern, sobald sie anfallen.",
-        "Ich brauche heute keine Gewissheit.",
-        "Ich bin anpassungsfähig.",
-        "Ich kann mir selbst ein bisschen mehr vertrauen."
-      ]
+      "affirmations": {
+        "0": "Ich kann in die Gegenwart zurückkehren.",
+        "1": "Ich werde mich um die Dinge kümmern, sobald sie anfallen.",
+        "2": "Ich brauche heute keine Gewissheit.",
+        "3": "Ich bin anpassungsfähig.",
+        "4": "Ich kann mir selbst ein bisschen mehr vertrauen."
+      }
     },
     "stuck": {
       "label": "Wenn Sie das Gefühl haben, in einem Problem festzustecken",
-      "affirmations": [
-        "Festzustecken bedeutet nicht, dass ich kaputt bin.",
-        "Ich kann innehalten, ohne aufzugeben.",
-        "Ich brauche keine sofortigen Lösungen.",
-        "Ich darf mich unsicher fühlen.",
-        "Ich bewege mich noch, wenn auch langsam."
-      ]
+      "affirmations": {
+        "0": "Festzustecken bedeutet nicht, dass ich kaputt bin.",
+        "1": "Ich kann innehalten, ohne aufzugeben.",
+        "2": "Ich brauche keine sofortigen Lösungen.",
+        "3": "Ich darf mich unsicher fühlen.",
+        "4": "Ich bewege mich noch, wenn auch langsam."
+      }
     },
     "compare": {
       "label": "Wenn du dich selbst vergleichst",
-      "affirmations": [
-        "Meine Reise ist meine eigene.",
-        "Ich muss nicht konkurrieren, um würdig zu sein.",
-        "Ich darf mich in meinem eigenen Tempo entwickeln.",
-        "Der Erfolg anderer macht meinen Erfolg nicht zunichte.",
-        "Ich bin nicht im Rückstand."
-      ]
+      "affirmations": {
+        "0": "Meine Reise ist meine eigene.",
+        "1": "Ich muss nicht konkurrieren, um würdig zu sein.",
+        "2": "Ich darf mich in meinem eigenen Tempo entwickeln.",
+        "3": "Der Erfolg anderer macht meinen Erfolg nicht zunichte.",
+        "4": "Ich bin nicht im Rückstand."
+      }
     },
     "give-up": {
       "label": "Wenn du aufgeben willst",
-      "affirmations": [
-        "Ich muss jetzt noch keine Entscheidung treffen.",
-        "Dieses Gefühl wird vorübergehen.",
-        "Ich habe mehr überlebt, als mir bewusst ist.",
-        "Ich kann noch einen Moment bleiben.",
-        "Ich bin immer noch hier – und das ist wichtig."
-      ]
+      "affirmations": {
+        "0": "Ich muss jetzt noch keine Entscheidung treffen.",
+        "1": "Dieses Gefühl wird vorübergehen.",
+        "2": "Ich habe mehr überlebt, als mir bewusst ist.",
+        "3": "Ich kann noch einen Moment bleiben.",
+        "4": "Ich bin immer noch hier – und das ist wichtig."
+      }
     }
   },
   "app_complete_title": "Fühle dich ermächtigt",
@@ -188,11 +188,11 @@
   "app_description": "Verändern Sie Ihre Denkweise durch tägliche Affirmationen.",
   "intro": {
     "description": "Tägliche Affirmationen helfen dir, deine Denkweise zu verändern und emotionale Widerstandsfähigkeit aufzubauen. Nimm dir ein paar Minuten Zeit, um dich auf positive Gedanken zu konzentrieren und sprich freundlich mit dir selbst.",
-    "benefits": [
-      "Finde Frieden in schwierigen Momenten",
-      "Negative Denkmuster hinterfragen",
-      "Entwickle Selbstmitgefühl und Stärke"
-    ]
+    "benefits": {
+      "0": "Finde Frieden in schwierigen Momenten",
+      "1": "Negative Denkmuster hinterfragen",
+      "2": "Entwickle Selbstmitgefühl und Stärke"
+    }
   },
   "affirmation_for": "Bestätigung für",
   "affirmation": "Bejahung",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Wie fühlst du dich?",
+  "feelings_subheading": "Wähle die Emotion aus, die du",
+  "lang": "lang"
 }

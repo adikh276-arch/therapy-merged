@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Di Atas Jendela Anda",
         "subtitle": "Sistem saraf Anda sedang dalam kecepatan tinggi. Tidak apa-apa. Mari kita bawa Anda kembali dengan lembut.",
-        "feelings": [
-          "Jantung berdebar kencang",
-          "Pernapasan dangkal",
-          "Kepanikan atau kemarahan",
-          "Pikiran balap",
-          "Kegelisahan"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Jantung berdebar kencang",
+          "1": "Pernapasan dangkal",
+          "2": "Kepanikan atau kemarahan",
+          "3": "Pikiran balap",
+          "4": "Kegelisahan"
+        },
+        "tools": {
+          "0": {
             "name": "Pernapasan Kotak",
             "desc": "Tarik napas 4, bulan 4, hembuskan napas 4, bulan 4. Ulangi 4 kali."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Pembumian",
             "desc": "5 hal melihat, 4 menyentuh, 3 mendengar, 2 mencium, 1 rasa."
           },
-          {
+          "2": {
             "name": "Kaki di Lantai",
             "desc": "Tekan kaki ke bawah, katakan: 'Saya di sini. Saya aman. Ini akan berlalu.'"
           }
-        ],
+        },
         "button": "Saya merasa sedikit lebih tenang →",
         "footer": "Anda aman. Luangkan waktu Anda."
       },
       "hypo": {
         "title": "Di Bawah Jendela Anda",
         "subtitle": "Sistem saraf Anda menjadi sunyi. Itu melindungi Anda. Mari kita bangunkan kembali dengan lembut.",
-        "feelings": [
-          "Mati rasa",
-          "Pemutusan",
-          "Kelelahan ekstrem",
-          "Merasa tidak nyata",
-          "Kerataan"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Mati rasa",
+          "1": "Pemutusan",
+          "2": "Kelelahan ekstrem",
+          "3": "Merasa tidak nyata",
+          "4": "Kerataan"
+        },
+        "tools": {
+          "0": {
             "name": "Gerakan Lembut",
             "desc": "Berdiri, berjalan perlahan, ayunkan lengan. Biarkan tubuh Anda bangun."
           },
-          {
+          "1": {
             "name": "Suara Berirama",
             "desc": "Putar musik dengan ketukan yang stabil, ketuk kaki."
           },
-          {
+          "2": {
             "name": "Bicaralah dengan Keras",
             "desc": "Ucapkan nama, lokasi, tanggal hari ini dengan lantang. Melibatkan kembali otak yang berpikir."
           }
-        ],
+        },
         "button": "Saya merasa sedikit lebih hadir →",
         "footer": "Anda melakukannya dengan baik. Lakukan selangkah demi selangkah."
       },
       "safe": {
         "title": "Di Dalam Jendela Anda",
         "subtitle": "Anda berada di zona aman Anda. Di sinilah penyembuhan, koneksi, dan pertumbuhan terjadi. Bagus.",
-        "feelings": [
-          "Sekarang & sadar",
-          "Pernapasan stabil",
-          "Berpikir jernih",
-          "Terhubung"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Sekarang & sadar",
+          "1": "Pernapasan stabil",
+          "2": "Berpikir jernih",
+          "3": "Terhubung"
+        },
+        "tools": {
+          "0": {
             "name": "Terus Bernapas Perlahan",
             "desc": "Masuk melalui hidung, keluar melalui mulut."
           },
-          {
+          "1": {
             "name": "Refleksikan",
             "desc": "Apa yang membantu Anda tinggal di sini? Tuliskan."
           },
-          {
+          "2": {
             "name": "Welas Asih Diri",
             "desc": "\"Sistem saraf saya melakukan tugasnya. Saya tidak rusak. Saya sedang sembuh.'"
           }
-        ],
+        },
         "button": "Lanjutkan ke My Toolkit →",
         "footer": "Anda layak dirawat dan disembuhkan."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Toolkit Pribadi Anda",
       "subtitle": "Alat masuk Anda — disimpan dan siap kapan pun Anda membutuhkannya.",
-      "tools_list": [
-        "🌬️ Pernapasan Kotak",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Kaki di Lantai",
-        "🚶 Gerakan Lembut",
-        "🎵 Musik",
-        "💬 Bicaralah dengan Keras"
-      ],
+      "tools_list": {
+        "0": "🌬️ Pernapasan Kotak",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Kaki di Lantai",
+        "3": "🚶 Gerakan Lembut",
+        "4": "🎵 Musik",
+        "5": "💬 Bicaralah dengan Keras"
+      },
       "journal_label": "📝 Refleksi Hari Ini",
       "journal_desc": "Apa satu momen hari ini ketika Anda melihat sistem saraf Anda bergeser - dan apa yang Anda lakukan tentang itu?",
       "journal_placeholder": "Tulis di sini...",
@@ -156,13 +156,13 @@
       "preserve_button": "Mempertahankan Refleksi"
     }
   },
-  "nav": [
-    "Check-in",
-    "Penjelasan",
-    "Pemantauan",
-    "Zona",
-    "Perangkat"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Penjelasan",
+    "2": "Pemantauan",
+    "3": "Zona",
+    "4": "Perangkat"
+  },
   "history": {
     "title": "Riwayat Check-in",
     "empty": "Belum ada check-in."
@@ -176,15 +176,15 @@
     "title": "Check-in Selesai",
     "message": "Anda telah berhasil memetakan status Anda saat ini. Membangun kesadaran adalah langkah pertama untuk menemukan keseimbangan Anda."
   },
-  "days": [
-    "Saya",
-    "Selasa",
-    "Rabu",
-    "Musim gugur",
-    "Jumat",
-    "Sabtu",
-    "Matahari"
-  ],
+  "days": {
+    "0": "Saya",
+    "1": "Selasa",
+    "2": "Rabu",
+    "3": "Musim gugur",
+    "4": "Jumat",
+    "5": "Sabtu",
+    "6": "Matahari"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Mulai dari Awal",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

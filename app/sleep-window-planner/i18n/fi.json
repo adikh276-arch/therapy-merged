@@ -1,10 +1,10 @@
 {
   "app_title": "Uni-ikkunan suunnittelija",
-  "pill_labels": [
-    "Rakenna ikkunasi",
-    "Aseta ajat",
-    "Sinun uniaikasi"
-  ],
+  "pill_labels": {
+    "0": "Rakenna ikkunasi",
+    "1": "Aseta ajat",
+    "2": "Sinun uniaikasi"
+  },
   "screen1": {
     "title": "Uniaikasi merkitsee enemmän kuin luulet",
     "p1": "Uniaika on kiinteä aika nukkumaanmenon ja heräämisen välillä. Tasaisena pitäminen — jopa viikonloppuisin — on yksi tehokkaimmista keinoista, joita voit tehdä unesi parantamiseksi.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 tapaa suojata sitä",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Rentoudu 30 minuuttia ennen nukkumaanmenoa"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Sama herätysaika joka päivä — kyllä, myös viikonloppuisin"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Vältä päiväunia, jotka kestävät yli 20 minuuttia klo 15 jälkeen"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Sitoudu yhteen asiaan tänä iltana",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Laitoin puhelimeni pois ennen nukkumaanmenoa"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Aloita rentoutumisrutiini"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Himmennä valot tuntia ennen nukkumaanmenoa"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Viimeistele tehtävälistani ajoissa"
         }
-      ]
+      }
     },
     "quote": "Johdonmukaisuus on voimakkaampaa kuin täydellisyys. Yksi hyvä yö rakentaa seuraavan.",
     "button": "Säästä uniaikani ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

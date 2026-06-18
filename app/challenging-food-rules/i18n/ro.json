@@ -16,23 +16,23 @@
   },
   "rule_label": "Denumirea regulii",
   "rule_question": "Care e regula?",
-  "rule_options": [
-    "Nu ar trebui să mănânc după o anumită oră",
-    "Unele alimente sunt interzise",
-    "Trebuie să controlez porțiunile strict"
-  ],
+  "rule_options": {
+    "0": "Nu ar trebui să mănânc după o anumită oră",
+    "1": "Unele alimente sunt interzise",
+    "2": "Trebuie să controlez porțiunile strict"
+  },
   "rule_something_else": "Altceva...",
   "rule_placeholder": "Scrie-ți regula alimentară...",
   "feeling_label": "Impact emoțional",
   "feeling_question": "Cum se simte asta?",
-  "feeling_options": [
-    "😟 Anxios",
-    "😌 În control",
-    "😕 Vinovat",
-    "😣 Restricționat",
-    "😴 Obosit",
-    "😐 Mixt"
-  ],
+  "feeling_options": {
+    "0": "😟 Anxios",
+    "1": "😌 În control",
+    "2": "😕 Vinovat",
+    "3": "😣 Restricționat",
+    "4": "😴 Obosit",
+    "5": "😐 Mixt"
+  },
   "challenge_label": "Provocare moale",
   "challenge_question": "Întrebare blândă...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

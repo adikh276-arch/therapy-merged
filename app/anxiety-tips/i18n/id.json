@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Tarik napas...",
+  "hold_label": "Tahan...",
+  "exhale_label": "Menghembuskan napas...",
+  "start": "Siap",
+  "stop": "Berhenti",
+  "begin_breathing": "Mulai Bernapas",
+  "lang": "panjang"
 }

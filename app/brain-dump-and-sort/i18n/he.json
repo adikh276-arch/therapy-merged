@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "תכתוב מחשבה נוספת...",
+  "resume": "קורות חיים",
+  "pause": "הפסקה",
+  "growth_reminder": "אפילו צעדים קטנים מפחיתים את המשקל המנטלי. אתה לא",
+  "lang": "ארוך",
+  "complete_message": "אתה",
+  "welcome_sub": "ברוכים הבאים",
+  "clearing_sub": "ניקוי מנטלי",
+  "sorting_sub": "מיון",
+  "action_sub": "צעדי פעולה",
+  "reflect_sub": "השתקפות",
+  "intro": {
+    "viewHistory": "תצפית בהיסטוריה"
+  }
 }

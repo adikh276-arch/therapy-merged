@@ -5,7 +5,8 @@
     "title": "Votre audit du sommeil",
     "description": "Comprenez ce qui affecte votre sommeil et où de petits changements peuvent aider.",
     "start_button": "Start Audit",
-    "history_button": "Audits passés"
+    "history_button": "Audits passés",
+    "more_insights": "Retour au début"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Je me couche à des heures très différentes chaque soir"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Mon environnement de sommeil n’est ni sombre, ni calme, ni confortable"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Je fais défiler mon téléphone juste avant de dormir"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Je consomme de la caféine ou de l’alcool près de l’heure du coucher"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Je me réveille la nuit et j’ai du mal à me rendormir"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Mon esprit s’emballe de pensées quand j’essaie de dormir"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Je me sens rarement reposé après une nuit de sommeil"
     }
-  ],
-  "rating_labels": [
-    "Très pauvre",
-    "Pauvre",
-    "D’accord",
-    "Bien",
-    "Super"
-  ],
+  },
+  "rating_labels": {
+    "0": "Très pauvre",
+    "1": "Pauvre",
+    "2": "D’accord",
+    "3": "Bien",
+    "4": "Super"
+  },
   "status_labels": {
     "track": "Principalement sur la piste",
     "disruptions": "Quelques perturbations",
@@ -142,5 +143,8 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "2d": "2d",
+  "lang": "long",
+  "loading": "Historique de chargement..."
 }

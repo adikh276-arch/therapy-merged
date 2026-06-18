@@ -173,5 +173,10 @@
   "yes": "Ja",
   "no": "Nej",
   "date": "Datum",
-  "continue": "Fortsätt"
+  "continue": "Fortsätt",
+  "lang": "Lång",
+  "how_long": "Hur länge ",
+  "you_sleep": "Du sover.",
+  "where": "där ",
+  "you_wake_up": "Du vaknar inom dina sömncykler."
 }

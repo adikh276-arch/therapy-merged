@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Nad twoim oknem",
         "subtitle": "Twój układ nerwowy pracuje na pełnych obrotach. To w porządku. Delikatnie cię przyprowadzimy z powrotem.",
-        "feelings": [
-          "Szybkie serce",
-          "Płytkie oddychanie",
-          "Panika lub złość",
-          "Myśli o wyścigu",
-          "Niepokój"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Szybkie serce",
+          "1": "Płytkie oddychanie",
+          "2": "Panika lub złość",
+          "3": "Myśli o wyścigu",
+          "4": "Niepokój"
+        },
+        "tools": {
+          "0": {
             "name": "Oddychanie pudełkowe",
             "desc": "Wdech 4, księżyc 4, wydech 4, księżyc 4. Powtórz 4 razy."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Uziemienie",
             "desc": "5 rzeczy widzę, 4 dotyk, 3 słyszy, 2 węch, 1 smak."
           },
-          {
+          "2": {
             "name": "Stopy na podłodze",
             "desc": "Naciśnij stopy w dół, powiedz: 'Jestem tutaj. Jestem bezpieczny. To minie.'"
           }
-        ],
+        },
         "button": "Czuję się trochę spokojniejszy→",
         "footer": "Jesteś bezpieczny. Nie spiesz się."
       },
       "hypo": {
         "title": "Pod twoim oknem",
         "subtitle": "Twój układ nerwowy ucichł. Chroni cię. Delikatnie go obudźmy.",
-        "feelings": [
-          "Drętwienie",
-          "Rozłączenie",
-          "Ekstremalne zmęczenie",
-          "Czuję się nierealnie",
-          "Płaskość"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Drętwienie",
+          "1": "Rozłączenie",
+          "2": "Ekstremalne zmęczenie",
+          "3": "Czuję się nierealnie",
+          "4": "Płaskość"
+        },
+        "tools": {
+          "0": {
             "name": "Delikatny ruch",
             "desc": "Wstań, idź powoli, machaj rękami. Pozwól swojemu ciału się obudzić."
           },
-          {
+          "1": {
             "name": "Dźwięk rytmiczny",
             "desc": "Graj muzykę w stałym rytmie, stukaj stopami."
           },
-          {
+          "2": {
             "name": "Mów głośno",
             "desc": "Wypowiedz na głos swoje imię, miejsce, dzisiejszą datę. Ponownie angażuj mózg myślenia."
           }
-        ],
+        },
         "button": "Czuję się trochę bardziej obecna →",
         "footer": "Radzisz sobie świetnie. Idź krok po kroku."
       },
       "safe": {
         "title": "Wewnątrz twojego okna",
         "subtitle": "Jesteś w swojej bezpiecznej strefie. To tutaj następuje uzdrowienie, więź i rozwój. Dobra robota.",
-        "feelings": [
-          "Obecny i świadomy",
-          "Równy oddech",
-          "Jasne myślenie",
-          "Połączone"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Obecny i świadomy",
+          "1": "Równy oddech",
+          "2": "Jasne myślenie",
+          "3": "Połączone"
+        },
+        "tools": {
+          "0": {
             "name": "Oddychaj powoli",
             "desc": "Wdech przez nos, wydech przez usta."
           },
-          {
+          "1": {
             "name": "Refleksja",
             "desc": "Co pomogło ci tu zostać? Zapisz to."
           },
-          {
+          "2": {
             "name": "Samowspółczucie",
             "desc": "'Mój układ nerwowy wykonywał swoją pracę. Nie jestem zepsuty. Leczę się.'"
           }
-        ],
+        },
         "button": "Kontynuuj do mojego zestawu narzędzi →",
         "footer": "Zasługujesz na troskę i uzdrowienie."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Twój osobisty zestaw narzędzi",
       "subtitle": "Twoje podstawowe narzędzia — zapisane i gotowe, kiedy tylko ich potrzebujesz.",
-      "tools_list": [
-        "🌬️ Oddychanie pudełkowe",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Stopy na podłodze",
-        "🚶 Delikatny ruch",
-        "🎵 Muzyka",
-        "💬 Mów głośno"
-      ],
+      "tools_list": {
+        "0": "🌬️ Oddychanie pudełkowe",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Stopy na podłodze",
+        "3": "🚶 Delikatny ruch",
+        "4": "🎵 Muzyka",
+        "5": "💬 Mów głośno"
+      },
       "journal_label": "📝 Dzisiejsza refleksja",
       "journal_desc": "Jaki był dziś moment, w którym zauważyłaś, że Twój układ nerwowy się zmienia — i co z tym zrobiłaś?",
       "journal_placeholder": "Napisz tutaj...",
@@ -156,13 +156,13 @@
       "preserve_button": "Zachowaj odbicie"
     }
   },
-  "nav": [
-    "Odprawa",
-    "Wyjaśnienie",
-    "Monitorowanie",
-    "Strefa",
-    "Zestaw narzędzi"
-  ],
+  "nav": {
+    "0": "Odprawa",
+    "1": "Wyjaśnienie",
+    "2": "Monitorowanie",
+    "3": "Strefa",
+    "4": "Zestaw narzędzi"
+  },
   "history": {
     "title": "Historia odpraw",
     "empty": "Jeszcze żadnych odgłosów."
@@ -176,15 +176,15 @@
     "title": "Odprawa zakończona",
     "message": "Udało ci się zmapować swój obecny stan. Budowanie świadomości to pierwszy krok do znalezienia równowagi."
   },
-  "days": [
-    "Mój",
-    "Wtorek",
-    "Śr",
-    "Jesień",
-    "Piątek",
-    "Sobota",
-    "Słońce"
-  ],
+  "days": {
+    "0": "Mój",
+    "1": "Wtorek",
+    "2": "Śr",
+    "3": "Jesień",
+    "4": "Piątek",
+    "5": "Sobota",
+    "6": "Słońce"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Zacznij od nowa",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

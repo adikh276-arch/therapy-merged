@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Syklusen",
       "title": "Løkken forklarte",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Sinne kommer til overflaten"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Skam: «Jeg er slem»"
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Skam blir begravet"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Sinne bryter ut igjen"
         }
-      ],
+      },
       "button": "Jeg ser det"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Avbrudd",
       "title": "Avbryt syklusen",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Navngi kilden",
           "desc": "Spør: 'Hva føler jeg egentlig?' Skadet? Redd? Usett? Å navngi det svekker det."
         },
-        {
+        "1": {
           "title": "Medfølelsespause",
           "desc": "Hånd på brystet. Si: 'Dette er vanskelig. Jeg er menneskelig. Jeg kan komme meg gjennom dette.'"
         },
-        {
+        "2": {
           "title": "Reparer med eleganse",
           "desc": "Gjør opp for deg om nødvendig – men ikke gå i panik. Du er ikke ditt verste øyeblikk."
         }
-      ],
+      },
       "notice": "Å legge merke til syklusen er allerede første steg. Du gjør jobben.",
       "button": "Fullstendig aktivitet"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

@@ -10,57 +10,57 @@
       "title": "Dormi bene",
       "description": "Punta a dormire 7–9 ore ogni notte. Cerca di dormire e svegliarti contemporaneamente ogni giorno.",
       "why": "Il sonno aiuta cervello e corpo a recuperare e riduce gli ormoni dello stress.",
-      "do": [
-        "Mantenere un ritmo fisso del sonno",
-        "Evita gli schermi un'ora prima di andare a letto",
-        "Mantieni la stanza fresca e buia",
-        "Evita la caffeina dopo le 16:00"
-      ],
+      "do": {
+        "0": "Mantenere un ritmo fisso del sonno",
+        "1": "Evita gli schermi un'ora prima di andare a letto",
+        "2": "Mantieni la stanza fresca e buia",
+        "3": "Evita la caffeina dopo le 16:00"
+      },
       "button": "Imposta il promemoria del sonno"
     },
     "breathing": {
       "title": "Esercitati con la respirazione profonda",
       "description": "Dedica qualche minuto a concentrarti sul respiro. La respirazione lenta riduce l'ansia.",
       "why": "La respirazione lenta attiva la risposta di rilassamento del corpo.",
-      "do": [
-        "Inspira per 4 secondi",
-        "Tieni per 4 secondi",
-        "Espira per 4 secondi",
-        "Ripeti per 1 minuto"
-      ]
+      "do": {
+        "0": "Inspira per 4 secondi",
+        "1": "Tieni per 4 secondi",
+        "2": "Espira per 4 secondi",
+        "3": "Ripeti per 1 minuto"
+      }
     },
     "exercise": {
       "title": "Muovi il tuo corpo",
       "description": "Camminare leggero o fare stretching aiuta a liberare lo stress e migliorare l'umore.",
       "why": "L'esercizio rilascio di endorfine e migliora l'umore.",
-      "do": [
-        "15 minuti a piedi",
-        "Allungamento leggero",
-        "Breve sessione di yoga",
-        "Allenamento veloce a casa"
-      ]
+      "do": {
+        "0": "15 minuti a piedi",
+        "1": "Allungamento leggero",
+        "2": "Breve sessione di yoga",
+        "3": "Allenamento veloce a casa"
+      }
     },
     "caffeine": {
       "title": "Limita caffeina e zucchero",
       "description": "Troppa caffeina e zucchero possono aumentare l'ansia e disturbare il sonno.",
       "why": "Troppa caffeina e zucchero aumentano ansia e problemi di sonno.",
-      "do": [
-        "Sostituisci un caffè con una tisana alle erbe",
-        "Bevi più acqua",
-        "Ridurre gli snack zuccherati",
-        "Evita la caffeina a tarda giornata"
-      ]
+      "do": {
+        "0": "Sostituisci un caffè con una tisana alle erbe",
+        "1": "Bevi più acqua",
+        "2": "Ridurre gli snack zuccherati",
+        "3": "Evita la caffeina a tarda giornata"
+      }
     },
     "planning": {
       "title": "Pianifica la tua giornata",
       "description": "Dividi i compiti grandi in passaggi più piccoli per evitare di sentirti sopraffatto.",
       "why": "Pianificare riduce il disordine mentale e il sovraccarico.",
-      "do": [
-        "Scrivi 3 compiti principali",
-        "Dividere i compiti in piccoli passi",
-        "Concentrati su un compito alla volta",
-        "Fai brevi pause"
-      ]
+      "do": {
+        "0": "Scrivi 3 compiti principali",
+        "1": "Dividere i compiti in piccoli passi",
+        "2": "Concentrati su un compito alla volta",
+        "3": "Fai brevi pause"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Inspira...",
+  "Hold…": "Fermati...",
+  "Exhale…": "Espira...",
+  "breathing_instruction": "Segui il cerchio per regolare",
+  "Resume": "Curriculum",
+  "Pause": "Pausa",
+  "lang": "lunga",
+  "Grounding": "Riduzione dello stress mentale",
+  "stay_present": "Consigli per alleviare lo stress",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Scegli una strategia target qui sotto per scoprire perché aiuta e come puoi applicarla quotidianamente."
+  },
+  "wellness_tip": "STRATEGIA QUOTIDIANA DELLO STRESS"
 }

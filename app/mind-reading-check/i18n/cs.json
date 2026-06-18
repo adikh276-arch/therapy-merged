@@ -3,11 +3,11 @@
   "intro": {
     "title": "Kontrola čtení myšlenek",
     "description": "Zpochybňuj předpoklady, které si děláš o tom, co si ostatní myslí.",
-    "benefits": [
-      "Přestaň předpokládat to nejhorší",
-      "Identifikujte zaujaté interpretace",
-      "Budujte jasnější komunikaci"
-    ],
+    "benefits": {
+      "0": "Přestaň předpokládat to nejhorší",
+      "1": "Identifikujte zaujaté interpretace",
+      "2": "Budujte jasnější komunikaci"
+    },
     "duration": "3-4 minuty",
     "view_past": "Zobrazit minulé reflexe"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Zkontrolujte své přesvědčení",
       "desc": "Jak silně věříte své původní myšlence nyní?",
-      "labels": [
-        "Vůbec ne",
-        "Úplně"
-      ]
+      "labels": {
+        "0": "Vůbec ne",
+        "1": "Úplně"
+      }
     },
     "step7": {
       "title": "Vyváženější pohled",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Příště",
       "desc": "Co byste mohli dělat místo toho, abyste předpokládali?",
-      "examples": [
-        "Zeptejte se na upřesnění",
-        "Dej tomu čas",
-        "Oznámení bez reakce"
-      ],
+      "examples": {
+        "0": "Zeptejte se na upřesnění",
+        "1": "Dej tomu čas",
+        "2": "Oznámení bez reakce"
+      },
       "placeholder": "Příště bych mohl..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

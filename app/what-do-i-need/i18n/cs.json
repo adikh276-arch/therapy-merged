@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Emocionální podpora",
       "prompt": "Jaká podpora by vám teď skutečně pomohla?",
-      "hints": [
-        "Potřebuju jen, aby...",
-        "Pomohlo by, kdyby...",
-        "Co opravdu chci je..."
-      ]
+      "hints": {
+        "0": "Potřebuju jen, aby...",
+        "1": "Pomohlo by, kdyby...",
+        "2": "Co opravdu chci je..."
+      }
     },
     "Space / time for myself": {
       "label": "Prostor / čas pro sebe",
       "prompt": "Jak by pro vás vypadalo mít takový prostor?",
-      "hints": [
-        "Využil bych ten čas k...",
-        "Vesmír by mi dovolil...",
-        "Potřebuju místo, abych..."
-      ]
+      "hints": {
+        "0": "Využil bych ten čas k...",
+        "1": "Vesmír by mi dovolil...",
+        "2": "Potřebuju místo, abych..."
+      }
     },
     "Clear communication": {
       "label": "Jasná komunikace",
       "prompt": "Jak by pro vás vypadala jasnější komunikace?",
-      "hints": [
-        "Přál bych si, abych mohl říct...",
-        "Kdyby opravdu poslouchali, řekl bych jim...",
-        "Komunikace je těžká, když..."
-      ]
+      "hints": {
+        "0": "Přál bych si, abych mohl říct...",
+        "1": "Kdyby opravdu poslouchali, řekl bych jim...",
+        "2": "Komunikace je těžká, když..."
+      }
     },
     "Reassurance": {
       "label": "Ujištění",
       "prompt": "Jaké ujištění by mělo smysl?",
-      "hints": [
-        "Potřebuju to slyšet...",
-        "Uklidnilo by mě vědět...",
-        "Pořád se bojím, že..."
-      ]
+      "hints": {
+        "0": "Potřebuju to slyšet...",
+        "1": "Uklidnilo by mě vědět...",
+        "2": "Pořád se bojím, že..."
+      }
     },
     "Understanding": {
       "label": "Porozumění",
       "prompt": "Jak by vypadalo cítit se skutečně pochopeno?",
-      "hints": [
-        "Přál bych si, aby to lidé věděli...",
-        "Co opravdu cítím, je...",
-        "Nikdo nevidí, že já..."
-      ]
+      "hints": {
+        "0": "Přál bych si, aby to lidé věděli...",
+        "1": "Co opravdu cítím, je...",
+        "2": "Nikdo nevidí, že já..."
+      }
     },
     "Stability": {
       "label": "Stabilita",
       "prompt": "Jak by se teď cítila stabilita ve vašem životě?",
-      "hints": [
-        "Potřebuji, aby věci působily...",
-        "Co by mě uzemnilo, je...",
-        "Stabilita znamená..."
-      ]
+      "hints": {
+        "0": "Potřebuji, aby věci působily...",
+        "1": "Co by mě uzemnilo, je...",
+        "2": "Stabilita znamená..."
+      }
     },
     "Honesty": {
       "label": "Upřímnost",
       "prompt": "Jak by vypadala větší upřímnost ve vaší situaci?",
-      "hints": [
-        "Pravda, které se musím postavit, je...",
-        "Chci být upřímný o...",
-        "Co se opravdu děje, je..."
-      ]
+      "hints": {
+        "0": "Pravda, které se musím postavit, je...",
+        "1": "Chci být upřímný o...",
+        "2": "Co se opravdu děje, je..."
+      }
     },
     "Respect": {
       "label": "Respekt",
       "prompt": "Jak pro vás teď vypadá respekt?",
-      "hints": [
-        "Zasloužím si, aby se ke mně zacházeli...",
-        "Respekt by vypadal jako...",
-        "Potřebuji, aby..."
-      ]
+      "hints": {
+        "0": "Zasloužím si, aby se ke mně zacházeli...",
+        "1": "Respekt by vypadal jako...",
+        "2": "Potřebuji, aby..."
+      }
     },
     "Clarity about relationship": {
       "label": "Jasnost ohledně vztahů",
       "prompt": "Jaký druh jasnosti by vám nejvíce pomohl?",
-      "hints": [
-        "Potřebuji vědět, jestli...",
-        "Co mě mate, je...",
-        "Chci, abychom si byli jasní ohledem..."
-      ]
+      "hints": {
+        "0": "Potřebuji vědět, jestli...",
+        "1": "Co mě mate, je...",
+        "2": "Chci, abychom si byli jasní ohledem..."
+      }
     },
     "default": {
       "prompt": "Jak by to vypadalo v reálné situaci?",
-      "hints": [
-        "Co mě napadá...",
-        "Teď se cítím...",
-        "Když budu k sobě upřímný..."
-      ]
+      "hints": {
+        "0": "Co mě napadá...",
+        "1": "Teď se cítím...",
+        "2": "Když budu k sobě upřímný..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Řekni něco upřímně"
     },
-    {
+    "1": {
       "label": "Najít si čas pro sebe"
     },
-    {
+    "2": {
       "label": "Obraťte se na někoho"
     },
-    {
+    "3": {
       "label": "Nastavte malou hranici"
     },
-    {
+    "4": {
       "label": "Ještě nevím jistě"
     }
-  ],
+  },
   "history": {
     "title": "Minulé úvahy",
     "empty": "Zatím žádné odrazy."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

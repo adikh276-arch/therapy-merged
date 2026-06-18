@@ -1,58 +1,58 @@
 {
   "app_title": "Memahami Kawalan",
   "app_subtitle": "Strategi Kelangsungan Hidup • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Mengapa Kawalan Boleh Berasa Begitu Kuat",
-      "paragraphs": [
-        "Bagi kebanyakan orang yang mengalami kesukaran makan, kawalan boleh terasa seperti cara untuk mewujudkan keselamatan.",
-        "Apabila kehidupan terasa tidak dapat diramalkan atau sengit dari segi emosi, memberi tumpuan kepada makanan, berat badan atau rutin boleh membawa rasa struktur dan kepastian.",
-        "Ini bukan mengenai kemahuan atau disiplin. Ia tentang cuba menstabilkan diri anda apabila keadaan terasa tidak menentu.",
-        "Dengan cara ini, kawalan menjadi strategi mengatasi — sesuatu yang membantu anda berasa berasas, walaupun hanya buat sementara waktu."
-      ],
+      "paragraphs": {
+        "0": "Bagi kebanyakan orang yang mengalami kesukaran makan, kawalan boleh terasa seperti cara untuk mewujudkan keselamatan.",
+        "1": "Apabila kehidupan terasa tidak dapat diramalkan atau sengit dari segi emosi, memberi tumpuan kepada makanan, berat badan atau rutin boleh membawa rasa struktur dan kepastian.",
+        "2": "Ini bukan mengenai kemahuan atau disiplin. Ia tentang cuba menstabilkan diri anda apabila keadaan terasa tidak menentu.",
+        "3": "Dengan cara ini, kawalan menjadi strategi mengatasi — sesuatu yang membantu anda berasa berasas, walaupun hanya buat sementara waktu."
+      },
       "microcopy": "Anda tidak bersendirian dalam perasaan seperti ini.",
       "cta": "Teruskan"
     },
-    {
+    "1": {
       "headline": "Cara Berbeza Kawalan Muncul",
       "intro": "Keperluan untuk kawalan tidak kelihatan sama untuk semua orang, tetapi ia sering muncul dalam corak seperti:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Peraturan makanan yang ketat atau tidak fleksibel"
         },
-        {
+        "1": {
           "text": "Perlu mengikuti rutin dengan tepat"
         },
-        {
+        "2": {
           "text": "Kebimbangan apabila rancangan berubah"
         },
-        {
+        "3": {
           "text": "Mengaitkan harga diri dengan bentuk/berat badan"
         }
-      ],
+      },
       "outro": "Lama kelamaan, ini boleh menjadi tegar, mengambil ruang mental dan menjadikannya lebih sukar untuk menyesuaikan diri.",
       "microcopy": "Apa yang bermula sebagai kawalan perlahan-lahan boleh mula terasa mengawal.",
       "cta": "Teruskan"
     },
-    {
+    "2": {
       "headline": "Di bawah kawalan",
       "intro": "Keinginan untuk mengawal selalunya mempunyai akar yang lebih mendalam. Ia boleh disambungkan kepada:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Rasa dibanjiri emosi"
         },
-        {
+        "1": {
           "text": "Mahukan kebolehramalan"
         },
-        {
+        "2": {
           "text": "Keperluan untuk kestabilan dan keselamatan"
         }
-      ],
+      },
       "insight": "Kawalan bukanlah masalahnya - ia adalah strategi yang ditemui oleh minda anda untuk mengatasinya. Dengan masa dan sokongan, cara lain untuk berasa selamat adalah mungkin.",
       "microcopy": "Pemahaman adalah langkah pertama yang kuat.",
       "cta": "Selesai Membaca"
     }
-  ],
+  },
   "complete": {
     "title": "Kesedaran yang Diperoleh",
     "message": "Memahami akar kawalan ialah langkah pertama yang berani ke arah mencari cara baharu untuk berasa selamat dan mantap.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

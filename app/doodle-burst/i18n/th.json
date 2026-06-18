@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "ผ้าใบ",
+  "2d": "2 วัน",
+  "a": "a",
+  "lang": "ยาว",
+  "complete_and_save": "กรอกและบันทึก"
 }

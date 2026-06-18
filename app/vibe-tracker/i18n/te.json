@@ -111,5 +111,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "పొడవు",
+  "loading": "మీ మార్గాన్ని లోడ్ చేస్తోంది..."
 }

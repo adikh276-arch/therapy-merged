@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Oui",
   "no": "Non",
-  "date": "Date"
+  "date": "Date",
+  "lang": "long",
+  "entry_x": "Entrée #",
+  "loading": "Chargement...",
+  "delete": "Supprimer"
 }

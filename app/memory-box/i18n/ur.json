@@ -1,12 +1,12 @@
 {
   "app_title": "میموری باکس",
-  "screen_titles": [
-    "تمہارا باکس",
-    "اعزازات",
-    "اظہار",
-    "محفوظ شدہ",
-    "جینٹل کیئر"
-  ],
+  "screen_titles": {
+    "0": "تمہارا باکس",
+    "1": "اعزازات",
+    "2": "اظہار",
+    "3": "محفوظ شدہ",
+    "4": "جینٹل کیئر"
+  },
   "complete_title": "یادداشت محفوظ",
   "complete_message": "آپ نے محفوظ طریقے سے {{name}} کی یادداشت اپنے باکس میں رکھ دی ہے۔ یہ تعلق کے لمحات ہمیشہ آپ کے لیے ہوتے ہیں۔",
   "auth_error": "آتھ سیشن غائب ہے یا ڈیٹا بیس کنفیگر نہیں ہے",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "ان کا نام ٹائپ کریں...",
     "placeholder_relation": "آپ انہیں کیسے جانتے ہیں؟ (اختیاری)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "ایک خوشگوار لمحہ",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "کچھ ایسا جو وہ کہا کرتے تھے",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "ایک چھوٹی سی روزمرہ یاد",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "ایک ایسی جگہ جو آپ کو ان کی یاد دلاتی ہے",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "کچھ ایسا جو میں کہنا چاہتا ہوں",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "جاری →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "محفوظ طریقے سے چھپا ہوا",
     "subtitle": "{{name}} کی یہ یاد اب آپ کے مجموعے کا حصہ ہے۔",
     "add_another": "ایک اور یادداشت شامل کریں",
-    "finish": "اختتامی عکاسی"
+    "finish": "اختتامی عکاسی",
+    "saved_title": "محفوظ رکھا گیا"
   },
   "closing": {
     "title": "خیال رکھنا",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "کیا آپ واقعی اس یادداشت کو حذف کرنا چاہتے ہیں؟"
   },
   "app_description": "میموری باکس",
   "before_you_go": "آپ کے جانے سے پہلے",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "لمبا"
 }

@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "Kun tunnet olosi yksinäiseksi ja surulliseksi",
-      "affirmations": [
-        "En ole yksin, vaikka siltä tuntuu.",
-        "Tunteeni ansaitsevat huolenpitoa ja lempeyttä.",
-        "Tämä hetki ei kestä ikuisesti.",
-        "Minulla on oikeus tarvita yhteyttä.",
-        "Voin tarjota itselleni lämpöä juuri nyt."
-      ]
+      "affirmations": {
+        "0": "En ole yksin, vaikka siltä tuntuu.",
+        "1": "Tunteeni ansaitsevat huolenpitoa ja lempeyttä.",
+        "2": "Tämä hetki ei kestä ikuisesti.",
+        "3": "Minulla on oikeus tarvita yhteyttä.",
+        "4": "Voin tarjota itselleni lämpöä juuri nyt."
+      }
     },
     "terrified": {
       "label": "Kun tunnet pelkoa",
-      "affirmations": [
-        "Olen turvassa tässä hetkessä.",
-        "Pelko on tunne, ei ennustus.",
-        "Voin ottaa tämän yhden hengenvedon kerrallaan.",
-        "Minun ei tarvitse ratkaista kaikkea nyt.",
-        "Olen vahvempi kuin tämä hetki."
-      ]
+      "affirmations": {
+        "0": "Olen turvassa tässä hetkessä.",
+        "1": "Pelko on tunne, ei ennustus.",
+        "2": "Voin ottaa tämän yhden hengenvedon kerrallaan.",
+        "3": "Minun ei tarvitse ratkaista kaikkea nyt.",
+        "4": "Olen vahvempi kuin tämä hetki."
+      }
     },
     "insignificant": {
       "label": "Kun tunnet itsesi merkityksettömäksi",
-      "affirmations": [
-        "Pienet hetket merkitsevät silti.",
-        "Minun ei tarvitse todistaa arvoani.",
-        "Minulla on lupa ottaa tilaa.",
-        "Olemassaoloni merkitsee.",
-        "Olen riittävä sellaisena kuin olen."
-      ]
+      "affirmations": {
+        "0": "Pienet hetket merkitsevät silti.",
+        "1": "Minun ei tarvitse todistaa arvoani.",
+        "2": "Minulla on lupa ottaa tilaa.",
+        "3": "Olemassaoloni merkitsee.",
+        "4": "Olen riittävä sellaisena kuin olen."
+      }
     },
     "overwhelmed": {
       "label": "Kun tunnet olosi ylikuormittuneeksi",
-      "affirmations": [
-        "Minun ei tarvitse tehdä kaikkea kerralla.",
-        "Yksi pieni askel riittää.",
-        "On ihan ok pysähtyä.",
-        "Minulla on lupa levätä.",
-        "Tämä tulee taas hallittavaksi."
-      ]
+      "affirmations": {
+        "0": "Minun ei tarvitse tehdä kaikkea kerralla.",
+        "1": "Yksi pieni askel riittää.",
+        "2": "On ihan ok pysähtyä.",
+        "3": "Minulla on lupa levätä.",
+        "4": "Tämä tulee taas hallittavaksi."
+      }
     },
     "hopeless": {
       "label": "Kun tunnet toivottomuutta",
-      "affirmations": [
-        "En tarvitse vastauksia tänään.",
-        "Muutos on yhä mahdollista.",
-        "Olen selvinnyt vaikeista päivistä ennenkin.",
-        "Voin jäädä tänne toistaiseksi.",
-        "Jotain lempeää voi silti tapahtua."
-      ]
+      "affirmations": {
+        "0": "En tarvitse vastauksia tänään.",
+        "1": "Muutos on yhä mahdollista.",
+        "2": "Olen selvinnyt vaikeista päivistä ennenkin.",
+        "3": "Voin jäädä tänne toistaiseksi.",
+        "4": "Jotain lempeää voi silti tapahtua."
+      }
     },
     "conflicted": {
       "label": "Kun tunnet ristiriitaisia tunteita",
-      "affirmations": [
-        "On ihan okei tuntea useampaa kuin yhtä asiaa yhtä aikaa.",
-        "En tarvitse selkeyttä heti.",
-        "Sekavuus ei tarkoita epäonnistumista.",
-        "Voin antaa itselleni aikaa.",
-        "Luotan itseeni selvittämään tämän."
-      ]
+      "affirmations": {
+        "0": "On ihan okei tuntea useampaa kuin yhtä asiaa yhtä aikaa.",
+        "1": "En tarvitse selkeyttä heti.",
+        "2": "Sekavuus ei tarkoita epäonnistumista.",
+        "3": "Voin antaa itselleni aikaa.",
+        "4": "Luotan itseeni selvittämään tämän."
+      }
     },
     "self-critical": {
       "label": "Kun olet hyvin itsekriittinen",
-      "affirmations": [
-        "Voin puhua itselleni ystävällisesti.",
-        "Minun ei tarvitse rangaista itseäni kasvaakseni.",
-        "Virheet eivät määrittele minua.",
-        "Opin, en epäonnistu.",
-        "Kasvu ei vaadi julmuutta."
-      ]
+      "affirmations": {
+        "0": "Voin puhua itselleni ystävällisesti.",
+        "1": "Minun ei tarvitse rangaista itseäni kasvaakseni.",
+        "2": "Virheet eivät määrittele minua.",
+        "3": "Opin, en epäonnistu.",
+        "4": "Kasvu ei vaadi julmuutta."
+      }
     },
     "out-of-place": {
       "label": "Kun tunnet olosi sosiaalisesti ulkopuoliseksi",
-      "affirmations": [
-        "Minulla on lupa olla hiljaa tai erilainen.",
-        "Minun ei tarvitse vastata kenenkään muun energiaan.",
-        "Kuulun joukkoon sellaisena kuin olen.",
-        "Voin ottaa tilaa varovasti.",
-        "En tee tätä väärin."
-      ]
+      "affirmations": {
+        "0": "Minulla on lupa olla hiljaa tai erilainen.",
+        "1": "Minun ei tarvitse vastata kenenkään muun energiaan.",
+        "2": "Kuulun joukkoon sellaisena kuin olen.",
+        "3": "Voin ottaa tilaa varovasti.",
+        "4": "En tee tätä väärin."
+      }
     },
     "unsafe": {
       "label": "Kun tunnet olosi turvattomaksi vieraiden seurassa",
-      "affirmations": [
-        "Voin liikkua omaan tahtiini.",
-        "Minulla on oikeus suojella rajojani.",
-        "Voin pysyä juurtuneena kehossani.",
-        "Minulla on lupa lähteä tilanteista.",
-        "Voin pitää itseni turvassa."
-      ]
+      "affirmations": {
+        "0": "Voin liikkua omaan tahtiini.",
+        "1": "Minulla on oikeus suojella rajojani.",
+        "2": "Voin pysyä juurtuneena kehossani.",
+        "3": "Minulla on lupa lähteä tilanteista.",
+        "4": "Voin pitää itseni turvassa."
+      }
     },
     "pressured": {
       "label": "Kun tunnet painetta töissä",
-      "affirmations": [
-        "Arvoni ei ole tuottavuuteni.",
-        "Minun ei tarvitse todistaa itseäni koko ajan.",
-        "Parhaani tekeminen riittää tänään.",
-        "Yksi tehtävä kerrallaan käy.",
-        "Olen enemmän kuin roolini."
-      ]
+      "affirmations": {
+        "0": "Arvoni ei ole tuottavuuteni.",
+        "1": "Minun ei tarvitse todistaa itseäni koko ajan.",
+        "2": "Parhaani tekeminen riittää tänään.",
+        "3": "Yksi tehtävä kerrallaan käy.",
+        "4": "Olen enemmän kuin roolini."
+      }
     },
     "face-the-day": {
       "label": "Kun et halua kohdata päivää",
-      "affirmations": [
-        "Voin ottaa tämän päivän pieninä paloina.",
-        "Läpi pääseminen riittää.",
-        "En tarvitse motivaatiota aloittaakseni.",
-        "Varovainen ilmestyminen lasketaan silti.",
-        "Tämä päivä ei määrittele minua."
-      ]
+      "affirmations": {
+        "0": "Voin ottaa tämän päivän pieninä paloina.",
+        "1": "Läpi pääseminen riittää.",
+        "2": "En tarvitse motivaatiota aloittaakseni.",
+        "3": "Varovainen ilmestyminen lasketaan silti.",
+        "4": "Tämä päivä ei määrittele minua."
+      }
     },
     "future": {
       "label": "Kun huolehdit tulevaisuudestasi",
-      "affirmations": [
-        "Voin palata nykyhetkeen.",
-        "Hoidan asiat sitä mukaa kun ne tulevat.",
-        "En tarvitse varmuutta tänään.",
-        "Olen kykenevä sopeutumaan.",
-        "Voin luottaa itseeni vähän enemmän."
-      ]
+      "affirmations": {
+        "0": "Voin palata nykyhetkeen.",
+        "1": "Hoidan asiat sitä mukaa kun ne tulevat.",
+        "2": "En tarvitse varmuutta tänään.",
+        "3": "Olen kykenevä sopeutumaan.",
+        "4": "Voin luottaa itseeni vähän enemmän."
+      }
     },
     "stuck": {
       "label": "Kun tunnet olevasi jumissa ongelmassa",
-      "affirmations": [
-        "Jumissa oleminen ei tarkoita, että olisin rikki.",
-        "Voin pysähtyä luovuttamatta.",
-        "En tarvitse välittömiä ratkaisuja.",
-        "Minulla on oikeus tuntea epävarmuutta.",
-        "Liikun edelleen, vaikka hitaasti."
-      ]
+      "affirmations": {
+        "0": "Jumissa oleminen ei tarkoita, että olisin rikki.",
+        "1": "Voin pysähtyä luovuttamatta.",
+        "2": "En tarvitse välittömiä ratkaisuja.",
+        "3": "Minulla on oikeus tuntea epävarmuutta.",
+        "4": "Liikun edelleen, vaikka hitaasti."
+      }
     },
     "compare": {
       "label": "Kun vertaat itseäsi",
-      "affirmations": [
-        "Matkani on oma.",
-        "Minun ei tarvitse kilpailla ollakseni arvokas.",
-        "Minulla on lupa kasvaa omaan tahtiini.",
-        "Jonkun toisen menestys ei pyyhi pois minun.",
-        "En ole jäljessä."
-      ]
+      "affirmations": {
+        "0": "Matkani on oma.",
+        "1": "Minun ei tarvitse kilpailla ollakseni arvokas.",
+        "2": "Minulla on lupa kasvaa omaan tahtiini.",
+        "3": "Jonkun toisen menestys ei pyyhi pois minun.",
+        "4": "En ole jäljessä."
+      }
     },
     "give-up": {
       "label": "Kun haluat luovuttaa",
-      "affirmations": [
-        "Minun ei tarvitse päättää mitään juuri nyt.",
-        "Tämä tunne menee ohi.",
-        "Olen selvinnyt enemmän kuin tajuan.",
-        "Voin jäädä vielä hetkeksi.",
-        "Olen yhä täällä — ja sillä on merkitystä."
-      ]
+      "affirmations": {
+        "0": "Minun ei tarvitse päättää mitään juuri nyt.",
+        "1": "Tämä tunne menee ohi.",
+        "2": "Olen selvinnyt enemmän kuin tajuan.",
+        "3": "Voin jäädä vielä hetkeksi.",
+        "4": "Olen yhä täällä — ja sillä on merkitystä."
+      }
     }
   },
   "app_complete_title": "Tunne itsesi voimaantuneeksi",
@@ -188,11 +188,11 @@
   "app_description": "Muokkaa ajattelutapaasi päivittäisten affirmaatioiden avulla.",
   "intro": {
     "description": "Päivittäiset affirmaatiot auttavat muokkaamaan ajattelutapaasi ja rakentamaan emotionaalista vastustuskykyä. Käytä hetki aikaa keskittyäksesi positiivisiin ajatuksiin ja puhu itsellesi ystävällisesti.",
-    "benefits": [
-      "Löydä rauha vaikeina hetkinä",
-      "Haasta negatiiviset ajatusmallit",
-      "Rakenna itsemyötätuntoa ja voimaa"
-    ]
+    "benefits": {
+      "0": "Löydä rauha vaikeina hetkinä",
+      "1": "Haasta negatiiviset ajatusmallit",
+      "2": "Rakenna itsemyötätuntoa ja voimaa"
+    }
   },
   "affirmation_for": "Vahvistus",
   "affirmation": "Vahvistus",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Miltä sinusta tuntuu?",
+  "feelings_subheading": "Valitse tunne, jonka sinä",
+  "lang": "pitkä"
 }

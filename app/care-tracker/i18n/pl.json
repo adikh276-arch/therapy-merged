@@ -33,13 +33,16 @@
     "intro": {
       "title": "Tracker samoopieki",
       "description": "Śledź swoje codzienne nawyki dbania o siebie i zobacz, jak wpływają one na Twoje ogólne samopoczucie. Konsekwencja jest kluczem do zdrowszego umysłu.",
-      "benefits": [
-        "Rejestruj codzienne działania dbające o siebie",
-        "Obserwuj czas poświęcony sobie",
-        "Monitoruj swoje nastroje",
-        "Zobacz historię i postępy"
-      ],
-      "duration": "2-3 minuty"
+      "benefits": {
+        "0": "Rejestruj codzienne działania dbające o siebie",
+        "1": "Obserwuj czas poświęcony sobie",
+        "2": "Monitoruj swoje nastroje",
+        "3": "Zobacz historię i postępy"
+      },
+      "duration": "2-3 minuty",
+      "benefit1": "Codziennie zapisuj działania dotyczące zdrowia fizycznego i psychicznego",
+      "benefit2": "Zauważ wyzwania uniemożliwiające ci odpoczynek",
+      "benefit3": "Buduj uważność poprzez pozytywne wzmocnienie"
     },
     "checkin": {
       "title": "Kontrola 🌿 samopielęgnacji",
@@ -135,20 +138,20 @@
       "Tired": "Zmęczony",
       "Low": "Niski"
     },
-    "positiveStatements": [
-      "Dziś pojawiłeś się dla siebie. To potężne. 🌿",
-      "Dbanie o siebie nie jest samolubne — jest niezbędne. Dobra robota. 💚",
-      "Każdy drobny akt troski buduje silniejszą ciebie. 🌱",
-      "Zainwestowałeś dziś w siebie. To ma znaczenie. ✨",
-      "Opieka nad tobą to najlepsze, co dziś zrobiłeś. 🍃"
-    ],
-    "supportiveStatements": [
-      "W porządku. Jutro to nowy początek. Bądź dla siebie delikatny. 🤍",
-      "Nie każdy dzień będzie idealny i to jest całkowicie w porządku. 🕊️",
-      "Robisz, co możesz. To zawsze wystarczy. 💛",
-      "Odpoczynek to także forma dbania o siebie. Daj sobie wyrozumiałość. 🌸",
-      "Uznanie dzisiejszego dnia wymaga odwagi. Już rośniesz. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Dziś pojawiłeś się dla siebie. To potężne. 🌿",
+      "1": "Dbanie o siebie nie jest samolubne — jest niezbędne. Dobra robota. 💚",
+      "2": "Każdy drobny akt troski buduje silniejszą ciebie. 🌱",
+      "3": "Zainwestowałeś dziś w siebie. To ma znaczenie. ✨",
+      "4": "Opieka nad tobą to najlepsze, co dziś zrobiłeś. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "W porządku. Jutro to nowy początek. Bądź dla siebie delikatny. 🤍",
+      "1": "Nie każdy dzień będzie idealny i to jest całkowicie w porządku. 🕊️",
+      "2": "Robisz, co możesz. To zawsze wystarczy. 💛",
+      "3": "Odpoczynek to także forma dbania o siebie. Daj sobie wyrozumiałość. 🌸",
+      "4": "Uznanie dzisiejszego dnia wymaga odwagi. Już rośniesz. 🌷"
+    }
   },
   "app_title": "Monitor samoopieki",
   "app_description": "Śledź swoje codzienne nawyki związane z dbaniem o siebie i zobacz, jak wpływają one na Twoje ogólne samopoczucie. Konsekwencja jest kluczem do zdrowszego umysłu.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

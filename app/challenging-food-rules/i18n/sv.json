@@ -16,23 +16,23 @@
   },
   "rule_label": "Namngivning av regeln",
   "rule_question": "Vad är regeln?",
-  "rule_options": [
-    "Jag borde inte äta efter en viss tid",
-    "Vissa livsmedel är förbjudna",
-    "Jag måste kontrollera delar strikt"
-  ],
+  "rule_options": {
+    "0": "Jag borde inte äta efter en viss tid",
+    "1": "Vissa livsmedel är förbjudna",
+    "2": "Jag måste kontrollera delar strikt"
+  },
   "rule_something_else": "Något annat...",
   "rule_placeholder": "Skriv din matregel...",
   "feeling_label": "Känslomässig påverkan",
   "feeling_question": "Hur känns detta?",
-  "feeling_options": [
-    "😟 Orolig",
-    "😌 I kontroll",
-    "😕 Skyldig",
-    "😣 Begränsat",
-    "😴 Trött",
-    "😐 Blandat"
-  ],
+  "feeling_options": {
+    "0": "😟 Orolig",
+    "1": "😌 I kontroll",
+    "2": "😕 Skyldig",
+    "3": "😣 Begränsat",
+    "4": "😴 Trött",
+    "5": "😐 Blandat"
+  },
   "challenge_label": "Mjuk utmaning",
   "challenge_question": "En försiktig fråga...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "آہستہ آہستہ سانس لیں...",
+  "instruction_out": "آہستہ آہستہ سانس باہر نکالو...",
+  "instruction_hold": "نرمی سے پکڑو...",
+  "lang": "لمبا"
 }

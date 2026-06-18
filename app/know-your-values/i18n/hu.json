@@ -29,7 +29,8 @@
     "historyDesc": "A korábbi elmélkedéseid itt vannak elmentve, így bármikor visszatérhetsz hozzájuk.",
     "noHistory": "Még nem fejezted be az értékreflexiót.",
     "startActivity": "Indíts el tevékenységet",
-    "startNew": "Új reflektálás indítása"
+    "startNew": "Új reflektálás indítása",
+    "aligned": "Aligned"
   },
   "values": {
     "Family": "Család",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "app_duration": "5 perc",
+  "loading": "Tükörképek töltése..."
 }

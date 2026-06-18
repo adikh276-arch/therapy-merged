@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro_benefit_1": "Få absolutt klarhet i dine grunnleggende overbevisninger",
+  "intro_benefit_2": "Sett klare mål for personlig transformasjon",
+  "reflection_subtitle": "Utkast dine ambisjoner. Fyll ut kjernekomponentene i formålet ditt.",
+  "mission_your_statement": "Din uttalelse",
+  "saving": "Redde...",
+  "mission_save_finish": "Lagre og avslutte",
+  "mission_share": "Del",
+  "mission_start_over": "Start på nytt",
+  "loading": "Laster deklarasjoner...",
+  "app": {
+    "startActivity": "Lag oppdrag"
+  }
 }

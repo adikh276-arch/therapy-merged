@@ -1,12 +1,12 @@
 {
   "app_title": "మెమొరీ బాక్స్",
-  "screen_titles": [
-    "మీ పెట్టె",
-    "గౌరవం",
-    "వ్యక్తీకరణ",
-    "సంరక్షించబడింది",
-    "సున్నితమైన సంరక్షణ"
-  ],
+  "screen_titles": {
+    "0": "మీ పెట్టె",
+    "1": "గౌరవం",
+    "2": "వ్యక్తీకరణ",
+    "3": "సంరక్షించబడింది",
+    "4": "సున్నితమైన సంరక్షణ"
+  },
   "complete_title": "మెమరీ భద్రపరచబడింది",
   "complete_message": "మీరు మీ బాక్సులో {{name}} యొక్క మెమరీని సురక్షితంగా ఉంచారు. కనెక్షన్ యొక్క ఈ క్షణాలు ఎల్లప్పుడూ మీవి.",
   "auth_error": "ప్రమాణీకరణ సెషన్ మిస్ అయింది లేదా DB కాన్ఫిగర్ చేయబడలేదు",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "వారి పేరును టైప్ చేయండి...",
     "placeholder_relation": "వారు మీకు ఎలా తెలుసు? (ఐచ్ఛికం)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "సంతోషకరమైన క్షణం",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "వారు చెప్పేది",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "ఒక చిన్న రోజువారీ జ్ఞాపకం",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "వాటిని మీకు గుర్తు చేసే ప్రదేశం",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "నేను చెప్పగలనని నేను కోరుకుంటున్నాను",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "→ కొనసాగించండి"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "సురక్షితంగా దూరంగా ఉంచబడింది",
     "subtitle": "{{name}} యొక్క ఈ మెమరీ ఇప్పుడు మీ సేకరణలో భాగం.",
     "add_another": "మరొక మెమరీని జోడించండి",
-    "finish": "రిఫ్లెక్షన్ పూర్తి చేయండి"
+    "finish": "రిఫ్లెక్షన్ పూర్తి చేయండి",
+    "saved_title": "సురక్షితంగా ఉంచబడింది"
   },
   "closing": {
     "title": "జాగ్రత్తలు తీసుకోవడం",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "ఈ మెమరీని మీరు కచ్చితంగా డిలీట్ చేయాలని అనుకుంటున్నారా?"
   },
   "app_description": "జ్ఞాపకాల పెట్టె",
   "before_you_go": "మీరు వెళ్ళే ముందు",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "పొడవు"
 }

@@ -24,7 +24,8 @@
         "body": "每一种症状都曾是求生本能。你的大脑为了让你活下去，竭尽所能。"
       }
     },
-    "healing": "疗愈并非遗忘，而是帮助你的大脑明白你现在是安全的。"
+    "healing": "疗愈并非遗忘，而是帮助你的大脑明白你现在是安全的。",
+    "finish_reading": "阅读完毕"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "complete": {
+    "message": "你"
+  }
 }

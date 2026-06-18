@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Lad os tage en kort pause sammen.\n\nI det næste minut er der intet, du behøver at løse, rette eller reagere på. Tillad dig selv at sætte farten ned.\n\nSæt dig behageligt, sæt fødderne på jorden hvis du kan, og tag forsigtigt en langsom indånding... og langsomt ånde ud.\n\nDette er dit øjeblik til at nulstille og genoprette forbindelsen til nutiden.",
       "button": "Begynd"
     },
-    {
+    "1": {
       "heading": "5 ting du kan se",
       "body": "Se dig langsomt omkring. Lad dine øjne bevæge sig blidt hen over rummet. Læg mærke til farver, former, lys, skygger eller små detaljer, du måske ikke har lagt mærke til før.",
       "button": "Næste"
     },
-    {
+    "2": {
       "heading": "4 ting du kan mærke",
       "body": "Fokuser på din krop. Mærk dine fødder røre gulvet, din ryg mod stolen, dit tøj på huden eller luften omkring dig. Anerkend fire fysiske fornemmelser.",
       "button": "Næste"
     },
-    {
+    "3": {
       "heading": "3 ting du kan høre",
       "body": "Lyt godt efter. Du kan høre fjerne lyde, en ventilator, tastaturskrivning, vejrtrækning eller endda stilhed. Identificer tre lyde uden at dømme dem.",
       "button": "Næste"
     },
-    {
+    "4": {
       "heading": "2 Ting Du Kan Lugte",
       "body": "Se om du kan opfange nogen duft i rummet. Hvis intet skiller sig ud, så læg blot mærke til den neutrale lugt af luften omkring dig.",
       "button": "Næste"
     },
-    {
+    "5": {
       "heading": "1 ting du kan smage",
       "body": "Vær opmærksom på smagen i munden. Det kan være subtilt eller neutralt — bare observer det.",
       "button": "Næste"
     },
-    {
+    "6": {
       "heading": "Refleksion",
       "body": "Tag en langsom indånding... og pust blidt ud.",
       "button": "Indsend"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Start forfra",
@@ -90,5 +90,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "/5-4-3-2-1-grounding": "/5-4-3-2-1-jordforbindelse"
 }

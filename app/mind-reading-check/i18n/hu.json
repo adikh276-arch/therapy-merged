@@ -3,11 +3,11 @@
   "intro": {
     "title": "Gondolatolvasó Ellenőrzés",
     "description": "Kérdőjelezd meg azokat a feltételezéseket, amiket mások gondolkodnak.",
-    "benefits": [
-      "Ne feltételezd a legrosszabbat",
-      "Elfogult értelmezések azonosítása",
-      "Tisztább kommunikáció kialakítása"
-    ],
+    "benefits": {
+      "0": "Ne feltételezd a legrosszabbat",
+      "1": "Elfogult értelmezések azonosítása",
+      "2": "Tisztább kommunikáció kialakítása"
+    },
     "duration": "3-4 perc",
     "view_past": "Tekints múltbeli visszatükröződéseket"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Nézd meg a hitedet",
       "desc": "Mennyire hiszel most az eredeti gondolatodban?",
-      "labels": [
-        "Egyáltalán nem",
-        "Teljesen"
-      ]
+      "labels": {
+        "0": "Egyáltalán nem",
+        "1": "Teljesen"
+      }
     },
     "step7": {
       "title": "Kiegyensúlyozottabb nézet",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Legközelebb",
       "desc": "Mit tehetnél ahelyett, hogy feltételeznéd?",
-      "examples": [
-        "Kérj tisztázást",
-        "Adj neki egy kis időt",
-        "Értesítés reagálás nélkül"
-      ],
+      "examples": {
+        "0": "Kérj tisztázást",
+        "1": "Adj neki egy kis időt",
+        "2": "Értesítés reagálás nélkül"
+      },
       "placeholder": "Legközelebb tudnék..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

@@ -14,7 +14,8 @@
     "input1_placeholder": "z. B. Spaziergänge im Park",
     "input2_label": "Wenn ich das mache, fühle ich mich meistens...",
     "input2_placeholder": "z. B. ruhig und präsent",
-    "button": "Weitermachen"
+    "button": "Weitermachen",
+    "stage": "Stufe 1: Rückruf"
   },
   "meaning": {
     "title": "Was macht es bedeutungsvoll?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "z. B. verbunden und geerdet",
     "input3_label": "Es erinnert mich an...",
     "input3_placeholder": "z. B. Sommer als Kind",
-    "button": "Rette mein Spiegelbild"
+    "button": "Rette mein Spiegelbild",
+    "stage": "Stufe 2: Bedeutung"
   },
   "smallStep": {
     "title": "Ein kleiner Schritt nach vorn",
@@ -34,7 +36,8 @@
     "input1_label": "Ein kleiner Schritt, den ich diese Woche machen könnte, ist...",
     "input1_placeholder": "z. B. einen zehnminütigen Spaziergang machen",
     "button_save": "Speichern",
-    "button_home": "Geh nach Hause"
+    "button_home": "Geh nach Hause",
+    "stage": "Stufe 3: Aktion"
   },
   "affirmation": {
     "title": "Du hast einen schönen Schritt gemacht",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

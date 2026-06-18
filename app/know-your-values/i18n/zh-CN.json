@@ -29,7 +29,8 @@
     "historyDesc": "您之前的思考记录会保存在这里，您可以随时查看。",
     "noHistory": "你还没有完成价值观反思。",
     "startActivity": "开始活动",
-    "startNew": "开始新的反思"
+    "startNew": "开始新的反思",
+    "aligned": "阵线"
   },
   "values": {
     "Family": "家庭",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "app_duration": "5分钟",
+  "loading": "加载反射......"
 }

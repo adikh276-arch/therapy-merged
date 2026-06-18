@@ -1,10 +1,10 @@
 {
   "app_title": "Lipsește pe cineva",
-  "subtitles": [
-    "Validare",
-    "Înțelepciunea Interioară",
-    "Complet"
-  ],
+  "subtitles": {
+    "0": "Validare",
+    "1": "Înțelepciunea Interioară",
+    "2": "Complet"
+  },
   "complete_title": "Claritate dobândită",
   "complete_message": "Înțelegerea chimiei de a-ți dori cineva este primul pas spre vindecare. Sentimentele tale sunt valide, iar creierul tău pur și simplu își face treaba de a proteja și procesa.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

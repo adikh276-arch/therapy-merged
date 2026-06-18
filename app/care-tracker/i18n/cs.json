@@ -33,13 +33,16 @@
     "intro": {
       "title": "Sledovač péče o sebe",
       "description": "Sledujte své každodenní návyky péče o sebe a sledujte, jak ovlivňují vaši celkovou pohodu. Konzistence je klíčem ke zdravější mysli.",
-      "benefits": [
-        "Zaznamenávejte denní aktivity péče o sebe",
-        "Sledujte čas strávený sám sebou",
-        "Sledujte své náladové vzorce",
-        "Zobrazit historii a pokrok"
-      ],
-      "duration": "2-3 minuty"
+      "benefits": {
+        "0": "Zaznamenávejte denní aktivity péče o sebe",
+        "1": "Sledujte čas strávený sám sebou",
+        "2": "Sledujte své náladové vzorce",
+        "3": "Zobrazit historii a pokrok"
+      },
+      "duration": "2-3 minuty",
+      "benefit1": "Denně si zapisujte fyzické a duševní zdravé aktivity",
+      "benefit2": "Všimněte si překážek, které vám brání odpočinout",
+      "benefit3": "Budujte mindfulness prostřednictvím pozitivního posilování"
     },
     "checkin": {
       "title": "Kontrola 🌿 péče o sebe",
@@ -135,20 +138,20 @@
       "Stressed": "Stresovaný",
       "Tired": "Unavený"
     },
-    "positiveStatements": [
-      "Dnes jsi přišel kvůli sobě. To je silné. 🌿",
-      "Péče o sebe není sobecká — je nezbytná. Dobrá práce. 💚",
-      "Každý malý projev péče buduje silnější vás. 🌱",
-      "Dnes jsi investoval do sebe. To je důležité. ✨",
-      "Starat se o tebe je to nejlepší, co jsi dnes udělal. 🍃"
-    ],
-    "supportiveStatements": [
-      "To je v pořádku. Zítra je nový začátek. Buď na sebe laskavý. 🤍",
-      "Ne každý den bude dokonalý, a to je naprosto v pořádku. 🕊️",
-      "Děláš, co můžeš. To je vždycky dost. 💛",
-      "Odpočinek je také formou péče o sebe. Buď k sobě shovívavý. 🌸",
-      "Přiznat dnešek vyžaduje odvahu. Už rosteš. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Dnes jsi přišel kvůli sobě. To je silné. 🌿",
+      "1": "Péče o sebe není sobecká — je nezbytná. Dobrá práce. 💚",
+      "2": "Každý malý projev péče buduje silnější vás. 🌱",
+      "3": "Dnes jsi investoval do sebe. To je důležité. ✨",
+      "4": "Starat se o tebe je to nejlepší, co jsi dnes udělal. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "To je v pořádku. Zítra je nový začátek. Buď na sebe laskavý. 🤍",
+      "1": "Ne každý den bude dokonalý, a to je naprosto v pořádku. 🕊️",
+      "2": "Děláš, co můžeš. To je vždycky dost. 💛",
+      "3": "Odpočinek je také formou péče o sebe. Buď k sobě shovívavý. 🌸",
+      "4": "Přiznat dnešek vyžaduje odvahu. Už rosteš. 🌷"
+    }
   },
   "app_title": "Sledovač péče o sebe",
   "app_description": "Sledujte své každodenní návyky v péči o sebe a sledujte, jak ovlivňují vaši celkovou pohodu. Důslednost je klíčem ke zdravější mysli.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

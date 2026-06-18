@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Vad triggar dig?",
     "desc": "Välj en situation du kan relatera till",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Någon avbryter mig",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Saker och ting går inte som planerat",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Jag känner mig ignorerad",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Jag känner mig överväldigad",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Skriv din egen...",
     "button": "Övningspaus →"
   },
   "hold": {
     "title": "Håll pausen ⏸️",
     "instructions": "Håll cirkeln i 5 sekunder",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Tryck och håll..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Fortsätt med det..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Du gör det..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Nästan framme..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Det är pausen",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "Övrigt",
+  "lang": "Lång"
 }

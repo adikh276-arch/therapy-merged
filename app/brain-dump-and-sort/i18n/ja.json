@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "別の考えを書き込む...",
+  "resume": "履歴書",
+  "pause": "間",
+  "growth_reminder": "ほんの小さな一歩でも精神的な負担が軽減されます。あなたは",
+  "lang": "長い",
+  "complete_message": "お前だ",
+  "welcome_sub": "ようこそ",
+  "clearing_sub": "メンタルクリアリング",
+  "sorting_sub": "ソーティング",
+  "action_sub": "行動ステップ",
+  "reflect_sub": "反省",
+  "intro": {
+    "viewHistory": "歴史を見る"
+  }
 }

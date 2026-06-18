@@ -153,5 +153,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "watch_thoughts_drift": "আপনার চিন্তাভাবনা দূরে সরে যেতে দেখুন...",
+  "lang": "দীর্ঘ",
+  "app_duration": "3-5 মিনিট"
 }

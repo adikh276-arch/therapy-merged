@@ -1,10 +1,10 @@
 {
   "app_title": "Planificateur de fenêtres de sommeil",
-  "pill_labels": [
-    "Construis ta fenêtre",
-    "Fixe tes horaires",
-    "Ta fenêtre de sommeil"
-  ],
+  "pill_labels": {
+    "0": "Construis ta fenêtre",
+    "1": "Fixe tes horaires",
+    "2": "Ta fenêtre de sommeil"
+  },
   "screen1": {
     "title": "Votre fenêtre de sommeil compte plus que vous ne le pensez",
     "p1": "Une fenêtre de sommeil est le temps fixe entre le coucher et le réveil. Rester régulier — même le week-end — est l’une des choses les plus puissantes que vous puissiez faire pour votre sommeil.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 façons de le protéger",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Détends-toi 30 minutes avant l’heure du coucher"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Même heure de veil tous les jours — oui, aussi le week-end"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Évitez les siestes de plus de 20 minutes après 15h"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Engage-toi à une chose ce soir",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Je range mon téléphone avant de dormir"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Commencez une routine de détente"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Baissez la lumière une heure avant le coucher"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Finis ma liste de choses à faire tôt"
         }
-      ]
+      }
     },
     "quote": "La constance est plus puissante que la perfection. Une bonne nuit construit la suivante.",
     "button": "Sauve ma fenêtre de sommeil ✓",
@@ -143,5 +143,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

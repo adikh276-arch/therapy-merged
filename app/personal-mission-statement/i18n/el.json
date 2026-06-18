@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "μακρύς",
+  "intro_benefit_1": "Αποκτήστε απόλυτη σαφήνεια σχετικά με τις βασικές σας πεποιθήσεις",
+  "intro_benefit_2": "Θέστε σαφείς στόχους για προσωπική μεταμόρφωση",
+  "reflection_subtitle": "Σχεδιάστε τις φιλοδοξίες σας. Συμπληρώστε τα βασικά στοιχεία του σκοπού σας.",
+  "mission_your_statement": "Η δήλωσή σας",
+  "saving": "Οικονομία...",
+  "mission_save_finish": "Αποθήκευση & Ολοκλήρωση",
+  "mission_share": "Κοινοποίηση",
+  "mission_start_over": "Ξεκινήστε από την αρχή",
+  "loading": "Δηλώσεις φόρτωσης...",
+  "app": {
+    "startActivity": "Δημιουργία αποστολής"
+  }
 }

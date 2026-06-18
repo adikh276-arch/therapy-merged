@@ -1,10 +1,10 @@
 {
   "app_title": "Pianificatore della finestra di sonno",
-  "pill_labels": [
-    "Costruisci la tua finestra",
-    "Fissa i tuoi tempi",
-    "La tua finestra di sonno"
-  ],
+  "pill_labels": {
+    "0": "Costruisci la tua finestra",
+    "1": "Fissa i tuoi tempi",
+    "2": "La tua finestra di sonno"
+  },
   "screen1": {
     "title": "La finestra del sonno conta più di quanto pensi",
     "p1": "Una finestra di sonno è il tempo fisso tra il momento in cui vai a letto e il momento in cui ti svegli. Mantenere la costanza — anche nei fine settimana — è una delle cose più potenti che puoi fare per il tuo sonno.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 modi per proteggerlo",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Rilassati 30 minuti prima dell'ora di andare a letto"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Stessa ora di veglia ogni giorno — sì, anche nei weekend"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Evita i pisolini più lunghi di 20 minuti dopo le 15:00"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Impegnati a una cosa stasera",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Ho messo via il telefono prima di andare a letto"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Inizia una routine di rilassamento"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Abbassa le luci un'ora prima di andare a letto"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Finisci presto la mia lista di cose da fare"
         }
-      ]
+      }
     },
     "quote": "La coerenza è più potente della perfezione. Una buona notte si costruisce la successiva.",
     "button": "Risparmia la finestra del sonno ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

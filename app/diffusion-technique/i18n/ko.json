@@ -153,5 +153,8 @@
   "yes": "네",
   "no": "아니요",
   "date": "날짜",
-  "continue": "계속하기"
+  "continue": "계속하기",
+  "watch_thoughts_drift": "생각이 멀어지는 걸 지켜봐...",
+  "lang": "길게",
+  "app_duration": "3-5분"
 }

@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro_benefit_1": "Krijg absolute helderheid over je kernovertuigingen",
+  "intro_benefit_2": "Stel duidelijke doelen voor persoonlijke transformatie",
+  "reflection_subtitle": "Stel je ambities op. Vul de kernonderdelen van je doel in.",
+  "mission_your_statement": "Uw verklaring",
+  "saving": "Redden...",
+  "mission_save_finish": "Opslaan en Afmaken",
+  "mission_share": "Deel",
+  "mission_start_over": "Opnieuw beginnen",
+  "loading": "Laaddeclaraties...",
+  "app": {
+    "startActivity": "Creëer Missie"
+  }
 }

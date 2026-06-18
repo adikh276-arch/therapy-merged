@@ -1,12 +1,12 @@
 {
   "app_title": "Geheugendoos",
-  "screen_titles": [
-    "Jouw Doos",
-    "Eren",
-    "Expressen",
-    "Bewaard",
-    "Zachte zorg"
-  ],
+  "screen_titles": {
+    "0": "Jouw Doos",
+    "1": "Eren",
+    "2": "Expressen",
+    "3": "Bewaard",
+    "4": "Zachte zorg"
+  },
   "complete_title": "Herinnering bewaard",
   "complete_message": "Je hebt veilig een herinnering van {{name}} in je doos geplaatst. Deze momenten van verbinding zijn altijd van jou om te bewaren.",
   "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Typ hun naam...",
     "placeholder_relation": "Hoe ken je ze? (optioneel)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Een gelukkig moment",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Iets wat ze vroeger zeiden",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Een kleine alledaagse herinnering",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Een plek die je aan hen doet denken",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Iets wat ik graag zou willen zeggen",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Ga verder →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Veilig opgeborgen",
     "subtitle": "Deze herinnering aan {{name}} maakt nu deel uit van je collectie.",
     "add_another": "Voeg een andere herinnering toe",
-    "finish": "Eindreflectie"
+    "finish": "Eindreflectie",
+    "saved_title": "Veilig Bewaard"
   },
   "closing": {
     "title": "Zorg nemen",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Weet je zeker dat je deze herinnering wilt verwijderen?"
   },
   "app_description": "Herinneringsdoos",
   "before_you_go": "Voordat je vertrekt",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

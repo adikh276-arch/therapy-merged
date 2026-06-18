@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "আস্তে আস্তে নিঃশ্বাস নিন...",
+  "instruction_out": "আস্তে আস্তে শ্বাস ছাড়ুন...",
+  "instruction_hold": "আস্তে আস্তে ধরে রাখুন...",
+  "lang": "দীর্ঘ"
 }

@@ -21,30 +21,31 @@
       "placeholder": "Introduce un nombre...",
       "button": "Guardar nombre"
     },
-    "prompts": [
-      "Una persona que trae alegría",
-      "Una persona que te apoya",
-      "Una persona con la que puedas hablar",
-      "Una persona en la que confíes",
-      "Una persona que te inspira"
-    ]
+    "prompts": {
+      "0": "Una persona que trae alegría",
+      "1": "Una persona que te apoya",
+      "2": "Una persona con la que puedas hablar",
+      "3": "Una persona en la que confíes",
+      "4": "Una persona que te inspira"
+    }
   },
   "reflection": {
     "subtitle": "Final reflections",
     "title": "¿Qué notas tú?",
     "p_intro": "Tómate un momento para observar tu círculo. Quizá notes lo siguiente:",
-    "list": [
-      "Algunas personas se sienten más cercanas que otras",
-      "Algunas conexiones se sienten fuertes",
-      "Algunos se sienten distantes o poco claros",
-      "Puede haber lagunas — o simplemente unas pocas personas significativas"
-    ],
+    "list": {
+      "0": "Algunas personas se sienten más cercanas que otras",
+      "1": "Algunas conexiones se sienten fuertes",
+      "2": "Algunos se sienten distantes o poco claros",
+      "3": "Puede haber lagunas — o simplemente unas pocas personas significativas"
+    },
     "italic": "La conciencia es el primer paso para construir las conexiones que valoras. 🧘",
     "label": "💭 ¿Hay alguien con quien te gustaría sentirte más conectado?",
     "placeholder": "Escribe aquí tus pensamientos...",
     "save_button": "Guardar Reflejo",
     "saving_button": "Guardando...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Tu mapa interpersonal está guardado de forma segura en tu diario. Cultivar estos nodos de apoyo nos ayuda a mantenernos resilientes."
   },
   "history": {
     "title": "Historia de Your Circles",
@@ -85,7 +86,8 @@
     "phase_label": "Fase",
     "rounds_selector": "{{count}} Rondas",
     "instruction_ready": "Configura tus rondas y toca play para comenzar",
-    "instruction_running": "Sigue el círculo para regular tu respiración"
+    "instruction_running": "Sigue el círculo para regular tu respiración",
+    "confirm_delete": "¿Estás seguro de que quieres borrar este registro de círculos?"
   },
   "intro_p1": "En distintos momentos de la vida, nuestro sistema de apoyo puede cambiar. 🌱 A veces nos sentimos conectados y apoyados. Otras veces, las cosas pueden parecer distantes o confusas.",
   "intro_p2": "Esta actividad es un espacio para hacer una pausa y observar a las personas que te rodean, y comprender quiénes forman parte de tu círculo en este momento. 💛",
@@ -118,5 +120,7 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo",
+  " ": " "
 }

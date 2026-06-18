@@ -29,7 +29,8 @@
     "historyDesc": "Deine bisherigen Reflexionen sind hier gespeichert, sodass du sie jederzeit erneut ansehen kannst.",
     "noHistory": "Du hast noch keine Wertereflexion abgeschlossen.",
     "startActivity": "Aktivität beginnen",
-    "startNew": "Beginne eine neue Reflexion"
+    "startNew": "Beginne eine neue Reflexion",
+    "aligned": "Ausgerichtet"
   },
   "values": {
     "Family": "Familie",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "app_duration": "5 Minuten",
+  "loading": "Spiegelungen werden geladen..."
 }

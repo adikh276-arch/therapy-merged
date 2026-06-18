@@ -110,5 +110,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "μακρύς",
+  "SAVE FAILED: ": "Η ΑΠΟΘΉΚΕΥΣΗ ΑΠΈΤΥΧΕ: "
 }

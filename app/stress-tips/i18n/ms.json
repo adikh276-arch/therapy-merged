@@ -10,57 +10,57 @@
       "title": "Dapatkan Tidur yang Nyenyak",
       "description": "Sasarkan untuk tidur 7-9 jam setiap malam. Cuba tidur dan bangun pada masa yang sama setiap hari.",
       "why": "Tidur membantu otak dan badan anda pulih dan menurunkan hormon tekanan.",
-      "do": [
-        "Kekalkan jadual tidur yang tetap",
-        "Elakkan skrin 1 jam sebelum tidur",
-        "Pastikan bilik sejuk dan gelap",
-        "Elakkan kafein selepas jam 4 petang"
-      ],
+      "do": {
+        "0": "Kekalkan jadual tidur yang tetap",
+        "1": "Elakkan skrin 1 jam sebelum tidur",
+        "2": "Pastikan bilik sejuk dan gelap",
+        "3": "Elakkan kafein selepas jam 4 petang"
+      },
       "button": "Tetapkan Peringatan Tidur"
     },
     "breathing": {
       "title": "Amalkan Pernafasan Dalam",
       "description": "Luangkan beberapa minit memberi tumpuan kepada nafas anda. Pernafasan perlahan mengurangkan kebimbangan.",
       "why": "Pernafasan perlahan mengaktifkan tindak balas relaksasi badan anda.",
-      "do": [
-        "Tarik nafas selama 4 saat",
-        "Tahan selama 4 saat",
-        "Tarik nafas selama 4 saat",
-        "Ulangi selama 1 minit"
-      ]
+      "do": {
+        "0": "Tarik nafas selama 4 saat",
+        "1": "Tahan selama 4 saat",
+        "2": "Tarik nafas selama 4 saat",
+        "3": "Ulangi selama 1 minit"
+      }
     },
     "exercise": {
       "title": "Gerakkan Badan Anda",
       "description": "Berjalan ringan atau regangan membantu melepaskan tekanan dan meningkatkan mood.",
       "why": "Senaman membebaskan endorfin dan meningkatkan mood.",
-      "do": [
-        "15 minit berjalan kaki",
-        "Regangan ringan",
-        "Sesi yoga pendek",
-        "Senaman pantas di rumah"
-      ]
+      "do": {
+        "0": "15 minit berjalan kaki",
+        "1": "Regangan ringan",
+        "2": "Sesi yoga pendek",
+        "3": "Senaman pantas di rumah"
+      }
     },
     "caffeine": {
       "title": "Hadkan Kafein & Gula",
       "description": "Terlalu banyak kafein dan gula boleh meningkatkan kebimbangan dan mengganggu tidur.",
       "why": "Terlalu banyak kafein dan gula meningkatkan kebimbangan dan masalah tidur.",
-      "do": [
-        "Gantikan satu kopi dengan teh herba",
-        "Minum lebih banyak air",
-        "Kurangkan makanan ringan manis",
-        "Elakkan kafein pada lewat hari"
-      ]
+      "do": {
+        "0": "Gantikan satu kopi dengan teh herba",
+        "1": "Minum lebih banyak air",
+        "2": "Kurangkan makanan ringan manis",
+        "3": "Elakkan kafein pada lewat hari"
+      }
     },
     "planning": {
       "title": "Rancang Hari Anda",
       "description": "Pecahkan tugasan besar kepada langkah-langkah yang lebih kecil untuk mengelak daripada berasa terharu.",
       "why": "Perancangan mengurangkan kekacauan mental dan keterlaluan.",
-      "do": [
-        "Tulis 3 tugasan utama",
-        "Pecahkan tugasan kepada langkah-langkah kecil",
-        "Fokus pada satu tugas pada satu masa",
-        "Berehat sebentar"
-      ]
+      "do": {
+        "0": "Tulis 3 tugasan utama",
+        "1": "Pecahkan tugasan kepada langkah-langkah kecil",
+        "2": "Fokus pada satu tugas pada satu masa",
+        "3": "Berehat sebentar"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Tarik nafas...",
+  "Hold…": "Tahan...",
+  "Exhale…": "Tarik nafas...",
+  "breathing_instruction": "Ikuti bulatan untuk mengawal selia",
+  "Resume": "Sambung semula",
+  "Pause": "Jeda",
+  "lang": "panjang",
+  "Grounding": "De-tekanan mental",
+  "stay_present": "Petua Melegakan Tekanan",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Pilih mana-mana strategi sasaran di bawah untuk meneroka sebab ia membantu dan cara anda boleh menerapkannya setiap hari."
+  },
+  "wellness_tip": "STRATEGI TEKANAN HARIAN"
 }

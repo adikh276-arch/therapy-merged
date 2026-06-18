@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Οικονομία...",
+    "saved": "Αποθηκεύτηκε"
   },
   "app_duration": "10-15 λεπτά",
   "app_title": "Επιστολή στον εαυτό",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "προτροπές",
+  "need_inspiration": "Χρειάζεστε έμπνευση;",
+  "post_writing_reflection": "Αναστοχασμός μετά τη συγγραφή",
+  "reflection_desc": "Η αναγνώριση των συναισθημάτων σας είναι ένα ισχυρό βήμα στο ταξίδι σας.",
+  "finish_save_reflection": "Φινίρισμα & Αποθήκευση αντανάκλασης",
+  "lang": "μακρύς",
+  "completion_message": "Το γράμμα σας έχει αποθηκευτεί με ασφάλεια. Αφιερώστε λίγο χρόνο για να εκτιμήσετε την πρόοδό σας."
 }

@@ -11,24 +11,24 @@
     "s2": {
       "tag": "O ciclo",
       "title": "O loop explicado",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Raiva à tona"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Vergonha: \"Eu sou ruim\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "A vergonha é enterrada"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "A raiva explode novamente"
         }
-      ],
+      },
       "button": "Eu vejo"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Interrupção",
       "title": "Interrompa o ciclo",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Diga a fonte",
           "desc": "Pergunte: 'O que eu realmente estou sentindo?' Machucado? Com medo? Invisível? Dar nome a enfraquece."
         },
-        {
+        "1": {
           "title": "Pausa de compaixão",
           "desc": "Mão no peito. Diga: 'Isso é difícil. Eu sou humano. Eu consigo superar isso.'"
         },
-        {
+        "2": {
           "title": "Repare com graça",
           "desc": "Faça as pazes se necessário — mas não entre em espiral. Você não é seu pior momento."
         }
-      ],
+      },
       "notice": "Perceber o ciclo já é o primeiro passo. Você está fazendo o trabalho.",
       "button": "Atividade Completa"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

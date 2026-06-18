@@ -21,30 +21,31 @@
       "placeholder": "Nhập tên...",
       "button": "Lưu tên"
     },
-    "prompts": [
-      "Một người mang lại niềm vui",
-      "Một người hỗ trợ bạn",
-      "Một người bạn có thể nói chuyện",
-      "Một người bạn tin tưởng",
-      "Một người truyền cảm hứng cho bạn"
-    ]
+    "prompts": {
+      "0": "Một người mang lại niềm vui",
+      "1": "Một người hỗ trợ bạn",
+      "2": "Một người bạn có thể nói chuyện",
+      "3": "Một người bạn tin tưởng",
+      "4": "Một người truyền cảm hứng cho bạn"
+    }
   },
   "reflection": {
     "subtitle": "Suy ngẫm cuối cùng",
     "title": "Bạn nhận thấy điều gì?",
     "p_intro": "Hãy dành một chút thời gian để nhìn vào vòng kết nối của bạn. Bạn có thể nhận thấy:",
-    "list": [
-      "Một số người cảm thấy gần gũi hơn những người khác",
-      "Một số kết nối cảm thấy mạnh mẽ",
-      "Một số cảm thấy xa cách hoặc không rõ ràng",
-      "Có thể có những khoảng trống - hoặc chỉ một vài người có ý nghĩa"
-    ],
+    "list": {
+      "0": "Một số người cảm thấy gần gũi hơn những người khác",
+      "1": "Một số kết nối cảm thấy mạnh mẽ",
+      "2": "Một số cảm thấy xa cách hoặc không rõ ràng",
+      "3": "Có thể có những khoảng trống - hoặc chỉ một vài người có ý nghĩa"
+    },
     "italic": "Nhận thức là bước đầu tiên để xây dựng các kết nối mà bạn coi trọng. 🧘",
     "label": "💭 Có ai bạn muốn cảm thấy kết nối hơn không?",
     "placeholder": "Viết suy nghĩ của bạn ở đây...",
     "save_button": "Lưu phản xạ",
     "saving_button": "Tiết kiệm...",
-    "skip_button": "Bỏ qua và kết thúc"
+    "skip_button": "Bỏ qua và kết thúc",
+    "saved_success": "Bản đồ giữa các cá nhân của bạn được lưu trữ an toàn trong nhật ký của bạn. Nuôi dưỡng các nút hỗ trợ này giúp chúng ta kiên cường."
   },
   "history": {
     "title": "Lịch sử vòng kết nối của bạn",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bạn có chắc chắn muốn xóa nhật ký vòng tròn này không?"
   },
   "intro_p1": "Ở những thời điểm khác nhau trong cuộc sống, hệ thống hỗ trợ của chúng ta có thể thay đổi. 🌱 Đôi khi chúng ta cảm thấy được kết nối và hỗ trợ. Những lúc khác, mọi thứ có thể trở nên xa cách hoặc không rõ ràng.",
   "intro_p2": "Hoạt động này là khoảng thời gian để bạn tạm dừng và quan sát những người xung quanh — và hiểu xem ai hiện đang cảm thấy mình là một phần trong vòng tròn quan hệ của bạn. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài",
+  " ": " "
 }

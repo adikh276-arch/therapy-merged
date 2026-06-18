@@ -1,12 +1,12 @@
 {
   "app_title": "Memory Box",
-  "screen_titles": [
-    "Deine Box",
-    "Ehrung",
-    "Ausdrucken",
-    "Bewahrt",
-    "Sanfte Pflege"
-  ],
+  "screen_titles": {
+    "0": "Deine Box",
+    "1": "Ehrung",
+    "2": "Ausdrucken",
+    "3": "Bewahrt",
+    "4": "Sanfte Pflege"
+  },
   "complete_title": "Bewahrte Erinnerung",
   "complete_message": "Du hast sicher eine Erinnerung von {{name}} in deine Box gelegt. Diese Momente der Verbindung gehören dir immer.",
   "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Gib ihren Namen ein...",
     "placeholder_relation": "Woher kennst du sie? (optional)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Ein glücklicher Moment",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Etwas, das sie früher gesagt haben",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Eine kleine Alltagserinnerung",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Ein Ort, der dich an sie erinnert",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Etwas, das ich gerne sagen könnte",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Fahren Sie weiter →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Sicher verstaut",
     "subtitle": "Diese Erinnerung an {{name}} ist jetzt Teil deiner Sammlung.",
     "add_another": "Fügen Sie ein weiteres Gedächtnis hinzu",
-    "finish": "Fertige Reflexion"
+    "finish": "Fertige Reflexion",
+    "saved_title": "Geschützt"
   },
   "closing": {
     "title": "Pflege",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bist du sicher, dass du diese Erinnerung löschen willst?"
   },
   "app_description": "Erinnerungsbox",
   "before_you_go": "Bevor Sie gehen",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

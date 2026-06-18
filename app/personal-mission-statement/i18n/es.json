@@ -103,5 +103,18 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo",
+  "intro_benefit_1": "Obtén una claridad absoluta sobre tus creencias fundamentales",
+  "intro_benefit_2": "Establece objetivos claros para la transformación personal",
+  "reflection_subtitle": "Redacta tus aspiraciones. Rellena los componentes principales de tu propósito.",
+  "mission_your_statement": "Tu declaración",
+  "saving": "Guardando...",
+  "mission_save_finish": "Salvar y terminar",
+  "mission_share": "Compartir",
+  "mission_start_over": "Empezar de nuevo",
+  "loading": "Cargando declaraciones...",
+  "app": {
+    "startActivity": "Create Mission"
+  }
 }

@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Inspira...",
+  "hold_label": "Fermati...",
+  "exhale_label": "Espira...",
+  "start": "Pronto",
+  "stop": "Fermati",
+  "begin_breathing": "Inizia a respirare",
+  "lang": "lunga"
 }

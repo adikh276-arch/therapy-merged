@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Mari kita lakukan ini selangkah demi selangkah. 💛",
-    "description": [
-      "Anda tidak perlu menceritakan seluruh kisah Anda hari ini. Hanya sebagian kecil sudah cukup.",
-      "Anda aman sekarang. Anda memegang kendali atas apa yang Anda tulis—dan apa yang tidak."
-    ],
+    "description": {
+      "0": "Anda tidak perlu menceritakan seluruh kisah Anda hari ini. Hanya sebagian kecil sudah cukup.",
+      "1": "Anda aman sekarang. Anda memegang kendali atas apa yang Anda tulis—dan apa yang tidak."
+    },
     "breath": "Tarik napas perlahan sebelum kita mulai.",
     "button_ready": "Saya siap",
     "button_history": "Narasi Masa Lalu",
@@ -21,20 +21,20 @@
     "title": "Tulis apa yang terasa baik-baik saja ✨",
     "subtitle": "Kata-kata Anda, kecepatan Anda",
     "prompt_label": "Butuh titik awal?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Yang paling saya ingat adalah...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Saat itu, saya merasa ...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Sejak itu, saya perhatikan...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Mulailah menulis di sini...",
     "notice": "Tidak ada cara yang benar untuk melakukan ini. Bahkan beberapa baris sudah cukup.",
     "button": "Selesai Menulis"
@@ -43,10 +43,10 @@
     "title": "Anda melakukan sesuatu yang penting.",
     "subtitle": "Terima kasih telah muncul untuk diri Anda sendiri.",
     "settle_title": "Mari kita luangkan waktu sejenak untuk menyelesaikan",
-    "steps": [
-      "Lihatlah sekeliling dan sebutkan 3 hal yang dapat Anda lihat.",
-      "Tarik napas perlahan ... dan keluar."
-    ],
+    "steps": {
+      "0": "Lihatlah sekeliling dan sebutkan 3 hal yang dapat Anda lihat.",
+      "1": "Tarik napas perlahan ... dan keluar."
+    },
     "feeling_label": "Saat ini, saya merasa:",
     "feeling_placeholder": "Satu atau dua kata ...",
     "quote": "\"Anda tidak harus membawa semuanya sekaligus. Anda dapat kembali kapan pun Anda merasa siap.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

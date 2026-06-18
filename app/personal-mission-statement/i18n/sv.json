@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång",
+  "intro_benefit_1": "Få absolut klarhet i dina grundläggande övertygelser",
+  "intro_benefit_2": "Sätt tydliga mål för personlig transformation",
+  "reflection_subtitle": "Formulera dina ambitioner. Fyll i kärnkomponenterna för ditt syfte.",
+  "mission_your_statement": "Ditt uttalande",
+  "saving": "Rädda...",
+  "mission_save_finish": "Spara och avsluta",
+  "mission_share": "Dela",
+  "mission_start_over": "Börja om",
+  "loading": "Laddar deklarationer...",
+  "app": {
+    "startActivity": "Skapa uppdrag"
+  }
 }

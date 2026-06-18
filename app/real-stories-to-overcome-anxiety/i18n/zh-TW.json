@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  "chooseStoryDesc": "點擊個人檔案，閱讀他們個人的力量與復原歷程。",
+  "recovery_journey": "激勵之旅",
+  "reflection_prompt": "請好好思考一下"
 }

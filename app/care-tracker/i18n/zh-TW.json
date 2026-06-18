@@ -39,7 +39,10 @@
         "2": "監測你的情緒模式",
         "3": "查看歷史和進展"
       },
-      "duration": "2-3分鐘"
+      "duration": "2-3分鐘",
+      "benefit1": "記錄每日身心健康活動",
+      "benefit2": "注意阻礙你休息的挑戰",
+      "benefit3": "透過正向強化建立正念"
     },
     "checkin": {
       "title": "自我關愛簽到🌿",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "Wanneer je je eenzaam en verdrietig voelt",
-      "affirmations": [
-        "Ik ben niet alleen, zelfs niet als het zo voelt.",
-        "Mijn gevoelens verdienen zorg en zachtheid.",
-        "Dit moment zal niet eeuwig duren.",
-        "Ik mag verbinding nodig hebben.",
-        "Ik kan mezelf nu meteen warmte bieden."
-      ]
+      "affirmations": {
+        "0": "Ik ben niet alleen, zelfs niet als het zo voelt.",
+        "1": "Mijn gevoelens verdienen zorg en zachtheid.",
+        "2": "Dit moment zal niet eeuwig duren.",
+        "3": "Ik mag verbinding nodig hebben.",
+        "4": "Ik kan mezelf nu meteen warmte bieden."
+      }
     },
     "terrified": {
       "label": "Wanneer je bang bent",
-      "affirmations": [
-        "Ik ben veilig in dit moment.",
-        "Angst is een gevoel, geen voorspelling.",
-        "Ik kan deze adem voor adem nemen.",
-        "Ik hoef nu niet alles op te lossen.",
-        "Ik ben sterker dan dit moment."
-      ]
+      "affirmations": {
+        "0": "Ik ben veilig in dit moment.",
+        "1": "Angst is een gevoel, geen voorspelling.",
+        "2": "Ik kan deze adem voor adem nemen.",
+        "3": "Ik hoef nu niet alles op te lossen.",
+        "4": "Ik ben sterker dan dit moment."
+      }
     },
     "insignificant": {
       "label": "Wanneer je je onbeduidend voelt",
-      "affirmations": [
-        "Kleine momenten tellen nog steeds.",
-        "Ik hoef mijn waarde niet te bewijzen.",
-        "Ik mag ruimte innemen.",
-        "Mijn bestaan doet ertoe.",
-        "Ik ben genoeg zoals ik ben."
-      ]
+      "affirmations": {
+        "0": "Kleine momenten tellen nog steeds.",
+        "1": "Ik hoef mijn waarde niet te bewijzen.",
+        "2": "Ik mag ruimte innemen.",
+        "3": "Mijn bestaan doet ertoe.",
+        "4": "Ik ben genoeg zoals ik ben."
+      }
     },
     "overwhelmed": {
       "label": "Wanneer je je overweldigd voelt",
-      "affirmations": [
-        "Ik hoef niet alles in één keer te doen.",
-        "Eén kleine stap is genoeg.",
-        "Het is oké om even te pauzeren.",
-        "Ik mag rusten.",
-        "Dit wordt weer beheersbaar."
-      ]
+      "affirmations": {
+        "0": "Ik hoef niet alles in één keer te doen.",
+        "1": "Eén kleine stap is genoeg.",
+        "2": "Het is oké om even te pauzeren.",
+        "3": "Ik mag rusten.",
+        "4": "Dit wordt weer beheersbaar."
+      }
     },
     "hopeless": {
       "label": "Als je je hopeloos voelt",
-      "affirmations": [
-        "Ik heb vandaag geen antwoorden nodig.",
-        "Verandering is nog steeds mogelijk.",
-        "Ik heb moeilijke dagen overleefd.",
-        "Ik kan hier voorlopig blijven.",
-        "Er kan nog iets zachts gebeuren."
-      ]
+      "affirmations": {
+        "0": "Ik heb vandaag geen antwoorden nodig.",
+        "1": "Verandering is nog steeds mogelijk.",
+        "2": "Ik heb moeilijke dagen overleefd.",
+        "3": "Ik kan hier voorlopig blijven.",
+        "4": "Er kan nog iets zachts gebeuren."
+      }
     },
     "conflicted": {
       "label": "Wanneer je je in conflict voelt",
-      "affirmations": [
-        "Het is oké om meer dan één ding tegelijk te voelen.",
-        "Ik heb niet meteen duidelijkheid nodig.",
-        "Verwarring betekent niet falen.",
-        "Ik kan mezelf tijd geven.",
-        "Ik vertrouw erop dat ik dit uitzoek."
-      ]
+      "affirmations": {
+        "0": "Het is oké om meer dan één ding tegelijk te voelen.",
+        "1": "Ik heb niet meteen duidelijkheid nodig.",
+        "2": "Verwarring betekent niet falen.",
+        "3": "Ik kan mezelf tijd geven.",
+        "4": "Ik vertrouw erop dat ik dit uitzoek."
+      }
     },
     "self-critical": {
       "label": "Wanneer je erg zelfkritisch bent.",
-      "affirmations": [
-        "Ik kan met vriendelijkheid tegen mezelf spreken.",
-        "Ik hoef mezelf niet te straffen om te groeien.",
-        "Fouten bepalen niet wie ik ben.",
-        "Ik leer, ik faal niet.",
-        "Groei vereist geen wreedheid."
-      ]
+      "affirmations": {
+        "0": "Ik kan met vriendelijkheid tegen mezelf spreken.",
+        "1": "Ik hoef mezelf niet te straffen om te groeien.",
+        "2": "Fouten bepalen niet wie ik ben.",
+        "3": "Ik leer, ik faal niet.",
+        "4": "Groei vereist geen wreedheid."
+      }
     },
     "out-of-place": {
       "label": "Wanneer je je sociaal buitengesloten voelt",
-      "affirmations": [
-        "Ik mag stil zijn of anders.",
-        "Ik hoef niet de energie van iemand anders te evenaren.",
-        "Ik hoor erbij zoals ik ben.",
-        "Ik kan rustig ruimte innemen.",
-        "Ik doe dit niet verkeerd."
-      ]
+      "affirmations": {
+        "0": "Ik mag stil zijn of anders.",
+        "1": "Ik hoef niet de energie van iemand anders te evenaren.",
+        "2": "Ik hoor erbij zoals ik ben.",
+        "3": "Ik kan rustig ruimte innemen.",
+        "4": "Ik doe dit niet verkeerd."
+      }
     },
     "unsafe": {
       "label": "Wanneer je je onveilig voelt bij vreemden",
-      "affirmations": [
-        "Ik kan in mijn eigen tempo bewegen.",
-        "Ik mag mijn grenzen beschermen.",
-        "Ik kan geaard blijven in mijn lichaam.",
-        "Ik mag situaties verlaten.",
-        "Ik kan mezelf veilig houden."
-      ]
+      "affirmations": {
+        "0": "Ik kan in mijn eigen tempo bewegen.",
+        "1": "Ik mag mijn grenzen beschermen.",
+        "2": "Ik kan geaard blijven in mijn lichaam.",
+        "3": "Ik mag situaties verlaten.",
+        "4": "Ik kan mezelf veilig houden."
+      }
     },
     "pressured": {
       "label": "Wanneer je je onder druk gezet voelt op het werk",
-      "affirmations": [
-        "Mijn waarde is niet mijn productiviteit.",
-        "Ik hoef mezelf niet constant te bewijzen.",
-        "Mijn best doen is vandaag genoeg.",
-        "Eén taak tegelijk is prima.",
-        "Ik ben meer dan mijn rol."
-      ]
+      "affirmations": {
+        "0": "Mijn waarde is niet mijn productiviteit.",
+        "1": "Ik hoef mezelf niet constant te bewijzen.",
+        "2": "Mijn best doen is vandaag genoeg.",
+        "3": "Eén taak tegelijk is prima.",
+        "4": "Ik ben meer dan mijn rol."
+      }
     },
     "face-the-day": {
       "label": "Wanneer je de dag niet onder ogen wilt zien",
-      "affirmations": [
-        "Ik kan vandaag in kleine stukjes nemen.",
-        "Doorkomen is genoeg.",
-        "Ik heb geen motivatie nodig om te beginnen.",
-        "Voorzichtig verschijnen telt nog steeds.",
-        "Deze dag definieert mij niet."
-      ]
+      "affirmations": {
+        "0": "Ik kan vandaag in kleine stukjes nemen.",
+        "1": "Doorkomen is genoeg.",
+        "2": "Ik heb geen motivatie nodig om te beginnen.",
+        "3": "Voorzichtig verschijnen telt nog steeds.",
+        "4": "Deze dag definieert mij niet."
+      }
     },
     "future": {
       "label": "Wanneer je je zorgen maakt over je toekomst",
-      "affirmations": [
-        "Ik kan terugkeren naar het heden.",
-        "Ik zal de zaken regelen zoals ze komen.",
-        "Ik heb vandaag geen zekerheid nodig.",
-        "Ik ben in staat me aan te passen.",
-        "Ik kan mezelf iets meer vertrouwen."
-      ]
+      "affirmations": {
+        "0": "Ik kan terugkeren naar het heden.",
+        "1": "Ik zal de zaken regelen zoals ze komen.",
+        "2": "Ik heb vandaag geen zekerheid nodig.",
+        "3": "Ik ben in staat me aan te passen.",
+        "4": "Ik kan mezelf iets meer vertrouwen."
+      }
     },
     "stuck": {
       "label": "Wanneer je je vastzit in een probleem",
-      "affirmations": [
-        "Vastzitten betekent niet dat ik kapot ben.",
-        "Ik kan pauzeren zonder op te geven.",
-        "Ik heb geen directe oplossingen nodig.",
-        "Ik mag me onzeker voelen.",
-        "Ik beweeg nog steeds, zelfs langzaam."
-      ]
+      "affirmations": {
+        "0": "Vastzitten betekent niet dat ik kapot ben.",
+        "1": "Ik kan pauzeren zonder op te geven.",
+        "2": "Ik heb geen directe oplossingen nodig.",
+        "3": "Ik mag me onzeker voelen.",
+        "4": "Ik beweeg nog steeds, zelfs langzaam."
+      }
     },
     "compare": {
       "label": "Als je jezelf vergelijkt",
-      "affirmations": [
-        "Mijn reis is van mij.",
-        "Ik hoef niet te concurreren om het waard te zijn.",
-        "Ik mag in mijn eigen tempo groeien.",
-        "Het succes van iemand anders wist het mijne niet uit.",
-        "Ik loop niet achter."
-      ]
+      "affirmations": {
+        "0": "Mijn reis is van mij.",
+        "1": "Ik hoef niet te concurreren om het waard te zijn.",
+        "2": "Ik mag in mijn eigen tempo groeien.",
+        "3": "Het succes van iemand anders wist het mijne niet uit.",
+        "4": "Ik loop niet achter."
+      }
     },
     "give-up": {
       "label": "Wanneer je wilt opgeven",
-      "affirmations": [
-        "Ik hoef nu niets te beslissen.",
-        "Dit gevoel zal voorbijgaan.",
-        "Ik heb meer overleefd dan ik besef.",
-        "Ik kan nog een moment wachten.",
-        "Ik ben er nog steeds — en dat doet ertoe."
-      ]
+      "affirmations": {
+        "0": "Ik hoef nu niets te beslissen.",
+        "1": "Dit gevoel zal voorbijgaan.",
+        "2": "Ik heb meer overleefd dan ik besef.",
+        "3": "Ik kan nog een moment wachten.",
+        "4": "Ik ben er nog steeds — en dat doet ertoe."
+      }
     }
   },
   "app_complete_title": "Voel je krachtig",
@@ -188,11 +188,11 @@
   "app_description": "Verander je mindset door middel van dagelijkse affirmaties.",
   "intro": {
     "description": "Dagelijkse affirmaties helpen je mindset te veranderen en emotionele veerkracht op te bouwen. Neem even de tijd om je te concentreren op positieve gedachten en wees vriendelijk voor jezelf.",
-    "benefits": [
-      "Vind rust in moeilijke momenten.",
-      "Daag negatieve denkpatronen uit.",
-      "Ontwikkel zelfcompassie en kracht."
-    ]
+    "benefits": {
+      "0": "Vind rust in moeilijke momenten.",
+      "1": "Daag negatieve denkpatronen uit.",
+      "2": "Ontwikkel zelfcompassie en kracht."
+    }
   },
   "affirmation_for": "Bevestiging voor",
   "affirmation": "Bevestiging",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Hoe voel je je?",
+  "feelings_subheading": "Kies de emotie die je",
+  "lang": "lang"
 }

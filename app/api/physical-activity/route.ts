@@ -14,6 +14,9 @@ async function ensureTableExists() {
       notes TEXT
     )
   `;
+
+    // Auto-backfill any missing columns for legacy migrations
+    await db`ALTER TABLE activities ADD COLUMN IF NOT EXISTS user_id VARCHAR(255`.catch(() => {});
 }
 
 export async function GET() {

@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "吸氣......",
+  "Hold…": "等等......",
+  "Exhale…": "呼氣......",
+  "breathing_instruction": "跟隨圓圈來調節",
+  "Resume": "履歷",
+  "Pause": "停頓",
+  "lang": "長篇",
+  "Grounding": "心理減壓",
+  "stay_present": "減壓技巧",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "請選擇以下任何目標策略，探索其為何有效，以及如何每日應用。"
+  },
+  "wellness_tip": "每日壓力策略"
 }

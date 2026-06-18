@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Inhale…",
+  "Hold…": "Hold…",
+  "Exhale…": "Exhale…",
+  "breathing_instruction": "Follow the circle to regulate",
+  "Resume": "Resume",
+  "Pause": "Pause",
+  "lang": "lang",
+  "Grounding": "Mental De-stress",
+  "stay_present": "Stress Relief Tips",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Choose any target strategy below to explore why it helps and how you can apply it daily."
+  },
+  "wellness_tip": "DAILY STRESS STRATEGY"
 }

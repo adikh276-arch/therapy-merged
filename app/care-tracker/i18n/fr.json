@@ -33,13 +33,16 @@
     "intro": {
       "title": "Outil de suivi d’auto-soin",
       "description": "Suivez vos habitudes quotidiennes de soins personnels et voyez comment elles impactent votre bien-être global. La constance est la clé d’un esprit plus sain.",
-      "benefits": [
-        "Consignez les activités quotidiennes de soin de vous",
-        "Suivez le temps passé sur vous-même",
-        "Surveillez vos habitudes d’humeur",
-        "Voir l’histoire et les progrès"
-      ],
-      "duration": "2-3 minutes"
+      "benefits": {
+        "0": "Consignez les activités quotidiennes de soin de vous",
+        "1": "Suivez le temps passé sur vous-même",
+        "2": "Surveillez vos habitudes d’humeur",
+        "3": "Voir l’histoire et les progrès"
+      },
+      "duration": "2-3 minutes",
+      "benefit1": "Consignez quotidiennement les actes de santé physique et mentale",
+      "benefit2": "Remarquez les difficultés qui vous empêchent de vous reposer",
+      "benefit3": "Développez la pleine conscience par le renforcement positif"
     },
     "checkin": {
       "title": "Contrôle 🌿 de l’auto-soin",
@@ -135,20 +138,20 @@
       "Tired": "Fatigué",
       "Low": "Faible"
     },
-    "positiveStatements": [
-      "Tu t’es montré pour toi-même aujourd’hui. C’est puissant. 🌿",
-      "Le soin de soi n’est pas égoïste — c’est essentiel. Bien joué. 💚",
-      "Chaque petit geste de soin construit un toi plus fort. 🌱",
-      "Tu as investi en toi aujourd’hui. Ça compte. ✨",
-      "Prendre soin de toi est la meilleure chose que tu aies faite aujourd’hui. 🍃"
-    ],
-    "supportiveStatements": [
-      "Ça va. Demain, c’est un nouveau départ. Sois doux avec toi-même. 🤍",
-      "Tous les jours ne seront pas parfaits, et c’est parfaitement normal. 🕊️",
-      "Tu fais de ton mieux. C’est toujours suffisant. 💛",
-      "Le repos est aussi une forme de soin de soi. Sois indulgent avec toi-même. 🌸",
-      "Reconnaître aujourd’hui demande du courage. Tu grandis déjà. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Tu t’es montré pour toi-même aujourd’hui. C’est puissant. 🌿",
+      "1": "Le soin de soi n’est pas égoïste — c’est essentiel. Bien joué. 💚",
+      "2": "Chaque petit geste de soin construit un toi plus fort. 🌱",
+      "3": "Tu as investi en toi aujourd’hui. Ça compte. ✨",
+      "4": "Prendre soin de toi est la meilleure chose que tu aies faite aujourd’hui. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Ça va. Demain, c’est un nouveau départ. Sois doux avec toi-même. 🤍",
+      "1": "Tous les jours ne seront pas parfaits, et c’est parfaitement normal. 🕊️",
+      "2": "Tu fais de ton mieux. C’est toujours suffisant. 💛",
+      "3": "Le repos est aussi une forme de soin de soi. Sois indulgent avec toi-même. 🌸",
+      "4": "Reconnaître aujourd’hui demande du courage. Tu grandis déjà. 🌷"
+    }
   },
   "app_title": "Suivi des soins personnels",
   "app_description": "Suivez vos habitudes quotidiennes de bien-être et observez leur impact sur votre santé mentale. La régularité est essentielle à une meilleure santé mentale.",
@@ -175,5 +178,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

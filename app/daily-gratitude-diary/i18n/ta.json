@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "நீண்ட",
+  "entry_x": "நுழைவு #",
+  "loading": "ஏற்றுகிறது...",
+  "delete": "நீக்கு"
 }

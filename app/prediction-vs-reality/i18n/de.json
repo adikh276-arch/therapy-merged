@@ -4,11 +4,11 @@
   "intro": {
     "title": "Vorhersage vs. Realität",
     "description": "Vergleiche deine ängstlichen Vorhersagen mit dem, was tatsächlich passiert, um eine ausgewogenere Perspektive zu schaffen.",
-    "benefits": [
-      "Erkenne ängstliche Muster",
-      "Sammeln Sie Beweise gegen Ängste",
-      "Reduzieren Sie zukünftiges Überdenken"
-    ],
+    "benefits": {
+      "0": "Erkenne ängstliche Muster",
+      "1": "Sammeln Sie Beweise gegen Ängste",
+      "2": "Reduzieren Sie zukünftiges Überdenken"
+    },
     "duration": "4-5 Minuten",
     "view_past": "Vergangene Reflexionen ansehen"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Noch keine Reflexionen gespeichert.",
     "prediction_label": "Vorhersage",
     "reality_label": "Realität",
-    "reflection_label": "Reflexion:"
+    "reflection_label": "Reflexion:",
+    "past_logs": "Vergangene Reflexionen",
+    "reframe_label": "Neue ausgewogene Sichtweise:"
   },
   "complete": {
     "title": "Aktivität abgeschlossen",
     "saved_title": "Reflexion gerettet",
     "message": "Indem du die Fakten betrachtest, hilfst du deinem Geist zu lernen, dass Dinge oft handhabbarer sind, als sie scheinen."
   },
-  "emotions": [
-    "Ängstlich",
-    "Nervös",
-    "Angst",
-    "Überfordert",
-    "Unruhig"
-  ],
+  "emotions": {
+    "0": "Ängstlich",
+    "1": "Nervös",
+    "2": "Angst",
+    "3": "Überfordert",
+    "4": "Unruhig"
+  },
   "intensity_labels": {
     "not_intense": "Nicht intensiv",
     "very_intense": "Sehr intensiv"
   },
-  "comparison_options": [
-    "Es wurde fast genau so, wie ich es erwartet hatte",
-    "Einige Teile waren richtig, aber nicht alles",
-    "Es war ganz anders, als ich erwartet hatte",
-    "Es war viel einfacher/besser, als ich es mir vorgestellt hatte"
-  ],
+  "comparison_options": {
+    "0": "Es wurde fast genau so, wie ich es erwartet hatte",
+    "1": "Einige Teile waren richtig, aber nicht alles",
+    "2": "Es war ganz anders, als ich erwartet hatte",
+    "3": "Es war viel einfacher/besser, als ich es mir vorgestellt hatte"
+  },
   "screens": {
     "s1": {
       "title": "Denken Sie an eine aktuelle Situation",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bist du sicher, dass du dieses Vorhersageprotokoll löschen möchtest?"
   },
   "app_description": "Vorhersage vs. Realität",
   "more": "Mehr",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} 라운드",
   "yes": "네",
   "no": "아니요",
-  "date": "날짜"
+  "date": "날짜",
+  "lang": "길게",
+  "entry_x": "입국 #",
+  "loading": "로딩 중...",
+  "delete": "삭제"
 }

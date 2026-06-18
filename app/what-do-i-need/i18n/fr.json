@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Soutien émotionnel",
       "prompt": "Quel type de soutien pourrait vraiment vous aider en ce moment ?",
-      "hints": [
-        "J’ai juste besoin que quelqu’un pour...",
-        "Ça aiderait si...",
-        "Ce que je veux vraiment, c’est..."
-      ]
+      "hints": {
+        "0": "J’ai juste besoin que quelqu’un pour...",
+        "1": "Ça aiderait si...",
+        "2": "Ce que je veux vraiment, c’est..."
+      }
     },
     "Space / time for myself": {
       "label": "Espace / temps pour moi-même",
       "prompt": "À quoi ressemblerait le fait d’avoir cet espace pour vous ?",
-      "hints": [
-        "Je profiterais de ce temps pour...",
-        "L’espace me permettrait...",
-        "J’ai besoin d’espace pour..."
-      ]
+      "hints": {
+        "0": "Je profiterais de ce temps pour...",
+        "1": "L’espace me permettrait...",
+        "2": "J’ai besoin d’espace pour..."
+      }
     },
     "Clear communication": {
       "label": "Communication claire",
       "prompt": "À quoi ressemblerait une communication plus claire pour vous ?",
-      "hints": [
-        "J’aimerais pouvoir dire...",
-        "S’ils écoutaient vraiment, je leur dirais...",
-        "La communication devient difficile quand..."
-      ]
+      "hints": {
+        "0": "J’aimerais pouvoir dire...",
+        "1": "S’ils écoutaient vraiment, je leur dirais...",
+        "2": "La communication devient difficile quand..."
+      }
     },
     "Reassurance": {
       "label": "Réconfort",
       "prompt": "Quel genre de réconfort pourrait sembler significatif ?",
-      "hints": [
-        "J’ai besoin d’entendre ça...",
-        "Ça me rassurerait de savoir...",
-        "Je n’arrête pas de m’inquiéter que..."
-      ]
+      "hints": {
+        "0": "J’ai besoin d’entendre ça...",
+        "1": "Ça me rassurerait de savoir...",
+        "2": "Je n’arrête pas de m’inquiéter que..."
+      }
     },
     "Understanding": {
       "label": "Compréhension",
       "prompt": "À quoi ressemblerait le sentiment de vraiment être compris ?",
-      "hints": [
-        "J’aimerais que les gens sachent que...",
-        "Ce que je ressens vraiment, c’est...",
-        "Personne ne voit que je..."
-      ]
+      "hints": {
+        "0": "J’aimerais que les gens sachent que...",
+        "1": "Ce que je ressens vraiment, c’est...",
+        "2": "Personne ne voit que je..."
+      }
     },
     "Stability": {
       "label": "Stabilité",
       "prompt": "À quoi ressentirait-on la stabilité dans votre vie en ce moment ?",
-      "hints": [
-        "J’ai besoin que les choses ressentent...",
-        "Ce qui me ferait finir, c’est...",
-        "La stabilité signifie..."
-      ]
+      "hints": {
+        "0": "J’ai besoin que les choses ressentent...",
+        "1": "Ce qui me ferait finir, c’est...",
+        "2": "La stabilité signifie..."
+      }
     },
     "Honesty": {
       "label": "Honnêteté",
       "prompt": "À quoi ressemblerait plus d’honnêteté dans votre situation ?",
-      "hints": [
-        "La vérité que je dois affronter, c’est...",
-        "Je veux être honnête à propos de...",
-        "Ce qui se passe vraiment, c’est..."
-      ]
+      "hints": {
+        "0": "La vérité que je dois affronter, c’est...",
+        "1": "Je veux être honnête à propos de...",
+        "2": "Ce qui se passe vraiment, c’est..."
+      }
     },
     "Respect": {
       "label": "Respect",
       "prompt": "À quoi ressemble le respect pour vous en ce moment ?",
-      "hints": [
-        "Je mérite d’être traitée...",
-        "Le respect ressemblerait à...",
-        "J’ai besoin que des gens..."
-      ]
+      "hints": {
+        "0": "Je mérite d’être traitée...",
+        "1": "Le respect ressemblerait à...",
+        "2": "J’ai besoin que des gens..."
+      }
     },
     "Clarity about relationship": {
       "label": "Clarté concernant la relation",
       "prompt": "Quel type de clarté vous aiderait le plus ?",
-      "hints": [
-        "J’ai besoin de savoir si...",
-        "Ce qui me trouble, c’est...",
-        "Je veux que nous soyons clairs sur..."
-      ]
+      "hints": {
+        "0": "J’ai besoin de savoir si...",
+        "1": "Ce qui me trouble, c’est...",
+        "2": "Je veux que nous soyons clairs sur..."
+      }
     },
     "default": {
       "prompt": "À quoi cela ressemblerait-il dans une situation réelle ?",
-      "hints": [
-        "Ce qui me vient à l’esprit, c’est...",
-        "En ce moment, je me sens...",
-        "Pour être honnête avec moi-même..."
-      ]
+      "hints": {
+        "0": "Ce qui me vient à l’esprit, c’est...",
+        "1": "En ce moment, je me sens...",
+        "2": "Pour être honnête avec moi-même..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Dis quelque chose honnêtement"
     },
-    {
+    "1": {
       "label": "Prends du temps pour moi"
     },
-    {
+    "2": {
       "label": "Contactez quelqu’un"
     },
-    {
+    "3": {
       "label": "Fixer une petite limite"
     },
-    {
+    "4": {
       "label": "Je ne sais pas encore"
     }
-  ],
+  },
   "history": {
     "title": "Réflexions passées",
     "empty": "Pas encore de réflexions."
@@ -213,5 +213,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "Płótno",
+  "2d": "2D",
+  "a": "a",
+  "lang": "długie",
+  "complete_and_save": "Ukończ i zapisz"
 }

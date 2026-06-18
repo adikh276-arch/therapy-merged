@@ -4,11 +4,11 @@
   "intro": {
     "title": "예측과 현실",
     "description": "불안한 예측과 실제로 일어나는 일을 비교해 보다 균형 잡힌 관점을 만들어 보세요.",
-    "benefits": [
-      "불안한 패턴을 식별하세요",
-      "두려움에 맞서는 증거를 수집하세요",
-      "미래의 과도한 생각을 줄이세요"
-    ],
+    "benefits": {
+      "0": "불안한 패턴을 식별하세요",
+      "1": "두려움에 맞서는 증거를 수집하세요",
+      "2": "미래의 과도한 생각을 줄이세요"
+    },
     "duration": "4-5분",
     "view_past": "과거 회고 보기"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "아직 반사 데이터가 저장되지 않았다.",
     "prediction_label": "예측",
     "reality_label": "현실",
-    "reflection_label": "성찰:"
+    "reflection_label": "성찰:",
+    "past_logs": "과거 회고",
+    "reframe_label": "새로운 균형 잡힌 관점:"
   },
   "complete": {
     "title": "활동 완료",
     "saved_title": "성찰 저장",
     "message": "사실을 바라봄으로써, 당신은 생각보다 상황이 더 관리하기 쉽다는 것을 마음이 배우게 됩니다."
   },
-  "emotions": [
-    "불안하다",
-    "긴장돼",
-    "무서워",
-    "압도당했다",
-    "불안함"
-  ],
+  "emotions": {
+    "0": "불안하다",
+    "1": "긴장돼",
+    "2": "무서워",
+    "3": "압도당했다",
+    "4": "불안함"
+  },
   "intensity_labels": {
     "not_intense": "강렬하지 않아",
     "very_intense": "매우 강렬했습니다"
   },
-  "comparison_options": [
-    "결과는 거의 내가 예상한 대로 나왔다",
-    "일부는 맞았지만, 전부는 아니었다",
-    "예상과는 꽤 달랐어요",
-    "생각보다 훨씬 쉽고 좋았어요"
-  ],
+  "comparison_options": {
+    "0": "결과는 거의 내가 예상한 대로 나왔다",
+    "1": "일부는 맞았지만, 전부는 아니었다",
+    "2": "예상과는 꽤 달랐어요",
+    "3": "생각보다 훨씬 쉽고 좋았어요"
+  },
   "screens": {
     "s1": {
       "title": "최근의 상황을 생각해 보세요",
@@ -117,7 +119,8 @@
     "phase_label": "단계",
     "rounds_selector": "{{count}} 라운드",
     "instruction_ready": "라운드를 설정하고 재생을 눌러 시작하세요",
-    "instruction_running": "원을 따라 호흡을 조절하세요"
+    "instruction_running": "원을 따라 호흡을 조절하세요",
+    "confirm_delete": "이 예측 로그를 삭제할 거 확실해?"
   },
   "app_description": "예측 vs 현실",
   "more": "더",
@@ -141,5 +144,6 @@
   "yes": "네",
   "no": "아니요",
   "date": "날짜",
-  "continue": "계속하기"
+  "continue": "계속하기",
+  "lang": "길게"
 }

@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun",
+  "intro_benefit_1": "Temel inançlarınız konusunda mutlak netlik kazanın",
+  "intro_benefit_2": "Kişisel dönüşüm için net hedefler belirleyin",
+  "reflection_subtitle": "Hedeflerinizi oluşturun. Amacınızın temel bileşenlerini doldurun.",
+  "mission_your_statement": "İfadeniz",
+  "saving": "Kurtarmak...",
+  "mission_save_finish": "Kaydet ve Bitir",
+  "mission_share": "Paylaş",
+  "mission_start_over": "Yeniden Başla",
+  "loading": "Beyanları yükleniyor...",
+  "app": {
+    "startActivity": "Misyon Yarat"
+  }
 }

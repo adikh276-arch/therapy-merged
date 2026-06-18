@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Phía trên cửa sổ của bạn",
         "subtitle": "Hệ thống thần kinh của bạn đang hoạt động quá tải. Không sao cả. Hãy đưa bạn trở lại một cách nhẹ nhàng.",
-        "feelings": [
-          "Trái tim đập nhanh",
-          "Thở nông",
-          "Hoảng loạn hoặc tức giận",
-          "Suy nghĩ đua xe",
-          "Bồn chồn"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Trái tim đập nhanh",
+          "1": "Thở nông",
+          "2": "Hoảng loạn hoặc tức giận",
+          "3": "Suy nghĩ đua xe",
+          "4": "Bồn chồn"
+        },
+        "tools": {
+          "0": {
             "name": "Thở hộp",
             "desc": "Hít vào 4, trăng 4, thở ra 4, trăng 4. Lặp lại 4 lần."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Nối đất",
             "desc": "5 điều thấy, 4 chạm, 3 nghe, 2 ngửi, 1 nếm."
           },
-          {
+          "2": {
             "name": "Bàn chân trên sàn",
             "desc": "Ấn chân xuống, nói: 'Tôi ở đây. Tôi an toàn. Điều này sẽ qua đi.'"
           }
-        ],
+        },
         "button": "Tôi cảm thấy bình tĩnh hơn một chút →",
         "footer": "Bạn an toàn. Hãy dành thời gian của bạn."
       },
       "hypo": {
         "title": "Bên dưới cửa sổ của bạn",
         "subtitle": "Hệ thống thần kinh của bạn đã trở nên yên tĩnh. Nó đang bảo vệ bạn. Hãy nhẹ nhàng đánh thức nó trở lại.",
-        "feelings": [
-          "Tê",
-          "Ngắt kết nối",
-          "Mệt mỏi tột độ",
-          "Cảm thấy không thực tế",
-          "Độ phẳng"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Tê",
+          "1": "Ngắt kết nối",
+          "2": "Mệt mỏi tột độ",
+          "3": "Cảm thấy không thực tế",
+          "4": "Độ phẳng"
+        },
+        "tools": {
+          "0": {
             "name": "Chuyển động nhẹ nhàng",
             "desc": "Đứng, đi chậm, vung tay. Hãy để cơ thể bạn thức dậy."
           },
-          {
+          "1": {
             "name": "Âm thanh nhịp nhàng",
             "desc": "Phát nhạc với nhịp điệu ổn định, gõ chân theo."
           },
-          {
+          "2": {
             "name": "Nói to",
             "desc": "Nói to tên, địa điểm, ngày hôm nay của bạn. Thu hút lại bộ não tư duy."
           }
-        ],
+        },
         "button": "Tôi cảm thấy hiện diện hơn một chút →",
         "footer": "Bạn đang làm rất tốt. Thực hiện nó từng bước."
       },
       "safe": {
         "title": "Bên trong cửa sổ của bạn",
         "subtitle": "Bạn đang ở trong vùng an toàn của mình. Đây là nơi chữa lành, kết nối và phát triển xảy ra. Làm tốt lắm.",
-        "feelings": [
-          "Hiện tại và nhận thức",
-          "Thở đều đặn",
-          "Tư duy rõ ràng",
-          "Kết nối"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Hiện tại và nhận thức",
+          "1": "Thở đều đặn",
+          "2": "Tư duy rõ ràng",
+          "3": "Kết nối"
+        },
+        "tools": {
+          "0": {
             "name": "Tiếp tục thở chậm",
             "desc": "Vào qua mũi, ra bằng miệng."
           },
-          {
+          "1": {
             "name": "Suy ngẫm",
             "desc": "Điều gì đã giúp bạn ở lại đây? Viết nó ra."
           },
-          {
+          "2": {
             "name": "Lòng trắc ẩn",
             "desc": "\"Hệ thống thần kinh của tôi đang làm công việc của nó. Tôi không bị phá vỡ. Tôi đang chữa lành.'"
           }
-        ],
+        },
         "button": "Tiếp tục đến Bộ công cụ của tôi →",
         "footer": "Bạn xứng đáng được chăm sóc và chữa lành."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Bộ công cụ cá nhân của bạn",
       "subtitle": "Các công cụ cần thiết của bạn — được lưu và sẵn sàng bất cứ khi nào bạn cần.",
-      "tools_list": [
-        "🌬️ Thở hộp",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Bàn chân trên sàn",
-        "🚶 Chuyển động nhẹ nhàng",
-        "🎵 Âm nhạc",
-        "💬 Nói to"
-      ],
+      "tools_list": {
+        "0": "🌬️ Thở hộp",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Bàn chân trên sàn",
+        "3": "🚶 Chuyển động nhẹ nhàng",
+        "4": "🎵 Âm nhạc",
+        "5": "💬 Nói to"
+      },
       "journal_label": "📝 Suy ngẫm hôm nay",
       "journal_desc": "Một khoảnh khắc hôm nay khi bạn nhận thấy hệ thống thần kinh của mình thay đổi là gì - và bạn đã làm gì với nó?",
       "journal_placeholder": "Viết ở đây...",
@@ -156,13 +156,13 @@
       "preserve_button": "Duy trì sự phản chiếu"
     }
   },
-  "nav": [
-    "Nhận phòng",
-    "Giải thích",
-    "Giám sát",
-    "Khu vực",
-    "Bộ công cụ"
-  ],
+  "nav": {
+    "0": "Nhận phòng",
+    "1": "Giải thích",
+    "2": "Giám sát",
+    "3": "Khu vực",
+    "4": "Bộ công cụ"
+  },
   "history": {
     "title": "Lịch sử làm thủ tục chuyến bay",
     "empty": "Chưa có đăng ký."
@@ -176,15 +176,15 @@
     "title": "Làm thủ tục chuyến bay hoàn tất",
     "message": "Bạn đã lập bản đồ thành công trạng thái hiện tại của mình. Xây dựng nhận thức là bước đầu tiên để tìm lại sự cân bằng của bạn."
   },
-  "days": [
-    "Của tôi",
-    "Thứ Ba",
-    "Thứ Tư",
-    "Thu",
-    "Thứ Sáu",
-    "Thứ Bảy",
-    "Mặt trời"
-  ],
+  "days": {
+    "0": "Của tôi",
+    "1": "Thứ Ba",
+    "2": "Thứ Tư",
+    "3": "Thu",
+    "4": "Thứ Sáu",
+    "5": "Thứ Bảy",
+    "6": "Mặt trời"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Bắt đầu lại",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

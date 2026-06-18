@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Emosjonell støtte",
       "prompt": "Hva slags støtte ville faktisk hjelpe deg akkurat nå?",
-      "hints": [
-        "Jeg trenger bare noen til å...",
-        "Det ville hjelpe om...",
-        "Det jeg egentlig vil er..."
-      ]
+      "hints": {
+        "0": "Jeg trenger bare noen til å...",
+        "1": "Det ville hjelpe om...",
+        "2": "Det jeg egentlig vil er..."
+      }
     },
     "Space / time for myself": {
       "label": "Rom / tid for meg selv",
       "prompt": "Hvordan ville det sett ut for deg å ha det rommet?",
-      "hints": [
-        "Jeg ville brukt den tiden til å...",
-        "Rommet ville la meg...",
-        "Jeg trenger plass til å..."
-      ]
+      "hints": {
+        "0": "Jeg ville brukt den tiden til å...",
+        "1": "Rommet ville la meg...",
+        "2": "Jeg trenger plass til å..."
+      }
     },
     "Clear communication": {
       "label": "Klar kommunikasjon",
       "prompt": "Hvordan ville klarere kommunikasjon sett ut for deg?",
-      "hints": [
-        "Jeg skulle ønske jeg kunne si...",
-        "Hvis de virkelig lyttet, ville jeg sagt til dem...",
-        "Kommunikasjon føles vanskelig når..."
-      ]
+      "hints": {
+        "0": "Jeg skulle ønske jeg kunne si...",
+        "1": "Hvis de virkelig lyttet, ville jeg sagt til dem...",
+        "2": "Kommunikasjon føles vanskelig når..."
+      }
     },
     "Reassurance": {
       "label": "Trygghet",
       "prompt": "Hva slags forsikring ville føles meningsfullt?",
-      "hints": [
-        "Jeg må høre det...",
-        "Det ville roe meg å vite...",
-        "Jeg bekymrer meg stadig for at..."
-      ]
+      "hints": {
+        "0": "Jeg må høre det...",
+        "1": "Det ville roe meg å vite...",
+        "2": "Jeg bekymrer meg stadig for at..."
+      }
     },
     "Understanding": {
       "label": "Forståelse",
       "prompt": "Hvordan ville det å virkelig forstå se ut?",
-      "hints": [
-        "Jeg skulle ønske folk visste det...",
-        "Det jeg egentlig føler er...",
-        "Ingen ser at jeg..."
-      ]
+      "hints": {
+        "0": "Jeg skulle ønske folk visste det...",
+        "1": "Det jeg egentlig føler er...",
+        "2": "Ingen ser at jeg..."
+      }
     },
     "Stability": {
       "label": "Stabilitet",
       "prompt": "Hvordan ville stabilitet føles i livet ditt akkurat nå?",
-      "hints": [
-        "Jeg trenger at ting føles...",
-        "Det som ville forankre meg er...",
-        "Stabilitet betyr..."
-      ]
+      "hints": {
+        "0": "Jeg trenger at ting føles...",
+        "1": "Det som ville forankre meg er...",
+        "2": "Stabilitet betyr..."
+      }
     },
     "Honesty": {
       "label": "Ærlighet",
       "prompt": "Hvordan ville mer ærlighet sett ut i din situasjon?",
-      "hints": [
-        "Sannheten jeg må møte er...",
-        "Jeg vil være ærlig om...",
-        "Det som egentlig skjer er..."
-      ]
+      "hints": {
+        "0": "Sannheten jeg må møte er...",
+        "1": "Jeg vil være ærlig om...",
+        "2": "Det som egentlig skjer er..."
+      }
     },
     "Respect": {
       "label": "Respekt",
       "prompt": "Hvordan ser respekt ut for deg akkurat nå?",
-      "hints": [
-        "Jeg fortjener å bli behandlet...",
-        "Respekt ville se ut som...",
-        "Jeg trenger folk til å..."
-      ]
+      "hints": {
+        "0": "Jeg fortjener å bli behandlet...",
+        "1": "Respekt ville se ut som...",
+        "2": "Jeg trenger folk til å..."
+      }
     },
     "Clarity about relationship": {
       "label": "Klarhet om forholdet",
       "prompt": "Hva slags klarhet ville hjelpe deg mest?",
-      "hints": [
-        "Jeg må vite om...",
-        "Det som forvirrer meg er...",
-        "Jeg vil at vi skal være klare om..."
-      ]
+      "hints": {
+        "0": "Jeg må vite om...",
+        "1": "Det som forvirrer meg er...",
+        "2": "Jeg vil at vi skal være klare om..."
+      }
     },
     "default": {
       "prompt": "Hvordan ville dette sett ut i en virkelig situasjon?",
-      "hints": [
-        "Det jeg tenker på er...",
-        "Akkurat nå føler jeg meg...",
-        "Hvis jeg skal være ærlig med meg selv..."
-      ]
+      "hints": {
+        "0": "Det jeg tenker på er...",
+        "1": "Akkurat nå føler jeg meg...",
+        "2": "Hvis jeg skal være ærlig med meg selv..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Si noe ærlig"
     },
-    {
+    "1": {
       "label": "Ta tid for meg selv"
     },
-    {
+    "2": {
       "label": "Ta kontakt med noen"
     },
-    {
+    "3": {
       "label": "Sett en liten grense"
     },
-    {
+    "4": {
       "label": "Ikke sikker ennå"
     }
-  ],
+  },
   "history": {
     "title": "Tidligere refleksjoner",
     "empty": "Ingen refleksjoner ennå."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

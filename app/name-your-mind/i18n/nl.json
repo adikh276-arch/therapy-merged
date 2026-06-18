@@ -3,11 +3,11 @@
   "intro": {
     "title": "Ontmoet je geest",
     "description": "Leer jezelf te distantiëren van overweldigende gedachten door je innerlijke stem een naam te geven.",
-    "benefits": [
-      "Creëer mentale afstand",
-      "Verminder de kracht van harde gedachten",
-      "Let op gedachten zonder hen te zijn"
-    ],
+    "benefits": {
+      "0": "Creëer mentale afstand",
+      "1": "Verminder de kracht van harde gedachten",
+      "2": "Let op gedachten zonder hen te zijn"
+    },
     "duration": "2-3 minuten",
     "view_past": "Bekijk eerdere inzendingen"
   },
@@ -45,15 +45,15 @@
       "title": "Creëer wat afstand",
       "desc": "Geef je geest een naam om jezelf te helpen afstand te nemen van deze gedachten.",
       "placeholder": "Of typ je eigen...",
-      "examples": [
-        "De Criticus",
-        "Overdenker",
-        "Worry FM",
-        "De Overdenkmachine",
-        "De Innerlijke Criticus",
-        "De Wat-Als Generator",
-        "Dramaregisseur"
-      ]
+      "examples": {
+        "0": "De Criticus",
+        "1": "Overdenker",
+        "2": "Worry FM",
+        "3": "De Overdenkmachine",
+        "4": "De Innerlijke Criticus",
+        "5": "De Wat-Als Generator",
+        "6": "Dramaregisseur"
+      }
     },
     "practice": {
       "title": "Probeer deze shift",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Wat viel je op?",
       "desc": "Hoe voelde de gedachte nadat je het een naam had gegeven?",
-      "options": [
-        "De gedachte voelde iets minder intens dan daarvoor",
-        "Ik had het gevoel dat ik wat afstand had van die gedachte",
-        "Het voelde nog steeds net zo sterk als voorheen",
-        "Ik weet niet precies wat er veranderd is, als er al iets is veranderd"
-      ],
+      "options": {
+        "0": "De gedachte voelde iets minder intens dan daarvoor",
+        "1": "Ik had het gevoel dat ik wat afstand had van die gedachte",
+        "2": "Het voelde nog steeds net zo sterk als voorheen",
+        "3": "Ik weet niet precies wat er veranderd is, als er al iets is veranderd"
+      },
       "button": "Volledige reflectie"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

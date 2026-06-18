@@ -31,114 +31,114 @@
     "safety": "Anda tidak perlu memperbaiki semuanya—cukup pilih satu langkah kecil.",
     "button": "Coba → ini",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Kirim check-in santai",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Akui ketegangan",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Beri ruang satu sama lain",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Biarkan dan lanjutkan",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Renungkan saja",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Kirim pesan hangat",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Sebutkan apa yang terjadi dengan jujur",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Berkomitmen untuk berhenti sejenak lain kali",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Pilih kedamaian daripada menjadi benar",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Renungkan apa yang benar-benar Anda butuhkan",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Kirim catatan profesional",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Tangani dengan hormat",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Rencanakan respons yang lebih tenang di lain waktu",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Tetap profesional dan lanjutkan",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Pikirkan tentang batasan",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Jangkau dengan pesan sederhana",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Mengakui apa yang terjadi",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Ambil jeda lain kali",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Biarkan saja untuk saat ini",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Refleksikan saja (belum ada tindakan)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Menjangkau—bahkan tidak sempurna—hampir selalu diterima lebih baik dari yang kita harapkan.",
         "howTitle": "Mulai dari yang kecil",
         "howBody": "Anda tidak perlu menulis esai. Beberapa kata jujur dapat membuka pintu untuk koneksi kembali.",
-        "prompts": [
-          "Hei, aku sudah memikirkanmu. Semoga Anda baik-baik saja.",
-          "Saya tahu segalanya tegang—hanya ingin mengatakan bahwa saya peduli.",
-          "Saya minta maaf sebelumnya. Bisakah kita berbicara ketika Anda siap?"
-        ],
+        "prompts": {
+          "0": "Hei, aku sudah memikirkanmu. Semoga Anda baik-baik saja.",
+          "1": "Saya tahu segalanya tegang—hanya ingin mengatakan bahwa saya peduli.",
+          "2": "Saya minta maaf sebelumnya. Bisakah kita berbicara ketika Anda siap?"
+        },
         "promptLabel": "Pilih titik awal:",
         "editLabel": "Jadikan milik Anda:"
       },
@@ -169,11 +169,11 @@
         "insight": "Orang tidak membutuhkan Anda untuk menjadi sempurna—mereka perlu tahu Anda memperhatikan.",
         "howTitle": "Beri nama dengan lembut",
         "howBody": "Anda dapat mengakui tanpa mengambil semua kesalahan. Sebutkan saja apa yang terjadi dengan jujur.",
-        "prompts": [
-          "Saya tahu segalanya menjadi memanas di antara kami. Saya ingin Anda tahu bahwa saya memperhatikan.",
-          "Saya menyadari bahwa saya mungkin telah tampil kasar. Itu bukan niat saya.",
-          "Saya telah merenungkan apa yang terjadi, dan saya berharap saya menanganinya secara berbeda."
-        ],
+        "prompts": {
+          "0": "Saya tahu segalanya menjadi memanas di antara kami. Saya ingin Anda tahu bahwa saya memperhatikan.",
+          "1": "Saya menyadari bahwa saya mungkin telah tampil kasar. Itu bukan niat saya.",
+          "2": "Saya telah merenungkan apa yang terjadi, dan saya berharap saya menanganinya secara berbeda."
+        },
         "promptLabel": "Pilih titik awal:",
         "editLabel": "Jadikan milik Anda:"
       },
@@ -183,11 +183,11 @@
         "insight": "Jeda 6 detik seringkali cukup untuk beralih dari reaksi ke refleksi.",
         "howTitle": "🧘 Merencanakan jeda Anda",
         "howBody": "Pikirkan isyarat sederhana—seperti menarik napas atau menjauh sebentar—sebelum menanggapi.",
-        "prompts": [
-          "Lain kali saya merasa kesal, saya akan menarik napas dalam-dalam sebelum menanggapi.",
-          "Saya akan mencoba mengatakan 'Beri saya sesaat' alih-alih segera bereaksi.",
-          "Saya akan menjauh selama beberapa menit untuk mengumpulkan pikiran saya."
-        ],
+        "prompts": {
+          "0": "Lain kali saya merasa kesal, saya akan menarik napas dalam-dalam sebelum menanggapi.",
+          "1": "Saya akan mencoba mengatakan 'Beri saya sesaat' alih-alih segera bereaksi.",
+          "2": "Saya akan menjauh selama beberapa menit untuk mengumpulkan pikiran saya."
+        },
         "promptLabel": "Pilih komitmen yang terasa tepat:",
         "editLabel": "Tuliskan niat Anda sendiri:"
       },
@@ -197,11 +197,11 @@
         "insight": "Melepaskan tidak menyerah — itu memilih kedamaian daripada menjadi benar.",
         "howTitle": "🕊️ Lepaskan dengan lembut",
         "howBody": "Anda tidak perlu lupa. Putuskan saja bahwa ini tidak perlu mengontrol perasaan Anda lagi.",
-        "prompts": [
-          "Saya memilih untuk melepaskan ini—bukan karena itu tidak penting, tetapi karena kedamaian saya lebih penting.",
-          "Saya melepaskan kebutuhan untuk benar tentang ini. Saya memilih koneksi.",
-          "Situasi ini tidak menentukan hubungan kita. Saya bergerak maju."
-        ],
+        "prompts": {
+          "0": "Saya memilih untuk melepaskan ini—bukan karena itu tidak penting, tetapi karena kedamaian saya lebih penting.",
+          "1": "Saya melepaskan kebutuhan untuk benar tentang ini. Saya memilih koneksi.",
+          "2": "Situasi ini tidak menentukan hubungan kita. Saya bergerak maju."
+        },
         "promptLabel": "Pilih apa yang beresonansi:",
         "editLabel": "Tuliskan apa yang terasa benar bagi Anda:"
       },
@@ -211,11 +211,11 @@
         "insight": "Menulis jurnal atau bahkan memikirkan apa yang terjadi membantu Anda memproses emosi tanpa tekanan.",
         "howTitle": "🔍 Lihat ke dalam",
         "howBody": "Tanyakan pada diri sendiri: Apa yang sebenarnya saya rasakan di balik kemarahan itu? Seringkali itu adalah rasa sakit, ketakutan, atau kekecewaan.",
-        "prompts": [
-          "Di balik kemarahan saya, saya pikir saya merasa terluka.",
-          "Saya menyadari bahwa saya bereaksi karena takut tidak didengar.",
-          "Yang benar-benar saya butuhkan adalah merasa dihormati dan dihargai."
-        ],
+        "prompts": {
+          "0": "Di balik kemarahan saya, saya pikir saya merasa terluka.",
+          "1": "Saya menyadari bahwa saya bereaksi karena takut tidak didengar.",
+          "2": "Yang benar-benar saya butuhkan adalah merasa dihormati dan dihargai."
+        },
         "promptLabel": "Pilih apa yang beresonansi:",
         "editLabel": "Tulis refleksi Anda sendiri:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

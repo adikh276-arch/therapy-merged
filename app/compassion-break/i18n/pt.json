@@ -1,14 +1,14 @@
 {
   "app_title": "Pausa da Compaixão",
-  "screen_titles": [
-    "Check-in",
-    "Identificar",
-    "Respiração",
-    "Bondade",
-    "Turno",
-    "Refletir",
-    "Completo"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Identificar",
+    "2": "Respiração",
+    "3": "Bondade",
+    "4": "Turno",
+    "5": "Refletir",
+    "6": "Completo"
+  },
   "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
   "save_success": "Reflexão preservada",
   "save_error": "Falhou em preservar a reflexão",
@@ -25,14 +25,14 @@
   "continue_button": "Continue",
   "nameit_title": "Coloque em palavras",
   "nameit_subtitle": "Agora, estou me sentindo _______",
-  "emotions_list": [
-    "ansioso",
-    "culpado",
-    "sobrecarregado",
-    "tenso",
-    "cansado",
-    "triste"
-  ],
+  "emotions_list": {
+    "0": "ansioso",
+    "1": "culpado",
+    "2": "sobrecarregado",
+    "3": "tenso",
+    "4": "cansado",
+    "5": "triste"
+  },
   "label_custom_emotion": "ou digite o seu próprio",
   "placeholder_emotion": "1–2 palavras",
   "nameit_footer": "Simples já basta.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo",
+  "intro": {
+    "view_past": "Veja Sessões Anteriores"
+  },
+  "history": {
+    "title": "História da Autocompaixão",
+    "no_entries": "Nenhum registro de intervalo anterior encontrado."
+  },
+  "loading": "Histórico de carregamento..."
 }

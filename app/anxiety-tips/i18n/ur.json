@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "سانس لیں...",
+  "hold_label": "رکو...",
+  "exhale_label": "سانس چھوڑو...",
+  "start": "تیار",
+  "stop": "رک جاؤ",
+  "begin_breathing": "سانس لینا شروع کریں",
+  "lang": "لمبا"
 }

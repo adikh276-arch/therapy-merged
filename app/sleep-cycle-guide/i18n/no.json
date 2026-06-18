@@ -173,5 +173,10 @@
   "yes": "Ja",
   "no": "Nei",
   "date": "Dato",
-  "continue": "Fortsett"
+  "continue": "Fortsett",
+  "lang": "lang",
+  "how_long": "Hvor lenge ",
+  "you_sleep": "Du sover.",
+  "where": "hvor ",
+  "you_wake_up": "Du våkner inne i søvnsyklusene dine."
 }

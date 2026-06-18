@@ -23,38 +23,38 @@
   "try_again": "Versuchen Sie es nochmal",
   "complete_title": "Erlerntes Wissen",
   "complete_message": "Du hast {{score}}/{{total}} erzielt! Du hast wertvolle Einsichten in die Wahrheiten und Mythen des Zorns gewonnen.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Wut ist schlecht. Wenn du wütend bist, stimmt etwas nicht mit dir.",
       "answer": "myth",
       "realFact": "Wut ist eine normale, gesunde Emotion. Jeder spürt es. Es ist kein Zeichen dafür, dass mit dir etwas 'nicht stimmt' – es ist ein Zeichen, dass dir etwas wichtig ist. Wichtig ist, wie du darauf reagierst, nicht ob du es fühlst.",
       "example": "Ein Veteran ist wütend, wenn seine Grenzen überschritten werden. Diese Wut ist berechtigt – sie sagt ihnen etwas Wichtiges."
     },
-    {
+    "1": {
       "statement": "Wut kann ein Signal sein, dass deine Grenzen überschritten wurden.",
       "answer": "fact",
       "realFact": "Wut ist Information. Wenn man es spürt, lohnt es sich zu fragen: Welche Grenze wurde überschritten? Welcher Bedarf wird nicht erfüllt? Auf deine Wut zu hören – ohne impulsiv zu handeln – hilft dir, dich selbst besser zu verstehen und sinnvolle Maßnahmen zu ergreifen.",
       "example": "Du bist wütend, wenn ein Kollege dir die Anerkennung für deine Arbeit annimmt. Diese Wut weist auf das Bedürfnis nach Anerkennung und Fairness hin."
     },
-    {
+    "2": {
       "statement": "Wenn du wütend bist, musst du es rauslassen, indem du schreist oder Dinge schlägst.",
       "answer": "myth",
       "realFact": "Gesunder Ausdruck von Wut bedeutet nicht Unterdrückung ODER Explosion. Es bedeutet, deine Gefühle anzuerkennen und sie konstruktiv auszudrücken – durch Worte, Tagebuchschreiben, körperliche Aktivität oder kreative Ausdrucksmöglichkeiten. Du kannst deinen Zorn ehren, ohne Zerstörung zu haben.",
       "example": "Anstatt gegen eine Wand zu schlagen, gehst du laufen oder schreibst genau auf, was dich stört. Die Wut durchströmt dich, ohne Schaden zuzufügen."
     },
-    {
+    "3": {
       "statement": "Zu lernen, mit Wut umzugehen, ist ein Zeichen emotionaler Stärke.",
       "answer": "fact",
       "realFact": "Menschen, die an ihrem Aggressionsmanagement arbeiten, sind nicht schwach – sie leisten einige der mutigsten emotionalen Arbeiten, die es gibt. Innezuhalten, nachzudenken und nachdenklich zu antworten, erfordert weit mehr Kraft, als impulsiv zu reagieren.",
       "example": "Tief durchzuatmen und in einem hitzigen Moment zu sagen: 'Ich brauche eine Minute, bevor ich antreibe', ist ein kraftvoller Akt der Selbstkontrolle."
     },
-    {
+    "4": {
       "statement": "Wenn dich jemand wütend macht, ist das seine Schuld. Du hast keine Verantwortung.",
       "answer": "myth",
       "realFact": "Andere Menschen können deine Wut auslösen, aber wie du reagierst, ist deine Verantwortung – und deine Macht. Verantwortung für deine Reaktionen zu übernehmen bedeutet nicht, dass die andere Person recht hatte. Es bedeutet, dass du selbst entscheidest, wie du erscheinen willst. Das ist Ermächtigung, keine Schuldzuweisung.",
       "example": "Jemand schneidet dich im Verkehr ab. Du bist wütend – das ist normal. Aber du entscheidest, ob du wütend wirst oder tief durchatmest. Die Wahl liegt bei dir."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Von vorne beginnen",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "results_message": "Du"
 }

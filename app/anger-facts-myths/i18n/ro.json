@@ -23,38 +23,38 @@
   "try_again": "Încearcă din nou",
   "complete_title": "Cunoștințe stăpânite",
   "complete_message": "Ai marcat {{score}}/{{total}}! Ai dobândit o perspectivă valoroasă asupra adevărurilor și miturilor furiei.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Furia e rea. Dacă te simți furios, ceva nu este în regulă cu tine.",
       "answer": "myth",
       "realFact": "Furia este o emoție normală, sănătoasă. Toată lumea simte asta. Nu este un semn că ceva este \"în neregulă\" cu tine — este un semnal că ceva contează pentru tine. Contează cum reacționezi, nu dacă simți.",
       "example": "Un veteran se simte furios când limitele sale sunt detrecute. Acea furie este validă — le spune ceva important."
     },
-    {
+    "1": {
       "statement": "Furia poate fi un semnal că ai depășit limitele.",
       "answer": "fact",
       "realFact": "Furia este informație. Când simți asta, merită să te întrebi: ce limită a fost depășită? Ce nevoie nu este îndeplinită? Ascultarea furiei tale — fără a acționa din impuls — te ajută să te înțelegi mai bine pe tine însuți și să acționezi cu adevărat.",
       "example": "Te simți furios când un coleg își asumă meritele pentru munca ta. Acea furie indică o nevoie de recunoaștere și corectitudine."
     },
-    {
+    "2": {
       "statement": "Dacă ești furios, trebuie să te descarci țipând sau lovind lucruri.",
       "answer": "myth",
       "realFact": "O exprimare sănătoasă a furiei nu înseamnă suprimare SAU explozie. Înseamnă să-ți recunoști sentimentele și să le exprimi constructiv — prin cuvinte, jurnal, activitate fizică sau mijloace creative. Îți poți onora furia fără distrugere.",
       "example": "În loc să lovești un perete, alergi sau notezi exact ce te deranjează. Furia trece prin tine fără să provoace rău."
     },
-    {
+    "3": {
       "statement": "A învăța să gestionezi furia este un semn de putere emoțională.",
       "answer": "fact",
       "realFact": "Oamenii care lucrează la gestionarea furiei nu sunt slabi — ei fac unele dintre cele mai curajoase munci emoționale posibile. Alegerea de a face o pauză, de a reflecta și de a răspunde cu gândire necesită mult mai multă forță decât să reacționezi impulsiv.",
       "example": "Să tragi aer adânc în piept și să spui \"Am nevoie de un minut înainte să răspund\" într-un moment tensionat este un act puternic de autocontrol."
     },
-    {
+    "4": {
       "statement": "Dacă cineva te enervează, e vina lui. Nu ai nicio responsabilitate.",
       "answer": "myth",
       "realFact": "Alți oameni pot declanșa furia ta, dar modul în care răspunzi este responsabilitatea ta — și puterea ta. Asumându-ți reacțiile nu înseamnă că cealaltă persoană a avut dreptate. Înseamnă că tu alegi cum să te preziști. Asta înseamnă împuternicire, nu vină.",
       "example": "Cineva te taie calea în trafic. Te simți furios — asta e normal. Dar alegi dacă să te enervezi sau să tragi aer în aer. Alegerea îți aparține."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Începeți de la început",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung",
+  "results_message": "Tu"
 }

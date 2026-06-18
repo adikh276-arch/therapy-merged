@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "ゆっくり息を吸って...",
+  "instruction_out": "ゆっくり息を吐いて...",
+  "instruction_hold": "優しく持って...",
+  "lang": "長い"
 }

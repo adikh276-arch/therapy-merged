@@ -21,30 +21,31 @@
       "placeholder": "Introdu un nume...",
       "button": "Salvează numele"
     },
-    "prompts": [
-      "O persoană care aduce bucurie",
-      "O persoană care te susține",
-      "O persoană cu care poți vorbi",
-      "O persoană în care ai încredere",
-      "O persoană care te inspiră"
-    ]
+    "prompts": {
+      "0": "O persoană care aduce bucurie",
+      "1": "O persoană care te susține",
+      "2": "O persoană cu care poți vorbi",
+      "3": "O persoană în care ai încredere",
+      "4": "O persoană care te inspiră"
+    }
   },
   "reflection": {
     "subtitle": "Reflecții finale",
     "title": "Ce observi?",
     "p_intro": "Ia-ți un moment să te uiți la cercul tău. S-ar putea să observi:",
-    "list": [
-      "Unii oameni se simt mai apropiați decât alții",
-      "Unele conexiuni par puternice",
-      "Unele par îndepărtate sau neclare",
-      "Pot exista goluri — sau doar câteva persoane semnificative"
-    ],
+    "list": {
+      "0": "Unii oameni se simt mai apropiați decât alții",
+      "1": "Unele conexiuni par puternice",
+      "2": "Unele par îndepărtate sau neclare",
+      "3": "Pot exista goluri — sau doar câteva persoane semnificative"
+    },
     "italic": "Conștientizarea este primul pas spre construirea conexiunilor pe care le prețuiești. 🧘",
     "label": "💭 Există cineva cu care ai vrea să te simți mai conectat?",
     "placeholder": "Scrie-ți gândurile aici...",
     "save_button": "Salvează reflecția",
     "saving_button": "Salvând...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Harta ta interpersonală este păstrată în siguranță în jurnalul tău. Cultivarea acestor noduri de suport ne ajută să rămânem rezilienți."
   },
   "history": {
     "title": "Istoria Cercurilor Tale",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ești sigur că vrei să ștergi acest jurnal de cerc?"
   },
   "intro_p1": "În diferite momente ale vieții, sistemul nostru de sprijin se poate schimba. 🌱 Uneori ne simțim conectați și sprijiniți. Alteori, lucrurile pot părea distante sau neclare.",
   "intro_p2": "Această activitate este un spațiu în care să te oprești și să privești oamenii din jurul tău — și să înțelegi cine simte că face parte din cercul tău în prezent. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung",
+  " ": " "
 }

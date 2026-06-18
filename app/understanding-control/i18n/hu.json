@@ -1,58 +1,58 @@
 {
   "app_title": "A vezérlés megértése",
   "app_subtitle": "Túlélési stratégia • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Miért lehet olyan erősnek tűnni az irányítás",
-      "paragraphs": [
-        "Sokan, akik étkezési nehézségekkel küzdenek, az irányítás olyan módnak tűnhet, hogy biztonságot teremtsen.",
-        "Amikor az élet kiszámíthatatlannak vagy érzelmileg intenzívnek tűnik, az ételre, súlyra vagy a rutinokra való koncentrálás struktúrát és bizonyosságot hozhat.",
-        "Ez nem akaraterőről vagy fegyelemről szól. Arról szól, hogy megpróbáld stabilizálni magad, amikor bizonytalannak tűnik a helyzet.",
-        "Így az irányítás megküzdési stratégiává válik — valamivé, ami segít abban, hogy a földhözragadtnak érezd magad, még ha csak ideiglenesen is."
-      ],
+      "paragraphs": {
+        "0": "Sokan, akik étkezési nehézségekkel küzdenek, az irányítás olyan módnak tűnhet, hogy biztonságot teremtsen.",
+        "1": "Amikor az élet kiszámíthatatlannak vagy érzelmileg intenzívnek tűnik, az ételre, súlyra vagy a rutinokra való koncentrálás struktúrát és bizonyosságot hozhat.",
+        "2": "Ez nem akaraterőről vagy fegyelemről szól. Arról szól, hogy megpróbáld stabilizálni magad, amikor bizonytalannak tűnik a helyzet.",
+        "3": "Így az irányítás megküzdési stratégiává válik — valamivé, ami segít abban, hogy a földhözragadtnak érezd magad, még ha csak ideiglenesen is."
+      },
       "microcopy": "Nem vagy egyedül, aki így érze.",
       "cta": "Folytatás"
     },
-    {
+    "1": {
       "headline": "Különböző módokon jelenik meg a kontroll",
       "intro": "Az irányítás iránti igény nem mindenkinél ugyanúgy néz ki, de gyakran megjelenik olyan mintákban, mint például:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Szigorú vagy merevíthetetlen étkezési szabályok"
         },
-        {
+        "1": {
           "text": "Pontosan követni kell a rutinokat"
         },
-        {
+        "2": {
           "text": "Szorongás, amikor a tervek változnak"
         },
-        {
+        "3": {
           "text": "Az önértékelés összekapcsolása az alakkal/súlysal"
         }
-      ],
+      },
       "outro": "Idővel ezek merevsé válhatnak, mentális teret foglalnak, és megnehezítik az alkalmazkodást.",
       "microcopy": "Ami kontrollként indul, lassan már kontrollálónak tűnhet.",
       "cta": "Folytatás"
     },
-    {
+    "2": {
       "headline": "A vezérlő alatt",
       "intro": "Az irányítás iránti késztetés gyakran mélyebb gyökerekkel rendelkezik. Kapcsolódik a következőkhöz:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Érzelmileg elárasztott érzés"
         },
-        {
+        "1": {
           "text": "A kiszámíthatóságot akarva"
         },
-        {
+        "2": {
           "text": "Stabilitás és biztonság iránti igény"
         }
-      ],
+      },
       "insight": "Nem az irányítás a probléma – hanem az a stratégia, amit az elméd talált a megbirkózásra. Idővel és támogatással más módok is lehetségesek a biztonság érdekében.",
       "microcopy": "A megértés egy erőteljes első lépés.",
       "cta": "Fejezd be az olvasást"
     }
-  ],
+  },
   "complete": {
     "title": "Tudatosság",
     "message": "Az irányítás gyökereinek megértése bátor első lépés afelé, hogy új módokat találjunk a biztonságban és stabil érzésben.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

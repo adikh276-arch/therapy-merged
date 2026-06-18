@@ -29,7 +29,8 @@
     "historyDesc": "Je eerdere reflecties zijn hier opgeslagen zodat je ze op elk moment kunt herbekijken.",
     "noHistory": "Je hebt nog geen waardenreflectie afgerond.",
     "startActivity": "Start activiteit",
-    "startNew": "Begin met Nieuwe Reflectie"
+    "startNew": "Begin met Nieuwe Reflectie",
+    "aligned": "Uitgelijnd"
   },
   "values": {
     "Family": "Familie",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "app_duration": "5 minuten",
+  "loading": "Reflecties laden..."
 }

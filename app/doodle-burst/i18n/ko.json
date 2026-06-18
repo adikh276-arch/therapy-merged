@@ -97,5 +97,10 @@
   "yes": "네",
   "no": "아니요",
   "date": "날짜",
-  "continue": "계속하기"
+  "continue": "계속하기",
+  "canvas": "캔버스",
+  "2d": "2d",
+  "a": "a",
+  "lang": "길게",
+  "complete_and_save": "완성 및 저장"
 }

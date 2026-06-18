@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Dejme si spolu krátkou pauzu.\n\nDalší minutu není nic, co byste museli řešit, opravovat nebo na co reagovat. Dovol si zpomalit.\n\nPosaďte se pohodlně, položte nohy na zem, pokud můžete, a jemně se pomalu nadechněte... a pomalu vydechnout.\n\nTo je váš okamžik resetovat se a znovu se spojit s přítomností.",
       "button": "Začátek"
     },
-    {
+    "1": {
       "heading": "5 věcí, které můžete vidět",
       "body": "Pomalu se rozhlédni kolem sebe. Nechte oči jemně klouzat po prostoru. Všímejte si barev, tvarů, světla, stínů nebo drobných detailů, kterým jste možná dříve nevěnovali pozornost.",
       "button": "Další"
     },
-    {
+    "2": {
       "heading": "4 věci, které můžete cítit",
       "body": "Zaměřte se na své tělo. Cítíte nohy na podlaze, záda opřená o židli, oblečení na kůži nebo vzduch kolem vás. Uznajte čtyři fyzické vjemy.",
       "button": "Další"
     },
-    {
+    "3": {
       "heading": "3 věci, které můžete slyšet",
       "body": "Poslouchej pozorně. Můžete slyšet vzdálené zvuky, ventilátor, psaní na klávesnici, dýchání nebo dokonce ticho. Identifikujte tři zvuky, aniž byste je soudili.",
       "button": "Další"
     },
-    {
+    "4": {
       "heading": "2 věci, které cítíte",
       "body": "Zkus zachytit nějaký pach v místnosti. Pokud nic nevyčnívá, stačí si všimnout neutrálního zápachu vzduchu kolem sebe.",
       "button": "Další"
     },
-    {
+    "5": {
       "heading": "1 věc, kterou můžete ochutnat",
       "body": "Dávejte pozor na chuť v ústech. Může být jemná nebo neutrální — stačí ji pozorovat.",
       "button": "Další"
     },
-    {
+    "6": {
       "heading": "Reflexe",
       "body": "Zhluboka se nadechni... a jemně vydechnout.",
       "button": "Odeslat"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Začít znovu",
@@ -62,7 +62,10 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "you_feel": "Cítíš",
+    "reflection_question": "Jak se cítíte po tomto uzemňovacím tréninku?",
+    "reflection_placeholder": "Klidnější, uzemněný..."
   },
   "app_title": "5-4-3-2-1 Uzemnění",
   "intro_p1": "Rychle snižuje úzkost",
@@ -90,5 +93,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý",
+  "\\n\\n": "\\n\\n"
 }

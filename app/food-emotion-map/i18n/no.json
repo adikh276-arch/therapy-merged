@@ -1,15 +1,15 @@
 {
   "app_title": "Mat- og følelseskart",
-  "screen_titles": [
-    "Velkommen",
-    "Matmønstre",
-    "Intern dialog",
-    "Fysisk sansing",
-    "Kartet",
-    "Mild støtte",
-    "Endelig utseende",
-    "Reflekterende"
-  ],
+  "screen_titles": {
+    "0": "Velkommen",
+    "1": "Matmønstre",
+    "2": "Intern dialog",
+    "3": "Fysisk sansing",
+    "4": "Kartet",
+    "5": "Mild støtte",
+    "6": "Endelig utseende",
+    "7": "Reflekterende"
+  },
   "welcome_text": "Hei... Jeg er virkelig glad for at du er her 💛. La oss forsiktig kartlegge hva som har skjedd.",
   "coming_up_label": "Hva skjer i det siste?",
   "begin_mapping": "Start kartlegging",
@@ -32,36 +32,36 @@
   "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
   "save_success": "Mønster bevart",
   "save_error": "Klarte ikke å bevare mønsteret",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Tristhet",
-    "😶 Kjedsomhet",
-    "😟 Angst",
-    "🥺 Ensomhet",
-    "💭 Noe annet..."
-  ],
-  "food_responses": [
-    "🍽️ Jeg spiser mer",
-    "🚫 Jeg spiser mindre",
-    "🍫 Jeg har lyst på spesifikke matvarer",
-    "😣 Jeg unngår mat",
-    "😐 Ingen reell endring"
-  ],
-  "body_sensations": [
-    "💔 Trangt bryst",
-    "🪨 Tung følelse",
-    "🦵 Rastløs / rastløs",
-    "🔋 Lavenergi",
-    "🌀 Knuter i magen",
-    "❓ Noe annet..."
-  ],
-  "support_options": [
-    "🗣️ Snakk med noen",
-    "☕ Ta en pause",
-    "📝 Tidsskrift",
-    "🌬️ Pust",
-    "🎧 Distrahere meg selv"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Tristhet",
+    "2": "😶 Kjedsomhet",
+    "3": "😟 Angst",
+    "4": "🥺 Ensomhet",
+    "5": "💭 Noe annet..."
+  },
+  "food_responses": {
+    "0": "🍽️ Jeg spiser mer",
+    "1": "🚫 Jeg spiser mindre",
+    "2": "🍫 Jeg har lyst på spesifikke matvarer",
+    "3": "😣 Jeg unngår mat",
+    "4": "😐 Ingen reell endring"
+  },
+  "body_sensations": {
+    "0": "💔 Trangt bryst",
+    "1": "🪨 Tung følelse",
+    "2": "🦵 Rastløs / rastløs",
+    "3": "🔋 Lavenergi",
+    "4": "🌀 Knuter i magen",
+    "5": "❓ Noe annet..."
+  },
+  "support_options": {
+    "0": "🗣️ Snakk med noen",
+    "1": "☕ Ta en pause",
+    "2": "📝 Tidsskrift",
+    "3": "🌬️ Pust",
+    "4": "🎧 Distrahere meg selv"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Ta kontakt 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på at du vil slette denne mappingen?"
   },
   "app_description": "Mat og følelseskart",
   "more": "Flere",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "view_weekly": "Se karthistorikk",
+  " ": " "
 }

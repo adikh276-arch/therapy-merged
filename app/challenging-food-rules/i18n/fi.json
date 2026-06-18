@@ -16,23 +16,23 @@
   },
   "rule_label": "Säännön nimeäminen",
   "rule_question": "Mikä on sääntö?",
-  "rule_options": [
-    "En saisi syödä tietyn ajan jälkeen",
-    "Jotkut ruoat ovat kiellettyjä",
-    "Minun täytyy hallita annoskoja tiukasti"
-  ],
+  "rule_options": {
+    "0": "En saisi syödä tietyn ajan jälkeen",
+    "1": "Jotkut ruoat ovat kiellettyjä",
+    "2": "Minun täytyy hallita annoskoja tiukasti"
+  },
   "rule_something_else": "Jotain muuta...",
   "rule_placeholder": "Kirjoita ruokasääntösi...",
   "feeling_label": "Emotionaalinen vaikutus",
   "feeling_question": "Miltä tämä tuntuu?",
-  "feeling_options": [
-    "😟 Huolestunut",
-    "😌 Hallinnassa",
-    "😕 Syyllinen",
-    "😣 Rajoitettu",
-    "😴 Väsynyt",
-    "😐 Sekalainen"
-  ],
+  "feeling_options": {
+    "0": "😟 Huolestunut",
+    "1": "😌 Hallinnassa",
+    "2": "😕 Syyllinen",
+    "3": "😣 Rajoitettu",
+    "4": "😴 Väsynyt",
+    "5": "😐 Sekalainen"
+  },
   "challenge_label": "Pehmeä haaste",
   "challenge_question": "Kysy lempeästi...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

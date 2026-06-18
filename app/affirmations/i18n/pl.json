@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "Kiedy czujesz się samotny i smutny",
-      "affirmations": [
-        "Nie jestem sam, nawet jeśli tak się czuję.",
-        "Moje uczucia zasługują na troskę i delikatność.",
-        "Ta chwila nie będzie trwała wiecznie.",
-        "Mam prawo potrzebować połączenia.",
-        "Mogę ofiarować sobie ciepło już teraz."
-      ]
+      "affirmations": {
+        "0": "Nie jestem sam, nawet jeśli tak się czuję.",
+        "1": "Moje uczucia zasługują na troskę i delikatność.",
+        "2": "Ta chwila nie będzie trwała wiecznie.",
+        "3": "Mam prawo potrzebować połączenia.",
+        "4": "Mogę ofiarować sobie ciepło już teraz."
+      }
     },
     "terrified": {
       "label": "Kiedy czujesz się przerażony",
-      "affirmations": [
-        "W tej chwili jestem bezpieczny.",
-        "Strach jest uczuciem, nie przewidywaniem.",
-        "Mogę brać to oddech po oddechu.",
-        "Nie muszę rozwiązywać wszystkiego od razu.",
-        "Jestem silniejszy niż ta chwila."
-      ]
+      "affirmations": {
+        "0": "W tej chwili jestem bezpieczny.",
+        "1": "Strach jest uczuciem, nie przewidywaniem.",
+        "2": "Mogę brać to oddech po oddechu.",
+        "3": "Nie muszę rozwiązywać wszystkiego od razu.",
+        "4": "Jestem silniejszy niż ta chwila."
+      }
     },
     "insignificant": {
       "label": "Kiedy czujesz się nieistotny",
-      "affirmations": [
-        "Małe chwile nadal się liczą.",
-        "Nie muszę udowadniać swojej wartości.",
-        "Mam prawo zająć przestrzeń.",
-        "Moje istnienie ma znaczenie.",
-        "Wystarczam sobie taki, jaki jestem."
-      ]
+      "affirmations": {
+        "0": "Małe chwile nadal się liczą.",
+        "1": "Nie muszę udowadniać swojej wartości.",
+        "2": "Mam prawo zająć przestrzeń.",
+        "3": "Moje istnienie ma znaczenie.",
+        "4": "Wystarczam sobie taki, jaki jestem."
+      }
     },
     "overwhelmed": {
       "label": "Kiedy czujesz się przytłoczony",
-      "affirmations": [
-        "Nie muszę robić wszystkiego na raz.",
-        "Wystarczy jeden mały krok.",
-        "Nie ma nic złego w zrobieniu pauzy.",
-        "Mam prawo odpocząć.",
-        "To znów stanie się możliwe do opanowania."
-      ]
+      "affirmations": {
+        "0": "Nie muszę robić wszystkiego na raz.",
+        "1": "Wystarczy jeden mały krok.",
+        "2": "Nie ma nic złego w zrobieniu pauzy.",
+        "3": "Mam prawo odpocząć.",
+        "4": "To znów stanie się możliwe do opanowania."
+      }
     },
     "hopeless": {
       "label": "Kiedy czujesz się beznadziejnie",
-      "affirmations": [
-        "Nie potrzebuję odpowiedzi dzisiaj.",
-        "Zmiana jest nadal możliwa.",
-        "Przetrwałem już trudne dni.",
-        "Na razie mogę tu zostać.",
-        "Coś delikatnego może się jeszcze wydarzyć."
-      ]
+      "affirmations": {
+        "0": "Nie potrzebuję odpowiedzi dzisiaj.",
+        "1": "Zmiana jest nadal możliwa.",
+        "2": "Przetrwałem już trudne dni.",
+        "3": "Na razie mogę tu zostać.",
+        "4": "Coś delikatnego może się jeszcze wydarzyć."
+      }
     },
     "conflicted": {
       "label": "Kiedy czujesz konflikt",
-      "affirmations": [
-        "Nic nie stoi na przeszkodzie, aby odczuwać więcej niż jedną rzecz naraz.",
-        "Nie potrzebuję natychmiastowej jasności.",
-        "Zamieszanie nie oznacza porażki.",
-        "Mogę dać sobie czas.",
-        "Ufam, że uda mi się to rozgryźć."
-      ]
+      "affirmations": {
+        "0": "Nic nie stoi na przeszkodzie, aby odczuwać więcej niż jedną rzecz naraz.",
+        "1": "Nie potrzebuję natychmiastowej jasności.",
+        "2": "Zamieszanie nie oznacza porażki.",
+        "3": "Mogę dać sobie czas.",
+        "4": "Ufam, że uda mi się to rozgryźć."
+      }
     },
     "self-critical": {
       "label": "Kiedy jesteś bardzo samokrytyczny",
-      "affirmations": [
-        "Mogę rozmawiać ze sobą z życzliwością.",
-        "Nie muszę karać siebie, żeby się rozwijać.",
-        "Błędy nie definiują tego, kim jestem.",
-        "Uczę się, a nie ponoszę porażkę.",
-        "Wzrost nie wymaga okrucieństwa."
-      ]
+      "affirmations": {
+        "0": "Mogę rozmawiać ze sobą z życzliwością.",
+        "1": "Nie muszę karać siebie, żeby się rozwijać.",
+        "2": "Błędy nie definiują tego, kim jestem.",
+        "3": "Uczę się, a nie ponoszę porażkę.",
+        "4": "Wzrost nie wymaga okrucieństwa."
+      }
     },
     "out-of-place": {
       "label": "Kiedy czujesz się nie na miejscu w towarzystwie",
-      "affirmations": [
-        "Mogę być cichy lub inny.",
-        "Nie muszę dorównywać niczyjej energii.",
-        "Należę taki, jaki jestem.",
-        "Potrafię zająć przestrzeń delikatnie.",
-        "Nie robię tego źle."
-      ]
+      "affirmations": {
+        "0": "Mogę być cichy lub inny.",
+        "1": "Nie muszę dorównywać niczyjej energii.",
+        "2": "Należę taki, jaki jestem.",
+        "3": "Potrafię zająć przestrzeń delikatnie.",
+        "4": "Nie robię tego źle."
+      }
     },
     "unsafe": {
       "label": "Kiedy czujesz się niepewnie w towarzystwie nieznajomych",
-      "affirmations": [
-        "Mogę poruszać się we własnym tempie.",
-        "Mam prawo chronić swoje granice.",
-        "Mogę pozostać zakotwiczony w swoim ciele.",
-        "Mam prawo wyjść z sytuacji.",
-        "Mogę zadbać o swoje bezpieczeństwo."
-      ]
+      "affirmations": {
+        "0": "Mogę poruszać się we własnym tempie.",
+        "1": "Mam prawo chronić swoje granice.",
+        "2": "Mogę pozostać zakotwiczony w swoim ciele.",
+        "3": "Mam prawo wyjść z sytuacji.",
+        "4": "Mogę zadbać o swoje bezpieczeństwo."
+      }
     },
     "pressured": {
       "label": "Kiedy czujesz presję w pracy",
-      "affirmations": [
-        "Moja wartość nie jest moją produktywnością.",
-        "Nie muszę ciągle udowadniać swojej wartości.",
-        "Dzisiaj wystarczy, że zrobię wszystko, co w mojej mocy.",
-        "Można wykonywać tylko jedno zadanie na raz.",
-        "Jestem czymś więcej niż tylko swoją rolą."
-      ]
+      "affirmations": {
+        "0": "Moja wartość nie jest moją produktywnością.",
+        "1": "Nie muszę ciągle udowadniać swojej wartości.",
+        "2": "Dzisiaj wystarczy, że zrobię wszystko, co w mojej mocy.",
+        "3": "Można wykonywać tylko jedno zadanie na raz.",
+        "4": "Jestem czymś więcej niż tylko swoją rolą."
+      }
     },
     "face-the-day": {
       "label": "Kiedy nie chcesz stawić czoła dniu",
-      "affirmations": [
-        "Mogę podzielić dzisiejszy dzień na małe kawałki.",
-        "Wystarczy, że się przedostaniesz.",
-        "Nie potrzebuję motywacji, żeby zacząć.",
-        "Delikatne zachowanie nadal ma znaczenie.",
-        "Ten dzień mnie nie definiuje."
-      ]
+      "affirmations": {
+        "0": "Mogę podzielić dzisiejszy dzień na małe kawałki.",
+        "1": "Wystarczy, że się przedostaniesz.",
+        "2": "Nie potrzebuję motywacji, żeby zacząć.",
+        "3": "Delikatne zachowanie nadal ma znaczenie.",
+        "4": "Ten dzień mnie nie definiuje."
+      }
     },
     "future": {
       "label": "Kiedy martwisz się o swoją przyszłość",
-      "affirmations": [
-        "Mogę wrócić do teraźniejszości.",
-        "Zajmę się sprawami takimi, jakie będą.",
-        "Dziś nie potrzebuję pewności.",
-        "Potrafię się przystosować.",
-        "Mogę sobie trochę bardziej zaufać."
-      ]
+      "affirmations": {
+        "0": "Mogę wrócić do teraźniejszości.",
+        "1": "Zajmę się sprawami takimi, jakie będą.",
+        "2": "Dziś nie potrzebuję pewności.",
+        "3": "Potrafię się przystosować.",
+        "4": "Mogę sobie trochę bardziej zaufać."
+      }
     },
     "stuck": {
       "label": "Kiedy czujesz, że utknąłeś w jakimś problemie",
-      "affirmations": [
-        "To, że utknąłem, nie znaczy, że jestem zepsuty.",
-        "Mogę zrobić przerwę, nie poddając się.",
-        "Nie potrzebuję natychmiastowych rozwiązań.",
-        "Mam prawo czuć się niepewnie.",
-        "Nadal się poruszam, nawet powoli."
-      ]
+      "affirmations": {
+        "0": "To, że utknąłem, nie znaczy, że jestem zepsuty.",
+        "1": "Mogę zrobić przerwę, nie poddając się.",
+        "2": "Nie potrzebuję natychmiastowych rozwiązań.",
+        "3": "Mam prawo czuć się niepewnie.",
+        "4": "Nadal się poruszam, nawet powoli."
+      }
     },
     "compare": {
       "label": "Kiedy porównujesz siebie",
-      "affirmations": [
-        "Moja podróż jest moja własna.",
-        "Nie muszę rywalizować, żeby być godnym.",
-        "Mogę rozwijać się we własnym tempie.",
-        "Sukces innej osoby nie przekreśla mojego sukcesu.",
-        "Nie jestem w tyle."
-      ]
+      "affirmations": {
+        "0": "Moja podróż jest moja własna.",
+        "1": "Nie muszę rywalizować, żeby być godnym.",
+        "2": "Mogę rozwijać się we własnym tempie.",
+        "3": "Sukces innej osoby nie przekreśla mojego sukcesu.",
+        "4": "Nie jestem w tyle."
+      }
     },
     "give-up": {
       "label": "Kiedy chcesz się poddać",
-      "affirmations": [
-        "Nie muszę podejmować żadnej decyzji teraz.",
-        "To uczucie minie.",
-        "Przeżyłam więcej, niż zdaję sobie sprawę.",
-        "Mogę zostać jeszcze chwilę.",
-        "Nadal tu jestem — i to się liczy."
-      ]
+      "affirmations": {
+        "0": "Nie muszę podejmować żadnej decyzji teraz.",
+        "1": "To uczucie minie.",
+        "2": "Przeżyłam więcej, niż zdaję sobie sprawę.",
+        "3": "Mogę zostać jeszcze chwilę.",
+        "4": "Nadal tu jestem — i to się liczy."
+      }
     }
   },
   "app_complete_title": "Poczuj się wzmocniony",
@@ -188,11 +188,11 @@
   "app_description": "Zmień swój sposób myślenia poprzez codzienne afirmacje.",
   "intro": {
     "description": "Codzienne afirmacje pomagają zmienić sposób myślenia i zbudować odporność emocjonalną. Poświęć chwilę na skupienie się na pozytywnych myślach i mów do siebie życzliwie.",
-    "benefits": [
-      "Znajdź spokój w trudnych chwilach",
-      "Rzuć wyzwanie negatywnym schematom myślowym",
-      "Zbuduj współczucie dla siebie i siłę"
-    ]
+    "benefits": {
+      "0": "Znajdź spokój w trudnych chwilach",
+      "1": "Rzuć wyzwanie negatywnym schematom myślowym",
+      "2": "Zbuduj współczucie dla siebie i siłę"
+    }
   },
   "affirmation_for": "Potwierdzenie dla",
   "affirmation": "Afirmacja",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Jak się czujesz?",
+  "feelings_subheading": "Wybierz emocję, którą chcesz",
+  "lang": "długie"
 }

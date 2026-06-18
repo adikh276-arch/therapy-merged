@@ -1,14 +1,14 @@
 {
   "app_title": "Pakikiramay Break",
-  "screen_titles": [
-    "Email Address *",
-    "Kilalanin",
-    "Paghinga",
-    "Kabaitan",
-    "Shift",
-    "Sumasalamin",
-    "Kumpleto"
-  ],
+  "screen_titles": {
+    "0": "Email Address *",
+    "1": "Kilalanin",
+    "2": "Paghinga",
+    "3": "Kabaitan",
+    "4": "Shift",
+    "5": "Sumasalamin",
+    "6": "Kumpleto"
+  },
   "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
   "save_success": "Napanatili ang pagmumuni-muni",
   "save_error": "Nabigo na mapanatili ang pagmumuni-muni",
@@ -25,14 +25,14 @@
   "continue_button": "Magpatuloy",
   "nameit_title": "Isulat ito sa mga salita",
   "nameit_subtitle": "Sa ngayon, pakiramdam ko ay _______",
-  "emotions_list": [
-    "pagkabalisa",
-    "nagkasala",
-    "Labis na Pagkabigo",
-    "tense",
-    "pagod na pagod",
-    "malungkot"
-  ],
+  "emotions_list": {
+    "0": "pagkabalisa",
+    "1": "nagkasala",
+    "2": "Labis na Pagkabigo",
+    "3": "tense",
+    "4": "pagod na pagod",
+    "5": "malungkot"
+  },
   "label_custom_emotion": "o i-type ang iyong sarili",
   "placeholder_emotion": "1-2 salita",
   "nameit_footer": "Simple lang ay sapat na.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro": {
+    "view_past": "View Past Sessions"
+  },
+  "history": {
+    "title": "Self-Compassion History",
+    "no_entries": "No past break logs found."
+  },
+  "loading": "Loading History..."
 }

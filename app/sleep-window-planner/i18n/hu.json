@@ -1,10 +1,10 @@
 {
   "app_title": "Alvóablak tervező",
-  "pill_labels": [
-    "Építsd meg az ablakodat",
-    "Állítsd be az idődet",
-    "Az alvóablakod"
-  ],
+  "pill_labels": {
+    "0": "Építsd meg az ablakodat",
+    "1": "Állítsd be az idődet",
+    "2": "Az alvóablakod"
+  },
   "screen1": {
     "title": "Az alvói ablakod többet számít, mint gondolnád",
     "p1": "Az alvási ablak az a fix idő, amely az alvadás és az ébredés közötti időszak. Az, hogy következetesen tartsd — még hétvégén is — az egyik legerősebb dolog, amit az alvásért tehetsz.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 módja annak, hogy megvédje",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Lazíts le 30 perccel az lefekvés előtt"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Minden nap ugyanaz az ébredés – igen, hétvégén is"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Kerüld a 20 percnél hosszabb szundikálást 15 óra után"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Kötelezz el egy dolog mellett ma este",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Lefekvés előtt elraktam a telefonomat"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Kezdj el egy lenyugtató rutint"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Lefekvés előtt egy órával tompítsd le a lámpákat"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Fejezd be a teendőlistámat korán"
         }
-      ]
+      }
     },
     "quote": "A következetesség erősebb, mint a tökéletesség. Az egyik jó este építi a következőt.",
     "button": "Mentsd meg az alvási ablakomat ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

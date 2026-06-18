@@ -1,14 +1,14 @@
 {
   "app_title": "Compassion Break",
-  "screen_titles": [
-    "Check-in",
-    "Tanımlama",
-    "Nefes alma",
-    "Nezaket",
-    "Vardiyası",
-    "Yansıt",
-    "Tamam"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Tanımlama",
+    "2": "Nefes alma",
+    "3": "Nezaket",
+    "4": "Vardiyası",
+    "5": "Yansıt",
+    "6": "Tamam"
+  },
   "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
   "save_success": "Korunan yansıma",
   "save_error": "Yansımayı koruyamadı",
@@ -25,14 +25,14 @@
   "continue_button": "Devam et",
   "nameit_title": "Kelimelere dök",
   "nameit_subtitle": "Şu anda kendimi _______",
-  "emotions_list": [
-    "endişeli",
-    "Suçlu",
-    "bunalmış",
-    "zaman",
-    "yorgun",
-    "Üzgün"
-  ],
+  "emotions_list": {
+    "0": "endişeli",
+    "1": "Suçlu",
+    "2": "bunalmış",
+    "3": "zaman",
+    "4": "yorgun",
+    "5": "Üzgün"
+  },
   "label_custom_emotion": "Ya da kendi makinenizi yazınız",
   "placeholder_emotion": "1–2 kelime",
   "nameit_footer": "Basitlik yeterlidir.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun",
+  "intro": {
+    "view_past": "Geçmiş Oturumları Görüntüle"
+  },
+  "history": {
+    "title": "Öz-Şefkat Tarihi",
+    "no_entries": "Geçmiş kırma kayıtları bulunmadı."
+  },
+  "loading": "Geçmiş Yükleniyor..."
 }

@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "Tarik napas perlahan ...",
+  "instruction_out": "Tarik napas perlahan ...",
+  "instruction_hold": "pegang dengan lembut...",
+  "lang": "panjang"
 }

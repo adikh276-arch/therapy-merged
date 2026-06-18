@@ -23,38 +23,38 @@
   "try_again": "Tekrar Deneyin",
   "complete_title": "Bilgi Ustalaşması",
   "complete_message": "{{score}}/{{total}} puanını aldın! Öfkenin gerçekleri ve mitleri hakkında değerli içgörüler edindiniz.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Öfke kötü. Eğer sinirleniyorsanız, sizde bir sorun vardır.",
       "answer": "myth",
       "realFact": "Öfke normal, sağlıklı bir duygudur. Herkes hissediyor. Bu, sizde bir şeylerin 'sorunlu' olduğuna dair bir işaret değil — senin için önemli bir şeyin işareti. Önemli olan, ona nasıl tepki verdiğinizdir, hissedip hissetmediğiniz değil.",
       "example": "Bir gazi, sınırları aşıldığında öfkelenir. O öfke geçerli — onlara önemli bir şey söylüyor."
     },
-    {
+    "1": {
       "statement": "Öfke, sınırlarınızın aşıldığının bir işareti olabilir.",
       "answer": "fact",
       "realFact": "Öfke bilgidir. Bunu hissettiğinizde sormak fayda var: hangi sınır aşıldı? Hangi ihtiyaç karşılanmıyor ki? Öfkenizi dinlemek — ani bir hareket etmeden — kendinizi daha iyi anlamanıza ve anlamlı hareketler yapmanıza yardımcı olur.",
       "example": "Bir iş arkadaşınız çalışmanızın kredisini aldığında sinirleniyorsunuz. Bu öfke, tanınma ve adalet ihtiyacını işaret ediyor."
     },
-    {
+    "2": {
       "statement": "Eğer sinirliysen, bağırarak ya da bir şeylere vurarak bunu dışarı çıkarmalısın.",
       "answer": "myth",
       "realFact": "Sağlıklı öfke ifadesi bastırma YA da patlama anlamına gelmez. Bu, duygularınızı kabul etmek ve bunları yapıcı bir şekilde ifade etmek demektir — kelimeler, günlük tutmak, fiziksel aktivite veya yaratıcı yollarla. Öfkeni yıkım olmadan onurlandırabilirsin.",
       "example": "Duvara yumruk atmak yerine, koşuya çıkar ya da seni rahatsız eden şeyleri tam olarak yazarsın. Öfke zarar vermeden içinden geçer."
     },
-    {
+    "3": {
       "statement": "Öfkeyi yönetmeyi öğrenmek duygusal gücün bir işaretidir.",
       "answer": "fact",
       "realFact": "Öfke kontrolü üzerinde çalışan insanlar zayıf değil — en cesur duygusal çalışmaları yapıyorlar. Duraklamayı, düşünmeyi ve düşünceli bir şekilde yanıt vermeyi, dürtüyle tepki vermekten çok daha fazla güç gerektirir.",
       "example": "Derin bir nefes alıp 'Cevap vermeden önce bir dakikaya ihtiyacım var' demek, hararetli bir anda güçlü bir özdenetim eylemidir."
     },
-    {
+    "4": {
       "statement": "Birisi seni kızdırıyorsa, bu onların suçudur. Hiçbir sorumluluğun yok.",
       "answer": "myth",
       "realFact": "Diğer insanlar öfkenizi tetikleyebilir, ama nasıl tepki verdiğiniz sizin sorumluluğunuzdur — ve gücünüz. Tepkilerinin sorumluluğunu almak, karşı tarafın haklı olduğu anlamına gelmez. Bu, nasıl görüneceğini sen seçiyorsun. Bu güçlendirme, suçlama değil.",
       "example": "Birisi trafikte seni kesiyor. Kızgın hissediyorsun — bu normal. Ama öfkelenmeye ya da nefes almaya karar veriyorsun. Seçim senin."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Baştan Başla",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun",
+  "results_message": "Sen"
 }

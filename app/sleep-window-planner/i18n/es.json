@@ -1,10 +1,10 @@
 {
   "app_title": "Planificador de Ventana de Sueño",
-  "pill_labels": [
-    "Construye tu ventana",
-    "Marca tus tiempos",
-    "Tu ventana de sueño"
-  ],
+  "pill_labels": {
+    "0": "Construye tu ventana",
+    "1": "Marca tus tiempos",
+    "2": "Tu ventana de sueño"
+  },
   "screen1": {
     "title": "Tu ventana de sueño importa más de lo que crees",
     "p1": "Una ventana de sueño es el tiempo fijo entre que te acuestas y te despiertas. Mantener la regularidad —incluso los fines de semana— es una de las cosas más poderosas que puedes hacer para dormir.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 formas de protegerlo",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Relájate 30 minutos antes de la hora de dormir"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "La misma hora de vigilia todos los días — sí, también los fines de semana"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Evita las siestas de más de 20 minutos después de las 15:00"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Comprométete a una cosa esta noche",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Guardo el móvil antes de dormir"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Empieza una rutina de desconectar"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Baja las luces una hora antes de acostarte"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Terminar mi lista de tareas antes"
         }
-      ]
+      }
     },
     "quote": "La constancia es más poderosa que la perfección. Una buena noche se construye a la siguiente.",
     "button": "Guarda mi ventana de sueño ✓",
@@ -143,5 +143,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

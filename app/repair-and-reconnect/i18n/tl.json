@@ -31,114 +31,114 @@
     "safety": "Hindi mo kailangang ayusin ang lahat—pumili lamang ng isang maliit na hakbang.",
     "button": "Subukan ang → na ito",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Magpadala ng kaswal na pag-check-in",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Kilalanin ang tensyon",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Bigyan ang isa't isa ng kaunting espasyo",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Hayaan mo na lang at magpatuloy",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Pagnilayan lamang ito",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Magpadala ng Mainit na Mensahe",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Pangalanan ang nangyari nang tapat",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Mangako na mag-pause sa susunod",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Piliin ang kapayapaan kaysa maging tama",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Pagnilayan kung ano talaga ang kailangan mo",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Email Address *",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Tugunan ito nang may paggalang",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Magplano ng mas kalmado na tugon sa susunod",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Panatilihin itong propesyonal at magpatuloy",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Isipin ang mga hangganan",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Makipag-ugnay sa Isang Simpleng Mensahe",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Kilalanin ang nangyari",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Magpahinga ka muna next time",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Hayaan mo na lang sa ngayon",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Magmuni-muni lang (wala pang aksyon)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Ang pag-abot ng tulong—kahit na hindi perpekto—ay halos palaging tinatanggap nang mas mahusay kaysa inaasahan natin.",
         "howTitle": "Magsimula nang maliit",
         "howBody": "Hindi mo na kailangang magsulat ng sanaysay. Ang ilang tapat na salita ay maaaring magbukas ng pinto sa muling pakikipag-ugnayan.",
-        "prompts": [
-          "Hoy, kanina pa ako nag-iisip tungkol sa iyo. Sana ay maayos ka.",
-          "Alam ko na ang mga bagay ay tensiyonado—gusto ko lang sabihin na nagmamalasakit ako.",
-          "Pasensya na kanina. Pwede ba tayong mag-usap kapag handa ka na?"
-        ],
+        "prompts": {
+          "0": "Hoy, kanina pa ako nag-iisip tungkol sa iyo. Sana ay maayos ka.",
+          "1": "Alam ko na ang mga bagay ay tensiyonado—gusto ko lang sabihin na nagmamalasakit ako.",
+          "2": "Pasensya na kanina. Pwede ba tayong mag-usap kapag handa ka na?"
+        },
         "promptLabel": "Pumili ng panimulang punto:",
         "editLabel": "Gawin itong sa iyo:"
       },
@@ -169,11 +169,11 @@
         "insight": "Hindi ka kailangan ng mga tao upang maging perpekto—kailangan nilang malaman na napansin mo.",
         "howTitle": "Pangalanan ito nang malumanay",
         "howBody": "Maaari mong kilalanin nang hindi kinukuha ang lahat ng sisihin. Pangalanan lamang kung ano ang nangyari nang tapat.",
-        "prompts": [
-          "Alam kong nag-iinit ang mga bagay sa pagitan namin. Gusto kong malaman mo na napansin ko.",
-          "Napagtanto ko na baka malupit ang aking nararamdaman. Hindi iyon ang intensyon ko.",
-          "Pinag-iisipan ko ang nangyari, at sana ay iba ang paghawak ko rito."
-        ],
+        "prompts": {
+          "0": "Alam kong nag-iinit ang mga bagay sa pagitan namin. Gusto kong malaman mo na napansin ko.",
+          "1": "Napagtanto ko na baka malupit ang aking nararamdaman. Hindi iyon ang intensyon ko.",
+          "2": "Pinag-iisipan ko ang nangyari, at sana ay iba ang paghawak ko rito."
+        },
         "promptLabel": "Pumili ng panimulang punto:",
         "editLabel": "Gawin itong sa iyo:"
       },
@@ -183,11 +183,11 @@
         "insight": "Ang isang 6 na segundo na pag-pause ay kadalasang sapat na upang lumipat mula sa reaksyon patungo sa pagmumuni-muni.",
         "howTitle": "🧘 Planuhin ang iyong pag-pause",
         "howBody": "Mag-isip ng isang simpleng pahiwatig-tulad ng paghinga o pag-alis nang maikli-bago tumugon.",
-        "prompts": [
-          "Sa susunod na magalit ako, huminga muna ako ng malalim bago sumagot.",
-          "Susubukan kong sabihin na 'Bigyan mo ako ng sandali' sa halip na mag-react kaagad.",
-          "Ilang minuto na lang akong mag-iisip para mag-isip ng mga bagay-bagay."
-        ],
+        "prompts": {
+          "0": "Sa susunod na magalit ako, huminga muna ako ng malalim bago sumagot.",
+          "1": "Susubukan kong sabihin na 'Bigyan mo ako ng sandali' sa halip na mag-react kaagad.",
+          "2": "Ilang minuto na lang akong mag-iisip para mag-isip ng mga bagay-bagay."
+        },
         "promptLabel": "Pumili ng isang pangako na pakiramdam tama:",
         "editLabel": "Isulat ang iyong sariling intensyon:"
       },
@@ -197,11 +197,11 @@
         "insight": "Ang pagpapaalam ay hindi sumusuko—ito ay pagpili ng kapayapaan kaysa sa pagiging tama.",
         "howTitle": "🕊️ Pakawalan nang malumanay",
         "howBody": "Hindi mo kailangang kalimutan. Magpasiya lamang na hindi na nito kailangang kontrolin ang nararamdaman mo.",
-        "prompts": [
-          "Pinipili kong hayaan ito—hindi dahil hindi ito mahalaga, kundi dahil mas mahalaga ang aking kapayapaan.",
-          "Kailangan kong maging tama tungkol dito. Pinili ko ang koneksyon.",
-          "Ang sitwasyong ito ay hindi tumutukoy sa aming relasyon. Sumusulong ako."
-        ],
+        "prompts": {
+          "0": "Pinipili kong hayaan ito—hindi dahil hindi ito mahalaga, kundi dahil mas mahalaga ang aking kapayapaan.",
+          "1": "Kailangan kong maging tama tungkol dito. Pinili ko ang koneksyon.",
+          "2": "Ang sitwasyong ito ay hindi tumutukoy sa aming relasyon. Sumusulong ako."
+        },
         "promptLabel": "Piliin kung ano ang resonates:",
         "editLabel": "Isulat kung ano ang nararamdaman na totoo para sa iyo:"
       },
@@ -211,11 +211,11 @@
         "insight": "Ang pag-journal o kahit na pag-iisip sa kung ano ang nangyari ay tumutulong sa iyo na iproseso ang emosyon nang walang presyon.",
         "howTitle": "🔍 Tumingin sa loob",
         "howBody": "Tanungin ang iyong sarili: Ano ba talaga ang nararamdaman ko sa ilalim ng galit? Kadalasan ito ay nasasaktan, natatakot, o nabigo.",
-        "prompts": [
-          "Sa sobrang galit ko, nasasaktan ako.",
-          "Napagtanto ko na nag-react ako dahil sa takot na hindi marinig ako.",
-          "Ang kailangan ko talaga ay maramdaman kong iginagalang at pinahahalagahan."
-        ],
+        "prompts": {
+          "0": "Sa sobrang galit ko, nasasaktan ako.",
+          "1": "Napagtanto ko na nag-react ako dahil sa takot na hindi marinig ako.",
+          "2": "Ang kailangan ko talaga ay maramdaman kong iginagalang at pinahahalagahan."
+        },
         "promptLabel": "Piliin kung ano ang resonates:",
         "editLabel": "Isulat ang iyong sariling pagmumuni-muni:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

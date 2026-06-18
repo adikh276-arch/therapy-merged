@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "chooseStoryDesc": "点击个人资料，阅读他们关于坚强与康复的个人旅程。",
+  "recovery_journey": "励志之旅",
+  "reflection_prompt": "好好想想"
 }

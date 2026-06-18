@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Prenons ça étape par étape. 💛",
-    "description": [
-      "Tu n’es pas obligé de raconter toute ton histoire aujourd’hui. Une petite partie suffit.",
-      "Tu es en sécurité pour l’instant. Vous contrôlez ce que vous écrivez — et ce que vous ne faites pas."
-    ],
+    "description": {
+      "0": "Tu n’es pas obligé de raconter toute ton histoire aujourd’hui. Une petite partie suffit.",
+      "1": "Tu es en sécurité pour l’instant. Vous contrôlez ce que vous écrivez — et ce que vous ne faites pas."
+    },
     "breath": "Respirez lentement avant de commencer.",
     "button_ready": "Je suis prêt",
     "button_history": "Récits passés",
@@ -21,20 +21,20 @@
     "title": "Écris ce qui te semble correct ✨",
     "subtitle": "Tes mots, ton rythme",
     "prompt_label": "Besoin d’un point de départ ?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Ce dont je me souviens le plus, c’est...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "À ce moment-là, je me sentais...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Depuis, j’ai remarqué...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Commence à écrire ici...",
     "notice": "Il n’y a pas de bonne façon de faire cela. Même quelques répliques suffisent.",
     "button": "Terminer l’écriture"
@@ -43,10 +43,10 @@
     "title": "Tu as fait quelque chose d’important.",
     "subtitle": "Merci d’être venu pour toi-même.",
     "settle_title": "Prenons un moment pour nous installer",
-    "steps": [
-      "Regarde autour de toi et cite 3 choses que tu peux voir.",
-      "Inspire lentement... et dehors."
-    ],
+    "steps": {
+      "0": "Regarde autour de toi et cite 3 choses que tu peux voir.",
+      "1": "Inspire lentement... et dehors."
+    },
     "feeling_label": "En ce moment, je ressens :",
     "feeling_placeholder": "Un mot ou deux...",
     "quote": "« Tu n’es pas obligé de tout porter d’un coup. Tu pourras revenir quand tu te sentiras prête. »",
@@ -121,5 +121,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

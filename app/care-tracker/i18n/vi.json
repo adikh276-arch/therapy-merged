@@ -33,13 +33,16 @@
     "intro": {
       "title": "Trình theo dõi tự chăm sóc",
       "description": "Theo dõi thói quen chăm sóc bản thân hàng ngày của bạn và xem chúng ảnh hưởng như thế nào đến sức khỏe tổng thể của bạn. Tính nhất quán là chìa khóa để có một tâm trí khỏe mạnh hơn.",
-      "benefits": [
-        "Ghi lại các hoạt động tự chăm sóc hàng ngày",
-        "Theo dõi thời gian dành cho bản thân",
-        "Theo dõi các kiểu tâm trạng của bạn",
-        "Xem lịch sử và tiến độ"
-      ],
-      "duration": "2-3 phút"
+      "benefits": {
+        "0": "Ghi lại các hoạt động tự chăm sóc hàng ngày",
+        "1": "Theo dõi thời gian dành cho bản thân",
+        "2": "Theo dõi các kiểu tâm trạng của bạn",
+        "3": "Xem lịch sử và tiến độ"
+      },
+      "duration": "2-3 phút",
+      "benefit1": "Ghi lại các hoạt động chăm sóc sức khỏe thể chất và tinh thần hàng ngày",
+      "benefit2": "Nhận thấy những thách thức khiến bạn không thể nghỉ ngơi",
+      "benefit3": "Xây dựng chánh niệm thông qua củng cố tích cực"
     },
     "checkin": {
       "title": "Tự chăm sóc check-in 🌿",
@@ -135,20 +138,20 @@
       "Stressed": "Căng thẳng",
       "Tired": "Mệt mỏi"
     },
-    "positiveStatements": [
-      "Bạn đã xuất hiện cho chính mình ngày hôm nay. Điều đó thật mạnh mẽ. 🌿",
-      "Chăm sóc bản thân không phải là ích kỷ - đó là điều cần thiết. Làm tốt lắm. 💚",
-      "Mỗi hành động chăm sóc nhỏ sẽ xây dựng một bạn mạnh mẽ hơn. 🌱",
-      "Bạn đã đầu tư vào bản thân ngày hôm nay. Điều đó quan trọng. ✨",
-      "Chăm sóc bạn là điều tuyệt vời nhất bạn đã làm ngày hôm nay. 🍃"
-    ],
-    "supportiveStatements": [
-      "Không sao cả. Ngày mai là một khởi đầu mới. Hãy nhẹ nhàng với bản thân. 🤍",
-      "Không phải ngày nào cũng hoàn hảo, và điều đó hoàn toàn ổn. 🕊️",
-      "Bạn đang cố gắng hết sức. Điều đó luôn luôn là đủ. 💛",
-      "Nghỉ ngơi cũng là một hình thức tự chăm sóc bản thân. Hãy cho bản thân mình ân sủng. 🌸",
-      "Thừa nhận ngày hôm nay cần có can đảm. Bạn đã phát triển. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Bạn đã xuất hiện cho chính mình ngày hôm nay. Điều đó thật mạnh mẽ. 🌿",
+      "1": "Chăm sóc bản thân không phải là ích kỷ - đó là điều cần thiết. Làm tốt lắm. 💚",
+      "2": "Mỗi hành động chăm sóc nhỏ sẽ xây dựng một bạn mạnh mẽ hơn. 🌱",
+      "3": "Bạn đã đầu tư vào bản thân ngày hôm nay. Điều đó quan trọng. ✨",
+      "4": "Chăm sóc bạn là điều tuyệt vời nhất bạn đã làm ngày hôm nay. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Không sao cả. Ngày mai là một khởi đầu mới. Hãy nhẹ nhàng với bản thân. 🤍",
+      "1": "Không phải ngày nào cũng hoàn hảo, và điều đó hoàn toàn ổn. 🕊️",
+      "2": "Bạn đang cố gắng hết sức. Điều đó luôn luôn là đủ. 💛",
+      "3": "Nghỉ ngơi cũng là một hình thức tự chăm sóc bản thân. Hãy cho bản thân mình ân sủng. 🌸",
+      "4": "Thừa nhận ngày hôm nay cần có can đảm. Bạn đã phát triển. 🌷"
+    }
   },
   "app_title": "Công cụ theo dõi chăm sóc bản thân",
   "app_description": "Hãy theo dõi những thói quen tự chăm sóc bản thân hàng ngày và xem chúng ảnh hưởng đến sức khỏe tổng thể của bạn như thế nào. Sự nhất quán là chìa khóa cho một tinh thần khỏe mạnh hơn.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

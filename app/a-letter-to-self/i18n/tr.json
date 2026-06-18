@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Kurtarmak...",
+    "saved": "Kurtarıldı"
   },
   "app_duration": "10-15 dakika",
   "app_title": "Kendime Mektup",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Promptlar",
+  "need_inspiration": "İlham mı İhtiyacın Var?",
+  "post_writing_reflection": "Yazı Sonrası Düşünce",
+  "reflection_desc": "Duygularınızı kabul etmek, yolculuğunuzda güçlü bir adımdır.",
+  "finish_save_reflection": "Bitirme ve Yansımayı Kaydet",
+  "lang": "uzun",
+  "completion_message": "Mektubunuz güvenle kurtarıldı. İlerlemenin takdir edilmesini bir an ayır."
 }

@@ -1,10 +1,10 @@
 {
   "app_title": "Thiếu ai đó",
-  "subtitles": [
-    "Xác nhận",
-    "Trí tuệ nội tâm",
-    "Hoàn thành"
-  ],
+  "subtitles": {
+    "0": "Xác nhận",
+    "1": "Trí tuệ nội tâm",
+    "2": "Hoàn thành"
+  },
   "complete_title": "Độ rõ ràng đạt được",
   "complete_message": "Hiểu được phản ứng hóa học của việc bỏ lỡ ai đó là bước đầu tiên để chữa lành. Cảm xúc của bạn là hợp lệ, và bộ não của bạn chỉ đơn giản là làm công việc của nó để bảo vệ và xử lý.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

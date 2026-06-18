@@ -1,15 +1,15 @@
 {
   "app_title": "Mapa Jedzenia i Emocji",
-  "screen_titles": [
-    "Witamy",
-    "Wzorce żywieniowe",
-    "Dialog wewnętrzny",
-    "Fizyczne wykrywanie",
-    "Mapa",
-    "Delikatne wsparcie",
-    "Ostateczne spojrzenie",
-    "Refleksja"
-  ],
+  "screen_titles": {
+    "0": "Witamy",
+    "1": "Wzorce żywieniowe",
+    "2": "Dialog wewnętrzny",
+    "3": "Fizyczne wykrywanie",
+    "4": "Mapa",
+    "5": "Delikatne wsparcie",
+    "6": "Ostateczne spojrzenie",
+    "7": "Refleksja"
+  },
   "welcome_text": "Hej... Bardzo się cieszę, że jesteś 💛. Delikatnie zaplanujmy to, co się działo.",
   "coming_up_label": "Co ostatnio się wydarzy?",
   "begin_mapping": "Rozpocznij mapowanie",
@@ -32,36 +32,36 @@
   "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
   "save_success": "Zachowany wzór",
   "save_error": "Nie zachowało wzoru",
-  "emotions_list": [
-    "😰 Stres",
-    "😢 Smutek",
-    "😶 Nuda",
-    "😟 Lęk",
-    "🥺 Samotność",
-    "💭 Coś jeszcze..."
-  ],
-  "food_responses": [
-    "🍽️ Jem więcej",
-    "🚫 Jem mniej",
-    "🍫 Mam ochotę na konkretne potrawy",
-    "😣 Unikam jedzenia",
-    "😐 Brak realnych zmian"
-  ],
-  "body_sensations": [
-    "💔 Ściśnięta klatka piersiowa",
-    "🪨 Ciężkie uczucie",
-    "🦵 Niespokojny / wiercący się",
-    "🔋 Niska energia",
-    "🌀 Węzły w żołądku",
-    "❓ Coś jeszcze..."
-  ],
-  "support_options": [
-    "🗣️ Porozmawiaj z kimś",
-    "☕ Zrób sobie przerwę",
-    "📝 Czasopismo",
-    "🌬️ Oddychaj",
-    "🎧 Rozproszyć się"
-  ],
+  "emotions_list": {
+    "0": "😰 Stres",
+    "1": "😢 Smutek",
+    "2": "😶 Nuda",
+    "3": "😟 Lęk",
+    "4": "🥺 Samotność",
+    "5": "💭 Coś jeszcze..."
+  },
+  "food_responses": {
+    "0": "🍽️ Jem więcej",
+    "1": "🚫 Jem mniej",
+    "2": "🍫 Mam ochotę na konkretne potrawy",
+    "3": "😣 Unikam jedzenia",
+    "4": "😐 Brak realnych zmian"
+  },
+  "body_sensations": {
+    "0": "💔 Ściśnięta klatka piersiowa",
+    "1": "🪨 Ciężkie uczucie",
+    "2": "🦵 Niespokojny / wiercący się",
+    "3": "🔋 Niska energia",
+    "4": "🌀 Węzły w żołądku",
+    "5": "❓ Coś jeszcze..."
+  },
+  "support_options": {
+    "0": "🗣️ Porozmawiaj z kimś",
+    "1": "☕ Zrób sobie przerwę",
+    "2": "📝 Czasopismo",
+    "3": "🌬️ Oddychaj",
+    "4": "🎧 Rozproszyć się"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Skontaktuj się z nami 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jesteś pewien, że chcesz usunąć to mapowanie?"
   },
   "app_description": "Mapa jedzenia i emocji",
   "more": "Więcej",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie",
+  "view_weekly": "Zobacz historię mapy",
+  " ": " "
 }

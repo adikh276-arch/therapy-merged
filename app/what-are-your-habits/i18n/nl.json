@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Je dagelijkse lichaamsroutine",
   "body_subtitle": "Welke van deze voelt de laatste tijd een beetje vreemd aan? (Selecteer een die van toepassing is)",
   "continue": "Ga verder",
-  "body_options": [
-    "Ik slaap slecht",
-    "Mijn slaaptijden zijn onregelmatig",
-    "Soms sla ik maaltijden over",
-    "Ik eet meer dan normaal als ik gestrest ben",
-    "Ik ben niet veel in beweging geweest of gesport",
-    "Ik ben niet veel naar buiten geweest",
-    "Mijn persoonlijke verzorgingsroutine is veranderd",
-    "Mijn dagelijkse routine voelt stabiel"
-  ],
+  "body_options": {
+    "0": "Ik slaap slecht",
+    "1": "Mijn slaaptijden zijn onregelmatig",
+    "2": "Soms sla ik maaltijden over",
+    "3": "Ik eet meer dan normaal als ik gestrest ben",
+    "4": "Ik ben niet veel in beweging geweest of gesport",
+    "5": "Ik ben niet veel naar buiten geweest",
+    "6": "Mijn persoonlijke verzorgingsroutine is veranderd",
+    "7": "Mijn dagelijkse routine voelt stabiel"
+  },
   "mind_title": "🧠 Jouw Denkpatronen",
-  "mind_options": [
-    "Ik blijf dingen overdenken",
-    "Ik stel me vaak het ergste scenario voor",
-    "Ik ben streng voor mezelf",
-    "Ik voel me schuldig over dingen die ik wel of niet heb gedaan",
-    "Ik maak me constant zorgen",
-    "Ik vind het moeilijk om te ontspannen",
-    "Mijn gedachten voelen beheersbaar"
-  ],
+  "mind_options": {
+    "0": "Ik blijf dingen overdenken",
+    "1": "Ik stel me vaak het ergste scenario voor",
+    "2": "Ik ben streng voor mezelf",
+    "3": "Ik voel me schuldig over dingen die ik wel of niet heb gedaan",
+    "4": "Ik maak me constant zorgen",
+    "5": "Ik vind het moeilijk om te ontspannen",
+    "6": "Mijn gedachten voelen beheersbaar"
+  },
   "coping_title": "🌊 Hoe je reageert op stress",
-  "coping_options": [
-    "Ik vermijd taken als ik gestrest ben.",
-    "Ik scroll veel op mijn telefoon om mezelf af te leiden",
-    "Ik breng tijd alleen door om ermee om te gaan",
-    "Ik stort me op mijn werk als ik gestrest ben",
-    "Ik praat met iemand over hoe ik me voel",
-    "Ik doe ademhalingsoefeningen om te kalmeren",
-    "Ik kijk tv of speel spelletjes om mezelf af te leiden",
-    "Ik weet niet goed hoe ik op stress moet reageren"
-  ],
+  "coping_options": {
+    "0": "Ik vermijd taken als ik gestrest ben.",
+    "1": "Ik scroll veel op mijn telefoon om mezelf af te leiden",
+    "2": "Ik breng tijd alleen door om ermee om te gaan",
+    "3": "Ik stort me op mijn werk als ik gestrest ben",
+    "4": "Ik praat met iemand over hoe ik me voel",
+    "5": "Ik doe ademhalingsoefeningen om te kalmeren",
+    "6": "Ik kijk tv of speel spelletjes om mezelf af te leiden",
+    "7": "Ik weet niet goed hoe ik op stress moet reageren"
+  },
   "reflection_title": "✍️ Reflectie",
   "question_stress": "Welke gewoonte verhoogt je stress later?",
   "question_calm": "Welke gewoonte zou je kunnen helpen je rustiger te voelen?",
@@ -44,13 +44,13 @@
   "insight_description": "Tik hieronder om eenvoudige gewoontes te zien die kunnen helpen stress te verminderen.",
   "show_suggestions": "Suggesties voor de show",
   "commit": "Commit",
-  "suggestions": [
-    "Probeer vanavond iets eerder naar bed te gaan",
-    "Ga vandaag naar buiten voor frisse lucht",
-    "Neem even pauze van scrollen",
-    "Spreek vriendelijk tegen jezelf",
-    "Maak één taak af die je hebt uitgesteld"
-  ],
+  "suggestions": {
+    "0": "Probeer vanavond iets eerder naar bed te gaan",
+    "1": "Ga vandaag naar buiten voor frisse lucht",
+    "2": "Neem even pauze van scrollen",
+    "3": "Spreek vriendelijk tegen jezelf",
+    "4": "Maak één taak af die je hebt uitgesteld"
+  },
   "final_text": "Kleine veranderingen zijn belangrijk. Consistentie zorgt voor rust.",
   "finish": "Fins",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "lang",
+  "mind_subtitle": "Welke gedachtepatronen merk je het vaakst dat ze terugkomen? Selecteer alles wat van toepassing is.",
+  "coping_subtitle": "Hoe reageer je meestal als er overweldiging optreedt? Selecteer alles wat van toepassing is."
 }

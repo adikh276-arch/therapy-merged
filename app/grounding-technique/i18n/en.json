@@ -121,5 +121,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "Grounding techniques help bring your attention back to the present moment": {
+    "": "Grounding techniques help bring your attention back to the present moment."
+  },
+  "Choose one activity that feels supportive right now": {
+    "": "Choose one activity that feels supportive right now."
+  },
+  "Next Step": "Next Step"
 }

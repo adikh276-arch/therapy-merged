@@ -33,13 +33,16 @@
     "intro": {
       "title": "Selbstfürsorge-Tracker",
       "description": "Verfolgen Sie Ihre täglichen Selbstfürsorgegewohnheiten und sehen Sie, wie sie sich auf Ihr gesamtes Wohlbefinden auswirken. Beständigkeit ist der Schlüssel zu einem gesünderen Geist.",
-      "benefits": [
-        "Protokolliere tägliche Selbstfürsorgeaktivitäten",
-        "Tracke die Zeit, die du für dich selbst verwendest,",
-        "Beobachte deine Stimmungsmuster",
-        "Geschichte und Fortschritt ansehen"
-      ],
-      "duration": "2-3 Minuten"
+      "benefits": {
+        "0": "Protokolliere tägliche Selbstfürsorgeaktivitäten",
+        "1": "Tracke die Zeit, die du für dich selbst verwendest,",
+        "2": "Beobachte deine Stimmungsmuster",
+        "3": "Geschichte und Fortschritt ansehen"
+      },
+      "duration": "2-3 Minuten",
+      "benefit1": "Protokolliere täglich körperliche und geistige Gesundheitsmaßnahmen",
+      "benefit2": "Beachte Herausforderungen, die dich vor Ruhe hindern",
+      "benefit3": "Baue Achtsamkeit durch positive Verstärkung auf"
     },
     "checkin": {
       "title": "Selbstfürsorge-Check-in 🌿",
@@ -135,20 +138,20 @@
       "Tired": "Müde",
       "Neutral": "Neutral"
     },
-    "positiveStatements": [
-      "Du bist heute für dich selbst aufgetaucht. Das ist kraftvoll. 🌿",
-      "Selbstfürsorge ist nicht egoistisch – sie ist unerlässlich. Gut gemacht. 💚",
-      "Jede kleine Fürsorge baut ein stärkeres Ich auf. 🌱",
-      "Du hast heute in dich selbst investiert. Das ist wichtig. ✨",
-      "Sich um dich zu kümmern ist das Beste, was du heute getan hast. 🍃"
-    ],
-    "supportiveStatements": [
-      "Ist schon okay. Morgen ist ein Neuanfang. Sei sanft zu dir selbst. 🤍",
-      "Nicht jeder Tag wird perfekt sein, und das ist völlig in Ordnung. 🕊️",
-      "Du gibst dein Bestes. Das reicht immer. 💛",
-      "Ruhe ist auch eine Form der Selbstfürsorge. Sei nachsichtig. 🌸",
-      "Heute anzuerkennen erfordert Mut. Du wächst schon. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Du bist heute für dich selbst aufgetaucht. Das ist kraftvoll. 🌿",
+      "1": "Selbstfürsorge ist nicht egoistisch – sie ist unerlässlich. Gut gemacht. 💚",
+      "2": "Jede kleine Fürsorge baut ein stärkeres Ich auf. 🌱",
+      "3": "Du hast heute in dich selbst investiert. Das ist wichtig. ✨",
+      "4": "Sich um dich zu kümmern ist das Beste, was du heute getan hast. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Ist schon okay. Morgen ist ein Neuanfang. Sei sanft zu dir selbst. 🤍",
+      "1": "Nicht jeder Tag wird perfekt sein, und das ist völlig in Ordnung. 🕊️",
+      "2": "Du gibst dein Bestes. Das reicht immer. 💛",
+      "3": "Ruhe ist auch eine Form der Selbstfürsorge. Sei nachsichtig. 🌸",
+      "4": "Heute anzuerkennen erfordert Mut. Du wächst schon. 🌷"
+    }
   },
   "app_title": "Selbstfürsorge-Tracker",
   "app_description": "Verfolge deine täglichen Selbstfürsorgegewohnheiten und beobachte, wie sie sich auf dein allgemeines Wohlbefinden auswirken. Regelmäßigkeit ist der Schlüssel zu einem gesünderen Geist.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

@@ -75,5 +75,9 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "instruction_in": "respira despacio...",
+  "instruction_out": "exhala despacio...",
+  "instruction_hold": "sujeta suavemente...",
+  "lang": "largo"
 }

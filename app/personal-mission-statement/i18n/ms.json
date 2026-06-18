@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "intro_benefit_1": "Dapatkan kejelasan mutlak tentang kepercayaan teras anda",
+  "intro_benefit_2": "Tetapkan sasaran yang jelas untuk transformasi peribadi",
+  "reflection_subtitle": "Draf aspirasi anda. Isikan komponen teras tujuan anda.",
+  "mission_your_statement": "Penyata anda",
+  "saving": "Menjimatkan...",
+  "mission_save_finish": "Simpan & Selesaikan",
+  "mission_share": "Kongsi",
+  "mission_start_over": "Mulakan Semula",
+  "loading": "Memuatkan pengisytiharan...",
+  "app": {
+    "startActivity": "Buat Misi"
+  }
 }

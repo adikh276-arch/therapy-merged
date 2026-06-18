@@ -3,11 +3,11 @@
   "intro": {
     "title": "Temui Minda Anda",
     "description": "Belajar untuk menjauhkan diri daripada pemikiran yang menggembirakan dengan memberi nama kepada suara dalaman anda.",
-    "benefits": [
-      "Cipta jarak mental",
-      "Kurangkan kuasa pemikiran yang keras",
-      "Perhatikan pemikiran tanpa menjadi mereka"
-    ],
+    "benefits": {
+      "0": "Cipta jarak mental",
+      "1": "Kurangkan kuasa pemikiran yang keras",
+      "2": "Perhatikan pemikiran tanpa menjadi mereka"
+    },
     "duration": "2-3 minit",
     "view_past": "Lihat Penyertaan Lepas"
   },
@@ -45,15 +45,15 @@
       "title": "Buat jarak tertentu",
       "desc": "Beri fikiran anda nama untuk membantu memisahkan diri anda daripada pemikiran ini.",
       "placeholder": "Atau taipkan anda sendiri...",
-      "examples": [
-        "Pengkritik",
-        "Pemikir yang berlebihan",
-        "Bimbang FM",
-        "Mesin Overthinking",
-        "Pengkritik Dalaman",
-        "Penjana Bagaimana-Jika",
-        "Pengarah Drama"
-      ]
+      "examples": {
+        "0": "Pengkritik",
+        "1": "Pemikir yang berlebihan",
+        "2": "Bimbang FM",
+        "3": "Mesin Overthinking",
+        "4": "Pengkritik Dalaman",
+        "5": "Penjana Bagaimana-Jika",
+        "6": "Pengarah Drama"
+      }
     },
     "practice": {
       "title": "Cuba syif ini",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Apa yang anda perhatikan?",
       "desc": "Bagaimana perasaan pemikiran itu selepas memberinya nama?",
-      "options": [
-        "Pemikiran itu terasa kurang sengit daripada sebelumnya",
-        "Saya berasa seperti saya mempunyai sedikit jarak dari pemikiran itu",
-        "Ia masih terasa sama kuat seperti sebelumnya",
-        "Saya tidak pasti apa yang berubah, jika ada"
-      ],
+      "options": {
+        "0": "Pemikiran itu terasa kurang sengit daripada sebelumnya",
+        "1": "Saya berasa seperti saya mempunyai sedikit jarak dari pemikiran itu",
+        "2": "Ia masih terasa sama kuat seperti sebelumnya",
+        "3": "Saya tidak pasti apa yang berubah, jika ada"
+      },
       "button": "Refleksi Lengkap"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

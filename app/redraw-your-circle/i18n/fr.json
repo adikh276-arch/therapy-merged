@@ -21,30 +21,31 @@
       "placeholder": "Entrée un nom...",
       "button": "Enregistrer le nom"
     },
-    "prompts": [
-      "Une personne qui apporte de la joie",
-      "Une personne qui te soutient",
-      "Une personne à qui tu peux parler",
-      "Une personne en qui tu as confiance",
-      "Une personne qui vous inspire"
-    ]
+    "prompts": {
+      "0": "Une personne qui apporte de la joie",
+      "1": "Une personne qui te soutient",
+      "2": "Une personne à qui tu peux parler",
+      "3": "Une personne en qui tu as confiance",
+      "4": "Une personne qui vous inspire"
+    }
   },
   "reflection": {
     "subtitle": "Réflexions finales",
     "title": "Qu’est-ce que tu remarques ?",
     "p_intro": "Prenez un moment pour observer votre cercle. Vous remarquerez peut-être :",
-    "list": [
-      "Certaines personnes se sentent plus proches que d’autres",
-      "Certaines connexions semblent fortes",
-      "Certains paraissent distants ou peu clairs",
-      "Il peut y avoir des manques — ou seulement quelques personnes significatives"
-    ],
+    "list": {
+      "0": "Certaines personnes se sentent plus proches que d’autres",
+      "1": "Certaines connexions semblent fortes",
+      "2": "Certains paraissent distants ou peu clairs",
+      "3": "Il peut y avoir des manques — ou seulement quelques personnes significatives"
+    },
     "italic": "La conscience est la première étape pour construire les liens que vous valorisez. 🧘",
     "label": "💭 Y a-t-il quelqu’un avec qui tu aimerais te sentir plus connectée ?",
     "placeholder": "Écrivez vos pensées ici...",
     "save_button": "Sauvegarder la réflexion",
     "saving_button": "Sauver...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Votre carte interpersonnelle est stockée en sécurité dans votre journal. Cultiver ces nœuds de soutien nous aide à rester résilients."
   },
   "history": {
     "title": "Histoire de Your Circles",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
-    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce journal de cercle ?"
   },
   "intro_p1": "Notre réseau de soutien peut évoluer au fil des périodes de notre vie. 🌱 Parfois, nous nous sentons entourés et soutenus. D'autres fois, les choses peuvent sembler distantes ou floues.",
   "intro_p2": "Cette activité vous offre un moment pour faire une pause, observer les personnes qui vous entourent et comprendre qui se sent actuellement intégré à votre cercle. 💛",
@@ -118,5 +120,7 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long",
+  " ": " "
 }

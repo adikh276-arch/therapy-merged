@@ -10,21 +10,22 @@
   "s2": {
     "tag": "Milde sannheter",
     "title": "Hjernens overlevelseslogikk",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Alarmen forble på",
         "body": "Hypervigilans og lett å bli skremt er ikke overreaksjoner — hjernens alarmsystem gjør jobben sin altfor godt."
       },
-      {
+      "1": {
         "header": "Tilbakeblikk er minner",
         "body": "Triggere trekker hjernen din tilbake fordi den aldri fikk signalet om at trusselen var over. Den prøver å beskytte deg."
       },
-      {
+      "2": {
         "header": "Kjemper for deg",
         "body": "Hvert symptom var en gang en overlevelseshandling. Hjernen din gjorde det den måtte for å holde deg i live."
       }
-    ],
-    "healing": "Helbredelse handler ikke om å glemme. Det handler om å hjelpe hjernen din med å lære at du er trygg nå."
+    },
+    "healing": "Helbredelse handler ikke om å glemme. Det handler om å hjelpe hjernen din med å lære at du er trygg nå.",
+    "finish_reading": "Fullfør lesingen"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "complete": {
+    "message": "Du"
+  }
 }

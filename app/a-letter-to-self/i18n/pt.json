@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Salvando...",
+    "saved": "Salvo"
   },
   "app_duration": "10 a 15 minutos",
   "app_title": "Carta para mim mesma",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Prompts",
+  "need_inspiration": "Precisa de inspiração?",
+  "post_writing_reflection": "Reflexão Pós-Escrita",
+  "reflection_desc": "Reconhecer seus sentimentos é um passo poderoso na sua jornada.",
+  "finish_save_reflection": "Finalização & Salvamento da Reflexão",
+  "lang": "longo",
+  "completion_message": "Sua carta foi salva. Reserve um momento para apreciar seu progresso."
 }

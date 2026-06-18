@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Ukládám...",
+    "saved": "Zachráněno"
   },
   "app_duration": "10–15 minut",
   "app_title": "Dopis sobě",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Zadání",
+  "need_inspiration": "Potřebujete inspiraci?",
+  "post_writing_reflection": "Reflexe po psaní",
+  "reflection_desc": "Uvědomění si svých pocitů je silným krokem na vaší cestě.",
+  "finish_save_reflection": "Dokončit a uložit odraz",
+  "lang": "dlouhý",
+  "completion_message": "Tvůj dopis byl bezpečně uložen. Věnujte chvíli ocenění svého pokroku."
 }

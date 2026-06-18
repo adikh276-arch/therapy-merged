@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro_benefit_1": "Gewinne absolute Klarheit über deine Grundüberzeugungen",
+  "intro_benefit_2": "Setze klare Ziele für die persönliche Transformation",
+  "reflection_subtitle": "Entwerfen Sie Ihre Ziele. Füllen Sie die Kernkomponenten Ihres Zwecks aus.",
+  "mission_your_statement": "Ihre Aussage",
+  "saving": "Retten...",
+  "mission_save_finish": "Speichern und beenden",
+  "mission_share": "Teilen",
+  "mission_start_over": "Neu anfangen",
+  "loading": "Ladedeklarationen...",
+  "app": {
+    "startActivity": "Erstelle Mission"
+  }
 }

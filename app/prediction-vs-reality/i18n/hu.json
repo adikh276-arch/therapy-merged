@@ -4,11 +4,11 @@
   "intro": {
     "title": "Előrejelzés vs valóság",
     "description": "Hasonlítsd össze szorongó előrejelzéseidet azzal, ami valójában történik, hogy kiegyensúlyozottabb nézőpontot alkossanak.",
-    "benefits": [
-      "Azonosítsd a szorongó mintákat",
-      "Bizonyítékok gyűjtése félelmek ellen",
-      "Csökkentsd a jövőbeli túlgondolást"
-    ],
+    "benefits": {
+      "0": "Azonosítsd a szorongó mintákat",
+      "1": "Bizonyítékok gyűjtése félelmek ellen",
+      "2": "Csökkentsd a jövőbeli túlgondolást"
+    },
     "duration": "4-5 perc",
     "view_past": "Tekints múltbeli visszatükröződéseket"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Még nincs visszatükröződés.",
     "prediction_label": "Előrejelzés",
     "reality_label": "Valóság",
-    "reflection_label": "Elmélkedés:"
+    "reflection_label": "Elmélkedés:",
+    "past_logs": "Múltbeli visszatekintések",
+    "reframe_label": "Új kiegyensúlyozott nézet:"
   },
   "complete": {
     "title": "Tevékenység befejezve",
     "saved_title": "Visszaemlékezés mentve",
     "message": "A tények vizsgálatával segítesz az elmédnek, hogy megtanuld, hogy a dolgok gyakran kezelhetőbbek, mint amilyennek látszanak."
   },
-  "emotions": [
-    "Aggódó",
-    "Ideges",
-    "Félve",
-    "Túlterhelt",
-    "Nyugtalan"
-  ],
+  "emotions": {
+    "0": "Aggódó",
+    "1": "Ideges",
+    "2": "Félve",
+    "3": "Túlterhelt",
+    "4": "Nyugtalan"
+  },
   "intensity_labels": {
     "not_intense": "Nem intenzív",
     "very_intense": "Nagyon intenzív"
   },
-  "comparison_options": [
-    "Majdnem pont úgy alakult, amire számítottam",
-    "Néhány rész helyes volt, de nem minden",
-    "Egészen más volt, mint amire számítottam",
-    "Sokkal könnyebb/jobb volt, mint gondoltam"
-  ],
+  "comparison_options": {
+    "0": "Majdnem pont úgy alakult, amire számítottam",
+    "1": "Néhány rész helyes volt, de nem minden",
+    "2": "Egészen más volt, mint amire számítottam",
+    "3": "Sokkal könnyebb/jobb volt, mint gondoltam"
+  },
   "screens": {
     "s1": {
       "title": "Gondolj egy friss helyzetre",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Biztos vagy benne, hogy törölni akarod ezt az előrejelzési naplót?"
   },
   "app_description": "Jóslat vs. valóság",
   "more": "Több",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

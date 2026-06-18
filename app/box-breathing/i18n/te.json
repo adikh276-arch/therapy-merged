@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "నెమ్మదిగా ఊపిరి పీల్చుకోండి...",
+  "instruction_out": "నెమ్మదిగా ఊపిరి పీల్చుకోండి...",
+  "instruction_hold": "నెమ్మదిగా పట్టుకోండి...",
+  "lang": "పొడవు"
 }

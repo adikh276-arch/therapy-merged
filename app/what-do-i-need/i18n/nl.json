@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Emotionele steun",
       "prompt": "Wat voor soort ondersteuning zou je nu echt helpen?",
-      "hints": [
-        "Ik heb gewoon iemand nodig om...",
-        "Het zou helpen als...",
-        "Wat ik echt wil is..."
-      ]
+      "hints": {
+        "0": "Ik heb gewoon iemand nodig om...",
+        "1": "Het zou helpen als...",
+        "2": "Wat ik echt wil is..."
+      }
     },
     "Space / time for myself": {
       "label": "Ruimte / tijd voor mezelf",
       "prompt": "Hoe zou het hebben van zo'n ruimte er voor jou uitzien?",
-      "hints": [
-        "Ik zou die tijd gebruiken om...",
-        "De ruimte zou me toestaan...",
-        "Ik heb ruimte nodig om..."
-      ]
+      "hints": {
+        "0": "Ik zou die tijd gebruiken om...",
+        "1": "De ruimte zou me toestaan...",
+        "2": "Ik heb ruimte nodig om..."
+      }
     },
     "Clear communication": {
       "label": "Duidelijke communicatie",
       "prompt": "Hoe zou duidelijkere communicatie er voor jou uitzien?",
-      "hints": [
-        "Ik wou dat ik kon zeggen...",
-        "Als ze echt luisterden, zou ik het ze vertellen...",
-        "Communiceren voelt moeilijk als..."
-      ]
+      "hints": {
+        "0": "Ik wou dat ik kon zeggen...",
+        "1": "Als ze echt luisterden, zou ik het ze vertellen...",
+        "2": "Communiceren voelt moeilijk als..."
+      }
     },
     "Reassurance": {
       "label": "Geruststelling",
       "prompt": "Wat voor geruststelling zou betekenisvol voelen?",
-      "hints": [
-        "Ik moet dat horen...",
-        "Het zou me kalmeren om te weten...",
-        "Ik blijf me zorgen maken dat..."
-      ]
+      "hints": {
+        "0": "Ik moet dat horen...",
+        "1": "Het zou me kalmeren om te weten...",
+        "2": "Ik blijf me zorgen maken dat..."
+      }
     },
     "Understanding": {
       "label": "Begrip",
       "prompt": "Hoe zou het eruitzien om echt begrepen te worden?",
-      "hints": [
-        "Ik wou dat mensen wisten dat...",
-        "Wat ik echt voel is...",
-        "Niemand ziet dat ik..."
-      ]
+      "hints": {
+        "0": "Ik wou dat mensen wisten dat...",
+        "1": "Wat ik echt voel is...",
+        "2": "Niemand ziet dat ik..."
+      }
     },
     "Stability": {
       "label": "Stabiliteit",
       "prompt": "Hoe zou stabiliteit nu in jouw leven voelen?",
-      "hints": [
-        "Ik wil dat dingen voelen...",
-        "Wat mij zou aarden is...",
-        "Stabiliteit betekent..."
-      ]
+      "hints": {
+        "0": "Ik wil dat dingen voelen...",
+        "1": "Wat mij zou aarden is...",
+        "2": "Stabiliteit betekent..."
+      }
     },
     "Honesty": {
       "label": "Eerlijkheid",
       "prompt": "Hoe zou eerlijkheid er in jouw situatie uitzien?",
-      "hints": [
-        "De waarheid die ik onder ogen moet zien is...",
-        "Ik wil eerlijk zijn over...",
-        "Wat er echt aan de hand is..."
-      ]
+      "hints": {
+        "0": "De waarheid die ik onder ogen moet zien is...",
+        "1": "Ik wil eerlijk zijn over...",
+        "2": "Wat er echt aan de hand is..."
+      }
     },
     "Respect": {
       "label": "Respect",
       "prompt": "Hoe ziet respect er nu voor jou uit?",
-      "hints": [
-        "Ik verdien het om behandeld te worden...",
-        "Respect zou eruitzien als...",
-        "Ik heb mensen nodig om..."
-      ]
+      "hints": {
+        "0": "Ik verdien het om behandeld te worden...",
+        "1": "Respect zou eruitzien als...",
+        "2": "Ik heb mensen nodig om..."
+      }
     },
     "Clarity about relationship": {
       "label": "Duidelijkheid over relatie",
       "prompt": "Wat voor soort helderheid zou jou het meest helpen?",
-      "hints": [
-        "Ik moet weten of...",
-        "Wat mij in de war brengt is...",
-        "Ik wil dat we duidelijk zijn over..."
-      ]
+      "hints": {
+        "0": "Ik moet weten of...",
+        "1": "Wat mij in de war brengt is...",
+        "2": "Ik wil dat we duidelijk zijn over..."
+      }
     },
     "default": {
       "prompt": "Hoe zou dit eruitzien in een echte situatie?",
-      "hints": [
-        "Wat in me opkomt is...",
-        "Op dit moment voel ik me...",
-        "Als ik eerlijk ben tegenover mezelf..."
-      ]
+      "hints": {
+        "0": "Wat in me opkomt is...",
+        "1": "Op dit moment voel ik me...",
+        "2": "Als ik eerlijk ben tegenover mezelf..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Zeg iets eerlijk"
     },
-    {
+    "1": {
       "label": "Neem tijd voor mezelf"
     },
-    {
+    "2": {
       "label": "Neem contact op met iemand"
     },
-    {
+    "3": {
       "label": "Stel een kleine grens"
     },
-    {
+    "4": {
       "label": "Nog niet zeker"
     }
-  ],
+  },
   "history": {
     "title": "Eerdere Overdenkingen",
     "empty": "Nog geen reflecties."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

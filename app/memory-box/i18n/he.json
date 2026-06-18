@@ -1,12 +1,12 @@
 {
   "app_title": "תיבת הזיכרון",
-  "screen_titles": [
-    "הקופסה שלך",
-    "הוקרה",
-    "הבעה",
-    "שמור",
-    "טיפול עדין"
-  ],
+  "screen_titles": {
+    "0": "הקופסה שלך",
+    "1": "הוקרה",
+    "2": "הבעה",
+    "3": "שמור",
+    "4": "טיפול עדין"
+  },
   "complete_title": "זיכרון נשמר",
   "complete_message": "הנחת בבטחה זיכרון של {{name}} בקופסה שלך. הרגעים האלה של חיבור הם שלך לשמור, תמיד.",
   "auth_error": "סשן אימות חסר או מסד נתונים לא מוגדר",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "הקליד את שמם...",
     "placeholder_relation": "איך אתה מכיר אותם? (אופציונלי)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "רגע שמח",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "משהו שהם נהגו לומר",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "זיכרון יומיומי קטן",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "מקום שמזכיר לך אותם",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "משהו שהייתי רוצה לומר",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "המשך →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "מוסתר בבטחה",
     "subtitle": "הזיכרון הזה של {{name}} הוא כעת חלק מהאוסף שלך.",
     "add_another": "הוסף זיכרון נוסף",
-    "finish": "השתקפות גימור"
+    "finish": "השתקפות גימור",
+    "saved_title": "נשמר בטוח"
   },
   "closing": {
     "title": "טיפול",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "אתה בטוח שאתה רוצה למחוק את הזיכרון הזה?"
   },
   "app_description": "קופסת זיכרונות",
   "before_you_go": "לפני שאתה הולך",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ארוך"
 }

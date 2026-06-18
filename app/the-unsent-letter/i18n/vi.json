@@ -3,39 +3,40 @@
   "app_subtitle": "Giải phóng suy nghĩ của bạn một cách an toàn và riêng tư",
   "intro": {
     "title": "Bức thư chưa gửi",
-    "description": [
-      "Đôi khi, có những điều chúng ta ước mình có thể nói - nhưng không bao giờ có cơ hội.",
-      "Điều này có thể là do nó không cảm thấy an toàn, thời điểm không phù hợp hoặc lời nói quá khó để diễn đạt thành tiếng.",
-      "Hoạt động này mang đến cho bạn một không gian riêng tư để diễn tả những suy nghĩ đó thành lời.",
-      "Bạn không cần phải gửi bức thư này. Điều này chỉ dành cho bạn - để thể hiện, giải phóng và hiểu cảm xúc của bạn tốt hơn."
-    ],
+    "description": {
+      "0": "Đôi khi, có những điều chúng ta ước mình có thể nói - nhưng không bao giờ có cơ hội.",
+      "1": "Điều này có thể là do nó không cảm thấy an toàn, thời điểm không phù hợp hoặc lời nói quá khó để diễn đạt thành tiếng.",
+      "2": "Hoạt động này mang đến cho bạn một không gian riêng tư để diễn tả những suy nghĩ đó thành lời.",
+      "3": "Bạn không cần phải gửi bức thư này. Điều này chỉ dành cho bạn - để thể hiện, giải phóng và hiểu cảm xúc của bạn tốt hơn."
+    },
     "notice": "Viết tự do. Không ai khác sẽ thấy điều này.",
     "button": "Bắt đầu viết →"
   },
   "writing": {
     "title": "Viết những gì bạn đang nắm giữ",
     "desc": "Bạn có thể viết thư cho đối tác, đối tác cũ hoặc thậm chí cho chính mối quan hệ. Không có cách nào đúng hay sai để làm điều này.",
-    "prompts": [
-      "Tôi cảm thấy...",
-      "Tôi ước là...",
-      "Tôi chưa bao giờ nói...",
-      "Điều gì làm tôi đau lòng...",
-      "Những gì tôi cần..."
-    ],
+    "prompts": {
+      "0": "Tôi cảm thấy...",
+      "1": "Tôi ước là...",
+      "2": "Tôi chưa bao giờ nói...",
+      "3": "Điều gì làm tôi đau lòng...",
+      "4": "Những gì tôi cần..."
+    },
     "placeholder": "____ thân mến,\nTôi đã muốn nói rằng...",
     "notice": "Bạn có thể tạm dừng và quay lại bất cứ lúc nào.",
     "button": "Tiếp tục →"
   },
   "reflection": {
     "title": "Hãy dành một chút thời gian với điều này",
-    "description": [
-      "Bạn chỉ cần diễn đạt suy nghĩ và cảm xúc của mình thành lời - điều đó cần có can đảm.",
-      "Bạn có thể nhận thấy sự pha trộn của nhiều cảm xúc ngay bây giờ, và điều đó hoàn toàn ổn.",
-      "Trước khi bạn tiếp tục, hãy hít thở và nhẹ nhàng kiểm tra bản thân."
-    ],
+    "description": {
+      "0": "Bạn chỉ cần diễn đạt suy nghĩ và cảm xúc của mình thành lời - điều đó cần có can đảm.",
+      "1": "Bạn có thể nhận thấy sự pha trộn của nhiều cảm xúc ngay bây giờ, và điều đó hoàn toàn ổn.",
+      "2": "Trước khi bạn tiếp tục, hãy hít thở và nhẹ nhàng kiểm tra bản thân."
+    },
     "notice": "Điều này là để chữa lành cho bạn, không phải để gửi.",
     "save_button": "Lưu thư",
-    "finish_button": "Kết thúc"
+    "finish_button": "Kết thúc",
+    "save_success": "Bức thư chưa gửi của bạn được sửa chữa an toàn trong nhật ký địa phương riêng của bạn. Biểu hiện là một sự giải phóng sâu sắc."
   },
   "history": {
     "title": "Thư trong quá khứ",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bạn có chắc chắn muốn xóa bức thư chưa gửi này không?"
   },
   "app_description": "Hãy giải tỏa suy nghĩ của bạn một cách an toàn và riêng tư.",
   "more": "Hơn",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

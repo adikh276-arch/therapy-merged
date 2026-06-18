@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Sokongan emosi",
       "prompt": "Apakah jenis sokongan yang sebenarnya akan membantu anda sekarang?",
-      "hints": [
-        "Saya hanya memerlukan seseorang untuk...",
-        "Ia akan membantu jika...",
-        "Apa yang saya mahukan ialah..."
-      ]
+      "hints": {
+        "0": "Saya hanya memerlukan seseorang untuk...",
+        "1": "Ia akan membantu jika...",
+        "2": "Apa yang saya mahukan ialah..."
+      }
     },
     "Space / time for myself": {
       "label": "Ruang / masa untuk diri saya sendiri",
       "prompt": "Apakah rupa ruang itu untuk anda?",
-      "hints": [
-        "Saya akan menggunakan masa itu untuk...",
-        "Ruang akan membenarkan saya...",
-        "Saya memerlukan ruang untuk..."
-      ]
+      "hints": {
+        "0": "Saya akan menggunakan masa itu untuk...",
+        "1": "Ruang akan membenarkan saya...",
+        "2": "Saya memerlukan ruang untuk..."
+      }
     },
     "Clear communication": {
       "label": "Komunikasi yang jelas",
       "prompt": "Apakah rupa komunikasi yang lebih jelas untuk anda?",
-      "hints": [
-        "Saya harap saya boleh katakan...",
-        "Jika mereka benar-benar mendengar, saya akan memberitahu mereka ...",
-        "Komunikasi terasa sukar apabila..."
-      ]
+      "hints": {
+        "0": "Saya harap saya boleh katakan...",
+        "1": "Jika mereka benar-benar mendengar, saya akan memberitahu mereka ...",
+        "2": "Komunikasi terasa sukar apabila..."
+      }
     },
     "Reassurance": {
       "label": "Jaminan",
       "prompt": "Apakah jenis jaminan yang akan terasa bermakna?",
-      "hints": [
-        "Saya perlu mendengar bahawa...",
-        "Ia akan menenangkan saya untuk mengetahui...",
-        "Saya terus bimbang bahawa..."
-      ]
+      "hints": {
+        "0": "Saya perlu mendengar bahawa...",
+        "1": "Ia akan menenangkan saya untuk mengetahui...",
+        "2": "Saya terus bimbang bahawa..."
+      }
     },
     "Understanding": {
       "label": "Pemahaman",
       "prompt": "Seperti apa perasaan yang benar-benar difahami?",
-      "hints": [
-        "Saya harap orang tahu bahawa...",
-        "Apa yang saya rasa sebenarnya ialah...",
-        "Tiada siapa yang melihat bahawa saya..."
-      ]
+      "hints": {
+        "0": "Saya harap orang tahu bahawa...",
+        "1": "Apa yang saya rasa sebenarnya ialah...",
+        "2": "Tiada siapa yang melihat bahawa saya..."
+      }
     },
     "Stability": {
       "label": "Kestabilan",
       "prompt": "Bagaimana rasa kestabilan dalam hidup anda sekarang?",
-      "hints": [
-        "Saya memerlukan perkara untuk dirasai...",
-        "Apa yang akan membumikan saya ialah...",
-        "Kestabilan bermaksud..."
-      ]
+      "hints": {
+        "0": "Saya memerlukan perkara untuk dirasai...",
+        "1": "Apa yang akan membumikan saya ialah...",
+        "2": "Kestabilan bermaksud..."
+      }
     },
     "Honesty": {
       "label": "Kejujuran",
       "prompt": "Apakah yang akan kelihatan seperti kejujuran dalam situasi anda?",
-      "hints": [
-        "Kebenaran yang perlu saya hadapi ialah...",
-        "Saya mahu jujur tentang...",
-        "Apa yang sebenarnya berlaku ialah..."
-      ]
+      "hints": {
+        "0": "Kebenaran yang perlu saya hadapi ialah...",
+        "1": "Saya mahu jujur tentang...",
+        "2": "Apa yang sebenarnya berlaku ialah..."
+      }
     },
     "Respect": {
       "label": "Menghormati",
       "prompt": "Apakah rasa hormat untuk anda sekarang?",
-      "hints": [
-        "Saya layak dirawat...",
-        "Rasa hormat akan kelihatan seperti...",
-        "Saya memerlukan orang untuk..."
-      ]
+      "hints": {
+        "0": "Saya layak dirawat...",
+        "1": "Rasa hormat akan kelihatan seperti...",
+        "2": "Saya memerlukan orang untuk..."
+      }
     },
     "Clarity about relationship": {
       "label": "Kejelasan tentang hubungan",
       "prompt": "Apakah jenis kejelasan yang paling membantu anda?",
-      "hints": [
-        "Saya perlu tahu jika...",
-        "Apa yang mengelirukan saya ialah...",
-        "Saya mahu kita jelas tentang..."
-      ]
+      "hints": {
+        "0": "Saya perlu tahu jika...",
+        "1": "Apa yang mengelirukan saya ialah...",
+        "2": "Saya mahu kita jelas tentang..."
+      }
     },
     "default": {
       "prompt": "Apakah rupa ini dalam situasi sebenar?",
-      "hints": [
-        "Apa yang terlintas di fikiran ialah...",
-        "Sekarang saya rasa...",
-        "Jika saya jujur dengan diri saya sendiri..."
-      ]
+      "hints": {
+        "0": "Apa yang terlintas di fikiran ialah...",
+        "1": "Sekarang saya rasa...",
+        "2": "Jika saya jujur dengan diri saya sendiri..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Katakan sesuatu dengan jujur"
     },
-    {
+    "1": {
       "label": "Luangkan masa untuk diri saya sendiri"
     },
-    {
+    "2": {
       "label": "Hubungi seseorang"
     },
-    {
+    "3": {
       "label": "Tetapkan sempadan kecil"
     },
-    {
+    "4": {
       "label": "Belum pasti lagi"
     }
-  ],
+  },
   "history": {
     "title": "Refleksi Masa Lalu",
     "empty": "Tiada refleksi lagi."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

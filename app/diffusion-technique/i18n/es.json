@@ -153,5 +153,8 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "watch_thoughts_drift": "Mira cómo tus pensamientos se alejan...",
+  "lang": "largo",
+  "app_duration": "3-5 minutos"
 }

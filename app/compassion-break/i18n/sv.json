@@ -1,14 +1,14 @@
 {
   "app_title": "Medkänslapaus",
-  "screen_titles": [
-    "Incheckning",
-    "Identifiera",
-    "Andning",
-    "Vänlighet",
-    "Skift",
-    "Reflektera",
-    "Komplett"
-  ],
+  "screen_titles": {
+    "0": "Incheckning",
+    "1": "Identifiera",
+    "2": "Andning",
+    "3": "Vänlighet",
+    "4": "Skift",
+    "5": "Reflektera",
+    "6": "Komplett"
+  },
   "auth_error": "Auth-session saknas eller databas inte konfigurerad",
   "save_success": "Reflektion bevarad",
   "save_error": "Misslyckades med att bevara reflektionen",
@@ -25,14 +25,14 @@
   "continue_button": "Fortsätt",
   "nameit_title": "Sätt det i ord",
   "nameit_subtitle": "Just nu känner jag mig _______",
-  "emotions_list": [
-    "orolig",
-    "skyldig",
-    "överväldigad",
-    "Tempus",
-    "trött",
-    "sorgligt"
-  ],
+  "emotions_list": {
+    "0": "orolig",
+    "1": "skyldig",
+    "2": "överväldigad",
+    "3": "Tempus",
+    "4": "trött",
+    "5": "sorgligt"
+  },
   "label_custom_emotion": "eller skriv din egen",
   "placeholder_emotion": "1–2 ord",
   "nameit_footer": "Enkelt räcker.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång",
+  "intro": {
+    "view_past": "Visa tidigare sessioner"
+  },
+  "history": {
+    "title": "Historia om självmedkänsla",
+    "no_entries": "Inga tidigare pausloggar hittades."
+  },
+  "loading": "Laddningshistorik..."
 }

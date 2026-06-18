@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga",
+  "intro_benefit_1": "Ottieni una chiarezza assoluta sulle tue convinzioni fondamentali",
+  "intro_benefit_2": "Fissa obiettivi chiari per la trasformazione personale",
+  "reflection_subtitle": "Elabora le tue aspirazioni. Completa le componenti principali del tuo scopo.",
+  "mission_your_statement": "La tua dichiarazione",
+  "saving": "Salvando...",
+  "mission_save_finish": "Salvezza & Fine",
+  "mission_share": "Condividi",
+  "mission_start_over": "Ricomincia",
+  "loading": "Caricamento delle dichiarazioni...",
+  "app": {
+    "startActivity": "Create Mission"
+  }
 }

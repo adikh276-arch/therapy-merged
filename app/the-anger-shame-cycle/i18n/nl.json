@@ -11,24 +11,24 @@
     "s2": {
       "tag": "De cyclus",
       "title": "De lus legde uit",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Woede komt naar boven"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Schaamte: \"Ik ben slecht\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Schaamte wordt begraven"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Woede barst opnieuw los"
         }
-      ],
+      },
       "button": "Ik zie het"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Onderbreking",
       "title": "Onderbreek de cyclus",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Noem de bron",
           "desc": "Vraag: 'Wat voel ik eigenlijk?' Pijn? Bang? Onzichtbaar? Het benoemen ervan verzwakt het."
         },
-        {
+        "1": {
           "title": "Compassiepauze",
           "desc": "Hand op de borst. Zeg: 'Dit is moeilijk. Ik ben mens. Ik kan hier doorheen komen.'"
         },
-        {
+        "2": {
           "title": "Herstel met gratie",
           "desc": "Maak het goed als dat nodig is — maar raak niet in een negatieve spiraal. Je bent niet je slechtste moment."
         }
-      ],
+      },
       "notice": "Het opmerken van de cyclus is al de eerste stap. Jij doet het werk.",
       "button": "Volledige activiteit"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

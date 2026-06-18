@@ -7,90 +7,90 @@
   "allStories": "Minden történet",
   "backToStories": "Vissza a történetekhez",
   "nextStory": "Következő történet",
-  "stories": [
-    {
+  "stories": {
+    "0": {
       "name": "Aarav",
       "quote": "Azt hittem, hogy a félelem azt jelenti, hogy valami nincs rendben.",
-      "body": [
-        "Fiatalabb koromban nem ismertem a \"szorongás\" szót — csak az érzést ismertem. A mellkasom szorult, fájt a hasam, és az elmém azt súgta, hogy valami rossz fog történni. Még a hétköznapi napok is veszélyesnek tűntek. Az iskolai reggelek voltak a legnehezebbek. A szüleimhez kapaszkodtam, féltem, hogy ha elmennek, nem leszek rendben.",
-        "Emlékszem, hogy más gyerekeket néztem, és azon tűnődtem, miért tűnnek rendben. Miért nem vert a szívük úgy, mint az enyém? Miért nem akartak hazafutni? Összezavarodtam és zavarban voltam. Néha azt hittem, hogy a félelem gyenge vagy rossz értelemben más vagyok.",
-        "Segítséggel lassan megtanultam, hogy a szorongás nem hiba — hanem az agyam, ami túl keményen próbál megvédeni. Ahelyett, hogy harcoltam volna vagy elbújtam volna előle, megtanultam apró módokat a szembenézéshez. Néha ez azt jelentette, hogy öt perccel tovább maradtak az órán. Máskor csak átlélegezni kellett a félelemen anélkül, hogy elfutottam.",
-        "Most már megértek valami fontosat: a bátorság nem jelenti azt, hogy nem félsz. Ez azt jelenti, hogy maradsz, még akkor is, ha az vagy. És minden alkalommal, amikor itt maradok, egy kicsit erősebb leszek."
-      ],
+      "body": {
+        "0": "Fiatalabb koromban nem ismertem a \"szorongás\" szót — csak az érzést ismertem. A mellkasom szorult, fájt a hasam, és az elmém azt súgta, hogy valami rossz fog történni. Még a hétköznapi napok is veszélyesnek tűntek. Az iskolai reggelek voltak a legnehezebbek. A szüleimhez kapaszkodtam, féltem, hogy ha elmennek, nem leszek rendben.",
+        "1": "Emlékszem, hogy más gyerekeket néztem, és azon tűnődtem, miért tűnnek rendben. Miért nem vert a szívük úgy, mint az enyém? Miért nem akartak hazafutni? Összezavarodtam és zavarban voltam. Néha azt hittem, hogy a félelem gyenge vagy rossz értelemben más vagyok.",
+        "2": "Segítséggel lassan megtanultam, hogy a szorongás nem hiba — hanem az agyam, ami túl keményen próbál megvédeni. Ahelyett, hogy harcoltam volna vagy elbújtam volna előle, megtanultam apró módokat a szembenézéshez. Néha ez azt jelentette, hogy öt perccel tovább maradtak az órán. Máskor csak átlélegezni kellett a félelemen anélkül, hogy elfutottam.",
+        "3": "Most már megértek valami fontosat: a bátorság nem jelenti azt, hogy nem félsz. Ez azt jelenti, hogy maradsz, még akkor is, ha az vagy. És minden alkalommal, amikor itt maradok, egy kicsit erősebb leszek."
+      },
       "reflection": "Mikor maradtál, még akkor is, amikor féltél?"
     },
-    {
+    "1": {
       "name": "Daniel",
       "quote": "Úgy hittem, az aggódás azt jelenti, hogy felelősségteljes vagyok.",
-      "body": [
-        "Évekig hittem, hogy az aggódás a dolgom. Ha minden lehetséges problémát átgondolok, minden kimenetelre felkészültek, és mindig éberen maradok, meg tudnám akadályozni, hogy minden rosszul süljön el. A szorongás produktívnak tűnt. Felelősségnek érezte magát.",
-        "De idővel észrevettem, mennyire kimerült vagyok. Az elmém sosem állt meg. Még nyaralásokon vagy családi vacsorákon is mentálisan terveztem, jósoltam vagy megelőztem. A pihenés nem volt biztonságos. Ha abbahagytam az aggódást, úgy éreztem, hogy gondatlan vagyok.",
-        "Végül rájöttem, hogy a szorongás nem véd engem – hanem irányít. A terápia segített megérteni, hogy a bizonytalanság az élet része, és semmilyen aggodalom sem szüntetheti meg. Elkezdtem gyakorolni, hogy észrevegyem a gondolataimat anélkül, hogy automatikusan hinnék nekik.",
-        "A folyamatos kontroll elengedése eleinte kényelmetlennek tűnt. De lassan kinyílt a tér. Elkezdtem döntéseket hozni az alapján, ami nekem fontos — nem csak arról, ami a legbiztonságosabbnak éreztem. A szorongás még mindig megjelenik, de már nem ő irányítja a műsort."
-      ],
+      "body": {
+        "0": "Évekig hittem, hogy az aggódás a dolgom. Ha minden lehetséges problémát átgondolok, minden kimenetelre felkészültek, és mindig éberen maradok, meg tudnám akadályozni, hogy minden rosszul süljön el. A szorongás produktívnak tűnt. Felelősségnek érezte magát.",
+        "1": "De idővel észrevettem, mennyire kimerült vagyok. Az elmém sosem állt meg. Még nyaralásokon vagy családi vacsorákon is mentálisan terveztem, jósoltam vagy megelőztem. A pihenés nem volt biztonságos. Ha abbahagytam az aggódást, úgy éreztem, hogy gondatlan vagyok.",
+        "2": "Végül rájöttem, hogy a szorongás nem véd engem – hanem irányít. A terápia segített megérteni, hogy a bizonytalanság az élet része, és semmilyen aggodalom sem szüntetheti meg. Elkezdtem gyakorolni, hogy észrevegyem a gondolataimat anélkül, hogy automatikusan hinnék nekik.",
+        "3": "A folyamatos kontroll elengedése eleinte kényelmetlennek tűnt. De lassan kinyílt a tér. Elkezdtem döntéseket hozni az alapján, ami nekem fontos — nem csak arról, ami a legbiztonságosabbnak éreztem. A szorongás még mindig megjelenik, de már nem ő irányítja a műsort."
+      },
       "reflection": "Hol tévesztetek félreértésre a felelősséget?"
     },
-    {
+    "2": {
       "name": "Rhea",
       "quote": "Vártam, hogy magabiztosnak érezzem magam, mielőtt éltem.",
-      "body": [
-        "A szorongás olyan hang volt a fejemben, ami soha nem hagyta abba a kritikát. Azt mondta, hogy megszégyenítem magam, rosszat mondok, vagy megítélnek. Beszélgetések után mindent újra játszottam, amit mondtam. Az események előtt elképzelném a legrosszabb forgatókönyveket.",
-        "Kívülről magabiztosnak tűnt. Belül folyamatosan feszültnek éreztem magam. Folyamatosan vártam, hogy készen álljak — vártam, hogy varázslatosan megérkezzen a magabiztosság, hogy végre szabadon beszélhessek, jelentkezhessek lehetőségekre, vagy kidobjam magam.",
-        "De a magabiztosság sosem volt az első.",
-        "Ami megváltoztatta az életem, az volt, hogy rájöttem, hogy nem kell megszüntetnem a szorongást a továbblépéshez. Magammal vihetném. Elkezdtem apró kockázatokat vállalni — kezet emeltem, eseményeken részt vettem, megszólaltam, még akkor is, ha a hangom remegett.",
-        "Minden alkalommal, amikor félelem ellenére cselekedtem, valami megváltozott. Abbahagytam az önmért önértékelést azzal, hogy mennyire nyugodtnak érzem magam, hanem azzal kezdtem el magam mérni, mennyire vagyok hajlandó bátor lenni."
-      ],
+      "body": {
+        "0": "A szorongás olyan hang volt a fejemben, ami soha nem hagyta abba a kritikát. Azt mondta, hogy megszégyenítem magam, rosszat mondok, vagy megítélnek. Beszélgetések után mindent újra játszottam, amit mondtam. Az események előtt elképzelném a legrosszabb forgatókönyveket.",
+        "1": "Kívülről magabiztosnak tűnt. Belül folyamatosan feszültnek éreztem magam. Folyamatosan vártam, hogy készen álljak — vártam, hogy varázslatosan megérkezzen a magabiztosság, hogy végre szabadon beszélhessek, jelentkezhessek lehetőségekre, vagy kidobjam magam.",
+        "2": "De a magabiztosság sosem volt az első.",
+        "3": "Ami megváltoztatta az életem, az volt, hogy rájöttem, hogy nem kell megszüntetnem a szorongást a továbblépéshez. Magammal vihetném. Elkezdtem apró kockázatokat vállalni — kezet emeltem, eseményeken részt vettem, megszólaltam, még akkor is, ha a hangom remegett.",
+        "4": "Minden alkalommal, amikor félelem ellenére cselekedtem, valami megváltozott. Abbahagytam az önmért önértékelést azzal, hogy mennyire nyugodtnak érzem magam, hanem azzal kezdtem el magam mérni, mennyire vagyok hajlandó bátor lenni."
+      },
       "reflection": "Mit próbálnál ki, ha nem várnád, hogy teljesen készen állj?"
     },
-    {
+    "3": {
       "name": "Margaret",
       "quote": "Nem számítottam rá, hogy ebben az életszakaszban kezd a szorongás.",
-      "body": [
-        "Azt hittem, a szorongás a fiatalabbak közé tartozik. Nem számítottam rá, hogy ez megjelenik a nyugdíj után, amikor az élet végre lelassult. De amikor véget értek a zsúfolt évek, a gondolataim hangosabbak lettek. Minden fizikai érzés riasztónak tűnt. Minden ismeretlen veszélyesnek tűnt.",
-        "Szégyelltem, hogy küzdöttem. Ebben a koromban azt hittem, mindent ki kell oldan. Folyamatosan kerestem a megnyugtatást – orvosoktól, családtól, online cikkekből. A megnyugtatás rövid ideig segített, de a félelem mindig visszatért.",
-        "Végül megértettem, hogy a megnyugtatás táplálja a körforgást. Útmutatással elkezdtem bizonytalansággal ülni gyakorolni, ahelyett, hogy a bizonyosságot üldöztem volna. Újraépítettem a rutinokat. Újra kapcsolatba léptem a hobbikkal. Lassan engedtem a kellemetlenséget, anélkül, hogy azonnal megpróbáltam volna helyrehozni.",
-        "Ma is néha a szorongás meglátogatja. De már nem határoz meg engem. Megtanultam, hogy a növekedésnek nincs lejárati dátuma — és a bátorság bármilyen életkorban megjelenhet."
-      ],
+      "body": {
+        "0": "Azt hittem, a szorongás a fiatalabbak közé tartozik. Nem számítottam rá, hogy ez megjelenik a nyugdíj után, amikor az élet végre lelassult. De amikor véget értek a zsúfolt évek, a gondolataim hangosabbak lettek. Minden fizikai érzés riasztónak tűnt. Minden ismeretlen veszélyesnek tűnt.",
+        "1": "Szégyelltem, hogy küzdöttem. Ebben a koromban azt hittem, mindent ki kell oldan. Folyamatosan kerestem a megnyugtatást – orvosoktól, családtól, online cikkekből. A megnyugtatás rövid ideig segített, de a félelem mindig visszatért.",
+        "2": "Végül megértettem, hogy a megnyugtatás táplálja a körforgást. Útmutatással elkezdtem bizonytalansággal ülni gyakorolni, ahelyett, hogy a bizonyosságot üldöztem volna. Újraépítettem a rutinokat. Újra kapcsolatba léptem a hobbikkal. Lassan engedtem a kellemetlenséget, anélkül, hogy azonnal megpróbáltam volna helyrehozni.",
+        "3": "Ma is néha a szorongás meglátogatja. De már nem határoz meg engem. Megtanultam, hogy a növekedésnek nincs lejárati dátuma — és a bátorság bármilyen életkorban megjelenhet."
+      },
       "reflection": "Melyik részed fejlődik még?"
     },
-    {
+    "4": {
       "name": "Kabir",
       "quote": "A szorongásom sosem tűnt pániknak. Úgy tűnt, hogy ez a termelékenység.",
-      "body": [
-        "Korán keltem, hosszú órákat dolgoztam, és minden szabad pillanatot valami mással töltöttem — hírekkel, e-mailekkel, telefonhívásokkal, háttérzajokkal. Ha csend volt, én töltöttem be. Ha volt nyugalom, kiszabadultam belőle.",
-        "Mert amikor elcsendesedett a helyzet, a gondolataim hangosak lettek.",
-        "Mi van, ha történik valami a családommal? Mi van, ha elveszítem az állásomat? Mi van, ha megbetegszek? A félelmek nem voltak állandóak, de kitartóak voltak. A háttérben lebegtek, várva a helyet.",
-        "Ezért nem hagytam nekik teret.",
-        "Azt hittem, csak ambiciózusom vagyok. Hajtott. Koncentrált. De a zsúfoltság mögött nyugtalanság volt. Ingerlékenység. Egy olyan érzés, amit sosem tudtam igazán megnyugtatni.",
-        "Egy este a lányom megkérdezte, miért vagyok mindig \"valahol máshol\", még akkor is, amikor közvetlenül mellette ültem. Ez a kérdés velem maradt.",
-        "Kicsiben kezdtem. Két perc ülés a telefonom nélkül. Nincs zavaró tényező. Csak lélegzik. Eleinte elviselhetetlennek tűnt. Az agyam zakatolt. A testem nyugtalan volt.",
-        "De továbbra is gyakoroltam.",
-        "Idővel megtanultam, hogy a gondolatok hangosak is lehetnek anélkül, hogy veszélyesek lennének. Nem kellett minden félelmet azonnal megoldan. Nem kellett elfutnom a kényelmetlenséget.",
-        "Még mindig keményen dolgozom. Még mindig nagyon törődöm. De engedek csendes pillanatokat is. És ahelyett, hogy fenyegetésnek éreznéd, ezek a pillanatok néha békének tűnnek."
-      ],
+      "body": {
+        "0": "Korán keltem, hosszú órákat dolgoztam, és minden szabad pillanatot valami mással töltöttem — hírekkel, e-mailekkel, telefonhívásokkal, háttérzajokkal. Ha csend volt, én töltöttem be. Ha volt nyugalom, kiszabadultam belőle.",
+        "1": "Mert amikor elcsendesedett a helyzet, a gondolataim hangosak lettek.",
+        "2": "Mi van, ha történik valami a családommal? Mi van, ha elveszítem az állásomat? Mi van, ha megbetegszek? A félelmek nem voltak állandóak, de kitartóak voltak. A háttérben lebegtek, várva a helyet.",
+        "3": "Ezért nem hagytam nekik teret.",
+        "4": "Azt hittem, csak ambiciózusom vagyok. Hajtott. Koncentrált. De a zsúfoltság mögött nyugtalanság volt. Ingerlékenység. Egy olyan érzés, amit sosem tudtam igazán megnyugtatni.",
+        "5": "Egy este a lányom megkérdezte, miért vagyok mindig \"valahol máshol\", még akkor is, amikor közvetlenül mellette ültem. Ez a kérdés velem maradt.",
+        "6": "Kicsiben kezdtem. Két perc ülés a telefonom nélkül. Nincs zavaró tényező. Csak lélegzik. Eleinte elviselhetetlennek tűnt. Az agyam zakatolt. A testem nyugtalan volt.",
+        "7": "De továbbra is gyakoroltam.",
+        "8": "Idővel megtanultam, hogy a gondolatok hangosak is lehetnek anélkül, hogy veszélyesek lennének. Nem kellett minden félelmet azonnal megoldan. Nem kellett elfutnom a kényelmetlenséget.",
+        "9": "Még mindig keményen dolgozom. Még mindig nagyon törődöm. De engedek csendes pillanatokat is. És ahelyett, hogy fenyegetésnek éreznéd, ezek a pillanatok néha békének tűnnek."
+      },
       "reflection": "Hol töltöd ki a csendet, hogy elkerüld, amit az felfedhet?"
     },
-    {
+    "5": {
       "name": "Nisha",
       "quote": "Előléptettek — aztán nem tudtam aludni.",
-      "body": [
-        "A szorongásom akkor kezdődött, amikor valami \"jó\" történt.",
-        "Előléptettek. Több felelősség. Nagyobb láthatóság. Több elvárás. Mindenki gratulált nekem. Mosolyogtam, megköszöntem nekik, ünnepeltem — aztán hazamentem, és nem tudtam aludni.",
-        "Mi van, ha valójában nem vagyok képes rá? Mi van, ha rájönnek, hogy hibáztak? Mi van, ha nyilvánosan megbukok?",
-        "Minél magasabbra másztam, annál kiszolgáltatottabbnak éreztem magam. Minden találkozó próbatételnek tűnt. Minden apró hiba bizonyítéknak tűnt arra, hogy nem tartozom a helye. Elkezdtem túldolgozni, hogy kompenzáljam — későig maradtam, önkénteskedtem extra feladatokra, azonnal válaszoltam az e-mailekre.",
-        "Kívülről sikeresnek tűnt. Bennük úgy éreztem magam, mint egy csaló, aki arra vár, hogy felfedezzenek.",
-        "A szorongás nem sikított. Suttogta. Azt mondta, hogy jobbnak kell lennem mindenki másnál, csak hogy megérdemeljem, hogy ott legyek. Azt mondta, hogy a pihenés lustaság. Azt mondta, egyetlen rossz lépés mindent visszatön.",
-        "A töréspont nem volt drámai. Egy véletlenszerű kedd volt, amikor elfelejtettem egy apró mellékletet egy e-mailben — és egész este újra és újra játszottam a fejemben. Ekkor jöttem rá, hogy ez már nem ambíció. Félelem volt.",
-        "Ami lassan megváltoztatta a dolgokat, az az volt, hogy megtanultam, hogy a kényelmetlenség nem jelent veszélyt. A növekedés gyakran olyan, mintha kitettségnek érződik. Az új pozíciók megterhelnek — nem jelentik azt, hogy csaló vagy.",
-        "Elkezdtem megengedni magamnak, hogy tanuló legyek, ahelyett, hogy tökéletes legyek. Elkezdtem bevallani, amikor nem tudtam valamit. Hagytam magamnak, hogy kérdéseket tegyenek fel.",
-        "És valami meglepő történt.",
-        "Az emberek jobban tiszteltek, nem kevesebbet.",
-        "Most, amikor a szorongás azt mondja, hogy nem tartozom oda, nem hiszem el automatikusan. Emlékeztetem magam: új lenni valamiben nem jelenti azt, hogy képtelennek lennél. Ez azt jelenti, hogy fejlődik.",
-        "És a növekedés mindig is kissé kényelmetlennek tűnt."
-      ],
+      "body": {
+        "0": "A szorongásom akkor kezdődött, amikor valami \"jó\" történt.",
+        "1": "Előléptettek. Több felelősség. Nagyobb láthatóság. Több elvárás. Mindenki gratulált nekem. Mosolyogtam, megköszöntem nekik, ünnepeltem — aztán hazamentem, és nem tudtam aludni.",
+        "2": "Mi van, ha valójában nem vagyok képes rá? Mi van, ha rájönnek, hogy hibáztak? Mi van, ha nyilvánosan megbukok?",
+        "3": "Minél magasabbra másztam, annál kiszolgáltatottabbnak éreztem magam. Minden találkozó próbatételnek tűnt. Minden apró hiba bizonyítéknak tűnt arra, hogy nem tartozom a helye. Elkezdtem túldolgozni, hogy kompenzáljam — későig maradtam, önkénteskedtem extra feladatokra, azonnal válaszoltam az e-mailekre.",
+        "4": "Kívülről sikeresnek tűnt. Bennük úgy éreztem magam, mint egy csaló, aki arra vár, hogy felfedezzenek.",
+        "5": "A szorongás nem sikított. Suttogta. Azt mondta, hogy jobbnak kell lennem mindenki másnál, csak hogy megérdemeljem, hogy ott legyek. Azt mondta, hogy a pihenés lustaság. Azt mondta, egyetlen rossz lépés mindent visszatön.",
+        "6": "A töréspont nem volt drámai. Egy véletlenszerű kedd volt, amikor elfelejtettem egy apró mellékletet egy e-mailben — és egész este újra és újra játszottam a fejemben. Ekkor jöttem rá, hogy ez már nem ambíció. Félelem volt.",
+        "7": "Ami lassan megváltoztatta a dolgokat, az az volt, hogy megtanultam, hogy a kényelmetlenség nem jelent veszélyt. A növekedés gyakran olyan, mintha kitettségnek érződik. Az új pozíciók megterhelnek — nem jelentik azt, hogy csaló vagy.",
+        "8": "Elkezdtem megengedni magamnak, hogy tanuló legyek, ahelyett, hogy tökéletes legyek. Elkezdtem bevallani, amikor nem tudtam valamit. Hagytam magamnak, hogy kérdéseket tegyenek fel.",
+        "9": "És valami meglepő történt.",
+        "10": "Az emberek jobban tiszteltek, nem kevesebbet.",
+        "11": "Most, amikor a szorongás azt mondja, hogy nem tartozom oda, nem hiszem el automatikusan. Emlékeztetem magam: új lenni valamiben nem jelenti azt, hogy képtelennek lennél. Ez azt jelenti, hogy fejlődik.",
+        "12": "És a növekedés mindig is kissé kényelmetlennek tűnt."
+      },
       "reflection": "Hol kevered össze a kényelmetlenséget azzal, hogy nem tartozol a helyhez?"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Újrakezdés",
@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "chooseStoryDesc": "Kattints egy profilra, hogy elolvasd személyes erő- és felépülési útját.",
+  "recovery_journey": "Inspiráló utazás",
+  "reflection_prompt": "Gondolkodj el ezen"
 }

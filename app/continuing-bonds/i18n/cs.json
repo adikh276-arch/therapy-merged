@@ -31,37 +31,37 @@
   "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
   "save_success": "Reflexe vazeb zachována",
   "save_error": "Nepodařilo se zachovat odraz",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Skrze vzpomínky",
       "prompt": "Můžete sdílet vzpomínku, ve které cítíte jejich přítomnost?",
       "deeper": "Co je na nich jedna věc, která vám zůstane v paměti?"
     },
-    {
+    "1": {
       "label": "V tom, co říkám nebo dělám",
       "prompt": "Jakou část z nich nosíte ve svém každodenním životě?",
       "deeper": "Jak se to dnes projevuje ve vašem životě?"
     },
-    {
+    "2": {
       "label": "V okamžicích svého každodenního života",
       "prompt": "Kdy je během dne cítíte blízko?",
       "deeper": "Co je na nich jedna věc, která vám zůstane v paměti?"
     },
-    {
+    "3": {
       "label": "V tom, co jim ještě chci říct",
       "prompt": "Je něco, co jim ještě chceš říct?",
       "deeper": "Co byste jim teď nejvíc chtěli říct?"
     },
-    {
+    "4": {
       "label": "V pocitu nebo přítomnosti",
       "prompt": "Jak se jejich přítomnost u vás stále projevuje?",
       "deeper": "Jak se to dnes projevuje ve vašem životě?"
     }
-  ],
-  "bond_prompts": [
-    "Jaký je jeden malý způsob, jak se dnes cítíte s nimi propojený?",
-    "Co děláte, co v sobě nese část z nich?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Jaký je jeden malý způsob, jak se dnes cítíte s nimi propojený?",
+    "1": "Co děláte, co v sobě nese část z nich?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Začít znovu",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jste si jistý, že chcete tento odraz smazat?"
   },
   "app_description": "Trvalé dluhopisy",
   "past_reflections": "Minulé úvahy",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

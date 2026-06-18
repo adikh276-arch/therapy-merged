@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "పొడవు",
+  "intro_benefit_1": "మీ కీలక నమ్మకాలపై సంపూర్ణ స్పష్టత పొందండి.",
+  "intro_benefit_2": "వ్యక్తిగత పరివర్తన కొరకు స్పష్టమైన టార్గెట్ లను సెట్ చేయడం",
+  "reflection_subtitle": "మీ ఆకాంక్షలను ముసాయిదా చేయండి. మీ ఉద్దేశ్యం యొక్క కీలక భాగాలను పూరించండి.",
+  "mission_your_statement": "మీ ప్రకటన",
+  "saving": "సేవ్ చేస్తోంది...",
+  "mission_save_finish": "సేవ్ & ఫినిష్",
+  "mission_share": "భాగస్వామ్యం",
+  "mission_start_over": "మళ్లీ ప్రారంభించండి",
+  "loading": "ప్రకటనలను లోడ్ చేస్తోంది...",
+  "app": {
+    "startActivity": "మిషన్ సృష్టించండి"
+  }
 }

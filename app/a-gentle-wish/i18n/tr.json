@@ -105,5 +105,13 @@
   "yes": "Evet",
   "no": "Hayır",
   "date": "Tarih",
-  "continue": "Devam et"
+  "continue": "Devam et",
+  "lang": "uzun",
+  "saving": {
+    "": {
+      "": {
+        "": "Koruma..."
+      }
+    }
+  }
 }

@@ -1,12 +1,12 @@
 {
   "app_title": "মেমরি বক্স",
-  "screen_titles": [
-    "আপনার বাক্স",
-    "সম্মানিত করা",
-    "প্রকাশ করা",
-    "সংরক্ষিত",
-    "মৃদু যত্ন"
-  ],
+  "screen_titles": {
+    "0": "আপনার বাক্স",
+    "1": "সম্মানিত করা",
+    "2": "প্রকাশ করা",
+    "3": "সংরক্ষিত",
+    "4": "মৃদু যত্ন"
+  },
   "complete_title": "স্মৃতি সংরক্ষিত",
   "complete_message": "আপনি নিরাপদে আপনার বাক্সে {{name}} এর একটি স্মৃতি রেখেছেন। সংযোগের এই মুহুর্তগুলি সর্বদা আপনার।",
   "auth_error": "অথ সেশন অনুপস্থিত বা DB কনফিগার করা হয়নি",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "তাদের নাম টাইপ করুন...",
     "placeholder_relation": "আপনি তাদের কিভাবে চেনেন? (ঐচ্ছিক)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "একটি আনন্দের মুহূর্ত",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "এমন কিছু যা তারা বলতেন",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "ছোট্ট প্রতিদিনের স্মৃতি",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "এমন একটি জায়গা যা আপনাকে তাদের কথা মনে করিয়ে দেয়",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "আমি তো এমন কিছু বলতে চাই যা আমি বলতে পারি",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "→ চালিয়ে যান"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "নিরাপদে দূরে রাখা হয়েছে",
     "subtitle": "{{name}} এর এই স্মৃতিটি এখন আপনার সংগ্রহের অংশ।",
     "add_another": "অন্য একটি স্মৃতি যোগ করুন",
-    "finish": "ফিনিশ রিফ্লেকশন"
+    "finish": "ফিনিশ রিফ্লেকশন",
+    "saved_title": "নিরাপদ রাখা"
   },
   "closing": {
     "title": "যত্ন নেওয়া",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "আপনি কি নিশ্চিত যে আপনি এই মেমরিটি মুছে ফেলতে চান?"
   },
   "app_description": "মেমরি বক্স",
   "before_you_go": "যাওয়ার আগে",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "দীর্ঘ"
 }

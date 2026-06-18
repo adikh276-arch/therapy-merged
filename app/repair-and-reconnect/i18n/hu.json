@@ -31,114 +31,114 @@
     "safety": "Nem kell mindent megjavítanod – csak válassz egy apró lépést.",
     "button": "Próbáld ki ezt →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Küldj alkalmi bejelentkezést",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Ismerd el a feszültséget",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Adjatok egymásnak egy kis teret",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Engedd el, és lépj tovább",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Csak gondolkodj el rajta",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Küldj meleg üzenetet",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Mondd meg, mi történt őszintén",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Kötelezd el magad a következő szünettel",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Válassz békét a helyesség helyett",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Gondolj át, mire igazán szükséged van",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Küldj szakmai üzenetet",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Tisztelettel kezeld",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Legközelebb tervezz nyugodtabb választ",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Maradj profi, és lépj tovább",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Gondolj a határokra",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Keress egy egyszerű üzenettel",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Ismerd el, mi történt",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Legközelebb tarts egy kis szünetet",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Most engedd el",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Csak gondolkodj el (még nincs lépés)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "A megkeresés – még tökéletlenül is – szinte mindig jobban fogadják, mint amire számítunk.",
         "howTitle": "Kezdj kicsiben",
         "howBody": "Nem kell esszét írnod. Néhány őszinte szó megnyithatja az ajtót a visszakapcsolódáshoz.",
-        "prompts": [
-          "Hé, gondolkodtam rajtad. Remélem, jól vagy.",
-          "Tudom, hogy feszült volt a helyzet – csak azt akartam mondani, hogy érdekel.",
-          "Sajnálom a korábbikat. Beszélhetünk, ha készen állsz?"
-        ],
+        "prompts": {
+          "0": "Hé, gondolkodtam rajtad. Remélem, jól vagy.",
+          "1": "Tudom, hogy feszült volt a helyzet – csak azt akartam mondani, hogy érdekel.",
+          "2": "Sajnálom a korábbikat. Beszélhetünk, ha készen állsz?"
+        },
         "promptLabel": "Válassz kiindulópontot:",
         "editLabel": "Tedd a tiédédre:"
       },
@@ -169,11 +169,11 @@
         "insight": "Az embereknek nem kell tökéletes legyél – tudniuk kell, hogy észrevetted.",
         "howTitle": "Nevezd gyengéden",
         "howBody": "El tudod ismerni anélkül, hogy minden felelősséget vállalnának. Csak mondd meg, mi történt őszintén.",
-        "prompts": [
-          "Tudom, hogy hevesek lettek közöttünk. Tudnod kell, hogy észrevettem.",
-          "Rájöttem, hogy talán keménynek tűntök. Nem ez volt a szándékom.",
-          "Gondolkodtam azon, ami történt, és bárcsak másképp kezeltem volna."
-        ],
+        "prompts": {
+          "0": "Tudom, hogy hevesek lettek közöttünk. Tudnod kell, hogy észrevettem.",
+          "1": "Rájöttem, hogy talán keménynek tűntök. Nem ez volt a szándékom.",
+          "2": "Gondolkodtam azon, ami történt, és bárcsak másképp kezeltem volna."
+        },
         "promptLabel": "Válassz kiindulópontot:",
         "editLabel": "Tedd a tiédédre:"
       },
@@ -183,11 +183,11 @@
         "insight": "Egy 6 másodperces szünet gyakran elég ahhoz, hogy a reakcióról a visszatükröződésre váltsunk.",
         "howTitle": "🧘 Tervezd meg a szünetet",
         "howBody": "Gondolj egy egyszerű jelzésre – például hogy vegyél egy levegőt vagy lépj el röviden – mielőtt válaszolnál.",
-        "prompts": [
-          "Legközelebb, amikor szomorú vagyok, mély levegőt veszek, mielőtt válaszolnék.",
-          "Megpróbálom azt mondani, hogy 'Adj egy percet', ahelyett, hogy azonnal reagálnék.",
-          "Néhány percre elhúzom, hogy összeszedje a gondolataimat."
-        ],
+        "prompts": {
+          "0": "Legközelebb, amikor szomorú vagyok, mély levegőt veszek, mielőtt válaszolnék.",
+          "1": "Megpróbálom azt mondani, hogy 'Adj egy percet', ahelyett, hogy azonnal reagálnék.",
+          "2": "Néhány percre elhúzom, hogy összeszedje a gondolataimat."
+        },
         "promptLabel": "Válassz olyan elköteleződést, ami helyesnek tűnik:",
         "editLabel": "Írd meg a saját szándékodat:"
       },
@@ -197,11 +197,11 @@
         "insight": "Az elengedés nem feladás – hanem a béke választása a helyesség helyett.",
         "howTitle": "🕊️ Engedd el óvatosan",
         "howBody": "Nem kell elfelejtened. Csak döntsd el, hogy ez már nem kell, hogy irányítsa, hogyan érzed magad.",
-        "prompts": [
-          "Úgy döntöttem, hogy elengedem ezt – nem azért, mert nem számított, hanem mert a békém fontosabb.",
-          "Elengedem, hogy igazad legyek ebben. Én a kapcsolatot választom.",
-          "Ez a helyzet nem határozza meg a kapcsolatunkat. Haladok előre."
-        ],
+        "prompts": {
+          "0": "Úgy döntöttem, hogy elengedem ezt – nem azért, mert nem számított, hanem mert a békém fontosabb.",
+          "1": "Elengedem, hogy igazad legyek ebben. Én a kapcsolatot választom.",
+          "2": "Ez a helyzet nem határozza meg a kapcsolatunkat. Haladok előre."
+        },
         "promptLabel": "Válaszd ki, mi rezonál:",
         "editLabel": "Írd meg, ami igaznak tűnik számodra:"
       },
@@ -211,11 +211,11 @@
         "insight": "A naplóírás vagy akár az események átgondolása segít nyomás nélkül feldolgozni az érzelmeket.",
         "howTitle": "🔍 Nézz befelé",
         "howBody": "Tedd fel magadnak a kérdést: Mit éreztem valójában a düh alatt? Gyakran fájdalom, félelem vagy csalódás miatt.",
-        "prompts": [
-          "A dühöm alatt azt hiszem, megsértődtem.",
-          "Rájöttem, hogy azért reagáltam, mert féltem, hogy nem hallanak meg.",
-          "Amire igazán szükségem volt, az az volt, hogy tisztelnek és értékesnek érezzem magam."
-        ],
+        "prompts": {
+          "0": "A dühöm alatt azt hiszem, megsértődtem.",
+          "1": "Rájöttem, hogy azért reagáltam, mert féltem, hogy nem hallanak meg.",
+          "2": "Amire igazán szükségem volt, az az volt, hogy tisztelnek és értékesnek érezzem magam."
+        },
         "promptLabel": "Válaszd ki, mi rezonál:",
         "editLabel": "Írd meg a saját visszatekintésedet:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

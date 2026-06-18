@@ -1,14 +1,14 @@
 {
   "app_title": "Pauză de compasiune",
-  "screen_titles": [
-    "Check-in",
-    "Identificare",
-    "Respirație",
-    "Bunătate",
-    "Schimbare",
-    "Reflectă",
-    "Complet"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Identificare",
+    "2": "Respirație",
+    "3": "Bunătate",
+    "4": "Schimbare",
+    "5": "Reflectă",
+    "6": "Complet"
+  },
   "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
   "save_success": "Reflecție păstrată",
   "save_error": "A eșuat să păstreze reflexia",
@@ -25,14 +25,14 @@
   "continue_button": "Continuă",
   "nameit_title": "Pune-o în cuvinte",
   "nameit_subtitle": "Acum, mă simt _______",
-  "emotions_list": [
-    "anxios",
-    "vinovat",
-    "copleșit",
-    "Tensionat",
-    "obosit",
-    "trist"
-  ],
+  "emotions_list": {
+    "0": "anxios",
+    "1": "vinovat",
+    "2": "copleșit",
+    "3": "Tensionat",
+    "4": "obosit",
+    "5": "trist"
+  },
   "label_custom_emotion": "Sau tastez-ți propria",
   "placeholder_emotion": "1–2 cuvinte",
   "nameit_footer": "Simplitatea e suficientă.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung",
+  "intro": {
+    "view_past": "Vezi sesiunile anterioare"
+  },
+  "history": {
+    "title": "Istoricul autocompasiunii",
+    "no_entries": "Nu s-au găsit jurnale de pauze anterioare."
+  },
+  "loading": "Istoric de încărcare..."
 }

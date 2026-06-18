@@ -4,11 +4,11 @@
   "intro": {
     "title": "Förutsägelse kontra verklighet",
     "description": "Jämför dina oroliga förutsägelser med vad som faktiskt händer för att skapa ett mer balanserat perspektiv.",
-    "benefits": [
-      "Identifiera orosmönster",
-      "Samla bevis mot rädslor",
-      "Minska framtida överanalyserande"
-    ],
+    "benefits": {
+      "0": "Identifiera orosmönster",
+      "1": "Samla bevis mot rädslor",
+      "2": "Minska framtida överanalyserande"
+    },
     "duration": "4–5 minuter",
     "view_past": "Se tidigare reflektioner"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Inga reflektioner sparade än.",
     "prediction_label": "Förutsägelse",
     "reality_label": "Verklighet",
-    "reflection_label": "Reflektion:"
+    "reflection_label": "Reflektion:",
+    "past_logs": "Tidigare reflektioner",
+    "reframe_label": "Ny balanserad syn:"
   },
   "complete": {
     "title": "Aktivitet avslutad",
     "saved_title": "Reflektion räddad",
     "message": "Genom att titta på fakta hjälper du ditt sinne att lära sig att saker ofta är mer hanterbara än de verkar."
   },
-  "emotions": [
-    "Orolig",
-    "Nervös",
-    "Rädd",
-    "Överväldigad",
-    "Orolig"
-  ],
+  "emotions": {
+    "0": "Orolig",
+    "1": "Nervös",
+    "2": "Rädd",
+    "3": "Överväldigad",
+    "4": "Orolig"
+  },
   "intensity_labels": {
     "not_intense": "Inte Intensiv",
     "very_intense": "Mycket intensivt"
   },
-  "comparison_options": [
-    "Det blev nästan precis som jag förväntade mig",
-    "Vissa delar var rätt, men inte allt",
-    "Det var ganska annorlunda än vad jag förväntade mig",
-    "Det var mycket enklare/bättre än jag föreställt mig"
-  ],
+  "comparison_options": {
+    "0": "Det blev nästan precis som jag förväntade mig",
+    "1": "Vissa delar var rätt, men inte allt",
+    "2": "Det var ganska annorlunda än vad jag förväntade mig",
+    "3": "Det var mycket enklare/bättre än jag föreställt mig"
+  },
   "screens": {
     "s1": {
       "title": "Tänk på en nyligen inträffad situation",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Är du säker på att du vill radera denna förutsägelselogg?"
   },
   "app_description": "Förutsägelse kontra verklighet",
   "more": "Mer",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Retten...",
+    "saved": "Gerettet"
   },
   "app_duration": "10-15 Minuten",
   "app_title": "Brief an mich selbst",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Prompts",
+  "need_inspiration": "Brauchst du Inspiration?",
+  "post_writing_reflection": "Reflexion nach dem Schreiben",
+  "reflection_desc": "Deine Gefühle anzuerkennen ist ein kraftvoller Schritt auf deinem Weg.",
+  "finish_save_reflection": "Reflektion beenden und speichern",
+  "lang": "lang",
+  "completion_message": "Dein Brief wurde sicher gerettet. Nimm dir einen Moment Zeit, um deinen Fortschritt zu würdigen."
 }

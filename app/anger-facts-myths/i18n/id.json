@@ -23,38 +23,38 @@
   "try_again": "Coba lagi",
   "complete_title": "Pengetahuan Dikuasai",
   "complete_message": "Anda mencetak {{score}}/{{total}}! Anda telah memperoleh wawasan berharga tentang kebenaran dan mitos kemarahan.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Kemarahan itu buruk. Jika Anda merasa marah, ada yang salah dengan Anda.",
       "answer": "myth",
       "realFact": "Kemarahan adalah emosi yang normal dan sehat. Semua orang merasakannya. Ini bukan tanda bahwa ada sesuatu yang 'salah' dengan Anda - ini adalah sinyal bahwa ada sesuatu yang penting bagi Anda. Yang penting adalah bagaimana Anda menanggapinya, bukan apakah Anda merasakannya.",
       "example": "Seorang veteran merasa marah ketika batas-batas mereka dilewati. Kemarahan itu valid – itu memberi tahu mereka sesuatu yang penting."
     },
-    {
+    "1": {
       "statement": "Kemarahan bisa menjadi sinyal bahwa batas-batas Anda telah dilewati.",
       "answer": "fact",
       "realFact": "Kemarahan adalah informasi. Ketika Anda merasakannya, ada baiknya bertanya: batas apa yang dilewati? Kebutuhan apa yang tidak terpenuhi? Mendengarkan kemarahan Anda – tanpa bertindak atas dorongan hati – membantu Anda memahami diri sendiri dengan lebih baik dan mengambil tindakan yang berarti.",
       "example": "Anda merasa marah ketika rekan kerja mengambil pujian atas pekerjaan Anda. Kemarahan itu menunjuk pada kebutuhan akan pengakuan dan keadilan."
     },
-    {
+    "2": {
       "statement": "Jika Anda marah, Anda harus melepaskannya dengan berteriak atau memukul sesuatu.",
       "answer": "myth",
       "realFact": "Ekspresi kemarahan yang sehat tidak berarti penindasan ATAU ledakan. Ini berarti mengakui perasaan Anda dan mengungkapkannya secara konstruktif — melalui kata-kata, jurnal, aktivitas fisik, atau outlet kreatif. Anda dapat menghormati kemarahan Anda tanpa kehancuran.",
       "example": "Alih-alih menabrak dinding, Anda berlari atau menuliskan dengan tepat apa yang mengganggu Anda. Kemarahan bergerak melalui Anda tanpa menyebabkan bahaya."
     },
-    {
+    "3": {
       "statement": "Belajar mengelola kemarahan adalah tanda kekuatan emosional.",
       "answer": "fact",
       "realFact": "Orang-orang yang bekerja pada manajemen kemarahan mereka tidak lemah - mereka melakukan beberapa pekerjaan emosional paling berani yang ada. Memilih untuk berhenti sejenak, merenung, dan merespons dengan bijaksana membutuhkan lebih banyak kekuatan daripada bereaksi berdasarkan dorongan hati.",
       "example": "Mengambil napas dalam-dalam dan mengatakan 'Saya perlu satu menit sebelum saya menanggapi' dalam momen panas adalah tindakan pengendalian diri yang kuat."
     },
-    {
+    "4": {
       "statement": "Jika seseorang membuat Anda marah, itu salah mereka. Anda tidak memiliki tanggung jawab.",
       "answer": "myth",
       "realFact": "Orang lain dapat memicu kemarahan Anda, tetapi bagaimana Anda merespons adalah tanggung jawab Anda - dan kekuatan Anda. Mengambil kepemilikan atas reaksi Anda tidak berarti orang lain benar. Itu berarti Anda memilih cara muncul. Itu pemberdayaan, bukan menyalahkan.",
       "example": "Seseorang memotong Anda dalam lalu lintas. Anda merasa marah - itu normal. Tetapi Anda memilih apakah akan mengamuk atau menarik napas. Pilihan ada di tangan Anda."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Mulai dari Awal",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "results_message": "Anda"
 }

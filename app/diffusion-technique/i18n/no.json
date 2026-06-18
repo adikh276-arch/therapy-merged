@@ -153,5 +153,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "watch_thoughts_drift": "Se tankene dine drive bort...",
+  "lang": "lang",
+  "app_duration": "3-5 minutter"
 }

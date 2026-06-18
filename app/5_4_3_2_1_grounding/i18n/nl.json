@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Laten we samen even pauzeren.\n\nDe volgende minuut is er niets wat je hoeft op te lossen, te repareren of op te reageren. Sta jezelf gewoon toe om langzamer te gaan.\n\nGa comfortabel zitten, zet je voeten op de grond als je kunt, en haal zachtjes langzaam adem... en langzaam uitademen.\n\nDit is jouw moment om te resetten en weer contact te maken met het heden.",
       "button": "Begin"
     },
-    {
+    "1": {
       "heading": "5 Dingen Die Je Kunt Zien",
       "body": "Kijk langzaam om je heen. Laat je ogen zachtjes over de ruimte bewegen. Let op kleuren, vormen, licht, schaduwen of kleine details waar je misschien eerder niet op hebt gelet.",
       "button": "Volgende"
     },
-    {
+    "2": {
       "heading": "4 Dingen Die Je Kunt Voelen",
       "body": "Breng je aandacht naar je lichaam. Voel je voeten de vloer raken, je rug tegen de stoel, je kleren op je huid, of de lucht om je heen. Erken vier fysieke sensaties.",
       "button": "Volgende"
     },
-    {
+    "3": {
       "heading": "3 Dingen Die Je Kunt Horen",
       "body": "Luister goed. Je kunt verre geluiden horen, een ventilator, typen, ademhalen of zelfs stilte. Identificeer drie geluiden zonder ze te beoordelen.",
       "button": "Volgende"
     },
-    {
+    "4": {
       "heading": "2 Dingen Die Je Kunt Ruiken",
       "body": "Kijk of je een geur in de kamer kunt waarnemen. Als er niets opvalt, let dan gewoon op de neutrale geur van de lucht om je heen.",
       "button": "Volgende"
     },
-    {
+    "5": {
       "heading": "1 Ding Dat Je Kunt Proeven",
       "body": "Let op de smaak in je mond. Het kan subtiel of neutraal zijn — observeer het gewoon.",
       "button": "Volgende"
     },
-    {
+    "6": {
       "heading": "Reflectie",
       "body": "Haal één keer langzaam adem... en zachtjes uitademen.",
       "button": "Indienen"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Opnieuw beginnen",
@@ -90,5 +90,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "/5-4-3-2-1-grounding": "/5-4-3-2-1-aarding"
 }

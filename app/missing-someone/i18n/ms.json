@@ -1,10 +1,10 @@
 {
   "app_title": "Kehilangan Seseorang",
-  "subtitles": [
-    "Pengesahan",
-    "Kebijaksanaan dalaman",
-    "Lengkap"
-  ],
+  "subtitles": {
+    "0": "Pengesahan",
+    "1": "Kebijaksanaan dalaman",
+    "2": "Lengkap"
+  },
   "complete_title": "Kejelasan yang diperoleh",
   "complete_message": "Memahami kimia kehilangan seseorang adalah langkah pertama ke arah penyembuhan. Perasaan anda sah, dan otak anda hanya melakukan tugasnya untuk melindungi dan memproses.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

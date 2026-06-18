@@ -79,7 +79,10 @@
     "loading": "Loading...",
     "get_started": "Get Started",
     "well_done": "Well Done!",
-    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress."
+    "completion_message": "You've successfully completed this activity. Take a moment to appreciate your progress.",
+    "start_over": "重新开始",
+    "finish_exit": "终点与退场",
+    "time_to_complete": "{{minutes}} 分钟"
   },
   "phase_label": "Phase",
   "instruction_ready": "Set your rounds and tap play to begin",
@@ -89,5 +92,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "gentleReminder": "温和提醒",
+  "lang": "很长"
 }

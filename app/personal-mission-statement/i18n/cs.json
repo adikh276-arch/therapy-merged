@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý",
+  "intro_benefit_1": "Získejte naprostou jasnost ve svých základních přesvědčeních",
+  "intro_benefit_2": "Stanovte si jasné cíle pro osobní transformaci",
+  "reflection_subtitle": "Vytvořte si své aspirace. Vyplňte základní složky svého účelu.",
+  "mission_your_statement": "Vaše prohlášení",
+  "saving": "Ukládám...",
+  "mission_save_finish": "Save & Finish",
+  "mission_share": "Sdílet",
+  "mission_start_over": "Začít znovu",
+  "loading": "Načítání deklarací...",
+  "app": {
+    "startActivity": "Create Mission"
+  }
 }

@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Érzelmi támogatás",
       "prompt": "Milyen támogatás segítene neked most ténylegesen?",
-      "hints": [
-        "Csak valakire van szükségem, aki...",
-        "Segítene, ha...",
-        "Amit igazán akarok, az az..."
-      ]
+      "hints": {
+        "0": "Csak valakire van szükségem, aki...",
+        "1": "Segítene, ha...",
+        "2": "Amit igazán akarok, az az..."
+      }
     },
     "Space / time for myself": {
       "label": "Tér / idő magamnak",
       "prompt": "Milyen lenne számodra, ha ez a hely lenne?",
-      "hints": [
-        "Ezt az időt arra használnám, hogy...",
-        "Az űr engedne...",
-        "Szükségem van helyre, hogy..."
-      ]
+      "hints": {
+        "0": "Ezt az időt arra használnám, hogy...",
+        "1": "Az űr engedne...",
+        "2": "Szükségem van helyre, hogy..."
+      }
     },
     "Clear communication": {
       "label": "Világos kommunikáció",
       "prompt": "Milyen lenne nálad tisztább kommunikáció?",
-      "hints": [
-        "Bárcsak mondhatnám...",
-        "Ha tényleg hallgatnának, elmondanám nekik...",
-        "Nehéz a kommunikáció, amikor..."
-      ]
+      "hints": {
+        "0": "Bárcsak mondhatnám...",
+        "1": "Ha tényleg hallgatnának, elmondanám nekik...",
+        "2": "Nehéz a kommunikáció, amikor..."
+      }
     },
     "Reassurance": {
       "label": "Megnyugtatás",
       "prompt": "Milyen megnyugtatás érhetné meg jelentőségteljesnek?",
-      "hints": [
-        "Hallanom, hogy...",
-        "Megnyugtatna, ha tudnám...",
-        "Folyton aggódom, hogy..."
-      ]
+      "hints": {
+        "0": "Hallanom, hogy...",
+        "1": "Megnyugtatna, ha tudnám...",
+        "2": "Folyton aggódom, hogy..."
+      }
     },
     "Understanding": {
       "label": "Megértés",
       "prompt": "Milyen lenne igazán megértettnek érezni?",
-      "hints": [
-        "Bárcsak tudnák az embereket, hogy...",
-        "Amit igazán érzek, az az...",
-        "Senki sem látja, hogy én..."
-      ]
+      "hints": {
+        "0": "Bárcsak tudnák az embereket, hogy...",
+        "1": "Amit igazán érzek, az az...",
+        "2": "Senki sem látja, hogy én..."
+      }
     },
     "Stability": {
       "label": "Stabilitás",
       "prompt": "Milyen lenne a stabilitás az életedben most?",
-      "hints": [
-        "Szükségem van arra, hogy olyan dolgok érezzék...",
-        "Ami a földhöz kötne, az az...",
-        "A stabilitás azt jelenti..."
-      ]
+      "hints": {
+        "0": "Szükségem van arra, hogy olyan dolgok érezzék...",
+        "1": "Ami a földhöz kötne, az az...",
+        "2": "A stabilitás azt jelenti..."
+      }
     },
     "Honesty": {
       "label": "Őszinteség",
       "prompt": "Milyen lenne az őszinteség a te helyzetedben?",
-      "hints": [
-        "Az igazság, amit szembe kell néznem, az...",
-        "Őszinte akarok lenni...",
-        "Ami igazán történik, az..."
-      ]
+      "hints": {
+        "0": "Az igazság, amit szembe kell néznem, az...",
+        "1": "Őszinte akarok lenni...",
+        "2": "Ami igazán történik, az..."
+      }
     },
     "Respect": {
       "label": "Tisztelet",
       "prompt": "Milyen a tisztelet most számodra?",
-      "hints": [
-        "Megérdemlem, hogy bánjanak...",
-        "A tisztelet úgy nézne ki, hogy...",
-        "Szükségem van emberekre, akiket..."
-      ]
+      "hints": {
+        "0": "Megérdemlem, hogy bánjanak...",
+        "1": "A tisztelet úgy nézne ki, hogy...",
+        "2": "Szükségem van emberekre, akiket..."
+      }
     },
     "Clarity about relationship": {
       "label": "Tiszta a kapcsolat",
       "prompt": "Milyen tisztaság segítene neked a legtöbbet?",
-      "hints": [
-        "Tudnom kell, hogy...",
-        "Ami összezavar, az az...",
-        "Azt akarom, hogy tisztázzuk magunkat..."
-      ]
+      "hints": {
+        "0": "Tudnom kell, hogy...",
+        "1": "Ami összezavar, az az...",
+        "2": "Azt akarom, hogy tisztázzuk magunkat..."
+      }
     },
     "default": {
       "prompt": "Milyen lenne ez egy valódi helyzetben?",
-      "hints": [
-        "Ami eszembe jut, az az...",
-        "Most úgy érzem...",
-        "Ha őszinte vagyok magammal..."
-      ]
+      "hints": {
+        "0": "Ami eszembe jut, az az...",
+        "1": "Most úgy érzem...",
+        "2": "Ha őszinte vagyok magammal..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Mondj valamit őszintén"
     },
-    {
+    "1": {
       "label": "Szánok időt magamra"
     },
-    {
+    "2": {
       "label": "Keress valakit"
     },
-    {
+    "3": {
       "label": "Állítsunk fel egy kis határt"
     },
-    {
+    "4": {
       "label": "Még nem vagyok biztos benne"
     }
-  ],
+  },
   "history": {
     "title": "Múltbeli visszatekintések",
     "empty": "Még nincs visszatükröződés."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

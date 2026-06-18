@@ -1,12 +1,12 @@
 {
   "app_title": "Hộp bộ nhớ",
-  "screen_titles": [
-    "Hộp của bạn",
-    "Tôn vinh",
-    "Thể hiện",
-    "Bảo quản",
-    "Chăm sóc nhẹ nhàng"
-  ],
+  "screen_titles": {
+    "0": "Hộp của bạn",
+    "1": "Tôn vinh",
+    "2": "Thể hiện",
+    "3": "Bảo quản",
+    "4": "Chăm sóc nhẹ nhàng"
+  },
   "complete_title": "Bộ nhớ được bảo tồn",
   "complete_message": "Bạn đã đặt một bộ nhớ về {{name}} vào hộp của mình một cách an toàn. Những khoảnh khắc kết nối này là của bạn để luôn lưu giữ.",
   "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Nhập tên của họ...",
     "placeholder_relation": "Làm thế nào để bạn biết họ? (tùy chọn)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Khoảnh khắc hạnh phúc",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Một cái gì đó họ thường nói",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Một kỷ niệm nhỏ hàng ngày",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Một nơi khiến bạn nhớ đến chúng",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Một điều tôi ước mình có thể nói",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Tiếp tục →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Cất giấu an toàn",
     "subtitle": "Ký ức về {{name}} này bây giờ là một phần trong bộ sưu tập của bạn.",
     "add_another": "Thêm một bộ nhớ khác",
-    "finish": "Hoàn thành phản xạ"
+    "finish": "Hoàn thành phản xạ",
+    "saved_title": "Giữ an toàn"
   },
   "closing": {
     "title": "Chăm sóc",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bạn có chắc chắn muốn xóa ký ức này không?"
   },
   "app_description": "Hộp kỷ niệm",
   "before_you_go": "Trước khi bạn đi",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

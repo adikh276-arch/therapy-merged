@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Din dagliga kroppsrutin",
   "body_subtitle": "Vilken av dessa har känts lite fel på sistone? (Välj de som gäller)",
   "continue": "Fortsätt",
-  "body_options": [
-    "Jag har inte sovit bra",
-    "Min sömntid är oregelbunden",
-    "Ibland hoppar jag över måltider",
-    "Jag äter mer än vanligt när jag är stressad",
-    "Jag har inte rört mig eller tränat särskilt mycket",
-    "Jag har inte varit ute så mycket",
-    "Min personliga vårdrutin har förändrats",
-    "Min dagliga rutin känns stadig"
-  ],
+  "body_options": {
+    "0": "Jag har inte sovit bra",
+    "1": "Min sömntid är oregelbunden",
+    "2": "Ibland hoppar jag över måltider",
+    "3": "Jag äter mer än vanligt när jag är stressad",
+    "4": "Jag har inte rört mig eller tränat särskilt mycket",
+    "5": "Jag har inte varit ute så mycket",
+    "6": "Min personliga vårdrutin har förändrats",
+    "7": "Min dagliga rutin känns stadig"
+  },
   "mind_title": "🧠 Dina tankemönster",
-  "mind_options": [
-    "Jag överanalyserar hela tiden saker",
-    "Jag föreställer mig ofta det värsta tänkbara scenariot",
-    "Jag är hård mot mig själv",
-    "Jag känner skuld över saker jag har gjort eller inte gjort",
-    "Jag oroar mig ständigt",
-    "Jag har svårt att slappna av",
-    "Mina tankar känns hanterbara"
-  ],
+  "mind_options": {
+    "0": "Jag överanalyserar hela tiden saker",
+    "1": "Jag föreställer mig ofta det värsta tänkbara scenariot",
+    "2": "Jag är hård mot mig själv",
+    "3": "Jag känner skuld över saker jag har gjort eller inte gjort",
+    "4": "Jag oroar mig ständigt",
+    "5": "Jag har svårt att slappna av",
+    "6": "Mina tankar känns hanterbara"
+  },
   "coping_title": "🌊 Hur du reagerar på stress",
-  "coping_options": [
-    "Jag undviker uppgifter när jag är stressad",
-    "Jag scrollar mycket på mobilen för att distrahera mig själv",
-    "Jag tillbringar tid ensam för att hantera det",
-    "Jag kastar mig in i arbetet när jag är stressad",
-    "Jag pratar med någon om hur jag känner",
-    "Jag gör andningsövningar för att lugna ner mig",
-    "Jag tittar på TV eller spelar spel för att distrahera mig själv",
-    "Jag vet inte riktigt hur jag ska reagera på stress"
-  ],
+  "coping_options": {
+    "0": "Jag undviker uppgifter när jag är stressad",
+    "1": "Jag scrollar mycket på mobilen för att distrahera mig själv",
+    "2": "Jag tillbringar tid ensam för att hantera det",
+    "3": "Jag kastar mig in i arbetet när jag är stressad",
+    "4": "Jag pratar med någon om hur jag känner",
+    "5": "Jag gör andningsövningar för att lugna ner mig",
+    "6": "Jag tittar på TV eller spelar spel för att distrahera mig själv",
+    "7": "Jag vet inte riktigt hur jag ska reagera på stress"
+  },
   "reflection_title": "✍️ Reflektion",
   "question_stress": "Vilken vana ökar din stress senare?",
   "question_calm": "Vilken vana kan hjälpa dig att känna dig lugnare?",
@@ -44,13 +44,13 @@
   "insight_description": "Tryck nedan för att se enkla vanor som kan hjälpa till att minska stress.",
   "show_suggestions": "Programförslag",
   "commit": "Commit",
-  "suggestions": [
-    "Försök gå och lägga dig lite tidigare ikväll",
-    "Gå ut för frisk luft idag",
-    "Ta en paus från scrollandet ett tag",
-    "Tala vänligt till dig själv",
-    "Avsluta en uppgift du skjutit upp"
-  ],
+  "suggestions": {
+    "0": "Försök gå och lägga dig lite tidigare ikväll",
+    "1": "Gå ut för frisk luft idag",
+    "2": "Ta en paus från scrollandet ett tag",
+    "3": "Tala vänligt till dig själv",
+    "4": "Avsluta en uppgift du skjutit upp"
+  },
   "final_text": "Små förändringar spelar roll. Konsekvens skapar lugn.",
   "finish": "Slut",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "Lång",
+  "mind_subtitle": "Vilka tankevanor märker du oftast att de återvänder? Välj alla som gäller.",
+  "coping_subtitle": "Hur brukar du reagera när överväldigande uppstår? Välj alla som gäller."
 }

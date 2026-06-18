@@ -4,11 +4,11 @@
   "intro": {
     "title": "Forudsigelse vs. virkelighed",
     "description": "Sammenlign dine ængstelige forudsigelser med det, der faktisk sker, for at opbygge et mere balanceret perspektiv.",
-    "benefits": [
-      "Identificer ængstelige mønstre",
-      "Indsaml beviser mod frygt",
-      "Reducer fremtidig overtænkning"
-    ],
+    "benefits": {
+      "0": "Identificer ængstelige mønstre",
+      "1": "Indsaml beviser mod frygt",
+      "2": "Reducer fremtidig overtænkning"
+    },
     "duration": "4-5 minutter",
     "view_past": "Se tidligere refleksioner"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Ingen refleksioner gemt endnu.",
     "prediction_label": "Forudsigelse",
     "reality_label": "Virkelighed",
-    "reflection_label": "Refleksion:"
+    "reflection_label": "Refleksion:",
+    "past_logs": "Tidligere refleksioner",
+    "reframe_label": "Nyt balanceret synspunkt:"
   },
   "complete": {
     "title": "Aktivitet afsluttet",
     "saved_title": "Refleksion reddet",
     "message": "Ved at se på fakta hjælper du dit sind med at lære, at tingene ofte er mere håndterbare, end de ser ud til."
   },
-  "emotions": [
-    "Ængstelig",
-    "Nervøs",
-    "Bange",
-    "Overvældet",
-    "Urolig"
-  ],
+  "emotions": {
+    "0": "Ængstelig",
+    "1": "Nervøs",
+    "2": "Bange",
+    "3": "Overvældet",
+    "4": "Urolig"
+  },
   "intensity_labels": {
     "not_intense": "Ikke intens",
     "very_intense": "Meget intens"
   },
-  "comparison_options": [
-    "Det blev næsten præcis, som jeg havde forventet",
-    "Nogle dele var rigtige, men ikke alt",
-    "Det var ret anderledes, end jeg havde forventet",
-    "Det var meget nemmere/bedre, end jeg havde forestillet mig"
-  ],
+  "comparison_options": {
+    "0": "Det blev næsten præcis, som jeg havde forventet",
+    "1": "Nogle dele var rigtige, men ikke alt",
+    "2": "Det var ret anderledes, end jeg havde forventet",
+    "3": "Det var meget nemmere/bedre, end jeg havde forestillet mig"
+  },
   "screens": {
     "s1": {
       "title": "Tænk på en nylig situation",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på, at du vil slette denne forudsigelseslog?"
   },
   "app_description": "Forudsigelse vs. virkelighed",
   "more": "Mere",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

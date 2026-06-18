@@ -73,13 +73,13 @@
     "confirmDelete": "確認刪除",
     "cancel": "取消",
     "delete": "刪除條目",
-    "prompts": [
-      "一個不讓人感到緊張的小時刻…",
-      "你的伴侶所做的一項努力是…",
-      "始終不變的品質之一是…",
-      "意圖",
-      "情緒檢查"
-    ]
+    "prompts": {
+      "0": "一個不讓人感到緊張的小時刻…",
+      "1": "你的伴侶所做的一項努力是…",
+      "2": "始終不變的品質之一是…",
+      "3": "意圖",
+      "4": "情緒檢查"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

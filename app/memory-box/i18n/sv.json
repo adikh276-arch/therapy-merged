@@ -1,12 +1,12 @@
 {
   "app_title": "Minneslåda",
-  "screen_titles": [
-    "Din låda",
-    "Hedersbetygelser",
-    "Uttryck",
-    "Bevarat",
-    "Varsam vård"
-  ],
+  "screen_titles": {
+    "0": "Din låda",
+    "1": "Hedersbetygelser",
+    "2": "Uttryck",
+    "3": "Bevarat",
+    "4": "Varsam vård"
+  },
   "complete_title": "Bevarat minne",
   "complete_message": "Du har säkert placerat ett minne av {{name}} i din låda. Dessa stunder av kontakt är alltid dina att behålla.",
   "auth_error": "Auth-session saknas eller databas inte konfigurerad",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Skriv deras namn...",
     "placeholder_relation": "Hur känner du dem? (valfritt)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Ett lyckligt ögonblick",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Något de brukade säga",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Ett litet vardagsminne",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "En plats som påminner dig om dem",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Något jag önskar att jag kunde säga",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Fortsätt →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Säkert undanstoppad",
     "subtitle": "Detta minne av {{name}} är nu en del av din samling.",
     "add_another": "Lägg till ett minne till",
-    "finish": "Färdig reflektion"
+    "finish": "Färdig reflektion",
+    "saved_title": "Hålls trygg"
   },
   "closing": {
     "title": "Ta hand om dig",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Är du säker på att du vill radera det här minnet?"
   },
   "app_description": "Minneslåda",
   "before_you_go": "Innan du går",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

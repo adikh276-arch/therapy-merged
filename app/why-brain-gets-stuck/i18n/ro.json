@@ -10,21 +10,22 @@
   "s2": {
     "tag": "Adevăruri blânde",
     "title": "Logica supraviețuirii cerebrale",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Alarma a rămas pornită",
         "body": "Hipervigilența și surprizele ușor nu sunt reacții exagerate — sistemul de alarmă al creierului tău își face treaba prea bine."
       },
-      {
+      "1": {
         "header": "Flashback-urile sunt amintiri",
         "body": "Trăgacile îți trag creierul înapoi pentru că nu a primit niciodată semnalul că amenințarea s-a încheiat. Încearcă să te protejeze."
       },
-      {
+      "2": {
         "header": "Luptând pentru tine",
         "body": "Fiecare simptom a fost odată un act de supraviețuire. Creierul tău a făcut ce trebuia ca să te țină în viață."
       }
-    ],
-    "healing": "Vindecarea nu înseamnă să uiți. Este vorba despre a-ți ajuta creierul să învețe că acum ești în siguranță."
+    },
+    "healing": "Vindecarea nu înseamnă să uiți. Este vorba despre a-ți ajuta creierul să învețe că acum ești în siguranță.",
+    "finish_reading": "Termină lectura"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung",
+  "complete": {
+    "message": "Tu"
+  }
 }

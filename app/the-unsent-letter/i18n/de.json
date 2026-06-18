@@ -3,39 +3,40 @@
   "app_subtitle": "Lass deine Gedanken sicher und privat frei",
   "intro": {
     "title": "Der nicht abgesendete Brief",
-    "description": [
-      "Manchmal gibt es Dinge, die wir gerne sagen würden – aber nie die Gelegenheit dazu hatten.",
-      "Das konnte daran liegen, dass es sich nicht sicher anfühlte, der Zeitpunkt nicht stimmte oder die Worte zu schwer laut auszusprechen waren.",
-      "Diese Aktivität gibt dir einen privaten Raum, um diese Gedanken in Worte zu fassen.",
-      "Du musst diesen Brief nicht abschicken. Das ist nur für dich – um deine Gefühle besser auszudrücken, loszulassen und zu verstehen."
-    ],
+    "description": {
+      "0": "Manchmal gibt es Dinge, die wir gerne sagen würden – aber nie die Gelegenheit dazu hatten.",
+      "1": "Das konnte daran liegen, dass es sich nicht sicher anfühlte, der Zeitpunkt nicht stimmte oder die Worte zu schwer laut auszusprechen waren.",
+      "2": "Diese Aktivität gibt dir einen privaten Raum, um diese Gedanken in Worte zu fassen.",
+      "3": "Du musst diesen Brief nicht abschicken. Das ist nur für dich – um deine Gefühle besser auszudrücken, loszulassen und zu verstehen."
+    },
     "notice": "Schreibe frei. Niemand sonst wird das sehen.",
     "button": "Fang an, → zu schreiben"
   },
   "writing": {
     "title": "Schreib auf, was du zurückgehalten hast",
     "desc": "Du kannst deinem Partner, deinem Ex-Partner oder sogar an die Beziehung selbst schreiben. Es gibt keinen richtigen oder falschen Weg, das zu tun.",
-    "prompts": [
-      "Ich fühle mich...",
-      "Ich wünschte...",
-      "Ich habe nie gesagt...",
-      "Was hat mich verletzt...",
-      "Was ich brauchte..."
-    ],
+    "prompts": {
+      "0": "Ich fühle mich...",
+      "1": "Ich wünschte...",
+      "2": "Ich habe nie gesagt...",
+      "3": "Was hat mich verletzt...",
+      "4": "Was ich brauchte..."
+    },
     "placeholder": "Lieber ____,\nIch wollte schon länger sagen...",
     "notice": "Du kannst jederzeit pausieren und zurückkommen.",
     "button": "Fahren Sie weiter →"
   },
   "reflection": {
     "title": "Nimm dir einen Moment damit",
-    "description": [
-      "Du hast gerade deine Gedanken und Gefühle in Worte gefasst – das erfordert Mut.",
-      "Vielleicht bemerkst du gerade eine gemischte Emotion, und das ist völlig in Ordnung.",
-      "Bevor du weitermachst, atme tief durch und informiere dich sanft über dich selbst."
-    ],
+    "description": {
+      "0": "Du hast gerade deine Gedanken und Gefühle in Worte gefasst – das erfordert Mut.",
+      "1": "Vielleicht bemerkst du gerade eine gemischte Emotion, und das ist völlig in Ordnung.",
+      "2": "Bevor du weitermachst, atme tief durch und informiere dich sanft über dich selbst."
+    },
     "notice": "Das war zu deiner Heilung, nicht zum Absenden.",
     "save_button": "Save Letter",
-    "finish_button": "Ziel"
+    "finish_button": "Ziel",
+    "save_success": "Dein nicht abgesendeter Brief ist sicher in deiner privaten Lokalzeitschrift repariert. Ausdruck ist eine tiefgreifende Befreiung."
   },
   "history": {
     "title": "Frühere Briefe",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bist du sicher, dass du diesen nicht abgesendeten Brief löschen willst?"
   },
   "app_description": "Teilen Sie Ihre Gedanken sicher und privat.",
   "more": "Mehr",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

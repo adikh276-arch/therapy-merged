@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "Tarik nafas perlahan-lahan...",
+  "instruction_out": "Tarik nafas perlahan-lahan...",
+  "instruction_hold": "pegang perlahan-lahan...",
+  "lang": "panjang"
 }

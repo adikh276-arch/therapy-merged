@@ -11,24 +11,24 @@
     "s2": {
       "tag": "chu kỳ",
       "title": "Vòng lặp được giải thích",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Sự tức giận nổi lên"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Xấu hổ: \"Tôi xấu\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Xấu hổ bị chôn vùi"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Sự tức giận lại bùng nổ"
         }
-      ],
+      },
       "button": "Tôi thấy nó"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Gián đoạn",
       "title": "Làm gián đoạn chu kỳ",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Đặt tên cho nguồn",
           "desc": "Hỏi: \"Tôi thực sự cảm thấy gì?\". Bị thương? Sợ hãi? Không nhìn thấy? Đặt tên cho nó làm suy yếu nó."
         },
-        {
+        "1": {
           "title": "Tạm dừng lòng trắc ẩn",
           "desc": "Tay đặt trên ngực. Hãy nói: 'Điều này rất khó. Tôi là con người. Tôi có thể vượt qua điều này.'"
         },
-        {
+        "2": {
           "title": "Sửa chữa với ân điển",
           "desc": "Sửa đổi nếu cần - nhưng đừng xoắn ốc. Bạn không phải là khoảnh khắc tồi tệ nhất của bạn."
         }
-      ],
+      },
       "notice": "Nhận thấy chu kỳ đã là bước đầu tiên. Bạn đang làm công việc.",
       "button": "Hoàn thành hoạt động"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

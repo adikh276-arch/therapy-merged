@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い",
+  "intro_benefit_1": "自分の核心的な信念を絶対に明確にしましょう",
+  "intro_benefit_2": "個人の変容のための明確な目標を設定しましょう",
+  "reflection_subtitle": "志望を書きましょう。目的の核心的な要素を埋めてください。",
+  "mission_your_statement": "あなたの声明",
+  "saving": "セーブ...",
+  "mission_save_finish": "セーブ&フィニッシュ",
+  "mission_share": "シェア",
+  "mission_start_over": "やり直し",
+  "loading": "ロード宣言...",
+  "app": {
+    "startActivity": "ミッションを創りましょう"
+  }
 }

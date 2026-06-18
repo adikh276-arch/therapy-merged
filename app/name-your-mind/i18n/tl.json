@@ -3,11 +3,11 @@
   "intro": {
     "title": "Kilalanin ang Iyong Isip",
     "description": "Matutong lumayo sa iyong sarili mula sa labis na mga saloobin sa pamamagitan ng pagbibigay ng pangalan sa iyong panloob na boses.",
-    "benefits": [
-      "Lumikha ng distansya sa pag-iisip",
-      "Bawasan ang Kapangyarihan ng Malupit na Pag-iisip",
-      "Pansinin ang mga saloobin nang hindi sila"
-    ],
+    "benefits": {
+      "0": "Lumikha ng distansya sa pag-iisip",
+      "1": "Bawasan ang Kapangyarihan ng Malupit na Pag-iisip",
+      "2": "Pansinin ang mga saloobin nang hindi sila"
+    },
     "duration": "2-3 minuto",
     "view_past": "Tingnan ang Mga Nakaraang Entry"
   },
@@ -45,15 +45,15 @@
       "title": "Lumikha ng ilang distansya",
       "desc": "Bigyan ang iyong isip ng isang pangalan upang makatulong na ihiwalay ang iyong sarili mula sa mga kaisipang ito.",
       "placeholder": "O i-type ang iyong sariling ...",
-      "examples": [
-        "Ang Kritiko",
-        "Labis na nag-iisip",
-        "Mag-alala FM",
-        "Ang Overthinking Machine",
-        "Ang Panloob na Kritiko",
-        "Ang What-If Generator",
-        "Direktor ng Drama"
-      ]
+      "examples": {
+        "0": "Ang Kritiko",
+        "1": "Labis na nag-iisip",
+        "2": "Mag-alala FM",
+        "3": "Ang Overthinking Machine",
+        "4": "Ang Panloob na Kritiko",
+        "5": "Ang What-If Generator",
+        "6": "Direktor ng Drama"
+      }
     },
     "practice": {
       "title": "Subukan ang shift na ito",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Ano ang napansin mo?",
       "desc": "Ano ang naramdaman niya matapos itong bigyan ng pangalan?",
-      "options": [
-        "Ang pag-iisip ay medyo hindi gaanong matindi kaysa dati",
-        "Pakiramdam ko ay medyo malayo ako sa pag-iisip",
-        "Parang malakas pa rin ito tulad ng dati",
-        "Hindi ako sigurado kung ano ang nagbago, kung mayroon man"
-      ],
+      "options": {
+        "0": "Ang pag-iisip ay medyo hindi gaanong matindi kaysa dati",
+        "1": "Pakiramdam ko ay medyo malayo ako sa pag-iisip",
+        "2": "Parang malakas pa rin ito tulad ng dati",
+        "3": "Hindi ako sigurado kung ano ang nagbago, kung mayroon man"
+      },
       "button": "Kumpletong Pagmumuni-muni"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

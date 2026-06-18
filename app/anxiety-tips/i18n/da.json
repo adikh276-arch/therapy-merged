@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Indånd...",
+  "hold_label": "Hold...",
+  "exhale_label": "Udånd...",
+  "start": "Klar",
+  "stop": "Stop",
+  "begin_breathing": "Begynd at trække vejret",
+  "lang": "Lang"
 }

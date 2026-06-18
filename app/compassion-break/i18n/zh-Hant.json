@@ -1,14 +1,14 @@
 {
   "app_title": "同情休息",
-  "screen_titles": [
-    "報到",
-    "確認",
-    "呼吸",
-    "仁慈",
-    "轉移",
-    "反映",
-    "完全的"
-  ],
+  "screen_titles": {
+    "0": "報到",
+    "1": "確認",
+    "2": "呼吸",
+    "3": "仁慈",
+    "4": "轉移",
+    "5": "反映",
+    "6": "完全的"
+  },
   "auth_error": "身份驗證會話缺失或資料庫未配置",
   "save_success": "反射得以保留",
   "save_error": "未能保留反射",
@@ -25,14 +25,14 @@
   "continue_button": "繼續",
   "nameit_title": "用文字表達出來",
   "nameit_subtitle": "我現在感覺_______",
-  "emotions_list": [
-    "焦慮的",
-    "有罪的",
-    "不堪負荷",
-    "緊張",
-    "疲勞的",
-    "傷心"
-  ],
+  "emotions_list": {
+    "0": "焦慮的",
+    "1": "有罪的",
+    "2": "不堪負荷",
+    "3": "緊張",
+    "4": "疲勞的",
+    "5": "傷心"
+  },
   "label_custom_emotion": "或輸入您自己的內容",
   "placeholder_emotion": "1-2個字",
   "nameit_footer": "簡單就足夠了。",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  "intro": {
+    "view_past": "查看過去的場次"
+  },
+  "history": {
+    "title": "自我慈悲的歷史",
+    "no_entries": "沒有找到過去的故障記錄。"
+  },
+  "loading": "載入歷史......"
 }

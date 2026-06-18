@@ -110,5 +110,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "SAVE FAILED: ": "LAGRING MISLYKTES: "
 }

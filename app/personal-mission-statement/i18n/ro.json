@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung",
+  "intro_benefit_1": "Dobândește o claritate absolută asupra convingerilor tale fundamentale",
+  "intro_benefit_2": "Stabilește ținte clare pentru transformarea personală",
+  "reflection_subtitle": "Redactează-ți aspirațiile. Completează componentele de bază ale scopului tău.",
+  "mission_your_statement": "Declarația dumneavoastră",
+  "saving": "Salvând...",
+  "mission_save_finish": "Salvare & Finish",
+  "mission_share": "Distribuie",
+  "mission_start_over": "Începeți de la zero",
+  "loading": "Încarc declarații...",
+  "app": {
+    "startActivity": "Creează misiunea"
+  }
 }

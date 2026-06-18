@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Напиши ещё одну мысль...",
+  "resume": "Резюме",
+  "pause": "Пауза",
+  "growth_reminder": "Даже маленькие шаги снижают умственную нагрузку. Ты не",
+  "lang": "Долго",
+  "complete_message": "Ты",
+  "welcome_sub": "Добро пожаловать",
+  "clearing_sub": "Ментальное очищение",
+  "sorting_sub": "Сортировка",
+  "action_sub": "Шаги действий",
+  "reflect_sub": "Рефлексия",
+  "intro": {
+    "viewHistory": "Просмотр истории"
+  }
 }

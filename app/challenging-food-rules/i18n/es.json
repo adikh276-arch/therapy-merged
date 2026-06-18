@@ -16,23 +16,23 @@
   },
   "rule_label": "Nombramiento de la regla",
   "rule_question": "¿Cuál es la norma?",
-  "rule_options": [
-    "No debería comer después de cierta hora",
-    "Algunos alimentos están prohibidos",
-    "Necesito controlar las porciones estrictamente"
-  ],
+  "rule_options": {
+    "0": "No debería comer después de cierta hora",
+    "1": "Algunos alimentos están prohibidos",
+    "2": "Necesito controlar las porciones estrictamente"
+  },
   "rule_something_else": "Algo más...",
   "rule_placeholder": "Escribe tu regla de comida...",
   "feeling_label": "Impacto emocional",
   "feeling_question": "¿Cómo se siente esto?",
-  "feeling_options": [
-    "😟 Ansioso",
-    "😌 En el control",
-    "😕 Culpable",
-    "😣 Restringido",
-    "😴 Cansado",
-    "😐 Mixta"
-  ],
+  "feeling_options": {
+    "0": "😟 Ansioso",
+    "1": "😌 En el control",
+    "2": "😕 Culpable",
+    "3": "😣 Restringido",
+    "4": "😴 Cansado",
+    "5": "😐 Mixta"
+  },
   "challenge_label": "Desafío Suave",
   "challenge_question": "Pregunta suavemente...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

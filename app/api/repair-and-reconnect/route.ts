@@ -11,6 +11,9 @@ async function ensureTableExists() {
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
   `;
+
+    // Auto-backfill any missing columns for legacy migrations
+    await db`ALTER TABLE repair_and_reconnect_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255`.catch(() => {});
 }
 
 export async function GET() {

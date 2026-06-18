@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "很长",
+  "entry_x": "参赛#",
+  "loading": "加载中......",
+  "delete": "删除"
 }

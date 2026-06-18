@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Emotionale Unterstützung",
       "prompt": "Welche Art von Unterstützung würde dir im Moment wirklich helfen?",
-      "hints": [
-        "Ich brauche nur jemanden, der...",
-        "Es würde helfen, wenn...",
-        "Was ich wirklich will, ist..."
-      ]
+      "hints": {
+        "0": "Ich brauche nur jemanden, der...",
+        "1": "Es würde helfen, wenn...",
+        "2": "Was ich wirklich will, ist..."
+      }
     },
     "Space / time for myself": {
       "label": "Raum / Zeit für mich selbst",
       "prompt": "Wie würde es für dich aussehen, diesen Raum zu haben?",
-      "hints": [
-        "Ich würde diese Zeit nutzen, um...",
-        "Der Weltraum würde es mir erlauben...",
-        "Ich brauche Platz, um..."
-      ]
+      "hints": {
+        "0": "Ich würde diese Zeit nutzen, um...",
+        "1": "Der Weltraum würde es mir erlauben...",
+        "2": "Ich brauche Platz, um..."
+      }
     },
     "Clear communication": {
       "label": "Klare Kommunikation",
       "prompt": "Wie würde eine klarere Kommunikation für dich aussehen?",
-      "hints": [
-        "Ich wünschte, ich könnte sagen...",
-        "Wenn sie wirklich zuhören würden, würde ich es ihnen sagen...",
-        "Kommunikation fühlt sich schwer an, wenn..."
-      ]
+      "hints": {
+        "0": "Ich wünschte, ich könnte sagen...",
+        "1": "Wenn sie wirklich zuhören würden, würde ich es ihnen sagen...",
+        "2": "Kommunikation fühlt sich schwer an, wenn..."
+      }
     },
     "Reassurance": {
       "label": "Beruhigung",
       "prompt": "Welche Art von Zuspruch würde sich sinnvoll anfühlen?",
-      "hints": [
-        "Ich muss das hören...",
-        "Es würde mich beruhigen zu wissen...",
-        "Ich mache mir immer wieder Sorgen, dass..."
-      ]
+      "hints": {
+        "0": "Ich muss das hören...",
+        "1": "Es würde mich beruhigen zu wissen...",
+        "2": "Ich mache mir immer wieder Sorgen, dass..."
+      }
     },
     "Understanding": {
       "label": "Verständnis",
       "prompt": "Wie würde es aussehen, sich wirklich verstanden zu fühlen?",
-      "hints": [
-        "Ich wünschte, die Leute wüssten, dass...",
-        "Was ich wirklich fühle, ist...",
-        "Niemand sieht, dass ich..."
-      ]
+      "hints": {
+        "0": "Ich wünschte, die Leute wüssten, dass...",
+        "1": "Was ich wirklich fühle, ist...",
+        "2": "Niemand sieht, dass ich..."
+      }
     },
     "Stability": {
       "label": "Stabilität",
       "prompt": "Wie würde sich Stabilität in deinem Leben gerade anfühlen?",
-      "hints": [
-        "Ich brauche, dass sich Dinge...",
-        "Was mich erden würde, ist...",
-        "Stabilität bedeutet..."
-      ]
+      "hints": {
+        "0": "Ich brauche, dass sich Dinge...",
+        "1": "Was mich erden würde, ist...",
+        "2": "Stabilität bedeutet..."
+      }
     },
     "Honesty": {
       "label": "Ehrlichkeit",
       "prompt": "Wie würde in deiner Situation mehr Ehrlichkeit aussehen?",
-      "hints": [
-        "Die Wahrheit, der ich mich stellen muss, ist...",
-        "Ich möchte ehrlich sein über...",
-        "Was wirklich los ist, ist..."
-      ]
+      "hints": {
+        "0": "Die Wahrheit, der ich mich stellen muss, ist...",
+        "1": "Ich möchte ehrlich sein über...",
+        "2": "Was wirklich los ist, ist..."
+      }
     },
     "Respect": {
       "label": "Respekt",
       "prompt": "Wie sieht Respekt für dich gerade aus?",
-      "hints": [
-        "Ich verdiene es, behandelt zu werden...",
-        "Respekt würde aussehen wie...",
-        "Ich brauche Leute, die..."
-      ]
+      "hints": {
+        "0": "Ich verdiene es, behandelt zu werden...",
+        "1": "Respekt würde aussehen wie...",
+        "2": "Ich brauche Leute, die..."
+      }
     },
     "Clarity about relationship": {
       "label": "Klarheit über die Beziehung",
       "prompt": "Welche Art von Klarheit würde dir am meisten helfen?",
-      "hints": [
-        "Ich muss wissen, ob...",
-        "Was mich verwirrt, ist...",
-        "Ich möchte, dass wir klar sind über..."
-      ]
+      "hints": {
+        "0": "Ich muss wissen, ob...",
+        "1": "Was mich verwirrt, ist...",
+        "2": "Ich möchte, dass wir klar sind über..."
+      }
     },
     "default": {
       "prompt": "Wie würde das in einer realen Situation aussehen?",
-      "hints": [
-        "Was mir einfällt, ist...",
-        "Im Moment fühle ich mich...",
-        "Wenn ich ehrlich zu mir selbst bin..."
-      ]
+      "hints": {
+        "0": "Was mir einfällt, ist...",
+        "1": "Im Moment fühle ich mich...",
+        "2": "Wenn ich ehrlich zu mir selbst bin..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Sag etwas Ehrliches"
     },
-    {
+    "1": {
       "label": "Ich nehme mir Zeit für mich selbst"
     },
-    {
+    "2": {
       "label": "Kontaktiere jemanden"
     },
-    {
+    "3": {
       "label": "Setze eine kleine Grenze"
     },
-    {
+    "4": {
       "label": "Noch nicht sicher"
     }
-  ],
+  },
   "history": {
     "title": "Vergangene Reflexionen",
     "empty": "Noch keine Reflexionen."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

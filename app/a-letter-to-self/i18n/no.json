@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Redde...",
+    "saved": "Reddet"
   },
   "app_duration": "10–15 minutter",
   "app_title": "Brev til seg selv",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Prompts",
+  "need_inspiration": "Trenger du inspirasjon?",
+  "post_writing_reflection": "Refleksjon etter skrivingen",
+  "reflection_desc": "Å erkjenne følelsene dine er et kraftfullt steg på reisen din.",
+  "finish_save_reflection": "Ferdig og lagre refleksjon",
+  "lang": "lang",
+  "completion_message": "Brevet ditt er trygt lagret. Ta et øyeblikk til å sette pris på fremgangen din."
 }

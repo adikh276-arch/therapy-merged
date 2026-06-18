@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Nefes al...",
+  "hold_label": "Bekle...",
+  "exhale_label": "Nefes ver...",
+  "start": "Hazır",
+  "stop": "Dur",
+  "begin_breathing": "Nefes almaya başla",
+  "lang": "uzun"
 }

@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "இன்னொரு எண்ணம் டைப் பண்ணுங்க...",
+  "resume": "மீண்டும் தொடங்கவும்",
+  "pause": "இடைநிறுத்தம்",
+  "growth_reminder": "சிறிய படிகள் கூட மன எடையைக் குறைக்கின்றன. நீ டான்",
+  "lang": "நீண்ட",
+  "complete_message": "நீங்கள்",
+  "welcome_sub": "நல்வரவு",
+  "clearing_sub": "மன கிளியரிங்",
+  "sorting_sub": "வரிசைப்படுத்துதல்",
+  "action_sub": "செயல் படிகள்",
+  "reflect_sub": "பிரதிபலிப்பு",
+  "intro": {
+    "viewHistory": "வரலாற்றைக் காண்க"
+  }
 }

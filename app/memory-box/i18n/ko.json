@@ -1,12 +1,12 @@
 {
   "app_title": "메모리 박스",
-  "screen_titles": [
-    "네 박스",
-    "기림",
-    "표현",
-    "보존",
-    "젠틀 케어"
-  ],
+  "screen_titles": {
+    "0": "네 박스",
+    "1": "기림",
+    "2": "표현",
+    "3": "보존",
+    "4": "젠틀 케어"
+  },
   "complete_title": "기억 보존",
   "complete_message": "당신은 {{name}}의 기억을 안전하게 상자에 넣었습니다. 이 연결의 순간들은 언제나 당신의 것입니다.",
   "auth_error": "인증 세션이 누락되거나 데이터베이스가 설정되지 않음",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "이름을 입력해...",
     "placeholder_relation": "어떻게 아세요? (선택 사항)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "행복한 순간",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "그들이 예전에 하던 말이야",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "작은 일상의 기억",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "그들을 떠올리게 하는 곳",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "내가 말하고 싶어 하는 말",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "계속하세요→"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "안전하게 숨겨져 있다",
     "subtitle": "이 {{name}}의 기억은 이제 당신의 컬렉션의 일부가 되었습니다.",
     "add_another": "또 다른 기억을 추가하세요",
-    "finish": "마감 반영"
+    "finish": "마감 반영",
+    "saved_title": "안전하게 지켜졌다"
   },
   "closing": {
     "title": "돌보기",
@@ -104,7 +105,8 @@
     "phase_label": "단계",
     "rounds_selector": "{{count}} 라운드",
     "instruction_ready": "라운드를 설정하고 재생을 눌러 시작하세요",
-    "instruction_running": "원을 따라 호흡을 조절하세요"
+    "instruction_running": "원을 따라 호흡을 조절하세요",
+    "confirm_delete": "이 기억을 정말 지우고 싶은 거야?"
   },
   "app_description": "메모리 박스",
   "before_you_go": "가시기 전에",
@@ -142,5 +144,6 @@
   "yes": "네",
   "no": "아니요",
   "date": "날짜",
-  "continue": "계속하기"
+  "continue": "계속하기",
+  "lang": "길게"
 }

@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "Полотно",
+  "2d": "2D",
+  "a": "a",
+  "lang": "довгий",
+  "complete_and_save": "Завершити та зберегти"
 }

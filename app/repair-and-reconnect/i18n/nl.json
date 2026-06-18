@@ -31,114 +31,114 @@
     "safety": "Je hoeft niet alles te repareren—kies gewoon één kleine stap.",
     "button": "Probeer dit →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Stuur een informele check-in",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Erken de spanning",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Geef elkaar wat ruimte",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Laat het los en ga verder",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Denk er gewoon over na",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Stuur een warm bericht",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Noem eerlijk wat er is gebeurd",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Zet je voor om de volgende keer te pauzeren",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Kies vrede boven gelijk hebben",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Denk na over wat je echt nodig hebt",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Stuur een professionele brief",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Spreek het respectvol aan",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Plan de volgende keer een rustigere reactie",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Houd het professioneel en ga verder",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Denk na over grenzen",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Neem contact op met een eenvoudige boodschap",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Erken wat er is gebeurd",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Neem de volgende keer even pauze",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Laat het voorlopig los",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Reflecteer gewoon (nog geen actie)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Contact zoeken—zelfs niet perfect—wordt bijna altijd beter ontvangen dan we verwachten.",
         "howTitle": "Begin klein",
         "howBody": "Je hoeft geen essay te schrijven. Een paar eerlijke woorden kunnen de deur openen naar herverbinding.",
-        "prompts": [
-          "Hé, ik heb aan je gedacht. Ik hoop dat het goed met je gaat.",
-          "Ik weet dat het gespannen was—ik wilde alleen zeggen dat ik om me geef.",
-          "Sorry van eerder. Kunnen we praten als je er klaar voor bent?"
-        ],
+        "prompts": {
+          "0": "Hé, ik heb aan je gedacht. Ik hoop dat het goed met je gaat.",
+          "1": "Ik weet dat het gespannen was—ik wilde alleen zeggen dat ik om me geef.",
+          "2": "Sorry van eerder. Kunnen we praten als je er klaar voor bent?"
+        },
         "promptLabel": "Kies een startpunt:",
         "editLabel": "Maak het van jou:"
       },
@@ -169,11 +169,11 @@
         "insight": "Mensen hoeven niet dat je perfect bent—ze moeten weten dat je het hebt opgemerkt.",
         "howTitle": "Noem het voorzichtig",
         "howBody": "Je kunt erkennen zonder alle schuld op je te nemen. Noem eerlijk wat er is gebeurd.",
-        "prompts": [
-          "Ik weet dat het tussen ons heet is geraakt. Ik wil dat je weet dat ik het heb gemerkt.",
-          "Ik besef dat ik misschien hard overkwam. Dat was niet mijn bedoeling.",
-          "Ik heb nagedacht over wat er is gebeurd, en ik wou dat ik het anders had aangepakt."
-        ],
+        "prompts": {
+          "0": "Ik weet dat het tussen ons heet is geraakt. Ik wil dat je weet dat ik het heb gemerkt.",
+          "1": "Ik besef dat ik misschien hard overkwam. Dat was niet mijn bedoeling.",
+          "2": "Ik heb nagedacht over wat er is gebeurd, en ik wou dat ik het anders had aangepakt."
+        },
         "promptLabel": "Kies een startpunt:",
         "editLabel": "Maak het van jou:"
       },
@@ -183,11 +183,11 @@
         "insight": "Een pauze van 6 seconden is vaak genoeg om van reactie naar reflectie te schakelen.",
         "howTitle": "🧘 Plan je pauze",
         "howBody": "Bedenk een simpel signaal—zoals ademhalen of even wegstappen—voordat je reageert.",
-        "prompts": [
-          "De volgende keer dat ik me verdrietig voel, haal ik diep adem voordat ik reageer.",
-          "Ik ga proberen te zeggen 'Geef me een moment' in plaats van meteen te reageren.",
-          "Ik ga even even afstand nemen om mijn gedachten te ordenen."
-        ],
+        "prompts": {
+          "0": "De volgende keer dat ik me verdrietig voel, haal ik diep adem voordat ik reageer.",
+          "1": "Ik ga proberen te zeggen 'Geef me een moment' in plaats van meteen te reageren.",
+          "2": "Ik ga even even afstand nemen om mijn gedachten te ordenen."
+        },
         "promptLabel": "Kies een verplichting die goed voelt:",
         "editLabel": "Schrijf je eigen intentie op:"
       },
@@ -197,11 +197,11 @@
         "insight": "Loslaten is niet opgeven—het is vrede kiezen boven gelijk hebben.",
         "howTitle": "🕊️ Laat voorzichtig los",
         "howBody": "Je hoeft het niet te vergeten. Besluit gewoon dat dit niet meer hoeft te bepalen hoe je je voelt.",
-        "prompts": [
-          "Ik kies ervoor dit los te laten—niet omdat het niet uitmaakte, maar omdat mijn rust belangrijker is.",
-          "Ik laat de behoefte los om hier gelijk in te hebben. Ik kies voor verbinding.",
-          "Deze situatie bepaalt onze relatie niet. Ik ga vooruit."
-        ],
+        "prompts": {
+          "0": "Ik kies ervoor dit los te laten—niet omdat het niet uitmaakte, maar omdat mijn rust belangrijker is.",
+          "1": "Ik laat de behoefte los om hier gelijk in te hebben. Ik kies voor verbinding.",
+          "2": "Deze situatie bepaalt onze relatie niet. Ik ga vooruit."
+        },
         "promptLabel": "Kies wat aanspreekt:",
         "editLabel": "Schrijf wat voor jou waar voelt:"
       },
@@ -211,11 +211,11 @@
         "insight": "Dagboekschrijven of zelfs nadenken over wat er is gebeurd helpt je emoties te verwerken zonder druk.",
         "howTitle": "🔍 Kijk naar binnen",
         "howBody": "Vraag jezelf af: Wat voelde ik echt onder de woede? Vaak is het pijn, angst of teleurstelling.",
-        "prompts": [
-          "Onder mijn woede denk ik dat ik me gekwetst voelde.",
-          "Ik realiseer me dat ik reageerde uit angst om niet gehoord te worden.",
-          "Wat ik echt nodig had, was me gerespecteerd en gewaardeerd voelen."
-        ],
+        "prompts": {
+          "0": "Onder mijn woede denk ik dat ik me gekwetst voelde.",
+          "1": "Ik realiseer me dat ik reageerde uit angst om niet gehoord te worden.",
+          "2": "Wat ik echt nodig had, was me gerespecteerd en gewaardeerd voelen."
+        },
         "promptLabel": "Kies wat aanspreekt:",
         "editLabel": "Schrijf je eigen reflectie:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

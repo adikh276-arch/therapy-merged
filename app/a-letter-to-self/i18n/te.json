@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "సేవ్ చేస్తోంది...",
+    "saved": "సేవ్ చేయబడింది"
   },
   "app_duration": "10-15 నిమిషాలు",
   "app_title": "నాకు నేను రాసుకున్న లేఖ",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "ప్రాంప్ట్ లు",
+  "need_inspiration": "ప్రేరణ కావాలా?",
+  "post_writing_reflection": "పోస్ట్-రైటింగ్ రిఫ్లెక్షన్",
+  "reflection_desc": "మీ భావాలను గుర్తించడం మీ ప్రయాణంలో ఒక శక్తివంతమైన దశ.",
+  "finish_save_reflection": "ఫినిష్ & సేవ్ రిఫ్లెక్షన్",
+  "lang": "పొడవు",
+  "completion_message": "మీ లేఖ సురక్షితంగా సేవ్ చేయబడింది. మీ పురోగతిని అభినందించడానికి ఒక్క క్షణం తీసుకోండి."
 }

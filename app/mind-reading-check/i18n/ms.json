@@ -3,11 +3,11 @@
   "intro": {
     "title": "Semakan Membaca Minda",
     "description": "Persoalkan andaian yang anda buat tentang apa yang orang lain fikirkan.",
-    "benefits": [
-      "Berhenti menganggap yang paling teruk",
-      "Kenal pasti tafsiran berat sebelah",
-      "Bina komunikasi yang lebih jelas"
-    ],
+    "benefits": {
+      "0": "Berhenti menganggap yang paling teruk",
+      "1": "Kenal pasti tafsiran berat sebelah",
+      "2": "Bina komunikasi yang lebih jelas"
+    },
     "duration": "3-4 minit",
     "view_past": "Lihat Refleksi Masa Lalu"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Semak kepercayaan anda",
       "desc": "Sejauh manakah anda mempercayai pemikiran asal anda sekarang?",
-      "labels": [
-        "Langsung tidak",
-        "Sepenuhnya"
-      ]
+      "labels": {
+        "0": "Langsung tidak",
+        "1": "Sepenuhnya"
+      }
     },
     "step7": {
       "title": "Pandangan yang lebih seimbang",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Lain kali",
       "desc": "Apa yang boleh anda lakukan dan bukannya mengandaikan?",
-      "examples": [
-        "Minta penjelasan",
-        "Beri sedikit masa",
-        "Notis tanpa bertindak balas"
-      ],
+      "examples": {
+        "0": "Minta penjelasan",
+        "1": "Beri sedikit masa",
+        "2": "Notis tanpa bertindak balas"
+      },
       "placeholder": "Lain kali, saya boleh..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

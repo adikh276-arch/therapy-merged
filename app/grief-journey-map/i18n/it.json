@@ -16,23 +16,23 @@
   "btn_one_more": "Un'ultima cosa",
   "screen3_tag": "Verità gentili",
   "screen3_title": "Vale la pena saperlo",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Nessuna scadenza",
       "body": "Non c'è una data di scadenza per la perdita. Sentirlo mesi o anni dopo non significa che sei bloccato — significa che hai amato."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Sentimenti contraddittori",
       "body": "Puoi sentire la mancanza di qualcuno e sentirti sollevato. Puoi ridere e piangere. Il dolore ha opposti."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "La trasformazione dell'amore",
       "body": "Il dolore non è separato dall'amore. È la stessa cosa, trasformata."
     }
-  ],
+  },
   "btn_finish": "Riflessione finale",
   "complete_title": "Viaggio Onorato",
   "complete_message": "Non devi andare avanti. Impari semplicemente a portarlo in modo diverso. Il tuo percorso è unico, valido e profondamente umano.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

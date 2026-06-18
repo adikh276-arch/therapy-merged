@@ -1,58 +1,58 @@
 {
   "app_title": "Pochopení řízení",
   "app_subtitle": "Strategie přežití • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Proč může být kontrola tak silná",
-      "paragraphs": [
-        "Pro mnoho lidí, kteří mají potíže s jídlem, může kontrola působit jako způsob, jak vytvořit bezpečí.",
-        "Když se život zdá nepředvídatelný nebo emocionálně náročný, zaměření na jídlo, váhu nebo rutiny může přinést pocit struktury a jistoty.",
-        "Nejde o vůli nebo disciplínu. Jde o to snažit se uklidnit, když je něco nejisté.",
-        "Tímto způsobem se kontrola stává strategií zvládání — něčím, co vám pomůže cítit se ukotveni, i když jen dočasně."
-      ],
+      "paragraphs": {
+        "0": "Pro mnoho lidí, kteří mají potíže s jídlem, může kontrola působit jako způsob, jak vytvořit bezpečí.",
+        "1": "Když se život zdá nepředvídatelný nebo emocionálně náročný, zaměření na jídlo, váhu nebo rutiny může přinést pocit struktury a jistoty.",
+        "2": "Nejde o vůli nebo disciplínu. Jde o to snažit se uklidnit, když je něco nejisté.",
+        "3": "Tímto způsobem se kontrola stává strategií zvládání — něčím, co vám pomůže cítit se ukotveni, i když jen dočasně."
+      },
       "microcopy": "Nejsi v tom sama, kdo to tak cítí.",
       "cta": "Pokračovat"
     },
-    {
+    "1": {
       "headline": "Různé způsoby, jak se ovládání objevuje",
       "intro": "Potřeba kontroly nevypadá u každého stejně, ale často se projevuje ve vzorcích jako:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Přísná nebo nepružná pravidla pro jídlo"
         },
-        {
+        "1": {
           "text": "Je potřeba přesně dodržovat rutiny"
         },
-        {
+        "2": {
           "text": "Úzkost, když se plány mění"
         },
-        {
+        "3": {
           "text": "Propojení sebehodnoty s tvarem/váhou"
         }
-      ],
+      },
       "outro": "Postupem času se tyto systémy mohou stát rigidními, zabírají mentální prostor a ztěžují přizpůsobení.",
       "microcopy": "To, co začíná jako kontrola, se pomalu může začít působit jako kontrolující.",
       "cta": "Pokračovat"
     },
-    {
+    "2": {
       "headline": "Pod kontrolou",
       "intro": "Touha kontrolovat má často hlubší kořeny. Může být propojen k:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Pocit emocionálního zaplavení"
         },
-        {
+        "1": {
           "text": "Touha po předvídatelnosti"
         },
-        {
+        "2": {
           "text": "Potřeba stability a bezpečí"
         }
-      ],
+      },
       "insight": "Kontrola není problém — je to strategie, kterou vaše mysl našla, jak se s tím vyrovnat. S časem a podporou jsou možné najít i jiné způsoby, jak se cítit v bezpečí.",
       "microcopy": "Porozumění je silný první krok.",
       "cta": "Dokončit čtení"
     }
-  ],
+  },
   "complete": {
     "title": "Získané povědomí",
     "message": "Pochopení kořenů kontroly je odvážný první krok k nalezení nových způsobů, jak se cítit bezpečně a stabilně.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Le cycle",
       "title": "La boucle expliquait",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "La colère remonte à la surface"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Honte : « Je suis méchant »"
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "La honte est enterrée"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "La colère éclate à nouveau"
         }
-      ],
+      },
       "button": "Je le vois"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Interruption",
       "title": "Interrompre le cycle",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Nommer la source",
           "desc": "Demandez : « Qu’est-ce que je ressens réellement ? » Blessé ? Peur ? Invisible ? Le nommer l’affaiblit."
         },
-        {
+        "1": {
           "title": "Pause de compassion",
           "desc": "Main sur la poitrine. Dis : « C’est difficile. Je suis humain. Je peux m’en sortir. »"
         },
-        {
+        "2": {
           "title": "Réparer avec grâce",
           "desc": "Faites amende honorable si besoin — mais ne vous perdez pas dans la spirale. Tu n’es pas ton pire moment."
         }
-      ],
+      },
       "notice": "Remarquer le cycle est déjà la première étape. Tu fais le travail.",
       "button": "Activité complète"
     }
@@ -120,5 +120,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

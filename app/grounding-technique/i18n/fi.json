@@ -213,5 +213,7 @@
   "yes": "Kyllä",
   "no": "Ei",
   "date": "Päivämäärä",
-  "continue": "Jatka"
+  "continue": "Jatka",
+  "lang": "pitkä",
+  "Next Step": "Seuraava askel"
 }

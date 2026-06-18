@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Saving...",
+    "saved": "Saved"
   },
   "app_duration": "10-15 minuto",
   "app_title": "Liham para sa Sarili",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "prompts",
+  "need_inspiration": "Need Inspiration?",
+  "post_writing_reflection": "Post-Writing Reflection",
+  "reflection_desc": "Acknowledging your feelings is a powerful step in your journey.",
+  "finish_save_reflection": "Finish & Save Reflection",
+  "lang": "lang",
+  "completion_message": "Your letter has been saved safely. Take a moment to appreciate your progress."
 }

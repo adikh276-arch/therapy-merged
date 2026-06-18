@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "שאף...",
+  "hold_label": "חכה...",
+  "exhale_label": "נשיפה...",
+  "start": "מוכן",
+  "stop": "עצור",
+  "begin_breathing": "התחל לנשום",
+  "lang": "ארוך"
 }

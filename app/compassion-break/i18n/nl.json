@@ -1,14 +1,14 @@
 {
   "app_title": "Compassiepauze",
-  "screen_titles": [
-    "Inchecken",
-    "Identificeer",
-    "Ademhaling",
-    "Vriendelijkheid",
-    "Shift",
-    "Reflecteer",
-    "Volledig"
-  ],
+  "screen_titles": {
+    "0": "Inchecken",
+    "1": "Identificeer",
+    "2": "Ademhaling",
+    "3": "Vriendelijkheid",
+    "4": "Shift",
+    "5": "Reflecteer",
+    "6": "Volledig"
+  },
   "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
   "save_success": "Reflectie bewaard",
   "save_error": "Niet in staat de reflectie te behouden",
@@ -25,14 +25,14 @@
   "continue_button": "Ga verder",
   "nameit_title": "Zet het in woorden",
   "nameit_subtitle": "Op dit moment voel ik me _______",
-  "emotions_list": [
-    "Bezorgd",
-    "schuldig",
-    "Overweldigd",
-    "Tijd",
-    "moe",
-    "Triest"
-  ],
+  "emotions_list": {
+    "0": "Bezorgd",
+    "1": "schuldig",
+    "2": "Overweldigd",
+    "3": "Tijd",
+    "4": "moe",
+    "5": "Triest"
+  },
   "label_custom_emotion": "of typ je eigen",
   "placeholder_emotion": "1–2 woorden",
   "nameit_footer": "Simpel is genoeg.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro": {
+    "view_past": "Bekijk eerdere sessies"
+  },
+  "history": {
+    "title": "Geschiedenis van Zelfcompassie",
+    "no_entries": "Geen eerdere pauzelogboeken gevonden."
+  },
+  "loading": "Laadgeschiedenis..."
 }

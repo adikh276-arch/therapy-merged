@@ -1,58 +1,58 @@
 {
   "app_title": "Ohjauksen ymmärtäminen",
   "app_subtitle": "Selviytymisstrategia • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Miksi kontrolli voi tuntua niin voimakkaalta",
-      "paragraphs": [
-        "Monille syömisvaikeuksista kärsiville hallinta voi tuntua keinolta luoda turvaa.",
-        "Kun elämä tuntuu arvaamattomalta tai emotionaalisesti intensiiviseltä, keskittyminen ruokaan, painoon tai rutiineihin voi tuoda rakenteen ja varmuuden tunteen.",
-        "Tässä ei ole kyse tahdonvoimasta tai kurinalaisuudesta. Kyse on siitä, että yrität tasapainottaa itsensä, kun asiat tuntuvat epävarmoilta.",
-        "Näin kontrollista tulee selviytymiskeino — jotain, joka auttaa sinua tuntemaan olosi maadoittuneeksi, vaikkakin vain väliaikaisesti."
-      ],
+      "paragraphs": {
+        "0": "Monille syömisvaikeuksista kärsiville hallinta voi tuntua keinolta luoda turvaa.",
+        "1": "Kun elämä tuntuu arvaamattomalta tai emotionaalisesti intensiiviseltä, keskittyminen ruokaan, painoon tai rutiineihin voi tuoda rakenteen ja varmuuden tunteen.",
+        "2": "Tässä ei ole kyse tahdonvoimasta tai kurinalaisuudesta. Kyse on siitä, että yrität tasapainottaa itsensä, kun asiat tuntuvat epävarmoilta.",
+        "3": "Näin kontrollista tulee selviytymiskeino — jotain, joka auttaa sinua tuntemaan olosi maadoittuneeksi, vaikkakin vain väliaikaisesti."
+      },
       "microcopy": "Et ole yksin, joka tuntee näin.",
       "cta": "Jatka"
     },
-    {
+    "1": {
       "headline": "Erilaiset tavat kontrollin ilmenemismuodot",
       "intro": "Hallinnan tarve ei näytä samalta kaikille, mutta se ilmenee usein kuvioissa kuten:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Tiukat tai joustamattomat ruokasäännöt"
         },
-        {
+        "1": {
           "text": "Täytyy noudattaa rutiineja tarkasti"
         },
-        {
+        "2": {
           "text": "Ahdistus, kun suunnitelmat muuttuvat"
         },
-        {
+        "3": {
           "text": "Itsetunnon yhdistäminen muotoon/painoon"
         }
-      ],
+      },
       "outro": "Ajan myötä nämä voivat jäykistyä, viedä henkistä tilaa ja vaikeuttaa sopeutumista.",
       "microcopy": "Se, mikä alkaa kontrollina, voi vähitellen alkaa tuntua kontrolloivalta.",
       "cta": "Jatka"
     },
-    {
+    "2": {
       "headline": "Ohjauksen alla",
       "intro": "Kontrollin tarve on usein syvemmällä juurilla. Se voidaan yhdistää:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Tunne tunteiden tulvassa"
         },
-        {
+        "1": {
           "text": "Halu ennustettavuuteen"
         },
-        {
+        "2": {
           "text": "Tarve vakaudelle ja turvallisuudelle"
         }
-      ],
+      },
       "insight": "Kontrolli ei ole ongelma — se on strategia, jonka mielesi on löytänyt selviytyäkseen. Ajan ja tuen myötä on muitakin tapoja tuntea olo turvalliseksi.",
       "microcopy": "Ymmärtäminen on voimakas ensimmäinen askel.",
       "cta": "Viimeistele lukeminen"
     }
-  ],
+  },
   "complete": {
     "title": "Tietoisuuden lisääminen",
     "message": "Kontrollin juurien ymmärtäminen on rohkea ensimmäinen askel kohti uusien tapojen löytämistä tuntea olonsa turvalliseksi ja vakaaksi.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

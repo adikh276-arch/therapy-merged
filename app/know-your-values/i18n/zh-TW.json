@@ -29,7 +29,8 @@
     "historyDesc": "您之前的思考記錄會保存在這裡，您可以隨時查看。",
     "noHistory": "你還沒有完成價值觀反思。",
     "startActivity": "開始活動",
-    "startNew": "開始新的反思"
+    "startNew": "開始新的反思",
+    "aligned": "對齊"
   },
   "values": {
     "Family": "家庭",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  "app_duration": "5分鐘",
+  "loading": "載入反射......"
 }

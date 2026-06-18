@@ -39,7 +39,10 @@
         "Monitor your mood patterns",
         "View history and progress"
       ],
-      "duration": "2-3 minutes"
+      "duration": "2-3 minutes",
+      "benefit1": "Log daily physical and mental wellness acts",
+      "benefit2": "Notice challenges keeping you from rest",
+      "benefit3": "Build mindfulness through positive reinforcement"
     },
     "checkin": {
       "title": "Self-Care Check-In 🌿",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

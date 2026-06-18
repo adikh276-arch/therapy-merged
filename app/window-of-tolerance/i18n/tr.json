@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Pencerenizin Üstünde",
         "subtitle": "Sinir sisteminiz aşırı hızda. Sorun değil. Seni nazikçe geri getirelim.",
-        "feelings": [
-          "Hızla atan kalp",
-          "Sığ nefes alma",
-          "Panik mi öfke",
-          "Hızla düşünceler",
-          "Huzursuzluk"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Hızla atan kalp",
+          "1": "Sığ nefes alma",
+          "2": "Panik mi öfke",
+          "3": "Hızla düşünceler",
+          "4": "Huzursuzluk"
+        },
+        "tools": {
+          "0": {
             "name": "Kutu Nefes Alma",
             "desc": "Nefes alın 4, ay 4, nefes verin 4, ay 4. Dört kez tekrarlayın."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Karaya Düşme",
             "desc": "5 şey görüyor, 4 dokunuyor, 3 duyuyor, 2 koku, 1 tat."
           },
-          {
+          "2": {
             "name": "Ayaklar Yere Düşer",
             "desc": "Ayaklarını bastırıp şöyle de: 'Buradayım. Güvendeyim. Bu geçecek.'"
           }
-        ],
+        },
         "button": "Kendimi biraz daha sakin hissediyorum →",
         "footer": "Güvendesin. Acele etme."
       },
       "hypo": {
         "title": "Pencerenizin Altında",
         "subtitle": "Sinir sistemin sessizleşti. Seni koruyor. Nazikçe tekrar uyandıralım.",
-        "feelings": [
-          "Uyuşukluk",
-          "Bağlantı Kopması",
-          "Aşırı yorgunluk",
-          "Gerçek dışı hissediyorum",
-          "Düzlük"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Uyuşukluk",
+          "1": "Bağlantı Kopması",
+          "2": "Aşırı yorgunluk",
+          "3": "Gerçek dışı hissediyorum",
+          "4": "Düzlük"
+        },
+        "tools": {
+          "0": {
             "name": "Nazik Hareket",
             "desc": "Ayağa kalk, yavaşça yürü, kollarını salla. Vücudunun uyanmasına izin ver."
           },
-          {
+          "1": {
             "name": "Ritmik Ses",
             "desc": "Düzenli ritimli müzik çal, ayaklarını hafifçe vur."
           },
-          {
+          "2": {
             "name": "Yüksek Sesle Konuş",
             "desc": "Adını, konumunu, bugünün tarihini yüksek sesle söyle. Düşünen beynini yeniden devreye sok."
           }
-        ],
+        },
         "button": "Kendimi biraz daha hazır hissediyorum →",
         "footer": "Harika gidiyorsun. Adım adım ilerle."
       },
       "safe": {
         "title": "Pencerenizin İçeri",
         "subtitle": "Güvenli bölgendesin. İşte iyileşme, bağlantı ve büyüme burada gerçekleşir. Aferin.",
-        "feelings": [
-          "Günümüzde ve farkında",
-          "Düzenli nefes alma",
-          "Açık düşünce",
-          "Bağlantılı"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Günümüzde ve farkında",
+          "1": "Düzenli nefes alma",
+          "2": "Açık düşünce",
+          "3": "Bağlantılı"
+        },
+        "tools": {
+          "0": {
             "name": "Yavaş Nefes Alma",
             "desc": "Burundan girin, ağızdan dışarı."
           },
-          {
+          "1": {
             "name": "Yansıt",
             "desc": "Burada kalmanıza ne yardımcı oldu? Yaz."
           },
-          {
+          "2": {
             "name": "Öz-Şefkat",
             "desc": "'Sinir sistemim işini yapıyordu. Ben kırık değilim. İyileşiyorum.'"
           }
-        ],
+        },
         "button": "Araç Set'im'e devam →",
         "footer": "Sen bakıma ve iyileşmeye layıksın."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Kişisel Araç Setiniz",
       "subtitle": "Başvurduğunuz araçlar — ihtiyacınız olduğunda saklanır ve hazır olur.",
-      "tools_list": [
-        "🌬️ Kutu Nefes Alma",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Ayaklar Yere Düşer",
-        "🚶 Nazik Hareket",
-        "🎵 Müzik",
-        "💬 Yüksek Sesle Konuş"
-      ],
+      "tools_list": {
+        "0": "🌬️ Kutu Nefes Alma",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Ayaklar Yere Düşer",
+        "3": "🚶 Nazik Hareket",
+        "4": "🎵 Müzik",
+        "5": "💬 Yüksek Sesle Konuş"
+      },
       "journal_label": "📝 Bugünün Yansıması",
       "journal_desc": "Bugün sinir sisteminizin bir kez değiştiğini fark ettiğiniz an neydi — ve bununla ilgili ne yaptınız?",
       "journal_placeholder": "Buraya yaz...",
@@ -156,13 +156,13 @@
       "preserve_button": "Yansıtmayı Koruyun"
     }
   },
-  "nav": [
-    "Check-in",
-    "Açıklama",
-    "İzleme",
-    "Bölge",
-    "Araç Seti"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Açıklama",
+    "2": "İzleme",
+    "3": "Bölge",
+    "4": "Araç Seti"
+  },
   "history": {
     "title": "Check-in Tarihi",
     "empty": "Henüz kontrol yok."
@@ -176,15 +176,15 @@
     "title": "Check-in tamamlandı",
     "message": "Mevcut durumunuzu başarıyla haritaladınız. Farkındalık oluşturmak, dengenizi bulmanın ilk adımıdır."
   },
-  "days": [
-    "Aman",
-    "Salı",
-    "Çarşamba",
-    "Sonbahar",
-    "Cuma",
-    "Cumartesi",
-    "Güneş"
-  ],
+  "days": {
+    "0": "Aman",
+    "1": "Salı",
+    "2": "Çarşamba",
+    "3": "Sonbahar",
+    "4": "Cuma",
+    "5": "Cumartesi",
+    "6": "Güneş"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Baştan Başla",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

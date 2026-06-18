@@ -173,5 +173,10 @@
   "yes": "네",
   "no": "아니",
   "date": "날짜",
-  "continue": "계속"
+  "continue": "계속",
+  "lang": "길게",
+  "how_long": "얼마나 걸렸는지 ",
+  "you_sleep": "자.",
+  "where": "여기서 ",
+  "you_wake_up": "수면 주기 안에 깨어납니다."
 }

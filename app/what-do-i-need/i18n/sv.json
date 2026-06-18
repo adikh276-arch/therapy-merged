@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Emotionellt stöd",
       "prompt": "Vilken typ av stöd skulle faktiskt hjälpa dig just nu?",
-      "hints": [
-        "Jag behöver bara någon att...",
-        "Det skulle hjälpa om...",
-        "Det jag verkligen vill är..."
-      ]
+      "hints": {
+        "0": "Jag behöver bara någon att...",
+        "1": "Det skulle hjälpa om...",
+        "2": "Det jag verkligen vill är..."
+      }
     },
     "Space / time for myself": {
       "label": "Utrymme / tid för mig själv",
       "prompt": "Hur skulle det se ut för dig att ha det utrymmet?",
-      "hints": [
-        "Jag skulle använda den tiden till att...",
-        "Rymden skulle låta mig...",
-        "Jag behöver plats för att..."
-      ]
+      "hints": {
+        "0": "Jag skulle använda den tiden till att...",
+        "1": "Rymden skulle låta mig...",
+        "2": "Jag behöver plats för att..."
+      }
     },
     "Clear communication": {
       "label": "Tydlig kommunikation",
       "prompt": "Hur skulle tydligare kommunikation se ut för dig?",
-      "hints": [
-        "Jag önskar att jag kunde säga...",
-        "Om de verkligen lyssnade, skulle jag säga till dem...",
-        "Kommunikationen känns svår när..."
-      ]
+      "hints": {
+        "0": "Jag önskar att jag kunde säga...",
+        "1": "Om de verkligen lyssnade, skulle jag säga till dem...",
+        "2": "Kommunikationen känns svår när..."
+      }
     },
     "Reassurance": {
       "label": "Trygghet",
       "prompt": "Vilken sorts beröring skulle kännas meningsfull?",
-      "hints": [
-        "Jag måste höra det...",
-        "Det skulle lugna mig att veta...",
-        "Jag oroar mig hela tiden för att..."
-      ]
+      "hints": {
+        "0": "Jag måste höra det...",
+        "1": "Det skulle lugna mig att veta...",
+        "2": "Jag oroar mig hela tiden för att..."
+      }
     },
     "Understanding": {
       "label": "Förståelse",
       "prompt": "Hur skulle känslan av att verkligen förstå sig se ut?",
-      "hints": [
-        "Jag önskar att folk visste det...",
-        "Det jag verkligen känner är...",
-        "Ingen ser att jag..."
-      ]
+      "hints": {
+        "0": "Jag önskar att folk visste det...",
+        "1": "Det jag verkligen känner är...",
+        "2": "Ingen ser att jag..."
+      }
     },
     "Stability": {
       "label": "Stabilitet",
       "prompt": "Hur skulle stabilitet kännas i ditt liv just nu?",
-      "hints": [
-        "Jag behöver att saker känns...",
-        "Det som skulle förankra mig är...",
-        "Stabilitet betyder..."
-      ]
+      "hints": {
+        "0": "Jag behöver att saker känns...",
+        "1": "Det som skulle förankra mig är...",
+        "2": "Stabilitet betyder..."
+      }
     },
     "Honesty": {
       "label": "Ärlighet",
       "prompt": "Hur skulle mer ärlighet se ut i din situation?",
-      "hints": [
-        "Sanningen jag måste möta är...",
-        "Jag vill vara ärlig om...",
-        "Det som egentligen pågår är..."
-      ]
+      "hints": {
+        "0": "Sanningen jag måste möta är...",
+        "1": "Jag vill vara ärlig om...",
+        "2": "Det som egentligen pågår är..."
+      }
     },
     "Respect": {
       "label": "Respekt",
       "prompt": "Hur ser respekt ut för dig just nu?",
-      "hints": [
-        "Jag förtjänar att bli behandlad...",
-        "Respekt skulle se ut som...",
-        "Jag behöver folk att..."
-      ]
+      "hints": {
+        "0": "Jag förtjänar att bli behandlad...",
+        "1": "Respekt skulle se ut som...",
+        "2": "Jag behöver folk att..."
+      }
     },
     "Clarity about relationship": {
       "label": "Tydlighet kring relationen",
       "prompt": "Vilken sorts klarhet skulle hjälpa dig mest?",
-      "hints": [
-        "Jag måste veta om...",
-        "Det som förvirrar mig är...",
-        "Jag vill att vi ska vara tydliga om..."
-      ]
+      "hints": {
+        "0": "Jag måste veta om...",
+        "1": "Det som förvirrar mig är...",
+        "2": "Jag vill att vi ska vara tydliga om..."
+      }
     },
     "default": {
       "prompt": "Hur skulle detta se ut i en verklig situation?",
-      "hints": [
-        "Det jag kommer att tänka på är...",
-        "Just nu känner jag mig...",
-        "Om jag ska vara ärlig mot mig själv..."
-      ]
+      "hints": {
+        "0": "Det jag kommer att tänka på är...",
+        "1": "Just nu känner jag mig...",
+        "2": "Om jag ska vara ärlig mot mig själv..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Säg något ärligt"
     },
-    {
+    "1": {
       "label": "Ta tid för mig själv"
     },
-    {
+    "2": {
       "label": "Kontakta någon"
     },
-    {
+    "3": {
       "label": "Sätt en liten gräns"
     },
-    {
+    "4": {
       "label": "Inte säker än"
     }
-  ],
+  },
   "history": {
     "title": "Tidigare reflektioner",
     "empty": "Inga reflektioner än."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

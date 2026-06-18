@@ -31,114 +31,114 @@
     "safety": "Du behöver inte fixa allt—välj bara ett litet steg.",
     "button": "Prova det här →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Skicka en avslappnad incheckning",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Erkänn spänningen",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Ge varandra lite utrymme",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Släpp det och gå vidare",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Tänk bara på det",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Skicka ett varmt budskap",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Nämn vad som hände ärligt",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Bestäm dig för att pausa nästa gång",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Välj fred framför att ha rätt",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Reflektera över vad du verkligen behöver",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Skicka ett professionellt meddelande",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Ta det upp med respekt",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Planera ett lugnare svar nästa gång",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Håll det professionellt och gå vidare",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Tänk på gränser",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Hör av dig med ett enkelt meddelande",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Erkänn vad som hände",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Ta en paus nästa gång",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Låt det vara för nu",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Reflektera bara (ingen handling än)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Att nå ut – även om det inte är perfekt – tas nästan alltid emot bättre än vi förväntar oss.",
         "howTitle": "Börja smått",
         "howBody": "Du behöver inte skriva en uppsats. Några ärliga ord kan öppna dörren till återkontakt.",
-        "prompts": [
-          "Hej, jag har tänkt på dig. Hoppas du mår bra.",
-          "Jag vet att det var spänt – ville bara säga att jag bryr mig.",
-          "Jag är ledsen för tidigare. Kan vi prata när du är redo?"
-        ],
+        "prompts": {
+          "0": "Hej, jag har tänkt på dig. Hoppas du mår bra.",
+          "1": "Jag vet att det var spänt – ville bara säga att jag bryr mig.",
+          "2": "Jag är ledsen för tidigare. Kan vi prata när du är redo?"
+        },
         "promptLabel": "Välj en startpunkt:",
         "editLabel": "Gör den till din:"
       },
@@ -169,11 +169,11 @@
         "insight": "Folk behöver inte att du är perfekt – de behöver veta att du har lagt märke till det.",
         "howTitle": "Namnge det försiktigt",
         "howBody": "Du kan erkänna utan att ta på dig all skuld. Säg bara vad som hände ärligt.",
-        "prompts": [
-          "Jag vet att det blev hett mellan oss. Jag vill att du ska veta att jag märkte det.",
-          "Jag inser att jag kanske uppfattades som hård. Det var inte min avsikt.",
-          "Jag har reflekterat över vad som hände, och jag önskar att jag hade hanterat det annorlunda."
-        ],
+        "prompts": {
+          "0": "Jag vet att det blev hett mellan oss. Jag vill att du ska veta att jag märkte det.",
+          "1": "Jag inser att jag kanske uppfattades som hård. Det var inte min avsikt.",
+          "2": "Jag har reflekterat över vad som hände, och jag önskar att jag hade hanterat det annorlunda."
+        },
         "promptLabel": "Välj en startpunkt:",
         "editLabel": "Gör den till din:"
       },
@@ -183,11 +183,11 @@
         "insight": "En 6-sekunders paus räcker ofta för att växla från reaktion till reflektion.",
         "howTitle": "🧘 Planera din paus",
         "howBody": "Tänk på en enkel signal – som att ta ett andetag eller ta ett kort steg bort – innan du svarar.",
-        "prompts": [
-          "Nästa gång jag känner mig upprörd ska jag ta ett djupt andetag innan jag svarar.",
-          "Jag ska försöka säga 'Ge mig en stund' istället för att reagera direkt.",
-          "Jag tar ett steg bort några minuter för att samla mina tankar."
-        ],
+        "prompts": {
+          "0": "Nästa gång jag känner mig upprörd ska jag ta ett djupt andetag innan jag svarar.",
+          "1": "Jag ska försöka säga 'Ge mig en stund' istället för att reagera direkt.",
+          "2": "Jag tar ett steg bort några minuter för att samla mina tankar."
+        },
         "promptLabel": "Välj ett åtagande som känns rätt:",
         "editLabel": "Skriv din egen avsikt:"
       },
@@ -197,11 +197,11 @@
         "insight": "Att släppa taget är inte att ge upp—det är att välja frid framför att ha rätt.",
         "howTitle": "🕊️ Släpp försiktigt",
         "howBody": "Du behöver inte glömma. Bestäm dig bara för att detta inte längre behöver styra hur du känner.",
-        "prompts": [
-          "Jag väljer att släppa det här – inte för att det inte spelade någon roll, utan för att min frid betyder mer.",
-          "Jag släpper behovet av att ha rätt om detta. Jag väljer kontakt.",
-          "Den här situationen definierar inte vår relation. Jag går framåt."
-        ],
+        "prompts": {
+          "0": "Jag väljer att släppa det här – inte för att det inte spelade någon roll, utan för att min frid betyder mer.",
+          "1": "Jag släpper behovet av att ha rätt om detta. Jag väljer kontakt.",
+          "2": "Den här situationen definierar inte vår relation. Jag går framåt."
+        },
         "promptLabel": "Välj vad som känns rätt:",
         "editLabel": "Skriv vad som känns sant för dig:"
       },
@@ -211,11 +211,11 @@
         "insight": "Att skriva dagbok eller till och med fundera igenom vad som hände hjälper dig att bearbeta känslor utan press.",
         "howTitle": "🔍 Titta inåt",
         "howBody": "Fråga dig själv: Vad kände jag egentligen under ilskan? Ofta är det sårad, rädsla eller besvikelse.",
-        "prompts": [
-          "Under min ilska tror jag att jag kände mig sårad.",
-          "Jag inser att jag reagerade av rädsla för att inte bli hörd.",
-          "Det jag verkligen behövde var att känna mig respekterad och värderad."
-        ],
+        "prompts": {
+          "0": "Under min ilska tror jag att jag kände mig sårad.",
+          "1": "Jag inser att jag reagerade av rädsla för att inte bli hörd.",
+          "2": "Det jag verkligen behövde var att känna mig respekterad och värderad."
+        },
         "promptLabel": "Välj vad som känns rätt:",
         "editLabel": "Skriv din egen reflektion:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

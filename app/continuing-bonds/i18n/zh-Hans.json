@@ -31,37 +31,37 @@
   "auth_error": "身份验证会话缺失或数据库未配置",
   "save_success": "键反射得以保留",
   "save_error": "未能保留反射",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "透过回忆",
       "prompt": "你能分享一段让你感受到他们存在的记忆吗？",
       "deeper": "他们身上有什么特质让你印象最深刻？"
     },
-    {
+    "1": {
       "label": "在我所说或所做的事情中",
       "prompt": "你在日常生活中保留了其中的哪些部分？",
       "deeper": "这在你的生活中是如何体现的？"
     },
-    {
+    "2": {
       "label": "在我日常生活的点点滴滴中",
       "prompt": "你一天中什么时候会感到他们很亲近？",
       "deeper": "他们身上有什么特质让你印象最深刻？"
     },
-    {
+    "3": {
       "label": "我仍然想告诉他们",
       "prompt": "你还有什么想对他们说的吗？",
       "deeper": "你现在最想让他们知道什么？"
     },
-    {
+    "4": {
       "label": "在一种感觉或存在中",
       "prompt": "他们的存在感在你身上还有怎样的体现？",
       "deeper": "这在你的生活中是如何体现的？"
     }
-  ],
-  "bond_prompts": [
-    "今天，你觉得和他们之间有什么小小的联系？",
-    "你做的哪些事情承载着他们的一部分记忆？"
-  ],
+  },
+  "bond_prompts": {
+    "0": "今天，你觉得和他们之间有什么小小的联系？",
+    "1": "你做的哪些事情承载着他们的一部分记忆？"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "重新开始",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你确定要删除这个倒影吗？"
   },
   "app_description": "持续债券",
   "past_reflections": "过往的反思",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长"
 }

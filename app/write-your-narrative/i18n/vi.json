@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Hãy thực hiện điều này từng bước một. 💛",
-    "description": [
-      "Bạn không cần phải kể toàn bộ câu chuyện của mình ngày hôm nay. Chỉ cần một phần nhỏ là đủ.",
-      "Bạn đang an toàn ngay bây giờ. Bạn kiểm soát những gì bạn viết — và những gì bạn không."
-    ],
+    "description": {
+      "0": "Bạn không cần phải kể toàn bộ câu chuyện của mình ngày hôm nay. Chỉ cần một phần nhỏ là đủ.",
+      "1": "Bạn đang an toàn ngay bây giờ. Bạn kiểm soát những gì bạn viết — và những gì bạn không."
+    },
     "breath": "Hít thở chậm trước khi chúng ta bắt đầu.",
     "button_ready": "Tôi đã sẵn sàng",
     "button_history": "Tường thuật trong quá khứ",
@@ -21,20 +21,20 @@
     "title": "Viết những gì cảm thấy ổn ✨",
     "subtitle": "Lời nói của bạn, tốc độ của bạn",
     "prompt_label": "Cần một điểm khởi đầu?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Điều tôi nhớ nhất là...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Lúc đó, tôi cảm thấy...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Kể từ đó, tôi nhận thấy...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Bắt đầu viết ở đây...",
     "notice": "Không có cách nào đúng để làm điều này. Chỉ cần một vài dòng là đủ.",
     "button": "Kết thúc bài viết"
@@ -43,10 +43,10 @@
     "title": "Bạn đã làm điều gì đó quan trọng.",
     "subtitle": "Cảm ơn bạn đã xuất hiện cho chính mình.",
     "settle_title": "Hãy dành một chút thời gian để giải quyết",
-    "steps": [
-      "Nhìn xung quanh và kể tên 3 thứ bạn có thể thấy.",
-      "Hít một hơi chậm vào... và ra ngoài."
-    ],
+    "steps": {
+      "0": "Nhìn xung quanh và kể tên 3 thứ bạn có thể thấy.",
+      "1": "Hít một hơi chậm vào... và ra ngoài."
+    },
     "feeling_label": "Ngay bây giờ, tôi cảm thấy:",
     "feeling_placeholder": "Một hoặc hai từ...",
     "quote": "\"Bạn không cần phải mang theo mọi thứ cùng một lúc. Bạn có thể quay lại bất cứ khi nào bạn cảm thấy sẵn sàng.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

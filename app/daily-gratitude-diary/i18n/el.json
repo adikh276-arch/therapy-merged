@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "μακρύς",
+  "entry_x": "Είσοδος #",
+  "loading": "Φόρτωση...",
+  "delete": "Διαγραφή"
 }

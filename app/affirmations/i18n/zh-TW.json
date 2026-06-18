@@ -188,11 +188,11 @@
   "app_description": "Reshape your mindset through daily affirmations.",
   "intro": {
     "description": "Daily affirmations help reshape your mindset and build emotional resilience. Take a few moments to focus on positive thoughts and Speak kindly to yourself.",
-    "benefits": [
-      "Find peace in difficult moments",
-      "Challenge negative thought patterns",
-      "Build self-compassion and strength"
-    ]
+    "benefits": {
+      "0": "Find peace in difficult moments",
+      "1": "Challenge negative thought patterns",
+      "2": "Build self-compassion and strength"
+    }
   },
   "affirmation_for": "Affirmation for",
   "affirmation": "Affirmation",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "你感覺怎麼樣？",
+  "feelings_subheading": "選擇你所擁有的情緒",
+  "lang": "長篇"
 }

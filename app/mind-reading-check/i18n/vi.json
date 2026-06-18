@@ -3,11 +3,11 @@
   "intro": {
     "title": "Kiểm tra đọc suy nghĩ",
     "description": "Đặt câu hỏi về những giả định bạn đưa ra về những gì người khác đang nghĩ.",
-    "benefits": [
-      "Ngừng giả định điều tồi tệ nhất",
-      "Xác định cách giải thích thiên vị",
-      "Xây dựng giao tiếp rõ ràng hơn"
-    ],
+    "benefits": {
+      "0": "Ngừng giả định điều tồi tệ nhất",
+      "1": "Xác định cách giải thích thiên vị",
+      "2": "Xây dựng giao tiếp rõ ràng hơn"
+    },
     "duration": "3-4 phút",
     "view_past": "Xem phản ánh trong quá khứ"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Kiểm tra niềm tin của bạn",
       "desc": "Bây giờ bạn tin tưởng vào suy nghĩ ban đầu của mình mạnh mẽ như thế nào?",
-      "labels": [
-        "Không hề",
-        "Hoàn toàn"
-      ]
+      "labels": {
+        "0": "Không hề",
+        "1": "Hoàn toàn"
+      }
     },
     "step7": {
       "title": "Một cái nhìn cân bằng hơn",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Lần sau",
       "desc": "Bạn có thể làm gì thay vì giả định?",
-      "examples": [
-        "Yêu cầu làm rõ",
-        "Hãy cho nó một chút thời gian",
-        "Thông báo mà không phản ứng"
-      ],
+      "examples": {
+        "0": "Yêu cầu làm rõ",
+        "1": "Hãy cho nó một chút thời gian",
+        "2": "Thông báo mà không phản ứng"
+      },
       "placeholder": "Lần tới, tôi có thể..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

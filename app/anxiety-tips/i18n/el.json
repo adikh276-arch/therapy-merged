@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Εισπνεύστε...",
+  "hold_label": "Κρατήστε...",
+  "exhale_label": "Εκπνεύστε...",
+  "start": "Ετοιμος",
+  "stop": "Σταμάτα",
+  "begin_breathing": "Αρχίστε να αναπνέετε",
+  "lang": "μακρύς"
 }

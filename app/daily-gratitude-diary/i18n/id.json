@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "panjang",
+  "entry_x": "Entri #",
+  "loading": "Memuat...",
+  "delete": "Hapus"
 }

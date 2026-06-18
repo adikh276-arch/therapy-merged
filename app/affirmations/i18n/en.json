@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "How are you feeling?",
+  "feelings_subheading": "Select the emotion you",
+  "lang": "lang"
 }

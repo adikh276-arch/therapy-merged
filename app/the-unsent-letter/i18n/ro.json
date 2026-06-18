@@ -3,39 +3,40 @@
   "app_subtitle": "Eliberează-ți gândurile în siguranță și în privat",
   "intro": {
     "title": "Scrisoarea netrimisă",
-    "description": [
-      "Uneori, există lucruri pe care ne-am dori să le putem spune — dar pe care nu le-am avut niciodată ocazia.",
-      "Poate pentru că nu se simțea în siguranță, momentul nu era potrivit sau cuvintele erau prea greu de rostit cu voce tare.",
-      "Această activitate îți oferă un spațiu privat în care să pui aceste gânduri în cuvinte.",
-      "Nu trebuie să trimiți această scrisoare. Este doar pentru tine — să-ți exprimi, să eliberezi și să-ți înțelegi mai bine sentimentele."
-    ],
+    "description": {
+      "0": "Uneori, există lucruri pe care ne-am dori să le putem spune — dar pe care nu le-am avut niciodată ocazia.",
+      "1": "Poate pentru că nu se simțea în siguranță, momentul nu era potrivit sau cuvintele erau prea greu de rostit cu voce tare.",
+      "2": "Această activitate îți oferă un spațiu privat în care să pui aceste gânduri în cuvinte.",
+      "3": "Nu trebuie să trimiți această scrisoare. Este doar pentru tine — să-ți exprimi, să eliberezi și să-ți înțelegi mai bine sentimentele."
+    },
     "notice": "Scrie liber. Nimeni altcineva nu va vedea asta.",
     "button": "Începe să scrii →"
   },
   "writing": {
     "title": "Scrie ce ai ținut în tine",
     "desc": "Poți scrie partenerului, fostului partener sau chiar relației în sine. Nu există o modalitate corectă sau greșită de a face asta.",
-    "prompts": [
-      "Mă simt...",
-      "Mi-aș dori...",
-      "N-am spus niciodată...",
-      "Ce m-a rănit...",
-      "Ce aveam nevoie..."
-    ],
+    "prompts": {
+      "0": "Mă simt...",
+      "1": "Mi-aș dori...",
+      "2": "N-am spus niciodată...",
+      "3": "Ce m-a rănit...",
+      "4": "Ce aveam nevoie..."
+    },
     "placeholder": "Dragă ____,\nAm vrut să spun...",
     "notice": "Poți să pui pauză și să revii oricând.",
     "button": "Continuă →"
   },
   "reflection": {
     "title": "Ia-ți un moment cu asta",
-    "description": [
-      "Tocmai ți-ai pus gândurile și sentimentele în cuvinte — asta cere curaj.",
-      "S-ar putea să observi un amestec de emoții chiar acum, și este complet în regulă.",
-      "Înainte să mergi mai departe, respiră adânc și verifică-te ușor cu tine însuți."
-    ],
+    "description": {
+      "0": "Tocmai ți-ai pus gândurile și sentimentele în cuvinte — asta cere curaj.",
+      "1": "S-ar putea să observi un amestec de emoții chiar acum, și este complet în regulă.",
+      "2": "Înainte să mergi mai departe, respiră adânc și verifică-te ușor cu tine însuți."
+    },
     "notice": "Era pentru vindecarea ta, nu pentru trimitere.",
     "save_button": "Save Letter",
-    "finish_button": "Finish"
+    "finish_button": "Finish",
+    "save_success": "Scrisoarea ta netrimisă este reparată în siguranță în jurnalul tău privat local. Exprimarea este o eliberare profundă."
   },
   "history": {
     "title": "Scrisori anterioare",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ești sigur că vrei să ștergi această scrisoare netrimisă?"
   },
   "app_description": "Eliberează-ți gândurile în siguranță și în privat",
   "more": "Mai mult",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

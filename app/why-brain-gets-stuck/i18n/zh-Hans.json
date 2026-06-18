@@ -10,21 +10,22 @@
   "s2": {
     "tag": "温柔的真理",
     "title": "大脑生存逻辑",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "警报器一直响着。",
         "body": "过度警觉和容易受到惊吓并不是反应过度——你大脑的警报系统工作得太好了。"
       },
-      {
+      "1": {
         "header": "闪回是记忆",
         "body": "触发机制会让你的大脑迅速回避威胁，因为它没有收到威胁解除的信号。这是它在试图保护你。"
       },
-      {
+      "2": {
         "header": "为你而战",
         "body": "每一种症状都曾是求生本能。你的大脑为了让你活下去，竭尽所能。"
       }
-    ],
-    "healing": "疗愈并非遗忘，而是帮助你的大脑明白你现在是安全的。"
+    },
+    "healing": "疗愈并非遗忘，而是帮助你的大脑明白你现在是安全的。",
+    "finish_reading": "阅读完毕"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "complete": {
+    "message": "你"
+  }
 }

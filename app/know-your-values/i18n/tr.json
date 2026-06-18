@@ -29,7 +29,8 @@
     "historyDesc": "Önceki düşünceleriniz burada saklanıyor, böylece istediğiniz zaman tekrar ziyaret edebilirsiniz.",
     "noHistory": "Henüz değer yansıtmasını tamamlamadın.",
     "startActivity": "Faaliyete Başla",
-    "startNew": "Yeni Düşünce Başlat"
+    "startNew": "Yeni Düşünce Başlat",
+    "aligned": "Hizalanmış"
   },
   "values": {
     "Family": "Aile",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun",
+  "app_duration": "5 dakika",
+  "loading": "Yansımalar yükleniyor..."
 }

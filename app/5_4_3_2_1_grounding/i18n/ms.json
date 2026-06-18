@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Mari kita berhenti sebentar bersama-sama.\n\nUntuk minit seterusnya, tiada apa yang anda perlukan untuk menyelesaikan, membetulkan atau bertindak balas. Biarkan diri anda perlahan.\n\nDuduk dengan selesa, letakkan kaki anda di atas tanah jika anda boleh, dan tarik nafas perlahan-lahan dalam... dan perlahan-lahan menghembuskan nafas.\n\nIni adalah masa anda untuk menetapkan semula dan berhubung semula dengan masa kini.",
       "button": "Mulakan"
     },
-    {
+    "1": {
       "heading": "5 Perkara yang Anda Boleh Lihat",
       "body": "Perlahan-lahan lihat sekeliling anda. Biarkan mata anda bergerak perlahan-lahan merentasi ruang. Perhatikan warna, bentuk, cahaya, bayang-bayang atau butiran kecil yang mungkin tidak anda perhatikan sebelum ini.",
       "button": "Seterusnya"
     },
-    {
+    "2": {
       "heading": "4 Perkara yang Anda Boleh Rasa",
       "body": "Bawa perhatian anda kepada badan anda. Rasakan kaki anda menyentuh lantai, punggung anda pada kerusi, pakaian anda pada kulit anda atau udara di sekeliling anda. Mengakui empat sensasi fizikal.",
       "button": "Seterusnya"
     },
-    {
+    "3": {
       "heading": "3 Perkara yang Anda Boleh Dengar",
       "body": "Dengar dengan teliti. Anda mungkin mendengar bunyi jauh, kipas, menaip, bernafas, atau bahkan senyap. Kenal pasti tiga bunyi tanpa menilainya.",
       "button": "Seterusnya"
     },
-    {
+    "4": {
       "heading": "2 Perkara yang Anda Boleh Menghidu",
       "body": "Lihat jika anda boleh mengesan sebarang bau di dalam bilik. Jika tiada apa-apa yang menonjol, perhatikan bau neutral udara di sekeliling anda.",
       "button": "Seterusnya"
     },
-    {
+    "5": {
       "heading": "1 Perkara yang Anda Boleh Rasa",
       "body": "Beri perhatian kepada rasa di dalam mulut anda. Ia boleh menjadi halus atau neutral — perhatikan sahaja.",
       "button": "Seterusnya"
     },
-    {
+    "6": {
       "heading": "Refleksi",
       "body": "Tarik nafas perlahan dalam... dan menarik nafas perlahan-lahan.",
       "button": "Hantar"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Mula Semula",
@@ -90,5 +90,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "/5-4-3-2-1-grounding": "/5-4-3-2-1-pembumian"
 }

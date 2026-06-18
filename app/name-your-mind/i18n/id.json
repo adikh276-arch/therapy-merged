@@ -3,11 +3,11 @@
   "intro": {
     "title": "Temui Pikiran Anda",
     "description": "Belajarlah untuk menjauhkan diri dari pikiran yang luar biasa dengan memberi nama suara batin Anda.",
-    "benefits": [
-      "Menciptakan jarak mental",
-      "Kurangi kekuatan pikiran kasar",
-      "Perhatikan pikiran tanpa menjadi mereka"
-    ],
+    "benefits": {
+      "0": "Menciptakan jarak mental",
+      "1": "Kurangi kekuatan pikiran kasar",
+      "2": "Perhatikan pikiran tanpa menjadi mereka"
+    },
     "duration": "2-3 menit",
     "view_past": "Lihat Entri Sebelumnya"
   },
@@ -45,15 +45,15 @@
       "title": "Buat jarak",
       "desc": "Beri pikiran Anda nama untuk membantu memisahkan diri Anda dari pikiran-pikiran ini.",
       "placeholder": "Atau ketik Anda sendiri...",
-      "examples": [
-        "Kritikus",
-        "Pemikir berlebihan",
-        "Khawatirkan FM",
-        "Mesin Overthinking",
-        "Kritikus Batin",
-        "Generator Bagaimana-Jika",
-        "Sutradara Drama"
-      ]
+      "examples": {
+        "0": "Kritikus",
+        "1": "Pemikir berlebihan",
+        "2": "Khawatirkan FM",
+        "3": "Mesin Overthinking",
+        "4": "Kritikus Batin",
+        "5": "Generator Bagaimana-Jika",
+        "6": "Sutradara Drama"
+      }
     },
     "practice": {
       "title": "Coba shift ini",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Apa yang Anda perhatikan?",
       "desc": "Bagaimana perasaan pikiran itu setelah memberinya nama?",
-      "options": [
-        "Pikiran itu terasa sedikit kurang intens dari sebelumnya",
-        "Saya merasa seperti saya memiliki jarak dari pikiran itu",
-        "Masih terasa sekuat sebelumnya",
-        "Saya tidak yakin apa yang berubah, jika ada"
-      ],
+      "options": {
+        "0": "Pikiran itu terasa sedikit kurang intens dari sebelumnya",
+        "1": "Saya merasa seperti saya memiliki jarak dari pikiran itu",
+        "2": "Masih terasa sekuat sebelumnya",
+        "3": "Saya tidak yakin apa yang berubah, jika ada"
+      },
       "button": "Refleksi Lengkap"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

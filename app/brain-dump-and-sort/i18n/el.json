@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Πληκτρολογήστε μια άλλη σκέψη...",
+  "resume": "περίληψη",
+  "pause": "Παύση",
+  "growth_reminder": "Ακόμη και τα μικροσκοπικά βήματα μειώνουν το ψυχικό βάρος. Δεν το κάνεις",
+  "lang": "μακρύς",
+  "complete_message": "Εσείς",
+  "welcome_sub": "Καλωσόρισμα",
+  "clearing_sub": "Διανοητικός Καθαρισμός",
+  "sorting_sub": "Ταξινόμηση",
+  "action_sub": "Βήματα δράσης",
+  "reflect_sub": "Αντανάκλαση",
+  "intro": {
+    "viewHistory": "Προβολή ιστορικού"
+  }
 }

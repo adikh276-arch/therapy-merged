@@ -23,38 +23,38 @@
   "try_again": "Probeer het nog eens",
   "complete_title": "Kennis beheerst",
   "complete_message": "Je scoorde {{score}}/{{total}}! Je hebt waardevolle inzichten opgedaan in de waarheden en mythes van woede.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Woede is slecht. Als je boos bent, is er iets mis met je.",
       "answer": "myth",
       "realFact": "Woede is een normale, gezonde emotie. Iedereen voelt het. Het is geen teken dat er iets 'mis' is met je — het is een teken dat iets belangrijk voor je is. Wat telt is hoe je erop reageert, niet of je het voelt.",
       "example": "Een veteraan voelt boos als hun grenzen worden overschreden. Die woede is geldig — het vertelt hen iets belangrijks."
     },
-    {
+    "1": {
       "statement": "Woede kan een teken zijn dat je grenzen zijn overschreden.",
       "answer": "fact",
       "realFact": "Woede is informatie. Als je het voelt, is het de moeite waard om te vragen: welke grens is overschreden? Welke behoefte wordt er niet vervuld? Luisteren naar je woede — zonder impulsief te handelen — helpt je jezelf beter te begrijpen en betekenisvolle actie te ondernemen.",
       "example": "Je wordt boos als een collega de eer voor je werk opeist. Die woede wijst op een behoefte aan erkenning en eerlijkheid."
     },
-    {
+    "2": {
       "statement": "Als je boos bent, moet je het eruit laten door te schreeuwen of dingen te slaan.",
       "answer": "myth",
       "realFact": "Gezonde woede-uiting betekent niet onderdrukking OF explosie. Het betekent je gevoelens erkennen en ze constructief uiten — via woorden, dagboekschrijven, lichamelijke activiteit of creatieve uitlaatkleppen. Je kunt je woede eren zonder vernietiging.",
       "example": "In plaats van tegen een muur te slaan, ga je hardlopen of schrijf je precies op wat je dwarszit. De woede gaat door je heen zonder schade te veroorzaken."
     },
-    {
+    "3": {
       "statement": "Leren omgaan met woede is een teken van emotionele kracht.",
       "answer": "fact",
       "realFact": "Mensen die aan hun woedebeheersing werken zijn niet zwak — ze doen een van de moedigste emotionele dingen die er zijn. Kiezen om te pauzeren, te reflecteren en bedachtzaam te reageren kost veel meer kracht dan impulsief reageren.",
       "example": "Diep ademhalen en zeggen 'ik heb een minuut nodig voordat ik reageer' in een verhitte situatie is een krachtige daad van zelfbeheersing."
     },
-    {
+    "4": {
       "statement": "Als iemand je boos maakt, is het hun schuld. Je hebt geen verantwoordelijkheid.",
       "answer": "myth",
       "realFact": "Andere mensen kunnen je woede triggeren, maar hoe je reageert is jouw verantwoordelijkheid — en jouw kracht. Eigenaarschap nemen over je reacties betekent niet dat de ander gelijk had. Het betekent dat je zelf kiest hoe je opduikt. Dat is empowerment, geen schuld.",
       "example": "Iemand snijdt je af in het verkeer. Je voelt je boos — dat is normaal. Maar je kiest of je woedend wordt of ademhaalt. De keuze is aan jou."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Opnieuw beginnen",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "results_message": "Jij"
 }

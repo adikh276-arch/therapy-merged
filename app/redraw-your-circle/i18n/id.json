@@ -21,30 +21,31 @@
       "placeholder": "Masukkan nama...",
       "button": "Simpan Nama"
     },
-    "prompts": [
-      "Seseorang yang membawa sukacita",
-      "Seseorang yang mendukung Anda",
-      "Seseorang yang dapat Anda ajak bicara",
-      "Orang yang Anda percayai",
-      "Seseorang yang menginspirasi Anda"
-    ]
+    "prompts": {
+      "0": "Seseorang yang membawa sukacita",
+      "1": "Seseorang yang mendukung Anda",
+      "2": "Seseorang yang dapat Anda ajak bicara",
+      "3": "Orang yang Anda percayai",
+      "4": "Seseorang yang menginspirasi Anda"
+    }
   },
   "reflection": {
     "subtitle": "Refleksi akhir",
     "title": "Apa yang Anda perhatikan?",
     "p_intro": "Luangkan waktu sejenak untuk melihat lingkaran Anda. Anda mungkin melihat:",
-    "list": [
-      "Beberapa orang merasa lebih dekat dari yang lain",
-      "Beberapa koneksi terasa kuat",
-      "Beberapa terasa jauh atau tidak jelas",
-      "Mungkin ada kesenjangan — atau hanya beberapa orang yang berarti"
-    ],
+    "list": {
+      "0": "Beberapa orang merasa lebih dekat dari yang lain",
+      "1": "Beberapa koneksi terasa kuat",
+      "2": "Beberapa terasa jauh atau tidak jelas",
+      "3": "Mungkin ada kesenjangan — atau hanya beberapa orang yang berarti"
+    },
     "italic": "Kesadaran adalah langkah pertama untuk membangun koneksi yang Anda hargai. 🧘",
     "label": "💭 Apakah ada orang yang ingin Anda rasakan lebih terhubung?",
     "placeholder": "Tuliskan pendapat Anda di sini...",
     "save_button": "Simpan Refleksi",
     "saving_button": "Menghemat...",
-    "skip_button": "Lewati & Selesaikan"
+    "skip_button": "Lewati & Selesaikan",
+    "saved_success": "Peta interpersonal Anda disimpan dengan aman di jurnal Anda. Menumbuhkan simpul pendukung ini membantu kita tetap tangguh."
   },
   "history": {
     "title": "Sejarah Lingkaran Anda",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Apakah Anda yakin ingin menghapus log lingkaran ini?"
   },
   "intro_p1": "Di berbagai titik dalam hidup, sistem pendukung kita dapat berubah. 🌱 Terkadang kita merasa terhubung dan didukung. Di lain waktu, segalanya mungkin terasa jauh atau tidak jelas.",
   "intro_p2": "Aktivitas ini adalah ruang untuk berhenti sejenak dan memperhatikan orang-orang di sekitar Anda — dan memahami siapa yang saat ini merasa menjadi bagian dari lingkaran Anda. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  " ": " "
 }

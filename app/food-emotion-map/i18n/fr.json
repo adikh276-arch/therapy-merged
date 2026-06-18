@@ -1,15 +1,15 @@
 {
   "app_title": "Carte de la nourriture et des émotions",
-  "screen_titles": [
-    "Bienvenue",
-    "Schémas alimentaires",
-    "Dialogue interne",
-    "Détection physique",
-    "La carte",
-    "Soutien doux",
-    "Dernier regard",
-    "Réfléchir"
-  ],
+  "screen_titles": {
+    "0": "Bienvenue",
+    "1": "Schémas alimentaires",
+    "2": "Dialogue interne",
+    "3": "Détection physique",
+    "4": "La carte",
+    "5": "Soutien doux",
+    "6": "Dernier regard",
+    "7": "Réfléchir"
+  },
   "welcome_text": "Hé... Je suis vraiment content que tu sois là 💛. Voyons doucement ce qui s’est passé.",
   "coming_up_label": "Qu’est-ce qui se passe ces derniers temps ?",
   "begin_mapping": "Commencez la cartographie",
@@ -32,36 +32,36 @@
   "auth_error": "Session d’authentification manquante ou base de données non configurée",
   "save_success": "Modèle préservé",
   "save_error": "Échec à préserver le motif",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Tristesse",
-    "😶 Ennui",
-    "😟 Anxiété",
-    "🥺 Solitude",
-    "💭 Autre chose..."
-  ],
-  "food_responses": [
-    "🍽️ Je mange plus",
-    "🚫 Je mange moins",
-    "🍫 J’ai envie d’aliments spécifiques",
-    "😣 J’évite la nourriture",
-    "😐 Aucun changement réel"
-  ],
-  "body_sensations": [
-    "💔 Poitrine serrée",
-    "🪨 Lourdeur",
-    "🦵 Agité / agité",
-    "🔋 Faible énergie",
-    "🌀 Nœuds dans l’estomac",
-    "❓ Autre chose..."
-  ],
-  "support_options": [
-    "🗣️ Parle à quelqu’un",
-    "☕ Faites une pause",
-    "📝 Revue",
-    "🌬️ Respire",
-    "🎧 Me distraire"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Tristesse",
+    "2": "😶 Ennui",
+    "3": "😟 Anxiété",
+    "4": "🥺 Solitude",
+    "5": "💭 Autre chose..."
+  },
+  "food_responses": {
+    "0": "🍽️ Je mange plus",
+    "1": "🚫 Je mange moins",
+    "2": "🍫 J’ai envie d’aliments spécifiques",
+    "3": "😣 J’évite la nourriture",
+    "4": "😐 Aucun changement réel"
+  },
+  "body_sensations": {
+    "0": "💔 Poitrine serrée",
+    "1": "🪨 Lourdeur",
+    "2": "🦵 Agité / agité",
+    "3": "🔋 Faible énergie",
+    "4": "🌀 Nœuds dans l’estomac",
+    "5": "❓ Autre chose..."
+  },
+  "support_options": {
+    "0": "🗣️ Parle à quelqu’un",
+    "1": "☕ Faites une pause",
+    "2": "📝 Revue",
+    "3": "🌬️ Respire",
+    "4": "🎧 Me distraire"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Contactez-nous 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
-    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette correspondance ?"
   },
   "app_description": "Carte de l'alimentation et des émotions",
   "more": "Plus",
@@ -135,5 +136,8 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long",
+  "view_weekly": "Voir l’historique de la carte",
+  " ": " "
 }

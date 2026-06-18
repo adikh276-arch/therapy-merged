@@ -16,23 +16,23 @@
   },
   "rule_label": "规则命名",
   "rule_question": "规则是什么？",
-  "rule_options": [
-    "我不应该在某个时间之后吃东西。",
-    "有些食物是禁忌的。",
-    "我需要严格控制份量。"
-  ],
+  "rule_options": {
+    "0": "我不应该在某个时间之后吃东西。",
+    "1": "有些食物是禁忌的。",
+    "2": "我需要严格控制份量。"
+  },
   "rule_something_else": "还有一件事……",
   "rule_placeholder": "请写下你的饮食规则……",
   "feeling_label": "情感影响",
   "feeling_question": "感觉如何？",
-  "feeling_options": [
-    "😟焦虑",
-    "😌 掌控一切",
-    "😕 有罪",
-    "😣 受限",
-    "😴 累了",
-    "😐 混合"
-  ],
+  "feeling_options": {
+    "0": "😟焦虑",
+    "1": "😌 掌控一切",
+    "2": "😕 有罪",
+    "3": "😣 受限",
+    "4": "😴 累了",
+    "5": "😐 混合"
+  },
   "challenge_label": "软挑战",
   "challenge_question": "委婉地询问……",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长"
 }

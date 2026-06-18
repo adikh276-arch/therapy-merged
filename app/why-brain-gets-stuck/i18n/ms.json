@@ -10,21 +10,22 @@
   "s2": {
     "tag": "kebenaran lembut",
     "title": "Logik kelangsungan hidup otak",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Penggera kekal menyala",
         "body": "Kewaspadaan dan mengejutkan dengan mudah bukanlah tindak balas yang berlebihan - sistem penggera otak anda melakukan tugasnya dengan sangat baik."
       },
-      {
+      "1": {
         "header": "Kilas balik adalah kenangan",
         "body": "Pencetus menarik otak anda ke belakang kerana ia tidak pernah mendapat isyarat bahawa ancaman itu telah berakhir. Ia cuba melindungi anda."
       },
-      {
+      "2": {
         "header": "Berjuang untuk anda",
         "body": "Setiap gejala pernah menjadi tindakan kelangsungan hidup. Otak anda melakukan apa yang perlu dilakukan untuk memastikan anda hidup."
       }
-    ],
-    "healing": "Penyembuhan bukan tentang melupakan. Ia tentang membantu otak anda mengetahui bahawa anda selamat sekarang."
+    },
+    "healing": "Penyembuhan bukan tentang melupakan. Ia tentang membantu otak anda mengetahui bahawa anda selamat sekarang.",
+    "finish_reading": "Selesai Membaca"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "complete": {
+    "message": "Anda"
+  }
 }

@@ -1,10 +1,10 @@
 {
   "app_title": "Hiányzik valaki",
-  "subtitles": [
-    "Validáció",
-    "Belső bölcsesség",
-    "Teljes"
-  ],
+  "subtitles": {
+    "0": "Validáció",
+    "1": "Belső bölcsesség",
+    "2": "Teljes"
+  },
   "complete_title": "Tisztánlátás",
   "complete_message": "A hiányzás kémiájának megértése az első lépés a gyógyulás felé. Az érzéseid érvényesek, és az agyad egyszerűen csak a munkáját végzi, hogy megvédje és feldolgozza őket.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

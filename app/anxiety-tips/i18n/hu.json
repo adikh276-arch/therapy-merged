@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Lélegezz be...",
+  "hold_label": "Várjatok...",
+  "exhale_label": "Kifújd a levegőt...",
+  "start": "Készen állok",
+  "stop": "Állj meg",
+  "begin_breathing": "Kezdj el légzni",
+  "lang": "hosszú"
 }

@@ -92,5 +92,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "gentleReminder": "Mild påminnelse",
+  "lang": "lang"
 }

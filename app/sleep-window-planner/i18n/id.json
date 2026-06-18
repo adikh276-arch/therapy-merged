@@ -1,10 +1,10 @@
 {
   "app_title": "Perencana Jendela Tidur",
-  "pill_labels": [
-    "Bangun jendela Anda",
-    "Atur waktu Anda",
-    "Jendela tidur Anda"
-  ],
+  "pill_labels": {
+    "0": "Bangun jendela Anda",
+    "1": "Atur waktu Anda",
+    "2": "Jendela tidur Anda"
+  },
   "screen1": {
     "title": "Jendela tidur Anda lebih penting dari yang Anda pikirkan",
     "p1": "Jendela tidur adalah waktu tetap antara saat Anda tidur dan saat Anda bangun. Tetap konsisten - bahkan di akhir pekan - adalah salah satu hal paling ampuh yang dapat Anda lakukan untuk tidur Anda.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 cara untuk melindunginya",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Bersantai 30 menit sebelum tidur"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Waktu bangun yang sama setiap hari — ya, akhir pekan juga"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Hindari tidur siang lebih dari 20 menit setelah jam 3 sore"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Berkomitmen pada 1 hal malam ini",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Singkirkan ponsel saya sebelum tidur"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Mulai rutinitas santai"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Redupkan lampu satu jam sebelum tidur"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Selesaikan daftar tugas saya lebih awal"
         }
-      ]
+      }
     },
     "quote": "Konsistensi lebih kuat daripada kesempurnaan. Satu malam yang baik membangun malam berikutnya.",
     "button": "Simpan jendela tidur saya ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

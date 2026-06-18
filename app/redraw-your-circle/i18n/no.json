@@ -21,30 +21,31 @@
       "placeholder": "Skriv inn et navn...",
       "button": "Lagre navn"
     },
-    "prompts": [
-      "En person som bringer glede",
-      "En person som støtter deg",
-      "En person du kan snakke med",
-      "En person du stoler på",
-      "En person som inspirerer deg"
-    ]
+    "prompts": {
+      "0": "En person som bringer glede",
+      "1": "En person som støtter deg",
+      "2": "En person du kan snakke med",
+      "3": "En person du stoler på",
+      "4": "En person som inspirerer deg"
+    }
   },
   "reflection": {
     "subtitle": "Avsluttende refleksjoner",
     "title": "Hva legger du merke til?",
     "p_intro": "Ta et øyeblikk til å se på sirkelen din. Du vil kanskje legge merke til:",
-    "list": [
-      "Noen føler seg nærmere enn andre",
-      "Noen forbindelser føles sterke",
-      "Noen føles fjerne eller uklare",
-      "Det kan være hull – eller bare noen få meningsfulle personer"
-    ],
+    "list": {
+      "0": "Noen føler seg nærmere enn andre",
+      "1": "Noen forbindelser føles sterke",
+      "2": "Noen føles fjerne eller uklare",
+      "3": "Det kan være hull – eller bare noen få meningsfulle personer"
+    },
     "italic": "Bevissthet er det første steget mot å bygge de forbindelsene du verdsetter. 🧘",
     "label": "💭 Er det noen du ønsker å føle deg mer knyttet til?",
     "placeholder": "Skriv tankene dine her...",
     "save_button": "Lagre refleksjon",
     "saving_button": "Redde...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Ditt mellommenneskelige kart er trygt lagret i journalen din. Å dyrke disse støttenodene hjelper oss å holde oss motstandsdyktige."
   },
   "history": {
     "title": "Din Sirkels Historie",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på at du vil slette denne sirkelloggen?"
   },
   "intro_p1": "På ulike tidspunkt i livet kan støtteapparatet vårt endre seg. 🌱 Noen ganger føler vi oss knyttet til hverandre og støttet. Andre ganger kan ting føles fjerne eller uklare.",
   "intro_p2": "Denne aktiviteten gir deg muligheten til å stoppe opp og se på menneskene rundt deg – og forstå hvem som for øyeblikket føler seg som en del av sirkelen din. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  " ": " "
 }

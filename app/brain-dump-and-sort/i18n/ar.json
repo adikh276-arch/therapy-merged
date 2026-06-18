@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "اكتب فكرة أخرى...",
+  "resume": "السيرة الذاتية",
+  "pause": "توقف",
+  "growth_reminder": "حتى الخطوات الصغيرة تقلل من الوزن الذهني. أنت لا تفعل",
+  "lang": "طويل",
+  "complete_message": "أنت",
+  "welcome_sub": "مرحبا بك",
+  "clearing_sub": "التنظيف الذهني",
+  "sorting_sub": "الفرز",
+  "action_sub": "خطوات العمل",
+  "reflect_sub": "الانعكاس",
+  "intro": {
+    "viewHistory": "عرض التاريخ"
+  }
 }

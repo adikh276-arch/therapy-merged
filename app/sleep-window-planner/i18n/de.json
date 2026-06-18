@@ -1,10 +1,10 @@
 {
   "app_title": "Schlaffenster-Planer",
-  "pill_labels": [
-    "Bau dein Fenster",
-    "Legen Sie Ihre Zeiten fest",
-    "Dein Schlaffenster"
-  ],
+  "pill_labels": {
+    "0": "Bau dein Fenster",
+    "1": "Legen Sie Ihre Zeiten fest",
+    "2": "Dein Schlaffenster"
+  },
   "screen1": {
     "title": "Dein Schlaffenster ist wichtiger, als du denkst",
     "p1": "Ein Schlaffenster ist die feste Zeit zwischen dem Schlafengehen und dem Aufwachen. Es konstant zu halten – selbst am Wochenende – ist eine der wirkungsvollsten Maßnahmen, die Sie für Ihren Schlaf tun können.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 Möglichkeiten, ihn zu schützen",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Beruhige dich 30 Minuten vor deiner Schlafenszeit"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Jeden Tag dieselbe Wachzeit – ja, auch am Wochenende"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Vermeide Nickerchen, die länger als 20 Minuten nach 15 Uhr dauern."
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Verpflichte dich heute Abend auf eine Sache",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Steck mein Handy vor dem Schlafengehen weg"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Beginnen Sie mit einer Abschaltroutine"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Das Licht eine Stunde vor dem Schlafengehen dimmen"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Beende meine To-do-Liste frühzeitig"
         }
-      ]
+      }
     },
     "quote": "Konsistenz ist stärker als Perfektion. Eine gute Nacht baut sich auf, die nächste.",
     "button": "Spar mir mein Schlaffenster ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

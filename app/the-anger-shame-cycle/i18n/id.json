@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Siklus",
       "title": "Loop dijelaskan",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Kemarahan muncul"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Malu: \"Saya buruk\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Rasa malu terkubur"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Kemarahan meletus lagi"
         }
-      ],
+      },
       "button": "Saya melihatnya"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Gangguan",
       "title": "Menghentikan siklus",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Beri nama sumbernya",
           "desc": "Tanyakan: 'Apa yang sebenarnya saya rasakan?' Terluka? Takut? Tidak terlihat? Menamainya melemahkannya."
         },
-        {
+        "1": {
           "title": "Jeda welas asih",
           "desc": "Tangan di dada. Katakanlah: 'Ini sulit. Saya manusia. Saya bisa melewati ini.'"
         },
-        {
+        "2": {
           "title": "Perbaiki dengan anggun",
           "desc": "Buat kesalahan jika diperlukan — tetapi jangan berputar. Anda bukan momen terburuk Anda."
         }
-      ],
+      },
       "notice": "Memperhatikan siklus sudah menjadi langkah pertama. Anda sedang melakukan pekerjaan.",
       "button": "Aktivitas Lengkap"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

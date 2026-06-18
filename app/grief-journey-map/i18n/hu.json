@@ -16,23 +16,23 @@
   "btn_one_more": "Még egy dolog",
   "screen3_tag": "Gyengéd igazságok",
   "screen3_title": "Érdemes tudni",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Nincs határidő",
       "body": "A veszteségnek nincs lejárati dátuma. Ha hónapokkal vagy évekkel később érezzük, nem azt jelenti, hogy elakadtál — hanem azt, hogy szeretted."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Ellentmondásos érzések",
       "body": "Hiányozhatsz valakiről, és megkönnyebbülhetsz. Nevethetsz és gyászolhatsz. A gyász ellentéteit hordozza."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "A szerelem átalakulása",
       "body": "A fájdalom nem külön a szeretettől. Ugyanaz, átalakulva."
     }
-  ],
+  },
   "btn_finish": "Finish Reflection",
   "complete_title": "Utazás tisztelete",
   "complete_message": "Nem kell továbblépned. Csak megtanulod másképp hordozni. Az utad egyedi, érvényes és mélyen emberi.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

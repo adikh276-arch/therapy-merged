@@ -10,57 +10,57 @@
       "title": "Få en vilsam sömn",
       "description": "Sikta på 7–9 timmars sömn varje natt. Försök att sova och vakna vid samma tid varje dag.",
       "why": "Sömn hjälper din hjärna och kropp att återhämta sig och sänker stresshormoner.",
-      "do": [
-        "Håll ett fast sömnschema",
-        "Undvik skärmar en timme innan läggdags",
-        "Håll rummet svalt och mörkt",
-        "Undvik koffein efter kl 16"
-      ],
+      "do": {
+        "0": "Håll ett fast sömnschema",
+        "1": "Undvik skärmar en timme innan läggdags",
+        "2": "Håll rummet svalt och mörkt",
+        "3": "Undvik koffein efter kl 16"
+      },
       "button": "Ställ in sömnpåminnelse"
     },
     "breathing": {
       "title": "Öva djupandning",
       "description": "Lägg några minuter på att fokusera på din andning. Långsam andning minskar ångest.",
       "why": "Långsam andning aktiverar kroppens avslappningsrespons.",
-      "do": [
-        "Andas in i 4 sekunder",
-        "Håll i 4 sekunder",
-        "Andas ut i 4 sekunder",
-        "Upprepa i 1 minut"
-      ]
+      "do": {
+        "0": "Andas in i 4 sekunder",
+        "1": "Håll i 4 sekunder",
+        "2": "Andas ut i 4 sekunder",
+        "3": "Upprepa i 1 minut"
+      }
     },
     "exercise": {
       "title": "Rör på dig",
       "description": "Lätt promenad eller stretching hjälper till att minska stress och förbättra humöret.",
       "why": "Träning frigör endorfiner och förbättrar humöret.",
-      "do": [
-        "15 minuters promenad",
-        "Lätt stretching",
-        "Kort yogapass",
-        "Snabbt hemmaträningspass"
-      ]
+      "do": {
+        "0": "15 minuters promenad",
+        "1": "Lätt stretching",
+        "2": "Kort yogapass",
+        "3": "Snabbt hemmaträningspass"
+      }
     },
     "caffeine": {
       "title": "Begränsa koffein och socker",
       "description": "För mycket koffein och socker kan öka ångest och störa sömnen.",
       "why": "För mycket koffein och socker ökar ångest och sömnproblem.",
-      "do": [
-        "Byt ut ett kaffe mot örtte",
-        "Drick mer vatten",
-        "Minska sockrade snacks",
-        "Undvik koffein sent på dagen"
-      ]
+      "do": {
+        "0": "Byt ut ett kaffe mot örtte",
+        "1": "Drick mer vatten",
+        "2": "Minska sockrade snacks",
+        "3": "Undvik koffein sent på dagen"
+      }
     },
     "planning": {
       "title": "Planera din dag",
       "description": "Dela upp stora uppgifter i mindre steg för att undvika att känna dig överväldigad.",
       "why": "Planering minskar mental röra och överväldigande.",
-      "do": [
-        "Skriv 3 huvuduppgifter",
-        "Dela upp uppgifter i små steg",
-        "Fokusera på en uppgift i taget",
-        "Ta korta pauser"
-      ]
+      "do": {
+        "0": "Skriv 3 huvuduppgifter",
+        "1": "Dela upp uppgifter i små steg",
+        "2": "Fokusera på en uppgift i taget",
+        "3": "Ta korta pauser"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Andas in...",
+  "Hold…": "Håll...",
+  "Exhale…": "Andas ut...",
+  "breathing_instruction": "Följ cirkeln för att reglera",
+  "Resume": "CV",
+  "Pause": "Paus",
+  "lang": "Lång",
+  "Grounding": "Mental avstressning",
+  "stay_present": "Tips för stresslindring",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Välj en målstrategi nedan för att utforska varför den hjälper och hur du kan tillämpa den dagligen."
+  },
+  "wellness_tip": "DAGLIG STRESSSTRATEGI"
 }

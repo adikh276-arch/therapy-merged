@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Vamos paso a paso. 💛",
-    "description": [
-      "No tienes que contar toda tu historia hoy. Solo una pequeña parte es suficiente.",
-      "Ahora mismo estás a salvo. Tú controlas lo que escribes y lo que no."
-    ],
+    "description": {
+      "0": "No tienes que contar toda tu historia hoy. Solo una pequeña parte es suficiente.",
+      "1": "Ahora mismo estás a salvo. Tú controlas lo que escribes y lo que no."
+    },
     "breath": "Respira despacio antes de empezar.",
     "button_ready": "Estoy listo",
     "button_history": "Narrativas pasadas",
@@ -21,20 +21,20 @@
     "title": "Escribe lo que te sientas bien ✨",
     "subtitle": "Tus palabras, tu ritmo",
     "prompt_label": "¿Necesitas un punto de partida?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Lo que más recuerdo es...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "En ese momento, sentí...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Desde entonces, he notado...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Empieza a escribir aquí...",
     "notice": "No hay una forma correcta de hacerlo. Incluso unas pocas líneas son suficientes.",
     "button": "Terminar la escritura"
@@ -43,10 +43,10 @@
     "title": "Has hecho algo importante.",
     "subtitle": "Gracias por estar presente por ti misma.",
     "settle_title": "Tomemos un momento para calmarlo",
-    "steps": [
-      "Mira a tu alrededor y nombra 3 cosas que puedas ver.",
-      "Respira hondo despacio... y fuera."
-    ],
+    "steps": {
+      "0": "Mira a tu alrededor y nombra 3 cosas que puedas ver.",
+      "1": "Respira hondo despacio... y fuera."
+    },
     "feeling_label": "Ahora mismo, siento:",
     "feeling_placeholder": "Una palabra o dos...",
     "quote": "\"No tienes que cargar con todo a la vez. Puedes volver cuando te sientas preparado.\"",
@@ -121,5 +121,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

@@ -21,30 +21,31 @@
       "placeholder": "Wpisz imię...",
       "button": "Zapisz nazwę"
     },
-    "prompts": [
-      "Osoba, która przynosi radość",
-      "Osobę, która cię wspiera",
-      "Osoba, z którą możesz porozmawiać",
-      "Osoba, której ufasz",
-      "Osoba, która cię inspiruje"
-    ]
+    "prompts": {
+      "0": "Osoba, która przynosi radość",
+      "1": "Osobę, która cię wspiera",
+      "2": "Osoba, z którą możesz porozmawiać",
+      "3": "Osoba, której ufasz",
+      "4": "Osoba, która cię inspiruje"
+    }
   },
   "reflection": {
     "subtitle": "Ostateczne refleksje",
     "title": "Co zauważasz?",
     "p_intro": "Poświęć chwilę, by spojrzeć na swoje krąg. Możesz zauważyć:",
-    "list": [
-      "Niektórzy czują się bliżej niż inni",
-      "Niektóre więzi wydają się silne",
-      "Niektóre wydają się odległe lub niejasne",
-      "Mogą istnieć luki — albo tylko kilka istotnych osób"
-    ],
+    "list": {
+      "0": "Niektórzy czują się bliżej niż inni",
+      "1": "Niektóre więzi wydają się silne",
+      "2": "Niektóre wydają się odległe lub niejasne",
+      "3": "Mogą istnieć luki — albo tylko kilka istotnych osób"
+    },
     "italic": "Świadomość to pierwszy krok do budowania więzi, które cenisz. 🧘",
     "label": "💭 Czy jest ktoś, z kim chciałbyś poczuć większą więź?",
     "placeholder": "Napisz tutaj swoje przemyślenia...",
     "save_button": "Zachowaj odbicie",
     "saving_button": "Zapisuję...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Twoja mapa interpersonalna jest bezpiecznie przechowywana w twoim dzienniku. Rozwijanie tych punktów wsparcia pomaga nam zachować odporność."
   },
   "history": {
     "title": "Historia Twojego Kręgu",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jesteś pewien, że chcesz usunąć ten log circle?"
   },
   "intro_p1": "W różnych momentach życia nasz system wsparcia może się zmieniać. 🌱 Czasami czujemy się związani i wspierani. Innym razem sprawy mogą wydawać się odległe lub niejasne.",
   "intro_p2": "Ta aktywność to okazja, aby zatrzymać się i przyjrzeć ludziom wokół siebie — i zrozumieć, kto obecnie czuje się częścią twojego kręgu. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie",
+  " ": " "
 }

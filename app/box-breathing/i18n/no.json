@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "pust inn sakte...",
+  "instruction_out": "pust ut sakte...",
+  "instruction_hold": "forsiktig hold...",
+  "lang": "lang"
 }

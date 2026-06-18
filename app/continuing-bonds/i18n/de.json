@@ -31,37 +31,37 @@
   "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
   "save_success": "Bindungsreflexion erhalten",
   "save_error": "Es gelang nicht, die Reflexion zu bewahren",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Durch Erinnerungen",
       "prompt": "Kannst du eine Erinnerung teilen, in der du ihre Anwesenheit spürst?",
       "deeper": "Was ist eine Sache an ihnen, die einem im Gedächtnis bleibt?"
     },
-    {
+    "1": {
       "label": "In dem, was ich sage oder tue",
       "prompt": "Welchen Teil davon trägst du in deinem Alltag mit dir herum?",
       "deeper": "Wie zeigt sich das heute in Ihrem Leben?"
     },
-    {
+    "2": {
       "label": "In Momenten meines Alltags",
       "prompt": "Wann spürst du, dass sie sich während deines Tages schließen?",
       "deeper": "Was ist eine Sache an ihnen, die einem im Gedächtnis bleibt?"
     },
-    {
+    "3": {
       "label": "Was ich ihnen immer noch sagen möchte",
       "prompt": "Gibt es noch etwas, das du ihnen sagen möchtest?",
       "deeper": "Was würden Sie am meisten wollen, dass sie jetzt wissen?"
     },
-    {
+    "4": {
       "label": "In einem Gefühl oder einer Präsenz",
       "prompt": "Wie zeigt sich ihre Anwesenheit für Sie immer noch?",
       "deeper": "Wie zeigt sich das heute in Ihrem Leben?"
     }
-  ],
-  "bond_prompts": [
-    "Was ist eine kleine Art, wie du dich heute mit ihnen verbunden fühlst?",
-    "Was ist etwas, das einen Teil von ihnen trägt?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Was ist eine kleine Art, wie du dich heute mit ihnen verbunden fühlst?",
+    "1": "Was ist etwas, das einen Teil von ihnen trägt?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Von vorne beginnen",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bist du sicher, dass du diese Reflexion löschen willst?"
   },
   "app_description": "Fortlaufende Anleihen",
   "past_reflections": "Rückblicke auf die Vergangenheit",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

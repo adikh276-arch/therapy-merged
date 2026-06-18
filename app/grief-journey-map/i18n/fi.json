@@ -16,23 +16,23 @@
   "btn_one_more": "Yksi asia vielä",
   "screen3_tag": "lempeät totuudet",
   "screen3_title": "Hyvä tietää",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Ei määräaikaa",
       "body": "Menetyksellä ei ole viimeistä käyttöpäivää. Sen tunteminen kuukausien tai vuosien jälkeen ei tarkoita, että olet jumissa — se tarkoittaa, että rakastit."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Ristiriitaiset tunteet",
       "body": "Voit kaivata jotakuta ja tuntea helpotusta. Voit nauraa ja surra. Surun vastakohdat ovat vastakohtia."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Rakkauden muutos",
       "body": "Kipu ei ole erillistä rakkaudesta. Se on sama asia, muunnettuna."
     }
-  ],
+  },
   "btn_finish": "Viimeistelyn heijastus",
   "complete_title": "Matka kunnioitettu",
   "complete_message": "Sinun ei tarvitse jatkaa eteenpäin. Opit vain kantamaan sitä eri tavalla. Matkasi on ainutlaatuinen, pätevä ja syvästi inhimillinen.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

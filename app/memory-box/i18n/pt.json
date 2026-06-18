@@ -1,12 +1,12 @@
 {
   "app_title": "Caixa de Memória",
-  "screen_titles": [
-    "Sua Caixa",
-    "Homenagem",
-    "Expressando",
-    "Preservado",
-    "Cuidado Gentil"
-  ],
+  "screen_titles": {
+    "0": "Sua Caixa",
+    "1": "Homenagem",
+    "2": "Expressando",
+    "3": "Preservado",
+    "4": "Cuidado Gentil"
+  },
   "complete_title": "Memória preservada",
   "complete_message": "Você colocou com segurança uma memória de {{name}} na sua caixa. Esses momentos de conexão são seus para guardar, sempre.",
   "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Digite o nome deles...",
     "placeholder_relation": "Como você conhece eles? (opcional)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Um momento feliz",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Algo que costumavam dizer",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Uma pequena lembrança do dia a dia",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Um lugar que te lembra deles",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Algo que eu gostaria de poder dizer",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Continue →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Bem Guardado",
     "subtitle": "Essa memória de {{name}} agora faz parte da sua coleção.",
     "add_another": "Adicionar Outra Memória",
-    "finish": "Reflexão do Acabamento"
+    "finish": "Reflexão do Acabamento",
+    "saved_title": "Mantido Seguro"
   },
   "closing": {
     "title": "Cuidando",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Tem certeza de que quer apagar essa memória?"
   },
   "app_description": "Caixa de Memórias",
   "before_you_go": "Antes de ir",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

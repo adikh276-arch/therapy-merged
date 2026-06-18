@@ -110,5 +110,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "দীর্ঘ",
+  "SAVE FAILED: ": "সংরক্ষণ ব্যর্থ: "
 }

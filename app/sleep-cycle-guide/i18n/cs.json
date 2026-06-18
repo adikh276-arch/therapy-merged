@@ -173,5 +173,10 @@
   "yes": "Ano",
   "no": "Ne",
   "date": "Datum",
-  "continue": "Pokračovat"
+  "continue": "Pokračovat",
+  "lang": "dlouhý",
+  "how_long": "jak dlouho ",
+  "you_sleep": "Ty spíš.",
+  "where": "kde ",
+  "you_wake_up": "Probouzíte se ve svých spánkových cyklech."
 }

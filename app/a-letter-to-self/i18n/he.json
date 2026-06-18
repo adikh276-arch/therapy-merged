@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "מצילה...",
+    "saved": "ניצל"
   },
   "app_duration": "10-15 דקות",
   "app_title": "מכתב לעצמי",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "הנחיות",
+  "need_inspiration": "צריך השראה?",
+  "post_writing_reflection": "הרהור לאחר הכתיבה",
+  "reflection_desc": "הכרה ברגשות שלך היא צעד משמעותי במסע שלך.",
+  "finish_save_reflection": "סיים ושמור השתקפות",
+  "lang": "ארוך",
+  "completion_message": "המכתב שלך נשמר בבטחה. קח רגע להעריך את ההתקדמות שלך."
 }

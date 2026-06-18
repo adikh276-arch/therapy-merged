@@ -3,11 +3,11 @@
   "intro": {
     "title": "Tankelesende sjekk",
     "description": "Still spørsmål ved antakelsene du gjør om hva andre tenker.",
-    "benefits": [
-      "Slutt å anta det verste",
-      "Identifiser skjeve tolkninger",
-      "Bygg klarere kommunikasjon"
-    ],
+    "benefits": {
+      "0": "Slutt å anta det verste",
+      "1": "Identifiser skjeve tolkninger",
+      "2": "Bygg klarere kommunikasjon"
+    },
     "duration": "3-4 minutter",
     "view_past": "Se tidligere refleksjoner"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Sjekk troen din",
       "desc": "Hvor sterkt tror du på din opprinnelige tanke nå?",
-      "labels": [
-        "Ikke i det hele tatt",
-        "Fullstendig"
-      ]
+      "labels": {
+        "0": "Ikke i det hele tatt",
+        "1": "Fullstendig"
+      }
     },
     "step7": {
       "title": "Et mer balansert syn",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Neste gang",
       "desc": "Hva kunne du gjort i stedet for å anta?",
-      "examples": [
-        "Be om avklaring",
-        "Gi det litt tid",
-        "Legg merke til uten å reagere"
-      ],
+      "examples": {
+        "0": "Be om avklaring",
+        "1": "Gi det litt tid",
+        "2": "Legg merke til uten å reagere"
+      },
       "placeholder": "Neste gang kunne jeg..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

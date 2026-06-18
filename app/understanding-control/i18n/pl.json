@@ -1,58 +1,58 @@
 {
   "app_title": "Zrozumienie sterowania",
   "app_subtitle": "Strategia przetrwania • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Dlaczego kontrola może wydawać się tak potężna",
-      "paragraphs": [
-        "Dla wielu osób mających trudności z jedzeniem kontrola może być sposobem na stworzenie bezpieczeństwa.",
-        "Gdy życie wydaje się nieprzewidywalne lub emocjonalnie intensywne, skupienie się na jedzeniu, wadze lub rutynie może przynieść poczucie struktury i pewności.",
-        "To nie chodzi o siłę woli czy dyscyplinę. Chodzi o próbę opanowania się, gdy wszystko wydaje się niepewne.",
-        "W ten sposób kontrola staje się strategią radzenia sobie — czymś, co pomaga poczuć się ugruntowanym, nawet jeśli tylko tymczasowo."
-      ],
+      "paragraphs": {
+        "0": "Dla wielu osób mających trudności z jedzeniem kontrola może być sposobem na stworzenie bezpieczeństwa.",
+        "1": "Gdy życie wydaje się nieprzewidywalne lub emocjonalnie intensywne, skupienie się na jedzeniu, wadze lub rutynie może przynieść poczucie struktury i pewności.",
+        "2": "To nie chodzi o siłę woli czy dyscyplinę. Chodzi o próbę opanowania się, gdy wszystko wydaje się niepewne.",
+        "3": "W ten sposób kontrola staje się strategią radzenia sobie — czymś, co pomaga poczuć się ugruntowanym, nawet jeśli tylko tymczasowo."
+      },
       "microcopy": "Nie jesteś w tym sam.",
       "cta": "Kontynuuj"
     },
-    {
+    "1": {
       "headline": "Różne sposoby pojawiania się kontroli",
       "intro": "Potrzeba kontroli nie wygląda tak samo u każdego, ale często objawia się w takich wzorcach jak:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Surowe lub sztywne zasady żywieniowe"
         },
-        {
+        "1": {
           "text": "Trzeba dokładnie przestrzegać rutyny"
         },
-        {
+        "2": {
           "text": "Lęk, gdy plany się zmieniają"
         },
-        {
+        "3": {
           "text": "Łączenie poczucia własnej wartości z kształtem/wagą"
         }
-      ],
+      },
       "outro": "Z czasem mogą one stać się sztywne, zajmując przestrzeń mentalną i utrudniając adaptację.",
       "microcopy": "To, co zaczyna się jako kontrola, powoli zaczyna wydawać się kontrolujące.",
       "cta": "Kontynuuj"
     },
-    {
+    "2": {
       "headline": "Pod kontrolą",
       "intro": "Potrzeba kontroli często ma głębsze korzenie. Można go połączyć z:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Czuję się emocjonalnie zalana"
         },
-        {
+        "1": {
           "text": "Pragnienie przewidywalności"
         },
-        {
+        "2": {
           "text": "Potrzeba stabilności i bezpieczeństwa"
         }
-      ],
+      },
       "insight": "Kontrola nie jest problemem — to strategia, którą twój umysł znalazł, by sobie z tym radzić. Z czasem i wsparciem możliwe są inne sposoby na poczucie bezpieczeństwa.",
       "microcopy": "Zrozumienie to potężny pierwszy krok.",
       "cta": "Skończ czytać"
     }
-  ],
+  },
   "complete": {
     "title": "Zdobyta świadomość",
     "message": "Zrozumienie korzeni kontroli to odważny pierwszy krok do znalezienia nowych sposobów na poczucie bezpieczeństwa i stabilności.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Napiš další myšlenku...",
+  "resume": "Životopis",
+  "pause": "Pauza",
+  "growth_reminder": "I malé kroky snižují duševní zátěž. Ty ne.",
+  "lang": "dlouhý",
+  "complete_message": "Ty",
+  "welcome_sub": "Vítejte",
+  "clearing_sub": "Mentální vyčištění",
+  "sorting_sub": "Třídění",
+  "action_sub": "Akční kroky",
+  "reflect_sub": "Reflexe",
+  "intro": {
+    "viewHistory": "Zobrazit historii"
+  }
 }

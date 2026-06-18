@@ -1,58 +1,58 @@
 {
   "app_title": "Entendendo o Controle",
   "app_subtitle": "Estratégia de Sobrevivência • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Por que o controle pode parecer tão poderoso",
-      "paragraphs": [
-        "Para muitas pessoas que enfrentam dificuldades alimentares, o controle pode parecer uma forma de criar segurança.",
-        "Quando a vida parece imprevisível ou emocionalmente intensa, focar em comida, peso ou rotinas pode trazer uma sensação de estrutura e certeza.",
-        "Isso não é sobre força de vontade ou disciplina. É sobre tentar se equilibrar quando as coisas parecem incertas.",
-        "Dessa forma, o controle se torna uma estratégia de enfrentamento — algo que ajuda você a se sentir com os pés no chão, mesmo que temporariamente."
-      ],
+      "paragraphs": {
+        "0": "Para muitas pessoas que enfrentam dificuldades alimentares, o controle pode parecer uma forma de criar segurança.",
+        "1": "Quando a vida parece imprevisível ou emocionalmente intensa, focar em comida, peso ou rotinas pode trazer uma sensação de estrutura e certeza.",
+        "2": "Isso não é sobre força de vontade ou disciplina. É sobre tentar se equilibrar quando as coisas parecem incertas.",
+        "3": "Dessa forma, o controle se torna uma estratégia de enfrentamento — algo que ajuda você a se sentir com os pés no chão, mesmo que temporariamente."
+      },
       "microcopy": "Você não está sozinho sentindo isso.",
       "cta": "Continue"
     },
-    {
+    "1": {
       "headline": "Diferentes Formas de Aparência do Controle",
       "intro": "A necessidade de controle não é igual para todos, mas frequentemente aparece em padrões como:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Regras rígidas ou inflexíveis sobre alimentos"
         },
-        {
+        "1": {
           "text": "Preciso seguir rotinas exatamente"
         },
-        {
+        "2": {
           "text": "Ansiedade quando os planos mudam"
         },
-        {
+        "3": {
           "text": "Vinculando autoestima ao formato/peso"
         }
-      ],
+      },
       "outro": "Com o tempo, esses fatores podem se tornar rígidos, ocupando espaço mental e dificultando a adaptação.",
       "microcopy": "O que começa como controle pode, aos poucos, começar a parecer controlador.",
       "cta": "Continue"
     },
-    {
+    "2": {
       "headline": "Sob o Controle",
       "intro": "O impulso de controle frequentemente tem raízes mais profundas. Ele pode ser conectado a:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Sentindo-se emocionalmente inundado"
         },
-        {
+        "1": {
           "text": "Querendo previsibilidade"
         },
-        {
+        "2": {
           "text": "Uma necessidade de estabilidade e segurança"
         }
-      ],
+      },
       "insight": "O controle não é o problema — é a estratégia que sua mente encontrou para lidar com isso. Com tempo e apoio, outras formas de se sentir seguro são possíveis.",
       "microcopy": "Compreender é um primeiro passo poderoso.",
       "cta": "Terminar a leitura"
     }
-  ],
+  },
   "complete": {
     "title": "Conscientização Adquirida",
     "message": "Compreender as raízes do controle é um primeiro passo corajoso para encontrar novas formas de se sentir seguro e estável.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

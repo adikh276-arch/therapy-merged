@@ -3,39 +3,40 @@
   "app_subtitle": "Libérez vos pensées en toute sécurité et en privé",
   "intro": {
     "title": "La lettre non envoyée",
-    "description": [
-      "Parfois, il y a des choses que nous aimerions pouvoir dire — mais que nous n’avons jamais eu l’occasion de faire.",
-      "Cela pouvait venir du fait que cela ne semblait pas sûr, que le timing n’était pas bon, ou que les mots étaient trop difficiles à dire à voix haute.",
-      "Cette activité vous offre un espace privé pour mettre ces pensées en mots.",
-      "Tu n’es pas obligé d’envoyer cette lettre. C’est juste pour vous — pour exprimer, libérer et mieux comprendre vos sentiments."
-    ],
+    "description": {
+      "0": "Parfois, il y a des choses que nous aimerions pouvoir dire — mais que nous n’avons jamais eu l’occasion de faire.",
+      "1": "Cela pouvait venir du fait que cela ne semblait pas sûr, que le timing n’était pas bon, ou que les mots étaient trop difficiles à dire à voix haute.",
+      "2": "Cette activité vous offre un espace privé pour mettre ces pensées en mots.",
+      "3": "Tu n’es pas obligé d’envoyer cette lettre. C’est juste pour vous — pour exprimer, libérer et mieux comprendre vos sentiments."
+    },
     "notice": "Écrivez librement. Personne d’autre ne verra ça.",
     "button": "Commencez à écrire →"
   },
   "writing": {
     "title": "Écris ce que tu as gardé pour toi",
     "desc": "Vous pouvez écrire à votre partenaire, à votre ex-partenaire, ou même à la relation elle-même. Il n’y a pas de bonne ou de mauvaise façon de faire cela.",
-    "prompts": [
-      "Je me sens...",
-      "J’aimerais bien...",
-      "Je n’ai jamais dit...",
-      "Ce qui m’a blessé...",
-      "Ce dont j’avais besoin..."
-    ],
+    "prompts": {
+      "0": "Je me sens...",
+      "1": "J’aimerais bien...",
+      "2": "Je n’ai jamais dit...",
+      "3": "Ce qui m’a blessé...",
+      "4": "Ce dont j’avais besoin..."
+    },
     "placeholder": "Cher ____,\nJ’avais envie de dire...",
     "notice": "Vous pouvez faire une pause et revenir à tout moment.",
     "button": "Continuez →"
   },
   "reflection": {
     "title": "Prends un moment avec ça",
-    "description": [
-      "Vous venez de mettre vos pensées et vos sentiments en mots — cela demande du courage.",
-      "Vous pourriez remarquer un mélange d’émotions en ce moment, et c’est tout à fait normal.",
-      "Avant de passer à autre chose, respirez et prenez doucement des nouvelles de vous-même."
-    ],
+    "description": {
+      "0": "Vous venez de mettre vos pensées et vos sentiments en mots — cela demande du courage.",
+      "1": "Vous pourriez remarquer un mélange d’émotions en ce moment, et c’est tout à fait normal.",
+      "2": "Avant de passer à autre chose, respirez et prenez doucement des nouvelles de vous-même."
+    },
     "notice": "C’était pour ta guérison, pas pour l’envoyer.",
     "save_button": "Save Letter",
-    "finish_button": "Fin"
+    "finish_button": "Fin",
+    "save_success": "Votre lettre non envoyée est réparée en toute sécurité dans votre journal privé local. L’expression est une libération profonde."
   },
   "history": {
     "title": "Lettres passées",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
-    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette lettre non envoyée ?"
   },
   "app_description": "Libérez vos pensées en toute sécurité et en toute confidentialité",
   "more": "Plus",
@@ -98,5 +100,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

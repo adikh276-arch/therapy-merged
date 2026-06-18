@@ -1,14 +1,14 @@
 {
   "app_title": "Przerwa współczucia",
-  "screen_titles": [
-    "Odprawa",
-    "Identyfikacja",
-    "Oddychanie",
-    "Życzliwość",
-    "Zmiana",
-    "Refleksja",
-    "Ukończone"
-  ],
+  "screen_titles": {
+    "0": "Odprawa",
+    "1": "Identyfikacja",
+    "2": "Oddychanie",
+    "3": "Życzliwość",
+    "4": "Zmiana",
+    "5": "Refleksja",
+    "6": "Ukończone"
+  },
   "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
   "save_success": "Zachowane odbicie",
   "save_error": "Nie udało się zachować odbicia",
@@ -25,14 +25,14 @@
   "continue_button": "Kontynuuj",
   "nameit_title": "Ułóż to w słowa",
   "nameit_subtitle": "Teraz czuję się _______",
-  "emotions_list": [
-    "niespokojny",
-    "winny",
-    "przytłoczony",
-    "napięcie",
-    "zmęczony",
-    "smutne"
-  ],
+  "emotions_list": {
+    "0": "niespokojny",
+    "1": "winny",
+    "2": "przytłoczony",
+    "3": "napięcie",
+    "4": "zmęczony",
+    "5": "smutne"
+  },
   "label_custom_emotion": "albo napisz własne",
   "placeholder_emotion": "1–2 słowa",
   "nameit_footer": "Prostota wystarczy.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie",
+  "intro": {
+    "view_past": "Zobacz poprzednie sesje"
+  },
+  "history": {
+    "title": "Historia współczucia dla siebie",
+    "no_entries": "Nie znaleziono żadnych dawnych zapisów przerw."
+  },
+  "loading": "Historia ładowania..."
 }

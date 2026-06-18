@@ -16,23 +16,23 @@
   "btn_one_more": "En ting til",
   "screen3_tag": "Milde sannheter",
   "screen3_title": "Verdt å vite",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Ingen frist",
       "body": "Det finnes ingen utløpsdato for tap. Å kjenne det måneder eller år senere betyr ikke at du sitter fast — det betyr at du elsket."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Motstridende følelser",
       "body": "Du kan savne noen og føle deg lettet. Du kan le og sørge. Sorg har motsetninger."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Kjærlighetens forvandling",
       "body": "Smerten er ikke adskilt fra kjærligheten. Det er det samme, forvandlet."
     }
-  ],
+  },
   "btn_finish": "Ferdig refleksjon",
   "complete_title": "Journey Honored",
   "complete_message": "Du trenger ikke gå videre. Du lærer bare å bære det annerledes. Din reise er unik, gyldig og dypt menneskelig.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

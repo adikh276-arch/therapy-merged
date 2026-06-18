@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Qu’est-ce qui te déclenche ?",
     "desc": "Choisissez une situation à laquelle vous vous identifiez",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Quelqu’un m’interrompt",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Les choses ne se passent pas comme prévu",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Je me sens ignoré",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Je me sens dépassé",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Tape ta propre image...",
     "button": "Pause de →"
   },
   "hold": {
     "title": "Tenir en pause ⏸️",
     "instructions": "Maintenez le cercle pendant 5 secondes",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Appuie et tiens bon..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Tiens bon..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Tu le fais..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Presque arrivé..."
       }
-    ]
+    }
   },
   "result": {
     "title": "C’est la pause",
@@ -121,5 +121,7 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "other": "Autres",
+  "lang": "long"
 }

@@ -3,11 +3,11 @@
   "intro": {
     "title": "Möt ditt sinne",
     "description": "Lär dig att distansera dig från överväldigande tankar genom att ge din inre röst ett namn.",
-    "benefits": [
-      "Skapa mental distans",
-      "Minska kraften i hårda tankar",
-      "Lägg märke till tankar utan att vara dem"
-    ],
+    "benefits": {
+      "0": "Skapa mental distans",
+      "1": "Minska kraften i hårda tankar",
+      "2": "Lägg märke till tankar utan att vara dem"
+    },
     "duration": "2-3 minuter",
     "view_past": "Visa tidigare bidrag"
   },
@@ -45,15 +45,15 @@
       "title": "Skapa lite avstånd",
       "desc": "Ge ditt sinne ett namn för att hjälpa dig att separera dig från dessa tankar.",
       "placeholder": "Eller skriv din egen...",
-      "examples": [
-        "Kritikern",
-        "Övertänkare",
-        "Oro FM",
-        "Övertänkarmaskinen",
-        "Den inre kritikern",
-        "Tänk-om-generatorn",
-        "Dramaregissör"
-      ]
+      "examples": {
+        "0": "Kritikern",
+        "1": "Övertänkare",
+        "2": "Oro FM",
+        "3": "Övertänkarmaskinen",
+        "4": "Den inre kritikern",
+        "5": "Tänk-om-generatorn",
+        "6": "Dramaregissör"
+      }
     },
     "practice": {
       "title": "Prova det här skiftet",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Vad märkte du?",
       "desc": "Hur kändes tanken efter att ha gett den ett namn?",
-      "options": [
-        "Tanken kändes lite mindre intensiv än tidigare",
-        "Jag kände att jag hade lite distans från tanken",
-        "Den kändes fortfarande lika stark som tidigare",
-        "Jag är inte säker på vad som förändrades, om något alls"
-      ],
+      "options": {
+        "0": "Tanken kändes lite mindre intensiv än tidigare",
+        "1": "Jag kände att jag hade lite distans från tanken",
+        "2": "Den kändes fortfarande lika stark som tidigare",
+        "3": "Jag är inte säker på vad som förändrades, om något alls"
+      },
       "button": "Fullständig reflektion"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

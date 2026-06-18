@@ -1,14 +1,14 @@
 {
   "app_title": "同情休息",
-  "screen_titles": [
-    "报到",
-    "确认",
-    "呼吸",
-    "仁慈",
-    "转移",
-    "反映",
-    "完全的"
-  ],
+  "screen_titles": {
+    "0": "报到",
+    "1": "确认",
+    "2": "呼吸",
+    "3": "仁慈",
+    "4": "转移",
+    "5": "反映",
+    "6": "完全的"
+  },
   "auth_error": "身份验证会话缺失或数据库未配置",
   "save_success": "反射得以保留",
   "save_error": "未能保留反射",
@@ -25,14 +25,14 @@
   "continue_button": "继续",
   "nameit_title": "用文字表达出来",
   "nameit_subtitle": "我现在感觉_______",
-  "emotions_list": [
-    "焦虑的",
-    "有罪的",
-    "不堪重负",
-    "紧张",
-    "疲劳的",
-    "伤心"
-  ],
+  "emotions_list": {
+    "0": "焦虑的",
+    "1": "有罪的",
+    "2": "不堪重负",
+    "3": "紧张",
+    "4": "疲劳的",
+    "5": "伤心"
+  },
   "label_custom_emotion": "或者输入您自己的内容",
   "placeholder_emotion": "1-2个词",
   "nameit_footer": "简单就足够了。",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "intro": {
+    "view_past": "查看往届会议"
+  },
+  "history": {
+    "title": "自我慈悲的历史",
+    "no_entries": "未发现过去的故障日志。"
+  },
+  "loading": "加载历史......"
 }

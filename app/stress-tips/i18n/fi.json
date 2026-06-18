@@ -10,57 +10,57 @@
       "title": "Saa levollinen uni",
       "description": "Pyri nukkumaan 7–9 tuntia joka yö. Yritä nukkua ja herätä samaan aikaan päivittäin.",
       "why": "Uni auttaa aivojasi ja kehoasi palautumaan ja laskee stressihormoneja.",
-      "do": [
-        "Pidä kiinteä unirytmi",
-        "Vältä näyttöjä tunti ennen nukkumaanmenoa",
-        "Pidä huone viileänä ja pimeänä",
-        "Vältä kofeiinia klo 16 jälkeen"
-      ],
+      "do": {
+        "0": "Pidä kiinteä unirytmi",
+        "1": "Vältä näyttöjä tunti ennen nukkumaanmenoa",
+        "2": "Pidä huone viileänä ja pimeänä",
+        "3": "Vältä kofeiinia klo 16 jälkeen"
+      },
       "button": "Aseta unimuistutus"
     },
     "breathing": {
       "title": "Harjoittele syvähengitystä",
       "description": "Keskity muutama minuutti hengitykseesi. Hidas hengitys vähentää ahdistusta.",
       "why": "Hidas hengitys aktivoi kehon rentoutumisreaktion.",
-      "do": [
-        "Hengitä sisään 4 sekuntia",
-        "Pidä 4 sekuntia",
-        "Hengitä ulos 4 sekuntia",
-        "Toista 1 minuutin ajan"
-      ]
+      "do": {
+        "0": "Hengitä sisään 4 sekuntia",
+        "1": "Pidä 4 sekuntia",
+        "2": "Hengitä ulos 4 sekuntia",
+        "3": "Toista 1 minuutin ajan"
+      }
     },
     "exercise": {
       "title": "Liikuta kehoasi",
       "description": "Kevyt kävely tai venyttely auttaa purkamaan stressiä ja parantamaan mielialaa.",
       "why": "Liikunta vapauttaa endorfiineja ja parantaa mielialaa.",
-      "do": [
-        "15 minuutin kävelymatka",
-        "Kevyt venyttely",
-        "Lyhyt joogatunti",
-        "Nopea kotitreeni"
-      ]
+      "do": {
+        "0": "15 minuutin kävelymatka",
+        "1": "Kevyt venyttely",
+        "2": "Lyhyt joogatunti",
+        "3": "Nopea kotitreeni"
+      }
     },
     "caffeine": {
       "title": "Rajoita kofeiinin ja sokerin käyttöä",
       "description": "Liiallinen kofeiini ja sokeri voivat lisätä ahdistusta ja häiritä unta.",
       "why": "Liiallinen kofeiini ja sokeri lisäävät ahdistusta ja univaikeuksia.",
-      "do": [
-        "Korvaa yksi kahvi yrttiteellä",
-        "Juo enemmän vettä",
-        "Vähennä sokerisia välipaloja",
-        "Vältä kofeiinia myöhään päivällä"
-      ]
+      "do": {
+        "0": "Korvaa yksi kahvi yrttiteellä",
+        "1": "Juo enemmän vettä",
+        "2": "Vähennä sokerisia välipaloja",
+        "3": "Vältä kofeiinia myöhään päivällä"
+      }
     },
     "planning": {
       "title": "Suunnittele päiväsi",
       "description": "Pilko suuret tehtävät pienempiin vaiheisiin, jotta et tunne itseään ylikuormittuneeksi.",
       "why": "Suunnittelu vähentää henkistä sotkua ja ylikuormitusta.",
-      "do": [
-        "Kirjoita 3 päätehtävää",
-        "Pilko tehtävät pieniksi askeliksi",
-        "Keskity yhteen tehtävään kerrallaan",
-        "Pidä lyhyitä taukoja"
-      ]
+      "do": {
+        "0": "Kirjoita 3 päätehtävää",
+        "1": "Pilko tehtävät pieniksi askeliksi",
+        "2": "Keskity yhteen tehtävään kerrallaan",
+        "3": "Pidä lyhyitä taukoja"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Hengitä sisään...",
+  "Hold…": "Odota...",
+  "Exhale…": "Hengitä ulos...",
+  "breathing_instruction": "Seuraa ympyrää säädelläksesi",
+  "Resume": "Ansioluettelo",
+  "Pause": "Tauko",
+  "lang": "pitkä",
+  "Grounding": "Henkinen stressin purku",
+  "stay_present": "Vinkkejä stressinlievitykseen",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Valitse alla mikä tahansa kohdestrategia ja tutustu siihen, miksi se auttaa ja miten voit soveltaa sitä päivittäin."
+  },
+  "wellness_tip": "PÄIVITTÄINEN STRESSISTRATEGIA"
 }

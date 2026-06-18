@@ -1,12 +1,12 @@
 {
   "app_title": "Boîte à souvenirs",
-  "screen_titles": [
-    "Votre boîte",
-    "Hommage",
-    "Expression",
-    "Préservé",
-    "Soins doux"
-  ],
+  "screen_titles": {
+    "0": "Votre boîte",
+    "1": "Hommage",
+    "2": "Expression",
+    "3": "Préservé",
+    "4": "Soins doux"
+  },
   "complete_title": "Mémoire préservée",
   "complete_message": "Vous avez bien placé un souvenir de {{name}} dans votre boîte. Ces moments de connexion sont toujours à vous.",
   "auth_error": "Session d’authentification manquante ou base de données non configurée",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Tape leur nom...",
     "placeholder_relation": "Comment les connais-tu ? (optionnel)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Un moment heureux",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Quelque chose qu’ils disaient autrefois",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Un petit souvenir quotidien",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Un endroit qui vous rappelle eux",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "C’est quelque chose que j’aimerais pouvoir dire",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Continuez →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Bien caché",
     "subtitle": "Ce souvenir de {{name}} fait désormais partie de votre collection.",
     "add_another": "Ajouter un autre souvenir",
-    "finish": "Réflexion de finition"
+    "finish": "Réflexion de finition",
+    "saved_title": "Protégé"
   },
   "closing": {
     "title": "Prendre soin de toi",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
-    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce souvenir ?"
   },
   "app_description": "Boîte à souvenirs",
   "before_you_go": "Avant de partir",
@@ -142,5 +144,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

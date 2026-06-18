@@ -10,21 +10,22 @@
   "s2": {
     "tag": "Kebenaran Lembut",
     "title": "Logika kelangsungan hidup otak",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Alarm tetap menyala",
         "body": "Kewaspadaan dan kejutan dengan mudah bukanlah reaksi berlebihan - sistem alarm otak Anda melakukan tugasnya dengan sangat baik."
       },
-      {
+      "1": {
         "header": "Kilas balik adalah kenangan",
         "body": "Pemicu menarik otak Anda ke belakang karena tidak pernah mendapat sinyal bahwa ancaman telah berakhir. Itu mencoba melindungi Anda."
       },
-      {
+      "2": {
         "header": "Berjuang untukmu",
         "body": "Setiap gejala pernah merupakan tindakan bertahan hidup. Otak Anda melakukan apa yang harus dilakukan untuk membuat Anda tetap hidup."
       }
-    ],
-    "healing": "Penyembuhan bukan tentang melupakan. Ini tentang membantu otak Anda belajar bahwa Anda aman sekarang."
+    },
+    "healing": "Penyembuhan bukan tentang melupakan. Ini tentang membantu otak Anda belajar bahwa Anda aman sekarang.",
+    "finish_reading": "Selesai Membaca"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "complete": {
+    "message": "Anda"
+  }
 }

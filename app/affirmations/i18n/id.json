@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "Saat kamu merasa kesepian dan sedih",
-      "affirmations": [
-        "Aku tidak sendirian, meskipun terkadang terasa seperti itu.",
-        "Perasaanku layak mendapatkan perhatian dan kelembutan.",
-        "Momen ini tidak akan berlangsung selamanya.",
-        "Saya berhak membutuhkan koneksi.",
-        "Aku bisa memberikan kehangatan pada diriku sendiri saat ini."
-      ]
+      "affirmations": {
+        "0": "Aku tidak sendirian, meskipun terkadang terasa seperti itu.",
+        "1": "Perasaanku layak mendapatkan perhatian dan kelembutan.",
+        "2": "Momen ini tidak akan berlangsung selamanya.",
+        "3": "Saya berhak membutuhkan koneksi.",
+        "4": "Aku bisa memberikan kehangatan pada diriku sendiri saat ini."
+      }
     },
     "terrified": {
       "label": "Saat kamu merasa ketakutan",
-      "affirmations": [
-        "Saat ini saya merasa aman.",
-        "Rasa takut adalah sebuah perasaan, bukan sebuah prediksi.",
-        "Aku bisa menjalani ini selangkah demi selangkah.",
-        "Saya tidak perlu menyelesaikan semuanya sekarang juga.",
-        "Aku lebih kuat dari momen ini."
-      ]
+      "affirmations": {
+        "0": "Saat ini saya merasa aman.",
+        "1": "Rasa takut adalah sebuah perasaan, bukan sebuah prediksi.",
+        "2": "Aku bisa menjalani ini selangkah demi selangkah.",
+        "3": "Saya tidak perlu menyelesaikan semuanya sekarang juga.",
+        "4": "Aku lebih kuat dari momen ini."
+      }
     },
     "insignificant": {
       "label": "Saat kamu merasa tidak berarti",
-      "affirmations": [
-        "Momen-momen kecil tetap berarti.",
-        "Saya tidak perlu membuktikan nilai saya.",
-        "Saya diizinkan untuk menempati tempat.",
-        "Keberadaanku berarti.",
-        "Aku sudah cukup apa adanya."
-      ]
+      "affirmations": {
+        "0": "Momen-momen kecil tetap berarti.",
+        "1": "Saya tidak perlu membuktikan nilai saya.",
+        "2": "Saya diizinkan untuk menempati tempat.",
+        "3": "Keberadaanku berarti.",
+        "4": "Aku sudah cukup apa adanya."
+      }
     },
     "overwhelmed": {
       "label": "Saat kamu merasa kewalahan",
-      "affirmations": [
-        "Saya tidak harus melakukan semuanya sekaligus.",
-        "Satu langkah kecil sudah cukup.",
-        "Tidak apa-apa untuk berhenti sejenak.",
-        "Saya diizinkan untuk beristirahat.",
-        "Ini akan kembali terkendali."
-      ]
+      "affirmations": {
+        "0": "Saya tidak harus melakukan semuanya sekaligus.",
+        "1": "Satu langkah kecil sudah cukup.",
+        "2": "Tidak apa-apa untuk berhenti sejenak.",
+        "3": "Saya diizinkan untuk beristirahat.",
+        "4": "Ini akan kembali terkendali."
+      }
     },
     "hopeless": {
       "label": "Saat kamu merasa putus asa",
-      "affirmations": [
-        "Aku tidak butuh jawaban hari ini.",
-        "Perubahan masih mungkin terjadi.",
-        "Aku sudah pernah melewati hari-hari sulit sebelumnya.",
-        "Aku bisa tinggal di sini untuk sementara waktu.",
-        "Sesuatu yang lembut masih bisa terjadi."
-      ]
+      "affirmations": {
+        "0": "Aku tidak butuh jawaban hari ini.",
+        "1": "Perubahan masih mungkin terjadi.",
+        "2": "Aku sudah pernah melewati hari-hari sulit sebelumnya.",
+        "3": "Aku bisa tinggal di sini untuk sementara waktu.",
+        "4": "Sesuatu yang lembut masih bisa terjadi."
+      }
     },
     "conflicted": {
       "label": "Saat kamu merasa bimbang",
-      "affirmations": [
-        "Tidak apa-apa merasakan lebih dari satu hal sekaligus.",
-        "Saya tidak butuh kejelasan segera.",
-        "Kebingungan bukan berarti kegagalan.",
-        "Aku bisa memberi diriku waktu.",
-        "Saya percaya diri bisa memecahkan masalah ini."
-      ]
+      "affirmations": {
+        "0": "Tidak apa-apa merasakan lebih dari satu hal sekaligus.",
+        "1": "Saya tidak butuh kejelasan segera.",
+        "2": "Kebingungan bukan berarti kegagalan.",
+        "3": "Aku bisa memberi diriku waktu.",
+        "4": "Saya percaya diri bisa memecahkan masalah ini."
+      }
     },
     "self-critical": {
       "label": "Ketika Anda sangat kritis terhadap diri sendiri",
-      "affirmations": [
-        "Aku bisa berbicara pada diriku sendiri dengan penuh kebaikan.",
-        "Aku tidak perlu menghukum diriku sendiri untuk berkembang.",
-        "Kesalahan tidak mendefinisikan siapa saya.",
-        "Saya sedang belajar, bukan gagal.",
-        "Pertumbuhan tidak membutuhkan kekejaman."
-      ]
+      "affirmations": {
+        "0": "Aku bisa berbicara pada diriku sendiri dengan penuh kebaikan.",
+        "1": "Aku tidak perlu menghukum diriku sendiri untuk berkembang.",
+        "2": "Kesalahan tidak mendefinisikan siapa saya.",
+        "3": "Saya sedang belajar, bukan gagal.",
+        "4": "Pertumbuhan tidak membutuhkan kekejaman."
+      }
     },
     "out-of-place": {
       "label": "Saat kamu merasa tidak nyaman secara sosial",
-      "affirmations": [
-        "Saya boleh diam atau berbeda.",
-        "Aku tidak perlu menyamai energi orang lain.",
-        "Aku diterima apa adanya.",
-        "Saya bisa menempati ruang dengan lembut.",
-        "Saya tidak melakukan kesalahan dalam hal ini."
-      ]
+      "affirmations": {
+        "0": "Saya boleh diam atau berbeda.",
+        "1": "Aku tidak perlu menyamai energi orang lain.",
+        "2": "Aku diterima apa adanya.",
+        "3": "Saya bisa menempati ruang dengan lembut.",
+        "4": "Saya tidak melakukan kesalahan dalam hal ini."
+      }
     },
     "unsafe": {
       "label": "Saat Anda merasa tidak aman di sekitar orang asing",
-      "affirmations": [
-        "Saya bisa bergerak dengan kecepatan saya sendiri.",
-        "Saya diizinkan untuk melindungi batasan saya.",
-        "Saya bisa tetap terhubung dengan tubuh saya.",
-        "Saya diperbolehkan untuk meninggalkan situasi tersebut.",
-        "Aku bisa menjaga diriku tetap aman."
-      ]
+      "affirmations": {
+        "0": "Saya bisa bergerak dengan kecepatan saya sendiri.",
+        "1": "Saya diizinkan untuk melindungi batasan saya.",
+        "2": "Saya bisa tetap terhubung dengan tubuh saya.",
+        "3": "Saya diperbolehkan untuk meninggalkan situasi tersebut.",
+        "4": "Aku bisa menjaga diriku tetap aman."
+      }
     },
     "pressured": {
       "label": "Saat Anda merasa tertekan di tempat kerja",
-      "affirmations": [
-        "Nilai diriku bukanlah produktivitasku.",
-        "Saya tidak perlu terus-menerus membuktikan diri.",
-        "Melakukan yang terbaik sudah cukup hari ini.",
-        "Kerjakan satu tugas dalam satu waktu, itu tidak masalah.",
-        "Saya lebih dari sekadar peran saya."
-      ]
+      "affirmations": {
+        "0": "Nilai diriku bukanlah produktivitasku.",
+        "1": "Saya tidak perlu terus-menerus membuktikan diri.",
+        "2": "Melakukan yang terbaik sudah cukup hari ini.",
+        "3": "Kerjakan satu tugas dalam satu waktu, itu tidak masalah.",
+        "4": "Saya lebih dari sekadar peran saya."
+      }
     },
     "face-the-day": {
       "label": "Saat kamu tidak ingin menghadapi hari itu",
-      "affirmations": [
-        "Aku bisa menjalani hari ini sedikit demi sedikit.",
-        "Melewatinya saja sudah cukup.",
-        "Saya tidak butuh motivasi untuk memulai.",
-        "Menunjukkan sikap ramah tetaplah berarti.",
-        "Hari ini tidak mendefinisikan diriku."
-      ]
+      "affirmations": {
+        "0": "Aku bisa menjalani hari ini sedikit demi sedikit.",
+        "1": "Melewatinya saja sudah cukup.",
+        "2": "Saya tidak butuh motivasi untuk memulai.",
+        "3": "Menunjukkan sikap ramah tetaplah berarti.",
+        "4": "Hari ini tidak mendefinisikan diriku."
+      }
     },
     "future": {
       "label": "Saat kamu mengkhawatirkan masa depanmu",
-      "affirmations": [
-        "Saya bisa kembali ke masa sekarang.",
-        "Saya akan menangani segala sesuatunya seiring berjalannya waktu.",
-        "Aku tidak butuh kepastian hari ini.",
-        "Saya mampu beradaptasi.",
-        "Aku bisa lebih percaya pada diriku sendiri."
-      ]
+      "affirmations": {
+        "0": "Saya bisa kembali ke masa sekarang.",
+        "1": "Saya akan menangani segala sesuatunya seiring berjalannya waktu.",
+        "2": "Aku tidak butuh kepastian hari ini.",
+        "3": "Saya mampu beradaptasi.",
+        "4": "Aku bisa lebih percaya pada diriku sendiri."
+      }
     },
     "stuck": {
       "label": "Saat Anda merasa terjebak dalam suatu masalah",
-      "affirmations": [
-        "Terjebak bukan berarti aku rusak.",
-        "Saya bisa berhenti sejenak tanpa menyerah.",
-        "Saya tidak butuh solusi instan.",
-        "Saya berhak merasa ragu.",
-        "Saya masih bergerak, meskipun perlahan."
-      ]
+      "affirmations": {
+        "0": "Terjebak bukan berarti aku rusak.",
+        "1": "Saya bisa berhenti sejenak tanpa menyerah.",
+        "2": "Saya tidak butuh solusi instan.",
+        "3": "Saya berhak merasa ragu.",
+        "4": "Saya masih bergerak, meskipun perlahan."
+      }
     },
     "compare": {
       "label": "Saat kamu membandingkan dirimu sendiri",
-      "affirmations": [
-        "Perjalanan hidupku adalah milikku sendiri.",
-        "Saya tidak perlu berkompetisi untuk menjadi berharga.",
-        "Saya diizinkan untuk berkembang sesuai dengan kecepatan saya sendiri.",
-        "Kesuksesan orang lain tidak menghapus kesuksesan saya.",
-        "Saya tidak ketinggalan."
-      ]
+      "affirmations": {
+        "0": "Perjalanan hidupku adalah milikku sendiri.",
+        "1": "Saya tidak perlu berkompetisi untuk menjadi berharga.",
+        "2": "Saya diizinkan untuk berkembang sesuai dengan kecepatan saya sendiri.",
+        "3": "Kesuksesan orang lain tidak menghapus kesuksesan saya.",
+        "4": "Saya tidak ketinggalan."
+      }
     },
     "give-up": {
       "label": "Saat kamu ingin menyerah",
-      "affirmations": [
-        "Saya tidak perlu memutuskan apa pun sekarang.",
-        "Perasaan ini akan berlalu.",
-        "Aku telah melewati lebih banyak hal daripada yang kusadari.",
-        "Saya bisa tinggal sebentar lagi.",
-        "Saya masih di sini — dan itu penting."
-      ]
+      "affirmations": {
+        "0": "Saya tidak perlu memutuskan apa pun sekarang.",
+        "1": "Perasaan ini akan berlalu.",
+        "2": "Aku telah melewati lebih banyak hal daripada yang kusadari.",
+        "3": "Saya bisa tinggal sebentar lagi.",
+        "4": "Saya masih di sini — dan itu penting."
+      }
     }
   },
   "app_complete_title": "Merasa Diberdayakan",
@@ -188,11 +188,11 @@
   "app_description": "Ubah pola pikir Anda melalui afirmasi harian.",
   "intro": {
     "description": "Afirmasi harian membantu membentuk kembali pola pikir Anda dan membangun ketahanan emosional. Luangkan beberapa saat untuk fokus pada pikiran positif dan berbicaralah dengan lembut kepada diri sendiri.",
-    "benefits": [
-      "Temukan kedamaian di saat-saat sulit.",
-      "Tantang pola pikir negatif",
-      "Bangun rasa welas asih dan kekuatan diri."
-    ]
+    "benefits": {
+      "0": "Temukan kedamaian di saat-saat sulit.",
+      "1": "Tantang pola pikir negatif",
+      "2": "Bangun rasa welas asih dan kekuatan diri."
+    }
   },
   "affirmation_for": "Penegasan untuk",
   "affirmation": "Afirmasi",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Bagaimana perasaanmu?",
+  "feelings_subheading": "Pilih emosi yang Anda miliki",
+  "lang": "panjang"
 }

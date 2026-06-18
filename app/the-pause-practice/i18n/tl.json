@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Ano ang nag-trigger sa iyo?",
     "desc": "Pumili ng sitwasyong nauugnay sa iyo",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "May pumigil sa akin",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Ang mga bagay ay hindi napupunta ayon sa plano",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Pakiramdam ko ay hindi ako pinansin",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Pakiramdam ko ay labis na nababaliw",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "I-type ang iyong sariling ...",
     "button": "Magpraktis I-pause →"
   },
   "hold": {
     "title": "I-hold ang pahinga ⏸️",
     "instructions": "Hawakan ang bilog sa loob ng 5 segundo",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Pindutin at hawakan ..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Manatili sa ito ..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Ginagawa mo ito..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Halos doon..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Iyon ang pahinga",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "other",
+  "lang": "lang"
 }

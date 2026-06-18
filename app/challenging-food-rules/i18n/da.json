@@ -16,23 +16,23 @@
   },
   "rule_label": "Navngivning af reglen",
   "rule_question": "Hvad er reglen?",
-  "rule_options": [
-    "Jeg bør ikke spise efter et vist tidspunkt",
-    "Nogle fødevarer er forbudt område",
-    "Jeg skal kontrollere portionerne strengt"
-  ],
+  "rule_options": {
+    "0": "Jeg bør ikke spise efter et vist tidspunkt",
+    "1": "Nogle fødevarer er forbudt område",
+    "2": "Jeg skal kontrollere portionerne strengt"
+  },
   "rule_something_else": "Noget andet...",
   "rule_placeholder": "Skriv din madregel...",
   "feeling_label": "Følelsesmæssig påvirkning",
   "feeling_question": "Hvordan føles det?",
-  "feeling_options": [
-    "😟 Ængstelig",
-    "😌 I kontrol",
-    "😕 Skyldig",
-    "😣 Begrænset",
-    "😴 Træt",
-    "😐 Mixed"
-  ],
+  "feeling_options": {
+    "0": "😟 Ængstelig",
+    "1": "😌 I kontrol",
+    "2": "😕 Skyldig",
+    "3": "😣 Begrænset",
+    "4": "😴 Træt",
+    "5": "😐 Mixed"
+  },
   "challenge_label": "Blød udfordring",
   "challenge_question": "Stille spørgsmål...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Lépjünk lépésről lépésre. 💛",
-    "description": [
-      "Nem kell ma az egész történetedet elmesélni. Csak egy kis rész is elég.",
-      "Most biztonságban vagy. Te irányítod, mit írsz – és mit nem."
-    ],
+    "description": {
+      "0": "Nem kell ma az egész történetedet elmesélni. Csak egy kis rész is elég.",
+      "1": "Most biztonságban vagy. Te irányítod, mit írsz – és mit nem."
+    },
     "breath": "Vegyél egy mély levegőt, mielőtt elkezdjük.",
     "button_ready": "Készen állok",
     "button_history": "Múltbeli történetek",
@@ -21,20 +21,20 @@
     "title": "Írj azt, ami rendben ✨ van",
     "subtitle": "A szavai, a tempód",
     "prompt_label": "Szükséged van kiindulópontra?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Amit a legjobban emlékszem, az az...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Akkoriban éreztem magam...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Azóta észrevettem...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Kezdj el itt írni...",
     "notice": "Nincs helyes módja ennek. Még néhány sor is elég.",
     "button": "Befejezés az írás"
@@ -43,10 +43,10 @@
     "title": "Valami fontosat tettél.",
     "subtitle": "Köszönöm, hogy magadért is megjelentél.",
     "settle_title": "Szánjunk egy pillanatot, hogy legyőzzük",
-    "steps": [
-      "Nézz körül, és nevezz meg 3 dolgot, amit látsz.",
-      "Vegyél egy lassan levegőt... és ki."
-    ],
+    "steps": {
+      "0": "Nézz körül, és nevezz meg 3 dolgot, amit látsz.",
+      "1": "Vegyél egy lassan levegőt... és ki."
+    },
     "feeling_label": "Most úgy érzem:",
     "feeling_placeholder": "Egy-két szó...",
     "quote": "\"Nem kell mindent egyszerre cipelni. Bármikor visszajöhetsz, amikor készen állsz.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

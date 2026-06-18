@@ -1,15 +1,15 @@
 {
   "app_title": "Voedsel- en Emotiekaart",
-  "screen_titles": [
-    "Welkom",
-    "Voedselpatronen",
-    "Interne Dialoog",
-    "Fysieke waarneming",
-    "De Kaart",
-    "Zachte steun",
-    "Eindresultaat",
-    "Reflecterend"
-  ],
+  "screen_titles": {
+    "0": "Welkom",
+    "1": "Voedselpatronen",
+    "2": "Interne Dialoog",
+    "3": "Fysieke waarneming",
+    "4": "De Kaart",
+    "5": "Zachte steun",
+    "6": "Eindresultaat",
+    "7": "Reflecterend"
+  },
   "welcome_text": "Hé... Ik ben echt blij dat je hier 💛 bent. Laten we voorzichtig in kaart brengen wat er aan de hand is.",
   "coming_up_label": "Wat staat er de laatste tijd op de planning?",
   "begin_mapping": "Begin met het Kaarten",
@@ -32,36 +32,36 @@
   "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
   "save_success": "Patroon behouden",
   "save_error": "Patroon niet behouden",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Verdriet",
-    "😶 Verveling",
-    "😟 Angst",
-    "🥺 Eenzaamheid",
-    "💭 Iets anders..."
-  ],
-  "food_responses": [
-    "🍽️ Ik eet meer",
-    "🚫 Ik eet minder",
-    "🍫 Ik heb trek in bepaalde voedingsmiddelen",
-    "😣 Ik vermijd eten",
-    "😐 Geen echte verandering"
-  ],
-  "body_sensations": [
-    "💔 Benauwde borst",
-    "🪨 Zwaar gevoel",
-    "🦵 Rusteloos / onrustig",
-    "🔋 Lage energie",
-    "🌀 Knopen in de maag",
-    "❓ Iets anders..."
-  ],
-  "support_options": [
-    "🗣️ Praat met iemand",
-    "☕ Neem een pauze",
-    "📝 Tijdschrift",
-    "🌬️ Adem in",
-    "🎧 Afleiden"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Verdriet",
+    "2": "😶 Verveling",
+    "3": "😟 Angst",
+    "4": "🥺 Eenzaamheid",
+    "5": "💭 Iets anders..."
+  },
+  "food_responses": {
+    "0": "🍽️ Ik eet meer",
+    "1": "🚫 Ik eet minder",
+    "2": "🍫 Ik heb trek in bepaalde voedingsmiddelen",
+    "3": "😣 Ik vermijd eten",
+    "4": "😐 Geen echte verandering"
+  },
+  "body_sensations": {
+    "0": "💔 Benauwde borst",
+    "1": "🪨 Zwaar gevoel",
+    "2": "🦵 Rusteloos / onrustig",
+    "3": "🔋 Lage energie",
+    "4": "🌀 Knopen in de maag",
+    "5": "❓ Iets anders..."
+  },
+  "support_options": {
+    "0": "🗣️ Praat met iemand",
+    "1": "☕ Neem een pauze",
+    "2": "📝 Tijdschrift",
+    "3": "🌬️ Adem in",
+    "4": "🎧 Afleiden"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Neem contact op 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Weet je zeker dat je deze mapping wilt verwijderen?"
   },
   "app_description": "Voedsel & Emotie Kaart",
   "more": "Meer",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "view_weekly": "Bekijk kaartgeschiedenis",
+  " ": " "
 }

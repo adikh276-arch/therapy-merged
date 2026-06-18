@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ยาว",
+  "intro_benefit_1": "รับความชัดเจนอย่างแท้จริงเกี่ยวกับความเชื่อหลักของคุณ",
+  "intro_benefit_2": "กําหนดเป้าหมายที่ชัดเจนสําหรับการเปลี่ยนแปลงส่วนบุคคล",
+  "reflection_subtitle": "ร่างแรงบันดาลใจของคุณ กรอกองค์ประกอบหลักของจุดประสงค์ของคุณ",
+  "mission_your_statement": "คําชี้แจงของคุณ",
+  "saving": "กําลังประหยัด...",
+  "mission_save_finish": "บันทึกและเสร็จสิ้น",
+  "mission_share": "ใช้ร่วมกัน",
+  "mission_start_over": "เริ่มต้นใหม่",
+  "loading": "กําลังโหลดประกาศ...",
+  "app": {
+    "startActivity": "สร้างภารกิจ"
+  }
 }

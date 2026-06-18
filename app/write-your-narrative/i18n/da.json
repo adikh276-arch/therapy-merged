@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Lad os tage det et skridt ad gangen. 💛",
-    "description": [
-      "Du behøver ikke fortælle hele din historie i dag. Bare en lille del er nok.",
-      "Du er sikker lige nu. Du har kontrol over, hvad du skriver – og hvad du ikke skriver."
-    ],
+    "description": {
+      "0": "Du behøver ikke fortælle hele din historie i dag. Bare en lille del er nok.",
+      "1": "Du er sikker lige nu. Du har kontrol over, hvad du skriver – og hvad du ikke skriver."
+    },
     "breath": "Tag en langsom indånding, før vi begynder.",
     "button_ready": "Jeg er klar",
     "button_history": "Tidligere fortællinger",
@@ -21,20 +21,20 @@
     "title": "Skriv det, der føles okay ✨",
     "subtitle": "Dine ord, dit tempo",
     "prompt_label": "Har du brug for et udgangspunkt?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Det, jeg husker bedst, er...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "På det tidspunkt følte jeg mig...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Siden da har jeg bemærket...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Begynd at skrive her...",
     "notice": "Der er ikke nogen rigtig måde at gøre det på. Selv et par linjer er nok.",
     "button": "Færdiggør skrivningen"
@@ -43,10 +43,10 @@
     "title": "Du gjorde noget vigtigt.",
     "subtitle": "Tak fordi du mødte op for din egen skyld.",
     "settle_title": "Lad os tage et øjeblik til at falde til ro",
-    "steps": [
-      "Se dig omkring og nævn 3 ting, du kan se.",
-      "Tag en langsom indånding... og ud."
-    ],
+    "steps": {
+      "0": "Se dig omkring og nævn 3 ting, du kan se.",
+      "1": "Tag en langsom indånding... og ud."
+    },
     "feeling_label": "Lige nu føler jeg:",
     "feeling_placeholder": "Et ord eller to...",
     "quote": "\"Du behøver ikke bære alt på én gang. Du kan komme tilbage, når du føler dig klar.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

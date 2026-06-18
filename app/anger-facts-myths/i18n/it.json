@@ -23,38 +23,38 @@
   "try_again": "Riprova",
   "complete_title": "Conoscenza padroneggiata",
   "complete_message": "Hai segnato {{score}}/{{total}}! Hai acquisito preziose intuizioni sulle verità e i miti della rabbia.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "La rabbia è negativa. Se ti senti arrabbiato, c'è qualcosa che non va in te.",
       "answer": "myth",
       "realFact": "La rabbia è un'emozione normale e sana. Tutti lo sentono. Non è un segno che qualcosa non va in te — è un segnale che qualcosa conta per te. Ciò che conta è come rispondi, non se lo senti.",
       "example": "Un veterano si arrabbia quando i suoi limiti vengono superati. Quella rabbia è valida — sta dicendo loro qualcosa di importante."
     },
-    {
+    "1": {
       "statement": "La rabbia può essere un segnale che i tuoi confini sono stati superati.",
       "answer": "fact",
       "realFact": "La rabbia è informazione. Quando lo senti, vale la pena chiedersi: quale confine è stato superato? Quale bisogno non viene soddisfatto? Ascoltare la tua rabbia — senza agire d'impulso — ti aiuta a capire meglio te stesso e a compiere azioni significative.",
       "example": "Ti arrabbi quando un collega si prende il merito del tuo lavoro. Quella rabbia indica un bisogno di riconoscimento e equità."
     },
-    {
+    "2": {
       "statement": "Se sei arrabbiato, devi sfogarti urlando o colpendo le cose.",
       "answer": "myth",
       "realFact": "Un'espressione sana di rabbia non significa soppressione O esplosione. Significa riconoscere i propri sentimenti ed esprimerli in modo costruttivo — attraverso parole, scrittura di un diario, attività fisica o sfoghi creativi. Puoi onorare la tua rabbia senza distruggerla.",
       "example": "Invece di prendere a pugni un muro, vai a correre o scrivi esattamente cosa ti dà fastidio. La rabbia si sposta dentro di te senza causare danni."
     },
-    {
+    "3": {
       "statement": "Imparare a gestire la rabbia è un segno di forza emotiva.",
       "answer": "fact",
       "realFact": "Le persone che lavorano sulla gestione della rabbia non sono deboli — stanno facendo uno dei lavori emotivi più coraggiosi che esistano. Scegliere di fermarsi, riflettere e rispondere con riflessione richiede molta più forza che reagire d'impulso.",
       "example": "Fare un respiro profondo e dire 'Ho bisogno di un minuto prima di rispondere' in un momento di intensità è un potente atto di autocontrollo."
     },
-    {
+    "4": {
       "statement": "Se qualcuno ti fa arrabbiare, è colpa sua. Non hai responsabilità.",
       "answer": "myth",
       "realFact": "Gli altri possono scatenare la tua rabbia, ma il modo in cui rispondi è una tua responsabilità — e il tuo potere. Prendersi la responsabilità delle tue reazioni non significa che l'altra persona avesse ragione. Significa che scegli come presentarti. Questa è empowerment, non colpa.",
       "example": "Qualcuno ti taglia la strada nel traffico. Ti senti arrabbiato — è normale. Ma scegli se arrabbiarti o prendere fiato. La scelta è tua."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Ricominciare",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga",
+  "results_message": "Tu"
 }

@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "ארוך",
+  "entry_x": "כניסה #",
+  "loading": "טוען...",
+  "delete": "מחק"
 }

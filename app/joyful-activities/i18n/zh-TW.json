@@ -14,7 +14,8 @@
     "input1_placeholder": "例如：在公園散步",
     "input2_label": "當我這樣做的時候，我通常會感覺到…",
     "input2_placeholder": "例如：冷靜且專注",
-    "button": "繼續"
+    "button": "繼續",
+    "stage": "第一階段：召回"
   },
   "meaning": {
     "title": "它的意義何在？",
@@ -25,7 +26,8 @@
     "input2_placeholder": "例如：已連接並接地",
     "input3_label": "這讓我想起…",
     "input3_placeholder": "例如，童年時期的夏天",
-    "button": "儲存我的倒影"
+    "button": "儲存我的倒影",
+    "stage": "第二階段：意義"
   },
   "smallStep": {
     "title": "向前邁出一小步",
@@ -34,7 +36,8 @@
     "input1_label": "本週我可以採取的一小步是…",
     "input1_placeholder": "例如：散步10分鐘",
     "button_save": "節省",
-    "button_home": "回首頁"
+    "button_home": "回首頁",
+    "stage": "第三階段：行動"
   },
   "affirmation": {
     "title": "你踏出了美麗的一步。",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

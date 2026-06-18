@@ -14,7 +14,8 @@
     "input1_placeholder": "مثلا: المشي في الحديقة",
     "input2_label": "عندما أفعل هذا، عادة أشعر...",
     "input2_placeholder": "مثلا: هادئ وحاضر",
-    "button": "تابع"
+    "button": "تابع",
+    "stage": "المرحلة الأولى: الاستدعاء"
   },
   "meaning": {
     "title": "ما الذي يجعله ذا معنى؟",
@@ -25,7 +26,8 @@
     "input2_placeholder": "مثلا: متصل ومؤرض",
     "input3_label": "يذكرني ب...",
     "input3_placeholder": "مثلا، الصيف في طفولته",
-    "button": "أحفظ انعكاسي"
+    "button": "أحفظ انعكاسي",
+    "stage": "المرحلة الثانية: المعنى"
   },
   "smallStep": {
     "title": "خطوة صغيرة إلى الأمام",
@@ -34,7 +36,8 @@
     "input1_label": "خطوة صغيرة يمكنني اتخاذها هذا الأسبوع هي...",
     "input1_placeholder": "مثلا، اذهب في نزهة لمدة 10 دقائق",
     "button_save": "حفظ",
-    "button_home": "اذهب إلى المنزل"
+    "button_home": "اذهب إلى المنزل",
+    "stage": "المرحلة 3: الأكشن"
   },
   "affirmation": {
     "title": "لقد خطوت خطوة جميلة",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "طويل"
 }

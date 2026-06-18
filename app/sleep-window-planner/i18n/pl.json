@@ -1,10 +1,10 @@
 {
   "app_title": "Planer okna snu",
-  "pill_labels": [
-    "Zbuduj swoje okno",
-    "Ustal swoje czasy",
-    "Twoje okno snu"
-  ],
+  "pill_labels": {
+    "0": "Zbuduj swoje okno",
+    "1": "Ustal swoje czasy",
+    "2": "Twoje okno snu"
+  },
   "screen1": {
     "title": "Twoje okno snu ma większe znaczenie, niż myślisz",
     "p1": "Okno snu to stały czas między pójściem spać a przebudzeniem. Utrzymanie regularności — nawet w weekendy — to jedna z najpotężniejszych rzeczy, jakie możesz zrobić dla swojego snu.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 sposoby ochrony",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Zrelaksuj się 30 minut przed snem"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Taka sama pora pobudki każdego dnia — tak, w weekendy też"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Unikaj drzemek dłuższych niż 20 minut po 15:00"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Zobowiąż się dziś wieczorem do jednej rzeczy",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Odłóż telefon przed snem"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Zacznij rutynę relaksującą"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Przyciemnić światła na godzinę przed snem"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Skończę moją listę rzeczy do zrobienia wcześniej"
         }
-      ]
+      }
     },
     "quote": "Konsekwencja jest potężniejsza niż perfekcja. Jedna dobra noc buduje się kolejna.",
     "button": "Zachowaj mój czas na sen ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

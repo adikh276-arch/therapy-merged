@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Au-dessus de votre fenêtre",
         "subtitle": "Ton système nerveux est en surmultiplié. Ce n’est pas grave. On va te ramener doucement.",
-        "feelings": [
-          "Cœur qui bat la chamade",
-          "Respiration superficielle",
-          "Panique ou colère",
-          "Pensées qui s’emballent",
-          "Agitation"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Cœur qui bat la chamade",
+          "1": "Respiration superficielle",
+          "2": "Panique ou colère",
+          "3": "Pensées qui s’emballent",
+          "4": "Agitation"
+        },
+        "tools": {
+          "0": {
             "name": "Respiration en boîte",
             "desc": "Inspire 4, lune 4, expire 4, lune 4. Répétez 4 fois."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Mise au sol",
             "desc": "5 choses voient, 4 touchent, 3 entendent, 2 sentent, 1 goûtent."
           },
-          {
+          "2": {
             "name": "Pieds sur le sol",
             "desc": "Appuyez sur les pieds, dites : « Je suis là. Je suis en sécurité. Ça passera. »"
           }
-        ],
+        },
         "button": "Je me sens un peu plus calme →",
         "footer": "Tu es en sécurité. Prends ton temps."
       },
       "hypo": {
         "title": "Sous votre fenêtre",
         "subtitle": "Ton système nerveux s’est calmé. Il te protège. Réveillons-le doucement.",
-        "feelings": [
-          "Engourdissement",
-          "Déconnexion",
-          "Fatigue extrême",
-          "Feeling unreal",
-          "Plateté"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Engourdissement",
+          "1": "Déconnexion",
+          "2": "Fatigue extrême",
+          "3": "Feeling unreal",
+          "4": "Plateté"
+        },
+        "tools": {
+          "0": {
             "name": "Mouvement doux",
             "desc": "Debout, marcher lentement, balancer les bras. Laisse ton corps se réveiller."
           },
-          {
+          "1": {
             "name": "Son rythmique",
             "desc": "Jouez de la musique avec un rythme régulier, tapez des pieds."
           },
-          {
+          "2": {
             "name": "Parlez à voix haute",
             "desc": "Dis ton nom, ta localisation, la date d’aujourd’hui à voix haute. Réactivez votre cerveau pensant."
           }
-        ],
+        },
         "button": "Je me sens un peu plus présent →",
         "footer": "Tu t’en sors très bien. Avancez étape par étape."
       },
       "safe": {
         "title": "À l’intérieur de votre fenêtre",
         "subtitle": "Vous êtes dans votre zone de sécurité. C’est là que se font la guérison, la connexion et la croissance. Bien joué.",
-        "feelings": [
-          "Présent et conscient",
-          "Respiration régulière",
-          "Pensée claire",
-          "Connecté"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Présent et conscient",
+          "1": "Respiration régulière",
+          "2": "Pensée claire",
+          "3": "Connecté"
+        },
+        "tools": {
+          "0": {
             "name": "Continue de respirer lentement",
             "desc": "Inspire par le nez, expire par la bouche."
           },
-          {
+          "1": {
             "name": "Réfléchir",
             "desc": "Qu’est-ce qui t’a aidé à rester ici ? Écris-le."
           },
-          {
+          "2": {
             "name": "Compassion envers soi",
             "desc": "« Mon système nerveux faisait son travail. Je ne suis pas brisé. Je guéris. »"
           }
-        ],
+        },
         "button": "Continuer à ma boîte à outils →",
         "footer": "Tu mérites des soins et de la guérison."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Votre boîte à outils personnelle",
       "subtitle": "Vos outils de référence — sauvegardés et prêts à chaque fois que vous en avez besoin.",
-      "tools_list": [
-        "🌬️ Respiration en boîte",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Pieds sur le sol",
-        "🚶 Mouvement doux",
-        "🎵 Musique",
-        "💬 Parlez à voix haute"
-      ],
+      "tools_list": {
+        "0": "🌬️ Respiration en boîte",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Pieds sur le sol",
+        "3": "🚶 Mouvement doux",
+        "4": "🎵 Musique",
+        "5": "💬 Parlez à voix haute"
+      },
       "journal_label": "📝 Réflexion du jour",
       "journal_desc": "Quel a été le moment où vous avez remarqué que votre système nerveux changeait — et qu’avez-vous fait à ce sujet ?",
       "journal_placeholder": "Écris ici...",
@@ -156,13 +156,13 @@
       "preserve_button": "Préserver la réflexion"
     }
   },
-  "nav": [
-    "Enregistrement",
-    "Explication",
-    "Surveillance",
-    "La Zone",
-    "Boîte à outils"
-  ],
+  "nav": {
+    "0": "Enregistrement",
+    "1": "Explication",
+    "2": "Surveillance",
+    "3": "La Zone",
+    "4": "Boîte à outils"
+  },
   "history": {
     "title": "Historique des enregistrements",
     "empty": "Pas encore de nouvelles."
@@ -176,15 +176,15 @@
     "title": "Enregistrement terminé",
     "message": "Vous avez réussi à cartographier votre état actuel. Sensibiliser est la première étape pour trouver son équilibre."
   },
-  "days": [
-    "Mon",
-    "Mar",
-    "Married",
-    "Automne",
-    "Ven",
-    "Samedi",
-    "Sun"
-  ],
+  "days": {
+    "0": "Mon",
+    "1": "Mar",
+    "2": "Married",
+    "3": "Automne",
+    "4": "Ven",
+    "5": "Samedi",
+    "6": "Sun"
+  },
   "common": {
     "get_started": "Commencer",
     "start_over": "Recommencer",
@@ -248,5 +248,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

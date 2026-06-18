@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} 라운드",
   "yes": "네",
   "no": "아니요",
-  "date": "날짜"
+  "date": "날짜",
+  "type_another": "또 다른 생각을 쓰고...",
+  "resume": "이력서",
+  "pause": "잠시 멈춤",
+  "growth_reminder": "작은 걸음도 정신적 부담을 줄여줍니다. 넌 안 돼",
+  "lang": "길게",
+  "complete_message": "너",
+  "welcome_sub": "환영합니다",
+  "clearing_sub": "정신적 정리",
+  "sorting_sub": "분류",
+  "action_sub": "행동 단계",
+  "reflect_sub": "성찰",
+  "intro": {
+    "viewHistory": "역사 보기"
+  }
 }

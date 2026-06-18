@@ -1,14 +1,14 @@
 {
   "app_title": "Compassion Break",
-  "screen_titles": [
-    "Check-in",
-    "Identificazione",
-    "Respirazione",
-    "Gentilezza",
-    "Shift",
-    "Rifletti",
-    "Completa"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Identificazione",
+    "2": "Respirazione",
+    "3": "Gentilezza",
+    "4": "Shift",
+    "5": "Rifletti",
+    "6": "Completa"
+  },
   "auth_error": "Sessione di autenticazione mancante o DB non configurato",
   "save_success": "Riflesso conservato",
   "save_error": "Non è riuscito a preservare la riflessione",
@@ -25,14 +25,14 @@
   "continue_button": "Continua",
   "nameit_title": "Mettilo in parole",
   "nameit_subtitle": "In questo momento, mi sento _______",
-  "emotions_list": [
-    "ansioso",
-    "colpevole",
-    "sopraffatta",
-    "teso",
-    "stanco",
-    "triste"
-  ],
+  "emotions_list": {
+    "0": "ansioso",
+    "1": "colpevole",
+    "2": "sopraffatta",
+    "3": "teso",
+    "4": "stanco",
+    "5": "triste"
+  },
   "label_custom_emotion": "oppure scrivi la tua",
   "placeholder_emotion": "1–2 parole",
   "nameit_footer": "La semplicità basta.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga",
+  "intro": {
+    "view_past": "Visualizza le sessioni passate"
+  },
+  "history": {
+    "title": "Storia dell'Auto-compassione",
+    "no_entries": "Nessun registro delle pause passate trovato."
+  },
+  "loading": "Sto caricando la cronologia..."
 }

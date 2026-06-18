@@ -10,52 +10,52 @@
   "scenario": {
     "title": "是什么触发了你的情绪？",
     "desc": "选择一个你能产生共鸣的情况",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "有人打断我",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "事情并没有按计划进行",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "我感到被忽视了",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "我感到不知所措",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "你自己打字......",
     "button": "练习暂停→"
   },
   "hold": {
     "title": "按键暂停 ⏸️",
     "instructions": "保持圆圈5秒",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "按住......"
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "坚持下去......"
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "你做到了......"
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "快到了......"
       }
-    ]
+    }
   },
   "result": {
     "title": "这就是暂停",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "其他",
+  "lang": "很长"
 }

@@ -3,11 +3,11 @@
   "intro": {
     "title": "Tseke sa Pagbabasa ng Isip",
     "description": "Tanungin ang mga palagay na ginagawa mo tungkol sa kung ano ang iniisip ng iba.",
-    "benefits": [
-      "Itigil ang pag-aakalang ang pinakamasama",
-      "Tukuyin ang mga may kinikilingan na interpretasyon",
-      "Bumuo ng mas malinaw na komunikasyon"
-    ],
+    "benefits": {
+      "0": "Itigil ang pag-aakalang ang pinakamasama",
+      "1": "Tukuyin ang mga may kinikilingan na interpretasyon",
+      "2": "Bumuo ng mas malinaw na komunikasyon"
+    },
     "duration": "3-4 minuto",
     "view_past": "Tingnan ang Mga Nakaraang Pagninilay"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Suriin ang iyong paniniwala",
       "desc": "Gaano kalakas ang paniniwala mo sa orihinal mong kaisipan ngayon?",
-      "labels": [
-        "Hindi sa lahat",
-        "Ganap na"
-      ]
+      "labels": {
+        "0": "Hindi sa lahat",
+        "1": "Ganap na"
+      }
     },
     "step7": {
       "title": "Isang mas balanseng pananaw",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Sa susunod na pagkakataon",
       "desc": "Ano ang maaari mong gawin sa halip na ipalagay?",
-      "examples": [
-        "Humingi ng paglilinaw",
-        "Bigyan mo siya ng kaunting oras",
-        "Pansinin nang walang reaksyon"
-      ],
+      "examples": {
+        "0": "Humingi ng paglilinaw",
+        "1": "Bigyan mo siya ng kaunting oras",
+        "2": "Pansinin nang walang reaksyon"
+      },
       "placeholder": "Sa susunod, pwede na ako..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

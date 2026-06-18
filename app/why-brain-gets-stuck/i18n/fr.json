@@ -10,21 +10,22 @@
   "s2": {
     "tag": "Douces vérités",
     "title": "Logique de survie cérébrale",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "L’alarme resta activée",
         "body": "L’hypervigilance et la surprise facile ne sont pas des réactions exagérées — le système d’alarme de votre cerveau fait trop bien son travail."
       },
-      {
+      "1": {
         "header": "Les flashbacks sont des souvenirs",
         "body": "Les déclencheurs attirent votre cerveau en arrière parce qu’il n’a jamais reçu le signal que la menace était terminée. Il essaie de te protéger."
       },
-      {
+      "2": {
         "header": "Je me bats pour toi",
         "body": "Chaque symptôme était autrefois un acte de survie. Ton cerveau a fait ce qu’il fallait pour te garder en vie."
       }
-    ],
-    "healing": "La guérison ne consiste pas à oublier. Il s’agit d’aider votre cerveau à apprendre que vous êtes en sécurité maintenant."
+    },
+    "healing": "La guérison ne consiste pas à oublier. Il s’agit d’aider votre cerveau à apprendre que vous êtes en sécurité maintenant.",
+    "finish_reading": "Terminer la lecture"
   },
   "common": {
     "get_started": "Commencer",
@@ -77,5 +78,9 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long",
+  "complete": {
+    "message": "Toi"
+  }
 }

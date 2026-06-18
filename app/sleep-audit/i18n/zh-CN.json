@@ -5,7 +5,8 @@
     "title": "睡眠审计",
     "description": "了解哪些因素影响你的睡眠，以及哪些小的改变可以有所帮助。",
     "start_button": "开始审计",
-    "history_button": "以往审计"
+    "history_button": "以往审计",
+    "more_insights": "回到起点"
   },
   "screens": {
     "s1": {
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "二维",
+  "lang": "很长",
+  "loading": "加载历史......"
 }

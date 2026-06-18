@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "langsam einatmen...",
+  "instruction_out": "Atme langsam aus...",
+  "instruction_hold": "sanft halten...",
+  "lang": "lang"
 }

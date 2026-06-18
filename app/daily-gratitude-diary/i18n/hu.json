@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "hosszú",
+  "entry_x": "Bejegyzés #",
+  "loading": "Betöltés...",
+  "delete": "Törlés"
 }

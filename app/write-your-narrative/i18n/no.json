@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "La oss ta dette ett skritt av gangen. 💛",
-    "description": [
-      "Du trenger ikke fortelle hele historien din i dag. Bare en liten del er nok.",
-      "Du er trygg nå. Du har kontroll over hva du skriver – og hva du ikke skriver."
-    ],
+    "description": {
+      "0": "Du trenger ikke fortelle hele historien din i dag. Bare en liten del er nok.",
+      "1": "Du er trygg nå. Du har kontroll over hva du skriver – og hva du ikke skriver."
+    },
     "breath": "Ta et rolig pust før vi begynner.",
     "button_ready": "Jeg er klar",
     "button_history": "Tidligere fortellinger",
@@ -21,20 +21,20 @@
     "title": "Skriv det som føles greit ✨",
     "subtitle": "Dine ord, ditt tempo",
     "prompt_label": "Trenger du et utgangspunkt?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Det jeg husker best er...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "På den tiden følte jeg meg...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Siden da har jeg lagt merke til...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Begynn å skrive her...",
     "notice": "Det finnes ingen riktig måte å gjøre dette på. Selv noen få linjer er nok.",
     "button": "Fullfør skrivingen"
@@ -43,10 +43,10 @@
     "title": "Du gjorde noe viktig.",
     "subtitle": "Takk for at du møtte opp for deg selv.",
     "settle_title": "La oss ta et øyeblikk for å roe oss ned",
-    "steps": [
-      "Se deg rundt og nevn 3 ting du kan se.",
-      "Ta et sakte pust inn... Og ut."
-    ],
+    "steps": {
+      "0": "Se deg rundt og nevn 3 ting du kan se.",
+      "1": "Ta et sakte pust inn... Og ut."
+    },
     "feeling_label": "Akkurat nå føler jeg:",
     "feeling_placeholder": "Et ord eller to...",
     "quote": "\"Du trenger ikke bære alt på en gang. Du kan komme tilbake når du føler deg klar.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

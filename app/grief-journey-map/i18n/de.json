@@ -16,23 +16,23 @@
   "btn_one_more": "Noch eine Sache",
   "screen3_tag": "sanfte Wahrheiten",
   "screen3_title": "Es lohnt sich zu wissen",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Keine Frist",
       "body": "Es gibt kein Verfallsdatum für den Verlust. Es Monate oder Jahre später zu spüren, heißt nicht, dass man feststeckt – es bedeutet, dass man geliebt hat."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Widersprüchliche Gefühle",
       "body": "Man kann jemanden vermissen und erleichtert sein. Du kannst lachen und trauern. Trauer hat Gegensätze."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Die Verwandlung der Liebe",
       "body": "Der Schmerz ist nicht getrennt von der Liebe. Es ist dasselbe, verwandelt."
     }
-  ],
+  },
   "btn_finish": "Fertige Reflexion",
   "complete_title": "Ehrevolle Reise",
   "complete_message": "Du musst nicht weitermachen. Man lernt einfach, es anders zu tragen. Deine Reise ist einzigartig, gültig und zutiefst menschlich.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

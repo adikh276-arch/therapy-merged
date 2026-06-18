@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Otetaan tämä askel kerrallaan. 💛",
-    "description": [
-      "Sinun ei tarvitse kertoa koko tarinaasi tänään. Pieni osa riittää.",
-      "Olet nyt turvassa. Sinä hallitset, mitä kirjoitat – ja mitä et."
-    ],
+    "description": {
+      "0": "Sinun ei tarvitse kertoa koko tarinaasi tänään. Pieni osa riittää.",
+      "1": "Olet nyt turvassa. Sinä hallitset, mitä kirjoitat – ja mitä et."
+    },
     "breath": "Hengitä rauhallisesti ennen kuin aloitamme.",
     "button_ready": "Olen valmis",
     "button_history": "Aiemmat kertomukset",
@@ -21,20 +21,20 @@
     "title": "Kirjoita se, mikä tuntuu hyvältä ✨",
     "subtitle": "Sinun sanasi, sinun tahtisi",
     "prompt_label": "Tarvitsetko lähtökohdan?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Mitä muistan parhaiten, on...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Silloin tunsin...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Sen jälkeen olen huomannut...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Aloita kirjoittaminen täältä...",
     "notice": "Ei ole oikeaa tapaa tehdä tätä. Jo muutama repliikki riittää.",
     "button": "Viimeistely kirjoittaminen"
@@ -43,10 +43,10 @@
     "title": "Teit jotain tärkeää.",
     "subtitle": "Kiitos, että tulit paikalle itsesi vuoksi.",
     "settle_title": "Otetaanpa hetki aikaa rauhoittua",
-    "steps": [
-      "Katso ympärillesi ja nimeä kolme asiaa, jotka näet.",
-      "Hengitä hitaasti sisään... ja ulos."
-    ],
+    "steps": {
+      "0": "Katso ympärillesi ja nimeä kolme asiaa, jotka näet.",
+      "1": "Hengitä hitaasti sisään... ja ulos."
+    },
     "feeling_label": "Tällä hetkellä tunnen:",
     "feeling_placeholder": "Yksi tai pari...",
     "quote": "\"Sinun ei tarvitse kantaa kaikkea kerralla. Voit tulla takaisin, kun tunnet olevasi valmis.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

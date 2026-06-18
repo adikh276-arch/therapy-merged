@@ -31,114 +31,114 @@
     "safety": "Sinun ei tarvitse korjata kaikkea – valitse vain yksi pieni askel.",
     "button": "Kokeile tätä →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Lähetä rento tarkistus",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Tunnusta jännite",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Antakaa toisillenne tilaa",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Päästä irti ja jatka eteenpäin",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Pohdi asiaa",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Lähetä lämmin viesti",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Sano rehellisesti mitä tapahtui",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Sitoudu seuraavalla kerralla pysäyttämään",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Valitse rauha oikean olemisen sijaan",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Pohdi, mitä todella tarvitset",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Lähetä ammattilaisviesti",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Käsittele asia kunnioittavasti",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Suunnittele rauhallisempi vastaus ensi kerralla",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Pidä ammattimainen ja jatka eteenpäin",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Ajattele rajoja",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Ota yhteyttä yksinkertaisella viestillä",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Tunnusta, mitä tapahtui",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Pidä tauko ensi kerralla",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Anna asian olla nyt",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Vain pohdi (ei vielä toimia)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Yhteydenotto – vaikka epätäydellisesti – otetaan lähes aina vastaan paremmin kuin odotamme.",
         "howTitle": "Aloita pienestä",
         "howBody": "Sinun ei tarvitse kirjoittaa esseetä. Muutama rehellinen sana voi avata oven uudelleenyhteyteen.",
-        "prompts": [
-          "Hei, olen ajatellut sinua. Toivottavasti sinulla menee hyvin.",
-          "Tiedän, että tunnelma oli jännittynyt—halusin vain sanoa, että välitän.",
-          "Olen pahoillani aiemmasta. Voimmeko puhua, kun olet valmis?"
-        ],
+        "prompts": {
+          "0": "Hei, olen ajatellut sinua. Toivottavasti sinulla menee hyvin.",
+          "1": "Tiedän, että tunnelma oli jännittynyt—halusin vain sanoa, että välitän.",
+          "2": "Olen pahoillani aiemmasta. Voimmeko puhua, kun olet valmis?"
+        },
         "promptLabel": "Valitse lähtökohta:",
         "editLabel": "Tee siitä omasi:"
       },
@@ -169,11 +169,11 @@
         "insight": "Ihmiset eivät tarvitse sinua täydelliseksi – heidän täytyy tietää, että huomasit sen.",
         "howTitle": "Nimeä se varovasti",
         "howBody": "Voit myöntää sen ilman, että otat kaiken syyn niskoillesi. Kerro rehellisesti, mitä tapahtui.",
-        "prompts": [
-          "Tiedän, että meidän välillämme tuli kuumaa. Haluan, että tiedät, että huomasin sen.",
-          "Tajuan, että saatoin vaikuttaa ankaralta. Se ei ollut tarkoitukseni.",
-          "Olen pohtinut, mitä tapahtui, ja toivon, että olisin käsitellyt sen toisin."
-        ],
+        "prompts": {
+          "0": "Tiedän, että meidän välillämme tuli kuumaa. Haluan, että tiedät, että huomasin sen.",
+          "1": "Tajuan, että saatoin vaikuttaa ankaralta. Se ei ollut tarkoitukseni.",
+          "2": "Olen pohtinut, mitä tapahtui, ja toivon, että olisin käsitellyt sen toisin."
+        },
         "promptLabel": "Valitse lähtökohta:",
         "editLabel": "Tee siitä omasi:"
       },
@@ -183,11 +183,11 @@
         "insight": "Kuuden sekunnin tauko riittää usein siirtymään reaktiosta pohdintaan.",
         "howTitle": "🧘 Suunnittele taukosi",
         "howBody": "Ajattele yksinkertaista vihjettä – kuten hengittämistä tai hetkeksi astumista pois – ennen kuin vastaat.",
-        "prompts": [
-          "Seuraavan kerran kun tunnen oloni surulliseksi, hengitän syvään ennen kuin vastaan.",
-          "Yritän sanoa 'Anna hetki' sen sijaan, että reagoisin heti.",
-          "Astun hetkeksi pois kerätkääkseni ajatukseni."
-        ],
+        "prompts": {
+          "0": "Seuraavan kerran kun tunnen oloni surulliseksi, hengitän syvään ennen kuin vastaan.",
+          "1": "Yritän sanoa 'Anna hetki' sen sijaan, että reagoisin heti.",
+          "2": "Astun hetkeksi pois kerätkääkseni ajatukseni."
+        },
         "promptLabel": "Valitse sitoumus, joka tuntuu oikealta:",
         "editLabel": "Kirjoita oma aikomuksesi:"
       },
@@ -197,11 +197,11 @@
         "insight": "Irti päästäminen ei ole luovuttamista – se on rauhan valitsemista oikean olemisen sijaan.",
         "howTitle": "🕊️ Vapauta varovasti",
         "howBody": "Sinun ei tarvitse unohtaa. Päätä vain, ettei tämän tarvitse enää hallita tunteitasi.",
-        "prompts": [
-          "Valitsen päästää tämän irti – en siksi, etteikö sillä olisi ollut väliä, vaan koska rauhani merkitsee enemmän.",
-          "Päästän irti tarpeesta olla oikeassa tässä asiassa. Valitsen yhteyden.",
-          "Tämä tilanne ei määritä suhdettamme. Olen menossa eteenpäin."
-        ],
+        "prompts": {
+          "0": "Valitsen päästää tämän irti – en siksi, etteikö sillä olisi ollut väliä, vaan koska rauhani merkitsee enemmän.",
+          "1": "Päästän irti tarpeesta olla oikeassa tässä asiassa. Valitsen yhteyden.",
+          "2": "Tämä tilanne ei määritä suhdettamme. Olen menossa eteenpäin."
+        },
         "promptLabel": "Valitse se, mikä resonoi:",
         "editLabel": "Kirjoita se, mikä tuntuu sinusta oikealta:"
       },
@@ -211,11 +211,11 @@
         "insight": "Päiväkirjan pitäminen tai jopa tapahtuneen läpikäyminen auttaa käsittelemään tunteita ilman painetta.",
         "howTitle": "🔍 Katso sisäänpäin",
         "howBody": "Kysy itseltäsi: Mitä todella tunsin vihan alla? Usein kyse on kivusta, pelosta tai pettymyksestä.",
-        "prompts": [
-          "Vihani alla luulen, että minua satutettiin.",
-          "Tajusin, että reagoin pelosta, ettei minua kuultaisi.",
-          "Mitä todella tarvitsin, oli tuntea itseni kunnioitetuksi ja arvostetuksi."
-        ],
+        "prompts": {
+          "0": "Vihani alla luulen, että minua satutettiin.",
+          "1": "Tajusin, että reagoin pelosta, ettei minua kuultaisi.",
+          "2": "Mitä todella tarvitsin, oli tuntea itseni kunnioitetuksi ja arvostetuksi."
+        },
         "promptLabel": "Valitse se, mikä resonoi:",
         "editLabel": "Kirjoita oma pohdintasi:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

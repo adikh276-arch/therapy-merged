@@ -3,11 +3,11 @@
   "intro": {
     "title": "Tankeläsningskontroll",
     "description": "Ifrågasätt de antaganden du gör om vad andra tänker.",
-    "benefits": [
-      "Sluta anta det värsta",
-      "Identifiera partiska tolkningar",
-      "Bygg tydligare kommunikation"
-    ],
+    "benefits": {
+      "0": "Sluta anta det värsta",
+      "1": "Identifiera partiska tolkningar",
+      "2": "Bygg tydligare kommunikation"
+    },
     "duration": "3-4 minuter",
     "view_past": "Se tidigare reflektioner"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Kontrollera din tro",
       "desc": "Hur starkt tror du på din ursprungliga tanke nu?",
-      "labels": [
-        "Inte alls",
-        "Helt och hållet"
-      ]
+      "labels": {
+        "0": "Inte alls",
+        "1": "Helt och hållet"
+      }
     },
     "step7": {
       "title": "En mer balanserad syn",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Nästa gång",
       "desc": "Vad skulle du kunna göra istället för att anta?",
-      "examples": [
-        "Be om förtydligande",
-        "Ge det lite tid",
-        "Lägg märke till utan att reagera"
-      ],
+      "examples": {
+        "0": "Be om förtydligande",
+        "1": "Ge det lite tid",
+        "2": "Lägg märke till utan att reagera"
+      },
       "placeholder": "Nästa gång skulle jag kunna..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

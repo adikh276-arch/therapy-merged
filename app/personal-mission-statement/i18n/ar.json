@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "طويل",
+  "intro_benefit_1": "احصل على وضوح تام في معتقداتك الأساسية",
+  "intro_benefit_2": "ضع أهدافا واضحة للتحول الشخصي",
+  "reflection_subtitle": "اكتب طموحاتك. املأ المكونات الأساسية لهدفك.",
+  "mission_your_statement": "إفادتك",
+  "saving": "إنقاذ...",
+  "mission_save_finish": "حفظ وإنهاء",
+  "mission_share": "شارك",
+  "mission_start_over": "ابدأ من جديد",
+  "loading": "تحميل إعلانات الإعلانات...",
+  "app": {
+    "startActivity": "إنشاء المهمة"
+  }
 }

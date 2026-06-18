@@ -7,90 +7,90 @@
   "allStories": "Alle historier",
   "backToStories": "Tilbake til historiene",
   "nextStory": "Neste historie",
-  "stories": [
-    {
+  "stories": {
+    "0": {
       "name": "Aarav",
       "quote": "Jeg trodde det å være redd betydde at det var noe galt med meg.",
-      "body": [
-        "Jeg kjente ikke ordet «angst» da jeg var yngre — jeg kjente bare følelsen. Brystet føltes trangt, magen gjorde vondt, og tankene mine sa at noe dårlig var i ferd med å skje. Selv vanlige dager føltes farlige. Skolemorgener var de vanskeligste. Jeg klamret meg til foreldrene mine, redd for at når de dro, ville jeg ikke ha det bra.",
-        "Jeg husker at jeg så på andre barn og lurte på hvorfor de virket fine. Hvorfor slo ikke hjertene deres som mine? Hvorfor ville de ikke løpe hjem? Jeg følte meg forvirret og flau. Noen ganger trodde jeg at det å være redd betydde at jeg var svak eller annerledes på en dårlig måte.",
-        "Med hjelp lærte jeg sakte at angst ikke var en feil — det var hjernen min som prøvde for hardt å beskytte meg. I stedet for å kjempe mot det eller gjemme meg for det, lærte jeg små måter å møte det på. Noen dager betydde det å bli sittende i timen fem minutter lenger. Andre dager betydde det bare å puste gjennom frykten uten å løpe vekk.",
-        "Nå forstår jeg noe viktig: mot betyr ikke å ikke være redd. Det betyr å bli, selv når du er det. Og hver gang jeg blir, blir jeg litt sterkere."
-      ],
+      "body": {
+        "0": "Jeg kjente ikke ordet «angst» da jeg var yngre — jeg kjente bare følelsen. Brystet føltes trangt, magen gjorde vondt, og tankene mine sa at noe dårlig var i ferd med å skje. Selv vanlige dager føltes farlige. Skolemorgener var de vanskeligste. Jeg klamret meg til foreldrene mine, redd for at når de dro, ville jeg ikke ha det bra.",
+        "1": "Jeg husker at jeg så på andre barn og lurte på hvorfor de virket fine. Hvorfor slo ikke hjertene deres som mine? Hvorfor ville de ikke løpe hjem? Jeg følte meg forvirret og flau. Noen ganger trodde jeg at det å være redd betydde at jeg var svak eller annerledes på en dårlig måte.",
+        "2": "Med hjelp lærte jeg sakte at angst ikke var en feil — det var hjernen min som prøvde for hardt å beskytte meg. I stedet for å kjempe mot det eller gjemme meg for det, lærte jeg små måter å møte det på. Noen dager betydde det å bli sittende i timen fem minutter lenger. Andre dager betydde det bare å puste gjennom frykten uten å løpe vekk.",
+        "3": "Nå forstår jeg noe viktig: mot betyr ikke å ikke være redd. Det betyr å bli, selv når du er det. Og hver gang jeg blir, blir jeg litt sterkere."
+      },
       "reflection": "Når har du blitt, selv når du følte deg redd?"
     },
-    {
+    "1": {
       "name": "Daniel",
       "quote": "Jeg trodde at bekymring betydde at jeg var ansvarlig.",
-      "body": [
-        "I årevis trodde jeg at bekymring var jobben min. Hvis jeg tenkte gjennom alle mulige problemer, var forberedt på alle utfall, og var mentalt våken til enhver tid, kunne jeg forhindre at ting gikk galt. Angsten føltes produktiv. Det føltes ansvarlig.",
-        "Men over tid merket jeg hvor utmattet jeg var. Tankene mine stoppet aldri. Selv under ferier eller familiemiddager planla, forutsa eller forebygge jeg mentalt. Å slappe av føltes utrygt. Hvis jeg sluttet å bekymre meg, følte jeg at jeg var uforsiktig.",
-        "Etter hvert innså jeg at angsten ikke beskyttet meg — den kontrollerte meg. Terapi hjalp meg å forstå at usikkerhet er en del av livet, og ingen mengde bekymring kan fjerne den. Jeg begynte å øve på å legge merke til tankene mine uten automatisk å tro på dem.",
-        "Å gi slipp på konstant kontroll føltes ubehagelig i starten. Men sakte åpnet rommet seg. Jeg begynte å ta avgjørelser basert på det som betydde noe for meg — ikke bare det som føltes tryggest. Angst dukker fortsatt opp, men den styrer ikke lenger."
-      ],
+      "body": {
+        "0": "I årevis trodde jeg at bekymring var jobben min. Hvis jeg tenkte gjennom alle mulige problemer, var forberedt på alle utfall, og var mentalt våken til enhver tid, kunne jeg forhindre at ting gikk galt. Angsten føltes produktiv. Det føltes ansvarlig.",
+        "1": "Men over tid merket jeg hvor utmattet jeg var. Tankene mine stoppet aldri. Selv under ferier eller familiemiddager planla, forutsa eller forebygge jeg mentalt. Å slappe av føltes utrygt. Hvis jeg sluttet å bekymre meg, følte jeg at jeg var uforsiktig.",
+        "2": "Etter hvert innså jeg at angsten ikke beskyttet meg — den kontrollerte meg. Terapi hjalp meg å forstå at usikkerhet er en del av livet, og ingen mengde bekymring kan fjerne den. Jeg begynte å øve på å legge merke til tankene mine uten automatisk å tro på dem.",
+        "3": "Å gi slipp på konstant kontroll føltes ubehagelig i starten. Men sakte åpnet rommet seg. Jeg begynte å ta avgjørelser basert på det som betydde noe for meg — ikke bare det som føltes tryggest. Angst dukker fortsatt opp, men den styrer ikke lenger."
+      },
       "reflection": "Hvor forveksler du bekymring med ansvar?"
     },
-    {
+    "2": {
       "name": "Rhea",
       "quote": "Jeg ventet på å føle meg trygg før jeg levde.",
-      "body": [
-        "Angst hørtes ut som en stemme i hodet mitt som aldri sluttet å kritisere meg. Den fortalte meg at jeg ville gjøre meg selv flau, si feil ting, eller bli dømt. Etter samtalene spilte jeg av alt jeg hadde sagt. Før hendelsene forestiller jeg meg verst tenkelige scenarioer.",
-        "Utenfra så jeg selvsikker ut. Inni meg følte jeg meg konstant på kanten. Jeg fortsatte å vente på å føle meg klar — ventet på at selvtillit magisk skulle komme, slik at jeg endelig kunne snakke fritt, søke på muligheter eller vise meg frem.",
-        "Men selvtillit kom aldri først.",
-        "Det som forandret livet mitt var å innse at jeg ikke trengte å kvitte meg med angst for å komme videre. Jeg kan ta den med meg. Jeg begynte å ta små sjanser — rakte opp hånden, deltok på arrangementer, sa ifra selv om stemmen skalv.",
-        "Hver gang jeg handlet til tross for frykt, skjedde det noe. Jeg sluttet å måle meg selv etter hvor rolig jeg følte meg, og begynte å måle meg selv etter hvor modig jeg var villig til å være."
-      ],
+      "body": {
+        "0": "Angst hørtes ut som en stemme i hodet mitt som aldri sluttet å kritisere meg. Den fortalte meg at jeg ville gjøre meg selv flau, si feil ting, eller bli dømt. Etter samtalene spilte jeg av alt jeg hadde sagt. Før hendelsene forestiller jeg meg verst tenkelige scenarioer.",
+        "1": "Utenfra så jeg selvsikker ut. Inni meg følte jeg meg konstant på kanten. Jeg fortsatte å vente på å føle meg klar — ventet på at selvtillit magisk skulle komme, slik at jeg endelig kunne snakke fritt, søke på muligheter eller vise meg frem.",
+        "2": "Men selvtillit kom aldri først.",
+        "3": "Det som forandret livet mitt var å innse at jeg ikke trengte å kvitte meg med angst for å komme videre. Jeg kan ta den med meg. Jeg begynte å ta små sjanser — rakte opp hånden, deltok på arrangementer, sa ifra selv om stemmen skalv.",
+        "4": "Hver gang jeg handlet til tross for frykt, skjedde det noe. Jeg sluttet å måle meg selv etter hvor rolig jeg følte meg, og begynte å måle meg selv etter hvor modig jeg var villig til å være."
+      },
       "reflection": "Hva ville du prøvd hvis du ikke ventet på å føle deg helt klar?"
     },
-    {
+    "3": {
       "name": "Margaret",
       "quote": "Jeg forventet ikke at angst skulle begynne på dette stadiet i livet.",
-      "body": [
-        "Jeg trodde angst tilhørte yngre mennesker. Jeg forventet ikke at den skulle dukke opp etter pensjonering, når livet endelig hadde roet seg. Men da de travle årene var over, ble tankene mine høyere. Hver fysisk følelse føltes alarmerende. Hver ukjent føltes farlig.",
-        "Jeg følte meg flau over å ha slitt. I min alder trodde jeg at jeg burde ha alt på stell. Jeg søkte konstant etter bekreftelse — fra leger, fra familie, fra nettartikler. Forsikringen hjalp et øyeblikk, men frykten kom alltid tilbake.",
-        "Til slutt forsto jeg at trygghet matet sirkelen. Med veiledning begynte jeg å øve på å sitte med usikkerhet i stedet for å jage sikkerhet. Jeg bygde opp rutiner på nytt. Jeg gjenopptok hobbyene. Jeg tillot sakte ubehag uten å prøve å fikse det med en gang.",
-        "I dag kommer angsten fortsatt noen ganger. Men det definerer meg ikke lenger. Jeg har lært at vekst ikke har noen utløpsdato — og mot kan vise seg i alle aldre."
-      ],
+      "body": {
+        "0": "Jeg trodde angst tilhørte yngre mennesker. Jeg forventet ikke at den skulle dukke opp etter pensjonering, når livet endelig hadde roet seg. Men da de travle årene var over, ble tankene mine høyere. Hver fysisk følelse føltes alarmerende. Hver ukjent føltes farlig.",
+        "1": "Jeg følte meg flau over å ha slitt. I min alder trodde jeg at jeg burde ha alt på stell. Jeg søkte konstant etter bekreftelse — fra leger, fra familie, fra nettartikler. Forsikringen hjalp et øyeblikk, men frykten kom alltid tilbake.",
+        "2": "Til slutt forsto jeg at trygghet matet sirkelen. Med veiledning begynte jeg å øve på å sitte med usikkerhet i stedet for å jage sikkerhet. Jeg bygde opp rutiner på nytt. Jeg gjenopptok hobbyene. Jeg tillot sakte ubehag uten å prøve å fikse det med en gang.",
+        "3": "I dag kommer angsten fortsatt noen ganger. Men det definerer meg ikke lenger. Jeg har lært at vekst ikke har noen utløpsdato — og mot kan vise seg i alle aldre."
+      },
       "reflection": "Hvilken del av deg vokser fortsatt?"
     },
-    {
+    "4": {
       "name": "Kabir",
       "quote": "Angsten min så aldri ut som panikk. Det så ut som produktivitet.",
-      "body": [
-        "Jeg sto opp tidlig, jobbet lange dager og fylte hvert ledige øyeblikk med noe — nyheter, e-poster, telefonsamtaler, bakgrunnsstøy. Hvis det var stillhet, fylte jeg den. Hvis det var stillhet, slapp jeg unna.",
-        "For når det ble stille, ble tankene mine høye.",
-        "Hva om noe skjer med familien min? Hva om jeg mister jobben? Hva om jeg blir syk? Frykten var ikke konstant, men den var vedvarende. De svevde i bakgrunnen og ventet på plass.",
-        "Så jeg ga dem ingen plass.",
-        "Jeg trodde jeg bare var ambisiøs. Drevet. Fokusert. Men under travelheten lå rastløshet. Irritabilitet. En følelse jeg aldri helt klarte å slappe av.",
-        "En kveld spurte datteren min meg hvorfor jeg alltid var «et annet sted» selv når jeg satt rett ved siden av henne. Det spørsmålet ble værende hos meg.",
-        "Jeg startet i det små. To minutter uten telefonen min. Ingen distraksjoner. Bare puster. Det føltes uutholdelig i starten. Tankene mine raste. Kroppen min føltes urolig.",
-        "Men jeg fortsatte å øve.",
-        "Over tid lærte jeg at tanker kan være høye uten å være farlige. Jeg trengte ikke å løse alle frykter med en gang. Jeg trengte ikke å løpe fra ubehaget.",
-        "Nå jobber jeg fortsatt hardt. Jeg bryr meg fortsatt dypt. Men jeg tillater også øyeblikk av stillhet. Og i stedet for å føles som en trussel, føles de øyeblikkene noen ganger som fred."
-      ],
+      "body": {
+        "0": "Jeg sto opp tidlig, jobbet lange dager og fylte hvert ledige øyeblikk med noe — nyheter, e-poster, telefonsamtaler, bakgrunnsstøy. Hvis det var stillhet, fylte jeg den. Hvis det var stillhet, slapp jeg unna.",
+        "1": "For når det ble stille, ble tankene mine høye.",
+        "2": "Hva om noe skjer med familien min? Hva om jeg mister jobben? Hva om jeg blir syk? Frykten var ikke konstant, men den var vedvarende. De svevde i bakgrunnen og ventet på plass.",
+        "3": "Så jeg ga dem ingen plass.",
+        "4": "Jeg trodde jeg bare var ambisiøs. Drevet. Fokusert. Men under travelheten lå rastløshet. Irritabilitet. En følelse jeg aldri helt klarte å slappe av.",
+        "5": "En kveld spurte datteren min meg hvorfor jeg alltid var «et annet sted» selv når jeg satt rett ved siden av henne. Det spørsmålet ble værende hos meg.",
+        "6": "Jeg startet i det små. To minutter uten telefonen min. Ingen distraksjoner. Bare puster. Det føltes uutholdelig i starten. Tankene mine raste. Kroppen min føltes urolig.",
+        "7": "Men jeg fortsatte å øve.",
+        "8": "Over tid lærte jeg at tanker kan være høye uten å være farlige. Jeg trengte ikke å løse alle frykter med en gang. Jeg trengte ikke å løpe fra ubehaget.",
+        "9": "Nå jobber jeg fortsatt hardt. Jeg bryr meg fortsatt dypt. Men jeg tillater også øyeblikk av stillhet. Og i stedet for å føles som en trussel, føles de øyeblikkene noen ganger som fred."
+      },
       "reflection": "Hvor i livet ditt fyller du stillhet for å unngå hva den kan avsløre?"
     },
-    {
+    "5": {
       "name": "Nisha",
       "quote": "Jeg ble forfremmet — og så fikk jeg ikke sove.",
-      "body": [
-        "Angsten min begynte etter at noe «bra» skjedde.",
-        "Jeg ble forfremmet. Mer ansvar. Mer sikt. Flere forventninger. Alle gratulerte meg. Jeg smilte, takket dem, feiret — og så dro jeg hjem og fikk ikke sove.",
-        "Hva om jeg egentlig ikke er i stand til det? Hva om de innser at de har gjort en feil? Hva om jeg feiler offentlig?",
-        "Jo høyere jeg klatret, jo mer eksponert følte jeg meg. Hvert møte føltes som en test. Hver liten feil føltes som bevis på at jeg ikke hørte til. Jeg begynte å jobbe for mye for å kompensere — ble igjen sent, meldte meg frivillig til ekstra oppgaver, svarte på e-poster med en gang.",
-        "Utenfra så jeg vellykket ut. Inni meg følte jeg meg som en bedrager som ventet på å bli oppdaget.",
-        "Angsten skrek ikke. Den hvisket. Den fortalte meg at jeg måtte være bedre enn alle andre bare for å fortjene å være der. Den sa at hvile var latskap. Den sa at ett feiltrinn ville ødelegge alt.",
-        "Bruddpunktet var ikke dramatisk. Det var en tilfeldig tirsdag da jeg glemte et lite vedlegg i en e-post — og brukte hele kvelden på å spille det av i hodet. Det var da jeg innså at dette ikke lenger var ambisjon. Det var frykt.",
-        "Det som sakte endret ting, var å lære at ubehag ikke betyr fare. Vekst føles ofte som eksponering. Nye roller utfordrer deg — de betyr ikke at du er en svindler.",
-        "Jeg begynte å tillate meg selv å være en lærende i stedet for å forvente at jeg skulle være perfekt. Jeg begynte å innrømme når jeg ikke visste noe. Jeg lar meg selv stille spørsmål.",
-        "Og noe overraskende skjedde.",
-        "Folk respekterte meg mer, ikke mindre.",
-        "Nå, når angsten sier at jeg ikke hører hjemme, tror jeg ikke automatisk på det. Jeg minner meg selv på: å være ny i noe betyr ikke at man er ute av stand til det. Det betyr å vokse.",
-        "Og vekst har alltid føltes litt ubehagelig."
-      ],
+      "body": {
+        "0": "Angsten min begynte etter at noe «bra» skjedde.",
+        "1": "Jeg ble forfremmet. Mer ansvar. Mer sikt. Flere forventninger. Alle gratulerte meg. Jeg smilte, takket dem, feiret — og så dro jeg hjem og fikk ikke sove.",
+        "2": "Hva om jeg egentlig ikke er i stand til det? Hva om de innser at de har gjort en feil? Hva om jeg feiler offentlig?",
+        "3": "Jo høyere jeg klatret, jo mer eksponert følte jeg meg. Hvert møte føltes som en test. Hver liten feil føltes som bevis på at jeg ikke hørte til. Jeg begynte å jobbe for mye for å kompensere — ble igjen sent, meldte meg frivillig til ekstra oppgaver, svarte på e-poster med en gang.",
+        "4": "Utenfra så jeg vellykket ut. Inni meg følte jeg meg som en bedrager som ventet på å bli oppdaget.",
+        "5": "Angsten skrek ikke. Den hvisket. Den fortalte meg at jeg måtte være bedre enn alle andre bare for å fortjene å være der. Den sa at hvile var latskap. Den sa at ett feiltrinn ville ødelegge alt.",
+        "6": "Bruddpunktet var ikke dramatisk. Det var en tilfeldig tirsdag da jeg glemte et lite vedlegg i en e-post — og brukte hele kvelden på å spille det av i hodet. Det var da jeg innså at dette ikke lenger var ambisjon. Det var frykt.",
+        "7": "Det som sakte endret ting, var å lære at ubehag ikke betyr fare. Vekst føles ofte som eksponering. Nye roller utfordrer deg — de betyr ikke at du er en svindler.",
+        "8": "Jeg begynte å tillate meg selv å være en lærende i stedet for å forvente at jeg skulle være perfekt. Jeg begynte å innrømme når jeg ikke visste noe. Jeg lar meg selv stille spørsmål.",
+        "9": "Og noe overraskende skjedde.",
+        "10": "Folk respekterte meg mer, ikke mindre.",
+        "11": "Nå, når angsten sier at jeg ikke hører hjemme, tror jeg ikke automatisk på det. Jeg minner meg selv på: å være ny i noe betyr ikke at man er ute av stand til det. Det betyr å vokse.",
+        "12": "Og vekst har alltid føltes litt ubehagelig."
+      },
       "reflection": "Hvor forveksler du ubehag med bevis på at du ikke hører hjemme?"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Start på nytt",
@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "chooseStoryDesc": "Trykk på en profil for å lese deres personlige reise med styrke og rehabilitering.",
+  "recovery_journey": "Inspirasjonsreise",
+  "reflection_prompt": "Reflekter over dette"
 }

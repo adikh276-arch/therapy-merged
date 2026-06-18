@@ -4,11 +4,11 @@
   "intro": {
     "title": "Prédiction vs Réalité",
     "description": "Comparez vos prédictions anxieuses à ce qui se passe réellement pour construire une perspective plus équilibrée.",
-    "benefits": [
-      "Identifier les schémas anxieux",
-      "Rassembler des preuves contre les peurs",
-      "Réduire la suranalyse à l’avenir"
-    ],
+    "benefits": {
+      "0": "Identifier les schémas anxieux",
+      "1": "Rassembler des preuves contre les peurs",
+      "2": "Réduire la suranalyse à l’avenir"
+    },
     "duration": "4-5 minutes",
     "view_past": "Voir les réflexions passées"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Aucune réflexion sauvegardée pour l’instant.",
     "prediction_label": "Prédiction",
     "reality_label": "Réalité",
-    "reflection_label": "Réflexion :"
+    "reflection_label": "Réflexion :",
+    "past_logs": "Réflexions passées",
+    "reframe_label": "Nouvelle vision équilibrée :"
   },
   "complete": {
     "title": "Activité terminée",
     "saved_title": "Réflexion sauvegardée",
     "message": "En regardant les faits, vous aidez votre esprit à comprendre que les choses sont souvent plus gérables qu’elles n’en ont l’air."
   },
-  "emotions": [
-    "Anxieux",
-    "Nerveux",
-    "Effrayé",
-    "Submergé",
-    "Mal à l’aise"
-  ],
+  "emotions": {
+    "0": "Anxieux",
+    "1": "Nerveux",
+    "2": "Effrayé",
+    "3": "Submergé",
+    "4": "Mal à l’aise"
+  },
   "intensity_labels": {
     "not_intense": "Pas intense",
     "very_intense": "Très intense"
   },
-  "comparison_options": [
-    "Ça s’est passé presque exactement comme je l’avais imaginé",
-    "Certaines parties étaient justes, mais pas toutes",
-    "C’était assez différent de ce à quoi je m’attendais",
-    "C’était bien plus facile/meilleur que ce que j’imaginais"
-  ],
+  "comparison_options": {
+    "0": "Ça s’est passé presque exactement comme je l’avais imaginé",
+    "1": "Certaines parties étaient justes, mais pas toutes",
+    "2": "C’était assez différent de ce à quoi je m’attendais",
+    "3": "C’était bien plus facile/meilleur que ce que j’imaginais"
+  },
   "screens": {
     "s1": {
       "title": "Pensez à une situation récente",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
-    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce journal de prédiction ?"
   },
   "app_description": "Prédiction contre réalité",
   "more": "Plus",
@@ -141,5 +144,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

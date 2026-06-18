@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Dukungan emosional",
       "prompt": "Dukungan seperti apa yang benar-benar akan membantu Anda saat ini?",
-      "hints": [
-        "Saya hanya membutuhkan seseorang untuk...",
-        "Akan membantu jika...",
-        "Yang benar-benar saya inginkan adalah..."
-      ]
+      "hints": {
+        "0": "Saya hanya membutuhkan seseorang untuk...",
+        "1": "Akan membantu jika...",
+        "2": "Yang benar-benar saya inginkan adalah..."
+      }
     },
     "Space / time for myself": {
       "label": "Ruang/waktu untuk diri saya sendiri",
       "prompt": "Seperti apa ruang itu bagi Anda?",
-      "hints": [
-        "Saya akan menggunakan waktu itu untuk...",
-        "Ruang angkasa akan membiarkanku...",
-        "Saya butuh ruang untuk..."
-      ]
+      "hints": {
+        "0": "Saya akan menggunakan waktu itu untuk...",
+        "1": "Ruang angkasa akan membiarkanku...",
+        "2": "Saya butuh ruang untuk..."
+      }
     },
     "Clear communication": {
       "label": "Komunikasi yang jelas",
       "prompt": "Seperti apa komunikasi yang lebih jelas bagi Anda?",
-      "hints": [
-        "Saya berharap saya bisa mengatakan...",
-        "Jika mereka benar-benar mendengarkan, saya akan memberi tahu mereka ...",
-        "Komunikasi terasa sulit ketika..."
-      ]
+      "hints": {
+        "0": "Saya berharap saya bisa mengatakan...",
+        "1": "Jika mereka benar-benar mendengarkan, saya akan memberi tahu mereka ...",
+        "2": "Komunikasi terasa sulit ketika..."
+      }
     },
     "Reassurance": {
       "label": "Kepastian",
       "prompt": "Kepastian seperti apa yang akan terasa bermakna?",
-      "hints": [
-        "Saya perlu mendengarnya...",
-        "Itu akan menenangkan saya untuk mengetahui ...",
-        "Saya terus khawatir bahwa..."
-      ]
+      "hints": {
+        "0": "Saya perlu mendengarnya...",
+        "1": "Itu akan menenangkan saya untuk mengetahui ...",
+        "2": "Saya terus khawatir bahwa..."
+      }
     },
     "Understanding": {
       "label": "Pemahaman",
       "prompt": "Seperti apa perasaan yang benar-benar dipahami?",
-      "hints": [
-        "Saya berharap orang tahu bahwa...",
-        "Apa yang benar-benar saya rasakan adalah...",
-        "Tidak ada yang melihat bahwa saya..."
-      ]
+      "hints": {
+        "0": "Saya berharap orang tahu bahwa...",
+        "1": "Apa yang benar-benar saya rasakan adalah...",
+        "2": "Tidak ada yang melihat bahwa saya..."
+      }
     },
     "Stability": {
       "label": "Stabilitas",
       "prompt": "Seperti apa rasakan stabilitas dalam hidup Anda saat ini?",
-      "hints": [
-        "Saya membutuhkan hal-hal untuk dirasakan...",
-        "Apa yang akan membumikan saya adalah...",
-        "Stabilitas berarti..."
-      ]
+      "hints": {
+        "0": "Saya membutuhkan hal-hal untuk dirasakan...",
+        "1": "Apa yang akan membumikan saya adalah...",
+        "2": "Stabilitas berarti..."
+      }
     },
     "Honesty": {
       "label": "Kejujuran",
       "prompt": "Seperti apa kejujuran dalam situasi Anda?",
-      "hints": [
-        "Kebenaran yang harus saya hadapi adalah...",
-        "Saya ingin jujur tentang...",
-        "Apa yang sebenarnya terjadi adalah..."
-      ]
+      "hints": {
+        "0": "Kebenaran yang harus saya hadapi adalah...",
+        "1": "Saya ingin jujur tentang...",
+        "2": "Apa yang sebenarnya terjadi adalah..."
+      }
     },
     "Respect": {
       "label": "Hormat",
       "prompt": "Seperti apa rasa hormat bagi Anda saat ini?",
-      "hints": [
-        "Saya pantas diperlakukan ...",
-        "Rasa hormat akan terlihat seperti...",
-        "Saya membutuhkan orang untuk..."
-      ]
+      "hints": {
+        "0": "Saya pantas diperlakukan ...",
+        "1": "Rasa hormat akan terlihat seperti...",
+        "2": "Saya membutuhkan orang untuk..."
+      }
     },
     "Clarity about relationship": {
       "label": "Kejelasan tentang hubungan",
       "prompt": "Kejelasan seperti apa yang paling membantu Anda?",
-      "hints": [
-        "Saya perlu tahu apakah...",
-        "Yang membingungkan saya adalah...",
-        "Saya ingin kita jelas tentang..."
-      ]
+      "hints": {
+        "0": "Saya perlu tahu apakah...",
+        "1": "Yang membingungkan saya adalah...",
+        "2": "Saya ingin kita jelas tentang..."
+      }
     },
     "default": {
       "prompt": "Seperti apa ini dalam situasi nyata?",
-      "hints": [
-        "Yang terlintas dalam pikiran adalah...",
-        "Saat ini saya merasa...",
-        "Jika saya jujur pada diri saya sendiri ..."
-      ]
+      "hints": {
+        "0": "Yang terlintas dalam pikiran adalah...",
+        "1": "Saat ini saya merasa...",
+        "2": "Jika saya jujur pada diri saya sendiri ..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Katakan sesuatu dengan jujur"
     },
-    {
+    "1": {
       "label": "Luangkan waktu untuk diri saya sendiri"
     },
-    {
+    "2": {
       "label": "Menjangkau seseorang"
     },
-    {
+    "3": {
       "label": "Tetapkan batas kecil"
     },
-    {
+    "4": {
       "label": "Belum yakin"
     }
-  ],
+  },
   "history": {
     "title": "Refleksi Masa Lalu",
     "empty": "Belum ada refleksi."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

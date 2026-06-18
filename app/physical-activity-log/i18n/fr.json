@@ -107,5 +107,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuez"
+  "continue": "Continuez",
+  "lang": "long"
 }

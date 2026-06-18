@@ -33,13 +33,16 @@
     "intro": {
       "title": "Önellátási követő",
       "description": "Kövesd a napi öngondoskodási szokásaidat, és figyeld meg, hogyan befolyásolják azok az általános jóllétedet. A következetesség kulcsfontosságú az egészségesebb elméhez.",
-      "benefits": [
-        "Naplózz a napi öngondoskodási tevékenységeket",
-        "Kövesd nyomon magadra fordított időt",
-        "Figyeld a hangulatodat",
-        "Tekintse meg a történelmet és a fejlődést"
-      ],
-      "duration": "2-3 perc"
+      "benefits": {
+        "0": "Naplózz a napi öngondoskodási tevékenységeket",
+        "1": "Kövesd nyomon magadra fordított időt",
+        "2": "Figyeld a hangulatodat",
+        "3": "Tekintse meg a történelmet és a fejlődést"
+      },
+      "duration": "2-3 perc",
+      "benefit1": "Naplózza a napi fizikai és mentális egészségügyi cselekedeteket",
+      "benefit2": "Észreveszed, hogy a nehézségek megakadályozzák a pihenést",
+      "benefit3": "Építs tudatosságot pozitív megerősítéssel"
     },
     "checkin": {
       "title": "Öngondoskodás ellenőrzése 🌿",
@@ -135,20 +138,20 @@
       "Stressed": "Stresszes",
       "Tired": "Fáradt"
     },
-    "positiveStatements": [
-      "Ma magadért jelentél meg. Ez erőteljes. 🌿",
-      "Az öngondoskodás nem önző — elengedhetetlen. Szép munka. 💚",
-      "Minden apró gondoskodás erősebb téged épít. 🌱",
-      "Ma magadba fektettél. Ez számít. ✨",
-      "A legjobb dolog, amit ma tettél, hogy gondoskodtam rólad. 🍃"
-    ],
-    "supportiveStatements": [
-      "Semmi baj. Holnap új kezdet lesz. Légy gyengéd magaddal. 🤍",
-      "Nem minden nap lesz tökéletes, és ez teljesen rendben van. 🕊️",
-      "Mindent megteszel. Ez mindig elég. 💛",
-      "A pihenés egyfajta öngondoskodás is egyfajta formája. Adj magadnak kegyelmet. 🌸",
-      "Ma elismerni bátorságot igényel. Már most is fejlődsz. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Ma magadért jelentél meg. Ez erőteljes. 🌿",
+      "1": "Az öngondoskodás nem önző — elengedhetetlen. Szép munka. 💚",
+      "2": "Minden apró gondoskodás erősebb téged épít. 🌱",
+      "3": "Ma magadba fektettél. Ez számít. ✨",
+      "4": "A legjobb dolog, amit ma tettél, hogy gondoskodtam rólad. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Semmi baj. Holnap új kezdet lesz. Légy gyengéd magaddal. 🤍",
+      "1": "Nem minden nap lesz tökéletes, és ez teljesen rendben van. 🕊️",
+      "2": "Mindent megteszel. Ez mindig elég. 💛",
+      "3": "A pihenés egyfajta öngondoskodás is egyfajta formája. Adj magadnak kegyelmet. 🌸",
+      "4": "Ma elismerni bátorságot igényel. Már most is fejlődsz. 🌷"
+    }
   },
   "app_title": "Öngondoskodás-követő",
   "app_description": "Kövesd nyomon a napi öngondoskodási szokásaidat, és nézd meg, hogyan hatnak ezek az általános közérzetedre. A következetesség a kulcs az egészségesebb elméhez.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Cykl",
       "title": "Pętla wyjaśniona",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Pojawia się złość"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Wstyd: \"Jestem zły\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Wstyd zostaje zakopany"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Złość znów wybucha"
         }
-      ],
+      },
       "button": "Widzę to"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Przerwa",
       "title": "Przerwij cykl",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Podaj źródło",
           "desc": "Zapytaj: 'Co właściwie czuję?' Zranione? Przestraszony? Niewidzialny? Nadanie jej nazwy ją osłabia."
         },
-        {
+        "1": {
           "title": "Pauza współczucia",
           "desc": "Ręka na piersi. Powiedz: 'To trudne. Jestem człowiekiem. Poradzę sobie z tym.'"
         },
-        {
+        "2": {
           "title": "Napraw z łaską",
           "desc": "Napraw to, jeśli trzeba, ale nie popadaj w spiralę. Nie jesteś swoim najgorszym momentem."
         }
-      ],
+      },
       "notice": "Zauważenie cyklu to już pierwszy krok. To ty wykonujesz pracę.",
       "button": "Pełna aktywność"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

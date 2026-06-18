@@ -5,7 +5,8 @@
     "title": "Your Sleep Audit",
     "description": "Understand what's affecting your sleep and where small changes can help.",
     "start_button": "Start Audit",
-    "history_button": "Past Audits"
+    "history_button": "Past Audits",
+    "more_insights": "Back to Start"
   },
   "screens": {
     "s1": {
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2d",
+  "lang": "lang",
+  "loading": "Loading History..."
 }

@@ -97,5 +97,10 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "canvas": "Lienzo",
+  "2d": "2d",
+  "a": "a",
+  "lang": "largo",
+  "complete_and_save": "Completar y guardar"
 }

@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Hít vào...",
+  "hold_label": "Giữ...",
+  "exhale_label": "Thở ra...",
+  "start": "Sẵn sàng",
+  "stop": "Dừng lại",
+  "begin_breathing": "Bắt đầu thở",
+  "lang": "dài"
 }

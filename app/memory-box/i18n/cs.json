@@ -1,12 +1,12 @@
 {
   "app_title": "Paměťová krabice",
-  "screen_titles": [
-    "Tvoje krabice",
-    "Ocenění",
-    "Vyjadřování",
-    "Zachováno",
-    "Jemná péče"
-  ],
+  "screen_titles": {
+    "0": "Tvoje krabice",
+    "1": "Ocenění",
+    "2": "Vyjadřování",
+    "3": "Zachováno",
+    "4": "Jemná péče"
+  },
   "complete_title": "Paměť zachována",
   "complete_message": "Bezpečně jsi uložil vzpomínku na {{name}} do své krabice. Tyto okamžiky spojení jsou vaše, abyste si je vždy nechal.",
   "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Napište jejich jméno...",
     "placeholder_relation": "Jak je znáš? (volitelné)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Šťastný okamžik",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Něco, co dřív říkali",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Malá každodenní vzpomínka",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Místo, které vám je připomíná",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Něco, co bych si přál říct",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Pokračujte →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Bezpečně schované",
     "subtitle": "Tato vzpomínka na {{name}} je nyní součástí vaší sbírky.",
     "add_another": "Přidat další vzpomínku",
-    "finish": "Finish Reflection"
+    "finish": "Finish Reflection",
+    "saved_title": "Udrženo v bezpečí"
   },
   "closing": {
     "title": "Péče",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jsi si jistý, že chceš tuto vzpomínku smazat?"
   },
   "app_description": "Paměťová krabička",
   "before_you_go": "Než půjdeš",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

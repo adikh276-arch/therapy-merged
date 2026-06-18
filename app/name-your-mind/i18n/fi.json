@@ -3,11 +3,11 @@
   "intro": {
     "title": "Kohtaa mielesi",
     "description": "Opettele etääntymään ylivoimaisista ajatuksista antamalla sisäiselle äänellesi nimi.",
-    "benefits": [
-      "Luo henkinen etäisyys",
-      "Vähennä kovien ajatusten voimaa",
-      "Huomaa ajatuksia ilman, että ne ovat niitä"
-    ],
+    "benefits": {
+      "0": "Luo henkinen etäisyys",
+      "1": "Vähennä kovien ajatusten voimaa",
+      "2": "Huomaa ajatuksia ilman, että ne ovat niitä"
+    },
     "duration": "2–3 minuuttia",
     "view_past": "Katso aiemmat merkinnät"
   },
@@ -45,15 +45,15 @@
       "title": "Luo etäisyyttä",
       "desc": "Anna mielellesi nimi, joka auttaa erottautumaan näistä ajatuksista.",
       "placeholder": "Tai kirjoittaa itse...",
-      "examples": [
-        "Kriitikko",
-        "Yliajattelija",
-        "Worry FM",
-        "Yliajattelukone",
-        "Sisäinen kriitikko",
-        "Mitä jos -generaattori",
-        "Draamaohjaaja"
-      ]
+      "examples": {
+        "0": "Kriitikko",
+        "1": "Yliajattelija",
+        "2": "Worry FM",
+        "3": "Yliajattelukone",
+        "4": "Sisäinen kriitikko",
+        "5": "Mitä jos -generaattori",
+        "6": "Draamaohjaaja"
+      }
     },
     "practice": {
       "title": "Kokeile tätä vuoroa",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Mitä huomasit?",
       "desc": "Miltä ajatus tuntui, kun sille annettiin nimen?",
-      "options": [
-        "Ajatus tuntui hieman vähemmän intensiiviseltä kuin aiemmin",
-        "Tuntui, että minulla oli etäisyyttä ajatukseen.",
-        "Se tuntui yhä yhtä vahvalta kuin ennen",
-        "En ole varma, mikä muuttui, jos mitään"
-      ],
+      "options": {
+        "0": "Ajatus tuntui hieman vähemmän intensiiviseltä kuin aiemmin",
+        "1": "Tuntui, että minulla oli etäisyyttä ajatukseen.",
+        "2": "Se tuntui yhä yhtä vahvalta kuin ennen",
+        "3": "En ole varma, mikä muuttui, jos mitään"
+      },
       "button": "Täydellinen pohdinta"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

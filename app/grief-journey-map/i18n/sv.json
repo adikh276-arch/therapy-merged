@@ -16,23 +16,23 @@
   "btn_one_more": "En sak till",
   "screen3_tag": "Milda sanningar",
   "screen3_title": "Värt att veta",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Ingen deadline",
       "body": "Det finns inget utgångsdatum för förlusten. Att känna det månader eller år senare betyder inte att du sitter fast – det betyder att du älskade."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Motsägelsefulla känslor",
       "body": "Man kan sakna någon och känna sig lättad. Du kan skratta och sörja. Sorg har motsatser."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Kärlekens förvandling",
       "body": "Smärtan är inte separat från kärleken. Det är samma sak, förvandlad."
     }
-  ],
+  },
   "btn_finish": "Färdig reflektion",
   "complete_title": "Resan hedrad",
   "complete_message": "Du behöver inte gå vidare. Man lär sig bara att bära den på ett annat sätt. Din resa är unik, värdefull och djupt mänsklig.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

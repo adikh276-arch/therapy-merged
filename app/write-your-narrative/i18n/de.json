@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Gehen wir Schritt für Schritt vor. 💛",
-    "description": [
-      "Du musst heute nicht deine ganze Geschichte erzählen. Ein kleiner Teil reicht.",
-      "Du bist jetzt in Sicherheit. Du hast die Kontrolle darüber, was du schreibst – und was nicht."
-    ],
+    "description": {
+      "0": "Du musst heute nicht deine ganze Geschichte erzählen. Ein kleiner Teil reicht.",
+      "1": "Du bist jetzt in Sicherheit. Du hast die Kontrolle darüber, was du schreibst – und was nicht."
+    },
     "breath": "Atme langsam durch, bevor wir beginnen.",
     "button_ready": "Ich bin bereit",
     "button_history": "Vergangene Erzählungen",
@@ -21,20 +21,20 @@
     "title": "Schreibe, was sich okay ✨ anfühlt",
     "subtitle": "Deine Worte, dein Tempo",
     "prompt_label": "Brauchen Sie einen Ausgangspunkt?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Was ich am meisten in Erinnerung habe, ist...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Damals fühlte ich mich...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Seitdem ist mir aufgefallen...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Fang hier an zu schreiben...",
     "notice": "Es gibt keinen richtigen Weg, das zu tun. Schon ein paar Zeilen reichen aus.",
     "button": "Fertig schreiben."
@@ -43,10 +43,10 @@
     "title": "Du hast etwas Wichtiges getan.",
     "subtitle": "Danke, dass du für dich selbst da bist.",
     "settle_title": "Lass uns einen Moment Zeit nehmen, um uns zu beruhigen",
-    "steps": [
-      "Schau dich um und nenne drei Dinge, die du sehen kannst.",
-      "Atme langsam ein... Und raus."
-    ],
+    "steps": {
+      "0": "Schau dich um und nenne drei Dinge, die du sehen kannst.",
+      "1": "Atme langsam ein... Und raus."
+    },
     "feeling_label": "Im Moment habe ich das Gefühl:",
     "feeling_placeholder": "Ein oder zwei Worte...",
     "quote": "\"Du musst nicht alles auf einmal tragen. Du kannst zurückkommen, wann immer du bereit bist.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

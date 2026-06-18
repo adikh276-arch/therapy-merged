@@ -1,11 +1,11 @@
 {
   "app_title": "Gabay sa Siklo ng Pagtulog",
-  "pill_labels": [
-    "Pagpapakilala",
-    "Ang 4 na yugto",
-    "Ang groggy na katotohanan",
-    "Kumusta naman kayo?"
-  ],
+  "pill_labels": {
+    "0": "Pagpapakilala",
+    "1": "Ang 4 na yugto",
+    "2": "Ang groggy na katotohanan",
+    "3": "Kumusta naman kayo?"
+  },
   "s1": {
     "title": "Nakatulog ka na ba ng walong oras at nakakaramdam ka pa rin ng kakila-kilabot?",
     "p1": "Hindi ito tungkol sa <1>kung gaano katagal</1> natutulog ka.",
@@ -18,32 +18,32 @@
   "s2": {
     "title": "Ginagawa ito ng utak mo gabi-gabi 🌀",
     "desc": "Tuwing 90 minuto, ang iyong utak ay nag-iikot sa pamamagitan ng 4 na yugto - tulad ng isang playlist na paulit-ulit. I-tap ang bawat isa upang galugarin 👇",
-    "stages": [
-      {
+    "stages": {
+      "0": {
         "emoji": "🌊",
         "title": "Banayad na pagtulog",
         "tag": "1-5 mins · madaling magising",
         "body": "Naaanod ka. Ang katawan ay nagsisimulang bitawan ang pag-alis, ang mga kalamnan ay maaaring mag-twitch. Napakadaling magising mula rito."
       },
-      {
+      "1": {
         "emoji": "💤",
         "title": "Pag-aayos sa",
         "tag": "10–25 mins · Tunay na natutulog",
         "body": "Bumabagal ang tibok ng puso, bumababa ang temperatura ng katawan. Natutulog ka nang maayos - ang aktibidad ng utak ay nagsisimulang bumagal."
       },
-      {
+      "2": {
         "emoji": "🔵",
         "title": "Malalim na pagtulog ⭐",
         "tag": "20–40 mins · Ang ginto",
         "body": "Ang katawan ay nag-aayos ng tisyu, bumubuo ng kaligtasan sa sakit. Ang pinaka-pisikal na pagpapanumbalik na yugto - mahirap magising mula sa."
       },
-      {
+      "3": {
         "emoji": "🌙",
         "title": "REM pagtulog",
         "tag": "10–60 mins · mode ng panaginip",
         "body": "Ang utak ay nag-uumapaw sa aktibidad. Ang mga damdamin ay naproseso, ang mga alaala ay naka-lock in. Ang paglaktaw nito ay nag-iiwan sa iyo ng malabo."
       }
-    ],
+    },
     "italic": "Ang malalim na pagtulog ay nag-aayos ng iyong katawan. Inaayos ng REM ang iyong isipan.",
     "button": "Kaya bakit ako pa rin nakakaramdam ng groggy? →"
   },
@@ -55,66 +55,66 @@
       "deep": "malalim",
       "groggy": "😫 groggy",
       "fresh": "😊 sariwa",
-      "cycles": [
-        "Siklo 1",
-        "Siklo 2",
-        "Siklo 3"
-      ]
+      "cycles": {
+        "0": "Siklo 1",
+        "1": "Siklo 2",
+        "2": "Siklo 3"
+      }
     },
     "disruptors_title": "Ano ang nakakagambala sa iyong mga siklo 👇",
-    "disruptors": [
-      {
+    "disruptors": {
+      "0": {
         "emoji": "📱",
         "text": "Mga screen bago matulog",
         "sub": "Pagkaantala ng malalim na pagtulog"
       },
-      {
+      "1": {
         "emoji": "☕",
         "text": "Huli na caffeine",
         "sub": "Bawasan ang malalim na pagtulog hanggang sa 20%"
       },
-      {
+      "2": {
         "emoji": "⏰",
         "text": "Hindi regular na oras ng pagtulog",
         "sub": "Sinisira ang Iyong Likas na Ritmo"
       },
-      {
+      "3": {
         "emoji": "😰",
         "text": "Stress at pagkabalisa",
         "sub": "pinapanatili kang natigil sa magaan na pagtulog"
       }
-    ],
+    },
     "italic": "Ang iyong mga gawi ay direktang humuhubog sa kung aling mga yugto ang naabot mo.",
     "button": "Ano ang ibig sabihin nito para sa akin? →"
   },
   "s4": {
     "title": "Alin sa mga tunog tulad mo? 👇",
-    "options": [
-      {
+    "options": {
+      "0": {
         "emoji": "😩",
         "text": "Nagising ako na pagod na pagod",
         "sub": "malamang na kulang sa malalim na pagtulog",
         "tip": "Tumuon sa isang pare-pareho na oras ng pagtulog at paggising - ang iyong katawan ay nangangailangan ng isang regular na ritmo upang maabot ang malalim na pagtulog."
       },
-      {
+      "1": {
         "emoji": "🌫️",
         "text": "Pakiramdam ko ay malabo o mababa ang damdamin",
         "sub": "malamang na nawawala ang REM sleep",
         "tip": "Subukang mag-wind down 30 mins bago matulog - ang isang kalmado pre-sleep routine ay pinoprotektahan ang iyong REM sleep."
       },
-      {
+      "2": {
         "emoji": "😤",
         "text": "Madalas akong gumising sa gabi",
         "sub": "Ang mga siklo ay patuloy na naputol",
         "tip": "Ang isang cool, madilim at tahimik na silid ay tumutulong sa iyong utak na manatili sa mas malalim na yugto nang walang pagkagambala."
       },
-      {
+      "3": {
         "emoji": "😐",
         "text": "Okay lang ang pakiramdam ko pero hindi maganda",
         "sub": "Ang mga siklo ay bahagyang ngunit hindi kumpleto",
         "tip": "Subukang matulog ng 20 minuto nang mas maaga - maaaring kailanganin mo lamang ng isa pang kumpletong siklo ng pagtulog."
       }
-    ],
+    },
     "quote": "Ang pagtulog ay hindi lamang pahinga - ito ay aktibong pagbawi. Protektahan ang iyong mga siklo at ang iyong buong araw ay nagbabago.",
     "button": "Tapos na ✓"
   },
@@ -173,5 +173,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "how_long": "how long ",
+  "you_sleep": "you sleep.",
+  "where": "where ",
+  "you_wake_up": "you wake up inside your sleep cycles."
 }

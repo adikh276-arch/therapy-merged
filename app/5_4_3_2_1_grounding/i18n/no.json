@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "La oss ta en kort pause sammen.\n\nI det neste minuttet er det ingenting du trenger å løse, fikse eller svare på. Bare tillat deg selv å roe ned.\n\nSitt komfortabelt, plasser føttene på bakken hvis du kan, og ta et rolig pust inn... og puster sakte ut.\n\nDette er ditt øyeblikk for å nullstille og gjenopprette kontakten med nåtiden.",
       "button": "Begynn"
     },
-    {
+    "1": {
       "heading": "5 ting du kan se",
       "body": "Se deg sakte rundt. La øynene dine bevege seg forsiktig over rommet. Legg merke til farger, former, lys, skygger eller små detaljer du kanskje ikke har lagt merke til før.",
       "button": "Neste"
     },
-    {
+    "2": {
       "heading": "4 ting du kan føle",
       "body": "Fokuser på kroppen din. Kjenn føttene dine treffe gulvet, ryggen mot stolen, klærne på huden, eller luften rundt deg. Anerkjenn fire fysiske sanseinntrykk.",
       "button": "Neste"
     },
-    {
+    "3": {
       "heading": "3 ting du kan høre",
       "body": "Hør nøye etter. Du kan høre fjerne lyder, en vifte, skriving, pusting eller til og med stillhet. Identifiser tre lyder uten å dømme dem.",
       "button": "Neste"
     },
-    {
+    "4": {
       "heading": "2 ting du kan lukte",
       "body": "Se om du kan oppdage noen lukt i rommet. Hvis ingenting skiller seg ut, legg bare merke til den nøytrale lukten av luften rundt deg.",
       "button": "Neste"
     },
-    {
+    "5": {
       "heading": "1 ting du kan smake",
       "body": "Vær oppmerksom på smaken i munnen. Det kan være subtilt eller nøytralt — bare observer det.",
       "button": "Neste"
     },
-    {
+    "6": {
       "heading": "Refleksjon",
       "body": "Ta et rolig pust inn... og pust forsiktig ut.",
       "button": "Send inn"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Start på nytt",
@@ -90,5 +90,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "/5-4-3-2-1-grounding": "/5-4-3-2-1-jording"
 }

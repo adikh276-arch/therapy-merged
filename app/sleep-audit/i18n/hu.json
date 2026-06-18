@@ -5,7 +5,8 @@
     "title": "Az alvásvizsgálatod",
     "description": "Értsd meg, mi befolyásolja az alvásodat, és hol segíthetnek a kis változtatások.",
     "start_button": "Audit indítása",
-    "history_button": "Korábbi auditok"
+    "history_button": "Korábbi auditok",
+    "more_insights": "Vissza a kezdéshez"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Minden este nagyon különböző időpontokban fekszem le"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Az alvás környezetem nem sötét, csendes vagy kényelmes"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Közvetlenül alvás előtt görgetek a telefonomon"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Koffein vagy alkoholom van lefekvésnél közel"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Éjszaka felébredek, és nehezen tudok visszaaludni"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Az agyam zaklatott a gondolatokkal, amikor próbálok aludni"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Ritkán érzem magam felfrissültnek egy éjszakai alvás után"
     }
-  ],
-  "rating_labels": [
-    "Nagyon szegény",
-    "Szegény",
-    "Rendben",
-    "Jó",
-    "Remek"
-  ],
+  },
+  "rating_labels": {
+    "0": "Nagyon szegény",
+    "1": "Szegény",
+    "2": "Rendben",
+    "3": "Jó",
+    "4": "Remek"
+  },
   "status_labels": {
     "track": "Főleg a pályán",
     "disruptions": "Néhány zavaró",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2d",
+  "lang": "hosszú",
+  "loading": "Előzmény betöltése..."
 }

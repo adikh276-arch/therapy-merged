@@ -1,10 +1,10 @@
 {
   "app_title": "Savner noen",
-  "subtitles": [
-    "Validering",
-    "Indre visdom",
-    "Komplett"
-  ],
+  "subtitles": {
+    "0": "Validering",
+    "1": "Indre visdom",
+    "2": "Komplett"
+  },
   "complete_title": "Klarhet oppnådd",
   "complete_message": "Å forstå kjemien i å savne noen er det første steget mot helbredelse. Følelsene dine er gyldige, og hjernen din gjør bare jobben sin for å beskytte og bearbeide.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

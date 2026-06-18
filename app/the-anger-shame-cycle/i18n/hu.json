@@ -11,24 +11,24 @@
     "s2": {
       "tag": "A ciklus",
       "title": "A kör magyarázatot adott",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Düh felszínre tör"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Szégyen: \"Rossz vagyok\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Szégyen eltemetik"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Düh újra kitör"
         }
-      ],
+      },
       "button": "Látom"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Megszakítás",
       "title": "Megszakítsd a ciklust",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Nevezze meg a forrást",
           "desc": "Kérdezd: 'Mit érzek valójában?' Fájt? Félsz? Láthatatlan? A név meggyengíti."
         },
-        {
+        "1": {
           "title": "Együttérzés szünet",
           "desc": "Kéz a mellkason. Mondd: 'Ez nehéz. Ember vagyok. Át tudom vészelni ezt.'"
         },
-        {
+        "2": {
           "title": "Javítás kegyelemmel",
           "desc": "Ha kell, jóváteheted a hibákat — de ne ess bele a spirálba. Nem vagy a legrosszabb pillanatod."
         }
-      ],
+      },
       "notice": "A ciklus észlelése már az első lépés. Te végzed a munkát.",
       "button": "Teljes tevékenység"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

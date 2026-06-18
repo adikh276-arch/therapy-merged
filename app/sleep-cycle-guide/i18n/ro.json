@@ -173,5 +173,10 @@
   "yes": "Da",
   "no": "Nu",
   "date": "Data",
-  "continue": "Continuă"
+  "continue": "Continuă",
+  "lang": "lung",
+  "how_long": "Cât timp ",
+  "you_sleep": "Tu dormi.",
+  "where": "unde ",
+  "you_wake_up": "Te trezești în timpul ciclurilor tale de somn."
 }

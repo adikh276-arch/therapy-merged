@@ -23,38 +23,38 @@
   "try_again": "Spróbuj ponownie",
   "complete_title": "Opanowanie wiedzy",
   "complete_message": "Zdobyłeś {{score}}/{{total}}! Zdobyłeś cenny wgląd w prawdy i mity o gniewie.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Złość jest zła. Jeśli czujesz złość, coś jest z tobą nie tak.",
       "answer": "myth",
       "realFact": "Złość to normalna, zdrowa emocja. Wszyscy to czują. To nie jest znak, że coś jest z tobą nie tak — to sygnał, że coś jest dla ciebie ważne. Liczy się to, jak na to zareagujesz, a nie to, czy to czujesz.",
       "example": "Weteran czuje złość, gdy przekracza się jego granice. Ten gniew jest uzasadniony — mówi im coś ważnego."
     },
-    {
+    "1": {
       "statement": "Złość może być sygnałem, że przekroczyłeś swoje granice.",
       "answer": "fact",
       "realFact": "Złość to informacja. Kiedy to poczujesz, warto zapytać: jaka granica została przekroczona? Jaka potrzeba nie jest zaspokojona? Słuchanie swojej złości — bez działania impulsywnego — pomaga lepiej zrozumieć siebie i podjąć znaczące działania.",
       "example": "Czujesz złość, gdy współpracownik przypisuje sobie zasługi za twoją pracę. Ten gniew wskazuje na potrzebę uznania i sprawiedliwości."
     },
-    {
+    "2": {
       "statement": "Jeśli jesteś zły, musisz się wyładować, krzycząc lub uderzając w rzeczy.",
       "answer": "myth",
       "realFact": "Zdrowe wyrażanie złości nie oznacza tłumienia ANI eksplozji. Oznacza to uznanie swoich uczuć i wyrażanie ich konstruktywnie — poprzez słowa, prowadzenie dziennika, aktywność fizyczną lub twórcze sposoby wyrażania ruchu. Możesz szanować swój gniew bez zniszczenia.",
       "example": "Zamiast uderzać w ścianę, idziesz biegać albo zapisujesz dokładnie, co cię trapi. Złość przepływa przez ciebie, nie powodując krzywdy."
     },
-    {
+    "3": {
       "statement": "Nauka radzenia sobie z gniewem to oznaka siły emocjonalnej.",
       "answer": "fact",
       "realFact": "Ludzie, którzy pracują nad zarządzaniem złością, nie są słabi — wykonują jedną z najodważniejszych emocjonalnych prac, jakie istnieje. Wybór zatrzymania się, refleksji i refleksyjnej odpowiedzi wymaga znacznie więcej siły niż reakcja impulsywna.",
       "example": "Wzięcie głębokiego oddechu i powiedzenie \"potrzebuję minuty, zanim odpowiem\" w gorącej chwili to potężny akt samokontroli."
     },
-    {
+    "4": {
       "statement": "Jeśli ktoś cię zdenerwuje, to jego wina. Nie masz odpowiedzialności.",
       "answer": "myth",
       "realFact": "Inni mogą wywołać twoją złość, ale to, jak zareagujesz, jest twoją odpowiedzialnością — i twoją siłą. Wzięcie odpowiedzialności za swoje reakcje nie oznacza, że druga osoba miała rację. To znaczy, że to ty wybierasz, jak się pojawisz. To jest wzmocnienie, a nie obwinianie.",
       "example": "Ktoś cię wyprzedza w korku. Czujesz złość — to normalne. Ale ty wybierasz, czy się wścieknąć, czy wziąć oddech. Wybór należy do ciebie."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Zacznij od nowa",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie",
+  "results_message": "Ty"
 }

@@ -33,13 +33,16 @@
     "intro": {
       "title": "Öz Bakım İzleyicisi",
       "description": "Günlük öz-bakım alışkanlıklarınızı takip edin ve bunların genel iyilik sağlığınızı nasıl etkilediğine bakın. Tutarlılık, daha sağlıklı bir zihnin anahtarıdır.",
-      "benefits": [
-        "Günlük özbakım aktivitelerini kaydet",
-        "Kendinize harcanan zamanı takip edin",
-        "Ruh hali kalıplarınızı takip edin",
-        "Tarih ve ilerlemeyi görüntüleyin"
-      ],
-      "duration": "2-3 dakika"
+      "benefits": {
+        "0": "Günlük özbakım aktivitelerini kaydet",
+        "1": "Kendinize harcanan zamanı takip edin",
+        "2": "Ruh hali kalıplarınızı takip edin",
+        "3": "Tarih ve ilerlemeyi görüntüleyin"
+      },
+      "duration": "2-3 dakika",
+      "benefit1": "Günlük fiziksel ve zihinsel sağlık eylemlerini kaydet",
+      "benefit2": "Dinlenmenizi engelleyen zorlukları fark edin",
+      "benefit3": "Olumlu pekiştirme yoluyla farkındalık geliştirin"
     },
     "checkin": {
       "title": "Kendi Bakım Kontrolü 🌿",
@@ -135,20 +138,20 @@
       "Stressed": "Stresli",
       "Tired": "Yorgun"
     },
-    "positiveStatements": [
-      "Bugün kendin için geldin. Bu çok güçlü. 🌿",
-      "Kendine bakım bencilce değildir — bu şarttır. Aferin. 💚",
-      "Her küçük özen eylemi sizi daha güçlü bir şekilde inşa eder. 🌱",
-      "Bugün kendine yatırım yaptın. Bu önemli. ✨",
-      "Bugün yaptığın en iyi şey sana bakmak. 🍃"
-    ],
-    "supportiveStatements": [
-      "Sorun değil. Yarın yeni bir başlangıç. Kendine karşı nazik ol. 🤍",
-      "Her gün mükemmel olmayacak ve bu tamamen normal. 🕊️",
-      "Elinden gelenin en iyisini yapıyorsun. Bu her zaman yeterlidir. 💛",
-      "Dinlenme aynı zamanda bir tür özbakım biçimidir. Kendine lütuf et. 🌸",
-      "Bugün bunu kabul etmek cesaret gerektirir. Zaten büyüyorsun. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Bugün kendin için geldin. Bu çok güçlü. 🌿",
+      "1": "Kendine bakım bencilce değildir — bu şarttır. Aferin. 💚",
+      "2": "Her küçük özen eylemi sizi daha güçlü bir şekilde inşa eder. 🌱",
+      "3": "Bugün kendine yatırım yaptın. Bu önemli. ✨",
+      "4": "Bugün yaptığın en iyi şey sana bakmak. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Sorun değil. Yarın yeni bir başlangıç. Kendine karşı nazik ol. 🤍",
+      "1": "Her gün mükemmel olmayacak ve bu tamamen normal. 🕊️",
+      "2": "Elinden gelenin en iyisini yapıyorsun. Bu her zaman yeterlidir. 💛",
+      "3": "Dinlenme aynı zamanda bir tür özbakım biçimidir. Kendine lütuf et. 🌸",
+      "4": "Bugün bunu kabul etmek cesaret gerektirir. Zaten büyüyorsun. 🌷"
+    }
   },
   "app_title": "Öz Bakım Takipçisi",
   "app_description": "Günlük öz bakım alışkanlıklarınızı takip edin ve bunların genel sağlığınız üzerindeki etkisini görün. Daha sağlıklı bir zihin için tutarlılık çok önemlidir.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

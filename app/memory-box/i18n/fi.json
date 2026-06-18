@@ -1,12 +1,12 @@
 {
   "app_title": "Muistilaatikko",
-  "screen_titles": [
-    "Sinun laatikkosi",
-    "Kunnioittaminen",
-    "Ilmaiseminen",
-    "Säilytetty",
-    "Hellävarainen hoito"
-  ],
+  "screen_titles": {
+    "0": "Sinun laatikkosi",
+    "1": "Kunnioittaminen",
+    "2": "Ilmaiseminen",
+    "3": "Säilytetty",
+    "4": "Hellävarainen hoito"
+  },
   "complete_title": "Muisto säilynyt",
   "complete_message": "Olet turvallisesti laittanut muiston [[0]:sta laatikkoosi. Nämä yhteyden hetket ovat aina sinun säilytettävissäsi.",
   "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Kirjoita heidän nimensä...",
     "placeholder_relation": "Mistä tunnet heidät? (valinnainen)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Onnellinen hetki",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Jotain, mitä he ennen sanoivat",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Pieni arjen muisto",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Paikka, joka muistuttaa sinua heistä",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Jotain, mitä toivoisin voivani sanoa",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Jatka →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Turvallisesti piilossa",
     "subtitle": "Tämä muisto {{name}}:sta on nyt osa kokoelmaasi.",
     "add_another": "Lisää toinen muisto",
-    "finish": "Viimeistelyn heijastus"
+    "finish": "Viimeistelyn heijastus",
+    "saved_title": "Pidetty turvassa"
   },
   "closing": {
     "title": "Huolehtiminen",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Oletko varma, että haluat poistaa tämän muiston?"
   },
   "app_description": "Muistilaatikko",
   "before_you_go": "Ennen lähtöäsi",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Hengitä sisään...",
+  "hold_label": "Odota...",
+  "exhale_label": "Hengitä ulos...",
+  "start": "Valmiina",
+  "stop": "Seis",
+  "begin_breathing": "Aloita hengittäminen",
+  "lang": "pitkä"
 }

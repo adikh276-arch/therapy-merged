@@ -10,21 +10,22 @@
   "s2": {
     "tag": "Verdades suaves",
     "title": "Lógica de supervivencia cerebral",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "La alarma seguía encendida",
         "body": "La hipervigilancia y el sobresalto no son exageraciones: el sistema de alarma de tu cerebro está cumpliendo demasiado bien su función."
       },
-      {
+      "1": {
         "header": "Los flashbacks son memoria",
         "body": "Los gatillos dejan tu cerebro hacia atrás porque nunca recibió la señal de que la amenaza había terminado. Está intentando protegerte."
       },
-      {
+      "2": {
         "header": "Luchando por ti",
         "body": "Cada síntoma fue en su día un acto de supervivencia. Tu cerebro hizo lo que tenía que hacer para mantenerte con vida."
       }
-    ],
-    "healing": "Sanar no consiste en olvidar. Se trata de ayudar a tu cerebro a aprender que ahora estás a salvo."
+    },
+    "healing": "Sanar no consiste en olvidar. Se trata de ayudar a tu cerebro a aprender que ahora estás a salvo.",
+    "finish_reading": "Terminar la lectura"
   },
   "common": {
     "get_started": "Comenzar",
@@ -77,5 +78,9 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo",
+  "complete": {
+    "message": "Tú"
+  }
 }

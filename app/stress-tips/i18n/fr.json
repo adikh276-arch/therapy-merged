@@ -10,57 +10,57 @@
       "title": "Dormez profondément",
       "description": "Visez 7 à 9 heures de sommeil chaque nuit. Essayez de dormir et de vous réveiller à la même heure chaque jour.",
       "why": "Le sommeil aide votre cerveau et votre corps à récupérer et réduit les hormones du stress.",
-      "do": [
-        "Garde un rythme de sommeil fixe",
-        "Évitez les écrans une heure avant le coucher",
-        "Garde la pièce fraîche et sombre",
-        "Évitez la caféine après 16h"
-      ],
+      "do": {
+        "0": "Garde un rythme de sommeil fixe",
+        "1": "Évitez les écrans une heure avant le coucher",
+        "2": "Garde la pièce fraîche et sombre",
+        "3": "Évitez la caféine après 16h"
+      },
       "button": "Rappel de sommeil défini"
     },
     "breathing": {
       "title": "Entraînez-vous à la respiration profonde",
       "description": "Prenez quelques minutes pour vous concentrer sur votre respiration. Respirer lentement réduit l’anxiété.",
       "why": "La respiration lente active la réponse de relaxation de votre corps.",
-      "do": [
-        "Inspirez pendant 4 secondes",
-        "Tenez pendant 4 secondes",
-        "Expire pendant 4 secondes",
-        "Répétez pendant 1 minute"
-      ]
+      "do": {
+        "0": "Inspirez pendant 4 secondes",
+        "1": "Tenez pendant 4 secondes",
+        "2": "Expire pendant 4 secondes",
+        "3": "Répétez pendant 1 minute"
+      }
     },
     "exercise": {
       "title": "Bouge ton corps",
       "description": "La marche légère ou les étirements aident à libérer le stress et à améliorer l’humeur.",
       "why": "L’exercice libère des endorphines et améliore l’humeur.",
-      "do": [
-        "15 minutes à pied",
-        "Étirement léger",
-        "Courte séance de yoga",
-        "Entraînement rapide à domicile"
-      ]
+      "do": {
+        "0": "15 minutes à pied",
+        "1": "Étirement léger",
+        "2": "Courte séance de yoga",
+        "3": "Entraînement rapide à domicile"
+      }
     },
     "caffeine": {
       "title": "Limitez la caféine et le sucre",
       "description": "Trop de caféine et de sucre peuvent augmenter l’anxiété et perturber le sommeil.",
       "why": "Trop de caféine et de sucre augmentent l’anxiété et les problèmes de sommeil.",
-      "do": [
-        "Remplacez un café par une tisane",
-        "Bois plus d’eau",
-        "Réduisez les snacks sucrés",
-        "Évitez la caféine en fin de journée"
-      ]
+      "do": {
+        "0": "Remplacez un café par une tisane",
+        "1": "Bois plus d’eau",
+        "2": "Réduisez les snacks sucrés",
+        "3": "Évitez la caféine en fin de journée"
+      }
     },
     "planning": {
       "title": "Planifiez votre journée",
       "description": "Divisez les grandes tâches en étapes plus petites pour éviter de vous sentir dépassé.",
       "why": "Planifier réduit le désordre mental et la surcharge.",
-      "do": [
-        "Écrire 3 tâches principales",
-        "Divisez les tâches en petites étapes",
-        "Concentrez-vous sur une tâche à la fois",
-        "Faites de courtes pauses"
-      ]
+      "do": {
+        "0": "Écrire 3 tâches principales",
+        "1": "Divisez les tâches en petites étapes",
+        "2": "Concentrez-vous sur une tâche à la fois",
+        "3": "Faites de courtes pauses"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "Inhale…": "Inspire...",
+  "Hold…": "Tiens...",
+  "Exhale…": "Expire...",
+  "breathing_instruction": "Suivez le cercle pour réguler",
+  "Resume": "CV",
+  "Pause": "Pause",
+  "lang": "long",
+  "Grounding": "Mental De-stress",
+  "stay_present": "Conseils pour soulager le stress",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Choisissez n’importe quelle stratégie cible ci-dessous pour explorer pourquoi elle aide et comment l’appliquer au quotidien."
+  },
+  "wellness_tip": "STRATÉGIE DU STRESS QUOTIDIEN"
 }

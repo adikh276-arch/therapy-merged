@@ -29,7 +29,8 @@
     "historyDesc": "Reflecțiile tale anterioare sunt salvate aici pentru a le putea revedea oricând.",
     "noHistory": "Nu ai finalizat încă o reflecție de valori.",
     "startActivity": "Începe activitatea",
-    "startNew": "Începe o nouă reflecție"
+    "startNew": "Începe o nouă reflecție",
+    "aligned": "Aliniați"
   },
   "values": {
     "Family": "Familie",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung",
+  "app_duration": "5 minute",
+  "loading": "Încărcare reflexii..."
 }

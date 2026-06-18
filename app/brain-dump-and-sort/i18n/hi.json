@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} राउंड",
   "yes": "हाँ",
   "no": "नहीं",
-  "date": "दिनांक"
+  "date": "दिनांक",
+  "type_another": "एक और विचार टाइप करें ...",
+  "resume": "सारांश",
+  "pause": "ठहराव",
+  "growth_reminder": "छोटे-छोटे कदम भी मानसिक वजन को कम करते हैं। आप डॉन",
+  "lang": "लंबा",
+  "complete_message": "आप",
+  "welcome_sub": "स्वागत है",
+  "clearing_sub": "मानसिक समाशोधन",
+  "sorting_sub": "छँटाई",
+  "action_sub": "कार्रवाई के कदम",
+  "reflect_sub": "प्रतिबिंब",
+  "intro": {
+    "viewHistory": "इतिहास देखें"
+  }
 }

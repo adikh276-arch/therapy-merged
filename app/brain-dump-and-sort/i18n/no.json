@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Skriv en annen tanke...",
+  "resume": "CV",
+  "pause": "Pause",
+  "growth_reminder": "Selv små steg reduserer den mentale vekten. Du don",
+  "lang": "lang",
+  "complete_message": "Du",
+  "welcome_sub": "Velkommen",
+  "clearing_sub": "Mental rydding",
+  "sorting_sub": "Sortering",
+  "action_sub": "Handlingstrinn",
+  "reflect_sub": "Refleksjon",
+  "intro": {
+    "viewHistory": "Se historikk"
+  }
 }

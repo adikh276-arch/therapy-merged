@@ -1,58 +1,58 @@
 {
   "app_title": "Înțelegerea controlului",
   "app_subtitle": "Strategia de supraviețuire • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "De ce controlul poate părea atât de puternic",
-      "paragraphs": [
-        "Pentru mulți oameni care întâmpină dificultăți alimentare, controlul poate părea o modalitate de a crea siguranță.",
-        "Când viața pare imprevizibilă sau intensă emoțional, concentrarea pe mâncare, greutate sau rutine poate aduce un sentiment de structură și certitudine.",
-        "Nu este vorba despre voință sau disciplină. Este vorba despre a încerca să te stabilizezi când lucrurile par nesigure.",
-        "În acest fel, controlul devine o strategie de adaptare — ceva care te ajută să te simți ancorat, chiar dacă doar temporar."
-      ],
+      "paragraphs": {
+        "0": "Pentru mulți oameni care întâmpină dificultăți alimentare, controlul poate părea o modalitate de a crea siguranță.",
+        "1": "Când viața pare imprevizibilă sau intensă emoțional, concentrarea pe mâncare, greutate sau rutine poate aduce un sentiment de structură și certitudine.",
+        "2": "Nu este vorba despre voință sau disciplină. Este vorba despre a încerca să te stabilizezi când lucrurile par nesigure.",
+        "3": "În acest fel, controlul devine o strategie de adaptare — ceva care te ajută să te simți ancorat, chiar dacă doar temporar."
+      },
       "microcopy": "Nu ești singurul care se simte așa.",
       "cta": "Continuă"
     },
-    {
+    "1": {
       "headline": "Moduri diferite în care apare controlul",
       "intro": "Nevoia de control nu arată la fel pentru toată lumea, dar apare adesea în tipare precum:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Reguli stricte sau rigide privind alimentația"
         },
-        {
+        "1": {
           "text": "Trebuie să urmezi rutinele exact"
         },
-        {
+        "2": {
           "text": "Anxietate când planurile se schimbă"
         },
-        {
+        "3": {
           "text": "Legarea stimei de sine de formă/greutate"
         }
-      ],
+      },
       "outro": "În timp, acestea pot deveni rigide, ocupând spațiu mental și făcând mai dificilă adaptarea.",
       "microcopy": "Ceea ce începe ca control poate începe treptat să devină controlant.",
       "cta": "Continuă"
     },
-    {
+    "2": {
       "headline": "Sub controlul",
       "intro": "Dorința de a controla are adesea rădăcini mai adânci. Poate fi conectat la:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Mă simt copleșit emoțional"
         },
-        {
+        "1": {
           "text": "Dorința de predictibilitate"
         },
-        {
+        "2": {
           "text": "O nevoie de stabilitate și siguranță"
         }
-      ],
+      },
       "insight": "Controlul nu este problema — este strategia pe care mintea ta a găsit-o pentru a face față. Cu timp și sprijin, sunt posibile și alte modalități de a te simți în siguranță.",
       "microcopy": "Înțelegerea este un prim pas puternic.",
       "cta": "Termină lectura"
     }
-  ],
+  },
   "complete": {
     "title": "Conștientizare dobândită",
     "message": "Înțelegerea rădăcinilor controlului este un prim pas curajos spre găsirea unor noi modalități de a te simți în siguranță și stabil.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

@@ -16,23 +16,23 @@
   },
   "rule_label": "Nadawanie nazwy reguły",
   "rule_question": "Jaka jest zasada?",
-  "rule_options": [
-    "Nie powinienem jeść po określonym czasie",
-    "Niektóre produkty są niedostępne",
-    "Muszę ściśle kontrolować porcje"
-  ],
+  "rule_options": {
+    "0": "Nie powinienem jeść po określonym czasie",
+    "1": "Niektóre produkty są niedostępne",
+    "2": "Muszę ściśle kontrolować porcje"
+  },
   "rule_something_else": "Coś jeszcze...",
   "rule_placeholder": "Wpisz swoją zasadę dotyczącą jedzenia...",
   "feeling_label": "Wpływ emocjonalny",
   "feeling_question": "Jak się z tym czujesz?",
-  "feeling_options": [
-    "😟 Niespokojny",
-    "😌 Kontrolujący",
-    "😕 Winny",
-    "😣 Ograniczone",
-    "😴 Zmęczony",
-    "😐 Mieszane"
-  ],
+  "feeling_options": {
+    "0": "😟 Niespokojny",
+    "1": "😌 Kontrolujący",
+    "2": "😕 Winny",
+    "3": "😣 Ograniczone",
+    "4": "😴 Zmęczony",
+    "5": "😐 Mieszane"
+  },
   "challenge_label": "Soft Challenge",
   "challenge_question": "Delikatnie pytaj...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

@@ -16,23 +16,23 @@
   },
   "rule_label": "Pagbibigay ng pangalan sa panuntunan",
   "rule_question": "Ano ang panuntunan?",
-  "rule_options": [
-    "Hindi ako kumakain pagkatapos ng ilang sandali",
-    "Ang ilang mga pagkain ay hindi nawawala ang timbang",
-    "Kailangan kong kontrolin nang mahigpit ang mga bahagi"
-  ],
+  "rule_options": {
+    "0": "Hindi ako kumakain pagkatapos ng ilang sandali",
+    "1": "Ang ilang mga pagkain ay hindi nawawala ang timbang",
+    "2": "Kailangan kong kontrolin nang mahigpit ang mga bahagi"
+  },
   "rule_something_else": "Iba pa...",
   "rule_placeholder": "I-type ang Iyong Panuntunan sa Pagkain ...",
   "feeling_label": "Emosyonal na Epekto",
   "feeling_question": "Ano ang pakiramdam nito?",
-  "feeling_options": [
-    "😟 Pagkabalisa",
-    "😌 Sa kontrol",
-    "😕 Nagkasala",
-    "😣 Pinaghihigpitan",
-    "😴 Pagod",
-    "😐 Halo-halong"
-  ],
+  "feeling_options": {
+    "0": "😟 Pagkabalisa",
+    "1": "😌 Sa kontrol",
+    "2": "😕 Nagkasala",
+    "3": "😣 Pinaghihigpitan",
+    "4": "😴 Pagod",
+    "5": "😐 Halo-halong"
+  },
   "challenge_label": "Malambot na Hamon",
   "challenge_question": "Malumanay na tanong...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

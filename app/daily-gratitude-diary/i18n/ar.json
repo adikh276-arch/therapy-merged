@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "طويل",
+  "entry_x": "الدخول #",
+  "loading": "جار التحميل...",
+  "delete": "حذف"
 }

@@ -16,23 +16,23 @@
   },
   "rule_label": "規則命名",
   "rule_question": "規則是什麼？",
-  "rule_options": [
-    "我不應該在某個時間之後吃東西。",
-    "有些食物是禁忌的。",
-    "我需要嚴格控制份量。"
-  ],
+  "rule_options": {
+    "0": "我不應該在某個時間之後吃東西。",
+    "1": "有些食物是禁忌的。",
+    "2": "我需要嚴格控制份量。"
+  },
   "rule_something_else": "還有一件事…",
   "rule_placeholder": "請寫下你的飲食規則…",
   "feeling_label": "情感影響",
   "feeling_question": "感覺如何？",
-  "feeling_options": [
-    "😟焦慮",
-    "😌 掌控一切",
-    "😕 有罪",
-    "😣 受限",
-    "😴 累了",
-    "😐 混合"
-  ],
+  "feeling_options": {
+    "0": "😟焦慮",
+    "1": "😌 掌控一切",
+    "2": "😕 有罪",
+    "3": "😣 受限",
+    "4": "😴 累了",
+    "5": "😐 混合"
+  },
   "challenge_label": "軟挑戰",
   "challenge_question": "委婉地詢問…",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

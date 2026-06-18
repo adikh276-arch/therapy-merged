@@ -3,11 +3,11 @@
   "intro": {
     "title": "Találkozz az elméddel",
     "description": "Tanulj meg távolodni a túlterhelő gondolatoktól azzal, hogy a belső hangodnak nevet adsz.",
-    "benefits": [
-      "Teremts mentális távolságot",
-      "Csökkentsd a kemény gondolatok erejét",
-      "Észrevenni a gondolatokat anélkül, hogy azok lennének"
-    ],
+    "benefits": {
+      "0": "Teremts mentális távolságot",
+      "1": "Csökkentsd a kemény gondolatok erejét",
+      "2": "Észrevenni a gondolatokat anélkül, hogy azok lennének"
+    },
     "duration": "2-3 perc",
     "view_past": "Korábbi bejegyzések megtekintése"
   },
@@ -45,15 +45,15 @@
       "title": "Teremts távolságot",
       "desc": "Adj egy nevet az elmédnek, hogy segíts elválasztani ezeket a gondolatokat.",
       "placeholder": "Vagy gépelj meg a sajátod...",
-      "examples": [
-        "A kritikus",
-        "Túlgondoló",
-        "Worry FM",
-        "A túlgondoló gép",
-        "A belső kritikus",
-        "A mi lett volna generátor",
-        "Drámarendező"
-      ]
+      "examples": {
+        "0": "A kritikus",
+        "1": "Túlgondoló",
+        "2": "Worry FM",
+        "3": "A túlgondoló gép",
+        "4": "A belső kritikus",
+        "5": "A mi lett volna generátor",
+        "6": "Drámarendező"
+      }
     },
     "practice": {
       "title": "Próbáld ki ezt a váltást",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Mit vettél észre?",
       "desc": "Milyen érzés volt a gondolat, miután nevet adott?",
-      "options": [
-        "A gondolat kicsit kevésbé volt intenzív, mint korábban",
-        "Úgy éreztem, távolságot tartok a gondolattól",
-        "Még mindig ugyanolyan erősnek tűnt, mint korábban",
-        "Nem tudom, mi változott, ha egyáltalán nem változott valami."
-      ],
+      "options": {
+        "0": "A gondolat kicsit kevésbé volt intenzív, mint korábban",
+        "1": "Úgy éreztem, távolságot tartok a gondolattól",
+        "2": "Még mindig ugyanolyan erősnek tűnt, mint korábban",
+        "3": "Nem tudom, mi változott, ha egyáltalán nem változott valami."
+      },
       "button": "Teljes reflektúra"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

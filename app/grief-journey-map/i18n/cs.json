@@ -16,23 +16,23 @@
   "btn_one_more": "Ještě jedna věc",
   "screen3_tag": "jemné pravdy",
   "screen3_title": "Stojí za to vědět",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Žádný termín",
       "body": "U ztráty není uvedena žádná doba expirace. Cítit to po měsících nebo letech neznamená, že jste uvězněni — znamená to, že jste milovali."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Protichůdné pocity",
       "body": "Můžete někoho postrádat a zároveň se vám uleví. Můžete se smát a truchlit. Smutek má protiklady."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Proměna lásky",
       "body": "Bolest není oddělená od lásky. Je to totéž, proměněné."
     }
-  ],
+  },
   "btn_finish": "Finish Reflection",
   "complete_title": "Cesta poctěná",
   "complete_message": "Nemusíš jít dál. Jen se naučíte to nést jinak. Tvoje cesta je jedinečná, platná a hluboce lidská.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

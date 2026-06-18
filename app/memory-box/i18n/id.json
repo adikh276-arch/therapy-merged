@@ -1,12 +1,12 @@
 {
   "app_title": "Kotak Memori",
-  "screen_titles": [
-    "Kotak Anda",
-    "Menghormati",
-    "Mengekspresikan",
-    "Diawetkan",
-    "Perawatan Lembut"
-  ],
+  "screen_titles": {
+    "0": "Kotak Anda",
+    "1": "Menghormati",
+    "2": "Mengekspresikan",
+    "3": "Diawetkan",
+    "4": "Perawatan Lembut"
+  },
   "complete_title": "Memori Dipertahankan",
   "complete_message": "Anda telah dengan aman menempatkan memori {{name}} di dalam kotak Anda. Momen-momen koneksi ini adalah milik Anda untuk selalu disimpan.",
   "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Ketik nama mereka...",
     "placeholder_relation": "Bagaimana Anda mengenalnya? (opsional)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Momen bahagia",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Sesuatu yang biasa mereka katakan",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Kenangan kecil sehari-hari",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Tempat yang mengingatkan Anda pada mereka",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Sesuatu yang saya harap bisa saya katakan",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Lanjutkan →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Tersembunyi dengan Aman",
     "subtitle": "Memori {{name}} ini sekarang menjadi bagian dari koleksi Anda.",
     "add_another": "Tambahkan Memori Lain",
-    "finish": "Selesaikan Refleksi"
+    "finish": "Selesaikan Refleksi",
+    "saved_title": "Tetap Aman"
   },
   "closing": {
     "title": "Merawat",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Apakah Anda yakin ingin menghapus memori ini?"
   },
   "app_description": "Kotak Memori",
   "before_you_go": "Sebelum kamu pergi",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

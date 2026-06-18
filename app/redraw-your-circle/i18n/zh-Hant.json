@@ -21,30 +21,31 @@
       "placeholder": "請輸入姓名…",
       "button": "保存名稱"
     },
-    "prompts": [
-      "一個帶來快樂的人",
-      "支持你的人",
-      "你可以和他/她交談",
-      "你信任的人",
-      "一個激勵你的人"
-    ]
+    "prompts": {
+      "0": "一個帶來快樂的人",
+      "1": "支持你的人",
+      "2": "你可以和他/她交談",
+      "3": "你信任的人",
+      "4": "一個激勵你的人"
+    }
   },
   "reflection": {
     "subtitle": "結語",
     "title": "你注意到了什麼？",
     "p_intro": "請花點時間觀察你的圓圈。你可能會注意到：",
-    "list": [
-      "有些人感覺彼此更親近。",
-      "有些聯繫感覺很強烈。",
-      "有些感覺疏遠或模糊不清",
-      "可能存在一些缺口——或者只有少數幾個真正有意義的人。"
-    ],
+    "list": {
+      "0": "有些人感覺彼此更親近。",
+      "1": "有些聯繫感覺很強烈。",
+      "2": "有些感覺疏遠或模糊不清",
+      "3": "可能存在一些缺口——或者只有少數幾個真正有意義的人。"
+    },
     "italic": "提升意識是建立你所珍視的人際關係的第一步。 🧘",
     "label": "💭 你有沒有想和誰建立更緊密的連結？",
     "placeholder": "請在此寫下您的想法…",
     "save_button": "保存反射",
     "saving_button": "儲存...",
-    "skip_button": "跳過和完成"
+    "skip_button": "跳過和完成",
+    "saved_success": "你的人際地圖安全地儲存在你的日記中。培養這些支持節點有助於我們保持韌性。"
   },
   "history": {
     "title": "你的圈歷史",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你確定要刪除這個圓圈記錄嗎？"
   },
   "intro_p1": "在人生的不同階段，我們的支持系統也會改變。 🌱 有時我們感到與他人緊密相連，獲得支持。而有時，我們會感到疏離或迷惘。",
   "intro_p2": "這項活動讓你有機會停下來，看看你周圍的人——並了解誰是你身邊真正屬於你的圈子。 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  " ": " "
 }

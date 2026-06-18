@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "Canvas",
+  "2d": "2D",
+  "a": "a",
+  "lang": "lang",
+  "complete_and_save": "Voltooien & Opslaan"
 }

@@ -73,13 +73,13 @@
     "confirmDelete": "Vahvista poisto",
     "cancel": "Peruuta",
     "delete": "Poista merkintä",
-    "prompts": [
-      "Yksi pieni hetki, joka ei tuntunut jännittyneeltä...",
-      "Yksi yritys, jonka kumppanisi on tehnyt...",
-      "Yksi ominaisuus, joka on pysynyt samana...",
-      "Tarkoitus",
-      "Tunteellinen tarkistus"
-    ]
+    "prompts": {
+      "0": "Yksi pieni hetki, joka ei tuntunut jännittyneeltä...",
+      "1": "Yksi yritys, jonka kumppanisi on tehnyt...",
+      "2": "Yksi ominaisuus, joka on pysynyt samana...",
+      "3": "Tarkoitus",
+      "4": "Tunteellinen tarkistus"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

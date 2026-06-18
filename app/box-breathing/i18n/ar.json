@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "تنفس ببطء...",
+  "instruction_out": "زفير ببطء...",
+  "instruction_hold": "أمسك بلطف...",
+  "lang": "طويل"
 }

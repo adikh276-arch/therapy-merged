@@ -3,39 +3,40 @@
   "app_subtitle": "Lepaskan pikiran Anda dengan aman dan pribadi",
   "intro": {
     "title": "Surat yang Tidak Terkirim",
-    "description": [
-      "Terkadang, ada hal-hal yang ingin kita katakan – tetapi tidak pernah mendapat kesempatan untuk melakukannya.",
-      "Ini bisa jadi karena terasa tidak aman, waktunya tidak tepat, atau kata-katanya terlalu sulit untuk diungkapkan dengan keras.",
-      "Kegiatan ini memberi Anda ruang pribadi untuk mengungkapkan pemikiran itu ke dalam kata-kata.",
-      "Anda tidak perlu mengirim surat ini. Ini hanya untuk Anda – untuk mengekspresikan, melepaskan, dan memahami perasaan Anda dengan lebih baik."
-    ],
+    "description": {
+      "0": "Terkadang, ada hal-hal yang ingin kita katakan – tetapi tidak pernah mendapat kesempatan untuk melakukannya.",
+      "1": "Ini bisa jadi karena terasa tidak aman, waktunya tidak tepat, atau kata-katanya terlalu sulit untuk diungkapkan dengan keras.",
+      "2": "Kegiatan ini memberi Anda ruang pribadi untuk mengungkapkan pemikiran itu ke dalam kata-kata.",
+      "3": "Anda tidak perlu mengirim surat ini. Ini hanya untuk Anda – untuk mengekspresikan, melepaskan, dan memahami perasaan Anda dengan lebih baik."
+    },
     "notice": "Tulis dengan bebas. Tidak ada orang lain yang akan melihat ini.",
     "button": "Mulai Menulis →"
   },
   "writing": {
     "title": "Tuliskan Apa yang Anda Pegang",
     "desc": "Anda dapat menulis surat kepada pasangan, mantan pasangan, atau bahkan ke hubungan itu sendiri. Tidak ada cara yang benar atau salah untuk melakukan ini.",
-    "prompts": [
-      "Saya merasa ...",
-      "Saya berharap...",
-      "Saya tidak pernah mengatakan ...",
-      "Apa yang menyakitiku ...",
-      "Apa yang saya butuhkan..."
-    ],
+    "prompts": {
+      "0": "Saya merasa ...",
+      "1": "Saya berharap...",
+      "2": "Saya tidak pernah mengatakan ...",
+      "3": "Apa yang menyakitiku ...",
+      "4": "Apa yang saya butuhkan..."
+    },
     "placeholder": "Terhormat ____,\nSaya sudah ingin mengatakan...",
     "notice": "Anda dapat berhenti sejenak dan kembali kapan saja.",
     "button": "Lanjutkan →"
   },
   "reflection": {
     "title": "Luangkan waktu sejenak dengan ini",
-    "description": [
-      "Anda baru saja mengungkapkan pikiran dan perasaan Anda ke dalam kata-kata - itu membutuhkan keberanian.",
-      "Anda mungkin melihat campuran emosi saat ini, dan itu tidak apa-apa.",
-      "Sebelum Anda melanjutkan, tarik napas dan periksa diri Anda dengan lembut."
-    ],
+    "description": {
+      "0": "Anda baru saja mengungkapkan pikiran dan perasaan Anda ke dalam kata-kata - itu membutuhkan keberanian.",
+      "1": "Anda mungkin melihat campuran emosi saat ini, dan itu tidak apa-apa.",
+      "2": "Sebelum Anda melanjutkan, tarik napas dan periksa diri Anda dengan lembut."
+    },
     "notice": "Ini untuk penyembuhanmu, bukan untuk dikirim.",
     "save_button": "Simpan Surat",
-    "finish_button": "Selesai"
+    "finish_button": "Selesai",
+    "save_success": "Surat Anda yang tidak terkirim diperbaiki dengan aman di jurnal lokal pribadi Anda. Ekspresi adalah pelepasan yang mendalam."
   },
   "history": {
     "title": "Surat Sebelumnya",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Apakah Anda yakin ingin menghapus surat yang belum terkirim ini?"
   },
   "app_description": "Ungkapkan pikiran Anda dengan aman dan pribadi.",
   "more": "Lagi",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

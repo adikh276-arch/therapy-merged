@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "hít vào từ từ...",
+  "instruction_out": "thở ra từ từ...",
+  "instruction_hold": "nhẹ nhàng giữ...",
+  "lang": "dài"
 }

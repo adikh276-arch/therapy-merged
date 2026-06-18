@@ -1,10 +1,10 @@
 {
   "app_title": "Nawawala ang Isang Tao",
-  "subtitles": [
-    "Pagpapatunay",
-    "Panloob na Karunungan",
-    "Kumpleto"
-  ],
+  "subtitles": {
+    "0": "Pagpapatunay",
+    "1": "Panloob na Karunungan",
+    "2": "Kumpleto"
+  },
   "complete_title": "Kalinawan na Nakuha",
   "complete_message": "Ang pag-unawa sa kimika ng pagkawala ng isang tao ay ang unang hakbang patungo sa pagpapagaling. Ang iyong mga damdamin ay may bisa, at ang iyong utak ay ginagawa lamang ang trabaho nito upang protektahan at iproseso.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

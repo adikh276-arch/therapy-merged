@@ -16,23 +16,23 @@
   "btn_one_more": "還有一件事",
   "screen3_tag": "溫柔的真理",
   "screen3_title": "值得了解",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "沒有截止日期",
       "body": "失去摯愛沒有期限。幾個月甚至幾年後依然感到痛苦，並不代表你無法擺脫──而是代表你曾經愛過。"
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "矛盾的情緒",
       "body": "你可以思念某人，同時感到釋然。你可以歡笑，也可以悲傷。悲傷本身就包含著矛盾的情感。"
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "愛的轉變",
       "body": "痛苦並非與愛分離，而是同一事物的不同表現。"
     }
-  ],
+  },
   "btn_finish": "完成反思",
   "complete_title": "旅程榮耀",
   "complete_message": "你不必就此放下，只需學會用不同的方式去面對。你的經歷獨一無二、意義非凡，並且飽含人性。",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

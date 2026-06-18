@@ -1,12 +1,12 @@
 {
   "app_title": "Hafıza Kutusu",
-  "screen_titles": [
-    "Senin Kutun",
-    "Onurlandırma",
-    "İfade",
-    "Korunmuş",
-    "Nazik Bakım"
-  ],
+  "screen_titles": {
+    "0": "Senin Kutun",
+    "1": "Onurlandırma",
+    "2": "İfade",
+    "3": "Korunmuş",
+    "4": "Nazik Bakım"
+  },
   "complete_title": "Korunan Hafıza",
   "complete_message": "{{name}}'in bir anısını kutunuza güvenle yerleştirdiniz. Bu bağlantı anları her zaman senin tutacağındır.",
   "auth_error": "Doğrulama oturumu eksik veya veritabanı yapılandırılmadı",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "İsimlerini yazın...",
     "placeholder_relation": "Onları nasıl tanıyorsun? (isteğe bağlı)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Mutlu bir an",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Eskiden söyledikleri bir şey",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Küçük bir günlük anı",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Onları hatırlatan bir yer",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Keşke söyleyebilsem",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Devam →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Güvenle Saklanıyor",
     "subtitle": "{{name}}'ın bu anısı artık koleksiyonunuzun bir parçası.",
     "add_another": "Başka Bir Anı Ekle",
-    "finish": "Finish Reflection"
+    "finish": "Finish Reflection",
+    "saved_title": "Güvende Tutuldu"
   },
   "closing": {
     "title": "Bakım Yapmak",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bu anıyı silmek istediğinizden emin misiniz?"
   },
   "app_description": "Anı Kutusu",
   "before_you_go": "Gitmeden önce",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

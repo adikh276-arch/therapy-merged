@@ -3,39 +3,40 @@
   "app_subtitle": "Lepaskan fikiran anda dengan selamat dan peribadi",
   "intro": {
     "title": "Surat yang Tidak Dihantar",
-    "description": [
-      "Kadang-kadang, ada perkara yang kita harap boleh kita katakan — tetapi tidak pernah mendapat peluang.",
-      "Ini mungkin kerana ia tidak berasa selamat, masanya tidak tepat, atau kata-katanya terlalu sukar untuk diungkapkan dengan kuat.",
-      "Aktiviti ini memberi anda ruang peribadi untuk meletakkan pemikiran itu ke dalam kata-kata.",
-      "Anda tidak perlu menghantar surat ini. Ini hanya untuk anda - untuk menyatakan, melepaskan dan memahami perasaan anda dengan lebih baik."
-    ],
+    "description": {
+      "0": "Kadang-kadang, ada perkara yang kita harap boleh kita katakan — tetapi tidak pernah mendapat peluang.",
+      "1": "Ini mungkin kerana ia tidak berasa selamat, masanya tidak tepat, atau kata-katanya terlalu sukar untuk diungkapkan dengan kuat.",
+      "2": "Aktiviti ini memberi anda ruang peribadi untuk meletakkan pemikiran itu ke dalam kata-kata.",
+      "3": "Anda tidak perlu menghantar surat ini. Ini hanya untuk anda - untuk menyatakan, melepaskan dan memahami perasaan anda dengan lebih baik."
+    },
     "notice": "Tulis dengan bebas. Tiada orang lain yang akan melihat ini.",
     "button": "Mula Menulis →"
   },
   "writing": {
     "title": "Tulis Apa yang Anda Pegang",
     "desc": "Anda boleh menulis kepada pasangan anda, bekas pasangan, atau bahkan kepada hubungan itu sendiri. Tiada cara yang betul atau salah untuk melakukan ini.",
-    "prompts": [
-      "Saya rasa...",
-      "Saya ingin...",
-      "Saya tidak pernah berkata...",
-      "Apa yang menyakitkan saya...",
-      "Apa yang saya perlukan..."
-    ],
+    "prompts": {
+      "0": "Saya rasa...",
+      "1": "Saya ingin...",
+      "2": "Saya tidak pernah berkata...",
+      "3": "Apa yang menyakitkan saya...",
+      "4": "Apa yang saya perlukan..."
+    },
     "placeholder": "____ yang dihormati,\nSaya telah mahu katakan...",
     "notice": "Anda boleh berhenti seketika dan kembali pada bila-bila masa.",
     "button": "Teruskan →"
   },
   "reflection": {
     "title": "Luangkan Sedikit Masa Dengan Ini",
-    "description": [
-      "Anda baru sahaja meletakkan fikiran dan perasaan anda dengan kata-kata - itu memerlukan keberanian.",
-      "Anda mungkin melihat campuran emosi sekarang, dan itu tidak mengapa.",
-      "Sebelum anda meneruskan, tarik nafas dan periksa diri anda dengan lembut."
-    ],
+    "description": {
+      "0": "Anda baru sahaja meletakkan fikiran dan perasaan anda dengan kata-kata - itu memerlukan keberanian.",
+      "1": "Anda mungkin melihat campuran emosi sekarang, dan itu tidak mengapa.",
+      "2": "Sebelum anda meneruskan, tarik nafas dan periksa diri anda dengan lembut."
+    },
     "notice": "Ini adalah untuk penyembuhan anda, bukan untuk penghantaran.",
     "save_button": "Simpan Surat",
-    "finish_button": "Selesai"
+    "finish_button": "Selesai",
+    "save_success": "Surat anda yang tidak dihantar diperbaiki dengan selamat dalam jurnal tempatan peribadi anda. Ekspresi adalah pelepasan yang mendalam."
   },
   "history": {
     "title": "Surat Lepas",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Adakah anda pasti anda mahu memadamkan surat yang tidak dihantar ini?"
   },
   "app_description": "Lepaskan fikiran anda dengan selamat dan tertutup",
   "more": "Lebih lanjut",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

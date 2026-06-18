@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang",
+  "intro_benefit_1": "Få absolut klarhed over dine kerneoverbevisninger",
+  "intro_benefit_2": "Sæt klare mål for personlig transformation",
+  "reflection_subtitle": "Udkast dine ambitioner. Udfyld kerneelementerne i dit formål.",
+  "mission_your_statement": "Din udtalelse",
+  "saving": "At redde...",
+  "mission_save_finish": "Gem og afslut",
+  "mission_share": "Del",
+  "mission_start_over": "Start forfra",
+  "loading": "Indlæsning af deklarationer...",
+  "app": {
+    "startActivity": "Opret Mission"
+  }
 }

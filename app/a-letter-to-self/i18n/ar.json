@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "إنقاذ...",
+    "saved": "تم إنقاذها"
   },
   "app_duration": "10-15 دقيقة",
   "app_title": "رسالة إلى نفسي",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "المحفزات",
+  "need_inspiration": "هل تحتاج إلى إلهام؟",
+  "post_writing_reflection": "تأمل ما بعد الكتابة",
+  "reflection_desc": "الاعتراف بمشاعرك خطوة قوية في رحلتك.",
+  "finish_save_reflection": "إنهاء وحفظ الانعكاس",
+  "lang": "طويل",
+  "completion_message": "تم حفظ رسالتك بأمان. خذ لحظة لتقدير تقدمك."
 }

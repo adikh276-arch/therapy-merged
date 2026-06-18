@@ -31,37 +31,37 @@
   "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
   "save_success": "Refleksi ikatan dipelihara",
   "save_error": "Gagal mengekalkan refleksi",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Melalui kenangan",
       "prompt": "Bolehkah anda berkongsi kenangan di mana anda merasakan kehadiran mereka?",
       "deeper": "Apakah satu perkara tentang mereka yang kekal bersama anda?"
     },
-    {
+    "1": {
       "label": "Dalam perkara yang saya katakan atau lakukan",
       "prompt": "Apakah bahagian daripadanya yang anda bawa dalam kehidupan seharian anda?",
       "deeper": "Bagaimanakah ini muncul dalam hidup anda hari ini?"
     },
-    {
+    "2": {
       "label": "Pada saat-saat kehidupan seharian saya",
       "prompt": "Bilakah anda merasakan mereka rapat pada siang hari anda?",
       "deeper": "Apakah satu perkara tentang mereka yang kekal bersama anda?"
     },
-    {
+    "3": {
       "label": "Dalam apa yang saya masih mahu beritahu mereka",
       "prompt": "Adakah terdapat sesuatu yang anda masih mahu katakan kepada mereka?",
       "deeper": "Apa yang paling anda mahu mereka tahu sekarang?"
     },
-    {
+    "4": {
       "label": "Dalam perasaan atau kehadiran",
       "prompt": "Bagaimanakah kehadiran mereka masih muncul untuk anda?",
       "deeper": "Bagaimanakah ini muncul dalam hidup anda hari ini?"
     }
-  ],
-  "bond_prompts": [
-    "Apakah satu cara kecil anda berasa berhubung dengan mereka hari ini?",
-    "Apakah sesuatu yang anda lakukan yang membawa sebahagian daripadanya?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Apakah satu cara kecil anda berasa berhubung dengan mereka hari ini?",
+    "1": "Apakah sesuatu yang anda lakukan yang membawa sebahagian daripadanya?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Mula Semula",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Adakah anda pasti anda mahu memadamkan pantulan ini?"
   },
   "app_description": "Bon Berterusan",
   "past_reflections": "Refleksi Lalu",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

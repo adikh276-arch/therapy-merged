@@ -3,11 +3,11 @@
   "intro": {
     "title": "Cunoaște-ți mintea",
     "description": "Învață să te distanțezi de gândurile copleșitoare dându-i vocii tale interioare un nume.",
-    "benefits": [
-      "Creează distanță mentală",
-      "Reduce puterea gândurilor dure",
-      "Observă gândurile fără să fii ele"
-    ],
+    "benefits": {
+      "0": "Creează distanță mentală",
+      "1": "Reduce puterea gândurilor dure",
+      "2": "Observă gândurile fără să fii ele"
+    },
     "duration": "2-3 minute",
     "view_past": "Vezi înscrierile anterioare"
   },
@@ -45,15 +45,15 @@
       "title": "Creează o oarecare distanță",
       "desc": "Dă-i minții tale un nume care să te ajute să te separi de aceste gânduri.",
       "placeholder": "Sau scrie-ți propriul...",
-      "examples": [
-        "Criticul",
-        "Gânditor excesiv",
-        "Worry FM",
-        "Mașina de gândire excesivă",
-        "Criticul interior",
-        "Generatorul de \"Ce-ar fi dacă\"",
-        "Regizor de dramă"
-      ]
+      "examples": {
+        "0": "Criticul",
+        "1": "Gânditor excesiv",
+        "2": "Worry FM",
+        "3": "Mașina de gândire excesivă",
+        "4": "Criticul interior",
+        "5": "Generatorul de \"Ce-ar fi dacă\"",
+        "6": "Regizor de dramă"
+      }
     },
     "practice": {
       "title": "Încearcă această schimbare",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Ce ai observat?",
       "desc": "Cum s-a simțit acest gând după ce i-a dat un nume?",
-      "options": [
-        "Gândul părea puțin mai puțin intens decât înainte",
-        "Simțeam că am o oarecare distanță față de acest gând",
-        "Se simțea la fel de puternic ca înainte",
-        "Nu sunt sigur ce s-a schimbat, dacă s-a schimbat ceva."
-      ],
+      "options": {
+        "0": "Gândul părea puțin mai puțin intens decât înainte",
+        "1": "Simțeam că am o oarecare distanță față de acest gând",
+        "2": "Se simțea la fel de puternic ca înainte",
+        "3": "Nu sunt sigur ce s-a schimbat, dacă s-a schimbat ceva."
+      },
       "button": "Reflecție completă"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

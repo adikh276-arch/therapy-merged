@@ -10,21 +10,22 @@
   "s2": {
     "tag": "verdades gentis",
     "title": "Lógica da sobrevivência cerebral",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "O alarme continuou ligado",
         "body": "Hipervigilância e surpresa facilmente não são exageros — o sistema de alarme do seu cérebro está fazendo seu trabalho muito bem."
       },
-      {
+      "1": {
         "header": "Flashbacks são memória",
         "body": "Gatilhos puxam seu cérebro de volta porque ele nunca recebeu o sinal de que a ameaça havia acabado. Está tentando te proteger."
       },
-      {
+      "2": {
         "header": "Lutando por você",
         "body": "Cada sintoma já foi um ato de sobrevivência. Seu cérebro fez o que precisava para te manter vivo."
       }
-    ],
-    "healing": "Curar não é esquecer. É sobre ajudar seu cérebro a aprender que você está seguro agora."
+    },
+    "healing": "Curar não é esquecer. É sobre ajudar seu cérebro a aprender que você está seguro agora.",
+    "finish_reading": "Terminar a leitura"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo",
+  "complete": {
+    "message": "Você"
+  }
 }

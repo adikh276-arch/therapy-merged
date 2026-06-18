@@ -1,14 +1,14 @@
 {
   "app_title": "Zlom soucitu",
-  "screen_titles": [
-    "Check-in",
-    "Identifikovat",
-    "Dýchání",
-    "Laskavost",
-    "Shift",
-    "Zamyslet se",
-    "Dokončeno"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Identifikovat",
+    "2": "Dýchání",
+    "3": "Laskavost",
+    "4": "Shift",
+    "5": "Zamyslet se",
+    "6": "Dokončeno"
+  },
   "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
   "save_success": "Reflexe zachovány",
   "save_error": "Nepodařilo se zachovat odraz",
@@ -25,14 +25,14 @@
   "continue_button": "Pokračovat",
   "nameit_title": "Napište to slovy",
   "nameit_subtitle": "Teď se cítím _______",
-  "emotions_list": [
-    "úzkostný",
-    "vinen",
-    "přetížený",
-    "napjatý",
-    "unavený",
-    "smutné"
-  ],
+  "emotions_list": {
+    "0": "úzkostný",
+    "1": "vinen",
+    "2": "přetížený",
+    "3": "napjatý",
+    "4": "unavený",
+    "5": "smutné"
+  },
   "label_custom_emotion": "nebo napište svůj vlastní",
   "placeholder_emotion": "1–2 slova",
   "nameit_footer": "Jednoduché stačí.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý",
+  "intro": {
+    "view_past": "Zobrazit minulé sekce"
+  },
+  "history": {
+    "title": "Historie sebesoucitu",
+    "no_entries": "Nebyly nalezeny žádné záznamy o přerušení."
+  },
+  "loading": "Načítám historii..."
 }

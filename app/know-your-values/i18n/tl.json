@@ -29,7 +29,8 @@
     "historyDesc": "Ang iyong mga nakaraang pagmumuni-muni ay nai-save dito upang maaari mong muling bisitahin ang mga ito anumang oras.",
     "noHistory": "Hindi mo pa nakumpleto ang pagmumuni-muni ng mga halaga.",
     "startActivity": "Simulan ang Aktibidad",
-    "startNew": "Magsimula ng Bagong Pagmumuni-muni"
+    "startNew": "Magsimula ng Bagong Pagmumuni-muni",
+    "aligned": "Aligned"
   },
   "values": {
     "Family": "Pamilya",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "app_duration": "5 minutes",
+  "loading": "Loading reflections..."
 }

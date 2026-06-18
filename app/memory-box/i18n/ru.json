@@ -1,12 +1,12 @@
 {
   "app_title": "Memory Box",
-  "screen_titles": [
-    "Твоя коробка",
-    "Почитание",
-    "Выражение",
-    "Сохранено",
-    "Gentle Care"
-  ],
+  "screen_titles": {
+    "0": "Твоя коробка",
+    "1": "Почитание",
+    "2": "Выражение",
+    "3": "Сохранено",
+    "4": "Gentle Care"
+  },
   "complete_title": "Память сохранена",
   "complete_message": "Вы безопасно положили воспоминание о {{name}} в свою коробку. Эти моменты связи всегда принадлежат тебе.",
   "auth_error": "Отсутствует сессия аутентификации или база данных не настроена",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Введите их имя...",
     "placeholder_relation": "Откуда вы их знаете? (по выбору)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Счастливый момент",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Что-то, что они раньше говорили",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Маленькое повседневное воспоминание",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Место, напоминающее о них",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Что-то, что я хотел бы сказать",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Продолжайте →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Надёжно спрятаны",
     "subtitle": "Это воспоминание о {{name}} теперь часть вашей коллекции.",
     "add_another": "Добавить ещё одну память",
-    "finish": "Отражение финиша"
+    "finish": "Отражение финиша",
+    "saved_title": "В безопасности"
   },
   "closing": {
     "title": "Забота",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ты уверен, что хочешь стереть это воспоминание?"
   },
   "app_description": "Коробка памяти",
   "before_you_go": "Прежде чем уйти",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Долго"
 }

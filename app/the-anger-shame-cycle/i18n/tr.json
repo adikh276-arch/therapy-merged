@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Döngü",
       "title": "Döngü açıkladı",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Öfke yüzeye çıkıyor"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Utanç: \"Kötüyüm\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Utanç gömülür"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Öfke yeniden patlıyor"
         }
-      ],
+      },
       "button": "Görüyorum"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Kesinti",
       "title": "Döngüyü kesin",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Kaynağı belirtin",
           "desc": "Sor: 'Aslında ne hissediyorum?' Acı mı aldın? Korktun mu? Görünmez mi? Adını vermek onu zayıflatıyor."
         },
-        {
+        "1": {
           "title": "Merhamet duraklaması",
           "desc": "El göğsünde. Şöyle de: 'Bu zor. Ben insanım. Bunu atlatabilirim.'"
         },
-        {
+        "2": {
           "title": "Zarafetle onarın",
           "desc": "Gerekirse telafi edin — ama kendinizi kaptırmayın. En kötü anınız değilsiniz."
         }
-      ],
+      },
       "notice": "Döngüyü fark etmek zaten ilk adım. Sen işi yapıyorsun.",
       "button": "Tam Etkinlik"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

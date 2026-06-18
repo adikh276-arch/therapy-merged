@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "మరో ఆలోచన టైప్ చేయండి...",
+  "resume": "పునఃప్రారంభించు",
+  "pause": "విరామం",
+  "growth_reminder": "చిన్న అడుగులు కూడా మానసిక బరువును తగ్గిస్తాయి. నువ్వు డాన్",
+  "lang": "పొడవు",
+  "complete_message": "మీరు",
+  "welcome_sub": "స్వాగతం",
+  "clearing_sub": "మానసిక క్లియరింగ్",
+  "sorting_sub": "క్రమబద్ధీకరణ",
+  "action_sub": "చర్య దశలు",
+  "reflect_sub": "ప్రతిబింబం",
+  "intro": {
+    "viewHistory": "చరిత్రను చూడండి"
+  }
 }

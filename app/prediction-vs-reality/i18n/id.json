@@ -4,11 +4,11 @@
   "intro": {
     "title": "Prediksi vs Realitas",
     "description": "Bandingkan prediksi kecemasan Anda dengan apa yang sebenarnya terjadi untuk membangun perspektif yang lebih seimbang.",
-    "benefits": [
-      "Mengidentifikasi pola kecemasan",
-      "Kumpulkan bukti melawan ketakutan",
-      "Kurangi pemikiran berlebihan di masa depan"
-    ],
+    "benefits": {
+      "0": "Mengidentifikasi pola kecemasan",
+      "1": "Kumpulkan bukti melawan ketakutan",
+      "2": "Kurangi pemikiran berlebihan di masa depan"
+    },
     "duration": "4-5 menit",
     "view_past": "Lihat Refleksi Masa Lalu"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Belum ada refleksi yang disimpan.",
     "prediction_label": "Prediksi",
     "reality_label": "Realitas",
-    "reflection_label": "Refleksi:"
+    "reflection_label": "Refleksi:",
+    "past_logs": "Refleksi Masa Lalu",
+    "reframe_label": "Tampilan Seimbang Baru:"
   },
   "complete": {
     "title": "Kegiatan Selesai",
     "saved_title": "Refleksi Disimpan",
     "message": "Dengan melihat fakta, Anda membantu pikiran Anda belajar bahwa segala sesuatunya seringkali lebih mudah dikelola daripada yang terlihat."
   },
-  "emotions": [
-    "Cemas",
-    "Gugup",
-    "Takut",
-    "Kewalahan",
-    "Tidak nyaman"
-  ],
+  "emotions": {
+    "0": "Cemas",
+    "1": "Gugup",
+    "2": "Takut",
+    "3": "Kewalahan",
+    "4": "Tidak nyaman"
+  },
   "intensity_labels": {
     "not_intense": "Tidak Intens",
     "very_intense": "Sangat Intens"
   },
-  "comparison_options": [
-    "Ternyata hampir persis seperti yang saya harapkan",
-    "Beberapa bagian benar, tetapi tidak semuanya",
-    "Itu sangat berbeda dari apa yang saya harapkan",
-    "Itu jauh lebih mudah/lebih baik dari yang saya bayangkan"
-  ],
+  "comparison_options": {
+    "0": "Ternyata hampir persis seperti yang saya harapkan",
+    "1": "Beberapa bagian benar, tetapi tidak semuanya",
+    "2": "Itu sangat berbeda dari apa yang saya harapkan",
+    "3": "Itu jauh lebih mudah/lebih baik dari yang saya bayangkan"
+  },
   "screens": {
     "s1": {
       "title": "Pikirkan situasi baru-baru ini",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Apakah Anda yakin ingin menghapus log prediksi ini?"
   },
   "app_description": "Prediksi vs Realita",
   "more": "Lagi",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

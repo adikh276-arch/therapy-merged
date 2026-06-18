@@ -1,10 +1,10 @@
 {
   "app_title": "Quelqu’un manquant",
-  "subtitles": [
-    "Validation",
-    "Sagesse intérieure",
-    "Complet"
-  ],
+  "subtitles": {
+    "0": "Validation",
+    "1": "Sagesse intérieure",
+    "2": "Complet"
+  },
   "complete_title": "Clarté acquise",
   "complete_message": "Comprendre la chimie du manque de quelqu’un est la première étape vers la guérison. Tes sentiments sont valides, et ton cerveau fait simplement son travail pour protéger et traiter.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

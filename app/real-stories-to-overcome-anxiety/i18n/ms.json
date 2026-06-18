@@ -7,90 +7,90 @@
   "allStories": "Semua Cerita",
   "backToStories": "Kembali ke Cerita",
   "nextStory": "Kisah seterusnya",
-  "stories": [
-    {
+  "stories": {
+    "0": {
       "name": "Aarav",
       "quote": "Saya fikir takut bermakna ada sesuatu yang tidak kena dengan saya.",
-      "body": [
-        "Saya tidak tahu perkataan \"kebimbangan\" ketika saya masih muda - saya hanya tahu perasaan itu. Dada saya akan terasa sesak, perut saya akan sakit, dan fikiran saya akan memberitahu saya sesuatu yang buruk akan berlaku. Malah hari-hari biasa terasa berbahaya. Pagi sekolah adalah yang paling sukar. Saya akan berpaut pada ibu bapa saya, takut bahawa sebaik sahaja mereka pergi, saya tidak akan baik-baik saja.",
-        "Saya masih ingat melihat kanak-kanak lain dan tertanya-tanya mengapa mereka kelihatan baik-baik saja. Mengapa hati mereka tidak berdegup seperti saya? Mengapa mereka tidak mahu lari pulang? Saya berasa keliru dan malu. Kadang-kadang saya fikir takut bermakna saya lemah atau berbeza dengan cara yang buruk.",
-        "Dengan bantuan, saya perlahan-lahan mengetahui bahawa kebimbangan bukanlah kecacatan - ia adalah otak saya yang berusaha terlalu keras untuk melindungi saya. Daripada melawannya atau bersembunyi daripadanya, saya belajar cara kecil untuk menghadapinya. Beberapa hari itu bermakna tinggal di kelas lima minit lebih lama. Hari-hari lain ia bermakna hanya bernafas melalui ketakutan tanpa melarikan diri.",
-        "Sekarang saya faham sesuatu yang penting: keberanian tidak bermakna tidak berasa takut. Ini bermakna tinggal, walaupun anda berada. Dan setiap kali saya tinggal, saya menjadi lebih kuat sedikit."
-      ],
+      "body": {
+        "0": "Saya tidak tahu perkataan \"kebimbangan\" ketika saya masih muda - saya hanya tahu perasaan itu. Dada saya akan terasa sesak, perut saya akan sakit, dan fikiran saya akan memberitahu saya sesuatu yang buruk akan berlaku. Malah hari-hari biasa terasa berbahaya. Pagi sekolah adalah yang paling sukar. Saya akan berpaut pada ibu bapa saya, takut bahawa sebaik sahaja mereka pergi, saya tidak akan baik-baik saja.",
+        "1": "Saya masih ingat melihat kanak-kanak lain dan tertanya-tanya mengapa mereka kelihatan baik-baik saja. Mengapa hati mereka tidak berdegup seperti saya? Mengapa mereka tidak mahu lari pulang? Saya berasa keliru dan malu. Kadang-kadang saya fikir takut bermakna saya lemah atau berbeza dengan cara yang buruk.",
+        "2": "Dengan bantuan, saya perlahan-lahan mengetahui bahawa kebimbangan bukanlah kecacatan - ia adalah otak saya yang berusaha terlalu keras untuk melindungi saya. Daripada melawannya atau bersembunyi daripadanya, saya belajar cara kecil untuk menghadapinya. Beberapa hari itu bermakna tinggal di kelas lima minit lebih lama. Hari-hari lain ia bermakna hanya bernafas melalui ketakutan tanpa melarikan diri.",
+        "3": "Sekarang saya faham sesuatu yang penting: keberanian tidak bermakna tidak berasa takut. Ini bermakna tinggal, walaupun anda berada. Dan setiap kali saya tinggal, saya menjadi lebih kuat sedikit."
+      },
       "reflection": "Bilakah anda tinggal, walaupun anda berasa takut?"
     },
-    {
+    "1": {
       "name": "Daniel",
       "quote": "Saya percaya bimbang bermakna saya bertanggungjawab.",
-      "body": [
-        "Selama bertahun-tahun, saya percaya bimbang adalah tugas saya. Jika saya memikirkan setiap masalah yang mungkin, bersedia untuk setiap hasil, dan kekal berjaga-jaga secara mental pada setiap masa, saya boleh mengelakkan perkara daripada menjadi salah. Kebimbangan terasa produktif. Ia berasa bertanggungjawab.",
-        "Tetapi dari masa ke masa, saya perasan betapa letihnya saya. Fikiran saya tidak pernah berhenti. Walaupun semasa percutian atau makan malam keluarga, saya merancang, meramalkan, atau mencegahnya secara mental. Bersantai berasa tidak selamat. Jika saya berhenti risau, saya berasa seperti saya cuai.",
-        "Akhirnya, saya menyedari kebimbangan tidak melindungi saya - ia mengawal saya. Terapi membantu saya memahami bahawa ketidakpastian adalah sebahagian daripada kehidupan, dan tiada jumlah kebimbangan yang boleh menghapuskannya. Saya mula berlatih menyedari pemikiran saya tanpa mempercayainya secara automatik.",
-        "Melepaskan kawalan berterusan terasa tidak selesa pada mulanya. Tetapi perlahan-lahan, ruang terbuka. Saya mula membuat keputusan berdasarkan perkara yang penting bagi saya - bukan hanya apa yang dirasakan paling selamat. Kebimbangan masih muncul, tetapi ia tidak lagi menjalankan persembahan."
-      ],
+      "body": {
+        "0": "Selama bertahun-tahun, saya percaya bimbang adalah tugas saya. Jika saya memikirkan setiap masalah yang mungkin, bersedia untuk setiap hasil, dan kekal berjaga-jaga secara mental pada setiap masa, saya boleh mengelakkan perkara daripada menjadi salah. Kebimbangan terasa produktif. Ia berasa bertanggungjawab.",
+        "1": "Tetapi dari masa ke masa, saya perasan betapa letihnya saya. Fikiran saya tidak pernah berhenti. Walaupun semasa percutian atau makan malam keluarga, saya merancang, meramalkan, atau mencegahnya secara mental. Bersantai berasa tidak selamat. Jika saya berhenti risau, saya berasa seperti saya cuai.",
+        "2": "Akhirnya, saya menyedari kebimbangan tidak melindungi saya - ia mengawal saya. Terapi membantu saya memahami bahawa ketidakpastian adalah sebahagian daripada kehidupan, dan tiada jumlah kebimbangan yang boleh menghapuskannya. Saya mula berlatih menyedari pemikiran saya tanpa mempercayainya secara automatik.",
+        "3": "Melepaskan kawalan berterusan terasa tidak selesa pada mulanya. Tetapi perlahan-lahan, ruang terbuka. Saya mula membuat keputusan berdasarkan perkara yang penting bagi saya - bukan hanya apa yang dirasakan paling selamat. Kebimbangan masih muncul, tetapi ia tidak lagi menjalankan persembahan."
+      },
       "reflection": "Di manakah anda tersalah anggap bimbang sebagai tanggungjawab?"
     },
-    {
+    "2": {
       "name": "Rhea",
       "quote": "Saya terus menunggu untuk berasa yakin sebelum hidup.",
-      "body": [
-        "Kebimbangan terdengar seperti suara di kepala saya yang tidak pernah berhenti mengkritik saya. Ia memberitahu saya bahawa saya akan memalukan diri saya sendiri, mengatakan perkara yang salah, atau dihakimi. Selepas perbualan, saya akan memainkan semula semua yang saya katakan. Sebelum peristiwa, saya akan membayangkan senario terburuk.",
-        "Dari luar, saya kelihatan yakin. Di dalam, saya berasa sentiasa gelisah. Saya terus menunggu untuk berasa bersedia — menunggu keyakinan tiba secara ajaib supaya saya akhirnya boleh bercakap dengan bebas, memohon peluang, atau meletakkan diri saya di luar sana.",
-        "Tetapi keyakinan tidak pernah didahulukan.",
-        "Apa yang mengubah hidup saya ialah menyedari bahawa saya tidak perlu menghilangkan kebimbangan untuk bergerak ke hadapan. Saya boleh membawanya bersama saya. Saya mula mengambil risiko kecil - mengangkat tangan, menghadiri acara, bersuara walaupun suara saya bergetar.",
-        "Setiap kali saya bertindak walaupun takut, sesuatu berubah. Saya berhenti mengukur diri saya dengan betapa tenangnya perasaan saya, dan mula mengukur diri saya dengan betapa beraninya saya sanggup menjadi."
-      ],
+      "body": {
+        "0": "Kebimbangan terdengar seperti suara di kepala saya yang tidak pernah berhenti mengkritik saya. Ia memberitahu saya bahawa saya akan memalukan diri saya sendiri, mengatakan perkara yang salah, atau dihakimi. Selepas perbualan, saya akan memainkan semula semua yang saya katakan. Sebelum peristiwa, saya akan membayangkan senario terburuk.",
+        "1": "Dari luar, saya kelihatan yakin. Di dalam, saya berasa sentiasa gelisah. Saya terus menunggu untuk berasa bersedia — menunggu keyakinan tiba secara ajaib supaya saya akhirnya boleh bercakap dengan bebas, memohon peluang, atau meletakkan diri saya di luar sana.",
+        "2": "Tetapi keyakinan tidak pernah didahulukan.",
+        "3": "Apa yang mengubah hidup saya ialah menyedari bahawa saya tidak perlu menghilangkan kebimbangan untuk bergerak ke hadapan. Saya boleh membawanya bersama saya. Saya mula mengambil risiko kecil - mengangkat tangan, menghadiri acara, bersuara walaupun suara saya bergetar.",
+        "4": "Setiap kali saya bertindak walaupun takut, sesuatu berubah. Saya berhenti mengukur diri saya dengan betapa tenangnya perasaan saya, dan mula mengukur diri saya dengan betapa beraninya saya sanggup menjadi."
+      },
       "reflection": "Apa yang akan anda cuba jika anda tidak menunggu untuk berasa bersedia sepenuhnya?"
     },
-    {
+    "3": {
       "name": "Margaret",
       "quote": "Saya tidak menyangka kebimbangan bermula pada peringkat kehidupan ini.",
-      "body": [
-        "Saya fikir kebimbangan adalah milik orang yang lebih muda. Saya tidak menyangka ia akan muncul selepas bersara, apabila kehidupan akhirnya perlahan. Tetapi apabila tahun-tahun sibuk berakhir, fikiran saya menjadi lebih kuat. Setiap sensasi fizikal terasa membimbangkan. Setiap orang yang tidak diketahui terasa berbahaya.",
-        "Saya berasa malu kerana bergelut. Pada usia saya, saya percaya saya harus memikirkan segala-galanya. Saya sentiasa mencari jaminan - daripada doktor, daripada keluarga, daripada artikel dalam talian. Jaminan itu membantu sebentar, tetapi ketakutan sentiasa kembali.",
-        "Akhirnya, saya faham bahawa jaminan memberi makan kitaran. Dengan bimbingan, saya mula berlatih duduk dengan ketidakpastian dan bukannya mengejar kepastian. Saya membina semula rutin. Saya berhubung semula dengan hobi. Saya perlahan-lahan membenarkan ketidakselesaan tanpa segera cuba membetulkannya.",
-        "Hari ini, kebimbangan masih melawat kadang-kadang. Tetapi ia tidak lagi mentakrifkan saya. Saya telah belajar bahawa pertumbuhan tidak mempunyai tarikh luput - dan keberanian boleh muncul pada sebarang umur."
-      ],
+      "body": {
+        "0": "Saya fikir kebimbangan adalah milik orang yang lebih muda. Saya tidak menyangka ia akan muncul selepas bersara, apabila kehidupan akhirnya perlahan. Tetapi apabila tahun-tahun sibuk berakhir, fikiran saya menjadi lebih kuat. Setiap sensasi fizikal terasa membimbangkan. Setiap orang yang tidak diketahui terasa berbahaya.",
+        "1": "Saya berasa malu kerana bergelut. Pada usia saya, saya percaya saya harus memikirkan segala-galanya. Saya sentiasa mencari jaminan - daripada doktor, daripada keluarga, daripada artikel dalam talian. Jaminan itu membantu sebentar, tetapi ketakutan sentiasa kembali.",
+        "2": "Akhirnya, saya faham bahawa jaminan memberi makan kitaran. Dengan bimbingan, saya mula berlatih duduk dengan ketidakpastian dan bukannya mengejar kepastian. Saya membina semula rutin. Saya berhubung semula dengan hobi. Saya perlahan-lahan membenarkan ketidakselesaan tanpa segera cuba membetulkannya.",
+        "3": "Hari ini, kebimbangan masih melawat kadang-kadang. Tetapi ia tidak lagi mentakrifkan saya. Saya telah belajar bahawa pertumbuhan tidak mempunyai tarikh luput - dan keberanian boleh muncul pada sebarang umur."
+      },
       "reflection": "Bahagian manakah daripada anda yang masih berkembang?"
     },
-    {
+    "4": {
       "name": "Kabir",
       "quote": "Kebimbangan saya tidak pernah kelihatan seperti panik. Ia kelihatan seperti produktiviti.",
-      "body": [
-        "Saya bangun awal, bekerja berjam-jam, dan mengisi setiap masa lapang dengan sesuatu - berita, e-mel, panggilan telefon, bunyi latar belakang. Jika ada kesunyian, saya mengisinya. Jika ada kesunyian, saya melarikan diri.",
-        "Kerana apabila keadaan menjadi sunyi, fikiran saya menjadi kuat.",
-        "Bagaimana jika sesuatu berlaku kepada keluarga saya? Bagaimana jika saya kehilangan pekerjaan saya? Bagaimana jika saya jatuh sakit? Ketakutan itu tidak berterusan, tetapi mereka berterusan. Mereka berlegar di latar belakang, menunggu ruang.",
-        "Jadi saya tidak memberi mereka ruang.",
-        "Saya fikir saya hanya bercita-cita tinggi. Didorong. Fokus. Tetapi di sebalik kesibukan itu adalah kegelisahan. Kerengsaan. Perasaan bahawa saya tidak boleh benar-benar berehat.",
-        "Pada suatu petang, anak perempuan saya bertanya kepada saya mengapa saya selalu berada \"di tempat lain\" walaupun saya duduk betul-betul di sebelahnya. Soalan itu kekal dengan saya.",
-        "Saya bermula dari kecil. Dua minit duduk tanpa telefon saya. Tiada gangguan. Hanya bernafas. Ia terasa tidak tertanggung pada mulanya. Fikiran saya berlumba-lumba. Badan saya berasa tidak tenang.",
-        "Tetapi saya terus berlatih.",
-        "Lama kelamaan, saya belajar bahawa pemikiran boleh menjadi kuat tanpa berbahaya. Saya tidak perlu menyelesaikan setiap ketakutan dengan segera. Saya tidak perlu mengatasi ketidakselesaan.",
-        "Sekarang, saya masih bekerja keras. Saya masih sangat mengambil berat. Tetapi saya juga membenarkan saat-saat kesunyian. Dan bukannya berasa seperti ancaman, detik-detik itu kadang-kadang terasa seperti kedamaian."
-      ],
+      "body": {
+        "0": "Saya bangun awal, bekerja berjam-jam, dan mengisi setiap masa lapang dengan sesuatu - berita, e-mel, panggilan telefon, bunyi latar belakang. Jika ada kesunyian, saya mengisinya. Jika ada kesunyian, saya melarikan diri.",
+        "1": "Kerana apabila keadaan menjadi sunyi, fikiran saya menjadi kuat.",
+        "2": "Bagaimana jika sesuatu berlaku kepada keluarga saya? Bagaimana jika saya kehilangan pekerjaan saya? Bagaimana jika saya jatuh sakit? Ketakutan itu tidak berterusan, tetapi mereka berterusan. Mereka berlegar di latar belakang, menunggu ruang.",
+        "3": "Jadi saya tidak memberi mereka ruang.",
+        "4": "Saya fikir saya hanya bercita-cita tinggi. Didorong. Fokus. Tetapi di sebalik kesibukan itu adalah kegelisahan. Kerengsaan. Perasaan bahawa saya tidak boleh benar-benar berehat.",
+        "5": "Pada suatu petang, anak perempuan saya bertanya kepada saya mengapa saya selalu berada \"di tempat lain\" walaupun saya duduk betul-betul di sebelahnya. Soalan itu kekal dengan saya.",
+        "6": "Saya bermula dari kecil. Dua minit duduk tanpa telefon saya. Tiada gangguan. Hanya bernafas. Ia terasa tidak tertanggung pada mulanya. Fikiran saya berlumba-lumba. Badan saya berasa tidak tenang.",
+        "7": "Tetapi saya terus berlatih.",
+        "8": "Lama kelamaan, saya belajar bahawa pemikiran boleh menjadi kuat tanpa berbahaya. Saya tidak perlu menyelesaikan setiap ketakutan dengan segera. Saya tidak perlu mengatasi ketidakselesaan.",
+        "9": "Sekarang, saya masih bekerja keras. Saya masih sangat mengambil berat. Tetapi saya juga membenarkan saat-saat kesunyian. Dan bukannya berasa seperti ancaman, detik-detik itu kadang-kadang terasa seperti kedamaian."
+      },
       "reflection": "Di manakah dalam hidup anda mengisi kesunyian untuk mengelakkan apa yang mungkin didedahkannya?"
     },
-    {
+    "5": {
       "name": "Nisha",
       "quote": "Saya dinaikkan pangkat - dan kemudian tidak boleh tidur.",
-      "body": [
-        "Kebimbangan saya bermula selepas sesuatu yang \"baik\" berlaku.",
-        "Saya dinaikkan pangkat. Lebih banyak tanggungjawab. Lebih banyak keterlihatan. Lebih banyak jangkaan. Semua orang mengucapkan tahniah kepada saya. Saya tersenyum, mengucapkan terima kasih kepada mereka, meraikan - dan kemudian pulang ke rumah dan tidak boleh tidur.",
-        "Bagaimana jika saya sebenarnya tidak berkebolehan? Bagaimana jika mereka menyedari bahawa mereka melakukan kesilapan? Bagaimana jika saya gagal secara terbuka?",
-        "Semakin tinggi saya mendaki, semakin terdedah yang saya rasakan. Setiap mesyuarat terasa seperti ujian. Setiap kesilapan kecil terasa seperti bukti bahawa saya tidak tergolong. Saya mula bekerja berlebihan untuk mengimbangi — tinggal lewat, menjadi sukarelawan untuk tugas tambahan, menjawab e-mel serta-merta.",
-        "Dari luar, saya kelihatan berjaya. Di dalam, saya berasa seperti penipu yang menunggu untuk ditemui.",
-        "Kebimbangan tidak menjerit. Ia berbisik. Ia memberitahu saya bahawa saya perlu menjadi lebih baik daripada orang lain hanya untuk layak berada di sana. Ia memberitahu saya rehat adalah kemalasan. Ia memberitahu saya satu langkah yang salah akan membatalkan segala-galanya.",
-        "Titik pecahnya tidak dramatik. Ia adalah hari Selasa rawak apabila saya terlupa lampiran kecil dalam e-mel — dan menghabiskan sepanjang malam memainkannya semula di kepala saya. Ketika itulah saya menyedari ini bukan cita-cita lagi. Ia adalah ketakutan.",
-        "Apa yang perlahan-lahan mengubah keadaan ialah mengetahui bahawa ketidakselesaan tidak bermakna bahaya. Pertumbuhan selalunya terasa seperti pendedahan. Peranan baharu meregangkan anda — ia tidak bermakna anda seorang penipu.",
-        "Saya mula membenarkan diri saya menjadi pelajar dan bukannya mengharapkan diri saya menjadi sempurna. Saya mula mengakui apabila saya tidak tahu sesuatu. Saya membiarkan diri saya bertanya soalan.",
-        "Dan sesuatu yang mengejutkan berlaku.",
-        "Orang ramai lebih menghormati saya, bukan kurang.",
-        "Sekarang, apabila kebimbangan memberitahu saya bahawa saya tidak tergolong, saya tidak mempercayainya secara automatik. Saya mengingatkan diri sendiri: menjadi baru dalam sesuatu tidak bermakna tidak berkebolehan. Ia bermakna berkembang.",
-        "Dan pertumbuhan sentiasa berasa sedikit tidak selesa."
-      ],
+      "body": {
+        "0": "Kebimbangan saya bermula selepas sesuatu yang \"baik\" berlaku.",
+        "1": "Saya dinaikkan pangkat. Lebih banyak tanggungjawab. Lebih banyak keterlihatan. Lebih banyak jangkaan. Semua orang mengucapkan tahniah kepada saya. Saya tersenyum, mengucapkan terima kasih kepada mereka, meraikan - dan kemudian pulang ke rumah dan tidak boleh tidur.",
+        "2": "Bagaimana jika saya sebenarnya tidak berkebolehan? Bagaimana jika mereka menyedari bahawa mereka melakukan kesilapan? Bagaimana jika saya gagal secara terbuka?",
+        "3": "Semakin tinggi saya mendaki, semakin terdedah yang saya rasakan. Setiap mesyuarat terasa seperti ujian. Setiap kesilapan kecil terasa seperti bukti bahawa saya tidak tergolong. Saya mula bekerja berlebihan untuk mengimbangi — tinggal lewat, menjadi sukarelawan untuk tugas tambahan, menjawab e-mel serta-merta.",
+        "4": "Dari luar, saya kelihatan berjaya. Di dalam, saya berasa seperti penipu yang menunggu untuk ditemui.",
+        "5": "Kebimbangan tidak menjerit. Ia berbisik. Ia memberitahu saya bahawa saya perlu menjadi lebih baik daripada orang lain hanya untuk layak berada di sana. Ia memberitahu saya rehat adalah kemalasan. Ia memberitahu saya satu langkah yang salah akan membatalkan segala-galanya.",
+        "6": "Titik pecahnya tidak dramatik. Ia adalah hari Selasa rawak apabila saya terlupa lampiran kecil dalam e-mel — dan menghabiskan sepanjang malam memainkannya semula di kepala saya. Ketika itulah saya menyedari ini bukan cita-cita lagi. Ia adalah ketakutan.",
+        "7": "Apa yang perlahan-lahan mengubah keadaan ialah mengetahui bahawa ketidakselesaan tidak bermakna bahaya. Pertumbuhan selalunya terasa seperti pendedahan. Peranan baharu meregangkan anda — ia tidak bermakna anda seorang penipu.",
+        "8": "Saya mula membenarkan diri saya menjadi pelajar dan bukannya mengharapkan diri saya menjadi sempurna. Saya mula mengakui apabila saya tidak tahu sesuatu. Saya membiarkan diri saya bertanya soalan.",
+        "9": "Dan sesuatu yang mengejutkan berlaku.",
+        "10": "Orang ramai lebih menghormati saya, bukan kurang.",
+        "11": "Sekarang, apabila kebimbangan memberitahu saya bahawa saya tidak tergolong, saya tidak mempercayainya secara automatik. Saya mengingatkan diri sendiri: menjadi baru dalam sesuatu tidak bermakna tidak berkebolehan. Ia bermakna berkembang.",
+        "12": "Dan pertumbuhan sentiasa berasa sedikit tidak selesa."
+      },
       "reflection": "Di manakah anda mengelirukan ketidakselesaan dengan bukti bahawa anda tidak tergolong?"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Mula Semula",
@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "chooseStoryDesc": "Ketik pada profil untuk membaca perjalanan peribadi kekuatan dan pemulihan mereka.",
+  "recovery_journey": "Perjalanan Inspirasi",
+  "reflection_prompt": "Renungkan perkara ini"
 }

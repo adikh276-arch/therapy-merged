@@ -1,15 +1,15 @@
 {
   "app_title": "Mapa ng Pagkain at Emosyon",
-  "screen_titles": [
-    "Maligayang pagdating",
-    "Mga Pattern ng Pagkain",
-    "Panloob na Diyalogo",
-    "Pisikal na Senssing",
-    "Ang mapa",
-    "Magiliw na Suporta",
-    "Pangwakas na Pagtingin",
-    "Pagmumuni-muni"
-  ],
+  "screen_titles": {
+    "0": "Maligayang pagdating",
+    "1": "Mga Pattern ng Pagkain",
+    "2": "Panloob na Diyalogo",
+    "3": "Pisikal na Senssing",
+    "4": "Ang mapa",
+    "5": "Magiliw na Suporta",
+    "6": "Pangwakas na Pagtingin",
+    "7": "Pagmumuni-muni"
+  },
   "welcome_text": "Hoy... Natutuwa ako na nandito 💛 ka Malumanay nating i-map kung ano ang nangyayari.",
   "coming_up_label": "Ano ang nangyayari kamakailan?",
   "begin_mapping": "Simulan ang Pagmamapa",
@@ -32,36 +32,36 @@
   "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
   "save_success": "Napanatili ang pattern",
   "save_error": "Nabigo na mapanatili ang pattern",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Kalungkutan",
-    "😶 Pagkabagot",
-    "😟 Pagkabalisa",
-    "🥺 Kalungkutan",
-    "💭 Iba pa..."
-  ],
-  "food_responses": [
-    "🍽️ Kumakain ako ng higit pa",
-    "🚫 Kumakain ako ng mas kaunti",
-    "🍫 Nananabik ako sa mga partikular na pagkain",
-    "😣 Umiiwas ako sa pagkain",
-    "😐 Walang tunay na pagbabago"
-  ],
-  "body_sensations": [
-    "💔 Masikip na dibdib",
-    "🪨 Mabigat na pakiramdam",
-    "🦵 Hindi mapakali / fidgety",
-    "🔋 Mababang enerhiya",
-    "🌀 Buhol sa tiyan",
-    "❓ Iba pa..."
-  ],
-  "support_options": [
-    "🗣️ Makipag-usap sa isang tao",
-    "☕ Magpahinga",
-    "📝 Journal",
-    "🌬️ Huminga",
-    "🎧 Abalahin ang aking sarili"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Kalungkutan",
+    "2": "😶 Pagkabagot",
+    "3": "😟 Pagkabalisa",
+    "4": "🥺 Kalungkutan",
+    "5": "💭 Iba pa..."
+  },
+  "food_responses": {
+    "0": "🍽️ Kumakain ako ng higit pa",
+    "1": "🚫 Kumakain ako ng mas kaunti",
+    "2": "🍫 Nananabik ako sa mga partikular na pagkain",
+    "3": "😣 Umiiwas ako sa pagkain",
+    "4": "😐 Walang tunay na pagbabago"
+  },
+  "body_sensations": {
+    "0": "💔 Masikip na dibdib",
+    "1": "🪨 Mabigat na pakiramdam",
+    "2": "🦵 Hindi mapakali / fidgety",
+    "3": "🔋 Mababang enerhiya",
+    "4": "🌀 Buhol sa tiyan",
+    "5": "❓ Iba pa..."
+  },
+  "support_options": {
+    "0": "🗣️ Makipag-usap sa isang tao",
+    "1": "☕ Magpahinga",
+    "2": "📝 Journal",
+    "3": "🌬️ Huminga",
+    "4": "🎧 Abalahin ang aking sarili"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Makipag-ugnay 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Are you sure you want to delete this mapping?"
   },
   "app_description": "Mapa ng Pagkain at Emosyon",
   "more": "Higit pa",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "view_weekly": "View Map History",
+  " ": " "
 }

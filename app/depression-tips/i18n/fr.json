@@ -92,5 +92,7 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "gentleReminder": "Petit rappel",
+  "lang": "long"
 }

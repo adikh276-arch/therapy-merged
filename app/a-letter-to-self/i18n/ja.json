@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "セーブ...",
+    "saved": "セーブされました"
   },
   "app_duration": "10～15分",
   "app_title": "自分への手紙",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "プロンプト",
+  "need_inspiration": "インスピレーションが必要ですか?",
+  "post_writing_reflection": "執筆後の振り返り",
+  "reflection_desc": "自分の気持ちを認めることは、あなたの旅路において強力な一歩です。",
+  "finish_save_reflection": "フィニッシュ&セーブ・リフレクション",
+  "lang": "長い",
+  "completion_message": "あなたの手紙は無事に保存されました。自分の進歩を少しでも感じてみてください。"
 }

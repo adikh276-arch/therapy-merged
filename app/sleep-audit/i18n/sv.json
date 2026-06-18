@@ -5,7 +5,8 @@
     "title": "Din sömngranskning",
     "description": "Förstå vad som påverkar din sömn och var små förändringar kan hjälpa.",
     "start_button": "Starta revision",
-    "history_button": "Tidigare revisioner"
+    "history_button": "Tidigare revisioner",
+    "more_insights": "Tillbaka till början"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Jag går och lägger mig vid väldigt olika tider varje kväll"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Min sovmiljö är varken mörk, tyst eller bekväm"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Jag scrollar på mobilen precis innan jag går och lägger mig"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Jag dricker koffein eller alkohol nära läggdags"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Jag vaknar på natten och har svårt att somna om"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Mitt sinne rusar med tankar när jag försöker sova"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Jag känner mig sällan utvilad efter en natts sömn"
     }
-  ],
-  "rating_labels": [
-    "Mycket dåligt",
-    "Fattigt",
-    "Okej",
-    "Bra",
-    "Toppen"
-  ],
+  },
+  "rating_labels": {
+    "0": "Mycket dåligt",
+    "1": "Fattigt",
+    "2": "Okej",
+    "3": "Bra",
+    "4": "Toppen"
+  },
   "status_labels": {
     "track": "Mest på banan",
     "disruptions": "Vissa störningar",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2D",
+  "lang": "Lång",
+  "loading": "Laddningshistorik..."
 }

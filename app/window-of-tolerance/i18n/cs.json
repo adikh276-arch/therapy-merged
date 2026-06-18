@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Nad tvým oknem",
         "subtitle": "Tvůj nervový systém je v přetížení. To je v pořádku. Přinesme tě zpátky jemně.",
-        "feelings": [
-          "Bušící srdce",
-          "Mělké dýchání",
-          "Panika nebo vztek",
-          "Závodní myšlenky",
-          "Neklid"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Bušící srdce",
+          "1": "Mělké dýchání",
+          "2": "Panika nebo vztek",
+          "3": "Závodní myšlenky",
+          "4": "Neklid"
+        },
+        "tools": {
+          "0": {
             "name": "Box Breathing",
             "desc": "Nadech 4, měsíc 4, výdech 4, měsíc 4. Opakujte to 4krát."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Uzemnění",
             "desc": "5 věcí vidí, 4 se dotkne, 3 slyší, 2 čichá, 1 ochutná."
           },
-          {
+          "2": {
             "name": "Nohy na zemi",
             "desc": "Přitlačte nohy dolů a řekněte: 'Jsem tady. Jsem v bezpečí. To přejde.'"
           }
-        ],
+        },
         "button": "Cítím se o něco klidnější →",
         "footer": "Jsi v bezpečí. Dej si čas."
       },
       "hypo": {
         "title": "Pod tvým oknem",
         "subtitle": "Tvůj nervový systém ztichl. Chrání tě. Jemně ho probudíme.",
-        "feelings": [
-          "Necitlivost",
-          "Oddělení",
-          "Extrémní únava",
-          "Pocit neskutečnosti",
-          "Plochost"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Necitlivost",
+          "1": "Oddělení",
+          "2": "Extrémní únava",
+          "3": "Pocit neskutečnosti",
+          "4": "Plochost"
+        },
+        "tools": {
+          "0": {
             "name": "Jemný pohyb",
             "desc": "Stůj, jdi pomalu, mávej rukama. Nechte své tělo probudit se."
           },
-          {
+          "1": {
             "name": "Rytmický zvuk",
             "desc": "Hrajte hudbu s pravidelným rytmem, poklepávejte nohama."
           },
-          {
+          "2": {
             "name": "Mluvte nahlas",
             "desc": "Řekni nahlas své jméno, místo, dnešní datum. Znovu zapojte myšlenkový mozek."
           }
-        ],
+        },
         "button": "Cítím se trochu víc přítomný →",
         "footer": "Děláš to skvěle. Jděte krok za krokem."
       },
       "safe": {
         "title": "Uvnitř tvého okna",
         "subtitle": "Jste ve své bezpečné zóně. Právě zde dochází k uzdravení, propojení a růstu. Dobrá práce.",
-        "feelings": [
-          "Přítomný a vědomý",
-          "Pravidelné dýchání",
-          "Jasné myšlení",
-          "Propojení"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Přítomný a vědomý",
+          "1": "Pravidelné dýchání",
+          "2": "Jasné myšlení",
+          "3": "Propojení"
+        },
+        "tools": {
+          "0": {
             "name": "Dýchej pomalu",
             "desc": "Nádech nosem, výdech ústy."
           },
-          {
+          "1": {
             "name": "Zamyslet se",
             "desc": "Co vám pomohlo zůstat tady? Napiš si to."
           },
-          {
+          "2": {
             "name": "Sebesoucit",
             "desc": "'Můj nervový systém dělal svou práci. Nejsem rozbitý. Uzdravuji se.'"
           }
-        ],
+        },
         "button": "Pokračujte v mém nástrojovém →",
         "footer": "Jsi hoden péče a uzdravení."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Vaše osobní sada nástrojů",
       "subtitle": "Vaše osvědčené nástroje — uložené a připravené kdykoli je budete potřebovat.",
-      "tools_list": [
-        "🌬️ Box Breathing",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Nohy na zemi",
-        "🚶 Jemný pohyb",
-        "🎵 Hudba",
-        "💬 Mluvte nahlas"
-      ],
+      "tools_list": {
+        "0": "🌬️ Box Breathing",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Nohy na zemi",
+        "3": "🚶 Jemný pohyb",
+        "4": "🎵 Hudba",
+        "5": "💬 Mluvte nahlas"
+      },
       "journal_label": "📝 Dnešní reflexe",
       "journal_desc": "Jaký byl dnes jeden okamžik, kdy jste si všimli, že se váš nervový systém mění — a co jste s tím udělali?",
       "journal_placeholder": "Piš sem...",
@@ -156,13 +156,13 @@
       "preserve_button": "Zachovat odraz"
     }
   },
-  "nav": [
-    "Check-in",
-    "Vysvětlení",
-    "Monitorování",
-    "Zóna",
-    "Sada nástrojů"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Vysvětlení",
+    "2": "Monitorování",
+    "3": "Zóna",
+    "4": "Sada nástrojů"
+  },
   "history": {
     "title": "Historie přihlášení",
     "empty": "Zatím žádné kontroly."
@@ -176,15 +176,15 @@
     "title": "Kontrola dokončena",
     "message": "Úspěšně jste zmapovali svůj současný stav. Budování povědomí je prvním krokem k nalezení rovnováhy."
   },
-  "days": [
-    "Můj",
-    "Út",
-    "Střed",
-    "Podzim",
-    "Pá",
-    "Sobota",
-    "Slunce"
-  ],
+  "days": {
+    "0": "Můj",
+    "1": "Út",
+    "2": "Střed",
+    "3": "Podzim",
+    "4": "Pá",
+    "5": "Sobota",
+    "6": "Slunce"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Začít znovu",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

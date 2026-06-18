@@ -21,30 +21,31 @@
       "placeholder": "Ipasok ang isang pangalan ...",
       "button": "I-save ang Pangalan"
     },
-    "prompts": [
-      "Isang taong nagdudulot ng kagalakan",
-      "Isang Taong Sumusuporta sa Iyo",
-      "Isang taong pwede mong kausapin",
-      "Taong pinagkakatiwalaan mo",
-      "Isang taong nagbibigay-inspirasyon sa iyo"
-    ]
+    "prompts": {
+      "0": "Isang taong nagdudulot ng kagalakan",
+      "1": "Isang Taong Sumusuporta sa Iyo",
+      "2": "Isang taong pwede mong kausapin",
+      "3": "Taong pinagkakatiwalaan mo",
+      "4": "Isang taong nagbibigay-inspirasyon sa iyo"
+    }
   },
   "reflection": {
     "subtitle": "Pangwakas na pagmumuni-muni",
     "title": "Ano ang napapansin mo?",
     "p_intro": "Maglaan ng ilang sandali upang tingnan ang iyong bilog. Maaari mong mapansin:",
-    "list": [
-      "Ang ilang mga tao ay mas malapit kaysa sa iba",
-      "Ang ilang mga koneksyon ay pakiramdam malakas",
-      "Ang ilan ay nakakaramdam ng malayo o hindi malinaw",
-      "Maaaring may mga puwang - o ilang makabuluhang mga tao lamang"
-    ],
+    "list": {
+      "0": "Ang ilang mga tao ay mas malapit kaysa sa iba",
+      "1": "Ang ilang mga koneksyon ay pakiramdam malakas",
+      "2": "Ang ilan ay nakakaramdam ng malayo o hindi malinaw",
+      "3": "Maaaring may mga puwang - o ilang makabuluhang mga tao lamang"
+    },
     "italic": "Ang kamalayan ay ang unang hakbang patungo sa pagbuo ng mga koneksyon na pinahahalagahan mo. 🧘",
     "label": "💭 Mayroon bang sinuman na nais mong maramdaman na mas konektado?",
     "placeholder": "Isulat ang iyong mga saloobin dito ...",
     "save_button": "I-save ang Pagmumuni-muni",
     "saving_button": "Pag-save ...",
-    "skip_button": "Email Address *"
+    "skip_button": "Email Address *",
+    "saved_success": "Your interpersonal map is safely stored in your journal. Cultivating these support nodes helps keep us resilient."
   },
   "history": {
     "title": "Kasaysayan ng Iyong Circles",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Are you sure you want to delete this circle log?"
   },
   "intro_p1": "Sa iba't ibang punto ng buhay, maaaring magbago ang ating sistema ng suporta. 🌱 Minsan, pakiramdam natin ay konektado at sinusuportahan tayo. Sa ibang pagkakataon naman, maaaring parang malayo o hindi malinaw ang mga bagay-bagay.",
   "intro_p2": "Ang aktibidad na ito ay isang lugar para huminto sandali at tingnan ang mga taong nakapaligid sa iyo — at unawain kung sino ang kasalukuyang nakakaramdam na bahagi ka ng iyong bilog. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  " ": " "
 }

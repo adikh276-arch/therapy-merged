@@ -4,11 +4,11 @@
   "intro": {
     "title": "予測と現実",
     "description": "不安な予測と実際に起こることを比較し、よりバランスの取れた視点を築きましょう。",
-    "benefits": [
-      "不安なパターンを特定する",
-      "恐怖に対抗する証拠を集めましょう",
-      "将来の過剰な考えを減らす"
-    ],
+    "benefits": {
+      "0": "不安なパターンを特定する",
+      "1": "恐怖に対抗する証拠を集めましょう",
+      "2": "将来の過剰な考えを減らす"
+    },
     "duration": "4〜5分",
     "view_past": "過去の振り返りを見る"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "まだリフレクションは保存されていません。",
     "prediction_label": "予想",
     "reality_label": "現実",
-    "reflection_label": "振り返り:"
+    "reflection_label": "振り返り:",
+    "past_logs": "過去の振り返り",
+    "reframe_label": "新たなバランスの取れた視点:"
   },
   "complete": {
     "title": "アクティビティ完了",
     "saved_title": "リフレクション・セーブド",
     "message": "事実を見ることで、物事は見た目以上に管理しやすいことが多いと心に学ばせています。"
   },
-  "emotions": [
-    "不安",
-    "緊張している",
-    "怖がってる",
-    "圧倒されていた",
-    "不安"
-  ],
+  "emotions": {
+    "0": "不安",
+    "1": "緊張している",
+    "2": "怖がってる",
+    "3": "圧倒されていた",
+    "4": "不安"
+  },
   "intensity_labels": {
     "not_intense": "強烈ではありません",
     "very_intense": "とても激しい"
   },
-  "comparison_options": [
-    "結果はほぼ予想通りのものでした",
-    "正しい部分もありましたが、すべてではありませんでした",
-    "予想していたのとはかなり違っていた",
-    "想像していたよりもずっと簡単で良かったです"
-  ],
+  "comparison_options": {
+    "0": "結果はほぼ予想通りのものでした",
+    "1": "正しい部分もありましたが、すべてではありませんでした",
+    "2": "予想していたのとはかなり違っていた",
+    "3": "想像していたよりもずっと簡単で良かったです"
+  },
   "screens": {
     "s1": {
       "title": "最近の状況を考えてみてください",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "この予測ログを削除したいのか?"
   },
   "app_description": "予測と現実",
   "more": "もっと",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い"
 }

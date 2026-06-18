@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ארוך",
+  "intro_benefit_1": "קבל בהירות מוחלטת לגבי האמונות המרכזיות שלך",
+  "intro_benefit_2": "קבע מטרות ברורות לשינוי אישי",
+  "reflection_subtitle": "ניסח את השאיפות שלך. מלא את המרכיבים המרכזיים של המטרה שלך.",
+  "mission_your_statement": "ההצהרה שלך",
+  "saving": "מצילה...",
+  "mission_save_finish": "שמירה וסיים",
+  "mission_share": "שתף",
+  "mission_start_over": "התחלה מחדש",
+  "loading": "הצהרות טעינה...",
+  "app": {
+    "startActivity": "יצירת משימה"
+  }
 }

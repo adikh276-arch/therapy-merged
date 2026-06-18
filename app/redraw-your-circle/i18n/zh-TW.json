@@ -44,7 +44,8 @@
     "placeholder": "請在此寫下您的想法…",
     "save_button": "保存反射",
     "saving_button": "儲存...",
-    "skip_button": "跳過和完成"
+    "skip_button": "跳過和完成",
+    "saved_success": "你的人際地圖安全地儲存在你的日記中。培養這些支持節點有助於我們保持韌性。"
   },
   "history": {
     "title": "你的圈歷史",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你確定要刪除這個圓圈記錄嗎？"
   },
   "intro_p1": "At different points in life, our support system can shift. 🌱 Sometimes we feel connected and supported. Other times, things may feel distant or unclear.",
   "intro_p2": "This activity is a space to pause and look at the people around you — and understand who currently feels part of your circle. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  " ": " "
 }

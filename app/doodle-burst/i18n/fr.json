@@ -97,5 +97,10 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "canvas": "Toile",
+  "2d": "2d",
+  "a": "a",
+  "lang": "long",
+  "complete_and_save": "Compléter & sauvegarder"
 }

@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Tiết kiệm...",
+    "saved": "Đã lưu"
   },
   "app_duration": "10-15 phút",
   "app_title": "Thư gửi chính mình",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Lời nhắc",
+  "need_inspiration": "Cần cảm hứng?",
+  "post_writing_reflection": "Suy ngẫm sau khi viết",
+  "reflection_desc": "Thừa nhận cảm xúc của bạn là một bước mạnh mẽ trong hành trình của bạn.",
+  "finish_save_reflection": "Kết thúc và lưu phản xạ",
+  "lang": "dài",
+  "completion_message": "Thư của bạn đã được lưu an toàn. Hãy dành một chút thời gian để đánh giá cao sự tiến bộ của bạn."
 }

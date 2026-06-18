@@ -1,58 +1,58 @@
 {
   "app_title": "Hiểu về điều khiển",
   "app_subtitle": "Chiến lược sinh tồn • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Tại sao điều khiển có thể cảm thấy mạnh mẽ như vậy",
-      "paragraphs": [
-        "Đối với nhiều người gặp khó khăn trong việc ăn uống, kiểm soát có thể giống như một cách để tạo ra sự an toàn.",
-        "Khi cuộc sống cảm thấy không thể đoán trước hoặc căng thẳng về mặt cảm xúc, tập trung vào thức ăn, cân nặng hoặc thói quen có thể mang lại cảm giác cấu trúc và chắc chắn.",
-        "Đây không phải là về ý chí hay kỷ luật. Đó là về việc cố gắng ổn định bản thân khi mọi thứ cảm thấy không chắc chắn.",
-        "Bằng cách này, kiểm soát trở thành một chiến lược đối phó - thứ giúp bạn cảm thấy vững chắc, ngay cả khi chỉ là tạm thời."
-      ],
+      "paragraphs": {
+        "0": "Đối với nhiều người gặp khó khăn trong việc ăn uống, kiểm soát có thể giống như một cách để tạo ra sự an toàn.",
+        "1": "Khi cuộc sống cảm thấy không thể đoán trước hoặc căng thẳng về mặt cảm xúc, tập trung vào thức ăn, cân nặng hoặc thói quen có thể mang lại cảm giác cấu trúc và chắc chắn.",
+        "2": "Đây không phải là về ý chí hay kỷ luật. Đó là về việc cố gắng ổn định bản thân khi mọi thứ cảm thấy không chắc chắn.",
+        "3": "Bằng cách này, kiểm soát trở thành một chiến lược đối phó - thứ giúp bạn cảm thấy vững chắc, ngay cả khi chỉ là tạm thời."
+      },
       "microcopy": "Bạn không đơn độc cảm thấy như vậy.",
       "cta": "Tiếp tục"
     },
-    {
+    "1": {
       "headline": "Các cách khác nhau của điều khiển xuất hiện",
       "intro": "Nhu cầu kiểm soát trông không giống nhau đối với tất cả mọi người, nhưng nó thường xuất hiện trong các mẫu như:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Quy tắc thực phẩm nghiêm ngặt hoặc không linh hoạt"
         },
-        {
+        "1": {
           "text": "Cần tuân thủ chính xác các thói quen"
         },
-        {
+        "2": {
           "text": "Lo lắng khi kế hoạch thay đổi"
         },
-        {
+        "3": {
           "text": "Liên kết giá trị bản thân với hình dạng/cân nặng"
         }
-      ],
+      },
       "outro": "Theo thời gian, những điều này có thể trở nên cứng nhắc, chiếm không gian tinh thần và khiến bạn khó thích nghi hơn.",
       "microcopy": "Những gì bắt đầu như kiểm soát có thể từ từ bắt đầu cảm thấy kiểm soát.",
       "cta": "Tiếp tục"
     },
-    {
+    "2": {
       "headline": "Bên dưới điều khiển",
       "intro": "Sự thôi thúc kiểm soát thường có nguồn gốc sâu xa hơn. Nó có thể được kết nối với:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Cảm thấy tràn ngập cảm xúc"
         },
-        {
+        "1": {
           "text": "Muốn có khả năng dự đoán"
         },
-        {
+        "2": {
           "text": "Nhu cầu ổn định và an toàn"
         }
-      ],
+      },
       "insight": "Kiểm soát không phải là vấn đề - đó là chiến lược mà tâm trí bạn tìm thấy để đối phó. Với thời gian và sự hỗ trợ, những cách khác để cảm thấy an toàn là có thể.",
       "microcopy": "Hiểu là bước đầu tiên mạnh mẽ.",
       "cta": "Đọc xong"
     }
-  ],
+  },
   "complete": {
     "title": "Nhận thức đạt được",
     "message": "Hiểu được gốc rễ của sự kiểm soát là bước đầu tiên dũng cảm để tìm ra những cách mới để cảm thấy an toàn và ổn định.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

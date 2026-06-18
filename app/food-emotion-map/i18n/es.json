@@ -1,15 +1,15 @@
 {
   "app_title": "Mapa de Comida y Emociones",
-  "screen_titles": [
-    "Bienvenido",
-    "Patrones alimentarios",
-    "Diálogo interno",
-    "Detección física",
-    "El mapa",
-    "Apoyo Suave",
-    "Final Look",
-    "Reflejando"
-  ],
+  "screen_titles": {
+    "0": "Bienvenido",
+    "1": "Patrones alimentarios",
+    "2": "Diálogo interno",
+    "3": "Detección física",
+    "4": "El mapa",
+    "5": "Apoyo Suave",
+    "6": "Final Look",
+    "7": "Reflejando"
+  },
   "welcome_text": "Oye... Me alegro mucho de que estés aquí 💛. Vamos a mapear suavemente lo que ha estado pasando.",
   "coming_up_label": "¿Qué pasa últimamente?",
   "begin_mapping": "Comienza el mapeo",
@@ -32,36 +32,36 @@
   "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
   "save_success": "Patrón preservado",
   "save_error": "No se preservó el patrón",
-  "emotions_list": [
-    "😰 Estrés",
-    "😢 Tristeza",
-    "😶 Aburrimiento",
-    "😟 Ansiedad",
-    "🥺 Soledad",
-    "💭 Algo más..."
-  ],
-  "food_responses": [
-    "🍽️ Como más",
-    "🚫 Como menos",
-    "🍫 Tengo antojo de ciertos alimentos",
-    "😣 Evito la comida",
-    "😐 No hubo cambios reales"
-  ],
-  "body_sensations": [
-    "💔 Pecho apretado",
-    "🪨 Sensación pesada",
-    "🦵 Inquieto / inquieto",
-    "🔋 Baja energía",
-    "🌀 Nudos en el estómago",
-    "❓ Algo más..."
-  ],
-  "support_options": [
-    "🗣️ Habla con alguien",
-    "☕ Tómate un descanso",
-    "📝 Revista",
-    "🌬️ Respira",
-    "🎧 Distraerme"
-  ],
+  "emotions_list": {
+    "0": "😰 Estrés",
+    "1": "😢 Tristeza",
+    "2": "😶 Aburrimiento",
+    "3": "😟 Ansiedad",
+    "4": "🥺 Soledad",
+    "5": "💭 Algo más..."
+  },
+  "food_responses": {
+    "0": "🍽️ Como más",
+    "1": "🚫 Como menos",
+    "2": "🍫 Tengo antojo de ciertos alimentos",
+    "3": "😣 Evito la comida",
+    "4": "😐 No hubo cambios reales"
+  },
+  "body_sensations": {
+    "0": "💔 Pecho apretado",
+    "1": "🪨 Sensación pesada",
+    "2": "🦵 Inquieto / inquieto",
+    "3": "🔋 Baja energía",
+    "4": "🌀 Nudos en el estómago",
+    "5": "❓ Algo más..."
+  },
+  "support_options": {
+    "0": "🗣️ Habla con alguien",
+    "1": "☕ Tómate un descanso",
+    "2": "📝 Revista",
+    "3": "🌬️ Respira",
+    "4": "🎧 Distraerme"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Contacta 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Fase",
     "rounds_selector": "{{count}} Rondas",
     "instruction_ready": "Configura tus rondas y toca play para comenzar",
-    "instruction_running": "Sigue el círculo para regular tu respiración"
+    "instruction_running": "Sigue el círculo para regular tu respiración",
+    "confirm_delete": "¿Estás seguro de que quieres borrar este mapeo?"
   },
   "app_description": "Mapa de alimentación y emociones",
   "more": "Más",
@@ -135,5 +136,8 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo",
+  "view_weekly": "Ver historial del mapa",
+  " ": " "
 }

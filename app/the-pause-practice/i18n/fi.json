@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Mikä laukaisee sinut?",
     "desc": "Valitse tilanne, johon samaistut",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Joku keskeyttää minut",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Asiat eivät mene suunnitelmien mukaan",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Tunnen itseni sivuutetuksi",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Tunnen oloni ylikuormittuneeksi",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Kirjoita itse...",
     "button": "Harjoitustauko →"
   },
   "hold": {
     "title": "Pidä tauko ⏸️",
     "instructions": "Pidä ympyrää 5 sekuntia",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Paina ja pidä kiinni..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Pysy mukana..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Sinä teet sen..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Melkein perillä..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Se on tauko",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "muut",
+  "lang": "pitkä"
 }

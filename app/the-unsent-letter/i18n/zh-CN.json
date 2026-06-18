@@ -35,7 +35,8 @@
     },
     "notice": "这是为了治愈你，而不是为了送你出去。",
     "save_button": "保存信件",
-    "finish_button": "结束"
+    "finish_button": "结束",
+    "save_success": "你未寄出的信件已安全地修复在你私人的本地日记中。表达是一种深刻的释放。"
   },
   "history": {
     "title": "往期信件",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你确定要删除这封未寄出的信吗？"
   },
   "app_description": "Release your thoughts safely and privately",
   "more": "More",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长"
 }

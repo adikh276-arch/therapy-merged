@@ -3,11 +3,11 @@
   "intro": {
     "title": "Controllo di lettura della mente",
     "description": "Metti in discussione le supposizioni che fai su ciò che pensano gli altri.",
-    "benefits": [
-      "Smettila di presumere il peggio",
-      "Identificare interpretazioni di parte",
-      "Costruire una comunicazione più chiara"
-    ],
+    "benefits": {
+      "0": "Smettila di presumere il peggio",
+      "1": "Identificare interpretazioni di parte",
+      "2": "Costruire una comunicazione più chiara"
+    },
     "duration": "3-4 minuti",
     "view_past": "Visualizza riflessioni passate"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Controlla la tua convinzione",
       "desc": "Quanto credi con forza al pensiero originale ora?",
-      "labels": [
-        "Per niente",
-        "Completamente"
-      ]
+      "labels": {
+        "0": "Per niente",
+        "1": "Completamente"
+      }
     },
     "step7": {
       "title": "Una visione più equilibrata",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "La prossima volta",
       "desc": "Cosa potresti fare invece di presumere?",
-      "examples": [
-        "Chiedi chiarimenti",
-        "Dagli un po' di tempo",
-        "Avvisa senza reagire"
-      ],
+      "examples": {
+        "0": "Chiedi chiarimenti",
+        "1": "Dagli un po' di tempo",
+        "2": "Avvisa senza reagire"
+      },
       "placeholder": "La prossima volta, potrei..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

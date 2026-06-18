@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "intro_benefit_1": "Szerezz teljes tisztánlátást az alapvető hiedelmeiddel kapcsolatban",
+  "intro_benefit_2": "Tűzz ki világos célokat a személyes átalakulásra",
+  "reflection_subtitle": "Írd ki az ambícióidat. Töltsd ki a célod alapvető elemeit.",
+  "mission_your_statement": "A nyilatkozatod",
+  "saving": "Megmentem...",
+  "mission_save_finish": "Mentés és befejezés",
+  "mission_share": "Megosztás",
+  "mission_start_over": "Kezdj újrakezdeni",
+  "loading": "Nyilatkozatok betöltése...",
+  "app": {
+    "startActivity": "Küldetés létrehozása"
+  }
 }

@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "พิมพ์ความคิดอื่น...",
+  "resume": "ประวัติย่อ",
+  "pause": "หยุดชั่วคราว",
+  "growth_reminder": "แม้แต่ก้าวเล็กๆ ก็ช่วยลดน้ําหนักจิตใจได้ คุณไม่",
+  "lang": "ยาว",
+  "complete_message": "คุณ",
+  "welcome_sub": "ยินดีต้อนรับ",
+  "clearing_sub": "การเคลียร์จิตใจ",
+  "sorting_sub": "การเรียงลําดับ",
+  "action_sub": "ขั้นตอนการดําเนินการ",
+  "reflect_sub": "การสะท้อน",
+  "intro": {
+    "viewHistory": "ดูประวัติ"
+  }
 }

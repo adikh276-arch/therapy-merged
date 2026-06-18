@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "لمبا",
+  "intro_benefit_1": "اپنے بنیادی عقائد کے بارے میں مکمل وضاحت حاصل کریں",
+  "intro_benefit_2": "ذاتی تبدیلی کے لیے واضح اہداف مقرر کریں",
+  "reflection_subtitle": "اپنی خواہشات تیار کریں۔ اپنے مقصد کے بنیادی اجزاء مکمل کریں۔",
+  "mission_your_statement": "آپ کا بیان",
+  "saving": "بچت کر رہا ہوں...",
+  "mission_save_finish": "سیو اینڈ فنش",
+  "mission_share": "شیئر کریں",
+  "mission_start_over": "دوبارہ شروع کریں",
+  "loading": "لوڈنگ کے اعلانات...",
+  "app": {
+    "startActivity": "کریئیٹ مشن"
+  }
 }

@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Facciamo un passo alla volta. 💛",
-    "description": [
-      "Non devi raccontare tutta la tua storia oggi. Basta, anche solo una piccola parte.",
-      "Sei al sicuro adesso. Hai il controllo su ciò che scrivi—e su ciò che non scrivi."
-    ],
+    "description": {
+      "0": "Non devi raccontare tutta la tua storia oggi. Basta, anche solo una piccola parte.",
+      "1": "Sei al sicuro adesso. Hai il controllo su ciò che scrivi—e su ciò che non scrivi."
+    },
     "breath": "Fai un respiro lento prima di cominciare.",
     "button_ready": "Sono pronto",
     "button_history": "Narrazioni passate",
@@ -21,20 +21,20 @@
     "title": "Scrivi ciò che ti sembra a posto ✨",
     "subtitle": "Le tue parole, il tuo passo",
     "prompt_label": "Hai bisogno di un punto di partenza?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Quello che ricordo di più è...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "In quel momento, mi sono sentito...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Da allora, ho notato...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Inizia a scrivere qui...",
     "notice": "Non c'è un modo giusto per farlo. Anche poche battute bastano.",
     "button": "Termina la scrittura"
@@ -43,10 +43,10 @@
     "title": "Hai fatto qualcosa di importante.",
     "subtitle": "Grazie per esserti presentata per te stessa.",
     "settle_title": "Facciamo un momento per sistemarci",
-    "steps": [
-      "Guarda intorno e nomina 3 cose che riesci a vedere.",
-      "Fai un respiro lento... e fuori."
-    ],
+    "steps": {
+      "0": "Guarda intorno e nomina 3 cose che riesci a vedere.",
+      "1": "Fai un respiro lento... e fuori."
+    },
     "feeling_label": "In questo momento, mi sento:",
     "feeling_placeholder": "Una parola o due...",
     "quote": "\"Non devi portare tutto insieme. Puoi tornare quando ti sentirai pronto.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

@@ -23,38 +23,38 @@
   "try_again": "Inténtalo de nuevo",
   "complete_title": "Conocimiento dominado",
   "complete_message": "¡Has conseguido {{score}}/{{total}}! Has obtenido una valiosa comprensión de las verdades y mitos de la ira.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "La ira es mala. Si te sientes enfadado, algo te pasa.",
       "answer": "myth",
       "realFact": "La ira es una emoción normal y saludable. Todo el mundo lo siente. No es una señal de que algo esté 'mal' en ti, es una señal de que algo te importa. Lo que importa es cómo respondes a ello, no si lo sientes.",
       "example": "Un veterano se enfada cuando se cruza sus límites. Esa ira es válida — les está diciendo algo importante."
     },
-    {
+    "1": {
       "statement": "La ira puede ser una señal de que se han cruzado tus límites.",
       "answer": "fact",
       "realFact": "La ira es información. Cuando lo sientes, merece la pena preguntarte: ¿qué límite se cruzó? ¿Qué necesidad no se está cubriendo? Escuchar tu enfado — sin actuar por impulso — te ayuda a entenderte mejor y a tomar acciones significativas.",
       "example": "Te enfadas cuando un compañero se atribuye el mérito de tu trabajo. Esa ira apunta a la necesidad de reconocimiento y justicia."
     },
-    {
+    "2": {
       "statement": "Si estás enfadado, tienes que desahogarte gritando o golpeando cosas.",
       "answer": "myth",
       "realFact": "Una expresión sana de ira no significa supresión Ni explosión. Significa reconocer tus sentimientos y expresarlos de forma constructiva — a través de palabras, escribiendo en un diario, actividad física o vías creativas. Puedes honrar tu ira sin destruirla.",
       "example": "En vez de golpear una pared, sales a correr o escribes exactamente qué te molesta. La rabia se mueve por ti sin causar daño."
     },
-    {
+    "3": {
       "statement": "Aprender a gestionar la ira es un signo de fortaleza emocional.",
       "answer": "fact",
       "realFact": "Las personas que trabajan en el control de su ira no son débiles — están haciendo uno de los trabajos emocionales más valientes que existen. Elegir pausar, reflexionar y responder de forma reflexiva requiere mucha más fuerza que reaccionar por impulso.",
       "example": "Respirar hondo y decir 'necesito un minuto antes de responder' en un momento de acaloración es un acto poderoso de autocontrol."
     },
-    {
+    "4": {
       "statement": "Si alguien te enfada, es culpa suya. No tienes ninguna responsabilidad.",
       "answer": "myth",
       "realFact": "Otras personas pueden desencadenar tu ira, pero cómo respondas es tu responsabilidad — y tu poder. Hacerse responsable de tus reacciones no significa que la otra persona tuviera razón. Significa que tú eliges cómo presentarte. Eso es empoderamiento, no culpa.",
       "example": "Alguien te corta el paso en el tráfico. Te sientes enfadada — eso es normal. Pero tú eliges si enfurecerte o respirar. La elección es tuya."
     }
-  ],
+  },
   "common": {
     "get_started": "Comenzar",
     "start_over": "Volver a empezar",
@@ -106,5 +106,7 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo",
+  "results_message": "Tú"
 }

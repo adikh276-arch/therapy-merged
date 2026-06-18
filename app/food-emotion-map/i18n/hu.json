@@ -1,15 +1,15 @@
 {
   "app_title": "Étel és érzelmi térkép",
-  "screen_titles": [
-    "Üdvözlöm",
-    "Táplálkozási minták",
-    "Belső párbeszéd",
-    "Fizikai érzékelés",
-    "A térkép",
-    "Gyengéd támogatás",
-    "Végső nézet",
-    "Reflektálás"
-  ],
+  "screen_titles": {
+    "0": "Üdvözlöm",
+    "1": "Táplálkozási minták",
+    "2": "Belső párbeszéd",
+    "3": "Fizikai érzékelés",
+    "4": "A térkép",
+    "5": "Gyengéd támogatás",
+    "6": "Végső nézet",
+    "7": "Reflektálás"
+  },
   "welcome_text": "Hé... Nagyon örülök, hogy itt 💛 vagy. Készítsük fel finoman a térképet, mi történt.",
   "coming_up_label": "Mi történik mostanában?",
   "begin_mapping": "Kezdje meg a térképezést",
@@ -32,36 +32,36 @@
   "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
   "save_success": "Megőrzött minta",
   "save_error": "Nem sikerült megőrizni a mintát",
-  "emotions_list": [
-    "😰 Stressz",
-    "😢 Szomorúság",
-    "😶 Unalom",
-    "😟 Szorongás",
-    "🥺 Magány",
-    "💭 Valami más..."
-  ],
-  "food_responses": [
-    "🍽️ Többet eszem",
-    "🚫 Kevesebbet eszem",
-    "🍫 Bizonyos ételekre vágyom",
-    "😣 Kerülöm az ételt",
-    "😐 Nincs igazi változás"
-  ],
-  "body_sensations": [
-    "💔 Szorító mellkas",
-    "🪨 Nehéz érzés",
-    "🦵 Nyugtalan / nyugtalan",
-    "🔋 Alacsony energia",
-    "🌀 Comor csomók",
-    "❓ Valami más..."
-  ],
-  "support_options": [
-    "🗣️ Beszélj valakivel",
-    "☕ Tarts egy szünetet",
-    "📝 Folyóirat",
-    "🌬️ Lélegezz",
-    "🎧 Elterelni magam"
-  ],
+  "emotions_list": {
+    "0": "😰 Stressz",
+    "1": "😢 Szomorúság",
+    "2": "😶 Unalom",
+    "3": "😟 Szorongás",
+    "4": "🥺 Magány",
+    "5": "💭 Valami más..."
+  },
+  "food_responses": {
+    "0": "🍽️ Többet eszem",
+    "1": "🚫 Kevesebbet eszem",
+    "2": "🍫 Bizonyos ételekre vágyom",
+    "3": "😣 Kerülöm az ételt",
+    "4": "😐 Nincs igazi változás"
+  },
+  "body_sensations": {
+    "0": "💔 Szorító mellkas",
+    "1": "🪨 Nehéz érzés",
+    "2": "🦵 Nyugtalan / nyugtalan",
+    "3": "🔋 Alacsony energia",
+    "4": "🌀 Comor csomók",
+    "5": "❓ Valami más..."
+  },
+  "support_options": {
+    "0": "🗣️ Beszélj valakivel",
+    "1": "☕ Tarts egy szünetet",
+    "2": "📝 Folyóirat",
+    "3": "🌬️ Lélegezz",
+    "4": "🎧 Elterelni magam"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Keresd 💛 meg a kapcsolatot",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Biztos vagy benne, hogy törölni akarod ezt a leképezést?"
   },
   "app_description": "Étel- és érzelemtérkép",
   "more": "Több",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "view_weekly": "Térképtörténet megtekintése",
+  " ": " "
 }

@@ -11,6 +11,9 @@ async function ensureTableExists() {
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
   `;
+
+    // Auto-backfill any missing columns for legacy migrations
+    await db`ALTER TABLE food_emotion_map_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255`.catch(() => {});
 }
 
 export async function GET() {

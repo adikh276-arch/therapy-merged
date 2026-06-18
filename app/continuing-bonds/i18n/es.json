@@ -31,37 +31,37 @@
   "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
   "save_success": "Reflexión de enlace preservada",
   "save_error": "No se preservó la reflexión",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "A través de los recuerdos",
       "prompt": "¿Puedes compartir algún recuerdo en el que sientas su presencia?",
       "deeper": "¿Qué es una cosa que se queda contigo en ellos?"
     },
-    {
+    "1": {
       "label": "En las cosas que digo o hago",
       "prompt": "¿Qué parte de ellos llevas en tu vida diaria?",
       "deeper": "¿Cómo se refleja esto en tu vida hoy en día?"
     },
-    {
+    "2": {
       "label": "En momentos de mi vida diaria",
       "prompt": "¿Cuándo notas que se cierran durante el día?",
       "deeper": "¿Qué es una cosa que se queda contigo en ellos?"
     },
-    {
+    "3": {
       "label": "En lo que todavía quiero contarles",
       "prompt": "¿Hay algo que aún quieras decirles?",
       "deeper": "¿Qué es lo que más te gustaría que supieran ahora mismo?"
     },
-    {
+    "4": {
       "label": "En una sensación o presencia",
       "prompt": "¿Cómo es que su presencia sigue reflejándose para ti?",
       "deeper": "¿Cómo se refleja esto en tu vida hoy en día?"
     }
-  ],
-  "bond_prompts": [
-    "¿Cuál es una pequeña forma en la que te sientes conectado con ellos hoy en día?",
-    "¿Qué es algo que haces que tenga una parte de ellos?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "¿Cuál es una pequeña forma en la que te sientes conectado con ellos hoy en día?",
+    "1": "¿Qué es algo que haces que tenga una parte de ellos?"
+  },
   "common": {
     "get_started": "Comenzar",
     "start_over": "Volver a empezar",
@@ -89,7 +89,8 @@
     "phase_label": "Fase",
     "rounds_selector": "{{count}} Rondas",
     "instruction_ready": "Configura tus rondas y toca play para comenzar",
-    "instruction_running": "Sigue el círculo para regular tu respiración"
+    "instruction_running": "Sigue el círculo para regular tu respiración",
+    "confirm_delete": "¿Estás seguro de que quieres borrar este reflejo?"
   },
   "app_description": "Bonos continuos",
   "past_reflections": "Reflexiones del pasado",
@@ -119,5 +120,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

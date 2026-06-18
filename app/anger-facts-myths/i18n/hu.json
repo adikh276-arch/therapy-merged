@@ -23,38 +23,38 @@
   "try_again": "Próbáld újra",
   "complete_title": "Tudás elsajátítása",
   "complete_message": "Pontot szereztél {{score}}/{{total}}! Értékes betekintést nyertél a harag igazságaiba és mítoszaiba.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "A harag rossz. Ha dühös vagy, valami nincs rendben veled.",
       "answer": "myth",
       "realFact": "A harag egy normális, egészséges érzelem. Mindenki érzi. Ez nem annak a jele, hogy valami 'baj' van veled — ez annak a jele, hogy valami fontos neked. A lényeg, hogy hogyan reagálsz rá, nem az, hogy érzed-e.",
       "example": "Egy veterán dühös lesz, amikor átlépik a határait. Ez a harag jogos — valami fontosat mond nekik."
     },
-    {
+    "1": {
       "statement": "A düh lehet annak a jele, hogy átlépted a határaidat.",
       "answer": "fact",
       "realFact": "A harag információ. Amikor érzed, érdemes feltenni a kérdést: milyen határt léptek át? Milyen szükségletet nem elégítenek ki? Ha meghallgatod a haragodat — anélkül, hogy impulzus módon cselekednél — segít jobban megérteni magad, és értelmes lépéseket tenni.",
       "example": "Dühös vagy, amikor egy kolléga a munkáját vállalja. Ez a harag arra utal, hogy szükség van az elismerésre és igazságosságra."
     },
-    {
+    "2": {
       "statement": "Ha dühös vagy, kiabálással vagy ütögéssel kell kiengedned.",
       "answer": "myth",
       "realFact": "Az egészséges harag kifejezése nem jelenti az elnyomást vagy robbanást. Ez azt jelenti, hogy elismered az érzéseidet és kifejezed őket konstruktívan — szavakkal, naplóírással, fizikai aktivitással vagy kreatív kikapcsolódással. Tiszteletet tudsz megtartani pusztítás nélkül.",
       "example": "Ahelyett, hogy falat ütöl, futni mész, vagy pontosan leírod, mi zavar. A harag átáramlik rajtad anélkül, hogy ártani volna."
     },
-    {
+    "3": {
       "statement": "A harag kezelésének megtanulása az érzelmi erő jele.",
       "answer": "fact",
       "realFact": "Azok, akik a dühkezelésen dolgoznak, nem gyengék — ők végzik a legbátrabb érzelmi munkát, ami csak lehet. A megállás, a reflekálás és a megfontolt válasz választása sokkal több erőt igényel, mint az impulzus reagálás.",
       "example": "Mély levegőt venni, és azt mondani, hogy \"kell egy perc, mielőtt válaszolok\", egy erős önuralom aktusa."
     },
-    {
+    "4": {
       "statement": "Ha valaki feldühít, az az ő hibája. Nincs felelősséged.",
       "answer": "myth",
       "realFact": "Mások is kiválthatják a haragodat, de az, hogy hogyan reagálsz, az a te felelősséged — és a hatalmad. Az, hogy vállalod a reakcióidat, nem jelenti azt, hogy a másik embernek igaza volt. Ez azt jelenti, hogy te választod el, hogyan jelenj meg. Ez felhatalmazás, nem hibáztatás.",
       "example": "Valaki elvág a forgalomban. Dühös vagy — ez normális. De te döntesz el, hogy dühös vagy lélegzetet veszek. A választás a tiéd."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Újrakezdés",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "results_message": "Te"
 }

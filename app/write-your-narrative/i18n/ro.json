@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Să luăm lucrurile pas cu pas. 💛",
-    "description": [
-      "Nu trebuie să-ți spui toată povestea azi. Doar o mică parte este suficientă.",
-      "Ești în siguranță acum. Tu controlezi ce scrii — și ce nu."
-    ],
+    "description": {
+      "0": "Nu trebuie să-ți spui toată povestea azi. Doar o mică parte este suficientă.",
+      "1": "Ești în siguranță acum. Tu controlezi ce scrii — și ce nu."
+    },
     "breath": "Respiră adânc înainte să începem.",
     "button_ready": "Sunt gata",
     "button_history": "Narațiuni anterioare",
@@ -21,20 +21,20 @@
     "title": "Scrie ce ți se pare bine ✨",
     "subtitle": "Cuvintele tale, ritmul tău",
     "prompt_label": "Ai nevoie de un punct de plecare?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Ce îmi amintesc cel mai mult este...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Atunci, m-am simțit...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "De atunci, am observat...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Începe să scrii aici...",
     "notice": "Nu există o metodă corectă de a face asta. Chiar și câteva replici sunt suficiente.",
     "button": "Finalizarea scrisului"
@@ -43,10 +43,10 @@
     "title": "Ai făcut ceva important.",
     "subtitle": "Mulțumesc că ai fost prezent pentru tine.",
     "settle_title": "Să luăm un moment să ne așezăm",
-    "steps": [
-      "Uită-te în jur și numește 3 lucruri pe care le poți vedea.",
-      "Inspiră încet... și expiră."
-    ],
+    "steps": {
+      "0": "Uită-te în jur și numește 3 lucruri pe care le poți vedea.",
+      "1": "Inspiră încet... și expiră."
+    },
     "feeling_label": "Acum, simt:",
     "feeling_placeholder": "Un cuvânt sau două...",
     "quote": "\"Nu trebuie să cari totul deodată. Poți să revii oricând te simți pregătit.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

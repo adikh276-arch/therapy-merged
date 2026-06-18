@@ -3,11 +3,11 @@
   "intro": {
     "title": "Spotkaj swój umysł",
     "description": "Naucz się dystansować od przytłaczających myśli, nadając swojemu wewnętrznemu głosowi imię.",
-    "benefits": [
-      "Stwórz dystans mentalny",
-      "Ogranicz moc ostrych myśli",
-      "Zauważaj myśli, nie będąc nimi"
-    ],
+    "benefits": {
+      "0": "Stwórz dystans mentalny",
+      "1": "Ogranicz moc ostrych myśli",
+      "2": "Zauważaj myśli, nie będąc nimi"
+    },
     "duration": "2-3 minuty",
     "view_past": "Zobacz wcześniejsze wpisy"
   },
@@ -45,15 +45,15 @@
       "title": "Zrób pewien dystans",
       "desc": "Nadaj swojemu umysłowi nazwę, by pomóc ci oddzielić się od tych myśli.",
       "placeholder": "Albo napisz własne...",
-      "examples": [
-        "Krytyk",
-        "Nadmiernie analizujący",
-        "Worry FM",
-        "Maszyna nadmiernego myślenia",
-        "Wewnętrzny krytyk",
-        "Generator \"Co by było, gdyby\"",
-        "Reżyser dramatu"
-      ]
+      "examples": {
+        "0": "Krytyk",
+        "1": "Nadmiernie analizujący",
+        "2": "Worry FM",
+        "3": "Maszyna nadmiernego myślenia",
+        "4": "Wewnętrzny krytyk",
+        "5": "Generator \"Co by było, gdyby\"",
+        "6": "Reżyser dramatu"
+      }
     },
     "practice": {
       "title": "Spróbuj tej zmiany",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Co zauważyłeś?",
       "desc": "Jak się czuła ta myśl po nadaniu jej imienia?",
-      "options": [
-        "Ta myśl wydawała się trochę mniej intensywna niż wcześniej",
-        "Czułem, że mam pewien dystans od tej myśli",
-        "Wciąż czuł się tak samo silny jak wcześniej",
-        "Nie jestem pewien, co się zmieniło, jeśli w ogóle coś"
-      ],
+      "options": {
+        "0": "Ta myśl wydawała się trochę mniej intensywna niż wcześniej",
+        "1": "Czułem, że mam pewien dystans od tej myśli",
+        "2": "Wciąż czuł się tak samo silny jak wcześniej",
+        "3": "Nie jestem pewien, co się zmieniło, jeśli w ogóle coś"
+      },
       "button": "Pełna refleksja"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

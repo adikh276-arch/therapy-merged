@@ -1,12 +1,12 @@
 {
   "app_title": "Κουτί μνήμης",
-  "screen_titles": [
-    "Το κουτί σας",
-    "Τιμώντας",
-    "Έκφραση",
-    "Διατηρημένο",
-    "Απαλή Φροντίδα"
-  ],
+  "screen_titles": {
+    "0": "Το κουτί σας",
+    "1": "Τιμώντας",
+    "2": "Έκφραση",
+    "3": "Διατηρημένο",
+    "4": "Απαλή Φροντίδα"
+  },
   "complete_title": "Η μνήμη διατηρείται",
   "complete_message": "Έχετε τοποθετήσει με ασφάλεια μια ανάμνηση {{name}} στο κουτί σας. Αυτές οι στιγμές σύνδεσης είναι δικές σας για να τις κρατάτε, πάντα.",
   "auth_error": "Λείπει η περίοδος λειτουργίας ελέγχου ταυτότητας ή δεν έχει ρυθμιστεί η βάση δεδομένων",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Πληκτρολογήστε το όνομά τους...",
     "placeholder_relation": "Πώς τους γνωρίζετε; (προαιρετικός)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Μια ευτυχισμένη στιγμή",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Κάτι που έλεγαν",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Μια μικρή καθημερινή ανάμνηση",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Ένα μέρος που σου τα θυμίζει",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Κάτι που μακάρι να μπορούσα να πω",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Συνέχεια →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Κρυμμένο με ασφάλεια",
     "subtitle": "Αυτή η ανάμνηση του {{name}} είναι πλέον μέρος της συλλογής σας.",
     "add_another": "Προσθήκη άλλης ανάμνησης",
-    "finish": "Φινίρισμα αντανάκλασης"
+    "finish": "Φινίρισμα αντανάκλασης",
+    "saved_title": "Διατηρείται ασφαλής"
   },
   "closing": {
     "title": "Φροντίζοντας",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την ανάμνηση;"
   },
   "app_description": "Κουτί μνήμης",
   "before_you_go": "Πριν φύγεις",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "μακρύς"
 }

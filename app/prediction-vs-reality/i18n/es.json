@@ -4,11 +4,11 @@
   "intro": {
     "title": "Predicción vs Realidad",
     "description": "Compara tus predicciones ansiosas con lo que realmente ocurre para construir una perspectiva más equilibrada.",
-    "benefits": [
-      "Identificar patrones de ansiedad",
-      "Recoge pruebas contra los miedos",
-      "Reducir el sobreanálisis futuro"
-    ],
+    "benefits": {
+      "0": "Identificar patrones de ansiedad",
+      "1": "Recoge pruebas contra los miedos",
+      "2": "Reducir el sobreanálisis futuro"
+    },
     "duration": "4-5 minutos",
     "view_past": "Ver reflexiones pasadas"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Aún no se guardan reflejos.",
     "prediction_label": "Predicción",
     "reality_label": "Realidad",
-    "reflection_label": "Reflexión:"
+    "reflection_label": "Reflexión:",
+    "past_logs": "Reflexiones pasadas",
+    "reframe_label": "Nueva visión equilibrada:"
   },
   "complete": {
     "title": "Actividad completada",
     "saved_title": "Reflejo guardado",
     "message": "Al mirar los hechos, ayudas a tu mente a aprender que las cosas suelen ser más manejables de lo que parecen."
   },
-  "emotions": [
-    "Ansioso",
-    "Nervioso",
-    "Asustada",
-    "Abrumado",
-    "Inquieto"
-  ],
+  "emotions": {
+    "0": "Ansioso",
+    "1": "Nervioso",
+    "2": "Asustada",
+    "3": "Abrumado",
+    "4": "Inquieto"
+  },
   "intensity_labels": {
     "not_intense": "No intenso",
     "very_intense": "Muy intenso"
   },
-  "comparison_options": [
-    "Resultó casi exactamente como esperaba",
-    "Algunas partes eran correctas, pero no todas",
-    "Fue bastante diferente de lo que esperaba",
-    "Fue mucho más fácil y mejor de lo que imaginaba"
-  ],
+  "comparison_options": {
+    "0": "Resultó casi exactamente como esperaba",
+    "1": "Algunas partes eran correctas, pero no todas",
+    "2": "Fue bastante diferente de lo que esperaba",
+    "3": "Fue mucho más fácil y mejor de lo que imaginaba"
+  },
   "screens": {
     "s1": {
       "title": "Piensa en una situación reciente",
@@ -117,7 +119,8 @@
     "phase_label": "Fase",
     "rounds_selector": "{{count}} Rondas",
     "instruction_ready": "Configura tus rondas y toca play para comenzar",
-    "instruction_running": "Sigue el círculo para regular tu respiración"
+    "instruction_running": "Sigue el círculo para regular tu respiración",
+    "confirm_delete": "¿Estás seguro de que quieres borrar este registro de predicciones?"
   },
   "app_description": "Predicción vs. Realidad",
   "more": "Más",
@@ -141,5 +144,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

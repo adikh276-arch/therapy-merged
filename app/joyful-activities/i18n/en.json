@@ -14,7 +14,8 @@
     "input1_placeholder": "e.g. walking in the park",
     "input2_label": "When I do this, I usually feel...",
     "input2_placeholder": "e.g. calm and present",
-    "button": "Continue"
+    "button": "Continue",
+    "stage": "Stage 1: Recall"
   },
   "meaning": {
     "title": "What Makes It Meaningful?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "e.g. connected and grounded",
     "input3_label": "It reminds me of...",
     "input3_placeholder": "e.g. summers as a child",
-    "button": "Save My Reflection"
+    "button": "Save My Reflection",
+    "stage": "Stage 2: Meaning"
   },
   "smallStep": {
     "title": "A Small Step Forward",
@@ -34,7 +36,8 @@
     "input1_label": "One small step I could take this week is...",
     "input1_placeholder": "e.g. go for a 10-minute walk",
     "button_save": "Save",
-    "button_home": "Go to Home"
+    "button_home": "Go to Home",
+    "stage": "Stage 3: Action"
   },
   "affirmation": {
     "title": "You Took a Beautiful Step",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

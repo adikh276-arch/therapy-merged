@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Mi vált ki téged?",
     "desc": "Válassz egy helyzetet, amivel azonosulsz",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Valaki félbeszakít",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "A dolgok nem úgy alakulnak, ahogy terveztek",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Úgy érzem, figyelmen kívül hagynak",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Túlterheltnek érzem magam",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Gépelj meg saját...",
     "button": "Gyakorlás szünete →"
   },
   "hold": {
     "title": "Tartsd meg a szünetet ⏸️",
     "instructions": "Tartsd a kört 5 másodpercig",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Nyomd és tartsd..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Maradj vele..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Te csinálod..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Majdnem ott vagyunk..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Ez a szünet",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "Egyéb",
+  "lang": "hosszú"
 }

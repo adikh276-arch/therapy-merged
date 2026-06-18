@@ -31,37 +31,37 @@
   "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
   "save_success": "Refleksi ikatan dipertahankan",
   "save_error": "Gagal mempertahankan refleksi",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Melalui kenangan",
       "prompt": "Bisakah Anda berbagi kenangan di mana Anda merasakan kehadiran mereka?",
       "deeper": "Apa satu hal tentang mereka yang tetap bersama Anda?"
     },
-    {
+    "1": {
       "label": "Dalam hal-hal yang saya katakan atau lakukan",
       "prompt": "Bagian apa dari mereka yang Anda bawa dalam kehidupan sehari-hari Anda?",
       "deeper": "Bagaimana ini muncul dalam hidup Anda hari ini?"
     },
-    {
+    "2": {
       "label": "Di saat-saat kehidupan sehari-hari saya",
       "prompt": "Kapan Anda merasa mereka dekat di siang hari Anda?",
       "deeper": "Apa satu hal tentang mereka yang tetap bersama Anda?"
     },
-    {
+    "3": {
       "label": "Dalam apa yang masih ingin saya katakan kepada mereka",
       "prompt": "Apakah ada sesuatu yang masih ingin Anda katakan kepada mereka?",
       "deeper": "Apa yang paling Anda ingin mereka ketahui sekarang?"
     },
-    {
+    "4": {
       "label": "Dalam perasaan atau kehadiran",
       "prompt": "Bagaimana kehadiran mereka masih muncul untuk Anda?",
       "deeper": "Bagaimana ini muncul dalam hidup Anda hari ini?"
     }
-  ],
-  "bond_prompts": [
-    "Apa salah satu cara kecil Anda merasa terhubung dengan mereka hari ini?",
-    "Apa sesuatu yang Anda lakukan yang membawa bagian dari mereka?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Apa salah satu cara kecil Anda merasa terhubung dengan mereka hari ini?",
+    "1": "Apa sesuatu yang Anda lakukan yang membawa bagian dari mereka?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Mulai dari Awal",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Apakah Anda yakin ingin menghapus refleksi ini?"
   },
   "app_description": "Obligasi Berkelanjutan",
   "past_reflections": "Refleksi Masa Lalu",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

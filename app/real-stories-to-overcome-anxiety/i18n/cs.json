@@ -7,90 +7,90 @@
   "allStories": "Všechny příběhy",
   "backToStories": "Zpět na Příběhy",
   "nextStory": "Další příběh",
-  "stories": [
-    {
+  "stories": {
+    "0": {
       "name": "Aarav",
       "quote": "Myslel jsem, že strach znamená, že se se mnou něco děje.",
-      "body": [
-        "Když jsem byl mladší, neznal jsem slovo \"úzkost\" — znal jsem jen ten pocit. Cítil jsem sevření na hrudi, bolelo mě břicho a mysl mi říkala, že se něco zlého stane. I běžné dny byly nebezpečné. Nejtěžší byla školní rána. Držela jsem se rodičů, bála jsem se, že až odejdou, nebudu v pořádku.",
-        "Pamatuji si, jak jsem se díval na ostatní děti a přemýšlel, proč vypadají v pořádku. Proč jim srdce nebuší jako já? Proč nechtěli utéct domů? Cítil jsem se zmatený a trapně. Někdy jsem si myslel, že strach znamená, že jsem slabý nebo odlišný v tom špatném smyslu.",
-        "S pomocí jsem pomalu zjistil, že úzkost není chyba — je to můj mozek, který se mě příliš snaží chránit. Místo abych s tím bojoval nebo se před ním schovával, naučil jsem se malé způsoby, jak tomu čelit. Některé dny to znamenalo zůstat ve třídě o pět minut déle. Jindy to znamenalo jen dýchat skrz strach, aniž bych utíkal.",
-        "Teď chápu něco důležitého: odvaha neznamená necítit strach. Znamená to zůstat, i když jsi. A pokaždé, když zůstanu, trochu zesílím."
-      ],
+      "body": {
+        "0": "Když jsem byl mladší, neznal jsem slovo \"úzkost\" — znal jsem jen ten pocit. Cítil jsem sevření na hrudi, bolelo mě břicho a mysl mi říkala, že se něco zlého stane. I běžné dny byly nebezpečné. Nejtěžší byla školní rána. Držela jsem se rodičů, bála jsem se, že až odejdou, nebudu v pořádku.",
+        "1": "Pamatuji si, jak jsem se díval na ostatní děti a přemýšlel, proč vypadají v pořádku. Proč jim srdce nebuší jako já? Proč nechtěli utéct domů? Cítil jsem se zmatený a trapně. Někdy jsem si myslel, že strach znamená, že jsem slabý nebo odlišný v tom špatném smyslu.",
+        "2": "S pomocí jsem pomalu zjistil, že úzkost není chyba — je to můj mozek, který se mě příliš snaží chránit. Místo abych s tím bojoval nebo se před ním schovával, naučil jsem se malé způsoby, jak tomu čelit. Některé dny to znamenalo zůstat ve třídě o pět minut déle. Jindy to znamenalo jen dýchat skrz strach, aniž bych utíkal.",
+        "3": "Teď chápu něco důležitého: odvaha neznamená necítit strach. Znamená to zůstat, i když jsi. A pokaždé, když zůstanu, trochu zesílím."
+      },
       "reflection": "Kdy jsi zůstal, i když ses bál?"
     },
-    {
+    "1": {
       "name": "Daniel",
       "quote": "Věřil jsem, že když se obávám, jsem zodpovědný.",
-      "body": [
-        "Roky jsem věřil, že starosti jsou moje práce. Kdybych promyslel každý možný problém, byl připravený na každý výsledek a byl neustále mentálně bdělý, mohl jsem zabránit tomu, aby se něco pokazilo. Úzkost byla produktivní. Připadalo mi to zodpovědné.",
-        "Ale časem jsem si všimla, jak jsem vyčerpaná. Moje mysl nikdy nepřestala. Dokonce i během dovolených nebo rodinných večeří jsem v hlavě plánoval, předvídal nebo předcházel. Uvolnění bylo nebezpečné. Když jsem přestal mít starosti, měl jsem pocit, že jsem neopatrný.",
-        "Nakonec jsem si uvědomil, že mě úzkost nechrání — ovládá mě. Terapie mi pomohla pochopit, že nejistota je součástí života a žádné obavy ji neodstraní. Začal jsem cvičit všímat si svých myšlenek, aniž bych jim automaticky věřil.",
-        "Zpočátku bylo nepříjemné zbavit se neustálé kontroly. Ale pomalu se prostor otevíral. Začal jsem se rozhodovat podle toho, co mi bylo důležité — ne jen podle toho, co mi připadalo nejbezpečnější. Úzkost se stále objevuje, ale už neřídí celý svět."
-      ],
+      "body": {
+        "0": "Roky jsem věřil, že starosti jsou moje práce. Kdybych promyslel každý možný problém, byl připravený na každý výsledek a byl neustále mentálně bdělý, mohl jsem zabránit tomu, aby se něco pokazilo. Úzkost byla produktivní. Připadalo mi to zodpovědné.",
+        "1": "Ale časem jsem si všimla, jak jsem vyčerpaná. Moje mysl nikdy nepřestala. Dokonce i během dovolených nebo rodinných večeří jsem v hlavě plánoval, předvídal nebo předcházel. Uvolnění bylo nebezpečné. Když jsem přestal mít starosti, měl jsem pocit, že jsem neopatrný.",
+        "2": "Nakonec jsem si uvědomil, že mě úzkost nechrání — ovládá mě. Terapie mi pomohla pochopit, že nejistota je součástí života a žádné obavy ji neodstraní. Začal jsem cvičit všímat si svých myšlenek, aniž bych jim automaticky věřil.",
+        "3": "Zpočátku bylo nepříjemné zbavit se neustálé kontroly. Ale pomalu se prostor otevíral. Začal jsem se rozhodovat podle toho, co mi bylo důležité — ne jen podle toho, co mi připadalo nejbezpečnější. Úzkost se stále objevuje, ale už neřídí celý svět."
+      },
       "reflection": "Kde si pletete starosti se zodpovědností?"
     },
-    {
+    "2": {
       "name": "Rhea",
       "quote": "Stále jsem čekal, až se budu cítit sebejistě, než budu žít.",
-      "body": [
-        "Úzkost zněla jako hlas v mé hlavě, který mě nikdy nepřestal kritizovat. Říkalo mi, že se ztrapním, řeknu něco špatného nebo budu souzena. Po rozhovorech jsem si přehrával všechno, co jsem řekl. Před událostmi jsem si představoval nejhorší možné scénáře.",
-        "Zvenčí jsem vypadal sebevědomě. Uvnitř jsem se cítil neustále napjatý. Stále jsem čekala, až se budu cítit připravená — čekala jsem, až se zázračně objeví sebevědomí, abych mohla konečně svobodně mluvit, hlásit se o příležitosti nebo se ukázat.",
-        "Ale sebevědomí nikdy nebylo na prvním místě.",
-        "Co mi změnilo život, bylo uvědomění si, že nemusím odstranit úzkost, abych mohl jít dál. Mohl bych si ho vzít s sebou. Začal jsem riskovat drobná rizika — zvedat ruku, chodit na akce, ozvat se, i když se mi třásl hlas.",
-        "Pokaždé, když jsem jednal navzdory strachu, něco se změnilo. Přestal jsem se měřit podle toho, jak klidně se cítím, a začal jsem se měřit podle toho, jak jsem ochoten být odvážný."
-      ],
+      "body": {
+        "0": "Úzkost zněla jako hlas v mé hlavě, který mě nikdy nepřestal kritizovat. Říkalo mi, že se ztrapním, řeknu něco špatného nebo budu souzena. Po rozhovorech jsem si přehrával všechno, co jsem řekl. Před událostmi jsem si představoval nejhorší možné scénáře.",
+        "1": "Zvenčí jsem vypadal sebevědomě. Uvnitř jsem se cítil neustále napjatý. Stále jsem čekala, až se budu cítit připravená — čekala jsem, až se zázračně objeví sebevědomí, abych mohla konečně svobodně mluvit, hlásit se o příležitosti nebo se ukázat.",
+        "2": "Ale sebevědomí nikdy nebylo na prvním místě.",
+        "3": "Co mi změnilo život, bylo uvědomění si, že nemusím odstranit úzkost, abych mohl jít dál. Mohl bych si ho vzít s sebou. Začal jsem riskovat drobná rizika — zvedat ruku, chodit na akce, ozvat se, i když se mi třásl hlas.",
+        "4": "Pokaždé, když jsem jednal navzdory strachu, něco se změnilo. Přestal jsem se měřit podle toho, jak klidně se cítím, a začal jsem se měřit podle toho, jak jsem ochoten být odvážný."
+      },
       "reflection": "Co byste zkusili, kdybyste nečekali, až se budete cítit úplně připravení?"
     },
-    {
+    "3": {
       "name": "Margaret",
       "quote": "Nečekal jsem, že úzkost začne v této fázi života.",
-      "body": [
-        "Myslel jsem, že úzkost patří mladším lidem. Neočekával jsem, že se objeví až po odchodu do důchodu, kdy se život konečně zpomalil. Ale když rušné roky skončily, mé myšlenky zesílily. Každý fyzický pocit byl znepokojivý. Každá neznámá byla nebezpečná.",
-        "Cítil jsem se trapně, že jsem se trápil. V mém věku jsem věřil, že bych měl mít všechno vyřešené. Neustále jsem hledala ujištění — od lékařů, od rodiny, od online článků. Ujištění mi na chvíli pomohlo, ale strach se vždy vrátil.",
-        "Nakonec jsem pochopil, že ujištění živí ten cyklus. S vedením jsem začal cvičit sedět s nejistotou místo honby za jistotou. Znovu jsem si vybudoval rutiny. Znovu jsem se spojil s koníčky. Pomalu jsem si dovolil nepříjemnost, aniž bych se hned snažil to napravit.",
-        "Dnes mě občas stále přichází úzkost. Ale už mě to nedefinuje. Naučila jsem se, že růst nemá datum spotřeby — a odvaha se může objevit v jakémkoli věku."
-      ],
+      "body": {
+        "0": "Myslel jsem, že úzkost patří mladším lidem. Neočekával jsem, že se objeví až po odchodu do důchodu, kdy se život konečně zpomalil. Ale když rušné roky skončily, mé myšlenky zesílily. Každý fyzický pocit byl znepokojivý. Každá neznámá byla nebezpečná.",
+        "1": "Cítil jsem se trapně, že jsem se trápil. V mém věku jsem věřil, že bych měl mít všechno vyřešené. Neustále jsem hledala ujištění — od lékařů, od rodiny, od online článků. Ujištění mi na chvíli pomohlo, ale strach se vždy vrátil.",
+        "2": "Nakonec jsem pochopil, že ujištění živí ten cyklus. S vedením jsem začal cvičit sedět s nejistotou místo honby za jistotou. Znovu jsem si vybudoval rutiny. Znovu jsem se spojil s koníčky. Pomalu jsem si dovolil nepříjemnost, aniž bych se hned snažil to napravit.",
+        "3": "Dnes mě občas stále přichází úzkost. Ale už mě to nedefinuje. Naučila jsem se, že růst nemá datum spotřeby — a odvaha se může objevit v jakémkoli věku."
+      },
       "reflection": "Která část vás se ještě rozvíjí?"
     },
-    {
+    "4": {
       "name": "Kabir",
       "quote": "Moje úzkost nikdy nevypadala jako panika. Vypadalo to jako produktivita.",
-      "body": [
-        "Vstával jsem brzy, pracoval dlouhé hodiny a každou volnou chvíli jsem vyplňoval něčím — zprávami, e-maily, telefonáty, pozadím. Když bylo ticho, vyplnil jsem ho. Pokud bylo ticho, unikl jsem mu.",
-        "Protože když se ztišilo, mé myšlenky byly hlasité.",
-        "Co když se něco stane mé rodině? Co když přijdu o práci? Co když onemocním? Strachy nebyly neustálé, ale byly vytrvalé. Vznášely se v pozadí a čekali na místo.",
-        "Takže jsem jim nedal žádný prostor.",
-        "Myslel jsem, že jsem jen ambiciózní. Cílevědomý. Soustředěný. Ale pod tím shonem byla neklid. Podrážděnost. Pocit, že se nikdy nemohu úplně uvolnit.",
-        "Jednoho večera se mě dcera zeptala, proč jsem pořád \"někde jinde\", i když sedím hned vedle ní. Ta otázka mi zůstala v hlavě.",
-        "Začal jsem malými věcmi. Dvě minuty sezení bez telefonu. Žádné rozptýlení. Jen dýchám. Zpočátku to bylo nesnesitelné. Hlavou mi běžely hlavou. Mé tělo bylo neklidné.",
-        "Ale pokračoval jsem v tréninku.",
-        "Postupem času jsem zjistil, že myšlenky mohou být hlasité, aniž by byly nebezpečné. Nemusel jsem hned řešit všechny obavy. Nemusel jsem před nepohodlím utíkat dál.",
-        "Teď pořád tvrdě pracuji. Stále mi na tom opravdu záleží. Ale také dovoluji chvíle klidu. A místo toho, aby to působilo jako hrozba, tyto chvíle někdy působí jako klid."
-      ],
+      "body": {
+        "0": "Vstával jsem brzy, pracoval dlouhé hodiny a každou volnou chvíli jsem vyplňoval něčím — zprávami, e-maily, telefonáty, pozadím. Když bylo ticho, vyplnil jsem ho. Pokud bylo ticho, unikl jsem mu.",
+        "1": "Protože když se ztišilo, mé myšlenky byly hlasité.",
+        "2": "Co když se něco stane mé rodině? Co když přijdu o práci? Co když onemocním? Strachy nebyly neustálé, ale byly vytrvalé. Vznášely se v pozadí a čekali na místo.",
+        "3": "Takže jsem jim nedal žádný prostor.",
+        "4": "Myslel jsem, že jsem jen ambiciózní. Cílevědomý. Soustředěný. Ale pod tím shonem byla neklid. Podrážděnost. Pocit, že se nikdy nemohu úplně uvolnit.",
+        "5": "Jednoho večera se mě dcera zeptala, proč jsem pořád \"někde jinde\", i když sedím hned vedle ní. Ta otázka mi zůstala v hlavě.",
+        "6": "Začal jsem malými věcmi. Dvě minuty sezení bez telefonu. Žádné rozptýlení. Jen dýchám. Zpočátku to bylo nesnesitelné. Hlavou mi běžely hlavou. Mé tělo bylo neklidné.",
+        "7": "Ale pokračoval jsem v tréninku.",
+        "8": "Postupem času jsem zjistil, že myšlenky mohou být hlasité, aniž by byly nebezpečné. Nemusel jsem hned řešit všechny obavy. Nemusel jsem před nepohodlím utíkat dál.",
+        "9": "Teď pořád tvrdě pracuji. Stále mi na tom opravdu záleží. Ale také dovoluji chvíle klidu. A místo toho, aby to působilo jako hrozba, tyto chvíle někdy působí jako klid."
+      },
       "reflection": "Kde ve svém životě vyplňujete ticho, abyste se vyhnuli tomu, co by mohlo odhalit?"
     },
-    {
+    "5": {
       "name": "Nisha",
       "quote": "Dostal jsem povýšení — a pak jsem nemohl spát.",
-      "body": [
-        "Moje úzkost začala poté, co se stalo něco \"dobrého\".",
-        "Byl jsem povýšen. Více odpovědnosti. Větší viditelnost. Další očekávání. Všichni mi gratulovali. Usmál jsem se, poděkoval jim, oslavil — a pak jsem šel domů a nemohl usnout.",
-        "Co když na to vlastně nejsem schopný? Co když si uvědomí, že udělali chybu? Co když selžu veřejně?",
-        "Čím výš jsem stoupal, tím víc jsem se cítil odhalený. Každé setkání bylo jako zkouška. Každá malá chyba byla důkazem, že sem nepatřím. Začal jsem pracovat přehnaně, abych to vykompenzoval — zůstával jsem déle, dobrovolně se hlásil k dalším úkolům, odpovídal na e-maily okamžitě.",
-        "Zvenčí jsem vypadal úspěšně. Uvnitř jsem se cítil jako podvodník čekající, až mě někdo objeví.",
-        "Úzkost nekřičela. Zašeptalo. Říkalo mi to, že musím být lepší než ostatní, abych si tam zasloužila. Říkalo mi, že odpočinek je lenost. Říkal mi, že jeden špatný krok všechno zmaří.",
-        "Zlom nebyl dramatický. Bylo to náhodné úterý, kdy jsem zapomněl drobnou přílohu v e-mailu — a celý večer jsem si ji přehrával v hlavě. Tehdy mi došlo, že už to není ambice. Byl to strach.",
-        "Co pomalu změnilo situaci, bylo naučit se, že nepohodlí neznamená nebezpečí. Růst často působí jako vystavení se riziku. Nové role vás rozvíjejí — neznamenají, že jste podvodník.",
-        "Začal jsem si dovolovat být studentem místo toho, abych očekával dokonalost. Začal jsem přiznávat, když jsem něco nevěděl. Dovolil jsem si klást otázky.",
-        "A stalo se něco překvapivého.",
-        "Lidé mě respektovali víc, ne méně.",
-        "Když mi teď úzkost říká, že sem nepatřím, automaticky tomu nevěřím. Připomínám si: být v něčem nový neznamená, že nebýt schopný. Znamená to růst.",
-        "A růst mi vždycky připadal trochu nepříjemný."
-      ],
+      "body": {
+        "0": "Moje úzkost začala poté, co se stalo něco \"dobrého\".",
+        "1": "Byl jsem povýšen. Více odpovědnosti. Větší viditelnost. Další očekávání. Všichni mi gratulovali. Usmál jsem se, poděkoval jim, oslavil — a pak jsem šel domů a nemohl usnout.",
+        "2": "Co když na to vlastně nejsem schopný? Co když si uvědomí, že udělali chybu? Co když selžu veřejně?",
+        "3": "Čím výš jsem stoupal, tím víc jsem se cítil odhalený. Každé setkání bylo jako zkouška. Každá malá chyba byla důkazem, že sem nepatřím. Začal jsem pracovat přehnaně, abych to vykompenzoval — zůstával jsem déle, dobrovolně se hlásil k dalším úkolům, odpovídal na e-maily okamžitě.",
+        "4": "Zvenčí jsem vypadal úspěšně. Uvnitř jsem se cítil jako podvodník čekající, až mě někdo objeví.",
+        "5": "Úzkost nekřičela. Zašeptalo. Říkalo mi to, že musím být lepší než ostatní, abych si tam zasloužila. Říkalo mi, že odpočinek je lenost. Říkal mi, že jeden špatný krok všechno zmaří.",
+        "6": "Zlom nebyl dramatický. Bylo to náhodné úterý, kdy jsem zapomněl drobnou přílohu v e-mailu — a celý večer jsem si ji přehrával v hlavě. Tehdy mi došlo, že už to není ambice. Byl to strach.",
+        "7": "Co pomalu změnilo situaci, bylo naučit se, že nepohodlí neznamená nebezpečí. Růst často působí jako vystavení se riziku. Nové role vás rozvíjejí — neznamenají, že jste podvodník.",
+        "8": "Začal jsem si dovolovat být studentem místo toho, abych očekával dokonalost. Začal jsem přiznávat, když jsem něco nevěděl. Dovolil jsem si klást otázky.",
+        "9": "A stalo se něco překvapivého.",
+        "10": "Lidé mě respektovali víc, ne méně.",
+        "11": "Když mi teď úzkost říká, že sem nepatřím, automaticky tomu nevěřím. Připomínám si: být v něčem nový neznamená, že nebýt schopný. Znamená to růst.",
+        "12": "A růst mi vždycky připadal trochu nepříjemný."
+      },
       "reflection": "Kde si pletete nepohodlí s důkazem, že sem nepatříte?"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Začít znovu",
@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý",
+  "chooseStoryDesc": "Klepněte na profil a přečtěte si jejich osobní cestu k síle a uzdravení.",
+  "recovery_journey": "Inspirativní cesta",
+  "reflection_prompt": "Zamyslete se nad tím"
 }

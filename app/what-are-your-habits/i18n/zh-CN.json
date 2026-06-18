@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "很长",
+  "mind_subtitle": "你最常注意到哪些思维习惯会回归？选择所有适用的部分。",
+  "coping_subtitle": "当感到不堪重负时，你通常会如何反应？选择所有适用的部分。"
 }

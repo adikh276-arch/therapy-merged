@@ -173,5 +173,10 @@
   "yes": "Evet",
   "no": "Hayır",
   "date": "Tarih",
-  "continue": "Devam et"
+  "continue": "Devam et",
+  "lang": "uzun",
+  "how_long": "Ne kadar sürecek ",
+  "you_sleep": "Sen uyuyorsun.",
+  "where": "burada ",
+  "you_wake_up": "Uyku döngülerinizin içinde uyanıyorsunuz."
 }

@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Điều gì kích hoạt bạn?",
     "desc": "Chọn một tình huống bạn liên quan",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Ai đó ngắt lời tôi",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Mọi thứ không diễn ra như kế hoạch",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Tôi cảm thấy bị phớt lờ",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Tôi cảm thấy choáng ngợp",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Gõ của riêng bạn...",
     "button": "Thực hành tạm dừng →"
   },
   "hold": {
     "title": "Giữ để tạm ⏸️ dừng",
     "instructions": "Giữ vòng tròn trong 5 giây",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Nhấn và giữ..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Ở lại với nó..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Bạn đang làm điều đó..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Gần đến đó..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Đó là tạm dừng",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "Khác",
+  "lang": "dài"
 }

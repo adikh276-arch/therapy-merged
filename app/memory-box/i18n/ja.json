@@ -1,12 +1,12 @@
 {
   "app_title": "メモリーボックス",
-  "screen_titles": [
-    "あなたの箱",
-    "敬意",
-    "表現",
-    "保存",
-    "ジェントルケア"
-  ],
+  "screen_titles": {
+    "0": "あなたの箱",
+    "1": "敬意",
+    "2": "表現",
+    "3": "保存",
+    "4": "ジェントルケア"
+  },
   "complete_title": "メモリ保存",
   "complete_message": "あなたは{{name}}の記憶を安全に箱に入れました。このつながりの瞬間は、いつでもあなたのものだ。",
   "auth_error": "認証セッションが欠如しているか、データベースが設定されていない",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "名前を入力...",
     "placeholder_relation": "どうして知り合ったの?(任意)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "幸せな瞬間",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "昔はよく言ってたことだ",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "小さな日常の記憶",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "彼らを思い出させる場所",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "言いたいことがある",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "続けて→"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "安全に隠れて",
     "subtitle": "この{{name}}の記憶は今やあなたのコレクションの一部です。",
     "add_another": "もう一つの記憶を追加",
-    "finish": "フィニッシュリフレクション"
+    "finish": "フィニッシュリフレクション",
+    "saved_title": "安全に守られている"
   },
   "closing": {
     "title": "ケアをする",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "本当にこの記憶を消したいの?"
   },
   "app_description": "メモリーボックス",
   "before_you_go": "出発前に",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い"
 }

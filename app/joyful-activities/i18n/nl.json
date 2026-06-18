@@ -14,7 +14,8 @@
     "input1_placeholder": "bijvoorbeeld wandelen in het park",
     "input2_label": "Als ik dit doe, voel ik me meestal...",
     "input2_placeholder": "bijvoorbeeld kalm en aanwezig",
-    "button": "Ga verder"
+    "button": "Ga verder",
+    "stage": "Fase 1: Terugroeping"
   },
   "meaning": {
     "title": "Wat maakt het betekenisvol?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "bijvoorbeeld verbonden en geaard",
     "input3_label": "Het doet me denken aan...",
     "input3_placeholder": "bijvoorbeeld zomers als kind",
-    "button": "Red mijn reflectie"
+    "button": "Red mijn reflectie",
+    "stage": "Fase 2: Betekenis"
   },
   "smallStep": {
     "title": "Een kleine stap vooruit",
@@ -34,7 +36,8 @@
     "input1_label": "Een kleine stap die ik deze week zou kunnen zetten is...",
     "input1_placeholder": "bijvoorbeeld een wandeling van 10 minuten maken",
     "button_save": "Sla op",
-    "button_home": "Ga naar huis"
+    "button_home": "Ga naar huis",
+    "stage": "Fase 3: Actie"
   },
   "affirmation": {
     "title": "Je zette een prachtige stap",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

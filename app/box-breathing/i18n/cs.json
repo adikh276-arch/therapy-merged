@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "pomalu se nadechni...",
+  "instruction_out": "pomalu vydechnout...",
+  "instruction_hold": "jemně drž...",
+  "lang": "dlouhý"
 }

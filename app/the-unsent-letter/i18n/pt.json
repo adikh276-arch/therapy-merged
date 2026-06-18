@@ -3,39 +3,40 @@
   "app_subtitle": "Libere seus pensamentos de forma segura e privada",
   "intro": {
     "title": "A Carta Não Enviada",
-    "description": [
-      "Às vezes, há coisas que gostaríamos de poder dizer — mas nunca tivemos a chance.",
-      "Isso podia ser porque não parecia seguro, o momento não era o certo ou as palavras eram difíceis demais de dizer em voz alta.",
-      "Essa atividade oferece um espaço privado para colocar esses pensamentos em palavras.",
-      "Você não precisa enviar essa carta. Isso é só para você — para expressar, liberar e entender melhor seus sentimentos."
-    ],
+    "description": {
+      "0": "Às vezes, há coisas que gostaríamos de poder dizer — mas nunca tivemos a chance.",
+      "1": "Isso podia ser porque não parecia seguro, o momento não era o certo ou as palavras eram difíceis demais de dizer em voz alta.",
+      "2": "Essa atividade oferece um espaço privado para colocar esses pensamentos em palavras.",
+      "3": "Você não precisa enviar essa carta. Isso é só para você — para expressar, liberar e entender melhor seus sentimentos."
+    },
     "notice": "Escreva livremente. Ninguém mais vai ver isso.",
     "button": "Comece a escrever →"
   },
   "writing": {
     "title": "Escreva o que você tem guardado",
     "desc": "Você pode escrever para seu parceiro, ex-parceiro ou até mesmo para o próprio relacionamento. Não existe um jeito certo ou errado de fazer isso.",
-    "prompts": [
-      "Eu me sinto...",
-      "Queria...",
-      "Eu nunca disse...",
-      "O que me machucou...",
-      "O que eu precisava..."
-    ],
+    "prompts": {
+      "0": "Eu me sinto...",
+      "1": "Queria...",
+      "2": "Eu nunca disse...",
+      "3": "O que me machucou...",
+      "4": "O que eu precisava..."
+    },
     "placeholder": "Querido ____,\nEu queria dizer...",
     "notice": "Você pode pausar e voltar a qualquer momento.",
     "button": "Continue →"
   },
   "reflection": {
     "title": "Tire um momento com isso",
-    "description": [
-      "Você acabou de colocar seus pensamentos e sentimentos em palavras — isso exige coragem.",
-      "Você pode notar uma mistura de emoções agora, e isso está completamente bem.",
-      "Antes de seguir em frente, respire fundo e cheque você mesmo com delicadeza."
-    ],
+    "description": {
+      "0": "Você acabou de colocar seus pensamentos e sentimentos em palavras — isso exige coragem.",
+      "1": "Você pode notar uma mistura de emoções agora, e isso está completamente bem.",
+      "2": "Antes de seguir em frente, respire fundo e cheque você mesmo com delicadeza."
+    },
     "notice": "Isso era para sua cura, não para enviar.",
     "save_button": "Carta de Salvar",
-    "finish_button": "Fim"
+    "finish_button": "Fim",
+    "save_success": "Sua carta não enviada está consertada em segurança no seu jornal local particular. A expressão é uma libertação profunda."
   },
   "history": {
     "title": "Cartas Passadas",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Você tem certeza de que quer apagar essa carta não enviada?"
   },
   "app_description": "Liberte seus pensamentos de forma segura e privada.",
   "more": "Mais",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

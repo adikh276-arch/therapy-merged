@@ -16,23 +16,23 @@
   },
   "rule_label": "Đặt tên cho quy tắc",
   "rule_question": "Quy tắc là gì?",
-  "rule_options": [
-    "Tôi không nên ăn sau một thời gian nhất định",
-    "Một số loại thực phẩm bị cấm",
-    "Tôi cần kiểm soát chặt chẽ các phần ăn"
-  ],
+  "rule_options": {
+    "0": "Tôi không nên ăn sau một thời gian nhất định",
+    "1": "Một số loại thực phẩm bị cấm",
+    "2": "Tôi cần kiểm soát chặt chẽ các phần ăn"
+  },
   "rule_something_else": "Một cái gì đó khác...",
   "rule_placeholder": "Nhập quy tắc thực phẩm của bạn...",
   "feeling_label": "Tác động cảm xúc",
   "feeling_question": "Cảm giác này như thế nào?",
-  "feeling_options": [
-    "😟 Lo lắng",
-    "😌 Kiểm soát",
-    "😕 Có tội",
-    "😣 Hạn chế",
-    "😴 Mệt mỏi",
-    "😐 Hỗn hợp"
-  ],
+  "feeling_options": {
+    "0": "😟 Lo lắng",
+    "1": "😌 Kiểm soát",
+    "2": "😕 Có tội",
+    "3": "😣 Hạn chế",
+    "4": "😴 Mệt mỏi",
+    "5": "😐 Hỗn hợp"
+  },
   "challenge_label": "Thử thách mềm",
   "challenge_question": "Nhẹ nhàng đặt câu hỏi...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

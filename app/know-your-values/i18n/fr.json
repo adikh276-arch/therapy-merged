@@ -29,7 +29,8 @@
     "historyDesc": "Vos réflexions précédentes sont enregistrées ici afin que vous puissiez les relire à tout moment.",
     "noHistory": "Vous n’avez pas encore terminé de réflexion sur les valeurs.",
     "startActivity": "Début de l’activité",
-    "startNew": "Commencer une nouvelle réflexion"
+    "startNew": "Commencer une nouvelle réflexion",
+    "aligned": "Aligné"
   },
   "values": {
     "Family": "Famille",
@@ -103,5 +104,8 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long",
+  "app_duration": "5 minutes",
+  "loading": "Chargement des reflets..."
 }

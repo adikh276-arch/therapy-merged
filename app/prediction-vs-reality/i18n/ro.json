@@ -4,11 +4,11 @@
   "intro": {
     "title": "Predicție vs Realitate",
     "description": "Compară predicțiile tale anxioase cu ceea ce se întâmplă de fapt pentru a construi o perspectivă mai echilibrată.",
-    "benefits": [
-      "Identifică tiparele anxioase",
-      "Adună dovezi împotriva temerilor",
-      "Reduceți gândirea excesivă în viitor"
-    ],
+    "benefits": {
+      "0": "Identifică tiparele anxioase",
+      "1": "Adună dovezi împotriva temerilor",
+      "2": "Reduceți gândirea excesivă în viitor"
+    },
     "duration": "4-5 minute",
     "view_past": "Vezi reflecții anterioare"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Nicio reflecție salvată încă.",
     "prediction_label": "Predicție",
     "reality_label": "Realitate",
-    "reflection_label": "Reflecție:"
+    "reflection_label": "Reflecție:",
+    "past_logs": "Reflecții din trecut",
+    "reframe_label": "Noua perspectivă echilibrată:"
   },
   "complete": {
     "title": "Activitate completă",
     "saved_title": "Reflecție salvată",
     "message": "Privind faptele, îți ajuți mintea să înțeleagă că lucrurile sunt adesea mai ușor de gestionat decât par."
   },
-  "emotions": [
-    "Anxios",
-    "Nervos",
-    "Speriat",
-    "Copleșit",
-    "Neliniștit"
-  ],
+  "emotions": {
+    "0": "Anxios",
+    "1": "Nervos",
+    "2": "Speriat",
+    "3": "Copleșit",
+    "4": "Neliniștit"
+  },
   "intensity_labels": {
     "not_intense": "Nu intens",
     "very_intense": "Foarte intens"
   },
-  "comparison_options": [
-    "A ieșit aproape exact așa cum mă așteptam",
-    "Unele părți erau corecte, dar nu totul",
-    "A fost destul de diferit față de ce mă așteptam",
-    "A fost mult mai ușor/mai bun decât mi-am imaginat"
-  ],
+  "comparison_options": {
+    "0": "A ieșit aproape exact așa cum mă așteptam",
+    "1": "Unele părți erau corecte, dar nu totul",
+    "2": "A fost destul de diferit față de ce mă așteptam",
+    "3": "A fost mult mai ușor/mai bun decât mi-am imaginat"
+  },
   "screens": {
     "s1": {
       "title": "Gândește-te la o situație recentă",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ești sigur că vrei să ștergi acest jurnal de predicții?"
   },
   "app_description": "Predicție vs. Realitate",
   "more": "Mai mult",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

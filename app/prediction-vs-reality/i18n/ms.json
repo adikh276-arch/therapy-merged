@@ -4,11 +4,11 @@
   "intro": {
     "title": "Ramalan vs Realiti",
     "description": "Bandingkan ramalan cemas anda dengan apa yang sebenarnya berlaku untuk membina perspektif yang lebih seimbang.",
-    "benefits": [
-      "Kenal pasti corak cemas",
-      "Kumpulkan bukti terhadap ketakutan",
-      "Kurangkan pemikiran berlebihan masa depan"
-    ],
+    "benefits": {
+      "0": "Kenal pasti corak cemas",
+      "1": "Kumpulkan bukti terhadap ketakutan",
+      "2": "Kurangkan pemikiran berlebihan masa depan"
+    },
     "duration": "4-5 minit",
     "view_past": "Lihat Refleksi Masa Lalu"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Tiada refleksi disimpan lagi.",
     "prediction_label": "Ramalan",
     "reality_label": "Realiti",
-    "reflection_label": "Refleksi:"
+    "reflection_label": "Refleksi:",
+    "past_logs": "Refleksi Masa Lalu",
+    "reframe_label": "Pandangan Seimbang Baru:"
   },
   "complete": {
     "title": "Aktiviti Selesai",
     "saved_title": "Refleksi Disimpan",
     "message": "Dengan melihat fakta, anda membantu minda anda belajar bahawa perkara selalunya lebih terkawal daripada yang kelihatan."
   },
-  "emotions": [
-    "Cemas",
-    "Saraf",
-    "Takut",
-    "Terharu",
-    "Tidak selesa"
-  ],
+  "emotions": {
+    "0": "Cemas",
+    "1": "Saraf",
+    "2": "Takut",
+    "3": "Terharu",
+    "4": "Tidak selesa"
+  },
   "intensity_labels": {
     "not_intense": "Tidak sengit",
     "very_intense": "Sangat sengit"
   },
-  "comparison_options": [
-    "Ternyata hampir sama seperti yang saya jangkakan",
-    "Beberapa bahagian betul, tetapi tidak semuanya",
-    "Ia agak berbeza daripada apa yang saya jangkakan",
-    "Ia jauh lebih mudah/lebih baik daripada yang saya bayangkan"
-  ],
+  "comparison_options": {
+    "0": "Ternyata hampir sama seperti yang saya jangkakan",
+    "1": "Beberapa bahagian betul, tetapi tidak semuanya",
+    "2": "Ia agak berbeza daripada apa yang saya jangkakan",
+    "3": "Ia jauh lebih mudah/lebih baik daripada yang saya bayangkan"
+  },
   "screens": {
     "s1": {
       "title": "Fikirkan situasi baru-baru ini",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Adakah anda pasti mahu memadamkan log ramalan ini?"
   },
   "app_description": "Ramalan vs Realiti",
   "more": "Lebih lanjut",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

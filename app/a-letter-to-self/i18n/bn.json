@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "সংরক্ষণ করা হচ্ছে...",
+    "saved": "সংরক্ষণ করা হয়েছে"
   },
   "app_duration": "১০-১৫ মিনিট",
   "app_title": "নিজেকে লেখা চিঠি",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "প্রম্পট",
+  "need_inspiration": "অনুপ্রেরণা দরকার?",
+  "post_writing_reflection": "পোস্ট-রাইটিং রিফ্লিকশন",
+  "reflection_desc": "আপনার অনুভূতি স্বীকার করা আপনার যাত্রার একটি শক্তিশালী পদক্ষেপ।",
+  "finish_save_reflection": "ফিনিশ অ্যান্ড সেভ রিফ্লেকশন",
+  "lang": "দীর্ঘ",
+  "completion_message": "আপনার চিঠিটি নিরাপদে সংরক্ষণ করা হয়েছে। আপনার অগ্রগতির প্রশংসা করতে এক মুহুর্ত সময় নিন।"
 }

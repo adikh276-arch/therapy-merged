@@ -10,57 +10,57 @@
       "title": "Ngủ ngon",
       "description": "Đặt mục tiêu ngủ 7–9 giờ mỗi đêm. Cố gắng ngủ và thức dậy cùng một lúc hàng ngày.",
       "why": "Giấc ngủ giúp não và cơ thể bạn phục hồi và giảm hormone căng thẳng.",
-      "do": [
-        "Giữ lịch trình ngủ cố định",
-        "Tránh màn hình 1 giờ trước khi đi ngủ",
-        "Giữ cho căn phòng mát mẻ và tối",
-        "Tránh caffeine sau 4 giờ chiều"
-      ],
+      "do": {
+        "0": "Giữ lịch trình ngủ cố định",
+        "1": "Tránh màn hình 1 giờ trước khi đi ngủ",
+        "2": "Giữ cho căn phòng mát mẻ và tối",
+        "3": "Tránh caffeine sau 4 giờ chiều"
+      },
       "button": "Đặt lời nhắc ngủ"
     },
     "breathing": {
       "title": "Thực hành hít thở sâu",
       "description": "Dành vài phút tập trung vào hơi thở của bạn. Thở chậm làm giảm lo lắng.",
       "why": "Hít thở chậm kích hoạt phản ứng thư giãn của cơ thể bạn.",
-      "do": [
-        "Hít vào trong 4 giây",
-        "Giữ trong 4 giây",
-        "Thở ra trong 4 giây",
-        "Lặp lại trong 1 phút"
-      ]
+      "do": {
+        "0": "Hít vào trong 4 giây",
+        "1": "Giữ trong 4 giây",
+        "2": "Thở ra trong 4 giây",
+        "3": "Lặp lại trong 1 phút"
+      }
     },
     "exercise": {
       "title": "Di chuyển cơ thể của bạn",
       "description": "Đi bộ nhẹ nhàng hoặc kéo giãn cơ giúp giải tỏa căng thẳng và cải thiện tâm trạng.",
       "why": "Tập thể dục giải phóng endorphin và cải thiện tâm trạng.",
-      "do": [
-        "15 phút đi bộ",
-        "Kéo giãn nhẹ",
-        "Buổi tập yoga ngắn",
-        "Tập luyện nhanh tại nhà"
-      ]
+      "do": {
+        "0": "15 phút đi bộ",
+        "1": "Kéo giãn nhẹ",
+        "2": "Buổi tập yoga ngắn",
+        "3": "Tập luyện nhanh tại nhà"
+      }
     },
     "caffeine": {
       "title": "Hạn chế caffeine và đường",
       "description": "Quá nhiều caffeine và đường có thể làm tăng lo lắng và làm rối loạn giấc ngủ.",
       "why": "Quá nhiều caffeine và đường làm tăng lo lắng và các vấn đề về giấc ngủ.",
-      "do": [
-        "Thay thế một ly cà phê bằng trà thảo mộc",
-        "Uống nhiều nước hơn",
-        "Giảm đồ ăn nhẹ có đường",
-        "Tránh caffeine vào cuối ngày"
-      ]
+      "do": {
+        "0": "Thay thế một ly cà phê bằng trà thảo mộc",
+        "1": "Uống nhiều nước hơn",
+        "2": "Giảm đồ ăn nhẹ có đường",
+        "3": "Tránh caffeine vào cuối ngày"
+      }
     },
     "planning": {
       "title": "Lên kế hoạch cho ngày của bạn",
       "description": "Chia các nhiệm vụ lớn thành các bước nhỏ hơn để tránh cảm thấy quá tải.",
       "why": "Lập kế hoạch làm giảm sự lộn xộn và choáng ngợp về tinh thần.",
-      "do": [
-        "Viết 3 nhiệm vụ chính",
-        "Chia nhiệm vụ thành các bước nhỏ",
-        "Tập trung vào một nhiệm vụ tại một thời điểm",
-        "Nghỉ giải lao ngắn"
-      ]
+      "do": {
+        "0": "Viết 3 nhiệm vụ chính",
+        "1": "Chia nhiệm vụ thành các bước nhỏ",
+        "2": "Tập trung vào một nhiệm vụ tại một thời điểm",
+        "3": "Nghỉ giải lao ngắn"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Hít vào...",
+  "Hold…": "Giữ...",
+  "Exhale…": "Thở ra...",
+  "breathing_instruction": "Đi theo vòng tròn để điều chỉnh",
+  "Resume": "Sơ yếu lý lịch",
+  "Pause": "Tạm dừng",
+  "lang": "dài",
+  "Grounding": "Giảm căng thẳng tinh thần",
+  "stay_present": "Mẹo giảm căng thẳng",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Chọn bất kỳ chiến lược mục tiêu nào bên dưới để khám phá lý do nó hữu ích và cách bạn có thể áp dụng nó hàng ngày."
+  },
+  "wellness_tip": "CHIẾN LƯỢC CĂNG THẲNG HÀNG NGÀY"
 }

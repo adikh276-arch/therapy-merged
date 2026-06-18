@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "Холст",
+  "2d": "2D",
+  "a": "a",
+  "lang": "Долго",
+  "complete_and_save": "Завершить и сохранить"
 }

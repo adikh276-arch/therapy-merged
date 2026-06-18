@@ -1,12 +1,12 @@
 {
   "app_title": "กล่องหน่วยความจํา",
-  "screen_titles": [
-    "กล่องของคุณ",
-    "ให้เกียรติ",
-    "การแสดงออก",
-    "เก็บรักษาไว้",
-    "การดูแลอย่างอ่อนโยน"
-  ],
+  "screen_titles": {
+    "0": "กล่องของคุณ",
+    "1": "ให้เกียรติ",
+    "2": "การแสดงออก",
+    "3": "เก็บรักษาไว้",
+    "4": "การดูแลอย่างอ่อนโยน"
+  },
   "complete_title": "เก็บรักษาความทรงจําไว้",
   "complete_message": "คุณได้วางหน่วยความจําของ {{name}} ไว้ในกล่องของคุณอย่างปลอดภัย ช่วงเวลาแห่งการเชื่อมต่อเหล่านี้เป็นของคุณที่จะเก็บไว้เสมอ",
   "auth_error": "เซสชันการตรวจสอบสิทธิ์หายไปหรือไม่ได้กําหนดค่า DB",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "พิมพ์ชื่อของพวกเขา...",
     "placeholder_relation": "คุณรู้จักพวกเขาได้อย่างไร? (ไม่บังคับ)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "ช่วงเวลาแห่งความสุข",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "สิ่งที่พวกเขาเคยพูด",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "ความทรงจําเล็กๆ ในชีวิตประจําวัน",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "สถานที่ที่ทําให้คุณนึกถึงพวกเขา",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "สิ่งที่ฉันอยากจะพูด",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "ดําเนินการต่อ→"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "ซ่อนตัวไว้อย่างปลอดภัย",
     "subtitle": "ความทรงจําของ {{name}} นี้เป็นส่วนหนึ่งของคอลเลกชันของคุณแล้ว",
     "add_another": "เพิ่มความทรงจําอื่น",
-    "finish": "เสร็จสิ้นการสะท้อนแสง"
+    "finish": "เสร็จสิ้นการสะท้อนแสง",
+    "saved_title": "เก็บไว้อย่างปลอดภัย"
   },
   "closing": {
     "title": "การดูแล",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "คุณแน่ใจหรือไม่ว่าต้องการลบหน่วยความจํานี้?"
   },
   "app_description": "กล่องเก็บความทรงจำ",
   "before_you_go": "ก่อนที่คุณจะไป",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ยาว"
 }

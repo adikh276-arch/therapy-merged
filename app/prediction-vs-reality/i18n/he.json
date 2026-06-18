@@ -4,11 +4,11 @@
   "intro": {
     "title": "חיזוי מול מציאות",
     "description": "השווה את התחזיות החרדתיות שלך למה שקורה בפועל כדי לבנות פרספקטיבה מאוזנת יותר.",
-    "benefits": [
-      "זיהוי דפוסי חרדה",
-      "איסוף ראיות נגד פחדים",
-      "הפחתת מחשבות יתר על העתיד"
-    ],
+    "benefits": {
+      "0": "זיהוי דפוסי חרדה",
+      "1": "איסוף ראיות נגד פחדים",
+      "2": "הפחתת מחשבות יתר על העתיד"
+    },
     "duration": "4-5 דקות",
     "view_past": "צפו בהשתקפויות מהעבר"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "עדיין אין השתקפויות שמורות.",
     "prediction_label": "תחזית",
     "reality_label": "המציאות",
-    "reflection_label": "השתקפות:"
+    "reflection_label": "השתקפות:",
+    "past_logs": "הרהורים מהעבר",
+    "reframe_label": "תפיסה מאוזנת חדשה:"
   },
   "complete": {
     "title": "הפעילות הושלמה",
     "saved_title": "השתקפות נשמרה",
     "message": "כשאתה מסתכל על העובדות, אתה עוזר למוח שלך ללמוד שדברים לעיתים קרובות יותר ניתנים לניהול ממה שהם נראים."
   },
-  "emotions": [
-    "חרד",
-    "עצבני",
-    "מפוחדת",
-    "מוצף",
-    "לא נוח"
-  ],
+  "emotions": {
+    "0": "חרד",
+    "1": "עצבני",
+    "2": "מפוחדת",
+    "3": "מוצף",
+    "4": "לא נוח"
+  },
   "intensity_labels": {
     "not_intense": "לא אינטנסיבי",
     "very_intense": "מאוד אינטנסיבי"
   },
-  "comparison_options": [
-    "זה יצא כמעט בדיוק כפי שציפיתי",
-    "חלק מהחלקים היו נכונים, אבל לא הכל",
-    "זה היה שונה לגמרי ממה שציפיתי",
-    "זה היה הרבה יותר קל/טוב ממה שדמיינתי"
-  ],
+  "comparison_options": {
+    "0": "זה יצא כמעט בדיוק כפי שציפיתי",
+    "1": "חלק מהחלקים היו נכונים, אבל לא הכל",
+    "2": "זה היה שונה לגמרי ממה שציפיתי",
+    "3": "זה היה הרבה יותר קל/טוב ממה שדמיינתי"
+  },
   "screens": {
     "s1": {
       "title": "תחשבו על מצב עדכני",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "אתה בטוח שאתה רוצה למחוק את יומן התחזיות הזה?"
   },
   "app_description": "ניבוי לעומת מציאות",
   "more": "יוֹתֵר",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ארוך"
 }

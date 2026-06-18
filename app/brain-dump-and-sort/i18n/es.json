@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rondas",
   "yes": "Sí",
   "no": "No",
-  "date": "Fecha"
+  "date": "Fecha",
+  "type_another": "Escribe otro pensamiento...",
+  "resume": "Currículum",
+  "pause": "Pausa",
+  "growth_reminder": "Incluso los pasos más pequeños reducen el peso mental. Tú no",
+  "lang": "largo",
+  "complete_message": "Tú",
+  "welcome_sub": "Bienvenido",
+  "clearing_sub": "Limpieza mental",
+  "sorting_sub": "Clasificación",
+  "action_sub": "Pasos de acción",
+  "reflect_sub": "Reflexión",
+  "intro": {
+    "viewHistory": "Ver historia"
+  }
 }

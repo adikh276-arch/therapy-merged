@@ -31,37 +31,37 @@
   "auth_error": "Sessione di autenticazione mancante o DB non configurato",
   "save_success": "Riflessione del legame preservata",
   "save_error": "Non è riuscito a preservare la riflessione",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Attraverso i ricordi",
       "prompt": "Puoi condividere un ricordo in cui senti la loro presenza?",
       "deeper": "Qual è una cosa che ti rimane in mente?"
     },
-    {
+    "1": {
       "label": "Nelle cose che dico o faccio",
       "prompt": "Quale parte di loro porti con te nella vita quotidiana?",
       "deeper": "Come si manifesta questo nella tua vita oggi?"
     },
-    {
+    "2": {
       "label": "Nei momenti della mia vita quotidiana",
       "prompt": "Quando senti che si chiudono durante la giornata?",
       "deeper": "Qual è una cosa che ti rimane in mente?"
     },
-    {
+    "3": {
       "label": "In quello che voglio ancora raccontare loro",
       "prompt": "C'è ancora qualcosa che vuoi dirgli?",
       "deeper": "Cosa vorresti di più che sapessero adesso?"
     },
-    {
+    "4": {
       "label": "In una sensazione o in presenza",
       "prompt": "Come fa la loro presenza a farsi ancora sentire per te?",
       "deeper": "Come si manifesta questo nella tua vita oggi?"
     }
-  ],
-  "bond_prompts": [
-    "Qual è un piccolo modo in cui ti senti connesso a loro oggi?",
-    "Cosa fai che ne porta una parte?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Qual è un piccolo modo in cui ti senti connesso a loro oggi?",
+    "1": "Cosa fai che ne porta una parte?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Ricominciare",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Sei sicuro di voler cancellare questo riflesso?"
   },
   "app_description": "Obbligazioni continuative",
   "past_reflections": "Riflessioni sul passato",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

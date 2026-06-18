@@ -16,23 +16,23 @@
   "btn_one_more": "Nog één ding",
   "screen3_tag": "Zachte waarheden",
   "screen3_title": "Goed om te weten",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Geen deadline",
       "body": "Er is geen houdbaarheidsdatum voor verlies. Het voelen maanden of jaren later betekent niet dat je vastzit — het betekent dat je van je hebt gehouden."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Tegenstrijdige gevoelens",
       "body": "Je kunt iemand missen en opgelucht zijn. Je kunt lachen en rouwen. Rouw heeft tegenpolen."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "De transformatie van de liefde",
       "body": "De pijn staat niet los van de liefde. Het is hetzelfde, getransformeerd."
     }
-  ],
+  },
   "btn_finish": "Eindreflectie",
   "complete_title": "Reis Geëerd",
   "complete_message": "Je hoeft niet verder te gaan. Je leert het gewoon anders te dragen. Jouw reis is uniek, geldig en diep menselijk.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

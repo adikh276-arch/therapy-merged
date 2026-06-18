@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Rutina ta zilnică a corpului",
   "body_subtitle": "Care dintre acestea s-a simțit puțin ciudat în ultima vreme? (Selectează oricare care se aplică)",
   "continue": "Continuă",
-  "body_options": [
-    "Nu am dormit bine",
-    "Programul meu de somn este neregulat",
-    "Uneori sar peste mese",
-    "Mănânc mai mult decât de obicei când sunt stresat",
-    "Nu m-am mișcat sau făcut prea multă mișcare",
-    "Nu am ieșit prea mult afară",
-    "Rutina mea de îngrijire personală s-a schimbat",
-    "Rutina mea zilnică pare constantă"
-  ],
+  "body_options": {
+    "0": "Nu am dormit bine",
+    "1": "Programul meu de somn este neregulat",
+    "2": "Uneori sar peste mese",
+    "3": "Mănânc mai mult decât de obicei când sunt stresat",
+    "4": "Nu m-am mișcat sau făcut prea multă mișcare",
+    "5": "Nu am ieșit prea mult afară",
+    "6": "Rutina mea de îngrijire personală s-a schimbat",
+    "7": "Rutina mea zilnică pare constantă"
+  },
   "mind_title": "🧠 Tiparele tale de gândire",
-  "mind_options": [
-    "Tot gândesc prea mult",
-    "Îmi imaginez adesea cel mai rău scenariu",
-    "Sunt dur cu mine însumi",
-    "Mă simt vinovat pentru lucruri pe care le-am făcut sau nu le-am făcut",
-    "Sunt mereu îngrijorat",
-    "Îmi este greu să mă relaxez",
-    "Gândurile mele par gestionabile"
-  ],
+  "mind_options": {
+    "0": "Tot gândesc prea mult",
+    "1": "Îmi imaginez adesea cel mai rău scenariu",
+    "2": "Sunt dur cu mine însumi",
+    "3": "Mă simt vinovat pentru lucruri pe care le-am făcut sau nu le-am făcut",
+    "4": "Sunt mereu îngrijorat",
+    "5": "Îmi este greu să mă relaxez",
+    "6": "Gândurile mele par gestionabile"
+  },
   "coping_title": "🌊 Cum răspunzi la stres",
-  "coping_options": [
-    "Evit sarcinile când sunt stresat",
-    "Derulez mult pe telefon ca să mă distrag",
-    "Petrec timp singur ca să fac față",
-    "Mă arunc cu aruncarea în muncă când sunt stresat",
-    "Vorbesc cu cineva despre cum mă simt",
-    "Fac exerciții de respirație ca să mă calmez",
-    "Mă uit la televizor sau mă joc ca să mă distrag",
-    "Nu sunt sigur cum reacționez la stres"
-  ],
+  "coping_options": {
+    "0": "Evit sarcinile când sunt stresat",
+    "1": "Derulez mult pe telefon ca să mă distrag",
+    "2": "Petrec timp singur ca să fac față",
+    "3": "Mă arunc cu aruncarea în muncă când sunt stresat",
+    "4": "Vorbesc cu cineva despre cum mă simt",
+    "5": "Fac exerciții de respirație ca să mă calmez",
+    "6": "Mă uit la televizor sau mă joc ca să mă distrag",
+    "7": "Nu sunt sigur cum reacționez la stres"
+  },
   "reflection_title": "✍️ Reflecție",
   "question_stress": "Ce obicei îți crește stresul mai târziu?",
   "question_calm": "Care obicei te-ar putea ajuta să te simți mai calm?",
@@ -44,13 +44,13 @@
   "insight_description": "Apasă mai jos pentru a vedea obiceiuri simple care pot ajuta la reducerea stresului.",
   "show_suggestions": "Sugestii de emisiuni",
   "commit": "Angajează-te",
-  "suggestions": [
-    "Încearcă să te culci puțin mai devreme în seara asta",
-    "Ieși afară astăzi pentru aer curat",
-    "Ia o pauză de la derulat pentru o vreme",
-    "Vorbește cu blândețe cu tine însuți",
-    "Termină o sarcină pe care ai amânat-o"
-  ],
+  "suggestions": {
+    "0": "Încearcă să te culci puțin mai devreme în seara asta",
+    "1": "Ieși afară astăzi pentru aer curat",
+    "2": "Ia o pauză de la derulat pentru o vreme",
+    "3": "Vorbește cu blândețe cu tine însuți",
+    "4": "Termină o sarcină pe care ai amânat-o"
+  },
   "final_text": "Schimbările mici contează. Consecvența creează calm.",
   "finish": "Finish",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "lung",
+  "mind_subtitle": "Ce obiceiuri de gândire observi că revin cel mai des? Selectează toate cele care se aplică.",
+  "coping_subtitle": "Cum reacționați de obicei când apare copleșirea? Selectează toate cele care se aplică."
 }

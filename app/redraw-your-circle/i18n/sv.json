@@ -21,30 +21,31 @@
       "placeholder": "Skriv in ett namn...",
       "button": "Spara namn"
     },
-    "prompts": [
-      "En person som sprider glädje",
-      "En person som stöttar dig",
-      "En person du kan prata med",
-      "En person du litar på",
-      "En person som inspirerar dig"
-    ]
+    "prompts": {
+      "0": "En person som sprider glädje",
+      "1": "En person som stöttar dig",
+      "2": "En person du kan prata med",
+      "3": "En person du litar på",
+      "4": "En person som inspirerar dig"
+    }
   },
   "reflection": {
     "subtitle": "Slutliga reflektioner",
     "title": "Vad märker du?",
     "p_intro": "Ta en stund och titta på din cirkel. Du kanske märker:",
-    "list": [
-      "Vissa känner sig närmare än andra",
-      "Vissa kopplingar känns starka",
-      "Vissa känns avlägsna eller oklara",
-      "Det kan finnas luckor – eller bara några få meningsfulla personer"
-    ],
+    "list": {
+      "0": "Vissa känner sig närmare än andra",
+      "1": "Vissa kopplingar känns starka",
+      "2": "Vissa känns avlägsna eller oklara",
+      "3": "Det kan finnas luckor – eller bara några få meningsfulla personer"
+    },
     "italic": "Medvetenhet är det första steget mot att bygga de kontakter du värdesätter. 🧘",
     "label": "💭 Finns det någon du skulle vilja känna dig mer kopplad med?",
     "placeholder": "Skriv dina tankar här...",
     "save_button": "Spara reflektion",
     "saving_button": "Rädda...",
-    "skip_button": "Hoppa och avsluta"
+    "skip_button": "Hoppa och avsluta",
+    "saved_success": "Din interpersonella karta är säkert lagrad i din journal. Att odla dessa stödnoder hjälper oss att hålla oss motståndskraftiga."
   },
   "history": {
     "title": "Dina cirklars historia",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Är du säker på att du vill radera den här cirkelloggen?"
   },
   "intro_p1": "Vid olika tidpunkter i livet kan vårt stödsystem förändras. 🌱 Ibland känner vi oss sammankopplade och stöttade. Andra gånger kan saker kännas avlägsna eller oklara.",
   "intro_p2": "Den här aktiviteten är ett utrymme att pausa och titta på människorna runt omkring dig – och förstå vilka som just nu känner sig som en del av din krets. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång",
+  " ": " "
 }

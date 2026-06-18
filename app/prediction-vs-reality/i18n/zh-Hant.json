@@ -4,11 +4,11 @@
   "intro": {
     "title": "預測與現實",
     "description": "將你焦慮的預測與實際發生的事情進行比較，以建立更平衡的觀點。",
-    "benefits": [
-      "識別焦慮模式",
-      "收集證據來反駁恐懼。",
-      "減少未來過度思考"
-    ],
+    "benefits": {
+      "0": "識別焦慮模式",
+      "1": "收集證據來反駁恐懼。",
+      "2": "減少未來過度思考"
+    },
     "duration": "4-5分鐘",
     "view_past": "回顧過往的思考"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "尚未保存任何反射影像。",
     "prediction_label": "預言",
     "reality_label": "現實",
-    "reflection_label": "反射："
+    "reflection_label": "反射：",
+    "past_logs": "過去的回顧",
+    "reframe_label": "全新平衡觀點："
   },
   "complete": {
     "title": "活動完成",
     "saved_title": "反思已儲存",
     "message": "透過了解事實，你可以幫助你的大腦認識到，事情往往比看起來更容易掌控。"
   },
-  "emotions": [
-    "焦慮的",
-    "緊張的",
-    "害怕的",
-    "不知所措",
-    "不安"
-  ],
+  "emotions": {
+    "0": "焦慮的",
+    "1": "緊張的",
+    "2": "害怕的",
+    "3": "不知所措",
+    "4": "不安"
+  },
   "intensity_labels": {
     "not_intense": "強度不大",
     "very_intense": "非常激烈"
   },
-  "comparison_options": [
-    "結果幾乎和我預想的一模一樣。",
-    "有些部分是對的，但並非全部。",
-    "這和我預想的完全不一樣。",
-    "比我想的要容易得多/好得多。"
-  ],
+  "comparison_options": {
+    "0": "結果幾乎和我預想的一模一樣。",
+    "1": "有些部分是對的，但並非全部。",
+    "2": "這和我預想的完全不一樣。",
+    "3": "比我想的要容易得多/好得多。"
+  },
   "screens": {
     "s1": {
       "title": "想想最近發生的事",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你確定要刪除這個預測日誌嗎？"
   },
   "app_description": "預測與現實",
   "more": "更多的",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

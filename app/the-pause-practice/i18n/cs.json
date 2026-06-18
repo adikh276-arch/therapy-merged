@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Co vás spouští?",
     "desc": "Vyberte si situaci, se kterou se ztotožňujete",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Někdo mě přerušuje",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Věci nejdou podle plánu",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Cítím se ignorovaná",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Cítím se zahlcený",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Napiš si vlastní...",
     "button": "Cvičné pauzy →"
   },
   "hold": {
     "title": "Počkat na pauzu ⏸️",
     "instructions": "Držte kruh 5 sekund",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Stiskni a drž..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Vydrž to..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Děláš to..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Už skoro tam..."
       }
-    ]
+    }
   },
   "result": {
     "title": "To je ta pauza",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "Ostatní",
+  "lang": "dlouhý"
 }

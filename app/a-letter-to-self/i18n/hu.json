@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Megmentem...",
+    "saved": "Megmentetve"
   },
   "app_duration": "10-15 perc",
   "app_title": "Levél önmagamnak",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Promptok",
+  "need_inspiration": "Inspirációra van szükséged?",
+  "post_writing_reflection": "Írás utáni reflexió",
+  "reflection_desc": "Az érzéseid elismerése hatalmas lépés az utadon.",
+  "finish_save_reflection": "Befejezés és visszaverődés mentése",
+  "lang": "hosszú",
+  "completion_message": "A leveled biztonságban mentve van. Szánj egy pillanatot, hogy értékeld a fejlődésedet."
 }

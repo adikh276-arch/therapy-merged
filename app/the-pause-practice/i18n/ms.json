@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Apa yang mencetuskan anda?",
     "desc": "Pilih situasi yang anda kaitkan",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Seseorang mengganggu saya",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Perkara tidak berjalan seperti yang dirancang",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Saya rasa diabaikan",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Saya berasa terharu",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Taipkan anda sendiri...",
     "button": "Berlatih Jeda →"
   },
   "hold": {
     "title": "Tahan untuk Jeda ⏸️",
     "instructions": "Pegang bulatan selama 5 saat",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Tekan dan tahan..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Kekal dengannya..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Anda melakukannya..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Hampir sampai..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Itulah jeda",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "lain-lain",
+  "lang": "panjang"
 }

@@ -1,15 +1,15 @@
 {
   "app_title": "Harta Mâncării și Emoțiilor",
-  "screen_titles": [
-    "Bine ai venit",
-    "Modele alimentare",
-    "Dialog intern",
-    "Senzori fizici",
-    "Harta",
-    "Sprijin blând",
-    "Ultimul aspect",
-    "Reflectând"
-  ],
+  "screen_titles": {
+    "0": "Bine ai venit",
+    "1": "Modele alimentare",
+    "2": "Dialog intern",
+    "3": "Senzori fizici",
+    "4": "Harta",
+    "5": "Sprijin blând",
+    "6": "Ultimul aspect",
+    "7": "Reflectând"
+  },
   "welcome_text": "Hei... Mă bucur foarte mult că ești aici 💛. Hai să cartografiam ușor ce s-a întâmplat.",
   "coming_up_label": "Ce se întâmplă în ultima vreme?",
   "begin_mapping": "Începeți cartografierea",
@@ -32,36 +32,36 @@
   "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
   "save_success": "Modelul a fost păstrat",
   "save_error": "Nu a reușit să păstreze modelul",
-  "emotions_list": [
-    "😰 Stres",
-    "😢 Tristețe",
-    "😶 Plictiseală",
-    "😟 Anxietate",
-    "🥺 Singurătate",
-    "💭 Altceva..."
-  ],
-  "food_responses": [
-    "🍽️ Mănânc mai mult",
-    "🚫 Mănânc mai puțin",
-    "🍫 Poftesc după anumite alimente",
-    "😣 Evit mâncarea",
-    "😐 Nicio schimbare reală"
-  ],
-  "body_sensations": [
-    "💔 Piept strâns",
-    "🪨 Senzație grea",
-    "🦵 Neliniștit / agitat",
-    "🔋 Energie scăzută",
-    "🌀 Noduri în stomac",
-    "❓ Altceva..."
-  ],
-  "support_options": [
-    "🗣️ Vorbește cu cineva",
-    "☕ Ia o pauză",
-    "📝 Jurnal",
-    "🌬️ Respiră",
-    "🎧 Să mă distrag"
-  ],
+  "emotions_list": {
+    "0": "😰 Stres",
+    "1": "😢 Tristețe",
+    "2": "😶 Plictiseală",
+    "3": "😟 Anxietate",
+    "4": "🥺 Singurătate",
+    "5": "💭 Altceva..."
+  },
+  "food_responses": {
+    "0": "🍽️ Mănânc mai mult",
+    "1": "🚫 Mănânc mai puțin",
+    "2": "🍫 Poftesc după anumite alimente",
+    "3": "😣 Evit mâncarea",
+    "4": "😐 Nicio schimbare reală"
+  },
+  "body_sensations": {
+    "0": "💔 Piept strâns",
+    "1": "🪨 Senzație grea",
+    "2": "🦵 Neliniștit / agitat",
+    "3": "🔋 Energie scăzută",
+    "4": "🌀 Noduri în stomac",
+    "5": "❓ Altceva..."
+  },
+  "support_options": {
+    "0": "🗣️ Vorbește cu cineva",
+    "1": "☕ Ia o pauză",
+    "2": "📝 Jurnal",
+    "3": "🌬️ Respiră",
+    "4": "🎧 Să mă distrag"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Contactează-te 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ești sigur că vrei să ștergi această mapare?"
   },
   "app_description": "Harta Mâncării și Emoțiilor",
   "more": "Mai mult",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung",
+  "view_weekly": "Vezi istoricul hărții",
+  " ": " "
 }

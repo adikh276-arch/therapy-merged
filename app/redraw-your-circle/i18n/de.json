@@ -21,30 +21,31 @@
       "placeholder": "Geben Sie einen Namen ein...",
       "button": "Speichername"
     },
-    "prompts": [
-      "Eine Person, die Freude bringt",
-      "Eine Person, die dich unterstützt",
-      "Eine Person, mit der du reden kannst",
-      "A person you trust",
-      "Eine Person, die dich inspiriert"
-    ]
+    "prompts": {
+      "0": "Eine Person, die Freude bringt",
+      "1": "Eine Person, die dich unterstützt",
+      "2": "Eine Person, mit der du reden kannst",
+      "3": "A person you trust",
+      "4": "Eine Person, die dich inspiriert"
+    }
   },
   "reflection": {
     "subtitle": "Abschließende Reflexionen",
     "title": "Was fällt dir auf?",
     "p_intro": "Nehmen Sie sich einen Moment Zeit, um Ihren Kreis anzusehen. Vielleicht fällt Ihnen auf:",
-    "list": [
-      "Manche Menschen fühlen sich näher als andere",
-      "Manche Verbindungen fühlen sich stark an",
-      "Manche wirken distanziert oder unklar",
-      "Es kann Lücken geben – oder nur wenige bedeutungsvolle Menschen"
-    ],
+    "list": {
+      "0": "Manche Menschen fühlen sich näher als andere",
+      "1": "Manche Verbindungen fühlen sich stark an",
+      "2": "Manche wirken distanziert oder unklar",
+      "3": "Es kann Lücken geben – oder nur wenige bedeutungsvolle Menschen"
+    },
     "italic": "Bewusstsein ist der erste Schritt zum Aufbau der Verbindungen, die dir wichtig sind. 🧘",
     "label": "💭 Gibt es jemanden, mit dem du dich mehr verbunden fühlen möchtest?",
     "placeholder": "Schreib deine Gedanken hier auf...",
     "save_button": "Reflexion speichern",
     "saving_button": "Retten...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Deine zwischenmenschliche Karte ist sicher in deinem Tagebuch aufbewahrt. Die Pflege dieser Unterstützungsknoten hilft uns, widerstandsfähig zu bleiben."
   },
   "history": {
     "title": "Geschichte deiner Kreise",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bist du sicher, dass du dieses Kreis-Log löschen willst?"
   },
   "intro_p1": "In verschiedenen Lebensphasen kann sich unser soziales Netz verändern. 🌱 Manchmal fühlen wir uns verbunden und unterstützt. Andere Male hingegen erscheint uns alles distanziert oder unklar.",
   "intro_p2": "Diese Aktivität bietet Raum, innezuhalten und die Menschen um sich herum wahrzunehmen – und zu verstehen, wer sich aktuell zu Ihrem Umfeld zählt. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  " ": " "
 }

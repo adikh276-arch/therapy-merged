@@ -3,39 +3,40 @@
   "app_subtitle": "Düşüncelerinizi güvenli ve özel olarak serbest bırakın",
   "intro": {
     "title": "Gönderilmeyen Mektup",
-    "description": [
-      "Bazen, söylemek istediğimiz ama hiç fırsat bulamadığımız şeyler oluyor.",
-      "Bunun nedeni güvende hissettirmemesi, zamanlamanın doğru olmaması ya da kelimelerin yüksek sesle ifade edilmesi çok zor olması olabilir.",
-      "Bu etkinlik, düşüncelerinizi kelimelere dökmeniz için özel bir alan sağlar.",
-      "Bu mektubu göndermek zorunda değilsin. Bu sadece senin için — duygularını daha iyi ifade etmek, serbest bırakmak ve anlamak için."
-    ],
+    "description": {
+      "0": "Bazen, söylemek istediğimiz ama hiç fırsat bulamadığımız şeyler oluyor.",
+      "1": "Bunun nedeni güvende hissettirmemesi, zamanlamanın doğru olmaması ya da kelimelerin yüksek sesle ifade edilmesi çok zor olması olabilir.",
+      "2": "Bu etkinlik, düşüncelerinizi kelimelere dökmeniz için özel bir alan sağlar.",
+      "3": "Bu mektubu göndermek zorunda değilsin. Bu sadece senin için — duygularını daha iyi ifade etmek, serbest bırakmak ve anlamak için."
+    },
     "notice": "Özgürce yaz. Başka kimse bunu görmeyecek.",
     "button": "Yazmaya Başlayın→"
   },
   "writing": {
     "title": "Sakladığın Şeyi Yaz",
     "desc": "Partnerinize, eski partnerinize veya hatta ilişkiye yazabilirsiniz. Bunu yapmanın doğru ya da yanlış bir yolu yok.",
-    "prompts": [
-      "Kendimi...",
-      "Keşke...",
-      "Hiç söylemedim...",
-      "Beni inciten şey...",
-      "İhtiyacım olan şey..."
-    ],
+    "prompts": {
+      "0": "Kendimi...",
+      "1": "Keşke...",
+      "2": "Hiç söylemedim...",
+      "3": "Beni inciten şey...",
+      "4": "İhtiyacım olan şey..."
+    },
     "placeholder": "Sevgili ____,\nUzun zamandır şunu söylemek istiyordum...",
     "notice": "Her zaman duraklayıp geri gelebilirsiniz.",
     "button": "Devam →"
   },
   "reflection": {
     "title": "Bunu bir an düşünün",
-    "description": [
-      "Düşüncelerini ve duygularını kelimelere döktün — bu cesaret gerektiriyor.",
-      "Şu anda bir karışım duygu fark edebilirsin ve bu tamamen normal.",
-      "Devam etmeden önce derin bir nefes al ve nazikçe kendine bak."
-    ],
+    "description": {
+      "0": "Düşüncelerini ve duygularını kelimelere döktün — bu cesaret gerektiriyor.",
+      "1": "Şu anda bir karışım duygu fark edebilirsin ve bu tamamen normal.",
+      "2": "Devam etmeden önce derin bir nefes al ve nazikçe kendine bak."
+    },
     "notice": "Bu senin iyileşmen içindi, göndermek için değil.",
     "save_button": "Kaydetme Harfi",
-    "finish_button": "Bitiriş"
+    "finish_button": "Bitiriş",
+    "save_success": "Gönderilmemiş mektubunuz özel yerel günlüğünüzde güvenle düzeltilir. İfade derin bir özgürlüktür."
   },
   "history": {
     "title": "Geçmiş Mektuplar",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bu gönderilmemiş mektubu silmek istediğinden emin misin?"
   },
   "app_description": "Düşüncelerinizi güvenli ve özel bir şekilde ifade edin.",
   "more": "Daha",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

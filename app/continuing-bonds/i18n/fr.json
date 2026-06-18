@@ -31,37 +31,37 @@
   "auth_error": "Session d’authentification manquante ou base de données non configurée",
   "save_success": "Réflexion de la liaison préservée",
   "save_error": "A échoué à préserver la réflexion",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "À travers les souvenirs",
       "prompt": "Peux-tu partager un souvenir où tu ressens leur présence ?",
       "deeper": "Quelle est la seule chose qui vous marque chez eux ?"
     },
-    {
+    "1": {
       "label": "Dans les choses que je dis ou fais",
       "prompt": "Quelle part d’eux portez-vous dans votre vie quotidienne ?",
       "deeper": "Comment cela se manifeste-t-il dans votre vie aujourd’hui ?"
     },
-    {
+    "2": {
       "label": "Dans les moments de ma vie quotidienne",
       "prompt": "Quand les sens-tu se refermer pendant ta journée ?",
       "deeper": "Quelle est la seule chose qui vous marque chez eux ?"
     },
-    {
+    "3": {
       "label": "De ce que je veux encore leur dire",
       "prompt": "Y a-t-il encore quelque chose que tu veux leur dire ?",
       "deeper": "Qu’aimeriez-vous qu’ils sachent maintenant ?"
     },
-    {
+    "4": {
       "label": "Dans un sentiment ou une présence",
       "prompt": "Comment leur présence se manifeste-t-elle encore pour vous ?",
       "deeper": "Comment cela se manifeste-t-il dans votre vie aujourd’hui ?"
     }
-  ],
-  "bond_prompts": [
-    "Quelle est une petite façon dont vous vous sentez connecté à eux aujourd’hui ?",
-    "Qu’est-ce que vous faites qui en fait une part ?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Quelle est une petite façon dont vous vous sentez connecté à eux aujourd’hui ?",
+    "1": "Qu’est-ce que vous faites qui en fait une part ?"
+  },
   "common": {
     "get_started": "Commencer",
     "start_over": "Recommencer",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
-    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette réflexion ?"
   },
   "app_description": "Obligations permanentes",
   "past_reflections": "Réflexions passées",
@@ -119,5 +120,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

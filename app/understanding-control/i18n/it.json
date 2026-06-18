@@ -1,58 +1,58 @@
 {
   "app_title": "Comprendere il controllo",
   "app_subtitle": "Strategia di sopravvivenza • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Perché il controllo può sembrare così potente",
-      "paragraphs": [
-        "Per molte persone che hanno difficoltà alimentari, il controllo può sembrare un modo per creare sicurezza.",
-        "Quando la vita sembra imprevedibile o emotivamente intensa, concentrarsi su cibo, peso o routine può portare un senso di struttura e certezza.",
-        "Non si tratta di forza di volontà o disciplina. Si tratta di cercare di stabilizzarsi quando le cose sembrano incerte.",
-        "In questo modo, il controllo diventa una strategia di coping — qualcosa che ti aiuta a sentirti radicato, anche se solo temporaneamente."
-      ],
+      "paragraphs": {
+        "0": "Per molte persone che hanno difficoltà alimentari, il controllo può sembrare un modo per creare sicurezza.",
+        "1": "Quando la vita sembra imprevedibile o emotivamente intensa, concentrarsi su cibo, peso o routine può portare un senso di struttura e certezza.",
+        "2": "Non si tratta di forza di volontà o disciplina. Si tratta di cercare di stabilizzarsi quando le cose sembrano incerte.",
+        "3": "In questo modo, il controllo diventa una strategia di coping — qualcosa che ti aiuta a sentirti radicato, anche se solo temporaneamente."
+      },
       "microcopy": "Non sei l'unico a sentirti così.",
       "cta": "Continua"
     },
-    {
+    "1": {
       "headline": "Diversi modi in cui appare il controllo",
       "intro": "Il bisogno di controllo non appare uguale per tutti, ma spesso si manifesta in schemi come:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Regole alimentari rigide o inflessibili"
         },
-        {
+        "1": {
           "text": "Bisogna seguire le routine alla lettera"
         },
-        {
+        "2": {
           "text": "Ansia quando cambiano i piani"
         },
-        {
+        "3": {
           "text": "Collegare l'autostima alla forma/peso"
         }
-      ],
+      },
       "outro": "Col tempo, questi possono diventare rigidi, occupando spazio mentale e rendendo più difficile adattarsi.",
       "microcopy": "Quello che inizia come controllo può lentamente iniziare a sembrare controllante.",
       "cta": "Continua"
     },
-    {
+    "2": {
       "headline": "Sotto il controllo",
       "intro": "L'impulso a controllare spesso ha radici più profonde. Può essere collegato a:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Sentirsi emotivamente sommerso"
         },
-        {
+        "1": {
           "text": "Desidero prevedibilità"
         },
-        {
+        "2": {
           "text": "Un bisogno di stabilità e sicurezza"
         }
-      ],
+      },
       "insight": "Il controllo non è il problema — è la strategia che la tua mente ha trovato per affrontare la situazione. Con il tempo e il supporto, sono possibili altri modi per sentirsi al sicuro.",
       "microcopy": "La comprensione è un primo passo potente.",
       "cta": "Termina la lettura"
     }
-  ],
+  },
   "complete": {
     "title": "Consapevolezza acquisita",
     "message": "Comprendere le radici del controllo è un primo passo coraggioso per trovare nuovi modi per sentirsi sicuri e stabili.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

@@ -14,7 +14,8 @@
     "input1_placeholder": "esim. kävely puistossa",
     "input2_label": "Kun teen näin, yleensä tunnen...",
     "input2_placeholder": "esim. rauhallinen ja läsnä oleva",
-    "button": "Jatka"
+    "button": "Jatka",
+    "stage": "Vaihe 1: Takaisinkutsu"
   },
   "meaning": {
     "title": "Mikä tekee siitä merkityksellisen?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "esim. yhdistetty ja maadoitettu",
     "input3_label": "Se muistuttaa minua...",
     "input3_placeholder": "esim. kesät lapsena",
-    "button": "Pelasta heijastukseni"
+    "button": "Pelasta heijastukseni",
+    "stage": "Vaihe 2: Merkitys"
   },
   "smallStep": {
     "title": "Pieni askel eteenpäin",
@@ -34,7 +36,8 @@
     "input1_label": "Yksi pieni askel, jonka voisin ottaa tällä viikolla, on...",
     "input1_placeholder": "esim. kävele 10 minuuttia",
     "button_save": "Tallenna",
-    "button_home": "Mene kotiin"
+    "button_home": "Mene kotiin",
+    "stage": "Vaihe 3: Toiminta"
   },
   "affirmation": {
     "title": "Otit kauniin askeleen",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

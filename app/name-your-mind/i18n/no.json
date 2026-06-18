@@ -3,11 +3,11 @@
   "intro": {
     "title": "Møt sinnet ditt",
     "description": "Lær deg å distansere deg fra overveldende tanker ved å gi din indre stemme et navn.",
-    "benefits": [
-      "Skap mental avstand",
-      "Reduser kraften i harde tanker",
-      "Legg merke til tanker uten å være dem"
-    ],
+    "benefits": {
+      "0": "Skap mental avstand",
+      "1": "Reduser kraften i harde tanker",
+      "2": "Legg merke til tanker uten å være dem"
+    },
     "duration": "2-3 minutter",
     "view_past": "Se tidligere oppføringer"
   },
@@ -45,15 +45,15 @@
       "title": "Lag litt avstand",
       "desc": "Gi sinnet ditt et navn for å hjelpe deg å skille deg fra disse tankene.",
       "placeholder": "Eller skriv din egen...",
-      "examples": [
-        "Kritikeren",
-        "Overtenker",
-        "Bekymring FM",
-        "Overtenkingsmaskinen",
-        "Den indre kritikeren",
-        "Hva-om-generatoren",
-        "Dramaregissør"
-      ]
+      "examples": {
+        "0": "Kritikeren",
+        "1": "Overtenker",
+        "2": "Bekymring FM",
+        "3": "Overtenkingsmaskinen",
+        "4": "Den indre kritikeren",
+        "5": "Hva-om-generatoren",
+        "6": "Dramaregissør"
+      }
     },
     "practice": {
       "title": "Prøv dette skiftet",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Hva la du merke til?",
       "desc": "Hvordan føltes tanken etter å ha gitt den et navn?",
-      "options": [
-        "Tanken føltes litt mindre intens enn før",
-        "Jeg følte at jeg hadde litt avstand til tanken",
-        "Det føltes fortsatt like sterkt som før",
-        "Jeg er ikke sikker på hva som endret seg, om noe"
-      ],
+      "options": {
+        "0": "Tanken føltes litt mindre intens enn før",
+        "1": "Jeg følte at jeg hadde litt avstand til tanken",
+        "2": "Det føltes fortsatt like sterkt som før",
+        "3": "Jeg er ikke sikker på hva som endret seg, om noe"
+      },
       "button": "Fullstendig refleksjon"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

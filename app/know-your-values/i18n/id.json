@@ -29,7 +29,8 @@
     "historyDesc": "Refleksi Anda sebelumnya disimpan di sini sehingga Anda dapat mengunjunginya kembali kapan saja.",
     "noHistory": "Anda belum menyelesaikan refleksi nilai.",
     "startActivity": "Mulai Aktivitas",
-    "startNew": "Mulai Refleksi Baru"
+    "startNew": "Mulai Refleksi Baru",
+    "aligned": "Sejajar"
   },
   "values": {
     "Family": "Keluarga",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "app_duration": "5 menit",
+  "loading": "Memuat refleksi..."
 }

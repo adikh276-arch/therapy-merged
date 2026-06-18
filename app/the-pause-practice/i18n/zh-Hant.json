@@ -10,52 +10,52 @@
   "scenario": {
     "title": "是什麼觸發了你？",
     "desc": "選擇一個你能產生共鳴的情況",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "有人打斷我",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "事情沒有照計畫發展",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "我覺得被忽視了",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "我感到不知所措",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "你自己打字......",
     "button": "練習暫停→"
   },
   "hold": {
     "title": "按住暫停 ⏸️",
     "instructions": "保持圓圈5秒",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "按住並按住......"
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "堅持下去......"
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "你做到了......"
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "快到了......"
       }
-    ]
+    }
   },
   "result": {
     "title": "這就是停頓",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "其他",
+  "lang": "長篇"
 }

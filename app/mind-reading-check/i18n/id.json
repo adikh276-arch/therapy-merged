@@ -3,11 +3,11 @@
   "intro": {
     "title": "Pemeriksaan Membaca Pikiran",
     "description": "Pertanyakan asumsi yang Anda buat tentang apa yang dipikirkan orang lain.",
-    "benefits": [
-      "Berhenti berasumsi yang terburuk",
-      "Mengidentifikasi interpretasi yang bias",
-      "Bangun komunikasi yang lebih jelas"
-    ],
+    "benefits": {
+      "0": "Berhenti berasumsi yang terburuk",
+      "1": "Mengidentifikasi interpretasi yang bias",
+      "2": "Bangun komunikasi yang lebih jelas"
+    },
     "duration": "3-4 menit",
     "view_past": "Lihat Refleksi Masa Lalu"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Periksa keyakinan Anda",
       "desc": "Seberapa kuat Anda mempercayai pemikiran asli Anda sekarang?",
-      "labels": [
-        "Tidak sama sekali",
-        "Sepenuhnya"
-      ]
+      "labels": {
+        "0": "Tidak sama sekali",
+        "1": "Sepenuhnya"
+      }
     },
     "step7": {
       "title": "Pandangan yang lebih seimbang",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Lain kali",
       "desc": "Apa yang bisa Anda lakukan alih-alih berasumsi?",
-      "examples": [
-        "Minta klarifikasi",
-        "Beri waktu",
-        "Perhatikan tanpa bereaksi"
-      ],
+      "examples": {
+        "0": "Minta klarifikasi",
+        "1": "Beri waktu",
+        "2": "Perhatikan tanpa bereaksi"
+      },
       "placeholder": "Lain kali, saya bisa..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

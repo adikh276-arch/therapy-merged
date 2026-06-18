@@ -29,7 +29,8 @@
     "historyDesc": "تأملاتك السابقة محفوظة هنا حتى تتمكن من مراجعتها مجددا في أي وقت.",
     "noHistory": "لم تكمل بعد انعكاس القيم.",
     "startActivity": "ابدأ النشاط",
-    "startNew": "ابدأ انعكاسا جديدا"
+    "startNew": "ابدأ انعكاسا جديدا",
+    "aligned": "محاذ"
   },
   "values": {
     "Family": "العائلة",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "طويل",
+  "app_duration": "5 دقائق",
+  "loading": "تحميل الانعكاسات..."
 }

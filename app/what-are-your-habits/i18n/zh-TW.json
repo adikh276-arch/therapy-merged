@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "長篇",
+  "mind_subtitle": "你最常注意到哪些思考習慣會回歸？選擇所有適用的項目。",
+  "coping_subtitle": "當感到不堪負荷時，你通常會怎麼反應？選擇所有適用的項目。"
 }

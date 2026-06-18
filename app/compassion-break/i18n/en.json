@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro": {
+    "view_past": "View Past Sessions"
+  },
+  "history": {
+    "title": "Self-Compassion History",
+    "no_entries": "No past break logs found."
+  },
+  "loading": "Loading History..."
 }

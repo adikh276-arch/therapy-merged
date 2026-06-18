@@ -73,13 +73,13 @@
     "confirmDelete": "Bevestigen Verwijderen",
     "cancel": "Annuleren",
     "delete": "Verwijder de invoer",
-    "prompts": [
-      "Een klein moment dat niet gespannen aanvoelde...",
-      "Eén poging die je partner heeft gedaan...",
-      "Een eigenschap die consistent is gebleven...",
-      "Intentie",
-      "Emotionele Check-In"
-    ]
+    "prompts": {
+      "0": "Een klein moment dat niet gespannen aanvoelde...",
+      "1": "Eén poging die je partner heeft gedaan...",
+      "2": "Een eigenschap die consistent is gebleven...",
+      "3": "Intentie",
+      "4": "Emotionele Check-In"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

@@ -4,11 +4,11 @@
   "intro": {
     "title": "Předpověď vs realita",
     "description": "Porovnejte své úzkostné předpovědi s tím, co se skutečně děje, abyste si vytvořili vyváženější pohled.",
-    "benefits": [
-      "Identifikujte úzkostné vzorce",
-      "Shromažďujte důkazy proti obavám",
-      "Omezte přemýšlení o budoucnosti"
-    ],
+    "benefits": {
+      "0": "Identifikujte úzkostné vzorce",
+      "1": "Shromažďujte důkazy proti obavám",
+      "2": "Omezte přemýšlení o budoucnosti"
+    },
     "duration": "4-5 minut",
     "view_past": "Zobrazit minulé reflexe"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Žádné odrazy zatím neuložené.",
     "prediction_label": "Předpověď",
     "reality_label": "Realita",
-    "reflection_label": "Reflexe:"
+    "reflection_label": "Reflexe:",
+    "past_logs": "Minulé úvahy",
+    "reframe_label": "Nový vyvážený pohled:"
   },
   "complete": {
     "title": "Aktivita dokončena",
     "saved_title": "Reflexe zachráněna",
     "message": "Když se podíváte na fakta, pomáháte své mysli naučit se, že věci jsou často zvládnutelnější, než se zdají."
   },
-  "emotions": [
-    "Úzkostný",
-    "Nervózní",
-    "Bojím se",
-    "Přetížení",
-    "Neklid"
-  ],
+  "emotions": {
+    "0": "Úzkostný",
+    "1": "Nervózní",
+    "2": "Bojím se",
+    "3": "Přetížení",
+    "4": "Neklid"
+  },
   "intensity_labels": {
     "not_intense": "Ne intenzivní",
     "very_intense": "Velmi intenzivní"
   },
-  "comparison_options": [
-    "Dopadlo to téměř přesně tak, jak jsem čekal",
-    "Některé části byly správné, ale ne všechny",
-    "Bylo to dost jiné, než jsem čekal",
-    "Bylo to mnohem jednodušší/lepší, než jsem si představoval"
-  ],
+  "comparison_options": {
+    "0": "Dopadlo to téměř přesně tak, jak jsem čekal",
+    "1": "Některé části byly správné, ale ne všechny",
+    "2": "Bylo to dost jiné, než jsem čekal",
+    "3": "Bylo to mnohem jednodušší/lepší, než jsem si představoval"
+  },
   "screens": {
     "s1": {
       "title": "Vzpomínejte na nedávnou situaci",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jste si jistý, že chcete tento záznam předpovědí smazat?"
   },
   "app_description": "Předpověď vs. realita",
   "more": "Více",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

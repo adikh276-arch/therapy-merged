@@ -3,11 +3,11 @@
   "intro": {
     "title": "Gặp gỡ tâm trí của bạn",
     "description": "Học cách tránh xa những suy nghĩ quá tải bằng cách đặt tên cho tiếng nói bên trong của bạn.",
-    "benefits": [
-      "Tạo khoảng cách tinh thần",
-      "Giảm sức mạnh của những suy nghĩ khắc nghiệt",
-      "Chú ý đến những suy nghĩ mà không phải là chúng"
-    ],
+    "benefits": {
+      "0": "Tạo khoảng cách tinh thần",
+      "1": "Giảm sức mạnh của những suy nghĩ khắc nghiệt",
+      "2": "Chú ý đến những suy nghĩ mà không phải là chúng"
+    },
     "duration": "2-3 phút",
     "view_past": "Xem các mục trước đây"
   },
@@ -45,15 +45,15 @@
       "title": "Tạo khoảng cách",
       "desc": "Đặt tên cho tâm trí của bạn để giúp tách bạn khỏi những suy nghĩ này.",
       "placeholder": "Hoặc nhập của riêng bạn...",
-      "examples": [
-        "Nhà phê bình",
-        "Suy nghĩ quá nhiều",
-        "Lo lắng FM",
-        "Cỗ máy suy nghĩ quá nhiều",
-        "Nhà phê bình bên trong",
-        "Trình tạo What-If",
-        "Đạo diễn phim truyền hình"
-      ]
+      "examples": {
+        "0": "Nhà phê bình",
+        "1": "Suy nghĩ quá nhiều",
+        "2": "Lo lắng FM",
+        "3": "Cỗ máy suy nghĩ quá nhiều",
+        "4": "Nhà phê bình bên trong",
+        "5": "Trình tạo What-If",
+        "6": "Đạo diễn phim truyền hình"
+      }
     },
     "practice": {
       "title": "Hãy thử ca này",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Bạn nhận thấy điều gì?",
       "desc": "Ý nghĩ đó cảm thấy thế nào sau khi đặt tên cho nó?",
-      "options": [
-        "Ý nghĩ đó cảm thấy bớt mãnh liệt hơn trước một chút",
-        "Tôi cảm thấy như mình đã có một khoảng cách với suy nghĩ đó",
-        "Nó vẫn cảm thấy mạnh mẽ như trước",
-        "Tôi không chắc điều gì đã thay đổi, nếu có gì"
-      ],
+      "options": {
+        "0": "Ý nghĩ đó cảm thấy bớt mãnh liệt hơn trước một chút",
+        "1": "Tôi cảm thấy như mình đã có một khoảng cách với suy nghĩ đó",
+        "2": "Nó vẫn cảm thấy mạnh mẽ như trước",
+        "3": "Tôi không chắc điều gì đã thay đổi, nếu có gì"
+      },
       "button": "Suy ngẫm hoàn chỉnh"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

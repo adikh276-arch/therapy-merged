@@ -10,57 +10,57 @@
       "title": "Durma bem",
       "description": "Procure dormir de 7 a 9 horas por noite. Tente dormir e acordar no mesmo horário todos os dias.",
       "why": "O sono ajuda seu cérebro e corpo a se recuperarem e reduz os hormônios do estresse.",
-      "do": [
-        "Mantenha um horário fixo de sono",
-        "Evite telas 1 hora antes de dormir",
-        "Mantenha o ambiente fresco e escuro",
-        "Evite cafeína depois das 16h"
-      ],
+      "do": {
+        "0": "Mantenha um horário fixo de sono",
+        "1": "Evite telas 1 hora antes de dormir",
+        "2": "Mantenha o ambiente fresco e escuro",
+        "3": "Evite cafeína depois das 16h"
+      },
       "button": "Lembrete de Sono Definido"
     },
     "breathing": {
       "title": "Pratique Respiração Profunda",
       "description": "Reserve alguns minutos focando na sua respiração. Respiração lenta reduz a ansiedade.",
       "why": "A respiração lenta ativa a resposta de relaxamento do seu corpo.",
-      "do": [
-        "Inspire por 4 segundos",
-        "Segure por 4 segundos",
-        "Expire por 4 segundos",
-        "Repita por 1 minuto"
-      ]
+      "do": {
+        "0": "Inspire por 4 segundos",
+        "1": "Segure por 4 segundos",
+        "2": "Expire por 4 segundos",
+        "3": "Repita por 1 minuto"
+      }
     },
     "exercise": {
       "title": "Mova seu Corpo",
       "description": "Caminhar levemente ou alongar ajuda a aliviar o estresse e melhorar o humor.",
       "why": "O exercício libera endorfinas e melhora o humor.",
-      "do": [
-        "15 minutos de caminhada",
-        "Alongamento leve",
-        "Sessão curta de yoga",
-        "Treino rápido em casa"
-      ]
+      "do": {
+        "0": "15 minutos de caminhada",
+        "1": "Alongamento leve",
+        "2": "Sessão curta de yoga",
+        "3": "Treino rápido em casa"
+      }
     },
     "caffeine": {
       "title": "Limite Cafeína e Açúcar",
       "description": "Excesso de cafeína e açúcar pode aumentar a ansiedade e atrapalhar o sono.",
       "why": "Excesso de cafeína e açúcar aumenta a ansiedade e os problemas de sono.",
-      "do": [
-        "Substitua um café por chá de ervas",
-        "Beba mais água",
-        "Reduza os lanches açucarados",
-        "Evite cafeína no final do dia"
-      ]
+      "do": {
+        "0": "Substitua um café por chá de ervas",
+        "1": "Beba mais água",
+        "2": "Reduza os lanches açucarados",
+        "3": "Evite cafeína no final do dia"
+      }
     },
     "planning": {
       "title": "Planeje Seu Dia",
       "description": "Divida tarefas grandes em etapas menores para evitar se sentir sobrecarregado.",
       "why": "Planejar reduz a bagunça mental e o sobrecarregamento.",
-      "do": [
-        "Escreva 3 tarefas principais",
-        "Divida as tarefas em pequenos passos",
-        "Foque em uma tarefa de cada vez",
-        "Faça pequenas pausas"
-      ]
+      "do": {
+        "0": "Escreva 3 tarefas principais",
+        "1": "Divida as tarefas em pequenos passos",
+        "2": "Foque em uma tarefa de cada vez",
+        "3": "Faça pequenas pausas"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Inspire...",
+  "Hold…": "Segura...",
+  "Exhale…": "Expire...",
+  "breathing_instruction": "Siga o círculo para regular",
+  "Resume": "Currículo",
+  "Pause": "Pausa",
+  "lang": "longo",
+  "Grounding": "Desestresse Mental",
+  "stay_present": "Dicas para Alívio do Estresse",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Escolha qualquer estratégia de alvo abaixo para explorar por que ela ajuda e como você pode aplicá-la diariamente."
+  },
+  "wellness_tip": "ESTRATÉGIA DIÁRIA DE ESTRESSE"
 }

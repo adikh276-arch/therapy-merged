@@ -73,13 +73,13 @@
     "confirmDelete": "Confirmar eliminación",
     "cancel": "Cancelar",
     "delete": "Eliminar entrada",
-    "prompts": [
-      "Un pequeño momento que no se sintió tenso…",
-      "Un esfuerzo que ha hecho tu pareja…",
-      "Una cualidad que se ha mantenido constante…",
-      "Intención",
-      "Registro emocional"
-    ]
+    "prompts": {
+      "0": "Un pequeño momento que no se sintió tenso…",
+      "1": "Un esfuerzo que ha hecho tu pareja…",
+      "2": "Una cualidad que se ha mantenido constante…",
+      "3": "Intención",
+      "4": "Registro emocional"
+    }
   },
   "common": {
     "get_started": "Comenzar",
@@ -143,5 +143,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

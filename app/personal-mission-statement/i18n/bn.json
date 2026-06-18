@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "দীর্ঘ",
+  "intro_benefit_1": "আপনার মূল বিশ্বাসের উপর সম্পূর্ণ স্পষ্টতা অর্জন করুন",
+  "intro_benefit_2": "ব্যক্তিগত রূপান্তরের জন্য পরিষ্কার লক্ষ্য সেট করুন",
+  "reflection_subtitle": "আপনার আকাঙ্ক্ষার খসড়া তৈরি করুন। আপনার উদ্দেশ্যের মূল উপাদানগুলি পূরণ করুন।",
+  "mission_your_statement": "আপনার বিবৃতি",
+  "saving": "সংরক্ষণ করা হচ্ছে...",
+  "mission_save_finish": "সেভ অ্যান্ড ফিনিশ",
+  "mission_share": "শেয়ার করুন",
+  "mission_start_over": "আবার শুরু করুন",
+  "loading": "ঘোষণা লোড করা হচ্ছে...",
+  "app": {
+    "startActivity": "মিশন তৈরি করুন"
+  }
 }

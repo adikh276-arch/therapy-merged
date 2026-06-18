@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "மெதுவாக மூச்சு விடுங்கள்...",
+  "instruction_out": "மெதுவாக மூச்சு விடுங்கள்...",
+  "instruction_hold": "மெதுவாக பிடி...",
+  "lang": "நீண்ட"
 }

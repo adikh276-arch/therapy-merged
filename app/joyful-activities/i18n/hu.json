@@ -14,7 +14,8 @@
     "input1_placeholder": "például sétálni a parkban",
     "input2_label": "Amikor ezt csinálom, általában úgy érzem magam...",
     "input2_placeholder": "például nyugodt és jelenlévő",
-    "button": "Folytatás"
+    "button": "Folytatás",
+    "stage": "1. szakasz: Visszahívás"
   },
   "meaning": {
     "title": "Mi teszi ezt értelmessé?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "például csatlakoztatott és földelt",
     "input3_label": "Eszembe juttat...",
     "input3_placeholder": "például Summers gyerekként",
-    "button": "Mentsd meg a tükörképemet"
+    "button": "Mentsd meg a tükörképemet",
+    "stage": "2. szakasz: Jelentés"
   },
   "smallStep": {
     "title": "Egy kis előrelépés",
@@ -34,7 +36,8 @@
     "input1_label": "Egy apró lépés, amit ezen a héten megtehetnék, hogy...",
     "input1_placeholder": "Például menj el egy 10 perces sétára",
     "button_save": "Mentés",
-    "button_home": "Menj haza"
+    "button_home": "Menj haza",
+    "stage": "3. szakasz: Akció"
   },
   "affirmation": {
     "title": "Gyönyörű lépést tettél",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "சேமித்தல்...",
+    "saved": "சேமிக்கப்பட்டது"
   },
   "app_duration": "10-15 நிமிடங்கள்",
   "app_title": "தனக்குத்தானே கடிதம்",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "தூண்டுதல்கள்",
+  "need_inspiration": "உத்வேகம் தேவையா?",
+  "post_writing_reflection": "எழுதுவதற்கு பிந்தைய பிரதிபலிப்பு",
+  "reflection_desc": "உங்கள் உணர்வுகளை ஒப்புக்கொள்வது உங்கள் பயணத்தில் ஒரு சக்திவாய்ந்த படியாகும்.",
+  "finish_save_reflection": "ஃபினிஷ் & சேமி பிரதிபலிப்பு",
+  "lang": "நீண்ட",
+  "completion_message": "உங்கள் கடிதம் பாதுகாப்பாக சேமிக்கப்பட்டது. உங்கள் முன்னேற்றத்தைப் பாராட்ட சிறிது நேரம் ஒதுக்குங்கள்."
 }

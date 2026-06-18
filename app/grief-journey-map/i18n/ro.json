@@ -16,23 +16,23 @@
   "btn_one_more": "Încă un lucru",
   "screen3_tag": "Adevăruri blânde",
   "screen3_title": "Merită cunoscut",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Fără termen limită",
       "body": "Nu există o dată de expirare a pierderii. Să simți asta după luni sau ani nu înseamnă că ești blocat — înseamnă că ai iubit."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Sentimente contradictorii",
       "body": "Poți să-ți fie dor de cineva și să te simți ușurat. Poți râde și plânge. Durerea are opuse."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Transformarea iubirii",
       "body": "Durerea nu este separată de dragoste. E același lucru, transformat."
     }
-  ],
+  },
   "btn_finish": "Reflecția de finisaj",
   "complete_title": "Călătorie onorată",
   "complete_message": "Nu trebuie să mergi mai departe. Pur și simplu înveți să o porți altfel. Călătoria ta este unică, validă și profund umană.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

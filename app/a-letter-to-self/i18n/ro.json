@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Salvând...",
+    "saved": "Salvat"
   },
   "app_duration": "10-15 minute",
   "app_title": "Scrisoare către sine",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Prompturi",
+  "need_inspiration": "Ai nevoie de inspirație?",
+  "post_writing_reflection": "Reflecție după scris",
+  "reflection_desc": "Recunoașterea sentimentelor tale este un pas puternic în călătoria ta.",
+  "finish_save_reflection": "Finalizează și salvează reflecția",
+  "lang": "lung",
+  "completion_message": "Scrisoarea ta a fost păstrată în siguranță. Ia-ți un moment să apreciezi progresul tău."
 }

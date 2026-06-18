@@ -16,23 +16,23 @@
   },
   "rule_label": "Nommer la règle",
   "rule_question": "Quelle est la règle ?",
-  "rule_options": [
-    "Je ne devrais plus manger après une certaine heure",
-    "Certains aliments sont interdits",
-    "Je dois contrôler strictement les portions"
-  ],
+  "rule_options": {
+    "0": "Je ne devrais plus manger après une certaine heure",
+    "1": "Certains aliments sont interdits",
+    "2": "Je dois contrôler strictement les portions"
+  },
   "rule_something_else": "Autre chose...",
   "rule_placeholder": "Tape ta règle alimentaire...",
   "feeling_label": "Impact émotionnel",
   "feeling_question": "Comment ça se sent ?",
-  "feeling_options": [
-    "😟 Anxieux",
-    "😌 En contrôle",
-    "😕 Coupable",
-    "😣 Restreint",
-    "😴 Fatigué",
-    "😐 Mixte"
-  ],
+  "feeling_options": {
+    "0": "😟 Anxieux",
+    "1": "😌 En contrôle",
+    "2": "😕 Coupable",
+    "3": "😣 Restreint",
+    "4": "😴 Fatigué",
+    "5": "😐 Mixte"
+  },
   "challenge_label": "Défi doux",
   "challenge_question": "Question doucement...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Wsparcie emocjonalne",
       "prompt": "Jakie wsparcie faktycznie mogłoby ci teraz pomóc?",
-      "hints": [
-        "Po prostu potrzebuję kogoś, kto...",
-        "Pomogłoby, gdyby...",
-        "Tak naprawdę chcę..."
-      ]
+      "hints": {
+        "0": "Po prostu potrzebuję kogoś, kto...",
+        "1": "Pomogłoby, gdyby...",
+        "2": "Tak naprawdę chcę..."
+      }
     },
     "Space / time for myself": {
       "label": "Przestrzeń / czas dla siebie",
       "prompt": "Jak wyglądałoby dla ciebie posiadanie takiej przestrzeni?",
-      "hints": [
-        "Wykorzystałabym ten czas, żeby...",
-        "Kosmos pozwoliłby mi...",
-        "Potrzebuję miejsca, żeby..."
-      ]
+      "hints": {
+        "0": "Wykorzystałabym ten czas, żeby...",
+        "1": "Kosmos pozwoliłby mi...",
+        "2": "Potrzebuję miejsca, żeby..."
+      }
     },
     "Clear communication": {
       "label": "Jasna komunikacja",
       "prompt": "Jak wyglądałaby dla Ciebie jaśniejsza komunikacja?",
-      "hints": [
-        "Chciałbym móc powiedzieć...",
-        "Gdyby naprawdę słuchali, powiedziałbym im...",
-        "Komunikacja jest trudna, gdy..."
-      ]
+      "hints": {
+        "0": "Chciałbym móc powiedzieć...",
+        "1": "Gdyby naprawdę słuchali, powiedziałbym im...",
+        "2": "Komunikacja jest trudna, gdy..."
+      }
     },
     "Reassurance": {
       "label": "Zapewnienie",
       "prompt": "Jakie zapewnienie mogłoby mieć sens?",
-      "hints": [
-        "Muszę to usłyszeć...",
-        "Uspokajałoby mnie wiedzieć...",
-        "Ciągle się martwię, że..."
-      ]
+      "hints": {
+        "0": "Muszę to usłyszeć...",
+        "1": "Uspokajałoby mnie wiedzieć...",
+        "2": "Ciągle się martwię, że..."
+      }
     },
     "Understanding": {
       "label": "Zrozumienie",
       "prompt": "Jak wyglądałoby poczucie prawdziwego zrozumienia?",
-      "hints": [
-        "Chciałbym, żeby ludzie wiedzieli, że...",
-        "To, co naprawdę czuję, to...",
-        "Nikt nie widzi, że ja..."
-      ]
+      "hints": {
+        "0": "Chciałbym, żeby ludzie wiedzieli, że...",
+        "1": "To, co naprawdę czuję, to...",
+        "2": "Nikt nie widzi, że ja..."
+      }
     },
     "Stability": {
       "label": "Stabilność",
       "prompt": "Jak wyglądałaby stabilność w Twoim życiu teraz?",
-      "hints": [
-        "Potrzebuję, żeby coś się czuło...",
-        "To, co mnie uziemi, to...",
-        "Stabilność oznacza..."
-      ]
+      "hints": {
+        "0": "Potrzebuję, żeby coś się czuło...",
+        "1": "To, co mnie uziemi, to...",
+        "2": "Stabilność oznacza..."
+      }
     },
     "Honesty": {
       "label": "Szczerość",
       "prompt": "Jak wyglądałaby większa uczciwość w twojej sytuacji?",
-      "hints": [
-        "Prawda, z którą muszę się zmierzyć, to...",
-        "Chcę być szczery w kwestii...",
-        "To, co naprawdę się dzieje, to..."
-      ]
+      "hints": {
+        "0": "Prawda, z którą muszę się zmierzyć, to...",
+        "1": "Chcę być szczery w kwestii...",
+        "2": "To, co naprawdę się dzieje, to..."
+      }
     },
     "Respect": {
       "label": "Szacunek",
       "prompt": "Jak wygląda u Ciebie teraz szacunek?",
-      "hints": [
-        "Zasługuję na leczenie...",
-        "Szacunek wyglądałby jak...",
-        "Potrzebuję ludzi, żeby..."
-      ]
+      "hints": {
+        "0": "Zasługuję na leczenie...",
+        "1": "Szacunek wyglądałby jak...",
+        "2": "Potrzebuję ludzi, żeby..."
+      }
     },
     "Clarity about relationship": {
       "label": "Jasność w relacjach",
       "prompt": "Jaki rodzaj jasności pomógłby Ci najbardziej?",
-      "hints": [
-        "Muszę wiedzieć, czy...",
-        "To, co mnie myli, to...",
-        "Chcę, żebyśmy byli jasni w kwestii..."
-      ]
+      "hints": {
+        "0": "Muszę wiedzieć, czy...",
+        "1": "To, co mnie myli, to...",
+        "2": "Chcę, żebyśmy byli jasni w kwestii..."
+      }
     },
     "default": {
       "prompt": "Jak to wyglądałoby w prawdziwej sytuacji?",
-      "hints": [
-        "Przychodzi mi na myśl...",
-        "Teraz czuję się...",
-        "Jeśli mam być ze sobą szczery..."
-      ]
+      "hints": {
+        "0": "Przychodzi mi na myśl...",
+        "1": "Teraz czuję się...",
+        "2": "Jeśli mam być ze sobą szczery..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Powiedz coś szczerze"
     },
-    {
+    "1": {
       "label": "Znajdź czas dla siebie"
     },
-    {
+    "2": {
       "label": "Skontaktuj się z kimś"
     },
-    {
+    "3": {
       "label": "Ustal małą granicę"
     },
-    {
+    "4": {
       "label": "Jeszcze nie jestem pewien"
     }
-  ],
+  },
   "history": {
     "title": "Refleksje z przeszłości",
     "empty": "Jeszcze żadnych odbić."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

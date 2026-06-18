@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Din daglige kropsrutine",
   "body_subtitle": "Hvilken af disse har føltes lidt mærkelig på det seneste? (Vælg dem, der gælder)",
   "continue": "Fortsæt",
-  "body_options": [
-    "Jeg har ikke sovet godt",
-    "Min søvntid er uregelmæssig",
-    "Jeg springer nogle gange måltider over",
-    "Jeg spiser mere end normalt, når jeg er stresset",
-    "Jeg har ikke bevæget mig eller motioneret meget",
-    "Jeg har ikke været meget udenfor",
-    "Min personlige plejerutine har ændret sig",
-    "Min daglige rutine føles stabil"
-  ],
+  "body_options": {
+    "0": "Jeg har ikke sovet godt",
+    "1": "Min søvntid er uregelmæssig",
+    "2": "Jeg springer nogle gange måltider over",
+    "3": "Jeg spiser mere end normalt, når jeg er stresset",
+    "4": "Jeg har ikke bevæget mig eller motioneret meget",
+    "5": "Jeg har ikke været meget udenfor",
+    "6": "Min personlige plejerutine har ændret sig",
+    "7": "Min daglige rutine føles stabil"
+  },
   "mind_title": "🧠 Dine tankemønstre",
-  "mind_options": [
-    "Jeg bliver ved med at overtænke tingene",
-    "Jeg forestiller mig ofte det værst tænkelige scenarie",
-    "Jeg er hård ved mig selv",
-    "Jeg føler skyld over ting, jeg har gjort eller ikke gjort",
-    "Jeg bekymrer mig konstant",
-    "Jeg har svært ved at slappe af",
-    "Mine tanker føles håndterbare"
-  ],
+  "mind_options": {
+    "0": "Jeg bliver ved med at overtænke tingene",
+    "1": "Jeg forestiller mig ofte det værst tænkelige scenarie",
+    "2": "Jeg er hård ved mig selv",
+    "3": "Jeg føler skyld over ting, jeg har gjort eller ikke gjort",
+    "4": "Jeg bekymrer mig konstant",
+    "5": "Jeg har svært ved at slappe af",
+    "6": "Mine tanker føles håndterbare"
+  },
   "coping_title": "🌊 Hvordan du reagerer på stress",
-  "coping_options": [
-    "Jeg undgår opgaver, når jeg er stresset",
-    "Jeg scroller meget på min telefon for at distrahere mig selv",
-    "Jeg tilbringer tid alene for at klare det",
-    "Jeg kaster mig over arbejdet, når jeg er stresset",
-    "Jeg taler med nogen om, hvordan jeg har det",
-    "Jeg laver vejrtrækningsøvelser for at falde til ro",
-    "Jeg ser tv eller spiller spil for at distrahere mig selv",
-    "Jeg er ikke sikker på, hvordan jeg reagerer på stress"
-  ],
+  "coping_options": {
+    "0": "Jeg undgår opgaver, når jeg er stresset",
+    "1": "Jeg scroller meget på min telefon for at distrahere mig selv",
+    "2": "Jeg tilbringer tid alene for at klare det",
+    "3": "Jeg kaster mig over arbejdet, når jeg er stresset",
+    "4": "Jeg taler med nogen om, hvordan jeg har det",
+    "5": "Jeg laver vejrtrækningsøvelser for at falde til ro",
+    "6": "Jeg ser tv eller spiller spil for at distrahere mig selv",
+    "7": "Jeg er ikke sikker på, hvordan jeg reagerer på stress"
+  },
   "reflection_title": "✍️ Refleksion",
   "question_stress": "Hvilken vane øger din stress senere?",
   "question_calm": "Hvilken vane kunne hjælpe dig med at føle dig mere rolig?",
@@ -44,13 +44,13 @@
   "insight_description": "Tryk nedenfor for at se simple vaner, der kan hjælpe med at reducere stress.",
   "show_suggestions": "Showforslag",
   "commit": "Forpligt sig",
-  "suggestions": [
-    "Prøv at gå i seng lidt tidligere i aften",
-    "Gå udenfor for frisk luft i dag",
-    "Tag en pause fra at scrolle et stykke tid",
-    "Tal pænt til dig selv",
-    "Færdiggør en opgave, du har udsat"
-  ],
+  "suggestions": {
+    "0": "Prøv at gå i seng lidt tidligere i aften",
+    "1": "Gå udenfor for frisk luft i dag",
+    "2": "Tag en pause fra at scrolle et stykke tid",
+    "3": "Tal pænt til dig selv",
+    "4": "Færdiggør en opgave, du har udsat"
+  },
   "final_text": "Små ændringer betyder noget. Konsistens skaber ro.",
   "finish": "Afslutning",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "Lang",
+  "mind_subtitle": "Hvilke tankevaner bemærker du oftest, der vender tilbage? Vælg alle, der gælder.",
+  "coping_subtitle": "Hvordan reagerer du typisk, når overvældelse opstår? Vælg alle, der gælder."
 }

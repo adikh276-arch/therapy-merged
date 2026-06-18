@@ -3,11 +3,11 @@
   "intro": {
     "title": "Gedachtenleescontrole",
     "description": "Stel vragen bij de aannames die je maakt over wat anderen denken.",
-    "benefits": [
-      "Stop met het ergste aannemen",
-      "Identificeer bevooroordeelde interpretaties",
-      "Bouw duidelijkere communicatie op"
-    ],
+    "benefits": {
+      "0": "Stop met het ergste aannemen",
+      "1": "Identificeer bevooroordeelde interpretaties",
+      "2": "Bouw duidelijkere communicatie op"
+    },
     "duration": "3-4 minuten",
     "view_past": "Bekijk eerdere reflecties"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Controleer je geloof",
       "desc": "Hoe sterk geloof je nu in je oorspronkelijke gedachte?",
-      "labels": [
-        "Helemaal niet",
-        "Helemaal"
-      ]
+      "labels": {
+        "0": "Helemaal niet",
+        "1": "Helemaal"
+      }
     },
     "step7": {
       "title": "Een meer evenwichtige kijk",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Volgende keer",
       "desc": "Wat zou je kunnen doen in plaats van aan te nemen?",
-      "examples": [
-        "Vraag om verduidelijking",
-        "Geef het wat tijd",
-        "Let op zonder te reageren"
-      ],
+      "examples": {
+        "0": "Vraag om verduidelijking",
+        "1": "Geef het wat tijd",
+        "2": "Let op zonder te reageren"
+      },
       "placeholder": "De volgende keer zou ik..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

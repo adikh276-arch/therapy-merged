@@ -73,13 +73,13 @@
     "confirmDelete": "Sahkan Padam",
     "cancel": "Batal",
     "delete": "Padamkan entri",
-    "prompts": [
-      "Satu detik kecil yang tidak terasa tegang...",
-      "Satu usaha yang telah dilakukan oleh pasangan anda...",
-      "Satu kualiti yang kekal konsisten...",
-      "Niat",
-      "Daftar Masuk Emosi"
-    ]
+    "prompts": {
+      "0": "Satu detik kecil yang tidak terasa tegang...",
+      "1": "Satu usaha yang telah dilakukan oleh pasangan anda...",
+      "2": "Satu kualiti yang kekal konsisten...",
+      "3": "Niat",
+      "4": "Daftar Masuk Emosi"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

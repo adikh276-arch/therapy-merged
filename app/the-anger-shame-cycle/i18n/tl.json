@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Ang siklo",
       "title": "Ipinaliwanag ang loop",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Lumilitaw ang galit"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "ang napili ng mga taga-hanga: \"I'm bad\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Ang kahihiyan ay inilibing"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Muling sumiklab ang galit"
         }
-      ],
+      },
       "button": "Nakikita ko ito"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Pagkagambala",
       "title": "Interrupt ang cycle",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Pangalanan ang pinagmulan",
           "desc": "Itanong: 'Ano ba talaga ang nararamdaman ko?' Nasaktan? Natatakot? Hindi nakikita? Ang pagbibigay ng pangalan nito ay nagpapahina nito."
         },
-        {
+        "1": {
           "title": "Pag-pause ng pakikiramay",
           "desc": "Kamay sa dibdib. Sabihin mo: \"Ito ay mahirap. Tao ako. Makakayanan ko ito.'"
         },
-        {
+        "2": {
           "title": "Ayusin nang may biyaya",
           "desc": "Gumawa ng mga pagbabago kung kinakailangan - ngunit huwag mag-spiral. Hindi ikaw ang pinakamasamang sandali mo."
         }
-      ],
+      },
       "notice": "Ang pag-unawa sa siklo ay ang unang hakbang na. Ginagawa mo ang trabaho.",
       "button": "Kumpletuhin ang Aktibidad"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

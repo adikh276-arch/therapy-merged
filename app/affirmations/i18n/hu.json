@@ -32,153 +32,153 @@
   "feelings": {
     "lonely": {
       "label": "Amikor magányosnak és szomorúnak érzed magad",
-      "affirmations": [
-        "Nem vagyok egyedül, még akkor sem, ha így érzem.",
-        "Az érzéseim megérdemlik a gondoskodást és gyengédséget.",
-        "Ez a pillanat nem tart örökké.",
-        "Jogom van ahhoz, hogy kapcsolatra van szükségem.",
-        "Most azonnal melegséget tudok felajánlani magamnak."
-      ]
+      "affirmations": {
+        "0": "Nem vagyok egyedül, még akkor sem, ha így érzem.",
+        "1": "Az érzéseim megérdemlik a gondoskodást és gyengédséget.",
+        "2": "Ez a pillanat nem tart örökké.",
+        "3": "Jogom van ahhoz, hogy kapcsolatra van szükségem.",
+        "4": "Most azonnal melegséget tudok felajánlani magamnak."
+      }
     },
     "terrified": {
       "label": "Amikor rettegsz,",
-      "affirmations": [
-        "Ebben a pillanatban biztonságban vagyok.",
-        "A félelem érzés, nem jóslat.",
-        "Ezt egy lélegzetvételt tudom venni egyszerre.",
-        "Nem kell mindent most megoldanom.",
-        "Erősebb vagyok ennél a pillanatnál."
-      ]
+      "affirmations": {
+        "0": "Ebben a pillanatban biztonságban vagyok.",
+        "1": "A félelem érzés, nem jóslat.",
+        "2": "Ezt egy lélegzetvételt tudom venni egyszerre.",
+        "3": "Nem kell mindent most megoldanom.",
+        "4": "Erősebb vagyok ennél a pillanatnál."
+      }
     },
     "insignificant": {
       "label": "Amikor jelentéktelennek érzed magad",
-      "affirmations": [
-        "A kis pillanatok még mindig számítanak.",
-        "Nem kell bizonyítanom az értékemet.",
-        "Szabad helyet foglalnom.",
-        "A létezésem számít.",
-        "Elég vagyok úgy, ahogy vagyok."
-      ]
+      "affirmations": {
+        "0": "A kis pillanatok még mindig számítanak.",
+        "1": "Nem kell bizonyítanom az értékemet.",
+        "2": "Szabad helyet foglalnom.",
+        "3": "A létezésem számít.",
+        "4": "Elég vagyok úgy, ahogy vagyok."
+      }
     },
     "overwhelmed": {
       "label": "Amikor túlterheltnek érzed magad",
-      "affirmations": [
-        "Nem kell mindent egyszerre csinálnom.",
-        "Egy apró lépés elég.",
-        "Rendben van, ha megállsz.",
-        "Engedem pihenni.",
-        "Ez ismét kezelhetővé válik."
-      ]
+      "affirmations": {
+        "0": "Nem kell mindent egyszerre csinálnom.",
+        "1": "Egy apró lépés elég.",
+        "2": "Rendben van, ha megállsz.",
+        "3": "Engedem pihenni.",
+        "4": "Ez ismét kezelhetővé válik."
+      }
     },
     "hopeless": {
       "label": "Amikor reménytelennek érzed magad",
-      "affirmations": [
-        "Ma nincs szükségem válaszokra.",
-        "A változás még mindig lehetséges.",
-        "Már túléltem nehéz napokat korábban.",
-        "Most itt maradhatok.",
-        "Valami gyengéd még mindig kibontakozhat."
-      ]
+      "affirmations": {
+        "0": "Ma nincs szükségem válaszokra.",
+        "1": "A változás még mindig lehetséges.",
+        "2": "Már túléltem nehéz napokat korábban.",
+        "3": "Most itt maradhatok.",
+        "4": "Valami gyengéd még mindig kibontakozhat."
+      }
     },
     "conflicted": {
       "label": "Amikor ellentmondásos érzésed van",
-      "affirmations": [
-        "Rendben van, ha egyszerre több dolgot is érezel.",
-        "Nem kell azonnal tisztázni.",
-        "A zavar nem jelenti a kudarcot.",
-        "Adhatok magamnak időt.",
-        "Bízom magamban, hogy kitalálom ezt."
-      ]
+      "affirmations": {
+        "0": "Rendben van, ha egyszerre több dolgot is érezel.",
+        "1": "Nem kell azonnal tisztázni.",
+        "2": "A zavar nem jelenti a kudarcot.",
+        "3": "Adhatok magamnak időt.",
+        "4": "Bízom magamban, hogy kitalálom ezt."
+      }
     },
     "self-critical": {
       "label": "Amikor nagyon önkritikus vagy",
-      "affirmations": [
-        "Kedvesen tudok magamhoz beszélni.",
-        "Nem kell magamat megbüntetnem ahhoz, hogy fejlődjek.",
-        "A hibák nem határozzák meg, ki vagyok.",
-        "Tanulok, nem bukok el.",
-        "A növekedéshez nem kell kegyetlenség."
-      ]
+      "affirmations": {
+        "0": "Kedvesen tudok magamhoz beszélni.",
+        "1": "Nem kell magamat megbüntetnem ahhoz, hogy fejlődjek.",
+        "2": "A hibák nem határozzák meg, ki vagyok.",
+        "3": "Tanulok, nem bukok el.",
+        "4": "A növekedéshez nem kell kegyetlenség."
+      }
     },
     "out-of-place": {
       "label": "Amikor társadalmilag idegennek érzed magad",
-      "affirmations": [
-        "Megengedett, hogy csendben legyek vagy más.",
-        "Nem kell mások energiájával versenyeznem.",
-        "Úgy tartozom a helyem, ahogy vagyok.",
-        "Finoman elfoglalok helyet.",
-        "Nem csinálom rosszul ezt."
-      ]
+      "affirmations": {
+        "0": "Megengedett, hogy csendben legyek vagy más.",
+        "1": "Nem kell mások energiájával versenyeznem.",
+        "2": "Úgy tartozom a helyem, ahogy vagyok.",
+        "3": "Finoman elfoglalok helyet.",
+        "4": "Nem csinálom rosszul ezt."
+      }
     },
     "unsafe": {
       "label": "Amikor idegenek közelében biztonságban érzed magad",
-      "affirmations": [
-        "A saját tempómban tudok haladni.",
-        "Megengedett, hogy megvédjem a határaimat.",
-        "A testemben tudok maradni.",
-        "Megengedik, hogy elhagyjam a helyzeteket.",
-        "Biztonságban tudom tartani magam."
-      ]
+      "affirmations": {
+        "0": "A saját tempómban tudok haladni.",
+        "1": "Megengedett, hogy megvédjem a határaimat.",
+        "2": "A testemben tudok maradni.",
+        "3": "Megengedik, hogy elhagyjam a helyzeteket.",
+        "4": "Biztonságban tudom tartani magam."
+      }
     },
     "pressured": {
       "label": "Amikor nyomás alatt érzed magad a munkahelyen",
-      "affirmations": [
-        "Az értékem nem a termelékenységem.",
-        "Nem kell folyamatosan bizonyítanom magam.",
-        "Ma már a legjobbat nyújtva is elég.",
-        "Egy feladat egyszerre rendben van.",
-        "Több vagyok, mint a szerepem."
-      ]
+      "affirmations": {
+        "0": "Az értékem nem a termelékenységem.",
+        "1": "Nem kell folyamatosan bizonyítanom magam.",
+        "2": "Ma már a legjobbat nyújtva is elég.",
+        "3": "Egy feladat egyszerre rendben van.",
+        "4": "Több vagyok, mint a szerepem."
+      }
     },
     "face-the-day": {
       "label": "Amikor nem akarsz szembe nézni a nappal",
-      "affirmations": [
-        "Ma apró darabokban tudom elvini.",
-        "A túljutás elég.",
-        "Nincs szükségem motivációra a kezdéshez.",
-        "A finoman megjelenni még mindig számít.",
-        "Ez a nap nem határoz meg engem."
-      ]
+      "affirmations": {
+        "0": "Ma apró darabokban tudom elvini.",
+        "1": "A túljutás elég.",
+        "2": "Nincs szükségem motivációra a kezdéshez.",
+        "3": "A finoman megjelenni még mindig számít.",
+        "4": "Ez a nap nem határoz meg engem."
+      }
     },
     "future": {
       "label": "Amikor a jövődért aggódsz",
-      "affirmations": [
-        "Visszatérhetek a jelenbe.",
-        "Úgy kezelem a dolgokat, ahogy jönnek.",
-        "Ma nincs szükségem bizonyosságra.",
-        "Képes vagyok alkalmazkodni.",
-        "Kicsit jobban bízhatok magamban."
-      ]
+      "affirmations": {
+        "0": "Visszatérhetek a jelenbe.",
+        "1": "Úgy kezelem a dolgokat, ahogy jönnek.",
+        "2": "Ma nincs szükségem bizonyosságra.",
+        "3": "Képes vagyok alkalmazkodni.",
+        "4": "Kicsit jobban bízhatok magamban."
+      }
     },
     "stuck": {
       "label": "Amikor úgy érzed, hogy egy problémába szorulsz",
-      "affirmations": [
-        "Az, hogy beragadtam, nem azt jelenti, hogy törött vagyok.",
-        "Megállhatok anélkül, hogy feladnám.",
-        "Nincs szükségem azonnali megoldásokra.",
-        "Megengedett, hogy bizonytalan vagyok.",
-        "Még mindig haladok, még lassan."
-      ]
+      "affirmations": {
+        "0": "Az, hogy beragadtam, nem azt jelenti, hogy törött vagyok.",
+        "1": "Megállhatok anélkül, hogy feladnám.",
+        "2": "Nincs szükségem azonnali megoldásokra.",
+        "3": "Megengedett, hogy bizonytalan vagyok.",
+        "4": "Még mindig haladok, még lassan."
+      }
     },
     "compare": {
       "label": "Amikor összehasonlítod magad",
-      "affirmations": [
-        "Az én utam az enyém.",
-        "Nem kell versenyeznem ahhoz, hogy méltó legyek.",
-        "Megengedik, hogy a saját tempómban fejlődjek.",
-        "Valaki más sikere nem törli el az enyémet.",
-        "Nem vagyok lemaradva."
-      ]
+      "affirmations": {
+        "0": "Az én utam az enyém.",
+        "1": "Nem kell versenyeznem ahhoz, hogy méltó legyek.",
+        "2": "Megengedik, hogy a saját tempómban fejlődjek.",
+        "3": "Valaki más sikere nem törli el az enyémet.",
+        "4": "Nem vagyok lemaradva."
+      }
     },
     "give-up": {
       "label": "Amikor fel akarod adni",
-      "affirmations": [
-        "Most nem kell semmit döntenem.",
-        "Ez az érzés el fog múlni.",
-        "Többet éltem túl, mint gondolnám.",
-        "Maradhatok még egy pillanatig.",
-        "Még mindig itt vagyok — és ez számít."
-      ]
+      "affirmations": {
+        "0": "Most nem kell semmit döntenem.",
+        "1": "Ez az érzés el fog múlni.",
+        "2": "Többet éltem túl, mint gondolnám.",
+        "3": "Maradhatok még egy pillanatig.",
+        "4": "Még mindig itt vagyok — és ez számít."
+      }
     }
   },
   "app_complete_title": "Érezd magad megerősítettnek",
@@ -188,11 +188,11 @@
   "app_description": "Alakítsd át a gondolkodásmódodat napi megerősítésekkel.",
   "intro": {
     "description": "A napi megerősítések segítenek átalakítani a gondolkodásmódodat és érzelmi ellenálló képességet fejleszteni. Szánj néhány percet arra, hogy a pozitív gondolatokra koncentrálj, és beszélj kedvesen magaddal.",
-    "benefits": [
-      "Találj békét a nehéz pillanatokban",
-      "A negatív gondolkodási minták kihívása",
-      "Fejlessz önmagaddal való együttérzést és erőt"
-    ]
+    "benefits": {
+      "0": "Találj békét a nehéz pillanatokban",
+      "1": "A negatív gondolkodási minták kihívása",
+      "2": "Fejlessz önmagaddal való együttérzést és erőt"
+    }
   },
   "affirmation_for": "Megerősítés a következőre:",
   "affirmation": "Megerősítés",
@@ -218,5 +218,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "feelings_heading": "Hogy érzed magad?",
+  "feelings_subheading": "Válaszd ki azt az érzelmet, amit te",
+  "lang": "hosszú"
 }

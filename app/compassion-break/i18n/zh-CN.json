@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "intro": {
+    "view_past": "查看往届会议"
+  },
+  "history": {
+    "title": "自我慈悲的历史",
+    "no_entries": "未发现过去的故障日志。"
+  },
+  "loading": "加载历史......"
 }

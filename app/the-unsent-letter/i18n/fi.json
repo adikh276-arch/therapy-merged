@@ -3,39 +3,40 @@
   "app_subtitle": "Vapauta ajatuksesi turvallisesti ja yksityisesti",
   "intro": {
     "title": "Lähettämätön kirje",
-    "description": [
-      "Joskus on asioita, joita toivoisimme voivamme sanoa — mutta emme koskaan saaneet tilaisuutta.",
-      "Tämä saattoi johtua siitä, ettei se tuntunut turvalliselta, ajoitus ei ollut oikea tai sanat olivat liian vaikeita ilmaista ääneen.",
-      "Tämä aktiviteetti antaa sinulle yksityisen tilan pukea ajatukset sanoiksi.",
-      "Sinun ei tarvitse lähettää tätä kirjettä. Tämä on vain sinua varten — ilmaista, vapauttaa ja ymmärtää tunteitasi paremmin."
-    ],
+    "description": {
+      "0": "Joskus on asioita, joita toivoisimme voivamme sanoa — mutta emme koskaan saaneet tilaisuutta.",
+      "1": "Tämä saattoi johtua siitä, ettei se tuntunut turvalliselta, ajoitus ei ollut oikea tai sanat olivat liian vaikeita ilmaista ääneen.",
+      "2": "Tämä aktiviteetti antaa sinulle yksityisen tilan pukea ajatukset sanoiksi.",
+      "3": "Sinun ei tarvitse lähettää tätä kirjettä. Tämä on vain sinua varten — ilmaista, vapauttaa ja ymmärtää tunteitasi paremmin."
+    },
     "notice": "Kirjoita vapaasti. Kukaan muu ei tule näkemään tätä.",
     "button": "Aloita kirjoittaminen →"
   },
   "writing": {
     "title": "Kirjoita se, mitä olet pidätellyt sisälläsi",
     "desc": "Voit kirjoittaa kumppanillesi, entiselle kumppanillesi tai jopa itse suhteelle. Tähän ei ole oikeaa tai väärää tapaa.",
-    "prompts": [
-      "Tunnen...",
-      "Toivon...",
-      "En koskaan sanonut...",
-      "Mikä satutti minua...",
-      "Mitä tarvitsin..."
-    ],
+    "prompts": {
+      "0": "Tunnen...",
+      "1": "Toivon...",
+      "2": "En koskaan sanonut...",
+      "3": "Mikä satutti minua...",
+      "4": "Mitä tarvitsin..."
+    },
     "placeholder": "Rakas ____,\nOlen halunnut sanoa...",
     "notice": "Voit pysähtyä ja palata milloin tahansa.",
     "button": "Jatka →"
   },
   "reflection": {
     "title": "Ota hetki tämän kanssa",
-    "description": [
-      "Olet juuri pukenut ajatuksesi ja tunteesi sanoiksi — se vaatii rohkeutta.",
-      "Saatat huomata tunteiden sekoituksen juuri nyt, ja se on täysin ok.",
-      "Ennen kuin jatkat, hengitä syvään ja tarkista itsesi kanssa lempeästi."
-    ],
+    "description": {
+      "0": "Olet juuri pukenut ajatuksesi ja tunteesi sanoiksi — se vaatii rohkeutta.",
+      "1": "Saatat huomata tunteiden sekoituksen juuri nyt, ja se on täysin ok.",
+      "2": "Ennen kuin jatkat, hengitä syvään ja tarkista itsesi kanssa lempeästi."
+    },
     "notice": "Tämä oli sinun parantumistasi varten, ei lähettämistä varten.",
     "save_button": "Tallenna kirje",
-    "finish_button": "Viimeistely"
+    "finish_button": "Viimeistely",
+    "save_success": "Lähettämätön kirjeesi on turvallisesti korjattu yksityiseen paikalliseen päiväkirjaasi. Ilmaisu on syvällinen vapautus."
   },
   "history": {
     "title": "Aiemmat kirjeet",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Oletko varma, että haluat poistaa tämän lähettämättömän kirjeen?"
   },
   "app_description": "Vapauta ajatuksesi turvallisesti ja yksityisesti",
   "more": "Lisää",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "trække vejret langsomt ind...",
+  "instruction_out": "ånde langsomt ud...",
+  "instruction_hold": "hold forsigtigt...",
+  "lang": "Lang"
 }

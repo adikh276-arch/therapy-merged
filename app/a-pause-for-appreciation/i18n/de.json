@@ -73,13 +73,13 @@
     "confirmDelete": "Löschen bestätigen",
     "cancel": "Stornieren",
     "delete": "Eintrag löschen",
-    "prompts": [
-      "Ein kurzer Moment, der sich nicht angespannt anfühlte…",
-      "Eine der Bemühungen Ihres Partners…",
-      "Eine Eigenschaft, die sich nicht verändert hat…",
-      "Absicht",
-      "Emotionaler Check-in"
-    ]
+    "prompts": {
+      "0": "Ein kurzer Moment, der sich nicht angespannt anfühlte…",
+      "1": "Eine der Bemühungen Ihres Partners…",
+      "2": "Eine Eigenschaft, die sich nicht verändert hat…",
+      "3": "Absicht",
+      "4": "Emotionaler Check-in"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

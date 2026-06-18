@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Emosyonal na suporta",
       "prompt": "Anong uri ng suporta ang talagang makakatulong sa iyo ngayon?",
-      "hints": [
-        "Kailangan ko lang ng isang tao para sa...",
-        "Makakatulong ito kung...",
-        "Ang gusto ko talaga ay..."
-      ]
+      "hints": {
+        "0": "Kailangan ko lang ng isang tao para sa...",
+        "1": "Makakatulong ito kung...",
+        "2": "Ang gusto ko talaga ay..."
+      }
     },
     "Space / time for myself": {
       "label": "Space / oras para sa aking sarili",
       "prompt": "Ano ang magiging hitsura ng espasyo na iyon para sa iyo?",
-      "hints": [
-        "Gagamitin ko ang oras na iyon para...",
-        "Papayagan ako ng espasyo...",
-        "Kailangan ko ng kuwarto para sa..."
-      ]
+      "hints": {
+        "0": "Gagamitin ko ang oras na iyon para...",
+        "1": "Papayagan ako ng espasyo...",
+        "2": "Kailangan ko ng kuwarto para sa..."
+      }
     },
     "Clear communication": {
       "label": "Malinaw na komunikasyon",
       "prompt": "Ano ang magiging hitsura ng mas malinaw na komunikasyon para sa iyo?",
-      "hints": [
-        "Sana masabi ko...",
-        "Kung talagang nakikinig sila, sasabihin ko sa kanila...",
-        "Mahirap ang komunikasyon kapag..."
-      ]
+      "hints": {
+        "0": "Sana masabi ko...",
+        "1": "Kung talagang nakikinig sila, sasabihin ko sa kanila...",
+        "2": "Mahirap ang komunikasyon kapag..."
+      }
     },
     "Reassurance": {
       "label": "Katiyakan",
       "prompt": "Anong uri ng katiyakan ang makabuluhan?",
-      "hints": [
-        "Kailangan kong marinig na...",
-        "Kalmado ako na malaman...",
-        "Patuloy akong nag-aalala na ..."
-      ]
+      "hints": {
+        "0": "Kailangan kong marinig na...",
+        "1": "Kalmado ako na malaman...",
+        "2": "Patuloy akong nag-aalala na ..."
+      }
     },
     "Understanding": {
       "label": "Pag-unawa",
       "prompt": "Ano ang magiging hitsura ng pakiramdam na tunay na nauunawaan?",
-      "hints": [
-        "Sana malaman ng mga tao na...",
-        "Ang nararamdaman ko talaga ay...",
-        "Walang nakakakita na ako..."
-      ]
+      "hints": {
+        "0": "Sana malaman ng mga tao na...",
+        "1": "Ang nararamdaman ko talaga ay...",
+        "2": "Walang nakakakita na ako..."
+      }
     },
     "Stability": {
       "label": "Katatagan",
       "prompt": "Ano ang pakiramdam ng katatagan sa iyong buhay ngayon?",
-      "hints": [
-        "Kailangan ko ng mga bagay na dapat kong maramdaman...",
-        "Ano ang magiging dahilan kung bakit ako nag-aalala ay...",
-        "Ang kahulugan ng katatagan ay ..."
-      ]
+      "hints": {
+        "0": "Kailangan ko ng mga bagay na dapat kong maramdaman...",
+        "1": "Ano ang magiging dahilan kung bakit ako nag-aalala ay...",
+        "2": "Ang kahulugan ng katatagan ay ..."
+      }
     },
     "Honesty": {
       "label": "Katapatan",
       "prompt": "Ano ang magiging hitsura ng higit na katapatan sa iyong sitwasyon?",
-      "hints": [
-        "Ang katotohanan na kailangan kong harapin ay...",
-        "Gusto kong maging tapat tungkol sa...",
-        "Ang tunay na nangyayari ay..."
-      ]
+      "hints": {
+        "0": "Ang katotohanan na kailangan kong harapin ay...",
+        "1": "Gusto kong maging tapat tungkol sa...",
+        "2": "Ang tunay na nangyayari ay..."
+      }
     },
     "Respect": {
       "label": "Paggalang",
       "prompt": "Ano ang hitsura ng paggalang para sa iyo ngayon?",
-      "hints": [
-        "Karapat-dapat akong tratuhin ...",
-        "Ang paggalang ay tila ...",
-        "Kailangan ko ng mga tao para sa..."
-      ]
+      "hints": {
+        "0": "Karapat-dapat akong tratuhin ...",
+        "1": "Ang paggalang ay tila ...",
+        "2": "Kailangan ko ng mga tao para sa..."
+      }
     },
     "Clarity about relationship": {
       "label": "Kalinawan tungkol sa relasyon",
       "prompt": "Anong uri ng kalinawan ang makakatulong sa iyo nang husto?",
-      "hints": [
-        "Kailangan kong malaman kung ...",
-        "Ang nakakalito sa akin ay...",
-        "Nais kong maging malinaw tayo tungkol sa ..."
-      ]
+      "hints": {
+        "0": "Kailangan kong malaman kung ...",
+        "1": "Ang nakakalito sa akin ay...",
+        "2": "Nais kong maging malinaw tayo tungkol sa ..."
+      }
     },
     "default": {
       "prompt": "Ano ang magiging hitsura nito sa isang tunay na sitwasyon?",
-      "hints": [
-        "Ang pumapasok sa isip ay...",
-        "Sa ngayon nararamdaman ko...",
-        "Kung tapat ako sa sarili ko..."
-      ]
+      "hints": {
+        "0": "Ang pumapasok sa isip ay...",
+        "1": "Sa ngayon nararamdaman ko...",
+        "2": "Kung tapat ako sa sarili ko..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Sabihin ang isang bagay nang tapat"
     },
-    {
+    "1": {
       "label": "Maglaan ng oras para sa aking sarili"
     },
-    {
+    "2": {
       "label": "Makipag-ugnay sa isang tao"
     },
-    {
+    "3": {
       "label": "Magtakda ng isang maliit na hangganan"
     },
-    {
+    "4": {
       "label": "Hindi pa sigurado"
     }
-  ],
+  },
   "history": {
     "title": "Mga Nakaraang Pagninilay",
     "empty": "Wala pang mga pagmumuni-muni."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

@@ -1,15 +1,15 @@
 {
   "app_title": "Ruoka- ja tuntekartta",
-  "screen_titles": [
-    "Tervetuloa",
-    "Ruokatottumukset",
-    "Sisäinen vuoropuhelu",
-    "Fyysinen aistiminen",
-    "Kartta",
-    "Hellä tuki",
-    "Viimeinen katsaus",
-    "Reflektiointi"
-  ],
+  "screen_titles": {
+    "0": "Tervetuloa",
+    "1": "Ruokatottumukset",
+    "2": "Sisäinen vuoropuhelu",
+    "3": "Fyysinen aistiminen",
+    "4": "Kartta",
+    "5": "Hellä tuki",
+    "6": "Viimeinen katsaus",
+    "7": "Reflektiointi"
+  },
   "welcome_text": "Hei siellä... Olen todella iloinen, että olet täällä 💛. Käydään varovasti läpi, mitä on tapahtunut.",
   "coming_up_label": "Mitä on viime aikoina tulossa?",
   "begin_mapping": "Aloita kartoitus",
@@ -32,36 +32,36 @@
   "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
   "save_success": "Kuvio säilynyt",
   "save_error": "Kuvion säilyttäminen epäonnistui",
-  "emotions_list": [
-    "😰 Stressi",
-    "😢 Surua",
-    "😶 Tylsyys",
-    "😟 Ahdistus",
-    "🥺 Yksinäisyys",
-    "💭 Jotain muuta..."
-  ],
-  "food_responses": [
-    "🍽️ Syön enemmän",
-    "🚫 Syön vähemmän",
-    "🍫 Himoitsen tiettyjä ruokia",
-    "😣 Vältän ruokaa",
-    "😐 Ei todellista muutosta"
-  ],
-  "body_sensations": [
-    "💔 Tiukka rinta",
-    "🪨 Raskas tunne",
-    "🦵 Levoton / levoton",
-    "🔋 Matala energia",
-    "🌀 Solmuja vatsassa",
-    "❓ Jotain muuta..."
-  ],
-  "support_options": [
-    "🗣️ Puhu jonkun kanssa",
-    "☕ Pidä tauko",
-    "📝 Päiväkirja",
-    "🌬️ Hengitä",
-    "🎧 Häiritsen itseäni"
-  ],
+  "emotions_list": {
+    "0": "😰 Stressi",
+    "1": "😢 Surua",
+    "2": "😶 Tylsyys",
+    "3": "😟 Ahdistus",
+    "4": "🥺 Yksinäisyys",
+    "5": "💭 Jotain muuta..."
+  },
+  "food_responses": {
+    "0": "🍽️ Syön enemmän",
+    "1": "🚫 Syön vähemmän",
+    "2": "🍫 Himoitsen tiettyjä ruokia",
+    "3": "😣 Vältän ruokaa",
+    "4": "😐 Ei todellista muutosta"
+  },
+  "body_sensations": {
+    "0": "💔 Tiukka rinta",
+    "1": "🪨 Raskas tunne",
+    "2": "🦵 Levoton / levoton",
+    "3": "🔋 Matala energia",
+    "4": "🌀 Solmuja vatsassa",
+    "5": "❓ Jotain muuta..."
+  },
+  "support_options": {
+    "0": "🗣️ Puhu jonkun kanssa",
+    "1": "☕ Pidä tauko",
+    "2": "📝 Päiväkirja",
+    "3": "🌬️ Hengitä",
+    "4": "🎧 Häiritsen itseäni"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Pyrkiä tavoittamaan 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Oletko varma, että haluat poistaa tämän kartoituksen?"
   },
   "app_description": "Ruoka- ja tunnekartta",
   "more": "Lisää",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  "view_weekly": "Katso karttahistoria",
+  " ": " "
 }

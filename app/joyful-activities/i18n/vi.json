@@ -14,7 +14,8 @@
     "input1_placeholder": "ví dụ: đi bộ trong công viên",
     "input2_label": "Khi tôi làm điều này, tôi thường cảm thấy...",
     "input2_placeholder": "ví dụ: bình tĩnh và hiện tại",
-    "button": "Tiếp tục"
+    "button": "Tiếp tục",
+    "stage": "Giai đoạn 1: Thu hồi"
   },
   "meaning": {
     "title": "Điều gì làm cho nó có ý nghĩa?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "ví dụ: được kết nối và nối đất",
     "input3_label": "Nó làm tôi nhớ đến...",
     "input3_placeholder": "ví dụ: mùa hè khi còn nhỏ",
-    "button": "Lưu Phản Chiếu Của Tôi"
+    "button": "Lưu Phản Chiếu Của Tôi",
+    "stage": "Giai đoạn 2: Ý nghĩa"
   },
   "smallStep": {
     "title": "Một bước tiến nhỏ",
@@ -34,7 +36,8 @@
     "input1_label": "Một bước nhỏ mà tôi có thể thực hiện trong tuần này là...",
     "input1_placeholder": "ví dụ: đi bộ 10 phút",
     "button_save": "Lưu",
-    "button_home": "Về trang chủ"
+    "button_home": "Về trang chủ",
+    "stage": "Giai đoạn 3: Hành động"
   },
   "affirmation": {
     "title": "Bạn đã có một bước đi đẹp đẽ",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

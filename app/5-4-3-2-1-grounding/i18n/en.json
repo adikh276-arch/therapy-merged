@@ -62,7 +62,10 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "you_feel": "You feel",
+    "reflection_question": "How do you feel after this grounding practice?",
+    "reflection_placeholder": "Calmer, grounded..."
   },
   "app_title": "5-4-3-2-1 Grounding",
   "intro_p1": "Reduces anxiety quickly",
@@ -90,5 +93,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "\\n\\n": "\\n\\n"
 }

@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "慢慢吸氣......",
+  "instruction_out": "慢慢吐氣......",
+  "instruction_hold": "輕輕地握著......",
+  "lang": "長篇"
 }

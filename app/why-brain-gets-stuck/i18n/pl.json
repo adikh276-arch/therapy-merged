@@ -10,21 +10,22 @@
   "s2": {
     "tag": "łagodne prawdy",
     "title": "Logika przetrwania mózgu",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Alarm pozostał włączony",
         "body": "Nadmierna czujność i przestraszenie się łatwo nie są przesadą — system alarmowy twojego mózgu wykonuje swoją pracę zbyt dobrze."
       },
-      {
+      "1": {
         "header": "Retrospekcje to wspomnienia",
         "body": "Wyzwalacze cofają twój umysł, bo nigdy nie dostał sygnału, że zagrożenie minęło. Próbuje cię chronić."
       },
-      {
+      "2": {
         "header": "Walcząc o ciebie",
         "body": "Każdy objaw był kiedyś aktem przetrwania. Twój mózg robił to, co musiał, by cię utrzymać przy życiu."
       }
-    ],
-    "healing": "Uzdrowienie to nie zapominanie. Chodzi o to, żeby pomóc twojemu mózgowi nauczyć się, że jesteś teraz bezpieczny."
+    },
+    "healing": "Uzdrowienie to nie zapominanie. Chodzi o to, żeby pomóc twojemu mózgowi nauczyć się, że jesteś teraz bezpieczny.",
+    "finish_reading": "Skończ czytać"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie",
+  "complete": {
+    "message": "Ty"
+  }
 }

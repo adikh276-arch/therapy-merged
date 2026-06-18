@@ -10,57 +10,57 @@
       "title": "Dormi odihnitor",
       "description": "Țintește 7–9 ore de somn în fiecare noapte. Încearcă să dormi și să te trezești în același timp în fiecare zi.",
       "why": "Somnul ajută creierul și corpul să se recupereze și reduce hormonii de stres.",
-      "do": [
-        "Menține un program fix de somn",
-        "Evită ecranele cu o oră înainte de culcare",
-        "Păstrează camera răcoroasă și întunecată",
-        "Evită cofeina după ora 16:00"
-      ],
+      "do": {
+        "0": "Menține un program fix de somn",
+        "1": "Evită ecranele cu o oră înainte de culcare",
+        "2": "Păstrează camera răcoroasă și întunecată",
+        "3": "Evită cofeina după ora 16:00"
+      },
       "button": "Setează reamintirea somnului"
     },
     "breathing": {
       "title": "Exersează respirația profundă",
       "description": "Petrece câteva minute concentrându-te pe respirație. Respirația lentă reduce anxietatea.",
       "why": "Respirația lentă activează răspunsul de relaxare al corpului.",
-      "do": [
-        "Inspiră 4 secunde",
-        "Ține timp de 4 secunde",
-        "Expiră timp de 4 secunde",
-        "Repetă timp de 1 minut"
-      ]
+      "do": {
+        "0": "Inspiră 4 secunde",
+        "1": "Ține timp de 4 secunde",
+        "2": "Expiră timp de 4 secunde",
+        "3": "Repetă timp de 1 minut"
+      }
     },
     "exercise": {
       "title": "Mișcă-ți corpul",
       "description": "Mersul ușor sau întinderile ajută la eliberarea stresului și la îmbunătățirea stării de spirit.",
       "why": "Exercițiile eliberează endorfine și îmbunătățesc starea de spirit.",
-      "do": [
-        "15 minute de mers pe jos",
-        "Întindere ușoară",
-        "Scurtă sesiune de yoga",
-        "Antrenament rapid acasă"
-      ]
+      "do": {
+        "0": "15 minute de mers pe jos",
+        "1": "Întindere ușoară",
+        "2": "Scurtă sesiune de yoga",
+        "3": "Antrenament rapid acasă"
+      }
     },
     "caffeine": {
       "title": "Limitează cofeina și zahărul",
       "description": "Prea multă cofeină și zahăr pot crește anxietatea și pot perturba somnul.",
       "why": "Prea multă cofeină și zahăr cresc anxietatea și problemele de somn.",
-      "do": [
-        "Înlocuiește o cafea cu ceai din plante",
-        "Bea mai multă apă",
-        "Reducerea gustărilor cu zahăr",
-        "Evită cofeina târziu în zi"
-      ]
+      "do": {
+        "0": "Înlocuiește o cafea cu ceai din plante",
+        "1": "Bea mai multă apă",
+        "2": "Reducerea gustărilor cu zahăr",
+        "3": "Evită cofeina târziu în zi"
+      }
     },
     "planning": {
       "title": "Planifică-ți ziua",
       "description": "Împarte sarcinile mari în pași mai mici pentru a evita să te simți copleșit.",
       "why": "Planificarea reduce aglomerația mentală și suprasolicitarea.",
-      "do": [
-        "Scrie 3 sarcini principale",
-        "Împarte sarcinile în pași mici",
-        "Concentrează-te pe o singură sarcină pe rând",
-        "Ia pauze scurte"
-      ]
+      "do": {
+        "0": "Scrie 3 sarcini principale",
+        "1": "Împarte sarcinile în pași mici",
+        "2": "Concentrează-te pe o singură sarcină pe rând",
+        "3": "Ia pauze scurte"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Inspiră...",
+  "Hold…": "Stai...",
+  "Exhale…": "Expiră...",
+  "breathing_instruction": "Urmărește cercul pentru a regla",
+  "Resume": "Recapitulare",
+  "Pause": "Pauză",
+  "lang": "lung",
+  "Grounding": "Reducerea stresului mental",
+  "stay_present": "Sfaturi pentru reducerea stresului",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Alege orice strategie țintă de mai jos pentru a explora de ce ajută și cum o poți aplica zilnic."
+  },
+  "wellness_tip": "STRATEGIA ZILNICĂ DE STRES"
 }

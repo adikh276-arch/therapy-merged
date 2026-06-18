@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "intro_benefit_1": "对你的核心信念获得绝对清晰",
+  "intro_benefit_2": "设定个人转变的明确目标",
+  "reflection_subtitle": "起草你的志向。填写你使命的核心组成部分。",
+  "mission_your_statement": "你的陈述",
+  "saving": "拯救......",
+  "mission_save_finish": "保存并完成",
+  "mission_share": "分享",
+  "mission_start_over": "重新开始",
+  "loading": "加载声明......",
+  "app": {
+    "startActivity": "创造使命"
+  }
 }

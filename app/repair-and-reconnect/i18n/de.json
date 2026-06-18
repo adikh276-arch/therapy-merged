@@ -31,114 +31,114 @@
     "safety": "Du musst nicht alles reparieren – wähle einfach einen kleinen Schritt.",
     "button": "Probier das →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Schicken Sie einen lockeren Check-in",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Erkenne die Spannung an",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Gebt euch gegenseitig etwas Raum",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Lass es los und mach weiter.",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Denk einfach darüber nach.",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Sende eine warme Botschaft",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Nenn ehrlich, was passiert ist",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Verpflichte dich, das nächste Mal zu pausieren",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Wähle Frieden statt Recht zu haben",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Reflektiere darüber, was du wirklich brauchst",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Senden Sie eine professionelle Nachricht",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Sprechen Sie es respektvoll an",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Plane beim nächsten Mal eine ruhigere Reaktion",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Bleib professionell und mach weiter.",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Denken Sie über Grenzen nach",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Melde dich mit einer einfachen Nachricht",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Erkenne, was passiert ist, was passiert ist.",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Mach das nächste Mal eine Pause",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Lass es vorerst gut sein",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Einfach reflektieren (noch keine Aktion)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Sich zu melden – selbst wenn es nicht perfekt ist – wird fast immer besser aufgenommen, als wir erwarten.",
         "howTitle": "Fang klein an",
         "howBody": "Du musst keinen Aufsatz schreiben. Ein paar ehrliche Worte können die Tür zur Wiederverbindung öffnen.",
-        "prompts": [
-          "Hey, ich habe an dich gedacht. Ich hoffe, es geht dir gut.",
-          "Ich weiß, dass es angespannt war – wollte nur sagen, dass es mir wichtig ist.",
-          "Es tut mir leid wegen vorhin. Können wir reden, wenn du bereit bist?"
-        ],
+        "prompts": {
+          "0": "Hey, ich habe an dich gedacht. Ich hoffe, es geht dir gut.",
+          "1": "Ich weiß, dass es angespannt war – wollte nur sagen, dass es mir wichtig ist.",
+          "2": "Es tut mir leid wegen vorhin. Können wir reden, wenn du bereit bist?"
+        },
         "promptLabel": "Wählen Sie einen Ausgangspunkt:",
         "editLabel": "Mach ihn zu deinem eigenen:"
       },
@@ -169,11 +169,11 @@
         "insight": "Die Leute brauchen nicht, dass du perfekt bist – sie müssen wissen, dass du es bemerkt hast.",
         "howTitle": "Benennen Sie es sanft",
         "howBody": "Du kannst es zugeben, ohne die ganze Schuld auf dich zu nehmen. Nenn einfach ehrlich, was passiert ist.",
-        "prompts": [
-          "Ich weiß, dass es zwischen uns hitzig wurde. Ich möchte, dass du weißt, dass ich es bemerkt habe.",
-          "Mir ist klar, dass ich vielleicht hart rüberkam. Das war nicht meine Absicht.",
-          "Ich habe darüber nachgedacht, was passiert ist, und wünschte, ich hätte es anders gehandhabt."
-        ],
+        "prompts": {
+          "0": "Ich weiß, dass es zwischen uns hitzig wurde. Ich möchte, dass du weißt, dass ich es bemerkt habe.",
+          "1": "Mir ist klar, dass ich vielleicht hart rüberkam. Das war nicht meine Absicht.",
+          "2": "Ich habe darüber nachgedacht, was passiert ist, und wünschte, ich hätte es anders gehandhabt."
+        },
         "promptLabel": "Wählen Sie einen Ausgangspunkt:",
         "editLabel": "Mach ihn zu deinem eigenen:"
       },
@@ -183,11 +183,11 @@
         "insight": "Eine sechssekündige Pause reicht oft aus, um von Reaktion zu Reflexion zu wechseln.",
         "howTitle": "🧘 Plane deine Pause",
         "howBody": "Denk an ein einfaches Signal – wie einen kurzen Atemzug oder einen kurzen Schritt zurücktreten – bevor du antwortest.",
-        "prompts": [
-          "Das nächste Mal, wenn ich traurig bin, werde ich tief durchatmen, bevor ich antworte.",
-          "Ich werde versuchen, 'Gib mir einen Moment' zu sagen, anstatt sofort zu reagieren.",
-          "Ich gehe für ein paar Minuten zurück, um meine Gedanken zu ordnen."
-        ],
+        "prompts": {
+          "0": "Das nächste Mal, wenn ich traurig bin, werde ich tief durchatmen, bevor ich antworte.",
+          "1": "Ich werde versuchen, 'Gib mir einen Moment' zu sagen, anstatt sofort zu reagieren.",
+          "2": "Ich gehe für ein paar Minuten zurück, um meine Gedanken zu ordnen."
+        },
         "promptLabel": "Wählen Sie eine Verpflichtung, die sich richtig anfühlt:",
         "editLabel": "Schreiben Sie Ihre eigene Absicht:"
       },
@@ -197,11 +197,11 @@
         "insight": "Loslassen heißt nicht aufgeben – es heißt, Frieden statt Recht zu haben.",
         "howTitle": "🕊️ Lass vorsichtig los",
         "howBody": "Du musst es nicht vergessen. Entscheide einfach, dass das nicht mehr deine Gefühle bestimmen muss.",
-        "prompts": [
-          "Ich entscheide mich, das loszulassen – nicht, weil es keine Rolle spielte, sondern weil mein Frieden wichtiger ist.",
-          "Ich lasse das Bedürfnis los, damit Recht zu haben. Ich entscheide mich für Verbindung.",
-          "Diese Situation definiert unsere Beziehung nicht. Ich gehe voran."
-        ],
+        "prompts": {
+          "0": "Ich entscheide mich, das loszulassen – nicht, weil es keine Rolle spielte, sondern weil mein Frieden wichtiger ist.",
+          "1": "Ich lasse das Bedürfnis los, damit Recht zu haben. Ich entscheide mich für Verbindung.",
+          "2": "Diese Situation definiert unsere Beziehung nicht. Ich gehe voran."
+        },
         "promptLabel": "Wähle, was dich anspricht:",
         "editLabel": "Schreibe, was sich für dich wahr anfühlt:"
       },
@@ -211,11 +211,11 @@
         "insight": "Tagebuchschreiben oder sogar das Nachdenken über das, was passiert ist, hilft dir, Emotionen ohne Druck zu verarbeiten.",
         "howTitle": "🔍 Schau nach innen",
         "howBody": "Frag dich: Was habe ich wirklich unter der Wut gefühlt? Oft ist es Verletzung, Angst oder Enttäuschung.",
-        "prompts": [
-          "Unter meiner Wut glaube ich, dass ich verletzt war.",
-          "Mir ist klar, dass ich aus Angst reagiert habe, nicht gehört zu werden.",
-          "Was ich wirklich brauchte, war, mich respektiert und wertgeschätzt zu fühlen."
-        ],
+        "prompts": {
+          "0": "Unter meiner Wut glaube ich, dass ich verletzt war.",
+          "1": "Mir ist klar, dass ich aus Angst reagiert habe, nicht gehört zu werden.",
+          "2": "Was ich wirklich brauchte, war, mich respektiert und wertgeschätzt zu fühlen."
+        },
         "promptLabel": "Wähle, was dich anspricht:",
         "editLabel": "Schreiben Sie Ihre eigene Reflexion:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

@@ -73,13 +73,13 @@
     "confirmDelete": "Confirmar exclusão",
     "cancel": "Cancelar",
     "delete": "Excluir entrada",
-    "prompts": [
-      "Um pequeno momento que não transmitiu tensão…",
-      "Um esforço que seu parceiro fez…",
-      "Uma qualidade que se manteve constante…",
-      "Intenção",
-      "Avaliação Emocional"
-    ]
+    "prompts": {
+      "0": "Um pequeno momento que não transmitiu tensão…",
+      "1": "Um esforço que seu parceiro fez…",
+      "2": "Uma qualidade que se manteve constante…",
+      "3": "Intenção",
+      "4": "Avaliação Emocional"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Duygusal destek",
       "prompt": "Şu anda gerçekten size nasıl bir destek yardımcı olurdu?",
-      "hints": [
-        "Sadece birine ihtiyacım var...",
-        "Yardımcı olurdu ki...",
-        "Gerçekten istediğim şey..."
-      ]
+      "hints": {
+        "0": "Sadece birine ihtiyacım var...",
+        "1": "Yardımcı olurdu ki...",
+        "2": "Gerçekten istediğim şey..."
+      }
     },
     "Space / time for myself": {
       "label": "Kendim için zaman / alan",
       "prompt": "O alana sahip olmak senin için nasıl olurdu?",
-      "hints": [
-        "O zamanı kullanırdım...",
-        "Uzay bana...",
-        "Yere ihtiyacım var..."
-      ]
+      "hints": {
+        "0": "O zamanı kullanırdım...",
+        "1": "Uzay bana...",
+        "2": "Yere ihtiyacım var..."
+      }
     },
     "Clear communication": {
       "label": "Açık iletişim",
       "prompt": "Daha net iletişim sizin için nasıl olurdu?",
-      "hints": [
-        "Keşke söyleyebilsem...",
-        "Gerçekten dinleseler, onlara söylerdim...",
-        "İletişim zor geliyor çünkü ..."
-      ]
+      "hints": {
+        "0": "Keşke söyleyebilsem...",
+        "1": "Gerçekten dinleseler, onlara söylerdim...",
+        "2": "İletişim zor geliyor çünkü ..."
+      }
     },
     "Reassurance": {
       "label": "Güvence",
       "prompt": "Ne tür bir güvence anlamlı gelir ki?",
-      "hints": [
-        "Bunu duymam lazım...",
-        "Bunu bilmek beni rahatlatırdı...",
-        "Sürekli endişeleniyorum ki..."
-      ]
+      "hints": {
+        "0": "Bunu duymam lazım...",
+        "1": "Bunu bilmek beni rahatlatırdı...",
+        "2": "Sürekli endişeleniyorum ki..."
+      }
     },
     "Understanding": {
       "label": "Anlama",
       "prompt": "Gerçekten anlaşıldığını hissetmek nasıl olurdu?",
-      "hints": [
-        "Keşke insanlar bilse...",
-        "Gerçekten hissettiğim şey...",
-        "Kimse benim gördüğünü görmüyor..."
-      ]
+      "hints": {
+        "0": "Keşke insanlar bilse...",
+        "1": "Gerçekten hissettiğim şey...",
+        "2": "Kimse benim gördüğünü görmüyor..."
+      }
     },
     "Stability": {
       "label": "Stabilite",
       "prompt": "Şu anda hayatında istikrar nasıl bir his olurdu?",
-      "hints": [
-        "Hissetmem gereken şeylere ihtiyacım var...",
-        "Beni yere ayakta bırakacak şey...",
-        "İstikrar demek..."
-      ]
+      "hints": {
+        "0": "Hissetmem gereken şeylere ihtiyacım var...",
+        "1": "Beni yere ayakta bırakacak şey...",
+        "2": "İstikrar demek..."
+      }
     },
     "Honesty": {
       "label": "Dürüstlük",
       "prompt": "Senin durumunda daha dürüstlük nasıl olurdu?",
-      "hints": [
-        "Yüzleşmem gereken gerçek şu...",
-        "Dürüst olmak istiyorum...",
-        "Gerçekten olan şu ki..."
-      ]
+      "hints": {
+        "0": "Yüzleşmem gereken gerçek şu...",
+        "1": "Dürüst olmak istiyorum...",
+        "2": "Gerçekten olan şu ki..."
+      }
     },
     "Respect": {
       "label": "Saygı",
       "prompt": "Şu anda senin için saygı nasıl görünüyor?",
-      "hints": [
-        "Tedavi edilmeyi hak ediyorum...",
-        "Saygı şöyle görünürdü ki...",
-        "İnsanlara ihtiyacım var..."
-      ]
+      "hints": {
+        "0": "Tedavi edilmeyi hak ediyorum...",
+        "1": "Saygı şöyle görünürdü ki...",
+        "2": "İnsanlara ihtiyacım var..."
+      }
     },
     "Clarity about relationship": {
       "label": "İlişkiye dair netlik",
       "prompt": "Hangi tür netlik size en çok yardımcı olurdu?",
-      "hints": [
-        "Bilmem lazım...",
-        "Beni şaşırtan şey...",
-        "Açık bir konuda olmamızı istiyorum..."
-      ]
+      "hints": {
+        "0": "Bilmem lazım...",
+        "1": "Beni şaşırtan şey...",
+        "2": "Açık bir konuda olmamızı istiyorum..."
+      }
     },
     "default": {
       "prompt": "Gerçek bir durumda bu nasıl görünürdü?",
-      "hints": [
-        "Aklıma gelen...",
-        "Şu anda kendimi...",
-        "Kendime dürüst olursam..."
-      ]
+      "hints": {
+        "0": "Aklıma gelen...",
+        "1": "Şu anda kendimi...",
+        "2": "Kendime dürüst olursam..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Dürüstçe bir şey söyle"
     },
-    {
+    "1": {
       "label": "Kendime zaman ayır"
     },
-    {
+    "2": {
       "label": "Birine ulaşmak"
     },
-    {
+    "3": {
       "label": "Küçük bir sınır koymak"
     },
-    {
+    "4": {
       "label": "Henüz emin değilim"
     }
-  ],
+  },
   "history": {
     "title": "Geçmiş Yansımalar",
     "empty": "Henüz yansıma yok."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

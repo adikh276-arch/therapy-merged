@@ -1,14 +1,14 @@
 {
   "app_title": "Nghỉ ngơi từ bi",
-  "screen_titles": [
-    "Nhận phòng",
-    "Xác định",
-    "Thở",
-    "Lòng tốt",
-    "Ca",
-    "Suy ngẫm",
-    "Hoàn thành"
-  ],
+  "screen_titles": {
+    "0": "Nhận phòng",
+    "1": "Xác định",
+    "2": "Thở",
+    "3": "Lòng tốt",
+    "4": "Ca",
+    "5": "Suy ngẫm",
+    "6": "Hoàn thành"
+  },
   "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
   "save_success": "Phản chiếu được bảo tồn",
   "save_error": "Không giữ được phản xạ",
@@ -25,14 +25,14 @@
   "continue_button": "Tiếp tục",
   "nameit_title": "Diễn tả nó thành lời",
   "nameit_subtitle": "Ngay bây giờ, tôi cảm thấy _______",
-  "emotions_list": [
-    "lo lắng",
-    "có tội",
-    "choáng ngợp",
-    "thì",
-    "mệt mỏi",
-    "buồn"
-  ],
+  "emotions_list": {
+    "0": "lo lắng",
+    "1": "có tội",
+    "2": "choáng ngợp",
+    "3": "thì",
+    "4": "mệt mỏi",
+    "5": "buồn"
+  },
   "label_custom_emotion": "hoặc nhập của riêng bạn",
   "placeholder_emotion": "1–2 từ",
   "nameit_footer": "Đơn giản là đủ.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài",
+  "intro": {
+    "view_past": "Xem các phiên trước"
+  },
+  "history": {
+    "title": "Lịch sử lòng trắc ẩn",
+    "no_entries": "Không tìm thấy nhật ký nghỉ trước đây."
+  },
+  "loading": "Đang tải lịch sử..."
 }

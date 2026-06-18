@@ -39,7 +39,10 @@
         "2": "监测你的情绪模式",
         "3": "查看历史和进展"
       },
-      "duration": "2-3分钟"
+      "duration": "2-3分钟",
+      "benefit1": "记录每日身心健康活动",
+      "benefit2": "注意那些让你无法休息的挑战",
+      "benefit3": "通过积极强化来建立正念"
     },
     "checkin": {
       "title": "自我关爱签到🌿",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长"
 }

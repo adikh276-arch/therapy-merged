@@ -10,57 +10,57 @@
       "title": "Få Rolig Søvn",
       "description": "Sigt efter 7–9 timers søvn hver nat. Prøv at sove og stå op på samme tid hver dag.",
       "why": "Søvn hjælper din hjerne og krop med at komme sig og sænker stresshormoner.",
-      "do": [
-        "Hold en fast søvnrytme",
-        "Undgå skærme 1 time før sengetid",
-        "Hold rummet køligt og mørkt",
-        "Undgå koffein efter kl. 16"
-      ],
+      "do": {
+        "0": "Hold en fast søvnrytme",
+        "1": "Undgå skærme 1 time før sengetid",
+        "2": "Hold rummet køligt og mørkt",
+        "3": "Undgå koffein efter kl. 16"
+      },
       "button": "Sæt søvnpåmindelse"
     },
     "breathing": {
       "title": "Øv dyb vejrtrækning",
       "description": "Brug et par minutter på at fokusere på din vejrtrækning. Langsom vejrtrækning mindsker angst.",
       "why": "Langsom vejrtrækning aktiverer kroppens afslapningsrespons.",
-      "do": [
-        "Indånd i 4 sekunder",
-        "Hold i 4 sekunder",
-        "Udånd i 4 sekunder",
-        "Gentag i 1 minut"
-      ]
+      "do": {
+        "0": "Indånd i 4 sekunder",
+        "1": "Hold i 4 sekunder",
+        "2": "Udånd i 4 sekunder",
+        "3": "Gentag i 1 minut"
+      }
     },
     "exercise": {
       "title": "Bevæg din krop",
       "description": "Let gåtur eller udstrækning hjælper med at aflaste stress og forbedre humøret.",
       "why": "Motion frigiver endorfiner og forbedrer humøret.",
-      "do": [
-        "15 minutters gang",
-        "Let udstrækning",
-        "Kort yogasession",
-        "Hurtig hjemmetræning"
-      ]
+      "do": {
+        "0": "15 minutters gang",
+        "1": "Let udstrækning",
+        "2": "Kort yogasession",
+        "3": "Hurtig hjemmetræning"
+      }
     },
     "caffeine": {
       "title": "Begræns koffein og sukker",
       "description": "For meget koffein og sukker kan øge angst og forstyrre søvnen.",
       "why": "For meget koffein og sukker øger angst og søvnproblemer.",
-      "do": [
-        "Erstat en kaffe med urtete",
-        "Drik mere vand",
-        "Reducer sukkerholdige snacks",
-        "Undgå koffein sent på dagen"
-      ]
+      "do": {
+        "0": "Erstat en kaffe med urtete",
+        "1": "Drik mere vand",
+        "2": "Reducer sukkerholdige snacks",
+        "3": "Undgå koffein sent på dagen"
+      }
     },
     "planning": {
       "title": "Planlæg din dag",
       "description": "Del store opgaver op i mindre trin for at undgå at føle dig overvældet.",
       "why": "Planlægning reducerer mental rod og overvældelse.",
-      "do": [
-        "Skriv 3 hovedopgaver",
-        "Del opgaver op i små trin",
-        "Fokuser på én opgave ad gangen",
-        "Tag korte pauser"
-      ]
+      "do": {
+        "0": "Skriv 3 hovedopgaver",
+        "1": "Del opgaver op i små trin",
+        "2": "Fokuser på én opgave ad gangen",
+        "3": "Tag korte pauser"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Indånd...",
+  "Hold…": "Hold...",
+  "Exhale…": "Udånd...",
+  "breathing_instruction": "Følg cirklen for at regulere",
+  "Resume": "CV",
+  "Pause": "Pause",
+  "lang": "Lang",
+  "Grounding": "Mental afstressning",
+  "stay_present": "Tips til stresslindring",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Vælg en hvilken som helst målrettet strategi nedenfor for at udforske, hvorfor den hjælper, og hvordan du kan anvende den dagligt."
+  },
+  "wellness_tip": "DAGLIG STRESSSTRATEGI"
 }

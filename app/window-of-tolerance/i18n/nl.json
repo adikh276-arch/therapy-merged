@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Boven Je Raam",
         "subtitle": "Je zenuwstelsel draait op volle toeren. Dat is oké. Laten we je voorzichtig terugbrengen.",
-        "feelings": [
-          "Snel hart",
-          "Oppervlakkige ademhaling",
-          "Paniek of woede",
-          "Racende gedachten",
-          "Rusteloosheid"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Snel hart",
+          "1": "Oppervlakkige ademhaling",
+          "2": "Paniek of woede",
+          "3": "Racende gedachten",
+          "4": "Rusteloosheid"
+        },
+        "tools": {
+          "0": {
             "name": "Doos-ademhaling",
             "desc": "Inademen 4, maan 4, uitademen 4, maan 4. Herhaal dit 4 keer."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Aarding",
             "desc": "5 dingen zien, 4 aanraken, 3 horen, 2 ruiken, 1 proeven."
           },
-          {
+          "2": {
             "name": "Voeten op de Vloer",
             "desc": "Druk je voeten neer, zeg: 'Ik ben hier. Ik ben veilig. Dit gaat voorbij.'"
           }
-        ],
+        },
         "button": "Ik voel me iets rustiger →",
         "footer": "Je bent veilig. Neem je tijd."
       },
       "hypo": {
         "title": "Onder uw raam",
         "subtitle": "Je zenuwstelsel is stil geworden. Het beschermt je. Laten we hem voorzichtig weer wakker maken.",
-        "feelings": [
-          "Gevoelloosheid",
-          "Ontkoppeling verbreken",
-          "Extreme vermoeidheid",
-          "Onwerkelijk voelen",
-          "Vlakheid"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Gevoelloosheid",
+          "1": "Ontkoppeling verbreken",
+          "2": "Extreme vermoeidheid",
+          "3": "Onwerkelijk voelen",
+          "4": "Vlakheid"
+        },
+        "tools": {
+          "0": {
             "name": "Zachte beweging",
             "desc": "Sta, langzaam lopen, armen zwaaien. Laat je lichaam wakker worden."
           },
-          {
+          "1": {
             "name": "Ritmisch geluid",
             "desc": "Speel muziek met een steady beat, stap met je voeten mee."
           },
-          {
+          "2": {
             "name": "Spreek hardop",
             "desc": "Zeg je naam, locatie, de datum van vandaag hardop. Activeer het denkende brein weer."
           }
-        ],
+        },
         "button": "Ik voel me iets meer aanwezig →",
         "footer": "Je doet het geweldig. Neem het stap voor stap."
       },
       "safe": {
         "title": "Binnen in je raam",
         "subtitle": "Je bent in je veilige zone. Hier vinden genezing, verbinding en groei plaats. Goed gedaan.",
-        "feelings": [
-          "Heden en bewust",
-          "Rustige ademhaling",
-          "Helderdenkend denken",
-          "Verbonden"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Heden en bewust",
+          "1": "Rustige ademhaling",
+          "2": "Helderdenkend denken",
+          "3": "Verbonden"
+        },
+        "tools": {
+          "0": {
             "name": "Blijf langzaam ademen",
             "desc": "Door de neus in, naar buiten door de mond."
           },
-          {
+          "1": {
             "name": "Reflecteer",
             "desc": "Wat heeft je geholpen hier te blijven? Schrijf het op."
           },
-          {
+          "2": {
             "name": "Zelfcompassie",
             "desc": "'Mijn zenuwstelsel deed zijn werk. Ik ben niet kapot. Ik genees.'"
           }
-        ],
+        },
         "button": "Ga verder met mijn Toolkit →",
         "footer": "Je bent het waard om verzorgd en te helen."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Jouw persoonlijke gereedschapskist",
       "subtitle": "Jouw favoriete tools — opgeslagen en klaar wanneer je ze nodig hebt.",
-      "tools_list": [
-        "🌬️ Doos-ademhaling",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Voeten op de Vloer",
-        "🚶 Zachte beweging",
-        "🎵 Muziek",
-        "💬 Spreek hardop"
-      ],
+      "tools_list": {
+        "0": "🌬️ Doos-ademhaling",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Voeten op de Vloer",
+        "3": "🚶 Zachte beweging",
+        "4": "🎵 Muziek",
+        "5": "💬 Spreek hardop"
+      },
       "journal_label": "📝 De reflectie van vandaag",
       "journal_desc": "Wat was een moment vandaag waarop je merkte dat je zenuwstelsel verschoof — en wat deed je daarmee?",
       "journal_placeholder": "Schrijf hier...",
@@ -156,13 +156,13 @@
       "preserve_button": "Behoud Reflectie"
     }
   },
-  "nav": [
-    "Inchecken",
-    "Uitleg",
-    "Monitoring",
-    "De Zone",
-    "Toolkit"
-  ],
+  "nav": {
+    "0": "Inchecken",
+    "1": "Uitleg",
+    "2": "Monitoring",
+    "3": "De Zone",
+    "4": "Toolkit"
+  },
   "history": {
     "title": "Incheckgeschiedenis",
     "empty": "Nog geen check-ins."
@@ -176,15 +176,15 @@
     "title": "Inchecken voltooid",
     "message": "Je hebt je huidige toestand succesvol in kaart gebracht. Bewustzijn opbouwen is de eerste stap naar het vinden van je balans."
   },
-  "days": [
-    "Mijn",
-    "Dinsdag",
-    "Echtgenootschap",
-    "Herfst",
-    "Vrijdag",
-    "Za",
-    "Zon"
-  ],
+  "days": {
+    "0": "Mijn",
+    "1": "Dinsdag",
+    "2": "Echtgenootschap",
+    "3": "Herfst",
+    "4": "Vrijdag",
+    "5": "Za",
+    "6": "Zon"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Opnieuw beginnen",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

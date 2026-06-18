@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Bunu adım adım ele alalım. 💛",
-    "description": [
-      "Bugün tüm hikayeni anlatmak zorunda değilsin. Sadece küçük bir parça yeterli.",
-      "Şu anda güvendesin. Ne yazdığın ve ne yazmadığın senin kontrolünde."
-    ],
+    "description": {
+      "0": "Bugün tüm hikayeni anlatmak zorunda değilsin. Sadece küçük bir parça yeterli.",
+      "1": "Şu anda güvendesin. Ne yazdığın ve ne yazmadığın senin kontrolünde."
+    },
     "breath": "Başlamadan önce yavaşça nefes al.",
     "button_ready": "Hazırım",
     "button_history": "Geçmiş Anlatılar",
@@ -21,20 +21,20 @@
     "title": "Ne iyi ✨ hissettirse yaz",
     "subtitle": "Sözlerin, tempon",
     "prompt_label": "Bir başlangıç noktasına mı ihtiyacınız var?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "En çok hatırladığım şey...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "O zamanlar kendimi...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "O zamandan beri fark ettim ki...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Buradan yazmaya başla...",
     "notice": "Bunu yapmanın doğru bir yolu yok. Birkaç satır bile yeterlidir.",
     "button": "Yazmayı Bitir"
@@ -43,10 +43,10 @@
     "title": "Önemli bir şey yaptın.",
     "subtitle": "Kendin için orada olduğun için teşekkürler.",
     "settle_title": "Biraz duralım ve yerleşelim",
-    "steps": [
-      "Etrafına bak ve görebileceğin 3 şeyi söyle.",
-      "Yavaşça nefes al... ve dışarı."
-    ],
+    "steps": {
+      "0": "Etrafına bak ve görebileceğin 3 şeyi söyle.",
+      "1": "Yavaşça nefes al... ve dışarı."
+    },
     "feeling_label": "Şu anda hissediyorum:",
     "feeling_placeholder": "Bir iki kelime...",
     "quote": "\"Her şeyi bir anda taşımana gerek yok. Hazır hissettiğin anda geri gelebilirsin.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Acima da Sua Janela",
         "subtitle": "Seu sistema nervoso está em sobrecarga. Tudo bem. Vamos trazê-lo de volta com cuidado.",
-        "feelings": [
-          "Coração acelerado",
-          "Respiração superficial",
-          "Pânico ou raiva",
-          "Pensamentos acelerados",
-          "Inquietação"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Coração acelerado",
+          "1": "Respiração superficial",
+          "2": "Pânico ou raiva",
+          "3": "Pensamentos acelerados",
+          "4": "Inquietação"
+        },
+        "tools": {
+          "0": {
             "name": "Respiração em Caixa",
             "desc": "Inspire 4, lua 4, expire 4, lua 4. Repita 4 vezes."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Encalhamento",
             "desc": "5 coisas vêem, 4 tocam, 3 ouvem, 2 cheiram, 1 prova."
           },
-          {
+          "2": {
             "name": "Pés no chão",
             "desc": "Pressione os pés para baixo, diga: 'Eu estou aqui. Estou seguro. Isso vai passar.'"
           }
-        ],
+        },
         "button": "Me sinto um pouco mais calmo →",
         "footer": "Você está seguro. Vá com calma."
       },
       "hypo": {
         "title": "Abaixo da Sua Janela",
         "subtitle": "Seu sistema nervoso ficou em silêncio. Está te protegendo. Vamos acordá-lo suavemente de novo.",
-        "feelings": [
-          "Dormência",
-          "Desconexão",
-          "Fadiga extrema",
-          "Sentindo-se irreal",
-          "Planicidade"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Dormência",
+          "1": "Desconexão",
+          "2": "Fadiga extrema",
+          "3": "Sentindo-se irreal",
+          "4": "Planicidade"
+        },
+        "tools": {
+          "0": {
             "name": "Movimento Suave",
             "desc": "Fique em pé, caminhe devagar, balance os braços. Deixe seu corpo acordar."
           },
-          {
+          "1": {
             "name": "Som Rítmico",
             "desc": "Toque música com ritmo constante, bata os pés com os pés."
           },
-          {
+          "2": {
             "name": "Fale em Voz Alta",
             "desc": "Diga seu nome, local, data de hoje em voz alta. Reative o cérebro pensante."
           }
-        ],
+        },
         "button": "Me sinto um pouco mais presente →",
         "footer": "Você está indo muito bem. Vá passo a passo."
       },
       "safe": {
         "title": "Dentro da Sua Janela",
         "subtitle": "Você está na sua zona segura. É aqui que acontecem a cura, a conexão e o crescimento. Muito bem.",
-        "feelings": [
-          "Presente e consciente",
-          "Respiração constante",
-          "Pensamento claro",
-          "Conectados"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Presente e consciente",
+          "1": "Respiração constante",
+          "2": "Pensamento claro",
+          "3": "Conectados"
+        },
+        "tools": {
+          "0": {
             "name": "Continue respirando devagar",
             "desc": "Inspira pelo nariz, expira pela boca."
           },
-          {
+          "1": {
             "name": "Refletir",
             "desc": "O que te ajudou a ficar aqui? Anote."
           },
-          {
+          "2": {
             "name": "Autocompaixão",
             "desc": "'Meu sistema nervoso estava fazendo seu trabalho. Eu não estou quebrado. Estou me recuperando.'"
           }
-        ],
+        },
         "button": "Continue com meu kit de ferramentas →",
         "footer": "Você merece cuidado e cura."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Seu Kit de Ferramentas Pessoal",
       "subtitle": "Suas ferramentas de referência — guardadas e prontas sempre que precisar.",
-      "tools_list": [
-        "🌬️ Respiração em Caixa",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Pés no chão",
-        "🚶 Movimento Suave",
-        "🎵 Música",
-        "💬 Fale em Voz Alta"
-      ],
+      "tools_list": {
+        "0": "🌬️ Respiração em Caixa",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Pés no chão",
+        "3": "🚶 Movimento Suave",
+        "4": "🎵 Música",
+        "5": "💬 Fale em Voz Alta"
+      },
       "journal_label": "📝 Reflexão de hoje",
       "journal_desc": "Qual foi o momento hoje em que você percebeu que seu sistema nervoso estava mudando — e o que você fez a respeito?",
       "journal_placeholder": "Escreva aqui...",
@@ -156,13 +156,13 @@
       "preserve_button": "Preservar a Reflexão"
     }
   },
-  "nav": [
-    "Check-in",
-    "Explicando",
-    "Monitoramento",
-    "A Zona",
-    "Kit de ferramentas"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Explicando",
+    "2": "Monitoramento",
+    "3": "A Zona",
+    "4": "Kit de ferramentas"
+  },
   "history": {
     "title": "Histórico de Check-In",
     "empty": "Ainda não houve checagens."
@@ -176,15 +176,15 @@
     "title": "Check-in Completo",
     "message": "Você mapeou com sucesso seu estado atual. Aumentar a conscientização é o primeiro passo para encontrar seu equilíbrio."
   },
-  "days": [
-    "Meu",
-    "Ter",
-    "Casar",
-    "Outono",
-    "Sex",
-    "Sat",
-    "Sun"
-  ],
+  "days": {
+    "0": "Meu",
+    "1": "Ter",
+    "2": "Casar",
+    "3": "Outono",
+    "4": "Sex",
+    "5": "Sat",
+    "6": "Sun"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Recomeçar",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

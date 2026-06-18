@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "పొడవు",
+  "entry_x": "ప్రవేశం #",
+  "loading": "లోడ్ అవుతోంది...",
+  "delete": "తొలగించు"
 }

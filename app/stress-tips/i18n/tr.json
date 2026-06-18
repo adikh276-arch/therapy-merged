@@ -10,57 +10,57 @@
       "title": "Rahat Uyu",
       "description": "Her gece 7–9 saat uyumayı hedefleyin. Her gün aynı saatte uyumaya ve uyanmaya çalışın.",
       "why": "Uyku, beyninizin ve vücudunuzun iyileşmesine yardımcı olur ve stres hormonlarını azaltır.",
-      "do": [
-        "Sabit bir uyku programı tutun",
-        "Yatmadan 1 saat önce ekrandan kaçının",
-        "Odayı serin ve karanlık tutun",
-        "Saat 16:00'ten sonra kafeinden kaçının"
-      ],
+      "do": {
+        "0": "Sabit bir uyku programı tutun",
+        "1": "Yatmadan 1 saat önce ekrandan kaçının",
+        "2": "Odayı serin ve karanlık tutun",
+        "3": "Saat 16:00'ten sonra kafeinden kaçının"
+      },
       "button": "Uyku Hatırlatıcısını Ayarla"
     },
     "breathing": {
       "title": "Derin Nefes Alışığı Yapın",
       "description": "Birkaç dakika nefesine odaklan. Yavaş nefes almak kaygıyı azaltır.",
       "why": "Yavaş nefes almak, vücudunuzun rahatlama tepkisini aktive eder.",
-      "do": [
-        "4 saniye nefes al",
-        "4 saniye bekleyin",
-        "4 saniye nefes ver",
-        "1 dakika tekrarlayın"
-      ]
+      "do": {
+        "0": "4 saniye nefes al",
+        "1": "4 saniye bekleyin",
+        "2": "4 saniye nefes ver",
+        "3": "1 dakika tekrarlayın"
+      }
     },
     "exercise": {
       "title": "Vücudunu Hareket Ettir",
       "description": "Hafif yürüyüş veya esneme stresi azaltmaya ve ruh halini iyileştirmeye yardımcı olur.",
       "why": "Egzersiz endorfinleri serbest bırakır ve ruh halini iyileştirir.",
-      "do": [
-        "15 dakikalık yürüyüş",
-        "Hafif esneme",
-        "Kısa yoga seansı",
-        "Hızlı ev antrenmanı"
-      ]
+      "do": {
+        "0": "15 dakikalık yürüyüş",
+        "1": "Hafif esneme",
+        "2": "Kısa yoga seansı",
+        "3": "Hızlı ev antrenmanı"
+      }
     },
     "caffeine": {
       "title": "Kafein ve Şekeri Sınırlayın",
       "description": "Çok fazla kafein ve şeker anksiyeteyi artırabilir ve uykuyu bozabilir.",
       "why": "Çok fazla kafein ve şeker anksiyete ve uyku sorunlarını artırır.",
-      "do": [
-        "Bir kahveyi bitkisel çayla değiştirin",
-        "Daha fazla su iç",
-        "Şekerli atıştırmalıkları azaltın",
-        "Günün geç saatlerinde kafeinden kaçının"
-      ]
+      "do": {
+        "0": "Bir kahveyi bitkisel çayla değiştirin",
+        "1": "Daha fazla su iç",
+        "2": "Şekerli atıştırmalıkları azaltın",
+        "3": "Günün geç saatlerinde kafeinden kaçının"
+      }
     },
     "planning": {
       "title": "Gününüzü Planlayın",
       "description": "Büyük görevleri daha küçük adımlara ayırarak kendinizi bunalmış hissetmeyin.",
       "why": "Planlama, zihinsel karmaşayı ve bunalmayı azaltır.",
-      "do": [
-        "3 ana görev yaz",
-        "Görevleri küçük adımlara böl",
-        "Aynı anda tek bir göreve odaklanın",
-        "Kısa molalar verin"
-      ]
+      "do": {
+        "0": "3 ana görev yaz",
+        "1": "Görevleri küçük adımlara böl",
+        "2": "Aynı anda tek bir göreve odaklanın",
+        "3": "Kısa molalar verin"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Nefes al...",
+  "Hold…": "Bekle...",
+  "Exhale…": "Nefes ver...",
+  "breathing_instruction": "Daireyi takip ederek düzenleme yapın",
+  "Resume": "Özgeçmiş",
+  "Pause": "Duraklama",
+  "lang": "uzun",
+  "Grounding": "Zihinsel Stres Azaltma",
+  "stay_present": "Stres Azaltma İpuçları",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Aşağıdaki herhangi bir hedef stratejisini seçin, neden yardımcı olduğunu ve günlük olarak nasıl uygulayabileceğinizi keşfedin."
+  },
+  "wellness_tip": "GÜNLÜK STRES STRATEJISI"
 }

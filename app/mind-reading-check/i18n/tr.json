@@ -3,11 +3,11 @@
   "intro": {
     "title": "Zihin Okuma Kontrolü",
     "description": "Başkalarının ne düşündüğü hakkında yaptığınız varsayımları sorgulayın.",
-    "benefits": [
-      "En kötüsünü varsaymayı bırak",
-      "Önyargılı yorumları belirleyin",
-      "Daha net iletişim kurmak"
-    ],
+    "benefits": {
+      "0": "En kötüsünü varsaymayı bırak",
+      "1": "Önyargılı yorumları belirleyin",
+      "2": "Daha net iletişim kurmak"
+    },
     "duration": "3-4 dakika",
     "view_past": "Geçmiş Yansımaları Gör"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "İnancını kontrol et",
       "desc": "Orijinal düşüncesine şimdi ne kadar güçlü inanıyorsun?",
-      "labels": [
-        "Hiç de değil",
-        "Tamamen"
-      ]
+      "labels": {
+        "0": "Hiç de değil",
+        "1": "Tamamen"
+      }
     },
     "step7": {
       "title": "Daha dengeli bir bakış açısı",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Bir dahaki sefere",
       "desc": "Varsaymak yerine ne yapabilirdiniz?",
-      "examples": [
-        "Açıklama iste",
-        "Biraz zaman ver",
-        "Tepki vermeden bildirim"
-      ],
+      "examples": {
+        "0": "Açıklama iste",
+        "1": "Biraz zaman ver",
+        "2": "Tepki vermeden bildirim"
+      },
       "placeholder": "Bir dahaki sefere..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

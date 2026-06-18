@@ -73,13 +73,13 @@
     "confirmDelete": "Konfirmasi Penghapusan",
     "cancel": "Membatalkan",
     "delete": "Hapus entri",
-    "prompts": [
-      "Satu momen kecil yang tidak terasa tegang…",
-      "Salah satu upaya yang telah dilakukan pasangan Anda…",
-      "Salah satu kualitas yang tetap konsisten…",
-      "Maksud",
-      "Pemeriksaan Emosional"
-    ]
+    "prompts": {
+      "0": "Satu momen kecil yang tidak terasa tegang…",
+      "1": "Salah satu upaya yang telah dilakukan pasangan Anda…",
+      "2": "Salah satu kualitas yang tetap konsisten…",
+      "3": "Maksud",
+      "4": "Pemeriksaan Emosional"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

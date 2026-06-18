@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "yavaşça nefes al...",
+  "instruction_out": "yavaşça nefes ver...",
+  "instruction_hold": "nazikçe tut...",
+  "lang": "uzun"
 }

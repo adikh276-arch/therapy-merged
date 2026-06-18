@@ -14,7 +14,8 @@
     "input1_placeholder": "f.eks. gå ture i parken",
     "input2_label": "Når jeg gør det her, føler jeg mig som regel...",
     "input2_placeholder": "f.eks. rolig og nærværende",
-    "button": "Fortsæt"
+    "button": "Fortsæt",
+    "stage": "Fase 1: Tilbagekaldelse"
   },
   "meaning": {
     "title": "Hvad gør det meningsfuldt?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "f.eks. forbundet og jordet",
     "input3_label": "Det minder mig om...",
     "input3_placeholder": "f.eks. Summers som barn",
-    "button": "Red mit spejlbillede"
+    "button": "Red mit spejlbillede",
+    "stage": "Fase 2: Betydning"
   },
   "smallStep": {
     "title": "Et lille skridt fremad",
@@ -34,7 +36,8 @@
     "input1_label": "Et lille skridt, jeg kunne tage denne uge, er...",
     "input1_placeholder": "f.eks. gå en 10-minutters gåtur",
     "button_save": "Gem",
-    "button_home": "Gå hjem"
+    "button_home": "Gå hjem",
+    "stage": "Fase 3: Handling"
   },
   "affirmation": {
     "title": "Du tog et smukt skridt",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

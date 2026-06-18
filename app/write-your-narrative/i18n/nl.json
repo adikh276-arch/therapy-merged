@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Laten we dit stap voor stap aanpakken. 💛",
-    "description": [
-      "Je hoeft vandaag niet je hele verhaal te vertellen. Een klein deel is genoeg.",
-      "Je bent nu veilig. Je hebt de controle over wat je schrijft—en wat je niet schrijft."
-    ],
+    "description": {
+      "0": "Je hoeft vandaag niet je hele verhaal te vertellen. Een klein deel is genoeg.",
+      "1": "Je bent nu veilig. Je hebt de controle over wat je schrijft—en wat je niet schrijft."
+    },
     "breath": "Haal langzaam adem voordat we beginnen.",
     "button_ready": "Ik ben er klaar voor",
     "button_history": "Verleden verhalen",
@@ -21,20 +21,20 @@
     "title": "Schrijf wat goed voelt ✨",
     "subtitle": "Jouw woorden, jouw tempo",
     "prompt_label": "Heb je een startpunt nodig?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Wat ik me het meest herinner is...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Op dat moment voelde ik me...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Sindsdien is het me opgevallen...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Begin hier met schrijven...",
     "notice": "Er is geen juiste manier om dit te doen. Zelfs een paar regels zijn genoeg.",
     "button": "Maak het schrijven af"
@@ -43,10 +43,10 @@
     "title": "Je hebt iets belangrijks gedaan.",
     "subtitle": "Bedankt dat je er voor jezelf was.",
     "settle_title": "Laten we even de tijd nemen om te settelen",
-    "steps": [
-      "Kijk rond en noem drie dingen die je kunt zien.",
-      "Haal langzaam adem... en uit."
-    ],
+    "steps": {
+      "0": "Kijk rond en noem drie dingen die je kunt zien.",
+      "1": "Haal langzaam adem... en uit."
+    },
     "feeling_label": "Op dit moment voel ik:",
     "feeling_placeholder": "Een woord of twee...",
     "quote": "\"Je hoeft niet alles tegelijk te dragen. Je kunt terugkomen wanneer je er klaar voor bent.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

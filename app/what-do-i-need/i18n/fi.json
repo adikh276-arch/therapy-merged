@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Emotionaalinen tuki",
       "prompt": "Millainen tuki oikeasti auttaisi sinua juuri nyt?",
-      "hints": [
-        "Tarvitsen vain jonkun...",
-        "Auttaisi, jos...",
-        "Mitä oikeasti haluan, on..."
-      ]
+      "hints": {
+        "0": "Tarvitsen vain jonkun...",
+        "1": "Auttaisi, jos...",
+        "2": "Mitä oikeasti haluan, on..."
+      }
     },
     "Space / time for myself": {
       "label": "Tilaa / aikaa itselleni",
       "prompt": "Miltä tuo tila näyttäisi sinulle?",
-      "hints": [
-        "Käyttäisin sen ajan...",
-        "Avaruus antaisi minun...",
-        "Tarvitsen tilaa..."
-      ]
+      "hints": {
+        "0": "Käyttäisin sen ajan...",
+        "1": "Avaruus antaisi minun...",
+        "2": "Tarvitsen tilaa..."
+      }
     },
     "Clear communication": {
       "label": "Selkeä viestintä",
       "prompt": "Miltä selkeämpi viestintä näyttäisi sinulle?",
-      "hints": [
-        "Toivon, että voisin sanoa...",
-        "Jos he todella kuuntelisivat, kertoisin heille...",
-        "Kommunikaatio tuntuu vaikealta, kun..."
-      ]
+      "hints": {
+        "0": "Toivon, että voisin sanoa...",
+        "1": "Jos he todella kuuntelisivat, kertoisin heille...",
+        "2": "Kommunikaatio tuntuu vaikealta, kun..."
+      }
     },
     "Reassurance": {
       "label": "Vakuuttelua",
       "prompt": "Millainen lohdutus tuntuisi merkitykselliseltä?",
-      "hints": [
-        "Minun täytyy kuulla se...",
-        "Minua rauhoittaisi tietää...",
-        "Huolehdin koko ajan siitä, että..."
-      ]
+      "hints": {
+        "0": "Minun täytyy kuulla se...",
+        "1": "Minua rauhoittaisi tietää...",
+        "2": "Huolehdin koko ajan siitä, että..."
+      }
     },
     "Understanding": {
       "label": "Ymmärrys",
       "prompt": "Miltä todella ymmärretty tunne näyttäisi?",
-      "hints": [
-        "Toivon, että ihmiset tietäisivät, että...",
-        "Mitä oikeasti tunnen, on...",
-        "Kukaan ei näe, että minä..."
-      ]
+      "hints": {
+        "0": "Toivon, että ihmiset tietäisivät, että...",
+        "1": "Mitä oikeasti tunnen, on...",
+        "2": "Kukaan ei näe, että minä..."
+      }
     },
     "Stability": {
       "label": "Vakaus",
       "prompt": "Miltä vakaus tuntuisi elämässäsi juuri nyt?",
-      "hints": [
-        "Tarvitsen asioita, jotka tuntevat...",
-        "Mikä minua juurruttaisi on...",
-        "Vakaus tarkoittaa..."
-      ]
+      "hints": {
+        "0": "Tarvitsen asioita, jotka tuntevat...",
+        "1": "Mikä minua juurruttaisi on...",
+        "2": "Vakaus tarkoittaa..."
+      }
     },
     "Honesty": {
       "label": "Rehellisyys",
       "prompt": "Miltä rehellisyys näyttäisi sinun tilanteessasi?",
-      "hints": [
-        "Totuus, jonka minun täytyy kohdata, on...",
-        "Haluan olla rehellinen...",
-        "Mitä oikeasti tapahtuu on..."
-      ]
+      "hints": {
+        "0": "Totuus, jonka minun täytyy kohdata, on...",
+        "1": "Haluan olla rehellinen...",
+        "2": "Mitä oikeasti tapahtuu on..."
+      }
     },
     "Respect": {
       "label": "Kunnioitus",
       "prompt": "Miltä kunnioitus näyttää sinulle juuri nyt?",
-      "hints": [
-        "Ansaitsen tulla kohdelluksi...",
-        "Kunnioitus näyttäisi...",
-        "Tarvitsen ihmisiä..."
-      ]
+      "hints": {
+        "0": "Ansaitsen tulla kohdelluksi...",
+        "1": "Kunnioitus näyttäisi...",
+        "2": "Tarvitsen ihmisiä..."
+      }
     },
     "Clarity about relationship": {
       "label": "Selkeys suhteesta",
       "prompt": "Millainen selkeys auttaisi sinua eniten?",
-      "hints": [
-        "Minun täytyy tietää, jos...",
-        "Mikä minua hämmentää, on...",
-        "Haluan, että olemme selkeitä siitä..."
-      ]
+      "hints": {
+        "0": "Minun täytyy tietää, jos...",
+        "1": "Mikä minua hämmentää, on...",
+        "2": "Haluan, että olemme selkeitä siitä..."
+      }
     },
     "default": {
       "prompt": "Miltä tämä näyttäisi oikeassa tilanteessa?",
-      "hints": [
-        "Mitä tulee mieleen, on...",
-        "Juuri nyt tunnen...",
-        "Jos olen rehellinen itselleni..."
-      ]
+      "hints": {
+        "0": "Mitä tulee mieleen, on...",
+        "1": "Juuri nyt tunnen...",
+        "2": "Jos olen rehellinen itselleni..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Sano jotain rehellisesti"
     },
-    {
+    "1": {
       "label": "Ota aikaa itselleni"
     },
-    {
+    "2": {
       "label": "Ota yhteyttä johonkuhun"
     },
-    {
+    "3": {
       "label": "Aseta pieni raja"
     },
-    {
+    "4": {
       "label": "En ole vielä varma"
     }
-  ],
+  },
   "history": {
     "title": "Menneet pohdinnat",
     "empty": "Ei vielä heijastuksia."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

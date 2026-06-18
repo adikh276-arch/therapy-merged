@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "拯救......",
+    "saved": "已获救"
   },
   "app_duration": "10-15分钟",
   "app_title": "写给自己的一封信",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "提示",
+  "need_inspiration": "需要灵感吗？",
+  "post_writing_reflection": "写作后的反思",
+  "reflection_desc": "承认自己的感受是你旅程中一个强有力的步骤。",
+  "finish_save_reflection": "完成与保存反射",
+  "lang": "很长",
+  "completion_message": "你的信已经安全保存了。花点时间欣赏你的进步。"
 }

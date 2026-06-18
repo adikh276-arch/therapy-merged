@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài",
+  "intro_benefit_1": "Có được sự rõ ràng tuyệt đối về niềm tin cốt lõi của bạn",
+  "intro_benefit_2": "Đặt mục tiêu rõ ràng cho sự chuyển đổi cá nhân",
+  "reflection_subtitle": "Soạn thảo nguyện vọng của bạn. Điền vào các thành phần cốt lõi của mục đích của bạn.",
+  "mission_your_statement": "Tuyên bố của bạn",
+  "saving": "Tiết kiệm...",
+  "mission_save_finish": "Lưu & Kết thúc",
+  "mission_share": "Chia sẻ",
+  "mission_start_over": "Bắt đầu lại",
+  "loading": "Đang tải tờ khai...",
+  "app": {
+    "startActivity": "Tạo sứ mệnh"
+  }
 }

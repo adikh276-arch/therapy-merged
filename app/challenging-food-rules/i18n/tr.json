@@ -16,23 +16,23 @@
   },
   "rule_label": "Kuralın adlandırılması",
   "rule_question": "Kural nedir?",
-  "rule_options": [
-    "Belirli bir süreden sonra yemek yememeliyim",
-    "Bazı yiyecekler yasaktır",
-    "Porsiyonları sıkı kontrol etmem gerekiyor"
-  ],
+  "rule_options": {
+    "0": "Belirli bir süreden sonra yemek yememeliyim",
+    "1": "Bazı yiyecekler yasaktır",
+    "2": "Porsiyonları sıkı kontrol etmem gerekiyor"
+  },
   "rule_something_else": "Başka bir şey...",
   "rule_placeholder": "Yemek kuralını yaz...",
   "feeling_label": "Duygusal Etki",
   "feeling_question": "Bu nasıl hissettiriyor?",
-  "feeling_options": [
-    "😟 Endişeli",
-    "😌 Kontrolü ele aldı",
-    "😕 Suçlu",
-    "😣 Kısıtlı",
-    "😴 Yorgun",
-    "😐 Karışık"
-  ],
+  "feeling_options": {
+    "0": "😟 Endişeli",
+    "1": "😌 Kontrolü ele aldı",
+    "2": "😕 Suçlu",
+    "3": "😣 Kısıtlı",
+    "4": "😴 Yorgun",
+    "5": "😐 Karışık"
+  },
   "challenge_label": "Yumuşak Meydan Okuma",
   "challenge_question": "Nazikçe soru...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

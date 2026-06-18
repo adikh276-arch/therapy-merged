@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "吸气......",
+  "hold_label": "等等......",
+  "exhale_label": "呼气......",
+  "start": "准备好了",
+  "stop": "停下",
+  "begin_breathing": "开始呼吸",
+  "lang": "很长"
 }

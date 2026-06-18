@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Din daglige kroppsrutine",
   "body_subtitle": "Hvilken av disse har føltes litt rar i det siste? (Velg noen som gjelder)",
   "continue": "Fortsett",
-  "body_options": [
-    "Jeg har ikke sovet godt",
-    "Søvntiden min er uregelmessig",
-    "Noen ganger hopper jeg over måltider",
-    "Jeg spiser mer enn vanlig når jeg er stresset",
-    "Jeg har ikke beveget meg eller trent så mye",
-    "Jeg har ikke vært ute så mye",
-    "Min personlige pleierutine har endret seg",
-    "Min daglige rutine føles jevn"
-  ],
+  "body_options": {
+    "0": "Jeg har ikke sovet godt",
+    "1": "Søvntiden min er uregelmessig",
+    "2": "Noen ganger hopper jeg over måltider",
+    "3": "Jeg spiser mer enn vanlig når jeg er stresset",
+    "4": "Jeg har ikke beveget meg eller trent så mye",
+    "5": "Jeg har ikke vært ute så mye",
+    "6": "Min personlige pleierutine har endret seg",
+    "7": "Min daglige rutine føles jevn"
+  },
   "mind_title": "🧠 Dine tankemønstre",
-  "mind_options": [
-    "Jeg overtenker ting hele tiden",
-    "Jeg forestiller meg ofte verst tenkelig scenario",
-    "Jeg er hard mot meg selv",
-    "Jeg føler skyld for ting jeg har gjort eller ikke gjort",
-    "Jeg bekymrer meg hele tiden",
-    "Jeg synes det er vanskelig å slappe av",
-    "Tankene mine føles håndterbare"
-  ],
+  "mind_options": {
+    "0": "Jeg overtenker ting hele tiden",
+    "1": "Jeg forestiller meg ofte verst tenkelig scenario",
+    "2": "Jeg er hard mot meg selv",
+    "3": "Jeg føler skyld for ting jeg har gjort eller ikke gjort",
+    "4": "Jeg bekymrer meg hele tiden",
+    "5": "Jeg synes det er vanskelig å slappe av",
+    "6": "Tankene mine føles håndterbare"
+  },
   "coping_title": "🌊 Hvordan du reagerer på stress",
-  "coping_options": [
-    "Jeg unngår oppgaver når jeg er stresset",
-    "Jeg scroller mye på telefonen for å distrahere meg selv",
-    "Jeg tilbringer tid alene for å takle det",
-    "Jeg kaster meg ut i arbeidet når jeg er stresset",
-    "Jeg snakker med noen om hvordan jeg føler det",
-    "Jeg gjør pusteøvelser for å roe meg ned",
-    "Jeg ser på TV eller spiller spill for å distrahere meg selv",
-    "Jeg er ikke sikker på hvordan jeg skal reagere på stress"
-  ],
+  "coping_options": {
+    "0": "Jeg unngår oppgaver når jeg er stresset",
+    "1": "Jeg scroller mye på telefonen for å distrahere meg selv",
+    "2": "Jeg tilbringer tid alene for å takle det",
+    "3": "Jeg kaster meg ut i arbeidet når jeg er stresset",
+    "4": "Jeg snakker med noen om hvordan jeg føler det",
+    "5": "Jeg gjør pusteøvelser for å roe meg ned",
+    "6": "Jeg ser på TV eller spiller spill for å distrahere meg selv",
+    "7": "Jeg er ikke sikker på hvordan jeg skal reagere på stress"
+  },
   "reflection_title": "✍️ Refleksjon",
   "question_stress": "Hvilken vane øker stresset ditt senere?",
   "question_calm": "Hvilken vane kan hjelpe deg å føle deg roligere?",
@@ -44,13 +44,13 @@
   "insight_description": "Trykk nedenfor for å se enkle vaner som kan bidra til å redusere stress.",
   "show_suggestions": "Forslag til serier",
   "commit": "Forplikt seg",
-  "suggestions": [
-    "Prøv å legge deg litt tidligere i kveld",
-    "Gå ut for frisk luft i dag",
-    "Ta en pause fra scrolling en stund",
-    "Snakk vennlig til deg selv",
-    "Fullfør en oppgave du har utsatt"
-  ],
+  "suggestions": {
+    "0": "Prøv å legge deg litt tidligere i kveld",
+    "1": "Gå ut for frisk luft i dag",
+    "2": "Ta en pause fra scrolling en stund",
+    "3": "Snakk vennlig til deg selv",
+    "4": "Fullfør en oppgave du har utsatt"
+  },
   "final_text": "Små endringer betyr noe. Konsistens skaper ro.",
   "finish": "Avslutning",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "lang",
+  "mind_subtitle": "Hvilke tankevaner merker du oftest at de kommer tilbake? Velg alle som gjelder.",
+  "coping_subtitle": "Hvordan reagerer du vanligvis når det blir overveldet? Velg alle som gjelder."
 }

@@ -1,15 +1,15 @@
 {
   "app_title": "Ernährungs- und Emotionskarte",
-  "screen_titles": [
-    "Willkommen",
-    "Ernährungsmuster",
-    "Innerer Dialog",
-    "Physikalische Wahrnehmung",
-    "Die Karte",
-    "Sanfte Unterstützung",
-    "Endgültiger Look",
-    "Reflektieren"
-  ],
+  "screen_titles": {
+    "0": "Willkommen",
+    "1": "Ernährungsmuster",
+    "2": "Innerer Dialog",
+    "3": "Physikalische Wahrnehmung",
+    "4": "Die Karte",
+    "5": "Sanfte Unterstützung",
+    "6": "Endgültiger Look",
+    "7": "Reflektieren"
+  },
   "welcome_text": "Hey... Ich bin wirklich froh, dass du hier 💛 bist. Lass uns vorsichtig planen, was passiert ist.",
   "coming_up_label": "Was steht in letzter Zeit an?",
   "begin_mapping": "Beginnen mit der Kartierung",
@@ -32,36 +32,36 @@
   "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
   "save_success": "Muster erhalten",
   "save_error": "Muster wurde nicht erhalten",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Traurigkeit",
-    "😶 Langeweile",
-    "😟 Angst",
-    "🥺 Einsamkeit",
-    "💭 Noch etwas anderes..."
-  ],
-  "food_responses": [
-    "🍽️ Ich esse mehr",
-    "🚫 Ich esse weniger",
-    "🍫 Ich habe Lust auf bestimmte Lebensmittel",
-    "😣 Ich meide Essen",
-    "😐 Keine wirkliche Veränderung"
-  ],
-  "body_sensations": [
-    "💔 Enge Brust",
-    "🪨 Schweres Gefühl",
-    "🦵 Unruhig / unruhig",
-    "🔋 Niedrige Energie",
-    "🌀 Knoten im Magen",
-    "❓ Noch etwas anderes..."
-  ],
-  "support_options": [
-    "🗣️ Sprich mit jemandem",
-    "☕ Mach eine Pause",
-    "📝 Zeitschrift",
-    "🌬️ Atme",
-    "🎧 Mich ablenken"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Traurigkeit",
+    "2": "😶 Langeweile",
+    "3": "😟 Angst",
+    "4": "🥺 Einsamkeit",
+    "5": "💭 Noch etwas anderes..."
+  },
+  "food_responses": {
+    "0": "🍽️ Ich esse mehr",
+    "1": "🚫 Ich esse weniger",
+    "2": "🍫 Ich habe Lust auf bestimmte Lebensmittel",
+    "3": "😣 Ich meide Essen",
+    "4": "😐 Keine wirkliche Veränderung"
+  },
+  "body_sensations": {
+    "0": "💔 Enge Brust",
+    "1": "🪨 Schweres Gefühl",
+    "2": "🦵 Unruhig / unruhig",
+    "3": "🔋 Niedrige Energie",
+    "4": "🌀 Knoten im Magen",
+    "5": "❓ Noch etwas anderes..."
+  },
+  "support_options": {
+    "0": "🗣️ Sprich mit jemandem",
+    "1": "☕ Mach eine Pause",
+    "2": "📝 Zeitschrift",
+    "3": "🌬️ Atme",
+    "4": "🎧 Mich ablenken"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Melde dich 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bist du sicher, dass du diese Zuordnung löschen willst?"
   },
   "app_description": "Essen & Emotionen Karte",
   "more": "Mehr",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "view_weekly": "Kartengeschichte anzeigen",
+  " ": " "
 }

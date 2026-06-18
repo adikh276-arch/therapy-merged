@@ -23,38 +23,38 @@
   "try_again": "Thử lại",
   "complete_title": "Kiến thức thành thạo",
   "complete_message": "Bạn đã ghi được {{score}}/{{total}}! Bạn đã có được cái nhìn sâu sắc có giá trị về sự thật và huyền thoại của sự tức giận.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Giận dữ là xấu. Nếu bạn cảm thấy tức giận, có điều gì đó không ổn với bạn.",
       "answer": "myth",
       "realFact": "Tức giận là một cảm xúc bình thường, lành mạnh. Mọi người đều cảm nhận được điều đó. Đó không phải là dấu hiệu cho thấy có điều gì đó 'không ổn' với bạn - đó là dấu hiệu cho thấy có điều gì đó quan trọng đối với bạn. Điều quan trọng là cách bạn phản ứng với nó, không phải liệu bạn có cảm thấy nó hay không.",
       "example": "Một cựu chiến binh cảm thấy tức giận khi ranh giới của họ bị vượt qua. Sự tức giận đó là hợp lệ - nó nói với họ điều gì đó quan trọng."
     },
-    {
+    "1": {
       "statement": "Sự tức giận có thể là một tín hiệu cho thấy ranh giới của bạn đã bị vượt qua.",
       "answer": "fact",
       "realFact": "Sự tức giận là thông tin. Khi bạn cảm thấy điều đó, bạn nên hỏi: ranh giới nào đã bị vượt qua? Nhu cầu nào không được đáp ứng? Lắng nghe sự tức giận của bạn - mà không hành động theo sự bốc đồng - giúp bạn hiểu bản thân tốt hơn và có hành động có ý nghĩa.",
       "example": "Bạn cảm thấy tức giận khi một đồng nghiệp ghi nhận công việc của bạn. Sự tức giận đó đang chỉ ra nhu cầu được công nhận và công bằng."
     },
-    {
+    "2": {
       "statement": "Nếu bạn tức giận, bạn phải trút nó ra bằng cách la hét hoặc đánh mọi thứ.",
       "answer": "myth",
       "realFact": "Biểu hiện sự tức giận lành mạnh không có nghĩa là kìm nén HOẶC bùng nổ. Nó có nghĩa là thừa nhận cảm xúc của bạn và thể hiện chúng một cách xây dựng - thông qua lời nói, viết nhật ký, hoạt động thể chất hoặc lối thoát sáng tạo. Bạn có thể tôn trọng sự tức giận của mình mà không bị hủy diệt.",
       "example": "Thay vì đấm vào tường, bạn chạy bộ hoặc viết ra chính xác những gì đang làm phiền bạn. Sự tức giận di chuyển qua bạn mà không gây hại."
     },
-    {
+    "3": {
       "statement": "Học cách kiểm soát sự tức giận là một dấu hiệu của sức mạnh cảm xúc.",
       "answer": "fact",
       "realFact": "Những người làm việc để kiểm soát cơn giận của họ không yếu đuối - họ đang làm một số công việc cảm xúc dũng cảm nhất. Chọn tạm dừng, suy ngẫm và phản ứng một cách chu đáo cần nhiều sức mạnh hơn là phản ứng theo sự bốc đồng.",
       "example": "Hít một hơi thật sâu và nói 'Tôi cần một phút trước khi trả lời' trong một khoảnh khắc nóng bỏng là một hành động mạnh mẽ của sự tự chủ."
     },
-    {
+    "4": {
       "statement": "Nếu ai đó khiến bạn tức giận, đó là lỗi của họ. Bạn không có trách nhiệm.",
       "answer": "myth",
       "realFact": "Người khác có thể kích hoạt sự tức giận của bạn, nhưng cách bạn phản ứng là trách nhiệm của bạn - và sức mạnh của bạn. Làm chủ phản ứng của bạn không có nghĩa là người kia đúng. Nó có nghĩa là bạn đang chọn cách hiển thị. Đó là trao quyền, không đổ lỗi.",
       "example": "Ai đó cắt ngang bạn khi tham gia giao thông. Bạn cảm thấy tức giận - đó là điều bình thường. Nhưng bạn chọn giận dữ hay hít thở. Sự lựa chọn là của bạn."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Bắt đầu lại",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài",
+  "results_message": "Bạn"
 }

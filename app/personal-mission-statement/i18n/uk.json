@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "довгий",
+  "intro_benefit_1": "Отримайте абсолютну ясність щодо своїх основних переконань",
+  "intro_benefit_2": "Встановіть чіткі цілі для особистої трансформації",
+  "reflection_subtitle": "Складайте свої прагнення. Заповніть основні компоненти вашої мети.",
+  "mission_your_statement": "Ваша заява",
+  "saving": "Рятуючи...",
+  "mission_save_finish": "Зберегти і завершити",
+  "mission_share": "Поділитися",
+  "mission_start_over": "Почати спочатку",
+  "loading": "Завантаження декларацій...",
+  "app": {
+    "startActivity": "Створити місію"
+  }
 }

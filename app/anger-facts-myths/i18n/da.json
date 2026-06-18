@@ -23,38 +23,38 @@
   "try_again": "Prøv igen",
   "complete_title": "Viden mestret",
   "complete_message": "Du scorede {{score}}/{{total}}! Du har fået værdifuld indsigt i sandhederne og myterne om vrede.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Vrede er dårligt. Hvis du føler dig vred, er der noget galt med dig.",
       "answer": "myth",
       "realFact": "Vrede er en normal, sund følelse. Alle mærker det. Det er ikke et tegn på, at der er noget 'galt' med dig – det er et signal om, at noget betyder noget for dig. Det, der tæller, er, hvordan du reagerer på det, ikke om du føler det.",
       "example": "En veteran bliver vred, når deres grænser bliver overskredet. Den vrede er gyldig — den fortæller dem noget vigtigt."
     },
-    {
+    "1": {
       "statement": "Vrede kan være et signal om, at dine grænser er blevet overskredet.",
       "answer": "fact",
       "realFact": "Vrede er information. Når du mærker det, er det værd at spørge: hvilken grænse blev overskredet? Hvilket behov bliver ikke opfyldt? At lytte til din vrede – uden at handle impulsivt – hjælper dig med at forstå dig selv bedre og tage meningsfulde handlinger.",
       "example": "Du bliver vred, når en kollega tager æren for dit arbejde. Den vrede peger på et behov for anerkendelse og retfærdighed."
     },
-    {
+    "2": {
       "statement": "Hvis du er vred, skal du få det ud ved at råbe eller slå på ting.",
       "answer": "myth",
       "realFact": "Sund vredesudfoldelse betyder ikke undertrykkelse ELLER eksplosion. Det betyder at anerkende dine følelser og udtrykke dem konstruktivt — gennem ord, dagbogsskrivning, fysisk aktivitet eller kreative udløb. Du kan ære din vrede uden ødelæggelse.",
       "example": "I stedet for at slå i en væg, tager du ud at løbe eller skriver præcis ned, hvad der generer dig. Vreden bevæger sig gennem dig uden at gøre skade."
     },
-    {
+    "3": {
       "statement": "At lære at håndtere vrede er et tegn på følelsesmæssig styrke.",
       "answer": "fact",
       "realFact": "Folk, der arbejder på deres vredehåndtering, er ikke svage – de laver noget af det modigste følelsesmæssige arbejde, der findes. At vælge at holde en pause, reflektere og svare eftertænksomt kræver langt mere styrke end at reagere impulsivt.",
       "example": "At tage en dyb indånding og sige 'jeg har brug for et øjeblik, før jeg svarer' i et ophedet øjeblik er en stærk handling af selvkontrol."
     },
-    {
+    "4": {
       "statement": "Hvis nogen gør dig vred, er det deres skyld. Du har intet ansvar.",
       "answer": "myth",
       "realFact": "Andre kan udløse din vrede, men hvordan du reagerer, er dit ansvar — og din magt. At tage ejerskab over dine reaktioner betyder ikke, at den anden person havde ret. Det betyder, at du vælger, hvordan du vil møde op. Det er empowerment, ikke skyld.",
       "example": "Nogen skærer dig af i trafikken. Du føler dig vred — det er normalt. Men du vælger, om du vil rase eller tage en dyb indånding. Valget er dit."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Start forfra",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang",
+  "results_message": "Du"
 }

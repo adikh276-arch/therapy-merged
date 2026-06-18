@@ -3,39 +3,40 @@
   "app_subtitle": "Libera i tuoi pensieri in modo sicuro e privato",
   "intro": {
     "title": "La Lettera Non Inviata",
-    "description": [
-      "A volte ci sono cose che vorremmo poter dire — ma che non abbiamo mai avuto la possibilità.",
-      "Questo poteva essere perché non sembrava sicuro, il tempismo non era giusto, o le parole erano troppo difficili da esprimere ad alta voce.",
-      "Questa attività ti offre uno spazio privato dove mettere in parole quei pensieri.",
-      "Non devi mandare questa lettera. Questo è solo per te — per esprimere, liberare e comprendere meglio i tuoi sentimenti."
-    ],
+    "description": {
+      "0": "A volte ci sono cose che vorremmo poter dire — ma che non abbiamo mai avuto la possibilità.",
+      "1": "Questo poteva essere perché non sembrava sicuro, il tempismo non era giusto, o le parole erano troppo difficili da esprimere ad alta voce.",
+      "2": "Questa attività ti offre uno spazio privato dove mettere in parole quei pensieri.",
+      "3": "Non devi mandare questa lettera. Questo è solo per te — per esprimere, liberare e comprendere meglio i tuoi sentimenti."
+    },
     "notice": "Scrivi liberamente. Nessun altro lo vedrà.",
     "button": "Inizia a scrivere →"
   },
   "writing": {
     "title": "Scrivi ciò che hai tenuto dentro",
     "desc": "Puoi scrivere al tuo partner, al tuo ex partner o anche alla relazione stessa. Non c'è un modo giusto o sbagliato per farlo.",
-    "prompts": [
-      "Mi sento...",
-      "Magari...",
-      "Non ho mai detto...",
-      "Cosa mi ha ferito...",
-      "Quello di cui avevo bisogno..."
-    ],
+    "prompts": {
+      "0": "Mi sento...",
+      "1": "Magari...",
+      "2": "Non ho mai detto...",
+      "3": "Cosa mi ha ferito...",
+      "4": "Quello di cui avevo bisogno..."
+    },
     "placeholder": "Caro ____,\nVolevo dire...",
     "notice": "Puoi fermarti e tornare in qualsiasi momento.",
     "button": "Continua →"
   },
   "reflection": {
     "title": "Prenditi un momento con questo",
-    "description": [
-      "Hai appena messo in parole i tuoi pensieri e sentimenti — ci vuole coraggio.",
-      "Potresti notare un mix di emozioni in questo momento, e va benissimo così.",
-      "Prima di andare avanti, fai un respiro e controlla delicatamente te stesso."
-    ],
+    "description": {
+      "0": "Hai appena messo in parole i tuoi pensieri e sentimenti — ci vuole coraggio.",
+      "1": "Potresti notare un mix di emozioni in questo momento, e va benissimo così.",
+      "2": "Prima di andare avanti, fai un respiro e controlla delicatamente te stesso."
+    },
     "notice": "Questo era per la tua guarigione, non per mandare.",
     "save_button": "Salva la lettera",
-    "finish_button": "Fine"
+    "finish_button": "Fine",
+    "save_success": "La tua lettera non inviata è stata riparata in sicurezza nel tuo diario privato locale. L'espressione è una liberazione profonda."
   },
   "history": {
     "title": "Lettere passate",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Sei sicuro di voler cancellare questa lettera non inviata?"
   },
   "app_description": "Esprimi i tuoi pensieri in modo sicuro e privato",
   "more": "Di più",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

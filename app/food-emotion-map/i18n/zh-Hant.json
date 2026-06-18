@@ -1,15 +1,15 @@
 {
   "app_title": "食物與情緒地圖",
-  "screen_titles": [
-    "歡迎",
-    "飲食模式",
-    "內心對話",
-    "物理感",
-    "地圖",
-    "溫柔支持",
-    "最終呈現",
-    "反思"
-  ],
+  "screen_titles": {
+    "0": "歡迎",
+    "1": "飲食模式",
+    "2": "內心對話",
+    "3": "物理感",
+    "4": "地圖",
+    "5": "溫柔支持",
+    "6": "最終呈現",
+    "7": "反思"
+  },
   "welcome_text": "嘿…我很高興你在這裡💛 讓我們慢慢梳理一下最近發生的事情。",
   "coming_up_label": "最近有什麼活動嗎？",
   "begin_mapping": "開始繪製地圖",
@@ -32,36 +32,36 @@
   "auth_error": "身份驗證會話缺失或資料庫未配置",
   "save_success": "模式得以保留",
   "save_error": "未能保留模式",
-  "emotions_list": [
-    "😰壓力",
-    "😢 悲傷",
-    "😶 無聊",
-    "😟焦慮",
-    "🥺 孤獨",
-    "💭 還有一些其他的事情…"
-  ],
-  "food_responses": [
-    "🍽️ 我吃得更多",
-    "🚫 我吃得更少了",
-    "🍫 我特別想吃某些特定的食物",
-    "😣 我拒絕進食",
-    "😐 沒有實質改變"
-  ],
-  "body_sensations": [
-    "💔 胸部緊繃",
-    "🪨 沉重感",
-    "🦵 焦躁不安/坐立不安",
-    "🔋 低能量",
-    "🌀 胃部不適",
-    "❓還有其他事…"
-  ],
-  "support_options": [
-    "🗣️ 找人聊聊",
-    "☕ 休息一下",
-    "📝 日記",
-    "🌬️ 呼吸",
-    "🎧 分散注意力"
-  ],
+  "emotions_list": {
+    "0": "😰壓力",
+    "1": "😢 悲傷",
+    "2": "😶 無聊",
+    "3": "😟焦慮",
+    "4": "🥺 孤獨",
+    "5": "💭 還有一些其他的事情…"
+  },
+  "food_responses": {
+    "0": "🍽️ 我吃得更多",
+    "1": "🚫 我吃得更少了",
+    "2": "🍫 我特別想吃某些特定的食物",
+    "3": "😣 我拒絕進食",
+    "4": "😐 沒有實質改變"
+  },
+  "body_sensations": {
+    "0": "💔 胸部緊繃",
+    "1": "🪨 沉重感",
+    "2": "🦵 焦躁不安/坐立不安",
+    "3": "🔋 低能量",
+    "4": "🌀 胃部不適",
+    "5": "❓還有其他事…"
+  },
+  "support_options": {
+    "0": "🗣️ 找人聊聊",
+    "1": "☕ 休息一下",
+    "2": "📝 日記",
+    "3": "🌬️ 呼吸",
+    "4": "🎧 分散注意力"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "聯絡我💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你確定要刪除這個映射嗎？"
   },
   "app_description": "食物與情緒地圖",
   "more": "更多的",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  "view_weekly": "查看地圖歷史",
+  " ": " "
 }

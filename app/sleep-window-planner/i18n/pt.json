@@ -1,10 +1,10 @@
 {
   "app_title": "Planejador de Janela de Sono",
-  "pill_labels": [
-    "Construa sua janela",
-    "Defina seus tempos",
-    "Sua janela de sono"
-  ],
+  "pill_labels": {
+    "0": "Construa sua janela",
+    "1": "Defina seus tempos",
+    "2": "Sua janela de sono"
+  },
   "screen1": {
     "title": "Sua janela de sono importa mais do que você imagina",
     "p1": "Uma janela de sono é o tempo fixo entre você ir dormir e acordar. Manter a consistência — mesmo nos fins de semana — é uma das coisas mais poderosas que você pode fazer pelo seu sono.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 maneiras de protegê-lo",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Relaxe 30 minutos antes da hora de dormir"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Mesmo horário de acordar todos os dias — sim, nos fins de semana também"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Evite cochilos com mais de 20 minutos depois das 15h"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Comprometa-se com uma coisa hoje à noite",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Guardei meu celular antes de dormir"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Comece uma rotina de relaxamento"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Diminua as luzes uma hora antes de dormir"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Terminar minha lista de tarefas cedo"
         }
-      ]
+      }
     },
     "quote": "Consistência é mais poderosa que perfeição. Uma boa noite constrói a seguinte.",
     "button": "Guarde minha janela de sono ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

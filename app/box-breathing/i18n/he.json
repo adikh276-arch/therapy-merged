@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "נשום לאט...",
+  "instruction_out": "נשוף לאט...",
+  "instruction_hold": "החזק בעדינות...",
+  "lang": "ארוך"
 }

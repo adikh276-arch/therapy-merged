@@ -101,5 +101,12 @@
   "yes": "네",
   "no": "아니요",
   "date": "날짜",
-  "continue": "계속하기"
+  "continue": "계속하기",
+  "inhale_label": "숨을 들이마셔...",
+  "hold_label": "잠깐만...",
+  "exhale_label": "숨을 내쉬어...",
+  "start": "준비됐어",
+  "stop": "멈춰",
+  "begin_breathing": "호흡 시작해",
+  "lang": "길게"
 }

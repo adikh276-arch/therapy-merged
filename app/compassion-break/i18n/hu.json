@@ -1,14 +1,14 @@
 {
   "app_title": "Együttérzés szünet",
-  "screen_titles": [
-    "Bejelentkezés",
-    "Azonosítás",
-    "Légzés",
-    "Kedvesség",
-    "Váltás",
-    "Reflektálj",
-    "Teljes"
-  ],
+  "screen_titles": {
+    "0": "Bejelentkezés",
+    "1": "Azonosítás",
+    "2": "Légzés",
+    "3": "Kedvesség",
+    "4": "Váltás",
+    "5": "Reflektálj",
+    "6": "Teljes"
+  },
   "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
   "save_success": "Megőrzés",
   "save_error": "Nem sikerült megőrizni a reflektorfényt",
@@ -25,14 +25,14 @@
   "continue_button": "Folytatás",
   "nameit_title": "Fejezd ki szavakba",
   "nameit_subtitle": "Most _______",
-  "emotions_list": [
-    "aggódó",
-    "bűnös",
-    "túlterhelt",
-    "Idős",
-    "fáradt",
-    "szomorú"
-  ],
+  "emotions_list": {
+    "0": "aggódó",
+    "1": "bűnös",
+    "2": "túlterhelt",
+    "3": "Idős",
+    "4": "fáradt",
+    "5": "szomorú"
+  },
   "label_custom_emotion": "vagy gépelj be a saját",
   "placeholder_emotion": "1–2 szó",
   "nameit_footer": "Az egyszerű elég.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "intro": {
+    "view_past": "Korábbi szekciók megtekintése"
+  },
+  "history": {
+    "title": "Önrészülés története",
+    "no_entries": "Nem találtak múltbeli törésnaplókat."
+  },
+  "loading": "Előzmény betöltése..."
 }

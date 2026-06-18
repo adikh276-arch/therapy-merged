@@ -3,39 +3,40 @@
   "app_subtitle": "Libera tus pensamientos de forma segura y privada",
   "intro": {
     "title": "La carta no enviada",
-    "description": [
-      "A veces, hay cosas que desearíamos poder decir — pero nunca tuvimos la oportunidad.",
-      "Esto podía ser porque no se sentía seguro, porque el momento no era el adecuado o porque las palabras eran demasiado difíciles de expresar en voz alta.",
-      "Esta actividad te ofrece un espacio privado para poner esos pensamientos en palabras.",
-      "No tienes que enviar esta carta. Esto es solo para ti: para expresar, liberar y entender mejor tus sentimientos."
-    ],
+    "description": {
+      "0": "A veces, hay cosas que desearíamos poder decir — pero nunca tuvimos la oportunidad.",
+      "1": "Esto podía ser porque no se sentía seguro, porque el momento no era el adecuado o porque las palabras eran demasiado difíciles de expresar en voz alta.",
+      "2": "Esta actividad te ofrece un espacio privado para poner esos pensamientos en palabras.",
+      "3": "No tienes que enviar esta carta. Esto es solo para ti: para expresar, liberar y entender mejor tus sentimientos."
+    },
     "notice": "Escribe libremente. Nadie más verá esto.",
     "button": "Empieza a escribir →"
   },
   "writing": {
     "title": "Escribe lo que has estado guardando",
     "desc": "Puedes escribir a tu pareja, expareja o incluso a la propia relación. No hay una forma correcta o incorrecta de hacerlo.",
-    "prompts": [
-      "Me siento...",
-      "Ojalá...",
-      "Nunca dije...",
-      "Lo que me dolió...",
-      "Lo que necesitaba..."
-    ],
+    "prompts": {
+      "0": "Me siento...",
+      "1": "Ojalá...",
+      "2": "Nunca dije...",
+      "3": "Lo que me dolió...",
+      "4": "Lo que necesitaba..."
+    },
     "placeholder": "Querido ____,\nLlevo tiempo queriendo decir...",
     "notice": "Puedes hacer una pausa y volver cuando quieras.",
     "button": "Continúa →"
   },
   "reflection": {
     "title": "Tómate un momento con esto",
-    "description": [
-      "Acabas de poner tus pensamientos y sentimientos en palabras — eso requiere valor.",
-      "Puede que notes una mezcla de emociones ahora mismo, y eso está completamente bien.",
-      "Antes de seguir adelante, respira hondo y revisa suavemente cómo eres tú mismo."
-    ],
+    "description": {
+      "0": "Acabas de poner tus pensamientos y sentimientos en palabras — eso requiere valor.",
+      "1": "Puede que notes una mezcla de emociones ahora mismo, y eso está completamente bien.",
+      "2": "Antes de seguir adelante, respira hondo y revisa suavemente cómo eres tú mismo."
+    },
     "notice": "Esto era para tu sanación, no para enviarla.",
     "save_button": "Carta guardada",
-    "finish_button": "Finalización"
+    "finish_button": "Finalización",
+    "save_success": "Tu carta no enviada está bien reparada en tu diario local privado. La expresión es una liberación profunda."
   },
   "history": {
     "title": "Cartas pasadas",
@@ -74,7 +75,8 @@
     "phase_label": "Fase",
     "rounds_selector": "{{count}} Rondas",
     "instruction_ready": "Configura tus rondas y toca play para comenzar",
-    "instruction_running": "Sigue el círculo para regular tu respiración"
+    "instruction_running": "Sigue el círculo para regular tu respiración",
+    "confirm_delete": "¿Estás seguro de que quieres borrar esta carta no enviada?"
   },
   "app_description": "Libera tus pensamientos de forma segura y privada.",
   "more": "Más",
@@ -98,5 +100,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

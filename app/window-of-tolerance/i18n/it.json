@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Sopra la tua finestra",
         "subtitle": "Il tuo sistema nervoso è in sovraccarico. Va bene così. Ti riportiamo indietro con dolcezza.",
-        "feelings": [
-          "Cuore che batte forte",
-          "Respirazione superficiale",
-          "Panico o rabbia",
-          "Pensieri veloci",
-          "Irrequietezza"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Cuore che batte forte",
+          "1": "Respirazione superficiale",
+          "2": "Panico o rabbia",
+          "3": "Pensieri veloci",
+          "4": "Irrequietezza"
+        },
+        "tools": {
+          "0": {
             "name": "Respirazione a scatola",
             "desc": "Inspira 4, luna 4, espirato 4, luna 4. Ripeti 4 volte."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Messa a terra",
             "desc": "5 cose vedono, 4 toccano, 3 sentire, 2 annusare, 1 assaggiare."
           },
-          {
+          "2": {
             "name": "Piedi sul pavimento",
             "desc": "Premi i piedi giù, di: 'Sono qui. Sono al sicuro. Questo passerà.'"
           }
-        ],
+        },
         "button": "Mi sento un po' più calmo →",
         "footer": "Sei al sicuro. Ti prendi il tuo tempo."
       },
       "hypo": {
         "title": "Sotto la tua finestra",
         "subtitle": "Il tuo sistema nervoso si è calmato. Ti sta proteggendo. Risvegliamolo delicatamente.",
-        "feelings": [
-          "Intorpidimento",
-          "Disconnessione",
-          "Affaticamento estremo",
-          "Sentirsi irreale",
-          "Piattezza"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Intorpidimento",
+          "1": "Disconnessione",
+          "2": "Affaticamento estremo",
+          "3": "Sentirsi irreale",
+          "4": "Piattezza"
+        },
+        "tools": {
+          "0": {
             "name": "Movimento Delicato",
             "desc": "Alzati, cammina lentamente, muovi le braccia. Lascia che il tuo corpo si risvegli."
           },
-          {
+          "1": {
             "name": "Suono Ritmico",
             "desc": "Suona musica con ritmo costante, batti i piedi."
           },
-          {
+          "2": {
             "name": "Parla ad alta voce",
             "desc": "Dì ad alta voce il tuo nome, la posizione, la data di oggi. Riattiva il cervello pensante."
           }
-        ],
+        },
         "button": "Mi sento un po' più presente →",
         "footer": "Stai andando alla grande. Prendi il passo dopo passo."
       },
       "safe": {
         "title": "Dentro la tua finestra",
         "subtitle": "Sei nella tua zona sicura. È qui che avvengono guarigione, connessione e crescita. Ben fatto.",
-        "feelings": [
-          "Presente e consapevole",
-          "Respirazione regolare",
-          "Pensiero chiaro",
-          "Connessi"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Presente e consapevole",
+          "1": "Respirazione regolare",
+          "2": "Pensiero chiaro",
+          "3": "Connessi"
+        },
+        "tools": {
+          "0": {
             "name": "Continua a respirare lentamente",
             "desc": "Inspira dal naso, esce dalla bocca."
           },
-          {
+          "1": {
             "name": "Rifletti",
             "desc": "Cosa ti ha aiutato a restare qui? Scrivilo."
           },
-          {
+          "2": {
             "name": "Auto-compassione",
             "desc": "'Il mio sistema nervoso stava facendo il suo lavoro. Non sono rotta. Sto guarendo.'"
           }
-        ],
+        },
         "button": "Continua con il mio kit degli attrezzi →",
         "footer": "Sei degno di cure e guarigione."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Il tuo kit personale",
       "subtitle": "I tuoi strumenti di riferimento — salvati e pronti ogni volta che ne hai bisogno.",
-      "tools_list": [
-        "🌬️ Respirazione a scatola",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Piedi sul pavimento",
-        "🚶 Movimento Delicato",
-        "🎵 Musica",
-        "💬 Parla ad alta voce"
-      ],
+      "tools_list": {
+        "0": "🌬️ Respirazione a scatola",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Piedi sul pavimento",
+        "3": "🚶 Movimento Delicato",
+        "4": "🎵 Musica",
+        "5": "💬 Parla ad alta voce"
+      },
       "journal_label": "📝 La riflessione di oggi",
       "journal_desc": "Qual è stato un momento oggi in cui hai notato che il tuo sistema nervoso si stava spostando — e cosa hai fatto a riguardo?",
       "journal_placeholder": "Scrivi qui...",
@@ -156,13 +156,13 @@
       "preserve_button": "Preserva la riflessione"
     }
   },
-  "nav": [
-    "Check-in",
-    "Spiegazione",
-    "Monitoraggio",
-    "La Zona",
-    "Kit degli attrezzi"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Spiegazione",
+    "2": "Monitoraggio",
+    "3": "La Zona",
+    "4": "Kit degli attrezzi"
+  },
   "history": {
     "title": "Storia del check-in",
     "empty": "Nessun check-in ancora."
@@ -176,15 +176,15 @@
     "title": "Check-in completato",
     "message": "Hai mappato con successo il tuo stato attuale. Costruire consapevolezza è il primo passo per trovare il proprio equilibrio."
   },
-  "days": [
-    "Mio",
-    "Mar",
-    "Mercoledì",
-    "Autunno",
-    "Ven",
-    "Sabato",
-    "Sun"
-  ],
+  "days": {
+    "0": "Mio",
+    "1": "Mar",
+    "2": "Mercoledì",
+    "3": "Autunno",
+    "4": "Ven",
+    "5": "Sabato",
+    "6": "Sun"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Ricominciare",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

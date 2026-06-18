@@ -1,10 +1,10 @@
 {
   "app_title": "Birini Özledim",
-  "subtitles": [
-    "Doğrulama",
-    "İçsel Bilgelik",
-    "Tamam"
-  ],
+  "subtitles": {
+    "0": "Doğrulama",
+    "1": "İçsel Bilgelik",
+    "2": "Tamam"
+  },
   "complete_title": "Anlaşılma Kazanıldı",
   "complete_message": "Birini özlemenin kimyasını anlamak, iyileşmeye giden ilk adımdır. Duygularınız geçerli ve beyniniz sadece korumak ve işlemek için görevini yapıyor.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

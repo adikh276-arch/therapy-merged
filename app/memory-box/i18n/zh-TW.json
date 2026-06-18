@@ -65,7 +65,8 @@
     "title": "安全地藏起來",
     "subtitle": "這段關於 {{name}} 的回憶現在已成為您收藏的一部分。",
     "add_another": "添加另一個內存",
-    "finish": "完成反思"
+    "finish": "完成反思",
+    "saved_title": "被保護"
   },
   "closing": {
     "title": "照顧好",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你確定要刪除這段記憶嗎？"
   },
   "app_description": "Memory Box",
   "before_you_go": "Before you go",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Låt oss ta det ett steg i taget. 💛",
-    "description": [
-      "Du behöver inte berätta hela din historia idag. Bara en liten del räcker.",
-      "Du är säker just nu. Du har kontroll över vad du skriver – och vad du inte skriver."
-    ],
+    "description": {
+      "0": "Du behöver inte berätta hela din historia idag. Bara en liten del räcker.",
+      "1": "Du är säker just nu. Du har kontroll över vad du skriver – och vad du inte skriver."
+    },
     "breath": "Ta ett långsamt andetag innan vi börjar.",
     "button_ready": "Jag är redo",
     "button_history": "Tidigare berättelser",
@@ -21,20 +21,20 @@
     "title": "Skriv det som känns okej ✨",
     "subtitle": "Dina ord, ditt tempo",
     "prompt_label": "Behöver du en startpunkt?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Det jag minns mest är...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Då kände jag mig...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Sedan dess har jag märkt...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Börja skriva här...",
     "notice": "Det finns inget rätt sätt att göra detta. Även några få rader räcker.",
     "button": "Färdigställ skrivandet"
@@ -43,10 +43,10 @@
     "title": "Du gjorde något viktigt.",
     "subtitle": "Tack för att du dök upp för din egen skull.",
     "settle_title": "Låt oss ta en stund för att lugna ner oss",
-    "steps": [
-      "Titta runt och nämn tre saker du kan se.",
-      "Ta ett långsamt andetag in... och ut."
-    ],
+    "steps": {
+      "0": "Titta runt och nämn tre saker du kan se.",
+      "1": "Ta ett långsamt andetag in... och ut."
+    },
     "feeling_label": "Just nu känner jag:",
     "feeling_placeholder": "Ett ord eller två...",
     "quote": "\"Du behöver inte bära allt på en gång. Du kan komma tillbaka när du känner dig redo.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

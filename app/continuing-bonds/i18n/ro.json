@@ -31,37 +31,37 @@
   "auth_error": "Sesiune de autentificare lipsă sau bază de date neconfigurată",
   "save_success": "Reflexia legăturii păstrată",
   "save_error": "A eșuat să păstreze reflexia",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Prin amintiri",
       "prompt": "Poți împărtăși o amintire în care simți prezența lor?",
       "deeper": "Care este un lucru la ei care ți-a rămas în minte?"
     },
-    {
+    "1": {
       "label": "În lucrurile pe care le spun sau le fac",
       "prompt": "Ce parte din ele porți în viața ta de zi cu zi?",
       "deeper": "Cum se manifestă asta în viața ta astăzi?"
     },
-    {
+    "2": {
       "label": "În momentele vieții mele de zi cu zi",
       "prompt": "Când simți că se închid pe parcursul zilei?",
       "deeper": "Care este un lucru la ei care ți-a rămas în minte?"
     },
-    {
+    "3": {
       "label": "În ceea ce încă vreau să le spun",
       "prompt": "Mai vrei să le spui ceva?",
       "deeper": "Ce ți-ai dori cel mai mult să știe acum?"
     },
-    {
+    "4": {
       "label": "Într-un sentiment sau prezență",
       "prompt": "Cum se mai manifestă prezența lor pentru tine?",
       "deeper": "Cum se manifestă asta în viața ta astăzi?"
     }
-  ],
-  "bond_prompts": [
-    "Care este un mic mod în care te simți conectat cu ei astăzi?",
-    "Ce faci tu și care poartă o parte din ei?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Care este un mic mod în care te simți conectat cu ei astăzi?",
+    "1": "Ce faci tu și care poartă o parte din ei?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Începeți de la început",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ești sigur că vrei să ștergi această reflecție?"
   },
   "app_description": "Obligațiuni continue",
   "past_reflections": "Reflecții trecute",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

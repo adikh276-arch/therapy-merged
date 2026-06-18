@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Рятуючи...",
+    "saved": "Збережено"
   },
   "app_duration": "10-15 хвилин",
   "app_title": "Лист до себе",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Підказки",
+  "need_inspiration": "Потрібне натхнення?",
+  "post_writing_reflection": "Роздуми після написання",
+  "reflection_desc": "Визнання своїх почуттів — це потужний крок у вашій подорожі.",
+  "finish_save_reflection": "Завершити та зберегти відображення",
+  "lang": "довгий",
+  "completion_message": "Твій лист збережено безпечно. Приділіть паузу, щоб оцінити свій прогрес."
 }

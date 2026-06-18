@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Typ nog een gedachte...",
+  "resume": "Cv",
+  "pause": "Pauze",
+  "growth_reminder": "Zelfs kleine stapjes verminderen het mentale gewicht. Jij doet het niet",
+  "lang": "lang",
+  "complete_message": "Jij",
+  "welcome_sub": "Welkom",
+  "clearing_sub": "Mentale Clearing",
+  "sorting_sub": "Sortering",
+  "action_sub": "Actiestappen",
+  "reflect_sub": "Reflectie",
+  "intro": {
+    "viewHistory": "Bekijk geschiedenis"
+  }
 }

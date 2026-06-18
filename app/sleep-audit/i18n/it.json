@@ -5,7 +5,8 @@
     "title": "La tua revisione del sonno",
     "description": "Capisci cosa sta influenzando il tuo sonno e dove piccoli cambiamenti possono aiutare.",
     "start_button": "Inizio Audit",
-    "history_button": "Audit passati"
+    "history_button": "Audit passati",
+    "more_insights": "Ritorno all'inizio"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Vado a letto in orari molto diversi ogni sera"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Il mio ambiente di sonno non è buio, silenzioso o confortevole"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Scorro sul telefono proprio prima di dormire"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Bevo caffeina o alcol vicino all'ora di andare a letto"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Mi sveglio durante la notte e faccio fatica a riaddormentarmi"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "La mia mente corre di pensieri quando cerco di dormire"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Raramente mi sento riposato dopo una notte di sonno"
     }
-  ],
-  "rating_labels": [
-    "Molto povero",
-    "Poveri",
-    "Ok",
-    "Bene",
-    "Ottimo"
-  ],
+  },
+  "rating_labels": {
+    "0": "Molto povero",
+    "1": "Poveri",
+    "2": "Ok",
+    "3": "Bene",
+    "4": "Ottimo"
+  },
   "status_labels": {
     "track": "Per lo più in traccia",
     "disruptions": "Alcune interruzioni",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2d",
+  "lang": "lunga",
+  "loading": "Sto caricando la cronologia..."
 }

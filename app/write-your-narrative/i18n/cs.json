@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Pojďme to brát krok za krokem. 💛",
-    "description": [
-      "Dnes nemusíš vyprávět celý svůj příběh. Stačí malá část.",
-      "Teď jsi v bezpečí. Máte kontrolu nad tím, co píšete – a co ne."
-    ],
+    "description": {
+      "0": "Dnes nemusíš vyprávět celý svůj příběh. Stačí malá část.",
+      "1": "Teď jsi v bezpečí. Máte kontrolu nad tím, co píšete – a co ne."
+    },
     "breath": "Pomalu se nadechněte, než začneme.",
     "button_ready": "Jsem připravený",
     "button_history": "Minulé příběhy",
@@ -21,20 +21,20 @@
     "title": "Piš to, co ti přijde v pořádku ✨",
     "subtitle": "Tvá slova, tvé tempo",
     "prompt_label": "Potřebujete výchozí bod?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Co si pamatuji nejvíc je...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Tehdy jsem cítil...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Od té doby jsem si všiml...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Začni psát tady...",
     "notice": "Neexistuje správný způsob, jak to udělat. Stačí pár řádků.",
     "button": "Dokončit psaní"
@@ -43,10 +43,10 @@
     "title": "Udělala jsi něco důležitého.",
     "subtitle": "Děkuji, že jste se objevil sám za sebe.",
     "settle_title": "Pojďme si na chvíli usadit",
-    "steps": [
-      "Rozhlédněte se a jmenujte 3 věci, které vidíte.",
-      "Pomalu se nadechni... A ven."
-    ],
+    "steps": {
+      "0": "Rozhlédněte se a jmenujte 3 věci, které vidíte.",
+      "1": "Pomalu se nadechni... A ven."
+    },
     "feeling_label": "Momentálně cítím:",
     "feeling_placeholder": "Slovo nebo dvě...",
     "quote": "\"Nemusíš nést všechno najednou. Můžeš se vrátit, až budeš připravený.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

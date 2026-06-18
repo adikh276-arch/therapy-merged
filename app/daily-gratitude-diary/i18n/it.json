@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "lunga",
+  "entry_x": "Partecipazione #",
+  "loading": "Caricamento...",
+  "delete": "Elimina"
 }

@@ -1,15 +1,15 @@
 {
   "app_title": "Mapa jídla a emocí",
-  "screen_titles": [
-    "Vítejte",
-    "Stravovací vzorce",
-    "Vnitřní dialog",
-    "Fyzikální snímání",
-    "Mapa",
-    "Jemná podpora",
-    "Finální pohled",
-    "Reflexe"
-  ],
+  "screen_titles": {
+    "0": "Vítejte",
+    "1": "Stravovací vzorce",
+    "2": "Vnitřní dialog",
+    "3": "Fyzikální snímání",
+    "4": "Mapa",
+    "5": "Jemná podpora",
+    "6": "Finální pohled",
+    "7": "Reflexe"
+  },
   "welcome_text": "Hej... Jsem opravdu rád, že jsi tady 💛. Pojďme si jemně zmapovat, co se dělo.",
   "coming_up_label": "Co se v poslední době chystá?",
   "begin_mapping": "Začněte mapování",
@@ -32,36 +32,36 @@
   "auth_error": "Chybějící autentizační relace nebo nekonfigurovaná databáze",
   "save_success": "Vzor zachován",
   "save_error": "Nepodařilo se zachovat vzor",
-  "emotions_list": [
-    "😰 Stres",
-    "😢 Smutek",
-    "😶 Nuda",
-    "😟 Úzkost",
-    "🥺 Samota",
-    "💭 Něco jiného..."
-  ],
-  "food_responses": [
-    "🍽️ Jím víc",
-    "🚫 Jím méně",
-    "🍫 Mám chuť na konkrétní jídla",
-    "😣 Vyhýbám se jídlu",
-    "😐 Žádná skutečná změna"
-  ],
-  "body_sensations": [
-    "💔 Sevřený hrudník",
-    "🪨 Těžký pocit",
-    "🦵 Neklidný / neklidný",
-    "🔋 Nízká energie",
-    "🌀 Uzly v žaludku",
-    "❓ Něco jiného..."
-  ],
-  "support_options": [
-    "🗣️ Promluv si s někým",
-    "☕ Dej si pauzu",
-    "📝 Časopis",
-    "🌬️ Dýchej",
-    "🎧 Rozptýlit se"
-  ],
+  "emotions_list": {
+    "0": "😰 Stres",
+    "1": "😢 Smutek",
+    "2": "😶 Nuda",
+    "3": "😟 Úzkost",
+    "4": "🥺 Samota",
+    "5": "💭 Něco jiného..."
+  },
+  "food_responses": {
+    "0": "🍽️ Jím víc",
+    "1": "🚫 Jím méně",
+    "2": "🍫 Mám chuť na konkrétní jídla",
+    "3": "😣 Vyhýbám se jídlu",
+    "4": "😐 Žádná skutečná změna"
+  },
+  "body_sensations": {
+    "0": "💔 Sevřený hrudník",
+    "1": "🪨 Těžký pocit",
+    "2": "🦵 Neklidný / neklidný",
+    "3": "🔋 Nízká energie",
+    "4": "🌀 Uzly v žaludku",
+    "5": "❓ Něco jiného..."
+  },
+  "support_options": {
+    "0": "🗣️ Promluv si s někým",
+    "1": "☕ Dej si pauzu",
+    "2": "📝 Časopis",
+    "3": "🌬️ Dýchej",
+    "4": "🎧 Rozptýlit se"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Ozvěte se 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jste si jistý, že chcete toto mapování smazat?"
   },
   "app_description": "Mapa jídla a emocí",
   "more": "Více",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý",
+  "view_weekly": "Zobrazit historii mapy",
+  " ": " "
 }

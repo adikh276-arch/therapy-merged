@@ -4,11 +4,11 @@
   "intro": {
     "title": "التنبؤ مقابل الواقع",
     "description": "قارن توقعاتك القلقة بما يحدث فعليا لبناء منظور أكثر توازنا.",
-    "benefits": [
-      "تحديد أنماط القلق",
-      "جمع الأدلة ضد المخاوف",
-      "تقليل التفكير المفرط في المستقبل"
-    ],
+    "benefits": {
+      "0": "تحديد أنماط القلق",
+      "1": "جمع الأدلة ضد المخاوف",
+      "2": "تقليل التفكير المفرط في المستقبل"
+    },
     "duration": "4-5 دقائق",
     "view_past": "اطلع على تأملات الماضي"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "لا توجد انعكاسات محفوظة حتى الآن.",
     "prediction_label": "التنبؤ",
     "reality_label": "الواقع",
-    "reflection_label": "التأمل:"
+    "reflection_label": "التأمل:",
+    "past_logs": "تأملات سابقة",
+    "reframe_label": "نظرة متوازنة جديدة:"
   },
   "complete": {
     "title": "اكتمال النشاط",
     "saved_title": "انعكاس محفوظ",
     "message": "من خلال النظر إلى الحقائق، تساعد عقلك على تعلم أن الأمور غالبا ما تكون أكثر قابلية للإدارة مما تبدو."
   },
-  "emotions": [
-    "قلق",
-    "متوتر",
-    "خائف",
-    "غارقة في الشعور",
-    "قلق"
-  ],
+  "emotions": {
+    "0": "قلق",
+    "1": "متوتر",
+    "2": "خائف",
+    "3": "غارقة في الشعور",
+    "4": "قلق"
+  },
   "intensity_labels": {
     "not_intense": "ليس مكثفا",
     "very_intense": "شديدة الكثافة"
   },
-  "comparison_options": [
-    "اتضح أن الأمر كان تقريبا كما توقعت",
-    "بعض الأجزاء كانت صحيحة، لكن ليس كل شيء",
-    "كان الأمر مختلفا تماما عما توقعت",
-    "كان الأمر أسهل وأفضل بكثير مما تخيلت"
-  ],
+  "comparison_options": {
+    "0": "اتضح أن الأمر كان تقريبا كما توقعت",
+    "1": "بعض الأجزاء كانت صحيحة، لكن ليس كل شيء",
+    "2": "كان الأمر مختلفا تماما عما توقعت",
+    "3": "كان الأمر أسهل وأفضل بكثير مما تخيلت"
+  },
   "screens": {
     "s1": {
       "title": "فكر في موقف حديث",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "هل أنت متأكد أنك تريد حذف سجل التوقعات هذا؟"
   },
   "app_description": "التوقع مقابل الواقع",
   "more": "أكثر",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "طويل"
 }

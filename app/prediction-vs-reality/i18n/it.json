@@ -4,11 +4,11 @@
   "intro": {
     "title": "Previsione vs Realtà",
     "description": "Confronta le tue previsioni ansiose con ciò che accade realmente per costruire una prospettiva più equilibrata.",
-    "benefits": [
-      "Identifica i modelli ansiosi",
-      "Raccogli prove contro le paure",
-      "Ridurre il rimuginare in futuro"
-    ],
+    "benefits": {
+      "0": "Identifica i modelli ansiosi",
+      "1": "Raccogli prove contro le paure",
+      "2": "Ridurre il rimuginare in futuro"
+    },
     "duration": "4-5 minuti",
     "view_past": "Visualizza riflessioni passate"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Nessun riflesso salvato ancora.",
     "prediction_label": "Previsione",
     "reality_label": "Realtà",
-    "reflection_label": "Riflessione:"
+    "reflection_label": "Riflessione:",
+    "past_logs": "Riflessioni passate",
+    "reframe_label": "Nuova visione bilanciata:"
   },
   "complete": {
     "title": "Attività completata",
     "saved_title": "Riflessione salvata",
     "message": "Guardando ai fatti, aiuti la tua mente a capire che le cose sono spesso più gestibili di quanto sembrino."
   },
-  "emotions": [
-    "Ansioso",
-    "Nervoso",
-    "Spaventata",
-    "Sopraffatta",
-    "Inquieto"
-  ],
+  "emotions": {
+    "0": "Ansioso",
+    "1": "Nervoso",
+    "2": "Spaventata",
+    "3": "Sopraffatta",
+    "4": "Inquieto"
+  },
   "intensity_labels": {
     "not_intense": "Non intenso",
     "very_intense": "Molto intenso"
   },
-  "comparison_options": [
-    "È andata quasi esattamente come mi aspettavo",
-    "Alcune parti erano giuste, ma non tutte",
-    "Era molto diverso da quello che mi aspettavo",
-    "È stato molto più facile/migliore di quanto immaginassi"
-  ],
+  "comparison_options": {
+    "0": "È andata quasi esattamente come mi aspettavo",
+    "1": "Alcune parti erano giuste, ma non tutte",
+    "2": "Era molto diverso da quello che mi aspettavo",
+    "3": "È stato molto più facile/migliore di quanto immaginassi"
+  },
   "screens": {
     "s1": {
       "title": "Pensa a una situazione recente",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Sei sicuro di voler cancellare questo registro delle previsioni?"
   },
   "app_description": "Previsione contro realtà",
   "more": "Di più",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

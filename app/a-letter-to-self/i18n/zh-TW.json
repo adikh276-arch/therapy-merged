@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "拯救......",
+    "saved": "已救"
   },
   "app_duration": "10-15 minutes",
   "intro_p1": "No judgments. No pressure. Just you.",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "提示",
+  "need_inspiration": "需要靈感嗎？",
+  "post_writing_reflection": "寫作後的反思",
+  "reflection_desc": "承認自己的感受是你旅程中一個強而有力的步驟。",
+  "finish_save_reflection": "完成與保存反射",
+  "lang": "長篇",
+  "completion_message": "你的信已經安全保存下來。花點時間欣賞你的進步。"
 }

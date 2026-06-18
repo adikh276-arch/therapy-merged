@@ -10,52 +10,52 @@
   "scenario": {
     "title": "ما الذي يثيرك؟",
     "desc": "اختر موقفا تشعر به",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "شخص ما يقاطعني",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "الأمور لا تسير كما هو مخطط لها",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "أشعر أنني مهملة",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "أشعر بالإرهاق",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "اكتب بنفسك...",
     "button": "التوقف → التدريب"
   },
   "hold": {
     "title": "التوقف المؤقت ⏸️.",
     "instructions": "أمسك الدائرة لمدة 5 ثوان",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "اضغط واحتفظ..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "استمر في الأمر..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "أنت تفعلها..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "اقتربنا..."
       }
-    ]
+    }
   },
   "result": {
     "title": "هذا هو التوقف",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "أخرى",
+  "lang": "طويل"
 }

@@ -3,11 +3,11 @@
   "intro": {
     "title": "Tankelæsningstjek",
     "description": "Sæt spørgsmålstegn ved de antagelser, du gør om, hvad andre tænker.",
-    "benefits": [
-      "Stop med at antage det værste",
-      "Identificer partiske fortolkninger",
-      "Byg klarere kommunikation"
-    ],
+    "benefits": {
+      "0": "Stop med at antage det værste",
+      "1": "Identificer partiske fortolkninger",
+      "2": "Byg klarere kommunikation"
+    },
     "duration": "3-4 minutter",
     "view_past": "Se tidligere refleksioner"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Tjek din tro",
       "desc": "Hvor stærkt tror du på din oprindelige tanke nu?",
-      "labels": [
-        "Slet ikke",
-        "Fuldstændig"
-      ]
+      "labels": {
+        "0": "Slet ikke",
+        "1": "Fuldstændig"
+      }
     },
     "step7": {
       "title": "Et mere balanceret syn",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Næste gang",
       "desc": "Hvad kunne du gøre i stedet for at antage?",
-      "examples": [
-        "Bed om en afklaring",
-        "Giv det lidt tid",
-        "Læg mærke til det uden at reagere"
-      ],
+      "examples": {
+        "0": "Bed om en afklaring",
+        "1": "Giv det lidt tid",
+        "2": "Læg mærke til det uden at reagere"
+      },
       "placeholder": "Næste gang kunne jeg..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

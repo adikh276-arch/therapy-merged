@@ -33,13 +33,16 @@
     "intro": {
       "title": "Tracker de auto-îngrijire",
       "description": "Urmărește-ți obiceiurile zilnice de îngrijire personală și vezi cum îți afectează starea generală de bine. Consecvența este cheia unei minți mai sănătoase.",
-      "benefits": [
-        "Înregistrează activitățile zilnice de îngrijire personală",
-        "Urmărește timpul petrecut cu tine",
-        "Monitorizează-ți tiparele de dispoziție",
-        "Vezi istoric și progres"
-      ],
-      "duration": "2-3 minute"
+      "benefits": {
+        "0": "Înregistrează activitățile zilnice de îngrijire personală",
+        "1": "Urmărește timpul petrecut cu tine",
+        "2": "Monitorizează-ți tiparele de dispoziție",
+        "3": "Vezi istoric și progres"
+      },
+      "duration": "2-3 minute",
+      "benefit1": "Înregistrează zilnic actele de sănătate fizică și mentală",
+      "benefit2": "Observă provocările care te împiedică să te odihnești",
+      "benefit3": "Construiește mindfulness prin întărire pozitivă"
     },
     "checkin": {
       "title": "Verificarea 🌿 îngrijirii personale",
@@ -135,20 +138,20 @@
       "Low": "Scăzut",
       "Calm": "Calm"
     },
-    "positiveStatements": [
-      "Astăzi te-ai prezentat pentru tine. Asta e puternic. 🌿",
-      "Îngrijirea de sine nu este egoistă — este esențială. Bravo. 💚",
-      "Fiecare mic gest de grijă construiește un tine mai puternic. 🌱",
-      "Ai investit în tine azi. Asta contează. ✨",
-      "Să ai grijă de tine este cel mai bun lucru pe care l-ai făcut azi. 🍃"
-    ],
-    "supportiveStatements": [
-      "E în regulă. Mâine este un nou început. Fii blând cu tine însuți. 🤍",
-      "Nu fiecare zi va fi perfectă, și asta e perfect în regulă. 🕊️",
-      "Faci tot ce poți. Asta e întotdeauna suficient. 💛",
-      "Odihna este, de asemenea, o formă de îngrijire personală. Fii graționant. 🌸",
-      "Recunoașterea zilei de azi necesită curaj. Deja crești. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Astăzi te-ai prezentat pentru tine. Asta e puternic. 🌿",
+      "1": "Îngrijirea de sine nu este egoistă — este esențială. Bravo. 💚",
+      "2": "Fiecare mic gest de grijă construiește un tine mai puternic. 🌱",
+      "3": "Ai investit în tine azi. Asta contează. ✨",
+      "4": "Să ai grijă de tine este cel mai bun lucru pe care l-ai făcut azi. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "E în regulă. Mâine este un nou început. Fii blând cu tine însuți. 🤍",
+      "1": "Nu fiecare zi va fi perfectă, și asta e perfect în regulă. 🕊️",
+      "2": "Faci tot ce poți. Asta e întotdeauna suficient. 💛",
+      "3": "Odihna este, de asemenea, o formă de îngrijire personală. Fii graționant. 🌸",
+      "4": "Recunoașterea zilei de azi necesită curaj. Deja crești. 🌷"
+    }
   },
   "app_title": "Monitorizare a îngrijirii personale",
   "app_description": "Urmărește-ți obiceiurile zilnice de îngrijire personală și vezi cum îți influențează acestea bunăstarea generală. Consecvența este esențială pentru o minte mai sănătoasă.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

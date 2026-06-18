@@ -3,39 +3,40 @@
   "app_subtitle": "安全私密地釋放你的想法",
   "intro": {
     "title": "未寄出的信",
-    "description": [
-      "有時，我們有些話想說卻一直沒有機會說出口。",
-      "這可能是因為感覺不安全，時機不對，或難以啟齒。",
-      "這項活動為你提供了一個私密的空間，讓你可以用文字表達你的想法。",
-      "你不必寄出這封信。這封信只是寫給你自己的——讓你更能表達、釋放和理解自己的感受。"
-    ],
+    "description": {
+      "0": "有時，我們有些話想說卻一直沒有機會說出口。",
+      "1": "這可能是因為感覺不安全，時機不對，或難以啟齒。",
+      "2": "這項活動為你提供了一個私密的空間，讓你可以用文字表達你的想法。",
+      "3": "你不必寄出這封信。這封信只是寫給你自己的——讓你更能表達、釋放和理解自己的感受。"
+    },
     "notice": "盡情寫下來。反正沒人會看到。",
     "button": "開始寫作 →"
   },
   "writing": {
     "title": "把你一直藏在心裡的話寫下來",
     "desc": "你可以寫信給你的伴侶、前伴侶，甚至寫信給這段關係本身。這樣做沒有對錯。",
-    "prompts": [
-      "我感覺…",
-      "我希望…",
-      "我從來沒說過…",
-      "什麼讓我感到受傷…",
-      "我需要的是…"
-    ],
+    "prompts": {
+      "0": "我感覺…",
+      "1": "我希望…",
+      "2": "我從來沒說過…",
+      "3": "什麼讓我感到受傷…",
+      "4": "我需要的是…"
+    },
     "placeholder": "親愛的____，\n\n我一直想說…",
     "notice": "您可以隨時暫停並返回繼續。",
     "button": "繼續 →"
   },
   "reflection": {
     "title": "請花點時間思考一下",
-    "description": [
-      "你剛剛把自己的想法和感受用語言表達了出來——這需要勇氣。",
-      "你現在可能會感到五味雜陳，這完全沒問題。",
-      "在繼續前進之前，深呼吸，輕輕地審視一下自己。"
-    ],
+    "description": {
+      "0": "你剛剛把自己的想法和感受用語言表達了出來——這需要勇氣。",
+      "1": "你現在可能會感到五味雜陳，這完全沒問題。",
+      "2": "在繼續前進之前，深呼吸，輕輕地審視一下自己。"
+    },
     "notice": "這是為了治癒你，而不是為了送你出去。",
     "save_button": "保存信件",
-    "finish_button": "結束"
+    "finish_button": "結束",
+    "save_success": "你未寄出的信件已安全地在你私人的地方日記中修補。表達是一種深刻的釋放。"
   },
   "history": {
     "title": "往期信件",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你確定要刪除這封未寄出的信嗎？"
   },
   "app_description": "安全私密地釋放你的想法",
   "more": "更多的",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

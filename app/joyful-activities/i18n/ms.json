@@ -14,7 +14,8 @@
     "input1_placeholder": "cth berjalan di taman",
     "input2_label": "Apabila saya melakukan ini, saya biasanya merasa...",
     "input2_placeholder": "cth tenang dan hadir",
-    "button": "Teruskan"
+    "button": "Teruskan",
+    "stage": "Peringkat 1: Penarikan balik"
   },
   "meaning": {
     "title": "Apa yang Menjadikannya Bermakna?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "cth disambungkan dan dibumikan",
     "input3_label": "Ia mengingatkan saya kepada...",
     "input3_placeholder": "cth musim panas sebagai seorang kanak-kanak",
-    "button": "Simpan Refleksi Saya"
+    "button": "Simpan Refleksi Saya",
+    "stage": "Peringkat 2: Makna"
   },
   "smallStep": {
     "title": "Langkah Kecil ke Hadapan",
@@ -34,7 +36,8 @@
     "input1_label": "Satu langkah kecil yang boleh saya ambil minggu ini ialah...",
     "input1_placeholder": "cth berjalan kaki selama 10 minit",
     "button_save": "Simpan",
-    "button_home": "Pergi ke Laman Utama"
+    "button_home": "Pergi ke Laman Utama",
+    "stage": "Peringkat 3: Tindakan"
   },
   "affirmation": {
     "title": "Anda Mengambil Langkah Indah",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

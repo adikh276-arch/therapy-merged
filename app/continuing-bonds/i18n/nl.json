@@ -31,37 +31,37 @@
   "auth_error": "Auth-sessie ontbreekt of database niet geconfigureerd",
   "save_success": "Bindingsreflectie behouden",
   "save_error": "Niet in staat de reflectie te behouden",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Door herinneringen",
       "prompt": "Kun je een herinnering delen waarin je hun aanwezigheid voelt?",
       "deeper": "Wat is één ding aan hen dat je bijblijft?"
     },
-    {
+    "1": {
       "label": "In de dingen die ik zeg of doe",
       "prompt": "Welk deel van hen draag je in je dagelijks leven?",
       "deeper": "Hoe komt dit vandaag de dag in je leven naar voren?"
     },
-    {
+    "2": {
       "label": "In momenten van mijn dagelijks leven",
       "prompt": "Wanneer voel je ze dichtbij tijdens je dag?",
       "deeper": "Wat is één ding aan hen dat je bijblijft?"
     },
-    {
+    "3": {
       "label": "In wat ik ze nog steeds wil vertellen",
       "prompt": "Is er nog iets wat je tegen hen wilt zeggen?",
       "deeper": "Wat zou je het meest willen dat ze nu weten?"
     },
-    {
+    "4": {
       "label": "In een gevoel of aanwezigheid",
       "prompt": "Hoe komt hun aanwezigheid nog steeds voor jou zichtbaar?",
       "deeper": "Hoe komt dit vandaag de dag in je leven naar voren?"
     }
-  ],
-  "bond_prompts": [
-    "Wat is één kleine manier waarop je je vandaag met hen verbonden voelt?",
-    "Wat doe je dat een deel van hen meedraagt?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Wat is één kleine manier waarop je je vandaag met hen verbonden voelt?",
+    "1": "Wat doe je dat een deel van hen meedraagt?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Opnieuw beginnen",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Weet je zeker dat je deze reflectie wilt verwijderen?"
   },
   "app_description": "Voortdurende obligaties",
   "past_reflections": "Terugblikken op het verleden",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

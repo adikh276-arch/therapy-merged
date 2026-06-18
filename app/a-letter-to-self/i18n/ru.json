@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Сберегаю...",
+    "saved": "Сохранено"
   },
   "app_duration": "10-15 минут",
   "app_title": "Письмо самому себе",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Подсказки",
+  "need_inspiration": "Нужна вдохновение?",
+  "post_writing_reflection": "Размышления после написания",
+  "reflection_desc": "Признание своих чувств — мощный шаг на вашем пути.",
+  "finish_save_reflection": "Завершить и сохранить отражение",
+  "lang": "Долго",
+  "completion_message": "Ваше письмо сохранено в безопасности. Уделите минуту, чтобы оценить свой прогресс."
 }

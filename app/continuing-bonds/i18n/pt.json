@@ -31,37 +31,37 @@
   "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
   "save_success": "Reflexão da ligação preservada",
   "save_error": "Falhou em preservar a reflexão",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Através das memórias",
       "prompt": "Você pode compartilhar uma memória em que sinta a presença deles?",
       "deeper": "Qual é uma coisa neles que fica com você?"
     },
-    {
+    "1": {
       "label": "Nas coisas que digo ou faço",
       "prompt": "Que parte deles você carrega no seu dia a dia?",
       "deeper": "Como isso aparece na sua vida hoje?"
     },
-    {
+    "2": {
       "label": "Em momentos da minha vida diária",
       "prompt": "Quando você sente que eles se fecham durante o dia?",
       "deeper": "Qual é uma coisa neles que fica com você?"
     },
-    {
+    "3": {
       "label": "Do que ainda quero contar a eles",
       "prompt": "Tem algo que você ainda quer dizer para eles?",
       "deeper": "O que você mais gostaria que eles soubessem agora?"
     },
-    {
+    "4": {
       "label": "Em um sentimento ou presença",
       "prompt": "Como a presença deles ainda aparece para você?",
       "deeper": "Como isso aparece na sua vida hoje?"
     }
-  ],
-  "bond_prompts": [
-    "Qual é uma pequena forma de você se sentir conectado a eles hoje?",
-    "O que você faz que carrega uma parte deles?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Qual é uma pequena forma de você se sentir conectado a eles hoje?",
+    "1": "O que você faz que carrega uma parte deles?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Recomeçar",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Você tem certeza de que quer deletar esse reflexo?"
   },
   "app_description": "Títulos Contínuos",
   "past_reflections": "Reflexões do Passado",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

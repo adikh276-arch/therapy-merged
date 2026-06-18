@@ -153,5 +153,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "watch_thoughts_drift": "תראה את מחשבותיך נסחפות...",
+  "lang": "ארוך",
+  "app_duration": "3-5 דקות"
 }

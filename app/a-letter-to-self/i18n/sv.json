@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Rädda...",
+    "saved": "Räddad"
   },
   "app_duration": "10–15 minuter",
   "app_title": "Brev till mig själv",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Prompts",
+  "need_inspiration": "Behöver du inspiration?",
+  "post_writing_reflection": "Efter-skrivande reflektion",
+  "reflection_desc": "Att erkänna dina känslor är ett kraftfullt steg i din resa.",
+  "finish_save_reflection": "Avsluta och spara reflektion",
+  "lang": "Lång",
+  "completion_message": "Ditt brev har räddats säkert. Ta en stund och uppskatta dina framsteg."
 }

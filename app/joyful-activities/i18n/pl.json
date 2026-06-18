@@ -14,7 +14,8 @@
     "input1_placeholder": "np. spacer po parku",
     "input2_label": "Kiedy to robię, zwykle czuję się...",
     "input2_placeholder": "np. spokój i obecność",
-    "button": "Kontynuuj"
+    "button": "Kontynuuj",
+    "stage": "Etap 1: Przypomnienie"
   },
   "meaning": {
     "title": "Co sprawia, że jest to znaczące?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "np. podłączone i uziemione",
     "input3_label": "Przypomina mi to...",
     "input3_placeholder": "np. lata jako dziecko",
-    "button": "Ratuj moje odbicie"
+    "button": "Ratuj moje odbicie",
+    "stage": "Etap 2: Znaczenie"
   },
   "smallStep": {
     "title": "Mały krok naprzód",
@@ -34,7 +36,8 @@
     "input1_label": "Jeden mały krok, który mógłbym zrobić w tym tygodniu, to...",
     "input1_placeholder": "np. idź na 10-minutowy spacer",
     "button_save": "Zapisz",
-    "button_home": "Przejdź do domu"
+    "button_home": "Przejdź do domu",
+    "stage": "Etap 3: Akcja"
   },
   "affirmation": {
     "title": "Zrobiłeś piękny krok",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

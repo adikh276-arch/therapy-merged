@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Säästäminen...",
+    "saved": "Pelastettu"
   },
   "app_duration": "10–15 minuuttia",
   "app_title": "Kirje itselle",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Promptit",
+  "need_inspiration": "Tarvitsetko inspiraatiota?",
+  "post_writing_reflection": "Jälkikirjoittamisen pohdintaa",
+  "reflection_desc": "Tunteidesi tunnustaminen on voimakas askel matkallasi.",
+  "finish_save_reflection": "Viimeistely ja tallenna heijastus",
+  "lang": "pitkä",
+  "completion_message": "Kirjeesi on pelastettu turvallisesti. Ota hetki arvostaaksesi edistymistäsi."
 }

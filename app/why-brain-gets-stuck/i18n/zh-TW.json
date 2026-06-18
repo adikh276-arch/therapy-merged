@@ -24,7 +24,8 @@
         "body": "每一種症狀都曾是求生本能。你的大腦為了讓你活下去，盡力。"
       }
     },
-    "healing": "療癒並非遺忘，而是幫助你的大腦明白你現在是安全的。"
+    "healing": "療癒並非遺忘，而是幫助你的大腦明白你現在是安全的。",
+    "finish_reading": "閱讀完成"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  "complete": {
+    "message": "你"
+  }
 }

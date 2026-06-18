@@ -1,10 +1,10 @@
 {
   "app_title": "Slaapraamplanner",
-  "pill_labels": [
-    "Bouw je raam",
-    "Stel je tijden vast",
-    "Jouw slaapvenster"
-  ],
+  "pill_labels": {
+    "0": "Bouw je raam",
+    "1": "Stel je tijden vast",
+    "2": "Jouw slaapvenster"
+  },
   "screen1": {
     "title": "Je slaapvenster is belangrijker dan je denkt",
     "p1": "Een slaapvenster is de vaste tijd tussen het moment dat je gaat slapen en het moment dat je wakker wordt. Het consistent houden — zelfs in het weekend — is een van de krachtigste dingen die je voor je slaap kunt doen.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 manieren om het te beschermen",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Ontspan 30 minuten voor je bedtijd"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Elke dag dezelfde wakkertijd — ja, ook in het weekend"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Vermijd dutjes langer dan 20 minuten na 15.00 uur"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Zet je vanavond voor één ding",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Leg mijn telefoon weg voor het slapengaan"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Begin met een afbouwroutine"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Dim het licht een uur voor het slapengaan"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Maak mijn takenlijst vroeg af"
         }
-      ]
+      }
     },
     "quote": "Consistentie is krachtiger dan perfectie. De ene goede nacht bouwt de volgende op.",
     "button": "Red mijn slaapvenster ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

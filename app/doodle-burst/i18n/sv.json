@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "Duk",
+  "2d": "2D",
+  "a": "a",
+  "lang": "Lång",
+  "complete_and_save": "Färdigställ och spara"
 }

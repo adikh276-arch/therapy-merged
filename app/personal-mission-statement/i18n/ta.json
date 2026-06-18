@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "நீண்ட",
+  "intro_benefit_1": "உங்கள் முக்கிய நம்பிக்கைகளில் முழுமையான தெளிவைப் பெறுங்கள்",
+  "intro_benefit_2": "தனிப்பட்ட மாற்றத்திற்கான தெளிவான இலக்குகளை அமைக்கவும்",
+  "reflection_subtitle": "உங்கள் அபிலாஷைகளை உருவாக்குங்கள். உங்கள் நோக்கத்தின் முக்கிய கூறுகளை நிரப்பவும்.",
+  "mission_your_statement": "உங்கள் அறிக்கை",
+  "saving": "சேமித்தல்...",
+  "mission_save_finish": "சேமி & பினிஷ்",
+  "mission_share": "இந்த",
+  "mission_start_over": "மீண்டும் தொடங்குங்கள்",
+  "loading": "அறிவிப்புகளை ஏற்றுகிறது...",
+  "app": {
+    "startActivity": "பணியை உருவாக்கு"
+  }
 }

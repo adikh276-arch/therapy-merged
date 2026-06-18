@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "lélegezz lassan...",
+  "instruction_out": "lassan kilélegezni...",
+  "instruction_hold": "finoman fogod...",
+  "lang": "hosszú"
 }

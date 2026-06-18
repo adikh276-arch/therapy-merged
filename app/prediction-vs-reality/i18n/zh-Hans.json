@@ -4,11 +4,11 @@
   "intro": {
     "title": "预测与现实",
     "description": "将你焦虑的预测与实际发生的事情进行比较，以建立更平衡的观点。",
-    "benefits": [
-      "识别焦虑模式",
-      "收集证据来反驳恐惧。",
-      "减少未来过度思考"
-    ],
+    "benefits": {
+      "0": "识别焦虑模式",
+      "1": "收集证据来反驳恐惧。",
+      "2": "减少未来过度思考"
+    },
     "duration": "4-5分钟",
     "view_past": "回顾过往的思考"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "尚未保存任何反射图像。",
     "prediction_label": "预言",
     "reality_label": "现实",
-    "reflection_label": "反射："
+    "reflection_label": "反射：",
+    "past_logs": "往昔回顾",
+    "reframe_label": "新的平衡视角："
   },
   "complete": {
     "title": "活动完成",
     "saved_title": "反思已保存",
     "message": "通过了解事实，你就能帮助你的大脑认识到，事情往往比看起来更容易掌控。"
   },
-  "emotions": [
-    "焦虑的",
-    "紧张的",
-    "害怕的",
-    "不知所措",
-    "不安"
-  ],
+  "emotions": {
+    "0": "焦虑的",
+    "1": "紧张的",
+    "2": "害怕的",
+    "3": "不知所措",
+    "4": "不安"
+  },
   "intensity_labels": {
     "not_intense": "强度不大",
     "very_intense": "非常激烈"
   },
-  "comparison_options": [
-    "结果几乎和我预想的一模一样。",
-    "有些部分是对的，但并非全部。",
-    "这和我预想的完全不一样。",
-    "比我想象的要容易得多/好得多。"
-  ],
+  "comparison_options": {
+    "0": "结果几乎和我预想的一模一样。",
+    "1": "有些部分是对的，但并非全部。",
+    "2": "这和我预想的完全不一样。",
+    "3": "比我想象的要容易得多/好得多。"
+  },
   "screens": {
     "s1": {
       "title": "想想最近发生的事",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你确定要删除这个预测日志吗？"
   },
   "app_description": "预测与现实",
   "more": "更多的",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长"
 }

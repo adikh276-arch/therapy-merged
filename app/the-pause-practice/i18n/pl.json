@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Co cię wywołuje?",
     "desc": "Wybierz sytuację, z którą się utożsamiasz",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Ktoś mi przerywa",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Sprawy nie idą zgodnie z planem",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Czuję się ignorowana",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Czuję się przytłoczony",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Wpisz własne...",
     "button": "Ćwiczenie pauzy →"
   },
   "hold": {
     "title": "Przytrzymaj do pauzy ⏸️",
     "instructions": "Trzymaj kółko przez 5 sekund",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Naciśnij i przytrzymaj..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Trzymaj się..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Robisz to..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Już prawie..."
       }
-    ]
+    }
   },
   "result": {
     "title": "To jest ta pauza",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "Inne",
+  "lang": "długie"
 }

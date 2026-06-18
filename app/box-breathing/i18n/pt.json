@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "inspire devagar...",
+  "instruction_out": "expire devagar...",
+  "instruction_hold": "segurar suavemente...",
+  "lang": "longo"
 }

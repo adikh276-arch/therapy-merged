@@ -16,23 +16,23 @@
   "btn_one_more": "Bir şey daha",
   "screen3_tag": "Nazik gerçekler",
   "screen3_title": "Bilmeye değer",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Son teslim tarihi yok",
       "body": "Kayıp için son kullanma tarihi yok. Aylar ya da yıllar sonra hissetmek, sıkıştığın anlamına gelmez — sevdiğin anlamına gelir."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Çelişkili duygular",
       "body": "Birini özleyebilir ve rahatlayabilirsin. Gülebilir ve yas tutabilirsin. Yas zıtlarını taşır."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Aşkın dönüşümü",
       "body": "Acı, sevgiden ayrı değildir. Aynı şey, dönüşmüş."
     }
-  ],
+  },
   "btn_finish": "Finish Reflection",
   "complete_title": "Yolculuk Onurlandırıldı",
   "complete_message": "Devam etmek zorunda değilsin. Sadece farklı taşımayı öğreniyorsun. Yolculuğun benzersiz, geçerli ve derin bir insan.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

@@ -31,37 +31,37 @@
   "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
   "save_success": "Napanatili ang pagmumuni-muni ng bono",
   "save_error": "Nabigo na mapanatili ang pagmumuni-muni",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Sa pamamagitan ng mga alaala",
       "prompt": "Maaari mo bang ibahagi ang isang alaala kung saan mo naramdaman ang kanilang presensya?",
       "deeper": "Ano ang isang bagay tungkol sa kanila na nananatili sa iyo?"
     },
-    {
+    "1": {
       "label": "Sa mga bagay na aking sinasabi o ginagawa",
       "prompt": "Anong bahagi ng mga ito ang dinadala mo sa iyong pang-araw-araw na buhay?",
       "deeper": "Paano nga ba ito nangyayari sa buhay mo ngayon?"
     },
-    {
+    "2": {
       "label": "Sa mga sandali ng aking pang-araw-araw na buhay",
       "prompt": "Kailan mo naramdaman na malapit na ang mga ito sa iyong araw?",
       "deeper": "Ano ang isang bagay tungkol sa kanila na nananatili sa iyo?"
     },
-    {
+    "3": {
       "label": "Sa kung ano pa rin ang nais kong sabihin sa kanila",
       "prompt": "May gusto ka pa bang sabihin sa kanila?",
       "deeper": "Ano ang pinakagusto mong malaman nila ngayon?"
     },
-    {
+    "4": {
       "label": "Sa damdamin o presensya",
       "prompt": "Paano pa rin nagpapakita ang kanilang presensya para sa iyo?",
       "deeper": "Paano nga ba ito nangyayari sa buhay mo ngayon?"
     }
-  ],
-  "bond_prompts": [
-    "Ano ang isang maliit na paraan na nararamdaman mo na konektado sa kanila ngayon?",
-    "Ano ang isang bagay na ginagawa mo na nagdadala ng isang bahagi ng kanila?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Ano ang isang maliit na paraan na nararamdaman mo na konektado sa kanila ngayon?",
+    "1": "Ano ang isang bagay na ginagawa mo na nagdadala ng isang bahagi ng kanila?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Magsimula Muli",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Are you sure you want to delete this reflection?"
   },
   "app_description": "Mga Patuloy na Bono",
   "past_reflections": "Mga Nakaraang Pagninilay",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

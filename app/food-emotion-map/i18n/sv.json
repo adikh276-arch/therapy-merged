@@ -1,15 +1,15 @@
 {
   "app_title": "Mat- och känslokarta",
-  "screen_titles": [
-    "Välkommen",
-    "Födomönster",
-    "Intern dialog",
-    "Fysisk sensorik",
-    "Kartan",
-    "Varsamt stöd",
-    "Slutgiltigt utseende",
-    "Reflekterande"
-  ],
+  "screen_titles": {
+    "0": "Välkommen",
+    "1": "Födomönster",
+    "2": "Intern dialog",
+    "3": "Fysisk sensorik",
+    "4": "Kartan",
+    "5": "Varsamt stöd",
+    "6": "Slutgiltigt utseende",
+    "7": "Reflekterande"
+  },
   "welcome_text": "Hej... Jag är verkligen glad att du är här 💛. Låt oss försiktigt kartlägga vad som har hänt.",
   "coming_up_label": "Vad har hänt på sistone?",
   "begin_mapping": "Börja kartläggning",
@@ -32,36 +32,36 @@
   "auth_error": "Auth-session saknas eller databas inte konfigurerad",
   "save_success": "Mönster bevarat",
   "save_error": "Misslyckades med att bevara mönstret",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Sorg",
-    "😶 Tristess",
-    "😟 Ångest",
-    "🥺 Ensamhet",
-    "💭 Något annat..."
-  ],
-  "food_responses": [
-    "🍽️ Jag äter mer",
-    "🚫 Jag äter mindre",
-    "🍫 Jag är sugen på specifika livsmedel",
-    "😣 Jag undviker mat",
-    "😐 Ingen verklig förändring"
-  ],
-  "body_sensations": [
-    "💔 Trångt bröst",
-    "🪨 Tung känsla",
-    "🦵 Rastlös / rastlös",
-    "🔋 Låg energi",
-    "🌀 Knutar i magen",
-    "❓ Något annat..."
-  ],
-  "support_options": [
-    "🗣️ Prata med någon",
-    "☕ Ta en paus",
-    "📝 Tidskrift",
-    "🌬️ Andas",
-    "🎧 Distrahera mig själv"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Sorg",
+    "2": "😶 Tristess",
+    "3": "😟 Ångest",
+    "4": "🥺 Ensamhet",
+    "5": "💭 Något annat..."
+  },
+  "food_responses": {
+    "0": "🍽️ Jag äter mer",
+    "1": "🚫 Jag äter mindre",
+    "2": "🍫 Jag är sugen på specifika livsmedel",
+    "3": "😣 Jag undviker mat",
+    "4": "😐 Ingen verklig förändring"
+  },
+  "body_sensations": {
+    "0": "💔 Trångt bröst",
+    "1": "🪨 Tung känsla",
+    "2": "🦵 Rastlös / rastlös",
+    "3": "🔋 Låg energi",
+    "4": "🌀 Knutar i magen",
+    "5": "❓ Något annat..."
+  },
+  "support_options": {
+    "0": "🗣️ Prata med någon",
+    "1": "☕ Ta en paus",
+    "2": "📝 Tidskrift",
+    "3": "🌬️ Andas",
+    "4": "🎧 Distrahera mig själv"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Hör av dig 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Är du säker på att du vill ta bort den här mappningen?"
   },
   "app_description": "Mat- och känslokarta",
   "more": "Mer",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång",
+  "view_weekly": "Visa karthistorik",
+  " ": " "
 }

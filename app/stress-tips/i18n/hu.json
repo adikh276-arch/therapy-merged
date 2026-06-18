@@ -10,57 +10,57 @@
       "title": "Aludj nyugodtan",
       "description": "Célozz 7–9 óra alvásra minden éjszaka. Próbálj meg naponta egyszerre aludni és felébredni.",
       "why": "Az alvás segíti az agyat és a tested regenerálódását, és csökkenti a stresszhormonokat.",
-      "do": [
-        "Tartsd fenn a fix alvási rendet",
-        "Kerüld a képernyőt 1 órával lefekvés előtt",
-        "Tartsd a szobát hűvösen és sötétben",
-        "Kerüld a koffeint 16 óra után"
-      ],
+      "do": {
+        "0": "Tartsd fenn a fix alvási rendet",
+        "1": "Kerüld a képernyőt 1 órával lefekvés előtt",
+        "2": "Tartsd a szobát hűvösen és sötétben",
+        "3": "Kerüld a koffeint 16 óra után"
+      },
       "button": "Állítsd be az alvás emlékeztetőt"
     },
     "breathing": {
       "title": "Gyakorold a mély légzést",
       "description": "Szánj néhány percet a légzésedre koncentrálni. A lassú légzés csökkenti a szorongást.",
       "why": "A lassú légzés aktiválja a tested relaxációs válaszát.",
-      "do": [
-        "Lélegezz be 4 másodpercig",
-        "Tartsd 4 másodpercig",
-        "Kilélegezz 4 másodpercig",
-        "Ismételd 1 percig"
-      ]
+      "do": {
+        "0": "Lélegezz be 4 másodpercig",
+        "1": "Tartsd 4 másodpercig",
+        "2": "Kilélegezz 4 másodpercig",
+        "3": "Ismételd 1 percig"
+      }
     },
     "exercise": {
       "title": "Mozgasd a tested",
       "description": "A könnyű séta vagy nyújtás segít levezetni a stresszt és javítani a hangulatot.",
       "why": "A testmozgás endorfinokat szabadít fel és javítja a hangulatot.",
-      "do": [
-        "15 perces séta",
-        "Könnyű nyújtás",
-        "Rövid jóga alkalma",
-        "Gyors otthoni edzés"
-      ]
+      "do": {
+        "0": "15 perces séta",
+        "1": "Könnyű nyújtás",
+        "2": "Rövid jóga alkalma",
+        "3": "Gyors otthoni edzés"
+      }
     },
     "caffeine": {
       "title": "Korlátozd a koffein- és cukorfogyasztást",
       "description": "A túl sok koffein és cukor növelheti a szorongást és megzavarhatja az alvást.",
       "why": "A túl sok koffein és cukor növeli a szorongást és az alvásproblémákat.",
-      "do": [
-        "Cserélj le egy kávét gyógyteára",
-        "Igyál több vizet",
-        "Csökkentsd a cukros nassolnivalókat",
-        "Kerüld a koffeint késő nappal"
-      ]
+      "do": {
+        "0": "Cserélj le egy kávét gyógyteára",
+        "1": "Igyál több vizet",
+        "2": "Csökkentsd a cukros nassolnivalókat",
+        "3": "Kerüld a koffeint késő nappal"
+      }
     },
     "planning": {
       "title": "Tervezd meg a napodat",
       "description": "Bontsd a nagyobb feladatokat kisebb lépésekre, hogy elkerüld a túlterheltséget.",
       "why": "A tervezés csökkenti a mentális zsendetlenséget és a túlterheltséget.",
-      "do": [
-        "Írj 3 fő feladatot",
-        "Bontsd a feladatokat apró lépésekre",
-        "Koncentrálj egyszerre egy feladatra",
-        "Tarts rövid szünetet"
-      ]
+      "do": {
+        "0": "Írj 3 fő feladatot",
+        "1": "Bontsd a feladatokat apró lépésekre",
+        "2": "Koncentrálj egyszerre egy feladatra",
+        "3": "Tarts rövid szünetet"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Lélegezz be...",
+  "Hold…": "Várjatok...",
+  "Exhale…": "Kifújd a levegőt...",
+  "breathing_instruction": "Kövesd a kört a szabályozáshoz",
+  "Resume": "Önéletrajz",
+  "Pause": "Szünet",
+  "lang": "hosszú",
+  "Grounding": "Mentális stressz csökkentése",
+  "stay_present": "Stresszoldó tippek",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Válassz bármelyik célstratégiát lentebb, hogy megmutasd, miért segít, és hogyan alkalmazhatod naponta a célt."
+  },
+  "wellness_tip": "NAPI STRESSZSTRATÉGIA"
 }

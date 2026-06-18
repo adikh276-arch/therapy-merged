@@ -5,7 +5,8 @@
     "title": "Jouw slaapcontrole",
     "description": "Begrijp wat je slaap beïnvloedt en waar kleine veranderingen kunnen helpen.",
     "start_button": "Start Audit",
-    "history_button": "Eerdere audits"
+    "history_button": "Eerdere audits",
+    "more_insights": "Terug naar de start"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Ik ga elke avond op heel verschillende tijden naar bed"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Mijn slaapomgeving is niet donker, stil of comfortabel"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Ik scroll op mijn telefoon vlak voordat ik ga slapen"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Ik drink cafeïne of alcohol vlak voor bedtijd"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Ik word 's nachts wakker en heb moeite om weer in slaap te vallen"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Mijn gedachten razen als ik probeer te slapen"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Ik voel me zelden verfrist na een nacht slaap"
     }
-  ],
-  "rating_labels": [
-    "Heel arm",
-    "Arme",
-    "Oké",
-    "Goed",
-    "Geweldig"
-  ],
+  },
+  "rating_labels": {
+    "0": "Heel arm",
+    "1": "Arme",
+    "2": "Oké",
+    "3": "Goed",
+    "4": "Geweldig"
+  },
   "status_labels": {
     "track": "Grotendeels op de baan",
     "disruptions": "Enkele verstoringen",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2D",
+  "lang": "lang",
+  "loading": "Laadgeschiedenis..."
 }

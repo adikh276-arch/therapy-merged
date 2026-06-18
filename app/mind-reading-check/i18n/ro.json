@@ -3,11 +3,11 @@
   "intro": {
     "title": "Verificare de citire a minții",
     "description": "Pune sub semnul întrebării presupunerile pe care le faci despre ce gândesc alții.",
-    "benefits": [
-      "Nu mai presupune ce e mai rău",
-      "Identifică interpretările părtinitoare",
-      "Construiește o comunicare mai clară"
-    ],
+    "benefits": {
+      "0": "Nu mai presupune ce e mai rău",
+      "1": "Identifică interpretările părtinitoare",
+      "2": "Construiește o comunicare mai clară"
+    },
     "duration": "3-4 minute",
     "view_past": "Vezi reflecții anterioare"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Verifică-ți credința",
       "desc": "Cât de puternic crezi acum în gândirea ta inițială?",
-      "labels": [
-        "Deloc",
-        "Complet"
-      ]
+      "labels": {
+        "0": "Deloc",
+        "1": "Complet"
+      }
     },
     "step7": {
       "title": "O perspectivă mai echilibrată",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Data viitoare",
       "desc": "Ce ai putea face în loc să presupui?",
-      "examples": [
-        "Cere clarificări",
-        "Dă-i puțin timp",
-        "Observați fără a reacționa"
-      ],
+      "examples": {
+        "0": "Cere clarificări",
+        "1": "Dă-i puțin timp",
+        "2": "Observați fără a reacționa"
+      },
       "placeholder": "Data viitoare, aș putea..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

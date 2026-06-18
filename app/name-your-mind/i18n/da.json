@@ -3,11 +3,11 @@
   "intro": {
     "title": "Mød dit sind",
     "description": "Lær at distancere dig fra overvældende tanker ved at give din indre stemme et navn.",
-    "benefits": [
-      "Skab mental afstand",
-      "Reducer kraften af hårde tanker",
-      "Læg mærke til tanker uden at være dem"
-    ],
+    "benefits": {
+      "0": "Skab mental afstand",
+      "1": "Reducer kraften af hårde tanker",
+      "2": "Læg mærke til tanker uden at være dem"
+    },
     "duration": "2-3 minutter",
     "view_past": "Se tidligere indlæg"
   },
@@ -45,15 +45,15 @@
       "title": "Skab lidt afstand",
       "desc": "Giv dit sind et navn, der kan hjælpe dig med at adskille dig fra disse tanker.",
       "placeholder": "Eller skriv dit eget...",
-      "examples": [
-        "Kritikeren",
-        "Overtænker",
-        "Bekymring FM",
-        "Overtænkningsmaskinen",
-        "Den indre kritiker",
-        "Hvad-nu Hvis-generatoren",
-        "Dramainstruktør"
-      ]
+      "examples": {
+        "0": "Kritikeren",
+        "1": "Overtænker",
+        "2": "Bekymring FM",
+        "3": "Overtænkningsmaskinen",
+        "4": "Den indre kritiker",
+        "5": "Hvad-nu Hvis-generatoren",
+        "6": "Dramainstruktør"
+      }
     },
     "practice": {
       "title": "Prøv denne vagt",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Hvad lagde du mærke til?",
       "desc": "Hvordan føltes tanken efter at have givet den et navn?",
-      "options": [
-        "Tanken føltes en smule mindre intens end før",
-        "Jeg følte, at jeg havde lidt afstand til tanken",
-        "Det føltes stadig lige så stærkt som før",
-        "Jeg er ikke sikker på, hvad der ændrede sig, hvis noget"
-      ],
+      "options": {
+        "0": "Tanken føltes en smule mindre intens end før",
+        "1": "Jeg følte, at jeg havde lidt afstand til tanken",
+        "2": "Det føltes stadig lige så stærkt som før",
+        "3": "Jeg er ikke sikker på, hvad der ændrede sig, hvis noget"
+      },
       "button": "Fuldstændig refleksion"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

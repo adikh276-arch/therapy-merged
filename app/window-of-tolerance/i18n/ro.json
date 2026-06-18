@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Deasupra ferestrei tale",
         "subtitle": "Sistemul tău nervos este în overdrive. E în regulă. Hai să te aducem înapoi cu grijă.",
-        "feelings": [
-          "Inima care bate cu putere",
-          "Respirație superficială",
-          "Panică sau furie",
-          "Gânduri alergătoare",
-          "Neliniște"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Inima care bate cu putere",
+          "1": "Respirație superficială",
+          "2": "Panică sau furie",
+          "3": "Gânduri alergătoare",
+          "4": "Neliniște"
+        },
+        "tools": {
+          "0": {
             "name": "Respirația în cutie",
             "desc": "Inspiră 4, lună 4, expiră 4, lună 4. Repetă de 4 ori."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Imobilizare",
             "desc": "5 lucruri văd, 4 ating, 3 aud, 2 miros, 1 gust."
           },
-          {
+          "2": {
             "name": "Picioare pe podea",
             "desc": "Apasă picioarele jos, spune: \"Sunt aici. Sunt în siguranță. Asta va trece.'"
           }
-        ],
+        },
         "button": "Mă simt puțin mai liniștit →",
         "footer": "Ești în siguranță. Ia-ți timpul."
       },
       "hypo": {
         "title": "Sub fereastra ta",
         "subtitle": "Sistemul tău nervos s-a liniștit. Te protejează. Hai să-l trezim ușor înapoi.",
-        "feelings": [
-          "Amorțeală",
-          "Deconectare",
-          "Oboseală extremă",
-          "Se simte ireal",
-          "Platitudine"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Amorțeală",
+          "1": "Deconectare",
+          "2": "Oboseală extremă",
+          "3": "Se simte ireal",
+          "4": "Platitudine"
+        },
+        "tools": {
+          "0": {
             "name": "Mișcare blândă",
             "desc": "Stai în picioare, mergi încet, mișcă brațele. Lasă-ți corpul să se trezească."
           },
-          {
+          "1": {
             "name": "Sunet ritmic",
             "desc": "Cântă muzică cu ritm constant, bate din picioare."
           },
-          {
+          "2": {
             "name": "Vorbește cu voce tare",
             "desc": "Spune-ți numele, locația, data de azi cu voce tare. Reangajează creierul gânditor."
           }
-        ],
+        },
         "button": "Mă simt puțin mai prezentă →",
         "footer": "Te descurci grozav. Mergi pas cu pas."
       },
       "safe": {
         "title": "În fereastra ta",
         "subtitle": "Ești în zona ta sigură. Aici au loc vindecarea, conexiunea și creșterea. Bravo.",
-        "feelings": [
-          "Prezent și conștient",
-          "Respirație regulată",
-          "Gândire clară",
-          "Conectat"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Prezent și conștient",
+          "1": "Respirație regulată",
+          "2": "Gândire clară",
+          "3": "Conectat"
+        },
+        "tools": {
+          "0": {
             "name": "Continuă să respiri încet",
             "desc": "Inspiră pe nas, expiră pe gură."
           },
-          {
+          "1": {
             "name": "Reflectă",
             "desc": "Ce te-a ajutat să rămâi aici? Notează-l."
           },
-          {
+          "2": {
             "name": "Autocompasiune",
             "desc": "\"Sistemul meu nervos își făcea treaba. Nu sunt stricat. Mă vindec.\""
           }
-        ],
+        },
         "button": "Continuă cu trusa mea de unelte →",
         "footer": "Ești demn de grijă și vindecare."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Trusa ta personală de unelte",
       "subtitle": "Uneltele tale preferate — păstrate și gata ori de câte ori ai nevoie.",
-      "tools_list": [
-        "🌬️ Respirația în cutie",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Picioare pe podea",
-        "🚶 Mișcare blândă",
-        "🎵 Muzică",
-        "💬 Vorbește cu voce tare"
-      ],
+      "tools_list": {
+        "0": "🌬️ Respirația în cutie",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Picioare pe podea",
+        "3": "🚶 Mișcare blândă",
+        "4": "🎵 Muzică",
+        "5": "💬 Vorbește cu voce tare"
+      },
       "journal_label": "📝 Reflecția de astăzi",
       "journal_desc": "Care a fost momentul de azi când ai observat că sistemul tău nervos se schimbă — și ce ai făcut în legătură cu asta?",
       "journal_placeholder": "Scrie aici...",
@@ -156,13 +156,13 @@
       "preserve_button": "Păstrează reflecția"
     }
   },
-  "nav": [
-    "Check-in",
-    "Explicație",
-    "Monitorizare",
-    "Zona",
-    "Trusă de unelte"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Explicație",
+    "2": "Monitorizare",
+    "3": "Zona",
+    "4": "Trusă de unelte"
+  },
   "history": {
     "title": "Istoricul check-in-ului",
     "empty": "Încă nu am făcut check-in-uri."
@@ -176,15 +176,15 @@
     "title": "Check-in complet",
     "message": "Ai reușit să cartografiezi starea ta actuală. Creșterea conștientizării este primul pas spre a-ți găsi echilibrul."
   },
-  "days": [
-    "Mine",
-    "Mar",
-    "Căsătorie",
-    "Toamna",
-    "Vin",
-    "Sâmbătă",
-    "Soare"
-  ],
+  "days": {
+    "0": "Mine",
+    "1": "Mar",
+    "2": "Căsătorie",
+    "3": "Toamna",
+    "4": "Vin",
+    "5": "Sâmbătă",
+    "6": "Soare"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Începeți de la început",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

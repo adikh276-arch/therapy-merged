@@ -1,12 +1,12 @@
 {
   "app_title": "Scatola della memoria",
-  "screen_titles": [
-    "La tua scatola",
-    "Onore",
-    "Espressione",
-    "Conservato",
-    "Cura Delicata"
-  ],
+  "screen_titles": {
+    "0": "La tua scatola",
+    "1": "Onore",
+    "2": "Espressione",
+    "3": "Conservato",
+    "4": "Cura Delicata"
+  },
   "complete_title": "Memoria conservata",
   "complete_message": "Hai messo in sicurezza un ricordo di {{name}} nella tua scatola. Questi momenti di connessione sono sempre tuoi.",
   "auth_error": "Sessione di autenticazione mancante o DB non configurato",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Digita il loro nome...",
     "placeholder_relation": "Come li conosci? (opzionale)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Un momento felice",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Qualcosa che dicevano",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Un piccolo ricordo quotidiano",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Un posto che ti ricorda loro",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Qualcosa che vorrei poter dire",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Continua →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Al Sicuro Nascosto",
     "subtitle": "Questo ricordo di {{name}} ora fa parte della tua collezione.",
     "add_another": "Aggiungi un altro ricordo",
-    "finish": "Riflessione finale"
+    "finish": "Riflessione finale",
+    "saved_title": "Tenuto al sicuro"
   },
   "closing": {
     "title": "Prendersi cura della cura",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Sei sicuro di voler cancellare questo ricordo?"
   },
   "app_description": "Scatola dei ricordi",
   "before_you_go": "Prima di andare",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

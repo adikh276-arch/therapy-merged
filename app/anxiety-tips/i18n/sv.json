@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "Andas in...",
+  "hold_label": "Håll...",
+  "exhale_label": "Andas ut...",
+  "start": "Redo",
+  "stop": "Stopp",
+  "begin_breathing": "Börja andas",
+  "lang": "Lång"
 }

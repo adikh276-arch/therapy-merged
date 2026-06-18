@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie",
+  "intro_benefit_1": "Zdobądź absolutną jasność co do swoich podstawowych przekonań",
+  "intro_benefit_2": "Wyznacz jasne cele osobistej transformacji",
+  "reflection_subtitle": "Sporządź swoje aspiracje. Wypełnij podstawowe elementy swojego celu.",
+  "mission_your_statement": "Twoje oświadczenie",
+  "saving": "Zapisuję...",
+  "mission_save_finish": "Save & Finish",
+  "mission_share": "Udostępnij",
+  "mission_start_over": "Start From",
+  "loading": "Ładowanie deklaracji...",
+  "app": {
+    "startActivity": "Stwórz Misję"
+  }
 }

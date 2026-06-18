@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "At redde...",
+    "saved": "Reddet"
   },
   "app_duration": "10-15 minutter",
   "app_title": "Brev til sig selv",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Prompts",
+  "need_inspiration": "Brug for inspiration?",
+  "post_writing_reflection": "Refleksion efter skrivningen",
+  "reflection_desc": "At anerkende dine følelser er et stærkt skridt på din rejse.",
+  "finish_save_reflection": "Færdiggør & gem refleksion",
+  "lang": "Lang",
+  "completion_message": "Dit brev er blevet reddet sikkert. Tag et øjeblik til at værdsætte dine fremskridt."
 }

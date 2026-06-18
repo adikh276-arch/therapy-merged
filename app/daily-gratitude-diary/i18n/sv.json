@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "Lång",
+  "entry_x": "Inträde #",
+  "loading": "Laddar...",
+  "delete": "Radera"
 }

@@ -3,11 +3,11 @@
   "intro": {
     "title": "Incontra la tua mente",
     "description": "Impara a prendere le distanze dai pensieri travolgenti dando un nome alla tua voce interiore.",
-    "benefits": [
-      "Crea una distanza mentale",
-      "Ridurre il potere dei pensieri duri",
-      "Nota i pensieri senza esserne"
-    ],
+    "benefits": {
+      "0": "Crea una distanza mentale",
+      "1": "Ridurre il potere dei pensieri duri",
+      "2": "Nota i pensieri senza esserne"
+    },
     "duration": "2-3 minuti",
     "view_past": "Visualizza le voci passate"
   },
@@ -45,15 +45,15 @@
       "title": "Crea un po' di distanza",
       "desc": "Dai un nome alla tua mente per aiutarti a separarti da questi pensieri.",
       "placeholder": "O digita il tuo...",
-      "examples": [
-        "Il Critico",
-        "Pensatore eccessivo",
-        "Worry FM",
-        "La macchina per pensare troppo",
-        "Il critico interiore",
-        "Il Generatore del Cosa Sarebbe Se",
-        "Regista drammatico"
-      ]
+      "examples": {
+        "0": "Il Critico",
+        "1": "Pensatore eccessivo",
+        "2": "Worry FM",
+        "3": "La macchina per pensare troppo",
+        "4": "Il critico interiore",
+        "5": "Il Generatore del Cosa Sarebbe Se",
+        "6": "Regista drammatico"
+      }
     },
     "practice": {
       "title": "Prova questo shift",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Cosa hai notato?",
       "desc": "Come ti sei sentito a pensarci dopo avergli dato un nome?",
-      "options": [
-        "Il pensiero sembrava un po' meno intenso di prima",
-        "Sentivo di avere una certa distanza dal pensiero",
-        "Sembrava ancora forte come prima",
-        "Non so cosa sia cambiato, se è cambiato qualcosa"
-      ],
+      "options": {
+        "0": "Il pensiero sembrava un po' meno intenso di prima",
+        "1": "Sentivo di avere una certa distanza dal pensiero",
+        "2": "Sembrava ancora forte come prima",
+        "3": "Non so cosa sia cambiato, se è cambiato qualcosa"
+      },
       "button": "Riflessione completa"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

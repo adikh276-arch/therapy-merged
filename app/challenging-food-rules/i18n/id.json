@@ -16,23 +16,23 @@
   },
   "rule_label": "Memberi nama aturan",
   "rule_question": "Apa aturannya?",
-  "rule_options": [
-    "Saya tidak boleh makan setelah waktu tertentu",
-    "Beberapa makanan terlarang",
-    "Saya perlu mengontrol porsi secara ketat"
-  ],
+  "rule_options": {
+    "0": "Saya tidak boleh makan setelah waktu tertentu",
+    "1": "Beberapa makanan terlarang",
+    "2": "Saya perlu mengontrol porsi secara ketat"
+  },
   "rule_something_else": "Sesuatu yang lain...",
   "rule_placeholder": "Ketik aturan makanan Anda...",
   "feeling_label": "Dampak Emosional",
   "feeling_question": "Bagaimana rasanya ini?",
-  "feeling_options": [
-    "😟 Cemas",
-    "😌 Dalam kendali",
-    "😕 Bersalah",
-    "😣 Dibatasi",
-    "😴 Lelah",
-    "😐 Campuran"
-  ],
+  "feeling_options": {
+    "0": "😟 Cemas",
+    "1": "😌 Dalam kendali",
+    "2": "😕 Bersalah",
+    "3": "😣 Dibatasi",
+    "4": "😴 Lelah",
+    "5": "😐 Campuran"
+  },
   "challenge_label": "Tantangan Lunak",
   "challenge_question": "Pertanyaan dengan lembut ...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

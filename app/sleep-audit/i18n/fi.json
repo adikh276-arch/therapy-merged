@@ -5,7 +5,8 @@
     "title": "Unitarkastuksesi",
     "description": "Ymmärrä, mikä vaikuttaa uneen ja missä pienet muutokset voivat auttaa.",
     "start_button": "Aloita auditointi",
-    "history_button": "Aiemmat tarkastukset"
+    "history_button": "Aiemmat tarkastukset",
+    "more_insights": "Takaisin alkuun"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Menen nukkumaan hyvin eri aikoihin joka ilta"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Nukkumisympäristöni ei ole pimeä, hiljainen tai mukava"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Selaan puhelintani juuri ennen nukkumaanmenoa"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Minulla on kofeiinia tai alkoholia lähellä nukkumaanmenoa"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Herään yöllä ja kamppailen saadakseni takaisin uneen"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Mieleni laukkaa ajatuksista, kun yritän nukkua"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Harvoin tunnen oloni virkistyneeksi yön unen jälkeen"
     }
-  ],
-  "rating_labels": [
-    "Todella huono",
-    "Voi",
-    "Okei",
-    "Hyvä",
-    "Upea"
-  ],
+  },
+  "rating_labels": {
+    "0": "Todella huono",
+    "1": "Voi",
+    "2": "Okei",
+    "3": "Hyvä",
+    "4": "Upea"
+  },
   "status_labels": {
     "track": "Enimmäkseen radalla",
     "disruptions": "Joitakin häiriöitä",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2d",
+  "lang": "pitkä",
+  "loading": "Lataushistoria..."
 }

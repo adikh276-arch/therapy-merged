@@ -3,39 +3,40 @@
   "app_subtitle": "Laat je gedachten veilig en privé los",
   "intro": {
     "title": "De Ongestuurde Brief",
-    "description": [
-      "Soms zijn er dingen die we graag zouden willen zeggen — maar nooit de kans hebben gekregen.",
-      "Dit kon komen doordat het niet veilig voelde, het moment niet goed was, of de woorden te moeilijk hardop uit te spreken.",
-      "Deze activiteit geeft je een privéruimte om die gedachten onder woorden te brengen.",
-      "Je hoeft deze brief niet te versturen. Dit is alleen voor jou — om je gevoelens beter te uiten, los te laten en te begrijpen."
-    ],
+    "description": {
+      "0": "Soms zijn er dingen die we graag zouden willen zeggen — maar nooit de kans hebben gekregen.",
+      "1": "Dit kon komen doordat het niet veilig voelde, het moment niet goed was, of de woorden te moeilijk hardop uit te spreken.",
+      "2": "Deze activiteit geeft je een privéruimte om die gedachten onder woorden te brengen.",
+      "3": "Je hoeft deze brief niet te versturen. Dit is alleen voor jou — om je gevoelens beter te uiten, los te laten en te begrijpen."
+    },
     "notice": "Schrijf vrij. Niemand anders zal dit zien.",
     "button": "Begin met schrijven →"
   },
   "writing": {
     "title": "Schrijf wat je hebt ingehouden",
     "desc": "Je kunt schrijven aan je partner, ex-partner, of zelfs aan de relatie zelf. Er is geen goed of fout manier om dit te doen.",
-    "prompts": [
-      "Ik voel me...",
-      "Ik wou dat ...",
-      "Ik heb nooit gezegd...",
-      "Wat mij pijn deed...",
-      "Wat ik nodig had..."
-    ],
+    "prompts": {
+      "0": "Ik voel me...",
+      "1": "Ik wou dat ...",
+      "2": "Ik heb nooit gezegd...",
+      "3": "Wat mij pijn deed...",
+      "4": "Wat ik nodig had..."
+    },
     "placeholder": "Beste ____,\nIk wilde al zeggen...",
     "notice": "Je kunt op elk moment pauzeren en terugkomen.",
     "button": "Ga verder →"
   },
   "reflection": {
     "title": "Neem hier even de tijd voor",
-    "description": [
-      "Je hebt je gedachten en gevoelens net onder woorden gezet — dat vergt moed.",
-      "Je merkt nu misschien een mix van emoties op, en dat is helemaal oké.",
-      "Voordat je verder gaat, haal diep adem en check voorzichtig bij jezelf in."
-    ],
+    "description": {
+      "0": "Je hebt je gedachten en gevoelens net onder woorden gezet — dat vergt moed.",
+      "1": "Je merkt nu misschien een mix van emoties op, en dat is helemaal oké.",
+      "2": "Voordat je verder gaat, haal diep adem en check voorzichtig bij jezelf in."
+    },
     "notice": "Dit was voor je genezing, niet om te sturen.",
     "save_button": "Save Letter",
-    "finish_button": "Fins"
+    "finish_button": "Fins",
+    "save_success": "Je niet-verzonden brief is veilig gerepareerd in je privé lokale krant. Expressie is een diepgaande bevrijding."
   },
   "history": {
     "title": "Vroegere brieven",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Weet je zeker dat je deze niet-verzonden brief wilt verwijderen?"
   },
   "app_description": "Laat je gedachten veilig en in alle privacy de vrije loop.",
   "more": "Meer",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

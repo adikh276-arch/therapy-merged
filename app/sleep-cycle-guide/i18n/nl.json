@@ -173,5 +173,10 @@
   "yes": "Ja",
   "no": "Nee",
   "date": "Datum",
-  "continue": "Ga verder"
+  "continue": "Ga verder",
+  "lang": "lang",
+  "how_long": "Hoe lang ",
+  "you_sleep": "Je slaapt.",
+  "where": "waarbij ",
+  "you_wake_up": "Je wordt wakker binnen je slaapcycli."
 }

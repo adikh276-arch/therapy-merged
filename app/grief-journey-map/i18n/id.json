@@ -16,23 +16,23 @@
   "btn_one_more": "Satu hal lagi",
   "screen3_tag": "Kebenaran Lembut",
   "screen3_title": "Perlu diketahui",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Tidak ada tenggat waktu",
       "body": "Tidak ada tanggal kedaluwarsa kehilangan. Merasakannya berbulan-bulan atau bertahun-tahun kemudian tidak berarti Anda terjebak - itu berarti Anda mencintai."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Perasaan yang kontradiktif",
       "body": "Anda bisa merindukan seseorang dan merasa lega. Anda bisa tertawa dan berduka. Kesedihan memiliki kebalikan."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Transformasi cinta",
       "body": "Rasa sakit tidak terpisah dari cinta. Itu hal yang sama, diubah."
     }
-  ],
+  },
   "btn_finish": "Selesaikan Refleksi",
   "complete_title": "Perjalanan Dihormati",
   "complete_message": "Anda tidak harus melanjutkan. Anda hanya belajar membawanya secara berbeda. Perjalanan Anda unik, valid, dan sangat manusiawi.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

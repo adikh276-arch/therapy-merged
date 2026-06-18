@@ -29,7 +29,8 @@
     "historyDesc": "Twoje wcześniejsze refleksje są tu zapisane, więc możesz do nich wracać w każdej chwili.",
     "noHistory": "Jeszcze nie ukończyłeś refleksji wartości.",
     "startActivity": "Aktywność rozpocznie",
-    "startNew": "Rozpocznij nowe refleksje"
+    "startNew": "Rozpocznij nowe refleksje",
+    "aligned": "Ustawione"
   },
   "values": {
     "Family": "Rodzina",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie",
+  "app_duration": "5 minut",
+  "loading": "Ładowanie odbić..."
 }

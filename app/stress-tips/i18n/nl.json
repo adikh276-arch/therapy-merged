@@ -10,57 +10,57 @@
       "title": "Slaap Rustig",
       "description": "Streef naar 7–9 uur slaap per nacht. Probeer elke dag op hetzelfde tijdstip te slapen en wakker te worden.",
       "why": "Slaap helpt je hersenen en lichaam te herstellen en verlaagt stresshormonen.",
-      "do": [
-        "Houd een vast slaapschema aan",
-        "Vermijd schermen 1 uur voor het slapengaan",
-        "Houd de kamer koel en donker",
-        "Vermijd cafeïne na 16.00 uur"
-      ],
+      "do": {
+        "0": "Houd een vast slaapschema aan",
+        "1": "Vermijd schermen 1 uur voor het slapengaan",
+        "2": "Houd de kamer koel en donker",
+        "3": "Vermijd cafeïne na 16.00 uur"
+      },
       "button": "Stel slaapherinnering in"
     },
     "breathing": {
       "title": "Oefen diep ademhalen",
       "description": "Besteed een paar minuten aandacht aan je ademhaling. Langzaam ademen vermindert angst.",
       "why": "Langzaam ademen activeert de ontspanningsreactie van je lichaam.",
-      "do": [
-        "Adem in 4 seconden",
-        "Houd het 4 seconden vast",
-        "Adem 4 seconden uit",
-        "Herhaal dit 1 minuut"
-      ]
+      "do": {
+        "0": "Adem in 4 seconden",
+        "1": "Houd het 4 seconden vast",
+        "2": "Adem 4 seconden uit",
+        "3": "Herhaal dit 1 minuut"
+      }
     },
     "exercise": {
       "title": "Beweeg je lichaam",
       "description": "Lichte wandelingen of rekken helpt stress los te laten en de stemming te verbeteren.",
       "why": "Beweging geeft endorfines vrij en verbetert de stemming.",
-      "do": [
-        "15 minuten lopen",
-        "Lichte rekking",
-        "Korte yogasessie",
-        "Snelle workout thuis"
-      ]
+      "do": {
+        "0": "15 minuten lopen",
+        "1": "Lichte rekking",
+        "2": "Korte yogasessie",
+        "3": "Snelle workout thuis"
+      }
     },
     "caffeine": {
       "title": "Beperk cafeïne en suiker",
       "description": "Te veel cafeïne en suiker kan angst verhogen en de slaap verstoren.",
       "why": "Te veel cafeïne en suiker verergert angst en slaapproblemen.",
-      "do": [
-        "Vervang één koffie door kruidenthee",
-        "Drink meer water",
-        "Verminder suikerrijke snacks",
-        "Vermijd cafeïne laat op de dag"
-      ]
+      "do": {
+        "0": "Vervang één koffie door kruidenthee",
+        "1": "Drink meer water",
+        "2": "Verminder suikerrijke snacks",
+        "3": "Vermijd cafeïne laat op de dag"
+      }
     },
     "planning": {
       "title": "Plan je dag",
       "description": "Breek grote taken op in kleinere stappen om te voorkomen dat je overweldigd raakt.",
       "why": "Planning vermindert mentale rommel en overweldiging.",
-      "do": [
-        "Schrijf 3 hoofdtaken",
-        "Breek taken op in kleine stappen",
-        "Focus op één taak tegelijk",
-        "Neem korte pauzes"
-      ]
+      "do": {
+        "0": "Schrijf 3 hoofdtaken",
+        "1": "Breek taken op in kleine stappen",
+        "2": "Focus op één taak tegelijk",
+        "3": "Neem korte pauzes"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Adem in...",
+  "Hold…": "Wacht...",
+  "Exhale…": "Uitademen...",
+  "breathing_instruction": "Volg de cirkel om te reguleren",
+  "Resume": "Cv",
+  "Pause": "Pauze",
+  "lang": "lang",
+  "Grounding": "Mentale ontlading",
+  "stay_present": "Tips voor stressverlichting",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Kies hieronder een doelgerichte strategie om te ontdekken waarom het helpt en hoe je het dagelijks kunt toepassen."
+  },
+  "wellness_tip": "DAGELIJKSE STRESSSTRATEGIE"
 }

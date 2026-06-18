@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Sa Itaas ng Iyong Bintana",
         "subtitle": "Ang iyong nervous system ay nasa overdrive. Okay lang iyon. Balikan ka namin nang malumanay.",
-        "feelings": [
-          "Puso na tumibok",
-          "Mababaw na paghinga",
-          "Takot o galit",
-          "Karera ng mga saloobin",
-          "Pagkabalisa"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Puso na tumibok",
+          "1": "Mababaw na paghinga",
+          "2": "Takot o galit",
+          "3": "Karera ng mga saloobin",
+          "4": "Pagkabalisa"
+        },
+        "tools": {
+          "0": {
             "name": "Kahon ng Paghinga",
             "desc": "Huminga 4, buwan 4, huminga 4, buwan 4. Ulitin ang 4 na beses."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Saligan",
             "desc": "5 bagay na nakikita, 4 hawakan, 3 naririnig, 2 amoy, 1 panlasa."
           },
-          {
+          "2": {
             "name": "Mga Paa sa Sahig",
             "desc": "Pindutin ang mga paa pababa, sabihing: 'Nandito ako. Ligtas ako. Lilipas ito.'"
           }
-        ],
+        },
         "button": "Medyo kalmado ang pakiramdam ko →",
         "footer": "Ligtas ka. Maglaan ng iyong oras."
       },
       "hypo": {
         "title": "Sa ibaba ng iyong bintana",
         "subtitle": "Tahimik na ang nervous system mo. Pinoprotektahan ka nito. Marah-hinay nating gisingin ito.",
-        "feelings": [
-          "Pamamanhid",
-          "Pagdiskonekta",
-          "Matinding pagkapagod",
-          "Pakiramdam na hindi totoo",
-          "Flatness"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Pamamanhid",
+          "1": "Pagdiskonekta",
+          "2": "Matinding pagkapagod",
+          "3": "Pakiramdam na hindi totoo",
+          "4": "Flatness"
+        },
+        "tools": {
+          "0": {
             "name": "Magiliw na Paggalaw",
             "desc": "Tumayo ka, maglakad nang dahan-dahan, mag-ugoy ng mga braso. Hayaang magising ang iyong katawan."
           },
-          {
+          "1": {
             "name": "Tunog ng Ritmo",
             "desc": "Magpatugtog ng musika nang may matatag na beat, i-tap ang mga paa."
           },
-          {
+          "2": {
             "name": "Magsalita nang malakas",
             "desc": "Sabihin ang iyong pangalan, lokasyon, at ang petsa ng araw na ito nang malakas. Balikan ang pag-iisip ng utak."
           }
-        ],
+        },
         "button": "Pakiramdam ko ay medyo naroroon ako →",
         "footer": "Maganda ang ginagawa mo. Gawin ito nang hakbang-hakbang."
       },
       "safe": {
         "title": "Sa loob ng Iyong Bintana",
         "subtitle": "Nasa safe zone ka na. Dito nangyayari ang pagpapagaling, koneksyon, at pag-unlad. Mahusay na ginawa.",
-        "feelings": [
-          "Kasalukuyan at may kamalayan",
-          "Matatag na paghinga",
-          "Malinaw na pag-iisip",
-          "Konektado"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Kasalukuyan at may kamalayan",
+          "1": "Matatag na paghinga",
+          "2": "Malinaw na pag-iisip",
+          "3": "Konektado"
+        },
+        "tools": {
+          "0": {
             "name": "Patuloy na huminga nang dahan-dahan",
             "desc": "Sa pamamagitan ng ilong, sa pamamagitan ng bibig."
           },
-          {
+          "1": {
             "name": "Sumasalamin",
             "desc": "Ano ang nakatulong sa iyo na manatili dito? Isulat ito."
           },
-          {
+          "2": {
             "name": "Pagkahabag sa Sarili",
             "desc": "\"Ginagawa ng nervous system ko ang trabaho niya. Hindi ako nasira. Nagpapagaling ako.'"
           }
-        ],
+        },
         "button": "Magpatuloy sa Aking Toolkit →",
         "footer": "Karapat-dapat kang alagaan at pagalingin."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Ang Iyong Personal na Toolkit",
       "subtitle": "Ang iyong mga go-to tool - naka-save at handa sa tuwing kailangan mo ang mga ito.",
-      "tools_list": [
-        "🌬️ Kahon ng Paghinga",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Mga Paa sa Sahig",
-        "🚶 Magiliw na Paggalaw",
-        "🎵 Musika",
-        "💬 Magsalita nang malakas"
-      ],
+      "tools_list": {
+        "0": "🌬️ Kahon ng Paghinga",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Mga Paa sa Sahig",
+        "3": "🚶 Magiliw na Paggalaw",
+        "4": "🎵 Musika",
+        "5": "💬 Magsalita nang malakas"
+      },
       "journal_label": "📝 Ang Pagmumuni-muni Ngayon",
       "journal_desc": "Ano ang isang sandali ngayon nang mapansin mo ang paglipat ng iyong nervous system - at ano ang ginawa mo tungkol dito?",
       "journal_placeholder": "Sumulat dito...",
@@ -156,13 +156,13 @@
       "preserve_button": "Panatilihin ang Pagmumuni-muni"
     }
   },
-  "nav": [
-    "Email Address *",
-    "Pagpapaliwanag",
-    "Pagsubaybay",
-    "Ang Zone",
-    "Toolkit"
-  ],
+  "nav": {
+    "0": "Email Address *",
+    "1": "Pagpapaliwanag",
+    "2": "Pagsubaybay",
+    "3": "Ang Zone",
+    "4": "Toolkit"
+  },
   "history": {
     "title": "Kasaysayan ng Pag-check-in",
     "empty": "Walang mga check-in pa."
@@ -176,15 +176,15 @@
     "title": "Kumpleto ang Pag-check-in",
     "message": "Matagumpay mong nai-map ang iyong kasalukuyang kalagayan. Ang pagbuo ng kamalayan ay ang unang hakbang patungo sa paghahanap ng iyong balanse."
   },
-  "days": [
-    "Ang aking",
-    "Tue",
-    "Miyerkules",
-    "Taglagas",
-    "Biyernes",
-    "Umupo",
-    "Araw"
-  ],
+  "days": {
+    "0": "Ang aking",
+    "1": "Tue",
+    "2": "Miyerkules",
+    "3": "Taglagas",
+    "4": "Biyernes",
+    "5": "Umupo",
+    "6": "Araw"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Magsimula Muli",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

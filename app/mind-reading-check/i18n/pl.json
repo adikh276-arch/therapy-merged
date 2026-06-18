@@ -3,11 +3,11 @@
   "intro": {
     "title": "Sprawdzenie czytania myśli",
     "description": "Podważ założenia, które przyjmujesz na temat myślenia innych.",
-    "benefits": [
-      "Przestań zakładać najgorsze",
-      "Zidentyfikuj stronnicze interpretacje",
-      "Buduj jaśniejszą komunikację"
-    ],
+    "benefits": {
+      "0": "Przestań zakładać najgorsze",
+      "1": "Zidentyfikuj stronnicze interpretacje",
+      "2": "Buduj jaśniejszą komunikację"
+    },
     "duration": "3-4 minuty",
     "view_past": "Zobacz przeszłe refleksje"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Sprawdź swoje przekonania",
       "desc": "Jak mocno wierzysz teraz w swoją pierwotną myśl?",
-      "labels": [
-        "Wcale nie",
-        "Całkowicie"
-      ]
+      "labels": {
+        "0": "Wcale nie",
+        "1": "Całkowicie"
+      }
     },
     "step7": {
       "title": "Bardziej zrównoważony obraz",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "Następnym razem",
       "desc": "Co można zrobić zamiast zakładać?",
-      "examples": [
-        "Poproś o wyjaśnienie",
-        "Daj temu trochę czasu",
-        "Powiadomić bez reakcji"
-      ],
+      "examples": {
+        "0": "Poproś o wyjaśnienie",
+        "1": "Daj temu trochę czasu",
+        "2": "Powiadomić bez reakcji"
+      },
       "placeholder": "Następnym razem mógłbym..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

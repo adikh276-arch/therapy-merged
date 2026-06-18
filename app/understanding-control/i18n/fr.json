@@ -1,58 +1,58 @@
 {
   "app_title": "Comprendre le contrôle",
   "app_subtitle": "Stratégie de survie • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Pourquoi le contrôle peut-il sembler si puissant",
-      "paragraphs": [
-        "Pour beaucoup de personnes ayant des difficultés alimentaires, le contrôle peut sembler être un moyen de créer de la sécurité.",
-        "Lorsque la vie semble imprévisible ou émotionnellement intense, se concentrer sur la nourriture, le poids ou les routines peut apporter un sentiment de structure et de certitude.",
-        "Il ne s’agit pas de volonté ou de discipline. Il s’agit d’essayer de se stabiliser quand les choses semblent incertaines.",
-        "Ainsi, le contrôle devient une stratégie d’adaptation — quelque chose qui vous aide à vous sentir ancré, même temporairement."
-      ],
+      "paragraphs": {
+        "0": "Pour beaucoup de personnes ayant des difficultés alimentaires, le contrôle peut sembler être un moyen de créer de la sécurité.",
+        "1": "Lorsque la vie semble imprévisible ou émotionnellement intense, se concentrer sur la nourriture, le poids ou les routines peut apporter un sentiment de structure et de certitude.",
+        "2": "Il ne s’agit pas de volonté ou de discipline. Il s’agit d’essayer de se stabiliser quand les choses semblent incertaines.",
+        "3": "Ainsi, le contrôle devient une stratégie d’adaptation — quelque chose qui vous aide à vous sentir ancré, même temporairement."
+      },
       "microcopy": "Tu n’es pas seul à ressentir cela.",
       "cta": "Continuez"
     },
-    {
+    "1": {
       "headline": "Différentes façons dont le contrôle apparaît",
       "intro": "Le besoin de contrôle ne se manifeste pas comme pour tout le monde, mais il se manifeste souvent sous forme de motifs tels que :",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Règles alimentaires strictes ou rigides"
         },
-        {
+        "1": {
           "text": "Il faut suivre les routines à la lettre"
         },
-        {
+        "2": {
           "text": "Anxiété quand les plans changent"
         },
-        {
+        "3": {
           "text": "Lier l’estime de soi à la forme/poids"
         }
-      ],
+      },
       "outro": "Avec le temps, ces éléments peuvent devenir rigides, occupant de l’espace mental et rendant l’adaptation plus difficile.",
       "microcopy": "Ce qui commence par du contrôle peut lentement devenir contrôlant.",
       "cta": "Continuez"
     },
-    {
+    "2": {
       "headline": "Sous le contrôle",
       "intro": "L’envie de contrôler a souvent des racines plus profondes. Il peut être relié à :",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Se sentir submergé émotionnellement"
         },
-        {
+        "1": {
           "text": "Désir de prévisibilité"
         },
-        {
+        "2": {
           "text": "Un besoin de stabilité et de sécurité"
         }
-      ],
+      },
       "insight": "Le contrôle n’est pas le problème — c’est la stratégie que votre esprit a trouvée pour faire face. Avec du temps et du soutien, d’autres moyens de se sentir en sécurité sont possibles.",
       "microcopy": "La compréhension est une première étape puissante.",
       "cta": "Terminer la lecture"
     }
-  ],
+  },
   "complete": {
     "title": "Prise de conscience acquise",
     "message": "Comprendre les racines du contrôle est une première étape courageuse pour trouver de nouvelles façons de se sentir en sécurité et stable.",
@@ -109,5 +109,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

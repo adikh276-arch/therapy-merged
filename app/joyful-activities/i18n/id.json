@@ -14,7 +14,8 @@
     "input1_placeholder": "misalnya berjalan di taman",
     "input2_label": "Ketika saya melakukan ini, saya biasanya merasa...",
     "input2_placeholder": "misalnya tenang dan hadir",
-    "button": "Lanjutkan"
+    "button": "Lanjutkan",
+    "stage": "Tahap 1: Penarikan kembali"
   },
   "meaning": {
     "title": "Apa yang membuatnya bermakna?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "misalnya terhubung dan diarde",
     "input3_label": "Itu mengingatkan saya pada...",
     "input3_placeholder": "misalnya musim panas sebagai seorang anak",
-    "button": "Simpan Refleksi Saya"
+    "button": "Simpan Refleksi Saya",
+    "stage": "Tahap 2: Arti"
   },
   "smallStep": {
     "title": "Langkah Kecil ke Depan",
@@ -34,7 +36,8 @@
     "input1_label": "Satu langkah kecil yang bisa saya ambil minggu ini adalah...",
     "input1_placeholder": "misalnya berjalan kaki selama 10 menit",
     "button_save": "Simpan",
-    "button_home": "Pergi ke Beranda"
+    "button_home": "Pergi ke Beranda",
+    "stage": "Tahap 3: Aksi"
   },
   "affirmation": {
     "title": "Anda mengambil langkah yang indah",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

@@ -10,57 +10,57 @@
       "title": "Kumuha ng Mahimbing na Pagtulog",
       "description": "Maghangad ng 7-9 na oras ng pagtulog bawat gabi. Subukang matulog at gumising nang sabay-sabay araw-araw.",
       "why": "Ang pagtulog ay tumutulong sa iyong utak at katawan na makabawi at nagpapababa ng stress hormones.",
-      "do": [
-        "Panatilihin ang isang nakapirming iskedyul ng pagtulog",
-        "Iwasan ang mga screen 1 oras bago matulog",
-        "Panatilihing malamig at madilim ang silid",
-        "Iwasan ang caffeine pagkatapos ng 4 PM"
-      ],
+      "do": {
+        "0": "Panatilihin ang isang nakapirming iskedyul ng pagtulog",
+        "1": "Iwasan ang mga screen 1 oras bago matulog",
+        "2": "Panatilihing malamig at madilim ang silid",
+        "3": "Iwasan ang caffeine pagkatapos ng 4 PM"
+      },
       "button": "Itakda ang Paalala sa Pagtulog"
     },
     "breathing": {
       "title": "Magsanay ng Malalim na Paghinga",
       "description": "Gumugol ng ilang minuto sa pagtuon sa iyong hininga. Ang mabagal na paghinga ay nakakabawas ng pagkabalisa.",
       "why": "Ang mabagal na paghinga ay nagpapagana ng tugon sa pagpapahinga ng iyong katawan.",
-      "do": [
-        "Huminga sa loob ng 4 segundo",
-        "Hawakan nang 4 segundo",
-        "Huminga nang 4 segundo",
-        "Ulitin sa loob ng 1 minuto"
-      ]
+      "do": {
+        "0": "Huminga sa loob ng 4 segundo",
+        "1": "Hawakan nang 4 segundo",
+        "2": "Huminga nang 4 segundo",
+        "3": "Ulitin sa loob ng 1 minuto"
+      }
     },
     "exercise": {
       "title": "Ilipat ang Iyong Katawan",
       "description": "Ang magaan na paglalakad o pag-unat ay tumutulong na mawala ang stress at mapabuti ang mood.",
       "why": "Ang ehersisyo ay naglalabas ng endorphins at nagpapabuti ng mood.",
-      "do": [
-        "15 minutong paglalakad",
-        "Banayad na pag-unat",
-        "Maikling sesyon ng yoga",
-        "Mabilis na pag-eehersisyo sa bahay"
-      ]
+      "do": {
+        "0": "15 minutong paglalakad",
+        "1": "Banayad na pag-unat",
+        "2": "Maikling sesyon ng yoga",
+        "3": "Mabilis na pag-eehersisyo sa bahay"
+      }
     },
     "caffeine": {
       "title": "Limitahan ang Caffeine at Asukal",
       "description": "Ang labis na caffeine at asukal ay maaaring dagdagan ang pagkabalisa at makagambala sa pagtulog.",
       "why": "Ang labis na caffeine at asukal ay nagdaragdag ng pagkabalisa at mga problema sa pagtulog.",
-      "do": [
-        "Palitan ang isang kape ng herbal tea",
-        "Uminom ng mas maraming tubig",
-        "Bawasan ang matamis na meryenda",
-        "Iwasan ang pag-inom ng kape sa huling bahagi ng araw"
-      ]
+      "do": {
+        "0": "Palitan ang isang kape ng herbal tea",
+        "1": "Uminom ng mas maraming tubig",
+        "2": "Bawasan ang matamis na meryenda",
+        "3": "Iwasan ang pag-inom ng kape sa huling bahagi ng araw"
+      }
     },
     "planning": {
       "title": "Planuhin ang Iyong Araw",
       "description": "Hatiin ang mga malalaking gawain sa mas maliliit na hakbang upang maiwasan ang pakiramdam na nababagabag.",
       "why": "Ang pagpaplano ay binabawasan ang kalat-kalat at labis na kaisipan.",
-      "do": [
-        "Sumulat ng 3 pangunahing gawain",
-        "Hatiin ang mga gawain sa maliliit na hakbang",
-        "Magpokus sa isang gawain nang paisa-isa",
-        "Kumuha ng maikling pahinga"
-      ]
+      "do": {
+        "0": "Sumulat ng 3 pangunahing gawain",
+        "1": "Hatiin ang mga gawain sa maliliit na hakbang",
+        "2": "Magpokus sa isang gawain nang paisa-isa",
+        "3": "Kumuha ng maikling pahinga"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Inhale…",
+  "Hold…": "Hold…",
+  "Exhale…": "Exhale…",
+  "breathing_instruction": "Follow the circle to regulate",
+  "Resume": "Resume",
+  "Pause": "Pause",
+  "lang": "lang",
+  "Grounding": "Mental De-stress",
+  "stay_present": "Stress Relief Tips",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Choose any target strategy below to explore why it helps and how you can apply it daily."
+  },
+  "wellness_tip": "DAILY STRESS STRATEGY"
 }

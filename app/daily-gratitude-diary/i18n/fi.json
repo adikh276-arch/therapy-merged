@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "pitkä",
+  "entry_x": "Osallistuminen #",
+  "loading": "Ladataan...",
+  "delete": "Poista"
 }

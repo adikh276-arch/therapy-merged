@@ -105,5 +105,13 @@
   "yes": "Sim",
   "no": "Não",
   "date": "Data",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo",
+  "saving": {
+    "": {
+      "": {
+        "": "Preservando..."
+      }
+    }
+  }
 }

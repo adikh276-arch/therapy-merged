@@ -17,7 +17,9 @@
     "no_reflections": "尚未保存任何反射影像。",
     "prediction_label": "預言",
     "reality_label": "現實",
-    "reflection_label": "反射："
+    "reflection_label": "反射：",
+    "past_logs": "過去的回顧",
+    "reframe_label": "全新平衡觀點："
   },
   "complete": {
     "title": "活動完成",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你確定要刪除這個預測日誌嗎？"
   },
   "app_description": "Prediction vs Reality",
   "more": "More",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

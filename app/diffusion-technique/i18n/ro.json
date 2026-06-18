@@ -153,5 +153,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "watch_thoughts_drift": "Privește-ți gândurile cum se rătăcesc...",
+  "lang": "lung",
+  "app_duration": "3-5 minute"
 }

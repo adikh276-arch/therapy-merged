@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "หายใจเข้า...",
+  "hold_label": "ถือ...",
+  "exhale_label": "หายใจออก...",
+  "start": "พร้อม",
+  "stop": "หยุด",
+  "begin_breathing": "เริ่มหายใจ",
+  "lang": "ยาว"
 }

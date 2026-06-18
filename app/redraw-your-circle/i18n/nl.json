@@ -21,30 +21,31 @@
       "placeholder": "Voer een naam in...",
       "button": "Naam opslaan"
     },
-    "prompts": [
-      "Iemand die vreugde brengt",
-      "Iemand die je steunt",
-      "Iemand met wie je kunt praten",
-      "Iemand die je vertrouwt",
-      "Iemand die je inspireert"
-    ]
+    "prompts": {
+      "0": "Iemand die vreugde brengt",
+      "1": "Iemand die je steunt",
+      "2": "Iemand met wie je kunt praten",
+      "3": "Iemand die je vertrouwt",
+      "4": "Iemand die je inspireert"
+    }
   },
   "reflection": {
     "subtitle": "Slotoverdenkingen",
     "title": "Wat valt je op?",
     "p_intro": "Neem even de tijd om naar je kring te kijken. Je zult het misschien opmerken:",
-    "list": [
-      "Sommige mensen voelen zich dichterbij dan anderen",
-      "Sommige connecties voelen sterk aan",
-      "Sommige voelen afstandelijk of onduidelijk aan",
-      "Er kunnen hiaten zijn — of slechts een paar betekenisvolle mensen"
-    ],
+    "list": {
+      "0": "Sommige mensen voelen zich dichterbij dan anderen",
+      "1": "Sommige connecties voelen sterk aan",
+      "2": "Sommige voelen afstandelijk of onduidelijk aan",
+      "3": "Er kunnen hiaten zijn — of slechts een paar betekenisvolle mensen"
+    },
     "italic": "Bewustzijn is de eerste stap naar het opbouwen van de connecties die je waardeert. 🧘",
     "label": "💭 Is er iemand met wie je je meer verbonden zou willen voelen?",
     "placeholder": "Schrijf hier je gedachten op...",
     "save_button": "Reflectie opslaan",
     "saving_button": "Redden...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Je interpersoonlijke kaart wordt veilig opgeslagen in je dagboek. Het cultiveren van deze ondersteuningsknooppunten helpt ons veerkrachtig te blijven."
   },
   "history": {
     "title": "Geschiedenis van Jouw Cirkels",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Weet je zeker dat je dit cirkellogboek wilt verwijderen?"
   },
   "intro_p1": "Op verschillende momenten in ons leven kan ons steunnetwerk veranderen. 🌱 Soms voelen we ons verbonden en gesteund. Andere keren kunnen dingen afstandelijk of onduidelijk aanvoelen.",
   "intro_p2": "Deze activiteit biedt een moment om even stil te staan en naar de mensen om je heen te kijken – en te ontdekken wie zich op dit moment echt onderdeel van jouw kring voelt. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  " ": " "
 }

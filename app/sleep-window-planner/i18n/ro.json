@@ -1,10 +1,10 @@
 {
   "app_title": "Planificator pentru fereastra de somn",
-  "pill_labels": [
-    "Construiește-ți fereastra",
-    "Stabilește-ți timpii",
-    "Fereastra ta de somn"
-  ],
+  "pill_labels": {
+    "0": "Construiește-ți fereastra",
+    "1": "Stabilește-ți timpii",
+    "2": "Fereastra ta de somn"
+  },
   "screen1": {
     "title": "Fereastra ta de somn contează mai mult decât crezi",
     "p1": "O fereastră de somn este timpul fix dintre momentul în care te culci și cel în care te trezești. Menținerea consecventului — chiar și în weekend — este unul dintre cele mai puternice lucruri pe care le poți face pentru somnul tău.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 moduri de a-l proteja",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Relaxează-te cu 30 de minute înainte de culcare"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Aceeași oră de trezire în fiecare zi — da, și în weekend"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Evită somnurile mai lungi de 20 de minute după ora 15:00"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Angajează-te la un singur lucru în seara asta",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Mi-am pus telefonul deoparte înainte de culcare"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Începe o rutină de relaxare"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Strânge luminile cu o oră înainte de culcare"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Termină-mi lista de lucruri de făcut mai devreme"
         }
-      ]
+      }
     },
     "quote": "Consistența este mai puternică decât perfecțiunea. O noapte bună se construiește pe următoarea.",
     "button": "Păstrează-mi fereastra de somn ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

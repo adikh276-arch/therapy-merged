@@ -5,37 +5,37 @@
   "body_title": "🧍‍♀️ Votre routine corporelle quotidienne",
   "body_subtitle": "Lequel de ces éléments vous a semblé un peu étrange ces derniers temps ? (Sélectionnez toutes les réponses qui s’appliquent)",
   "continue": "Continuer",
-  "body_options": [
-    "Je n'ai pas bien dormi.",
-    "Mon rythme de sommeil est irrégulier.",
-    "Il m'arrive de sauter des repas",
-    "Je mange plus que d'habitude quand je suis stressée.",
-    "Je n'ai pas beaucoup bougé ni fait d'exercice.",
-    "Je ne suis pas beaucoup sorti ces derniers temps.",
-    "Ma routine de soins personnels a changé",
-    "Ma routine quotidienne me semble stable"
-  ],
+  "body_options": {
+    "0": "Je n'ai pas bien dormi.",
+    "1": "Mon rythme de sommeil est irrégulier.",
+    "2": "Il m'arrive de sauter des repas",
+    "3": "Je mange plus que d'habitude quand je suis stressée.",
+    "4": "Je n'ai pas beaucoup bougé ni fait d'exercice.",
+    "5": "Je ne suis pas beaucoup sorti ces derniers temps.",
+    "6": "Ma routine de soins personnels a changé",
+    "7": "Ma routine quotidienne me semble stable"
+  },
   "mind_title": "🧠 Vos schémas de pensée",
-  "mind_options": [
-    "Je n'arrête pas de trop réfléchir.",
-    "J'imagine souvent le pire scénario",
-    "Je suis dure envers moi-même.",
-    "Je me sens coupable de choses que j'ai faites ou que je n'ai pas faites.",
-    "Je m'inquiète constamment",
-    "J'ai du mal à me détendre",
-    "Mes pensées me semblent gérables"
-  ],
+  "mind_options": {
+    "0": "Je n'arrête pas de trop réfléchir.",
+    "1": "J'imagine souvent le pire scénario",
+    "2": "Je suis dure envers moi-même.",
+    "3": "Je me sens coupable de choses que j'ai faites ou que je n'ai pas faites.",
+    "4": "Je m'inquiète constamment",
+    "5": "J'ai du mal à me détendre",
+    "6": "Mes pensées me semblent gérables"
+  },
   "coping_title": "🌊 Comment réagissez-vous au stress ?",
-  "coping_options": [
-    "J'évite les tâches lorsque je suis stressé.",
-    "Je passe beaucoup de temps sur mon téléphone à faire défiler les images pour me distraire.",
-    "Je passe du temps seule pour faire face à la situation.",
-    "Je me plonge dans le travail quand je suis stressé(e).",
-    "Je parle à quelqu'un de ce que je ressens",
-    "Je fais des exercices de respiration pour me calmer.",
-    "Je regarde la télévision ou je joue à des jeux pour me distraire.",
-    "Je ne sais pas trop comment je réagis au stress."
-  ],
+  "coping_options": {
+    "0": "J'évite les tâches lorsque je suis stressé.",
+    "1": "Je passe beaucoup de temps sur mon téléphone à faire défiler les images pour me distraire.",
+    "2": "Je passe du temps seule pour faire face à la situation.",
+    "3": "Je me plonge dans le travail quand je suis stressé(e).",
+    "4": "Je parle à quelqu'un de ce que je ressens",
+    "5": "Je fais des exercices de respiration pour me calmer.",
+    "6": "Je regarde la télévision ou je joue à des jeux pour me distraire.",
+    "7": "Je ne sais pas trop comment je réagis au stress."
+  },
   "reflection_title": "✍️ Réflexion",
   "question_stress": "Quelle habitude augmente votre stress par la suite ?",
   "question_calm": "Quelle habitude pourrait vous aider à vous sentir plus calme ?",
@@ -44,13 +44,13 @@
   "insight_description": "Appuyez ci-dessous pour découvrir des habitudes simples qui peuvent contribuer à réduire le stress.",
   "show_suggestions": "Afficher les suggestions",
   "commit": "Commettre",
-  "suggestions": [
-    "Essaie de te coucher un peu plus tôt ce soir",
-    "Sortez prendre l'air aujourd'hui",
-    "Faites une pause dans le défilement pendant un moment.",
-    "Parlez-vous avec bienveillance",
-    "Terminez une tâche que vous avez remise à plus tard."
-  ],
+  "suggestions": {
+    "0": "Essaie de te coucher un peu plus tôt ce soir",
+    "1": "Sortez prendre l'air aujourd'hui",
+    "2": "Faites une pause dans le défilement pendant un moment.",
+    "3": "Parlez-vous avec bienveillance",
+    "4": "Terminez une tâche que vous avez remise à plus tard."
+  },
   "final_text": "Les petits changements comptent. La constance apporte la sérénité.",
   "finish": "Finition",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Oui",
   "no": "Non",
-  "date": "Date"
+  "date": "Date",
+  "lang": "long",
+  "mind_subtitle": "Quelles habitudes de pensée remarquez-vous le plus souvent ? Sélectionnez tout ce qui s’applique.",
+  "coping_subtitle": "Comment réagissez-vous généralement lorsqu’il y a une surcharge ? Sélectionnez tout ce qui s’applique."
 }

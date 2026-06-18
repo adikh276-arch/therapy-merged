@@ -33,13 +33,16 @@
     "intro": {
       "title": "Tracker per la cura personale",
       "description": "Tieni traccia delle tue abitudini quotidiane di cura di te stesso e osserva come influenzano il tuo benessere generale. La costanza è fondamentale per una mente più sana.",
-      "benefits": [
-        "Registra le attività quotidiane di autocura",
-        "Tieni traccia del tempo dedicato a te stesso",
-        "Monitora i tuoi modelli d'umore",
-        "Visualizza storia e progressi"
-      ],
-      "duration": "2-3 minuti"
+      "benefits": {
+        "0": "Registra le attività quotidiane di autocura",
+        "1": "Tieni traccia del tempo dedicato a te stesso",
+        "2": "Monitora i tuoi modelli d'umore",
+        "3": "Visualizza storia e progressi"
+      },
+      "duration": "2-3 minuti",
+      "benefit1": "Registra quotidianamente atti di benessere fisico e mentale",
+      "benefit2": "Nota le difficoltà che ti impediscono di riposare",
+      "benefit3": "Costruisci la consapevolezza attraverso il rinforzo positivo"
     },
     "checkin": {
       "title": "Controllo 🌿 dell'autocura",
@@ -135,20 +138,20 @@
       "Stressed": "Stressato",
       "Tired": "Stanco"
     },
-    "positiveStatements": [
-      "Oggi sei venuto per te stesso. È potente. 🌿",
-      "La cura di sé non è egoistica — è essenziale. Ben fatto. 💚",
-      "Ogni piccolo atto di cura costruisce un te più forte. 🌱",
-      "Hai investito in te stesso oggi. Questo conta. ✨",
-      "Prendersi cura di te è la cosa migliore che hai fatto oggi. 🍃"
-    ],
-    "supportiveStatements": [
-      "Va tutto bene. Domani è un nuovo inizio. Sii gentile con te stesso. 🤍",
-      "Non tutti i giorni saranno perfetti, e va benissimo così. 🕊️",
-      "Stai facendo del tuo meglio. È sempre abbastanza. 💛",
-      "Il riposo è anche una forma di cura di sé. Sii indulgente. 🌸",
-      "Riconoscere oggi richiede coraggio. Stai già crescendo. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Oggi sei venuto per te stesso. È potente. 🌿",
+      "1": "La cura di sé non è egoistica — è essenziale. Ben fatto. 💚",
+      "2": "Ogni piccolo atto di cura costruisce un te più forte. 🌱",
+      "3": "Hai investito in te stesso oggi. Questo conta. ✨",
+      "4": "Prendersi cura di te è la cosa migliore che hai fatto oggi. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Va tutto bene. Domani è un nuovo inizio. Sii gentile con te stesso. 🤍",
+      "1": "Non tutti i giorni saranno perfetti, e va benissimo così. 🕊️",
+      "2": "Stai facendo del tuo meglio. È sempre abbastanza. 💛",
+      "3": "Il riposo è anche una forma di cura di sé. Sii indulgente. 🌸",
+      "4": "Riconoscere oggi richiede coraggio. Stai già crescendo. 🌷"
+    }
   },
   "app_title": "Strumento di monitoraggio della cura di sé",
   "app_description": "Monitora le tue abitudini quotidiane di cura personale e osserva come influiscono sul tuo benessere generale. La costanza è fondamentale per una mente più sana.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Wat triggert je?",
     "desc": "Kies een situatie waar je je in herkent",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Iemand onderbreekt me",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Het loopt niet zoals gepland",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Ik voel me genegeerd",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Ik voel me overweldigd",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Typ je eigen...",
     "button": "Oefen pauze →"
   },
   "hold": {
     "title": "Pauze vasthouden ⏸️",
     "instructions": "Houd de cirkel 5 seconden vast",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Druk en houd vast..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Blijf erbij..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Je doet het..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Bijna daar..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Dat is de pauze",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "Overig",
+  "lang": "lang"
 }

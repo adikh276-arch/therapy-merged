@@ -1,58 +1,58 @@
 {
   "app_title": "Entendiendo el control",
   "app_subtitle": "Estrategia de Supervivencia • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Por qué el control puede sentirse tan poderoso",
-      "paragraphs": [
-        "Para muchas personas que experimentan dificultades alimentarias, el control puede sentirse como una forma de crear seguridad.",
-        "Cuando la vida se siente impredecible o emocionalmente intensa, centrarse en la comida, el peso o las rutinas puede aportar una sensación de estructura y certeza.",
-        "Esto no va de fuerza de voluntad ni de disciplina. Se trata de intentar estabilizarte cuando las cosas parecen inciertas.",
-        "De este modo, el control se convierte en una estrategia de afrontamiento — algo que te ayuda a sentirte con los pies en la tierra, aunque solo sea temporalmente."
-      ],
+      "paragraphs": {
+        "0": "Para muchas personas que experimentan dificultades alimentarias, el control puede sentirse como una forma de crear seguridad.",
+        "1": "Cuando la vida se siente impredecible o emocionalmente intensa, centrarse en la comida, el peso o las rutinas puede aportar una sensación de estructura y certeza.",
+        "2": "Esto no va de fuerza de voluntad ni de disciplina. Se trata de intentar estabilizarte cuando las cosas parecen inciertas.",
+        "3": "De este modo, el control se convierte en una estrategia de afrontamiento — algo que te ayuda a sentirte con los pies en la tierra, aunque solo sea temporalmente."
+      },
       "microcopy": "No eres el único que se siente así.",
       "cta": "Continúa"
     },
-    {
+    "1": {
       "headline": "Diferentes formas en que aparece el control",
       "intro": "La necesidad de control no es igual para todos, pero a menudo se manifiesta en patrones como:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Normas estrictas o inflexibles sobre la alimentación"
         },
-        {
+        "1": {
           "text": "Necesitas seguir las rutinas exactamente"
         },
-        {
+        "2": {
           "text": "Ansiedad cuando cambian los planes"
         },
-        {
+        "3": {
           "text": "Vincular la autoestima con la forma/peso"
         }
-      ],
+      },
       "outro": "Con el tiempo, estos pueden volverse rígidos, ocupando espacio mental y dificultando la adaptación.",
       "microcopy": "Lo que empieza como control puede empezar a sentirse poco a poco controlador.",
       "cta": "Continúa"
     },
-    {
+    "2": {
       "headline": "Bajo el control",
       "intro": "El impulso de controlar suele tener raíces más profundas. Puede estar conectado con:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Sentirse emocionalmente desbordado"
         },
-        {
+        "1": {
           "text": "Querer previsibilidad"
         },
-        {
+        "2": {
           "text": "Una necesidad de estabilidad y seguridad"
         }
-      ],
+      },
       "insight": "El control no es el problema, sino la estrategia que tu mente encontró para sobrellevarlo. Con tiempo y apoyo, son posibles otras formas de sentirse seguro.",
       "microcopy": "Comprender es un primer paso muy poderoso.",
       "cta": "Terminar la lectura"
     }
-  ],
+  },
   "complete": {
     "title": "Conciencia adquirida",
     "message": "Comprender las raíces del control es un valiente primer paso para encontrar nuevas formas de sentirse seguro y estable.",
@@ -109,5 +109,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

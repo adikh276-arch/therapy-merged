@@ -31,114 +31,114 @@
     "safety": "Nemusíte všechno opravovat – stačí zvolit jeden malý krok.",
     "button": "Zkuste to →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Pošlete neformální hlášení",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Uvědomte si napětí",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Dejte si navzájem prostor",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Nech to být a jdi dál",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Jen se nad tím zamysli",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Pošlete vřelou zprávu",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Upřímně pojmenuj, co se stalo",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Příště se zavázejte, že budete mít pauzu",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Zvolte mír před tím, abyste měli pravdu",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Zamyslete se nad tím, co opravdu potřebujete",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Pošlete profesionální zprávu",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Reagujte s respektem",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Příště si naplánuj klidnější reakci",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Zůstaňte profesionální a jděte dál",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Přemýšlejte o hranicích",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Ozvěte se jednoduchou zprávou",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Uznej, co se stalo",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Příště si dej pauzu",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Teď to nech být",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Jen reflektuj (zatím žádná akce)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Oslovení – i když nedokonalé – je téměř vždy přijato lépe, než očekáváme.",
         "howTitle": "Začněte v malém",
         "howBody": "Nemusíte psát esej. Několik upřímných slov může otevřít dveře k obnovení kontaktu.",
-        "prompts": [
-          "Hej, myslel jsem na tebe. Doufám, že se máš dobře.",
-          "Vím, že to bylo napjaté – chtěl jsem jen říct, že mi na mně záleží.",
-          "Omlouvám se za to předtím. Můžeme si promluvit, až budeš připravený?"
-        ],
+        "prompts": {
+          "0": "Hej, myslel jsem na tebe. Doufám, že se máš dobře.",
+          "1": "Vím, že to bylo napjaté – chtěl jsem jen říct, že mi na mně záleží.",
+          "2": "Omlouvám se za to předtím. Můžeme si promluvit, až budeš připravený?"
+        },
         "promptLabel": "Vyberte výchozí bod:",
         "editLabel": "Udělejte si to pro sebe:"
       },
@@ -169,11 +169,11 @@
         "insight": "Lidé nepotřebují, abyste byli dokonalí – potřebují vědět, že jste si toho všimli.",
         "howTitle": "Pojmenuj to jemně",
         "howBody": "Můžeš to přiznat, aniž bys bral veškerou vinu. Prostě upřímně pojmenuj, co se stalo.",
-        "prompts": [
-          "Vím, že mezi námi to bylo vyhrocené. Chci, abys věděl, že jsem si toho všiml.",
-          "Uvědomuji si, že jsem možná působil tvrdě. To nebyl můj záměr.",
-          "Přemýšlel jsem o tom, co se stalo, a přál bych si, abych to řešil jinak."
-        ],
+        "prompts": {
+          "0": "Vím, že mezi námi to bylo vyhrocené. Chci, abys věděl, že jsem si toho všiml.",
+          "1": "Uvědomuji si, že jsem možná působil tvrdě. To nebyl můj záměr.",
+          "2": "Přemýšlel jsem o tom, co se stalo, a přál bych si, abych to řešil jinak."
+        },
         "promptLabel": "Vyberte výchozí bod:",
         "editLabel": "Udělejte si to pro sebe:"
       },
@@ -183,11 +183,11 @@
         "insight": "Často stačí 6sekundová pauza k přechodu z reakce na reflexi.",
         "howTitle": "🧘 Naplánujte si pauzu",
         "howBody": "Představte si jednoduchý signál – například se nadechnout nebo na chvíli odstoupit – než odpovíte.",
-        "prompts": [
-          "Příště, až budu rozrušený, zhluboka se nadechnu, než odpovím.",
-          "Zkusím říct 'Dej mi chvilku' místo okamžité reakce.",
-          "Na pár minut se odtáhnu, abych si srovnal myšlenky."
-        ],
+        "prompts": {
+          "0": "Příště, až budu rozrušený, zhluboka se nadechnu, než odpovím.",
+          "1": "Zkusím říct 'Dej mi chvilku' místo okamžité reakce.",
+          "2": "Na pár minut se odtáhnu, abych si srovnal myšlenky."
+        },
         "promptLabel": "Vyberte si závazek, který vám přijde správný:",
         "editLabel": "Napište svůj vlastní záměr:"
       },
@@ -197,11 +197,11 @@
         "insight": "Pustit to není vzdát se – je to volba klidu místo toho, že máte pravdu.",
         "howTitle": "🕊️ Uvolněte jemně",
         "howBody": "Nemusíš zapomínat. Prostě se rozhodni, že už to nemusí ovládat, jak se cítíš.",
-        "prompts": [
-          "Rozhodla jsem se to pustit – ne proto, že by to nebylo důležité, ale protože můj klid je důležitější.",
-          "Uvolňuji potřebu mít pravdu v tomhle. Volím spojení.",
-          "Tato situace náš vztah nedefinuje. Jdu dál."
-        ],
+        "prompts": {
+          "0": "Rozhodla jsem se to pustit – ne proto, že by to nebylo důležité, ale protože můj klid je důležitější.",
+          "1": "Uvolňuji potřebu mít pravdu v tomhle. Volím spojení.",
+          "2": "Tato situace náš vztah nedefinuje. Jdu dál."
+        },
         "promptLabel": "Vyberte si, co vás osloví:",
         "editLabel": "Piš to, co ti připadá pravdivé:"
       },
@@ -211,11 +211,11 @@
         "insight": "Psaní deníku nebo i přemýšlení o tom, co se stalo, vám pomůže zpracovat emoce bez tlaku.",
         "howTitle": "🔍 Podívej se dovnitř",
         "howBody": "Zeptej se sama sebe: Co jsem vlastně cítila pod tím hněvem? Často je to bolest, strach nebo zklamání.",
-        "prompts": [
-          "Pod hněvem jsem cítila bolest.",
-          "Uvědomuji si, že jsem reagoval ze strachu, že mě nikdo nevyslyší.",
-          "Co jsem opravdu potřebovala, bylo cítit se respektovaná a oceňována."
-        ],
+        "prompts": {
+          "0": "Pod hněvem jsem cítila bolest.",
+          "1": "Uvědomuji si, že jsem reagoval ze strachu, že mě nikdo nevyslyší.",
+          "2": "Co jsem opravdu potřebovala, bylo cítit se respektovaná a oceňována."
+        },
         "promptLabel": "Vyberte si, co vás osloví:",
         "editLabel": "Napište si vlastní reflexi:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

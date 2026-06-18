@@ -103,5 +103,18 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long",
+  "intro_benefit_1": "Acquérez une clarté absolue sur vos croyances fondamentales",
+  "intro_benefit_2": "Fixez-vous des objectifs clairs pour la transformation personnelle",
+  "reflection_subtitle": "Rédigez vos aspirations. Remplissez les éléments fondamentaux de votre objectif.",
+  "mission_your_statement": "Votre déclaration",
+  "saving": "Sauver...",
+  "mission_save_finish": "Sauvegarde & Fin",
+  "mission_share": "Partager",
+  "mission_start_over": "Recommencer à zéro",
+  "loading": "Chargement des déclarations...",
+  "app": {
+    "startActivity": "Create Mission"
+  }
 }

@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Rutin Badan Harian Anda",
   "body_subtitle": "Yang manakah antara ini berasa sedikit tidak selesa sejak kebelakangan ini? (Pilih mana-mana yang berkenaan)",
   "continue": "Teruskan",
-  "body_options": [
-    "Saya tidak tidur nyenyak",
-    "Masa tidur saya tidak teratur",
-    "Saya kadang-kadang melangkau makan",
-    "Saya makan lebih banyak daripada biasa apabila tertekan",
-    "Saya tidak banyak bergerak atau bersenam",
-    "Saya tidak banyak keluar",
-    "Rutin penjagaan diri saya telah berubah",
-    "Rutin harian saya terasa stabil"
-  ],
+  "body_options": {
+    "0": "Saya tidak tidur nyenyak",
+    "1": "Masa tidur saya tidak teratur",
+    "2": "Saya kadang-kadang melangkau makan",
+    "3": "Saya makan lebih banyak daripada biasa apabila tertekan",
+    "4": "Saya tidak banyak bergerak atau bersenam",
+    "5": "Saya tidak banyak keluar",
+    "6": "Rutin penjagaan diri saya telah berubah",
+    "7": "Rutin harian saya terasa stabil"
+  },
   "mind_title": "🧠 Corak Pemikiran Anda",
-  "mind_options": [
-    "Saya terus terlalu memikirkan perkara",
-    "Saya sering membayangkan senario terburuk",
-    "Saya keras pada diri saya sendiri",
-    "Saya berasa bersalah tentang perkara yang telah saya lakukan atau tidak lakukan",
-    "Saya sentiasa bimbang",
-    "Saya sukar untuk berehat",
-    "Fikiran saya terasa terkawal"
-  ],
+  "mind_options": {
+    "0": "Saya terus terlalu memikirkan perkara",
+    "1": "Saya sering membayangkan senario terburuk",
+    "2": "Saya keras pada diri saya sendiri",
+    "3": "Saya berasa bersalah tentang perkara yang telah saya lakukan atau tidak lakukan",
+    "4": "Saya sentiasa bimbang",
+    "5": "Saya sukar untuk berehat",
+    "6": "Fikiran saya terasa terkawal"
+  },
   "coping_title": "🌊 Bagaimana Anda Bertindak Balas terhadap Tekanan",
-  "coping_options": [
-    "Saya mengelakkan tugasan apabila saya tertekan",
-    "Saya banyak menatal pada telefon saya untuk mengalihkan perhatian saya",
-    "Saya meluangkan masa bersendirian untuk mengatasinya",
-    "Saya melemparkan diri saya ke tempat kerja apabila tertekan",
-    "Saya bercakap dengan seseorang tentang perasaan saya",
-    "Saya melakukan senaman pernafasan untuk menenangkan diri",
-    "Saya menonton TV atau bermain permainan untuk mengalihkan perhatian saya",
-    "Saya tidak pasti bagaimana saya bertindak balas terhadap tekanan"
-  ],
+  "coping_options": {
+    "0": "Saya mengelakkan tugasan apabila saya tertekan",
+    "1": "Saya banyak menatal pada telefon saya untuk mengalihkan perhatian saya",
+    "2": "Saya meluangkan masa bersendirian untuk mengatasinya",
+    "3": "Saya melemparkan diri saya ke tempat kerja apabila tertekan",
+    "4": "Saya bercakap dengan seseorang tentang perasaan saya",
+    "5": "Saya melakukan senaman pernafasan untuk menenangkan diri",
+    "6": "Saya menonton TV atau bermain permainan untuk mengalihkan perhatian saya",
+    "7": "Saya tidak pasti bagaimana saya bertindak balas terhadap tekanan"
+  },
   "reflection_title": "✍️ Refleksi",
   "question_stress": "Tabiat manakah yang meningkatkan tekanan anda kemudian?",
   "question_calm": "Tabiat manakah yang boleh membantu anda berasa lebih tenang?",
@@ -44,13 +44,13 @@
   "insight_description": "Ketik di bawah untuk melihat tabiat mudah yang boleh membantu mengurangkan tekanan.",
   "show_suggestions": "Tunjukkan Cadangan",
   "commit": "Komited",
-  "suggestions": [
-    "Cuba tidur lebih awal malam ini",
-    "Keluar untuk menghirup udara segar hari ini",
-    "Berehat sebentar daripada menatal",
-    "Bercakap dengan baik kepada diri sendiri",
-    "Selesaikan satu tugas yang telah anda tangguhkan"
-  ],
+  "suggestions": {
+    "0": "Cuba tidur lebih awal malam ini",
+    "1": "Keluar untuk menghirup udara segar hari ini",
+    "2": "Berehat sebentar daripada menatal",
+    "3": "Bercakap dengan baik kepada diri sendiri",
+    "4": "Selesaikan satu tugas yang telah anda tangguhkan"
+  },
   "final_text": "Perubahan kecil penting. Konsistensi mewujudkan ketenangan.",
   "finish": "Selesai",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "panjang",
+  "mind_subtitle": "Apakah tabiat pemikiran yang anda perhatikan kembali paling kerap? Pilih semua yang berkenaan.",
+  "coping_subtitle": "Bagaimanakah anda biasanya bertindak balas apabila keterlaluan berlaku? Pilih semua yang berkenaan."
 }

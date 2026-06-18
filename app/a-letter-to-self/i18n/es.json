@@ -42,7 +42,9 @@
     "phase_label": "Fase",
     "rounds_selector": "{{count}} Rondas",
     "instruction_ready": "Configura tus rondas y toca play para comenzar",
-    "instruction_running": "Sigue el círculo para regular tu respiración"
+    "instruction_running": "Sigue el círculo para regular tu respiración",
+    "saving": "Guardando...",
+    "saved": "Salvado"
   },
   "app_duration": "10-15 minutos",
   "app_title": "Carta a mí mismo",
@@ -87,5 +89,13 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "T": "T",
+  "prompts": "Prompts",
+  "need_inspiration": "¿Necesitas inspiración?",
+  "post_writing_reflection": "Reflexión posterior a la escritura",
+  "reflection_desc": "Reconocer tus sentimientos es un paso poderoso en tu camino.",
+  "finish_save_reflection": "Finalizar y guardar la reflexión",
+  "lang": "largo",
+  "completion_message": "Tu carta ha sido guardada a salvo. Tómate un momento para apreciar tu progreso."
 }

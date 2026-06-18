@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "Kangas",
+  "2d": "2d",
+  "a": "a",
+  "lang": "pitkä",
+  "complete_and_save": "Täydellinen ja tallenna"
 }

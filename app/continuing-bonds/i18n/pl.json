@@ -31,37 +31,37 @@
   "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
   "save_success": "Zachowano odbicie wiązania",
   "save_error": "Nie udało się zachować odbicia",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Przez wspomnienia",
       "prompt": "Czy możesz podzielić się wspomnieniem, w którym czujesz ich obecność?",
       "deeper": "Co jest jedną rzeczą, która zapada ci w pamięć?"
     },
-    {
+    "1": {
       "label": "W tym, co mówię lub robię",
       "prompt": "Jaką część z nich nosisz w swoim codziennym życiu?",
       "deeper": "Jak to się dziś objawia w twoim życiu?"
     },
-    {
+    "2": {
       "label": "W chwilach mojego codziennego życia",
       "prompt": "Kiedy czujesz, że są bliskie w ciągu dnia?",
       "deeper": "Co jest jedną rzeczą, która zapada ci w pamięć?"
     },
-    {
+    "3": {
       "label": "W tym, co wciąż chcę im powiedzieć",
       "prompt": "Czy jest coś, co jeszcze chcesz im powiedzieć?",
       "deeper": "Co najbardziej chciałbyś, żeby teraz wiedzieli?"
     },
-    {
+    "4": {
       "label": "W uczuciu lub obecności",
       "prompt": "Jak to możliwe, że ich obecność wciąż się u ciebie pojawia?",
       "deeper": "Jak to się dziś objawia w twoim życiu?"
     }
-  ],
-  "bond_prompts": [
-    "Jaki jest jeden mały sposób, w jaki czujesz się dziś z nimi związany?",
-    "Co robisz, co nosi część z nich?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Jaki jest jeden mały sposób, w jaki czujesz się dziś z nimi związany?",
+    "1": "Co robisz, co nosi część z nich?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Zacznij od nowa",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jesteś pewien, że chcesz usunąć to odbicie?"
   },
   "app_description": "Obligacje ciągłe",
   "past_reflections": "Przeszłe refleksje",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

@@ -10,52 +10,52 @@
   "scenario": {
     "title": "מה מפעיל אותך?",
     "desc": "בחר סיטואציה שאתה מזדהה איתה",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "מישהו מפריע לי",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "הדברים לא מתנהלים כמתוכנן",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "אני מרגישה שמתעלמים ממני",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "אני מרגיש מוצף",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "הקליד בעצמך...",
     "button": "הפסקת תרגול →"
   },
   "hold": {
     "title": "המתנה להשהיה ⏸️",
     "instructions": "החזק את המעגל במשך 5 שניות",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "לחץ והחזק..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "תישאר עם זה..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "אתה עושה את זה..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "כמעט שם..."
       }
-    ]
+    }
   },
   "result": {
     "title": "זו ההפסקה",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "אחר",
+  "lang": "ארוך"
 }

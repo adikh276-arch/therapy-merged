@@ -1,10 +1,10 @@
 {
   "app_title": "Alguém Sumindo",
-  "subtitles": [
-    "Validação",
-    "Sabedoria Interna",
-    "Completo"
-  ],
+  "subtitles": {
+    "0": "Validação",
+    "1": "Sabedoria Interna",
+    "2": "Completo"
+  },
   "complete_title": "Clareza Conquistada",
   "complete_message": "Entender a química de sentir falta de alguém é o primeiro passo para a cura. Seus sentimentos são válidos, e seu cérebro está simplesmente fazendo seu trabalho de proteger e processar.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

@@ -105,5 +105,13 @@
   "yes": "Ja",
   "no": "Nee",
   "date": "Datum",
-  "continue": "Ga verder"
+  "continue": "Ga verder",
+  "lang": "lang",
+  "saving": {
+    "": {
+      "": {
+        "": "Bewaren..."
+      }
+    }
+  }
 }

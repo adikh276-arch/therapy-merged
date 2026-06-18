@@ -1,10 +1,10 @@
 {
   "app_title": "Perancang Tetingkap Tidur",
-  "pill_labels": [
-    "Bina tetingkap anda",
-    "Tetapkan masa anda",
-    "Tetingkap tidur anda"
-  ],
+  "pill_labels": {
+    "0": "Bina tetingkap anda",
+    "1": "Tetapkan masa anda",
+    "2": "Tetingkap tidur anda"
+  },
   "screen1": {
     "title": "Tetingkap tidur anda lebih penting daripada yang anda fikirkan",
     "p1": "Tetingkap tidur ialah masa tetap antara anda tidur dan apabila anda bangun. Memastikan ia konsisten - walaupun pada hujung minggu - adalah salah satu perkara paling berkuasa yang boleh anda lakukan untuk tidur anda.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 cara untuk melindunginya",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Bersantai 30 minit sebelum tidur anda"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Masa bangun yang sama setiap hari — ya, hujung minggu juga"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Elakkan tidur siang lebih lama daripada 20 minit selepas jam 3 petang"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Komited kepada 1 perkara malam ini",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Letakkan telefon saya sebelum tidur"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Mulakan rutin rehat"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Malapkan lampu sejam sebelum tidur"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Selesaikan senarai tugasan saya lebih awal"
         }
-      ]
+      }
     },
     "quote": "Konsistensi lebih berkuasa daripada kesempurnaan. Satu malam yang baik membina yang seterusnya.",
     "button": "Simpan tetingkap tidur saya ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

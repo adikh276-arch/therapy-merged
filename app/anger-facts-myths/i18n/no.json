@@ -23,38 +23,38 @@
   "try_again": "Prøv igjen",
   "complete_title": "Kunnskap mestret",
   "complete_message": "Du scoret {{score}}/{{total}}! Du har fått verdifull innsikt i sannhetene og mytene om sinne.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Sinne er dårlig. Hvis du føler deg sint, er det noe galt med deg.",
       "answer": "myth",
       "realFact": "Sinne er en normal, sunn følelse. Alle føler det. Det er ikke et tegn på at noe er 'galt' med deg — det er et signal om at noe betyr noe for deg. Det som teller er hvordan du reagerer på det, ikke om du føler det.",
       "example": "En veteran blir sint når grensene deres krysses. Den sinnet er gyldig — det forteller dem noe viktig."
     },
-    {
+    "1": {
       "statement": "Sinne kan være et signal om at grensene dine er blitt krysset.",
       "answer": "fact",
       "realFact": "Sinne er informasjon. Når du kjenner det, er det verdt å spørre: hvilken grense ble krysset? Hvilket behov blir ikke dekket? Å lytte til sinnet ditt – uten å handle impulsivt – hjelper deg å forstå deg selv bedre og ta meningsfulle handlinger.",
       "example": "Du blir sint når en kollega tar æren for arbeidet ditt. Den sinnet peker på et behov for anerkjennelse og rettferdighet."
     },
-    {
+    "2": {
       "statement": "Hvis du er sint, må du få det ut ved å rope eller slå på ting.",
       "answer": "myth",
       "realFact": "Sunt sinneuttrykk betyr ikke undertrykkelse ELLER eksplosjon. Det betyr å anerkjenne følelsene dine og uttrykke dem konstruktivt — gjennom ord, dagbokskriving, fysisk aktivitet eller kreative utløp. Du kan hedre sinnet ditt uten ødeleggelse.",
       "example": "I stedet for å slå i veggen, går du en løpetur eller skriver ned nøyaktig hva som plager deg. Sinne går gjennom deg uten å skade deg."
     },
-    {
+    "3": {
       "statement": "Å lære å håndtere sinne er et tegn på emosjonell styrke.",
       "answer": "fact",
       "realFact": "Folk som jobber med sinnemestring er ikke svake — de gjør noe av det modigste emosjonelle arbeidet som finnes. Å velge å stoppe opp, reflektere og svare gjennomtenkt krever langt mer styrke enn å reagere impulsivt.",
       "example": "Å ta et dypt pust og si 'jeg trenger et minutt før jeg svarer' i et opphetet øyeblikk er en kraftfull handling av selvkontroll."
     },
-    {
+    "4": {
       "statement": "Hvis noen gjør deg sint, er det deres feil. Du har ikke noe ansvar.",
       "answer": "myth",
       "realFact": "Andre kan utløse sinnet ditt, men hvordan du reagerer er ditt ansvar — og din makt. Å ta eierskap til reaksjonene dine betyr ikke at den andre personen hadde rett. Det betyr at du velger hvordan du møter opp. Det er myndiggjøring, ikke skyld.",
       "example": "Noen skjærer deg av i trafikken. Du føler deg sint — det er normalt. Men du velger om du vil rase eller ta et pust. Valget er ditt."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Start på nytt",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "results_message": "Du"
 }

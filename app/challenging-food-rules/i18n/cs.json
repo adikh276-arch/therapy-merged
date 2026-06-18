@@ -16,23 +16,23 @@
   },
   "rule_label": "Pojmenování pravidla",
   "rule_question": "Jaké je pravidlo?",
-  "rule_options": [
-    "Neměl bych jíst po určité době",
-    "Některé potraviny jsou zakázané",
-    "Musím mít porce přísně pod kontrolou"
-  ],
+  "rule_options": {
+    "0": "Neměl bych jíst po určité době",
+    "1": "Některé potraviny jsou zakázané",
+    "2": "Musím mít porce přísně pod kontrolou"
+  },
   "rule_something_else": "Něco jiného...",
   "rule_placeholder": "Napište pravidlo o jídle...",
   "feeling_label": "Emocionální dopad",
   "feeling_question": "Jaký je to pocit?",
-  "feeling_options": [
-    "😟 Úzkostný",
-    "😌 Ve vedení",
-    "😕 Vinen",
-    "😣 Omezené",
-    "😴 Unavený",
-    "😐 Smíšené"
-  ],
+  "feeling_options": {
+    "0": "😟 Úzkostný",
+    "1": "😌 Ve vedení",
+    "2": "😕 Vinen",
+    "3": "😣 Omezené",
+    "4": "😴 Unavený",
+    "5": "😐 Smíšené"
+  },
   "challenge_label": "Soft Challenge",
   "challenge_question": "Jemně se zeptaj...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

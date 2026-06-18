@@ -14,7 +14,8 @@
     "input1_placeholder": "ad esempio, passeggiare al parco",
     "input2_label": "Quando faccio questo, di solito mi sento...",
     "input2_placeholder": "ad esempio calmo e presente",
-    "button": "Continua"
+    "button": "Continua",
+    "stage": "Fase 1: Richiamo"
   },
   "meaning": {
     "title": "Cosa la rende significativa?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "ad esempio collegato e messo a terra",
     "input3_label": "Mi ricorda...",
     "input3_placeholder": "ad esempio le estati da bambini",
-    "button": "Salva il mio riflesso"
+    "button": "Salva il mio riflesso",
+    "stage": "Fase 2: Significato"
   },
   "smallStep": {
     "title": "Un piccolo passo avanti",
@@ -34,7 +36,8 @@
     "input1_label": "Un piccolo passo che potrei fare questa settimana è...",
     "input1_placeholder": "ad esempio, fare una passeggiata di 10 minuti",
     "button_save": "Salva",
-    "button_home": "Vai a casa"
+    "button_home": "Vai a casa",
+    "stage": "Fase 3: Azione"
   },
   "affirmation": {
     "title": "Hai fatto un passo bellissimo",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

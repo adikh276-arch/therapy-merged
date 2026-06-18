@@ -1,15 +1,15 @@
 {
   "app_title": "Mad- og følelseskort",
-  "screen_titles": [
-    "Velkommen",
-    "Fødemønstre",
-    "Intern dialog",
-    "Fysisk sansning",
-    "Kortet",
-    "Blid støtte",
-    "Slutlook",
-    "Reflekterende"
-  ],
+  "screen_titles": {
+    "0": "Velkommen",
+    "1": "Fødemønstre",
+    "2": "Intern dialog",
+    "3": "Fysisk sansning",
+    "4": "Kortet",
+    "5": "Blid støtte",
+    "6": "Slutlook",
+    "7": "Reflekterende"
+  },
   "welcome_text": "Hey... Jeg er virkelig glad for, at du er her 💛. Lad os forsigtigt kortlægge, hvad der er sket.",
   "coming_up_label": "Hvad sker der for tiden?",
   "begin_mapping": "Begynd kortlægning",
@@ -32,36 +32,36 @@
   "auth_error": "Auth-session mangler eller database ikke konfigureret",
   "save_success": "Mønster bevaret",
   "save_error": "Undlod at bevare mønsteret",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Sorg",
-    "😶 Kedsomhed",
-    "😟 Angst",
-    "🥺 Ensomhed",
-    "💭 Noget andet..."
-  ],
-  "food_responses": [
-    "🍽️ Jeg spiser mere",
-    "🚫 Jeg spiser mindre",
-    "🍫 Jeg craver bestemte fødevarer",
-    "😣 Jeg undgår mad",
-    "😐 Ingen reel ændring"
-  ],
-  "body_sensations": [
-    "💔 Stram brystkasse",
-    "🪨 Tung følelse",
-    "🦵 Rastløs / rastløs",
-    "🔋 Lav energi",
-    "🌀 Knuder i maven",
-    "❓ Noget andet..."
-  ],
-  "support_options": [
-    "🗣️ Tal med nogen",
-    "☕ Tag en pause",
-    "📝 Tidsskrift",
-    "🌬️ Træk vejret",
-    "🎧 Distrahere mig selv"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Sorg",
+    "2": "😶 Kedsomhed",
+    "3": "😟 Angst",
+    "4": "🥺 Ensomhed",
+    "5": "💭 Noget andet..."
+  },
+  "food_responses": {
+    "0": "🍽️ Jeg spiser mere",
+    "1": "🚫 Jeg spiser mindre",
+    "2": "🍫 Jeg craver bestemte fødevarer",
+    "3": "😣 Jeg undgår mad",
+    "4": "😐 Ingen reel ændring"
+  },
+  "body_sensations": {
+    "0": "💔 Stram brystkasse",
+    "1": "🪨 Tung følelse",
+    "2": "🦵 Rastløs / rastløs",
+    "3": "🔋 Lav energi",
+    "4": "🌀 Knuder i maven",
+    "5": "❓ Noget andet..."
+  },
+  "support_options": {
+    "0": "🗣️ Tal med nogen",
+    "1": "☕ Tag en pause",
+    "2": "📝 Tidsskrift",
+    "3": "🌬️ Træk vejret",
+    "4": "🎧 Distrahere mig selv"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Tag kontakt. 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på, at du vil slette denne kortlægning?"
   },
   "app_description": "Mad- og følelseskort",
   "more": "Mere",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang",
+  "view_weekly": "Se korthistorik",
+  " ": " "
 }

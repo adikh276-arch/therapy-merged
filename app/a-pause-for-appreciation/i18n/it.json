@@ -73,13 +73,13 @@
     "confirmDelete": "Conferma Elimina",
     "cancel": "Cancellare",
     "delete": "Elimina voce",
-    "prompts": [
-      "Un piccolo momento che non sembrava teso...",
-      "Uno sforzo che il tuo partner ha fatto...",
-      "Una qualità che è rimasta costante…",
-      "Intenzione",
-      "Check-in emotivo"
-    ]
+    "prompts": {
+      "0": "Un piccolo momento che non sembrava teso...",
+      "1": "Uno sforzo che il tuo partner ha fatto...",
+      "2": "Una qualità che è rimasta costante…",
+      "3": "Intenzione",
+      "4": "Check-in emotivo"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

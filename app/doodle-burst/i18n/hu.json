@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "vászon",
+  "2d": "2d",
+  "a": "a",
+  "lang": "hosszú",
+  "complete_and_save": "Teljes és mentés"
 }

@@ -3,39 +3,40 @@
   "app_subtitle": "Släpp dina tankar säkert och privat",
   "intro": {
     "title": "Det oskickade brevet",
-    "description": [
-      "Ibland finns det saker vi önskar att vi kunde säga – men aldrig fick chansen till.",
-      "Det kunde bero på att det inte kändes säkert, att tidpunkten inte var rätt, eller att orden var för svåra att uttrycka högt.",
-      "Denna aktivitet ger dig ett privat utrymme att sätta ord på dessa tankar.",
-      "Du behöver inte skicka det här brevet. Det här är bara för dig – för att uttrycka, släppa och förstå dina känslor bättre."
-    ],
+    "description": {
+      "0": "Ibland finns det saker vi önskar att vi kunde säga – men aldrig fick chansen till.",
+      "1": "Det kunde bero på att det inte kändes säkert, att tidpunkten inte var rätt, eller att orden var för svåra att uttrycka högt.",
+      "2": "Denna aktivitet ger dig ett privat utrymme att sätta ord på dessa tankar.",
+      "3": "Du behöver inte skicka det här brevet. Det här är bara för dig – för att uttrycka, släppa och förstå dina känslor bättre."
+    },
     "notice": "Skriv fritt. Ingen annan kommer att se detta.",
     "button": "Börja skriva →"
   },
   "writing": {
     "title": "Skriv det du har hållit inne",
     "desc": "Du kan skriva till din partner, din ex-partner eller till och med till själva relationen. Det finns inget rätt eller fel sätt att göra detta på.",
-    "prompts": [
-      "Jag känner mig...",
-      "Jag önskar...",
-      "Jag har aldrig sagt...",
-      "Vad gjorde ont på mig...",
-      "Det jag behövde..."
-    ],
+    "prompts": {
+      "0": "Jag känner mig...",
+      "1": "Jag önskar...",
+      "2": "Jag har aldrig sagt...",
+      "3": "Vad gjorde ont på mig...",
+      "4": "Det jag behövde..."
+    },
     "placeholder": "Kära ____,\nJag har velat säga...",
     "notice": "Du kan pausa och komma tillbaka när som helst.",
     "button": "Fortsätt →"
   },
   "reflection": {
     "title": "Ta en stund med detta",
-    "description": [
-      "Du har just satt dina tankar och känslor i ord – det kräver mod.",
-      "Du kanske märker en blandning av känslor just nu, och det är helt okej.",
-      "Innan du går vidare, ta ett djupt andetag och kontrollera försiktigt hur du är med dig själv."
-    ],
+    "description": {
+      "0": "Du har just satt dina tankar och känslor i ord – det kräver mod.",
+      "1": "Du kanske märker en blandning av känslor just nu, och det är helt okej.",
+      "2": "Innan du går vidare, ta ett djupt andetag och kontrollera försiktigt hur du är med dig själv."
+    },
     "notice": "Detta var för din läkning, inte för att skicka.",
     "save_button": "Spara brev",
-    "finish_button": "Slut"
+    "finish_button": "Slut",
+    "save_success": "Ditt oskickade brev är säkert lagat i din privata lokala tidskrift. Uttryck är en djup befrielse."
   },
   "history": {
     "title": "Tidigare brev",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Är du säker på att du vill radera detta oskickade brev?"
   },
   "app_description": "Släpp lös dina tankar säkert och privat",
   "more": "Mer",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

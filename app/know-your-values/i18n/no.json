@@ -29,7 +29,8 @@
     "historyDesc": "Dine tidligere refleksjoner er lagret her, så du kan se dem på nytt når som helst.",
     "noHistory": "Du har ikke fullført en verdirefleksjon ennå.",
     "startActivity": "Start aktivitet",
-    "startNew": "Start ny refleksjon"
+    "startNew": "Start ny refleksjon",
+    "aligned": "Justert"
   },
   "values": {
     "Family": "Familie",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "app_duration": "5 minutter",
+  "loading": "Laster refleksjoner..."
 }

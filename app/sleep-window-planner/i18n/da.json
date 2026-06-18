@@ -1,10 +1,10 @@
 {
   "app_title": "Søvnvinduesplanlægger",
-  "pill_labels": [
-    "Byg dit vindue",
-    "Sæt dine tider",
-    "Dit søvnvindue"
-  ],
+  "pill_labels": {
+    "0": "Byg dit vindue",
+    "1": "Sæt dine tider",
+    "2": "Dit søvnvindue"
+  },
   "screen1": {
     "title": "Dit søvnvindue betyder mere, end du tror",
     "p1": "Et søvnvindue er den faste tid mellem, hvornår du går i seng, og hvornår du vågner. At holde det konsekvent – selv i weekenderne – er en af de mest effektive ting, du kan gøre for din søvn.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 måder at beskytte den på",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Slap af 30 minutter før sengetid"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Samme vågentid hver dag — ja, weekender også"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Undgå lure på mere end 20 minutter efter kl. 15"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Forpligt dig til én ting i aften",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Læg min telefon væk inden sengetid"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Start en nedtrappingsrutine"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Dæmp lyset en time før sengetid"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Færdiggør min to-do-liste tidligt"
         }
-      ]
+      }
     },
     "quote": "Konsistens er mere kraftfuldt end perfektion. En god nat bygger op, den næste.",
     "button": "Red mit søvnvindue ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

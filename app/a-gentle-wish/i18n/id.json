@@ -105,5 +105,13 @@
   "yes": "Iya",
   "no": "Tidak",
   "date": "Tanggal",
-  "continue": "Lanjutkan"
+  "continue": "Lanjutkan",
+  "lang": "panjang",
+  "saving": {
+    "": {
+      "": {
+        "": "Melestarikan..."
+      }
+    }
+  }
 }

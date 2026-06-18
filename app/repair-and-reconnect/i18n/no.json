@@ -31,114 +31,114 @@
     "safety": "Du trenger ikke å fikse alt—bare velg ett lite steg.",
     "button": "Prøv denne →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Send en uformell innsjekking",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Anerkjenn spenningen",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Gi hverandre litt plass",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Slipp det og gå videre",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Bare reflekter over det",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Send en varm melding",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Nevn ærlig hva som skjedde",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Forplikt deg til å pause neste gang",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Velg fred fremfor å ha rett",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Reflekter over hva du egentlig trenger",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Send en profesjonell melding",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Ta det opp med respekt",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Planlegg en roligere respons neste gang",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Hold det profesjonelt og gå videre",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Tenk på grenser",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Ta kontakt med en enkel melding",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Anerkjenn det som skjedde",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Ta en pause neste gang",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "La det ligge for nå",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Bare reflekter (ingen handling ennå)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Å ta kontakt – selv om det ikke er perfekt – blir nesten alltid mottatt bedre enn vi forventer.",
         "howTitle": "Start i det små",
         "howBody": "Du trenger ikke å skrive et essay. Noen ærlige ord kan åpne døren for gjenforening.",
-        "prompts": [
-          "Hei, jeg har tenkt på deg. Håper du har det bra.",
-          "Jeg vet at ting var anspent – ville bare si at jeg bryr meg.",
-          "Beklager det som skjedde tidligere. Kan vi snakke når du er klar?"
-        ],
+        "prompts": {
+          "0": "Hei, jeg har tenkt på deg. Håper du har det bra.",
+          "1": "Jeg vet at ting var anspent – ville bare si at jeg bryr meg.",
+          "2": "Beklager det som skjedde tidligere. Kan vi snakke når du er klar?"
+        },
         "promptLabel": "Velg et utgangspunkt:",
         "editLabel": "Gjør den til din:"
       },
@@ -169,11 +169,11 @@
         "insight": "Folk trenger ikke at du er perfekt – de må vite at du har lagt merke til det.",
         "howTitle": "Navngi det forsiktig",
         "howBody": "Du kan erkjenne uten å ta all skylden. Bare si hva som skjedde ærlig.",
-        "prompts": [
-          "Jeg vet at ting ble opphetet mellom oss. Jeg vil at du skal vite at jeg la merke til det.",
-          "Jeg innser at jeg kanskje har virket hard. Det var ikke min hensikt.",
-          "Jeg har reflektert over det som skjedde, og jeg skulle ønske jeg hadde håndtert det annerledes."
-        ],
+        "prompts": {
+          "0": "Jeg vet at ting ble opphetet mellom oss. Jeg vil at du skal vite at jeg la merke til det.",
+          "1": "Jeg innser at jeg kanskje har virket hard. Det var ikke min hensikt.",
+          "2": "Jeg har reflektert over det som skjedde, og jeg skulle ønske jeg hadde håndtert det annerledes."
+        },
         "promptLabel": "Velg et utgangspunkt:",
         "editLabel": "Gjør den til din:"
       },
@@ -183,11 +183,11 @@
         "insight": "En seks sekunders pause er ofte nok til å gå fra reaksjon til refleksjon.",
         "howTitle": "🧘 Planlegg pausen din",
         "howBody": "Tenk på et enkelt signal—som å trekke pusten eller trekke deg litt unna—før du svarer.",
-        "prompts": [
-          "Neste gang jeg føler meg opprørt, skal jeg ta et dypt pust før jeg svarer.",
-          "Jeg skal prøve å si 'Gi meg et øyeblikk' i stedet for å reagere umiddelbart.",
-          "Jeg tar en pause noen minutter for å samle tankene mine."
-        ],
+        "prompts": {
+          "0": "Neste gang jeg føler meg opprørt, skal jeg ta et dypt pust før jeg svarer.",
+          "1": "Jeg skal prøve å si 'Gi meg et øyeblikk' i stedet for å reagere umiddelbart.",
+          "2": "Jeg tar en pause noen minutter for å samle tankene mine."
+        },
         "promptLabel": "Velg en forpliktelse som føles riktig:",
         "editLabel": "Skriv din egen intensjon:"
       },
@@ -197,11 +197,11 @@
         "insight": "Å gi slipp er ikke å gi opp—det er å velge fred fremfor å ha rett.",
         "howTitle": "🕊️ Slipp forsiktig",
         "howBody": "Du trenger ikke å glemme. Bare bestem deg for at dette ikke trenger å kontrollere hvordan du føler deg lenger.",
-        "prompts": [
-          "Jeg velger å gi slipp på dette—ikke fordi det ikke betydde noe, men fordi min fred betyr mer.",
-          "Jeg gir slipp på behovet for å ha rett om dette. Jeg velger forbindelse.",
-          "Denne situasjonen definerer ikke forholdet vårt. Jeg går videre."
-        ],
+        "prompts": {
+          "0": "Jeg velger å gi slipp på dette—ikke fordi det ikke betydde noe, men fordi min fred betyr mer.",
+          "1": "Jeg gir slipp på behovet for å ha rett om dette. Jeg velger forbindelse.",
+          "2": "Denne situasjonen definerer ikke forholdet vårt. Jeg går videre."
+        },
         "promptLabel": "Velg det som treffer meg:",
         "editLabel": "Skriv det som føles sant for deg:"
       },
@@ -211,11 +211,11 @@
         "insight": "Å skrive dagbok eller til og med tenke gjennom hva som skjedde hjelper deg å bearbeide følelser uten press.",
         "howTitle": "🔍 Se innover",
         "howBody": "Spør deg selv: Hva følte jeg egentlig under sinnet? Ofte er det smerte, frykt eller skuffelse.",
-        "prompts": [
-          "Under sinnet mitt tror jeg at jeg følte meg såret.",
-          "Jeg innser at jeg reagerte ut fra frykt for ikke å bli hørt.",
-          "Det jeg virkelig trengte, var å føle meg respektert og verdsatt."
-        ],
+        "prompts": {
+          "0": "Under sinnet mitt tror jeg at jeg følte meg såret.",
+          "1": "Jeg innser at jeg reagerte ut fra frykt for ikke å bli hørt.",
+          "2": "Det jeg virkelig trengte, var å føle meg respektert og verdsatt."
+        },
         "promptLabel": "Velg det som treffer meg:",
         "editLabel": "Skriv din egen refleksjon:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

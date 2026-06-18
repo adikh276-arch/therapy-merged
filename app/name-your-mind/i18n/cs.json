@@ -3,11 +3,11 @@
   "intro": {
     "title": "Setkejte se se svou myslí",
     "description": "Naučte se distancovat od přehlušujících myšlenek tím, že svému vnitřnímu hlasu dáte jméno.",
-    "benefits": [
-      "Vytvořte mentální odstup",
-      "Omezte sílu tvrdých myšlenek",
-      "Všímej si myšlenek, aniž bys jimi byl"
-    ],
+    "benefits": {
+      "0": "Vytvořte mentální odstup",
+      "1": "Omezte sílu tvrdých myšlenek",
+      "2": "Všímej si myšlenek, aniž bys jimi byl"
+    },
     "duration": "2-3 minuty",
     "view_past": "Zobrazit minulé příspěvky"
   },
@@ -45,15 +45,15 @@
       "title": "Vytvořte si odstup",
       "desc": "Dejte své mysli jméno, abyste se od těchto myšlenek oddělili.",
       "placeholder": "Nebo napište vlastní...",
-      "examples": [
-        "Kritik",
-        "Přemýšlivý",
-        "Worry FM",
-        "Stroj na přemýšlení",
-        "Vnitřní kritik",
-        "Generátor co kdyby",
-        "Režisér dramatu"
-      ]
+      "examples": {
+        "0": "Kritik",
+        "1": "Přemýšlivý",
+        "2": "Worry FM",
+        "3": "Stroj na přemýšlení",
+        "4": "Vnitřní kritik",
+        "5": "Generátor co kdyby",
+        "6": "Režisér dramatu"
+      }
     },
     "practice": {
       "title": "Zkus tuhle směnu",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Čeho jste si všimli?",
       "desc": "Jaký byl pocit té myšlenky poté, co jí dal jméno?",
-      "options": [
-        "Ta myšlenka byla o něco méně intenzivní než předtím",
-        "Měl jsem pocit, že mám od té myšlenky určitý odstup",
-        "Stále to bylo stejně silné jako dřív",
-        "Nejsem si jistý, co se změnilo, pokud vůbec něco"
-      ],
+      "options": {
+        "0": "Ta myšlenka byla o něco méně intenzivní než předtím",
+        "1": "Měl jsem pocit, že mám od té myšlenky určitý odstup",
+        "2": "Stále to bylo stejně silné jako dřív",
+        "3": "Nejsem si jistý, co se změnilo, pokud vůbec něco"
+      },
       "button": "Kompletní reflexe"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý"
 }

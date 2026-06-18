@@ -23,38 +23,38 @@
   "try_again": "Yritä uudestaan",
   "complete_title": "Tieto hallittu",
   "complete_message": "Sait {{score}}/{{total}}! Olet saanut arvokasta tietoa vihan totuuksista ja myyteistä.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Viha on pahasta. Jos tunnet vihaa, sinussa on jotain vialla.",
       "answer": "myth",
       "realFact": "Viha on normaali, terve tunne. Kaikki tuntevat sen. Se ei ole merkki siitä, että sinussa olisi jotain 'vialla' — se on merkki siitä, että jokin merkitsee sinulle. Tärkeintä on, miten reagoit siihen, ei se, tunnetko sen.",
       "example": "Veteraani tuntee vihaa, kun hänen rajansa ylittyvät. Tuo viha on perusteltu — se kertoo heille jotain tärkeää."
     },
-    {
+    "1": {
       "statement": "Viha voi olla merkki siitä, että rajasi on ylitty.",
       "answer": "fact",
       "realFact": "Viha on tietoa. Kun tunnet sen, on syytä kysyä: mikä raja ylitettiin? Mitä tarvetta ei täytetä? Kuuntelemalla vihaasi — ilman impulsiivista toimintaa — voit ymmärtää itseäsi paremmin ja ryhtyä merkityksellisiin toimiin.",
       "example": "Tunnet vihaa, kun työkaveri ottaa kunnian työstäsi. Tuo viha viittaa tarpeeseen tunnustukselle ja oikeudenmukaisuudelle."
     },
-    {
+    "2": {
       "statement": "Jos olet vihainen, sinun täytyy purkaa se huutamalla tai lyömällä asioita.",
       "answer": "myth",
       "realFact": "Terve vihan ilmaisu ei tarkoita tukahduttamista TAI räjähdystä. Se tarkoittaa tunteiden tunnustamista ja niiden rakentavaa ilmaisemista — sanojen, päiväkirjan, fyysisen aktiivisuuden tai luovien keinojen kautta. Voit kunnioittaa vihaasi ilman tuhoa.",
       "example": "Sen sijaan, että lyöt seinää, lähdet juoksemaan tai kirjoitat ylös tarkalleen, mikä sinua vaivaa. Viha kulkee lävitsesi aiheuttamatta vahinkoa."
     },
-    {
+    "3": {
       "statement": "Vihan hallitsemisen oppiminen on merkki tunne-elämän vahvuudesta.",
       "answer": "fact",
       "realFact": "Ihmiset, jotka työskentelevät vihan hallinnan parissa, eivät ole heikkoja — he tekevät rohkeinta tunnepohjaista työtä mitä on. Pysähtymään, pohtia ja vastata harkiten vaatii paljon enemmän voimaa kuin impulsiivinen reagointi.",
       "example": "Syvään hengittäminen ja sanominen 'Tarvitsen hetken ennen kuin vastaan' kiihkeässä hetkessä on voimakas itsehillinnän teko."
     },
-    {
+    "4": {
       "statement": "Jos joku suututtaa sinut, se on hänen syytään. Sinulla ei ole vastuuta.",
       "answer": "myth",
       "realFact": "Muut ihmiset voivat laukaista vihasi, mutta se, miten reagoit, on sinun vastuullasi — ja vallallasi. Reaktioiden omistaminen ei tarkoita, että toinen oli oikeassa. Se tarkoittaa, että sinä päätät, miten tulet paikalle. Se on voimaannuttamista, ei syyttelyä.",
       "example": "Joku katkaisee sinut liikenteessä. Tunnet vihaa — se on normaalia. Mutta sinä päätät, raivostutko vai hengitätkö. Valinta on sinun."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Aloita alusta",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  "results_message": "Sinä"
 }

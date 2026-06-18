@@ -5,37 +5,37 @@
   "body_title": "🧍 ♀️ Päivittäinen kehon rutiinisi",
   "body_subtitle": "Mikä näistä on tuntunut viime aikoina hieman oudolta? (Valitse kaikki sopivat)",
   "continue": "Jatka",
-  "body_options": [
-    "En ole nukkunut hyvin",
-    "Uniaikani on epäsäännöllinen",
-    "Joskus jätän ateriat väliin",
-    "Syön tavallista enemmän stressaantuneena",
-    "En ole liikkunut tai liikkunut paljoa",
-    "En ole käynyt paljon ulkona",
-    "Henkilökohtainen hoitorutiinini on muuttunut",
-    "Päivittäinen rutiinini tuntuu vakaalta"
-  ],
+  "body_options": {
+    "0": "En ole nukkunut hyvin",
+    "1": "Uniaikani on epäsäännöllinen",
+    "2": "Joskus jätän ateriat väliin",
+    "3": "Syön tavallista enemmän stressaantuneena",
+    "4": "En ole liikkunut tai liikkunut paljoa",
+    "5": "En ole käynyt paljon ulkona",
+    "6": "Henkilökohtainen hoitorutiinini on muuttunut",
+    "7": "Päivittäinen rutiinini tuntuu vakaalta"
+  },
   "mind_title": "🧠 Ajatusmallisi",
-  "mind_options": [
-    "Ylianalysoin asioita jatkuvasti",
-    "Kuvittelen usein pahimman mahdollisen skenaarion",
-    "Olen itselleni ankara",
-    "Tunnen syyllisyyttä asioista, joita olen tehnyt tai jättänyt tekemättä",
-    "Olen jatkuvasti huolissani",
-    "Minun on vaikea rentoutua",
-    "Ajatukseni tuntuvat hallittavilta"
-  ],
+  "mind_options": {
+    "0": "Ylianalysoin asioita jatkuvasti",
+    "1": "Kuvittelen usein pahimman mahdollisen skenaarion",
+    "2": "Olen itselleni ankara",
+    "3": "Tunnen syyllisyyttä asioista, joita olen tehnyt tai jättänyt tekemättä",
+    "4": "Olen jatkuvasti huolissani",
+    "5": "Minun on vaikea rentoutua",
+    "6": "Ajatukseni tuntuvat hallittavilta"
+  },
   "coping_title": "🌊 Miten reagoit stressiin",
-  "coping_options": [
-    "Vältän tehtäviä, kun olen stressaantunut",
-    "Selaan puhelintani paljon häiritseäkseni itseäni",
-    "Vietän aikaa yksin selviytyäkseni",
-    "Heittäydyn töihin stressaantuneena",
-    "Puhun jonkun kanssa siitä, miltä minusta tuntuu",
-    "Teen hengitysharjoituksia rauhoittuakseni",
-    "Katson televisiota tai pelaan pelejä häiritseäkseni itseäni",
-    "En ole varma, miten reagoin stressiin"
-  ],
+  "coping_options": {
+    "0": "Vältän tehtäviä, kun olen stressaantunut",
+    "1": "Selaan puhelintani paljon häiritseäkseni itseäni",
+    "2": "Vietän aikaa yksin selviytyäkseni",
+    "3": "Heittäydyn töihin stressaantuneena",
+    "4": "Puhun jonkun kanssa siitä, miltä minusta tuntuu",
+    "5": "Teen hengitysharjoituksia rauhoittuakseni",
+    "6": "Katson televisiota tai pelaan pelejä häiritseäkseni itseäni",
+    "7": "En ole varma, miten reagoin stressiin"
+  },
   "reflection_title": "✍️ Heijastus",
   "question_stress": "Mikä tapa lisää stressiäsi myöhemmin?",
   "question_calm": "Mikä tapa voisi auttaa sinua rauhoittumaan?",
@@ -44,13 +44,13 @@
   "insight_description": "Napauta alta nähdäksesi yksinkertaiset tavat, jotka voivat auttaa vähentämään stressiä.",
   "show_suggestions": "Ohjelmaehdotukset",
   "commit": "Sitoutuminen",
-  "suggestions": [
-    "Yritä mennä nukkumaan vähän aikaisemmin tänä iltana",
-    "Mene ulos raitista ilmaa varten tänään",
-    "Pidä tauko selaamisesta hetkeksi",
-    "Puhu itsellesi ystävällisesti",
-    "Viimeistele yksi tehtävä, jota olet lykännyt"
-  ],
+  "suggestions": {
+    "0": "Yritä mennä nukkumaan vähän aikaisemmin tänä iltana",
+    "1": "Mene ulos raitista ilmaa varten tänään",
+    "2": "Pidä tauko selaamisesta hetkeksi",
+    "3": "Puhu itsellesi ystävällisesti",
+    "4": "Viimeistele yksi tehtävä, jota olet lykännyt"
+  },
   "final_text": "Pienet muutokset ovat tärkeitä. Johdonmukaisuus luo rauhan.",
   "finish": "Viimeistely",
   "common": {
@@ -115,5 +115,8 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "pitkä",
+  "mind_subtitle": "Mitä ajattelutapoja huomaat palaavan useimmin? Valitse kaikki, jotka sopivat.",
+  "coping_subtitle": "Miten yleensä reagoit, kun ylikuormitus ilmenee? Valitse kaikki, jotka sopivat."
 }

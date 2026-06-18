@@ -3,11 +3,11 @@
   "intro": {
     "title": "Rencontre ton esprit",
     "description": "Apprenez à prendre vos distances avec les pensées envahissantes en donnant un nom à votre voix intérieure.",
-    "benefits": [
-      "Créez une distance mentale",
-      "Réduisez la puissance des pensées dures",
-      "Remarquer les pensées sans en être"
-    ],
+    "benefits": {
+      "0": "Créez une distance mentale",
+      "1": "Réduisez la puissance des pensées dures",
+      "2": "Remarquer les pensées sans en être"
+    },
     "duration": "2-3 minutes",
     "view_past": "Voir les participations précédentes"
   },
@@ -45,15 +45,15 @@
       "title": "Créez un peu de distance",
       "desc": "Donne un nom à ton esprit pour t’aider à te détacher de ces pensées.",
       "placeholder": "Ou taper le tien...",
-      "examples": [
-        "Le Critique",
-        "Penseur excessif",
-        "Worry FM",
-        "La Machine à Surpenser",
-        "Le critique intérieur",
-        "Le générateur de « Et si »",
-        "Metteur en scène dramatique"
-      ]
+      "examples": {
+        "0": "Le Critique",
+        "1": "Penseur excessif",
+        "2": "Worry FM",
+        "3": "La Machine à Surpenser",
+        "4": "Le critique intérieur",
+        "5": "Le générateur de « Et si »",
+        "6": "Metteur en scène dramatique"
+      }
     },
     "practice": {
       "title": "Essaie ce changement",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "Qu’as-tu remarqué ?",
       "desc": "Comment avez-vous pensé après lui avoir donné un nom ?",
-      "options": [
-        "La pensée semblait un peu moins intense qu’avant",
-        "J’avais l’impression d’avoir pris un peu de distance avec cette pensée",
-        "Il semblait toujours aussi fort qu’avant",
-        "Je ne sais pas ce qui a changé, si tant est que ça ait changé"
-      ],
+      "options": {
+        "0": "La pensée semblait un peu moins intense qu’avant",
+        "1": "J’avais l’impression d’avoir pris un peu de distance avec cette pensée",
+        "2": "Il semblait toujours aussi fort qu’avant",
+        "3": "Je ne sais pas ce qui a changé, si tant est que ça ait changé"
+      },
       "button": "Réflexion complète"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

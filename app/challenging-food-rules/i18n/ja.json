@@ -16,23 +16,23 @@
   },
   "rule_label": "ルールの命名",
   "rule_question": "ルールは?",
-  "rule_options": [
-    "一定の時間以降は食べない方がいい",
-    "一部の食品は禁止されています",
-    "私は量を厳密にコントロールする必要があります"
-  ],
+  "rule_options": {
+    "0": "一定の時間以降は食べない方がいい",
+    "1": "一部の食品は禁止されています",
+    "2": "私は量を厳密にコントロールする必要があります"
+  },
   "rule_something_else": "何か別のもの...",
   "rule_placeholder": "食事ルールを入力してください...",
   "feeling_label": "感情的な影響",
   "feeling_question": "この感覚はどうですか?",
-  "feeling_options": [
-    "😟 不安",
-    "😌 コントロール中",
-    "😕 有罪",
-    "😣 制限付き",
-    "😴 疲れている",
-    "😐 混合"
-  ],
+  "feeling_options": {
+    "0": "😟 不安",
+    "1": "😌 コントロール中",
+    "2": "😕 有罪",
+    "3": "😣 制限付き",
+    "4": "😴 疲れている",
+    "5": "😐 混合"
+  },
   "challenge_label": "ソフトチャレンジ",
   "challenge_question": "優しく問いかけ...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い"
 }

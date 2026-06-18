@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "กําลังประหยัด...",
+    "saved": "บันทึกแล้ว"
   },
   "app_duration": "10-15 นาที",
   "app_title": "จดหมายถึงตัวเอง",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "พร้อมท์",
+  "need_inspiration": "ต้องการแรงบันดาลใจ?",
+  "post_writing_reflection": "การสะท้อนหลังการเขียน",
+  "reflection_desc": "การรับรู้ความรู้สึกของคุณเป็นขั้นตอนที่ทรงพลังในการเดินทางของคุณ",
+  "finish_save_reflection": "เสร็จสิ้นและบันทึกการสะท้อนแสง",
+  "lang": "ยาว",
+  "completion_message": "จดหมายของคุณได้รับการบันทึกอย่างปลอดภัย ใช้เวลาสักครู่เพื่อชื่นชมความก้าวหน้าของคุณ"
 }

@@ -5,7 +5,8 @@
     "title": "睡眠審計",
     "description": "了解哪些因素影響你的睡眠，以及哪些小小的改變可以有所幫助。",
     "start_button": "開始審計",
-    "history_button": "以往審計"
+    "history_button": "以往審計",
+    "more_insights": "回到起點"
   },
   "screens": {
     "s1": {
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "二維",
+  "lang": "長篇",
+  "loading": "載入歷史......"
 }

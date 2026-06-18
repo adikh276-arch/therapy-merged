@@ -31,114 +31,114 @@
     "safety": "No tienes que arreglarlo todo: solo elige un pequeño paso.",
     "button": "Prueba esto →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Envía un registro informal",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Reconoce la tensión",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Dadnos espacio",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Déjalo ir y sigue adelante",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Solo reflexiona sobre ello",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Envía un mensaje cálido",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Di lo que pasó con honestidad",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Comprométete a pausar la próxima vez",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Elige la paz antes que tener razón",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Reflexiona sobre lo que realmente necesitas",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Envía una nota profesional",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Háblalo con respeto",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Planea una respuesta más tranquila la próxima vez",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Mantente profesional y sigue adelante",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Piensa en los límites",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Contacta con un mensaje sencillo",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Reconoce lo que pasó",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Haz una pausa la próxima vez",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Déjalo pasar por ahora",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Solo reflexiona (aún no hay acción).",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Acercarse—aunque sea de forma imperfecta—casi siempre es recibido mejor de lo que esperamos.",
         "howTitle": "Empieza poco a poco",
         "howBody": "No necesitas escribir un ensayo. Unas palabras sinceras pueden abrir la puerta a la reconexión.",
-        "prompts": [
-          "Oye, he estado pensando en ti. Espero que estés bien.",
-          "Sé que las cosas estaban tensas—solo quería decir que me importa.",
-          "Perdona por antes. ¿Podemos hablar cuando estés listo?"
-        ],
+        "prompts": {
+          "0": "Oye, he estado pensando en ti. Espero que estés bien.",
+          "1": "Sé que las cosas estaban tensas—solo quería decir que me importa.",
+          "2": "Perdona por antes. ¿Podemos hablar cuando estés listo?"
+        },
         "promptLabel": "Elige un punto de partida:",
         "editLabel": "Hazlo tuyo:"
       },
@@ -169,11 +169,11 @@
         "insight": "La gente no necesita que seas perfecto—necesitan saber que te has dado cuenta.",
         "howTitle": "Nombra el nombre suavemente",
         "howBody": "Puedes reconocerlo sin asumir toda la culpa. Solo di lo que pasó con honestidad.",
-        "prompts": [
-          "Sé que las cosas se pusieron tensas entre nosotros. Quiero que sepas que me he dado cuenta.",
-          "Me doy cuenta de que quizá he sido muy duro. Esa no era mi intención.",
-          "He estado reflexionando sobre lo que pasó y ojalá lo hubiera manejado de otra manera."
-        ],
+        "prompts": {
+          "0": "Sé que las cosas se pusieron tensas entre nosotros. Quiero que sepas que me he dado cuenta.",
+          "1": "Me doy cuenta de que quizá he sido muy duro. Esa no era mi intención.",
+          "2": "He estado reflexionando sobre lo que pasó y ojalá lo hubiera manejado de otra manera."
+        },
         "promptLabel": "Elige un punto de partida:",
         "editLabel": "Hazlo tuyo:"
       },
@@ -183,11 +183,11 @@
         "insight": "Una pausa de 6 segundos suele ser suficiente para pasar de la reacción a la reflexión.",
         "howTitle": "🧘 Planifica tu pausa",
         "howBody": "Piensa en una señal sencilla—como respirar hondo o apartarte brevemente—antes de responder.",
-        "prompts": [
-          "La próxima vez que me sienta mal, respiraré hondo antes de responder.",
-          "Intentaré decir 'Dame un momento' en vez de reaccionar inmediatamente.",
-          "Me apartaré unos minutos para ordenar mis pensamientos."
-        ],
+        "prompts": {
+          "0": "La próxima vez que me sienta mal, respiraré hondo antes de responder.",
+          "1": "Intentaré decir 'Dame un momento' en vez de reaccionar inmediatamente.",
+          "2": "Me apartaré unos minutos para ordenar mis pensamientos."
+        },
         "promptLabel": "Elige un compromiso que te resulte adecuado:",
         "editLabel": "Escribe tu propia intención:"
       },
@@ -197,11 +197,11 @@
         "insight": "Soltar no es rendirse—es elegir la paz antes que tener razón.",
         "howTitle": "🕊️ Suelta suavemente",
         "howBody": "No tienes que olvidarlo. Simplemente decide que esto ya no tiene que controlar cómo te sientes.",
-        "prompts": [
-          "Estoy eligiendo dejar esto atrás—no porque no importara, sino porque mi paz importa más.",
-          "Suelto la necesidad de tener razón en esto. Elijo la conexión.",
-          "Esta situación no define nuestra relación. Sigo adelante."
-        ],
+        "prompts": {
+          "0": "Estoy eligiendo dejar esto atrás—no porque no importara, sino porque mi paz importa más.",
+          "1": "Suelto la necesidad de tener razón en esto. Elijo la conexión.",
+          "2": "Esta situación no define nuestra relación. Sigo adelante."
+        },
         "promptLabel": "Elige qué te resuene:",
         "editLabel": "Escribe lo que te resulte verdadero:"
       },
@@ -211,11 +211,11 @@
         "insight": "Escribir en un diario o incluso reflexionar sobre lo que ha pasado te ayuda a procesar las emociones sin presión.",
         "howTitle": "🔍 Mira hacia dentro",
         "howBody": "Pregúntate: ¿Qué sentía realmente bajo la rabia? A menudo es dolor, miedo o decepción.",
-        "prompts": [
-          "Debajo de mi enfado, creo que me sentía herido.",
-          "Me doy cuenta de que reaccionaba por miedo a no ser escuchado.",
-          "Lo que realmente necesitaba era sentirme respetado y valorado."
-        ],
+        "prompts": {
+          "0": "Debajo de mi enfado, creo que me sentía herido.",
+          "1": "Me doy cuenta de que reaccionaba por miedo a no ser escuchado.",
+          "2": "Lo que realmente necesitaba era sentirme respetado y valorado."
+        },
         "promptLabel": "Elige qué te resuene:",
         "editLabel": "Escribe tu propia reflexión:"
       }
@@ -288,5 +288,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

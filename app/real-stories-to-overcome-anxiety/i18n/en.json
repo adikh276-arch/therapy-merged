@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "chooseStoryDesc": "Tap on a profile to read their personal journey of strength and recovery.",
+  "recovery_journey": "Inspirational Journey",
+  "reflection_prompt": "Reflect on this"
 }

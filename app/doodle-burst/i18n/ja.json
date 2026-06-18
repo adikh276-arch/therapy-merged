@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "キャンバス",
+  "2d": "2D",
+  "a": "a",
+  "lang": "長い",
+  "complete_and_save": "コンプリート&セーブ"
 }

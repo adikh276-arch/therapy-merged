@@ -16,23 +16,23 @@
   "btn_one_more": "Satu perkara lagi",
   "screen3_tag": "kebenaran lembut",
   "screen3_title": "Patut diketahui",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Tiada tarikh akhir",
       "body": "Tiada tarikh luput untuk kerugian. Merasakannya berbulan-bulan atau bertahun-tahun kemudian tidak bermakna anda terperangkap - ini bermakna anda mencintai."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Perasaan yang bercanggah",
       "body": "Anda boleh merindui seseorang dan berasa lega. Anda boleh ketawa dan bersedih. Kesedihan mempunyai yang bertentangan."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Transformasi cinta",
       "body": "Kesakitan tidak terpisah daripada cinta. Ia adalah perkara yang sama, berubah."
     }
-  ],
+  },
   "btn_finish": "Selesaikan Refleksi",
   "complete_title": "Perjalanan Dihormati",
   "complete_message": "Anda tidak perlu meneruskan. Anda hanya belajar untuk membawanya secara berbeza. Perjalanan anda adalah unik, sah dan sangat manusiawi.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

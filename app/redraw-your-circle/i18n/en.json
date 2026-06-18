@@ -44,7 +44,8 @@
     "placeholder": "Write your thoughts here...",
     "save_button": "Save Reflection",
     "saving_button": "Saving...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Your interpersonal map is safely stored in your journal. Cultivating these support nodes helps keep us resilient."
   },
   "history": {
     "title": "Your Circles History",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Are you sure you want to delete this circle log?"
   },
   "intro_p1": "At different points in life, our support system can shift. 🌱 Sometimes we feel connected and supported. Other times, things may feel distant or unclear.",
   "intro_p2": "This activity is a space to pause and look at the people around you — and understand who currently feels part of your circle. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  " ": " "
 }

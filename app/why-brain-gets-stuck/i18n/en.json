@@ -24,7 +24,8 @@
         "body": "Every symptom was once an act of survival. Your brain did what it had to do to keep you alive."
       }
     ],
-    "healing": "Healing isn't about forgetting. It's about helping your brain learn that you're safe now."
+    "healing": "Healing isn't about forgetting. It's about helping your brain learn that you're safe now.",
+    "finish_reading": "Finish Reading"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "complete": {
+    "message": "You"
+  }
 }

@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Scrivi un altro pensiero...",
+  "resume": "Curriculum",
+  "pause": "Pausa",
+  "growth_reminder": "Anche piccoli passi riducono il peso mentale. Non lo sei",
+  "lang": "lunga",
+  "complete_message": "Tu",
+  "welcome_sub": "Benvenuto",
+  "clearing_sub": "Pulizia mentale",
+  "sorting_sub": "Smistamento",
+  "action_sub": "Passaggi d'azione",
+  "reflect_sub": "Riflessione",
+  "intro": {
+    "viewHistory": "Visualizza la storia"
+  }
 }

@@ -92,5 +92,9 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "lang": "Долго",
+  "entry_x": "Запись #",
+  "loading": "Загрузка...",
+  "delete": "Удалить"
 }

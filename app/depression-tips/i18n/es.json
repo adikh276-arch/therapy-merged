@@ -92,5 +92,7 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "gentleReminder": "Recordatorio Suave",
+  "lang": "largo"
 }

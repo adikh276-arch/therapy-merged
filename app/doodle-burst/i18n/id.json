@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "kanvas",
+  "2d": "2d",
+  "a": "a",
+  "lang": "panjang",
+  "complete_and_save": "Selesai & Hemat"
 }

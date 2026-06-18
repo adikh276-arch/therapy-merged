@@ -16,23 +16,23 @@
   },
   "rule_label": "A szabály elnevezése",
   "rule_question": "Mi a szabály?",
-  "rule_options": [
-    "Egy bizonyos idő után nem kellene ennem",
-    "Néhány étel tilos",
-    "Szigorúan kell szabályoznom az adagokat"
-  ],
+  "rule_options": {
+    "0": "Egy bizonyos idő után nem kellene ennem",
+    "1": "Néhány étel tilos",
+    "2": "Szigorúan kell szabályoznom az adagokat"
+  },
   "rule_something_else": "Valami más...",
   "rule_placeholder": "Írd be az ételszabályodat...",
   "feeling_label": "Érzelmi hatás",
   "feeling_question": "Milyen érzés ez?",
-  "feeling_options": [
-    "😟 Aggódó",
-    "😌 Irányítás alatt",
-    "😕 Bűnös",
-    "😣 Korlátozott",
-    "😴 Fáradt",
-    "😐 Vegyes"
-  ],
+  "feeling_options": {
+    "0": "😟 Aggódó",
+    "1": "😌 Irányítás alatt",
+    "2": "😕 Bűnös",
+    "3": "😣 Korlátozott",
+    "4": "😴 Fáradt",
+    "5": "😐 Vegyes"
+  },
   "challenge_label": "Soft Challenge",
   "challenge_question": "Óvatosan kérdezd...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

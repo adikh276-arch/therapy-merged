@@ -31,37 +31,37 @@
   "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
   "save_success": "Kötésvisszaverődés megőrzése",
   "save_error": "Nem sikerült megőrizni a reflektorfényt",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Emlékeken keresztül",
       "prompt": "Megosztanád az emléket, ahol érezted a jelenlétüket?",
       "deeper": "Mi az egy dolog bennük, ami megmarad veled?"
     },
-    {
+    "1": {
       "label": "Abban, amit mondok vagy teszek",
       "prompt": "Milyen részét hordozod magaddal a mindennapjaidban?",
       "deeper": "Hogyan jelenik meg ez ma az életedben?"
     },
-    {
+    "2": {
       "label": "A mindennapjaim pillanataiban",
       "prompt": "Mikor érzed a napod folyamán közel vannak?",
       "deeper": "Mi az egy dolog bennük, ami megmarad veled?"
     },
-    {
+    "3": {
       "label": "Amit még mindig el akarok mondani nekik",
       "prompt": "Van még valami, amit még el akarsz mondani nekik?",
       "deeper": "Mit szeretnél most leginkább tudni tőle?"
     },
-    {
+    "4": {
       "label": "Egy érzésben vagy jelenlétben",
       "prompt": "Hogyan mutatkozik még mindig a jelenlétük nálad?",
       "deeper": "Hogyan jelenik meg ez ma az életedben?"
     }
-  ],
-  "bond_prompts": [
-    "Mi az egyetlen apró mód, amivel ma kapcsolódsz hozzájuk?",
-    "Mi az, amit csinálsz, ami magában hordozza a részet?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Mi az egyetlen apró mód, amivel ma kapcsolódsz hozzájuk?",
+    "1": "Mi az, amit csinálsz, ami magában hordozza a részet?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Újrakezdés",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Biztos vagy benne, hogy törölni akarod ezt a tükröződést?"
   },
   "app_description": "Folyamatos kötvények",
   "past_reflections": "Múltbeli gondolatok",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

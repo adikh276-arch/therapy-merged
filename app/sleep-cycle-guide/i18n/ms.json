@@ -173,5 +173,10 @@
   "yes": "Ya",
   "no": "Tidak",
   "date": "Tarikh",
-  "continue": "Teruskan"
+  "continue": "Teruskan",
+  "lang": "panjang",
+  "how_long": "berapa lama ",
+  "you_sleep": "anda tidur.",
+  "where": "di mana ",
+  "you_wake_up": "anda bangun di dalam kitaran tidur anda."
 }

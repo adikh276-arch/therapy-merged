@@ -73,13 +73,13 @@
     "confirmDelete": "Confirmă Șterge",
     "cancel": "Anulează",
     "delete": "Șterge intrarea",
-    "prompts": [
-      "Un mic moment care nu părea tensionat...",
-      "Un efort pe care partenerul tău l-a făcut...",
-      "O calitate care a rămas constantă...",
-      "Intenție",
-      "Verificare emoțională"
-    ]
+    "prompts": {
+      "0": "Un mic moment care nu părea tensionat...",
+      "1": "Un efort pe care partenerul tău l-a făcut...",
+      "2": "O calitate care a rămas constantă...",
+      "3": "Intenție",
+      "4": "Verificare emoțională"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

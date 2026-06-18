@@ -10,52 +10,52 @@
   "scenario": {
     "title": "何があなたをトリガーしますか?",
     "desc": "自分が共感できる状況を選んでください",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "誰かが私の話を遮る",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "計画通りにはいかない",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "無視されていると感じています",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "圧倒されている気持ちです",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "自分でタイプして...",
     "button": "練習:一時停止→"
   },
   "hold": {
     "title": "ホールドして一時停止 ⏸️",
     "instructions": "円を5秒間キープしてください",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "押して長押しして..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "続けて..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "君はやっている..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "もうすぐだ..."
       }
-    ]
+    }
   },
   "result": {
     "title": "それが間だ",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "その他",
+  "lang": "長い"
 }

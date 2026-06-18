@@ -153,5 +153,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "watch_thoughts_drift": "Δείτε τις σκέψεις σας να απομακρύνονται...",
+  "lang": "μακρύς",
+  "app_duration": "3-5 λεπτά"
 }

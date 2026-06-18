@@ -173,5 +173,10 @@
   "yes": "Igen",
   "no": "Nem",
   "date": "Dátum",
-  "continue": "Folytatás"
+  "continue": "Folytatás",
+  "lang": "hosszú",
+  "how_long": "Mennyi ideig ",
+  "you_sleep": "Aludsz.",
+  "where": "ahol ",
+  "you_wake_up": "Az alvási ciklusaidban ébredsz fel."
 }

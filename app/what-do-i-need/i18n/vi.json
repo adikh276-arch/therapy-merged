@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Hỗ trợ tinh thần",
       "prompt": "Loại hỗ trợ nào sẽ thực sự giúp bạn ngay bây giờ?",
-      "hints": [
-        "Tôi chỉ cần ai đó...",
-        "Sẽ hữu ích nếu...",
-        "Điều tôi thực sự muốn là..."
-      ]
+      "hints": {
+        "0": "Tôi chỉ cần ai đó...",
+        "1": "Sẽ hữu ích nếu...",
+        "2": "Điều tôi thực sự muốn là..."
+      }
     },
     "Space / time for myself": {
       "label": "Không gian / thời gian cho bản thân",
       "prompt": "Có không gian đó sẽ như thế nào đối với bạn?",
-      "hints": [
-        "Tôi sẽ sử dụng thời gian đó để...",
-        "Không gian sẽ cho phép tôi...",
-        "Tôi cần chỗ để..."
-      ]
+      "hints": {
+        "0": "Tôi sẽ sử dụng thời gian đó để...",
+        "1": "Không gian sẽ cho phép tôi...",
+        "2": "Tôi cần chỗ để..."
+      }
     },
     "Clear communication": {
       "label": "Giao tiếp rõ ràng",
       "prompt": "Giao tiếp rõ ràng hơn sẽ như thế nào đối với bạn?",
-      "hints": [
-        "Tôi ước gì tôi có thể nói...",
-        "Nếu họ thực sự lắng nghe, tôi sẽ nói với họ...",
-        "Giao tiếp cảm thấy khó khăn khi..."
-      ]
+      "hints": {
+        "0": "Tôi ước gì tôi có thể nói...",
+        "1": "Nếu họ thực sự lắng nghe, tôi sẽ nói với họ...",
+        "2": "Giao tiếp cảm thấy khó khăn khi..."
+      }
     },
     "Reassurance": {
       "label": "Đảm bảo",
       "prompt": "Loại trấn an nào sẽ cảm thấy có ý nghĩa?",
-      "hints": [
-        "Tôi cần nghe điều đó...",
-        "Nó sẽ làm tôi bình tĩnh khi biết...",
-        "Tôi cứ lo lắng rằng..."
-      ]
+      "hints": {
+        "0": "Tôi cần nghe điều đó...",
+        "1": "Nó sẽ làm tôi bình tĩnh khi biết...",
+        "2": "Tôi cứ lo lắng rằng..."
+      }
     },
     "Understanding": {
       "label": "Hiểu biết",
       "prompt": "Cảm giác thực sự được hiểu sẽ như thế nào?",
-      "hints": [
-        "Tôi ước mọi người biết rằng...",
-        "Những gì tôi thực sự cảm thấy là...",
-        "Không ai thấy rằng tôi..."
-      ]
+      "hints": {
+        "0": "Tôi ước mọi người biết rằng...",
+        "1": "Những gì tôi thực sự cảm thấy là...",
+        "2": "Không ai thấy rằng tôi..."
+      }
     },
     "Stability": {
       "label": "Tính ổn định",
       "prompt": "Sự ổn định sẽ như thế nào trong cuộc sống của bạn ngay bây giờ?",
-      "hints": [
-        "Tôi cần mọi thứ để cảm nhận...",
-        "Điều khiến tôi trở nên khó khăn là...",
-        "Ổn định có nghĩa là..."
-      ]
+      "hints": {
+        "0": "Tôi cần mọi thứ để cảm nhận...",
+        "1": "Điều khiến tôi trở nên khó khăn là...",
+        "2": "Ổn định có nghĩa là..."
+      }
     },
     "Honesty": {
       "label": "Trung thực",
       "prompt": "Sự trung thực hơn sẽ như thế nào trong tình huống của bạn?",
-      "hints": [
-        "Sự thật tôi cần phải đối mặt là...",
-        "Tôi muốn thành thật về...",
-        "Những gì thực sự đang xảy ra là..."
-      ]
+      "hints": {
+        "0": "Sự thật tôi cần phải đối mặt là...",
+        "1": "Tôi muốn thành thật về...",
+        "2": "Những gì thực sự đang xảy ra là..."
+      }
     },
     "Respect": {
       "label": "Tôn trọng",
       "prompt": "Sự tôn trọng trông như thế nào đối với bạn ngay bây giờ?",
-      "hints": [
-        "Tôi xứng đáng được đối xử...",
-        "Sự tôn trọng sẽ giống như...",
-        "Tôi cần mọi người..."
-      ]
+      "hints": {
+        "0": "Tôi xứng đáng được đối xử...",
+        "1": "Sự tôn trọng sẽ giống như...",
+        "2": "Tôi cần mọi người..."
+      }
     },
     "Clarity about relationship": {
       "label": "Sự rõ ràng về mối quan hệ",
       "prompt": "Loại rõ ràng nào sẽ giúp bạn nhiều nhất?",
-      "hints": [
-        "Tôi cần biết nếu...",
-        "Điều khiến tôi bối rối là...",
-        "Tôi muốn chúng ta rõ ràng về..."
-      ]
+      "hints": {
+        "0": "Tôi cần biết nếu...",
+        "1": "Điều khiến tôi bối rối là...",
+        "2": "Tôi muốn chúng ta rõ ràng về..."
+      }
     },
     "default": {
       "prompt": "Điều này sẽ như thế nào trong một tình huống thực tế?",
-      "hints": [
-        "Những gì xuất hiện trong tâm trí là...",
-        "Ngay bây giờ tôi cảm thấy...",
-        "Nếu tôi thành thật với bản thân..."
-      ]
+      "hints": {
+        "0": "Những gì xuất hiện trong tâm trí là...",
+        "1": "Ngay bây giờ tôi cảm thấy...",
+        "2": "Nếu tôi thành thật với bản thân..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Nói điều gì đó một cách trung thực"
     },
-    {
+    "1": {
       "label": "Dành thời gian cho bản thân"
     },
-    {
+    "2": {
       "label": "Liên hệ với ai đó"
     },
-    {
+    "3": {
       "label": "Đặt ranh giới nhỏ"
     },
-    {
+    "4": {
       "label": "Chưa chắc chắn"
     }
-  ],
+  },
   "history": {
     "title": "Suy ngẫm trong quá khứ",
     "empty": "Chưa có phản chiếu."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

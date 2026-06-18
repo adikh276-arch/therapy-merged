@@ -3,11 +3,11 @@
   "intro": {
     "title": "Chequeo de lectura mental",
     "description": "Cuestiona las suposiciones que haces sobre lo que piensan los demás.",
-    "benefits": [
-      "Deja de asumir lo peor",
-      "Identificar interpretaciones sesgadas",
-      "Construir una comunicación más clara"
-    ],
+    "benefits": {
+      "0": "Deja de asumir lo peor",
+      "1": "Identificar interpretaciones sesgadas",
+      "2": "Construir una comunicación más clara"
+    },
     "duration": "3-4 minutos",
     "view_past": "Ver reflexiones pasadas"
   },
@@ -52,10 +52,10 @@
     "step6": {
       "title": "Revisa tu creencia",
       "desc": "¿Qué tan firmemente crees ahora en tu pensamiento original?",
-      "labels": [
-        "Para nada",
-        "Completamente"
-      ]
+      "labels": {
+        "0": "Para nada",
+        "1": "Completamente"
+      }
     },
     "step7": {
       "title": "Una visión más equilibrada",
@@ -65,11 +65,11 @@
     "step8": {
       "title": "La próxima vez",
       "desc": "¿Qué podrías hacer en lugar de asumir?",
-      "examples": [
-        "Pide aclaraciones",
-        "Dale un poco de tiempo",
-        "Notificar sin reaccionar"
-      ],
+      "examples": {
+        "0": "Pide aclaraciones",
+        "1": "Dale un poco de tiempo",
+        "2": "Notificar sin reaccionar"
+      },
       "placeholder": "La próxima vez, podría..."
     },
     "step9": {
@@ -140,5 +140,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

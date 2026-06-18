@@ -5,7 +5,8 @@
     "title": "Ang Iyong Pag-audit sa Pagtulog",
     "description": "Alamin kung ano ang nakakaapekto sa iyong pagtulog at kung saan makakatulong ang maliliit na pagbabago.",
     "start_button": "Simulan ang Audit",
-    "history_button": "Mga nakaraang pag-audit"
+    "history_button": "Mga nakaraang pag-audit",
+    "more_insights": "Back to Start"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Natutulog ako sa iba't ibang oras gabi-gabi"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Ang aking kapaligiran sa pagtulog ay hindi madilim, tahimik, o komportable"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Nag-scroll ako sa aking telepono bago matulog"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Umiinom ako ng kape o alak malapit nang matulog"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Nagising ako sa gabi at nagpupumilit na makatulog muli"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Umiikot ang utak ko sa pag-iisip kapag sinusubukan kong matulog"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Bihira akong makaramdam ng kaginhawahan pagkatapos ng isang gabi ng pagtulog"
     }
-  ],
-  "rating_labels": [
-    "Napakahirap",
-    "Mahirap",
-    "Okay",
-    "Mabuti",
-    "Mahusay"
-  ],
+  },
+  "rating_labels": {
+    "0": "Napakahirap",
+    "1": "Mahirap",
+    "2": "Okay",
+    "3": "Mabuti",
+    "4": "Mahusay"
+  },
   "status_labels": {
     "track": "Karamihan sa track",
     "disruptions": "Ilang mga pagkagambala",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2d",
+  "lang": "lang",
+  "loading": "Loading History..."
 }

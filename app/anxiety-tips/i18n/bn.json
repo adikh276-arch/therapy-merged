@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "শ্বাস নিন...",
+  "hold_label": "ধরে রাখুন...",
+  "exhale_label": "নিঃশ্বাস ছাড়ুন...",
+  "start": "প্রস্তুত",
+  "stop": "থামো",
+  "begin_breathing": "শ্বাস নেওয়া শুরু করুন",
+  "lang": "দীর্ঘ"
 }

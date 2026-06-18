@@ -173,5 +173,10 @@
   "yes": "Kyllä",
   "no": "Ei",
   "date": "Päivämäärä",
-  "continue": "Jatka"
+  "continue": "Jatka",
+  "lang": "pitkä",
+  "how_long": "Kauanko ",
+  "you_sleep": "Sinä nukut.",
+  "where": "missä ",
+  "you_wake_up": "Heräät unisykleissäsi."
 }

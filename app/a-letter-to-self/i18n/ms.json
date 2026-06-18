@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "Menjimatkan...",
+    "saved": "Disimpan"
   },
   "app_duration": "10-15 minit",
   "app_title": "Surat untuk Diri Sendiri",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "Gesaan",
+  "need_inspiration": "Perlukan Inspirasi?",
+  "post_writing_reflection": "Refleksi Selepas Penulisan",
+  "reflection_desc": "Mengakui perasaan anda adalah langkah yang kuat dalam perjalanan anda.",
+  "finish_save_reflection": "Selesaikan & Simpan Refleksi",
+  "lang": "panjang",
+  "completion_message": "Surat anda telah disimpan dengan selamat. Luangkan sedikit masa untuk menghargai kemajuan anda."
 }

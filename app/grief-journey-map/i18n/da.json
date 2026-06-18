@@ -16,23 +16,23 @@
   "btn_one_more": "En ting mere",
   "screen3_tag": "blide sandheder",
   "screen3_title": "Værd at vide",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Ingen deadline",
       "body": "Der er ingen udløbsdato for tab. At mærke det måneder eller år senere betyder ikke, at du sidder fast — det betyder, at du elskede."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Modstridende følelser",
       "body": "Man kan savne nogen og føle sig lettet. Du kan grine og sørge. Sorg har modsætninger."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Kærlighedens forvandling",
       "body": "Smerten er ikke adskilt fra kærligheden. Det er det samme, forvandlet."
     }
-  ],
+  },
   "btn_finish": "Afsluttende refleksion",
   "complete_title": "Rejsen Hædret",
   "complete_message": "Du behøver ikke komme videre. Man lærer bare at bære det anderledes. Din rejse er unik, gyldig og dybt menneskelig.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

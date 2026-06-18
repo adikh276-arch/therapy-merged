@@ -31,37 +31,37 @@
   "auth_error": "סשן אימות חסר או מסד נתונים לא מוגדר",
   "save_success": "השתקפות בונד נשמרת",
   "save_error": "נכשל בשימור ההשתקפות",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "דרך זיכרונות",
       "prompt": "האם תוכל לשתף זיכרון שבו אתה מרגיש את נוכחותם?",
       "deeper": "מה הדבר האחד בהם שנשאר איתך?"
     },
-    {
+    "1": {
       "label": "בדברים שאני אומר או עושה",
       "prompt": "איזה חלק מהם אתה נושא בחיי היומיום שלך?",
       "deeper": "איך זה בא לידי ביטוי בחיים שלך היום?"
     },
-    {
+    "2": {
       "label": "ברגעים של חיי היומיום שלי",
       "prompt": "מתי אתה מרגיש שהם מתקרבים במהלך היום שלך?",
       "deeper": "מה הדבר האחד בהם שנשאר איתך?"
     },
-    {
+    "3": {
       "label": "במה שאני עדיין רוצה לספר להם",
       "prompt": "האם יש משהו שעדיין תרצה לומר להם?",
       "deeper": "מה היית הכי רוצה שהם ידעו כרגע?"
     },
-    {
+    "4": {
       "label": "בתחושה או בנוכחות",
       "prompt": "איך הנוכחות שלהם עדיין באה לידי ביטוי עבורך?",
       "deeper": "איך זה בא לידי ביטוי בחיים שלך היום?"
     }
-  ],
-  "bond_prompts": [
-    "מהי הדרך הקטנה שבה אתה מרגיש מחובר אליהם היום?",
-    "מה משהו שאתה עושה שנושא חלק מהם?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "מהי הדרך הקטנה שבה אתה מרגיש מחובר אליהם היום?",
+    "1": "מה משהו שאתה עושה שנושא חלק מהם?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "התחל מחדש",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "אתה בטוח שאתה רוצה למחוק את ההשתקפות הזו?"
   },
   "app_description": "אגרות חוב מתמשכות",
   "past_reflections": "הרהורים מהעבר",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ארוך"
 }

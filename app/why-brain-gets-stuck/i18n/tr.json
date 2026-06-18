@@ -10,21 +10,22 @@
   "s2": {
     "tag": "Nazik gerçekler",
     "title": "Beyin hayatta kalma mantığı",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Alarm açık kaldı",
         "body": "Aşırı tetik ve şaşırtmak kolayca aşırı tepki değildir — beyninizin alarm sistemi işini çok iyi yapıyor."
       },
-      {
+      "1": {
         "header": "Geri dönüşler hafızadır",
         "body": "Tetikleyiciler tehdidin sona erdiğine dair sinyal almadığı için beyninizi geri çeker. Seni korumaya çalışıyor."
       },
-      {
+      "2": {
         "header": "Senin için savaşıyorum",
         "body": "Her semptom bir zamanlar hayatta kalma eylemiydi. Beyniniz sizi hayatta tutmak için ne gerekiyorsa yaptı."
       }
-    ],
-    "healing": "İyileşmek unutmakla ilgili değildir. Beyninize artık güvende olduğunuzu öğrenmesine yardımcı olmakla ilgili."
+    },
+    "healing": "İyileşmek unutmakla ilgili değildir. Beyninize artık güvende olduğunuzu öğrenmesine yardımcı olmakla ilgili.",
+    "finish_reading": "Okumayı Bitir"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun",
+  "complete": {
+    "message": "Sen"
+  }
 }

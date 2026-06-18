@@ -14,7 +14,8 @@
     "input1_placeholder": "De exemplu, plimbarea prin parc",
     "input2_label": "Când fac asta, de obicei mă simt...",
     "input2_placeholder": "de exemplu, calm și prezent",
-    "button": "Continuă"
+    "button": "Continuă",
+    "stage": "Etapa 1: Rechemarea"
   },
   "meaning": {
     "title": "Ce îl face semnificativ?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "de exemplu, conectat și împământat",
     "input3_label": "Îmi amintește de...",
     "input3_placeholder": "de exemplu, verile din copilărie",
-    "button": "Salvează-mi reflexia"
+    "button": "Salvează-mi reflexia",
+    "stage": "Etapa 2: Semnificație"
   },
   "smallStep": {
     "title": "Un mic pas înainte",
@@ -34,7 +36,8 @@
     "input1_label": "Un pas mic pe care l-aș putea face săptămâna asta este...",
     "input1_placeholder": "De exemplu, să mergi la o plimbare de 10 minute",
     "button_save": "Salvează",
-    "button_home": "Du-te acasă"
+    "button_home": "Du-te acasă",
+    "stage": "Etapa 3: Acțiune"
   },
   "affirmation": {
     "title": "Ai făcut un pas frumos",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

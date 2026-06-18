@@ -1,12 +1,12 @@
 {
   "app_title": "صندوق الذاكرة",
-  "screen_titles": [
-    "صندوقك",
-    "التكريم",
-    "التعبير عن الجميع",
-    "محفوظة",
-    "العناية اللطيفة"
-  ],
+  "screen_titles": {
+    "0": "صندوقك",
+    "1": "التكريم",
+    "2": "التعبير عن الجميع",
+    "3": "محفوظة",
+    "4": "العناية اللطيفة"
+  },
   "complete_title": "الذاكرة محفوظة",
   "complete_message": "لقد وضعت ذكرى {{name}} بأمان في صندوقك. هذه اللحظات من التواصل هي ملكك لتحتفظ بها دائما.",
   "auth_error": "جلسة المصادقة مفقودة أو قاعدة بيانات غير مهيأة",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "اكتب اسمهم...",
     "placeholder_relation": "كيف تعرفهم؟ (اختياري)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "لحظة سعيدة",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "شيء كانوا يقولونه سابقا",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "ذكرى صغيرة يومية",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "مكان يذكرك بهم",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "شيء أتمنى لو أستطيع قوله",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "تابع →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "مخبأ بأمان",
     "subtitle": "هذه الذكرى ل {{name}} أصبحت الآن جزءا من مجموعتك.",
     "add_another": "إضافة ذكرى أخرى",
-    "finish": "انعكاس النهاية"
+    "finish": "انعكاس النهاية",
+    "saved_title": "محفوظة بأمان"
   },
   "closing": {
     "title": "العناية",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "هل أنت متأكد أنك تريد حذف هذه الذاكرة؟"
   },
   "app_description": "صندوق الذكريات",
   "before_you_go": "قبل أن تذهب",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "طويل"
 }

@@ -23,38 +23,38 @@
   "try_again": "Tente de novo",
   "complete_title": "Conhecimento Dominado",
   "complete_message": "Você marcou {{score}}/{{total}}! Você adquiriu insights valiosos sobre as verdades e mitos da raiva.",
-  "questions": [
-    {
+  "questions": {
+    "0": {
       "statement": "Raiva é ruim. Se você se sente com raiva, algo está errado com você.",
       "answer": "myth",
       "realFact": "Raiva é uma emoção normal e saudável. Todo mundo sente isso. Não é um sinal de que algo está 'errado' com você — é um sinal de que algo importa para você. O que importa é como você reage a isso, não se você sente isso.",
       "example": "Um veterano sente raiva quando seus limites são ultrapassados. Essa raiva é válida — está dizendo algo importante para eles."
     },
-    {
+    "1": {
       "statement": "A raiva pode ser um sinal de que seus limites foram ultrapassados.",
       "answer": "fact",
       "realFact": "Raiva é informação. Quando você sente, vale a pena perguntar: qual limite foi ultrapassado? Que necessidade não está sendo atendida? Ouvir sua raiva — sem agir por impulso — ajuda você a se entender melhor e a tomar atitudes significativas.",
       "example": "Você fica com raiva quando um colega de trabalho assume o crédito pelo seu trabalho. Essa raiva aponta para a necessidade de reconhecimento e justiça."
     },
-    {
+    "2": {
       "statement": "Se você está bravo, tem que desabafar gritando ou batendo nas coisas.",
       "answer": "myth",
       "realFact": "Expressão saudável de raiva não significa supressão OU explosão. Significa reconhecer seus sentimentos e expressá-los de forma construtiva — por meio de palavras, escrevendo em um diário, atividade física ou formas criativas de extraordinar. Você pode honrar sua raiva sem destruição.",
       "example": "Em vez de socar uma parede, você sai para correr ou escreve exatamente o que está te incomodando. A raiva passa por você sem causar dano."
     },
-    {
+    "3": {
       "statement": "Aprender a lidar com a raiva é um sinal de força emocional.",
       "answer": "fact",
       "realFact": "Pessoas que trabalham no controle da raiva não são fracas — elas estão fazendo um dos trabalhos emocionais mais corajosos que existem. Escolher pausar, refletir e responder de forma reflexiva exige muito mais força do que reagir por impulso.",
       "example": "Respirar fundo e dizer 'preciso de um minuto antes de responder' em um momento de calor é um ato poderoso de autocontrole."
     },
-    {
+    "4": {
       "statement": "Se alguém te deixa com raiva, a culpa é deles. Você não tem responsabilidade.",
       "answer": "myth",
       "realFact": "Outras pessoas podem desencadear sua raiva, mas a forma como você responde é sua responsabilidade — e seu poder. Assumir a responsabilidade pelas suas reações não significa que a outra pessoa estava certa. Significa que você está escolhendo como aparecer. Isso é empoderamento, não culpa.",
       "example": "Alguém te corta no trânsito. Você sente raiva — isso é normal. Mas você escolhe se se enfurece ou respira. A escolha é sua."
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Recomeçar",
@@ -106,5 +106,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo",
+  "results_message": "Você"
 }

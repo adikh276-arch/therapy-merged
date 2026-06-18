@@ -1,14 +1,14 @@
 {
   "app_title": "Mitgefühlspause",
-  "screen_titles": [
-    "Check-in",
-    "Identifizieren",
-    "Atmen",
-    "Freundlichkeit",
-    "Schicht",
-    "Reflektieren",
-    "Vollständig"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Identifizieren",
+    "2": "Atmen",
+    "3": "Freundlichkeit",
+    "4": "Schicht",
+    "5": "Reflektieren",
+    "6": "Vollständig"
+  },
   "auth_error": "Authentifizierungssitzung fehlt oder Datenbank nicht konfiguriert",
   "save_success": "Spiegelbild erhalten",
   "save_error": "Es gelang nicht, die Reflexion zu bewahren",
@@ -25,14 +25,14 @@
   "continue_button": "Weitermachen",
   "nameit_title": "Fassen Sie es in Worte",
   "nameit_subtitle": "Im Moment fühle ich mich _______",
-  "emotions_list": [
-    "ängstlich",
-    "Schuldig",
-    "Überwältigt",
-    "Tempus",
-    "müde",
-    "traurig"
-  ],
+  "emotions_list": {
+    "0": "ängstlich",
+    "1": "Schuldig",
+    "2": "Überwältigt",
+    "3": "Tempus",
+    "4": "müde",
+    "5": "traurig"
+  },
   "label_custom_emotion": "Oder tipp deine eigene",
   "placeholder_emotion": "1–2 Wörter",
   "nameit_footer": "Einfach reicht.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro": {
+    "view_past": "Vergangene Sitzungen ansehen"
+  },
+  "history": {
+    "title": "Geschichte des Selbstmitgefühls",
+    "no_entries": "Keine früheren Bruchprotokolle gefunden."
+  },
+  "loading": "Ladeverlauf..."
 }

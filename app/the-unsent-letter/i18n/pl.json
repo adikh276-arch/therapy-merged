@@ -3,39 +3,40 @@
   "app_subtitle": "Wypuść swoje myśli bezpiecznie i prywatnie",
   "intro": {
     "title": "Niewysłany List",
-    "description": [
-      "Czasem są rzeczy, które chcielibyśmy powiedzieć — ale nigdy nie mieliśmy okazji.",
-      "Może dlatego, że nie czuł się bezpiecznie, nie był odpowiedni moment albo słowa były zbyt trudne do wypowiedzenia na głos.",
-      "Ta aktywność daje Ci prywatną przestrzeń, by ubrać te myśli w słowa.",
-      "Nie musisz wysyłać tego listu. To jest tylko dla ciebie — by lepiej wyrazić, uwolnić i zrozumieć swoje uczucia."
-    ],
+    "description": {
+      "0": "Czasem są rzeczy, które chcielibyśmy powiedzieć — ale nigdy nie mieliśmy okazji.",
+      "1": "Może dlatego, że nie czuł się bezpiecznie, nie był odpowiedni moment albo słowa były zbyt trudne do wypowiedzenia na głos.",
+      "2": "Ta aktywność daje Ci prywatną przestrzeń, by ubrać te myśli w słowa.",
+      "3": "Nie musisz wysyłać tego listu. To jest tylko dla ciebie — by lepiej wyrazić, uwolnić i zrozumieć swoje uczucia."
+    },
     "notice": "Pisz swobodnie. Nikt inny tego nie zobaczy.",
     "button": "Zacznij pisać →"
   },
   "writing": {
     "title": "Napisz to, co trzymałeś w sobie",
     "desc": "Możesz pisać do swojego partnera, byłego partnera, a nawet do samego związku. Nie ma na to właściwego ani złego sposobu.",
-    "prompts": [
-      "Czuję się...",
-      "Chciałbym...",
-      "Nigdy nie mówiłem...",
-      "Co mnie zraniło...",
-      "Czego potrzebowałem..."
-    ],
+    "prompts": {
+      "0": "Czuję się...",
+      "1": "Chciałbym...",
+      "2": "Nigdy nie mówiłem...",
+      "3": "Co mnie zraniło...",
+      "4": "Czego potrzebowałem..."
+    },
     "placeholder": "Drogi ____,\nChciałem powiedzieć...",
     "notice": "Możesz zatrzymać i wrócić w każdej chwili.",
     "button": "Kontynuuj →"
   },
   "reflection": {
     "title": "Poświęć chwilę temu",
-    "description": [
-      "Po prostu ułożyłeś swoje myśli i uczucia w słowa — to wymaga odwagi.",
-      "Możesz teraz zauważyć mieszankę emocji i to jest całkowicie w porządku.",
-      "Zanim przejdziesz dalej, weź głęboki oddech i delikatnie sprawdź siebie."
-    ],
+    "description": {
+      "0": "Po prostu ułożyłeś swoje myśli i uczucia w słowa — to wymaga odwagi.",
+      "1": "Możesz teraz zauważyć mieszankę emocji i to jest całkowicie w porządku.",
+      "2": "Zanim przejdziesz dalej, weź głęboki oddech i delikatnie sprawdź siebie."
+    },
     "notice": "To było dla twojego uzdrowienia, nie do wysłania.",
     "save_button": "List zapisujący",
-    "finish_button": "Zakończenie"
+    "finish_button": "Zakończenie",
+    "save_success": "Twój niewysłany list jest bezpiecznie naprawiony w twoim prywatnym lokalnym dzienniku. Ekspresja to głębokie uwolnienie."
   },
   "history": {
     "title": "Listy z przeszłości",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jesteś pewien, że chcesz usunąć ten niewysłany list?"
   },
   "app_description": "Uwolnij swoje myśli bezpiecznie i prywatnie",
   "more": "Więcej",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

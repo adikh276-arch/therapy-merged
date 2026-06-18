@@ -1,10 +1,10 @@
 {
   "app_title": "誰かを恋しく思う",
-  "subtitles": [
-    "検証",
-    "内なる知恵",
-    "完了"
-  ],
+  "subtitles": {
+    "0": "検証",
+    "1": "内なる知恵",
+    "2": "完了"
+  },
   "complete_title": "明晰さの獲得",
   "complete_message": "誰かを恋しく思う化学反応を理解することが癒しへの第一歩です。あなたの感情は正当であり、脳はただ守り処理しているだけです。",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い"
 }

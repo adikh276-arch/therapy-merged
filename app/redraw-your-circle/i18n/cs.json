@@ -21,30 +21,31 @@
       "placeholder": "Zadejte jméno...",
       "button": "Uložit jméno"
     },
-    "prompts": [
-      "Člověk, který přináší radost",
-      "Člověk, který tě podporuje",
-      "Člověk, se kterým můžeš mluvit",
-      "Člověk, kterému důvěřuješ",
-      "Člověk, který vás inspiruje"
-    ]
+    "prompts": {
+      "0": "Člověk, který přináší radost",
+      "1": "Člověk, který tě podporuje",
+      "2": "Člověk, se kterým můžeš mluvit",
+      "3": "Člověk, kterému důvěřuješ",
+      "4": "Člověk, který vás inspiruje"
+    }
   },
   "reflection": {
     "subtitle": "Závěrečné úvahy",
     "title": "Čeho si všimnete?",
     "p_intro": "Na chvíli se zastavte a podívejte se na svůj kruh. Možná si všimnete:",
-    "list": [
-      "Někteří lidé se cítí blíže než jiní",
-      "Některá spojení působí jako silná",
-      "Někteří působí vzdáleně nebo nejasně",
-      "Mohou tam být mezery — nebo jen pár významných lidí"
-    ],
+    "list": {
+      "0": "Někteří lidé se cítí blíže než jiní",
+      "1": "Některá spojení působí jako silná",
+      "2": "Někteří působí vzdáleně nebo nejasně",
+      "3": "Mohou tam být mezery — nebo jen pár významných lidí"
+    },
     "italic": "Uvědomění je prvním krokem k budování vztahů, kterých si ceníte. 🧘",
     "label": "💭 Je někdo, s kým byste se chtěli cítit víc propojeni?",
     "placeholder": "Napište své myšlenky sem...",
     "save_button": "Uložte si odraz",
     "saving_button": "Ukládám...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Vaše mezilidská mapa je bezpečně uložena ve vašem deníku. Pěstování těchto podpůrných uzlů nám pomáhá zůstat odolní."
   },
   "history": {
     "title": "Historie vašeho kruhu",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jste si jistý, že chcete tento circle log smazat?"
   },
   "intro_p1": "V různých fázích života se náš systém podpory může změnit. 🌱 Někdy se cítíme propojení a podporovaní. Jindy se nám věci mohou zdát vzdálené nebo nejasné.",
   "intro_p2": "Tato aktivita je prostorem k zastavení se a pohledu na lidi kolem vás – a k pochopení, kdo se momentálně cítí být součástí vašeho kruhu. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý",
+  " ": " "
 }

@@ -5,7 +5,8 @@
     "title": "Sua Auditoria de Sono",
     "description": "Entenda o que está afetando seu sono e onde pequenas mudanças podem ajudar.",
     "start_button": "Iniciar a Auditoria",
-    "history_button": "Auditorias Passadas"
+    "history_button": "Auditorias Passadas",
+    "more_insights": "Voltar ao início"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Eu vou para a cama em horários muito diferentes a cada noite"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Meu ambiente de sono não é escuro, silencioso ou confortável"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Eu rolo o celular antes de dormir"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Tomo cafeína ou álcool perto da hora de dormir"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Acordo durante a noite e tenho dificuldade para voltar a dormir"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Minha mente corre com pensamentos quando tento dormir"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Raramente me sinto descansado depois de uma noite de sono"
     }
-  ],
-  "rating_labels": [
-    "Muito pobre",
-    "Pobre",
-    "Ok",
-    "Bom",
-    "Ótimo"
-  ],
+  },
+  "rating_labels": {
+    "0": "Muito pobre",
+    "1": "Pobre",
+    "2": "Ok",
+    "3": "Bom",
+    "4": "Ótimo"
+  },
   "status_labels": {
     "track": "Na maior parte do tempo na pista",
     "disruptions": "Algumas interrupções",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2d",
+  "lang": "longo",
+  "loading": "Histórico de carregamento..."
 }

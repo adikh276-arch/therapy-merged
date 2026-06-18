@@ -31,114 +31,114 @@
     "safety": "Nie musisz wszystkiego naprawiać — wystarczy wybrać jeden mały krok.",
     "button": "Spróbuj tego →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Wyślij luźne zgłoszenie",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Uznaj napięcie",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Dajcie sobie trochę przestrzeni",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Odpuść i idź dalej",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Po prostu się nad tym zastanów",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Wyślij ciepłą wiadomość",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Powiedz szczerze, co się stało",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Następnym razem zdecyduj się na pauzę",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Wybierz pokój zamiast mieć rację",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Zastanów się, czego naprawdę potrzebujesz",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Wyślij profesjonalną notatkę",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Zwróć się do tego z szacunkiem",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Zaplanuj spokojniejszą reakcję następnym razem",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Zachowaj profesjonalizm i idź dalej",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Pomyśl o granicach",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Skontaktuj się z prostą wiadomością",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Przyznaj, co się stało",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Następnym razem zrób przerwę",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Na razie odpuść",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Po prostu odbuj (jeszcze brak akcji)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Sięganie do siebie — nawet niedoskonale — prawie zawsze jest odbierane lepiej, niż się spodziewamy.",
         "howTitle": "Zacznij od małych kroków",
         "howBody": "Nie musisz pisać eseju. Kilka szczerych słów może otworzyć drzwi do ponownego nawiązania kontaktu.",
-        "prompts": [
-          "Hej, myślałem o tobie. Mam nadzieję, że u ciebie wszystko w porządku.",
-          "Wiem, że było napięcie — chciałem tylko powiedzieć, że mi zależy.",
-          "Przepraszam za wcześniej. Możemy porozmawiać, kiedy będziesz gotowy?"
-        ],
+        "prompts": {
+          "0": "Hej, myślałem o tobie. Mam nadzieję, że u ciebie wszystko w porządku.",
+          "1": "Wiem, że było napięcie — chciałem tylko powiedzieć, że mi zależy.",
+          "2": "Przepraszam za wcześniej. Możemy porozmawiać, kiedy będziesz gotowy?"
+        },
         "promptLabel": "Wybierz punkt wyjścia:",
         "editLabel": "Zrób to swoim:"
       },
@@ -169,11 +169,11 @@
         "insight": "Ludzie nie potrzebują, żebyś był perfekcyjny—muszą wiedzieć, że to zauważyłeś.",
         "howTitle": "Nazwij to łagodnie",
         "howBody": "Możesz przyznać się bez brania całej winy. Po prostu powiedz szczerze, co się stało.",
-        "prompts": [
-          "Wiem, że między nami zrobiło się gorąco. Chcę, żebyś wiedział, że zauważyłem.",
-          "Zdaję sobie sprawę, że mogłem zabrzmieć zbyt surowo. To nie było moim zamiarem.",
-          "Zastanawiałem się nad tym, co się wydarzyło, i żałuję, że nie postąpiłem inaczej."
-        ],
+        "prompts": {
+          "0": "Wiem, że między nami zrobiło się gorąco. Chcę, żebyś wiedział, że zauważyłem.",
+          "1": "Zdaję sobie sprawę, że mogłem zabrzmieć zbyt surowo. To nie było moim zamiarem.",
+          "2": "Zastanawiałem się nad tym, co się wydarzyło, i żałuję, że nie postąpiłem inaczej."
+        },
         "promptLabel": "Wybierz punkt wyjścia:",
         "editLabel": "Zrób to swoim:"
       },
@@ -183,11 +183,11 @@
         "insight": "6-sekundowa pauza często wystarcza, by przejść od reakcji do refleksji.",
         "howTitle": "🧘 Zaplanuj swoją pauzę",
         "howBody": "Pomyśl o prostym sygnałie — na przykład o oddechu lub krótkim odejściu — zanim odpowiesz.",
-        "prompts": [
-          "Następnym razem, gdy poczuję się zdenerwowany, biorę głęboki oddech zanim odpowiem.",
-          "Spróbuję powiedzieć \"Daj mi chwilę\" zamiast reagować od razu.",
-          "Odchodzę na kilka minut, żeby zebrać myśli."
-        ],
+        "prompts": {
+          "0": "Następnym razem, gdy poczuję się zdenerwowany, biorę głęboki oddech zanim odpowiem.",
+          "1": "Spróbuję powiedzieć \"Daj mi chwilę\" zamiast reagować od razu.",
+          "2": "Odchodzę na kilka minut, żeby zebrać myśli."
+        },
         "promptLabel": "Wybierz zobowiązanie, które wydaje się właściwe:",
         "editLabel": "Napisz własne zamiary:"
       },
@@ -197,11 +197,11 @@
         "insight": "Odpuszczenie to nie poddanie się—to wybór pokoju zamiast bycia słuszne.",
         "howTitle": "🕊️ Delikatnie wypuszczaj",
         "howBody": "Nie musisz zapominać. Po prostu zdecyduj, że to nie musi już kontrolować twoich uczuć.",
-        "prompts": [
-          "Wybieram odpuścić — nie dlatego, że to nie miało znaczenia, ale dlatego, że mój spokój jest ważniejszy.",
-          "Pozwalam sobie na potrzebę bycia w tej kwestii racji. Wybieram połączenie.",
-          "Ta sytuacja nie definiuje naszego związku. Idę naprzód."
-        ],
+        "prompts": {
+          "0": "Wybieram odpuścić — nie dlatego, że to nie miało znaczenia, ale dlatego, że mój spokój jest ważniejszy.",
+          "1": "Pozwalam sobie na potrzebę bycia w tej kwestii racji. Wybieram połączenie.",
+          "2": "Ta sytuacja nie definiuje naszego związku. Idę naprzód."
+        },
         "promptLabel": "Wybierz to, co do ciebie przemawia:",
         "editLabel": "Napisz to, co wydaje się dla ciebie prawdziwe:"
       },
@@ -211,11 +211,11 @@
         "insight": "Prowadzenie dziennika lub nawet przemyślenie tego, co się stało, pomaga przetwarzać emocje bez presji.",
         "howTitle": "🔍 Spójrz w głąb",
         "howBody": "Zadaj sobie pytanie: Co tak naprawdę czułem pod tą złością? Często jest to ból, strach lub rozczarowanie.",
-        "prompts": [
-          "Pod powierzchnią mojej złości czułem się zraniony.",
-          "Zdaję sobie sprawę, że reagowałem ze strachu, że mnie nie wysłuchają.",
-          "Naprawdę potrzebowałem poczucia szacunku i docenienia."
-        ],
+        "prompts": {
+          "0": "Pod powierzchnią mojej złości czułem się zraniony.",
+          "1": "Zdaję sobie sprawę, że reagowałem ze strachu, że mnie nie wysłuchają.",
+          "2": "Naprawdę potrzebowałem poczucia szacunku i docenienia."
+        },
         "promptLabel": "Wybierz to, co do ciebie przemawia:",
         "editLabel": "Napisz własną refleksję:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

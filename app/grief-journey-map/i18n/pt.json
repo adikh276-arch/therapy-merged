@@ -16,23 +16,23 @@
   "btn_one_more": "Mais uma coisa",
   "screen3_tag": "verdades gentis",
   "screen3_title": "Vale a pena saber",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Sem prazo",
       "body": "Não há data de validade para a perda. Sentir isso meses ou anos depois não significa que você está preso — significa que você amou."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Sentimentos contraditórios",
       "body": "Você pode sentir falta de alguém e se sentir aliviado. Você pode rir e lamentar. O luto tem opostos."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Transformação do amor",
       "body": "A dor não é separada do amor. É a mesma coisa, transformada."
     }
-  ],
+  },
   "btn_finish": "Reflexão do Acabamento",
   "complete_title": "Jornada Honrada",
   "complete_message": "Você não precisa seguir em frente. Você só aprende a carregar de forma diferente. Sua jornada é única, válida e profundamente humana.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

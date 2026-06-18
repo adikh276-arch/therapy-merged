@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "saving": "بچت کر رہا ہوں...",
+    "saved": "بچایا گیا"
   },
   "app_duration": "10-15 منٹ",
   "app_title": "خود کو خط",
@@ -87,5 +89,13 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "T": "T",
+  "prompts": "موضوعات",
+  "need_inspiration": "کیا آپ کو تحریک چاہیے؟",
+  "post_writing_reflection": "تحریر کے بعد کی عکاسی",
+  "reflection_desc": "اپنے جذبات کو تسلیم کرنا آپ کے سفر میں ایک طاقتور قدم ہے۔",
+  "finish_save_reflection": "ختم کریں اور عکاسی کو محفوظ کریں",
+  "lang": "لمبا",
+  "completion_message": "آپ کا خط محفوظ طریقے سے محفوظ کر لیا گیا ہے۔ اپنی پیش رفت کی قدر کرنے کے لیے ایک لمحہ نکالیں۔"
 }

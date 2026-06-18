@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Nhập một suy nghĩ khác...",
+  "resume": "Sơ yếu lý lịch",
+  "pause": "Tạm dừng",
+  "growth_reminder": "Ngay cả những bước nhỏ cũng làm giảm trọng lượng tinh thần. Bạn không",
+  "lang": "dài",
+  "complete_message": "Bạn",
+  "welcome_sub": "Chào mừng",
+  "clearing_sub": "Thanh lọc tinh thần",
+  "sorting_sub": "Sắp xếp",
+  "action_sub": "Các bước hành động",
+  "reflect_sub": "Suy ngẫm",
+  "intro": {
+    "viewHistory": "Xem lịch sử"
+  }
 }

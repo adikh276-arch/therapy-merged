@@ -57,80 +57,80 @@
       "hyper": {
         "title": "Über deinem Fenster",
         "subtitle": "Dein Nervensystem ist auf Hochtouren. Das ist in Ordnung. Lass uns dich sanft zurückbringen.",
-        "feelings": [
-          "Herzrasenden Herz",
-          "Flaches Atmen",
-          "Panik oder Wut",
-          "Rasende Gedanken",
-          "Unruhe"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Herzrasenden Herz",
+          "1": "Flaches Atmen",
+          "2": "Panik oder Wut",
+          "3": "Rasende Gedanken",
+          "4": "Unruhe"
+        },
+        "tools": {
+          "0": {
             "name": "Box-Atmung",
             "desc": "Einatmen 4, Mond 4, Ausatmen 4, Mond 4. Wiederhole das viermal."
           },
-          {
+          "1": {
             "name": "5-4-3-2-1 Erdung",
             "desc": "5 Dinge sehen, 4 berühren, 3 hören, 2 riechen, 1 schmecken."
           },
-          {
+          "2": {
             "name": "Füße auf dem Boden",
             "desc": "Füße runterdrücken, sagen: 'Ich bin hier. Ich bin sicher. Das wird vorübergehen.'"
           }
-        ],
+        },
         "button": "Ich fühle mich etwas ruhiger →",
         "footer": "Du bist in Sicherheit. Lass dir Zeit."
       },
       "hypo": {
         "title": "Unter Ihrem Fenster",
         "subtitle": "Dein Nervensystem ist ruhig geworden. Es schützt dich. Lass uns ihn sanft wieder aufwecken.",
-        "feelings": [
-          "Taubheit",
-          "Abschaltung",
-          "Extreme Erschöpfung",
-          "Sich unwirklich anfühlen",
-          "Flachheit"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Taubheit",
+          "1": "Abschaltung",
+          "2": "Extreme Erschöpfung",
+          "3": "Sich unwirklich anfühlen",
+          "4": "Flachheit"
+        },
+        "tools": {
+          "0": {
             "name": "Sanfte Bewegung",
             "desc": "Stehen, langsam gehen, Arme schwingen. Lass deinen Körper aufwachen."
           },
-          {
+          "1": {
             "name": "Rhythmischer Klang",
             "desc": "Musik mit gleichmäßigem Rhythmus spielen, mit den Füßen mitwippen."
           },
-          {
+          "2": {
             "name": "Sprich laut",
             "desc": "Sag deinen Namen, deinen Ort, das heutige Datum laut. Aktiviere das denkende Gehirn wieder."
           }
-        ],
+        },
         "button": "Ich fühle mich etwas präsenter →",
         "footer": "Du machst das großartig. Gehen Sie Schritt für Schritt vor."
       },
       "safe": {
         "title": "Hinter deinem Fenster",
         "subtitle": "Du bist in deiner sicheren Zone. Hier geschehen Heilung, Verbindung und Wachstum. Gut gemacht.",
-        "feelings": [
-          "Gegenwart und bewusst",
-          "Gleichmäßiges Atmen",
-          "Klares Denken",
-          "Verbunden"
-        ],
-        "tools": [
-          {
+        "feelings": {
+          "0": "Gegenwart und bewusst",
+          "1": "Gleichmäßiges Atmen",
+          "2": "Klares Denken",
+          "3": "Verbunden"
+        },
+        "tools": {
+          "0": {
             "name": "Atme langsam weiter",
             "desc": "Durch die Nase rein, durch den Mund raus."
           },
-          {
+          "1": {
             "name": "Reflektieren",
             "desc": "Was hat dir geholfen, hier zu bleiben? Schreib es auf."
           },
-          {
+          "2": {
             "name": "Selbstmitgefühl",
             "desc": "'Mein Nervensystem hat seine Arbeit gemacht. Ich bin nicht kaputt. Ich heile.'"
           }
-        ],
+        },
         "button": "Weiter zu meinem Toolkit →",
         "footer": "Du bist Pflege und Heilung wert."
       }
@@ -138,14 +138,14 @@
     "toolkit": {
       "title": "🧰 Ihr persönliches Werkzeugkasten",
       "subtitle": "Ihre bevorzugten Werkzeuge – gespeichert und jederzeit bereit, wenn Sie sie brauchen.",
-      "tools_list": [
-        "🌬️ Box-Atmung",
-        "🖐️ 5-4-3-2-1",
-        "🦶 Füße auf dem Boden",
-        "🚶 Sanfte Bewegung",
-        "🎵 Musik",
-        "💬 Sprich laut"
-      ],
+      "tools_list": {
+        "0": "🌬️ Box-Atmung",
+        "1": "🖐️ 5-4-3-2-1",
+        "2": "🦶 Füße auf dem Boden",
+        "3": "🚶 Sanfte Bewegung",
+        "4": "🎵 Musik",
+        "5": "💬 Sprich laut"
+      },
       "journal_label": "📝 Die heutige Reflexion",
       "journal_desc": "Was war ein Moment heute, in dem Sie bemerkten, dass sich Ihr Nervensystem veränderte – und was haben Sie dagegen unternommen?",
       "journal_placeholder": "Schreib hier...",
@@ -156,13 +156,13 @@
       "preserve_button": "Reflexion bewahren"
     }
   },
-  "nav": [
-    "Check-in",
-    "Erklärung",
-    "Überwachung",
-    "Die Zone",
-    "Toolkit"
-  ],
+  "nav": {
+    "0": "Check-in",
+    "1": "Erklärung",
+    "2": "Überwachung",
+    "3": "Die Zone",
+    "4": "Toolkit"
+  },
   "history": {
     "title": "Check-in-Geschichte",
     "empty": "Noch keine Check-ins."
@@ -176,15 +176,15 @@
     "title": "Check-in abgeschlossen",
     "message": "Du hast deinen aktuellen Zustand erfolgreich kartiert. Bewusstsein aufzubauen ist der erste Schritt, um dein Gleichgewicht zu finden."
   },
-  "days": [
-    "Meine",
-    "Dienstag",
-    "Heirat",
-    "Herbst",
-    "Fr",
-    "Samstag",
-    "Sonne"
-  ],
+  "days": {
+    "0": "Meine",
+    "1": "Dienstag",
+    "2": "Heirat",
+    "3": "Herbst",
+    "4": "Fr",
+    "5": "Samstag",
+    "6": "Sonne"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Von vorne beginnen",
@@ -248,5 +248,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

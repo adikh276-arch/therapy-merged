@@ -29,7 +29,8 @@
     "historyDesc": "Vaše předchozí úvahy jsou zde uloženy, takže se k nim můžete kdykoli vrátit.",
     "noHistory": "Ještě jste nedokončili reflexi hodnot.",
     "startActivity": "Začněte aktivitu",
-    "startNew": "Začněte novou reflexi"
+    "startNew": "Začněte novou reflexi",
+    "aligned": "Aligned"
   },
   "values": {
     "Family": "Rodina",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dlouhý",
+  "app_duration": "5 minut",
+  "loading": "Načítání odrazů..."
 }

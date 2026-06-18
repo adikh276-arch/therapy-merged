@@ -1,12 +1,12 @@
 {
   "app_title": "Memory Box",
-  "screen_titles": [
-    "Twoje pudełko",
-    "Uhonorowanie",
-    "Ekspresja",
-    "Zachowane",
-    "Delikatna opieka"
-  ],
+  "screen_titles": {
+    "0": "Twoje pudełko",
+    "1": "Uhonorowanie",
+    "2": "Ekspresja",
+    "3": "Zachowane",
+    "4": "Delikatna opieka"
+  },
   "complete_title": "Pamięć zachowana",
   "complete_message": "Bezpiecznie umieściłeś wspomnienie {{name}} w swojej skrzynce. Te chwile połączenia są twoje, by zachować je na zawsze.",
   "auth_error": "Brakuje sesji uwierzytelniania lub baza danych nie skonfigurowana",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Wpisz ich imię...",
     "placeholder_relation": "Skąd ich znasz? (opcjonalnie)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Szczęśliwa chwila",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Coś, co kiedyś mówili",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Małe, codzienne wspomnienie",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Miejsce, które ci o nich przypomina",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Coś, co chciałbym móc powiedzieć",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Kontynuuj →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Bezpiecznie ukryty",
     "subtitle": "To wspomnienie {{name}} jest teraz częścią twojej kolekcji.",
     "add_another": "Dodaj kolejne wspomnienie",
-    "finish": "Odbicie wykończenia"
+    "finish": "Odbicie wykończenia",
+    "saved_title": "Chroniony"
   },
   "closing": {
     "title": "Dbając o siebie",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Jesteś pewien, że chcesz usunąć to wspomnienie?"
   },
   "app_description": "Pudełko wspomnień",
   "before_you_go": "Zanim pójdziesz",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

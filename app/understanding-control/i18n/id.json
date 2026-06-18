@@ -1,58 +1,58 @@
 {
   "app_title": "Memahami Kontrol",
   "app_subtitle": "Strategi Bertahan Hidup • {{step}}/3",
-  "screens": [
-    {
+  "screens": {
+    "0": {
       "headline": "Mengapa Kontrol Bisa Terasa Begitu Kuat",
-      "paragraphs": [
-        "Bagi banyak orang yang mengalami kesulitan makan, kontrol bisa terasa seperti cara untuk menciptakan keamanan.",
-        "Ketika hidup terasa tidak dapat diprediksi atau intens secara emosional, berfokus pada makanan, berat badan, atau rutinitas dapat membawa rasa struktur dan kepastian.",
-        "Ini bukan tentang kemauan atau disiplin. Ini tentang mencoba menstabilkan diri ketika segala sesuatunya terasa tidak pasti.",
-        "Dengan cara ini, kontrol menjadi strategi koping — sesuatu yang membantu Anda merasa membumi, meskipun hanya sementara."
-      ],
+      "paragraphs": {
+        "0": "Bagi banyak orang yang mengalami kesulitan makan, kontrol bisa terasa seperti cara untuk menciptakan keamanan.",
+        "1": "Ketika hidup terasa tidak dapat diprediksi atau intens secara emosional, berfokus pada makanan, berat badan, atau rutinitas dapat membawa rasa struktur dan kepastian.",
+        "2": "Ini bukan tentang kemauan atau disiplin. Ini tentang mencoba menstabilkan diri ketika segala sesuatunya terasa tidak pasti.",
+        "3": "Dengan cara ini, kontrol menjadi strategi koping — sesuatu yang membantu Anda merasa membumi, meskipun hanya sementara."
+      },
       "microcopy": "Anda tidak sendirian dalam perasaan seperti ini.",
       "cta": "Lanjutkan"
     },
-    {
+    "1": {
       "headline": "Cara Berbeda Kontrol Muncul",
       "intro": "Kebutuhan akan kontrol tidak terlihat sama untuk semua orang, tetapi sering muncul dalam pola seperti:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Aturan makanan yang ketat atau tidak fleksibel"
         },
-        {
+        "1": {
           "text": "Perlu mengikuti rutinitas dengan tepat"
         },
-        {
+        "2": {
           "text": "Kecemasan ketika rencana berubah"
         },
-        {
+        "3": {
           "text": "Menghubungkan harga diri dengan bentuk/berat badan"
         }
-      ],
+      },
       "outro": "Seiring waktu, ini bisa menjadi kaku, memakan ruang mental dan membuatnya lebih sulit untuk beradaptasi.",
       "microcopy": "Apa yang dimulai sebagai kontrol perlahan-lahan bisa mulai terasa mengendalikan.",
       "cta": "Lanjutkan"
     },
-    {
+    "2": {
       "headline": "Di bawah Kontrol",
       "intro": "Keinginan untuk mengendalikan seringkali memiliki akar yang lebih dalam. Itu dapat dihubungkan ke:",
-      "bullets": [
-        {
+      "bullets": {
+        "0": {
           "text": "Merasa dibanjiri secara emosional"
         },
-        {
+        "1": {
           "text": "Menginginkan prediktabilitas"
         },
-        {
+        "2": {
           "text": "Kebutuhan akan stabilitas dan keamanan"
         }
-      ],
+      },
       "insight": "Kontrol bukanlah masalahnya - itu adalah strategi yang ditemukan pikiran Anda untuk mengatasinya. Dengan waktu dan dukungan, cara lain untuk merasa aman dimungkinkan.",
       "microcopy": "Pemahaman adalah langkah pertama yang kuat.",
       "cta": "Selesai Membaca"
     }
-  ],
+  },
   "complete": {
     "title": "Kesadaran yang Diperoleh",
     "message": "Memahami akar kontrol adalah langkah pertama yang berani untuk menemukan cara baru untuk merasa aman dan mantap.",
@@ -109,5 +109,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

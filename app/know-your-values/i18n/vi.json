@@ -29,7 +29,8 @@
     "historyDesc": "Những phản ánh trước đây của bạn được lưu ở đây để bạn có thể xem lại chúng bất cứ lúc nào.",
     "noHistory": "Bạn chưa hoàn thành phản ánh giá trị.",
     "startActivity": "Bắt đầu hoạt động",
-    "startNew": "Bắt đầu suy ngẫm mới"
+    "startNew": "Bắt đầu suy ngẫm mới",
+    "aligned": "Căn chỉnh"
   },
   "values": {
     "Family": "Gia đình",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài",
+  "app_duration": "5 phút",
+  "loading": "Đang tải phản chiếu..."
 }

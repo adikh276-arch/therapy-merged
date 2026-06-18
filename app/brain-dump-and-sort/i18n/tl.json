@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Type another thought...",
+  "resume": "Resume",
+  "pause": "Pause",
+  "growth_reminder": "Even tiny steps reduce mental weight. You don",
+  "lang": "lang",
+  "complete_message": "You",
+  "welcome_sub": "Welcome",
+  "clearing_sub": "Mental Clearing",
+  "sorting_sub": "Sorting",
+  "action_sub": "Action Steps",
+  "reflect_sub": "Reflection",
+  "intro": {
+    "viewHistory": "View History"
+  }
 }

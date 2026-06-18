@@ -73,13 +73,13 @@
     "confirmDelete": "Bekræft Slet",
     "cancel": "Annuller",
     "delete": "Slet post",
-    "prompts": [
-      "Et lille øjeblik, der ikke føltes anspændt...",
-      "En indsats, din partner har gjort...",
-      "En egenskab, der har været konstant...",
-      "Intention",
-      "Følelsesmæssig tjek"
-    ]
+    "prompts": {
+      "0": "Et lille øjeblik, der ikke føltes anspændt...",
+      "1": "En indsats, din partner har gjort...",
+      "2": "En egenskab, der har været konstant...",
+      "3": "Intention",
+      "4": "Følelsesmæssig tjek"
+    }
   },
   "common": {
     "get_started": "Get Started",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

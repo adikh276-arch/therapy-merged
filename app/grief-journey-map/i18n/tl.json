@@ -16,23 +16,23 @@
   "btn_one_more": "Isa pang bagay",
   "screen3_tag": "Magiliw na Katotohanan",
   "screen3_title": "Nagkakahalaga ng pag-alam",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Walang deadline",
       "body": "Walang petsa ng pag-expire sa pagkawala. Ang pakiramdam nito makalipas ang ilang buwan o taon ay hindi nangangahulugang natigil ka - nangangahulugan ito na mahal mo."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Magkasalungat na damdamin",
       "body": "Maaari kang makaligtaan ang isang tao at makaramdam ng ginhawa. Maaari kang tumawa at magdalamhati. Ang kalungkutan ay may kabaligtaran."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Pagbabagong-anyo ng Pag-ibig",
       "body": "Ang sakit ay hindi hiwalay sa pag-ibig. Ganoon din, nagbago."
     }
-  ],
+  },
   "btn_finish": "Tapusin ang Pagmumuni-muni",
   "complete_title": "Pinarangalan ang Paglalakbay",
   "complete_message": "Hindi mo na kailangang magpatuloy. Natututo ka lang na dalhin ito nang iba. Ang iyong paglalakbay ay natatangi, may bisa, at malalim na tao.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

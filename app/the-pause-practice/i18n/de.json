@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Was löst dich aus?",
     "desc": "Wähle eine Situation, mit der du dich identifizieren kannst",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Jemand unterbricht mich",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Die Dinge laufen nicht wie geplant",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Ich fühle mich ignoriert",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Ich fühle mich überfordert",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Tipp deine eigene...",
     "button": "Übe Pause →"
   },
   "hold": {
     "title": "Halten zum Pausieren ⏸️",
     "instructions": "Halte den Kreis für 5 Sekunden",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Drücken und halten..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Bleib dran..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "Du machst es..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Fast da..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Das ist die Pause",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "Sonstiges",
+  "lang": "lang"
 }

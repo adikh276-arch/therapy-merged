@@ -1,14 +1,14 @@
 {
   "app_title": "Istirahat Welas Asih",
-  "screen_titles": [
-    "Check-in",
-    "Mengidentifikasi",
-    "Pernapasan",
-    "Kebaikan",
-    "Pergeseran",
-    "Refleksikan",
-    "Lengkap"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Mengidentifikasi",
+    "2": "Pernapasan",
+    "3": "Kebaikan",
+    "4": "Pergeseran",
+    "5": "Refleksikan",
+    "6": "Lengkap"
+  },
   "auth_error": "Sesi autentikasi hilang atau DB tidak dikonfigurasi",
   "save_success": "Refleksi dipertahankan",
   "save_error": "Gagal mempertahankan refleksi",
@@ -25,14 +25,14 @@
   "continue_button": "Lanjutkan",
   "nameit_title": "Tuliskan dengan kata-kata",
   "nameit_subtitle": "Saat ini, saya merasa _______",
-  "emotions_list": [
-    "cemas",
-    "bersalah",
-    "kewalahan",
-    "tegang",
-    "lelah",
-    "sedih"
-  ],
+  "emotions_list": {
+    "0": "cemas",
+    "1": "bersalah",
+    "2": "kewalahan",
+    "3": "tegang",
+    "4": "lelah",
+    "5": "sedih"
+  },
   "label_custom_emotion": "atau ketik sendiri",
   "placeholder_emotion": "1–2 kata",
   "nameit_footer": "Sederhana sudah cukup.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "intro": {
+    "view_past": "Lihat Sesi Sebelumnya"
+  },
+  "history": {
+    "title": "Sejarah Welas Asih Diri",
+    "no_entries": "Tidak ada log kerusakan sebelumnya yang ditemukan."
+  },
+  "loading": "Memuat Riwayat..."
 }

@@ -8,10 +8,10 @@
   },
   "entry": {
     "title": "Gawin natin ito nang paisa-isa. 💛",
-    "description": [
-      "Hindi mo na kailangang ikuwento ang buong kwento mo ngayon. Sapat na ang isang maliit na bahagi.",
-      "Ligtas ka ngayon. Ikaw ang may kontrol sa kung ano ang iyong isinusulat - at kung ano ang hindi."
-    ],
+    "description": {
+      "0": "Hindi mo na kailangang ikuwento ang buong kwento mo ngayon. Sapat na ang isang maliit na bahagi.",
+      "1": "Ligtas ka ngayon. Ikaw ang may kontrol sa kung ano ang iyong isinusulat - at kung ano ang hindi."
+    },
     "breath": "Huminga muna nang dahan-dahan bago tayo magsimula.",
     "button_ready": "Handa na ako",
     "button_history": "Mga Nakaraan na Salaysay",
@@ -21,20 +21,20 @@
     "title": "Isulat kung ano ang pakiramdam okay ✨",
     "subtitle": "Ang iyong mga salita, ang iyong bilis",
     "prompt_label": "Kailangan mo ba ng panimulang punto?",
-    "prompts": [
-      {
+    "prompts": {
+      "0": {
         "text": "Ang pinaka naaalala ko ay...",
         "emoji": "💭"
       },
-      {
+      "1": {
         "text": "Sa oras na iyon, naramdaman ko...",
         "emoji": "🌊"
       },
-      {
+      "2": {
         "text": "Mula noon, napansin ko na...",
         "emoji": "🌱"
       }
-    ],
+    },
     "placeholder": "Simulan ang pagsusulat dito ...",
     "notice": "Walang tamang paraan para magawa ito. Kahit ilang linya lang ay sapat na.",
     "button": "Tapusin ang Pagsulat"
@@ -43,10 +43,10 @@
     "title": "May ginawa kang mahalaga.",
     "subtitle": "Salamat sa pagpapakita para sa iyong sarili.",
     "settle_title": "Maglaan tayo ng ilang sandali para mag-ayos",
-    "steps": [
-      "Tumingin sa paligid at banggitin ang tatlong bagay na maaari mong makita.",
-      "Huminga nang mabagal sa... at sa labas."
-    ],
+    "steps": {
+      "0": "Tumingin sa paligid at banggitin ang tatlong bagay na maaari mong makita.",
+      "1": "Huminga nang mabagal sa... at sa labas."
+    },
     "feeling_label": "Sa ngayon, nararamdaman ko:",
     "feeling_placeholder": "Isang salita o dalawa...",
     "quote": "\"Hindi mo kailangang dalhin ang lahat nang sabay-sabay. Maaari kang bumalik sa tuwing sa tingin mo ay handa ka na.\"",
@@ -121,5 +121,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

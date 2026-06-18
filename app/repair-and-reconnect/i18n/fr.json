@@ -31,114 +31,114 @@
     "safety": "Vous n’êtes pas obligé de tout réparer—choisissez simplement une petite étape.",
     "button": "Essayez ceci →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Envoyez un point de contact informel",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Reconnaître la tension",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Laissez-vous un peu d’espace",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Laisse tomber et passe à autre chose",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Réfléchissez-y simplement",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Envoie un message chaleureux",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Nomme honnêtement ce qui s’est passé",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Engagez-vous à mettre en pause la prochaine fois",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Choisis la paix plutôt que d’avoir raison",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Réfléchissez à ce dont vous avez vraiment besoin",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Envoyez un certificat professionnel",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Abordez-le avec respect",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Prévoyez une réponse plus calme la prochaine fois",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Reste professionnel et passe à autre chose",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Réfléchissez aux limites",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Contactez-nous avec un message simple",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Reconnaître ce qui s’est passé",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Prends une pause la prochaine fois",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Laisse tomber pour l’instant",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Réfléchissez simplement (pas encore d’action)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Tendre la main — même imparfaitement — est presque toujours mieux accueilli que ce à quoi nous nous attendons.",
         "howTitle": "Commencez petit",
         "howBody": "Vous n’avez pas besoin d’écrire un essai. Quelques mots honnêtes peuvent ouvrir la porte à une reconnexion.",
-        "prompts": [
-          "Hé, j’ai pensé à toi. J’espère que tu vas bien.",
-          "Je sais que c’était tendu — je voulais juste dire que je tiens à moi.",
-          "Je suis désolé pour tout à l’heure. On peut parler quand tu seras prêt ?"
-        ],
+        "prompts": {
+          "0": "Hé, j’ai pensé à toi. J’espère que tu vas bien.",
+          "1": "Je sais que c’était tendu — je voulais juste dire que je tiens à moi.",
+          "2": "Je suis désolé pour tout à l’heure. On peut parler quand tu seras prêt ?"
+        },
         "promptLabel": "Choisissez un point de départ :",
         "editLabel": "Faites-le vôtre :"
       },
@@ -169,11 +169,11 @@
         "insight": "Les gens n’ont pas besoin que vous soyez parfaits — ils doivent savoir que vous avez remarqué.",
         "howTitle": "Nommez-le doucement",
         "howBody": "Tu peux reconnaître sans prendre toute la responsabilité. Dites simplement ce qui s’est passé honnêtement.",
-        "prompts": [
-          "Je sais que ça s’est intensifié entre nous. Je veux que tu saches que j’ai remarqué.",
-          "Je me rends compte que j’ai peut-être été dur. Ce n’était pas mon intention.",
-          "J’ai réfléchi à ce qui s’est passé, et j’aurais aimé l’avoir géré autrement."
-        ],
+        "prompts": {
+          "0": "Je sais que ça s’est intensifié entre nous. Je veux que tu saches que j’ai remarqué.",
+          "1": "Je me rends compte que j’ai peut-être été dur. Ce n’était pas mon intention.",
+          "2": "J’ai réfléchi à ce qui s’est passé, et j’aurais aimé l’avoir géré autrement."
+        },
         "promptLabel": "Choisissez un point de départ :",
         "editLabel": "Faites-le vôtre :"
       },
@@ -183,11 +183,11 @@
         "insight": "Une pause de 6 secondes suffit souvent à passer de la réaction à la réflexion.",
         "howTitle": "🧘 Plan your pause",
         "howBody": "Pensez à un simple signal — comme prendre une inspiration ou s’éloigner brièvement — avant de répondre.",
-        "prompts": [
-          "La prochaine fois que je me sentirai contrarié, je prendrai une grande inspiration avant de répondre.",
-          "Je vais essayer de dire « Donnez-moi un moment » au lieu de réagir immédiatement.",
-          "Je vais m’éloigner quelques minutes pour rassembler mes pensées."
-        ],
+        "prompts": {
+          "0": "La prochaine fois que je me sentirai contrarié, je prendrai une grande inspiration avant de répondre.",
+          "1": "Je vais essayer de dire « Donnez-moi un moment » au lieu de réagir immédiatement.",
+          "2": "Je vais m’éloigner quelques minutes pour rassembler mes pensées."
+        },
         "promptLabel": "Choisissez un engagement qui vous semble juste :",
         "editLabel": "Écrivez votre propre intention :"
       },
@@ -197,11 +197,11 @@
         "insight": "Lâcher prise n’est pas abandonner — c’est choisir la paix plutôt que d’avoir raison.",
         "howTitle": "🕊️ Relâche doucement",
         "howBody": "Tu n’as pas à oublier. Décide simplement que ça n’a plus besoin de contrôler ce que tu ressens.",
-        "prompts": [
-          "Je choisis de laisser tomber — pas parce que cela n’avait pas d’importance, mais parce que ma paix compte plus que ça.",
-          "Je me défoule du besoin d’avoir raison à ce sujet. Je choisis la connexion.",
-          "Cette situation ne définit pas notre relation. J’avance."
-        ],
+        "prompts": {
+          "0": "Je choisis de laisser tomber — pas parce que cela n’avait pas d’importance, mais parce que ma paix compte plus que ça.",
+          "1": "Je me défoule du besoin d’avoir raison à ce sujet. Je choisis la connexion.",
+          "2": "Cette situation ne définit pas notre relation. J’avance."
+        },
         "promptLabel": "Choisissez ce qui vous parle :",
         "editLabel": "Écrivez ce qui vous semble vrai :"
       },
@@ -211,11 +211,11 @@
         "insight": "Écrire dans un journal ou même réfléchir à ce qui s’est passé vous aide à traiter les émotions sans pression.",
         "howTitle": "🔍 Regarde à l’intérieur",
         "howBody": "Demandez-vous : Qu’est-ce que je ressentais vraiment sous cette colère ? Souvent, c’est de la douleur, de la peur ou de la déception.",
-        "prompts": [
-          "Sous ma colère, je pense que je me sentais blessé.",
-          "Je me rends compte que je réagissais par peur de ne pas être entendu.",
-          "Ce dont j’avais vraiment besoin, c’était de me sentir respecté et valorisé."
-        ],
+        "prompts": {
+          "0": "Sous ma colère, je pense que je me sentais blessé.",
+          "1": "Je me rends compte que je réagissais par peur de ne pas être entendu.",
+          "2": "Ce dont j’avais vraiment besoin, c’était de me sentir respecté et valorisé."
+        },
         "promptLabel": "Choisissez ce qui vous parle :",
         "editLabel": "Rédigez votre propre réflexion :"
       }
@@ -288,5 +288,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

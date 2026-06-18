@@ -16,23 +16,23 @@
   },
   "rule_label": "Menamakan peraturan",
   "rule_question": "Apakah peraturannya?",
-  "rule_options": [
-    "Saya tidak sepatutnya makan selepas masa tertentu",
-    "Sesetengah makanan dilarang",
-    "Saya perlu mengawal bahagian dengan ketat"
-  ],
+  "rule_options": {
+    "0": "Saya tidak sepatutnya makan selepas masa tertentu",
+    "1": "Sesetengah makanan dilarang",
+    "2": "Saya perlu mengawal bahagian dengan ketat"
+  },
   "rule_something_else": "Sesuatu yang lain...",
   "rule_placeholder": "Taipkan peraturan makanan anda...",
   "feeling_label": "Kesan Emosi",
   "feeling_question": "Bagaimana perasaan ini?",
-  "feeling_options": [
-    "😟 Cemas",
-    "😌 Dalam kawalan",
-    "😕 Bersalah",
-    "😣 Terhad",
-    "😴 Letih",
-    "😐 Bercampur"
-  ],
+  "feeling_options": {
+    "0": "😟 Cemas",
+    "1": "😌 Dalam kawalan",
+    "2": "😕 Bersalah",
+    "3": "😣 Terhad",
+    "4": "😴 Letih",
+    "5": "😐 Bercampur"
+  },
   "challenge_label": "Cabaran Lembut",
   "challenge_question": "Soalan perlahan ...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang"
 }

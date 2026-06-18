@@ -1,14 +1,14 @@
 {
   "app_title": "Myötätunnon tauko",
-  "screen_titles": [
-    "Sisäänkirjautuminen",
-    "Tunnista",
-    "Hengitys",
-    "Ystävällisyys",
-    "Vuoro",
-    "Reflect",
-    "Täydellinen"
-  ],
+  "screen_titles": {
+    "0": "Sisäänkirjautuminen",
+    "1": "Tunnista",
+    "2": "Hengitys",
+    "3": "Ystävällisyys",
+    "4": "Vuoro",
+    "5": "Reflect",
+    "6": "Täydellinen"
+  },
   "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
   "save_success": "Heijastus säilynyt",
   "save_error": "Heijastuksen säilyttäminen epäonnistui",
@@ -25,14 +25,14 @@
   "continue_button": "Jatka",
   "nameit_title": "Laita se sanoiksi",
   "nameit_subtitle": "Tällä hetkellä tunnen oloni _______",
-  "emotions_list": [
-    "hermostunut",
-    "Syyllinen",
-    "ylikuormittunut",
-    "aikamuoto",
-    "väsynyt",
-    "Surullinen"
-  ],
+  "emotions_list": {
+    "0": "hermostunut",
+    "1": "Syyllinen",
+    "2": "ylikuormittunut",
+    "3": "aikamuoto",
+    "4": "väsynyt",
+    "5": "Surullinen"
+  },
   "label_custom_emotion": "tai kirjoita itse",
   "placeholder_emotion": "1–2 sanaa",
   "nameit_footer": "Yksinkertaisuus riittää.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  "intro": {
+    "view_past": "Katso aiemmat istunnot"
+  },
+  "history": {
+    "title": "Itsemyötätunnon historia",
+    "no_entries": "Ei löytynyt menneisyyden lokikirjoja."
+  },
+  "loading": "Lataushistoria..."
 }

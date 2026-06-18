@@ -16,23 +16,23 @@
   "btn_one_more": "Encore une chose",
   "screen3_tag": "Douces vérités",
   "screen3_title": "Ça vaut la peine de le savoir",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Pas de date limite",
       "body": "Il n’y a pas de date d’expiration pour la perte. Le ressentir des mois ou des années plus tard ne signifie pas que vous êtes coincé — cela signifie que vous avez aimé."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Sentiments contradictoires",
       "body": "On peut regretter quelqu’un et se sentir soulagé. On peut rire et faire son deuil. Le deuil a des opposés."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "La transformation de l’amour",
       "body": "La douleur n’est pas séparée de l’amour. C’est la même chose, transformée."
     }
-  ],
+  },
   "btn_finish": "Réflexion de finition",
   "complete_title": "Voyage honoré",
   "complete_message": "Tu n’es pas obligé d’avancer. On apprend juste à le porter différemment. Votre parcours est unique, valide et profondément humain.",
@@ -87,5 +87,6 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long"
 }

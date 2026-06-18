@@ -14,7 +14,8 @@
     "input1_placeholder": "例えば、公園を歩く",
     "input2_label": "こうやると、たいてい...",
     "input2_placeholder": "例:落ち着いていて現在にいる",
-    "button": "続けてください"
+    "button": "続けてください",
+    "stage": "ステージ1:リコール"
   },
   "meaning": {
     "title": "何が意味のあるのか?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "例:接続され接地されている場合",
     "input3_label": "思い出すんだ...",
     "input3_placeholder": "例えば、子供時代の夏",
-    "button": "僕の反射を救って"
+    "button": "僕の反射を救って",
+    "stage": "第2段階:意味"
   },
   "smallStep": {
     "title": "小さな一歩前進",
@@ -34,7 +36,8 @@
     "input1_label": "今週私が取れる小さな一歩は...",
     "input1_placeholder": "例えば、10分ほど散歩に行く",
     "button_save": "セーブ",
-    "button_home": "ホームへ"
+    "button_home": "ホームへ",
+    "stage": "ステージ3:アクション"
   },
   "affirmation": {
     "title": "美しい一歩を踏み出した",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い"
 }

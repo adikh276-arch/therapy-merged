@@ -1,12 +1,12 @@
 {
   "app_title": "Caja de la memoria",
-  "screen_titles": [
-    "Tu caja",
-    "Homenaje",
-    "Expresión",
-    "Preservado",
-    "Cuidado Suave"
-  ],
+  "screen_titles": {
+    "0": "Tu caja",
+    "1": "Homenaje",
+    "2": "Expresión",
+    "3": "Preservado",
+    "4": "Cuidado Suave"
+  },
   "complete_title": "Memoria preservada",
   "complete_message": "Has guardado de forma segura un recuerdo de {{name}} en tu caja. Estos momentos de conexión son tuyos, siempre.",
   "auth_error": "Sesión de autenticación ausente o base de datos no configurada",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Escribe su nombre...",
     "placeholder_relation": "¿Cómo los conoces? (opcional)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Un momento feliz",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Algo que solían decir",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Un pequeño recuerdo cotidiano",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Un lugar que te recuerda a ellos",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Algo que me gustaría poder decir",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Continúa →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Seguro Escondido",
     "subtitle": "Este recuerdo de {{name}} ahora forma parte de tu colección.",
     "add_another": "Añadir otro recuerdo",
-    "finish": "Reflexión de acabado"
+    "finish": "Reflexión de acabado",
+    "saved_title": "Protegido"
   },
   "closing": {
     "title": "Cuidando",
@@ -104,7 +105,8 @@
     "phase_label": "Fase",
     "rounds_selector": "{{count}} Rondas",
     "instruction_ready": "Configura tus rondas y toca play para comenzar",
-    "instruction_running": "Sigue el círculo para regular tu respiración"
+    "instruction_running": "Sigue el círculo para regular tu respiración",
+    "confirm_delete": "¿Estás seguro de que quieres borrar este recuerdo?"
   },
   "app_description": "Caja de recuerdos",
   "before_you_go": "Antes de irte",
@@ -142,5 +144,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

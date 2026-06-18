@@ -173,5 +173,10 @@
   "yes": "是的",
   "no": "不",
   "date": "日期",
-  "continue": "繼續"
+  "continue": "繼續",
+  "lang": "長篇",
+  "how_long": "多久",
+  "you_sleep": "你睡吧。",
+  "where": "其中",
+  "you_wake_up": "你是在睡眠週期中醒來的。"
 }

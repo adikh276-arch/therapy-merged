@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "畫布",
+  "2d": "二維",
+  "a": "a",
+  "lang": "長篇",
+  "complete_and_save": "完成並存檔"
 }

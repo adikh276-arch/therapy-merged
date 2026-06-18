@@ -10,52 +10,52 @@
   "scenario": {
     "title": "Ce te declanșează?",
     "desc": "Alege o situație cu care te regăsești",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "Cineva mă întrerupe",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "Lucrurile nu merg conform planului",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "Mă simt ignorată",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "Mă simt copleșit",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "Scrie-ți propriul...",
     "button": "Exersează pauza →"
   },
   "hold": {
     "title": "Ține pe pauză ⏸️",
     "instructions": "Ține cercul timp de 5 secunde",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "Apasă și ține apăsat..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "Rămâi așa..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "O faci..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "Aproape am ajuns..."
       }
-    ]
+    }
   },
   "result": {
     "title": "Asta e pauza",
@@ -121,5 +121,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "other": "altele",
+  "lang": "lung"
 }

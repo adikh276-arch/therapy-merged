@@ -3,11 +3,11 @@
   "intro": {
     "title": "Conoce tu mente",
     "description": "Aprende a distanciarte de los pensamientos abrumadores dándole un nombre a tu voz interior.",
-    "benefits": [
-      "Crea distancia mental",
-      "Reduce el poder de los pensamientos duros",
-      "Observa los pensamientos sin ser ellos"
-    ],
+    "benefits": {
+      "0": "Crea distancia mental",
+      "1": "Reduce el poder de los pensamientos duros",
+      "2": "Observa los pensamientos sin ser ellos"
+    },
     "duration": "2-3 minutos",
     "view_past": "Ver participaciones anteriores"
   },
@@ -45,15 +45,15 @@
       "title": "Crea cierta distancia",
       "desc": "Dale un nombre a tu mente para ayudarte a separarte de esos pensamientos.",
       "placeholder": "O escribe tu propia...",
-      "examples": [
-        "El Crítico",
-        "Sobrepensador",
-        "Worry FM",
-        "La máquina de sobrepensar",
-        "El crítico interior",
-        "El generador de los 'qué pasaría si'",
-        "Director de teatro"
-      ]
+      "examples": {
+        "0": "El Crítico",
+        "1": "Sobrepensador",
+        "2": "Worry FM",
+        "3": "La máquina de sobrepensar",
+        "4": "El crítico interior",
+        "5": "El generador de los 'qué pasaría si'",
+        "6": "Director de teatro"
+      }
     },
     "practice": {
       "title": "Prueba este cambio",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "¿Qué has notado?",
       "desc": "¿Cómo te sentiste el pensamiento después de ponerle nombre?",
-      "options": [
-        "El pensamiento se sentía un poco menos intenso que antes",
-        "Sentía que tenía cierta distancia con ese pensamiento",
-        "Seguía sintiéndose igual de fuerte que antes",
-        "No estoy seguro de qué cambió, si es que cambió algo"
-      ],
+      "options": {
+        "0": "El pensamiento se sentía un poco menos intenso que antes",
+        "1": "Sentía que tenía cierta distancia con ese pensamiento",
+        "2": "Seguía sintiéndose igual de fuerte que antes",
+        "3": "No estoy seguro de qué cambió, si es que cambió algo"
+      },
       "button": "Reflexión completa"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

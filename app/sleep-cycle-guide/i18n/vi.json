@@ -173,5 +173,10 @@
   "yes": "Có",
   "no": "Không",
   "date": "Ngày",
-  "continue": "Tiếp tục"
+  "continue": "Tiếp tục",
+  "lang": "dài",
+  "how_long": "bao lâu ",
+  "you_sleep": "bạn ngủ.",
+  "where": "trong đó ",
+  "you_wake_up": "Bạn thức dậy trong chu kỳ giấc ngủ của mình."
 }

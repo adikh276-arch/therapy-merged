@@ -31,114 +31,114 @@
     "safety": "Bạn không cần phải sửa mọi thứ—chỉ cần chọn một bước nhỏ.",
     "button": "Hãy thử điều này →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Gửi check-in thông thường",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Thừa nhận sự căng thẳng",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Cho nhau một số không gian",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Hãy để nó đi và tiếp tục",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Chỉ cần suy ngẫm về nó",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Gửi một thông điệp ấm áp",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Kể tên những gì đã xảy ra một cách trung thực",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Cam kết tạm dừng vào lần sau",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Chọn hòa bình thay vì đúng",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Suy ngẫm về những gì bạn thực sự cần",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Gửi ghi chú chuyên nghiệp",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Giải quyết nó một cách tôn trọng",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Lên kế hoạch phản hồi bình tĩnh hơn vào lần sau",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Giữ cho nó chuyên nghiệp và tiếp tục",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Suy nghĩ về ranh giới",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Liên hệ với một tin nhắn đơn giản",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Thừa nhận những gì đã xảy ra",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Hãy tạm dừng vào lần sau",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Hãy để nó đi ngay bây giờ",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Chỉ cần suy ngẫm (chưa có hành động)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Việc tìm đến—ngay cả một cách không hoàn hảo—hầu như luôn luôn được đón nhận tốt hơn chúng ta mong đợi.",
         "howTitle": "Bắt đầu nhỏ",
         "howBody": "Bạn không cần phải viết một bài luận. Một vài lời trung thực có thể mở ra cánh cửa để kết nối lại.",
-        "prompts": [
-          "Này, tôi đã nghĩ về bạn. Hy vọng bạn vẫn ổn.",
-          "Tôi biết mọi thứ rất căng thẳng - chỉ muốn nói rằng tôi quan tâm.",
-          "Tôi xin lỗi về trước đó. Chúng ta có thể nói chuyện khi bạn đã sẵn sàng không?"
-        ],
+        "prompts": {
+          "0": "Này, tôi đã nghĩ về bạn. Hy vọng bạn vẫn ổn.",
+          "1": "Tôi biết mọi thứ rất căng thẳng - chỉ muốn nói rằng tôi quan tâm.",
+          "2": "Tôi xin lỗi về trước đó. Chúng ta có thể nói chuyện khi bạn đã sẵn sàng không?"
+        },
         "promptLabel": "Chọn điểm bắt đầu:",
         "editLabel": "Biến nó thành của bạn:"
       },
@@ -169,11 +169,11 @@
         "insight": "Mọi người không cần bạn trở nên hoàn hảo – họ cần biết bạn đã nhận thấy.",
         "howTitle": "Đặt tên nhẹ nhàng",
         "howBody": "Bạn có thể thừa nhận mà không nhận tất cả trách nhiệm. Chỉ cần kể tên những gì đã xảy ra một cách trung thực.",
-        "prompts": [
-          "Tôi biết mọi thứ trở nên nóng bỏng giữa chúng tôi. Tôi muốn bạn biết tôi đã nhận thấy.",
-          "Tôi nhận ra rằng tôi có thể đã gặp phải một cách khắc nghiệt. Đó không phải là ý định của tôi.",
-          "Tôi đã suy ngẫm về những gì đã xảy ra, và tôi ước mình đã xử lý nó theo cách khác."
-        ],
+        "prompts": {
+          "0": "Tôi biết mọi thứ trở nên nóng bỏng giữa chúng tôi. Tôi muốn bạn biết tôi đã nhận thấy.",
+          "1": "Tôi nhận ra rằng tôi có thể đã gặp phải một cách khắc nghiệt. Đó không phải là ý định của tôi.",
+          "2": "Tôi đã suy ngẫm về những gì đã xảy ra, và tôi ước mình đã xử lý nó theo cách khác."
+        },
         "promptLabel": "Chọn điểm bắt đầu:",
         "editLabel": "Biến nó thành của bạn:"
       },
@@ -183,11 +183,11 @@
         "insight": "Khoảng dừng 6 giây thường đủ để chuyển từ phản ứng sang phản ánh.",
         "howTitle": "🧘 Lập kế hoạch tạm dừng",
         "howBody": "Hãy nghĩ về một tín hiệu đơn giản - như hít thở hoặc bước ra xa một thời gian ngắn - trước khi trả lời.",
-        "prompts": [
-          "Lần tới khi tôi cảm thấy khó chịu, tôi sẽ hít một hơi thật sâu trước khi trả lời.",
-          "Tôi sẽ cố gắng nói 'Hãy cho tôi một chút thời gian' thay vì phản ứng ngay lập tức.",
-          "Tôi sẽ bước ra ngoài vài phút để thu thập suy nghĩ của mình."
-        ],
+        "prompts": {
+          "0": "Lần tới khi tôi cảm thấy khó chịu, tôi sẽ hít một hơi thật sâu trước khi trả lời.",
+          "1": "Tôi sẽ cố gắng nói 'Hãy cho tôi một chút thời gian' thay vì phản ứng ngay lập tức.",
+          "2": "Tôi sẽ bước ra ngoài vài phút để thu thập suy nghĩ của mình."
+        },
         "promptLabel": "Chọn một cam kết phù hợp:",
         "editLabel": "Viết ý định của riêng bạn:"
       },
@@ -197,11 +197,11 @@
         "insight": "Buông bỏ không phải là bỏ cuộc - đó là chọn hòa bình thay vì đúng.",
         "howTitle": "🕊️ Thả nhẹ nhàng",
         "howBody": "Bạn không cần phải quên. Chỉ cần quyết định rằng điều này không cần phải kiểm soát cảm giác của bạn nữa.",
-        "prompts": [
-          "Tôi chọn để điều này qua đi - không phải vì nó không quan trọng, mà vì sự bình an của tôi quan trọng hơn.",
-          "Tôi giải phóng nhu cầu phải đúng về điều này. Tôi chọn kết nối.",
-          "Tình huống này không xác định mối quan hệ của chúng ta. Tôi đang tiến về phía trước."
-        ],
+        "prompts": {
+          "0": "Tôi chọn để điều này qua đi - không phải vì nó không quan trọng, mà vì sự bình an của tôi quan trọng hơn.",
+          "1": "Tôi giải phóng nhu cầu phải đúng về điều này. Tôi chọn kết nối.",
+          "2": "Tình huống này không xác định mối quan hệ của chúng ta. Tôi đang tiến về phía trước."
+        },
         "promptLabel": "Chọn những gì gây được tiếng vang:",
         "editLabel": "Viết điều cảm thấy đúng đối với em:"
       },
@@ -211,11 +211,11 @@
         "insight": "Viết nhật ký hoặc thậm chí suy nghĩ về những gì đã xảy ra giúp bạn xử lý cảm xúc mà không bị áp lực.",
         "howTitle": "🔍 Nhìn vào bên trong",
         "howBody": "Hãy tự hỏi bản thân: Tôi thực sự cảm thấy gì bên dưới sự tức giận? Thường thì đó là tổn thương, sợ hãi hoặc thất vọng.",
-        "prompts": [
-          "Bên dưới sự tức giận của mình, tôi nghĩ rằng tôi đang cảm thấy bị tổn thương.",
-          "Tôi nhận ra rằng tôi đã phản ứng vì sợ không được lắng nghe.",
-          "Điều tôi thực sự cần là cảm thấy được tôn trọng và có giá trị."
-        ],
+        "prompts": {
+          "0": "Bên dưới sự tức giận của mình, tôi nghĩ rằng tôi đang cảm thấy bị tổn thương.",
+          "1": "Tôi nhận ra rằng tôi đã phản ứng vì sợ không được lắng nghe.",
+          "2": "Điều tôi thực sự cần là cảm thấy được tôn trọng và có giá trị."
+        },
         "promptLabel": "Chọn những gì gây được tiếng vang:",
         "editLabel": "Viết suy ngẫm của riêng bạn:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

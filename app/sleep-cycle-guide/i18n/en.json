@@ -173,5 +173,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "how_long": "how long ",
+  "you_sleep": "you sleep.",
+  "where": "where ",
+  "you_wake_up": "you wake up inside your sleep cycles."
 }

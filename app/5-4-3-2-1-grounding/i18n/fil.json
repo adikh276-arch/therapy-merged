@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Sandaling paghinto.\n\nSa susunod na minuto, wala kang kailangang solusyunan, ayusin, o tugunan. Hayaan mo lang ang iyong sarili na huminahon.\n\nUmupo nang kumportable, ilagay ang iyong mga paa sa lupa kung kaya mo, at dahan-dahang huminga nang dahan-dahan... at dahan-dahang huminga palabas.\n\nIto ang iyong sandali upang i-reset at makipag-ugnayan muli sa kasalukuyan.",
       "button": "Simulan"
     },
-    {
+    "1": {
       "heading": "5 Bagay na Maari Mong Makita",
       "body": "Dahan-dahang tumingin sa paligid. Hayaang gumalaw nang marahan ang iyong mga mata sa kabuuan ng espasyo. Pansinin ang mga kulay, hugis, liwanag, anino, o maliliit na detalye na maaaring hindi mo pa napapansin noon.",
       "button": "Susunod"
     },
-    {
+    "2": {
       "heading": "4 na Bagay na Maaari Mong Maramdaman",
       "body": "Ituon ang iyong atensyon sa iyong katawan. Damhin ang iyong mga paa na dumadampi sa sahig, ang iyong likod sa upuan, ang iyong mga damit sa iyong balat, o ang hangin sa paligid mo. Kilalanin ang apat na pisikal na sensasyon.",
       "button": "Susunod"
     },
-    {
+    "3": {
       "heading": "3 Bagay na Maaari Mong Maririnig",
       "body": "Makinig nang mabuti. Maaari kang makarinig ng mga tunog mula sa malayo, bentilador, pagta-type, paghinga, o kahit katahimikan. Tukuyin ang tatlong tunog nang hindi hinuhusgahan ang mga ito.",
       "button": "Susunod"
     },
-    {
+    "4": {
       "heading": "2 Bagay na Maaamoy Mo",
       "body": "Tingnan mo kung may maamoy ka sa silid. Kung walang mapapansin, pansinin mo lang ang neutral na amoy ng hangin sa paligid mo.",
       "button": "Susunod"
     },
-    {
+    "5": {
       "heading": "1 Bagay na Matitikman Mo",
       "body": "Bigyang-pansin ang lasa sa iyong bibig. Maaari itong banayad o neutral — obserbahan lamang ito.",
       "button": "Susunod"
     },
-    {
+    "6": {
       "heading": "Repleksyon",
       "body": "Huminga nang dahan-dahan... at dahan-dahang huminga palabas.",
       "button": "Isumite"
     }
-  ],
+  },
   "common": {
     "thank_you": "Salamat",
     "you_feel": "Pakiramdam mo:",
@@ -95,5 +95,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "mahaba",
+  "\\n\\n": "\\n\\n"
 }

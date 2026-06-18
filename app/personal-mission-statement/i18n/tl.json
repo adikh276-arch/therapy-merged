@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "intro_benefit_1": "Gain absolute clarity on your core beliefs",
+  "intro_benefit_2": "Set clear targets for personal transformation",
+  "reflection_subtitle": "Draft your aspirations. Fill out the core components of your purpose.",
+  "mission_your_statement": "Your Statement",
+  "saving": "Saving...",
+  "mission_save_finish": "Save & Finish",
+  "mission_share": "Share",
+  "mission_start_over": "Start Over",
+  "loading": "Loading declarations...",
+  "app": {
+    "startActivity": "Create Mission"
+  }
 }

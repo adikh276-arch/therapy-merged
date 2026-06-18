@@ -1,15 +1,15 @@
 {
   "app_title": "Mapa de Comida e Emoção",
-  "screen_titles": [
-    "Bem-vindo",
-    "Padrões Alimentares",
-    "Diálogo Interno",
-    "Sensoriamento Físico",
-    "O Mapa",
-    "Suporte Suave",
-    "Final Look",
-    "Refletindo"
-  ],
+  "screen_titles": {
+    "0": "Bem-vindo",
+    "1": "Padrões Alimentares",
+    "2": "Diálogo Interno",
+    "3": "Sensoriamento Físico",
+    "4": "O Mapa",
+    "5": "Suporte Suave",
+    "6": "Final Look",
+    "7": "Refletindo"
+  },
   "welcome_text": "Ei... Fico muito feliz que você esteja aqui 💛. Vamos mapear suavemente o que tem acontecido.",
   "coming_up_label": "O que está acontecendo ultimamente?",
   "begin_mapping": "Comece a Mapear",
@@ -32,36 +32,36 @@
   "auth_error": "Sessão de autenticação ausente ou banco de dados não configurado",
   "save_success": "Padrão preservado",
   "save_error": "Não preservou o padrão",
-  "emotions_list": [
-    "😰 Estresse",
-    "😢 Tristeza",
-    "😶 Tédio",
-    "😟 Ansiedade",
-    "🥺 Solidão",
-    "💭 Outra coisa..."
-  ],
-  "food_responses": [
-    "🍽️ Eu como mais",
-    "🚫 Eu como menos",
-    "🍫 Tenho vontade de comer alimentos específicos",
-    "😣 Eu evito comida",
-    "😐 Nenhuma mudança real"
-  ],
-  "body_sensations": [
-    "💔 Peito apertado",
-    "🪨 Sensação pesada",
-    "🦵 Inquieto / inquieto",
-    "🔋 Baixa energia",
-    "🌀 Nós no estômago",
-    "❓ Outra coisa..."
-  ],
-  "support_options": [
-    "🗣️ Converse com alguém",
-    "☕ Faça uma pausa",
-    "📝 Revista",
-    "🌬️ Respire",
-    "🎧 Me distrair"
-  ],
+  "emotions_list": {
+    "0": "😰 Estresse",
+    "1": "😢 Tristeza",
+    "2": "😶 Tédio",
+    "3": "😟 Ansiedade",
+    "4": "🥺 Solidão",
+    "5": "💭 Outra coisa..."
+  },
+  "food_responses": {
+    "0": "🍽️ Eu como mais",
+    "1": "🚫 Eu como menos",
+    "2": "🍫 Tenho vontade de comer alimentos específicos",
+    "3": "😣 Eu evito comida",
+    "4": "😐 Nenhuma mudança real"
+  },
+  "body_sensations": {
+    "0": "💔 Peito apertado",
+    "1": "🪨 Sensação pesada",
+    "2": "🦵 Inquieto / inquieto",
+    "3": "🔋 Baixa energia",
+    "4": "🌀 Nós no estômago",
+    "5": "❓ Outra coisa..."
+  },
+  "support_options": {
+    "0": "🗣️ Converse com alguém",
+    "1": "☕ Faça uma pausa",
+    "2": "📝 Revista",
+    "3": "🌬️ Respire",
+    "4": "🎧 Me distrair"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Entre em contato 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Você tem certeza de que quer deletar esse mapeamento?"
   },
   "app_description": "Mapa de Alimentação e Emoções",
   "more": "Mais",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo",
+  "view_weekly": "Veja o Histórico do Mapa",
+  " ": " "
 }

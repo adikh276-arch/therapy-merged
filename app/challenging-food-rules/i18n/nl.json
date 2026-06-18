@@ -16,23 +16,23 @@
   },
   "rule_label": "Het benoemen van de regel",
   "rule_question": "Wat is de regel?",
-  "rule_options": [
-    "Ik zou na een bepaald tijdstip niet moeten eten",
-    "Sommige voedingsmiddelen zijn verboden terrein",
-    "Ik moet de delen strikt controleren"
-  ],
+  "rule_options": {
+    "0": "Ik zou na een bepaald tijdstip niet moeten eten",
+    "1": "Sommige voedingsmiddelen zijn verboden terrein",
+    "2": "Ik moet de delen strikt controleren"
+  },
   "rule_something_else": "Iets anders...",
   "rule_placeholder": "Typ je voedselregel...",
   "feeling_label": "Emotionele impact",
   "feeling_question": "Hoe voelt dit?",
-  "feeling_options": [
-    "😟 Angstig",
-    "😌 In controle",
-    "😕 Schuldig",
-    "😣 Beperkt",
-    "😴 Moe",
-    "😐 Gemengd"
-  ],
+  "feeling_options": {
+    "0": "😟 Angstig",
+    "1": "😌 In controle",
+    "2": "😕 Schuldig",
+    "3": "😣 Beperkt",
+    "4": "😴 Moe",
+    "5": "😐 Gemengd"
+  },
   "challenge_label": "Zachte Uitdaging",
   "challenge_question": "Zachte vraag...",
   "reflections": {
@@ -104,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

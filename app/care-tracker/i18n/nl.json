@@ -33,13 +33,16 @@
     "intro": {
       "title": "Zelfzorgtracker",
       "description": "Houd je dagelijkse zelfzorggedrag bij en kijk hoe ze je algehele welzijn beïnvloeden. Consistentie is de sleutel tot een gezondere geest.",
-      "benefits": [
-        "Registreer dagelijkse zelfzorgactiviteiten",
-        "Houd de tijd bij die je aan jezelf besteedt",
-        "Houd je stemmingspatronen in de gaten",
-        "Bekijk geschiedenis en voortgang"
-      ],
-      "duration": "2-3 minuten"
+      "benefits": {
+        "0": "Registreer dagelijkse zelfzorgactiviteiten",
+        "1": "Houd de tijd bij die je aan jezelf besteedt",
+        "2": "Houd je stemmingspatronen in de gaten",
+        "3": "Bekijk geschiedenis en voortgang"
+      },
+      "duration": "2-3 minuten",
+      "benefit1": "Registreer dagelijks fysieke en mentale gezondheidshandelingen",
+      "benefit2": "Let op uitdagingen die je van rust weerhouden",
+      "benefit3": "Bouw mindfulness op door positieve bekrachtiging"
     },
     "checkin": {
       "title": "Zelfzorg check-in 🌿",
@@ -135,20 +138,20 @@
       "Stressed": "Gestrest",
       "Tired": "Moe"
     },
-    "positiveStatements": [
-      "Je bent vandaag voor jezelf gekomen. Dat is krachtig. 🌿",
-      "Zelfzorg is niet egoïstisch — het is essentieel. Goed gedaan. 💚",
-      "Elke kleine daad van zorg bouwt een sterkere jij op. 🌱",
-      "Je hebt vandaag in jezelf geïnvesteerd. Dat is belangrijk. ✨",
-      "Voor jezelf zorgen is het beste wat je vandaag hebt gedaan. 🍃"
-    ],
-    "supportiveStatements": [
-      "Het is oké. Morgen is een frisse start. Wees zacht voor jezelf. 🤍",
-      "Niet elke dag zal perfect zijn, en dat is helemaal prima. 🕊️",
-      "Je doet je best. Dat is altijd genoeg. 💛",
-      "Rust is ook een vorm van zelfzorg. Wees mild voor jezelf. 🌸",
-      "Vandaag erkennen vergt moed. Je groeit al. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Je bent vandaag voor jezelf gekomen. Dat is krachtig. 🌿",
+      "1": "Zelfzorg is niet egoïstisch — het is essentieel. Goed gedaan. 💚",
+      "2": "Elke kleine daad van zorg bouwt een sterkere jij op. 🌱",
+      "3": "Je hebt vandaag in jezelf geïnvesteerd. Dat is belangrijk. ✨",
+      "4": "Voor jezelf zorgen is het beste wat je vandaag hebt gedaan. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Het is oké. Morgen is een frisse start. Wees zacht voor jezelf. 🤍",
+      "1": "Niet elke dag zal perfect zijn, en dat is helemaal prima. 🕊️",
+      "2": "Je doet je best. Dat is altijd genoeg. 💛",
+      "3": "Rust is ook een vorm van zelfzorg. Wees mild voor jezelf. 🌸",
+      "4": "Vandaag erkennen vergt moed. Je groeit al. 🌷"
+    }
   },
   "app_title": "Tracker voor zelfzorg",
   "app_description": "Houd je dagelijkse zelfzorggewoonten bij en zie hoe ze je algehele welzijn beïnvloeden. Consistentie is de sleutel tot een gezondere geest.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

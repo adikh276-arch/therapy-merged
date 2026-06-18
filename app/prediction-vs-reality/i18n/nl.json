@@ -4,11 +4,11 @@
   "intro": {
     "title": "Voorspelling versus Realiteit",
     "description": "Vergelijk je angstige voorspellingen met wat er daadwerkelijk gebeurt om een meer evenwichtig perspectief op te bouwen.",
-    "benefits": [
-      "Identificeer angstpatronen",
-      "Verzamel bewijs tegen angsten",
-      "Verminder toekomstige overdenken"
-    ],
+    "benefits": {
+      "0": "Identificeer angstpatronen",
+      "1": "Verzamel bewijs tegen angsten",
+      "2": "Verminder toekomstige overdenken"
+    },
     "duration": "4-5 minuten",
     "view_past": "Bekijk eerdere reflecties"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Er zijn nog geen reflecties opgeslagen.",
     "prediction_label": "Voorspelling",
     "reality_label": "Werkelijkheid",
-    "reflection_label": "Reflectie:"
+    "reflection_label": "Reflectie:",
+    "past_logs": "Eerdere Overdenkingen",
+    "reframe_label": "Nieuwe Evenwichtige Kijk:"
   },
   "complete": {
     "title": "Activiteit voltooid",
     "saved_title": "Reflectie gered",
     "message": "Door naar de feiten te kijken, help je je geest te leren dat dingen vaak beter beheersbaar zijn dan ze lijken."
   },
-  "emotions": [
-    "Angstig",
-    "Nerveus",
-    "Bang",
-    "Overweldigd",
-    "Onrustig"
-  ],
+  "emotions": {
+    "0": "Angstig",
+    "1": "Nerveus",
+    "2": "Bang",
+    "3": "Overweldigd",
+    "4": "Onrustig"
+  },
   "intensity_labels": {
     "not_intense": "Niet intens",
     "very_intense": "Zeer intens"
   },
-  "comparison_options": [
-    "Het is bijna precies gelopen, zoals ik had verwacht",
-    "Sommige delen klopten, maar niet alles",
-    "Het was heel anders dan ik had verwacht",
-    "Het was veel makkelijker/beter dan ik had gedacht"
-  ],
+  "comparison_options": {
+    "0": "Het is bijna precies gelopen, zoals ik had verwacht",
+    "1": "Sommige delen klopten, maar niet alles",
+    "2": "Het was heel anders dan ik had verwacht",
+    "3": "Het was veel makkelijker/beter dan ik had gedacht"
+  },
   "screens": {
     "s1": {
       "title": "Denk aan een recente situatie",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Weet je zeker dat je dit voorspellingslogboek wilt verwijderen?"
   },
   "app_description": "Voorspelling versus realiteit",
   "more": "Meer",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

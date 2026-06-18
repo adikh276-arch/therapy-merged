@@ -21,30 +21,31 @@
       "placeholder": "Írj be egy nevet...",
       "button": "Mentési név"
     },
-    "prompts": [
-      "Egy olyan ember, aki örömet hoz",
-      "Egy ember, aki támogat téged",
-      "Egy ember, akivel beszélgethetsz",
-      "Egy ember, akiben megbízol",
-      "Egy ember, aki inspirál téged"
-    ]
+    "prompts": {
+      "0": "Egy olyan ember, aki örömet hoz",
+      "1": "Egy ember, aki támogat téged",
+      "2": "Egy ember, akivel beszélgethetsz",
+      "3": "Egy ember, akiben megbízol",
+      "4": "Egy ember, aki inspirál téged"
+    }
   },
   "reflection": {
     "subtitle": "Végső gondolatok",
     "title": "Mit veszel észre?",
     "p_intro": "Szánj egy pillanatot, hogy nézd meg a körödet. Talán észreveheted:",
-    "list": [
-      "Vannak, akik közelebb érzik magukat, mint mások",
-      "Néhány kapcsolat erősnek tűnik",
-      "Néhányan távolinak vagy bizonytalannak érzik magukat",
-      "Lehetnek hiányosságok — vagy csak néhány jelentős ember"
-    ],
+    "list": {
+      "0": "Vannak, akik közelebb érzik magukat, mint mások",
+      "1": "Néhány kapcsolat erősnek tűnik",
+      "2": "Néhányan távolinak vagy bizonytalannak érzik magukat",
+      "3": "Lehetnek hiányosságok — vagy csak néhány jelentős ember"
+    },
     "italic": "A tudatosság az első lépés a fontos kapcsolatok építésében. 🧘",
     "label": "💭 Van valaki, akivel jobban kapcsolódnál hozzá?",
     "placeholder": "Írd meg ide a gondolataidat...",
     "save_button": "Mentsd meg a visszatükrözést",
     "saving_button": "Megmentem...",
-    "skip_button": "Skip & Finish"
+    "skip_button": "Skip & Finish",
+    "saved_success": "Az interperszonális térképed biztonságosan a naplódban van. Ezeknek a támogató csomópontoknak a fejlesztése segít ellenállónak maradni."
   },
   "history": {
     "title": "A te köreidnek története",
@@ -85,7 +86,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Biztos vagy benne, hogy törölni akarod ezt a körnaplót?"
   },
   "intro_p1": "Az élet különböző pontjain a támogató rendszerünk megváltozhat. 🌱 Néha összekapcsolódva és támogatva érezzük magunkat. Máskor a dolgok távolinak vagy homályosnak tűnhetnek.",
   "intro_p2": "Ez a tevékenység lehetőséget ad arra, hogy megállj és körülnézz a körülötted lévő embereken – és megértsd, kik érzik magukat a köröd részének. 💛",
@@ -118,5 +120,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  " ": " "
 }

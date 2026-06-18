@@ -1,14 +1,14 @@
 {
   "app_title": "Pause de compassion",
-  "screen_titles": [
-    "Enregistrement",
-    "Identifier",
-    "Respiration",
-    "Gentillesse",
-    "Shift",
-    "Réfléchir",
-    "Complet"
-  ],
+  "screen_titles": {
+    "0": "Enregistrement",
+    "1": "Identifier",
+    "2": "Respiration",
+    "3": "Gentillesse",
+    "4": "Shift",
+    "5": "Réfléchir",
+    "6": "Complet"
+  },
   "auth_error": "Session d’authentification manquante ou base de données non configurée",
   "save_success": "Réflexion préservée",
   "save_error": "A échoué à préserver la réflexion",
@@ -25,14 +25,14 @@
   "continue_button": "Continuez",
   "nameit_title": "Mettez-le en mots",
   "nameit_subtitle": "En ce moment, je me sens _______",
-  "emotions_list": [
-    "anxieux",
-    "coupable",
-    "dépassé",
-    "tendu",
-    "fatigué",
-    "triste"
-  ],
+  "emotions_list": {
+    "0": "anxieux",
+    "1": "coupable",
+    "2": "dépassé",
+    "3": "tendu",
+    "4": "fatigué",
+    "5": "triste"
+  },
   "label_custom_emotion": "ou taper le tien",
   "placeholder_emotion": "1 à 2 mots",
   "nameit_footer": "La simplicité suffit aussi.",
@@ -111,5 +111,14 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "lang": "long",
+  "intro": {
+    "view_past": "Voir les sessions précédentes"
+  },
+  "history": {
+    "title": "Histoire de l’auto-compassion",
+    "no_entries": "Aucun journal de pause passée trouvé."
+  },
+  "loading": "Historique de chargement..."
 }

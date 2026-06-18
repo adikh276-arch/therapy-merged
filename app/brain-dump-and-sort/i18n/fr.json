@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Oui",
   "no": "Non",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Taper une autre pensée...",
+  "resume": "CV",
+  "pause": "Pause",
+  "growth_reminder": "Même de petits pas réduisent le poids mental. Tu ne le fais pas",
+  "lang": "long",
+  "complete_message": "Toi",
+  "welcome_sub": "Bienvenue",
+  "clearing_sub": "Nettoyage mental",
+  "sorting_sub": "Tri",
+  "action_sub": "Étapes d’action",
+  "reflect_sub": "Réflexion",
+  "intro": {
+    "viewHistory": "Voir l’historique"
+  }
 }

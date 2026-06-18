@@ -1,14 +1,14 @@
 {
   "app_title": "Medfølelsespause",
-  "screen_titles": [
-    "Check-in",
-    "Identificer",
-    "Vejrtrækning",
-    "Venlighed",
-    "Skift",
-    "Reflekter",
-    "Komplet"
-  ],
+  "screen_titles": {
+    "0": "Check-in",
+    "1": "Identificer",
+    "2": "Vejrtrækning",
+    "3": "Venlighed",
+    "4": "Skift",
+    "5": "Reflekter",
+    "6": "Komplet"
+  },
   "auth_error": "Auth-session mangler eller database ikke konfigureret",
   "save_success": "Refleksion bevaret",
   "save_error": "Undlod at bevare refleksionen",
@@ -25,14 +25,14 @@
   "continue_button": "Fortsæt",
   "nameit_title": "Sæt det i ord",
   "nameit_subtitle": "Lige nu føler jeg mig _______",
-  "emotions_list": [
-    "ængstelig",
-    "skyldig",
-    "overvældet",
-    "Tid",
-    "træt",
-    "trist"
-  ],
+  "emotions_list": {
+    "0": "ængstelig",
+    "1": "skyldig",
+    "2": "overvældet",
+    "3": "Tid",
+    "4": "træt",
+    "5": "trist"
+  },
   "label_custom_emotion": "eller skriv din egen",
   "placeholder_emotion": "1–2 ord",
   "nameit_footer": "Simpelt er nok.",
@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang",
+  "intro": {
+    "view_past": "Se tidligere sessioner"
+  },
+  "history": {
+    "title": "Selvmedfølelseshistorie",
+    "no_entries": "Ingen tidligere pauselogge fundet."
+  },
+  "loading": "Indlæsningshistorik..."
 }

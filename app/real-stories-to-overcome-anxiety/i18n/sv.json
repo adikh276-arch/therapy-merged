@@ -7,90 +7,90 @@
   "allStories": "Alla berättelser",
   "backToStories": "Tillbaka till berättelser",
   "nextStory": "Nästa berättelse",
-  "stories": [
-    {
+  "stories": {
+    "0": {
       "name": "Aarav",
       "quote": "Jag trodde att rädslan betydde att något var fel på mig.",
-      "body": [
-        "Jag kände inte till ordet \"ångest\" när jag var yngre – jag kände bara känslan. Mitt bröst kändes trångt, magen gjorde ont, och mitt sinne sa att något dåligt var på väg att hända. Även vanliga dagar kändes farliga. Skolmorgnarna var de svåraste. Jag höll fast vid mina föräldrar, rädd att när de väl lämnade skulle jag inte må bra.",
-        "Jag minns att jag tittade på andra barn och undrade varför de verkade okej. Varför slog inte deras hjärtan som mitt? Varför ville de inte springa hem? Jag kände mig förvirrad och generad. Ibland trodde jag att rädsla betydde att jag var svag eller annorlunda på ett dåligt sätt.",
-        "Med hjälp lärde jag mig långsamt att ångest inte var en brist – det var min hjärna som försökte för hårt att skydda mig. Istället för att kämpa emot eller gömma mig från den, lärde jag mig små sätt att möta den. Vissa dagar innebar det att stanna kvar i klassrummet fem minuter längre. Andra dagar innebar det bara att andas igenom rädslan utan att fly.",
-        "Nu förstår jag något viktigt: mod betyder inte att inte känna sig rädd. Det betyder att stanna, även när du är det. Och varje gång jag stannar blir jag lite starkare."
-      ],
+      "body": {
+        "0": "Jag kände inte till ordet \"ångest\" när jag var yngre – jag kände bara känslan. Mitt bröst kändes trångt, magen gjorde ont, och mitt sinne sa att något dåligt var på väg att hända. Även vanliga dagar kändes farliga. Skolmorgnarna var de svåraste. Jag höll fast vid mina föräldrar, rädd att när de väl lämnade skulle jag inte må bra.",
+        "1": "Jag minns att jag tittade på andra barn och undrade varför de verkade okej. Varför slog inte deras hjärtan som mitt? Varför ville de inte springa hem? Jag kände mig förvirrad och generad. Ibland trodde jag att rädsla betydde att jag var svag eller annorlunda på ett dåligt sätt.",
+        "2": "Med hjälp lärde jag mig långsamt att ångest inte var en brist – det var min hjärna som försökte för hårt att skydda mig. Istället för att kämpa emot eller gömma mig från den, lärde jag mig små sätt att möta den. Vissa dagar innebar det att stanna kvar i klassrummet fem minuter längre. Andra dagar innebar det bara att andas igenom rädslan utan att fly.",
+        "3": "Nu förstår jag något viktigt: mod betyder inte att inte känna sig rädd. Det betyder att stanna, även när du är det. Och varje gång jag stannar blir jag lite starkare."
+      },
       "reflection": "När har du stannat kvar, även när du känt dig rädd?"
     },
-    {
+    "1": {
       "name": "Daniel",
       "quote": "Jag trodde att oro betydde att jag var ansvarsfull.",
-      "body": [
-        "I flera år trodde jag att oro var mitt jobb. Om jag tänkte igenom varje tänkbart problem, förberedde mig för varje utfall och var mentalt alert hela tiden, skulle jag kunna förhindra att saker gick fel. Ångest kändes produktiv. Det kändes ansvarsfullt.",
-        "Men med tiden märkte jag hur utmattad jag var. Mitt sinne stannade aldrig. Även under semestrar eller familjemiddagar planerade, förutspådde eller förebyggde jag mentalt. Att slappna av kändes otryggt. Om jag slutade oroa mig kände jag att jag var vårdslös.",
-        "Till slut insåg jag att ångesten inte skyddade mig – den kontrollerade mig. Terapi hjälpte mig att förstå att osäkerhet är en del av livet, och ingen mängd oro kan eliminera den. Jag började öva på att lägga märke till mina tankar utan att automatiskt tro på dem.",
-        "Att släppa taget om ständig kontroll kändes obekvämt i början. Men sakta öppnade sig utrymmet. Jag började fatta beslut baserat på vad som var viktigt för mig – inte bara vad som kändes säkrast. Ångesten dyker fortfarande upp, men den styr inte längre allt."
-      ],
+      "body": {
+        "0": "I flera år trodde jag att oro var mitt jobb. Om jag tänkte igenom varje tänkbart problem, förberedde mig för varje utfall och var mentalt alert hela tiden, skulle jag kunna förhindra att saker gick fel. Ångest kändes produktiv. Det kändes ansvarsfullt.",
+        "1": "Men med tiden märkte jag hur utmattad jag var. Mitt sinne stannade aldrig. Även under semestrar eller familjemiddagar planerade, förutspådde eller förebyggde jag mentalt. Att slappna av kändes otryggt. Om jag slutade oroa mig kände jag att jag var vårdslös.",
+        "2": "Till slut insåg jag att ångesten inte skyddade mig – den kontrollerade mig. Terapi hjälpte mig att förstå att osäkerhet är en del av livet, och ingen mängd oro kan eliminera den. Jag började öva på att lägga märke till mina tankar utan att automatiskt tro på dem.",
+        "3": "Att släppa taget om ständig kontroll kändes obekvämt i början. Men sakta öppnade sig utrymmet. Jag började fatta beslut baserat på vad som var viktigt för mig – inte bara vad som kändes säkrast. Ångesten dyker fortfarande upp, men den styr inte längre allt."
+      },
       "reflection": "Var förväxlar du oro med ansvar?"
     },
-    {
+    "2": {
       "name": "Rhea",
       "quote": "Jag väntade hela tiden på att känna mig självsäker innan jag levde.",
-      "body": [
-        "Ångest lät som en röst i mitt huvud som aldrig slutade kritisera mig. Den sa att jag skulle göra bort mig, säga fel saker eller bli dömd. Efter samtalen spelade jag upp allt jag sagt igen. Innan händelserna föreställer jag mig värsta tänkbara scenarier.",
-        "Utifrån såg jag självsäker ut. Inombords kände jag mig ständigt på helspänn. Jag väntade hela tiden på att känna mig redo — väntade på att självförtroendet magiskt skulle komma så att jag äntligen kunde tala fritt, söka möjligheter eller visa mig själv.",
-        "Men självförtroendet kom aldrig först.",
-        "Det som förändrade mitt liv var att inse att jag inte behövde eliminera ångest för att gå vidare. Jag kan ta med den. Jag började ta små risker – räckte upp handen, deltog i evenemang, talade ut även om rösten darrade.",
-        "Varje gång jag agerade trots rädsla förändrades något. Jag slutade mäta mig själv efter hur lugn jag kände mig, och började mäta mig själv efter hur modig jag var villig att vara."
-      ],
+      "body": {
+        "0": "Ångest lät som en röst i mitt huvud som aldrig slutade kritisera mig. Den sa att jag skulle göra bort mig, säga fel saker eller bli dömd. Efter samtalen spelade jag upp allt jag sagt igen. Innan händelserna föreställer jag mig värsta tänkbara scenarier.",
+        "1": "Utifrån såg jag självsäker ut. Inombords kände jag mig ständigt på helspänn. Jag väntade hela tiden på att känna mig redo — väntade på att självförtroendet magiskt skulle komma så att jag äntligen kunde tala fritt, söka möjligheter eller visa mig själv.",
+        "2": "Men självförtroendet kom aldrig först.",
+        "3": "Det som förändrade mitt liv var att inse att jag inte behövde eliminera ångest för att gå vidare. Jag kan ta med den. Jag började ta små risker – räckte upp handen, deltog i evenemang, talade ut även om rösten darrade.",
+        "4": "Varje gång jag agerade trots rädsla förändrades något. Jag slutade mäta mig själv efter hur lugn jag kände mig, och började mäta mig själv efter hur modig jag var villig att vara."
+      },
       "reflection": "Vad skulle du prova om du inte väntade tills du kände dig helt redo?"
     },
-    {
+    "3": {
       "name": "Margaret",
       "quote": "Jag förväntade mig inte att ångesten skulle börja i det här skedet av livet.",
-      "body": [
-        "Jag trodde att ångest tillhörde yngre människor. Jag förväntade mig inte att den skulle dyka upp efter pensionen, när livet äntligen hade lugnat ner sig. Men när de hektiska åren tog slut blev mina tankar högre. Varje fysisk känsla kändes oroande. Varje okänt kändes farligt.",
-        "Jag kände mig generad över att ha kämpat. I min ålder trodde jag att jag borde ha allt under kontroll. Jag sökte ständigt efter betryggande – från läkare, från familj, från artiklar online. Tryggheten hjälpte tillfälligt, men rädslan kom alltid tillbaka.",
-        "Till slut förstod jag att trygghet matade cykeln. Med vägledning började jag öva på att sitta med osäkerhet istället för att jaga säkerhet. Jag byggde upp rutiner igen. Jag återknöt kontakten med hobbys. Jag tillät långsamt obehag utan att genast försöka lösa det.",
-        "Idag kommer ångesten fortfarande ibland. Men det definierar mig inte längre. Jag har lärt mig att tillväxt inte har något utgångsdatum – och mod kan komma i alla åldrar."
-      ],
+      "body": {
+        "0": "Jag trodde att ångest tillhörde yngre människor. Jag förväntade mig inte att den skulle dyka upp efter pensionen, när livet äntligen hade lugnat ner sig. Men när de hektiska åren tog slut blev mina tankar högre. Varje fysisk känsla kändes oroande. Varje okänt kändes farligt.",
+        "1": "Jag kände mig generad över att ha kämpat. I min ålder trodde jag att jag borde ha allt under kontroll. Jag sökte ständigt efter betryggande – från läkare, från familj, från artiklar online. Tryggheten hjälpte tillfälligt, men rädslan kom alltid tillbaka.",
+        "2": "Till slut förstod jag att trygghet matade cykeln. Med vägledning började jag öva på att sitta med osäkerhet istället för att jaga säkerhet. Jag byggde upp rutiner igen. Jag återknöt kontakten med hobbys. Jag tillät långsamt obehag utan att genast försöka lösa det.",
+        "3": "Idag kommer ångesten fortfarande ibland. Men det definierar mig inte längre. Jag har lärt mig att tillväxt inte har något utgångsdatum – och mod kan komma i alla åldrar."
+      },
       "reflection": "Vilken del av dig växer fortfarande?"
     },
-    {
+    "4": {
       "name": "Kabir",
       "quote": "Min ångest såg aldrig ut som panik. Det såg ut som produktivitet.",
-      "body": [
-        "Jag vaknade tidigt, arbetade långa timmar och fyllde varje ledig stund med något – nyheter, mejl, telefonsamtal, bakgrundsljud. Om det var tystnad, fyllde jag den. Om det fanns stillhet, undkom jag den.",
-        "För när det blev tyst blev mina tankar högljudda.",
-        "Tänk om något händer min familj? Tänk om jag förlorar mitt jobb? Tänk om jag blir sjuk? Rädslorna var inte konstanta, men de var ihållande. De svävade i bakgrunden och väntade på utrymme.",
-        "Så jag gav dem inget utrymme.",
-        "Jag trodde bara att jag var ambitiös. Driven. Fokuserad. Men under all upptagenhet fanns rastlöshet. Irritation. En känsla som jag aldrig riktigt kunde slappna av.",
-        "En kväll frågade min dotter mig varför jag alltid var \"någon annanstans\" även när jag satt precis bredvid henne. Den frågan stannade kvar hos mig.",
-        "Jag började smått. Två minuter av att sitta utan min telefon. Inga distraktioner. Bara andas. Det kändes outhärdligt i början. Mitt sinne rusade. Min kropp kändes orolig.",
-        "Men jag fortsatte öva.",
-        "Med tiden lärde jag mig att tankar kan vara högljudda utan att vara farliga. Jag behövde inte lösa varje rädsla direkt. Jag behövde inte springa ifrån obehaget.",
-        "Nu jobbar jag fortfarande hårt. Jag bryr mig fortfarande djupt. Men jag tillåter också stunder av stillhet. Och istället för att kännas som ett hot känns de stunderna ibland som frid."
-      ],
+      "body": {
+        "0": "Jag vaknade tidigt, arbetade långa timmar och fyllde varje ledig stund med något – nyheter, mejl, telefonsamtal, bakgrundsljud. Om det var tystnad, fyllde jag den. Om det fanns stillhet, undkom jag den.",
+        "1": "För när det blev tyst blev mina tankar högljudda.",
+        "2": "Tänk om något händer min familj? Tänk om jag förlorar mitt jobb? Tänk om jag blir sjuk? Rädslorna var inte konstanta, men de var ihållande. De svävade i bakgrunden och väntade på utrymme.",
+        "3": "Så jag gav dem inget utrymme.",
+        "4": "Jag trodde bara att jag var ambitiös. Driven. Fokuserad. Men under all upptagenhet fanns rastlöshet. Irritation. En känsla som jag aldrig riktigt kunde slappna av.",
+        "5": "En kväll frågade min dotter mig varför jag alltid var \"någon annanstans\" även när jag satt precis bredvid henne. Den frågan stannade kvar hos mig.",
+        "6": "Jag började smått. Två minuter av att sitta utan min telefon. Inga distraktioner. Bara andas. Det kändes outhärdligt i början. Mitt sinne rusade. Min kropp kändes orolig.",
+        "7": "Men jag fortsatte öva.",
+        "8": "Med tiden lärde jag mig att tankar kan vara högljudda utan att vara farliga. Jag behövde inte lösa varje rädsla direkt. Jag behövde inte springa ifrån obehaget.",
+        "9": "Nu jobbar jag fortfarande hårt. Jag bryr mig fortfarande djupt. Men jag tillåter också stunder av stillhet. Och istället för att kännas som ett hot känns de stunderna ibland som frid."
+      },
       "reflection": "Var i ditt liv fyller du tystnad för att undvika vad den kan avslöja?"
     },
-    {
+    "5": {
       "name": "Nisha",
       "quote": "Jag blev befordrad – och kunde sedan inte sova.",
-      "body": [
-        "Min ångest började efter att något \"bra\" hände.",
-        "Jag blev befordrad. Mer ansvar. Mer synlighet. Fler förväntningar. Alla gratulerade mig. Jag log, tackade dem, firade — och gick sedan hem och kunde inte sova.",
-        "Tänk om jag faktiskt inte är kapabel? Tänk om de inser att de gjort ett misstag? Tänk om jag misslyckas offentligt?",
-        "Ju högre jag klättrade, desto mer exponerad kände jag mig. Varje möte kändes som ett test. Varje litet misstag kändes som bevis på att jag inte hörde hemma. Jag började överarbeta för att kompensera – stannade sent, anmälde mig frivilligt till extra uppgifter, svarade på mejl direkt.",
-        "Utifrån såg jag framgångsrik ut. Inombords kände jag mig som en bedragare som väntade på att bli upptäckt.",
-        "Ångesten skrek inte. Viskade den. Den sa att jag måste vara bättre än alla andra bara för att förtjäna att vara där. Den sa att vila var lathet. Den sa att ett felsteg skulle förstöra allt.",
-        "Brytpunkten var inte dramatisk. Det var en slumpmässig tisdag när jag glömde en liten bilaga i ett mejl — och tillbringade hela kvällen med att spela upp den i huvudet. Det var då jag insåg att det här inte längre var ambition. Det var rädsla.",
-        "Det som långsamt förändrade saker var att lära sig att obehag inte betyder fara. Tillväxt känns ofta som exponering. Nya roller utmanar dig – de betyder inte att du är en bluff.",
-        "Jag började tillåta mig själv att vara en lärande istället för att förvänta mig att vara perfekt. Jag började erkänna när jag inte visste något. Jag låter mig själv ställa frågor.",
-        "Och något överraskande hände.",
-        "Folk respekterade mig mer, inte mindre.",
-        "Nu, när ångesten säger att jag inte hör hemma, tror jag inte automatiskt på det. Jag påminner mig själv: att vara ny på något betyder inte att vara oförmögen. Det betyder att växa.",
-        "Och tillväxt har alltid känts lite obekvämt."
-      ],
+      "body": {
+        "0": "Min ångest började efter att något \"bra\" hände.",
+        "1": "Jag blev befordrad. Mer ansvar. Mer synlighet. Fler förväntningar. Alla gratulerade mig. Jag log, tackade dem, firade — och gick sedan hem och kunde inte sova.",
+        "2": "Tänk om jag faktiskt inte är kapabel? Tänk om de inser att de gjort ett misstag? Tänk om jag misslyckas offentligt?",
+        "3": "Ju högre jag klättrade, desto mer exponerad kände jag mig. Varje möte kändes som ett test. Varje litet misstag kändes som bevis på att jag inte hörde hemma. Jag började överarbeta för att kompensera – stannade sent, anmälde mig frivilligt till extra uppgifter, svarade på mejl direkt.",
+        "4": "Utifrån såg jag framgångsrik ut. Inombords kände jag mig som en bedragare som väntade på att bli upptäckt.",
+        "5": "Ångesten skrek inte. Viskade den. Den sa att jag måste vara bättre än alla andra bara för att förtjäna att vara där. Den sa att vila var lathet. Den sa att ett felsteg skulle förstöra allt.",
+        "6": "Brytpunkten var inte dramatisk. Det var en slumpmässig tisdag när jag glömde en liten bilaga i ett mejl — och tillbringade hela kvällen med att spela upp den i huvudet. Det var då jag insåg att det här inte längre var ambition. Det var rädsla.",
+        "7": "Det som långsamt förändrade saker var att lära sig att obehag inte betyder fara. Tillväxt känns ofta som exponering. Nya roller utmanar dig – de betyder inte att du är en bluff.",
+        "8": "Jag började tillåta mig själv att vara en lärande istället för att förvänta mig att vara perfekt. Jag började erkänna när jag inte visste något. Jag låter mig själv ställa frågor.",
+        "9": "Och något överraskande hände.",
+        "10": "Folk respekterade mig mer, inte mindre.",
+        "11": "Nu, när ångesten säger att jag inte hör hemma, tror jag inte automatiskt på det. Jag påminner mig själv: att vara ny på något betyder inte att vara oförmögen. Det betyder att växa.",
+        "12": "Och tillväxt har alltid känts lite obekvämt."
+      },
       "reflection": "Var blandar du ihop obehag med bevis på att du inte hör hemma?"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Börja om från början",
@@ -147,5 +147,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång",
+  "chooseStoryDesc": "Tryck på en profil för att läsa deras personliga resa av styrka och återhämtning.",
+  "recovery_journey": "Inspirerande resa",
+  "reflection_prompt": "Reflektera över detta"
 }

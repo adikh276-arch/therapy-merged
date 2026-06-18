@@ -42,7 +42,9 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Réglez vos rounds et appuyez sur play pour commencer",
-    "instruction_running": "Suivez le cercle pour réguler votre respiration"
+    "instruction_running": "Suivez le cercle pour réguler votre respiration",
+    "saving": "Sauver...",
+    "saved": "Sauvé"
   },
   "app_duration": "10 à 15 minutes",
   "app_title": "Lettre à moi-même",
@@ -87,5 +89,13 @@
   "yes": "Oui",
   "no": "Non",
   "date": "Date",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "T": "T",
+  "prompts": "Prompts",
+  "need_inspiration": "Besoin d’inspiration ?",
+  "post_writing_reflection": "Réflexion après l’écriture",
+  "reflection_desc": "Reconnaître ses sentiments est une étape puissante dans votre parcours.",
+  "finish_save_reflection": "Finition & Sauvegarde de la réflexion",
+  "lang": "long",
+  "completion_message": "Votre lettre a été sauvegardée en toute sécurité. Prenez un moment pour apprécier vos progrès."
 }

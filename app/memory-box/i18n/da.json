@@ -1,12 +1,12 @@
 {
   "app_title": "Memory Box",
-  "screen_titles": [
-    "Din Boks",
-    "Ære",
-    "Udtrykker",
-    "Bevaret",
-    "Blid pleje"
-  ],
+  "screen_titles": {
+    "0": "Din Boks",
+    "1": "Ære",
+    "2": "Udtrykker",
+    "3": "Bevaret",
+    "4": "Blid pleje"
+  },
   "complete_title": "Bevaret hukommelse",
   "complete_message": "Du har sikkert placeret et minde om {{name}} i din boks. Disse øjeblikke af forbindelse er altid dine at beholde.",
   "auth_error": "Auth-session mangler eller database ikke konfigureret",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Skriv deres navn...",
     "placeholder_relation": "Hvordan kender du dem? (valgfrit)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Et lykkeligt øjeblik",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Noget de plejede at sige",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Et lille hverdagsminde",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Et sted, der minder dig om dem",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Noget jeg ville ønske, jeg kunne sige",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Fortsæt →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Sikkert gemt væk",
     "subtitle": "Dette minde om {{name}} er nu en del af din samling.",
     "add_another": "Tilføj et andet minde",
-    "finish": "Afsluttende refleksion"
+    "finish": "Afsluttende refleksion",
+    "saved_title": "Holdt i sikkerhed"
   },
   "closing": {
     "title": "At tage sig af",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på, at du vil slette dette minde?"
   },
   "app_description": "Hukommelsesboks",
   "before_you_go": "Før du går",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

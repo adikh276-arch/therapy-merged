@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "息を吸って...",
+  "hold_label": "待て...",
+  "exhale_label": "息を吐いて...",
+  "start": "準備",
+  "stop": "やめて",
+  "begin_breathing": "呼吸を始めて",
+  "lang": "長い"
 }

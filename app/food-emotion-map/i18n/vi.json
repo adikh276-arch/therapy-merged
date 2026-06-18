@@ -1,15 +1,15 @@
 {
   "app_title": "Bản đồ ẩm thực và cảm xúc",
-  "screen_titles": [
-    "Chào mừng",
-    "Mẫu thực phẩm",
-    "Đối thoại nội bộ",
-    "Cảm biến vật lý",
-    "Bản đồ",
-    "Hỗ trợ nhẹ nhàng",
-    "Cái nhìn cuối cùng",
-    "Suy ngẫm"
-  ],
+  "screen_titles": {
+    "0": "Chào mừng",
+    "1": "Mẫu thực phẩm",
+    "2": "Đối thoại nội bộ",
+    "3": "Cảm biến vật lý",
+    "4": "Bản đồ",
+    "5": "Hỗ trợ nhẹ nhàng",
+    "6": "Cái nhìn cuối cùng",
+    "7": "Suy ngẫm"
+  },
   "welcome_text": "Này... Tôi thực sự vui vì bạn ở đây 💛 Hãy nhẹ nhàng vạch ra những gì đang xảy ra.",
   "coming_up_label": "Điều gì sắp xảy ra gần đây?",
   "begin_mapping": "Bắt đầu lập bản đồ",
@@ -32,36 +32,36 @@
   "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
   "save_success": "Hoa văn được bảo quản",
   "save_error": "Không bảo toàn được mẫu",
-  "emotions_list": [
-    "😰 Căng thẳng",
-    "😢 Nỗi buồn",
-    "😶 Buồn chán",
-    "😟 Lo lắng",
-    "🥺 Cô đơn",
-    "💭 Một cái gì đó khác..."
-  ],
-  "food_responses": [
-    "🍽️ Tôi ăn nhiều hơn",
-    "🚫 Tôi ăn ít hơn",
-    "🍫 Tôi thèm những món ăn cụ thể",
-    "😣 Tôi tránh thức ăn",
-    "😐 Không có thay đổi thực sự"
-  ],
-  "body_sensations": [
-    "💔 Ngực căng",
-    "🪨 Cảm giác nặng nề",
-    "🦵 Bồn chồn / bồn chồn",
-    "🔋 Năng lượng thấp",
-    "🌀 Nút thắt trong dạ dày",
-    "❓ Một cái gì đó khác..."
-  ],
-  "support_options": [
-    "🗣️ Nói chuyện với ai đó",
-    "☕ Nghỉ ngơi",
-    "📝 Tạp chí",
-    "🌬️ Hít thở",
-    "🎧 Đánh lạc hướng bản thân"
-  ],
+  "emotions_list": {
+    "0": "😰 Căng thẳng",
+    "1": "😢 Nỗi buồn",
+    "2": "😶 Buồn chán",
+    "3": "😟 Lo lắng",
+    "4": "🥺 Cô đơn",
+    "5": "💭 Một cái gì đó khác..."
+  },
+  "food_responses": {
+    "0": "🍽️ Tôi ăn nhiều hơn",
+    "1": "🚫 Tôi ăn ít hơn",
+    "2": "🍫 Tôi thèm những món ăn cụ thể",
+    "3": "😣 Tôi tránh thức ăn",
+    "4": "😐 Không có thay đổi thực sự"
+  },
+  "body_sensations": {
+    "0": "💔 Ngực căng",
+    "1": "🪨 Cảm giác nặng nề",
+    "2": "🦵 Bồn chồn / bồn chồn",
+    "3": "🔋 Năng lượng thấp",
+    "4": "🌀 Nút thắt trong dạ dày",
+    "5": "❓ Một cái gì đó khác..."
+  },
+  "support_options": {
+    "0": "🗣️ Nói chuyện với ai đó",
+    "1": "☕ Nghỉ ngơi",
+    "2": "📝 Tạp chí",
+    "3": "🌬️ Hít thở",
+    "4": "🎧 Đánh lạc hướng bản thân"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Tiếp cận 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bạn có chắc chắn muốn xóa ánh xạ này không?"
   },
   "app_description": "Bản đồ Thực phẩm & Cảm xúc",
   "more": "Hơn",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài",
+  "view_weekly": "Xem lịch sử bản đồ",
+  " ": " "
 }

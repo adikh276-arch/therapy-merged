@@ -1,10 +1,10 @@
 {
   "app_title": "Iemand missen",
-  "subtitles": [
-    "Validatie",
-    "Interne Wijsheid",
-    "Volledig"
-  ],
+  "subtitles": {
+    "0": "Validatie",
+    "1": "Interne Wijsheid",
+    "2": "Volledig"
+  },
   "complete_title": "Helderheid Gewonnen",
   "complete_message": "Het begrijpen van de chemie van iemand missen is de eerste stap naar genezing. Je gevoelens zijn geldig, en je brein doet gewoon zijn werk om te beschermen en te verwerken.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

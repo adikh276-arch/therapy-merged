@@ -10,21 +10,22 @@
   "s2": {
     "tag": "lempeät totuudet",
     "title": "Aivojen selviytymislogiikka",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "Hälytys pysyi päällä",
         "body": "Ylivalppaus ja helposti säikähtäminen eivät ole ylireagointia — aivojesi hälytysjärjestelmä hoitaa tehtävänsä liian hyvin."
       },
-      {
+      "1": {
         "header": "Takautumat ovat muistoja",
         "body": "Laukaisijat vetävät aivosi takaisin, koska ne eivät koskaan saaneet merkkiä uhkan päättymisestä. Se yrittää suojella sinua."
       },
-      {
+      "2": {
         "header": "Taistelemme puolestasi",
         "body": "Jokainen oire oli kerran selviytymisen teko. Aivosi tekivät mitä piti pitääkseen sinut hengissä."
       }
-    ],
-    "healing": "Parantuminen ei ole unohtamista. Kyse on siitä, että autat aivojasi oppimaan, että olet nyt turvassa."
+    },
+    "healing": "Parantuminen ei ole unohtamista. Kyse on siitä, että autat aivojasi oppimaan, että olet nyt turvassa.",
+    "finish_reading": "Viimeistele lukeminen"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  "complete": {
+    "message": "Sinä"
+  }
 }

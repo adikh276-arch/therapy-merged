@@ -5,7 +5,8 @@
     "title": "Auditul tău de somn",
     "description": "Înțelege ce îți afectează somnul și unde pot ajuta schimbările mici.",
     "start_button": "Start Audit",
-    "history_button": "Audituri anterioare"
+    "history_button": "Audituri anterioare",
+    "more_insights": "Înapoi la început"
   },
   "screens": {
     "s1": {
@@ -28,43 +29,43 @@
       }
     }
   },
-  "options": [
-    {
+  "options": {
+    "0": {
       "emoji": "🕐",
       "text": "Mă culc la ore foarte diferite în fiecare seară"
     },
-    {
+    "1": {
       "emoji": "💡",
       "text": "Mediul meu de somn nu este întunecat, liniștit sau confortabil"
     },
-    {
+    "2": {
       "emoji": "📱",
       "text": "Derulez pe telefon chiar înainte să dorm"
     },
-    {
+    "3": {
       "emoji": "☕",
       "text": "Beau cofeină sau alcool aproape de ora de culcare"
     },
-    {
+    "4": {
       "emoji": "😵",
       "text": "Mă trezesc noaptea și mă chinui să adorm la loc"
     },
-    {
+    "5": {
       "emoji": "🧠",
       "text": "Mintea mea aleargă cu gânduri când încerc să dorm"
     },
-    {
+    "6": {
       "emoji": "😔",
       "text": "Rar mă simt odihnit după o noapte de somn"
     }
-  ],
-  "rating_labels": [
-    "Foarte sărac",
-    "Sărac",
-    "Bine",
-    "Bine",
-    "Grozav"
-  ],
+  },
+  "rating_labels": {
+    "0": "Foarte sărac",
+    "1": "Sărac",
+    "2": "Bine",
+    "3": "Bine",
+    "4": "Grozav"
+  },
   "status_labels": {
     "track": "Mai mult pe pistă",
     "disruptions": "Unele perturbări",
@@ -142,5 +143,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "2d": "2d",
+  "lang": "lung",
+  "loading": "Istoric de încărcare..."
 }

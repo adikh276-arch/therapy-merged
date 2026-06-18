@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Cyklussen",
       "title": "Løkken forklarede",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Vreden dukker op"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Skam: \"Jeg er dårlig\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Skam bliver begravet"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Vreden bryder ud igen"
         }
-      ],
+      },
       "button": "Jeg kan se det"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Afbrydelse",
       "title": "Afbryd cyklussen",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Nævn kilden",
           "desc": "Spørg: 'Hvad føler jeg egentlig?' Skadet? Bange? Uset? At navngive det svækker det."
         },
-        {
+        "1": {
           "title": "Medfølelsespause",
           "desc": "Hånd på brystet. Sig: 'Det er svært. Jeg er menneske. Jeg kan godt komme igennem det her.'"
         },
-        {
+        "2": {
           "title": "Reparer med ynde",
           "desc": "Gør bod, hvis det er nødvendigt — men undgå at gå i panik. Du er ikke dit værste øjeblik."
         }
-      ],
+      },
       "notice": "At lægge mærke til cyklussen er allerede det første skridt. Du gør arbejdet.",
       "button": "Fuldstændig aktivitet"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

@@ -1,10 +1,10 @@
 {
   "app_title": "Qualcuno mancante",
-  "subtitles": [
-    "Validazione",
-    "Saggezza Interna",
-    "Completa"
-  ],
+  "subtitles": {
+    "0": "Validazione",
+    "1": "Saggezza Interna",
+    "2": "Completa"
+  },
   "complete_title": "Chiarezza acquisita",
   "complete_message": "Capire la chimica della mancanza di qualcuno è il primo passo verso la guarigione. I tuoi sentimenti sono validi e il tuo cervello sta semplicemente facendo il suo lavoro per proteggere ed elaborare.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga"
 }

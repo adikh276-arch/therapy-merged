@@ -1,15 +1,15 @@
 {
   "app_title": "Peta Makanan & Emosi",
-  "screen_titles": [
-    "Selamat datang",
-    "Corak Makanan",
-    "Dialog Dalaman",
-    "Penderiaan Fizikal",
-    "Peta",
-    "Sokongan Lembut",
-    "Pandangan Akhir",
-    "Mencerminkan"
-  ],
+  "screen_titles": {
+    "0": "Selamat datang",
+    "1": "Corak Makanan",
+    "2": "Dialog Dalaman",
+    "3": "Penderiaan Fizikal",
+    "4": "Peta",
+    "5": "Sokongan Lembut",
+    "6": "Pandangan Akhir",
+    "7": "Mencerminkan"
+  },
   "welcome_text": "Hei... Saya sangat gembira anda berada di sini 💛 Mari kita petakan dengan lembut apa yang sedang berlaku.",
   "coming_up_label": "Apa yang akan berlaku sejak kebelakangan ini?",
   "begin_mapping": "Mulakan Pemetaan",
@@ -32,36 +32,36 @@
   "auth_error": "Sesi pengesahan hilang atau DB tidak dikonfigurasikan",
   "save_success": "Corak dipelihara",
   "save_error": "Gagal mengekalkan corak",
-  "emotions_list": [
-    "😰 Tekanan",
-    "😢 Kesedihan",
-    "😶 Kebosanan",
-    "😟 Kebimbangan",
-    "🥺 Kesepian",
-    "💭 Sesuatu yang lain..."
-  ],
-  "food_responses": [
-    "🍽️ Saya makan lebih banyak",
-    "🚫 Saya makan kurang",
-    "🍫 Saya mendambakan makanan tertentu",
-    "😣 Saya mengelakkan makanan",
-    "😐 Tiada perubahan sebenar"
-  ],
-  "body_sensations": [
-    "💔 Dada yang ketat",
-    "🪨 Perasaan berat",
-    "🦵 Gelisah / gelisah",
-    "🔋 Tenaga rendah",
-    "🌀 Simpulan di perut",
-    "❓ Sesuatu yang lain..."
-  ],
-  "support_options": [
-    "🗣️ Bercakap dengan seseorang",
-    "☕ Berehat sebentar",
-    "📝 Jurnal",
-    "🌬️ Bernafas",
-    "🎧 Mengalihkan perhatian diri saya"
-  ],
+  "emotions_list": {
+    "0": "😰 Tekanan",
+    "1": "😢 Kesedihan",
+    "2": "😶 Kebosanan",
+    "3": "😟 Kebimbangan",
+    "4": "🥺 Kesepian",
+    "5": "💭 Sesuatu yang lain..."
+  },
+  "food_responses": {
+    "0": "🍽️ Saya makan lebih banyak",
+    "1": "🚫 Saya makan kurang",
+    "2": "🍫 Saya mendambakan makanan tertentu",
+    "3": "😣 Saya mengelakkan makanan",
+    "4": "😐 Tiada perubahan sebenar"
+  },
+  "body_sensations": {
+    "0": "💔 Dada yang ketat",
+    "1": "🪨 Perasaan berat",
+    "2": "🦵 Gelisah / gelisah",
+    "3": "🔋 Tenaga rendah",
+    "4": "🌀 Simpulan di perut",
+    "5": "❓ Sesuatu yang lain..."
+  },
+  "support_options": {
+    "0": "🗣️ Bercakap dengan seseorang",
+    "1": "☕ Berehat sebentar",
+    "2": "📝 Jurnal",
+    "3": "🌬️ Bernafas",
+    "4": "🎧 Mengalihkan perhatian diri saya"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Hubungi 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Adakah anda pasti anda mahu memadamkan pemetaan ini?"
   },
   "app_description": "Peta Makanan & Emosi",
   "more": "Lebih lanjut",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "panjang",
+  "view_weekly": "Lihat Sejarah Peta",
+  " ": " "
 }

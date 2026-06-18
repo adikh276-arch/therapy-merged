@@ -14,7 +14,8 @@
     "input1_placeholder": "t.ex. promenera i parken",
     "input2_label": "När jag gör så här känner jag mig oftast...",
     "input2_placeholder": "t.ex. lugn och närvarande",
-    "button": "Fortsätt"
+    "button": "Fortsätt",
+    "stage": "Steg 1: Återkallelse"
   },
   "meaning": {
     "title": "Vad gör det meningsfullt?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "t.ex. ansluten och jordad",
     "input3_label": "Det påminner mig om...",
     "input3_placeholder": "t.ex. Summers som barn",
-    "button": "Rädda min spegelbild"
+    "button": "Rädda min spegelbild",
+    "stage": "Steg 2: Betydelse"
   },
   "smallStep": {
     "title": "Ett litet steg framåt",
@@ -34,7 +36,8 @@
     "input1_label": "Ett litet steg jag kan ta den här veckan är...",
     "input1_placeholder": "T.ex. ta en 10-minuters promenad",
     "button_save": "Spara",
-    "button_home": "Gå hem"
+    "button_home": "Gå hem",
+    "stage": "Steg 3: Handling"
   },
   "affirmation": {
     "title": "Du tog ett vackert steg",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

@@ -1,12 +1,12 @@
 {
   "app_title": "Kahon ng Memorya",
-  "screen_titles": [
-    "Ang Iyong Kahon",
-    "Paggalang",
-    "Pagpapahayag",
-    "Napanatili",
-    "Magiliw na Pangangalaga"
-  ],
+  "screen_titles": {
+    "0": "Ang Iyong Kahon",
+    "1": "Paggalang",
+    "2": "Pagpapahayag",
+    "3": "Napanatili",
+    "4": "Magiliw na Pangangalaga"
+  },
   "complete_title": "Napanatili ang Memorya",
   "complete_message": "Inilagay mo na ang isang alaala ng {{name}} sa iyong kahon. Ang mga sandaling ito ng koneksyon ay sa iyo upang panatilihin, palagi.",
   "auth_error": "Nawawala ang session ng auth o hindi naka-configure ang DB",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "I-type ang iyong pangalan ...",
     "placeholder_relation": "Paano mo sila kilala? (opsyonal)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Isang masayang sandali",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Isang bagay na dati nilang sinasabi",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Isang maliit na pang-araw-araw na alaala",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Isang lugar na nagpapaalala sa iyo ng mga ito",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Isang bagay na nais kong sabihin",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Magpatuloy →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Ligtas na nakatago",
     "subtitle": "Bahagi na ngayon ng iyong koleksyon ang alaala na ito ng {{name}}.",
     "add_another": "Magdagdag ng Isa pang Memorya",
-    "finish": "Tapusin ang Pagmumuni-muni"
+    "finish": "Tapusin ang Pagmumuni-muni",
+    "saved_title": "Kept Safe"
   },
   "closing": {
     "title": "Pag-aalaga",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Are you sure you want to delete this memory?"
   },
   "app_description": "Kahon ng Memorya",
   "before_you_go": "Bago ka pumunta",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

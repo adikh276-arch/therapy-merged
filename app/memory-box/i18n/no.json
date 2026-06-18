@@ -1,12 +1,12 @@
 {
   "app_title": "Minneboks",
-  "screen_titles": [
-    "Din boks",
-    "Ære",
-    "Uttrykk",
-    "Bevart",
-    "Forsiktig pleie"
-  ],
+  "screen_titles": {
+    "0": "Din boks",
+    "1": "Ære",
+    "2": "Uttrykk",
+    "3": "Bevart",
+    "4": "Forsiktig pleie"
+  },
   "complete_title": "Minne bevart",
   "complete_message": "Du har trygt plassert et minne av {{name}} i boksen din. Disse øyeblikkene av tilknytning er alltid dine å beholde.",
   "auth_error": "Auth-sesjon mangler eller database ikke konfigurert",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Skriv inn navnet deres...",
     "placeholder_relation": "Hvordan kjenner du dem? (valgfritt)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Et lykkelig øyeblikk",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Noe de pleide å si",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Et lite hverdagsminne",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Et sted som minner deg om dem",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Noe jeg skulle ønske jeg kunne si",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Fortsett →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Trygt gjemt bort",
     "subtitle": "Dette minnet om {{name}} er nå en del av samlingen din.",
     "add_another": "Legg til et nytt minne",
-    "finish": "Ferdig refleksjon"
+    "finish": "Ferdig refleksjon",
+    "saved_title": "Holdt trygg"
   },
   "closing": {
     "title": "Ta vare på",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på at du vil slette dette minnet?"
   },
   "app_description": "Minneboks",
   "before_you_go": "Før du går",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

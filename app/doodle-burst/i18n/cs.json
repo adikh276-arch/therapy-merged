@@ -97,5 +97,10 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "canvas": "plátno",
+  "2d": "2D",
+  "a": "a",
+  "lang": "dlouhý",
+  "complete_and_save": "Dokončit a uložit"
 }

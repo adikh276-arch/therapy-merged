@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Sprijin emoțional",
       "prompt": "Ce fel de sprijin te-ar ajuta cu adevărat acum?",
-      "hints": [
-        "Am nevoie doar de cineva care...",
-        "Ar ajuta dacă...",
-        "Ce vreau cu adevărat este..."
-      ]
+      "hints": {
+        "0": "Am nevoie doar de cineva care...",
+        "1": "Ar ajuta dacă...",
+        "2": "Ce vreau cu adevărat este..."
+      }
     },
     "Space / time for myself": {
       "label": "Spațiu / timp pentru mine",
       "prompt": "Cum ar arăta pentru tine să ai acel spațiu?",
-      "hints": [
-        "Aș folosi timpul ăsta să...",
-        "Spațiul mi-ar permite...",
-        "Am nevoie de spațiu să..."
-      ]
+      "hints": {
+        "0": "Aș folosi timpul ăsta să...",
+        "1": "Spațiul mi-ar permite...",
+        "2": "Am nevoie de spațiu să..."
+      }
     },
     "Clear communication": {
       "label": "Comunicare clară",
       "prompt": "Cum ar arăta o comunicare mai clară pentru tine?",
-      "hints": [
-        "Mi-aș dori să pot spune...",
-        "Dacă ar asculta cu adevărat, le-aș spune...",
-        "Comunicarea pare grea când..."
-      ]
+      "hints": {
+        "0": "Mi-aș dori să pot spune...",
+        "1": "Dacă ar asculta cu adevărat, le-aș spune...",
+        "2": "Comunicarea pare grea când..."
+      }
     },
     "Reassurance": {
       "label": "Reasigurare",
       "prompt": "Ce fel de reasigurare ar avea sens?",
-      "hints": [
-        "Trebuie să aud asta...",
-        "M-ar liniști să știu...",
-        "Tot mă îngrijorez că..."
-      ]
+      "hints": {
+        "0": "Trebuie să aud asta...",
+        "1": "M-ar liniști să știu...",
+        "2": "Tot mă îngrijorez că..."
+      }
     },
     "Understanding": {
       "label": "Înțelegere",
       "prompt": "Cum ar arăta să te simți cu adevărat înțeles?",
-      "hints": [
-        "Mi-aș dori ca oamenii să știe că...",
-        "Ceea ce simt cu adevărat este...",
-        "Nimeni nu vede că eu..."
-      ]
+      "hints": {
+        "0": "Mi-aș dori ca oamenii să știe că...",
+        "1": "Ceea ce simt cu adevărat este...",
+        "2": "Nimeni nu vede că eu..."
+      }
     },
     "Stability": {
       "label": "Stabilitate",
       "prompt": "Cum ar simți stabilitatea în viața ta acum?",
-      "hints": [
-        "Am nevoie ca lucrurile să se simtă...",
-        "Ce m-ar ancora ar fi...",
-        "Stabilitatea înseamnă..."
-      ]
+      "hints": {
+        "0": "Am nevoie ca lucrurile să se simtă...",
+        "1": "Ce m-ar ancora ar fi...",
+        "2": "Stabilitatea înseamnă..."
+      }
     },
     "Honesty": {
       "label": "Onestitate",
       "prompt": "Cum ar arăta mai multă sinceritate în situația ta?",
-      "hints": [
-        "Adevărul pe care trebuie să-l înfrunt este...",
-        "Vreau să fiu sincer despre...",
-        "Ce se întâmplă cu adevărat este..."
-      ]
+      "hints": {
+        "0": "Adevărul pe care trebuie să-l înfrunt este...",
+        "1": "Vreau să fiu sincer despre...",
+        "2": "Ce se întâmplă cu adevărat este..."
+      }
     },
     "Respect": {
       "label": "Respect",
       "prompt": "Cum arată respectul pentru tine acum?",
-      "hints": [
-        "Merit să fiu tratat...",
-        "Respectul ar arăta ca...",
-        "Am nevoie ca oamenii să..."
-      ]
+      "hints": {
+        "0": "Merit să fiu tratat...",
+        "1": "Respectul ar arăta ca...",
+        "2": "Am nevoie ca oamenii să..."
+      }
     },
     "Clarity about relationship": {
       "label": "Claritate despre relație",
       "prompt": "Ce fel de claritate te-ar ajuta cel mai mult?",
-      "hints": [
-        "Trebuie să știu dacă...",
-        "Ce mă derutează este...",
-        "Vreau să fim clari despre..."
-      ]
+      "hints": {
+        "0": "Trebuie să știu dacă...",
+        "1": "Ce mă derutează este...",
+        "2": "Vreau să fim clari despre..."
+      }
     },
     "default": {
       "prompt": "Cum ar arăta asta într-o situație reală?",
-      "hints": [
-        "Ce îmi vine în minte este...",
-        "Acum simt...",
-        "Dacă sunt sincer cu mine însumi..."
-      ]
+      "hints": {
+        "0": "Ce îmi vine în minte este...",
+        "1": "Acum simt...",
+        "2": "Dacă sunt sincer cu mine însumi..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Spune ceva sincer"
     },
-    {
+    "1": {
       "label": "Îmi iau timp pentru mine"
     },
-    {
+    "2": {
       "label": "Contactează pe cineva"
     },
-    {
+    "3": {
       "label": "Stabilește o limită mică"
     },
-    {
+    "4": {
       "label": "Nu sunt sigur încă"
     }
-  ],
+  },
   "history": {
     "title": "Reflecții din trecut",
     "empty": "Nicio reflecție încă."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lung"
 }

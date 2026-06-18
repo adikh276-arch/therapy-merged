@@ -1,10 +1,10 @@
 {
   "app_title": "Tagaplano ng Window ng Pagtulog",
-  "pill_labels": [
-    "Bumuo ng iyong bintana",
-    "Itakda ang Iyong Mga Oras",
-    "Ang iyong window ng pagtulog"
-  ],
+  "pill_labels": {
+    "0": "Bumuo ng iyong bintana",
+    "1": "Itakda ang Iyong Mga Oras",
+    "2": "Ang iyong window ng pagtulog"
+  },
   "screen1": {
     "title": "Ang iyong window ng pagtulog ay mas mahalaga kaysa sa iniisip mo",
     "p1": "Ang window ng pagtulog ay ang takdang oras sa pagitan ng pagtulog at paggising. Ang pagpapanatiling pare-pareho - kahit na sa katapusan ng linggo - ay isa sa mga pinaka-makapangyarihang bagay na maaari mong gawin para sa iyong pagtulog.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 Mga Paraan upang Protektahan Ito",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Magpahinga ng 30 minuto bago ang iyong oras ng pagtulog"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Parehong oras ng paggising araw-araw - oo, katapusan ng linggo din"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Iwasan ang pagtulog nang mas mahaba kaysa sa 20 minuto pagkatapos ng 3pm"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Mangako sa 1 bagay ngayong gabi",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Alisin ang aking telepono bago matulog"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Simulan ang isang Wind-Down Routine"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Patayin ang ilaw isang oras bago matulog"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Tapusin ang aking listahan ng mga dapat gawin nang maaga"
         }
-      ]
+      }
     },
     "quote": "Ang pagkakapare-pareho ay mas makapangyarihan kaysa sa pagiging perpekto. Isang magandang gabi ang bumubuo sa susunod.",
     "button": "I-save ang Aking Window ng Pagtulog ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

@@ -3,11 +3,11 @@
   "intro": {
     "title": "Encontre Sua Mente",
     "description": "Aprenda a se distanciar dos pensamentos avassaladores dando um nome à sua voz interior.",
-    "benefits": [
-      "Crie distância mental",
-      "Reduza o poder dos pensamentos duros",
-      "Perceba os pensamentos sem ser eles"
-    ],
+    "benefits": {
+      "0": "Crie distância mental",
+      "1": "Reduza o poder dos pensamentos duros",
+      "2": "Perceba os pensamentos sem ser eles"
+    },
     "duration": "2-3 minutos",
     "view_past": "Veja Inscrições Anteriores"
   },
@@ -45,15 +45,15 @@
       "title": "Crie alguma distância",
       "desc": "Dê um nome à sua mente para ajudar a se separar desses pensamentos.",
       "placeholder": "Ou digite o seu próprio...",
-      "examples": [
-        "O Crítico",
-        "Pensador excessivo",
-        "Worry FM",
-        "A Máquina de Pensar Demais",
-        "O Crítico Interno",
-        "O Gerador do E Se.",
-        "Diretor de Drama"
-      ]
+      "examples": {
+        "0": "O Crítico",
+        "1": "Pensador excessivo",
+        "2": "Worry FM",
+        "3": "A Máquina de Pensar Demais",
+        "4": "O Crítico Interno",
+        "5": "O Gerador do E Se.",
+        "6": "Diretor de Drama"
+      }
     },
     "practice": {
       "title": "Tente essa mudança",
@@ -66,12 +66,12 @@
     "reflection": {
       "title": "O que você percebeu?",
       "desc": "Como foi o pensamento depois de lhe dar um nome?",
-      "options": [
-        "O pensamento parecia um pouco menos intenso do que antes",
-        "Senti que estava um pouco afastada desse pensamento",
-        "Ainda parecia tão forte quanto antes",
-        "Não sei o que mudou, se é que mudou."
-      ],
+      "options": {
+        "0": "O pensamento parecia um pouco menos intenso do que antes",
+        "1": "Senti que estava um pouco afastada desse pensamento",
+        "2": "Ainda parecia tão forte quanto antes",
+        "3": "Não sei o que mudou, se é que mudou."
+      },
       "button": "Reflexão Completa"
     }
   },
@@ -131,5 +131,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

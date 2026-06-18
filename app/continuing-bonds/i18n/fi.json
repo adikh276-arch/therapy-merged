@@ -31,37 +31,37 @@
   "auth_error": "Auth-istunto puuttuu tai tietokanta ei ole konfiguroitu",
   "save_success": "Säilynyt sidosheijastus",
   "save_error": "Heijastuksen säilyttäminen epäonnistui",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Muistojen kautta",
       "prompt": "Voisitko jakaa muiston, jossa tunnet heidän läsnäolonsa?",
       "deeper": "Mikä on yksi asia niissä, joka jää mieleen?"
     },
-    {
+    "1": {
       "label": "Asioissa, joita sanon tai teen",
       "prompt": "Mitä osaa niistä kannat päivittäisessä elämässäsi?",
       "deeper": "Miten tämä näkyy elämässäsi nykyään?"
     },
-    {
+    "2": {
       "label": "Arjen hetkissä",
       "prompt": "Milloin tunnet niiden olevan lähellä päivän aikana?",
       "deeper": "Mikä on yksi asia niissä, joka jää mieleen?"
     },
-    {
+    "3": {
       "label": "Mitä haluan vielä kertoa heille",
       "prompt": "Onko jotain, mitä haluat vielä sanoa heille?",
       "deeper": "Mitä haluaisit heidän tietävän juuri nyt?"
     },
-    {
+    "4": {
       "label": "Tunteessa tai läsnäolossa",
       "prompt": "Miten heidän läsnäolonsa silti näkyy sinulle?",
       "deeper": "Miten tämä näkyy elämässäsi nykyään?"
     }
-  ],
-  "bond_prompts": [
-    "Mikä on yksi pieni tapa, jolla tunnet yhteyttä heihin tänään?",
-    "Mikä on jotain, mitä teet, joka kantaa osan niistä?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Mikä on yksi pieni tapa, jolla tunnet yhteyttä heihin tänään?",
+    "1": "Mikä on jotain, mitä teet, joka kantaa osan niistä?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Aloita alusta",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Oletko varma, että haluat poistaa tämän heijastuksen?"
   },
   "app_description": "Jatkuvat joukkovelkakirjat",
   "past_reflections": "Menneisyyden pohdintoja",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

@@ -31,114 +31,114 @@
     "safety": "Her şeyi düzeltmek zorunda değilsin—sadece küçük bir adım seç.",
     "button": "Bunu →",
     "approaches": {
-      "friend": [
-        {
+      "friend": {
+        "0": {
           "id": "message",
           "label": "Rahat bir check-in gönderin",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Gerginliği kabul edin",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Birbirinize biraz alan bırakın",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Bırak git ve devam et",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Sadece bir düşünün",
           "emoji": "🪞"
         }
-      ],
-      "family": [
-        {
+      },
+      "family": {
+        "0": {
           "id": "message",
           "label": "Sıcak bir mesaj gönder",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Ne olduğunu dürüstçe söyle",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Bir dahaki sefere duraklatmaya söz verin",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Haklı olmakta barışı tercih et",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Gerçekten neye ihtiyacınız olduğunu düşünün",
           "emoji": "🪞"
         }
-      ],
-      "colleague": [
-        {
+      },
+      "colleague": {
+        "0": {
           "id": "message",
           "label": "Profesyonel bir not gönderin",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Saygıyla ele alın",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Bir dahaki sefere daha sakin bir tepki planlayın",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Profesyonel kalın ve devam edin",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Sınırları düşünün",
           "emoji": "🪞"
         }
-      ],
-      "other": [
-        {
+      },
+      "other": {
+        "0": {
           "id": "message",
           "label": "Basit bir mesajla ulaşın",
           "emoji": "💬"
         },
-        {
+        "1": {
           "id": "acknowledge",
           "label": "Olanları kabul et",
           "emoji": "🫶"
         },
-        {
+        "2": {
           "id": "pause",
           "label": "Bir dahaki sefere durak ver",
           "emoji": "⏸️"
         },
-        {
+        "3": {
           "id": "letgo",
           "label": "Şimdilik bırak gitsin",
           "emoji": "🍃"
         },
-        {
+        "4": {
           "id": "reflect",
           "label": "Sadece düşün (henüz bir eylem yok)",
           "emoji": "🪞"
         }
-      ]
+      }
     }
   },
   "guided_action": {
@@ -155,11 +155,11 @@
         "insight": "Ulaşmak—kusurlu olsa bile—neredeyse her zaman beklediğimizden daha iyi karşılanır.",
         "howTitle": "Küçük başlayın",
         "howBody": "Makale yazmanıza gerek yok. Birkaç dürüst kelime yeniden bağlantı kurmanın kapısını açabilir.",
-        "prompts": [
-          "Hey, seni düşünüyordum. Umarım iyisinizdir.",
-          "Biliyorum, her şey gergindi—sadece umursadığımı söylemek istedim.",
-          "Az önceki için özür dilerim. Hazır olduğunda konuşabilir miyiz?"
-        ],
+        "prompts": {
+          "0": "Hey, seni düşünüyordum. Umarım iyisinizdir.",
+          "1": "Biliyorum, her şey gergindi—sadece umursadığımı söylemek istedim.",
+          "2": "Az önceki için özür dilerim. Hazır olduğunda konuşabilir miyiz?"
+        },
         "promptLabel": "Bir başlangıç noktası seçin:",
         "editLabel": "Kendi yap:"
       },
@@ -169,11 +169,11 @@
         "insight": "İnsanlar mükemmel olman için ihtiyaç duymaz—fark ettiğini bilmeleri gerekir.",
         "howTitle": "Nazik söyle",
         "howBody": "Tüm suçu üstlenmeden kabul edebilirsiniz. Olanları dürüstçe söyle.",
-        "prompts": [
-          "Aramızda geriye gidiyor biliyorum. Fark ettiğimi bilmeni isterim.",
-          "Fark ettim ki sert hissettim. Niyetim bu değildi.",
-          "Olanlar üzerine düşünüyorum ve keşke farklı şekilde ele alsaydım."
-        ],
+        "prompts": {
+          "0": "Aramızda geriye gidiyor biliyorum. Fark ettiğimi bilmeni isterim.",
+          "1": "Fark ettim ki sert hissettim. Niyetim bu değildi.",
+          "2": "Olanlar üzerine düşünüyorum ve keşke farklı şekilde ele alsaydım."
+        },
         "promptLabel": "Bir başlangıç noktası seçin:",
         "editLabel": "Kendi yap:"
       },
@@ -183,11 +183,11 @@
         "insight": "6 saniyelik bir duraklama, tepkiden yansıtmaya geçmek için genellikle yeterlidir.",
         "howTitle": "🧘 Duraklamanızı planlayın",
         "howBody": "Cevap vermeden önce basit bir işaret düşünün—örneğin nefes almak ya da kısa bir adım uzaklaşmak gibi.",
-        "prompts": [
-          "Bir dahaki kez üzgün hissettiğimde, cevap vermeden önce derin bir nefes alacağım.",
-          "Hemen tepki vermek yerine 'Bana bir dakika ver' demeyi deneyeceğim.",
-          "Düşüncelerimi toplamak için birkaç dakika uzaklaşacağım."
-        ],
+        "prompts": {
+          "0": "Bir dahaki kez üzgün hissettiğimde, cevap vermeden önce derin bir nefes alacağım.",
+          "1": "Hemen tepki vermek yerine 'Bana bir dakika ver' demeyi deneyeceğim.",
+          "2": "Düşüncelerimi toplamak için birkaç dakika uzaklaşacağım."
+        },
         "promptLabel": "Doğru hissettiren bir taahhüt seçin:",
         "editLabel": "Kendi niyetinizi yazın:"
       },
@@ -197,11 +197,11 @@
         "insight": "Bırakmak pes etmek değildir—doğru olmaktan çok barışı seçmektir.",
         "howTitle": "🕊️ Nazik bırak",
         "howBody": "Unutmana gerek yok. Artık bunun nasıl hissettiğini kontrol etmemesi gerektiğine karar ver.",
-        "prompts": [
-          "Bunu bırakmayı seçiyorum—önemli olmadığı için değil, huzurum daha önemli olduğu için.",
-          "Bu konuda haklı olma ihtiyacımı bırakıyorum. Bağlantıyı seçiyorum.",
-          "Bu durum ilişkimizi tanımlamıyor. İleriye gidiyorum."
-        ],
+        "prompts": {
+          "0": "Bunu bırakmayı seçiyorum—önemli olmadığı için değil, huzurum daha önemli olduğu için.",
+          "1": "Bu konuda haklı olma ihtiyacımı bırakıyorum. Bağlantıyı seçiyorum.",
+          "2": "Bu durum ilişkimizi tanımlamıyor. İleriye gidiyorum."
+        },
         "promptLabel": "Ne rezonans veriyorsa, seçin:",
         "editLabel": "Sizin için doğru hissettiren şeyleri yazın:"
       },
@@ -211,11 +211,11 @@
         "insight": "Günlük tutmak ya da olanları düşünmek, duyguları baskı olmadan işlemene yardımcı olur.",
         "howTitle": "🔍 İçine bak",
         "howBody": "Kendinize sorun: Öfkenin altında gerçekten ne hissediyordum? Çoğu zaman acı, korku ya da hayal kırıklığıdır.",
-        "prompts": [
-          "Öfkemin altında sanırım incinmiştim.",
-          "Duyulmamak korkusundan tepki verdiğimi fark ettim.",
-          "Gerçekten ihtiyacım olan şey, saygı gördüğümü ve değer gördüğümü hissetmekti."
-        ],
+        "prompts": {
+          "0": "Öfkemin altında sanırım incinmiştim.",
+          "1": "Duyulmamak korkusundan tepki verdiğimi fark ettim.",
+          "2": "Gerçekten ihtiyacım olan şey, saygı gördüğümü ve değer gördüğümü hissetmekti."
+        },
         "promptLabel": "Ne rezonans veriyorsa, seçin:",
         "editLabel": "Kendi yansımanızı yazın:"
       }
@@ -288,5 +288,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "uzun"
 }

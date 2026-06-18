@@ -31,37 +31,37 @@
   "auth_error": "Thiếu phiên xác thực hoặc cơ sở dữ liệu không được định cấu hình",
   "save_success": "Phản chiếu trái phiếu được bảo tồn",
   "save_error": "Không giữ được phản xạ",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Qua ký ức",
       "prompt": "Bạn có thể chia sẻ một kỷ niệm mà bạn cảm nhận được sự hiện diện của họ không?",
       "deeper": "Một điều ở họ ở lại với bạn là gì?"
     },
-    {
+    "1": {
       "label": "Trong những điều tôi nói hoặc làm",
       "prompt": "Bạn mang phần nào của chúng trong cuộc sống hàng ngày?",
       "deeper": "Điều này thể hiện như thế nào trong cuộc sống của bạn ngày nay?"
     },
-    {
+    "2": {
       "label": "Trong những khoảnh khắc của cuộc sống hàng ngày của tôi",
       "prompt": "Khi nào bạn cảm thấy họ gần gũi trong ngày của bạn?",
       "deeper": "Một điều ở họ ở lại với bạn là gì?"
     },
-    {
+    "3": {
       "label": "Trong những gì tôi vẫn muốn nói với họ",
       "prompt": "Có điều gì bạn vẫn muốn nói với họ không?",
       "deeper": "Bạn muốn họ biết điều gì nhất ngay bây giờ?"
     },
-    {
+    "4": {
       "label": "Trong một cảm giác hoặc sự hiện diện",
       "prompt": "Sự hiện diện của họ vẫn hiển thị cho bạn như thế nào?",
       "deeper": "Điều này thể hiện như thế nào trong cuộc sống của bạn ngày nay?"
     }
-  ],
-  "bond_prompts": [
-    "Một cách nhỏ mà bạn cảm thấy kết nối với họ ngày hôm nay là gì?",
-    "Điều gì bạn làm mang một phần của chúng?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Một cách nhỏ mà bạn cảm thấy kết nối với họ ngày hôm nay là gì?",
+    "1": "Điều gì bạn làm mang một phần của chúng?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Bắt đầu lại",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bạn có chắc chắn muốn xóa phản chiếu này không?"
   },
   "app_description": "Mối liên kết bền chặt",
   "past_reflections": "Những suy ngẫm trong quá khứ",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

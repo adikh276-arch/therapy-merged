@@ -1,10 +1,10 @@
 {
   "app_title": "Sömnfönsterplanerare",
-  "pill_labels": [
-    "Bygg ditt fönster",
-    "Sätt dina tider",
-    "Ditt sömnfönster"
-  ],
+  "pill_labels": {
+    "0": "Bygg ditt fönster",
+    "1": "Sätt dina tider",
+    "2": "Ditt sömnfönster"
+  },
   "screen1": {
     "title": "Ditt sömnfönster betyder mer än du tror",
     "p1": "Ett sömnfönster är den fasta tiden mellan att du går och lägger dig och när du vaknar. Att hålla den konsekvent – även på helgerna – är en av de mest kraftfulla sakerna du kan göra för din sömn.",
@@ -41,41 +41,41 @@
     },
     "accordion1": {
       "title": "3 sätt att skydda den",
-      "tips": [
-        {
+      "tips": {
+        "0": {
           "emoji": "📵",
           "text": "Varva ner 30 minuter innan läggdags"
         },
-        {
+        "1": {
           "emoji": "⏰",
           "text": "Samma vakentid varje dag — ja, helger också"
         },
-        {
+        "2": {
           "emoji": "🚫",
           "text": "Undvik tupplurar längre än 20 minuter efter kl 15"
         }
-      ]
+      }
     },
     "accordion2": {
       "title": "Satsa på en sak ikväll",
-      "commitments": [
-        {
+      "commitments": {
+        "0": {
           "emoji": "📵",
           "text": "Lägg undan min telefon innan jag går och lägger mig"
         },
-        {
+        "1": {
           "emoji": "🛁",
           "text": "Starta en varvningsrutin"
         },
-        {
+        "2": {
           "emoji": "💡",
           "text": "Dämpa ljuset en timme innan läggdags"
         },
-        {
+        "3": {
           "emoji": "✍️",
           "text": "Avsluta min att-göra-lista tidigt"
         }
-      ]
+      }
     },
     "quote": "Konsekvens är starkare än perfektion. En bra natt byggs upp, nästa.",
     "button": "Spara mitt sömnfönster ✓",
@@ -143,5 +143,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

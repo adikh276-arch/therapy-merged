@@ -14,7 +14,8 @@
     "input1_placeholder": "למשל, הליכה בפארק",
     "input2_label": "כשאני עושה את זה, בדרך כלל אני מרגיש...",
     "input2_placeholder": "למשל, רגוע ונוכח",
-    "button": "המשך"
+    "button": "המשך",
+    "stage": "שלב 1: זימון"
   },
   "meaning": {
     "title": "מה עושה את זה משמעותי?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "למשל, מחובר ומחובר לאדמה",
     "input3_label": "זה מזכיר לי את...",
     "input3_placeholder": "למשל, סאמרס כילד",
-    "button": "שמור את ההשתקפות שלי"
+    "button": "שמור את ההשתקפות שלי",
+    "stage": "שלב 2: משמעות"
   },
   "smallStep": {
     "title": "צעד קטן קדימה",
@@ -34,7 +36,8 @@
     "input1_label": "צעד קטן שאני יכול לעשות השבוע הוא...",
     "input1_placeholder": "למשל, לצאת להליכה של 10 דקות",
     "button_save": "שמור",
-    "button_home": "לך הביתה"
+    "button_home": "לך הביתה",
+    "stage": "שלב 3: פעולה"
   },
   "affirmation": {
     "title": "עשית צעד יפה",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ארוך"
 }

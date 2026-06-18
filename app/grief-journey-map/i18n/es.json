@@ -16,23 +16,23 @@
   "btn_one_more": "Una cosa más",
   "screen3_tag": "Verdades suaves",
   "screen3_title": "Vale la pena saberlo",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Sin fecha límite",
       "body": "No hay fecha de caducidad para la pérdida. Sentirlo meses o años después no significa que estés atrapado — significa que amaste."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Sentimientos contradictorios",
       "body": "Puedes echar de menos a alguien y sentirte aliviado. Puedes reír y lamentar. El duelo tiene opuestos."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "La transformación del amor",
       "body": "El dolor no está separado del amor. Es lo mismo, transformado."
     }
-  ],
+  },
   "btn_finish": "Reflexión de acabado",
   "complete_title": "Viaje Honrado",
   "complete_message": "No tienes que seguir adelante. Simplemente aprendes a llevarlo de otra manera. Tu camino es único, válido y profundamente humano.",
@@ -87,5 +87,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

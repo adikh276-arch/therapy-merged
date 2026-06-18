@@ -1,10 +1,10 @@
 {
   "app_title": "Savner nogen",
-  "subtitles": [
-    "Validering",
-    "Indre visdom",
-    "Komplet"
-  ],
+  "subtitles": {
+    "0": "Validering",
+    "1": "Indre visdom",
+    "2": "Komplet"
+  },
   "complete_title": "Opnået klarhed",
   "complete_message": "At forstå kemien i at savne nogen er det første skridt mod heling. Dine følelser er gyldige, og din hjerne gør blot sit arbejde for at beskytte og bearbejde.",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

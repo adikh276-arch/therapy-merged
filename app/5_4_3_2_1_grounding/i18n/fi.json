@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Pidetään lyhyt tauko yhdessä.\n\nSeuraavan minuutin ajan ei ole mitään, mitä sinun pitäisi ratkaista, korjata tai vastata. Anna itsesi vain hidastaa.\n\nIstu mukavasti, aseta jalkasi maahan jos voit, ja hengitä lempeästi sisään... ja hengitä hitaasti ulos.\n\nTämä on sinun hetkesi nollata ja yhdistyä nykyhetkeen uudelleen.",
       "button": "Aloita"
     },
-    {
+    "1": {
       "heading": "5 asiaa, jotka voit nähdä",
       "body": "Katso hitaasti ympärillesi. Anna katseesi liikkua lempeästi tilassa. Huomaa värejä, muotoja, valoa, varjoja tai pieniä yksityiskohtia, joihin et ehkä ole aiemmin kiinnittänyt huomiota.",
       "button": "Seuraavaksi"
     },
-    {
+    "2": {
       "heading": "4 asiaa, jotka voit tuntea",
       "body": "Kiinnitä huomiosi kehoosi. Tunne jalkasi koskettavat lattiaa, selkäsi tuolia vasten, vaatteesi ihollasi tai ympäröivän ilman. Tunnusta neljä fyysistä tunnetta.",
       "button": "Seuraavaksi"
     },
-    {
+    "3": {
       "heading": "3 asiaa, joita voit kuulla",
       "body": "Kuuntele tarkasti. Saatat kuulla kaukaisia ääniä, tuuletinta, näppäilyä, hengitystä tai jopa hiljaisuutta. Tunnista kolme ääntä tuomitsematta niitä.",
       "button": "Seuraavaksi"
     },
-    {
+    "4": {
       "heading": "2 asiaa, jotka haistat",
       "body": "Katso, voitko havaita huoneesta hajua. Jos mikään ei erotu, huomaa vain ympärilläsi olevan ilman neutraali tuoksu.",
       "button": "Seuraavaksi"
     },
-    {
+    "5": {
       "heading": "Yksi asia, jonka voit maistaa",
       "body": "Kiinnitä huomiota suussasi olevaan makuun. Se voi olla hienovaraista tai neutraalia — tarkkaile sitä vain.",
       "button": "Seuraavaksi"
     },
-    {
+    "6": {
       "heading": "Heijastus",
       "body": "Hengitä hitaasti sisään... ja hengitä lempeästi ulos.",
       "button": "Lähetä"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Aloita alusta",
@@ -90,5 +90,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "/5-4-3-2-1-grounding": "/5-4-3-2-1-maadoitus"
 }

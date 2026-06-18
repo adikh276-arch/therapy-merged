@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Mai scrie un gând...",
+  "resume": "Recapitulare",
+  "pause": "Pauză",
+  "growth_reminder": "Chiar și pașii mici reduc greutatea mentală. Tu nu",
+  "lang": "lung",
+  "complete_message": "Tu",
+  "welcome_sub": "Bine ai venit",
+  "clearing_sub": "Curățare mentală",
+  "sorting_sub": "Sortare",
+  "action_sub": "Pași de acțiune",
+  "reflect_sub": "Reflecție",
+  "intro": {
+    "viewHistory": "Vezi istoric"
+  }
 }

@@ -10,57 +10,57 @@
       "title": "Schlaf erholsam",
       "description": "Strebe jede Nacht 7–9 Stunden Schlaf an. Versuche, täglich zur gleichen Zeit zu schlafen und aufzuwachen.",
       "why": "Schlaf hilft deinem Gehirn und Körper bei der Erholung und senkt Stresshormone.",
-      "do": [
-        "Halte einen festen Schlafrhythmus",
-        "Vermeide Bildschirme eine Stunde vor dem Schlafengehen",
-        "Halte das Zimmer kühl und dunkel",
-        "Vermeide Koffein nach 16 Uhr"
-      ],
+      "do": {
+        "0": "Halte einen festen Schlafrhythmus",
+        "1": "Vermeide Bildschirme eine Stunde vor dem Schlafengehen",
+        "2": "Halte das Zimmer kühl und dunkel",
+        "3": "Vermeide Koffein nach 16 Uhr"
+      },
       "button": "Schlaferinnerung einstellen"
     },
     "breathing": {
       "title": "Übe tiefes Atmen",
       "description": "Konzentrieren Sie sich ein paar Minuten auf Ihren Atem. Langsames Atmen reduziert die Angst.",
       "why": "Langsames Atmen aktiviert die Entspannungsreaktion deines Körpers.",
-      "do": [
-        "Atme 4 Sekunden lang ein",
-        "4 Sekunden halten",
-        "Atme 4 Sekunden aus",
-        "Wiederhole das für 1 Minute"
-      ]
+      "do": {
+        "0": "Atme 4 Sekunden lang ein",
+        "1": "4 Sekunden halten",
+        "2": "Atme 4 Sekunden aus",
+        "3": "Wiederhole das für 1 Minute"
+      }
     },
     "exercise": {
       "title": "Bewege deinen Körper",
       "description": "Leichtes Spazierengehen oder Dehnen hilft, Stress abzubauen und die Stimmung zu verbessern.",
       "why": "Bewegung setzt Endorphine frei und verbessert die Stimmung.",
-      "do": [
-        "15-minütiger Fußweg",
-        "Leichtes Dehnen",
-        "Kurze Yoga-Session",
-        "Schnelles Workout zu Hause"
-      ]
+      "do": {
+        "0": "15-minütiger Fußweg",
+        "1": "Leichtes Dehnen",
+        "2": "Kurze Yoga-Session",
+        "3": "Schnelles Workout zu Hause"
+      }
     },
     "caffeine": {
       "title": "Koffein und Zucker einschränken",
       "description": "Zu viel Koffein und Zucker kann Angst verstärken und den Schlaf stören.",
       "why": "Zu viel Koffein und Zucker verstärkt Angst und Schlafprobleme.",
-      "do": [
-        "Ersetze einen Kaffee durch Kräutertee",
-        "Trink mehr Wasser",
-        "Reduziere zuckerhaltige Snacks",
-        "Vermeide Koffein spät am Tag"
-      ]
+      "do": {
+        "0": "Ersetze einen Kaffee durch Kräutertee",
+        "1": "Trink mehr Wasser",
+        "2": "Reduziere zuckerhaltige Snacks",
+        "3": "Vermeide Koffein spät am Tag"
+      }
     },
     "planning": {
       "title": "Plane deinen Tag",
       "description": "Teile große Aufgaben in kleinere Schritte auf, um nicht überfordert zu sein.",
       "why": "Planung reduziert mentale Überlastung und Überforderung.",
-      "do": [
-        "Schreibe 3 Hauptaufgaben",
-        "Teile Aufgaben in kleine Schritte auf",
-        "Konzentriere dich auf eine Aufgabe nach der anderen",
-        "Mach kurze Pausen"
-      ]
+      "do": {
+        "0": "Schreibe 3 Hauptaufgaben",
+        "1": "Teile Aufgaben in kleine Schritte auf",
+        "2": "Konzentriere dich auf eine Aufgabe nach der anderen",
+        "3": "Mach kurze Pausen"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "Inhale…": "Einatmen...",
+  "Hold…": "Halt...",
+  "Exhale…": "Ausatmen...",
+  "breathing_instruction": "Folge dem Kreis, um zu regulieren",
+  "Resume": "Lebenslauf",
+  "Pause": "Pause",
+  "lang": "lang",
+  "Grounding": "Mentale Entspannung",
+  "stay_present": "Tipps zur Stressbewältigung",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Wählen Sie unten eine beliebige Zielstrategie, um zu erkunden, warum sie hilft und wie Sie sie täglich anwenden können."
+  },
+  "wellness_tip": "TÄGLICHE STRESSSTRATEGIE"
 }

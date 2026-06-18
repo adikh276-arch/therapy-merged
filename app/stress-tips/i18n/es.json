@@ -10,57 +10,57 @@
       "title": "Duerme bien",
       "description": "Procura dormir entre 7 y 9 horas cada noche. Intenta dormir y despertarte a la misma hora cada día.",
       "why": "El sueño ayuda a que tu cerebro y cuerpo se recuperen y reduce las hormonas del estrés.",
-      "do": [
-        "Mantén un horario de sueño fijo",
-        "Evita las pantallas una hora antes de acostarte",
-        "Mantén la habitación fresca y oscura",
-        "Evita la cafeína después de las 16:00"
-      ],
+      "do": {
+        "0": "Mantén un horario de sueño fijo",
+        "1": "Evita las pantallas una hora antes de acostarte",
+        "2": "Mantén la habitación fresca y oscura",
+        "3": "Evita la cafeína después de las 16:00"
+      },
       "button": "Recordatorio de sueño establecido"
     },
     "breathing": {
       "title": "Practica la respiración profunda",
       "description": "Dedica unos minutos a centrarte en tu respiración. La respiración lenta reduce la ansiedad.",
       "why": "La respiración lenta activa la respuesta de relajación de tu cuerpo.",
-      "do": [
-        "Inhala durante 4 segundos",
-        "Aguanta durante 4 segundos",
-        "Exhala durante 4 segundos",
-        "Repite durante 1 minuto"
-      ]
+      "do": {
+        "0": "Inhala durante 4 segundos",
+        "1": "Aguanta durante 4 segundos",
+        "2": "Exhala durante 4 segundos",
+        "3": "Repite durante 1 minuto"
+      }
     },
     "exercise": {
       "title": "Mueve tu cuerpo",
       "description": "Caminar ligero o estirarse ayuda a liberar el estrés y a mejorar el estado de ánimo.",
       "why": "El ejercicio libera endorfinas y mejora el estado de ánimo.",
-      "do": [
-        "15 minutos andando",
-        "Estiramiento ligero",
-        "Breve sesión de yoga",
-        "Entrenamiento rápido en casa"
-      ]
+      "do": {
+        "0": "15 minutos andando",
+        "1": "Estiramiento ligero",
+        "2": "Breve sesión de yoga",
+        "3": "Entrenamiento rápido en casa"
+      }
     },
     "caffeine": {
       "title": "Limita la cafeína y el azúcar",
       "description": "Demasiada cafeína y azúcar puede aumentar la ansiedad y alterar el sueño.",
       "why": "Demasiada cafeína y azúcar aumenta la ansiedad y los problemas de sueño.",
-      "do": [
-        "Sustituye un café por té de hierbas",
-        "Bebe más agua",
-        "Reduce los aperitivos azucarados",
-        "Evita la cafeína a última hora del día"
-      ]
+      "do": {
+        "0": "Sustituye un café por té de hierbas",
+        "1": "Bebe más agua",
+        "2": "Reduce los aperitivos azucarados",
+        "3": "Evita la cafeína a última hora del día"
+      }
     },
     "planning": {
       "title": "Planifica tu día",
       "description": "Divide las tareas grandes en pasos más pequeños para evitar sentirte abrumado.",
       "why": "Planificar reduce el desorden mental y el sobrecarga.",
-      "do": [
-        "Escribe 3 tareas principales",
-        "Divide las tareas en pequeños pasos",
-        "Concéntrate en una tarea a la vez",
-        "Haz pausas cortas"
-      ]
+      "do": {
+        "0": "Escribe 3 tareas principales",
+        "1": "Divide las tareas en pequeños pasos",
+        "2": "Concéntrate en una tarea a la vez",
+        "3": "Haz pausas cortas"
+      }
     }
   },
   "detail": {
@@ -140,5 +140,18 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "Inhale…": "Inhala...",
+  "Hold…": "Espera...",
+  "Exhale…": "Exhala...",
+  "breathing_instruction": "Sigue el círculo para regular",
+  "Resume": "Currículum",
+  "Pause": "Pausa",
+  "lang": "largo",
+  "Grounding": "Desestrés mental",
+  "stay_present": "Consejos para aliviar el estrés",
+  "Choose any target strategy below to explore why it helps and how you can apply it daily": {
+    "": "Elige cualquier estrategia objetivo a continuación para descubrir por qué te ayuda y cómo puedes aplicarla a diario."
+  },
+  "wellness_tip": "ESTRATEGIA DIARIA DE ESTRÉS"
 }

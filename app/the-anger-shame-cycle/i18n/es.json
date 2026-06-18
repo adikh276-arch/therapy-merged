@@ -11,24 +11,24 @@
     "s2": {
       "tag": "El ciclo",
       "title": "El bucle explicaba",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "La ira surge"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Vergüenza: \"Soy mala\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "La vergüenza queda enterrada"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "La ira estalla de nuevo"
         }
-      ],
+      },
       "button": "Lo veo"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Interrupción",
       "title": "Interrumpir el ciclo",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Nombra la fuente",
           "desc": "Pregunta: '¿Qué estoy sintiendo realmente?' ¿Te ha dolido? ¿Asustado? ¿Invisible? Ponerle nombre lo debilita."
         },
-        {
+        "1": {
           "title": "Pausa de compasión",
           "desc": "Mano en el pecho. Di: 'Esto es difícil. Soy humano. Puedo superar esto.'"
         },
-        {
+        "2": {
           "title": "Reparar con gracia",
           "desc": "Haz las paces si hace falta, pero no te precipites. No eres tu peor momento."
         }
-      ],
+      },
       "notice": "Notar el ciclo ya es el primer paso. Tú haces el trabajo.",
       "button": "Actividad completa"
     }
@@ -120,5 +120,6 @@
   "yes": "Sí",
   "no": "No",
   "date": "Fecha",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "lang": "largo"
 }

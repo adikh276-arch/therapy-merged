@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "ایک اور خیال لکھیں...",
+  "resume": "ریزیومے",
+  "pause": "وقفہ",
+  "growth_reminder": "چھوٹے چھوٹے قدم بھی ذہنی بوجھ کو کم کر دیتے ہیں۔ تم نہیں",
+  "lang": "لمبا",
+  "complete_message": "تم",
+  "welcome_sub": "خوش آمدید",
+  "clearing_sub": "ذہنی صفائی",
+  "sorting_sub": "ترتیب",
+  "action_sub": "ایکشن اسٹیپس",
+  "reflect_sub": "عکاسی",
+  "intro": {
+    "viewHistory": "تاریخ دیکھیں"
+  }
 }

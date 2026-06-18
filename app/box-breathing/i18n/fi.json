@@ -75,5 +75,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "instruction_in": "hengitä hitaasti sisään...",
+  "instruction_out": "hengitä hitaasti ulos...",
+  "instruction_hold": "Pidä hellästi kiinni...",
+  "lang": "pitkä"
 }

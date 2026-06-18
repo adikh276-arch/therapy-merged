@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Cykeln",
       "title": "Loopen förklarades",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Ilska uppstår"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Skam: \"Jag är dålig\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Skammen begravs"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Vreden bryter ut igen"
         }
-      ],
+      },
       "button": "Jag ser det"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Avbrott",
       "title": "Avbryt cykeln",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Namnge källan",
           "desc": "Fråga: 'Vad känner jag egentligen?' Skadad? Rädd? Osedd? Att namnge den försvagar den."
         },
-        {
+        "1": {
           "title": "Medkänslapaus",
           "desc": "Handen på bröstet. Säg: 'Det här är svårt. Jag är människa. Jag klarar det här.'"
         },
-        {
+        "2": {
           "title": "Reparera med grace",
           "desc": "Gör bot om det behövs – men snurra inte iväg. Du är inte ditt sämsta ögonblick."
         }
-      ],
+      },
       "notice": "Att märka cykeln är redan första steget. Du gör jobbet.",
       "button": "Fullständig aktivitet"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

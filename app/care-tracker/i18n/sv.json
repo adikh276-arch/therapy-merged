@@ -33,13 +33,16 @@
     "intro": {
       "title": "Egenvårdsspårare",
       "description": "Följ dina dagliga egenvårdsvanor och se hur de påverkar ditt allmänna välbefinnande. Konsekvens är nyckeln till ett friskare sinne.",
-      "benefits": [
-        "Logga dagliga egenvårdsaktiviteter",
-        "Räkna tiden du spenderar på dig själv",
-        "Följ dina humörmönster",
-        "Se historia och framsteg"
-      ],
-      "duration": "2-3 minuter"
+      "benefits": {
+        "0": "Logga dagliga egenvårdsaktiviteter",
+        "1": "Räkna tiden du spenderar på dig själv",
+        "2": "Följ dina humörmönster",
+        "3": "Se historia och framsteg"
+      },
+      "duration": "2-3 minuter",
+      "benefit1": "Logga dagliga fysiska och mentala hälsoåtgärder",
+      "benefit2": "Lägg märke till utmaningar som hindrar dig från att vila",
+      "benefit3": "Bygg mindfulness genom positiv förstärkning"
     },
     "checkin": {
       "title": "Egenvårdskontroll 🌿",
@@ -135,20 +138,20 @@
       "Tired": "Trött",
       "Neutral": "Neutral"
     },
-    "positiveStatements": [
-      "Du dök upp för din egen skull idag. Det är kraftfullt. 🌿",
-      "Egenvård är inte själviskt – det är nödvändigt. Bra jobbat. 💚",
-      "Varje liten omsorgshandling bygger en starkare version av dig själv. 🌱",
-      "Du investerade i dig själv idag. Det spelar roll. ✨",
-      "Att ta hand om dig själv är det bästa du gjort idag. 🍃"
-    ],
-    "supportiveStatements": [
-      "Det är okej. Imorgon är en nystart. Var snäll mot dig själv. 🤍",
-      "Inte varje dag kommer att vara perfekt, och det är helt okej. 🕊️",
-      "Du gör ditt bästa. Det räcker alltid. 💛",
-      "Vila är också en form av egenvård. Visa dig själv tålamod. 🌸",
-      "Att erkänna idag kräver mod. Du växer redan. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Du dök upp för din egen skull idag. Det är kraftfullt. 🌿",
+      "1": "Egenvård är inte själviskt – det är nödvändigt. Bra jobbat. 💚",
+      "2": "Varje liten omsorgshandling bygger en starkare version av dig själv. 🌱",
+      "3": "Du investerade i dig själv idag. Det spelar roll. ✨",
+      "4": "Att ta hand om dig själv är det bästa du gjort idag. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Det är okej. Imorgon är en nystart. Var snäll mot dig själv. 🤍",
+      "1": "Inte varje dag kommer att vara perfekt, och det är helt okej. 🕊️",
+      "2": "Du gör ditt bästa. Det räcker alltid. 💛",
+      "3": "Vila är också en form av egenvård. Visa dig själv tålamod. 🌸",
+      "4": "Att erkänna idag kräver mod. Du växer redan. 🌷"
+    }
   },
   "app_title": "Självvårdsspårare",
   "app_description": "Följ dina dagliga egenvårdsvanor och se hur de påverkar ditt allmänna välbefinnande. Konsekvens är nyckeln till ett hälsosammare sinne.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

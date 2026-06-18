@@ -16,23 +16,23 @@
   "btn_one_more": "Jeszcze jedna rzecz",
   "screen3_tag": "łagodne prawdy",
   "screen3_title": "Warto wiedzieć",
-  "truths": [
-    {
+  "truths": {
+    "0": {
       "emoji": "🗓️",
       "title": "Brak terminu",
       "body": "Nie ma daty ważności straty. Poczucie tego po miesiącach czy latach nie oznacza, że utknąłeś — to znaczy, że kochałeś."
     },
-    {
+    "1": {
       "emoji": "🌗",
       "title": "Sprzeczne uczucia",
       "body": "Możesz za kimś tęsknić i poczuć ulgę. Możesz się śmiać i opłakiwać. Żałoba ma przeciwieństwa."
     },
-    {
+    "2": {
       "emoji": "🤍",
       "title": "Przemiana miłości",
       "body": "Ból nie jest oddzielony od miłości. To to samo, przemienione."
     }
-  ],
+  },
   "btn_finish": "Odbicie wykończenia",
   "complete_title": "Uhonorowana podróż",
   "complete_message": "Nie musisz iść dalej. Po prostu uczysz się nosić to inaczej. Twoja droga jest wyjątkowa, ważna i głęboko ludzka.",
@@ -87,5 +87,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "długie"
 }

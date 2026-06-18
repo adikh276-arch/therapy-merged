@@ -1,12 +1,12 @@
 {
   "app_title": "Memory Box",
-  "screen_titles": [
-    "Твоя скринька",
-    "Вшанування",
-    "Вираження",
-    "Збережено",
-    "Ніжний догляд"
-  ],
+  "screen_titles": {
+    "0": "Твоя скринька",
+    "1": "Вшанування",
+    "2": "Вираження",
+    "3": "Збережено",
+    "4": "Ніжний догляд"
+  },
   "complete_title": "Пам'ять збережена",
   "complete_message": "Ви безпечно помістили спогад про {{name}} у свою коробку. Ці моменти зв'язку завжди залишаються вашими.",
   "auth_error": "Відсутня сесія автентифікації або база даних не налаштована",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Введи їхнє ім'я...",
     "placeholder_relation": "Звідки ти їх знаєш? (за бажанням)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Щасливий момент",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Щось, що вони колись казали",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Маленький повсякденний спогад",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Місце, яке нагадує про них",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Щось, що я хотів би сказати",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Продовжуй →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Надійно схований",
     "subtitle": "Цей спогад про {{name}} тепер є частиною вашої колекції.",
     "add_another": "Додай ще одну пам'ять",
-    "finish": "Фінальне роздзеркування"
+    "finish": "Фінальне роздзеркування",
+    "saved_title": "Захищені"
   },
   "closing": {
     "title": "Догляд",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Ти впевнений, що хочеш видалити цю пам'ять?"
   },
   "app_description": "Скринька пам'яті",
   "before_you_go": "Перш ніж ви підете",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "довгий"
 }

@@ -11,24 +11,24 @@
     "s2": {
       "tag": "Sykli",
       "title": "Silmukka selitettiin",
-      "nodes": [
-        {
+      "nodes": {
+        "0": {
           "emoji": "🔥",
           "label": "Viha nousee pintaan"
         },
-        {
+        "1": {
           "emoji": "😔",
           "label": "Häpeä: \"Olen paha\""
         },
-        {
+        "2": {
           "emoji": "🤐",
           "label": "Häpeä hautautuu"
         },
-        {
+        "3": {
           "emoji": "🔥",
           "label": "Viha purkautuu uudelleen"
         }
-      ],
+      },
       "button": "Näen sen"
     },
     "s3": {
@@ -47,20 +47,20 @@
     "s4": {
       "tag": "Keskeytys",
       "title": "Keskeytä sykli",
-      "steps": [
-        {
+      "steps": {
+        "0": {
           "title": "Nimeä lähde",
           "desc": "Kysy: 'Mitä oikeastaan tunnen?' Sattuiko? Pelottaako? Näkymätön? Nimeäminen heikentää sitä."
         },
-        {
+        "1": {
           "title": "Myötätunnon tauko",
           "desc": "Käsi rinnalla. Sano: 'Tämä on vaikeaa. Olen ihminen. Minä selviän tästä.'"
         },
-        {
+        "2": {
           "title": "Korjaa arvokkaasti",
           "desc": "Sovita asiat tarvittaessa — mutta älä ajaudu alas. Et ole pahin hetkesi."
         }
-      ],
+      },
       "notice": "Kierron huomaaminen on jo ensimmäinen askel. Sinä teet työn.",
       "button": "Koko toiminta"
     }
@@ -120,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

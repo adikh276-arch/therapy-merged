@@ -101,5 +101,12 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "inhale_label": "పీల్చుకోండి...",
+  "hold_label": "పట్టుకోండి...",
+  "exhale_label": "ఊపిరి పీల్చుకోండి...",
+  "start": "సిద్ధంగా ఉంది",
+  "stop": "ఆపండి",
+  "begin_breathing": "శ్వాస తీసుకోవడం ప్రారంభించండి",
+  "lang": "పొడవు"
 }

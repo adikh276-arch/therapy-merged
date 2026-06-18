@@ -10,52 +10,52 @@
   "scenario": {
     "title": "무엇이 당신을 자극하나요?",
     "desc": "공감할 수 있는 상황을 선택하세요",
-    "options": [
-      {
+    "options": {
+      "0": {
         "id": "interrupts",
         "label": "누군가 내 말을 끊는다",
         "emoji": "😠"
       },
-      {
+      "1": {
         "id": "plans",
         "label": "계획대로 되지 않는다",
         "emoji": "😤"
       },
-      {
+      "2": {
         "id": "ignored",
         "label": "무시당하는 기분이에요",
         "emoji": "😔"
       },
-      {
+      "3": {
         "id": "overwhelmed",
         "label": "압도당하는 기분이에요",
         "emoji": "😵‍💫"
       }
-    ],
+    },
     "placeholder": "직접 타이핑하세요...",
     "button": "연습 멈춤 →"
   },
   "hold": {
     "title": "일시정지 ⏸️ 유지",
     "instructions": "원을 5초간 유지하세요",
-    "microcopy": [
-      {
+    "microcopy": {
+      "0": {
         "at": "0",
         "text": "누르고 유지하세요..."
       },
-      {
+      "1": {
         "at": "0.15",
         "text": "계속 해봐..."
       },
-      {
+      "2": {
         "at": "0.5",
         "text": "네가 하고 있어..."
       },
-      {
+      "3": {
         "at": "0.8",
         "text": "거의 다 왔어..."
       }
-    ]
+    }
   },
   "result": {
     "title": "그게 바로 일시정지",
@@ -121,5 +121,7 @@
   "yes": "네",
   "no": "아니요",
   "date": "날짜",
-  "continue": "계속하기"
+  "continue": "계속하기",
+  "other": "other",
+  "lang": "lang"
 }

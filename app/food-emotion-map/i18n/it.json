@@ -1,15 +1,15 @@
 {
   "app_title": "Mappa di cibo ed emozioni",
-  "screen_titles": [
-    "Benvenuto",
-    "Modelli alimentari",
-    "Dialogo Interno",
-    "Sensore fisico",
-    "La Mappa",
-    "Supporto Gentile",
-    "Ultimo sguardo",
-    "Riflettendo"
-  ],
+  "screen_titles": {
+    "0": "Benvenuto",
+    "1": "Modelli alimentari",
+    "2": "Dialogo Interno",
+    "3": "Sensore fisico",
+    "4": "La Mappa",
+    "5": "Supporto Gentile",
+    "6": "Ultimo sguardo",
+    "7": "Riflettendo"
+  },
   "welcome_text": "Ehi... Sono davvero felice che tu sia qui 💛. Mappiamo delicatamente cosa è successo.",
   "coming_up_label": "Cosa succede ultimamente?",
   "begin_mapping": "Inizia la mappatura",
@@ -32,36 +32,36 @@
   "auth_error": "Sessione di autenticazione mancante o DB non configurato",
   "save_success": "Modello preservato",
   "save_error": "Non è riuscito a preservare il modello",
-  "emotions_list": [
-    "😰 Stress",
-    "😢 Tristezza",
-    "😶 Noia",
-    "😟 Ansia",
-    "🥺 Solitudine",
-    "💭 Qualcos'altro..."
-  ],
-  "food_responses": [
-    "🍽️ Mangio di più",
-    "🚫 Mangio meno",
-    "🍫 Desidero cibi specifici",
-    "😣 Evito il cibo",
-    "😐 Nessun vero cambiamento"
-  ],
-  "body_sensations": [
-    "💔 Petto stretto",
-    "🪨 Sensazione di pesantezza",
-    "🦵 Irrequieto / irrequieto",
-    "🔋 Bassa energia",
-    "🌀 Nodi allo stomaco",
-    "❓ Qualcos'altro..."
-  ],
-  "support_options": [
-    "🗣️ Parla con qualcuno",
-    "☕ Fai una pausa",
-    "📝 Rivista",
-    "🌬️ Respira",
-    "🎧 Mi distraevo"
-  ],
+  "emotions_list": {
+    "0": "😰 Stress",
+    "1": "😢 Tristezza",
+    "2": "😶 Noia",
+    "3": "😟 Ansia",
+    "4": "🥺 Solitudine",
+    "5": "💭 Qualcos'altro..."
+  },
+  "food_responses": {
+    "0": "🍽️ Mangio di più",
+    "1": "🚫 Mangio meno",
+    "2": "🍫 Desidero cibi specifici",
+    "3": "😣 Evito il cibo",
+    "4": "😐 Nessun vero cambiamento"
+  },
+  "body_sensations": {
+    "0": "💔 Petto stretto",
+    "1": "🪨 Sensazione di pesantezza",
+    "2": "🦵 Irrequieto / irrequieto",
+    "3": "🔋 Bassa energia",
+    "4": "🌀 Nodi allo stomaco",
+    "5": "❓ Qualcos'altro..."
+  },
+  "support_options": {
+    "0": "🗣️ Parla con qualcuno",
+    "1": "☕ Fai una pausa",
+    "2": "📝 Rivista",
+    "3": "🌬️ Respira",
+    "4": "🎧 Mi distraevo"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "Contattami 💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Sei sicuro di voler cancellare questa mappatura?"
   },
   "app_description": "Mappa del cibo e delle emozioni",
   "more": "Di più",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lunga",
+  "view_weekly": "Visualizza la storia della mappa",
+  " ": " "
 }

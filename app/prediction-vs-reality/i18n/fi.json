@@ -4,11 +4,11 @@
   "intro": {
     "title": "Ennustus vs todellisuus",
     "description": "Vertaa ahdistuneita ennustuksiasi siihen, mitä oikeasti tapahtuu, jotta saat tasapainoisemman näkökulman.",
-    "benefits": [
-      "Tunnista ahdistuneita kuvioita",
-      "Kerää todisteita pelkoja vastaan",
-      "Vähennä tulevaa yliajattelua"
-    ],
+    "benefits": {
+      "0": "Tunnista ahdistuneita kuvioita",
+      "1": "Kerää todisteita pelkoja vastaan",
+      "2": "Vähennä tulevaa yliajattelua"
+    },
     "duration": "4-5 minuuttia",
     "view_past": "Katso menneitä pohdintoja"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Heijastuksia ei ole vielä tallennettu.",
     "prediction_label": "Ennuste",
     "reality_label": "Todellisuus",
-    "reflection_label": "Pohdinta:"
+    "reflection_label": "Pohdinta:",
+    "past_logs": "Menneet pohdinnat",
+    "reframe_label": "Uusi tasapainoinen näkökulma:"
   },
   "complete": {
     "title": "Toiminta suoritettu",
     "saved_title": "Heijastus pelastettu",
     "message": "Katsomalla faktoja autat mieltäsi oppimaan, että asiat ovat usein hallittavampia kuin miltä ne vaikuttavat."
   },
-  "emotions": [
-    "Huolestunut",
-    "Hermostunut",
-    "Peloissaan",
-    "Ylikuormittunut",
-    "Levoton"
-  ],
+  "emotions": {
+    "0": "Huolestunut",
+    "1": "Hermostunut",
+    "2": "Peloissaan",
+    "3": "Ylikuormittunut",
+    "4": "Levoton"
+  },
   "intensity_labels": {
     "not_intense": "Ei intensiivistä",
     "very_intense": "Erittäin intensiivistä"
   },
-  "comparison_options": [
-    "Lopputulos oli melkein juuri sellainen kuin odotin",
-    "Jotkut osat olivat kohdallaan, mutta eivät kaikki",
-    "Se oli melko erilaista kuin odotin",
-    "Se oli paljon helpompaa/parempaa kuin kuvittelin"
-  ],
+  "comparison_options": {
+    "0": "Lopputulos oli melkein juuri sellainen kuin odotin",
+    "1": "Jotkut osat olivat kohdallaan, mutta eivät kaikki",
+    "2": "Se oli melko erilaista kuin odotin",
+    "3": "Se oli paljon helpompaa/parempaa kuin kuvittelin"
+  },
   "screens": {
     "s1": {
       "title": "Ajattele erästä äskettäistä tilannetta",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Oletko varma, että haluat poistaa tämän ennustuslokin?"
   },
   "app_description": "Ennustus vs. todellisuus",
   "more": "Lisää",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä"
 }

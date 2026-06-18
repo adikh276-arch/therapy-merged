@@ -103,5 +103,18 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "pitkä",
+  "intro_benefit_1": "Saat täydellisen selkeyden ydinuskomuksistasi",
+  "intro_benefit_2": "Aseta selkeät tavoitteet henkilökohtaiselle muutokselle",
+  "reflection_subtitle": "Laadi tavoitteesi. Täytä tarkoituksesi ydinosat.",
+  "mission_your_statement": "Lausuntosi",
+  "saving": "Säästäminen...",
+  "mission_save_finish": "Tallenna ja viimeistele",
+  "mission_share": "Jaa",
+  "mission_start_over": "Aloita alusta",
+  "loading": "Ladataan ilmoituksia...",
+  "app": {
+    "startActivity": "Luo tehtävä"
+  }
 }

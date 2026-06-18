@@ -44,110 +44,110 @@
     "Emotional support": {
       "label": "Apoio emocional",
       "prompt": "Que tipo de apoio realmente te ajudaria agora?",
-      "hints": [
-        "Só preciso de alguém para...",
-        "Ajudaria se...",
-        "O que eu realmente quero é..."
-      ]
+      "hints": {
+        "0": "Só preciso de alguém para...",
+        "1": "Ajudaria se...",
+        "2": "O que eu realmente quero é..."
+      }
     },
     "Space / time for myself": {
       "label": "Espaço / tempo para mim mesma",
       "prompt": "Como seria ter esse espaço para você?",
-      "hints": [
-        "Eu usaria esse tempo para...",
-        "O espaço me permitiria...",
-        "Preciso de espaço para..."
-      ]
+      "hints": {
+        "0": "Eu usaria esse tempo para...",
+        "1": "O espaço me permitiria...",
+        "2": "Preciso de espaço para..."
+      }
     },
     "Clear communication": {
       "label": "Comunicação clara",
       "prompt": "Como seria uma comunicação mais clara para você?",
-      "hints": [
-        "Queria poder dizer...",
-        "Se eles realmente ouvissem, eu diria...",
-        "A comunicação fica difícil quando..."
-      ]
+      "hints": {
+        "0": "Queria poder dizer...",
+        "1": "Se eles realmente ouvissem, eu diria...",
+        "2": "A comunicação fica difícil quando..."
+      }
     },
     "Reassurance": {
       "label": "Tranquilidade",
       "prompt": "Que tipo de garantia seria significativa?",
-      "hints": [
-        "Preciso ouvir isso...",
-        "Me acalmaria saber...",
-        "Fico preocupado que..."
-      ]
+      "hints": {
+        "0": "Preciso ouvir isso...",
+        "1": "Me acalmaria saber...",
+        "2": "Fico preocupado que..."
+      }
     },
     "Understanding": {
       "label": "Compreensão",
       "prompt": "Como seria se sentir verdadeiramente compreendido?",
-      "hints": [
-        "Queria que as pessoas soubessem disso...",
-        "O que eu realmente sinto é...",
-        "Ninguém vê que eu..."
-      ]
+      "hints": {
+        "0": "Queria que as pessoas soubessem disso...",
+        "1": "O que eu realmente sinto é...",
+        "2": "Ninguém vê que eu..."
+      }
     },
     "Stability": {
       "label": "Estabilidade",
       "prompt": "Como seria a estabilidade na sua vida agora?",
-      "hints": [
-        "Preciso que as coisas se sintam...",
-        "O que me castigaria seria...",
-        "Estabilidade significa..."
-      ]
+      "hints": {
+        "0": "Preciso que as coisas se sintam...",
+        "1": "O que me castigaria seria...",
+        "2": "Estabilidade significa..."
+      }
     },
     "Honesty": {
       "label": "Honestidade",
       "prompt": "Como seria mais honestidade na sua situação?",
-      "hints": [
-        "A verdade que preciso encarar é...",
-        "Quero ser honesto sobre...",
-        "O que realmente está acontecendo é..."
-      ]
+      "hints": {
+        "0": "A verdade que preciso encarar é...",
+        "1": "Quero ser honesto sobre...",
+        "2": "O que realmente está acontecendo é..."
+      }
     },
     "Respect": {
       "label": "Respeito",
       "prompt": "Como é o respeito para você agora?",
-      "hints": [
-        "Eu mereço ser tratada...",
-        "Respeito seria como...",
-        "Preciso que as pessoas..."
-      ]
+      "hints": {
+        "0": "Eu mereço ser tratada...",
+        "1": "Respeito seria como...",
+        "2": "Preciso que as pessoas..."
+      }
     },
     "Clarity about relationship": {
       "label": "Clareza sobre o relacionamento",
       "prompt": "Que tipo de clareza te ajudaria mais?",
-      "hints": [
-        "Preciso saber se...",
-        "O que me confunde é...",
-        "Quero que sejamos claros sobre..."
-      ]
+      "hints": {
+        "0": "Preciso saber se...",
+        "1": "O que me confunde é...",
+        "2": "Quero que sejamos claros sobre..."
+      }
     },
     "default": {
       "prompt": "Como isso seria em uma situação real?",
-      "hints": [
-        "O que me vem à mente é...",
-        "Agora eu me sinto...",
-        "Se eu for honesto comigo mesmo..."
-      ]
+      "hints": {
+        "0": "O que me vem à mente é...",
+        "1": "Agora eu me sinto...",
+        "2": "Se eu for honesto comigo mesmo..."
+      }
     }
   },
-  "actions": [
-    {
+  "actions": {
+    "0": {
       "label": "Diga algo honestamente"
     },
-    {
+    "1": {
       "label": "Tire um tempo para mim"
     },
-    {
+    "2": {
       "label": "Procure alguém"
     },
-    {
+    "3": {
       "label": "Estabeleça um limite pequeno"
     },
-    {
+    "4": {
       "label": "Ainda não tenho certeza"
     }
-  ],
+  },
   "history": {
     "title": "Reflexões Passadas",
     "empty": "Ainda sem reflexões."
@@ -213,5 +213,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

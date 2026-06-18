@@ -1,10 +1,10 @@
 {
   "app_title": "想念某人",
-  "subtitles": [
-    "驗證",
-    "內在智慧",
-    "完全的"
-  ],
+  "subtitles": {
+    "0": "驗證",
+    "1": "內在智慧",
+    "2": "完全的"
+  },
   "complete_title": "思路清晰了",
   "complete_message": "了解思念的心理機制是療癒的第一步。你的感受是合理的，你的大腦只是在履行其保護和處理資訊的職責。",
   "screen1": {
@@ -74,5 +74,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇"
 }

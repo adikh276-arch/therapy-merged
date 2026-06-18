@@ -1,12 +1,12 @@
 {
   "app_title": "Memóriadoboz",
-  "screen_titles": [
-    "A te dobozod",
-    "Tiszteletadás",
-    "Expresszálás",
-    "Megőrzött",
-    "Gyengéd gondoskodás"
-  ],
+  "screen_titles": {
+    "0": "A te dobozod",
+    "1": "Tiszteletadás",
+    "2": "Expresszálás",
+    "3": "Megőrzött",
+    "4": "Gyengéd gondoskodás"
+  },
   "complete_title": "Emlék megőrzött",
   "complete_message": "Biztonságosan elhelyeztél egy emléket {{name}} a dobozodba. Ezek a kapcsolódási pillanatok mindig a tiéd, hogy megőrizd.",
   "auth_error": "Hitelesítési alkalom hiányzik vagy adatbázis nincs konfigurálva",
@@ -27,28 +27,28 @@
   "who": {
     "placeholder_name": "Írd be a nevét...",
     "placeholder_relation": "Honnan ismered őket? (opcionális)",
-    "categories": [
-      {
+    "categories": {
+      "0": {
         "label": "Egy boldog pillanat",
         "emoji": "😊"
       },
-      {
+      "1": {
         "label": "Valamit, amit régen mondottak",
         "emoji": "💬"
       },
-      {
+      "2": {
         "label": "Egy apró, mindennapi emlék",
         "emoji": "☕"
       },
-      {
+      "3": {
         "label": "Egy hely, ami emlékeztet rájuk",
         "emoji": "🏡"
       },
-      {
+      "4": {
         "label": "Valami, amit bárcsak mondhatnék",
         "emoji": "💌"
       }
-    ],
+    },
     "continue": "Folytasd →"
   },
   "expression": {
@@ -65,7 +65,8 @@
     "title": "Biztonságosan elrejtve",
     "subtitle": "Ez az emlék {{name}}-ról most a gyűjteményed része.",
     "add_another": "Add hozzá egy újabb emléket",
-    "finish": "Finish Reflection"
+    "finish": "Finish Reflection",
+    "saved_title": "Biztonságban"
   },
   "closing": {
     "title": "Gondoskodás",
@@ -104,7 +105,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Biztos vagy benne, hogy törölni akarod ezt az emléket?"
   },
   "app_description": "Memóriadoboz",
   "before_you_go": "Mielőtt elmész",
@@ -142,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú"
 }

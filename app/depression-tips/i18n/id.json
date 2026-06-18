@@ -92,5 +92,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "gentleReminder": "Pengingat Lembut",
+  "lang": "panjang"
 }

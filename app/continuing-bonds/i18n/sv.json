@@ -31,37 +31,37 @@
   "auth_error": "Auth-session saknas eller databas inte konfigurerad",
   "save_success": "Bindningsreflektion bevarad",
   "save_error": "Misslyckades med att bevara reflektionen",
-  "connection_options": [
-    {
+  "connection_options": {
+    "0": {
       "label": "Genom minnen",
       "prompt": "Kan du dela ett minne där du känner deras närvaro?",
       "deeper": "Vad är en sak med dem som stannar kvar hos dig?"
     },
-    {
+    "1": {
       "label": "I det jag säger eller gör",
       "prompt": "Vilken del av dem bär du med dig i ditt dagliga liv?",
       "deeper": "Hur visar sig detta i ditt liv idag?"
     },
-    {
+    "2": {
       "label": "I stunder av mitt dagliga liv",
       "prompt": "När känner du att de är nära under dagen?",
       "deeper": "Vad är en sak med dem som stannar kvar hos dig?"
     },
-    {
+    "3": {
       "label": "I det jag fortfarande vill berätta för dem",
       "prompt": "Finns det något du fortfarande vill säga till dem?",
       "deeper": "Vad skulle du allra mest vilja att de visste just nu?"
     },
-    {
+    "4": {
       "label": "I en känsla eller närvaro",
       "prompt": "Hur kan deras närvaro fortfarande visa sig för dig?",
       "deeper": "Hur visar sig detta i ditt liv idag?"
     }
-  ],
-  "bond_prompts": [
-    "Vilket är ett litet sätt du känner dig kopplad till dem idag?",
-    "Vad är något du gör som bär en del av dem?"
-  ],
+  },
+  "bond_prompts": {
+    "0": "Vilket är ett litet sätt du känner dig kopplad till dem idag?",
+    "1": "Vad är något du gör som bär en del av dem?"
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Börja om från början",
@@ -89,7 +89,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Är du säker på att du vill radera denna reflektion?"
   },
   "app_description": "Fortlöpande obligationer",
   "past_reflections": "Tidigare reflektioner",
@@ -119,5 +120,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång"
 }

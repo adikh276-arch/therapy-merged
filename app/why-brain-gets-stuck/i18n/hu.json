@@ -10,21 +10,22 @@
   "s2": {
     "tag": "Gyengéd igazságok",
     "title": "Az agy túlélési logika",
-    "truths": [
-      {
+    "truths": {
+      "0": {
         "header": "A riasztó továbbra is bekapcsolt",
         "body": "A hiperéberség és a megijedés könnyen nem túlreagálás — az agyad riasztórendszere túl jól végzi a munkáját."
       },
-      {
+      "1": {
         "header": "A visszaemlékezések az emlékek",
         "body": "A kiváltó okok visszahúzzák az agyadat, mert soha nem kapta meg a jelet, hogy a fenyegetés véget ért. Próbál megvédeni téged."
       },
-      {
+      "2": {
         "header": "Érted harcolok",
         "body": "Minden tünet egykor túlélési cselekedet volt. Az agyad azt tette, amit kellett, hogy életben maradj."
       }
-    ],
-    "healing": "A gyógyulás nem a felejtés lényege. Arról szól, hogy segítsünk az agyadnak, hogy most már biztonságban vagy."
+    },
+    "healing": "A gyógyulás nem a felejtés lényege. Arról szól, hogy segítsünk az agyadnak, hogy most már biztonságban vagy.",
+    "finish_reading": "Fejezd be az olvasást"
   },
   "common": {
     "get_started": "Get Started",
@@ -77,5 +78,9 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "hosszú",
+  "complete": {
+    "message": "Te"
+  }
 }

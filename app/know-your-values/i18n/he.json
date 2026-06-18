@@ -29,7 +29,8 @@
     "historyDesc": "ההרהורים הקודמים שלכם נשמרים כאן כדי שתוכלו לחזור אליהם בכל עת.",
     "noHistory": "עדיין לא סיימת השתקפות ערכים.",
     "startActivity": "התחלת פעילות",
-    "startNew": "התחל רפלקציה חדשה"
+    "startNew": "התחל רפלקציה חדשה",
+    "aligned": "מיושר"
   },
   "values": {
     "Family": "משפחה",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "ארוך",
+  "app_duration": "5 דקות",
+  "loading": "טעינת השתקפויות..."
 }

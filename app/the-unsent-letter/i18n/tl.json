@@ -3,39 +3,40 @@
   "app_subtitle": "Palayain ang iyong mga saloobin nang ligtas at pribado",
   "intro": {
     "title": "Ang Hindi Ipinadala na Liham",
-    "description": [
-      "Minsan, may mga bagay na nais nating sabihin - ngunit hindi kailanman nagkaroon ng pagkakataon.",
-      "Maaaring ito ay dahil hindi ito ligtas, hindi tama ang tiyempo, o napakahirap ipahayag nang malakas ang mga salita.",
-      "Ang aktibidad na ito ay nagbibigay sa iyo ng isang pribadong espasyo upang ilagay ang mga kaisipang iyon sa mga salita.",
-      "Hindi mo na kailangang ipadala ang liham na ito. Ito ay para lamang sa iyo - upang ipahayag, palayain, at maunawaan ang iyong mga damdamin nang mas mahusay."
-    ],
+    "description": {
+      "0": "Minsan, may mga bagay na nais nating sabihin - ngunit hindi kailanman nagkaroon ng pagkakataon.",
+      "1": "Maaaring ito ay dahil hindi ito ligtas, hindi tama ang tiyempo, o napakahirap ipahayag nang malakas ang mga salita.",
+      "2": "Ang aktibidad na ito ay nagbibigay sa iyo ng isang pribadong espasyo upang ilagay ang mga kaisipang iyon sa mga salita.",
+      "3": "Hindi mo na kailangang ipadala ang liham na ito. Ito ay para lamang sa iyo - upang ipahayag, palayain, at maunawaan ang iyong mga damdamin nang mas mahusay."
+    },
     "notice": "Sumulat nang malaya. Walang ibang makakakita nito.",
     "button": "Simulan ang pagsulat →"
   },
   "writing": {
     "title": "Isulat kung ano ang iyong hinawakan",
     "desc": "Maaari kang sumulat sa iyong kapareha, dating kapareha, o kahit na sa relasyon mismo. Walang tama o maling paraan upang gawin ito.",
-    "prompts": [
-      "Pakiramdam ko...",
-      "Nais ko...",
-      "Hindi ko kailanman sinabi...",
-      "Ano ang nasaktan sa akin ...",
-      "Ano ang kailangan ko..."
-    ],
+    "prompts": {
+      "0": "Pakiramdam ko...",
+      "1": "Nais ko...",
+      "2": "Hindi ko kailanman sinabi...",
+      "3": "Ano ang nasaktan sa akin ...",
+      "4": "Ano ang kailangan ko..."
+    },
     "placeholder": "Mahal na ____,\nMatagal ko nang gustong sabihin...",
     "notice": "Maaari kang mag-pause at bumalik anumang oras.",
     "button": "Magpatuloy →"
   },
   "reflection": {
     "title": "Maglaan ng ilang sandali dito",
-    "description": [
-      "Inilagay mo lang ang iyong mga saloobin at damdamin sa mga salita - na nangangailangan ng lakas ng loob.",
-      "Maaari mong mapansin ang isang halo ng mga emosyon ngayon, at iyon ay ganap na okay.",
-      "Bago ka magpatuloy, huminga muna at dahan-dahang suriin ang iyong sarili."
-    ],
+    "description": {
+      "0": "Inilagay mo lang ang iyong mga saloobin at damdamin sa mga salita - na nangangailangan ng lakas ng loob.",
+      "1": "Maaari mong mapansin ang isang halo ng mga emosyon ngayon, at iyon ay ganap na okay.",
+      "2": "Bago ka magpatuloy, huminga muna at dahan-dahang suriin ang iyong sarili."
+    },
     "notice": "Ito ay para sa iyong pagpapagaling, hindi para sa pagpapadala.",
     "save_button": "I-save ang Liham",
-    "finish_button": "Tapusin"
+    "finish_button": "Tapusin",
+    "save_success": "Your unsent letter is safely mended in your private local journal. Expression is a profound release."
   },
   "history": {
     "title": "Mga Nakaraang Liham",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Are you sure you want to delete this unsent letter?"
   },
   "app_description": "Ilabas ang iyong mga iniisip nang ligtas at pribado",
   "more": "Higit pa",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

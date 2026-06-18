@@ -14,7 +14,8 @@
     "input1_placeholder": "E.G Naglalakad sa Parke",
     "input2_label": "Kapag ginagawa ko ito, karaniwan kong nararamdaman...",
     "input2_placeholder": "E.G. Kalmado at Kasalukuyan",
-    "button": "Magpatuloy"
+    "button": "Magpatuloy",
+    "stage": "Stage 1: Recall"
   },
   "meaning": {
     "title": "Ano ang ginagawang makabuluhan ito?",
@@ -25,7 +26,8 @@
     "input2_placeholder": "E. Konektado at naka-ground",
     "input3_label": "Ipinapaalala nito sa akin ang ...",
     "input3_placeholder": "Tag-init Bilang Isang Bata",
-    "button": "I-save ang Aking Pagmumuni-muni"
+    "button": "I-save ang Aking Pagmumuni-muni",
+    "stage": "Stage 2: Meaning"
   },
   "smallStep": {
     "title": "Isang Maliit na Hakbang Pasulong",
@@ -34,7 +36,8 @@
     "input1_label": "Ang isang maliit na hakbang na maaari kong gawin sa linggong ito ay ...",
     "input1_placeholder": "10 minutong paglalakad sa loob ng 10 minuto",
     "button_save": "I-save",
-    "button_home": "Pumunta sa Bahay"
+    "button_home": "Pumunta sa Bahay",
+    "stage": "Stage 3: Action"
   },
   "affirmation": {
     "title": "Gumawa ka ng isang napakagandang hakbang",
@@ -101,5 +104,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang"
 }

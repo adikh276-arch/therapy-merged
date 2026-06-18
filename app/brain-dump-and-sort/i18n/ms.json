@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Taipkan pemikiran lain...",
+  "resume": "Sambung semula",
+  "pause": "Jeda",
+  "growth_reminder": "Malah langkah kecil mengurangkan berat mental. Anda tidak",
+  "lang": "panjang",
+  "complete_message": "Anda",
+  "welcome_sub": "Selamat datang",
+  "clearing_sub": "Pembersihan Mental",
+  "sorting_sub": "Pengisihan",
+  "action_sub": "Langkah Tindakan",
+  "reflect_sub": "Refleksi",
+  "intro": {
+    "viewHistory": "Lihat Sejarah"
+  }
 }

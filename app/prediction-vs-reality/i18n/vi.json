@@ -4,11 +4,11 @@
   "intro": {
     "title": "Dự đoán vs Thực tế",
     "description": "So sánh những dự đoán lo lắng của bạn với những gì thực sự xảy ra để xây dựng một quan điểm cân bằng hơn.",
-    "benefits": [
-      "Xác định các mô hình lo lắng",
-      "Thu thập bằng chứng chống lại nỗi sợ hãi",
-      "Giảm suy nghĩ quá nhiều trong tương lai"
-    ],
+    "benefits": {
+      "0": "Xác định các mô hình lo lắng",
+      "1": "Thu thập bằng chứng chống lại nỗi sợ hãi",
+      "2": "Giảm suy nghĩ quá nhiều trong tương lai"
+    },
     "duration": "4-5 phút",
     "view_past": "Xem phản ánh trong quá khứ"
   },
@@ -17,30 +17,32 @@
     "no_reflections": "Chưa có phản xạ nào được lưu.",
     "prediction_label": "Dự đoán",
     "reality_label": "Thực tế",
-    "reflection_label": "Suy ngẫm:"
+    "reflection_label": "Suy ngẫm:",
+    "past_logs": "Suy ngẫm trong quá khứ",
+    "reframe_label": "Chế độ xem cân bằng mới:"
   },
   "complete": {
     "title": "Hoàn thành hoạt động",
     "saved_title": "Phản xạ đã lưu",
     "message": "Bằng cách nhìn vào sự thật, bạn đang giúp tâm trí của bạn học được rằng mọi thứ thường dễ quản lý hơn vẻ ngoài của chúng."
   },
-  "emotions": [
-    "Lo lắng",
-    "Lo lắng",
-    "Sợ hãi",
-    "Choáng ngợp",
-    "Khó chịu"
-  ],
+  "emotions": {
+    "0": "Lo lắng",
+    "1": "Lo lắng",
+    "2": "Sợ hãi",
+    "3": "Choáng ngợp",
+    "4": "Khó chịu"
+  },
   "intensity_labels": {
     "not_intense": "Không dữ dội",
     "very_intense": "Rất dữ dội"
   },
-  "comparison_options": [
-    "Hóa ra gần như chính xác như tôi mong đợi",
-    "Một số phần đúng, nhưng không phải tất cả mọi thứ",
-    "Nó hoàn toàn khác với những gì tôi mong đợi",
-    "Nó dễ dàng / tốt hơn nhiều so với tôi tưởng tượng"
-  ],
+  "comparison_options": {
+    "0": "Hóa ra gần như chính xác như tôi mong đợi",
+    "1": "Một số phần đúng, nhưng không phải tất cả mọi thứ",
+    "2": "Nó hoàn toàn khác với những gì tôi mong đợi",
+    "3": "Nó dễ dàng / tốt hơn nhiều so với tôi tưởng tượng"
+  },
   "screens": {
     "s1": {
       "title": "Hãy nghĩ về một tình huống gần đây",
@@ -117,7 +119,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Bạn có chắc chắn muốn xóa nhật ký dự đoán này không?"
   },
   "app_description": "Dự đoán so với thực tế",
   "more": "Hơn",
@@ -141,5 +144,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "dài"
 }

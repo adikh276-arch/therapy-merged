@@ -1,15 +1,15 @@
 {
   "app_title": "食物与情绪地图",
-  "screen_titles": [
-    "欢迎",
-    "饮食模式",
-    "内心对话",
-    "物理传感",
-    "地图",
-    "温柔支持",
-    "最终呈现",
-    "反思"
-  ],
+  "screen_titles": {
+    "0": "欢迎",
+    "1": "饮食模式",
+    "2": "内心对话",
+    "3": "物理传感",
+    "4": "地图",
+    "5": "温柔支持",
+    "6": "最终呈现",
+    "7": "反思"
+  },
   "welcome_text": "嘿……我很高兴你在这里💛 让我们慢慢梳理一下最近发生的事情。",
   "coming_up_label": "最近有什么活动吗？",
   "begin_mapping": "开始绘制地图",
@@ -32,36 +32,36 @@
   "auth_error": "身份验证会话缺失或数据库未配置",
   "save_success": "模式得以保留",
   "save_error": "未能保留模式",
-  "emotions_list": [
-    "😰压力",
-    "😢 悲伤",
-    "😶 无聊",
-    "😟焦虑",
-    "🥺 孤独",
-    "💭 还有一些其他的事情……"
-  ],
-  "food_responses": [
-    "🍽️ 我吃得更多",
-    "🚫 我吃得更少了",
-    "🍫 我特别想吃某些特定的食物",
-    "😣 我拒绝进食",
-    "😐 没有实质性改变"
-  ],
-  "body_sensations": [
-    "💔 胸部紧绷",
-    "🪨 沉重感",
-    "🦵 焦躁不安/坐立不安",
-    "🔋 低能量",
-    "🌀 胃部不适",
-    "❓还有其他事……"
-  ],
-  "support_options": [
-    "🗣️ 找人聊聊",
-    "☕ 休息一下",
-    "📝 日记",
-    "🌬️ 呼吸",
-    "🎧 分散注意力"
-  ],
+  "emotions_list": {
+    "0": "😰压力",
+    "1": "😢 悲伤",
+    "2": "😶 无聊",
+    "3": "😟焦虑",
+    "4": "🥺 孤独",
+    "5": "💭 还有一些其他的事情……"
+  },
+  "food_responses": {
+    "0": "🍽️ 我吃得更多",
+    "1": "🚫 我吃得更少了",
+    "2": "🍫 我特别想吃某些特定的食物",
+    "3": "😣 我拒绝进食",
+    "4": "😐 没有实质性改变"
+  },
+  "body_sensations": {
+    "0": "💔 胸部紧绷",
+    "1": "🪨 沉重感",
+    "2": "🦵 焦躁不安/坐立不安",
+    "3": "🔋 低能量",
+    "4": "🌀 胃部不适",
+    "5": "❓还有其他事……"
+  },
+  "support_options": {
+    "0": "🗣️ 找人聊聊",
+    "1": "☕ 休息一下",
+    "2": "📝 日记",
+    "3": "🌬️ 呼吸",
+    "4": "🎧 分散注意力"
+  },
   "support_responses": {
     "🗣️ Talk to someone": {
       "title": "联系我💛",
@@ -111,7 +111,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "你确定要删除这个映射吗？"
   },
   "app_description": "食物与情绪地图",
   "more": "更多的",
@@ -135,5 +136,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "很长",
+  "view_weekly": "查看地图历史",
+  " ": " "
 }

@@ -3,39 +3,40 @@
   "app_subtitle": "Slip dine tanker sikkert og privat",
   "intro": {
     "title": "Det Usendte Brev",
-    "description": [
-      "Nogle gange er der ting, vi ville ønske, vi kunne sige — men aldrig fik chancen for.",
-      "Det kunne skyldes, at det ikke føltes trygt, timingen ikke var rigtig, eller ordene var for svære at sige højt.",
-      "Denne aktivitet giver dig et privat rum til at sætte ord på de tanker.",
-      "Du behøver ikke sende dette brev. Dette er kun for dig — for at udtrykke, give slip på og forstå dine følelser bedre."
-    ],
+    "description": {
+      "0": "Nogle gange er der ting, vi ville ønske, vi kunne sige — men aldrig fik chancen for.",
+      "1": "Det kunne skyldes, at det ikke føltes trygt, timingen ikke var rigtig, eller ordene var for svære at sige højt.",
+      "2": "Denne aktivitet giver dig et privat rum til at sætte ord på de tanker.",
+      "3": "Du behøver ikke sende dette brev. Dette er kun for dig — for at udtrykke, give slip på og forstå dine følelser bedre."
+    },
     "notice": "Skriv frit. Ingen andre vil se det her.",
     "button": "Begynd at skrive →"
   },
   "writing": {
     "title": "Skriv det, du har holdt inde",
     "desc": "Du kan skrive til din partner, eks-partner eller endda til selve forholdet. Der er ikke nogen rigtig eller forkert måde at gøre det på.",
-    "prompts": [
-      "Jeg føler mig...",
-      "Jeg ville ønske...",
-      "Jeg har aldrig sagt...",
-      "Hvad gjorde ondt på mig...",
-      "Det jeg havde brug for..."
-    ],
+    "prompts": {
+      "0": "Jeg føler mig...",
+      "1": "Jeg ville ønske...",
+      "2": "Jeg har aldrig sagt...",
+      "3": "Hvad gjorde ondt på mig...",
+      "4": "Det jeg havde brug for..."
+    },
     "placeholder": "Kære ____,\nJeg har længe villet sige...",
     "notice": "Du kan pause og komme tilbage når som helst.",
     "button": "Fortsæt →"
   },
   "reflection": {
     "title": "Tag et øjeblik med det her",
-    "description": [
-      "Du har lige sat dine tanker og følelser i ord — det kræver mod.",
-      "Du kan måske mærke en blanding af følelser lige nu, og det er helt okay.",
-      "Før du går videre, tag en dyb indånding og tjek forsigtigt ind med dig selv."
-    ],
+    "description": {
+      "0": "Du har lige sat dine tanker og følelser i ord — det kræver mod.",
+      "1": "Du kan måske mærke en blanding af følelser lige nu, og det er helt okay.",
+      "2": "Før du går videre, tag en dyb indånding og tjek forsigtigt ind med dig selv."
+    },
     "notice": "Dette var til din helbredelse, ikke til at sende.",
     "save_button": "Gem brevet",
-    "finish_button": "Afslutning"
+    "finish_button": "Afslutning",
+    "save_success": "Dit uafsendte brev er sikkert repareret i din private lokale avis. Udtryk er en dyb forløsning."
   },
   "history": {
     "title": "Tidligere breve",
@@ -74,7 +75,8 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "confirm_delete": "Er du sikker på, at du vil slette dette ikke-sendte brev?"
   },
   "app_description": "Slip dine tanker fri sikkert og privat",
   "more": "Mere",
@@ -98,5 +100,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lang"
 }

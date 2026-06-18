@@ -33,13 +33,16 @@
     "intro": {
       "title": "Rastreador de Autocuidado",
       "description": "Acompanhe seus hábitos diários de autocuidado e veja como eles impactam seu bem-estar geral. Consistência é fundamental para uma mente mais saudável.",
-      "benefits": [
-        "Registre as atividades diárias de autocuidado",
-        "Registre o tempo gasto em você mesmo",
-        "Monitore seus padrões de humor",
-        "Veja história e progresso"
-      ],
-      "duration": "2-3 minutos"
+      "benefits": {
+        "0": "Registre as atividades diárias de autocuidado",
+        "1": "Registre o tempo gasto em você mesmo",
+        "2": "Monitore seus padrões de humor",
+        "3": "Veja história e progresso"
+      },
+      "duration": "2-3 minutos",
+      "benefit1": "Registre diariamente atos de bem-estar físico e mental",
+      "benefit2": "Perceba os desafios que te impedem de descansar",
+      "benefit3": "Construa a atenção plena por meio do reforço positivo"
     },
     "checkin": {
       "title": "Check-in 🌿 de Autocuidado",
@@ -135,20 +138,20 @@
       "Stressed": "Estressado",
       "Tired": "Cansado"
     },
-    "positiveStatements": [
-      "Você apareceu por si mesmo hoje. Isso é poderoso. 🌿",
-      "Cuidar de si mesmo não é egoísmo — é essencial. Muito bem. 💚",
-      "Cada pequeno ato de cuidado constrói um você mais forte. 🌱",
-      "Você investiu em si mesmo hoje. Isso importa. ✨",
-      "Cuidar de você foi a melhor coisa que você fez hoje. 🍃"
-    ],
-    "supportiveStatements": [
-      "Tudo bem. Amanhã é um recomeço. Seja gentil consigo mesmo. 🤍",
-      "Nem todo dia será perfeito, e isso é perfeitamente normal. 🕊️",
-      "Você está fazendo o seu melhor. Isso sempre é suficiente. 💛",
-      "Descansar também é uma forma de autocuidado. Seja indulgente consigo mesmo. 🌸",
-      "Reconhecer o dia de hoje exige coragem. Você já está crescendo. 🌷"
-    ]
+    "positiveStatements": {
+      "0": "Você apareceu por si mesmo hoje. Isso é poderoso. 🌿",
+      "1": "Cuidar de si mesmo não é egoísmo — é essencial. Muito bem. 💚",
+      "2": "Cada pequeno ato de cuidado constrói um você mais forte. 🌱",
+      "3": "Você investiu em si mesmo hoje. Isso importa. ✨",
+      "4": "Cuidar de você foi a melhor coisa que você fez hoje. 🍃"
+    },
+    "supportiveStatements": {
+      "0": "Tudo bem. Amanhã é um recomeço. Seja gentil consigo mesmo. 🤍",
+      "1": "Nem todo dia será perfeito, e isso é perfeitamente normal. 🕊️",
+      "2": "Você está fazendo o seu melhor. Isso sempre é suficiente. 💛",
+      "3": "Descansar também é uma forma de autocuidado. Seja indulgente consigo mesmo. 🌸",
+      "4": "Reconhecer o dia de hoje exige coragem. Você já está crescendo. 🌷"
+    }
   },
   "app_title": "Rastreador de autocuidado",
   "app_description": "Monitore seus hábitos diários de autocuidado e veja como eles impactam seu bem-estar geral. A consistência é fundamental para uma mente mais saudável.",
@@ -175,5 +178,6 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "longo"
 }

@@ -109,5 +109,19 @@
   "rounds_selector": "{{count}} Rounds",
   "yes": "Yes",
   "no": "No",
-  "date": "Date"
+  "date": "Date",
+  "type_another": "Írj még egy gondolatot...",
+  "resume": "Önéletrajz",
+  "pause": "Szünet",
+  "growth_reminder": "Még a apró lépések is csökkentik a mentális súlyt. Te nem",
+  "lang": "hosszú",
+  "complete_message": "Te",
+  "welcome_sub": "Üdvözlöm",
+  "clearing_sub": "Mentális tisztulás",
+  "sorting_sub": "Rendezés",
+  "action_sub": "Lépések",
+  "reflect_sub": "Reflektív",
+  "intro": {
+    "viewHistory": "Nézd meg a történelemet"
+  }
 }

@@ -29,7 +29,8 @@
     "historyDesc": "過去の振り返りはここに保存されているので、いつでも再視聴できます。",
     "noHistory": "まだ価値観の振り返りを終えていません。",
     "startActivity": "活動開始",
-    "startNew": "新しい振り返りを始めよう"
+    "startNew": "新しい振り返りを始めよう",
+    "aligned": "アライメイド"
   },
   "values": {
     "Family": "家族",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長い",
+  "app_duration": "5分",
+  "loading": "反射を読み込んで..."
 }

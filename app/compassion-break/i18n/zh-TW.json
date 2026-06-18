@@ -111,5 +111,14 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "長篇",
+  "intro": {
+    "view_past": "查看過去的場次"
+  },
+  "history": {
+    "title": "自我慈悲的歷史",
+    "no_entries": "沒有找到過去的故障記錄。"
+  },
+  "loading": "載入歷史......"
 }

@@ -1,40 +1,40 @@
 {
-  "steps": [
-    {
+  "steps": {
+    "0": {
       "body": "Sama-sama tayong magpahinga.\n\nSa susunod na minuto, wala kang kailangang lutasin, ayusin, o sagutin. Hayaan mo na lang na mabagal ang iyong sarili.\n\nUmupo nang komportable, ilagay ang iyong mga paa sa lupa kung maaari, at dahan-dahang huminga nang mabagal sa... at dahan-dahang huminga.\n\nIto na ang iyong oras upang i-reset at muling kumonekta sa kasalukuyan.",
       "button": "Magsimula"
     },
-    {
+    "1": {
       "heading": "5 Mga Bagay na Maaari Mong Makita",
       "body": "Dahan-dahang tumingin sa paligid mo. Hayaang malumanay na gumalaw ang iyong mga mata sa espasyo. Pansinin ang mga kulay, hugis, ilaw, anino, o maliliit na detalye na maaaring hindi mo pa napansin.",
       "button": "Susunod"
     },
-    {
+    "2": {
       "heading": "4 Mga Bagay na Maaari Mong Madama",
       "body": "Dalhin ang iyong pansin sa iyong katawan. Pakiramdam ang iyong mga paa ay nakahawak sa sahig, ang iyong likod sa upuan, ang iyong mga damit sa iyong balat, o ang hangin sa paligid mo. Kilalanin ang apat na pisikal na sensasyon.",
       "button": "Susunod"
     },
-    {
+    "3": {
       "heading": "3 Mga Bagay na Maaari Mong Marinig",
       "body": "Makinig nang mabuti. Maaari kang makarinig ng mga tunog sa malayo, fan, pag-type, paghinga, o kahit katahimikan. Tukuyin ang tatlong tunog nang hindi hinuhusgahan ang mga ito.",
       "button": "Susunod"
     },
-    {
+    "4": {
       "heading": "2 Mga Bagay na Maaari Mong Amoy",
       "body": "Tingnan kung makakakita ka ng anumang amoy sa silid. Kung walang nakatayo, pansinin lamang ang neutral na amoy ng hangin sa paligid mo.",
       "button": "Susunod"
     },
-    {
+    "5": {
       "heading": "1 Bagay na Maaari Mong Tikman",
       "body": "Bigyang-pansin ang lasa sa iyong bibig. Maaari itong maging banayad o neutral - obserbahan lamang ito.",
       "button": "Susunod"
     },
-    {
+    "6": {
       "heading": "Pagmumuni-muni",
       "body": "Huminga nang mabagal sa... at malumanay na huminga.",
       "button": "Email Address *"
     }
-  ],
+  },
   "common": {
     "get_started": "Get Started",
     "start_over": "Magsimula Muli",
@@ -62,7 +62,10 @@
     "phase_label": "Phase",
     "rounds_selector": "{{count}} Rounds",
     "instruction_ready": "Set your rounds and tap play to begin",
-    "instruction_running": "Follow the circle to regulate your breath"
+    "instruction_running": "Follow the circle to regulate your breath",
+    "you_feel": "You feel",
+    "reflection_question": "How do you feel after this grounding practice?",
+    "reflection_placeholder": "Calmer, grounded..."
   },
   "app_title": "5-4-3-2-1 Pagsasanib",
   "intro_p1": "Mabilis na binabawasan ang pagkabalisa",
@@ -90,5 +93,7 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "lang",
+  "\\n\\n": "\\n\\n"
 }

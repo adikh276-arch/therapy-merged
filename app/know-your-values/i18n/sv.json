@@ -29,7 +29,8 @@
     "historyDesc": "Dina tidigare reflektioner sparas här så att du kan återvända till dem när som helst.",
     "noHistory": "Du har inte gjort en värderingsreflektion än.",
     "startActivity": "Startaktivitet",
-    "startNew": "Börja med ny reflektion"
+    "startNew": "Börja med ny reflektion",
+    "aligned": "Linjerad"
   },
   "values": {
     "Family": "Familj",
@@ -103,5 +104,8 @@
   "yes": "Yes",
   "no": "No",
   "date": "Date",
-  "continue": "Continue"
+  "continue": "Continue",
+  "lang": "Lång",
+  "app_duration": "5 minuter",
+  "loading": "Laddar reflektioner..."
 }
