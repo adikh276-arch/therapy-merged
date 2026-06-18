@@ -16,6 +16,8 @@ async function ensureTableExists() {
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
     `;
+    // Add missing columns if table already existed without them
+    await db`ALTER TABLE gratitude_tracker_entries ADD COLUMN IF NOT EXISTS gratitude2 TEXT`.catch(() => {});
     // Also try to alter mood_emoji to be longer in case it was created as VARCHAR(10)
     // and failed due to longer emoji names or React nodes
     await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN mood_emoji TYPE VARCHAR(255)`.catch(() => {});
