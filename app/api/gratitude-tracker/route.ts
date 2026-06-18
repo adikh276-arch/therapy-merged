@@ -52,8 +52,11 @@ export async function GET(req: NextRequest) {
     }
 
     if (month) {
-      const monthStart = month + "-00";
-      const monthEnd = month + "-31";
+      const [yearStr, monthStr] = month.split("-");
+      const lastDay = new Date(parseInt(yearStr), parseInt(monthStr), 0).getDate();
+      const monthStart = `${month}-01`;
+      const monthEnd = `${month}-${lastDay}`;
+      
       const rows = await db`
         SELECT id, date, gratitude1, gratitude2, mood_emoji, mood_label FROM gratitude_tracker_entries
         WHERE user_id = ${userId} AND date >= ${monthStart} AND date <= ${monthEnd}
@@ -70,14 +73,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json(rows);
   } catch (err: any) {
     console.error("Failed to fetch gratitude tracker entries:", err);
-    return NextResponse.json([{
-      id: "error-row",
-      date: "2026-06-01",
-      gratitude1: "DB ERROR: " + (err?.message || String(err)),
-      gratitude2: "",
-      mood_emoji: "low",
-      mood_label: "Low"
-    }]);
+    return NextResponse.json({ error: "Database error", detail: err.message }, { status: 500 });
   }
 }
 
@@ -109,7 +105,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ success: true });
   } catch (err: any) {
     console.error("Failed to save gratitude tracker entry:", err);
-    return NextResponse.json({ error: "Database error", detail: err.message }, { status: 500 });
+    // Temporary: return 200 with the error so frontend doesn't swallow it and we can check it
+    return NextResponse.json({ error: "Database error", detail: err.message }, { status: 400 });
   }
 }
 
