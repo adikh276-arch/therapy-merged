@@ -31,7 +31,11 @@ export async function GET() {
       WHERE user_id = ${userId} 
       ORDER BY date DESC
     `;
-    return NextResponse.json(rows);
+    const formattedRows = rows.map((r: any) => ({
+      ...r,
+      date: r.date instanceof Date ? r.date.toISOString().split('T')[0] : (typeof r.date === 'string' ? r.date.split('T')[0] : r.date)
+    }));
+    return NextResponse.json(formattedRows);
   } catch (err) {
     console.error("Failed to fetch energy logs:", err);
     return NextResponse.json({ error: "Database error" }, { status: 500 });
