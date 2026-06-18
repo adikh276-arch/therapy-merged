@@ -127,11 +127,16 @@ function GratitudeTrackerInner() {
     };
 
     try {
-      await fetch(apiPath('/api/gratitude-tracker'), {
+      const res = await fetch(apiPath('/api/gratitude-tracker'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
+      if (!res.ok) {
+        const errData = await res.json().catch(() => ({}));
+        alert("SAVE FAILED: " + JSON.stringify(errData));
+        return;
+      }
       setCurrentEntryId(id);
       setScreen('review');
     } catch (err) {
