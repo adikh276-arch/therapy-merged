@@ -48,7 +48,11 @@ export async function GET(req: NextRequest) {
         ORDER BY date DESC, id DESC
         LIMIT 1
       `;
-      return NextResponse.json(rows[0] || null);
+      const formattedRows = rows.map((r: any) => ({
+        ...r,
+        date: r.date instanceof Date ? r.date.toISOString().split('T')[0] : (typeof r.date === 'string' ? r.date.split('T')[0] : r.date)
+      }));
+      return NextResponse.json(formattedRows[0] || null);
     }
 
     if (month) {
@@ -62,7 +66,11 @@ export async function GET(req: NextRequest) {
         WHERE user_id = ${userId} AND date >= ${monthStart} AND date <= ${monthEnd}
         ORDER BY date ASC, id DESC
       `;
-      return NextResponse.json(rows);
+      const formattedRows = rows.map((r: any) => ({
+        ...r,
+        date: r.date instanceof Date ? r.date.toISOString().split('T')[0] : (typeof r.date === 'string' ? r.date.split('T')[0] : r.date)
+      }));
+      return NextResponse.json(formattedRows);
     }
 
     const rows = await db`
@@ -70,7 +78,11 @@ export async function GET(req: NextRequest) {
       WHERE user_id = ${userId}
       ORDER BY date DESC, id DESC
     `;
-    return NextResponse.json(rows);
+    const formattedRows = rows.map((r: any) => ({
+      ...r,
+      date: r.date instanceof Date ? r.date.toISOString().split('T')[0] : (typeof r.date === 'string' ? r.date.split('T')[0] : r.date)
+    }));
+    return NextResponse.json(formattedRows);
   } catch (err: any) {
     console.error("Failed to fetch gratitude tracker entries:", err);
     return NextResponse.json({ error: "Database error", detail: err.message }, { status: 500 });
