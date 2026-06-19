@@ -226,7 +226,7 @@ const ShareModal: React.FC<ShareModalProps> = ({
 
                   <div className="relative flex items-center gap-4">
                     <div
-                      className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
+                      className="w-14 h-14 rounded-2xl flex items-center justify-center text-[28px] text-white flex-shrink-0 drop-shadow-sm [&>svg]:!w-7 [&>svg]:!h-7 [&>svg]:!stroke-white [&>svg]:!stroke-[1.5]"
                       style={{ background: 'rgba(255,255,255,0.2)', backdropFilter: 'blur(8px)' }}
                     >
                       {emoji}
