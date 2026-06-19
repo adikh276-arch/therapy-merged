@@ -1,4 +1,4 @@
-name: Build & Push therapy:5.1
+name: Build & Push therapy:1.0
 
 on:
   push:
@@ -45,7 +45,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            bunker.mantracare.com/lovable/therapy:5.1
+            bunker.mantracare.com/lovable/therapy:1.0
           # These build-args flow into ARG declarations in Dockerfile
           # and are baked into ENV vars in BOTH builder and runner stages
           build-args: |
