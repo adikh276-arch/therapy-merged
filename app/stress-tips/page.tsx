@@ -11,7 +11,7 @@ interface Tip {
   slug: string;
   title: string;
   description: string;
-  icon: string;
+  icon: React.ReactNode;
   iconBg: string;
   whyItHelps: string;
   whatYouCanDo: string[];
@@ -24,7 +24,7 @@ const TIPS: Tip[] = [
     slug: "sleep",
     title: "Get Restful Sleep",
     description: "Aim for 7–9 hours of sleep each night. Try to sleep and wake up at the same time daily.",
-    icon: "",
+    icon: <Moon />,
     iconBg: "bg-cyan-50  text-cyan-600",
     whyItHelps: "Sleep helps your brain and body recover and lowers stress hormones.",
     whatYouCanDo: [
@@ -39,7 +39,7 @@ const TIPS: Tip[] = [
     slug: "breathing",
     title: "Practice Deep Breathing",
     description: "Spend a few minutes focusing on your breath. Slow breathing reduces anxiety.",
-    icon: "️",
+    icon: <Wind />,
     iconBg: "bg-teal-50  text-teal-600",
     whyItHelps: "Slow breathing activates your body's relaxation response.",
     whatYouCanDo: [
@@ -54,7 +54,7 @@ const TIPS: Tip[] = [
     slug: "exercise",
     title: "Move Your Body",
     description: "Light walking or stretching helps release stress and improve mood.",
-    icon: "",
+    icon: <Footprints />,
     iconBg: "bg-blue-50  text-blue-600",
     whyItHelps: "Exercise releases endorphins and improves mood.",
     whatYouCanDo: [
@@ -68,7 +68,7 @@ const TIPS: Tip[] = [
     slug: "caffeine",
     title: "Limit Caffeine & Sugar",
     description: "Too much caffeine and sugar can increase anxiety and disturb sleep.",
-    icon: "",
+    icon: <Coffee />,
     iconBg: "bg-white/40 backdrop-blur-sm shadow-sm border border-white/50  text-slate-600",
     whyItHelps: "Too much caffeine and sugar increases anxiety and sleep problems.",
     whatYouCanDo: [
@@ -82,7 +82,7 @@ const TIPS: Tip[] = [
     slug: "planning",
     title: "Plan Your Day",
     description: "Break large tasks into smaller steps to avoid feeling overwhelmed.",
-    icon: "",
+    icon: <ClipboardList />,
     iconBg: "bg-amber-50  text-amber-600",
     whyItHelps: "Planning reduces mental clutter and overwhelm.",
     whatYouCanDo: [
