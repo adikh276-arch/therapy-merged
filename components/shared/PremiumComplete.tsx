@@ -19,8 +19,8 @@ interface PremiumCompleteProps {
   hideShare?: boolean;
   /** Custom share message — shown inside the ShareModal for this activity */
   shareContent?: string;
-  /** Emoji to show in the ShareModal activity card. Default:  */
-  shareEmoji?: string;
+  /** Emoji or Icon to show in the ShareModal activity card. Falls back to main icon. */
+  shareEmoji?: React.ReactNode;
   /** Replaces the entire action row with custom buttons */
   customActions?: React.ReactNode;
 }
@@ -58,7 +58,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
   icon,
   hideShare = false,
   shareContent,
-  shareEmoji = '',
+  shareEmoji,
   customActions,
 }) => {
   const { t } = useTranslation();
@@ -283,7 +283,7 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
         onClose={() => setIsShareOpen(false)}
         activityName={displayTitle}
         shareContent={shareContent}
-        emoji={shareEmoji}
+        emoji={shareEmoji || icon || <CheckCircle2 size={24} />}
       />
     </motion.div>
   );

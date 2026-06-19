@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   X, Copy, Check, Share2, Link2,
-  Sparkles, Heart
+  Sparkles, Heart, CheckCircle2
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -44,8 +44,8 @@ interface ShareModalProps {
   activityName: string;
   /** Optional custom message for this specific activity. Falls back to generic. */
   shareContent?: string;
-  /** Optional emoji to show in the preview card. Default:  */
-  emoji?: string;
+  /** Optional emoji or icon to show in the preview card. */
+  emoji?: React.ReactNode;
 }
 
 const APP_ANDROID = 'https://play.google.com/store/apps/details?id=org.mantracare.therapy';
@@ -56,7 +56,7 @@ const ShareModal: React.FC<ShareModalProps> = ({
   onClose,
   activityName,
   shareContent,
-  emoji = '',
+  emoji,
 }) => {
   const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
