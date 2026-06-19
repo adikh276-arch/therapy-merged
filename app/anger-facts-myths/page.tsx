@@ -294,7 +294,6 @@ function AngerQuizInner() {
                 title={t("results_title", "Anger Quiz Complete!")}
                 message={t("results_message", "You've gained a better understanding of how anger functions in our lives.")}
                 onRestart={handleRetry}
-                shareEmoji=""
                 shareContent={`I just scored ${score}/${TOTAL} on the Anger Facts & Myths Quiz in TherapyMantra. \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
               >
                 <div className="w-full bg-white border border-slate-100 rounded-3xl p-8 shadow-xl text-center my-6">

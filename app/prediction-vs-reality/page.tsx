@@ -259,7 +259,6 @@ function PredictionVsRealityInner() {
           title={t("app_title", "Prediction vs Reality")}
           message={t("complete.message", "Excellent job testing your anxiety predictions. Over time, this builds deep confidence that you can handle whatever life brings.")}
           onRestart={reset}
-                  shareEmoji=""
                   shareContent={"I just completed 'Prediction vs Reality' on TherapyMantra — a guided anxiety reframing that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>

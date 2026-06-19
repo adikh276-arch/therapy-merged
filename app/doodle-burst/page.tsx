@@ -648,7 +648,6 @@ function DoodleBurstInner() {
               className="w-full"
             >
               <PremiumComplete
-        shareEmoji=""
         shareContent={`I just completed "Doodle Burst" on TherapyMantra — a guided creative expression that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                 title={t('end_title', 'Nice doodling! ')}
                 message={t('end_saved', 'Your doodle has been saved! ')}

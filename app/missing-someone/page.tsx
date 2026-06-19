@@ -88,7 +88,6 @@ function MissingSomeoneInner() {
         title={t("app_title", "Missing Someone")}
         message={t("complete_message", "You've successfully completed this reflection. Remembering is a natural, normal part of love.")}
         onRestart={() => setCurrentScreen(0)}
-                  shareEmoji=""
                   shareContent={"I just completed 'Missing Someone' on TherapyMantra — a guided grief support that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );

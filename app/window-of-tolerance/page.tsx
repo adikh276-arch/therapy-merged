@@ -575,7 +575,6 @@ function WindowInner() {
         title={t("app_title", "Window of Tolerance")}
         message={t("complete.message", "Excellent job tuning in and regulating your nervous system today. Over time, checking in creates self-directed regulation baselines.")}
         onRestart={() => setScreen(0)}
-                  shareEmoji="🪟"
                   shareContent={"I just completed 'Window of Tolerance' on TherapyMantra — a guided emotional regulation that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );

@@ -383,7 +383,6 @@ function VibeTrackerInner() {
                   onRestart={handleDone}
                   onHome={handleDone}
                   icon={<Heart size={48} fill="currentColor" className="text-primary animate-pulse" />}
-                  shareEmoji="️"
                   shareContent={"I just completed 'Vibe Tracker' on TherapyMantra — a guided mood tracking that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="flex flex-col gap-4 mt-8 w-full max-w-sm mx-auto">

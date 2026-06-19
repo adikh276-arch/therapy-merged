@@ -33,7 +33,6 @@ const CompletionScreen = () => {
         message={`${t('notice_body')} ${t('breath_slower')} ${t('chest_softer')}`}
         onRestart={() => router.push(withLang("/4_6_8_breathing/breathe"))}
         icon={<Wind size={48} />}
-                  shareEmoji="️"
                   shareContent={"I just completed '4-6-8 Breathing' on TherapyMantra — a guided breathing exercises that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       >
         <div className="w-full flex flex-col gap-4 text-left mt-8">

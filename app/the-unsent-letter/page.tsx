@@ -154,7 +154,6 @@ function TheUnsentLetterInner() {
           title={t("app_title", "The Unsent Letter")}
           message={t("reflection.save_success", "Your unsent letter is safely mended in your private local journal. Expression is a profound release.")}
           onRestart={reset}
-                  shareEmoji="️"
                   shareContent={"I just completed 'The Unsent Letter' on TherapyMantra — a guided emotional release that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>

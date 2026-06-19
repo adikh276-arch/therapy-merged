@@ -342,7 +342,6 @@ function SelfCareBingoInner() {
                 )}
                 onRestart={handleResetBoard}
                 icon={<Award size={48} className="text-primary animate-pulse" />}
-                  shareEmoji=""
                   shareContent={"I just completed 'Self-Care Bingo' on TherapyMantra — a guided self-care challenge that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
               />
             </motion.div>

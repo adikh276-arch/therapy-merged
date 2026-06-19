@@ -215,7 +215,6 @@ function FoodEmotionMapInner() {
           title={t("app_title", "Food & Emotion Map")}
           message={t("complete_message", "You've successfully mapped the connection between your feelings and food. This awareness is a powerful tool for gentle change.")}
           onRestart={reset}
-                  shareEmoji=""
                   shareContent={"I just completed 'Food and Emotion Map' on TherapyMantra — a guided emotional eating awareness that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>

@@ -260,7 +260,6 @@ function WhatDoINeedInner() {
   if (screen === 4) {
     return (
       <PremiumComplete
-        shareEmoji=""
         shareContent={`I just completed "What Do I Need" on TherapyMantra — a guided self-reflection that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
         title={t("app_title", "What Do I Need?")}
         message={t("complete.message", { need: primaryNeed, defaultValue: `You've identified that you need "${primaryNeed}". Honoring your needs is a vital form of self-care.` })}

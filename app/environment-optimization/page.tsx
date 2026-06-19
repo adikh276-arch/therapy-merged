@@ -299,7 +299,6 @@ function EnvironmentOptimizationInner() {
                 }
                 onRestart={handleResetAll}
                 icon={<Sparkles size={48} />}
-                  shareEmoji=""
                   shareContent={"I just completed 'Environment Optimization' on TherapyMantra — a guided wellness optimization that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
               >
                 <div className="space-y-6 w-full mt-6">

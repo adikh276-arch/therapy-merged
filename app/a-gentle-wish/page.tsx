@@ -388,7 +388,6 @@ function GentleWishInner() {
               <PremiumComplete
                 title={t("reflection_title", "Tribute Preserved")}
                 message={t("reflection_footer", "Your thoughts and commitments are kept secure. Let these memories continue to spark light inside you.")}
-                shareEmoji=""
                 shareContent={`I just dedicated a Gentle Wish to honor a loved one on TherapyMantra ️\n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
                 onHome={() => setScreen("welcome")}
                 onRestart={addAnother}

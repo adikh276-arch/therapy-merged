@@ -156,7 +156,6 @@ function GriefInner() {
           title={t("app_title")}
           message={t("complete_message")}
           onRestart={handleRestart}
-                  shareEmoji="️"
                   shareContent={"I just completed 'Grief Journey Map' on TherapyMantra — a guided grief processing that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>

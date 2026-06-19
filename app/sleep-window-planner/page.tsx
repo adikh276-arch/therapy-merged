@@ -525,7 +525,6 @@ function SleepWindowInner() {
         title={t("app_title", "Sleep Window Planner")}
         message={t("complete.message", "Your ideal sleep window has been mapped. Consistency is the key to deep, restorative rest.")}
         onRestart={() => setScreen(1)}
-                  shareEmoji=""
                   shareContent={"I just completed 'Sleep Window Planner' on TherapyMantra — a guided sleep scheduling that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );

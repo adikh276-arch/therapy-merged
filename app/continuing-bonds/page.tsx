@@ -145,7 +145,6 @@ function ContinuingBondsInner() {
         title={t("app_title", "Continuing Bonds")}
         message={t("complete_message", "The connection you shared continues in many ways. Remembering and honoring them is a form of deep strength.")}
         onRestart={reset}
-                  shareEmoji="️"
                   shareContent={"I just completed 'Continuing Bonds' on TherapyMantra — a guided grief healing exercise that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
       />
     );

@@ -181,7 +181,6 @@ function WhyBrainGetsStuckInner() {
                 title={t("app_title", "Why Brain Gets Stuck")}
                 message={t("complete.message", "You've taken a powerful step by understanding how your brain works. Knowledge is the first part of healing.")}
                 onRestart={() => setScreen(0)}
-                shareEmoji=""
                 shareContent={`I just learned about "Why the Brain Gets Stuck" on TherapyMantra — understanding survival logic really helps. \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888`}
               />
             )}

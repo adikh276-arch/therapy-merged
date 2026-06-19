@@ -195,7 +195,6 @@ function RedrawCircleInner() {
           title={t("app_title", "Redraw Your Circle")}
           message={t("reflection.saved_success", "Your interpersonal map is safely stored in your journal. Cultivating these support nodes helps keep us resilient.")}
           onRestart={reset}
-                  shareEmoji=""
                   shareContent={"I just completed 'Redraw Your Circle' on TherapyMantra — a guided relationship mapping that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
         />
       </PremiumLayout>

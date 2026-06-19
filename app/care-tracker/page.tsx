@@ -609,7 +609,6 @@ function CareTrackerInner() {
                   title={t('app_title', 'Self-Care Log')}
                   message={t('screens.review.subtitle', "Fantastic work reflecting on today's self-care habits.")}
                   onRestart={resetFlow}
-                  shareEmoji=""
                   shareContent={"I just completed 'Self-Care Log' on TherapyMantra — a guided self-care tracking that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
                 >
                   <div className="grid gap-3 w-full max-w-md mx-auto mt-10">
