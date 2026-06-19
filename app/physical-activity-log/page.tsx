@@ -6,7 +6,8 @@ import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Dumbbell, Flame, Check, X, Pencil, Trash2,
-  Plus, Loader2, Activity, ChevronDown, ChevronUp, Award, Zap, Clock, Calendar
+  Plus, Loader2, Activity, ChevronDown, ChevronUp, Award, Zap, Clock, Calendar,
+  Footprints, Flower2, Bike, Waves, Mountain, Music, Expand, Brain
 } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
@@ -43,6 +44,22 @@ const EMOJI_MAP: Record<string, string> = {
 
 function getEmoji(name: string): string {
   return EMOJI_MAP[name.toLowerCase()] || '🏃';
+}
+
+function getIcon(name: string, size: number = 24) {
+  switch (name.toLowerCase()) {
+    case 'run': return <Activity size={size} />;
+    case 'walk': return <Footprints size={size} />;
+    case 'yoga': return <Flower2 size={size} />;
+    case 'gym': return <Dumbbell size={size} />;
+    case 'bike': return <Bike size={size} />;
+    case 'swim': return <Waves size={size} />;
+    case 'hike': return <Mountain size={size} />;
+    case 'dance': return <Music size={size} />;
+    case 'stretch': return <Expand size={size} />;
+    case 'meditation': return <Brain size={size} />;
+    default: return <Activity size={size} />;
+  }
 }
 
 const toLocalIsoDate = (date: Date): string => {
@@ -268,7 +285,9 @@ function PhysicalActivityLogInner() {
                           : 'border-slate-100 bg-slate-50 text-slate-500 hover:border-primary/40'
                       }`}
                     >
-                      <span className="text-xl">{opt.emoji}</span>
+                      <span className="flex items-center justify-center h-8 text-current">
+                        {getIcon(opt.name, 22)}
+                      </span>
                       <span className="text-[8px] font-black uppercase tracking-tight leading-none">{opt.name}</span>
                     </button>
                   ))}
@@ -411,8 +430,8 @@ function PhysicalActivityLogInner() {
                     </div>
                   ) : (
                     <div className="flex items-center gap-3 p-4">
-                      <div className="w-12 h-12 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center text-2xl shrink-0">
-                        {a.emoji || '🏃'}
+                      <div className="w-12 h-12 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-500 shrink-0">
+                        {getIcon(a.name, 24)}
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">

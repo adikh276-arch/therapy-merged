@@ -1,9 +1,9 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Brain, History, Loader2, Sparkles, Plus, X, ArrowRight, ArrowLeft, CheckCircle2, ListFilter, MoveRight, Inbox, Clock, Trash2, Target, Check, Trash, Play, Pause, Calendar } from 'lucide-react';
+import { Brain, History, Loader2, Sparkles, Plus, X, ArrowRight, ArrowLeft, CheckCircle2, ListFilter, MoveRight, Inbox, Clock, Trash2, Target, Check, Trash, Play, Pause, Calendar, Feather, Equal, CloudRain } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
 import { PremiumIntro } from '@/components/shared/PremiumIntro';
@@ -605,10 +605,10 @@ interface ReflectionProps {
 }
 
 const feelings = [
-  { label: "Slightly lighter", emoji: "" },
+  { label: "Slightly lighter", icon: <Feather className="w-5 h-5" /> },
   { label: "More focused", icon: <Target className="w-5 h-5" /> },
-  { label: "About the same", emoji: "" },
-  { label: "Still overwhelmed", emoji: "" },
+  { label: "About the same", icon: <Equal className="w-5 h-5" /> },
+  { label: "Still overwhelmed", icon: <CloudRain className="w-5 h-5" /> },
 ];
 
 function Reflection({ onComplete, onBack }: ReflectionProps) {
