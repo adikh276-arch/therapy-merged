@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useRef, useEffect } from 'react';
 import { Save, Moon, ChevronRight, ChevronLeft, Sun, Lightbulb, PhoneOff, Ban, Bath, Pen, Target, Play } from "lucide-react";
@@ -509,7 +509,10 @@ function SleepWindowInner() {
         toast.success(t("toasts.save_success", "Sleep window saved"));
         navigate(4);
       } else {
-        toast.error(t("toasts.save_error", "Failed to save sleep window"));
+        const errData = await res.json().catch(() => ({}));
+        const detailedError = errData.message || errData.error || res.statusText;
+        console.error("Detailed API Error:", detailedError);
+        toast.error(`Failed to save: ${detailedError}`);
       }
     } catch (error) {
       console.error("Failed to save sleep window:", error);

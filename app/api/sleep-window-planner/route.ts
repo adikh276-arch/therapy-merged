@@ -5,7 +5,7 @@ import { db } from "@/lib/db";
 async function ensureTableExists() {
   try {
     await db`
-      CREATE TABLE IF NOT EXISTS sleep_window_planner_entries (
+      CREATE TABLE IF NOT EXISTS sleep_window_planner_data (
         id VARCHAR(255) PRIMARY KEY,
         user_id VARCHAR(255) NOT NULL,
         planner_data TEXT NOT NULL,
@@ -13,13 +13,13 @@ async function ensureTableExists() {
       )
     `;
   } catch (err) {
-    console.error("Failed to create table sleep_window_planner_entries:", err);
+    console.error("Failed to create table sleep_window_planner_data:", err);
   }
 
   // Auto-backfill any missing columns for legacy migrations
-  await db`ALTER TABLE sleep_window_planner_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255)`.catch(() => {});
+  await db`ALTER TABLE sleep_window_planner_data ADD COLUMN IF NOT EXISTS id VARCHAR(255)`.catch(() => {});
   // Try to add primary key constraint if it doesn't exist, to prevent ON CONFLICT from failing
-  await db`ALTER TABLE sleep_window_planner_entries ADD PRIMARY KEY (id)`.catch(() => {});
+  await db`ALTER TABLE sleep_window_planner_data ADD PRIMARY KEY (id)`.catch(() => {});
 }
 
 export async function GET() {
@@ -32,7 +32,7 @@ export async function GET() {
   try {
     await ensureTableExists();
     const rows = await db`
-      SELECT id, planner_data, created_at FROM sleep_window_planner_entries 
+      SELECT id, planner_data, created_at FROM sleep_window_planner_data 
       WHERE user_id = ${userId} 
       ORDER BY created_at DESC
     `;
@@ -57,17 +57,17 @@ export async function POST(req: NextRequest) {
     const id = entry.id || crypto.randomUUID();
     const plannerDataStr = JSON.stringify(entry);
 
-    const existing = await db`SELECT id FROM sleep_window_planner_entries WHERE id = ${id}`;
+    const existing = await db`SELECT id FROM sleep_window_planner_data WHERE id = ${id}`;
     
     if (existing.length > 0) {
       await db`
-        UPDATE sleep_window_planner_entries 
+        UPDATE sleep_window_planner_data 
         SET planner_data = ${plannerDataStr} 
         WHERE id = ${id} AND user_id = ${userId}
       `;
     } else {
       await db`
-        INSERT INTO sleep_window_planner_entries (id, user_id, planner_data, created_at)
+        INSERT INTO sleep_window_planner_data (id, user_id, planner_data, created_at)
         VALUES (${id}, ${userId}, ${plannerDataStr}, NOW())
       `;
     }
@@ -96,7 +96,7 @@ export async function DELETE(req: NextRequest) {
   try {
     await ensureTableExists();
     await db`
-      DELETE FROM sleep_window_planner_entries WHERE id = ${id} AND user_id = ${userId}
+      DELETE FROM sleep_window_planner_data WHERE id = ${id} AND user_id = ${userId}
     `;
     return NextResponse.json({ success: true });
   } catch (err) {
