@@ -12,8 +12,8 @@ async function ensureTableExists() {
     )
   `;
 
-    // Auto-backfill any missing columns for legacy migrations
-    await db`ALTER TABLE compassion_break_entries ADD COLUMN IF NOT EXISTS user_id VARCHAR(255)`.catch(() => {});
+  // Auto-backfill any missing columns for legacy migrations
+  await db`ALTER TABLE compassion_break_entries ADD COLUMN IF NOT EXISTS user_id VARCHAR(255)`.catch(() => {});
 }
 
 export async function GET() {
@@ -61,7 +61,7 @@ export async function POST(req: NextRequest) {
 
     await db`
       INSERT INTO compassion_break_entries (user_id, break_data)
-      VALUES (${userId}, ${JSON.stringify(body)})
+      VALUES (${userId}, ${JSON.stringify(body)}::jsonb)
     `;
 
     return NextResponse.json({ success: true });
