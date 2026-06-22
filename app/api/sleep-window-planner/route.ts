@@ -57,12 +57,20 @@ export async function POST(req: NextRequest) {
     const id = entry.id || crypto.randomUUID();
     const plannerDataStr = JSON.stringify(entry);
 
-    await db`
-      INSERT INTO sleep_window_planner_entries (id, user_id, planner_data, created_at)
-      VALUES (${id}, ${userId}, ${plannerDataStr}, NOW())
-      ON CONFLICT (id) 
-      DO UPDATE SET planner_data = EXCLUDED.planner_data
-    `;
+    const existing = await db`SELECT id FROM sleep_window_planner_entries WHERE id = ${id}`;
+    
+    if (existing.length > 0) {
+      await db`
+        UPDATE sleep_window_planner_entries 
+        SET planner_data = ${plannerDataStr} 
+        WHERE id = ${id} AND user_id = ${userId}
+      `;
+    } else {
+      await db`
+        INSERT INTO sleep_window_planner_entries (id, user_id, planner_data, created_at)
+        VALUES (${id}, ${userId}, ${plannerDataStr}, NOW())
+      `;
+    }
 
     return NextResponse.json({ success: true, id });
   } catch (err) {
