@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
+import { PremiumComplete } from '@/components/shared/PremiumComplete';
 import { apiPath } from '@/lib/apiPath';
 
 interface ActivityEntry {
@@ -76,6 +77,7 @@ function PhysicalActivityLogInner() {
   const [isLoading, setIsLoading]       = useState(true);
   const [showForm, setShowForm]         = useState(false);
   const [editingId, setEditingId]       = useState<number | null>(null);
+  const [showComplete, setShowComplete] = useState(false);
 
   // Form
   const [dateStr, setDateStr]           = useState(toLocalIsoDate(new Date()));
@@ -130,6 +132,7 @@ function PhysicalActivityLogInner() {
         setActivities(prev => [newRecord, ...prev]);
         setActivityName(''); setDuration(''); setNotes('');
         setShowForm(false);
+        setShowComplete(true);
       }
     } catch (e) { console.error(e); }
     finally { setIsSaving(false); }
@@ -197,6 +200,15 @@ function PhysicalActivityLogInner() {
       icon={<Dumbbell className="w-5 h-5 text-primary" />}
     >
       <div className="w-full max-w-lg mx-auto px-4 pb-24 space-y-5">
+        {showComplete ? (
+          <PremiumComplete
+            title={t('app_title', 'Activity Log')}
+            message={t('complete_message', "You've successfully completed this activity. Regular movement builds a stronger mind.")}
+            onRestart={() => setShowComplete(false)}
+            shareContent="I just completed 'Activity Log' on TherapyMantra — a guided physical activity logging that genuinely helped me. Try it! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"
+          />
+        ) : (
+          <>
 
         {/* ─── STATS ROW ─── */}
         <div className="grid grid-cols-2 gap-3 pt-2">
@@ -249,17 +261,30 @@ function PhysicalActivityLogInner() {
         </div>
 
         {/* ─── ADD BUTTON / FORM TOGGLE ─── */}
-        <motion.button
-          whileTap={{ scale: 0.98 }}
-          onClick={() => setShowForm(v => !v)}
-          className="w-full flex items-center justify-between px-5 py-4 bg-primary text-white rounded-2xl font-black text-base shadow-lg shadow-primary/20"
-        >
-          <span className="flex items-center gap-2">
-            <Plus size={20} />
-            Log New Activity
-          </span>
-          {showForm ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
-        </motion.button>
+        <div className="flex flex-col gap-3">
+          <motion.button
+            whileTap={{ scale: 0.98 }}
+            onClick={() => setShowForm(v => !v)}
+            className="w-full flex items-center justify-between px-5 py-4 bg-primary text-white rounded-2xl font-black text-base shadow-lg shadow-primary/20"
+          >
+            <span className="flex items-center gap-2">
+              <Plus size={20} />
+              Log New Activity
+            </span>
+            {showForm ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
+          </motion.button>
+
+          {!showForm && (
+            <motion.button
+              whileTap={{ scale: 0.98 }}
+              onClick={() => setShowComplete(true)}
+              className="w-full flex items-center justify-center gap-2 px-5 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-2xl font-black text-base shadow-lg shadow-emerald-500/20 transition-all"
+            >
+              <Check size={20} strokeWidth={3} />
+              {t('common.finish_exit', 'Finish & Exit')}
+            </motion.button>
+          )}
+        </div>
 
         {/* ─── LOG FORM ─── */}
         <AnimatePresence>
@@ -462,6 +487,8 @@ function PhysicalActivityLogInner() {
             </AnimatePresence>
           )}
         </div>
+          </>
+        )}
       </div>
     </PremiumLayout>
   );
