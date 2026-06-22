@@ -13,7 +13,7 @@ async function ensureTableExists() {
   `;
 
     // Auto-backfill any missing columns for legacy migrations
-    await db`ALTER TABLE doodle_burst_logs ADD COLUMN IF NOT EXISTS id VARCHAR(255`.catch(() => {});
+    await db`ALTER TABLE doodle_burst_logs ADD COLUMN IF NOT EXISTS id VARCHAR(255)`.catch(() => {});
 }
 
 export async function GET() {

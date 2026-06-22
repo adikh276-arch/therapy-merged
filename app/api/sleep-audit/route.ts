@@ -14,7 +14,7 @@ async function ensureTableExists() {
   `;
 
     // Auto-backfill any missing columns for legacy migrations
-    await db`ALTER TABLE sleep_audit_entries ADD COLUMN IF NOT EXISTS user_id VARCHAR(255`.catch(() => {});
+    await db`ALTER TABLE sleep_audit_entries ADD COLUMN IF NOT EXISTS user_id VARCHAR(255)`.catch(() => {});
 }
 
 export async function GET() {
