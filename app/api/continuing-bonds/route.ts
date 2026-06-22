@@ -3,17 +3,25 @@ import { cookies } from "next/headers";
 import { db } from "@/lib/db";
 
 async function ensureTableExists() {
-  await db`
-    CREATE TABLE IF NOT EXISTS continuing_bonds_entries (
-      id VARCHAR(255) PRIMARY KEY,
-      user_id VARCHAR(255) NOT NULL,
-      bond_data TEXT NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    )
-  `;
+  try {
+    await db`
+      CREATE TABLE IF NOT EXISTS continuing_bonds_entries (
+        id VARCHAR(255) PRIMARY KEY,
+        user_id VARCHAR(255) NOT NULL,
+        bond_data TEXT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `;
+  } catch (err) {
+    console.error("Failed to create table:", err);
+  }
 
-    // Auto-backfill any missing columns for legacy migrations
-    await db`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255)`.catch(() => {});
+  // Bruteforce all possible legacy schema mismatches
+  try { await db`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255)`; } catch (e) {}
+  try { await db`ALTER TABLE continuing_bonds_entries ALTER COLUMN id TYPE VARCHAR(255) USING id::VARCHAR`; } catch (e) {}
+  try { await db`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS user_id VARCHAR(255)`; } catch (e) {}
+  try { await db`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS bond_data TEXT`; } catch (e) {}
+  try { await db`ALTER TABLE continuing_bonds_entries ADD COLUMN IF NOT EXISTS created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP`; } catch (e) {}
 }
 
 export async function GET() {
@@ -33,7 +41,7 @@ export async function GET() {
     return NextResponse.json(rows);
   } catch (err) {
     console.error("Failed to fetch bond reflections:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: err instanceof Error ? err.message : String(err) }, { status: 500 });
   }
 }
 
@@ -62,7 +70,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error("Failed to save bond reflection:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: err instanceof Error ? err.message : String(err) }, { status: 500 });
   }
 }
 
@@ -88,6 +96,6 @@ export async function DELETE(req: NextRequest) {
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error("Failed to delete bond reflection:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: err instanceof Error ? err.message : String(err) }, { status: 500 });
   }
 }

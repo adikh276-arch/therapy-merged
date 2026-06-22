@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import { parseDbDate } from '@/lib/dateUtils';
 
 import { useState, useMemo, useEffect } from "react";
