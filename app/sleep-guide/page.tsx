@@ -214,7 +214,7 @@ function SleepGuideInner() {
                 <ChevronRight size={20} />
               </button>
             </motion.div>
-          ) : (
+          ) : screen === 1 ? (
             <motion.div
               key="screen2"
               initial={{ opacity: 0, x: 20 }}
