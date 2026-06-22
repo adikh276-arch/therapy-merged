@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Moon, Sparkles, ChevronRight, CheckCircle2, RefreshCw, Sun, Waves, Coffee, Smartphone, Wine, Frown } from "lucide-react";
 import i18n, { loadLocale } from './i18n';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
+import { PremiumComplete } from '@/components/shared/PremiumComplete';
 
 // Inline simple StarField sparkle dots
 const StarField = () => {
@@ -154,16 +155,18 @@ function SleepCycleGuideInner() {
       <div className="relative w-full max-w-md mx-auto min-h-[70vh] flex flex-col px-6">
         <StarField />
 
-        <div className="flex justify-center gap-2 mb-8 relative z-10">
-          {[0, 1, 2, 3].map((i) => (
-            <div
-              key={i}
-              className={`h-1.5 rounded-full transition-all duration-300 ${
-                i === step ? "w-8 bg-primary" : "w-2 bg-slate-150 "
-              }`}
-            />
-          ))}
-        </div>
+        {step < 4 && (
+          <div className="flex justify-center gap-2 mb-8 relative z-10">
+            {[0, 1, 2, 3].map((i) => (
+              <div
+                key={i}
+                className={`h-1.5 rounded-full transition-all duration-300 ${
+                  i === step ? "w-8 bg-primary" : "w-2 bg-slate-150 "
+                }`}
+              />
+            ))}
+          </div>
+        )}
 
         <div className="relative z-10 flex-1 flex flex-col justify-between pb-8">
           <AnimatePresence mode="wait">
@@ -410,13 +413,39 @@ function SleepCycleGuideInner() {
                   </p>
                 </div>
 
-                <button
-                  onClick={resetFlow}
-                  className="w-full py-5 rounded-[2rem] bg-gradient-to-r from-primary to-indigo-500 text-white font-black text-lg shadow-xl shadow-primary/10 hover:opacity-95 transition-all mt-auto flex items-center justify-center gap-2"
-                >
-                  <RefreshCw size={18} />
-                  {t("s4.button", "Restart Guide")}
-                </button>
+                <div className="space-y-4 mt-auto">
+                  <button
+                    onClick={() => setStep(4)}
+                    className="w-full py-5 rounded-[2rem] bg-gradient-to-r from-primary to-indigo-500 text-white font-black text-lg shadow-xl shadow-primary/10 hover:opacity-95 transition-all flex items-center justify-center gap-3"
+                  >
+                    {t("s4.complete", "Complete Activity")}
+                    <ChevronRight size={20} />
+                  </button>
+                  <button
+                    onClick={resetFlow}
+                    className="w-full py-5 rounded-[2rem] bg-white text-slate-600 font-black text-lg border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-2 shadow-sm"
+                  >
+                    <RefreshCw size={18} />
+                    {t("s4.button", "Restart Guide")}
+                  </button>
+                </div>
+              </motion.div>
+            )}
+
+            {/* SCREEN 4: COMPLETION */}
+            {step === 4 && (
+              <motion.div
+                key="screen4"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="flex-1 flex flex-col w-full"
+              >
+                <PremiumComplete
+                  title={t("complete.title", "Sleep Cycle Guide Complete")}
+                  message={t("complete.message", "You've learned how to align your sleep patterns with your body's natural rhythms.")}
+                  onRestart={resetFlow}
+                  shareContent={"I just finished the Sleep Cycle Guide on TherapyMantra! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+                />
               </motion.div>
             )}
           </AnimatePresence>

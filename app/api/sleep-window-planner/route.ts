@@ -3,17 +3,23 @@ import { cookies } from "next/headers";
 import { db } from "@/lib/db";
 
 async function ensureTableExists() {
-  await db`
-    CREATE TABLE IF NOT EXISTS sleep_window_planner_entries (
-      id VARCHAR(255) PRIMARY KEY,
-      user_id VARCHAR(255) NOT NULL,
-      planner_data TEXT NOT NULL,
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    )
-  `;
+  try {
+    await db`
+      CREATE TABLE IF NOT EXISTS sleep_window_planner_entries (
+        id VARCHAR(255) PRIMARY KEY,
+        user_id VARCHAR(255) NOT NULL,
+        planner_data TEXT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `;
+  } catch (err) {
+    console.error("Failed to create table sleep_window_planner_entries:", err);
+  }
 
-    // Auto-backfill any missing columns for legacy migrations
-    await db`ALTER TABLE sleep_window_planner_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255`.catch(() => {});
+  // Auto-backfill any missing columns for legacy migrations
+  await db`ALTER TABLE sleep_window_planner_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255)`.catch(() => {});
+  // Try to add primary key constraint if it doesn't exist, to prevent ON CONFLICT from failing
+  await db`ALTER TABLE sleep_window_planner_entries ADD PRIMARY KEY (id)`.catch(() => {});
 }
 
 export async function GET() {

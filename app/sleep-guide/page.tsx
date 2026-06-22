@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Moon, ChevronRight, ChevronLeft, Star } from "lucide-react";
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { PremiumLayout } from "@/components/shared/PremiumLayout";
+import { PremiumComplete } from "@/components/shared/PremiumComplete";
 import { motion, AnimatePresence } from "framer-motion";
 import i18n, { loadLocale } from './i18n';
 
@@ -256,21 +257,46 @@ function SleepGuideInner() {
                 </div>
               </div>
 
-              <button
-                onClick={() => setScreen(0)}
-                className="w-full bg-[#185FA5] text-[#E6F1FB] py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-blue-900/50 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
-              >
-                <ChevronLeft size={20} />
-                {t("screen2.button", "Previous Step")}
-              </button>
+              <div className="space-y-4">
+                <button
+                  onClick={() => setScreen(2)}
+                  className="w-full bg-[#378ADD] text-[#E6F1FB] py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-blue-900/50 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                >
+                  {t("screen2.complete", "Complete Activity")}
+                  <ChevronRight size={20} />
+                </button>
+                <button
+                  onClick={() => setScreen(0)}
+                  className="w-full bg-[#185FA5] text-[#E6F1FB] py-5 rounded-[2rem] font-black text-lg shadow-xl shadow-blue-900/50 hover:scale-[1.02] transition-all flex items-center justify-center gap-3"
+                >
+                  <ChevronLeft size={20} />
+                  {t("screen2.button", "Previous Step")}
+                </button>
+              </div>
             </motion.div>
-          )}
+          ) : screen === 2 ? (
+            <motion.div
+              key="screen3"
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="flex-1 flex flex-col w-full"
+            >
+              <PremiumComplete
+                title={t("complete.title", "Sleep Guide Complete")}
+                message={t("complete.message", "You've taken the first step in understanding and managing your sleep anxiety.")}
+                onRestart={() => setScreen(0)}
+                shareContent={"I just finished the Sleep Guide on TherapyMantra! \n\n Android: https://play.google.com/store/apps/details?id=org.mantracare.therapy\n iOS: https://apps.apple.com/pk/app/therapymantra/id1607643888"}
+              />
+            </motion.div>
+          ) : null}
         </AnimatePresence>
 
-        <div className="flex justify-center gap-2 mt-8">
-          <div className={`h-2 rounded-full transition-all duration-300 ${screen === 0 ? "w-8 bg-[#378ADD]" : "w-2 bg-slate-700"}`} />
-          <div className={`h-2 rounded-full transition-all duration-300 ${screen === 1 ? "w-8 bg-[#378ADD]" : "w-2 bg-slate-700"}`} />
-        </div>
+        {screen < 2 && (
+          <div className="flex justify-center gap-2 mt-8">
+            <div className={`h-2 rounded-full transition-all duration-300 ${screen === 0 ? "w-8 bg-[#378ADD]" : "w-2 bg-slate-700"}`} />
+            <div className={`h-2 rounded-full transition-all duration-300 ${screen === 1 ? "w-8 bg-[#378ADD]" : "w-2 bg-slate-700"}`} />
+          </div>
+        )}
       </div>
     </PremiumLayout>
   );
