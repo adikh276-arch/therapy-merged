@@ -428,14 +428,17 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
   const { t } = useTranslation();
   const { playPop } = useSound();
   
-  // Sync lang URL parameter
+  // Sync lang URL parameter & track entrance from Self Care Resources
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       const lang = params.get('lang') || 'en';
       loadGlobalResource(lang);
+
+      sessionStorage.setItem('opened_from_hub', 'true');
+      sessionStorage.setItem('hub_return_url', window.location.pathname + window.location.search);
     }
-  }, []);
+  }, [topicId]);
   const router = useRouter();
   const selectedTopic = topicId || null;
 

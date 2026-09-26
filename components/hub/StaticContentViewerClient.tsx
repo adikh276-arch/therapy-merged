@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { ChevronLeft } from 'lucide-react';
+import { goBack } from '@/lib/navigation';
 
 interface StaticContentViewerClientProps {
   concern: string;
@@ -19,17 +20,7 @@ export function StaticContentViewerClient({ concern, type }: StaticContentViewer
     <div className="flex flex-col h-screen bg-[#F6F8FB]">
       <header className="flex items-center px-4 h-14 bg-white border-b gap-3 flex-shrink-0">
         <button
-          onClick={() => {
-            if (typeof window !== 'undefined') {
-              if ((window as any).ReactNativeWebView) {
-                (window as any).ReactNativeWebView.postMessage(JSON.stringify({ action: 'exit' }));
-              } else if (window.parent !== window) {
-                window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-              } else {
-                router.back();
-              }
-            }
-          }}
+          onClick={() => goBack(undefined, router)}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
         >
           <ChevronLeft size={20} />

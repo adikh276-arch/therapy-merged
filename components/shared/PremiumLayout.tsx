@@ -4,7 +4,7 @@ import React, { useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, RotateCcw } from 'lucide-react';
-import { handlePlatformExit } from '../../lib/navigation';
+import { handleExit, goBack } from '../../lib/navigation';
 
 function ActivityTrackerInner() {
   const searchParams = useSearchParams();
@@ -59,7 +59,7 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   icon,
 }) => {
   const handleBack = () => {
-    handlePlatformExit();
+    goBack(onBack);
   };
 
   return (
