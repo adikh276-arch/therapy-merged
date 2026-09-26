@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, RotateCcw, Share2, Home } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useSound } from '@/lib/hooks/useSound';
-import { handleExit, handleExitOrDashboard } from '@/lib/navigation';
+import { handleExitOrDashboard } from '@/lib/navigation';
 import ShareModal from './ShareModal';
 
 interface PremiumCompleteProps {

@@ -84,10 +84,11 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
 
   const handleActivityClick = useCallback((activity: Activity) => {
     if (activity.route) {
-      if (activity.route.startsWith('http')) {
-        window.location.href = withLang(activity.route);
+      const normalizedRoute = activity.route.replace(/^\/(exercises|tools|trackers)\//, '/');
+      if (normalizedRoute.startsWith('http')) {
+        window.location.href = withLang(normalizedRoute);
       } else {
-        router.push(withLang(activity.route));
+        router.push(withLang(normalizedRoute));
       }
       return;
     }

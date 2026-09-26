@@ -4,7 +4,7 @@ import React, { useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, RotateCcw } from 'lucide-react';
-import { handleExit, goBack } from '../../lib/navigation';
+import { goBack } from '@/lib/navigation';
 
 function ActivityTrackerInner() {
   const searchParams = useSearchParams();

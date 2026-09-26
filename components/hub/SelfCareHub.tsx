@@ -3,9 +3,9 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { handlePlatformExit, withLang } from "@/lib/navigation";
+import { withLang } from "@/lib/navigation";
 import { useTranslation, I18nextProvider } from "react-i18next";
-import i18n, { loadGlobalResource } from "../../lib/i18n/i18n";
+import i18n, { loadGlobalResource } from "@/lib/i18n/i18n";
 import { useSound } from "@/lib/hooks/useSound";
 import { 
   ChevronLeft, 
@@ -41,7 +41,7 @@ import {
   HelpCircle,
   ArrowRight
 } from "lucide-react";
-import '../../lib/i18n/i18n'; // Initialize global i18n
+
 
 interface TopicCard {
   id: string;
@@ -113,12 +113,12 @@ const topicDetails: Record<string, {
       { titleKey: "tools.box-breathing", icon: Wind, url: "/box-breathing" },
       { titleKey: "tools.deep-breathing", icon: Play, url: "/4_6_8_breathing" },
       { titleKey: "exercises.grounding_technique", icon: Compass, url: "/grounding-technique" },
-      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/diffusion-technique" },
     ],
     todos: [
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
-      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/diffusion-technique" },
       { titleKey: "tools.care_tracker", icon: Heart, url: "/care-tracker" },
     ],
     resources: [
@@ -197,7 +197,7 @@ const topicDetails: Record<string, {
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/a-letter-to-self" },
       { titleKey: "tools.affirmations", icon: Smile, url: "/affirmations" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/diffusion-technique" },
     ],
     todos: [
       { titleKey: "tools.know_values", icon: Target, url: "/know-your-values" },
@@ -217,7 +217,7 @@ const topicDetails: Record<string, {
     exercises: [
       { titleKey: "tools.box-breathing", icon: Wind, url: "/box-breathing" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/diffusion-technique" },
       { titleKey: "tools.environment_optimization", icon: Compass, url: "/environment-optimization" },
     ],
     todos: [
@@ -259,13 +259,13 @@ const topicDetails: Record<string, {
     exercises: [
       { titleKey: "tools.box-breathing", icon: Wind, url: "/box-breathing" },
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/5_4_3_2_1_grounding" },
-      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/diffusion-technique" },
       { titleKey: "tools.doodle_burst", icon: Pen, url: "/doodle-burst" },
     ],
     todos: [
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
-      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/diffusion-technique" },
       { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
     ],
     resources: [
@@ -301,14 +301,14 @@ const topicDetails: Record<string, {
     exercises: [
       { titleKey: "exercises.grounding_technique", icon: Compass, url: "/grounding-technique" },
       { titleKey: "tools.box-breathing", icon: Wind, url: "/box-breathing" },
-      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/diffusion-technique" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
     ],
     todos: [
       { titleKey: "trackers.vibe_tracker", icon: TrendingUp, url: "/vibe-tracker" },
       { titleKey: "tools.know_values", icon: Brain, url: "/know-your-values" },
       { titleKey: "trackers.energy_tracker", icon: Zap, url: "/energy-tracker" },
-      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/diffusion-technique" },
     ],
     resources: [
       { titleKey: "hub.articles", count: 20, icon: Newspaper, url: "/resources/ptsd/articles" },
@@ -320,7 +320,7 @@ const topicDetails: Record<string, {
   acceptance: {
     descKey: "topics.acceptance.desc",
     exercises: [
-      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/diffusion-technique" },
       { titleKey: "tools.affirmations", icon: Smile, url: "/affirmations" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { titleKey: "exercises.pause_appreciation", icon: Pause, url: "/a-pause-for-appreciation" },
@@ -364,7 +364,7 @@ const topicDetails: Record<string, {
     exercises: [
       { titleKey: "tools.affirmations", icon: Smile, url: "/affirmations" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
-      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: RefreshCw, url: "/diffusion-technique" },
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/a-letter-to-self" },
     ],
     todos: [
@@ -384,7 +384,7 @@ const topicDetails: Record<string, {
     descKey: "topics.eating-disorder.desc",
     exercises: [
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/5_4_3_2_1_grounding" },
-      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/diffusion-technique" },
       { titleKey: "tools.affirmations", icon: Smile, url: "/affirmations" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
     ],
@@ -404,7 +404,7 @@ const topicDetails: Record<string, {
   ocd: {
     descKey: "topics.ocd.desc",
     exercises: [
-      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/exercises/diffusion-technique" },
+      { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/diffusion-technique" },
       { titleKey: "exercises.grounding_technique", icon: Compass, url: "/grounding-technique" },
       { titleKey: "tools.box-breathing", icon: Wind, url: "/box-breathing" },
       { titleKey: "tools.letter-to-self", icon: Mail, url: "/a-letter-to-self" },
@@ -444,13 +444,8 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
 
   const prefetchTool = (path: string) => {
     if (!path || path.startsWith('http')) return;
-    // Next.js prefetching is automatic via <Link> or router.prefetch
     router.prefetch(path);
   };
-
-  // No popstate listener needed — back navigation is handled directly:
-  // • Topic detail back button → router.back() (pops history)
-  // • Home back button → handlePlatformExit() inline
 
   const container = {
     hidden: { opacity: 0 },
@@ -461,6 +456,8 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
     hidden: { opacity: 0, y: 10 },
     show: { opacity: 1, y: 0 }
   };
+
+
 
   return (
     <div className="flex min-h-screen bg-[#F6F7F9]">
