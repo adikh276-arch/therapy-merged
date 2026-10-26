@@ -43,6 +43,7 @@ export const preserveQueryParams = (targetPath: string): string => {
       if (key === 'source') {
         currentParams.set('service', value);
       } else {
+        currentParams.set(key, value);
       }
     });
   }
@@ -55,8 +56,7 @@ export const preserveQueryParams = (targetPath: string): string => {
  * Centrally handles exit across all contexts:
  * 1. React Native WebView -> window.ReactNativeWebView.postMessage
  * 2. iframe inside web.mantracare.com -> window.parent.postMessage
- * 3. Localhost -> logs exit and redirects to https://web.mantracare.com/tasks
- * 4. Standalone browser -> redirects to https://web.mantracare.com/tasks
+ * 3. Localhost / Standalone browser -> redirects to https://web.mantracare.com/tasks
  */
 export function handleExit() {
   if (typeof window === 'undefined') return;
@@ -70,7 +70,6 @@ export function handleExit() {
     );
     return;
   }
-  
 
   // 2. iframe inside web.mantracare.com
   if (window.parent !== window) {
@@ -82,19 +81,8 @@ export function handleExit() {
     );
     return;
   }
-  // Localhost dev environment fallback: return to Self Care Hub ('/')
-  if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-    let returnUrl = '/';
-    try {
-      returnUrl = sessionStorage.getItem('hub_return_url') || '/';
-    } catch {
-      returnUrl = '/';
-    }
-    window.location.href = returnUrl;
-    return;
-  }
 
-  // 3. Standalone browser
+  // 3. Standalone browser or Localhost fallback
   window.location.href = 'https://web.mantracare.com/tasks';
 }
 
@@ -132,7 +120,7 @@ export const isOpenedFromDashboard = (): boolean => {
  * - If opened from Self Care Resources -> routes back to the hub ('/' or saved hub_return_url)
  * - If opened directly (deep link / standalone task) -> executes handleExit()
  */
-export const handleExitOrDashboard = (router?: { push: (path: string) => void }) => {
+export const handleExitOrDashboard = (router?: { push: (path: string) => void; back?: () => void }) => {
   if (isOpenedFromDashboard()) {
     let returnUrl = '/';
     try {
@@ -141,10 +129,20 @@ export const handleExitOrDashboard = (router?: { push: (path: string) => void })
       returnUrl = '/';
     }
 
+    // Strip leading /therapy (basePath) if present, since Next.js router automatically prefixes basePath
+    let relativeUrl = returnUrl;
+    if (relativeUrl.startsWith('/therapy')) {
+      relativeUrl = relativeUrl.replace(/^\/therapy/, '') || '/';
+    }
+
     if (router) {
-      router.push(returnUrl);
+      router.push(relativeUrl);
     } else if (typeof window !== 'undefined') {
-      window.location.href = returnUrl;
+      // For window.location.href, we need the full pathname including basePath if relative
+      const fullUrl = returnUrl.startsWith('/therapy')
+        ? returnUrl
+        : `/therapy${returnUrl.startsWith('/') ? returnUrl : `/${returnUrl}`}`;
+      window.location.href = fullUrl;
     }
   } else {
     handleExit();
@@ -154,7 +152,7 @@ export const handleExitOrDashboard = (router?: { push: (path: string) => void })
 /**
  * Handles back routing, delegating to onBackCallback or handleExitOrDashboard.
  */
-export const goBack = (onBackCallback?: () => void, router?: { push: (path: string) => void }) => {
+export const goBack = (onBackCallback?: () => void, router?: { push: (path: string) => void; back?: () => void }) => {
   if (onBackCallback) {
     onBackCallback();
   } else {
@@ -165,7 +163,7 @@ export const goBack = (onBackCallback?: () => void, router?: { push: (path: stri
 /**
  * Redirects back to Dashboard / Exit.
  */
-export const goToDashboard = (router?: { push: (path: string) => void }) => {
+export const goToDashboard = (router?: { push: (path: string) => void; back?: () => void }) => {
   handleExitOrDashboard(router);
 };
 

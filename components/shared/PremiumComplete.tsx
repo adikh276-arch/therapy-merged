@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, RotateCcw, Share2, Home } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
@@ -106,11 +107,12 @@ export const PremiumComplete: React.FC<PremiumCompleteProps> = ({
     message ||
     t('common.completion_message', "You've successfully completed this activity. Take a moment to appreciate your progress.");
 
+  const router = useRouter();
   const handleHome = () => {
     if (onHome) {
       onHome();
     } else {
-      handleExitOrDashboard();
+      handleExitOrDashboard(router);
     }
   };
 

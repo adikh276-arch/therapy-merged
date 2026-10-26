@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { withLang } from "@/lib/navigation";
+import { withLang, handleExit } from "@/lib/navigation";
 import { useTranslation, I18nextProvider } from "react-i18next";
 import i18n, { loadGlobalResource } from "@/lib/i18n/i18n";
 import { useSound } from "@/lib/hooks/useSound";
@@ -85,7 +85,7 @@ const topicDetails: Record<string, {
   exercises: { titleKey: string; icon: any; url?: string; action?: string }[];
   todos: { titleKey: string; icon: any; url?: string }[];
   resources: { titleKey: string; count: number; icon: any; url?: string }[];
-}> = {
+}> = { 
   depression: {
     descKey: "topics.depression.desc",
     exercises: [
@@ -642,17 +642,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <button 
-                      onClick={() => {
-                        if (typeof window !== 'undefined') {
-                          if ((window as any).ReactNativeWebView) {
-                            (window as any).ReactNativeWebView.postMessage(JSON.stringify({ action: 'exit' }));
-                          } else if (window.parent !== window) {
-                             window.parent.postMessage({ action: 'exit' }, 'https://web.mantracare.com');
-                          } else {
-                             window.location.href = 'https://web.mantracare.com';
-                          }
-                        }
-                      }} 
+                      onClick={() => handleExit()} 
                       className="p-2 -ml-2 text-slate-400 hover:text-slate-600"
                     >
                       <ChevronLeft size={24} />
