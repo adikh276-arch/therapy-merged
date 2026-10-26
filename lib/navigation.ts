@@ -43,7 +43,6 @@ export const preserveQueryParams = (targetPath: string): string => {
       if (key === 'source') {
         currentParams.set('service', value);
       } else {
-        currentParams.set(key, value);
       }
     });
   }
@@ -83,7 +82,6 @@ export function handleExit() {
     );
     return;
   }
-
   // Localhost dev environment fallback: return to Self Care Hub ('/')
   if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
     let returnUrl = '/';
