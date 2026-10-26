@@ -181,7 +181,7 @@ export const withLang = (url: string) => {
     const urlObj = new URL(url, isAbsolute ? undefined : window.location.origin);
     urlObj.searchParams.set('lang', lang);
     return isAbsolute ? urlObj.toString() : urlObj.pathname + urlObj.search + urlObj.hash;
-  } catch (e) {
+  } catch {
     return url;
   }
 };
