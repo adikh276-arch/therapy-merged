@@ -84,10 +84,15 @@ export function handleExit() {
     return;
   }
 
-  // Localhost dev environment fallback
+  // Localhost dev environment fallback: return to Self Care Hub ('/')
   if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-    window.history.pushState({}, '', '/admin/pathways');
-    window.dispatchEvent(new Event('popstate'));
+    let returnUrl = '/';
+    try {
+      returnUrl = sessionStorage.getItem('hub_return_url') || '/';
+    } catch {
+      returnUrl = '/';
+    }
+    window.location.href = returnUrl;
     return;
   }
 

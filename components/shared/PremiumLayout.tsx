@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, RotateCcw } from 'lucide-react';
 import { goBack } from '@/lib/navigation';
@@ -58,8 +58,10 @@ export const PremiumLayout: React.FC<PremiumLayoutProps> = ({
   showBack = true,
   icon,
 }) => {
+  const router = useRouter();
+
   const handleBack = () => {
-    goBack(onBack);
+    goBack(onBack, router);
   };
 
   return (
