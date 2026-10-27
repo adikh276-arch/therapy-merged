@@ -638,20 +638,21 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                 exit={{ opacity: 0 }}
                 className="space-y-8"
               >
-                <div className="space-y-2">
-                  <div className="flex items-center gap-3">
+                <div className="space-y-1.5 sm:space-y-2">
+                  <div className="flex items-center gap-2 sm:gap-3">
                     <button 
                       onClick={() => handleExit()} 
-                      className="p-2 -ml-2 text-slate-400 hover:text-slate-600"
+                      className="p-1.5 sm:p-2 -ml-1 sm:-ml-2 text-slate-400 hover:text-slate-600 shrink-0"
                     >
                       <ChevronLeft size={24} />
                     </button>
-                    <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
-                      <Sparkles size={20} className="text-primary" />
-                    </div>
-                    <h1 className="text-3xl font-bold text-slate-900">{t("hub.self_care_resources", "Self-Care Resources")}</h1>
+                    <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 whitespace-nowrap overflow-hidden text-ellipsis leading-tight">
+                      {t("hub.self_care_resources", "Self-Care Resources")}
+                    </h1>
                   </div>
-                  <p className="text-slate-500 font-medium ml-12">{t("hub.explore_tools", "Explore tools and guidance for your mental wellness journey")}</p>
+                  <p className="text-slate-500 font-medium text-xs sm:text-sm pl-8 sm:pl-10">
+                    {t("hub.explore_tools", "Explore tools and guidance for your mental wellness journey")}
+                  </p>
                 </div>
 
                 <div className="space-y-4">

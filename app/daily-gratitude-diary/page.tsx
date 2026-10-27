@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useEffect, useCallback } from 'react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
@@ -99,7 +99,7 @@ function DailyGratitudeInner() {
       day: 'numeric',
     });
 
-    const entryId = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15);
+    const entryId = `${Date.now()}${Math.floor(Math.random() * 900 + 100)}`;
 
     const payload = {
       id: entryId,

@@ -109,7 +109,8 @@ function VibeTrackerInner() {
       console.error('Failed to save vibe entry:', err);
     }
 
-    setScreen("confirmation");
+    // Take user directly to View History page on submitting vibe tracker
+    setScreen("history");
   };
 
   const handleReflectionNext = () => {

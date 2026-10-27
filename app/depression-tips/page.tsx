@@ -127,26 +127,26 @@ function TipsList({ onSelectTip }: { onSelectTip: (id: string) => void }) {
   const { t } = useTranslation(undefined, { i18n });
 
   return (
-    <div className="w-full space-y-10">
-      <header className="space-y-4 text-left">
-        <div className="flex items-center gap-2 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
-          <Sparkles size={14} />
-          {t('notAlone', "You're not alone ")}
+    <div className="w-full space-y-6 sm:space-y-8">
+      <header className="space-y-2 sm:space-y-3 text-left">
+        <div className="flex items-center gap-1.5 text-primary font-black text-[10px] uppercase tracking-[0.2em]">
+          <Sparkles size={12} />
+          {t('notAlone', "You're not alone")}
         </div>
-        <h1 className="text-4xl font-black text-slate-900 leading-tight tracking-tight">
+        <h1 className="text-2xl sm:text-3xl font-black text-slate-900 leading-tight tracking-tight">
           {t('supportForLowMood', 'Support for Low Mood')}
         </h1>
-        <p className="text-slate-500 text-base font-bold leading-relaxed max-w-md">
+        <p className="text-slate-500 text-xs sm:text-sm font-medium leading-relaxed max-w-md">
           {t('gentleSteps', 'Gentle steps to help you move forward, one day at a time.')}
         </p>
       </header>
 
-      <div className="space-y-6 text-left">
-        <h2 className="text-xs font-black text-slate-400 uppercase tracking-[0.2em] px-1">
+      <div className="space-y-3 sm:space-y-4 text-left">
+        <h2 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.2em] px-1">
           {t('dailySupportTips', 'Daily Support Tips')}
         </h2>
 
-        <div className="grid gap-4.5">
+        <div className="grid gap-3 sm:gap-4">
           {TIPS_DATA.map((tip, i) => {
             const Icon = tip.icon;
             const k = TIP_KEY_MAP[tip.id] ?? "";
@@ -155,31 +155,31 @@ function TipsList({ onSelectTip }: { onSelectTip: (id: string) => void }) {
                 key={tip.id}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.08 }}
-                whileHover={{ scale: 1.01, x: 4 }}
+                transition={{ delay: i * 0.05 }}
+                whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
                 onClick={() => onSelectTip(tip.id)}
-                className="w-full text-left p-5.5 rounded-3xl bg-white border border-white/60 shadow-sm hover:shadow-md hover:border-primary/20 transition-all flex items-center gap-4 group"
+                className="w-full text-left p-4 sm:p-5 rounded-2xl sm:rounded-3xl bg-white border border-slate-100 shadow-sm hover:shadow-md hover:border-primary/20 transition-all flex items-center gap-3.5 sm:gap-4 group"
               >
-                <div className={`w-14 h-14 rounded-2xl ${tip.iconBg} flex items-center justify-center shrink-0 transition-transform group-hover:scale-105`}>
-                  <Icon className="w-6 h-6" />
+                <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl ${tip.iconBg} flex items-center justify-center shrink-0 transition-transform group-hover:scale-105`}>
+                  <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-slate-850 text-base group-hover:text-primary transition-colors">
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base group-hover:text-primary transition-colors leading-snug">
                     {k ? t(`${k}_title`, tip.title) : tip.title}
                   </h3>
-                  <p className="text-slate-400 text-xs font-medium leading-relaxed mt-1 line-clamp-2">
+                  <p className="text-slate-500 text-xs font-medium leading-relaxed mt-1 line-clamp-2">
                     {k ? t(`${k}_preview`, tip.preview) : tip.preview}
                   </p>
                 </div>
-                <ChevronRight className="w-5 h-5 text-slate-300 group-hover:translate-x-1 transition-transform shrink-0" />
+                <ChevronRight className="w-5 h-5 text-slate-300 group-hover:translate-x-0.5 transition-transform shrink-0" />
               </motion.button>
             );
           })}
         </div>
       </div>
 
-      <p className="text-center text-slate-350 text-[10px] font-black uppercase tracking-[0.2em] mt-16 px-6 leading-relaxed opacity-80">
+      <p className="text-center text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mt-8 px-4 leading-relaxed opacity-80">
         {t('strugglingMessage', "If you're struggling deeply, consider reaching out to someone you trust or a mental health professional.")}
       </p>
     </div>
@@ -197,30 +197,30 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
   const doKeys = tip.whatYouCanDo.map((_, i) => `${k}_do${i + 1}`);
 
   return (
-    <div className="w-full space-y-8 pb-12 text-left">
+    <div className="w-full space-y-6 sm:space-y-8 pb-12 text-left">
       <div className="flex items-center justify-between">
         <motion.button
-          whileHover={{ scale: 1.08 }}
-          whileTap={{ scale: 0.92 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           onClick={onBack}
-          className="p-3 bg-slate-100 text-slate-650 rounded-2xl hover:bg-slate-200 hover:shadow-xl hover:shadow-primary/40 transition-colors shadow-sm"
+          className="p-2.5 sm:p-3 bg-white text-slate-600 rounded-xl sm:rounded-2xl border border-slate-100 hover:bg-slate-50 transition-colors shadow-sm"
         >
-          <ArrowLeft size={18} />
+          <ArrowLeft size={16} />
         </motion.button>
-        <span className="act-eyebrow">
+        <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-wider">
           <Sparkles size={12} />
           {t('dailySupportTips', 'Daily Support Tips')}
         </span>
       </div>
 
-      <div className="flex items-center gap-5 pt-2">
-        <div className={`w-18 h-18 rounded-[1.75rem] ${tip.iconBg} flex items-center justify-center shrink-0 shadow-sm border border-primary/5`}>
-          <Icon className="w-8 h-8" />
+      <div className="flex items-center gap-3.5 sm:gap-5 pt-1">
+        <div className={`w-14 h-14 sm:w-16 sm:h-16 rounded-2xl ${tip.iconBg} flex items-center justify-center shrink-0 shadow-sm border border-primary/5`}>
+          <Icon className="w-6 h-6 sm:w-7 sm:h-7" />
         </div>
         <motion.h1
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
-          className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight"
+          className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight"
         >
           {k ? t(`${k}_title`, tip.title) : tip.title}
         </motion.h1>
@@ -231,12 +231,12 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="bg-white rounded-[2rem] border border-white/60 p-8 shadow-sm hover:border-primary/20 transition-all"
+        className="bg-white rounded-2xl sm:rounded-[2rem] border border-slate-100 p-5 sm:p-7 shadow-sm"
       >
-        <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.25em] mb-4">
+        <h2 className="text-[10px] font-black text-primary uppercase tracking-[0.25em] mb-3">
           {t('whyItHelps', 'Why It Helps')}
         </h2>
-        <p className="text-slate-650 text-base font-bold leading-relaxed">
+        <p className="text-slate-700 text-sm sm:text-base font-medium leading-relaxed">
           {k ? t(`${k}_why`, tip.whyItHelps) : tip.whyItHelps}
         </p>
       </motion.section>
@@ -248,22 +248,22 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
         transition={{ delay: 0.2 }}
         className="space-y-4"
       >
-        <h2 className="text-lg font-black text-slate-800 tracking-tight px-1">
+        <h2 className="text-base sm:text-lg font-black text-slate-800 tracking-tight px-1">
           {t('whatYouCanDo', 'What You Can Do')}
         </h2>
-        <div className="grid gap-3">
+        <div className="grid gap-2.5 sm:gap-3">
           {doKeys.map((key, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.25 + i * 0.08 }}
-              className="flex items-start gap-4 p-5 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-2xl border border-transparent hover:bg-white hover:border-primary/25 transition-all shadow-sm"
+              className="flex items-start gap-3 sm:gap-4 p-4 sm:p-5 bg-white rounded-xl sm:rounded-2xl border border-slate-100 shadow-sm"
             >
-              <div className="w-8 h-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
-                <CheckCircle2 size={16} strokeWidth={3} />
+              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg sm:rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                <CheckCircle2 size={16} strokeWidth={2.5} />
               </div>
-              <span className="text-slate-700 text-sm font-bold leading-relaxed">
+              <span className="text-slate-700 text-xs sm:text-sm font-medium leading-relaxed">
                 {t(key, tip.whatYouCanDo[i])}
               </span>
             </motion.div>
@@ -277,27 +277,27 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35 }}
-          className="p-8 bg-emerald-50/50 rounded-[2rem] border border-emerald-100 shadow-sm space-y-5"
+          className="p-5 sm:p-7 bg-emerald-50/60 rounded-2xl sm:rounded-[2rem] border border-emerald-100 shadow-sm space-y-4"
         >
           <div className="flex items-center gap-2 text-emerald-600 font-black text-[10px] uppercase tracking-[0.25em]">
             <Lightbulb size={14} fill="currentColor" />
             {t('example', 'Example')}
           </div>
-          <div className="space-y-4">
+          <div className="space-y-3">
             <div className="space-y-1">
-              <p className="text-[9px] font-black text-emerald-400 uppercase tracking-[0.2em]">
+              <p className="text-[9px] font-black text-emerald-500 uppercase tracking-[0.2em]">
                 {t('insteadOf', 'Instead of:')}
               </p>
-              <p className="text-emerald-900/60 text-sm font-bold leading-relaxed">
+              <p className="text-emerald-900/70 text-xs sm:text-sm font-medium leading-relaxed italic">
                 {k ? t(`${k}_ex_instead`, tip.example.instead) : tip.example.instead}
               </p>
             </div>
-            <div className="h-0.5 w-8 bg-emerald-100/60 rounded-full" />
+            <div className="h-0.5 w-8 bg-emerald-200/60 rounded-full" />
             <div className="space-y-1">
-              <p className="text-[9px] font-black text-emerald-500 uppercase tracking-[0.2em]">
+              <p className="text-[9px] font-black text-emerald-600 uppercase tracking-[0.2em]">
                 {t('try', 'Try:')}
               </p>
-              <p className="text-emerald-900 text-base font-black leading-snug tracking-tight">
+              <p className="text-emerald-950 text-sm sm:text-base font-bold leading-snug tracking-tight">
                 {k ? t(`${k}_ex_try`, tip.example.tryThis) : tip.example.tryThis}
               </p>
             </div>
@@ -311,17 +311,17 @@ function TipDetailView({ tipId, onBack }: { tipId: string; onBack: () => void })
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="p-8 bg-gradient-to-r from-primary to-sky-400 border-none rounded-[2rem] text-white space-y-4 shadow-xl relative overflow-hidden"
+          className="p-5 sm:p-7 bg-gradient-to-r from-primary to-sky-400 rounded-2xl sm:rounded-[2rem] text-white space-y-3 shadow-md relative overflow-hidden"
         >
-          <div className="absolute top-0 right-0 p-6 text-white/5 pointer-events-none">
-            <MessageCircle size={100} strokeWidth={1} />
+          <div className="absolute top-0 right-0 p-6 text-white/10 pointer-events-none">
+            <MessageCircle size={80} strokeWidth={1} />
           </div>
-          <div className="flex items-center gap-2 text-slate-400 font-black text-[10px] uppercase tracking-[0.25em] relative z-10">
+          <div className="flex items-center gap-2 text-white/80 font-black text-[10px] uppercase tracking-[0.25em] relative z-10">
             <Sparkles size={14} />
             {t('gentleReminder', 'Gentle Reminder')}
           </div>
-          <p className="text-slate-200 text-base font-bold italic leading-relaxed relative z-10">
-            "{k ? t(`${k}_rem`, tip.gentleReminder) : tip.gentleReminder}"
+          <p className="text-white text-sm sm:text-base font-bold italic leading-relaxed relative z-10">
+            &ldquo;{k ? t(`${k}_rem`, tip.gentleReminder) : tip.gentleReminder}&rdquo;
           </p>
         </motion.section>
       )}
@@ -350,7 +350,7 @@ function DepressionTipsInner() {
       icon={<Heart className="w-6 h-6 text-primary" />}
       onBack={selectedTipId !== null ? () => setSelectedTipId(null) : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
+      <div className="w-full max-w-lg mx-auto flex flex-col px-3 sm:px-6 py-3 sm:py-4 min-h-[70vh]">
         <div className="relative flex-1 flex flex-col">
           <AnimatePresence mode="wait">
             {selectedTipId === null ? (

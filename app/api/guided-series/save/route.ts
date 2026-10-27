@@ -17,12 +17,37 @@ export async function POST(req: NextRequest) {
 
   try {
     await db`
-      INSERT INTO guided_series_logs (user_id, concern, activity_name, entry_data)
-      VALUES (${userId}, ${concern}, ${activityName}, ${JSON.stringify(entryData)})
+      CREATE TABLE IF NOT EXISTS guided_series_logs (
+        id SERIAL PRIMARY KEY,
+        user_id VARCHAR(255) NOT NULL,
+        concern VARCHAR(255) NOT NULL,
+        activity_name VARCHAR(255) NOT NULL,
+        entry_data JSONB NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
     `;
+    await db`ALTER TABLE guided_series_logs ALTER COLUMN user_id TYPE VARCHAR(255) USING user_id::VARCHAR`.catch(() => {});
+
+    try {
+      await db`
+        INSERT INTO guided_series_logs (user_id, concern, activity_name, entry_data)
+        VALUES (${String(userId)}, ${String(concern)}, ${String(activityName)}, ${JSON.stringify(entryData)})
+      `;
+    } catch (insertErr: any) {
+      const errMsg = String(insertErr?.message || "").toLowerCase();
+      if (errMsg.includes('bigint') || errMsg.includes('integer') || errMsg.includes('numeric')) {
+        const numericUserId = BigInt(String(userId).replace(/\D/g, '') || "1");
+        await db`
+          INSERT INTO guided_series_logs (user_id, concern, activity_name, entry_data)
+          VALUES (${numericUserId.toString()}::bigint, ${String(concern)}, ${String(activityName)}, ${JSON.stringify(entryData)})
+        `;
+      } else {
+        throw insertErr;
+      }
+    }
     return NextResponse.json({ success: true });
-  } catch (err) {
+  } catch (err: any) {
     console.error("Failed to save guided series log:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: "Database error", detail: err?.message }, { status: 500 });
   }
 }

@@ -115,7 +115,8 @@ function GratitudeTrackerInner() {
     if (!selectedMood || !gratitude1.trim()) return;
 
     const dateStr = toLocalIsoDate(new Date());
-    const id = currentEntryId || (crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 15));
+    // Create an ID that is safe for both VARCHAR and legacy BIGINT columns
+    const id = currentEntryId || `${Date.now()}${Math.floor(Math.random() * 900 + 100)}`;
 
     const payload = {
       id,
@@ -134,7 +135,7 @@ function GratitudeTrackerInner() {
       });
       if (!res.ok) {
         const errData = await res.json().catch(() => ({}));
-        alert("SAVE FAILED: " + JSON.stringify(errData));
+        console.error("Save failed:", errData);
         return;
       }
       setCurrentEntryId(id);

@@ -14,8 +14,9 @@ async function ensureTableExists() {
     )
   `;
 
-    // Auto-backfill any missing columns for legacy migrations
-    await db`ALTER TABLE gratitude_diary_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255)`.catch(() => {});
+    // Auto-backfill and safe cast
+    await db`ALTER TABLE gratitude_diary_entries ALTER COLUMN id TYPE VARCHAR(255) USING id::VARCHAR`.catch(() => {});
+    await db`ALTER TABLE gratitude_diary_entries ALTER COLUMN user_id TYPE VARCHAR(255) USING user_id::VARCHAR`.catch(() => {});
 }
 
 export async function GET() {
@@ -29,7 +30,7 @@ export async function GET() {
     await ensureTableExists();
     const rows = await db`
       SELECT id, date, feeling, gratitudes FROM gratitude_diary_entries 
-      WHERE user_id = ${userId} 
+      WHERE user_id::text = ${userId}::text 
       ORDER BY created_at DESC
     `;
     const formattedRows = rows.map((r: any) => ({
@@ -60,18 +61,35 @@ export async function POST(req: NextRequest) {
 
     const gratitudesStr = typeof gratitudes === "string" ? gratitudes : JSON.stringify(gratitudes);
 
-    await db`
-      INSERT INTO gratitude_diary_entries (id, user_id, date, feeling, gratitudes, created_at)
-      VALUES (${id}, ${userId}, ${date}, ${feeling}, ${gratitudesStr}, NOW())
-      ON CONFLICT (id) DO UPDATE SET
-        feeling = EXCLUDED.feeling,
-        gratitudes = EXCLUDED.gratitudes
-    `;
+    try {
+      await db`
+        INSERT INTO gratitude_diary_entries (id, user_id, date, feeling, gratitudes, created_at)
+        VALUES (${String(id)}, ${String(userId)}, ${String(date)}, ${String(feeling)}, ${gratitudesStr}, NOW())
+        ON CONFLICT (id) DO UPDATE SET
+          feeling = EXCLUDED.feeling,
+          gratitudes = EXCLUDED.gratitudes
+      `;
+    } catch (insertErr: any) {
+      const errMsg = String(insertErr?.message || "").toLowerCase();
+      if (errMsg.includes('bigint') || errMsg.includes('integer') || errMsg.includes('numeric')) {
+        const numericIdStr = String(id).replace(/\D/g, '').slice(0, 15) || String(Date.now());
+        const numericUserIdStr = String(userId).replace(/\D/g, '') || "1";
+        await db`
+          INSERT INTO gratitude_diary_entries (id, user_id, date, feeling, gratitudes, created_at)
+          VALUES (${numericIdStr}::bigint, ${numericUserIdStr}::bigint, ${String(date)}, ${String(feeling)}, ${gratitudesStr}, NOW())
+          ON CONFLICT (id) DO UPDATE SET
+            feeling = EXCLUDED.feeling,
+            gratitudes = EXCLUDED.gratitudes
+        `;
+      } else {
+        throw insertErr;
+      }
+    }
 
     return NextResponse.json({ success: true });
-  } catch (err) {
+  } catch (err: any) {
     console.error("Failed to save gratitude diary entry:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: "Database error", detail: err?.message }, { status: 500 });
   }
 }
 

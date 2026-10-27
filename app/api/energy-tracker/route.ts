@@ -62,20 +62,39 @@ export async function POST(req: NextRequest) {
 
     const factorsStr = typeof factors === "string" ? factors : JSON.stringify(factors);
 
-    await db`
-      INSERT INTO energy_logs (id, user_id, date, level, factors, note, created_at)
-      VALUES (${id}, ${userId}, ${date}, ${level}, ${factorsStr}, ${note || ""}, NOW())
-      ON CONFLICT (user_id, date) 
-      DO UPDATE SET 
-        level = EXCLUDED.level, 
-        factors = EXCLUDED.factors, 
-        note = EXCLUDED.note
-    `;
+    try {
+      await db`
+        INSERT INTO energy_logs (id, user_id, date, level, factors, note, created_at)
+        VALUES (${String(id)}, ${String(userId)}, ${String(date)}, ${level}, ${factorsStr}, ${note || ""}, NOW())
+        ON CONFLICT (user_id, date) 
+        DO UPDATE SET 
+          level = EXCLUDED.level, 
+          factors = EXCLUDED.factors, 
+          note = EXCLUDED.note
+      `;
+    } catch (insertErr: any) {
+      const errMsg = String(insertErr?.message || "").toLowerCase();
+      if (errMsg.includes('bigint') || errMsg.includes('integer') || errMsg.includes('numeric')) {
+        const numericIdStr = String(id).replace(/\D/g, '').slice(0, 15) || String(Date.now());
+        const numericUserIdStr = String(userId).replace(/\D/g, '') || "1";
+        await db`
+          INSERT INTO energy_logs (id, user_id, date, level, factors, note, created_at)
+          VALUES (${numericIdStr}::bigint, ${numericUserIdStr}::bigint, ${String(date)}, ${level}, ${factorsStr}, ${note || ""}, NOW())
+          ON CONFLICT (user_id, date) 
+          DO UPDATE SET 
+            level = EXCLUDED.level, 
+            factors = EXCLUDED.factors, 
+            note = EXCLUDED.note
+        `;
+      } else {
+        throw insertErr;
+      }
+    }
 
     return NextResponse.json({ success: true });
-  } catch (err) {
+  } catch (err: any) {
     console.error("Failed to save energy log:", err);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: "Database error", detail: err?.message }, { status: 500 });
   }
 }
 

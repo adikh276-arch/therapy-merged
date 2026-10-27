@@ -16,12 +16,14 @@ async function ensureTableExists() {
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
     `;
+    // PostgreSQL requires USING id::VARCHAR if column was originally BIGINT
+    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN id TYPE VARCHAR(255) USING id::VARCHAR`.catch(() => {});
+    // Ensure user_id column is VARCHAR
+    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN user_id TYPE VARCHAR(255) USING user_id::VARCHAR`.catch(() => {});
     // Add missing columns if table already existed without them
     await db`ALTER TABLE gratitude_tracker_entries ADD COLUMN IF NOT EXISTS gratitude2 TEXT`.catch(() => {});
-    // Also try to alter mood_emoji to be longer in case it was created as VARCHAR(10)
-    // and failed due to longer emoji names or React nodes
-    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN mood_emoji TYPE VARCHAR(255)`.catch(() => {});
-    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN mood_label TYPE VARCHAR(255)`.catch(() => {});
+    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN mood_emoji TYPE VARCHAR(255) USING mood_emoji::VARCHAR`.catch(() => {});
+    await db`ALTER TABLE gratitude_tracker_entries ALTER COLUMN mood_label TYPE VARCHAR(255) USING mood_label::VARCHAR`.catch(() => {});
   } catch (err) {
     console.error('ensureTableExists failed:', err);
   }
@@ -44,7 +46,7 @@ export async function GET(req: NextRequest) {
     if (date) {
       const rows = await db`
         SELECT id, date, gratitude1, gratitude2, mood_emoji, mood_label FROM gratitude_tracker_entries
-        WHERE user_id = ${userId} AND date = ${date}
+        WHERE user_id::text = ${userId}::text AND date = ${date}
         ORDER BY date DESC, id DESC
         LIMIT 1
       `;
@@ -63,7 +65,7 @@ export async function GET(req: NextRequest) {
       
       const rows = await db`
         SELECT id, date, gratitude1, gratitude2, mood_emoji, mood_label FROM gratitude_tracker_entries
-        WHERE user_id = ${userId} AND date >= ${monthStart} AND date <= ${monthEnd}
+        WHERE user_id::text = ${userId}::text AND date >= ${monthStart} AND date <= ${monthEnd}
         ORDER BY date ASC, id DESC
       `;
       const formattedRows = rows.map((r: any) => ({
@@ -75,7 +77,7 @@ export async function GET(req: NextRequest) {
 
     const rows = await db`
       SELECT id, date, gratitude1, gratitude2, mood_emoji, mood_label FROM gratitude_tracker_entries
-      WHERE user_id = ${userId}
+      WHERE user_id::text = ${userId}::text
       ORDER BY date DESC, id DESC
     `;
     const formattedRows = rows.map((r: any) => ({
@@ -104,20 +106,43 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    await db`
-      INSERT INTO gratitude_tracker_entries (id, user_id, date, gratitude1, gratitude2, mood_emoji, mood_label, created_at)
-      VALUES (${id}, ${userId}, ${date}, ${gratitude1}, ${gratitude2 || null}, ${moodEmoji}, ${moodLabel}, NOW())
-      ON CONFLICT (id) DO UPDATE SET
-        gratitude1 = EXCLUDED.gratitude1,
-        gratitude2 = EXCLUDED.gratitude2,
-        mood_emoji = EXCLUDED.mood_emoji,
-        mood_label = EXCLUDED.mood_label
-    `;
+    // Try standard insertion with id and userId
+    try {
+      await db`
+        INSERT INTO gratitude_tracker_entries (id, user_id, date, gratitude1, gratitude2, mood_emoji, mood_label, created_at)
+        VALUES (${String(id)}, ${String(userId)}, ${String(date)}, ${String(gratitude1)}, ${gratitude2 ? String(gratitude2) : null}, ${String(moodEmoji)}, ${String(moodLabel)}, NOW())
+        ON CONFLICT (id) DO UPDATE SET
+          gratitude1 = EXCLUDED.gratitude1,
+          gratitude2 = EXCLUDED.gratitude2,
+          mood_emoji = EXCLUDED.mood_emoji,
+          mood_label = EXCLUDED.mood_label
+      `;
+    } catch (insertErr: any) {
+      // If the database has id or user_id defined as BIGINT in a legacy table
+      const errMsg = String(insertErr?.message || "").toLowerCase();
+      if (errMsg.includes('bigint') || errMsg.includes('integer') || errMsg.includes('numeric')) {
+        const numericIdStr = String(id).replace(/\D/g, '').slice(0, 15) || String(Date.now());
+        const numericId = BigInt(numericIdStr);
+        const numericUserIdStr = String(userId).replace(/\D/g, '') || "1";
+        const numericUserId = BigInt(numericUserIdStr);
+
+        await db`
+          INSERT INTO gratitude_tracker_entries (id, user_id, date, gratitude1, gratitude2, mood_emoji, mood_label, created_at)
+          VALUES (${numericId.toString()}::bigint, ${numericUserId.toString()}::bigint, ${String(date)}, ${String(gratitude1)}, ${gratitude2 ? String(gratitude2) : null}, ${String(moodEmoji)}, ${String(moodLabel)}, NOW())
+          ON CONFLICT (id) DO UPDATE SET
+            gratitude1 = EXCLUDED.gratitude1,
+            gratitude2 = EXCLUDED.gratitude2,
+            mood_emoji = EXCLUDED.mood_emoji,
+            mood_label = EXCLUDED.mood_label
+        `;
+      } else {
+        throw insertErr;
+      }
+    }
 
     return NextResponse.json({ success: true });
   } catch (err: any) {
     console.error("Failed to save gratitude tracker entry:", err);
-    // Temporary: return 200 with the error so frontend doesn't swallow it and we can check it
     return NextResponse.json({ error: "Database error", detail: err.message }, { status: 400 });
   }
 }

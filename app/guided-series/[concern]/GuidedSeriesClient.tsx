@@ -67,10 +67,31 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
       if (typeof loadLocale === 'function') {
         loadLocale(lang);
       }
+      // Preserve the previous hub/topic URL if navigating from hub so we can exit Guided Series back to topic
+      const existingParent = sessionStorage.getItem('hub_return_url');
+      if (existingParent && !existingParent.includes('/guided-series/')) {
+        sessionStorage.setItem('guided_series_parent_url', existingParent);
+      }
+      // Set hub_return_url for child activities of Guided Series
+      sessionStorage.setItem('hub_return_url', window.location.pathname + window.location.search);
     }
-  }, []);
+  }, [concern]);
 
   const router = useRouter();
+
+  const handleBackToHub = useCallback(() => {
+    if (typeof window !== 'undefined') {
+      const parentUrl = sessionStorage.getItem('guided_series_parent_url');
+      if (parentUrl) {
+        let relativeUrl = parentUrl.startsWith('/therapy') ? parentUrl.slice('/therapy'.length) : parentUrl;
+        if (!relativeUrl.startsWith('/')) relativeUrl = '/' + relativeUrl;
+        sessionStorage.setItem('hub_return_url', relativeUrl);
+        router.push(withLang(relativeUrl));
+        return;
+      }
+    }
+    router.push(withLang(`/topics/${concern.toLowerCase()}`));
+  }, [concern, router]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -83,6 +104,9 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
   };
 
   const handleActivityClick = useCallback((activity: Activity) => {
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('hub_return_url', window.location.pathname + window.location.search);
+    }
     if (activity.route) {
       const normalizedRoute = activity.route.replace(/^\/(exercises|tools|trackers)\//, '/');
       if (normalizedRoute.startsWith('http')) {
@@ -100,7 +124,7 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-white/60 px-4 py-4 flex items-center gap-4">
         <button
-          onClick={() => goBack(undefined, router)}
+          onClick={() => goBack(handleBackToHub, router)}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
         >
           <ChevronLeft size={20} className="text-slate-600" />

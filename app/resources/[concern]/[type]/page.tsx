@@ -96,46 +96,46 @@ function ResourceListInner({ concern, type }: ResourceListInnerProps) {
       title={title}
       onBack={() => goBack(undefined, router)}
     >
-      <div className="w-full max-w-4xl mx-auto space-y-12 pb-24 px-4">
-        <div className="grid gap-6">
+      <div className="w-full max-w-4xl mx-auto space-y-8 sm:space-y-12 pb-24 px-3 sm:px-6">
+        <div className="grid gap-3 sm:gap-5">
           {resources.length > 0 ? (
             resources.map((res: Resource, i: number) => (
               <motion.button
                 key={res.id}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.05, type: 'spring', damping: 20 }}
+                transition={{ delay: i * 0.04, type: 'spring', damping: 20 }}
                 whileHover={{ y: -2, scale: 1.005 }}
                 whileTap={{ scale: 0.995 }}
                 onClick={() => router.push(`/resources/${concern}/${type}/${res.id}?lang=${i18n.language}`)}
-                className="w-full text-left p-6 md:p-8 rounded-[2rem] bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:border-slate-200 transition-all flex items-center gap-6 md:gap-8 group relative overflow-hidden"
+                className="w-full text-left p-4 sm:p-6 md:p-7 rounded-2xl sm:rounded-[2rem] bg-white border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:border-slate-200 transition-all flex items-center gap-3.5 sm:gap-6 group relative overflow-hidden active:bg-slate-50"
               >
-                <div className={`w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-500 ${bgClr}`}>
-                  <Icon className={`w-6 h-6 ${textClr}`} />
+                <div className={`w-11 h-11 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300 ${bgClr}`}>
+                  <Icon className={`w-5 h-5 sm:w-6 sm:h-6 ${textClr}`} />
                 </div>
                 
                 <div className="flex-1 min-w-0 space-y-1">
-                  <h3 className="font-bold text-slate-900 text-lg md:text-xl group-hover:text-primary transition-colors leading-tight">
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-lg md:text-xl group-hover:text-primary transition-colors leading-snug break-words">
                     {res.title}
                   </h3>
-                  <p className="text-slate-400 text-sm font-medium leading-relaxed line-clamp-2 pr-4">
+                  <p className="text-slate-500 text-xs sm:text-sm font-medium leading-relaxed line-clamp-2 pr-1">
                     {res.preview}
                   </p>
                 </div>
                 
-                <div className="w-10 h-10 rounded-full border border-slate-100 flex items-center justify-center shrink-0 group-hover:bg-slate-50 transition-all duration-300">
-                  <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-slate-500 group-hover:translate-x-0.5 transition-all" />
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-slate-100 flex items-center justify-center shrink-0 group-hover:bg-slate-50 transition-all duration-300">
+                  <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-slate-300 group-hover:text-slate-500 group-hover:translate-x-0.5 transition-all" />
                 </div>
               </motion.button>
             ))
           ) : (
-            <div className="py-32 text-center space-y-6 bg-white/40 backdrop-blur-sm shadow-sm border border-white/50 rounded-[4rem] border border-dashed border-slate-200">
+            <div className="py-20 sm:py-32 px-4 text-center space-y-5 bg-white/40 backdrop-blur-sm shadow-sm rounded-3xl sm:rounded-[3rem] border border-dashed border-slate-200">
               <div className="text-slate-200 flex justify-center">
-                <Icon size={80} strokeWidth={1} />
+                <Icon size={60} strokeWidth={1.5} className="sm:w-20 sm:h-20" />
               </div>
               <div className="space-y-1">
-                <p className="text-slate-900 font-black text-lg">{t('list.empty_title', { type: t(`types.${type}`, type) })}</p>
-                <p className="text-slate-400 font-bold text-sm">{t('list.empty_desc')}</p>
+                <p className="text-slate-900 font-bold text-base sm:text-lg">{t('list.empty_title', { type: t(`types.${type}`, type) })}</p>
+                <p className="text-slate-400 text-xs sm:text-sm">{t('list.empty_desc')}</p>
               </div>
             </div>
           )}

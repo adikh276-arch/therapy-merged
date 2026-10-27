@@ -151,7 +151,7 @@ function AngerQuizInner() {
       icon={<HelpCircle className="w-6 h-6 text-primary animate-pulse" />}
       onBack={screen !== "welcome" ? handleRetry : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh]">
+      <div className="w-full max-w-lg mx-auto flex flex-col px-3 sm:px-6 py-3 sm:py-4 min-h-[70vh]">
         {showCorrectConfetti && <Confetti />}
         
         <AnimatePresence mode="wait">
@@ -161,23 +161,25 @@ function AngerQuizInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="flex-1 flex flex-col items-center text-center gap-8 py-10"
+              className="flex-1 flex flex-col items-center text-center gap-6 sm:gap-8 py-6 sm:py-10"
             >
-              <div className="w-32 h-32 rounded-[3rem] bg-primary/10 flex items-center justify-center text-6xl shadow-2xl animate-pulse"><HelpCircle className="inline-block w-8 h-8" /></div>
-              <div className="space-y-4">
-                <h1 className="text-3xl font-extrabold text-slate-800 leading-tight">
+              <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-3xl sm:rounded-[3rem] bg-primary/10 flex items-center justify-center text-primary shadow-lg animate-pulse">
+                <HelpCircle className="w-10 h-10 sm:w-14 sm:h-14" />
+              </div>
+              <div className="space-y-2 sm:space-y-3">
+                <h1 className="text-2xl sm:text-3xl font-black text-slate-800 leading-tight">
                   {t("welcome_title", "Anger: Facts & Myths")}
                 </h1>
-                <p className="text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-base">
+                <p className="text-slate-500 font-medium leading-relaxed max-w-xs mx-auto text-xs sm:text-sm">
                   {t("welcome_subtitle", "Anger is often misunderstood. Test your awareness of how anger functions in our lives.")}
                 </p>
               </div>
               <button
                 onClick={() => setScreen("game")}
-                className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg shadow-2xl hover:opacity-90 transition-all flex items-center justify-center gap-3"
+                className="w-full py-4 sm:py-4.5 rounded-2xl bg-slate-900 text-white font-black text-base sm:text-lg shadow-xl hover:opacity-95 transition-all flex items-center justify-center gap-2"
               >
                 {t("start_quiz", "Start Quiz")}
-                <ChevronRight size={20} strokeWidth={3} />
+                <ChevronRight size={18} strokeWidth={2.5} />
               </button>
               <p className="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em]">
                 {t("questions_count", { count: TOTAL })}
@@ -191,7 +193,7 @@ function AngerQuizInner() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
-              className="flex-1 flex flex-col gap-6"
+              className="flex-1 flex flex-col gap-4 sm:gap-6"
             >
               <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
                 <motion.div
@@ -201,20 +203,20 @@ function AngerQuizInner() {
                 />
               </div>
 
-              <div className="relative overflow-hidden rounded-[3rem] bg-white border border-white/60 p-8 shadow-2xl flex-1 flex flex-col justify-center min-h-[180px]">
-                <h2 className="text-xl font-black text-slate-800 leading-snug text-center italic">
-                  "{current.statement}"
+              <div className="relative overflow-hidden rounded-2xl sm:rounded-[2.5rem] bg-white border border-slate-100 p-6 sm:p-8 shadow-sm flex-1 flex flex-col justify-center min-h-[140px] sm:min-h-[180px]">
+                <h2 className="text-base sm:text-xl font-black text-slate-800 leading-snug text-center italic">
+                  &ldquo;{current.statement}&rdquo;
                 </h2>
               </div>
 
-              <div className="space-y-6">
+              <div className="space-y-4 sm:space-y-6">
                 {!answered ? (
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-3 sm:gap-4">
                     <motion.button
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleAnswer("myth")}
-                      className="py-8 rounded-3xl bg-white border border-rose-50 text-rose-500 font-black text-xl shadow-xl hover:bg-rose-50/50 transition-all"
+                      className="py-5 sm:py-7 rounded-2xl sm:rounded-3xl bg-white border border-rose-100 text-rose-600 font-black text-base sm:text-xl shadow-sm hover:bg-rose-50/50 transition-all"
                     >
                       {t("myth_button", "Myth")}
                     </motion.button>
@@ -222,22 +224,22 @@ function AngerQuizInner() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleAnswer("fact")}
-                      className="py-8 rounded-3xl bg-white border border-emerald-50 text-emerald-500 font-black text-xl shadow-xl hover:bg-emerald-50/50 transition-all"
+                      className="py-5 sm:py-7 rounded-2xl sm:rounded-3xl bg-white border border-emerald-100 text-emerald-600 font-black text-base sm:text-xl shadow-sm hover:bg-emerald-50/50 transition-all"
                     >
                       {t("fact_button", "Fact")}
                     </motion.button>
                   </div>
                 ) : (
-                  <div className="space-y-6 animate-fade-in">
-                    <div className="flex flex-col items-center gap-2">
+                  <div className="space-y-4 sm:space-y-6 animate-fade-in">
+                    <div className="flex flex-col items-center gap-1.5 sm:gap-2">
                       <motion.div
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
-                        className={`w-12 h-12 rounded-2xl flex items-center justify-center ${isCorrect ? "bg-emerald-500" : "bg-rose-500"} text-white shadow-lg`}
+                        className={`w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl flex items-center justify-center ${isCorrect ? "bg-emerald-500" : "bg-rose-500"} text-white shadow-md`}
                       >
-                        {isCorrect ? <Check size={24} strokeWidth={4} /> : <XIcon size={24} strokeWidth={4} />}
+                        {isCorrect ? <Check size={20} strokeWidth={3.5} /> : <XIcon size={20} strokeWidth={3.5} />}
                       </motion.div>
-                      <p className={`text-xl font-black ${isCorrect ? "text-emerald-600 " : "text-rose-600 "}`}>
+                      <p className={`text-lg sm:text-xl font-black ${isCorrect ? "text-emerald-600" : "text-rose-600"}`}>
                         {isCorrect ? t("correct", "Correct!") : t("incorrect", "Incorrect")}
                       </p>
                     </div>
@@ -247,19 +249,19 @@ function AngerQuizInner() {
                         <motion.div
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
-                          className="bg-white border border-white/60 rounded-[2.5rem] p-8 space-y-4 shadow-2xl"
+                          className="bg-white border border-slate-100 rounded-2xl sm:rounded-[2rem] p-5 sm:p-7 space-y-3 sm:space-y-4 shadow-sm"
                         >
                           <div className="flex items-center gap-2">
-                            <span className={`px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] ${current.answer === "myth" ? "bg-rose-100 text-rose-600" : "bg-emerald-100 text-emerald-600"}`}>
+                            <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-[0.2em] ${current.answer === "myth" ? "bg-rose-100 text-rose-600" : "bg-emerald-100 text-emerald-600"}`}>
                               {current.answer === "myth" ? t("its_a_myth", "It's a Myth") : t("its_a_fact", "It's a Fact")}
                             </span>
                           </div>
-                          <p className="text-slate-700 font-bold text-base leading-relaxed">
+                          <p className="text-slate-700 font-bold text-xs sm:text-sm md:text-base leading-relaxed">
                             {current.realFact}
                           </p>
                           {current.example && (
-                            <div className="pt-4 border-t border-slate-50">
-                              <p className="text-slate-400 text-xs font-bold italic">
+                            <div className="pt-3 border-t border-slate-100">
+                              <p className="text-slate-400 text-xs font-medium italic">
                                 {t("example_label", "Example: ")}{current.example}
                               </p>
                             </div>
@@ -271,10 +273,10 @@ function AngerQuizInner() {
                     {showNext && (
                       <button
                         onClick={handleNext}
-                        className="w-full py-5 rounded-2xl bg-slate-900 text-white shadow-md font-black text-lg shadow-2xl hover:opacity-95 transition-all flex items-center justify-center gap-3"
+                        className="w-full py-4 rounded-xl sm:rounded-2xl bg-slate-900 text-white font-black text-sm sm:text-base shadow-xl hover:opacity-95 transition-all flex items-center justify-center gap-2"
                       >
                         {step + 1 === TOTAL ? t("see_results", "See Quiz Results") : t("next_question", "Next Question")}
-                        <ChevronRight size={20} strokeWidth={3} />
+                        <ChevronRight size={18} strokeWidth={2.5} />
                       </button>
                     )}
                   </div>

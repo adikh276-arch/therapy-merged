@@ -70,31 +70,65 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing date field" }, { status: 400 });
     }
 
-    await db`
-      INSERT INTO selfcare_entries (
-        user_id, date, did_self_care, activities, duration, 
-        prevention_reasons, helpful_type, mood, mood_emoji
-      )
-      VALUES (
-        ${userId}, 
-        ${entry.date}, 
-        ${entry.didSelfCare}, 
-        ${JSON.stringify(entry.activities || [])}, 
-        ${entry.duration || ""},
-        ${JSON.stringify(entry.preventionReasons || [])}, 
-        ${entry.helpfulType || ""}, 
-        ${entry.mood || ""}, 
-        ${entry.moodEmoji || ""}
-      )
-      ON CONFLICT (user_id, date) DO UPDATE SET
-        did_self_care = EXCLUDED.did_self_care,
-        activities = EXCLUDED.activities,
-        duration = EXCLUDED.duration,
-        prevention_reasons = EXCLUDED.prevention_reasons,
-        helpful_type = EXCLUDED.helpful_type,
-        mood = EXCLUDED.mood,
-        mood_emoji = EXCLUDED.mood_emoji
-    `;
+    try {
+      await db`
+        INSERT INTO selfcare_entries (
+          user_id, date, did_self_care, activities, duration, 
+          prevention_reasons, helpful_type, mood, mood_emoji
+        )
+        VALUES (
+          ${String(userId)}, 
+          ${entry.date}, 
+          ${entry.didSelfCare}, 
+          ${JSON.stringify(entry.activities || [])}, 
+          ${entry.duration || ""},
+          ${JSON.stringify(entry.preventionReasons || [])}, 
+          ${entry.helpfulType || ""}, 
+          ${entry.mood || ""}, 
+          ${entry.moodEmoji || ""}
+        )
+        ON CONFLICT (user_id, date) DO UPDATE SET
+          did_self_care = EXCLUDED.did_self_care,
+          activities = EXCLUDED.activities,
+          duration = EXCLUDED.duration,
+          prevention_reasons = EXCLUDED.prevention_reasons,
+          helpful_type = EXCLUDED.helpful_type,
+          mood = EXCLUDED.mood,
+          mood_emoji = EXCLUDED.mood_emoji
+      `;
+    } catch (insertErr: any) {
+      const errMsg = String(insertErr?.message || "").toLowerCase();
+      if (errMsg.includes('bigint') || errMsg.includes('integer') || errMsg.includes('numeric')) {
+        const numericUserId = BigInt(String(userId).replace(/\D/g, '') || "1");
+        await db`
+          INSERT INTO selfcare_entries (
+            user_id, date, did_self_care, activities, duration, 
+            prevention_reasons, helpful_type, mood, mood_emoji
+          )
+          VALUES (
+            ${numericUserId.toString()}::bigint, 
+            ${entry.date}, 
+            ${entry.didSelfCare}, 
+            ${JSON.stringify(entry.activities || [])}, 
+            ${entry.duration || ""},
+            ${JSON.stringify(entry.preventionReasons || [])}, 
+            ${entry.helpfulType || ""}, 
+            ${entry.mood || ""}, 
+            ${entry.moodEmoji || ""}
+          )
+          ON CONFLICT (user_id, date) DO UPDATE SET
+            did_self_care = EXCLUDED.did_self_care,
+            activities = EXCLUDED.activities,
+            duration = EXCLUDED.duration,
+            prevention_reasons = EXCLUDED.prevention_reasons,
+            helpful_type = EXCLUDED.helpful_type,
+            mood = EXCLUDED.mood,
+            mood_emoji = EXCLUDED.mood_emoji
+        `;
+      } else {
+        throw insertErr;
+      }
+    }
 
     return NextResponse.json({ success: true });
   } catch (err) {

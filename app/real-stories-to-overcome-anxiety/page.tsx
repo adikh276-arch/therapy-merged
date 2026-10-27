@@ -152,7 +152,7 @@ function RealStoriesInner() {
       onBack={screen !== 'intro' ? handleBackToSelection : undefined}
       onReset={screen !== 'intro' ? () => setScreen('intro') : undefined}
     >
-      <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh] text-center">
+      <div className="w-full max-w-lg mx-auto flex flex-col px-3 sm:px-6 py-3 sm:py-4 min-h-[70vh] text-center">
         <AnimatePresence mode="wait">
           {/* SCREEN 1: INTRO */}
           {screen === 'intro' && (
@@ -187,22 +187,22 @@ function RealStoriesInner() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="space-y-6 text-left w-full"
+              className="space-y-5 sm:space-y-6 text-left w-full"
             >
-              <div className="space-y-2">
-                <span className="act-eyebrow">
+              <div className="space-y-1.5 sm:space-y-2">
+                <span className="flex items-center gap-1.5 text-primary font-bold text-[10px] uppercase tracking-wider">
                   <Sparkles size={11} />
                   {t('app_title', 'Real Stories')}
                 </span>
-                <h1 className="act-heading">
+                <h1 className="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
                   {t('chooseStory', 'Select a Story')}
                 </h1>
-                <p className="act-body">
+                <p className="text-slate-500 text-xs sm:text-sm font-medium leading-relaxed">
                   {t('chooseStoryDesc', 'Tap on a profile to read their personal journey of strength and recovery.')}
                 </p>
               </div>
 
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-2.5 sm:gap-3">
                 {STORIES.map((story, idx) => (
                   <motion.button
                     key={story.name}
@@ -211,20 +211,20 @@ function RealStoriesInner() {
                     transition={{ delay: idx * 0.05 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={() => handleSelectStory(idx)}
-                    className="w-full p-5 text-left rounded-2xl bg-white/80 backdrop-blur-sm border border-white shadow-sm hover:border-sky-100 transition-all flex flex-col justify-start gap-2 relative overflow-hidden"
+                    className="w-full p-4 sm:p-5 text-left rounded-2xl bg-white border border-slate-100 shadow-sm hover:border-sky-200 transition-all flex flex-col justify-start gap-1.5 sm:gap-2 relative overflow-hidden"
                   >
                     <div className="flex items-center gap-3">
-                      <div className="w-9 h-9 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center text-sm font-bold shrink-0">
+                      <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center text-xs sm:text-sm font-bold shrink-0">
                         {story.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-semibold text-slate-800 text-sm">
+                        <h4 className="font-bold text-slate-800 text-sm sm:text-base">
                           {t(`stories.${idx}.name`, story.name)}, {story.age}
                         </h4>
                       </div>
                     </div>
-                    <p className="text-slate-500 text-xs leading-relaxed italic pr-4">
-                      &quot;{t(`stories.${idx}.quote`, story.quote)}&quot;
+                    <p className="text-slate-500 text-xs sm:text-sm font-medium leading-relaxed italic pr-2">
+                      &ldquo;{t(`stories.${idx}.quote`, story.quote)}&rdquo;
                     </p>
                   </motion.button>
                 ))}
@@ -239,25 +239,25 @@ function RealStoriesInner() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="w-full flex-1 flex flex-col text-left space-y-5"
+              className="w-full flex-1 flex flex-col text-left space-y-4 sm:space-y-5"
             >
               <button
                 onClick={handleBackToSelection}
-                className="font-semibold text-xs text-slate-400 mb-1 flex items-center gap-1.5 hover:text-sky-600 transition-colors uppercase tracking-wider"
+                className="font-bold text-xs text-slate-400 mb-1 flex items-center gap-1.5 hover:text-sky-600 transition-colors uppercase tracking-wider"
               >
                 <ArrowLeft size={14} />
                 {t('allStories', 'All Stories')}
               </button>
 
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-sky-50 border border-sky-100 text-sky-600 rounded-2xl flex items-center justify-center text-lg font-bold shadow-sm">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-sky-50 border border-sky-100 text-sky-600 rounded-xl sm:rounded-2xl flex items-center justify-center text-base sm:text-lg font-bold shadow-sm">
                   {currentStory.name.charAt(0)}
                 </div>
                 <div>
-                  <h2 className="font-bold text-slate-900 text-lg">
+                  <h2 className="font-bold text-slate-900 text-base sm:text-lg">
                     {t(`stories.${selectedStoryIdx}.name`, currentStory.name)}, {currentStory.age}
                   </h2>
-                  <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest mt-0.5">
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">
                     {t('recovery_journey', 'Inspirational Journey')}
                   </p>
                 </div>

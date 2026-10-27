@@ -13,8 +13,9 @@ async function ensureTableExists() {
     )
   `;
 
-    // Auto-backfill any missing columns for legacy migrations
-    await db`ALTER TABLE vibe_entries ADD COLUMN IF NOT EXISTS id VARCHAR(255)`.catch(() => {});
+    // Auto-backfill and safe cast
+    await db`ALTER TABLE vibe_entries ALTER COLUMN id TYPE VARCHAR(255) USING id::VARCHAR`.catch(() => {});
+    await db`ALTER TABLE vibe_entries ALTER COLUMN user_id TYPE VARCHAR(255) USING user_id::VARCHAR`.catch(() => {});
 }
 
 export async function GET() {
@@ -24,14 +25,12 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const userId = parseInt(userIdStr, 10);
-
   try {
     await ensureTableExists();
     const rows = await db`
       SELECT id, vibe, reflections, timestamp 
       FROM vibe_entries 
-      WHERE user_id = ${userId} 
+      WHERE user_id::text = ${userIdStr}::text 
       ORDER BY timestamp DESC
     `;
 
@@ -56,8 +55,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const userId = parseInt(userIdStr, 10);
-
   try {
     await ensureTableExists();
     const body = await req.json();
@@ -66,16 +63,35 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    await db`
-      INSERT INTO vibe_entries (id, user_id, vibe, reflections, timestamp)
-      VALUES (
-        ${body.id},
-        ${userId},
-        ${body.vibe},
-        ${JSON.stringify(body.reflections)},
-        ${body.timestamp || new Date().toISOString()}
-      )
-    `;
+    try {
+      await db`
+        INSERT INTO vibe_entries (id, user_id, vibe, reflections, timestamp)
+        VALUES (
+          ${String(body.id)},
+          ${String(userIdStr)},
+          ${body.vibe},
+          ${JSON.stringify(body.reflections)},
+          ${body.timestamp || new Date().toISOString()}
+        )
+      `;
+    } catch (insertErr: any) {
+      const errMsg = String(insertErr?.message || "").toLowerCase();
+      if (errMsg.includes('bigint') || errMsg.includes('integer') || errMsg.includes('numeric')) {
+        const numericUserId = BigInt(userIdStr.replace(/\D/g, '') || "1");
+        await db`
+          INSERT INTO vibe_entries (id, user_id, vibe, reflections, timestamp)
+          VALUES (
+            ${String(body.id)},
+            ${numericUserId.toString()}::bigint,
+            ${body.vibe},
+            ${JSON.stringify(body.reflections)},
+            ${body.timestamp || new Date().toISOString()}
+          )
+        `;
+      } else {
+        throw insertErr;
+      }
+    }
 
     return NextResponse.json({ success: true });
   } catch (err) {
