@@ -27,7 +27,7 @@ import {
 import { useTranslation } from 'react-i18next';
 import '@/lib/i18n/i18n';
 import { loadGlobalResource as loadLocale } from '@/lib/i18n/i18n';
-import { withLang } from '@/lib/navigation';
+import { withLang, goBack } from '@/lib/navigation';
 
 const iconMap: Record<string, any> = {
   Smile, Clock, Activity, Book, Target, Moon, Cloud, Wind,
@@ -100,7 +100,7 @@ export function GuidedSeriesClient({ concern, data }: GuidedSeriesClientProps) {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-white/60 px-4 py-4 flex items-center gap-4">
         <button
-          onClick={() => router.back()}
+          onClick={() => goBack(undefined, router)}
           className="p-2 hover:bg-slate-100 rounded-full transition-colors"
         >
           <ChevronLeft size={20} className="text-slate-600" />

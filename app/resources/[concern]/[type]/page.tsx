@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { ChevronRight, BookOpen, Heart, Newspaper, HelpCircle } from 'lucide-react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
+import { goBack } from '@/lib/navigation';
 import i18n, { loadLocale } from '../../i18n';
 import { getLocalizedData } from '../../dataLoader';
 import { Resource } from '../../types';
@@ -93,7 +94,7 @@ function ResourceListInner({ concern, type }: ResourceListInnerProps) {
   return (
     <PremiumLayout 
       title={title}
-      onBack={() => router.push(`/?lang=${i18n.language}`)}
+      onBack={() => goBack(undefined, router)}
     >
       <div className="w-full max-w-4xl mx-auto space-y-12 pb-24 px-4">
         <div className="grid gap-6">

@@ -9,8 +9,9 @@ if (!connectionString) {
 // Singleton SQL client
 export const sql = connectionString ? neon(connectionString) : null;
 
-// Alias for tagged-template usage in API routes: db`SELECT ...`
-export const db = sql as NonNullable<typeof sql>;
+// Safe fallback for tagged-template usage when DATABASE_URL is empty
+const noopDb = (() => Promise.resolve([])) as any;
+export const db = (sql || noopDb) as NonNullable<typeof sql>;
 
 export async function dbRequest<T = unknown>(query: string, params: unknown[] = []): Promise<T[]> {
   if (!sql) {

@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import '@/lib/i18n/i18n';
 import { loadGlobalResource as loadLocale } from '@/lib/i18n/i18n';
 import { apiPath } from '@/lib/apiPath';
+import { goBack } from '@/lib/navigation';
 
 interface GuidedActivityClientProps {
   concern: string;
@@ -224,7 +225,7 @@ export function GuidedActivityClient({ concern, activityName }: GuidedActivityCl
       <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-white/60 px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <button
-            onClick={() => router.back()}
+            onClick={() => goBack(undefined, router)}
             className="p-2.5 hover:bg-slate-100 rounded-full transition-colors bg-white/40 backdrop-blur-sm shadow-sm border border-white/50"
           >
             <ChevronLeft size={20} className="text-slate-600" />

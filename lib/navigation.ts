@@ -120,8 +120,18 @@ export const isOpenedFromDashboard = (): boolean => {
  * - If opened from Self Care Resources -> routes back to the hub ('/' or saved hub_return_url)
  * - If opened directly (deep link / standalone task) -> executes handleExit()
  */
-export const handleExitOrDashboard = (router?: { push: (path: string) => void; back?: () => void }) => {
+export const handleExitOrDashboard = (router?: { push?: (path: string) => void; replace?: (path: string) => void; back?: () => void }) => {
   if (isOpenedFromDashboard()) {
+    // If browser history has a previous internal entry, navigate back cleanly
+    if (typeof window !== 'undefined' && window.history.length > 1 && document.referrer && document.referrer.includes(window.location.host)) {
+      if (router?.back) {
+        router.back();
+        return;
+      }
+      window.history.back();
+      return;
+    }
+
     let returnUrl = '/';
     try {
       returnUrl = sessionStorage.getItem('hub_return_url') || '/';
@@ -132,17 +142,25 @@ export const handleExitOrDashboard = (router?: { push: (path: string) => void; b
     // Strip leading /therapy (basePath) if present, since Next.js router automatically prefixes basePath
     let relativeUrl = returnUrl;
     if (relativeUrl.startsWith('/therapy')) {
-      relativeUrl = relativeUrl.replace(/^\/therapy/, '') || '/';
+      relativeUrl = relativeUrl.slice('/therapy'.length);
+    }
+    // Ensure relativeUrl starts with '/' so Next router navigates to root/subpath, not appending query string
+    if (!relativeUrl.startsWith('/')) {
+      relativeUrl = '/' + relativeUrl;
     }
 
     if (router) {
-      router.push(relativeUrl);
+      if (router.replace) {
+        router.replace(relativeUrl);
+      } else if (router.push) {
+        router.push(relativeUrl);
+      }
     } else if (typeof window !== 'undefined') {
       // For window.location.href, we need the full pathname including basePath if relative
       const fullUrl = returnUrl.startsWith('/therapy')
         ? returnUrl
         : `/therapy${returnUrl.startsWith('/') ? returnUrl : `/${returnUrl}`}`;
-      window.location.href = fullUrl;
+      window.location.replace(fullUrl);
     }
   } else {
     handleExit();
@@ -152,7 +170,10 @@ export const handleExitOrDashboard = (router?: { push: (path: string) => void; b
 /**
  * Handles back routing, delegating to onBackCallback or handleExitOrDashboard.
  */
-export const goBack = (onBackCallback?: () => void, router?: { push: (path: string) => void; back?: () => void }) => {
+export const goBack = (
+  onBackCallback?: () => void,
+  router?: { push?: (path: string) => void; replace?: (path: string) => void; back?: () => void }
+) => {
   if (onBackCallback) {
     onBackCallback();
   } else {
@@ -163,7 +184,7 @@ export const goBack = (onBackCallback?: () => void, router?: { push: (path: stri
 /**
  * Redirects back to Dashboard / Exit.
  */
-export const goToDashboard = (router?: { push: (path: string) => void; back?: () => void }) => {
+export const goToDashboard = (router?: { push?: (path: string) => void; replace?: (path: string) => void; back?: () => void }) => {
   handleExitOrDashboard(router);
 };
 

@@ -209,8 +209,8 @@ function GratitudeTrackerInner() {
     <PremiumLayout
       title={t('app_title', 'Gratitude Journal')}
       icon={<Heart className="w-6 h-6 text-primary" />}
-      onBack={currentIdx > 0 && screen !== 'review' ? handleResetFlow : undefined}
-      onReset={currentIdx > 0 && screen !== 'review' ? handleResetFlow : undefined}
+      onBack={(currentIdx > 0 && screen !== 'review') || screen === 'history' ? handleResetFlow : undefined}
+      onReset={(currentIdx > 0 && screen !== 'review') || screen === 'history' ? handleResetFlow : undefined}
     >
       <div className="w-full max-w-md mx-auto flex flex-col px-6 py-4 min-h-[70vh] text-center">
         {screen !== 'review' && screen !== 'history' && (

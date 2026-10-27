@@ -68,13 +68,12 @@ const topicCards: TopicCard[] = [
   { id: "postpartum", icon: HeartPulse, labelKey: "topics.postpartum.label", bgColor: "#F0F9FF", iconColor: "#0EA5E9" },
   { id: "sexuality", icon: Sparkles, labelKey: "topics.sexuality.label", bgColor: "#E0F2FE", iconColor: "#0EA5E9" },
   { id: "eating-disorder", icon: UtensilsCrossed, labelKey: "topics.eating-disorder.label", bgColor: "#F7FEE7", iconColor: "#84CC16" },
-  { id: "ocd", icon: RefreshCw, labelKey: "topics.ocd.label", bgColor: "#DBEAFE", iconColor: "#3B82F6" },
 ];
 
 const toolCards: TopicCard[] = [
   { id: "box-breathing", icon: Wind, labelKey: "tools.box-breathing", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#00BCD4", url: "/box-breathing" },
   { id: "gratitude-tracker", icon: Star, labelKey: "tools.gratitude-tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#F9A825", url: "/gratitude-tracker" },
-  { id: "deep-breathing", icon: Activity, labelKey: "tools.deep-breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/4_6_8_breathing" },
+  { id: "deep-breathing", icon: Activity, labelKey: "tools.deep-breathing", bgColor: "linear-gradient(135deg, #f472b6 0%, #ec4899 100%)", iconColor: "#EC407A", url: "/4-6-8-breathing" },
   { id: "affirmations", icon: Smile, labelKey: "tools.affirmations", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#0EA5E9", url: "/affirmations" },
   { id: "mindful-space", icon: Compass, labelKey: "tools.mindful-space", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#66BB6A", url: "/joyful-activities" },
   { id: "letter-to-self", icon: Mail, labelKey: "tools.letter-to-self", bgColor: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)", iconColor: "#FF9800", url: "/a-letter-to-self" },
@@ -111,7 +110,7 @@ const topicDetails: Record<string, {
     descKey: "topics.anxiety.desc",
     exercises: [
       { titleKey: "tools.box-breathing", icon: Wind, url: "/box-breathing" },
-      { titleKey: "tools.deep-breathing", icon: Play, url: "/4_6_8_breathing" },
+      { titleKey: "tools.deep-breathing", icon: Play, url: "/4-6-8-breathing" },
       { titleKey: "exercises.grounding_technique", icon: Compass, url: "/grounding-technique" },
       { titleKey: "exercises.diffusion_technique", icon: Brain, url: "/diffusion-technique" },
     ],
@@ -152,7 +151,7 @@ const topicDetails: Record<string, {
   sleep: {
     descKey: "topics.sleep.desc",
     exercises: [
-      { titleKey: "tools.deep-breathing", icon: Play, url: "/4_6_8_breathing" },
+      { titleKey: "tools.deep-breathing", icon: Play, url: "/4-6-8-breathing" },
       { titleKey: "tools.box-breathing", icon: Wind, url: "/box-breathing" },
       { titleKey: "exercises.guided_imagery", icon: Play, url: "https://web.mantracare.com/mindfulness/media/203/1", action: 'guided' },
       { titleKey: "exercises.5_4_3_2_1_grounding", icon: Compass, url: "/5_4_3_2_1_grounding" },
@@ -715,21 +714,7 @@ function SelfCareHubInner({ topicId }: { topicId?: string }) {
                         whileHover={{ y: -2 }}
                         onClick={() => {
                           playPop();
-                          if (topic.id === 'ocd') {
-                            if (typeof window !== 'undefined') {
-                              if ((window as any).ReactNativeWebView) {
-                                (window as any).ReactNativeWebView.postMessage(JSON.stringify({
-                                  action: 'navigate',
-                                  screen: 'OCD',
-                                  params: {}
-                                }));
-                              } else if (window.parent !== window) {
-                                window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
-                              } else {
-                                window.location.href = withLang('https://web.mantracare.com');
-                              }
-                            }
-                          } else if (topic.url) {
+                          if (topic.url) {
                             window.location.href = withLang(topic.url);
                           } else {
                             router.replace(withLang(`/topics/${topic.id}`));

@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { CheckCircle2, Sparkles, Lightbulb, MessageCircle, HelpCircle, ArrowLeft } from 'lucide-react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
+import { goBack } from '@/lib/navigation';
 import i18n, { loadLocale } from '../../../i18n';
 import { getLocalizedData } from '../../../dataLoader';
 import { Resource, Tip, Article, Story, Myth } from '../../../types';
@@ -297,7 +298,7 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
   return (
     <PremiumLayout 
       title={resource.title}
-      onBack={() => router.push(`/resources/${concern}/${type}?lang=${i18n.language}`)}
+      onBack={() => goBack(undefined, router)}
     >
       <div className="max-w-3xl mx-auto px-6 py-4">
         {/* Custom scoped article styles */}
