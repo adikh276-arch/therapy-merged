@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { CheckCircle2, Sparkles, Lightbulb, MessageCircle, HelpCircle, ArrowLeft } from 'lucide-react';
 import { useTranslation, I18nextProvider } from 'react-i18next';
 import { PremiumLayout } from '@/components/shared/PremiumLayout';
-import { goBack } from '@/lib/navigation';
+import { goBack, withLang } from '@/lib/navigation';
 import i18n, { loadLocale } from '../../../i18n';
 import { getLocalizedData } from '../../../dataLoader';
 import { Resource, Tip, Article, Story, Myth } from '../../../types';
@@ -62,7 +62,16 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
 
   if (!resource) {
     return (
-      <PremiumLayout title={t("app_title", "Resources")}>
+      <PremiumLayout 
+        title={t("app_title", "Resources")}
+        onBack={() => {
+          if (router) {
+            router.push(withLang(`/resources/${concern}/${type}`));
+          } else if (typeof window !== 'undefined') {
+            window.location.href = withLang(`/resources/${concern}/${type}`);
+          }
+        }}
+      >
         <div className="flex flex-col items-center justify-center py-32 gap-6">
           <div className="w-20 h-20 rounded-full bg-slate-100 flex items-center justify-center text-slate-300">
             <HelpCircle size={40} />
@@ -72,7 +81,13 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
             <p className="text-slate-400 font-bold text-sm">{t("not_found.description")}</p>
           </div>
           <button 
-            onClick={() => router.push(`/resources/${concern}/${type}?lang=${i18n.language}`)} 
+            onClick={() => {
+              if (router) {
+                router.push(withLang(`/resources/${concern}/${type}`));
+              } else if (typeof window !== 'undefined') {
+                window.location.href = withLang(`/resources/${concern}/${type}`);
+              }
+            }} 
             className="px-8 py-3 bg-primary text-white font-black rounded-full shadow-lg shadow-primary/20 hover:scale-105 transition-transform"
           >
             {t("not_found.button")}
@@ -298,7 +313,13 @@ function ResourceDetailInner({ concern, type, id }: ResourceDetailInnerProps) {
   return (
     <PremiumLayout 
       title={resource.title}
-      onBack={() => goBack(undefined, router)}
+      onBack={() => {
+        if (router) {
+          router.push(withLang(`/resources/${concern}/${type}`));
+        } else if (typeof window !== 'undefined') {
+          window.location.href = withLang(`/resources/${concern}/${type}`);
+        }
+      }}
     >
       <div className="max-w-3xl mx-auto px-6 py-4">
         {/* Custom scoped article styles */}
